@@ -10,7 +10,7 @@
 
 只需要下载主 Release 里的一个安装包：
 
-[优先从 Gitee 下载 WCP 日语词书一键安装包 v1.2.1](https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/tag/wcp-jp-v1.2.1)；[GitHub Release v1.2.1 备用](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.1)。
+[下载 WCP 日语词书一键安装包 v1.2.1](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.1)。国内直连较慢时也可用 [Gitee 镜像](https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/tag/wcp-jp-v1.2.1)，内容相同。
 
 不要单独下载资源 Release。安装器会从 GitHub 资源 Release 下载单词音频和例句音频，并检查文件是否完整。
 

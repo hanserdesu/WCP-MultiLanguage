@@ -10,7 +10,7 @@
 
 ## 普通用户怎么安装
 
-1. 优先下载 [Gitee 上的 WCP 日语词书一键安装包 v1.2.1](https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/tag/wcp-jp-v1.2.1)；Gitee 打不开时使用 [GitHub Release v1.2.1](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.1)。
+1. 下载 [WCP 日语词书一键安装包 v1.2.1](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.1)。国内直连较慢时也可用 [Gitee 镜像](https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/tag/wcp-jp-v1.2.1)，内容相同。
 2. 解压安装包。
 3. 关闭万词破，双击解压后最外层的 `01_双击运行我.cmd`，不要进入 `support` 文件夹。
 4. 等待安装器完成，然后重新启动游戏。安装窗口会一直保留，请点击右上角 X 关闭；按 Enter 不会关闭窗口。
