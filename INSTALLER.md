@@ -24,7 +24,20 @@ Each release is inspected for either:
 The preferred manifest contains an `assets` array. Every asset has `kind`,
 `name`, `size`, `sha256`, and `url` (the installer can fill `url` from the
 release asset with the same name). `kind` may be `payload`, `pack`,
-`word_audio`, `sentence_audio`, or `slot_manifest`. A pack may also publish
+`word_audio`, `sentence_audio`, `slot_manifest`, or `mod`.
+
+## Mod payload (catalog top-level `mods` block)
+
+The BepInEx plugins (WcpHost, CustomSlotsMod, BookNameMod) are global: they do
+not belong to any single wordbook row. The catalog therefore carries a
+top-level `mods` object (`version`, `repo`, `assets`), backed by the
+`wcp-mods-v*` release on `hanserdesu/WCP-MultiLanguage`. Its payload zip uses
+BepInEx-relative entry paths (`plugins/*.dll`, mirroring the Japanese one-click
+installer payload), and the installer expands it into `<game>\BepInEx` before
+installing any wordbook. `hub-state.json` records it under a top-level `mods`
+key (`version` + per-asset sha256), so `-Update` re-fetches only when the
+release changes. The zip is verified by sha256 before extraction and entries
+are expanded individually with traversal rejection (a `..` entry aborts). A pack may also publish
 `status: "pending_release"` while its code/data is being prepared; it appears
 in `-List` but cannot be selected for installation until it is `available`.
 

@@ -21,6 +21,7 @@ param(
     [string[]]$Books,
     [string]$CatalogPath,
     [string]$GameDir,
+    [string]$DataRoot,
     [string]$StatePath,
     [double]$ReserveMb = 512,
     [switch]$Yes,
@@ -61,8 +62,9 @@ function Get-GameRoot {
     return $candidates[0]
 }
 
-$data = Join-Path $env:USERPROFILE 'AppData\LocalLow\WCP\wcp'
-$packsRoot = Join-Path (Split-Path -Parent $data) 'packs'
+$wcpRoot = if ($DataRoot) { $DataRoot } else { Join-Path $env:USERPROFILE 'AppData\LocalLow\WCP' }
+$data = Join-Path $wcpRoot 'wcp'
+$packsRoot = Join-Path $wcpRoot 'packs'
 $statePathResolved = if ($StatePath) { $StatePath } else { Join-Path $data 'hub-state.json' }
 $catalogPathResolved = if ($CatalogPath) { $CatalogPath } else { Join-Path $here 'catalog.json' }
 
@@ -270,7 +272,13 @@ $cachePath = Join-Path $data 'hub-catalog-cache.json'
 if (-not $Offline) {
     try {
         if (-not (Test-Path -LiteralPath $data)) { New-Item -ItemType Directory -Path $data -Force | Out-Null }
-        $catalog = Get-GitHubCatalog -base $catalog -owner $GitHubOwner
+        $mergedCatalog = Get-GitHubCatalog -base $catalog -owner $GitHubOwner
+        # Get-GitHubCatalog 只重建词书行；mods 块（mod 本体资产）必须原样带过，
+        # 否则在线刷新一次后 mod 载荷元数据就丢了。
+        if ((Get-PropertyNames $catalog) -contains 'mods') {
+            $mergedCatalog | Add-Member -NotePropertyName mods -NotePropertyValue $catalog.mods -Force
+        }
+        $catalog = $mergedCatalog
         $catalog | ConvertTo-Json -Depth 16 | Set-Content -LiteralPath $cachePath -Encoding UTF8
         Write-Verbose '已从 GitHub 刷新词书目录'
     } catch {
@@ -329,7 +337,25 @@ function Get-Sha256Hex([string]$path) {
 function Expand-HubZip([string]$zipPath, [string]$dest) {
     Add-Type -AssemblyName System.IO.Compression.FileSystem
     if (-not (Test-Path -LiteralPath $dest)) { New-Item -ItemType Directory -Path $dest -Force | Out-Null }
-    [IO.Compression.ZipFile]::ExtractToDirectory($zipPath, $dest, $true)
+    # Windows PowerShell 5.1 (.NET Framework) 的 ExtractToDirectory 没有 bool
+    # overwrite 重载（第三个参数是 Encoding，传 $true 会抛 InvalidCastException
+    # —— 2026-09-15 沙箱实测，这就是在线安装此前从未成功过的原因）。逐条目
+    # ExtractToFile(..., $true) 提供同样的覆盖语义。
+    $zip = [IO.Compression.ZipFile]::OpenRead($zipPath)
+    try {
+        foreach ($entry in $zip.Entries) {
+            if ($entry.FullName -match '(^|[\\/])\.\.([\\/]|$)') {
+                throw ('zip 条目越界，已拒绝: ' + $entry.FullName)
+            }
+            if ($entry.Name -eq '') { continue }  # 目录条目
+            $targetPath = Join-Path $dest ($entry.FullName -replace '/', '\')
+            $targetDir = Split-Path -Parent $targetPath
+            if ($targetDir -and -not (Test-Path -LiteralPath $targetDir)) {
+                New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
+            }
+            [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $targetPath, $true)
+        }
+    } finally { $zip.Dispose() }
 }
 
 function Merge-SlotSeed([string]$source) {
@@ -479,6 +505,81 @@ function Update-ManagedLanguagesMarker([string]$gameRoot, [string]$packsDir) {
     return $ready
 }
 
+# Mod 本体（BepInEx 插件）与词书资源分开管理：catalog 顶层的 mods 块描述全局
+# mod 载荷，与选择了哪本词书无关。安装/更新任何词书之前先保证 mod 已就位，这样
+# "装完 mod 后槽位扩到 20 条" 对任何语言都成立。state.mods.files 按 sha256 记账，
+# 与词书行同规则：只有通过下载+校验+展开的资产才写进状态，失败资产留在状态外，
+# 下次 -Update 自动重试。
+function Install-HubMods([string]$gameRoot, $Catalog, $HubState) {
+    if ((Get-PropertyNames $Catalog) -notcontains 'mods') { return $null }
+    $mods = $Catalog.mods
+    $mn = Get-PropertyNames $mods
+    foreach ($f in @('version', 'assets')) {
+        if ($mn -notcontains $f) { throw 'catalog.mods 缺少字段: ' + $f }
+    }
+    # 载荷 zip 的条目路径是 BepInEx 相对布局（plugins/WcpHost.dll，与日语一键包
+    # payload 约定一致），所以解到 BepInEx 根，而不是 plugins 目录里再套一层。
+    $modsRoot = Join-Path $gameRoot 'BepInEx'
+    $stateEntry = $null
+    if ($HubState -and (Get-PropertyNames $HubState) -contains 'mods') { $stateEntry = $HubState.mods }
+    $oldFiles = if ($stateEntry -and $stateEntry.files) { $stateEntry.files } else { $null }
+    $versionChanged = -not $stateEntry -or [string]$stateEntry.version -ne [string]$mods.version
+    $pending = New-Object System.Collections.Generic.List[object]
+    foreach ($a in @($mods.assets)) {
+        $known = $false
+        if ($oldFiles -and (Get-PropertyNames $oldFiles) -contains [string]$a.name) {
+            $known = ([string]$oldFiles.($a.name).sha256 -eq [string]$a.sha256)
+        }
+        if ($versionChanged -or -not $known) { [void]$pending.Add($a) }
+    }
+    $entry = [pscustomobject]@{ version = [string]$mods.version; files = $null }
+    if ($pending.Count -eq 0) {
+        Write-Host ('  mod: 已是最新（{0}）' -f $mods.version)
+        $entry.files = $oldFiles
+        return $entry
+    }
+    if (-not (Test-Path -LiteralPath $modsRoot)) {
+        New-Item -ItemType Directory -Path $modsRoot -Force | Out-Null
+    }
+    $files = [pscustomobject]@{}
+    foreach ($a in $pending) {
+        Write-Host ('  mod: {0} ({1} MB)' -f $a.name, [math]::Round($a.size / 1MB, 1))
+        $tmp = Join-Path $data ('hub_dl_' + [guid]::NewGuid().ToString('N'))
+        try {
+            $request = [Net.HttpWebRequest]::Create($a.url)
+            $request.Method = 'GET'
+            $request.Timeout = 120000
+            $request.ReadWriteTimeout = 120000
+            $request.Proxy = [Net.WebRequest]::DefaultWebProxy
+            if ($request.Proxy) { $request.Proxy.Credentials = [Net.CredentialCache]::DefaultCredentials }
+            $response = $request.GetResponse()
+            $stream = $response.GetResponseStream()
+            $fs = [IO.File]::Create($tmp)
+            $buf = New-Object byte[] 262144
+            while (($n = $stream.Read($buf, 0, $buf.Length)) -gt 0) { $fs.Write($buf, 0, $n) }
+            $fs.Dispose(); $stream.Dispose(); $response.Dispose()
+            $actual = Get-Sha256Hex $tmp
+            if ($actual -ne ([string]$a.sha256).ToLowerInvariant()) {
+                throw ('SHA-256 不匹配: ' + $a.name + ' 期望 ' + $a.sha256 + ' 实际 ' + $actual)
+            }
+            if ([string]$a.name -match '(?i)\.(zip|7z|tar|gz)$') {
+                Expand-HubZip $tmp $modsRoot
+            } else {
+                Copy-Item -LiteralPath $tmp -Destination (Join-Path $modsRoot $a.name) -Force
+            }
+            Remove-Item -LiteralPath $tmp -Force
+            $files | Add-Member -NotePropertyName $a.name -NotePropertyValue ([pscustomobject]@{ sha256 = $a.sha256; size = $a.size })
+        } catch {
+            $errors.Add('mod/' + $a.name + ': ' + $_.Exception.Message)
+            if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force }
+            continue
+        }
+    }
+    if (@($files.PSObject.Properties).Count -gt 0) { $entry.files = $files }
+    elseif ($oldFiles) { $entry.files = $oldFiles }
+    return $entry
+}
+
 $totalAssets = 0
 foreach ($wb in $selection) {
     $changedForCount = @(Get-WordbookAssetDiff -Wordbook $wb -InstalledState $installed)
@@ -487,6 +588,14 @@ foreach ($wb in $selection) {
 }
 $done = 0
 $errors = New-Object System.Collections.Generic.List[string]
+
+# Mod 本体先行：catalog 带 mods 块时，先把 BepInEx 插件装到位再装词书资源。
+$modsEntry = Install-HubMods -gameRoot $game -Catalog $catalog -HubState $state
+if ($modsEntry) {
+    if ((Get-PropertyNames $state) -contains 'mods') { $state.mods = $modsEntry }
+    else { $state | Add-Member -NotePropertyName mods -NotePropertyValue $modsEntry }
+    Save-HubState
+}
 
 foreach ($wb in $selection) {
     $ns = Join-Path $data ($wb.es3_prefix + '_hub_payload')

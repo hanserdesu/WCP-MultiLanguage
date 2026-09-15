@@ -58,6 +58,20 @@ $fullyLinked = @($available | Where-Object {
 })
 Check 'available 词书每项都是可校验的 release 资产' ($available.Count -eq $fullyLinked.Count)
 
+# mods 块：mod 本体（BepInEx 插件）走 catalog 顶层全局块，不挂在词书行上；
+# 资产必须可校验且真的发布在该 repo 名下，防止 404 死链。
+$shipHasMods = @($shipped.PSObject.Properties.Name) -contains 'mods'
+Check '随包目录带 mods 块' $shipHasMods
+if ($shipHasMods) {
+    $modsAssets = @($shipped.mods.assets)
+    $modsRepoTail = ([string]$shipped.mods.repo -split '/')[-1]
+    Check 'mods 块资产可校验且宿主一致' (@($modsAssets | Where-Object {
+        $_.url -match '^https://github\.com/.+/releases/download/.+/.+$' -and
+        ([string]$_.url -split '/')[4] -eq $modsRepoTail -and
+        $_.size -gt 0 -and $_.sha256 -match '^[0-9a-f]{64}$'
+    }).Count -eq $modsAssets.Count)
+}
+
 # selection
 $sel = @(Resolve-WordbookSelection -Catalog $cat -Ids @('b'))
 Check '按 id 选择' ($sel.Count -eq 1 -and $sel[0].id -eq 'b')
@@ -137,6 +151,11 @@ Check '交互式选择接入安装流程' ($installerText2 -match 'Resolve-Inter
 Check '-Update 无参数时默认已安装词书' ($installerText2 -match '\$defaultIds = if \(\$Update\) \{ \$installedIds \}')
 Check '安装状态使用 pack 布局版本' ($installerText -match '\$state\.layout = 2' -and
     (Get-Content -LiteralPath (Join-Path $here '..\WordbookHub.psm1') -Raw -Encoding UTF8) -match 'Layout 1')
+
+Check 'mod 本体先行安装接入' ($installerText2 -match 'function Install-HubMods' -and
+    $installerText2 -match 'Install-HubMods -gameRoot \$game -Catalog \$catalog' -and
+    $installerText2 -match 'Join-Path \$gameRoot ''BepInEx''')
+Check '在线目录刷新保留 mods 块' ($installerText2 -match 'NotePropertyName mods')
 
 # --- numbered rows / interactive picker -------------------------------------
 # Fixture: aa installable, bb pending a release, cc installable but publishing
