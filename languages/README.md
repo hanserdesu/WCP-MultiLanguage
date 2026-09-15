@@ -6,7 +6,7 @@
 
 | 目录 | 语言 / 词书 id | 来源仓库 | 集成时 HEAD | 状态 |
 |---|---|---|---|---|
-| `ja/` | 日语 / `ja` | `hanserdesu/japanese` | `5283a39` | 稳定版 `wcp-jp-v1.2.2` 已发布供群友使用；在研改动随工作区一并集成到本目录 |
+| `ja/` | 日语 / `ja` | `hanserdesu/japanese` | `5283a39` | 原仓库冻结在稳定版 `8e48f6a`（tag `wcp-jp-v1.2.2`），群友可见发布保持现状；在研改动随工作区一并集成到本目录 |
 | `fr/` | 法语 / `fr` | `hanserdesu/WCP-French-Wordbook` | 见 PROVENANCE | 资源由本仓库发布 `wcp-fr-resources-v1.0.0` |
 | `ru/` | 俄语 / `ru` | `hanserdesu/WCP-Russian-Wordbook` | 见 PROVENANCE | 资源由本仓库发布 `wcp-ru-resources-v1.0.0` |
 | `de/` | 德语 / `de` | `hanserdesu/WCP-German-Wordbook` | 见 PROVENANCE | 资源由本仓库发布 `wcp-de-resources-v1.0.0` |
@@ -22,7 +22,8 @@
 
 **以后所有语言的项目改动都在本仓库提交**：语言工程改 `languages/<code>/`，宿主、槽位、
 书名层、资源包契约与安装器改仓库根部对应目录。原语言仓库作为历史归档保留，不再作为开发入口；
-日语词书本体与日语语音包的 Release 仍留在 `hanserdesu/japanese`，其余语言的语音包由本仓库发布。
+`hanserdesu/japanese` 已按 2026-09-15 的决定冻结在稳定版，不再接收新提交；日语与所有语言的
+后续更新一律在本仓库 `languages/<code>/` 等目录内推进。
 
 ## 集成范围
 
@@ -45,7 +46,8 @@ python tools\verify_integration.py
 
 ## 日语回滚说明
 
-`hanserdesu/japanese` 的 `master` 已回滚到 `8e48f6a`（tag `wcp-jp-v1.2.2`），即群友正在使用的
-稳定版；回滚前的 12 个提交完整保存在本地分支 `archive/pre-freeze-2026-09-15` 与 reflog 中，
+`hanserdesu/japanese` 的 `master` 已回滚到 `8e48f6a`（tag `wcp-jp-v1.2.2`）并冻结：原仓库不再
+接收新提交，包括日语在内的所有语言后续更新都在本仓库推进；回滚前的 12 个提交完整保存在
+本地分支 `archive/pre-freeze-2026-09-15` 与 reflog 中，
 其工作区内容已随本目录 `ja/` 一并入库。`ja/` 目录里也包含工作区中主动删除的
 `packs/{de,fr,ru}/manifest.json`——这些语言的资源包清单以仓库根部 `packs/` 为准。
