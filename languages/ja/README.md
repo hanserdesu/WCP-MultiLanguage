@@ -4,16 +4,21 @@
 
 它把日语词书、中文释义、读音、例句和音频接入游戏，让万词破也可以用来学习日语。
 
-> **⚠️ 项目已迁移：** 本仓库已封存，仅保留历史版本与下载。日语词书与法语、俄语、德语、西班牙语、葡萄牙语、韩语、阿拉伯语、粤语等其他语言词书，后续已统一迁移到新仓库 [hanserdesu/WCP-MultiLanguage](https://github.com/hanserdesu/WCP-MultiLanguage)，请前往新仓库获取最新版本与公告。
->
-> 当前对外稳定版为 **v1.2.1**；`wcp-jp-v1.2.2` 起的版本仅用于开发验证，不再对外提供安装包。
+> **ℹ️ 关于多语言版：** 法语、俄语、德语、西班牙语、葡萄牙语、韩语、阿拉伯语、粤语等其他语言词书正在 [hanserdesu/WCP-MultiLanguage](https://github.com/hanserdesu/WCP-MultiLanguage) 统一开发中，正式上线后会替代本仓库的多语言能力。**日语词书请继续使用本仓库的安装包**，本仓库保持维护，用户反馈直接走安装器的自动反馈通道（见下方「遇到安装失败」）。
 
 ## 普通用户怎么安装
 
-1. 下载 [WCP 日语词书一键安装包 v1.2.1](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.1)。国内直连较慢时也可用 [Gitee 镜像](https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/tag/wcp-jp-v1.2.1)，内容相同。
+1. 下载 [WCP 日语词书一键安装包 v1.2.5](https://github.com/hanserdesu/japanese/releases/download/wcp-jp-v1.2.5/WCP-Japanese-OneClick-Installer-wcp-jp-v1.2.5.zip)（SHA-256 `c2b669ecc5fb99bcd8cec55f603cc6ef14f8806681da5043ad08b8b9e3466ad7`，发布页见 [wcp-jp-v1.2.5](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.5)）。
 2. 解压安装包。
 3. 关闭万词破，双击解压后最外层的 `01_双击运行我.cmd`，不要进入 `support` 文件夹。
 4. 等待安装器完成，然后重新启动游戏。安装窗口会一直保留，请点击右上角 X 关闭；按 Enter 不会关闭窗口。
+
+**正在使用 v1.2.1 或更早版本的用户直接下载 v1.2.5 覆盖安装即可**，无需先卸载。v1.2.5 相比 v1.2.1 的改进：
+
+- 解压/写入失败时显示具体原因（哪个文件、什么错误），不再只报「发生一个或多个错误」。
+- 解压与文件写入遇到临时占用（最常见为杀毒软件实时扫描锁定音频文件）时自动重试，显著降低安装失败率。
+- 安装失败时自动打开预填好的 GitHub Issue 反馈页面（已附完整错误链和日志），核对后点击 Submit 即可完成反馈。
+- 自动清理旧版本遗留的过期下载缓存与旧备份目录；备份词书时不再复制音频，重装不再反复占用 1～2 GB 磁盘。
 
 安装器会先创建一个持续保留的 CMD 会话，因此不会因 PowerShell 或默认终端异常而直接闪退。下载音频时会显示实时百分比、已下载容量和下载速度，解压时会显示文件百分比、容量、速度并使用多线程处理。当前音频安装的磁盘峰值约 7 GiB，建议存放 `%USERPROFILE%` 的数据盘至少保留 10 GiB；安装器会在开始前显示实际剩余空间和预计峰值。它会自动搜索 Steam 的所有游戏库，不要求游戏安装在固定盘符；会自动跳过 Steam 注册表中已经不存在的盘符，并继续搜索其他有效游戏库；上次失败留下的临时解压目录不会阻断新安装；优先使用系统 Windows PowerShell，找不到时自动改用 PowerShell 7；不满足运行条件时会显示原因并保持窗口。新用户不需要提前安装 BepInEx，安装器会自动安装随包提供的 BepInEx 5.4.23.5 和 Doorstop 运行环境。
 
@@ -26,11 +31,19 @@
 - 日语词书、数据库修复和例句播放插件。
 - 与作者本机一致的 BepInEx 5 运行环境。
 
-音频资源会由安装器从 [GitHub 资源 Release](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-resources-v1.0.0) 自动下载，并进行完整性校验。普通用户只需要下载主 Release 的一键安装包。
+音频资源会由安装器自动下载（国内用户优先走 Gitee 分片路由，失败时自动切换 GitHub 资源 Release），下载后进行 SHA-256 完整性校验，下载中断时保留缓存并在下次运行时断点续传。普通用户只需要下载主 Release 的一键安装包。
+
+## 遇到安装失败
+
+v1.2.5 起安装器自带反馈通道：
+
+1. 安装器会先自动重试一次（多数杀毒软件临时锁文件的场景能直接恢复）。
+2. 重试仍失败时，窗口会显示具体是哪个文件、什么错误，并给出针对性建议（如加入杀软白名单）。
+3. 同时会自动打开浏览器，呈现一个**已填好全部诊断信息的 GitHub Issue**（含安装器版本、系统环境、完整错误链和日志），核对后点击 Submit 即可。若浏览器没有打开，请把 `%USERPROFILE%\AppData\LocalLow\WCP\wcp\installer-error.log` 的内容发到 [Issues](https://github.com/hanserdesu/japanese/issues)。
 
 ## 会不会影响英语词库？
 
-日语词书写入游戏的自定义词书槽，正常情况下不会替换官方英语词库。安装器会自动备份已有词书存档、插件和旧 BepInEx 文件。
+日语词书写入游戏的自定义词书槽，正常情况下不会替换官方英语词库。安装器会自动备份已有词书存档、插件和旧 BepInEx 文件（备份位于 `%USERPROFILE%\AppData\LocalLow\WCP\wcp\jpmod_backups`，自动保留最近 3 份；音频不进备份，因为每次安装都会重新下载解压）。
 
 如果四个自定义词书槽都已占用，安装器会提示选择要替换的槽位。
 
@@ -42,16 +55,19 @@
 - Windows 系统。
 - 安装时保持网络畅通。音频约 2.4 GB，建议预留至少 5 GB 磁盘空间。
 - 安装前完全退出游戏。
+- **建议**：把游戏目录和 `%USERPROFILE%\AppData\LocalLow\WCP` 加入杀毒/安全软件白名单（或安装时暂时退出杀软），可避免实时扫描锁定上万个小音频文件导致安装失败。
 
 ## 常见问题
 
 **找不到游戏目录：** 确认游戏已安装并至少启动过一次；如果存在多个游戏目录，安装器会让你选择。
 
-**音频下载失败：** 检查网络和磁盘空间后重新运行安装器，已完成校验的资源会复用。
+**音频下载失败：** 检查网络和磁盘空间后重新运行安装器，已完成校验的资源会复用，未完成的分片或整包会保留在 `%USERPROFILE%\AppData\LocalLow\WCP\wcp\jpmod_downloads` 中并支持断点续传；安装器会自动在 Gitee / GitHub 路由间切换。
+
+**安装失败提示「发生一个或多个错误」：** 请升级到 v1.2.5。旧版安装器（v1.2.4 及更早）会把真实原因藏在内层异常里；v1.2.5 起会显示具体错误并在失败时自动打开反馈页面。
 
 **游戏启动后没有插件效果：** 确认游戏已完全退出后再安装，并检查游戏目录中是否存在 `BepInEx` 文件夹。安装器运行结束后要重新启动游戏。
 
-**想恢复原来的词书：** 备份位于 `%USERPROFILE%\AppData\LocalLow\WCP\wcp\jpmod_backups`，每次安装都会生成带时间的备份目录。
+**想恢复原来的词书：** 备份位于 `%USERPROFILE%\AppData\LocalLow\WCP\wcp\jpmod_backups`，自动保留最近 3 份。
 
 ## 开发者资料
 

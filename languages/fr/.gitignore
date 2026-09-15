@@ -21,3 +21,6 @@ output/release/
 
 # 校验脚本的单次运行日志 (临时证据, 不入库)
 work/_verify_run_*.txt
+
+# 本地 IL 反编译虚拟环境，不入库
+work/ildump_venv/

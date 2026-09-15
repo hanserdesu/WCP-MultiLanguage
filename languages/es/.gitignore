@@ -7,3 +7,4 @@ work/
 
 # Raw corpora are large (1 GB) and re-downloadable; see README for sources.
 data/raw/
+*.log

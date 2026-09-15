@@ -10,11 +10,11 @@
 
 只需要下载主 Release 里的一个安装包：
 
-[下载 WCP 日语词书一键安装包 v1.2.1](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.1)。国内直连较慢时也可用 [Gitee 镜像](https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/tag/wcp-jp-v1.2.1)，内容相同。
+[下载 WCP 日语词书一键安装包 v1.2.5](https://github.com/hanserdesu/japanese/releases/download/wcp-jp-v1.2.5/WCP-Japanese-OneClick-Installer-wcp-jp-v1.2.5.zip)（发布页：[wcp-jp-v1.2.5](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.5)）。正在使用 v1.2.1 或更早版本的用户直接覆盖安装即可，无需先卸载。
 
-不要单独下载资源 Release。安装器会从 GitHub 资源 Release 下载单词音频和例句音频，并检查文件是否完整。
+不要单独下载资源 Release。安装器会自动下载单词音频和例句音频（优先 Gitee 分片路由，失败自动切换 GitHub），下载后做 SHA-256 完整性校验，中断后保留缓存并断点续传。
 
-> ⚠️ 本仓库已封存，`wcp-jp-v1.2.2` 起仅作开发版本；日语与其他语言词书的后续开发已迁移到 [hanserdesu/WCP-MultiLanguage](https://github.com/hanserdesu/WCP-MultiLanguage)。
+> ℹ️ 本仓库继续负责日语词书的维护与用户反馈；法语、俄语、德语、西语、葡语、韩语、阿拉伯语、粤语等多语言版正在 [hanserdesu/WCP-MultiLanguage](https://github.com/hanserdesu/WCP-MultiLanguage) 统一开发，正式上线前不影响日语词书的使用与更新。
 
 ### 安装包会做什么？
 

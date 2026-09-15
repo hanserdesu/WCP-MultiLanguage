@@ -3,8 +3,8 @@
   "profile_id": "catbar-ko-complete",
   "language": "ko",
   "display_name": "韩语词库(猫条版)",
-  "word_count": 3123,
-  "fingerprint_sha256": "a0d87aeb56a508be26ed1a2fb0f83cedca3faf547278507650c85c5d7de1d1c1",
+  "word_count": 7330,
+  "fingerprint_sha256": "ff64542ef480b8edbbff1266eaf43ada77894c97fa61652f67a19061157088b2",
   "observed_slot": 0,
   "es3_prefix": "ko",
   "book_layout": "single",
@@ -32,17 +32,17 @@
     "pron": "ko_pron.tsv",
     "sentences": "ko_sentences.tsv",
     "payload_files": {
-      "ko_pron.tsv": "1b9ac1e2b545e7391095dea9f18ba77710d0a1a2654300c2ac4edfc84fee0ea3",
-      "ko_sentences.tsv": "9759e4fa719884466b675751ffc3193796757c09d844ee4c940d850574f68fdb"
+      "ko_pron.tsv": "ac5487ab10d0f4e1b573b4e84923d63b04b093b5f2a5b7625043118ff770c929",
+      "ko_sentences.tsv": "9b149feacaf28f4b59c57f55164b0a1cd6f4f2dbf8b03a1af3a1d27141b0bef4"
     }
   },
   "book_sha256": {
-    "韩语全量.xlsx": "a5811ddb48ed66c3fbe6c26ef7bb48def06b2f3c3ddb75012e53308a222ad425"
+    "韩语全量.xlsx": "fb44b3beed1c2f34bcbdaad4e052aa26b8ce16002d94f98aaef46513a07d4bcf"
   },
   "counts": {
-    "pron": 3123,
-    "sentence_rows": 9369,
-    "sentence_words": 3123,
+    "pron": 7330,
+    "sentence_rows": 21990,
+    "sentence_words": 7330,
     "words_without_sentences": 0
   },
   "notes": [

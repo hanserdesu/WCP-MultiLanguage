@@ -25,7 +25,7 @@ SLOT_MAP = {
     '韩语TOPIK1': ['topik1'],
     '韩语TOPIK2': ['topik2'],
     '韩语TOPIK3': ['topik3'],
-    '韩语全量': ['topik1', 'topik2', 'topik3'],
+    '韩语全量': ['topik1', 'topik2', 'topik3', 'topik4', 'topik5', 'topik6'],
 }
 
 

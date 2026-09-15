@@ -3,3 +3,11 @@ output/*_audio/
 *.mp3
 logs/
 __pycache__/
+
+# 音频生成运行日志与断点续跑状态（生成完毕后随产物校验，不随源入库）
+output/*_audio_*.log
+output/audio_*.log
+# 翻译/释义缓存的中间产物与备份（最终结果已写入 sentences_master/books）
+output/ko_translation_cache.json
+output/*.bak-*
+output/ko_*_run*.log

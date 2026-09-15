@@ -1,9 +1,9 @@
 {
-  "word_count": 8600,
-  "sentence_count": 25800,
+  "word_count": 8599,
+  "sentence_count": 25797,
   "files": {
-    "pt_pron.tsv": "7071be4bbf1927cf7b5b2484b061f3cb49811a930c6d738873e152cce8f8dc6b",
-    "pt_sentences.tsv": "7de9f50164e4a6a59793d57cb0487bb4e6811f316fe264a3e41e2fc933ef09b0"
+    "pt_pron.tsv": "736374d63c2c9bd94e3c8c00fdc3ec454c9433887cf05c687f3e019f95773fe9",
+    "pt_sentences.tsv": "380936d88421a6567acfae2a55daf8f20a26e3075715421acb46de222c931e1d"
   },
   "note": "本目录是 pack 专用载荷（展平两列），由 MultiLanguage/tools/build_pack_payload.py 生成；原 output/pt_db_payload 保持不变，仍供旧插件安装器使用。"
 }

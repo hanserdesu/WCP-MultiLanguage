@@ -44,10 +44,18 @@ def main():
             # 标音词形含 Tashkeel; 探针字段用原文, 音标字段留空 (无拉丁 IPA)
             ar_pron_lines.append(f"{w}\t\t\t{meaning}\n")
             sents = []
-            raw = it.get('example_ar', '')
-            s = re.sub(r'<[^>]+>', '', raw or '').strip()
-            if len(s) >= 2:
-                sents.append({'es': s, 'zh': it.get('example_zh', ''), 'word': w})
+            pairs = it.get('sentences') or []
+            for pair in pairs:
+                if not (isinstance(pair, (list, tuple)) and len(pair) >= 2):
+                    continue
+                s = re.sub(r'<[^>]+>', '', str(pair[0]) or '').strip()
+                if len(s) >= 2:
+                    sents.append({'es': s, 'zh': str(pair[1] or ''), 'word': w})
+            if not sents:
+                raw = it.get('example_ar', '')
+                s = re.sub(r'<[^>]+>', '', raw or '').strip()
+                if len(s) >= 2:
+                    sents.append({'es': s, 'zh': it.get('example_zh', ''), 'word': w})
             ar_sent_lines.append(f"{w}\t{json.dumps(sents, ensure_ascii=False)}\n")
 
     pron_file = PAYLOAD_DIR / 'ar_pron.tsv'

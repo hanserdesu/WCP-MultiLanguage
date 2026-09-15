@@ -3,8 +3,8 @@
   "profile_id": "catbar-pt-complete",
   "language": "pt",
   "display_name": "葡萄牙语词库(猫条版)",
-  "word_count": 8600,
-  "fingerprint_sha256": "ce9090929693994f6b26a829853aa359045457ff73ca2afc7796d54c4a5a9cf7",
+  "word_count": 8599,
+  "fingerprint_sha256": "9c2b019f2d8f3eae962c8de52a1021415aa1d6864f0237028f02ca33f2087e3f",
   "observed_slot": 0,
   "es3_prefix": "pt",
   "book_layout": "single",
@@ -32,17 +32,17 @@
     "pron": "pt_pron.tsv",
     "sentences": "pt_sentences.tsv",
     "payload_files": {
-      "pt_pron.tsv": "7071be4bbf1927cf7b5b2484b061f3cb49811a930c6d738873e152cce8f8dc6b",
-      "pt_sentences.tsv": "7de9f50164e4a6a59793d57cb0487bb4e6811f316fe264a3e41e2fc933ef09b0"
+      "pt_pron.tsv": "736374d63c2c9bd94e3c8c00fdc3ec454c9433887cf05c687f3e019f95773fe9",
+      "pt_sentences.tsv": "380936d88421a6567acfae2a55daf8f20a26e3075715421acb46de222c931e1d"
     }
   },
   "book_sha256": {
-    "葡萄牙语考级词库(猫条版).xlsx": "249fa33281b38978e12c5fc34afb13557f9bfa8428f0c4e398d07d407d01bbc1"
+    "葡萄牙语考级词库(猫条版).xlsx": "ecc47049eead8df81a5b65b6617387d1c58914792dae3dbec9977e567ffc04f7"
   },
   "counts": {
-    "pron": 8600,
-    "sentence_rows": 25800,
-    "sentence_words": 8600,
+    "pron": 8599,
+    "sentence_rows": 25797,
+    "sentence_words": 8599,
     "words_without_sentences": 0
   },
   "notes": [

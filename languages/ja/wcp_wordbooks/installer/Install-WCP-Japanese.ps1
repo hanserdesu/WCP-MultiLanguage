@@ -147,7 +147,7 @@ public sealed class WcpJapaneseZipSession
             root += Path.DirectorySeparatorChar;
 
         string[] names;
-        using (ZipArchive archive = ZipFile.OpenRead(zipPath))
+        using (ZipArchive archive = OpenArchiveWithRetry(zipPath))
         {
             int nameCount = 0;
             foreach (ZipArchiveEntry entry in archive.Entries)
@@ -197,7 +197,7 @@ public sealed class WcpJapaneseZipSession
     {
         try
         {
-            using (ZipArchive archive = ZipFile.OpenRead(zipPath))
+            using (ZipArchive archive = OpenArchiveWithRetry(zipPath))
             {
                 for (int i = workerIndex; i < names.Length; i += workerCount)
                 {
@@ -209,11 +209,7 @@ public sealed class WcpJapaneseZipSession
                         throw new InvalidDataException("Unsafe ZIP path: " + entry.FullName);
                     string parent = Path.GetDirectoryName(target);
                     if (!String.IsNullOrEmpty(parent)) Directory.CreateDirectory(parent);
-                    using (Stream input = entry.Open())
-                    using (FileStream output = new FileStream(ExtendedPathIfNeeded(target), FileMode.Create, FileAccess.Write, FileShare.None))
-                    {
-                        input.CopyTo(output);
-                    }
+                    WriteEntryWithRetry(entry, target);
                     Interlocked.Increment(ref CompletedFiles);
                     Interlocked.Add(ref CompletedBytes, entry.Length);
                 }
@@ -223,6 +219,67 @@ public sealed class WcpJapaneseZipSession
         {
             SetError(ex.ToString());
             throw;
+        }
+    }
+
+    // 杀毒/安全软件常在大量写入时临时锁定新文件，导致 IOException 或
+    // UnauthorizedAccessException。带退避的短重试能吸收这类瞬态占用；
+    // 最终失败时带上目标路径，让 PowerShell 端能给出具体原因。
+    // 注意：PS 5.1 的 Add-Type 只支持 C# 5，不能用异常过滤器等新语法。
+    private static ZipArchive OpenArchiveWithRetry(string zipPath)
+    {
+        const int attempts = 4;
+        for (int attempt = 1; ; attempt++)
+        {
+            try
+            {
+                return ZipFile.OpenRead(zipPath);
+            }
+            catch (IOException ex)
+            {
+                if (attempt >= attempts || !IsTransient(ex)) { throw; }
+                Thread.Sleep(400 * attempt);
+            }
+            catch (UnauthorizedAccessException)
+            {
+                if (attempt >= attempts) { throw; }
+                Thread.Sleep(400 * attempt);
+            }
+        }
+    }
+
+    private static bool IsTransient(IOException ex)
+    {
+        // .NET Framework 中 Exception.HResult 是 protected，外部访问无法编译，
+        // 只能用 Marshal.GetHRForException。
+        int hr = System.Runtime.InteropServices.Marshal.GetHRForException(ex) & 0xFFFF;
+        // ERROR_SHARING_VIOLATION (32) / ERROR_LOCK_VIOLATION (33)
+        return hr == 0x20 || hr == 0x21;
+    }
+
+    private void WriteEntryWithRetry(ZipArchiveEntry entry, string target)
+    {
+        const int attempts = 4;
+        for (int attempt = 1; ; attempt++)
+        {
+            try
+            {
+                using (Stream input = entry.Open())
+                using (FileStream output = new FileStream(ExtendedPathIfNeeded(target), FileMode.Create, FileAccess.Write, FileShare.None))
+                {
+                    input.CopyTo(output);
+                }
+                return;
+            }
+            catch (Exception ex)
+            {
+                if (!(ex is IOException) && !(ex is UnauthorizedAccessException)) { throw; }
+                if (attempt >= attempts)
+                {
+                    throw new IOException("写入 " + target + " 失败（重试 " + (attempts - 1) + " 次后仍失败）：" + ex.Message, ex);
+                }
+                Thread.Sleep(400 * attempt);
+            }
         }
     }
 
@@ -683,28 +740,88 @@ public static class WcpEs3Helper
     Add-Type -TypeDefinition $es3Source -Language CSharp -ErrorAction Stop
 }
 
+function Get-InstallerErrorLogPath {
+    # 详细的失败原因同时落盘，方便群友直接把日志发给作者排查。
+    return (Join-Path $env:USERPROFILE 'AppData\LocalLow\WCP\wcp\installer-error.log')
+}
+
+function Write-InstallerErrorLog([string]$text) {
+    try {
+        $logPath = Get-InstallerErrorLogPath
+        New-Item -ItemType Directory -Force -Path (Split-Path -Parent $logPath) | Out-Null
+        [IO.File]::AppendAllText($logPath, ("[{0}] {1}`r`n" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $text), (New-Object Text.UTF8Encoding($false)))
+    } catch { }
+}
+
+function Show-ExtractFailure([string]$displayName, [string]$detail) {
+    # GetAwaiter().GetResult() 只会抛出「发生一个或多个错误」这种聚合消息，
+    # 真正的原因（杀毒软件锁定文件、磁盘写入失败等）在内层异常里。
+    Write-Host ''
+    Write-Host "解压 $displayName 失败的详细原因：" -ForegroundColor Yellow
+    Write-Host $detail -ForegroundColor Yellow
+    Write-InstallerErrorLog "解压 $displayName 失败：$detail"
+    $hint = $null
+    if ($detail -match 'UnauthorizedAccessException|拒绝访问|Access is denied|being used by another process|另一个程序正在使用|The process cannot access') {
+        $hint = '提示：文件写入被拒绝或占用。最常见原因是杀毒/安全软件正在扫描这些音频文件。' +
+            '请把游戏目录和 %USERPROFILE%\AppData\LocalLow\WCP 加入杀毒软件白名单（或暂时退出杀毒软件）后重试。'
+    } elseif ($detail -match 'IOException|磁盘空间|There is not enough space| HALT:') {
+        if ($detail -notmatch '磁盘空间') { $hint = '提示：可能是磁盘空间不足或磁盘写入错误，请确认相关磁盘剩余空间后重试。' }
+    } elseif ($detail -match 'InvalidDataException|ZIP|压缩') {
+        $hint = '提示：音频压缩包可能下载不完整或被安全软件改动，请删除 %USERPROFILE%\AppData\LocalLow\WCP\wcp\jpmod_downloads 目录后重试。'
+    } elseif ($detail -match 'DirectoryNotFoundException|FileNotFoundException|找不到') {
+        $hint = '提示：文件或目录丢失，可能是安全软件隔离了安装文件。请把安装目录加入白名单后重新解压安装包再试。'
+    }
+    if ($hint) { Write-Host $hint -ForegroundColor Yellow }
+    Write-Host "完整错误已写入：$(Get-InstallerErrorLogPath)（排查时请把此文件发给作者）" -ForegroundColor DarkYellow
+}
+
 function Expand-ZipWithProgress([string]$zipPath, [string]$destination, [string]$displayName) {
     Ensure-ZipExtractor
     $workers = [Math]::Max(2, [Math]::Min(4, [Environment]::ProcessorCount))
-    $session = [WcpJapaneseZipSession]::Start($zipPath, $destination, $workers)
-    while (-not $session.TotalReady -and -not $session.Task.IsCompleted) {
-        Write-Progress -Activity "解压 $displayName" -Status '正在读取资源清单...' -PercentComplete 0
-        Start-Sleep -Milliseconds 100
+    $attempt = 0
+    $maxAttempts = 2
+    while ($true) {
+        $attempt++
+        $session = [WcpJapaneseZipSession]::Start($zipPath, $destination, $workers)
+        while (-not $session.TotalReady -and -not $session.Task.IsCompleted) {
+            Write-Progress -Activity "解压 $displayName" -Status '正在读取资源清单...' -PercentComplete 0
+            Start-Sleep -Milliseconds 100
+        }
+        $task = $session.Task
+        $totalFiles = $session.TotalFiles
+        $totalBytes = $session.TotalBytes
+        $watch = [Diagnostics.Stopwatch]::StartNew()
+        while (-not $task.IsCompleted) {
+            $doneFiles = [Math]::Min($session.CompletedFiles, $totalFiles)
+            $doneBytes = [Math]::Min($session.CompletedBytes, $totalBytes)
+            $percent = if ($totalFiles -gt 0) { [Math]::Min(100, [int](($doneFiles * 100) / $totalFiles)) } else { 100 }
+            $speed = if ($watch.Elapsed.TotalSeconds -gt 0) { $doneBytes / 1MB / $watch.Elapsed.TotalSeconds } else { 0 }
+            $status = "$percent%  文件 $doneFiles / $totalFiles  $([Math]::Round($doneBytes / 1MB, 1)) / $([Math]::Round($totalBytes / 1MB, 1)) MB  $([Math]::Round($speed, 2)) MB/s  并行线程 $workers"
+            Write-Progress -Activity "解压 $displayName" -Status $status -PercentComplete $percent
+            Start-Sleep -Milliseconds 250
+        }
+        try {
+            $task.GetAwaiter().GetResult()
+            break
+        } catch {
+            # 保险：任何情况下都把内层异常显示出来，而不是只报「发生一个或多个错误」。
+            $detail = $session.GetError()
+            if (-not $detail) {
+                $inner = $_.Exception
+                while ($inner.InnerException) { $inner = $inner.InnerException }
+                $detail = $inner.ToString()
+            }
+            if ($attempt -lt $maxAttempts) {
+                Write-Host ''
+                Write-Host "解压 $displayName 时遇到错误，正在自动重试（第 $attempt 次失败，通常为杀毒软件临时占用文件）..." -ForegroundColor Yellow
+                Write-InstallerErrorLog "解压 $displayName 第 $attempt 次失败（将重试）：$detail"
+                Start-Sleep -Seconds 3
+                continue
+            }
+            Show-ExtractFailure $displayName $detail
+            throw
+        }
     }
-    $task = $session.Task
-    $totalFiles = $session.TotalFiles
-    $totalBytes = $session.TotalBytes
-    $watch = [Diagnostics.Stopwatch]::StartNew()
-    while (-not $task.IsCompleted) {
-        $doneFiles = [Math]::Min($session.CompletedFiles, $totalFiles)
-        $doneBytes = [Math]::Min($session.CompletedBytes, $totalBytes)
-        $percent = if ($totalFiles -gt 0) { [Math]::Min(100, [int](($doneFiles * 100) / $totalFiles)) } else { 100 }
-        $speed = if ($watch.Elapsed.TotalSeconds -gt 0) { $doneBytes / 1MB / $watch.Elapsed.TotalSeconds } else { 0 }
-        $status = "$percent%  文件 $doneFiles / $totalFiles  $([Math]::Round($doneBytes / 1MB, 1)) / $([Math]::Round($totalBytes / 1MB, 1)) MB  $([Math]::Round($speed, 2)) MB/s  并行线程 $workers"
-        Write-Progress -Activity "解压 $displayName" -Status $status -PercentComplete $percent
-        Start-Sleep -Milliseconds 250
-    }
-    $task.GetAwaiter().GetResult()
     $finalStatus = "100%  文件 $totalFiles / $totalFiles  $([Math]::Round($totalBytes / 1MB, 1)) / $([Math]::Round($totalBytes / 1MB, 1)) MB"
     Write-Progress -Activity "解压 $displayName" -Status $finalStatus -PercentComplete 100
     Write-Progress -Activity "解压 $displayName" -Completed
@@ -747,6 +864,79 @@ function Remove-TreeNet([string]$path) {
         [IO.Directory]::Delete($path, $true)
     } catch {
         Remove-Item -LiteralPath $path -Recurse -Force -ErrorAction SilentlyContinue
+    }
+}
+
+function Backup-PackWithoutAudio([string]$sourceDir, [string]$targetDir) {
+    # 备份旧语言资源包时跳过 audio 子树：音频每次安装都会重新下载解压，
+    # 旧音频的备份只会让每次重装在磁盘上多堆 1~2 GB，回滚时也用不到。
+    New-Item -ItemType Directory -Force -Path $targetDir | Out-Null
+    foreach ($item in [IO.Directory]::EnumerateFileSystemEntries($sourceDir)) {
+        $name = [IO.Path]::GetFileName($item)
+        if ($name -ieq 'audio') { continue }
+        $target = Join-Path $targetDir $name
+        if ([IO.Directory]::Exists($item)) {
+            Copy-TreeNet $item $target ('备份 ' + $name)
+        } else {
+            [IO.File]::Copy($item, $target, $true)
+        }
+    }
+}
+
+function Remove-LegacyRedundancy {
+    # 新版安装器接管旧版本遗留：清理过期下载缓存与多余备份，避免每次
+    # 更新都在用户磁盘上堆积数 GB 冗余。所有删除都允许失败（被占用则跳过）。
+    param(
+        [string]$DataDir,
+        $WordAsset,
+        $SentenceAsset
+    )
+    $freed = [int64]0
+    # 1) 下载缓存：只保留与当前清单 SHA-256 一致的两个音频包，其余全删
+    #    （旧版本安装器留下的同名旧缓存、未完成的 .download 分卷都算冗余）。
+    $downloads = Join-Path $DataDir 'jpmod_downloads'
+    if (Test-Path -LiteralPath $downloads) {
+        $keep = @{}
+        foreach ($asset in @($WordAsset, $SentenceAsset)) {
+            if ($asset -and $asset.name) { $keep[[string]$asset.name] = [string]$asset.sha256.ToLowerInvariant() }
+        }
+        foreach ($file in @(Get-ChildItem -LiteralPath $downloads -File -ErrorAction SilentlyContinue)) {
+            $isCurrent = $false
+            if ($keep.ContainsKey($file.Name)) {
+                try { $isCurrent = ((Get-Sha256 $file.FullName) -eq $keep[$file.Name]) } catch { $isCurrent = $false }
+            }
+            if ($isCurrent) {
+                Write-Host ("保留当前版本缓存：" + $file.Name) -ForegroundColor DarkGray
+                continue
+            }
+            $freed += $file.Length
+            try {
+                Remove-Item -LiteralPath $file.FullName -Force -ErrorAction Stop
+            } catch {
+                $freed -= $file.Length
+            }
+        }
+    }
+    # 2) 旧备份目录：只保留最近 3 份（目录名以时间戳开头，按名称倒序即最新在前）。
+    $backupRoot = Join-Path $DataDir 'jpmod_backups'
+    $staleBackups = @()
+    if (Test-Path -LiteralPath $backupRoot) {
+        $staleBackups = @(Get-ChildItem -LiteralPath $backupRoot -Directory -ErrorAction SilentlyContinue |
+            Sort-Object Name -Descending | Select-Object -Skip 3)
+    }
+    foreach ($stale in $staleBackups) {
+        try {
+            $size = [int64]((Get-ChildItem -LiteralPath $stale.FullName -Recurse -File -ErrorAction SilentlyContinue |
+                Measure-Object Length -Sum).Sum)
+            Remove-TreeNet $stale.FullName
+            $freed += $size
+            Write-Host ("已清理过期备份：" + $stale.Name) -ForegroundColor DarkGray
+        } catch { }
+    }
+    if ($freed -gt 0) {
+        Write-Host ("冗余清理完成，释放约 {0:N2} GB。" -f ($freed / 1GB)) -ForegroundColor DarkGray
+    } else {
+        Write-Host '没有需要清理的冗余文件。' -ForegroundColor DarkGray
     }
 }
 
@@ -1178,6 +1368,10 @@ foreach ($asset in @($release.assets)) {
 }
 $safetyBytes = 1GB
 $requiredBytes = $compressedBytes + (2 * $expandedBytes) + $safetyBytes
+# 下载预检前先接管旧版本遗留的冗余（过期缓存/旧备份）：
+# 清理释放的空间能让磁盘检查更宽松，也让 v1.2.4 之前的用户腾出数 GB。
+Write-Step '正在清理旧版本遗留的冗余文件。'
+Remove-LegacyRedundancy -DataDir $data -WordAsset $wordAsset -SentenceAsset $sentenceAsset
 $downloadDriveName = [IO.Path]::GetPathRoot($data).TrimEnd('\').Substring(0, 1)
 $downloadDrive = Get-PSDrive -Name $downloadDriveName
 if ($downloadDrive.Free -lt $requiredBytes) {
@@ -1232,7 +1426,7 @@ if (-not (Test-Path -LiteralPath (Join-Path $jaPackPayload 'manifest.json'))) {
 $jaPackTarget = Join-Path $packsRoot 'ja'
 New-Item -ItemType Directory -Force -Path $packsRoot | Out-Null
 if (Test-Path -LiteralPath $jaPackTarget) {
-    Copy-TreeNet $jaPackTarget (Join-Path $backup 'packs\ja') '备份旧日语资源包'
+    Backup-PackWithoutAudio $jaPackTarget (Join-Path $backup 'packs\ja')
 }
 Copy-TreeNet $jaPackPayload $jaPackTarget '日语语言资源包'
 # 运行时补丁所有权登记：宿主（WcpHost）运行时也会写这份文件，安装阶段先写好，

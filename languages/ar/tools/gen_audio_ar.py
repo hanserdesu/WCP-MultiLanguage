@@ -125,9 +125,13 @@ async def main():
             w = it['word']
             if w not in unique_words:
                 unique_words[w] = it
-            s = it['example_ar']
-            if s not in unique_sentences:
-                unique_sentences[s] = it
+            pairs = it.get('sentences') or []
+            if not pairs:
+                pairs = [[it.get('example_ar', ''), it.get('example_zh', '')]]
+            for pair in pairs:
+                s = (pair[0] or '').strip() if isinstance(pair, (list, tuple)) else ''
+                if len(s) >= 2 and s not in unique_sentences:
+                    unique_sentences[s] = it
 
     print("=" * 60)
     print(f"开始阿拉伯语全量音频合成与落盘...")

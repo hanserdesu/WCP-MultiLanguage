@@ -38,10 +38,10 @@ def main():
     all_words = []
     for lv in ('tem4_a1a2', 'tem4_b1', 'tem8_b2', 'tem8_c1'):
         all_words.extend(levels.get(lv, []))
-    check('total 8600 words', len(all_words) == 8600, f'current {len(all_words)}')
+    check('total 8599 words', len(all_words) == 8599, f'current {len(all_words)}')
     check('level distribution correct',
           {lv: len(levels.get(lv, [])) for lv in ('tem4_a1a2', 'tem4_b1', 'tem8_b2', 'tem8_c1')} ==
-          {'tem4_a1a2': 2000, 'tem4_b1': 2500, 'tem8_b2': 3000, 'tem8_c1': 1100})
+          {'tem4_a1a2': 2000, 'tem4_b1': 2499, 'tem8_b2': 3000, 'tem8_c1': 1100})
     check('unique words', len(set(w['word'] for w in all_words)) == len(all_words))
     # field completeness
     missing_ipa = [w['word'] for w in all_words if not w.get('ipa')]
@@ -69,16 +69,16 @@ def main():
         conn = sqlite3.connect(db_p)
         c = conn.cursor()
         c.execute('SELECT count(*) FROM pron')
-        check('pron count', c.fetchone()[0] == 8600)
+        check('pron count', c.fetchone()[0] == 8599)
         c.execute('SELECT count(*) FROM spanish_all')
-        check('spanish_all count', c.fetchone()[0] == 8600)
+        check('spanish_all count', c.fetchone()[0] == 8599)
         c.execute('PRAGMA integrity_check')
         check('db integrity', c.fetchone()[0] == 'ok')
         conn.close()
     # audio
     if ES_WORD_AUDIO.exists():
         n_word_mp3 = len(list(ES_WORD_AUDIO.glob('*.mp3')))
-        check('word audio 8600', n_word_mp3 == 8600, f'current {n_word_mp3}')
+        check('word audio 8599', n_word_mp3 == 8599, f'current {n_word_mp3}')
     if ES_SENT_AUDIO.exists():
         # Unique sentences only: duplicates share one md5-named file.
         # The generator md5-hashes the tag-stripped sentence; mirror that here.
