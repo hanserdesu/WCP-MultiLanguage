@@ -107,7 +107,125 @@ internal static class SlotRulesTest
             "SameWords 顺序不同即不同");
         Check(!SlotRules.SameWords(new string[] { "a" }, null), "SameWords 空值安全");
 
+        // ── 7) P1-1：每次加载都导入原生 4 书为镜像行 ──
+        SlotState imported = SlotRules.NewState();
+        imported.slots[7] = Managed(0, 12);            // 已有一条托管行，占空原生槽 0
+        imported.slots[7].nativeSlot = 0;
+        SlotRules.NativeBook[] books = new SlotRules.NativeBook[] {
+            MakeNativeBook(1, "日语词书", 100),
+            MakeNativeBook(2, "法语词库(猫条版)", 8116),
+            MakeNativeBook(3, null, 3),                // 不足 5 词 → 跳过
+            MakeNativeBook(4, "德语词库", 8062)
+        };
+        int added = SlotRules.ImportNativeBooks(imported, books);
+        Check(added == 3, "导入 3 本原生书（不足 5 词的跳过）");
+        Check(imported.slots[0].id == "native-1" && imported.slots[0].words.Length == 100 &&
+              imported.slots[0].name == "日语词书" && !imported.slots[0].managed,
+            "镜像行落在槽位号对应的行（native-1 → 行 1）");
+        Check(imported.slots[1].id == "native-2" && imported.slots[1].words.Length == 8116,
+            "native-2 → 行 2");
+        Check(imported.slots[3].id == "native-4" && imported.slots[3].words.Length == 8062,
+            "native-4 → 行 4");
+        Check(imported.slots[7].id == "fr" && imported.slots[7].managed,
+            "托管行不被镜像导入挤掉");
+
+        // 幂等：原样重跑不再有变化
+        Check(SlotRules.ImportNativeBooks(imported, books) == 0, "重复导入幂等");
+
+        // 镜像行更新：同一 id 的原生书内容/名称变化 → 原位刷新
+        books[0].Words = MakeWords(120);
+        books[0].Name = "日语词书v2";
+        Check(SlotRules.ImportNativeBooks(imported, books) == 1, "内容变化时刷新 1 行");
+        Check(imported.slots[0].words.Length == 120 && imported.slots[0].name == "日语词书v2",
+            "镜像行原位更新（id 不变、位置不变）");
+
+        // 偏移落位：首选行被其它词书占用 → 重新导入时落第一个空行
+        imported.slots[0] = Managed(0, 6);             // 首选行 1 被托管行占用
+        imported.slots[0].nativeSlot = 0;
+        imported.slots[8] = Managed(0, 7);             // 行 9 也被占用
+        imported.slots[8].nativeSlot = 0;
+        Check(SlotRules.ImportNativeBooks(imported, books) == 1, "缺行时补导 1 行");
+        Check(imported.slots[2].id == "native-1", "首选行被占 → 落第一个空行（行 3）");
+
+        // 托管行物化占用的原生槽不导入（内容已归托管行）
+        SlotState occupied = SlotRules.NewState();
+        occupied.slots[0] = Managed(2, 50);            // 托管行占用原生槽 2
+        SlotRules.NativeBook[] clashing = new SlotRules.NativeBook[] { MakeNativeBook(2, "法语词库", 8116) };
+        Check(SlotRules.ImportNativeBooks(occupied, clashing) == 0, "托管占用的原生槽不导入");
+        Check(occupied.slots[1].id != "native-2" && occupied.slots[0].id == "fr",
+            "托管行原样保留");
+
+        // 20 行全满时不挤掉任何词书
+        SlotState full = SlotRules.NewState();
+        for (int i = 0; i < 20; i++) full.slots[i] = Managed(0, 5 + i);
+        Check(SlotRules.ImportNativeBooks(full, books) == 0, "20 行全满时不导入新镜像");
+        int managedCount = 0;
+        for (int i = 0; i < 20; i++) if (full.slots[i].managed) managedCount++;
+        Check(managedCount == 20, "全满导入后 20 条托管行原样保留");
+
+        // ── 8) P1-2：改名与移除 ──
+        SlotState managedState = SlotRules.NewState();
+        managedState.slots[2] = Managed(1, 30);
+        Check(SlotRules.TryRenameSlot(managedState, 2, "  我的法语书  "), "mod 行可改名");
+        Check(managedState.slots[2].name == "我的法语书", "改名去除首尾空白");
+        Check(!SlotRules.TryRenameSlot(managedState, 2, "   "), "纯空白拒绝");
+        Check(!SlotRules.TryRenameSlot(managedState, 2, null), "null 拒绝");
+        Check(managedState.slots[2].name == "我的法语书", "拒绝后名称不变");
+        Check(!SlotRules.TryRenameSlot(managedState, 25, "x"), "越界改名拒绝");
+
+        // 原生镜像行拒绝改名/移除（内容跟随游戏数据）
+        SlotState mirrorState = SlotRules.NewState();
+        mirrorState.slots[0] = Managed(0, 6);
+        SlotRules.ImportNativeBooks(mirrorState, new SlotRules.NativeBook[] { MakeNativeBook(1, "日语词书", 100) });
+        Check(SlotRules.IsNativeMirror(mirrorState.slots[1]), "镜像行判定成立");
+        Check(!SlotRules.TryRenameSlot(mirrorState, 1, "自定义名"), "镜像行拒绝改名");
+        int mirrorRelease;
+        Check(!SlotRules.TryClearSlot(mirrorState, 1, out mirrorRelease), "镜像行拒绝移除");
+        Check(mirrorState.slots[1].id == "native-1", "拒绝移除后镜像行原样保留");
+
+        // mod 行移除：托管物化行要上报应释放的原生槽
+        SlotState clearState = SlotRules.NewState();
+        clearState.slots[4] = Managed(3, 30);
+        clearState.selected = 5;
+        int release;
+        Check(SlotRules.TryClearSlot(clearState, 4, out release) && release == 3,
+            "托管行移除上报原生槽 3");
+        Check(!SlotRules.HasPlayableWords(clearState.slots[4]) && clearState.selected == 0,
+            "移除后行被清空、选中态复位");
+        Check(!SlotRules.NativeSlotOwnedByManaged(clearState, 3), "移除后原生槽 3 不再被托管");
+
+        // 空/外部行移除不上报释放
+        int emptyRelease;
+        Check(SlotRules.TryClearSlot(clearState, 5, out emptyRelease) && emptyRelease == 0,
+            "空行移除不上报释放");
+
+        // ── 9) P1-1 逐出规则：内容已跟踪的物理槽可接管，未跟踪内容 fail-closed ──
+        SlotState eviction = SlotRules.NewState();
+        eviction.slots[0] = Managed(0, 9116);          // 托管行（自带词表，fr）
+        SlotRules.NativeBook[] frBook = new SlotRules.NativeBook[] { MakeNativeBook(1, "法语词库", 8116) };
+        SlotRules.ImportNativeBooks(eviction, frBook); // native-1 镜像 → 行 2
+        string[] nativeLive = MakeWords(8116);
+        Check(SlotRules.NativeContentTracked(eviction, nativeLive),
+            "物理槽内容=镜像行快照 → 可接管");
+        Check(!SlotRules.NativeContentTracked(eviction, MakeWords(777)),
+            "物理槽内容无任何行持有 → fail-closed 拒绝");
+        Check(!SlotRules.NativeContentTracked(eviction, MakeWords(4)),
+            "不足可玩门槛的内容不判定可接管");
+        Check(!SlotRules.NativeContentTracked(null, nativeLive), "空状态 fail-closed");
+
         Console.WriteLine("Failures: " + failures);
         return failures == 0 ? 0 : 1;
+    }
+
+    private static SlotRules.NativeBook MakeNativeBook(int slot, string name, int wordCount)
+    {
+        return new SlotRules.NativeBook { Slot = slot, Name = name, Words = MakeWords(wordCount) };
+    }
+
+    private static string[] MakeWords(int count)
+    {
+        string[] words = new string[count];
+        for (int i = 0; i < count; i++) words[i] = "w" + i;
+        return words;
     }
 }

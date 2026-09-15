@@ -21,6 +21,7 @@ set REFS=/r:"%GAME%\BepInEx\core\BepInEx.dll" ^
  /r:"%MGD%\UnityEngine.UIModule.dll" ^
  /r:"%MGD%\UnityEngine.UI.dll" ^
  /r:"%MGD%\UnityEngine.TextRenderingModule.dll" ^
+ /r:"%MGD%\UnityEngine.InputLegacyModule.dll" ^
  /r:"%MGD%\UnityEngine.JSONSerializeModule.dll"
 "%CSC%" /nologo /noconfig /nostdlib+ /target:library /langversion:5 /optimize+ /codepage:65001 %REFS% ^
  /out:"%~dp0CustomSlotsMod.dll" "%~dp0CustomSlotModel.cs" "%~dp0CustomSlotsMod.cs"

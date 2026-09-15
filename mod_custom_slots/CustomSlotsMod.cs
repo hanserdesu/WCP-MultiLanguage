@@ -2,9 +2,12 @@
 //
 // The game exposes only four native SelfBookList fields.  This plugin does not
 // enlarge or rewrite those game internals.  It keeps twenty rows in its own
-// JSON store, imports existing native books as external rows, and materializes
-// a selected row only when a free native slot exists.  A non-mod native book is
-// never overwritten and is never marked as managed.
+// JSON store, imports existing native books as external mirror rows on every
+// load (P1-1), and materializes a selected row only when a free native slot
+// exists.  A native slot whose live words are snapshotted by any row can be
+// taken over safely (content is restorable from that row); unknown content is
+// never overwritten (fail-closed).  Rename/remove act on mod rows only and
+// never touch SelfBookNameN (P1-2).
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,6 +17,7 @@ using BepInEx.Logging;
 using HarmonyLib;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace WcpCustomSlots
@@ -31,7 +35,7 @@ namespace WcpCustomSlots
         }
     }
 
-    [BepInPlugin("dev.hanserdesu.customslots", "WCP Custom Slots", "1.0.0")]
+    [BepInPlugin("dev.hanserdesu.customslots", "WCP Custom Slots", "1.1.0")]
     public sealed class CustomSlotsPlugin : BaseUnityPlugin
     {
         internal static CustomSlotsPlugin Instance;
@@ -46,6 +50,12 @@ namespace WcpCustomSlots
         private GameObject _overlay;
         private RectTransform _content;
         private WordChooseButtonS10 _bookChooser;
+        private GameObject _renameBar;
+        private InputField _renameInput;
+        private Text _renameTitle;
+        private int _renameIndex = -1;
+        private Text _toast;
+        private float _toastUntil;
 
         private string MyBookPath
         {
@@ -63,12 +73,14 @@ namespace WcpCustomSlots
             Log = Logger;
             _storePath = Path.Combine(Application.persistentDataPath, StoreFile);
             _state = LoadState();
+            int imported = ImportNativeBooksNow();
             MergeSeed();
             SaveState();
             try
             {
                 new Harmony("dev.hanserdesu.customslots").PatchAll(typeof(CustomSlotsPlugin).Assembly);
-                Log.LogInfo("CustomSlots: Harmony patch OK; logical slots=" + SlotRules.MaxSlots);
+                Log.LogInfo("CustomSlots: Harmony patch OK; logical slots=" + SlotRules.MaxSlots +
+                    "; native mirror rows imported=" + imported);
             }
             catch (Exception e) { Log.LogError("CustomSlots: Harmony patch failed: " + e.Message); }
         }
@@ -120,6 +132,10 @@ namespace WcpCustomSlots
             close.GetComponent<RectTransform>().anchorMax = new Vector2(1f, 1f);
             close.GetComponent<RectTransform>().pivot = new Vector2(1f, 1f);
             close.onClick.AddListener(new UnityAction(Hide));
+            EnsureEventSystem();
+            CreateActionButton(_overlay.transform, "刷新", new Vector2(-112f, -18f),
+                new Vector2(56f, 36f), new Color(0.16f, 0.30f, 0.38f),
+                new UnityAction(RefreshFromDisk), true);
 
             GameObject viewportObject = new GameObject("Viewport");
             viewportObject.transform.SetParent(_overlay.transform, false);
@@ -160,12 +176,32 @@ namespace WcpCustomSlots
             fitter.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
             scroll.content = _content;
 
+            EnsureInputField(_overlay.transform);
             RebuildRows();
         }
 
         internal void Hide()
         {
+            if (_renameBar != null) { UnityEngine.Object.Destroy(_renameBar); _renameBar = null; }
+            _renameInput = null;
+            _renameTitle = null;
+            _renameIndex = -1;
+            if (_toast != null && _toast.gameObject.activeSelf) _toast.gameObject.SetActive(false);
             if (_overlay != null) _overlay.SetActive(false);
+        }
+
+        private void Update()
+        {
+            if (_overlay == null || !_overlay.activeSelf) return;
+            if (_toast != null && _toast.gameObject.activeSelf && Time.unscaledTime > _toastUntil)
+                _toast.gameObject.SetActive(false);
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                if (_renameIndex >= 0) CancelRename(); else Hide();
+            }
+            else if (_renameIndex >= 0 &&
+                     (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)))
+                SubmitRename();
         }
 
         private void RebuildRows()
@@ -178,19 +214,47 @@ namespace WcpCustomSlots
             {
                 SlotRecord record = _state.slots[i];
                 int captured = i;
-                string label = RowLabel(record, i + 1);
+                bool hasActions = !SlotRules.IsNativeMirror(record) && SlotRules.HasPlayableWords(record);
                 Color color = captured + 1 == _state.selected
                     ? new Color(0.12f, 0.34f, 0.26f)
                     : (SlotRules.IsManaged(record)
                         ? new Color(0.10f, 0.18f, 0.29f)
                         : new Color(0.10f, 0.11f, 0.15f));
-                Button row = CreateButton(_content, label, Vector2.zero,
-                    new Vector2(0f, 48f), color);
-                LayoutElement element = row.gameObject.AddComponent<LayoutElement>();
+                GameObject rowObject = new GameObject("Row" + (i + 1));
+                rowObject.transform.SetParent(_content, false);
+                LayoutElement element = rowObject.AddComponent<LayoutElement>();
                 element.minHeight = 48f;
                 element.preferredHeight = 48f;
+                Image rowImage = rowObject.AddComponent<Image>();
+                rowImage.color = color;
+                Button row = rowObject.AddComponent<Button>();
+                row.targetGraphic = rowImage;
+                row.colors = new ColorBlock {
+                    normalColor = color,
+                    highlightedColor = new Color(Mathf.Min(1f, color.r + 0.12f), Mathf.Min(1f, color.g + 0.12f), Mathf.Min(1f, color.b + 0.12f), color.a),
+                    pressedColor = color,
+                    selectedColor = color,
+                    disabledColor = color,
+                    colorMultiplier = 1f,
+                    fadeDuration = 0.05f
+                };
+                Text label = CreateText(rowObject.transform, RowLabel(record, i + 1), 16, Vector2.zero,
+                    new Vector2(-24f, -12f), TextAnchor.MiddleLeft, Color.white);
+                label.rectTransform.anchorMin = new Vector2(0f, 0f);
+                label.rectTransform.anchorMax = new Vector2(1f, 1f);
+                label.rectTransform.offsetMin = new Vector2(12f, 4f);
+                label.rectTransform.offsetMax = new Vector2(hasActions ? -130f : -12f, -4f);
                 row.onClick.AddListener(new UnityAction(delegate { Select(captured); }));
+
+                if (!hasActions) continue;
+                CreateActionButton(rowObject.transform, "改名", new Vector2(-64f, -6f),
+                    new Vector2(56f, 36f), new Color(0.16f, 0.30f, 0.38f),
+                    new UnityAction(delegate { BeginRename(captured); }), false);
+                CreateActionButton(rowObject.transform, "移除", new Vector2(-8f, -6f),
+                    new Vector2(56f, 36f), new Color(0.38f, 0.16f, 0.16f),
+                    new UnityAction(delegate { ClearSlot(captured); }), false);
             }
+            RenderRenameBar();
             Canvas.ForceUpdateCanvases();
         }
 
@@ -246,12 +310,15 @@ namespace WcpCustomSlots
             return SelectedNativeSlotFallback;
         }
 
+        // 物理槽可用性：空槽 > 本 mod 托管行占用（可重新物化）> 内容已被任何行快照
+        //（可从该行恢复，P1-1 逐出规则）。从未见过的原生内容绝不覆盖（fail-closed）。
         private bool CanUseNativeSlot(int nativeSlot, SlotRecord requested)
         {
             string[] words = ReadNativeWords(nativeSlot);
             if (!SlotRules.HasPlayableWords(new SlotRecord { words = words })) return true;
             if (SlotRules.NativeSlotOwnedByManaged(_state, nativeSlot)) return true;
-            return SlotRules.SameWords(words, requested.words);
+            if (requested != null && SlotRules.SameWords(words, requested.words)) return true;
+            return SlotRules.NativeContentTracked(_state, words);
         }
 
         private void Materialize(SlotRecord record, int nativeSlot)
@@ -285,37 +352,213 @@ namespace WcpCustomSlots
             }
         }
 
+        // ── P1-2 管理：改名 / 移除 / 刷新 / 提示 ──
+
+        private void BeginRename(int index)
+        {
+            if (_state == null || index < 0 || index >= _state.slots.Length) return;
+            if (SlotRules.IsNativeMirror(_state.slots[index]))
+            {
+                ShowToast("原生词书名称跟随游戏数据，不能在这里改名");
+                return;
+            }
+            _renameIndex = index;
+            if (_renameInput != null)
+            {
+                string current = _state.slots[index].name;
+                _renameInput.text = string.IsNullOrEmpty(current) ? "" : current;
+                _renameInput.ActivateInputField();
+            }
+            RenderRenameBar();
+        }
+
+        private void SubmitRename()
+        {
+            if (_renameIndex < 0 || _renameInput == null) return;
+            string name = _renameInput.text;
+            int index = _renameIndex;
+            if (SlotRules.TryRenameSlot(_state, index, name))
+            {
+                _renameIndex = -1;
+                SaveState();
+                RebuildRows();
+                Log.LogInfo("CustomSlots: 槽位 " + (index + 1) + " 已改名为 “" + name.Trim() + "”");
+            }
+            else ShowToast("名称不能为空");
+        }
+
+        private void CancelRename()
+        {
+            _renameIndex = -1;
+            RenderRenameBar();
+        }
+
+        private void RenderRenameBar()
+        {
+            if (_renameBar == null) return;
+            bool active = _renameIndex >= 0;
+            _renameBar.SetActive(active);
+            if (active && _renameTitle != null)
+                _renameTitle.text = "重命名：槽位 " + (_renameIndex + 1);
+        }
+
+        private void ClearSlot(int index)
+        {
+            if (_state == null || index < 0 || index >= _state.slots.Length) return;
+            int release;
+            if (!SlotRules.TryClearSlot(_state, index, out release))
+            {
+                ShowToast("原生词书行不能移除（请在游戏原生界面管理）");
+                return;
+            }
+            if (release >= 1)
+            {
+                try
+                {
+                    ES3.Save("SelfBookList" + release, new string[0], MyBookPath);
+                    SetStatic("SelfBookList" + release, new string[0]);
+                }
+                catch (Exception e) { Log.LogWarning("CustomSlots: 清空原生槽 " + release + " 失败: " + e.Message); }
+            }
+            SaveState();
+            RebuildRows();
+            Log.LogInfo("CustomSlots: 槽位 " + (index + 1) + " 已移除" +
+                (release >= 1 ? "（释放原生槽 " + release + "）" : ""));
+        }
+
+        // 从游戏落盘重新读原生 4 槽，刷新镜像行与页面（不动 mod 行）。
+        private void RefreshFromDisk()
+        {
+            int changed = ImportNativeBooksNow();
+            SaveState();
+            RebuildRows();
+            Log.LogInfo("CustomSlots: 刷新完成，镜像行变化 " + changed + " 行");
+            ShowToast(changed > 0 ? "已从游戏数据刷新 " + changed + " 行" : "已是最新（无变化）");
+        }
+
+        private void ShowToast(string message)
+        {
+            if (_toast == null) return;
+            _toast.text = message;
+            _toast.gameObject.SetActive(true);
+            _toastUntil = Time.unscaledTime + 3f;
+        }
+
+        private void EnsureInputField(Transform parent)
+        {
+            _renameBar = new GameObject("RenameBar");
+            _renameBar.transform.SetParent(parent, false);
+            RectTransform bar = _renameBar.AddComponent<RectTransform>();
+            bar.anchorMin = new Vector2(0f, 1f);
+            bar.anchorMax = new Vector2(1f, 1f);
+            bar.pivot = new Vector2(0f, 1f);
+            bar.anchoredPosition = new Vector2(20f, -92f);
+            bar.sizeDelta = new Vector2(-40f, 40f);
+            Image barImage = _renameBar.AddComponent<Image>();
+            barImage.color = new Color(0.05f, 0.09f, 0.14f, 0.98f);
+            _renameBar.SetActive(false);
+
+            _renameTitle = CreateText(_renameBar.transform, "重命名", 14, new Vector2(12f, -10f),
+                new Vector2(150f, 22f), TextAnchor.MiddleLeft, new Color(0.72f, 0.78f, 0.86f));
+
+            GameObject inputObject = new GameObject("Input");
+            inputObject.transform.SetParent(_renameBar.transform, false);
+            RectTransform inputRect = inputObject.AddComponent<RectTransform>();
+            inputRect.anchorMin = new Vector2(0f, 0f);
+            inputRect.anchorMax = new Vector2(1f, 1f);
+            inputRect.offsetMin = new Vector2(170f, 5f);
+            inputRect.offsetMax = new Vector2(-130f, -5f);
+            Image inputImage = inputObject.AddComponent<Image>();
+            inputImage.color = new Color(0.02f, 0.04f, 0.07f, 1f);
+            _renameInput = inputObject.AddComponent<InputField>();
+            _renameInput.targetGraphic = inputImage;
+            _renameInput.textComponent = CreateText(inputObject.transform, "", 15, Vector2.zero,
+                new Vector2(-16f, -8f), TextAnchor.MiddleLeft, Color.white);
+            _renameInput.textComponent.rectTransform.anchorMin = Vector2.zero;
+            _renameInput.textComponent.rectTransform.anchorMax = Vector2.one;
+            _renameInput.textComponent.rectTransform.offsetMin = new Vector2(8f, 2f);
+            _renameInput.textComponent.rectTransform.offsetMax = new Vector2(-8f, -2f);
+            _renameInput.lineType = InputField.LineType.SingleLine;
+
+            CreateActionButton(_renameBar.transform, "确定", new Vector2(-62f, -6f),
+                new Vector2(52f, 30f), new Color(0.12f, 0.34f, 0.26f),
+                new UnityAction(SubmitRename), false);
+            CreateActionButton(_renameBar.transform, "取消", new Vector2(-8f, -6f),
+                new Vector2(52f, 30f), new Color(0.24f, 0.28f, 0.35f),
+                new UnityAction(CancelRename), false);
+
+            _toast = CreateText(parent, "", 14, new Vector2(0f, 8f),
+                new Vector2(-40f, 24f), TextAnchor.LowerLeft, new Color(0.95f, 0.82f, 0.45f));
+            _toast.rectTransform.anchorMin = new Vector2(0f, 0f);
+            _toast.rectTransform.anchorMax = new Vector2(1f, 0f);
+            _toast.rectTransform.pivot = new Vector2(0.5f, 0f);
+            _toast.rectTransform.anchoredPosition = new Vector2(0f, 8f);
+            _toast.gameObject.SetActive(false);
+        }
+
+        private static void EnsureEventSystem()
+        {
+            if (EventSystem.current != null) return;
+            GameObject es = new GameObject("WcpCustomSlotsEventSystem");
+            es.AddComponent<EventSystem>();
+            es.AddComponent<StandaloneInputModule>();
+        }
+
+        // anchorTop=true：右上角（面板头部按钮）；false：右下角（行内 / 输入栏按钮）。
+        private static void CreateActionButton(Transform parent, string label, Vector2 position,
+                                               Vector2 dimensions, Color color, UnityAction action,
+                                               bool anchorTop)
+        {
+            Button button = CreateButton(parent, label, position, dimensions, color);
+            RectTransform rect = button.GetComponent<RectTransform>();
+            rect.anchorMin = new Vector2(1f, anchorTop ? 1f : 0f);
+            rect.anchorMax = rect.anchorMin;
+            rect.pivot = rect.anchorMin;
+            button.onClick.AddListener(action);
+        }
+
         private SlotState LoadState()
         {
             try
             {
                 if (File.Exists(_storePath))
                 {
-                    SlotState loaded = JsonUtility.FromJson<SlotState>(File.ReadAllText(_storePath));
+                    string raw = File.ReadAllText(_storePath);
+                    Log.LogInfo("CustomSlots: store bytes=" + (raw == null ? 0 : raw.Length));
+                    SlotState loaded = JsonUtility.FromJson<SlotState>(raw);
                     if (loaded != null)
                     {
                         SlotRules.Normalize(loaded);
+                        Log.LogInfo("CustomSlots: store loaded; rows=" +
+                            (loaded.slots == null ? 0 : loaded.slots.Length) +
+                            "; selected=" + loaded.selected);
                         return loaded;
                     }
+                    Log.LogWarning("CustomSlots: store 解析为 null，走新建分支");
+                }
+                else
+                {
+                    Log.LogInfo("CustomSlots: store 不存在，走新建分支");
                 }
             }
             catch (Exception e) { Log.LogWarning("CustomSlots: 读取槽位存档失败: " + e.Message); }
 
             SlotState fresh = SlotRules.NewState();
+            return fresh;
+        }
+
+        // P1-1：把原生 4 槽的当前词书导入/刷新为镜像行。每次加载都跑（旧版只在新建
+        // 存档分支跑一次，store 文件一旦存在原生书就永远进不了 20 行）。
+        private int ImportNativeBooksNow()
+        {
+            List<SlotRules.NativeBook> books = new List<SlotRules.NativeBook>();
             for (int i = 1; i <= SlotRules.NativeSlots; i++)
             {
                 string[] words = ReadNativeWords(i);
                 if (!SlotRules.HasPlayableWords(new SlotRecord { words = words })) continue;
-                string name = ReadNativeName(i);
-                SlotRecord external = fresh.slots[i - 1];
-                external.name = name;
-                external.id = "native-" + i;
-                external.owner = "external";
-                external.managed = false;
-                external.nativeSlot = i;
-                external.words = words;
+                books.Add(new SlotRules.NativeBook { Slot = i, Name = ReadNativeName(i), Words = words });
             }
-            return fresh;
+            return SlotRules.ImportNativeBooks(_state, books.ToArray());
         }
 
         private void MergeSeed()
@@ -381,7 +624,13 @@ namespace WcpCustomSlots
             {
                 SlotRules.Normalize(_state);
                 Directory.CreateDirectory(Path.GetDirectoryName(_storePath));
-                File.WriteAllText(_storePath, JsonUtility.ToJson(_state, true));
+                string json = JsonUtility.ToJson(_state, true);
+                File.WriteAllText(_storePath, json);
+                int filled = 0;
+                for (int i = 0; i < _state.slots.Length; i++)
+                    if (SlotRules.HasPlayableWords(_state.slots[i])) filled++;
+                Log.LogInfo("CustomSlots: store saved; bytes=" + json.Length + "; filledRows=" + filled +
+                    "; selected=" + _state.selected);
             }
             catch (Exception e) { Log.LogWarning("CustomSlots: 保存槽位存档失败: " + e.Message); }
         }
