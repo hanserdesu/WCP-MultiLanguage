@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "language": "fr",
+  "profile_id": "catbar-french-cefr-complete",
+  "display_name": "法语词库(猫条版)",
+  "word_count": 8116,
+  "fingerprint_sha256": "376af2eae0292052cefb4cb0d673f48a5ca480a38e25a6bf5353998caea17e9d",
+  "observed_slot": 2,
+  "es3_prefix": "fr",
+  "book_layout": "fragmented",
+  "strategy": {
+    "assembly": "$host",
+    "type": "WcpHost.GenericLanguageStrategy"
+  },
+  "payload_dir": "output/fr_db_payload",
+  "pron": "fr_pron.tsv",
+  "sentences": "fr_sentences.tsv",
+  "books": [
+    "output/import/法语A1A2.xlsx",
+    "output/import/法语B1.xlsx",
+    "output/import/法语B2.xlsx"
+  ],
+  "repair_probes": ["être", "coing", "vaguement"],
+  "notes": [
+    "法语是三分册: A1A2=2680 + B1=2902 + B2=2534，并集去重 = 8116，与指纹精确吻合。",
+    "observed_slot=2 来自实测存档 MyBook.es3 的 SelfBookList2（8116 词，指纹一致）。",
+    "同形词风险: 与英语同形 1638/8116，所以 audio/word/ 必须私有 —— 不能与游戏原生 vocabulary/ 共享。",
+    "战斗/复习词池由宿主从本书重建（BookPool）: 全局已学词典只用于排序，不再供词 —— 这也消除了\"法语战斗出英语\"的根因。",
+    "已不再写入共享库: fr_db_payload/en_pron.tsv 与 en_sentences.tsv 是旧插件\"灌库+还原\"时代的英文基线，宿主模式下只在旧插件兜底路径使用，pack 不需要它们。"
+  ]
+}

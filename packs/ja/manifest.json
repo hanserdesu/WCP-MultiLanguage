@@ -13,18 +13,43 @@
     "type": "WcpPack.Ja.JapaneseStrategy"
   },
   "resources": {
-    "books": ["books/日语词库(猫条版).xlsx"],
+    "books": [
+      "books/日语词库(猫条版).xlsx"
+    ],
     "meaning_db": "db/meaning.sqlite",
     "sentence_table": "db/sentences.json",
     "repair": "db/repair.tsv",
     "word_audio": "audio/word/",
     "sentence_audio": "audio/sentence/"
   },
-  "repair_probes": ["歯医者", "続ける", "工業"],
+  "repair_probes": [
+    "歯医者",
+    "続ける",
+    "工業"
+  ],
+  "source": {
+    "payload_dir": "wcp_wordbooks/output/jp_db_payload",
+    "pron": "jp_pron.tsv",
+    "sentences": "jp_sentences.tsv",
+    "payload_files": {
+      "jp_pron.tsv": "38bdad0aeaf2737a8b63e3661ffe9221bf3b2ca7a211d3895d46f0fdff98fb83",
+      "jp_sentences.tsv": "873b5a7f9947e5d7a46cef5cadbe26a9b72f3fb009245bc87fb18340084855e7",
+      "jp_only_pron.tsv": "38bdad0aeaf2737a8b63e3661ffe9221bf3b2ca7a211d3895d46f0fdff98fb83"
+    }
+  },
+  "book_sha256": {
+    "日语词库(猫条版).xlsx": "a1ae10ca47ee4fc4c8b94b2731c3850cf9f652a90c10effc986f9dbfb9d282be"
+  },
+  "counts": {
+    "pron": 7922,
+    "sentence_rows": 30894,
+    "sentence_words": 7922,
+    "words_without_sentences": 0
+  },
   "notes": [
-    "word_count / fingerprint_sha256 是对 resources.books 全部分册的**并集去重后排序**算的 SHA-256。",
     "日语是单册: 日语词库(猫条版).xlsx 本身就含 7922 词；JLPT_N1/N2/N3/N5N4、IT用语 是合并前的源片段，不列入 books。",
     "observed_slot=1 来自 2026-09-14 实测存档 MyBook.es3 的 SelfBookList1（7922 词，指纹一致）。",
-    "fingerprint 与 D:/ATooManyLanguage/Japanese/mod_book_name/BookProfiles.cs 的 catbar-jlpt-complete 条目逐字节相同。"
+    "日语假名与英语零同形，因此宿主只需按本书释义服务，不需要任何共享库切换。",
+    "strategy 是 pack 内程序集（唯一还带语言代码的包）: 日语显示/读音规则需要代码，其余语言用 \"$host\"。"
   ]
 }

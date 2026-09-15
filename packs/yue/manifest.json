@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "profile_id": "catbar-cantonese-complete",
+  "language": "yue",
+  "display_name": "粤语词库(猫条版)",
+  "word_count": 384,
+  "fingerprint_sha256": "0748ca590e7caf6c2d11e5062ee381e2a3e1ac84f943c561a4fed94568f0cb9e",
+  "observed_slot": 4,
+  "es3_prefix": "yue",
+  "book_layout": "single",
+  "strategy": {
+    "assembly": "WcpPack.Yue.dll",
+    "type": "WcpPack.Yue.CantoneseStrategy"
+  },
+  "resources": {
+    "books": ["books/粤语词库(猫条版).xlsx"],
+    "meaning_db": "db/meaning.sqlite",
+    "sentence_table": "db/sentences.json",
+    "repair": "db/repair.tsv",
+    "word_audio": "audio/word/",
+    "sentence_audio": "audio/sentence/"
+  },
+  "repair_probes": ["食", "睇", "搞掂"],
+  "notes": [
+    "word_count / fingerprint_sha256 是对 resources.books 全部分册的并集去重后排序算的 SHA-256。",
+    "粤语是单册: 粤语词库(猫条版).xlsx 本身含 384 核心词。",
+    "repair_probes 选取粤语标志性核心动词与熟语。"
+  ]
+}

@@ -24,6 +24,9 @@ copy /y "%HERE%..\WcpHost.dll" "%REGTEST_OUT%\WcpHost.dll" >nul
 if errorlevel 1 (echo COPY FAILED & exit /b 1)
 if exist "%MGD%\Mono.Data.Sqlite.dll" copy /y "%MGD%\Mono.Data.Sqlite.dll" "%REGTEST_OUT%\Mono.Data.Sqlite.dll" >nul
 if exist "%WCP_GAME_DIR%\wcp_Data\Plugins\x86_64\sqlite3.dll" copy /y "%WCP_GAME_DIR%\wcp_Data\Plugins\x86_64\sqlite3.dll" "%REGTEST_OUT%\sqlite3.dll" >nul
+rem packs 根默认取本仓库的 packs\（tests\..\..\packs）；第一个显式参数可覆盖。
+set "PACKS_ARG=%HERE%..\..\packs"
+if not "%~1"=="" set "PACKS_ARG=%~1"
 echo BUILD OK
-"%REGTEST_OUT%\RegistryTest.exe" %*
+"%REGTEST_OUT%\RegistryTest.exe" "%PACKS_ARG%"
 exit /b %errorlevel%

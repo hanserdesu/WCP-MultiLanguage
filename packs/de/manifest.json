@@ -9,8 +9,8 @@
   "es3_prefix": "de",
   "book_layout": "fragmented",
   "strategy": {
-    "assembly": "WcpPack.De.dll",
-    "type": "WcpPack.De.GermanStrategy"
+    "assembly": "$host",
+    "type": "WcpHost.GenericLanguageStrategy"
   },
   "resources": {
     "books": [
@@ -26,11 +26,40 @@
     "word_audio": "audio/word/",
     "sentence_audio": "audio/sentence/"
   },
-  "repair_probes": ["gehen", "haben", "müssen"],
+  "repair_probes": [
+    "gehen",
+    "haben",
+    "müssen"
+  ],
+  "source": {
+    "payload_dir": "output/de_db_payload",
+    "pron": "de_pron.tsv",
+    "sentences": "de_sentences.tsv",
+    "payload_files": {
+      "de_pron.tsv": "95d2907ffef4fb73341de45a17706a15d29ac93cc74efb0ae292d4128233ed71",
+      "de_sentences.tsv": "f8f7cfc367e79061c2614541755bb645965aa3e9c94dc50a8d2e3305a0907b05",
+      "de_only_pron.tsv": "95d2907ffef4fb73341de45a17706a15d29ac93cc74efb0ae292d4128233ed71",
+      "en_pron.tsv": "3d9e08e3e3e882350fff931c869cb856a5287712567c6eb3ffed086adcfd1669",
+      "en_sentences.tsv": "03240187e74606562fe28c6ffda21c9cc07c365e473ad5e396349165b04cab2c"
+    }
+  },
+  "book_sha256": {
+    "德语A1.xlsx": "0d2c6eabc42a8b3012621f8c08367ce0fba984b0367f65570a0d49e137ed138d",
+    "德语A2.xlsx": "5e7f6791f38cf11bcd1b71d863f7f46bad16d7639203390723ac68f77c861d7b",
+    "德语A1A2.xlsx": "11819d960911f1a508f57112a373dd46d02695c46e42ef16fcc0cf0961f067e3",
+    "德语B1.xlsx": "ec2629b23c4410c9b2d2afc6a4d20225c50c374daeefe97845b578d954db7d7f",
+    "德语B2.xlsx": "ec0ad9726a3a59d40b68bbfb79d9c1b5465b2146f7ae31d9e7acf0950bd53207"
+  },
+  "counts": {
+    "pron": 8062,
+    "sentence_rows": 24186,
+    "sentence_words": 8062,
+    "words_without_sentences": 0
+  },
   "notes": [
-    "word_count / fingerprint_sha256 是对 resources.books 全部分册的并集去重后排序算的 SHA-256。",
-    "德语是四级完备词库: A1=658, A2=2830, B1=2400, B2=2174，并集去重 = 8062，与指纹精确吻合。",
+    "德语四级完备词库: A1=658 + A2=2830 + B1=2400 + B2=2174，并集去重 = 8062，与指纹精确吻合。",
+    "德语A1A2.xlsx 是 A1∪A2 的合并分册，列入 books 只为与用户导入的分册一致（并集不变）。",
     "observed_slot=4，写入 MyBook.es3 的 SelfBookList4（8062 词）。",
-    "与英语同形词 225 个，运行时由 DeWordListMod 动态隔离切换。"
+    "与英语同形词 225 个，由宿主按当前词书释义隔离（旧插件曾靠动态切换共享库实现）。"
   ]
 }

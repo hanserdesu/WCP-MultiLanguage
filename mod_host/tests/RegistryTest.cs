@@ -33,7 +33,15 @@ internal static class RegistryTest
         try { Console.OutputEncoding = Encoding.UTF8; }
         catch (Exception) { }
 
-        string packsRoot = args.Length > 0 ? args[0] : @"D:\ATooManyLanguage\Japanese\packs";
+        // packs 根不再写死成某台机器的绝对路径：run_registry_test.cmd 会把
+        // 仓库自己的 packs 目录作为第一个参数传进来；直接运行 exe 时可用
+        // 环境变量 WCP_PACKS_ROOT 指定（必须包含 <lang>/manifest.json）。
+        string packsRoot = args.Length > 0 ? args[0]
+            : Environment.GetEnvironmentVariable("WCP_PACKS_ROOT");
+        if (string.IsNullOrEmpty(packsRoot))
+            throw new InvalidOperationException(
+                "未指定 packs 根：用 run_registry_test.cmd 运行（自动传入仓库 packs），" +
+                "或传参数 / 设 WCP_PACKS_ROOT（包含 <lang>/manifest.json 的目录）");
         string es3 = args.Length > 1 ? args[1] : Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
             @"AppData\LocalLow\WCP\wcp\MyBook.es3");

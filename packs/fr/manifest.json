@@ -9,22 +9,54 @@
   "es3_prefix": "fr",
   "book_layout": "fragmented",
   "strategy": {
-    "assembly": "WcpPack.Fr.dll",
-    "type": "WcpPack.Fr.FrenchStrategy"
+    "assembly": "$host",
+    "type": "WcpHost.GenericLanguageStrategy"
   },
   "resources": {
-    "books": ["books/法语A1A2.xlsx", "books/法语B1.xlsx", "books/法语B2.xlsx"],
+    "books": [
+      "books/法语A1A2.xlsx",
+      "books/法语B1.xlsx",
+      "books/法语B2.xlsx"
+    ],
     "meaning_db": "db/meaning.sqlite",
     "sentence_table": "db/sentences.json",
     "repair": "db/repair.tsv",
     "word_audio": "audio/word/",
     "sentence_audio": "audio/sentence/"
   },
-  "repair_probes": ["être", "coing", "vaguement"],
+  "repair_probes": [
+    "être",
+    "coing",
+    "vaguement"
+  ],
+  "source": {
+    "payload_dir": "output/fr_db_payload",
+    "pron": "fr_pron.tsv",
+    "sentences": "fr_sentences.tsv",
+    "payload_files": {
+      "fr_pron.tsv": "d481a87a44bb0a96d6b306284277cae69a5ff582a385ccf16a53f77df0131be9",
+      "fr_sentences.tsv": "34e524f8ec49caa062a5cc202c34d9e69b81b76296114cc1906222286c0b5f43",
+      "fr_only_pron.tsv": "d481a87a44bb0a96d6b306284277cae69a5ff582a385ccf16a53f77df0131be9",
+      "en_pron.tsv": "d1dd1d3dd34714865fafacb088c3f5835921e36f7c378e0a3c8b5c182b39aeda",
+      "en_sentences.tsv": "f54132e767928723a5a28f54c02ddda2677c798b8abf59417fb460d8ca87ac8c"
+    }
+  },
+  "book_sha256": {
+    "法语A1A2.xlsx": "3a28eba6ec5e060ddd1500f463e5386f24049f95d9c581e4b74e105d642da6a5",
+    "法语B1.xlsx": "163217fb03531b35701a62b0b46f1bc83ff050eedfc9013bdd7de1c7db743863",
+    "法语B2.xlsx": "ae2abf481863f3f2093092c1f57228641dab1d5313df8767912cf217c288a265"
+  },
+  "counts": {
+    "pron": 8116,
+    "sentence_rows": 24348,
+    "sentence_words": 8116,
+    "words_without_sentences": 0
+  },
   "notes": [
-    "word_count / fingerprint_sha256 是对 resources.books 全部分册的**并集去重后排序**算的 SHA-256。",
-    "法语是三分册: A1A2=2680 + B1=2902 + B2=2534，并集去重 = 8116，与指纹精确吻合（2026-09-14 复算）。",
+    "法语是三分册: A1A2=2680 + B1=2902 + B2=2534，并集去重 = 8116，与指纹精确吻合。",
     "observed_slot=2 来自实测存档 MyBook.es3 的 SelfBookList2（8116 词，指纹一致）。",
-    "同形词风险: 与英语同形 1638/8116，故 audio/word/ 必须私有 —— 不能与游戏原生 vocabulary/ 共享。"
+    "同形词风险: 与英语同形 1638/8116，所以 audio/word/ 必须私有 —— 不能与游戏原生 vocabulary/ 共享。",
+    "战斗/复习词池由宿主从本书重建（BookPool）: 全局已学词典只用于排序，不再供词 —— 这也消除了\"法语战斗出英语\"的根因。",
+    "已不再写入共享库: fr_db_payload/en_pron.tsv 与 en_sentences.tsv 是旧插件\"灌库+还原\"时代的英文基线，宿主模式下只在旧插件兜底路径使用，pack 不需要它们。"
   ]
 }

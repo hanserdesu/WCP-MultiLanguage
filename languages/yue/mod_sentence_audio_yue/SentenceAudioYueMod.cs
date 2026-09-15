@@ -134,7 +134,7 @@ namespace SentenceAudioYue
             // 词书级别闸门: 只有当前内存词表 / 槽位序号 / 已落盘书名三者一致
             // 且词表指纹等于已登记粤语书时, 才允许扫描或接管任何 UI。
             // 其它词书(含英语/日语/用户自建)在源头直接失败关闭。
-            if (!ManagedFrenchBookSelected())
+            if (!ManagedBookSelected())
             {
                 RestoreOtherBookUi();
                 return;
@@ -164,7 +164,7 @@ namespace SentenceAudioYue
         // 当前词书是否为已登记粤语书。指纹基于排序后的完整词形集合, 与槽位
         // 无关: 用户把粤语书挪到别的自定义槽位也能识别; 词数不同/词表被改动
         // 则一律不接管。日语书及其它任何词书都返回 false。
-        private bool ManagedFrenchBookSelected()
+        private bool ManagedBookSelected()
         {
             try
             {
@@ -466,7 +466,7 @@ namespace SentenceAudioYue
                     typeof(YueSentenceAudioPlugin), "SoundTheWordPrefix");
                 new Harmony("dev.hanserdesu.sentaudio.yue")
                     .Patch(m, new HarmonyMethod(prefix));
-                Log.LogInfo("patched SoundTheWordS8.OnButton1Click (FR)");
+                Log.LogInfo("patched SoundTheWordS8.OnButton1Click");
             }
             catch (Exception e)
             {
@@ -503,7 +503,7 @@ namespace SentenceAudioYue
         private bool IsActivelyTakingOver(Button button)
         {
             if (button == null || !isActiveAndEnabled || _enabled == null || !_enabled.Value) return false;
-            if (!ManagedFrenchBookSelected()) return false;
+            if (!ManagedBookSelected()) return false;
             YueReadBtnState state;
             return _readStates.TryGetValue(button, out state) &&
                 state != null && state.actionAttached;
@@ -642,7 +642,7 @@ namespace SentenceAudioYue
         private bool CanPlay()
         {
             return isActiveAndEnabled && _enabled != null && _enabled.Value &&
-                ManagedFrenchBookSelected();
+                ManagedBookSelected();
         }
 
         private void TouchClip(string file)
