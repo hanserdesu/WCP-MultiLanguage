@@ -1,0 +1,72 @@
+{
+ "ja/wcp-ja-core.zip": {
+  "error": "HTTP Error 404: Not Found"
+ },
+ "ja/wcp-ja-slot-seed.json": {
+  "error": "HTTP Error 404: Not Found"
+ },
+ "fr/wcp-fr-core.zip": {
+  "asset_id": 565067408,
+  "verified": true
+ },
+ "fr/wcp-fr-slot-seed.json": {
+  "asset_id": 565067499,
+  "verified": true
+ },
+ "ru/wcp-ru-core.zip": {
+  "asset_id": 565067597,
+  "verified": true
+ },
+ "ru/wcp-ru-slot-seed.json": {
+  "asset_id": 565067707,
+  "verified": true
+ },
+ "de/wcp-de-core.zip": {
+  "asset_id": 565067790,
+  "verified": true
+ },
+ "de/wcp-de-slot-seed.json": {
+  "asset_id": 565068635,
+  "verified": true
+ },
+ "yue/wcp-yue-core.zip": {
+  "asset_id": 565068741,
+  "verified": true
+ },
+ "yue/wcp-yue-slot-seed.json": {
+  "asset_id": 565068808,
+  "verified": true
+ },
+ "es/wcp-es-core.zip": {
+  "asset_id": 565068864,
+  "verified": true
+ },
+ "es/wcp-es-slot-seed.json": {
+  "asset_id": 565068952,
+  "verified": true
+ },
+ "pt/wcp-pt-core.zip": {
+  "asset_id": 565069029,
+  "verified": true
+ },
+ "pt/wcp-pt-slot-seed.json": {
+  "asset_id": 565069381,
+  "verified": true
+ },
+ "ko/wcp-ko-core.zip": {
+  "asset_id": 565069489,
+  "verified": true
+ },
+ "ko/wcp-ko-slot-seed.json": {
+  "asset_id": 565069744,
+  "verified": true
+ },
+ "ar/wcp-ar-core.zip": {
+  "asset_id": 565069831,
+  "verified": true
+ },
+ "ar/wcp-ar-slot-seed.json": {
+  "asset_id": 565069943,
+  "verified": true
+ }
+}
