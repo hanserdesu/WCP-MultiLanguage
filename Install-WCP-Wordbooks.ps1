@@ -269,7 +269,17 @@ if (-not $Offline) {
     } catch {
         Write-Warning ('GitHub 目录刷新失败，使用随包目录: ' + $_.Exception.Message)
         if (Test-Path -LiteralPath $cachePath) {
-            try { $catalog = Import-WordbookCatalog -Path $cachePath } catch { Write-Warning '缓存目录无效，继续使用随包目录' }
+            try {
+                $cached = Import-WordbookCatalog -Path $cachePath
+                # 缓存只在比随包目录更新时才顶替它：旧缓存可能钉住已经下线的 release 或
+                # 尚未发布的 draft tag（2026-09-15 实测：旧缓存把 fr/ja 指向 404 的资源）。
+                $cacheDate = [datetime]::MinValue
+                $packDate = [datetime]::MinValue
+                [void][datetime]::TryParse([string](Get-FieldOr $cached 'updated' ''), [ref]$cacheDate)
+                [void][datetime]::TryParse([string](Get-FieldOr $catalog 'updated' ''), [ref]$packDate)
+                if ($cacheDate -gt $packDate) { $catalog = $cached }
+                else { Write-Verbose '缓存目录不比随包目录新，继续使用随包目录' }
+            } catch { Write-Warning '缓存目录无效，继续使用随包目录' }
         }
     }
 }

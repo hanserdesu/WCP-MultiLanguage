@@ -70,6 +70,10 @@ powershell -File tests\test_hub.ps1
 同名 `release-manifest.json`，发现流程会把别的语言资源串进来，因此以打包在目录里的固定
 asset 列表为准。`disk.extract_mb` 是按 zip 内实际文件大小算出的解压占用，用于峰值磁盘检查。
 
+条目里的 `repo` 仍是每种语言自己的词书仓库，不是资源所在的仓库：安装器的在线发现按 `repo`
+建索引，两本词书共用一个仓库会被折叠成一条（`tests/test_hub.ps1` 里有对应断言）。资源到底
+从哪个 release 下载，只看每条 asset 的 `url`。
+
 语音包的打包与发布流程见 [INSTALLER.md](INSTALLER.md#资源包发布流程)。
 
 ## 迁移说明

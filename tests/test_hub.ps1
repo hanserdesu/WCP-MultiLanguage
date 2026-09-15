@@ -35,6 +35,25 @@ Check 'catalog 有效' $true
 try { $bad = $catJson -replace '"schema": 1', '"no_schema": 1' | ConvertFrom-Json; Assert-WordbookCatalog -Catalog $bad; Check '缺 schema 拒绝' $false }
 catch { Check '缺 schema 拒绝' ($_.Exception.Message -match '缺少字段') }
 
+# 随包目录：安装器的在线发现按 repo 给词书建索引，两本词书共用一个 repo 会被折叠成
+# 一条（2026-09-15 曾把 8 种语言的 repo 都指向集成仓库，在线 -List 只剩 2 本）。
+$shipped = Get-Content -LiteralPath (Join-Path $here '..\catalog.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+Assert-WordbookCatalog -Catalog $shipped
+Check '随包目录有效' $true
+$shipIds = @($shipped.wordbooks | ForEach-Object { [string]$_.id })
+$shipRepos = @($shipped.wordbooks | ForEach-Object { [string]$_.repo })
+Check '词书 id 两两不同' (@($shipIds | Sort-Object -Unique).Count -eq $shipIds.Count)
+Check '词书 repo 两两不同' (@($shipRepos | Sort-Object -Unique).Count -eq $shipRepos.Count)
+$available = @($shipped.wordbooks | Where-Object { [string]$_.status -eq 'available' })
+$fullyLinked = @($available | Where-Object {
+    $assets = @($_.assets)
+    $assets.Count -gt 0 -and @($assets | Where-Object {
+        $_.url -match '^https://github\.com/.+/releases/download/.+/.+$' -and
+        $_.size -gt 0 -and $_.sha256 -match '^[0-9a-f]{64}$'
+    }).Count -eq $assets.Count
+})
+Check 'available 词书每项都是可校验的 release 资产' ($available.Count -eq $fullyLinked.Count)
+
 # selection
 $sel = @(Resolve-WordbookSelection -Catalog $cat -Ids @('b'))
 Check '按 id 选择' ($sel.Count -eq 1 -and $sel[0].id -eq 'b')

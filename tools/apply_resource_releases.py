@@ -5,11 +5,16 @@ tool keeps it in sync with what actually sits in the WCP-MultiLanguage
 releases.  Input is a JSON map:
 
     { "<lang id>": { "tag": "wcp-fr-resources-v1.0.0",
+                     "repo": "hanserdesu/WCP-French-Wordbook",
                      "disk_mb": 842,
                      "assets": [ {kind, name, size, sha256, url}, ... ] } }
 
 "disk_mb" is optional; when present it refreshes the entry's disk.extract_mb
 preflight number (zip entries are stored, so it is the extracted size).
+"repo" is optional and overrides the repo field per language: the installer's
+online discovery indexes the catalog by repo, so two wordbooks sharing one repo
+would collapse into a single entry (resources may still be hosted elsewhere;
+the asset URLs decide where the bytes come from).
 
 usage: python tools/apply_resource_releases.py releases.json [--repo owner/name] [--dry-run]
 """
@@ -67,7 +72,9 @@ def main():
         disk_mb = rel.get("disk_mb")
         if isinstance(disk_mb, int) and disk_mb > 0:
             wb.setdefault("disk", {})["extract_mb"] = disk_mb
-        if lang not in args.keep_repo:
+        if rel.get("repo"):
+            wb["repo"] = rel["repo"]
+        elif lang not in args.keep_repo:
             wb["repo"] = args.repo
         print(f"{lang}: {tag}  {len(assets)} asset(s)  repo={wb['repo']}  status={wb['status']}")
 
