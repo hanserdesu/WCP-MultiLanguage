@@ -4,9 +4,13 @@
 
 它把日语词书、中文释义、读音、例句和音频接入游戏，让万词破也可以用来学习日语。
 
+> **⚠️ 项目已迁移：** 本仓库已封存，仅保留历史版本与下载。日语词书与法语、俄语、德语、西班牙语、葡萄牙语、韩语、阿拉伯语、粤语等其他语言词书，后续已统一迁移到新仓库 [hanserdesu/WCP-MultiLanguage](https://github.com/hanserdesu/WCP-MultiLanguage)，请前往新仓库获取最新版本与公告。
+>
+> 当前对外稳定版为 **v1.2.1**；`wcp-jp-v1.2.2` 起的版本仅用于开发验证，不再对外提供安装包。
+
 ## 普通用户怎么安装
 
-1. 优先下载 [Gitee 上的 WCP 日语词书一键安装包 v1.2.2](https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/tag/wcp-jp-v1.2.2)；Gitee 打不开时使用 [GitHub Release](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.2)。
+1. 优先下载 [Gitee 上的 WCP 日语词书一键安装包 v1.2.1](https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/tag/wcp-jp-v1.2.1)；Gitee 打不开时使用 [GitHub Release v1.2.1](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.1)。
 2. 解压安装包。
 3. 关闭万词破，双击解压后最外层的 `01_双击运行我.cmd`，不要进入 `support` 文件夹。
 4. 等待安装器完成，然后重新启动游戏。安装窗口会一直保留，请点击右上角 X 关闭；按 Enter 不会关闭窗口。
@@ -22,7 +26,7 @@
 - 日语词书、数据库修复和例句播放插件。
 - 与作者本机一致的 BepInEx 5 运行环境。
 
-音频资源会由安装器先探测国内 Gitee 和 [GitHub 资源 Release](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-resources-v1.0.0)，按可用路由自动下载，并进行完整性校验。Gitee 分片分布在主仓库和两个资源仓库中，安装器会按分片地址下载、合并和校验；下载中断时会保留临时缓存，支持下次运行通过 HTTP Range 继续，普通用户只需要下载主 Release 的一键安装包。
+音频资源会由安装器从 [GitHub 资源 Release](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-resources-v1.0.0) 自动下载，并进行完整性校验。普通用户只需要下载主 Release 的一键安装包。
 
 ## 会不会影响英语词库？
 
@@ -43,7 +47,7 @@
 
 **找不到游戏目录：** 确认游戏已安装并至少启动过一次；如果存在多个游戏目录，安装器会让你选择。
 
-**音频下载失败：** 安装器会自动切换国内 Gitee/GitHub 路由；若两条路由都不可用，检查网络和磁盘空间后重新运行。已完成校验的资源会复用，未完成的分片或整包会保留在 `AppData\LocalLow\WCP\wcp\jpmod_downloads` 中并尝试断点续传。窗口中的逐路由错误信息可用于判断是连通性、下载长度还是 SHA-256 校验问题。
+**音频下载失败：** 检查网络和磁盘空间后重新运行安装器，已完成校验的资源会复用。
 
 **游戏启动后没有插件效果：** 确认游戏已完全退出后再安装，并检查游戏目录中是否存在 `BepInEx` 文件夹。安装器运行结束后要重新启动游戏。
 

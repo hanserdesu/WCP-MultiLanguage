@@ -10,9 +10,11 @@
 
 只需要下载主 Release 里的一个安装包：
 
-[优先从 Gitee 下载 WCP 日语词书一键安装包 v1.2.2](https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/tag/wcp-jp-v1.2.2)；[GitHub Release 备用](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.2)
+[优先从 Gitee 下载 WCP 日语词书一键安装包 v1.2.1](https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/tag/wcp-jp-v1.2.1)；[GitHub Release v1.2.1 备用](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.1)。
 
-不要单独下载资源 Release。安装器会先探测国内 Gitee，再回退到 GitHub 下载单词音频和例句音频，并检查文件是否完整；Gitee 分片分布在主仓库和两个资源仓库中，安装器会自动合并，下载中断后会保留缓存并在下次运行时断点续传。
+不要单独下载资源 Release。安装器会从 GitHub 资源 Release 下载单词音频和例句音频，并检查文件是否完整。
+
+> ⚠️ 本仓库已封存，`wcp-jp-v1.2.2` 起仅作开发版本；日语与其他语言词书的后续开发已迁移到 [hanserdesu/WCP-MultiLanguage](https://github.com/hanserdesu/WCP-MultiLanguage)。
 
 ### 安装包会做什么？
 
@@ -64,7 +66,7 @@
 **提示 The directory is not empty：** 这是旧版安装失败后遗留临时解压目录造成的。v1.1.6 每次使用独立临时目录，旧目录清理失败也不会阻止安装；如果磁盘空间不足，可在 `%USERPROFILE%\AppData\LocalLow\WCP\wcp` 中删除名称以 `jpmod_audio_stage` 开头的旧临时目录。
 **提示解压速度慢或没有百分比：** 旧版使用 Windows PowerShell 自带的 Expand-Archive，进度显示不完整。v1.1.7 改为内置 .NET 多线程解压，并显示文件百分比、容量和速度。
 
-**音频下载失败：** 安装器会自动切换国内 Gitee/GitHub 路由；若两条路由都不可用，检查网络和磁盘空间后重新运行即可。已下载且校验正确的资源会复用，未完成分片或整包会保留在 `%USERPROFILE%\AppData\LocalLow\WCP\wcp\jpmod_downloads`，下次运行会尝试 HTTP Range 断点续传。
+**音频下载失败：** 检查网络和磁盘空间后重新运行安装器，已下载且校验正确的资源会复用。
 
 `jpmod_downloads` 是持续保留的下载缓存；`jpmod_audio_stage_时间戳_GUID` 是解压临时目录，每次安装尝试使用新的目录。解压中断时会重新解压，但不会因此重新下载已经校验通过或已经保留了部分内容的音频。
 
