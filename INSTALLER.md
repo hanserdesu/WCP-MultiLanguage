@@ -100,3 +100,33 @@ PowerShell 并让窗口保持打开，全部中文提示都在带 BOM 的 `.ps1`
 bytes, reserve, free space, and the compatibility result. `-Update` downloads
 only assets whose SHA-256 differs from the installed state. `-Offline` uses the
 checked-in catalog and the local cache without contacting GitHub.
+
+## 资源包发布流程
+
+每种语言的语音资源来自游戏缓存目录
+`%USERPROFILE%\AppData\LocalLow\WCP\wcp\<lang>_{word,sentence}_audio`，
+打成与日语包同规格的 zip（平铺 mp3、`ZIP_STORED`、无目录项），文件名固定为
+`wcp-<english>-audio-{words,sentences}.zip`。发布走四步：
+
+```powershell
+# 1) 打包（跳过已有 zip，逐语言把 sha256/size 写进 build-summary.json）
+python _local\release\build_all_languages.py --only de,es
+# 2) 生成每语言的 release-manifest.json / notes.md 与精确解压占用
+python _local\release\make_release_manifests.py
+# 3) 建 draft release -> 上传 -> 用 GitHub 回的 digest 核对本地 sha256 -> 才发布
+python _local\release\publish_release.py de,es
+#    （上传中断留下半包时加 --repair：删掉对不上的资产再传一次）
+# 4) 把通过校验的 url/size/sha256 写回 catalog.json
+python tools\apply_resource_releases.py <发布的 releases.json> --keep-repo ja
+```
+
+`publish_release.py` 在资源没有全部通过 size + sha256 核对前不会把 draft 转正，所以
+失败只会留下一份 draft，玩家拿不到未校验的字节。
+
+上传是 GB 级流量，本机固定走良心云线路：Clash Verge 全局 `Script.js` 把 `github.com` /
+`githubusercontent.com` 指向 `🎈 GitHub线路`（良心云），用户级 `HTTPS_PROXY` 指向
+`http://127.0.0.1:7897`；XSUS 订阅只保留 AI 服务，不承担资源上传。上传时可用
+`_local\proxy\pipe_client.py chains github` 确认实际链路。
+
+日语是例外：日语语音包留在 `hanserdesu/japanese`，`catalog.json` 的 `ja` 条目固定指向该仓库的
+公开稳定 tag（历史 draft 版本不在目录中引用）。

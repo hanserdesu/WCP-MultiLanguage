@@ -6,8 +6,8 @@
 
 > **状态：阶段 2 实施中。** 宿主、20 个逻辑槽位、资源隔离与一键安装器已落地，
 > 注册表 / 槽位 / 接管 / 安装器测试全部通过；多语言实机切换矩阵尚未完成最终验收。
-> **发布边界：集成版安装包与资源包的 release 一律从本仓库发布**；
-> `hanserdesu/japanese` 只保留日语词书本体。
+> **发布边界：集成版安装包与资源包的 release 一律从本仓库发布**；日语词书本体与日语语音包
+> 保留在 `hanserdesu/japanese`（其余语言的语音包全部由本仓库发布）。
 
 ## 仓库结构
 
@@ -58,8 +58,19 @@ powershell -File tests\test_hub.ps1
 
 ## 目录状态说明
 
-`catalog.json` 中所有词书当前均为 `pending_release`：集成版资源包将在本仓库的发布流程中
-重新发布后逐个转为 `available`。`-List` 仍会显示这些词书，但在资源可用前不可选择安装。
+`catalog.json` 中 9 本词书的语音资源均已发布并逐项校验（`status: available`）：
+
+| 词书 | 资源发布位置 | tag |
+|---|---|---|
+| `ja` | `hanserdesu/japanese`（日语本体保留在原仓库） | `wcp-jp-resources-v1.0.0` |
+| `ar` `de` `es` `fr` `ko` `pt` `ru` `yue` | 本仓库 | `wcp-<语言>-resources-v1.0.0` |
+
+每条 asset 都带 `url` / `size` / `sha256`（或 GitHub 的 sha256 digest），安装器直接按 `url`
+下载并逐项校验。资源**不依赖** GitHub 的仓库发现流程：多语言仓库有多个 release 且每个都带
+同名 `release-manifest.json`，发现流程会把别的语言资源串进来，因此以打包在目录里的固定
+asset 列表为准。`disk.extract_mb` 是按 zip 内实际文件大小算出的解压占用，用于峰值磁盘检查。
+
+语音包的打包与发布流程见 [INSTALLER.md](INSTALLER.md#资源包发布流程)。
 
 ## 迁移说明
 
