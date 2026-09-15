@@ -13,14 +13,26 @@
     "type": "WcpPack.Yue.CantoneseStrategy"
   },
   "resources": {
-    "books": ["books/粤语词库(猫条版).xlsx"],
+    "books": [
+      "books/粤语词库(猫条版).xlsx"
+    ],
     "meaning_db": "db/meaning.sqlite",
     "sentence_table": "db/sentences.json",
     "repair": "db/repair.tsv",
     "word_audio": "audio/word/",
     "sentence_audio": "audio/sentence/"
   },
-  "repair_probes": ["食", "睇", "搞掂"],
+  "repair_probes": [
+    "食",
+    "睇",
+    "搞掂"
+  ],
+  "counts": {
+    "pron": 384,
+    "sentence_rows": 768,
+    "sentence_words": 384,
+    "words_without_sentences": 0
+  },
   "notes": [
     "word_count / fingerprint_sha256 是对 resources.books 全部分册的并集去重后排序算的 SHA-256。",
     "粤语是单册: 粤语词库(猫条版).xlsx 本身含 384 核心词。",

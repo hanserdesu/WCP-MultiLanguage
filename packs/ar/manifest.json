@@ -33,7 +33,7 @@
     "sentences": "ar_sentences.tsv",
     "payload_files": {
       "ar_pron.tsv": "85c2603014016be8b8aacc9478080ee09d4f9f2a07ebd9c9e863a7298e8ed7a5",
-      "ar_sentences.tsv": "fc6e5d25832573ce3dfbd7d3fc742519818d869af6849b6d22a580e2fc885555"
+      "ar_sentences.tsv": "7c53f02703443af5994b1bcd778e52934186e7762b56ea4e0c77b3871d84b77d"
     }
   },
   "book_sha256": {
@@ -41,7 +41,7 @@
   },
   "counts": {
     "pron": 8118,
-    "sentence_rows": 8118,
+    "sentence_rows": 24354,
     "sentence_words": 8118,
     "words_without_sentences": 0
   },
