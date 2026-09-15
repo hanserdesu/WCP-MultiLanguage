@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace WcpCustomSlots
 {
@@ -232,6 +234,283 @@ namespace WcpCustomSlots
             for (int i = 0; i < state.slots.Length; i++)
                 if (SameWords(state.slots[i].words, liveWords)) return true;
             return false;
+        }
+
+        // ── 持久化：自建 JSON 读写，不依赖 Unity 的 JsonUtility ──
+        //
+        // 实测（1.2.0 诊断日志）：JsonUtility.ToJson 会把 SlotRecord[] slots 整段丢掉 ——
+        // `rows=20 -> 0 (LOSS! slots 未落盘)`，落盘永远是 38 字节的
+        // {"schema":1,"selected":0}，20 行数据从未真正保存过。
+        // 因此把序列化搬进这个不依赖 Unity 的纯模型：既绕开该限制，又能离线单测。
+
+        private static readonly string[] EmptyWords = new string[0];
+
+        // 固定字段顺序写出；words 数组按原样写出（原生镜像行需要完整词表快照）。
+        public static string Serialize(SlotState state)
+        {
+            if (state == null) return "{}";
+            Normalize(state);
+            StringBuilder sb = new StringBuilder(1 << 16);
+            sb.Append("{\"schema\":").Append(state.schema)
+              .Append(",\"selected\":").Append(state.selected)
+              .Append(",\"slots\":[");
+            for (int i = 0; i < state.slots.Length; i++)
+            {
+                SlotRecord row = state.slots[i];
+                if (i > 0) sb.Append(',');
+                sb.Append("{\"number\":").Append(row.number)
+                  .Append(",\"id\":");
+                AppendString(sb, row.id)
+                  .Append(",\"name\":");
+                AppendString(sb, row.name)
+                  .Append(",\"language\":");
+                AppendString(sb, row.language)
+                  .Append(",\"owner\":");
+                AppendString(sb, row.owner)
+                  .Append(",\"managed\":").Append(row.managed ? "true" : "false")
+                  .Append(",\"nativeSlot\":").Append(row.nativeSlot)
+                  .Append(",\"words\":[");
+                string[] words = row.words ?? EmptyWords;
+                for (int w = 0; w < words.Length; w++)
+                {
+                    if (w > 0) sb.Append(',');
+                    AppendString(sb, words[w]);
+                }
+                sb.Append("]}");
+            }
+            sb.Append("]}");
+            return sb.ToString();
+        }
+
+        private static StringBuilder AppendString(StringBuilder sb, string value)
+        {
+            if (value == null) return sb.Append("\"\"");
+            sb.Append('"');
+            for (int i = 0; i < value.Length; i++)
+            {
+                char c = value[i];
+                switch (c)
+                {
+                    case '"': sb.Append("\\\""); break;
+                    case '\\': sb.Append("\\\\"); break;
+                    case '\n': sb.Append("\\n"); break;
+                    case '\r': sb.Append("\\r"); break;
+                    case '\t': sb.Append("\\t"); break;
+                    case '\b': sb.Append("\\b"); break;
+                    case '\f': sb.Append("\\f"); break;
+                    default:
+                        if (c < ' ') sb.Append("\\u").Append(((int)c).ToString("x4"));
+                        else sb.Append(c);
+                        break;
+                }
+            }
+            return sb.Append('"');
+        }
+
+        // 解析失败返回 null（调用方据此走新建分支，绝不静默丢数据）。
+        public static SlotState Deserialize(string json)
+        {
+            if (json == null) return null;
+            JsonScanner scanner = new JsonScanner(json);
+            try
+            {
+                SlotState state = new SlotState();
+                state.slots = new SlotRecord[0];
+                scanner.SkipWhitespace();
+                if (!scanner.TryReadObjectStart()) return null;
+                bool any = false;
+                while (true)
+                {
+                    scanner.SkipWhitespace();
+                    if (scanner.TryReadObjectEnd()) break;
+                    if (any && !scanner.TryReadComma()) return null;
+                    any = true;
+                    string key = scanner.ReadString();
+                    if (key == null || !scanner.TryReadColon()) return null;
+                    scanner.SkipWhitespace();
+                    if (key == "schema") state.schema = scanner.ReadInt();
+                    else if (key == "selected") state.selected = scanner.ReadInt();
+                    else if (key == "slots") state.slots = ReadSlots(scanner);
+                    else scanner.SkipValue();
+                }
+                Normalize(state);
+                return state;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        private static SlotRecord[] ReadSlots(JsonScanner scanner)
+        {
+            if (!scanner.TryReadArrayStart()) throw new FormatException("slots 不是数组");
+            List<SlotRecord> rows = new List<SlotRecord>();
+            bool any = false;
+            while (true)
+            {
+                scanner.SkipWhitespace();
+                if (scanner.TryReadArrayEnd()) break;
+                if (any && !scanner.TryReadComma()) throw new FormatException("slots 缺少逗号");
+                any = true;
+                scanner.SkipWhitespace();
+                if (!scanner.TryReadObjectStart()) throw new FormatException("slot 行不是对象");
+                SlotRecord row = new SlotRecord();
+                bool first = true;
+                while (true)
+                {
+                    scanner.SkipWhitespace();
+                    if (scanner.TryReadObjectEnd()) break;
+                    if (!first && !scanner.TryReadComma()) throw new FormatException("行内缺少逗号");
+                    first = false;
+                    string key = scanner.ReadString();
+                    if (key == null || !scanner.TryReadColon()) throw new FormatException("行内键无效");
+                    scanner.SkipWhitespace();
+                    if (key == "number") row.number = scanner.ReadInt();
+                    else if (key == "id") row.id = scanner.ReadStringOrEmpty();
+                    else if (key == "name") row.name = scanner.ReadStringOrEmpty();
+                    else if (key == "language") row.language = scanner.ReadStringOrEmpty();
+                    else if (key == "owner") row.owner = scanner.ReadStringOrEmpty();
+                    else if (key == "managed") row.managed = scanner.ReadBool();
+                    else if (key == "nativeSlot") row.nativeSlot = scanner.ReadInt();
+                    else if (key == "words") row.words = ReadWords(scanner);
+                    else scanner.SkipValue();
+                }
+                rows.Add(row);
+            }
+            return rows.ToArray();
+        }
+
+        private static string[] ReadWords(JsonScanner scanner)
+        {
+            if (!scanner.TryReadArrayStart()) throw new FormatException("words 不是数组");
+            List<string> words = new List<string>();
+            bool any = false;
+            while (true)
+            {
+                scanner.SkipWhitespace();
+                if (scanner.TryReadArrayEnd()) break;
+                if (any && !scanner.TryReadComma()) throw new FormatException("words 缺少逗号");
+                any = true;
+                scanner.SkipWhitespace();
+                words.Add(scanner.ReadStringOrEmpty());
+            }
+            return words.ToArray();
+        }
+
+        // 极简 JSON 扫描器：只覆盖本文件写出的形状 + 宽松跳过未知值。
+        private sealed class JsonScanner
+        {
+            private readonly string _s;
+            private int _i;
+
+            public JsonScanner(string s) { _s = s; _i = 0; }
+
+            public void SkipWhitespace()
+            {
+                while (_i < _s.Length && char.IsWhiteSpace(_s[_i])) _i++;
+            }
+
+            private bool Take(char c)
+            {
+                SkipWhitespace();
+                if (_i < _s.Length && _s[_i] == c) { _i++; return true; }
+                return false;
+            }
+
+            public bool TryReadObjectStart() { return Take('{'); }
+            public bool TryReadObjectEnd() { return Take('}'); }
+            public bool TryReadArrayStart() { return Take('['); }
+            public bool TryReadArrayEnd() { return Take(']'); }
+            public bool TryReadComma() { return Take(','); }
+            public bool TryReadColon() { return Take(':'); }
+
+            public string ReadStringOrEmpty()
+            {
+                string v = ReadString();
+                return v ?? "";
+            }
+
+            public string ReadString()
+            {
+                SkipWhitespace();
+                if (!Take('"')) return null;
+                StringBuilder sb = new StringBuilder();
+                while (_i < _s.Length)
+                {
+                    char c = _s[_i++];
+                    if (c == '"') return sb.ToString();
+                    if (c != '\\') { sb.Append(c); continue; }
+                    if (_i >= _s.Length) break;
+                    char esc = _s[_i++];
+                    switch (esc)
+                    {
+                        case '"': sb.Append('"'); break;
+                        case '\\': sb.Append('\\'); break;
+                        case '/': sb.Append('/'); break;
+                        case 'n': sb.Append('\n'); break;
+                        case 'r': sb.Append('\r'); break;
+                        case 't': sb.Append('\t'); break;
+                        case 'b': sb.Append('\b'); break;
+                        case 'f': sb.Append('\f'); break;
+                        case 'u':
+                            if (_i + 4 > _s.Length) throw new FormatException("\\u 截断");
+                            sb.Append((char)Convert.ToInt32(_s.Substring(_i, 4), 16));
+                            _i += 4;
+                            break;
+                        default: throw new FormatException("未知转义 " + esc);
+                    }
+                }
+                throw new FormatException("字符串未闭合");
+            }
+
+            public int ReadInt()
+            {
+                SkipWhitespace();
+                int start = _i;
+                if (_i < _s.Length && (_s[_i] == '-' || _s[_i] == '+')) _i++;
+                while (_i < _s.Length && _s[_i] >= '0' && _s[_i] <= '9') _i++;
+                if (_i == start) throw new FormatException("不是整数");
+                return int.Parse(_s.Substring(start, _i - start));
+            }
+
+            public bool ReadBool()
+            {
+                SkipWhitespace();
+                if (_i + 4 <= _s.Length && _s.Substring(_i, 4) == "true") { _i += 4; return true; }
+                if (_i + 5 <= _s.Length && _s.Substring(_i, 5) == "false") { _i += 5; return false; }
+                throw new FormatException("不是布尔");
+            }
+
+            // 跳过任意完整值（未知字段用，保证向后兼容）。
+            public void SkipValue()
+            {
+                SkipWhitespace();
+                if (_i >= _s.Length) return;
+                char c = _s[_i];
+                if (c == '{' || c == '[')
+                {
+                    char open = c, close = c == '{' ? '}' : ']';
+                    int depth = 0;
+                    while (_i < _s.Length)
+                    {
+                        char cur = _s[_i];
+                        if (cur == '"') { ReadString(); continue; }
+                        if (cur == open) depth++;
+                        else if (cur == close)
+                        {
+                            depth--;
+                            _i++;
+                            if (depth == 0) return;
+                            continue;
+                        }
+                        _i++;
+                    }
+                    return;
+                }
+                if (c == '"') { ReadString(); return; }
+                while (_i < _s.Length && _s[_i] != ',' && _s[_i] != '}' && _s[_i] != ']') _i++;
+            }
         }
     }
 }

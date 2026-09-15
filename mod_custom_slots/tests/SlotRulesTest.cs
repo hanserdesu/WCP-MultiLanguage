@@ -213,10 +213,59 @@ internal static class SlotRulesTest
             "不足可玩门槛的内容不判定可接管");
         Check(!SlotRules.NativeContentTracked(null, nativeLive), "空状态 fail-closed");
 
+        // ── 10) 持久化往返：自建序列化必须真正保住 20 行（JsonUtility 会丢 slots）──
+        SlotState persist = SlotRules.NewState();
+        persist.selected = 3;
+        persist.slots[0] = Managed(1, 8116);
+        persist.slots[0].id = "catbar-french-cefr-complete";
+        persist.slots[0].name = "法语词库(猫条版)";
+        persist.slots[0].language = "fr";
+        persist.slots[0].owner = "mod";
+        persist.slots[0].managed = true;
+        persist.slots[1] = SlotRules.Empty(2);
+        persist.slots[1].id = "native-2";
+        persist.slots[1].name = "俄语A1A2";
+        persist.slots[1].owner = "external";
+        persist.slots[1].nativeSlot = 2;
+        persist.slots[1].words = MakeWords(8451);
+        string blob = SlotRules.Serialize(persist);
+        Check(blob.Length > 1000, "序列化输出包含全部行（不是 38 字节空档）");
+        SlotState revived = SlotRules.Deserialize(blob);
+        Check(revived != null, "序列化结果可解析");
+        Check(revived != null && revived.slots != null && revived.slots.Length == SlotRules.MaxSlots,
+            "往返后仍是 20 行");
+        Check(revived != null && revived.selected == 3, "往返后 selected 保留");
+        Check(revived != null && revived.slots[0].managed && revived.slots[0].words.Length == 8116 &&
+            revived.slots[0].id == "catbar-french-cefr-complete",
+            "往返后托管行 id/managed/词表完整");
+        Check(revived != null && revived.slots[1].words.Length == 8451 &&
+            revived.slots[1].nativeSlot == 2 && revived.slots[1].name == "俄语A1A2",
+            "往返后原生镜像行快照完整");
+
+        // 转义与边界：引号/反斜杠/换行/中文都不能破坏 JSON
+        SlotState tricky = SlotRules.NewState();
+        tricky.slots[0].name = "带\"引号\"与\\反斜杠\n换行 中文";
+        tricky.slots[0].words = new string[5] { "a\"b", "c\\d", "e\nf", "日本語", "emoji? ok" };
+        SlotState trickyBack = SlotRules.Deserialize(SlotRules.Serialize(tricky));
+        Check(trickyBack != null && trickyBack.slots[0].name == tricky.slots[0].name,
+            "往返保住特殊字符名称");
+        Check(trickyBack != null && trickyBack.slots[0].words[0] == "a\"b" &&
+            trickyBack.slots[0].words[1] == "c\\d" && trickyBack.slots[0].words[2] == "e\nf",
+            "往返保住词表里的引号/反斜杠/换行");
+
+        // 解析失败必须返回 null（fail-closed），不能静默变成空档
+        Check(SlotRules.Deserialize("{\"schema\":1,\"selected\":0}") != null,
+            "旧 38 字节文件可解析（slots 缺省 → 空行，不丢其它键）");
+        Check(SlotRules.Deserialize("{\"slots\":[{\"number\":1,") == null,
+            "截断 JSON → null（不静默当空档）");
+        Check(SlotRules.Deserialize("not json at all") == null, "非 JSON → null");
+        Check(SlotRules.Deserialize(null) == null, "null 输入 → null");
+        Check(SlotRules.Deserialize("{\"schema\":2,\"unknownKey\":{\"a\":[1,2]},\"slots\":[]}") != null,
+            "未知字段可跳过（向后兼容）");
+
         Console.WriteLine("Failures: " + failures);
         return failures == 0 ? 0 : 1;
     }
-
     private static SlotRules.NativeBook MakeNativeBook(int slot, string name, int wordCount)
     {
         return new SlotRules.NativeBook { Slot = slot, Name = name, Words = MakeWords(wordCount) };

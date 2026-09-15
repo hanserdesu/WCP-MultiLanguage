@@ -35,7 +35,7 @@ namespace WcpCustomSlots
         }
     }
 
-    [BepInPlugin("dev.hanserdesu.customslots", "WCP Custom Slots", "1.1.0")]
+    [BepInPlugin("dev.hanserdesu.customslots", "WCP Custom Slots", "1.2.0")]
     public sealed class CustomSlotsPlugin : BaseUnityPlugin
     {
         internal static CustomSlotsPlugin Instance;
@@ -75,6 +75,7 @@ namespace WcpCustomSlots
             _state = LoadState();
             int imported = ImportNativeBooksNow();
             MergeSeed();
+            VerifySerializerRoundTrip();
             SaveState();
             try
             {
@@ -91,24 +92,52 @@ namespace WcpCustomSlots
             if (Instance == this) Instance = null;
         }
 
+        // Unity 的 JsonUtility 对嵌套/数组字段有序列化限制（历史实测：4 行有词却只写出 38 字节）。
+        // 这里在启动时做一次真实往返自检，把"存档把 slots 丢掉"这类静默数据丢失暴露到日志里。
+        private void VerifySerializerRoundTrip()
+        {
+            try
+            {
+                SlotRules.Normalize(_state);
+                string json = SlotRules.Serialize(_state);
+                SlotState back = SlotRules.Deserialize(json);
+                int rowsBack = (back == null || back.slots == null) ? -1 : back.slots.Length;
+                bool ok = rowsBack == _state.slots.Length;
+                Log.LogInfo("CustomSlots: serializer round-trip bytes=" + json.Length +
+                    "; rows=" + _state.slots.Length + " -> " + rowsBack +
+                    (ok ? " (OK)" : " (LOSS! slots 未落盘)"));
+            }
+            catch (Exception e) { Log.LogWarning("CustomSlots: serializer round-trip 失败: " + e.Message); }
+        }
+
         internal void Show(WordChooseButtonS10 chooser)
         {
             _bookChooser = chooser;
             if (_overlay != null)
             {
                 _overlay.SetActive(true);
+                Log.LogInfo("CustomSlots: Show → 复用已有覆盖层（20 行）");
                 RebuildRows();
                 return;
             }
-            Canvas canvas = FindCanvas();
+            Canvas canvas = _bookChooser != null ? _bookChooser.GetComponentInParent<Canvas>() : null;
+            if (canvas == null) canvas = FindCanvas();
             if (canvas == null)
             {
                 Log.LogWarning("CustomSlots: 找不到活动 Canvas，暂不显示 20 槽位页面");
                 return;
             }
+            Log.LogInfo("CustomSlots: Show → 新建覆盖层; canvas=" + canvas.name +
+                "; sortingOrder=" + canvas.sortingOrder);
 
             _overlay = new GameObject("WcpCustomSlotsOverlay");
             _overlay.transform.SetParent(canvas.transform, false);
+            // 覆盖层必须自建 Canvas + 强制排序：只挂在游戏 Canvas 下会被原生 UI 盖住
+            // （原生自定义页看起来"还是 4 行"的成因之一）。
+            Canvas overlayCanvas = _overlay.AddComponent<Canvas>();
+            overlayCanvas.overrideSorting = true;
+            overlayCanvas.sortingOrder = 32760;
+            _overlay.transform.SetAsLastSibling();
             RectTransform panel = _overlay.AddComponent<RectTransform>();
             panel.anchorMin = new Vector2(0.5f, 0.5f);
             panel.anchorMax = new Vector2(0.5f, 0.5f);
@@ -264,7 +293,28 @@ namespace WcpCustomSlots
                 return "槽位 " + number + "    （空）";
             string owner = record.managed ? "mod" : "外部词书";
             string name = string.IsNullOrEmpty(record.name) ? record.id : record.name;
+            if (SlotRules.IsNativeMirror(record))
+            {
+                // 原生镜像行：落盘的 SelfBookNameN 可能为空（游戏里"猫条版"是 BookNameMod 的
+                // 显示层伪装，不落盘），此时回退到游戏自己的规范名，避免显示成 "native-1"。
+                string canonical = NativeCanonical(record.nativeSlot);
+                name = string.IsNullOrEmpty(record.name)
+                    ? canonical
+                    : canonical + "（" + record.name + "）";
+            }
             return "槽位 " + number + "    " + name + "    " + record.words.Length + " 词    [" + owner + "]";
+        }
+
+        private static string NativeCanonical(int nativeSlot)
+        {
+            switch (nativeSlot)
+            {
+                case 1: return "自定义词书一";
+                case 2: return "自定义词书二";
+                case 3: return "自定义词书三";
+                case 4: return "自定义词书四";
+                default: return "原生槽位" + nativeSlot;
+            }
         }
 
         private void Select(int index)
@@ -525,7 +575,7 @@ namespace WcpCustomSlots
                 {
                     string raw = File.ReadAllText(_storePath);
                     Log.LogInfo("CustomSlots: store bytes=" + (raw == null ? 0 : raw.Length));
-                    SlotState loaded = JsonUtility.FromJson<SlotState>(raw);
+                    SlotState loaded = SlotRules.Deserialize(raw);
                     if (loaded != null)
                     {
                         SlotRules.Normalize(loaded);
@@ -534,7 +584,7 @@ namespace WcpCustomSlots
                             "; selected=" + loaded.selected);
                         return loaded;
                     }
-                    Log.LogWarning("CustomSlots: store 解析为 null，走新建分支");
+                    Log.LogWarning("CustomSlots: store 解析失败，走新建分支（旧文件不会被静默当作空档）");
                 }
                 else
                 {
@@ -566,8 +616,12 @@ namespace WcpCustomSlots
             try
             {
                 if (!File.Exists(SeedPath)) return;
-                SlotState seed = JsonUtility.FromJson<SlotState>(File.ReadAllText(SeedPath));
-                if (seed == null || seed.slots == null) return;
+                SlotState seed = SlotRules.Deserialize(File.ReadAllText(SeedPath));
+                if (seed == null || seed.slots == null)
+                {
+                    Log.LogWarning("CustomSlots: 安装器 seed 解析失败（格式不支持），本次不合并");
+                    return;
+                }
                 SlotRules.Normalize(_state);
                 foreach (SlotRecord incoming in seed.slots)
                 {
@@ -624,7 +678,7 @@ namespace WcpCustomSlots
             {
                 SlotRules.Normalize(_state);
                 Directory.CreateDirectory(Path.GetDirectoryName(_storePath));
-                string json = JsonUtility.ToJson(_state, true);
+                string json = SlotRules.Serialize(_state);
                 File.WriteAllText(_storePath, json);
                 int filled = 0;
                 for (int i = 0; i < _state.slots.Length; i++)
@@ -691,6 +745,33 @@ namespace WcpCustomSlots
             return null;
         }
 
+        // Unity 2022.2+ 起内建字体从 Arial.ttf 更名为 LegacyRuntime.ttf：
+        // 旧名字在部分运行时会抛 ArgumentException 或返回 null，导致整个覆盖层文字不可见。
+        // 逐级回退，最后退到系统字库，保证中文标签一定能画出来。
+        private static Font ResolveFont()
+        {
+            Font font = null;
+            try { font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf"); }
+            catch (Exception) { }
+            if (font == null)
+            {
+                try { font = Resources.GetBuiltinResource<Font>("Arial.ttf"); }
+                catch (Exception) { }
+            }
+            if (font == null)
+            {
+                try { font = Font.CreateDynamicFontFromOSFont("Microsoft YaHei", 16); }
+                catch (Exception) { }
+            }
+            if (font == null)
+            {
+                Font[] available = Resources.FindObjectsOfTypeAll<Font>();
+                if (available != null && available.Length > 0) font = available[0];
+            }
+            if (font == null) Log.LogWarning("CustomSlots: 取不到可用字体，覆盖层文字将不可见");
+            return font;
+        }
+
         private static Text CreateText(Transform parent, string value, int size,
                                        Vector2 position, Vector2 dimensions,
                                        TextAnchor anchor, Color color)
@@ -705,7 +786,7 @@ namespace WcpCustomSlots
             rt.sizeDelta = dimensions;
             Text text = go.AddComponent<Text>();
             text.text = value;
-            text.font = Resources.GetBuiltinResource<Font>("Arial.ttf");
+            text.font = ResolveFont();
             text.fontSize = size;
             text.alignment = anchor;
             text.color = color;
