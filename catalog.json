@@ -31,7 +31,8 @@
           "sha256": "f87fdcd117506a339226d26751968fec9bc028d4860827886cb90994827b5dd2",
           "url": "https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.0.0/wcp-japanese-audio-sentences.zip"
         }
-      ]
+      ],
+      "profile_id": "catbar-jlpt-complete"
     },
     {
       "id": "fr",
@@ -62,7 +63,8 @@
           "sha256": "a0714473a7e7bc7ca736ef5d7004cf5783ce00c6c16436ee296b2e817687e3d0",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-fr-resources-v1.0.0/wcp-french-audio-words.zip"
         }
-      ]
+      ],
+      "profile_id": "catbar-french-cefr-complete"
     },
     {
       "id": "ru",
@@ -93,7 +95,8 @@
           "sha256": "e42eaaa47932952fc4918812ade11a23e97a69844dcc38dce1c76906c0e2a738",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ru-resources-v1.0.0/wcp-russian-audio-words.zip"
         }
-      ]
+      ],
+      "profile_id": "catbar-russian-cefr-complete"
     },
     {
       "id": "de",
@@ -124,7 +127,8 @@
           "sha256": "091bbb91aad56d1eba3603a91774932f3a787be88e0388b998c306e97fa036e8",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.0.0/wcp-german-audio-words.zip"
         }
-      ]
+      ],
+      "profile_id": "catbar-german-complete"
     },
     {
       "id": "yue",
@@ -135,7 +139,7 @@
       "release_tag": "wcp-yue-resources-v1.0.0",
       "version": "wcp-yue-resources-v1.0.0",
       "word_count": 384,
-      "fingerprint_sha256": "",
+      "fingerprint_sha256": "0748ca590e7caf6c2d11e5062ee381e2a3e1ac84f943c561a4fed94568f0cb9e",
       "es3_prefix": "yue",
       "disk": {
         "extract_mb": 19
@@ -155,7 +159,8 @@
           "sha256": "8eeb8554f0c3431184ff229b575e06cad25dc89f9414eb84e12abc5f3ab31c04",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-yue-resources-v1.0.0/wcp-cantonese-audio-words.zip"
         }
-      ]
+      ],
+      "profile_id": "catbar-cantonese-complete"
     },
     {
       "id": "ko",
@@ -166,7 +171,7 @@
       "release_tag": "wcp-ko-resources-v1.0.0",
       "version": "wcp-ko-resources-v1.0.0",
       "word_count": 3123,
-      "fingerprint_sha256": "",
+      "fingerprint_sha256": "a0d87aeb56a508be26ed1a2fb0f83cedca3faf547278507650c85c5d7de1d1c1",
       "es3_prefix": "ko",
       "disk": {
         "extract_mb": 295
@@ -186,7 +191,8 @@
           "sha256": "e911390b1e0c0bdefe88f4925dec2f57f3e24f2aa34a9f10e05b4791e5676bb9",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.0.0/wcp-korean-audio-words.zip"
         }
-      ]
+      ],
+      "profile_id": "catbar-ko-complete"
     },
     {
       "id": "ar",
@@ -197,7 +203,7 @@
       "release_tag": "wcp-ar-resources-v1.0.0",
       "version": "wcp-ar-resources-v1.0.0",
       "word_count": 8118,
-      "fingerprint_sha256": "",
+      "fingerprint_sha256": "50c9c0b47ac348b20a433927cb4aa6ce6e52376cc97505b2f8f68c3302873c51",
       "es3_prefix": "ar",
       "disk": {
         "extract_mb": 286
@@ -217,7 +223,8 @@
           "sha256": "ffe067c872364b75ed43a21fbecb766349acde0c1c0de76b805cf98076d43b18",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ar-resources-v1.0.0/wcp-arabic-audio-words.zip"
         }
-      ]
+      ],
+      "profile_id": "catbar-ar-complete"
     },
     {
       "id": "es",
@@ -228,7 +235,7 @@
       "release_tag": "wcp-es-resources-v1.0.0",
       "version": "wcp-es-resources-v1.0.0",
       "word_count": 8600,
-      "fingerprint_sha256": "691bfd98ebb58e1e52071bb6c1c79e15e1338d163c79f13a03124dc3678541f1",
+      "fingerprint_sha256": "e634152c8ca2b502003e24d2ed3b5b13d3490791b63be14f53feb49c60d1c776",
       "es3_prefix": "es",
       "disk": {
         "extract_mb": 653
@@ -248,7 +255,8 @@
           "sha256": "c3846436179c4561191f24260f70ee9e236e844eb0664f44d421995d501eeab2",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-es-resources-v1.0.0/wcp-spanish-audio-words.zip"
         }
-      ]
+      ],
+      "profile_id": "catbar-es-complete"
     },
     {
       "id": "pt",
@@ -259,7 +267,7 @@
       "release_tag": "wcp-pt-resources-v1.0.0",
       "version": "wcp-pt-resources-v1.0.0",
       "word_count": 8600,
-      "fingerprint_sha256": "86a9ee2ce21dceb81d9576639fc9ade2575a61307962d7a60b3629cce7052b9e",
+      "fingerprint_sha256": "ce9090929693994f6b26a829853aa359045457ff73ca2afc7796d54c4a5a9cf7",
       "es3_prefix": "pt",
       "disk": {
         "extract_mb": 685
@@ -279,7 +287,8 @@
           "sha256": "d68a98f9546e47ce49af0b529217475a341f07ec19809dc4f12ea6bd769e08e3",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-pt-resources-v1.0.0/wcp-portuguese-audio-words.zip"
         }
-      ]
+      ],
+      "profile_id": "catbar-pt-complete"
     }
   ]
 }

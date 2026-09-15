@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "language": "pt",
+  "profile_id": "catbar-pt-complete",
+  "display_name": "葡萄牙语词库(猫条版)",
+  "word_count": 8600,
+  "fingerprint_sha256": "ce9090929693994f6b26a829853aa359045457ff73ca2afc7796d54c4a5a9cf7",
+  "observed_slot": 0,
+  "es3_prefix": "pt",
+  "book_layout": "single",
+  "strategy": {
+    "assembly": "$host",
+    "type": "WcpHost.GenericLanguageStrategy"
+  },
+  "payload_dir": "output/pack_payload",
+  "pron": "pt_pron.tsv",
+  "sentences": "pt_sentences.tsv",
+  "books": [
+    "output/import/葡萄牙语考级词库(猫条版).xlsx"
+  ],
+  "repair_probes": [
+    "fazer",
+    "tempo",
+    "muito"
+  ],
+  "notes": [
+    "word_count / fingerprint_sha256 是对 resources.books 全部分册的并集去重后排序算的 SHA-256（宿主算法: 逐词 + '\\n'）。",
+    "observed_slot=0: 该语言尚未在任何存档槽位实测过, 身份判定只看指纹, 导入任意空槽都能被认出。",
+    "资源包复用宿主通用策略（$host），语言差异只在 manifest 与资源里。"
+  ]
+}

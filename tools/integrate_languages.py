@@ -61,6 +61,9 @@ UNTRACKED_EXCLUDES: list[tuple[str, str]] = [
     (r"(^|/)output/[^/]+/backup/", "payload-backup"),
     (r"(^|/)gitee-parts/", "release-artifacts"),
     (r"^packs/", "duplicate-pack-build"),
+    # pack 专用载荷（build_pack_payload.py 的中间产物，展平两列 TSV）。
+    # 物化后的 packs/<lang>/db 已经在语言工程里，中间载荷不必再进 languages/。
+    (r"(^|/)output/pack_payload/", "pack-payload-intermediate"),
 ]
 
 UNTRACKED_MAX_BYTES = 25 * 1024 * 1024

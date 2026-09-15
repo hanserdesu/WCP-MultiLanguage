@@ -37,12 +37,16 @@ namespace SentenceAudioRu
         internal static ManualLogSource Log;
         internal static RuSentenceAudioPlugin Instance;
         private const float ScanInterval = 0.3f;
+        // 资源命名空间化: pack 优先 (packs/ru/audio/sentence),
+        // legacy 目录 (ru_sentence_audio) 仅作迁移期回退。
+        private const string PackLangCode = "ru";
         private const string AudioDirName = "ru_sentence_audio";
 
         private AudioSource _audio;
         private ConfigEntry<bool> _enabled;
         private float _nextScan;
         private string _audioDir;
+        private string _packAudioDir;
         private readonly Dictionary<Button, RuReadBtnState> _readStates =
             new Dictionary<Button, RuReadBtnState>();
         private bool _gameButtonsActive;
@@ -137,10 +141,14 @@ namespace SentenceAudioRu
             _audio.spatialBlend = 0f;
             _enabled = Config.Bind("General", "Enabled", true,
                 "显示俄语例句旁的 ▶ 朗读按钮。");
+            string packsRoot = Path.Combine(
+                Path.GetDirectoryName(Application.persistentDataPath), "packs");
+            _packAudioDir = Path.Combine(packsRoot, PackLangCode, "audio", "sentence");
             _audioDir = Path.Combine(Application.persistentDataPath,
                 AudioDirName);
             Log.LogInfo(string.Format(
-                "WCP Sentence Audio RU 1.0.0 loaded, audio dir = {0}", _audioDir));
+                "WCP Sentence Audio RU 1.1.0 loaded, pack dir = {0} (存在={1}), legacy dir = {2}",
+                _packAudioDir, Directory.Exists(_packAudioDir), _audioDir));
         }
 
         void Update()
@@ -308,7 +316,9 @@ namespace SentenceAudioRu
         {
             string ru = ExtractRu(raw);
             if (ru == null) return null;
-            string p = Path.Combine(_audioDir, Md5(ru) + ".mp3");
+            // pack 优先, legacy 回退 (迁移期); 都没有才判缺失。
+            string p = Path.Combine(_packAudioDir, Md5(ru) + ".mp3");
+            if (!File.Exists(p)) p = Path.Combine(_audioDir, Md5(ru) + ".mp3");
             return File.Exists(p) ? p : null;
         }
 
@@ -419,7 +429,9 @@ namespace SentenceAudioRu
                 string file = null;
                 if (ru != null)
                 {
-                    string p = Path.Combine(_audioDir, Md5(ru) + ".mp3");
+                    string p = Path.Combine(_packAudioDir, Md5(ru) + ".mp3");
+                    if (!File.Exists(p))
+                        p = Path.Combine(_audioDir, Md5(ru) + ".mp3");
                     if (File.Exists(p)) file = p;
                 }
                 GameObject btn;

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "language": "ar",
+  "profile_id": "catbar-ar-complete",
+  "display_name": "阿拉伯语词库(猫条版)",
+  "word_count": 8118,
+  "fingerprint_sha256": "50c9c0b47ac348b20a433927cb4aa6ce6e52376cc97505b2f8f68c3302873c51",
+  "observed_slot": 0,
+  "es3_prefix": "ar",
+  "book_layout": "single",
+  "strategy": {
+    "assembly": "$host",
+    "type": "WcpHost.GenericLanguageStrategy"
+  },
+  "payload_dir": "output/pack_payload",
+  "pron": "ar_pron.tsv",
+  "sentences": "ar_sentences.tsv",
+  "books": [
+    "output/import/阿拉伯语考级词库(猫条版).xlsx"
+  ],
+  "repair_probes": [
+    "أنا",
+    "كتاب",
+    "درس"
+  ],
+  "notes": [
+    "word_count / fingerprint_sha256 是对 resources.books 全部分册的并集去重后排序算的 SHA-256（宿主算法: 逐词 + '\\n'）。",
+    "observed_slot=0: 该语言尚未在任何存档槽位实测过, 身份判定只看指纹, 导入任意空槽都能被认出。",
+    "资源包复用宿主通用策略（$host），语言差异只在 manifest 与资源里。"
+  ]
+}

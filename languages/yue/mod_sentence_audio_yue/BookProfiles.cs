@@ -44,6 +44,10 @@ namespace WcpBookProfiles
         internal const string French = "fr";
         internal const string Russian = "ru";
         internal const string German = "de";
+        internal const string Spanish = "es";
+        internal const string Korean = "ko";
+        internal const string Portuguese = "pt";
+        internal const string Arabic = "ar";
         internal const string Cantonese = "yue";
 
         // Fingerprints are SHA256 over the sorted full word-form set, so a book
@@ -59,6 +63,14 @@ namespace WcpBookProfiles
                 "dfecb0ab75e9b3ef75aedd47c677d68594b060bfbb84cc6bd94efd7888f4b74e"),
             new BookProfile("catbar-german-complete", German, "德语词库(猫条版)", 8062,
                 "66bded175dee70d9fd18ac3e08e793b79b35e9fd750904367a16c6012dd1f70a"),
+            new BookProfile("catbar-es-complete", Spanish, "西班牙语词库(猫条版)", 8600,
+                "e634152c8ca2b502003e24d2ed3b5b13d3490791b63be14f53feb49c60d1c776"),
+            new BookProfile("catbar-ko-complete", Korean, "韩语词库(猫条版)", 3123,
+                "a0d87aeb56a508be26ed1a2fb0f83cedca3faf547278507650c85c5d7de1d1c1"),
+            new BookProfile("catbar-pt-complete", Portuguese, "葡萄牙语词库(猫条版)", 8600,
+                "ce9090929693994f6b26a829853aa359045457ff73ca2afc7796d54c4a5a9cf7"),
+            new BookProfile("catbar-ar-complete", Arabic, "阿拉伯语词库(猫条版)", 8118,
+                "50c9c0b47ac348b20a433927cb4aa6ce6e52376cc97505b2f8f68c3302873c51"),
             new BookProfile("catbar-cantonese-complete", Cantonese, "粤语词库(猫条版)", 384,
                 "0748ca590e7caf6c2d11e5062ee381e2a3e1ac84f943c561a4fed94568f0cb9e"),
         };

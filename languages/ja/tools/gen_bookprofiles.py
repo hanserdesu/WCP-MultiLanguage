@@ -62,6 +62,10 @@ PROJECT_ROOTS = [
     INTEGRATION_ROOT / "Russian",
     INTEGRATION_ROOT / "German",
     INTEGRATION_ROOT / "Contonese",
+    INTEGRATION_ROOT / "Spanish",
+    INTEGRATION_ROOT / "Portuguese",
+    INTEGRATION_ROOT / "Arabic",
+    INTEGRATION_ROOT / "korean",
 ]
 
 # 语言代码 -> C# 常量名。未列出的语言回退成「首字母大写」。
@@ -69,6 +73,7 @@ LANG_CONST = {
     "ja": "Japanese", "fr": "French", "ru": "Russian",
     "de": "German", "es": "Spanish", "it": "Italian",
     "ko": "Korean", "zh": "Chinese", "en": "English",
+    "pt": "Portuguese", "ar": "Arabic",
 }
 
 # 插件源码引用、但当前不一定有已部署语言包的语言常量。

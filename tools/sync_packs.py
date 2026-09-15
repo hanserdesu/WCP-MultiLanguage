@@ -20,6 +20,9 @@ PROJECTS = [('Japanese', 'ja'), ('French', 'fr'), ('Russian', 'ru'), ('German', 
             ('Contonese', 'yue'), ('Spanish', 'es'), ('Portuguese', 'pt'),
             ('Arabic', 'ar'), ('korean', 'ko')]
 
+# pack 内部这些路径由语言工程持有，但仍要进仓库（宿主按 manifest 读取）。
+# 不复制的东西: pack.build.json(构建配方, 仓库无需)、payload_dir 指向的源载荷。
+
 
 def sha256(path):
     h = hashlib.sha256()

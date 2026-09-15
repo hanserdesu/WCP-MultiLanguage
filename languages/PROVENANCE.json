@@ -1,11 +1,122 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-15T12:10:50+08:00",
+  "integrated_at": "2026-09-15T13:17:46+08:00",
   "languages": {
+    "ar": {
+      "absent_in_worktree": [],
+      "bytes": 40583648,
+      "content_digest": "sha256:527d7e0cab2b3bbfd3ddbc932e051b5d660448c7a8fa33125140d20524f08427",
+      "excluded": {
+        "duplicate-pack-build": 6,
+        "pack-payload-intermediate": 3
+      },
+      "excluded_bytes": 8162277,
+      "excluded_samples": [
+        "output/pack_payload/ar_pron.tsv (pack-payload-intermediate)",
+        "output/pack_payload/ar_sentences.tsv (pack-payload-intermediate)",
+        "output/pack_payload/manifest.json (pack-payload-intermediate)",
+        "packs/ar/books/阿拉伯语考级词库(猫条版).xlsx (duplicate-pack-build)",
+        "packs/ar/db/meaning.sqlite (duplicate-pack-build)",
+        "packs/ar/db/repair.tsv (duplicate-pack-build)",
+        "packs/ar/db/sentences.json (duplicate-pack-build)",
+        "packs/ar/manifest.json (duplicate-pack-build)",
+        "packs/ar/pack.build.json (duplicate-pack-build)"
+      ],
+      "files": 51,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\Arabic",
+      "source_head": "c2d6d9ab687115e66ec57ceb915983a152802799",
+      "source_head_date": "2026-09-15 01:50:22 +0800",
+      "source_head_subject": "Align Arabic audio isolation and add offline db payload verification",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-Arabic-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 3,
+        "tracked": 44,
+        "untracked": 4
+      }
+    },
+    "de": {
+      "absent_in_worktree": [],
+      "bytes": 23022975,
+      "content_digest": "sha256:b819898c559c0eb009105e5fb4c90df5cf630377335d11b3d3699ceb24c90114",
+      "excluded": {
+        "duplicate-pack-build": 10
+      },
+      "excluded_bytes": 11659780,
+      "excluded_samples": [
+        "packs/de/books/德语A1.xlsx (duplicate-pack-build)",
+        "packs/de/books/德语A1A2.xlsx (duplicate-pack-build)",
+        "packs/de/books/德语A2.xlsx (duplicate-pack-build)",
+        "packs/de/books/德语B1.xlsx (duplicate-pack-build)",
+        "packs/de/books/德语B2.xlsx (duplicate-pack-build)",
+        "packs/de/db/meaning.sqlite (duplicate-pack-build)",
+        "packs/de/db/repair.tsv (duplicate-pack-build)",
+        "packs/de/db/sentences.json (duplicate-pack-build)",
+        "packs/de/manifest.json (duplicate-pack-build)",
+        "packs/de/pack.build.json (duplicate-pack-build)"
+      ],
+      "files": 291,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\German",
+      "source_head": "3f021357c0ba98d276c89f68df517f5f6abfe2b1",
+      "source_head_date": "2026-09-15 12:12:24 +0800",
+      "source_head_subject": "sentence-audio: 派生链法语字面量清除 (ManagedBookSelected 语言无关命名; P0-3)",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-German-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 4,
+        "tracked": 287,
+        "untracked": 0
+      }
+    },
+    "es": {
+      "absent_in_worktree": [],
+      "bytes": 41692245,
+      "content_digest": "sha256:eabf65dfd8fb8dc7cfb2010baa9713415307ad243177bff7bbb25babd4f09d10",
+      "excluded": {
+        "duplicate-pack-build": 6,
+        "pack-payload-intermediate": 3
+      },
+      "excluded_bytes": 12407103,
+      "excluded_samples": [
+        "output/pack_payload/es_pron.tsv (pack-payload-intermediate)",
+        "output/pack_payload/es_sentences.tsv (pack-payload-intermediate)",
+        "output/pack_payload/manifest.json (pack-payload-intermediate)",
+        "packs/es/books/西班牙语考级词库(猫条版).xlsx (duplicate-pack-build)",
+        "packs/es/db/meaning.sqlite (duplicate-pack-build)",
+        "packs/es/db/repair.tsv (duplicate-pack-build)",
+        "packs/es/db/sentences.json (duplicate-pack-build)",
+        "packs/es/manifest.json (duplicate-pack-build)",
+        "packs/es/pack.build.json (duplicate-pack-build)"
+      ],
+      "files": 23,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\Spanish",
+      "source_head": "b0a28adef11edc5f8ce3361445dafce0a5c3c827",
+      "source_head_date": "2026-09-15 01:48:41 +0800",
+      "source_head_subject": "Complete Spanish sentence audio manifest",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-Spanish-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 0,
+        "tracked": 23,
+        "untracked": 0
+      }
+    },
     "fr": {
       "absent_in_worktree": [],
-      "bytes": 73430061,
-      "content_digest": "sha256:779a11edecea20ac8a6250b01c58f1c2a104b05adbfec6911bb852c8ed6d10e8",
+      "bytes": 73433653,
+      "content_digest": "sha256:75c57a42eeb230613b05a19f46b553587b6029918d0d938adee6841735e169de",
       "excluded": {
         "duplicate-pack-build": 8,
         "virtualenv": 501
@@ -30,16 +141,202 @@
       "removed_in_worktree": [],
       "source_branch": "main",
       "source_dir": "D:\\ATooManyLanguage\\French",
-      "source_head": "dd8d91d8a3a8da4922b2df180290770a72ace762",
-      "source_head_date": "2026-09-15 08:54:44 +0800",
-      "source_head_subject": "fix(wordlist): 让位宿主 + 清理法语模板残留, 注册表补粤语词书条目",
+      "source_head": "a73832c7d36d4ff42292c02a0a48460b6baf8437",
+      "source_head_date": "2026-09-15 12:12:24 +0800",
+      "source_head_subject": "sentence-audio: 派生链法语字面量清除 (ManagedBookSelected 语言无关命名; P0-3)",
       "source_origin_head": "dd8d91d8a3a8da4922b2df180290770a72ace762",
       "source_repo": "https://github.com/hanserdesu/WCP-French-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 4,
-        "tracked": 320,
+        "modified": 7,
+        "tracked": 317,
         "untracked": 4
+      }
+    },
+    "ja": {
+      "absent_in_worktree": [],
+      "bytes": 71019071,
+      "content_digest": "sha256:b711475394c1229ba85725e5b5c57dc6d1a6b20fa71260db58bdc6aa10e9f9de",
+      "excluded": {
+        "build-archive": 21,
+        "duplicate-pack-build": 4,
+        "installer-package": 61,
+        "release-artifacts": 36
+      },
+      "excluded_bytes": 3616752379,
+      "excluded_samples": [
+        "packs/ja/books/日语词库(猫条版).xlsx (duplicate-pack-build)",
+        "packs/ja/db/repair.tsv (duplicate-pack-build)",
+        "packs/ja/db/sentences.json (duplicate-pack-build)",
+        "packs/ja/pack.build.json (duplicate-pack-build)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/01_双击运行我.cmd (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/Install-WCP-Japanese.ps1 (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/check-compatibility.ps1 (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/compatibility-help.cmd (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/additions.db (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/config/BepInEx.cfg (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.dll (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.xml (installer-package)"
+      ],
+      "files": 844,
+      "note": "日语：本体与语音资源保留在 hanserdesu/japanese",
+      "removed_in_worktree": [
+        "packs/de/manifest.json",
+        "packs/fr/manifest.json",
+        "packs/ru/manifest.json"
+      ],
+      "source_branch": "master",
+      "source_dir": "D:\\ATooManyLanguage\\Japanese",
+      "source_head": "5283a39dc4cdb9b4d46b52da6d97235abef504f6",
+      "source_head_date": "2026-09-15 09:14:57 +0800",
+      "source_head_subject": "BUG_REVIEW: record live-log takeover evidence, the fr/ru pack-layout gap and the BOM class bug",
+      "source_origin_head": "8e48f6a0d3f7e75ff71669cc786b139f5ab1dc83",
+      "source_repo": "https://github.com/hanserdesu/japanese.git",
+      "states": {
+        "added": 0,
+        "modified": 160,
+        "tracked": 673,
+        "untracked": 11
+      }
+    },
+    "ko": {
+      "absent_in_worktree": [],
+      "bytes": 10910029,
+      "content_digest": "sha256:cac1fdf46752fa95b18d686d5de81964b8d33254c32467534814904c4ffa8a4b",
+      "excluded": {
+        "duplicate-pack-build": 6,
+        "pack-payload-intermediate": 3
+      },
+      "excluded_bytes": 5889409,
+      "excluded_samples": [
+        "output/pack_payload/ko_pron.tsv (pack-payload-intermediate)",
+        "output/pack_payload/ko_sentences.tsv (pack-payload-intermediate)",
+        "output/pack_payload/manifest.json (pack-payload-intermediate)",
+        "packs/ko/books/韩语全量.xlsx (duplicate-pack-build)",
+        "packs/ko/db/meaning.sqlite (duplicate-pack-build)",
+        "packs/ko/db/repair.tsv (duplicate-pack-build)",
+        "packs/ko/db/sentences.json (duplicate-pack-build)",
+        "packs/ko/manifest.json (duplicate-pack-build)",
+        "packs/ko/pack.build.json (duplicate-pack-build)"
+      ],
+      "files": 25,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\korean",
+      "source_head": "26894d789449205de6dfd1c8d771040194f07249",
+      "source_head_date": "2026-09-15 01:49:29 +0800",
+      "source_head_subject": "Keep raw sources and generated logs out of release repository",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-Korean-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 0,
+        "tracked": 25,
+        "untracked": 0
+      }
+    },
+    "pt": {
+      "absent_in_worktree": [],
+      "bytes": 36302875,
+      "content_digest": "sha256:42dbdc43f328a7c5f478fd3e557f93e5a7b2ef98a33bfde401d5d978e2d29eb6",
+      "excluded": {
+        "duplicate-pack-build": 6,
+        "pack-payload-intermediate": 3
+      },
+      "excluded_bytes": 12699234,
+      "excluded_samples": [
+        "output/pack_payload/manifest.json (pack-payload-intermediate)",
+        "output/pack_payload/pt_pron.tsv (pack-payload-intermediate)",
+        "output/pack_payload/pt_sentences.tsv (pack-payload-intermediate)",
+        "packs/pt/books/葡萄牙语考级词库(猫条版).xlsx (duplicate-pack-build)",
+        "packs/pt/db/meaning.sqlite (duplicate-pack-build)",
+        "packs/pt/db/repair.tsv (duplicate-pack-build)",
+        "packs/pt/db/sentences.json (duplicate-pack-build)",
+        "packs/pt/manifest.json (duplicate-pack-build)",
+        "packs/pt/pack.build.json (duplicate-pack-build)"
+      ],
+      "files": 29,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\Portuguese",
+      "source_head": "244dc4cf7988c9b70d7b13112920e42e68a05639",
+      "source_head_date": "2026-09-15 01:48:40 +0800",
+      "source_head_subject": "Complete Portuguese sentence audio manifest",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-Portuguese-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 0,
+        "tracked": 25,
+        "untracked": 4
+      }
+    },
+    "ru": {
+      "absent_in_worktree": [],
+      "bytes": 27684754,
+      "content_digest": "sha256:f8eaa86add03c7d04983850b4c1c81dc1bf8bdf9eff0fb56e142ea35d466f12a",
+      "excluded": {
+        "duplicate-pack-build": 8,
+        "installer-package": 44,
+        "payload-backup": 4,
+        "tool-cache": 1
+      },
+      "excluded_bytes": 120537014,
+      "excluded_samples": [
+        ".zcode/plans/plan-sess_a87c5674-5ab0-449c-a7b7-7af7e2f55f46.md (tool-cache)",
+        "output/installer_pkg/WCP俄语词书安装包/01_双击运行我.cmd (installer-package)",
+        "output/installer_pkg/WCP俄语词书安装包/support/Install-WCP-Russian.ps1 (installer-package)",
+        "output/installer_pkg/WCP俄语词书安装包/support/SteamPaths.ps1 (installer-package)",
+        "output/installer_pkg/WCP俄语词书安装包/support/WcpEs3Helper.cs (installer-package)",
+        "output/installer_pkg/WCP俄语词书安装包/support/check-compatibility.ps1 (installer-package)",
+        "output/installer_pkg/WCP俄语词书安装包/support/compatibility-help.cmd (installer-package)",
+        "output/installer_pkg/WCP俄语词书安装包/support/payload/bepinex/BepInEx/config/BepInEx.cfg (installer-package)",
+        "output/installer_pkg/WCP俄语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.dll (installer-package)",
+        "output/installer_pkg/WCP俄语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.xml (installer-package)",
+        "output/installer_pkg/WCP俄语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony20.dll (installer-package)",
+        "output/installer_pkg/WCP俄语词书安装包/support/payload/bepinex/BepInEx/core/BepInEx.Harmony.dll (installer-package)"
+      ],
+      "files": 321,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\Russian",
+      "source_head": "e30875d1d9696bab7995ba518f98c6b052333f1b",
+      "source_head_date": "2026-09-15 08:54:52 +0800",
+      "source_head_subject": "fix(wordlist): 让位宿主 + 注册表补粤语词书条目",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-Russian-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 10,
+        "tracked": 111,
+        "untracked": 200
+      }
+    },
+    "yue": {
+      "absent_in_worktree": [],
+      "bytes": 1598080,
+      "content_digest": "sha256:70c28b41a51d368b7243a834e3fe2a3d872d113dd821e14295eca5697dd01417",
+      "excluded": {},
+      "excluded_bytes": 0,
+      "excluded_samples": [],
+      "files": 65,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\Contonese",
+      "source_head": "88068afe4729e78274bbb39887f2ec8502f8e6f4",
+      "source_head_date": "2026-09-15 12:12:24 +0800",
+      "source_head_subject": "sentence-audio: 派生链法语字面量清除 (ManagedBookSelected 语言无关命名; P0-3)",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-Cantonese-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 4,
+        "tracked": 61,
+        "untracked": 0
       }
     }
   },
@@ -57,7 +354,8 @@
       "installer-package",
       "payload-backup",
       "release-artifacts",
-      "duplicate-pack-build"
+      "duplicate-pack-build",
+      "pack-payload-intermediate"
     ],
     "untracked_max_mb": 25,
     "worktree": "未提交的修改与新增一并集成（本仓库是唯一提交目标）"

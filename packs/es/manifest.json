@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "profile_id": "catbar-es-complete",
+  "language": "es",
+  "display_name": "西班牙语词库(猫条版)",
+  "word_count": 8600,
+  "fingerprint_sha256": "e634152c8ca2b502003e24d2ed3b5b13d3490791b63be14f53feb49c60d1c776",
+  "observed_slot": 0,
+  "es3_prefix": "es",
+  "book_layout": "single",
+  "strategy": {
+    "assembly": "$host",
+    "type": "WcpHost.GenericLanguageStrategy"
+  },
+  "resources": {
+    "books": [
+      "books/西班牙语考级词库(猫条版).xlsx"
+    ],
+    "meaning_db": "db/meaning.sqlite",
+    "sentence_table": "db/sentences.json",
+    "repair": "db/repair.tsv",
+    "word_audio": "audio/word/",
+    "sentence_audio": "audio/sentence/"
+  },
+  "repair_probes": [
+    "decir",
+    "tiempo",
+    "hacer"
+  ],
+  "source": {
+    "payload_dir": "output/pack_payload",
+    "pron": "es_pron.tsv",
+    "sentences": "es_sentences.tsv",
+    "payload_files": {
+      "es_pron.tsv": "855845fe46421e0380ff9bf4c137d49e2fd90e8c443fc733a2f07925d7251db7",
+      "es_sentences.tsv": "da95dd8cfef17ce48736171e07ad7085778eee442a46a69c24e538dc0520f7b9"
+    }
+  },
+  "book_sha256": {
+    "西班牙语考级词库(猫条版).xlsx": "700dde0247555b1fc9f181b69d41fa7b2e592da73acf5196e39e018d997ecd9e"
+  },
+  "counts": {
+    "pron": 8600,
+    "sentence_rows": 25800,
+    "sentence_words": 8600,
+    "words_without_sentences": 0
+  },
+  "notes": [
+    "word_count / fingerprint_sha256 是对 resources.books 全部分册的并集去重后排序算的 SHA-256（宿主算法: 逐词 + '\\n'）。",
+    "observed_slot=0: 该语言尚未在任何存档槽位实测过, 身份判定只看指纹, 导入任意空槽都能被认出。",
+    "资源包复用宿主通用策略（$host），语言差异只在 manifest 与资源里。"
+  ]
+}

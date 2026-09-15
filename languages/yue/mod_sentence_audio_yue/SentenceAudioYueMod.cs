@@ -38,12 +38,16 @@ namespace SentenceAudioYue
         internal static ManualLogSource Log;
         private static YueSentenceAudioPlugin Instance;
         private const float ScanInterval = 0.3f;
+        // 资源命名空间化: pack 优先 (packs/<lang>/audio/sentence),
+        // legacy 目录 (<lang>_sentence_audio) 仅作迁移期回退。
+        private const string PackLangCode = "yue";
         private const string AudioDirName = "yue_sentence_audio";
 
         private AudioSource _audio;
         private ConfigEntry<bool> _enabled;
         private float _nextScan;
         private string _audioDir;
+        private string _packAudioDir;
         private readonly Dictionary<Button, YueReadBtnState> _readStates =
             new Dictionary<Button, YueReadBtnState>();
         private bool _gameButtonsActive;
@@ -76,10 +80,14 @@ namespace SentenceAudioYue
             _audio.spatialBlend = 0f;
             _enabled = Config.Bind("General", "Enabled", true,
                 "显示粤语例句旁的 ▶ 朗读按钮。");
+            string packsRoot = Path.Combine(
+                Path.GetDirectoryName(Application.persistentDataPath), "packs");
+            _packAudioDir = Path.Combine(packsRoot, PackLangCode, "audio", "sentence");
             _audioDir = Path.Combine(Application.persistentDataPath,
                 AudioDirName);
             Log.LogInfo(string.Format(
-                "WCP Sentence Audio YUE 1.0.0 loaded, audio dir = {0}", _audioDir));
+                "WCP Sentence Audio 1.1.0 loaded, pack dir = {0} (存在={1}), legacy dir = {2}",
+                _packAudioDir, Directory.Exists(_packAudioDir), _audioDir));
         }
 
         void Update()
@@ -416,7 +424,9 @@ namespace SentenceAudioYue
             // 扫描每 0.3s 跑一次, 缓存 md5 -> 文件路径的磁盘判定,
             // 未命中也缓存, 避免对同一句反复 File.Exists。
             if (_audioLookup.TryGetValue(key, out p)) return p;
-            p = Path.Combine(_audioDir, key + ".mp3");
+            // pack 优先, legacy 回退 (迁移期); 都没有才判缺失。
+            p = Path.Combine(_packAudioDir, key + ".mp3");
+            if (!File.Exists(p)) p = Path.Combine(_audioDir, key + ".mp3");
             p = File.Exists(p) ? p : null;
             _audioLookup[key] = p;
             return p;
@@ -537,7 +547,9 @@ namespace SentenceAudioYue
                 string file = null;
                 if (fr != null)
                 {
-                    string p = Path.Combine(_audioDir, Md5(fr) + ".mp3");
+                    string p = Path.Combine(_packAudioDir, Md5(fr) + ".mp3");
+                    if (!File.Exists(p))
+                        p = Path.Combine(_audioDir, Md5(fr) + ".mp3");
                     if (File.Exists(p)) file = p;
                 }
                 GameObject btn;

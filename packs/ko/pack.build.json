@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "language": "ko",
+  "profile_id": "catbar-ko-complete",
+  "display_name": "韩语词库(猫条版)",
+  "word_count": 3123,
+  "fingerprint_sha256": "a0d87aeb56a508be26ed1a2fb0f83cedca3faf547278507650c85c5d7de1d1c1",
+  "observed_slot": 0,
+  "es3_prefix": "ko",
+  "book_layout": "single",
+  "strategy": {
+    "assembly": "$host",
+    "type": "WcpHost.GenericLanguageStrategy"
+  },
+  "payload_dir": "output/pack_payload",
+  "pron": "ko_pron.tsv",
+  "sentences": "ko_sentences.tsv",
+  "books": [
+    "output/import/韩语全量.xlsx"
+  ],
+  "repair_probes": [
+    "사랑",
+    "시간",
+    "하다"
+  ],
+  "notes": [
+    "word_count / fingerprint_sha256 是对 resources.books 全部分册的并集去重后排序算的 SHA-256（宿主算法: 逐词 + '\\n'）。",
+    "observed_slot=0: 该语言尚未在任何存档槽位实测过, 身份判定只看指纹, 导入任意空槽都能被认出。",
+    "资源包复用宿主通用策略（$host），语言差异只在 manifest 与资源里。"
+  ]
+}
