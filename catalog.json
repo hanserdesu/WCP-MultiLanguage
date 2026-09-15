@@ -44,6 +44,20 @@
           "size": 2057214618,
           "sha256": "f87fdcd117506a339226d26751968fec9bc028d4860827886cb90994827b5dd2",
           "url": "https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.0.0/wcp-japanese-audio-sentences.zip"
+        },
+        {
+          "kind": "pack",
+          "name": "wcp-ja-core.zip",
+          "size": 3851638,
+          "sha256": "d9a1960c7fbe05692dabaf21de44000be33f5cbe2eeef5f4b124383eaa5d672e",
+          "url": "https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.0.0/wcp-ja-core.zip"
+        },
+        {
+          "kind": "slot_manifest",
+          "name": "wcp-ja-slot-seed.json",
+          "size": 129182,
+          "sha256": "eeb5052bbea2fb0dfddeaa877aee2c72e67593dfce9f7128f399a832836ddaa4",
+          "url": "https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.0.0/wcp-ja-slot-seed.json"
         }
       ],
       "profile_id": "catbar-jlpt-complete"
@@ -76,6 +90,20 @@
           "size": 79901354,
           "sha256": "a0714473a7e7bc7ca736ef5d7004cf5783ce00c6c16436ee296b2e817687e3d0",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-fr-resources-v1.0.0/wcp-french-audio-words.zip"
+        },
+        {
+          "kind": "pack",
+          "name": "wcp-fr-core.zip",
+          "size": 3428559,
+          "sha256": "bf37c107491148c9367c9f417013effa316e8103a00f324bae506fc33001b396",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-fr-resources-v1.0.0/wcp-fr-core.zip"
+        },
+        {
+          "kind": "slot_manifest",
+          "name": "wcp-fr-slot-seed.json",
+          "size": 134942,
+          "sha256": "c8a3cc018d2a0d59c87235909d3cba1a9ef21db91c0442304ae8e8f9486279ee",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-fr-resources-v1.0.0/wcp-fr-slot-seed.json"
         }
       ],
       "profile_id": "catbar-french-cefr-complete"
@@ -108,6 +136,20 @@
           "size": 96178404,
           "sha256": "e42eaaa47932952fc4918812ade11a23e97a69844dcc38dce1c76906c0e2a738",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ru-resources-v1.0.0/wcp-russian-audio-words.zip"
+        },
+        {
+          "kind": "pack",
+          "name": "wcp-ru-core.zip",
+          "size": 2029106,
+          "sha256": "3965b04d78b61292989373b65a4b9ebc14d768e27e28caa77dddcc5d494df72e",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ru-resources-v1.0.0/wcp-ru-core.zip"
+        },
+        {
+          "kind": "slot_manifest",
+          "name": "wcp-ru-slot-seed.json",
+          "size": 205469,
+          "sha256": "cfef654b483821f75faf4aea073a830e2cd1feb2acd21bd9f4a461958fea44d4",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ru-resources-v1.0.0/wcp-ru-slot-seed.json"
         }
       ],
       "profile_id": "catbar-russian-cefr-complete"
@@ -140,6 +182,20 @@
           "size": 80896890,
           "sha256": "091bbb91aad56d1eba3603a91774932f3a787be88e0388b998c306e97fa036e8",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.0.0/wcp-german-audio-words.zip"
+        },
+        {
+          "kind": "pack",
+          "name": "wcp-de-core.zip",
+          "size": 3800079,
+          "sha256": "d798088c4c46bcdb6d5f0bdb8d0deb25a45da341ef273f569ebe761b114b14ac",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.0.0/wcp-de-core.zip"
+        },
+        {
+          "kind": "slot_manifest",
+          "name": "wcp-de-slot-seed.json",
+          "size": 137370,
+          "sha256": "b381a70e0e72f45d8e3e479932704a67f79c3aa0e7b64226f1df4e29453a040e",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.0.0/wcp-de-slot-seed.json"
         }
       ],
       "profile_id": "catbar-german-complete"
@@ -172,6 +228,20 @@
           "size": 3691400,
           "sha256": "8eeb8554f0c3431184ff229b575e06cad25dc89f9414eb84e12abc5f3ab31c04",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-yue-resources-v1.0.0/wcp-cantonese-audio-words.zip"
+        },
+        {
+          "kind": "pack",
+          "name": "wcp-yue-core.zip",
+          "size": 147296,
+          "sha256": "652fc61e2cc25320ccf6f32a384b6c4c30a384d83a5645573b0bc54e8014221b",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-yue-resources-v1.0.0/wcp-yue-core.zip"
+        },
+        {
+          "kind": "slot_manifest",
+          "name": "wcp-yue-slot-seed.json",
+          "size": 5992,
+          "sha256": "7d73c69f98d02cdf818f4781040f705d36ba5cbb89760bde260053dc9dccdf1a",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-yue-resources-v1.0.0/wcp-yue-slot-seed.json"
         }
       ],
       "profile_id": "catbar-cantonese-complete"
@@ -204,6 +274,20 @@
           "size": 33135550,
           "sha256": "e911390b1e0c0bdefe88f4925dec2f57f3e24f2aa34a9f10e05b4791e5676bb9",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.0.0/wcp-korean-audio-words.zip"
+        },
+        {
+          "kind": "pack",
+          "name": "wcp-ko-core.zip",
+          "size": 901185,
+          "sha256": "f9e3a8df437a8e14a08b9c260dffa2b9082ffe14be2d3cca8d54c74958e7b2cf",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.0.0/wcp-ko-core.zip"
+        },
+        {
+          "kind": "slot_manifest",
+          "name": "wcp-ko-slot-seed.json",
+          "size": 54624,
+          "sha256": "d29bc95ad7e6612c2a172c7dfa620a890819d0f34023df43ce32f18478c29adf",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.0.0/wcp-ko-slot-seed.json"
         }
       ],
       "profile_id": "catbar-ko-complete"
@@ -236,6 +320,20 @@
           "size": 86908736,
           "sha256": "ffe067c872364b75ed43a21fbecb766349acde0c1c0de76b805cf98076d43b18",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ar-resources-v1.0.0/wcp-arabic-audio-words.zip"
+        },
+        {
+          "kind": "pack",
+          "name": "wcp-ar-core.zip",
+          "size": 1650206,
+          "sha256": "adbd76367a7192ce1e6e517b6579feb1bc9108d4e130aee47038e4ee381c87d6",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ar-resources-v1.0.0/wcp-ar-core.zip"
+        },
+        {
+          "kind": "slot_manifest",
+          "name": "wcp-ar-slot-seed.json",
+          "size": 167143,
+          "sha256": "46b4f21638750ebbc51eb51840a7860ab80c32870933e727f416285618912934",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ar-resources-v1.0.0/wcp-ar-slot-seed.json"
         }
       ],
       "profile_id": "catbar-ar-complete"
@@ -268,6 +366,20 @@
           "size": 87111574,
           "sha256": "c3846436179c4561191f24260f70ee9e236e844eb0664f44d421995d501eeab2",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-es-resources-v1.0.0/wcp-spanish-audio-words.zip"
+        },
+        {
+          "kind": "pack",
+          "name": "wcp-es-core.zip",
+          "size": 1818357,
+          "sha256": "473bf663f605c55c1954ee65b15a672d8018e6c0c987786400e88981f7ec8b44",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-es-resources-v1.0.0/wcp-es-core.zip"
+        },
+        {
+          "kind": "slot_manifest",
+          "name": "wcp-es-slot-seed.json",
+          "size": 141429,
+          "sha256": "ea5c07cff82ab1d3ce67061c8a3a20677b2a51f4ac3bf1e27485268f7374edbd",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-es-resources-v1.0.0/wcp-es-slot-seed.json"
         }
       ],
       "profile_id": "catbar-es-complete"
@@ -300,6 +412,20 @@
           "size": 84917010,
           "sha256": "d68a98f9546e47ce49af0b529217475a341f07ec19809dc4f12ea6bd769e08e3",
           "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-pt-resources-v1.0.0/wcp-portuguese-audio-words.zip"
+        },
+        {
+          "kind": "pack",
+          "name": "wcp-pt-core.zip",
+          "size": 1876989,
+          "sha256": "52d03f552770478993caa4dc37c441a002cb4134937b32296f09cd03aad15d44",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-pt-resources-v1.0.0/wcp-pt-core.zip"
+        },
+        {
+          "kind": "slot_manifest",
+          "name": "wcp-pt-slot-seed.json",
+          "size": 142507,
+          "sha256": "ecee0007ca60dbfe34a8a38bc1b1f672ed445f35249698bcd9097e25bd201277",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-pt-resources-v1.0.0/wcp-pt-slot-seed.json"
         }
       ],
       "profile_id": "catbar-pt-complete"
