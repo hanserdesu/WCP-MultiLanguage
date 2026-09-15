@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "profile_id": "catbar-pt-complete",
+  "language": "pt",
+  "display_name": "葡萄牙语词库(猫条版)",
+  "word_count": 8600,
+  "fingerprint_sha256": "ce9090929693994f6b26a829853aa359045457ff73ca2afc7796d54c4a5a9cf7",
+  "observed_slot": 0,
+  "es3_prefix": "pt",
+  "book_layout": "single",
+  "strategy": {
+    "assembly": "$host",
+    "type": "WcpHost.GenericLanguageStrategy"
+  },
+  "resources": {
+    "books": [
+      "books/葡萄牙语考级词库(猫条版).xlsx"
+    ],
+    "meaning_db": "db/meaning.sqlite",
+    "sentence_table": "db/sentences.json",
+    "repair": "db/repair.tsv",
+    "word_audio": "audio/word/",
+    "sentence_audio": "audio/sentence/"
+  },
+  "repair_probes": [
+    "fazer",
+    "tempo",
+    "muito"
+  ],
+  "source": {
+    "payload_dir": "output/pack_payload",
+    "pron": "pt_pron.tsv",
+    "sentences": "pt_sentences.tsv",
+    "payload_files": {
+      "pt_pron.tsv": "7071be4bbf1927cf7b5b2484b061f3cb49811a930c6d738873e152cce8f8dc6b",
+      "pt_sentences.tsv": "7de9f50164e4a6a59793d57cb0487bb4e6811f316fe264a3e41e2fc933ef09b0"
+    }
+  },
+  "book_sha256": {
+    "葡萄牙语考级词库(猫条版).xlsx": "249fa33281b38978e12c5fc34afb13557f9bfa8428f0c4e398d07d407d01bbc1"
+  },
+  "counts": {
+    "pron": 8600,
+    "sentence_rows": 25800,
+    "sentence_words": 8600,
+    "words_without_sentences": 0
+  },
+  "notes": [
+    "word_count / fingerprint_sha256 是对 resources.books 全部分册的并集去重后排序算的 SHA-256（宿主算法: 逐词 + '\\n'）。",
+    "observed_slot=0: 该语言尚未在任何存档槽位实测过, 身份判定只看指纹, 导入任意空槽都能被认出。",
+    "资源包复用宿主通用策略（$host），语言差异只在 manifest 与资源里。"
+  ]
+}

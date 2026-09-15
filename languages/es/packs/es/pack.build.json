@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "language": "es",
+  "profile_id": "catbar-es-complete",
+  "display_name": "西班牙语词库(猫条版)",
+  "word_count": 8600,
+  "fingerprint_sha256": "e634152c8ca2b502003e24d2ed3b5b13d3490791b63be14f53feb49c60d1c776",
+  "observed_slot": 0,
+  "es3_prefix": "es",
+  "book_layout": "single",
+  "strategy": {
+    "assembly": "$host",
+    "type": "WcpHost.GenericLanguageStrategy"
+  },
+  "payload_dir": "output/pack_payload",
+  "pron": "es_pron.tsv",
+  "sentences": "es_sentences.tsv",
+  "books": [
+    "output/import/西班牙语考级词库(猫条版).xlsx"
+  ],
+  "repair_probes": [
+    "decir",
+    "tiempo",
+    "hacer"
+  ],
+  "notes": [
+    "word_count / fingerprint_sha256 是对 resources.books 全部分册的并集去重后排序算的 SHA-256（宿主算法: 逐词 + '\\n'）。",
+    "observed_slot=0: 该语言尚未在任何存档槽位实测过, 身份判定只看指纹, 导入任意空槽都能被认出。",
+    "资源包复用宿主通用策略（$host），语言差异只在 manifest 与资源里。"
+  ]
+}

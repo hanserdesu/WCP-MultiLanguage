@@ -1,0 +1,9 @@
+{
+  "word_count": 3123,
+  "sentence_count": 9369,
+  "files": {
+    "ko_pron.tsv": "1b9ac1e2b545e7391095dea9f18ba77710d0a1a2654300c2ac4edfc84fee0ea3",
+    "ko_sentences.tsv": "9759e4fa719884466b675751ffc3193796757c09d844ee4c940d850574f68fdb"
+  },
+  "note": "本目录是 pack 专用载荷（展平两列），由 MultiLanguage/tools/build_pack_payload.py 生成；原 output/ko_db_payload 保持不变，仍供旧插件安装器使用。"
+}
