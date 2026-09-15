@@ -9,10 +9,12 @@ contract.
 
 ## Repository and release contract
 
-Use a repository named `japanese` or `WCP-*-Wordbook` under the configured
-GitHub owner. The catalog-pinned resource release and the latest GitHub
-release are both inspected. The candidate with the richest verified asset set
-wins, so a small core/mod release does not hide a newer resource-only release.
+Use `hanserdesu/WCP-MultiLanguage` (one resource tag per language,
+`wcp-<lang>-resources-*`) plus `hanserdesu/japanese` (legacy `wcp-jp-*` tags
+map to the catalog id `ja`) under the configured GitHub owner. Discovery
+groups a repository's releases by the language segment of the release tag, so
+one repository may carry many wordbooks and never mixes another language's
+assets into a row; the richest verified asset set wins.
 Each release is inspected for either:
 
 - `wcp-wordbook.json`, `wordbook-manifest.json`, or `release-manifest.json`;

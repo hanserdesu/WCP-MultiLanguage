@@ -196,63 +196,70 @@ function New-RemoteWordbook($seed, $release, [string]$repoName) {
 }
 
 function Get-GitHubCatalog($base, [string]$owner) {
+    # Discovery is keyed by wordbook id, not by repository.  A single release
+    # repository (hanserdesu/WCP-MultiLanguage) publishes one resource tag per
+    # language (wcp-<lang>-resources-*), and hanserdesu/japanese keeps its own
+    # tags (wcp-jp-*).  Mapping tag -> id lets one repo carry many wordbooks
+    # and keeps discovery working after legacy per-language repositories are
+    # removed (2026-09-15 cleanup).
     $repos = Get-GitHubJson ("https://api.github.com/users/{0}/repos?per_page=100&sort=updated" -f $owner)
     $repoRows = @($repos | Where-Object {
-        [string](Get-FieldOr $_ 'full_name' '') -match ('^' + [regex]::Escape($owner) + '/(?:japanese|WCP-.+-Wordbook)$')
+        [string](Get-FieldOr $_ 'full_name' '') -match ('^' + [regex]::Escape($owner) + '/(?:japanese|WCP-MultiLanguage)$')
     })
-    $byRepo = @{}
-    foreach ($wb in @($base.wordbooks)) { $byRepo[[string]$wb.repo] = $wb }
+    $byId = @{}
+    foreach ($wb in @($base.wordbooks)) { $byId[[string]$wb.id] = $wb }
+    # Resource releases are tagged per language: wcp-<lang>-resources-*.  The
+    # japanese repository keeps its legacy wcp-jp-* tag naming, mapped to the
+    # catalog id 'ja'.  Grouping all releases of a repository by tag language
+    # lets one repo carry many wordbooks and never mixes another language's
+    # assets into a row (a repo-wide /releases/latest would).
+    $langTagPattern = [regex]::new('^wcp-([a-z0-9]+)-resources-', 'IgnoreCase')
     foreach ($repo in $repoRows) {
         $repoName = [string](Get-FieldOr $repo 'full_name' '')
-        $seed = if ($byRepo.ContainsKey($repoName)) { $byRepo[$repoName] } else {
-            $rawId = ([string](Get-FieldOr $repo 'name' '') -replace '^WCP-', '' -replace '-Wordbook$', '').ToLowerInvariant()
-            [pscustomobject]@{
-                id = $rawId; status = 'pending_release'; language = $rawId
-                display_name = $rawId + ' 词书'; repo = $repoName; release_tag = ''
-                version = ''; word_count = 0; fingerprint_sha256 = ''; es3_prefix = $rawId
-                disk = [pscustomobject]@{ extract_mb = 0 }; assets = @()
-            }
-    }
-    try {
-            # A wordbook repo may publish a small core release after its
-            # resource release.  Probe the catalog-pinned resource tag and
-            # latest release, then keep the candidate with the richest asset
-            # set. This lets resource-only updates flow from GitHub without
-            # making the installer depend on release ordering.
-            $candidates = New-Object System.Collections.Generic.List[object]
-            $pinnedTag = [string](Get-FieldOr $seed 'release_tag' '')
-            if (-not [string]::IsNullOrWhiteSpace($pinnedTag)) {
-                try {
-                    $tagUrl = "https://api.github.com/repos/{0}/releases/tags/{1}" -f `
-                        $repoName, [Uri]::EscapeDataString($pinnedTag)
-                    [void]$candidates.Add((Get-GitHubJson $tagUrl))
-                } catch { Write-Verbose ("GitHub 词书固定资源版本不可用 {0}/{1}: {2}" -f $repoName, $pinnedTag, $_.Exception.Message) }
-            }
-            try {
-                $latest = Get-GitHubJson ("https://api.github.com/repos/{0}/releases/latest" -f $repoName)
-                if (-not @($candidates | Where-Object { [string](Get-FieldOr $_ 'tag_name' '') -eq [string](Get-FieldOr $latest 'tag_name' '') })) {
-                    [void]$candidates.Add($latest)
+        try {
+            $releases = Get-GitHubJson ("https://api.github.com/repos/{0}/releases?per_page=100" -f $repoName)
+            $byLang = @{}
+            foreach ($release in @($releases)) {
+                $m = $langTagPattern.Match([string](Get-FieldOr $release 'tag_name' ''))
+                if (-not $m.Success) { continue }
+                $langId = $m.Groups[1].Value.ToLowerInvariant()
+                if ($langId -eq 'jp') { $langId = 'ja' }
+                if (-not $byLang.ContainsKey($langId)) {
+                    $byLang[$langId] = New-Object System.Collections.Generic.List[object]
                 }
-            } catch { Write-Verbose ("GitHub 词书 latest 不可用 {0}: {1}" -f $repoName, $_.Exception.Message) }
-
-            $best = $null
-            $bestAssetCount = -1
-            foreach ($candidate in @($candidates)) {
-                $remote = New-RemoteWordbook $seed $candidate $repoName
-                if (-not $remote) { continue }
-                $assetCount = @($remote.assets).Count
-                if ($assetCount -gt $bestAssetCount -or
-                    ($assetCount -eq $bestAssetCount -and $best -ne $null)) {
-                    $best = $remote
-                    $bestAssetCount = $assetCount
-                }
+                [void]$byLang[$langId].Add($release)
             }
-            if ($best) { $byRepo[$repoName] = $best }
+            foreach ($langId in @($byLang.Keys)) {
+                $seed = $byId[$langId]
+                if (-not $seed) {
+                    $seed = [pscustomobject]@{
+                        id = $langId; status = 'pending_release'; language = $langId
+                        display_name = $langId + ' 词书'; repo = $repoName; release_tag = ''
+                        version = ''; word_count = 0; fingerprint_sha256 = ''; es3_prefix = $langId
+                        disk = [pscustomobject]@{ extract_mb = 0 }; assets = @()
+                    }
+                }
+                # Keep the candidate with the richest verified asset set, so a
+                # small core/mod release never hides a newer resource release.
+                $best = $null
+                $bestAssetCount = -1
+                foreach ($candidate in @($byLang[$langId])) {
+                    $remote = New-RemoteWordbook $seed $candidate $repoName
+                    if (-not $remote) { continue }
+                    $assetCount = @($remote.assets).Count
+                    if ($assetCount -gt $bestAssetCount -or
+                        ($assetCount -eq $bestAssetCount -and $best -eq $null)) {
+                        $best = $remote
+                        $bestAssetCount = $assetCount
+                    }
+                }
+                if ($best) { $byId[$langId] = $best }
+            }
         } catch {
             Write-Verbose ("GitHub 词书发现跳过 {0}: {1}" -f $repoName, $_.Exception.Message)
         }
     }
-    $rows = @($byRepo.Values | Sort-Object id)
+    $rows = @($byId.Values | Sort-Object id)
     $result = [pscustomobject]@{ schema = 1; updated = (Get-Date).ToString('yyyy-MM-dd'); wordbooks = $rows }
     Assert-WordbookCatalog -Catalog $result
     return $result

@@ -35,15 +35,19 @@ Check 'catalog 有效' $true
 try { $bad = $catJson -replace '"schema": 1', '"no_schema": 1' | ConvertFrom-Json; Assert-WordbookCatalog -Catalog $bad; Check '缺 schema 拒绝' $false }
 catch { Check '缺 schema 拒绝' ($_.Exception.Message -match '缺少字段') }
 
-# 随包目录：安装器的在线发现按 repo 给词书建索引，两本词书共用一个 repo 会被折叠成
-# 一条（2026-09-15 曾把 8 种语言的 repo 都指向集成仓库，在线 -List 只剩 2 本）。
+# 随包目录：在线发现按词书 id 建索引，repo 只是每行资产 URL 的宿主记录；同一仓库
+# 承载多本词书没有问题，但每行资产必须真的发布在该 repo 名下，防止 404 死链。
 $shipped = Get-Content -LiteralPath (Join-Path $here '..\catalog.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 Assert-WordbookCatalog -Catalog $shipped
 Check '随包目录有效' $true
 $shipIds = @($shipped.wordbooks | ForEach-Object { [string]$_.id })
-$shipRepos = @($shipped.wordbooks | ForEach-Object { [string]$_.repo })
 Check '词书 id 两两不同' (@($shipIds | Sort-Object -Unique).Count -eq $shipIds.Count)
-Check '词书 repo 两两不同' (@($shipRepos | Sort-Object -Unique).Count -eq $shipRepos.Count)
+Check '词书资产 URL 宿主与 repo 一致' (@(
+    $shipped.wordbooks | Where-Object {
+        $repoTail = ([string]$_.repo -split '/')[-1]
+        @($_.assets | Where-Object { ([string]$_.url -split '/')[4] -eq $repoTail }).Count -eq @($_.assets).Count
+    }
+).Count -eq $shipIds.Count)
 $available = @($shipped.wordbooks | Where-Object { [string]$_.status -eq 'available' })
 $fullyLinked = @($available | Where-Object {
     $assets = @($_.assets)
