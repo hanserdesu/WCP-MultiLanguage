@@ -1,0 +1,602 @@
+[
+{
+"word": "accord",
+"pos": "n.m.",
+"zh": "同意；一致；协议",
+"level": "a1"
+},
+{
+"word": "acheter",
+"pos": "v.",
+"zh": "买；购买",
+"level": "a1"
+},
+{
+"word": "addition",
+"pos": "n.f.",
+"zh": "账单；加法",
+"level": "a1"
+},
+{
+"word": "adorer",
+"pos": "v.",
+"zh": "热爱；酷爱",
+"level": "a1"
+},
+{
+"word": "adresse",
+"pos": "n.f.",
+"zh": "地址；住址",
+"level": "a1"
+},
+{
+"word": "aide",
+"pos": "n.",
+"zh": "帮助；援助；助手",
+"level": "a1"
+},
+{
+"word": "aider",
+"pos": "v.",
+"zh": "帮助",
+"level": "a1"
+},
+{
+"word": "aimer",
+"pos": "v.",
+"zh": "爱；喜欢",
+"level": "a1"
+},
+{
+"word": "allemand",
+"pos": "n.m.",
+"zh": "德语；德国的；德国人",
+"level": "a1"
+},
+{
+"word": "aller",
+"pos": "v.",
+"zh": "去；走",
+"level": "a1"
+},
+{
+"word": "allo",
+"pos": "interj.",
+"zh": "喂（接电话）",
+"level": "a1"
+},
+{
+"word": "allô",
+"pos": "interj.",
+"zh": "喂（接电话用语）",
+"level": "a1"
+},
+{
+"word": "alors",
+"pos": "adv.",
+"zh": "那么；那时",
+"level": "a1"
+},
+{
+"word": "alphabet",
+"pos": "n.m.",
+"zh": "字母表",
+"level": "a1"
+},
+{
+"word": "ami",
+"pos": "n.m.",
+"zh": "朋友",
+"level": "a1"
+},
+{
+"word": "amour",
+"pos": "n.m.",
+"zh": "爱；爱情",
+"level": "a1"
+},
+{
+"word": "américain",
+"pos": "adj.",
+"zh": "美国的；美国人",
+"level": "a1"
+},
+{
+"word": "an",
+"pos": "n.m.",
+"zh": "年；岁",
+"level": "a1"
+},
+{
+"word": "anglais",
+"pos": "n.m.",
+"zh": "英语；英国人",
+"level": "a1"
+},
+{
+"word": "anniversaire",
+"pos": "n.m.",
+"zh": "生日；周年纪念日",
+"level": "a1"
+},
+{
+"word": "année",
+"pos": "n.f.",
+"zh": "年；年份",
+"level": "a1"
+},
+{
+"word": "août",
+"pos": "n.m.",
+"zh": "八月",
+"level": "a1"
+},
+{
+"word": "appartement",
+"pos": "n.m.",
+"zh": "公寓；套房",
+"level": "a1"
+},
+{
+"word": "appeler",
+"pos": "v.",
+"zh": "叫；称呼；打电话",
+"level": "a1"
+},
+{
+"word": "apprendre",
+"pos": "v.",
+"zh": "学习；得知",
+"level": "a1"
+},
+{
+"word": "après",
+"pos": "prép.",
+"zh": "在……之后；后来",
+"level": "a1"
+},
+{
+"word": "après-demain",
+"pos": "adv.",
+"zh": "后天",
+"level": "a1"
+},
+{
+"word": "arbre",
+"pos": "n.m.",
+"zh": "树；树木",
+"level": "a1"
+},
+{
+"word": "argent",
+"pos": "n.m.",
+"zh": "钱；金钱",
+"level": "a1"
+},
+{
+"word": "arriver",
+"pos": "v.",
+"zh": "到达；发生",
+"level": "a1"
+},
+{
+"word": "arrêter",
+"pos": "v.",
+"zh": "停止；阻止",
+"level": "a1"
+},
+{
+"word": "ascenseur",
+"pos": "n.m.",
+"zh": "电梯",
+"level": "a1"
+},
+{
+"word": "asseoir",
+"pos": "v.",
+"zh": "坐；使坐下",
+"level": "a1"
+},
+{
+"word": "assez",
+"pos": "adv.",
+"zh": "足够；相当",
+"level": "a1"
+},
+{
+"word": "assiette",
+"pos": "n.f.",
+"zh": "盘子",
+"level": "a1"
+},
+{
+"word": "assis",
+"pos": "adj.",
+"zh": "坐着的",
+"level": "a1"
+},
+{
+"word": "attendre",
+"pos": "v.",
+"zh": "等；等待",
+"level": "a1"
+},
+{
+"word": "attention",
+"pos": "interj.",
+"zh": "注意；小心",
+"level": "a1"
+},
+{
+"word": "au",
+"pos": "art.",
+"zh": "到；在（缩合冠词）",
+"level": "a1"
+},
+{
+"word": "aujourd'hui",
+"pos": "adv.",
+"zh": "今天",
+"level": "a1"
+},
+{
+"word": "aussi",
+"pos": "adv.",
+"zh": "也；同样",
+"level": "a1"
+},
+{
+"word": "automne",
+"pos": "n.m.",
+"zh": "秋天",
+"level": "a1"
+},
+{
+"word": "autre",
+"pos": "adj.",
+"zh": "别的；其他的",
+"level": "a1"
+},
+{
+"word": "aux",
+"pos": "art.",
+"zh": "到；在（缩合冠词复数）",
+"level": "a1"
+},
+{
+"word": "avant",
+"pos": "prép.",
+"zh": "在……之前",
+"level": "a1"
+},
+{
+"word": "avec",
+"pos": "prép.",
+"zh": "和；同；带有",
+"level": "a1"
+},
+{
+"word": "avion",
+"pos": "n.m.",
+"zh": "飞机",
+"level": "a1"
+},
+{
+"word": "avoir",
+"pos": "v.",
+"zh": "有；拥有",
+"level": "a1"
+},
+{
+"word": "avril",
+"pos": "n.m.",
+"zh": "四月",
+"level": "a1"
+},
+{
+"word": "aïe",
+"pos": "interj.",
+"zh": "哎哟（呼痛）",
+"level": "a1"
+},
+{
+"word": "baguette",
+"pos": "n.f.",
+"zh": "棍子；法棍面包；筷子",
+"level": "a1"
+},
+{
+"word": "ballon",
+"pos": "n.m.",
+"zh": "球；气球",
+"level": "a1"
+},
+{
+"word": "banane",
+"pos": "n.f.",
+"zh": "香蕉",
+"level": "a1"
+},
+{
+"word": "banque",
+"pos": "n.f.",
+"zh": "银行",
+"level": "a1"
+},
+{
+"word": "bateau",
+"pos": "n.m.",
+"zh": "船；船只",
+"level": "a1"
+},
+{
+"word": "beau",
+"pos": "adj.",
+"zh": "漂亮的；美好的",
+"level": "a1"
+},
+{
+"word": "beaucoup",
+"pos": "adv.",
+"zh": "很多；非常",
+"level": "a1"
+},
+{
+"word": "besoin",
+"pos": "n.m.",
+"zh": "需要；需求",
+"level": "a1"
+},
+{
+"word": "beurre",
+"pos": "n.m.",
+"zh": "黄油",
+"level": "a1"
+},
+{
+"word": "bibliothèque",
+"pos": "n.f.",
+"zh": "图书馆",
+"level": "a1"
+},
+{
+"word": "bien",
+"pos": "adv.",
+"zh": "好；很；相当",
+"level": "a1"
+},
+{
+"word": "bientôt",
+"pos": "adv.",
+"zh": "不久；很快",
+"level": "a1"
+},
+{
+"word": "bienvenue",
+"pos": "n.f.",
+"zh": "欢迎",
+"level": "a1"
+},
+{
+"word": "biscuit",
+"pos": "n.m.",
+"zh": "饼干",
+"level": "a1"
+},
+{
+"word": "bizarre",
+"pos": "adj.",
+"zh": "奇怪的；怪异的",
+"level": "a1"
+},
+{
+"word": "blanc",
+"pos": "adj.",
+"zh": "白色的",
+"level": "a1"
+},
+{
+"word": "bleu",
+"pos": "adj.",
+"zh": "蓝色的",
+"level": "a1"
+},
+{
+"word": "boeuf",
+"pos": "n.m.",
+"zh": "牛肉；牛",
+"level": "a1"
+},
+{
+"word": "boire",
+"pos": "v.",
+"zh": "喝；饮",
+"level": "a1"
+},
+{
+"word": "boisson",
+"pos": "n.f.",
+"zh": "饮料",
+"level": "a1"
+},
+{
+"word": "bol",
+"pos": "n.m.",
+"zh": "碗；一碗",
+"level": "a1"
+},
+{
+"word": "bon",
+"pos": "adj.",
+"zh": "好的；不错的",
+"level": "a1"
+},
+{
+"word": "bonbon",
+"pos": "n.m.",
+"zh": "糖果",
+"level": "a1"
+},
+{
+"word": "bonjour",
+"pos": "n.m.",
+"zh": "你好；日安",
+"level": "a1"
+},
+{
+"word": "bonsoir",
+"pos": "n.m.",
+"zh": "晚上好",
+"level": "a1"
+},
+{
+"word": "bouche",
+"pos": "n.f.",
+"zh": "嘴；口",
+"level": "a1"
+},
+{
+"word": "boulangerie",
+"pos": "n.f.",
+"zh": "面包店",
+"level": "a1"
+},
+{
+"word": "bras",
+"pos": "n.m.",
+"zh": "手臂；胳膊",
+"level": "a1"
+},
+{
+"word": "bravo",
+"pos": "interj.",
+"zh": "好哇；真棒（喝彩声）",
+"level": "a1"
+},
+{
+"word": "brun",
+"pos": "adj.",
+"zh": "棕色的",
+"level": "a1"
+},
+{
+"word": "bureau",
+"pos": "n.m.",
+"zh": "办公室；书桌",
+"level": "a1"
+},
+{
+"word": "bus",
+"pos": "n.m.",
+"zh": "公共汽车",
+"level": "a1"
+},
+{
+"word": "bye",
+"pos": "interj.",
+"zh": "再见（口语）",
+"level": "a1"
+},
+{
+"word": "bye-bye",
+"pos": "interj.",
+"zh": "再见（儿语）",
+"level": "a1"
+},
+{
+"word": "bébé",
+"pos": "n.m.",
+"zh": "婴儿；宝宝",
+"level": "a1"
+},
+{
+"word": "caca",
+"pos": "adj.",
+"zh": "便便（儿语）",
+"level": "a1"
+},
+{
+"word": "cadeau",
+"pos": "n.m.",
+"zh": "礼物；礼品",
+"level": "a1"
+},
+{
+"word": "café",
+"pos": "n.m.",
+"zh": "咖啡；咖啡馆",
+"level": "a1"
+},
+{
+"word": "cahier",
+"pos": "n.m.",
+"zh": "本子；练习本",
+"level": "a1"
+},
+{
+"word": "carotte",
+"pos": "n.f.",
+"zh": "胡萝卜",
+"level": "a1"
+},
+{
+"word": "carte",
+"pos": "n.f.",
+"zh": "卡片；地图；菜单",
+"level": "a1"
+},
+{
+"word": "ce",
+"pos": "pron.",
+"zh": "这；这个",
+"level": "a1"
+},
+{
+"word": "cela",
+"pos": "pron.",
+"zh": "那；那个",
+"level": "a1"
+},
+{
+"word": "cent",
+"pos": "adj.",
+"zh": "一百",
+"level": "a1"
+},
+{
+"word": "centimètre",
+"pos": "n.m.",
+"zh": "厘米",
+"level": "a1"
+},
+{
+"word": "centre-ville",
+"pos": "n.m.",
+"zh": "市中心",
+"level": "a1"
+},
+{
+"word": "ces",
+"pos": "adj.",
+"zh": "这些；那些",
+"level": "a1"
+},
+{
+"word": "cet",
+"pos": "adj.",
+"zh": "这个（元音前）",
+"level": "a1"
+},
+{
+"word": "cette",
+"pos": "adj.",
+"zh": "这个（阴性）",
+"level": "a1"
+},
+{
+"word": "chaise",
+"pos": "n.f.",
+"zh": "椅子",
+"level": "a1"
+}
+]

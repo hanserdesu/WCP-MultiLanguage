@@ -1,0 +1,1493 @@
+{
+  "kept": [
+    {
+      "word": "rasoir",
+      "zh": "剃刀；剃须刀",
+      "level": "a2"
+    },
+    {
+      "word": "redresser",
+      "zh": "纠正；扶正；整顿",
+      "level": "b1"
+    },
+    {
+      "word": "réplique",
+      "zh": "回嘴；反驳；台词",
+      "level": "b1"
+    },
+    {
+      "word": "semblable",
+      "zh": "相似的；类似的",
+      "level": "b1"
+    },
+    {
+      "word": "substance",
+      "zh": "物质；实质",
+      "level": "b1"
+    },
+    {
+      "word": "tronche",
+      "zh": "脸（口语）",
+      "level": "b1"
+    },
+    {
+      "word": "van",
+      "zh": "厢式货车；露营车",
+      "level": "a2"
+    },
+    {
+      "word": "appui",
+      "zh": "支撑；支持",
+      "level": "b1"
+    },
+    {
+      "word": "clan",
+      "zh": "帮派；小集团",
+      "level": "b1"
+    },
+    {
+      "word": "colonie",
+      "zh": "殖民地；聚居地",
+      "level": "b1"
+    },
+    {
+      "word": "contrairement",
+      "zh": "与……相反",
+      "level": "b1"
+    },
+    {
+      "word": "deal",
+      "zh": "交易；毒品交易（口语）",
+      "level": "b1"
+    },
+    {
+      "word": "dévoiler",
+      "zh": "揭露；透露",
+      "level": "b1"
+    },
+    {
+      "word": "faciliter",
+      "zh": "使便利；促进",
+      "level": "b1"
+    },
+    {
+      "word": "favori",
+      "zh": "最喜欢的；热门的",
+      "level": "a2"
+    },
+    {
+      "word": "fermier",
+      "zh": "农场主；农民",
+      "level": "a2"
+    },
+    {
+      "word": "grandeur",
+      "zh": "大小；伟大",
+      "level": "b1"
+    },
+    {
+      "word": "haricot",
+      "zh": "菜豆；豆子",
+      "level": "a2"
+    },
+    {
+      "word": "indigne",
+      "zh": "不相称的；可耻的",
+      "level": "b2"
+    },
+    {
+      "word": "initiative",
+      "zh": "主动权；倡议",
+      "level": "b1"
+    },
+    {
+      "word": "juré",
+      "zh": "陪审员",
+      "level": "b2"
+    },
+    {
+      "word": "lover",
+      "zh": "蜷缩；盘绕",
+      "level": "b2"
+    },
+    {
+      "word": "mineur",
+      "zh": "未成年人；矿工",
+      "level": "b1"
+    },
+    {
+      "word": "miséricorde",
+      "zh": "仁慈；怜悯",
+      "level": "b2"
+    },
+    {
+      "word": "novembre",
+      "zh": "十一月",
+      "level": "a1"
+    },
+    {
+      "word": "obsession",
+      "zh": "困扰；痴迷",
+      "level": "b1"
+    },
+    {
+      "word": "pourboire",
+      "zh": "小费",
+      "level": "a2"
+    },
+    {
+      "word": "requête",
+      "zh": "请求；诉状",
+      "level": "b2"
+    },
+    {
+      "word": "ressource",
+      "zh": "资源；办法",
+      "level": "b1"
+    },
+    {
+      "word": "rituel",
+      "zh": "仪式；例行程序",
+      "level": "b1"
+    },
+    {
+      "word": "sanguin",
+      "zh": "血液的",
+      "level": "b1"
+    },
+    {
+      "word": "souper",
+      "zh": "吃晚饭",
+      "level": "a2"
+    },
+    {
+      "word": "tripe",
+      "zh": "肠子；内脏",
+      "level": "b1"
+    },
+    {
+      "word": "trousse",
+      "zh": "铅笔盒；化妆包",
+      "level": "a2"
+    },
+    {
+      "word": "verrouiller",
+      "zh": "锁上；锁定",
+      "level": "a2"
+    },
+    {
+      "word": "avenue",
+      "zh": "大街；大道",
+      "level": "a2"
+    },
+    {
+      "word": "ballet",
+      "zh": "芭蕾舞",
+      "level": "a2"
+    },
+    {
+      "word": "banal",
+      "zh": "平庸的；陈腐的",
+      "level": "b2"
+    },
+    {
+      "word": "basque",
+      "zh": "巴斯克的；巴斯克人",
+      "level": "b1"
+    },
+    {
+      "word": "beignet",
+      "zh": "炸面饼",
+      "level": "a2"
+    },
+    {
+      "word": "boxeur",
+      "zh": "拳击手",
+      "level": "a2"
+    },
+    {
+      "word": "ciseau",
+      "zh": "凿子；剪刀（复数）",
+      "level": "a1"
+    },
+    {
+      "word": "comptoir",
+      "zh": "柜台；吧台",
+      "level": "a2"
+    },
+    {
+      "word": "concept",
+      "zh": "概念；观念",
+      "level": "b1"
+    },
+    {
+      "word": "cortex",
+      "zh": "皮层；大脑皮层",
+      "level": "b2"
+    },
+    {
+      "word": "dissimuler",
+      "zh": "隐藏；掩饰",
+      "level": "b2"
+    },
+    {
+      "word": "dédier",
+      "zh": "奉献；献给",
+      "level": "b2"
+    },
+    {
+      "word": "détresse",
+      "zh": "痛苦；危难",
+      "level": "b1"
+    },
+    {
+      "word": "entraîneur",
+      "zh": "教练",
+      "level": "a2"
+    },
+    {
+      "word": "expédier",
+      "zh": "寄出；草草处理",
+      "level": "b1"
+    },
+    {
+      "word": "faculté",
+      "zh": "能力；学院；系",
+      "level": "b1"
+    },
+    {
+      "word": "fourgon",
+      "zh": "厢式货车；囚车",
+      "level": "b1"
+    },
+    {
+      "word": "foutaise",
+      "zh": "胡扯；废话（粗俗）",
+      "level": "b1"
+    },
+    {
+      "word": "gronder",
+      "zh": "训斥；吼叫",
+      "level": "b1"
+    },
+    {
+      "word": "imprimer",
+      "zh": "印刷；打印",
+      "level": "a2"
+    },
+    {
+      "word": "miette",
+      "zh": "碎屑；一点",
+      "level": "a2"
+    },
+    {
+      "word": "naviguer",
+      "zh": "航行；浏览",
+      "level": "a2"
+    },
+    {
+      "word": "parasite",
+      "zh": "寄生虫",
+      "level": "b1"
+    },
+    {
+      "word": "physiquement",
+      "zh": "身体上；体力上",
+      "level": "a2"
+    },
+    {
+      "word": "prescrire",
+      "zh": "开处方；规定",
+      "level": "b2"
+    },
+    {
+      "word": "quatrième",
+      "zh": "第四",
+      "level": "a1"
+    },
+    {
+      "word": "raisonner",
+      "zh": "推理；思考",
+      "level": "b1"
+    },
+    {
+      "word": "rebelle",
+      "zh": "反抗者；叛逆者",
+      "level": "b1"
+    },
+    {
+      "word": "représentation",
+      "zh": "演出；表示；观念",
+      "level": "b1"
+    },
+    {
+      "word": "sentimental",
+      "zh": "感伤的；多情的",
+      "level": "b1"
+    },
+    {
+      "word": "structure",
+      "zh": "结构；构造",
+      "level": "b1"
+    },
+    {
+      "word": "veau",
+      "zh": "小牛；小牛肉",
+      "level": "a2"
+    },
+    {
+      "word": "yankee",
+      "zh": "美国佬",
+      "level": "b2"
+    },
+    {
+      "word": "accéder",
+      "zh": "进入；获得",
+      "level": "b1"
+    },
+    {
+      "word": "addition",
+      "zh": "账单；加法",
+      "level": "a1"
+    },
+    {
+      "word": "artillerie",
+      "zh": "火炮；炮兵",
+      "level": "b1"
+    },
+    {
+      "word": "automatique",
+      "zh": "自动的",
+      "level": "a2"
+    },
+    {
+      "word": "bousculer",
+      "zh": "推搡；打乱",
+      "level": "b1"
+    },
+    {
+      "word": "coco",
+      "zh": "椰子（口语）",
+      "level": "b1"
+    },
+    {
+      "word": "comble",
+      "zh": "顶点；极度",
+      "level": "b2"
+    },
+    {
+      "word": "complexe",
+      "zh": "复杂的；情结",
+      "level": "b1"
+    },
+    {
+      "word": "contempler",
+      "zh": "凝视；沉思",
+      "level": "b2"
+    },
+    {
+      "word": "diabolique",
+      "zh": "恶魔般的；邪恶的",
+      "level": "b1"
+    },
+    {
+      "word": "dramatique",
+      "zh": "悲剧性的；严重的",
+      "level": "b1"
+    },
+    {
+      "word": "débattre",
+      "zh": "辩论；挣扎",
+      "level": "b1"
+    },
+    {
+      "word": "décembre",
+      "zh": "十二月",
+      "level": "a1"
+    },
+    {
+      "word": "encercler",
+      "zh": "包围",
+      "level": "b1"
+    },
+    {
+      "word": "extraire",
+      "zh": "提取；拔出",
+      "level": "b1"
+    },
+    {
+      "word": "fouet",
+      "zh": "鞭子",
+      "level": "b1"
+    },
+    {
+      "word": "frisson",
+      "zh": "战栗；寒意",
+      "level": "b1"
+    },
+    {
+      "word": "hostile",
+      "zh": "敌对的",
+      "level": "b1"
+    },
+    {
+      "word": "lard",
+      "zh": "培根；肥肉",
+      "level": "a2"
+    },
+    {
+      "word": "odieux",
+      "zh": "可憎的；恶劣的",
+      "level": "b2"
+    },
+    {
+      "word": "portail",
+      "zh": "大门；门户网站",
+      "level": "b1"
+    },
+    {
+      "word": "pousse",
+      "zh": "芽；新梢",
+      "level": "b1"
+    },
+    {
+      "word": "redire",
+      "zh": "反对意见；再说",
+      "level": "b1"
+    },
+    {
+      "word": "registre",
+      "zh": "登记簿；语域",
+      "level": "b1"
+    },
+    {
+      "word": "scanner",
+      "zh": "扫描仪",
+      "level": "a2"
+    },
+    {
+      "word": "ultime",
+      "zh": "最后的；终极的",
+      "level": "b1"
+    },
+    {
+      "word": "verdict",
+      "zh": "判决；定论",
+      "level": "b1"
+    },
+    {
+      "word": "vice-président",
+      "zh": "副总统；副主席",
+      "level": "b1"
+    },
+    {
+      "word": "apaiser",
+      "zh": "平息；安抚",
+      "level": "b2"
+    },
+    {
+      "word": "autographe",
+      "zh": "亲笔签名",
+      "level": "b1"
+    },
+    {
+      "word": "bien-aimé",
+      "zh": "心爱的人",
+      "level": "b1"
+    },
+    {
+      "word": "bouc",
+      "zh": "公山羊",
+      "level": "a2"
+    },
+    {
+      "word": "chantage",
+      "zh": "敲诈；要挟",
+      "level": "b1"
+    },
+    {
+      "word": "coke",
+      "zh": "可卡因（口语）",
+      "level": "b1"
+    },
+    {
+      "word": "concentration",
+      "zh": "专注；集中",
+      "level": "a2"
+    },
+    {
+      "word": "confusion",
+      "zh": "混乱；混淆",
+      "level": "b1"
+    },
+    {
+      "word": "cote",
+      "zh": "行情；评分",
+      "level": "b2"
+    },
+    {
+      "word": "différemment",
+      "zh": "不同地",
+      "level": "a2"
+    },
+    {
+      "word": "décorer",
+      "zh": "装饰；授勋",
+      "level": "b1"
+    },
+    {
+      "word": "flash",
+      "zh": "闪光；闪光灯；快讯",
+      "level": "a2"
+    },
+    {
+      "word": "guetter",
+      "zh": "守候；窥伺",
+      "level": "b2"
+    },
+    {
+      "word": "gus",
+      "zh": "家伙（口语）",
+      "level": "b2"
+    },
+    {
+      "word": "lessive",
+      "zh": "洗衣粉；洗衣",
+      "level": "a2"
+    },
+    {
+      "word": "littérature",
+      "zh": "文学",
+      "level": "a2"
+    },
+    {
+      "word": "mérite",
+      "zh": "功绩；价值",
+      "level": "b1"
+    },
+    {
+      "word": "nonne",
+      "zh": "修女",
+      "level": "a2"
+    },
+    {
+      "word": "recueillir",
+      "zh": "收集；收留",
+      "level": "b2"
+    },
+    {
+      "word": "ruban",
+      "zh": "丝带；缎带",
+      "level": "a2"
+    },
+    {
+      "word": "rédiger",
+      "zh": "撰写；起草",
+      "level": "b1"
+    },
+    {
+      "word": "réservoir",
+      "zh": "水库；油箱",
+      "level": "b1"
+    },
+    {
+      "word": "solaire",
+      "zh": "太阳的",
+      "level": "b1"
+    },
+    {
+      "word": "sperme",
+      "zh": "精液",
+      "level": "b2"
+    },
+    {
+      "word": "terrifier",
+      "zh": "使惊恐",
+      "level": "b2"
+    },
+    {
+      "word": "éclaircir",
+      "zh": "澄清；使明亮",
+      "level": "b2"
+    },
+    {
+      "word": "éditeur",
+      "zh": "出版商；编辑器",
+      "level": "b1"
+    },
+    {
+      "word": "ardent",
+      "zh": "炽热的；热烈的",
+      "level": "b2"
+    },
+    {
+      "word": "assassinat",
+      "zh": "暗杀；谋杀",
+      "level": "b1"
+    },
+    {
+      "word": "attentivement",
+      "zh": "专心地；注意地",
+      "level": "b1"
+    },
+    {
+      "word": "bazar",
+      "zh": "杂货市场；混乱",
+      "level": "b1"
+    },
+    {
+      "word": "bijou",
+      "zh": "珠宝；首饰",
+      "level": "a2"
+    },
+    {
+      "word": "bonnet",
+      "zh": "毛线帽；便帽",
+      "level": "a2"
+    },
+    {
+      "word": "brosse",
+      "zh": "刷子",
+      "level": "a2"
+    },
+    {
+      "word": "coiffer",
+      "zh": "梳头；做头发",
+      "level": "a2"
+    },
+    {
+      "word": "crêpe",
+      "zh": "可丽饼；薄饼",
+      "level": "a2"
+    },
+    {
+      "word": "cuit",
+      "zh": "熟的；煮熟的",
+      "level": "a2"
+    },
+    {
+      "word": "dicter",
+      "zh": "口授；听写",
+      "level": "b1"
+    },
+    {
+      "word": "décor",
+      "zh": "布景；场景",
+      "level": "b1"
+    },
+    {
+      "word": "décéder",
+      "zh": "去世",
+      "level": "b1"
+    },
+    {
+      "word": "défaite",
+      "zh": "失败；败仗",
+      "level": "b1"
+    },
+    {
+      "word": "intense",
+      "zh": "强烈的；紧张的",
+      "level": "b1"
+    },
+    {
+      "word": "joint",
+      "zh": "接缝；接头",
+      "level": "b2"
+    },
+    {
+      "word": "libération",
+      "zh": "解放",
+      "level": "b1"
+    },
+    {
+      "word": "paie",
+      "zh": "工资；薪水",
+      "level": "a2"
+    },
+    {
+      "word": "photographie",
+      "zh": "照片；摄影",
+      "level": "a2"
+    },
+    {
+      "word": "polonais",
+      "zh": "波兰的；波兰人；波兰语",
+      "level": "a2"
+    },
+    {
+      "word": "raté",
+      "zh": "失败者；失败（口语）",
+      "level": "b1"
+    },
+    {
+      "word": "refuge",
+      "zh": "避难所；藏身处",
+      "level": "b1"
+    },
+    {
+      "word": "rupture",
+      "zh": "断裂；破裂；分手",
+      "level": "b1"
+    },
+    {
+      "word": "spectateur",
+      "zh": "观众",
+      "level": "a2"
+    },
+    {
+      "word": "tank",
+      "zh": "坦克",
+      "level": "a2"
+    },
+    {
+      "word": "touché",
+      "zh": "感动的；受触动的",
+      "level": "b1"
+    },
+    {
+      "word": "abandonné",
+      "zh": "被抛弃的；荒废的",
+      "level": "b1"
+    },
+    {
+      "word": "acquérir",
+      "zh": "获得；购得",
+      "level": "b2"
+    },
+    {
+      "word": "afficher",
+      "zh": "张贴；显示",
+      "level": "b1"
+    },
+    {
+      "word": "autel",
+      "zh": "祭坛",
+      "level": "b2"
+    },
+    {
+      "word": "borne",
+      "zh": "界石；里程碑",
+      "level": "b2"
+    },
+    {
+      "word": "brûlé",
+      "zh": "烧焦的",
+      "level": "a2"
+    },
+    {
+      "word": "coordonnée",
+      "zh": "坐标",
+      "level": "b1"
+    },
+    {
+      "word": "dépêche",
+      "zh": "快讯；急件",
+      "level": "b1"
+    },
+    {
+      "word": "hôtesse",
+      "zh": "女乘务员；女主人",
+      "level": "a2"
+    },
+    {
+      "word": "influencer",
+      "zh": "影响",
+      "level": "b1"
+    },
+    {
+      "word": "janvier",
+      "zh": "一月",
+      "level": "a1"
+    },
+    {
+      "word": "licence",
+      "zh": "执照；学士学位",
+      "level": "b1"
+    },
+    {
+      "word": "meuf",
+      "zh": "女人；女朋友（俚语）",
+      "level": "b1"
+    },
+    {
+      "word": "mile",
+      "zh": "英里",
+      "level": "a2"
+    },
+    {
+      "word": "pressentiment",
+      "zh": "预感",
+      "level": "b2"
+    },
+    {
+      "word": "quelques-uns",
+      "zh": "几个；一些人",
+      "level": "a2"
+    },
+    {
+      "word": "risqué",
+      "zh": "冒险的；有风险的",
+      "level": "b1"
+    },
+    {
+      "word": "régulier",
+      "zh": "有规律的；定期的",
+      "level": "a2"
+    },
+    {
+      "word": "réparation",
+      "zh": "修理；修复",
+      "level": "a2"
+    },
+    {
+      "word": "sauvetage",
+      "zh": "营救；救援",
+      "level": "b1"
+    },
+    {
+      "word": "sinistre",
+      "zh": "阴森的；不祥的",
+      "level": "b2"
+    },
+    {
+      "word": "suggestion",
+      "zh": "建议；暗示",
+      "level": "b1"
+    },
+    {
+      "word": "terrifiant",
+      "zh": "可怕的；骇人的",
+      "level": "b1"
+    },
+    {
+      "word": "économique",
+      "zh": "经济的",
+      "level": "a2"
+    },
+    {
+      "word": "allergique",
+      "zh": "过敏的",
+      "level": "b1"
+    },
+    {
+      "word": "balance",
+      "zh": "秤；天平",
+      "level": "a2"
+    },
+    {
+      "word": "britannique",
+      "zh": "英国的；英国人",
+      "level": "a2"
+    },
+    {
+      "word": "championnat",
+      "zh": "锦标赛；联赛",
+      "level": "a2"
+    },
+    {
+      "word": "constamment",
+      "zh": "不断地；始终",
+      "level": "b1"
+    },
+    {
+      "word": "cookie",
+      "zh": "曲奇饼",
+      "level": "a2"
+    },
+    {
+      "word": "cycle",
+      "zh": "周期；循环",
+      "level": "b1"
+    },
+    {
+      "word": "décoration",
+      "zh": "装饰；勋章",
+      "level": "b1"
+    },
+    {
+      "word": "embrouiller",
+      "zh": "搞乱；使混乱",
+      "level": "b1"
+    },
+    {
+      "word": "escorter",
+      "zh": "护送",
+      "level": "b2"
+    },
+    {
+      "word": "flou",
+      "zh": "模糊的",
+      "level": "b1"
+    },
+    {
+      "word": "grippe",
+      "zh": "流感",
+      "level": "a2"
+    },
+    {
+      "word": "inférieur",
+      "zh": "较低的；下级的",
+      "level": "b1"
+    },
+    {
+      "word": "isolé",
+      "zh": "孤立的；偏僻的",
+      "level": "b1"
+    },
+    {
+      "word": "lesbien",
+      "zh": "女同性恋的",
+      "level": "b1"
+    },
+    {
+      "word": "mémé",
+      "zh": "奶奶；外婆（口语）",
+      "level": "a2"
+    },
+    {
+      "word": "planifier",
+      "zh": "计划；规划",
+      "level": "b1"
+    },
+    {
+      "word": "portier",
+      "zh": "门房；门卫",
+      "level": "a2"
+    },
+    {
+      "word": "quarante",
+      "zh": "四十",
+      "level": "a1"
+    },
+    {
+      "word": "relax",
+      "zh": "放松的（口语）",
+      "level": "b1"
+    },
+    {
+      "word": "rhume",
+      "zh": "感冒",
+      "level": "a2"
+    },
+    {
+      "word": "réviser",
+      "zh": "复习；修订",
+      "level": "a2"
+    },
+    {
+      "word": "tremblement",
+      "zh": "颤抖；地震",
+      "level": "a2"
+    },
+    {
+      "word": "bataillon",
+      "zh": "营；大队",
+      "level": "b2"
+    },
+    {
+      "word": "bicyclette",
+      "zh": "自行车",
+      "level": "a2"
+    },
+    {
+      "word": "bulle",
+      "zh": "泡；气泡",
+      "level": "a2"
+    },
+    {
+      "word": "cambriolage",
+      "zh": "入室盗窃",
+      "level": "b1"
+    },
+    {
+      "word": "carreau",
+      "zh": "瓷砖；窗玻璃",
+      "level": "b1"
+    },
+    {
+      "word": "colle",
+      "zh": "胶水",
+      "level": "a2"
+    },
+    {
+      "word": "confronter",
+      "zh": "使对质；对照",
+      "level": "b2"
+    },
+    {
+      "word": "copier",
+      "zh": "抄写；复制；抄袭",
+      "level": "a2"
+    },
+    {
+      "word": "crabe",
+      "zh": "螃蟹",
+      "level": "a2"
+    },
+    {
+      "word": "dynamite",
+      "zh": "炸药",
+      "level": "b1"
+    },
+    {
+      "word": "défilé",
+      "zh": "游行；行列；时装表演",
+      "level": "b1"
+    },
+    {
+      "word": "détecteur",
+      "zh": "探测器",
+      "level": "b1"
+    },
+    {
+      "word": "escargot",
+      "zh": "蜗牛",
+      "level": "a2"
+    },
+    {
+      "word": "fonctionnaire",
+      "zh": "公务员",
+      "level": "b1"
+    },
+    {
+      "word": "funèbre",
+      "zh": "葬礼的；阴沉的",
+      "level": "b2"
+    },
+    {
+      "word": "griffe",
+      "zh": "爪；抓痕",
+      "level": "b1"
+    },
+    {
+      "word": "gène",
+      "zh": "基因",
+      "level": "b1"
+    },
+    {
+      "word": "génétique",
+      "zh": "遗传的；基因的",
+      "level": "b1"
+    },
+    {
+      "word": "hisser",
+      "zh": "升起；拉起",
+      "level": "b2"
+    },
+    {
+      "word": "ignoble",
+      "zh": "卑鄙的；可憎的",
+      "level": "b2"
+    },
+    {
+      "word": "inclure",
+      "zh": "包括；包含",
+      "level": "b1"
+    },
+    {
+      "word": "invoquer",
+      "zh": "援引；祈求",
+      "level": "b2"
+    },
+    {
+      "word": "manager",
+      "zh": "经理；经纪人",
+      "level": "a2"
+    },
+    {
+      "word": "masculin",
+      "zh": "男性的；阳性的",
+      "level": "a2"
+    },
+    {
+      "word": "mexicain",
+      "zh": "墨西哥的；墨西哥人",
+      "level": "a2"
+    },
+    {
+      "word": "observation",
+      "zh": "观察；评论",
+      "level": "b1"
+    },
+    {
+      "word": "pacte",
+      "zh": "条约；契约",
+      "level": "b1"
+    },
+    {
+      "word": "pirate",
+      "zh": "海盗",
+      "level": "a2"
+    },
+    {
+      "word": "pois",
+      "zh": "豌豆",
+      "level": "a2"
+    },
+    {
+      "word": "psychologique",
+      "zh": "心理的",
+      "level": "b1"
+    },
+    {
+      "word": "pyjama",
+      "zh": "睡衣裤",
+      "level": "a2"
+    },
+    {
+      "word": "pécheur",
+      "zh": "罪人",
+      "level": "b1"
+    },
+    {
+      "word": "pénis",
+      "zh": "阴茎",
+      "level": "b1"
+    },
+    {
+      "word": "secondaire",
+      "zh": "次要的；中等的",
+      "level": "b1"
+    },
+    {
+      "word": "torche",
+      "zh": "抹布；擦布",
+      "level": "b2"
+    },
+    {
+      "word": "traité",
+      "zh": "条约",
+      "level": "b1"
+    },
+    {
+      "word": "voyageur",
+      "zh": "旅客；旅行者",
+      "level": "a2"
+    },
+    {
+      "word": "éduquer",
+      "zh": "教育；教养",
+      "level": "b1"
+    },
+    {
+      "word": "égoïste",
+      "zh": "自私的",
+      "level": "a2"
+    },
+    {
+      "word": "évolution",
+      "zh": "演变；进化",
+      "level": "b1"
+    },
+    {
+      "word": "apparition",
+      "zh": "出现；显形",
+      "level": "b1"
+    },
+    {
+      "word": "bidon",
+      "zh": "罐；桶；假的（口语）",
+      "level": "b1"
+    },
+    {
+      "word": "centrale",
+      "zh": "发电站；总站",
+      "level": "b1"
+    },
+    {
+      "word": "couvert",
+      "zh": "餐具；盖子",
+      "level": "a2"
+    },
+    {
+      "word": "croyance",
+      "zh": "信念；信仰",
+      "level": "b1"
+    },
+    {
+      "word": "définitif",
+      "zh": "最终的；定局的",
+      "level": "b1"
+    },
+    {
+      "word": "déshonorer",
+      "zh": "羞辱；玷污",
+      "level": "b2"
+    },
+    {
+      "word": "déçu",
+      "zh": "失望的",
+      "level": "a2"
+    },
+    {
+      "word": "embrouille",
+      "zh": "纠纷；乱子（口语）",
+      "level": "b1"
+    },
+    {
+      "word": "exploit",
+      "zh": "壮举；功绩",
+      "level": "b1"
+    },
+    {
+      "word": "farine",
+      "zh": "面粉",
+      "level": "a2"
+    },
+    {
+      "word": "finance",
+      "zh": "财政；金融",
+      "level": "b1"
+    },
+    {
+      "word": "février",
+      "zh": "二月",
+      "level": "a1"
+    },
+    {
+      "word": "haleine",
+      "zh": "呼吸；口气",
+      "level": "b1"
+    },
+    {
+      "word": "immobile",
+      "zh": "不动的；静止的",
+      "level": "a2"
+    },
+    {
+      "word": "intégrer",
+      "zh": "使融入；整合",
+      "level": "b1"
+    },
+    {
+      "word": "légiste",
+      "zh": "法医",
+      "level": "b2"
+    },
+    {
+      "word": "malle",
+      "zh": "大箱子；衣箱",
+      "level": "b1"
+    },
+    {
+      "word": "martial",
+      "zh": "军事的；好战的",
+      "level": "b2"
+    },
+    {
+      "word": "maudire",
+      "zh": "诅咒",
+      "level": "b2"
+    },
+    {
+      "word": "mobile",
+      "zh": "动机；手机（口语）",
+      "level": "b1"
+    },
+    {
+      "word": "oubli",
+      "zh": "遗忘；疏漏",
+      "level": "b1"
+    },
+    {
+      "word": "out",
+      "zh": "出局；过时（口语）",
+      "level": "b1"
+    },
+    {
+      "word": "pervers",
+      "zh": "变态者；堕落者",
+      "level": "b1"
+    },
+    {
+      "word": "pétasse",
+      "zh": "贱货（粗俗）",
+      "level": "b1"
+    },
+    {
+      "word": "répondeur",
+      "zh": "答录机",
+      "level": "a2"
+    },
+    {
+      "word": "résidence",
+      "zh": "住宅；居所",
+      "level": "a2"
+    },
+    {
+      "word": "surprenant",
+      "zh": "惊人的；出人意料的",
+      "level": "a2"
+    },
+    {
+      "word": "tailleur",
+      "zh": "裁缝；女式套装",
+      "level": "a2"
+    },
+    {
+      "word": "trompette",
+      "zh": "小号；喇叭",
+      "level": "a2"
+    },
+    {
+      "word": "tumeur",
+      "zh": "肿瘤",
+      "level": "b1"
+    },
+    {
+      "word": "vapeur",
+      "zh": "蒸汽",
+      "level": "a2"
+    },
+    {
+      "word": "éternellement",
+      "zh": "永远地；永恒地",
+      "level": "b1"
+    },
+    {
+      "word": "abriter",
+      "zh": "掩蔽；庇护",
+      "level": "b1"
+    },
+    {
+      "word": "advenir",
+      "zh": "发生（书面）",
+      "level": "b2"
+    },
+    {
+      "word": "banlieue",
+      "zh": "郊区；市郊",
+      "level": "b1"
+    },
+    {
+      "word": "barman",
+      "zh": "酒保；调酒师",
+      "level": "a2"
+    },
+    {
+      "word": "carnaval",
+      "zh": "狂欢节",
+      "level": "a2"
+    },
+    {
+      "word": "diminuer",
+      "zh": "减少；降低",
+      "level": "a2"
+    },
+    {
+      "word": "distributeur",
+      "zh": "自动售货机；经销商",
+      "level": "b1"
+    },
+    {
+      "word": "fosse",
+      "zh": "坑；沟；墓穴",
+      "level": "b1"
+    },
+    {
+      "word": "fracture",
+      "zh": "骨折；断裂",
+      "level": "b1"
+    },
+    {
+      "word": "fureur",
+      "zh": "狂怒",
+      "level": "b1"
+    },
+    {
+      "word": "hallucination",
+      "zh": "幻觉",
+      "level": "b1"
+    },
+    {
+      "word": "identique",
+      "zh": "完全相同的",
+      "level": "b1"
+    },
+    {
+      "word": "laser",
+      "zh": "激光",
+      "level": "a2"
+    },
+    {
+      "word": "mâchoire",
+      "zh": "颌；下巴",
+      "level": "b1"
+    },
+    {
+      "word": "naïf",
+      "zh": "天真的；幼稚的",
+      "level": "b1"
+    },
+    {
+      "word": "neiger",
+      "zh": "下雪",
+      "level": "a1"
+    },
+    {
+      "word": "planer",
+      "zh": "滑翔；飘荡",
+      "level": "b1"
+    },
+    {
+      "word": "portugais",
+      "zh": "葡萄牙的；葡萄牙人；葡萄牙语",
+      "level": "a2"
+    }
+  ],
+  "drop": [
+    {
+      "word": "hou",
+      "reason": "纯拟声词"
+    },
+    {
+      "word": "boche",
+      "reason": "贬义民族俚语"
+    },
+    {
+      "word": "monté",
+      "reason": "分词屈折残留"
+    },
+    {
+      "word": "tué",
+      "reason": "分词屈折残留"
+    },
+    {
+      "word": "blanche",
+      "reason": "阴性屈折变体"
+    },
+    {
+      "word": "gerber",
+      "reason": "粗俗俚语冷僻"
+    },
+    {
+      "word": "minus",
+      "reason": "过时俚语冷僻"
+    },
+    {
+      "word": "homo",
+      "reason": "缩略俚语贬义"
+    },
+    {
+      "word": "jésus",
+      "reason": "专名人名"
+    },
+    {
+      "word": "galer",
+      "reason": "矿业术语冷僻"
+    },
+    {
+      "word": "sieur",
+      "reason": "旧式用语冷僻"
+    },
+    {
+      "word": "da",
+      "reason": "纯拟声词"
+    },
+    {
+      "word": "braiment",
+      "reason": "动词变位残留"
+    }
+  ]
+}

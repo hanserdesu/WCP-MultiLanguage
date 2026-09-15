@@ -1,0 +1,502 @@
+{
+"téléphonique": [
+{"fr": "Le réseau téléphonique est coupé dans tout le quartier.", "zh": "整个街区的电话网络都断了。"},
+{"fr": "Elle a reçu un appel téléphonique du bureau à minuit.", "zh": "半夜她接到办公室打来的电话。"},
+{"fr": "L'annuaire téléphonique papier a presque disparu.", "zh": "纸质电话簿几乎已经消失了。"}
+],
+"téléspectateur": [
+{"fr": "Les téléspectateurs ont voté pour garder leur chanteur préféré.", "zh": "电视观众投票留下自己最喜欢的歌手。"},
+{"fr": "Le nombre de téléspectateurs baisse depuis le début de la série.", "zh": "这部剧开播以来，观众数量一直在下滑。"},
+{"fr": "L'émission répond en direct aux questions des téléspectateurs.", "zh": "节目现场回答观众提问。"}
+],
+"téléviseur": [
+{"fr": "Il a acheté un téléviseur immense pour le salon.", "zh": "他给客厅买了一台超大的电视机。"},
+{"fr": "Le téléviseur du bar diffuse le match en direct.", "zh": "酒吧的电视机正直播比赛。"},
+{"fr": "Ce vieux téléviseur ne capte plus les chaînes numériques.", "zh": "这台旧电视机收不到数字频道了。"}
+],
+"télévisé": [
+{"fr": "Le débat télévisé réunit des millions de spectateurs.", "zh": "这场电视辩论吸引了数百万观众。"},
+{"fr": "Une émission télévisée consacrée à la cuisine commence ce soir.", "zh": "一档美食电视节目今晚开播。"},
+{"fr": "La finale a bénéficié d'une large retransmission télévisée.", "zh": "决赛得到了大规模的电视转播。"}
+],
+"témoignage": [
+{"fr": "Son témoignage a fait basculer le procès.", "zh": "他的证词让官司出现逆转。"},
+{"fr": "Ce livre est un témoignage poignant sur la guerre.", "zh": "这本书是对战争的一段动人见证。"},
+{"fr": "Les témoignages des riverains ont permis d'identifier la voiture.", "zh": "多亏附近居民的证词，那辆车才被辨认出来。"}
+],
+"témoin": [
+{"fr": "Un témoin a filmé l'accident avec son téléphone.", "zh": "一名目击者用手机拍下了事故经过。"},
+{"fr": "Le témoin a désigné le voleur sans hésiter.", "zh": "证人毫不犹豫地指认了窃贼。"},
+{"fr": "Aucun témoin n'a réagi pendant l'altercation.", "zh": "冲突发生时，没有一个旁观者上前。"}
+],
+"ultime": [
+{"fr": "C'est son ultime concert avant la retraite.", "zh": "这是他退休前的最后一场演唱会。"},
+{"fr": "L'ultime occasion de marquer a été manquée dans les dernières secondes.", "zh": "最后几秒钟，最后一次得分机会错过了。"},
+{"fr": "Son ultime souhait était de revoir son village natal.", "zh": "他最后的愿望是再看一眼家乡的村子。"}
+],
+"union": [
+{"fr": "L'union fait la force, dit le proverbe.", "zh": "谚语说，团结就是力量。"},
+{"fr": "Leur union a duré plus de quarante ans.", "zh": "他们的结合延续了四十多年。"},
+{"fr": "Les deux partis annoncent l'union de leurs listes pour les élections.", "zh": "两党宣布在选举中联合参选。"}
+],
+"unir": [
+{"fr": "Le mariage va unir deux familles très différentes.", "zh": "这场婚礼将把两个迥然不同的家庭联结在一起。"},
+{"fr": "La musique a le pouvoir d'unir les gens.", "zh": "音乐有把人们团结起来的力量。"},
+{"fr": "Il faut unir nos forces pour finir le chantier à temps.", "zh": "要按时完工，我们必须齐心协力。"}
+],
+"unité": [
+{"fr": "Le mètre est l'unité de mesure de la longueur.", "zh": "米是长度的计量单位。"},
+{"fr": "Le discours du président appelle à l'unité nationale.", "zh": "总统的讲话呼吁全国团结。"},
+{"fr": "Cette unité de production emploie deux cents personnes.", "zh": "这个生产单位雇佣两百人。"}
+],
+"universel": [
+{"fr": "La musique est un langage universel.", "zh": "音乐是一种世界通用的语言。"},
+{"fr": "Le suffrage universel existe en France depuis le dix-neuvième siècle.", "zh": "法国自十九世纪起实行普选。"},
+{"fr": "Le droit à l'éducation est reconnu comme un principe universel.", "zh": "受教育权被公认为一项普世原则。"}
+],
+"universitaire": [
+{"fr": "Elle a mené une brillante carrière universitaire.", "zh": "她有着辉煌的高校职业生涯。"},
+{"fr": "Le campus universitaire se trouve au nord de la ville.", "zh": "大学城位于城市北部。"},
+{"fr": "L'année universitaire commence fin septembre.", "zh": "学年九月底开学。"}
+],
+"urbain": [
+{"fr": "Le transport urbain sera gratuit pour les jeunes dès septembre.", "zh": "从九月起，年轻人免费乘坐市内公交。"},
+{"fr": "Ils préfèrent la vie urbaine à la tranquillité de la campagne.", "zh": "比起乡村的宁静，他们更喜欢都市生活。"},
+{"fr": "Le tissu urbain s'étend de plus en plus vers l'est.", "zh": "城市建成区不断向东扩展。"}
+],
+"urgence": [
+{"fr": "En cas d'urgence, appelez ce numéro de garde.", "zh": "遇到紧急情况，请拨打这个值班电话。"},
+{"fr": "Il s'est rendu aux urgences après sa chute.", "zh": "摔倒之后，他去了急诊。"},
+{"fr": "La réparation de la chaudière est une vraie urgence avant l'hiver.", "zh": "入冬前修锅炉是当务之急。"}
+],
+"usage": [
+{"fr": "Cet outil est réservé à l'usage professionnel.", "zh": "这件工具仅供专业用途。"},
+{"fr": "Selon l'usage local, on enlève ses chaussures en entrant.", "zh": "按当地习惯，进门要脱鞋。"},
+{"fr": "L'usage veut qu'on réponde à une invitation sous trois jours.", "zh": "惯例是收到邀请三天内回复。"}
+],
+"usé": [
+{"fr": "Ses semelles trop usées laissent passer la pluie.", "zh": "鞋底磨得太薄，雨水都渗进来了。"},
+{"fr": "Le canapé usé du salon attend d'être remplacé.", "zh": "客厅里那张破旧的沙发就等着换了。"},
+{"fr": "Cette blouse usée raconte vingt ans d'atelier.", "zh": "这件磨旧的工装见证了二十年的车间岁月。"}
+],
+"utilité": [
+{"fr": "Je doute de l'utilité de cette réunion hebdomadaire.", "zh": "我怀疑这种每周例会有没有必要。"},
+{"fr": "Cette application n'a aucune utilité pour moi.", "zh": "这个应用对我毫无用处。"},
+{"fr": "Il a fini par comprendre l'utilité de faire des listes.", "zh": "他终于明白了列清单的好处。"}
+],
+"vaccin": [
+{"fr": "Le vaccin contre la grippe est disponible à partir d'octobre.", "zh": "流感疫苗十月起可以接种。"},
+{"fr": "Le nouveau vaccin a été approuvé par les autorités sanitaires.", "zh": "新疫苗已获卫生部门批准。"},
+{"fr": "Un vaccin contre cette maladie existe depuis une dizaine d'années.", "zh": "针对这种疾病的疫苗问世已有十年左右。"}
+],
+"vachement": [
+{"fr": "Ce concert était vachement bien, on y retournera.", "zh": "这场音乐会特别棒，我们还会再去。"},
+{"fr": "Elle est vachement douée pour la cuisine.", "zh": "她做饭特别有天赋。"},
+{"fr": "Ton aide m'a vachement soulagé, merci.", "zh": "你的帮忙让我轻松多了，谢谢。"}
+],
+"vagabond": [
+{"fr": "Le vieux vagabond dort sur le banc du parc.", "zh": "老流浪汉睡在公园的长椅上。"},
+{"fr": "Il a mené une vie de vagabond pendant cinq ans.", "zh": "他过了五年的流浪生活。"},
+{"fr": "Un chien vagabond erre autour de la boulangerie.", "zh": "一条流浪狗在面包店附近转悠。"}
+],
+"vain": [
+{"fr": "Toutes leurs tentatives pour le joindre sont restées vaines.", "zh": "他们联系他的一切尝试都白费了。"},
+{"fr": "Il s'est battu en vain pour sauver l'entreprise.", "zh": "他为挽救公司奔波，却徒劳无功。"},
+{"fr": "Espérer qu'il change serait vain, disent ses amis.", "zh": "朋友们说，指望他改变是白搭。"}
+],
+"vaincre": [
+{"fr": "Il faut vaincre sa peur du vide pour admirer le paysage.", "zh": "得先克服恐高，才能欣赏那片风景。"},
+{"fr": "L'équipe a vaincu le champion en titre deux buts à un.", "zh": "球队以二比一战胜了卫冕冠军。"},
+{"fr": "Rien ne pourra vaincre sa ténacité.", "zh": "什么都压不垮他的坚韧。"}
+],
+"vainqueur": [
+{"fr": "Le vainqueur du marathon a battu le record de l'épreuve.", "zh": "马拉松冠军打破了赛会纪录。"},
+{"fr": "Les vainqueurs de la coupe ont défilé dans toute la ville.", "zh": "捧杯的优胜者们走遍全城游行庆祝。"},
+{"fr": "Le vainqueur a été longuement applaudi par le public.", "zh": "获胜者赢得了观众持久的掌声。"}
+],
+"vaisseau": [
+{"fr": "Le vaisseau spatial a quitté l'orbite ce matin.", "zh": "航天器今天早上脱离了轨道。"},
+{"fr": "Un vaisseau de guerre est ancré au large du port.", "zh": "一艘军舰停泊在港口外海。"},
+{"fr": "Les vaisseaux de la flotte repartent à l'aube.", "zh": "船队的舰船拂晓起航。"}
+],
+"valable": [
+{"fr": "Ton abonnement est valable jusqu'à la fin du mois.", "zh": "你的月票有效期到月底。"},
+{"fr": "Elle a présenté un argument tout à fait valable.", "zh": "她提出了一个完全站得住脚的论据。"},
+{"fr": "Ce coupon n'est plus valable après samedi.", "zh": "这张券周六之后就不能用了。"}
+],
+"valeur": [
+{"fr": "Cette montre a une grande valeur sentimentale.", "zh": "这块表有着很重的感情价值。"},
+{"fr": "L'expert a estimé la valeur du tableau à cent mille euros.", "zh": "专家估计这幅画价值十万欧元。"},
+{"fr": "L'entreprise affiche ses valeurs sur le mur de l'accueil.", "zh": "公司把自己的价值观挂在前台的墙上。"}
+],
+"valide": [
+{"fr": "Ton titre de transport reste valide jusqu'à minuit.", "zh": "你的车票有效期到午夜。"},
+{"fr": "Ce ticket n'est plus valide, il faut en racheter un.", "zh": "这张票失效了，得重新买一张。"},
+{"fr": "Une carte d'identité valide suffit pour voyager dans l'Union.", "zh": "一张有效的身份证就足以在欧盟境内旅行。"}
+],
+"valse": [
+{"fr": "Le couple tourne sur la piste dans une lente valse.", "zh": "一对舞伴随着舒缓的华尔兹在舞池中旋转。"},
+{"fr": "Elle a appris la valse viennoise pour son mariage.", "zh": "为了婚礼，她学了维也纳华尔兹。"},
+{"fr": "Un orchestre joue une valse de Strauss sur la place.", "zh": "广场上有乐队演奏施特劳斯的圆舞曲。"}
+],
+"varier": [
+{"fr": "Les menus varient selon les saisons.", "zh": "菜单随季节变换。"},
+{"fr": "Il faut varier les exercices pour continuer à progresser.", "zh": "要不断进步，就得让训练内容多样化。"},
+{"fr": "Le prix du poisson varie beaucoup d'un port à l'autre.", "zh": "鱼价在不同港口差别很大。"}
+],
+"variété": [
+{"fr": "Ce verger cultive une variété ancienne de pommes.", "zh": "这座果园种植一个古老的苹果品种。"},
+{"fr": "La variété des paysages attire les randonneurs.", "zh": "多样的地貌景观吸引着徒步者。"},
+{"fr": "Elle chante dans un orchestre de variétés.", "zh": "她在一个流行乐队里唱歌。"}
+],
+"vaste": [
+{"fr": "Une vaste plaine s'étend à perte de vue.", "zh": "广阔的平原一望无际。"},
+{"fr": "L'appartement offre un séjour vaste et lumineux.", "zh": "这套公寓有一个宽敞明亮的客厅。"},
+{"fr": "Ils ont lancé une vaste campagne de nettoyage des plages.", "zh": "他们发起了一场大规模的净滩行动。"}
+],
+"veille": [
+{"fr": "La veille du départ, il a vérifié ses documents trois fois.", "zh": "出发前一天，他把证件检查了三遍。"},
+{"fr": "Nous sommes arrivés la veille de la fête.", "zh": "我们在庆典前一天到的。"},
+{"fr": "La veille de Noël, toute la famille cuisine ensemble.", "zh": "圣诞前夜，全家人一起下厨。"}
+],
+"veiller": [
+{"fr": "Elle a veillé toute la nuit près du lit de sa mère.", "zh": "她守在母亲床边整整一夜。"},
+{"fr": "Veillez à bien fermer la porte en partant.", "zh": "离开时务必把门关好。"},
+{"fr": "Le chat veille sur la maison pendant notre absence.", "zh": "我们不在家时，猫守护着房子。"}
+],
+"vengeance": [
+{"fr": "Il a renoncé à sa vengeance pour le bien de ses enfants.", "zh": "为了孩子们，他放弃了复仇。"},
+{"fr": "La vengeance est un plat qui se mange froid.", "zh": "报仇这份菜要凉着吃，意思是君子报仇十年不晚。"},
+{"fr": "Dans le film, la vengeance conduit le héros à sa perte.", "zh": "影片中，复仇把主人公引向了毁灭。"}
+],
+"venger": [
+{"fr": "Elle veut venger la mémoire de son père.", "zh": "她要为亡父讨回公道。"},
+{"fr": "Il s'est vengé en révélant tout au directeur.", "zh": "他把一切都告诉了经理，算是报了仇。"},
+{"fr": "Se venger ne rend jamais vraiment heureux.", "zh": "报复从来不会带来真正的快乐。"}
+],
+"verdict": [
+{"fr": "Le verdict du jury a surpris les avocats.", "zh": "陪审团的裁决让律师们感到意外。"},
+{"fr": "Le public attend le verdict de la finale avec impatience.", "zh": "观众急切地等待决赛的评定结果。"},
+{"fr": "Après trois jours de délibération, le verdict est tombé.", "zh": "经过三天合议，判决下来了。"}
+],
+"vernis": [
+{"fr": "Il a appliqué une couche de vernis sur la table.", "zh": "他给桌子刷了一层清漆。"},
+{"fr": "Elle se fait poser un vernis semi-permanent chaque mois.", "zh": "她每个月做一次半持久美甲。"},
+{"fr": "Le vernis du vieux meuble a besoin d'être refait.", "zh": "旧家具的漆面需要重新做。"}
+],
+"versement": [
+{"fr": "Le premier versement est prévu le cinq du mois.", "zh": "首笔款项定于本月五日支付。"},
+{"fr": "Un versement tardif entraîne des pénalités.", "zh": "逾期缴款会产生罚金。"},
+{"fr": "Elle a effectué un versement important sur son livret.", "zh": "她往自己的储蓄账户里存了一笔大额款项。"}
+],
+"verser": [
+{"fr": "Il a versé du lait dans le café, puis l'a goûté.", "zh": "他往咖啡里倒了点牛奶，然后尝了尝。"},
+{"fr": "L'entreprise verse les salaires le trente du mois.", "zh": "公司每月三十号发工资。"},
+{"fr": "Elle a versé une larme en lisant la lettre.", "zh": "读信时她落了一滴泪。"}
+],
+"vestiaire": [
+{"fr": "Laissez votre manteau au vestiaire à l'entrée.", "zh": "请把大衣存在入口的衣帽间。"},
+{"fr": "Les vestiaires de la piscine sont en travaux.", "zh": "泳池的更衣室正在维修。"},
+{"fr": "Il a oublié son sac au vestiaire du théâtre.", "zh": "他把包忘在剧院的寄存处了。"}
+],
+"vexer": [
+{"fr": "Ne te vexe pas, c'était une blague.", "zh": "别恼火，那只是个玩笑。"},
+{"fr": "Sa remarque l'a vexée pour toute la soirée.", "zh": "他的一句话让她别扭了一晚上。"},
+{"fr": "Il est très facile à vexer ces derniers temps.", "zh": "他最近特别容易得罪。"}
+],
+"via": [
+{"fr": "Nous irons à Rome via Milan.", "zh": "我们将途经米兰前往罗马。"},
+{"fr": "Elle a envoyé le dossier via la messagerie sécurisée.", "zh": "她通过加密邮件发送了资料。"},
+{"fr": "Le train passe via Lyon avant d'arriver à Marseille.", "zh": "火车先经过里昂，然后抵达马赛。"}
+],
+"vibration": [
+{"fr": "Les vibrations du sol ont fait trembler les vitres.", "zh": "地面的震动震得窗玻璃直响。"},
+{"fr": "Mets ton téléphone en mode vibration pendant la réunion.", "zh": "开会时把手机调成振动模式。"},
+{"fr": "Une légère vibration du moteur inquiète le conducteur.", "zh": "发动机轻微的震动让司机很担心。"}
+],
+"vice": [
+{"fr": "Son seul vice, c'est le chocolat.", "zh": "他唯一的嗜好就是巧克力。"},
+{"fr": "Le vice de construction explique ces fissures.", "zh": "建筑缺陷解释了这些裂缝的由来。"},
+{"fr": "Ce contrat comporte un vice de forme.", "zh": "这份合同在形式上有瑕疵。"}
+],
+"vice-président": [
+{"fr": "Le vice-président a représenté la société au sommet de Berlin.", "zh": "副总裁代表公司出席了柏林峰会。"},
+{"fr": "Elle a été élue vice-présidente de l'association.", "zh": "她当选为协会副主席。"},
+{"fr": "Le vice-président et le trésorier signent le rapport ensemble.", "zh": "副主席和财务主管共同签署报告。"}
+],
+"victime": [
+{"fr": "Les secours ont aidé les victimes de l'inondation.", "zh": "救援人员救助了洪灾的受灾者。"},
+{"fr": "Il se dit victime d'une erreur d'identification.", "zh": "他自称是身份误认的受害者。"},
+{"fr": "La victime de l'accident a été transportée à l'hôpital.", "zh": "事故伤者已被送往医院。"}
+],
+"victorieux": [
+{"fr": "Le général est rentré victorieux de sa campagne.", "zh": "将军凯旋而归。"},
+{"fr": "Ils sont repartis victorieux du tournoi régional.", "zh": "他们从地区锦标赛满载胜利而归。"},
+{"fr": "Le sportif victorieux a salué la foule d'un geste.", "zh": "获胜的运动员挥手向人群致意。"}
+],
+"vierge": [
+{"fr": "La forêt vierge abrite des espèces encore inconnues.", "zh": "原始森林里栖息着尚不为人知的物种。"},
+{"fr": "Une page vierge l'attendait au début du cahier.", "zh": "本子开头有一页空白等着他。"},
+{"fr": "Ces terres vierges seront cultivées l'an prochain.", "zh": "这些未开垦的土地明年将被耕种。"}
+],
+"vif": [
+{"fr": "Il a un esprit vif et beaucoup de repartie.", "zh": "他头脑敏捷，妙语如珠。"},
+{"fr": "Un vif débat a suivi la présentation du projet.", "zh": "项目介绍之后展开了热烈的讨论。"},
+{"fr": "Son instinct reste vif malgré son âge.", "zh": "尽管上了年纪，他的直觉依然敏锐。"}
+],
+"vigile": [
+{"fr": "Le vigile contrôle les sacs à l'entrée du magasin.", "zh": "保安在商店入口检查包裹。"},
+{"fr": "Un vigile patrouille dans le parking toute la nuit.", "zh": "一名保安整夜在停车场巡逻。"},
+{"fr": "Les vigiles du concert ont guidé la foule vers les sorties.", "zh": "演唱会的保安引导人群从出口散场。"}
+],
+"vigueur": [
+{"fr": "Malgré ses quatre-vingts ans, il jouit d'une grande vigueur.", "zh": "虽已八十高龄，他依然精力充沛。"},
+{"fr": "La nouvelle loi entre en vigueur le premier janvier.", "zh": "新法律于一月一日生效。"},
+{"fr": "Elle a défendu son projet avec vigueur.", "zh": "她有力地为自己的项目辩护。"}
+],
+"vilain": [
+{"fr": "Il a fait un vilain cauchemar cette nuit.", "zh": "昨夜他做了个可怕的噩梦。"},
+{"fr": "Ne fais pas le vilain avec ton petit frère.", "zh": "别跟弟弟捣乱。"},
+{"fr": "Le temps reste vilain toute la semaine.", "zh": "这周天气一直很糟糕。"}
+],
+"villageois": [
+{"fr": "Les villageois ont réparé le pont eux-mêmes.", "zh": "村民们自己动手修好了桥。"},
+{"fr": "Un villageois a donné l'alerte dès la première fumée.", "zh": "一冒烟，就有村民报了警。"},
+{"fr": "Le villageois de la dernière maison vend son propre miel.", "zh": "村口最后一户的村民卖自家产的蜂蜜。"}
+],
+"vingtaine": [
+{"fr": "Une vingtaine de personnes attendaient devant la préfecture.", "zh": "二十来个人在省政府门前等候。"},
+{"fr": "Ils ont planté une vingtaine d'arbres dans le parc.", "zh": "他们在公园里种了二十来棵树。"},
+{"fr": "La réunion a duré une vingtaine de minutes.", "zh": "会议开了二十来分钟。"}
+],
+"viol": [
+{"fr": "Le procès pour viol s'ouvre lundi au tribunal.", "zh": "强奸案周一在法院开庭审理。"},
+{"fr": "Les associations accompagnent les victimes de viol au quotidien.", "zh": "一些组织日常陪伴强奸案的受害幸存者。"},
+{"fr": "Le film aborde le viol avec une grande pudeur.", "zh": "影片以极为克制的方式涉及强暴题材。"}
+],
+"violemment": [
+{"fr": "La vague a frappé violemment la digue.", "zh": "海浪猛烈地拍打着防波堤。"},
+{"fr": "Il a réagi violemment à cette critique.", "zh": "他对这篇批评反应激烈。"},
+{"fr": "Les deux joueurs se sont heurtés violemment sur le terrain.", "zh": "两名球员在场上猛烈相撞。"}
+],
+"violer": [
+{"fr": "Cette entreprise a violé la loi sur la protection des données.", "zh": "这家公司违反了数据保护法。"},
+{"fr": "Violer un embargo entraîne des sanctions commerciales.", "zh": "违反禁运会招致贸易制裁。"},
+{"fr": "Le journal dénonce des droits violés pendant la crise.", "zh": "报纸揭露了危机期间遭到践踏的权利。"}
+],
+"violoniste": [
+{"fr": "La violoniste joue un solo magnifique dans le deuxième mouvement.", "zh": "女小提琴手在第二乐章演奏了精彩绝伦的独奏。"},
+{"fr": "Le violoniste accorde son instrument avant le concert.", "zh": "音乐会开始前，小提琴手给琴调音。"},
+{"fr": "Un jeune violoniste a remporté le concours international.", "zh": "一位年轻的小提琴手赢得了国际比赛。"}
+],
+"virer": [
+{"fr": "Le bateau a viré vers le port à cause du vent.", "zh": "因为刮风，船转向驶回港口。"},
+{"fr": "Il s'est fait virer pour des retards répétés.", "zh": "他因为屡次迟到被炒了鱿鱼。"},
+{"fr": "Je vais virer l'argent demain matin.", "zh": "我明天上午把钱转过去。"}
+],
+"virgule": [
+{"fr": "Attention à la virgule dans le prix : c'est trente euros cinquante.", "zh": "注意价格里的小数点：是三十欧元五十。"},
+{"fr": "Cette phrase est trop longue, ajoute une virgule.", "zh": "这句太长了，加个逗号。"},
+{"fr": "En anglais, la virgule décimale devient un point.", "zh": "英语里的小数逗号要写成点。"}
+],
+"virtuel": [
+{"fr": "Les élèves visitent le musée en réalité virtuelle.", "zh": "学生们通过虚拟现实参观博物馆。"},
+{"fr": "Une réunion virtuelle remplace le déplacement cette fois.", "zh": "这次用线上会议代替出差。"},
+{"fr": "Son monde virtuel le détache un peu de la réalité.", "zh": "他的虚拟世界让他和现实有些脱节。"}
+],
+"visa": [
+{"fr": "Il faut un visa pour travailler dans ce pays.", "zh": "在这个国家工作需要签证。"},
+{"fr": "Son visa touristique expire dans trois semaines.", "zh": "他的旅游签证三周后到期。"},
+{"fr": "La demande de visa peut désormais se faire en ligne.", "zh": "如今签证申请可以在线办理。"}
+],
+"viser": [
+{"fr": "Le joueur vise le coin gauche du but.", "zh": "球员瞄准球门左角。"},
+{"fr": "Ce programme vise surtout les jeunes diplômés.", "zh": "这个项目主要面向应届毕业生。"},
+{"fr": "Vise la qualité plutôt que la quantité.", "zh": "要追求质量，而不是数量。"}
+],
+"visible": [
+{"fr": "Du pont, le château est visible par temps clair.", "zh": "天气晴朗时，从桥上能看到那座城堡。"},
+{"fr": "Sa déception était visible malgré son sourire.", "zh": "尽管他在笑，失望还是写在脸上。"},
+{"fr": "Le panneau devient visible juste après le virage.", "zh": "指示牌在转弯后马上就能看见。"}
+],
+"vision": [
+{"fr": "Il a une vision claire de l'avenir de l'entreprise.", "zh": "他对公司的未来有着清晰的愿景。"},
+{"fr": "Sa vision s'est dégradée avec l'âge.", "zh": "随着年龄增长，他的视力下降了。"},
+{"fr": "Le rapport propose une nouvelle vision du transport urbain.", "zh": "报告提出了城市交通的新理念。"}
+],
+"vivement": [
+{"fr": "Vivement les vacances, on a tous besoin de repos !", "zh": "真盼望假期快点来，我们都需要休息！"},
+{"fr": "J'attends vivement la sortie du nouveau film.", "zh": "我热切期待新片上映。"},
+{"fr": "Il a vivement protesté contre cette décision.", "zh": "他强烈抗议这一决定。"}
+],
+"voeu": [
+{"fr": "Ils ont échangé leurs vœux devant la mairie.", "zh": "他们在市政厅互诉婚誓。"},
+{"fr": "Fais un vœu en soufflant les bougies.", "zh": "吹蜡烛时许个愿吧。"},
+{"fr": "Meilleurs vœux pour la nouvelle année à toute la famille !", "zh": "祝全家人新年万事如意！"}
+],
+"voie": [
+{"fr": "Notre train part de la voie sept.", "zh": "我们的列车从七号站台发车。"},
+{"fr": "Il a trouvé sa voie en devenant menuisier.", "zh": "他当了木匠，找到了自己的人生道路。"},
+{"fr": "Une nouvelle voie rapide contournera la ville.", "zh": "一条新的快速路将绕城而过。"}
+],
+"voile": [
+{"fr": "Elle a porté un voile blanc à la cérémonie.", "zh": "仪式上她戴着白色头纱。"},
+{"fr": "La voile du petit bateau claque dans le vent.", "zh": "小船的帆在风中啪啪作响。"},
+{"fr": "Les athlètes de voile s'entraînent sur le lac.", "zh": "帆船运动员在湖上训练。"}
+],
+"volaille": [
+{"fr": "Ce fermier élève ses volailles en plein air.", "zh": "这个农户散养家禽。"},
+{"fr": "La volaille doit être bien cuite pour éviter tout risque.", "zh": "禽肉必须彻底煮熟以避免风险。"},
+{"fr": "Le marché vend de la volaille fermière le samedi.", "zh": "周六市场上有农家散养的鸡鸭出售。"}
+],
+"volet": [
+{"fr": "Ferme les volets, le soleil tape trop fort.", "zh": "把百叶窗关上，太阳太晒了。"},
+{"fr": "Un nouveau volet du projet démarre en mars.", "zh": "项目的另一个板块三月份启动。"},
+{"fr": "Elle a peint les volets en bleu clair.", "zh": "她把百叶窗漆成了浅蓝色。"}
+],
+"volontaire": [
+{"fr": "Son engagement volontaire dans l'association dure depuis deux ans.", "zh": "她在这家协会做志愿者已经两年了。"},
+{"fr": "La participation à l'enquête reste volontaire.", "zh": "调查参与完全出于自愿。"},
+{"fr": "Des pompiers volontaires surveillent la forêt tout l'été.", "zh": "志愿消防员整个夏天都在守护森林。"}
+],
+"volontairement": [
+{"fr": "Elle a volontairement laissé la fenêtre ouverte pour aérer.", "zh": "她故意开着窗通风。"},
+{"fr": "Personne n'a endommagé la porte volontairement.", "zh": "没有人是故意弄坏那扇门的。"},
+{"fr": "Il s'est volontairement retiré de la course.", "zh": "他主动退出了比赛。"}
+],
+"volume": [
+{"fr": "Baisse le volume, les enfants dorment.", "zh": "把音量调低，孩子们在睡觉。"},
+{"fr": "Ce colis dépasse le volume autorisé en cabine.", "zh": "这件包裹超过了客舱允许的体积。"},
+{"fr": "Le deuxième volume de la saga sort en septembre.", "zh": "这套系列小说的第二卷九月出版。"}
+],
+"vomi": [
+{"fr": "Un chat a laissé du vomi sur le tapis du couloir.", "zh": "一只猫把吐的东西弄在了走廊地毯上。"},
+{"fr": "L'odeur de vomi près du bar a coupé l'appétit.", "zh": "酒吧边的呕吐物气味让人没了胃口。"},
+{"fr": "Elle a nettoyé le vomi du chien avant l'arrivée des invités.", "zh": "客人到之前，她把狗吐的东西清理干净了。"}
+],
+"vote": [
+{"fr": "Le vote des députés a eu lieu à main levée.", "zh": "议员们以举手方式进行表决。"},
+{"fr": "Le vote électronique sera testé lors des prochaines élections.", "zh": "电子投票将在下次选举中试用。"},
+{"fr": "Un vote à la majorité des deux tiers est nécessaire.", "zh": "需要三分之二多数表决通过。"}
+],
+"voyant": [
+{"fr": "Le voyant rouge de la chaudière clignote.", "zh": "锅炉上的红色指示灯在闪。"},
+{"fr": "Elle a consulté une voyante qui lui a prédit un voyage.", "zh": "她找占卜师算了一卦，对方预言她将有一趟旅行。"},
+{"fr": "Le voyant de la batterie s'allume dès que je démarre.", "zh": "我一发动，电瓶指示灯就亮。"}
+],
+"vu": [
+{"fr": "Vu la circulation, on va être en retard.", "zh": "鉴于路况，我们肯定要迟到了。"},
+{"fr": "Ce film est déjà vu, propose autre chose.", "zh": "这片子已经看过了，换个别的吧。"},
+{"fr": "Vu son âge, le voyage a été reporté.", "zh": "考虑到他的年纪，旅行推迟了。"}
+],
+"vue": [
+{"fr": "Du sommet, la vue sur la vallée est magnifique.", "zh": "从山顶俯瞰山谷，景色美极了。"},
+{"fr": "Il a encore une excellente vue de loin.", "zh": "他看远处依然视力极佳。"},
+{"fr": "Elle a changé de vue sur ce projet.", "zh": "她对这一项目的看法改变了。"}
+],
+"vulgaire": [
+{"fr": "Ses mots vulgaires ont choqué l'institutrice.", "zh": "他的粗话让女老师大为震惊。"},
+{"fr": "C'est une blague vulgaire, change de sujet.", "zh": "这个玩笑太俗了，换个话题。"},
+{"fr": "Il juge cette mode vulgaire et trop voyante.", "zh": "他觉得这股时尚粗俗又扎眼。"}
+],
+"véhicule": [
+{"fr": "Tout véhicule mal garé sera enlevé par la fourrière.", "zh": "违停车辆一律由拖车场拖走。"},
+{"fr": "Ce véhicule électrique consomme très peu.", "zh": "这辆电动车能耗很低。"},
+{"fr": "Les véhicules lourds ne peuvent pas emprunter ce pont.", "zh": "重型车辆禁止通行这座桥。"}
+],
+"vérification": [
+{"fr": "Une vérification des comptes aura lieu en mai.", "zh": "五月份将对账目进行核查。"},
+{"fr": "Après vérification, le billet s'est révélé authentique.", "zh": "经核实，那张票是真的。"},
+{"fr": "La vérification des réponses ne prend que quelques secondes.", "zh": "核对答案只需要几秒钟。"}
+],
+"vétéran": [
+{"fr": "Ce vétéran de la guerre raconte son histoire aux collégiens.", "zh": "这位老兵向中学生讲述自己的经历。"},
+{"fr": "Les vétérans du club forment les nouveaux arrivants.", "zh": "俱乐部的老队员带教新来的成员。"},
+{"fr": "Un vétéran du rallye lui a donné de précieux conseils.", "zh": "一位拉力赛老手给了他宝贵的建议。"}
+],
+"yen": [
+{"fr": "Le voyage au Japon lui a coûté deux cent mille yens.", "zh": "日本之行花了他二十万日元。"},
+{"fr": "Le yen s'est déprécié face à l'euro cette année.", "zh": "今年日元对欧元贬值了。"},
+{"fr": "Elle a changé des euros en yens avant le départ.", "zh": "出发前她把欧元换成了日元。"}
+],
+"zapper": [
+{"fr": "Arrête de zapper, choisis enfin une chaîne !", "zh": "别再不停换台了，赶紧选定一个台吧！"},
+{"fr": "Il zappe les publicités avec la télécommande.", "zh": "他用遥控器跳过广告。"},
+{"fr": "On a zappé la deuxième partie du concert pour éviter la foule.", "zh": "为了避开人流，我们跳过了演唱会下半场。"}
+],
+"zombie": [
+{"fr": "Les enfants déguisés en zombies ont envahi la cour pour Halloween.", "zh": "万圣节时，扮成僵尸的孩子们涌进了院子。"},
+{"fr": "Ce film de zombies fait peur sans être insupportable.", "zh": "这部僵尸片够吓人，但还不至于受不了。"},
+{"fr": "Après sa nuit blanche, il marchait comme un zombie.", "zh": "熬了个通宵后，他走路像具行尸走肉。"}
+],
+"zoom": [
+{"fr": "Fais un zoom sur la carte pour voir le détail.", "zh": "把地图放大，看看细节。"},
+{"fr": "Le zoom de cet appareil photo est impressionnant.", "zh": "这台相机的变焦功能很了得。"},
+{"fr": "En zoom arrière, on découvre tout le tableau.", "zh": "缩小画面后，整幅画尽收眼底。"}
+],
+"à l'improviste": [
+{"fr": "Il est passé à l'improviste hier soir, quelle surprise !", "zh": "他昨晚突然登门，真让人惊喜！"},
+{"fr": "La panne est survenue à l'improviste sur l'autoroute.", "zh": "故障在高速公路上说来就来。"},
+{"fr": "Nos amis ont annoncé leur visite à l'improviste.", "zh": "朋友们出其不意地宣布要来串门。"}
+],
+"ère": [
+{"fr": "L'ère numérique a changé toutes nos habitudes.", "zh": "数字时代改变了我们的一切习惯。"},
+{"fr": "Cette découverte ouvre une nouvelle ère en médecine.", "zh": "这一发现开启了医学的新纪元。"},
+{"fr": "Au début de l'ère industrielle, les villes ont grossi très vite.", "zh": "工业时代初期，城市膨胀得非常快。"}
+],
+"écart": [
+{"fr": "Il y a un grand écart entre les deux propositions de salaire.", "zh": "两份薪资方案差距很大。"},
+{"fr": "L'écart entre les riches et les pauvres continue de se creuser.", "zh": "贫富差距还在不断拉大。"},
+{"fr": "Garde un écart de deux mètres avec le véhicule devant toi.", "zh": "与前方车辆保持两米车距。"}
+],
+"écarter": [
+{"fr": "Écarte les rideaux, il fait encore tout noir.", "zh": "把窗帘拉开，屋里还黑着呢。"},
+{"fr": "L'enquête a écarté la thèse d'un accident.", "zh": "调查排除了事故的说法。"},
+{"fr": "Il a été écarté du projet à cause du conflit.", "zh": "由于那次冲突，他被排挤出了项目组。"}
+],
+"échapper": [
+{"fr": "Le lapin a réussi à échapper au renard.", "zh": "兔子成功逃脱了狐狸的追捕。"},
+{"fr": "Ce sujet m'échappe complètement, explique encore.", "zh": "这个话题我完全没懂，再讲讲。"},
+{"fr": "Ce détail m'avait échappé, merci de l'avoir remarqué.", "zh": "这个细节我漏掉了，幸好你注意到了。"}
+],
+"échec": [
+{"fr": "Son premier restaurant s'est soldé par un échec.", "zh": "他的第一家餐厅以失败告终。"},
+{"fr": "Il tire les leçons de ses échecs passés.", "zh": "他从过去的失败中吸取教训。"},
+{"fr": "Malgré cet échec, elle retente le concours l'année prochaine.", "zh": "尽管这次失利，明年她还要再考一次。"}
+],
+"échouer": [
+{"fr": "Le projet a échoué faute de financements suffisants.", "zh": "由于资金不足，项目失败了。"},
+{"fr": "Il a échoué de justesse à l'examen d'entrée.", "zh": "他入学考试差了一点没过。"},
+{"fr": "Une baleine s'est échouée sur la plage ce matin.", "zh": "今天早上，一头鲸鱼搁浅在海滩上。"}
+],
+"éclairage": [
+{"fr": "L'éclairage du salon est trop faible pour lire.", "zh": "客厅的灯光太暗，没法看书。"},
+{"fr": "Un nouvel éclairage public sera installé rue des Lilas.", "zh": "丁香花街将安装新的路灯。"},
+{"fr": "Le reportage apporte un éclairage nouveau sur cette affaire.", "zh": "这篇报道为此案提供了新的审视角度。"}
+],
+"éclairer": [
+{"fr": "La lune éclaire faiblement le chemin de terre.", "zh": "月光微弱地照亮着土路。"},
+{"fr": "Deux grandes lampes éclairent l'atelier du sculpteur.", "zh": "两盏大灯照亮雕塑家的工作室。"},
+{"fr": "Ce témoignage a éclairé l'enquête d'un jour nouveau.", "zh": "这份证词让调查豁然开朗。"}
+],
+"économie": [
+{"fr": "L'économie française repart après deux années difficiles.", "zh": "经过艰难的两年，法国经济开始复苏。"},
+{"fr": "Elle a fait une économie de vingt euros en comparant les prix.", "zh": "她比价之后省下了二十欧元。"},
+{"fr": "La crise a frappé l'économie mondiale de plein fouet.", "zh": "危机给世界经济以沉重打击。"}
+],
+"écraser": [
+{"fr": "Ne marche pas là, tu vas écraser les fleurs.", "zh": "别踩那儿，你会把花压坏的。"},
+{"fr": "Il a écrasé une mouche sur la table avec un journal.", "zh": "他用报纸把桌上的苍蝇拍死了。"},
+{"fr": "L'équipe a écrasé son adversaire cinq buts à zéro.", "zh": "球队以五比零横扫对手。"}
+],
+"écrit": [
+{"fr": "Tout accord doit être confirmé par écrit.", "zh": "一切协议都必须以书面形式确认。"},
+{"fr": "Ses écrits sur la ville ont marqué toute une génération.", "zh": "他关于这座城的著述影响了整整一代人。"},
+{"fr": "Privilégier l'écrit permet d'éviter les malentendus.", "zh": "优先采用书面形式能避免误会。"}
+],
+"écriture": [
+{"fr": "Son écriture penche nettement vers la droite.", "zh": "他的笔迹明显向右倾斜。"},
+{"fr": "L'écriture de ce roman lui a pris quatre ans.", "zh": "写这部小说花了他四年时间。"},
+{"fr": "Les enfants apprennent l'écriture cursive dès la première classe.", "zh": "孩子们从一年级开始学连笔书写。"}
+]
+}

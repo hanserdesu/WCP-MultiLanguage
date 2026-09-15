@@ -1,0 +1,21 @@
+{
+  "version": "wcp-es-resources-v1.0.0",
+  "built": "2026-09-15 10:09:32",
+  "base_urls": [
+    "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-es-resources-v1.0.0"
+  ],
+  "assets": [
+    {
+      "kind": "word_audio",
+      "name": "wcp-spanish-audio-words.zip",
+      "size": 87111574,
+      "sha256": "c3846436179c4561191f24260f70ee9e236e844eb0664f44d421995d501eeab2"
+    },
+    {
+      "kind": "sentence_audio",
+      "name": "wcp-spanish-audio-sentences.zip",
+      "size": 601974614,
+      "sha256": "260bc2d0c326586a9d8c213e278d55d5f02b7c0846c50642890ae6bfd7c205a9"
+    }
+  ]
+}

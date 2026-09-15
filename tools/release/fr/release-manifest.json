@@ -1,0 +1,21 @@
+{
+  "version": "wcp-fr-resources-v1.0.0",
+  "built": "2026-09-15 10:09:32",
+  "base_urls": [
+    "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-fr-resources-v1.0.0"
+  ],
+  "assets": [
+    {
+      "kind": "word_audio",
+      "name": "wcp-french-audio-words.zip",
+      "size": 79901354,
+      "sha256": "a0714473a7e7bc7ca736ef5d7004cf5783ce00c6c16436ee296b2e817687e3d0"
+    },
+    {
+      "kind": "sentence_audio",
+      "name": "wcp-french-audio-sentences.zip",
+      "size": 535068278,
+      "sha256": "d661ba183014c5a26747885468305d28546f5dc4c5ba54fb37ad8f713c49e0e5"
+    }
+  ]
+}

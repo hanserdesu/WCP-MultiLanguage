@@ -1,0 +1,602 @@
+[
+{
+"word": "réconcilier",
+"pos": "v.",
+"zh": "使和解；调解",
+"level": "b2"
+},
+{
+"word": "réconfort",
+"pos": "n.m.",
+"zh": "安慰；鼓舞",
+"level": "b2"
+},
+{
+"word": "réconforter",
+"pos": "v.",
+"zh": "安慰；鼓舞",
+"level": "b2"
+},
+{
+"word": "rédemption",
+"pos": "n.f.",
+"zh": "救赎",
+"level": "b2"
+},
+{
+"word": "réfugier",
+"pos": "v.",
+"zh": "避难；躲藏",
+"level": "b2"
+},
+{
+"word": "référer",
+"pos": "v.",
+"zh": "参照；援引",
+"level": "b2"
+},
+{
+"word": "régal",
+"pos": "n.m.",
+"zh": "享受；乐趣",
+"level": "b2"
+},
+{
+"word": "régaler",
+"pos": "v.",
+"zh": "款待；使享口福",
+"level": "b2"
+},
+{
+"word": "régiment",
+"pos": "n.m.",
+"zh": "团（军队编制）",
+"level": "b2"
+},
+{
+"word": "régir",
+"pos": "v.",
+"zh": "管辖；支配",
+"level": "b2"
+},
+{
+"word": "réglo",
+"pos": "adj.",
+"zh": "守规矩的；正派的（口语）",
+"level": "b2"
+},
+{
+"word": "réglé",
+"pos": "adj.",
+"zh": "有规律的；调准的",
+"level": "b2"
+},
+{
+"word": "réintégrer",
+"pos": "v.",
+"zh": "使重返；复职",
+"level": "b2"
+},
+{
+"word": "répertoire",
+"pos": "n.m.",
+"zh": "保留剧目；目录（计算机）",
+"level": "b2"
+},
+{
+"word": "répit",
+"pos": "n.m.",
+"zh": "喘息；暂缓",
+"level": "b2"
+},
+{
+"word": "répression",
+"pos": "n.f.",
+"zh": "镇压",
+"level": "b2"
+},
+{
+"word": "réprimer",
+"pos": "v.",
+"zh": "镇压；抑制",
+"level": "b2"
+},
+{
+"word": "répugnant",
+"pos": "adj.",
+"zh": "令人反感的",
+"level": "b2"
+},
+{
+"word": "répugner",
+"pos": "v.",
+"zh": "令人厌恶；使反感",
+"level": "b2"
+},
+{
+"word": "résider",
+"pos": "v.",
+"zh": "居住；存在于",
+"level": "b2"
+},
+{
+"word": "résidu",
+"pos": "n.m.",
+"zh": "残渣；残余",
+"level": "b2"
+},
+{
+"word": "résigner",
+"pos": "v.",
+"zh": "使顺从；甘心接受",
+"level": "b2"
+},
+{
+"word": "résolu",
+"pos": "adj.",
+"zh": "坚决的；已解决的",
+"level": "b2"
+},
+{
+"word": "résulter",
+"pos": "v.",
+"zh": "由……产生；是……的结果",
+"level": "b2"
+},
+{
+"word": "résurrection",
+"pos": "n.f.",
+"zh": "复活；复兴",
+"level": "b2"
+},
+{
+"word": "rétablir",
+"pos": "v.",
+"zh": "恢复；使复原",
+"level": "b2"
+},
+{
+"word": "réveillon",
+"pos": "n.m.",
+"zh": "守夜晚宴（圣诞/新年）",
+"level": "b2"
+},
+{
+"word": "révolte",
+"pos": "n.f.",
+"zh": "反抗；起义",
+"level": "b2"
+},
+{
+"word": "révolu",
+"pos": "adj.",
+"zh": "已结束的；一去不返的",
+"level": "b2"
+},
+{
+"word": "révérence",
+"pos": "n.f.",
+"zh": "屈膝礼；敬意",
+"level": "b2"
+},
+{
+"word": "révérend",
+"pos": "n.m.",
+"zh": "尊者（教士尊称）",
+"level": "b2"
+},
+{
+"word": "rééducation",
+"pos": "n.f.",
+"zh": "康复治疗；再教育",
+"level": "b2"
+},
+{
+"word": "rêne",
+"pos": "n.f.",
+"zh": "缰绳",
+"level": "b2"
+},
+{
+"word": "rôder",
+"pos": "v.",
+"zh": "游荡；徘徊",
+"level": "b2"
+},
+{
+"word": "sabot",
+"pos": "n.m.",
+"zh": "木鞋；蹄壳",
+"level": "b2"
+},
+{
+"word": "saboter",
+"pos": "v.",
+"zh": "蓄意破坏；搞砸",
+"level": "b2"
+},
+{
+"word": "sabre",
+"pos": "n.m.",
+"zh": "军刀；马刀",
+"level": "b2"
+},
+{
+"word": "saccager",
+"pos": "v.",
+"zh": "洗劫；捣毁",
+"level": "b2"
+},
+{
+"word": "sacoche",
+"pos": "n.f.",
+"zh": "挎包；小袋",
+"level": "b2"
+},
+{
+"word": "sacrement",
+"pos": "n.m.",
+"zh": "圣事；圣礼",
+"level": "b2"
+},
+{
+"word": "sacrer",
+"pos": "v.",
+"zh": "加冕；咒骂",
+"level": "b2"
+},
+{
+"word": "sacrément",
+"pos": "adv.",
+"zh": "非常；极其（口语）",
+"level": "b2"
+},
+{
+"word": "sadique",
+"pos": "n.",
+"zh": "虐待狂",
+"level": "b2"
+},
+{
+"word": "saignement",
+"pos": "n.m.",
+"zh": "出血",
+"level": "b2"
+},
+{
+"word": "sainteté",
+"pos": "n.f.",
+"zh": "圣洁；神圣",
+"level": "b2"
+},
+{
+"word": "saisie",
+"pos": "n.f.",
+"zh": "扣押；没收；（数据）录入",
+"level": "b2"
+},
+{
+"word": "saké",
+"pos": "n.m.",
+"zh": "清酒",
+"level": "b2"
+},
+{
+"word": "salement",
+"pos": "adv.",
+"zh": "肮脏地；非常（口语）",
+"level": "b2"
+},
+{
+"word": "saligaud",
+"pos": "n.m.",
+"zh": "脏鬼；下流坯",
+"level": "b2"
+},
+{
+"word": "salir",
+"pos": "v.",
+"zh": "弄脏；玷污",
+"level": "b2"
+},
+{
+"word": "saloon",
+"pos": "n.m.",
+"zh": "（西部）酒馆",
+"level": "b2"
+},
+{
+"word": "salope",
+"pos": "n.f.",
+"zh": "婊子；荡妇（侮辱语）",
+"level": "b2"
+},
+{
+"word": "saloperie",
+"pos": "n.f.",
+"zh": "脏话；破烂货（粗俗）",
+"level": "b2"
+},
+{
+"word": "salutation",
+"pos": "n.f.",
+"zh": "致意；问候",
+"level": "b2"
+},
+{
+"word": "samba",
+"pos": "n.f.",
+"zh": "桑巴舞",
+"level": "b2"
+},
+{
+"word": "sanctuaire",
+"pos": "n.m.",
+"zh": "圣所；庇护所",
+"level": "b2"
+},
+{
+"word": "sang-froid",
+"pos": "n.m.",
+"zh": "冷静；沉着",
+"level": "b2"
+},
+{
+"word": "sanglant",
+"pos": "adj.",
+"zh": "血淋淋的；血腥的",
+"level": "b2"
+},
+{
+"word": "sanglier",
+"pos": "n.m.",
+"zh": "野猪",
+"level": "b2"
+},
+{
+"word": "sanglot",
+"pos": "n.m.",
+"zh": "呜咽；啜泣",
+"level": "b2"
+},
+{
+"word": "sangloter",
+"pos": "v.",
+"zh": "抽泣；呜咽",
+"level": "b2"
+},
+{
+"word": "sanguinaire",
+"pos": "adj.",
+"zh": "嗜血的；血腥的",
+"level": "b2"
+},
+{
+"word": "saouler",
+"pos": "v.",
+"zh": "灌醉；使厌烦",
+"level": "b2"
+},
+{
+"word": "saper",
+"pos": "v.",
+"zh": "削弱；动摇",
+"level": "b2"
+},
+{
+"word": "sapin",
+"pos": "n.m.",
+"zh": "冷杉；枞树",
+"level": "b2"
+},
+{
+"word": "sarcasme",
+"pos": "n.m.",
+"zh": "讽刺；挖苦",
+"level": "b2"
+},
+{
+"word": "sarcastique",
+"pos": "adj.",
+"zh": "讽刺的；挖苦的",
+"level": "b2"
+},
+{
+"word": "sarcophage",
+"pos": "n.m.",
+"zh": "石棺",
+"level": "b2"
+},
+{
+"word": "sas",
+"pos": "n.m.",
+"zh": "气闸；缓冲区",
+"level": "b2"
+},
+{
+"word": "satanique",
+"pos": "adj.",
+"zh": "撒旦的；邪恶的",
+"level": "b2"
+},
+{
+"word": "satané",
+"pos": "adj.",
+"zh": "该死的",
+"level": "b2"
+},
+{
+"word": "satin",
+"pos": "n.m.",
+"zh": "缎子",
+"level": "b2"
+},
+{
+"word": "sauveur",
+"pos": "n.m.",
+"zh": "救星；救世主",
+"level": "b2"
+},
+{
+"word": "sceau",
+"pos": "n.m.",
+"zh": "印章；封印",
+"level": "b2"
+},
+{
+"word": "sceller",
+"pos": "v.",
+"zh": "封合；注定",
+"level": "b2"
+},
+{
+"word": "sceptique",
+"pos": "adj.",
+"zh": "怀疑的；将信将疑的",
+"level": "b2"
+},
+{
+"word": "scier",
+"pos": "v.",
+"zh": "锯；锯开",
+"level": "b2"
+},
+{
+"word": "scoop",
+"pos": "n.m.",
+"zh": "独家新闻",
+"level": "b2"
+},
+{
+"word": "scotch",
+"pos": "n.m.",
+"zh": "胶带；苏格兰威士忌",
+"level": "b2"
+},
+{
+"word": "scout",
+"pos": "n.m.",
+"zh": "童子军",
+"level": "b2"
+},
+{
+"word": "script",
+"pos": "n.m.",
+"zh": "剧本；脚本",
+"level": "b2"
+},
+{
+"word": "scrupule",
+"pos": "n.m.",
+"zh": "顾虑；顾忌",
+"level": "b2"
+},
+{
+"word": "scruter",
+"pos": "v.",
+"zh": "细察；探究",
+"level": "b2"
+},
+{
+"word": "secourir",
+"pos": "v.",
+"zh": "救助；援救",
+"level": "b2"
+},
+{
+"word": "secousse",
+"pos": "n.f.",
+"zh": "震动；摇晃",
+"level": "b2"
+},
+{
+"word": "semence",
+"pos": "n.f.",
+"zh": "种子",
+"level": "b2"
+},
+{
+"word": "sensationnel",
+"pos": "adj.",
+"zh": "轰动的；极棒的",
+"level": "b2"
+},
+{
+"word": "sensuel",
+"pos": "adj.",
+"zh": "感官的；撩人的",
+"level": "b2"
+},
+{
+"word": "sentence",
+"pos": "n.f.",
+"zh": "判决；裁决",
+"level": "b2"
+},
+{
+"word": "sentinelle",
+"pos": "n.f.",
+"zh": "哨兵；岗哨",
+"level": "b2"
+},
+{
+"word": "serein",
+"pos": "adj.",
+"zh": "安详的；平静的",
+"level": "b2"
+},
+{
+"word": "sermon",
+"pos": "n.m.",
+"zh": "布道；训诫",
+"level": "b2"
+},
+{
+"word": "serre",
+"pos": "n.f.",
+"zh": "温室；爪",
+"level": "b2"
+},
+{
+"word": "serviteur",
+"pos": "n.m.",
+"zh": "仆人",
+"level": "b2"
+},
+{
+"word": "seuil",
+"pos": "n.m.",
+"zh": "门槛；界限",
+"level": "b2"
+},
+{
+"word": "sexuellement",
+"pos": "adv.",
+"zh": "性方面地",
+"level": "b2"
+},
+{
+"word": "sheriff",
+"pos": "n.m.",
+"zh": "治安官；警长",
+"level": "b2"
+},
+{
+"word": "sherry",
+"pos": "n.m.",
+"zh": "雪利酒",
+"level": "b2"
+},
+{
+"word": "shit",
+"pos": "n.m.",
+"zh": "大麻（俚语）",
+"level": "b2"
+},
+{
+"word": "shooter",
+"pos": "v.",
+"zh": "射门；开枪（口语）",
+"level": "b2"
+}
+]

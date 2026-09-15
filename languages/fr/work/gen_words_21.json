@@ -1,0 +1,602 @@
+[
+{
+"word": "privé",
+"pos": "adj.",
+"zh": "私人的；私营的",
+"level": "a2"
+},
+{
+"word": "probable",
+"pos": "adj.",
+"zh": "很可能的",
+"level": "a2"
+},
+{
+"word": "probablement",
+"pos": "adv.",
+"zh": "大概；很可能",
+"level": "a2"
+},
+{
+"word": "proche",
+"pos": "adj.",
+"zh": "近的；亲近的",
+"level": "a2"
+},
+{
+"word": "produit",
+"pos": "n.m.",
+"zh": "产品；产物",
+"level": "a2"
+},
+{
+"word": "prof",
+"pos": "n.",
+"zh": "老师（口语）",
+"level": "a2"
+},
+{
+"word": "professionnel",
+"pos": "adj.",
+"zh": "专业的；职业的",
+"level": "a2"
+},
+{
+"word": "profond",
+"pos": "adj.",
+"zh": "深的；深刻的",
+"level": "a2"
+},
+{
+"word": "programme",
+"pos": "n.m.",
+"zh": "计划；节目；程序",
+"level": "a2"
+},
+{
+"word": "progrès",
+"pos": "n.m.",
+"zh": "进步",
+"level": "a2"
+},
+{
+"word": "projet",
+"pos": "n.m.",
+"zh": "计划；项目；方案",
+"level": "a2"
+},
+{
+"word": "promenade",
+"pos": "n.f.",
+"zh": "散步",
+"level": "a2"
+},
+{
+"word": "promesse",
+"pos": "n.f.",
+"zh": "诺言；承诺",
+"level": "a2"
+},
+{
+"word": "promettre",
+"pos": "v.",
+"zh": "答应；承诺",
+"level": "a2"
+},
+{
+"word": "proposer",
+"pos": "v.",
+"zh": "建议；提议；提出",
+"level": "a2"
+},
+{
+"word": "propreté",
+"pos": "n.f.",
+"zh": "清洁；整洁",
+"level": "a2"
+},
+{
+"word": "propriétaire",
+"pos": "n.",
+"zh": "业主；房东；所有者",
+"level": "a2"
+},
+{
+"word": "protection",
+"pos": "n.f.",
+"zh": "保护；防护",
+"level": "a2"
+},
+{
+"word": "protéger",
+"pos": "v.",
+"zh": "保护；防护",
+"level": "a2"
+},
+{
+"word": "prudent",
+"pos": "adj.",
+"zh": "谨慎的；小心的",
+"level": "a2"
+},
+{
+"word": "prune",
+"pos": "n.f.",
+"zh": "李子；西梅",
+"level": "a2"
+},
+{
+"word": "près de",
+"pos": "adv.",
+"zh": "将近；大约；在附近",
+"level": "a2"
+},
+{
+"word": "pré",
+"pos": "n.m.",
+"zh": "草地；牧场",
+"level": "a2"
+},
+{
+"word": "précis",
+"pos": "adj.",
+"zh": "确切的；精确的",
+"level": "a2"
+},
+{
+"word": "préparation",
+"pos": "n.f.",
+"zh": "准备；制作",
+"level": "a2"
+},
+{
+"word": "présence",
+"pos": "n.f.",
+"zh": "在场；出席",
+"level": "a2"
+},
+{
+"word": "présent",
+"pos": "n.m.",
+"zh": "现在；目前；礼品（旧）",
+"level": "a2"
+},
+{
+"word": "président",
+"pos": "n.m.",
+"zh": "总统；主席",
+"level": "a2"
+},
+{
+"word": "prévenir",
+"pos": "v.",
+"zh": "通知；提醒；预防",
+"level": "a2"
+},
+{
+"word": "prêter",
+"pos": "v.",
+"zh": "借出；借给",
+"level": "a2"
+},
+{
+"word": "pub",
+"pos": "n.",
+"zh": "广告（口语）",
+"level": "a2"
+},
+{
+"word": "public",
+"pos": "n.m.",
+"zh": "公众；观众",
+"level": "a2"
+},
+{
+"word": "publicité",
+"pos": "n.f.",
+"zh": "广告",
+"level": "a2"
+},
+{
+"word": "pudding",
+"pos": "n.m.",
+"zh": "布丁",
+"level": "a2"
+},
+{
+"word": "puisque",
+"pos": "conj.",
+"zh": "既然",
+"level": "a2"
+},
+{
+"word": "puissant",
+"pos": "adj.",
+"zh": "强大的；有权势的",
+"level": "a2"
+},
+{
+"word": "puits",
+"pos": "n.m.",
+"zh": "井；水井",
+"level": "a2"
+},
+{
+"word": "pull",
+"pos": "n.m.",
+"zh": "套头毛衣",
+"level": "a2"
+},
+{
+"word": "punir",
+"pos": "v.",
+"zh": "惩罚",
+"level": "a2"
+},
+{
+"word": "punition",
+"pos": "n.f.",
+"zh": "惩罚；处罚",
+"level": "a2"
+},
+{
+"word": "pyjama",
+"pos": "n.m.",
+"zh": "睡衣裤",
+"level": "a2"
+},
+{
+"word": "pâtisserie",
+"pos": "n.f.",
+"zh": "糕点；糕点店",
+"level": "a2"
+},
+{
+"word": "période",
+"pos": "n.f.",
+"zh": "时期；阶段",
+"level": "a2"
+},
+{
+"word": "pêche",
+"pos": "n.f.",
+"zh": "桃子；捕鱼",
+"level": "a2"
+},
+{
+"word": "pêcher",
+"pos": "v.",
+"zh": "钓鱼；捕鱼",
+"level": "a2"
+},
+{
+"word": "pêcheur",
+"pos": "n.m.",
+"zh": "渔夫；钓鱼者",
+"level": "a2"
+},
+{
+"word": "quai",
+"pos": "n.m.",
+"zh": "站台；码头",
+"level": "a2"
+},
+{
+"word": "qualité",
+"pos": "n.f.",
+"zh": "质量；品质",
+"level": "a2"
+},
+{
+"word": "quantité",
+"pos": "n.f.",
+"zh": "数量；大量",
+"level": "a2"
+},
+{
+"word": "quart",
+"pos": "n.m.",
+"zh": "四分之一；一刻钟",
+"level": "a2"
+},
+{
+"word": "quartier",
+"pos": "n.m.",
+"zh": "街区；居住区",
+"level": "a2"
+},
+{
+"word": "quelquefois",
+"pos": "adv.",
+"zh": "有时",
+"level": "a2"
+},
+{
+"word": "quelques-unes",
+"pos": "pron.",
+"zh": "几个；一些（阴性复数）",
+"level": "a2"
+},
+{
+"word": "quelques-uns",
+"pos": "pron.",
+"zh": "几个；一些人",
+"level": "a2"
+},
+{
+"word": "queue",
+"pos": "n.f.",
+"zh": "尾巴；队列",
+"level": "a2"
+},
+{
+"word": "quitter",
+"pos": "v.",
+"zh": "离开；告别",
+"level": "a2"
+},
+{
+"word": "racine",
+"pos": "n.f.",
+"zh": "根；词根",
+"level": "a2"
+},
+{
+"word": "raconter",
+"pos": "v.",
+"zh": "讲述；叙述",
+"level": "a2"
+},
+{
+"word": "radar",
+"pos": "n.m.",
+"zh": "雷达",
+"level": "a2"
+},
+{
+"word": "radiateur",
+"pos": "n.m.",
+"zh": "暖气片；散热器",
+"level": "a2"
+},
+{
+"word": "raide",
+"pos": "adj.",
+"zh": "僵直的；陡的",
+"level": "a2"
+},
+{
+"word": "raisin",
+"pos": "n.m.",
+"zh": "葡萄",
+"level": "a2"
+},
+{
+"word": "raison",
+"pos": "n.f.",
+"zh": "理由；道理",
+"level": "a2"
+},
+{
+"word": "rajouter",
+"pos": "v.",
+"zh": "再加；补充",
+"level": "a2"
+},
+{
+"word": "ralentir",
+"pos": "v.",
+"zh": "减速；放慢",
+"level": "a2"
+},
+{
+"word": "ramasser",
+"pos": "v.",
+"zh": "捡起；收集",
+"level": "a2"
+},
+{
+"word": "ramener",
+"pos": "v.",
+"zh": "带回；送回",
+"level": "a2"
+},
+{
+"word": "randonnée",
+"pos": "n.f.",
+"zh": "远足；徒步旅行",
+"level": "a2"
+},
+{
+"word": "rang",
+"pos": "n.m.",
+"zh": "排；行列；等级",
+"level": "a2"
+},
+{
+"word": "ranger",
+"pos": "v.",
+"zh": "整理；归置",
+"level": "a2"
+},
+{
+"word": "rangé",
+"pos": "adj.",
+"zh": "整齐的；规矩的",
+"level": "a2"
+},
+{
+"word": "rangée",
+"pos": "n.f.",
+"zh": "一排；一列",
+"level": "a2"
+},
+{
+"word": "rapidement",
+"pos": "adv.",
+"zh": "快速地",
+"level": "a2"
+},
+{
+"word": "rappeler",
+"pos": "v.",
+"zh": "使想起；提醒；回电话",
+"level": "a2"
+},
+{
+"word": "rapport",
+"pos": "n.m.",
+"zh": "报告；关系；比率",
+"level": "a2"
+},
+{
+"word": "rapporter",
+"pos": "v.",
+"zh": "带回；汇报",
+"level": "a2"
+},
+{
+"word": "rare",
+"pos": "adj.",
+"zh": "稀少的；罕见的",
+"level": "a2"
+},
+{
+"word": "rarement",
+"pos": "adv.",
+"zh": "很少；难得",
+"level": "a2"
+},
+{
+"word": "raser",
+"pos": "v.",
+"zh": "剃；刮",
+"level": "a2"
+},
+{
+"word": "rasoir",
+"pos": "n.m.",
+"zh": "剃刀；剃须刀",
+"level": "a2"
+},
+{
+"word": "rat",
+"pos": "n.m.",
+"zh": "老鼠",
+"level": "a2"
+},
+{
+"word": "rater",
+"pos": "v.",
+"zh": "错过；搞砸；没打中",
+"level": "a2"
+},
+{
+"word": "rattraper",
+"pos": "v.",
+"zh": "追上；弥补",
+"level": "a2"
+},
+{
+"word": "ravi",
+"pos": "adj.",
+"zh": "高兴的；很乐意的",
+"level": "a2"
+},
+{
+"word": "recette",
+"pos": "n.f.",
+"zh": "食谱；收入",
+"level": "a2"
+},
+{
+"word": "recevoir",
+"pos": "v.",
+"zh": "收到；接待",
+"level": "a2"
+},
+{
+"word": "recharger",
+"pos": "v.",
+"zh": "充电；重新装填",
+"level": "a2"
+},
+{
+"word": "rechercher",
+"pos": "v.",
+"zh": "寻找；追求",
+"level": "a2"
+},
+{
+"word": "recommander",
+"pos": "v.",
+"zh": "推荐；建议",
+"level": "a2"
+},
+{
+"word": "recommencer",
+"pos": "v.",
+"zh": "重新开始；重来",
+"level": "a2"
+},
+{
+"word": "reconnaître",
+"pos": "v.",
+"zh": "认出；承认",
+"level": "a2"
+},
+{
+"word": "record",
+"pos": "n.m.",
+"zh": "纪录",
+"level": "a2"
+},
+{
+"word": "reculer",
+"pos": "v.",
+"zh": "后退；推迟",
+"level": "a2"
+},
+{
+"word": "redemander",
+"pos": "v.",
+"zh": "再要；再问",
+"level": "a2"
+},
+{
+"word": "refaire",
+"pos": "v.",
+"zh": "重做；再做",
+"level": "a2"
+},
+{
+"word": "refermer",
+"pos": "v.",
+"zh": "再关上；合上",
+"level": "a2"
+},
+{
+"word": "refuser",
+"pos": "v.",
+"zh": "拒绝",
+"level": "a2"
+},
+{
+"word": "regretter",
+"pos": "v.",
+"zh": "遗憾；懊悔",
+"level": "a2"
+},
+{
+"word": "rein",
+"pos": "n.m.",
+"zh": "肾脏",
+"level": "a2"
+},
+{
+"word": "reine",
+"pos": "n.f.",
+"zh": "王后；女王",
+"level": "a2"
+}
+]

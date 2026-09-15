@@ -1,0 +1,305 @@
+﻿word,reading,meaning_en,pos,common
+寡占,かせん,oligopoly,"n,vs,vt",True
+供給,きょうきゅう,supply,n,True
+恐慌,きょうこう,panic,n,True
+手形,てがた,draft,n,True
+需要,じゅよう,demand,n,True
+叩き,たたき,springboard for discussion,n,True
+暖簾,のれん,goodwill,n,True
+展開,てんかい,sharing (information),"n,vs,vt",True
+離反,りはん,(customer) churn,n,True
+タイト,,tight (supply and demand),"adj-na,n",True
+フロー,,flow (period of time economic quantity),n,True
+プール,,pool (price ring),n,True
+購買力,こうばいりょく,buying power,n,True
+消費者,しょうひしゃ,"consumer (of a product, service, etc.)",n,True
+生産者,せいさんしゃ,producer,n,True
+即戦力,そくせんりょく,ready fire-power,n,True
+カルテル,,cartel,n,True
+ストック,,stock (point-in-time economic quantity),n,True
+物価指数,ぶっかしすう,price index,n,True
+ダンピング,,dumping,"n,vs,vt",True
+リセッション,,recession,n,True
+鞘,さや,margin (between two prices),n,False
+集群,しゅうぐん,bunching,"n,vs,vi",False
+属名,ぞくめい,generic name,n,False
+証憑,しょうひょう,voucher,n,False
+ＥＶ,イー・ブイ,enterprise value,n,False
+平取,ひらとり,non-executive director,n,False
+予実,よじつ,forecast and actual results,n,False
+赤伝,あかでん,slip to cancel existing transactions,n,False
+黒伝,くろでん,slip for regular business transactions,n,False
+動学,どうがく,dynamics,n,False
+ＭＣ,エム・シー,marginal cost,n,False
+仮定款,かりていかん,provisional articles of incorporation,n,False
+企画書,きかくしょ,(written) proposal,n,False
+粗利益,あらりえき,gross profit,n,False
+値動き,ねうごき,price movement,"n,vs,vi",False
+経済人,けいざいじん,Homo economicus,n,False
+ＡＢＣ,エー・ビー・シー,activity-based costing,n,False
+純利益,じゅんりえき,net income,n,False
+中間財,ちゅうかんざい,intermediate goods,n,False
+頭出し,あたまだし,brief overview,n,False
+ＣＥＯ,シー・イー・オー,chief executive officer,n,False
+ＣＲＭ,シー・アール・エム,customer relationship management,n,False
+方向性,ほうこうせい,goal,n,False
+ＳＩＳ,シス,strategic information system (SIS),n,False
+リスケ,,"rescheduling (a meeting, debt, etc.)","n,vs,vt",False
+ＭＩＳ,エム・アイ・エス,management information system,n,False
+報連相,ほうれんそう,"reporting, contacting, and consultation",n,False
+不胎化,ふたいか,sterilization,n,False
+製品群,せいひんぐん,family of products,n,False
+社内便,しゃないびん,interoffice mail,n,False
+原資産,げんしさん,underlying asset,n,False
+回転率,かいてんりつ,"turnover rate (merchandise, capital)",n,False
+非上場,ひじょうじょう,"unlisted (company, stock)",adj-no,False
+最終財,さいしゅうざい,final goods,n,False
+基本財,きほんざい,basic goods,n,False
+地位財,ちいざい,positional goods,n,False
+代理商,だいりしょう,commercial agent,n,False
+ＶＡＲ,ブイ・エー・アール,value-added reseller,n,False
+Ｍ＆Ａ,エム・アンド・エー,M&A,n,False
+死の谷,しのたに,valley of death (barrier between product development and commercialization stages),"exp,n",False
+受注率,じゅちゅうりつ,order acceptance rate,n,False
+統括部,とうかつぶ,operational unit,n,False
+ＭＭＴ,エム・エム・ティー,modern monetary theory,n,False
+需要家,じゅようか,"consumer (of a product, service, etc.)",n,False
+単元株,たんげんかぶ,trading unit (of shares),n,False
+ＭＢＯ,エム・ビー・オー,management by objectives,n,False
+ＫＹＣ,ケー・ワイ・シー,know your customer,n,False
+ＢＰＭ,ビー・ピー・エム,business process management,n,False
+執行者,しっこうしゃ,executive,n,False
+ＢＰＯ,ビー・ピー・オー,business process outsourcing,n,False
+指図人,さしずにん,order (as in payable to order),n,False
+企業戦略,きぎょうせんりゃく,corporate strategy,n,False
+乗数効果,じょうすうこうか,multiplier effect,n,False
+不当廉売,ふとうれんばい,dumping,n,False
+目標管理,もくひょうかんり,management by objectives,n,False
+歴史学派,れきしがくは,historical school (of economics),n,False
+剰余価値,じょうよかち,surplus value (in Marxian economics),n,False
+不変資本,ふへんしほん,constant capital,n,False
+有限責任,ゆうげんせきにん,limited liability,n,False
+可変資本,かへんしほん,variable capital,n,False
+当用買い,とうようがい,buying for immediate requirements,n,False
+内部留保,ないぶりゅうほ,internal reserves,n,False
+たたき台,たたきだい,springboard for discussion,n,False
+自由市場,じゆうしじょう,free market,n,False
+付加価値,ふかかち,value added,n,False
+ソフト化,ソフトか,shift away from manufacturing to an information and service-based economy,"n,vs",False
+一人会社,いちにんかいしゃ,one-man company,n,False
+景気後退,けいきこうたい,recession,n,False
+成長戦略,せいちょうせんりゃく,growth strategy,n,False
+毒薬条項,どくやくじょうこう,poison pill (anti-takeover measure),n,False
+限界費用,げんかいひよう,marginal cost,n,False
+機会費用,きかいひよう,opportunity cost,n,False
+ジニ係数,ジニけいすう,Gini coefficient,n,False
+内部統制,ないぶとうせい,internal controls,n,False
+管理会社,かんりがいしゃ,proprietary company,n,False
+冒険資本,ぼうけんしほん,venture capital,n,False
+比較優位,ひかくゆうい,comparative advantage,n,False
+絶対優位,ぜったいゆうい,absolute advantage,n,False
+国際分業,こくさいぶんぎょう,international division of labor,n,False
+固定相場,こていそうば,fixed exchange rates,n,False
+私的価値,してきかち,private value,n,False
+共通価値,きょうつうかち,public value,n,False
+海外移転,かいがいいてん,offshoring,n,False
+中間法人,ちゅうかんほうじん,intermediate corporation (abolished in 2008),n,False
+機会損失,きかいそんしつ,missing an opportunity,n,False
+勘定科目,かんじょうかもく,account name,n,False
+自由価格,じゆうかかく,free price (price determined by market forces),n,False
+機会原価,きかいげんか,opportunity cost,n,False
+機会ロス,きかいロス,missing an opportunity,n,False
+ＳＩｅｒ,エスアイヤー,systems integrator,n,False
+需要独占,じゅようどくせん,monopsony,n,False
+埋没費用,まいぼつひよう,sunk cost,n,False
+両本位制,りょうほんいせい,bimetallism,n,False
+Ｖ字回復,ブイじかいふく,V-shaped recovery,"n,vs",False
+見込み客,みこみきゃく,prospective client,n,False
+限界分析,げんかいぶんせき,marginal analysis,n,False
+連帯経済,れんたいけいざい,solidarity economy,n,False
+射倖契約,しゃこうけいやく,aleatory contract,n,False
+Ｋ字回復,ケーじかいふく,"K-shaped recovery (parts of the economy recovering from recession at different rates, times or magnitudes)",n,False
+非地位財,ひちいざい,non-positional goods,n,False
+準公共財,じゅんこうきょうざい,quasi-public goods,n,False
+縮小均衡,しゅくしょうきんこう,balanced contraction,n,False
+年率換算,ねんりつかんさん,annualized rate,n,False
+外国資本,がいこくしほん,foreign capital,n,False
+組織変更,そしきへんこう,entity conversion,n,False
+新設合併,しんせつがっぺい,consolidation,n,False
+吸収分割,きゅうしゅうぶんかつ,absorption-type company split,n,False
+新設分割,しんせつぶんかつ,incorporation-type company split,n,False
+譲渡会社,ゆずりわたしがいしゃ,transferor company,n,False
+譲受会社,ゆずりうけがいしゃ,transferee company,n,False
+会計帳簿,かいけいちょうぼ,account book,n,False
+特定社員,とくていしゃいん,specified partner,n,False
+平取締役,ひらとりしまりやく,non-executive director,n,False
+参考価格,さんこうかかく,reference price,n,False
+法人課税,ほうじんかぜい,corporate taxation,n,False
+組合契約,くみあいけいやく,partnership contract,n,False
+需要曲線,じゅようきょくせん,demand curve,n,False
+需要関数,じゅようかんすう,demand function,n,False
+供給曲線,きょうきゅうきょくせん,supply curve,n,False
+供給関数,きょうきゅうかんすう,supply function,n,False
+北欧学派,ほくおうがくは,Stockholm school,n,False
+受託事業,じゅたくじぎょう,entrusted business,n,False
+社会信用,しゃかいしんよう,social credit,n,False
+収穫逓減,しゅうかくていげん,diminishing returns,n,False
+パーパス,,purpose,n,False
+民族資本,みんぞくしほん,national capital,n,False
+持分会社,もちぶんがいしゃ,mochibun gaisha,n,False
+生涯価値,しょうがいかち,(customer) lifetime value,n,False
+傷害特約,しょうがいとくやく,"rider on a life insurance policy (covering accidents, diseases, etc.)",n,False
+緩衝在庫,かんしょうざいこ,buffer stock,n,False
+対物信用,たいぶつしんよう,collateral credit,n,False
+情物一致,じょうぶついっち,"consistency between recorded stock information and actual state of stock (e.g. amount, usage date)",n,False
+株主優待,かぶぬしゆうたい,shareholder benefit,"n,adj-no",False
+役員人事,やくいんじんじ,change of company director,n,False
+荷もたれ,にもたれ,oversupply,n,False
+遅行指標,ちこうしひょう,lagging indicator,n,False
+受注調整,じゅちゅうちょうせい,bid rigging,n,False
+稼得能力,かとくのうりょく,earning capacity,n,False
+インボイス,インヴォイス,invoice,n,False
+ビハインド,,being behind schedule,n,False
+企業プラン,きぎょうプラン,corporate plan,n,False
+付け替える,つけかえる,to reassign (an expense),"v1,vt",False
+空洞化現象,くうどうかげんしょう,hollowing-out phenomenon,n,False
+市場シェア,しじょうシェア,market share,n,False
+見えざる手,みえざるて,invisible hand,n,False
+購買力平価,こうばいりょくへいか,purchasing power parity,n,False
+ゾンビ会社,ゾンビかいしゃ,zombie company,n,False
+オランダ病,オランダびょう,Dutch disease,n,False
+固定相場制,こていそうばせい,fixed exchange rate system,n,False
+金本位制度,きんほんいせいど,gold standard system,n,False
+不胎化介入,ふたいかかいにゅう,sterilized intervention,n,False
+大家族主義,だいかぞくしゅぎ,big family principle,n,False
+超過収益力,ちょうかしゅうえきりょく,excess earning power,n,False
+貨幣国定説,かへいこくていせつ,chartalism,n,False
+中間生産物,ちゅうかんせいさんぶつ,intermediate goods,n,False
+ゾンビ企業,ゾンビきぎょう,zombie company,n,False
+ガラスの崖,ガラスのがけ,glass cliff (corporate leadership),"exp,n",False
+プラス成長,プラスせいちょう,positive growth,n,False
+季節調整値,きせつちょうせいち,seasonally adjusted figure,n,False
+輸入依存度,ゆにゅういぞんど,degree of dependence on foreign imports,n,False
+ドル円相場,ドルえんそうば,dollar-yen rate,n,False
+デフレ傾向,デフレけいこう,deflationary trend,n,False
+指名委員会,しめいいいんかい,nominating committee,n,False
+報酬委員会,ほうしゅういいんかい,compensation committee,n,False
+社外取締役,しゃがいとりしまりやく,outside director,n,False
+社外監査役,しゃがいかんさやく,external auditor,n,False
+表見支配人,ひょうけんしはいにん,apparent manager,n,False
+消費者契約,しょうひしゃけいやく,consumer contract,n,False
+非営利法人,ひえいりほうじん,nonprofit corporation,n,False
+リピート率,リピートりつ,repeat customer rate,n,False
+トスアップ,トス・アップ,introducing a customer or lead to other employees or departments,n,False
+ポモドーロ,,Pomodoro Technique (time management system),n,False
+差別化戦略,さべつかせんりゃく,differentiation strategy,n,False
+先行者利益,せんこうしゃりえき,first-mover advantage,n,False
+ニアショア,,"outsourcing development, etc. to regional cities","n,adj-f",False
+潜在成長率,せんざいせいちょうりつ,potential growth rate (of an economy),n,False
+マネタリズム,,monetarism,n,False
+公開市場操作,こうかいしじょうそうさ,open market operation,n,False
+インフレ傾向,インフレけいこう,inflationary trend,n,False
+量的金融緩和,りょうてききんゆうかんわ,quantitative easing,n,False
+ポイズンピル,ポイズン・ピル,poison pill (anti-takeover measure),n,False
+エンゲル係数,エンゲルけいすう,Engel's coefficient,n,False
+希望小売価格,きぼうこうりかかく,manufacturer's suggested retail price,n,False
+恒常所得仮説,こうじょうしょとくかせつ,permanent income hypothesis,n,False
+マイナス成長,マイナスせいちょう,negative growth,n,False
+マネタリスト,,monetarist,n,False
+購買力平価説,こうばいりょくへいかせつ,purchasing power parity theory,n,False
+アベノミクス,アベノミックス,Abenomics,n,False
+チャンスロス,チャンス・ロス,opportunity loss,n,False
+顧客関係管理,こきゃくかんけいかんり,customer relationship management,n,False
+金銀複本位制,きんぎんふくほんいせい,bimetallism,n,False
+反競争的行為,はんきょうそうてきこうい,anticompetitive behaviour,n,False
+共有地の悲劇,きょうゆうちのひげき,tragedy of the commons,"exp,n",False
+緊縮財政政策,きんしゅくざいせいせいさく,austerity measure,n,False
+現代貨幣理論,げんだいかへいりろん,modern monetary theory,n,False
+独占資本主義,どくせんしほんしゅぎ,monopoly capitalism,n,False
+秩序自由主義,ちつじょじゆうしゅぎ,ordoliberalism,n,False
+必要労働時間,ひつようろうどうじかん,necessary labour time (in Marxian economics),n,False
+マイナス価格,マイナスかかく,negative price,n,False
+テーパリング,,tapering,n,False
+ケインズ学派,ケインズがくは,Keynesian school,n,False
+ケインジアン,,Keynesian,n,False
+最終事業年度,さいしゅうじぎょうねんど,most recent business year,n,False
+護送船団方式,ごそうせんだんほうしき,convoy system,n,False
+バーンダウン,,burndown chart,n,False
+資本業務提携,しほんぎょうむていけい,capital and business alliance,n,False
+ファンド会社,ファンドがいしゃ,investment company,n,False
+アンドを取る,アンドをとる,to find a time when everyone's schedule is free,"exp,v5r",False
+黒字リストラ,くろじリストラ,reducing staff despite being profitable,n,False
+アクハイヤー,アクイハイヤー,acquihire,n,False
+バックマージン,バック・マージン,retroactive discount paid to a retailer by a distributor,n,False
+最高経営責任者,さいこうけいえいせきにんしゃ,chief executive officer,n,False
+マーケットイン,マーケット・イン,market orientation (prioritizing customer needs and preferences),n,False
+シックスシグマ,シックス・シグマ,six sigma,n,False
+キャリーバック,,carryback,n,False
+モノカルチャー,モノカルチュア,monoculture,n,False
+委員会設置会社,いいんかいせっちかいしゃ,"company with a committee governance structure (e.g. auditing, appointment, compensation)",n,False
+流動性ジレンマ,りゅうどうせいジレンマ,liquidity dilemma,n,False
+レポートライン,レポート・ライン,reporting line (business management),n,False
+消費者態度指数,しょうひしゃたいどしすう,consumer confidence index,n,False
+コモンズの悲劇,コモンズのひげき,tragedy of the commons,"exp,n",False
+神の見えざる手,かみのみえざるて,invisible hand,"exp,n",False
+オルド自由主義,オルドじゆうしゅぎ,ordoliberalism,n,False
+コストセンター,コスト・センター,cost center,n,False
+新しい資本主義,あたらしいしほんしゅぎ,New Capitalism (concept proposed by Fumio Kishida),"exp,n",False
+アタックリスト,アタック・リスト,"list of prospective customers, leads, etc.",n,False
+ブラックスワン,ブラック・スワン,black swan event,n,False
+目標による管理,もくひょうによるかんり,management by objectives,"exp,n",False
+ファシリーダー,,(main) facilitator (e.g. for a meeting),n,False
+クリーンフロート,クリーン・フロート,clean float,n,False
+ショックセオリー,ショック・セオリー,shock theory,n,False
+バイイングパワー,バイイング・パワー,buying power,n,False
+ユースマーケット,ユース・マーケット,youth market,n,False
+規模に関する収穫,きぼにかんするしゅうかく,returns to scale,"exp,n",False
+所得不平等度係数,しょとくふびょうどうどけいすう,income inequality coefficient,n,False
+フィリップス曲線,フィリップスきょくせん,Phillips curve,n,False
+イニシャルコスト,イニシャル・コスト,initial cost,n,False
+戦略情報システム,せんりゃくじょうほうシステム,strategic information system,n,False
+付加価値再販業者,ふかかちさいはんぎょうしゃ,value-added reseller,n,False
+カテゴリーキラー,カテゴリー・キラー,category killer (retail),n,False
+流動性のジレンマ,りゅうどうせいのジレンマ,liquidity dilemma,"exp,n",False
+ビッグマック指数,ビッグマックしすう,Big Mac index,n,False
+ブルーオーシャン,ブルー・オーシャン,blue ocean (strategy),n,False
+フランチャイジー,,franchisee,n,False
+活動基準原価計算,かつどうきじゅんげんかけいさん,activity-based costing,n,False
+プロダクトアウト,プロダクト・アウト,product orientation,n,False
+スウェーデン学派,スウェーデンがくは,Stockholm school,n,False
+オンボーディング,オン・ボーディング,onboarding,n,False
+イネーブルメント,,(sales) enablement,n,False
+フルフィルメント,,fulfilment (of an order),n,False
+フリーマーケット,フリー・マーケット,free market,n,False
+フィジオクラシー,,physiocracy,n,False
+バリューチェーン,バリュー・チェーン,value chain,n,False
+シグナリング理論,シグナリングりろん,signaling theory,n,False
+コンシューマリング,コンシューマーリング,"consumer-first (marketing, manufacturing, etc.)",n,False
+スタグフレーション,,stagflation,n,False
+バッファーストック,バッファー・ストック,buffer stock,n,False
+パーソナルセリング,パーソナル・セリング,personal selling,n,False
+ダーティーフロート,ダーティー・フロート,dirty float,n,False
+ブレトンウッズ体制,ブレトンウッズたいせい,Bretton Woods System,n,False
+ブレトンウッズ協定,ブレトンウッズきょうてい,Bretton Woods Agreement (1944),n,False
+ヘリコプターマネー,ヘリコプター・マネー,helicopter money,n,False
+ベーシックインカム,ベーシック・インカム,basic income,n,False
+ストックホルム学派,ストックホルムがくは,Stockholm school,n,False
+エンタイトルメント,,entitlement,n,False
+カスタマーサクセス,カスタマー・サクセス,customer success,n,False
+アーリーアダプター,アーリー・アダプター,early adopter,n,False
+ビジネスエンジェル,ビジネス・エンジェル,business angel,n,False
+アニマルスピリット,アニマルスピリッツ,animal spirits (emotions and instincts that influence economic decision-making),n,False
+ベンチャーキャピタル,ベンチャー・キャピタル,venture capital,n,False
+コストパーサウザンド,コスト・パー・サウザンド,cost per thousand (in digital advertising),n,False
+グロースリセッション,グロース・リセッション,growth recession,n,False
+トリフィンのジレンマ,,Triffin dilemma,"exp,n",False
+ネガティブオプション,ネガティブ・オプション,negative option (billing),n,False
+プロフィットセンター,プロフィット・センター,profit center,n,False
+バーンダウンチャート,バーンダウン・チャート,burndown chart,n,False
+タックスフレーション,,taxflation,n,False
+シュリンクフレーション,,shrinkflation,n,False
+コンドラチエフのサイクル,,Kondratiev wave,n,False
+コミュニケーションコスト,コミュニケーション・コスト,time and effort taken by communicating,n,False
+ネットプロモータースコア,ネット・プロモーター・スコア,net promoter score,n,False
+スムージングオペレーション,スムージング・オペレーション,currency intervention (to stabilize exchange-rate volatility),n,False
+グローバルバリューチェーン,グローバル・バリュー・チェーン,global value chain,n,False

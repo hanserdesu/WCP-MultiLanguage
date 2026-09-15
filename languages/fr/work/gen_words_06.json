@@ -1,0 +1,602 @@
+[
+{
+"word": "supermarché",
+"pos": "n.m.",
+"zh": "超市",
+"level": "a1"
+},
+{
+"word": "sur",
+"pos": "prép.",
+"zh": "在……上面；关于",
+"level": "a1"
+},
+{
+"word": "surtout",
+"pos": "adv.",
+"zh": "尤其是；特别",
+"level": "a1"
+},
+{
+"word": "sûr",
+"pos": "adj.",
+"zh": "确信的；安全的",
+"level": "a1"
+},
+{
+"word": "sûrement",
+"pos": "adv.",
+"zh": "肯定；一定",
+"level": "a1"
+},
+{
+"word": "t-shirt",
+"pos": "n.m.",
+"zh": "T恤衫",
+"level": "a1"
+},
+{
+"word": "ta",
+"pos": "adj.",
+"zh": "你的（阴性）",
+"level": "a1"
+},
+{
+"word": "table",
+"pos": "n.f.",
+"zh": "桌子；餐桌",
+"level": "a1"
+},
+{
+"word": "tante",
+"pos": "n.f.",
+"zh": "姑母；姨母；婶母",
+"level": "a1"
+},
+{
+"word": "tard",
+"pos": "adv.",
+"zh": "晚；迟",
+"level": "a1"
+},
+{
+"word": "tasse",
+"pos": "n.f.",
+"zh": "杯子",
+"level": "a1"
+},
+{
+"word": "taxi",
+"pos": "n.m.",
+"zh": "出租车",
+"level": "a1"
+},
+{
+"word": "te",
+"pos": "pron.",
+"zh": "你（宾格）",
+"level": "a1"
+},
+{
+"word": "tee-shirt",
+"pos": "n.m.",
+"zh": "T恤衫",
+"level": "a1"
+},
+{
+"word": "temps",
+"pos": "n.m.",
+"zh": "时间；天气；时代",
+"level": "a1"
+},
+{
+"word": "terminer",
+"pos": "v.",
+"zh": "结束；完成",
+"level": "a1"
+},
+{
+"word": "terre",
+"pos": "n.f.",
+"zh": "土地；地球；地面",
+"level": "a1"
+},
+{
+"word": "tes",
+"pos": "adj.",
+"zh": "你的（复数）",
+"level": "a1"
+},
+{
+"word": "texte",
+"pos": "n.m.",
+"zh": "文本；课文",
+"level": "a1"
+},
+{
+"word": "thé",
+"pos": "n.m.",
+"zh": "茶",
+"level": "a1"
+},
+{
+"word": "toi",
+"pos": "pron.",
+"zh": "你（重读）",
+"level": "a1"
+},
+{
+"word": "tomate",
+"pos": "n.f.",
+"zh": "番茄",
+"level": "a1"
+},
+{
+"word": "tomber",
+"pos": "v.",
+"zh": "跌倒；落下",
+"level": "a1"
+},
+{
+"word": "ton",
+"pos": "adj.",
+"zh": "你的",
+"level": "a1"
+},
+{
+"word": "toujours",
+"pos": "adv.",
+"zh": "总是；一直",
+"level": "a1"
+},
+{
+"word": "tous",
+"pos": "pron.",
+"zh": "大家；所有人",
+"level": "a1"
+},
+{
+"word": "tout",
+"pos": "adj.",
+"zh": "全部；所有；整个",
+"level": "a1"
+},
+{
+"word": "train",
+"pos": "n.m.",
+"zh": "火车",
+"level": "a1"
+},
+{
+"word": "travail",
+"pos": "n.m.",
+"zh": "工作；劳动",
+"level": "a1"
+},
+{
+"word": "travailler",
+"pos": "v.",
+"zh": "工作；劳动",
+"level": "a1"
+},
+{
+"word": "treize",
+"pos": "adj.",
+"zh": "十三",
+"level": "a1"
+},
+{
+"word": "trente",
+"pos": "adj.",
+"zh": "三十",
+"level": "a1"
+},
+{
+"word": "triste",
+"pos": "adj.",
+"zh": "悲伤的；难过的",
+"level": "a1"
+},
+{
+"word": "trois",
+"pos": "adj.",
+"zh": "三；三个",
+"level": "a1"
+},
+{
+"word": "troisième",
+"pos": "adj.",
+"zh": "第三",
+"level": "a1"
+},
+{
+"word": "trop",
+"pos": "adv.",
+"zh": "太；过于",
+"level": "a1"
+},
+{
+"word": "trouver",
+"pos": "v.",
+"zh": "找到；发现；觉得",
+"level": "a1"
+},
+{
+"word": "très",
+"pos": "adv.",
+"zh": "很；非常",
+"level": "a1"
+},
+{
+"word": "tu",
+"pos": "pron.",
+"zh": "你（主格）",
+"level": "a1"
+},
+{
+"word": "télé",
+"pos": "n.f.",
+"zh": "电视（口语）",
+"level": "a1"
+},
+{
+"word": "téléphone",
+"pos": "n.m.",
+"zh": "电话；电话机",
+"level": "a1"
+},
+{
+"word": "téléphoner",
+"pos": "v.",
+"zh": "打电话",
+"level": "a1"
+},
+{
+"word": "télévision",
+"pos": "n.f.",
+"zh": "电视",
+"level": "a1"
+},
+{
+"word": "tête",
+"pos": "n.f.",
+"zh": "头；头部",
+"level": "a1"
+},
+{
+"word": "tôt",
+"pos": "adv.",
+"zh": "早；提早",
+"level": "a1"
+},
+{
+"word": "un",
+"pos": "art.",
+"zh": "一；一个",
+"level": "a1"
+},
+{
+"word": "une",
+"pos": "art.",
+"zh": "一个（阴性）",
+"level": "a1"
+},
+{
+"word": "université",
+"pos": "n.f.",
+"zh": "大学",
+"level": "a1"
+},
+{
+"word": "vaisselle",
+"pos": "n.f.",
+"zh": "餐具；洗碗",
+"level": "a1"
+},
+{
+"word": "vendre",
+"pos": "v.",
+"zh": "卖；出售",
+"level": "a1"
+},
+{
+"word": "vendredi",
+"pos": "n.m.",
+"zh": "星期五",
+"level": "a1"
+},
+{
+"word": "venir",
+"pos": "v.",
+"zh": "来；来到",
+"level": "a1"
+},
+{
+"word": "verre",
+"pos": "n.m.",
+"zh": "玻璃杯；一杯；玻璃",
+"level": "a1"
+},
+{
+"word": "vert",
+"pos": "adj.",
+"zh": "绿色的",
+"level": "a1"
+},
+{
+"word": "veste",
+"pos": "n.f.",
+"zh": "上衣；外套",
+"level": "a1"
+},
+{
+"word": "viande",
+"pos": "n.f.",
+"zh": "肉",
+"level": "a1"
+},
+{
+"word": "vidéo",
+"pos": "adj.",
+"zh": "视频；录像",
+"level": "a1"
+},
+{
+"word": "vie",
+"pos": "n.f.",
+"zh": "生命；生活",
+"level": "a1"
+},
+{
+"word": "vieux",
+"pos": "adj.",
+"zh": "旧的；年老的",
+"level": "a1"
+},
+{
+"word": "village",
+"pos": "n.m.",
+"zh": "村庄；村镇",
+"level": "a1"
+},
+{
+"word": "ville",
+"pos": "n.f.",
+"zh": "城市",
+"level": "a1"
+},
+{
+"word": "vingt",
+"pos": "adj.",
+"zh": "二十",
+"level": "a1"
+},
+{
+"word": "vingt-cinq",
+"pos": "adj.",
+"zh": "二十五",
+"level": "a1"
+},
+{
+"word": "visage",
+"pos": "n.m.",
+"zh": "脸；面孔",
+"level": "a1"
+},
+{
+"word": "visiter",
+"pos": "v.",
+"zh": "参观；游览",
+"level": "a1"
+},
+{
+"word": "vite",
+"pos": "adv.",
+"zh": "快；迅速",
+"level": "a1"
+},
+{
+"word": "vivre",
+"pos": "v.",
+"zh": "活着；生活",
+"level": "a1"
+},
+{
+"word": "vocabulaire",
+"pos": "n.m.",
+"zh": "词汇；词汇量",
+"level": "a1"
+},
+{
+"word": "voici",
+"pos": "prép.",
+"zh": "这是；这儿是",
+"level": "a1"
+},
+{
+"word": "voilà",
+"pos": "prép.",
+"zh": "瞧；就是；在那里",
+"level": "a1"
+},
+{
+"word": "voir",
+"pos": "v.",
+"zh": "看见；明白",
+"level": "a1"
+},
+{
+"word": "voiture",
+"pos": "n.",
+"zh": "汽车；车",
+"level": "a1"
+},
+{
+"word": "voix",
+"pos": "n.f.",
+"zh": "声音；嗓音",
+"level": "a1"
+},
+{
+"word": "vos",
+"pos": "adj.",
+"zh": "你们的（复数）",
+"level": "a1"
+},
+{
+"word": "votre",
+"pos": "adj.",
+"zh": "您的；你们的",
+"level": "a1"
+},
+{
+"word": "vouloir",
+"pos": "v.",
+"zh": "想要；愿",
+"level": "a1"
+},
+{
+"word": "vous",
+"pos": "pron.",
+"zh": "您；你们",
+"level": "a1"
+},
+{
+"word": "voyage",
+"pos": "n.m.",
+"zh": "旅行；旅程",
+"level": "a1"
+},
+{
+"word": "voyager",
+"pos": "v.",
+"zh": "旅行",
+"level": "a1"
+},
+{
+"word": "vrai",
+"pos": "adj.",
+"zh": "真的；真实的",
+"level": "a1"
+},
+{
+"word": "vraiment",
+"pos": "adv.",
+"zh": "真的；确实",
+"level": "a1"
+},
+{
+"word": "vélo",
+"pos": "n.m.",
+"zh": "自行车",
+"level": "a1"
+},
+{
+"word": "week-end",
+"pos": "n.m.",
+"zh": "周末",
+"level": "a1"
+},
+{
+"word": "y",
+"pos": "pron.",
+"zh": "那里（代词）",
+"level": "a1"
+},
+{
+"word": "yaourt",
+"pos": "n.m.",
+"zh": "酸奶",
+"level": "a1"
+},
+{
+"word": "zoo",
+"pos": "n.m.",
+"zh": "动物园",
+"level": "a1"
+},
+{
+"word": "zéro",
+"pos": "n.m.",
+"zh": "零；零分",
+"level": "a1"
+},
+{
+"word": "à",
+"pos": "prép.",
+"zh": "到；向；在",
+"level": "a1"
+},
+{
+"word": "âge",
+"pos": "n.m.",
+"zh": "年龄；年纪",
+"level": "a1"
+},
+{
+"word": "ça",
+"pos": "pron.",
+"zh": "这个；那个",
+"level": "a1"
+},
+{
+"word": "école",
+"pos": "n.f.",
+"zh": "学校",
+"level": "a1"
+},
+{
+"word": "écouter",
+"pos": "v.",
+"zh": "听；倾听",
+"level": "a1"
+},
+{
+"word": "écrire",
+"pos": "v.",
+"zh": "写；写作",
+"level": "a1"
+},
+{
+"word": "élève",
+"pos": "n.",
+"zh": "学生；弟子",
+"level": "a1"
+},
+{
+"word": "équipe",
+"pos": "n.f.",
+"zh": "队；组；团队",
+"level": "a1"
+},
+{
+"word": "étudiant",
+"pos": "n.m.",
+"zh": "大学生；学生",
+"level": "a1"
+},
+{
+"word": "étudier",
+"pos": "v.",
+"zh": "学习；研究",
+"level": "a1"
+},
+{
+"word": "été",
+"pos": "n.m.",
+"zh": "夏天",
+"level": "a1"
+},
+{
+"word": "être",
+"pos": "v.",
+"zh": "是；存在",
+"level": "a1"
+},
+{
+"word": "abeille",
+"pos": "n.f.",
+"zh": "蜜蜂",
+"level": "a2"
+}
+]

@@ -1,0 +1,182 @@
+{
+  "ar": {
+    "id": "ar",
+    "name": "arabic",
+    "assets": {
+      "word_audio": {
+        "name": "wcp-arabic-audio-words.zip",
+        "size": 86908736,
+        "sha256": "ffe067c872364b75ed43a21fbecb766349acde0c1c0de76b805cf98076d43b18",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\ar\\wcp-arabic-audio-words.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\ar_word_audio"
+      },
+      "sentence_audio": {
+        "name": "wcp-arabic-audio-sentences.zip",
+        "size": 215494078,
+        "sha256": "1f30b154c21b99d2e05c090eb363757a8d7b214fde6f4d3856e94494ab6d86dc",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\ar\\wcp-arabic-audio-sentences.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\ar_sentence_audio"
+      }
+    }
+  },
+  "de": {
+    "id": "de",
+    "name": "german",
+    "assets": {
+      "word_audio": {
+        "name": "wcp-german-audio-words.zip",
+        "size": 80896890,
+        "sha256": "091bbb91aad56d1eba3603a91774932f3a787be88e0388b998c306e97fa036e8",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\de\\wcp-german-audio-words.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\de_word_audio"
+      },
+      "sentence_audio": {
+        "name": "wcp-german-audio-sentences.zip",
+        "size": 802498666,
+        "sha256": "440d3ac0e77600df2fe4e4607a94403a1fd341c0aec4bcb09ab05ed2846f70f8",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\de\\wcp-german-audio-sentences.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\de_sentence_audio"
+      }
+    }
+  },
+  "es": {
+    "id": "es",
+    "name": "spanish",
+    "assets": {
+      "word_audio": {
+        "name": "wcp-spanish-audio-words.zip",
+        "size": 87111574,
+        "sha256": "c3846436179c4561191f24260f70ee9e236e844eb0664f44d421995d501eeab2",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\es\\wcp-spanish-audio-words.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\es_word_audio"
+      },
+      "sentence_audio": {
+        "name": "wcp-spanish-audio-sentences.zip",
+        "size": 601974614,
+        "sha256": "260bc2d0c326586a9d8c213e278d55d5f02b7c0846c50642890ae6bfd7c205a9",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\es\\wcp-spanish-audio-sentences.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\es_sentence_audio"
+      }
+    }
+  },
+  "fr": {
+    "id": "fr",
+    "name": "french",
+    "assets": {
+      "word_audio": {
+        "name": "wcp-french-audio-words.zip",
+        "size": 79901354,
+        "sha256": "a0714473a7e7bc7ca736ef5d7004cf5783ce00c6c16436ee296b2e817687e3d0",
+        "path": "D:\\ATooManyLanguage\\French\\output\\release\\wcp-french-audio-words.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\fr_word_audio"
+      },
+      "sentence_audio": {
+        "name": "wcp-french-audio-sentences.zip",
+        "size": 535068278,
+        "sha256": "d661ba183014c5a26747885468305d28546f5dc4c5ba54fb37ad8f713c49e0e5",
+        "path": "D:\\ATooManyLanguage\\French\\output\\release\\wcp-french-audio-sentences.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\fr_sentence_audio"
+      }
+    }
+  },
+  "ko": {
+    "id": "ko",
+    "name": "korean",
+    "assets": {
+      "word_audio": {
+        "name": "wcp-korean-audio-words.zip",
+        "size": 33135550,
+        "sha256": "e911390b1e0c0bdefe88f4925dec2f57f3e24f2aa34a9f10e05b4791e5676bb9",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\ko\\wcp-korean-audio-words.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\ko_word_audio"
+      },
+      "sentence_audio": {
+        "name": "wcp-korean-audio-sentences.zip",
+        "size": 277666730,
+        "sha256": "e3cb868b402581e5f1fcff2e614d88b390b7c3a747da88ce845a5c553aa6c857",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\ko\\wcp-korean-audio-sentences.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\ko_sentence_audio"
+      }
+    }
+  },
+  "pt": {
+    "id": "pt",
+    "name": "portuguese",
+    "assets": {
+      "word_audio": {
+        "name": "wcp-portuguese-audio-words.zip",
+        "size": 84917010,
+        "sha256": "d68a98f9546e47ce49af0b529217475a341f07ec19809dc4f12ea6bd769e08e3",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\pt\\wcp-portuguese-audio-words.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\pt_word_audio"
+      },
+      "sentence_audio": {
+        "name": "wcp-portuguese-audio-sentences.zip",
+        "size": 638116518,
+        "sha256": "1132b6dd94d14d093fb1094e4e308bc16e7c0e479275e5a6a05be5f62a15384a",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\pt\\wcp-portuguese-audio-sentences.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\pt_sentence_audio"
+      }
+    }
+  },
+  "ru": {
+    "id": "ru",
+    "name": "russian",
+    "assets": {
+      "word_audio": {
+        "name": "wcp-russian-audio-words.zip",
+        "size": 96178404,
+        "sha256": "e42eaaa47932952fc4918812ade11a23e97a69844dcc38dce1c76906c0e2a738",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\ru\\wcp-russian-audio-words.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\ru_word_audio"
+      },
+      "sentence_audio": {
+        "name": "wcp-russian-audio-sentences.zip",
+        "size": 759392266,
+        "sha256": "59dc78b1e5441189e234cdb2c69db85fbb87bf2e99c4f822c097f12781c38f04",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\ru\\wcp-russian-audio-sentences.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\ru_sentence_audio"
+      }
+    }
+  },
+  "yue": {
+    "id": "yue",
+    "name": "cantonese",
+    "assets": {
+      "word_audio": {
+        "name": "wcp-cantonese-audio-words.zip",
+        "size": 3691400,
+        "sha256": "8eeb8554f0c3431184ff229b575e06cad25dc89f9414eb84e12abc5f3ab31c04",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\yue\\wcp-cantonese-audio-words.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\yue_word_audio"
+      },
+      "sentence_audio": {
+        "name": "wcp-cantonese-audio-sentences.zip",
+        "size": 16458686,
+        "sha256": "49909a42df30128f5b00e6793c5267cbe1cbd14f83ae881765e4a77a11b3ba21",
+        "path": "D:\\ATooManyLanguage\\_local\\release\\yue\\wcp-cantonese-audio-sentences.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\yue_sentence_audio"
+      }
+    }
+  },
+  "ja": {
+    "id": "ja",
+    "name": "japanese",
+    "assets": {
+      "word_audio": {
+        "name": "wcp-japanese-audio-words.zip",
+        "size": 165831996,
+        "sha256": "34336de1c830e867756709062c57bc1170f9a5be00bc89977fda32d746c1f1eb",
+        "path": "D:\\ATooManyLanguage\\Japanese\\wcp_wordbooks\\output\\release\\wcp-japanese-audio-words.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\ja_word_audio"
+      },
+      "sentence_audio": {
+        "name": "wcp-japanese-audio-sentences.zip",
+        "size": 1499343818,
+        "sha256": "2ca601e04510f12376aa19792189a0ae719b16ae704b88be9c7be27cf6461109",
+        "path": "D:\\ATooManyLanguage\\Japanese\\wcp_wordbooks\\output\\release\\wcp-japanese-audio-sentences.zip",
+        "source": "C:\\Users\\hanserdesu\\AppData\\LocalLow\\WCP\\wcp\\ja_sentence_audio"
+      }
+    }
+  }
+}

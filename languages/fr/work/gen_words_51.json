@@ -1,0 +1,602 @@
+[
+{
+"word": "sensation",
+"pos": "n.f.",
+"zh": "感觉；知觉",
+"level": "b1"
+},
+{
+"word": "sensibilité",
+"pos": "n.f.",
+"zh": "敏感；感受力",
+"level": "b1"
+},
+{
+"word": "sensible",
+"pos": "adj.",
+"zh": "敏感的；易感的",
+"level": "b1"
+},
+{
+"word": "sensé",
+"pos": "adj.",
+"zh": "明智的；有道理的",
+"level": "b1"
+},
+{
+"word": "sentiment",
+"pos": "n.m.",
+"zh": "感情；情绪",
+"level": "b1"
+},
+{
+"word": "sentimental",
+"pos": "adj.",
+"zh": "感伤的；多情的",
+"level": "b1"
+},
+{
+"word": "serbe",
+"pos": "adj.",
+"zh": "塞尔维亚的；塞尔维亚语",
+"level": "b1"
+},
+{
+"word": "sergent",
+"pos": "n.m.",
+"zh": "中士；军士",
+"level": "b1"
+},
+{
+"word": "seringue",
+"pos": "n.f.",
+"zh": "注射器；针筒",
+"level": "b1"
+},
+{
+"word": "serment",
+"pos": "n.m.",
+"zh": "誓言",
+"level": "b1"
+},
+{
+"word": "serrer",
+"pos": "v.",
+"zh": "握紧；夹紧；搂紧",
+"level": "b1"
+},
+{
+"word": "serrure",
+"pos": "n.f.",
+"zh": "锁；门锁",
+"level": "b1"
+},
+{
+"word": "serrurier",
+"pos": "n.m.",
+"zh": "锁匠",
+"level": "b1"
+},
+{
+"word": "session",
+"pos": "n.f.",
+"zh": "场次；会期",
+"level": "b1"
+},
+{
+"word": "set",
+"pos": "n.m.",
+"zh": "（网球）局；盘",
+"level": "b1"
+},
+{
+"word": "sexualité",
+"pos": "n.f.",
+"zh": "性；性行为",
+"level": "b1"
+},
+{
+"word": "sexuel",
+"pos": "adj.",
+"zh": "性的；性方面的",
+"level": "b1"
+},
+{
+"word": "shérif",
+"pos": "n.m.",
+"zh": "治安官；警长",
+"level": "b1"
+},
+{
+"word": "sida",
+"pos": "n.m.",
+"zh": "艾滋病",
+"level": "b1"
+},
+{
+"word": "sieste",
+"pos": "n.f.",
+"zh": "午睡",
+"level": "b1"
+},
+{
+"word": "signaler",
+"pos": "v.",
+"zh": "指出；报告",
+"level": "b1"
+},
+{
+"word": "signification",
+"pos": "n.f.",
+"zh": "含义；意义",
+"level": "b1"
+},
+{
+"word": "signifier",
+"pos": "v.",
+"zh": "意味着；表示",
+"level": "b1"
+},
+{
+"word": "silhouette",
+"pos": "n.f.",
+"zh": "轮廓；身影",
+"level": "b1"
+},
+{
+"word": "similaire",
+"pos": "adj.",
+"zh": "类似的；相似的",
+"level": "b1"
+},
+{
+"word": "simulation",
+"pos": "n.f.",
+"zh": "模拟；假装",
+"level": "b1"
+},
+{
+"word": "sincèrement",
+"pos": "adv.",
+"zh": "真诚地；老实说",
+"level": "b1"
+},
+{
+"word": "sincérité",
+"pos": "n.f.",
+"zh": "真诚；诚挚",
+"level": "b1"
+},
+{
+"word": "singulier",
+"pos": "adj.",
+"zh": "单数的；独特的",
+"level": "b1"
+},
+{
+"word": "sirop",
+"pos": "n.m.",
+"zh": "糖浆；果汁露",
+"level": "b1"
+},
+{
+"word": "sirène",
+"pos": "n.f.",
+"zh": "警报器；汽笛；美人鱼",
+"level": "b1"
+},
+{
+"word": "site",
+"pos": "n.m.",
+"zh": "地点；网站",
+"level": "b1"
+},
+{
+"word": "situer",
+"pos": "v.",
+"zh": "使位于；确定位置",
+"level": "b1"
+},
+{
+"word": "sketch",
+"pos": "n.m.",
+"zh": "小品；滑稽短剧",
+"level": "b1"
+},
+{
+"word": "slip",
+"pos": "n.m.",
+"zh": "三角裤；内裤",
+"level": "b1"
+},
+{
+"word": "slogan",
+"pos": "n.m.",
+"zh": "口号；标语",
+"level": "b1"
+},
+{
+"word": "smoking",
+"pos": "n.m.",
+"zh": "男式晚礼服",
+"level": "b1"
+},
+{
+"word": "socialisme",
+"pos": "n.m.",
+"zh": "社会主义",
+"level": "b1"
+},
+{
+"word": "société",
+"pos": "n.f.",
+"zh": "社会；公司",
+"level": "b1"
+},
+{
+"word": "soi",
+"pos": "pron.",
+"zh": "自己",
+"level": "b1"
+},
+{
+"word": "soi-même",
+"pos": "pron.",
+"zh": "自己；自身",
+"level": "b1"
+},
+{
+"word": "soit",
+"pos": "conj.",
+"zh": "即；也就是说",
+"level": "b1"
+},
+{
+"word": "soja",
+"pos": "n.m.",
+"zh": "大豆；黄豆",
+"level": "b1"
+},
+{
+"word": "solaire",
+"pos": "adj.",
+"zh": "太阳的",
+"level": "b1"
+},
+{
+"word": "soldat",
+"pos": "n.m.",
+"zh": "士兵；军人",
+"level": "b1"
+},
+{
+"word": "solidaire",
+"pos": "adj.",
+"zh": "互助的；团结的",
+"level": "b1"
+},
+{
+"word": "solidarité",
+"pos": "n.f.",
+"zh": "团结；互助",
+"level": "b1"
+},
+{
+"word": "solitaire",
+"pos": "adj.",
+"zh": "孤独的；单独的",
+"level": "b1"
+},
+{
+"word": "solitude",
+"pos": "n.f.",
+"zh": "孤独",
+"level": "b1"
+},
+{
+"word": "solo",
+"pos": "n.m.",
+"zh": "独奏；独唱",
+"level": "b1"
+},
+{
+"word": "sombre",
+"pos": "adj.",
+"zh": "阴暗的；忧郁的",
+"level": "b1"
+},
+{
+"word": "somme",
+"pos": "n.",
+"zh": "总额；款项；小睡",
+"level": "b1"
+},
+{
+"word": "sommet",
+"pos": "n.m.",
+"zh": "顶峰；峰会",
+"level": "b1"
+},
+{
+"word": "sondage",
+"pos": "n.m.",
+"zh": "民意调查；探测",
+"level": "b1"
+},
+{
+"word": "songer",
+"pos": "v.",
+"zh": "想；考虑",
+"level": "b1"
+},
+{
+"word": "sorcier",
+"pos": "n.m.",
+"zh": "男巫；巫师",
+"level": "b1"
+},
+{
+"word": "sort",
+"pos": "n.m.",
+"zh": "命运；咒语",
+"level": "b1"
+},
+{
+"word": "soucier",
+"pos": "v.",
+"zh": "使担忧",
+"level": "b1"
+},
+{
+"word": "soucieux",
+"pos": "adj.",
+"zh": "担忧的；挂虑的",
+"level": "b1"
+},
+{
+"word": "souffle",
+"pos": "n.m.",
+"zh": "呼吸；气息",
+"level": "b1"
+},
+{
+"word": "souffrance",
+"pos": "n.f.",
+"zh": "痛苦",
+"level": "b1"
+},
+{
+"word": "souffrir",
+"pos": "v.",
+"zh": "受苦；忍受",
+"level": "b1"
+},
+{
+"word": "soulagement",
+"pos": "n.m.",
+"zh": "宽慰；解脱",
+"level": "b1"
+},
+{
+"word": "soulager",
+"pos": "v.",
+"zh": "减轻；宽慰",
+"level": "b1"
+},
+{
+"word": "soulever",
+"pos": "v.",
+"zh": "举起；掀起",
+"level": "b1"
+},
+{
+"word": "souligner",
+"pos": "v.",
+"zh": "强调；划线",
+"level": "b1"
+},
+{
+"word": "soupir",
+"pos": "n.m.",
+"zh": "叹息",
+"level": "b1"
+},
+{
+"word": "souple",
+"pos": "adj.",
+"zh": "柔软的；灵活的",
+"level": "b1"
+},
+{
+"word": "soupçon",
+"pos": "n.m.",
+"zh": "怀疑；一点儿",
+"level": "b1"
+},
+{
+"word": "soupçonner",
+"pos": "v.",
+"zh": "怀疑；猜疑",
+"level": "b1"
+},
+{
+"word": "source",
+"pos": "n.f.",
+"zh": "来源；泉；源头",
+"level": "b1"
+},
+{
+"word": "sourcil",
+"pos": "n.m.",
+"zh": "眉毛",
+"level": "b1"
+},
+{
+"word": "sous-estimer",
+"pos": "v.",
+"zh": "低估",
+"level": "b1"
+},
+{
+"word": "sous-marin",
+"pos": "n.m.",
+"zh": "潜水艇",
+"level": "b1"
+},
+{
+"word": "sous-titre",
+"pos": "n.m.",
+"zh": "字幕",
+"level": "b1"
+},
+{
+"word": "sous-vêtement",
+"pos": "n.m.",
+"zh": "内衣",
+"level": "b1"
+},
+{
+"word": "soutenir",
+"pos": "v.",
+"zh": "支持；支撑",
+"level": "b1"
+},
+{
+"word": "souterrain",
+"pos": "adj.",
+"zh": "地下的",
+"level": "b1"
+},
+{
+"word": "soutien",
+"pos": "n.m.",
+"zh": "支持；支撑",
+"level": "b1"
+},
+{
+"word": "soutien-gorge",
+"pos": "n.m.",
+"zh": "胸罩",
+"level": "b1"
+},
+{
+"word": "soviétique",
+"pos": "adj.",
+"zh": "苏联的；苏维埃的",
+"level": "b1"
+},
+{
+"word": "spatial",
+"pos": "adj.",
+"zh": "太空的；空间的",
+"level": "b1"
+},
+{
+"word": "spectaculaire",
+"pos": "adj.",
+"zh": "壮观的；惊人的",
+"level": "b1"
+},
+{
+"word": "sphère",
+"pos": "n.f.",
+"zh": "球体；领域",
+"level": "b1"
+},
+{
+"word": "splendide",
+"pos": "adj.",
+"zh": "华丽的；极好的",
+"level": "b1"
+},
+{
+"word": "sponsor",
+"pos": "n.m.",
+"zh": "赞助商；赞助人",
+"level": "b1"
+},
+{
+"word": "spontané",
+"pos": "adj.",
+"zh": "自发的；率真的",
+"level": "b1"
+},
+{
+"word": "spécialement",
+"pos": "adv.",
+"zh": "特别；专门",
+"level": "b1"
+},
+{
+"word": "spécialiser",
+"pos": "v.",
+"zh": "使专门化；专攻",
+"level": "b1"
+},
+{
+"word": "spécialiste",
+"pos": "n.",
+"zh": "专家",
+"level": "b1"
+},
+{
+"word": "spécialité",
+"pos": "n.f.",
+"zh": "专业；特产；拿手菜",
+"level": "b1"
+},
+{
+"word": "spécifique",
+"pos": "adj.",
+"zh": "特有的；具体的",
+"level": "b1"
+},
+{
+"word": "square",
+"pos": "n.m.",
+"zh": "小公园；街心花园",
+"level": "b1"
+},
+{
+"word": "stable",
+"pos": "adj.",
+"zh": "稳定的；稳固的",
+"level": "b1"
+},
+{
+"word": "stagiaire",
+"pos": "n.",
+"zh": "实习生；学员",
+"level": "b1"
+},
+{
+"word": "stand",
+"pos": "n.m.",
+"zh": "摊位；展台",
+"level": "b1"
+},
+{
+"word": "standard",
+"pos": "adj.",
+"zh": "标准的；规格",
+"level": "b1"
+},
+{
+"word": "statistique",
+"pos": "n.f.",
+"zh": "统计；统计数据",
+"level": "b1"
+},
+{
+"word": "statut",
+"pos": "n.m.",
+"zh": "地位；身份；章程",
+"level": "b1"
+},
+{
+"word": "stimuler",
+"pos": "v.",
+"zh": "刺激；激励",
+"level": "b1"
+}
+]

@@ -1,0 +1,602 @@
+[
+{
+"word": "sifflement",
+"pos": "n.m.",
+"zh": "哨声；嘶鸣",
+"level": "b2"
+},
+{
+"word": "signalement",
+"pos": "n.m.",
+"zh": "体貌描述",
+"level": "b2"
+},
+{
+"word": "silicone",
+"pos": "n.f.",
+"zh": "硅胶；硅酮",
+"level": "b2"
+},
+{
+"word": "simuler",
+"pos": "v.",
+"zh": "模拟；假装",
+"level": "b2"
+},
+{
+"word": "sinistre",
+"pos": "adj.",
+"zh": "阴森的；不祥的",
+"level": "b2"
+},
+{
+"word": "sire",
+"pos": "n.m.",
+"zh": "陛下（旧时尊称）",
+"level": "b2"
+},
+{
+"word": "sitôt",
+"pos": "adv.",
+"zh": "立即；一…就（书面）",
+"level": "b2"
+},
+{
+"word": "siéger",
+"pos": "v.",
+"zh": "（议会中）就座",
+"level": "b2"
+},
+{
+"word": "sniffer",
+"pos": "v.",
+"zh": "嗅；吸食（毒品）",
+"level": "b2"
+},
+{
+"word": "sniper",
+"pos": "n.m.",
+"zh": "狙击手",
+"level": "b2"
+},
+{
+"word": "sobre",
+"pos": "adj.",
+"zh": "节制的；朴素的；未醉的",
+"level": "b2"
+},
+{
+"word": "socialiste",
+"pos": "adj.",
+"zh": "社会主义的；社会党的",
+"level": "b2"
+},
+{
+"word": "soi-disant",
+"pos": "adj.",
+"zh": "所谓的",
+"level": "b2"
+},
+{
+"word": "solde",
+"pos": "n.",
+"zh": "余额；结余；打折季",
+"level": "b2"
+},
+{
+"word": "solennel",
+"pos": "adj.",
+"zh": "庄严的；隆重的",
+"level": "b2"
+},
+{
+"word": "solliciter",
+"pos": "v.",
+"zh": "请求；恳请",
+"level": "b2"
+},
+{
+"word": "sombrer",
+"pos": "v.",
+"zh": "沉没；陷入",
+"level": "b2"
+},
+{
+"word": "sommer",
+"pos": "v.",
+"zh": "责令；强令",
+"level": "b2"
+},
+{
+"word": "somnambule",
+"pos": "n.",
+"zh": "梦游者",
+"level": "b2"
+},
+{
+"word": "somnifère",
+"pos": "n.m.",
+"zh": "安眠药",
+"level": "b2"
+},
+{
+"word": "somptueux",
+"pos": "adj.",
+"zh": "奢华的；豪华的",
+"level": "b2"
+},
+{
+"word": "sonate",
+"pos": "n.f.",
+"zh": "奏鸣曲",
+"level": "b2"
+},
+{
+"word": "sonde",
+"pos": "n.f.",
+"zh": "探针；探测器",
+"level": "b2"
+},
+{
+"word": "sonder",
+"pos": "v.",
+"zh": "探测；试探",
+"level": "b2"
+},
+{
+"word": "songe",
+"pos": "n.m.",
+"zh": "梦；幻想（书面）",
+"level": "b2"
+},
+{
+"word": "sonnerie",
+"pos": "n.f.",
+"zh": "铃声；鸣响",
+"level": "b2"
+},
+{
+"word": "sonore",
+"pos": "adj.",
+"zh": "响亮的；声音的",
+"level": "b2"
+},
+{
+"word": "sophistiqué",
+"pos": "adj.",
+"zh": "精密复杂的；精致老练的",
+"level": "b2"
+},
+{
+"word": "soprano",
+"pos": "n.",
+"zh": "女高音（歌手）",
+"level": "b2"
+},
+{
+"word": "sorcellerie",
+"pos": "n.f.",
+"zh": "巫术；妖术",
+"level": "b2"
+},
+{
+"word": "sordide",
+"pos": "adj.",
+"zh": "肮脏的；悲惨的",
+"level": "b2"
+},
+{
+"word": "sortilège",
+"pos": "n.m.",
+"zh": "魔法；魅力",
+"level": "b2"
+},
+{
+"word": "sot",
+"pos": "adj.",
+"zh": "愚蠢的；傻的",
+"level": "b2"
+},
+{
+"word": "sottise",
+"pos": "n.f.",
+"zh": "蠢话；蠢事",
+"level": "b2"
+},
+{
+"word": "sou",
+"pos": "n.m.",
+"zh": "苏（旧币）；小钱",
+"level": "b2"
+},
+{
+"word": "souche",
+"pos": "n.f.",
+"zh": "树桩；祖籍",
+"level": "b2"
+},
+{
+"word": "soucoupe",
+"pos": "n.f.",
+"zh": "茶托；飞碟",
+"level": "b2"
+},
+{
+"word": "soudainement",
+"pos": "adv.",
+"zh": "突然；骤然",
+"level": "b2"
+},
+{
+"word": "souder",
+"pos": "v.",
+"zh": "焊接",
+"level": "b2"
+},
+{
+"word": "souffrant",
+"pos": "adj.",
+"zh": "患病的；不适的",
+"level": "b2"
+},
+{
+"word": "soufre",
+"pos": "n.m.",
+"zh": "硫；硫磺",
+"level": "b2"
+},
+{
+"word": "souiller",
+"pos": "v.",
+"zh": "玷污；弄脏",
+"level": "b2"
+},
+{
+"word": "soumettre",
+"pos": "v.",
+"zh": "使服从；提交",
+"level": "b2"
+},
+{
+"word": "soupirer",
+"pos": "v.",
+"zh": "叹气；渴望",
+"level": "b2"
+},
+{
+"word": "sournois",
+"pos": "adj.",
+"zh": "阴险的；暗中的",
+"level": "b2"
+},
+{
+"word": "sous-titrage",
+"pos": "n.m.",
+"zh": "字幕；加字幕",
+"level": "b2"
+},
+{
+"word": "sous-titrer",
+"pos": "v.",
+"zh": "配字幕；加字幕",
+"level": "b2"
+},
+{
+"word": "soustraire",
+"pos": "v.",
+"zh": "减去；使避开；盗取",
+"level": "b2"
+},
+{
+"word": "soute",
+"pos": "n.f.",
+"zh": "（飞机、轮船的）货舱",
+"level": "b2"
+},
+{
+"word": "soutirer",
+"pos": "v.",
+"zh": "抽取；骗取",
+"level": "b2"
+},
+{
+"word": "souverain",
+"pos": "n.m.",
+"zh": "君主；至高无上的",
+"level": "b2"
+},
+{
+"word": "soûl",
+"pos": "adj.",
+"zh": "喝醉的",
+"level": "b2"
+},
+{
+"word": "soûler",
+"pos": "v.",
+"zh": "使喝醉；使厌烦",
+"level": "b2"
+},
+{
+"word": "spectre",
+"pos": "n.m.",
+"zh": "光谱；幽灵；范围",
+"level": "b2"
+},
+{
+"word": "speed",
+"pos": "n.m.",
+"zh": "安非他明（俚语）",
+"level": "b2"
+},
+{
+"word": "sperme",
+"pos": "n.m.",
+"zh": "精液",
+"level": "b2"
+},
+{
+"word": "spirituel",
+"pos": "adj.",
+"zh": "精神的；心灵的",
+"level": "b2"
+},
+{
+"word": "splendeur",
+"pos": "n.f.",
+"zh": "光辉；壮丽",
+"level": "b2"
+},
+{
+"word": "spot",
+"pos": "n.m.",
+"zh": "广告短片；地点（口语）",
+"level": "b2"
+},
+{
+"word": "spécimen",
+"pos": "n.m.",
+"zh": "样本；标本",
+"level": "b2"
+},
+{
+"word": "squelette",
+"pos": "n.m.",
+"zh": "骨骼；骨架",
+"level": "b2"
+},
+{
+"word": "stabiliser",
+"pos": "v.",
+"zh": "使稳定",
+"level": "b2"
+},
+{
+"word": "store",
+"pos": "n.m.",
+"zh": "遮阳帘；卷帘",
+"level": "b2"
+},
+{
+"word": "string",
+"pos": "n.m.",
+"zh": "丁字裤",
+"level": "b2"
+},
+{
+"word": "strip-tease",
+"pos": "n.m.",
+"zh": "脱衣舞",
+"level": "b2"
+},
+{
+"word": "stupidité",
+"pos": "n.f.",
+"zh": "愚蠢；蠢事",
+"level": "b2"
+},
+{
+"word": "stupéfait",
+"pos": "adj.",
+"zh": "惊愕的；惊呆的",
+"level": "b2"
+},
+{
+"word": "stupéfiant",
+"pos": "adj.",
+"zh": "令人震惊的；麻醉的",
+"level": "b2"
+},
+{
+"word": "stérile",
+"pos": "adj.",
+"zh": "贫瘠的；不育的",
+"level": "b2"
+},
+{
+"word": "subconscient",
+"pos": "n.m.",
+"zh": "潜意识",
+"level": "b2"
+},
+{
+"word": "subit",
+"pos": "adj.",
+"zh": "突然的",
+"level": "b2"
+},
+{
+"word": "subitement",
+"pos": "adv.",
+"zh": "突然地",
+"level": "b2"
+},
+{
+"word": "sublime",
+"pos": "adj.",
+"zh": "崇高的；壮丽的",
+"level": "b2"
+},
+{
+"word": "submerger",
+"pos": "v.",
+"zh": "淹没；使应接不暇",
+"level": "b2"
+},
+{
+"word": "substitut",
+"pos": "n.m.",
+"zh": "替代品；代用品",
+"level": "b2"
+},
+{
+"word": "subtil",
+"pos": "adj.",
+"zh": "微妙的；细微的",
+"level": "b2"
+},
+{
+"word": "subversif",
+"pos": "adj.",
+"zh": "颠覆性的",
+"level": "b2"
+},
+{
+"word": "succomber",
+"pos": "v.",
+"zh": "屈服；经受不住",
+"level": "b2"
+},
+{
+"word": "suffoquer",
+"pos": "v.",
+"zh": "窒息；喘不过气",
+"level": "b2"
+},
+{
+"word": "suicidaire",
+"pos": "adj.",
+"zh": "想自杀的；自杀性的",
+"level": "b2"
+},
+{
+"word": "superflu",
+"pos": "adj.",
+"zh": "多余的；过剩的",
+"level": "b2"
+},
+{
+"word": "superstitieux",
+"pos": "adj.",
+"zh": "迷信的",
+"level": "b2"
+},
+{
+"word": "superstition",
+"pos": "n.f.",
+"zh": "迷信",
+"level": "b2"
+},
+{
+"word": "superviser",
+"pos": "v.",
+"zh": "监督；监管",
+"level": "b2"
+},
+{
+"word": "supplice",
+"pos": "n.m.",
+"zh": "酷刑；折磨",
+"level": "b2"
+},
+{
+"word": "support",
+"pos": "n.m.",
+"zh": "载体；支撑物",
+"level": "b2"
+},
+{
+"word": "supposition",
+"pos": "n.f.",
+"zh": "假设；推测",
+"level": "b2"
+},
+{
+"word": "sur-le-champ",
+"pos": "adv.",
+"zh": "立即；当场",
+"level": "b2"
+},
+{
+"word": "surgir",
+"pos": "v.",
+"zh": "突然出现；涌现",
+"level": "b2"
+},
+{
+"word": "surmonter",
+"pos": "v.",
+"zh": "克服；翻越",
+"level": "b2"
+},
+{
+"word": "surnommer",
+"pos": "v.",
+"zh": "起绰号",
+"level": "b2"
+},
+{
+"word": "surpasser",
+"pos": "v.",
+"zh": "超过；胜过",
+"level": "b2"
+},
+{
+"word": "sursis",
+"pos": "n.m.",
+"zh": "缓刑；宽限期",
+"level": "b2"
+},
+{
+"word": "survenir",
+"pos": "v.",
+"zh": "突然发生",
+"level": "b2"
+},
+{
+"word": "survoler",
+"pos": "v.",
+"zh": "飞越；略读",
+"level": "b2"
+},
+{
+"word": "susceptible",
+"pos": "adj.",
+"zh": "可能……的；易怒的",
+"level": "b2"
+},
+{
+"word": "susciter",
+"pos": "v.",
+"zh": "引起；激起",
+"level": "b2"
+},
+{
+"word": "suspense",
+"pos": "n.",
+"zh": "悬念",
+"level": "b2"
+},
+{
+"word": "suspension",
+"pos": "n.f.",
+"zh": "暂停；悬挂",
+"level": "b2"
+},
+{
+"word": "suture",
+"pos": "n.f.",
+"zh": "缝合；缝线",
+"level": "b2"
+}
+]

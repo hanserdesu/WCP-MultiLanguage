@@ -1,0 +1,1216 @@
+{
+ "kept": [
+  {
+   "word": "ich",
+   "zh": "我",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "sie",
+   "zh": "她；他们；您（敬称）",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "das",
+   "zh": "定冠词（中性）；这个",
+   "level": "a1",
+   "pos": "art."
+  },
+  {
+   "word": "ist",
+   "lemma": "sein",
+   "zh": "是；他的",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "du",
+   "zh": "你",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "nicht",
+   "zh": "不；没有",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "die",
+   "zh": "定冠词（阴性、复数）",
+   "level": "a1",
+   "pos": "art."
+  },
+  {
+   "word": "es",
+   "zh": "它",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "und",
+   "zh": "和",
+   "level": "a1",
+   "pos": "konj."
+  },
+  {
+   "word": "der",
+   "zh": "定冠词（阳性）",
+   "level": "a1",
+   "pos": "art."
+  },
+  {
+   "word": "wir",
+   "zh": "我们",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "was",
+   "zh": "什么",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "zu",
+   "zh": "到；向；太",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "er",
+   "zh": "他",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "ein",
+   "zh": "一个（不定冠词）",
+   "level": "a1",
+   "pos": "art."
+  },
+  {
+   "word": "in",
+   "zh": "在…里",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "ja",
+   "zh": "是的",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "mit",
+   "zh": "和…一起",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "wie",
+   "zh": "怎样；多么",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "auf",
+   "zh": "在…上",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "dass",
+   "zh": "（引导从句）",
+   "level": "a1",
+   "pos": "konj."
+  },
+  {
+   "word": "aber",
+   "zh": "但是",
+   "level": "a1",
+   "pos": "konj."
+  },
+  {
+   "word": "so",
+   "zh": "如此；那么",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "hat",
+   "lemma": "haben",
+   "zh": "有",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "hier",
+   "zh": "这里",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "haben",
+   "zh": "有",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "für",
+   "zh": "为了",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "sind",
+   "lemma": "sein",
+   "zh": "是；他的",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "war",
+   "lemma": "sein",
+   "zh": "是；他的",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "von",
+   "zh": "从；…的",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "wenn",
+   "zh": "如果；当…时",
+   "level": "a1",
+   "pos": "konj."
+  },
+  {
+   "word": "ihr",
+   "zh": "你们；她的；他们的",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "nein",
+   "zh": "不是",
+   "level": "a1",
+   "pos": "interj."
+  },
+  {
+   "word": "habe",
+   "lemma": "haben",
+   "zh": "有",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "an",
+   "zh": "在；紧挨着",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "bin",
+   "lemma": "sein",
+   "zh": "是；他的",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "noch",
+   "zh": "还；仍然",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "nur",
+   "zh": "只；仅仅",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "da",
+   "zh": "那里；那时",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "sich",
+   "zh": "自己（反身代词）",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "kann",
+   "lemma": "können",
+   "zh": "能；会",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "gut",
+   "zh": "好的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "auch",
+   "zh": "也",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "schon",
+   "zh": "已经",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "als",
+   "zh": "当…时；比",
+   "level": "a1",
+   "pos": "konj."
+  },
+  {
+   "word": "sein",
+   "zh": "是；他的",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "mal",
+   "zh": "一次；一下",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "jetzt",
+   "zh": "现在",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "dann",
+   "zh": "然后",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "aus",
+   "zh": "从…出来",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "meine",
+   "lemma": "mein",
+   "zh": "我的",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "um",
+   "zh": "围绕；在…点钟",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "im",
+   "zh": "在…里（in dem 缩合）",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "wird",
+   "lemma": "werden",
+   "zh": "变得；将",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "mein",
+   "zh": "我的",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "bist",
+   "lemma": "sein",
+   "zh": "是；他的",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "doch",
+   "zh": "仍然；可是",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "alles",
+   "zh": "一切",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "weiß",
+   "lemma": "wissen",
+   "zh": "知道",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "keine",
+   "lemma": "kein",
+   "zh": "没有；无",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "oder",
+   "zh": "或者",
+   "level": "a1",
+   "pos": "konj."
+  },
+  {
+   "word": "nach",
+   "zh": "在…之后；向",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "nichts",
+   "zh": "没有什么",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "man",
+   "zh": "人们（泛指）",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "muss",
+   "lemma": "müssen",
+   "zh": "必须",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "werden",
+   "zh": "变得；将",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "will",
+   "lemma": "wollen",
+   "zh": "想要",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "geht",
+   "lemma": "gehen",
+   "zh": "走；去",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "wo",
+   "zh": "哪里",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "etwas",
+   "zh": "某事；一些",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "mehr",
+   "zh": "更多",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "bei",
+   "zh": "在…旁边；在…处",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "also",
+   "zh": "那么；因此",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "bitte",
+   "zh": "请",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "immer",
+   "zh": "总是",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "hab",
+   "lemma": "haben",
+   "zh": "有",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "warum",
+   "zh": "为什么",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "vor",
+   "zh": "在…前面；…之前",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "los",
+   "zh": "松开的；走吧",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "können",
+   "zh": "能；会",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "wieder",
+   "zh": "再次",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "sagen",
+   "zh": "说",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "machen",
+   "zh": "做",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "danke",
+   "zh": "谢谢",
+   "level": "a1",
+   "pos": "interj."
+  },
+  {
+   "word": "sehr",
+   "zh": "很",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "alle",
+   "zh": "全部；大家",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "denn",
+   "zh": "因为；究竟",
+   "level": "a2",
+   "pos": "konj."
+  },
+  {
+   "word": "mann",
+   "lemma": "Mann",
+   "zh": "男人；丈夫",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "tun",
+   "zh": "做",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "zum",
+   "zh": "到…（zu dem 缩合）",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "gehen",
+   "zh": "走；去",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "sehen",
+   "zh": "看见",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "vielleicht",
+   "zh": "也许",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "wer",
+   "zh": "谁",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "diese",
+   "lemma": "dieser",
+   "zh": "这个；这些",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "über",
+   "zh": "在…上方；关于",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "gibt",
+   "lemma": "geben",
+   "zh": "有；给",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "okay",
+   "zh": "好的",
+   "level": "a1",
+   "pos": "interj."
+  },
+  {
+   "word": "wissen",
+   "zh": "知道",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "deine",
+   "lemma": "dein",
+   "zh": "你的",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "müssen",
+   "zh": "必须",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "soll",
+   "lemma": "sollen",
+   "zh": "应该",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "werde",
+   "lemma": "werden",
+   "zh": "变得；将",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "nie",
+   "zh": "从不",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "wirklich",
+   "zh": "真的",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "kein",
+   "zh": "没有；无",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "viel",
+   "zh": "多；大量",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "weg",
+   "zh": "走了；离开",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "würde",
+   "lemma": "werden",
+   "zh": "变得；将",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "tut",
+   "lemma": "tun",
+   "zh": "做",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "am",
+   "zh": "在（时刻、地点）",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "einfach",
+   "zh": "简单的；简直",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "leben",
+   "zh": "生活；活着",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "hatte",
+   "lemma": "haben",
+   "zh": "有",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "zeit",
+   "lemma": "Zeit",
+   "zh": "时间",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "weil",
+   "zh": "因为",
+   "level": "a1",
+   "pos": "konj."
+  },
+  {
+   "word": "willst",
+   "lemma": "wollen",
+   "zh": "想要",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "kommen",
+   "zh": "来",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "dein",
+   "zh": "你的",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "heute",
+   "zh": "今天",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "kommt",
+   "lemma": "kommen",
+   "zh": "来",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "wollen",
+   "zh": "想要",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "damit",
+   "zh": "为了；因此",
+   "level": "a2",
+   "pos": "konj."
+  },
+  {
+   "word": "ganz",
+   "zh": "完全；很",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "wäre",
+   "lemma": "sein",
+   "zh": "是；他的",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "wollte",
+   "lemma": "wollen",
+   "zh": "想要",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "weißt",
+   "lemma": "wissen",
+   "zh": "知道",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "sicher",
+   "zh": "确定的；安全的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "gesagt",
+   "lemma": "sagen",
+   "zh": "说",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "frau",
+   "lemma": "Frau",
+   "zh": "女士；妻子；女人",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "nun",
+   "zh": "现在；嗯",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "bis",
+   "zh": "直到",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "wurde",
+   "lemma": "werden",
+   "zh": "变得；将",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "kannst",
+   "lemma": "können",
+   "zh": "能；会",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "macht",
+   "lemma": "machen",
+   "zh": "做",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "dieser",
+   "zh": "这个；这些",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "zurück",
+   "zh": "回；返回",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "lassen",
+   "zh": "让；使",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "hallo",
+   "zh": "你好",
+   "level": "a1",
+   "pos": "interj."
+  },
+  {
+   "word": "meinen",
+   "zh": "认为；指的是",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "gott",
+   "lemma": "Gott",
+   "zh": "上帝",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "hätte",
+   "lemma": "haben",
+   "zh": "有",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "zwei",
+   "zh": "二；两",
+   "level": "a1",
+   "pos": "num."
+  },
+  {
+   "word": "könnte",
+   "lemma": "können",
+   "zh": "能；会",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "genau",
+   "zh": "确切；正好",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "waren",
+   "lemma": "sein",
+   "zh": "是；他的",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "zur",
+   "zh": "到…（zu der 缩合）",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "lass",
+   "lemma": "lassen",
+   "zh": "让；使",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "klar",
+   "zh": "清楚的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "morgen",
+   "zh": "明天；早晨",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "leute",
+   "lemma": "Leute",
+   "zh": "人们（复数）",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "vater",
+   "lemma": "Vater",
+   "zh": "父亲",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "schön",
+   "zh": "美丽的；好看的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "glaube",
+   "lemma": "glauben",
+   "zh": "相信",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "ab",
+   "zh": "从…起",
+   "level": "a2",
+   "pos": "präp."
+  },
+  {
+   "word": "gerade",
+   "zh": "正好；刚刚",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "tag",
+   "lemma": "Tag",
+   "zh": "天；日子",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "gesehen",
+   "lemma": "sehen",
+   "zh": "看见",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "reden",
+   "zh": "谈论；说话",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "wohl",
+   "zh": "大概；健康",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "liebe",
+   "lemma": "Liebe",
+   "zh": "爱；爱情",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "sollte",
+   "lemma": "sollen",
+   "zh": "应该",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "sagte",
+   "lemma": "sagen",
+   "zh": "说",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "unsere",
+   "lemma": "unser",
+   "zh": "我们的",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "jemand",
+   "zh": "某人",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "geld",
+   "lemma": "Geld",
+   "zh": "钱",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "durch",
+   "zh": "穿过；通过",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "ob",
+   "zh": "是否",
+   "level": "a2",
+   "pos": "konj."
+  },
+  {
+   "word": "keinen",
+   "lemma": "kein",
+   "zh": "没有；无",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "mutter",
+   "lemma": "Mutter",
+   "zh": "母亲",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "raus",
+   "zh": "出去（口语）",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "gemacht",
+   "lemma": "machen",
+   "zh": "做",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "paar",
+   "zh": "几个；一些",
+   "level": "a2",
+   "pos": "num."
+  },
+  {
+   "word": "mach",
+   "lemma": "machen",
+   "zh": "做",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "hast",
+   "lemma": "haben",
+   "zh": "有",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "komm",
+   "lemma": "kommen",
+   "zh": "来",
+   "level": "a1",
+   "pos": "v."
+  }
+ ],
+ "drop": [
+  {
+   "word": "dir",
+   "reason": "人称代词变格"
+  },
+  {
+   "word": "ihm",
+   "reason": "人称代词变格"
+  },
+  {
+   "word": "mir",
+   "reason": "人称代词变格"
+  },
+  {
+   "word": "den",
+   "reason": "定冠词变格"
+  },
+  {
+   "word": "mich",
+   "reason": "人称代词变格"
+  },
+  {
+   "word": "eine",
+   "reason": "ein 变格"
+  },
+  {
+   "word": "dich",
+   "reason": "人称代词变格"
+  },
+  {
+   "word": "einen",
+   "reason": "ein 变格"
+  },
+  {
+   "word": "uns",
+   "reason": "人称代词变格"
+  },
+  {
+   "word": "dem",
+   "reason": "定冠词变格"
+  },
+  {
+   "word": "ihn",
+   "reason": "人称代词变格"
+  },
+  {
+   "word": "einem",
+   "reason": "ein 变格"
+  },
+  {
+   "word": "ihre",
+   "reason": "ihr 变格"
+  },
+  {
+   "word": "euch",
+   "reason": "人称代词变格"
+  },
+  {
+   "word": "einer",
+   "reason": "ein 变格"
+  },
+  {
+   "word": "oh",
+   "reason": "语气词"
+  },
+  {
+   "word": "ihnen",
+   "reason": "人称代词变格"
+  },
+  {
+   "word": "hey",
+   "reason": "语气词"
+  },
+  {
+   "word": "des",
+   "reason": "定冠词变格"
+  },
+  {
+   "word": "ok",
+   "reason": "okay 变体"
+  },
+  {
+   "word": "leid",
+   "reason": "固定搭配成分"
+  },
+  {
+   "word": "na",
+   "reason": "语气词"
+  },
+  {
+   "word": "seine",
+   "reason": "变格形式"
+  },
+  {
+   "word": "mr.",
+   "reason": "缩略语"
+  }
+ ],
+ "dedup": []
+}

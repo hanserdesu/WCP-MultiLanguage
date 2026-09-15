@@ -1,0 +1,602 @@
+[
+{
+"word": "merken",
+"pos": "v.",
+"zh": "注意到；记住",
+"level": "a2"
+},
+{
+"word": "Schande",
+"pos": "n.f.",
+"zh": "耻辱",
+"level": "a2"
+},
+{
+"word": "Sieg",
+"pos": "n.m.",
+"zh": "胜利",
+"level": "a2"
+},
+{
+"word": "satt",
+"pos": "adj.",
+"zh": "饱的",
+"level": "a2"
+},
+{
+"word": "Blödsinn",
+"pos": "n.m.",
+"zh": "胡说",
+"level": "a2"
+},
+{
+"word": "Pfund",
+"pos": "n.",
+"zh": "磅",
+"level": "a2"
+},
+{
+"word": "handeln",
+"pos": "v.",
+"zh": "行动；交易",
+"level": "a2"
+},
+{
+"word": "enden",
+"pos": "v.",
+"zh": "结束",
+"level": "a2"
+},
+{
+"word": "raten",
+"pos": "v.",
+"zh": "猜",
+"level": "a2"
+},
+{
+"word": "Übersetzung",
+"pos": "n.f.",
+"zh": "翻译",
+"level": "a2"
+},
+{
+"word": "Kunst",
+"pos": "n.f.",
+"zh": "艺术",
+"level": "a2"
+},
+{
+"word": "Kapitän",
+"pos": "n.m.",
+"zh": "船长",
+"level": "a2"
+},
+{
+"word": "desto",
+"pos": "adv.",
+"zh": "越…",
+"level": "a2"
+},
+{
+"word": "Einsatz",
+"pos": "n.m.",
+"zh": "使用；行动",
+"level": "a2"
+},
+{
+"word": "schweigen",
+"pos": "v.",
+"zh": "沉默",
+"level": "a2"
+},
+{
+"word": "Krankheit",
+"pos": "n.f.",
+"zh": "疾病",
+"level": "a2"
+},
+{
+"word": "Schatten",
+"pos": "n.m.",
+"zh": "影子",
+"level": "a2"
+},
+{
+"word": "Wache",
+"pos": "n.f.",
+"zh": "岗哨",
+"level": "a2"
+},
+{
+"word": "Tatsache",
+"pos": "n.f.",
+"zh": "事实",
+"level": "a2"
+},
+{
+"word": "Stock",
+"pos": "n.m.",
+"zh": "棒；楼层",
+"level": "a2"
+},
+{
+"word": "hingehen",
+"pos": "v.",
+"zh": "过去",
+"level": "a2"
+},
+{
+"word": "verboten",
+"pos": "adj.",
+"zh": "被禁止的",
+"level": "a2"
+},
+{
+"word": "Anzug",
+"pos": "n.m.",
+"zh": "西装",
+"level": "a2"
+},
+{
+"word": "enttäuscht",
+"pos": "adj.",
+"zh": "失望的",
+"level": "a2"
+},
+{
+"word": "klopfen",
+"pos": "v.",
+"zh": "敲",
+"level": "a2"
+},
+{
+"word": "Dreck",
+"pos": "n.m.",
+"zh": "污物",
+"level": "a2"
+},
+{
+"word": "Mühe",
+"pos": "n.f.",
+"zh": "辛劳",
+"level": "a2"
+},
+{
+"word": "kontrollieren",
+"pos": "v.",
+"zh": "控制",
+"level": "a2"
+},
+{
+"word": "Knochen",
+"pos": "n.m.",
+"zh": "骨头",
+"level": "a2"
+},
+{
+"word": "schick",
+"pos": "adj.",
+"zh": "时髦的",
+"level": "a2"
+},
+{
+"word": "getrennt",
+"pos": "adj.",
+"zh": "分开的",
+"level": "a2"
+},
+{
+"word": "Programm",
+"pos": "n.",
+"zh": "节目；程序",
+"level": "a2"
+},
+{
+"word": "Grab",
+"pos": "n.",
+"zh": "坟墓",
+"level": "a2"
+},
+{
+"word": "ebenso",
+"pos": "adv.",
+"zh": "同样地",
+"level": "a2"
+},
+{
+"word": "Nachbar",
+"pos": "n.m.",
+"zh": "邻居",
+"level": "a2"
+},
+{
+"word": "bieten",
+"pos": "v.",
+"zh": "提供",
+"level": "a2"
+},
+{
+"word": "dennoch",
+"pos": "adv.",
+"zh": "然而",
+"level": "a2"
+},
+{
+"word": "rauchen",
+"pos": "v.",
+"zh": "抽烟",
+"level": "a2"
+},
+{
+"word": "vergeben",
+"pos": "v.",
+"zh": "原谅；给予",
+"level": "a2"
+},
+{
+"word": "trotz",
+"pos": "präp.",
+"zh": "尽管",
+"level": "a2"
+},
+{
+"word": "annehmen",
+"pos": "v.",
+"zh": "接受；假设",
+"level": "a2"
+},
+{
+"word": "herzlich",
+"pos": "adj.",
+"zh": "衷心的",
+"level": "a2"
+},
+{
+"word": "Hexe",
+"pos": "n.f.",
+"zh": "女巫",
+"level": "a2"
+},
+{
+"word": "erwachsen",
+"pos": "adj.",
+"zh": "成年的",
+"level": "a2"
+},
+{
+"word": "Pistole",
+"pos": "n.f.",
+"zh": "手枪",
+"level": "a2"
+},
+{
+"word": "Aussage",
+"pos": "n.f.",
+"zh": "陈述",
+"level": "a2"
+},
+{
+"word": "genießen",
+"pos": "v.",
+"zh": "享受",
+"level": "a2"
+},
+{
+"word": "eifersüchtig",
+"pos": "adj.",
+"zh": "嫉妒的",
+"level": "a2"
+},
+{
+"word": "derjenige",
+"pos": "pron.",
+"zh": "那个（人）",
+"level": "a2"
+},
+{
+"word": "beobachten",
+"pos": "v.",
+"zh": "观察",
+"level": "a2"
+},
+{
+"word": "wählen",
+"pos": "v.",
+"zh": "选择；投票",
+"level": "a2"
+},
+{
+"word": "zulassen",
+"pos": "v.",
+"zh": "允许；容许",
+"level": "a2"
+},
+{
+"word": "schnappen",
+"pos": "v.",
+"zh": "抓住（口语）",
+"level": "a2"
+},
+{
+"word": "komplett",
+"pos": "adj.",
+"zh": "完整的",
+"level": "a2"
+},
+{
+"word": "Panik",
+"pos": "n.f.",
+"zh": "恐慌",
+"level": "a2"
+},
+{
+"word": "bewusst",
+"pos": "adj.",
+"zh": "意识到的",
+"level": "a2"
+},
+{
+"word": "voraus",
+"pos": "adv.",
+"zh": "在前面；预先",
+"level": "a2"
+},
+{
+"word": "begleiten",
+"pos": "v.",
+"zh": "陪同",
+"level": "a2"
+},
+{
+"word": "einander",
+"pos": "pron.",
+"zh": "彼此",
+"level": "a2"
+},
+{
+"word": "erleben",
+"pos": "v.",
+"zh": "经历",
+"level": "a2"
+},
+{
+"word": "weiterhin",
+"pos": "adv.",
+"zh": "继续",
+"level": "a2"
+},
+{
+"word": "stärker",
+"pos": "adj.",
+"zh": "更强的",
+"level": "a2"
+},
+{
+"word": "Fahrer",
+"pos": "n.m.",
+"zh": "司机",
+"level": "a2"
+},
+{
+"word": "konzentrieren",
+"pos": "v.",
+"zh": "集中",
+"level": "a2"
+},
+{
+"word": "streiten",
+"pos": "v.",
+"zh": "争吵",
+"level": "a2"
+},
+{
+"word": "angehen",
+"pos": "v.",
+"zh": "涉及",
+"level": "a2"
+},
+{
+"word": "Star",
+"pos": "n.m.",
+"zh": "明星",
+"level": "a2"
+},
+{
+"word": "Alkohol",
+"pos": "n.m.",
+"zh": "酒精",
+"level": "a2"
+},
+{
+"word": "übersetzen",
+"pos": "v.",
+"zh": "翻译",
+"level": "a2"
+},
+{
+"word": "weitermachen",
+"pos": "v.",
+"zh": "继续做",
+"level": "a2"
+},
+{
+"word": "Botschaft",
+"pos": "n.f.",
+"zh": "信息；使馆",
+"level": "a2"
+},
+{
+"word": "aufgeregt",
+"pos": "adj.",
+"zh": "兴奋的",
+"level": "a2"
+},
+{
+"word": "Selbstmord",
+"pos": "n.m.",
+"zh": "自杀",
+"level": "a2"
+},
+{
+"word": "zurückkommen",
+"pos": "v.",
+"zh": "回来",
+"level": "a2"
+},
+{
+"word": "irgendein",
+"pos": "pron.",
+"zh": "某一个",
+"level": "a2"
+},
+{
+"word": "Magie",
+"pos": "n.f.",
+"zh": "魔法",
+"level": "a2"
+},
+{
+"word": "untersuchen",
+"pos": "v.",
+"zh": "调查；检查",
+"level": "a2"
+},
+{
+"word": "Flucht",
+"pos": "n.f.",
+"zh": "逃跑",
+"level": "a2"
+},
+{
+"word": "Gegenteil",
+"pos": "n.",
+"zh": "相反",
+"level": "a2"
+},
+{
+"word": "betreffen",
+"pos": "v.",
+"zh": "涉及",
+"level": "a2"
+},
+{
+"word": "scharf",
+"pos": "adj.",
+"zh": "锋利的；辛辣",
+"level": "a2"
+},
+{
+"word": "Projekt",
+"pos": "n.",
+"zh": "项目",
+"level": "a2"
+},
+{
+"word": "Trottel",
+"pos": "n.m.",
+"zh": "傻瓜",
+"level": "a2"
+},
+{
+"word": "immerhin",
+"pos": "adv.",
+"zh": "至少；毕竟",
+"level": "a2"
+},
+{
+"word": "mehrere",
+"pos": "adj.",
+"zh": "几个",
+"level": "a2"
+},
+{
+"word": "schwimmen",
+"pos": "v.",
+"zh": "游泳",
+"level": "a2"
+},
+{
+"word": "innerhalb",
+"pos": "präp.",
+"zh": "在…之内",
+"level": "a2"
+},
+{
+"word": "matt",
+"pos": "adj.",
+"zh": "疲惫的；暗淡",
+"level": "a2"
+},
+{
+"word": "blind",
+"pos": "adj.",
+"zh": "盲的",
+"level": "a2"
+},
+{
+"word": "Code",
+"pos": "n.m.",
+"zh": "密码；代码",
+"level": "a2"
+},
+{
+"word": "schlau",
+"pos": "adj.",
+"zh": "精明的",
+"level": "a2"
+},
+{
+"word": "Absicht",
+"pos": "n.f.",
+"zh": "意图",
+"level": "a2"
+},
+{
+"word": "zuletzt",
+"pos": "adv.",
+"zh": "最后",
+"level": "a2"
+},
+{
+"word": "älter",
+"pos": "adj.",
+"zh": "更老的",
+"level": "a2"
+},
+{
+"word": "merkwürdig",
+"pos": "adj.",
+"zh": "奇怪的",
+"level": "a2"
+},
+{
+"word": "Größe",
+"pos": "n.f.",
+"zh": "大小",
+"level": "a2"
+},
+{
+"word": "trauen",
+"pos": "v.",
+"zh": "敢于；信任",
+"level": "a2"
+},
+{
+"word": "Trick",
+"pos": "n.m.",
+"zh": "把戏",
+"level": "a2"
+},
+{
+"word": "Vorstellung",
+"pos": "n.f.",
+"zh": "想象；演出",
+"level": "a2"
+},
+{
+"word": "reinkommen",
+"pos": "v.",
+"zh": "进来（口语）",
+"level": "a2"
+}
+]

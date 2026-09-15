@@ -1,0 +1,502 @@
+{
+"pressé": [
+{"fr": "Dépêche-toi, je suis très pressé ce matin.", "zh": "快点儿，我今天早上赶时间。"},
+{"fr": "Les gens pressés ne regardent même pas les vitrines.", "zh": "赶路的人连橱窗都不看一眼。"},
+{"fr": "Il est pressé de retrouver ses amis de l'université.", "zh": "他急着去见大学时的老朋友。"}
+],
+"printemps": [
+{"fr": "Au printemps, les cerisiers fleurissent dans le parc.", "zh": "春天，公园里的樱树开花了。"},
+{"fr": "Le printemps arrive enfin, les jours rallongent.", "zh": "春天终于来了，白天变长了。"},
+{"fr": "Elle plante des tulipes avant la fin du printemps.", "zh": "她赶在春末把郁金香种下。"}
+],
+"prix": [
+{"fr": "Ce manteau est en solde, le prix a baissé de moitié.", "zh": "这件大衣在打折，价格降了一半。"},
+{"fr": "Le premier prix du concours est un voyage en Grèce.", "zh": "比赛的一等奖是一次希腊之旅。"},
+{"fr": "Compare les prix avant d'acheter ton ordinateur.", "zh": "买电脑之前先比比价格。"}
+],
+"problème": [
+{"fr": "J'ai un problème avec mon imprimante.", "zh": "我的打印机出了点问题。"},
+{"fr": "Aucun problème, on vous rappelle demain matin.", "zh": "没问题，我们明天早上给您回电话。"},
+{"fr": "Le stationnement devient un vrai problème dans ce quartier.", "zh": "在这个街区，停车已经成了大麻烦。"}
+],
+"prochain": [
+{"fr": "Le prochain train pour Marseille part dans vingt minutes.", "zh": "下一班去马赛的火车二十分钟后发车。"},
+{"fr": "À la prochaine réunion, nous présenterons le projet.", "zh": "下次会议上，我们来展示这个项目。"},
+{"fr": "Rendez-vous la semaine prochaine à la même heure.", "zh": "下周同一时间见。"}
+],
+"professeur": [
+{"fr": "Notre professeur de mathématiques explique très clairement.", "zh": "我们的数学老师讲得非常清楚。"},
+{"fr": "Elle est professeur d'histoire dans un lycée de Nantes.", "zh": "她是南特一所高中的历史老师。"},
+{"fr": "Les élèves écoutent attentivement le professeur.", "zh": "学生们认真听老师讲课。"}
+],
+"promener": [
+{"fr": "Nous nous promenons le long du canal le dimanche.", "zh": "星期天我们沿着运河散步。"},
+{"fr": "Il promène son chien tous les matins avant le travail.", "zh": "他每天上班前先遛狗。"},
+{"fr": "Viens te promener avec nous au bord du lac.", "zh": "来跟我们一起去湖边走走吧。"}
+],
+"propre": [
+{"fr": "Mets une chemise propre pour l'entretien.", "zh": "面试要穿件干净的衬衫。"},
+{"fr": "Range ta chambre, elle doit être propre avant samedi.", "zh": "把房间收拾好，周六前必须干干净净。"},
+{"fr": "Chacun range sa propre chambre, c'est plus juste.", "zh": "各人收拾各人的房间，这样更公平。"}
+],
+"près": [
+{"fr": "Il y a une boulangerie tout près de chez moi.", "zh": "我家旁边就有一家面包店。"},
+{"fr": "Assieds-toi près de la fenêtre, il y a plus de lumière.", "zh": "坐到窗户边去，那儿光线好一些。"},
+{"fr": "Le chien dort près du feu.", "zh": "狗睡在炉火旁边。"}
+],
+"préférer": [
+{"fr": "Je préfère partir tôt et éviter la foule.", "zh": "我宁愿早点出发，躲开人流。"},
+{"fr": "Préfères-tu la mer ou la montagne pour les vacances ?", "zh": "度假你更喜欢去海边还是山里？"},
+{"fr": "Elle préfère le thé au café le soir.", "zh": "晚上她宁愿喝茶，不喝咖啡。"}
+],
+"préféré": [
+{"fr": "Quel est ton film préféré ?", "zh": "你最喜欢的电影是什么？"},
+{"fr": "Mon dessert préféré, c'est la tarte aux fraises.", "zh": "我最喜欢的甜点是草莓挞。"},
+{"fr": "C'est le chanteur préféré de mes parents.", "zh": "这是我父母最喜欢的歌手。"}
+],
+"prénom": [
+{"fr": "Ton prénom commence par quelle lettre ?", "zh": "你的名字以哪个字母开头？"},
+{"fr": "Écrivez votre nom et votre prénom sur la fiche.", "zh": "请在表格上写上您的姓和名。"},
+{"fr": "En France, le prénom vient avant le nom de famille.", "zh": "在法国，名放在姓的前面。"}
+],
+"préparer": [
+{"fr": "Je prépare le dîner pendant que tu ranges le salon.", "zh": "我做饭，你收拾客厅。"},
+{"fr": "Elle prépare son examen de conduite depuis trois mois.", "zh": "她备考驾照已经三个月了。"},
+{"fr": "Prépare ton sac ce soir pour partir tôt demain.", "zh": "今晚就把包收拾好，明天好早点出发。"}
+],
+"présenter": [
+{"fr": "Permettez-moi de vous présenter mon collègue, monsieur Martin.", "zh": "请允许我介绍我的同事马丁先生。"},
+{"fr": "Il présente son projet au jury demain matin.", "zh": "他明天上午向评审团展示自己的方案。"},
+{"fr": "Le musée présente des tableaux du dix-neuvième siècle.", "zh": "博物馆正在展出十九世纪的绘画。"}
+],
+"prêt": [
+{"fr": "Le dîner est prêt dans dix minutes.", "zh": "晚饭十分钟后就好。"},
+{"fr": "Es-tu prêt à partir ? Le taxi arrive.", "zh": "你准备好出发了吗？出租车马上就到。"},
+{"fr": "Les élèves sont prêts pour l'examen oral.", "zh": "学生们已经为口试做好了准备。"}
+],
+"puis": [
+{"fr": "Je me lève, puis je prends mon petit-déjeuner.", "zh": "我起床，然后吃早餐。"},
+{"fr": "Tourne à droite, puis va tout droit jusqu'à la place.", "zh": "右转，然后一直走到广场。"},
+{"fr": "Il a d'abord hésité, puis il a dit oui.", "zh": "他先犹豫了一下，然后答应了。"}
+],
+"père": [
+{"fr": "Mon père rentre du travail vers dix-huit heures.", "zh": "我爸爸六点左右下班回家。"},
+{"fr": "Elle ressemble beaucoup à son père.", "zh": "她长得特别像她爸爸。"},
+{"fr": "Son père lui a appris à pêcher au bord de la rivière.", "zh": "他爸爸教他在河边钓鱼。"}
+],
+"pépé": [
+{"fr": "Pépé nous regarde jouer dans le jardin.", "zh": "爷爷看着我们在花园里玩。"},
+{"fr": "On écoute les histoires de Pépé après le dîner.", "zh": "晚饭后我们听爷爷讲故事。"},
+{"fr": "Mon pépé cultive encore son potager à quatre-vingts ans.", "zh": "我爷爷八十岁了还在打理菜园。"}
+],
+"quand": [
+{"fr": "Quand est-ce que le film commence ?", "zh": "电影什么时候开始？"},
+{"fr": "Il lit quand les enfants dorment.", "zh": "孩子们睡着了，他就看书。"},
+{"fr": "Quand j'étais petite, nous allions à la mer chaque été.", "zh": "我小时候，每年夏天我们都去海边。"}
+],
+"quarante": [
+{"fr": "Mon père a quarante ans cette année.", "zh": "我爸爸今年整四十岁。"},
+{"fr": "La réunion dure quarante minutes, pas plus.", "zh": "会议只开四十分钟，不会更长。"},
+{"fr": "Ici, la température dépasse rarement quarante degrés.", "zh": "这里气温很少超过四十度。"}
+],
+"quatorze": [
+{"fr": "Elle a fêté ses quatorze ans au bord de la mer.", "zh": "她是在海边过的十四岁生日。"},
+{"fr": "Le quatorze juillet, il y a des feux d'artifice partout.", "zh": "七月十四号那天，到处都放烟花。"},
+{"fr": "Nous partons à quatorze heures pile.", "zh": "我们十四点整出发。"}
+],
+"quatre": [
+{"fr": "Le cours commence à quatre heures.", "zh": "课四点开始上。"},
+{"fr": "Il y a quatre chaises autour de la table.", "zh": "桌子旁边摆着四把椅子。"},
+{"fr": "Nous restons quatre jours à Venise.", "zh": "我们在威尼斯待四天。"}
+],
+"quatrième": [
+{"fr": "Leur appartement est au quatrième étage, sans ascenseur.", "zh": "他们的公寓在五楼，没有电梯。"},
+{"fr": "C'est la quatrième fois que je visite ce musée.", "zh": "这已经是我第四次参观这座博物馆了。"},
+{"fr": "Tourne à la quatrième rue à droite.", "zh": "到第四条街向右拐。"}
+],
+"que": [
+{"fr": "Je crois que tu as raison.", "zh": "我想你是对的。"},
+{"fr": "Que fais-tu ce week-end ?", "zh": "你这个周末做什么？"},
+{"fr": "Qu'est-ce que tu manges ce soir ?", "zh": "你今晚吃什么？"}
+],
+"quel": [
+{"fr": "Quel temps fait-il chez toi en hiver ?", "zh": "你那儿冬天天气怎么样？"},
+{"fr": "Quel jour sommes-nous aujourd'hui ?", "zh": "今天是星期几？"},
+{"fr": "Quel est ton dessert préféré, la glace ou le gâteau ?", "zh": "你喜欢哪种甜点，冰淇淋还是蛋糕？"}
+],
+"quelle": [
+{"fr": "Quelle heure est-il à Paris maintenant ?", "zh": "现在巴黎几点了？"},
+{"fr": "Quelle jolie robe tu portes aujourd'hui !", "zh": "你今天这条裙子真漂亮！"},
+{"fr": "Quelle est la différence entre ces deux cartes ?", "zh": "这两张地图有什么区别？"}
+],
+"quelqu'un": [
+{"fr": "Quelqu'un a sonné pendant ton absence.", "zh": "你不在的时候有人按过门铃。"},
+{"fr": "Il cherche quelqu'un pour l'aider à déménager.", "zh": "他在找人帮他搬家。"},
+{"fr": "Y a-t-il quelqu'un qui parle chinois ici ?", "zh": "这里有人会说中文吗？"}
+],
+"quelque": [
+{"fr": "Il a encore quelque espoir de retrouver son chat.", "zh": "他对找回自己的猫还抱着一丝希望。"},
+{"fr": "Nous nous sommes rencontrés quelque part près de Lyon.", "zh": "我们好像在里昂附近的什么地方见过。"},
+{"fr": "Je voudrais te demander quelque chose d'important.", "zh": "我想请你帮个重要的忙。"}
+],
+"quelques": [
+{"fr": "Il reste quelques biscuits dans la boîte.", "zh": "盒子里还剩几块饼干。"},
+{"fr": "Nous passerons quelques jours à Barcelone en mars.", "zh": "三月我们要去巴塞罗那待几天。"},
+{"fr": "Quelques élèves arrivent toujours dix minutes en retard.", "zh": "总有几个学生要迟到十分钟。"}
+],
+"question": [
+{"fr": "J'ai une question à propos du devoir.", "zh": "关于这份作业，我有个问题。"},
+{"fr": "Le professeur répond à chaque question avec patience.", "zh": "老师耐心地回答每一个问题。"},
+{"fr": "C'est une bonne question, laisse-moi réfléchir.", "zh": "这个问题问得好，让我想一想。"}
+],
+"qui": [
+{"fr": "Qui a laissé la fenêtre ouverte ?", "zh": "是谁没关窗户？"},
+{"fr": "Je connais la fille qui habite au-dessus.", "zh": "我认识住在楼上的那个女孩。"},
+{"fr": "Avec qui vas-tu au concert ?", "zh": "你和谁一起去听音乐会？"}
+],
+"quinze": [
+{"fr": "Le train part à quinze heures trente.", "zh": "火车十五点三十分发车。"},
+{"fr": "Elle n'a que quinze ans et joue déjà au tennis en compétition.", "zh": "她才十五岁，已经打网球比赛了。"},
+{"fr": "Ajoute quinze grammes de sucre à la pâte.", "zh": "往面团里加十五克糖。"}
+],
+"quoi": [
+{"fr": "Tu penses à quoi en ce moment ?", "zh": "你这会儿在想什么呢？"},
+{"fr": "De quoi avez-vous besoin pour le pique-nique ?", "zh": "你们野餐需要带些什么？"},
+{"fr": "C'est quoi, ce bruit dans le garage ?", "zh": "车库里是什么声音？"}
+],
+"radio": [
+{"fr": "Écoute les informations à la radio en cuisinant.", "zh": "做饭的时候听听广播里的新闻。"},
+{"fr": "Cette station de radio passe du jazz toute la nuit.", "zh": "这个电台整晚都放爵士乐。"},
+{"fr": "Ma grand-mère écoute encore la radio à piles.", "zh": "我奶奶还在听那种电池收音机。"}
+],
+"rapide": [
+{"fr": "Le TGV est très rapide entre Paris et Lyon.", "zh": "高铁在巴黎和里昂之间跑得飞快。"},
+{"fr": "Sois rapide, le magasin ferme à dix-neuf heures.", "zh": "快一点，商店十九点就关门了。"},
+{"fr": "Elle a fait des progrès rapides en français.", "zh": "她的法语进步很快。"}
+],
+"regarder": [
+{"fr": "Les enfants regardent un dessin animé après le dîner.", "zh": "孩子们晚饭后看动画片。"},
+{"fr": "Regarde par la fenêtre, il neige !", "zh": "看看窗外，下雪了！"},
+{"fr": "Nous regardons le match dans le bar du coin.", "zh": "我们在街角的酒吧里看比赛。"}
+],
+"rentrer": [
+{"fr": "Je rentre à la maison vers dix-huit heures.", "zh": "我六点左右回到家。"},
+{"fr": "Rentre avant qu'il fasse nuit !", "zh": "天黑之前回来！"},
+{"fr": "Le chat rentre toujours avant le dîner.", "zh": "猫总在晚饭前回家。"}
+],
+"repas": [
+{"fr": "Dans le sud, le repas du soir est léger.", "zh": "在南方，晚饭吃得比较清淡。"},
+{"fr": "Elle prépare un repas végétarien pour ses invités.", "zh": "她给客人准备了一桌素食。"},
+{"fr": "Pendant les fêtes, chaque repas dure des heures.", "zh": "节日期间，一顿饭要吃上好几个钟头。"}
+],
+"restaurant": [
+{"fr": "Ce restaurant sert une cuisine régionale excellente.", "zh": "这家餐厅的地方菜做得非常棒。"},
+{"fr": "On réserve une table au restaurant pour l'anniversaire de Léa.", "zh": "为了给莉亚过生日，我们在餐厅订了位子。"},
+{"fr": "Le restaurant ferme la cuisine à vingt-deux heures.", "zh": "这家餐厅二十二点停止供餐。"}
+],
+"rester": [
+{"fr": "Je reste à la maison ce week-end.", "zh": "这个周末我待在家里。"},
+{"fr": "Reste encore un peu, le film est presque fini.", "zh": "再待一会儿吧，电影快演完了。"},
+{"fr": "L'eau reste froide même en été.", "zh": "这里的水就算到了夏天也是凉的。"}
+],
+"retour": [
+{"fr": "Il est de retour après trois ans à l'étranger.", "zh": "在国外待了三年，他回来了。"},
+{"fr": "Le retour au bureau après les vacances est toujours difficile.", "zh": "假期过后回来上班，总是最难熬的。"},
+{"fr": "Au retour, nous avons pris le train de nuit.", "zh": "回程我们坐了夜班火车。"}
+],
+"revenir": [
+{"fr": "Reviens vite, on t'attend pour le dîner !", "zh": "快回来，大家等你吃饭呢！"},
+{"fr": "Elle revient de Paris par le train de dix-neuf heures.", "zh": "她坐十九点的火车从巴黎回来。"},
+{"fr": "Ils reviendront nous voir au printemps prochain.", "zh": "明年春天他们还会回来看我们。"}
+],
+"revoir": [
+{"fr": "Au revoir, à la semaine prochaine !", "zh": "再见，下星期见！"},
+{"fr": "J'espère te revoir bientôt à Lyon.", "zh": "希望不久能在里昂再见到你。"},
+{"fr": "Quel plaisir de revoir toute la famille réunie.", "zh": "一家人重新团聚，真让人高兴。"}
+],
+"rez-de-chaussée": [
+{"fr": "La boulangerie occupe le rez-de-chaussée de notre immeuble.", "zh": "面包店开在我们这栋楼的一层。"},
+{"fr": "L'appartement au rez-de-chaussée a un petit jardin.", "zh": "底楼那套公寓带一个小花园。"},
+{"fr": "Attends-moi dans le hall du rez-de-chaussée.", "zh": "你在一楼的大厅里等我。"}
+],
+"rien": [
+{"fr": "Il n'y a rien dans le frigo.", "zh": "冰箱里什么都没有。"},
+{"fr": "Ne t'inquiète pas, ce n'est rien de grave.", "zh": "别担心，不是什么大事。"},
+{"fr": "Elle dit qu'elle ne veut rien pour son anniversaire.", "zh": "她说过生日什么礼物都不想要。"}
+],
+"rire": [
+{"fr": "Tu vas rire en entendant cette histoire.", "zh": "你听了这个故事一定会笑。"},
+{"fr": "Les enfants rient aux éclats dans la cour.", "zh": "孩子们在院子里放声大笑。"},
+{"fr": "On a bien ri ensemble hier soir.", "zh": "昨天晚上我们一起笑得很开心。"}
+],
+"riz": [
+{"fr": "Ce riz basmati sent vraiment bon.", "zh": "这个印度香米闻起来真香。"},
+{"fr": "Il faut rincer le riz avant de le cuire.", "zh": "煮饭之前要先把米淘一淘。"},
+{"fr": "J'achète du riz complet au magasin bio.", "zh": "我在有机食品店买糙米。"}
+],
+"robe": [
+{"fr": "Elle a choisi une robe bleue pour le mariage.", "zh": "为了参加婚礼，她挑了一条蓝裙子。"},
+{"fr": "Cette robe te va très bien.", "zh": "这条裙子你穿着特别好看。"},
+{"fr": "La robe du soir est encore chez la couturière.", "zh": "晚礼服还留在裁缝那儿。"}
+],
+"rose": [
+{"fr": "Il lui a offert trois roses rouges.", "zh": "他送了她三朵红玫瑰。"},
+{"fr": "Sa chambre est peinte en rose pâle.", "zh": "她的房间刷成了淡粉色。"},
+{"fr": "Une rose fanée est restée dans le livre.", "zh": "一朵干枯的玫瑰还夹在那本书里。"}
+],
+"rouge": [
+{"fr": "Le feu passe au rouge, freine !", "zh": "红灯亮了，快刹车！"},
+{"fr": "Elle met du rouge à lèvres devant le miroir.", "zh": "她对着镜子涂口红。"},
+{"fr": "Ces tomates mûres sont bien rouges.", "zh": "这些熟透的西红柿红得很。"}
+],
+"route": [
+{"fr": "Nous avons pris la route de la côte tôt le matin.", "zh": "我们一大早就上了去海边的公路。"},
+{"fr": "Cette route de montagne est fermée en hiver.", "zh": "这条山路冬天封闭。"},
+{"fr": "Reste sur cette route jusqu'au prochain carrefour.", "zh": "沿这条路一直走到下一个路口。"}
+],
+"rue": [
+{"fr": "Les enfants jouent dans la rue derrière l'immeuble.", "zh": "孩子们在楼后面的街上玩耍。"},
+{"fr": "Habites-tu dans cette rue depuis longtemps ?", "zh": "你在这条街住很久了吗？"},
+{"fr": "La rue est très calme le dimanche matin.", "zh": "星期天早上街上非常安静。"}
+],
+"russe": [
+{"fr": "Elle apprend le russe depuis deux ans.", "zh": "她学俄语已经两年了。"},
+{"fr": "Notre voisin est russe et parle aussi français.", "zh": "我们的邻居是俄罗斯人，也会说法语。"},
+{"fr": "Ce roman russe raconte l'hiver à Saint-Pétersbourg.", "zh": "这部俄国小说写的是圣彼得堡的冬天。"}
+],
+"réfrigérateur": [
+{"fr": "Mets le lait au réfrigérateur, il va tourner.", "zh": "把牛奶放进冰箱，不然要变质了。"},
+{"fr": "Le réfrigérateur fait un bruit étrange depuis ce matin.", "zh": "从今天早上起，冰箱就一直有怪声。"},
+{"fr": "Il a nettoyé le réfrigérateur avant les courses.", "zh": "采购之前，他把冰箱清理了一遍。"}
+],
+"répondre": [
+{"fr": "Il faut répondre à ce courriel avant vendredi.", "zh": "这封邮件要在周五前回复。"},
+{"fr": "Réponds poliment quand on te pose une question.", "zh": "别人问你话，要有礼貌地回答。"},
+{"fr": "Elle a répondu à toutes les questions de l'examen.", "zh": "考卷上的题目她全都答了。"}
+],
+"réponse": [
+{"fr": "Ta réponse est arrivée trop tard.", "zh": "你的答复来得太晚了。"},
+{"fr": "J'attends encore une réponse de l'université.", "zh": "我还在等大学的答复。"},
+{"fr": "Il n'a pas trouvé la bonne réponse à la dernière question.", "zh": "最后一道题他没找对答案。"}
+],
+"réveiller": [
+{"fr": "Réveille-moi à sept heures, s'il te plaît.", "zh": "请七点叫我起床。"},
+{"fr": "Je me réveille toujours avant le réveil.", "zh": "我总是比闹钟醒得早。"},
+{"fr": "Les oiseaux me réveillent chaque matin au printemps.", "zh": "春天每天早上都是鸟把我叫醒。"}
+],
+"sa": [
+{"fr": "Sa voiture est garée devant le bureau.", "zh": "他的车停在办公室门前。"},
+{"fr": "Chaque matin, elle emmène sa fille à l'école.", "zh": "每天早上，她都送女儿去上学。"},
+{"fr": "Le chien cherche sa balle sous le canapé.", "zh": "狗在沙发底下找它的球。"}
+],
+"sac": [
+{"fr": "Mon sac est resté dans le coffre.", "zh": "我的包落在后备箱里了。"},
+{"fr": "Elle a acheté un sac à main en cuir.", "zh": "她买了一个皮手提包。"},
+{"fr": "Mets tes chaussures de sport dans ton sac.", "zh": "把运动鞋装进你的包里。"}
+],
+"salade": [
+{"fr": "Une salade verte accompagne très bien ce plat.", "zh": "这道菜配一份青菜沙拉特别好。"},
+{"fr": "Elle coupe les tomates pour la salade.", "zh": "她切西红柿拌沙拉。"},
+{"fr": "Commande une salade de fruits pour le dessert.", "zh": "甜点就点一份水果沙拉吧。"}
+],
+"sale": [
+{"fr": "Va te laver les mains, elles sont toutes sales.", "zh": "去把手洗了，脏成这样。"},
+{"fr": "Ce pantalon est sale après le match de football.", "zh": "踢完足球，这条裤子全脏了。"},
+{"fr": "Il fait sale aujourd'hui, le ciel est gris.", "zh": "今天天气不好，天灰蒙蒙的。"}
+],
+"salle": [
+{"fr": "La salle de bain est au bout du couloir.", "zh": "浴室在走廊尽头。"},
+{"fr": "Ils ont réservé une salle pour la réunion de lundi.", "zh": "他们为周一的会议订了一间会议室。"},
+{"fr": "Cette salle de classe peut accueillir trente élèves.", "zh": "这间教室能坐下三十个学生。"}
+],
+"salut": [
+{"fr": "Salut, ça fait longtemps ! Comment vas-tu ?", "zh": "嗨，好久不见！你最近怎么样？"},
+{"fr": "Salut tout le monde, entrez, la fête commence !", "zh": "大家好，请进，派对开始啦！"},
+{"fr": "Depuis le train, il m'a fait un petit salut de la main.", "zh": "他在火车上向我挥了挥手。"}
+],
+"samedi": [
+{"fr": "Nous jouons au tennis tous les samedis matin.", "zh": "我们每周六上午都打网球。"},
+{"fr": "Samedi soir, il y a un concert sur la place.", "zh": "周六晚上，广场上有一场音乐会。"},
+{"fr": "Le magasin reste ouvert le samedi jusqu'à vingt heures.", "zh": "这家商店周六营业到二十点。"}
+],
+"sans": [
+{"fr": "Je bois mon café sans sucre.", "zh": "我喝咖啡不加糖。"},
+{"fr": "Il est parti sans dire au revoir.", "zh": "他连声再见都没说就走了。"},
+{"fr": "On ne peut pas vivre sans un peu de musique.", "zh": "生活中要是没有一点音乐可不行。"}
+],
+"sauce": [
+{"fr": "Mets encore un peu de sauce sur tes pâtes.", "zh": "再往你的面上浇点酱汁。"},
+{"fr": "Cette sauce tomate mijote depuis deux heures.", "zh": "这锅番茄酱已经炖了两个小时。"},
+{"fr": "Le cuisinier goûte la sauce avant de servir.", "zh": "上菜之前，厨师先尝了尝酱汁。"}
+],
+"sauter": [
+{"fr": "Les enfants sautent dans les flaques après l'orage.", "zh": "雷雨过后，孩子们在水洼里蹦来蹦去。"},
+{"fr": "Il saute du plongeoir sans hésiter.", "zh": "他毫不犹豫地从跳板上跳了下去。"},
+{"fr": "Mon cœur a sauté quand le téléphone a sonné la nuit.", "zh": "深夜电话一响，我的心猛地一跳。"}
+],
+"savoir": [
+{"fr": "Je ne sais pas où il a rangé les photos.", "zh": "我不知道他把照片收哪儿去了。"},
+{"fr": "Il faut savoir dire non parfois.", "zh": "有时候要学会说不。"},
+{"fr": "Tu sais nager depuis longtemps, toi ?", "zh": "你会游泳很久了吧？"}
+],
+"savon": [
+{"fr": "Il reste un morceau de savon dans la douche.", "zh": "淋浴间里还剩一小块肥皂。"},
+{"fr": "Achète du savon et du shampooing, s'il te plaît.", "zh": "麻烦买点肥皂和洗发水。"},
+{"fr": "Ce savon sent la lavande.", "zh": "这块肥皂有薰衣草的香味。"}
+],
+"se": [
+{"fr": "Il se lave les mains avant de cuisiner.", "zh": "他做饭前先洗手。"},
+{"fr": "Elles se retrouvent chaque vendredi au même café.", "zh": "她们每周五都在同一家咖啡馆见面。"},
+{"fr": "Le chat se couche au soleil près de la fenêtre.", "zh": "猫趴在窗边晒着太阳睡觉。"}
+],
+"seconde": [
+{"fr": "Attends une seconde, je prends mes clés.", "zh": "等我一秒钟，我去拿钥匙。"},
+{"fr": "Une seconde d'inattention, et le verre est tombé.", "zh": "一走神，杯子就摔了。"},
+{"fr": "Le coureur a gagné avec trois secondes d'avance.", "zh": "那名选手以三秒的优势获胜。"}
+],
+"seize": [
+{"fr": "Il fait seize degrés ce matin, prends une veste.", "zh": "今天早上十六度，穿件外套吧。"},
+{"fr": "La bibliothèque ouvre à seize heures le samedi.", "zh": "图书馆周六十六点开门。"},
+{"fr": "Nous sommes le seize avril aujourd'hui.", "zh": "今天是四月十六号。"}
+],
+"sel": [
+{"fr": "Passe-moi le sel, s'il te plaît.", "zh": "请把盐递给我。"},
+{"fr": "Cette soupe manque un peu de sel.", "zh": "这汤有点淡，盐放少了。"},
+{"fr": "L'eau de mer contient beaucoup de sel.", "zh": "海水里含有很多盐。"}
+],
+"semaine": [
+{"fr": "Bonne semaine, à lundi prochain !", "zh": "祝你这一周顺利，下周一见！"},
+{"fr": "Cette semaine, j'ai trois réunions et deux déplacements.", "zh": "这周我有三个会，还要出两趟差。"},
+{"fr": "Il pleut depuis une semaine sans arrêt.", "zh": "雨已经下了一整周，没停过。"}
+],
+"sept": [
+{"fr": "Le réveil sonne à sept heures chaque matin.", "zh": "闹钟每天早上七点响。"},
+{"fr": "Nous sommes sept à table ce soir.", "zh": "今晚我们七个人一起吃饭。"},
+{"fr": "Le cours dure sept semaines avant les examens.", "zh": "考试前，这门课还要上七周。"}
+],
+"septembre": [
+{"fr": "La rentrée scolaire a lieu début septembre.", "zh": "开学在九月初。"},
+{"fr": "En septembre, la mer reste encore douce.", "zh": "九月里，海水还是温的。"},
+{"fr": "Mon neveu est né le trois septembre.", "zh": "我侄子是九月三号出生的。"}
+],
+"ses": [
+{"fr": "Il range ses jouets avant de se coucher.", "zh": "他睡前把玩具收拾好。"},
+{"fr": "Elle invite ses collègues à dîner samedi.", "zh": "她邀请同事周六来家里吃饭。"},
+{"fr": "Le peintre expose ses tableaux dans une petite galerie.", "zh": "画家在一间小画廊里展出自己的画。"}
+],
+"seul": [
+{"fr": "Il vit seul depuis son départ à la retraite.", "zh": "退休以后，他一个人生活。"},
+{"fr": "Ce soir, je reste seule à la maison.", "zh": "今晚我一个人在家。"},
+{"fr": "C'est le seul cinéma du quartier.", "zh": "这是这个街区唯一的一家电影院。"}
+],
+"seulement": [
+{"fr": "Le musée est ouvert seulement le matin le lundi.", "zh": "博物馆周一只在上午开放。"},
+{"fr": "J'ai seulement dix minutes pour prendre mon train.", "zh": "我只有十分钟时间赶火车了。"},
+{"fr": "Elle mange de la viande seulement le week-end.", "zh": "她只在周末才吃肉。"}
+],
+"si": [
+{"fr": "Si tu finis tôt, passe me voir.", "zh": "你要是早点弄完，就过来看看我。"},
+{"fr": "Je ne sais pas si le magasin est ouvert dimanche.", "zh": "我不知道这家商店周日开不开门。"},
+{"fr": "Le temps n'est pas si mauvais, sortons un peu.", "zh": "天气没那么糟，我们出去走走吧。"}
+],
+"simple": [
+{"fr": "C'est une recette simple avec seulement quatre ingrédients.", "zh": "这道菜谱很简单，只用四种食材。"},
+{"fr": "Sois simple et direct dans ta présentation.", "zh": "你的展示要简单直接。"},
+{"fr": "Un simple appel suffit pour annuler le rendez-vous.", "zh": "打个电话就能取消预约。"}
+],
+"six": [
+{"fr": "Nous nous levons à six heures pour attraper le premier train.", "zh": "为了赶头班火车，我们六点就起床。"},
+{"fr": "Il y a six bougies sur le gâteau d'anniversaire.", "zh": "生日蛋糕上插着六根蜡烛。"},
+{"fr": "Le paquet de six yaourts est en promotion.", "zh": "六连杯酸奶在搞促销。"}
+],
+"soeur": [
+{"fr": "Ma sœur a deux ans de plus que moi.", "zh": "我姐姐比我大两岁。"},
+{"fr": "Mes deux sœurs habitent à Bordeaux.", "zh": "我的两个姐妹都住在波尔多。"},
+{"fr": "Il téléphone à sa sœur tous les dimanches.", "zh": "他每个星期天都给妹妹打电话。"}
+],
+"soif": [
+{"fr": "J'ai très soif, apporte-moi un verre d'eau.", "zh": "我渴死了，给我倒杯水来。"},
+{"fr": "Après le match, les joueurs ont grande soif.", "zh": "比赛结束后，球员们渴极了。"},
+{"fr": "Cette marche m'a donné soif.", "zh": "这一路走得我口都渴了。"}
+],
+"soir": [
+{"fr": "Ce soir, on regarde un film à la maison.", "zh": "今晚我们在家看电影。"},
+{"fr": "Il rentre du travail tard le soir.", "zh": "他晚上下班回来得很晚。"},
+{"fr": "Chaque samedi soir, ils jouent aux cartes entre voisins.", "zh": "每个周六晚上，邻居们都聚在一起打牌。"}
+],
+"soixante": [
+{"fr": "Mon grand-père a soixante ans cette année.", "zh": "我祖父今年整六十岁。"},
+{"fr": "La limitation est de soixante kilomètres à l'heure sur cette route.", "zh": "这条路限速每小时六十公里。"},
+{"fr": "Le bus met soixante minutes pour arriver au centre.", "zh": "公交车到市中心要六十分钟。"}
+],
+"soleil": [
+{"fr": "Le soleil entre par la fenêtre du salon.", "zh": "阳光照进客厅的窗户。"},
+{"fr": "Mets une casquette, le soleil tape fort aujourd'hui.", "zh": "戴上帽子，今天太阳很晒。"},
+{"fr": "Ils déjeunent dehors quand le soleil est là.", "zh": "太阳好的时候，他们就在外面吃午饭。"}
+],
+"son": [
+{"fr": "Son frère joue au football tous les mercredis.", "zh": "他弟弟每周三都踢足球。"},
+{"fr": "Le chat dort dans son panier.", "zh": "猫在它自己的篮子里睡觉。"},
+{"fr": "Elle a oublié son parapluie dans le bus.", "zh": "她把伞忘在公交车上了。"}
+],
+"sortir": [
+{"fr": "On sort ce soir pour fêter ta promotion.", "zh": "今晚我们出去庆祝你升职。"},
+{"fr": "Sors les poubelles avant huit heures, s'il te plaît.", "zh": "请在八点前把垃圾桶拿出去。"},
+{"fr": "Elle sort le plat du four avec des maniques.", "zh": "她垫着隔热垫把菜从烤箱里端出来。"}
+],
+"souris": [
+{"fr": "Une souris a mangé le fromage du piège.", "zh": "一只老鼠把捕鼠夹上的奶酪吃了。"},
+{"fr": "Le chat guette une souris derrière le frigo.", "zh": "猫在冰箱后面盯着一只老鼠。"},
+{"fr": "Ma souris d'ordinateur ne marche plus.", "zh": "我的电脑鼠标坏了。"}
+],
+"sous": [
+{"fr": "Le chat dort sous la table.", "zh": "猫睡在桌子底下。"},
+{"fr": "Il a rangé ses valises sous le lit.", "zh": "他把行李箱收在了床底下。"},
+{"fr": "Sous ce manteau, elle porte une robe rouge.", "zh": "大衣里面，她穿着一条红裙子。"}
+],
+"souvent": [
+{"fr": "Nous allons souvent au marché le mercredi.", "zh": "我们经常周三去逛市场。"},
+{"fr": "Il oublie souvent ses clés au bureau.", "zh": "他老是把钥匙忘在办公室。"},
+{"fr": "Elle cuisine souvent des légumes de saison.", "zh": "她常拿应季的蔬菜做菜。"}
+],
+"sport": [
+{"fr": "Le sport fait du bien après une journée de bureau.", "zh": "在办公室坐了一天后，运动一下很舒服。"},
+{"fr": "Quel sport pratiques-tu pendant l'hiver ?", "zh": "冬天你做什么运动？"},
+{"fr": "Son sport préféré, c'est la natation.", "zh": "他最喜欢的运动是游泳。"}
+],
+"stop": [
+{"fr": "Arrête-toi au panneau stop, même si la route est vide.", "zh": "到停车标志前要停下，哪怕路上没车。"},
+{"fr": "Stop, arrête de sauter sur le canapé !", "zh": "停！别在沙发上跳了！"},
+{"fr": "Le panneau stop est tombé pendant la tempête.", "zh": "暴风雨把停车标志牌刮倒了。"}
+],
+"stylo": [
+{"fr": "Prête-moi ton stylo bleu, le mien n'écrit plus.", "zh": "借我用一下你的蓝钢笔，我的写不出字了。"},
+{"fr": "Ce stylo a été offert par ma grand-mère.", "zh": "这支钢笔是我奶奶送我的。"},
+{"fr": "Il signe le contrat avec un gros stylo noir.", "zh": "他用一支粗粗的黑钢笔签了合同。"}
+],
+"sucre": [
+{"fr": "Ajoute une cuillère de sucre dans ton thé.", "zh": "往茶里加一勺糖。"},
+{"fr": "Il ne met plus de sucre dans son café.", "zh": "他的咖啡里已经不放糖了。"},
+{"fr": "Ce gâteau manque de sucre, il est un peu fade.", "zh": "这蛋糕糖放少了，有点寡淡。"}
+],
+"sucré": [
+{"fr": "Ce jus d'orange est trop sucré pour moi.", "zh": "这橙汁对我来讲太甜了。"},
+{"fr": "Elle préfère le pop-corn salé au pop-corn sucré.", "zh": "比起甜爆米花，她更喜欢咸的。"},
+{"fr": "Attention, cette boisson est très sucrée.", "zh": "注意，这个饮料特别甜。"}
+],
+"sud-est": [
+{"fr": "Marseille se trouve au sud-est de la France.", "zh": "马赛位于法国的东南方。"},
+{"fr": "Le vent du sud-est apporte la pluie sur la côte.", "zh": "东南风给海岸带来了雨水。"},
+{"fr": "Notre balcon est orienté vers le sud-est, il y a du soleil le matin.", "zh": "我们的阳台朝东南，早上有太阳。"}
+],
+"suivre": [
+{"fr": "Suivez cette rue jusqu'à la place, puis tournez à gauche.", "zh": "沿这条街走到广场，然后向左拐。"},
+{"fr": "Il faut suivre les instructions du manuel.", "zh": "要照着手册上的说明操作。"},
+{"fr": "Elle suit des cours du soir après le travail.", "zh": "她下班后还去上夜课。"}
+],
+"super": [
+{"fr": "Ce gâteau est super, tu l'as fait toi-même ?", "zh": "这蛋糕太棒了，是你自己做的吗？"},
+{"fr": "La nouvelle bibliothèque est super, il y a même un café.", "zh": "新图书馆特别棒，里面居然还有咖啡馆。"},
+{"fr": "On a passé un super week-end au bord du lac.", "zh": "我们在湖边过了一个超棒的周末。"}
+]
+}

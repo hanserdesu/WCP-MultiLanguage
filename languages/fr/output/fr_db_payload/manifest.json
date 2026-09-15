@@ -1,0 +1,15 @@
+{
+  "words": 8116,
+  "full_pron": 8116,
+  "full_sentences": 24348,
+  "only_pron": 8116,
+  "en_pron": 1638,
+  "en_sentences": 4948,
+  "files": {
+    "fr_pron.tsv": "d481a87a44bb0a96d6b306284277cae69a5ff582a385ccf16a53f77df0131be9",
+    "fr_sentences.tsv": "34e524f8ec49caa062a5cc202c34d9e69b81b76296114cc1906222286c0b5f43",
+    "fr_only_pron.tsv": "d481a87a44bb0a96d6b306284277cae69a5ff582a385ccf16a53f77df0131be9",
+    "en_pron.tsv": "d1dd1d3dd34714865fafacb088c3f5835921e36f7c378e0a3c8b5c182b39aeda",
+    "en_sentences.tsv": "f54132e767928723a5a28f54c02ddda2677c798b8abf59417fb460d8ca87ac8c"
+  }
+}

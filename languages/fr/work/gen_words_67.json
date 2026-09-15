@@ -1,0 +1,602 @@
+[
+{
+"word": "guetter",
+"pos": "v.",
+"zh": "守候；窥伺",
+"level": "b2"
+},
+{
+"word": "guignol",
+"pos": "n.m.",
+"zh": "木偶；傻瓜（口语）",
+"level": "b2"
+},
+{
+"word": "guise",
+"pos": "n.f.",
+"zh": "方式；名目（固定短语）",
+"level": "b2"
+},
+{
+"word": "gus",
+"pos": "n.m.",
+"zh": "家伙（口语）",
+"level": "b2"
+},
+{
+"word": "guérilla",
+"pos": "n.f.",
+"zh": "游击战",
+"level": "b2"
+},
+{
+"word": "guérisseur",
+"pos": "n.m.",
+"zh": "治病人；巫医",
+"level": "b2"
+},
+{
+"word": "gâchette",
+"pos": "n.f.",
+"zh": "扳机",
+"level": "b2"
+},
+{
+"word": "gâchis",
+"pos": "n.m.",
+"zh": "浪费；糟蹋",
+"level": "b2"
+},
+{
+"word": "gémir",
+"pos": "v.",
+"zh": "呻吟；叹息；抱怨",
+"level": "b2"
+},
+{
+"word": "gémissement",
+"pos": "n.m.",
+"zh": "呻吟；叹息",
+"level": "b2"
+},
+{
+"word": "générateur",
+"pos": "n.m.",
+"zh": "发电机；发生器",
+"level": "b2"
+},
+{
+"word": "géomètre",
+"pos": "n.",
+"zh": "测量员；几何学家",
+"level": "b2"
+},
+{
+"word": "gérant",
+"pos": "n.m.",
+"zh": "经理；经营者",
+"level": "b2"
+},
+{
+"word": "gésir",
+"pos": "v.",
+"zh": "躺卧；长眠（书面语）",
+"level": "b2"
+},
+{
+"word": "habile",
+"pos": "adj.",
+"zh": "灵巧的；巧妙的",
+"level": "b2"
+},
+{
+"word": "hameçon",
+"pos": "n.m.",
+"zh": "鱼钩",
+"level": "b2"
+},
+{
+"word": "handicaper",
+"pos": "v.",
+"zh": "妨碍；拖累",
+"level": "b2"
+},
+{
+"word": "hangar",
+"pos": "n.m.",
+"zh": "库房；机库；棚",
+"level": "b2"
+},
+{
+"word": "hardi",
+"pos": "adj.",
+"zh": "大胆的；勇敢的",
+"level": "b2"
+},
+{
+"word": "harmonie",
+"pos": "n.f.",
+"zh": "和谐；融洽",
+"level": "b2"
+},
+{
+"word": "hasch",
+"pos": "n.m.",
+"zh": "大麻浓缩物（毒品）",
+"level": "b2"
+},
+{
+"word": "hautement",
+"pos": "adv.",
+"zh": "高度地",
+"level": "b2"
+},
+{
+"word": "hernie",
+"pos": "n.f.",
+"zh": "疝气",
+"level": "b2"
+},
+{
+"word": "heurter",
+"pos": "v.",
+"zh": "碰撞；冒犯",
+"level": "b2"
+},
+{
+"word": "hic",
+"pos": "n.m.",
+"zh": "难处；症结（口语）",
+"level": "b2"
+},
+{
+"word": "hideux",
+"pos": "adj.",
+"zh": "丑陋的；骇人的",
+"level": "b2"
+},
+{
+"word": "hilarant",
+"pos": "adj.",
+"zh": "令人捧腹的",
+"level": "b2"
+},
+{
+"word": "hippie",
+"pos": "n.",
+"zh": "嬉皮士",
+"level": "b2"
+},
+{
+"word": "hisser",
+"pos": "v.",
+"zh": "升起；拉起",
+"level": "b2"
+},
+{
+"word": "hold-up",
+"pos": "n.m.",
+"zh": "持械抢劫",
+"level": "b2"
+},
+{
+"word": "homicide",
+"pos": "n.m.",
+"zh": "杀人；凶杀案",
+"level": "b2"
+},
+{
+"word": "honorable",
+"pos": "adj.",
+"zh": "可敬的；体面的",
+"level": "b2"
+},
+{
+"word": "honoraire",
+"pos": "adj.",
+"zh": "名誉的；荣誉的",
+"level": "b2"
+},
+{
+"word": "honoré",
+"pos": "adj.",
+"zh": "荣幸的；受人尊敬的",
+"level": "b2"
+},
+{
+"word": "horde",
+"pos": "n.f.",
+"zh": "一大群；游群",
+"level": "b2"
+},
+{
+"word": "hors-la-loi",
+"pos": "n.m.",
+"zh": "法外之徒；逃犯",
+"level": "b2"
+},
+{
+"word": "hospice",
+"pos": "n.m.",
+"zh": "养老院；收容所",
+"level": "b2"
+},
+{
+"word": "hospitaliser",
+"pos": "v.",
+"zh": "送入医院",
+"level": "b2"
+},
+{
+"word": "hospitalité",
+"pos": "n.f.",
+"zh": "好客；款待",
+"level": "b2"
+},
+{
+"word": "hostilité",
+"pos": "n.f.",
+"zh": "敌意；敌对",
+"level": "b2"
+},
+{
+"word": "hosto",
+"pos": "n.m.",
+"zh": "医院（口语）",
+"level": "b2"
+},
+{
+"word": "hublot",
+"pos": "n.m.",
+"zh": "舷窗；观察窗",
+"level": "b2"
+},
+{
+"word": "huissier",
+"pos": "n.m.",
+"zh": "法警；执达员",
+"level": "b2"
+},
+{
+"word": "humble",
+"pos": "adj.",
+"zh": "谦卑的；卑微的",
+"level": "b2"
+},
+{
+"word": "humblement",
+"pos": "adv.",
+"zh": "谦卑地",
+"level": "b2"
+},
+{
+"word": "humiliant",
+"pos": "adj.",
+"zh": "令人羞辱的",
+"level": "b2"
+},
+{
+"word": "humilité",
+"pos": "n.f.",
+"zh": "谦虚；谦卑",
+"level": "b2"
+},
+{
+"word": "hurlement",
+"pos": "n.m.",
+"zh": "嚎叫；咆哮",
+"level": "b2"
+},
+{
+"word": "hymne",
+"pos": "n.",
+"zh": "颂歌；国歌；赞美诗",
+"level": "b2"
+},
+{
+"word": "hypnotiser",
+"pos": "v.",
+"zh": "催眠",
+"level": "b2"
+},
+{
+"word": "hypothèque",
+"pos": "n.f.",
+"zh": "抵押；抵押权",
+"level": "b2"
+},
+{
+"word": "hypothèse",
+"pos": "n.f.",
+"zh": "假设；假说",
+"level": "b2"
+},
+{
+"word": "hystérie",
+"pos": "n.f.",
+"zh": "歇斯底里",
+"level": "b2"
+},
+{
+"word": "hystérique",
+"pos": "adj.",
+"zh": "歇斯底里的",
+"level": "b2"
+},
+{
+"word": "hyène",
+"pos": "n.f.",
+"zh": "鬣狗",
+"level": "b2"
+},
+{
+"word": "hâter",
+"pos": "v.",
+"zh": "加快；催促",
+"level": "b2"
+},
+{
+"word": "hâtif",
+"pos": "adj.",
+"zh": "仓促的；过早的",
+"level": "b2"
+},
+{
+"word": "héberger",
+"pos": "v.",
+"zh": "收留；供住宿",
+"level": "b2"
+},
+{
+"word": "hélice",
+"pos": "n.f.",
+"zh": "螺旋桨",
+"level": "b2"
+},
+{
+"word": "hémorragie",
+"pos": "n.f.",
+"zh": "出血；大出血",
+"level": "b2"
+},
+{
+"word": "héréditaire",
+"pos": "adj.",
+"zh": "遗传的；世袭的",
+"level": "b2"
+},
+{
+"word": "hérétique",
+"pos": "n.",
+"zh": "异端；异教徒",
+"level": "b2"
+},
+{
+"word": "ici-bas",
+"pos": "adv.",
+"zh": "在尘世；在人间",
+"level": "b2"
+},
+{
+"word": "idiotie",
+"pos": "n.f.",
+"zh": "愚蠢；蠢话",
+"level": "b2"
+},
+{
+"word": "ignoble",
+"pos": "adj.",
+"zh": "卑鄙的；可憎的",
+"level": "b2"
+},
+{
+"word": "ignorance",
+"pos": "n.f.",
+"zh": "无知",
+"level": "b2"
+},
+{
+"word": "illico",
+"pos": "adv.",
+"zh": "立刻（口语）",
+"level": "b2"
+},
+{
+"word": "illimité",
+"pos": "adj.",
+"zh": "无限的；无限制的",
+"level": "b2"
+},
+{
+"word": "illuminer",
+"pos": "v.",
+"zh": "照亮；点亮",
+"level": "b2"
+},
+{
+"word": "illustre",
+"pos": "adj.",
+"zh": "显赫的；著名的",
+"level": "b2"
+},
+{
+"word": "immaculé",
+"pos": "adj.",
+"zh": "洁白无瑕的",
+"level": "b2"
+},
+{
+"word": "immatriculation",
+"pos": "n.f.",
+"zh": "登记注册；上牌照",
+"level": "b2"
+},
+{
+"word": "immature",
+"pos": "adj.",
+"zh": "不成熟的",
+"level": "b2"
+},
+{
+"word": "imminent",
+"pos": "adj.",
+"zh": "迫近的；临近的",
+"level": "b2"
+},
+{
+"word": "immobilier",
+"pos": "adj.",
+"zh": "房地产的",
+"level": "b2"
+},
+{
+"word": "immoler",
+"pos": "v.",
+"zh": "宰杀（祭品）；牺牲",
+"level": "b2"
+},
+{
+"word": "immonde",
+"pos": "adj.",
+"zh": "污秽的；肮脏的",
+"level": "b2"
+},
+{
+"word": "immoral",
+"pos": "adj.",
+"zh": "不道德的",
+"level": "b2"
+},
+{
+"word": "immortalité",
+"pos": "n.f.",
+"zh": "不朽；永生",
+"level": "b2"
+},
+{
+"word": "immortel",
+"pos": "adj.",
+"zh": "不朽的；永生的",
+"level": "b2"
+},
+{
+"word": "immunité",
+"pos": "n.f.",
+"zh": "免疫力；豁免权",
+"level": "b2"
+},
+{
+"word": "impardonnable",
+"pos": "adj.",
+"zh": "不可原谅的",
+"level": "b2"
+},
+{
+"word": "impasse",
+"pos": "n.f.",
+"zh": "死胡同；僵局",
+"level": "b2"
+},
+{
+"word": "impatienter",
+"pos": "v.",
+"zh": "使不耐烦",
+"level": "b2"
+},
+{
+"word": "impensable",
+"pos": "adj.",
+"zh": "难以想象的",
+"level": "b2"
+},
+{
+"word": "impitoyable",
+"pos": "adj.",
+"zh": "无情的；冷酷的",
+"level": "b2"
+},
+{
+"word": "implant",
+"pos": "n.m.",
+"zh": "植入体；移植物",
+"level": "b2"
+},
+{
+"word": "implanter",
+"pos": "v.",
+"zh": "建立；植入",
+"level": "b2"
+},
+{
+"word": "implication",
+"pos": "n.f.",
+"zh": "牵连；含义",
+"level": "b2"
+},
+{
+"word": "implorer",
+"pos": "v.",
+"zh": "恳求",
+"level": "b2"
+},
+{
+"word": "importuner",
+"pos": "v.",
+"zh": "打扰；纠缠",
+"level": "b2"
+},
+{
+"word": "imposteur",
+"pos": "n.m.",
+"zh": "骗子；冒名顶替者",
+"level": "b2"
+},
+{
+"word": "improbable",
+"pos": "adj.",
+"zh": "不太可能的；离奇的",
+"level": "b2"
+},
+{
+"word": "imprudent",
+"pos": "adj.",
+"zh": "轻率的；不谨慎的",
+"level": "b2"
+},
+{
+"word": "impuissance",
+"pos": "n.f.",
+"zh": "无能为力；无能",
+"level": "b2"
+},
+{
+"word": "impuissant",
+"pos": "adj.",
+"zh": "无能为力的",
+"level": "b2"
+},
+{
+"word": "impulsif",
+"pos": "adj.",
+"zh": "冲动的",
+"level": "b2"
+},
+{
+"word": "impulsion",
+"pos": "n.f.",
+"zh": "推动；动力；冲量",
+"level": "b2"
+},
+{
+"word": "impur",
+"pos": "adj.",
+"zh": "不纯的；不洁的",
+"level": "b2"
+},
+{
+"word": "impénétrable",
+"pos": "adj.",
+"zh": "穿不透的；深不可测的",
+"level": "b2"
+}
+]

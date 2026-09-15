@@ -1,0 +1,602 @@
+[
+{
+"word": "livreur",
+"pos": "n.m.",
+"zh": "送货员",
+"level": "a2"
+},
+{
+"word": "location",
+"pos": "n.f.",
+"zh": "出租；租借",
+"level": "a2"
+},
+{
+"word": "locomotive",
+"pos": "n.f.",
+"zh": "火车头",
+"level": "a2"
+},
+{
+"word": "logement",
+"pos": "n.m.",
+"zh": "住房；住所",
+"level": "a2"
+},
+{
+"word": "logiciel",
+"pos": "n.m.",
+"zh": "软件",
+"level": "a2"
+},
+{
+"word": "logique",
+"pos": "adj.",
+"zh": "合逻辑的；合理的",
+"level": "a2"
+},
+{
+"word": "loisir",
+"pos": "n.m.",
+"zh": "消遣；休闲活动",
+"level": "a2"
+},
+{
+"word": "longer",
+"pos": "v.",
+"zh": "沿…而行",
+"level": "a2"
+},
+{
+"word": "louer",
+"pos": "v.",
+"zh": "租；租借",
+"level": "a2"
+},
+{
+"word": "loup",
+"pos": "n.m.",
+"zh": "狼（动物）",
+"level": "a2"
+},
+{
+"word": "louper",
+"pos": "v.",
+"zh": "错过；搞砸（口语）",
+"level": "a2"
+},
+{
+"word": "lourd",
+"pos": "adj.",
+"zh": "重的；沉重的",
+"level": "a2"
+},
+{
+"word": "loyer",
+"pos": "n.m.",
+"zh": "房租",
+"level": "a2"
+},
+{
+"word": "lui-même",
+"pos": "pron.",
+"zh": "他自己；他本人",
+"level": "a2"
+},
+{
+"word": "lunette",
+"pos": "n.f.",
+"zh": "眼镜（常用复数）；镜片",
+"level": "a2"
+},
+{
+"word": "luxe",
+"pos": "n.m.",
+"zh": "奢华；奢侈品",
+"level": "a2"
+},
+{
+"word": "lycée",
+"pos": "n.m.",
+"zh": "高中",
+"level": "a2"
+},
+{
+"word": "lycéen",
+"pos": "n.m.",
+"zh": "高中生",
+"level": "a2"
+},
+{
+"word": "là-dedans",
+"pos": "adv.",
+"zh": "在那里面；其中",
+"level": "a2"
+},
+{
+"word": "là-haut",
+"pos": "adv.",
+"zh": "在上面；高处",
+"level": "a2"
+},
+{
+"word": "lâcher",
+"pos": "v.",
+"zh": "松开；放开",
+"level": "a2"
+},
+{
+"word": "lèvre",
+"pos": "n.f.",
+"zh": "嘴唇",
+"level": "a2"
+},
+{
+"word": "lécher",
+"pos": "v.",
+"zh": "舔",
+"level": "a2"
+},
+{
+"word": "léger",
+"pos": "adj.",
+"zh": "轻的；轻微的",
+"level": "a2"
+},
+{
+"word": "légèrement",
+"pos": "adv.",
+"zh": "轻微地；稍微",
+"level": "a2"
+},
+{
+"word": "machine",
+"pos": "n.f.",
+"zh": "机器",
+"level": "a2"
+},
+{
+"word": "magazine",
+"pos": "n.m.",
+"zh": "杂志",
+"level": "a2"
+},
+{
+"word": "magicien",
+"pos": "n.m.",
+"zh": "魔术师；魔法师",
+"level": "a2"
+},
+{
+"word": "magie",
+"pos": "n.f.",
+"zh": "魔法；魔术",
+"level": "a2"
+},
+{
+"word": "magique",
+"pos": "adj.",
+"zh": "有魔力的；神奇的",
+"level": "a2"
+},
+{
+"word": "magnifique",
+"pos": "adj.",
+"zh": "壮丽的；极好的",
+"level": "a2"
+},
+{
+"word": "maigre",
+"pos": "adj.",
+"zh": "瘦的；贫乏的",
+"level": "a2"
+},
+{
+"word": "maigrir",
+"pos": "v.",
+"zh": "变瘦；消瘦",
+"level": "a2"
+},
+{
+"word": "mail",
+"pos": "n.m.",
+"zh": "电子邮件",
+"level": "a2"
+},
+{
+"word": "mairie",
+"pos": "n.f.",
+"zh": "市政厅",
+"level": "a2"
+},
+{
+"word": "majorité",
+"pos": "n.f.",
+"zh": "大多数；成年",
+"level": "a2"
+},
+{
+"word": "maladie",
+"pos": "n.f.",
+"zh": "疾病",
+"level": "a2"
+},
+{
+"word": "malgré",
+"pos": "prép.",
+"zh": "尽管；虽然",
+"level": "a2"
+},
+{
+"word": "malheureusement",
+"pos": "adv.",
+"zh": "不幸地；可惜",
+"level": "a2"
+},
+{
+"word": "malheureux",
+"pos": "adj.",
+"zh": "不幸的；可怜的",
+"level": "a2"
+},
+{
+"word": "malin",
+"pos": "adj.",
+"zh": "机灵的；狡猾的",
+"level": "a2"
+},
+{
+"word": "mamie",
+"pos": "n.f.",
+"zh": "奶奶；外婆（昵称）",
+"level": "a2"
+},
+{
+"word": "manager",
+"pos": "n.m.",
+"zh": "经理；经纪人",
+"level": "a2"
+},
+{
+"word": "manche",
+"pos": "n.",
+"zh": "袖子；柄",
+"level": "a2"
+},
+{
+"word": "manière",
+"pos": "n.f.",
+"zh": "方式；方法；举止",
+"level": "a2"
+},
+{
+"word": "manque",
+"pos": "n.m.",
+"zh": "缺乏；不足",
+"level": "a2"
+},
+{
+"word": "manquer",
+"pos": "v.",
+"zh": "错过；想念；缺少",
+"level": "a2"
+},
+{
+"word": "manteau",
+"pos": "n.m.",
+"zh": "大衣；外套",
+"level": "a2"
+},
+{
+"word": "maquillage",
+"pos": "n.m.",
+"zh": "化妆；化妆品",
+"level": "a2"
+},
+{
+"word": "maquiller",
+"pos": "v.",
+"zh": "化妆；给…化妆",
+"level": "a2"
+},
+{
+"word": "marbre",
+"pos": "n.m.",
+"zh": "大理石",
+"level": "a2"
+},
+{
+"word": "marchand",
+"pos": "n.m.",
+"zh": "商人",
+"level": "a2"
+},
+{
+"word": "marché",
+"pos": "n.m.",
+"zh": "市场；集市",
+"level": "a2"
+},
+{
+"word": "mare",
+"pos": "n.f.",
+"zh": "池塘；水洼",
+"level": "a2"
+},
+{
+"word": "mariage",
+"pos": "n.m.",
+"zh": "结婚；婚礼",
+"level": "a2"
+},
+{
+"word": "marier",
+"pos": "v.",
+"zh": "结婚；嫁；娶",
+"level": "a2"
+},
+{
+"word": "marin",
+"pos": "n.m.",
+"zh": "水手；海员",
+"level": "a2"
+},
+{
+"word": "marionnette",
+"pos": "n.f.",
+"zh": "木偶；提线木偶",
+"level": "a2"
+},
+{
+"word": "marié",
+"pos": "n.m.",
+"zh": "新郎；已婚的",
+"level": "a2"
+},
+{
+"word": "marque",
+"pos": "n.f.",
+"zh": "牌子；商标；记号",
+"level": "a2"
+},
+{
+"word": "marquer",
+"pos": "v.",
+"zh": "做记号；得分",
+"level": "a2"
+},
+{
+"word": "marrant",
+"pos": "adj.",
+"zh": "好笑的（口语）",
+"level": "a2"
+},
+{
+"word": "marron",
+"pos": "adj.",
+"zh": "栗色的；栗子",
+"level": "a2"
+},
+{
+"word": "marteau",
+"pos": "n.m.",
+"zh": "锤子",
+"level": "a2"
+},
+{
+"word": "masculin",
+"pos": "adj.",
+"zh": "男性的；阳性的",
+"level": "a2"
+},
+{
+"word": "masque",
+"pos": "n.m.",
+"zh": "面具；口罩",
+"level": "a2"
+},
+{
+"word": "match",
+"pos": "n.m.",
+"zh": "比赛",
+"level": "a2"
+},
+{
+"word": "matelas",
+"pos": "n.m.",
+"zh": "床垫",
+"level": "a2"
+},
+{
+"word": "maths",
+"pos": "n.f.",
+"zh": "数学（口语）",
+"level": "a2"
+},
+{
+"word": "matinée",
+"pos": "n.f.",
+"zh": "上午；早晨时段",
+"level": "a2"
+},
+{
+"word": "maximum",
+"pos": "n.m.",
+"zh": "最大值；最大限度",
+"level": "a2"
+},
+{
+"word": "mayonnaise",
+"pos": "n.f.",
+"zh": "蛋黄酱",
+"level": "a2"
+},
+{
+"word": "maître",
+"pos": "n.m.",
+"zh": "主人；师傅；大师",
+"level": "a2"
+},
+{
+"word": "maïs",
+"pos": "n.m.",
+"zh": "玉米",
+"level": "a2"
+},
+{
+"word": "mec",
+"pos": "n.m.",
+"zh": "家伙；男人（口语）",
+"level": "a2"
+},
+{
+"word": "melon",
+"pos": "n.m.",
+"zh": "甜瓜",
+"level": "a2"
+},
+{
+"word": "membre",
+"pos": "n.m.",
+"zh": "成员；会员；肢体",
+"level": "a2"
+},
+{
+"word": "menace",
+"pos": "n.f.",
+"zh": "威胁",
+"level": "a2"
+},
+{
+"word": "menacer",
+"pos": "v.",
+"zh": "威胁",
+"level": "a2"
+},
+{
+"word": "menteur",
+"pos": "n.m.",
+"zh": "说谎的人",
+"level": "a2"
+},
+{
+"word": "menthe",
+"pos": "n.f.",
+"zh": "薄荷",
+"level": "a2"
+},
+{
+"word": "mentir",
+"pos": "v.",
+"zh": "说谎；撒谎",
+"level": "a2"
+},
+{
+"word": "menton",
+"pos": "n.m.",
+"zh": "下巴",
+"level": "a2"
+},
+{
+"word": "menu",
+"pos": "n.m.",
+"zh": "菜单；套餐",
+"level": "a2"
+},
+{
+"word": "merde",
+"pos": "interj.",
+"zh": "该死（粗话）；讨厌",
+"level": "a2"
+},
+{
+"word": "message",
+"pos": "n.m.",
+"zh": "消息；口信",
+"level": "a2"
+},
+{
+"word": "mesurer",
+"pos": "v.",
+"zh": "测量；衡量",
+"level": "a2"
+},
+{
+"word": "mexicain",
+"pos": "n.m.",
+"zh": "墨西哥的；墨西哥人",
+"level": "a2"
+},
+{
+"word": "miam",
+"pos": "interj.",
+"zh": "好吃（尝美食的感叹语）",
+"level": "a2"
+},
+{
+"word": "micro",
+"pos": "n.",
+"zh": "麦克风",
+"level": "a2"
+},
+{
+"word": "micro-ondes",
+"pos": "n.m.",
+"zh": "微波炉",
+"level": "a2"
+},
+{
+"word": "microscope",
+"pos": "n.m.",
+"zh": "显微镜",
+"level": "a2"
+},
+{
+"word": "mien",
+"pos": "pron.",
+"zh": "我的（东西）",
+"level": "a2"
+},
+{
+"word": "mienne",
+"pos": "pron.",
+"zh": "我的（所属物）",
+"level": "a2"
+},
+{
+"word": "miette",
+"pos": "n.f.",
+"zh": "碎屑；一点",
+"level": "a2"
+},
+{
+"word": "mieux",
+"pos": "adv.",
+"zh": "更好",
+"level": "a2"
+},
+{
+"word": "mignon",
+"pos": "adj.",
+"zh": "可爱的；娇小的",
+"level": "a2"
+},
+{
+"word": "mile",
+"pos": "n.m.",
+"zh": "英里",
+"level": "a2"
+},
+{
+"word": "milieu",
+"pos": "n.m.",
+"zh": "中间；中部；环境",
+"level": "a2"
+},
+{
+"word": "militaire",
+"pos": "adj.",
+"zh": "军事的；军人",
+"level": "a2"
+}
+]

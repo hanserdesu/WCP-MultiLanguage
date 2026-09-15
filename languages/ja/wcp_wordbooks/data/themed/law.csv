@@ -1,0 +1,601 @@
+﻿word,reading,meaning_en,pos,common
+甲,こう,the A party (e.g. in a contract),n,True
+悪意,あくい,mala fides,n,True
+陰謀,いんぼう,conspiracy,n,True
+隠滅,いんめつ,destruction (esp. of evidence),"n,vs,vi,vt",True
+果実,かじつ,fruits,n,True
+回避,かいひ,recusal (of a judge),"n,vs,vi",True
+開示,かいじ,discovery,n,True
+喚問,かんもん,summons,"n,vs,vt",True
+器物,きぶつ,personal property,n,True
+忌避,きひ,recusation (of a judge),"n,vs,vt,vi",True
+供述,きょうじゅつ,affidavit,"n,vs,vt",True
+教唆,きょうさ,incitement,"n,vs,vt",True
+継承,けいしょう,share-alike,n,True
+検証,けんしょう,"on-site inspection (by a judge, investigator, etc.) to gather physical evidence","n,vs,vt",True
+原告,げんこく,plaintiff,n,True
+故意,こい,mens rea (guilty mind),n,True
+公訴,こうそ,(public) prosecution,"n,vs,vt",True
+公有,こうゆう,public domain,n,True
+控訴,こうそ,appeal to a higher court,"n,vs,vi",True
+告訴,こくそ,accusation,"n,vs,vt",True
+国王,こくおう,"the Crown (as a focus of authority in the UK, etc.)",n,True
+婚姻,こんいん,marriage,"n,vs,vi",True
+再審,さいしん,retrial,"n,vs,vt",True
+錯誤,さくご,discrepancy between one's actions and intentions,n,True
+時効,じこう,prescription,n,True
+執行,しっこう,execution,"n,vs,vt",True
+主犯,しゅはん,principal offence,n,True
+女王,じょおう,princess,n,True
+召喚,しょうかん,summons,"n,vs,vt",True
+上告,じょうこく,final appeal to the highest court,"n,vs,vi",True
+宣告,せんこく,sentencing,"n,vs,vt",True
+善意,ぜんい,bona fides,n,True
+捜索,そうさく,"legally authorized search of a person, building, etc.","n,vs,vt",True
+相殺,そうさい,set-off,"n,vs,vt",True
+送検,そうけん,committing a suspect to trial,"n,vs,vt",True
+着手,ちゃくしゅ,commencing (a crime),"n,vs,vi",True
+調停,ちょうてい,"conciliation (e.g. in civil or family court, leading to a settlement based on mutual concessions)","n,vs,vt",True
+発動,はつどう,invocation,"n,vs,vt,vi",True
+判例,はんれい,judicial precedent,n,True
+被告,ひこく,defendant,n,True
+表示,ひょうじ,(copyright) attribution,"n,vs,vt",True
+報復,ほうふく,retorsion,"n,vs,vi",True
+猶予,ゆうよ,suspended sentence,n,True
+幼児,ようじ,child over 1 but not yet of school age,n,True
+和解,わかい,court-mediated settlement,"n,vs,vi",True
+抗告,こうこく,appeal,"n,vs,vi",True
+仮処分,かりしょぶん,provisional disposition,n,True
+管理人,かんりにん,custodian,n,True
+青少年,せいしょうねん,persons under the age of 18,n,True
+不文律,ふぶんりつ,unwritten law,n,True
+被疑者,ひぎしゃ,suspect,n,True
+意思表示,いしひょうじ,declaration of intent,"n,vs",True
+刑事事件,けいじじけん,criminal case,n,True
+財団法人,ざいだんほうじん,incorporated foundation,n,True
+執行猶予,しっこうゆうよ,stay of execution,n,True
+社団法人,しゃだんほうじん,corporate juridical person,n,True
+心神耗弱,しんしんこうじゃく,diminished capacity,n,True
+正当防衛,せいとうぼうえい,legitimate self-defence,n,True
+会社更生法,かいしゃこうせいほう,Corporate Reorganization Act,n,True
+労働基準法,ろうどうきじゅんほう,Labor Standards Act,n,True
+独立行政法人,どくりつぎょうせいほうじん,independent administrative institution,n,True
+擬制,ぎせい,(legal) fiction,n,False
+係属,けいぞく,pendency,"n,vs,vt,vi",False
+勾留,こうりゅう,detention pending trial,"n,vs,vt",False
+作為,さくい,commission (of a crime),n,False
+事犯,じはん,punishable offense,n,False
+上訴,じょうそ,appeal (in court),"n,vs,vi",False
+正文,せいぶん,"authentic text (e.g. of a treaty, as opposed to any translation not specified as authentic)",n,False
+争訟,そうしょう,legal dispute,n,False
+本案,ほんあん,merits,n,False
+本訴,ほんそ,original suit,n,False
+略取,りゃくしゅ,abduction (using violence or threats),"n,vs,vt",False
+幇助,ほうじょ,aiding and abetting (a crime),"n,vs,vt",False
+瑕疵,かし,(legal) fault,n,False
+縁組,えんぐみ,adoption,n,False
+心証,しんしょう,strong belief (of the judge),n,False
+尊属,そんぞく,direct ancestors,n,False
+卑属,ひぞく,lineal descendants,n,False
+監事,かんじ,auditor,n,False
+拐取,かいしゅ,abduction,n,False
+対質,たいしつ,questioning accused and witness together,"n,vs,vi",False
+懈怠,けたい,misfeasance,"n,vs,vt,vi",False
+即決,そっけつ,summary judgment,"n,vs,vt",False
+廃除,はいじょ,disinheritance,"n,vs,vt",False
+故殺,こさつ,(voluntary) manslaughter,"n,vs,vt",False
+除斥,じょせき,exclusion,"n,vs",False
+親告,しんこく,criminal complaint filed by the victim of the crime,"n,vs,vt",False
+物権,ぶっけん,real rights,n,False
+訴権,そけん,right to take legal action,n,False
+検案,けんあん,(external) examination of a body to determine the time and cause of death (carried out by a doctor),"n,vs,vt",False
+該案,がいあん,the said proposal,n,False
+解止,かいし,termination,"n,vs",False
+判示,はんじ,judgement,"n,vs,vt",False
+筆界,ひつかい,boundary (e.g. of property),n,False
+審決,しんけつ,trial decision,"n,vs,vt",False
+没取,ぼっしゅ,forfeiture (of assets),"n,vs",False
+付合,ふごう,accession,n,False
+詐害,さがい,fraud,"n,vs",False
+虞犯,ぐはん,being likely to commit a crime,n,False
+公空,こうくう,international airspace,n,False
+入家,にゅうか,"being entered in a new family register (through adoption, marriage, etc.)",n,False
+属人,ぞくじん,personal,"n-pref,n",False
+属地,ぞくち,territorial,"n-pref,n",False
+屏禁,へいきん,solitary confinement,n,False
+囲障,いしょう,fence (esp. between buildings),n,False
+強取,ごうしゅ,seizure,"n,vs",False
+委棄,いき,waiving (a right),"n,vs,vt",False
+余論,よろん,obiter dictum,n,False
+有責,ゆうせき,fault,"n,adj-no",False
+帰責,きせき,imputation of responsibility,"n,vs",False
+収取,しゅうしゅ,collection,"n,vs",False
+訴額,そがく,amount in controversy,n,False
+有印,ゆういん,signed,adj-no,False
+触法,しょくほう,infringement of the law,n,False
+併科,へいか,concurrent sentences,"n,vs",False
+訴外,そがい,party not named in (this) court case,n-pref,False
+独法,どっぽう,independent administrative institution,n,False
+刑訴,けいそ,criminal action,n,False
+逆送,ぎゃくそう,referring a case (regarding juvenile crime) back to the public prosecutor,"n,vs,vt",False
+接道,せつどう,connecting road,n,False
+先占,せんせん,acquisition by occupancy,"n,vs,vt",False
+和諧,わかい,harmonious divorce settlement,n,False
+確知,かくち,ascertainment,"n,vs,vt",False
+ビル,,bill,n,False
+私訴,しそ,private prosecution,n,False
+遺言,いごん,will,n,False
+人損,じんそん,personal damage (as opposed to property damage),n,False
+発付,はっぷ,issuing of a warrant,"n,vs,vt",False
+対償,たいしょう,compensation,n,False
+量定,りょうてい,assessment (of a sentence),"n,vs,vt",False
+国賠,こくばい,state indemnity,n,False
+二審,にしん,second instance,n,False
+減軽,げんけい,reduction (of a sentence),"n,vs,vt",False
+医師法,いしほう,Medical Practitioners' Act,n,False
+外為法,がいためほう,Foreign Exchange and Foreign Trade Act,n,False
+禁反言,きんはんげん,estoppel,n,False
+原判決,げんはんけつ,original judgement,n,False
+工作物,こうさくぶつ,(a) construction,n,False
+再犯者,さいはんしゃ,second offender,n,False
+参考人,さんこうにん,invited witness,n,False
+事業主,じぎょうぬし,employer,n,False
+主犯者,しゅはんしゃ,principal offender,n,False
+召喚状,しょうかんじょう,(writ of) summons,n,False
+少年法,しょうねんほう,Juvenile Act,n,False
+不文法,ふぶんほう,unwritten law,n,False
+有体物,ゆうたいぶつ,tangible thing,n,False
+違警罪,いけいざい,misdemeanor,n,False
+遺言者,ゆいごんしゃ,testator,n,False
+控訴権,こうそけん,right of appeal,n,False
+破防法,はぼうほう,Subversive Activities Prevention Act,n,False
+破産法,はさんほう,Bankruptcy Act,n,False
+禁治産,きんちさん,incompetency,n,False
+堕胎罪,だたいざい,illegal abortion,n,False
+放送法,ほうそうほう,Broadcast Act,n,False
+親告罪,しんこくざい,offense requiring a formal complaint in order to prosecute,n,False
+自由刑,じゆうけい,freedom-restricting punishment,n,False
+自然人,しぜんじん,natural person,n,False
+追起訴,ついきそ,supplementary indictment,"n,vs,vt",False
+不作為,ふさくい,forbearance,n,False
+成文法,せいぶんほう,written law,n,False
+成文律,せいぶんりつ,written law,n,False
+電波法,でんぱほう,the Radio Law,n,False
+会社法,かいしゃほう,corporate law,n,False
+傷害罪,しょうがいざい,(crime of) inflicting bodily injury,n,False
+詐欺罪,さぎざい,fraud,n,False
+訴訟法,そしょうほう,procedural law (as opposed to substantive law),n,False
+強制力,きょうせいりょく,legal force,n,False
+漁業法,ぎょぎょうほう,Fishery Act,n,False
+慣習法,かんしゅうほう,common law,n,False
+森林法,しんりんほう,Forest Act,n,False
+最賃法,さいちんほう,Minimum Wage Act,n,False
+道交法,どうこうほう,Road Traffic Act,n,False
+強姦罪,ごうかんざい,(crime of) rape,n,False
+消防法,しょうぼうほう,Fire Service Act,n,False
+実定法,じっていほう,positive law (i.e. law made by humans),n,False
+横領罪,おうりょうざい,embezzlement,n,False
+海洋法,かいようほう,law of the sea,n,False
+初犯者,しょはんしゃ,first offender,n,False
+大会社,だいがいしゃ,company with over 500 million yen in capital or over 20 billion yen in liabilities,n,False
+内閣法,ないかくほう,Cabinet Act,n,False
+銃刀法,じゅうとうほう,Act for Controlling the Possession of Firearms or Swords and Other Such Weapons,n,False
+国籍法,こくせきほう,Nationality Act,n,False
+統計法,とうけいほう,Statistics Act,n,False
+労組法,ろうそほう,Labor Union Act,n,False
+衡平法,こうへいほう,equity,n,False
+基本権,きほんけん,fundamental right,n,False
+社会権,しゃかいけん,social right,n,False
+法人格,ほうじんかく,legal personality,n,False
+和解案,わかいあん,settlement,n,False
+医療法,いりょうほう,Medical Care Act,n,False
+公訴権,こうそけん,authority of prosecution,n,False
+港則法,こうそくほう,Port Regulations Act,n,False
+大震法,たいしんほう,Act on Special Measures Concerning Countermeasures for Large-Scale Earthquakes,n,False
+大店法,だいてんほう,Large-scale Retail Stores Act,n,False
+公選法,こうせんほう,Public Offices Election Act,n,False
+出資法,しゅっしほう,"Act Regulating the Receipt of Contributions, the Receipt of Deposits, and Interest Rates",n,False
+準強姦,じゅんごうかん,incapacitated rape,n,False
+刑事罰,けいじばつ,criminal punishment,n,False
+自然犯,しぜんはん,malum in se,n,False
+法定犯,ほうていはん,malum prohibitum,n,False
+日銀法,にちぎんほう,Bank of Japan Act,n,False
+姦淫罪,かんいんざい,sex crimes,n,False
+既判力,きはんりょく,res judicata,n,False
+確定力,かくていりょく,"power of finality (of a legal decision, e.g. when a case is dismissed with prejudice)",n,False
+争点効,そうてんこう,collateral estoppel,n,False
+信義則,しんぎそく,fair and equitable principle,n,False
+判例集,はんれいしゅう,law reports,n,False
+弁護側,べんごがわ,the defence,n,False
+検察側,けんさつがわ,the prosecution,n,False
+準抗告,じゅんこうこく,jun-kokoku appeal,n,False
+兵役法,へいえきほう,Military Service Law (1927-1945),n,False
+制定法,せいていほう,statute law,n,False
+準拠法,じゅんきょほう,applicable law,n,False
+特商法,とくしょうほう,Act on Specified Commercial Transactions,n,False
+銀行法,ぎんこうほう,Banking Act,n,False
+重過失,じゅうかしつ,gross negligence,n,False
+契約法,けいやくほう,contract law,n,False
+労基法,ろうきほう,Labor Standards Act,n,False
+共謀罪,きょうぼうざい,(criminal) conspiracy,n,False
+不遡及,ふそきゅう,non-retroactivity,n,False
+事後審,じごしん,judicial review by a higher court without introducing new evidence,n,False
+タリオ,,lex talionis,n,False
+予備罪,よびざい,crime of plotting a crime,n,False
+元号法,げんごうほう,Era Name Act,n,False
+審査権,しんさけん,judicial review (e.g. of the constitutionality of a law),n,False
+鉱業法,こうぎょうほう,Mining Act,n,False
+信託法,しんたくほう,trust law,n,False
+幇助罪,ほうじょざい,(crime of) aiding and abetting,n,False
+主尋問,しゅじんもん,direct examination,n,False
+特飲店,とくいんてん,brothel,n,False
+中止犯,ちゅうしはん,would-be crime abandoned before being carried out,n,False
+特措法,とくそほう,special measures law,n,False
+証明力,しょうめいりょく,credibility,n,False
+刑訴法,けいそほう,Code of Criminal Procedure,n,False
+市街化,しがいか,urbanization,"n,vs",False
+砂防法,さぼうほう,Erosion Control Act,n,False
+施行令,しこうれい,enforcement ordinance,n,False
+暴行罪,ぼうこうざい,(crime of) assault,n,False
+細街路,さいがいろ,back road (narrower than 4 meters),n,False
+留置権,りゅうちけん,lien,n,False
+企業法,きぎょうほう,business law,n,False
+国会法,こっかいほう,Diet Act,n,False
+旅券法,りょけんほう,Passport Act,n,False
+財政法,ざいせいほう,Public Finance Act,n,False
+会計法,かいけいほう,Public Accounting Act,n,False
+酒税法,しゅぜいほう,Liquor Tax Act,n,False
+関税法,かんぜいほう,Customs Act,n,False
+測量法,そくりょうほう,Survey Act,n,False
+道路法,どうろほう,Road Act,n,False
+河川法,かせんほう,River Act,n,False
+景観法,けいかんほう,Landscape Act,n,False
+警察法,けいさつほう,Police Act,n,False
+採石法,さいせきほう,Quarrying Act,n,False
+種苗法,しゅびょうほう,Plant Variety Protection and Seed Act,n,False
+医事法,いじほう,medical law,n,False
+供託法,きょうたくほう,Deposit Act,n,False
+郵便法,ゆうびんほう,Postal Act,n,False
+意匠法,いしょうほう,Design Act,n,False
+本国法,ほんごくほう,law of the country of one's nationality,n,False
+親族法,しんぞくほう,family law,n,False
+相続法,そうぞくほう,inheritance laws,n,False
+日本法,にほんほう,Japanese law,n,False
+常居所,じょうきょしょ,habitual residence,n,False
+拘禁刑,こうきんけい,imprisonment,n,False
+拘禁者,こうきんしゃ,detainee,n,False
+検疫法,けんえきほう,Quarantine Act,n,False
+無主物,むしゅぶつ,ownerless property,n,False
+過疎法,かそほう,Underpopulated Areas Revitalizing Law,n,False
+判決書,はんけつしょ,judgement document,n,False
+主犯格,しゅはんかく,key culprit,n,False
+和解金,わかいきん,out-of-court settlement payment,n,False
+脱税犯,だつぜいはん,(crime of) tax evasion,n,False
+温対法,おんたいほう,Act on Promotion of Global Warming Countermeasures,n,False
+行政罰,ぎょうせいばつ,administrative punishment,n,False
+売防法,ばいぼうほう,Anti-Prostitution Act,n,False
+伝産法,でんさんほう,Act on the Promotion of Traditional Craft Industries,n,False
+暴対法,ぼうたいほう,Act on Prevention of Unjust Acts by Organized Crime Group Members,n,False
+旧民法,きゅうみんぽう,parts of the civil code relating to kinship and inheritance that were rewritten in 1947,n,False
+災対法,さいたいほう,Basic Act on Disaster Management,n,False
+報労金,ほうろうきん,remuneration paid to the finder of a lost item,n,False
+ＰＬ法,ピーエルほう,Product Liability Act,n,False
+限時法,げんじほう,temporary legislation,n,False
+翻案権,ほんあんけん,adaptation rights,n,False
+受寄者,じゅきしゃ,bailee,n,False
+国土法,こくどほう,National Land Use Planning Act,n,False
+遡及法,そきゅうほう,retroactive law,n,False
+商標法,しょうひょうほう,Trademark Act,n,False
+判決例,はんけつれい,judicial precedent,n,False
+行使罪,こうしざい,uttering (e.g. false documents),n,False
+連続犯,れんぞくはん,continuing offense (multiple consecutive offenses treated a single crime; repealed in 1947),n,False
+私法人,しほうじん,private corporation,n,False
+特例法,とくれいほう,special law,n,False
+身分犯,みぶんはん,status offense,n,False
+加重犯,かじゅうはん,aggravated offense,n,False
+性交等,せいこうとう,sexual intercourse,n,False
+三審制,さんしんせい,three-tiered court system,n,False
+合議審,ごうぎしん,collegiate adjudication,n,False
+財産犯,ざいさんはん,property crime,n,False
+財産罪,ざいさんざい,property crime,n,False
+毀棄罪,ききざい,(crime of) damaging property,n,False
+隠匿罪,いんとくざい,(crime of) concealment,n,False
+領得罪,りょうとくざい,(crime of) appropriation,n,False
+牽連犯,けんれんはん,implicated offense (where the means or result constitutes a separate offense),n,False
+執行権,しっこうけん,power of enforcement,n,False
+提訴人,ていそにん,plaintiff,n,False
+参加人,さんかにん,intervener,n,False
+景表法,けいひょうほう,Act against Unjustifiable Premiums and Misleading Representations,n,False
+能力者,のうりょくしゃ,competent person,n,False
+能開法,のうかいほう,Vocational Abilities Development Promotion Act,n,False
+人身保護,じんしんほご,habeas corpus,n,False
+先取特権,せんしゅとっけん,statutory lien,n,False
+不可抗力,ふかこうりょく,force majeure,"n,adj-no",False
+民事事件,みんじじけん,civil case,n,False
+無限責任,むげんせきにん,unlimited liability,n,False
+養子縁組,ようしえんぐみ,adoption (of a person),n,False
+各種学校,かくしゅがっこう,miscellaneous school,n,False
+証拠隠滅,しょうこいんめつ,destruction of evidence,n,False
+無実の罪,むじつのつみ,false charge,"exp,n",False
+無能力者,むのうりょくしゃ,person without legal capacity,n,False
+禁治産者,きんちさんしゃ,(legally) incompetent individual,n,False
+属人主義,ぞくじんしゅぎ,principle of nationality (according to which an offender should be tried in accordance with the law of his or her own country),n,False
+属地主義,ぞくちしゅぎ,principle of territorial jurisdiction,n,False
+著作権法,ちょさくけんほう,Copyright Act,n,False
+皇室典範,こうしつてんぱん,Imperial House Act,n,False
+物的証拠,ぶってきしょうこ,physical evidence,n,False
+国民審査,こくみんしんさ,national review,n,False
+国家賠償,こっかばいしょう,state indemnity,n,False
+失踪宣告,しっそうせんこく,court decision declaring a missing person legally dead,n,False
+逸失利益,いっしつりえき,lost profit,n,False
+死体遺棄,したいいき,abandonment of a corpse,n,False
+尋問調書,じんもんちょうしょ,"record of an interrogation (of a suspect, witness, etc.)",n,False
+心神喪失,しんしんそうしつ,insanity,n,False
+強制執行,きょうせいしっこう,(compulsory) execution,n,False
+法律行為,ほうりつこうい,legal action,n,False
+集団訴訟,しゅうだんそしょう,class action,n,False
+確定判決,かくていはんけつ,final sentence,n,False
+業務妨害,ぎょうむぼうがい,obstruction of business,n,False
+施行規則,しこうきそく,enforcement regulations,n,False
+出頭命令,しゅっとうめいれい,summons,n,False
+被相続人,ひそうぞくにん,decedent,n,False
+身体傷害,からだしょうがい,bodily injury,n,False
+地方税法,ちほうぜいほう,Local Tax Act,n,False
+直接尋問,ちょくせつじんもん,direct examination,n,False
+身柄送検,みがらそうけん,turning a suspect over to the public prosecutor's office,"n,vs",False
+器物損壊,きぶつそんかい,"property damage (not including ships, buildings, planes and documents)",n,False
+即時抗告,そくじこうこく,immediate appeal,n,False
+所得税法,しょとくぜいほう,Income Tax Act,n,False
+実況見分,じっきょうけんぶん,on-the-spot investigation,n,False
+訴訟係属,そしょうけいぞく,pendency,n,False
+印紙税法,いんしぜいほう,Stamp Tax Act,n,False
+自衛隊法,じえいたいほう,Self-Defense Forces Act,n,False
+構成要件,こうせいようけん,structural elements (of an offence),n,False
+法定強姦,ほうていごうかん,statutory rape,n,False
+共同遺言,きょうどういごん,common will,n,False
+傷害致死,しょうがいちし,manslaughter,n,False
+導管実体,どうかんじったい,pass-through entity,n,False
+硬性憲法,こうせいけんぽう,rigid constitution,n,False
+軟性憲法,なんせいけんぽう,flexible constitution,n,False
+注意義務,ちゅういぎむ,duty of care,n,False
+共同相続,きょうどうそうぞく,joint inheritance,n,False
+恒久施設,こうきゅうしせつ,permanent establishment (in tax law),n,False
+消滅時効,しょうめつじこう,extinctive prescription,n,False
+公訴時効,こうそじこう,limitation,n,False
+時効期間,じこうきかん,period of prescription,n,False
+非訟事件,ひしょうじけん,non-contentious case,n,False
+ＮＰＯ法,エヌピーオーほう,NPO law,n,False
+虞犯少年,ぐはんしょうねん,juvenile deemed likely to commit a crime,n,False
+触法少年,しょくほうしょうねん,juvenile delinquent under the age of fourteen,n,False
+推定無罪,すいていむざい,presumption of innocence,n,False
+責任能力,せきにんのうりょく,legal competency,n,False
+準強姦罪,じゅんごうかんざい,(crime of) incapacitated rape,n,False
+集団強姦,しゅうだんごうかん,gang rape,n,False
+あへん法,あへんほう,Opium Control Act,n,False
+ＪＡＳ法,ジャスほう,Act on Japanese Agricultural Standards,n,False
+直接証拠,ちょくせつしょうこ,direct evidence,n,False
+間接証拠,かんせつしょうこ,indirect evidence,n,False
+虚偽表示,きょぎひょうじ,false representation,n,False
+遺言能力,いごんのうりょく,testamentary capacity,n,False
+判決理由,はんけつりゆう,ratio decidendi,n,False
+取引制限,とりひきせいげん,restraint of trade,n,False
+処分保留,しょぶんほりゅう,releasing without indictment,"n,vs",False
+関連法案,かんれんほうあん,related bill,n,False
+重要法案,じゅうようほうあん,important bill,n,False
+間接正犯,かんせつせいはん,indirect principal offender,n,False
+直接正犯,ちょくせつせいはん,direct principal offender,n,False
+宇宙条約,うちゅうじょうやく,Outer Space Treaty,n,False
+実効支配,じっこうしはい,effective control (over territory),n,False
+契約自由,けいやくじゆう,freedom of contract,n,False
+恩恵期間,おんけいきかん,period of grace (e.g. in which merchant vessels are allowed to leave a belligerent nation's port after an outbreak of war),n,False
+接続水域,せつぞくすいいき,contiguous zone,n,False
+確定裁判,かくていさいばん,final decision,n,False
+判例違反,はんれいいはん,contravention of precedent,n,False
+上告理由,じょうこくりゆう,ground for appeal,n,False
+許可抗告,きょかこうこく,appeal by permission,n,False
+再審請求,さいしんせいきゅう,petition for retrial,n,False
+行為能力,こういのうりょく,capacity to act,n,False
+善意占有,ぜんいせんゆう,bona fide possession,n,False
+悪意占有,あくいせんゆう,mala fide possession,n,False
+立法趣旨,りっぽうしゅし,legislative intent,n,False
+旅行業法,りょこうぎょうほう,Travel Agency Act,n,False
+交戦団体,こうせんだんたい,belligerent communities,n,False
+整理解雇,せいりかいこ,restructuring termination (of employment),n,False
+遺産分割,いさんぶんかつ,partition of an estate (inheritance),n,False
+権利濫用,けんりらんよう,abuse of rights,n,False
+挙証責任,きょしょうせきにん,burden of proof,n,False
+立証責任,りっしょうせきにん,burden of proof,n,False
+証明責任,しょうめいせきにん,burden of proof,n,False
+審査請求,しんさせいきゅう,formal objection (to an administrative disposition),n,False
+酌量減軽,しゃくりょうげんけい,reduction of punishment in the light of extenuating circumstances,n,False
+譲渡可能,じょうとかのう,transferable,adj-na,False
+譲渡不能,じょうとふのう,non-transferable,adj-na,False
+無害通航,むがいつうこう,innocent passage,n,False
+契約違反,けいやくいはん,breach of contract,n,False
+履行遅滞,りこうちたい,delay in performance,n,False
+履行不能,りこうふのう,unenforceability,n,False
+債権譲渡,さいけんじょうと,cession of an obligation,n,False
+資産凍結,しさんとうけつ,assets freeze,n,False
+自然債務,しぜんさいむ,natural obligation,n,False
+代物弁済,だいぶつべんさい,payment in substitutes,n,False
+激甚災害,げきじんさいがい,major disaster (that necessitates economic support to its victims),n,False
+博物館法,はくぶつかんほう,Museum Act,n,False
+海洋秩序,かいようちつじょ,international order of the seas,n,False
+自力救済,じりききゅうさい,self-help,n,False
+公の秩序,おおやけのちつじょ,public order,"exp,n",False
+心裡留保,しんりりゅうほ,mental reservation,n,False
+取得時効,しゅとくじこう,acquisitive prescription,n,False
+嫡出推定,ちゃくしゅつすいてい,presumption of legitimacy,n,False
+待婚期間,たいこんきかん,period of prohibition of remarriage,n,False
+免責事項,めんせきじこう,disclaimer,n,False
+接見交通,せっけんこうつう,(defendant's) access to a lawyer,n,False
+認定死亡,にんていしぼう,declared death without identification of a body,n,False
+法定果実,ほうていかじつ,civil fruits,n,False
+天然果実,てんねんかじつ,natural fruits,n,False
+退去強制,たいきょきょうせい,deportation,n,False
+即日結審,そくじつけっしん,immediate decision,n,False
+抗拒不能,こうきょふのう,inability to resist,n,False
+特定妊婦,とくていにんぷ,specified expectant mother,n,False
+法人税法,ほうじんぜいほう,Corporation Tax Act,n,False
+所掌事務,しょしょうじむ,scope of affairs under the jurisdiction,n,False
+相続税法,そうぞくぜいほう,Inheritance Tax Act,n,False
+無期禁錮,むききんこ,life imprisonment without work,n,False
+争点整理,そうてんせいり,procedures to determine the points at issue,n,False
+生前贈与,せいぜんぞうよ,gift inter vivos,n,False
+共犯証言,きょうはんしょうげん,state's evidence,n,False
+民事調停,みんじちょうてい,civil conciliation,n,False
+犯人隠避,はんにんいんぴ,(crime of) aiding a criminal to avoid capture,n,False
+商業地域,しょうぎょうちいき,commercial area,n,False
+過失相殺,かしつそうさい,comparative negligence,n,False
+狩猟鳥獣,しゅりょうちょうじゅう,animals that can legally be hunted,n,False
+特定空家,とくていあきや,specially designated vacant house,n,False
+同意年齢,どういねんれい,age of consent,n,False
+任意組合,にんいくみあい,voluntary partnership,n,False
+単純承認,たんじゅんしょうにん,unconditional acceptance (of an inheritance),n,False
+感染症法,かんせんしょうほう,Infectious Disease Act,n,False
+権利能力,けんりのうりょく,legal capacity to hold rights,n,False
+強制性交,きょうせいせいこう,forcible sexual intercourse,n,False
+不法残留,ふほうざんりゅう,(illegally) overstaying one's visa,n,False
+限嗣相続,げんしそうぞく,entail (in Western common law),n,False
+接道義務,せつどうぎむ,obligation for a building site to have access to a public road wider than 4 meters,n,False
+２項道路,にこうどうろ,road that is narrower than 4 meters but still counts as a valid connecting road for determining if construction is allowed on a plot adjacent to the road,n,False
+改善命令,かいぜんめいれい,orders for improvement (from an authority to a business operator in its jurisdiction),n,False
+通知義務,つうちぎむ,obligation to give notice,n,False
+記名押印,きめいおういん,affixing one's name and seal,"n,vs,vi",False
+保険業法,ほけんぎょうほう,Insurance Business Act,n,False
+税理士法,ぜいりしほう,Certified Public Tax Accountant Act,n,False
+消費税法,しょうひぜいほう,Consumption Tax Act,n,False
+図書館法,としょかんほう,Library Act,n,False
+薬剤師法,やくざいしほう,Pharmacists Act,n,False
+浄化槽法,じょうかそうほう,Purification Tank Act,n,False
+理容師法,りようしほう,Barbers Act,n,False
+美容師法,びようしほう,Cosmetologists Act,n,False
+特殊公園,とくしゅこうえん,"special (urban) park (such as a zoo, botanical garden, etc.)",n,False
+裁判所法,さいばんしょほう,Court Act,n,False
+弁理士法,べんりしほう,Patent Attorneys Act,n,False
+信託財産,しんたくざいさん,property in trust,n,False
+内国法人,ないこくほうじん,domestic corporation,n,False
+法令番号,ほうれいばんごう,act number (within a year),n,False
+強行法規,きょうこうほうき,mandatory statute,n,False
+強行規定,きょうこうきてい,mandatory statute,n,False
+再犯防止,さいはんぼうし,recidivism prevention,n,False
+被留置者,ひりゅうちしゃ,detainee,n,False
+貸金業法,かしきんぎょうほう,Money Lending Business Act,n,False
+先占取得,せんせんしゅとく,acquisition by occupancy,n,False
+債務名義,さいむめいぎ,title of debt,n,False
+特定少年,とくていしょうねん,18 and 19-year olds (legally adults but covered by the 2022 Juvenile Act),n,False
+公用収用,こうようしゅうよう,eminent domain,n,False
+法規裁量,ほうきさいりょう,controlled discretion,n,False
+越権代理,えっけんだいり,unauthorized proxy,n,False
+犯罪被害,はんざいひがい,criminal damage,n,False
+行政解剖,ぎょうせいかいぼう,autopsy initiated by government authorities,n,False
+賠償命令,ばいしょうめいれい,court order for compensation,n,False
+代理処罰,だいりしょばつ,proxy punishment (system of punishment under the laws of a country to which a perpetrator has fled),n,False
+鑑定留置,かんていりゅうち,confinement for psychiatric tests,n,False
+職権主義,しょっけんしゅぎ,inquisitorial system,n,False
+職権探知,しょっけんたんち,court-initiated fact discovery,n,False
+危難失踪,きなんしっそう,disappearance (longer than one year after an accident or disaster),n,False
+公訴事実,こうそじじつ,facts constituting the offense charged,n,False
+予防拘禁,よぼうこうきん,preventive detention,n,False
+委任契約,いにんけいやく,delegation contract,n,False
+省エネ法,しょうエネほう,Law Concerning the Rational Use of Energy,n,False
+競業避止,きょうぎょうひし,"non-competition (clause, obligation, etc.)",n,False
+重要事実,じゅうようじじつ,material fact,n,False
+地位保全,ちいほぜん,maintaining the status quo of the parties (by temporary injunction),n,False
+不正競争,ふせいきょうそう,unfair competition,n,False
+家事審判,かじしんぱん,family court adjudication,n,False
+家事調停,かじちょうてい,mediation or conciliation by a family court,n,False
+対人信用,たいじんしんよう,personal credit,n,False
+飛び領土,とびりょうど,enclave,n,False
+相隣関係,そうりんかんけい,relationship between two neighboring properties,n,False
+証拠能力,しょうこのうりょく,admissibility of evidence,n,False
+供述調書,きょうじゅつちょうしょ,record of statement (written by the investigator),n,False
+限定承認,げんていしょうにん,qualified acceptance,n,False
+非親告罪,ひしんこくざい,offense prosecutable without a formal complaint,n,False
+証人尋問,しょうにんじんもん,examination of a witness,n,False
+非常上告,ひじょうじょうこく,extraordinary appeal (to the Supreme Court),n,False
+認定基準,にんていきじゅん,certification criteria,n,False
+少年院法,しょうねんいんほう,Juvenile Training School Act,n,False
+刑の量定,けいのりょうてい,assessment of a penalty,"exp,n",False
+嫌疑なし,けんぎなし,(nonprosecution due to) lack of suspicion,exp,False
+合議審判,ごうぎしんぱん,panel hearing (esp. in family or juvenile court),n,False
+事実認定,じじつにんてい,fact-finding,n,False
+文書毀棄,ぶんしょきき,damaging documents,n,False
+不法領得,ふほうりょうとく,illegal acquisition,n,False
+墳墓発掘,ふんぼはっくつ,desecration of a tomb,n,False
+死体損壊,したいそんかい,mutilation of a corpse,n,False
+自殺教唆,じさつきょうさ,(crime of) instigation to suicide,n,False
+告知義務,こくちぎむ,duty of disclosure,n,False
+作為義務,さくいぎむ,duty of commission,n,False
+債務免除,さいむめんじょ,debt relief,n,False
+殺人教唆,さつじんきょうさ,instigating murder,n,False
+殺人幇助,さつじんほうじょ,aiding and abetting murder,n,False
+違憲判決,いけんはんけつ,ruling of unconstitutionality,n,False
+違憲判断,いけんはんだん,finding of unconstitutionality,n,False
+永住許可,えいじゅうきょか,permanent residence,n,False
+偶発債務,ぐうはつさいむ,contingent liability,n,False
+了解覚書,りょうかいおぼえがき,memorandum of understanding,n,False
+証拠調べ,しょうこしらべ,examination of evidence,n,False
+強盗致死,ごうとうちし,robbery resulting in death,n,False
+行政事件,ぎょうせいじけん,administrative case,n,False
+二重処罰,にじゅうしょばつ,double jeopardy,n,False
+請負契約,うけおいけいやく,contract agreement,n,False
+あはき法,あはきほう,"Act on Practitioners of Massage, Shiatsu, Acupuncture, Moxibustion and others (December 20, 1947)",n,False
+差し押さえ,さしおさえ,seizure,"n,vs,vt",False
+遺言執行者,いごんしっこうしゃ,executor (of a will),n,False
+麻薬取締法,まやくとりしまりほう,Narcotics Control Act,n,False
+読み替える,よみかえる,"to change the language or wording (of a provision, etc.)","v1,vt",False
+準禁治産者,じゅんきんちさんしゃ,quasi-incompetent person,n,False
+建築基準法,けんちくきじゅんほう,Building Standards Act,n,False
+健康保険法,けんこうほけんほう,Health Insurance Act,n,False
+日本国憲法,にほんこくけんぽう,Constitution of Japan,n,False
+人身保護法,じんしんほごほう,Act on Protection of Personal Liberty,n,False
+治安維持法,ちあんいじほう,Peace Preservation Act,n,False
+裁判官忌避,さいばんかんきひ,challenging a judge,n,False
+情報公開法,じょうほうこうかいほう,Freedom of Information Act,n,False
+売春防止法,ばいしゅんぼうしほう,Anti-Prostitution Act,n,False
+学校教育法,がっこうきょういくほう,School Education Act,n,False
+教育基本法,きょういくきほんほう,Basic Act on Education,n,False
+市街化区域,しがいかくいき,area zoned for urbanization (urbanisation),n,False
+道路交通法,どうろこうつうほう,Road Traffic Act,n,False
+労働組合法,ろうどうくみあいほう,Labor Union Act,n,False
+戦時国際法,せんじこくさいほう,international law in time of war,n,False
+刑事訴訟法,けいじそしょうほう,Code of Criminal Procedure,n,False
+生活保護法,せいかつほごほう,Public Assistance Act,n,False
+食品衛生法,しょくひんえいせいほう,Food Sanitation Act,n,False
+第一級殺人,だいいっきゅうさつじん,"first-degree murder (in US, etc. law)",n,False
+連帯保証人,れんたいほしょうにん,joint surety,n,False
+公職選挙法,こうしょくせんきょほう,Public Offices Election Act,n,False
+推定相続人,すいていそうぞくにん,presumptive heir,n,False
+契約不履行,けいやくふりこう,nonfulfillment of a contract,n,False
+計画的犯行,けいかくてきはんこう,premeditated crime,n,False
+未必の故意,みひつのこい,conscious neglect,"exp,n",False
+一事不再理,いちじふさいり,prohibition against double jeopardy,n,False
+予防接種法,よぼうせっしゅほう,Immunization Act,n,False
+不逮捕特権,ふたいほとっけん,"immunity from arrest (for Diet members, foreign diplomats, etc.)",n,False
+重要参考人,じゅうようさんこうにん,important witness,n,False
+地方自治法,ちほうじちほう,Local Autonomy Act,n,False
+アイヌ新法,アイヌしんぽう,"New Ainu Law (aimed at promoting and protecting Ainu culture; 1997, 2019)",n,False
+船舶安全法,せんぱくあんぜんほう,Ship Safety Act,n,False
+異議申立て,いぎもうしたて,formal objection,n,False
+国民保護法,こくみんほごほう,Civil Protection Act,n,False
+外来生物法,がいらいせいぶつほう,Invasive Alien Species Act,n,False
+恒久的施設,こうきゅうてきしせつ,permanent establishment (in tax law),n,False
+行政手続法,ぎょうせいてつづきほう,Administrative Procedure Act,n,False
+介護保険法,かいごほけんほう,Long-Term Care Insurance Act,n,False
+国民徴用令,こくみんちょうようれい,National Requisition Ordinance (1939),n,False
+児童福祉法,じどうふくしほう,Child Welfare Act,n,False
+入国管理法,にゅうこくかんりほう,Immigration Control and Refugee Recognition Act,n,False
+大麻取締法,たいまとりしまりほう,Cannabis Control Act,n,False
+景品表示法,けいひんひょうじほう,Act against Unjustifiable Premiums and Misleading Representations,n,False
+法的拘束力,ほうてきこうそくりょく,legal binding force,n,False
+傷害致死罪,しょうがいちしざい,(crime of) inflicting bodily injury resulting in death,n,False
+成年後見人,せいねんこうけんにん,adult guardian,n,False
+日本銀行法,にほんぎんこうほう,Bank of Japan Act,n,False
+電磁的記録,でんじてききろく,electromagnetic record,n,False
+法定相続人,ほうていそうぞくにん,legal heir,n,False
+不服申立て,ふふくもうしたて,petitioning (an administration) for redress,n,False
+管轄裁判所,かんかつさいばんしょ,competent court,n,False
+無害通航権,むがいつうこうけん,the right of innocent passage,n,False
+不完全履行,ふかんぜんりこう,defective performance,n,False
+土地改良法,とちかいりょうほう,Land Improvement Act,n,False

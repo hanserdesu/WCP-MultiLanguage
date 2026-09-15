@@ -1,0 +1,21 @@
+{
+  "version": "wcp-ru-resources-v1.0.0",
+  "built": "2026-09-15 10:09:32",
+  "base_urls": [
+    "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ru-resources-v1.0.0"
+  ],
+  "assets": [
+    {
+      "kind": "word_audio",
+      "name": "wcp-russian-audio-words.zip",
+      "size": 96178404,
+      "sha256": "e42eaaa47932952fc4918812ade11a23e97a69844dcc38dce1c76906c0e2a738"
+    },
+    {
+      "kind": "sentence_audio",
+      "name": "wcp-russian-audio-sentences.zip",
+      "size": 759392266,
+      "sha256": "59dc78b1e5441189e234cdb2c69db85fbb87bf2e99c4f822c097f12781c38f04"
+    }
+  ]
+}

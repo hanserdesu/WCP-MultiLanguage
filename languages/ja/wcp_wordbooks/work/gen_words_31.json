@@ -1,0 +1,2402 @@
+{
+ "作為": {
+  "reading": "さくい",
+  "meaning": "【さくい】作为〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "事犯": {
+  "reading": "じはん",
+  "meaning": "【じはん】刑事案件〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "上訴": {
+  "reading": "じょうそ",
+  "meaning": "【じょうそ】上诉〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "正文": {
+  "reading": "せいぶん",
+  "meaning": "【せいぶん】正本；正式文本〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "争訟": {
+  "reading": "そうしょう",
+  "meaning": "【そうしょう】争讼〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "本案": {
+  "reading": "ほんあん",
+  "meaning": "【ほんあん】本案；正案〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "本訴": {
+  "reading": "ほんそ",
+  "meaning": "【ほんそ】本诉〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "略取": {
+  "reading": "りゃくしゅ",
+  "meaning": "【りゃくしゅ】拐取；劫持〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "幇助": {
+  "reading": "ほうじょ",
+  "meaning": "【ほうじょ】帮助（犯罪）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "瑕疵": {
+  "reading": "かし",
+  "meaning": "【かし】瑕疵〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "縁組": {
+  "reading": "えんぐみ",
+  "meaning": "【えんぐみ】收养；结亲〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "心証": {
+  "reading": "しんしょう",
+  "meaning": "【しんしょう】内心确信（法官）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "尊属": {
+  "reading": "そんぞく",
+  "meaning": "【そんぞく】尊亲属（长辈）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "卑属": {
+  "reading": "ひぞく",
+  "meaning": "【ひぞく】卑亲属（晚辈）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "監事": {
+  "reading": "かんじ",
+  "meaning": "【かんじ】监事〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "拐取": {
+  "reading": "かいしゅ",
+  "meaning": "【かいしゅ】拐骗〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "対質": {
+  "reading": "たいしつ",
+  "meaning": "【たいしつ】对质〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "懈怠": {
+  "reading": "けたい",
+  "meaning": "【けたい】懈怠；玩忽〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "即決": {
+  "reading": "そっけつ",
+  "meaning": "【そっけつ】即决（简易审判）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "廃除": {
+  "reading": "はいじょ",
+  "meaning": "【はいじょ】废除继承权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "故殺": {
+  "reading": "こさつ",
+  "meaning": "【こさつ】故意杀人（非预谋）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "除斥": {
+  "reading": "じょせき",
+  "meaning": "【じょせき】除斥（法官法定回避）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "親告": {
+  "reading": "しんこく",
+  "meaning": "【しんこく】亲告（被害人控告）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "物権": {
+  "reading": "ぶっけん",
+  "meaning": "【ぶっけん】物权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "訴権": {
+  "reading": "そけん",
+  "meaning": "【そけん】诉权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "検案": {
+  "reading": "けんあん",
+  "meaning": "【けんあん】检视（尸体查验）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "該案": {
+  "reading": "がいあん",
+  "meaning": "【がいあん】该法案〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "解止": {
+  "reading": "かいし",
+  "meaning": "【かいし】（合同）解除终止〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "判示": {
+  "reading": "はんじ",
+  "meaning": "【はんじ】判明指出（判决事项）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "筆界": {
+  "reading": "ひつかい",
+  "meaning": "【ひつかい】笔界（地籍边界）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "審決": {
+  "reading": "しんけつ",
+  "meaning": "【しんけつ】复审裁定〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "没取": {
+  "reading": "ぼっしゅ",
+  "meaning": "【ぼっしゅ】没收〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "付合": {
+  "reading": "ふごう",
+  "meaning": "【ふごう】添附〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "詐害": {
+  "reading": "さがい",
+  "meaning": "【さがい】诈害（欺诈损害）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "虞犯": {
+  "reading": "ぐはん",
+  "meaning": "【ぐはん】虞犯（有犯罪之虞）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "公空": {
+  "reading": "こうくう",
+  "meaning": "【こうくう】公空（国际空域）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "入家": {
+  "reading": "にゅうか",
+  "meaning": "【にゅうか】入家（入继家籍）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "属人": {
+  "reading": "ぞくじん",
+  "meaning": "【ぞくじん】属人（管辖/主义）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "属地": {
+  "reading": "ぞくち",
+  "meaning": "【ぞくち】属地（管辖/主义）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "屏禁": {
+  "reading": "へいきん",
+  "meaning": "【へいきん】单独监禁〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "囲障": {
+  "reading": "いしょう",
+  "meaning": "【いしょう】界墙；围障〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "強取": {
+  "reading": "ごうしゅ",
+  "meaning": "【ごうしゅ】强取；抢夺〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "委棄": {
+  "reading": "いき",
+  "meaning": "【いき】弃权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "余論": {
+  "reading": "よろん",
+  "meaning": "【よろん】附带意见（判决外论述）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "有責": {
+  "reading": "ゆうせき",
+  "meaning": "【ゆうせき】有责（过错方）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "帰責": {
+  "reading": "きせき",
+  "meaning": "【きせき】归责〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "収取": {
+  "reading": "しゅうしゅ",
+  "meaning": "【しゅうしゅ】收取（孳息）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "訴額": {
+  "reading": "そがく",
+  "meaning": "【そがく】诉讼标的额〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "有印": {
+  "reading": "ゆういん",
+  "meaning": "【ゆういん】有印章（伪造有印文书）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "触法": {
+  "reading": "しょくほう",
+  "meaning": "【しょくほう】触法（未达刑责少年的违法行为）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "併科": {
+  "reading": "へいか",
+  "meaning": "【へいか】并科（刑罚并处）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "訴外": {
+  "reading": "そがい",
+  "meaning": "【そがい】诉外人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "独法": {
+  "reading": "どっぽう",
+  "meaning": "【どっぽう】独立行政法人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "刑訴": {
+  "reading": "けいそ",
+  "meaning": "【けいそ】刑事诉讼〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "逆送": {
+  "reading": "ぎゃくそう",
+  "meaning": "【ぎゃくそう】逆送（少年案件送回检方）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "接道": {
+  "reading": "せつどう",
+  "meaning": "【せつどう】临路（接道义务）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "先占": {
+  "reading": "せんせん",
+  "meaning": "【せんせん】先占（无主物先占取得）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "和諧": {
+  "reading": "わかい",
+  "meaning": "【わかい】和谐离婚〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "確知": {
+  "reading": "かくち",
+  "meaning": "【かくち】确知；查明〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "私訴": {
+  "reading": "しそ",
+  "meaning": "【しそ】私诉（民事私诉）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "遺言": {
+  "reading": "いごん",
+  "meaning": "【いごん】遗嘱〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "人損": {
+  "reading": "じんそん",
+  "meaning": "【じんそん】人身损害〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "発付": {
+  "reading": "はっぷ",
+  "meaning": "【はっぷ】签发（令状）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "対償": {
+  "reading": "たいしょう",
+  "meaning": "【たいしょう】对价；报偿〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "量定": {
+  "reading": "りょうてい",
+  "meaning": "【りょうてい】量刑酌定〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "国賠": {
+  "reading": "こくばい",
+  "meaning": "【こくばい】国家赔偿（法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "二審": {
+  "reading": "にしん",
+  "meaning": "【にしん】二审〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "減軽": {
+  "reading": "げんけい",
+  "meaning": "【げんけい】减轻（刑罚）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "医師法": {
+  "reading": "いしほう",
+  "meaning": "【いしほう】《医师法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "外為法": {
+  "reading": "がいためほう",
+  "meaning": "【がいためほう】《外汇及外国贸易法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "禁反言": {
+  "reading": "きんはんげん",
+  "meaning": "【きんはんげん】禁反言〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "原判決": {
+  "reading": "げんはんけつ",
+  "meaning": "【げんはんけつ】原判决〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "工作物": {
+  "reading": "こうさくぶつ",
+  "meaning": "【こうさくぶつ】构筑物；工作物〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "再犯者": {
+  "reading": "さいはんしゃ",
+  "meaning": "【さいはんしゃ】再犯者；累犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "参考人": {
+  "reading": "さんこうにん",
+  "meaning": "【さんこうにん】参考人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "事業主": {
+  "reading": "じぎょうぬし",
+  "meaning": "【じぎょうぬし】事业主；雇主〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "主犯者": {
+  "reading": "しゅはんしゃ",
+  "meaning": "【しゅはんしゃ】主犯者〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "召喚状": {
+  "reading": "しょうかんじょう",
+  "meaning": "【しょうかんじょう】传票〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "少年法": {
+  "reading": "しょうねんほう",
+  "meaning": "【しょうねんほう】《少年法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "不文法": {
+  "reading": "ふぶんほう",
+  "meaning": "【ふぶんほう】不成文法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "有体物": {
+  "reading": "ゆうたいぶつ",
+  "meaning": "【ゆうたいぶつ】有体物〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "違警罪": {
+  "reading": "いけいざい",
+  "meaning": "【いけいざい】违警罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "遺言者": {
+  "reading": "ゆいごんしゃ",
+  "meaning": "【ゆいごんしゃ】立遗嘱人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "控訴権": {
+  "reading": "こうそけん",
+  "meaning": "【こうそけん】上诉权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "破防法": {
+  "reading": "はぼうほう",
+  "meaning": "【はぼうほう】《破防法》（团体规制法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "破産法": {
+  "reading": "はさんほう",
+  "meaning": "【はさんほう】《破产法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "禁治産": {
+  "reading": "きんちさん",
+  "meaning": "【きんちさん】禁治产（旧监护制度）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "堕胎罪": {
+  "reading": "だたいざい",
+  "meaning": "【だたいざい】堕胎罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "放送法": {
+  "reading": "ほうそうほう",
+  "meaning": "【ほうそうほう】《广播法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "親告罪": {
+  "reading": "しんこくざい",
+  "meaning": "【しんこくざい】亲告罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "自由刑": {
+  "reading": "じゆうけい",
+  "meaning": "【じゆうけい】自由刑〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "自然人": {
+  "reading": "しぜんじん",
+  "meaning": "【しぜんじん】自然人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "追起訴": {
+  "reading": "ついきそ",
+  "meaning": "【ついきそ】追加起诉〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "不作為": {
+  "reading": "ふさくい",
+  "meaning": "【ふさくい】不作为〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "成文法": {
+  "reading": "せいぶんほう",
+  "meaning": "【せいぶんほう】成文法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "成文律": {
+  "reading": "せいぶんりつ",
+  "meaning": "【せいぶんりつ】成文规则〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "電波法": {
+  "reading": "でんぱほう",
+  "meaning": "【でんぱほう】《电波法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "会社法": {
+  "reading": "かいしゃほう",
+  "meaning": "【かいしゃほう】《公司法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "傷害罪": {
+  "reading": "しょうがいざい",
+  "meaning": "【しょうがいざい】伤害罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "詐欺罪": {
+  "reading": "さぎざい",
+  "meaning": "【さぎざい】诈骗罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "訴訟法": {
+  "reading": "そしょうほう",
+  "meaning": "【そしょうほう】诉讼法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "強制力": {
+  "reading": "きょうせいりょく",
+  "meaning": "【きょうせいりょく】强制力〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "漁業法": {
+  "reading": "ぎょぎょうほう",
+  "meaning": "【ぎょぎょうほう】《渔业法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "慣習法": {
+  "reading": "かんしゅうほう",
+  "meaning": "【かんしゅうほう】习惯法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "森林法": {
+  "reading": "しんりんほう",
+  "meaning": "【しんりんほう】《森林法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "最賃法": {
+  "reading": "さいちんほう",
+  "meaning": "【さいちんほう】《最低工资法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "道交法": {
+  "reading": "どうこうほう",
+  "meaning": "【どうこうほう】《道路交通法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "強姦罪": {
+  "reading": "ごうかんざい",
+  "meaning": "【ごうかんざい】强奸罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "消防法": {
+  "reading": "しょうぼうほう",
+  "meaning": "【しょうぼうほう】《消防法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "実定法": {
+  "reading": "じっていほう",
+  "meaning": "【じっていほう】实在法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "横領罪": {
+  "reading": "おうりょうざい",
+  "meaning": "【おうりょうざい】侵占罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "海洋法": {
+  "reading": "かいようほう",
+  "meaning": "【かいようほう】海洋法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "初犯者": {
+  "reading": "しょはんしゃ",
+  "meaning": "【しょはんしゃ】初犯者〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "大会社": {
+  "reading": "だいがいしゃ",
+  "meaning": "【だいがいしゃ】大会社（资本金超5亿日元）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "内閣法": {
+  "reading": "ないかくほう",
+  "meaning": "【ないかくほう】《内阁法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "銃刀法": {
+  "reading": "じゅうとうほう",
+  "meaning": "【じゅうとうほう】《枪刀法》（铳刀法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "国籍法": {
+  "reading": "こくせきほう",
+  "meaning": "【こくせきほう】《国籍法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "統計法": {
+  "reading": "とうけいほう",
+  "meaning": "【とうけいほう】《统计法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "労組法": {
+  "reading": "ろうそほう",
+  "meaning": "【ろうそほう】《工会法》（労働組合法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "衡平法": {
+  "reading": "こうへいほう",
+  "meaning": "【こうへいほう】衡平法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "基本権": {
+  "reading": "きほんけん",
+  "meaning": "【きほんけん】基本权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "社会権": {
+  "reading": "しゃかいけん",
+  "meaning": "【しゃかいけん】社会权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "法人格": {
+  "reading": "ほうじんかく",
+  "meaning": "【ほうじんかく】法人资格〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "和解案": {
+  "reading": "わかいあん",
+  "meaning": "【わかいあん】和解方案〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "医療法": {
+  "reading": "いりょうほう",
+  "meaning": "【いりょうほう】《医疗法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "公訴権": {
+  "reading": "こうそけん",
+  "meaning": "【こうそけん】公诉权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "港則法": {
+  "reading": "こうそくほう",
+  "meaning": "【こうそくほう】《港口则法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "大震法": {
+  "reading": "たいしんほう",
+  "meaning": "【たいしんほう】《大震法》（大地震对策特别措置法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "大店法": {
+  "reading": "だいてんほう",
+  "meaning": "【だいてんほう】《大店法》（大型店铺法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "公選法": {
+  "reading": "こうせんほう",
+  "meaning": "【こうせんほう】《公职选举法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "出資法": {
+  "reading": "しゅっしほう",
+  "meaning": "【しゅっしほう】《出资法》（贷金业规制法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "準強姦": {
+  "reading": "じゅんごうかん",
+  "meaning": "【じゅんごうかん】准强奸〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "刑事罰": {
+  "reading": "けいじばつ",
+  "meaning": "【けいじばつ】刑事处罚〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "自然犯": {
+  "reading": "しぜんはん",
+  "meaning": "【しぜんはん】自然犯（本质恶）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "法定犯": {
+  "reading": "ほうていはん",
+  "meaning": "【ほうていはん】法定犯（规定恶）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "日銀法": {
+  "reading": "にちぎんほう",
+  "meaning": "【にちぎんほう】《日本银行法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "姦淫罪": {
+  "reading": "かんいんざい",
+  "meaning": "【かんいんざい】奸淫罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "既判力": {
+  "reading": "きはんりょく",
+  "meaning": "【きはんりょく】既判力〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "確定力": {
+  "reading": "かくていりょく",
+  "meaning": "【かくていりょく】确定力〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "争点効": {
+  "reading": "そうてんこう",
+  "meaning": "【そうてんこう】争点效〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "信義則": {
+  "reading": "しんぎそく",
+  "meaning": "【しんぎそく】诚信原则〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "判例集": {
+  "reading": "はんれいしゅう",
+  "meaning": "【はんれいしゅう】判例集〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "弁護側": {
+  "reading": "べんごがわ",
+  "meaning": "【べんごがわ】辩护方〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "検察側": {
+  "reading": "けんさつがわ",
+  "meaning": "【けんさつがわ】检控方〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "準抗告": {
+  "reading": "じゅんこうこく",
+  "meaning": "【じゅんこうこく】准抗告〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "兵役法": {
+  "reading": "へいえきほう",
+  "meaning": "【へいえきほう】《兵役法》（旧法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "制定法": {
+  "reading": "せいていほう",
+  "meaning": "【せいていほう】成文法；制定法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "準拠法": {
+  "reading": "じゅんきょほう",
+  "meaning": "【じゅんきょほう】准据法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "特商法": {
+  "reading": "とくしょうほう",
+  "meaning": "【とくしょうほう】《特定商取引法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "銀行法": {
+  "reading": "ぎんこうほう",
+  "meaning": "【ぎんこうほう】《银行法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "重過失": {
+  "reading": "じゅうかしつ",
+  "meaning": "【じゅうかしつ】重大过失〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "契約法": {
+  "reading": "けいやくほう",
+  "meaning": "【けいやくほう】合同法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "労基法": {
+  "reading": "ろうきほう",
+  "meaning": "【ろうきほう】《劳动基准法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "共謀罪": {
+  "reading": "きょうぼうざい",
+  "meaning": "【きょうぼうざい】共谋罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "不遡及": {
+  "reading": "ふそきゅう",
+  "meaning": "【ふそきゅう】不溯及既往〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "事後審": {
+  "reading": "じごしん",
+  "meaning": "【じごしん】事后审〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "タリオ": {
+  "reading": "",
+  "meaning": "同态复仇（同害报复）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "予備罪": {
+  "reading": "よびざい",
+  "meaning": "【よびざい】预备罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "元号法": {
+  "reading": "げんごうほう",
+  "meaning": "【げんごうほう】《元号法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "審査権": {
+  "reading": "しんさけん",
+  "meaning": "【しんさけん】审查权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "鉱業法": {
+  "reading": "こうぎょうほう",
+  "meaning": "【こうぎょうほう】《矿业法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "信託法": {
+  "reading": "しんたくほう",
+  "meaning": "【しんたくほう】《信托法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "幇助罪": {
+  "reading": "ほうじょざい",
+  "meaning": "【ほうじょざい】帮助犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "主尋問": {
+  "reading": "しゅじんもん",
+  "meaning": "【しゅじんもん】主询问〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "特飲店": {
+  "reading": "とくいんてん",
+  "meaning": "【とくいんてん】特殊饮食店〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "中止犯": {
+  "reading": "ちゅうしはん",
+  "meaning": "【ちゅうしはん】中止犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "特措法": {
+  "reading": "とくそほう",
+  "meaning": "【とくそほう】特别措施法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "証明力": {
+  "reading": "しょうめいりょく",
+  "meaning": "【しょうめいりょく】证明力〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "刑訴法": {
+  "reading": "けいそほう",
+  "meaning": "【けいそほう】《刑事诉讼法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "市街化": {
+  "reading": "しがいか",
+  "meaning": "【しがいか】城市化；市街化〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "砂防法": {
+  "reading": "さぼうほう",
+  "meaning": "【さぼうほう】《沙防法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "施行令": {
+  "reading": "しこうれい",
+  "meaning": "【しこうれい】施行令〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "暴行罪": {
+  "reading": "ぼうこうざい",
+  "meaning": "【ぼうこうざい】暴行罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "細街路": {
+  "reading": "さいがいろ",
+  "meaning": "【さいがいろ】细窄街路〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "留置権": {
+  "reading": "りゅうちけん",
+  "meaning": "【りゅうちけん】留置权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "企業法": {
+  "reading": "きぎょうほう",
+  "meaning": "【きぎょうほう】企业法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "国会法": {
+  "reading": "こっかいほう",
+  "meaning": "【こっかいほう】《国会法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "旅券法": {
+  "reading": "りょけんほう",
+  "meaning": "【りょけんほう】《护照法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "財政法": {
+  "reading": "ざいせいほう",
+  "meaning": "【ざいせいほう】《财政法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "会計法": {
+  "reading": "かいけいほう",
+  "meaning": "【かいけいほう】《会计法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "酒税法": {
+  "reading": "しゅぜいほう",
+  "meaning": "【しゅぜいほう】《酒税法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "関税法": {
+  "reading": "かんぜいほう",
+  "meaning": "【かんぜいほう】《关税法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "測量法": {
+  "reading": "そくりょうほう",
+  "meaning": "【そくりょうほう】《测量法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "道路法": {
+  "reading": "どうろほう",
+  "meaning": "【どうろほう】《道路法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "河川法": {
+  "reading": "かせんほう",
+  "meaning": "【かせんほう】《河川法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "景観法": {
+  "reading": "けいかんほう",
+  "meaning": "【けいかんほう】《景观法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "警察法": {
+  "reading": "けいさつほう",
+  "meaning": "【けいさつほう】《警察法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "採石法": {
+  "reading": "さいせきほう",
+  "meaning": "【さいせきほう】《采石法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "種苗法": {
+  "reading": "しゅびょうほう",
+  "meaning": "【しゅびょうほう】《种苗法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "医事法": {
+  "reading": "いじほう",
+  "meaning": "【いじほう】医事法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "供託法": {
+  "reading": "きょうたくほう",
+  "meaning": "【きょうたくほう】《供托法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "郵便法": {
+  "reading": "ゆうびんほう",
+  "meaning": "【ゆうびんほう】《邮政法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "意匠法": {
+  "reading": "いしょうほう",
+  "meaning": "【いしょうほう】《意匠法》（外观设计法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "本国法": {
+  "reading": "ほんごくほう",
+  "meaning": "【ほんごくほう】本国法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "親族法": {
+  "reading": "しんぞくほう",
+  "meaning": "【しんぞくほう】亲属法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "相続法": {
+  "reading": "そうぞくほう",
+  "meaning": "【そうぞくほう】继承法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "日本法": {
+  "reading": "にほんほう",
+  "meaning": "【にほんほう】日本法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "常居所": {
+  "reading": "じょうきょしょ",
+  "meaning": "【じょうきょしょ】经常居住地〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "拘禁刑": {
+  "reading": "こうきんけい",
+  "meaning": "【こうきんけい】拘禁刑〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "拘禁者": {
+  "reading": "こうきんしゃ",
+  "meaning": "【こうきんしゃ】被拘禁者〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "検疫法": {
+  "reading": "けんえきほう",
+  "meaning": "【けんえきほう】《检疫法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "無主物": {
+  "reading": "むしゅぶつ",
+  "meaning": "【むしゅぶつ】无主物〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "過疎法": {
+  "reading": "かそほう",
+  "meaning": "【かそほう】《过疏法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "判決書": {
+  "reading": "はんけつしょ",
+  "meaning": "【はんけつしょ】判决书〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "主犯格": {
+  "reading": "しゅはんかく",
+  "meaning": "【しゅはんかく】主犯；首要犯人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "和解金": {
+  "reading": "わかいきん",
+  "meaning": "【わかいきん】和解金〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "脱税犯": {
+  "reading": "だつぜいはん",
+  "meaning": "【だつぜいはん】逃税犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "温対法": {
+  "reading": "おんたいほう",
+  "meaning": "【おんたいほう】《温対法》（全球变暖对策推进法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "行政罰": {
+  "reading": "ぎょうせいばつ",
+  "meaning": "【ぎょうせいばつ】行政处罚〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "売防法": {
+  "reading": "ばいぼうほう",
+  "meaning": "【ばいぼうほう】《卖春防止法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "伝産法": {
+  "reading": "でんさんほう",
+  "meaning": "【でんさんほう】《传统产业振兴法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "暴対法": {
+  "reading": "ぼうたいほう",
+  "meaning": "【ぼうたいほう】《暴对法》（反暴力团法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "旧民法": {
+  "reading": "きゅうみんぽう",
+  "meaning": "【きゅうみんぽう】旧民法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "災対法": {
+  "reading": "さいたいほう",
+  "meaning": "【さいたいほう】《灾害对策基本法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "報労金": {
+  "reading": "ほうろうきん",
+  "meaning": "【ほうろうきん】（拾得人）酬金〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "ＰＬ法": {
+  "reading": "ピーエルほう",
+  "meaning": "【ピーエルほう】《产品责任法》（PL法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "限時法": {
+  "reading": "げんじほう",
+  "meaning": "【げんじほう】限时法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "翻案権": {
+  "reading": "ほんあんけん",
+  "meaning": "【ほんあんけん】改编权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "受寄者": {
+  "reading": "じゅきしゃ",
+  "meaning": "【じゅきしゃ】受寄人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "国土法": {
+  "reading": "こくどほう",
+  "meaning": "【こくどほう】《国土利用計画法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "遡及法": {
+  "reading": "そきゅうほう",
+  "meaning": "【そきゅうほう】溯及法律〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "商標法": {
+  "reading": "しょうひょうほう",
+  "meaning": "【しょうひょうほう】《商标法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "判決例": {
+  "reading": "はんけつれい",
+  "meaning": "【はんけつれい】判例〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "行使罪": {
+  "reading": "こうしざい",
+  "meaning": "【こうしざい】行使罪（使用伪造文书罪）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "連続犯": {
+  "reading": "れんぞくはん",
+  "meaning": "【れんぞくはん】连续犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "私法人": {
+  "reading": "しほうじん",
+  "meaning": "【しほうじん】私法人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "特例法": {
+  "reading": "とくれいほう",
+  "meaning": "【とくれいほう】特别法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "身分犯": {
+  "reading": "みぶんはん",
+  "meaning": "【みぶんはん】身份犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "加重犯": {
+  "reading": "かじゅうはん",
+  "meaning": "【かじゅうはん】加重犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "性交等": {
+  "reading": "せいこうとう",
+  "meaning": "【せいこうとう】性交等（法定用语）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "三審制": {
+  "reading": "さんしんせい",
+  "meaning": "【さんしんせい】三审制〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "合議審": {
+  "reading": "ごうぎしん",
+  "meaning": "【ごうぎしん】合议审理〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "財産犯": {
+  "reading": "ざいさんはん",
+  "meaning": "【ざいさんはん】财产犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "財産罪": {
+  "reading": "ざいさんざい",
+  "meaning": "【ざいさんざい】财产罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "毀棄罪": {
+  "reading": "ききざい",
+  "meaning": "【ききざい】毁弃罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "隠匿罪": {
+  "reading": "いんとくざい",
+  "meaning": "【いんとくざい】隐匿罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "領得罪": {
+  "reading": "りょうとくざい",
+  "meaning": "【りょうとくざい】领得罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "牽連犯": {
+  "reading": "けんれんはん",
+  "meaning": "【けんれんはん】牵连犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "執行権": {
+  "reading": "しっこうけん",
+  "meaning": "【しっこうけん】执行权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "提訴人": {
+  "reading": "ていそにん",
+  "meaning": "【ていそにん】提诉人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "参加人": {
+  "reading": "さんかにん",
+  "meaning": "【さんかにん】参加人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "景表法": {
+  "reading": "けいひょうほう",
+  "meaning": "【けいひょうほう】《景表法》（不当景品类限制法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "能力者": {
+  "reading": "のうりょくしゃ",
+  "meaning": "【のうりょくしゃ】有能力者〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "能開法": {
+  "reading": "のうかいほう",
+  "meaning": "【のうかいほう】《职业能力开发促进法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "人身保護": {
+  "reading": "じんしんほご",
+  "meaning": "【じんしんほご】人身保护（法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "先取特権": {
+  "reading": "せんしゅとっけん",
+  "meaning": "【せんしゅとっけん】优先特权（法定优先权）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "不可抗力": {
+  "reading": "ふかこうりょく",
+  "meaning": "【ふかこうりょく】不可抗力〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "民事事件": {
+  "reading": "みんじじけん",
+  "meaning": "【みんじじけん】民事案件〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "無限責任": {
+  "reading": "むげんせきにん",
+  "meaning": "【むげんせきにん】无限责任〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "養子縁組": {
+  "reading": "ようしえんぐみ",
+  "meaning": "【ようしえんぐみ】收养；结成养子关系〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "各種学校": {
+  "reading": "かくしゅがっこう",
+  "meaning": "【かくしゅがっこう】各类学校（非正规学校）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "証拠隠滅": {
+  "reading": "しょうこいんめつ",
+  "meaning": "【しょうこいんめつ】毁灭证据〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "無実の罪": {
+  "reading": "むじつのつみ",
+  "meaning": "【むじつのつみ】冤罪；无妄之罪〈惯〉",
+  "level": "law",
+  "need": 2
+ },
+ "無能力者": {
+  "reading": "むのうりょくしゃ",
+  "meaning": "【むのうりょくしゃ】无行为能力人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "禁治産者": {
+  "reading": "きんちさんしゃ",
+  "meaning": "【きんちさんしゃ】禁治产人（旧制度）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "属人主義": {
+  "reading": "ぞくじんしゅぎ",
+  "meaning": "【ぞくじんしゅぎ】属人主义〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "属地主義": {
+  "reading": "ぞくちしゅぎ",
+  "meaning": "【ぞくちしゅぎ】属地主义〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "著作権法": {
+  "reading": "ちょさくけんほう",
+  "meaning": "【ちょさくけんほう】《著作权法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "皇室典範": {
+  "reading": "こうしつてんぱん",
+  "meaning": "【こうしつてんぱん】《皇室典范》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "物的証拠": {
+  "reading": "ぶってきしょうこ",
+  "meaning": "【ぶってきしょうこ】物证〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "国民審査": {
+  "reading": "こくみんしんさ",
+  "meaning": "【こくみんしんさ】国民审查（法官罢免）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "国家賠償": {
+  "reading": "こっかばいしょう",
+  "meaning": "【こっかばいしょう】国家赔偿〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "失踪宣告": {
+  "reading": "しっそうせんこく",
+  "meaning": "【しっそうせんこく】失踪宣告〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "逸失利益": {
+  "reading": "いっしつりえき",
+  "meaning": "【いっしつりえき】逸失利益〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "死体遺棄": {
+  "reading": "したいいき",
+  "meaning": "【したいいき】遗弃尸体〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "尋問調書": {
+  "reading": "じんもんちょうしょ",
+  "meaning": "【じんもんちょうしょ】讯问笔录〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "心神喪失": {
+  "reading": "しんしんそうしつ",
+  "meaning": "【しんしんそうしつ】心神丧失〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "強制執行": {
+  "reading": "きょうせいしっこう",
+  "meaning": "【きょうせいしっこう】强制执行〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "法律行為": {
+  "reading": "ほうりつこうい",
+  "meaning": "【ほうりつこうい】法律行为〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "集団訴訟": {
+  "reading": "しゅうだんそしょう",
+  "meaning": "【しゅうだんそしょう】集体诉讼〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "確定判決": {
+  "reading": "かくていはんけつ",
+  "meaning": "【かくていはんけつ】确定判决〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "業務妨害": {
+  "reading": "ぎょうむぼうがい",
+  "meaning": "【ぎょうむぼうがい】妨碍业务〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "施行規則": {
+  "reading": "しこうきそく",
+  "meaning": "【しこうきそく】施行规则〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "出頭命令": {
+  "reading": "しゅっとうめいれい",
+  "meaning": "【しゅっとうめいれい】出庭令；传唤令〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "被相続人": {
+  "reading": "ひそうぞくにん",
+  "meaning": "【ひそうぞくにん】被继承人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "身体傷害": {
+  "reading": "からだしょうがい",
+  "meaning": "【からだしょうがい】身体伤害〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "地方税法": {
+  "reading": "ちほうぜいほう",
+  "meaning": "【ちほうぜいほう】《地方税法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "直接尋問": {
+  "reading": "ちょくせつじんもん",
+  "meaning": "【ちょくせつじんもん】直接询问〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "身柄送検": {
+  "reading": "みがらそうけん",
+  "meaning": "【みがらそうけん】移送检方〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "器物損壊": {
+  "reading": "きぶつそんかい",
+  "meaning": "【きぶつそんかい】损坏器物〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "即時抗告": {
+  "reading": "そくじこうこく",
+  "meaning": "【そくじこうこく】即时抗告〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "所得税法": {
+  "reading": "しょとくぜいほう",
+  "meaning": "【しょとくぜいほう】《所得税法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "実況見分": {
+  "reading": "じっきょうけんぶん",
+  "meaning": "【じっきょうけんぶん】现场勘验〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "訴訟係属": {
+  "reading": "そしょうけいぞく",
+  "meaning": "【そしょうけいぞく】诉讼系属〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "印紙税法": {
+  "reading": "いんしぜいほう",
+  "meaning": "【いんしぜいほう】《印花税法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "自衛隊法": {
+  "reading": "じえいたいほう",
+  "meaning": "【じえいたいほう】《自卫队法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "構成要件": {
+  "reading": "こうせいようけん",
+  "meaning": "【こうせいようけん】构成要件〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "法定強姦": {
+  "reading": "ほうていごうかん",
+  "meaning": "【ほうていごうかん】法定强奸〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "共同遺言": {
+  "reading": "きょうどういごん",
+  "meaning": "【きょうどういごん】共同遗嘱〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "傷害致死": {
+  "reading": "しょうがいちし",
+  "meaning": "【しょうがいちし】伤害致死〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "導管実体": {
+  "reading": "どうかんじったい",
+  "meaning": "【どうかんじったい】导管实体（税收穿透）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "硬性憲法": {
+  "reading": "こうせいけんぽう",
+  "meaning": "【こうせいけんぽう】刚性宪法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "軟性憲法": {
+  "reading": "なんせいけんぽう",
+  "meaning": "【なんせいけんぽう】柔性宪法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "注意義務": {
+  "reading": "ちゅういぎむ",
+  "meaning": "【ちゅういぎむ】注意义务〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "共同相続": {
+  "reading": "きょうどうそうぞく",
+  "meaning": "【きょうどうそうぞく】共同继承〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "恒久施設": {
+  "reading": "こうきゅうしせつ",
+  "meaning": "【こうきゅうしせつ】永久设施（常设机构）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "消滅時効": {
+  "reading": "しょうめつじこう",
+  "meaning": "【しょうめつじこう】消灭时效〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "公訴時効": {
+  "reading": "こうそじこう",
+  "meaning": "【こうそじこう】公诉时效〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "時効期間": {
+  "reading": "じこうきかん",
+  "meaning": "【じこうきかん】时效期间〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "非訟事件": {
+  "reading": "ひしょうじけん",
+  "meaning": "【ひしょうじけん】非讼案件〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "ＮＰＯ法": {
+  "reading": "エヌピーオーほう",
+  "meaning": "【エヌピーオーほう】《NPO法》（特定非営利活动促进法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "虞犯少年": {
+  "reading": "ぐはんしょうねん",
+  "meaning": "【ぐはんしょうねん】虞犯少年〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "触法少年": {
+  "reading": "しょくほうしょうねん",
+  "meaning": "【しょくほうしょうねん】触法少年〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "推定無罪": {
+  "reading": "すいていむざい",
+  "meaning": "【すいていむざい】无罪推定〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "責任能力": {
+  "reading": "せきにんのうりょく",
+  "meaning": "【せきにんのうりょく】责任能力〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "準強姦罪": {
+  "reading": "じゅんごうかんざい",
+  "meaning": "【じゅんごうかんざい】准强奸罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "集団強姦": {
+  "reading": "しゅうだんごうかん",
+  "meaning": "【しゅうだんごうかん】轮奸〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "あへん法": {
+  "reading": "あへんほう",
+  "meaning": "【あへんほう】《鸦片法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "ＪＡＳ法": {
+  "reading": "ジャスほう",
+  "meaning": "【ジャスほう】《JAS法》（农林物资规格化法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "直接証拠": {
+  "reading": "ちょくせつしょうこ",
+  "meaning": "【ちょくせつしょうこ】直接证据〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "間接証拠": {
+  "reading": "かんせつしょうこ",
+  "meaning": "【かんせつしょうこ】间接证据〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "虚偽表示": {
+  "reading": "きょぎひょうじ",
+  "meaning": "【きょぎひょうじ】虚伪表示〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "遺言能力": {
+  "reading": "いごんのうりょく",
+  "meaning": "【いごんのうりょく】立遗嘱能力〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "判決理由": {
+  "reading": "はんけつりゆう",
+  "meaning": "【はんけつりゆう】判决理由〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "取引制限": {
+  "reading": "とりひきせいげん",
+  "meaning": "【とりひきせいげん】交易限制〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "処分保留": {
+  "reading": "しょぶんほりゅう",
+  "meaning": "【しょぶんほりゅう】暂缓处理（不起诉保留）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "関連法案": {
+  "reading": "かんれんほうあん",
+  "meaning": "【かんれんほうあん】相关法案〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "重要法案": {
+  "reading": "じゅうようほうあん",
+  "meaning": "【じゅうようほうあん】重要法案〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "間接正犯": {
+  "reading": "かんせつせいはん",
+  "meaning": "【かんせつせいはん】间接正犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "直接正犯": {
+  "reading": "ちょくせつせいはん",
+  "meaning": "【ちょくせつせいはん】直接正犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "宇宙条約": {
+  "reading": "うちゅうじょうやく",
+  "meaning": "【うちゅうじょうやく】《外层空间条约》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "実効支配": {
+  "reading": "じっこうしはい",
+  "meaning": "【じっこうしはい】实际控制〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "契約自由": {
+  "reading": "けいやくじゆう",
+  "meaning": "【けいやくじゆう】契约自由〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "恩恵期間": {
+  "reading": "おんけいきかん",
+  "meaning": "【おんけいきかん】宽限期〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "接続水域": {
+  "reading": "せつぞくすいいき",
+  "meaning": "【せつぞくすいいき】毗连区〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "確定裁判": {
+  "reading": "かくていさいばん",
+  "meaning": "【かくていさいばん】确定裁判〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "判例違反": {
+  "reading": "はんれいいはん",
+  "meaning": "【はんれいいはん】违反判例〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "上告理由": {
+  "reading": "じょうこくりゆう",
+  "meaning": "【じょうこくりゆう】上告理由〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "許可抗告": {
+  "reading": "きょかこうこく",
+  "meaning": "【きょかこうこく】许可抗告〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "再審請求": {
+  "reading": "さいしんせいきゅう",
+  "meaning": "【さいしんせいきゅう】再审申请〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "行為能力": {
+  "reading": "こういのうりょく",
+  "meaning": "【こういのうりょく】行为能力〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "善意占有": {
+  "reading": "ぜんいせんゆう",
+  "meaning": "【ぜんいせんゆう】善意占有〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "悪意占有": {
+  "reading": "あくいせんゆう",
+  "meaning": "【あくいせんゆう】恶意占有〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "立法趣旨": {
+  "reading": "りっぽうしゅし",
+  "meaning": "【りっぽうしゅし】立法宗旨〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "旅行業法": {
+  "reading": "りょこうぎょうほう",
+  "meaning": "【りょこうぎょうほう】《旅行社法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "交戦団体": {
+  "reading": "こうせんだんたい",
+  "meaning": "【こうせんだんたい】交战团体〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "整理解雇": {
+  "reading": "せいりかいこ",
+  "meaning": "【せいりかいこ】经济性裁员〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "遺産分割": {
+  "reading": "いさんぶんかつ",
+  "meaning": "【いさんぶんかつ】遗产分割〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "権利濫用": {
+  "reading": "けんりらんよう",
+  "meaning": "【けんりらんよう】权利滥用〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "挙証責任": {
+  "reading": "きょしょうせきにん",
+  "meaning": "【きょしょうせきにん】举证责任〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "立証責任": {
+  "reading": "りっしょうせきにん",
+  "meaning": "【りっしょうせきにん】立证责任〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "証明責任": {
+  "reading": "しょうめいせきにん",
+  "meaning": "【しょうめいせきにん】证明责任〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "審査請求": {
+  "reading": "しんさせいきゅう",
+  "meaning": "【しんさせいきゅう】审查请求（行政复议）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "酌量減軽": {
+  "reading": "しゃくりょうげんけい",
+  "meaning": "【しゃくりょうげんけい】酌量减刑〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "譲渡可能": {
+  "reading": "じょうとかのう",
+  "meaning": "【じょうとかのう】可转让〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "譲渡不能": {
+  "reading": "じょうとふのう",
+  "meaning": "【じょうとふのう】不可转让〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "無害通航": {
+  "reading": "むがいつうこう",
+  "meaning": "【むがいつうこう】无害通过〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "履行遅滞": {
+  "reading": "りこうちたい",
+  "meaning": "【りこうちたい】履行迟延〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "履行不能": {
+  "reading": "りこうふのう",
+  "meaning": "【りこうふのう】履行不能〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "債権譲渡": {
+  "reading": "さいけんじょうと",
+  "meaning": "【さいけんじょうと】债权转让〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "資産凍結": {
+  "reading": "しさんとうけつ",
+  "meaning": "【しさんとうけつ】资产冻结〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "自然債務": {
+  "reading": "しぜんさいむ",
+  "meaning": "【しぜんさいむ】自然债务〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "代物弁済": {
+  "reading": "だいぶつべんさい",
+  "meaning": "【だいぶつべんさい】代物清偿〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "激甚災害": {
+  "reading": "げきじんさいがい",
+  "meaning": "【げきじんさいがい】特大灾害（指定）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "博物館法": {
+  "reading": "はくぶつかんほう",
+  "meaning": "【はくぶつかんほう】《博物馆法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "海洋秩序": {
+  "reading": "かいようちつじょ",
+  "meaning": "【かいようちつじょ】海洋秩序〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "自力救済": {
+  "reading": "じりききゅうさい",
+  "meaning": "【じりききゅうさい】自力救济〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "公の秩序": {
+  "reading": "おおやけのちつじょ",
+  "meaning": "【おおやけのちつじょ】公共秩序〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "心裡留保": {
+  "reading": "しんりりゅうほ",
+  "meaning": "【しんりりゅうほ】心中保留〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "取得時効": {
+  "reading": "しゅとくじこう",
+  "meaning": "【しゅとくじこう】取得时效〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "嫡出推定": {
+  "reading": "ちゃくしゅつすいてい",
+  "meaning": "【ちゃくしゅつすいてい】婚生推定〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "待婚期間": {
+  "reading": "たいこんきかん",
+  "meaning": "【たいこんきかん】待婚期（再婚禁止期间）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "免責事項": {
+  "reading": "めんせきじこう",
+  "meaning": "【めんせきじこう】免责事项〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "接見交通": {
+  "reading": "せっけんこうつう",
+  "meaning": "【せっけんこうつう】会见通信（律师接见）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "認定死亡": {
+  "reading": "にんていしぼう",
+  "meaning": "【にんていしぼう】认定死亡〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "法定果実": {
+  "reading": "ほうていかじつ",
+  "meaning": "【ほうていかじつ】法定孳息〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "天然果実": {
+  "reading": "てんねんかじつ",
+  "meaning": "【てんねんかじつ】天然孳息〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "退去強制": {
+  "reading": "たいきょきょうせい",
+  "meaning": "【たいきょきょうせい】强制遣返〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "即日結審": {
+  "reading": "そくじつけっしん",
+  "meaning": "【そくじつけっしん】当日审结〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "抗拒不能": {
+  "reading": "こうきょふのう",
+  "meaning": "【こうきょふのう】不能抗拒〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "特定妊婦": {
+  "reading": "とくていにんぷ",
+  "meaning": "【とくていにんぷ】特定孕妇（健康指导对象）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "法人税法": {
+  "reading": "ほうじんぜいほう",
+  "meaning": "【ほうじんぜいほう】《法人税法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "所掌事務": {
+  "reading": "しょしょうじむ",
+  "meaning": "【しょしょうじむ】所管事务〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "相続税法": {
+  "reading": "そうぞくぜいほう",
+  "meaning": "【そうぞくぜいほう】《继承税法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "無期禁錮": {
+  "reading": "むききんこ",
+  "meaning": "【むききんこ】无期禁锢〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "争点整理": {
+  "reading": "そうてんせいり",
+  "meaning": "【そうてんせいり】争点整理〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "生前贈与": {
+  "reading": "せいぜんぞうよ",
+  "meaning": "【せいぜんぞうよ】生前赠与〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "共犯証言": {
+  "reading": "きょうはんしょうげん",
+  "meaning": "【きょうはんしょうげん】共犯指证；污点证言〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "民事調停": {
+  "reading": "みんじちょうてい",
+  "meaning": "【みんじちょうてい】民事调解〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "犯人隠避": {
+  "reading": "はんにんいんぴ",
+  "meaning": "【はんにんいんぴ】窝藏包庇（犯人）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "商業地域": {
+  "reading": "しょうぎょうちいき",
+  "meaning": "【しょうぎょうちいき】商业地域（用途地域）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "過失相殺": {
+  "reading": "かしつそうさい",
+  "meaning": "【かしつそうさい】过失相抵〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "狩猟鳥獣": {
+  "reading": "しゅりょうちょうじゅう",
+  "meaning": "【しゅりょうちょうじゅう】可猎鸟兽〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "特定空家": {
+  "reading": "とくていあきや",
+  "meaning": "【とくていあきや】特定空置房〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "同意年齢": {
+  "reading": "どういねんれい",
+  "meaning": "【どういねんれい】性同意年龄〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "任意組合": {
+  "reading": "にんいくみあい",
+  "meaning": "【にんいくみあい】任意合伙〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "単純承認": {
+  "reading": "たんじゅんしょうにん",
+  "meaning": "【たんじゅんしょうにん】单纯承认（继承）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "感染症法": {
+  "reading": "かんせんしょうほう",
+  "meaning": "【かんせんしょうほう】《感染症法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "権利能力": {
+  "reading": "けんりのうりょく",
+  "meaning": "【けんりのうりょく】权利能力〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "強制性交": {
+  "reading": "きょうせいせいこう",
+  "meaning": "【きょうせいせいこう】强制性交〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "不法残留": {
+  "reading": "ふほうざんりゅう",
+  "meaning": "【ふほうざんりゅう】非法滞留〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "限嗣相続": {
+  "reading": "げんしそうぞく",
+  "meaning": "【げんしそうぞく】限定继承（西法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "接道義務": {
+  "reading": "せつどうぎむ",
+  "meaning": "【せつどうぎむ】接路义务〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "２項道路": {
+  "reading": "にこうどうろ",
+  "meaning": "【にこうどうろ】二项道路（4米以下接路）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "改善命令": {
+  "reading": "かいぜんめいれい",
+  "meaning": "【かいぜんめいれい】整改命令〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "通知義務": {
+  "reading": "つうちぎむ",
+  "meaning": "【つうちぎむ】通知义务〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "記名押印": {
+  "reading": "きめいおういん",
+  "meaning": "【きめいおういん】记名盖章〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "保険業法": {
+  "reading": "ほけんぎょうほう",
+  "meaning": "【ほけんぎょうほう】《保险业法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "税理士法": {
+  "reading": "ぜいりしほう",
+  "meaning": "【ぜいりしほう】《税理士法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "消費税法": {
+  "reading": "しょうひぜいほう",
+  "meaning": "【しょうひぜいほう】《消费税法》〈名〉",
+  "level": "law",
+  "need": 2
+ }
+}

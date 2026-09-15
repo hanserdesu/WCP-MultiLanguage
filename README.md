@@ -6,6 +6,9 @@
 
 > **状态：阶段 2 实施中。** 宿主、20 个逻辑槽位、资源隔离与一键安装器已落地，
 > 注册表 / 槽位 / 接管 / 安装器测试全部通过；多语言实机切换矩阵尚未完成最终验收。
+> **2026-09-15 起本仓库是所有语言唯一的提交目标**：9 个语言工程的工作区已集成到
+> `languages/<code>/`（来源与排除项见 [languages/README.md](languages/README.md)、
+> [languages/PROVENANCE.json](languages/PROVENANCE.json)），宿主、槽位、资源包契约与安装器在仓库根部。
 > **发布边界：集成版安装包与资源包的 release 一律从本仓库发布**；日语词书本体与日语语音包
 > 保留在 `hanserdesu/japanese`（其余语言的语音包全部由本仓库发布）。
 
@@ -18,6 +21,9 @@
 | `mod_book_name/` | 书名 / 身份层 `BookNameMod.dll`（`BookProfiles` + 诊断） |
 | `packs/` | 语言资源包契约：每语言一个 `manifest.json`（ja / fr / ru / de），ja 含词库与数据库负载 |
 | `tools/` | 迁移与生成工具：`migrate_legacy_host_yield.py`、`gen_bookprofiles.py` |
+| `tools/release/` | 资源包发布流水线：`build_all_languages.py`、`make_release_manifests.py`、`publish_release.py`、`merge_catalog_rows.py`，以及各语言的 release 清单与发布记录 |
+| `tools/integrate_languages.py`、`tools/verify_integration.py` | 语言工程集成与一致性校验工具 |
+| `languages/<code>/` | 9 个语言工程的源码树（ja / fr / ru / de / es / pt / ko / ar / yue），含集成时未提交的在研改动 |
 | `Install-WCP-Wordbooks.ps1`、`WordbookHub.psm1`、`catalog.json` | 一键安装器：GitHub 发现词书、选择安装、峰值磁盘检查、SHA-256 差异更新 |
 | `一键安装词书.cmd`、`更新词书资源.cmd` | 给玩家的双击入口 |
 | `ARCHITECTURE-UNIFIED.md` | 统一接入架构设计（Host / Pack / Strategy） |
@@ -51,6 +57,9 @@ powershell -File mod_custom_slots\tests\run_slot_rules_test.ps1
 
 # 安装器：离线单元测试（无网络、不写游戏目录）
 powershell -File tests\test_hub.ps1
+
+# 集成一致性：languages/<code>/ 与原语言仓库工作区逐文件 sha256 比对
+python tools\verify_integration.py
 ```
 
 构建：`mod_host\build.cmd`、`mod_custom_slots\build.cmd`、`mod_book_name\build.cmd`、
@@ -74,14 +83,20 @@ asset 列表为准。`disk.extract_mb` 是按 zip 内实际文件大小算出的
 建索引，两本词书共用一个仓库会被折叠成一条（`tests/test_hub.ps1` 里有对应断言）。资源到底
 从哪个 release 下载，只看每条 asset 的 `url`。
 
-语音包的打包与发布流程见 [INSTALLER.md](INSTALLER.md#资源包发布流程)。
+语音包的打包与发布流程见 [INSTALLER.md](INSTALLER.md#资源包发布流程)；流水线脚本已随本仓库
+版本化在 `tools/release/`，构建产物（音频 zip 等）仍留在本地 `_local/release/` 不入库。
 
 ## 迁移说明
 
-本仓库初始内容快照自 2026-09-15 上午的工作区：
-
-- `hanserdesu/japanese` @ `5283a39`：宿主、槽位、书名层、packs、迁移工具、架构文档
-  （含当时工作区中未提交的槽位测试与 packs 载荷文件）
-- `hanserdesu/WCP-Wordbook-Hub` @ `3c6ed26`：安装器、目录、双击启动器、安装器测试
-
-japanese 仓库中仍在收尾的集成开发迁移完成后，本仓库将成为集成项目的唯一开发与发布源。
+1. **2026-09-15 上午（初始快照）**：`hanserdesu/japanese` @ `5283a39` 提供宿主、槽位、
+   书名层、packs、迁移工具与架构文档（含当时工作区中未提交的槽位测试与 packs 载荷文件）；
+   `hanserdesu/WCP-Wordbook-Hub` @ `3c6ed26` 提供安装器、目录、双击启动器与安装器测试。
+2. **2026-09-15 资源包发布**：8 种语言（ar / de / es / fr / ko / pt / ru / yue）的语音资源包在本仓库发布，
+   `catalog.json` 中 9 本词书全部转 `available`。
+3. **2026-09-15 日语回滚**：`hanserdesu/japanese` 的 `master` 回滚到 `8e48f6a`（tag `wcp-jp-v1.2.2`），
+   即群友正在使用的稳定版。回滚移除了 12 个尚未验收的提交，它们完整保存在本地分支
+   `archive/pre-freeze-2026-09-15`、reflog，以及下面第 4 条的工作区集成里。
+4. **2026-09-15 全量集成**：9 个语言工程的工作区（tracked 全量 + 未提交改动）复制进
+   `languages/<code>/`，逐文件 sha256 记录在 `languages/PROVENANCE.json`，
+   `python tools\verify_integration.py` 可随时复核。至此各语言不再分散提交，
+   日语词书本体与日语语音包的 Release 保留在 `hanserdesu/japanese`。

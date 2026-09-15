@@ -1,0 +1,602 @@
+[
+{
+"word": "manifester",
+"pos": "v.",
+"zh": "显示；表明；示威",
+"level": "b1"
+},
+{
+"word": "manipuler",
+"pos": "v.",
+"zh": "操纵；摆弄",
+"level": "b1"
+},
+{
+"word": "mannequin",
+"pos": "n.",
+"zh": "模特；人体模型",
+"level": "b1"
+},
+{
+"word": "manuel",
+"pos": "n.m.",
+"zh": "手册；教材",
+"level": "b1"
+},
+{
+"word": "marchander",
+"pos": "v.",
+"zh": "讨价还价",
+"level": "b1"
+},
+{
+"word": "marchandise",
+"pos": "n.f.",
+"zh": "商品；货物",
+"level": "b1"
+},
+{
+"word": "marche",
+"pos": "n.f.",
+"zh": "步行；步伐；挡位",
+"level": "b1"
+},
+{
+"word": "marge",
+"pos": "n.f.",
+"zh": "页边；余地；利润",
+"level": "b1"
+},
+{
+"word": "marine",
+"pos": "adj.",
+"zh": "海的；海军的",
+"level": "b1"
+},
+{
+"word": "maritime",
+"pos": "adj.",
+"zh": "海事的；近海的",
+"level": "b1"
+},
+{
+"word": "marmite",
+"pos": "n.f.",
+"zh": "锅；汤锅",
+"level": "b1"
+},
+{
+"word": "marmotte",
+"pos": "n.f.",
+"zh": "土拨鼠；旱獭",
+"level": "b1"
+},
+{
+"word": "marocain",
+"pos": "n.m.",
+"zh": "摩洛哥的；摩洛哥人",
+"level": "b1"
+},
+{
+"word": "marre",
+"pos": "adv.",
+"zh": "受够了（口语）",
+"level": "b1"
+},
+{
+"word": "marrer",
+"pos": "v.",
+"zh": "大笑（口语）",
+"level": "b1"
+},
+{
+"word": "marée",
+"pos": "n.f.",
+"zh": "潮汐；海潮",
+"level": "b1"
+},
+{
+"word": "mascotte",
+"pos": "n.f.",
+"zh": "吉祥物",
+"level": "b1"
+},
+{
+"word": "masqué",
+"pos": "adj.",
+"zh": "戴面具的",
+"level": "b1"
+},
+{
+"word": "massacre",
+"pos": "n.m.",
+"zh": "屠杀",
+"level": "b1"
+},
+{
+"word": "massacrer",
+"pos": "v.",
+"zh": "屠杀；糟蹋",
+"level": "b1"
+},
+{
+"word": "massage",
+"pos": "n.m.",
+"zh": "按摩",
+"level": "b1"
+},
+{
+"word": "masse",
+"pos": "n.f.",
+"zh": "块；团；大量",
+"level": "b1"
+},
+{
+"word": "masser",
+"pos": "v.",
+"zh": "按摩",
+"level": "b1"
+},
+{
+"word": "massif",
+"pos": "adj.",
+"zh": "巨大的；结实的",
+"level": "b1"
+},
+{
+"word": "master",
+"pos": "n.m.",
+"zh": "硕士学位",
+"level": "b1"
+},
+{
+"word": "maternel",
+"pos": "adj.",
+"zh": "母亲的；幼儿园的",
+"level": "b1"
+},
+{
+"word": "maternité",
+"pos": "n.f.",
+"zh": "产科；母性",
+"level": "b1"
+},
+{
+"word": "matière",
+"pos": "n.f.",
+"zh": "材料；物质；科目",
+"level": "b1"
+},
+{
+"word": "matériau",
+"pos": "n.m.",
+"zh": "材料；原料",
+"level": "b1"
+},
+{
+"word": "matériel",
+"pos": "n.m.",
+"zh": "器材；设备；物资",
+"level": "b1"
+},
+{
+"word": "maudit",
+"pos": "adj.",
+"zh": "被诅咒的；该死的",
+"level": "b1"
+},
+{
+"word": "maximal",
+"pos": "adj.",
+"zh": "最大的；最高的",
+"level": "b1"
+},
+{
+"word": "maîtresse",
+"pos": "n.f.",
+"zh": "情妇；女教师；女主人",
+"level": "b1"
+},
+{
+"word": "maîtrise",
+"pos": "n.f.",
+"zh": "掌握；控制；硕士",
+"level": "b1"
+},
+{
+"word": "maîtriser",
+"pos": "v.",
+"zh": "掌握；控制",
+"level": "b1"
+},
+{
+"word": "meeting",
+"pos": "n.m.",
+"zh": "集会；会议",
+"level": "b1"
+},
+{
+"word": "menaçant",
+"pos": "adj.",
+"zh": "威胁的；险恶的",
+"level": "b1"
+},
+{
+"word": "mener",
+"pos": "v.",
+"zh": "带领；引导",
+"level": "b1"
+},
+{
+"word": "menotte",
+"pos": "n.f.",
+"zh": "手铐",
+"level": "b1"
+},
+{
+"word": "mensonge",
+"pos": "n.m.",
+"zh": "谎言",
+"level": "b1"
+},
+{
+"word": "mental",
+"pos": "adj.",
+"zh": "精神的；心理的",
+"level": "b1"
+},
+{
+"word": "mentalité",
+"pos": "n.f.",
+"zh": "心态；思维方式",
+"level": "b1"
+},
+{
+"word": "mention",
+"pos": "n.f.",
+"zh": "提及；注记",
+"level": "b1"
+},
+{
+"word": "mentionner",
+"pos": "v.",
+"zh": "提到；提及",
+"level": "b1"
+},
+{
+"word": "menuisier",
+"pos": "n.m.",
+"zh": "木匠；细木工",
+"level": "b1"
+},
+{
+"word": "merveille",
+"pos": "n.f.",
+"zh": "奇迹；胜景",
+"level": "b1"
+},
+{
+"word": "merveilleux",
+"pos": "adj.",
+"zh": "美妙的；了不起的",
+"level": "b1"
+},
+{
+"word": "messe",
+"pos": "n.f.",
+"zh": "弥撒",
+"level": "b1"
+},
+{
+"word": "mesure",
+"pos": "n.f.",
+"zh": "措施；尺寸；程度",
+"level": "b1"
+},
+{
+"word": "mets",
+"pos": "n.m.",
+"zh": "菜肴",
+"level": "b1"
+},
+{
+"word": "meuf",
+"pos": "n.f.",
+"zh": "女人；女朋友（俚语）",
+"level": "b1"
+},
+{
+"word": "meurtre",
+"pos": "n.m.",
+"zh": "谋杀；凶杀",
+"level": "b1"
+},
+{
+"word": "meurtrier",
+"pos": "n.m.",
+"zh": "凶手；杀人犯",
+"level": "b1"
+},
+{
+"word": "mi-chemin",
+"pos": "n.m.",
+"zh": "中途；半路",
+"level": "b1"
+},
+{
+"word": "microbe",
+"pos": "n.m.",
+"zh": "微生物；细菌",
+"level": "b1"
+},
+{
+"word": "migraine",
+"pos": "n.f.",
+"zh": "偏头痛",
+"level": "b1"
+},
+{
+"word": "militant",
+"pos": "n.m.",
+"zh": "积极分子；斗士",
+"level": "b1"
+},
+{
+"word": "millionnaire",
+"pos": "adj.",
+"zh": "百万富翁的",
+"level": "b1"
+},
+{
+"word": "millénaire",
+"pos": "n.m.",
+"zh": "千年的；千年",
+"level": "b1"
+},
+{
+"word": "minable",
+"pos": "adj.",
+"zh": "糟透的；寒碜的（口语）",
+"level": "b1"
+},
+{
+"word": "mine",
+"pos": "n.f.",
+"zh": "气色；神态；矿井",
+"level": "b1"
+},
+{
+"word": "mineur",
+"pos": "n.m.",
+"zh": "未成年人；矿工",
+"level": "b1"
+},
+{
+"word": "miniature",
+"pos": "n.f.",
+"zh": "微型画；微型；缩样",
+"level": "b1"
+},
+{
+"word": "ministre",
+"pos": "n.",
+"zh": "部长；大臣",
+"level": "b1"
+},
+{
+"word": "ministère",
+"pos": "n.m.",
+"zh": "部；部委",
+"level": "b1"
+},
+{
+"word": "minorité",
+"pos": "n.f.",
+"zh": "少数；少数派",
+"level": "b1"
+},
+{
+"word": "minuscule",
+"pos": "adj.",
+"zh": "极小的",
+"level": "b1"
+},
+{
+"word": "miser",
+"pos": "v.",
+"zh": "下注；打赌",
+"level": "b1"
+},
+{
+"word": "missile",
+"pos": "n.m.",
+"zh": "导弹",
+"level": "b1"
+},
+{
+"word": "mission",
+"pos": "n.f.",
+"zh": "任务；使命",
+"level": "b1"
+},
+{
+"word": "mixte",
+"pos": "adj.",
+"zh": "混合的；男女混合的",
+"level": "b1"
+},
+{
+"word": "mobile",
+"pos": "n.m.",
+"zh": "动机；手机（口语）",
+"level": "b1"
+},
+{
+"word": "modeste",
+"pos": "adj.",
+"zh": "谦逊的；微薄的",
+"level": "b1"
+},
+{
+"word": "modification",
+"pos": "n.f.",
+"zh": "修改；变更",
+"level": "b1"
+},
+{
+"word": "moeurs",
+"pos": "n.f.",
+"zh": "风俗；习惯；道德",
+"level": "b1"
+},
+{
+"word": "moindre",
+"pos": "adj.",
+"zh": "更小的；最轻微的",
+"level": "b1"
+},
+{
+"word": "moine",
+"pos": "n.m.",
+"zh": "修士；僧侣",
+"level": "b1"
+},
+{
+"word": "momie",
+"pos": "n.f.",
+"zh": "木乃伊；干瘪的人",
+"level": "b1"
+},
+{
+"word": "mondial",
+"pos": "adj.",
+"zh": "世界的；全球的",
+"level": "b1"
+},
+{
+"word": "montant",
+"pos": "n.m.",
+"zh": "金额",
+"level": "b1"
+},
+{
+"word": "montée",
+"pos": "n.f.",
+"zh": "上升；上坡",
+"level": "b1"
+},
+{
+"word": "monument",
+"pos": "n.m.",
+"zh": "纪念碑；宏伟建筑",
+"level": "b1"
+},
+{
+"word": "moquer",
+"pos": "v.",
+"zh": "嘲笑；取笑",
+"level": "b1"
+},
+{
+"word": "moral",
+"pos": "adj.",
+"zh": "道德的；士气",
+"level": "b1"
+},
+{
+"word": "morale",
+"pos": "n.f.",
+"zh": "道德；士气",
+"level": "b1"
+},
+{
+"word": "morse",
+"pos": "n.m.",
+"zh": "海象；摩斯电码",
+"level": "b1"
+},
+{
+"word": "mortel",
+"pos": "adj.",
+"zh": "致命的",
+"level": "b1"
+},
+{
+"word": "motard",
+"pos": "n.m.",
+"zh": "摩托车手",
+"level": "b1"
+},
+{
+"word": "motif",
+"pos": "n.m.",
+"zh": "动机；理由；图案",
+"level": "b1"
+},
+{
+"word": "motivation",
+"pos": "n.f.",
+"zh": "动力；动机",
+"level": "b1"
+},
+{
+"word": "motiver",
+"pos": "v.",
+"zh": "激励；说明理由",
+"level": "b1"
+},
+{
+"word": "mou,mol",
+"pos": "adj.",
+"zh": "软的；松弛的；无力的",
+"level": "b1"
+},
+{
+"word": "moucher",
+"pos": "v.",
+"zh": "擤（鼻涕）；数落",
+"level": "b1"
+},
+{
+"word": "mouette",
+"pos": "n.f.",
+"zh": "海鸥",
+"level": "b1"
+},
+{
+"word": "moule",
+"pos": "n.",
+"zh": "贻贝；模具",
+"level": "b1"
+},
+{
+"word": "moulin",
+"pos": "n.m.",
+"zh": "磨坊",
+"level": "b1"
+},
+{
+"word": "muet",
+"pos": "adj.",
+"zh": "哑的；沉默的；无声的",
+"level": "b1"
+},
+{
+"word": "mule",
+"pos": "n.f.",
+"zh": "骡子",
+"level": "b1"
+},
+{
+"word": "multiplier",
+"pos": "v.",
+"zh": "乘；使成倍增加",
+"level": "b1"
+},
+{
+"word": "municipal",
+"pos": "adj.",
+"zh": "市政的",
+"level": "b1"
+}
+]

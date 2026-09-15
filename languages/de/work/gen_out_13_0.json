@@ -1,0 +1,1402 @@
+{
+ "rauf": [
+  {
+   "de": "Komm schnell rauf zu mir.",
+   "zh": "快上来找我。"
+  },
+  {
+   "de": "Er stieg die Treppe rauf.",
+   "zh": "他顺着楼梯走上去。"
+  },
+  {
+   "de": "Von hier unten sieht man nicht rauf.",
+   "zh": "从下面看不到上面。"
+  }
+ ],
+ "Flug": [
+  {
+   "de": "Unser Flug hat zwei Stunden Verspätung.",
+   "zh": "我们的航班延误了两小时。"
+  },
+  {
+   "de": "Der lange Flug war sehr anstrengend.",
+   "zh": "长途飞行非常累人。"
+  },
+  {
+   "de": "Ich buche morgen einen Flug nach Berlin.",
+   "zh": "我明天订一张飞往柏林的机票。"
+  }
+ ],
+ "beruhigen": [
+  {
+   "de": "Ich versuche ihn zu beruhigen.",
+   "zh": "我试着安慰他。"
+  },
+  {
+   "de": "Beruhigen Sie sich bitte wieder.",
+   "zh": "请您再次冷静下来。"
+  },
+  {
+   "de": "Tee kann die Nerven beruhigen.",
+   "zh": "茶能舒缓神经。"
+  }
+ ],
+ "einiges": [
+  {
+   "de": "Wir haben heute einiges geschafft.",
+   "zh": "我们今天完成了很多事。"
+  },
+  {
+   "de": "Hier gibt es noch einiges zu tun.",
+   "zh": "这里还有不少事要做。"
+  },
+  {
+   "de": "Sie hat mir einiges darüber erzählt.",
+   "zh": "她跟我讲了一些关于那件事的情况。"
+  }
+ ],
+ "entdecken": [
+  {
+   "de": "Wir entdecken jeden Tag etwas Neues.",
+   "zh": "我们每天都有新发现。"
+  },
+  {
+   "de": "Forscher entdecken eine alte Stadt.",
+   "zh": "研究人员发现了一座古城。"
+  },
+  {
+   "de": "Hast du den Fehler entdecken können?",
+   "zh": "你能发现这个错误吗？"
+  }
+ ],
+ "vollkommen": [
+  {
+   "de": "Das ist mir vollkommen klar.",
+   "zh": "这对我来说完全清楚。"
+  },
+  {
+   "de": "Sie hat vollkommen recht damit.",
+   "zh": "她在这点上完全正确。"
+  },
+  {
+   "de": "Das Zimmer war vollkommen leer.",
+   "zh": "房间里完全空无一物。"
+  }
+ ],
+ "verfolgen": [
+  {
+   "de": "Die Polizei will den Täter verfolgen.",
+   "zh": "警方想要追踪罪犯。"
+  },
+  {
+   "de": "Wir verfolgen die Nachrichten im Fernsehen.",
+   "zh": "我们在电视上关注新闻。"
+  },
+  {
+   "de": "Er will seine Ziele weiter verfolgen.",
+   "zh": "他想继续追求自己的目标。"
+  }
+ ],
+ "College": [
+  {
+   "de": "Mein Bruder studiert an einem College.",
+   "zh": "我哥哥在一所大学读书。"
+  },
+  {
+   "de": "Das College bietet viele Sportarten an.",
+   "zh": "这所学院提供多种体育运动。"
+  },
+  {
+   "de": "Nach dem College zog sie nach London.",
+   "zh": "大学毕业后她搬到了伦敦。"
+  }
+ ],
+ "eh": [
+  {
+   "de": "Das ist jetzt eh egal.",
+   "zh": "现在这反正无所谓了。"
+  },
+  {
+   "de": "Ich wollte eh gerade gehen.",
+   "zh": "我反正正打算走。"
+  },
+  {
+   "de": "Er weiß es doch eh schon längst.",
+   "zh": "反正他早就知道了。"
+  }
+ ],
+ "Schwert": [
+  {
+   "de": "Der Ritter trug ein schweres Schwert.",
+   "zh": "骑士佩带着一把沉重的剑。"
+  },
+  {
+   "de": "Das alte Schwert hängt an der Wand.",
+   "zh": "那把古剑挂在墙上。"
+  },
+  {
+   "de": "Er zog sein Schwert im Kampf.",
+   "zh": "他在战斗中拔出了剑。"
+  }
+ ],
+ "riechen": [
+  {
+   "de": "Die Blumen riechen wunderbar süß.",
+   "zh": "这些花闻起来特别香甜。"
+  },
+  {
+   "de": "Hier riecht es nach frischem Kaffee.",
+   "zh": "这里闻起来有新鲜咖啡味。"
+  },
+  {
+   "de": "Ich kann das Parfüm riechen.",
+   "zh": "我能闻到香水味。"
+  }
+ ],
+ "Labor": [
+  {
+   "de": "Die Wissenschaftler arbeiten im Labor.",
+   "zh": "科学家们在实验室工作。"
+  },
+  {
+   "de": "Das neue Labor hat moderne Geräte.",
+   "zh": "新实验室配备了现代仪器。"
+  },
+  {
+   "de": "Zutritt zum Labor ist nur für Mitarbeiter.",
+   "zh": "进入实验室仅限员工。"
+  }
+ ],
+ "mindestens": [
+  {
+   "de": "Du solltest mindestens zwei Liter Wasser trinken.",
+   "zh": "你至少应该喝两升水。"
+  },
+  {
+   "de": "Der Film dauert mindestens drei Stunden.",
+   "zh": "电影至少持续三小时。"
+  },
+  {
+   "de": "Es waren mindestens fünfzig Leute da.",
+   "zh": "至少有五十个人在场。"
+  }
+ ],
+ "Zustand": [
+  {
+   "de": "Das Auto ist in gutem Zustand.",
+   "zh": "这辆车状况良好。"
+  },
+  {
+   "de": "Sein gesundheitlicher Zustand verbessert sich langsam.",
+   "zh": "他的健康状态正慢慢好转。"
+  },
+  {
+   "de": "Das Haus ist in einem schlechten Zustand.",
+   "zh": "这栋房子状况很糟。"
+  }
+ ],
+ "Wunsch": [
+  {
+   "de": "Ich habe nur einen kleinen Wunsch.",
+   "zh": "我只有一个小愿望。"
+  },
+  {
+   "de": "Geht dieser Wunsch bald in Erfüllung?",
+   "zh": "这个愿望很快会实现吗？"
+  },
+  {
+   "de": "Auf Wunsch senden wir Ihnen die Unterlagen.",
+   "zh": "应您的要求，我们会给您寄送文件。"
+  }
+ ],
+ "Gast": [
+  {
+   "de": "Heute Abend haben wir einen Gast.",
+   "zh": "今晚我们有一位客人。"
+  },
+  {
+   "de": "Jeder Gast bekommt ein Willkommensgetränk.",
+   "zh": "每位客人都得到一杯迎宾饮料。"
+  },
+  {
+   "de": "Der Gast bedankte sich für das Essen.",
+   "zh": "客人对这顿餐食表示感谢。"
+  }
+ ],
+ "erwähnen": [
+  {
+   "de": "Vergiss nicht, seinen Namen zu erwähnen.",
+   "zh": "别忘了提一下他的名字。"
+  },
+  {
+   "de": "Sie wollte das Thema gar nicht erwähnen.",
+   "zh": "她根本不想提起这个话题。"
+  },
+  {
+   "de": "Er hat seinen Plan kurz im Gespräch erwähnen wollen.",
+   "zh": "他想在谈话中顺便提一下他的计划。"
+  }
+ ],
+ "Zufall": [
+  {
+   "de": "Das war ein glücklicher Zufall.",
+   "zh": "那是一个幸运的巧合。"
+  },
+  {
+   "de": "Nichts geschieht hier durch Zufall.",
+   "zh": "这里没有任何事是偶然发生的。"
+  },
+  {
+   "de": "Aus reinem Zufall trafen wir uns im Park.",
+   "zh": "纯属偶然我们在公园相遇了。"
+  }
+ ],
+ "abgesehen": [
+  {
+   "de": "Abgesehen vom Wetter war alles perfekt.",
+   "zh": "除开天气外一切都很完美。"
+  },
+  {
+   "de": "Davon abgesehen bin ich sehr zufrieden.",
+   "zh": "除此之外我非常满意。"
+  },
+  {
+   "de": "Er hat es wohl auf mich abgesehen.",
+   "zh": "他八成是冲着我来的。"
+  }
+ ],
+ "fair": [
+  {
+   "de": "Das Spiel war absolut fair.",
+   "zh": "这场比赛绝对公平。"
+  },
+  {
+   "de": "Das ist kein faires Angebot von ihm.",
+   "zh": "这并不是他提出的公平报价。"
+  },
+  {
+   "de": "Wir müssen fair miteinander umgehen.",
+   "zh": "我们必须彼此公平对待。"
+  }
+ ],
+ "vertraut": [
+  {
+   "de": "Diese Stimme klingt mir sehr vertraut.",
+   "zh": "这个声音听起来我很熟悉。"
+  },
+  {
+   "de": "Wir sind seit vielen Jahren eng vertraut.",
+   "zh": "多年来我们一直非常亲近。"
+  },
+  {
+   "de": "Mach dich zuerst mit den Regeln vertraut.",
+   "zh": "先让自己熟悉一下规则。"
+  }
+ ],
+ "Koffer": [
+  {
+   "de": "Ich packe meinen Koffer für die Reise.",
+   "zh": "我正在收拾旅行箱。"
+  },
+  {
+   "de": "Der schwere Koffer steht an der Tür.",
+   "zh": "沉重的箱子立在门边。"
+  },
+  {
+   "de": "Wo kann ich meinen Koffer abstellen?",
+   "zh": "我能在哪儿放下我的行李箱？"
+  }
+ ],
+ "Kurs": [
+  {
+   "de": "Ich besuche einen Deutschkurs.",
+   "zh": "我上一个德语班。"
+  },
+  {
+   "de": "Das Schiff hält seinen Kurs nach Norden.",
+   "zh": "船保持向北的航向。"
+  },
+  {
+   "de": "Der Kurs an der Börse ist heute gefallen.",
+   "zh": "股市行情今天下跌了。"
+  }
+ ],
+ "wirken": [
+  {
+   "de": "Die Tabletten wirken sehr schnell.",
+   "zh": "这些药片见效很快。"
+  },
+  {
+   "de": "Er will immer sehr ruhig wirken.",
+   "zh": "他总想显得很沉稳。"
+  },
+  {
+   "de": "Seine Worte wirken noch lange nach.",
+   "zh": "他的话产生了深远的影响。"
+  }
+ ],
+ "seitdem": [
+  {
+   "de": "Seitdem wohnt sie in einer anderen Stadt.",
+   "zh": "从那以后她住在另一个城市。"
+  },
+  {
+   "de": "Ich habe ihn seitdem nie wieder gesehen.",
+   "zh": "从那以后我再也没见过他。"
+  },
+  {
+   "de": "Seitdem läuft das Projekt viel besser.",
+   "zh": "从那时起项目进展顺畅多了。"
+  }
+ ],
+ "angreifen": [
+  {
+   "de": "Der Hund will niemanden angreifen.",
+   "zh": "那条狗不想攻击任何人。"
+  },
+  {
+   "de": "Die Feinde greifen die Festung an.",
+   "zh": "敌人正在进攻要塞。"
+  },
+  {
+   "de": "Wir müssen das Problem jetzt mutig angreifen.",
+   "zh": "我们现在必须勇敢地着手解决这个问题。"
+  }
+ ],
+ "wahnsinnig": [
+  {
+   "de": "Ich freue mich wahnsinnig auf den Urlaub.",
+   "zh": "我超级期待这次假期。"
+  },
+  {
+   "de": "Der Lärm macht mich noch wahnsinnig.",
+   "zh": "这噪音简直要让我发疯了。"
+  },
+  {
+   "de": "Das war eine wahnsinnig tolle Erfahrung.",
+   "zh": "那是一次棒极了的经历。"
+  }
+ ],
+ "ähnlich": [
+  {
+   "de": "Die beiden Brüder sehen sich sehr ähnlich.",
+   "zh": "这两兄弟长得很像。"
+  },
+  {
+   "de": "Ich hatte ein ganz ähnliches Problem.",
+   "zh": "我曾经遇到过一个非常相似的问题。"
+  },
+  {
+   "de": "Sein Kleidungsstil ist meinem ähnlich.",
+   "zh": "他的穿衣风格和我的很像。"
+  }
+ ],
+ "aufgeben": [
+  {
+   "de": "Du darfst jetzt auf keinen Fall aufgeben.",
+   "zh": "你现在绝对不能放弃。"
+  },
+  {
+   "de": "Ich muss noch einen Brief aufgeben.",
+   "zh": "我还得去寄一封信。"
+  },
+  {
+   "de": "Er will das Rauchen endlich aufgeben.",
+   "zh": "他想终于把烟戒掉。"
+  }
+ ],
+ "entführen": [
+  {
+   "de": "Unbekannte wollten das Kind entführen.",
+   "zh": "不明身份的人企图绑架那个孩子。"
+  },
+  {
+   "de": "Die Terroristen entführen das Flugzeug.",
+   "zh": "恐怖分子劫持了飞机。"
+  },
+  {
+   "de": "Darf ich dich auf einen Kaffee entführen?",
+   "zh": "能请你去喝杯咖啡吗？"
+  }
+ ],
+ "Lager": [
+  {
+   "de": "Die Waren liegen sicher im Lager.",
+   "zh": "货物安全地存放在仓库里。"
+  },
+  {
+   "de": "Wir schlagen am Fluss ein Lager auf.",
+   "zh": "我们在河边安营扎寨。"
+  },
+  {
+   "de": "Das Produkt ist momentan nicht auf Lager.",
+   "zh": "该产品目前没有库存。"
+  }
+ ],
+ "besprechen": [
+  {
+   "de": "Wir müssen diesen Punkt genau besprechen.",
+   "zh": "我们必须仔细讨论这一点。"
+  },
+  {
+   "de": "Der Chef will den Plan morgen besprechen.",
+   "zh": "老板想明天商讨这个计划。"
+  },
+  {
+   "de": "Können wir das unter vier Augen besprechen?",
+   "zh": "我们能私下单独谈谈吗？"
+  }
+ ],
+ "Reihe": [
+  {
+   "de": "Wir sitzen in der ersten Reihe.",
+   "zh": "我们坐在第一排。"
+  },
+  {
+   "de": "Wer ist jetzt an der Reihe?",
+   "zh": "现在轮到谁了？"
+  },
+  {
+   "de": "Es gab eine ganze Reihe von Problemen.",
+   "zh": "出现了一连串的问题。"
+  }
+ ],
+ "Vogel": [
+  {
+   "de": "Ein kleiner Vogel sitzt auf dem Ast.",
+   "zh": "一只小鸟停在树枝上。"
+  },
+  {
+   "de": "Der Vogel singt jeden Morgen am Fenster.",
+   "zh": "那只鸟每天早晨在窗前啼叫。"
+  },
+  {
+   "de": "Im Herbst fliegt mancher Vogel nach Süden.",
+   "zh": "秋天有些鸟儿飞往南方。"
+  }
+ ],
+ "Strand": [
+  {
+   "de": "Wir verbringen den ganzen Tag am Strand.",
+   "zh": "我们一整天都在海滩度过。"
+  },
+  {
+   "de": "Der Sand am Strand war angenehm warm.",
+   "zh": "海滩上的沙子暖融融的很舒服。"
+  },
+  {
+   "de": "Vom Hotel aus gelangt man direkt zum Strand.",
+   "zh": "从酒店可以直接走到海滩。"
+  }
+ ],
+ "fern": [
+  {
+   "de": "Sie träumt von fernen Ländern.",
+   "zh": "她梦想着遥远的国度。"
+  },
+  {
+   "de": "Das Ziel liegt noch in weiter Ferne fernab der Stadt.",
+   "zh": "目标还在远离城市的遥远前方。"
+  },
+  {
+   "de": "Er bleibt der Veranstaltung fern.",
+   "zh": "他没有出席这项活动。"
+  }
+ ],
+ "Scherz": [
+  {
+   "de": "Das war doch nur ein kleiner Scherz.",
+   "zh": "那不过是个小玩笑嘛。"
+  },
+  {
+   "de": "Er versteht bei solchen Themen keinen Scherz.",
+   "zh": "在涉及这类话题时他开不起玩笑。"
+  },
+  {
+   "de": "Treib keinen dummen Scherz mit mir.",
+   "zh": "别跟我开愚蠢的玩笑。"
+  }
+ ],
+ "womit": [
+  {
+   "de": "Womit kann ich dir heute helfen?",
+   "zh": "我今天能帮上你什么？"
+  },
+  {
+   "de": "Womit hast du das Bild gemalt?",
+   "zh": "你是用什么画这幅画的？"
+  },
+  {
+   "de": "Womit haben wir das nur verdient?",
+   "zh": "我们凭什么招致了这样的待遇？"
+  }
+ ],
+ "kapieren": [
+  {
+   "de": "Ich kann diese Formel einfach nicht kapieren.",
+   "zh": "我实在弄不懂这个公式。"
+  },
+  {
+   "de": "Hast du den Witz endlich kapieren können?",
+   "zh": "你终于听懂那个笑话了吗？"
+  },
+  {
+   "de": "Jetzt habe ich es voll kapieren gelernt.",
+   "zh": "我现在彻底搞明白了。"
+  }
+ ],
+ "verlangen": [
+  {
+   "de": "Die Kunden verlangen schnelle Antworten.",
+   "zh": "客户要求迅速的回复。"
+  },
+  {
+   "de": "Man darf nicht zu viel auf einmal verlangen.",
+   "zh": "人们不能一下子要求太多。"
+  },
+  {
+   "de": "Wie viel Geld verlangen Sie für die Reparatur?",
+   "zh": "这次维修您要收多少钱？"
+  }
+ ],
+ "überzeugen": [
+  {
+   "de": "Seine Argumente konnten mich nicht überzeugen.",
+   "zh": "他的论点未能说服我。"
+  },
+  {
+   "de": "Wir müssen die anderen von unserer Idee überzeugen.",
+   "zh": "我们必须让其他人信服我们的想法。"
+  },
+  {
+   "de": "Das neue Produkt kann in der Praxis überzeugen.",
+   "zh": "这款新产品在实际中表现令人信服。"
+  }
+ ],
+ "irgendjemand": [
+  {
+   "de": "Hat irgendjemand meine Brille gesehen?",
+   "zh": "有人看见我的眼镜了吗？"
+  },
+  {
+   "de": "Irgendjemand muss an der Tür geklopft haben.",
+   "zh": "肯定有人敲了门。"
+  },
+  {
+   "de": "Gibt es hier irgendjemand, der helfen kann?",
+   "zh": "这里有能帮忙的人吗？"
+  }
+ ],
+ "vorbereiten": [
+  {
+   "de": "Wir wollen uns gut auf die Prüfung vorbereiten.",
+   "zh": "我们想好好准备考试。"
+  },
+  {
+   "de": "Sie müssen das Abendessen gut vorbereiten.",
+   "zh": "他们必须好好准备晚饭。"
+  },
+  {
+   "de": "Er will die Präsentation sorgfältig vorbereiten.",
+   "zh": "他想仔细准备这次报告。"
+  }
+ ],
+ "reisen": [
+  {
+   "de": "Wir reisen im Sommer gerne nach Italien.",
+   "zh": "我们夏天喜欢去意大利旅行。"
+  },
+  {
+   "de": "Er will einmal um die ganze Welt reisen.",
+   "zh": "他想环游全世界一次。"
+  },
+  {
+   "de": "Alleine zu reisen erfordert etwas Mut.",
+   "zh": "独自旅行需要一点勇气。"
+  }
+ ],
+ "Termin": [
+  {
+   "de": "Ich habe morgen früh einen wichtigen Termin.",
+   "zh": "我明天一早有个重要的预约。"
+  },
+  {
+   "de": "Können wir den Termin um eine Stunde verschieben?",
+   "zh": "我们能把预约推迟一小时吗？"
+  },
+  {
+   "de": "Sie hat ihren Termin beim Arzt pünktlich wahrgenommen.",
+   "zh": "她准时赴了医生的约。"
+  }
+ ],
+ "Gang": [
+  {
+   "de": "Er wartet draußen auf dem langen Gang.",
+   "zh": "他在外面长长的走廊里等着。"
+  },
+  {
+   "de": "Der Kellner bringt jetzt den nächsten Gang.",
+   "zh": "服务员现在端上了下一道菜。"
+  },
+  {
+   "de": "Schalte bitte in den zweiten Gang.",
+   "zh": "请挂到二挡。"
+  }
+ ],
+ "Rache": [
+  {
+   "de": "Er dachte jahrelang nur an Rache.",
+   "zh": "多年来他心里只想到了复仇。"
+  },
+  {
+   "de": "Rache bringt dir deinen Freund nicht zurück.",
+   "zh": "报仇并不能带回你的朋友。"
+  },
+  {
+   "de": "Die süße Rache hat ihm keinen Frieden gebracht.",
+   "zh": "甜蜜的复仇并未给他带来平静。"
+  }
+ ],
+ "bemerken": [
+  {
+   "de": "Ich konnte eine leichte Veränderung bemerken.",
+   "zh": "我能察觉到微小的变化。"
+  },
+  {
+   "de": "Hast du den Fehler nicht bemerken wollen?",
+   "zh": "你不想指出那个错误吗？"
+  },
+  {
+   "de": "Niemand schien seine Abwesenheit zu bemerken.",
+   "zh": "似乎没人注意到他的缺席。"
+  }
+ ],
+ "Vertrag": [
+  {
+   "de": "Beide Seiten unterschreiben den neuen Vertrag.",
+   "zh": "双方签署了新合同。"
+  },
+  {
+   "de": "Der Vertrag läuft noch bis Ende des Jahres.",
+   "zh": "该合同一直有效到年底。"
+  },
+  {
+   "de": "Bitte lies den Vertrag vorher genau durch.",
+   "zh": "请事先仔细通读合同。"
+  }
+ ],
+ "Dienst": [
+  {
+   "de": "Er hat heute Nacht wieder Dienst.",
+   "zh": "他今晚又要值班。"
+  },
+  {
+   "de": "Vielen Dank für Ihren treuen Dienst.",
+   "zh": "非常感谢您忠诚的服务。"
+  },
+  {
+   "de": "Das alte Auto tut noch immer treue Dienste.",
+   "zh": "这辆旧车依然非常得力地服役着。"
+  }
+ ],
+ "zählen": [
+  {
+   "de": "Das Kind lernt bis zehn zählen.",
+   "zh": "小孩子正在学数到十。"
+  },
+  {
+   "de": "In schwierigen Zeiten zählen wahre Freunde.",
+   "zh": "在艰难时刻真正的朋友才算数。"
+  },
+  {
+   "de": "Wir zählen fest auf deine Hilfe.",
+   "zh": "我们非常指望你的帮助。"
+  }
+ ],
+ "Wesen": [
+  {
+   "de": "Sie hat ein sehr freundliches Wesen.",
+   "zh": "她性格十分友善。"
+  },
+  {
+   "de": "Im Wald leben geheimnisvolle Wesen.",
+   "zh": "森林里生活着神秘的生物。"
+  },
+  {
+   "de": "Das gehört zum Wesen dieser Sportart.",
+   "zh": "这属于该项运动的本质。"
+  }
+ ],
+ "Bürgermeister": [
+  {
+   "de": "Der Bürgermeister hielt eine kurze Rede.",
+   "zh": "市长作了简短发言。"
+  },
+  {
+   "de": "Die Bürger wählten einen neuen Bürgermeister.",
+   "zh": "市民们选出了一位新市长。"
+  },
+  {
+   "de": "Der Bürgermeister besucht die örtliche Schule.",
+   "zh": "市长访问了当地学校。"
+  }
+ ],
+ "Fluss": [
+  {
+   "de": "Eine Brücke führt über den breiten Fluss.",
+   "zh": "一座桥横跨这条宽阔的河流。"
+  },
+  {
+   "de": "Das Wasser im Fluss ist sehr klar.",
+   "zh": "河里的水十分清澈。"
+  },
+  {
+   "de": "Wir spazierten gemütlich am Fluss entlang.",
+   "zh": "我们沿着河流惬意地散步。"
+  }
+ ],
+ "woran": [
+  {
+   "de": "Woran denkst du gerade so intensiv?",
+   "zh": "你此刻在这么专心地想什么呢？"
+  },
+  {
+   "de": "Woran erkennst du den Unterschied?",
+   "zh": "你从哪一点认出差别的？"
+  },
+  {
+   "de": "Ich weiß nicht, woran es gelegen hat.",
+   "zh": "我不知道问题出在哪儿。"
+  }
+ ],
+ "durcheinander": [
+  {
+   "de": "In meinem Kopf geht alles durcheinander.",
+   "zh": "我脑子里全乱成了一团。"
+  },
+  {
+   "de": "Die Bücher liegen völlig durcheinander auf dem Tisch.",
+   "zh": "书本在桌上放得乱七八糟。"
+  },
+  {
+   "de": "Bring die Zahlen bitte nicht durcheinander.",
+   "zh": "请不要把这些数字搞混了。"
+  }
+ ],
+ "dadurch": [
+  {
+   "de": "Dadurch sparen wir eine Menge Zeit.",
+   "zh": "由此我们节省了大量时间。"
+  },
+  {
+   "de": "Er lernte viel und wurde dadurch erfolgreicher.",
+   "zh": "他学到了很多，从而变得更成功。"
+  },
+  {
+   "de": "Dadurch wird die Situation nur noch schlimmer.",
+   "zh": "这样一来情况只会变得更糟。"
+  }
+ ],
+ "Direktor": [
+  {
+   "de": "Der Direktor begrüßte alle neuen Schüler.",
+   "zh": "校长欢迎了所有新生。"
+  },
+  {
+   "de": "Sie sprach direkt mit dem Direktor der Firma.",
+   "zh": "她直接与公司主管进行了沟通。"
+  },
+  {
+   "de": "Der Direktor leitet das Institut seit zehn Jahren.",
+   "zh": "主任主持这家研究所已有十年。"
+  }
+ ],
+ "Karriere": [
+  {
+   "de": "Sie machte eine beeindruckende Karriere als Anwältin.",
+   "zh": "她作为律师取得了令人赞叹的职业成就。"
+  },
+  {
+   "de": "Für seine Karriere zog er ins Ausland.",
+   "zh": "为了事业他搬去了国外。"
+  },
+  {
+   "de": "Eine erfolgreiche Karriere erfordert viel Fleiß.",
+   "zh": "成功的事业需要大量的勤奋。"
+  }
+ ],
+ "Akte": [
+  {
+   "de": "Die Akte liegt beim Abteilungsleiter.",
+   "zh": "档案在部门主管那里。"
+  },
+  {
+   "de": "Die Polizei schloss die Akte zu diesem Fall.",
+   "zh": "警方封存了这个案子的卷宗。"
+  },
+  {
+   "de": "Nimm bitte die Akte aus dem Regal.",
+   "zh": "请从书架上拿下那份档案。"
+  }
+ ],
+ "Erinnerung": [
+  {
+   "de": "Das Foto weckt eine schöne Erinnerung in mir.",
+   "zh": "这张照片勾起了我美好的回忆。"
+  },
+  {
+   "de": "Ich habe keine Erinnerung an den Vorfall.",
+   "zh": "我对那次事件毫无记忆。"
+  },
+  {
+   "de": "Als Erinnerung schenkte sie mir ihr Lieblingsbuch.",
+   "zh": "作为纪念，她送给了我她最爱的书。"
+  }
+ ],
+ "lösen": [
+  {
+   "de": "Wir müssen diese Aufgabe gemeinsam lösen.",
+   "zh": "我们必须共同解决这个任务。"
+  },
+  {
+   "de": "Die Tablette lässt sich gut im Wasser lösen.",
+   "zh": "药片在水中很容易溶解。"
+  },
+  {
+   "de": "Er konnte das schwierige Rätsel schnell lösen.",
+   "zh": "他很快就解开了那道难题。"
+  }
+ ],
+ "bravo": [
+  {
+   "de": "Bravo, das hast du hervorragend gemacht!",
+   "zh": "好样的，你完成得太出色了！"
+  },
+  {
+   "de": "Das Publikum rief begeistert Bravo nach dem Konzert.",
+   "zh": "音乐会后观众兴奋地高喊好样的。"
+  },
+  {
+   "de": "Bravo zum bestandenen Führerschein!",
+   "zh": "考过驾照真是太棒了！"
+  }
+ ],
+ "greifen": [
+  {
+   "de": "Er will nach dem Glas greifen.",
+   "zh": "他想伸手去拿玻璃杯。"
+  },
+  {
+   "de": "In der Not muss man zu harten Maßnahmen greifen.",
+   "zh": "危急时刻必须采取严厉手段。"
+  },
+  {
+   "de": "Die Zahnräder greifen präzise ineinander.",
+   "zh": "齿轮精确地咬合在一起。"
+  }
+ ],
+ "Zweifel": [
+  {
+   "de": "Daran besteht überhaupt kein Zweifel.",
+   "zh": "对此完全没有任何怀疑。"
+  },
+  {
+   "de": "Ich habe große Zweifel an seiner Ehrlichkeit.",
+   "zh": "我对他的诚信深表怀疑。"
+  },
+  {
+   "de": "Seine Aussage ließ keinen Zweifel offen.",
+   "zh": "他的陈述不容置疑。"
+  }
+ ],
+ "nerven": [
+  {
+   "de": "Deine ständigen Fragen nerven mich.",
+   "zh": "你接二连三的提问让我很烦。"
+  },
+  {
+   "de": "Hör bitte auf, deine kleine Schwester zu nerven.",
+   "zh": "请别再逗得你妹妹烦躁了。"
+  },
+  {
+   "de": "Der laute Baustellenlärm kann echt nerven.",
+   "zh": "工地的吵闹声真的很烦人。"
+  }
+ ],
+ "entlassen": [
+  {
+   "de": "Der Arzt konnte den Patienten gestern entlassen.",
+   "zh": "医生昨天让患者出院了。"
+  },
+  {
+   "de": "Die Firma will zehn Mitarbeiter entlassen.",
+   "zh": "公司打算裁退十名员工。"
+  },
+  {
+   "de": "Der Gefangene wurde vorzeitig entlassen.",
+   "zh": "犯人被提前释放了。"
+  }
+ ],
+ "zweimal": [
+  {
+   "de": "Ich habe zweimal an die Tür geklopft.",
+   "zh": "我敲了两次门。"
+  },
+  {
+   "de": "Nehmen Sie dieses Medikament zweimal täglich ein.",
+   "zh": "请每天服用两次这种药物。"
+  },
+  {
+   "de": "Wir waren bereits zweimal in Wien.",
+   "zh": "我们已经去过维也纳两次了。"
+  }
+ ],
+ "abholen": [
+  {
+   "de": "Ich will dich vom Bahnhof abholen.",
+   "zh": "我想去火车站接你。"
+  },
+  {
+   "de": "Kannst du das Paket bei der Post abholen?",
+   "zh": "你能去邮局取包裹吗？"
+  },
+  {
+   "de": "Wir müssen die Kinder rechtzeitig abholen.",
+   "zh": "我们必须及时接孩子。"
+  }
+ ],
+ "Kollege": [
+  {
+   "de": "Mein neuer Kollege ist sehr freundlich.",
+   "zh": "我的新同事非常友好。"
+  },
+  {
+   "de": "Er fragt seinen Kollegen um Rat.",
+   "zh": "他向他的同事请教建议。"
+  },
+  {
+   "de": "Ein alter Kollege besuchte mich gestern.",
+   "zh": "一位老同事昨天看望了我。"
+  }
+ ],
+ "Szene": [
+  {
+   "de": "Diese Szene im Theater war sehr emotional.",
+   "zh": "剧场里的这一幕非常感人。"
+  },
+  {
+   "de": "Die Polizei sicherte die Szene sofort ab.",
+   "zh": "警方立刻封锁了现场。"
+  },
+  {
+   "de": "Er kennt sich gut in der Szene aus.",
+   "zh": "他很熟悉这个圈内的情况。"
+  }
+ ],
+ "Pflicht": [
+  {
+   "de": "Es ist meine Pflicht, dir die Wahrheit zu sagen.",
+   "zh": "把真相告诉你这是我的义务。"
+  },
+  {
+   "de": "Die Schule sieht das als eine wichtige Pflicht an.",
+   "zh": "学校把这视为一项重要职责。"
+  },
+  {
+   "de": "Er hat seine Pflicht stets gewissenhaft erfüllt.",
+   "zh": "他一向尽职尽责地履行义务。"
+  }
+ ],
+ "neulich": [
+  {
+   "de": "Ich habe ihn neulich im Supermarkt getroffen.",
+   "zh": "我最近在超市碰到了他。"
+  },
+  {
+   "de": "Neulich passierte hier ein merkwürdiger Vorfall.",
+   "zh": "前不久这里发生了一起离奇事件。"
+  },
+  {
+   "de": "Sie hat mir neulich eine lange Nachricht geschrieben.",
+   "zh": "她最近给我发了一条长消息。"
+  }
+ ],
+ "Knie": [
+  {
+   "de": "Mein rechtes Knie schmerzt beim Laufen.",
+   "zh": "我跑步时右膝盖很疼。"
+  },
+  {
+   "de": "Er fiel vor ihr auf das Knie.",
+   "zh": "他在她面前单膝下跪。"
+  },
+  {
+   "de": "Das Kind hat sich am Knie verletzt.",
+   "zh": "孩子擦破了膝盖。"
+  }
+ ],
+ "spannend": [
+  {
+   "de": "Das Buch ist unglaublich spannend geschrieben.",
+   "zh": "这本书写得扣人心弦。"
+  },
+  {
+   "de": "Wir sahen ein sehr spannendes Fußballspiel.",
+   "zh": "我们看了一场极其激烈的足球赛。"
+  },
+  {
+   "de": "Die Geschichte bleibt bis zum Schluss spannend.",
+   "zh": "这个故事直到最后都悬念丛生。"
+  }
+ ],
+ "unschuldig": [
+  {
+   "de": "Der Mann beteuert, er sei vollkommen unschuldig.",
+   "zh": "那名男子坚称自己完全是无辜的。"
+  },
+  {
+   "de": "Sie blickte mich mit unschuldigem Blick an.",
+   "zh": "她带着天真无邪的目光看着我。"
+  },
+  {
+   "de": "Ein Gericht sprach den unschuldigen Mann frei.",
+   "zh": "法院宣判那名无辜男子无罪。"
+  }
+ ],
+ "Schutz": [
+  {
+   "de": "Die Hütte bietet guten Schutz vor dem Regen.",
+   "zh": "木屋提供了很好的避雨处。"
+  },
+  {
+   "de": "Kinder brauchen die Liebe und den Schutz der Eltern.",
+   "zh": "儿童需要父母的关爱与保护。"
+  },
+  {
+   "de": "Er nahm seinen Freund vor Kritik in Schutz.",
+   "zh": "他出面维护自己的朋友免遭批评。"
+  }
+ ],
+ "weshalb": [
+  {
+   "de": "Weshalb hast du mir das nicht gleich gesagt?",
+   "zh": "你为什么不立刻告诉我呢？"
+  },
+  {
+   "de": "Er war krank, weshalb er nicht kommen konnte.",
+   "zh": "他病了，因此没能来。"
+  },
+  {
+   "de": "Ich verstehe nicht, weshalb sie so wütend ist.",
+   "zh": "我不明白为什么她会这么生气。"
+  }
+ ],
+ "woanders": [
+  {
+   "de": "Lass uns lieber woanders hingehen.",
+   "zh": "咱们还是去别处吧。"
+  },
+  {
+   "de": "Ich habe den Schlüssel bestimmt woanders hingelegt.",
+   "zh": "我肯定把钥匙放在别处了。"
+  },
+  {
+   "de": "Woanders scheint jetzt die Sonne warm.",
+   "zh": "别处此刻阳光温暖明媚。"
+  }
+ ],
+ "verhindern": [
+  {
+   "de": "Wir müssen diesen schlimmen Fehler verhindern.",
+   "zh": "我们必须阻止这个严重的错误发生。"
+  },
+  {
+   "de": "Gute Planung kann Verzögerungen verhindern.",
+   "zh": "良好的规划可以避免拖延。"
+  },
+  {
+   "de": "Niemand konnte den Unfall rechtzeitig verhindern.",
+   "zh": "没有人能及时避免那场意外。"
+  }
+ ],
+ "Erklärung": [
+  {
+   "de": "Seine Erklärung war leicht verständlich.",
+   "zh": "他的解释通俗易懂。"
+  },
+  {
+   "de": "Ich verlange eine vernünftige Erklärung dafür.",
+   "zh": "我要求对此给出一个合理解释。"
+  },
+  {
+   "de": "Die offizielle Erklärung folgte am Abend.",
+   "zh": "官方声明于傍晚发布。"
+  }
+ ],
+ "klug": [
+  {
+   "de": "Das war eine sehr kluge Entscheidung von dir.",
+   "zh": "那是你做出的一个非常明智的决定。"
+  },
+  {
+   "de": "Sie ist ein kluges und aufmerksames Mädchen.",
+   "zh": "她是一个聪明伶俐且细心的女孩。"
+  },
+  {
+   "de": "Aus Schaden wird man bekanntlich klug.",
+   "zh": "吃一堑，长一智。"
+  }
+ ],
+ "außerhalb": [
+  {
+   "de": "Das Hotel liegt etwas außerhalb der Stadt.",
+   "zh": "这家酒店位于城外不远。"
+  },
+  {
+   "de": "Parken außerhalb der Markierung ist streng verboten.",
+   "zh": "在线外停车是严格禁止的。"
+  },
+  {
+   "de": "Er wohnt außerhalb unserer kleinen Gemeinde.",
+   "zh": "他住在我们这个小社区之外。"
+  }
+ ],
+ "selbstverständlich": [
+  {
+   "de": "Selbstverständlich helfe ich dir dabei.",
+   "zh": "我当然会在这件事上帮你的。"
+  },
+  {
+   "de": "Höflichkeit sollte eigentlich selbstverständlich sein.",
+   "zh": "礼貌本来就应该是不言而喻的。"
+  },
+  {
+   "de": "Er hielt ihren Erfolg für selbstverständlich.",
+   "zh": "他把她的成功视作理所当然。"
+  }
+ ],
+ "gebrauchen": [
+  {
+   "de": "Dieses alte Werkzeug kann man noch gut gebrauchen.",
+   "zh": "这件旧工具还能派上很大用场。"
+  },
+  {
+   "de": "Kannst du etwas warme Kleidung gebrauchen?",
+   "zh": "你能用得上一件暖和的衣服吗？"
+  },
+  {
+   "de": "Ich gebrauche dieses Wörterbuch fast täglich.",
+   "zh": "我几乎每天都在用这本词典。"
+  }
+ ],
+ "feuern": [
+  {
+   "de": "Der Chef will den faulen Angestellten feuern.",
+   "zh": "老板想炒掉那个懒惰的员工。"
+  },
+  {
+   "de": "Die Soldaten feuern ihre Gewehre ab.",
+   "zh": "士兵们扣动扳机射击。"
+  },
+  {
+   "de": "Wenn du unpünktlich bleibst, wird man dich feuern.",
+   "zh": "如果你总是不守时，你会被解雇的。"
+  }
+ ],
+ "schwach": [
+  {
+   "de": "Nach der langen Krankheit fühlte er sich schwach.",
+   "zh": "大病初愈后他感到身体很虚弱。"
+  },
+  {
+   "de": "Das Licht im Flur ist leider sehr schwach.",
+   "zh": "走廊里的光线可惜非常微弱。"
+  },
+  {
+   "de": "Seine Argumente waren fachlich eher schwach.",
+   "zh": "他的论据在专业层面相当站不住脚。"
+  }
+ ],
+ "Schulden": [
+  {
+   "de": "Er muss seine Schulden bei der Bank begleichen.",
+   "zh": "他必须还清银行的债务。"
+  },
+  {
+   "de": "Die Familie geriet durch den Hausbau in Schulden.",
+   "zh": "这个家庭因建房而背上了负债。"
+  },
+  {
+   "de": "Er hat fast alle seine alten Schulden bezahlt.",
+   "zh": "他几乎还清了所有旧债。"
+  }
+ ],
+ "hinein": [
+  {
+   "de": "Gehen wir schnell in das warme Haus hinein.",
+   "zh": "咱们快进暖和的屋里去吧。"
+  },
+  {
+   "de": "Er schaute neugierig durch das Fenster hinein.",
+   "zh": "他好奇地透过窗户朝里面看。"
+  },
+  {
+   "de": "Lass niemanden ohne Erlaubnis hinein.",
+   "zh": "未经许可不要让任何人进去。"
+  }
+ ],
+ "Grenze": [
+  {
+   "de": "Wir überqueren die Grenze mit dem Zug.",
+   "zh": "我们乘火车穿越边境。"
+  },
+  {
+   "de": "Jeder Mensch hat seine persönliche Grenze.",
+   "zh": "每个人都有自己的极限底线。"
+  },
+  {
+   "de": "Das Haus steht nahe an der Grenze zum Wald.",
+   "zh": "房子建在紧挨森林边界的地方。"
+  }
+ ],
+ "Braut": [
+  {
+   "de": "Die schöne Braut trug ein langes weißes Kleid.",
+   "zh": "美丽的新娘穿了一袭白色长裙。"
+  },
+  {
+   "de": "Der Bräutigam wartet schon ungeduldig auf die Braut.",
+   "zh": "新郎已经急切地等待着新娘。"
+  },
+  {
+   "de": "Alle Gäste gratulierten der glücklichen Braut herzlich.",
+   "zh": "所有的宾客都热情地向幸福的新娘祝贺。"
+  }
+ ],
+ "peinlich": [
+  {
+   "de": "Die ganze Situation war mir unheimlich peinlich.",
+   "zh": "整个场面让我感到格外尴尬。"
+  },
+  {
+   "de": "Mach bitte nicht so eine peinliche Bemerkung.",
+   "zh": "请别说出那么让人尴尬的话。"
+  },
+  {
+   "de": "Es entstand ein peinliches Schweigen im Raum.",
+   "zh": "房间里陷入了一片尴尬的沉默。"
+  }
+ ],
+ "klappen": [
+  {
+   "de": "Ich hoffe, die Prüfung wird gut klappen.",
+   "zh": "我希望考试能顺顺当当。"
+  },
+  {
+   "de": "Mit etwas Übung wird das sicher klappen.",
+   "zh": "稍加练习这一定会顺利成的。"
+  },
+  {
+   "de": "Es wird schon alles gut klappen.",
+   "zh": "一切都会顺利的。"
+  }
+ ],
+ "Aufmerksamkeit": [
+  {
+   "de": "Danke für Ihre geschätzte Aufmerksamkeit.",
+   "zh": "感谢大家的宝贵关注。"
+  },
+  {
+   "de": "Das Kind verlangt die ungeteilte Aufmerksamkeit der Eltern.",
+   "zh": "孩子要求父母全心全意的关照。"
+  },
+  {
+   "de": "Er schenkte dem Redner seine volle Aufmerksamkeit.",
+   "zh": "他倾注全力认真聆听演讲者。"
+  }
+ ],
+ "Form": [
+  {
+   "de": "Die Wolke hat eine ungewöhnliche Form.",
+   "zh": "这朵云有着奇特的形状。"
+  },
+  {
+   "de": "Der Sportler ist zurzeit in hervorragender Form.",
+   "zh": "该运动员目前状态极佳。"
+  },
+  {
+   "de": "Füllen Sie bitte diese Form vollständig aus.",
+   "zh": "请完整填写这份表格。"
+  }
+ ],
+ "umsonst": [
+  {
+   "de": "Der Eintritt in das Museum ist heute umsonst.",
+   "zh": "今天进博物馆是免费的。"
+  },
+  {
+   "de": "Alle unsere Mühen waren leider ganz umsonst.",
+   "zh": "我们所有的辛劳可惜全都白费了。"
+  },
+  {
+   "de": "Niemand arbeitet den ganzen Tag völlig umsonst.",
+   "zh": "没有人会整天白白干活不求回报。"
+  }
+ ],
+ "nirgendwo": [
+  {
+   "de": "Ich kann meine Autoschlüssel nirgendwo finden.",
+   "zh": "我到处都找不到我的车钥匙。"
+  },
+  {
+   "de": "Nirgendwo schmeckt der Kaffee besser als zu Hause.",
+   "zh": "哪里的咖啡都没有家里的好喝。"
+  },
+  {
+   "de": "Auf der einsamen Insel gibt es nirgendwo Empfang.",
+   "zh": "在这个孤岛上到处都毫无信号。"
+  }
+ ],
+ "Meile": [
+  {
+   "de": "Wir sind heute viele Meilen weit gewandert.",
+   "zh": "我们今天徒步走了许多英里路。"
+  },
+  {
+   "de": "Das Schiff liegt noch eine Meile vor der Küste.",
+   "zh": "船距离海岸还有一英里远。"
+  },
+  {
+   "de": "Eine Meile ist weiter als ein Kilometer.",
+   "zh": "一英里比一公里更远。"
+  }
+ ],
+ "ergeben": [
+  {
+   "de": "Die neuen Studien ergeben ein klares Bild.",
+   "zh": "新的研究得出了一幅清晰的前景。"
+  },
+  {
+   "de": "Die Untersuchungen können ein neues Resultat ergeben.",
+   "zh": "这些研究可能会得出新的结果。"
+  },
+  {
+   "de": "Zwei plus zwei will vier ergeben.",
+   "zh": "二加二得四。"
+  }
+ ],
+ "Daten": [
+  {
+   "de": "Wir müssen alle gesammelten Daten sichern.",
+   "zh": "我们必须备份所有收集到的数据。"
+  },
+  {
+   "de": "Ihre persönlichen Daten sind bei uns sicher.",
+   "zh": "您的个人数据在我们这里很安全。"
+  },
+  {
+   "de": "Das System analysiert die neuen Daten automatisch.",
+   "zh": "系统会自动分析这些新数据。"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "language": "yue",
+  "word_count": 384,
+  "fingerprint_sha256": "0748ca590e7caf6c2d11e5062ee381e2a3e1ac84f943c561a4fed94568f0cb9e",
+  "files": {
+    "yue_pron.tsv": "0862fc91e46e412ffdcc0391a27fb7fdb1e110637545462af194f93767c040e7",
+    "yue_sentences.tsv": "33ed3ea5ab094809a058506c784038da29529c6022fa6f6c282269feebaf6808",
+    "repair.tsv": "168b4300d49e500f39581a65815b0307f67b79c8c1eca386049b42023a05b6fb"
+  }
+}

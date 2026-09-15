@@ -1,0 +1,1802 @@
+[
+{
+"word": "bulletin",
+"ipa": "bylətɛ̃",
+"pos": "n.m",
+"rank": 4801
+},
+{
+"word": "butin",
+"ipa": "bytɛ̃",
+"pos": "n.m",
+"rank": 4802
+},
+{
+"word": "catégorie",
+"ipa": "kategoʁi",
+"pos": "n.f",
+"rank": 4803
+},
+{
+"word": "caviar",
+"ipa": "kavjaʁ",
+"pos": "n.m",
+"rank": 4804
+},
+{
+"word": "coincé",
+"ipa": "kwɛ̃se",
+"pos": "adj",
+"rank": 4805
+},
+{
+"word": "combattant",
+"ipa": "kɔ̃batɑ̃",
+"pos": "n.m",
+"rank": 4806
+},
+{
+"word": "compromis",
+"ipa": "kɔ̃pʁomi",
+"pos": "n.m",
+"rank": 4807
+},
+{
+"word": "contenu",
+"ipa": "kɔ̃təny",
+"pos": "n.m",
+"rank": 4808
+},
+{
+"word": "corvée",
+"ipa": "kɔʁve",
+"pos": "n.f",
+"rank": 4809
+},
+{
+"word": "drogué",
+"ipa": "dʁoge",
+"pos": "n.m",
+"rank": 4810
+},
+{
+"word": "exemplaire",
+"ipa": "ɛgzɑ̃plɛʁ",
+"pos": "n.m",
+"rank": 4811
+},
+{
+"word": "ficelle",
+"ipa": "fisɛl",
+"pos": "n.f",
+"rank": 4812
+},
+{
+"word": "féroce",
+"ipa": "feʁɔs",
+"pos": "adj",
+"rank": 4813
+},
+{
+"word": "guise",
+"ipa": "giz",
+"pos": "n.f",
+"rank": 4814
+},
+{
+"word": "inciter",
+"ipa": "ɛ̃site",
+"pos": "v",
+"rank": 4815
+},
+{
+"word": "inverser",
+"ipa": "ɛ̃vɛʁse",
+"pos": "v",
+"rank": 4816
+},
+{
+"word": "irresponsable",
+"ipa": "iʁɛspɔ̃sabl",
+"pos": "adj",
+"rank": 4817
+},
+{
+"word": "lecteur",
+"ipa": "lɛktœʁ",
+"pos": "n.m",
+"rank": 4818
+},
+{
+"word": "légèrement",
+"ipa": "leʒɛʁəmɑ̃",
+"pos": "adv",
+"rank": 4819
+},
+{
+"word": "maltraiter",
+"ipa": "maltʁete",
+"pos": "v",
+"rank": 4820
+},
+{
+"word": "marée",
+"ipa": "maʁe",
+"pos": "n.f",
+"rank": 4821
+},
+{
+"word": "maïs",
+"ipa": "mais",
+"pos": "n.m",
+"rank": 4822
+},
+{
+"word": "morsure",
+"ipa": "mɔʁsyʁ",
+"pos": "n.f",
+"rank": 4823
+},
+{
+"word": "mythe",
+"ipa": "mit",
+"pos": "n.m",
+"rank": 4824
+},
+{
+"word": "pitoyable",
+"ipa": "pitwajabl",
+"pos": "adj",
+"rank": 4825
+},
+{
+"word": "questionner",
+"ipa": "kɛstjone",
+"pos": "v",
+"rank": 4826
+},
+{
+"word": "racaille",
+"ipa": "ʁakaj",
+"pos": "n.f",
+"rank": 4827
+},
+{
+"word": "relire",
+"ipa": "ʁəliʁ",
+"pos": "v",
+"rank": 4828
+},
+{
+"word": "restaurer",
+"ipa": "ʁɛstoʁe",
+"pos": "v",
+"rank": 4829
+},
+{
+"word": "rhum",
+"ipa": "ʁɔm",
+"pos": "n.m",
+"rank": 4830
+},
+{
+"word": "sonde",
+"ipa": "sɔ̃d",
+"pos": "n.f",
+"rank": 4831
+},
+{
+"word": "sot",
+"ipa": "so",
+"pos": "adj",
+"rank": 4832
+},
+{
+"word": "tarif",
+"ipa": "taʁif",
+"pos": "n.m",
+"rank": 4833
+},
+{
+"word": "tueuse",
+"ipa": "tɥøz",
+"pos": "n.f",
+"rank": 4834
+},
+{
+"word": "western",
+"ipa": "wɛstɛʁn",
+"pos": "n.m",
+"rank": 4835
+},
+{
+"word": "équiper",
+"ipa": "ekipe",
+"pos": "v",
+"rank": 4836
+},
+{
+"word": "étincelle",
+"ipa": "etɛ̃sɛl",
+"pos": "n.f",
+"rank": 4837
+},
+{
+"word": "évacuation",
+"ipa": "evakɥasjɔ̃",
+"pos": "n.f",
+"rank": 4838
+},
+{
+"word": "alimenter",
+"ipa": "alimɑ̃te",
+"pos": "v",
+"rank": 4839
+},
+{
+"word": "animé",
+"ipa": "anime",
+"pos": "adj",
+"rank": 4840
+},
+{
+"word": "calendrier",
+"ipa": "kalɑ̃dʁije",
+"pos": "n.m",
+"rank": 4841
+},
+{
+"word": "camper",
+"ipa": "kɑ̃pe",
+"pos": "v",
+"rank": 4842
+},
+{
+"word": "cape",
+"ipa": "kap",
+"pos": "n.f",
+"rank": 4843
+},
+{
+"word": "croyable",
+"ipa": "kʁwajabl",
+"pos": "adj",
+"rank": 4844
+},
+{
+"word": "dirigeant",
+"ipa": "diʁiʒɑ̃",
+"pos": "n.m",
+"rank": 4845
+},
+{
+"word": "délice",
+"ipa": "delis",
+"pos": "n.m",
+"rank": 4846
+},
+{
+"word": "désobéir",
+"ipa": "dezobeiʁ",
+"pos": "v",
+"rank": 4847
+},
+{
+"word": "dévaliser",
+"ipa": "devalize",
+"pos": "v",
+"rank": 4848
+},
+{
+"word": "emmerde",
+"ipa": "ɑ̃mɛʁd",
+"pos": "n.f",
+"rank": 4849
+},
+{
+"word": "gin",
+"ipa": "dʒin",
+"pos": "n.m",
+"rank": 4850
+},
+{
+"word": "gâchis",
+"ipa": "gaʃi",
+"pos": "n.m",
+"rank": 4851
+},
+{
+"word": "générosité",
+"ipa": "ʒeneʁozite",
+"pos": "n.f",
+"rank": 4852
+},
+{
+"word": "géomètre",
+"ipa": "ʒeomɛtʁ",
+"pos": "n",
+"rank": 4853
+},
+{
+"word": "hymne",
+"ipa": "imn",
+"pos": "n",
+"rank": 4854
+},
+{
+"word": "limonade",
+"ipa": "limonad",
+"pos": "n.f",
+"rank": 4855
+},
+{
+"word": "lézard",
+"ipa": "lezaʁ",
+"pos": "n.m",
+"rank": 4856
+},
+{
+"word": "maléfique",
+"ipa": "malefik",
+"pos": "adj",
+"rank": 4857
+},
+{
+"word": "musulman",
+"ipa": "myzylmɑ̃",
+"pos": "n.m",
+"rank": 4858
+},
+{
+"word": "nourrice",
+"ipa": "nuʁis",
+"pos": "n.f",
+"rank": 4859
+},
+{
+"word": "placé",
+"ipa": "plase",
+"pos": "adj",
+"rank": 4860
+},
+{
+"word": "porteur",
+"ipa": "pɔʁtœʁ",
+"pos": "n.m",
+"rank": 4861
+},
+{
+"word": "qualifier",
+"ipa": "kalifje",
+"pos": "v",
+"rank": 4862
+},
+{
+"word": "radical",
+"ipa": "ʁadikal",
+"pos": "adj",
+"rank": 4863
+},
+{
+"word": "remarier",
+"ipa": "ʁəmaʁje",
+"pos": "v",
+"rank": 4864
+},
+{
+"word": "reprise",
+"ipa": "ʁəpʁiz",
+"pos": "n.f",
+"rank": 4865
+},
+{
+"word": "requérir",
+"ipa": "ʁəkeʁiʁ",
+"pos": "v",
+"rank": 4866
+},
+{
+"word": "rigolo",
+"ipa": "ʁigolo",
+"pos": "adj",
+"rank": 4867
+},
+{
+"word": "ruelle",
+"ipa": "ʁɥɛl",
+"pos": "n.f",
+"rank": 4868
+},
+{
+"word": "saboter",
+"ipa": "sabote",
+"pos": "v",
+"rank": 4869
+},
+{
+"word": "seringue",
+"ipa": "səʁɛ̃g",
+"pos": "n.f",
+"rank": 4870
+},
+{
+"word": "sobre",
+"ipa": "sɔbʁ",
+"pos": "adj",
+"rank": 4871
+},
+{
+"word": "stage",
+"ipa": "staʒ",
+"pos": "n.m",
+"rank": 4872
+},
+{
+"word": "tiers",
+"ipa": "tjɛʁ",
+"pos": "n.m",
+"rank": 4873
+},
+{
+"word": "tranchée",
+"ipa": "tʁɑ̃ʃe",
+"pos": "n.f",
+"rank": 4874
+},
+{
+"word": "tutoyer",
+"ipa": "tytwaje",
+"pos": "v",
+"rank": 4875
+},
+{
+"word": "étalon",
+"ipa": "etalɔ̃",
+"pos": "n.m",
+"rank": 4876
+},
+{
+"word": "absenter",
+"ipa": "apsɑ̃te",
+"pos": "v",
+"rank": 4877
+},
+{
+"word": "ambitieux",
+"ipa": "ɑ̃bisjø",
+"pos": "adj",
+"rank": 4878
+},
+{
+"word": "bilan",
+"ipa": "bilɑ̃",
+"pos": "n.m",
+"rank": 4879
+},
+{
+"word": "boulette",
+"ipa": "bulɛt",
+"pos": "n.f",
+"rank": 4880
+},
+{
+"word": "brouiller",
+"ipa": "bʁuje",
+"pos": "v",
+"rank": 4881
+},
+{
+"word": "canaille",
+"ipa": "kanaj",
+"pos": "n.f",
+"rank": 4882
+},
+{
+"word": "chiffon",
+"ipa": "ʃifɔ̃",
+"pos": "n.m",
+"rank": 4883
+},
+{
+"word": "cinquième",
+"ipa": "sɛ̃kjɛm",
+"pos": "adj",
+"rank": 4884
+},
+{
+"word": "cure",
+"ipa": "kyʁ",
+"pos": "n.f",
+"rank": 4885
+},
+{
+"word": "district",
+"ipa": "distʁikt",
+"pos": "n.m",
+"rank": 4886
+},
+{
+"word": "douane",
+"ipa": "dwan",
+"pos": "n.f",
+"rank": 4887
+},
+{
+"word": "débloquer",
+"ipa": "debloke",
+"pos": "v",
+"rank": 4888
+},
+{
+"word": "débrancher",
+"ipa": "debʁɑ̃ʃe",
+"pos": "v",
+"rank": 4889
+},
+{
+"word": "efforcer",
+"ipa": "efɔʁse",
+"pos": "v",
+"rank": 4890
+},
+{
+"word": "enrager",
+"ipa": "ɑ̃ʁaʒe",
+"pos": "v",
+"rank": 4891
+},
+{
+"word": "expirer",
+"ipa": "ɛkspiʁe",
+"pos": "v",
+"rank": 4892
+},
+{
+"word": "gagné",
+"ipa": "gaɲe",
+"pos": "adj",
+"rank": 4893
+},
+{
+"word": "gilet",
+"ipa": "ʒilɛ",
+"pos": "n.m",
+"rank": 4894
+},
+{
+"word": "gorille",
+"ipa": "goʁij",
+"pos": "n.m",
+"rank": 4895
+},
+{
+"word": "hot-dog",
+"ipa": "ɔtdɔg",
+"pos": "n.m",
+"rank": 4896
+},
+{
+"word": "inattendu",
+"ipa": "inatɑ̃dy",
+"pos": "adj",
+"rank": 4897
+},
+{
+"word": "manoir",
+"ipa": "manwaʁ",
+"pos": "n.m",
+"rank": 4898
+},
+{
+"word": "moule",
+"ipa": "mul",
+"pos": "n",
+"rank": 4899
+},
+{
+"word": "multiplier",
+"ipa": "myltiplije",
+"pos": "v",
+"rank": 4900
+},
+{
+"word": "médium",
+"ipa": "medjɔm",
+"pos": "n.m",
+"rank": 4901
+},
+{
+"word": "noblesse",
+"ipa": "noblɛs",
+"pos": "n.f",
+"rank": 4902
+},
+{
+"word": "orphelinat",
+"ipa": "ɔʁfəlina",
+"pos": "n.m",
+"rank": 4903
+},
+{
+"word": "perche",
+"ipa": "pɛʁʃ",
+"pos": "n.f",
+"rank": 4904
+},
+{
+"word": "promouvoir",
+"ipa": "pʁomuvwaʁ",
+"pos": "v",
+"rank": 4905
+},
+{
+"word": "précéder",
+"ipa": "pʁesede",
+"pos": "v",
+"rank": 4906
+},
+{
+"word": "prélever",
+"ipa": "pʁeləve",
+"pos": "v",
+"rank": 4907
+},
+{
+"word": "préparation",
+"ipa": "pʁepaʁasjɔ̃",
+"pos": "n.f",
+"rank": 4908
+},
+{
+"word": "réflexe",
+"ipa": "ʁeflɛks",
+"pos": "n.m",
+"rank": 4909
+},
+{
+"word": "réussi",
+"ipa": "ʁeysi",
+"pos": "adj",
+"rank": 4910
+},
+{
+"word": "soûler",
+"ipa": "sule",
+"pos": "v",
+"rank": 4911
+},
+{
+"word": "statut",
+"ipa": "staty",
+"pos": "n.m",
+"rank": 4912
+},
+{
+"word": "superstition",
+"ipa": "sypɛʁstisjɔ̃",
+"pos": "n.f",
+"rank": 4913
+},
+{
+"word": "suspecter",
+"ipa": "syspɛkte",
+"pos": "v",
+"rank": 4914
+},
+{
+"word": "tarer",
+"ipa": "taʁa",
+"pos": "v",
+"rank": 4915
+},
+{
+"word": "toutou",
+"ipa": "tutu",
+"pos": "n.m",
+"rank": 4916
+},
+{
+"word": "vil",
+"ipa": "vil",
+"pos": "adj",
+"rank": 4917
+},
+{
+"word": "vortex",
+"ipa": "vɔʁtɛks",
+"pos": "n.m",
+"rank": 4918
+},
+{
+"word": "abîme",
+"ipa": "abim",
+"pos": "n.m",
+"rank": 4919
+},
+{
+"word": "accouchement",
+"ipa": "akuʃəmɑ̃",
+"pos": "n.m",
+"rank": 4920
+},
+{
+"word": "amiral",
+"ipa": "amiʁal",
+"pos": "n.m",
+"rank": 4921
+},
+{
+"word": "campus",
+"ipa": "kɑ̃pys",
+"pos": "n.m",
+"rank": 4922
+},
+{
+"word": "clôture",
+"ipa": "klotyʁ",
+"pos": "n.f",
+"rank": 4923
+},
+{
+"word": "compétence",
+"ipa": "kɔ̃petɑ̃s",
+"pos": "n.f",
+"rank": 4924
+},
+{
+"word": "concurrence",
+"ipa": "kɔ̃kyʁɑ̃s",
+"pos": "n.f",
+"rank": 4925
+},
+{
+"word": "confort",
+"ipa": "kɔ̃fɔʁ",
+"pos": "n.m",
+"rank": 4926
+},
+{
+"word": "conquête",
+"ipa": "kɔ̃kɛt",
+"pos": "n.f",
+"rank": 4927
+},
+{
+"word": "consentir",
+"ipa": "kɔ̃sɑ̃tiʁ",
+"pos": "v",
+"rank": 4928
+},
+{
+"word": "contagieux",
+"ipa": "kɔ̃taʒjø",
+"pos": "adj",
+"rank": 4929
+},
+{
+"word": "convenable",
+"ipa": "kɔ̃vənabl",
+"pos": "adj",
+"rank": 4930
+},
+{
+"word": "culturel",
+"ipa": "kyltyʁɛl",
+"pos": "adj",
+"rank": 4931
+},
+{
+"word": "décent",
+"ipa": "desɑ̃",
+"pos": "adj",
+"rank": 4932
+},
+{
+"word": "dégoût",
+"ipa": "degu",
+"pos": "n.m",
+"rank": 4933
+},
+{
+"word": "exil",
+"ipa": "ɛgzil",
+"pos": "n.m",
+"rank": 4934
+},
+{
+"word": "imposteur",
+"ipa": "ɛ̃pɔstœʁ",
+"pos": "n.m",
+"rank": 4935
+},
+{
+"word": "ironie",
+"ipa": "iʁoni",
+"pos": "n.f",
+"rank": 4936
+},
+{
+"word": "languir",
+"ipa": "lɑ̃giʁ",
+"pos": "v",
+"rank": 4937
+},
+{
+"word": "largement",
+"ipa": "laʁʒəmɑ̃",
+"pos": "adv",
+"rank": 4938
+},
+{
+"word": "librairie",
+"ipa": "libʁeʁi",
+"pos": "n.f",
+"rank": 4939
+},
+{
+"word": "maestro",
+"ipa": "maɛstʁo",
+"pos": "n.m",
+"rank": 4940
+},
+{
+"word": "microbe",
+"ipa": "mikʁɔb",
+"pos": "n.m",
+"rank": 4941
+},
+{
+"word": "montant",
+"ipa": "mɔ̃tɑ̃",
+"pos": "n.m",
+"rank": 4942
+},
+{
+"word": "mouchard",
+"ipa": "muʃaʁ",
+"pos": "n.m",
+"rank": 4943
+},
+{
+"word": "moustique",
+"ipa": "mustik",
+"pos": "n.m",
+"rank": 4944
+},
+{
+"word": "négro",
+"ipa": "negʁo",
+"pos": "n.m",
+"rank": 4945
+},
+{
+"word": "ouragan",
+"ipa": "uʁagɑ̃",
+"pos": "n.m",
+"rank": 4946
+},
+{
+"word": "parage",
+"ipa": "paʁaʒ",
+"pos": "n.m",
+"rank": 4947
+},
+{
+"word": "pavillon",
+"ipa": "pavijɔ̃",
+"pos": "n.m",
+"rank": 4948
+},
+{
+"word": "philosophe",
+"ipa": "filozɔf",
+"pos": "n",
+"rank": 4949
+},
+{
+"word": "pique-nique",
+"ipa": "piknik",
+"pos": "n.m",
+"rank": 4950
+},
+{
+"word": "pisse",
+"ipa": "pis",
+"pos": "n.f",
+"rank": 4951
+},
+{
+"word": "pli",
+"ipa": "pli",
+"pos": "n.m",
+"rank": 4952
+},
+{
+"word": "potentiel",
+"ipa": "potɑ̃sjɛl",
+"pos": "n.m",
+"rank": 4953
+},
+{
+"word": "protocole",
+"ipa": "pʁotokɔl",
+"pos": "n.m",
+"rank": 4954
+},
+{
+"word": "reproche",
+"ipa": "ʁəpʁɔʃ",
+"pos": "n.m",
+"rank": 4955
+},
+{
+"word": "réfugié",
+"ipa": "ʁefyʒje",
+"pos": "n.m",
+"rank": 4956
+},
+{
+"word": "résolu",
+"ipa": "ʁezoly",
+"pos": "adj",
+"rank": 4957
+},
+{
+"word": "sacrément",
+"ipa": "sakʁemɑ̃",
+"pos": "adv",
+"rank": 4958
+},
+{
+"word": "sanglier",
+"ipa": "sɑ̃glije",
+"pos": "n.m",
+"rank": 4959
+},
+{
+"word": "secourir",
+"ipa": "səkuʁiʁ",
+"pos": "v",
+"rank": 4960
+},
+{
+"word": "sensibilité",
+"ipa": "sɑ̃sibilite",
+"pos": "n.f",
+"rank": 4961
+},
+{
+"word": "sexualité",
+"ipa": "seksɥalite",
+"pos": "n.f",
+"rank": 4962
+},
+{
+"word": "similaire",
+"ipa": "similɛʁ",
+"pos": "adj",
+"rank": 4963
+},
+{
+"word": "épatant",
+"ipa": "epatɑ̃",
+"pos": "adj",
+"rank": 4964
+},
+{
+"word": "about",
+"ipa": "abu",
+"pos": "n.m",
+"rank": 4965
+},
+{
+"word": "affoler",
+"ipa": "afole",
+"pos": "v",
+"rank": 4966
+},
+{
+"word": "alternative",
+"ipa": "altɛʁnativ",
+"pos": "n.f",
+"rank": 4967
+},
+{
+"word": "barbecue",
+"ipa": "baʁbəkju",
+"pos": "n.m",
+"rank": 4968
+},
+{
+"word": "bourré",
+"ipa": "buʁe",
+"pos": "adj",
+"rank": 4969
+},
+{
+"word": "bruyant",
+"ipa": "bʁɥijɑ̃",
+"pos": "adj",
+"rank": 4970
+},
+{
+"word": "celles-là",
+"ipa": "sɛlla",
+"pos": "pron",
+"rank": 4971
+},
+{
+"word": "chauve",
+"ipa": "ʃov",
+"pos": "adj",
+"rank": 4972
+},
+{
+"word": "conduit",
+"ipa": "kɔ̃dɥi",
+"pos": "n.m",
+"rank": 4973
+},
+{
+"word": "confisquer",
+"ipa": "kɔ̃fiske",
+"pos": "v",
+"rank": 4974
+},
+{
+"word": "conjurer",
+"ipa": "kɔ̃ʒyʁe",
+"pos": "v",
+"rank": 4975
+},
+{
+"word": "creux",
+"ipa": "kʁø",
+"pos": "adj",
+"rank": 4976
+},
+{
+"word": "donneur",
+"ipa": "donœʁ",
+"pos": "n.m",
+"rank": 4977
+},
+{
+"word": "faucon",
+"ipa": "fokɔ̃",
+"pos": "n.m",
+"rank": 4978
+},
+{
+"word": "feindre",
+"ipa": "fɛ̃dʁ",
+"pos": "v",
+"rank": 4979
+},
+{
+"word": "gober",
+"ipa": "gobe",
+"pos": "v",
+"rank": 4980
+},
+{
+"word": "insolent",
+"ipa": "ɛ̃sɔlɑ̃",
+"pos": "adj",
+"rank": 4981
+},
+{
+"word": "licencier",
+"ipa": "lisɑ̃sje",
+"pos": "v",
+"rank": 4982
+},
+{
+"word": "manège",
+"ipa": "manɛʒ",
+"pos": "n.m",
+"rank": 4983
+},
+{
+"word": "max",
+"ipa": "maks",
+"pos": "n.m",
+"rank": 4984
+},
+{
+"word": "nécessité",
+"ipa": "nesesite",
+"pos": "n.f",
+"rank": 4985
+},
+{
+"word": "permanence",
+"ipa": "pɛʁmanɑ̃s",
+"pos": "n.f",
+"rank": 4986
+},
+{
+"word": "picoler",
+"ipa": "pikole",
+"pos": "v",
+"rank": 4987
+},
+{
+"word": "ressaisir",
+"ipa": "ʁəseziʁ",
+"pos": "v",
+"rank": 4988
+},
+{
+"word": "robinet",
+"ipa": "ʁobinɛ",
+"pos": "n.m",
+"rank": 4989
+},
+{
+"word": "rouleau",
+"ipa": "ʁulo",
+"pos": "n.m",
+"rank": 4990
+},
+{
+"word": "saumon",
+"ipa": "somɔ̃",
+"pos": "n.m",
+"rank": 4991
+},
+{
+"word": "score",
+"ipa": "skɔʁ",
+"pos": "n.m",
+"rank": 4992
+},
+{
+"word": "soutien-gorge",
+"ipa": "sutjɛ̃gɔʁʒ",
+"pos": "n.m",
+"rank": 4993
+},
+{
+"word": "square",
+"ipa": "skwaʁ",
+"pos": "n.m",
+"rank": 4994
+},
+{
+"word": "thon",
+"ipa": "tɔ̃",
+"pos": "n.m",
+"rank": 4995
+},
+{
+"word": "trajectoire",
+"ipa": "tʁaʒɛktwaʁ",
+"pos": "n.f",
+"rank": 4996
+},
+{
+"word": "vautour",
+"ipa": "votuʁ",
+"pos": "n.m",
+"rank": 4997
+},
+{
+"word": "volet",
+"ipa": "volɛ",
+"pos": "n.m",
+"rank": 4998
+},
+{
+"word": "vénérer",
+"ipa": "veneʁe",
+"pos": "v",
+"rank": 4999
+},
+{
+"word": "agenda",
+"ipa": "aʒɛ̃da",
+"pos": "n.m",
+"rank": 5000
+},
+{
+"word": "alimentaire",
+"ipa": "alimɑ̃tɛʁ",
+"pos": "adj",
+"rank": 5001
+},
+{
+"word": "allumé",
+"ipa": "alyme",
+"pos": "adj",
+"rank": 5002
+},
+{
+"word": "angoisser",
+"ipa": "ɑ̃gwase",
+"pos": "v",
+"rank": 5003
+},
+{
+"word": "annuel",
+"ipa": "anɥɛl",
+"pos": "adj",
+"rank": 5004
+},
+{
+"word": "biche",
+"ipa": "biʃ",
+"pos": "n.f",
+"rank": 5005
+},
+{
+"word": "boxer",
+"ipa": "bɔkse",
+"pos": "v",
+"rank": 5006
+},
+{
+"word": "cartouche",
+"ipa": "kaʁtuʃ",
+"pos": "n",
+"rank": 5007
+},
+{
+"word": "ciment",
+"ipa": "simɑ̃",
+"pos": "n.m",
+"rank": 5008
+},
+{
+"word": "compréhension",
+"ipa": "kɔ̃pʁeɑ̃sjɔ̃",
+"pos": "n.f",
+"rank": 5009
+},
+{
+"word": "constant",
+"ipa": "kɔ̃stɑ̃",
+"pos": "adj",
+"rank": 5010
+},
+{
+"word": "convaincu",
+"ipa": "kɔ̃vɛ̃ky",
+"pos": "adj",
+"rank": 5011
+},
+{
+"word": "couillon",
+"ipa": "kujɔ̃",
+"pos": "n.m",
+"rank": 5012
+},
+{
+"word": "craie",
+"ipa": "kʁɛ",
+"pos": "n.f",
+"rank": 5013
+},
+{
+"word": "croûte",
+"ipa": "kʁut",
+"pos": "n.f",
+"rank": 5014
+},
+{
+"word": "cruauté",
+"ipa": "kʁyote",
+"pos": "n.f",
+"rank": 5015
+},
+{
+"word": "crève",
+"ipa": "kʁɛv",
+"pos": "n.f",
+"rank": 5016
+},
+{
+"word": "digérer",
+"ipa": "diʒeʁe",
+"pos": "v",
+"rank": 5017
+},
+{
+"word": "discrètement",
+"ipa": "diskʁɛtəmɑ̃",
+"pos": "adv",
+"rank": 5018
+},
+{
+"word": "débutant",
+"ipa": "debytɑ̃",
+"pos": "n.m",
+"rank": 5019
+},
+{
+"word": "dépit",
+"ipa": "depi",
+"pos": "n.m",
+"rank": 5020
+},
+{
+"word": "falaise",
+"ipa": "falɛz",
+"pos": "n.f",
+"rank": 5021
+},
+{
+"word": "flanquer",
+"ipa": "flɑ̃ke",
+"pos": "v",
+"rank": 5022
+},
+{
+"word": "fourchette",
+"ipa": "fuʁʃɛt",
+"pos": "n.f",
+"rank": 5023
+},
+{
+"word": "franchise",
+"ipa": "fʁɑ̃ʃiz",
+"pos": "n.f",
+"rank": 5024
+},
+{
+"word": "gramme",
+"ipa": "gʁam",
+"pos": "n.m",
+"rank": 5025
+},
+{
+"word": "guérison",
+"ipa": "geʁizɔ̃",
+"pos": "n.f",
+"rank": 5026
+},
+{
+"word": "homosexuel",
+"ipa": "omoseksɥɛl",
+"pos": "adj",
+"rank": 5027
+},
+{
+"word": "héberger",
+"ipa": "ebɛʁʒe",
+"pos": "v",
+"rank": 5028
+},
+{
+"word": "instruire",
+"ipa": "ɛ̃stʁɥiʁ",
+"pos": "v",
+"rank": 5029
+},
+{
+"word": "jaillir",
+"ipa": "ʒajiʁ",
+"pos": "v",
+"rank": 5030
+},
+{
+"word": "manifestement",
+"ipa": "manifɛstəmɑ̃",
+"pos": "adv",
+"rank": 5031
+},
+{
+"word": "matinal",
+"ipa": "matinal",
+"pos": "adj",
+"rank": 5032
+},
+{
+"word": "mécanicien",
+"ipa": "mekanisjɛ̃",
+"pos": "n.m",
+"rank": 5033
+},
+{
+"word": "notion",
+"ipa": "nosjɔ̃",
+"pos": "n.f",
+"rank": 5034
+},
+{
+"word": "né",
+"ipa": "ne",
+"pos": "adj",
+"rank": 5035
+},
+{
+"word": "paroisse",
+"ipa": "paʁwas",
+"pos": "n.f",
+"rank": 5036
+},
+{
+"word": "passionner",
+"ipa": "pasjone",
+"pos": "v",
+"rank": 5037
+},
+{
+"word": "petit-enfant",
+"ipa": "pətiɑ̃fɑ̃",
+"pos": "n.m",
+"rank": 5038
+},
+{
+"word": "pianiste",
+"ipa": "pjanist",
+"pos": "n",
+"rank": 5039
+},
+{
+"word": "pleurnicher",
+"ipa": "plœʁniʃe",
+"pos": "v",
+"rank": 5040
+},
+{
+"word": "plombier",
+"ipa": "plɔ̃bje",
+"pos": "n.m",
+"rank": 5041
+},
+{
+"word": "prodige",
+"ipa": "pʁodiʒ",
+"pos": "n.m",
+"rank": 5042
+},
+{
+"word": "provisoire",
+"ipa": "pʁovizwaʁ",
+"pos": "adj",
+"rank": 5043
+},
+{
+"word": "purée",
+"ipa": "pyʁe",
+"pos": "n.f",
+"rank": 5044
+},
+{
+"word": "raccourci",
+"ipa": "ʁakuʁsi",
+"pos": "n.m",
+"rank": 5045
+},
+{
+"word": "rampe",
+"ipa": "ʁɑ̃p",
+"pos": "n.f",
+"rank": 5046
+},
+{
+"word": "ravisseur",
+"ipa": "ʁavisœʁ",
+"pos": "n.m",
+"rank": 5047
+},
+{
+"word": "reconduire",
+"ipa": "ʁəkɔ̃dɥiʁ",
+"pos": "v",
+"rank": 5048
+},
+{
+"word": "recoudre",
+"ipa": "ʁəkudʁ",
+"pos": "v",
+"rank": 5049
+},
+{
+"word": "roche",
+"ipa": "ʁɔʃ",
+"pos": "n.f",
+"rank": 5050
+},
+{
+"word": "rôder",
+"ipa": "ʁode",
+"pos": "v",
+"rank": 5051
+},
+{
+"word": "salutation",
+"ipa": "salytasjɔ̃",
+"pos": "n.f",
+"rank": 5052
+},
+{
+"word": "shopping",
+"ipa": "ʃɔpiŋ",
+"pos": "n.m",
+"rank": 5053
+},
+{
+"word": "signification",
+"ipa": "siɲifikasjɔ̃",
+"pos": "n.f",
+"rank": 5054
+},
+{
+"word": "sirop",
+"ipa": "siʁo",
+"pos": "n.m",
+"rank": 5055
+},
+{
+"word": "sourcil",
+"ipa": "suʁsi",
+"pos": "n.m",
+"rank": 5056
+},
+{
+"word": "sous-titrer",
+"ipa": "sutitʁe",
+"pos": "v",
+"rank": 5057
+},
+{
+"word": "tronc",
+"ipa": "tʁɔ̃",
+"pos": "n.m",
+"rank": 5058
+},
+{
+"word": "truand",
+"ipa": "tʁyɑ̃",
+"pos": "n.m",
+"rank": 5059
+},
+{
+"word": "vanité",
+"ipa": "vanite",
+"pos": "n.f",
+"rank": 5060
+},
+{
+"word": "veinard",
+"ipa": "vɛnaʁ",
+"pos": "n.m",
+"rank": 5061
+},
+{
+"word": "vicieux",
+"ipa": "visjø",
+"pos": "adj",
+"rank": 5062
+},
+{
+"word": "vitamine",
+"ipa": "vitamin",
+"pos": "n.f",
+"rank": 5063
+},
+{
+"word": "vivement",
+"ipa": "vivəmɑ̃",
+"pos": "adv",
+"rank": 5064
+},
+{
+"word": "épine",
+"ipa": "epin",
+"pos": "n.f",
+"rank": 5065
+},
+{
+"word": "évaluer",
+"ipa": "evalɥe",
+"pos": "v",
+"rank": 5066
+},
+{
+"word": "affamé",
+"ipa": "afame",
+"pos": "adj",
+"rank": 5067
+},
+{
+"word": "antécédent",
+"ipa": "ɑ̃tesedɑ̃",
+"pos": "n.m",
+"rank": 5068
+},
+{
+"word": "approprier",
+"ipa": "apʁopʁije",
+"pos": "v",
+"rank": 5069
+},
+{
+"word": "atout",
+"ipa": "atu",
+"pos": "n.m",
+"rank": 5070
+},
+{
+"word": "attirant",
+"ipa": "atiʁɑ̃",
+"pos": "adj",
+"rank": 5071
+},
+{
+"word": "bled",
+"ipa": "blɛd",
+"pos": "n.m",
+"rank": 5072
+},
+{
+"word": "blouse",
+"ipa": "bluz",
+"pos": "n.f",
+"rank": 5073
+},
+{
+"word": "capsule",
+"ipa": "kapsyl",
+"pos": "n.f",
+"rank": 5074
+},
+{
+"word": "carburant",
+"ipa": "kaʁbyʁɑ̃",
+"pos": "n.m",
+"rank": 5075
+},
+{
+"word": "chaleureux",
+"ipa": "ʃaløʁø",
+"pos": "adj",
+"rank": 5076
+},
+{
+"word": "charmer",
+"ipa": "ʃaʁme",
+"pos": "v",
+"rank": 5077
+},
+{
+"word": "chercheur",
+"ipa": "ʃɛʁʃœʁ",
+"pos": "n.m",
+"rank": 5078
+},
+{
+"word": "chiot",
+"ipa": "ʃjo",
+"pos": "n.m",
+"rank": 5079
+},
+{
+"word": "collectionner",
+"ipa": "kolɛksjone",
+"pos": "v",
+"rank": 5080
+},
+{
+"word": "corbeau",
+"ipa": "kɔʁbo",
+"pos": "n.m",
+"rank": 5081
+},
+{
+"word": "correspondance",
+"ipa": "koʁɛspɔ̃dɑ̃s",
+"pos": "n.f",
+"rank": 5082
+},
+{
+"word": "couché",
+"ipa": "kuʃe",
+"pos": "adj",
+"rank": 5083
+},
+{
+"word": "démarche",
+"ipa": "demaʁʃ",
+"pos": "n.f",
+"rank": 5084
+},
+{
+"word": "désarmer",
+"ipa": "dezaʁme",
+"pos": "v",
+"rank": 5085
+},
+{
+"word": "gendre",
+"ipa": "ʒɑ̃dʁ",
+"pos": "n.m",
+"rank": 5086
+},
+{
+"word": "gorgée",
+"ipa": "gɔʁʒe",
+"pos": "n.f",
+"rank": 5087
+},
+{
+"word": "hangar",
+"ipa": "ɑ̃gaʁ",
+"pos": "n.m",
+"rank": 5088
+},
+{
+"word": "hosto",
+"ipa": "ɔsto",
+"pos": "n.m",
+"rank": 5089
+},
+{
+"word": "inquiétant",
+"ipa": "ɛ̃kjetɑ̃",
+"pos": "adj",
+"rank": 5090
+},
+{
+"word": "lamentable",
+"ipa": "lamɑ̃tabl",
+"pos": "adj",
+"rank": 5091
+},
+{
+"word": "maigrir",
+"ipa": "megʁiʁ",
+"pos": "v",
+"rank": 5092
+},
+{
+"word": "malchance",
+"ipa": "malʃɑ̃s",
+"pos": "n.f",
+"rank": 5093
+},
+{
+"word": "manier",
+"ipa": "manje",
+"pos": "v",
+"rank": 5094
+},
+{
+"word": "masser",
+"ipa": "mase",
+"pos": "v",
+"rank": 5095
+},
+{
+"word": "matos",
+"ipa": "matos",
+"pos": "n.m",
+"rank": 5096
+},
+{
+"word": "messire",
+"ipa": "mesiʁ",
+"pos": "n.m",
+"rank": 5097
+},
+{
+"word": "moineau",
+"ipa": "mwano",
+"pos": "n.m",
+"rank": 5098
+},
+{
+"word": "na",
+"ipa": "na",
+"pos": "onoma",
+"rank": 5099
+},
+{
+"word": "natal",
+"ipa": "natal",
+"pos": "adj",
+"rank": 5100
+}
+]

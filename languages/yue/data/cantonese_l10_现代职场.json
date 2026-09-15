@@ -1,0 +1,167 @@
+{
+  "level": "L10",
+  "name": "现代职场商贸与都市金融生活",
+  "description": "涵盖薪资福利、求职晋升、财务账目与职场摸鱼博弈词汇",
+  "words": [
+    {
+      "word": "出糧",
+      "jyutping": "ceot1 loeng4",
+      "pos": "动",
+      "meaning": "发薪水，发工资",
+      "sentences": [
+        {
+          "sentence": "今日出糧，今晚食餐好嘅慶祝！（gam1 jat6 ceot1 loeng4, gam1 maan5 sik6 caan1 hou2 ge3 hing3 zuk1!）",
+          "translate": "今天发工资，今晚吃顿大餐庆祝！"
+        },
+        {
+          "sentence": "每個月最開心就係出糧嗰日。（mui5 go3 jyut6 zeoi3 hoi1 sam1 zau6 hai6 ceot1 loeng4 go2 jat6.）",
+          "translate": "每个月最开心的就是发工资那天。"
+        }
+      ]
+    },
+    {
+      "word": "花紅",
+      "jyutping": "faa1 hung4",
+      "pos": "名",
+      "meaning": "奖金，年终奖，业绩分红",
+      "sentences": [
+        {
+          "sentence": "公司今年業績好，派咗幾個月花紅。（gung1 si1 gam1 nin4 jip6 zik1 hou2, paai3 zo2 gei2 go3 jyut6 faa1 hung4.）",
+          "translate": "公司今年业绩好，发了几个月薪资的奖金分红。"
+        },
+        {
+          "sentence": "辛苦成年，最期待就係筆花紅。（san1 fu2 seng4 nin4, zeoi3 kei4 doi6 zau6 hai6 bat1 faa1 hung4.）",
+          "translate": "辛苦了一整年，最期待的就是那笔年终奖。"
+        }
+      ]
+    },
+    {
+      "word": "雙糧",
+      "jyutping": "soeng1 loeng4",
+      "pos": "名",
+      "meaning": "十三薪，年底双薪",
+      "sentences": [
+        {
+          "sentence": "份合約包年底雙糧。（fan6 hap6 joek3 baau1 nin4 dai2 soeng1 loeng4.）",
+          "translate": "这份工作合同包含年底双薪。"
+        },
+        {
+          "sentence": "有雙糧加花紅，過個肥年。（jau5 soeng1 loeng4 gaa1 faa1 hung4, gwo3 go3 fei4 nin4.）",
+          "translate": "有双薪加奖金分红，过个丰盛肥年。"
+        }
+      ]
+    },
+    {
+      "word": "遞信",
+      "jyutping": "dai6 seon3",
+      "pos": "动",
+      "meaning": "递交辞职信，辞职",
+      "sentences": [
+        {
+          "sentence": "佢搵到更好嘅工，琴日遞咗信。（keoi5 wan2 dou2 gang3 hou2 ge3 gung1, kam4 jat6 dai6 zo2 seon3.）",
+          "translate": "他找到了更好的工作，昨天递了辞职信。"
+        },
+        {
+          "sentence": "遞信之後仲要遞一個月通知期。（dai6 seon3 zi1 hau6 zung6 jiu3 dai6 jat1 go3 jyut6 tung1 zi1 kei4.）",
+          "translate": "辞职之后还要有一个月的交接通知期。"
+        }
+      ]
+    },
+    {
+      "word": "炒散",
+      "jyutping": "caau2 saan2",
+      "pos": "动",
+      "meaning": "打零工，兼职，做兼职临时工",
+      "sentences": [
+        {
+          "sentence": "放假去酒店炒散賺少少外快。（fong3 gaa3 heoi3 zau2 dim3 caau2 saan2 zaan6 siu2 siu2 ngoi6 faai3.）",
+          "translate": "放假去酒店做兼职零工赚点外快。"
+        },
+        {
+          "sentence": "炒散時間自由，好多學生做。（caau2 saan2 si4 gaan3 zi6 jau4, hou2 do1 hok6 saang1 zou6.）",
+          "translate": "打零工时间自由，很多学生在做。"
+        }
+      ]
+    },
+    {
+      "word": "開OT",
+      "jyutping": "hoi1 ou1 ti1",
+      "pos": "动",
+      "meaning": "加班（OT即Overtime）",
+      "sentences": [
+        {
+          "sentence": "趕項目進度，今晚全體開OT。（gon2 hong6 muk6 zeon3 dou6, gam1 maan5 cyun4 tai2 hoi1 ou1 ti1.）",
+          "translate": "赶项目进度，今晚全体员工加班。"
+        },
+        {
+          "sentence": "開OT開到半夜，好想瞓覺。（hoi1 ou1 ti1 hoi1 dou3 bun3 je6, hou2 soeng2 fan3 gaau3.）",
+          "translate": "加班加到半夜，好想睡觉。"
+        }
+      ]
+    },
+    {
+      "word": "走數",
+      "jyutping": "zau2 sou3",
+      "pos": "动",
+      "meaning": "欠债潜逃，赖账，爽约食言",
+      "sentences": [
+        {
+          "sentence": "做人最緊要講信用，千祈咪走數。（zou6 jan4 zeoi3 gan2 jiu3 gong2 seon3 jung6, cin1 kei4 mai5 zau2 sou3.）",
+          "translate": "做人最讲究信用，千万别赖账爽约。"
+        },
+        {
+          "sentence": "間公司欠供應商幾百萬之後走咗數。（gaan1 gung1 si1 him3 gung1 jing3 soeng1 gei2 baak3 maan6 zi1 hau6 zau2 zo2 sou3.）",
+          "translate": "那家公司欠供应商几百万之后潜逃赖账了。"
+        }
+      ]
+    },
+    {
+      "word": "孭鑊",
+      "jyutping": "me1 wok6",
+      "pos": "动",
+      "meaning": "背锅，承担责任，为过失买单",
+      "sentences": [
+        {
+          "sentence": "項目搞砸咗，老細要經理出嚟孭鑊。（hong6 muk6 gaau2 zaap3 zo2, lou5 sai3 jiu3 ging1 lei5 ceot1 lai4 me1 wok6.）",
+          "translate": "项目搞砸了，老板要经理出来背锅顶雷。"
+        },
+        {
+          "sentence": "係我嘅責任我就敢於孭鑊。（hai6 ngo5 ge3 zaak3 jam4 ngo5 zau6 gam2 jyu1 me1 wok6.）",
+          "translate": "是我的责任我就敢于担当承担。"
+        }
+      ]
+    },
+    {
+      "word": "卸膊",
+      "jyutping": "se3 bok3",
+      "pos": "动",
+      "meaning": "推卸责任，甩锅，推委责任",
+      "sentences": [
+        {
+          "sentence": "一有問題佢就即刻卸膊畀下屬。（jat1 jau5 man6 tai4 keoi5 zau6 zik1 hak1 se3 bok3 bei2 haa6 suk6.）",
+          "translate": "一出问题他就立刻把责任甩给下属。"
+        },
+        {
+          "sentence": "做領導唔好成日諗住卸膊。（zou6 ling5 dou6 m4 hou2 seng4 jat6 nam2 zyu6 se3 bok3.）",
+          "translate": "当领导不要老想着推卸责任。"
+        }
+      ]
+    },
+    {
+      "word": "手頭緊",
+      "jyutping": "sau2 tau4 gan2",
+      "pos": "形",
+      "meaning": "手头紧，资金周转拮据",
+      "sentences": [
+        {
+          "sentence": "最近交完租，手頭有少少緊。（zeoi3 gan6 gaau1 jyun4 zou1, sau2 tau4 jau5 siu2 siu2 gan2.）",
+          "translate": "最近刚交完房租，手头有点紧巴巴的。"
+        },
+        {
+          "sentence": "如果手頭緊就同我講聲。（jyu4 gwo2 sau2 tau4 gan2 zau6 tung4 ngo5 gong2 seng1.）",
+          "translate": "如果手头紧就跟我说一声。"
+        }
+      ]
+    }
+  ]
+}

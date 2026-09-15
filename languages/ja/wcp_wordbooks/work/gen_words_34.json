@@ -1,0 +1,2402 @@
+{
+ "ズシン": {
+  "reading": "ずしん",
+  "meaning": "轰然（重物落地）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ドタン": {
+  "reading": "どたん",
+  "meaning": "咚（重物/跌坐声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポタリ": {
+  "reading": "ぽたり",
+  "meaning": "啪嗒（滴落）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "グチャ": {
+  "reading": "ぐちゃ",
+  "meaning": "咕叽（黏糊浆糊状）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "がたり": {
+  "reading": "",
+  "meaning": "哐当（撞击晃动）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ざあっ": {
+  "reading": "ザーッ",
+  "meaning": "哗——（水声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "しんと": {
+  "reading": "シンと",
+  "meaning": "寂静无声〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ドシン": {
+  "reading": "どしん",
+  "meaning": "轰（巨物坠地）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どたり": {
+  "reading": "ドタリ",
+  "meaning": "咚（沉重脚步倒地）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ばさり": {
+  "reading": "バサリ",
+  "meaning": "啪嗒（翅膀/披风落下）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガツン": {
+  "reading": "がつん",
+  "meaning": "咣（撞击）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ドスン": {
+  "reading": "どすん",
+  "meaning": "咚（闷响）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガラリ": {
+  "reading": "がらり",
+  "meaning": "哗啦（开门）；骤变〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "グサリ": {
+  "reading": "ぐさり",
+  "meaning": "噗地（刺入）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポツリ": {
+  "reading": "ポツン",
+  "meaning": "孤零零；嘟囔一句〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぺこん": {
+  "reading": "ぺこり",
+  "meaning": "瘪（凹陷声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "わっと": {
+  "reading": "ワッと",
+  "meaning": "哇地（大哭/喧闹）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ずぶり": {
+  "reading": "ズブリ",
+  "meaning": "噗地（贯穿）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "うふふ": {
+  "reading": "ウフフ",
+  "meaning": "呵呵（轻笑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "えへへ": {
+  "reading": "",
+  "meaning": "嘿嘿（傻笑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ギンッ": {
+  "reading": "",
+  "meaning": "寒光一闪〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "かたり": {
+  "reading": "かたん",
+  "meaning": "咔嗒（轻响）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "かちり": {
+  "reading": "カチリ",
+  "meaning": "咔嚓（锁定声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ゴーっ": {
+  "reading": "",
+  "meaning": "轰隆隆（引擎/风吼）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぬっと": {
+  "reading": "ぬうっと",
+  "meaning": "猛地（探出/冒出）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぱちり": {
+  "reading": "パチリ",
+  "meaning": "咔嚓（快门/眨眼）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "がさっ": {
+  "reading": "ガサッ",
+  "meaning": "哗啦（翻动草丛声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パタリ": {
+  "reading": "ぱたり",
+  "meaning": "啪嗒（停住/倒下）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぷいと": {
+  "reading": "ぷいっと",
+  "meaning": "哼地（扭头生气）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "とんと": {
+  "reading": "",
+  "meaning": "全然；彻底〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぶくり": {
+  "reading": "",
+  "meaning": "扑通（浮沉声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "がたん": {
+  "reading": "ガタン",
+  "meaning": "哐当（电车晃动）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポロリ": {
+  "reading": "ぽろり",
+  "meaning": "啪嗒（掉泪/失言）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ギクリ": {
+  "reading": "ぎくり",
+  "meaning": "心头一惊〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "さくっ": {
+  "reading": "サクッ",
+  "meaning": "咔嚓（咬碎声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ばっと": {
+  "reading": "",
+  "meaning": "刷地（起身/散开）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パタン": {
+  "reading": "ぱたん",
+  "meaning": "啪嗒（合上声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ニヤリ": {
+  "reading": "にやり",
+  "meaning": "咧嘴（意味深长地笑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "くすん": {
+  "reading": "ぐすん",
+  "meaning": "抽噎；哼（啜泣）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どろり": {
+  "reading": "",
+  "meaning": "浓稠（液体）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "のそり": {
+  "reading": "",
+  "meaning": "慢吞吞；呆头呆脑〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ドカン": {
+  "reading": "ドカーン",
+  "meaning": "轰（爆炸）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ゾロリ": {
+  "reading": "ぞろり",
+  "meaning": "一长串；成群〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "きりり": {
+  "reading": "",
+  "meaning": "紧绷绷；英挺〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぎゅう": {
+  "reading": "",
+  "meaning": "紧紧（揉/攥）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "きゅん": {
+  "reading": "キュン",
+  "meaning": "扑通（心动一紧）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ゴクリ": {
+  "reading": "ごくり",
+  "meaning": "咕咚（咽下）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポーン": {
+  "reading": "ぽーん",
+  "meaning": "嘣（弹起声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポチッ": {
+  "reading": "ポチっ",
+  "meaning": "嘀（按键声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "プチッ": {
+  "reading": "ぷちっ",
+  "meaning": "啪（断开/捏碎）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガーン": {
+  "reading": "があん",
+  "meaning": "嗡（震撼轰鸣）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガクッ": {
+  "reading": "がくっ",
+  "meaning": "咔嗒（腿软/头一垂）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ククク": {
+  "reading": "クックックッ",
+  "meaning": "库库（窃笑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぼそり": {
+  "reading": "ボソリ",
+  "meaning": "低声嘟囔〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ツンと": {
+  "reading": "つんと",
+  "meaning": "冷淡；刺痛〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "チュッ": {
+  "reading": "ちゅっ",
+  "meaning": "啾（亲一下）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ギラリ": {
+  "reading": "ぎらり",
+  "meaning": "寒光一闪〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "うっぷ": {
+  "reading": "",
+  "meaning": "嗝（打饱嗝）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "あーん": {
+  "reading": "ああん",
+  "meaning": "啊——（张口）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ドブン": {
+  "reading": "ドボン",
+  "meaning": "扑通（跳入水中）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ニタリ": {
+  "reading": "にたり",
+  "meaning": "狞笑；嘿嘿一笑〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぼたり": {
+  "reading": "ぼったり",
+  "meaning": "啪嗒（黏物落下）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ズドン": {
+  "reading": "ずどん",
+  "meaning": "砰（枪响/重击）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ごぼっ": {
+  "reading": "",
+  "meaning": "咕咚（水声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "バリン": {
+  "reading": "",
+  "meaning": "咔嚓（脆裂）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "すかり": {
+  "reading": "すがり",
+  "meaning": "哧溜（踩空打滑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "きしり": {
+  "reading": "",
+  "meaning": "吱嘎（摩擦声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "そろり": {
+  "reading": "ソロリ",
+  "meaning": "悄悄地；缓缓地〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "つっと": {
+  "reading": "つうと",
+  "meaning": "倏地（快步）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "はらり": {
+  "reading": "",
+  "meaning": "轻轻飘落〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ブーン": {
+  "reading": "ぶーん",
+  "meaning": "嗡嗡（飞行/蜂鸣）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ボカッ": {
+  "reading": "ボカン",
+  "meaning": "咚（钝击）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "びしり": {
+  "reading": "ビシリ",
+  "meaning": "啪（鞭打/断响）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どさり": {
+  "reading": "ドサリ",
+  "meaning": "哗啦（成堆放下）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポトリ": {
+  "reading": "ぽとり",
+  "meaning": "啪嗒（滴落）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ちょん": {
+  "reading": "チョン",
+  "meaning": "啪（拍板声）；轻点一下〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぴしり": {
+  "reading": "",
+  "meaning": "啪（干脆响声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "キャン": {
+  "reading": "きゃん",
+  "meaning": "汪汪（狗哀叫）；尖叫〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パチン": {
+  "reading": "ぱちん",
+  "meaning": "啪（打响指）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ばちん": {
+  "reading": "バチン",
+  "meaning": "啪（清脆拍打）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ヒュー": {
+  "reading": "ひゅー",
+  "meaning": "嗖（风声/哨声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "すっぱ": {
+  "reading": "",
+  "meaning": "利落（切断/了结）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "トホホ": {
+  "reading": "とほほ",
+  "meaning": "唉（垂头丧气状）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "つるり": {
+  "reading": "つるん",
+  "meaning": "滑溜溜；光溜溜〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "コトン": {
+  "reading": "ことん",
+  "meaning": "咕咚（轻碰声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぴゅう": {
+  "reading": "ぴゅん",
+  "meaning": "咻（飞驰）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぱらり": {
+  "reading": "",
+  "meaning": "稀稀落落（撒落）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どうと": {
+  "reading": "どうど",
+  "meaning": "轰然；砰然〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "とろり": {
+  "reading": "トロリ",
+  "meaning": "黏稠软滑；温软〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ごとり": {
+  "reading": "ゴトリ",
+  "meaning": "咚（滚落）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どしり": {
+  "reading": "ドシリ",
+  "meaning": "咚（沉重跌坐）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どかり": {
+  "reading": "",
+  "meaning": "咕咚（沉重跌坐）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぽっと": {
+  "reading": "ポッと",
+  "meaning": "刷地（脸红）；忽地〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぶるん": {
+  "reading": "ぶるり",
+  "meaning": "颤一下；嗡（震动）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ザブン": {
+  "reading": "ざぶん",
+  "meaning": "哗啦（入水声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ペロリ": {
+  "reading": "ぺろり",
+  "meaning": "舔舐；吃光〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぴりり": {
+  "reading": "",
+  "meaning": "微微刺痛〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "プルン": {
+  "reading": "ぷるん",
+  "meaning": "颤悠悠；弹润〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ごそり": {
+  "reading": "",
+  "meaning": "窸窣（翻动）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "がさり": {
+  "reading": "",
+  "meaning": "哗啦（草丛声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ゆくと": {
+  "reading": "",
+  "meaning": "缓缓（动）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポロン": {
+  "reading": "ポロロン",
+  "meaning": "泠泠（拨弦声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぺっと": {
+  "reading": "ペッと",
+  "meaning": "呸（吐口水）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ピンと": {
+  "reading": "ぴんと",
+  "meaning": "绷直；恍然反应〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポトン": {
+  "reading": "ぽとん",
+  "meaning": "啪嗒（轻轻落下）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ビュッ": {
+  "reading": "ビュン",
+  "meaning": "嗖（疾飞）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ムクと": {
+  "reading": "むくと",
+  "meaning": "猛地（起身）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どんと": {
+  "reading": "",
+  "meaning": "咚（重重放下）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ずぼり": {
+  "reading": "",
+  "meaning": "噗（猛地插入）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "きゃっ": {
+  "reading": "キャー",
+  "meaning": "呀（惊叫）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぷくり": {
+  "reading": "",
+  "meaning": "微微鼓起〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "にやっ": {
+  "reading": "ニヤッ",
+  "meaning": "咧嘴一笑〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポキン": {
+  "reading": "ポキリ",
+  "meaning": "咔嚓（折断）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "すぽん": {
+  "reading": "スポン",
+  "meaning": "噗（恰好塞入）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "にゃん": {
+  "reading": "ニャン",
+  "meaning": "喵喵（猫）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "きゅう": {
+  "reading": "",
+  "meaning": "用力（揉/拧）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ニッと": {
+  "reading": "にっと",
+  "meaning": "咧嘴笑〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "いひひ": {
+  "reading": "イヒヒ",
+  "meaning": "嘻嘻（怪笑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どくん": {
+  "reading": "ドクン",
+  "meaning": "咚（心跳沉重）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぽかり": {
+  "reading": "",
+  "meaning": "啪（挨一记）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "グルル": {
+  "reading": "",
+  "meaning": "咕噜噜（低吼/肚子叫）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ベロリ": {
+  "reading": "べろり",
+  "meaning": "舔一大口〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ごくっ": {
+  "reading": "ゴクッ",
+  "meaning": "咕咚（吞咽）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ゴクン": {
+  "reading": "ごくん",
+  "meaning": "咕咚（咽一口）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぷかり": {
+  "reading": "ぷかりぷかり",
+  "meaning": "噗（烟圈吐出）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぼっと": {
+  "reading": "",
+  "meaning": "腾地（燃起）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ちんと": {
+  "reading": "",
+  "meaning": "淡然；平静地〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ハハハ": {
+  "reading": "ははは",
+  "meaning": "哈哈哈（大笑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ニタァ": {
+  "reading": "ニタァー",
+  "meaning": "嘿嘿（得意坏笑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぴかり": {
+  "reading": "ピカり",
+  "meaning": "一闪（目光/光点）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "グーン": {
+  "reading": "ぐーん",
+  "meaning": "突飞猛进；猛地一窜〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぽっぽ": {
+  "reading": "ポッポ",
+  "meaning": "噗噗（冒烟/蒸汽）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "シャー": {
+  "reading": "しゃー",
+  "meaning": "唰（喷水声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぴょん": {
+  "reading": "ぴょーん",
+  "meaning": "蹦（轻快跳起）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "すぽり": {
+  "reading": "",
+  "meaning": "噗（恰好嵌入）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "じわり": {
+  "reading": "ジワリ",
+  "meaning": "慢慢渗出；渐渐〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どきん": {
+  "reading": "どきり",
+  "meaning": "心头一跳〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ムカッ": {
+  "reading": "ムカ",
+  "meaning": "心头火起〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "たらり": {
+  "reading": "",
+  "meaning": "滴滴答答；耷拉〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "しゅー": {
+  "reading": "シュー",
+  "meaning": "咝（喷气/漏气）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "うふん": {
+  "reading": "うふーん",
+  "meaning": "呵呵（轻笑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パリン": {
+  "reading": "ぱりん",
+  "meaning": "哗啦（玻璃碎裂）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パクッ": {
+  "reading": "ぱくっ",
+  "meaning": "张大口（吞咬）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぱさり": {
+  "reading": "",
+  "meaning": "簌（轻落声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "バブー": {
+  "reading": "ばぶう",
+  "meaning": "噗噗（幼儿发声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ごとん": {
+  "reading": "ゴトン",
+  "meaning": "咚（滚落声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "のたり": {
+  "reading": "",
+  "meaning": "懒洋洋地挪动〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どてん": {
+  "reading": "どでん",
+  "meaning": "啪叽（摔倒）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パキッ": {
+  "reading": "ぱきっ",
+  "meaning": "咔（折断脆响）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ピーン": {
+  "reading": "ピコーン",
+  "meaning": "叮（提示音）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "プツン": {
+  "reading": "ぷつん",
+  "meaning": "啪（线断/绷断）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "プツッ": {
+  "reading": "ぷつっ",
+  "meaning": "噗（刺破/断开）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "プツリ": {
+  "reading": "ぷつり",
+  "meaning": "啪（断裂）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ピクン": {
+  "reading": "ぴくん",
+  "meaning": "一抽（肌肉抽动）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パシャ": {
+  "reading": "",
+  "meaning": "咔嚓（快门声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポンと": {
+  "reading": "ぽんと",
+  "meaning": "砰（轻拍/放置）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぞわり": {
+  "reading": "",
+  "meaning": "一阵发毛〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ずるり": {
+  "reading": "ズルリ",
+  "meaning": "哧溜（滑落）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぼうと": {
+  "reading": "",
+  "meaning": "朦胧；发呆〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "みしり": {
+  "reading": "ミシリ",
+  "meaning": "吱嘎（木板声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "キーン": {
+  "reading": "きーん",
+  "meaning": "嗡（耳鸣/刺耳）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ばらり": {
+  "reading": "バラリ",
+  "meaning": "散落；稀稀落落〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パーン": {
+  "reading": "ぱーん",
+  "meaning": "砰（爆响）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "コテン": {
+  "reading": "こてん",
+  "meaning": "扑通（倒下/睡着）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "くるん": {
+  "reading": "クルン",
+  "meaning": "骨碌（旋转一圈）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぶわっ": {
+  "reading": "ブワッ",
+  "meaning": "哗（骤然涌开）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "バーン": {
+  "reading": "ばーん",
+  "meaning": "砰（巨响）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "くらり": {
+  "reading": "クラリ",
+  "meaning": "一阵眩晕；心头一晃〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "のろり": {
+  "reading": "ノロリ",
+  "meaning": "慢吞吞地〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぐねり": {
+  "reading": "グネリ",
+  "meaning": "弯弯曲曲〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "コトリ": {
+  "reading": "ことり",
+  "meaning": "嗒（轻碰声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "もそり": {
+  "reading": "モソリ",
+  "meaning": "窸窸窣窣地动〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ボトリ": {
+  "reading": "ぼとり",
+  "meaning": "咚（沉物落下）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "コツン": {
+  "reading": "こつん",
+  "meaning": "咚（轻碰头）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ブスリ": {
+  "reading": "ぶすり",
+  "meaning": "噗（刺进软物）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "みゃー": {
+  "reading": "ミャー",
+  "meaning": "喵——（幼猫叫）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "のっと": {
+  "reading": "ノッと",
+  "meaning": "悄悄探出〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ビクン": {
+  "reading": "びくん",
+  "meaning": "一颤（惊跳）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぎりり": {
+  "reading": "ギリリ",
+  "meaning": "咯吱（咬牙）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ドタッ": {
+  "reading": "どたっ",
+  "meaning": "咚（摔倒声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "がちり": {
+  "reading": "ガチリ",
+  "meaning": "哐（金属重响）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "にへら": {
+  "reading": "",
+  "meaning": "嘿嘿傻笑〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ボコッ": {
+  "reading": "ぼこっ",
+  "meaning": "咚（闷击）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ドクッ": {
+  "reading": "どくっ",
+  "meaning": "咚（心跳重击）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "くりっ": {
+  "reading": "クリッ",
+  "meaning": "圆溜溜（可爱眼睛）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "もちっ": {
+  "reading": "モチっ",
+  "meaning": "软糯弹牙（口感）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ビュー": {
+  "reading": "びゅーっ",
+  "meaning": "嗖——（疾风）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ニヘッ": {
+  "reading": "にへっ",
+  "meaning": "咧嘴傻笑〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "くいっ": {
+  "reading": "クイッ",
+  "meaning": "猛地一（推/抬）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ジリッ": {
+  "reading": "じりっ",
+  "meaning": "一寸寸逼近；烤灼〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ざざっ": {
+  "reading": "ザザッ",
+  "meaning": "哗哗（雨浪声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ピュッ": {
+  "reading": "ぴゅっ",
+  "meaning": "噗（喷射）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ムチっ": {
+  "reading": "ムチッ",
+  "meaning": "丰润弹嫩（手感）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ペシッ": {
+  "reading": "ぺしっ",
+  "meaning": "啪（轻打一巴掌）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パシッ": {
+  "reading": "ぱしっ",
+  "meaning": "啪（拍打声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぐふふ": {
+  "reading": "グフフ",
+  "meaning": "呵呵（窃笑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "うひゃ": {
+  "reading": "うひゃひゃ",
+  "meaning": "哇呀（惊呼）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "オエッ": {
+  "reading": "おえっ",
+  "meaning": "呕（恶心感）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ダーッ": {
+  "reading": "だあっ",
+  "meaning": "哗（一拥而上）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぐびり": {
+  "reading": "グビリ",
+  "meaning": "咕咚（一口闷酒）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "イジイジ": {
+  "reading": "いじいじ",
+  "meaning": "畏畏缩缩；扭扭捏捏〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "うぞうぞ": {
+  "reading": "",
+  "meaning": "蠢蠢欲动；欲火难耐〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "うだうだ": {
+  "reading": "ウダウダ",
+  "meaning": "絮絮叨叨说个没完〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "オタオタ": {
+  "reading": "おたおた",
+  "meaning": "惊慌失措〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "カチッと": {
+  "reading": "かちっと",
+  "meaning": "咔嚓（上锁/咬合）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "カツカツ": {
+  "reading": "かつかつ",
+  "meaning": "紧巴巴；勉强维持〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガーッと": {
+  "reading": "がーっと",
+  "meaning": "呼地（猛冲/绞动）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガクガク": {
+  "reading": "がくがく",
+  "meaning": "瑟瑟发抖；腿软〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガチガチ": {
+  "reading": "がちがち",
+  "meaning": "硬邦邦；紧张发僵〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガチャリ": {
+  "reading": "がちゃり",
+  "meaning": "咔嚓（金属碰撞）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガチャン": {
+  "reading": "がちゃん",
+  "meaning": "哐当（摔落）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガツガツ": {
+  "reading": "がつがつ",
+  "meaning": "狼吞虎咽；贪得无厌〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガミガミ": {
+  "reading": "がみがみ",
+  "meaning": "唠唠叨叨地训人〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガラガラ": {
+  "reading": "がらがら",
+  "meaning": "轰隆隆；稀稀拉拉〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "キーキー": {
+  "reading": "キイキイ",
+  "meaning": "尖声刺耳〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "キビキビ": {
+  "reading": "きびきび",
+  "meaning": "干脆利落〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "キュッと": {
+  "reading": "きゅっと",
+  "meaning": "咯吱（拧紧/攥紧）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "きんきん": {
+  "reading": "キンキン",
+  "meaning": "尖锐刺耳〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ギスギス": {
+  "reading": "ぎすぎす",
+  "meaning": "剑拔弩张；生硬别扭〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぎゅぎゅ": {
+  "reading": "",
+  "meaning": "呼噜呼噜（鼻鼾）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "クラクラ": {
+  "reading": "くらくら",
+  "meaning": "头晕目眩；摇摇欲坠〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぐいぐい": {
+  "reading": "グイグイ",
+  "meaning": "劲头十足；猛推〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぐうぐう": {
+  "reading": "",
+  "meaning": "呼呼（酣睡）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぐぶぐぶ": {
+  "reading": "",
+  "meaning": "咕噜咕噜（水面冒泡）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "げろげろ": {
+  "reading": "ゲロゲロ",
+  "meaning": "哇哇（吐）；笑得直不起腰〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "コトコト": {
+  "reading": "ことこと",
+  "meaning": "咕嘟咕嘟（小火炖煮）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "コンコン": {
+  "reading": "こんこん",
+  "meaning": "咚咚（敲门）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ゴタゴタ": {
+  "reading": "ごたごた",
+  "meaning": "纠纷缠身；乱糟糟〈名〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ゴボゴボ": {
+  "reading": "ごぼごぼ",
+  "meaning": "咕嘟咕嘟（冒泡）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "サクサク": {
+  "reading": "さくさく",
+  "meaning": "酥脆；轻快顺当〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "サバサバ": {
+  "reading": "さばさば",
+  "meaning": "爽快；豁达〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ザクザク": {
+  "reading": "ざくざく",
+  "meaning": "咔嚓咔嚓（踩霜/挖土）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ジタバタ": {
+  "reading": "じたばた",
+  "meaning": "挣扎扑腾〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "スースー": {
+  "reading": "すーすー",
+  "meaning": "嗖嗖（凉风透入）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "スイスイ": {
+  "reading": "すいすい",
+  "meaning": "轻快顺畅〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "スカッと": {
+  "reading": "スカっと",
+  "meaning": "畅快淋漓〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ズケズケ": {
+  "reading": "ずけずけ",
+  "meaning": "口无遮拦〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "つべこべ": {
+  "reading": "",
+  "meaning": "顶嘴；嘀嘀咕咕〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ツンツン": {
+  "reading": "つんつん",
+  "meaning": "冷冰冰；戳戳〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "テカテカ": {
+  "reading": "てかてか",
+  "meaning": "油光锃亮〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "てこてこ": {
+  "reading": "",
+  "meaning": "噔噔（迈小步）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "でれっと": {
+  "reading": "",
+  "meaning": "松垮垮；腻腻歪歪〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "デレデレ": {
+  "reading": "でれでれ",
+  "meaning": "松松垮垮；痴迷发呆〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ドッキリ": {
+  "reading": "どっきり",
+  "meaning": "吓一跳；整蛊〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どやどや": {
+  "reading": "",
+  "meaning": "咚咚（群脚步声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぬらぬら": {
+  "reading": "ヌラヌラ",
+  "meaning": "滑溜溜〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ネチネチ": {
+  "reading": "ねちねち",
+  "meaning": "黏黏糊糊；纠缠不休〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "バッチリ": {
+  "reading": "ばっちり",
+  "meaning": "完美；妥妥的〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぱちくり": {
+  "reading": "パチクリ",
+  "meaning": "眨巴眨巴（眼睛）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パッチリ": {
+  "reading": "ぱっちり",
+  "meaning": "睁得圆圆的（眼睛）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パリパリ": {
+  "reading": "ぱりぱり",
+  "meaning": "脆生生；干硬〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パンパン": {
+  "reading": "ぱんぱん",
+  "meaning": "胀鼓鼓；满满的〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ひょいと": {
+  "reading": "",
+  "meaning": "忽地；轻巧地〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ひょろり": {
+  "reading": "",
+  "meaning": "细高挑〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ヒリヒリ": {
+  "reading": "ひりひり",
+  "meaning": "火辣辣地疼〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "冷んやり": {
+  "reading": "ひんやり",
+  "meaning": "【ひんやり】凉飕飕；清冷〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "びらびら": {
+  "reading": "ビラビラ",
+  "meaning": "噗嗒噗嗒（厚布飘动）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ピシッと": {
+  "reading": "ぴしっと",
+  "meaning": "啪（干脆一响）；挺括〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "異口同音": {
+  "reading": "いくどうおん",
+  "meaning": "【いくどうおん】异口同声〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一方通行": {
+  "reading": "いっぽうつうこう",
+  "meaning": "【いっぽうつうこう】单行道；单方面（强加）〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "黄金時代": {
+  "reading": "おうごんじだい",
+  "meaning": "【おうごんじだい】黄金时代；鼎盛期〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "過小評価": {
+  "reading": "かしょうひょうか",
+  "meaning": "【かしょうひょうか】低估；评价过低〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "冠婚葬祭": {
+  "reading": "かんこんそうさい",
+  "meaning": "【かんこんそうさい】红白喜事；婚丧嫁娶〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "勧善懲悪": {
+  "reading": "かんぜんちょうあく",
+  "meaning": "【かんぜんちょうあく】劝善惩恶；扬善惩恶〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "感慨無量": {
+  "reading": "かんがいむりょう",
+  "meaning": "【かんがいむりょう】感慨无限；百感交集〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "緩衝地帯": {
+  "reading": "かんしょうちたい",
+  "meaning": "【かんしょうちたい】缓冲地带〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "喜怒哀楽": {
+  "reading": "きどあいらく",
+  "meaning": "【きどあいらく】喜怒哀乐〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "既成事実": {
+  "reading": "きせいじじつ",
+  "meaning": "【きせいじじつ】既成事实〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "呉越同舟": {
+  "reading": "ごえつどうしゅう",
+  "meaning": "【ごえつどうしゅう】吴越同舟；敌我同处〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "試行錯誤": {
+  "reading": "しこうさくご",
+  "meaning": "【しこうさくご】反复试验；摸索〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "時期尚早": {
+  "reading": "じきしょうそう",
+  "meaning": "【じきしょうそう】为时尚早；时机未到〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "時代錯誤": {
+  "reading": "じだいさくご",
+  "meaning": "【じだいさくご】时代错误；不合时宜〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "春夏秋冬": {
+  "reading": "しゅんかしゅうとう",
+  "meaning": "【しゅんかしゅうとう】春夏秋冬；一年四季〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "新陳代謝": {
+  "reading": "しんちんたいしゃ",
+  "meaning": "【しんちんたいしゃ】新陈代谢；更新换代〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "人道主義": {
+  "reading": "じんどうしゅぎ",
+  "meaning": "【じんどうしゅぎ】人道主义〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "大義名分": {
+  "reading": "たいぎめいぶん",
+  "meaning": "【たいぎめいぶん】大义名分；正当理由〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "男尊女卑": {
+  "reading": "だんそんじょひ",
+  "meaning": "【だんそんじょひ】男尊女卑〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "中途半端": {
+  "reading": "ちゅうとはんぱ",
+  "meaning": "【ちゅうとはんぱ】不彻底；半途而废〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "二人三脚": {
+  "reading": "ににんさんきゃく",
+  "meaning": "【ににんさんきゃく】二人三足；密切配合〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "年功序列": {
+  "reading": "ねんこうじょれつ",
+  "meaning": "【ねんこうじょれつ】论资排辈；年功序列〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "半官半民": {
+  "reading": "はんかんはんみん",
+  "meaning": "【はんかんはんみん】半官半民〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "美辞麗句": {
+  "reading": "びじれいく",
+  "meaning": "【びじれいく】华丽辞藻；漂亮话〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "不偏不党": {
+  "reading": "ふへんふとう",
+  "meaning": "【ふへんふとう】不偏不倚；公正〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "満場一致": {
+  "reading": "まんじょういっち",
+  "meaning": "【まんじょういっち】全场一致；全票通过〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "民族自決": {
+  "reading": "みんぞくじけつ",
+  "meaning": "【みんぞくじけつ】民族自决〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "老若男女": {
+  "reading": "ろうにゃくなんにょ",
+  "meaning": "【ろうにゃくなんにょ】男女老少〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "興味津々": {
+  "reading": "きょうみしんしん",
+  "meaning": "【きょうみしんしん】兴致勃勃；兴趣盎然〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "目茶目茶": {
+  "reading": "めちゃめちゃ",
+  "meaning": "【めちゃめちゃ】乱七八糟；一塌糊涂〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "利己主義": {
+  "reading": "りこしゅぎ",
+  "meaning": "【りこしゅぎ】利己主义〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "有耶無耶": {
+  "reading": "うやむや",
+  "meaning": "【うやむや】含糊其辞；暧昧不清〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "不協和音": {
+  "reading": "ふきょうわおん",
+  "meaning": "【ふきょうわおん】不谐和音；不协调〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "公序良俗": {
+  "reading": "こうじょりょうぞく",
+  "meaning": "【こうじょりょうぞく】公共秩序与善良风俗〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "相関関係": {
+  "reading": "そうかんかんけい",
+  "meaning": "【そうかんかんけい】相关关系；相关性〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "阿鼻叫喚": {
+  "reading": "あびきょうかん",
+  "meaning": "【あびきょうかん】哀嚎遍野；鬼哭狼嚎〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "悪因悪果": {
+  "reading": "あくいんあっか",
+  "meaning": "【あくいんあっか】恶因恶果；自食恶果〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "悪逆無道": {
+  "reading": "あくぎゃくむどう",
+  "meaning": "【あくぎゃくむどう】穷凶极恶；暴虐无道〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "悪口雑言": {
+  "reading": "あっこうぞうごん",
+  "meaning": "【あっこうぞうごん】恶言谩骂；百般辱骂〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "旭日昇天": {
+  "reading": "きょくじつしょうてん",
+  "meaning": "【きょくじつしょうてん】旭日东升；气势如虹〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "安心立命": {
+  "reading": "あんしんりつめい",
+  "meaning": "【あんしんりつめい】安身立命；心安理得〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "安寧秩序": {
+  "reading": "あんねいちつじょ",
+  "meaning": "【あんねいちつじょ】安宁秩序〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "暗黒時代": {
+  "reading": "あんこくじだい",
+  "meaning": "【あんこくじだい】黑暗时代〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "位階勲等": {
+  "reading": "いかいくんとう",
+  "meaning": "【いかいくんとう】位阶勋等（荣誉等级）〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "依怙贔屓": {
+  "reading": "えこひいき",
+  "meaning": "【えこひいき】偏袒；不公平〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "意気軒昂": {
+  "reading": "いきけんこう",
+  "meaning": "【いきけんこう】意气高昂；斗志昂扬〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "意気阻喪": {
+  "reading": "いきそそう",
+  "meaning": "【いきそそう】士气沮丧；意气低落〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "意気投合": {
+  "reading": "いきとうごう",
+  "meaning": "【いきとうごう】意气相投；一拍即合〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "意志薄弱": {
+  "reading": "いしはくじゃく",
+  "meaning": "【いしはくじゃく】意志薄弱〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "意馬心猿": {
+  "reading": "いばしんえん",
+  "meaning": "【いばしんえん】心猿意马；心神不定〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "意味深長": {
+  "reading": "いみしんちょう",
+  "meaning": "【いみしんちょう】意味深长〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一衣帯水": {
+  "reading": "いちいたいすい",
+  "meaning": "【いちいたいすい】一衣带水〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一家団欒": {
+  "reading": "いっかだんらん",
+  "meaning": "【いっかだんらん】全家团圆；阖家欢乐〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一挙一動": {
+  "reading": "いっきょいちどう",
+  "meaning": "【いっきょいちどう】一举一动〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一言一行": {
+  "reading": "いちげんいっこう",
+  "meaning": "【いちげんいっこう】一言一行〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一子相伝": {
+  "reading": "いっしそうでん",
+  "meaning": "【いっしそうでん】独传一子；单传〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一死報国": {
+  "reading": "いっしほうこく",
+  "meaning": "【いっしほうこく】舍身报国〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一紙半銭": {
+  "reading": "いっしはんせん",
+  "meaning": "【いっしはんせん】一纸半钱；微不足道的钱〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一視同仁": {
+  "reading": "いっしどうじん",
+  "meaning": "【いっしどうじん】一视同仁〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一字千金": {
+  "reading": "いちじせんきん",
+  "meaning": "【いちじせんきん】一字千金〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一汁一菜": {
+  "reading": "いちじゅういっさい",
+  "meaning": "【いちじゅういっさい】一汤一菜（简餐）〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一宿一飯": {
+  "reading": "いっしゅくいっぱん",
+  "meaning": "【いっしゅくいっぱん】一宿一饭（受人款待之恩）〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一所懸命": {
+  "reading": "いっしょけんめい",
+  "meaning": "【いっしょけんめい】拼命；誓死守卫〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一新紀元": {
+  "reading": "いっしんきげん",
+  "meaning": "【いっしんきげん】新纪元〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一切衆生": {
+  "reading": "いっさいしゅじょう",
+  "meaning": "【いっさいしゅじょう】一切众生（佛语）〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一知半解": {
+  "reading": "いっちはんかい",
+  "meaning": "【いっちはんかい】一知半解〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一張一弛": {
+  "reading": "いっちょういっし",
+  "meaning": "【いっちょういっし】一张一弛；张弛有度〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一天四海": {
+  "reading": "いってんしかい",
+  "meaning": "【いってんしかい】普天之下；全世界〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一天万乗": {
+  "reading": "いってんばんじょう",
+  "meaning": "【いってんばんじょう】普天之下；整个天下〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一刀両断": {
+  "reading": "いっとうりょうだん",
+  "meaning": "【いっとうりょうだん】一刀两断；果断处理〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一得一失": {
+  "reading": "いっとくいっしつ",
+  "meaning": "【いっとくいっしつ】有得有失〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一日片時": {
+  "reading": "いちにちへんじ",
+  "meaning": "【いちにちへんじ】一朝一夕；片刻〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一念発起": {
+  "reading": "いちねんほっき",
+  "meaning": "【いちねんほっき】发奋；下定决心〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一夫一婦": {
+  "reading": "いっぷいっぷ",
+  "meaning": "【いっぷいっぷ】一夫一妻〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一夫多妻": {
+  "reading": "いっぷたさい",
+  "meaning": "【いっぷたさい】一夫多妻〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一部始終": {
+  "reading": "いちぶしじゅう",
+  "meaning": "【いちぶしじゅう】从头到尾；原委〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一分一厘": {
+  "reading": "いちぶいちりん",
+  "meaning": "【いちぶいちりん】一分一厘；丝毫〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一望千里": {
+  "reading": "いちぼうせんり",
+  "meaning": "【いちぼうせんり】一览无余；一望千里〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一本調子": {
+  "reading": "いっぽんぢょうし",
+  "meaning": "【いっぽんぢょうし】一味单调；一成不变〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一枚看板": {
+  "reading": "いちまいかんばん",
+  "meaning": "【いちまいかんばん】头号招牌；王牌〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一問一答": {
+  "reading": "いちもんいっとう",
+  "meaning": "【いちもんいっとう】一问一答〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一利一害": {
+  "reading": "いちりいちがい",
+  "meaning": "【いちりいちがい】有利有弊〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一六勝負": {
+  "reading": "いちろくしょうぶ",
+  "meaning": "【いちろくしょうぶ】掷骰子赌输赢；孤注一掷〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "一顰一笑": {
+  "reading": "いっぴんいっしょう",
+  "meaning": "【いっぴんいっしょう】一颦一笑〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "因循姑息": {
+  "reading": "いんじゅんこそく",
+  "meaning": "【いんじゅんこそく】因循苟且；拖延敷衍〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "雲散霧消": {
+  "reading": "うんさんむしょう",
+  "meaning": "【うんさんむしょう】烟消云散〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "永世中立": {
+  "reading": "えいせいちゅうりつ",
+  "meaning": "【えいせいちゅうりつ】永久中立〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "円転滑脱": {
+  "reading": "えんてんかつだつ",
+  "meaning": "【えんてんかつだつ】圆熟老练；圆滑流畅〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "佳人薄命": {
+  "reading": "かじんはくめい",
+  "meaning": "【かじんはくめい】红颜薄命〈惯〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "夏炉冬扇": {
+  "reading": "かろとうせん",
+  "meaning": "【かろとうせん】夏炉冬扇；不合时宜之物〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "過大評価": {
+  "reading": "かだいひょうか",
+  "meaning": "【かだいひょうか】过高评价；高估〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "怪力乱神": {
+  "reading": "かいりょくらんしん",
+  "meaning": "【かいりょくらんしん】怪力乱神；荒诞无稽之说〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "開口一番": {
+  "reading": "かいこういちばん",
+  "meaning": "【かいこういちばん】开口第一句；一开口就〈副〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "外柔内剛": {
+  "reading": "がいじゅうないごう",
+  "meaning": "【がいじゅうないごう】外柔内刚〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "隔靴掻痒": {
+  "reading": "かっかそうよう",
+  "meaning": "【かっかそうよう】隔靴搔痒；不痛快〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "乾坤一擲": {
+  "reading": "けんこんいってき",
+  "meaning": "【けんこんいってき】孤注一掷；乾坤一掷〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "侃々諤々": {
+  "reading": "かんかんがくがく",
+  "meaning": "【かんかんがくがく】直言不讳；慷慨陈词〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "感情移入": {
+  "reading": "かんじょういにゅう",
+  "meaning": "【かんじょういにゅう】感情移入；共情〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "閑話休題": {
+  "reading": "かんわきゅうだい",
+  "meaning": "【かんわきゅうだい】闲话休提；闲话少叙〈惯〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "危急存亡": {
+  "reading": "ききゅうそんぼう",
+  "meaning": "【ききゅうそんぼう】危急存亡；生死关头〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "喜色満面": {
+  "reading": "きしょくまんめん",
+  "meaning": "【きしょくまんめん】喜形于色；满面喜色〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "奇想天外": {
+  "reading": "きそうてんがい",
+  "meaning": "【きそうてんがい】异想天开〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "希少価値": {
+  "reading": "きしょうかち",
+  "meaning": "【きしょうかち】稀缺价值；物以稀为贵〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "気炎万丈": {
+  "reading": "きえんばんじょう",
+  "meaning": "【きえんばんじょう】气焰万丈；慷慨激昂〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "気息奄々": {
+  "reading": "きそくえんえん",
+  "meaning": "【きそくえんえん】奄奄一息〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "疑心暗鬼": {
+  "reading": "ぎしんあんき",
+  "meaning": "【ぎしんあんき】疑神疑鬼〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "旧態依然": {
+  "reading": "きゅうたいいぜん",
+  "meaning": "【きゅうたいいぜん】依然如故；照旧〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "虚々実々": {
+  "reading": "きょきょじつじつ",
+  "meaning": "【きょきょじつじつ】虚实莫测；真真假假〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "虚心坦懐": {
+  "reading": "きょしんたんかい",
+  "meaning": "【きょしんたんかい】虚心坦怀；不带成见〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "共存共栄": {
+  "reading": "きょうそんきょうえい",
+  "meaning": "【きょうそんきょうえい】共存共荣〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "興味本位": {
+  "reading": "きょうみほんい",
+  "meaning": "【きょうみほんい】出于猎奇；只图好玩〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "曲学阿世": {
+  "reading": "きょくがくあせい",
+  "meaning": "【きょくがくあせい】曲学阿世；歪曲学问讨好世俗〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "勤王攘夷": {
+  "reading": "きんのうじょうい",
+  "meaning": "【きんのうじょうい】尊王攘夷〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "欣喜雀躍": {
+  "reading": "きんきじゃくやく",
+  "meaning": "【きんきじゃくやく】欢欣雀跃〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "緊褌一番": {
+  "reading": "きんこんいちばん",
+  "meaning": "【きんこんいちばん】振作精神；严阵以待〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "九寸五分": {
+  "reading": "くすんごぶ",
+  "meaning": "【くすんごぶ】匕首；短刀〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "九分九厘": {
+  "reading": "くぶくりん",
+  "meaning": "【くぶくりん】十有八九；几乎肯定〈副〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "空中楼閣": {
+  "reading": "くうちゅうろうかく",
+  "meaning": "【くうちゅうろうかく】空中楼阁；海市蜃楼〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "偶像崇拝": {
+  "reading": "ぐうぞうすうはい",
+  "meaning": "【ぐうぞうすうはい】偶像崇拜〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "君子豹変": {
+  "reading": "くんしひょうへん",
+  "meaning": "【くんしひょうへん】君子豹变；改过自新不迟〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "桂冠詩人": {
+  "reading": "けいかんしじん",
+  "meaning": "【けいかんしじん】桂冠诗人〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "軽挙妄動": {
+  "reading": "けいきょもうどう",
+  "meaning": "【けいきょもうどう】轻举妄动〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "軽佻浮薄": {
+  "reading": "けいちょうふはく",
+  "meaning": "【けいちょうふはく】轻浮浅薄〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "月下氷人": {
+  "reading": "げっかひょうじん",
+  "meaning": "【げっかひょうじん】月下老人；媒人〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "喧々囂々": {
+  "reading": "けんけんごうごう",
+  "meaning": "【けんけんごうごう】喧嚣吵嚷；议论纷纷〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "権謀術数": {
+  "reading": "けんぼうじゅっすう",
+  "meaning": "【けんぼうじゅっすう】权谋诡计〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "牽強付会": {
+  "reading": "けんきょうふかい",
+  "meaning": "【けんきょうふかい】牵强附会〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "厳正中立": {
+  "reading": "げんせいちゅうりつ",
+  "meaning": "【げんせいちゅうりつ】严正中立〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "言語道断": {
+  "reading": "ごんごどうだん",
+  "meaning": "【ごんごどうだん】岂有此理；令人发指〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "古往今来": {
+  "reading": "こおうこんらい",
+  "meaning": "【こおうこんらい】古往今来〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "古色蒼然": {
+  "reading": "こしょくそうぜん",
+  "meaning": "【こしょくそうぜん】古色古香〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "狐疑逡巡": {
+  "reading": "こぎしゅんじゅん",
+  "meaning": "【こぎしゅんじゅん】犹豫不决；狐疑不定〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "誇大妄想": {
+  "reading": "こだいもうそう",
+  "meaning": "【こだいもうそう】夸大妄想〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "鼓舞激励": {
+  "reading": "こぶげきれい",
+  "meaning": "【こぶげきれい】鼓舞激励〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "五臓六腑": {
+  "reading": "ごぞうろっぷ",
+  "meaning": "【ごぞうろっぷ】五脏六腑〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "後生大事": {
+  "reading": "ごしょうだいじ",
+  "meaning": "【ごしょうだいじ】如获至宝般珍惜〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "公平無私": {
+  "reading": "こうへいむし",
+  "meaning": "【こうへいむし】公平无私〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "効果覿面": {
+  "reading": "こうかてきめん",
+  "meaning": "【こうかてきめん】立竿见影；药到病除〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "厚顔無恥": {
+  "reading": "こうがんむち",
+  "meaning": "【こうがんむち】厚颜无耻〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "巧言令色": {
+  "reading": "こうげんれいしょく",
+  "meaning": "【こうげんれいしょく】巧言令色；花言巧语〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "甲論乙駁": {
+  "reading": "こうろんおつばく",
+  "meaning": "【こうろんおつばく】你来我往地争论；反复辩驳〈名〉",
+  "level": "yoji",
+  "need": 2
+ },
+ "綱紀粛正": {
+  "reading": "こうきしゅくせい",
+  "meaning": "【こうきしゅくせい】整顿纲纪〈名〉",
+  "level": "yoji",
+  "need": 2
+ }
+}

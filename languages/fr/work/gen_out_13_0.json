@@ -1,0 +1,502 @@
+{
+  "dépense": [
+    {"fr": "Cette voiture représente une grosse dépense pour nous.", "zh": "这辆车对我们来说是一笔很大的开支。"},
+    {"fr": "Le loyer est sa principale dépense chaque mois.", "zh": "房租是他每月最大的一笔开销。"},
+    {"fr": "Il faut limiter les dépenses inutiles avant les vacances.", "zh": "度假前得控制不必要的花费。"}
+  ],
+  "dépenser": [
+    {"fr": "J'ai dépensé tout mon argent en souvenirs.", "zh": "我把所有的钱都花在纪念品上了。"},
+    {"fr": "Ne dépense pas tout ton salaire le premier week-end !", "zh": "别在第一个周末就把工资全花光！"},
+    {"fr": "Elle dépense beaucoup moins depuis qu'elle fait ses courses en ligne.", "zh": "自从开始网上购物，她花得少多了。"}
+  ],
+  "déplacer": [
+    {"fr": "Peux-tu déplacer la table pour que je passe ?", "zh": "你能挪一下桌子让我过去吗？"},
+    {"fr": "Il faut déplacer ce meuble avec précaution, il est lourd.", "zh": "搬这件家具得小心，它很重。"},
+    {"fr": "Le match a été déplacé à samedi à cause de la pluie.", "zh": "因为下雨，比赛改到周六举行了。"}
+  ],
+  "déprimé": [
+    {"fr": "Depuis qu'il a perdu son travail, il est tout déprimé.", "zh": "自从丢了工作，他一直很消沉。"},
+    {"fr": "Ce temps gris me rend un peu déprimée.", "zh": "这灰蒙蒙的天气让我有点提不起劲。"},
+    {"fr": "Arrête de rester déprimé, sors prendre l'air un peu.", "zh": "别再这么消沉了，出去透透气吧。"}
+  ],
+  "déranger": [
+    {"fr": "Désolé de vous déranger si tard, c'est urgent.", "zh": "抱歉这么晚打扰您，是急事。"},
+    {"fr": "N'essaie pas de le déranger pendant qu'il travaille.", "zh": "他工作的时候别去打扰他。"},
+    {"fr": "Le bruit des voisins me dérange toutes les nuits.", "zh": "邻居的吵闹声每晚都让我睡不好。"}
+  ],
+  "désert": [
+    {"fr": "Le Sahara est le plus grand désert chaud du monde.", "zh": "撒哈拉是世界上最大的炎热沙漠。"},
+    {"fr": "Ils ont traversé le désert à dos de chameau pendant dix jours.", "zh": "他们骑骆驼穿越沙漠用了十天。"},
+    {"fr": "Dans ce désert, il peut faire plus de quarante degrés l'été.", "zh": "这片沙漠夏天温度能超过四十度。"}
+  ],
+  "déshabiller": [
+    {"fr": "Elle a déshabillé le bébé avant le bain.", "zh": "洗澡前她把宝宝的衣服脱掉了。"},
+    {"fr": "Aide ton petit frère à se déshabiller, s'il te plaît.", "zh": "请帮你弟弟把衣服脱了。"},
+    {"fr": "L'infirmière lui a demandé de se déshabiller pour l'examen.", "zh": "护士让他脱掉衣服以便检查。"}
+  ],
+  "détail": [
+    {"fr": "Raconte-moi tout, je veux chaque détail.", "zh": "全都讲给我听吧，一个细节都不要漏。"},
+    {"fr": "Ce tableau est magnifique quand on regarde les détails de près.", "zh": "近看这幅画的细节，真是美极了。"},
+    {"fr": "Un petit détail m'a échappé dans son histoire.", "zh": "他讲的事情里有个小细节我没注意到。"}
+  ],
+  "détective": [
+    {"fr": "Le détective examine la scène du crime depuis ce matin.", "zh": "侦探从今天早上起就在勘查案发现场。"},
+    {"fr": "Mon fils veut devenir détective comme dans les romans.", "zh": "我儿子想成为小说里那样的侦探。"},
+    {"fr": "Elle a engagé un détective privé pour retrouver son chat.", "zh": "她雇了一名私家侦探来寻找她的猫。"}
+  ],
+  "détendre": [
+    {"fr": "Un bain chaud m'aide à détendre mes muscles après le sport.", "zh": "运动后洗个热水澡能帮我放松肌肉。"},
+    {"fr": "Il faut détendre l'atmosphère avant de commencer la discussion.", "zh": "开始讨论之前得先缓和一下气氛。"},
+    {"fr": "Écoute un peu de musique pour te détendre.", "zh": "听点音乐放松一下吧。"}
+  ],
+  "détendu": [
+    {"fr": "Après les examens, tout le monde est plus détendu.", "zh": "考试结束后大家都放松多了。"},
+    {"fr": "L'ambiance était très détendue pendant le dîner.", "zh": "晚餐时的气氛非常轻松。"},
+    {"fr": "Reste détendu, tu vas très bien réussir cet entretien.", "zh": "放轻松点，这场面试你肯定能顺利通过。"}
+  ],
+  "détester": [
+    {"fr": "Je déteste me lever tôt le lundi matin.", "zh": "我最讨厌星期一早起了。"},
+    {"fr": "Elle déteste qu'on lui mente.", "zh": "她特别讨厌别人对她撒谎。"},
+    {"fr": "Ils se détestaient au début, puis sont devenus meilleurs amis.", "zh": "起初他们互相看不顺眼，后来成了最好的朋友。"}
+  ],
+  "détruire": [
+    {"fr": "L'incendie a détruit toute la forêt derrière le village.", "zh": "大火把村子后面的森林全烧毁了。"},
+    {"fr": "Les produits chimiques détruisent la faune de la rivière.", "zh": "化学物质正在毁掉这条河里的野生动物。"},
+    {"fr": "Ils ont détruit le vieux mur pour agrandir le salon.", "zh": "他们拆掉了旧墙来扩大客厅。"}
+  ],
+  "développement": [
+    {"fr": "Le développement durable est au cœur de leur programme.", "zh": "可持续发展是他们计划的核心。"},
+    {"fr": "Ce quartier connaît un grand développement depuis cinq ans.", "zh": "五年来这个街区发展得很快。"},
+    {"fr": "Une bonne alimentation assure le développement de l'enfant.", "zh": "良好的饮食保障孩子的发育。"}
+  ],
+  "développer": [
+    {"fr": "Elle veut développer son entreprise dans le sud de la France.", "zh": "她想把公司发展到法国南部。"},
+    {"fr": "Ce sport permet de développer la coordination et l'équilibre.", "zh": "这项运动能锻炼协调能力和平衡感。"},
+    {"fr": "L'entreprise développe une nouvelle application mobile.", "zh": "这家公司正在开发一款新的手机应用。"}
+  ],
+  "déçu": [
+    {"fr": "Je suis vraiment déçu par la fin du film.", "zh": "这部电影的结尾真让我失望。"},
+    {"fr": "Elle était déçue de ne pas être invitée à la fête.", "zh": "没被邀请参加聚会，她很失望。"},
+    {"fr": "Ne sois pas déçu, tu as quand même fait de ton mieux.", "zh": "别灰心，你已经尽力了。"}
+  ],
+  "e-mail": [
+    {"fr": "Je t'ai envoyé un e-mail hier soir, tu l'as vu ?", "zh": "我昨晚给你发了封电子邮件，你看到了吗？"},
+    {"fr": "Note mon adresse e-mail sur ton téléphone.", "zh": "把我的电子邮箱记到手机里。"},
+    {"fr": "Il doit encore répondre à une dizaine d'e-mails aujourd'hui.", "zh": "他今天还有十来封邮件要回。"}
+  ],
+  "effacer": [
+    {"fr": "Efface le tableau avant que le cours commence.", "zh": "上课前把黑板擦干净。"},
+    {"fr": "J'ai effacé le fichier par erreur, je suis furieux.", "zh": "我不小心把文件删掉了，气死我了。"},
+    {"fr": "Le temps n'efface pas complètement les souvenirs d'enfance.", "zh": "时光无法完全抹去童年的记忆。"}
+  ],
+  "efficace": [
+    {"fr": "Ce médicament est vraiment efficace contre la toux.", "zh": "这种药治咳嗽真的很有效。"},
+    {"fr": "Elle est rapide et efficace dans son travail.", "zh": "她干活又快又利索。"},
+    {"fr": "Une liste de courses, c'est plus efficace pour ne rien oublier.", "zh": "列个购物清单更有效，什么都不会忘。"}
+  ],
+  "efficacité": [
+    {"fr": "Tout le monde admire son efficacité au bureau.", "zh": "大家都很佩服他在办公室里的高效。"},
+    {"fr": "On a testé l'efficacité de ce nouveau vaccin pendant des années.", "zh": "这种新疫苗的有效性经过了好几年的测试。"},
+    {"fr": "Travailler mieux, c'est une question d'efficacité, pas de vitesse.", "zh": "干得好不好在于效率，而不是速度。"}
+  ],
+  "effort": [
+    {"fr": "Fais un petit effort, on arrive bientôt au sommet !", "zh": "加把劲，我们马上就到山顶了！"},
+    {"fr": "Ses efforts ont fini par payer : il a obtenu la bourse.", "zh": "他的努力终于有了回报：拿到了奖学金。"},
+    {"fr": "Je fais des efforts pour parler français tous les jours.", "zh": "我每天都在努力说法语。"}
+  ],
+  "embarquement": [
+    {"fr": "L'embarquement commence dans vingt minutes à la porte quatorze.", "zh": "登机二十分钟后在十四号登机口开始。"},
+    {"fr": "La salle d'embarquement est déjà pleine de voyageurs.", "zh": "候机室里已经挤满了旅客。"},
+    {"fr": "Présente ton passeport au comptoir d'embarquement, s'il te plaît.", "zh": "请在登机柜台出示您的护照。"}
+  ],
+  "embrasser": [
+    {"fr": "Les mariés se sont embrassés sous les applaudissements.", "zh": "新人在掌声中亲吻了。"},
+    {"fr": "Elle embrasse ses enfants avant de partir au travail.", "zh": "她上班前亲了亲孩子们。"},
+    {"fr": "La grand-mère a embrassé le petit garçon sur les deux joues.", "zh": "奶奶在小男孩的两边脸颊上都亲了一下。"}
+  ],
+  "embêtant": [
+    {"fr": "C'est embêtant, j'ai perdu les clés de la maison.", "zh": "真麻烦，我把家门钥匙弄丢了。"},
+    {"fr": "Il pose toujours des questions embêtantes pendant les réunions.", "zh": "开会时他总是提一些让人为难的问题。"},
+    {"fr": "Le plus embêtant, c'est qu'il n'y a plus de bus après minuit.", "zh": "最烦人的是午夜以后就没有公交车了。"}
+  ],
+  "embêter": [
+    {"fr": "Arrête d'embêter ta sœur, elle fait ses devoirs !", "zh": "别烦你姐姐了，她在做作业！"},
+    {"fr": "Ça m'embête de partir si tôt de la fête.", "zh": "这么早就离开聚会，我觉得挺遗憾的。"},
+    {"fr": "Ne t'embête pas avec ça, je m'en occupe.", "zh": "这事你别烦心了，我来处理。"}
+  ],
+  "emmener": [
+    {"fr": "Je t'emmène à la piscine cet après-midi.", "zh": "今天下午我带你去游泳馆。"},
+    {"fr": "Peux-tu emmener les enfants à l'école en voiture ?", "zh": "你能开车送孩子们去学校吗？"},
+    {"fr": "Ils ont emmené leurs parents visiter les châteaux de la Loire.", "zh": "他们带父母去参观了卢瓦尔河的城堡。"}
+  ],
+  "empereur": [
+    {"fr": "Napoléon est devenu empereur en 1804.", "zh": "拿破仑于1804年成为皇帝。"},
+    {"fr": "Sous cet empereur, l'armée romaine a conquis la Gaule.", "zh": "在这位皇帝统治时期，罗马军队征服了高卢。"},
+    {"fr": "Le palais de l'empereur attire des millions de touristes.", "zh": "皇帝的宫殿吸引着数百万游客。"}
+  ],
+  "empire": [
+    {"fr": "L'Empire romain s'étendait sur toute la Méditerranée.", "zh": "罗马帝国的版图曾横跨整个地中海。"},
+    {"fr": "Cet homme a bâti un empire dans le textile.", "zh": "这个人在纺织业建立了一个庞大的商业帝国。"},
+    {"fr": "L'empire s'est effondré après la mort du souverain.", "zh": "君主去世后，帝国瓦解了。"}
+  ],
+  "emploi": [
+    {"fr": "Elle a trouvé un emploi de vendeuse dans une boulangerie.", "zh": "她在面包店找到了一份售货员的工作。"},
+    {"fr": "Il a envoyé cent candidatures avant de décrocher un emploi.", "zh": "他投了一百份简历才找到工作。"},
+    {"fr": "L'emploi du temps sera affiché lundi matin.", "zh": "课程表将在周一上午张贴出来。"}
+  ],
+  "employer": [
+    {"fr": "Employez ce mot seulement dans un contexte familier.", "zh": "这个词只在口语场合使用。"},
+    {"fr": "L'usine emploie deux cents personnes du village.", "zh": "这家工厂雇用了村里两百个人。"},
+    {"fr": "Il faut employer les bons outils pour ce travail.", "zh": "干这活得用对工具。"}
+  ],
+  "employé": [
+    {"fr": "Les employés du magasin font grève demain.", "zh": "商店的员工明天要罢工。"},
+    {"fr": "Cet employé travaille ici depuis quinze ans.", "zh": "这名员工在这里干了十五年了。"},
+    {"fr": "Tous les employés ont reçu une prime à Noël.", "zh": "圣诞节时所有员工都拿到了奖金。"}
+  ],
+  "emporter": [
+    {"fr": "Emporte un parapluie au cas où il pleuvrait.", "zh": "带上雨伞，以防下雨。"},
+    {"fr": "On peut emporter la pizza ou manger sur place.", "zh": "披萨可以带走，也可以在店里吃。"},
+    {"fr": "Le vent a emporté le chapeau du vieux monsieur.", "zh": "风把老先生的帽子刮走了。"}
+  ],
+  "emprunter": [
+    {"fr": "Je vais emprunter ce livre à la bibliothèque municipale.", "zh": "我要去市图书馆借这本书。"},
+    {"fr": "Je peux t'emprunter dix euros jusqu'à demain ?", "zh": "我能借你十欧元，明天还你吗？"},
+    {"fr": "Ils ont emprunté de l'argent pour acheter leur appartement.", "zh": "他们贷款买了房子。"}
+  ],
+  "enceinte": [
+    {"fr": "Ma sœur est enceinte de sept mois.", "zh": "我姐姐怀孕七个月了。"},
+    {"fr": "Une femme enceinte doit faire attention à son alimentation.", "zh": "孕妇要注意饮食。"},
+    {"fr": "Son mari fait tout le ménage depuis qu'elle est enceinte.", "zh": "自从她怀孕后，丈夫包揽了所有家务。"}
+  ],
+  "enchanté": [
+    {"fr": "Enchanté de faire votre connaissance, madame.", "zh": "很高兴认识您，夫人。"},
+    {"fr": "Il m'a serré la main en disant « enchanté ».", "zh": "他握着我的手说“很高兴认识你”。"},
+    {"fr": "Je suis enchanté de cette rencontre inattendue.", "zh": "这次不期而遇让我非常开心。"}
+  ],
+  "encourager": [
+    {"fr": "Les parents encouragent leur fille à apprendre la musique.", "zh": "父母鼓励女儿学习音乐。"},
+    {"fr": "Continue, je t'encourage de tout mon cœur !", "zh": "继续，我真心为你加油！"},
+    {"fr": "Le coach encourage l'équipe avant chaque match.", "zh": "每场比赛前教练都会给队伍打气。"}
+  ],
+  "endormi": [
+    {"fr": "Le bébé s'est endormi dans les bras de sa mère.", "zh": "宝宝在妈妈怀里睡着了。"},
+    {"fr": "Regarde le chat endormi au pied du radiateur.", "zh": "看那只睡在暖气片旁的猫。"},
+    {"fr": "Le train était si calme que plusieurs passagers s'étaient endormis.", "zh": "车厢里太安静了，好几位乘客都睡着了。"}
+  ],
+  "endormir": [
+    {"fr": "Cette musique douce endort le bébé en quelques minutes.", "zh": "这段轻柔的音乐几分钟就能哄睡宝宝。"},
+    {"fr": "Elle raconte une histoire pour endormir les enfants.", "zh": "她讲个故事哄孩子们入睡。"},
+    {"fr": "Attention, ce sirop peut endormir : ne conduisez pas après l'avoir pris.", "zh": "注意，这种糖浆会让人犯困，服后请勿开车。"}
+  ],
+  "endroit": [
+    {"fr": "C'est mon endroit préféré pour lire : près de la fenêtre.", "zh": "靠窗的位置是我最喜欢看书的地方。"},
+    {"fr": "Il connaît des endroits magnifiques dans cette région.", "zh": "他知道这一带许多风景绝美的地方。"},
+    {"fr": "Ne t'assois pas à cet endroit, le banc est mouillé.", "zh": "别坐那个位置，长椅是湿的。"}
+  ],
+  "enfance": [
+    {"fr": "Il a passé toute son enfance à la campagne.", "zh": "他的童年都是在乡下度过的。"},
+    {"fr": "Cette chanson me rappelle mon enfance.", "zh": "这首歌让我想起了童年。"},
+    {"fr": "Elle garde des souvenirs précieux de son enfance en Provence.", "zh": "她珍藏着在普罗旺斯度过的童年的美好回忆。"}
+  ],
+  "enfermer": [
+    {"fr": "Il a enfermé ses papiers importants dans le tiroir.", "zh": "他把重要文件锁进了抽屉。"},
+    {"fr": "Les poules sont enfermées dans le poulailler pour la nuit.", "zh": "晚上母鸡都被关进鸡舍里。"},
+    {"fr": "Ne laisse pas le chien enfermé dans la voiture au soleil !", "zh": "别把狗关在太阳底下的车里！"}
+  ],
+  "enfin": [
+    {"fr": "Enfin, les vacances ! Je pars à la mer demain.", "zh": "终于放假了！我明天去海边。"},
+    {"fr": "Il a enfin trouvé un appartement qui lui plaît.", "zh": "他终于找到了一套喜欢的公寓。"},
+    {"fr": "Enfin, je veux dire que ce projet mérite notre attention.", "zh": "总之，我想说的是这个项目值得我们关注。"}
+  ],
+  "enlever": [
+    {"fr": "Enlève tes chaussures avant d'entrer dans la maison.", "zh": "进屋前先把鞋脱了。"},
+    {"fr": "Elle a enlevé l'affiche du mur pour la garder.", "zh": "她把墙上的海报揭下来留作纪念。"},
+    {"fr": "On a enlevé la vieille tapisserie pour repeindre le salon.", "zh": "我们撕掉了旧墙纸，准备重新粉刷客厅。"}
+  ],
+  "ennuyeux": [
+    {"fr": "Ce livre est si ennuyeux que je m'endors à chaque page.", "zh": "这本书无聊得我一页没看完就睡着。"},
+    {"fr": "Il est vraiment ennuyeux, ce prof, il parle sans s'arrêter.", "zh": "这个老师真没劲，说话滔滔不绝。"},
+    {"fr": "La réunion était longue et ennuyeuse.", "zh": "会议又长又无聊。"}
+  ],
+  "enregistrer": [
+    {"fr": "Vous avez enregistré votre bagage au comptoir ?", "zh": "您在柜台托运行李了吗？"},
+    {"fr": "J'ai enregistré la réunion pour l'écouter à nouveau.", "zh": "我把会议录了下来，方便回头再听。"},
+    {"fr": "N'oublie pas d'enregistrer le document avant de fermer l'ordinateur.", "zh": "关电脑前别忘了保存文件。"}
+  ],
+  "enrhumer": [
+    {"fr": "Mets une écharpe, tu vas t'enrhumer !", "zh": "围上围巾，不然你会感冒的！"},
+    {"fr": "Je me suis enrhumé après la balade sous la pluie.", "zh": "雨中散步之后我就感冒了。"},
+    {"fr": "Le petit Thomas s'est encore enrhumé à la garderie.", "zh": "小托马斯在托儿所又感冒了。"}
+  ],
+  "enseignant": [
+    {"fr": "Les enseignants de ce lycée sont très disponibles.", "zh": "这所中学的老师都特别乐于帮忙。"},
+    {"fr": "Mon père était enseignant de mathématiques pendant trente ans.", "zh": "我父亲教了三十年数学。"},
+    {"fr": "Cette enseignante nouvellement arrivée connaît déjà tous les élèves.", "zh": "这位新来的女老师已经认识了所有学生。"}
+  ],
+  "entraînement": [
+    {"fr": "L'entraînement de football a lieu le mercredi et le samedi.", "zh": "足球训练在每周三和周六进行。"},
+    {"fr": "Un bon entraînement prépare le corps à la compétition.", "zh": "良好的训练能让身体为比赛做好准备。"},
+    {"fr": "Elle suit un entraînement intensif depuis trois mois pour le marathon.", "zh": "为备战马拉松，她进行了三个月的强化训练。"}
+  ],
+  "entraîneur": [
+    {"fr": "L'entraîneur a changé la tactique à la mi-temps.", "zh": "教练在中场休息时改变了战术。"},
+    {"fr": "Notre nouvel entraîneur exige beaucoup de discipline.", "zh": "新来的教练对纪律要求很严。"},
+    {"fr": "Elle rêve de devenir entraîneure de l'équipe nationale.", "zh": "她梦想成为国家队教练。"}
+  ],
+  "entrée": [
+    {"fr": "Les invités attendent devant l'entrée principale du château.", "zh": "客人们在城堡的正门入口等候。"},
+    {"fr": "En entrée, je prends la soupe à l'oignon.", "zh": "前菜我要法式洋葱汤。"},
+    {"fr": "L'entrée du musée est gratuite le premier dimanche du mois.", "zh": "每月的第一个周日博物馆免费入场。"}
+  ],
+  "enveloppe": [
+    {"fr": "Mets la lettre dans l'enveloppe avant d'écrire l'adresse.", "zh": "先把信装进信封再写地址。"},
+    {"fr": "Elle a glissé une carte de vœux dans une enveloppe rouge.", "zh": "她把贺卡装进了一个红色信封。"},
+    {"fr": "Il y a une grosse enveloppe pour toi sur la table.", "zh": "桌上有个厚厚的信封，是给你的。"}
+  ],
+  "envers": [
+    {"fr": "Il s'est montré très généreux envers les nouveaux employés.", "zh": "他对新员工非常大方。"},
+    {"fr": "Elle se sent coupable envers ses parents.", "zh": "她对父母心怀愧疚。"},
+    {"fr": "Reste toujours honnête envers ceux qui te font confiance.", "zh": "对信任你的人要始终坦诚。"}
+  ],
+  "envie": [
+    {"fr": "J'ai envie d'un grand verre d'eau glacée.", "zh": "我好想喝一大杯冰水。"},
+    {"fr": "Elle n'a aucune envie de déménager à l'étranger.", "zh": "她一点也不想搬到国外去。"},
+    {"fr": "Qu'est-ce que tu as envie de manger ce soir ?", "zh": "你今晚想吃什么？"}
+  ],
+  "environ": [
+    {"fr": "Le trajet dure environ deux heures en train.", "zh": "坐火车大约要两个小时。"},
+    {"fr": "Il y avait environ cinquante personnes au mariage.", "zh": "婚礼上大概有五十位宾客。"},
+    {"fr": "Ce manteau coûte environ cent vingt euros.", "zh": "这件外套大约一百二十欧元。"}
+  ],
+  "erreur": [
+    {"fr": "J'ai fait une erreur dans le calcul, excuse-moi.", "zh": "我算错了一个地方，不好意思。"},
+    {"fr": "Une petite erreur de frappe a changé l'adresse du client.", "zh": "一个小小的输入错误改动了客户的地址。"},
+    {"fr": "Personne n'est parfait : tout le monde fait des erreurs.", "zh": "人无完人，谁都会犯错。"}
+  ],
+  "escalier": [
+    {"fr": "Monte par l'escalier de service, l'ascenseur est en panne.", "zh": "电梯坏了，你走员工楼梯吧。"},
+    {"fr": "Les enfants glissent sur la rampe de l'escalier.", "zh": "孩子们在楼梯扶手上滑来滑去。"},
+    {"fr": "Le vieil escalier en bois grince à chaque marche.", "zh": "老木楼梯每走一步都会咯吱作响。"}
+  ],
+  "escargot": [
+    {"fr": "Mon grand-père ramasse des escargots après la pluie.", "zh": "雨后我爷爷会去捡蜗牛。"},
+    {"fr": "Nous avons goûté des escargots à l'ail pour la première fois.", "zh": "我们第一次品尝了蒜香蜗牛。"},
+    {"fr": "L'escargot avance doucement sur la feuille humide.", "zh": "蜗牛在湿润的叶子上慢慢爬行。"}
+  ],
+  "esclave": [
+    {"fr": "Autrefois, des millions d'esclaves ont été déportés à travers l'Atlantique.", "zh": "过去曾有数百万奴隶被贩运过大西洋。"},
+    {"fr": "Ce roman raconte la vie d'un esclave dans le sud des États-Unis.", "zh": "这部小说讲述了一个美国南方奴隶的一生。"},
+    {"fr": "Il travaille comme un esclave, du matin au soir.", "zh": "他从早到晚像奴隶一样干活。"}
+  ],
+  "espace": [
+    {"fr": "Votre bagage à main doit tenir dans l'espace au-dessus du siège.", "zh": "随身行李必须能放进座位上方的空间。"},
+    {"fr": "Il n'y a plus d'espace libre dans le parking.", "zh": "停车场里已经没有空位了。"},
+    {"fr": "Les enfants ont besoin d'espace pour courir.", "zh": "孩子们需要空间奔跑玩耍。"}
+  ],
+  "espoir": [
+    {"fr": "Garde espoir, les médecins ont encore des solutions.", "zh": "别放弃希望，医生们还有办法。"},
+    {"fr": "Elle a perdu tout espoir de revoir son chat.", "zh": "她对找回自己的猫已不抱任何希望。"},
+    {"fr": "La nouvelle d'un vaccin a donné de l'espoir à la population.", "zh": "疫苗的消息给人们带来了希望。"}
+  ],
+  "esprit": [
+    {"fr": "Garde un esprit ouvert pendant le voyage.", "zh": "旅行时要保持开放的心态。"},
+    {"fr": "C'est une femme d'esprit, toujours pleine d'idées.", "zh": "她是个有头脑的女人，总有好点子。"},
+    {"fr": "L'esprit d'équipe compte autant que le talent.", "zh": "团队精神和天赋一样重要。"}
+  ],
+  "espérer": [
+    {"fr": "J'espère que tu iras mieux demain.", "zh": "希望你明天会好起来。"},
+    {"fr": "Nous espérons partir en Italie cet été.", "zh": "我们希望今年夏天去意大利。"},
+    {"fr": "Il espère une réponse positive de l'université.", "zh": "他盼望能得到大学的肯定答复。"}
+  ],
+  "essayer": [
+    {"fr": "Essaie cette veste, elle est à ta taille.", "zh": "试试这件外套，正合你的尺码。"},
+    {"fr": "J'ai essayé de l'appeler trois fois, sans réponse.", "zh": "我试着给他打了三次电话，都没人接。"},
+    {"fr": "Vous devriez essayer ce nouveau restaurant du quartier.", "zh": "你应该试试街区里这家新餐厅。"}
+  ],
+  "essence": [
+    {"fr": "Il faut faire le plein d'essence avant l'autoroute.", "zh": "上高速前要加满油。"},
+    {"fr": "Le prix de l'essence augmente encore ce mois-ci.", "zh": "这个月油价又涨了。"},
+    {"fr": "La voiture tombe en panne d'essence au milieu de nulle part.", "zh": "车在荒郊野外没油抛锚了。"}
+  ],
+  "essuyer": [
+    {"fr": "Essuie la table après le dîner, s'il te plaît.", "zh": "晚饭后请把桌子擦干净。"},
+    {"fr": "Elle essuie la vaisselle pendant que je lave.", "zh": "我洗碗，她把碗擦干。"},
+    {"fr": "L'équipe a essuyé une lourde défaite hier soir.", "zh": "昨晚球队遭遇了一场惨败。"}
+  ],
+  "est": [
+    {"fr": "Le soleil se lève à l'est derrière les collines.", "zh": "太阳从东边的山后升起。"},
+    {"fr": "Notre maison donne sur l'est, elle est lumineuse le matin.", "zh": "我们家朝东，早上很亮堂。"},
+    {"fr": "Les régions de l'est de la France sont connues pour leurs vignobles.", "zh": "法国东部地区以葡萄园闻名。"}
+  ],
+  "estomac": [
+    {"fr": "J'ai mal à l'estomac après ce repas trop épicé.", "zh": "吃了太辣的饭，我胃疼。"},
+    {"fr": "Mange doucement, ton estomac te dira merci.", "zh": "慢点吃，你的胃会感谢你的。"},
+    {"fr": "Le médecin lui a prescrit un médicament pour l'estomac.", "zh": "医生给他开了一种胃药。"}
+  ],
+  "européen": [
+    {"fr": "L'Union européenne compte vingt-sept pays membres.", "zh": "欧盟有二十七个成员国。"},
+    {"fr": "Elle a un passeport européen et voyage sans visa.", "zh": "她持欧洲护照，旅行不用签证。"},
+    {"fr": "Les standards européens en matière d'environnement sont stricts.", "zh": "欧洲的环境标准非常严格。"}
+  ],
+  "exact": [
+    {"fr": "Je ne me souviens pas de la date exacte du concert.", "zh": "我记不清音乐会的确切日期了。"},
+    {"fr": "C'est exact, je suis bien arrivé à huit heures.", "zh": "没错，我确实是八点到的。"},
+    {"fr": "Donne-moi l'heure exacte de ton arrivée, s'il te plaît.", "zh": "请告诉我你到达的确切时间。"}
+  ],
+  "examen": [
+    {"fr": "L'examen final aura lieu dans la grande salle.", "zh": "期末考试将在大教室举行。"},
+    {"fr": "Elle a réussi son examen de conduite du premier coup.", "zh": "她一次就通过了驾照考试。"},
+    {"fr": "Le médecin a prescrit un examen de sang pour demain.", "zh": "医生开了单子，明天去验血。"}
+  ],
+  "examiner": [
+    {"fr": "Le médecin examine la gorge de l'enfant.", "zh": "医生检查孩子的喉咙。"},
+    {"fr": "Examine bien le contrat avant de signer.", "zh": "签字前要仔细看合同。"},
+    {"fr": "La police examine les caméras du quartier.", "zh": "警察正在查看街区的监控录像。"}
+  ],
+  "excellent": [
+    {"fr": "Ce restaurant sert une excellente cuisine traditionnelle.", "zh": "这家餐厅的传统菜肴做得极好。"},
+    {"fr": "Elle a obtenu une note excellente à l'oral.", "zh": "她口语考试拿到了优异的成绩。"},
+    {"fr": "C'est un excellent médecin, écoute ses conseils.", "zh": "他是一位出色的医生，听他的建议吧。"}
+  ],
+  "exception": [
+    {"fr": "Aujourd'hui, je fais une exception et je mange un dessert.", "zh": "今天我破例吃个甜点。"},
+    {"fr": "Sans exception, tout le monde doit porter son badge.", "zh": "任何人都要佩戴胸牌，无一例外。"},
+    {"fr": "Cette règle connaît quelques exceptions dans les petites entreprises.", "zh": "这条规定在小企业中有一些例外。"}
+  ],
+  "excité": [
+    {"fr": "Les enfants sont excités à l'idée de partir en colonie.", "zh": "一想到要去夏令营，孩子们兴奋极了。"},
+    {"fr": "Il est trop excité pour dormir avant le match.", "zh": "赛前他兴奋得睡不着觉。"},
+    {"fr": "Ne sois pas excité comme ça, le film commence à huit heures.", "zh": "别这么激动，电影八点才开始。"}
+  ],
+  "excuse": [
+    {"fr": "Présente-lui toutes mes excuses pour hier soir.", "zh": "请代我向她为昨晚的事道歉。"},
+    {"fr": "Tu trouves toujours une excuse pour ne pas sortir !", "zh": "你总能找到不出去的借口！"},
+    {"fr": "Il a inventé mille excuses pour justifier son retard.", "zh": "他编了一堆借口来解释迟到。"}
+  ],
+  "existence": [
+    {"fr": "Elle mène une existence tranquille au bord du lac.", "zh": "她在湖边过着平静的生活。"},
+    {"fr": "L'existence de cette espèce a été prouvée récemment.", "zh": "这个物种的存在最近才得到证实。"},
+    {"fr": "Son existence a changé après la naissance de ses jumeaux.", "zh": "双胞胎出生后，她的生活全变了。"}
+  ],
+  "exister": [
+    {"fr": "Les dinosaures ont existé bien avant les humains.", "zh": "恐龙远在人类出现之前就存在了。"},
+    {"fr": "Cette légende n'existe que dans cette vallée.", "zh": "这个传说只存在于这条山谷里。"},
+    {"fr": "Est-ce que le Père Noël existe vraiment ?", "zh": "圣诞老人真的存在吗？"}
+  ],
+  "expert": [
+    {"fr": "Demande l'avis d'un expert avant d'acheter ce tableau.", "zh": "买这幅画之前先听听专家的意见。"},
+    {"fr": "Il est expert en réparation de voitures anciennes.", "zh": "他是修理老式汽车的行家。"},
+    {"fr": "Les experts ont examiné la signature pendant deux jours.", "zh": "专家们花了两天鉴定这个签名。"}
+  ],
+  "explication": [
+    {"fr": "Ton explication ne tient pas debout, avoue la vérité.", "zh": "你的解释根本站不住脚，说实话吧。"},
+    {"fr": "Le professeur a donné une explication claire de la règle.", "zh": "老师把这个规则解释得很清楚。"},
+    {"fr": "Je vous dois une explication sur ce qui s'est passé.", "zh": "关于发生的事，我欠您一个解释。"}
+  ],
+  "exploser": [
+    {"fr": "Le ballon a explosé au milieu de la fête.", "zh": "气球在聚会中间爆了。"},
+    {"fr": "Les prix de l'immobilier explosent dans cette ville.", "zh": "这座城市的房价正在飙升。"},
+    {"fr": "Le feu d'artifice explose au-dessus du fleuve.", "zh": "烟花在大河上空绽放。"}
+  ],
+  "explosion": [
+    {"fr": "L'explosion de la centrale a été entendue à dix kilomètres.", "zh": "十公里外都能听到发电厂的爆炸声。"},
+    {"fr": "On assiste à une explosion du nombre de livraisons à domicile.", "zh": "上门配送的数量正在激增。"},
+    {"fr": "Une explosion de joie a suivi le but victorieux.", "zh": "制胜一球后爆发出一阵欢呼。"}
+  ],
+  "expo": [
+    {"fr": "Il y a une expo gratuite au centre culturel ce mois-ci.", "zh": "这个月文化中心有一场免费展览。"},
+    {"fr": "L'expo de sculptures attire beaucoup de monde ce week-end.", "zh": "这个雕塑展周末吸引了很多人。"},
+    {"fr": "On s'est retrouvés devant l'expo avant d'aller boire un verre.", "zh": "我们先在展厅门口碰头，然后去喝了一杯。"}
+  ],
+  "exposition": [
+    {"fr": "L'exposition sur l'Égypte ancienne ferme dimanche.", "zh": "古埃及特展周日就要结束了。"},
+    {"fr": "Une exposition de peintures contemporaines ouvre à la mairie.", "zh": "市政厅将举办一场当代绘画展。"},
+    {"fr": "Les étudiants ont organisé une exposition de leurs travaux.", "zh": "学生们自己办了一场作品展。"}
+  ],
+  "express": [
+    {"fr": "Prends le train express, il arrive en une heure.", "zh": "坐特快列车吧，一小时就到。"},
+    {"fr": "J'ai commandé un café express entre deux rendez-vous.", "zh": "我在两个会议之间点了杯特浓咖啡。"},
+    {"fr": "Ce courrier doit partir en express pour arriver ce soir.", "zh": "这份快件得走特快，今晚就要送到。"}
+  ],
+  "expression": [
+    {"fr": "Cette expression française n'existe pas dans ma langue.", "zh": "这个法语短语在我的语言里没有对应说法。"},
+    {"fr": "Ne traduis pas cette expression mot à mot.", "zh": "别逐字翻译这个习语。"},
+    {"fr": "Il a une expression triste quand il parle de son pays.", "zh": "说起祖国时，他的表情很忧伤。"}
+  ],
+  "exprès": [
+    {"fr": "Elle a laissé la porte ouverte exprès pour le chat.", "zh": "她特意为猫把门留着。"},
+    {"fr": "Il a fait exprès de rater le train.", "zh": "他是故意错过那班火车的。"},
+    {"fr": "Je ne l'ai pas fait exprès, c'est glissant ici.", "zh": "我不是故意的，这地上太滑了。"}
+  ],
+  "expérience": [
+    {"fr": "Elle a dix ans d'expérience dans le marketing.", "zh": "她有十年市场营销经验。"},
+    {"fr": "Cette expérience scientifique impressionne toujours les élèves.", "zh": "这个科学实验总是让学生们惊叹。"},
+    {"fr": "Vivre à l'étranger est une expérience inoubliable.", "zh": "在国外生活是一段难忘的经历。"}
+  ],
+  "extraordinaire": [
+    {"fr": "Quelle vue extraordinaire depuis le sommet du mont !", "zh": "从山顶看到的景色真了不起！"},
+    {"fr": "C'est une histoire extraordinaire, presque impossible à croire.", "zh": "这个故事太离奇了，简直难以置信。"},
+    {"fr": "Elle a un talent extraordinaire pour le dessin.", "zh": "她在绘画方面有着非凡的天赋。"}
+  ],
+  "extérieur": [
+    {"fr": "En hiver, il fait froid à l'extérieur.", "zh": "冬天外面很冷。"},
+    {"fr": "La façade extérieure du bâtiment vient d'être repeinte.", "zh": "大楼的外墙刚重新刷过漆。"},
+    {"fr": "Les enfants préfèrent jouer à l'extérieur quand il fait beau.", "zh": "天气好的时候，孩子们更喜欢在户外玩。"}
+  ],
+  "fabriquer": [
+    {"fr": "Cette usine fabrique des pièces pour l'aéronautique.", "zh": "这家工厂生产航空零件。"},
+    {"fr": "Ma grand-mère fabrique encore sa confiture elle-même.", "zh": "我奶奶至今还自己做果酱。"},
+    {"fr": "Les enfants ont fabriqué une cabane avec des planches.", "zh": "孩子们用木板搭了一个小木屋。"}
+  ],
+  "fac": [
+    {"fr": "Elle est inscrite à la fac de droit à Lyon.", "zh": "她在里昂大学读法律。"},
+    {"fr": "La fac est à vingt minutes à pied de chez moi.", "zh": "从我家步行二十分钟就到大学。"},
+    {"fr": "Il a raté sa première année de fac par manque de sérieux.", "zh": "他因为不用功，大学第一年就没通过。"}
+  ],
+  "face": [
+    {"fr": "Notre hôtel se trouve face à la mer.", "zh": "我们酒店正对着大海。"},
+    {"fr": "Montre-moi la face de la carte, pas le dos.", "zh": "给我看卡片的正面，不要背面。"},
+    {"fr": "Face à ces difficultés, elle garde son calme.", "zh": "面对这些困难，她保持冷静。"}
+  ],
+  "facilement": [
+    {"fr": "On trouve facilement une place de parking le matin.", "zh": "早上很容易找到停车位。"},
+    {"fr": "Elle apprend facilement les langues étrangères.", "zh": "她学外语很容易上手。"},
+    {"fr": "Ce bois se casse facilement, manipule-le avec soin.", "zh": "这种木头容易断裂，拿的时候小心点。"}
+  ],
+  "facteur": [
+    {"fr": "Le facteur distribue le courrier vers dix heures.", "zh": "邮递员十点左右来送信。"},
+    {"fr": "La motivation est un facteur clé de la réussite.", "zh": "积极性是成功的关键因素。"},
+    {"fr": "Le facteur a apporté un colis pour la voisine.", "zh": "邮递员送来了给邻居的一个包裹。"}
+  ],
+  "faible": [
+    {"fr": "Le signal du téléphone est faible dans cette vallée.", "zh": "这条山谷里手机信号很弱。"},
+    {"fr": "Après l'opération, il se sent encore un peu faible.", "zh": "手术后他还觉得有点虚弱。"},
+    {"fr": "Elle a un point faible : elle ne sait pas dire non.", "zh": "她有个弱点：不会拒绝别人。"}
+  ],
+  "fait": [
+    {"fr": "Le fait que tu sois en retard ne m'étonne pas.", "zh": "你迟到这件事我一点都不意外。"},
+    {"fr": "Cet accident, c'est un fait divers raconté dans tous les journaux.", "zh": "这起事故是各家报纸都报道的一则社会新闻。"},
+    {"fr": "Il ne faut pas nier les faits.", "zh": "不能否认这些事实。"}
+  ],
+  "familial": [
+    {"fr": "Nous organisons un repas familial chaque dimanche.", "zh": "每周日我们都吃一顿家庭聚餐。"},
+    {"fr": "Cette ferme est une entreprise familiale depuis quatre générations.", "zh": "这家农场是经营了四代的家族企业。"},
+    {"fr": "Il a un problème familial et ne viendra pas à la réunion.", "zh": "他家里有事，不会来参加会议了。"}
+  ],
+  "fan": [
+    {"fr": "Mon frère est un grand fan de ce groupe.", "zh": "我哥哥是这个乐队的铁杆粉丝。"},
+    {"fr": "Les fans attendent depuis six heures devant la salle de concert.", "zh": "歌迷们在演出场馆前已经等了六个小时。"},
+    {"fr": "Même à quarante ans, il reste fan de cette série.", "zh": "即使四十岁了，他依然是这部剧的忠实观众。"}
+  ],
+  "fantastique": [
+    {"fr": "Le concert d'hier soir était tout simplement fantastique.", "zh": "昨晚的演唱会简直太棒了。"},
+    {"fr": "Elle écrit des romans fantastiques peuplés de créatures étranges.", "zh": "她写奇幻小说，里面满是奇异的生物。"},
+    {"fr": "Tu as passé un fantastique week-end à Venise ?", "zh": "你在威尼斯度过了一个美妙的周末吗？"}
+  ],
+  "fantôme": [
+    {"fr": "Ce château serait hanté par le fantôme d'une comtesse.", "zh": "据说这座城堡闹鬼，出没的是一位女伯爵的鬼魂。"},
+    {"fr": "Les enfants adorent les histoires de fantômes avant de dormir.", "zh": "孩子们喜欢睡前听鬼故事。"},
+    {"fr": "Il court dans le couloir comme un fantôme, sans faire de bruit.", "zh": "他像幽灵一样悄悄跑过走廊，一点声音都没有。"}
+  ]
+}

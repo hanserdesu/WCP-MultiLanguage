@@ -1,0 +1,2459 @@
+[
+ {
+  "w": "返答",
+  "r": "へんとう",
+  "en": "reply",
+  "zh": "回复",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "返還",
+  "r": "へんかん",
+  "en": "return; restoration",
+  "zh": "返回;恢复",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "迚も",
+  "r": "とても",
+  "en": "very; awfully; exceedingly",
+  "zh": "非常，很",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "迫害",
+  "r": "はくがい",
+  "en": "persecution",
+  "zh": "迫害",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "追い出す",
+  "r": "おいだす",
+  "en": "to expel; to drive out",
+  "zh": "驱逐；赶走",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "追い込む",
+  "r": "おいこむ",
+  "en": "to herd; to corner; to drive",
+  "zh": "放牧；到角落；开车",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "追及",
+  "r": "ついきゅう",
+  "en": "gaining on; carrying out; solving (crime)",
+  "zh": "追赶；追究",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "追放",
+  "r": "ついほう",
+  "en": "exile; banishment",
+  "zh": "流亡;流放",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "追跡",
+  "r": "ついせき",
+  "en": "pursuit",
+  "zh": "追求",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "退化",
+  "r": "たいか",
+  "en": "degeneration; retrogression",
+  "zh": "退化;倒退",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "退学",
+  "r": "たいがく",
+  "en": "dropping out of school",
+  "zh": "辍学",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "退治",
+  "r": "たいじ",
+  "en": "extermination",
+  "zh": "消灭",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "退職",
+  "r": "たいしょく",
+  "en": "retirement (from office)",
+  "zh": "退休（从办公室）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "送金",
+  "r": "そうきん",
+  "en": "remittance; sending money",
+  "zh": "汇款;寄钱",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "逃げ出す",
+  "r": "にげだす",
+  "en": "to run away; to escape from",
+  "zh": "逃离，逃出",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "逃す",
+  "r": "のがす",
+  "en": "to let loose; to set free; to let escape",
+  "zh": "错过；放跑",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "逃れる",
+  "r": "のがれる",
+  "en": "to escape",
+  "zh": "逃脱；逃避",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "逃亡",
+  "r": "とうぼう",
+  "en": "escape",
+  "zh": "逃亡",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "逃走",
+  "r": "とうそう",
+  "en": "flight; desertion; escape",
+  "zh": "逃跑；逃走",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "逆上る",
+  "r": "さかのぼる",
+  "en": "to go back; to go upstream; to make retroactive",
+  "zh": "回去；逆流而上；进行追溯",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "逆立ち",
+  "r": "さかだち",
+  "en": "handstand; headstand",
+  "zh": "手倒立;头倒立",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "逆転",
+  "r": "ぎゃくてん",
+  "en": "(sudden) change; reversal; turn-around; coming from behind (baseball)",
+  "zh": "逆转；反败为胜",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "途上",
+  "r": "とじょう",
+  "en": "en route; half way",
+  "zh": "途中;一半",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "途絶える",
+  "r": "とだえる",
+  "en": "to stop; to cease; to come to an end",
+  "zh": "停止；停止；结束",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "通",
+  "r": "つう",
+  "en": "connoisseur; counter for letters",
+  "zh": "普通、一般、平常",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "通りかかる",
+  "r": "とおりかかる",
+  "en": "to happen to pass by",
+  "zh": "碰巧路过",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "通常",
+  "r": "つうじょう",
+  "en": "common; general; usually",
+  "zh": "常见的;一般的;通常",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "逞しい",
+  "r": "たくましい",
+  "en": "burly; strong; sturdy",
+  "zh": "魁梧；强的;结实的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "造り",
+  "r": "つくり",
+  "en": "make up; structure; physique",
+  "zh": "化妆品;结构;体质",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "造る",
+  "r": "つくる",
+  "en": "to make; to create; to manufacture; to draw up; to write; to compose; to build; to coin; to cultivate; to org",
+  "zh": "做，制造，创造。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "連なる",
+  "r": "つらなる",
+  "en": "to extend; to stretch out; to stand in a row",
+  "zh": "延长；伸展；站成一排",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "連ねる",
+  "r": "つらねる",
+  "en": "to link; to join; to put together",
+  "zh": "链接；加入；放在一起",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "連中",
+  "r": "れんじゅう",
+  "en": "colleagues; company; a lot",
+  "zh": "一群人，这帮人，这伙人。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "連休",
+  "r": "れんきゅう",
+  "en": "consecutive holidays",
+  "zh": "连续假期",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "連帯",
+  "r": "れんたい",
+  "en": "solidarity",
+  "zh": "团结",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "連日",
+  "r": "れんじつ",
+  "en": "every day; prolonged",
+  "zh": "每天;延长",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "連盟",
+  "r": "れんめい",
+  "en": "league; union; alliance",
+  "zh": "联盟;联盟;联盟",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "連邦",
+  "r": "れんぽう",
+  "en": "commonwealth; federation of states",
+  "zh": "联邦;各州联邦",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "進み",
+  "r": "すすみ",
+  "en": "progress",
+  "zh": "进步",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "進出",
+  "r": "しんしゅつ",
+  "en": "advance; step forward",
+  "zh": "进步;向前迈出一步",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "進化",
+  "r": "しんか",
+  "en": "evolution; progress",
+  "zh": "进化;进步",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "進呈",
+  "r": "しんてい",
+  "en": "presentation",
+  "zh": "推介会",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "進展",
+  "r": "しんてん",
+  "en": "progress; development",
+  "zh": "进步;发展",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "進度",
+  "r": "しんど",
+  "en": "progress",
+  "zh": "进步",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "進行",
+  "r": "しんこう",
+  "en": "advance",
+  "zh": "进步",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "進路",
+  "r": "しんろ",
+  "en": "course; route",
+  "zh": "课程;路线",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "逸らす",
+  "r": "そらす",
+  "en": "to turn away; to avert",
+  "zh": "转身走开；避免",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遂げる",
+  "r": "とげる",
+  "en": "to accomplish; to achieve; to carry out",
+  "zh": "完成；达到；进行",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遅くとも",
+  "r": "おそくとも",
+  "en": "at the latest",
+  "zh": "最迟",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遅らす",
+  "r": "おくらす",
+  "en": "to retard; to delay",
+  "zh": "延迟；拖延",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遅れ",
+  "r": "おくれ",
+  "en": "delay; lag",
+  "zh": "延迟;落后",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遊牧",
+  "r": "ゆうぼく",
+  "en": "nomadism",
+  "zh": "游牧主义",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "運命",
+  "r": "うんめい",
+  "en": "fate",
+  "zh": "命运，天命",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "運営",
+  "r": "うんえい",
+  "en": "management; administration; operation",
+  "zh": "管理;行政;手术",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "運搬",
+  "r": "うんぱん",
+  "en": "transport; carriage",
+  "zh": "运输;运输",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "運用",
+  "r": "うんよう",
+  "en": "making use of; application; investment; practical use",
+  "zh": "利用；应用;投资;实际使用",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "運賃",
+  "r": "うんちん",
+  "en": "freight rates; shipping expenses; fare",
+  "zh": "运费；运输费用；票价",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "運輸",
+  "r": "うんゆ",
+  "en": "transportation",
+  "zh": "运输",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "運送",
+  "r": "うんそう",
+  "en": "shipping; marine transportation",
+  "zh": "船运;海上运输",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "過ぎ",
+  "r": "すぎ",
+  "en": "past; after",
+  "zh": "过去的;后",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "過ち",
+  "r": "あやまち",
+  "en": "fault; error; indiscretion",
+  "zh": "过错;错误;轻率",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "過労",
+  "r": "かろう",
+  "en": "overwork; strain",
+  "zh": "过度劳累；拉紧",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "過多",
+  "r": "かた",
+  "en": "excess; superabundance",
+  "zh": "人（敬语用法，表示礼貌称呼他人）",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "過密",
+  "r": "かみつ",
+  "en": "crowded",
+  "zh": "挤",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "過疎",
+  "r": "かそ",
+  "en": "depopulation",
+  "zh": "人口减少",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "道場",
+  "r": "どうじょう",
+  "en": "dojo; hall used for martial arts training; mandala",
+  "zh": "道场；练功房",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "達成",
+  "r": "たっせい",
+  "en": "achievement",
+  "zh": "成就",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "達者",
+  "r": "たっしゃ",
+  "en": "skillful; in good health",
+  "zh": "熟练;身体健康",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "違える",
+  "r": "ちがえる",
+  "en": "to change",
+  "zh": "改变",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遠ざかる",
+  "r": "とおざかる",
+  "en": "to go far off",
+  "zh": "去远方",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遠回り",
+  "r": "とおまわり",
+  "en": "detour; roundabout way",
+  "zh": "車輛改道;环岛路",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遠方",
+  "r": "えんぽう",
+  "en": "long way; distant place",
+  "zh": "路途遥远；遥远的地方",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遣い",
+  "r": "つかい",
+  "en": "mission; simple task; doing",
+  "zh": "使命;简单的任务；正在做",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遣り通す",
+  "r": "やりとおす",
+  "en": "to carry through; to achieve; to complete",
+  "zh": "进行；达到；完成",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遣る",
+  "r": "やる",
+  "en": "to do; to have sexual intercourse; to kill; to give (to inferiors animals etc.); to dispatch (a letter",
+  "zh": "做，干，进行",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遥か",
+  "r": "はるか",
+  "en": "far; far-away; distant; remote; far off",
+  "zh": "远的;离这很远;遥远;偏僻的;遥远",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "適宜",
+  "r": "てきぎ",
+  "en": "suitability",
+  "zh": "适应性",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "適応",
+  "r": "てきおう",
+  "en": "adaptation; accommodation; conformity",
+  "zh": "适应;住宿;一致性",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "適性",
+  "r": "てきせい",
+  "en": "aptitude",
+  "zh": "资质",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遭難",
+  "r": "そうなん",
+  "en": "disaster; shipwreck; accident",
+  "zh": "灾难;海难;事故",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遮る",
+  "r": "さえぎる",
+  "en": "to interrupt; to intercept; to obstruct",
+  "zh": "遮挡；拦截",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "選挙",
+  "r": "せんきょ",
+  "en": "election",
+  "zh": "选举",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "選考",
+  "r": "せんこう",
+  "en": "selection; screening",
+  "zh": "选择；筛选",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "遺跡",
+  "r": "いせき",
+  "en": "historic ruins (remains relics)",
+  "zh": "历史遗迹（遗迹）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "避難",
+  "r": "ひなん",
+  "en": "taking refuge; finding shelter",
+  "zh": "寻求庇护；寻找庇护所",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "還元",
+  "r": "かんげん",
+  "en": "resolution; reduction; return to origins",
+  "zh": "解决;减少;回归原点",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "還暦",
+  "r": "かんれき",
+  "en": "60th birthday",
+  "zh": "60岁生日",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "邸宅",
+  "r": "ていたく",
+  "en": "mansion; residence",
+  "zh": "大厦;住宅",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "部",
+  "r": "ぶ",
+  "en": "department; part; category; counter for copies of a newspaper or magazine",
+  "zh": "没事，没问题，行",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "部下",
+  "r": "ぶか",
+  "en": "subordinate person",
+  "zh": "下属；部属",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "部門",
+  "r": "ぶもん",
+  "en": "class; group; category; department; field; branch",
+  "zh": "班级;团体;类别;部门;场地;分支",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "郷愁",
+  "r": "きょうしゅう",
+  "en": "nostalgia; homesickness",
+  "zh": "怀旧之情；乡愁",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "郷里",
+  "r": "きょうり",
+  "en": "birth-place; home town",
+  "zh": "出生地;家乡",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "配偶者",
+  "r": "はいぐうしゃ",
+  "en": "spouse; wife; husband",
+  "zh": "配偶;妻子;丈夫",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "配分",
+  "r": "はいぶん",
+  "en": "distribution; allotment",
+  "zh": "分配;分配",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "配列",
+  "r": "はいれつ",
+  "en": "arrangement; array (programming)",
+  "zh": "安排;数组（编程）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "配布",
+  "r": "はいふ",
+  "en": "distribution",
+  "zh": "分配",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "配慮",
+  "r": "はいりょ",
+  "en": "consideration; concern; forethought",
+  "zh": "考虑;忧虑;深谋远虑",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "配給",
+  "r": "はいきゅう",
+  "en": "distribution (eg. films rice)",
+  "zh": "分发（例如薄膜米）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "配置",
+  "r": "はいち",
+  "en": "arrangement (of resources); disposition",
+  "zh": "（资源）安排；性格",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "酪農",
+  "r": "らくのう",
+  "en": "dairy (farm)",
+  "zh": "奶牛场）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "酷い",
+  "r": "ひどい",
+  "en": "cruel; awful; severe; very bad; serious; terrible; heavy; violent",
+  "zh": "糟糕的；残酷的",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "酸",
+  "r": "さん",
+  "en": "acid",
+  "zh": "桑",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "酸っぱい",
+  "r": "すっぱい",
+  "en": "sour; acid",
+  "zh": "酸的",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "酸化",
+  "r": "さんか",
+  "en": "oxidation",
+  "zh": "参加，参与（某项活动或事件）",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "重",
+  "r": "え",
+  "en": "-fold; -ply",
+  "zh": "画，绘画作品",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "重んじる",
+  "r": "おもんじる",
+  "en": "to respect; to honor; to esteem; to prize",
+  "zh": "尊重；荣誉；尊重；奖励",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "重んずる",
+  "r": "おもんずる",
+  "en": "to honor; to respect; to esteem; to prize",
+  "zh": "荣誉；尊重；尊重；奖励",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "重宝",
+  "r": "じゅうほう",
+  "en": "priceless treasure; convenience; usefulness",
+  "zh": "无价之宝；方便;用处",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "重複",
+  "r": "じゅうふく",
+  "en": "duplication; repetition; overlapping; redundancy; restoration",
+  "zh": "重复；重叠",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "野党",
+  "r": "やとう",
+  "en": "opposition party",
+  "zh": "反对党",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "野外",
+  "r": "やがい",
+  "en": "fields; outskirts; open air; suburbs",
+  "zh": "领域；郊区；露天;郊区",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "野心",
+  "r": "やしん",
+  "en": "ambition; aspiration; designs; treachery",
+  "zh": "志向;愿望；设计；背信弃义",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "野生",
+  "r": "やせい",
+  "en": "wild",
+  "zh": "荒野",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "金槌",
+  "r": "かなづち",
+  "en": "1. (iron) hammer; 2. punishment",
+  "zh": "1.（铁）锤子； 2. 惩罚",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "釣り",
+  "r": "つり",
+  "en": "fishing; angling",
+  "zh": "钓鱼;钓鱼",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "釣鐘",
+  "r": "つりがね",
+  "en": "hanging bell",
+  "zh": "挂铃",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鈍る",
+  "r": "なまる",
+  "en": "to become less capable; to grow dull; to become blunt; to weaken",
+  "zh": "变迟钝；减退",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鈍感",
+  "r": "どんかん",
+  "en": "thickheadedness; stolidity",
+  "zh": "迟钝；感觉迟钝",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鉄棒",
+  "r": "かなぼう",
+  "en": "iron rod; crowbar; horizontal bar (gymnastics)",
+  "zh": "铁棒；撬棍；单杠）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鉄片",
+  "r": "てっぺん",
+  "en": "iron scraps",
+  "zh": "铁屑",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鉄鋼",
+  "r": "てっこう",
+  "en": "iron and steel",
+  "zh": "钢铁",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鉛",
+  "r": "なまり",
+  "en": "lead (the metal)",
+  "zh": "铅（金属）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鉱山",
+  "r": "こうざん",
+  "en": "mine (ore)",
+  "zh": "矿（矿石）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鉱業",
+  "r": "こうぎょう",
+  "en": "mining industry",
+  "zh": "矿业",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鋏",
+  "r": "はさみ",
+  "en": "scissors",
+  "zh": "剪刀",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鋸",
+  "r": "のこぎり",
+  "en": "saw",
+  "zh": "锯",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "錆び",
+  "r": "さび",
+  "en": "rust (colour)",
+  "zh": "生锈；锈",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "錯覚",
+  "r": "さっかく",
+  "en": "optical illusion; hallucination",
+  "zh": "视错觉；幻觉",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "錯誤",
+  "r": "さくご",
+  "en": "mistake",
+  "zh": "错误",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鍛える",
+  "r": "きたえる",
+  "en": "to forge; to drill; to temper; to train; to discipline",
+  "zh": "锻造；钻探；脾气暴躁；训练；纪律",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "長",
+  "r": "おさ",
+  "en": "chief; head",
+  "zh": "首领，领导者",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "長々",
+  "r": "ながなが",
+  "en": "long; drawn-out; very long",
+  "zh": "长的;拖长的；很长",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "長大",
+  "r": "ちょうだい",
+  "en": "very long; great length",
+  "zh": "很长；很长",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "長官",
+  "r": "ちょうかん",
+  "en": "chief; (government) secretary",
+  "zh": "首席; （政府）秘书",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "長編",
+  "r": "ちょうへん",
+  "en": "long (e.g. novel film)",
+  "zh": "长（例如小说电影）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "長閑",
+  "r": "のどか",
+  "en": "tranquil; calm; quiet",
+  "zh": "宁静;冷静的;安静的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "閉口",
+  "r": "へいこう",
+  "en": "shut mouth",
+  "zh": "闭嘴",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "閉鎖",
+  "r": "へいさ",
+  "en": "closing; closure; shutdown; lockout; unsociable",
+  "zh": "关闭；关闭;关闭;闭锁;不合群的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "開催",
+  "r": "かいさい",
+  "en": "holding a meeting; open an exhibition",
+  "zh": "召开会议；举办展览",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "開拓",
+  "r": "かいたく",
+  "en": "reclamation (of wasteland); cultivation; pioneer",
+  "zh": "（荒地）开垦；种植；先锋",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "開発",
+  "r": "かいはつ",
+  "en": "development; exploitation",
+  "zh": "发展;开发",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "間々",
+  "r": "まま",
+  "en": "occasionally; frequently",
+  "zh": "偶尔;频繁地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "間もなく",
+  "r": "まもなく",
+  "en": "soon; before long; in a short time",
+  "zh": "很快;不久之后；在短时间内",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "間柄",
+  "r": "あいだがら",
+  "en": "relation(ship)",
+  "zh": "关系）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "間違う",
+  "r": "まちがう",
+  "en": "to make a mistake; to be incorrect; to be mistaken",
+  "zh": "错误，弄错，做错，理解错。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "関与",
+  "r": "かんよ",
+  "en": "participation; taking part in; participating in; being concerned in",
+  "zh": "参与；参加；参与；关心",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "関税",
+  "r": "かんぜい",
+  "en": "customs; duty; tariff",
+  "zh": "海关;责任;关税",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "閲覧",
+  "r": "えつらん",
+  "en": "inspection; reading",
+  "zh": "检查;阅读",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "闇",
+  "r": "やみ",
+  "en": "darkness; the dark; black-marketeering; dark; shady; illegal",
+  "zh": "黑暗；暗处。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "防火",
+  "r": "ぼうか",
+  "en": "fire prevention; fire fighting; fire proof",
+  "zh": "防火；消防；防火",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "防衛",
+  "r": "ぼうえい",
+  "en": "defense; protection; self-defense",
+  "zh": "防御;保护;自卫",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "阻む",
+  "r": "はばむ",
+  "en": "to keep someone from doing; to stop; to prevent; to check; to hinder; to obstruct; to oppose; to thwart",
+  "zh": "阻止某人做事；停止；防止；检查；阻碍；阻碍；反对；阻止",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "阻止",
+  "r": "そし",
+  "en": "obstruction; check; hindrance; prevention; interdiction",
+  "zh": "梗阻;查看;障碍；预防;拦截",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "降伏",
+  "r": "こうふく",
+  "en": "capitulation; surrender; submission",
+  "zh": "投降；投降;提交",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "降水",
+  "r": "こうすい",
+  "en": "rainfall; precipitation",
+  "zh": "雨量;沉淀",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "限定",
+  "r": "げんてい",
+  "en": "limit; restriction",
+  "zh": "限制;限制",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "除外",
+  "r": "じょがい",
+  "en": "exception; exclusion",
+  "zh": "例外;排除",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "陰気",
+  "r": "いんき",
+  "en": "gloom; melancholy",
+  "zh": "愁云;忧郁的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "陳列",
+  "r": "ちんれつ",
+  "en": "exhibition; display; show",
+  "zh": "展览;展示;展示",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "陶器",
+  "r": "とうき",
+  "en": "pottery; ceramics",
+  "zh": "陶器；瓷器",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "階",
+  "r": "かい",
+  "en": "-floor (counter); stories",
+  "zh": "这次；此次",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "階層",
+  "r": "かいそう",
+  "en": "class; level; stratum; hierarchy",
+  "zh": "班级;等级;地层;等级制度",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "階級",
+  "r": "かいきゅう",
+  "en": "class; rank; grade",
+  "zh": "班级;秩;年级",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "隔たる",
+  "r": "へだたる",
+  "en": "to be distant",
+  "zh": "保持距离",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "隔週",
+  "r": "かくしゅう",
+  "en": "every other week",
+  "zh": "每隔一周",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "障る",
+  "r": "さわる",
+  "en": "to hinder; to interfere with; to affect; to do one harm; to be harmful to",
+  "zh": "触摸、碰；与之接触。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "隠居",
+  "r": "いんきょ",
+  "en": "retirement; retired person",
+  "zh": "隐居；退休",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雄",
+  "r": "おす",
+  "en": "male (animal)",
+  "zh": "按、推（用力使物体向前或向下移动）",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雅致",
+  "r": "がち",
+  "en": "artistry; good taste; elegance; grace",
+  "zh": "艺术性;品味好；优雅;优雅",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "集まる",
+  "r": "あつまる",
+  "en": "to gather; to collect; to assemble",
+  "zh": "聚集，集合。指人或物聚在一起，被集中在某处。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "集計",
+  "r": "しゅうけい",
+  "en": "totalization; aggregate",
+  "zh": "总计；总计的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雇用",
+  "r": "こよう",
+  "en": "employment (long term); hire",
+  "zh": "就业（长期）；聘请",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雌",
+  "r": "めす",
+  "en": "female (animal)",
+  "zh": "雌性；母",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雑",
+  "r": "ざつ",
+  "en": "rough; crude",
+  "zh": "复杂、错综复杂。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雑木",
+  "r": "ざつぼく",
+  "en": "various kinds of small trees; assorted trees",
+  "zh": "杂木；杂树",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雑談",
+  "r": "ざつだん",
+  "en": "chatting; idle talk",
+  "zh": "闲谈；聊天",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雑貨",
+  "r": "ざっか",
+  "en": "miscellaneous goods; general goods; sundries",
+  "zh": "杂货",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雛",
+  "r": "ひな",
+  "en": "young bird; chick; doll",
+  "zh": "雏;小鸡;玩具娃娃",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "難",
+  "r": "なん",
+  "en": "difficulty; hardships; defect",
+  "zh": "难关；困难",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "難い",
+  "r": "かたい",
+  "en": "difficult; hard",
+  "zh": "硬的，坚硬的",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雨具",
+  "r": "あまぐ",
+  "en": "rain gear",
+  "zh": "雨具",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雨天",
+  "r": "うてん",
+  "en": "rainy weather",
+  "zh": "阴雨天气",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雪崩",
+  "r": "なだれ",
+  "en": "avalanche",
+  "zh": "雪崩",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "雫",
+  "r": "しずく",
+  "en": "drop (of water)",
+  "zh": "水滴；泪滴",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "零す",
+  "r": "こぼす",
+  "en": "to spill",
+  "zh": "溢出",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "零れる",
+  "r": "こぼれる",
+  "en": "to overflow; to spill",
+  "zh": "溢出；溢出",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "電源",
+  "r": "でんげん",
+  "en": "source of electricity; power (button on TV etc.)",
+  "zh": "电力来源；电源（电视上的按钮等）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "電線",
+  "r": "でんせん",
+  "en": "electric line",
+  "zh": "电线",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "震わせる",
+  "r": "ふるわせる",
+  "en": "to be shaking; to be trembling",
+  "zh": "发抖；颤抖",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "霞む",
+  "r": "かすむ",
+  "en": "to grow hazy; to be misty",
+  "zh": "变得朦胧；变得朦胧",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "露",
+  "r": "つゆ",
+  "en": "dew",
+  "zh": "露",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "露骨",
+  "r": "ろこつ",
+  "en": "1. frank; blunt; plain; outspoken; 2. conspicuous; open; 3. broad; suggestive",
+  "zh": "1. 坦诚；钝;清楚的;直言不讳； 2. 引人注目的；打开; 3. 广泛；暗示性的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "青春",
+  "r": "せいしゅん",
+  "en": "youth; springtime of life; adolescent",
+  "zh": "青年;生命的春天；青少年",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "静止",
+  "r": "せいし",
+  "en": "stillness; repose; standing still",
+  "zh": "寂静;休息;站着不动",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "静的",
+  "r": "せいてき",
+  "en": "static",
+  "zh": "静止的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "非",
+  "r": "ひ",
+  "en": "faulty-; non-",
+  "zh": "天；日子",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "非行",
+  "r": "ひこう",
+  "en": "delinquency; misconduct",
+  "zh": "违法行为；不当行为",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "非難",
+  "r": "ひなん",
+  "en": "blame; attack; criticism",
+  "zh": "责备;攻击;批评",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "面する",
+  "r": "めんする",
+  "en": "to face on; to look out on to",
+  "zh": "面对;留意",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "面会",
+  "r": "めんかい",
+  "en": "interview",
+  "zh": "面试",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "面白い",
+  "r": "おもしろい",
+  "en": "interesting; amusing",
+  "zh": "有趣，令人感兴趣",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "面皰",
+  "r": "にきび",
+  "en": "pimple; acne",
+  "zh": "疙瘩;粉刺",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "面目",
+  "r": "めんぼく",
+  "en": "face; honour; reputation; prestige; dignity; credit",
+  "zh": "脸;荣誉;名声;声望;尊严;信用",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "革命",
+  "r": "かくめい",
+  "en": "revolution",
+  "zh": "革命",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "革新",
+  "r": "かくしん",
+  "en": "reform; innovation",
+  "zh": "坚定的信念，确信",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鞠",
+  "r": "まり",
+  "en": "ball",
+  "zh": "球",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "音色",
+  "r": "おんいろ",
+  "en": "tone color; tone quality; timbre; synthesizer patch",
+  "zh": "音色;音质;音色;合成器补丁",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "頂",
+  "r": "いただき",
+  "en": "(top of) head; summit; spire",
+  "zh": "头（顶部）；首脑;尖塔",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "預金",
+  "r": "よきん",
+  "en": "deposit; bank account",
+  "zh": "订金;银行账户",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "頑丈",
+  "r": "がんじょう",
+  "en": "solid; firm; stout; burly; strong; sturdy",
+  "zh": "坚硬的;公司;肥硕;魁梧；强的;结实的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "頑固",
+  "r": "がんこ",
+  "en": "stubbornness; obstinacy",
+  "zh": "固执；固执",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "領土",
+  "r": "りょうど",
+  "en": "dominion; territory; possession",
+  "zh": "统治；领土;拥有",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "領地",
+  "r": "りょうち",
+  "en": "territory; dominion",
+  "zh": "领土;统治",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "領域",
+  "r": "りょういき",
+  "en": "area; domain; territory; field; region; regime",
+  "zh": "区域;领域;领土;场地;地区;政权",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "領海",
+  "r": "りょうかい",
+  "en": "territorial waters",
+  "zh": "同意；认可；许可。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "頬っぺた",
+  "r": "ほっぺた",
+  "en": "cheek",
+  "zh": "脸颊",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "頻りに",
+  "r": "しきりに",
+  "en": "frequently; repeatedly; incessantly; eagerly",
+  "zh": "频繁地;反复;不已;热切地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "頻繁",
+  "r": "ひんぱん",
+  "en": "frequency",
+  "zh": "频率",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "頼み",
+  "r": "たのみ",
+  "en": "request; favor; reliance; dependence",
+  "zh": "要求;青睐；依赖；依赖",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "顎",
+  "r": "あご",
+  "en": "chin",
+  "zh": "下巴",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "顔付き",
+  "r": "かおつき",
+  "en": "(outward) looks; features; face; countenance; expression",
+  "zh": "（外）看起来；特征;脸;面容;表达",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "願書",
+  "r": "がんしょ",
+  "en": "written application or petition",
+  "zh": "书面申请或请愿书",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "類",
+  "r": "たぐい",
+  "en": "a kind",
+  "zh": "一种",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "類似",
+  "r": "るいじ",
+  "en": "analogous",
+  "zh": "类似的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "類推",
+  "r": "るいすい",
+  "en": "analogy",
+  "zh": "类比",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "顧みる",
+  "r": "かえりみる",
+  "en": "to look back; to turn around; to review",
+  "zh": "回头看；转身；审查",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "風俗",
+  "r": "ふうぞく",
+  "en": "1. manners; customs; 2. sex service; sex industry",
+  "zh": "1. 礼仪；海关; 2. 性服务；性产业",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "風土",
+  "r": "ふうど",
+  "en": "natural features; topography; climate; spiritual features",
+  "zh": "风土；风土人情",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "風習",
+  "r": "ふうしゅう",
+  "en": "custom",
+  "zh": "风俗",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "風車",
+  "r": "かざぐるま",
+  "en": "1. windmill; 2. pinwheel",
+  "zh": "1.风车； 2.风车",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "食い違う",
+  "r": "くいちがう",
+  "en": "to cross each other; to run counter to; to differ; to clash; to go awry",
+  "zh": "互相交叉；背道而驰；有所不同；发生冲突；出差错",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "飲み込む",
+  "r": "のみこむ",
+  "en": "to gulp down; to swallow deeply; to understand; to take in; to catch on to; to learn; to digest",
+  "zh": "吞下，领会。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "飼育",
+  "r": "しいく",
+  "en": "breeding; raising; rearing",
+  "zh": "饲养；喂养",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "飽和",
+  "r": "ほうわ",
+  "en": "saturation",
+  "zh": "饱和",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "養う",
+  "r": "やしなう",
+  "en": "to rear; to maintain; to cultivate",
+  "zh": "到后面；维持；培养",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "養成",
+  "r": "ようせい",
+  "en": "training; development",
+  "zh": "训练;发展",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "養護",
+  "r": "ようご",
+  "en": "protection; nursing; protective care",
+  "zh": "保护;护理；保护性护理",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "館",
+  "r": "かん",
+  "en": "house; hall; building; hotel; inn; guesthouse",
+  "zh": "时间，小时",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "饂飩",
+  "r": "うどん",
+  "en": "noodles (Japanese)",
+  "zh": "面条（日语）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "首脳",
+  "r": "しゅのう",
+  "en": "head; brains",
+  "zh": "头;大脑",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "首輪",
+  "r": "くびわ",
+  "en": "necklace; choker",
+  "zh": "项链;项圈",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "首飾り",
+  "r": "くびかざり",
+  "en": "necklace",
+  "zh": "项链",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "香辛料",
+  "r": "こうしんりょう",
+  "en": "spices",
+  "zh": "香料",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "馬鹿らしい",
+  "r": "ばからしい",
+  "en": "absurd",
+  "zh": "荒诞",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "馬鹿馬鹿しい",
+  "r": "ばかばかしい",
+  "en": "stupid",
+  "zh": "愚蠢的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "馴らす",
+  "r": "ならす",
+  "en": "to domesticate; to tame",
+  "zh": "驯养；使习惯",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "馴れ馴れしい",
+  "r": "なれなれしい",
+  "en": "over-familiar",
+  "zh": "过于亲昵的",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "駄作",
+  "r": "ださく",
+  "en": "poor work; rubbish",
+  "zh": "工作不好；垃圾",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "駆けっこ",
+  "r": "かけっこ",
+  "en": "(foot) race",
+  "zh": "（脚）赛跑",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "駆ける",
+  "r": "かける",
+  "en": "to run (race esp. horse); to gallop; to canter",
+  "zh": "奔跑；疾驰",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "駆け足",
+  "r": "かけあし",
+  "en": "running fast; double time",
+  "zh": "跑得快；双倍时间",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "騒動",
+  "r": "そうどう",
+  "en": "strife; riot; rebellion",
+  "zh": "冲突；暴动;叛乱",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "騙す",
+  "r": "だます",
+  "en": "to trick; to cheat; to deceive",
+  "zh": "欺骗；作弊；欺骗",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "驚き",
+  "r": "おどろき",
+  "en": "surprise; astonishment; wonder",
+  "zh": "惊讶，惊喜",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "驚異",
+  "r": "きょうい",
+  "en": "wonder; miracle",
+  "zh": "想知道;奇迹",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "骨董品",
+  "r": "こっとうひん",
+  "en": "curio",
+  "zh": "古玩",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "高",
+  "r": "たか",
+  "en": "quantity; amount; volume; number; amount of money",
+  "zh": "数量;数量;体积;数字;金额",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "高まる",
+  "r": "たかまる",
+  "en": "to rise; to swell; to be promoted",
+  "zh": "上升；膨胀；得到晋升",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "高原",
+  "r": "こうげん",
+  "en": "tableland; plateau",
+  "zh": "台地;高原",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "高尚",
+  "r": "こうしょう",
+  "en": "high; noble; refined; advanced",
+  "zh": "高尚；高雅",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鬱陶しい",
+  "r": "うっとうしい",
+  "en": "gloomy; depressing",
+  "zh": "阴沉;沉闷",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "魂",
+  "r": "こん",
+  "en": "soul; spirit",
+  "zh": "灵魂，精神",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鮮やか",
+  "r": "あざやか",
+  "en": "vivid; clear; brilliant",
+  "zh": "生动;清除;杰出的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鳥居",
+  "r": "とりい",
+  "en": "torii (Shinto shrine archway)",
+  "zh": "鸟居（神社牌坊）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "麻",
+  "r": "あさ",
+  "en": "flax; linen; hemp",
+  "zh": "早晨，清晨",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "麻痺",
+  "r": "まひ",
+  "en": "paralysis; palsy; numbness; stupor",
+  "zh": "麻痹;麻痹;麻木;昏迷",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "麻酔",
+  "r": "ますい",
+  "en": "anaesthesia",
+  "zh": "麻醉",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "黄金",
+  "r": "おうごん",
+  "en": "gold",
+  "zh": "金子",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "黒字",
+  "r": "くろじ",
+  "en": "balance (figure) in the black",
+  "zh": "黑色平衡（图）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "黴菌",
+  "r": "ばいきん",
+  "en": "bacteria; germ(s)",
+  "zh": "细菌;细菌",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "鼾",
+  "r": "いびき",
+  "en": "snoring",
+  "zh": "打鼾",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "齎らす",
+  "r": "もたらす",
+  "en": "to bring; to take; to bring about",
+  "zh": "带来；采取；带来",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ }
+]

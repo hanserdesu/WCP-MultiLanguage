@@ -1,0 +1,602 @@
+[
+{
+"word": "Tür",
+"pos": "n.f.",
+"zh": "门",
+"level": "a1"
+},
+{
+"word": "Auto",
+"pos": "n.",
+"zh": "汽车",
+"level": "a1"
+},
+{
+"word": "Auge",
+"pos": "n.",
+"zh": "眼睛",
+"level": "a1"
+},
+{
+"word": "Polizei",
+"pos": "n.f.",
+"zh": "警察",
+"level": "a1"
+},
+{
+"word": "fast",
+"pos": "adv.",
+"zh": "几乎",
+"level": "a1"
+},
+{
+"word": "treffen",
+"pos": "v.",
+"zh": "遇见；会面",
+"level": "a1"
+},
+{
+"word": "arbeiten",
+"pos": "v.",
+"zh": "工作",
+"level": "a1"
+},
+{
+"word": "neu",
+"pos": "adj.",
+"zh": "新的",
+"level": "a1"
+},
+{
+"word": "hinter",
+"pos": "präp.",
+"zh": "在…后面",
+"level": "a1"
+},
+{
+"word": "Tochter",
+"pos": "n.f.",
+"zh": "女儿",
+"level": "a1"
+},
+{
+"word": "Idee",
+"pos": "n.f.",
+"zh": "主意",
+"level": "a1"
+},
+{
+"word": "Schwester",
+"pos": "n.f.",
+"zh": "姐妹；护士",
+"level": "a1"
+},
+{
+"word": "ruhig",
+"pos": "adj.",
+"zh": "安静的",
+"level": "a1"
+},
+{
+"word": "spät",
+"pos": "adj.",
+"zh": "晚的",
+"level": "a1"
+},
+{
+"word": "kurz",
+"pos": "adj.",
+"zh": "短的",
+"level": "a1"
+},
+{
+"word": "suchen",
+"pos": "v.",
+"zh": "寻找",
+"level": "a1"
+},
+{
+"word": "spielen",
+"pos": "v.",
+"zh": "玩；演奏",
+"level": "a1"
+},
+{
+"word": "groß",
+"pos": "adj.",
+"zh": "大的",
+"level": "a1"
+},
+{
+"word": "Hand",
+"pos": "n.f.",
+"zh": "手",
+"level": "a1"
+},
+{
+"word": "Mama",
+"pos": "n.f.",
+"zh": "妈妈",
+"level": "a1"
+},
+{
+"word": "Stunde",
+"pos": "n.f.",
+"zh": "小时",
+"level": "a1"
+},
+{
+"word": "oben",
+"pos": "adv.",
+"zh": "上面",
+"level": "a1"
+},
+{
+"word": "gestern",
+"pos": "adv.",
+"zh": "昨天",
+"level": "a1"
+},
+{
+"word": "schwer",
+"pos": "adj.",
+"zh": "困难的；重的",
+"level": "a1"
+},
+{
+"word": "anders",
+"pos": "adv.",
+"zh": "不同地",
+"level": "a1"
+},
+{
+"word": "fünf",
+"pos": "num.",
+"zh": "五",
+"level": "a1"
+},
+{
+"word": "Wasser",
+"pos": "n.",
+"zh": "水",
+"level": "a1"
+},
+{
+"word": "Geschichte",
+"pos": "n.f.",
+"zh": "历史；故事",
+"level": "a1"
+},
+{
+"word": "wenig",
+"pos": "adj.",
+"zh": "少量；少许",
+"level": "a1"
+},
+{
+"word": "nett",
+"pos": "adj.",
+"zh": "友好的；不错的",
+"level": "a1"
+},
+{
+"word": "Woche",
+"pos": "n.f.",
+"zh": "星期",
+"level": "a1"
+},
+{
+"word": "deshalb",
+"pos": "adv.",
+"zh": "因此",
+"level": "a1"
+},
+{
+"word": "welche",
+"pos": "pron.",
+"zh": "哪个",
+"level": "a1"
+},
+{
+"word": "hoch",
+"pos": "adj.",
+"zh": "高的",
+"level": "a1"
+},
+{
+"word": "schauen",
+"pos": "v.",
+"zh": "看",
+"level": "a1"
+},
+{
+"word": "Land",
+"pos": "n.",
+"zh": "国家；土地",
+"level": "a1"
+},
+{
+"word": "Zimmer",
+"pos": "n.",
+"zh": "房间",
+"level": "a1"
+},
+{
+"word": "vier",
+"pos": "num.",
+"zh": "四",
+"level": "a1"
+},
+{
+"word": "Spaß",
+"pos": "n.m.",
+"zh": "乐趣；玩笑",
+"level": "a1"
+},
+{
+"word": "zeigen",
+"pos": "v.",
+"zh": "展示",
+"level": "a1"
+},
+{
+"word": "manchmal",
+"pos": "adv.",
+"zh": "有时",
+"level": "a1"
+},
+{
+"word": "Seite",
+"pos": "n.f.",
+"zh": "页；边",
+"level": "a1"
+},
+{
+"word": "zwischen",
+"pos": "präp.",
+"zh": "在…之间",
+"level": "a1"
+},
+{
+"word": "Spiel",
+"pos": "n.",
+"zh": "游戏；比赛",
+"level": "a1"
+},
+{
+"word": "Freundin",
+"pos": "n.f.",
+"zh": "女朋友；女性朋友",
+"level": "a1"
+},
+{
+"word": "entschuldigen",
+"pos": "v.",
+"zh": "原谅",
+"level": "a1"
+},
+{
+"word": "wichtig",
+"pos": "adj.",
+"zh": "重要的",
+"level": "a1"
+},
+{
+"word": "Bett",
+"pos": "n.",
+"zh": "床",
+"level": "a1"
+},
+{
+"word": "schlecht",
+"pos": "adj.",
+"zh": "差的；坏的",
+"level": "a1"
+},
+{
+"word": "Schule",
+"pos": "n.f.",
+"zh": "学校",
+"level": "a1"
+},
+{
+"word": "Entschuldigung",
+"pos": "n.f.",
+"zh": "打扰一下；道歉",
+"level": "a1"
+},
+{
+"word": "Wort",
+"pos": "n.",
+"zh": "词；话",
+"level": "a1"
+},
+{
+"word": "schlafen",
+"pos": "v.",
+"zh": "睡觉",
+"level": "a1"
+},
+{
+"word": "Gesicht",
+"pos": "n.",
+"zh": "脸",
+"level": "a1"
+},
+{
+"word": "unten",
+"pos": "adv.",
+"zh": "下面",
+"level": "a1"
+},
+{
+"word": "Teil",
+"pos": "n.m.",
+"zh": "部分",
+"level": "a1"
+},
+{
+"word": "oft",
+"pos": "adv.",
+"zh": "经常",
+"level": "a1"
+},
+{
+"word": "trinken",
+"pos": "v.",
+"zh": "喝",
+"level": "a1"
+},
+{
+"word": "Eltern",
+"pos": "n.",
+"zh": "父母",
+"level": "a1"
+},
+{
+"word": "Herz",
+"pos": "n.",
+"zh": "心",
+"level": "a1"
+},
+{
+"word": "glücklich",
+"pos": "adj.",
+"zh": "幸福的；幸运的",
+"level": "a1"
+},
+{
+"word": "alt",
+"pos": "adj.",
+"zh": "老的；旧的",
+"level": "a1"
+},
+{
+"word": "wiedersehen",
+"pos": "v.",
+"zh": "再见面",
+"level": "a1"
+},
+{
+"word": "frei",
+"pos": "adj.",
+"zh": "自由的；空闲的",
+"level": "a1"
+},
+{
+"word": "wen",
+"pos": "pron.",
+"zh": "谁（宾语）",
+"level": "a1"
+},
+{
+"word": "möglich",
+"pos": "adj.",
+"zh": "可能的",
+"level": "a1"
+},
+{
+"word": "Platz",
+"pos": "n.m.",
+"zh": "广场；位置",
+"level": "a1"
+},
+{
+"word": "Papa",
+"pos": "n.m.",
+"zh": "爸爸",
+"level": "a1"
+},
+{
+"word": "falsch",
+"pos": "adj.",
+"zh": "错误的",
+"level": "a1"
+},
+{
+"word": "Nummer",
+"pos": "n.f.",
+"zh": "号码",
+"level": "a1"
+},
+{
+"word": "früher",
+"pos": "adv.",
+"zh": "以前；更早",
+"level": "a1"
+},
+{
+"word": "früh",
+"pos": "adj.",
+"zh": "早的",
+"level": "a1"
+},
+{
+"word": "wahrscheinlich",
+"pos": "adv.",
+"zh": "大概",
+"level": "a1"
+},
+{
+"word": "Telefon",
+"pos": "n.",
+"zh": "电话",
+"level": "a1"
+},
+{
+"word": "willkommen",
+"pos": "adj.",
+"zh": "欢迎",
+"level": "a1"
+},
+{
+"word": "Plan",
+"pos": "n.m.",
+"zh": "计划",
+"level": "a1"
+},
+{
+"word": "Fehler",
+"pos": "n.m.",
+"zh": "错误",
+"level": "a1"
+},
+{
+"word": "zehn",
+"pos": "num.",
+"zh": "十",
+"level": "a1"
+},
+{
+"word": "Pass",
+"pos": "n.m.",
+"zh": "护照",
+"level": "a1"
+},
+{
+"word": "nächste",
+"pos": "adj.",
+"zh": "下一个",
+"level": "a1"
+},
+{
+"word": "langsam",
+"pos": "adj.",
+"zh": "慢的",
+"level": "a1"
+},
+{
+"word": "sechs",
+"pos": "num.",
+"zh": "六",
+"level": "a1"
+},
+{
+"word": "lieben",
+"pos": "v.",
+"zh": "爱",
+"level": "a1"
+},
+{
+"word": "rufen",
+"pos": "v.",
+"zh": "呼叫",
+"level": "a1"
+},
+{
+"word": "leider",
+"pos": "adv.",
+"zh": "可惜",
+"level": "a1"
+},
+{
+"word": "voll",
+"pos": "adj.",
+"zh": "满的",
+"level": "a1"
+},
+{
+"word": "Film",
+"pos": "n.m.",
+"zh": "电影",
+"level": "a1"
+},
+{
+"word": "Hund",
+"pos": "n.m.",
+"zh": "狗",
+"level": "a1"
+},
+{
+"word": "Schiff",
+"pos": "n.",
+"zh": "船",
+"level": "a1"
+},
+{
+"word": "danach",
+"pos": "adv.",
+"zh": "之后",
+"level": "a1"
+},
+{
+"word": "lernen",
+"pos": "v.",
+"zh": "学习",
+"level": "a1"
+},
+{
+"word": "Feuer",
+"pos": "n.",
+"zh": "火",
+"level": "a1"
+},
+{
+"word": "Kaffee",
+"pos": "n.m.",
+"zh": "咖啡",
+"level": "a1"
+},
+{
+"word": "Luft",
+"pos": "n.f.",
+"zh": "空气",
+"level": "a1"
+},
+{
+"word": "Buch",
+"pos": "n.",
+"zh": "书",
+"level": "a1"
+},
+{
+"word": "krank",
+"pos": "adj.",
+"zh": "生病的",
+"level": "a1"
+},
+{
+"word": "fühlen",
+"pos": "v.",
+"zh": "感觉",
+"level": "a1"
+},
+{
+"word": "Arzt",
+"pos": "n.m.",
+"zh": "医生",
+"level": "a1"
+},
+{
+"word": "Straße",
+"pos": "n.f.",
+"zh": "街道",
+"level": "a1"
+},
+{
+"word": "super",
+"pos": "adj.",
+"zh": "极好的",
+"level": "a1"
+}
+]

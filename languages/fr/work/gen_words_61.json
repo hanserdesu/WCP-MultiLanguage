@@ -1,0 +1,602 @@
+[
+{
+"word": "concitoyen",
+"pos": "n.m.",
+"zh": "同胞；同国公民",
+"level": "b2"
+},
+{
+"word": "concorder",
+"pos": "v.",
+"zh": "一致；相符",
+"level": "b2"
+},
+{
+"word": "concurrent",
+"pos": "n.m.",
+"zh": "竞争者；对手",
+"level": "b2"
+},
+{
+"word": "condamnation",
+"pos": "n.f.",
+"zh": "判刑；谴责",
+"level": "b2"
+},
+{
+"word": "condamné",
+"pos": "n.m.",
+"zh": "囚犯；被判刑者",
+"level": "b2"
+},
+{
+"word": "conditionnel",
+"pos": "n.m.",
+"zh": "条件式（语法）",
+"level": "b2"
+},
+{
+"word": "condoléance",
+"pos": "n.f.",
+"zh": "吊唁；哀悼",
+"level": "b2"
+},
+{
+"word": "conduit",
+"pos": "n.m.",
+"zh": "管道；导管",
+"level": "b2"
+},
+{
+"word": "confesser",
+"pos": "v.",
+"zh": "坦白；告解",
+"level": "b2"
+},
+{
+"word": "confidence",
+"pos": "n.f.",
+"zh": "知心话；隐秘",
+"level": "b2"
+},
+{
+"word": "confidentiel",
+"pos": "adj.",
+"zh": "机密的；保密的",
+"level": "b2"
+},
+{
+"word": "confirmé",
+"pos": "adj.",
+"zh": "确认的；资深的",
+"level": "b2"
+},
+{
+"word": "confisquer",
+"pos": "v.",
+"zh": "没收；充公",
+"level": "b2"
+},
+{
+"word": "conformément",
+"pos": "adv.",
+"zh": "按照；依照",
+"level": "b2"
+},
+{
+"word": "confronter",
+"pos": "v.",
+"zh": "使对质；对照",
+"level": "b2"
+},
+{
+"word": "confrère",
+"pos": "n.m.",
+"zh": "同行；同僚",
+"level": "b2"
+},
+{
+"word": "confrérie",
+"pos": "n.f.",
+"zh": "兄弟会；行会",
+"level": "b2"
+},
+{
+"word": "conférer",
+"pos": "v.",
+"zh": "授予；赋予",
+"level": "b2"
+},
+{
+"word": "congédier",
+"pos": "v.",
+"zh": "辞退；解雇",
+"level": "b2"
+},
+{
+"word": "conjugal",
+"pos": "adj.",
+"zh": "夫妻的；婚姻的",
+"level": "b2"
+},
+{
+"word": "conjurer",
+"pos": "v.",
+"zh": "驱除（厄运）；恳求",
+"level": "b2"
+},
+{
+"word": "connasse",
+"pos": "n.f.",
+"zh": "蠢货（粗俗骂语）",
+"level": "b2"
+},
+{
+"word": "consacrer",
+"pos": "v.",
+"zh": "奉献；专用于",
+"level": "b2"
+},
+{
+"word": "consentement",
+"pos": "n.m.",
+"zh": "同意；准许",
+"level": "b2"
+},
+{
+"word": "consentir",
+"pos": "v.",
+"zh": "同意；准许",
+"level": "b2"
+},
+{
+"word": "conservatoire",
+"pos": "n.m.",
+"zh": "音乐学院",
+"level": "b2"
+},
+{
+"word": "consigner",
+"pos": "v.",
+"zh": "登记；记录；存放",
+"level": "b2"
+},
+{
+"word": "conspiration",
+"pos": "n.f.",
+"zh": "阴谋；密谋",
+"level": "b2"
+},
+{
+"word": "constitution",
+"pos": "n.f.",
+"zh": "宪法；体质；构成",
+"level": "b2"
+},
+{
+"word": "consumer",
+"pos": "v.",
+"zh": "烧毁；吞噬",
+"level": "b2"
+},
+{
+"word": "conséquent",
+"pos": "adj.",
+"zh": "相当大的；可观的",
+"level": "b2"
+},
+{
+"word": "contagieux",
+"pos": "adj.",
+"zh": "传染性的",
+"level": "b2"
+},
+{
+"word": "contamination",
+"pos": "n.f.",
+"zh": "污染；感染",
+"level": "b2"
+},
+{
+"word": "contaminer",
+"pos": "v.",
+"zh": "污染；传染",
+"level": "b2"
+},
+{
+"word": "contempler",
+"pos": "v.",
+"zh": "凝视；沉思",
+"level": "b2"
+},
+{
+"word": "conteneur",
+"pos": "n.m.",
+"zh": "集装箱",
+"level": "b2"
+},
+{
+"word": "conter",
+"pos": "v.",
+"zh": "讲述；编造",
+"level": "b2"
+},
+{
+"word": "contourner",
+"pos": "v.",
+"zh": "绕过；规避",
+"level": "b2"
+},
+{
+"word": "contracter",
+"pos": "v.",
+"zh": "感染；订立",
+"level": "b2"
+},
+{
+"word": "contradictoire",
+"pos": "adj.",
+"zh": "互相矛盾的",
+"level": "b2"
+},
+{
+"word": "contraindre",
+"pos": "v.",
+"zh": "强迫；迫使",
+"level": "b2"
+},
+{
+"word": "contrarier",
+"pos": "v.",
+"zh": "使恼火；违逆",
+"level": "b2"
+},
+{
+"word": "contrarié",
+"pos": "adj.",
+"zh": "恼火的；不如意的",
+"level": "b2"
+},
+{
+"word": "contravention",
+"pos": "n.f.",
+"zh": "轻罪；违章罚单",
+"level": "b2"
+},
+{
+"word": "contrebande",
+"pos": "n.f.",
+"zh": "走私；违禁品",
+"level": "b2"
+},
+{
+"word": "contredire",
+"pos": "v.",
+"zh": "反驳；与…相矛盾",
+"level": "b2"
+},
+{
+"word": "contremaître",
+"pos": "n.m.",
+"zh": "工头；领班",
+"level": "b2"
+},
+{
+"word": "contrer",
+"pos": "v.",
+"zh": "拦阻；挡开",
+"level": "b2"
+},
+{
+"word": "contribuable",
+"pos": "n.",
+"zh": "纳税人",
+"level": "b2"
+},
+{
+"word": "contribution",
+"pos": "n.f.",
+"zh": "贡献；分摊",
+"level": "b2"
+},
+{
+"word": "contrée",
+"pos": "n.f.",
+"zh": "地区；国度",
+"level": "b2"
+},
+{
+"word": "contusion",
+"pos": "n.f.",
+"zh": "挫伤；淤青",
+"level": "b2"
+},
+{
+"word": "convenu",
+"pos": "adj.",
+"zh": "商定的；惯常的；老套的",
+"level": "b2"
+},
+{
+"word": "convertir",
+"pos": "v.",
+"zh": "转变；转换；使皈依",
+"level": "b2"
+},
+{
+"word": "convier",
+"pos": "v.",
+"zh": "邀请",
+"level": "b2"
+},
+{
+"word": "convoi",
+"pos": "n.m.",
+"zh": "车队；护送",
+"level": "b2"
+},
+{
+"word": "convoiter",
+"pos": "v.",
+"zh": "觊觎；垂涎",
+"level": "b2"
+},
+{
+"word": "coque",
+"pos": "n.f.",
+"zh": "壳；船体",
+"level": "b2"
+},
+{
+"word": "coquin",
+"pos": "n.m.",
+"zh": "顽童；坏蛋",
+"level": "b2"
+},
+{
+"word": "cor",
+"pos": "n.m.",
+"zh": "圆号；号角",
+"level": "b2"
+},
+{
+"word": "corbeau",
+"pos": "n.m.",
+"zh": "乌鸦",
+"level": "b2"
+},
+{
+"word": "coriace",
+"pos": "adj.",
+"zh": "坚韧的；难对付的",
+"level": "b2"
+},
+{
+"word": "cornichon",
+"pos": "n.m.",
+"zh": "酸黄瓜",
+"level": "b2"
+},
+{
+"word": "corporel",
+"pos": "adj.",
+"zh": "身体的；肉体的",
+"level": "b2"
+},
+{
+"word": "corrompre",
+"pos": "v.",
+"zh": "使腐败；收买",
+"level": "b2"
+},
+{
+"word": "corrompu",
+"pos": "adj.",
+"zh": "腐败的；堕落的",
+"level": "b2"
+},
+{
+"word": "corruption",
+"pos": "n.f.",
+"zh": "腐败；贪污",
+"level": "b2"
+},
+{
+"word": "cortex",
+"pos": "n.m.",
+"zh": "皮层；大脑皮层",
+"level": "b2"
+},
+{
+"word": "cortège",
+"pos": "n.m.",
+"zh": "车队；行列",
+"level": "b2"
+},
+{
+"word": "corvée",
+"pos": "n.f.",
+"zh": "苦差事；劳役",
+"level": "b2"
+},
+{
+"word": "cosmique",
+"pos": "adj.",
+"zh": "宇宙的",
+"level": "b2"
+},
+{
+"word": "cosmos",
+"pos": "n.m.",
+"zh": "宇宙",
+"level": "b2"
+},
+{
+"word": "costard",
+"pos": "n.m.",
+"zh": "西装（口语）",
+"level": "b2"
+},
+{
+"word": "cote",
+"pos": "n.f.",
+"zh": "行情；评分",
+"level": "b2"
+},
+{
+"word": "coté",
+"pos": "adj.",
+"zh": "受青睐的；行情好的",
+"level": "b2"
+},
+{
+"word": "couillon",
+"pos": "n.m.",
+"zh": "蠢货；笨蛋（粗俗）",
+"level": "b2"
+},
+{
+"word": "coulisse",
+"pos": "n.f.",
+"zh": "（舞台）侧幕；幕后",
+"level": "b2"
+},
+{
+"word": "coupé",
+"pos": "adj.",
+"zh": "切开的；剪断的",
+"level": "b2"
+},
+{
+"word": "courber",
+"pos": "v.",
+"zh": "使弯曲",
+"level": "b2"
+},
+{
+"word": "couronnement",
+"pos": "n.m.",
+"zh": "加冕；顶峰",
+"level": "b2"
+},
+{
+"word": "couronner",
+"pos": "v.",
+"zh": "加冕；圆满完成",
+"level": "b2"
+},
+{
+"word": "coursier",
+"pos": "n.m.",
+"zh": "信使；送件员",
+"level": "b2"
+},
+{
+"word": "courtier",
+"pos": "n.m.",
+"zh": "经纪人；掮客",
+"level": "b2"
+},
+{
+"word": "courtisan",
+"pos": "n.m.",
+"zh": "朝臣；谄媚者",
+"level": "b2"
+},
+{
+"word": "courtiser",
+"pos": "v.",
+"zh": "追求；献殷勤",
+"level": "b2"
+},
+{
+"word": "courtoisie",
+"pos": "n.f.",
+"zh": "彬彬有礼；殷勤",
+"level": "b2"
+},
+{
+"word": "couver",
+"pos": "v.",
+"zh": "孵卵；酝酿",
+"level": "b2"
+},
+{
+"word": "couvre-feu",
+"pos": "n.m.",
+"zh": "宵禁",
+"level": "b2"
+},
+{
+"word": "coyote",
+"pos": "n.m.",
+"zh": "郊狼",
+"level": "b2"
+},
+{
+"word": "crack",
+"pos": "n.m.",
+"zh": "能手；高手",
+"level": "b2"
+},
+{
+"word": "cracker",
+"pos": "n.m.",
+"zh": "脆薄饼干",
+"level": "b2"
+},
+{
+"word": "cramer",
+"pos": "v.",
+"zh": "烧糊；烤焦（口语）",
+"level": "b2"
+},
+{
+"word": "crampe",
+"pos": "n.f.",
+"zh": "抽筋；痉挛",
+"level": "b2"
+},
+{
+"word": "cran",
+"pos": "n.m.",
+"zh": "凹口；胆量（口语）",
+"level": "b2"
+},
+{
+"word": "crapule",
+"pos": "n.f.",
+"zh": "恶棍；无赖",
+"level": "b2"
+},
+{
+"word": "craquement",
+"pos": "n.m.",
+"zh": "咔嚓声；爆裂声",
+"level": "b2"
+},
+{
+"word": "crasse",
+"pos": "n.f.",
+"zh": "污垢",
+"level": "b2"
+},
+{
+"word": "cricket",
+"pos": "n.m.",
+"zh": "板球",
+"level": "b2"
+},
+{
+"word": "crinière",
+"pos": "n.f.",
+"zh": "鬃毛",
+"level": "b2"
+},
+{
+"word": "croc",
+"pos": "n.m.",
+"zh": "犬牙；（衣）钩扣",
+"level": "b2"
+}
+]

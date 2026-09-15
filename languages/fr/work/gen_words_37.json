@@ -1,0 +1,602 @@
+[
+{
+"word": "entièrement",
+"pos": "adv.",
+"zh": "完全地",
+"level": "b1"
+},
+{
+"word": "entourer",
+"pos": "v.",
+"zh": "围绕；围住",
+"level": "b1"
+},
+{
+"word": "entraider",
+"pos": "v.",
+"zh": "互相帮助",
+"level": "b1"
+},
+{
+"word": "entraîner",
+"pos": "v.",
+"zh": "训练；导致；带动",
+"level": "b1"
+},
+{
+"word": "entre-temps",
+"pos": "adv.",
+"zh": "在此期间",
+"level": "b1"
+},
+{
+"word": "entrepreneur",
+"pos": "n.m.",
+"zh": "企业家；承包商",
+"level": "b1"
+},
+{
+"word": "entreprise",
+"pos": "n.f.",
+"zh": "企业；公司",
+"level": "b1"
+},
+{
+"word": "entretien",
+"pos": "n.m.",
+"zh": "面试；保养；谈话",
+"level": "b1"
+},
+{
+"word": "envahir",
+"pos": "v.",
+"zh": "侵占；涌入",
+"level": "b1"
+},
+{
+"word": "envelopper",
+"pos": "v.",
+"zh": "包；包裹",
+"level": "b1"
+},
+{
+"word": "environnement",
+"pos": "n.m.",
+"zh": "环境",
+"level": "b1"
+},
+{
+"word": "envisager",
+"pos": "v.",
+"zh": "考虑；打算",
+"level": "b1"
+},
+{
+"word": "envoi",
+"pos": "n.m.",
+"zh": "寄送；发运",
+"level": "b1"
+},
+{
+"word": "envoler",
+"pos": "v.",
+"zh": "飞走；腾空",
+"level": "b1"
+},
+{
+"word": "errer",
+"pos": "v.",
+"zh": "漂泊；游荡",
+"level": "b1"
+},
+{
+"word": "escalade",
+"pos": "n.f.",
+"zh": "攀登；攀岩",
+"level": "b1"
+},
+{
+"word": "escalader",
+"pos": "v.",
+"zh": "攀登；爬上",
+"level": "b1"
+},
+{
+"word": "esclavage",
+"pos": "n.m.",
+"zh": "奴隶制；奴役",
+"level": "b1"
+},
+{
+"word": "escroquer",
+"pos": "v.",
+"zh": "诈骗；骗取",
+"level": "b1"
+},
+{
+"word": "escroquerie",
+"pos": "n.f.",
+"zh": "诈骗",
+"level": "b1"
+},
+{
+"word": "espion",
+"pos": "n.m.",
+"zh": "间谍",
+"level": "b1"
+},
+{
+"word": "espionnage",
+"pos": "n.m.",
+"zh": "间谍活动",
+"level": "b1"
+},
+{
+"word": "espionner",
+"pos": "v.",
+"zh": "侦察；监视",
+"level": "b1"
+},
+{
+"word": "espèce",
+"pos": "n.f.",
+"zh": "种类；物种",
+"level": "b1"
+},
+{
+"word": "essai",
+"pos": "n.m.",
+"zh": "尝试；试验；论文",
+"level": "b1"
+},
+{
+"word": "essentiel",
+"pos": "n.m.",
+"zh": "要点；本质",
+"level": "b1"
+},
+{
+"word": "esthétique",
+"pos": "adj.",
+"zh": "美学的；审美",
+"level": "b1"
+},
+{
+"word": "estimation",
+"pos": "n.f.",
+"zh": "估计；估价",
+"level": "b1"
+},
+{
+"word": "estime",
+"pos": "n.f.",
+"zh": "尊重；好感",
+"level": "b1"
+},
+{
+"word": "estimer",
+"pos": "v.",
+"zh": "估计；认为",
+"level": "b1"
+},
+{
+"word": "eux-mêmes",
+"pos": "pron.",
+"zh": "他们自己",
+"level": "b1"
+},
+{
+"word": "ex-femme",
+"pos": "n.f.",
+"zh": "前妻",
+"level": "b1"
+},
+{
+"word": "ex-mari",
+"pos": "n.m.",
+"zh": "前夫",
+"level": "b1"
+},
+{
+"word": "exagérer",
+"pos": "v.",
+"zh": "夸张；夸大",
+"level": "b1"
+},
+{
+"word": "exagéré",
+"pos": "adj.",
+"zh": "夸张的；过分的",
+"level": "b1"
+},
+{
+"word": "exam",
+"pos": "n.m.",
+"zh": "考试（口语）",
+"level": "b1"
+},
+{
+"word": "exceptionnel",
+"pos": "adj.",
+"zh": "异常的；杰出的",
+"level": "b1"
+},
+{
+"word": "excepté",
+"pos": "prép.",
+"zh": "除……以外",
+"level": "b1"
+},
+{
+"word": "excessif",
+"pos": "adj.",
+"zh": "过度的；过分的",
+"level": "b1"
+},
+{
+"word": "excitant",
+"pos": "adj.",
+"zh": "令人兴奋的；刺激的",
+"level": "b1"
+},
+{
+"word": "excitation",
+"pos": "n.f.",
+"zh": "兴奋；刺激",
+"level": "b1"
+},
+{
+"word": "exciter",
+"pos": "v.",
+"zh": "使兴奋；刺激",
+"level": "b1"
+},
+{
+"word": "exclure",
+"pos": "v.",
+"zh": "排除；开除",
+"level": "b1"
+},
+{
+"word": "exclusif",
+"pos": "adj.",
+"zh": "独家的；专有的",
+"level": "b1"
+},
+{
+"word": "excursion",
+"pos": "n.f.",
+"zh": "远足；短途旅行",
+"level": "b1"
+},
+{
+"word": "excès",
+"pos": "n.m.",
+"zh": "过度；过量",
+"level": "b1"
+},
+{
+"word": "exemplaire",
+"pos": "n.m.",
+"zh": "册；副本；样本",
+"level": "b1"
+},
+{
+"word": "exercer",
+"pos": "v.",
+"zh": "行使；从事；施加",
+"level": "b1"
+},
+{
+"word": "exigeant",
+"pos": "adj.",
+"zh": "要求高的；苛刻的",
+"level": "b1"
+},
+{
+"word": "exiger",
+"pos": "v.",
+"zh": "要求；强求",
+"level": "b1"
+},
+{
+"word": "exotique",
+"pos": "adj.",
+"zh": "异域的；奇异的",
+"level": "b1"
+},
+{
+"word": "expertise",
+"pos": "n.f.",
+"zh": "专业知识；鉴定",
+"level": "b1"
+},
+{
+"word": "exploit",
+"pos": "n.m.",
+"zh": "壮举；功绩",
+"level": "b1"
+},
+{
+"word": "exploitation",
+"pos": "n.f.",
+"zh": "开采；剥削；经营",
+"level": "b1"
+},
+{
+"word": "explorer",
+"pos": "v.",
+"zh": "探索；勘探",
+"level": "b1"
+},
+{
+"word": "exposer",
+"pos": "v.",
+"zh": "展出；陈述；使暴露",
+"level": "b1"
+},
+{
+"word": "exposé",
+"pos": "n.m.",
+"zh": "（课堂）报告；陈述",
+"level": "b1"
+},
+{
+"word": "exprimer",
+"pos": "v.",
+"zh": "表达；表示",
+"level": "b1"
+},
+{
+"word": "expédier",
+"pos": "v.",
+"zh": "寄出；草草处理",
+"level": "b1"
+},
+{
+"word": "expédition",
+"pos": "n.f.",
+"zh": "远征；探险；寄送",
+"level": "b1"
+},
+{
+"word": "expérimental",
+"pos": "adj.",
+"zh": "实验性的",
+"level": "b1"
+},
+{
+"word": "expérimenté",
+"pos": "adj.",
+"zh": "有经验的；老练的",
+"level": "b1"
+},
+{
+"word": "extension",
+"pos": "n.f.",
+"zh": "扩展；延伸",
+"level": "b1"
+},
+{
+"word": "externe",
+"pos": "adj.",
+"zh": "外部的；走读的",
+"level": "b1"
+},
+{
+"word": "extinction",
+"pos": "n.f.",
+"zh": "灭绝；熄灭",
+"level": "b1"
+},
+{
+"word": "extra",
+"pos": "adj.",
+"zh": "额外的；极好的",
+"level": "b1"
+},
+{
+"word": "extraire",
+"pos": "v.",
+"zh": "提取；拔出",
+"level": "b1"
+},
+{
+"word": "extrait",
+"pos": "n.m.",
+"zh": "摘录；节选",
+"level": "b1"
+},
+{
+"word": "extraterrestre",
+"pos": "n.",
+"zh": "外星人；外星的",
+"level": "b1"
+},
+{
+"word": "extrême",
+"pos": "adj.",
+"zh": "极度的；极端的",
+"level": "b1"
+},
+{
+"word": "extrêmement",
+"pos": "adv.",
+"zh": "极其；非常",
+"level": "b1"
+},
+{
+"word": "fable",
+"pos": "n.f.",
+"zh": "寓言；虚构的故事",
+"level": "b1"
+},
+{
+"word": "fabricant",
+"pos": "n.m.",
+"zh": "制造商",
+"level": "b1"
+},
+{
+"word": "fabrication",
+"pos": "n.f.",
+"zh": "制造；捏造",
+"level": "b1"
+},
+{
+"word": "fabrique",
+"pos": "n.f.",
+"zh": "工厂；制造",
+"level": "b1"
+},
+{
+"word": "fabuleux",
+"pos": "adj.",
+"zh": "惊人的；绝妙的",
+"level": "b1"
+},
+{
+"word": "faciliter",
+"pos": "v.",
+"zh": "使便利；促进",
+"level": "b1"
+},
+{
+"word": "facture",
+"pos": "n.f.",
+"zh": "账单；发票",
+"level": "b1"
+},
+{
+"word": "faculté",
+"pos": "n.f.",
+"zh": "能力；学院；系",
+"level": "b1"
+},
+{
+"word": "faiblesse",
+"pos": "n.f.",
+"zh": "虚弱；弱点",
+"level": "b1"
+},
+{
+"word": "faiblir",
+"pos": "v.",
+"zh": "变弱；衰减",
+"level": "b1"
+},
+{
+"word": "faisable",
+"pos": "adj.",
+"zh": "可行的；办得到的",
+"level": "b1"
+},
+{
+"word": "falaise",
+"pos": "n.f.",
+"zh": "悬崖；峭壁",
+"level": "b1"
+},
+{
+"word": "fameux",
+"pos": "adj.",
+"zh": "著名的；了不起的",
+"level": "b1"
+},
+{
+"word": "familier",
+"pos": "adj.",
+"zh": "熟悉的；通俗的",
+"level": "b1"
+},
+{
+"word": "famine",
+"pos": "n.f.",
+"zh": "饥荒",
+"level": "b1"
+},
+{
+"word": "fanatique",
+"pos": "n.",
+"zh": "狂热者；入迷的",
+"level": "b1"
+},
+{
+"word": "fascinant",
+"pos": "adj.",
+"zh": "迷人的；引人入胜的",
+"level": "b1"
+},
+{
+"word": "fascination",
+"pos": "n.f.",
+"zh": "迷恋；魅力",
+"level": "b1"
+},
+{
+"word": "fasciner",
+"pos": "v.",
+"zh": "使着迷",
+"level": "b1"
+},
+{
+"word": "fauché",
+"pos": "adj.",
+"zh": "身无分文的；被割倒的",
+"level": "b1"
+},
+{
+"word": "favorable",
+"pos": "adj.",
+"zh": "有利的；赞同的",
+"level": "b1"
+},
+{
+"word": "favoriser",
+"pos": "v.",
+"zh": "有利于；促进",
+"level": "b1"
+},
+{
+"word": "femelle",
+"pos": "n.f.",
+"zh": "雌性的；母的",
+"level": "b1"
+},
+{
+"word": "fendre",
+"pos": "v.",
+"zh": "劈开；使裂开",
+"level": "b1"
+},
+{
+"word": "fermeture",
+"pos": "n.f.",
+"zh": "关闭；停业；拉链",
+"level": "b1"
+},
+{
+"word": "fertile",
+"pos": "adj.",
+"zh": "肥沃的；多产的",
+"level": "b1"
+},
+{
+"word": "fiable",
+"pos": "adj.",
+"zh": "可靠的",
+"level": "b1"
+},
+{
+"word": "fiançailles",
+"pos": "n.f.",
+"zh": "订婚",
+"level": "b1"
+},
+{
+"word": "fiche",
+"pos": "n.f.",
+"zh": "卡片；资料卡",
+"level": "b1"
+}
+]

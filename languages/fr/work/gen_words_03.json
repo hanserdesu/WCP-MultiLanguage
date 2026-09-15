@@ -1,0 +1,602 @@
+[
+{
+"word": "jamais",
+"pos": "adv.",
+"zh": "从不；从未",
+"level": "a1"
+},
+{
+"word": "jambe",
+"pos": "n.f.",
+"zh": "腿；腿部",
+"level": "a1"
+},
+{
+"word": "janvier",
+"pos": "n.m.",
+"zh": "一月",
+"level": "a1"
+},
+{
+"word": "jardin",
+"pos": "n.m.",
+"zh": "花园",
+"level": "a1"
+},
+{
+"word": "jaune",
+"pos": "adj.",
+"zh": "黄色的",
+"level": "a1"
+},
+{
+"word": "je",
+"pos": "pron.",
+"zh": "我（主格）",
+"level": "a1"
+},
+{
+"word": "jeu",
+"pos": "n.m.",
+"zh": "游戏；比赛",
+"level": "a1"
+},
+{
+"word": "jeudi",
+"pos": "n.m.",
+"zh": "星期四",
+"level": "a1"
+},
+{
+"word": "jeune",
+"pos": "adj.",
+"zh": "年轻的；年幼的",
+"level": "a1"
+},
+{
+"word": "joli",
+"pos": "adj.",
+"zh": "漂亮的；好看的",
+"level": "a1"
+},
+{
+"word": "jouer",
+"pos": "v.",
+"zh": "玩；演奏；扮演",
+"level": "a1"
+},
+{
+"word": "jour",
+"pos": "n.m.",
+"zh": "天；白天；日子",
+"level": "a1"
+},
+{
+"word": "journée",
+"pos": "n.f.",
+"zh": "一天；白天",
+"level": "a1"
+},
+{
+"word": "juillet",
+"pos": "n.m.",
+"zh": "七月",
+"level": "a1"
+},
+{
+"word": "juin",
+"pos": "n.m.",
+"zh": "六月",
+"level": "a1"
+},
+{
+"word": "jupe",
+"pos": "n.f.",
+"zh": "裙子",
+"level": "a1"
+},
+{
+"word": "jus",
+"pos": "n.m.",
+"zh": "果汁；肉汁",
+"level": "a1"
+},
+{
+"word": "kilo",
+"pos": "n.m.",
+"zh": "千克；公斤",
+"level": "a1"
+},
+{
+"word": "kilomètre",
+"pos": "n.m.",
+"zh": "千米；公里",
+"level": "a1"
+},
+{
+"word": "la",
+"pos": "art.",
+"zh": "定冠词；她（宾格）",
+"level": "a1"
+},
+{
+"word": "laisser",
+"pos": "v.",
+"zh": "让；留下；听任",
+"level": "a1"
+},
+{
+"word": "lait",
+"pos": "n.m.",
+"zh": "奶；牛奶",
+"level": "a1"
+},
+{
+"word": "lampe",
+"pos": "n.f.",
+"zh": "电灯；灯",
+"level": "a1"
+},
+{
+"word": "langue",
+"pos": "n.f.",
+"zh": "语言；舌头",
+"level": "a1"
+},
+{
+"word": "laver",
+"pos": "v.",
+"zh": "洗；清洗",
+"level": "a1"
+},
+{
+"word": "le",
+"pos": "art.",
+"zh": "定冠词；他（宾格）",
+"level": "a1"
+},
+{
+"word": "les",
+"pos": "art.",
+"zh": "定冠词（复数）；他们（宾格）",
+"level": "a1"
+},
+{
+"word": "lettre",
+"pos": "n.f.",
+"zh": "信；字母",
+"level": "a1"
+},
+{
+"word": "leur",
+"pos": "pron.",
+"zh": "他们的；（间接宾语）",
+"level": "a1"
+},
+{
+"word": "leurs",
+"pos": "adj.",
+"zh": "他们的（复数）",
+"level": "a1"
+},
+{
+"word": "lever",
+"pos": "v.",
+"zh": "举起；抬起；升起",
+"level": "a1"
+},
+{
+"word": "librairie",
+"pos": "n.f.",
+"zh": "书店",
+"level": "a1"
+},
+{
+"word": "libre",
+"pos": "adj.",
+"zh": "自由的；空闲的",
+"level": "a1"
+},
+{
+"word": "lion",
+"pos": "n.m.",
+"zh": "狮子",
+"level": "a1"
+},
+{
+"word": "lire",
+"pos": "v.",
+"zh": "读；阅读",
+"level": "a1"
+},
+{
+"word": "lit",
+"pos": "n.m.",
+"zh": "床；床位",
+"level": "a1"
+},
+{
+"word": "litre",
+"pos": "n.",
+"zh": "升（容量单位）",
+"level": "a1"
+},
+{
+"word": "livre",
+"pos": "n.",
+"zh": "书；本子",
+"level": "a1"
+},
+{
+"word": "loin",
+"pos": "adv.",
+"zh": "远；远处",
+"level": "a1"
+},
+{
+"word": "long",
+"pos": "adj.",
+"zh": "长的；长久的",
+"level": "a1"
+},
+{
+"word": "longtemps",
+"pos": "adv.",
+"zh": "很久；长时间",
+"level": "a1"
+},
+{
+"word": "lui",
+"pos": "pron.",
+"zh": "他；她（间接宾语）",
+"level": "a1"
+},
+{
+"word": "lumière",
+"pos": "n.f.",
+"zh": "光；灯光；光线",
+"level": "a1"
+},
+{
+"word": "lundi",
+"pos": "n.m.",
+"zh": "星期一",
+"level": "a1"
+},
+{
+"word": "lune",
+"pos": "n.f.",
+"zh": "月亮",
+"level": "a1"
+},
+{
+"word": "là",
+"pos": "adv.",
+"zh": "那里；那儿",
+"level": "a1"
+},
+{
+"word": "là-bas",
+"pos": "adv.",
+"zh": "在那边",
+"level": "a1"
+},
+{
+"word": "légume",
+"pos": "n.m.",
+"zh": "蔬菜",
+"level": "a1"
+},
+{
+"word": "ma",
+"pos": "adj.",
+"zh": "我的（阴性）",
+"level": "a1"
+},
+{
+"word": "madame",
+"pos": "n.f.",
+"zh": "夫人；女士",
+"level": "a1"
+},
+{
+"word": "mademoiselle",
+"pos": "n.f.",
+"zh": "小姐",
+"level": "a1"
+},
+{
+"word": "magasin",
+"pos": "n.m.",
+"zh": "商店",
+"level": "a1"
+},
+{
+"word": "mai",
+"pos": "n.",
+"zh": "五月",
+"level": "a1"
+},
+{
+"word": "main",
+"pos": "n.",
+"zh": "手（身体部位）",
+"level": "a1"
+},
+{
+"word": "maintenant",
+"pos": "adv.",
+"zh": "现在",
+"level": "a1"
+},
+{
+"word": "mais",
+"pos": "conj.",
+"zh": "但是",
+"level": "a1"
+},
+{
+"word": "maison",
+"pos": "n.",
+"zh": "房子；家",
+"level": "a1"
+},
+{
+"word": "mal",
+"pos": "adv.",
+"zh": "坏；糟；疼",
+"level": "a1"
+},
+{
+"word": "malade",
+"pos": "adj.",
+"zh": "生病的；患病的",
+"level": "a1"
+},
+{
+"word": "maman",
+"pos": "n.f.",
+"zh": "妈妈",
+"level": "a1"
+},
+{
+"word": "manger",
+"pos": "v.",
+"zh": "吃；吃饭",
+"level": "a1"
+},
+{
+"word": "marcher",
+"pos": "v.",
+"zh": "走；步行；运转",
+"level": "a1"
+},
+{
+"word": "mardi",
+"pos": "n.m.",
+"zh": "星期二",
+"level": "a1"
+},
+{
+"word": "mari",
+"pos": "n.m.",
+"zh": "丈夫",
+"level": "a1"
+},
+{
+"word": "mars",
+"pos": "n.m.",
+"zh": "三月",
+"level": "a1"
+},
+{
+"word": "matin",
+"pos": "n.m.",
+"zh": "早晨；上午",
+"level": "a1"
+},
+{
+"word": "mauvais",
+"pos": "adj.",
+"zh": "坏的；差的；糟糕的",
+"level": "a1"
+},
+{
+"word": "me",
+"pos": "pron.",
+"zh": "我（宾格）",
+"level": "a1"
+},
+{
+"word": "meilleur",
+"pos": "adj.",
+"zh": "更好的；最好的",
+"level": "a1"
+},
+{
+"word": "mer",
+"pos": "n.f.",
+"zh": "海；大海",
+"level": "a1"
+},
+{
+"word": "merci",
+"pos": "interj.",
+"zh": "谢谢",
+"level": "a1"
+},
+{
+"word": "mercredi",
+"pos": "n.m.",
+"zh": "星期三",
+"level": "a1"
+},
+{
+"word": "mes",
+"pos": "adj.",
+"zh": "我的（复数）",
+"level": "a1"
+},
+{
+"word": "mettre",
+"pos": "v.",
+"zh": "放；穿上",
+"level": "a1"
+},
+{
+"word": "meuble",
+"pos": "n.m.",
+"zh": "家具",
+"level": "a1"
+},
+{
+"word": "midi",
+"pos": "n.m.",
+"zh": "中午；正午",
+"level": "a1"
+},
+{
+"word": "miel",
+"pos": "n.m.",
+"zh": "蜂蜜",
+"level": "a1"
+},
+{
+"word": "mille",
+"pos": "adj.",
+"zh": "千；一千",
+"level": "a1"
+},
+{
+"word": "millimètre",
+"pos": "n.m.",
+"zh": "毫米",
+"level": "a1"
+},
+{
+"word": "million",
+"pos": "n.m.",
+"zh": "百万",
+"level": "a1"
+},
+{
+"word": "minuit",
+"pos": "n.m.",
+"zh": "午夜",
+"level": "a1"
+},
+{
+"word": "minute",
+"pos": "n.f.",
+"zh": "分钟",
+"level": "a1"
+},
+{
+"word": "moi",
+"pos": "pron.",
+"zh": "我（重读）",
+"level": "a1"
+},
+{
+"word": "moins",
+"pos": "adv.",
+"zh": "更少；较少；减",
+"level": "a1"
+},
+{
+"word": "mois",
+"pos": "n.m.",
+"zh": "月；月份",
+"level": "a1"
+},
+{
+"word": "moment",
+"pos": "n.m.",
+"zh": "时刻；片刻",
+"level": "a1"
+},
+{
+"word": "mon",
+"pos": "adj.",
+"zh": "我的",
+"level": "a1"
+},
+{
+"word": "monde",
+"pos": "n.m.",
+"zh": "世界；人们",
+"level": "a1"
+},
+{
+"word": "monsieur",
+"pos": "n.m.",
+"zh": "先生",
+"level": "a1"
+},
+{
+"word": "monter",
+"pos": "v.",
+"zh": "上楼；登上；上升",
+"level": "a1"
+},
+{
+"word": "montrer",
+"pos": "v.",
+"zh": "出示；展示",
+"level": "a1"
+},
+{
+"word": "mot",
+"pos": "n.m.",
+"zh": "词；单词；话",
+"level": "a1"
+},
+{
+"word": "moto",
+"pos": "n.f.",
+"zh": "摩托车",
+"level": "a1"
+},
+{
+"word": "mur",
+"pos": "n.m.",
+"zh": "墙；墙壁",
+"level": "a1"
+},
+{
+"word": "musique",
+"pos": "n.f.",
+"zh": "音乐",
+"level": "a1"
+},
+{
+"word": "musée",
+"pos": "n.m.",
+"zh": "博物馆",
+"level": "a1"
+},
+{
+"word": "mère",
+"pos": "n.f.",
+"zh": "母亲；妈妈",
+"level": "a1"
+},
+{
+"word": "mètre",
+"pos": "n.m.",
+"zh": "米；公尺",
+"level": "a1"
+},
+{
+"word": "médecin",
+"pos": "n.m.",
+"zh": "医生；大夫",
+"level": "a1"
+},
+{
+"word": "métro",
+"pos": "n.m.",
+"zh": "地铁",
+"level": "a1"
+}
+]

@@ -1,0 +1,602 @@
+[
+{
+"word": "gala",
+"pos": "n.m.",
+"zh": "庆典晚会；义演",
+"level": "b1"
+},
+{
+"word": "galaxie",
+"pos": "n.f.",
+"zh": "星系；银河系",
+"level": "b1"
+},
+{
+"word": "galop",
+"pos": "n.m.",
+"zh": "疾驰；飞奔",
+"level": "b1"
+},
+{
+"word": "gamin",
+"pos": "n.m.",
+"zh": "小孩；调皮鬼（口语）",
+"level": "b1"
+},
+{
+"word": "gamme",
+"pos": "n.f.",
+"zh": "音阶；一系列",
+"level": "b1"
+},
+{
+"word": "gang",
+"pos": "n.m.",
+"zh": "帮派；团伙",
+"level": "b1"
+},
+{
+"word": "gangster",
+"pos": "n.m.",
+"zh": "歹徒；匪徒",
+"level": "b1"
+},
+{
+"word": "garantie",
+"pos": "n.f.",
+"zh": "保证；保修单",
+"level": "b1"
+},
+{
+"word": "garantir",
+"pos": "v.",
+"zh": "保证；担保",
+"level": "b1"
+},
+{
+"word": "garde",
+"pos": "n.",
+"zh": "看守；警卫",
+"level": "b1"
+},
+{
+"word": "garde-robe",
+"pos": "n.f.",
+"zh": "衣柜；全部衣物",
+"level": "b1"
+},
+{
+"word": "garnison",
+"pos": "n.f.",
+"zh": "驻军；卫戍部队",
+"level": "b1"
+},
+{
+"word": "gaucher",
+"pos": "adj.",
+"zh": "左撇子的",
+"level": "b1"
+},
+{
+"word": "gaufre",
+"pos": "n.f.",
+"zh": "华夫饼",
+"level": "b1"
+},
+{
+"word": "gel",
+"pos": "n.m.",
+"zh": "严寒；冰冻",
+"level": "b1"
+},
+{
+"word": "gelé",
+"pos": "adj.",
+"zh": "结冰的；冻结的",
+"level": "b1"
+},
+{
+"word": "gendarmerie",
+"pos": "n.f.",
+"zh": "宪兵队",
+"level": "b1"
+},
+{
+"word": "gendre",
+"pos": "n.m.",
+"zh": "女婿",
+"level": "b1"
+},
+{
+"word": "gestion",
+"pos": "n.f.",
+"zh": "管理；经营",
+"level": "b1"
+},
+{
+"word": "gifle",
+"pos": "n.f.",
+"zh": "耳光",
+"level": "b1"
+},
+{
+"word": "gigantesque",
+"pos": "adj.",
+"zh": "巨大的；庞大的",
+"level": "b1"
+},
+{
+"word": "gitan",
+"pos": "n.m.",
+"zh": "吉卜赛人",
+"level": "b1"
+},
+{
+"word": "glacer",
+"pos": "v.",
+"zh": "冷冻；使惊呆",
+"level": "b1"
+},
+{
+"word": "glacial",
+"pos": "adj.",
+"zh": "冰冷的；冷淡的",
+"level": "b1"
+},
+{
+"word": "glacier",
+"pos": "n.m.",
+"zh": "冰川；冷饮店",
+"level": "b1"
+},
+{
+"word": "gladiateur",
+"pos": "n.m.",
+"zh": "角斗士",
+"level": "b1"
+},
+{
+"word": "global",
+"pos": "adj.",
+"zh": "总体的；全局的",
+"level": "b1"
+},
+{
+"word": "gloire",
+"pos": "n.",
+"zh": "光荣；声誉",
+"level": "b1"
+},
+{
+"word": "glorieux",
+"pos": "adj.",
+"zh": "光荣的；辉煌的",
+"level": "b1"
+},
+{
+"word": "gobelet",
+"pos": "n.m.",
+"zh": "（纸、塑料）杯",
+"level": "b1"
+},
+{
+"word": "gonfler",
+"pos": "v.",
+"zh": "充气；使膨胀",
+"level": "b1"
+},
+{
+"word": "gonflé",
+"pos": "adj.",
+"zh": "鼓起的；过分的",
+"level": "b1"
+},
+{
+"word": "gorgée",
+"pos": "n.f.",
+"zh": "一口；一小口",
+"level": "b1"
+},
+{
+"word": "gosse",
+"pos": "n.",
+"zh": "小孩；家伙（口语）",
+"level": "b1"
+},
+{
+"word": "gourmand",
+"pos": "adj.",
+"zh": "贪吃的；爱吃甜食的",
+"level": "b1"
+},
+{
+"word": "gouvernement",
+"pos": "n.m.",
+"zh": "政府",
+"level": "b1"
+},
+{
+"word": "gouvernemental",
+"pos": "adj.",
+"zh": "政府的",
+"level": "b1"
+},
+{
+"word": "gouverner",
+"pos": "v.",
+"zh": "统治；治理",
+"level": "b1"
+},
+{
+"word": "gouverneur",
+"pos": "n.m.",
+"zh": "省长；州长；总督",
+"level": "b1"
+},
+{
+"word": "graffiti",
+"pos": "n.m.",
+"zh": "涂鸦",
+"level": "b1"
+},
+{
+"word": "grain",
+"pos": "n.m.",
+"zh": "颗粒；一粒",
+"level": "b1"
+},
+{
+"word": "graisse",
+"pos": "n.f.",
+"zh": "脂肪；油脂",
+"level": "b1"
+},
+{
+"word": "grand-chose",
+"pos": "pron.",
+"zh": "重要的东西（多用于否定）",
+"level": "b1"
+},
+{
+"word": "grandeur",
+"pos": "n.f.",
+"zh": "大小；伟大",
+"level": "b1"
+},
+{
+"word": "grange",
+"pos": "n.f.",
+"zh": "谷仓",
+"level": "b1"
+},
+{
+"word": "grappe",
+"pos": "n.f.",
+"zh": "（葡萄）串；簇",
+"level": "b1"
+},
+{
+"word": "gratis",
+"pos": "adv.",
+"zh": "免费",
+"level": "b1"
+},
+{
+"word": "gratos",
+"pos": "adv.",
+"zh": "免费（口语）",
+"level": "b1"
+},
+{
+"word": "gratuitement",
+"pos": "adv.",
+"zh": "免费地",
+"level": "b1"
+},
+{
+"word": "graver",
+"pos": "v.",
+"zh": "雕刻；铭记",
+"level": "b1"
+},
+{
+"word": "gravir",
+"pos": "v.",
+"zh": "攀登；爬上",
+"level": "b1"
+},
+{
+"word": "grenade",
+"pos": "n.f.",
+"zh": "石榴；手榴弹",
+"level": "b1"
+},
+{
+"word": "grenier",
+"pos": "n.m.",
+"zh": "阁楼",
+"level": "b1"
+},
+{
+"word": "griffe",
+"pos": "n.f.",
+"zh": "爪；抓痕",
+"level": "b1"
+},
+{
+"word": "grignoter",
+"pos": "v.",
+"zh": "啃食；吃零嘴",
+"level": "b1"
+},
+{
+"word": "grille",
+"pos": "n.f.",
+"zh": "格子；栅栏",
+"level": "b1"
+},
+{
+"word": "grimace",
+"pos": "n.f.",
+"zh": "鬼脸；怪相",
+"level": "b1"
+},
+{
+"word": "gronder",
+"pos": "v.",
+"zh": "训斥；吼叫",
+"level": "b1"
+},
+{
+"word": "grossesse",
+"pos": "n.f.",
+"zh": "怀孕；妊娠",
+"level": "b1"
+},
+{
+"word": "grossier",
+"pos": "adj.",
+"zh": "粗鲁的；粗糙的",
+"level": "b1"
+},
+{
+"word": "grotte",
+"pos": "n.f.",
+"zh": "洞穴",
+"level": "b1"
+},
+{
+"word": "grouper",
+"pos": "v.",
+"zh": "聚合；分组",
+"level": "b1"
+},
+{
+"word": "grue",
+"pos": "n.f.",
+"zh": "起重机；鹤",
+"level": "b1"
+},
+{
+"word": "grâce",
+"pos": "prép.",
+"zh": "多亏；幸亏",
+"level": "b1"
+},
+{
+"word": "grève",
+"pos": "n.f.",
+"zh": "罢工",
+"level": "b1"
+},
+{
+"word": "guerrier",
+"pos": "n.m.",
+"zh": "战士",
+"level": "b1"
+},
+{
+"word": "gueuler",
+"pos": "v.",
+"zh": "大喊大叫（口语）",
+"level": "b1"
+},
+{
+"word": "guider",
+"pos": "v.",
+"zh": "引导；指导",
+"level": "b1"
+},
+{
+"word": "guitariste",
+"pos": "n.",
+"zh": "吉他手",
+"level": "b1"
+},
+{
+"word": "guère",
+"pos": "adv.",
+"zh": "几乎不；不怎么",
+"level": "b1"
+},
+{
+"word": "guérison",
+"pos": "n.f.",
+"zh": "痊愈；治愈",
+"level": "b1"
+},
+{
+"word": "gâcher",
+"pos": "v.",
+"zh": "浪费；糟蹋",
+"level": "b1"
+},
+{
+"word": "gâter",
+"pos": "v.",
+"zh": "宠爱；溺爱",
+"level": "b1"
+},
+{
+"word": "gâté",
+"pos": "adj.",
+"zh": "被宠坏的",
+"level": "b1"
+},
+{
+"word": "gène",
+"pos": "n.m.",
+"zh": "基因",
+"level": "b1"
+},
+{
+"word": "générer",
+"pos": "v.",
+"zh": "产生；生成；引起",
+"level": "b1"
+},
+{
+"word": "générosité",
+"pos": "n.f.",
+"zh": "慷慨；大方",
+"level": "b1"
+},
+{
+"word": "génétique",
+"pos": "adj.",
+"zh": "遗传的；基因的",
+"level": "b1"
+},
+{
+"word": "gérer",
+"pos": "v.",
+"zh": "管理；经营",
+"level": "b1"
+},
+{
+"word": "gênant",
+"pos": "adj.",
+"zh": "令人尴尬的",
+"level": "b1"
+},
+{
+"word": "gêne",
+"pos": "n.f.",
+"zh": "尴尬；不便；贫困",
+"level": "b1"
+},
+{
+"word": "gêner",
+"pos": "v.",
+"zh": "使尴尬；妨碍",
+"level": "b1"
+},
+{
+"word": "gêné",
+"pos": "adj.",
+"zh": "尴尬的；拘束的",
+"level": "b1"
+},
+{
+"word": "habituel",
+"pos": "adj.",
+"zh": "惯常的；通常的",
+"level": "b1"
+},
+{
+"word": "habitué",
+"pos": "n.m.",
+"zh": "常客；老主顾",
+"level": "b1"
+},
+{
+"word": "hacher",
+"pos": "v.",
+"zh": "剁碎；切碎",
+"level": "b1"
+},
+{
+"word": "haie",
+"pos": "n.f.",
+"zh": "树篱；篱笆",
+"level": "b1"
+},
+{
+"word": "haine",
+"pos": "n.f.",
+"zh": "仇恨；憎恨",
+"level": "b1"
+},
+{
+"word": "haleine",
+"pos": "n.f.",
+"zh": "呼吸；口气",
+"level": "b1"
+},
+{
+"word": "hallucination",
+"pos": "n.f.",
+"zh": "幻觉",
+"level": "b1"
+},
+{
+"word": "halluciner",
+"pos": "v.",
+"zh": "产生幻觉；令人咋舌（口语）",
+"level": "b1"
+},
+{
+"word": "handicap",
+"pos": "n.m.",
+"zh": "障碍；残疾；不利条件",
+"level": "b1"
+},
+{
+"word": "handicapé",
+"pos": "n.m.",
+"zh": "残疾人",
+"level": "b1"
+},
+{
+"word": "hanter",
+"pos": "v.",
+"zh": "（鬼魂）出没；萦绕",
+"level": "b1"
+},
+{
+"word": "harceler",
+"pos": "v.",
+"zh": "骚扰；纠缠",
+"level": "b1"
+},
+{
+"word": "harcèlement",
+"pos": "n.m.",
+"zh": "骚扰",
+"level": "b1"
+},
+{
+"word": "hareng",
+"pos": "n.m.",
+"zh": "鲱鱼",
+"level": "b1"
+},
+{
+"word": "hasard",
+"pos": "n.m.",
+"zh": "偶然；运气",
+"level": "b1"
+},
+{
+"word": "hausse",
+"pos": "n.f.",
+"zh": "上涨；提高",
+"level": "b1"
+},
+{
+"word": "haut-parleur",
+"pos": "n.m.",
+"zh": "扬声器；喇叭",
+"level": "b1"
+}
+]

@@ -1,0 +1,602 @@
+[
+{
+"word": "abuser",
+"pos": "v.",
+"zh": "滥用；欺骗",
+"level": "b1"
+},
+{
+"word": "abîmer",
+"pos": "v.",
+"zh": "损坏；弄伤",
+"level": "b1"
+},
+{
+"word": "académie",
+"pos": "n.f.",
+"zh": "学院；研究院",
+"level": "b1"
+},
+{
+"word": "acceptable",
+"pos": "adj.",
+"zh": "可接受的",
+"level": "b1"
+},
+{
+"word": "accessible",
+"pos": "adj.",
+"zh": "可进入的；易懂的；可接近的",
+"level": "b1"
+},
+{
+"word": "accidentel",
+"pos": "adj.",
+"zh": "偶然的；意外的",
+"level": "b1"
+},
+{
+"word": "accidentellement",
+"pos": "adv.",
+"zh": "意外地；偶然地",
+"level": "b1"
+},
+{
+"word": "accompagner",
+"pos": "v.",
+"zh": "陪伴；陪同",
+"level": "b1"
+},
+{
+"word": "accomplir",
+"pos": "v.",
+"zh": "完成；实现",
+"level": "b1"
+},
+{
+"word": "accorder",
+"pos": "v.",
+"zh": "给予；准许；调音",
+"level": "b1"
+},
+{
+"word": "accordéon",
+"pos": "n.m.",
+"zh": "手风琴",
+"level": "b1"
+},
+{
+"word": "accouchement",
+"pos": "n.m.",
+"zh": "分娩；生产",
+"level": "b1"
+},
+{
+"word": "accoucher",
+"pos": "v.",
+"zh": "分娩；生产",
+"level": "b1"
+},
+{
+"word": "accueil",
+"pos": "n.m.",
+"zh": "接待；前台",
+"level": "b1"
+},
+{
+"word": "accueillant",
+"pos": "adj.",
+"zh": "热情接待的；好客的",
+"level": "b1"
+},
+{
+"word": "accumuler",
+"pos": "v.",
+"zh": "积累；堆积",
+"level": "b1"
+},
+{
+"word": "accusation",
+"pos": "n.f.",
+"zh": "指控；控告",
+"level": "b1"
+},
+{
+"word": "accuser",
+"pos": "v.",
+"zh": "指控；指责",
+"level": "b1"
+},
+{
+"word": "accusé",
+"pos": "n.m.",
+"zh": "被告",
+"level": "b1"
+},
+{
+"word": "accès",
+"pos": "n.m.",
+"zh": "通道；权限",
+"level": "b1"
+},
+{
+"word": "accéder",
+"pos": "v.",
+"zh": "进入；获得",
+"level": "b1"
+},
+{
+"word": "acier",
+"pos": "n.m.",
+"zh": "钢",
+"level": "b1"
+},
+{
+"word": "acrobate",
+"pos": "n.",
+"zh": "杂技演员",
+"level": "b1"
+},
+{
+"word": "acte",
+"pos": "n.m.",
+"zh": "行为；（戏剧）幕",
+"level": "b1"
+},
+{
+"word": "actif",
+"pos": "adj.",
+"zh": "积极的；活跃的",
+"level": "b1"
+},
+{
+"word": "actualité",
+"pos": "n.f.",
+"zh": "时事；新闻",
+"level": "b1"
+},
+{
+"word": "adaptation",
+"pos": "n.f.",
+"zh": "适应；改编",
+"level": "b1"
+},
+{
+"word": "adapter",
+"pos": "v.",
+"zh": "使适应；改编",
+"level": "b1"
+},
+{
+"word": "adepte",
+"pos": "n.",
+"zh": "信徒；追随者",
+"level": "b1"
+},
+{
+"word": "adhérer",
+"pos": "v.",
+"zh": "加入；粘附；赞同",
+"level": "b1"
+},
+{
+"word": "admettre",
+"pos": "v.",
+"zh": "承认；准许进入",
+"level": "b1"
+},
+{
+"word": "administrateur",
+"pos": "n.m.",
+"zh": "管理员；行政人员",
+"level": "b1"
+},
+{
+"word": "administratif",
+"pos": "adj.",
+"zh": "行政的",
+"level": "b1"
+},
+{
+"word": "administration",
+"pos": "n.f.",
+"zh": "行政；管理",
+"level": "b1"
+},
+{
+"word": "admirateur",
+"pos": "n.m.",
+"zh": "崇拜者；爱慕者",
+"level": "b1"
+},
+{
+"word": "admission",
+"pos": "n.f.",
+"zh": "录取；接纳",
+"level": "b1"
+},
+{
+"word": "adolescence",
+"pos": "n.f.",
+"zh": "青春期",
+"level": "b1"
+},
+{
+"word": "adolescent",
+"pos": "n.m.",
+"zh": "青少年",
+"level": "b1"
+},
+{
+"word": "adopter",
+"pos": "v.",
+"zh": "采用；收养",
+"level": "b1"
+},
+{
+"word": "adoption",
+"pos": "n.f.",
+"zh": "收养；采用",
+"level": "b1"
+},
+{
+"word": "adversaire",
+"pos": "n.",
+"zh": "对手；敌手",
+"level": "b1"
+},
+{
+"word": "affamé",
+"pos": "adj.",
+"zh": "饥饿的；挨饿的",
+"level": "b1"
+},
+{
+"word": "affection",
+"pos": "n.f.",
+"zh": "喜爱；感情",
+"level": "b1"
+},
+{
+"word": "afficher",
+"pos": "v.",
+"zh": "张贴；显示",
+"level": "b1"
+},
+{
+"word": "affirmatif",
+"pos": "adj.",
+"zh": "肯定的",
+"level": "b1"
+},
+{
+"word": "affirmer",
+"pos": "v.",
+"zh": "断言；坚称",
+"level": "b1"
+},
+{
+"word": "affoler",
+"pos": "v.",
+"zh": "使惊慌失措",
+"level": "b1"
+},
+{
+"word": "affreusement",
+"pos": "adv.",
+"zh": "可怕地；非常",
+"level": "b1"
+},
+{
+"word": "affrontement",
+"pos": "n.m.",
+"zh": "冲突；对抗",
+"level": "b1"
+},
+{
+"word": "affronter",
+"pos": "v.",
+"zh": "面对；对抗",
+"level": "b1"
+},
+{
+"word": "afin de",
+"pos": "prép.",
+"zh": "为了",
+"level": "b1"
+},
+{
+"word": "afin que",
+"pos": "conj.",
+"zh": "以便；为了（后接虚拟式）",
+"level": "b1"
+},
+{
+"word": "agent",
+"pos": "n.m.",
+"zh": "代理人；特工；警探",
+"level": "b1"
+},
+{
+"word": "aggraver",
+"pos": "v.",
+"zh": "加重；使恶化",
+"level": "b1"
+},
+{
+"word": "agir",
+"pos": "v.",
+"zh": "行动；行事",
+"level": "b1"
+},
+{
+"word": "agité",
+"pos": "adj.",
+"zh": "焦躁的；动荡的",
+"level": "b1"
+},
+{
+"word": "agressif",
+"pos": "adj.",
+"zh": "好斗的；挑衅的",
+"level": "b1"
+},
+{
+"word": "agression",
+"pos": "n.f.",
+"zh": "袭击；侵犯",
+"level": "b1"
+},
+{
+"word": "agricole",
+"pos": "adj.",
+"zh": "农业的",
+"level": "b1"
+},
+{
+"word": "agriculture",
+"pos": "n.f.",
+"zh": "农业",
+"level": "b1"
+},
+{
+"word": "aigle",
+"pos": "n.",
+"zh": "鹰；鹰徽",
+"level": "b1"
+},
+{
+"word": "aimant",
+"pos": "adj.",
+"zh": "深情的；慈爱的",
+"level": "b1"
+},
+{
+"word": "ainsi",
+"pos": "adv.",
+"zh": "这样；如此；因此",
+"level": "b1"
+},
+{
+"word": "aisé",
+"pos": "adj.",
+"zh": "富裕的；自在的",
+"level": "b1"
+},
+{
+"word": "ajuster",
+"pos": "v.",
+"zh": "调整；校准",
+"level": "b1"
+},
+{
+"word": "alarmer",
+"pos": "v.",
+"zh": "使惊慌；报警",
+"level": "b1"
+},
+{
+"word": "alcoolique",
+"pos": "n.",
+"zh": "酗酒者；含酒精的",
+"level": "b1"
+},
+{
+"word": "alerte",
+"pos": "n.f.",
+"zh": "警报",
+"level": "b1"
+},
+{
+"word": "algue",
+"pos": "n.f.",
+"zh": "海藻；藻类",
+"level": "b1"
+},
+{
+"word": "aligner",
+"pos": "v.",
+"zh": "使排齐；对齐",
+"level": "b1"
+},
+{
+"word": "aliment",
+"pos": "n.m.",
+"zh": "食物；食品",
+"level": "b1"
+},
+{
+"word": "alimentaire",
+"pos": "adj.",
+"zh": "食物的；饮食的",
+"level": "b1"
+},
+{
+"word": "alimentation",
+"pos": "n.f.",
+"zh": "食品；饮食",
+"level": "b1"
+},
+{
+"word": "alimenter",
+"pos": "v.",
+"zh": "供给；供养；提供",
+"level": "b1"
+},
+{
+"word": "allergie",
+"pos": "n.f.",
+"zh": "过敏；过敏症",
+"level": "b1"
+},
+{
+"word": "allergique",
+"pos": "adj.",
+"zh": "过敏的",
+"level": "b1"
+},
+{
+"word": "alliance",
+"pos": "n.f.",
+"zh": "联盟；结婚戒指",
+"level": "b1"
+},
+{
+"word": "alligator",
+"pos": "n.m.",
+"zh": "短吻鳄",
+"level": "b1"
+},
+{
+"word": "allié",
+"pos": "n.m.",
+"zh": "盟友；同盟国",
+"level": "b1"
+},
+{
+"word": "allure",
+"pos": "n.f.",
+"zh": "步态；风采",
+"level": "b1"
+},
+{
+"word": "alternatif",
+"pos": "adj.",
+"zh": "替代的；另类的",
+"level": "b1"
+},
+{
+"word": "alternative",
+"pos": "n.f.",
+"zh": "替代方案；选择",
+"level": "b1"
+},
+{
+"word": "amant",
+"pos": "n.m.",
+"zh": "情人；情夫",
+"level": "b1"
+},
+{
+"word": "amateur",
+"pos": "n.",
+"zh": "业余爱好者；业余的",
+"level": "b1"
+},
+{
+"word": "ambassade",
+"pos": "n.f.",
+"zh": "大使馆",
+"level": "b1"
+},
+{
+"word": "ambassadeur",
+"pos": "n.m.",
+"zh": "大使",
+"level": "b1"
+},
+{
+"word": "ambigu",
+"pos": "adj.",
+"zh": "模棱两可的",
+"level": "b1"
+},
+{
+"word": "ambitieux",
+"pos": "adj.",
+"zh": "有抱负的；野心勃勃的",
+"level": "b1"
+},
+{
+"word": "ambition",
+"pos": "n.f.",
+"zh": "抱负；野心",
+"level": "b1"
+},
+{
+"word": "amende",
+"pos": "n.f.",
+"zh": "罚款",
+"level": "b1"
+},
+{
+"word": "amical",
+"pos": "adj.",
+"zh": "友好的；友谊的",
+"level": "b1"
+},
+{
+"word": "amiral",
+"pos": "n.m.",
+"zh": "海军上将；舰队司令",
+"level": "b1"
+},
+{
+"word": "amusement",
+"pos": "n.m.",
+"zh": "娱乐；消遣",
+"level": "b1"
+},
+{
+"word": "amélioration",
+"pos": "n.f.",
+"zh": "改善；改进",
+"level": "b1"
+},
+{
+"word": "analyser",
+"pos": "v.",
+"zh": "分析",
+"level": "b1"
+},
+{
+"word": "analyste",
+"pos": "n.",
+"zh": "分析员",
+"level": "b1"
+},
+{
+"word": "ancre",
+"pos": "n.f.",
+"zh": "锚",
+"level": "b1"
+},
+{
+"word": "ancêtre",
+"pos": "n.",
+"zh": "祖先",
+"level": "b1"
+},
+{
+"word": "anecdote",
+"pos": "n.f.",
+"zh": "轶事；趣闻",
+"level": "b1"
+},
+{
+"word": "angle",
+"pos": "n.m.",
+"zh": "角；角度",
+"level": "b1"
+}
+]

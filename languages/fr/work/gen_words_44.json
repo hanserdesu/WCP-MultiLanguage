@@ -1,0 +1,602 @@
+[
+{
+"word": "munition",
+"pos": "n.f.",
+"zh": "弹药",
+"level": "b1"
+},
+{
+"word": "muraille",
+"pos": "n.f.",
+"zh": "城墙；高墙",
+"level": "b1"
+},
+{
+"word": "musclé",
+"pos": "adj.",
+"zh": "肌肉发达的；结实的",
+"level": "b1"
+},
+{
+"word": "musculaire",
+"pos": "adj.",
+"zh": "肌肉的",
+"level": "b1"
+},
+{
+"word": "musulman",
+"pos": "n.m.",
+"zh": "穆斯林；伊斯兰教的",
+"level": "b1"
+},
+{
+"word": "mutuel",
+"pos": "adj.",
+"zh": "相互的",
+"level": "b1"
+},
+{
+"word": "myrtille",
+"pos": "n.f.",
+"zh": "蓝莓",
+"level": "b1"
+},
+{
+"word": "mythe",
+"pos": "n.m.",
+"zh": "神话；虚构的人物",
+"level": "b1"
+},
+{
+"word": "mâcher",
+"pos": "v.",
+"zh": "咀嚼",
+"level": "b1"
+},
+{
+"word": "mâchoire",
+"pos": "n.f.",
+"zh": "颌；下巴",
+"level": "b1"
+},
+{
+"word": "mécanicien",
+"pos": "n.m.",
+"zh": "机械师；修理工",
+"level": "b1"
+},
+{
+"word": "mécanique",
+"pos": "n.f.",
+"zh": "机械装置；力学",
+"level": "b1"
+},
+{
+"word": "mécanisme",
+"pos": "n.m.",
+"zh": "机制；机械装置",
+"level": "b1"
+},
+{
+"word": "mécontent",
+"pos": "adj.",
+"zh": "不满的",
+"level": "b1"
+},
+{
+"word": "média",
+"pos": "n.m.",
+"zh": "媒体；传媒",
+"level": "b1"
+},
+{
+"word": "médiocre",
+"pos": "adj.",
+"zh": "平庸的；差劲的",
+"level": "b1"
+},
+{
+"word": "méditation",
+"pos": "n.f.",
+"zh": "冥想；沉思",
+"level": "b1"
+},
+{
+"word": "méditer",
+"pos": "v.",
+"zh": "沉思；冥想",
+"level": "b1"
+},
+{
+"word": "méfiance",
+"pos": "n.f.",
+"zh": "不信任；警惕",
+"level": "b1"
+},
+{
+"word": "méfiant",
+"pos": "adj.",
+"zh": "多疑的；戒备的",
+"level": "b1"
+},
+{
+"word": "méfier",
+"pos": "v.",
+"zh": "提防；警惕",
+"level": "b1"
+},
+{
+"word": "méga",
+"pos": "adj.",
+"zh": "极大的（口语）",
+"level": "b1"
+},
+{
+"word": "mégot",
+"pos": "n.m.",
+"zh": "烟头",
+"level": "b1"
+},
+{
+"word": "mélange",
+"pos": "n.m.",
+"zh": "混合；混合物",
+"level": "b1"
+},
+{
+"word": "mémoire",
+"pos": "n.",
+"zh": "记忆；回忆；内存",
+"level": "b1"
+},
+{
+"word": "mémoriser",
+"pos": "v.",
+"zh": "记住；背熟",
+"level": "b1"
+},
+{
+"word": "mépriser",
+"pos": "v.",
+"zh": "轻视；鄙视",
+"level": "b1"
+},
+{
+"word": "mérite",
+"pos": "n.m.",
+"zh": "功绩；价值",
+"level": "b1"
+},
+{
+"word": "mériter",
+"pos": "v.",
+"zh": "值得；应得",
+"level": "b1"
+},
+{
+"word": "métallique",
+"pos": "adj.",
+"zh": "金属的；金属般的",
+"level": "b1"
+},
+{
+"word": "mêler",
+"pos": "v.",
+"zh": "混合；使卷入",
+"level": "b1"
+},
+{
+"word": "môme",
+"pos": "n.",
+"zh": "小孩（口语）",
+"level": "b1"
+},
+{
+"word": "mûrir",
+"pos": "v.",
+"zh": "成熟；酝酿",
+"level": "b1"
+},
+{
+"word": "nana",
+"pos": "n.f.",
+"zh": "姑娘；妞（口语）",
+"level": "b1"
+},
+{
+"word": "narine",
+"pos": "n.f.",
+"zh": "鼻孔",
+"level": "b1"
+},
+{
+"word": "natal",
+"pos": "adj.",
+"zh": "出生的；故乡的",
+"level": "b1"
+},
+{
+"word": "nation",
+"pos": "n.f.",
+"zh": "民族；国家",
+"level": "b1"
+},
+{
+"word": "nationalisme",
+"pos": "n.m.",
+"zh": "民族主义",
+"level": "b1"
+},
+{
+"word": "navigateur",
+"pos": "n.m.",
+"zh": "航海家；浏览器",
+"level": "b1"
+},
+{
+"word": "navigation",
+"pos": "n.f.",
+"zh": "航行；导航",
+"level": "b1"
+},
+{
+"word": "navire",
+"pos": "n.m.",
+"zh": "船；大船",
+"level": "b1"
+},
+{
+"word": "nazi",
+"pos": "n.m.",
+"zh": "纳粹的；纳粹分子",
+"level": "b1"
+},
+{
+"word": "naïf",
+"pos": "adj.",
+"zh": "天真的；幼稚的",
+"level": "b1"
+},
+{
+"word": "nerf",
+"pos": "n.m.",
+"zh": "神经；精力",
+"level": "b1"
+},
+{
+"word": "net",
+"pos": "adj.",
+"zh": "干净利落的；清晰的",
+"level": "b1"
+},
+{
+"word": "nettement",
+"pos": "adv.",
+"zh": "明显地；清楚地",
+"level": "b1"
+},
+{
+"word": "nettoyeur",
+"pos": "n.m.",
+"zh": "清洁工；清洗器",
+"level": "b1"
+},
+{
+"word": "neutre",
+"pos": "adj.",
+"zh": "中立的；中性的",
+"level": "b1"
+},
+{
+"word": "nickel",
+"pos": "adj.",
+"zh": "镍；（口语）完美的",
+"level": "b1"
+},
+{
+"word": "nier",
+"pos": "v.",
+"zh": "否认",
+"level": "b1"
+},
+{
+"word": "noce",
+"pos": "n.f.",
+"zh": "婚礼；喜宴",
+"level": "b1"
+},
+{
+"word": "nommé",
+"pos": "adj.",
+"zh": "被任命的；名为",
+"level": "b1"
+},
+{
+"word": "norme",
+"pos": "n.f.",
+"zh": "标准；规范",
+"level": "b1"
+},
+{
+"word": "nostalgie",
+"pos": "n.f.",
+"zh": "怀旧；乡愁",
+"level": "b1"
+},
+{
+"word": "notaire",
+"pos": "n.m.",
+"zh": "公证人",
+"level": "b1"
+},
+{
+"word": "notamment",
+"pos": "adv.",
+"zh": "尤其；特别是",
+"level": "b1"
+},
+{
+"word": "notion",
+"pos": "n.f.",
+"zh": "概念；观念",
+"level": "b1"
+},
+{
+"word": "nounours",
+"pos": "n.m.",
+"zh": "玩具熊；宝贝（昵称）",
+"level": "b1"
+},
+{
+"word": "nourri",
+"pos": "adj.",
+"zh": "喂饱的；滋养的",
+"level": "b1"
+},
+{
+"word": "nourrir",
+"pos": "v.",
+"zh": "喂养；滋养",
+"level": "b1"
+},
+{
+"word": "nouveau-né",
+"pos": "n.m.",
+"zh": "新生儿",
+"level": "b1"
+},
+{
+"word": "nouveauté",
+"pos": "n.f.",
+"zh": "新事物；新奇",
+"level": "b1"
+},
+{
+"word": "noyau",
+"pos": "n.m.",
+"zh": "果核；核心",
+"level": "b1"
+},
+{
+"word": "noyer",
+"pos": "v.",
+"zh": "淹死；淹没",
+"level": "b1"
+},
+{
+"word": "nucléaire",
+"pos": "adj.",
+"zh": "核的；核能的",
+"level": "b1"
+},
+{
+"word": "nuire",
+"pos": "v.",
+"zh": "损害；妨碍",
+"level": "b1"
+},
+{
+"word": "numérique",
+"pos": "adj.",
+"zh": "数字的；数码的",
+"level": "b1"
+},
+{
+"word": "nuque",
+"pos": "n.f.",
+"zh": "后颈；颈背",
+"level": "b1"
+},
+{
+"word": "né",
+"pos": "adj.",
+"zh": "出生的；天生的",
+"level": "b1"
+},
+{
+"word": "néanmoins",
+"pos": "adv.",
+"zh": "然而；不过",
+"level": "b1"
+},
+{
+"word": "nécessairement",
+"pos": "adv.",
+"zh": "必然地；必定",
+"level": "b1"
+},
+{
+"word": "nécessité",
+"pos": "n.f.",
+"zh": "必要性；必需品",
+"level": "b1"
+},
+{
+"word": "négocier",
+"pos": "v.",
+"zh": "谈判；协商",
+"level": "b1"
+},
+{
+"word": "objectif",
+"pos": "n.m.",
+"zh": "目标；客观的；镜头",
+"level": "b1"
+},
+{
+"word": "objection",
+"pos": "n.f.",
+"zh": "异议；反对",
+"level": "b1"
+},
+{
+"word": "obligation",
+"pos": "n.f.",
+"zh": "义务；责任",
+"level": "b1"
+},
+{
+"word": "obligatoire",
+"pos": "adj.",
+"zh": "强制性的；必须的",
+"level": "b1"
+},
+{
+"word": "obliger",
+"pos": "v.",
+"zh": "强迫；使不得不",
+"level": "b1"
+},
+{
+"word": "obligé",
+"pos": "adj.",
+"zh": "被迫的；感激的",
+"level": "b1"
+},
+{
+"word": "obscur",
+"pos": "adj.",
+"zh": "昏暗的；晦涩的",
+"level": "b1"
+},
+{
+"word": "obscurité",
+"pos": "n.f.",
+"zh": "黑暗；晦涩",
+"level": "b1"
+},
+{
+"word": "observateur",
+"pos": "n.m.",
+"zh": "观察者；观察员",
+"level": "b1"
+},
+{
+"word": "observation",
+"pos": "n.f.",
+"zh": "观察；评论",
+"level": "b1"
+},
+{
+"word": "observer",
+"pos": "v.",
+"zh": "观察；监视",
+"level": "b1"
+},
+{
+"word": "obsession",
+"pos": "n.f.",
+"zh": "困扰；痴迷",
+"level": "b1"
+},
+{
+"word": "obstacle",
+"pos": "n.m.",
+"zh": "障碍",
+"level": "b1"
+},
+{
+"word": "obsèques",
+"pos": "n.f.",
+"zh": "葬礼",
+"level": "b1"
+},
+{
+"word": "obtenir",
+"pos": "v.",
+"zh": "获得；得到",
+"level": "b1"
+},
+{
+"word": "obéissance",
+"pos": "n.f.",
+"zh": "服从；顺从",
+"level": "b1"
+},
+{
+"word": "obéissant",
+"pos": "adj.",
+"zh": "顺从的；听话的",
+"level": "b1"
+},
+{
+"word": "occidental",
+"pos": "adj.",
+"zh": "西方的；西方人",
+"level": "b1"
+},
+{
+"word": "oeuvre",
+"pos": "n.",
+"zh": "作品；事业",
+"level": "b1"
+},
+{
+"word": "offensive",
+"pos": "n.f.",
+"zh": "进攻；攻势",
+"level": "b1"
+},
+{
+"word": "officiellement",
+"pos": "adv.",
+"zh": "正式地；官方地",
+"level": "b1"
+},
+{
+"word": "officier",
+"pos": "n.m.",
+"zh": "军官；官员",
+"level": "b1"
+},
+{
+"word": "opportunité",
+"pos": "n.f.",
+"zh": "机会；时机",
+"level": "b1"
+},
+{
+"word": "opposition",
+"pos": "n.f.",
+"zh": "反对；反对派",
+"level": "b1"
+},
+{
+"word": "opposé",
+"pos": "adj.",
+"zh": "相反的；对立的",
+"level": "b1"
+},
+{
+"word": "optimiste",
+"pos": "adj.",
+"zh": "乐观的；乐观者",
+"level": "b1"
+},
+{
+"word": "option",
+"pos": "n.f.",
+"zh": "选项；选修课",
+"level": "b1"
+}
+]

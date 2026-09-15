@@ -1,0 +1,21 @@
+{
+  "version": "wcp-de-resources-v1.0.0",
+  "built": "2026-09-15 10:09:32",
+  "base_urls": [
+    "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.0.0"
+  ],
+  "assets": [
+    {
+      "kind": "word_audio",
+      "name": "wcp-german-audio-words.zip",
+      "size": 80896890,
+      "sha256": "091bbb91aad56d1eba3603a91774932f3a787be88e0388b998c306e97fa036e8"
+    },
+    {
+      "kind": "sentence_audio",
+      "name": "wcp-german-audio-sentences.zip",
+      "size": 802498666,
+      "sha256": "440d3ac0e77600df2fe4e4607a94403a1fd341c0aec4bcb09ab05ed2846f70f8"
+    }
+  ]
+}

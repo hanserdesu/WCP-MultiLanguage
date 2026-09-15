@@ -1,0 +1,602 @@
+[
+{
+"word": "déballer",
+"pos": "v.",
+"zh": "拆包；抖出（秘密）",
+"level": "b2"
+},
+{
+"word": "débarquement",
+"pos": "n.m.",
+"zh": "登陆；下船",
+"level": "b2"
+},
+{
+"word": "débarras",
+"pos": "n.m.",
+"zh": "储藏室；杂物间",
+"level": "b2"
+},
+{
+"word": "débauche",
+"pos": "n.f.",
+"zh": "放纵；放荡",
+"level": "b2"
+},
+{
+"word": "déboucher",
+"pos": "v.",
+"zh": "疏通；通向",
+"level": "b2"
+},
+{
+"word": "débris",
+"pos": "n.m.",
+"zh": "碎片；残骸",
+"level": "b2"
+},
+{
+"word": "décamper",
+"pos": "v.",
+"zh": "溜走；开溜（口语）",
+"level": "b2"
+},
+{
+"word": "décapiter",
+"pos": "v.",
+"zh": "斩首",
+"level": "b2"
+},
+{
+"word": "décence",
+"pos": "n.f.",
+"zh": "体面；正派",
+"level": "b2"
+},
+{
+"word": "déception",
+"pos": "n.f.",
+"zh": "失望；扫兴",
+"level": "b2"
+},
+{
+"word": "décerner",
+"pos": "v.",
+"zh": "颁发；授予",
+"level": "b2"
+},
+{
+"word": "décharge",
+"pos": "n.f.",
+"zh": "垃圾场；卸货；回执",
+"level": "b2"
+},
+{
+"word": "déchaîner",
+"pos": "v.",
+"zh": "使爆发；激起",
+"level": "b2"
+},
+{
+"word": "déchiffrer",
+"pos": "v.",
+"zh": "破译；辨认",
+"level": "b2"
+},
+{
+"word": "déchiqueter",
+"pos": "v.",
+"zh": "撕碎；剁碎",
+"level": "b2"
+},
+{
+"word": "décimer",
+"pos": "v.",
+"zh": "大批杀害；重创",
+"level": "b2"
+},
+{
+"word": "décisif",
+"pos": "adj.",
+"zh": "决定性的",
+"level": "b2"
+},
+{
+"word": "décliner",
+"pos": "v.",
+"zh": "谢绝；衰落",
+"level": "b2"
+},
+{
+"word": "décoder",
+"pos": "v.",
+"zh": "解码；破译",
+"level": "b2"
+},
+{
+"word": "décomposition",
+"pos": "n.f.",
+"zh": "分解；腐烂",
+"level": "b2"
+},
+{
+"word": "découvert",
+"pos": "adj.",
+"zh": "无遮盖的；透支的",
+"level": "b2"
+},
+{
+"word": "décret",
+"pos": "n.m.",
+"zh": "法令；政令",
+"level": "b2"
+},
+{
+"word": "décréter",
+"pos": "v.",
+"zh": "颁布；下令",
+"level": "b2"
+},
+{
+"word": "décès",
+"pos": "n.m.",
+"zh": "死亡",
+"level": "b2"
+},
+{
+"word": "dédaigner",
+"pos": "v.",
+"zh": "蔑视；不屑于做",
+"level": "b2"
+},
+{
+"word": "dédier",
+"pos": "v.",
+"zh": "奉献；献给",
+"level": "b2"
+},
+{
+"word": "dédommager",
+"pos": "v.",
+"zh": "赔偿；补偿",
+"level": "b2"
+},
+{
+"word": "défaillance",
+"pos": "n.f.",
+"zh": "衰竭；昏厥；故障",
+"level": "b2"
+},
+{
+"word": "défectueux",
+"pos": "adj.",
+"zh": "有缺陷的；出故障的",
+"level": "b2"
+},
+{
+"word": "défigurer",
+"pos": "v.",
+"zh": "毁容；使变丑",
+"level": "b2"
+},
+{
+"word": "défiler",
+"pos": "v.",
+"zh": "列队行进；接连出现",
+"level": "b2"
+},
+{
+"word": "défoncer",
+"pos": "v.",
+"zh": "砸穿；撞凹",
+"level": "b2"
+},
+{
+"word": "défoncé",
+"pos": "adj.",
+"zh": "压塌的；嗑药的（俚语）",
+"level": "b2"
+},
+{
+"word": "défunt",
+"pos": "n.m.",
+"zh": "亡者；死者",
+"level": "b2"
+},
+{
+"word": "dégainer",
+"pos": "v.",
+"zh": "拔出（枪）",
+"level": "b2"
+},
+{
+"word": "dégommer",
+"pos": "v.",
+"zh": "干掉；击落（口语）",
+"level": "b2"
+},
+{
+"word": "dégonfler",
+"pos": "v.",
+"zh": "放气；使泄气",
+"level": "b2"
+},
+{
+"word": "dégonflé",
+"pos": "n.m.",
+"zh": "泄气的；胆小鬼（口语）",
+"level": "b2"
+},
+{
+"word": "dégoter",
+"pos": "v.",
+"zh": "找到；弄到（口语）",
+"level": "b2"
+},
+{
+"word": "dégrader",
+"pos": "v.",
+"zh": "使降级；损坏",
+"level": "b2"
+},
+{
+"word": "déguerpir",
+"pos": "v.",
+"zh": "仓皇离开；溜走",
+"level": "b2"
+},
+{
+"word": "dégénérer",
+"pos": "v.",
+"zh": "退化；恶化；堕落",
+"level": "b2"
+},
+{
+"word": "dégénéré",
+"pos": "n.m.",
+"zh": "堕落的；蜕化变质者",
+"level": "b2"
+},
+{
+"word": "déjouer",
+"pos": "v.",
+"zh": "挫败；识破",
+"level": "b2"
+},
+{
+"word": "délaisser",
+"pos": "v.",
+"zh": "冷落；弃置",
+"level": "b2"
+},
+{
+"word": "délibérer",
+"pos": "v.",
+"zh": "审议；商议",
+"level": "b2"
+},
+{
+"word": "délicatesse",
+"pos": "n.f.",
+"zh": "体贴；精致",
+"level": "b2"
+},
+{
+"word": "délice",
+"pos": "n.m.",
+"zh": "乐事；极大的快乐",
+"level": "b2"
+},
+{
+"word": "délier",
+"pos": "v.",
+"zh": "解开；松开",
+"level": "b2"
+},
+{
+"word": "délirant",
+"pos": "adj.",
+"zh": "疯狂的；荒诞的",
+"level": "b2"
+},
+{
+"word": "délit",
+"pos": "n.m.",
+"zh": "轻罪；违法行为",
+"level": "b2"
+},
+{
+"word": "déluge",
+"pos": "n.m.",
+"zh": "洪水；倾盆大雨",
+"level": "b2"
+},
+{
+"word": "démanger",
+"pos": "v.",
+"zh": "发痒",
+"level": "b2"
+},
+{
+"word": "démarche",
+"pos": "n.f.",
+"zh": "步态；做法；步骤",
+"level": "b2"
+},
+{
+"word": "démasquer",
+"pos": "v.",
+"zh": "揭穿；识破",
+"level": "b2"
+},
+{
+"word": "démence",
+"pos": "n.f.",
+"zh": "痴呆；疯癫",
+"level": "b2"
+},
+{
+"word": "démener",
+"pos": "v.",
+"zh": "（自己）卖力；拼命干",
+"level": "b2"
+},
+{
+"word": "démentir",
+"pos": "v.",
+"zh": "揭穿；与…相悖",
+"level": "b2"
+},
+{
+"word": "démerder",
+"pos": "v.",
+"zh": "（自行）摆脱麻烦（粗口语）",
+"level": "b2"
+},
+{
+"word": "démoniaque",
+"pos": "adj.",
+"zh": "魔鬼般的；凶恶的",
+"level": "b2"
+},
+{
+"word": "démonter",
+"pos": "v.",
+"zh": "拆卸；拆开",
+"level": "b2"
+},
+{
+"word": "dénicher",
+"pos": "v.",
+"zh": "找出；发掘",
+"level": "b2"
+},
+{
+"word": "dénommé",
+"pos": "n.m.",
+"zh": "名叫某某的",
+"level": "b2"
+},
+{
+"word": "dépeindre",
+"pos": "v.",
+"zh": "描绘；刻画",
+"level": "b2"
+},
+{
+"word": "dépens",
+"pos": "n.m.",
+"zh": "花费；负担",
+"level": "b2"
+},
+{
+"word": "dépit",
+"pos": "n.m.",
+"zh": "恼火；懊恼",
+"level": "b2"
+},
+{
+"word": "déplaire",
+"pos": "v.",
+"zh": "使不悦",
+"level": "b2"
+},
+{
+"word": "déplaisant",
+"pos": "adj.",
+"zh": "令人不快的",
+"level": "b2"
+},
+{
+"word": "déplorer",
+"pos": "v.",
+"zh": "痛惜；谴责",
+"level": "b2"
+},
+{
+"word": "déployer",
+"pos": "v.",
+"zh": "部署；施展",
+"level": "b2"
+},
+{
+"word": "déporter",
+"pos": "v.",
+"zh": "流放；遣送",
+"level": "b2"
+},
+{
+"word": "déporté",
+"pos": "n.m.",
+"zh": "被流放者；被押送者",
+"level": "b2"
+},
+{
+"word": "déposition",
+"pos": "n.f.",
+"zh": "证词；陈述",
+"level": "b2"
+},
+{
+"word": "dépouiller",
+"pos": "v.",
+"zh": "剥夺；洗劫",
+"level": "b2"
+},
+{
+"word": "dérailler",
+"pos": "v.",
+"zh": "出轨；出毛病（口语）",
+"level": "b2"
+},
+{
+"word": "dérangé",
+"pos": "adj.",
+"zh": "被打乱的；精神失常的",
+"level": "b2"
+},
+{
+"word": "déraper",
+"pos": "v.",
+"zh": "打滑；失控",
+"level": "b2"
+},
+{
+"word": "dérive",
+"pos": "n.f.",
+"zh": "漂移；偏离",
+"level": "b2"
+},
+{
+"word": "dérober",
+"pos": "v.",
+"zh": "偷窃；掩饰",
+"level": "b2"
+},
+{
+"word": "désamorcer",
+"pos": "v.",
+"zh": "拆除引信；化解",
+"level": "b2"
+},
+{
+"word": "désarmer",
+"pos": "v.",
+"zh": "缴械；解除武装",
+"level": "b2"
+},
+{
+"word": "désastre",
+"pos": "n.m.",
+"zh": "灾难；惨败",
+"level": "b2"
+},
+{
+"word": "désastreux",
+"pos": "adj.",
+"zh": "灾难性的；糟糕的",
+"level": "b2"
+},
+{
+"word": "déserter",
+"pos": "v.",
+"zh": "开小差；擅离",
+"level": "b2"
+},
+{
+"word": "déserteur",
+"pos": "n.m.",
+"zh": "逃兵",
+"level": "b2"
+},
+{
+"word": "déshonneur",
+"pos": "n.m.",
+"zh": "耻辱",
+"level": "b2"
+},
+{
+"word": "déshonorer",
+"pos": "v.",
+"zh": "羞辱；玷污",
+"level": "b2"
+},
+{
+"word": "détaché",
+"pos": "adj.",
+"zh": "分开的；松开的",
+"level": "b2"
+},
+{
+"word": "détailler",
+"pos": "v.",
+"zh": "切碎；细述",
+"level": "b2"
+},
+{
+"word": "détenir",
+"pos": "v.",
+"zh": "持有；掌握",
+"level": "b2"
+},
+{
+"word": "détention",
+"pos": "n.f.",
+"zh": "拘押；监禁；持有",
+"level": "b2"
+},
+{
+"word": "détenu",
+"pos": "n.m.",
+"zh": "囚犯；在押人员",
+"level": "b2"
+},
+{
+"word": "déterrer",
+"pos": "v.",
+"zh": "挖出；翻出",
+"level": "b2"
+},
+{
+"word": "détonateur",
+"pos": "n.m.",
+"zh": "雷管；起爆器",
+"level": "b2"
+},
+{
+"word": "détour",
+"pos": "n.m.",
+"zh": "绕道；弯路",
+"level": "b2"
+},
+{
+"word": "détournement",
+"pos": "n.m.",
+"zh": "挪用；劫持；歪曲",
+"level": "b2"
+},
+{
+"word": "détraquer",
+"pos": "v.",
+"zh": "使失灵；使紊乱",
+"level": "b2"
+},
+{
+"word": "détroit",
+"pos": "n.m.",
+"zh": "海峡",
+"level": "b2"
+},
+{
+"word": "détromper",
+"pos": "v.",
+"zh": "使醒悟；消除误解",
+"level": "b2"
+},
+{
+"word": "dévaliser",
+"pos": "v.",
+"zh": "抢劫；入室盗窃",
+"level": "b2"
+}
+]

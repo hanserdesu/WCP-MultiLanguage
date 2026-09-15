@@ -1,0 +1,602 @@
+[
+{
+"word": "vous-mêmes",
+"pos": "pron.",
+"zh": "你们自己",
+"level": "a2"
+},
+{
+"word": "voyageur",
+"pos": "n.m.",
+"zh": "旅客；旅行者",
+"level": "a2"
+},
+{
+"word": "voyou",
+"pos": "n.m.",
+"zh": "流氓；无赖",
+"level": "a2"
+},
+{
+"word": "végétarien",
+"pos": "adj.",
+"zh": "素食的；素食者",
+"level": "a2"
+},
+{
+"word": "vérifier",
+"pos": "v.",
+"zh": "核实；检查",
+"level": "a2"
+},
+{
+"word": "véritable",
+"pos": "adj.",
+"zh": "真正的；名副其实的",
+"level": "a2"
+},
+{
+"word": "vérité",
+"pos": "n.f.",
+"zh": "真相；真理",
+"level": "a2"
+},
+{
+"word": "vétérinaire",
+"pos": "n.",
+"zh": "兽医",
+"level": "a2"
+},
+{
+"word": "vêtement",
+"pos": "n.m.",
+"zh": "衣服；服装",
+"level": "a2"
+},
+{
+"word": "vôtre",
+"pos": "pron.",
+"zh": "你的东西；您的东西",
+"level": "a2"
+},
+{
+"word": "wagon",
+"pos": "n.m.",
+"zh": "车厢",
+"level": "a2"
+},
+{
+"word": "web",
+"pos": "n.m.",
+"zh": "网络；万维网",
+"level": "a2"
+},
+{
+"word": "whisky",
+"pos": "n.m.",
+"zh": "威士忌",
+"level": "a2"
+},
+{
+"word": "yoga",
+"pos": "n.m.",
+"zh": "瑜伽",
+"level": "a2"
+},
+{
+"word": "yuan",
+"pos": "n.m.",
+"zh": "元（中国货币）",
+"level": "a2"
+},
+{
+"word": "zen",
+"pos": "adj.",
+"zh": "禅的；平和放松的",
+"level": "a2"
+},
+{
+"word": "zone",
+"pos": "n.f.",
+"zh": "区域；地带",
+"level": "a2"
+},
+{
+"word": "zut",
+"pos": "interj.",
+"zh": "哎呀；见鬼",
+"level": "a2"
+},
+{
+"word": "zèbre",
+"pos": "n.m.",
+"zh": "斑马",
+"level": "a2"
+},
+{
+"word": "âgé",
+"pos": "adj.",
+"zh": "年老的；上了年纪的",
+"level": "a2"
+},
+{
+"word": "âme",
+"pos": "n.f.",
+"zh": "灵魂；心灵",
+"level": "a2"
+},
+{
+"word": "âne",
+"pos": "n.m.",
+"zh": "驴",
+"level": "a2"
+},
+{
+"word": "échange",
+"pos": "n.m.",
+"zh": "交换；交流",
+"level": "a2"
+},
+{
+"word": "échanger",
+"pos": "v.",
+"zh": "交换；交流",
+"level": "a2"
+},
+{
+"word": "écharpe",
+"pos": "n.f.",
+"zh": "围巾；披肩",
+"level": "a2"
+},
+{
+"word": "échelle",
+"pos": "n.f.",
+"zh": "梯子；等级；比例尺",
+"level": "a2"
+},
+{
+"word": "éclair",
+"pos": "n.m.",
+"zh": "闪电；电光",
+"level": "a2"
+},
+{
+"word": "éclater",
+"pos": "v.",
+"zh": "爆裂；爆发",
+"level": "a2"
+},
+{
+"word": "écolier",
+"pos": "n.m.",
+"zh": "小学生",
+"level": "a2"
+},
+{
+"word": "économique",
+"pos": "adj.",
+"zh": "经济的",
+"level": "a2"
+},
+{
+"word": "économiser",
+"pos": "v.",
+"zh": "节省；储蓄",
+"level": "a2"
+},
+{
+"word": "écossais",
+"pos": "adj.",
+"zh": "苏格兰的；苏格兰人",
+"level": "a2"
+},
+{
+"word": "écoute",
+"pos": "n.f.",
+"zh": "倾听；监听",
+"level": "a2"
+},
+{
+"word": "écran",
+"pos": "n.m.",
+"zh": "屏幕；银幕",
+"level": "a2"
+},
+{
+"word": "écrivain",
+"pos": "n.m.",
+"zh": "作家",
+"level": "a2"
+},
+{
+"word": "écureuil",
+"pos": "n.m.",
+"zh": "松鼠",
+"level": "a2"
+},
+{
+"word": "éducation",
+"pos": "n.f.",
+"zh": "教育；教养",
+"level": "a2"
+},
+{
+"word": "égal",
+"pos": "adj.",
+"zh": "相等的；平等的",
+"level": "a2"
+},
+{
+"word": "également",
+"pos": "adv.",
+"zh": "同样地；也",
+"level": "a2"
+},
+{
+"word": "église",
+"pos": "n.f.",
+"zh": "教堂",
+"level": "a2"
+},
+{
+"word": "égoïste",
+"pos": "adj.",
+"zh": "自私的",
+"level": "a2"
+},
+{
+"word": "électricité",
+"pos": "n.f.",
+"zh": "电；电力",
+"level": "a2"
+},
+{
+"word": "électrique",
+"pos": "adj.",
+"zh": "电的；用电的",
+"level": "a2"
+},
+{
+"word": "éloigner",
+"pos": "v.",
+"zh": "使远离；疏远",
+"level": "a2"
+},
+{
+"word": "éloigné",
+"pos": "adj.",
+"zh": "遥远的",
+"level": "a2"
+},
+{
+"word": "élégant",
+"pos": "adj.",
+"zh": "优雅的；雅致的",
+"level": "a2"
+},
+{
+"word": "éléphant",
+"pos": "n.m.",
+"zh": "象",
+"level": "a2"
+},
+{
+"word": "émission",
+"pos": "n.f.",
+"zh": "节目；排放",
+"level": "a2"
+},
+{
+"word": "émotion",
+"pos": "n.f.",
+"zh": "情感；激动",
+"level": "a2"
+},
+{
+"word": "énergie",
+"pos": "n.f.",
+"zh": "能量；精力",
+"level": "a2"
+},
+{
+"word": "énervé",
+"pos": "adj.",
+"zh": "恼火的；气恼的",
+"level": "a2"
+},
+{
+"word": "énorme",
+"pos": "adj.",
+"zh": "巨大的；庞大的",
+"level": "a2"
+},
+{
+"word": "énormément",
+"pos": "adv.",
+"zh": "非常；极其",
+"level": "a2"
+},
+{
+"word": "épais",
+"pos": "adj.",
+"zh": "厚的；浓的",
+"level": "a2"
+},
+{
+"word": "épaule",
+"pos": "n.f.",
+"zh": "肩膀",
+"level": "a2"
+},
+{
+"word": "épice",
+"pos": "n.f.",
+"zh": "香料；调料",
+"level": "a2"
+},
+{
+"word": "épicerie",
+"pos": "n.f.",
+"zh": "食品杂货店",
+"level": "a2"
+},
+{
+"word": "épicier",
+"pos": "n.m.",
+"zh": "食品杂货商",
+"level": "a2"
+},
+{
+"word": "épisode",
+"pos": "n.m.",
+"zh": "一集；片段",
+"level": "a2"
+},
+{
+"word": "éponge",
+"pos": "n.f.",
+"zh": "海绵",
+"level": "a2"
+},
+{
+"word": "épuisé",
+"pos": "adj.",
+"zh": "精疲力竭的；售罄的",
+"level": "a2"
+},
+{
+"word": "épée",
+"pos": "n.f.",
+"zh": "剑；长剑",
+"level": "a2"
+},
+{
+"word": "étage",
+"pos": "n.m.",
+"zh": "楼层",
+"level": "a2"
+},
+{
+"word": "étagère",
+"pos": "n.f.",
+"zh": "搁架；置物架",
+"level": "a2"
+},
+{
+"word": "étape",
+"pos": "n.f.",
+"zh": "阶段；步骤",
+"level": "a2"
+},
+{
+"word": "état",
+"pos": "n.m.",
+"zh": "状态；国家；州",
+"level": "a2"
+},
+{
+"word": "éteindre",
+"pos": "v.",
+"zh": "熄灭；关掉",
+"level": "a2"
+},
+{
+"word": "éteint",
+"pos": "adj.",
+"zh": "熄灭的；断电的；灭绝的",
+"level": "a2"
+},
+{
+"word": "éternuer",
+"pos": "v.",
+"zh": "打喷嚏",
+"level": "a2"
+},
+{
+"word": "étirer",
+"pos": "v.",
+"zh": "伸展；拉长",
+"level": "a2"
+},
+{
+"word": "étoile",
+"pos": "n.f.",
+"zh": "星；星星；明星",
+"level": "a2"
+},
+{
+"word": "étonnant",
+"pos": "adj.",
+"zh": "惊人的；了不起的",
+"level": "a2"
+},
+{
+"word": "étonné",
+"pos": "adj.",
+"zh": "惊讶的",
+"level": "a2"
+},
+{
+"word": "étranger",
+"pos": "n.m.",
+"zh": "外国人；外国",
+"level": "a2"
+},
+{
+"word": "étude",
+"pos": "n.f.",
+"zh": "学习；研究",
+"level": "a2"
+},
+{
+"word": "évidemment",
+"pos": "adv.",
+"zh": "显然；当然",
+"level": "a2"
+},
+{
+"word": "évident",
+"pos": "adj.",
+"zh": "明显的；显然的",
+"level": "a2"
+},
+{
+"word": "évier",
+"pos": "n.m.",
+"zh": "洗碗水槽",
+"level": "a2"
+},
+{
+"word": "événement",
+"pos": "n.m.",
+"zh": "事件；大事",
+"level": "a2"
+},
+{
+"word": "île",
+"pos": "n.f.",
+"zh": "岛",
+"level": "a2"
+},
+{
+"word": "abaisser",
+"pos": "v.",
+"zh": "降低；放下",
+"level": "b1"
+},
+{
+"word": "abandon",
+"pos": "n.m.",
+"zh": "放弃；抛弃",
+"level": "b1"
+},
+{
+"word": "abandonner",
+"pos": "v.",
+"zh": "放弃；抛弃",
+"level": "b1"
+},
+{
+"word": "abandonné",
+"pos": "adj.",
+"zh": "被抛弃的；荒废的",
+"level": "b1"
+},
+{
+"word": "abattre",
+"pos": "v.",
+"zh": "击倒；砍倒；宰杀",
+"level": "b1"
+},
+{
+"word": "abbaye",
+"pos": "n.f.",
+"zh": "修道院",
+"level": "b1"
+},
+{
+"word": "abondance",
+"pos": "n.f.",
+"zh": "丰富；大量",
+"level": "b1"
+},
+{
+"word": "abonnement",
+"pos": "n.m.",
+"zh": "订阅；定期票",
+"level": "b1"
+},
+{
+"word": "aborder",
+"pos": "v.",
+"zh": "着手处理；接近",
+"level": "b1"
+},
+{
+"word": "aboutir",
+"pos": "v.",
+"zh": "通向；达成",
+"level": "b1"
+},
+{
+"word": "abri",
+"pos": "n.m.",
+"zh": "躲避处；庇护",
+"level": "b1"
+},
+{
+"word": "abriter",
+"pos": "v.",
+"zh": "掩蔽；庇护",
+"level": "b1"
+},
+{
+"word": "abruti",
+"pos": "n.m.",
+"zh": "蠢货（粗俗）",
+"level": "b1"
+},
+{
+"word": "abréger",
+"pos": "v.",
+"zh": "缩短；节略",
+"level": "b1"
+},
+{
+"word": "absenter",
+"pos": "v.",
+"zh": "缺席；离开",
+"level": "b1"
+},
+{
+"word": "absolu",
+"pos": "adj.",
+"zh": "绝对的",
+"level": "b1"
+},
+{
+"word": "absolument",
+"pos": "adv.",
+"zh": "绝对地；当然",
+"level": "b1"
+},
+{
+"word": "abstenir",
+"pos": "v.",
+"zh": "克制；戒除；弃权",
+"level": "b1"
+},
+{
+"word": "absurde",
+"pos": "adj.",
+"zh": "荒谬的；荒唐的",
+"level": "b1"
+},
+{
+"word": "abus",
+"pos": "n.m.",
+"zh": "滥用；虐待",
+"level": "b1"
+}
+]

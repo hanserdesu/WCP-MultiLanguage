@@ -1,0 +1,602 @@
+[
+{
+"word": "daran",
+"pos": "adv.",
+"zh": "在那上面",
+"level": "a2"
+},
+{
+"word": "Dank",
+"pos": "n.m.",
+"zh": "感谢",
+"level": "a2"
+},
+{
+"word": "Fall",
+"pos": "n.m.",
+"zh": "情况；案例",
+"level": "a2"
+},
+{
+"word": "egal",
+"pos": "adj.",
+"zh": "无所谓的",
+"level": "a2"
+},
+{
+"word": "mögen",
+"pos": "v.",
+"zh": "喜欢",
+"level": "a2"
+},
+{
+"word": "echt",
+"pos": "adj.",
+"zh": "真的（口语）",
+"level": "a2"
+},
+{
+"word": "eigentlich",
+"pos": "adv.",
+"zh": "其实",
+"level": "a2"
+},
+{
+"word": "bekommen",
+"pos": "v.",
+"zh": "收到",
+"level": "a2"
+},
+{
+"word": "letzte",
+"pos": "adj.",
+"zh": "最后的",
+"level": "a2"
+},
+{
+"word": "darauf",
+"pos": "adv.",
+"zh": "在那上面",
+"level": "a2"
+},
+{
+"word": "Ende",
+"pos": "n.",
+"zh": "结束；末尾",
+"level": "a2"
+},
+{
+"word": "töten",
+"pos": "v.",
+"zh": "杀死",
+"level": "a2"
+},
+{
+"word": "toll",
+"pos": "adj.",
+"zh": "极好的",
+"level": "a2"
+},
+{
+"word": "bereit",
+"pos": "adj.",
+"zh": "准备好的",
+"level": "a2"
+},
+{
+"word": "weit",
+"pos": "adj.",
+"zh": "远的",
+"level": "a2"
+},
+{
+"word": "Ahnung",
+"pos": "n.f.",
+"zh": "概念；线索",
+"level": "a2"
+},
+{
+"word": "euer",
+"pos": "pron.",
+"zh": "你们的",
+"level": "a2"
+},
+{
+"word": "sterben",
+"pos": "v.",
+"zh": "死亡",
+"level": "a2"
+},
+{
+"word": "draußen",
+"pos": "adv.",
+"zh": "外面",
+"level": "a2"
+},
+{
+"word": "runter",
+"pos": "adv.",
+"zh": "下来（口语）",
+"level": "a2"
+},
+{
+"word": "vorbei",
+"pos": "adv.",
+"zh": "经过；结束",
+"level": "a2"
+},
+{
+"word": "dran",
+"pos": "adv.",
+"zh": "轮到；该（口语）",
+"level": "a2"
+},
+{
+"word": "verrückt",
+"pos": "adj.",
+"zh": "疯狂的",
+"level": "a2"
+},
+{
+"word": "sorgen",
+"pos": "v.",
+"zh": "担心；照料",
+"level": "a2"
+},
+{
+"word": "einzige",
+"pos": "adj.",
+"zh": "唯一的",
+"level": "a2"
+},
+{
+"word": "darum",
+"pos": "adv.",
+"zh": "因此",
+"level": "a2"
+},
+{
+"word": "drin",
+"pos": "adv.",
+"zh": "在里面（口语）",
+"level": "a2"
+},
+{
+"word": "ziemlich",
+"pos": "adv.",
+"zh": "相当",
+"level": "a2"
+},
+{
+"word": "sogar",
+"pos": "adv.",
+"zh": "甚至",
+"level": "a2"
+},
+{
+"word": "Kerl",
+"pos": "n.m.",
+"zh": "家伙",
+"level": "a2"
+},
+{
+"word": "liegen",
+"pos": "v.",
+"zh": "躺；位于",
+"level": "a2"
+},
+{
+"word": "je",
+"pos": "adv.",
+"zh": "曾经；越…越",
+"level": "a2"
+},
+{
+"word": "woher",
+"pos": "adv.",
+"zh": "从哪里",
+"level": "a2"
+},
+{
+"word": "Job",
+"pos": "n.m.",
+"zh": "工作",
+"level": "a2"
+},
+{
+"word": "überhaupt",
+"pos": "adv.",
+"zh": "究竟；根本",
+"level": "a2"
+},
+{
+"word": "Teufel",
+"pos": "n.m.",
+"zh": "魔鬼",
+"level": "a2"
+},
+{
+"word": "verlieren",
+"pos": "v.",
+"zh": "失去；输掉",
+"level": "a2"
+},
+{
+"word": "Grund",
+"pos": "n.m.",
+"zh": "原因；理由",
+"level": "a2"
+},
+{
+"word": "Ruhe",
+"pos": "n.f.",
+"zh": "安静；休息",
+"level": "a2"
+},
+{
+"word": "Tod",
+"pos": "n.m.",
+"zh": "死亡",
+"level": "a2"
+},
+{
+"word": "hoffen",
+"pos": "v.",
+"zh": "希望",
+"level": "a2"
+},
+{
+"word": "versuchen",
+"pos": "v.",
+"zh": "尝试",
+"level": "a2"
+},
+{
+"word": "Art",
+"pos": "n.f.",
+"zh": "种类；方式",
+"level": "a2"
+},
+{
+"word": "Schatz",
+"pos": "n.m.",
+"zh": "宝贝；宝藏",
+"level": "a2"
+},
+{
+"word": "endlich",
+"pos": "adv.",
+"zh": "终于",
+"level": "a2"
+},
+{
+"word": "etwa",
+"pos": "adv.",
+"zh": "大约；难道",
+"level": "a2"
+},
+{
+"word": "erzählen",
+"pos": "v.",
+"zh": "讲述",
+"level": "a2"
+},
+{
+"word": "laufen",
+"pos": "v.",
+"zh": "跑；运行",
+"level": "a2"
+},
+{
+"word": "erste",
+"pos": "adj.",
+"zh": "第一的",
+"level": "a2"
+},
+{
+"word": "holen",
+"pos": "v.",
+"zh": "取来",
+"level": "a2"
+},
+{
+"word": "bedeuten",
+"pos": "v.",
+"zh": "意味着",
+"level": "a2"
+},
+{
+"word": "Wahrheit",
+"pos": "n.f.",
+"zh": "真相",
+"level": "a2"
+},
+{
+"word": "bestimmt",
+"pos": "adv.",
+"zh": "肯定",
+"level": "a2"
+},
+{
+"word": "Alter",
+"pos": "n.",
+"zh": "年龄",
+"level": "a2"
+},
+{
+"word": "Wagen",
+"pos": "n.m.",
+"zh": "车辆",
+"level": "a2"
+},
+{
+"word": "gefallen",
+"pos": "v.",
+"zh": "喜爱；使喜欢",
+"level": "a2"
+},
+{
+"word": "niemals",
+"pos": "adv.",
+"zh": "从不",
+"level": "a2"
+},
+{
+"word": "Schuld",
+"pos": "n.f.",
+"zh": "过错；责任",
+"level": "a2"
+},
+{
+"word": "verlassen",
+"pos": "v.",
+"zh": "离开",
+"level": "a2"
+},
+{
+"word": "beste",
+"pos": "adj.",
+"zh": "最好的",
+"level": "a2"
+},
+{
+"word": "ernst",
+"pos": "adj.",
+"zh": "严肃的",
+"level": "a2"
+},
+{
+"word": "Ort",
+"pos": "n.m.",
+"zh": "地方",
+"level": "a2"
+},
+{
+"word": "eben",
+"pos": "adv.",
+"zh": "恰好；就是",
+"level": "a2"
+},
+{
+"word": "während",
+"pos": "präp.",
+"zh": "在…期间",
+"level": "a2"
+},
+{
+"word": "Chance",
+"pos": "n.f.",
+"zh": "机会",
+"level": "a2"
+},
+{
+"word": "Krieg",
+"pos": "n.m.",
+"zh": "战争",
+"level": "a2"
+},
+{
+"word": "Typ",
+"pos": "n.m.",
+"zh": "类型；家伙",
+"level": "a2"
+},
+{
+"word": "falls",
+"pos": "konj.",
+"zh": "万一",
+"level": "a2"
+},
+{
+"word": "bloß",
+"pos": "adv.",
+"zh": "仅仅；只是",
+"level": "a2"
+},
+{
+"word": "stellen",
+"pos": "v.",
+"zh": "放置；提出",
+"level": "a2"
+},
+{
+"word": "Sorge",
+"pos": "n.f.",
+"zh": "担忧",
+"level": "a2"
+},
+{
+"word": "einige",
+"pos": "pron.",
+"zh": "一些",
+"level": "a2"
+},
+{
+"word": "dies",
+"pos": "pron.",
+"zh": "这",
+"level": "a2"
+},
+{
+"word": "kriegen",
+"pos": "v.",
+"zh": "得到（口语）",
+"level": "a2"
+},
+{
+"word": "Blut",
+"pos": "n.",
+"zh": "血",
+"level": "a2"
+},
+{
+"word": "ehrlich",
+"pos": "adj.",
+"zh": "诚实的",
+"level": "a2"
+},
+{
+"word": "scheinen",
+"pos": "v.",
+"zh": "似乎；照耀",
+"level": "a2"
+},
+{
+"word": "irgendwie",
+"pos": "adv.",
+"zh": "不知怎么地",
+"level": "a2"
+},
+{
+"word": "reichen",
+"pos": "v.",
+"zh": "足够",
+"level": "a2"
+},
+{
+"word": "fest",
+"pos": "adj.",
+"zh": "牢固的；坚定",
+"level": "a2"
+},
+{
+"word": "Waffe",
+"pos": "n.f.",
+"zh": "武器",
+"level": "a2"
+},
+{
+"word": "kaum",
+"pos": "adv.",
+"zh": "几乎不",
+"level": "a2"
+},
+{
+"word": "irgendwas",
+"pos": "pron.",
+"zh": "某些东西（口语）",
+"level": "a2"
+},
+{
+"word": "klingen",
+"pos": "v.",
+"zh": "听起来",
+"level": "a2"
+},
+{
+"word": "sondern",
+"pos": "konj.",
+"zh": "而是",
+"level": "a2"
+},
+{
+"word": "wohin",
+"pos": "adv.",
+"zh": "去哪里",
+"level": "a2"
+},
+{
+"word": "außer",
+"pos": "präp.",
+"zh": "除…之外",
+"level": "a2"
+},
+{
+"word": "setzen",
+"pos": "v.",
+"zh": "坐下；放置",
+"level": "a2"
+},
+{
+"word": "zuerst",
+"pos": "adv.",
+"zh": "首先",
+"level": "a2"
+},
+{
+"word": "retten",
+"pos": "v.",
+"zh": "拯救",
+"level": "a2"
+},
+{
+"word": "hierher",
+"pos": "adv.",
+"zh": "到这里",
+"level": "a2"
+},
+{
+"word": "Dollar",
+"pos": "n.m.",
+"zh": "美元",
+"level": "a2"
+},
+{
+"word": "Menge",
+"pos": "n.f.",
+"zh": "大量",
+"level": "a2"
+},
+{
+"word": "bereits",
+"pos": "adv.",
+"zh": "已经",
+"level": "a2"
+},
+{
+"word": "Büro",
+"pos": "n.",
+"zh": "办公室",
+"level": "a2"
+},
+{
+"word": "schaffen",
+"pos": "v.",
+"zh": "做成；创造",
+"level": "a2"
+},
+{
+"word": "trotzdem",
+"pos": "adv.",
+"zh": "尽管如此",
+"level": "a2"
+},
+{
+"word": "Doktor",
+"pos": "n.m.",
+"zh": "博士；医生",
+"level": "a2"
+},
+{
+"word": "überall",
+"pos": "adv.",
+"zh": "到处",
+"level": "a2"
+},
+{
+"word": "direkt",
+"pos": "adj.",
+"zh": "直接",
+"level": "a2"
+}
+]

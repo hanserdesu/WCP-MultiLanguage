@@ -1,0 +1,1802 @@
+[
+{
+"word": "я",
+"stress": "",
+"pos": "pron.",
+"rank": 1
+},
+{
+"word": "не",
+"stress": "",
+"pos": "part.",
+"rank": 2
+},
+{
+"word": "ты",
+"stress": "",
+"pos": "pron.",
+"rank": 3
+},
+{
+"word": "что",
+"stress": "",
+"pos": "conj.",
+"rank": 4
+},
+{
+"word": "это",
+"stress": "э́то",
+"pos": "part.",
+"rank": 5
+},
+{
+"word": "в",
+"stress": "",
+"pos": "prep.",
+"rank": 6
+},
+{
+"word": "и",
+"stress": "",
+"pos": "conj.",
+"rank": 7
+},
+{
+"word": "он",
+"stress": "",
+"pos": "pron.",
+"rank": 8
+},
+{
+"word": "быть",
+"stress": "бы́ть",
+"pos": "v.",
+"rank": 9
+},
+{
+"word": "мы",
+"stress": "",
+"pos": "pron.",
+"rank": 10
+},
+{
+"word": "вы",
+"stress": "",
+"pos": "pron.",
+"rank": 11
+},
+{
+"word": "с",
+"stress": "",
+"pos": "prep.",
+"rank": 12
+},
+{
+"word": "на",
+"stress": "",
+"pos": "prep.",
+"rank": 13
+},
+{
+"word": "она",
+"stress": "она́",
+"pos": "pron.",
+"rank": 14
+},
+{
+"word": "как",
+"stress": "",
+"pos": "conj.",
+"rank": 15
+},
+{
+"word": "они",
+"stress": "они́",
+"pos": "pron.",
+"rank": 16
+},
+{
+"word": "мочь",
+"stress": "мо́чь",
+"pos": "v.",
+"rank": 17
+},
+{
+"word": "да",
+"stress": "",
+"pos": "part.",
+"rank": 18
+},
+{
+"word": "всё",
+"stress": "всё",
+"pos": "part.",
+"rank": 19
+},
+{
+"word": "у",
+"stress": "",
+"pos": "prep.",
+"rank": 20
+},
+{
+"word": "нет",
+"stress": "",
+"pos": "пред.",
+"rank": 21
+},
+{
+"word": "знать",
+"stress": "зна́ть",
+"pos": "v.",
+"rank": 22
+},
+{
+"word": "так",
+"stress": "",
+"pos": "conj.",
+"rank": 23
+},
+{
+"word": "но",
+"stress": "",
+"pos": "conj.",
+"rank": 24
+},
+{
+"word": "о",
+"stress": "",
+"pos": "prep.",
+"rank": 25
+},
+{
+"word": "мой",
+"stress": "",
+"pos": "adj.",
+"rank": 26
+},
+{
+"word": "хотеть",
+"stress": "хоте́ть",
+"pos": "v.",
+"rank": 27
+},
+{
+"word": "этот",
+"stress": "э́тот",
+"pos": "adj.",
+"rank": 28
+},
+{
+"word": "если",
+"stress": "е́сли",
+"pos": "conj.",
+"rank": 29
+},
+{
+"word": "сказать",
+"stress": "сказа́ть",
+"pos": "v.",
+"rank": 30
+},
+{
+"word": "за",
+"stress": "",
+"pos": "prep.",
+"rank": 31
+},
+{
+"word": "бы",
+"stress": "",
+"pos": "part.",
+"rank": 32
+},
+{
+"word": "тот",
+"stress": "",
+"pos": "adj.",
+"rank": 33
+},
+{
+"word": "думать",
+"stress": "ду́мать",
+"pos": "v.",
+"rank": 34
+},
+{
+"word": "к",
+"stress": "",
+"pos": "prep.",
+"rank": 35
+},
+{
+"word": "чтобы",
+"stress": "что́бы",
+"pos": "conj.",
+"rank": 36
+},
+{
+"word": "есть",
+"stress": "е́сть",
+"pos": "v.",
+"rank": 37
+},
+{
+"word": "твой",
+"stress": "",
+"pos": "adj.",
+"rank": 38
+},
+{
+"word": "же",
+"stress": "",
+"pos": "part.",
+"rank": 39
+},
+{
+"word": "свой",
+"stress": "",
+"pos": "adj.",
+"rank": 40
+},
+{
+"word": "просто",
+"stress": "про́сто",
+"pos": "part.",
+"rank": 41
+},
+{
+"word": "из",
+"stress": "",
+"pos": "prep.",
+"rank": 42
+},
+{
+"word": "ещё",
+"stress": "еще́",
+"pos": "adv.",
+"rank": 43
+},
+{
+"word": "говорить",
+"stress": "говори́ть",
+"pos": "v.",
+"rank": 44
+},
+{
+"word": "должный",
+"stress": "до́лжный",
+"pos": "adj.",
+"rank": 45
+},
+{
+"word": "весь",
+"stress": "",
+"pos": "adj.",
+"rank": 46
+},
+{
+"word": "для",
+"stress": "",
+"pos": "prep.",
+"rank": 47
+},
+{
+"word": "ну",
+"stress": "",
+"pos": "part.",
+"rank": 48
+},
+{
+"word": "когда",
+"stress": "когда́",
+"pos": "conj.",
+"rank": 49
+},
+{
+"word": "хорошо",
+"stress": "хорошо́",
+"pos": "adv.",
+"rank": 50
+},
+{
+"word": "кто",
+"stress": "кто́",
+"pos": "pron.",
+"rank": 51
+},
+{
+"word": "здесь",
+"stress": "",
+"pos": "adv.",
+"rank": 52
+},
+{
+"word": "такой",
+"stress": "тако́й",
+"pos": "adj.",
+"rank": 53
+},
+{
+"word": "по",
+"stress": "",
+"pos": "prep.",
+"rank": 54
+},
+{
+"word": "который",
+"stress": "кото́рый",
+"pos": "adj.",
+"rank": 55
+},
+{
+"word": "то",
+"stress": "",
+"pos": "conj.",
+"rank": 56
+},
+{
+"word": "только",
+"stress": "то́лько",
+"pos": "adv.",
+"rank": 57
+},
+{
+"word": "сделать",
+"stress": "сде́лать",
+"pos": "v.",
+"rank": 58
+},
+{
+"word": "один",
+"stress": "оди́н",
+"pos": "adj.",
+"rank": 59
+},
+{
+"word": "хороший",
+"stress": "хоро́ший",
+"pos": "adj.",
+"rank": 60
+},
+{
+"word": "человек",
+"stress": "челове́к",
+"pos": "n.m.",
+"rank": 61
+},
+{
+"word": "делать",
+"stress": "де́лать",
+"pos": "v.",
+"rank": 62
+},
+{
+"word": "вот",
+"stress": "",
+"pos": "part.",
+"rank": 63
+},
+{
+"word": "от",
+"stress": "",
+"pos": "prep.",
+"rank": 64
+},
+{
+"word": "ваш",
+"stress": "",
+"pos": "adj.",
+"rank": 65
+},
+{
+"word": "себя",
+"stress": "себя́",
+"pos": "pron.",
+"rank": 66
+},
+{
+"word": "видеть",
+"stress": "ви́деть",
+"pos": "v.",
+"rank": 67
+},
+{
+"word": "почему",
+"stress": "почему́",
+"pos": "adv.",
+"rank": 68
+},
+{
+"word": "дело",
+"stress": "де́ло",
+"pos": "n.n.",
+"rank": 69
+},
+{
+"word": "очень",
+"stress": "о́чень",
+"pos": "adv.",
+"rank": 70
+},
+{
+"word": "уже",
+"stress": "уже́",
+"pos": "adv.",
+"rank": 71
+},
+{
+"word": "время",
+"stress": "вре́мя",
+"pos": "n.n.",
+"rank": 72
+},
+{
+"word": "наш",
+"stress": "",
+"pos": "adj.",
+"rank": 73
+},
+{
+"word": "спасибо",
+"stress": "спаси́бо",
+"pos": "interj.",
+"rank": 74
+},
+{
+"word": "или",
+"stress": "и́ли",
+"pos": "conj.",
+"rank": 75
+},
+{
+"word": "большой",
+"stress": "большо́й",
+"pos": "adj.",
+"rank": 76
+},
+{
+"word": "давать",
+"stress": "дава́ть",
+"pos": "v.",
+"rank": 77
+},
+{
+"word": "там",
+"stress": "",
+"pos": "adv.",
+"rank": 78
+},
+{
+"word": "сейчас",
+"stress": "сейча́с",
+"pos": "adv.",
+"rank": 79
+},
+{
+"word": "нужно",
+"stress": "ну́жно",
+"pos": "пред.",
+"rank": 80
+},
+{
+"word": "идти",
+"stress": "идти́",
+"pos": "v.",
+"rank": 81
+},
+{
+"word": "где",
+"stress": "",
+"pos": "adv.",
+"rank": 82
+},
+{
+"word": "чем",
+"stress": "",
+"pos": "conj.",
+"rank": 83
+},
+{
+"word": "ничего",
+"stress": "ничего́",
+"pos": "adv.",
+"rank": 84
+},
+{
+"word": "ладный",
+"stress": "ла́дный",
+"pos": "adj.",
+"rank": 85
+},
+{
+"word": "до",
+"stress": "",
+"pos": "prep.",
+"rank": 86
+},
+{
+"word": "потому",
+"stress": "потому́",
+"pos": "adv.",
+"rank": 87
+},
+{
+"word": "день",
+"stress": "де́нь",
+"pos": "n.m.",
+"rank": 88
+},
+{
+"word": "сам",
+"stress": "",
+"pos": "adj.",
+"rank": 89
+},
+{
+"word": "теперь",
+"stress": "тепе́рь",
+"pos": "adv.",
+"rank": 90
+},
+{
+"word": "какой",
+"stress": "како́й",
+"pos": "adj.",
+"rank": 91
+},
+{
+"word": "друг",
+"stress": "дру́г",
+"pos": "n.m.",
+"rank": 92
+},
+{
+"word": "раз",
+"stress": "ра́з",
+"pos": "n.m.",
+"rank": 93
+},
+{
+"word": "год",
+"stress": "го́д",
+"pos": "n.m.",
+"rank": 94
+},
+{
+"word": "её",
+"stress": "её",
+"pos": "adj.",
+"rank": 95
+},
+{
+"word": "найти",
+"stress": "найти́",
+"pos": "v.",
+"rank": 96
+},
+{
+"word": "пойти",
+"stress": "пойти́",
+"pos": "v.",
+"rank": 97
+},
+{
+"word": "жизнь",
+"stress": "жи́знь",
+"pos": "n.f.",
+"rank": 98
+},
+{
+"word": "надо",
+"stress": "на́до",
+"pos": "пред.",
+"rank": 99
+},
+{
+"word": "правда",
+"stress": "пра́вда",
+"pos": "part.",
+"rank": 100
+},
+{
+"word": "что-то",
+"stress": "что́-то",
+"pos": "adv.",
+"rank": 101
+},
+{
+"word": "дать",
+"stress": "да́ть",
+"pos": "v.",
+"rank": 102
+},
+{
+"word": "ли",
+"stress": "",
+"pos": "conj.",
+"rank": 103
+},
+{
+"word": "пока",
+"stress": "пока́",
+"pos": "adv.",
+"rank": 104
+},
+{
+"word": "даже",
+"stress": "да́же",
+"pos": "part.",
+"rank": 105
+},
+{
+"word": "привет",
+"stress": "приве́т",
+"pos": "n.m.",
+"rank": 106
+},
+{
+"word": "другой",
+"stress": "друго́й",
+"pos": "adj.",
+"rank": 107
+},
+{
+"word": "дом",
+"stress": "до́м",
+"pos": "n.m.",
+"rank": 108
+},
+{
+"word": "тоже",
+"stress": "то́же",
+"pos": "part.",
+"rank": 109
+},
+{
+"word": "понимать",
+"stress": "понима́ть",
+"pos": "v.",
+"rank": 110
+},
+{
+"word": "бог",
+"stress": "бо́г",
+"pos": "n.m.",
+"rank": 111
+},
+{
+"word": "помочь",
+"stress": "помо́чь",
+"pos": "v.",
+"rank": 112
+},
+{
+"word": "ребёнок",
+"stress": "ребёнок",
+"pos": "n.m.",
+"rank": 113
+},
+{
+"word": "никогда",
+"stress": "никогда́",
+"pos": "adv.",
+"rank": 114
+},
+{
+"word": "эй",
+"stress": "",
+"pos": "interj.",
+"rank": 115
+},
+{
+"word": "смочь",
+"stress": "смо́чь",
+"pos": "v.",
+"rank": 116
+},
+{
+"word": "парень",
+"stress": "па́рень",
+"pos": "n.m.",
+"rank": 117
+},
+{
+"word": "тогда",
+"stress": "тогда́",
+"pos": "adv.",
+"rank": 118
+},
+{
+"word": "любить",
+"stress": "люби́ть",
+"pos": "v.",
+"rank": 119
+},
+{
+"word": "ни",
+"stress": "",
+"pos": "part.",
+"rank": 120
+},
+{
+"word": "тут",
+"stress": "",
+"pos": "adv.",
+"rank": 121
+},
+{
+"word": "конечно",
+"stress": "коне́чно",
+"pos": "conj.",
+"rank": 122
+},
+{
+"word": "работа",
+"stress": "рабо́та",
+"pos": "n.f.",
+"rank": 123
+},
+{
+"word": "стать",
+"stress": "ста́ть",
+"pos": "v.",
+"rank": 124
+},
+{
+"word": "место",
+"stress": "ме́сто",
+"pos": "n.n.",
+"rank": 125
+},
+{
+"word": "нужный",
+"stress": "ну́жный",
+"pos": "adj.",
+"rank": 126
+},
+{
+"word": "взять",
+"stress": "взя́ть",
+"pos": "v.",
+"rank": 127
+},
+{
+"word": "отец",
+"stress": "оте́ц",
+"pos": "n.m.",
+"rank": 128
+},
+{
+"word": "простить",
+"stress": "прости́ть",
+"pos": "v.",
+"rank": 129
+},
+{
+"word": "мама",
+"stress": "ма́ма",
+"pos": "n.f.",
+"rank": 130
+},
+{
+"word": "убить",
+"stress": "уби́ть",
+"pos": "v.",
+"rank": 131
+},
+{
+"word": "иметь",
+"stress": "име́ть",
+"pos": "v.",
+"rank": 132
+},
+{
+"word": "пожалуйста",
+"stress": "пожа́луйста",
+"pos": "part.",
+"rank": 133
+},
+{
+"word": "вернуться",
+"stress": "верну́ться",
+"pos": "v.",
+"rank": 134
+},
+{
+"word": "работать",
+"stress": "рабо́тать",
+"pos": "v.",
+"rank": 135
+},
+{
+"word": "сегодня",
+"stress": "сего́дня",
+"pos": "adv.",
+"rank": 136
+},
+{
+"word": "два",
+"stress": "",
+"pos": "num.",
+"rank": 137
+},
+{
+"word": "порядок",
+"stress": "поря́док",
+"pos": "n.m.",
+"rank": 138
+},
+{
+"word": "сюда",
+"stress": "сюда́",
+"pos": "adv.",
+"rank": 139
+},
+{
+"word": "стоить",
+"stress": "сто́ить",
+"pos": "v.",
+"rank": 140
+},
+{
+"word": "понять",
+"stress": "поня́ть",
+"pos": "v.",
+"rank": 141
+},
+{
+"word": "значит",
+"stress": "зна́чит",
+"pos": "conj.",
+"rank": 142
+},
+{
+"word": "смотреть",
+"stress": "смотре́ть",
+"pos": "v.",
+"rank": 143
+},
+{
+"word": "прийти",
+"stress": "прийти́",
+"pos": "v.",
+"rank": 144
+},
+{
+"word": "никто",
+"stress": "никто́",
+"pos": "pron.",
+"rank": 145
+},
+{
+"word": "всегда",
+"stress": "всегда́",
+"pos": "adv.",
+"rank": 146
+},
+{
+"word": "можно",
+"stress": "мо́жно",
+"pos": "пред.",
+"rank": 147
+},
+{
+"word": "мистер",
+"stress": "ми́стер",
+"pos": "n.m.",
+"rank": 148
+},
+{
+"word": "без",
+"stress": "",
+"pos": "prep.",
+"rank": 149
+},
+{
+"word": "посмотреть",
+"stress": "посмотре́ть",
+"pos": "v.",
+"rank": 150
+},
+{
+"word": "слышать",
+"stress": "слы́шать",
+"pos": "v.",
+"rank": 151
+},
+{
+"word": "кто-то",
+"stress": "кто́-то",
+"pos": "pron.",
+"rank": 152
+},
+{
+"word": "первый",
+"stress": "пе́рвый",
+"pos": "adj.",
+"rank": 153
+},
+{
+"word": "собираться",
+"stress": "собира́ться",
+"pos": "v.",
+"rank": 154
+},
+{
+"word": "деньга",
+"stress": "де́ньга",
+"pos": "n.f.",
+"rank": 155
+},
+{
+"word": "нравиться",
+"stress": "нра́виться",
+"pos": "v.",
+"rank": 156
+},
+{
+"word": "много",
+"stress": "мно́го",
+"pos": "adv.",
+"rank": 157
+},
+{
+"word": "после",
+"stress": "по́сле",
+"pos": "prep.",
+"rank": 158
+},
+{
+"word": "случиться",
+"stress": "случи́ться",
+"pos": "v.",
+"rank": 159
+},
+{
+"word": "новый",
+"stress": "но́вый",
+"pos": "adj.",
+"rank": 160
+},
+{
+"word": "рука",
+"stress": "рука́",
+"pos": "n.f.",
+"rank": 161
+},
+{
+"word": "самый",
+"stress": "са́мый",
+"pos": "adj.",
+"rank": 162
+},
+{
+"word": "жить",
+"stress": "жи́ть",
+"pos": "v.",
+"rank": 163
+},
+{
+"word": "пытаться",
+"stress": "пыта́ться",
+"pos": "v.",
+"rank": 164
+},
+{
+"word": "получить",
+"stress": "получи́ть",
+"pos": "v.",
+"rank": 165
+},
+{
+"word": "поговорить",
+"stress": "поговори́ть",
+"pos": "v.",
+"rank": 166
+},
+{
+"word": "сэр",
+"stress": "сэ́р",
+"pos": "n.m.",
+"rank": 167
+},
+{
+"word": "каждый",
+"stress": "ка́ждый",
+"pos": "adj.",
+"rank": 168
+},
+{
+"word": "ведь",
+"stress": "",
+"pos": "part.",
+"rank": 169
+},
+{
+"word": "просить",
+"stress": "проси́ть",
+"pos": "v.",
+"rank": 170
+},
+{
+"word": "остаться",
+"stress": "оста́ться",
+"pos": "v.",
+"rank": 171
+},
+{
+"word": "потом",
+"stress": "пото́м",
+"pos": "adv.",
+"rank": 172
+},
+{
+"word": "машина",
+"stress": "маши́на",
+"pos": "n.f.",
+"rank": 173
+},
+{
+"word": "слушать",
+"stress": "слу́шать",
+"pos": "v.",
+"rank": 174
+},
+{
+"word": "через",
+"stress": "че́рез",
+"pos": "prep.",
+"rank": 175
+},
+{
+"word": "проблема",
+"stress": "пробле́ма",
+"pos": "n.f.",
+"rank": 176
+},
+{
+"word": "возможно",
+"stress": "возмо́жно",
+"pos": "conj.",
+"rank": 177
+},
+{
+"word": "женщина",
+"stress": "же́нщина",
+"pos": "n.f.",
+"rank": 178
+},
+{
+"word": "немного",
+"stress": "немно́го",
+"pos": "adv.",
+"rank": 179
+},
+{
+"word": "узнать",
+"stress": "узна́ть",
+"pos": "v.",
+"rank": 180
+},
+{
+"word": "казаться",
+"stress": "каза́ться",
+"pos": "v.",
+"rank": 181
+},
+{
+"word": "увидеть",
+"stress": "уви́деть",
+"pos": "v.",
+"rank": 182
+},
+{
+"word": "слишком",
+"stress": "сли́шком",
+"pos": "adv.",
+"rank": 183
+},
+{
+"word": "последний",
+"stress": "после́дний",
+"pos": "adj.",
+"rank": 184
+},
+{
+"word": "зачем",
+"stress": "заче́м",
+"pos": "adv.",
+"rank": 185
+},
+{
+"word": "уйти",
+"stress": "уйти́",
+"pos": "v.",
+"rank": 186
+},
+{
+"word": "доктор",
+"stress": "до́ктор",
+"pos": "n.m.",
+"rank": 187
+},
+{
+"word": "рассказать",
+"stress": "рассказа́ть",
+"pos": "v.",
+"rank": 188
+},
+{
+"word": "папа",
+"stress": "па́па",
+"pos": "n.m.",
+"rank": 189
+},
+{
+"word": "готовый",
+"stress": "гото́вый",
+"pos": "adj.",
+"rank": 190
+},
+{
+"word": "пора",
+"stress": "пора́",
+"pos": "n.f.",
+"rank": 191
+},
+{
+"word": "ждать",
+"stress": "жда́ть",
+"pos": "v.",
+"rank": 192
+},
+{
+"word": "оставить",
+"stress": "оста́вить",
+"pos": "v.",
+"rank": 193
+},
+{
+"word": "извинить",
+"stress": "извини́ть",
+"pos": "v.",
+"rank": 194
+},
+{
+"word": "точно",
+"stress": "то́чно",
+"pos": "adv.",
+"rank": 195
+},
+{
+"word": "право",
+"stress": "пра́во",
+"pos": "n.n.",
+"rank": 196
+},
+{
+"word": "под",
+"stress": "",
+"pos": "prep.",
+"rank": 197
+},
+{
+"word": "умереть",
+"stress": "умере́ть",
+"pos": "v.",
+"rank": 198
+},
+{
+"word": "назад",
+"stress": "наза́д",
+"pos": "adv.",
+"rank": 199
+},
+{
+"word": "мир",
+"stress": "ми́р",
+"pos": "n.m.",
+"rank": 200
+},
+{
+"word": "из-за",
+"stress": "и́з-за",
+"pos": "prep.",
+"rank": 201
+},
+{
+"word": "помнить",
+"stress": "по́мнить",
+"pos": "v.",
+"rank": 202
+},
+{
+"word": "имя",
+"stress": "и́мя",
+"pos": "n.n.",
+"rank": 203
+},
+{
+"word": "вместе",
+"stress": "вме́сте",
+"pos": "adv.",
+"rank": 204
+},
+{
+"word": "куда",
+"stress": "куда́",
+"pos": "conj.",
+"rank": 205
+},
+{
+"word": "маленький",
+"stress": "ма́ленький",
+"pos": "adj.",
+"rank": 206
+},
+{
+"word": "подождать",
+"stress": "подожда́ть",
+"pos": "v.",
+"rank": 207
+},
+{
+"word": "слово",
+"stress": "сло́во",
+"pos": "n.n.",
+"rank": 208
+},
+{
+"word": "вопрос",
+"stress": "вопро́с",
+"pos": "n.m.",
+"rank": 209
+},
+{
+"word": "сколько",
+"stress": "ско́лько",
+"pos": "adv.",
+"rank": 210
+},
+{
+"word": "поэтому",
+"stress": "поэ́тому",
+"pos": "adv.",
+"rank": 211
+},
+{
+"word": "подумать",
+"stress": "поду́мать",
+"pos": "v.",
+"rank": 212
+},
+{
+"word": "чувствовать",
+"stress": "чу́вствовать",
+"pos": "v.",
+"rank": 213
+},
+{
+"word": "плохой",
+"stress": "плохо́й",
+"pos": "adj.",
+"rank": 214
+},
+{
+"word": "снова",
+"stress": "сно́ва",
+"pos": "adv.",
+"rank": 215
+},
+{
+"word": "ночь",
+"stress": "но́чь",
+"pos": "n.f.",
+"rank": 216
+},
+{
+"word": "семья",
+"stress": "семья́",
+"pos": "n.f.",
+"rank": 217
+},
+{
+"word": "час",
+"stress": "ча́с",
+"pos": "n.m.",
+"rank": 218
+},
+{
+"word": "мать",
+"stress": "ма́ть",
+"pos": "n.f.",
+"rank": 219
+},
+{
+"word": "черта",
+"stress": "черта́",
+"pos": "n.f.",
+"rank": 220
+},
+{
+"word": "сын",
+"stress": "сы́н",
+"pos": "n.m.",
+"rank": 221
+},
+{
+"word": "начать",
+"stress": "нача́ть",
+"pos": "v.",
+"rank": 222
+},
+{
+"word": "минута",
+"stress": "мину́та",
+"pos": "n.f.",
+"rank": 223
+},
+{
+"word": "три",
+"stress": "три́",
+"pos": "num.",
+"rank": 224
+},
+{
+"word": "что-нибудь",
+"stress": "что́-нибудь",
+"pos": "pron.",
+"rank": 225
+},
+{
+"word": "вещь",
+"stress": "ве́щь",
+"pos": "n.f.",
+"rank": 226
+},
+{
+"word": "забыть",
+"stress": "забы́ть",
+"pos": "v.",
+"rank": 227
+},
+{
+"word": "жена",
+"stress": "жена́",
+"pos": "n.f.",
+"rank": 228
+},
+{
+"word": "позволить",
+"stress": "позво́лить",
+"pos": "v.",
+"rank": 229
+},
+{
+"word": "выйти",
+"stress": "вы́йти",
+"pos": "v.",
+"rank": 230
+},
+{
+"word": "отлично",
+"stress": "отли́чно",
+"pos": "adv.",
+"rank": 231
+},
+{
+"word": "похоже",
+"stress": "похо́же",
+"pos": "adv.",
+"rank": 232
+},
+{
+"word": "домой",
+"stress": "домо́й",
+"pos": "adv.",
+"rank": 233
+},
+{
+"word": "какой-то",
+"stress": "како́й-то",
+"pos": "adj.",
+"rank": 234
+},
+{
+"word": "девушка",
+"stress": "де́вушка",
+"pos": "n.f.",
+"rank": 235
+},
+{
+"word": "конец",
+"stress": "коне́ц",
+"pos": "n.m.",
+"rank": 236
+},
+{
+"word": "надеяться",
+"stress": "наде́яться",
+"pos": "v.",
+"rank": 237
+},
+{
+"word": "никакой",
+"stress": "никако́й",
+"pos": "adj.",
+"rank": 238
+},
+{
+"word": "прийтись",
+"stress": "прийти́сь",
+"pos": "v.",
+"rank": 239
+},
+{
+"word": "выглядеть",
+"stress": "вы́глядеть",
+"pos": "v.",
+"rank": 240
+},
+{
+"word": "брат",
+"stress": "бра́т",
+"pos": "n.m.",
+"rank": 241
+},
+{
+"word": "вид",
+"stress": "ви́д",
+"pos": "n.m.",
+"rank": 242
+},
+{
+"word": "послушать",
+"stress": "послу́шать",
+"pos": "v.",
+"rank": 243
+},
+{
+"word": "именно",
+"stress": "и́менно",
+"pos": "part.",
+"rank": 244
+},
+{
+"word": "искать",
+"stress": "иска́ть",
+"pos": "v.",
+"rank": 245
+},
+{
+"word": "неделя",
+"stress": "неде́ля",
+"pos": "n.f.",
+"rank": 246
+},
+{
+"word": "прямо",
+"stress": "пря́мо",
+"pos": "adv.",
+"rank": 247
+},
+{
+"word": "решить",
+"stress": "реши́ть",
+"pos": "v.",
+"rank": 248
+},
+{
+"word": "разве",
+"stress": "ра́зве",
+"pos": "part.",
+"rank": 249
+},
+{
+"word": "послать",
+"stress": "посла́ть",
+"pos": "v.",
+"rank": 250
+},
+{
+"word": "лишь",
+"stress": "",
+"pos": "part.",
+"rank": 251
+},
+{
+"word": "несколько",
+"stress": "не́сколько",
+"pos": "adv.",
+"rank": 252
+},
+{
+"word": "ага",
+"stress": "а́га",
+"pos": "interj.",
+"rank": 253
+},
+{
+"word": "бояться",
+"stress": "боя́ться",
+"pos": "v.",
+"rank": 254
+},
+{
+"word": "голова",
+"stress": "голова́",
+"pos": "n.f.",
+"rank": 255
+},
+{
+"word": "происходить",
+"stress": "происходи́ть",
+"pos": "v.",
+"rank": 256
+},
+{
+"word": "позвонить",
+"stress": "позвони́ть",
+"pos": "v.",
+"rank": 257
+},
+{
+"word": "добрый",
+"stress": "до́брый",
+"pos": "adj.",
+"rank": 258
+},
+{
+"word": "считать",
+"stress": "счита́ть",
+"pos": "v.",
+"rank": 259
+},
+{
+"word": "тем",
+"stress": "",
+"pos": "conj.",
+"rank": 260
+},
+{
+"word": "звать",
+"stress": "зва́ть",
+"pos": "v.",
+"rank": 261
+},
+{
+"word": "случай",
+"stress": "слу́чай",
+"pos": "n.m.",
+"rank": 262
+},
+{
+"word": "пара",
+"stress": "па́ра",
+"pos": "n.f.",
+"rank": 263
+},
+{
+"word": "верить",
+"stress": "ве́рить",
+"pos": "v.",
+"rank": 264
+},
+{
+"word": "пройти",
+"stress": "пройти́",
+"pos": "v.",
+"rank": 265
+},
+{
+"word": "совсем",
+"stress": "совсе́м",
+"pos": "adv.",
+"rank": 266
+},
+{
+"word": "смерть",
+"stress": "сме́рть",
+"pos": "n.f.",
+"rank": 267
+},
+{
+"word": "играть",
+"stress": "игра́ть",
+"pos": "v.",
+"rank": 268
+},
+{
+"word": "город",
+"stress": "го́род",
+"pos": "n.m.",
+"rank": 269
+},
+{
+"word": "глаз",
+"stress": "гла́з",
+"pos": "n.m.",
+"rank": 270
+},
+{
+"word": "ж",
+"stress": "",
+"pos": "part.",
+"rank": 271
+},
+{
+"word": "уходить",
+"stress": "уходи́ть",
+"pos": "v.",
+"rank": 272
+},
+{
+"word": "про",
+"stress": "",
+"pos": "prep.",
+"rank": 273
+},
+{
+"word": "уверенный",
+"stress": "уве́ренный",
+"pos": "adj.",
+"rank": 274
+},
+{
+"word": "ребята",
+"stress": "ребя́та",
+"pos": "n.",
+"rank": 275
+},
+{
+"word": "перед",
+"stress": "пе́ред",
+"pos": "prep.",
+"rank": 276
+},
+{
+"word": "дорога",
+"stress": "доро́га",
+"pos": "n.f.",
+"rank": 277
+},
+{
+"word": "помощь",
+"stress": "по́мощь",
+"pos": "n.f.",
+"rank": 278
+},
+{
+"word": "жаль",
+"stress": "",
+"pos": "пред.",
+"rank": 279
+},
+{
+"word": "туда",
+"stress": "туда́",
+"pos": "adv.",
+"rank": 280
+},
+{
+"word": "действительно",
+"stress": "действи́тельно",
+"pos": "adv.",
+"rank": 281
+},
+{
+"word": "держать",
+"stress": "держа́ть",
+"pos": "v.",
+"rank": 282
+},
+{
+"word": "любой",
+"stress": "любо́й",
+"pos": "adj.",
+"rank": 283
+},
+{
+"word": "показать",
+"stress": "показа́ть",
+"pos": "v.",
+"rank": 284
+},
+{
+"word": "завтра",
+"stress": "за́втра",
+"pos": "adv.",
+"rank": 285
+},
+{
+"word": "хватить",
+"stress": "хвати́ть",
+"pos": "v.",
+"rank": 286
+},
+{
+"word": "мужчина",
+"stress": "мужчи́на",
+"pos": "n.m.",
+"rank": 287
+},
+{
+"word": "оно",
+"stress": "оно́",
+"pos": "pron.",
+"rank": 288
+},
+{
+"word": "следующий",
+"stress": "сле́дующий",
+"pos": "adj.",
+"rank": 289
+},
+{
+"word": "использовать",
+"stress": "испо́льзовать",
+"pos": "v.",
+"rank": 290
+},
+{
+"word": "поехать",
+"stress": "пое́хать",
+"pos": "v.",
+"rank": 291
+},
+{
+"word": "полиция",
+"stress": "поли́ция",
+"pos": "n.f.",
+"rank": 292
+},
+{
+"word": "ранний",
+"stress": "ра́нний",
+"pos": "adj.",
+"rank": 293
+},
+{
+"word": "больший",
+"stress": "бо́льший",
+"pos": "adj.",
+"rank": 294
+},
+{
+"word": "школа",
+"stress": "шко́ла",
+"pos": "n.f.",
+"rank": 295
+},
+{
+"word": "милый",
+"stress": "ми́лый",
+"pos": "adj.",
+"rank": 296
+},
+{
+"word": "отсюда",
+"stress": "отсю́да",
+"pos": "adv.",
+"rank": 297
+},
+{
+"word": "сторона",
+"stress": "сторона́",
+"pos": "n.f.",
+"rank": 298
+},
+{
+"word": "произойти",
+"stress": "произойти́",
+"pos": "v.",
+"rank": 299
+},
+{
+"word": "настоящий",
+"stress": "настоя́щий",
+"pos": "adj.",
+"rank": 300
+}
+]

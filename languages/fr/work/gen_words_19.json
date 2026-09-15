@@ -1,0 +1,602 @@
+[
+{
+"word": "négatif",
+"pos": "adj.",
+"zh": "否定的；负面的；底片",
+"level": "a2"
+},
+{
+"word": "nôtre",
+"pos": "pron.",
+"zh": "我们的（东西）",
+"level": "a2"
+},
+{
+"word": "objet",
+"pos": "n.m.",
+"zh": "物品；物体；目标",
+"level": "a2"
+},
+{
+"word": "obéir",
+"pos": "v.",
+"zh": "服从；听话",
+"level": "a2"
+},
+{
+"word": "occasion",
+"pos": "n.f.",
+"zh": "机会；场合",
+"level": "a2"
+},
+{
+"word": "occuper",
+"pos": "v.",
+"zh": "占据；占用；忙于",
+"level": "a2"
+},
+{
+"word": "océan",
+"pos": "n.m.",
+"zh": "海洋",
+"level": "a2"
+},
+{
+"word": "odeur",
+"pos": "n.f.",
+"zh": "气味",
+"level": "a2"
+},
+{
+"word": "officiel",
+"pos": "adj.",
+"zh": "官方的；正式的",
+"level": "a2"
+},
+{
+"word": "offre",
+"pos": "n.f.",
+"zh": "提议；报价",
+"level": "a2"
+},
+{
+"word": "offrir",
+"pos": "v.",
+"zh": "赠送；提供",
+"level": "a2"
+},
+{
+"word": "oie",
+"pos": "n.f.",
+"zh": "鹅；鹅肉",
+"level": "a2"
+},
+{
+"word": "olive",
+"pos": "n.f.",
+"zh": "橄榄",
+"level": "a2"
+},
+{
+"word": "olympique",
+"pos": "adj.",
+"zh": "奥林匹克的",
+"level": "a2"
+},
+{
+"word": "ombre",
+"pos": "n.",
+"zh": "影子；阴凉处",
+"level": "a2"
+},
+{
+"word": "omelette",
+"pos": "n.f.",
+"zh": "煎蛋卷",
+"level": "a2"
+},
+{
+"word": "ongle",
+"pos": "n.m.",
+"zh": "指甲",
+"level": "a2"
+},
+{
+"word": "opinion",
+"pos": "n.f.",
+"zh": "意见；看法",
+"level": "a2"
+},
+{
+"word": "opéra",
+"pos": "n.m.",
+"zh": "歌剧",
+"level": "a2"
+},
+{
+"word": "or",
+"pos": "n.m.",
+"zh": "黄金；金子",
+"level": "a2"
+},
+{
+"word": "orage",
+"pos": "n.m.",
+"zh": "暴风雨",
+"level": "a2"
+},
+{
+"word": "oral",
+"pos": "adj.",
+"zh": "口头的；口试",
+"level": "a2"
+},
+{
+"word": "orchestre",
+"pos": "n.m.",
+"zh": "乐队；管弦乐队",
+"level": "a2"
+},
+{
+"word": "ordinaire",
+"pos": "adj.",
+"zh": "普通的；平常的",
+"level": "a2"
+},
+{
+"word": "ordre",
+"pos": "n.m.",
+"zh": "命令；顺序；秩序",
+"level": "a2"
+},
+{
+"word": "oreiller",
+"pos": "n.m.",
+"zh": "枕头",
+"level": "a2"
+},
+{
+"word": "organisation",
+"pos": "n.f.",
+"zh": "组织；机构",
+"level": "a2"
+},
+{
+"word": "organiser",
+"pos": "v.",
+"zh": "组织；筹办",
+"level": "a2"
+},
+{
+"word": "origine",
+"pos": "n.f.",
+"zh": "起源；出身",
+"level": "a2"
+},
+{
+"word": "orteil",
+"pos": "n.m.",
+"zh": "脚趾",
+"level": "a2"
+},
+{
+"word": "os",
+"pos": "n.m.",
+"zh": "骨头",
+"level": "a2"
+},
+{
+"word": "ouais",
+"pos": "adv.",
+"zh": "是；对（口语）",
+"level": "a2"
+},
+{
+"word": "ouest",
+"pos": "n.m.",
+"zh": "西；西方",
+"level": "a2"
+},
+{
+"word": "ours",
+"pos": "n.m.",
+"zh": "熊（动物）",
+"level": "a2"
+},
+{
+"word": "outil",
+"pos": "n.m.",
+"zh": "工具",
+"level": "a2"
+},
+{
+"word": "ouvert",
+"pos": "adj.",
+"zh": "开着的；开放的",
+"level": "a2"
+},
+{
+"word": "ouvrier",
+"pos": "n.m.",
+"zh": "工人",
+"level": "a2"
+},
+{
+"word": "oxygène",
+"pos": "n.m.",
+"zh": "氧气",
+"level": "a2"
+},
+{
+"word": "paie",
+"pos": "n.f.",
+"zh": "工资；薪水",
+"level": "a2"
+},
+{
+"word": "paire",
+"pos": "n.f.",
+"zh": "一双；一对",
+"level": "a2"
+},
+{
+"word": "paix",
+"pos": "n.f.",
+"zh": "和平；安宁",
+"level": "a2"
+},
+{
+"word": "palais",
+"pos": "n.m.",
+"zh": "宫殿；上颚",
+"level": "a2"
+},
+{
+"word": "palmier",
+"pos": "n.m.",
+"zh": "棕榈树",
+"level": "a2"
+},
+{
+"word": "panier",
+"pos": "n.m.",
+"zh": "篮子",
+"level": "a2"
+},
+{
+"word": "panneau",
+"pos": "n.m.",
+"zh": "标牌；镶板",
+"level": "a2"
+},
+{
+"word": "papillon",
+"pos": "n.m.",
+"zh": "蝴蝶",
+"level": "a2"
+},
+{
+"word": "papy",
+"pos": "n.m.",
+"zh": "爷爷；外公（口语）",
+"level": "a2"
+},
+{
+"word": "paquet",
+"pos": "n.m.",
+"zh": "包裹；一包",
+"level": "a2"
+},
+{
+"word": "paradis",
+"pos": "n.m.",
+"zh": "天堂；乐园",
+"level": "a2"
+},
+{
+"word": "paragraphe",
+"pos": "n.m.",
+"zh": "段落",
+"level": "a2"
+},
+{
+"word": "pardonner",
+"pos": "v.",
+"zh": "原谅；宽恕",
+"level": "a2"
+},
+{
+"word": "pare-brise",
+"pos": "n.m.",
+"zh": "挡风玻璃",
+"level": "a2"
+},
+{
+"word": "pareil",
+"pos": "adj.",
+"zh": "相同的；同样的",
+"level": "a2"
+},
+{
+"word": "paresseux",
+"pos": "adj.",
+"zh": "懒惰的；树懒",
+"level": "a2"
+},
+{
+"word": "parfaitement",
+"pos": "adv.",
+"zh": "完全地；十分",
+"level": "a2"
+},
+{
+"word": "parfum",
+"pos": "n.m.",
+"zh": "香水；气味",
+"level": "a2"
+},
+{
+"word": "parking",
+"pos": "n.m.",
+"zh": "停车场",
+"level": "a2"
+},
+{
+"word": "parmi",
+"pos": "prép.",
+"zh": "在……之中",
+"level": "a2"
+},
+{
+"word": "parole",
+"pos": "n.f.",
+"zh": "话；诺言",
+"level": "a2"
+},
+{
+"word": "part",
+"pos": "n.",
+"zh": "部分；份；方面",
+"level": "a2"
+},
+{
+"word": "partager",
+"pos": "v.",
+"zh": "分享；共用",
+"level": "a2"
+},
+{
+"word": "partenaire",
+"pos": "n.",
+"zh": "伙伴；搭档",
+"level": "a2"
+},
+{
+"word": "participer",
+"pos": "v.",
+"zh": "参加；参与",
+"level": "a2"
+},
+{
+"word": "particulier",
+"pos": "adj.",
+"zh": "特别的；个人的",
+"level": "a2"
+},
+{
+"word": "partie",
+"pos": "n.f.",
+"zh": "部分；一局；一方",
+"level": "a2"
+},
+{
+"word": "passage",
+"pos": "n.m.",
+"zh": "通过；通道；段落",
+"level": "a2"
+},
+{
+"word": "passager",
+"pos": "n.m.",
+"zh": "乘客",
+"level": "a2"
+},
+{
+"word": "passe-temps",
+"pos": "n.m.",
+"zh": "消遣；爱好",
+"level": "a2"
+},
+{
+"word": "passion",
+"pos": "n.f.",
+"zh": "激情；酷爱",
+"level": "a2"
+},
+{
+"word": "passé",
+"pos": "adj.",
+"zh": "过去的；已逝的",
+"level": "a2"
+},
+{
+"word": "pastèque",
+"pos": "n.f.",
+"zh": "西瓜",
+"level": "a2"
+},
+{
+"word": "patate",
+"pos": "n.f.",
+"zh": "土豆（口语）",
+"level": "a2"
+},
+{
+"word": "patience",
+"pos": "n.f.",
+"zh": "耐心",
+"level": "a2"
+},
+{
+"word": "patin",
+"pos": "n.m.",
+"zh": "冰鞋；轮滑鞋",
+"level": "a2"
+},
+{
+"word": "patron",
+"pos": "n.m.",
+"zh": "老板；店主",
+"level": "a2"
+},
+{
+"word": "patte",
+"pos": "n.f.",
+"zh": "（动物的）脚；爪",
+"level": "a2"
+},
+{
+"word": "pause",
+"pos": "n.f.",
+"zh": "休息；暂停",
+"level": "a2"
+},
+{
+"word": "pauvre",
+"pos": "adj.",
+"zh": "贫穷的；可怜的",
+"level": "a2"
+},
+{
+"word": "paysage",
+"pos": "n.m.",
+"zh": "风景；景色",
+"level": "a2"
+},
+{
+"word": "paysan",
+"pos": "n.m.",
+"zh": "农民",
+"level": "a2"
+},
+{
+"word": "peau",
+"pos": "n.f.",
+"zh": "皮肤",
+"level": "a2"
+},
+{
+"word": "peigne",
+"pos": "n.m.",
+"zh": "梳子",
+"level": "a2"
+},
+{
+"word": "peigner",
+"pos": "v.",
+"zh": "梳（头发）",
+"level": "a2"
+},
+{
+"word": "peine",
+"pos": "n.f.",
+"zh": "痛苦；悲伤；刑罚",
+"level": "a2"
+},
+{
+"word": "peintre",
+"pos": "n.",
+"zh": "画家",
+"level": "a2"
+},
+{
+"word": "peinture",
+"pos": "n.f.",
+"zh": "油漆；绘画",
+"level": "a2"
+},
+{
+"word": "pelle",
+"pos": "n.f.",
+"zh": "铲子",
+"level": "a2"
+},
+{
+"word": "pencher",
+"pos": "v.",
+"zh": "倾斜；俯身",
+"level": "a2"
+},
+{
+"word": "pendre",
+"pos": "v.",
+"zh": "悬挂；绞死",
+"level": "a2"
+},
+{
+"word": "perdu",
+"pos": "adj.",
+"zh": "迷路的；失去的",
+"level": "a2"
+},
+{
+"word": "perfection",
+"pos": "n.f.",
+"zh": "完美",
+"level": "a2"
+},
+{
+"word": "perle",
+"pos": "n.f.",
+"zh": "珍珠",
+"level": "a2"
+},
+{
+"word": "permettre",
+"pos": "v.",
+"zh": "允许；使能够",
+"level": "a2"
+},
+{
+"word": "permis",
+"pos": "n.m.",
+"zh": "许可证；驾照",
+"level": "a2"
+},
+{
+"word": "permission",
+"pos": "n.f.",
+"zh": "允许；许可",
+"level": "a2"
+},
+{
+"word": "perroquet",
+"pos": "n.m.",
+"zh": "鹦鹉",
+"level": "a2"
+},
+{
+"word": "personnel",
+"pos": "adj.",
+"zh": "个人的；全体人员",
+"level": "a2"
+},
+{
+"word": "perte",
+"pos": "n.f.",
+"zh": "损失",
+"level": "a2"
+},
+{
+"word": "peser",
+"pos": "v.",
+"zh": "称重；掂量",
+"level": "a2"
+},
+{
+"word": "petit-enfant",
+"pos": "n.m.",
+"zh": "孙子；孙女",
+"level": "a2"
+}
+]

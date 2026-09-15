@@ -1,0 +1,602 @@
+[
+{
+"word": "influencer",
+"pos": "v.",
+"zh": "影响",
+"level": "b1"
+},
+{
+"word": "informatique",
+"pos": "adj.",
+"zh": "信息技术的；信息技术",
+"level": "b1"
+},
+{
+"word": "informé",
+"pos": "adj.",
+"zh": "知情的；消息灵通的",
+"level": "b1"
+},
+{
+"word": "inférieur",
+"pos": "adj.",
+"zh": "较低的；下级的",
+"level": "b1"
+},
+{
+"word": "inimaginable",
+"pos": "adj.",
+"zh": "难以想象的",
+"level": "b1"
+},
+{
+"word": "initial",
+"pos": "adj.",
+"zh": "最初的；开头的",
+"level": "b1"
+},
+{
+"word": "initiale",
+"pos": "n.f.",
+"zh": "首字母",
+"level": "b1"
+},
+{
+"word": "initiative",
+"pos": "n.f.",
+"zh": "主动权；倡议",
+"level": "b1"
+},
+{
+"word": "injection",
+"pos": "n.f.",
+"zh": "注射；注入",
+"level": "b1"
+},
+{
+"word": "innocence",
+"pos": "n.f.",
+"zh": "清白；天真",
+"level": "b1"
+},
+{
+"word": "innombrable",
+"pos": "adj.",
+"zh": "无数的",
+"level": "b1"
+},
+{
+"word": "inondation",
+"pos": "n.f.",
+"zh": "洪水；水灾",
+"level": "b1"
+},
+{
+"word": "inoubliable",
+"pos": "adj.",
+"zh": "难忘的",
+"level": "b1"
+},
+{
+"word": "inquiétant",
+"pos": "adj.",
+"zh": "令人担心的；可疑的",
+"level": "b1"
+},
+{
+"word": "inquiétude",
+"pos": "n.f.",
+"zh": "担心；忧虑",
+"level": "b1"
+},
+{
+"word": "inscription",
+"pos": "n.f.",
+"zh": "登记；注册；题词",
+"level": "b1"
+},
+{
+"word": "inscrire",
+"pos": "v.",
+"zh": "登记；题写",
+"level": "b1"
+},
+{
+"word": "insister",
+"pos": "v.",
+"zh": "坚持；坚决要求",
+"level": "b1"
+},
+{
+"word": "insomnie",
+"pos": "n.f.",
+"zh": "失眠",
+"level": "b1"
+},
+{
+"word": "inspecter",
+"pos": "v.",
+"zh": "检查；视察",
+"level": "b1"
+},
+{
+"word": "inspecteur",
+"pos": "n.m.",
+"zh": "督察；警探",
+"level": "b1"
+},
+{
+"word": "inspection",
+"pos": "n.f.",
+"zh": "检查；视察",
+"level": "b1"
+},
+{
+"word": "inspirer",
+"pos": "v.",
+"zh": "吸气；启发",
+"level": "b1"
+},
+{
+"word": "instable",
+"pos": "adj.",
+"zh": "不稳定的；反复无常的",
+"level": "b1"
+},
+{
+"word": "installation",
+"pos": "n.f.",
+"zh": "安装；设施；安置",
+"level": "b1"
+},
+{
+"word": "instinct",
+"pos": "n.m.",
+"zh": "本能",
+"level": "b1"
+},
+{
+"word": "institut",
+"pos": "n.m.",
+"zh": "学院；研究所",
+"level": "b1"
+},
+{
+"word": "institution",
+"pos": "n.f.",
+"zh": "机构；制度",
+"level": "b1"
+},
+{
+"word": "instruction",
+"pos": "n.f.",
+"zh": "指示；教育",
+"level": "b1"
+},
+{
+"word": "instruit",
+"pos": "adj.",
+"zh": "有学识的；博学的",
+"level": "b1"
+},
+{
+"word": "insuffisant",
+"pos": "adj.",
+"zh": "不足的；不够的",
+"level": "b1"
+},
+{
+"word": "insulte",
+"pos": "n.f.",
+"zh": "侮辱；辱骂",
+"level": "b1"
+},
+{
+"word": "insulter",
+"pos": "v.",
+"zh": "辱骂；侮辱",
+"level": "b1"
+},
+{
+"word": "insupportable",
+"pos": "adj.",
+"zh": "难以忍受的",
+"level": "b1"
+},
+{
+"word": "inséparable",
+"pos": "adj.",
+"zh": "不可分开的",
+"level": "b1"
+},
+{
+"word": "insérer",
+"pos": "v.",
+"zh": "插入；嵌入",
+"level": "b1"
+},
+{
+"word": "intelligence",
+"pos": "n.f.",
+"zh": "智力；智慧",
+"level": "b1"
+},
+{
+"word": "intense",
+"pos": "adj.",
+"zh": "强烈的；紧张的",
+"level": "b1"
+},
+{
+"word": "intensif",
+"pos": "adj.",
+"zh": "强化的；密集的",
+"level": "b1"
+},
+{
+"word": "intensité",
+"pos": "n.f.",
+"zh": "强度；强烈",
+"level": "b1"
+},
+{
+"word": "intention",
+"pos": "n.f.",
+"zh": "意图；打算",
+"level": "b1"
+},
+{
+"word": "interdiction",
+"pos": "n.f.",
+"zh": "禁止；禁令",
+"level": "b1"
+},
+{
+"word": "interdire",
+"pos": "v.",
+"zh": "禁止",
+"level": "b1"
+},
+{
+"word": "intermédiaire",
+"pos": "n.",
+"zh": "中间人；媒介",
+"level": "b1"
+},
+{
+"word": "internat",
+"pos": "n.m.",
+"zh": "寄宿学校",
+"level": "b1"
+},
+{
+"word": "interne",
+"pos": "adj.",
+"zh": "内部的；实习医师",
+"level": "b1"
+},
+{
+"word": "interprète",
+"pos": "n.",
+"zh": "口译员；表演者",
+"level": "b1"
+},
+{
+"word": "interprétation",
+"pos": "n.f.",
+"zh": "解释；演绎；口译",
+"level": "b1"
+},
+{
+"word": "interrogation",
+"pos": "n.f.",
+"zh": "提问；讯问；测验",
+"level": "b1"
+},
+{
+"word": "interrogatoire",
+"pos": "n.m.",
+"zh": "审讯；讯问",
+"level": "b1"
+},
+{
+"word": "interroger",
+"pos": "v.",
+"zh": "审问；询问",
+"level": "b1"
+},
+{
+"word": "interrompre",
+"pos": "v.",
+"zh": "打断；中断",
+"level": "b1"
+},
+{
+"word": "interruption",
+"pos": "n.f.",
+"zh": "中断；中止",
+"level": "b1"
+},
+{
+"word": "intervalle",
+"pos": "n.m.",
+"zh": "间隔；幕间休息",
+"level": "b1"
+},
+{
+"word": "intervenir",
+"pos": "v.",
+"zh": "介入；干预；发言",
+"level": "b1"
+},
+{
+"word": "intervention",
+"pos": "n.f.",
+"zh": "干预；介入；手术",
+"level": "b1"
+},
+{
+"word": "intime",
+"pos": "adj.",
+"zh": "亲密的；私密的",
+"level": "b1"
+},
+{
+"word": "intimité",
+"pos": "n.f.",
+"zh": "亲密；隐私",
+"level": "b1"
+},
+{
+"word": "intolérable",
+"pos": "adj.",
+"zh": "无法容忍的",
+"level": "b1"
+},
+{
+"word": "intriguer",
+"pos": "v.",
+"zh": "引起好奇；密谋",
+"level": "b1"
+},
+{
+"word": "introduction",
+"pos": "n.f.",
+"zh": "引言；引进；入门",
+"level": "b1"
+},
+{
+"word": "introduire",
+"pos": "v.",
+"zh": "引入；插入",
+"level": "b1"
+},
+{
+"word": "introuvable",
+"pos": "adj.",
+"zh": "找不到的；下落不明的",
+"level": "b1"
+},
+{
+"word": "intuition",
+"pos": "n.f.",
+"zh": "直觉",
+"level": "b1"
+},
+{
+"word": "intégrer",
+"pos": "v.",
+"zh": "使融入；整合",
+"level": "b1"
+},
+{
+"word": "intérêt",
+"pos": "n.m.",
+"zh": "兴趣；利益",
+"level": "b1"
+},
+{
+"word": "inutile",
+"pos": "adj.",
+"zh": "无用的；徒劳的",
+"level": "b1"
+},
+{
+"word": "invasion",
+"pos": "n.f.",
+"zh": "入侵；侵略",
+"level": "b1"
+},
+{
+"word": "inventaire",
+"pos": "n.m.",
+"zh": "清单；盘点",
+"level": "b1"
+},
+{
+"word": "inventeur",
+"pos": "n.m.",
+"zh": "发明者",
+"level": "b1"
+},
+{
+"word": "invention",
+"pos": "n.f.",
+"zh": "发明；虚构",
+"level": "b1"
+},
+{
+"word": "inverse",
+"pos": "n.",
+"zh": "相反；反面",
+"level": "b1"
+},
+{
+"word": "inverser",
+"pos": "v.",
+"zh": "颠倒；反转",
+"level": "b1"
+},
+{
+"word": "investir",
+"pos": "v.",
+"zh": "投资；投入",
+"level": "b1"
+},
+{
+"word": "investissement",
+"pos": "n.m.",
+"zh": "投资",
+"level": "b1"
+},
+{
+"word": "investisseur",
+"pos": "n.m.",
+"zh": "投资者",
+"level": "b1"
+},
+{
+"word": "invisible",
+"pos": "adj.",
+"zh": "看不见的",
+"level": "b1"
+},
+{
+"word": "inévitable",
+"pos": "adj.",
+"zh": "不可避免的",
+"level": "b1"
+},
+{
+"word": "ironie",
+"pos": "n.f.",
+"zh": "讽刺；反语",
+"level": "b1"
+},
+{
+"word": "ironique",
+"pos": "adj.",
+"zh": "讽刺的；反语的",
+"level": "b1"
+},
+{
+"word": "irresponsable",
+"pos": "adj.",
+"zh": "不负责任的",
+"level": "b1"
+},
+{
+"word": "irrégulier",
+"pos": "adj.",
+"zh": "不规则的；无规律的",
+"level": "b1"
+},
+{
+"word": "irrésistible",
+"pos": "adj.",
+"zh": "不可抗拒的",
+"level": "b1"
+},
+{
+"word": "islam",
+"pos": "n.m.",
+"zh": "伊斯兰教",
+"level": "b1"
+},
+{
+"word": "isoler",
+"pos": "v.",
+"zh": "使孤立；隔离",
+"level": "b1"
+},
+{
+"word": "isolé",
+"pos": "adj.",
+"zh": "孤立的；偏僻的",
+"level": "b1"
+},
+{
+"word": "israélien",
+"pos": "adj.",
+"zh": "以色列的；以色列人",
+"level": "b1"
+},
+{
+"word": "itinéraire",
+"pos": "n.m.",
+"zh": "路线；行程",
+"level": "b1"
+},
+{
+"word": "ivre",
+"pos": "adj.",
+"zh": "醉的",
+"level": "b1"
+},
+{
+"word": "ivrogne",
+"pos": "n.",
+"zh": "酒鬼",
+"level": "b1"
+},
+{
+"word": "jacuzzi",
+"pos": "n.m.",
+"zh": "按摩浴缸",
+"level": "b1"
+},
+{
+"word": "jalousie",
+"pos": "n.f.",
+"zh": "嫉妒；妒忌",
+"level": "b1"
+},
+{
+"word": "jeep",
+"pos": "n.f.",
+"zh": "吉普车",
+"level": "b1"
+},
+{
+"word": "jet",
+"pos": "n.m.",
+"zh": "喷射；投掷",
+"level": "b1"
+},
+{
+"word": "jeton",
+"pos": "n.m.",
+"zh": "筹码；代币",
+"level": "b1"
+},
+{
+"word": "jetée",
+"pos": "n.f.",
+"zh": "防波堤；码头",
+"level": "b1"
+},
+{
+"word": "joie",
+"pos": "n.f.",
+"zh": "喜悦；欢乐",
+"level": "b1"
+},
+{
+"word": "joindre",
+"pos": "v.",
+"zh": "连接；接通；加入",
+"level": "b1"
+},
+{
+"word": "joker",
+"pos": "n.m.",
+"zh": "鬼牌；王牌",
+"level": "b1"
+},
+{
+"word": "joliment",
+"pos": "adv.",
+"zh": "漂亮地；相当",
+"level": "b1"
+}
+]

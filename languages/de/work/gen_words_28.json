@@ -1,0 +1,602 @@
+[
+{
+"word": "aktiv",
+"pos": "adj.",
+"zh": "积极的",
+"level": "a2"
+},
+{
+"word": "meist",
+"pos": "adv.",
+"zh": "大多",
+"level": "a2"
+},
+{
+"word": "hierhin",
+"pos": "adv.",
+"zh": "到这里",
+"level": "a2"
+},
+{
+"word": "überfahren",
+"pos": "v.",
+"zh": "碾过",
+"level": "a2"
+},
+{
+"word": "logisch",
+"pos": "adj.",
+"zh": "合逻辑的",
+"level": "a2"
+},
+{
+"word": "Bekannte",
+"pos": "n.",
+"zh": "熟人",
+"level": "a2"
+},
+{
+"word": "Episode",
+"pos": "n.f.",
+"zh": "一集",
+"level": "a2"
+},
+{
+"word": "engagiert",
+"pos": "adj.",
+"zh": "尽责的",
+"level": "a2"
+},
+{
+"word": "manipulieren",
+"pos": "v.",
+"zh": "操纵",
+"level": "a2"
+},
+{
+"word": "sodass",
+"pos": "konj.",
+"zh": "以致",
+"level": "a2"
+},
+{
+"word": "Golf",
+"pos": "n.m.",
+"zh": "高尔夫",
+"level": "a2"
+},
+{
+"word": "schmeißen",
+"pos": "v.",
+"zh": "扔（口语）",
+"level": "a2"
+},
+{
+"word": "unterrichten",
+"pos": "v.",
+"zh": "授课",
+"level": "a2"
+},
+{
+"word": "verschaffen",
+"pos": "v.",
+"zh": "设法获得",
+"level": "a2"
+},
+{
+"word": "Persönlichkeit",
+"pos": "n.f.",
+"zh": "个性",
+"level": "a2"
+},
+{
+"word": "streichen",
+"pos": "v.",
+"zh": "划掉；涂抹",
+"level": "a2"
+},
+{
+"word": "Weisheit",
+"pos": "n.f.",
+"zh": "智慧",
+"level": "a2"
+},
+{
+"word": "zielen",
+"pos": "v.",
+"zh": "瞄准",
+"level": "a2"
+},
+{
+"word": "erhöhen",
+"pos": "v.",
+"zh": "提高",
+"level": "a2"
+},
+{
+"word": "Kamerad",
+"pos": "n.m.",
+"zh": "同伴",
+"level": "a2"
+},
+{
+"word": "einbrechen",
+"pos": "v.",
+"zh": "破门而入",
+"level": "a2"
+},
+{
+"word": "Premierminister",
+"pos": "n.m.",
+"zh": "总理",
+"level": "a2"
+},
+{
+"word": "übernachten",
+"pos": "v.",
+"zh": "过夜",
+"level": "a2"
+},
+{
+"word": "infizieren",
+"pos": "v.",
+"zh": "感染",
+"level": "a2"
+},
+{
+"word": "Dinner",
+"pos": "n.",
+"zh": "晚餐",
+"level": "a2"
+},
+{
+"word": "Kredit",
+"pos": "n.m.",
+"zh": "贷款",
+"level": "a2"
+},
+{
+"word": "legal",
+"pos": "adj.",
+"zh": "合法的",
+"level": "a2"
+},
+{
+"word": "Jubel",
+"pos": "n.m.",
+"zh": "欢呼",
+"level": "a2"
+},
+{
+"word": "bewachen",
+"pos": "v.",
+"zh": "看守",
+"level": "a2"
+},
+{
+"word": "Vietnam",
+"pos": "n.",
+"zh": "越南",
+"level": "a2"
+},
+{
+"word": "lehren",
+"pos": "v.",
+"zh": "教",
+"level": "a2"
+},
+{
+"word": "Nacken",
+"pos": "n.m.",
+"zh": "后颈",
+"level": "a2"
+},
+{
+"word": "auflegen",
+"pos": "v.",
+"zh": "挂断；放上",
+"level": "a2"
+},
+{
+"word": "vergangen",
+"pos": "adj.",
+"zh": "过去的",
+"level": "a2"
+},
+{
+"word": "sprengen",
+"pos": "v.",
+"zh": "爆破",
+"level": "a2"
+},
+{
+"word": "Zusammenhang",
+"pos": "n.m.",
+"zh": "关联",
+"level": "a2"
+},
+{
+"word": "breit",
+"pos": "adj.",
+"zh": "宽的",
+"level": "a2"
+},
+{
+"word": "Pfeife",
+"pos": "n.f.",
+"zh": "烟斗；哨子",
+"level": "a2"
+},
+{
+"word": "beschuldigen",
+"pos": "v.",
+"zh": "指责",
+"level": "a2"
+},
+{
+"word": "tauchen",
+"pos": "v.",
+"zh": "潜水；出现",
+"level": "a2"
+},
+{
+"word": "verdanken",
+"pos": "v.",
+"zh": "归功于",
+"level": "a2"
+},
+{
+"word": "Nadel",
+"pos": "n.f.",
+"zh": "针",
+"level": "a2"
+},
+{
+"word": "behilflich",
+"pos": "adj.",
+"zh": "帮忙的",
+"level": "a2"
+},
+{
+"word": "Mitgefühl",
+"pos": "n.",
+"zh": "同情",
+"level": "a2"
+},
+{
+"word": "wehe",
+"pos": "adv.",
+"zh": "当心",
+"level": "a2"
+},
+{
+"word": "Heirat",
+"pos": "n.f.",
+"zh": "结婚",
+"level": "a2"
+},
+{
+"word": "exakt",
+"pos": "adj.",
+"zh": "精确的",
+"level": "a2"
+},
+{
+"word": "widerstehen",
+"pos": "v.",
+"zh": "抵抗",
+"level": "a2"
+},
+{
+"word": "höchst",
+"pos": "adv.",
+"zh": "极其；最高",
+"level": "a2"
+},
+{
+"word": "Sau",
+"pos": "n.f.",
+"zh": "母猪（骂语）",
+"level": "a2"
+},
+{
+"word": "Notaufnahme",
+"pos": "n.f.",
+"zh": "急诊室",
+"level": "a2"
+},
+{
+"word": "Trinkgeld",
+"pos": "n.",
+"zh": "小费",
+"level": "a2"
+},
+{
+"word": "Sorte",
+"pos": "n.f.",
+"zh": "种类",
+"level": "a2"
+},
+{
+"word": "sämtliche",
+"pos": "adj.",
+"zh": "全部的",
+"level": "a2"
+},
+{
+"word": "Vereinbarung",
+"pos": "n.f.",
+"zh": "约定",
+"level": "a2"
+},
+{
+"word": "harmlos",
+"pos": "adj.",
+"zh": "无害的",
+"level": "a2"
+},
+{
+"word": "Datum",
+"pos": "n.",
+"zh": "日期",
+"level": "a2"
+},
+{
+"word": "Bezug",
+"pos": "n.m.",
+"zh": "关联",
+"level": "a2"
+},
+{
+"word": "Kerze",
+"pos": "n.f.",
+"zh": "蜡烛",
+"level": "a2"
+},
+{
+"word": "Marsch",
+"pos": "n.m.",
+"zh": "行军；进行曲",
+"level": "a2"
+},
+{
+"word": "unbekannt",
+"pos": "adj.",
+"zh": "未知的",
+"level": "a2"
+},
+{
+"word": "Brett",
+"pos": "n.",
+"zh": "木板",
+"level": "a2"
+},
+{
+"word": "Manieren",
+"pos": "n.",
+"zh": "礼貌",
+"level": "a2"
+},
+{
+"word": "enthalten",
+"pos": "v.",
+"zh": "包含",
+"level": "a2"
+},
+{
+"word": "rasen",
+"pos": "n.m.",
+"zh": "草坪；飞驰",
+"level": "a2"
+},
+{
+"word": "empfehlen",
+"pos": "v.",
+"zh": "推荐",
+"level": "a2"
+},
+{
+"word": "härter",
+"pos": "adj.",
+"zh": "更硬的；更难的",
+"level": "a2"
+},
+{
+"word": "befördern",
+"pos": "v.",
+"zh": "晋升；运输",
+"level": "a2"
+},
+{
+"word": "Reiter",
+"pos": "n.m.",
+"zh": "骑手",
+"level": "a2"
+},
+{
+"word": "empfinden",
+"pos": "v.",
+"zh": "感觉；视为",
+"level": "a2"
+},
+{
+"word": "quasi",
+"pos": "adv.",
+"zh": "近乎",
+"level": "a2"
+},
+{
+"word": "hinunter",
+"pos": "adv.",
+"zh": "向下",
+"level": "a2"
+},
+{
+"word": "vorüber",
+"pos": "adv.",
+"zh": "过去；结束",
+"level": "a2"
+},
+{
+"word": "hauptsächlich",
+"pos": "adv.",
+"zh": "主要地",
+"level": "a2"
+},
+{
+"word": "Schuppen",
+"pos": "n.m.",
+"zh": "棚屋",
+"level": "a2"
+},
+{
+"word": "Einrichtung",
+"pos": "n.f.",
+"zh": "机构；设施",
+"level": "a2"
+},
+{
+"word": "Sensor",
+"pos": "n.m.",
+"zh": "传感器",
+"level": "a2"
+},
+{
+"word": "verdächtig",
+"pos": "adj.",
+"zh": "可疑的",
+"level": "a2"
+},
+{
+"word": "Alternative",
+"pos": "n.f.",
+"zh": "替代方案",
+"level": "a2"
+},
+{
+"word": "Experte",
+"pos": "n.m.",
+"zh": "专家",
+"level": "a2"
+},
+{
+"word": "Ferne",
+"pos": "n.f.",
+"zh": "远方",
+"level": "a2"
+},
+{
+"word": "Prinzip",
+"pos": "n.",
+"zh": "原则",
+"level": "a2"
+},
+{
+"word": "Ozean",
+"pos": "n.m.",
+"zh": "海洋",
+"level": "a2"
+},
+{
+"word": "gelingen",
+"pos": "v.",
+"zh": "成功",
+"level": "a2"
+},
+{
+"word": "Notruf",
+"pos": "n.m.",
+"zh": "紧急呼救",
+"level": "a2"
+},
+{
+"word": "bremsen",
+"pos": "v.",
+"zh": "刹车",
+"level": "a2"
+},
+{
+"word": "häufig",
+"pos": "adj.",
+"zh": "频繁的",
+"level": "a2"
+},
+{
+"word": "aktivieren",
+"pos": "v.",
+"zh": "激活",
+"level": "a2"
+},
+{
+"word": "anstrengend",
+"pos": "adj.",
+"zh": "费力的",
+"level": "a2"
+},
+{
+"word": "Verschwörung",
+"pos": "n.f.",
+"zh": "阴谋",
+"level": "a2"
+},
+{
+"word": "Kellner",
+"pos": "n.m.",
+"zh": "服务员",
+"level": "a2"
+},
+{
+"word": "LKW",
+"pos": "n.m.",
+"zh": "卡车",
+"level": "a2"
+},
+{
+"word": "Fürst",
+"pos": "n.m.",
+"zh": "亲王",
+"level": "a2"
+},
+{
+"word": "Gebet",
+"pos": "n.",
+"zh": "祈祷",
+"level": "a2"
+},
+{
+"word": "Tüte",
+"pos": "n.f.",
+"zh": "纸袋",
+"level": "a2"
+},
+{
+"word": "unfassbar",
+"pos": "adj.",
+"zh": "难以置信的",
+"level": "a2"
+},
+{
+"word": "Herrin",
+"pos": "n.f.",
+"zh": "女主人",
+"level": "a2"
+},
+{
+"word": "herstellen",
+"pos": "v.",
+"zh": "生产",
+"level": "a2"
+},
+{
+"word": "lila",
+"pos": "adj.",
+"zh": "紫色的",
+"level": "a2"
+},
+{
+"word": "fordern",
+"pos": "v.",
+"zh": "要求",
+"level": "a2"
+}
+]

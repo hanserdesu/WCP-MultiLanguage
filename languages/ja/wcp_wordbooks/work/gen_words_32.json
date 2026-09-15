@@ -1,0 +1,2402 @@
+{
+ "図書館法": {
+  "reading": "としょかんほう",
+  "meaning": "【としょかんほう】《图书馆法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "薬剤師法": {
+  "reading": "やくざいしほう",
+  "meaning": "【やくざいしほう】《药剂师法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "浄化槽法": {
+  "reading": "じょうかそうほう",
+  "meaning": "【じょうかそうほう】《净化槽法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "理容師法": {
+  "reading": "りようしほう",
+  "meaning": "【りようしほう】《理发师法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "美容師法": {
+  "reading": "びようしほう",
+  "meaning": "【びようしほう】《美容师法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "特殊公園": {
+  "reading": "とくしゅこうえん",
+  "meaning": "【とくしゅこうえん】特殊公园（动植物园）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "裁判所法": {
+  "reading": "さいばんしょほう",
+  "meaning": "【さいばんしょほう】《法院法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "弁理士法": {
+  "reading": "べんりしほう",
+  "meaning": "【べんりしほう】《弁理士法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "信託財産": {
+  "reading": "しんたくざいさん",
+  "meaning": "【しんたくざいさん】信托财产〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "内国法人": {
+  "reading": "ないこくほうじん",
+  "meaning": "【ないこくほうじん】国内法人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "法令番号": {
+  "reading": "ほうれいばんごう",
+  "meaning": "【ほうれいばんごう】法令编号〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "強行法規": {
+  "reading": "きょうこうほうき",
+  "meaning": "【きょうこうほうき】强行法规〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "強行規定": {
+  "reading": "きょうこうきてい",
+  "meaning": "【きょうこうきてい】强制性规定〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "再犯防止": {
+  "reading": "さいはんぼうし",
+  "meaning": "【さいはんぼうし】防止再犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "被留置者": {
+  "reading": "ひりゅうちしゃ",
+  "meaning": "【ひりゅうちしゃ】被羁押人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "貸金業法": {
+  "reading": "かしきんぎょうほう",
+  "meaning": "【かしきんぎょうほう】《贷款业法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "先占取得": {
+  "reading": "せんせんしゅとく",
+  "meaning": "【せんせんしゅとく】先占取得〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "債務名義": {
+  "reading": "さいむめいぎ",
+  "meaning": "【さいむめいぎ】执行名义〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "特定少年": {
+  "reading": "とくていしょうねん",
+  "meaning": "【とくていしょうねん】特定少年（18-19岁）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "公用収用": {
+  "reading": "こうようしゅうよう",
+  "meaning": "【こうようしゅうよう】公用征收〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "法規裁量": {
+  "reading": "ほうきさいりょう",
+  "meaning": "【ほうきさいりょう】法规裁量〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "越権代理": {
+  "reading": "えっけんだいり",
+  "meaning": "【えっけんだいり】越权代理〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "犯罪被害": {
+  "reading": "はんざいひがい",
+  "meaning": "【はんざいひがい】犯罪被害〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "行政解剖": {
+  "reading": "ぎょうせいかいぼう",
+  "meaning": "【ぎょうせいかいぼう】行政解剖〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "賠償命令": {
+  "reading": "ばいしょうめいれい",
+  "meaning": "【ばいしょうめいれい】赔偿命令〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "代理処罰": {
+  "reading": "だいりしょばつ",
+  "meaning": "【だいりしょばつ】代罚规定〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "鑑定留置": {
+  "reading": "かんていりゅうち",
+  "meaning": "【かんていりゅうち】鉴定留置〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "職権主義": {
+  "reading": "しょっけんしゅぎ",
+  "meaning": "【しょっけんしゅぎ】职权主义〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "職権探知": {
+  "reading": "しょっけんたんち",
+  "meaning": "【しょっけんたんち】职权探知〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "危難失踪": {
+  "reading": "きなんしっそう",
+  "meaning": "【きなんしっそう】危难失踪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "公訴事実": {
+  "reading": "こうそじじつ",
+  "meaning": "【こうそじじつ】公诉事实〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "予防拘禁": {
+  "reading": "よぼうこうきん",
+  "meaning": "【よぼうこうきん】预防拘禁〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "委任契約": {
+  "reading": "いにんけいやく",
+  "meaning": "【いにんけいやく】委托合同〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "省エネ法": {
+  "reading": "しょうエネほう",
+  "meaning": "【しょうエネほう】《省能法》（节能法）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "競業避止": {
+  "reading": "きょうぎょうひし",
+  "meaning": "【きょうぎょうひし】竞业禁止〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "重要事実": {
+  "reading": "じゅうようじじつ",
+  "meaning": "【じゅうようじじつ】重要事实〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "地位保全": {
+  "reading": "ちいほぜん",
+  "meaning": "【ちいほぜん】维持现状（假处分）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "不正競争": {
+  "reading": "ふせいきょうそう",
+  "meaning": "【ふせいきょうそう】不正当竞争〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "家事審判": {
+  "reading": "かじしんぱん",
+  "meaning": "【かじしんぱん】家事审判〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "家事調停": {
+  "reading": "かじちょうてい",
+  "meaning": "【かじちょうてい】家事调解〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "対人信用": {
+  "reading": "たいじんしんよう",
+  "meaning": "【たいじんしんよう】对人信用〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "飛び領土": {
+  "reading": "とびりょうど",
+  "meaning": "【とびりょうど】飞地〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "相隣関係": {
+  "reading": "そうりんかんけい",
+  "meaning": "【そうりんかんけい】相邻关系〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "証拠能力": {
+  "reading": "しょうこのうりょく",
+  "meaning": "【しょうこのうりょく】证据能力〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "供述調書": {
+  "reading": "きょうじゅつちょうしょ",
+  "meaning": "【きょうじゅつちょうしょ】供述笔录〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "限定承認": {
+  "reading": "げんていしょうにん",
+  "meaning": "【げんていしょうにん】限定承认（继承）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "非親告罪": {
+  "reading": "ひしんこくざい",
+  "meaning": "【ひしんこくざい】非亲告罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "証人尋問": {
+  "reading": "しょうにんじんもん",
+  "meaning": "【しょうにんじんもん】证人询问〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "非常上告": {
+  "reading": "ひじょうじょうこく",
+  "meaning": "【ひじょうじょうこく】非常上告〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "認定基準": {
+  "reading": "にんていきじゅん",
+  "meaning": "【にんていきじゅん】认定标准〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "少年院法": {
+  "reading": "しょうねんいんほう",
+  "meaning": "【しょうねんいんほう】《少年院法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "刑の量定": {
+  "reading": "けいのりょうてい",
+  "meaning": "【けいのりょうてい】刑罚量刑〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "嫌疑なし": {
+  "reading": "けんぎなし",
+  "meaning": "【けんぎなし】嫌疑不充分（不起诉）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "合議審判": {
+  "reading": "ごうぎしんぱん",
+  "meaning": "【ごうぎしんぱん】合议审判〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "事実認定": {
+  "reading": "じじつにんてい",
+  "meaning": "【じじつにんてい】事实认定〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "文書毀棄": {
+  "reading": "ぶんしょきき",
+  "meaning": "【ぶんしょきき】毁弃文书〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "不法領得": {
+  "reading": "ふほうりょうとく",
+  "meaning": "【ふほうりょうとく】不法取得〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "墳墓発掘": {
+  "reading": "ふんぼはっくつ",
+  "meaning": "【ふんぼはっくつ】发掘坟墓〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "死体損壊": {
+  "reading": "したいそんかい",
+  "meaning": "【したいそんかい】损坏尸体〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "自殺教唆": {
+  "reading": "じさつきょうさ",
+  "meaning": "【じさつきょうさ】教唆自杀〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "告知義務": {
+  "reading": "こくちぎむ",
+  "meaning": "【こくちぎむ】告知义务〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "作為義務": {
+  "reading": "さくいぎむ",
+  "meaning": "【さくいぎむ】作为义务〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "債務免除": {
+  "reading": "さいむめんじょ",
+  "meaning": "【さいむめんじょ】债务免除〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "殺人教唆": {
+  "reading": "さつじんきょうさ",
+  "meaning": "【さつじんきょうさ】教唆杀人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "殺人幇助": {
+  "reading": "さつじんほうじょ",
+  "meaning": "【さつじんほうじょ】帮助杀人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "違憲判決": {
+  "reading": "いけんはんけつ",
+  "meaning": "【いけんはんけつ】违宪判决〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "違憲判断": {
+  "reading": "いけんはんだん",
+  "meaning": "【いけんはんだん】违宪认定〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "永住許可": {
+  "reading": "えいじゅうきょか",
+  "meaning": "【えいじゅうきょか】永久居留许可〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "了解覚書": {
+  "reading": "りょうかいおぼえがき",
+  "meaning": "【りょうかいおぼえがき】谅解备忘录〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "証拠調べ": {
+  "reading": "しょうこしらべ",
+  "meaning": "【しょうこしらべ】证据调查〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "強盗致死": {
+  "reading": "ごうとうちし",
+  "meaning": "【ごうとうちし】抢劫致死〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "行政事件": {
+  "reading": "ぎょうせいじけん",
+  "meaning": "【ぎょうせいじけん】行政案件〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "二重処罰": {
+  "reading": "にじゅうしょばつ",
+  "meaning": "【にじゅうしょばつ】双重处罚〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "請負契約": {
+  "reading": "うけおいけいやく",
+  "meaning": "【うけおいけいやく】承揽合同〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "あはき法": {
+  "reading": "あはきほう",
+  "meaning": "【あはきほう】《按摩针灸法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "差し押さえ": {
+  "reading": "さしおさえ",
+  "meaning": "【さしおさえ】查封；扣押〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "遺言執行者": {
+  "reading": "いごんしっこうしゃ",
+  "meaning": "【いごんしっこうしゃ】遗嘱执行人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "麻薬取締法": {
+  "reading": "まやくとりしまりほう",
+  "meaning": "【まやくとりしまりほう】《麻醉品取缔法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "読み替える": {
+  "reading": "よみかえる",
+  "meaning": "【よみかえる】视为；（法条）读换〈动2〉",
+  "level": "law",
+  "need": 2
+ },
+ "準禁治産者": {
+  "reading": "じゅんきんちさんしゃ",
+  "meaning": "【じゅんきんちさんしゃ】准禁治产人（旧制度）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "建築基準法": {
+  "reading": "けんちくきじゅんほう",
+  "meaning": "【けんちくきじゅんほう】《建筑基准法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "健康保険法": {
+  "reading": "けんこうほけんほう",
+  "meaning": "【けんこうほけんほう】《健康保险法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "日本国憲法": {
+  "reading": "にほんこくけんぽう",
+  "meaning": "【にほんこくけんぽう】《日本国宪法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "人身保護法": {
+  "reading": "じんしんほごほう",
+  "meaning": "【じんしんほごほう】《人身保护法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "治安維持法": {
+  "reading": "ちあんいじほう",
+  "meaning": "【ちあんいじほう】《治安维持法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "裁判官忌避": {
+  "reading": "さいばんかんきひ",
+  "meaning": "【さいばんかんきひ】法官回避〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "情報公開法": {
+  "reading": "じょうほうこうかいほう",
+  "meaning": "【じょうほうこうかいほう】《信息公开法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "売春防止法": {
+  "reading": "ばいしゅんぼうしほう",
+  "meaning": "【ばいしゅんぼうしほう】《卖春防止法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "学校教育法": {
+  "reading": "がっこうきょういくほう",
+  "meaning": "【がっこうきょういくほう】《学校教育法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "教育基本法": {
+  "reading": "きょういくきほんほう",
+  "meaning": "【きょういくきほんほう】《教育基本法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "市街化区域": {
+  "reading": "しがいかくいき",
+  "meaning": "【しがいかくいき】城市化区域〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "道路交通法": {
+  "reading": "どうろこうつうほう",
+  "meaning": "【どうろこうつうほう】《道路交通法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "労働組合法": {
+  "reading": "ろうどうくみあいほう",
+  "meaning": "【ろうどうくみあいほう】《工会法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "戦時国際法": {
+  "reading": "せんじこくさいほう",
+  "meaning": "【せんじこくさいほう】战时国际法〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "刑事訴訟法": {
+  "reading": "けいじそしょうほう",
+  "meaning": "【けいじそしょうほう】《刑事诉讼法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "生活保護法": {
+  "reading": "せいかつほごほう",
+  "meaning": "【せいかつほごほう】《生活保护法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "食品衛生法": {
+  "reading": "しょくひんえいせいほう",
+  "meaning": "【しょくひんえいせいほう】《食品卫生法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "第一級殺人": {
+  "reading": "だいいっきゅうさつじん",
+  "meaning": "【だいいっきゅうさつじん】一级谋杀〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "連帯保証人": {
+  "reading": "れんたいほしょうにん",
+  "meaning": "【れんたいほしょうにん】连带保证人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "公職選挙法": {
+  "reading": "こうしょくせんきょほう",
+  "meaning": "【こうしょくせんきょほう】《公职选举法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "推定相続人": {
+  "reading": "すいていそうぞくにん",
+  "meaning": "【すいていそうぞくにん】推定继承人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "契約不履行": {
+  "reading": "けいやくふりこう",
+  "meaning": "【けいやくふりこう】不履行合同〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "計画的犯行": {
+  "reading": "けいかくてきはんこう",
+  "meaning": "【けいかくてきはんこう】预谋犯罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "未必の故意": {
+  "reading": "みひつのこい",
+  "meaning": "【みひつのこい】未必故意（放任故意）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "一事不再理": {
+  "reading": "いちじふさいり",
+  "meaning": "【いちじふさいり】一事不再理〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "予防接種法": {
+  "reading": "よぼうせっしゅほう",
+  "meaning": "【よぼうせっしゅほう】《预防接种法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "不逮捕特権": {
+  "reading": "ふたいほとっけん",
+  "meaning": "【ふたいほとっけん】不受逮捕特权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "重要参考人": {
+  "reading": "じゅうようさんこうにん",
+  "meaning": "【じゅうようさんこうにん】重要参考人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "地方自治法": {
+  "reading": "ちほうじちほう",
+  "meaning": "【ちほうじちほう】《地方自治法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "アイヌ新法": {
+  "reading": "アイヌしんぽう",
+  "meaning": "【アイヌしんぽう】《阿伊努新法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "船舶安全法": {
+  "reading": "せんぱくあんぜんほう",
+  "meaning": "【せんぱくあんぜんほう】《船舶安全法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "異議申立て": {
+  "reading": "いぎもうしたて",
+  "meaning": "【いぎもうしたて】提出异议〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "国民保護法": {
+  "reading": "こくみんほごほう",
+  "meaning": "【こくみんほごほう】《国民保护法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "外来生物法": {
+  "reading": "がいらいせいぶつほう",
+  "meaning": "【がいらいせいぶつほう】《外来生物法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "恒久的施設": {
+  "reading": "こうきゅうてきしせつ",
+  "meaning": "【こうきゅうてきしせつ】常设机构（税收）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "行政手続法": {
+  "reading": "ぎょうせいてつづきほう",
+  "meaning": "【ぎょうせいてつづきほう】《行政程序法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "介護保険法": {
+  "reading": "かいごほけんほう",
+  "meaning": "【かいごほけんほう】《护理保险法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "国民徴用令": {
+  "reading": "こくみんちょうようれい",
+  "meaning": "【こくみんちょうようれい】《国民征用令》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "児童福祉法": {
+  "reading": "じどうふくしほう",
+  "meaning": "【じどうふくしほう】《儿童福祉法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "入国管理法": {
+  "reading": "にゅうこくかんりほう",
+  "meaning": "【にゅうこくかんりほう】《出入境管理法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "大麻取締法": {
+  "reading": "たいまとりしまりほう",
+  "meaning": "【たいまとりしまりほう】《大麻取缔法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "景品表示法": {
+  "reading": "けいひんひょうじほう",
+  "meaning": "【けいひんひょうじほう】《景品表示法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "法的拘束力": {
+  "reading": "ほうてきこうそくりょく",
+  "meaning": "【ほうてきこうそくりょく】法律约束力〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "傷害致死罪": {
+  "reading": "しょうがいちしざい",
+  "meaning": "【しょうがいちしざい】伤害致死罪〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "成年後見人": {
+  "reading": "せいねんこうけんにん",
+  "meaning": "【せいねんこうけんにん】成年监护人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "日本銀行法": {
+  "reading": "にほんぎんこうほう",
+  "meaning": "【にほんぎんこうほう】《日本银行法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "電磁的記録": {
+  "reading": "でんじてききろく",
+  "meaning": "【でんじてききろく】电磁记录〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "法定相続人": {
+  "reading": "ほうていそうぞくにん",
+  "meaning": "【ほうていそうぞくにん】法定继承人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "不服申立て": {
+  "reading": "ふふくもうしたて",
+  "meaning": "【ふふくもうしたて】提出申诉〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "管轄裁判所": {
+  "reading": "かんかつさいばんしょ",
+  "meaning": "【かんかつさいばんしょ】管辖法院〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "無害通航権": {
+  "reading": "むがいつうこうけん",
+  "meaning": "【むがいつうこうけん】无害通过权〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "不完全履行": {
+  "reading": "ふかんぜんりこう",
+  "meaning": "【ふかんぜんりこう】不完全履行〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "土地改良法": {
+  "reading": "とちかいりょうほう",
+  "meaning": "【とちかいりょうほう】《土地改良法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "灯台下暗し": {
+  "reading": "とうだいもとくらい",
+  "meaning": "【とうだいもとくらい】灯台底下黑；身边反而注意不到〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "雨後の筍": {
+  "reading": "うごのたけのこ",
+  "meaning": "【うごのたけのこ】雨后春笋（层出不穷）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "目から鱗が落ちる": {
+  "reading": "めからうろこがおちる",
+  "meaning": "【めからうろこがおちる】恍然大悟；眼界大开〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "気のおけない": {
+  "reading": "きのおけない",
+  "meaning": "【きのおけない】不必客气的；可以无拘无束相处的〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "泥縄": {
+  "reading": "どろなわ",
+  "meaning": "【どろなわ】临阵磨枪；临时抱佛脚〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "長い物には巻かれろ": {
+  "reading": "ながいものにはまかれろ",
+  "meaning": "【ながいものにはまかれろ】好汉不吃眼前亏；随大流〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "歯が浮く": {
+  "reading": "はがうく",
+  "meaning": "【はがうく】（甜言蜜语听得）肉麻〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "藁にもすがる": {
+  "reading": "わらにもすがる",
+  "meaning": "【わらにもすがる】救命稻草；不放过任何希望〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "駄目元": {
+  "reading": "だめもと",
+  "meaning": "【だめもと】姑且一试；本来就没指望〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "大目に見る": {
+  "reading": "おおめにみる",
+  "meaning": "【おおめにみる】宽恕；不追究〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "金に目が眩む": {
+  "reading": "かねにめがくらむ",
+  "meaning": "【かねにめがくらむ】利令智昏〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "腕によりをかける": {
+  "reading": "うでによりをかける",
+  "meaning": "【うでによりをかける】格外卖力；大显身手〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "袖の下": {
+  "reading": "そでのした",
+  "meaning": "【そでのした】贿赂；袖底钱〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "血も涙もない": {
+  "reading": "ちもなみもない",
+  "meaning": "【ちもなみもない】冷酷无情〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "縁の下の力持ち": {
+  "reading": "えんのしたのちからもち",
+  "meaning": "【えんのしたのちからもち】无名英雄；幕后出力的人〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "涙を呑む": {
+  "reading": "なみだをのむ",
+  "meaning": "【なみだをのむ】忍气吞声；忍痛认输〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "目の毒": {
+  "reading": "めのどく",
+  "meaning": "【めのどく】看了眼馋；有伤眼目〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "胸を張る": {
+  "reading": "むねをはる",
+  "meaning": "【むねをはる】挺起胸膛；充满自豪〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "山場を迎える": {
+  "reading": "やまばをむかえる",
+  "meaning": "【やまばをむかえる】迎来关键关头；进入高潮〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "頭を使う": {
+  "reading": "あたまをつかう",
+  "meaning": "【あたまをつかう】动脑筋；费心思〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "借りてきた猫": {
+  "reading": "かりてきたねこ",
+  "meaning": "【かりてきたねこ】（像借来的猫一样）拘谨老实〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "口を滑らせる": {
+  "reading": "くちをなめらせる",
+  "meaning": "【くちをなめらせる】失言；说漏嘴〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "鼻で笑う": {
+  "reading": "はなでわらう",
+  "meaning": "【はなでわらう】嗤之以鼻〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "背に腹は代えられぬ": {
+  "reading": "せにはらはかえられぬ",
+  "meaning": "【せにはらはかえられぬ】肚子要紧；顾不得其他〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "身に余る光栄": {
+  "reading": "みにあまるこうえい",
+  "meaning": "【みにあまるこうえい】受宠若惊的荣誉〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "血眼になる": {
+  "reading": "ちめになる",
+  "meaning": "【ちめになる】熬红眼睛拼命找（争）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "爪を研ぐ": {
+  "reading": "つめをとぐ",
+  "meaning": "【つめをとぐ】摩拳擦掌待时机；磨砺本领〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手を拱く": {
+  "reading": "てをこまねく",
+  "meaning": "【てをこまねく】袖手旁观；束手无策〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "臍を噛む": {
+  "reading": "へそをかむ",
+  "meaning": "【へそをかむ】悔不当初；懊悔莫及〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "首を捻る": {
+  "reading": "くびをひねる",
+  "meaning": "【くびをひねる】琢磨；冥思苦想〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "足を掬う": {
+  "reading": "あしをすくう",
+  "meaning": "【あしをすくう】（暗中）使绊子；令人措手不及〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "口八丁": {
+  "reading": "くちばっちょう",
+  "meaning": "【くちばっちょう】嘴上功夫；能说会道〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手八丁": {
+  "reading": "てばっちょう",
+  "meaning": "【てばっちょう】手艺巧妙；干活麻利〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "羽が生えたよう": {
+  "reading": "はねがはえたよう",
+  "meaning": "【はねがはえたよう】像长了翅膀（钱花得飞快等）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "口が酸っぱくなる": {
+  "reading": "くちがすっぱくなる",
+  "meaning": "【くちがすっぱくなる】苦口婆心（说得嘴都酸了）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "足下を見る": {
+  "reading": "あしもとをみる",
+  "meaning": "【あしもとをみる】乘人之危；钻空子〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "鰻の寝床": {
+  "reading": "うなぎのねどこ",
+  "meaning": "【うなぎのねどこ】（房子）细长；狭长的房间〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "河童の川流れ": {
+  "reading": "かっぱのかわながれ",
+  "meaning": "【かっぱのかわながれ】能者也有失手时；阴沟里翻船〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "目に入っても痛くない": {
+  "reading": "めにはいってもいたくない",
+  "meaning": "【めにはいってもいたくない】（孩子）怎么看不嫌多〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "胸に秘める": {
+  "reading": "むねにひめる",
+  "meaning": "【むねにひめる】埋藏心底〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手並み拝見": {
+  "reading": "てなみはいけん",
+  "meaning": "【てなみはいけん】见识一下本领〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "目の保養": {
+  "reading": "めのほうよう",
+  "meaning": "【めのほうよう】大饱眼福〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "意気地なし": {
+  "reading": "いくじなし",
+  "meaning": "【いくじなし】没志气的人；窝囊废〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "石頭": {
+  "reading": "いしあたま",
+  "meaning": "【いしあたま】顽固脑袋；死脑筋〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "天狗": {
+  "reading": "てんぐ",
+  "meaning": "【てんぐ】自大；自吹自擂（的人）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "兎角": {
+  "reading": "とかく",
+  "meaning": "【とかく】兔角（世上本无之物）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "船出": {
+  "reading": "ふなで",
+  "meaning": "【ふなで】启航；（新事业）起步〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "赤信号": {
+  "reading": "あかしんごう",
+  "meaning": "【あかしんごう】红灯；危险信号〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "後の祭り": {
+  "reading": "あとのまつり",
+  "meaning": "【あとのまつり】马后炮；为时已晚〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "バトンタッチ": {
+  "reading": "バトン・タッチ",
+  "meaning": "接力棒交接；换代〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "逆鱗": {
+  "reading": "げきりん",
+  "meaning": "【げきりん】逆鳞；（上司）龙颜大怒〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "虎口": {
+  "reading": "ここう",
+  "meaning": "【ここう】虎口；险境〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "小虎": {
+  "reading": "ことら",
+  "meaning": "【ことら】小酒量（酒鬼自称）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "大虎": {
+  "reading": "おおとら",
+  "meaning": "【おおとら】海量；大酒鬼〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "兎耳": {
+  "reading": "うさぎみみ",
+  "meaning": "【うさぎみみ】长耳朵；竖起的耳朵〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "両虎": {
+  "reading": "りょうこ",
+  "meaning": "【りょうこ】两虎；势均力敌的对手〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "荊棘": {
+  "reading": "けいきょく",
+  "meaning": "【けいきょく】荆棘；障碍重重〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "尻重": {
+  "reading": "しりおも",
+  "meaning": "【しりおも】拖沓；行动迟缓（的人）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "蛇蝎": {
+  "reading": "だかつ",
+  "meaning": "【だかつ】蛇蝎；人人憎恶之物〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "虎狼": {
+  "reading": "ころう",
+  "meaning": "【ころう】虎狼；贪婪残忍之徒〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "犬猿": {
+  "reading": "けんえん",
+  "meaning": "【けんえん】水火不容（的关系）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "安牌": {
+  "reading": "あんパイ",
+  "meaning": "【あんパイ】稳妥牌；万全之选〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "犬猫": {
+  "reading": "いぬねこ",
+  "meaning": "【いぬねこ】鸡毛蒜皮；微不足道〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "羝羊": {
+  "reading": "ていよう",
+  "meaning": "【ていよう】随性而生的人；动物性生存〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "磊塊": {
+  "reading": "らいかい",
+  "meaning": "【らいかい】胸中块垒；愤懑不平〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "楽髪": {
+  "reading": "らくがみ",
+  "meaning": "【らくがみ】心宽发长；松弛间长发猛长〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "楽毛": {
+  "reading": "らくげ",
+  "meaning": "【らくげ】心宽发长（同楽髪）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "刻舟": {
+  "reading": "こくしゅう",
+  "meaning": "【こくしゅう】刻舟求剑；不知变通〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "横串": {
+  "reading": "よこぐし",
+  "meaning": "【よこぐし】跨部门横向协调〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "暁鐘": {
+  "reading": "ぎょうしょう",
+  "meaning": "【ぎょうしょう】晓钟；新时代的先声〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "嘘八百": {
+  "reading": "うそはっぴゃく",
+  "meaning": "【うそはっぴゃく】满嘴谎话；弥天大谎〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "猿芝居": {
+  "reading": "さるしばい",
+  "meaning": "【さるしばい】自导自演；拙劣表演〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "縁の下": {
+  "reading": "えんのした",
+  "meaning": "【えんのした】幕后；不为人知处〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "遠吠え": {
+  "reading": "とおぼえ",
+  "meaning": "【とおぼえ】哀鸣；（对人）暗地中伤〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "火の手": {
+  "reading": "ひのて",
+  "meaning": "【ひのて】火苗；（批判）火势〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "火遊び": {
+  "reading": "ひあそび",
+  "meaning": "【ひあそび】玩火；铤而走险〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "玉の輿": {
+  "reading": "たまのこし",
+  "meaning": "【たまのこし】攀高枝；嫁入豪门〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "青信号": {
+  "reading": "あおしんごう",
+  "meaning": "【あおしんごう】绿灯；放行信号〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "青天井": {
+  "reading": "あおてんじょう",
+  "meaning": "【あおてんじょう】上不封顶；暴涨〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "蝉時雨": {
+  "reading": "せみしぐれ",
+  "meaning": "【せみしぐれ】蝉鸣如雨〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "巣立つ": {
+  "reading": "すだつ",
+  "meaning": "【すだつ】羽翼丰满离巢；自立〈动1〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "虫の息": {
+  "reading": "むしのいき",
+  "meaning": "【むしのいき】奄奄一息；苟延残喘〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "天狗話": {
+  "reading": "てんぐばなし",
+  "meaning": "【てんぐばなし】自吹自擂的话〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "兎の毛": {
+  "reading": "うのけ",
+  "meaning": "【うのけ】兔毛（极微量）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "乳臭い": {
+  "reading": "ちちくさい",
+  "meaning": "【ちちくさい】乳臭未干；幼稚〈イ形〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "蜂の巣": {
+  "reading": "はちのす",
+  "meaning": "【はちのす】蜂窝；（被打得）千疮百孔〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "玉に瑕": {
+  "reading": "たまにきず",
+  "meaning": "【たまにきず】美中不足；白璧微瑕〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "逃げ腰": {
+  "reading": "にげごし",
+  "meaning": "【にげごし】准备开溜的姿态〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "夢物語": {
+  "reading": "ゆめものがたり",
+  "meaning": "【ゆめものがたり】美梦；空想〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "走馬灯": {
+  "reading": "そうまとう",
+  "meaning": "【そうまとう】走马灯；往事历历〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "百人力": {
+  "reading": "ひゃくにんりき",
+  "meaning": "【ひゃくにんりき】百人之力；巨大助力〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "畳水練": {
+  "reading": "たたみすいれん",
+  "meaning": "【たたみすいれん】纸上谈兵；榻上练习水功〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "釘付け": {
+  "reading": "くぎづけ",
+  "meaning": "【くぎづけ】定住；目不转睛〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "左団扇": {
+  "reading": "ひだりうちわ",
+  "meaning": "【ひだりうちわ】左团扇；安逸自在〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "関の山": {
+  "reading": "せきのやま",
+  "meaning": "【せきのやま】至多不过；顶多〈副〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "息の根": {
+  "reading": "いきのね",
+  "meaning": "【いきのね】气根；性命〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "風の子": {
+  "reading": "かぜのこ",
+  "meaning": "【かぜのこ】风之子；不怕冷的孩子〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "畑水練": {
+  "reading": "はたけすいれん",
+  "meaning": "【はたけすいれん】田间练水功；无用的纸上功夫〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "蹴破る": {
+  "reading": "けやぶる",
+  "meaning": "【けやぶる】踹破；冲破〈动1〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手の者": {
+  "reading": "てのもの",
+  "meaning": "【てのもの】手下；亲信〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "夜の帳": {
+  "reading": "よるのとばり",
+  "meaning": "【よるのとばり】夜幕〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "飴と鞭": {
+  "reading": "あめとむち",
+  "meaning": "【あめとむち】糖与鞭；软硬兼施〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "茨の道": {
+  "reading": "いばらのみち",
+  "meaning": "【いばらのみち】荆棘之路；坎坷前路〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "水の泡": {
+  "reading": "みずのあわ",
+  "meaning": "【みずのあわ】化为泡影〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "安全牌": {
+  "reading": "あんぜんパイ",
+  "meaning": "【あんぜんパイ】安全牌；万全之策〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "線引き": {
+  "reading": "せんびき",
+  "meaning": "【せんびき】划界；界定〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "雪と墨": {
+  "reading": "ゆきとすみ",
+  "meaning": "【ゆきとすみ】如雪与墨；截然相反〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "籠の鳥": {
+  "reading": "かごのとり",
+  "meaning": "【かごのとり】笼中鸟；失去自由者〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "風に柳": {
+  "reading": "かぜにやなぎ",
+  "meaning": "【かぜにやなぎ】风过柳弯；柔能克刚〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "爪の垢": {
+  "reading": "つめのあか",
+  "meaning": "【つめのあか】指甲垢（恨不得分人）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ぎんた": {
+  "reading": "",
+  "meaning": "以防万一（俗语）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "桜咲く": {
+  "reading": "さくらさく",
+  "meaning": "【さくらさく】考试通过（樱花开）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "桜散る": {
+  "reading": "さくらちる",
+  "meaning": "【さくらちる】考试落榜（樱花谢）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "最後屁": {
+  "reading": "さいごべ",
+  "meaning": "【さいごべ】最后的绝招；回马枪〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "神の子": {
+  "reading": "かみのこ",
+  "meaning": "【かみのこ】神童；天之骄子〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "膳立て": {
+  "reading": "ぜんだて",
+  "meaning": "【ぜんだて】摆设席位；铺路搭桥〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "竹に雀": {
+  "reading": "たけにすずめ",
+  "meaning": "【たけにすずめ】竹配雀；天作之合〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "土足で": {
+  "reading": "どそくで",
+  "meaning": "【どそくで】（踩进来等）毫不客气地〈副〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "糠に釘": {
+  "reading": "ぬかにくぎ",
+  "meaning": "【ぬかにくぎ】糠上钉钉；徒劳无功〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "闇の女": {
+  "reading": "やみのおんな",
+  "meaning": "【やみのおんな】暗娼；风尘女子〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "耳タコ": {
+  "reading": "みみたこ",
+  "meaning": "【みみたこ】耳朵听出茧〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "腰だめ": {
+  "reading": "こしだめ",
+  "meaning": "【こしだめ】无准备出手；半吊子状态〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "虎に翼": {
+  "reading": "とらにつばさ",
+  "meaning": "【とらにつばさ】如虎添翼〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "天の声": {
+  "reading": "てんのこえ",
+  "meaning": "【てんのこえ】上天之声；场外指示〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "飯の種": {
+  "reading": "めしのたね",
+  "meaning": "【めしのたね】谋生手段；饭碗〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "年食う": {
+  "reading": "としくう",
+  "meaning": "【としくう】长岁数；显老〈动1〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "米百俵": {
+  "reading": "こめひゃっぴょう",
+  "meaning": "【こめひゃっぴょう】米百俵（舍眼前利谋长远）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "火の海": {
+  "reading": "ひのうみ",
+  "meaning": "【ひのうみ】火海〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "油に水": {
+  "reading": "あぶらにみず",
+  "meaning": "【あぶらにみず】油水不合；格格不入〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "風の噂": {
+  "reading": "かぜのうわさ",
+  "meaning": "【かぜのうわさ】风言风语；传闻〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "梅に鶯": {
+  "reading": "うめにうぐいす",
+  "meaning": "【うめにうぐいす】梅配莺；珠联璧合〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "火に油": {
+  "reading": "ひにあぶら",
+  "meaning": "【ひにあぶら】火上浇油〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "大天狗": {
+  "reading": "だいてんぐ",
+  "meaning": "【だいてんぐ】大尾巴狼；极自大者〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "小天狗": {
+  "reading": "こてんぐ",
+  "meaning": "【こてんぐ】有前途的小骄傲〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "蔵入り": {
+  "reading": "くらいり",
+  "meaning": "【くらいり】打入冷宫；搁置〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "厚い壁": {
+  "reading": "あついかべ",
+  "meaning": "【あついかべ】厚障壁；难以逾越的坎〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "吾が仏": {
+  "reading": "あがほとけ",
+  "meaning": "【あがほとけ】我佛；我的宝贝〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "我が仏": {
+  "reading": "わがほとけ",
+  "meaning": "【わがほとけ】我佛；心之所依〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "黄信号": {
+  "reading": "きしんごう",
+  "meaning": "【きしんごう】黄灯；警戒信号〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "光と影": {
+  "reading": "ひかりとかげ",
+  "meaning": "【ひかりとかげ】光与影；盛衰两面〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "金の卵": {
+  "reading": "きんのたまご",
+  "meaning": "【きんのたまご】金蛋；可造之才〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "命の水": {
+  "reading": "いのちのみず",
+  "meaning": "【いのちのみず】生命之水；蒸馏烈酒〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "心の壁": {
+  "reading": "こころのかべ",
+  "meaning": "【こころのかべ】心墙〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "芋洗い": {
+  "reading": "いもあらい",
+  "meaning": "【いもあらい】如煮饺子；人挤人〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "夏の虫": {
+  "reading": "なつのむし",
+  "meaning": "【なつのむし】夏虫；飞蛾扑火〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "一本やり": {
+  "reading": "いっぽんやり",
+  "meaning": "【いっぽんやり】一根筋；单打一〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "碁盤の目": {
+  "reading": "ごばんのめ",
+  "meaning": "【ごばんのめ】棋盘格（街道布局）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "三顧の礼": {
+  "reading": "さんこのれい",
+  "meaning": "【さんこのれい】三顾之礼；诚意聘请〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "姿を消す": {
+  "reading": "すがたをけす",
+  "meaning": "【すがたをけす】销声匿迹〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手を抜く": {
+  "reading": "てをぬく",
+  "meaning": "【てをぬく】偷工减料；敷衍了事〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "十日の菊": {
+  "reading": "とおかのきく",
+  "meaning": "【とおかのきく】十月初十的菊；错过时机〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "掌中の珠": {
+  "reading": "しょうちゅうのたま",
+  "meaning": "【しょうちゅうのたま】掌上明珠〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "足がつく": {
+  "reading": "あしがつく",
+  "meaning": "【あしがつく】（罪犯）暴露踪迹〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "他山の石": {
+  "reading": "たざんのいし",
+  "meaning": "【たざんのいし】他山之石；前车之鉴〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "地が出る": {
+  "reading": "じがでる",
+  "meaning": "【じがでる】露出本性〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "竹馬の友": {
+  "reading": "ちくばのとも",
+  "meaning": "【ちくばのとも】青梅竹马之交〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "張子の虎": {
+  "reading": "はりこのとら",
+  "meaning": "【はりこのとら】纸老虎；外强中干〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "呑舟の魚": {
+  "reading": "どんしゅうのうお",
+  "meaning": "【どんしゅうのうお】吞舟之鱼；巨奸大恶〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "二番煎じ": {
+  "reading": "にばんせんじ",
+  "meaning": "【にばんせんじ】炒冷饭；二度翻拍〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "百薬の長": {
+  "reading": "ひゃくやくのちょう",
+  "meaning": "【ひゃくやくのちょう】百药之长（指酒）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "両手に花": {
+  "reading": "りょうてにはな",
+  "meaning": "【りょうてにはな】双喜临门；左右逢源〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "茹でタコ": {
+  "reading": "ゆでタコ",
+  "meaning": "【ゆでタコ】像煮熟的章鱼（涨红脸）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "すし詰め": {
+  "reading": "すしづめ",
+  "meaning": "【すしづめ】挤得像罐头〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "棒に振る": {
+  "reading": "ぼうにふる",
+  "meaning": "【ぼうにふる】付诸东流；白白浪费〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "火がつく": {
+  "reading": "ひがつく",
+  "meaning": "【ひがつく】燃起（争议/感情）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "口を拭う": {
+  "reading": "くちをぬぐう",
+  "meaning": "【くちをぬぐう】擦嘴装无辜〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "肩が凝る": {
+  "reading": "かたがこる",
+  "meaning": "【かたがこる】肩膀酸；拘谨不自在〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "心が通う": {
+  "reading": "こころがかよう",
+  "meaning": "【こころがかよう】心意相通〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "いぶし銀": {
+  "reading": "いぶしぎん",
+  "meaning": "【いぶしぎん】熏银；内敛的光辉〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "亡羊の嘆": {
+  "reading": "ぼうようのたん",
+  "meaning": "【ぼうようのたん】亡羊之叹；无从入手的烦闷〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "お膳立て": {
+  "reading": "おぜんだて",
+  "meaning": "【おぜんだて】铺陈安排〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "最終兵器": {
+  "reading": "さいしゅうへいき",
+  "meaning": "【さいしゅうへいき】最终兵器；王牌〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "さじ加減": {
+  "reading": "さじかげん",
+  "meaning": "【さじかげん】勺候；凭经验拿捏〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "河童の屁": {
+  "reading": "かっぱのへ",
+  "meaning": "【かっぱのへ】易如反掌〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "温室育ち": {
+  "reading": "おんしつそだち",
+  "meaning": "【おんしつそだち】温室里长大〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "高嶺の花": {
+  "reading": "たかねのはな",
+  "meaning": "【たかねのはな】高岭之花；可望不可即〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "集中砲火": {
+  "reading": "しゅうちゅうほうか",
+  "meaning": "【しゅうちゅうほうか】集中火力；（批判）齐轰〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "奈落の底": {
+  "reading": "ならくのそこ",
+  "meaning": "【ならくのそこ】深渊之底；绝望谷底〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "風前の灯": {
+  "reading": "ふうぜんのともしび",
+  "meaning": "【ふうぜんのともしび】风中之烛；命悬一线〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "台風の目": {
+  "reading": "たいふうのめ",
+  "meaning": "【たいふうのめ】台风眼；风暴中心人物〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "図に乗る": {
+  "reading": "ずにのる",
+  "meaning": "【ずにのる】得意忘形；趁势起劲〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "板につく": {
+  "reading": "いたにつく",
+  "meaning": "【いたにつく】如鱼得水；进入角色〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "一本取る": {
+  "reading": "いっぽんとる",
+  "meaning": "【いっぽんとる】扳回一城；先下一城〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "裏をかく": {
+  "reading": "うらをかく",
+  "meaning": "【うらをかく】将计就计；反将一军〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "襟を正す": {
+  "reading": "えりをただす",
+  "meaning": "【えりをただす】正襟危坐；端正态度〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "音に聞く": {
+  "reading": "おとにきく",
+  "meaning": "【おとにきく】如雷贯耳；闻名〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "霞を食う": {
+  "reading": "かすみをくう",
+  "meaning": "【かすみをくう】餐霞饮露；不食人间烟火〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "釘を刺す": {
+  "reading": "くぎをさす",
+  "meaning": "【くぎをさす】敲打叮嘱；先打好招呼〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "掌を指す": {
+  "reading": "たなごころをさす",
+  "meaning": "【たなごころをさす】了如指掌；一目了然〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手を出す": {
+  "reading": "てをだす",
+  "meaning": "【てをだす】插手；染指〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "度を失う": {
+  "reading": "どをうしなう",
+  "meaning": "【どをうしなう】失态；慌了手脚〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "涙をのむ": {
+  "reading": "なみだをのむ",
+  "meaning": "【なみだをのむ】忍痛吞泪〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "右に出る": {
+  "reading": "みぎにでる",
+  "meaning": "【みぎにでる】无出其右；更胜一筹〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "飯を食う": {
+  "reading": "めしをくう",
+  "meaning": "【めしをくう】混饭吃；以此为生〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "茶を濁す": {
+  "reading": "ちゃをにごす",
+  "meaning": "【ちゃをにごす】含糊搪塞〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "完全燃焼": {
+  "reading": "かんぜんねんしょう",
+  "meaning": "【かんぜんねんしょう】完全燃烧；尽兴发挥〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手のもの": {
+  "reading": "てのもの",
+  "meaning": "【てのもの】拿手好戏；看家本领〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "海の藻屑": {
+  "reading": "うみのもくず",
+  "meaning": "【うみのもくず】葬身鱼腹；海中藻屑〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手を焼く": {
+  "reading": "てをやく",
+  "meaning": "【てをやく】头疼；管不住〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "心を砕く": {
+  "reading": "こころをくだく",
+  "meaning": "【こころをくだく】殚精竭虑；操碎心〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "気が荒い": {
+  "reading": "きがあらい",
+  "meaning": "【きがあらい】脾气火爆〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "闇夜の烏": {
+  "reading": "やみよのからす",
+  "meaning": "【やみよのからす】暗夜之乌；看不清〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "闇夜に烏": {
+  "reading": "やみよにからす",
+  "meaning": "【やみよにからす】暗夜乌鸦；难辨难分〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "腕が鳴る": {
+  "reading": "うでがなる",
+  "meaning": "【うでがなる】技痒；跃跃欲试〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "口をきく": {
+  "reading": "くちをきく",
+  "meaning": "【くちをきく】搭话；说情〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手が早い": {
+  "reading": "てがはやい",
+  "meaning": "【てがはやい】手脚麻利；性子急〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手が空く": {
+  "reading": "てがあく",
+  "meaning": "【てがあく】腾出手；得空〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "気をもむ": {
+  "reading": "きをもむ",
+  "meaning": "【きをもむ】揪心；悬着心〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "舵を取る": {
+  "reading": "かじをとる",
+  "meaning": "【かじをとる】掌舵；主持大局〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "種をまく": {
+  "reading": "たねをまく",
+  "meaning": "【たねをまく】播种；埋下祸根〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "腕が立つ": {
+  "reading": "うでがたつ",
+  "meaning": "【うでがたつ】身手高强〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "角が立つ": {
+  "reading": "かどがたつ",
+  "meaning": "【かどがたつ】惹人反感；生硬〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "声を呑む": {
+  "reading": "こえをのむ",
+  "meaning": "【こえをのむ】哽住说不出〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "愚の骨頂": {
+  "reading": "ぐのこっちょう",
+  "meaning": "【ぐのこっちょう】愚不可及〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "世を渡る": {
+  "reading": "よをわたる",
+  "meaning": "【よをわたる】闯荡社会；处世〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "轍を踏む": {
+  "reading": "てつをふむ",
+  "meaning": "【てつをふむ】重蹈覆辙〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "肌が合う": {
+  "reading": "はだがあう",
+  "meaning": "【はだがあう】合拍；投缘〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "煙に巻く": {
+  "reading": "けむにまく",
+  "meaning": "【けむにまく】把人弄得云里雾里〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "青菜に塩": {
+  "reading": "あおなにしお",
+  "meaning": "【あおなにしお】蔫头耷脑；失魂落魄〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "卵に目鼻": {
+  "reading": "たまごにめはな",
+  "meaning": "【たまごにめはな】蛋形脸；眉清目秀〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "渡りに船": {
+  "reading": "わたりにふね",
+  "meaning": "【わたりにふね】雪中送炭；正中下怀〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "闇夜の礫": {
+  "reading": "やみよのつぶて",
+  "meaning": "【やみよのつぶて】暗夜飞石；无的放矢〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手が込む": {
+  "reading": "てがこむ",
+  "meaning": "【てがこむ】做工精细；构思繁复〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "命の洗濯": {
+  "reading": "いのちのせんたく",
+  "meaning": "【いのちのせんたく】洗心换境；换个环境透口气〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "首が飛ぶ": {
+  "reading": "くびがとぶ",
+  "meaning": "【くびがとぶ】乌纱不保；被撤职〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "亀毛兎角": {
+  "reading": "きもうとかく",
+  "meaning": "【きもうとかく】龟毛兔角；子虚乌有〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "兎角亀毛": {
+  "reading": "とかくきもう",
+  "meaning": "【とかくきもう】兔角龟毛；乌有之物〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "頭痛の種": {
+  "reading": "ずつうのたね",
+  "meaning": "【ずつうのたね】心头病；头疼的根源〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "一枚噛む": {
+  "reading": "いちまいかむ",
+  "meaning": "【いちまいかむ】掺一脚；参与其中〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "水母の骨": {
+  "reading": "くらげのほね",
+  "meaning": "【くらげのほね】水母无骨；意想不到的存在〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "絵になる": {
+  "reading": "えになる",
+  "meaning": "【えになる】有画面感；上镜〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "目を盗む": {
+  "reading": "めをぬすむ",
+  "meaning": "【めをぬすむ】趁人不备；偷偷〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "気の荒い": {
+  "reading": "きのあらい",
+  "meaning": "【きのあらい】脾气暴躁的〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手の早い": {
+  "reading": "てのはやい",
+  "meaning": "【てのはやい】手快的〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "身が入る": {
+  "reading": "みがはいる",
+  "meaning": "【みがはいる】全身心投入〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "屁の河童": {
+  "reading": "へのかっぱ",
+  "meaning": "【へのかっぱ】易如反掌；小菜一碟〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "船を漕ぐ": {
+  "reading": "ふねをこぐ",
+  "meaning": "【ふねをこぐ】打瞌睡（坐着点头）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "足が早い": {
+  "reading": "あしがはやい",
+  "meaning": "【あしがはやい】易坏；传得快；走货快〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "火の用心": {
+  "reading": "ひのようじん",
+  "meaning": "【ひのようじん】小心火烛〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "後が無い": {
+  "reading": "あとがない",
+  "meaning": "【あとがない】背水一战；没有退路〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "猫に鰹節": {
+  "reading": "ねこにかつおぶし",
+  "meaning": "【ねこにかつおぶし】猫守鱼干；难抵诱惑〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "卑下自慢": {
+  "reading": "ひげじまん",
+  "meaning": "【ひげじまん】以谦自夸〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "膝が笑う": {
+  "reading": "ひざがわらう",
+  "meaning": "【ひざがわらう】腿软发抖〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "裏がある": {
+  "reading": "うらがある",
+  "meaning": "【うらがある】另有内情；有猫腻〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "埒があく": {
+  "reading": "らちがあく",
+  "meaning": "【らちがあく】有着落；收场〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "肩が張る": {
+  "reading": "かたがはる",
+  "meaning": "【かたがはる】肩膀紧绷；拘束〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "山を張る": {
+  "reading": "やまをはる",
+  "meaning": "【やまをはる】押宝；赌一把〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "舵を切る": {
+  "reading": "かじをきる",
+  "meaning": "【かじをきる】调转方向；改弦更张〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "覚えてろ": {
+  "reading": "おぼえてろ",
+  "meaning": "【おぼえてろ】你给我记住！〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "心が躍る": {
+  "reading": "こころがおどる",
+  "meaning": "【こころがおどる】心潮澎湃〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "離婁の明": {
+  "reading": "りろうのめい",
+  "meaning": "【りろうのめい】离娄之明；目光如炬〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "鍵を握る": {
+  "reading": "かぎをにぎる",
+  "meaning": "【かぎをにぎる】握有钥匙；起决定作用〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "壁立千仞": {
+  "reading": "へきりつせんじん",
+  "meaning": "【へきりつせんじん】壁立千仞；绝壁高耸〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "目の正月": {
+  "reading": "めのしょうがつ",
+  "meaning": "【めのしょうがつ】大饱眼福〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "最後っ屁": {
+  "reading": "さいごっぺ",
+  "meaning": "【さいごっぺ】最后的绝招；回光返照〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "油を注ぐ": {
+  "reading": "あぶらをそそぐ",
+  "meaning": "【あぶらをそそぐ】火上浇油〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手が利く": {
+  "reading": "てがきく",
+  "meaning": "【てがきく】能干；会使唤〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "風の便り": {
+  "reading": "かぜのたより",
+  "meaning": "【かぜのたより】风闻；辗转的消息〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手が出る": {
+  "reading": "てがでる",
+  "meaning": "【てがでる】伸手；忍不住出手〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "皮を被る": {
+  "reading": "かわをかぶる",
+  "meaning": "【かわをかぶる】披着羊皮；伪装〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "間に立つ": {
+  "reading": "あいだにたつ",
+  "meaning": "【あいだにたつ】居中调停〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "糟を食う": {
+  "reading": "かすをくう",
+  "meaning": "【かすをくう】吃酒糟；（挨骂）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "豆腐に鎹": {
+  "reading": "とうふにかすがい",
+  "meaning": "【とうふにかすがい】豆腐上打钉；毫无作用〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "股を開く": {
+  "reading": "またをひらく",
+  "meaning": "【またをひらく】松口；让步屈从〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "殻を破る": {
+  "reading": "からをやぶる",
+  "meaning": "【からをやぶる】破茧而出〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手が悪い": {
+  "reading": "てがわるい",
+  "meaning": "【てがわるい】手气差；牌不好〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "脛を齧る": {
+  "reading": "すねをかじる",
+  "meaning": "【すねをかじる】啃老；靠人养活〈惯〉",
+  "level": "idiom",
+  "need": 2
+ }
+}

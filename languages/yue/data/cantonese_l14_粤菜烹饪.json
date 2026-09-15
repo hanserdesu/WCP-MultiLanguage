@@ -1,0 +1,135 @@
+{
+  "level": "L14",
+  "name": "粤菜烹饪技艺与风味口感",
+  "description": "涵盖广府烹饪核心动词（煲、炖、蒸、炒、焗、灼）与味觉体验",
+  "words": [
+    {
+      "word": "煲",
+      "jyutping": "bou1",
+      "pos": "动/名",
+      "meaning": "煲，煮（用锅慢熬）；砂锅",
+      "sentences": [
+        {
+          "sentence": "煲返煲好湯畀屋企人飲。（bou1 faan1 bou1 hou2 tong1 bei2 uk1 kei2 jan4 jam2.）",
+          "translate": "煲一锅好靓汤给家里人喝。"
+        },
+        {
+          "sentence": "砂煲煲飯特別香。（saa1 bou1 bou1 faan6 dak6 bit6 hoeng1.）",
+          "translate": "砂锅煲饭特别香。"
+        }
+      ]
+    },
+    {
+      "word": "燉",
+      "jyutping": "dan6",
+      "pos": "动",
+      "meaning": "隔水炖（保持原汁原味的烹饪法）",
+      "sentences": [
+        {
+          "sentence": "燉盅燉湯原汁原味。（dan6 zung1 dan6 tong1 jyun4 zap1 jyun4 mei6.）",
+          "translate": "用炖盅隔水炖汤原汁原味。"
+        },
+        {
+          "sentence": "花膠燉雞補身好正。（faa1 gaau1 dan6 gai1 bou2 san1 hou2 zeng3.）",
+          "translate": "花胶炖鸡滋补身体太棒了。"
+        }
+      ]
+    },
+    {
+      "word": "蒸",
+      "jyutping": "zing1",
+      "pos": "动",
+      "meaning": "清蒸（粤菜讲究清鲜脆嫩的核心手法）",
+      "sentences": [
+        {
+          "sentence": "清蒸石斑魚火候啱啱好。（cing1 zing1 sek6 baan1 jyu4 fo2 hau6 ngaam1 ngaam1 hou2.）",
+          "translate": "清蒸石斑鱼火候掌握得刚刚好。"
+        },
+        {
+          "sentence": "水滾先落鑊蒸魚。（seoi2 gwan2 sin1 lok6 wok6 zing1 jyu4.）",
+          "translate": "水沸腾了再下锅蒸鱼。"
+        }
+      ]
+    },
+    {
+      "word": "灼",
+      "jyutping": "coek3",
+      "pos": "动",
+      "meaning": "白灼（沸水烫熟以保持食材鲜甜嫩滑）",
+      "sentences": [
+        {
+          "sentence": "白灼菜心好清甜爽脆。（baak6 coek3 coi3 sam1 hou2 cing1 tim4 song2 ceoi3.）",
+          "translate": "白灼菜心非常清甜脆爽。"
+        },
+        {
+          "sentence": "白灼海蝦最能食出原味。（baak6 coek3 hoi2 haa1 zeoi3 nang4 sik6 ceot1 jyun4 mei6.）",
+          "translate": "白灼海虾最能品尝出本味鲜美。"
+        }
+      ]
+    },
+    {
+      "word": "焗",
+      "jyutping": "guk6",
+      "pos": "动",
+      "meaning": "焗，烘焙（利用密封蒸汽或烤炉加热）",
+      "sentences": [
+        {
+          "sentence": "鮮茄焗豬扒飯係茶餐廳名菜。（sin1 ke2 guk6 zyu1 paa4 faan6 hai6 caa4 caan1 teng1 meng4 coi3.）",
+          "translate": "鲜茄焗猪排饭是茶餐厅名菜。"
+        },
+        {
+          "sentence": "鹽焗雞皮脆肉嫩，鹹香四溢。（jim4 guk6 gai1 pei4 ceoi3 juk6 nyun3, haam4 hoeng1 sei3 jat6.）",
+          "translate": "盐焗鸡皮脆肉嫩，咸香四溢。"
+        }
+      ]
+    },
+    {
+      "word": "鑊氣",
+      "jyutping": "wok6 hei3",
+      "pos": "名",
+      "meaning": "锅气（高温烈火炒菜产生的独特香气）",
+      "sentences": [
+        {
+          "sentence": "呢碟牛柳鑊氣十足，超好味！（ni1 dip6 ngau4 lau5 wok6 hei3 sap6 zuk1, ciu1 hou2 mei6!）",
+          "translate": "这盘牛柳锅气十足，超级美味！"
+        },
+        {
+          "sentence": "大排檔炒餸最有鑊氣。（daai6 paai4 dong3 caau2 sung3 zeoi3 jau5 wok6 hei3.）",
+          "translate": "大排档炒菜最有独特的锅气。"
+        }
+      ]
+    },
+    {
+      "word": "爽脆",
+      "jyutping": "song2 ceoi3",
+      "pos": "形",
+      "meaning": "爽口脆嫩，口感鲜脆",
+      "sentences": [
+        {
+          "sentence": "啲蝦仁好爽脆彈牙。（di1 haa1 jan4 hou2 song2 ceoi3 daan6 ngaa4.）",
+          "translate": "那些虾仁非常爽脆Q弹。"
+        },
+        {
+          "sentence": "涼拌黃瓜好爽脆。（loeng4 bun6 wong4 gwaa1 hou2 song2 ceoi3.）",
+          "translate": "凉拌黄瓜很爽脆解腻。"
+        }
+      ]
+    },
+    {
+      "word": "入味",
+      "jyutping": "jap6 mei6",
+      "pos": "形",
+      "meaning": "入味，调味充分渗透",
+      "sentences": [
+        {
+          "sentence": "燜牛腩燜得好入味。（mun6 ngau4 naam5 mun6 dak1 hou2 jap6 mei6.）",
+          "translate": "炖牛腩炖得非常入味可口。"
+        },
+        {
+          "sentence": "醃返半個鐘等啲雞肉入味。（jip3 faan1 bun3 go3 zung1 dang2 di1 gai1 juk6 jap6 mei6.）",
+          "translate": "腌制半小时让鸡肉充分入味。"
+        }
+      ]
+    }
+  ]
+}

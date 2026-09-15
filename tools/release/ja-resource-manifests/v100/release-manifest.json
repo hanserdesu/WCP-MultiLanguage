@@ -1,0 +1,21 @@
+{
+  "version": "wcp-jp-resources-v1.0.0",
+  "built": "2026-09-13 13:00:14",
+  "base_urls": [
+    "https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.0.0"
+  ],
+  "assets": [
+    {
+      "kind": "word_audio",
+      "name": "wcp-japanese-audio-words.zip",
+      "size": 394614754,
+      "sha256": "b4f63bcf2e01c67c6ebeb34bdabd1b46b86576077c14517ab08e68c833b0f5ea"
+    },
+    {
+      "kind": "sentence_audio",
+      "name": "wcp-japanese-audio-sentences.zip",
+      "size": 2057214618,
+      "sha256": "f87fdcd117506a339226d26751968fec9bc028d4860827886cb90994827b5dd2"
+    }
+  ]
+}

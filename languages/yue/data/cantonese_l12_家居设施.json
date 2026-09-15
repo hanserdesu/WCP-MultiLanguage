@@ -1,0 +1,167 @@
+{
+  "level": "L12",
+  "name": "家居设施与日常用品",
+  "description": "涵盖现代家庭家具家电、厨卫设施与日常生活必需品",
+  "words": [
+    {
+      "word": "梳化",
+      "jyutping": "so1 faa2",
+      "pos": "名",
+      "meaning": "沙发",
+      "sentences": [
+        {
+          "sentence": "張真皮梳化坐得好舒服。（zoeng1 zan1 pei4 so1 faa2 co5 dak1 hou2 syu1 fuk6.）",
+          "translate": "那张真皮沙发坐着很舒服。"
+        },
+        {
+          "sentence": "放工返屋企攤喺梳化睇電視。（fong3 gung1 faan1 uk1 kei2 taan1 hai2 so1 faa2 tai2 din6 si6.）",
+          "translate": "下班回家瘫在沙发上看电视。"
+        }
+      ]
+    },
+    {
+      "word": "茶几",
+      "jyutping": "caa4 gei1",
+      "pos": "名",
+      "meaning": "茶几",
+      "sentences": [
+        {
+          "sentence": "個茶几上面放咗幾盆鮮花。（go3 caa4 gei1 soeng6 min6 fong3 zo2 gei2 pun4 sin1 faa1.）",
+          "translate": "茶几上面摆了几盆鲜花。"
+        },
+        {
+          "sentence": "小心唔好撞到茶几角。（siu2 sam1 m4 hou2 zong6 dou2 caa4 gei1 gok3.）",
+          "translate": "小心别撞到茶几角。"
+        }
+      ]
+    },
+    {
+      "word": "衣櫃",
+      "jyutping": "ji1 gwai6",
+      "pos": "名",
+      "meaning": "衣柜",
+      "sentences": [
+        {
+          "sentence": "把洗乾淨嘅衫放返入衣櫃。（baa2 sai2 gon1 zeng6 ge3 saam1 fong3 faan1 jap6 ji1 gwai6.）",
+          "translate": "把洗干净的衣服放回衣柜里。"
+        },
+        {
+          "sentence": "衣櫃入面好多衫。（ji1 gwai6 jap6 min6 hou2 do1 saam1.）",
+          "translate": "衣柜里面有很多衣服。"
+        }
+      ]
+    },
+    {
+      "word": "風筒",
+      "jyutping": "fung1 tung2",
+      "pos": "名",
+      "meaning": "吹风机，电吹风",
+      "sentences": [
+        {
+          "sentence": "沖完涼用風筒吹乾頭髮。（cung1 jyun4 loeng4 jung6 fung1 tung2 ceoi1 gon1 tau4 faat3.）",
+          "translate": "洗完澡用吹风机吹干头发。"
+        },
+        {
+          "sentence": "呢個風筒風力好大。（ni1 go3 fung1 tung2 fung1 lik6 hou2 daai6.）",
+          "translate": "这个吹风机风力很大。"
+        }
+      ]
+    },
+    {
+      "word": "花灑",
+      "jyutping": "faa1 saa2",
+      "pos": "名",
+      "meaning": "花洒，淋浴喷头",
+      "sentences": [
+        {
+          "sentence": "浴室嘅花灑水壓好足。（juk6 sat1 ge3 faa1 saa2 seoi2 aat3 hou2 zuk1.）",
+          "translate": "浴室的花洒水压很充足。"
+        },
+        {
+          "sentence": "換個新花灑沖涼更爽。（wun6 go3 san1 faa1 saa2 cung1 loeng4 gang3 song2.）",
+          "translate": "换个新花洒洗澡更畅快。"
+        }
+      ]
+    },
+    {
+      "word": "電掣",
+      "jyutping": "din6 zai3",
+      "pos": "名",
+      "meaning": "开关，电源插座",
+      "sentences": [
+        {
+          "sentence": "臨出門記得熄晒所有電掣。（lam4 ceot1 mun4 gei3 dak1 sik1 saai3 so2 jau5 din6 zai3.）",
+          "translate": "出门前记得关掉所有电源开关。"
+        },
+        {
+          "sentence": "呢個電掣插座鬆咗。（ni1 go3 din6 zai3 caap3 zo6 sung1 zo2.）",
+          "translate": "这个电源插座松动了。"
+        }
+      ]
+    },
+    {
+      "word": "拖板",
+      "jyutping": "to1 baan2",
+      "pos": "名",
+      "meaning": "接线板，插线板，排插",
+      "sentences": [
+        {
+          "sentence": "插頭唔夠用，買個多功能拖板。（caap3 tau4 m4 gau3 jung6, maai5 go3 do1 gung1 nang4 to1 baan2.）",
+          "translate": "插头不够用，买个多功能接线板。"
+        },
+        {
+          "sentence": "唔好喺同一個拖板插太多大功率電器。（m4 hou2 hai2 tung4 jat1 go3 to1 baan2 caap3 taai3 do1 daai6 gung1 lik6 din6 hei3.）",
+          "translate": "不要在同一个接线板插太多大功率电器。"
+        }
+      ]
+    },
+    {
+      "word": "膠袋",
+      "jyutping": "gaau1 doi2",
+      "pos": "名",
+      "meaning": "塑料袋",
+      "sentences": [
+        {
+          "sentence": "去超市買嘢記得自備環保袋，少用膠袋。（heoi3 ciu1 si5 maai5 je5 gei3 dak1 zi6 bei6 waan4 bou2 doi2, siu2 jung6 gaau1 doi2.）",
+          "translate": "去超市买东西记得自备环保袋，少用塑料袋。"
+        },
+        {
+          "sentence": "攞個膠袋裝住啲垃圾。（lo2 go3 gaau1 doi2 zong1 zyu6 di1 laap6 saap3.）",
+          "translate": "拿个塑料袋装着垃圾。"
+        }
+      ]
+    },
+    {
+      "word": "紙巾",
+      "jyutping": "zi2 gan1",
+      "pos": "名",
+      "meaning": "纸巾，餐巾纸",
+      "sentences": [
+        {
+          "sentence": "借張紙巾抹下手唔該。（ze3 zoeng1 zi2 gan1 maat3 haa5 sau2 m4 goi1.）",
+          "translate": "借张纸巾擦一下手麻烦。"
+        },
+        {
+          "sentence": "隨身帶包紙巾好方便。（ceoi4 san1 daai3 baau1 zi2 gan1 hou2 fong1 bin6.）",
+          "translate": "随身带包纸巾很方便。"
+        }
+      ]
+    },
+    {
+      "word": "番梘",
+      "jyutping": "faan1 gaan2",
+      "pos": "名",
+      "meaning": "肥皂，香皂",
+      "sentences": [
+        {
+          "sentence": "用番梘洗手洗得好乾淨。（jung6 faan1 gaan2 sai2 sau2 sai2 dak1 hou2 gon1 zeng6.）",
+          "translate": "用肥皂洗手洗得非常干净。"
+        },
+        {
+          "sentence": "呢塊手工番梘有淡淡花香。（ni1 faai3 sau2 gung1 faan1 gaan2 jau5 daam6 daam6 faa1 hoeng1.）",
+          "translate": "这块手工皂有淡淡的花香。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "wcp-yue-resources-v1.0.0",
+  "built": "2026-09-15 10:09:32",
+  "base_urls": [
+    "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-yue-resources-v1.0.0"
+  ],
+  "assets": [
+    {
+      "kind": "word_audio",
+      "name": "wcp-cantonese-audio-words.zip",
+      "size": 3691400,
+      "sha256": "8eeb8554f0c3431184ff229b575e06cad25dc89f9414eb84e12abc5f3ab31c04"
+    },
+    {
+      "kind": "sentence_audio",
+      "name": "wcp-cantonese-audio-sentences.zip",
+      "size": 16458686,
+      "sha256": "49909a42df30128f5b00e6793c5267cbe1cbd14f83ae881765e4a77a11b3ba21"
+    }
+  ]
+}

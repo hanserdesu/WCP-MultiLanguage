@@ -1,0 +1,602 @@
+[
+{
+"word": "castor",
+"pos": "n.m.",
+"zh": "河狸；海狸",
+"level": "a2"
+},
+{
+"word": "catastrophe",
+"pos": "n.f.",
+"zh": "灾难",
+"level": "a2"
+},
+{
+"word": "cathédrale",
+"pos": "n.f.",
+"zh": "大教堂",
+"level": "a2"
+},
+{
+"word": "catégorie",
+"pos": "n.f.",
+"zh": "类别；范畴；种类",
+"level": "a2"
+},
+{
+"word": "cauchemar",
+"pos": "n.m.",
+"zh": "噩梦",
+"level": "a2"
+},
+{
+"word": "cause",
+"pos": "n.f.",
+"zh": "原因；理由",
+"level": "a2"
+},
+{
+"word": "ceci",
+"pos": "pron.",
+"zh": "这个；这件事",
+"level": "a2"
+},
+{
+"word": "ceinture",
+"pos": "n.f.",
+"zh": "腰带；安全带",
+"level": "a2"
+},
+{
+"word": "celle",
+"pos": "pron.",
+"zh": "那个（阴性）",
+"level": "a2"
+},
+{
+"word": "celle-ci",
+"pos": "pron.",
+"zh": "这个（阴性）",
+"level": "a2"
+},
+{
+"word": "celle-là",
+"pos": "pron.",
+"zh": "那个（阴性）",
+"level": "a2"
+},
+{
+"word": "celles",
+"pos": "pron.",
+"zh": "那些（阴性复数）",
+"level": "a2"
+},
+{
+"word": "celles-là",
+"pos": "pron.",
+"zh": "那些（阴性）",
+"level": "a2"
+},
+{
+"word": "celui",
+"pos": "pron.",
+"zh": "那个（人/物）",
+"level": "a2"
+},
+{
+"word": "celui-ci",
+"pos": "pron.",
+"zh": "这个；此人",
+"level": "a2"
+},
+{
+"word": "celui-là",
+"pos": "pron.",
+"zh": "那个；那位",
+"level": "a2"
+},
+{
+"word": "cendrier",
+"pos": "n.m.",
+"zh": "烟灰缸",
+"level": "a2"
+},
+{
+"word": "centime",
+"pos": "n.m.",
+"zh": "分（货币单位）",
+"level": "a2"
+},
+{
+"word": "centre",
+"pos": "n.m.",
+"zh": "中心；中央",
+"level": "a2"
+},
+{
+"word": "cercle",
+"pos": "n.m.",
+"zh": "圆；圈子",
+"level": "a2"
+},
+{
+"word": "cerf",
+"pos": "n.m.",
+"zh": "鹿",
+"level": "a2"
+},
+{
+"word": "cerise",
+"pos": "n.f.",
+"zh": "樱桃",
+"level": "a2"
+},
+{
+"word": "certain",
+"pos": "adj.",
+"zh": "确定的；某个",
+"level": "a2"
+},
+{
+"word": "certainement",
+"pos": "adv.",
+"zh": "肯定；必定",
+"level": "a2"
+},
+{
+"word": "certains",
+"pos": "adj.",
+"zh": "某些；有些人",
+"level": "a2"
+},
+{
+"word": "ceux",
+"pos": "pron.",
+"zh": "那些（人/物）",
+"level": "a2"
+},
+{
+"word": "ceux-là",
+"pos": "pron.",
+"zh": "那些",
+"level": "a2"
+},
+{
+"word": "chacun",
+"pos": "pron.",
+"zh": "每个人；各自",
+"level": "a2"
+},
+{
+"word": "chaleur",
+"pos": "n.f.",
+"zh": "热；炎热",
+"level": "a2"
+},
+{
+"word": "chameau",
+"pos": "n.m.",
+"zh": "骆驼",
+"level": "a2"
+},
+{
+"word": "champ",
+"pos": "n.m.",
+"zh": "田地；领域",
+"level": "a2"
+},
+{
+"word": "champagne",
+"pos": "n.m.",
+"zh": "香槟酒",
+"level": "a2"
+},
+{
+"word": "champignon",
+"pos": "n.m.",
+"zh": "蘑菇",
+"level": "a2"
+},
+{
+"word": "champion",
+"pos": "n.m.",
+"zh": "冠军",
+"level": "a2"
+},
+{
+"word": "championnat",
+"pos": "n.m.",
+"zh": "锦标赛；联赛",
+"level": "a2"
+},
+{
+"word": "changement",
+"pos": "n.m.",
+"zh": "变化；改变",
+"level": "a2"
+},
+{
+"word": "chanson",
+"pos": "n.f.",
+"zh": "歌曲；歌",
+"level": "a2"
+},
+{
+"word": "chant",
+"pos": "n.m.",
+"zh": "歌唱；歌声",
+"level": "a2"
+},
+{
+"word": "chapeau",
+"pos": "n.m.",
+"zh": "帽子",
+"level": "a2"
+},
+{
+"word": "chapelle",
+"pos": "n.f.",
+"zh": "小教堂",
+"level": "a2"
+},
+{
+"word": "chapitre",
+"pos": "n.m.",
+"zh": "章；章节",
+"level": "a2"
+},
+{
+"word": "chargeur",
+"pos": "n.m.",
+"zh": "充电器；弹匣",
+"level": "a2"
+},
+{
+"word": "charmant",
+"pos": "adj.",
+"zh": "迷人的；可爱的",
+"level": "a2"
+},
+{
+"word": "charme",
+"pos": "n.m.",
+"zh": "魅力；魔力",
+"level": "a2"
+},
+{
+"word": "chasse",
+"pos": "n.f.",
+"zh": "打猎；狩猎",
+"level": "a2"
+},
+{
+"word": "chasseur",
+"pos": "n.m.",
+"zh": "猎人",
+"level": "a2"
+},
+{
+"word": "chaton",
+"pos": "n.m.",
+"zh": "小猫",
+"level": "a2"
+},
+{
+"word": "chatouiller",
+"pos": "v.",
+"zh": "挠痒；胳肢",
+"level": "a2"
+},
+{
+"word": "chauffage",
+"pos": "n.m.",
+"zh": "暖气；供暖",
+"level": "a2"
+},
+{
+"word": "chauffer",
+"pos": "v.",
+"zh": "加热；取暖",
+"level": "a2"
+},
+{
+"word": "chauffeur",
+"pos": "n.m.",
+"zh": "司机",
+"level": "a2"
+},
+{
+"word": "chausson",
+"pos": "n.m.",
+"zh": "软底鞋；拖鞋",
+"level": "a2"
+},
+{
+"word": "chauve-souris",
+"pos": "n.f.",
+"zh": "蝙蝠",
+"level": "a2"
+},
+{
+"word": "chaîne",
+"pos": "n.f.",
+"zh": "链条；频道",
+"level": "a2"
+},
+{
+"word": "chef",
+"pos": "n.",
+"zh": "首领；上司；主厨",
+"level": "a2"
+},
+{
+"word": "cheminée",
+"pos": "n.f.",
+"zh": "烟囱；壁炉",
+"level": "a2"
+},
+{
+"word": "chemise",
+"pos": "n.f.",
+"zh": "衬衫",
+"level": "a2"
+},
+{
+"word": "chemisier",
+"pos": "n.m.",
+"zh": "女式衬衫",
+"level": "a2"
+},
+{
+"word": "chenille",
+"pos": "n.f.",
+"zh": "毛虫；履带",
+"level": "a2"
+},
+{
+"word": "chic",
+"pos": "adj.",
+"zh": "时髦的；雅致的",
+"level": "a2"
+},
+{
+"word": "chiffre",
+"pos": "n.m.",
+"zh": "数字；数额",
+"level": "a2"
+},
+{
+"word": "chimie",
+"pos": "n.f.",
+"zh": "化学",
+"level": "a2"
+},
+{
+"word": "chimpanzé",
+"pos": "n.m.",
+"zh": "黑猩猩",
+"level": "a2"
+},
+{
+"word": "chip",
+"pos": "n.",
+"zh": "薯片；芯片",
+"level": "a2"
+},
+{
+"word": "chips",
+"pos": "n.",
+"zh": "薯片",
+"level": "a2"
+},
+{
+"word": "chirurgien",
+"pos": "n.m.",
+"zh": "外科医生",
+"level": "a2"
+},
+{
+"word": "choc",
+"pos": "n.m.",
+"zh": "撞击；震惊",
+"level": "a2"
+},
+{
+"word": "choix",
+"pos": "n.m.",
+"zh": "选择",
+"level": "a2"
+},
+{
+"word": "choqué",
+"pos": "adj.",
+"zh": "震惊的；被冒犯的",
+"level": "a2"
+},
+{
+"word": "chou",
+"pos": "n.m.",
+"zh": "卷心菜；宝贝（爱称）",
+"level": "a2"
+},
+{
+"word": "chouette",
+"pos": "adj.",
+"zh": "漂亮的；好极了（口语）",
+"level": "a2"
+},
+{
+"word": "château",
+"pos": "n.m.",
+"zh": "城堡",
+"level": "a2"
+},
+{
+"word": "chèque",
+"pos": "n.m.",
+"zh": "支票",
+"level": "a2"
+},
+{
+"word": "chèvre",
+"pos": "n.f.",
+"zh": "山羊",
+"level": "a2"
+},
+{
+"word": "chéri",
+"pos": "n.",
+"zh": "亲爱的；爱人",
+"level": "a2"
+},
+{
+"word": "chômeur",
+"pos": "n.m.",
+"zh": "失业者",
+"level": "a2"
+},
+{
+"word": "ci",
+"pos": "adv.",
+"zh": "此；这里（用于复合词）",
+"level": "a2"
+},
+{
+"word": "cigare",
+"pos": "n.m.",
+"zh": "雪茄",
+"level": "a2"
+},
+{
+"word": "cigarette",
+"pos": "n.f.",
+"zh": "香烟",
+"level": "a2"
+},
+{
+"word": "cil",
+"pos": "n.m.",
+"zh": "睫毛",
+"level": "a2"
+},
+{
+"word": "cimetière",
+"pos": "n.m.",
+"zh": "墓地；公墓",
+"level": "a2"
+},
+{
+"word": "ciné",
+"pos": "n.m.",
+"zh": "电影院；电影（口语）",
+"level": "a2"
+},
+{
+"word": "circulation",
+"pos": "n.f.",
+"zh": "交通；流通",
+"level": "a2"
+},
+{
+"word": "cirque",
+"pos": "n.m.",
+"zh": "马戏团",
+"level": "a2"
+},
+{
+"word": "clair",
+"pos": "adj.",
+"zh": "明亮的；浅色的；清楚的",
+"level": "a2"
+},
+{
+"word": "clairement",
+"pos": "adv.",
+"zh": "清楚地",
+"level": "a2"
+},
+{
+"word": "classique",
+"pos": "adj.",
+"zh": "古典的；经典的",
+"level": "a2"
+},
+{
+"word": "client",
+"pos": "n.m.",
+"zh": "顾客；客户",
+"level": "a2"
+},
+{
+"word": "climat",
+"pos": "n.m.",
+"zh": "气候；气氛",
+"level": "a2"
+},
+{
+"word": "clinique",
+"pos": "n.f.",
+"zh": "诊所；临床的",
+"level": "a2"
+},
+{
+"word": "cloche",
+"pos": "n.f.",
+"zh": "钟；铃",
+"level": "a2"
+},
+{
+"word": "clochette",
+"pos": "n.f.",
+"zh": "小铃铛",
+"level": "a2"
+},
+{
+"word": "clou",
+"pos": "n.m.",
+"zh": "钉子",
+"level": "a2"
+},
+{
+"word": "club",
+"pos": "n.m.",
+"zh": "俱乐部",
+"level": "a2"
+},
+{
+"word": "clé",
+"pos": "n.f.",
+"zh": "钥匙；关键",
+"level": "a2"
+},
+{
+"word": "coach",
+"pos": "n.m.",
+"zh": "教练；辅导老师",
+"level": "a2"
+},
+{
+"word": "coca",
+"pos": "n.",
+"zh": "可乐；古柯",
+"level": "a2"
+},
+{
+"word": "cochon",
+"pos": "n.m.",
+"zh": "猪；肮脏的人（骂）",
+"level": "a2"
+},
+{
+"word": "cocotte",
+"pos": "n.f.",
+"zh": "母鸡（儿语）；炖锅",
+"level": "a2"
+},
+{
+"word": "code",
+"pos": "n.m.",
+"zh": "密码；代码；法规",
+"level": "a2"
+}
+]

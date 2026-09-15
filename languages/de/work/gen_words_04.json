@@ -1,0 +1,602 @@
+[
+{
+"word": "Freude",
+"pos": "n.f.",
+"zh": "快乐",
+"level": "a1"
+},
+{
+"word": "Schwein",
+"pos": "n.",
+"zh": "猪",
+"level": "a1"
+},
+{
+"word": "stopp",
+"pos": "interj.",
+"zh": "停",
+"level": "a1"
+},
+{
+"word": "Adresse",
+"pos": "n.f.",
+"zh": "地址",
+"level": "a1"
+},
+{
+"word": "Messer",
+"pos": "n.",
+"zh": "刀",
+"level": "a1"
+},
+{
+"word": "gesund",
+"pos": "adj.",
+"zh": "健康的",
+"level": "a1"
+},
+{
+"word": "Ball",
+"pos": "n.m.",
+"zh": "球",
+"level": "a1"
+},
+{
+"word": "Eis",
+"pos": "n.",
+"zh": "冰",
+"level": "a1"
+},
+{
+"word": "danken",
+"pos": "v.",
+"zh": "感谢",
+"level": "a1"
+},
+{
+"word": "Wochenende",
+"pos": "n.",
+"zh": "周末",
+"level": "a1"
+},
+{
+"word": "Bein",
+"pos": "n.",
+"zh": "腿",
+"level": "a1"
+},
+{
+"word": "Lied",
+"pos": "n.",
+"zh": "歌曲",
+"level": "a1"
+},
+{
+"word": "Ei",
+"pos": "n.",
+"zh": "蛋",
+"level": "a1"
+},
+{
+"word": "einverstanden",
+"pos": "adj.",
+"zh": "同意",
+"level": "a1"
+},
+{
+"word": "halb",
+"pos": "adj.",
+"zh": "一半",
+"level": "a1"
+},
+{
+"word": "Tier",
+"pos": "n.",
+"zh": "动物",
+"level": "a1"
+},
+{
+"word": "Park",
+"pos": "n.m.",
+"zh": "公园",
+"level": "a1"
+},
+{
+"word": "Fleisch",
+"pos": "n.",
+"zh": "肉",
+"level": "a1"
+},
+{
+"word": "Zeitung",
+"pos": "n.f.",
+"zh": "报纸",
+"level": "a1"
+},
+{
+"word": "Taxi",
+"pos": "n.",
+"zh": "出租车",
+"level": "a1"
+},
+{
+"word": "Wand",
+"pos": "n.f.",
+"zh": "墙",
+"level": "a1"
+},
+{
+"word": "Bus",
+"pos": "n.m.",
+"zh": "公交车",
+"level": "a1"
+},
+{
+"word": "Polizist",
+"pos": "n.m.",
+"zh": "警察",
+"level": "a1"
+},
+{
+"word": "Blume",
+"pos": "n.f.",
+"zh": "花",
+"level": "a1"
+},
+{
+"word": "Flasche",
+"pos": "n.f.",
+"zh": "瓶子",
+"level": "a1"
+},
+{
+"word": "Meer",
+"pos": "n.",
+"zh": "海",
+"level": "a1"
+},
+{
+"word": "Maschine",
+"pos": "n.f.",
+"zh": "机器",
+"level": "a1"
+},
+{
+"word": "Frühstück",
+"pos": "n.",
+"zh": "早餐",
+"level": "a1"
+},
+{
+"word": "aufpassen",
+"pos": "v.",
+"zh": "注意；小心",
+"level": "a1"
+},
+{
+"word": "Ohr",
+"pos": "n.",
+"zh": "耳朵",
+"level": "a1"
+},
+{
+"word": "Oma",
+"pos": "n.f.",
+"zh": "奶奶",
+"level": "a1"
+},
+{
+"word": "leer",
+"pos": "adj.",
+"zh": "空的",
+"level": "a1"
+},
+{
+"word": "Hut",
+"pos": "n.m.",
+"zh": "帽子",
+"level": "a1"
+},
+{
+"word": "lächeln",
+"pos": "v.",
+"zh": "微笑",
+"level": "a1"
+},
+{
+"word": "mitkommen",
+"pos": "v.",
+"zh": "同去",
+"level": "a1"
+},
+{
+"word": "schwarz",
+"pos": "adj.",
+"zh": "黑色的",
+"level": "a1"
+},
+{
+"word": "Urlaub",
+"pos": "n.m.",
+"zh": "假期",
+"level": "a1"
+},
+{
+"word": "Baum",
+"pos": "n.m.",
+"zh": "树",
+"level": "a1"
+},
+{
+"word": "Lehrer",
+"pos": "n.m.",
+"zh": "老师",
+"level": "a1"
+},
+{
+"word": "Nachmittag",
+"pos": "n.m.",
+"zh": "下午",
+"level": "a1"
+},
+{
+"word": "Fräulein",
+"pos": "n.",
+"zh": "小姐",
+"level": "a1"
+},
+{
+"word": "Katze",
+"pos": "n.f.",
+"zh": "猫",
+"level": "a1"
+},
+{
+"word": "deutsche",
+"pos": "adj.",
+"zh": "德国的",
+"level": "a1"
+},
+{
+"word": "Großvater",
+"pos": "n.m.",
+"zh": "祖父",
+"level": "a1"
+},
+{
+"word": "Sommer",
+"pos": "n.m.",
+"zh": "夏天",
+"level": "a1"
+},
+{
+"word": "Stein",
+"pos": "n.m.",
+"zh": "石头",
+"level": "a1"
+},
+{
+"word": "Hose",
+"pos": "n.f.",
+"zh": "裤子",
+"level": "a1"
+},
+{
+"word": "Restaurant",
+"pos": "n.",
+"zh": "餐厅",
+"level": "a1"
+},
+{
+"word": "küssen",
+"pos": "v.",
+"zh": "吻",
+"level": "a1"
+},
+{
+"word": "Bad",
+"pos": "n.",
+"zh": "浴室；洗澡",
+"level": "a1"
+},
+{
+"word": "morgens",
+"pos": "adv.",
+"zh": "每天早上",
+"level": "a1"
+},
+{
+"word": "Fisch",
+"pos": "n.m.",
+"zh": "鱼",
+"level": "a1"
+},
+{
+"word": "Kuchen",
+"pos": "n.m.",
+"zh": "蛋糕",
+"level": "a1"
+},
+{
+"word": "Farbe",
+"pos": "n.f.",
+"zh": "颜色",
+"level": "a1"
+},
+{
+"word": "Garten",
+"pos": "n.m.",
+"zh": "花园",
+"level": "a1"
+},
+{
+"word": "England",
+"pos": "n.",
+"zh": "英国",
+"level": "a1"
+},
+{
+"word": "Amerikaner",
+"pos": "n.m.",
+"zh": "美国人",
+"level": "a1"
+},
+{
+"word": "langweilig",
+"pos": "adj.",
+"zh": "无聊的",
+"level": "a1"
+},
+{
+"word": "nachher",
+"pos": "adv.",
+"zh": "之后",
+"level": "a1"
+},
+{
+"word": "rot",
+"pos": "adj.",
+"zh": "红色的",
+"level": "a1"
+},
+{
+"word": "Frankreich",
+"pos": "n.",
+"zh": "法国",
+"level": "a1"
+},
+{
+"word": "Radio",
+"pos": "n.",
+"zh": "收音机",
+"level": "a1"
+},
+{
+"word": "Test",
+"pos": "n.m.",
+"zh": "测试",
+"level": "a1"
+},
+{
+"word": "Großmutter",
+"pos": "n.f.",
+"zh": "祖母",
+"level": "a1"
+},
+{
+"word": "Sprache",
+"pos": "n.f.",
+"zh": "语言",
+"level": "a1"
+},
+{
+"word": "Kuss",
+"pos": "n.m.",
+"zh": "吻",
+"level": "a1"
+},
+{
+"word": "Video",
+"pos": "n.",
+"zh": "视频",
+"level": "a1"
+},
+{
+"word": "Opa",
+"pos": "n.m.",
+"zh": "爷爷",
+"level": "a1"
+},
+{
+"word": "aufstehen",
+"pos": "v.",
+"zh": "起床；站起来",
+"level": "a1"
+},
+{
+"word": "Milch",
+"pos": "n.f.",
+"zh": "牛奶",
+"level": "a1"
+},
+{
+"word": "kochen",
+"pos": "v.",
+"zh": "煮",
+"level": "a1"
+},
+{
+"word": "kennenlernen",
+"pos": "v.",
+"zh": "认识",
+"level": "a1"
+},
+{
+"word": "Mond",
+"pos": "n.m.",
+"zh": "月亮",
+"level": "a1"
+},
+{
+"word": "warm",
+"pos": "adj.",
+"zh": "温暖的",
+"level": "a1"
+},
+{
+"word": "Freitag",
+"pos": "n.m.",
+"zh": "星期五",
+"level": "a1"
+},
+{
+"word": "dunkel",
+"pos": "adj.",
+"zh": "黑暗的",
+"level": "a1"
+},
+{
+"word": "freundlich",
+"pos": "adj.",
+"zh": "友好的",
+"level": "a1"
+},
+{
+"word": "dick",
+"pos": "adj.",
+"zh": "胖的；粗的",
+"level": "a1"
+},
+{
+"word": "Stuhl",
+"pos": "n.m.",
+"zh": "椅子",
+"level": "a1"
+},
+{
+"word": "ausgehen",
+"pos": "v.",
+"zh": "外出；熄灭",
+"level": "a1"
+},
+{
+"word": "Toilette",
+"pos": "n.f.",
+"zh": "厕所",
+"level": "a1"
+},
+{
+"word": "teuer",
+"pos": "adj.",
+"zh": "昂贵的",
+"level": "a1"
+},
+{
+"word": "Zahn",
+"pos": "n.m.",
+"zh": "牙齿",
+"level": "a1"
+},
+{
+"word": "Theater",
+"pos": "n.",
+"zh": "剧院",
+"level": "a1"
+},
+{
+"word": "Regen",
+"pos": "n.m.",
+"zh": "雨",
+"level": "a1"
+},
+{
+"word": "Flughafen",
+"pos": "n.m.",
+"zh": "机场",
+"level": "a1"
+},
+{
+"word": "Post",
+"pos": "n.f.",
+"zh": "邮件；职位",
+"level": "a1"
+},
+{
+"word": "Englisch",
+"pos": "n.",
+"zh": "英语",
+"level": "a1"
+},
+{
+"word": "Schüler",
+"pos": "n.m.",
+"zh": "学生",
+"level": "a1"
+},
+{
+"word": "Sonntag",
+"pos": "n.m.",
+"zh": "星期日",
+"level": "a1"
+},
+{
+"word": "zwölf",
+"pos": "num.",
+"zh": "十二",
+"level": "a1"
+},
+{
+"word": "abends",
+"pos": "adv.",
+"zh": "每天晚上",
+"level": "a1"
+},
+{
+"word": "frisch",
+"pos": "adj.",
+"zh": "新鲜的",
+"level": "a1"
+},
+{
+"word": "Kino",
+"pos": "n.",
+"zh": "电影院",
+"level": "a1"
+},
+{
+"word": "USA",
+"pos": "n.",
+"zh": "美国",
+"level": "a1"
+},
+{
+"word": "Samstag",
+"pos": "n.m.",
+"zh": "星期六",
+"level": "a1"
+},
+{
+"word": "Berg",
+"pos": "n.m.",
+"zh": "山",
+"level": "a1"
+},
+{
+"word": "Montag",
+"pos": "n.m.",
+"zh": "星期一",
+"level": "a1"
+},
+{
+"word": "prost",
+"pos": "interj.",
+"zh": "干杯",
+"level": "a1"
+},
+{
+"word": "Kleider",
+"pos": "n.",
+"zh": "衣服（复数）",
+"level": "a1"
+}
+]

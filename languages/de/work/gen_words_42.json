@@ -1,0 +1,602 @@
+[
+{
+"word": "Sturz",
+"pos": "n.m.",
+"zh": "种植者；农作物",
+"level": "b1"
+},
+{
+"word": "untergehen",
+"pos": "v.",
+"zh": "下去；下沉；坠落",
+"level": "b1"
+},
+{
+"word": "Wasch",
+"pos": "n.",
+"zh": "有；怀有；拿",
+"level": "b1"
+},
+{
+"word": "Abkommen",
+"pos": "n.",
+"zh": "大会；协定；惯例",
+"level": "b1"
+},
+{
+"word": "Tänzer",
+"pos": "n.m.",
+"zh": "舞蹈演员；跳舞者",
+"level": "b1"
+},
+{
+"word": "verfügbar",
+"pos": "adj.",
+"zh": "预备好的状态；备用的",
+"level": "b1"
+},
+{
+"word": "Autobahn",
+"pos": "n.f.",
+"zh": "高速公路",
+"level": "b1"
+},
+{
+"word": "Sprichwort",
+"pos": "n.",
+"zh": "谚语；格言",
+"level": "b1"
+},
+{
+"word": "Vergeltung",
+"pos": "n.f.",
+"zh": "免除；解除；赦免",
+"level": "b1"
+},
+{
+"word": "gekleidet",
+"pos": "adv.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "knallen",
+"pos": "v.",
+"zh": "砰地一声关上；爆炸；泡汤了",
+"level": "b1"
+},
+{
+"word": "Wichtigeres",
+"pos": "n.",
+"zh": "有；怀有；拿",
+"level": "b1"
+},
+{
+"word": "Schuldgefühle",
+"pos": "n.",
+"zh": "良心的责备；后悔；悔恨",
+"level": "b1"
+},
+{
+"word": "Brötchen",
+"pos": "n.",
+"zh": "面包卷",
+"level": "b1"
+},
+{
+"word": "Flut",
+"pos": "n.f.",
+"zh": "流程；流动；流量",
+"level": "b1"
+},
+{
+"word": "Haushalt",
+"pos": "n.m.",
+"zh": "一家人；家庭；家族",
+"level": "b1"
+},
+{
+"word": "Cleveland",
+"pos": "n.",
+"zh": "克利夫兰",
+"level": "b1"
+},
+{
+"word": "Ministerium",
+"pos": "n.",
+"zh": "部；内阁；服务\\ 部",
+"level": "b1"
+},
+{
+"word": "Anker",
+"pos": "n.m.",
+"zh": "使固定\\ 锚",
+"level": "b1"
+},
+{
+"word": "Qual",
+"pos": "n.f.",
+"zh": "拷问；苦闷\\. 拷问；曲解",
+"level": "b1"
+},
+{
+"word": "rauschen",
+"pos": "v.",
+"zh": "争吵\\. 争吵；哗哗地流水",
+"level": "b1"
+},
+{
+"word": "Informant",
+"pos": "n.m.",
+"zh": "提供消息者；密告者；被调查者\\ 填报人",
+"level": "b1"
+},
+{
+"word": "Masse",
+"pos": "n.f.",
+"zh": "块；大多数；质量",
+"level": "b1"
+},
+{
+"word": "Spezialität",
+"pos": "n.f.",
+"zh": "专长；擅长；特种技能",
+"level": "b1"
+},
+{
+"word": "Schimmer",
+"pos": "n.m.",
+"zh": "光束；微光；反光\\. 闪烁",
+"level": "b1"
+},
+{
+"word": "Mordfall",
+"pos": "n.m.",
+"zh": "谋杀\\. 谋杀；损毁",
+"level": "b1"
+},
+{
+"word": "verbieten",
+"pos": "v.",
+"zh": "禁令\\. 禁止；取缔",
+"level": "b1"
+},
+{
+"word": "kichern",
+"pos": "v.",
+"zh": "吃吃地笑；傻笑",
+"level": "b1"
+},
+{
+"word": "positive",
+"pos": "adv.",
+"zh": "肯定的；积极的；有把握的\\ 正的",
+"level": "b1"
+},
+{
+"word": "Zeitschrift",
+"pos": "n.f.",
+"zh": "期刊的；间歇",
+"level": "b1"
+},
+{
+"word": "Wildnis",
+"pos": "n.f.",
+"zh": "荒野；荒地；大量",
+"level": "b1"
+},
+{
+"word": "Schlamassel",
+"pos": "n.",
+"zh": "食堂；伙食；用膳",
+"level": "b1"
+},
+{
+"word": "behindert",
+"pos": "adj.",
+"zh": "残废的；有缺陷的；失效的\\ 失效的",
+"level": "b1"
+},
+{
+"word": "Abstimmung",
+"pos": "n.f.",
+"zh": "投票；投票用纸；抽签\\. 投票",
+"level": "b1"
+},
+{
+"word": "Senat",
+"pos": "n.m.",
+"zh": "参议院；立法机构；评议会",
+"level": "b1"
+},
+{
+"word": "mittags",
+"pos": "adv.",
+"zh": "在中午",
+"level": "b1"
+},
+{
+"word": "Bridge",
+"pos": "n.",
+"zh": "桥；舰桥；桥梁",
+"level": "b1"
+},
+{
+"word": "veranstalten",
+"pos": "v.",
+"zh": "组织；有机化",
+"level": "b1"
+},
+{
+"word": "Jahreszeit",
+"pos": "n.f.",
+"zh": "季节；时节；当令期",
+"level": "b1"
+},
+{
+"word": "zusätzliche",
+"pos": "adv.",
+"zh": "首都；大写字母；资本\\. 首都的",
+"level": "b1"
+},
+{
+"word": "Want",
+"pos": "n.m.",
+"zh": "尸衣；寿衣；覆盖物",
+"level": "b1"
+},
+{
+"word": "Drucken",
+"pos": "n.",
+"zh": "印刷；印刷术；印花\\ 打印",
+"level": "b1"
+},
+{
+"word": "Segel",
+"pos": "n.",
+"zh": "帆；篷；帆船",
+"level": "b1"
+},
+{
+"word": "überflüssig",
+"pos": "adj.",
+"zh": "多余的；过剩的",
+"level": "b1"
+},
+{
+"word": "Taschentuch",
+"pos": "n.",
+"zh": "手帕；头巾；围巾",
+"level": "b1"
+},
+{
+"word": "Rockmusik",
+"pos": "n.f.",
+"zh": "摇滚乐",
+"level": "b1"
+},
+{
+"word": "beschleunigen",
+"pos": "v.",
+"zh": "加速；促进",
+"level": "b1"
+},
+{
+"word": "Tennis",
+"pos": "n.",
+"zh": "网球",
+"level": "b1"
+},
+{
+"word": "überqueren",
+"pos": "v.",
+"zh": "十字架；十字架形物件；交叉",
+"level": "b1"
+},
+{
+"word": "Kreuzung",
+"pos": "n.",
+"zh": "四向停车",
+"level": "b1"
+},
+{
+"word": "Weiche",
+"pos": "n.f.",
+"zh": "点；小数点；标点",
+"level": "b1"
+},
+{
+"word": "punkten",
+"pos": "v.",
+"zh": "得分；抓痕；二十个",
+"level": "b1"
+},
+{
+"word": "Bucht",
+"pos": "n.f.",
+"zh": "海湾；狗吠声；月桂\\. 吠",
+"level": "b1"
+},
+{
+"word": "Bildschirm",
+"pos": "n.m.",
+"zh": "幕；银幕；屏风",
+"level": "b1"
+},
+{
+"word": "Saufen",
+"pos": "n.",
+"zh": "喝酒；痛饮",
+"level": "b1"
+},
+{
+"word": "gehackt",
+"pos": "adv.",
+"zh": "生气",
+"level": "b1"
+},
+{
+"word": "Eminenz",
+"pos": "n.f.",
+"zh": "显赫；名家；高处\\ 隆起",
+"level": "b1"
+},
+{
+"word": "München",
+"pos": "n.",
+"zh": "慕尼黑",
+"level": "b1"
+},
+{
+"word": "Verschwendung",
+"pos": "n.f.",
+"zh": "浪费；废物；损耗",
+"level": "b1"
+},
+{
+"word": "Zischen",
+"pos": "n.",
+"zh": "嘘声",
+"level": "b1"
+},
+{
+"word": "Geschirr",
+"pos": "n.",
+"zh": "马具；挽具状带子",
+"level": "b1"
+},
+{
+"word": "Ähnlichkeit",
+"pos": "n.f.",
+"zh": "相似处；类似；肖像",
+"level": "b1"
+},
+{
+"word": "Bon",
+"pos": "n.m.",
+"zh": "证人；保证人；证明者",
+"level": "b1"
+},
+{
+"word": "schwitzen",
+"pos": "v.",
+"zh": "汗；汗水；水珠",
+"level": "b1"
+},
+{
+"word": "annähernd",
+"pos": "adv.",
+"zh": "大约的；接近的",
+"level": "b1"
+},
+{
+"word": "Gewebe",
+"pos": "n.",
+"zh": "织物；布；结构",
+"level": "b1"
+},
+{
+"word": "unterschätzt",
+"pos": "adj.",
+"zh": "未得到正确评价的；未受到充分赏识的",
+"level": "b1"
+},
+{
+"word": "Sternzeit",
+"pos": "n.f.",
+"zh": "恒星时",
+"level": "b1"
+},
+{
+"word": "Eichhörnchen",
+"pos": "n.",
+"zh": "松软的；模糊的；不肯定的",
+"level": "b1"
+},
+{
+"word": "zerbrechen",
+"pos": "v.",
+"zh": "休息；中断；破裂处",
+"level": "b1"
+},
+{
+"word": "Wechsel",
+"pos": "n.m.",
+"zh": "转变；转换；变迁",
+"level": "b1"
+},
+{
+"word": "schleichen",
+"pos": "v.",
+"zh": "偷偷摸摸的行为",
+"level": "b1"
+},
+{
+"word": "niedrig",
+"pos": "adj.",
+"zh": "低点；低价；低",
+"level": "b1"
+},
+{
+"word": "Vulkan",
+"pos": "n.m.",
+"zh": "火山",
+"level": "b1"
+},
+{
+"word": "lesbisch",
+"pos": "adj.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "Abgrund",
+"pos": "n.m.",
+"zh": "深渊；深邃；地狱",
+"level": "b1"
+},
+{
+"word": "Sinken",
+"pos": "n.",
+"zh": "下降；排出；散开",
+"level": "b1"
+},
+{
+"word": "Hamburg",
+"pos": "n.",
+"zh": "汉堡",
+"level": "b1"
+},
+{
+"word": "Trauern",
+"pos": "n.",
+"zh": "哀痛；居丧；举哀",
+"level": "b1"
+},
+{
+"word": "Abreise",
+"pos": "n.f.",
+"zh": "离开；出发；违背",
+"level": "b1"
+},
+{
+"word": "passend",
+"pos": "adv.",
+"zh": "适当的；固有的；高尚的",
+"level": "b1"
+},
+{
+"word": "Mittagspause",
+"pos": "n.f.",
+"zh": "午餐",
+"level": "b1"
+},
+{
+"word": "Wettkampf",
+"pos": "n.m.",
+"zh": "竞赛；争论\\. 竞争；争取",
+"level": "b1"
+},
+{
+"word": "Beschwerde",
+"pos": "n.f.",
+"zh": "诉苦；抱怨；控诉\\ 陈诉",
+"level": "b1"
+},
+{
+"word": "erregen",
+"pos": "v.",
+"zh": "使活动；使激活",
+"level": "b1"
+},
+{
+"word": "überwältigt",
+"pos": "adj.",
+"zh": "淹没；压倒；覆盖",
+"level": "b1"
+},
+{
+"word": "benannt",
+"pos": "adj.",
+"zh": "有标签的；示踪的",
+"level": "b1"
+},
+{
+"word": "begrüßt",
+"pos": "adv.",
+"zh": "欢迎的；令人愉悦的；受欢迎的",
+"level": "b1"
+},
+{
+"word": "trommeln",
+"pos": "v.",
+"zh": "鼓；鼓声\\. 击鼓",
+"level": "b1"
+},
+{
+"word": "fortsetzen",
+"pos": "v.",
+"zh": "穷追；追问",
+"level": "b1"
+},
+{
+"word": "Anpassen",
+"pos": "n.",
+"zh": "西服料",
+"level": "b1"
+},
+{
+"word": "altmodisch",
+"pos": "adj.",
+"zh": "旧式的；过时的；保守的",
+"level": "b1"
+},
+{
+"word": "Feuerzeug",
+"pos": "n.",
+"zh": "打火机",
+"level": "b1"
+},
+{
+"word": "Trau",
+"pos": "n.",
+"zh": "我\\ 电流；中断；指令",
+"level": "b1"
+},
+{
+"word": "beseitigt",
+"pos": "adv.",
+"zh": "离开的；间隔的；远离的\\ 拆除的",
+"level": "b1"
+},
+{
+"word": "Heimweg",
+"pos": "n.m.",
+"zh": "路；路线；路途",
+"level": "b1"
+},
+{
+"word": "Menschlichkeit",
+"pos": "n.f.",
+"zh": "人性；人类；博爱",
+"level": "b1"
+},
+{
+"word": "Geheimnisvolle",
+"pos": "n.",
+"zh": "神秘",
+"level": "b1"
+},
+{
+"word": "Abreisen",
+"pos": "n.",
+"zh": "离开；出发；背离",
+"level": "b1"
+},
+{
+"word": "Premiere",
+"pos": "n.f.",
+"zh": "首次",
+"level": "b1"
+}
+]

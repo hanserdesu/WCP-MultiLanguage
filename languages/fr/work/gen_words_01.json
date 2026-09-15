@@ -1,0 +1,602 @@
+[
+{
+"word": "chambre",
+"pos": "n.f.",
+"zh": "房间；卧室",
+"level": "a1"
+},
+{
+"word": "chance",
+"pos": "n.",
+"zh": "运气；机会",
+"level": "a1"
+},
+{
+"word": "changer",
+"pos": "v.",
+"zh": "改变；更换",
+"level": "a1"
+},
+{
+"word": "chanter",
+"pos": "v.",
+"zh": "唱；唱歌",
+"level": "a1"
+},
+{
+"word": "chanteur",
+"pos": "n.m.",
+"zh": "歌手",
+"level": "a1"
+},
+{
+"word": "chaque",
+"pos": "adj.",
+"zh": "每个；每一",
+"level": "a1"
+},
+{
+"word": "chat",
+"pos": "n.m.",
+"zh": "猫；猫咪",
+"level": "a1"
+},
+{
+"word": "chaud",
+"pos": "adj.",
+"zh": "热的；烫的",
+"level": "a1"
+},
+{
+"word": "chaussette",
+"pos": "n.f.",
+"zh": "袜子",
+"level": "a1"
+},
+{
+"word": "chaussure",
+"pos": "n.f.",
+"zh": "鞋；鞋子",
+"level": "a1"
+},
+{
+"word": "chemin",
+"pos": "n.m.",
+"zh": "路；小路；路程",
+"level": "a1"
+},
+{
+"word": "cher",
+"pos": "adj.",
+"zh": "贵的；昂贵的；亲爱的",
+"level": "a1"
+},
+{
+"word": "chercher",
+"pos": "v.",
+"zh": "找；寻找",
+"level": "a1"
+},
+{
+"word": "cheval",
+"pos": "n.m.",
+"zh": "马；马匹",
+"level": "a1"
+},
+{
+"word": "cheveu",
+"pos": "n.m.",
+"zh": "头发",
+"level": "a1"
+},
+{
+"word": "chez",
+"pos": "prép.",
+"zh": "在……家；在……那里",
+"level": "a1"
+},
+{
+"word": "chien",
+"pos": "n.m.",
+"zh": "狗；犬",
+"level": "a1"
+},
+{
+"word": "chinois",
+"pos": "n.m.",
+"zh": "中文；中国人",
+"level": "a1"
+},
+{
+"word": "chocolat",
+"pos": "n.m.",
+"zh": "巧克力",
+"level": "a1"
+},
+{
+"word": "choisir",
+"pos": "v.",
+"zh": "选择；挑选",
+"level": "a1"
+},
+{
+"word": "chose",
+"pos": "n.f.",
+"zh": "事情；东西",
+"level": "a1"
+},
+{
+"word": "chut",
+"pos": "interj.",
+"zh": "嘘（叫安静）",
+"level": "a1"
+},
+{
+"word": "ciao",
+"pos": "interj.",
+"zh": "再见（口语）",
+"level": "a1"
+},
+{
+"word": "ciel",
+"pos": "n.m.",
+"zh": "天空",
+"level": "a1"
+},
+{
+"word": "cinq",
+"pos": "adj.",
+"zh": "五；五个",
+"level": "a1"
+},
+{
+"word": "cinquante",
+"pos": "adj.",
+"zh": "五十",
+"level": "a1"
+},
+{
+"word": "cinquième",
+"pos": "adj.",
+"zh": "第五的",
+"level": "a1"
+},
+{
+"word": "cinéma",
+"pos": "n.m.",
+"zh": "电影院；电影",
+"level": "a1"
+},
+{
+"word": "ciseau",
+"pos": "n.m.",
+"zh": "凿子；剪刀（复数）",
+"level": "a1"
+},
+{
+"word": "citron",
+"pos": "n.m.",
+"zh": "柠檬",
+"level": "a1"
+},
+{
+"word": "classe",
+"pos": "n.f.",
+"zh": "班级；课",
+"level": "a1"
+},
+{
+"word": "coeur",
+"pos": "n.m.",
+"zh": "心；心脏",
+"level": "a1"
+},
+{
+"word": "coiffeur",
+"pos": "n.m.",
+"zh": "理发师",
+"level": "a1"
+},
+{
+"word": "combien",
+"pos": "adv.",
+"zh": "多少；多少钱",
+"level": "a1"
+},
+{
+"word": "comme",
+"pos": "conj.",
+"zh": "像；作为；因为",
+"level": "a1"
+},
+{
+"word": "commencer",
+"pos": "v.",
+"zh": "开始",
+"level": "a1"
+},
+{
+"word": "comment",
+"pos": "adv.",
+"zh": "怎样；如何",
+"level": "a1"
+},
+{
+"word": "comprendre",
+"pos": "v.",
+"zh": "理解；懂；包含",
+"level": "a1"
+},
+{
+"word": "confiture",
+"pos": "n.f.",
+"zh": "果酱",
+"level": "a1"
+},
+{
+"word": "connaître",
+"pos": "v.",
+"zh": "认识；知道",
+"level": "a1"
+},
+{
+"word": "continuer",
+"pos": "v.",
+"zh": "继续；持续",
+"level": "a1"
+},
+{
+"word": "contre",
+"pos": "prép.",
+"zh": "反对；靠着",
+"level": "a1"
+},
+{
+"word": "copain",
+"pos": "n.m.",
+"zh": "朋友；伙伴；男朋友",
+"level": "a1"
+},
+{
+"word": "cou",
+"pos": "n.m.",
+"zh": "脖子",
+"level": "a1"
+},
+{
+"word": "coucher",
+"pos": "v.",
+"zh": "使躺下；就寝",
+"level": "a1"
+},
+{
+"word": "couleur",
+"pos": "n.f.",
+"zh": "颜色；彩色",
+"level": "a1"
+},
+{
+"word": "couper",
+"pos": "v.",
+"zh": "切；割；剪",
+"level": "a1"
+},
+{
+"word": "courir",
+"pos": "v.",
+"zh": "跑；奔跑",
+"level": "a1"
+},
+{
+"word": "cours",
+"pos": "n.",
+"zh": "课；课程",
+"level": "a1"
+},
+{
+"word": "cousin",
+"pos": "n.m.",
+"zh": "堂兄弟；表兄弟",
+"level": "a1"
+},
+{
+"word": "crayon",
+"pos": "n.m.",
+"zh": "铅笔",
+"level": "a1"
+},
+{
+"word": "croire",
+"pos": "v.",
+"zh": "相信；认为",
+"level": "a1"
+},
+{
+"word": "croissant",
+"pos": "n.m.",
+"zh": "羊角面包；新月",
+"level": "a1"
+},
+{
+"word": "cuisine",
+"pos": "n.f.",
+"zh": "厨房；烹饪",
+"level": "a1"
+},
+{
+"word": "cuisinier",
+"pos": "n.m.",
+"zh": "厨师",
+"level": "a1"
+},
+{
+"word": "côté",
+"pos": "n.m.",
+"zh": "边；旁边；方面",
+"level": "a1"
+},
+{
+"word": "d'abord",
+"pos": "adv.",
+"zh": "首先",
+"level": "a1"
+},
+{
+"word": "dame",
+"pos": "n.f.",
+"zh": "女士；夫人",
+"level": "a1"
+},
+{
+"word": "dans",
+"pos": "prép.",
+"zh": "在……里；……之后",
+"level": "a1"
+},
+{
+"word": "danser",
+"pos": "v.",
+"zh": "跳舞",
+"level": "a1"
+},
+{
+"word": "date",
+"pos": "n.f.",
+"zh": "日期",
+"level": "a1"
+},
+{
+"word": "de",
+"pos": "prép.",
+"zh": "……的；从；由",
+"level": "a1"
+},
+{
+"word": "dehors",
+"pos": "adv.",
+"zh": "在外面",
+"level": "a1"
+},
+{
+"word": "demain",
+"pos": "adv.",
+"zh": "明天",
+"level": "a1"
+},
+{
+"word": "demander",
+"pos": "v.",
+"zh": "问；要求",
+"level": "a1"
+},
+{
+"word": "demi",
+"pos": "adj.",
+"zh": "一半的；半个",
+"level": "a1"
+},
+{
+"word": "demi-heure",
+"pos": "n.f.",
+"zh": "半小时",
+"level": "a1"
+},
+{
+"word": "dent",
+"pos": "n.f.",
+"zh": "牙齿",
+"level": "a1"
+},
+{
+"word": "dentiste",
+"pos": "n.",
+"zh": "牙医",
+"level": "a1"
+},
+{
+"word": "depuis",
+"pos": "prép.",
+"zh": "自从；自……以来",
+"level": "a1"
+},
+{
+"word": "dernier",
+"pos": "adj.",
+"zh": "最后的；最新的",
+"level": "a1"
+},
+{
+"word": "derrière",
+"pos": "prép.",
+"zh": "在…后面",
+"level": "a1"
+},
+{
+"word": "des",
+"pos": "art.",
+"zh": "一些（不定冠词复数）",
+"level": "a1"
+},
+{
+"word": "descendre",
+"pos": "v.",
+"zh": "下楼；下来；下降",
+"level": "a1"
+},
+{
+"word": "dessert",
+"pos": "n.m.",
+"zh": "甜点",
+"level": "a1"
+},
+{
+"word": "deux",
+"pos": "adj.",
+"zh": "二；两个",
+"level": "a1"
+},
+{
+"word": "deuxième",
+"pos": "adj.",
+"zh": "第二",
+"level": "a1"
+},
+{
+"word": "devant",
+"pos": "prép.",
+"zh": "在…前面",
+"level": "a1"
+},
+{
+"word": "devoir",
+"pos": "v.",
+"zh": "必须；应当；欠",
+"level": "a1"
+},
+{
+"word": "dictionnaire",
+"pos": "n.m.",
+"zh": "词典；字典",
+"level": "a1"
+},
+{
+"word": "difficile",
+"pos": "adj.",
+"zh": "困难的；难办的",
+"level": "a1"
+},
+{
+"word": "différent",
+"pos": "adj.",
+"zh": "不同的；有差别的",
+"level": "a1"
+},
+{
+"word": "dimanche",
+"pos": "n.m.",
+"zh": "星期日；周日",
+"level": "a1"
+},
+{
+"word": "dire",
+"pos": "v.",
+"zh": "说；讲",
+"level": "a1"
+},
+{
+"word": "dix",
+"pos": "adj.",
+"zh": "十；十个",
+"level": "a1"
+},
+{
+"word": "dix-huit",
+"pos": "adj.",
+"zh": "十八",
+"level": "a1"
+},
+{
+"word": "dix-sept",
+"pos": "adj.",
+"zh": "十七",
+"level": "a1"
+},
+{
+"word": "do",
+"pos": "n.m.",
+"zh": "哆（唱名）",
+"level": "a1"
+},
+{
+"word": "docteur",
+"pos": "n.m.",
+"zh": "医生；博士",
+"level": "a1"
+},
+{
+"word": "dollar",
+"pos": "n.m.",
+"zh": "美元",
+"level": "a1"
+},
+{
+"word": "donc",
+"pos": "conj.",
+"zh": "所以；因此",
+"level": "a1"
+},
+{
+"word": "donner",
+"pos": "v.",
+"zh": "给；给予",
+"level": "a1"
+},
+{
+"word": "dormir",
+"pos": "v.",
+"zh": "睡觉",
+"level": "a1"
+},
+{
+"word": "dos",
+"pos": "n.m.",
+"zh": "背；背部",
+"level": "a1"
+},
+{
+"word": "douche",
+"pos": "n.f.",
+"zh": "淋浴",
+"level": "a1"
+},
+{
+"word": "douze",
+"pos": "adj.",
+"zh": "十二",
+"level": "a1"
+},
+{
+"word": "droite",
+"pos": "n.f.",
+"zh": "右边；右侧",
+"level": "a1"
+},
+{
+"word": "du",
+"pos": "art.",
+"zh": "一些（缩合冠词）",
+"level": "a1"
+},
+{
+"word": "décembre",
+"pos": "n.m.",
+"zh": "十二月",
+"level": "a1"
+},
+{
+"word": "déjeuner",
+"pos": "n.m.",
+"zh": "午餐；吃午饭",
+"level": "a1"
+}
+]

@@ -1,0 +1,25 @@
+packs = D:\Japanese\packs
+存档  = C:\Users\hanserdesu\AppData\LocalLow\WCP\wcp\MyBook.es3
+
+加载语言包 = 3，加载告警 = 0
+  PASS  注册表加载无告警
+  PASS  加载 3 个语言包   实际 3
+   [fr] catbar-french-cefr-complete 词=8116 槽=2 指纹=376af2eae029…
+   [ja] catbar-jlpt-complete 词=7922 槽=1 指纹=6d7a51c0c5d3…
+   [ru] catbar-russian-cefr-complete 词=8451 槽=3 指纹=dfecb0ab75e9…
+  PASS  槽位预算 ≤ 4   3 个语言包 / 4 槽，实测占用 3 槽
+
+== 槽位回归（真实存档词表 -> Match） ==
+  PASS  槽 1 指纹与清单一致   ja/catbar-jlpt-complete  声明=6d7a51c0c5d3 实算=6d7a51c0c5d3
+  PASS  槽 2 指纹与清单一致   fr/catbar-french-cefr-complete  声明=376af2eae029 实算=376af2eae029
+  PASS  槽 3 指纹与清单一致   ru/catbar-russian-cefr-complete  声明=dfecb0ab75e9 实算=dfecb0ab75e9
+  PASS  槽 4 空 -> 不匹配受管词书
+  PASS  3 个非空槽位全部命中   实际 3
+  PASS  1 个空槽位   实际 1
+
+== 唯一性矩阵（一个槽的词表只能命中一个语言包） ==
+  PASS  槽 1 唯一命中   1 个 (ja)
+  PASS  槽 2 唯一命中   1 个 (fr)
+  PASS  槽 3 唯一命中   1 个 (ru)
+
+结果: 全部通过

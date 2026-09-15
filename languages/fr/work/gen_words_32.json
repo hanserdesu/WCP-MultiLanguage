@@ -1,0 +1,602 @@
+[
+{
+"word": "colonial",
+"pos": "adj.",
+"zh": "殖民的",
+"level": "b1"
+},
+{
+"word": "colonie",
+"pos": "n.f.",
+"zh": "殖民地；聚居地",
+"level": "b1"
+},
+{
+"word": "colonne",
+"pos": "n.f.",
+"zh": "柱；纵队；栏",
+"level": "b1"
+},
+{
+"word": "combat",
+"pos": "n.m.",
+"zh": "搏斗；战斗",
+"level": "b1"
+},
+{
+"word": "combattant",
+"pos": "n.m.",
+"zh": "战士；战斗人员",
+"level": "b1"
+},
+{
+"word": "combattre",
+"pos": "v.",
+"zh": "搏斗；与…作斗争",
+"level": "b1"
+},
+{
+"word": "combinaison",
+"pos": "n.f.",
+"zh": "结合；组合；连体服",
+"level": "b1"
+},
+{
+"word": "combiner",
+"pos": "v.",
+"zh": "组合；结合",
+"level": "b1"
+},
+{
+"word": "comique",
+"pos": "n.",
+"zh": "滑稽的；喜剧演员",
+"level": "b1"
+},
+{
+"word": "comité",
+"pos": "n.m.",
+"zh": "委员会",
+"level": "b1"
+},
+{
+"word": "commandant",
+"pos": "n.m.",
+"zh": "指挥官；警官",
+"level": "b1"
+},
+{
+"word": "commandement",
+"pos": "n.m.",
+"zh": "指挥；命令",
+"level": "b1"
+},
+{
+"word": "commando",
+"pos": "n.m.",
+"zh": "突击队",
+"level": "b1"
+},
+{
+"word": "commentaire",
+"pos": "n.m.",
+"zh": "评论；注解",
+"level": "b1"
+},
+{
+"word": "commenter",
+"pos": "v.",
+"zh": "评论；解说",
+"level": "b1"
+},
+{
+"word": "commerce",
+"pos": "n.m.",
+"zh": "商业；店铺",
+"level": "b1"
+},
+{
+"word": "commercial",
+"pos": "adj.",
+"zh": "商业的；商务的",
+"level": "b1"
+},
+{
+"word": "commerçant",
+"pos": "n.m.",
+"zh": "商人；店主",
+"level": "b1"
+},
+{
+"word": "commettre",
+"pos": "v.",
+"zh": "犯（罪、错）",
+"level": "b1"
+},
+{
+"word": "commissaire",
+"pos": "n.",
+"zh": "警长；专员",
+"level": "b1"
+},
+{
+"word": "commissariat",
+"pos": "n.m.",
+"zh": "警察局",
+"level": "b1"
+},
+{
+"word": "commode",
+"pos": "adj.",
+"zh": "方便的；舒适的",
+"level": "b1"
+},
+{
+"word": "communauté",
+"pos": "n.f.",
+"zh": "社区；团体",
+"level": "b1"
+},
+{
+"word": "communication",
+"pos": "n.f.",
+"zh": "交流；通讯",
+"level": "b1"
+},
+{
+"word": "communiquer",
+"pos": "v.",
+"zh": "交流；传达",
+"level": "b1"
+},
+{
+"word": "communisme",
+"pos": "n.m.",
+"zh": "共产主义",
+"level": "b1"
+},
+{
+"word": "communiste",
+"pos": "adj.",
+"zh": "共产主义的；共产党员",
+"level": "b1"
+},
+{
+"word": "compagnie",
+"pos": "n.f.",
+"zh": "陪伴；公司",
+"level": "b1"
+},
+{
+"word": "compagnon",
+"pos": "n.m.",
+"zh": "同伴；伴侣",
+"level": "b1"
+},
+{
+"word": "comparaison",
+"pos": "n.f.",
+"zh": "比较；比喻",
+"level": "b1"
+},
+{
+"word": "compatible",
+"pos": "adj.",
+"zh": "兼容的；合得来的",
+"level": "b1"
+},
+{
+"word": "compenser",
+"pos": "v.",
+"zh": "补偿；弥补",
+"level": "b1"
+},
+{
+"word": "complexe",
+"pos": "adj.",
+"zh": "复杂的；情结",
+"level": "b1"
+},
+{
+"word": "complice",
+"pos": "n.",
+"zh": "同谋；同伙",
+"level": "b1"
+},
+{
+"word": "compliment",
+"pos": "n.m.",
+"zh": "恭维；称赞",
+"level": "b1"
+},
+{
+"word": "compliquer",
+"pos": "v.",
+"zh": "使复杂化",
+"level": "b1"
+},
+{
+"word": "complot",
+"pos": "n.m.",
+"zh": "阴谋；密谋",
+"level": "b1"
+},
+{
+"word": "complètement",
+"pos": "adv.",
+"zh": "完全地；彻底地",
+"level": "b1"
+},
+{
+"word": "compléter",
+"pos": "v.",
+"zh": "补全；补充",
+"level": "b1"
+},
+{
+"word": "comportement",
+"pos": "n.m.",
+"zh": "行为；举止",
+"level": "b1"
+},
+{
+"word": "composant",
+"pos": "n.m.",
+"zh": "成分；部件",
+"level": "b1"
+},
+{
+"word": "composer",
+"pos": "v.",
+"zh": "组成；作曲；拨号",
+"level": "b1"
+},
+{
+"word": "compositeur",
+"pos": "n.m.",
+"zh": "作曲家",
+"level": "b1"
+},
+{
+"word": "composition",
+"pos": "n.f.",
+"zh": "构成；作文；成分",
+"level": "b1"
+},
+{
+"word": "compote",
+"pos": "n.f.",
+"zh": "果泥；煮烂的水果",
+"level": "b1"
+},
+{
+"word": "compris",
+"pos": "adj.",
+"zh": "包括在内的；明白的",
+"level": "b1"
+},
+{
+"word": "compromis",
+"pos": "n.m.",
+"zh": "妥协；折中方案",
+"level": "b1"
+},
+{
+"word": "compréhensible",
+"pos": "adj.",
+"zh": "可以理解的",
+"level": "b1"
+},
+{
+"word": "compréhensif",
+"pos": "adj.",
+"zh": "体谅的；善解人意的",
+"level": "b1"
+},
+{
+"word": "comptabilité",
+"pos": "n.f.",
+"zh": "会计；会计学",
+"level": "b1"
+},
+{
+"word": "comptable",
+"pos": "n.",
+"zh": "会计；会计的",
+"level": "b1"
+},
+{
+"word": "compte-rendu",
+"pos": "n.m.",
+"zh": "报告；纪要",
+"level": "b1"
+},
+{
+"word": "compteur",
+"pos": "n.m.",
+"zh": "计数器；计费表",
+"level": "b1"
+},
+{
+"word": "compétence",
+"pos": "n.f.",
+"zh": "能力；技能；职权",
+"level": "b1"
+},
+{
+"word": "compétition",
+"pos": "n.f.",
+"zh": "竞争；比赛",
+"level": "b1"
+},
+{
+"word": "comte",
+"pos": "n.m.",
+"zh": "伯爵",
+"level": "b1"
+},
+{
+"word": "comédien",
+"pos": "n.m.",
+"zh": "演员；喜剧演员",
+"level": "b1"
+},
+{
+"word": "con",
+"pos": "n.m.",
+"zh": "蠢货；傻瓜（粗俗）",
+"level": "b1"
+},
+{
+"word": "concentrer",
+"pos": "v.",
+"zh": "集中；专注",
+"level": "b1"
+},
+{
+"word": "concentré",
+"pos": "adj.",
+"zh": "集中的；专注的",
+"level": "b1"
+},
+{
+"word": "concept",
+"pos": "n.m.",
+"zh": "概念；观念",
+"level": "b1"
+},
+{
+"word": "conception",
+"pos": "n.f.",
+"zh": "观念；构想；受孕",
+"level": "b1"
+},
+{
+"word": "concernant",
+"pos": "prép.",
+"zh": "关于",
+"level": "b1"
+},
+{
+"word": "concerner",
+"pos": "v.",
+"zh": "涉及；与…有关",
+"level": "b1"
+},
+{
+"word": "concierge",
+"pos": "n.",
+"zh": "门房；大楼管理员",
+"level": "b1"
+},
+{
+"word": "conclure",
+"pos": "v.",
+"zh": "得出结论；缔结",
+"level": "b1"
+},
+{
+"word": "conclusion",
+"pos": "n.f.",
+"zh": "结论；结尾",
+"level": "b1"
+},
+{
+"word": "concours",
+"pos": "n.m.",
+"zh": "竞赛；选拔考试",
+"level": "b1"
+},
+{
+"word": "concret",
+"pos": "adj.",
+"zh": "具体的；实际的",
+"level": "b1"
+},
+{
+"word": "concurrence",
+"pos": "n.f.",
+"zh": "竞争；竞争对手",
+"level": "b1"
+},
+{
+"word": "condamner",
+"pos": "v.",
+"zh": "判刑；谴责",
+"level": "b1"
+},
+{
+"word": "confession",
+"pos": "n.f.",
+"zh": "忏悔；供认",
+"level": "b1"
+},
+{
+"word": "confier",
+"pos": "v.",
+"zh": "托付；吐露",
+"level": "b1"
+},
+{
+"word": "confirmation",
+"pos": "n.f.",
+"zh": "确认；证实",
+"level": "b1"
+},
+{
+"word": "conflit",
+"pos": "n.m.",
+"zh": "冲突",
+"level": "b1"
+},
+{
+"word": "confondre",
+"pos": "v.",
+"zh": "混淆；混同",
+"level": "b1"
+},
+{
+"word": "confrontation",
+"pos": "n.f.",
+"zh": "对抗；对质",
+"level": "b1"
+},
+{
+"word": "confus",
+"pos": "adj.",
+"zh": "混乱的；羞愧的",
+"level": "b1"
+},
+{
+"word": "confusion",
+"pos": "n.f.",
+"zh": "混乱；混淆",
+"level": "b1"
+},
+{
+"word": "conférence",
+"pos": "n.f.",
+"zh": "会议；讲座",
+"level": "b1"
+},
+{
+"word": "congrès",
+"pos": "n.m.",
+"zh": "代表大会；会议",
+"level": "b1"
+},
+{
+"word": "congé",
+"pos": "n.m.",
+"zh": "假期；请假",
+"level": "b1"
+},
+{
+"word": "connaissance",
+"pos": "n.f.",
+"zh": "知识；认识；熟人",
+"level": "b1"
+},
+{
+"word": "connard",
+"pos": "n.m.",
+"zh": "混蛋；蠢货（粗俗）",
+"level": "b1"
+},
+{
+"word": "connecter",
+"pos": "v.",
+"zh": "连接；登录；联网",
+"level": "b1"
+},
+{
+"word": "connerie",
+"pos": "n.f.",
+"zh": "蠢话；胡扯（粗俗）",
+"level": "b1"
+},
+{
+"word": "conquérir",
+"pos": "v.",
+"zh": "征服；赢得",
+"level": "b1"
+},
+{
+"word": "conquête",
+"pos": "n.f.",
+"zh": "征服；赢得",
+"level": "b1"
+},
+{
+"word": "conscience",
+"pos": "n.f.",
+"zh": "知觉；良心；意识",
+"level": "b1"
+},
+{
+"word": "conscient",
+"pos": "adj.",
+"zh": "意识到的；清醒的",
+"level": "b1"
+},
+{
+"word": "conservateur",
+"pos": "adj.",
+"zh": "保守的；（馆）馆长",
+"level": "b1"
+},
+{
+"word": "conserve",
+"pos": "n.f.",
+"zh": "罐头；罐装食品",
+"level": "b1"
+},
+{
+"word": "considérable",
+"pos": "adj.",
+"zh": "可观的；巨大的",
+"level": "b1"
+},
+{
+"word": "considération",
+"pos": "n.f.",
+"zh": "考虑；尊重",
+"level": "b1"
+},
+{
+"word": "considérer",
+"pos": "v.",
+"zh": "认为；考虑",
+"level": "b1"
+},
+{
+"word": "consigne",
+"pos": "n.f.",
+"zh": "指令；（行李）寄存处",
+"level": "b1"
+},
+{
+"word": "consister",
+"pos": "v.",
+"zh": "在于；由…构成",
+"level": "b1"
+},
+{
+"word": "consolation",
+"pos": "n.f.",
+"zh": "安慰；慰藉",
+"level": "b1"
+},
+{
+"word": "console",
+"pos": "n.f.",
+"zh": "游戏机；控制台",
+"level": "b1"
+},
+{
+"word": "consoler",
+"pos": "v.",
+"zh": "安慰",
+"level": "b1"
+}
+]

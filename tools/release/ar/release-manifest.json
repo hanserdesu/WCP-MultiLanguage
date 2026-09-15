@@ -1,0 +1,21 @@
+{
+  "version": "wcp-ar-resources-v1.0.0",
+  "built": "2026-09-15 10:09:32",
+  "base_urls": [
+    "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ar-resources-v1.0.0"
+  ],
+  "assets": [
+    {
+      "kind": "word_audio",
+      "name": "wcp-arabic-audio-words.zip",
+      "size": 86908736,
+      "sha256": "ffe067c872364b75ed43a21fbecb766349acde0c1c0de76b805cf98076d43b18"
+    },
+    {
+      "kind": "sentence_audio",
+      "name": "wcp-arabic-audio-sentences.zip",
+      "size": 215494078,
+      "sha256": "1f30b154c21b99d2e05c090eb363757a8d7b214fde6f4d3856e94494ab6d86dc"
+    }
+  ]
+}

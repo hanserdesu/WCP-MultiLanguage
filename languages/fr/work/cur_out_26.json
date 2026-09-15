@@ -1,0 +1,1434 @@
+{
+ "kept": [
+  {
+   "word": "luxueux",
+   "zh": "豪华的；奢华的",
+   "level": "b2"
+  },
+  {
+   "word": "macabre",
+   "zh": "阴森可怖的；与死亡相关的",
+   "level": "b2"
+  },
+  {
+   "word": "machette",
+   "zh": "砍刀",
+   "level": "b2"
+  },
+  {
+   "word": "manipulation",
+   "zh": "操纵；摆布",
+   "level": "b2"
+  },
+  {
+   "word": "maturité",
+   "zh": "成熟",
+   "level": "b2"
+  },
+  {
+   "word": "menotter",
+   "zh": "给……戴上手铐",
+   "level": "b2"
+  },
+  {
+   "word": "muraille",
+   "zh": "城墙；高墙",
+   "level": "b1"
+  },
+  {
+   "word": "musclé",
+   "zh": "肌肉发达的；结实的",
+   "level": "b1"
+  },
+  {
+   "word": "mutiler",
+   "zh": "使残缺；致残",
+   "level": "b2"
+  },
+  {
+   "word": "mélancolie",
+   "zh": "忧郁；感伤",
+   "level": "b2"
+  },
+  {
+   "word": "mémoriser",
+   "zh": "记住；背熟",
+   "level": "b1"
+  },
+  {
+   "word": "obéissant",
+   "zh": "顺从的；听话的",
+   "level": "b1"
+  },
+  {
+   "word": "originaire",
+   "zh": "出生于……的；原产于……的",
+   "level": "b1"
+  },
+  {
+   "word": "paralysie",
+   "zh": "瘫痪；麻痹",
+   "level": "b2"
+  },
+  {
+   "word": "paresse",
+   "zh": "懒惰；懒散",
+   "level": "b1"
+  },
+  {
+   "word": "pesant",
+   "zh": "沉重的；累赘的",
+   "level": "b2"
+  },
+  {
+   "word": "phobie",
+   "zh": "恐惧症；极度厌恶",
+   "level": "b2"
+  },
+  {
+   "word": "photocopieur",
+   "zh": "复印机",
+   "level": "b1"
+  },
+  {
+   "word": "piquant",
+   "zh": "辣的；扎人的；尖刻的",
+   "level": "b1"
+  },
+  {
+   "word": "piètre",
+   "zh": "低劣的；蹩脚的",
+   "level": "b2"
+  },
+  {
+   "word": "poétique",
+   "zh": "诗的；诗意的",
+   "level": "b2"
+  },
+  {
+   "word": "pressing",
+   "zh": "干洗店",
+   "level": "b1"
+  },
+  {
+   "word": "prétention",
+   "zh": "自负；要求；抱负",
+   "level": "b2"
+  },
+  {
+   "word": "radioactif",
+   "zh": "放射性的",
+   "level": "b2"
+  },
+  {
+   "word": "relayer",
+   "zh": "接替；转播；传递",
+   "level": "b2"
+  },
+  {
+   "word": "relique",
+   "zh": "圣物；遗物",
+   "level": "b2"
+  },
+  {
+   "word": "rentable",
+   "zh": "有利可图的；划算的",
+   "level": "b1"
+  },
+  {
+   "word": "rossignol",
+   "zh": "夜莺",
+   "level": "b2"
+  },
+  {
+   "word": "récapituler",
+   "zh": "总结；概括",
+   "level": "b1"
+  },
+  {
+   "word": "réconciliation",
+   "zh": "和解；修好",
+   "level": "b2"
+  },
+  {
+   "word": "régional",
+   "zh": "地区的；区域的",
+   "level": "b1"
+  },
+  {
+   "word": "résulter",
+   "zh": "由……产生；是……的结果",
+   "level": "b2"
+  },
+  {
+   "word": "réécrire",
+   "zh": "重写；改写",
+   "level": "b1"
+  },
+  {
+   "word": "rêvé",
+   "zh": "梦寐以求的；理想的",
+   "level": "b1"
+  },
+  {
+   "word": "satin",
+   "zh": "缎子",
+   "level": "b2"
+  },
+  {
+   "word": "satisfaisant",
+   "zh": "令人满意的",
+   "level": "b1"
+  },
+  {
+   "word": "secousse",
+   "zh": "震动；摇晃",
+   "level": "b2"
+  },
+  {
+   "word": "shampooing",
+   "zh": "洗发水",
+   "level": "a2"
+  },
+  {
+   "word": "sheriff",
+   "zh": "治安官；警长",
+   "level": "b2"
+  },
+  {
+   "word": "sournois",
+   "zh": "阴险的；暗中的",
+   "level": "b2"
+  },
+  {
+   "word": "soute",
+   "zh": "（飞机、轮船的）货舱",
+   "level": "b2"
+  },
+  {
+   "word": "suicidaire",
+   "zh": "想自杀的；自杀性的",
+   "level": "b2"
+  },
+  {
+   "word": "surveillant",
+   "zh": "监视者；看守；监考人",
+   "level": "b1"
+  },
+  {
+   "word": "symboliser",
+   "zh": "象征；代表",
+   "level": "b2"
+  },
+  {
+   "word": "sécheresse",
+   "zh": "干旱；枯燥",
+   "level": "b1"
+  },
+  {
+   "word": "tardif",
+   "zh": "晚的；迟到的",
+   "level": "b2"
+  },
+  {
+   "word": "temporairement",
+   "zh": "暂时地",
+   "level": "b1"
+  },
+  {
+   "word": "théoriquement",
+   "zh": "理论上",
+   "level": "b1"
+  },
+  {
+   "word": "truffe",
+   "zh": "松露",
+   "level": "b2"
+  },
+  {
+   "word": "tulipe",
+   "zh": "郁金香",
+   "level": "a2"
+  },
+  {
+   "word": "tyrannie",
+   "zh": "暴政；专横",
+   "level": "b2"
+  },
+  {
+   "word": "unanimité",
+   "zh": "全体一致；一致通过",
+   "level": "b2"
+  },
+  {
+   "word": "valve",
+   "zh": "阀门；瓣膜",
+   "level": "b2"
+  },
+  {
+   "word": "vigoureux",
+   "zh": "强健的；有力的",
+   "level": "b2"
+  },
+  {
+   "word": "volaille",
+   "zh": "家禽；禽肉",
+   "level": "b1"
+  },
+  {
+   "word": "vénérable",
+   "zh": "可敬的；庄严的",
+   "level": "b2"
+  },
+  {
+   "word": "écossais",
+   "zh": "苏格兰的；苏格兰人",
+   "level": "a2"
+  },
+  {
+   "word": "éloge",
+   "zh": "赞扬；颂词",
+   "level": "b2"
+  },
+  {
+   "word": "émotif",
+   "zh": "易动情的；多愁善感的",
+   "level": "b2"
+  },
+  {
+   "word": "abattu",
+   "zh": "沮丧的；垂头丧气的",
+   "level": "b2"
+  },
+  {
+   "word": "adaptation",
+   "zh": "适应；改编",
+   "level": "b1"
+  },
+  {
+   "word": "agressivité",
+   "zh": "攻击性；好斗",
+   "level": "b2"
+  },
+  {
+   "word": "aisément",
+   "zh": "轻而易举地",
+   "level": "b2"
+  },
+  {
+   "word": "alarmer",
+   "zh": "使惊慌；报警",
+   "level": "b1"
+  },
+  {
+   "word": "amnésique",
+   "zh": "失忆的",
+   "level": "b2"
+  },
+  {
+   "word": "amour-propre",
+   "zh": "自尊心",
+   "level": "b2"
+  },
+  {
+   "word": "annulation",
+   "zh": "取消",
+   "level": "b1"
+  },
+  {
+   "word": "apitoyer",
+   "zh": "激起怜悯；同情",
+   "level": "b2"
+  },
+  {
+   "word": "apprenti",
+   "zh": "学徒",
+   "level": "b1"
+  },
+  {
+   "word": "arène",
+   "zh": "竞技场；斗牛场",
+   "level": "b2"
+  },
+  {
+   "word": "asperger",
+   "zh": "喷洒；浇洒",
+   "level": "b2"
+  },
+  {
+   "word": "assécher",
+   "zh": "使干涸；吸干",
+   "level": "b2"
+  },
+  {
+   "word": "atténuer",
+   "zh": "减轻；缓和",
+   "level": "b2"
+  },
+  {
+   "word": "avatar",
+   "zh": "变迁；波折；化身",
+   "level": "b2"
+  },
+  {
+   "word": "aventurier",
+   "zh": "冒险家",
+   "level": "b1"
+  },
+  {
+   "word": "barricader",
+   "zh": "设置路障；堵住",
+   "level": "b2"
+  },
+  {
+   "word": "bienfait",
+   "zh": "好处；功效",
+   "level": "b1"
+  },
+  {
+   "word": "brioche",
+   "zh": "奶油圆面包",
+   "level": "b1"
+  },
+  {
+   "word": "campement",
+   "zh": "营地；露营地",
+   "level": "b2"
+  },
+  {
+   "word": "caméléon",
+   "zh": "变色龙",
+   "level": "b2"
+  },
+  {
+   "word": "catch",
+   "zh": "（职业）摔角",
+   "level": "b2"
+  },
+  {
+   "word": "certifier",
+   "zh": "证明；认证",
+   "level": "b2"
+  },
+  {
+   "word": "charabia",
+   "zh": "莫名其妙的话；呓语",
+   "level": "b2"
+  },
+  {
+   "word": "chip",
+   "zh": "薯片；芯片",
+   "level": "a2"
+  },
+  {
+   "word": "choléra",
+   "zh": "霍乱",
+   "level": "b2"
+  },
+  {
+   "word": "chronique",
+   "zh": "（报纸）专栏；编年史",
+   "level": "b2"
+  },
+  {
+   "word": "comparaître",
+   "zh": "（被传唤）出庭",
+   "level": "b2"
+  },
+  {
+   "word": "compatible",
+   "zh": "兼容的；合得来的",
+   "level": "b1"
+  },
+  {
+   "word": "concorder",
+   "zh": "一致；相符",
+   "level": "b2"
+  },
+  {
+   "word": "contribuable",
+   "zh": "纳税人",
+   "level": "b2"
+  },
+  {
+   "word": "cosmique",
+   "zh": "宇宙的",
+   "level": "b2"
+  },
+  {
+   "word": "courge",
+   "zh": "瓜类；葫芦；傻瓜（俚语）",
+   "level": "b1"
+  },
+  {
+   "word": "craquement",
+   "zh": "咔嚓声；爆裂声",
+   "level": "b2"
+  },
+  {
+   "word": "cuvette",
+   "zh": "盆；马桶；洼地",
+   "level": "b2"
+  },
+  {
+   "word": "dague",
+   "zh": "匕首；短剑",
+   "level": "b2"
+  },
+  {
+   "word": "desserrer",
+   "zh": "松开；拧松",
+   "level": "b2"
+  },
+  {
+   "word": "dictateur",
+   "zh": "独裁者",
+   "level": "b1"
+  },
+  {
+   "word": "diffusion",
+   "zh": "播出；传播；散发",
+   "level": "b1"
+  },
+  {
+   "word": "divinité",
+   "zh": "神；神性",
+   "level": "b2"
+  },
+  {
+   "word": "divulguer",
+   "zh": "泄露；透露",
+   "level": "b2"
+  },
+  {
+   "word": "déchiqueter",
+   "zh": "撕碎；剁碎",
+   "level": "b2"
+  },
+  {
+   "word": "défectueux",
+   "zh": "有缺陷的；出故障的",
+   "level": "b2"
+  },
+  {
+   "word": "dégommer",
+   "zh": "干掉；击落（口语）",
+   "level": "b2"
+  },
+  {
+   "word": "délier",
+   "zh": "解开；松开",
+   "level": "b2"
+  },
+  {
+   "word": "déluge",
+   "zh": "洪水；倾盆大雨",
+   "level": "b2"
+  },
+  {
+   "word": "déplorer",
+   "zh": "痛惜；谴责",
+   "level": "b2"
+  },
+  {
+   "word": "désastreux",
+   "zh": "灾难性的；糟糕的",
+   "level": "b2"
+  },
+  {
+   "word": "dévaster",
+   "zh": "蹂躏；毁坏",
+   "level": "b2"
+  },
+  {
+   "word": "encadrer",
+   "zh": "指导；监督；加框",
+   "level": "b2"
+  },
+  {
+   "word": "endommagé",
+   "zh": "损坏的",
+   "level": "b1"
+  },
+  {
+   "word": "envol",
+   "zh": "起飞；腾飞",
+   "level": "b2"
+  },
+  {
+   "word": "falsifier",
+   "zh": "伪造；篡改",
+   "level": "b2"
+  },
+  {
+   "word": "fisc",
+   "zh": "税务机关",
+   "level": "b2"
+  },
+  {
+   "word": "fondement",
+   "zh": "基础；根据",
+   "level": "b2"
+  },
+  {
+   "word": "framboise",
+   "zh": "覆盆子；山莓",
+   "level": "a2"
+  },
+  {
+   "word": "friser",
+   "zh": "卷曲；烫卷",
+   "level": "b2"
+  },
+  {
+   "word": "frérot",
+   "zh": "兄弟（俚语称呼）",
+   "level": "b2"
+  },
+  {
+   "word": "graisser",
+   "zh": "抹油；润滑",
+   "level": "b2"
+  },
+  {
+   "word": "grappe",
+   "zh": "（葡萄）串；簇",
+   "level": "b1"
+  },
+  {
+   "word": "habitué",
+   "zh": "常客；老主顾",
+   "level": "b1"
+  },
+  {
+   "word": "hamster",
+   "zh": "仓鼠",
+   "level": "a2"
+  },
+  {
+   "word": "hippopotame",
+   "zh": "河马",
+   "level": "a2"
+  },
+  {
+   "word": "humilié",
+   "zh": "受辱的；蒙羞的",
+   "level": "b1"
+  },
+  {
+   "word": "immoler",
+   "zh": "宰杀（祭品）；牺牲",
+   "level": "b2"
+  },
+  {
+   "word": "impuissance",
+   "zh": "无能为力；无能",
+   "level": "b2"
+  },
+  {
+   "word": "incertitude",
+   "zh": "不确定；犹豫不决",
+   "level": "b2"
+  },
+  {
+   "word": "inculpation",
+   "zh": "控告；指控",
+   "level": "b2"
+  },
+  {
+   "word": "indulgence",
+   "zh": "宽容；宽厚",
+   "level": "b2"
+  },
+  {
+   "word": "insatiable",
+   "zh": "贪得无厌的；永不满足的",
+   "level": "b2"
+  },
+  {
+   "word": "introduction",
+   "zh": "引言；引进；入门",
+   "level": "b1"
+  },
+  {
+   "word": "joug",
+   "zh": "枷锁；束缚",
+   "level": "b2"
+  },
+  {
+   "word": "laitue",
+   "zh": "莴苣；生菜",
+   "level": "a2"
+  },
+  {
+   "word": "loutre",
+   "zh": "水獭",
+   "level": "b2"
+  },
+  {
+   "word": "meute",
+   "zh": "（狼）群；一伙",
+   "level": "b2"
+  },
+  {
+   "word": "micro-ondes",
+   "zh": "微波炉",
+   "level": "a2"
+  },
+  {
+   "word": "moucher",
+   "zh": "擤（鼻涕）；数落",
+   "level": "b1"
+  },
+  {
+   "word": "musculaire",
+   "zh": "肌肉的",
+   "level": "b1"
+  },
+  {
+   "word": "nettoyeur",
+   "zh": "清洁工；清洗器",
+   "level": "b1"
+  },
+  {
+   "word": "ouvertement",
+   "zh": "公开地；直率地",
+   "level": "b2"
+  },
+  {
+   "word": "parachutiste",
+   "zh": "伞兵；跳伞者",
+   "level": "b2"
+  },
+  {
+   "word": "patiner",
+   "zh": "滑冰；打滑",
+   "level": "b1"
+  },
+  {
+   "word": "patriotisme",
+   "zh": "爱国主义；爱国心",
+   "level": "b1"
+  },
+  {
+   "word": "patrouiller",
+   "zh": "巡逻",
+   "level": "b2"
+  },
+  {
+   "word": "paumé",
+   "zh": "茫然无措的（口语）",
+   "level": "b2"
+  },
+  {
+   "word": "perfide",
+   "zh": "阴险的；背信弃义的",
+   "level": "b2"
+  },
+  {
+   "word": "piston",
+   "zh": "活塞；门路",
+   "level": "b2"
+  },
+  {
+   "word": "prestige",
+   "zh": "威望；声望",
+   "level": "b1"
+  },
+  {
+   "word": "publiquement",
+   "zh": "公开地；当众",
+   "level": "b1"
+  },
+  {
+   "word": "punaise",
+   "zh": "图钉；臭虫",
+   "level": "b1"
+  },
+  {
+   "word": "pédiatre",
+   "zh": "儿科医生",
+   "level": "b1"
+  },
+  {
+   "word": "qualification",
+   "zh": "资格；资历",
+   "level": "b1"
+  },
+  {
+   "word": "raccourcir",
+   "zh": "弄短；缩短",
+   "level": "b1"
+  },
+  {
+   "word": "raie",
+   "zh": "条纹；分缝；鳐鱼",
+   "level": "b1"
+  },
+  {
+   "word": "rapatrier",
+   "zh": "遣返；撤回",
+   "level": "b2"
+  },
+  {
+   "word": "retrouvaille",
+   "zh": "重逢（常用复数）",
+   "level": "b1"
+  },
+  {
+   "word": "rhinocéros",
+   "zh": "犀牛",
+   "level": "a2"
+  },
+  {
+   "word": "répression",
+   "zh": "镇压",
+   "level": "b2"
+  },
+  {
+   "word": "rééducation",
+   "zh": "康复治疗；再教育",
+   "level": "b2"
+  },
+  {
+   "word": "rêveur",
+   "zh": "爱做梦的；出神的",
+   "level": "b1"
+  },
+  {
+   "word": "sacrement",
+   "zh": "圣事；圣礼",
+   "level": "b2"
+  },
+  {
+   "word": "saké",
+   "zh": "清酒",
+   "level": "b2"
+  },
+  {
+   "word": "sceptique",
+   "zh": "怀疑的；将信将疑的",
+   "level": "b2"
+  },
+  {
+   "word": "skate",
+   "zh": "滑板",
+   "level": "a2"
+  },
+  {
+   "word": "sketch",
+   "zh": "小品；滑稽短剧",
+   "level": "b1"
+  },
+  {
+   "word": "stagiaire",
+   "zh": "实习生；学员",
+   "level": "b1"
+  },
+  {
+   "word": "stéréo",
+   "zh": "立体声音响",
+   "level": "a2"
+  },
+  {
+   "word": "suffoquer",
+   "zh": "窒息；喘不过气",
+   "level": "b2"
+  },
+  {
+   "word": "superstitieux",
+   "zh": "迷信的",
+   "level": "b2"
+  },
+  {
+   "word": "surcharger",
+   "zh": "使超载；使负担过重",
+   "level": "b1"
+  },
+  {
+   "word": "séduction",
+   "zh": "魅力；诱惑",
+   "level": "b1"
+  },
+  {
+   "word": "séjourner",
+   "zh": "小住；逗留",
+   "level": "b1"
+  },
+  {
+   "word": "sévèrement",
+   "zh": "严厉地",
+   "level": "b1"
+  },
+  {
+   "word": "tape",
+   "zh": "轻拍；巴掌",
+   "level": "b2"
+  },
+  {
+   "word": "terrasser",
+   "zh": "打垮；压倒",
+   "level": "b2"
+  },
+  {
+   "word": "testicule",
+   "zh": "睾丸",
+   "level": "b2"
+  },
+  {
+   "word": "torrent",
+   "zh": "激流；急流",
+   "level": "b2"
+  },
+  {
+   "word": "touristique",
+   "zh": "旅游的；观光的",
+   "level": "a2"
+  },
+  {
+   "word": "tranchant",
+   "zh": "锋利的；斩钉截铁的",
+   "level": "b2"
+  },
+  {
+   "word": "transe",
+   "zh": "恍惚；出神",
+   "level": "b2"
+  },
+  {
+   "word": "transporteur",
+   "zh": "承运商；运输公司",
+   "level": "b2"
+  },
+  {
+   "word": "trimestre",
+   "zh": "学期；季度",
+   "level": "a2"
+  },
+  {
+   "word": "télescope",
+   "zh": "望远镜",
+   "level": "a2"
+  },
+  {
+   "word": "télécharger",
+   "zh": "下载",
+   "level": "a2"
+  },
+  {
+   "word": "usé",
+   "zh": "破旧的；磨损的",
+   "level": "b1"
+  },
+  {
+   "word": "vanille",
+   "zh": "香草",
+   "level": "a2"
+  },
+  {
+   "word": "virilité",
+   "zh": "男子气概",
+   "level": "b2"
+  },
+  {
+   "word": "zen",
+   "zh": "禅的；平和放松的",
+   "level": "a2"
+  },
+  {
+   "word": "échéance",
+   "zh": "期限；到期日",
+   "level": "b2"
+  },
+  {
+   "word": "énergétique",
+   "zh": "能量的；能源的",
+   "level": "b1"
+  },
+  {
+   "word": "équivalent",
+   "zh": "等同物；等价物",
+   "level": "b1"
+  },
+  {
+   "word": "étui",
+   "zh": "（眼镜等）套子；小盒",
+   "level": "b2"
+  },
+  {
+   "word": "évaporer",
+   "zh": "蒸发；（使）消失",
+   "level": "b2"
+  },
+  {
+   "word": "éventualité",
+   "zh": "可能性；万一",
+   "level": "b2"
+  },
+  {
+   "word": "éventuellement",
+   "zh": "可能；必要时",
+   "level": "b1"
+  },
+  {
+   "word": "aluminium",
+   "zh": "铝（金属）",
+   "level": "a2"
+  },
+  {
+   "word": "ampleur",
+   "zh": "规模；幅度",
+   "level": "b2"
+  },
+  {
+   "word": "analyste",
+   "zh": "分析员",
+   "level": "b1"
+  },
+  {
+   "word": "apprivoiser",
+   "zh": "驯养；使亲近",
+   "level": "b2"
+  },
+  {
+   "word": "arsenal",
+   "zh": "兵工厂；军械库",
+   "level": "b2"
+  },
+  {
+   "word": "artichaut",
+   "zh": "朝鲜蓟",
+   "level": "b1"
+  },
+  {
+   "word": "attirance",
+   "zh": "吸引力；好感",
+   "level": "b2"
+  },
+  {
+   "word": "bijouterie",
+   "zh": "珠宝店；珠宝业",
+   "level": "b1"
+  },
+  {
+   "word": "bouché",
+   "zh": "堵塞的",
+   "level": "a2"
+  },
+  {
+   "word": "bouclé",
+   "zh": "卷曲的；卷发的",
+   "level": "a2"
+  },
+  {
+   "word": "brouillé",
+   "zh": "闹翻的；模糊的",
+   "level": "b1"
+  },
+  {
+   "word": "buste",
+   "zh": "半身像；躯干",
+   "level": "b2"
+  },
+  {
+   "word": "bye-bye",
+   "zh": "再见（儿语）",
+   "level": "a1"
+  },
+  {
+   "word": "bâche",
+   "zh": "防水布；车罩",
+   "level": "b2"
+  },
+  {
+   "word": "cadence",
+   "zh": "节奏；步调",
+   "level": "b2"
+  },
+  {
+   "word": "camouflage",
+   "zh": "伪装",
+   "level": "b1"
+  },
+  {
+   "word": "canadien",
+   "zh": "加拿大的；加拿大人",
+   "level": "a2"
+  },
+  {
+   "word": "chavirer",
+   "zh": "（船）倾覆；倾心",
+   "level": "b2"
+  },
+  {
+   "word": "chimpanzé",
+   "zh": "黑猩猩",
+   "level": "a2"
+  },
+  {
+   "word": "confrontation",
+   "zh": "对抗；对质",
+   "level": "b1"
+  },
+  {
+   "word": "contradictoire",
+   "zh": "互相矛盾的",
+   "level": "b2"
+  },
+  {
+   "word": "corrompu",
+   "zh": "腐败的；堕落的",
+   "level": "b2"
+  },
+  {
+   "word": "couronnement",
+   "zh": "加冕；顶峰",
+   "level": "b2"
+  },
+  {
+   "word": "crouler",
+   "zh": "坍塌；崩溃",
+   "level": "b2"
+  },
+  {
+   "word": "cutter",
+   "zh": "美工刀；快艇",
+   "level": "b2"
+  },
+  {
+   "word": "côtoyer",
+   "zh": "与……相处；靠近",
+   "level": "b2"
+  },
+  {
+   "word": "divorcé",
+   "zh": "离婚者；离婚的",
+   "level": "b1"
+  },
+  {
+   "word": "domination",
+   "zh": "统治；支配",
+   "level": "b1"
+  },
+  {
+   "word": "dramatiser",
+   "zh": "夸张渲染；戏剧化",
+   "level": "b2"
+  },
+  {
+   "word": "duquel",
+   "zh": "从其中；关于那个（用于关系从句）",
+   "level": "b1"
+  },
+  {
+   "word": "défaillance",
+   "zh": "衰竭；昏厥；故障",
+   "level": "b2"
+  },
+  {
+   "word": "défensif",
+   "zh": "防御的；防守的",
+   "level": "b1"
+  },
+  {
+   "word": "délibérer",
+   "zh": "审议；商议",
+   "level": "b2"
+  },
+  {
+   "word": "dépendance",
+   "zh": "依赖；毒瘾；附属建筑",
+   "level": "b1"
+  }
+ ],
+ "drop": [
+  {
+   "word": "li",
+   "reason": "过于冷僻"
+  },
+  {
+   "word": "lépreux",
+   "reason": "过于冷僻"
+  },
+  {
+   "word": "macchabée",
+   "reason": "冷僻俚语"
+  },
+  {
+   "word": "malfaisant",
+   "reason": "冷僻书面词"
+  },
+  {
+   "word": "martiner",
+   "reason": "冷僻动词"
+  },
+  {
+   "word": "nada",
+   "reason": "外来俚语"
+  },
+  {
+   "word": "parloir",
+   "reason": "监狱术语冷僻"
+  },
+  {
+   "word": "priser",
+   "reason": "古旧冷僻"
+  },
+  {
+   "word": "rate",
+   "reason": "过于冷僻"
+  },
+  {
+   "word": "remontant",
+   "reason": "冷僻名词"
+  },
+  {
+   "word": "sil",
+   "reason": "非词"
+  },
+  {
+   "word": "sus",
+   "reason": "古旧罕用"
+  },
+  {
+   "word": "terrer",
+   "reason": "冷僻动词"
+  },
+  {
+   "word": "toper",
+   "reason": "冷僻俚语"
+  },
+  {
+   "word": "veillée",
+   "reason": "冷僻传统词"
+  },
+  {
+   "word": "ace",
+   "reason": "借词冷僻"
+  },
+  {
+   "word": "bagne",
+   "reason": "古旧冷僻"
+  },
+  {
+   "word": "bestiau",
+   "reason": "口语冷僻"
+  },
+  {
+   "word": "box",
+   "reason": "借词较冷僻"
+  },
+  {
+   "word": "brancard",
+   "reason": "冷僻专业词"
+  },
+  {
+   "word": "chevelure",
+   "reason": "书面语冷僻"
+  },
+  {
+   "word": "cocher",
+   "reason": "古旧词"
+  },
+  {
+   "word": "collignon",
+   "reason": "非通用词"
+  },
+  {
+   "word": "commandeur",
+   "reason": "冷僻头衔"
+  },
+  {
+   "word": "croiseur",
+   "reason": "军事冷僻"
+  },
+  {
+   "word": "cuiller",
+   "reason": "旧拼法变体"
+  },
+  {
+   "word": "cuistot",
+   "reason": "俚语冷僻"
+  },
+  {
+   "word": "disquette",
+   "reason": "过时技术词"
+  },
+  {
+   "word": "détachement",
+   "reason": "冷僻书面词"
+  },
+  {
+   "word": "filou",
+   "reason": "古旧俚语"
+  },
+  {
+   "word": "fougasse",
+   "reason": "过于冷僻"
+  },
+  {
+   "word": "fourguer",
+   "reason": "俚语冷僻"
+  },
+  {
+   "word": "frayer",
+   "reason": "冷僻书面词"
+  },
+  {
+   "word": "grabuge",
+   "reason": "口语冷僻"
+  },
+  {
+   "word": "laveur",
+   "reason": "派生名词冷僻"
+  },
+  {
+   "word": "loucher",
+   "reason": "冷僻动词"
+  },
+  {
+   "word": "momi",
+   "reason": "非通用词"
+  },
+  {
+   "word": "mécano",
+   "reason": "口语缩略词"
+  },
+  {
+   "word": "plant",
+   "reason": "冷僻农业词"
+  },
+  {
+   "word": "poulailler",
+   "reason": "过于冷僻"
+  },
+  {
+   "word": "rafraîchissement",
+   "reason": "冷僻派生词"
+  },
+  {
+   "word": "rai",
+   "reason": "冷僻书面词"
+  },
+  {
+   "word": "ricain",
+   "reason": "口语缩略词"
+  },
+  {
+   "word": "rosser",
+   "reason": "口语冷僻"
+  },
+  {
+   "word": "roupiller",
+   "reason": "俚语冷僻"
+  },
+  {
+   "word": "scalpel",
+   "reason": "冷僻专业词"
+  },
+  {
+   "word": "soviet",
+   "reason": "冷僻历史词"
+  },
+  {
+   "word": "teinture",
+   "reason": "冷僻名词"
+  },
+  {
+   "word": "tic-tac",
+   "reason": "拟声词"
+  },
+  {
+   "word": "tom",
+   "reason": "缩略词"
+  },
+  {
+   "word": "valeureux",
+   "reason": "文学冷僻"
+  },
+  {
+   "word": "vallon",
+   "reason": "过于冷僻"
+  },
+  {
+   "word": "verset",
+   "reason": "冷僻宗教词"
+  },
+  {
+   "word": "water",
+   "reason": "冷僻借词"
+  },
+  {
+   "word": "écoper",
+   "reason": "冷僻动词"
+  },
+  {
+   "word": "allégresse",
+   "reason": "书面冷僻"
+  },
+  {
+   "word": "bang",
+   "reason": "拟声词"
+  },
+  {
+   "word": "benne",
+   "reason": "过于冷僻"
+  },
+  {
+   "word": "blinder",
+   "reason": "口语冷僻"
+  },
+  {
+   "word": "bobo",
+   "reason": "俚语非通用"
+  },
+  {
+   "word": "bouseux",
+   "reason": "俚语贬义"
+  },
+  {
+   "word": "bêta",
+   "reason": "过于冷僻"
+  },
+  {
+   "word": "carrelage",
+   "reason": "冷僻建材词"
+  },
+  {
+   "word": "catéchisme",
+   "reason": "冷僻宗教词"
+  },
+  {
+   "word": "chasteté",
+   "reason": "冷僻书面词"
+  },
+  {
+   "word": "civière",
+   "reason": "冷僻专业词"
+  },
+  {
+   "word": "commère",
+   "reason": "冷僻名词"
+  },
+  {
+   "word": "crânien",
+   "reason": "冷僻专业词"
+  },
+  {
+   "word": "dansant",
+   "reason": "冷僻形容词"
+  },
+  {
+   "word": "doña",
+   "reason": "外来头衔"
+  },
+  {
+   "word": "débiner",
+   "reason": "俚语冷僻"
+  },
+  {
+   "word": "dégueuler",
+   "reason": "粗俗俚语"
+  }
+ ]
+}

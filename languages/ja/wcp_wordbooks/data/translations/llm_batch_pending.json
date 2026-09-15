@@ -1,0 +1,322 @@
+[
+ {
+  "word": "ひょっと",
+  "reading": "",
+  "meaning_en": "possibly; accidentally",
+  "meaning_zh": "或许（ひょっとしたら）",
+  "example_ja": "ひょっとして彼女と会ったの？",
+  "level": "N1"
+ },
+ {
+  "word": "じゃあ",
+  "reading": "",
+  "meaning_en": "well then…",
+  "meaning_zh": "那么；再见（では的口语）",
+  "example_ja": "",
+  "level": "N5"
+ },
+ {
+  "word": "物体ない",
+  "reading": "もったいない",
+  "meaning_en": "too good; more than one deserves; wasteful; sacrilegious; unworthy of",
+  "meaning_zh": "可惜的；过分的（=勿体無い）",
+  "example_ja": "",
+  "level": "N1"
+ },
+ {
+  "word": "ごらんになる",
+  "reading": "",
+  "meaning_en": "(respectful) to see",
+  "meaning_zh": "看（見る的尊敬语）",
+  "example_ja": "",
+  "level": "N4"
+ },
+ {
+  "word": "限る",
+  "reading": "かぎる",
+  "meaning_en": "to restrict; to limit; to confine",
+  "meaning_zh": "限定；（不）一定（とは限らない）",
+  "example_ja": "夏はスイカに限る！",
+  "level": "N3"
+ },
+ {
+  "word": "落ちる",
+  "reading": "おちる",
+  "meaning_en": "to fall or drop",
+  "meaning_zh": "落下（=落ちる）",
+  "example_ja": "",
+  "level": "N4"
+ },
+ {
+  "word": "よい",
+  "reading": "",
+  "meaning_en": "good; nice; pleasant; ok",
+  "meaning_zh": "好的（=よい）",
+  "example_ja": "気分がよい。",
+  "level": "N3"
+ },
+ {
+  "word": "何の",
+  "reading": "なにの",
+  "meaning_en": "which; what",
+  "meaning_zh": "什么的（何の变）（疑问）",
+  "example_ja": "何のために？",
+  "level": "N1"
+ },
+ {
+  "word": "そっぽ",
+  "reading": "そっぽ",
+  "meaning_en": "look (or turn) the other way",
+  "meaning_zh": "别处；不理睬（向く）",
+  "example_ja": "",
+  "level": "N1"
+ },
+ {
+  "word": "人目",
+  "reading": "じんもく",
+  "meaning_en": "glimpse; public gaze",
+  "meaning_zh": "世人眼光（人目を引く）",
+  "example_ja": "意外に人目を気にするタイプだ。",
+  "level": "N1"
+ },
+ {
+  "word": "帳",
+  "reading": "とばり",
+  "meaning_en": "curtain",
+  "meaning_zh": "帐；（帷幕）とばり",
+  "example_ja": "電話帳をみて。",
+  "level": "N1"
+ },
+ {
+  "word": "そう",
+  "reading": "そう",
+  "meaning_en": "really",
+  "meaning_zh": "那样；那样地（そうだ：听说/好像）",
+  "example_ja": "本当にそう。",
+  "level": "N4"
+ },
+ {
+  "word": "即する",
+  "reading": "そくする",
+  "meaning_en": "to conform to; to agree with; to be adapted to; to be based on",
+  "meaning_zh": "即；（～に即して：结合）",
+  "example_ja": "",
+  "level": "N1"
+ },
+ {
+  "word": "然しながら",
+  "reading": "しかしながら",
+  "meaning_en": "nevertheless; however",
+  "meaning_zh": "然而（=しかしながら）",
+  "example_ja": "",
+  "level": "N1"
+ },
+ {
+  "word": "ヶ月",
+  "reading": "かげつ",
+  "meaning_en": "#NAME?",
+  "meaning_zh": "（量词）个月（三ヶ月）",
+  "example_ja": "約１ヶ月です。",
+  "level": "N1"
+ },
+ {
+  "word": "こっち",
+  "reading": "",
+  "meaning_en": "this person or way",
+  "meaning_zh": "这边（こちら的随意说法）",
+  "example_ja": "早く、こっち！",
+  "level": "N5"
+ },
+ {
+  "word": "延べ",
+  "reading": "のべ",
+  "meaning_en": "futures; credit (buying); stretching; total",
+  "meaning_zh": "（延べ人数）累计；总",
+  "example_ja": "金の延べ棒１本を盗まれた。",
+  "level": "N1"
+ },
+ {
+  "word": "素",
+  "reading": "もと",
+  "meaning_en": "prime",
+  "meaning_zh": "素；本源（もと）",
+  "example_ja": "素晴らしい。",
+  "level": "N3"
+ },
+ {
+  "word": "途端",
+  "reading": "とたん",
+  "meaning_en": "just (now; at the moment; etc.)",
+  "meaning_zh": "正当……之时（～た途端）",
+  "example_ja": "座った途端、寝てしまった。",
+  "level": "N3"
+ },
+ {
+  "word": "工夫",
+  "reading": "くふう",
+  "meaning_en": "labourer; worker",
+  "meaning_zh": "办法；动脑筋；（こうふ）劳工",
+  "example_ja": "食べる前にひと工夫！",
+  "level": "N2"
+ },
+ {
+  "word": "何なり",
+  "reading": "なんなり",
+  "meaning_en": "any; anything; whatever",
+  "meaning_zh": "什么都可以（何なりと）",
+  "example_ja": "何なりと言って下さい。",
+  "level": "N1"
+ },
+ {
+  "word": "しまう",
+  "reading": "しまう",
+  "meaning_en": "to finish; to close; to do something completely",
+  "meaning_zh": "收拾；（完）了；放进（・てしまう：完了/遗憾）",
+  "example_ja": "また太ってしまう！",
+  "level": "N3"
+ },
+ {
+  "word": "キロ",
+  "reading": "",
+  "meaning_en": "kilogram",
+  "meaning_zh": "公斤；千克；公里（キログラム／キロメートル的略称）",
+  "example_ja": "",
+  "level": "N5"
+ },
+ {
+  "word": "なるたけ",
+  "reading": "なるたけ",
+  "meaning_en": "as much as possible; if possible",
+  "meaning_zh": "尽可能（=なるたけ）",
+  "example_ja": "",
+  "level": "N1"
+ },
+ {
+  "word": "おっしゃる",
+  "reading": "",
+  "meaning_en": "(respectful) to say",
+  "meaning_zh": "说（言う的尊敬语）",
+  "example_ja": "おっしゃる通りです。",
+  "level": "N4"
+ },
+ {
+  "word": "然も",
+  "reading": "さも",
+  "meaning_en": "with gusto; with satisfaction",
+  "meaning_zh": "俨然；仿佛（=さも）",
+  "example_ja": "偶然も３度重なれば必然になる。",
+  "level": "N1"
+ },
+ {
+  "word": "だらけ",
+  "reading": "",
+  "meaning_en": "implying (negatively) that something is full of e.g. mistakes",
+  "meaning_zh": "满是（泥だらけ：全是泥）",
+  "example_ja": "血だらけだよ。",
+  "level": "N1"
+ },
+ {
+  "word": "字",
+  "reading": "じ",
+  "meaning_en": "character",
+  "meaning_zh": "（日本地方地址中的）字；区段（あざ）",
+  "example_ja": "商売は赤字だ。",
+  "level": "N4"
+ },
+ {
+  "word": "田んぼ",
+  "reading": "たんぼ",
+  "meaning_en": "paddy field; farm",
+  "meaning_zh": "水田；稻田（=田んぼ）",
+  "example_ja": "",
+  "level": "N2"
+ },
+ {
+  "word": "暮れる",
+  "reading": "くれる",
+  "meaning_en": "to get dark; to come to an end",
+  "meaning_zh": "天黑；（一年）将尽；苦恼（思い暮れる）",
+  "example_ja": "冬の日は速く暮れる。",
+  "level": "N4"
+ },
+ {
+  "word": "はまる",
+  "reading": "はまる",
+  "meaning_en": "to get into; to go into; to fit; to be fit for; to suit; to fall into; to plunge into; to be deceived; to be",
+  "meaning_zh": "嵌入；正合适；陷入（=嵌まる）",
+  "example_ja": "",
+  "level": "N1"
+ },
+ {
+  "word": "どうして",
+  "reading": "どうして",
+  "meaning_en": "for what reason",
+  "meaning_zh": "为什么（=どうして）",
+  "example_ja": "でもどうして？",
+  "level": "N5"
+ },
+ {
+  "word": "俄か",
+  "reading": "にわか",
+  "meaning_en": "sudden; abrupt; unexpected; improvised; offhand",
+  "meaning_zh": "突然（俄に）",
+  "example_ja": "",
+  "level": "N1"
+ },
+ {
+  "word": "分かる",
+  "reading": "わかる",
+  "meaning_en": "to be understood",
+  "meaning_zh": "明白；理解（=分かる）",
+  "example_ja": "分かる、分かる。",
+  "level": "N5"
+ },
+ {
+  "word": "御覧",
+  "reading": "ごらん",
+  "meaning_en": "(hon) look; inspection; try",
+  "meaning_zh": "请看（見る的尊敬语）",
+  "example_ja": "その眠っている赤ちゃんを御覧なさい。",
+  "level": "N2"
+ },
+ {
+  "word": "基",
+  "reading": "もと",
+  "meaning_en": "basis",
+  "meaning_zh": "基础；根据；本源（もとい）",
+  "example_ja": "基本が大切よ。",
+  "level": "N3"
+ },
+ {
+  "word": "フォーク",
+  "reading": "",
+  "meaning_en": "fork",
+  "meaning_zh": "叉子；（民）谣（フォークソング）",
+  "example_ja": "フォークを下さい。",
+  "level": "N5"
+ },
+ {
+  "word": "あちこち",
+  "reading": "",
+  "meaning_en": "here and there",
+  "meaning_zh": "到处（=あちこち）",
+  "example_ja": "あちこち痒いよ。",
+  "level": "N3"
+ },
+ {
+  "word": "と",
+  "reading": "せいと",
+  "meaning_en": "1. if (conjunction); 2. promoted pawn (shogi) (abbr)",
+  "meaning_zh": "和；与；（将棋）と金",
+  "example_ja": "美徳と悪徳。",
+  "level": "N1"
+ },
+ {
+  "word": "用",
+  "reading": "よう",
+  "meaning_en": "use",
+  "meaning_zh": "事情；用途（用がある：有事）",
+  "example_ja": "他にご用は？",
+  "level": "N4"
+ }
+]

@@ -1,0 +1,602 @@
+[
+{
+"word": "croisade",
+"pos": "n.f.",
+"zh": "十字军东征；圣战",
+"level": "b2"
+},
+{
+"word": "croque-mort",
+"pos": "n.m.",
+"zh": "殡葬工（口语）",
+"level": "b2"
+},
+{
+"word": "croquer",
+"pos": "v.",
+"zh": "咬；啃；速写",
+"level": "b2"
+},
+{
+"word": "crotte",
+"pos": "n.f.",
+"zh": "粪便；屎",
+"level": "b2"
+},
+{
+"word": "crouler",
+"pos": "v.",
+"zh": "坍塌；崩溃",
+"level": "b2"
+},
+{
+"word": "croyable",
+"pos": "adj.",
+"zh": "可信的",
+"level": "b2"
+},
+{
+"word": "croître",
+"pos": "v.",
+"zh": "增长",
+"level": "b2"
+},
+{
+"word": "cruauté",
+"pos": "n.f.",
+"zh": "残忍；残酷",
+"level": "b2"
+},
+{
+"word": "cruche",
+"pos": "n.f.",
+"zh": "壶；水罐；笨蛋",
+"level": "b2"
+},
+{
+"word": "crucial",
+"pos": "adj.",
+"zh": "关键的；决定性的",
+"level": "b2"
+},
+{
+"word": "crucifier",
+"pos": "v.",
+"zh": "钉上十字架；折磨",
+"level": "b2"
+},
+{
+"word": "crypte",
+"pos": "n.f.",
+"zh": "地窖；（教堂）地下室",
+"level": "b2"
+},
+{
+"word": "crève",
+"pos": "n.f.",
+"zh": "重感冒（口语）",
+"level": "b2"
+},
+{
+"word": "créateur",
+"pos": "n.m.",
+"zh": "创造者；设计师",
+"level": "b2"
+},
+{
+"word": "crépuscule",
+"pos": "n.m.",
+"zh": "黄昏；暮色",
+"level": "b2"
+},
+{
+"word": "crête",
+"pos": "n.f.",
+"zh": "鸡冠；峰顶",
+"level": "b2"
+},
+{
+"word": "cueillir",
+"pos": "v.",
+"zh": "采摘；采集",
+"level": "b2"
+},
+{
+"word": "culot",
+"pos": "n.m.",
+"zh": "厚脸皮；大胆（口语）",
+"level": "b2"
+},
+{
+"word": "culpabiliser",
+"pos": "v.",
+"zh": "使内疚；自责",
+"level": "b2"
+},
+{
+"word": "culte",
+"pos": "n.m.",
+"zh": "礼拜；崇拜",
+"level": "b2"
+},
+{
+"word": "cure",
+"pos": "n.f.",
+"zh": "疗程；疗养",
+"level": "b2"
+},
+{
+"word": "cutter",
+"pos": "n.m.",
+"zh": "美工刀；快艇",
+"level": "b2"
+},
+{
+"word": "cuvette",
+"pos": "n.f.",
+"zh": "盆；马桶；洼地",
+"level": "b2"
+},
+{
+"word": "cyanure",
+"pos": "n.m.",
+"zh": "氰化物",
+"level": "b2"
+},
+{
+"word": "cynique",
+"pos": "adj.",
+"zh": "愤世嫉俗的；犬儒的",
+"level": "b2"
+},
+{
+"word": "câlin",
+"pos": "n.m.",
+"zh": "拥抱；依偎",
+"level": "b2"
+},
+{
+"word": "céleste",
+"pos": "adj.",
+"zh": "天上的；天空的",
+"level": "b2"
+},
+{
+"word": "célébrité",
+"pos": "n.f.",
+"zh": "名人；名声",
+"level": "b2"
+},
+{
+"word": "cérébral",
+"pos": "adj.",
+"zh": "大脑的；理性的",
+"level": "b2"
+},
+{
+"word": "côtoyer",
+"pos": "v.",
+"zh": "与……相处；靠近",
+"level": "b2"
+},
+{
+"word": "dague",
+"pos": "n.f.",
+"zh": "匕首；短剑",
+"level": "b2"
+},
+{
+"word": "daigner",
+"pos": "v.",
+"zh": "屈尊；惠予（正式）",
+"level": "b2"
+},
+{
+"word": "dalle",
+"pos": "n.f.",
+"zh": "石板",
+"level": "b2"
+},
+{
+"word": "damner",
+"pos": "v.",
+"zh": "罚入地狱；诅咒",
+"level": "b2"
+},
+{
+"word": "damné",
+"pos": "adj.",
+"zh": "被诅咒的；该死的",
+"level": "b2"
+},
+{
+"word": "dandy",
+"pos": "n.m.",
+"zh": "花花公子；时髦绅士",
+"level": "b2"
+},
+{
+"word": "dealer",
+"pos": "n.m.",
+"zh": "毒贩（口语）",
+"level": "b2"
+},
+{
+"word": "delta",
+"pos": "n.m.",
+"zh": "三角洲",
+"level": "b2"
+},
+{
+"word": "demeure",
+"pos": "n.f.",
+"zh": "住所（书面）",
+"level": "b2"
+},
+{
+"word": "demeurer",
+"pos": "v.",
+"zh": "居住；仍然是",
+"level": "b2"
+},
+{
+"word": "demeuré",
+"pos": "n.m.",
+"zh": "笨蛋（口语）",
+"level": "b2"
+},
+{
+"word": "dentaire",
+"pos": "adj.",
+"zh": "牙齿的",
+"level": "b2"
+},
+{
+"word": "dentelle",
+"pos": "n.f.",
+"zh": "花边；蕾丝",
+"level": "b2"
+},
+{
+"word": "dessein",
+"pos": "n.m.",
+"zh": "意图；打算",
+"level": "b2"
+},
+{
+"word": "desserrer",
+"pos": "v.",
+"zh": "松开；拧松",
+"level": "b2"
+},
+{
+"word": "dessécher",
+"pos": "v.",
+"zh": "使干枯；变干",
+"level": "b2"
+},
+{
+"word": "destiner",
+"pos": "v.",
+"zh": "指定给；预定",
+"level": "b2"
+},
+{
+"word": "destinée",
+"pos": "n.f.",
+"zh": "命运；天命",
+"level": "b2"
+},
+{
+"word": "destructeur",
+"pos": "adj.",
+"zh": "破坏性的",
+"level": "b2"
+},
+{
+"word": "deuil",
+"pos": "n.m.",
+"zh": "哀悼；丧事",
+"level": "b2"
+},
+{
+"word": "devancer",
+"pos": "v.",
+"zh": "领先；居先",
+"level": "b2"
+},
+{
+"word": "devise",
+"pos": "n.f.",
+"zh": "格言；货币",
+"level": "b2"
+},
+{
+"word": "diagnostic",
+"pos": "n.m.",
+"zh": "诊断；判断",
+"level": "b2"
+},
+{
+"word": "dicton",
+"pos": "n.m.",
+"zh": "俗语；谚语",
+"level": "b2"
+},
+{
+"word": "différencier",
+"pos": "v.",
+"zh": "区分；使有别",
+"level": "b2"
+},
+{
+"word": "différend",
+"pos": "n.m.",
+"zh": "争端；分歧",
+"level": "b2"
+},
+{
+"word": "différer",
+"pos": "v.",
+"zh": "推迟；相异",
+"level": "b2"
+},
+{
+"word": "diligence",
+"pos": "n.f.",
+"zh": "驿站马车；勤勉（正式）",
+"level": "b2"
+},
+{
+"word": "disciple",
+"pos": "n.",
+"zh": "门徒；追随者",
+"level": "b2"
+},
+{
+"word": "disjoncter",
+"pos": "v.",
+"zh": "跳闸；失常（口语）",
+"level": "b2"
+},
+{
+"word": "disparu",
+"pos": "n.m.",
+"zh": "失踪者；死者；消失的",
+"level": "b2"
+},
+{
+"word": "dispenser",
+"pos": "v.",
+"zh": "讲授；授予；免除",
+"level": "b2"
+},
+{
+"word": "dispositif",
+"pos": "n.m.",
+"zh": "装置；机制",
+"level": "b2"
+},
+{
+"word": "dissimuler",
+"pos": "v.",
+"zh": "隐藏；掩饰",
+"level": "b2"
+},
+{
+"word": "dissiper",
+"pos": "v.",
+"zh": "驱散；消除",
+"level": "b2"
+},
+{
+"word": "dissoudre",
+"pos": "v.",
+"zh": "溶解；解散",
+"level": "b2"
+},
+{
+"word": "dissuader",
+"pos": "v.",
+"zh": "劝阻；打消念头",
+"level": "b2"
+},
+{
+"word": "distant",
+"pos": "adj.",
+"zh": "冷淡的；疏远的",
+"level": "b2"
+},
+{
+"word": "distingué",
+"pos": "adj.",
+"zh": "高雅的；有气派的",
+"level": "b2"
+},
+{
+"word": "diva",
+"pos": "n.f.",
+"zh": "女歌唱家；大牌歌星",
+"level": "b2"
+},
+{
+"word": "divaguer",
+"pos": "v.",
+"zh": "胡扯；胡言乱语",
+"level": "b2"
+},
+{
+"word": "divan",
+"pos": "n.m.",
+"zh": "软榻；长沙发",
+"level": "b2"
+},
+{
+"word": "diversion",
+"pos": "n.f.",
+"zh": "转移注意力；牵制",
+"level": "b2"
+},
+{
+"word": "divinité",
+"pos": "n.f.",
+"zh": "神；神性",
+"level": "b2"
+},
+{
+"word": "divulguer",
+"pos": "v.",
+"zh": "泄露；透露",
+"level": "b2"
+},
+{
+"word": "dock",
+"pos": "n.m.",
+"zh": "码头；船坞",
+"level": "b2"
+},
+{
+"word": "domestique",
+"pos": "n.",
+"zh": "仆人；家庭的",
+"level": "b2"
+},
+{
+"word": "dompteur",
+"pos": "n.m.",
+"zh": "驯兽师",
+"level": "b2"
+},
+{
+"word": "donjon",
+"pos": "n.m.",
+"zh": "城堡主塔",
+"level": "b2"
+},
+{
+"word": "donne",
+"pos": "n.",
+"zh": "牌局；形势",
+"level": "b2"
+},
+{
+"word": "donneur",
+"pos": "n.m.",
+"zh": "捐赠者；献血者",
+"level": "b2"
+},
+{
+"word": "donné",
+"pos": "adj.",
+"zh": "给定的；已知的",
+"level": "b2"
+},
+{
+"word": "dorer",
+"pos": "v.",
+"zh": "镀金；晒成金色",
+"level": "b2"
+},
+{
+"word": "dorénavant",
+"pos": "adv.",
+"zh": "从今以后",
+"level": "b2"
+},
+{
+"word": "dot",
+"pos": "n.f.",
+"zh": "嫁妆",
+"level": "b2"
+},
+{
+"word": "doter",
+"pos": "v.",
+"zh": "赋予；配备",
+"level": "b2"
+},
+{
+"word": "doublure",
+"pos": "n.f.",
+"zh": "替身；衬里",
+"level": "b2"
+},
+{
+"word": "douille",
+"pos": "n.f.",
+"zh": "弹壳；套筒",
+"level": "b2"
+},
+{
+"word": "douillet",
+"pos": "adj.",
+"zh": "怕冷的；柔软舒适的",
+"level": "b2"
+},
+{
+"word": "doyen",
+"pos": "n.m.",
+"zh": "年长者；系主任",
+"level": "b2"
+},
+{
+"word": "dramatiser",
+"pos": "v.",
+"zh": "夸张渲染；戏剧化",
+"level": "b2"
+},
+{
+"word": "dresser",
+"pos": "v.",
+"zh": "竖起；训练；拟定",
+"level": "b2"
+},
+{
+"word": "droguer",
+"pos": "v.",
+"zh": "使吸毒；下药",
+"level": "b2"
+},
+{
+"word": "drogué",
+"pos": "n.m.",
+"zh": "吸毒者；上瘾的人",
+"level": "b2"
+},
+{
+"word": "duc",
+"pos": "n.m.",
+"zh": "公爵",
+"level": "b2"
+},
+{
+"word": "duel",
+"pos": "n.m.",
+"zh": "决斗；较量",
+"level": "b2"
+},
+{
+"word": "dupe",
+"pos": "adj.",
+"zh": "受骗的；上当者",
+"level": "b2"
+},
+{
+"word": "duper",
+"pos": "v.",
+"zh": "欺骗",
+"level": "b2"
+},
+{
+"word": "durement",
+"pos": "adv.",
+"zh": "严厉地；艰苦地",
+"level": "b2"
+},
+{
+"word": "dynastie",
+"pos": "n.f.",
+"zh": "王朝；朝代",
+"level": "b2"
+}
+]

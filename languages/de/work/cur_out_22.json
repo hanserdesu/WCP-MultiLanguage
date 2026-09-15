@@ -1,0 +1,1047 @@
+{
+ "kept": [
+  {
+   "word": "fortschritte",
+   "lemma": "Fortschritt",
+   "zh": "进步",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "eingang",
+   "lemma": "Eingang",
+   "zh": "入口",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "vorhaben",
+   "lemma": "Vorhaben",
+   "zh": "打算",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "kultur",
+   "lemma": "Kultur",
+   "zh": "文化",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "patientin",
+   "lemma": "Patientin",
+   "zh": "女病人",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "verzichten",
+   "zh": "放弃",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "existenz",
+   "lemma": "Existenz",
+   "zh": "生存",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "drehbuch",
+   "lemma": "Drehbuch",
+   "zh": "剧本",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "anzusehen",
+   "zh": "观看",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "ohnmächtig",
+   "zh": "昏迷的；无力的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "zaun",
+   "lemma": "Zaun",
+   "zh": "栅栏",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "geladen",
+   "lemma": "laden",
+   "zh": "装载",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "privat",
+   "zh": "私人的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "brauchten",
+   "lemma": "brauchen",
+   "zh": "需要",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "wächter",
+   "lemma": "Wächter",
+   "zh": "看守",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "eimer",
+   "lemma": "Eimer",
+   "zh": "桶",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "blasen",
+   "zh": "吹",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "rakete",
+   "lemma": "Rakete",
+   "zh": "火箭",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "salz",
+   "lemma": "Salz",
+   "zh": "盐",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "unfair",
+   "zh": "不公平的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "esel",
+   "lemma": "Esel",
+   "zh": "驴；蠢人",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "krankenschwester",
+   "lemma": "Krankenschwester",
+   "zh": "护士",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "symbol",
+   "lemma": "Symbol",
+   "zh": "象征",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "fahrzeug",
+   "lemma": "Fahrzeug",
+   "zh": "车辆",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "unterwäsche",
+   "lemma": "Unterwäsche",
+   "zh": "内衣",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "engländer",
+   "lemma": "Engländer",
+   "zh": "英国人",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "genossen",
+   "lemma": "genießen",
+   "zh": "享受",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "tropfen",
+   "zh": "滴；水滴",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "verhungern",
+   "zh": "饿死",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "september",
+   "lemma": "September",
+   "zh": "九月",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "aktion",
+   "lemma": "Aktion",
+   "zh": "行动",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "bestanden",
+   "lemma": "bestehen",
+   "zh": "通过；存在",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "schluchzt",
+   "lemma": "schluchzen",
+   "zh": "抽泣",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "übertrieben",
+   "lemma": "übertreiben",
+   "zh": "夸张",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "heilmittel",
+   "lemma": "Heilmittel",
+   "zh": "药物",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "apparat",
+   "lemma": "Apparat",
+   "zh": "装置",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "vorm",
+   "zh": "在…前（vor dem 缩合）",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "friedlich",
+   "zh": "和平的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "zuschauer",
+   "lemma": "Zuschauer",
+   "zh": "观众",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "teenager",
+   "lemma": "Teenager",
+   "zh": "青少年",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "geliefert",
+   "lemma": "liefern",
+   "zh": "交付；提供",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "lediglich",
+   "zh": "仅仅",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "charakter",
+   "lemma": "Charakter",
+   "zh": "性格；角色",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "krass",
+   "zh": "夸张的（口语）",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "geräusche",
+   "lemma": "Geräusch",
+   "zh": "噪音；声响",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "lichter",
+   "lemma": "Licht",
+   "zh": "光；灯",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "staffel",
+   "lemma": "Staffel",
+   "zh": "季度；梯队",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "putzen",
+   "zh": "擦；打扫",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "einbruch",
+   "lemma": "Einbruch",
+   "zh": "入室盗窃",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "geheilt",
+   "lemma": "heilen",
+   "zh": "治愈",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "beißen",
+   "zh": "咬",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "stammen",
+   "zh": "出自",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "wände",
+   "lemma": "Wand",
+   "zh": "墙",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "befürchte",
+   "lemma": "befürchten",
+   "zh": "担心",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "kostüm",
+   "lemma": "Kostüm",
+   "zh": "服装",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "versagen",
+   "zh": "失败",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "übernommen",
+   "lemma": "übernehmen",
+   "zh": "接管",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "verschieben",
+   "zh": "推迟；移动",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "verspätung",
+   "lemma": "Verspätung",
+   "zh": "迟到；延误",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "whiskey",
+   "lemma": "Whiskey",
+   "zh": "威士忌",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "mars",
+   "lemma": "Mars",
+   "zh": "火星",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "entdecken",
+   "zh": "发现",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "thron",
+   "lemma": "Thron",
+   "zh": "王座",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "zelt",
+   "lemma": "Zelt",
+   "zh": "帐篷",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "akzent",
+   "lemma": "Akzent",
+   "zh": "口音",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "übertragen",
+   "zh": "转播；传输",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "kompliment",
+   "lemma": "Kompliment",
+   "zh": "称赞",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "erschrecken",
+   "zh": "受惊；惊吓",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "gemälde",
+   "lemma": "Gemälde",
+   "zh": "画作",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "mannschaft",
+   "lemma": "Mannschaft",
+   "zh": "队伍",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "loyalität",
+   "lemma": "Loyalität",
+   "zh": "忠诚",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "dankeschön",
+   "zh": "谢谢你",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "vertreten",
+   "zh": "代表",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "verhandlung",
+   "lemma": "Verhandlung",
+   "zh": "谈判",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "brüllt",
+   "lemma": "brüllen",
+   "zh": "吼叫",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "füllen",
+   "zh": "装满",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "letztendlich",
+   "zh": "归根结底",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "krise",
+   "lemma": "Krise",
+   "zh": "危机",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "verlierer",
+   "lemma": "Verlierer",
+   "zh": "失败者",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "kekse",
+   "lemma": "Keks",
+   "zh": "饼干",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "ausschalten",
+   "zh": "关掉；消灭",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "profi",
+   "lemma": "Profi",
+   "zh": "专家（口语）",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "erledige",
+   "lemma": "erledigen",
+   "zh": "完成",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "einspruch",
+   "lemma": "Einspruch",
+   "zh": "异议",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "angeln",
+   "zh": "钓鱼",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "rausgehen",
+   "zh": "出去（口语）",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "kaution",
+   "lemma": "Kaution",
+   "zh": "保释金",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "summe",
+   "lemma": "Summe",
+   "zh": "总和",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "billig",
+   "zh": "便宜的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "juni",
+   "lemma": "Juni",
+   "zh": "六月",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "festgenommen",
+   "lemma": "festnehmen",
+   "zh": "逮捕",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "herzinfarkt",
+   "lemma": "Herzinfarkt",
+   "zh": "心脏病发作",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "hinlegen",
+   "zh": "躺下",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "nahrung",
+   "lemma": "Nahrung",
+   "zh": "食物",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "liege",
+   "lemma": "liegen",
+   "zh": "躺；位于",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "geflohen",
+   "lemma": "fliehen",
+   "zh": "逃走",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "knall",
+   "lemma": "Knall",
+   "zh": "砰声",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "nebenbei",
+   "zh": "顺便；此外",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "nachbar",
+   "lemma": "Nachbar",
+   "zh": "邻居",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "nebel",
+   "lemma": "Nebel",
+   "zh": "雾",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "front",
+   "lemma": "Front",
+   "zh": "前线；正面",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "veränderung",
+   "lemma": "Veränderung",
+   "zh": "变化",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "affe",
+   "lemma": "Affe",
+   "zh": "猴子",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "kontaktieren",
+   "zh": "联络",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "brand",
+   "lemma": "Brand",
+   "zh": "火灾",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "zwischenzeit",
+   "lemma": "Zwischenzeit",
+   "zh": "其间",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "rennt",
+   "lemma": "rennen",
+   "zh": "跑",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "anlegen",
+   "zh": "安放；投资",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "café",
+   "lemma": "Café",
+   "zh": "咖啡馆",
+   "level": "a1",
+   "pos": "n."
+  }
+ ],
+ "dedup": [
+  {
+   "word": "persönliches"
+  },
+  {
+   "word": "zugehört"
+  },
+  {
+   "word": "biete"
+  },
+  {
+   "word": "explodiert"
+  },
+  {
+   "word": "nichte"
+  },
+  {
+   "word": "steven"
+  },
+  {
+   "word": "guckt"
+  },
+  {
+   "word": "heb"
+  },
+  {
+   "word": "verzeiht"
+  },
+  {
+   "word": "entscheidet"
+  },
+  {
+   "word": "betrachtet"
+  },
+  {
+   "word": "bauern"
+  },
+  {
+   "word": "wartete"
+  },
+  {
+   "word": "schaust"
+  },
+  {
+   "word": "probiert"
+  },
+  {
+   "word": "versuchten"
+  },
+  {
+   "word": "mütter"
+  },
+  {
+   "word": "haaren"
+  },
+  {
+   "word": "richtiges"
+  },
+  {
+   "word": "gestritten"
+  },
+  {
+   "word": "maus"
+  },
+  {
+   "word": "weiterer"
+  },
+  {
+   "word": "group"
+  },
+  {
+   "word": "ricky"
+  },
+  {
+   "word": "starken"
+  },
+  {
+   "word": "flaschen"
+  },
+  {
+   "word": "grüßen"
+  },
+  {
+   "word": "hoffte"
+  },
+  {
+   "word": "traue"
+  },
+  {
+   "word": "riesigen"
+  },
+  {
+   "word": "truppe"
+  },
+  {
+   "word": "flammen"
+  },
+  {
+   "word": "erkennst"
+  },
+  {
+   "word": "lernst"
+  },
+  {
+   "word": "with"
+  },
+  {
+   "word": "whisky"
+  },
+  {
+   "word": "gelächter"
+  },
+  {
+   "word": "fängst"
+  },
+  {
+   "word": "erklär"
+  },
+  {
+   "word": "eures"
+  },
+  {
+   "word": "gesessen"
+  },
+  {
+   "word": "verrate"
+  },
+  {
+   "word": "kehrt"
+  },
+  {
+   "word": "lade"
+  },
+  {
+   "word": "gerissen"
+  },
+  {
+   "word": "befohlen"
+  },
+  {
+   "word": "überlege"
+  },
+  {
+   "word": "koordinaten"
+  },
+  {
+   "word": "flog"
+  },
+  {
+   "word": "küss"
+  },
+  {
+   "word": "geleistet"
+  },
+  {
+   "word": "nutzt"
+  },
+  {
+   "word": "fröhliche"
+  },
+  {
+   "word": "fuhren"
+  },
+  {
+   "word": "eingesetzt"
+  },
+  {
+   "word": "schlimmeres"
+  }
+ ],
+ "drop": [
+  {
+   "word": "queen",
+   "reason": "英语借词"
+  },
+  {
+   "word": "clara",
+   "reason": "专名"
+  },
+  {
+   "word": "stephen",
+   "reason": "专名"
+  },
+  {
+   "word": "harris",
+   "reason": "专名"
+  },
+  {
+   "word": "football",
+   "reason": "英语借词"
+  },
+  {
+   "word": "anthony",
+   "reason": "专名"
+  },
+  {
+   "word": "peg",
+   "reason": "专名"
+  },
+  {
+   "word": "liam",
+   "reason": "专名"
+  },
+  {
+   "word": "virginia",
+   "reason": "专名"
+  },
+  {
+   "word": "spock",
+   "reason": "专名"
+  },
+  {
+   "word": "louise",
+   "reason": "专名"
+  },
+  {
+   "word": "may",
+   "reason": "英语借词"
+  },
+  {
+   "word": "riley",
+   "reason": "专名"
+  },
+  {
+   "word": "diana",
+   "reason": "专名"
+  },
+  {
+   "word": "dexter",
+   "reason": "专名"
+  },
+  {
+   "word": "nicole",
+   "reason": "专名"
+  },
+  {
+   "word": "warren",
+   "reason": "专名"
+  },
+  {
+   "word": "media",
+   "reason": "英语借词"
+  },
+  {
+   "word": "ari",
+   "reason": "专名"
+  },
+  {
+   "word": "walt",
+   "reason": "专名"
+  },
+  {
+   "word": "chip",
+   "reason": "英语借词"
+  },
+  {
+   "word": "cindy",
+   "reason": "专名"
+  },
+  {
+   "word": "benjamin",
+   "reason": "专名"
+  },
+  {
+   "word": "spencer",
+   "reason": "专名"
+  },
+  {
+   "word": "penis",
+   "reason": "粗俗"
+  },
+  {
+   "word": "monk",
+   "reason": "专名"
+  },
+  {
+   "word": "boy",
+   "reason": "英语借词"
+  },
+  {
+   "word": "curtis",
+   "reason": "专名"
+  },
+  {
+   "word": "bernard",
+   "reason": "专名"
+  },
+  {
+   "word": "ralph",
+   "reason": "专名"
+  },
+  {
+   "word": "mylord",
+   "reason": "英语借词"
+  },
+  {
+   "word": "lhrem",
+   "reason": "乱码"
+  },
+  {
+   "word": "anton",
+   "reason": "专名"
+  },
+  {
+   "word": "philip",
+   "reason": "专名"
+  },
+  {
+   "word": "megan",
+   "reason": "专名"
+  }
+ ]
+}

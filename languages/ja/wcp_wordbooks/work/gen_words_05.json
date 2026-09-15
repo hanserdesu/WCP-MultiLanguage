@@ -1,0 +1,2402 @@
+{
+ "国境": {
+  "reading": "こっきょう",
+  "meaning": "【こっきょう】国境；边界〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "国語": {
+  "reading": "こくご",
+  "meaning": "【こくご】国语；（学校的）语文〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "国民": {
+  "reading": "こくみん",
+  "meaning": "【こくみん】国民；公民〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "穀物": {
+  "reading": "こくもつ",
+  "meaning": "【こくもつ】谷物；粮食〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "黒板": {
+  "reading": "こくばん",
+  "meaning": "【こくばん】黑板〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "腰": {
+  "reading": "こし",
+  "meaning": "【こし】腰；（态度）语气〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "骨": {
+  "reading": "ほね",
+  "meaning": "【ほね】骨；骨头〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "骨折": {
+  "reading": "こっせつ",
+  "meaning": "【こっせつ】骨折〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "頃": {
+  "reading": "ころ",
+  "meaning": "【ころ】时候；时期（今頃）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "今に": {
+  "reading": "いまに",
+  "meaning": "【いまに】不久；早晚〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "今にも": {
+  "reading": "いまにも",
+  "meaning": "【いまにも】马上就要；眼看就要〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "今回": {
+  "reading": "こんかい",
+  "meaning": "【こんかい】这次；此次〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "今後": {
+  "reading": "こんご",
+  "meaning": "【こんご】今后；以后〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "困難": {
+  "reading": "こんなん",
+  "meaning": "【こんなん】困难〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "婚約": {
+  "reading": "こんやく",
+  "meaning": "【こんやく】婚约；订婚〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "根": {
+  "reading": "ね",
+  "meaning": "【ね】根〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "混雑": {
+  "reading": "こんざつ",
+  "meaning": "【こんざつ】拥挤；混乱〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "混乱": {
+  "reading": "こんらん",
+  "meaning": "【こんらん】混乱〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "左右": {
+  "reading": "さゆう",
+  "meaning": "【さゆう】左右；（影响）左右〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "差": {
+  "reading": "さ",
+  "meaning": "【さ】差；差别〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "差別": {
+  "reading": "さべつ",
+  "meaning": "【さべつ】差别待遇；歧视〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "砂漠": {
+  "reading": "さばく",
+  "meaning": "【さばく】沙漠〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "鎖": {
+  "reading": "くさり",
+  "meaning": "【くさり】链子；锁链〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "座席": {
+  "reading": "ざせき",
+  "meaning": "【ざせき】座位〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "再び": {
+  "reading": "ふたたび",
+  "meaning": "【ふたたび】再次；重新〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "最も": {
+  "reading": "もっとも",
+  "meaning": "【もっとも】最〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "最高": {
+  "reading": "さいこう",
+  "meaning": "【さいこう】最高；最好〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "最終": {
+  "reading": "さいしゅう",
+  "meaning": "【さいしゅう】最终；（末班）车〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "最中": {
+  "reading": "さいちゅう",
+  "meaning": "【さいちゅう】正在……中（～の最中）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "最低": {
+  "reading": "さいてい",
+  "meaning": "【さいてい】最低；最差〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "才能": {
+  "reading": "さいのう",
+  "meaning": "【さいのう】才能；才华〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "済ませる": {
+  "reading": "すませる",
+  "meaning": "【すませる】做完；办完〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "祭": {
+  "reading": "まつり",
+  "meaning": "【まつり】祭典；节日〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "裁判": {
+  "reading": "さいばん",
+  "meaning": "【さいばん】审判；裁判〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "際": {
+  "reading": "さい",
+  "meaning": "【さい】……之际；时候〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "材料": {
+  "reading": "ざいりょう",
+  "meaning": "【ざいりょう】材料；原料〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "罪": {
+  "reading": "つみ",
+  "meaning": "【つみ】罪；罪责〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "財産": {
+  "reading": "ざいさん",
+  "meaning": "【ざいさん】财产〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "作家": {
+  "reading": "さっか",
+  "meaning": "【さっか】作家；作者〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "作業": {
+  "reading": "さぎょう",
+  "meaning": "【さぎょう】作业；工作〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "作曲": {
+  "reading": "さっきょく",
+  "meaning": "【さっきょく】作曲〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "作品": {
+  "reading": "さくひん",
+  "meaning": "【さくひん】作品〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "作物": {
+  "reading": "さくもつ",
+  "meaning": "【さくもつ】庄稼；农作物〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "作法": {
+  "reading": "さほう",
+  "meaning": "【さほう】礼节；礼仪〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "昨": {
+  "reading": "さく",
+  "meaning": "【さく】昨……（昨年、昨日）〈接头〉",
+  "level": "N3",
+  "need": 2
+ },
+ "桜": {
+  "reading": "さくら",
+  "meaning": "【さくら】樱花；樱树〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "札": {
+  "reading": "さつ",
+  "meaning": "【さつ】牌子；票据；纸币〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "殺す": {
+  "reading": "ころす",
+  "meaning": "【ころす】杀；杀死；（声音）消〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "皿": {
+  "reading": "さら",
+  "meaning": "【さら】盘子；碟子〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "参加": {
+  "reading": "さんか",
+  "meaning": "【さんか】参加〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "参考": {
+  "reading": "さんこう",
+  "meaning": "【さんこう】参考〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "賛成": {
+  "reading": "さんせい",
+  "meaning": "【さんせい】赞成〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "酸素": {
+  "reading": "さんそ",
+  "meaning": "【さんそ】氧气〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "残す": {
+  "reading": "のこす",
+  "meaning": "【のこす】留下；保留〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "残り": {
+  "reading": "のこり",
+  "meaning": "【のこり】剩余；剩下〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "伺う": {
+  "reading": "うかがう",
+  "meaning": "【うかがう】拜访；请教；听（自谦语）〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "使用": {
+  "reading": "しよう",
+  "meaning": "【しよう】使用〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "刺激": {
+  "reading": "しげき",
+  "meaning": "【しげき】刺激；激励〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "始まり": {
+  "reading": "はじまり",
+  "meaning": "【はじまり】开始；起点〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "姉妹": {
+  "reading": "しまい",
+  "meaning": "【しまい】姐妹；姊姊和妹妹〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "姿": {
+  "reading": "すがた",
+  "meaning": "【すがた】姿态；身影；装束〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "市場": {
+  "reading": "いちば・しじょう",
+  "meaning": "【いちば・しじょう】市场；集市〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "思い出": {
+  "reading": "おもいで",
+  "meaning": "【おもいで】回忆；纪念〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "思わず": {
+  "reading": "おもわず",
+  "meaning": "【おもわず】不由得；情不自禁地〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "思想": {
+  "reading": "しそう",
+  "meaning": "【しそう】思想〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "指す": {
+  "reading": "さす",
+  "meaning": "【さす】指；（下棋）下；伸（手指）〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "指導": {
+  "reading": "しどう",
+  "meaning": "【しどう】指导；领导〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "支える": {
+  "reading": "ささえる",
+  "meaning": "【ささえる】支撑；支持；维持〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "支給": {
+  "reading": "しきゅう",
+  "meaning": "【しきゅう】发给；支付（工资）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "支出": {
+  "reading": "ししゅつ",
+  "meaning": "【ししゅつ】支出；开支〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "支店": {
+  "reading": "してん",
+  "meaning": "【してん】分店；分行〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "支配": {
+  "reading": "しはい",
+  "meaning": "【しはい】支配；统治〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "支払": {
+  "reading": "しはらい",
+  "meaning": "【しはらい】支付；付款〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "支払う": {
+  "reading": "しはらう",
+  "meaning": "【しはらう】支付；付款〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "止す": {
+  "reading": "よす",
+  "meaning": "【よす】停止；作罢（よす）〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "死亡": {
+  "reading": "しぼう",
+  "meaning": "【しぼう】死亡〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "氏": {
+  "reading": "し",
+  "meaning": "【し】姓；氏族；氏（人名后，书面）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "至る": {
+  "reading": "いたる",
+  "meaning": "【いたる】到达；至于（～に至る）〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "詩": {
+  "reading": "し",
+  "meaning": "【し】诗；诗歌〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "詩人": {
+  "reading": "しじん",
+  "meaning": "【しじん】诗人〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "試し": {
+  "reading": "ためし",
+  "meaning": "【ためし】尝试；试验〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "試す": {
+  "reading": "ためす",
+  "meaning": "【ためす】尝试；试验〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "資源": {
+  "reading": "しげん",
+  "meaning": "【しげん】资源〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "資本": {
+  "reading": "しほん",
+  "meaning": "【しほん】资本〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "飼う": {
+  "reading": "かう",
+  "meaning": "【かう】饲养；养（动物）〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "事": {
+  "reading": "こと",
+  "meaning": "【こと】事情；事（形式名词）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "事件": {
+  "reading": "じけん",
+  "meaning": "【じけん】事件；案件〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "事実": {
+  "reading": "じじつ",
+  "meaning": "【じじつ】事实；实际〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "事情": {
+  "reading": "じじょう",
+  "meaning": "【じじょう】情况；缘由〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "事態": {
+  "reading": "じたい",
+  "meaning": "【じたい】事态；局势〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "事務": {
+  "reading": "じむ",
+  "meaning": "【じむ】事务；办公室工作〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "似合う": {
+  "reading": "にあう",
+  "meaning": "【にあう】合适；相配〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "持ち上げる": {
+  "reading": "もちあげる",
+  "meaning": "【もちあげる】举起；抬；（奉承）捧〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "時": {
+  "reading": "とき",
+  "meaning": "【とき】时候；时间；（量词）点（钟）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "時期": {
+  "reading": "じき",
+  "meaning": "【じき】时期；阶段〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "時刻": {
+  "reading": "じこく",
+  "meaning": "【じこく】时刻；几点钟〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "次々": {
+  "reading": "つぎつぎ",
+  "meaning": "【つぎつぎ】接连不断；陆续〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "次第": {
+  "reading": "しだい",
+  "meaning": "【しだい】次序；（～次第：一……立刻；全凭）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "示す": {
+  "reading": "しめす",
+  "meaning": "【しめす】表示；显示；出示〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "自殺": {
+  "reading": "じさつ",
+  "meaning": "【じさつ】自杀〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "自身": {
+  "reading": "じしん",
+  "meaning": "【じしん】自身；本人〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "自然": {
+  "reading": "しぜん",
+  "meaning": "【しぜん】自然；大自然〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "自動": {
+  "reading": "じどう",
+  "meaning": "【じどう】自动〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "自慢": {
+  "reading": "じまん",
+  "meaning": "【じまん】自夸；骄傲〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "辞める": {
+  "reading": "やめる",
+  "meaning": "【やめる】辞职；辞退〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "式": {
+  "reading": "しき",
+  "meaning": "【しき】仪式；（数学）式〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "叱る": {
+  "reading": "しかる",
+  "meaning": "【しかる】责骂；训斥〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "失う": {
+  "reading": "うしなう",
+  "meaning": "【うしなう】失去；丧失；错过〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "失業": {
+  "reading": "しつぎょう",
+  "meaning": "【しつぎょう】失业〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "失望": {
+  "reading": "しつぼう",
+  "meaning": "【しつぼう】失望〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "質": {
+  "reading": "しつ",
+  "meaning": "【しつ】质量；品质；（人的）素质〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "実": {
+  "reading": "み",
+  "meaning": "【み】果实；种子；内容〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "実に": {
+  "reading": "じつに",
+  "meaning": "【じつに】实在；确实〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "実は": {
+  "reading": "じつは",
+  "meaning": "【じつは】其实；说实在的〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "実験": {
+  "reading": "じっけん",
+  "meaning": "【じっけん】实验〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "実現": {
+  "reading": "じつげん",
+  "meaning": "【じつげん】实现〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "実行": {
+  "reading": "じっこう",
+  "meaning": "【じっこう】实行；执行〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "実際": {
+  "reading": "じっさい",
+  "meaning": "【じっさい】实际；事实上〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "実施": {
+  "reading": "じっし",
+  "meaning": "【じっし】实施；执行〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "芝居": {
+  "reading": "しばい",
+  "meaning": "【しばい】戏；（自导自演的）把戏〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "芝生": {
+  "reading": "しばふ",
+  "meaning": "【しばふ】草坪〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "者": {
+  "reading": "もの",
+  "meaning": "【もの】者；人；（接尾）~者〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "邪魔": {
+  "reading": "じゃま",
+  "meaning": "【じゃま】妨碍；打扰〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "借金": {
+  "reading": "しゃっきん",
+  "meaning": "【しゃっきん】借款；欠债〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "主に": {
+  "reading": "おもに",
+  "meaning": "【おもに】主要；多半〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "主義": {
+  "reading": "しゅぎ",
+  "meaning": "【しゅぎ】主义；原则〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "主張": {
+  "reading": "しゅちょう",
+  "meaning": "【しゅちょう】主张；主张（自己观点）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "主婦": {
+  "reading": "しゅふ",
+  "meaning": "【しゅふ】家庭主妇〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "主要": {
+  "reading": "しゅよう",
+  "meaning": "【しゅよう】主要的〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "取り上げる": {
+  "reading": "とりあげる",
+  "meaning": "【とりあげる】拿起；采纳；（话题）提及；没收〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "取れる": {
+  "reading": "とれる",
+  "meaning": "【とれる】掉下；（解释）成立；收获〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "守る": {
+  "reading": "まもる",
+  "meaning": "【まもる】守卫；保护；遵守〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "手間": {
+  "reading": "てま",
+  "meaning": "【てま】工夫；劳力；麻烦〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "手術": {
+  "reading": "しゅじゅつ",
+  "meaning": "【しゅじゅつ】手术〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "手段": {
+  "reading": "しゅだん",
+  "meaning": "【しゅだん】手段；方法〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "手伝い": {
+  "reading": "てつだい",
+  "meaning": "【てつだい】帮忙；帮手〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "手品": {
+  "reading": "てじな",
+  "meaning": "【てじな】戏法；魔术〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "種": {
+  "reading": "たね",
+  "meaning": "【たね】种子；原因；（种类）类〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "種類": {
+  "reading": "しゅるい",
+  "meaning": "【しゅるい】种类〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "酒": {
+  "reading": "さけ",
+  "meaning": "【さけ】酒；日本酒〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "首相": {
+  "reading": "しゅしょう",
+  "meaning": "【しゅしょう】首相〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "首都": {
+  "reading": "しゅと",
+  "meaning": "【しゅと】首都〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "受け取る": {
+  "reading": "うけとる",
+  "meaning": "【うけとる】收到；领取；领会〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "需要": {
+  "reading": "じゅよう",
+  "meaning": "【じゅよう】需求；需要〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "収める": {
+  "reading": "おさめる",
+  "meaning": "【おさめる】获得；缴纳；收（成果）〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "収穫": {
+  "reading": "しゅうかく",
+  "meaning": "【しゅうかく】收获〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "収入": {
+  "reading": "しゅうにゅう",
+  "meaning": "【しゅうにゅう】收入〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "周囲": {
+  "reading": "しゅうい",
+  "meaning": "【しゅうい】周围；四周〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "宗教": {
+  "reading": "しゅうきょう",
+  "meaning": "【しゅうきょう】宗教〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "就く": {
+  "reading": "つく",
+  "meaning": "【つく】就（职）；师从；就（座）〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "就職": {
+  "reading": "しゅうしょく",
+  "meaning": "【しゅうしょく】就职；找到工作〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "州": {
+  "reading": "しゅう",
+  "meaning": "【しゅう】州；（美国的）州〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "修正": {
+  "reading": "しゅうせい",
+  "meaning": "【しゅうせい】修改；修正〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "修理": {
+  "reading": "しゅうり",
+  "meaning": "【しゅうり】修理〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "終": {
+  "reading": "おわり",
+  "meaning": "【おわり】终；完（「終」字幕）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "終える": {
+  "reading": "おえる",
+  "meaning": "【おえる】完成；做完〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "臭い": {
+  "reading": "くさい",
+  "meaning": "【くさい】臭的；（态度）可疑〈イ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "週": {
+  "reading": "しゅう",
+  "meaning": "【しゅう】星期；周〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "週間": {
+  "reading": "しゅうかん",
+  "meaning": "【しゅうかん】（量词）周；（～週間）周刊〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "集まり": {
+  "reading": "あつまり",
+  "meaning": "【あつまり】集合；聚集；聚会〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "集団": {
+  "reading": "しゅうだん",
+  "meaning": "【しゅうだん】集体；集团〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "集中": {
+  "reading": "しゅうちゅう",
+  "meaning": "【しゅうちゅう】集中〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "住宅": {
+  "reading": "じゅうたく",
+  "meaning": "【じゅうたく】住宅；住房〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "住民": {
+  "reading": "じゅうみん",
+  "meaning": "【じゅうみん】居民〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "従う": {
+  "reading": "したがう",
+  "meaning": "【したがう】服从；遵从；跟随〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "従兄弟": {
+  "reading": "いとこ",
+  "meaning": "【いとこ】堂（表）兄弟；堂（表）姐妹〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "渋滞": {
+  "reading": "じゅうたい",
+  "meaning": "【じゅうたい】停滞；堵塞（交通）；进展不畅〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "縦": {
+  "reading": "たて",
+  "meaning": "【たて】纵；竖〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "重視": {
+  "reading": "じゅうし",
+  "meaning": "【じゅうし】重视〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "重大": {
+  "reading": "じゅうだい",
+  "meaning": "【じゅうだい】重大；严重〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "重要": {
+  "reading": "じゅうよう",
+  "meaning": "【じゅうよう】重要〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "銃": {
+  "reading": "じゅう",
+  "meaning": "【じゅう】枪；步枪〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "宿": {
+  "reading": "やど",
+  "meaning": "【やど】客栈；住宿处〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "宿泊": {
+  "reading": "しゅくはく",
+  "meaning": "【しゅくはく】住宿〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "祝い": {
+  "reading": "いわい",
+  "meaning": "【いわい】祝贺；贺礼〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "祝う": {
+  "reading": "いわう",
+  "meaning": "【いわう】祝贺；庆祝〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "出会い": {
+  "reading": "であい",
+  "meaning": "【であい】相遇；邂逅〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "出会う": {
+  "reading": "であう",
+  "meaning": "【であう】偶然遇到；邂逅〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "出身": {
+  "reading": "しゅっしん",
+  "meaning": "【しゅっしん】出身；毕业于〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "出版": {
+  "reading": "しゅっぱん",
+  "meaning": "【しゅっぱん】出版〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "出来るだけ": {
+  "reading": "できるだけ",
+  "meaning": "【できるだけ】尽可能；尽量〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "出来事": {
+  "reading": "できごと",
+  "meaning": "【できごと】（发生的）事情；事件〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "述べる": {
+  "reading": "のべる",
+  "meaning": "【のべる】陈述；叙述〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "瞬間": {
+  "reading": "しゅんかん",
+  "meaning": "【しゅんかん】瞬间；刹那〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "順": {
+  "reading": "じゅん",
+  "meaning": "【じゅん】顺序；（量词）顺〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "順調": {
+  "reading": "じゅんちょう",
+  "meaning": "【じゅんちょう】顺利〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "順番": {
+  "reading": "じゅんばん",
+  "meaning": "【じゅんばん】顺序；轮次〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "処理": {
+  "reading": "しょり",
+  "meaning": "【しょり】处理；办理〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "所為": {
+  "reading": "せい",
+  "meaning": "【せい】原因（多指不好的）；怪……（せいで）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "署名": {
+  "reading": "しょめい",
+  "meaning": "【しょめい】签名；署名〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "書斎": {
+  "reading": "しょさい",
+  "meaning": "【しょさい】书房〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "書物": {
+  "reading": "しょもつ",
+  "meaning": "【しょもつ】书；书籍〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "書類": {
+  "reading": "しょるい",
+  "meaning": "【しょるい】文件；资料〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "助ける": {
+  "reading": "たすける",
+  "meaning": "【たすける】帮助；救助〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "助手": {
+  "reading": "じょしゅ",
+  "meaning": "【じょしゅ】助手；助理〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "女王": {
+  "reading": "じょおう",
+  "meaning": "【じょおう】女王〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "女子": {
+  "reading": "じょし",
+  "meaning": "【じょし】女子；女孩〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "女優": {
+  "reading": "じょゆう",
+  "meaning": "【じょゆう】女演员〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "徐々に": {
+  "reading": "じょじょに",
+  "meaning": "【じょじょに】渐渐；逐步〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "除く": {
+  "reading": "のぞく",
+  "meaning": "【のぞく】除去；除外〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "傷": {
+  "reading": "きず",
+  "meaning": "【きず】伤；伤口；瑕疵〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "勝ち": {
+  "reading": "かち",
+  "meaning": "【かち】胜利；赢〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "商人": {
+  "reading": "しょうにん",
+  "meaning": "【しょうにん】商人〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "商売": {
+  "reading": "しょうばい",
+  "meaning": "【しょうばい】生意；买卖；商业〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "商品": {
+  "reading": "しょうひん",
+  "meaning": "【しょうひん】商品；货品〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "奨学金": {
+  "reading": "しょうがくきん",
+  "meaning": "【しょうがくきん】奖学金〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "小屋": {
+  "reading": "こや",
+  "meaning": "【こや】小屋；棚子〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "小麦": {
+  "reading": "こむぎ",
+  "meaning": "【こむぎ】小麦〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "小包": {
+  "reading": "こづつみ",
+  "meaning": "【こづつみ】小包；包裹；邮包〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "少々": {
+  "reading": "しょうしょう",
+  "meaning": "【しょうしょう】少许；一点儿〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "少しも": {
+  "reading": "すこしも",
+  "meaning": "【すこしも】一点儿也（不）〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "少女": {
+  "reading": "しょうじょ",
+  "meaning": "【しょうじょ】少女〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "少年": {
+  "reading": "しょうねん",
+  "meaning": "【しょうねん】少年〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "床": {
+  "reading": "ゆか",
+  "meaning": "【ゆか】地板；（日本）床铺〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "承認": {
+  "reading": "しょうにん",
+  "meaning": "【しょうにん】承认；认可〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "招く": {
+  "reading": "まねく",
+  "meaning": "【まねく】招待；招致〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "昇る": {
+  "reading": "のぼる",
+  "meaning": "【のぼる】上升；（日）出；（地位）升〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "松": {
+  "reading": "まつ",
+  "meaning": "【まつ】松树；松〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "消費": {
+  "reading": "しょうひ",
+  "meaning": "【しょうひ】消费〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "消防": {
+  "reading": "しょうぼう",
+  "meaning": "【しょうぼう】消防；消防队〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "症状": {
+  "reading": "しょうじょう",
+  "meaning": "【しょうじょう】症状〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "省く": {
+  "reading": "はぶく",
+  "meaning": "【はぶく】省略；省去；节省〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "章": {
+  "reading": "しょう",
+  "meaning": "【しょう】章；章节；勋章〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "笑い": {
+  "reading": "わらい",
+  "meaning": "【わらい】笑；笑声〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "笑顔": {
+  "reading": "えがお",
+  "meaning": "【えがお】笑脸；笑容〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "衝突": {
+  "reading": "しょうとつ",
+  "meaning": "【しょうとつ】冲撞；（意见）冲突〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "証明": {
+  "reading": "しょうめい",
+  "meaning": "【しょうめい】证明〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "詳しい": {
+  "reading": "くわしい",
+  "meaning": "【くわしい】详细的；精通的〈イ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "象": {
+  "reading": "ぞう",
+  "meaning": "【ぞう】大象；形象（象徴）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "賞": {
+  "reading": "しょう",
+  "meaning": "【しょう】奖；奖品〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "障害": {
+  "reading": "しょうがい",
+  "meaning": "【しょうがい】障碍；（身体）残疾〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "上京": {
+  "reading": "じょうきょう",
+  "meaning": "【じょうきょう】进京；上东京〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "上達": {
+  "reading": "じょうたつ",
+  "meaning": "【じょうたつ】进步；长进〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "上等": {
+  "reading": "じょうとう",
+  "meaning": "【じょうとう】上等；高级〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "乗せる": {
+  "reading": "のせる",
+  "meaning": "【のせる】装载；（车）载（人）；刊登〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "乗客": {
+  "reading": "じょうきゃく",
+  "meaning": "【じょうきゃく】乘客〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "冗談": {
+  "reading": "じょうだん",
+  "meaning": "【じょうだん】玩笑；笑话〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "城": {
+  "reading": "しろ",
+  "meaning": "【しろ】城；城堡〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "場": {
+  "reading": "ば",
+  "meaning": "【ば】场所；（物理）场〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "場面": {
+  "reading": "ばめん",
+  "meaning": "【ばめん】场面；情景〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "常に": {
+  "reading": "つねに",
+  "meaning": "【つねに】常常；经常〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "常識": {
+  "reading": "じょうしき",
+  "meaning": "【じょうしき】常识；常理〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "情報": {
+  "reading": "じょうほう",
+  "meaning": "【じょうほう】信息；情报〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "条件": {
+  "reading": "じょうけん",
+  "meaning": "【じょうけん】条件〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "状況": {
+  "reading": "じょうきょう",
+  "meaning": "【じょうきょう】状况；形势〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "状態": {
+  "reading": "じょうたい",
+  "meaning": "【じょうたい】状态；情形〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "譲る": {
+  "reading": "ゆずる",
+  "meaning": "【ゆずる】让给；转让；（路）让〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "植物": {
+  "reading": "しょくぶつ",
+  "meaning": "【しょくぶつ】植物〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "職": {
+  "reading": "しょく",
+  "meaning": "【しょく】职业；职务〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "職業": {
+  "reading": "しょくぎょう",
+  "meaning": "【しょくぎょう】职业〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "触れる": {
+  "reading": "ふれる",
+  "meaning": "【ふれる】碰；接触；涉及（话题）〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "食う": {
+  "reading": "くう",
+  "meaning": "【くう】吃（粗俗）；靠……生活〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "食卓": {
+  "reading": "しょくたく",
+  "meaning": "【しょくたく】餐桌〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "食品": {
+  "reading": "しょくひん",
+  "meaning": "【しょくひん】食品〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "食物": {
+  "reading": "しょくもつ",
+  "meaning": "【しょくもつ】食物〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "食欲": {
+  "reading": "しょくよく",
+  "meaning": "【しょくよく】食欲〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "食料": {
+  "reading": "しょくりょう",
+  "meaning": "【しょくりょう】食物；粮食〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "食糧": {
+  "reading": "しょくりょう",
+  "meaning": "【しょくりょう】粮食〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "尻": {
+  "reading": "しり",
+  "meaning": "【しり】臀部；底部〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "伸ばす": {
+  "reading": "のばす",
+  "meaning": "【のばす】伸展；伸长；发挥（能力）〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "伸びる": {
+  "reading": "のびる",
+  "meaning": "【のびる】伸长；增长；（成绩）提高〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "信じる": {
+  "reading": "しんじる",
+  "meaning": "【しんじる】相信；信任〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "信仰": {
+  "reading": "しんこう",
+  "meaning": "【しんこう】信仰〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "信号": {
+  "reading": "しんごう",
+  "meaning": "【しんごう】信号；（交通）信号灯〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "信用": {
+  "reading": "しんよう",
+  "meaning": "【しんよう】信用；信誉；相信〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "信頼": {
+  "reading": "しんらい",
+  "meaning": "【しんらい】信赖；信任〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "審判": {
+  "reading": "しんぱん",
+  "meaning": "【しんぱん】审判；裁判〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "心臓": {
+  "reading": "しんぞう",
+  "meaning": "【しんぞう】心脏〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "心理": {
+  "reading": "しんり",
+  "meaning": "【しんり】心理〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "慎重": {
+  "reading": "しんちょう",
+  "meaning": "【しんちょう】慎重〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "振る": {
+  "reading": "ふる",
+  "meaning": "【ふる】挥动；（雨）下；分配（角色）〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "新た": {
+  "reading": "あらた",
+  "meaning": "【あらた】新的；重新〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "新鮮": {
+  "reading": "しんせん",
+  "meaning": "【しんせん】新鲜〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "深刻": {
+  "reading": "しんこく",
+  "meaning": "【しんこく】严重；深刻〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "申し込む": {
+  "reading": "もうしこむ",
+  "meaning": "【もうしこむ】申请；报名；提议〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "申し訳": {
+  "reading": "もうしわけ",
+  "meaning": "【もうしわけ】辩解；歉意（申し訳ない：抱歉）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "真っ赤": {
+  "reading": "まっか",
+  "meaning": "【まっか】通红；（完全）彻底〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "真っ直ぐ": {
+  "reading": "まっすぐ",
+  "meaning": "【まっすぐ】笔直；正直；直率〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "真剣": {
+  "reading": "しんけん",
+  "meaning": "【しんけん】认真；严肃〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "真似": {
+  "reading": "まね",
+  "meaning": "【まね】模仿；（行为）样子〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "真面目": {
+  "reading": "まじめ",
+  "meaning": "【まじめ】认真；踏实；老实〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "神": {
+  "reading": "かみ",
+  "meaning": "【かみ】神；上帝〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "神経": {
+  "reading": "しんけい",
+  "meaning": "【しんけい】神经；（过敏）敏感〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "親しい": {
+  "reading": "したしい",
+  "meaning": "【したしい】亲近的；亲密的〈イ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "親戚": {
+  "reading": "しんせき",
+  "meaning": "【しんせき】亲戚〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "親友": {
+  "reading": "しんゆう",
+  "meaning": "【しんゆう】好友；挚友〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "診察": {
+  "reading": "しんさつ",
+  "meaning": "【しんさつ】诊断；诊察〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "身": {
+  "reading": "み",
+  "meaning": "【み】身体；自身〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "身体": {
+  "reading": "しんたい",
+  "meaning": "【しんたい】身体〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "身長": {
+  "reading": "しんちょう",
+  "meaning": "【しんちょう】身高〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "進める": {
+  "reading": "すすめる",
+  "meaning": "【すすめる】推进；使前进〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "進学": {
+  "reading": "しんがく",
+  "meaning": "【しんがく】升学〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "進歩": {
+  "reading": "しんぽ",
+  "meaning": "【しんぽ】进步〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "針": {
+  "reading": "はり",
+  "meaning": "【はり】针；（钟表）针〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "震える": {
+  "reading": "ふるえる",
+  "meaning": "【ふるえる】颤抖；发抖〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "人間": {
+  "reading": "にんげん",
+  "meaning": "【にんげん】人；人类〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "人気": {
+  "reading": "にんき",
+  "meaning": "【にんき】人气；受欢迎〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "人工": {
+  "reading": "じんこう",
+  "meaning": "【じんこう】人工；人造〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "人込み": {
+  "reading": "ひとごみ",
+  "meaning": "【ひとごみ】人群；人山人海〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "人種": {
+  "reading": "じんしゅ",
+  "meaning": "【じんしゅ】人种；种族〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "人生": {
+  "reading": "じんせい",
+  "meaning": "【じんせい】人生；人的一生〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "人物": {
+  "reading": "じんぶつ",
+  "meaning": "【じんぶつ】人物；人品〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "人類": {
+  "reading": "じんるい",
+  "meaning": "【じんるい】人类〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "塵": {
+  "reading": "ごみ",
+  "meaning": "【ごみ】垃圾；尘土〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "図": {
+  "reading": "ず",
+  "meaning": "【ず】图；图表〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "図書": {
+  "reading": "としょ",
+  "meaning": "【としょ】图书；书籍〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "推薦": {
+  "reading": "すいせん",
+  "meaning": "【すいせん】推荐〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "水準": {
+  "reading": "すいじゅん",
+  "meaning": "【すいじゅん】水平；水准〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "睡眠": {
+  "reading": "すいみん",
+  "meaning": "【すいみん】睡眠〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "遂に": {
+  "reading": "ついに",
+  "meaning": "【ついに】终于；终究〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "酔う": {
+  "reading": "よう",
+  "meaning": "【よう】醉；（车船）晕〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "随分": {
+  "reading": "ずいぶん",
+  "meaning": "【ずいぶん】相当；很〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "数": {
+  "reading": "かず",
+  "meaning": "【かず】数量；数目〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "数える": {
+  "reading": "かぞえる",
+  "meaning": "【かぞえる】数；计算〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "数字": {
+  "reading": "すうじ",
+  "meaning": "【すうじ】数字〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "世の中": {
+  "reading": "よのなか",
+  "meaning": "【よのなか】世上；社会；时代〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "世間": {
+  "reading": "せけん",
+  "meaning": "【せけん】世上；社会；世人〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "世紀": {
+  "reading": "せいき",
+  "meaning": "【せいき】世纪〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "是非": {
+  "reading": "ぜひ",
+  "meaning": "【ぜひ】务必；一定；（是非）善恶〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "制限": {
+  "reading": "せいげん",
+  "meaning": "【せいげん】限制〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "制度": {
+  "reading": "せいど",
+  "meaning": "【せいど】制度〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "勢い": {
+  "reading": "いきおい",
+  "meaning": "【いきおい】气势；势头；（草木）长势〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "性": {
+  "reading": "せい",
+  "meaning": "【せい】性；性别；（接头）~性〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "性格": {
+  "reading": "せいかく",
+  "meaning": "【せいかく】性格；性情〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "成る": {
+  "reading": "なる",
+  "meaning": "【なる】成为；变成〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "成功": {
+  "reading": "せいこう",
+  "meaning": "【せいこう】成功〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "成人": {
+  "reading": "せいじん",
+  "meaning": "【せいじん】成人；成年〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "成績": {
+  "reading": "せいせき",
+  "meaning": "【せいせき】成绩〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "成長": {
+  "reading": "せいちょう",
+  "meaning": "【せいちょう】成长；生长〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "政府": {
+  "reading": "せいふ",
+  "meaning": "【せいふ】政府〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "整理": {
+  "reading": "せいり",
+  "meaning": "【せいり】整理；收拾〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "正": {
+  "reading": "せい",
+  "meaning": "【せい】正；（算术）正〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "正確": {
+  "reading": "せいかく",
+  "meaning": "【せいかく】正确；准确〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "正午": {
+  "reading": "しょうご",
+  "meaning": "【しょうご】正午；中午〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "正式": {
+  "reading": "せいしき",
+  "meaning": "【せいしき】正式〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "正直": {
+  "reading": "しょうじき",
+  "meaning": "【しょうじき】诚实；坦率〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "清潔": {
+  "reading": "せいけつ",
+  "meaning": "【せいけつ】清洁；干净〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "生": {
+  "reading": "せい",
+  "meaning": "【せい】生；未加工；（生啤酒）鲜〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "生き物": {
+  "reading": "いきもの",
+  "meaning": "【いきもの】生物；动物〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "生じる": {
+  "reading": "しょうじる",
+  "meaning": "【しょうじる】产生；发生〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "生まれ": {
+  "reading": "うまれ",
+  "meaning": "【うまれ】出生；出生地〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "生地": {
+  "reading": "きじ",
+  "meaning": "【きじ】布料；（面团）生坯；本性〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "生物": {
+  "reading": "せいぶつ",
+  "meaning": "【せいぶつ】生物；生物体〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "生命": {
+  "reading": "せいめい",
+  "meaning": "【せいめい】生命〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "盛り": {
+  "reading": "さかり",
+  "meaning": "【さかり】盛；（饭）一碗；（身体的）旺盛期〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "精々": {
+  "reading": "せいぜい",
+  "meaning": "【せいぜい】至多；充其量〈副〉",
+  "level": "N3",
+  "need": 3
+ },
+ "精神": {
+  "reading": "せいしん",
+  "meaning": "【せいしん】精神；心理〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "製造": {
+  "reading": "せいぞう",
+  "meaning": "【せいぞう】制造〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "製品": {
+  "reading": "せいひん",
+  "meaning": "【せいひん】产品；制品〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "請求": {
+  "reading": "せいきゅう",
+  "meaning": "【せいきゅう】请求；索款〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "青年": {
+  "reading": "せいねん",
+  "meaning": "【せいねん】青年；年轻人〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "税金": {
+  "reading": "ぜいきん",
+  "meaning": "【ぜいきん】税；税款〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "石炭": {
+  "reading": "せきたん",
+  "meaning": "【せきたん】煤炭〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "石油": {
+  "reading": "せきゆ",
+  "meaning": "【せきゆ】石油〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "積もる": {
+  "reading": "つもる",
+  "meaning": "【つもる】堆积；（雪）积〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "積極的": {
+  "reading": "せっきょくてき",
+  "meaning": "【せっきょくてき】积极的〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "責める": {
+  "reading": "せめる",
+  "meaning": "【せめる】责备；指责〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "責任": {
+  "reading": "せきにん",
+  "meaning": "【せきにん】责任〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "跡": {
+  "reading": "あと",
+  "meaning": "【あと】痕迹；遗迹；（前一）任〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "切れ": {
+  "reading": "きれ",
+  "meaning": "【きれ】（布）片；块；（刀）锋利度〈接尾〉",
+  "level": "N3",
+  "need": 2
+ },
+ "切れる": {
+  "reading": "きれる",
+  "meaning": "【きれる】切断；（线）断；用完；（刀）锋利〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "設計": {
+  "reading": "せっけい",
+  "meaning": "【せっけい】设计〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "設備": {
+  "reading": "せつび",
+  "meaning": "【せつび】设备；设施〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "節": {
+  "reading": "ふし",
+  "meaning": "【ふし】节；（音乐的）调子；骨节〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "節約": {
+  "reading": "せつやく",
+  "meaning": "【せつやく】节约；节省〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "説": {
+  "reading": "せつ",
+  "meaning": "【せつ】学说；说法；（量词）种（学说）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "絶対": {
+  "reading": "ぜったい",
+  "meaning": "【ぜったい】绝对；绝对（不）〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "絶滅": {
+  "reading": "ぜつめつ",
+  "meaning": "【ぜつめつ】灭绝〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "舌": {
+  "reading": "した",
+  "meaning": "【した】舌头〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "先ず": {
+  "reading": "まず",
+  "meaning": "【まず】首先；（大概）差不多〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "先日": {
+  "reading": "せんじつ",
+  "meaning": "【せんじつ】前几天；日前〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "占める": {
+  "reading": "しめる",
+  "meaning": "【しめる】占据；占有（比例）〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "専攻": {
+  "reading": "せんこう",
+  "meaning": "【せんこう】专业；（大学的）专攻〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "戦い": {
+  "reading": "たたかい",
+  "meaning": "【たたかい】战斗；斗争〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "戦う": {
+  "reading": "たたかう",
+  "meaning": "【たたかう】战斗；斗争；比赛〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "泉": {
+  "reading": "いずみ",
+  "meaning": "【いずみ】泉水；泉〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "船": {
+  "reading": "ふね",
+  "meaning": "【ふね】船；轮船〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "選手": {
+  "reading": "せんしゅ",
+  "meaning": "【せんしゅ】选手；运动员〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "選択": {
+  "reading": "せんたく",
+  "meaning": "【せんたく】选择〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "前者": {
+  "reading": "ぜんしゃ",
+  "meaning": "【ぜんしゃ】前者〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "前進": {
+  "reading": "ぜんしん",
+  "meaning": "【ぜんしん】前进〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "善": {
+  "reading": "ぜん",
+  "meaning": "【ぜん】善；善行；好事〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "全": {
+  "reading": "ぜん",
+  "meaning": "【ぜん】全；全部（接头词）〈接头〉",
+  "level": "N3",
+  "need": 2
+ },
+ "全く": {
+  "reading": "まったく",
+  "meaning": "【まったく】完全；（接否定）全然不〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "全て": {
+  "reading": "すべて",
+  "meaning": "【すべて】全部；一切〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "全員": {
+  "reading": "ぜんいん",
+  "meaning": "【ぜんいん】全体成员〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "全国": {
+  "reading": "ぜんこく",
+  "meaning": "【ぜんこく】全国〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "全然": {
+  "reading": "ぜんぜん",
+  "meaning": "【ぜんぜん】完全（不）；根本（不）〈副〉",
+  "level": "N3",
+  "need": 2
+ },
+ "全体": {
+  "reading": "ぜんたい",
+  "meaning": "【ぜんたい】整体；（副）到底〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "粗": {
+  "reading": "あら",
+  "meaning": "【あら】缺点；瑕疵〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "粗末": {
+  "reading": "そまつ",
+  "meaning": "【そまつ】简陋；粗糙；（不珍惜）糟蹋〈ナ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "素": {
+  "reading": "もと",
+  "meaning": "【もと】素；本源（もと）〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "素晴らしい": {
+  "reading": "すばらしい",
+  "meaning": "【すばらしい】极好的；出色的〈イ形〉",
+  "level": "N3",
+  "need": 2
+ },
+ "組": {
+  "reading": "くみ",
+  "meaning": "【くみ】（学校的）班；组；（接尾）~组〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "組む": {
+  "reading": "くむ",
+  "meaning": "【くむ】合伙；组队；（机器）组装〈动1〉",
+  "level": "N3",
+  "need": 2
+ },
+ "組合": {
+  "reading": "くみあい",
+  "meaning": "【くみあい】工会；行会；合伙〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "組織": {
+  "reading": "そしき",
+  "meaning": "【そしき】组织；（生物）组织〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "訴える": {
+  "reading": "うったえる",
+  "meaning": "【うったえる】起诉；诉说；诉诸〈动2〉",
+  "level": "N3",
+  "need": 2
+ },
+ "鼠": {
+  "reading": "ねずみ",
+  "meaning": "【ねずみ】老鼠；鼠〈名〉",
+  "level": "N3",
+  "need": 2
+ },
+ "双子": {
+  "reading": "ふたご",
+  "meaning": "【ふたご】双胞胎〈名〉",
+  "level": "N3",
+  "need": 2
+ }
+}

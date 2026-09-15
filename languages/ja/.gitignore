@@ -1,0 +1,61 @@
+# ============================================================
+# WCP 日语词书项目 .gitignore
+# 原则: 只版本化「源码 + 自有数据 + 文档」。
+#       可再生的外部数据源 / 反编译产物 / 游戏二进制 / 音频产物一律忽略。
+# ============================================================
+
+# ---------- 外部数据源 (体积大, 可重新下载) ----------
+wcp_wordbooks/data/jmdict_eng.json
+wcp_wordbooks/data/jmdict-eng.json.tgz
+wcp_wordbooks/data/kanjidic2.xml
+wcp_wordbooks/data/kanjidic2.xml.gz
+wcp_wordbooks/data/kaishi15k_zh.tsv
+wcp_wordbooks/data/bluskyo_all.json
+wcp_wordbooks/data/openjlpt_vocab_n*.csv
+wcp_wordbooks/data/expansion_elzup_candidates.json
+
+# ---------- 游戏库二进制备份 (36MB, 非源码) ----------
+wcp_wordbooks/backups/
+
+# ---------- 反汇编 / 逆向产物 ----------
+wcp_wordbooks/logs/full_il_dump.txt
+wcp_wordbooks/logs/sentence_worklist.tsv
+wcp_wordbooks/logs/verbose_audit_pool.json
+wcp_wordbooks/logs/topic_list.txt
+wcp_wordbooks/logs/kanji_list.txt
+work/tools/
+work/decompiled/
+
+# ---------- 音频产物 (MP3/WAV, 由脚本再生) ----------
+wcp_wordbooks/output/audio*/
+wcp_wordbooks/ref/example_audio/
+**/*.mp3
+**/*.wav
+
+# ---------- 词书产物 (由 tools/*.py 重建) ----------
+wcp_wordbooks/output/import/
+wcp_wordbooks/output/*.db
+wcp_wordbooks/output/*books*.json
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 日志 (保留 agent_worklog.md, 其余忽略) ----------
+wcp_wordbooks/logs/*.log
+!wcp_wordbooks/logs/agent_worklog.md
+
+# ---------- 临时/中间产物 ----------
+wcp_wordbooks/work/*.tmp
+*.bak-*
+*_backup_*/

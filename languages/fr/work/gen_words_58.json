@@ -1,0 +1,602 @@
+[
+{
+"word": "bafouiller",
+"pos": "v.",
+"zh": "说话结巴；口齿不清地说",
+"level": "b2"
+},
+{
+"word": "bagarrer",
+"pos": "v.",
+"zh": "争斗；打架（口语）",
+"level": "b2"
+},
+{
+"word": "bail",
+"pos": "n.m.",
+"zh": "租约；租期",
+"level": "b2"
+},
+{
+"word": "baise",
+"pos": "n.f.",
+"zh": "性交（粗俗）",
+"level": "b2"
+},
+{
+"word": "balise",
+"pos": "n.f.",
+"zh": "信标；标记",
+"level": "b2"
+},
+{
+"word": "ballade",
+"pos": "n.f.",
+"zh": "叙事曲；抒情曲；漫步",
+"level": "b2"
+},
+{
+"word": "banal",
+"pos": "adj.",
+"zh": "平庸的；陈腐的",
+"level": "b2"
+},
+{
+"word": "bandeau",
+"pos": "n.m.",
+"zh": "束发带；横幅",
+"level": "b2"
+},
+{
+"word": "bander",
+"pos": "v.",
+"zh": "捆扎；勃起（俚）",
+"level": "b2"
+},
+{
+"word": "banjo",
+"pos": "n.m.",
+"zh": "班卓琴",
+"level": "b2"
+},
+{
+"word": "bannir",
+"pos": "v.",
+"zh": "驱逐；取缔",
+"level": "b2"
+},
+{
+"word": "bannière",
+"pos": "n.f.",
+"zh": "旗帜；横幅",
+"level": "b2"
+},
+{
+"word": "banquet",
+"pos": "n.m.",
+"zh": "宴会；盛宴",
+"level": "b2"
+},
+{
+"word": "banquette",
+"pos": "n.f.",
+"zh": "长凳；（汽车）后排座椅",
+"level": "b2"
+},
+{
+"word": "baptiser",
+"pos": "v.",
+"zh": "施洗；命名",
+"level": "b2"
+},
+{
+"word": "baraque",
+"pos": "n.f.",
+"zh": "房子（口语）；棚屋",
+"level": "b2"
+},
+{
+"word": "baratin",
+"pos": "n.m.",
+"zh": "花言巧语（口语）",
+"level": "b2"
+},
+{
+"word": "barbare",
+"pos": "n.",
+"zh": "野蛮人；残暴的",
+"level": "b2"
+},
+{
+"word": "barbelé",
+"pos": "n.m.",
+"zh": "带刺铁丝网",
+"level": "b2"
+},
+{
+"word": "barrage",
+"pos": "n.m.",
+"zh": "水坝；路障",
+"level": "b2"
+},
+{
+"word": "barreau",
+"pos": "n.m.",
+"zh": "栏杆；律师界",
+"level": "b2"
+},
+{
+"word": "barricader",
+"pos": "v.",
+"zh": "设置路障；堵住",
+"level": "b2"
+},
+{
+"word": "barré",
+"pos": "adj.",
+"zh": "划掉的；有横杠的",
+"level": "b2"
+},
+{
+"word": "basculer",
+"pos": "v.",
+"zh": "翻转；骤变",
+"level": "b2"
+},
+{
+"word": "bataillon",
+"pos": "n.m.",
+"zh": "营；大队",
+"level": "b2"
+},
+{
+"word": "battement",
+"pos": "n.m.",
+"zh": "拍打；跳动",
+"level": "b2"
+},
+{
+"word": "bavardage",
+"pos": "n.m.",
+"zh": "闲聊；饶舌",
+"level": "b2"
+},
+{
+"word": "bave",
+"pos": "n.f.",
+"zh": "口水；黏液",
+"level": "b2"
+},
+{
+"word": "baver",
+"pos": "v.",
+"zh": "流口水；渗开",
+"level": "b2"
+},
+{
+"word": "baïonnette",
+"pos": "n.f.",
+"zh": "刺刀",
+"level": "b2"
+},
+{
+"word": "bercail",
+"pos": "n.m.",
+"zh": "归宿；老家",
+"level": "b2"
+},
+{
+"word": "bercer",
+"pos": "v.",
+"zh": "轻摇；哄（入睡）",
+"level": "b2"
+},
+{
+"word": "berner",
+"pos": "v.",
+"zh": "欺骗；愚弄",
+"level": "b2"
+},
+{
+"word": "bestiole",
+"pos": "n.f.",
+"zh": "小动物；小家伙",
+"level": "b2"
+},
+{
+"word": "biblique",
+"pos": "adj.",
+"zh": "圣经的",
+"level": "b2"
+},
+{
+"word": "biche",
+"pos": "n.f.",
+"zh": "母鹿",
+"level": "b2"
+},
+{
+"word": "bide",
+"pos": "n.m.",
+"zh": "肚子（口语）",
+"level": "b2"
+},
+{
+"word": "bienfaiteur",
+"pos": "n.m.",
+"zh": "恩人；捐助人",
+"level": "b2"
+},
+{
+"word": "bienheureux",
+"pos": "adj.",
+"zh": "极幸福的；受祝福的",
+"level": "b2"
+},
+{
+"word": "bienveillance",
+"pos": "n.f.",
+"zh": "善意；仁慈",
+"level": "b2"
+},
+{
+"word": "bile",
+"pos": "n.f.",
+"zh": "胆汁",
+"level": "b2"
+},
+{
+"word": "bille",
+"pos": "n.f.",
+"zh": "弹珠；小球",
+"level": "b2"
+},
+{
+"word": "binoclard",
+"pos": "adj.",
+"zh": "戴眼镜的（俚语）",
+"level": "b2"
+},
+{
+"word": "biper",
+"pos": "v.",
+"zh": "发出哔哔声",
+"level": "b2"
+},
+{
+"word": "bizut",
+"pos": "n.m.",
+"zh": "新生（俚语）",
+"level": "b2"
+},
+{
+"word": "black",
+"pos": "n.m.",
+"zh": "黑人（口语借词）",
+"level": "b2"
+},
+{
+"word": "blaireau",
+"pos": "n.m.",
+"zh": "獾；剃须刷；蠢货（口语）",
+"level": "b2"
+},
+{
+"word": "blasphème",
+"pos": "n.m.",
+"zh": "亵渎；渎神",
+"level": "b2"
+},
+{
+"word": "blasphémer",
+"pos": "v.",
+"zh": "亵渎",
+"level": "b2"
+},
+{
+"word": "bled",
+"pos": "n.m.",
+"zh": "小村镇；穷乡僻壤（口语）",
+"level": "b2"
+},
+{
+"word": "blindé",
+"pos": "adj.",
+"zh": "装甲的；塞满的（口语）",
+"level": "b2"
+},
+{
+"word": "blues",
+"pos": "n.m.",
+"zh": "布鲁斯；忧郁",
+"level": "b2"
+},
+{
+"word": "bluff",
+"pos": "n.m.",
+"zh": "虚张声势；唬人",
+"level": "b2"
+},
+{
+"word": "bluffer",
+"pos": "v.",
+"zh": "虚张声势；唬人",
+"level": "b2"
+},
+{
+"word": "blâmer",
+"pos": "v.",
+"zh": "责备；指责",
+"level": "b2"
+},
+{
+"word": "bobine",
+"pos": "n.f.",
+"zh": "线轴；卷筒",
+"level": "b2"
+},
+{
+"word": "bohème",
+"pos": "n.",
+"zh": "放浪不羁的生活",
+"level": "b2"
+},
+{
+"word": "bohémien",
+"pos": "n.m.",
+"zh": "波希米亚人；流浪的",
+"level": "b2"
+},
+{
+"word": "boiter",
+"pos": "v.",
+"zh": "跛行；瘸",
+"level": "b2"
+},
+{
+"word": "boiteux",
+"pos": "adj.",
+"zh": "瘸的；跛的",
+"level": "b2"
+},
+{
+"word": "bolchevik",
+"pos": "n.",
+"zh": "布尔什维克；布尔什维克的",
+"level": "b2"
+},
+{
+"word": "bombardement",
+"pos": "n.m.",
+"zh": "轰炸",
+"level": "b2"
+},
+{
+"word": "bombardier",
+"pos": "n.m.",
+"zh": "轰炸机",
+"level": "b2"
+},
+{
+"word": "bond",
+"pos": "n.m.",
+"zh": "跳跃；一跃",
+"level": "b2"
+},
+{
+"word": "bondir",
+"pos": "v.",
+"zh": "跳起；跃起",
+"level": "b2"
+},
+{
+"word": "bonne",
+"pos": "n.f.",
+"zh": "女仆（旧）",
+"level": "b2"
+},
+{
+"word": "boom",
+"pos": "n.m.",
+"zh": "激增；繁荣",
+"level": "b2"
+},
+{
+"word": "boomer",
+"pos": "n.m.",
+"zh": "婴儿潮一代（戏称）",
+"level": "b2"
+},
+{
+"word": "border",
+"pos": "v.",
+"zh": "给…镶边；掖好被子",
+"level": "b2"
+},
+{
+"word": "borne",
+"pos": "n.f.",
+"zh": "界石；里程碑",
+"level": "b2"
+},
+{
+"word": "borner",
+"pos": "v.",
+"zh": "限定；使局限于",
+"level": "b2"
+},
+{
+"word": "borné",
+"pos": "adj.",
+"zh": "狭隘的；目光短浅的",
+"level": "b2"
+},
+{
+"word": "bossu",
+"pos": "n.m.",
+"zh": "驼背的人",
+"level": "b2"
+},
+{
+"word": "botter",
+"pos": "v.",
+"zh": "给…穿靴；合…心意",
+"level": "b2"
+},
+{
+"word": "bouder",
+"pos": "v.",
+"zh": "生闷气；赌气",
+"level": "b2"
+},
+{
+"word": "boudin",
+"pos": "n.m.",
+"zh": "血肠",
+"level": "b2"
+},
+{
+"word": "bouffe",
+"pos": "n.f.",
+"zh": "吃的东西（俚）",
+"level": "b2"
+},
+{
+"word": "bouffon",
+"pos": "n.m.",
+"zh": "小丑；弄臣",
+"level": "b2"
+},
+{
+"word": "bouffée",
+"pos": "n.f.",
+"zh": "一股；一阵",
+"level": "b2"
+},
+{
+"word": "bougre",
+"pos": "n.m.",
+"zh": "家伙（旧式口语）",
+"level": "b2"
+},
+{
+"word": "bouillant",
+"pos": "adj.",
+"zh": "沸腾的；滚烫的",
+"level": "b2"
+},
+{
+"word": "bouillie",
+"pos": "n.f.",
+"zh": "糊状物；粥",
+"level": "b2"
+},
+{
+"word": "boulet",
+"pos": "n.m.",
+"zh": "炮弹；累赘",
+"level": "b2"
+},
+{
+"word": "boulette",
+"pos": "n.f.",
+"zh": "肉丸；失误（口语）",
+"level": "b2"
+},
+{
+"word": "boulon",
+"pos": "n.m.",
+"zh": "螺栓；螺钉",
+"level": "b2"
+},
+{
+"word": "bouquin",
+"pos": "n.m.",
+"zh": "书（口语）",
+"level": "b2"
+},
+{
+"word": "bourdonner",
+"pos": "v.",
+"zh": "嗡嗡作响",
+"level": "b2"
+},
+{
+"word": "bourgeois",
+"pos": "adj.",
+"zh": "资产阶级的；市侩的",
+"level": "b2"
+},
+{
+"word": "bourgeoisie",
+"pos": "n.f.",
+"zh": "资产阶级；中产阶层",
+"level": "b2"
+},
+{
+"word": "bourreau",
+"pos": "n.m.",
+"zh": "刽子手",
+"level": "b2"
+},
+{
+"word": "bourrer",
+"pos": "v.",
+"zh": "塞满；填塞",
+"level": "b2"
+},
+{
+"word": "bousiller",
+"pos": "v.",
+"zh": "弄坏；糟蹋（口语）",
+"level": "b2"
+},
+{
+"word": "boxer",
+"pos": "v.",
+"zh": "拳击",
+"level": "b2"
+},
+{
+"word": "boy-scout",
+"pos": "n.m.",
+"zh": "童子军",
+"level": "b2"
+},
+{
+"word": "boyau",
+"pos": "n.m.",
+"zh": "肠子；窄巷",
+"level": "b2"
+},
+{
+"word": "braguette",
+"pos": "n.f.",
+"zh": "裤门襟",
+"level": "b2"
+},
+{
+"word": "brailler",
+"pos": "v.",
+"zh": "大喊大叫（口语）",
+"level": "b2"
+},
+{
+"word": "branché",
+"pos": "adj.",
+"zh": "时髦的；新潮的",
+"level": "b2"
+},
+{
+"word": "brandir",
+"pos": "v.",
+"zh": "挥舞；举起",
+"level": "b2"
+},
+{
+"word": "brandy",
+"pos": "n.m.",
+"zh": "白兰地",
+"level": "b2"
+}
+]

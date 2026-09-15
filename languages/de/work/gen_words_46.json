@@ -1,0 +1,602 @@
+[
+{
+"word": "Zeile",
+"pos": "n.f.",
+"zh": "列；线；绳",
+"level": "b1"
+},
+{
+"word": "Mühle",
+"pos": "n.f.",
+"zh": "推磨的人；研磨者\\ 磨床；磨木机",
+"level": "b1"
+},
+{
+"word": "Zeitalter",
+"pos": "n.",
+"zh": "年龄；老年；成年",
+"level": "b1"
+},
+{
+"word": "Neger",
+"pos": "n.m.",
+"zh": "黑人\\. 黑人的",
+"level": "b1"
+},
+{
+"word": "Prediger",
+"pos": "n.m.",
+"zh": "传道士；讲道者；牧师",
+"level": "b1"
+},
+{
+"word": "Sessel",
+"pos": "n.m.",
+"zh": "活动靠背扶手椅；躺椅",
+"level": "b1"
+},
+{
+"word": "Verpflichtung",
+"pos": "n.f.",
+"zh": "委托；交押；承担义务",
+"level": "b1"
+},
+{
+"word": "Gerichtsmediziner",
+"pos": "n.m.",
+"zh": "专门医师；专家\\. 专业的；专家的",
+"level": "b1"
+},
+{
+"word": "Bluse",
+"pos": "n.f.",
+"zh": "宽松的上衣",
+"level": "b1"
+},
+{
+"word": "reines",
+"pos": "adv.",
+"zh": "软脂酸十六酯",
+"level": "b1"
+},
+{
+"word": "Gegenleistung",
+"pos": "n.f.",
+"zh": "回来；返回；来回票",
+"level": "b1"
+},
+{
+"word": "gemeinsames",
+"pos": "adv.",
+"zh": "通常的；共同的；通俗的",
+"level": "b1"
+},
+{
+"word": "Helfer",
+"pos": "n.m.",
+"zh": "帮忙者；有益的东西\\ 助手",
+"level": "b1"
+},
+{
+"word": "Aufstieg",
+"pos": "n.m.",
+"zh": "攀登；上升；爬\\. 攀登",
+"level": "b1"
+},
+{
+"word": "Partie",
+"pos": "n.f.",
+"zh": "比赛；玩耍；比分",
+"level": "b1"
+},
+{
+"word": "verdeckt",
+"pos": "adv.",
+"zh": "秘密；神秘；奥秘",
+"level": "b1"
+},
+{
+"word": "Abfall",
+"pos": "n.m.",
+"zh": "拒绝；无用的",
+"level": "b1"
+},
+{
+"word": "Hauptrolle",
+"pos": "n.f.",
+"zh": "领袖；酋长；长官",
+"level": "b1"
+},
+{
+"word": "Tarzan",
+"pos": "n.",
+"zh": "健壮、灵活的男子",
+"level": "b1"
+},
+{
+"word": "Klingel",
+"pos": "n.f.",
+"zh": "套环；投环；按铃者",
+"level": "b1"
+},
+{
+"word": "flirten",
+"pos": "v.",
+"zh": "卖弄风骚的人；急动",
+"level": "b1"
+},
+{
+"word": "Spanier",
+"pos": "n.m.",
+"zh": "西班牙人",
+"level": "b1"
+},
+{
+"word": "Taxifahrer",
+"pos": "n.m.",
+"zh": "出租车司机；的士司机",
+"level": "b1"
+},
+{
+"word": "Länge",
+"pos": "n.f.",
+"zh": "长度；长；期间",
+"level": "b1"
+},
+{
+"word": "Erforschen",
+"pos": "n.",
+"zh": "探险；踏勘；探测\\ 探察",
+"level": "b1"
+},
+{
+"word": "Scanner",
+"pos": "n.m.",
+"zh": "扫描仪；扫描盘；审视者\\ 扫描器",
+"level": "b1"
+},
+{
+"word": "Eisenbahn",
+"pos": "n.f.",
+"zh": "铁路；轨道\\ 铁路",
+"level": "b1"
+},
+{
+"word": "munter",
+"pos": "adj.",
+"zh": "唤起",
+"level": "b1"
+},
+{
+"word": "Karma",
+"pos": "n.",
+"zh": "因果报应；命运",
+"level": "b1"
+},
+{
+"word": "Stückchen",
+"pos": "n.",
+"zh": "碎片；残余物；些微",
+"level": "b1"
+},
+{
+"word": "Provinz",
+"pos": "n.f.",
+"zh": "省；地方；职权",
+"level": "b1"
+},
+{
+"word": "Pärchen",
+"pos": "n.",
+"zh": "对；夫妇",
+"level": "b1"
+},
+{
+"word": "kritisch",
+"pos": "adj.",
+"zh": "批评的；决定性的；危险的",
+"level": "b1"
+},
+{
+"word": "gesunden",
+"pos": "v.",
+"zh": "重新获得；恢复；复原",
+"level": "b1"
+},
+{
+"word": "finanziert",
+"pos": "adj.",
+"zh": "资源充足的",
+"level": "b1"
+},
+{
+"word": "Elektrizität",
+"pos": "n.f.",
+"zh": "电；电流；电学",
+"level": "b1"
+},
+{
+"word": "Busen",
+"pos": "n.m.",
+"zh": "胸部；胸；胸怀",
+"level": "b1"
+},
+{
+"word": "Vaterland",
+"pos": "n.",
+"zh": "祖国",
+"level": "b1"
+},
+{
+"word": "bitter",
+"pos": "adv.",
+"zh": "苦的；痛苦的",
+"level": "b1"
+},
+{
+"word": "Schleier",
+"pos": "n.m.",
+"zh": "帐；幕",
+"level": "b1"
+},
+{
+"word": "Notarzt",
+"pos": "n.m.",
+"zh": "紧急状况；紧急事件",
+"level": "b1"
+},
+{
+"word": "Krimineller",
+"pos": "n.m.",
+"zh": "盗用公款者",
+"level": "b1"
+},
+{
+"word": "durchatmen",
+"pos": "v.",
+"zh": "呼吸；生存；低语\\. 呼吸",
+"level": "b1"
+},
+{
+"word": "Stopfen",
+"pos": "n.",
+"zh": "织补物",
+"level": "b1"
+},
+{
+"word": "Übergabe",
+"pos": "n.f.",
+"zh": "递送；交付；分娩",
+"level": "b1"
+},
+{
+"word": "monatelang",
+"pos": "adv.",
+"zh": "月份",
+"level": "b1"
+},
+{
+"word": "Effekt",
+"pos": "n.m.",
+"zh": "结果；影响；效果",
+"level": "b1"
+},
+{
+"word": "Einlegen",
+"pos": "n.",
+"zh": "介绍；传入；采用",
+"level": "b1"
+},
+{
+"word": "Verwirrung",
+"pos": "n.f.",
+"zh": "混乱；混淆；无秩序\\ 含混",
+"level": "b1"
+},
+{
+"word": "Mailand",
+"pos": "n.",
+"zh": "米兰",
+"level": "b1"
+},
+{
+"word": "Latein",
+"pos": "n.",
+"zh": "拉丁人；拉丁语的",
+"level": "b1"
+},
+{
+"word": "Grundlage",
+"pos": "n.f.",
+"zh": "基础；主要成分\\ 基底",
+"level": "b1"
+},
+{
+"word": "Reihenfolge",
+"pos": "n.f.",
+"zh": "次序；规则；命令\\. 命令",
+"level": "b1"
+},
+{
+"word": "körperliche",
+"pos": "adv.",
+"zh": "行使；执行；运动",
+"level": "b1"
+},
+{
+"word": "Arena",
+"pos": "n.f.",
+"zh": "角斗场；舞台；场地\\ 尿沉渣",
+"level": "b1"
+},
+{
+"word": "Ballett",
+"pos": "n.",
+"zh": "芭蕾舞",
+"level": "b1"
+},
+{
+"word": "Luder",
+"pos": "n.",
+"zh": "狡诈的；诡计多端的；巧妙的",
+"level": "b1"
+},
+{
+"word": "Verfolgung",
+"pos": "n.f.",
+"zh": "包围；烦恼；烦心事",
+"level": "b1"
+},
+{
+"word": "Exemplar",
+"pos": "n.",
+"zh": "例子；样本；实例\\ 实例",
+"level": "b1"
+},
+{
+"word": "bedauerlich",
+"pos": "adj.",
+"zh": "可悲的；可惜的；抱歉的",
+"level": "b1"
+},
+{
+"word": "finanzieren",
+"pos": "v.",
+"zh": "一卷钞票",
+"level": "b1"
+},
+{
+"word": "vorbeischauen",
+"pos": "v.",
+"zh": "顺便访问",
+"level": "b1"
+},
+{
+"word": "Pakt",
+"pos": "n.m.",
+"zh": "契约；协定；条约\\ 合同",
+"level": "b1"
+},
+{
+"word": "Damm",
+"pos": "n.m.",
+"zh": "会阴\\ 会阴",
+"level": "b1"
+},
+{
+"word": "Laser",
+"pos": "n.m.",
+"zh": "激光\\ 激光器",
+"level": "b1"
+},
+{
+"word": "Gustav",
+"pos": "n.",
+"zh": "一种轻型旅行袋；格拉德斯通；格莱斯顿",
+"level": "b1"
+},
+{
+"word": "derart",
+"pos": "adv.",
+"zh": "在...期间；在...之内；处于...之中",
+"level": "b1"
+},
+{
+"word": "versammeln",
+"pos": "v.",
+"zh": "集合；集体的",
+"level": "b1"
+},
+{
+"word": "Köter",
+"pos": "n.m.",
+"zh": "恶狗；杂狗",
+"level": "b1"
+},
+{
+"word": "verwechseln",
+"pos": "v.",
+"zh": "使混乱；使狼狈；使困惑\\ 混淆",
+"level": "b1"
+},
+{
+"word": "helle",
+"pos": "adv.",
+"zh": "飘；摆动；拍打",
+"level": "b1"
+},
+{
+"word": "vergrößern",
+"pos": "v.",
+"zh": "增加；增进；利益\\. 增加",
+"level": "b1"
+},
+{
+"word": "Mississippi",
+"pos": "n.m.",
+"zh": "密西西比河；密西西比州",
+"level": "b1"
+},
+{
+"word": "Unterschlupf",
+"pos": "n.m.",
+"zh": "隐匿处；潜伏处；退隐处",
+"level": "b1"
+},
+{
+"word": "Tugend",
+"pos": "n.f.",
+"zh": "德行；美德；优点",
+"level": "b1"
+},
+{
+"word": "Neuanfang",
+"pos": "n.m.",
+"zh": "重新开始；重头再做",
+"level": "b1"
+},
+{
+"word": "Anordnung",
+"pos": "n.f.",
+"zh": "次序；规则；命令\\. 命令",
+"level": "b1"
+},
+{
+"word": "Orchester",
+"pos": "n.",
+"zh": "管弦乐队；乐队演奏处",
+"level": "b1"
+},
+{
+"word": "Senf",
+"pos": "n.m.",
+"zh": "芥末；芥菜；强烈的兴趣\\ 芥子",
+"level": "b1"
+},
+{
+"word": "Verwaltung",
+"pos": "n.f.",
+"zh": "行政；管理；政府机关\\ 给药",
+"level": "b1"
+},
+{
+"word": "scherzen",
+"pos": "v.",
+"zh": "笑柄；嘲笑",
+"level": "b1"
+},
+{
+"word": "modern",
+"pos": "v.",
+"zh": "直到现在的；最近的；现代化的\\ 最新的",
+"level": "b1"
+},
+{
+"word": "Schwiegersohn",
+"pos": "n.m.",
+"zh": "女婿",
+"level": "b1"
+},
+{
+"word": "Getränk",
+"pos": "n.",
+"zh": "饮料；酒\\. 喝；喝酒",
+"level": "b1"
+},
+{
+"word": "Hörer",
+"pos": "n.m.",
+"zh": "听者；听众",
+"level": "b1"
+},
+{
+"word": "Finanzen",
+"pos": "n.",
+"zh": "资金；经费\\ 财源",
+"level": "b1"
+},
+{
+"word": "bang",
+"pos": "adv.",
+"zh": "害怕的；担惊受怕的；惊慌的",
+"level": "b1"
+},
+{
+"word": "Colorado",
+"pos": "n.m.",
+"zh": "科罗拉多；科罗拉多河",
+"level": "b1"
+},
+{
+"word": "Verteidiger",
+"pos": "n.m.",
+"zh": "防卫者；防护者；辩护者\\ 辩护人",
+"level": "b1"
+},
+{
+"word": "hindurch",
+"pos": "adv.",
+"zh": "穿越；从头至尾；到底",
+"level": "b1"
+},
+{
+"word": "Eigentliche",
+"pos": "n.",
+"zh": "典型的；象征性的\\ 典型的",
+"level": "b1"
+},
+{
+"word": "Belästigung",
+"pos": "n.f.",
+"zh": "烦恼；打扰",
+"level": "b1"
+},
+{
+"word": "seltene",
+"pos": "adv.",
+"zh": "稀土族",
+"level": "b1"
+},
+{
+"word": "Vorsitzende",
+"pos": "n.",
+"zh": "总统；总裁；董事长",
+"level": "b1"
+},
+{
+"word": "Haue",
+"pos": "n.f.",
+"zh": "扁斧\\ 扁斧",
+"level": "b1"
+},
+{
+"word": "vorausgesetzt",
+"pos": "adv.",
+"zh": "考虑到；假定；已知",
+"level": "b1"
+},
+{
+"word": "Sabine",
+"pos": "n.",
+"zh": "萨宾人",
+"level": "b1"
+},
+{
+"word": "kaltes",
+"pos": "adv.",
+"zh": "正式茶点；晚茶",
+"level": "b1"
+},
+{
+"word": "huch",
+"pos": "adv.",
+"zh": "哎哟",
+"level": "b1"
+},
+{
+"word": "vorläufig",
+"pos": "adj.",
+"zh": "暂时",
+"level": "b1"
+}
+]

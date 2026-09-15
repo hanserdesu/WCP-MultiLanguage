@@ -1,0 +1,602 @@
+[
+{
+"word": "apparent",
+"pos": "adj.",
+"zh": "表面的；明显的",
+"level": "b2"
+},
+{
+"word": "apprivoiser",
+"pos": "v.",
+"zh": "驯养；使亲近",
+"level": "b2"
+},
+{
+"word": "approbation",
+"pos": "n.f.",
+"zh": "批准；赞许",
+"level": "b2"
+},
+{
+"word": "approprier",
+"pos": "v.",
+"zh": "据为己有；使适合",
+"level": "b2"
+},
+{
+"word": "approvisionnement",
+"pos": "n.m.",
+"zh": "供应；补给",
+"level": "b2"
+},
+{
+"word": "appréhender",
+"pos": "v.",
+"zh": "担心；领会；拘捕",
+"level": "b2"
+},
+{
+"word": "apprêter",
+"pos": "v.",
+"zh": "准备；使就绪；打扮",
+"level": "b2"
+},
+{
+"word": "appât",
+"pos": "n.m.",
+"zh": "诱饵；诱惑物",
+"level": "b2"
+},
+{
+"word": "apte",
+"pos": "adj.",
+"zh": "有能力的；胜任的",
+"level": "b2"
+},
+{
+"word": "aptitude",
+"pos": "n.f.",
+"zh": "能力；资质",
+"level": "b2"
+},
+{
+"word": "apôtre",
+"pos": "n.m.",
+"zh": "使徒；门徒",
+"level": "b2"
+},
+{
+"word": "arche",
+"pos": "n.f.",
+"zh": "拱；拱顶",
+"level": "b2"
+},
+{
+"word": "archer",
+"pos": "n.m.",
+"zh": "弓箭手",
+"level": "b2"
+},
+{
+"word": "archevêque",
+"pos": "n.m.",
+"zh": "大主教",
+"level": "b2"
+},
+{
+"word": "archive",
+"pos": "n.f.",
+"zh": "档案；档案室",
+"level": "b2"
+},
+{
+"word": "ardent",
+"pos": "adj.",
+"zh": "炽热的；热烈的",
+"level": "b2"
+},
+{
+"word": "ardeur",
+"pos": "n.f.",
+"zh": "热情；激烈",
+"level": "b2"
+},
+{
+"word": "ardoise",
+"pos": "n.f.",
+"zh": "石板；赊账",
+"level": "b2"
+},
+{
+"word": "argenterie",
+"pos": "n.f.",
+"zh": "银器",
+"level": "b2"
+},
+{
+"word": "argile",
+"pos": "n.f.",
+"zh": "黏土",
+"level": "b2"
+},
+{
+"word": "aristocrate",
+"pos": "n.",
+"zh": "贵族",
+"level": "b2"
+},
+{
+"word": "armement",
+"pos": "n.m.",
+"zh": "军备；军火工业",
+"level": "b2"
+},
+{
+"word": "armure",
+"pos": "n.f.",
+"zh": "盔甲",
+"level": "b2"
+},
+{
+"word": "arnaque",
+"pos": "n.f.",
+"zh": "骗局；诈骗",
+"level": "b2"
+},
+{
+"word": "arnaquer",
+"pos": "v.",
+"zh": "诈骗；坑骗",
+"level": "b2"
+},
+{
+"word": "arrogance",
+"pos": "n.f.",
+"zh": "傲慢",
+"level": "b2"
+},
+{
+"word": "arsenal",
+"pos": "n.m.",
+"zh": "兵工厂；军械库",
+"level": "b2"
+},
+{
+"word": "artifice",
+"pos": "n.m.",
+"zh": "巧计；诀窍",
+"level": "b2"
+},
+{
+"word": "artère",
+"pos": "n.f.",
+"zh": "动脉；干道",
+"level": "b2"
+},
+{
+"word": "arène",
+"pos": "n.f.",
+"zh": "竞技场；斗牛场",
+"level": "b2"
+},
+{
+"word": "asile",
+"pos": "n.m.",
+"zh": "庇护；收容所",
+"level": "b2"
+},
+{
+"word": "asperger",
+"pos": "v.",
+"zh": "喷洒；浇洒",
+"level": "b2"
+},
+{
+"word": "aspiration",
+"pos": "n.f.",
+"zh": "渴望；抽吸",
+"level": "b2"
+},
+{
+"word": "assaillir",
+"pos": "v.",
+"zh": "围攻；接连袭来",
+"level": "b2"
+},
+{
+"word": "assaut",
+"pos": "n.m.",
+"zh": "攻击；突击",
+"level": "b2"
+},
+{
+"word": "assigner",
+"pos": "v.",
+"zh": "指派；传唤",
+"level": "b2"
+},
+{
+"word": "assise",
+"pos": "n.f.",
+"zh": "基础；底座",
+"level": "b2"
+},
+{
+"word": "assoiffer",
+"pos": "v.",
+"zh": "使口渴；使渴求",
+"level": "b2"
+},
+{
+"word": "assommer",
+"pos": "v.",
+"zh": "击昏；使腻烦",
+"level": "b2"
+},
+{
+"word": "assoupir",
+"pos": "v.",
+"zh": "打盹；昏昏欲睡",
+"level": "b2"
+},
+{
+"word": "assouvir",
+"pos": "v.",
+"zh": "满足（欲望）",
+"level": "b2"
+},
+{
+"word": "assurément",
+"pos": "adv.",
+"zh": "无疑；肯定",
+"level": "b2"
+},
+{
+"word": "assécher",
+"pos": "v.",
+"zh": "使干涸；吸干",
+"level": "b2"
+},
+{
+"word": "asthme",
+"pos": "n.m.",
+"zh": "哮喘",
+"level": "b2"
+},
+{
+"word": "asticot",
+"pos": "n.m.",
+"zh": "蛆虫",
+"level": "b2"
+},
+{
+"word": "astiquer",
+"pos": "v.",
+"zh": "擦亮；擦洗",
+"level": "b2"
+},
+{
+"word": "astre",
+"pos": "n.m.",
+"zh": "天体",
+"level": "b2"
+},
+{
+"word": "astucieux",
+"pos": "adj.",
+"zh": "机敏的；巧妙的",
+"level": "b2"
+},
+{
+"word": "astéroïde",
+"pos": "n.m.",
+"zh": "小行星",
+"level": "b2"
+},
+{
+"word": "atomique",
+"pos": "adj.",
+"zh": "原子的",
+"level": "b2"
+},
+{
+"word": "atrocité",
+"pos": "n.f.",
+"zh": "暴行",
+"level": "b2"
+},
+{
+"word": "attache",
+"pos": "n.f.",
+"zh": "挂钩；系带",
+"level": "b2"
+},
+{
+"word": "attachement",
+"pos": "n.m.",
+"zh": "依恋；眷恋",
+"level": "b2"
+},
+{
+"word": "attarder",
+"pos": "v.",
+"zh": "逗留；耽搁",
+"level": "b2"
+},
+{
+"word": "atteler",
+"pos": "v.",
+"zh": "套（役畜）",
+"level": "b2"
+},
+{
+"word": "attendrir",
+"pos": "v.",
+"zh": "使感动；使心软",
+"level": "b2"
+},
+{
+"word": "attendu",
+"pos": "adj.",
+"zh": "预期的；意料中的",
+"level": "b2"
+},
+{
+"word": "attentif",
+"pos": "adj.",
+"zh": "专注的；体贴的",
+"level": "b2"
+},
+{
+"word": "attentionné",
+"pos": "adj.",
+"zh": "体贴的；亲切的",
+"level": "b2"
+},
+{
+"word": "attester",
+"pos": "v.",
+"zh": "证明；证实",
+"level": "b2"
+},
+{
+"word": "attirance",
+"pos": "n.f.",
+"zh": "吸引力；好感",
+"level": "b2"
+},
+{
+"word": "attrister",
+"pos": "v.",
+"zh": "使悲伤",
+"level": "b2"
+},
+{
+"word": "atténuer",
+"pos": "v.",
+"zh": "减轻；缓和",
+"level": "b2"
+},
+{
+"word": "aube",
+"pos": "n.f.",
+"zh": "黎明；拂晓",
+"level": "b2"
+},
+{
+"word": "audace",
+"pos": "n.f.",
+"zh": "大胆；胆识",
+"level": "b2"
+},
+{
+"word": "audacieux",
+"pos": "adj.",
+"zh": "大胆的；创新的",
+"level": "b2"
+},
+{
+"word": "audience",
+"pos": "n.f.",
+"zh": "听众；审讯；收视率",
+"level": "b2"
+},
+{
+"word": "auditeur",
+"pos": "n.m.",
+"zh": "听众；审计员",
+"level": "b2"
+},
+{
+"word": "auditionner",
+"pos": "v.",
+"zh": "试镜；面试选拔",
+"level": "b2"
+},
+{
+"word": "augure",
+"pos": "n.m.",
+"zh": "预兆",
+"level": "b2"
+},
+{
+"word": "aumône",
+"pos": "n.f.",
+"zh": "施舍；施舍物",
+"level": "b2"
+},
+{
+"word": "aura",
+"pos": "n.f.",
+"zh": "气场；氛围",
+"level": "b2"
+},
+{
+"word": "aurore",
+"pos": "n.f.",
+"zh": "黎明；曙光",
+"level": "b2"
+},
+{
+"word": "autel",
+"pos": "n.m.",
+"zh": "祭坛",
+"level": "b2"
+},
+{
+"word": "authentique",
+"pos": "adj.",
+"zh": "真实的；正宗的",
+"level": "b2"
+},
+{
+"word": "autodestruction",
+"pos": "n.f.",
+"zh": "自我毁灭",
+"level": "b2"
+},
+{
+"word": "autonome",
+"pos": "adj.",
+"zh": "自主的；独立的",
+"level": "b2"
+},
+{
+"word": "autopsie",
+"pos": "n.f.",
+"zh": "尸检",
+"level": "b2"
+},
+{
+"word": "autrui",
+"pos": "pron.",
+"zh": "他人；别人",
+"level": "b2"
+},
+{
+"word": "aval",
+"pos": "n.m.",
+"zh": "下游；下段",
+"level": "b2"
+},
+{
+"word": "avancement",
+"pos": "n.m.",
+"zh": "进展；晋升",
+"level": "b2"
+},
+{
+"word": "avancé",
+"pos": "adj.",
+"zh": "先进的；高级的",
+"level": "b2"
+},
+{
+"word": "avant-poste",
+"pos": "n.m.",
+"zh": "前哨",
+"level": "b2"
+},
+{
+"word": "avare",
+"pos": "adj.",
+"zh": "吝啬的；守财奴",
+"level": "b2"
+},
+{
+"word": "avatar",
+"pos": "n.m.",
+"zh": "变迁；波折；化身",
+"level": "b2"
+},
+{
+"word": "aventurer",
+"pos": "v.",
+"zh": "冒险；贸然前往",
+"level": "b2"
+},
+{
+"word": "aveu",
+"pos": "n.m.",
+"zh": "承认；供认",
+"level": "b2"
+},
+{
+"word": "aveugler",
+"pos": "v.",
+"zh": "使失明；蒙蔽",
+"level": "b2"
+},
+{
+"word": "aviateur",
+"pos": "n.m.",
+"zh": "飞行员",
+"level": "b2"
+},
+{
+"word": "avide",
+"pos": "adj.",
+"zh": "贪婪的；渴求的",
+"level": "b2"
+},
+{
+"word": "aviser",
+"pos": "v.",
+"zh": "注意到；通知",
+"level": "b2"
+},
+{
+"word": "avortement",
+"pos": "n.m.",
+"zh": "堕胎；流产",
+"level": "b2"
+},
+{
+"word": "avorter",
+"pos": "v.",
+"zh": "流产；堕胎；夭折",
+"level": "b2"
+},
+{
+"word": "avérer",
+"pos": "v.",
+"zh": "证实；证明是",
+"level": "b2"
+},
+{
+"word": "azur",
+"pos": "n.m.",
+"zh": "蔚蓝；碧空",
+"level": "b2"
+},
+{
+"word": "aérien",
+"pos": "adj.",
+"zh": "空中的；航空的",
+"level": "b2"
+},
+{
+"word": "aérodrome",
+"pos": "n.m.",
+"zh": "小型机场",
+"level": "b2"
+},
+{
+"word": "aïeul",
+"pos": "n.m.",
+"zh": "祖父；祖先",
+"level": "b2"
+},
+{
+"word": "baffe",
+"pos": "n.f.",
+"zh": "耳光；巴掌",
+"level": "b2"
+},
+{
+"word": "bafouer",
+"pos": "v.",
+"zh": "嘲弄；公然蔑视",
+"level": "b2"
+}
+]

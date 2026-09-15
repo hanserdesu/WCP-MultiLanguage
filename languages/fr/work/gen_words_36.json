@@ -1,0 +1,602 @@
+[
+{
+"word": "déplacement",
+"pos": "n.m.",
+"zh": "移动；出行",
+"level": "b1"
+},
+{
+"word": "déplacé",
+"pos": "adj.",
+"zh": "不恰当的；不合时宜的",
+"level": "b1"
+},
+{
+"word": "déposer",
+"pos": "v.",
+"zh": "放下；存放；提交",
+"level": "b1"
+},
+{
+"word": "dépression",
+"pos": "n.f.",
+"zh": "抑郁；萧条",
+"level": "b1"
+},
+{
+"word": "déprimant",
+"pos": "adj.",
+"zh": "令人沮丧的",
+"level": "b1"
+},
+{
+"word": "déprimer",
+"pos": "v.",
+"zh": "使沮丧；消沉",
+"level": "b1"
+},
+{
+"word": "député",
+"pos": "n.m.",
+"zh": "议员",
+"level": "b1"
+},
+{
+"word": "dépêche",
+"pos": "n.f.",
+"zh": "快讯；急件",
+"level": "b1"
+},
+{
+"word": "dépêcher",
+"pos": "v.",
+"zh": "赶紧；催促",
+"level": "b1"
+},
+{
+"word": "dépôt",
+"pos": "n.m.",
+"zh": "存放；仓库；沉积物",
+"level": "b1"
+},
+{
+"word": "dérangement",
+"pos": "n.m.",
+"zh": "打扰；麻烦",
+"level": "b1"
+},
+{
+"word": "dériver",
+"pos": "v.",
+"zh": "漂流；源自",
+"level": "b1"
+},
+{
+"word": "dérouler",
+"pos": "v.",
+"zh": "展开；（事件）进行",
+"level": "b1"
+},
+{
+"word": "désaccord",
+"pos": "n.m.",
+"zh": "分歧；不一致",
+"level": "b1"
+},
+{
+"word": "désactiver",
+"pos": "v.",
+"zh": "停用；使失效",
+"level": "b1"
+},
+{
+"word": "désagréable",
+"pos": "adj.",
+"zh": "令人不快的",
+"level": "b1"
+},
+{
+"word": "désapprouver",
+"pos": "v.",
+"zh": "不赞成；反对",
+"level": "b1"
+},
+{
+"word": "désespoir",
+"pos": "n.m.",
+"zh": "绝望",
+"level": "b1"
+},
+{
+"word": "désespérer",
+"pos": "v.",
+"zh": "使绝望；绝望",
+"level": "b1"
+},
+{
+"word": "désespéré",
+"pos": "adj.",
+"zh": "绝望的",
+"level": "b1"
+},
+{
+"word": "désespérément",
+"pos": "adv.",
+"zh": "绝望地；极度地",
+"level": "b1"
+},
+{
+"word": "désigner",
+"pos": "v.",
+"zh": "指定；指明；任命",
+"level": "b1"
+},
+{
+"word": "désinfecter",
+"pos": "v.",
+"zh": "消毒",
+"level": "b1"
+},
+{
+"word": "désir",
+"pos": "n.m.",
+"zh": "欲望；愿望",
+"level": "b1"
+},
+{
+"word": "désirer",
+"pos": "v.",
+"zh": "渴望；想要",
+"level": "b1"
+},
+{
+"word": "désobéir",
+"pos": "v.",
+"zh": "违抗；不服从",
+"level": "b1"
+},
+{
+"word": "désordre",
+"pos": "n.m.",
+"zh": "混乱；杂乱",
+"level": "b1"
+},
+{
+"word": "désormais",
+"pos": "adv.",
+"zh": "从今以后",
+"level": "b1"
+},
+{
+"word": "détacher",
+"pos": "v.",
+"zh": "解开；使分开",
+"level": "b1"
+},
+{
+"word": "détecter",
+"pos": "v.",
+"zh": "探测；察觉",
+"level": "b1"
+},
+{
+"word": "détecteur",
+"pos": "n.m.",
+"zh": "探测器",
+"level": "b1"
+},
+{
+"word": "détente",
+"pos": "n.f.",
+"zh": "放松；缓和",
+"level": "b1"
+},
+{
+"word": "détermination",
+"pos": "n.f.",
+"zh": "决心；确定",
+"level": "b1"
+},
+{
+"word": "déterminer",
+"pos": "v.",
+"zh": "确定；查明",
+"level": "b1"
+},
+{
+"word": "déterminé",
+"pos": "adj.",
+"zh": "坚决的；果断的",
+"level": "b1"
+},
+{
+"word": "détourner",
+"pos": "v.",
+"zh": "使改道；挪用；转移",
+"level": "b1"
+},
+{
+"word": "détresse",
+"pos": "n.f.",
+"zh": "痛苦；危难",
+"level": "b1"
+},
+{
+"word": "développé",
+"pos": "adj.",
+"zh": "发达的；展开的",
+"level": "b1"
+},
+{
+"word": "dévoiler",
+"pos": "v.",
+"zh": "揭露；透露",
+"level": "b1"
+},
+{
+"word": "effectif",
+"pos": "n.m.",
+"zh": "人员总数；编制",
+"level": "b1"
+},
+{
+"word": "effectivement",
+"pos": "adv.",
+"zh": "的确；确实",
+"level": "b1"
+},
+{
+"word": "effectuer",
+"pos": "v.",
+"zh": "进行；实施",
+"level": "b1"
+},
+{
+"word": "effet",
+"pos": "n.m.",
+"zh": "效果；影响",
+"level": "b1"
+},
+{
+"word": "effondrer",
+"pos": "v.",
+"zh": "（使）倒塌；崩溃",
+"level": "b1"
+},
+{
+"word": "efforcer",
+"pos": "v.",
+"zh": "努力；尽力",
+"level": "b1"
+},
+{
+"word": "effrayant",
+"pos": "adj.",
+"zh": "吓人的；骇人的",
+"level": "b1"
+},
+{
+"word": "effrayer",
+"pos": "v.",
+"zh": "使惊恐；吓唬",
+"level": "b1"
+},
+{
+"word": "ego",
+"pos": "n.m.",
+"zh": "自我；自负",
+"level": "b1"
+},
+{
+"word": "elfe",
+"pos": "n.m.",
+"zh": "精灵",
+"level": "b1"
+},
+{
+"word": "emballage",
+"pos": "n.m.",
+"zh": "包装；包装材料",
+"level": "b1"
+},
+{
+"word": "emballer",
+"pos": "v.",
+"zh": "包装；包起来",
+"level": "b1"
+},
+{
+"word": "embarquer",
+"pos": "v.",
+"zh": "上船；装载",
+"level": "b1"
+},
+{
+"word": "embarrassant",
+"pos": "adj.",
+"zh": "令人尴尬的",
+"level": "b1"
+},
+{
+"word": "embarrassé",
+"pos": "adj.",
+"zh": "尴尬的；为难的",
+"level": "b1"
+},
+{
+"word": "embauche",
+"pos": "n.f.",
+"zh": "雇用；招聘",
+"level": "b1"
+},
+{
+"word": "embaucher",
+"pos": "v.",
+"zh": "雇用",
+"level": "b1"
+},
+{
+"word": "embellir",
+"pos": "v.",
+"zh": "美化；增色",
+"level": "b1"
+},
+{
+"word": "embouteillage",
+"pos": "n.m.",
+"zh": "堵车",
+"level": "b1"
+},
+{
+"word": "embrasse",
+"pos": "n.f.",
+"zh": "吻；亲吻",
+"level": "b1"
+},
+{
+"word": "embrouille",
+"pos": "n.f.",
+"zh": "纠纷；乱子（口语）",
+"level": "b1"
+},
+{
+"word": "embrouiller",
+"pos": "v.",
+"zh": "搞乱；使混乱",
+"level": "b1"
+},
+{
+"word": "empirer",
+"pos": "v.",
+"zh": "恶化",
+"level": "b1"
+},
+{
+"word": "employeur",
+"pos": "n.m.",
+"zh": "雇主",
+"level": "b1"
+},
+{
+"word": "empoisonner",
+"pos": "v.",
+"zh": "毒杀；下毒",
+"level": "b1"
+},
+{
+"word": "empreinte",
+"pos": "n.f.",
+"zh": "印记；足迹；指纹",
+"level": "b1"
+},
+{
+"word": "emprunt",
+"pos": "n.m.",
+"zh": "借款；借词",
+"level": "b1"
+},
+{
+"word": "empêcher",
+"pos": "v.",
+"zh": "阻止；妨碍",
+"level": "b1"
+},
+{
+"word": "encens",
+"pos": "n.m.",
+"zh": "香；熏香",
+"level": "b1"
+},
+{
+"word": "encercler",
+"pos": "v.",
+"zh": "包围",
+"level": "b1"
+},
+{
+"word": "enchanter",
+"pos": "v.",
+"zh": "使陶醉；使欣喜",
+"level": "b1"
+},
+{
+"word": "encouragement",
+"pos": "n.m.",
+"zh": "鼓励；鼓舞",
+"level": "b1"
+},
+{
+"word": "endommager",
+"pos": "v.",
+"zh": "损坏；毁损",
+"level": "b1"
+},
+{
+"word": "endommagé",
+"pos": "adj.",
+"zh": "损坏的",
+"level": "b1"
+},
+{
+"word": "enfer",
+"pos": "n.m.",
+"zh": "地狱",
+"level": "b1"
+},
+{
+"word": "enfoiré",
+"pos": "n.m.",
+"zh": "混蛋（粗俗）",
+"level": "b1"
+},
+{
+"word": "enfoncer",
+"pos": "v.",
+"zh": "钉入；塞进；撞入",
+"level": "b1"
+},
+{
+"word": "enfuir",
+"pos": "v.",
+"zh": "逃走；逃跑",
+"level": "b1"
+},
+{
+"word": "engagement",
+"pos": "n.m.",
+"zh": "承诺；约定；投入",
+"level": "b1"
+},
+{
+"word": "engager",
+"pos": "v.",
+"zh": "雇用；着手；承诺",
+"level": "b1"
+},
+{
+"word": "engrais",
+"pos": "n.m.",
+"zh": "肥料",
+"level": "b1"
+},
+{
+"word": "enlacer",
+"pos": "v.",
+"zh": "拥抱；搂抱",
+"level": "b1"
+},
+{
+"word": "ennemi",
+"pos": "n.m.",
+"zh": "敌人；仇敌",
+"level": "b1"
+},
+{
+"word": "ennui",
+"pos": "n.m.",
+"zh": "无聊；烦恼",
+"level": "b1"
+},
+{
+"word": "ennuyer",
+"pos": "v.",
+"zh": "使厌烦；使无聊",
+"level": "b1"
+},
+{
+"word": "enquête",
+"pos": "n.f.",
+"zh": "调查",
+"level": "b1"
+},
+{
+"word": "enquêter",
+"pos": "v.",
+"zh": "调查；侦查",
+"level": "b1"
+},
+{
+"word": "enquêteur",
+"pos": "n.m.",
+"zh": "调查员；侦探",
+"level": "b1"
+},
+{
+"word": "enregistrement",
+"pos": "n.m.",
+"zh": "登记；录音",
+"level": "b1"
+},
+{
+"word": "enrichir",
+"pos": "v.",
+"zh": "使富裕；充实",
+"level": "b1"
+},
+{
+"word": "enrouler",
+"pos": "v.",
+"zh": "卷；缠绕",
+"level": "b1"
+},
+{
+"word": "enseignement",
+"pos": "n.m.",
+"zh": "教学；教育",
+"level": "b1"
+},
+{
+"word": "enseigner",
+"pos": "v.",
+"zh": "教；讲授",
+"level": "b1"
+},
+{
+"word": "entamer",
+"pos": "v.",
+"zh": "开始；切开",
+"level": "b1"
+},
+{
+"word": "entendu",
+"pos": "adj.",
+"zh": "说定的；当然",
+"level": "b1"
+},
+{
+"word": "enterrement",
+"pos": "n.m.",
+"zh": "葬礼；埋葬",
+"level": "b1"
+},
+{
+"word": "enterrer",
+"pos": "v.",
+"zh": "埋葬；埋",
+"level": "b1"
+},
+{
+"word": "enterré",
+"pos": "adj.",
+"zh": "被埋葬的；被搁置的",
+"level": "b1"
+},
+{
+"word": "enthousiasme",
+"pos": "n.m.",
+"zh": "热情；热忱",
+"level": "b1"
+},
+{
+"word": "enthousiaste",
+"pos": "adj.",
+"zh": "热情的；热衷的",
+"level": "b1"
+},
+{
+"word": "entier",
+"pos": "adj.",
+"zh": "整个的；完整的",
+"level": "b1"
+}
+]

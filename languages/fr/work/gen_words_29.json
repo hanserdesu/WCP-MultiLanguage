@@ -1,0 +1,602 @@
+[
+{
+"word": "auquel",
+"pos": "pron.",
+"zh": "对那个；向那个",
+"level": "b1"
+},
+{
+"word": "aussitôt",
+"pos": "adv.",
+"zh": "立即；随即",
+"level": "b1"
+},
+{
+"word": "autographe",
+"pos": "n.m.",
+"zh": "亲笔签名",
+"level": "b1"
+},
+{
+"word": "automatiquement",
+"pos": "adv.",
+"zh": "自动地",
+"level": "b1"
+},
+{
+"word": "autonomie",
+"pos": "n.f.",
+"zh": "自治；自主",
+"level": "b1"
+},
+{
+"word": "autorisation",
+"pos": "n.f.",
+"zh": "许可；授权",
+"level": "b1"
+},
+{
+"word": "autorisé",
+"pos": "adj.",
+"zh": "获准的；授权的",
+"level": "b1"
+},
+{
+"word": "autorité",
+"pos": "n.f.",
+"zh": "权威；当局",
+"level": "b1"
+},
+{
+"word": "auxquels",
+"pos": "pron.",
+"zh": "对那些（关系代词）",
+"level": "b1"
+},
+{
+"word": "avalanche",
+"pos": "n.f.",
+"zh": "雪崩",
+"level": "b1"
+},
+{
+"word": "avancée",
+"pos": "n.f.",
+"zh": "进展；进步",
+"level": "b1"
+},
+{
+"word": "avantage",
+"pos": "n.m.",
+"zh": "优势；好处",
+"level": "b1"
+},
+{
+"word": "avenir",
+"pos": "n.m.",
+"zh": "未来；前途",
+"level": "b1"
+},
+{
+"word": "aventurier",
+"pos": "n.m.",
+"zh": "冒险家",
+"level": "b1"
+},
+{
+"word": "avertir",
+"pos": "v.",
+"zh": "警告；告知",
+"level": "b1"
+},
+{
+"word": "avertissement",
+"pos": "n.m.",
+"zh": "警告；警示",
+"level": "b1"
+},
+{
+"word": "aviation",
+"pos": "n.f.",
+"zh": "航空；飞行",
+"level": "b1"
+},
+{
+"word": "avouer",
+"pos": "v.",
+"zh": "承认；坦白",
+"level": "b1"
+},
+{
+"word": "axe",
+"pos": "n.m.",
+"zh": "轴；轴线",
+"level": "b1"
+},
+{
+"word": "aérer",
+"pos": "v.",
+"zh": "使通风；使透气",
+"level": "b1"
+},
+{
+"word": "aîné",
+"pos": "n.m.",
+"zh": "长子；年长的",
+"level": "b1"
+},
+{
+"word": "bac",
+"pos": "n.m.",
+"zh": "中学毕业会考；文凭",
+"level": "b1"
+},
+{
+"word": "bactérie",
+"pos": "n.f.",
+"zh": "细菌",
+"level": "b1"
+},
+{
+"word": "badge",
+"pos": "n.m.",
+"zh": "徽章；工牌",
+"level": "b1"
+},
+{
+"word": "bagnole",
+"pos": "n.f.",
+"zh": "破车；汽车（俚语）",
+"level": "b1"
+},
+{
+"word": "baie",
+"pos": "n.f.",
+"zh": "海湾；浆果",
+"level": "b1"
+},
+{
+"word": "baigner",
+"pos": "v.",
+"zh": "浸泡；给…洗澡",
+"level": "b1"
+},
+{
+"word": "baisse",
+"pos": "n.f.",
+"zh": "下降；跌价",
+"level": "b1"
+},
+{
+"word": "balader",
+"pos": "v.",
+"zh": "闲逛；散步",
+"level": "b1"
+},
+{
+"word": "balayer",
+"pos": "v.",
+"zh": "扫；扫视",
+"level": "b1"
+},
+{
+"word": "bancaire",
+"pos": "adj.",
+"zh": "银行的",
+"level": "b1"
+},
+{
+"word": "bandage",
+"pos": "n.m.",
+"zh": "绷带",
+"level": "b1"
+},
+{
+"word": "bande",
+"pos": "n.f.",
+"zh": "一伙；带子；条",
+"level": "b1"
+},
+{
+"word": "bandit",
+"pos": "n.m.",
+"zh": "强盗；歹徒",
+"level": "b1"
+},
+{
+"word": "banlieue",
+"pos": "n.f.",
+"zh": "郊区；市郊",
+"level": "b1"
+},
+{
+"word": "banquier",
+"pos": "n.m.",
+"zh": "银行家",
+"level": "b1"
+},
+{
+"word": "baptême",
+"pos": "n.m.",
+"zh": "洗礼",
+"level": "b1"
+},
+{
+"word": "barbier",
+"pos": "n.m.",
+"zh": "理发师",
+"level": "b1"
+},
+{
+"word": "baril",
+"pos": "n.m.",
+"zh": "桶",
+"level": "b1"
+},
+{
+"word": "baron",
+"pos": "n.m.",
+"zh": "男爵",
+"level": "b1"
+},
+{
+"word": "barque",
+"pos": "n.f.",
+"zh": "小船",
+"level": "b1"
+},
+{
+"word": "barrer",
+"pos": "v.",
+"zh": "闩上；拦住",
+"level": "b1"
+},
+{
+"word": "barricade",
+"pos": "n.f.",
+"zh": "路障；街垒",
+"level": "b1"
+},
+{
+"word": "baser",
+"pos": "v.",
+"zh": "把…建在；基于",
+"level": "b1"
+},
+{
+"word": "basque",
+"pos": "adj.",
+"zh": "巴斯克的；巴斯克人",
+"level": "b1"
+},
+{
+"word": "basse",
+"pos": "n.f.",
+"zh": "低音；贝斯",
+"level": "b1"
+},
+{
+"word": "bassin",
+"pos": "n.m.",
+"zh": "盆地；水池；骨盆",
+"level": "b1"
+},
+{
+"word": "bataille",
+"pos": "n.f.",
+"zh": "战斗；战役",
+"level": "b1"
+},
+{
+"word": "batteur",
+"pos": "n.m.",
+"zh": "打蛋器；搅拌器",
+"level": "b1"
+},
+{
+"word": "battu",
+"pos": "adj.",
+"zh": "被打败的；被殴打的",
+"level": "b1"
+},
+{
+"word": "bavard",
+"pos": "adj.",
+"zh": "话多的；爱闲聊的",
+"level": "b1"
+},
+{
+"word": "bazar",
+"pos": "n.m.",
+"zh": "杂货市场；混乱",
+"level": "b1"
+},
+{
+"word": "beauté",
+"pos": "n.f.",
+"zh": "美；美丽",
+"level": "b1"
+},
+{
+"word": "beaux-arts",
+"pos": "n.m.",
+"zh": "美术；美术学院",
+"level": "b1"
+},
+{
+"word": "berceau",
+"pos": "n.m.",
+"zh": "摇篮；发源地",
+"level": "b1"
+},
+{
+"word": "berge",
+"pos": "n.f.",
+"zh": "河岸；岸堤",
+"level": "b1"
+},
+{
+"word": "berger",
+"pos": "n.m.",
+"zh": "牧羊人",
+"level": "b1"
+},
+{
+"word": "biberon",
+"pos": "n.m.",
+"zh": "奶瓶",
+"level": "b1"
+},
+{
+"word": "bible",
+"pos": "n.f.",
+"zh": "圣经",
+"level": "b1"
+},
+{
+"word": "bibliothécaire",
+"pos": "n.",
+"zh": "图书管理员",
+"level": "b1"
+},
+{
+"word": "bidon",
+"pos": "n.m.",
+"zh": "罐；桶；假的（口语）",
+"level": "b1"
+},
+{
+"word": "bien-aimé",
+"pos": "n.m.",
+"zh": "心爱的人",
+"level": "b1"
+},
+{
+"word": "bien-être",
+"pos": "n.m.",
+"zh": "安乐；身心健康",
+"level": "b1"
+},
+{
+"word": "bienfait",
+"pos": "n.m.",
+"zh": "好处；功效",
+"level": "b1"
+},
+{
+"word": "bijouterie",
+"pos": "n.f.",
+"zh": "珠宝店；珠宝业",
+"level": "b1"
+},
+{
+"word": "bikini",
+"pos": "n.m.",
+"zh": "比基尼泳装",
+"level": "b1"
+},
+{
+"word": "bilan",
+"pos": "n.m.",
+"zh": "总结；评估；结算",
+"level": "b1"
+},
+{
+"word": "billard",
+"pos": "n.m.",
+"zh": "台球；台球桌",
+"level": "b1"
+},
+{
+"word": "bingo",
+"pos": "n.m.",
+"zh": "宾果游戏",
+"level": "b1"
+},
+{
+"word": "biographie",
+"pos": "n.f.",
+"zh": "传记",
+"level": "b1"
+},
+{
+"word": "biologique",
+"pos": "adj.",
+"zh": "生物的；有机的",
+"level": "b1"
+},
+{
+"word": "bip",
+"pos": "n.m.",
+"zh": "哔声；提示音",
+"level": "b1"
+},
+{
+"word": "bistrot",
+"pos": "n.m.",
+"zh": "小酒馆",
+"level": "b1"
+},
+{
+"word": "blaguer",
+"pos": "v.",
+"zh": "开玩笑（口语）",
+"level": "b1"
+},
+{
+"word": "blanchir",
+"pos": "v.",
+"zh": "漂白；洗白",
+"level": "b1"
+},
+{
+"word": "blesser",
+"pos": "v.",
+"zh": "使受伤",
+"level": "b1"
+},
+{
+"word": "bloc",
+"pos": "n.m.",
+"zh": "块；街区；集团",
+"level": "b1"
+},
+{
+"word": "blouse",
+"pos": "n.f.",
+"zh": "罩衫；工作服",
+"level": "b1"
+},
+{
+"word": "blé",
+"pos": "n.m.",
+"zh": "小麦",
+"level": "b1"
+},
+{
+"word": "bombarder",
+"pos": "v.",
+"zh": "轰炸",
+"level": "b1"
+},
+{
+"word": "bonheur",
+"pos": "n.m.",
+"zh": "幸福；快乐",
+"level": "b1"
+},
+{
+"word": "bonhomme",
+"pos": "n.m.",
+"zh": "家伙；小人儿",
+"level": "b1"
+},
+{
+"word": "bonté",
+"pos": "n.f.",
+"zh": "善良；仁慈",
+"level": "b1"
+},
+{
+"word": "bonus",
+"pos": "n.m.",
+"zh": "奖金；红利；额外赠送",
+"level": "b1"
+},
+{
+"word": "boomerang",
+"pos": "n.m.",
+"zh": "回旋镖；回力镖",
+"level": "b1"
+},
+{
+"word": "bordel",
+"pos": "n.m.",
+"zh": "脏乱；混乱（粗俗）",
+"level": "b1"
+},
+{
+"word": "bosser",
+"pos": "v.",
+"zh": "干活；工作（口语）",
+"level": "b1"
+},
+{
+"word": "bottine",
+"pos": "n.f.",
+"zh": "短靴",
+"level": "b1"
+},
+{
+"word": "boucher",
+"pos": "v.",
+"zh": "堵住；塞住",
+"level": "b1"
+},
+{
+"word": "bouchée",
+"pos": "n.f.",
+"zh": "一口（的食物）",
+"level": "b1"
+},
+{
+"word": "boucle",
+"pos": "n.f.",
+"zh": "环；圈；卷发",
+"level": "b1"
+},
+{
+"word": "boucler",
+"pos": "v.",
+"zh": "扣紧；锁上",
+"level": "b1"
+},
+{
+"word": "bouclier",
+"pos": "n.m.",
+"zh": "盾；防护物",
+"level": "b1"
+},
+{
+"word": "boulevard",
+"pos": "n.m.",
+"zh": "大街；林荫大道",
+"level": "b1"
+},
+{
+"word": "bouleverser",
+"pos": "v.",
+"zh": "使震惊；使心乱",
+"level": "b1"
+},
+{
+"word": "bouquet",
+"pos": "n.m.",
+"zh": "花束",
+"level": "b1"
+},
+{
+"word": "bourré",
+"pos": "adj.",
+"zh": "喝醉的；塞满的",
+"level": "b1"
+},
+{
+"word": "bourse",
+"pos": "n.f.",
+"zh": "奖学金；交易所",
+"level": "b1"
+},
+{
+"word": "bousculer",
+"pos": "v.",
+"zh": "推搡；打乱",
+"level": "b1"
+},
+{
+"word": "boutonner",
+"pos": "v.",
+"zh": "扣纽扣",
+"level": "b1"
+}
+]

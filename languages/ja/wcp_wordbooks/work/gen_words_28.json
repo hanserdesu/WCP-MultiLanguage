@@ -1,0 +1,2402 @@
+{
+ "網掛け": {
+  "reading": "あみかけ",
+  "meaning": "【あみかけ】半色调网纹〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "無手順": {
+  "reading": "むてじゅん",
+  "meaning": "【むてじゅん】无规程传输〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "袋綴じ": {
+  "reading": "ふくろとじ",
+  "meaning": "【ふくろとじ】跨页拼合〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＡＢＣ": {
+  "reading": "エー・ビー・シー",
+  "meaning": "作业成本法（ABC）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＬＳＩ": {
+  "reading": "エル・エス・アイ",
+  "meaning": "大规模集成电路〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "桁上り": {
+  "reading": "けたあがり",
+  "meaning": "【けたあがり】进位（上溢）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "エミュ": {
+  "reading": "",
+  "meaning": "模拟器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "Ｃ＋＋": {
+  "reading": "シー・プラス・プラス",
+  "meaning": "C++语言〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "マザー": {
+  "reading": "",
+  "meaning": "主板〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＶＡＮ": {
+  "reading": "ブイ・エー・エヌ",
+  "meaning": "增值网〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＵＳＢ": {
+  "reading": "ユー・エス・ビー",
+  "meaning": "USB（接口）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ボット": {
+  "reading": "",
+  "meaning": "机器人程序〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＳＳＬ": {
+  "reading": "エス・エス・エル",
+  "meaning": "SSL加密协议〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＸＭＬ": {
+  "reading": "エックス・エム・エル",
+  "meaning": "XML（数据格式）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＧＩ": {
+  "reading": "シー・ジー・アイ",
+  "meaning": "公共网关接口〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＲＡＭ": {
+  "reading": "ラム",
+  "meaning": "内存〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＬＡＮ": {
+  "reading": "ラン",
+  "meaning": "局域网〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "モナド": {
+  "reading": "",
+  "meaning": "单子（函数式编程）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＡＤ": {
+  "reading": "キャド",
+  "meaning": "计算机辅助设计〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＡＭ": {
+  "reading": "キャム",
+  "meaning": "计算机辅助制造〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＡＩ": {
+  "reading": "シー・エー・アイ",
+  "meaning": "计算机辅助教学〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ぬるぽ": {
+  "reading": "ヌルポ",
+  "meaning": "空指针异常（网络梗）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＷＡＮ": {
+  "reading": "ワン",
+  "meaning": "广域网〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＲＡＳ": {
+  "reading": "ラス",
+  "meaning": "远程接入服务〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＬＡＰ": {
+  "reading": "ラップ",
+  "meaning": "链路访问协议〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "２次局": {
+  "reading": "にじきょく",
+  "meaning": "【にじきょく】二级站〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "Ｘ端末": {
+  "reading": "エックスたんまつ",
+  "meaning": "【エックスたんまつ】X终端〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "すくみ": {
+  "reading": "",
+  "meaning": "死锁〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＡＲＰ": {
+  "reading": "アープ",
+  "meaning": "地址解析协议〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＲＴＦ": {
+  "reading": "アール・ティー・エフ",
+  "meaning": "富文本格式〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＲＤＯ": {
+  "reading": "アール・ディー・オー",
+  "meaning": "远程数据对象〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＩＲＱ": {
+  "reading": "アイ・アール・キュー",
+  "meaning": "中断请求〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＩＩＳ": {
+  "reading": "アイ・アイ・エス",
+  "meaning": "IIS服务器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＩＭＥ": {
+  "reading": "アイ・エム・イー",
+  "meaning": "输入法编辑器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＩＤＥ": {
+  "reading": "アイ・ディー・イー",
+  "meaning": "IDE接口〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＩＤＬ": {
+  "reading": "アイ・ディー・エル",
+  "meaning": "接口定义语言〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＩＤＣ": {
+  "reading": "アイ・ディー・シー",
+  "meaning": "互联网数据中心〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "アゴラ": {
+  "reading": "",
+  "meaning": "Agora语言〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＡＣＫ": {
+  "reading": "アック",
+  "meaning": "确认信号（ACK）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＥＲＰ": {
+  "reading": "イー・アール・ピー",
+  "meaning": "企业资源计划〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＥＭＳ": {
+  "reading": "イー・エム・エス",
+  "meaning": "扩充内存规范〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＥＯＳ": {
+  "reading": "イー・オー・エス",
+  "meaning": "电子订货系统〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＥＯＦ": {
+  "reading": "イー・オー・エフ",
+  "meaning": "文件结尾〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＥＧＡ": {
+  "reading": "イー・ジー・エー",
+  "meaning": "增强图形适配器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＥＷＳ": {
+  "reading": "イー・ダブリュー・エス",
+  "meaning": "工程工作站〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＥＤＩ": {
+  "reading": "イー・ディー・アイ",
+  "meaning": "电子数据交换〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＥＵＣ": {
+  "reading": "イー・ユー・シー",
+  "meaning": "EUC（编码）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＡＳＰ": {
+  "reading": "エー・エス・ピー",
+  "meaning": "应用服务提供商〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＡＣＬ": {
+  "reading": "エー・シー・エル",
+  "meaning": "访问控制列表〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＡＴＡ": {
+  "reading": "エー・ティー・エー",
+  "meaning": "ATA（接口标准）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＡＰＩ": {
+  "reading": "エー・ピー・アイ",
+  "meaning": "应用程序接口〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＡＰＬ": {
+  "reading": "エー・ピー・エル",
+  "meaning": "APL语言〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＡＶＩ": {
+  "reading": "エー・ブイ・アイ",
+  "meaning": "AVI（视频格式）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "Ａｄａ": {
+  "reading": "エイダ",
+  "meaning": "Ada语言〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＨＳＶ": {
+  "reading": "エイチ・エス・ブイ",
+  "meaning": "色相饱和度明度〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＨＭＡ": {
+  "reading": "エイチ・エム・エー",
+  "meaning": "高端内存区〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＨＤＤ": {
+  "reading": "エイチ・ディー・ディー",
+  "meaning": "硬盘驱动器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＳＦＡ": {
+  "reading": "エス・エフ・エー",
+  "meaning": "销售自动化〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＳＱＬ": {
+  "reading": "エス・キュー・エル",
+  "meaning": "结构化查询语言〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＳＤＫ": {
+  "reading": "エス・ディー・ケー",
+  "meaning": "软件开发工具包〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＮＦＳ": {
+  "reading": "エヌ・エフ・エス",
+  "meaning": "网络文件系统〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＮＯＳ": {
+  "reading": "ノス",
+  "meaning": "网络操作系统〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＦＥＰ": {
+  "reading": "エフ・イー・ピー",
+  "meaning": "前端处理器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＦＴＰ": {
+  "reading": "エフ・ティー・ピー",
+  "meaning": "文件传输协议〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＦＰＵ": {
+  "reading": "エフ・ピー・ユー",
+  "meaning": "浮点运算器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＭＭＵ": {
+  "reading": "エムエムユー",
+  "meaning": "内存管理单元〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＬＬＣ": {
+  "reading": "エル・エル・シー",
+  "meaning": "逻辑链路控制〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＬＺＨ": {
+  "reading": "エル・ゼット・エイチ",
+  "meaning": "LZH（压缩格式）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＯＳＩ": {
+  "reading": "オー・エス・アイ",
+  "meaning": "OSI参考模型〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＯＬＥ": {
+  "reading": "オー・エル・イー",
+  "meaning": "对象链接与嵌入〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＯＣＲ": {
+  "reading": "オー・シー・アール",
+  "meaning": "光学字符识别〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＯＤＰ": {
+  "reading": "オー・ディー・ピー",
+  "meaning": "加速处理器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "カルク": {
+  "reading": "",
+  "meaning": "电子表格〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "クエリ": {
+  "reading": "クエリー",
+  "meaning": "查询〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＧＮＵ": {
+  "reading": "グヌー",
+  "meaning": "GNU（自由软件项目）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "グリフ": {
+  "reading": "",
+  "meaning": "字形〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "グレア": {
+  "reading": "",
+  "meaning": "眩光〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "コーム": {
+  "reading": "",
+  "meaning": "梳状（滤波）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "コア径": {
+  "reading": "コアけい",
+  "meaning": "【コアけい】纤芯直径〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "コプロ": {
+  "reading": "",
+  "meaning": "协处理器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＲＣ": {
+  "reading": "シー・アール・シー",
+  "meaning": "循环冗余校验〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＡＥ": {
+  "reading": "シー・エー・イー",
+  "meaning": "计算机辅助工程〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＡＶ": {
+  "reading": "シー・エー・ブイ",
+  "meaning": "恒定角速度〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＳＶ": {
+  "reading": "シー・エス・ブイ",
+  "meaning": "逗号分隔值文件〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＬＶ": {
+  "reading": "シー・エル・ブイ",
+  "meaning": "恒定线速度〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＣＤ": {
+  "reading": "シー・シー・ディー",
+  "meaning": "CCD（图像传感器）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＧＡ": {
+  "reading": "シー・ジー・エー",
+  "meaning": "彩色图形适配器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＰＭ": {
+  "reading": "シー・ピー・エム",
+  "meaning": "微型机控制程序（早期OS）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＰＵ": {
+  "reading": "シー・ピー・ユー",
+  "meaning": "处理器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＵＩ": {
+  "reading": "シー・ユー・アイ",
+  "meaning": "字符界面〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＣＵＧ": {
+  "reading": "シー・ユー・ジー",
+  "meaning": "闭合用户群〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＳＩＧ": {
+  "reading": "シグ",
+  "meaning": "特别兴趣小组〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＪＣＬ": {
+  "reading": "ジェー・シー・エル",
+  "meaning": "作业控制语言〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＪＤＫ": {
+  "reading": "ジェー・ディー・ケー",
+  "meaning": "Java开发工具包〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "タリー": {
+  "reading": "",
+  "meaning": "计数；记号〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＤＡＯ": {
+  "reading": "ダオ",
+  "meaning": "数据访问对象〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＤＥＳ": {
+  "reading": "ディー・イー・エス",
+  "meaning": "数据加密标准〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＤＳＳ": {
+  "reading": "ディー・エス・エス",
+  "meaning": "决策支持系统〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＤＳＰ": {
+  "reading": "ディー・エス・ピー",
+  "meaning": "数字信号处理器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＤＬＬ": {
+  "reading": "ディー・エル・エル",
+  "meaning": "动态链接库〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＤＣＥ": {
+  "reading": "ディー・シー・イー",
+  "meaning": "分布式计算环境〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＤＴＰ": {
+  "reading": "ディー・ティー・ピー",
+  "meaning": "桌面排版〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＤＤＸ": {
+  "reading": "ディー・ディー・エックス",
+  "meaning": "数字数据交换〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＤＤＬ": {
+  "reading": "ディー・ディー・エル",
+  "meaning": "数据定义语言〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ｄｐｉ": {
+  "reading": "ディー・ピー・アイ",
+  "meaning": "每英寸点数〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ディザ": {
+  "reading": "ディザー",
+  "meaning": "抖动（图像）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ディフ": {
+  "reading": "",
+  "meaning": "DIF（数据格式）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ディム": {
+  "reading": "",
+  "meaning": "内存条（DIMM）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＮＡＫ": {
+  "reading": "ナック",
+  "meaning": "否定应答〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＢＥＲ": {
+  "reading": "ビー・イー・アール",
+  "meaning": "误码率〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＢＳＤ": {
+  "reading": "ビー・エス・ディー",
+  "meaning": "BSD（Unix分支）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＢＭＰ": {
+  "reading": "ビー・エム・ピー",
+  "meaning": "BMP（图像格式）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ｂｐｓ": {
+  "reading": "ビー・ピー・エス",
+  "meaning": "每秒比特数〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "Ｖｉｍ": {
+  "reading": "ヴィム",
+  "meaning": "Vim编辑器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ビルド": {
+  "reading": "",
+  "meaning": "构建〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＰｎＰ": {
+  "reading": "ピー・エヌ・ピー",
+  "meaning": "即插即用〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＰＣＩ": {
+  "reading": "ピー・シー・アイ",
+  "meaning": "PCI总线〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＰＤＦ": {
+  "reading": "ピー・ディー・エフ",
+  "meaning": "PDF（文档格式）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＰＤＭ": {
+  "reading": "ピー・ディー・エム",
+  "meaning": "产品数据管理〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＰＰＰ": {
+  "reading": "ピー・ピー・ピー",
+  "meaning": "点对点协议〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＰＩＭ": {
+  "reading": "ピム",
+  "meaning": "个人信息管理〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＶＧＡ": {
+  "reading": "ブイ・ジー・エー",
+  "meaning": "VGA（显示标准）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＶＤＴ": {
+  "reading": "ブイ・ディー・ティー",
+  "meaning": "视频显示终端〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＶＢＡ": {
+  "reading": "ブイ・ビー・エー",
+  "meaning": "VBA（宏语言）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ベアラ": {
+  "reading": "",
+  "meaning": "承载（网络）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ベジェ": {
+  "reading": "ベジエ",
+  "meaning": "贝塞尔（曲线）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ベル型": {
+  "reading": "ベルがた",
+  "meaning": "【ベルがた】钟形（曲线）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ホーブ": {
+  "reading": "",
+  "meaning": "HORB（分布式对象）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ホスツ": {
+  "reading": "",
+  "meaning": "主机清单〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ホロス": {
+  "reading": "",
+  "meaning": "Holos（决策系统）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ミスク": {
+  "reading": "",
+  "meaning": "杂项（misc）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ＵＭＡ": {
+  "reading": "ユー・エム・エー",
+  "meaning": "统一内存架构〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ラビー": {
+  "reading": "",
+  "meaning": "Lavie（系统）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "リドゥ": {
+  "reading": "リドゥー",
+  "meaning": "重做〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "ロガー": {
+  "reading": "",
+  "meaning": "日志记录器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "Ｙ２Ｋ": {
+  "reading": "ワイ・ツー・ケー",
+  "meaning": "千年虫问题〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "印字欄": {
+  "reading": "いんじらん",
+  "meaning": "【いんじらん】打印区域〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "演算器": {
+  "reading": "えんざんき",
+  "meaning": "【えんざんき】运算器〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "演算部": {
+  "reading": "えんざんぶ",
+  "meaning": "【えんざんぶ】运算部分〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "欧字列": {
+  "reading": "おうじれつ",
+  "meaning": "【おうじれつ】拉丁字母串〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "仮原文": {
+  "reading": "かりげんぶん",
+  "meaning": "【かりげんぶん】伪文本（翻译）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "仮手続": {
+  "reading": "かりてつづき",
+  "meaning": "【かりてつづき】哑过程〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "仮想局": {
+  "reading": "かそうきょく",
+  "meaning": "【かそうきょく】虚拟局〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "仮配列": {
+  "reading": "かりはいれつ",
+  "meaning": "【かりはいれつ】哑数组〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "開き口": {
+  "reading": "ひらきぐち",
+  "meaning": "【ひらきぐち】开口；光圈〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "拡散率": {
+  "reading": "かくさんりつ",
+  "meaning": "【かくさんりつ】扩散系数〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "活用率": {
+  "reading": "かつようりつ",
+  "meaning": "【かつようりつ】利用率〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "環境句": {
+  "reading": "かんきょうく",
+  "meaning": "【かんきょうく】环境子句〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "関連図": {
+  "reading": "かんれんず",
+  "meaning": "【かんれんず】关联图（显示）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "基底解": {
+  "reading": "きていかい",
+  "meaning": "【きていかい】基本解〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "基本外": {
+  "reading": "きほんがい",
+  "meaning": "【きほんがい】非基本（变量）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "基本名": {
+  "reading": "きほんめい",
+  "meaning": "【きほんめい】基元名〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "記憶列": {
+  "reading": "きおくれつ",
+  "meaning": "【きおくれつ】存储序列〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "記述項": {
+  "reading": "きじゅつこう",
+  "meaning": "【きじゅつこう】描述项（COBOL）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "記述名": {
+  "reading": "きじゅつめい",
+  "meaning": "【きじゅつめい】描述名〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "記法名": {
+  "reading": "きほうめい",
+  "meaning": "【きほうめい】记法名〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "逆編集": {
+  "reading": "ぎゃくへんしゅう",
+  "meaning": "【ぎゃくへんしゅう】反编辑（数据转换）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "局管理": {
+  "reading": "きょくかんり",
+  "meaning": "【きょくかんり】站点管理〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "空白列": {
+  "reading": "くうはくれつ",
+  "meaning": "【くうはくれつ】空白序列〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "係数器": {
+  "reading": "けいすうき",
+  "meaning": "【けいすうき】系数单元〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "継続文": {
+  "reading": "けいぞくぶん",
+  "meaning": "【けいぞくぶん】接续语句〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "検索者": {
+  "reading": "けんさくしゃ",
+  "meaning": "【けんさくしゃ】检索者〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "原稿台": {
+  "reading": "げんこうだい",
+  "meaning": "【げんこうだい】稿台〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "原資料": {
+  "reading": "げんしりょう",
+  "meaning": "【げんしりょう】原始资料〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "源項目": {
+  "reading": "げんこうもく",
+  "meaning": "【げんこうもく】源数据项〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "現属性": {
+  "reading": "げんぞくせい",
+  "meaning": "【げんぞくせい】当前属性〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "現付番": {
+  "reading": "げんふばん",
+  "meaning": "【げんふばん】当前序号〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "現要素": {
+  "reading": "げんようそ",
+  "meaning": "【げんようそ】当前元素〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "呼処理": {
+  "reading": "こしょり",
+  "meaning": "【こしょり】呼叫处理〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "誤差幅": {
+  "reading": "ごさはば",
+  "meaning": "【ごさはば】误差范围〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "公開鍵": {
+  "reading": "こうかいかぎ",
+  "meaning": "【こうかいかぎ】公钥〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "公開文": {
+  "reading": "こうかいぶん",
+  "meaning": "【こうかいぶん】公开文本〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "構成節": {
+  "reading": "こうせいせつ",
+  "meaning": "【こうせいせつ】配置节（COBOL）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "行起点": {
+  "reading": "ぎょうきてん",
+  "meaning": "【ぎょうきてん】行起始位〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "行始端": {
+  "reading": "ぎょうしたん",
+  "meaning": "【ぎょうしたん】行首〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "行方向": {
+  "reading": "ぎょうほうこう",
+  "meaning": "【ぎょうほうこう】行书写方向〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "左方端": {
+  "reading": "さほうたん",
+  "meaning": "【さほうたん】左端〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "細胞状": {
+  "reading": "さいぼうじょう",
+  "meaning": "【さいぼうじょう】蜂窝状〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "雑時間": {
+  "reading": "ざつじかん",
+  "meaning": "【ざつじかん】杂项时间（非增值）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "散布度": {
+  "reading": "さんぷど",
+  "meaning": "【さんぷど】分散程度〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "散布量": {
+  "reading": "さんぷりょう",
+  "meaning": "【さんぷりょう】散布量〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "算術文": {
+  "reading": "さんじゅつぶん",
+  "meaning": "【さんじゅつぶん】算术语句〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "始端部": {
+  "reading": "したんぶ",
+  "meaning": "【したんぶ】前导部分〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "子操作": {
+  "reading": "こそうさ",
+  "meaning": "【こそうさ】子操作〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "指動輪": {
+  "reading": "しどうりん",
+  "meaning": "【しどうりん】指拨轮〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "試験群": {
+  "reading": "しけんぐん",
+  "meaning": "【しけんぐん】测试组〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "字方向": {
+  "reading": "じほうこう",
+  "meaning": "【じほうこう】文字书写方向〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "字類名": {
+  "reading": "じるいめい",
+  "meaning": "【じるいめい】字符类名〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "実験網": {
+  "reading": "じっけんもう",
+  "meaning": "【じっけんもう】试验网〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "実体文": {
+  "reading": "じったいぶん",
+  "meaning": "【じったいぶん】实体文本〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "実体木": {
+  "reading": "じったいぼく",
+  "meaning": "【じったいぼく】实体树〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "手順名": {
+  "reading": "てじゅんめい",
+  "meaning": "【てじゅんめい】过程名〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "終端間": {
+  "reading": "しゅうたんかん",
+  "meaning": "【しゅうたんかん】端到端〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "終着局": {
+  "reading": "しゅうちゃくきょく",
+  "meaning": "【しゅうちゃくきょく】端局〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "従属局": {
+  "reading": "じゅうぞくきょく",
+  "meaning": "【じゅうぞくきょく】从属站〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "準内字": {
+  "reading": "じゅんないじ",
+  "meaning": "【じゅんないじ】准内字〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "順読み": {
+  "reading": "じゅんよみ",
+  "meaning": "【じゅんよみ】顺序读取〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "照合機": {
+  "reading": "しょうごうき",
+  "meaning": "【しょうごうき】校对机〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "上下列": {
+  "reading": "じょうげれつ",
+  "meaning": "【じょうげれつ】链接（串联）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "情報群": {
+  "reading": "じょうほうぐん",
+  "meaning": "【じょうほうぐん】信息群〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "条件名": {
+  "reading": "じょうけんめい",
+  "meaning": "【じょうけんめい】条件名〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "信号局": {
+  "reading": "しんごうきょく",
+  "meaning": "【しんごうきょく】信令局〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "新規呼": {
+  "reading": "しんきこ",
+  "meaning": "【しんきこ】新呼叫〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "真空槽": {
+  "reading": "しんくうそう",
+  "meaning": "【しんくうそう】真空槽（磁带库）〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "親操作": {
+  "reading": "おやそうさ",
+  "meaning": "【おやそうさ】父操作〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "数字句": {
+  "reading": "すうじく",
+  "meaning": "【すうじく】数字记号〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "数値語": {
+  "reading": "すうちご",
+  "meaning": "【すうちご】数值字〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "製表機": {
+  "reading": "せいひょうき",
+  "meaning": "【せいひょうき】制表机〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "穿孔部": {
+  "reading": "せんこうぶ",
+  "meaning": "【せんこうぶ】穿孔站〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "組始端": {
+  "reading": "くみしたん",
+  "meaning": "【くみしたん】行首字符位〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "組終端": {
+  "reading": "くみしゅうたん",
+  "meaning": "【くみしゅうたん】行尾字符位〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "層管理": {
+  "reading": "そうかんり",
+  "meaning": "【そうかんり】层管理〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "総括票": {
+  "reading": "そうかつひょう",
+  "meaning": "【そうかつひょう】批头单据〈名〉",
+  "level": "it",
+  "need": 2
+ },
+ "下肢": {
+  "reading": "かし",
+  "meaning": "【かし】下肢〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "角膜": {
+  "reading": "かくまく",
+  "meaning": "【かくまく】角膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肝炎": {
+  "reading": "かんえん",
+  "meaning": "【かんえん】肝炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肝臓": {
+  "reading": "かんぞう",
+  "meaning": "【かんぞう】肝脏〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "関節": {
+  "reading": "かんせつ",
+  "meaning": "【かんせつ】关节〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "気管": {
+  "reading": "きかん",
+  "meaning": "【きかん】气管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "急性": {
+  "reading": "きゅうせい",
+  "meaning": "【きゅうせい】急性〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼓膜": {
+  "reading": "こまく",
+  "meaning": "【こまく】鼓膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "梗塞": {
+  "reading": "こうそく",
+  "meaning": "【こうそく】梗塞〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "骨髄": {
+  "reading": "こつずい",
+  "meaning": "【こつずい】骨髓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "昏睡": {
+  "reading": "こんすい",
+  "meaning": "【こんすい】昏迷〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "湿疹": {
+  "reading": "しっしん",
+  "meaning": "【しっしん】湿疹〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "疾患": {
+  "reading": "しっかん",
+  "meaning": "【しっかん】疾病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腫瘍": {
+  "reading": "しゅよう",
+  "meaning": "【しゅよう】肿瘤〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "食道": {
+  "reading": "しょくどう",
+  "meaning": "【しょくどう】食道〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腎臓": {
+  "reading": "じんぞう",
+  "meaning": "【じんぞう】肾脏〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "静脈": {
+  "reading": "じょうみゃく",
+  "meaning": "【じょうみゃく】静脉〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脊髄": {
+  "reading": "せきずい",
+  "meaning": "【せきずい】脊髓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "赤痢": {
+  "reading": "せきり",
+  "meaning": "【せきり】痢疾〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "前庭": {
+  "reading": "ぜんてい",
+  "meaning": "【ぜんてい】前庭（内耳）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "堕胎": {
+  "reading": "だたい",
+  "meaning": "【だたい】堕胎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "打診": {
+  "reading": "だしん",
+  "meaning": "【だしん】叩诊〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "体型": {
+  "reading": "たいけい",
+  "meaning": "【たいけい】体型〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胎盤": {
+  "reading": "たいばん",
+  "meaning": "【たいばん】胎盘〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "大腸": {
+  "reading": "だいちょう",
+  "meaning": "【だいちょう】大肠〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "大脳": {
+  "reading": "だいのう",
+  "meaning": "【だいのう】大脑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "中耳": {
+  "reading": "ちゅうじ",
+  "meaning": "【ちゅうじ】中耳〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "点滴": {
+  "reading": "てんてき",
+  "meaning": "【てんてき】点滴；输液〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頭骨": {
+  "reading": "とうこつ",
+  "meaning": "【とうこつ】头骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "動脈": {
+  "reading": "どうみゃく",
+  "meaning": "【どうみゃく】动脉〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "軟骨": {
+  "reading": "なんこつ",
+  "meaning": "【なんこつ】软骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "難聴": {
+  "reading": "なんちょう",
+  "meaning": "【なんちょう】听力障碍〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "難病": {
+  "reading": "なんびょう",
+  "meaning": "【なんびょう】疑难病症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "粘膜": {
+  "reading": "ねんまく",
+  "meaning": "【ねんまく】粘膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脳炎": {
+  "reading": "のうえん",
+  "meaning": "【のうえん】脑炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脳波": {
+  "reading": "のうは",
+  "meaning": "【のうは】脑电波〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肺炎": {
+  "reading": "はいえん",
+  "meaning": "【はいえん】肺炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "白線": {
+  "reading": "はくせん",
+  "meaning": "【はくせん】白线（腹白线）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肥大": {
+  "reading": "ひだい",
+  "meaning": "【ひだい】肥大〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "貧血": {
+  "reading": "ひんけつ",
+  "meaning": "【ひんけつ】贫血〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "浮腫": {
+  "reading": "むくみ",
+  "meaning": "【むくみ】浮肿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "負荷": {
+  "reading": "ふか",
+  "meaning": "【ふか】负荷（运动负荷）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腹部": {
+  "reading": "ふくぶ",
+  "meaning": "【ふくぶ】腹部〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "慢性": {
+  "reading": "まんせい",
+  "meaning": "【まんせい】慢性〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "盲腸": {
+  "reading": "もうちょう",
+  "meaning": "【もうちょう】盲肠〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "網膜": {
+  "reading": "もうまく",
+  "meaning": "【もうまく】视网膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "癒着": {
+  "reading": "ゆちゃく",
+  "meaning": "【ゆちゃく】粘连〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "卵巣": {
+  "reading": "らんそう",
+  "meaning": "【らんそう】卵巢〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "喘息": {
+  "reading": "ぜんそく",
+  "meaning": "【ぜんそく】哮喘〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "嘔吐": {
+  "reading": "おうと",
+  "meaning": "【おうと】呕吐〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "悪阻": {
+  "reading": "つわり",
+  "meaning": "【つわり】害喜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "上唇": {
+  "reading": "うわくちびる",
+  "meaning": "【うわくちびる】上唇〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "萎縮": {
+  "reading": "いしゅく",
+  "meaning": "【いしゅく】萎缩〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "失神": {
+  "reading": "しっしん",
+  "meaning": "【しっしん】晕厥〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "投与": {
+  "reading": "とうよ",
+  "meaning": "【とうよ】给药〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心筋": {
+  "reading": "しんきん",
+  "meaning": "【しんきん】心肌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "転移": {
+  "reading": "てんい",
+  "meaning": "【てんい】转移（癌）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "症例": {
+  "reading": "しょうれい",
+  "meaning": "【しょうれい】病例〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "耐性": {
+  "reading": "たいせい",
+  "meaning": "【たいせい】耐药性〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "発症": {
+  "reading": "はっしょう",
+  "meaning": "【はっしょう】发病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "カタル": {
+  "reading": "",
+  "meaning": "卡他（黏膜炎）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "チフス": {
+  "reading": "チブス",
+  "meaning": "伤寒；斑疹伤寒〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ポリオ": {
+  "reading": "",
+  "meaning": "脊髓灰质炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肝硬変": {
+  "reading": "かんこうへん",
+  "meaning": "【かんこうへん】肝硬化〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "気管支": {
+  "reading": "きかんし",
+  "meaning": "【きかんし】支气管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "狭心症": {
+  "reading": "きょうしんしょう",
+  "meaning": "【きょうしんしょう】心绞痛〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "血友病": {
+  "reading": "けつゆうびょう",
+  "meaning": "【けつゆうびょう】血友病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "呼吸器": {
+  "reading": "こきゅうき",
+  "meaning": "【こきゅうき】呼吸器官〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "後遺症": {
+  "reading": "こういしょう",
+  "meaning": "【こういしょう】后遗症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "甲状腺": {
+  "reading": "こうじょうせん",
+  "meaning": "【こうじょうせん】甲状腺〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "高血圧": {
+  "reading": "こうけつあつ",
+  "meaning": "【こうけつあつ】高血压〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "合併症": {
+  "reading": "がっぺいしょう",
+  "meaning": "【がっぺいしょう】并发症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "自閉症": {
+  "reading": "じへいしょう",
+  "meaning": "【じへいしょう】自闭症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "症候群": {
+  "reading": "しょうこうぐん",
+  "meaning": "【しょうこうぐん】综合征〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心不全": {
+  "reading": "しんふぜん",
+  "meaning": "【しんふぜん】心力衰竭〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "中耳炎": {
+  "reading": "ちゅうじえん",
+  "meaning": "【ちゅうじえん】中耳炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "伝染病": {
+  "reading": "でんせんびょう",
+  "meaning": "【でんせんびょう】传染病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "糖尿病": {
+  "reading": "とうにょうびょう",
+  "meaning": "【とうにょうびょう】糖尿病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脳出血": {
+  "reading": "のうしゅっけつ",
+  "meaning": "【のうしゅっけつ】脑出血〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脳卒中": {
+  "reading": "のうそっちゅう",
+  "meaning": "【のうそっちゅう】中风〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肺結核": {
+  "reading": "はいけっかく",
+  "meaning": "【はいけっかく】肺结核〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "白血病": {
+  "reading": "はっけつびょう",
+  "meaning": "【はっけつびょう】白血病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "不整脈": {
+  "reading": "ふせいみゃく",
+  "meaning": "【ふせいみゃく】心律不齐〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "不眠症": {
+  "reading": "ふみんしょう",
+  "meaning": "【ふみんしょう】失眠症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "副作用": {
+  "reading": "ふくさよう",
+  "meaning": "【ふくさよう】副作用〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "うつ病": {
+  "reading": "うつびょう",
+  "meaning": "【うつびょう】抑郁症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "内分泌": {
+  "reading": "ないぶんぴ",
+  "meaning": "【ないぶんぴ】内分泌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "泌尿器": {
+  "reading": "ひにょうき",
+  "meaning": "【ひにょうき】泌尿器官〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "処方箋": {
+  "reading": "しょほうせん",
+  "meaning": "【しょほうせん】处方笺〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "消化器": {
+  "reading": "しょうかき",
+  "meaning": "【しょうかき】消化器官〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "循環器": {
+  "reading": "じゅんかんき",
+  "meaning": "【じゅんかんき】循环器官〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "成人病": {
+  "reading": "せいじんびょう",
+  "meaning": "【せいじんびょう】成人病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "大動脈": {
+  "reading": "だいどうみゃく",
+  "meaning": "【だいどうみゃく】主动脉〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "白内障": {
+  "reading": "はくないしょう",
+  "meaning": "【はくないしょう】白内障〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "水俣病": {
+  "reading": "みなまたびょう",
+  "meaning": "【みなまたびょう】水俣病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "認知症": {
+  "reading": "にんちしょう",
+  "meaning": "【にんちしょう】认知症；痴呆症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "コレラ": {
+  "reading": "",
+  "meaning": "霍乱〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "副反応": {
+  "reading": "ふくはんのう",
+  "meaning": "【ふくはんのう】（疫苗）副反应〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "アトピー": {
+  "reading": "",
+  "meaning": "特应性（皮炎）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ヘルニア": {
+  "reading": "",
+  "meaning": "疝；突出〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ベクター": {
+  "reading": "ベクタ",
+  "meaning": "病媒；载体〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ポリープ": {
+  "reading": "ポリプ",
+  "meaning": "息肉〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "マラリア": {
+  "reading": "",
+  "meaning": "疟疾〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "拒絶反応": {
+  "reading": "きょぜつはんのう",
+  "meaning": "【きょぜつはんのう】排异反应〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "体外受精": {
+  "reading": "たいがいじゅせい",
+  "meaning": "【たいがいじゅせい】体外受精〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "動脈硬化": {
+  "reading": "どうみゃくこうか",
+  "meaning": "【どうみゃくこうか】动脉硬化〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "血液検査": {
+  "reading": "けつえきけんさ",
+  "meaning": "【けつえきけんさ】血液检查〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "対症療法": {
+  "reading": "たいしょうりょうほう",
+  "meaning": "【たいしょうりょうほう】对症疗法〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "アキレス腱": {
+  "reading": "アキレスけん",
+  "meaning": "【アキレスけん】跟腱〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "カテーテル": {
+  "reading": "",
+  "meaning": "导管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ニューロン": {
+  "reading": "",
+  "meaning": "神经元〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ジストロフィー": {
+  "reading": "ジストロフィ",
+  "meaning": "营养不良（肌萎缩）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "クレアチニンクリアランス": {
+  "reading": "クレアチニン・クリアランス",
+  "meaning": "肌酐清除率〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "新型コロナウイルス感染症": {
+  "reading": "しんがたコロナウイルスかんせんしょう",
+  "meaning": "【しんがたコロナウイルスかんせんしょう】新型冠状病毒感染症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "痰": {
+  "reading": "たん",
+  "meaning": "【たん】痰〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "踝": {
+  "reading": "くるぶし",
+  "meaning": "【くるぶし】脚踝〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "癤": {
+  "reading": "せつ",
+  "meaning": "【せつ】疖〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頤": {
+  "reading": "おとがい",
+  "meaning": "【おとがい】下巴〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "髄": {
+  "reading": "ずい",
+  "meaning": "【ずい】髓；骨髓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腔": {
+  "reading": "こう",
+  "meaning": "【こう】腔；体腔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "叢": {
+  "reading": "そう",
+  "meaning": "【そう】丛（神经丛）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "疹": {
+  "reading": "しん",
+  "meaning": "【しん】疹〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "疔": {
+  "reading": "ちょう",
+  "meaning": "【ちょう】疔；疖〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "洞": {
+  "reading": "どう",
+  "meaning": "【どう】窦〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "悪心": {
+  "reading": "おしん",
+  "meaning": "【おしん】恶心〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "悪露": {
+  "reading": "おろ",
+  "meaning": "【おろ】恶露（产后排出物）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "圧排": {
+  "reading": "あっぱい",
+  "meaning": "【あっぱい】压迫推移〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胃炎": {
+  "reading": "いえん",
+  "meaning": "【いえん】胃炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "咽喉": {
+  "reading": "いんこう",
+  "meaning": "【いんこう】咽喉〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "咽頭": {
+  "reading": "いんとう",
+  "meaning": "【いんとう】咽〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "陰核": {
+  "reading": "いんかく",
+  "meaning": "【いんかく】阴蒂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "陰茎": {
+  "reading": "いんけい",
+  "meaning": "【いんけい】阴茎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "陰唇": {
+  "reading": "いんしん",
+  "meaning": "【いんしん】阴唇〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "陰嚢": {
+  "reading": "いんのう",
+  "meaning": "【いんのう】阴囊〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "疫痢": {
+  "reading": "えきり",
+  "meaning": "【えきり】小儿痢疾〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "延髄": {
+  "reading": "えんずい",
+  "meaning": "【えんずい】延髓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "黄体": {
+  "reading": "おうたい",
+  "meaning": "【おうたい】黄体〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "黄斑": {
+  "reading": "おうはん",
+  "meaning": "【おうはん】黄斑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "黄疸": {
+  "reading": "おうだん",
+  "meaning": "【おうだん】黄疸〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "下血": {
+  "reading": "げけつ",
+  "meaning": "【げけつ】便血〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "仮死": {
+  "reading": "かし",
+  "meaning": "【かし】假死〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "仮痘": {
+  "reading": "かとう",
+  "meaning": "【かとう】类天花（轻症）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "加薬": {
+  "reading": "かやく",
+  "meaning": "【かやく】佐药（汉方辅药）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "会陰": {
+  "reading": "えいん",
+  "meaning": "【えいん】会阴〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "解毒": {
+  "reading": "げどく",
+  "meaning": "【げどく】解毒〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "回腸": {
+  "reading": "かいちょう",
+  "meaning": "【かいちょう】回肠〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "壊疽": {
+  "reading": "えそ",
+  "meaning": "【えそ】坏疽〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "外耳": {
+  "reading": "がいじ",
+  "meaning": "【がいじ】外耳〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "乾癬": {
+  "reading": "かんせん",
+  "meaning": "【かんせん】银屑病；牛皮癣〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "冠状": {
+  "reading": "かんじょう",
+  "meaning": "【かんじょう】冠状的〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "汗腺": {
+  "reading": "かんせん",
+  "meaning": "【かんせん】汗腺〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "雁首": {
+  "reading": "かりくび",
+  "meaning": "【かりくび】龟头冠〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "気胸": {
+  "reading": "ききょう",
+  "meaning": "【ききょう】气胸〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "偽薬": {
+  "reading": "ぎやく",
+  "meaning": "【ぎやく】安慰剂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脚気": {
+  "reading": "かっけ",
+  "meaning": "【かっけ】脚气病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "旧痾": {
+  "reading": "きゅうあ",
+  "meaning": "【きゅうあ】旧疾；宿疾〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "牛痘": {
+  "reading": "ぎゅうとう",
+  "meaning": "【ぎゅうとう】牛痘〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "強膜": {
+  "reading": "きょうまく",
+  "meaning": "【きょうまく】巩膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胸郭": {
+  "reading": "きょうかく",
+  "meaning": "【きょうかく】胸廓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胸腔": {
+  "reading": "きょうこう",
+  "meaning": "【きょうこう】胸腔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胸膜": {
+  "reading": "きょうまく",
+  "meaning": "【きょうまく】胸膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "禁忌": {
+  "reading": "きんき",
+  "meaning": "【きんき】禁忌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "結石": {
+  "reading": "けっせき",
+  "meaning": "【けっせき】结石〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "結腸": {
+  "reading": "けっちょう",
+  "meaning": "【けっちょう】结肠〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "結膜": {
+  "reading": "けつまく",
+  "meaning": "【けつまく】结膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "血清": {
+  "reading": "けっせい",
+  "meaning": "【けっせい】血清〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "健忘": {
+  "reading": "けんぼう",
+  "meaning": "【けんぼう】健忘〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼓室": {
+  "reading": "こしつ",
+  "meaning": "【こしつ】鼓室〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "口炎": {
+  "reading": "こうえん",
+  "meaning": "【こうえん】口炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "口蓋": {
+  "reading": "こうがい",
+  "meaning": "【こうがい】上颚；腭〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "口唇": {
+  "reading": "こうしん",
+  "meaning": "【こうしん】口唇〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "喉頭": {
+  "reading": "こうとう",
+  "meaning": "【こうとう】喉头〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "黒線": {
+  "reading": "こくせん",
+  "meaning": "【こくせん】黑线（妊娠线）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腰骨": {
+  "reading": "こしぼね",
+  "meaning": "【こしぼね】髋骨；腰骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "骨盤": {
+  "reading": "こつばん",
+  "meaning": "【こつばん】骨盆〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鎖骨": {
+  "reading": "さこつ",
+  "meaning": "【さこつ】锁骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "挫傷": {
+  "reading": "ざしょう",
+  "meaning": "【ざしょう】挫伤；扭伤〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "歯髄": {
+  "reading": "しずい",
+  "meaning": "【しずい】牙髓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "歯槽": {
+  "reading": "しそう",
+  "meaning": "【しそう】牙槽〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "歯齦": {
+  "reading": "しぎん",
+  "meaning": "【しぎん】牙龈〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "主訴": {
+  "reading": "しゅそ",
+  "meaning": "【しゅそ】主诉〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "主脈": {
+  "reading": "しゅみゃく",
+  "meaning": "【しゅみゃく】主脉〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "主薬": {
+  "reading": "しゅやく",
+  "meaning": "【しゅやく】主药〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "手掌": {
+  "reading": "しゅしょう",
+  "meaning": "【しゅしょう】手掌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "充血": {
+  "reading": "じゅうけつ",
+  "meaning": "【じゅうけつ】充血〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "小脳": {
+  "reading": "しょうのう",
+  "meaning": "【しょうのう】小脑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "伸筋": {
+  "reading": "しんきん",
+  "meaning": "【しんきん】伸肌〈名〉",
+  "level": "medical",
+  "need": 2
+ }
+}

@@ -1,0 +1,502 @@
+{
+"principe": [
+{"fr": "En principe, le magasin ferme à dix-neuf heures.", "zh": "原则上，商店十九点关门。"},
+{"fr": "Elle refuse de mentir, c'est une question de principe.", "zh": "她拒绝撒谎，这是原则问题。"},
+{"fr": "Le principe de cette machine est simple : la vapeur fait tourner la turbine.", "zh": "这台机器的原理很简单：蒸汽推动涡轮。"}
+],
+"prioritaire": [
+{"fr": "Ce dossier est prioritaire, traite-le avant les autres.", "zh": "这份案卷是优先件，先处理它。"},
+{"fr": "En cas de pénurie, les soins vitaux restent prioritaires.", "zh": "物资短缺时，抢救生命的医疗仍然优先。"},
+{"fr": "J'ai envoyé le contrat en courrier prioritaire hier soir.", "zh": "昨晚我把合同用优先邮件寄了出去。"}
+],
+"priorité": [
+{"fr": "La sécurité des enfants est notre priorité absolue.", "zh": "孩子的安全是我们最优先考虑的事。"},
+{"fr": "Répare d'abord la fuite, c'est la priorité.", "zh": "先修漏水，这是当务之急。"},
+{"fr": "Ces trois chantiers sont mes priorités du mois.", "zh": "这三个工地是我这个月的优先事项。"}
+],
+"pris": [
+{"fr": "Je suis pris ce soir, on verra ça demain.", "zh": "我今晚没空，明天再说吧。"},
+{"fr": "Toutes les places sont déjà prises pour le concert.", "zh": "音乐会的座位全都订满了。"},
+{"fr": "Comme il était pris par un client, son collègue a répondu au téléphone.", "zh": "他正接待一位客户，同事就替他接了电话。"}
+],
+"prise": [
+{"fr": "Branche la lampe dans la prise près du canapé.", "zh": "把台灯插到沙发旁边的插座上。"},
+{"fr": "Elle a saisi la corde à deux mains, d'une prise ferme.", "zh": "她双手紧紧抓住绳子，握得很牢。"},
+{"fr": "La prise de son a échoué, il faut refaire l'enregistrement.", "zh": "收音没成功，得重新录一遍。"}
+],
+"priver": [
+{"fr": "Ne prive pas les enfants de sortie, ils ont bien travaillé.", "zh": "别不让孩子们出门玩，他们表现很好。"},
+{"fr": "La tempête a privé le village d'électricité pendant quatre jours.", "zh": "暴风雪让村子断电四天。"},
+{"fr": "Il se prive de vacances pour épargner.", "zh": "为了攒钱，他连假期都省了。"}
+],
+"privilège": [
+{"fr": "Assister à cette répétition privée est un vrai privilège.", "zh": "能观看这次内部排练真是莫大的荣幸。"},
+{"fr": "Ces avantages fiscaux sont des privilèges d'un autre âge.", "zh": "这些税收优惠是过时的特权。"},
+{"fr": "Elle a obtenu le privilège d'accéder aux archives du monastère.", "zh": "她获准查阅修道院的档案，这可是特殊优待。"}
+],
+"prière": [
+{"fr": "Le prêtre a récité une prière pour les malades.", "zh": "神父为病人诵了一段祈祷文。"},
+{"fr": "Avant de dormir, l'enfant récite sa petite prière.", "zh": "睡前，孩子念他的小祷词。"},
+{"fr": "Prière de ne pas fumer, merci de votre compréhension.", "zh": "请勿吸烟，谢谢配合。"}
+],
+"pro": [
+{"fr": "Pour la plomberie, fais appel à un pro.", "zh": "水管的事要请行家来做。"},
+{"fr": "Il joue au tennis comme un vrai pro.", "zh": "他网球打得像职业选手。"},
+{"fr": "Les pros conseillent d'aiguiser ses couteaux chaque mois.", "zh": "行家们建议每月磨一次刀。"}
+],
+"probabilité": [
+{"fr": "La probabilité de gagner à ce jeu est très faible.", "zh": "这个游戏赢的概率非常低。"},
+{"fr": "En probabilité, la moyenne et l'écart-type sont des outils de base.", "zh": "在概率这门课里，均值和标准差是基本工具。"},
+{"fr": "Selon toute probabilité, le train aura vingt minutes de retard.", "zh": "十有八九，火车会晚点二十分钟。"}
+],
+"processus": [
+{"fr": "Le processus de recrutement dure environ un mois.", "zh": "招聘流程大约持续一个月。"},
+{"fr": "Chaque étape du processus est contrôlée par un responsable.", "zh": "流程的每个环节都有专人把关。"},
+{"fr": "Ce changement de processus a simplifié nos commandes.", "zh": "这次流程调整简化了我们的下单手续。"}
+],
+"procureur": [
+{"fr": "Le procureur a requis six ans de prison contre l'accusé.", "zh": "检察官对被告求刑六年。"},
+{"fr": "Le procureur de la République a ouvert une enquête.", "zh": "共和国检察官已展开调查。"},
+{"fr": "Sa fille est devenue procureure à Lyon.", "zh": "他女儿在里昂当上了检察官。"}
+],
+"procès": [
+{"fr": "Le procès de l'entreprise commence lundi au tribunal.", "zh": "对这家公司的诉讼周一开庭。"},
+{"fr": "Il a perdu son procès contre son assurance.", "zh": "他告保险公司的官司败诉了。"},
+{"fr": "Ce livre retrace le célèbre procès de 1945.", "zh": "这本书记述了 1945 年那场著名的审判。"}
+],
+"procéder": [
+{"fr": "Nous allons procéder au vote à main levée.", "zh": "我们将以举手方式进行表决。"},
+{"fr": "Comment procédez-vous pour changer un pneu si vite ?", "zh": "你们怎么这么快就把轮胎换好了？"},
+{"fr": "Il faudra procéder à un contrôle complet du moteur.", "zh": "需要对发动机做一次全面检查。"}
+],
+"producteur": [
+{"fr": "Le producteur du film a racheté les droits du roman.", "zh": "影片制作人买下了小说的改编权。"},
+{"fr": "Ce producteur de vin vend sa récolte directement à la ferme.", "zh": "这位葡萄酒生产者在自家农场直销收成。"},
+{"fr": "La Chine reste le premier producteur mondial de riz.", "zh": "中国仍是世界第一大米生产国。"}
+],
+"production": [
+{"fr": "La production de la série reprendra au printemps.", "zh": "这部连续剧的摄制将在春季恢复。"},
+{"fr": "L'usine a doublé sa production depuis l'installation des nouveaux robots.", "zh": "装上新机器人后，工厂产量翻了一番。"},
+{"fr": "Ce pays dépend encore de la production pétrolière.", "zh": "这个国家仍然依赖石油生产。"}
+],
+"produire": [
+{"fr": "Cette usine produit des pièces pour l'industrie automobile.", "zh": "这家工厂为汽车工业生产零件。"},
+{"fr": "La réunion n'a rien produit de concret.", "zh": "会议没有产生任何实际成果。"},
+{"fr": "Il faut produire les documents demandés avant vendredi.", "zh": "周五前必须按要求出示所需文件。"}
+],
+"profession": [
+{"fr": "Quelle profession exerces-tu ?", "zh": "你从事什么职业？"},
+{"fr": "Elle exerce la profession d'infirmière depuis vingt ans.", "zh": "她做护士这一行已经二十年了。"},
+{"fr": "Ce métier demande une vraie passion, c'est plus qu'une profession.", "zh": "这一行需要真正的热爱，不只是份职业。"}
+],
+"profil": [
+{"fr": "Ce candidat correspond exactement au profil recherché.", "zh": "这位应聘者完全符合招聘要求。"},
+{"fr": "Sur son profil en ligne, il se présente comme photographe.", "zh": "在个人简介里，他自称摄影师。"},
+{"fr": "On voit le profil de la montagne depuis la terrasse.", "zh": "从露台上能望见山峦的轮廓。"}
+],
+"profit": [
+{"fr": "L'association reverse tout son profit aux écoles du quartier.", "zh": "协会把全部利润都捐给街区的学校。"},
+{"fr": "Tire profit de tes erreurs pour progresser.", "zh": "要从错误中获益，才能进步。"},
+{"fr": "L'entreprise a réalisé un profit record cette année.", "zh": "公司今年利润创了纪录。"}
+],
+"profiter": [
+{"fr": "Profite du soleil, il ne durera pas !", "zh": "趁太阳好尽情享受吧，好天长不了！"},
+{"fr": "Nous avons profité des soldes pour renouveler notre garde-robe.", "zh": "我们趁大减价添置了新衣服。"},
+{"fr": "Les riverains profitent du nouveau parc chaque week-end.", "zh": "附近居民每个周末都去新公园消遣。"}
+],
+"profondeur": [
+{"fr": "Le lac atteint une profondeur de trente mètres.", "zh": "这个湖深达三十米。"},
+{"fr": "Son discours manque de profondeur, tout reste superficiel.", "zh": "他的发言缺乏深度，流于表面。"},
+{"fr": "Les plongeurs explorent la profondeur de la grotte sous-marine.", "zh": "潜水员深入探索海底岩洞。"}
+],
+"profondément": [
+{"fr": "Ce voyage m'a profondément marquée.", "zh": "这次旅行给我留下了极深的印象。"},
+{"fr": "Elle est profondément attachée à sa région natale.", "zh": "她对家乡怀有深深的眷恋。"},
+{"fr": "Il respire profondément pour se calmer avant de parler.", "zh": "开口之前，他深吸几口气让自己平静下来。"}
+],
+"programmer": [
+{"fr": "Je vais programmer le réveil pour six heures et demie.", "zh": "我要把闹钟定到六点半。"},
+{"fr": "Elle programme des applications pour les hôpitaux.", "zh": "她为医院开发应用程序。"},
+{"fr": "La municipalité a programmé des concerts gratuits tout l'été.", "zh": "市政府安排了整个夏天的免费音乐会。"}
+],
+"progresser": [
+{"fr": "Tu as bien progressé en espagnol ce semestre.", "zh": "你这学期西班牙语进步很大。"},
+{"fr": "Les travaux progressent vite malgré la pluie.", "zh": "尽管下雨，工程进展很快。"},
+{"fr": "Pour progresser au piano, il faut jouer tous les jours.", "zh": "想提高琴艺，就得每天练习。"}
+],
+"proie": [
+{"fr": "Le faucon fond sur sa proie à toute vitesse.", "zh": "猎鹰全速扑向猎物。"},
+{"fr": "Les personnes âgées sont souvent la proie des escrocs.", "zh": "老年人常常成为骗子的目标。"},
+{"fr": "Les moutons sans berger sont une proie facile pour les loups.", "zh": "没有牧人看管的羊群很容易成为狼的猎物。"}
+],
+"projecteur": [
+{"fr": "Les projecteurs s'allument, le spectacle commence.", "zh": "聚光灯亮起，演出开始。"},
+{"fr": "Nous branchons le projecteur pour la séance en plein air.", "zh": "我们接上投影仪，准备露天放映。"},
+{"fr": "L'affaire a remis le quartier sous les projecteurs médiatiques.", "zh": "这桩案子让整个街区重新被媒体聚光灯照到。"}
+],
+"projection": [
+{"fr": "La projection du documentaire aura lieu jeudi soir.", "zh": "纪录片放映定在周四晚上。"},
+{"fr": "La projection du plan sur le mur a guidé les maçons.", "zh": "把图纸投射到墙上，指导了砌墙的工人。"},
+{"fr": "La projection commence après une courte présentation du réalisateur.", "zh": "放映之前，导演会先做简短介绍。"}
+],
+"projeter": [
+{"fr": "Le professeur projette le document au tableau.", "zh": "老师把文件投影到幕布上。"},
+{"fr": "Ils projettent de partir six mois en Amérique du Sud.", "zh": "他们打算去南美待六个月。"},
+{"fr": "La tempête a projeté des branches contre la fenêtre.", "zh": "暴风把树枝刮到了窗户上。"}
+],
+"prolonger": [
+{"fr": "Prolonge ton abonnement avant le premier mars pour garder ton tarif.", "zh": "三月一日前续订，才能保留现在的价格。"},
+{"fr": "On a prolongé la séance de dix minutes pour finir la question.", "zh": "会议延长了十分钟，好把这个问题讨论完。"},
+{"fr": "Le nouveau pont prolonge la piste cyclable jusqu'à la rive droite.", "zh": "新桥把自行车道一直延伸到右岸。"}
+],
+"prometteur": [
+{"fr": "Les premiers essais cliniques se révèlent très prometteurs.", "zh": "首批临床试验结果非常有希望。"},
+{"fr": "C'est un jeune joueur prometteur, suivi par plusieurs clubs.", "zh": "他是一名被多家俱乐部看好的新秀。"},
+{"fr": "Le marché asiatique semble prometteur pour nos produits.", "zh": "亚洲市场对我们的产品来说很有前景。"}
+],
+"promo": [
+{"fr": "Il y a une promo sur le poulet cette semaine.", "zh": "这周鸡肉特价。"},
+{"fr": "J'ai profité d'une promo pour acheter mon ordinateur.", "zh": "我趁促销活动买了电脑。"},
+{"fr": "Les promos d'hiver commencent mercredi dans tous les magasins.", "zh": "各家商店的冬季促销周三开始。"}
+],
+"promotion": [
+{"fr": "Elle a obtenu une promotion après seulement deux ans dans l'entreprise.", "zh": "进公司才两年，她就得到了晋升。"},
+{"fr": "Il y a une promotion de vingt pour cent sur tous les pantalons.", "zh": "所有裤子都在打八折。"},
+{"fr": "Les anciens de la promotion 2010 organisent une soirée.", "zh": "2010 届的毕业生在筹办聚会。"}
+],
+"promouvoir": [
+{"fr": "La ville promeut les transports en commun par des tarifs réduits.", "zh": "市政府用优惠票价推广公共交通。"},
+{"fr": "Il faut promouvoir le respect entre voisins, pas seulement les règles.", "zh": "要促进邻里之间的尊重，而不只是执行规矩。"},
+{"fr": "Elle a été promue directrice des ventes en janvier.", "zh": "她一月份被提升为销售总监。"}
+],
+"prononcer": [
+{"fr": "Comment se prononce ce nom de famille ?", "zh": "这个姓氏怎么发音？"},
+{"fr": "Le juge prononcera son verdict demain matin.", "zh": "法官明早宣布判决。"},
+{"fr": "Elle s'est prononcée contre le nouveau projet.", "zh": "她表态反对新项目。"}
+],
+"propagande": [
+{"fr": "Ce régime répand sa propagande par la radio et les affiches.", "zh": "该政权通过广播和海报散布宣传。"},
+{"fr": "Il ne croit plus à la propagande du parti.", "zh": "他不再相信党的宣传了。"},
+{"fr": "Sous l'Occupation, la propagande affichait des slogans sur tous les murs.", "zh": "占领时期，宣传标语贴满了所有的墙。"}
+],
+"prophète": [
+{"fr": "Dans la Bible, un prophète annonce souvent les malheurs à venir.", "zh": "在《圣经》里，先知常常预示将来的灾祸。"},
+{"fr": "Mahomet est considéré comme le prophète de l'islam.", "zh": "穆罕默德被尊为伊斯兰教的先知。"},
+{"fr": "On le surnomme le prophète de la révolution numérique.", "zh": "他被称为数字革命的先知。"}
+],
+"proportion": [
+{"fr": "Une grande proportion des élèves réussit l'examen du premier coup.", "zh": "很大比例的学生一次就通过考试。"},
+{"fr": "La proportion de personnes âgées augmente chaque année.", "zh": "老年人口的比例逐年上升。"},
+{"fr": "Le châtiment doit être en proportion de la faute.", "zh": "惩罚应与过错相称。"}
+],
+"propos": [
+{"fr": "Ses propos ont choqué plusieurs personnes dans la salle.", "zh": "他的话让在场好几个人感到震惊。"},
+{"fr": "À propos, as-tu retrouvé tes clés ?", "zh": "对了，你的钥匙找着了吗？"},
+{"fr": "Il a tenu des propos rassurants devant la presse.", "zh": "他在媒体面前说了一番让人安心的话。"}
+],
+"proposition": [
+{"fr": "J'accepte ta proposition de reporter la réunion à jeudi.", "zh": "我接受你把会议改到周四的提议。"},
+{"fr": "La proposition sera soumise au vote de l'assemblée.", "zh": "这项提案将交由大会表决。"},
+{"fr": "Le vendeur m'a fait une proposition intéressante sur la voiture.", "zh": "卖家就这辆车给了我一个不错的报价。"}
+],
+"proprio": [
+{"fr": "Notre proprio a enfin répondu pour le chauffage.", "zh": "房东终于就暖气问题给了答复。"},
+{"fr": "Le proprio va repeindre l'appartement entre deux locations.", "zh": "业主打算在两次出租之间把房子重新粉刷。"},
+{"fr": "Demande au proprio si on peut accrocher des étagères.", "zh": "问问房东能不能装几个置物架。"}
+],
+"propriété": [
+{"fr": "Cette propriété de dix hectares borde la rivière.", "zh": "这片十公顷的庄园临河而建。"},
+{"fr": "La propriété de ce terrain est contestée depuis des années.", "zh": "这块地的所有权多年来一直有争议。"},
+{"fr": "L'eau possède la propriété de dissoudre beaucoup de substances.", "zh": "水具有溶解多种物质的性质。"}
+],
+"prostitué": [
+{"fr": "Un prostitué a témoigné à l'audience dans cette affaire de traite.", "zh": "在这起拐卖案的听证中，一名卖淫者出庭作证。"},
+{"fr": "L'association vient en aide aux prostitués du quartier.", "zh": "这家协会帮助街区的性工作者。"},
+{"fr": "Elle a écrit un reportage sur la vie des prostituées.", "zh": "她写了一篇关于妓女生活的报道。"}
+],
+"protecteur": [
+{"fr": "Ce grand chien se montre très protecteur avec les enfants.", "zh": "这条大狗对孩子们保护欲很强。"},
+{"fr": "La loi prévoit un rôle protecteur pour le tuteur.", "zh": "法律规定监护人应起保护作用。"},
+{"fr": "Il est resté le protecteur discret de toute la famille.", "zh": "他一直是全家人不动声色的守护者。"}
+],
+"protestant": [
+{"fr": "Ce temple protestant date du dix-septième siècle.", "zh": "这座新教教堂建于十七世纪。"},
+{"fr": "Ma grand-mère protestante chantait les psaumes tous les dimanches.", "zh": "我信新教的祖母每个星期天都唱圣诗。"},
+{"fr": "Les protestants représentent une minorité religieuse dans cette région.", "zh": "在这个地区，新教徒是宗教少数群体。"}
+],
+"protestation": [
+{"fr": "La hausse des prix a déclenché des protestations chez les usagers.", "zh": "涨价引发了用户的抗议。"},
+{"fr": "Malgré les protestations du voisinage, le chantier a démarré.", "zh": "尽管邻里抗议，工地还是开工了。"},
+{"fr": "Il a quitté la salle en signe de protestation.", "zh": "他离开会场，以示抗议。"}
+],
+"protester": [
+{"fr": "Des centaines d'agriculteurs ont protesté devant la préfecture.", "zh": "数百名农民在省政府前抗议。"},
+{"fr": "Elle a protesté contre la décision du jury.", "zh": "她对评审团的决定提出了抗议。"},
+{"fr": "Il proteste vivement, mais personne ne l'écoute.", "zh": "他激烈抗议，却没人听。"}
+],
+"protocole": [
+{"fr": "Le protocole de l'expérience doit être suivi à la lettre.", "zh": "必须严格按规程操作实验。"},
+{"fr": "Les deux pays ont signé un protocole d'accord commercial.", "zh": "两国签署了贸易协定议定书。"},
+{"fr": "Le protocole sanitaire impose le masque dans les transports.", "zh": "卫生规程要求在公共交通上戴口罩。"}
+],
+"prototype": [
+{"fr": "L'ingénieur présente le prototype de la voiture électrique.", "zh": "工程师展示了电动车的原型样机。"},
+{"fr": "Ce prototype coûte cher, mais il prouve le concept.", "zh": "这个样机造价不菲，但验证了设计构想。"},
+{"fr": "Après trois prototypes ratés, la quatrième version fonctionne enfin.", "zh": "三个原型失败之后，第四版终于能用。"}
+],
+"protéine": [
+{"fr": "Les lentilles sont riches en protéines végétales.", "zh": "扁豆富含植物蛋白。"},
+{"fr": "Cette boisson apporte vingt grammes de protéine par bouteille.", "zh": "这种饮料每瓶含二十克蛋白质。"},
+{"fr": "Une protéine mal repliée peut perdre sa fonction.", "zh": "折叠出错的蛋白质可能失去功能。"}
+],
+"prouver": [
+{"fr": "Peux-tu prouver que tu étais chez toi cette nuit-là ?", "zh": "你能证明那晚你在家吗？"},
+{"fr": "Ces chiffres prouvent que la campagne a fonctionné.", "zh": "这些数字证明活动起了作用。"},
+{"fr": "Rien ne prouve encore qu'il ait menti.", "zh": "目前还没有任何证据表明他撒了谎。"}
+],
+"provenance": [
+{"fr": "Ce fromage porte une étiquette indiquant sa provenance.", "zh": "这块奶酪贴着标明产地的标签。"},
+{"fr": "La police a tracé la provenance de l'appel menaçant.", "zh": "警方追查到了那通威胁电话的来源。"},
+{"fr": "Des touristes de toutes provenances visitent le château en été.", "zh": "夏天，来自各地的游客都来参观这座城堡。"}
+],
+"provenir": [
+{"fr": "La plupart de nos meubles proviennent de brocantes.", "zh": "我们的家具大多来自旧货市场。"},
+{"fr": "Cette recette provient de ma grand-mère normande.", "zh": "这道菜谱来自我诺曼底的祖母。"},
+{"fr": "Le bruit provenait du garage voisin.", "zh": "噪音是从隔壁车库传来的。"}
+],
+"proverbe": [
+{"fr": "Comme le dit le proverbe, qui vivra verra.", "zh": "就像那句谚语说的：日子长了自然见分晓。"},
+{"fr": "Ce proverbe chinois se traduit difficilement en français.", "zh": "这句中文谚语很难译成法语。"},
+{"fr": "Il illustre toujours ses discours par un proverbe bien senti.", "zh": "他总爱在演讲里引用一句贴切的谚语。"}
+],
+"province": [
+{"fr": "Il est parti étudier à Paris, loin de sa province natale.", "zh": "他离开家乡的外省，去巴黎求学。"},
+{"fr": "Cette usine alimente toute la province en meubles.", "zh": "这家工厂为全省供应家具。"},
+{"fr": "En province, les rythmes de vie sont plus lents.", "zh": "在外省，生活节奏更慢一些。"}
+],
+"provision": [
+{"fr": "Fais des provisions avant le week-end de Pâques.", "zh": "复活节小长假前先囤些吃的。"},
+{"fr": "Le chalet est plein de provisions pour l'hiver.", "zh": "小木屋里备满了过冬的物资。"},
+{"fr": "Nous avons pris des provisions de route pour le trajet.", "zh": "我们备好了路上的干粮。"}
+],
+"provisoire": [
+{"fr": "Ce pont provisoire restera en place jusqu'à l'automne.", "zh": "这座临时桥将保留到秋天。"},
+{"fr": "Rien n'est définitif, tout reste provisoire dans ce dossier.", "zh": "这个案子里没有定论，一切都还是临时的。"},
+{"fr": "Le logement provisoire coûte cher à la commune.", "zh": "临时安置房让市镇负担不小。"}
+],
+"provocation": [
+{"fr": "Répéter sans arrêt la même insulte, c'est de la provocation.", "zh": "不停地重复同一句侮辱，这就是挑衅。"},
+{"fr": "Sa démission a été perçue comme une provocation par la direction.", "zh": "管理层把他的辞职视为一种挑衅。"},
+{"fr": "Cette tenue n'est pas une provocation, c'est son style.", "zh": "这样穿不是挑衅，是她的风格。"}
+],
+"provoquer": [
+{"fr": "Le dégel peut provoquer des crues soudaines.", "zh": "解冻可能引发突然的洪水。"},
+{"fr": "Arrête de provoquer ton frère, il va encore s'énerver.", "zh": "别招惹你弟弟了，他又要发火。"},
+{"fr": "Cette annonce a provoqué une vague d'indignation.", "zh": "这则公告激起一片愤怒。"}
+],
+"prudence": [
+{"fr": "Roulez avec prudence, la route est verglacée.", "zh": "路面结冰，小心驾驶。"},
+{"fr": "Par prudence, il a fait vérifier les freins avant le voyage.", "zh": "为谨慎起见，出行前他去检查了刹车。"},
+{"fr": "Sa prudence l'a sauvé plus d'une fois en montagne.", "zh": "在山里，他的谨慎不止一次救了他。"}
+],
+"précaution": [
+{"fr": "Il a pris la précaution de noter l'adresse avant de partir.", "zh": "出发前他特意先记下地址，以防万一。"},
+{"fr": "Certaines précautions d'usage s'imposent en laboratoire.", "zh": "实验室里必须遵守一些常规的预防措施。"},
+{"fr": "Par précaution, ne donne jamais de miel aux nourrissons.", "zh": "为防万一，千万不要给婴儿喂蜂蜜。"}
+],
+"précieux": [
+{"fr": "Ces vieux livres sont précieux, manipule-les avec soin.", "zh": "这些古书很珍贵，要小心拿放。"},
+{"fr": "Ton conseil m'a été précieux au moment de choisir.", "zh": "在选择的关键时刻，你的建议对我很宝贵。"},
+{"fr": "Chaque minute compte, ne gaspille pas un temps aussi précieux.", "zh": "每分钟都很重要，别浪费这么宝贵的时间。"}
+],
+"préciser": [
+{"fr": "Peux-tu préciser ton idée en deux phrases ?", "zh": "你能用两句话把想法说清楚吗？"},
+{"fr": "Le maire a précisé que les travaux dureront trois mois.", "zh": "市长明确说明工期为三个月。"},
+{"fr": "Elle précise, dans sa lettre, les heures d'ouverture.", "zh": "她在信中具体写明了开放时间。"}
+],
+"précisément": [
+{"fr": "C'est précisément ce que je voulais t'expliquer.", "zh": "这正是我想跟你解释的。"},
+{"fr": "Il est arrivé à dix heures précisément.", "zh": "他是十点整到的。"},
+{"fr": "Précisément, où as-tu trouvé cette information ?", "zh": "确切地说，你是在哪儿找到这条信息的？"}
+],
+"précédemment": [
+{"fr": "Comme je le disais précédemment, ce chemin est fermé l'hiver.", "zh": "正如我之前所说，这条路冬天封闭。"},
+{"fr": "Le rapport précédemment cité confirme nos doutes.", "zh": "前面提到的报告印证了我们的疑虑。"},
+{"fr": "Elle habitait précédemment à Bordeaux, avant de s'installer ici.", "zh": "她搬来这里之前住在波尔多。"}
+],
+"précédent": [
+{"fr": "Le chapitre précédent résume bien la théorie.", "zh": "上一章对理论概括得很好。"},
+{"fr": "Sur l'examen précédent, la même question était tombée.", "zh": "上一次考试出过同样的题目。"},
+{"fr": "Lors du séjour précédent, il pleuvait tous les jours.", "zh": "上次来的时候，天天下雨。"}
+],
+"précéder": [
+{"fr": "Une longue présentation précède le film.", "zh": "电影放映前有一大段介绍。"},
+{"fr": "Les musiciens précédaient la procession dans les rues du village.", "zh": "乐手们走在村里游行队伍的最前面。"},
+{"fr": "Ce test précède l'entretien final.", "zh": "这项测试在最终面试之前进行。"}
+],
+"prédire": [
+{"fr": "Personne n'a pu prédire une telle chute des ventes.", "zh": "谁也没能预测到销量会跌得这么惨。"},
+{"fr": "La météo prédit de la neige pour demain.", "zh": "天气预报说明天有雪。"},
+{"fr": "Il prédit l'avenir dans les feuilles de thé, pour s'amuser.", "zh": "他用茶叶算命，纯粹图个乐。"}
+],
+"préfecture": [
+{"fr": "Renouvelle ton titre de séjour à la préfecture.", "zh": "去省政府续办居留证。"},
+{"fr": "La préfecture de police se trouve sur l'île de la Cité.", "zh": "警察总局位于西岱岛上。"},
+{"fr": "Le dossier doit être déposé à la préfecture avant la fin du mois.", "zh": "材料必须在月底前交到省政府。"}
+],
+"préfet": [
+{"fr": "Le préfet a visité la zone inondée ce matin.", "zh": "省长今天上午视察了受灾地区。"},
+{"fr": "Le nouveau préfet prend ses fonctions en septembre.", "zh": "新任省长九月上任。"},
+{"fr": "Un arrêté du préfet interdit la baignade dans ce lac.", "zh": "省长的一道法令禁止在这片湖里游泳。"}
+],
+"préférable": [
+{"fr": "Il est préférable de réserver avant les vacances scolaires.", "zh": "最好赶在学校放假前预订。"},
+{"fr": "Un accord serait préférable à un procès long et coûteux.", "zh": "比起漫长昂贵的官司，和解更可取。"},
+{"fr": "Serait-il préférable de tout annuler et de recommencer ?", "zh": "全部推倒重来会不会更好？"}
+],
+"préférence": [
+{"fr": "De préférence, viens avant midi, il y aura moins de monde.", "zh": "最好中午前来，人少一些。"},
+{"fr": "Entre le thé et le café, ma préférence va au thé.", "zh": "茶和咖啡之间，我更偏爱茶。"},
+{"fr": "Elle a classé les candidats par ordre de préférence.", "zh": "她把候选人按喜好程度排了序。"}
+],
+"préliminaire": [
+{"fr": "Des discussions préliminaires ont précédé la signature.", "zh": "签署之前先进行了初步磋商。"},
+{"fr": "La phase préliminaire du tournoi réunit trente-deux équipes.", "zh": "锦标赛预赛阶段有三十二支队伍参加。"},
+{"fr": "Un examen préliminaire du dossier a révélé une erreur.", "zh": "对案卷的初步审查发现了一处错误。"}
+],
+"préoccupation": [
+{"fr": "Sa seule préoccupation, c'est la réussite de ses élèves.", "zh": "他唯一操心的是学生的成绩。"},
+{"fr": "Le coût de l'énergie est une préoccupation majeure des ménages.", "zh": "能源开支是各家庭的一大担忧。"},
+{"fr": "Elle écoute les préoccupations des riverains avec attention.", "zh": "她认真倾听附近居民的顾虑。"}
+],
+"présentable": [
+{"fr": "Mets une chemise propre, il faut être présentable chez tes grands-parents.", "zh": "换件干净的衬衫，去爷爷奶奶家得穿得体面些。"},
+{"fr": "L'appartement n'est pas encore présentable pour les visites.", "zh": "房子还没收拾到能带人看房的程度。"},
+{"fr": "Ce plat est simple mais tout à fait présentable pour recevoir.", "zh": "这道菜简单，但招待客人完全不丢份。"}
+],
+"présentateur": [
+{"fr": "Le présentateur du journal de vingt heures annonce les résultats.", "zh": "二十点新闻的主播播报了结果。"},
+{"fr": "Le présentateur météo a encore annoncé du soleil.", "zh": "天气预报员又报了一次晴天。"},
+{"fr": "Avant d'être acteur, il était présentateur sur une radio locale.", "zh": "当演员之前，他在一家地方电台做播音员。"}
+],
+"présentation": [
+{"fr": "Sa présentation du projet a duré vingt minutes.", "zh": "他的项目介绍讲了二十分钟。"},
+{"fr": "Soigne la présentation de ton CV, les détails comptent.", "zh": "简历的版面要讲究，细节很重要。"},
+{"fr": "La présentation des nouveaux arrivés a lancé la soirée.", "zh": "介绍完新来的朋友，晚会就开场了。"}
+],
+"préservatif": [
+{"fr": "Le distributeur de préservatifs est situé près des toilettes.", "zh": "避孕套自动售卖机装在卫生间附近。"},
+{"fr": "Pense à toujours utiliser un préservatif.", "zh": "记得始终使用避孕套。"},
+{"fr": "L'équipe distribue des préservatifs gratuits pendant le festival.", "zh": "团队在音乐节期间免费发放避孕套。"}
+],
+"préserver": [
+{"fr": "Ce manteau préserve du vent et de la pluie.", "zh": "这件大衣防风又防雨。"},
+{"fr": "Il faut préserver les nappes phréatiques de toute pollution.", "zh": "必须保护地下水不受任何污染。"},
+{"fr": "Elle préserve ses dimanches pour sa famille.", "zh": "她把周日留出来陪家人。"}
+],
+"présidence": [
+{"fr": "Sous la présidence du nouveau maire, le budget a changé.", "zh": "新市长主持工作后，预算有了变化。"},
+{"fr": "Elle assure la présidence de l'association depuis 2018.", "zh": "自 2018 年起，她担任协会主席。"},
+{"fr": "La présidence du club est renouvelée chaque année.", "zh": "俱乐部的主席职位每年改选一次。"}
+],
+"présidentiel": [
+{"fr": "Le palais présidentiel est ouvert aux visites guidées.", "zh": "总统府对团体参观开放。"},
+{"fr": "La campagne présidentielle bat son plein.", "zh": "总统竞选正进行得如火如荼。"},
+{"fr": "Un garde présidentiel contrôle chaque entrée.", "zh": "总统卫队把守着每一个入口。"}
+],
+"prétexte": [
+{"fr": "Il a trouvé un prétexte pour éviter la réunion.", "zh": "他找了个借口躲掉会议。"},
+{"fr": "Sous prétexte de ranger, elle fouille dans mes tiroirs.", "zh": "她以收拾东西为名，翻我的抽屉。"},
+{"fr": "Ce prétexte ne trompera personne.", "zh": "这个借口骗不了任何人。"}
+],
+"prévisible": [
+{"fr": "La fin du film était trop prévisible.", "zh": "电影的结尾太容易猜到了。"},
+{"fr": "Le ralentissement économique était prévisible dès le printemps.", "zh": "早在春天，经济放缓就有迹可循。"},
+{"fr": "Avec lui, tout est prévisible, jamais de surprise.", "zh": "和他在一起，一切都可预料，从无惊喜。"}
+],
+"prévision": [
+{"fr": "Les prévisions météo annoncent des orages pour samedi.", "zh": "天气预报说周六有雷雨。"},
+{"fr": "L'entreprise a revu ses prévisions de vente à la baisse.", "zh": "公司下调了销售预测。"},
+{"fr": "Contre toute prévision, l'équipe locale a gagné.", "zh": "出乎所有人预料，主队赢了。"}
+],
+"prévoir": [
+{"fr": "Prévois un parapluie, il va pleuvoir cet après-midi.", "zh": "带上伞，下午要下雨。"},
+{"fr": "Nous avions prévu un budget de cinq cents euros pour les meubles.", "zh": "我们原本给家具预留了五百欧元的预算。"},
+{"fr": "Le contrat prévoit une révision annuelle du loyer.", "zh": "合同规定租金每年调整一次。"}
+],
+"prêtre": [
+{"fr": "Le prêtre du village marie les couples le samedi.", "zh": "村里的神父周六为新人主持婚礼。"},
+{"fr": "Il a été ordonné prêtre à vingt-neuf ans.", "zh": "他二十九岁被祝圣为神父。"},
+{"fr": "Un prêtre catholique et un pasteur protestant ont participé à la cérémonie.", "zh": "一位天主教神父和一位新教牧师都参加了仪式。"}
+],
+"psy": [
+{"fr": "Après le divorce, elle a consulté un psy pendant un an.", "zh": "离婚后，她看了一年心理医生。"},
+{"fr": "Mon psy m'a conseillé d'écrire ce que je ressens.", "zh": "我的心理医生建议我把感受写下来。"},
+{"fr": "Parler à un psy n'a rien de honteux.", "zh": "找心理医生聊一聊，没什么丢人的。"}
+],
+"psychiatre": [
+{"fr": "Le psychiatre ajuste son traitement chaque mois.", "zh": "精神科医生每月为他调整治疗方案。"},
+{"fr": "Notre psychiatre reçoit sans rendez-vous le jeudi matin.", "zh": "我们的精神科医生周四上午免预约接诊。"},
+{"fr": "Elle rêve de devenir psychiatre pour aider les adolescents.", "zh": "她想当精神科医生，去帮助青少年。"}
+],
+"psychologie": [
+{"fr": "Elle a étudié la psychologie pendant cinq ans.", "zh": "她学了五年心理学。"},
+{"fr": "La psychologie des foules fascine les chercheurs.", "zh": "群体心理让研究者着迷。"},
+{"fr": "Connaître la psychologie de son adversaire aide au poker.", "zh": "摸清对手的心理，打牌时很有帮助。"}
+],
+"psychologique": [
+{"fr": "Ce thriller repose entièrement sur la tension psychologique.", "zh": "这部惊悚片全靠心理张力撑起来。"},
+{"fr": "Il a subi une forte pression psychologique au travail.", "zh": "他在工作中承受了巨大的心理压力。"},
+{"fr": "Le soutien psychologique est proposé aux familles des victimes.", "zh": "受害者家属可以获得心理支持。"}
+],
+"psychologue": [
+{"fr": "Le psychologue scolaire reçoit les parents sur rendez-vous.", "zh": "学校心理医生按预约接待家长。"},
+{"fr": "Notre psychologue d'entreprise anime des ateliers contre le stress.", "zh": "公司的心理咨询师主持减压工作坊。"},
+{"fr": "Elle consulte un psychologue depuis son déménagement.", "zh": "搬家以来，她一直在看心理医生。"}
+],
+"publicitaire": [
+{"fr": "L'agence publicitaire a inventé ce slogan.", "zh": "广告公司想出了这句口号。"},
+{"fr": "Les panneaux publicitaires envahissent les autoroutes.", "zh": "广告牌挤满了高速公路两旁。"},
+{"fr": "Elle travaille dans le secteur publicitaire depuis dix ans.", "zh": "她在广告行业干了十年。"}
+],
+"publier": [
+{"fr": "Le journal publiera les résultats demain matin.", "zh": "报纸明早刊登结果。"},
+{"fr": "Elle vient de publier son premier roman policier.", "zh": "她刚出版了自己的第一部侦探小说。"},
+{"fr": "Ne publie pas cette photo sans ma permission.", "zh": "没我允许，别发这张照片。"}
+],
+"publiquement": [
+{"fr": "Il a reconnu publiquement ses erreurs lors de la conférence.", "zh": "他在发布会上公开承认了错误。"},
+{"fr": "Elle a été publiquement félicitée pour son travail.", "zh": "她因工作出色受到了公开表彰。"},
+{"fr": "Ne l'humilie pas publiquement, parles-en en privé.", "zh": "别当众让他难堪，私下里谈吧。"}
+],
+"puce": [
+{"fr": "La puce de ta carte bancaire est défectueuse.", "zh": "你银行卡上的芯片出了故障。"},
+{"fr": "L'enfant s'est gratté toute la nuit : il a des puces.", "zh": "孩子挠了一整夜，他身上有跳蚤。"},
+{"fr": "Cette nouvelle puce divise la consommation par deux.", "zh": "这枚新芯片把能耗降低了一半。"}
+],
+"puer": [
+{"fr": "Ce fromage commence vraiment à puer, ouvre la fenêtre.", "zh": "这奶酪实在开始发臭了，开开窗。"},
+{"fr": "Lave le linge de sport, il finit par puer dans le sac.", "zh": "把运动衣洗了吧，捂在包里都要发臭了。"},
+{"fr": "Si tu laisses les ordures au soleil, la poubelle va puer.", "zh": "垃圾放在太阳底下，垃圾桶会发臭的。"}
+],
+"puissance": [
+{"fr": "Cette voiture de sport développe une puissance de trois cents chevaux.", "zh": "这辆跑车功率高达三百马力。"},
+{"fr": "La puissance de la tempête a arraché des toits.", "zh": "风暴威力之大，掀掉了一些屋顶。"},
+{"fr": "La Chine et les États-Unis sont deux grandes puissances économiques.", "zh": "中国和美国是两大经济强国。"}
+],
+"pulvériser": [
+{"fr": "L'explosion a pulvérisé les vitres du magasin.", "zh": "爆炸把商店的玻璃震得粉碎。"},
+{"fr": "Il faut pulvériser les rosiers contre les pucerons.", "zh": "得给月季喷药除蚜虫。"},
+{"fr": "Elle a pulvérisé le record du concours de lancer.", "zh": "她大幅刷新了掷远比赛的纪录。"}
+],
+"punaise": [
+{"fr": "Épingle l'affiche avec une punaise sur le mur.", "zh": "用图钉把海报钉在墙上。"},
+{"fr": "Il m'a fallu vingt punaises pour suspendre la guirlande.", "zh": "我用了二十枚图钉才把彩带挂好。"},
+{"fr": "Ces hôtels bon marché souffrent des punaises de lit.", "zh": "这些廉价酒店深受臭虫之害。"}
+],
+"punk": [
+{"fr": "Ce groupe punk des années soixante-dix influence encore les musiciens.", "zh": "这支七十年代的朋克乐队至今仍在影响音乐人。"},
+{"fr": "Il a gardé sa crête punk bien après la fac.", "zh": "大学毕业很久之后，他还留着朋克鸡冠头。"},
+{"fr": "Le mouvement punk est né comme une révolte contre le rock commercial.", "zh": "朋克运动是对商业摇滚的一种反抗。"}
+]
+}

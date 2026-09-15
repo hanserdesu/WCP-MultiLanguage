@@ -1,0 +1,602 @@
+[
+{
+"word": "ich",
+"pos": "pron.",
+"zh": "我",
+"level": "a1"
+},
+{
+"word": "sie",
+"pos": "pron.",
+"zh": "她；他们；您（敬称）",
+"level": "a1"
+},
+{
+"word": "das",
+"pos": "art.",
+"zh": "定冠词（中性）；这个",
+"level": "a1"
+},
+{
+"word": "sein",
+"pos": "v.",
+"zh": "是；他的",
+"level": "a1"
+},
+{
+"word": "du",
+"pos": "pron.",
+"zh": "你",
+"level": "a1"
+},
+{
+"word": "nicht",
+"pos": "adv.",
+"zh": "不；没有",
+"level": "a1"
+},
+{
+"word": "die",
+"pos": "art.",
+"zh": "定冠词（阴性、复数）",
+"level": "a1"
+},
+{
+"word": "es",
+"pos": "pron.",
+"zh": "它",
+"level": "a1"
+},
+{
+"word": "und",
+"pos": "konj.",
+"zh": "和",
+"level": "a1"
+},
+{
+"word": "der",
+"pos": "art.",
+"zh": "定冠词（阳性）",
+"level": "a1"
+},
+{
+"word": "wir",
+"pos": "pron.",
+"zh": "我们",
+"level": "a1"
+},
+{
+"word": "was",
+"pos": "pron.",
+"zh": "什么",
+"level": "a1"
+},
+{
+"word": "zu",
+"pos": "präp.",
+"zh": "到；向；太",
+"level": "a1"
+},
+{
+"word": "er",
+"pos": "pron.",
+"zh": "他",
+"level": "a1"
+},
+{
+"word": "ein",
+"pos": "art.",
+"zh": "一个（不定冠词）",
+"level": "a1"
+},
+{
+"word": "in",
+"pos": "präp.",
+"zh": "在…里",
+"level": "a1"
+},
+{
+"word": "ja",
+"pos": "adv.",
+"zh": "是的",
+"level": "a1"
+},
+{
+"word": "mit",
+"pos": "präp.",
+"zh": "和…一起",
+"level": "a1"
+},
+{
+"word": "wie",
+"pos": "adv.",
+"zh": "怎样；多么",
+"level": "a1"
+},
+{
+"word": "auf",
+"pos": "präp.",
+"zh": "在…上",
+"level": "a1"
+},
+{
+"word": "dass",
+"pos": "konj.",
+"zh": "（引导从句）",
+"level": "a1"
+},
+{
+"word": "aber",
+"pos": "konj.",
+"zh": "但是",
+"level": "a1"
+},
+{
+"word": "so",
+"pos": "adv.",
+"zh": "如此；那么",
+"level": "a1"
+},
+{
+"word": "haben",
+"pos": "v.",
+"zh": "有",
+"level": "a1"
+},
+{
+"word": "hier",
+"pos": "adv.",
+"zh": "这里",
+"level": "a1"
+},
+{
+"word": "für",
+"pos": "präp.",
+"zh": "为了",
+"level": "a1"
+},
+{
+"word": "von",
+"pos": "präp.",
+"zh": "从；…的",
+"level": "a1"
+},
+{
+"word": "wenn",
+"pos": "konj.",
+"zh": "如果；当…时",
+"level": "a1"
+},
+{
+"word": "ihr",
+"pos": "pron.",
+"zh": "你们；她的；他们的",
+"level": "a1"
+},
+{
+"word": "nein",
+"pos": "interj.",
+"zh": "不是",
+"level": "a1"
+},
+{
+"word": "an",
+"pos": "präp.",
+"zh": "在；紧挨着",
+"level": "a1"
+},
+{
+"word": "noch",
+"pos": "adv.",
+"zh": "还；仍然",
+"level": "a1"
+},
+{
+"word": "nur",
+"pos": "adv.",
+"zh": "只；仅仅",
+"level": "a1"
+},
+{
+"word": "da",
+"pos": "adv.",
+"zh": "那里；那时",
+"level": "a1"
+},
+{
+"word": "sich",
+"pos": "pron.",
+"zh": "自己（反身代词）",
+"level": "a1"
+},
+{
+"word": "können",
+"pos": "v.",
+"zh": "能；会",
+"level": "a1"
+},
+{
+"word": "gut",
+"pos": "adj.",
+"zh": "好的",
+"level": "a1"
+},
+{
+"word": "auch",
+"pos": "adv.",
+"zh": "也",
+"level": "a1"
+},
+{
+"word": "schon",
+"pos": "adv.",
+"zh": "已经",
+"level": "a1"
+},
+{
+"word": "als",
+"pos": "konj.",
+"zh": "当…时；比",
+"level": "a1"
+},
+{
+"word": "mal",
+"pos": "adv.",
+"zh": "一次；一下",
+"level": "a1"
+},
+{
+"word": "jetzt",
+"pos": "adv.",
+"zh": "现在",
+"level": "a1"
+},
+{
+"word": "dann",
+"pos": "adv.",
+"zh": "然后",
+"level": "a1"
+},
+{
+"word": "aus",
+"pos": "präp.",
+"zh": "从…出来",
+"level": "a1"
+},
+{
+"word": "mein",
+"pos": "pron.",
+"zh": "我的",
+"level": "a1"
+},
+{
+"word": "um",
+"pos": "präp.",
+"zh": "围绕；在…点钟",
+"level": "a1"
+},
+{
+"word": "im",
+"pos": "präp.",
+"zh": "在…里（in dem 缩合）",
+"level": "a1"
+},
+{
+"word": "werden",
+"pos": "v.",
+"zh": "变得；将",
+"level": "a1"
+},
+{
+"word": "doch",
+"pos": "adv.",
+"zh": "仍然；可是",
+"level": "a1"
+},
+{
+"word": "alles",
+"pos": "pron.",
+"zh": "一切",
+"level": "a1"
+},
+{
+"word": "wissen",
+"pos": "v.",
+"zh": "知道",
+"level": "a1"
+},
+{
+"word": "kein",
+"pos": "pron.",
+"zh": "没有；无",
+"level": "a1"
+},
+{
+"word": "oder",
+"pos": "konj.",
+"zh": "或者",
+"level": "a1"
+},
+{
+"word": "nach",
+"pos": "präp.",
+"zh": "在…之后；向",
+"level": "a1"
+},
+{
+"word": "nichts",
+"pos": "pron.",
+"zh": "没有什么",
+"level": "a1"
+},
+{
+"word": "man",
+"pos": "pron.",
+"zh": "人们（泛指）",
+"level": "a1"
+},
+{
+"word": "müssen",
+"pos": "v.",
+"zh": "必须",
+"level": "a1"
+},
+{
+"word": "wollen",
+"pos": "v.",
+"zh": "想要",
+"level": "a1"
+},
+{
+"word": "gehen",
+"pos": "v.",
+"zh": "走；去",
+"level": "a1"
+},
+{
+"word": "wo",
+"pos": "adv.",
+"zh": "哪里",
+"level": "a1"
+},
+{
+"word": "etwas",
+"pos": "pron.",
+"zh": "某事；一些",
+"level": "a1"
+},
+{
+"word": "mehr",
+"pos": "adv.",
+"zh": "更多",
+"level": "a1"
+},
+{
+"word": "bei",
+"pos": "präp.",
+"zh": "在…旁边；在…处",
+"level": "a1"
+},
+{
+"word": "also",
+"pos": "adv.",
+"zh": "那么；因此",
+"level": "a1"
+},
+{
+"word": "bitte",
+"pos": "adv.",
+"zh": "请",
+"level": "a1"
+},
+{
+"word": "immer",
+"pos": "adv.",
+"zh": "总是",
+"level": "a1"
+},
+{
+"word": "warum",
+"pos": "adv.",
+"zh": "为什么",
+"level": "a1"
+},
+{
+"word": "vor",
+"pos": "präp.",
+"zh": "在…前面；…之前",
+"level": "a1"
+},
+{
+"word": "wieder",
+"pos": "adv.",
+"zh": "再次",
+"level": "a1"
+},
+{
+"word": "sagen",
+"pos": "v.",
+"zh": "说",
+"level": "a1"
+},
+{
+"word": "machen",
+"pos": "v.",
+"zh": "做",
+"level": "a1"
+},
+{
+"word": "danke",
+"pos": "interj.",
+"zh": "谢谢",
+"level": "a1"
+},
+{
+"word": "sehr",
+"pos": "adv.",
+"zh": "很",
+"level": "a1"
+},
+{
+"word": "alle",
+"pos": "adj.",
+"zh": "全部；大家",
+"level": "a1"
+},
+{
+"word": "Mann",
+"pos": "n.m.",
+"zh": "男人；丈夫",
+"level": "a1"
+},
+{
+"word": "tun",
+"pos": "v.",
+"zh": "做",
+"level": "a1"
+},
+{
+"word": "zum",
+"pos": "präp.",
+"zh": "到…（zu dem 缩合）",
+"level": "a1"
+},
+{
+"word": "sehen",
+"pos": "v.",
+"zh": "看见",
+"level": "a1"
+},
+{
+"word": "vielleicht",
+"pos": "adv.",
+"zh": "也许",
+"level": "a1"
+},
+{
+"word": "wer",
+"pos": "pron.",
+"zh": "谁",
+"level": "a1"
+},
+{
+"word": "dieser",
+"pos": "pron.",
+"zh": "这个；这些",
+"level": "a1"
+},
+{
+"word": "über",
+"pos": "präp.",
+"zh": "在…上方；关于",
+"level": "a1"
+},
+{
+"word": "geben",
+"pos": "v.",
+"zh": "有；给",
+"level": "a1"
+},
+{
+"word": "okay",
+"pos": "interj.",
+"zh": "好的",
+"level": "a1"
+},
+{
+"word": "dein",
+"pos": "pron.",
+"zh": "你的",
+"level": "a1"
+},
+{
+"word": "sollen",
+"pos": "v.",
+"zh": "应该",
+"level": "a1"
+},
+{
+"word": "nie",
+"pos": "adv.",
+"zh": "从不",
+"level": "a1"
+},
+{
+"word": "wirklich",
+"pos": "adv.",
+"zh": "真的",
+"level": "a1"
+},
+{
+"word": "viel",
+"pos": "adv.",
+"zh": "多；大量",
+"level": "a1"
+},
+{
+"word": "weg",
+"pos": "adv.",
+"zh": "走了；离开",
+"level": "a1"
+},
+{
+"word": "am",
+"pos": "präp.",
+"zh": "在（时刻、地点）",
+"level": "a1"
+},
+{
+"word": "einfach",
+"pos": "adj.",
+"zh": "简单的；简直",
+"level": "a1"
+},
+{
+"word": "leben",
+"pos": "v.",
+"zh": "生活；活着",
+"level": "a1"
+},
+{
+"word": "Zeit",
+"pos": "n.f.",
+"zh": "时间",
+"level": "a1"
+},
+{
+"word": "weil",
+"pos": "konj.",
+"zh": "因为",
+"level": "a1"
+},
+{
+"word": "kommen",
+"pos": "v.",
+"zh": "来",
+"level": "a1"
+},
+{
+"word": "heute",
+"pos": "adv.",
+"zh": "今天",
+"level": "a1"
+},
+{
+"word": "ganz",
+"pos": "adv.",
+"zh": "完全；很",
+"level": "a1"
+},
+{
+"word": "sicher",
+"pos": "adj.",
+"zh": "确定的；安全的",
+"level": "a1"
+},
+{
+"word": "Frau",
+"pos": "n.f.",
+"zh": "女士；妻子；女人",
+"level": "a1"
+}
+]

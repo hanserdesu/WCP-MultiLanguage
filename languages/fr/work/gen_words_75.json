@@ -1,0 +1,602 @@
+[
+{
+"word": "reflet",
+"pos": "n.m.",
+"zh": "倒影；反光",
+"level": "b2"
+},
+{
+"word": "refléter",
+"pos": "v.",
+"zh": "反映；映照",
+"level": "b2"
+},
+{
+"word": "regagner",
+"pos": "v.",
+"zh": "返回；重回；重新赢得",
+"level": "b2"
+},
+{
+"word": "regrettable",
+"pos": "adj.",
+"zh": "令人遗憾的",
+"level": "b2"
+},
+{
+"word": "regrouper",
+"pos": "v.",
+"zh": "使重新聚集；归并",
+"level": "b2"
+},
+{
+"word": "rejet",
+"pos": "n.m.",
+"zh": "排斥；拒绝",
+"level": "b2"
+},
+{
+"word": "rejeté",
+"pos": "adj.",
+"zh": "被抛弃的；被排斥的",
+"level": "b2"
+},
+{
+"word": "relancer",
+"pos": "v.",
+"zh": "重新启动；振兴",
+"level": "b2"
+},
+{
+"word": "relayer",
+"pos": "v.",
+"zh": "接替；转播；传递",
+"level": "b2"
+},
+{
+"word": "relevé",
+"pos": "n.m.",
+"zh": "报表；清单；对账单",
+"level": "b2"
+},
+{
+"word": "relier",
+"pos": "v.",
+"zh": "连接；装订",
+"level": "b2"
+},
+{
+"word": "relique",
+"pos": "n.f.",
+"zh": "圣物；遗物",
+"level": "b2"
+},
+{
+"word": "relâche",
+"pos": "n.",
+"zh": "休息日；停演",
+"level": "b2"
+},
+{
+"word": "relève",
+"pos": "n.f.",
+"zh": "接班；接班人",
+"level": "b2"
+},
+{
+"word": "remarier",
+"pos": "v.",
+"zh": "再婚；使再婚",
+"level": "b2"
+},
+{
+"word": "remballer",
+"pos": "v.",
+"zh": "重新打包；打发走",
+"level": "b2"
+},
+{
+"word": "remise",
+"pos": "n.f.",
+"zh": "折扣；交付；储藏室",
+"level": "b2"
+},
+{
+"word": "remédier",
+"pos": "v.",
+"zh": "补救；设法解决",
+"level": "b2"
+},
+{
+"word": "renaître",
+"pos": "v.",
+"zh": "重生；复兴",
+"level": "b2"
+},
+{
+"word": "rendormir",
+"pos": "v.",
+"zh": "使重新入睡",
+"level": "b2"
+},
+{
+"word": "renfermer",
+"pos": "v.",
+"zh": "关闭；藏有",
+"level": "b2"
+},
+{
+"word": "renier",
+"pos": "v.",
+"zh": "否认；背弃",
+"level": "b2"
+},
+{
+"word": "renifler",
+"pos": "v.",
+"zh": "嗅；嗤之以鼻",
+"level": "b2"
+},
+{
+"word": "renvoi",
+"pos": "n.m.",
+"zh": "解雇；退回；援引",
+"level": "b2"
+},
+{
+"word": "repaire",
+"pos": "n.m.",
+"zh": "巢穴；老窝",
+"level": "b2"
+},
+{
+"word": "repentir",
+"pos": "v.",
+"zh": "悔悟；忏悔",
+"level": "b2"
+},
+{
+"word": "replier",
+"pos": "v.",
+"zh": "折起；撤退",
+"level": "b2"
+},
+{
+"word": "reporter",
+"pos": "v.",
+"zh": "推迟；改期",
+"level": "b2"
+},
+{
+"word": "repoussant",
+"pos": "adj.",
+"zh": "令人反感的",
+"level": "b2"
+},
+{
+"word": "reprise",
+"pos": "n.f.",
+"zh": "重新开始；恢复；翻唱",
+"level": "b2"
+},
+{
+"word": "représaille",
+"pos": "n.f.",
+"zh": "报复（常用复数）",
+"level": "b2"
+},
+{
+"word": "repêcher",
+"pos": "v.",
+"zh": "捞起；补考救回",
+"level": "b2"
+},
+{
+"word": "requiem",
+"pos": "n.m.",
+"zh": "安魂曲",
+"level": "b2"
+},
+{
+"word": "requérir",
+"pos": "v.",
+"zh": "要求；申请（正式）",
+"level": "b2"
+},
+{
+"word": "requête",
+"pos": "n.f.",
+"zh": "请求；诉状",
+"level": "b2"
+},
+{
+"word": "respectable",
+"pos": "adj.",
+"zh": "可敬的；体面的",
+"level": "b2"
+},
+{
+"word": "respiratoire",
+"pos": "adj.",
+"zh": "呼吸的",
+"level": "b2"
+},
+{
+"word": "ressaisir",
+"pos": "v.",
+"zh": "重新抓住；使镇定下来",
+"level": "b2"
+},
+{
+"word": "ressentir",
+"pos": "v.",
+"zh": "感到；感受到",
+"level": "b2"
+},
+{
+"word": "resserrer",
+"pos": "v.",
+"zh": "收紧；夹紧",
+"level": "b2"
+},
+{
+"word": "ressort",
+"pos": "n.m.",
+"zh": "弹簧；发条；管辖范围",
+"level": "b2"
+},
+{
+"word": "ressusciter",
+"pos": "v.",
+"zh": "使复活；复苏",
+"level": "b2"
+},
+{
+"word": "restant",
+"pos": "n.m.",
+"zh": "剩余部分；余款",
+"level": "b2"
+},
+{
+"word": "restituer",
+"pos": "v.",
+"zh": "归还；返还",
+"level": "b2"
+},
+{
+"word": "retaper",
+"pos": "v.",
+"zh": "修整；翻新",
+"level": "b2"
+},
+{
+"word": "retentir",
+"pos": "v.",
+"zh": "回响；鸣响",
+"level": "b2"
+},
+{
+"word": "retenue",
+"pos": "n.f.",
+"zh": "克制；扣款；蓄水池",
+"level": "b2"
+},
+{
+"word": "revendre",
+"pos": "v.",
+"zh": "转卖；再出售",
+"level": "b2"
+},
+{
+"word": "revenu",
+"pos": "n.m.",
+"zh": "收入；所得",
+"level": "b2"
+},
+{
+"word": "revers",
+"pos": "n.m.",
+"zh": "反面；挫折；翻边",
+"level": "b2"
+},
+{
+"word": "revêtir",
+"pos": "v.",
+"zh": "穿上；具有",
+"level": "b2"
+},
+{
+"word": "rhabiller",
+"pos": "v.",
+"zh": "重新穿好衣服",
+"level": "b2"
+},
+{
+"word": "rhum",
+"pos": "n.m.",
+"zh": "朗姆酒",
+"level": "b2"
+},
+{
+"word": "rhumatisme",
+"pos": "n.m.",
+"zh": "风湿病",
+"level": "b2"
+},
+{
+"word": "richard",
+"pos": "adj.",
+"zh": "阔佬（贬，口语）",
+"level": "b2"
+},
+{
+"word": "ridiculiser",
+"pos": "v.",
+"zh": "使显得可笑；嘲讽",
+"level": "b2"
+},
+{
+"word": "rigolade",
+"pos": "n.f.",
+"zh": "玩笑；嬉闹",
+"level": "b2"
+},
+{
+"word": "rigueur",
+"pos": "n.f.",
+"zh": "严格；严厉",
+"level": "b2"
+},
+{
+"word": "rimer",
+"pos": "v.",
+"zh": "押韵",
+"level": "b2"
+},
+{
+"word": "ring",
+"pos": "n.m.",
+"zh": "拳击台；擂台",
+"level": "b2"
+},
+{
+"word": "ringard",
+"pos": "adj.",
+"zh": "过时的；老土的",
+"level": "b2"
+},
+{
+"word": "riposter",
+"pos": "v.",
+"zh": "还击；反驳",
+"level": "b2"
+},
+{
+"word": "risée",
+"pos": "n.f.",
+"zh": "嘲笑；笑柄",
+"level": "b2"
+},
+{
+"word": "rite",
+"pos": "n.m.",
+"zh": "仪式；惯例",
+"level": "b2"
+},
+{
+"word": "rivage",
+"pos": "n.m.",
+"zh": "岸；海滨",
+"level": "b2"
+},
+{
+"word": "rival",
+"pos": "n.m.",
+"zh": "对手；竞争者",
+"level": "b2"
+},
+{
+"word": "rivalité",
+"pos": "n.f.",
+"zh": "竞争；对抗",
+"level": "b2"
+},
+{
+"word": "rizière",
+"pos": "n.f.",
+"zh": "稻田",
+"level": "b2"
+},
+{
+"word": "ronde",
+"pos": "n.f.",
+"zh": "巡逻；轮次；环形舞",
+"level": "b2"
+},
+{
+"word": "ronfler",
+"pos": "v.",
+"zh": "打鼾",
+"level": "b2"
+},
+{
+"word": "rossignol",
+"pos": "n.m.",
+"zh": "夜莺",
+"level": "b2"
+},
+{
+"word": "rosée",
+"pos": "n.f.",
+"zh": "露水",
+"level": "b2"
+},
+{
+"word": "rouble",
+"pos": "n.m.",
+"zh": "卢布",
+"level": "b2"
+},
+{
+"word": "rougir",
+"pos": "v.",
+"zh": "脸红；变红",
+"level": "b2"
+},
+{
+"word": "rouiller",
+"pos": "v.",
+"zh": "（使）生锈",
+"level": "b2"
+},
+{
+"word": "roulant",
+"pos": "adj.",
+"zh": "滚动的；行驶的",
+"level": "b2"
+},
+{
+"word": "roulement",
+"pos": "n.m.",
+"zh": "滚动；轴承",
+"level": "b2"
+},
+{
+"word": "roumain",
+"pos": "adj.",
+"zh": "罗马尼亚的；罗马尼亚人",
+"level": "b2"
+},
+{
+"word": "round",
+"pos": "n.m.",
+"zh": "回合",
+"level": "b2"
+},
+{
+"word": "rouquin",
+"pos": "n.m.",
+"zh": "红头发的人",
+"level": "b2"
+},
+{
+"word": "routier",
+"pos": "adj.",
+"zh": "公路的；道路的",
+"level": "b2"
+},
+{
+"word": "rouvrir",
+"pos": "v.",
+"zh": "重新打开",
+"level": "b2"
+},
+{
+"word": "rubis",
+"pos": "n.m.",
+"zh": "红宝石",
+"level": "b2"
+},
+{
+"word": "ruche",
+"pos": "n.f.",
+"zh": "蜂箱；蜂巢",
+"level": "b2"
+},
+{
+"word": "rude",
+"pos": "adj.",
+"zh": "艰难的；严酷的",
+"level": "b2"
+},
+{
+"word": "rudement",
+"pos": "adv.",
+"zh": "非常（口语）；严厉地",
+"level": "b2"
+},
+{
+"word": "ruelle",
+"pos": "n.f.",
+"zh": "小巷；窄街",
+"level": "b2"
+},
+{
+"word": "ruer",
+"pos": "v.",
+"zh": "猛冲；踢跳",
+"level": "b2"
+},
+{
+"word": "ruse",
+"pos": "n.f.",
+"zh": "诡计；狡猾",
+"level": "b2"
+},
+{
+"word": "ruser",
+"pos": "v.",
+"zh": "用计；耍花招",
+"level": "b2"
+},
+{
+"word": "rustre",
+"pos": "n.",
+"zh": "粗野的；粗人",
+"level": "b2"
+},
+{
+"word": "râler",
+"pos": "v.",
+"zh": "抱怨；发牢骚",
+"level": "b2"
+},
+{
+"word": "règne",
+"pos": "n.m.",
+"zh": "统治；支配",
+"level": "b2"
+},
+{
+"word": "réacteur",
+"pos": "n.m.",
+"zh": "反应堆；喷气发动机",
+"level": "b2"
+},
+{
+"word": "réaliste",
+"pos": "adj.",
+"zh": "现实的；现实主义的",
+"level": "b2"
+},
+{
+"word": "réanimation",
+"pos": "n.f.",
+"zh": "复苏；重症监护",
+"level": "b2"
+},
+{
+"word": "réapparaître",
+"pos": "v.",
+"zh": "重新出现",
+"level": "b2"
+},
+{
+"word": "rébellion",
+"pos": "n.f.",
+"zh": "反叛；叛乱",
+"level": "b2"
+},
+{
+"word": "réchapper",
+"pos": "v.",
+"zh": "幸免；逃脱",
+"level": "b2"
+},
+{
+"word": "réconciliation",
+"pos": "n.f.",
+"zh": "和解；修好",
+"level": "b2"
+}
+]

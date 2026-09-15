@@ -1,0 +1,602 @@
+[
+{
+"word": "Salat",
+"pos": "n.m.",
+"zh": "沙拉",
+"level": "a1"
+},
+{
+"word": "regnen",
+"pos": "v.",
+"zh": "下雨",
+"level": "a1"
+},
+{
+"word": "deutsch",
+"pos": "adj.",
+"zh": "德语的；德国的",
+"level": "a1"
+},
+{
+"word": "Sofa",
+"pos": "n.",
+"zh": "沙发",
+"level": "a1"
+},
+{
+"word": "Butter",
+"pos": "n.f.",
+"zh": "黄油",
+"level": "a1"
+},
+{
+"word": "Saft",
+"pos": "n.m.",
+"zh": "果汁",
+"level": "a1"
+},
+{
+"word": "Gemüse",
+"pos": "n.",
+"zh": "蔬菜",
+"level": "a1"
+},
+{
+"word": "Fußball",
+"pos": "n.m.",
+"zh": "足球",
+"level": "a1"
+},
+{
+"word": "Bahn",
+"pos": "n.f.",
+"zh": "火车；轨道",
+"level": "a1"
+},
+{
+"word": "Kanada",
+"pos": "n.",
+"zh": "加拿大",
+"level": "a1"
+},
+{
+"word": "Oktober",
+"pos": "n.m.",
+"zh": "十月",
+"level": "a1"
+},
+{
+"word": "Lampe",
+"pos": "n.f.",
+"zh": "灯",
+"level": "a1"
+},
+{
+"word": "Frühling",
+"pos": "n.m.",
+"zh": "春天",
+"level": "a1"
+},
+{
+"word": "dünn",
+"pos": "adj.",
+"zh": "细的；瘦的",
+"level": "a1"
+},
+{
+"word": "geradeaus",
+"pos": "adv.",
+"zh": "一直向前",
+"level": "a1"
+},
+{
+"word": "Gitarre",
+"pos": "n.f.",
+"zh": "吉他",
+"level": "a1"
+},
+{
+"word": "Möbel",
+"pos": "n.",
+"zh": "家具",
+"level": "a1"
+},
+{
+"word": "Zoo",
+"pos": "n.m.",
+"zh": "动物园",
+"level": "a1"
+},
+{
+"word": "Wolke",
+"pos": "n.f.",
+"zh": "云",
+"level": "a1"
+},
+{
+"word": "Reis",
+"pos": "n.m.",
+"zh": "大米",
+"level": "a1"
+},
+{
+"word": "Apfel",
+"pos": "n.m.",
+"zh": "苹果",
+"level": "a1"
+},
+{
+"word": "Kartoffel",
+"pos": "n.f.",
+"zh": "土豆",
+"level": "a1"
+},
+{
+"word": "Elefant",
+"pos": "n.m.",
+"zh": "大象",
+"level": "a1"
+},
+{
+"word": "zwanzig",
+"pos": "num.",
+"zh": "二十",
+"level": "a1"
+},
+{
+"word": "November",
+"pos": "n.m.",
+"zh": "十一月",
+"level": "a1"
+},
+{
+"word": "Dezember",
+"pos": "n.m.",
+"zh": "十二月",
+"level": "a1"
+},
+{
+"word": "Handtuch",
+"pos": "n.",
+"zh": "毛巾",
+"level": "a1"
+},
+{
+"word": "Japaner",
+"pos": "n.m.",
+"zh": "日本人",
+"level": "a1"
+},
+{
+"word": "Schweden",
+"pos": "n.",
+"zh": "瑞典",
+"level": "a1"
+},
+{
+"word": "März",
+"pos": "n.m.",
+"zh": "三月",
+"level": "a1"
+},
+{
+"word": "Cola",
+"pos": "n.f.",
+"zh": "可乐",
+"level": "a1"
+},
+{
+"word": "U-Bahn",
+"pos": "n.f.",
+"zh": "地铁",
+"level": "a1"
+},
+{
+"word": "übermorgen",
+"pos": "adv.",
+"zh": "后天",
+"level": "a1"
+},
+{
+"word": "Schweiz",
+"pos": "n.",
+"zh": "瑞士",
+"level": "a1"
+},
+{
+"word": "Herbst",
+"pos": "n.m.",
+"zh": "秋天",
+"level": "a1"
+},
+{
+"word": "Feierabend",
+"pos": "n.m.",
+"zh": "下班",
+"level": "a1"
+},
+{
+"word": "Würstchen",
+"pos": "n.",
+"zh": "小香肠",
+"level": "a1"
+},
+{
+"word": "Rucksack",
+"pos": "n.m.",
+"zh": "背包",
+"level": "a1"
+},
+{
+"word": "gelb",
+"pos": "adj.",
+"zh": "黄色的",
+"level": "a1"
+},
+{
+"word": "Orange",
+"pos": "n.f.",
+"zh": "橙子；橙色的",
+"level": "a1"
+},
+{
+"word": "Chinesisch",
+"pos": "n.",
+"zh": "汉语",
+"level": "a1"
+},
+{
+"word": "Supermarkt",
+"pos": "n.m.",
+"zh": "超市",
+"level": "a1"
+},
+{
+"word": "Januar",
+"pos": "n.m.",
+"zh": "一月",
+"level": "a1"
+},
+{
+"word": "Polen",
+"pos": "n.",
+"zh": "波兰",
+"level": "a1"
+},
+{
+"word": "braun",
+"pos": "adj.",
+"zh": "棕色的",
+"level": "a1"
+},
+{
+"word": "Fahrstuhl",
+"pos": "n.m.",
+"zh": "电梯",
+"level": "a1"
+},
+{
+"word": "Italiener",
+"pos": "n.m.",
+"zh": "意大利人",
+"level": "a1"
+},
+{
+"word": "Australien",
+"pos": "n.",
+"zh": "澳大利亚",
+"level": "a1"
+},
+{
+"word": "Hauptstadt",
+"pos": "n.f.",
+"zh": "首都",
+"level": "a1"
+},
+{
+"word": "Honig",
+"pos": "n.m.",
+"zh": "蜂蜜",
+"level": "a1"
+},
+{
+"word": "Februar",
+"pos": "n.m.",
+"zh": "二月",
+"level": "a1"
+},
+{
+"word": "insgesamt",
+"pos": "adv.",
+"zh": "总共",
+"level": "a1"
+},
+{
+"word": "Hobby",
+"pos": "n.",
+"zh": "爱好",
+"level": "a1"
+},
+{
+"word": "Liter",
+"pos": "n.",
+"zh": "升",
+"level": "a1"
+},
+{
+"word": "Deutscher",
+"pos": "n.m.",
+"zh": "德国人",
+"level": "a1"
+},
+{
+"word": "Pommes",
+"pos": "n.",
+"zh": "薯条",
+"level": "a1"
+},
+{
+"word": "Lebensmittel",
+"pos": "n.",
+"zh": "食品",
+"level": "a1"
+},
+{
+"word": "Schere",
+"pos": "n.f.",
+"zh": "剪刀",
+"level": "a1"
+},
+{
+"word": "los",
+"pos": "adj.",
+"zh": "松开的；走吧",
+"level": "a2"
+},
+{
+"word": "denn",
+"pos": "konj.",
+"zh": "因为；究竟",
+"level": "a2"
+},
+{
+"word": "damit",
+"pos": "konj.",
+"zh": "为了；因此",
+"level": "a2"
+},
+{
+"word": "nun",
+"pos": "adv.",
+"zh": "现在；嗯",
+"level": "a2"
+},
+{
+"word": "meinen",
+"pos": "v.",
+"zh": "认为；指的是",
+"level": "a2"
+},
+{
+"word": "Gott",
+"pos": "n.m.",
+"zh": "上帝",
+"level": "a2"
+},
+{
+"word": "ab",
+"pos": "präp.",
+"zh": "从…起",
+"level": "a2"
+},
+{
+"word": "reden",
+"pos": "v.",
+"zh": "谈论；说话",
+"level": "a2"
+},
+{
+"word": "wohl",
+"pos": "adv.",
+"zh": "大概；健康",
+"level": "a2"
+},
+{
+"word": "ob",
+"pos": "konj.",
+"zh": "是否",
+"level": "a2"
+},
+{
+"word": "raus",
+"pos": "adv.",
+"zh": "出去（口语）",
+"level": "a2"
+},
+{
+"word": "paar",
+"pos": "num.",
+"zh": "几个；一些",
+"level": "a2"
+},
+{
+"word": "passieren",
+"pos": "v.",
+"zh": "发生",
+"level": "a2"
+},
+{
+"word": "wieso",
+"pos": "adv.",
+"zh": "为什么（口语）",
+"level": "a2"
+},
+{
+"word": "selbst",
+"pos": "pron.",
+"zh": "自己；甚至",
+"level": "a2"
+},
+{
+"word": "gehören",
+"pos": "v.",
+"zh": "属于",
+"level": "a2"
+},
+{
+"word": "her",
+"pos": "adv.",
+"zh": "（方向）过来",
+"level": "a2"
+},
+{
+"word": "gar",
+"pos": "adv.",
+"zh": "完全（用于否定强调）",
+"level": "a2"
+},
+{
+"word": "seit",
+"pos": "präp.",
+"zh": "自从",
+"level": "a2"
+},
+{
+"word": "recht",
+"pos": "adj.",
+"zh": "对的；正当",
+"level": "a2"
+},
+{
+"word": "Ordnung",
+"pos": "n.f.",
+"zh": "秩序；正常（没问题）",
+"level": "a2"
+},
+{
+"word": "davon",
+"pos": "adv.",
+"zh": "从那；关于那",
+"level": "a2"
+},
+{
+"word": "dafür",
+"pos": "adv.",
+"zh": "为此",
+"level": "a2"
+},
+{
+"word": "wegen",
+"pos": "präp.",
+"zh": "因为",
+"level": "a2"
+},
+{
+"word": "hin",
+"pos": "adv.",
+"zh": "（方向）过去",
+"level": "a2"
+},
+{
+"word": "Angst",
+"pos": "n.f.",
+"zh": "害怕；焦虑",
+"level": "a2"
+},
+{
+"word": "tot",
+"pos": "adj.",
+"zh": "死的",
+"level": "a2"
+},
+{
+"word": "dürfen",
+"pos": "v.",
+"zh": "允许；可以",
+"level": "a2"
+},
+{
+"word": "erst",
+"pos": "adv.",
+"zh": "才；首先",
+"level": "a2"
+},
+{
+"word": "rein",
+"pos": "adv.",
+"zh": "进来（口语）",
+"level": "a2"
+},
+{
+"word": "stimmen",
+"pos": "v.",
+"zh": "正确；吻合",
+"level": "a2"
+},
+{
+"word": "sonst",
+"pos": "adv.",
+"zh": "否则；另外",
+"level": "a2"
+},
+{
+"word": "dabei",
+"pos": "adv.",
+"zh": "在场；同时",
+"level": "a2"
+},
+{
+"word": "sofort",
+"pos": "adv.",
+"zh": "立刻",
+"level": "a2"
+},
+{
+"word": "bevor",
+"pos": "konj.",
+"zh": "在…之前",
+"level": "a2"
+},
+{
+"word": "halt",
+"pos": "adv.",
+"zh": "就是（语气词）",
+"level": "a2"
+},
+{
+"word": "beide",
+"pos": "pron.",
+"zh": "两个都",
+"level": "a2"
+},
+{
+"word": "Sache",
+"pos": "n.f.",
+"zh": "事情；东西",
+"level": "a2"
+},
+{
+"word": "darüber",
+"pos": "adv.",
+"zh": "关于那",
+"level": "a2"
+},
+{
+"word": "halten",
+"pos": "v.",
+"zh": "握住；保持",
+"level": "a2"
+},
+{
+"word": "wahr",
+"pos": "adj.",
+"zh": "真实的",
+"level": "a2"
+},
+{
+"word": "dazu",
+"pos": "adv.",
+"zh": "此外；为此",
+"level": "a2"
+}
+]

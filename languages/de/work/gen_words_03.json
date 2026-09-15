@@ -1,0 +1,602 @@
+[
+{
+"word": "Onkel",
+"pos": "n.m.",
+"zh": "叔叔",
+"level": "a1"
+},
+{
+"word": "Party",
+"pos": "n.f.",
+"zh": "派对",
+"level": "a1"
+},
+{
+"word": "leicht",
+"pos": "adj.",
+"zh": "容易的；轻的",
+"level": "a1"
+},
+{
+"word": "Gefühl",
+"pos": "n.",
+"zh": "感觉",
+"level": "a1"
+},
+{
+"word": "kaufen",
+"pos": "v.",
+"zh": "买",
+"level": "a1"
+},
+{
+"word": "Stück",
+"pos": "n.",
+"zh": "块；件",
+"level": "a1"
+},
+{
+"word": "Himmel",
+"pos": "n.m.",
+"zh": "天空",
+"level": "a1"
+},
+{
+"word": "sitzen",
+"pos": "v.",
+"zh": "坐",
+"level": "a1"
+},
+{
+"word": "Schlüssel",
+"pos": "n.m.",
+"zh": "钥匙",
+"level": "a1"
+},
+{
+"word": "schreiben",
+"pos": "v.",
+"zh": "写",
+"level": "a1"
+},
+{
+"word": "böse",
+"pos": "adj.",
+"zh": "坏的；生气的",
+"level": "a1"
+},
+{
+"word": "nochmal",
+"pos": "adv.",
+"zh": "再一次",
+"level": "a1"
+},
+{
+"word": "Wohnung",
+"pos": "n.f.",
+"zh": "住房",
+"level": "a1"
+},
+{
+"word": "Krankenhaus",
+"pos": "n.",
+"zh": "医院",
+"level": "a1"
+},
+{
+"word": "Klasse",
+"pos": "n.f.",
+"zh": "班级；很棒",
+"level": "a1"
+},
+{
+"word": "stark",
+"pos": "adj.",
+"zh": "强壮的",
+"level": "a1"
+},
+{
+"word": "Person",
+"pos": "n.f.",
+"zh": "人",
+"level": "a1"
+},
+{
+"word": "lachen",
+"pos": "v.",
+"zh": "笑",
+"level": "a1"
+},
+{
+"word": "Stimme",
+"pos": "n.f.",
+"zh": "声音",
+"level": "a1"
+},
+{
+"word": "lustig",
+"pos": "adj.",
+"zh": "有趣的",
+"level": "a1"
+},
+{
+"word": "schlimm",
+"pos": "adj.",
+"zh": "严重的",
+"level": "a1"
+},
+{
+"word": "lesen",
+"pos": "v.",
+"zh": "读",
+"level": "a1"
+},
+{
+"word": "Verzeihung",
+"pos": "n.f.",
+"zh": "原谅；不好意思",
+"level": "a1"
+},
+{
+"word": "aufs",
+"pos": "präp.",
+"zh": "到…上（auf das 缩合）",
+"level": "a1"
+},
+{
+"word": "vorher",
+"pos": "adv.",
+"zh": "之前",
+"level": "a1"
+},
+{
+"word": "Handy",
+"pos": "n.",
+"zh": "手机",
+"level": "a1"
+},
+{
+"word": "Monat",
+"pos": "n.m.",
+"zh": "月",
+"level": "a1"
+},
+{
+"word": "acht",
+"pos": "num.",
+"zh": "八",
+"level": "a1"
+},
+{
+"word": "Tisch",
+"pos": "n.m.",
+"zh": "桌子",
+"level": "a1"
+},
+{
+"word": "gefährlich",
+"pos": "adj.",
+"zh": "危险的",
+"level": "a1"
+},
+{
+"word": "Hotel",
+"pos": "n.",
+"zh": "旅馆",
+"level": "a1"
+},
+{
+"word": "Antwort",
+"pos": "n.f.",
+"zh": "回答",
+"level": "a1"
+},
+{
+"word": "sieben",
+"pos": "num.",
+"zh": "七",
+"level": "a1"
+},
+{
+"word": "komisch",
+"pos": "adj.",
+"zh": "奇怪的",
+"level": "a1"
+},
+{
+"word": "Bild",
+"pos": "n.",
+"zh": "图画；照片",
+"level": "a1"
+},
+{
+"word": "Traum",
+"pos": "n.m.",
+"zh": "梦",
+"level": "a1"
+},
+{
+"word": "Fenster",
+"pos": "n.",
+"zh": "窗户",
+"level": "a1"
+},
+{
+"word": "welcher",
+"pos": "pron.",
+"zh": "哪一个",
+"level": "a1"
+},
+{
+"word": "offen",
+"pos": "adj.",
+"zh": "开着的",
+"level": "a1"
+},
+{
+"word": "arm",
+"pos": "n.m.",
+"zh": "手臂；可怜的",
+"level": "a1"
+},
+{
+"word": "Bier",
+"pos": "n.",
+"zh": "啤酒",
+"level": "a1"
+},
+{
+"word": "Finger",
+"pos": "n.m.",
+"zh": "手指",
+"level": "a1"
+},
+{
+"word": "gleiche",
+"pos": "adj.",
+"zh": "相同的",
+"level": "a1"
+},
+{
+"word": "tanzen",
+"pos": "v.",
+"zh": "跳舞",
+"level": "a1"
+},
+{
+"word": "zuhause",
+"pos": "adv.",
+"zh": "在家",
+"level": "a1"
+},
+{
+"word": "Reise",
+"pos": "n.f.",
+"zh": "旅行",
+"level": "a1"
+},
+{
+"word": "Dame",
+"pos": "n.f.",
+"zh": "女士",
+"level": "a1"
+},
+{
+"word": "tschüss",
+"pos": "interj.",
+"zh": "再见",
+"level": "a1"
+},
+{
+"word": "heiß",
+"pos": "adj.",
+"zh": "热的",
+"level": "a1"
+},
+{
+"word": "Foto",
+"pos": "n.",
+"zh": "照片",
+"level": "a1"
+},
+{
+"word": "kalt",
+"pos": "adj.",
+"zh": "冷的",
+"level": "a1"
+},
+{
+"word": "Zug",
+"pos": "n.m.",
+"zh": "火车",
+"level": "a1"
+},
+{
+"word": "freuen",
+"pos": "v.",
+"zh": "使高兴",
+"level": "a1"
+},
+{
+"word": "müde",
+"pos": "adj.",
+"zh": "累的",
+"level": "a1"
+},
+{
+"word": "Brief",
+"pos": "n.m.",
+"zh": "信",
+"level": "a1"
+},
+{
+"word": "hübsch",
+"pos": "adj.",
+"zh": "漂亮的",
+"level": "a1"
+},
+{
+"word": "Geschenk",
+"pos": "n.",
+"zh": "礼物",
+"level": "a1"
+},
+{
+"word": "Tasche",
+"pos": "n.f.",
+"zh": "包；口袋",
+"level": "a1"
+},
+{
+"word": "Hunger",
+"pos": "n.m.",
+"zh": "饥饿",
+"level": "a1"
+},
+{
+"word": "Preis",
+"pos": "n.m.",
+"zh": "价格",
+"level": "a1"
+},
+{
+"word": "neben",
+"pos": "präp.",
+"zh": "在…旁边",
+"level": "a1"
+},
+{
+"word": "Firma",
+"pos": "n.f.",
+"zh": "公司",
+"level": "a1"
+},
+{
+"word": "öffnen",
+"pos": "v.",
+"zh": "打开",
+"level": "a1"
+},
+{
+"word": "Tante",
+"pos": "n.f.",
+"zh": "姑姑；阿姨",
+"level": "a1"
+},
+{
+"word": "Pferd",
+"pos": "n.",
+"zh": "马",
+"level": "a1"
+},
+{
+"word": "jung",
+"pos": "adj.",
+"zh": "年轻的",
+"level": "a1"
+},
+{
+"word": "ans",
+"pos": "präp.",
+"zh": "到…旁（an das 缩合）",
+"level": "a1"
+},
+{
+"word": "links",
+"pos": "adj.",
+"zh": "左边的",
+"level": "a1"
+},
+{
+"word": "Punkt",
+"pos": "n.m.",
+"zh": "点；要点",
+"level": "a1"
+},
+{
+"word": "Geburtstag",
+"pos": "n.m.",
+"zh": "生日",
+"level": "a1"
+},
+{
+"word": "traurig",
+"pos": "adj.",
+"zh": "悲伤的",
+"level": "a1"
+},
+{
+"word": "Karte",
+"pos": "n.f.",
+"zh": "卡片；地图",
+"level": "a1"
+},
+{
+"word": "diesmal",
+"pos": "adv.",
+"zh": "这次",
+"level": "a1"
+},
+{
+"word": "schade",
+"pos": "adj.",
+"zh": "可惜",
+"level": "a1"
+},
+{
+"word": "Sonne",
+"pos": "n.f.",
+"zh": "太阳",
+"level": "a1"
+},
+{
+"word": "Nase",
+"pos": "n.f.",
+"zh": "鼻子",
+"level": "a1"
+},
+{
+"word": "singen",
+"pos": "v.",
+"zh": "唱歌",
+"level": "a1"
+},
+{
+"word": "Bank",
+"pos": "n.f.",
+"zh": "银行",
+"level": "a1"
+},
+{
+"word": "Computer",
+"pos": "n.m.",
+"zh": "电脑",
+"level": "a1"
+},
+{
+"word": "Weihnachten",
+"pos": "n.",
+"zh": "圣诞节",
+"level": "a1"
+},
+{
+"word": "Fuß",
+"pos": "n.m.",
+"zh": "脚",
+"level": "a1"
+},
+{
+"word": "Haar",
+"pos": "n.",
+"zh": "头发",
+"level": "a1"
+},
+{
+"word": "rechts",
+"pos": "adj.",
+"zh": "右边的",
+"level": "a1"
+},
+{
+"word": "interessant",
+"pos": "adj.",
+"zh": "有趣的",
+"level": "a1"
+},
+{
+"word": "wohnen",
+"pos": "v.",
+"zh": "居住",
+"level": "a1"
+},
+{
+"word": "kaputt",
+"pos": "adj.",
+"zh": "坏了的",
+"level": "a1"
+},
+{
+"word": "Flugzeug",
+"pos": "n.",
+"zh": "飞机",
+"level": "a1"
+},
+{
+"word": "Tee",
+"pos": "n.m.",
+"zh": "茶",
+"level": "a1"
+},
+{
+"word": "sauber",
+"pos": "adj.",
+"zh": "干净的",
+"level": "a1"
+},
+{
+"word": "Hals",
+"pos": "n.m.",
+"zh": "脖子",
+"level": "a1"
+},
+{
+"word": "Küche",
+"pos": "n.f.",
+"zh": "厨房",
+"level": "a1"
+},
+{
+"word": "Kamera",
+"pos": "n.f.",
+"zh": "相机",
+"level": "a1"
+},
+{
+"word": "Schuh",
+"pos": "n.m.",
+"zh": "鞋",
+"level": "a1"
+},
+{
+"word": "Glas",
+"pos": "n.",
+"zh": "玻璃；玻璃杯",
+"level": "a1"
+},
+{
+"word": "Kleid",
+"pos": "n.",
+"zh": "连衣裙；衣服",
+"level": "a1"
+},
+{
+"word": "Abendessen",
+"pos": "n.",
+"zh": "晚餐",
+"level": "a1"
+},
+{
+"word": "gucken",
+"pos": "v.",
+"zh": "看（口语）",
+"level": "a1"
+},
+{
+"word": "ungefähr",
+"pos": "adv.",
+"zh": "大约",
+"level": "a1"
+},
+{
+"word": "neun",
+"pos": "num.",
+"zh": "九",
+"level": "a1"
+},
+{
+"word": "Amerika",
+"pos": "n.",
+"zh": "美国",
+"level": "a1"
+}
+]

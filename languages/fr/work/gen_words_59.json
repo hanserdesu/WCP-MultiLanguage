@@ -1,0 +1,602 @@
+[
+{
+"word": "branler",
+"pos": "v.",
+"zh": "摇晃；摆动",
+"level": "b2"
+},
+{
+"word": "braquage",
+"pos": "n.m.",
+"zh": "持械抢劫",
+"level": "b2"
+},
+{
+"word": "braqueur",
+"pos": "n.m.",
+"zh": "持枪抢劫者",
+"level": "b2"
+},
+{
+"word": "braver",
+"pos": "v.",
+"zh": "不畏；顶着（危险）",
+"level": "b2"
+},
+{
+"word": "bravoure",
+"pos": "n.f.",
+"zh": "英勇；勇敢",
+"level": "b2"
+},
+{
+"word": "break",
+"pos": "n.m.",
+"zh": "间歇；旅行车",
+"level": "b2"
+},
+{
+"word": "bretelle",
+"pos": "n.f.",
+"zh": "背带；匝道",
+"level": "b2"
+},
+{
+"word": "bridge",
+"pos": "n.m.",
+"zh": "桥牌",
+"level": "b2"
+},
+{
+"word": "briefing",
+"pos": "n.m.",
+"zh": "简报会；情况介绍",
+"level": "b2"
+},
+{
+"word": "brigand",
+"pos": "n.m.",
+"zh": "强盗；土匪",
+"level": "b2"
+},
+{
+"word": "brin",
+"pos": "n.m.",
+"zh": "小枝；一点儿",
+"level": "b2"
+},
+{
+"word": "brisé",
+"pos": "adj.",
+"zh": "破碎的；粉碎的",
+"level": "b2"
+},
+{
+"word": "broche",
+"pos": "n.f.",
+"zh": "饰针；烤肉扦",
+"level": "b2"
+},
+{
+"word": "brouhaha",
+"pos": "n.m.",
+"zh": "嘈杂声；喧哗声",
+"level": "b2"
+},
+{
+"word": "broyer",
+"pos": "v.",
+"zh": "碾碎；磨碎",
+"level": "b2"
+},
+{
+"word": "brume",
+"pos": "n.f.",
+"zh": "薄雾；雾霭",
+"level": "b2"
+},
+{
+"word": "brusque",
+"pos": "adj.",
+"zh": "突然的；生硬的",
+"level": "b2"
+},
+{
+"word": "brèche",
+"pos": "n.f.",
+"zh": "缺口；突破口",
+"level": "b2"
+},
+{
+"word": "brûlure",
+"pos": "n.f.",
+"zh": "烧伤；灼伤",
+"level": "b2"
+},
+{
+"word": "buisson",
+"pos": "n.m.",
+"zh": "灌木丛",
+"level": "b2"
+},
+{
+"word": "bunker",
+"pos": "n.m.",
+"zh": "地堡；掩体",
+"level": "b2"
+},
+{
+"word": "buste",
+"pos": "n.m.",
+"zh": "半身像；躯干",
+"level": "b2"
+},
+{
+"word": "buter",
+"pos": "v.",
+"zh": "绊住；受阻（口语）",
+"level": "b2"
+},
+{
+"word": "butin",
+"pos": "n.m.",
+"zh": "战利品；赃物",
+"level": "b2"
+},
+{
+"word": "bâche",
+"pos": "n.f.",
+"zh": "防水布；车罩",
+"level": "b2"
+},
+{
+"word": "bâillonner",
+"pos": "v.",
+"zh": "堵嘴；钳制言论",
+"level": "b2"
+},
+{
+"word": "bâtard",
+"pos": "n.m.",
+"zh": "杂种；私生子",
+"level": "b2"
+},
+{
+"word": "bégayer",
+"pos": "v.",
+"zh": "口吃；结巴着说",
+"level": "b2"
+},
+{
+"word": "béguin",
+"pos": "n.m.",
+"zh": "迷恋；爱慕",
+"level": "b2"
+},
+{
+"word": "bénit",
+"pos": "adj.",
+"zh": "神圣的；祝圣的",
+"level": "b2"
+},
+{
+"word": "bétail",
+"pos": "n.m.",
+"zh": "牲畜（总称）",
+"level": "b2"
+},
+{
+"word": "béton",
+"pos": "n.m.",
+"zh": "混凝土",
+"level": "b2"
+},
+{
+"word": "bêtement",
+"pos": "adv.",
+"zh": "愚蠢地；呆呆地",
+"level": "b2"
+},
+{
+"word": "bûcher",
+"pos": "n.m.",
+"zh": "柴堆；火刑堆",
+"level": "b2"
+},
+{
+"word": "cabaret",
+"pos": "n.m.",
+"zh": "卡巴莱；夜总会",
+"level": "b2"
+},
+{
+"word": "cache",
+"pos": "n.",
+"zh": "藏匿处",
+"level": "b2"
+},
+{
+"word": "cachet",
+"pos": "n.m.",
+"zh": "图章；药片",
+"level": "b2"
+},
+{
+"word": "cachot",
+"pos": "n.m.",
+"zh": "地牢；禁闭室",
+"level": "b2"
+},
+{
+"word": "cadence",
+"pos": "n.f.",
+"zh": "节奏；步调",
+"level": "b2"
+},
+{
+"word": "cagoule",
+"pos": "n.f.",
+"zh": "蒙面头套；风帽",
+"level": "b2"
+},
+{
+"word": "caille",
+"pos": "n.f.",
+"zh": "鹌鹑",
+"level": "b2"
+},
+{
+"word": "caillot",
+"pos": "n.m.",
+"zh": "血块",
+"level": "b2"
+},
+{
+"word": "cal",
+"pos": "n.m.",
+"zh": "老茧",
+"level": "b2"
+},
+{
+"word": "calamité",
+"pos": "n.f.",
+"zh": "灾祸；灾难",
+"level": "b2"
+},
+{
+"word": "cale",
+"pos": "n.f.",
+"zh": "垫块；货舱",
+"level": "b2"
+},
+{
+"word": "caler",
+"pos": "v.",
+"zh": "垫稳；卡住；搁浅",
+"level": "b2"
+},
+{
+"word": "calibre",
+"pos": "n.m.",
+"zh": "口径；水准",
+"level": "b2"
+},
+{
+"word": "calife",
+"pos": "n.m.",
+"zh": "哈里发",
+"level": "b2"
+},
+{
+"word": "calmant",
+"pos": "n.m.",
+"zh": "镇静剂；止痛剂",
+"level": "b2"
+},
+{
+"word": "calmement",
+"pos": "adv.",
+"zh": "平静地；沉着地",
+"level": "b2"
+},
+{
+"word": "calomnie",
+"pos": "n.f.",
+"zh": "诽谤；中伤",
+"level": "b2"
+},
+{
+"word": "calvaire",
+"pos": "n.m.",
+"zh": "苦难；折磨",
+"level": "b2"
+},
+{
+"word": "cambrioler",
+"pos": "v.",
+"zh": "入室盗窃；抢劫",
+"level": "b2"
+},
+{
+"word": "came",
+"pos": "n.f.",
+"zh": "毒品（俚语）",
+"level": "b2"
+},
+{
+"word": "camelote",
+"pos": "n.f.",
+"zh": "劣质货；破烂货",
+"level": "b2"
+},
+{
+"word": "camoufler",
+"pos": "v.",
+"zh": "伪装；掩饰",
+"level": "b2"
+},
+{
+"word": "campement",
+"pos": "n.m.",
+"zh": "营地；露营地",
+"level": "b2"
+},
+{
+"word": "camé",
+"pos": "n.m.",
+"zh": "吸毒成瘾者（俚语）",
+"level": "b2"
+},
+{
+"word": "caméléon",
+"pos": "n.m.",
+"zh": "变色龙",
+"level": "b2"
+},
+{
+"word": "canaille",
+"pos": "n.f.",
+"zh": "无赖；流氓",
+"level": "b2"
+},
+{
+"word": "canari",
+"pos": "n.m.",
+"zh": "金丝雀",
+"level": "b2"
+},
+{
+"word": "caniche",
+"pos": "n.m.",
+"zh": "卷毛狗",
+"level": "b2"
+},
+{
+"word": "caniveau",
+"pos": "n.m.",
+"zh": "街沟；排水沟",
+"level": "b2"
+},
+{
+"word": "cannibale",
+"pos": "n.",
+"zh": "食人者；食人的",
+"level": "b2"
+},
+{
+"word": "canot",
+"pos": "n.m.",
+"zh": "小船；小艇",
+"level": "b2"
+},
+{
+"word": "cape",
+"pos": "n.f.",
+"zh": "斗篷；披风",
+"level": "b2"
+},
+{
+"word": "capital",
+"pos": "adj.",
+"zh": "至关重要的；资本的",
+"level": "b2"
+},
+{
+"word": "capot",
+"pos": "n.m.",
+"zh": "发动机罩；车盖",
+"level": "b2"
+},
+{
+"word": "capote",
+"pos": "n.f.",
+"zh": "雨衣；安全套",
+"level": "b2"
+},
+{
+"word": "caprice",
+"pos": "n.m.",
+"zh": "任性；突发奇想",
+"level": "b2"
+},
+{
+"word": "capsule",
+"pos": "n.f.",
+"zh": "瓶盖；胶囊",
+"level": "b2"
+},
+{
+"word": "capter",
+"pos": "v.",
+"zh": "接收；捕捉",
+"level": "b2"
+},
+{
+"word": "captivité",
+"pos": "n.f.",
+"zh": "囚禁；被俘",
+"level": "b2"
+},
+{
+"word": "carabine",
+"pos": "n.f.",
+"zh": "步枪；卡宾枪",
+"level": "b2"
+},
+{
+"word": "carcasse",
+"pos": "n.f.",
+"zh": "骨架；残骸",
+"level": "b2"
+},
+{
+"word": "cardinal",
+"pos": "n.m.",
+"zh": "红衣主教",
+"level": "b2"
+},
+{
+"word": "cargaison",
+"pos": "n.f.",
+"zh": "货物；载货",
+"level": "b2"
+},
+{
+"word": "carnage",
+"pos": "n.m.",
+"zh": "屠杀；残杀",
+"level": "b2"
+},
+{
+"word": "carpe",
+"pos": "n.",
+"zh": "鲤鱼",
+"level": "b2"
+},
+{
+"word": "cartouche",
+"pos": "n.",
+"zh": "弹匣；墨盒",
+"level": "b2"
+},
+{
+"word": "cascadeur",
+"pos": "n.m.",
+"zh": "特技演员",
+"level": "b2"
+},
+{
+"word": "case",
+"pos": "n.f.",
+"zh": "格子；方格",
+"level": "b2"
+},
+{
+"word": "caser",
+"pos": "v.",
+"zh": "安顿；安置（口语）",
+"level": "b2"
+},
+{
+"word": "caserne",
+"pos": "n.f.",
+"zh": "兵营；营房",
+"level": "b2"
+},
+{
+"word": "casse",
+"pos": "n.",
+"zh": "破损；报废车场",
+"level": "b2"
+},
+{
+"word": "casting",
+"pos": "n.m.",
+"zh": "选角；演员挑选",
+"level": "b2"
+},
+{
+"word": "catch",
+"pos": "n.m.",
+"zh": "（职业）摔角",
+"level": "b2"
+},
+{
+"word": "caution",
+"pos": "n.f.",
+"zh": "押金；担保",
+"level": "b2"
+},
+{
+"word": "cavale",
+"pos": "n.f.",
+"zh": "母马；逃亡",
+"level": "b2"
+},
+{
+"word": "cavaler",
+"pos": "v.",
+"zh": "骑马；飞奔（口语）",
+"level": "b2"
+},
+{
+"word": "cavalerie",
+"pos": "n.f.",
+"zh": "骑兵",
+"level": "b2"
+},
+{
+"word": "caveau",
+"pos": "n.m.",
+"zh": "地窖；墓穴",
+"level": "b2"
+},
+{
+"word": "caverne",
+"pos": "n.f.",
+"zh": "洞穴；大山洞",
+"level": "b2"
+},
+{
+"word": "cellulaire",
+"pos": "adj.",
+"zh": "细胞的",
+"level": "b2"
+},
+{
+"word": "censurer",
+"pos": "v.",
+"zh": "审查；查禁",
+"level": "b2"
+},
+{
+"word": "cerner",
+"pos": "v.",
+"zh": "包围；看清",
+"level": "b2"
+},
+{
+"word": "certifier",
+"pos": "v.",
+"zh": "证明；认证",
+"level": "b2"
+},
+{
+"word": "cervelle",
+"pos": "n.f.",
+"zh": "脑髓；脑子",
+"level": "b2"
+},
+{
+"word": "chacal",
+"pos": "n.m.",
+"zh": "豺；奸诈之徒",
+"level": "b2"
+},
+{
+"word": "chalet",
+"pos": "n.m.",
+"zh": "山间木屋",
+"level": "b2"
+}
+]

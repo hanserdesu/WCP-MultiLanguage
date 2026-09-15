@@ -1,0 +1,602 @@
+[
+{
+"word": "téléphonique",
+"pos": "adj.",
+"zh": "电话的",
+"level": "b1"
+},
+{
+"word": "téléspectateur",
+"pos": "n.m.",
+"zh": "电视观众",
+"level": "b1"
+},
+{
+"word": "téléviseur",
+"pos": "n.m.",
+"zh": "电视机",
+"level": "b1"
+},
+{
+"word": "télévisé",
+"pos": "adj.",
+"zh": "电视转播的",
+"level": "b1"
+},
+{
+"word": "témoignage",
+"pos": "n.m.",
+"zh": "证词；见证",
+"level": "b1"
+},
+{
+"word": "témoin",
+"pos": "n.m.",
+"zh": "目击者；证人",
+"level": "b1"
+},
+{
+"word": "ultime",
+"pos": "adj.",
+"zh": "最后的；终极的",
+"level": "b1"
+},
+{
+"word": "union",
+"pos": "n.f.",
+"zh": "联合；联盟；结合",
+"level": "b1"
+},
+{
+"word": "unir",
+"pos": "v.",
+"zh": "联合；使结合",
+"level": "b1"
+},
+{
+"word": "unité",
+"pos": "n.f.",
+"zh": "单位；统一；团结",
+"level": "b1"
+},
+{
+"word": "universel",
+"pos": "adj.",
+"zh": "普遍的；全世界的",
+"level": "b1"
+},
+{
+"word": "universitaire",
+"pos": "adj.",
+"zh": "大学的；高校的",
+"level": "b1"
+},
+{
+"word": "urbain",
+"pos": "adj.",
+"zh": "城市的",
+"level": "b1"
+},
+{
+"word": "urgence",
+"pos": "n.f.",
+"zh": "紧急；急诊",
+"level": "b1"
+},
+{
+"word": "usage",
+"pos": "n.m.",
+"zh": "使用；用法；惯例",
+"level": "b1"
+},
+{
+"word": "usé",
+"pos": "adj.",
+"zh": "破旧的；磨损的",
+"level": "b1"
+},
+{
+"word": "utilité",
+"pos": "n.f.",
+"zh": "用处；效用",
+"level": "b1"
+},
+{
+"word": "vaccin",
+"pos": "n.m.",
+"zh": "疫苗",
+"level": "b1"
+},
+{
+"word": "vachement",
+"pos": "adv.",
+"zh": "非常；特别（口语）",
+"level": "b1"
+},
+{
+"word": "vagabond",
+"pos": "n.m.",
+"zh": "流浪者；流浪的",
+"level": "b1"
+},
+{
+"word": "vain",
+"pos": "adj.",
+"zh": "徒劳的；白费的",
+"level": "b1"
+},
+{
+"word": "vaincre",
+"pos": "v.",
+"zh": "战胜；克服",
+"level": "b1"
+},
+{
+"word": "vainqueur",
+"pos": "n.m.",
+"zh": "胜利者；获胜者",
+"level": "b1"
+},
+{
+"word": "vaisseau",
+"pos": "n.m.",
+"zh": "船；舰；飞船",
+"level": "b1"
+},
+{
+"word": "valable",
+"pos": "adj.",
+"zh": "有效的；有根据的",
+"level": "b1"
+},
+{
+"word": "valeur",
+"pos": "n.f.",
+"zh": "价值",
+"level": "b1"
+},
+{
+"word": "valide",
+"pos": "adj.",
+"zh": "有效的",
+"level": "b1"
+},
+{
+"word": "valse",
+"pos": "n.f.",
+"zh": "华尔兹",
+"level": "b1"
+},
+{
+"word": "varier",
+"pos": "v.",
+"zh": "变化；使多样化",
+"level": "b1"
+},
+{
+"word": "variété",
+"pos": "n.f.",
+"zh": "品种；多样性",
+"level": "b1"
+},
+{
+"word": "vaste",
+"pos": "adj.",
+"zh": "广阔的；宽敞的",
+"level": "b1"
+},
+{
+"word": "veille",
+"pos": "n.f.",
+"zh": "前夜；前一天",
+"level": "b1"
+},
+{
+"word": "veiller",
+"pos": "v.",
+"zh": "熬夜；守候",
+"level": "b1"
+},
+{
+"word": "vengeance",
+"pos": "n.f.",
+"zh": "报仇；复仇",
+"level": "b1"
+},
+{
+"word": "venger",
+"pos": "v.",
+"zh": "报仇；为…报仇",
+"level": "b1"
+},
+{
+"word": "verdict",
+"pos": "n.m.",
+"zh": "判决；定论",
+"level": "b1"
+},
+{
+"word": "vernis",
+"pos": "n.m.",
+"zh": "清漆；指甲油",
+"level": "b1"
+},
+{
+"word": "versement",
+"pos": "n.m.",
+"zh": "缴款；支付",
+"level": "b1"
+},
+{
+"word": "verser",
+"pos": "v.",
+"zh": "倒入；缴纳",
+"level": "b1"
+},
+{
+"word": "vestiaire",
+"pos": "n.m.",
+"zh": "衣帽间；更衣室",
+"level": "b1"
+},
+{
+"word": "vexer",
+"pos": "v.",
+"zh": "得罪；使恼火",
+"level": "b1"
+},
+{
+"word": "via",
+"pos": "prép.",
+"zh": "经由；通过",
+"level": "b1"
+},
+{
+"word": "vibration",
+"pos": "n.f.",
+"zh": "振动；震动",
+"level": "b1"
+},
+{
+"word": "vice",
+"pos": "n.m.",
+"zh": "恶习；缺点",
+"level": "b1"
+},
+{
+"word": "vice-président",
+"pos": "n.m.",
+"zh": "副总统；副主席",
+"level": "b1"
+},
+{
+"word": "victime",
+"pos": "n.f.",
+"zh": "受害者；牺牲品",
+"level": "b1"
+},
+{
+"word": "victorieux",
+"pos": "adj.",
+"zh": "胜利的；获胜的",
+"level": "b1"
+},
+{
+"word": "vierge",
+"pos": "adj.",
+"zh": "处女的；未开发的",
+"level": "b1"
+},
+{
+"word": "vif",
+"pos": "adj.",
+"zh": "活泼的；鲜艳的；敏锐的",
+"level": "b1"
+},
+{
+"word": "vigile",
+"pos": "n.",
+"zh": "保安；警卫",
+"level": "b1"
+},
+{
+"word": "vigueur",
+"pos": "n.f.",
+"zh": "活力；（法律）效力",
+"level": "b1"
+},
+{
+"word": "vilain",
+"pos": "adj.",
+"zh": "丑的；淘气的；坏的",
+"level": "b1"
+},
+{
+"word": "villageois",
+"pos": "n.m.",
+"zh": "村民",
+"level": "b1"
+},
+{
+"word": "vingtaine",
+"pos": "n.f.",
+"zh": "二十来个",
+"level": "b1"
+},
+{
+"word": "viol",
+"pos": "n.m.",
+"zh": "强奸",
+"level": "b1"
+},
+{
+"word": "violemment",
+"pos": "adv.",
+"zh": "猛烈地；激烈地",
+"level": "b1"
+},
+{
+"word": "violer",
+"pos": "v.",
+"zh": "强奸；违反",
+"level": "b1"
+},
+{
+"word": "violoniste",
+"pos": "n.",
+"zh": "小提琴手",
+"level": "b1"
+},
+{
+"word": "virer",
+"pos": "v.",
+"zh": "转弯；解雇；转账",
+"level": "b1"
+},
+{
+"word": "virgule",
+"pos": "n.f.",
+"zh": "逗号",
+"level": "b1"
+},
+{
+"word": "virtuel",
+"pos": "adj.",
+"zh": "虚拟的；实际上的",
+"level": "b1"
+},
+{
+"word": "visa",
+"pos": "n.m.",
+"zh": "签证",
+"level": "b1"
+},
+{
+"word": "viser",
+"pos": "v.",
+"zh": "瞄准；以…为目标",
+"level": "b1"
+},
+{
+"word": "visible",
+"pos": "adj.",
+"zh": "看得见的；明显的",
+"level": "b1"
+},
+{
+"word": "vision",
+"pos": "n.f.",
+"zh": "视力；视野；观念",
+"level": "b1"
+},
+{
+"word": "vivement",
+"pos": "adv.",
+"zh": "迫切地；强烈地",
+"level": "b1"
+},
+{
+"word": "voeu",
+"pos": "n.m.",
+"zh": "愿望；誓愿",
+"level": "b1"
+},
+{
+"word": "voie",
+"pos": "n.f.",
+"zh": "道路；途径；车道",
+"level": "b1"
+},
+{
+"word": "voile",
+"pos": "n.",
+"zh": "面纱；帆",
+"level": "b1"
+},
+{
+"word": "volaille",
+"pos": "n.f.",
+"zh": "家禽；禽肉",
+"level": "b1"
+},
+{
+"word": "volet",
+"pos": "n.m.",
+"zh": "百叶窗；（事务的）方面",
+"level": "b1"
+},
+{
+"word": "volontaire",
+"pos": "adj.",
+"zh": "自愿的；志愿者",
+"level": "b1"
+},
+{
+"word": "volontairement",
+"pos": "adv.",
+"zh": "故意地；自愿地",
+"level": "b1"
+},
+{
+"word": "volume",
+"pos": "n.m.",
+"zh": "体积；音量；卷",
+"level": "b1"
+},
+{
+"word": "vomi",
+"pos": "n.m.",
+"zh": "呕吐物（口语）",
+"level": "b1"
+},
+{
+"word": "vote",
+"pos": "n.m.",
+"zh": "投票；表决",
+"level": "b1"
+},
+{
+"word": "voyant",
+"pos": "n.m.",
+"zh": "占卜师；指示灯",
+"level": "b1"
+},
+{
+"word": "vu",
+"pos": "adj.",
+"zh": "鉴于；已看过的",
+"level": "b1"
+},
+{
+"word": "vue",
+"pos": "n.f.",
+"zh": "视力；景色；看法",
+"level": "b1"
+},
+{
+"word": "vulgaire",
+"pos": "adj.",
+"zh": "粗俗的；庸俗的",
+"level": "b1"
+},
+{
+"word": "véhicule",
+"pos": "n.m.",
+"zh": "车辆；交通工具",
+"level": "b1"
+},
+{
+"word": "vérification",
+"pos": "n.f.",
+"zh": "核实；检查",
+"level": "b1"
+},
+{
+"word": "vétéran",
+"pos": "n.m.",
+"zh": "老兵；老手",
+"level": "b1"
+},
+{
+"word": "yen",
+"pos": "n.m.",
+"zh": "日元",
+"level": "b1"
+},
+{
+"word": "zapper",
+"pos": "v.",
+"zh": "换台；跳过",
+"level": "b1"
+},
+{
+"word": "zombie",
+"pos": "n.m.",
+"zh": "僵尸",
+"level": "b1"
+},
+{
+"word": "zoom",
+"pos": "n.m.",
+"zh": "变焦；放大",
+"level": "b1"
+},
+{
+"word": "à l'improviste",
+"pos": "adv.",
+"zh": "突然地；出其不意地",
+"level": "b1"
+},
+{
+"word": "ère",
+"pos": "n.f.",
+"zh": "时代；纪元",
+"level": "b1"
+},
+{
+"word": "écart",
+"pos": "n.m.",
+"zh": "差距；间隔",
+"level": "b1"
+},
+{
+"word": "écarter",
+"pos": "v.",
+"zh": "分开；排除",
+"level": "b1"
+},
+{
+"word": "échapper",
+"pos": "v.",
+"zh": "逃脱；逃离",
+"level": "b1"
+},
+{
+"word": "échec",
+"pos": "n.m.",
+"zh": "失败；挫折",
+"level": "b1"
+},
+{
+"word": "échouer",
+"pos": "v.",
+"zh": "失败；搁浅",
+"level": "b1"
+},
+{
+"word": "éclairage",
+"pos": "n.m.",
+"zh": "照明；灯光",
+"level": "b1"
+},
+{
+"word": "éclairer",
+"pos": "v.",
+"zh": "照亮；启发",
+"level": "b1"
+},
+{
+"word": "économie",
+"pos": "n.f.",
+"zh": "经济；节省",
+"level": "b1"
+},
+{
+"word": "écraser",
+"pos": "v.",
+"zh": "压碎；碾过；压扁",
+"level": "b1"
+},
+{
+"word": "écrit",
+"pos": "n.m.",
+"zh": "书面文字；作品",
+"level": "b1"
+},
+{
+"word": "écriture",
+"pos": "n.f.",
+"zh": "书写；笔迹；写作",
+"level": "b1"
+}
+]

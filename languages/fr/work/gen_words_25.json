@@ -1,0 +1,602 @@
+[
+{
+"word": "tournevis",
+"pos": "n.m.",
+"zh": "螺丝刀",
+"level": "a2"
+},
+{
+"word": "tracteur",
+"pos": "n.m.",
+"zh": "拖拉机",
+"level": "a2"
+},
+{
+"word": "tradition",
+"pos": "n.f.",
+"zh": "传统",
+"level": "a2"
+},
+{
+"word": "traduire",
+"pos": "v.",
+"zh": "翻译",
+"level": "a2"
+},
+{
+"word": "trafic",
+"pos": "n.m.",
+"zh": "交通；非法交易",
+"level": "a2"
+},
+{
+"word": "tram",
+"pos": "n.m.",
+"zh": "有轨电车",
+"level": "a2"
+},
+{
+"word": "tranquille",
+"pos": "adj.",
+"zh": "安静的；平静的",
+"level": "a2"
+},
+{
+"word": "tranquillement",
+"pos": "adv.",
+"zh": "平静地；安心地",
+"level": "a2"
+},
+{
+"word": "transport",
+"pos": "n.m.",
+"zh": "运输；交通",
+"level": "a2"
+},
+{
+"word": "transporter",
+"pos": "v.",
+"zh": "运输；运送；使感动",
+"level": "a2"
+},
+{
+"word": "travailleur",
+"pos": "n.m.",
+"zh": "劳动者；工人",
+"level": "a2"
+},
+{
+"word": "traverser",
+"pos": "v.",
+"zh": "穿过；横穿",
+"level": "a2"
+},
+{
+"word": "traîneau",
+"pos": "n.m.",
+"zh": "雪橇",
+"level": "a2"
+},
+{
+"word": "tremblement",
+"pos": "n.m.",
+"zh": "颤抖；地震",
+"level": "a2"
+},
+{
+"word": "trembler",
+"pos": "v.",
+"zh": "发抖；颤抖",
+"level": "a2"
+},
+{
+"word": "trempé",
+"pos": "adj.",
+"zh": "湿透的",
+"level": "a2"
+},
+{
+"word": "triangle",
+"pos": "n.m.",
+"zh": "三角形",
+"level": "a2"
+},
+{
+"word": "tricheur",
+"pos": "n.m.",
+"zh": "作弊者；骗子",
+"level": "a2"
+},
+{
+"word": "trimestre",
+"pos": "n.m.",
+"zh": "学期；季度",
+"level": "a2"
+},
+{
+"word": "trinquer",
+"pos": "v.",
+"zh": "碰杯",
+"level": "a2"
+},
+{
+"word": "tromper",
+"pos": "v.",
+"zh": "欺骗；使上当",
+"level": "a2"
+},
+{
+"word": "trompette",
+"pos": "n.",
+"zh": "小号；喇叭",
+"level": "a2"
+},
+{
+"word": "trottoir",
+"pos": "n.m.",
+"zh": "人行道",
+"level": "a2"
+},
+{
+"word": "trou",
+"pos": "n.m.",
+"zh": "洞；孔；破洞",
+"level": "a2"
+},
+{
+"word": "trousse",
+"pos": "n.f.",
+"zh": "铅笔盒；化妆包",
+"level": "a2"
+},
+{
+"word": "truc",
+"pos": "n.m.",
+"zh": "东西；玩意儿（口语）",
+"level": "a2"
+},
+{
+"word": "trésor",
+"pos": "n.m.",
+"zh": "珍宝；宝物",
+"level": "a2"
+},
+{
+"word": "tuer",
+"pos": "v.",
+"zh": "杀；杀死",
+"level": "a2"
+},
+{
+"word": "tulipe",
+"pos": "n.f.",
+"zh": "郁金香",
+"level": "a2"
+},
+{
+"word": "tunnel",
+"pos": "n.m.",
+"zh": "隧道",
+"level": "a2"
+},
+{
+"word": "turc",
+"pos": "adj.",
+"zh": "土耳其的；土耳其人",
+"level": "a2"
+},
+{
+"word": "type",
+"pos": "n.m.",
+"zh": "类型；家伙（口语）",
+"level": "a2"
+},
+{
+"word": "tâche",
+"pos": "n.f.",
+"zh": "任务；工作",
+"level": "a2"
+},
+{
+"word": "télescope",
+"pos": "n.m.",
+"zh": "望远镜",
+"level": "a2"
+},
+{
+"word": "télécharger",
+"pos": "v.",
+"zh": "下载",
+"level": "a2"
+},
+{
+"word": "télécommande",
+"pos": "n.f.",
+"zh": "遥控器",
+"level": "a2"
+},
+{
+"word": "uniforme",
+"pos": "n.m.",
+"zh": "制服",
+"level": "a2"
+},
+{
+"word": "unique",
+"pos": "adj.",
+"zh": "唯一的；独特的",
+"level": "a2"
+},
+{
+"word": "uniquement",
+"pos": "adv.",
+"zh": "仅仅；只",
+"level": "a2"
+},
+{
+"word": "univers",
+"pos": "n.m.",
+"zh": "宇宙；世界",
+"level": "a2"
+},
+{
+"word": "urgent",
+"pos": "adj.",
+"zh": "紧急的",
+"level": "a2"
+},
+{
+"word": "usine",
+"pos": "n.f.",
+"zh": "工厂",
+"level": "a2"
+},
+{
+"word": "utile",
+"pos": "adj.",
+"zh": "有用的",
+"level": "a2"
+},
+{
+"word": "utilisation",
+"pos": "n.f.",
+"zh": "使用；利用",
+"level": "a2"
+},
+{
+"word": "utiliser",
+"pos": "v.",
+"zh": "使用；利用",
+"level": "a2"
+},
+{
+"word": "vacance",
+"pos": "n.f.",
+"zh": "空缺；假期（常用复数）",
+"level": "a2"
+},
+{
+"word": "vache",
+"pos": "n.f.",
+"zh": "母牛；奶牛",
+"level": "a2"
+},
+{
+"word": "vague",
+"pos": "n.",
+"zh": "波浪；海浪",
+"level": "a2"
+},
+{
+"word": "valise",
+"pos": "n.f.",
+"zh": "手提箱；行李箱",
+"level": "a2"
+},
+{
+"word": "vallée",
+"pos": "n.f.",
+"zh": "山谷",
+"level": "a2"
+},
+{
+"word": "valoir",
+"pos": "v.",
+"zh": "值；值得",
+"level": "a2"
+},
+{
+"word": "vampire",
+"pos": "n.m.",
+"zh": "吸血鬼",
+"level": "a2"
+},
+{
+"word": "van",
+"pos": "n.m.",
+"zh": "厢式货车；露营车",
+"level": "a2"
+},
+{
+"word": "vanille",
+"pos": "n.f.",
+"zh": "香草",
+"level": "a2"
+},
+{
+"word": "vapeur",
+"pos": "n.",
+"zh": "蒸汽",
+"level": "a2"
+},
+{
+"word": "vase",
+"pos": "n.",
+"zh": "花瓶",
+"level": "a2"
+},
+{
+"word": "veau",
+"pos": "n.m.",
+"zh": "小牛；小牛肉",
+"level": "a2"
+},
+{
+"word": "veine",
+"pos": "n.f.",
+"zh": "静脉；运气",
+"level": "a2"
+},
+{
+"word": "vendeur",
+"pos": "n.m.",
+"zh": "售货员",
+"level": "a2"
+},
+{
+"word": "vent",
+"pos": "n.m.",
+"zh": "风；气流",
+"level": "a2"
+},
+{
+"word": "vente",
+"pos": "n.f.",
+"zh": "销售；出售",
+"level": "a2"
+},
+{
+"word": "ventilateur",
+"pos": "n.m.",
+"zh": "风扇；电扇",
+"level": "a2"
+},
+{
+"word": "ventre",
+"pos": "n.m.",
+"zh": "肚子；腹部",
+"level": "a2"
+},
+{
+"word": "ver",
+"pos": "n.m.",
+"zh": "虫；蠕虫",
+"level": "a2"
+},
+{
+"word": "verrouiller",
+"pos": "v.",
+"zh": "锁上；锁定",
+"level": "a2"
+},
+{
+"word": "vers",
+"pos": "prép.",
+"zh": "朝；向；大约",
+"level": "a2"
+},
+{
+"word": "version",
+"pos": "n.f.",
+"zh": "版本；译本",
+"level": "a2"
+},
+{
+"word": "victoire",
+"pos": "n.f.",
+"zh": "胜利",
+"level": "a2"
+},
+{
+"word": "vide",
+"pos": "adj.",
+"zh": "空的",
+"level": "a2"
+},
+{
+"word": "vider",
+"pos": "v.",
+"zh": "倒空；清空",
+"level": "a2"
+},
+{
+"word": "vieillard",
+"pos": "n.m.",
+"zh": "老人；老者",
+"level": "a2"
+},
+{
+"word": "vieillir",
+"pos": "v.",
+"zh": "变老；老化",
+"level": "a2"
+},
+{
+"word": "villa",
+"pos": "n.f.",
+"zh": "别墅",
+"level": "a2"
+},
+{
+"word": "vin",
+"pos": "n.m.",
+"zh": "葡萄酒；酒",
+"level": "a2"
+},
+{
+"word": "vinaigre",
+"pos": "n.m.",
+"zh": "醋",
+"level": "a2"
+},
+{
+"word": "violence",
+"pos": "n.f.",
+"zh": "暴力",
+"level": "a2"
+},
+{
+"word": "violent",
+"pos": "adj.",
+"zh": "暴力的；猛烈的",
+"level": "a2"
+},
+{
+"word": "violet",
+"pos": "adj.",
+"zh": "紫色的",
+"level": "a2"
+},
+{
+"word": "violon",
+"pos": "n.m.",
+"zh": "小提琴",
+"level": "a2"
+},
+{
+"word": "virus",
+"pos": "n.m.",
+"zh": "病毒",
+"level": "a2"
+},
+{
+"word": "visite",
+"pos": "n.f.",
+"zh": "拜访；参观",
+"level": "a2"
+},
+{
+"word": "visiteur",
+"pos": "n.m.",
+"zh": "访客；参观者",
+"level": "a2"
+},
+{
+"word": "vitamine",
+"pos": "n.f.",
+"zh": "维生素",
+"level": "a2"
+},
+{
+"word": "vitesse",
+"pos": "n.f.",
+"zh": "速度",
+"level": "a2"
+},
+{
+"word": "vitre",
+"pos": "n.f.",
+"zh": "窗玻璃；玻璃",
+"level": "a2"
+},
+{
+"word": "vivant",
+"pos": "adj.",
+"zh": "活着的",
+"level": "a2"
+},
+{
+"word": "vive",
+"pos": "interj.",
+"zh": "万岁（欢呼用语）",
+"level": "a2"
+},
+{
+"word": "vodka",
+"pos": "n.f.",
+"zh": "伏特加",
+"level": "a2"
+},
+{
+"word": "voisin",
+"pos": "n.m.",
+"zh": "邻居；邻近的",
+"level": "a2"
+},
+{
+"word": "vol",
+"pos": "n.m.",
+"zh": "航班；飞行；盗窃",
+"level": "a2"
+},
+{
+"word": "volant",
+"pos": "n.m.",
+"zh": "方向盘；羽毛球",
+"level": "a2"
+},
+{
+"word": "volcan",
+"pos": "n.m.",
+"zh": "火山",
+"level": "a2"
+},
+{
+"word": "voler",
+"pos": "v.",
+"zh": "飞；飞行；偷",
+"level": "a2"
+},
+{
+"word": "voleur",
+"pos": "n.m.",
+"zh": "小偷",
+"level": "a2"
+},
+{
+"word": "volontiers",
+"pos": "adv.",
+"zh": "乐意地；自愿地",
+"level": "a2"
+},
+{
+"word": "volonté",
+"pos": "n.f.",
+"zh": "意志；意愿",
+"level": "a2"
+},
+{
+"word": "volé",
+"pos": "adj.",
+"zh": "被偷的",
+"level": "a2"
+},
+{
+"word": "vomir",
+"pos": "v.",
+"zh": "呕吐",
+"level": "a2"
+},
+{
+"word": "voter",
+"pos": "v.",
+"zh": "投票；表决",
+"level": "a2"
+},
+{
+"word": "vous-même",
+"pos": "pron.",
+"zh": "您自己；你们自己",
+"level": "a2"
+}
+]

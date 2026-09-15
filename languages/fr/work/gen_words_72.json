@@ -1,0 +1,602 @@
+[
+{
+"word": "parachutiste",
+"pos": "n.",
+"zh": "伞兵；跳伞者",
+"level": "b2"
+},
+{
+"word": "parade",
+"pos": "n.f.",
+"zh": "阅兵；检阅；炫耀",
+"level": "b2"
+},
+{
+"word": "paralyser",
+"pos": "v.",
+"zh": "使瘫痪；使停摆",
+"level": "b2"
+},
+{
+"word": "paralysie",
+"pos": "n.f.",
+"zh": "瘫痪；麻痹",
+"level": "b2"
+},
+{
+"word": "paranoïaque",
+"pos": "adj.",
+"zh": "偏执的；多疑的",
+"level": "b2"
+},
+{
+"word": "parcelle",
+"pos": "n.f.",
+"zh": "小块；一小块地",
+"level": "b2"
+},
+{
+"word": "parchemin",
+"pos": "n.m.",
+"zh": "羊皮纸",
+"level": "b2"
+},
+{
+"word": "parer",
+"pos": "v.",
+"zh": "挡开；应对",
+"level": "b2"
+},
+{
+"word": "parfaire",
+"pos": "v.",
+"zh": "使完善；使完美",
+"level": "b2"
+},
+{
+"word": "parlant",
+"pos": "adj.",
+"zh": "会说话的；传神的",
+"level": "b2"
+},
+{
+"word": "paroi",
+"pos": "n.f.",
+"zh": "壁；岩壁",
+"level": "b2"
+},
+{
+"word": "paroisse",
+"pos": "n.f.",
+"zh": "教区",
+"level": "b2"
+},
+{
+"word": "partant",
+"pos": "adj.",
+"zh": "愿意参加的；准备出发的",
+"level": "b2"
+},
+{
+"word": "parterre",
+"pos": "n.m.",
+"zh": "花坛；（剧院）正厅",
+"level": "b2"
+},
+{
+"word": "particule",
+"pos": "n.f.",
+"zh": "粒子；小品词",
+"level": "b2"
+},
+{
+"word": "partisan",
+"pos": "n.m.",
+"zh": "拥护者；支持者",
+"level": "b2"
+},
+{
+"word": "partition",
+"pos": "n.f.",
+"zh": "乐谱；分割",
+"level": "b2"
+},
+{
+"word": "parvenir",
+"pos": "v.",
+"zh": "达到；抵达",
+"level": "b2"
+},
+{
+"word": "passerelle",
+"pos": "n.f.",
+"zh": "人行天桥；跳板",
+"level": "b2"
+},
+{
+"word": "passeur",
+"pos": "n.m.",
+"zh": "偷渡者；摆渡人",
+"level": "b2"
+},
+{
+"word": "pasteur",
+"pos": "n.m.",
+"zh": "牧师",
+"level": "b2"
+},
+{
+"word": "paternel",
+"pos": "adj.",
+"zh": "父亲的；父系的",
+"level": "b2"
+},
+{
+"word": "pathétique",
+"pos": "adj.",
+"zh": "悲惨的；可怜的",
+"level": "b2"
+},
+{
+"word": "patrouiller",
+"pos": "v.",
+"zh": "巡逻",
+"level": "b2"
+},
+{
+"word": "paume",
+"pos": "n.f.",
+"zh": "手掌",
+"level": "b2"
+},
+{
+"word": "paumer",
+"pos": "v.",
+"zh": "输光；搞砸（俚语）",
+"level": "b2"
+},
+{
+"word": "paumé",
+"pos": "adj.",
+"zh": "茫然无措的（口语）",
+"level": "b2"
+},
+{
+"word": "paupière",
+"pos": "n.f.",
+"zh": "眼睑",
+"level": "b2"
+},
+{
+"word": "pavillon",
+"pos": "n.m.",
+"zh": "凉亭；馆；旗帜",
+"level": "b2"
+},
+{
+"word": "pavé",
+"pos": "n.m.",
+"zh": "铺路石；厚书（口语）",
+"level": "b2"
+},
+{
+"word": "païen",
+"pos": "n.m.",
+"zh": "异教的；异教徒",
+"level": "b2"
+},
+{
+"word": "peignoir",
+"pos": "n.m.",
+"zh": "浴袍",
+"level": "b2"
+},
+{
+"word": "peinard",
+"pos": "adj.",
+"zh": "清闲自在的（口语）",
+"level": "b2"
+},
+{
+"word": "pellicule",
+"pos": "n.f.",
+"zh": "胶卷；薄膜",
+"level": "b2"
+},
+{
+"word": "peloton",
+"pos": "n.m.",
+"zh": "线团；小队",
+"level": "b2"
+},
+{
+"word": "penchant",
+"pos": "n.m.",
+"zh": "倾向；爱好",
+"level": "b2"
+},
+{
+"word": "pendu",
+"pos": "adj.",
+"zh": "被绞死的；上吊的",
+"level": "b2"
+},
+{
+"word": "pensionnaire",
+"pos": "n.",
+"zh": "寄宿者；收容者",
+"level": "b2"
+},
+{
+"word": "people",
+"pos": "adj.",
+"zh": "名人的；八卦的",
+"level": "b2"
+},
+{
+"word": "percevoir",
+"pos": "v.",
+"zh": "感知；征收",
+"level": "b2"
+},
+{
+"word": "perche",
+"pos": "n.f.",
+"zh": "鲈鱼；长竿",
+"level": "b2"
+},
+{
+"word": "percher",
+"pos": "v.",
+"zh": "栖息；坐落高处",
+"level": "b2"
+},
+{
+"word": "percuter",
+"pos": "v.",
+"zh": "撞上；领悟（口语）",
+"level": "b2"
+},
+{
+"word": "perdant",
+"pos": "n.m.",
+"zh": "输家；失败者",
+"level": "b2"
+},
+{
+"word": "perdrix",
+"pos": "n.f.",
+"zh": "山鹑；鹧鸪",
+"level": "b2"
+},
+{
+"word": "perfectionner",
+"pos": "v.",
+"zh": "使完善；进修",
+"level": "b2"
+},
+{
+"word": "perfide",
+"pos": "adj.",
+"zh": "阴险的；背信弃义的",
+"level": "b2"
+},
+{
+"word": "permanence",
+"pos": "n.f.",
+"zh": "值班；常设",
+"level": "b2"
+},
+{
+"word": "perplexe",
+"pos": "adj.",
+"zh": "困惑的；茫然的",
+"level": "b2"
+},
+{
+"word": "perpétuel",
+"pos": "adj.",
+"zh": "永久的；无休止的",
+"level": "b2"
+},
+{
+"word": "perpétuer",
+"pos": "v.",
+"zh": "使永久延续",
+"level": "b2"
+},
+{
+"word": "perpétuité",
+"pos": "n.f.",
+"zh": "无期徒刑；终身",
+"level": "b2"
+},
+{
+"word": "perquisition",
+"pos": "n.f.",
+"zh": "搜查；抄查",
+"level": "b2"
+},
+{
+"word": "perruque",
+"pos": "n.f.",
+"zh": "假发",
+"level": "b2"
+},
+{
+"word": "persister",
+"pos": "v.",
+"zh": "坚持；持续",
+"level": "b2"
+},
+{
+"word": "perso",
+"pos": "adj.",
+"zh": "个人的（口语）",
+"level": "b2"
+},
+{
+"word": "perspicace",
+"pos": "adj.",
+"zh": "敏锐的；有洞察力的",
+"level": "b2"
+},
+{
+"word": "persécuter",
+"pos": "v.",
+"zh": "迫害；不断折磨",
+"level": "b2"
+},
+{
+"word": "persécution",
+"pos": "n.f.",
+"zh": "迫害；烦扰",
+"level": "b2"
+},
+{
+"word": "perturbé",
+"pos": "adj.",
+"zh": "被扰乱的；紊乱的",
+"level": "b2"
+},
+{
+"word": "perversion",
+"pos": "n.f.",
+"zh": "变态；反常",
+"level": "b2"
+},
+{
+"word": "pesant",
+"pos": "adj.",
+"zh": "沉重的；累赘的",
+"level": "b2"
+},
+{
+"word": "pet",
+"pos": "n.m.",
+"zh": "屁",
+"level": "b2"
+},
+{
+"word": "peupler",
+"pos": "v.",
+"zh": "居住于；聚居于",
+"level": "b2"
+},
+{
+"word": "pharaon",
+"pos": "n.m.",
+"zh": "法老",
+"level": "b2"
+},
+{
+"word": "pharmaceutique",
+"pos": "adj.",
+"zh": "制药的",
+"level": "b2"
+},
+{
+"word": "phobie",
+"pos": "n.f.",
+"zh": "恐惧症；极度厌恶",
+"level": "b2"
+},
+{
+"word": "piaule",
+"pos": "n.f.",
+"zh": "房间；住处（口语）",
+"level": "b2"
+},
+{
+"word": "pic",
+"pos": "n.m.",
+"zh": "顶峰；山峰；尖突",
+"level": "b2"
+},
+{
+"word": "picoler",
+"pos": "v.",
+"zh": "贪杯；灌酒（口语）",
+"level": "b2"
+},
+{
+"word": "pieu",
+"pos": "n.m.",
+"zh": "桩；木桩",
+"level": "b2"
+},
+{
+"word": "pieux",
+"pos": "adj.",
+"zh": "虔诚的",
+"level": "b2"
+},
+{
+"word": "pignon",
+"pos": "n.m.",
+"zh": "山墙；小齿轮",
+"level": "b2"
+},
+{
+"word": "piler",
+"pos": "v.",
+"zh": "捣碎；碾碎",
+"level": "b2"
+},
+{
+"word": "pilier",
+"pos": "n.m.",
+"zh": "柱子；顶梁柱",
+"level": "b2"
+},
+{
+"word": "piller",
+"pos": "v.",
+"zh": "掠夺；洗劫",
+"level": "b2"
+},
+{
+"word": "pilotage",
+"pos": "n.m.",
+"zh": "驾驶；操纵",
+"level": "b2"
+},
+{
+"word": "pince",
+"pos": "n.f.",
+"zh": "钳子；夹子",
+"level": "b2"
+},
+{
+"word": "pioche",
+"pos": "n.f.",
+"zh": "镐；镐头",
+"level": "b2"
+},
+{
+"word": "pion",
+"pos": "n.m.",
+"zh": "（棋）兵卒；学监",
+"level": "b2"
+},
+{
+"word": "pique",
+"pos": "n.",
+"zh": "长矛；黑桃；刺",
+"level": "b2"
+},
+{
+"word": "piquet",
+"pos": "n.m.",
+"zh": "木桩；岗哨；纠察线",
+"level": "b2"
+},
+{
+"word": "pisse",
+"pos": "n.f.",
+"zh": "尿（粗俗）",
+"level": "b2"
+},
+{
+"word": "piston",
+"pos": "n.m.",
+"zh": "活塞；门路",
+"level": "b2"
+},
+{
+"word": "pitoyable",
+"pos": "adj.",
+"zh": "可怜的；可鄙的",
+"level": "b2"
+},
+{
+"word": "piètre",
+"pos": "adj.",
+"zh": "低劣的；蹩脚的",
+"level": "b2"
+},
+{
+"word": "piéger",
+"pos": "v.",
+"zh": "设陷阱捕捉；困住",
+"level": "b2"
+},
+{
+"word": "piétiner",
+"pos": "v.",
+"zh": "踩踏；原地踏步",
+"level": "b2"
+},
+{
+"word": "placement",
+"pos": "n.m.",
+"zh": "投资；安置",
+"level": "b2"
+},
+{
+"word": "plaider",
+"pos": "v.",
+"zh": "辩护；申辩",
+"level": "b2"
+},
+{
+"word": "plaisant",
+"pos": "adj.",
+"zh": "令人愉快的",
+"level": "b2"
+},
+{
+"word": "planque",
+"pos": "n.f.",
+"zh": "藏身处（口语）",
+"level": "b2"
+},
+{
+"word": "planétaire",
+"pos": "adj.",
+"zh": "行星的；全球的",
+"level": "b2"
+},
+{
+"word": "plaquer",
+"pos": "v.",
+"zh": "贴紧；猛然抛弃",
+"level": "b2"
+},
+{
+"word": "plasma",
+"pos": "n.m.",
+"zh": "血浆；等离子体",
+"level": "b2"
+},
+{
+"word": "plausible",
+"pos": "adj.",
+"zh": "似乎可信的",
+"level": "b2"
+},
+{
+"word": "pleurnicher",
+"pos": "v.",
+"zh": "哭哭啼啼；爱抱怨",
+"level": "b2"
+},
+{
+"word": "plomberie",
+"pos": "n.f.",
+"zh": "管道工程；管件",
+"level": "b2"
+},
+{
+"word": "plonge",
+"pos": "n.f.",
+"zh": "洗碗池（口语）",
+"level": "b2"
+},
+{
+"word": "plongeon",
+"pos": "n.m.",
+"zh": "跳水；猛冲",
+"level": "b2"
+}
+]

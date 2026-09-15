@@ -1,0 +1,19 @@
+2026-09-12 22:52:38 waiting for the game (wcp) to exit
+2026-09-12 22:52:47 copy attempt 1 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:52:52 copy attempt 2 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:52:57 copy attempt 3 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:53:02 copy attempt 4 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:53:07 copy attempt 5 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:53:12 copy attempt 6 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:53:17 copy attempt 7 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:53:22 copy attempt 8 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:53:27 copy attempt 9 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:53:32 copy attempt 10 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:53:37 copy attempt 11 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:53:42 copy attempt 12 failed: 无法将“Get-FileHash”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。
+2026-09-12 22:53:47 FAILED: could not replace the plugin dll
+---- final outcome ----
+2026-09-12 22:53:36 deployed directly by mod_jp_wordlist/build.cmd (the game had already exited).
+src == dst sha256 = 6D982BD09485C7D962321B02BA29E85ED724FD3827B887437E1042C5ED2B83E0
+The watcher above did run on game exit, but its hash check used Get-FileHash, which was
+not resolvable in the hidden shell, so it reported FAILED after copying.

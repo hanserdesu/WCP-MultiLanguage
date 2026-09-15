@@ -1,0 +1,930 @@
+[
+ {
+  "theme": "medical",
+  "word": "粥腫",
+  "reading": "しゅくしゅ",
+  "meaning_en": "atheroma",
+  "pos_en": "n",
+  "meaning_zh_now": "动脉粥样硬化"
+ },
+ {
+  "theme": "medical",
+  "word": "鎖肛",
+  "reading": "さこう",
+  "meaning_en": "imperforate anus",
+  "pos_en": "n",
+  "meaning_zh_now": "肛门闭锁"
+ },
+ {
+  "theme": "medical",
+  "word": "導尿",
+  "reading": "どうにょう",
+  "meaning_en": "urethral catheterization (catheterisation)",
+  "pos_en": "n,vs,vi",
+  "meaning_zh_now": "导尿术（导尿术）"
+ },
+ {
+  "theme": "medical",
+  "word": "尿閉",
+  "reading": "にょうへい",
+  "meaning_en": "urinary retention",
+  "pos_en": "n",
+  "meaning_zh_now": "尿潴留"
+ },
+ {
+  "theme": "medical",
+  "word": "器質",
+  "reading": "きしつ",
+  "meaning_en": "organ property",
+  "pos_en": "n",
+  "meaning_zh_now": "器官属性"
+ },
+ {
+  "theme": "medical",
+  "word": "消炎",
+  "reading": "しょうえん",
+  "meaning_en": "anti-inflammatory (substance)",
+  "pos_en": "n,adj-f",
+  "meaning_zh_now": "抗炎（物质）"
+ },
+ {
+  "theme": "medical",
+  "word": "遠位",
+  "reading": "えんい",
+  "meaning_en": "distal",
+  "pos_en": "adj-no,n",
+  "meaning_zh_now": "远端"
+ },
+ {
+  "theme": "medical",
+  "word": "肘頭",
+  "reading": "ひじがしら",
+  "meaning_en": "olecranon",
+  "pos_en": "n",
+  "meaning_zh_now": "鹰嘴"
+ },
+ {
+  "theme": "medical",
+  "word": "滑膜",
+  "reading": "かつまく",
+  "meaning_en": "synovial membrane",
+  "pos_en": "n",
+  "meaning_zh_now": "滑膜"
+ },
+ {
+  "theme": "medical",
+  "word": "膿盆",
+  "reading": "のうぼん",
+  "meaning_en": "kidney dish",
+  "pos_en": "n",
+  "meaning_zh_now": "肾盘"
+ },
+ {
+  "theme": "medical",
+  "word": "鼻尖",
+  "reading": "びせん",
+  "meaning_en": "apex of nose",
+  "pos_en": "n",
+  "meaning_zh_now": "鼻尖"
+ },
+ {
+  "theme": "medical",
+  "word": "ＡＳ",
+  "reading": "エー・エス",
+  "meaning_en": "Asperger syndrome",
+  "pos_en": "n",
+  "meaning_zh_now": "阿斯伯格综合症"
+ },
+ {
+  "theme": "medical",
+  "word": "副乳",
+  "reading": "ふくにゅう",
+  "meaning_en": "supernumerary nipple",
+  "pos_en": "n",
+  "meaning_zh_now": "多余乳头"
+ },
+ {
+  "theme": "medical",
+  "word": "点耳",
+  "reading": "てんじ",
+  "meaning_en": "administration of ear drops",
+  "pos_en": "n,vs,vt",
+  "meaning_zh_now": "滴耳剂的管理"
+ },
+ {
+  "theme": "medical",
+  "word": "強毒",
+  "reading": "きょうどく",
+  "meaning_en": "high toxicity",
+  "pos_en": "n",
+  "meaning_zh_now": "高毒性"
+ },
+ {
+  "theme": "medical",
+  "word": "全摘",
+  "reading": "ぜんてき",
+  "meaning_en": "complete removal",
+  "pos_en": "n,vs,vt",
+  "meaning_zh_now": "完全去除"
+ },
+ {
+  "theme": "medical",
+  "word": "肢位",
+  "reading": "しい",
+  "meaning_en": "body joints position (leg, foot, etc.)",
+  "pos_en": "n",
+  "meaning_zh_now": "身体关节位置（腿、脚等）"
+ },
+ {
+  "theme": "medical",
+  "word": "心マ",
+  "reading": "しんマ",
+  "meaning_en": "cardiac massage",
+  "pos_en": "n",
+  "meaning_zh_now": "心脏按摩"
+ },
+ {
+  "theme": "medical",
+  "word": "ＯＤ",
+  "reading": "オー・ディー",
+  "meaning_en": "orthostatic intolerance",
+  "pos_en": "n",
+  "meaning_zh_now": "直立不耐受"
+ },
+ {
+  "theme": "medical",
+  "word": "小管",
+  "reading": "しょうかん",
+  "meaning_en": "canaliculus",
+  "pos_en": "n",
+  "meaning_zh_now": "泪小管"
+ },
+ {
+  "theme": "medical",
+  "word": "毛孔",
+  "reading": "もうこう",
+  "meaning_en": "pore (of the skin)",
+  "pos_en": "n",
+  "meaning_zh_now": "（皮肤的）毛孔"
+ },
+ {
+  "theme": "medical",
+  "word": "ＣＳ",
+  "reading": "シー・エス",
+  "meaning_en": "multiple chemical sensitivity",
+  "pos_en": "n",
+  "meaning_zh_now": "多种化学敏感性"
+ },
+ {
+  "theme": "medical",
+  "word": "外膜",
+  "reading": "がいまく",
+  "meaning_en": "adventitia",
+  "pos_en": "n",
+  "meaning_zh_now": "外膜"
+ },
+ {
+  "theme": "medical",
+  "word": "右室",
+  "reading": "うしつ",
+  "meaning_en": "right ventricle",
+  "pos_en": "n,adj-f",
+  "meaning_zh_now": "右心室"
+ },
+ {
+  "theme": "medical",
+  "word": "頻拍",
+  "reading": "ひんぱく",
+  "meaning_en": "tachycardia",
+  "pos_en": "n",
+  "meaning_zh_now": "心动过速"
+ },
+ {
+  "theme": "medical",
+  "word": "甲介",
+  "reading": "こうかい",
+  "meaning_en": "concha",
+  "pos_en": "n",
+  "meaning_zh_now": "外甲"
+ },
+ {
+  "theme": "medical",
+  "word": "抜管",
+  "reading": "ばっかん",
+  "meaning_en": "extubation",
+  "pos_en": "n,vs,vt,vi",
+  "meaning_zh_now": "拔管"
+ },
+ {
+  "theme": "medical",
+  "word": "臍炎",
+  "reading": "さいえん",
+  "meaning_en": "omphalitis",
+  "pos_en": "n",
+  "meaning_zh_now": "脐炎"
+ },
+ {
+  "theme": "medical",
+  "word": "索痕",
+  "reading": "さっこん",
+  "meaning_en": "ligature mark",
+  "pos_en": "n",
+  "meaning_zh_now": "连字标记"
+ },
+ {
+  "theme": "medical",
+  "word": "索溝",
+  "reading": "さくこう",
+  "meaning_en": "ligature mark",
+  "pos_en": "n",
+  "meaning_zh_now": "连字标记"
+ },
+ {
+  "theme": "medical",
+  "word": "心炎",
+  "reading": "しんえん",
+  "meaning_en": "carditis",
+  "pos_en": "n",
+  "meaning_zh_now": "心脏炎"
+ },
+ {
+  "theme": "medical",
+  "word": "灌注",
+  "reading": "かんちゅう",
+  "meaning_en": "irrigation",
+  "pos_en": "n,vs",
+  "meaning_zh_now": "灌溉"
+ },
+ {
+  "theme": "medical",
+  "word": "雁瘡",
+  "reading": "がんがさ",
+  "meaning_en": "ecthyma",
+  "pos_en": "n",
+  "meaning_zh_now": "臁疮"
+ },
+ {
+  "theme": "medical",
+  "word": "膿瘡",
+  "reading": "のうそう",
+  "meaning_en": "ecthyma",
+  "pos_en": "n",
+  "meaning_zh_now": "臁疮"
+ },
+ {
+  "theme": "medical",
+  "word": "口部",
+  "reading": "こうぶ",
+  "meaning_en": "oral region",
+  "pos_en": "n",
+  "meaning_zh_now": "口腔区域"
+ },
+ {
+  "theme": "medical",
+  "word": "老嚥",
+  "reading": "ろうえん",
+  "meaning_en": "presbyphagia",
+  "pos_en": "n",
+  "meaning_zh_now": "老食症"
+ },
+ {
+  "theme": "medical",
+  "word": "直筋",
+  "reading": "ちょっきん",
+  "meaning_en": "rectus muscle",
+  "pos_en": "n,n-suf",
+  "meaning_zh_now": "直肌"
+ },
+ {
+  "theme": "medical",
+  "word": "病相",
+  "reading": "びょうそう",
+  "meaning_en": "episode (of a mental illness)",
+  "pos_en": "n",
+  "meaning_zh_now": "（精神疾病的）发作"
+ },
+ {
+  "theme": "medical",
+  "word": "笑筋",
+  "reading": "しょうきん",
+  "meaning_en": "risorius muscle",
+  "pos_en": "n",
+  "meaning_zh_now": "笑肌"
+ },
+ {
+  "theme": "medical",
+  "word": "洗薬",
+  "reading": "せんやく",
+  "meaning_en": "wash",
+  "pos_en": "n",
+  "meaning_zh_now": "洗"
+ },
+ {
+  "theme": "medical",
+  "word": "精糸",
+  "reading": "せいし",
+  "meaning_en": "spermatic cord",
+  "pos_en": "n",
+  "meaning_zh_now": "精索"
+ },
+ {
+  "theme": "medical",
+  "word": "胃底",
+  "reading": "いてい",
+  "meaning_en": "gastric fundus",
+  "pos_en": "n",
+  "meaning_zh_now": "胃底"
+ },
+ {
+  "theme": "medical",
+  "word": "酸血",
+  "reading": "さんけつ",
+  "meaning_en": "acidemia",
+  "pos_en": "n",
+  "meaning_zh_now": "酸血症"
+ },
+ {
+  "theme": "medical",
+  "word": "ＭＥ",
+  "reading": "エム・イー",
+  "meaning_en": "myalgic encephalomyelitis",
+  "pos_en": "n",
+  "meaning_zh_now": "肌痛性脑脊髓炎"
+ },
+ {
+  "theme": "medical",
+  "word": "脈圧",
+  "reading": "みゃくあつ",
+  "meaning_en": "pulse pressure",
+  "pos_en": "n",
+  "meaning_zh_now": "脉压"
+ },
+ {
+  "theme": "medical",
+  "word": "夢遊",
+  "reading": "むゆう",
+  "meaning_en": "sleepwalking",
+  "pos_en": "n,vs,vi",
+  "meaning_zh_now": "梦游"
+ },
+ {
+  "theme": "medical",
+  "word": "創口",
+  "reading": "そうこう",
+  "meaning_en": "opening of a wound",
+  "pos_en": "n",
+  "meaning_zh_now": "伤口张开"
+ },
+ {
+  "theme": "medical",
+  "word": "著変",
+  "reading": "ちょへん",
+  "meaning_en": "marked change (of a patient's condition)",
+  "pos_en": "n",
+  "meaning_zh_now": "（病人病情的）显着变化"
+ },
+ {
+  "theme": "medical",
+  "word": "麻疹",
+  "reading": "ましん",
+  "meaning_en": "measles",
+  "pos_en": "n",
+  "meaning_zh_now": "麻疹"
+ },
+ {
+  "theme": "medical",
+  "word": "肩骨",
+  "reading": "けんこつ",
+  "meaning_en": "shoulder blade",
+  "pos_en": "n",
+  "meaning_zh_now": "肩胛骨"
+ },
+ {
+  "theme": "medical",
+  "word": "膝蓋",
+  "reading": "しつがい",
+  "meaning_en": "patella",
+  "pos_en": "n",
+  "meaning_zh_now": "髌骨"
+ },
+ {
+  "theme": "medical",
+  "word": "晩発",
+  "reading": "ばんぱつ",
+  "meaning_en": "delayed onset (of an illness or its symptoms)",
+  "pos_en": "n,vs,vi",
+  "meaning_zh_now": "（疾病或其症状的）延迟发作"
+ },
+ {
+  "theme": "medical",
+  "word": "尿量",
+  "reading": "にょうりょう",
+  "meaning_en": "urine volume",
+  "pos_en": "n",
+  "meaning_zh_now": "尿量"
+ },
+ {
+  "theme": "medical",
+  "word": "顔筋",
+  "reading": "がんきん",
+  "meaning_en": "facial muscles",
+  "pos_en": "n",
+  "meaning_zh_now": "面部肌肉"
+ },
+ {
+  "theme": "medical",
+  "word": "触毛",
+  "reading": "しょくもう",
+  "meaning_en": "vibrissa",
+  "pos_en": "n",
+  "meaning_zh_now": "触须"
+ },
+ {
+  "theme": "medical",
+  "word": "外旋",
+  "reading": "がいせん",
+  "meaning_en": "external rotation (of a limb towards the outside of the body)",
+  "pos_en": "n",
+  "meaning_zh_now": "外旋（肢体向身体外侧）"
+ },
+ {
+  "theme": "medical",
+  "word": "チフス",
+  "reading": "チブス",
+  "meaning_en": "typhoid",
+  "pos_en": "n",
+  "meaning_zh_now": "伤寒"
+ },
+ {
+  "theme": "medical",
+  "word": "肝硬変",
+  "reading": "かんこうへん",
+  "meaning_en": "cirrhosis (of the liver)",
+  "pos_en": "n",
+  "meaning_zh_now": "肝硬化（肝脏的）"
+ },
+ {
+  "theme": "medical",
+  "word": "気管支",
+  "reading": "きかんし",
+  "meaning_en": "bronchus",
+  "pos_en": "n",
+  "meaning_zh_now": "支气管"
+ },
+ {
+  "theme": "medical",
+  "word": "狭心症",
+  "reading": "きょうしんしょう",
+  "meaning_en": "angina pectoris",
+  "pos_en": "n",
+  "meaning_zh_now": "心绞痛"
+ },
+ {
+  "theme": "medical",
+  "word": "血友病",
+  "reading": "けつゆうびょう",
+  "meaning_en": "hemophilia",
+  "pos_en": "n",
+  "meaning_zh_now": "血友病"
+ },
+ {
+  "theme": "medical",
+  "word": "呼吸器",
+  "reading": "こきゅうき",
+  "meaning_en": "respiratory organs",
+  "pos_en": "n",
+  "meaning_zh_now": "呼吸器官"
+ },
+ {
+  "theme": "medical",
+  "word": "後遺症",
+  "reading": "こういしょう",
+  "meaning_en": "prognostic symptoms",
+  "pos_en": "n",
+  "meaning_zh_now": "预后症状"
+ },
+ {
+  "theme": "medical",
+  "word": "甲状腺",
+  "reading": "こうじょうせん",
+  "meaning_en": "thyroid (gland)",
+  "pos_en": "n",
+  "meaning_zh_now": "甲状腺）"
+ },
+ {
+  "theme": "medical",
+  "word": "高血圧",
+  "reading": "こうけつあつ",
+  "meaning_en": "high blood pressure",
+  "pos_en": "n",
+  "meaning_zh_now": "高血压"
+ },
+ {
+  "theme": "medical",
+  "word": "合併症",
+  "reading": "がっぺいしょう",
+  "meaning_en": "complication",
+  "pos_en": "n",
+  "meaning_zh_now": "并发症"
+ },
+ {
+  "theme": "medical",
+  "word": "自閉症",
+  "reading": "じへいしょう",
+  "meaning_en": "autism",
+  "pos_en": "n",
+  "meaning_zh_now": "自闭症"
+ },
+ {
+  "theme": "medical",
+  "word": "症候群",
+  "reading": "しょうこうぐん",
+  "meaning_en": "syndrome",
+  "pos_en": "n",
+  "meaning_zh_now": "综合症"
+ },
+ {
+  "theme": "medical",
+  "word": "心不全",
+  "reading": "しんふぜん",
+  "meaning_en": "heart failure",
+  "pos_en": "n",
+  "meaning_zh_now": "心脏衰竭"
+ },
+ {
+  "theme": "medical",
+  "word": "中耳炎",
+  "reading": "ちゅうじえん",
+  "meaning_en": "otitis media",
+  "pos_en": "n",
+  "meaning_zh_now": "中耳炎"
+ },
+ {
+  "theme": "medical",
+  "word": "伝染病",
+  "reading": "でんせんびょう",
+  "meaning_en": "contagious disease",
+  "pos_en": "n",
+  "meaning_zh_now": "传染病"
+ },
+ {
+  "theme": "medical",
+  "word": "糖尿病",
+  "reading": "とうにょうびょう",
+  "meaning_en": "diabetes",
+  "pos_en": "n",
+  "meaning_zh_now": "糖尿病"
+ },
+ {
+  "theme": "medical",
+  "word": "脳出血",
+  "reading": "のうしゅっけつ",
+  "meaning_en": "cerebral hemorrhage",
+  "pos_en": "n",
+  "meaning_zh_now": "脑出血"
+ },
+ {
+  "theme": "medical",
+  "word": "脳卒中",
+  "reading": "のうそっちゅう",
+  "meaning_en": "stroke",
+  "pos_en": "n",
+  "meaning_zh_now": "中风"
+ },
+ {
+  "theme": "medical",
+  "word": "肺結核",
+  "reading": "はいけっかく",
+  "meaning_en": "pulmonary tuberculosis",
+  "pos_en": "n",
+  "meaning_zh_now": "肺结核"
+ },
+ {
+  "theme": "medical",
+  "word": "白血病",
+  "reading": "はっけつびょう",
+  "meaning_en": "leukemia",
+  "pos_en": "n",
+  "meaning_zh_now": "白血病"
+ },
+ {
+  "theme": "medical",
+  "word": "不整脈",
+  "reading": "ふせいみゃく",
+  "meaning_en": "arrhythmia",
+  "pos_en": "n",
+  "meaning_zh_now": "心律失常"
+ },
+ {
+  "theme": "medical",
+  "word": "不眠症",
+  "reading": "ふみんしょう",
+  "meaning_en": "sleeplessness",
+  "pos_en": "n",
+  "meaning_zh_now": "失眠"
+ },
+ {
+  "theme": "medical",
+  "word": "副作用",
+  "reading": "ふくさよう",
+  "meaning_en": "side effect",
+  "pos_en": "n",
+  "meaning_zh_now": "副作用"
+ },
+ {
+  "theme": "medical",
+  "word": "うつ病",
+  "reading": "うつびょう",
+  "meaning_en": "depression",
+  "pos_en": "n",
+  "meaning_zh_now": "沮丧"
+ },
+ {
+  "theme": "medical",
+  "word": "内分泌",
+  "reading": "ないぶんぴ",
+  "meaning_en": "endocrine",
+  "pos_en": "adj-f",
+  "meaning_zh_now": "内分泌"
+ },
+ {
+  "theme": "medical",
+  "word": "泌尿器",
+  "reading": "ひにょうき",
+  "meaning_en": "urinary organs",
+  "pos_en": "n",
+  "meaning_zh_now": "泌尿器官"
+ },
+ {
+  "theme": "medical",
+  "word": "処方箋",
+  "reading": "しょほうせん",
+  "meaning_en": "prescription",
+  "pos_en": "n",
+  "meaning_zh_now": "处方"
+ },
+ {
+  "theme": "medical",
+  "word": "消化器",
+  "reading": "しょうかき",
+  "meaning_en": "digestive organ",
+  "pos_en": "n",
+  "meaning_zh_now": "消化器官"
+ },
+ {
+  "theme": "medical",
+  "word": "循環器",
+  "reading": "じゅんかんき",
+  "meaning_en": "circulatory organ",
+  "pos_en": "n",
+  "meaning_zh_now": "循环器官"
+ },
+ {
+  "theme": "medical",
+  "word": "成人病",
+  "reading": "せいじんびょう",
+  "meaning_en": "disease common in middle-aged and elderly people",
+  "pos_en": "n",
+  "meaning_zh_now": "中老年人常见病"
+ },
+ {
+  "theme": "medical",
+  "word": "大動脈",
+  "reading": "だいどうみゃく",
+  "meaning_en": "aorta",
+  "pos_en": "n",
+  "meaning_zh_now": "主动脉"
+ },
+ {
+  "theme": "medical",
+  "word": "白内障",
+  "reading": "はくないしょう",
+  "meaning_en": "cataract",
+  "pos_en": "n",
+  "meaning_zh_now": "白内障"
+ },
+ {
+  "theme": "medical",
+  "word": "水俣病",
+  "reading": "みなまたびょう",
+  "meaning_en": "Minamata disease",
+  "pos_en": "n",
+  "meaning_zh_now": "水俣病"
+ },
+ {
+  "theme": "medical",
+  "word": "認知症",
+  "reading": "にんちしょう",
+  "meaning_en": "dementia",
+  "pos_en": "n",
+  "meaning_zh_now": "失智"
+ },
+ {
+  "theme": "medical",
+  "word": "副反応",
+  "reading": "ふくはんのう",
+  "meaning_en": "side effect (of a vaccine)",
+  "pos_en": "n",
+  "meaning_zh_now": "（疫苗的）副作用"
+ },
+ {
+  "theme": "medical",
+  "word": "くる病",
+  "reading": "くるびょう",
+  "meaning_en": "rickets",
+  "pos_en": "n",
+  "meaning_zh_now": "疳"
+ },
+ {
+  "theme": "medical",
+  "word": "ＣＴＳ",
+  "reading": "シー・ティー・エス",
+  "meaning_en": "carpal tunnel syndrome",
+  "pos_en": "n",
+  "meaning_zh_now": "腕管综合症"
+ },
+ {
+  "theme": "medical",
+  "word": "ベクター",
+  "reading": "ベクタ",
+  "meaning_en": "(disease) vector",
+  "pos_en": "n",
+  "meaning_zh_now": "（疾病）矢量"
+ },
+ {
+  "theme": "medical",
+  "word": "ポリープ",
+  "reading": "ポリプ",
+  "meaning_en": "polyp",
+  "pos_en": "n",
+  "meaning_zh_now": "息肉"
+ },
+ {
+  "theme": "medical",
+  "word": "拒絶反応",
+  "reading": "きょぜつはんのう",
+  "meaning_en": "(transplant) rejection",
+  "pos_en": "n",
+  "meaning_zh_now": "（移植）排斥反应"
+ },
+ {
+  "theme": "medical",
+  "word": "体外受精",
+  "reading": "たいがいじゅせい",
+  "meaning_en": "in vitro fertilization",
+  "pos_en": "n",
+  "meaning_zh_now": "体外受精"
+ },
+ {
+  "theme": "medical",
+  "word": "動脈硬化",
+  "reading": "どうみゃくこうか",
+  "meaning_en": "arteriosclerosis",
+  "pos_en": "n",
+  "meaning_zh_now": "动脉硬化"
+ },
+ {
+  "theme": "medical",
+  "word": "血液検査",
+  "reading": "けつえきけんさ",
+  "meaning_en": "blood test",
+  "pos_en": "n",
+  "meaning_zh_now": "验血"
+ },
+ {
+  "theme": "medical",
+  "word": "対症療法",
+  "reading": "たいしょうりょうほう",
+  "meaning_en": "symptomatic therapy",
+  "pos_en": "n",
+  "meaning_zh_now": "对症治疗"
+ },
+ {
+  "theme": "medical",
+  "word": "キャリア",
+  "reading": "キャリアー",
+  "meaning_en": "carrier (of a disease-causing agent)",
+  "pos_en": "n",
+  "meaning_zh_now": "（致病因子的）携带者"
+ },
+ {
+  "theme": "medical",
+  "word": "アキレス腱",
+  "reading": "アキレスけん",
+  "meaning_en": "Achilles tendon",
+  "pos_en": "n",
+  "meaning_zh_now": "跟腱"
+ },
+ {
+  "theme": "medical",
+  "word": "ジストロフィー",
+  "reading": "ジストロフィ",
+  "meaning_en": "dystrophy",
+  "pos_en": "n",
+  "meaning_zh_now": "营养不良"
+ },
+ {
+  "theme": "medical",
+  "word": "クレアチニンクリアランス",
+  "reading": "クレアチニン・クリアランス",
+  "meaning_en": "creatinine clearance",
+  "pos_en": "n",
+  "meaning_zh_now": "肌酐清除率"
+ },
+ {
+  "theme": "medical",
+  "word": "新型コロナウイルス感染症",
+  "reading": "しんがたコロナウイルスかんせんしょう",
+  "meaning_en": "COVID-19",
+  "pos_en": "n",
+  "meaning_zh_now": "新冠肺炎"
+ },
+ {
+  "theme": "medical",
+  "word": "ピカ",
+  "reading": "",
+  "meaning_en": "pica",
+  "pos_en": "n",
+  "meaning_zh_now": "异食癖"
+ },
+ {
+  "theme": "medical",
+  "word": "プロ",
+  "reading": "",
+  "meaning_en": "percent",
+  "pos_en": "n",
+  "meaning_zh_now": "百分比"
+ },
+ {
+  "theme": "medical",
+  "word": "カタル",
+  "reading": "",
+  "meaning_en": "catarrh",
+  "pos_en": "n",
+  "meaning_zh_now": "粘膜炎"
+ },
+ {
+  "theme": "medical",
+  "word": "ポリオ",
+  "reading": "",
+  "meaning_en": "polio",
+  "pos_en": "n",
+  "meaning_zh_now": "脊髓灰质炎"
+ },
+ {
+  "theme": "medical",
+  "word": "コレラ",
+  "reading": "",
+  "meaning_en": "cholera",
+  "pos_en": "n",
+  "meaning_zh_now": "霍乱"
+ },
+ {
+  "theme": "medical",
+  "word": "アトピー",
+  "reading": "",
+  "meaning_en": "atopy",
+  "pos_en": "n,adj-no",
+  "meaning_zh_now": "特应性"
+ },
+ {
+  "theme": "medical",
+  "word": "ショック",
+  "reading": "",
+  "meaning_en": "(circulatory) shock",
+  "pos_en": "n",
+  "meaning_zh_now": "（循环）休克"
+ },
+ {
+  "theme": "medical",
+  "word": "ヘルニア",
+  "reading": "",
+  "meaning_en": "hernia",
+  "pos_en": "n",
+  "meaning_zh_now": "疝"
+ },
+ {
+  "theme": "medical",
+  "word": "マラリア",
+  "reading": "",
+  "meaning_en": "malaria",
+  "pos_en": "n",
+  "meaning_zh_now": "疟疾"
+ },
+ {
+  "theme": "medical",
+  "word": "カテーテル",
+  "reading": "",
+  "meaning_en": "catheter",
+  "pos_en": "n",
+  "meaning_zh_now": "导管"
+ },
+ {
+  "theme": "medical",
+  "word": "ニューロン",
+  "reading": "",
+  "meaning_en": "neuron",
+  "pos_en": "n",
+  "meaning_zh_now": "神经元"
+ }
+]

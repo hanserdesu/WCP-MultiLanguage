@@ -1,0 +1,602 @@
+[
+{
+"word": "rauf",
+"pos": "adv.",
+"zh": "上去（口语）",
+"level": "a2"
+},
+{
+"word": "Flug",
+"pos": "n.m.",
+"zh": "飞行；航班",
+"level": "a2"
+},
+{
+"word": "beruhigen",
+"pos": "v.",
+"zh": "安慰",
+"level": "a2"
+},
+{
+"word": "einiges",
+"pos": "pron.",
+"zh": "一些事",
+"level": "a2"
+},
+{
+"word": "entdecken",
+"pos": "v.",
+"zh": "发现",
+"level": "a2"
+},
+{
+"word": "vollkommen",
+"pos": "adv.",
+"zh": "完全地",
+"level": "a2"
+},
+{
+"word": "verfolgen",
+"pos": "v.",
+"zh": "追踪",
+"level": "a2"
+},
+{
+"word": "College",
+"pos": "n.",
+"zh": "大学",
+"level": "a2"
+},
+{
+"word": "eh",
+"pos": "adv.",
+"zh": "反正（口语）",
+"level": "a2"
+},
+{
+"word": "Schwert",
+"pos": "n.",
+"zh": "剑",
+"level": "a2"
+},
+{
+"word": "riechen",
+"pos": "v.",
+"zh": "闻起来",
+"level": "a2"
+},
+{
+"word": "Labor",
+"pos": "n.",
+"zh": "实验室",
+"level": "a2"
+},
+{
+"word": "mindestens",
+"pos": "adv.",
+"zh": "至少",
+"level": "a2"
+},
+{
+"word": "Zustand",
+"pos": "n.m.",
+"zh": "状态",
+"level": "a2"
+},
+{
+"word": "Wunsch",
+"pos": "n.m.",
+"zh": "愿望",
+"level": "a2"
+},
+{
+"word": "Gast",
+"pos": "n.m.",
+"zh": "客人",
+"level": "a2"
+},
+{
+"word": "erwähnen",
+"pos": "v.",
+"zh": "提及",
+"level": "a2"
+},
+{
+"word": "Zufall",
+"pos": "n.m.",
+"zh": "偶然",
+"level": "a2"
+},
+{
+"word": "abgesehen",
+"pos": "adv.",
+"zh": "除外",
+"level": "a2"
+},
+{
+"word": "fair",
+"pos": "adj.",
+"zh": "公平的",
+"level": "a2"
+},
+{
+"word": "vertraut",
+"pos": "adj.",
+"zh": "熟悉的",
+"level": "a2"
+},
+{
+"word": "Koffer",
+"pos": "n.m.",
+"zh": "箱子",
+"level": "a2"
+},
+{
+"word": "Kurs",
+"pos": "n.m.",
+"zh": "课程",
+"level": "a2"
+},
+{
+"word": "wirken",
+"pos": "v.",
+"zh": "显得；起作用",
+"level": "a2"
+},
+{
+"word": "seitdem",
+"pos": "adv.",
+"zh": "从那以后",
+"level": "a2"
+},
+{
+"word": "angreifen",
+"pos": "v.",
+"zh": "攻击",
+"level": "a2"
+},
+{
+"word": "wahnsinnig",
+"pos": "adv.",
+"zh": "非常；疯狂",
+"level": "a2"
+},
+{
+"word": "ähnlich",
+"pos": "adj.",
+"zh": "相似的",
+"level": "a2"
+},
+{
+"word": "aufgeben",
+"pos": "v.",
+"zh": "放弃",
+"level": "a2"
+},
+{
+"word": "entführen",
+"pos": "v.",
+"zh": "绑架",
+"level": "a2"
+},
+{
+"word": "Lager",
+"pos": "n.",
+"zh": "营地；仓库",
+"level": "a2"
+},
+{
+"word": "besprechen",
+"pos": "v.",
+"zh": "讨论",
+"level": "a2"
+},
+{
+"word": "Reihe",
+"pos": "n.f.",
+"zh": "排；系列",
+"level": "a2"
+},
+{
+"word": "Vogel",
+"pos": "n.m.",
+"zh": "鸟",
+"level": "a2"
+},
+{
+"word": "Strand",
+"pos": "n.m.",
+"zh": "海滩",
+"level": "a2"
+},
+{
+"word": "fern",
+"pos": "adj.",
+"zh": "遥远的",
+"level": "a2"
+},
+{
+"word": "Scherz",
+"pos": "n.m.",
+"zh": "玩笑",
+"level": "a2"
+},
+{
+"word": "womit",
+"pos": "adv.",
+"zh": "用什么",
+"level": "a2"
+},
+{
+"word": "kapieren",
+"pos": "v.",
+"zh": "明白（口语）",
+"level": "a2"
+},
+{
+"word": "verlangen",
+"pos": "v.",
+"zh": "要求",
+"level": "a2"
+},
+{
+"word": "überzeugen",
+"pos": "v.",
+"zh": "使信服",
+"level": "a2"
+},
+{
+"word": "irgendjemand",
+"pos": "pron.",
+"zh": "某人",
+"level": "a2"
+},
+{
+"word": "vorbereiten",
+"pos": "v.",
+"zh": "准备",
+"level": "a2"
+},
+{
+"word": "reisen",
+"pos": "v.",
+"zh": "旅行",
+"level": "a2"
+},
+{
+"word": "Termin",
+"pos": "n.m.",
+"zh": "预约",
+"level": "a2"
+},
+{
+"word": "Gang",
+"pos": "n.m.",
+"zh": "走廊",
+"level": "a2"
+},
+{
+"word": "Rache",
+"pos": "n.f.",
+"zh": "复仇",
+"level": "a2"
+},
+{
+"word": "bemerken",
+"pos": "v.",
+"zh": "注意到",
+"level": "a2"
+},
+{
+"word": "Vertrag",
+"pos": "n.m.",
+"zh": "合同",
+"level": "a2"
+},
+{
+"word": "Dienst",
+"pos": "n.m.",
+"zh": "值班；服务",
+"level": "a2"
+},
+{
+"word": "zählen",
+"pos": "v.",
+"zh": "数；算数",
+"level": "a2"
+},
+{
+"word": "Wesen",
+"pos": "n.",
+"zh": "本质；生物",
+"level": "a2"
+},
+{
+"word": "Bürgermeister",
+"pos": "n.m.",
+"zh": "市长",
+"level": "a2"
+},
+{
+"word": "Fluss",
+"pos": "n.m.",
+"zh": "河",
+"level": "a2"
+},
+{
+"word": "woran",
+"pos": "adv.",
+"zh": "在什么上",
+"level": "a2"
+},
+{
+"word": "durcheinander",
+"pos": "adv.",
+"zh": "乱七八糟",
+"level": "a2"
+},
+{
+"word": "dadurch",
+"pos": "adv.",
+"zh": "由此",
+"level": "a2"
+},
+{
+"word": "Direktor",
+"pos": "n.m.",
+"zh": "校长；主管",
+"level": "a2"
+},
+{
+"word": "Karriere",
+"pos": "n.f.",
+"zh": "事业",
+"level": "a2"
+},
+{
+"word": "Akte",
+"pos": "n.f.",
+"zh": "档案",
+"level": "a2"
+},
+{
+"word": "Erinnerung",
+"pos": "n.f.",
+"zh": "记忆",
+"level": "a2"
+},
+{
+"word": "lösen",
+"pos": "v.",
+"zh": "解决",
+"level": "a2"
+},
+{
+"word": "bravo",
+"pos": "interj.",
+"zh": "好样的",
+"level": "a2"
+},
+{
+"word": "greifen",
+"pos": "v.",
+"zh": "抓",
+"level": "a2"
+},
+{
+"word": "Zweifel",
+"pos": "n.m.",
+"zh": "怀疑",
+"level": "a2"
+},
+{
+"word": "nerven",
+"pos": "v.",
+"zh": "使烦躁",
+"level": "a2"
+},
+{
+"word": "entlassen",
+"pos": "v.",
+"zh": "解雇；释放",
+"level": "a2"
+},
+{
+"word": "zweimal",
+"pos": "adv.",
+"zh": "两次",
+"level": "a2"
+},
+{
+"word": "abholen",
+"pos": "v.",
+"zh": "接人；取",
+"level": "a2"
+},
+{
+"word": "Kollege",
+"pos": "n.m.",
+"zh": "同事",
+"level": "a2"
+},
+{
+"word": "Szene",
+"pos": "n.f.",
+"zh": "场景",
+"level": "a2"
+},
+{
+"word": "Pflicht",
+"pos": "n.f.",
+"zh": "义务",
+"level": "a2"
+},
+{
+"word": "neulich",
+"pos": "adv.",
+"zh": "最近",
+"level": "a2"
+},
+{
+"word": "Knie",
+"pos": "n.",
+"zh": "膝盖",
+"level": "a2"
+},
+{
+"word": "spannend",
+"pos": "adj.",
+"zh": "紧张刺激的",
+"level": "a2"
+},
+{
+"word": "unschuldig",
+"pos": "adj.",
+"zh": "无辜的",
+"level": "a2"
+},
+{
+"word": "Schutz",
+"pos": "n.m.",
+"zh": "保护",
+"level": "a2"
+},
+{
+"word": "weshalb",
+"pos": "adv.",
+"zh": "为什么",
+"level": "a2"
+},
+{
+"word": "woanders",
+"pos": "adv.",
+"zh": "在别处",
+"level": "a2"
+},
+{
+"word": "verhindern",
+"pos": "v.",
+"zh": "阻止",
+"level": "a2"
+},
+{
+"word": "Erklärung",
+"pos": "n.f.",
+"zh": "解释",
+"level": "a2"
+},
+{
+"word": "klug",
+"pos": "adj.",
+"zh": "聪明的",
+"level": "a2"
+},
+{
+"word": "außerhalb",
+"pos": "präp.",
+"zh": "在…之外",
+"level": "a2"
+},
+{
+"word": "selbstverständlich",
+"pos": "adv.",
+"zh": "当然",
+"level": "a2"
+},
+{
+"word": "gebrauchen",
+"pos": "v.",
+"zh": "使用",
+"level": "a2"
+},
+{
+"word": "feuern",
+"pos": "v.",
+"zh": "解雇（口语）",
+"level": "a2"
+},
+{
+"word": "schwach",
+"pos": "adj.",
+"zh": "虚弱的",
+"level": "a2"
+},
+{
+"word": "Schulden",
+"pos": "n.",
+"zh": "债务",
+"level": "a2"
+},
+{
+"word": "hinein",
+"pos": "adv.",
+"zh": "进入",
+"level": "a2"
+},
+{
+"word": "Grenze",
+"pos": "n.f.",
+"zh": "边界",
+"level": "a2"
+},
+{
+"word": "Braut",
+"pos": "n.f.",
+"zh": "新娘",
+"level": "a2"
+},
+{
+"word": "peinlich",
+"pos": "adj.",
+"zh": "尴尬的",
+"level": "a2"
+},
+{
+"word": "klappen",
+"pos": "v.",
+"zh": "顺利",
+"level": "a2"
+},
+{
+"word": "Aufmerksamkeit",
+"pos": "n.f.",
+"zh": "注意",
+"level": "a2"
+},
+{
+"word": "Form",
+"pos": "n.f.",
+"zh": "形式",
+"level": "a2"
+},
+{
+"word": "umsonst",
+"pos": "adv.",
+"zh": "白白地；免费",
+"level": "a2"
+},
+{
+"word": "nirgendwo",
+"pos": "adv.",
+"zh": "无处",
+"level": "a2"
+},
+{
+"word": "Meile",
+"pos": "n.f.",
+"zh": "英里",
+"level": "a2"
+},
+{
+"word": "ergeben",
+"pos": "v.",
+"zh": "产生；得出",
+"level": "a2"
+},
+{
+"word": "Daten",
+"pos": "n.",
+"zh": "数据",
+"level": "a2"
+}
+]

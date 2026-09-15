@@ -1,0 +1,602 @@
+[
+{
+"word": "Rutsche",
+"pos": "n.f.",
+"zh": "滑；滑道；山崩",
+"level": "b2"
+},
+{
+"word": "Wilderer",
+"pos": "n.m.",
+"zh": "偷猎者；侵入者；炖蛋锅",
+"level": "b2"
+},
+{
+"word": "Mappe",
+"pos": "n.f.",
+"zh": "皮包；公文包；部长职务",
+"level": "b2"
+},
+{
+"word": "Redner",
+"pos": "n.m.",
+"zh": "说话人；讲演者；发言人",
+"level": "b2"
+},
+{
+"word": "betreffend",
+"pos": "adv.",
+"zh": "有关系的；有联系的；亲属的",
+"level": "b2"
+},
+{
+"word": "problematisch",
+"pos": "adj.",
+"zh": "成问题的；未定的；疑难的",
+"level": "b2"
+},
+{
+"word": "Wortwahl",
+"pos": "n.f.",
+"zh": "用语",
+"level": "b2"
+},
+{
+"word": "Knappe",
+"pos": "n.m.",
+"zh": "乡绅；大地主",
+"level": "b2"
+},
+{
+"word": "Moslem",
+"pos": "n.m.",
+"zh": "伊斯兰教；伊斯兰教教徒",
+"level": "b2"
+},
+{
+"word": "Lieblingsfarbe",
+"pos": "n.f.",
+"zh": "宠爱的",
+"level": "b2"
+},
+{
+"word": "Orientierung",
+"pos": "n.f.",
+"zh": "定方位；适应",
+"level": "b2"
+},
+{
+"word": "Arrangement",
+"pos": "n.",
+"zh": "排列；整齐；安排\\ 排列",
+"level": "b2"
+},
+{
+"word": "Lümmel",
+"pos": "n.m.",
+"zh": "小孩子；狗；卑鄙的人",
+"level": "b2"
+},
+{
+"word": "biologisch",
+"pos": "adj.",
+"zh": "实用表达",
+"level": "b2"
+},
+{
+"word": "Ducken",
+"pos": "n.",
+"zh": "躲避",
+"level": "b2"
+},
+{
+"word": "Rassismus",
+"pos": "n.m.",
+"zh": "种族主义；种族歧视",
+"level": "b2"
+},
+{
+"word": "Stacheldraht",
+"pos": "n.m.",
+"zh": "有倒刺的",
+"level": "b2"
+},
+{
+"word": "Dubai",
+"pos": "n.",
+"zh": "实用表达",
+"level": "b2"
+},
+{
+"word": "Luftraum",
+"pos": "n.m.",
+"zh": "空域；空间\\ 气隙",
+"level": "b2"
+},
+{
+"word": "aufheitern",
+"pos": "v.",
+"zh": "使高兴；使愉快；鼓励",
+"level": "b2"
+},
+{
+"word": "Syndikat",
+"pos": "n.",
+"zh": "企业联合；辛迪加",
+"level": "b2"
+},
+{
+"word": "Erhängen",
+"pos": "n.",
+"zh": "绞死；绞杀；悬挂\\ 绞刑",
+"level": "b2"
+},
+{
+"word": "Weiden",
+"pos": "n.",
+"zh": "牧草；放牧；牧场",
+"level": "b2"
+},
+{
+"word": "Feuerkraft",
+"pos": "n.f.",
+"zh": "火力",
+"level": "b2"
+},
+{
+"word": "schreiten",
+"pos": "v.",
+"zh": "踏；步态；梯级",
+"level": "b2"
+},
+{
+"word": "Beachtung",
+"pos": "n.f.",
+"zh": "注意",
+"level": "b2"
+},
+{
+"word": "Schlückchen",
+"pos": "n.",
+"zh": "啜饮；小口喝",
+"level": "b2"
+},
+{
+"word": "Steinbruch",
+"pos": "n.m.",
+"zh": "采石场；方形石；猎物",
+"level": "b2"
+},
+{
+"word": "Meisterin",
+"pos": "n.f.",
+"zh": "主人；硕士；大师",
+"level": "b2"
+},
+{
+"word": "Kult",
+"pos": "n.m.",
+"zh": "膜拜；礼拜式；祭仪",
+"level": "b2"
+},
+{
+"word": "Rentner",
+"pos": "n.m.",
+"zh": "领取抚恤金者；自费生；为金钱所收买的人",
+"level": "b2"
+},
+{
+"word": "erstklassig",
+"pos": "adj.",
+"zh": "一流的；顶级的",
+"level": "b2"
+},
+{
+"word": "Speisesaal",
+"pos": "n.m.",
+"zh": "大餐厅；食堂；饭厅",
+"level": "b2"
+},
+{
+"word": "bloße",
+"pos": "adv.",
+"zh": "暗黄色；暗黄色皮革",
+"level": "b2"
+},
+{
+"word": "bedrängt",
+"pos": "adj.",
+"zh": "受围攻的",
+"level": "b2"
+},
+{
+"word": "Schmuckstück",
+"pos": "n.",
+"zh": "块；片；篇",
+"level": "b2"
+},
+{
+"word": "Meineid",
+"pos": "n.m.",
+"zh": "伪誓；伪证；背信弃义\\ 伪证",
+"level": "b2"
+},
+{
+"word": "Verdammnis",
+"pos": "n.f.",
+"zh": "非难；被罚下地狱",
+"level": "b2"
+},
+{
+"word": "Brosche",
+"pos": "n.f.",
+"zh": "胸针；领针",
+"level": "b2"
+},
+{
+"word": "Grübeln",
+"pos": "n.",
+"zh": "反刍；沉思；默想\\ 反刍",
+"level": "b2"
+},
+{
+"word": "vergrößert",
+"pos": "adv.",
+"zh": "肥大的；过度膨胀的；肥厚的\\ 肥大的",
+"level": "b2"
+},
+{
+"word": "gesetzlich",
+"pos": "adj.",
+"zh": "所有者的；所有权的",
+"level": "b2"
+},
+{
+"word": "Umleiten",
+"pos": "n.",
+"zh": "实用表达",
+"level": "b2"
+},
+{
+"word": "anziehend",
+"pos": "adv.",
+"zh": "动人地；迷人地",
+"level": "b2"
+},
+{
+"word": "Gewächshaus",
+"pos": "n.",
+"zh": "温室",
+"level": "b2"
+},
+{
+"word": "unwürdig",
+"pos": "adj.",
+"zh": "不配受到的；不值得...的",
+"level": "b2"
+},
+{
+"word": "Mechanismus",
+"pos": "n.m.",
+"zh": "机械；机构；结构",
+"level": "b2"
+},
+{
+"word": "unzuverlässig",
+"pos": "adj.",
+"zh": "靠不住的",
+"level": "b2"
+},
+{
+"word": "Normalität",
+"pos": "n.f.",
+"zh": "常态\\ 规定浓度；当量浓度",
+"level": "b2"
+},
+{
+"word": "großzügige",
+"pos": "adv.",
+"zh": "慷慨；宽大；礼物\\ 奖励金",
+"level": "b2"
+},
+{
+"word": "Orgie",
+"pos": "n.f.",
+"zh": "无节制；狂欢；纵酒宴乐",
+"level": "b2"
+},
+{
+"word": "Bruchteil",
+"pos": "n.m.",
+"zh": "滴；细流\\. 滴",
+"level": "b2"
+},
+{
+"word": "Komfort",
+"pos": "n.m.",
+"zh": "安慰；舒适；使人舒服的事物",
+"level": "b2"
+},
+{
+"word": "mager",
+"pos": "adv.",
+"zh": "瘦的；不毛的；贫乏的",
+"level": "b2"
+},
+{
+"word": "Malaria",
+"pos": "n.f.",
+"zh": "疟疾；瘴气\\ 疟",
+"level": "b2"
+},
+{
+"word": "Ader",
+"pos": "n.f.",
+"zh": "隔热的；绝缘的",
+"level": "b2"
+},
+{
+"word": "Schleudern",
+"pos": "n.",
+"zh": "脱离；一碰就散开；脱落的",
+"level": "b2"
+},
+{
+"word": "Verschleiern",
+"pos": "n.",
+"zh": "掩饰；装糊涂；虚伪\\ 瞒病",
+"level": "b2"
+},
+{
+"word": "skrupellos",
+"pos": "adj.",
+"zh": "无情的；残忍的；毫不留情的",
+"level": "b2"
+},
+{
+"word": "Domino",
+"pos": "n.",
+"zh": "多米诺骨牌",
+"level": "b2"
+},
+{
+"word": "Arsenal",
+"pos": "n.",
+"zh": "兵工厂；军械库\\ 兵工厂",
+"level": "b2"
+},
+{
+"word": "unerreichbar",
+"pos": "adj.",
+"zh": "难得到的；难接近的；难达成的",
+"level": "b2"
+},
+{
+"word": "Hocker",
+"pos": "n.m.",
+"zh": "凳子；大便；粪便",
+"level": "b2"
+},
+{
+"word": "Zeitbombe",
+"pos": "n.f.",
+"zh": "实用表达",
+"level": "b2"
+},
+{
+"word": "Anhaltspunkt",
+"pos": "n.m.",
+"zh": "引导者；导游；指南",
+"level": "b2"
+},
+{
+"word": "Zeitvertreib",
+"pos": "n.m.",
+"zh": "消遣；娱乐；游戏",
+"level": "b2"
+},
+{
+"word": "Meditation",
+"pos": "n.f.",
+"zh": "沉思；冥想",
+"level": "b2"
+},
+{
+"word": "Kur",
+"pos": "n.f.",
+"zh": "治疗；治愈",
+"level": "b2"
+},
+{
+"word": "Gemeinsamer",
+"pos": "n.",
+"zh": "实用表达",
+"level": "b2"
+},
+{
+"word": "Heuhaufen",
+"pos": "n.",
+"zh": "干草堆",
+"level": "b2"
+},
+{
+"word": "Broschüre",
+"pos": "n.f.",
+"zh": "小册子",
+"level": "b2"
+},
+{
+"word": "eingewickelt",
+"pos": "adv.",
+"zh": "有包装的",
+"level": "b2"
+},
+{
+"word": "Verlies",
+"pos": "n.",
+"zh": "地牢",
+"level": "b2"
+},
+{
+"word": "Bürokratie",
+"pos": "n.f.",
+"zh": "繁杂；拖拉的公文程序",
+"level": "b2"
+},
+{
+"word": "registrieren",
+"pos": "v.",
+"zh": "记录；履历；档案",
+"level": "b2"
+},
+{
+"word": "Kartenspiel",
+"pos": "n.",
+"zh": "玩扑克牌",
+"level": "b2"
+},
+{
+"word": "Erregung",
+"pos": "n.f.",
+"zh": "奋发；激励",
+"level": "b2"
+},
+{
+"word": "Holländer",
+"pos": "n.m.",
+"zh": "荷兰人；荷兰船\\ 打浆机；荷兰式打纸浆机",
+"level": "b2"
+},
+{
+"word": "Monarchie",
+"pos": "n.f.",
+"zh": "君主政体；君主国",
+"level": "b2"
+},
+{
+"word": "Brautjungfer",
+"pos": "n.f.",
+"zh": "女傧相",
+"level": "b2"
+},
+{
+"word": "verpflichten",
+"pos": "v.",
+"zh": "使负义务；强使；使感激",
+"level": "b2"
+},
+{
+"word": "portugiesisch",
+"pos": "adj.",
+"zh": "葡萄牙人；葡萄牙人的",
+"level": "b2"
+},
+{
+"word": "leerer",
+"pos": "adv.",
+"zh": "空虚；无知",
+"level": "b2"
+},
+{
+"word": "Anstellung",
+"pos": "n.f.",
+"zh": "雇用；职业；工作\\ 职业",
+"level": "b2"
+},
+{
+"word": "Plasma",
+"pos": "n.",
+"zh": "血浆；淋巴液；原生质",
+"level": "b2"
+},
+{
+"word": "anfällig",
+"pos": "adj.",
+"zh": "是；表示；在\\ 后端",
+"level": "b2"
+},
+{
+"word": "subtil",
+"pos": "adj.",
+"zh": "敏锐的；精细的；狡猾的",
+"level": "b2"
+},
+{
+"word": "Crash",
+"pos": "n.m.",
+"zh": "哗啦声；猛撞；崩溃",
+"level": "b2"
+},
+{
+"word": "hierherkommen",
+"pos": "v.",
+"zh": "来这里",
+"level": "b2"
+},
+{
+"word": "Schminke",
+"pos": "n.f.",
+"zh": "捏造",
+"level": "b2"
+},
+{
+"word": "Schildkröten",
+"pos": "n.",
+"zh": "乌龟",
+"level": "b2"
+},
+{
+"word": "einstimmig",
+"pos": "adj.",
+"zh": "和谐的；相调和的；一致的",
+"level": "b2"
+},
+{
+"word": "Halbzeit",
+"pos": "n.f.",
+"zh": "半工半薪\\ 半日薪；半工半薪",
+"level": "b2"
+},
+{
+"word": "Anziehungskraft",
+"pos": "n.f.",
+"zh": "吸引；吸引人的事物；吸引力\\ 吸引",
+"level": "b2"
+},
+{
+"word": "Schwede",
+"pos": "n.m.",
+"zh": "瑞典人",
+"level": "b2"
+},
+{
+"word": "würfeln",
+"pos": "v.",
+"zh": "实用表达",
+"level": "b2"
+},
+{
+"word": "Steuermann",
+"pos": "n.m.",
+"zh": "舵手\\. 做舵手",
+"level": "b2"
+},
+{
+"word": "Alligator",
+"pos": "n.m.",
+"zh": "实用表达",
+"level": "b2"
+},
+{
+"word": "Dialekt",
+"pos": "n.",
+"zh": "方言的；乡音的",
+"level": "b2"
+},
+{
+"word": "mysteriös",
+"pos": "adv.",
+"zh": "神秘的；晦涩难解的",
+"level": "b2"
+}
+]

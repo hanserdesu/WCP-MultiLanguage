@@ -1,0 +1,602 @@
+[
+{
+"word": "douter",
+"pos": "v.",
+"zh": "怀疑；疑心",
+"level": "b1"
+},
+{
+"word": "douteux",
+"pos": "adj.",
+"zh": "可疑的；靠不住的",
+"level": "b1"
+},
+{
+"word": "doué",
+"pos": "adj.",
+"zh": "有天赋的",
+"level": "b1"
+},
+{
+"word": "draguer",
+"pos": "v.",
+"zh": "搭讪；调情",
+"level": "b1"
+},
+{
+"word": "dramatique",
+"pos": "adj.",
+"zh": "悲剧性的；严重的",
+"level": "b1"
+},
+{
+"word": "drame",
+"pos": "n.m.",
+"zh": "悲剧；惨剧",
+"level": "b1"
+},
+{
+"word": "drôlement",
+"pos": "adv.",
+"zh": "古怪地；非常",
+"level": "b1"
+},
+{
+"word": "dune",
+"pos": "n.f.",
+"zh": "沙丘",
+"level": "b1"
+},
+{
+"word": "duo",
+"pos": "n.m.",
+"zh": "二重奏；二人组",
+"level": "b1"
+},
+{
+"word": "duquel",
+"pos": "pron.",
+"zh": "从其中；关于那个（用于关系从句）",
+"level": "b1"
+},
+{
+"word": "durant",
+"pos": "prép.",
+"zh": "在…期间",
+"level": "b1"
+},
+{
+"word": "durer",
+"pos": "v.",
+"zh": "持续；延续",
+"level": "b1"
+},
+{
+"word": "durée",
+"pos": "n.f.",
+"zh": "持续时间；期限",
+"level": "b1"
+},
+{
+"word": "dynamique",
+"pos": "adj.",
+"zh": "有活力的；动态的",
+"level": "b1"
+},
+{
+"word": "dynamite",
+"pos": "n.f.",
+"zh": "炸药",
+"level": "b1"
+},
+{
+"word": "débarquer",
+"pos": "v.",
+"zh": "下船；突然出现",
+"level": "b1"
+},
+{
+"word": "débarrasser",
+"pos": "v.",
+"zh": "收拾；清除；摆脱",
+"level": "b1"
+},
+{
+"word": "débat",
+"pos": "n.m.",
+"zh": "辩论；争论",
+"level": "b1"
+},
+{
+"word": "débattre",
+"pos": "v.",
+"zh": "辩论；挣扎",
+"level": "b1"
+},
+{
+"word": "débloquer",
+"pos": "v.",
+"zh": "解锁；疏通；解冻",
+"level": "b1"
+},
+{
+"word": "déborder",
+"pos": "v.",
+"zh": "溢出；超出",
+"level": "b1"
+},
+{
+"word": "débrancher",
+"pos": "v.",
+"zh": "拔掉插头；切断电源",
+"level": "b1"
+},
+{
+"word": "débrouiller",
+"pos": "v.",
+"zh": "（自行）应付；搞定",
+"level": "b1"
+},
+{
+"word": "débuter",
+"pos": "v.",
+"zh": "开始；起步",
+"level": "b1"
+},
+{
+"word": "décennie",
+"pos": "n.f.",
+"zh": "十年",
+"level": "b1"
+},
+{
+"word": "décent",
+"pos": "adj.",
+"zh": "体面的；像样的",
+"level": "b1"
+},
+{
+"word": "décevoir",
+"pos": "v.",
+"zh": "使失望",
+"level": "b1"
+},
+{
+"word": "décharger",
+"pos": "v.",
+"zh": "卸货；卸下",
+"level": "b1"
+},
+{
+"word": "déchet",
+"pos": "n.m.",
+"zh": "垃圾；废料",
+"level": "b1"
+},
+{
+"word": "déchirer",
+"pos": "v.",
+"zh": "撕裂；撕碎",
+"level": "b1"
+},
+{
+"word": "déchiré",
+"pos": "adj.",
+"zh": "撕破的；破裂的；痛苦的",
+"level": "b1"
+},
+{
+"word": "décidé",
+"pos": "adj.",
+"zh": "果断的；坚决的",
+"level": "b1"
+},
+{
+"word": "décidément",
+"pos": "adv.",
+"zh": "真是（加强语气）",
+"level": "b1"
+},
+{
+"word": "déclaration",
+"pos": "n.f.",
+"zh": "声明；申报",
+"level": "b1"
+},
+{
+"word": "déclarer",
+"pos": "v.",
+"zh": "声明；申报",
+"level": "b1"
+},
+{
+"word": "déclencher",
+"pos": "v.",
+"zh": "引发；触发",
+"level": "b1"
+},
+{
+"word": "déco",
+"pos": "adj.",
+"zh": "装饰；布置（口语）",
+"level": "b1"
+},
+{
+"word": "décollage",
+"pos": "n.m.",
+"zh": "起飞",
+"level": "b1"
+},
+{
+"word": "décommander",
+"pos": "v.",
+"zh": "取消",
+"level": "b1"
+},
+{
+"word": "décomposer",
+"pos": "v.",
+"zh": "分解；剖析",
+"level": "b1"
+},
+{
+"word": "déconnecter",
+"pos": "v.",
+"zh": "断开连接；使脱离现实",
+"level": "b1"
+},
+{
+"word": "déconner",
+"pos": "v.",
+"zh": "胡来；出毛病（口语）",
+"level": "b1"
+},
+{
+"word": "déconseiller",
+"pos": "v.",
+"zh": "劝阻；不建议",
+"level": "b1"
+},
+{
+"word": "décor",
+"pos": "n.m.",
+"zh": "布景；场景",
+"level": "b1"
+},
+{
+"word": "décorateur",
+"pos": "n.m.",
+"zh": "装饰师；布景师",
+"level": "b1"
+},
+{
+"word": "décoration",
+"pos": "n.f.",
+"zh": "装饰；勋章",
+"level": "b1"
+},
+{
+"word": "décorer",
+"pos": "v.",
+"zh": "装饰；授勋",
+"level": "b1"
+},
+{
+"word": "décourager",
+"pos": "v.",
+"zh": "使泄气；使气馁",
+"level": "b1"
+},
+{
+"word": "décrire",
+"pos": "v.",
+"zh": "描述；描写",
+"level": "b1"
+},
+{
+"word": "décrocher",
+"pos": "v.",
+"zh": "摘下；获得",
+"level": "b1"
+},
+{
+"word": "décéder",
+"pos": "v.",
+"zh": "去世",
+"level": "b1"
+},
+{
+"word": "décédé",
+"pos": "adj.",
+"zh": "去世的；已故的",
+"level": "b1"
+},
+{
+"word": "déduire",
+"pos": "v.",
+"zh": "推断；扣除",
+"level": "b1"
+},
+{
+"word": "déesse",
+"pos": "n.f.",
+"zh": "女神",
+"level": "b1"
+},
+{
+"word": "défaire",
+"pos": "v.",
+"zh": "拆开；解开",
+"level": "b1"
+},
+{
+"word": "défaite",
+"pos": "n.f.",
+"zh": "失败；败仗",
+"level": "b1"
+},
+{
+"word": "défaut",
+"pos": "n.m.",
+"zh": "缺点；缺陷",
+"level": "b1"
+},
+{
+"word": "défendre",
+"pos": "v.",
+"zh": "保卫；禁止",
+"level": "b1"
+},
+{
+"word": "défense",
+"pos": "n.f.",
+"zh": "防御；辩护；禁止",
+"level": "b1"
+},
+{
+"word": "défenseur",
+"pos": "n.m.",
+"zh": "保卫者；辩护人",
+"level": "b1"
+},
+{
+"word": "défensif",
+"pos": "adj.",
+"zh": "防御的；防守的",
+"level": "b1"
+},
+{
+"word": "défi",
+"pos": "n.m.",
+"zh": "挑战",
+"level": "b1"
+},
+{
+"word": "défier",
+"pos": "v.",
+"zh": "挑战",
+"level": "b1"
+},
+{
+"word": "défilé",
+"pos": "n.m.",
+"zh": "游行；行列；时装表演",
+"level": "b1"
+},
+{
+"word": "définir",
+"pos": "v.",
+"zh": "下定义；确定",
+"level": "b1"
+},
+{
+"word": "définitif",
+"pos": "adj.",
+"zh": "最终的；定局的",
+"level": "b1"
+},
+{
+"word": "définition",
+"pos": "n.f.",
+"zh": "定义；清晰度",
+"level": "b1"
+},
+{
+"word": "définitivement",
+"pos": "adv.",
+"zh": "永久地；最终地",
+"level": "b1"
+},
+{
+"word": "déformer",
+"pos": "v.",
+"zh": "使变形；歪曲",
+"level": "b1"
+},
+{
+"word": "défouler",
+"pos": "v.",
+"zh": "发泄；尽情释放",
+"level": "b1"
+},
+{
+"word": "dégager",
+"pos": "v.",
+"zh": "清除；挪开；散发",
+"level": "b1"
+},
+{
+"word": "dégoût",
+"pos": "n.m.",
+"zh": "厌恶；反感",
+"level": "b1"
+},
+{
+"word": "dégoûter",
+"pos": "v.",
+"zh": "使厌恶；使反感",
+"level": "b1"
+},
+{
+"word": "dégueu",
+"pos": "adj.",
+"zh": "恶心的；龌龊的（口语）",
+"level": "b1"
+},
+{
+"word": "déguisement",
+"pos": "n.m.",
+"zh": "化装；伪装服",
+"level": "b1"
+},
+{
+"word": "déguster",
+"pos": "v.",
+"zh": "品尝；细细品味",
+"level": "b1"
+},
+{
+"word": "dégât",
+"pos": "n.m.",
+"zh": "损害；损失",
+"level": "b1"
+},
+{
+"word": "délai",
+"pos": "n.m.",
+"zh": "期限；延误",
+"level": "b1"
+},
+{
+"word": "délibérément",
+"pos": "adv.",
+"zh": "故意地；蓄意地",
+"level": "b1"
+},
+{
+"word": "délicat",
+"pos": "adj.",
+"zh": "精致的；微妙的；娇嫩的",
+"level": "b1"
+},
+{
+"word": "délinquant",
+"pos": "n.m.",
+"zh": "违法者；罪犯",
+"level": "b1"
+},
+{
+"word": "délire",
+"pos": "n.m.",
+"zh": "胡话；狂热",
+"level": "b1"
+},
+{
+"word": "délirer",
+"pos": "v.",
+"zh": "胡言乱语；发狂",
+"level": "b1"
+},
+{
+"word": "délivrer",
+"pos": "v.",
+"zh": "解救；颁发",
+"level": "b1"
+},
+{
+"word": "délégation",
+"pos": "n.f.",
+"zh": "代表团；授权",
+"level": "b1"
+},
+{
+"word": "délégué",
+"pos": "n.m.",
+"zh": "代表",
+"level": "b1"
+},
+{
+"word": "démission",
+"pos": "n.f.",
+"zh": "辞职",
+"level": "b1"
+},
+{
+"word": "démissionner",
+"pos": "v.",
+"zh": "辞职",
+"level": "b1"
+},
+{
+"word": "démocrate",
+"pos": "n.",
+"zh": "民主人士",
+"level": "b1"
+},
+{
+"word": "démocratie",
+"pos": "n.f.",
+"zh": "民主",
+"level": "b1"
+},
+{
+"word": "démocratique",
+"pos": "adj.",
+"zh": "民主的",
+"level": "b1"
+},
+{
+"word": "démolir",
+"pos": "v.",
+"zh": "拆毁；摧毁",
+"level": "b1"
+},
+{
+"word": "démon",
+"pos": "n.m.",
+"zh": "恶魔；魔鬼",
+"level": "b1"
+},
+{
+"word": "démonstration",
+"pos": "n.f.",
+"zh": "演示；证明",
+"level": "b1"
+},
+{
+"word": "démontrer",
+"pos": "v.",
+"zh": "论证；证明",
+"level": "b1"
+},
+{
+"word": "dénoncer",
+"pos": "v.",
+"zh": "告发；揭露",
+"level": "b1"
+},
+{
+"word": "dépanner",
+"pos": "v.",
+"zh": "救急；帮忙解围",
+"level": "b1"
+},
+{
+"word": "département",
+"pos": "n.m.",
+"zh": "省；部门",
+"level": "b1"
+},
+{
+"word": "dépendance",
+"pos": "n.f.",
+"zh": "依赖；毒瘾；附属建筑",
+"level": "b1"
+},
+{
+"word": "dépendre",
+"pos": "v.",
+"zh": "取决于",
+"level": "b1"
+}
+]

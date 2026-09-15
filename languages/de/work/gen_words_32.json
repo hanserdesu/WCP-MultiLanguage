@@ -1,0 +1,602 @@
+[
+{
+"word": "Kabine",
+"pos": "n.f.",
+"zh": "小舱",
+"level": "a2"
+},
+{
+"word": "Chefin",
+"pos": "n.f.",
+"zh": "女上司",
+"level": "a2"
+},
+{
+"word": "Römer",
+"pos": "n.m.",
+"zh": "罗马人",
+"level": "a2"
+},
+{
+"word": "Datenbank",
+"pos": "n.f.",
+"zh": "数据库",
+"level": "a2"
+},
+{
+"word": "teilnehmen",
+"pos": "v.",
+"zh": "参加",
+"level": "a2"
+},
+{
+"word": "Bunker",
+"pos": "n.m.",
+"zh": "掩体",
+"level": "a2"
+},
+{
+"word": "Löffel",
+"pos": "n.m.",
+"zh": "勺子",
+"level": "a2"
+},
+{
+"word": "abhängig",
+"pos": "adj.",
+"zh": "依赖的",
+"level": "a2"
+},
+{
+"word": "geeignet",
+"pos": "adj.",
+"zh": "合适的",
+"level": "a2"
+},
+{
+"word": "hindern",
+"pos": "v.",
+"zh": "阻碍",
+"level": "a2"
+},
+{
+"word": "Flagge",
+"pos": "n.f.",
+"zh": "旗帜",
+"level": "a2"
+},
+{
+"word": "Disziplin",
+"pos": "n.f.",
+"zh": "纪律",
+"level": "a2"
+},
+{
+"word": "Kongress",
+"pos": "n.m.",
+"zh": "代表大会",
+"level": "a2"
+},
+{
+"word": "Schirm",
+"pos": "n.m.",
+"zh": "伞",
+"level": "a2"
+},
+{
+"word": "vorlesen",
+"pos": "v.",
+"zh": "朗读",
+"level": "a2"
+},
+{
+"word": "empfindlich",
+"pos": "adj.",
+"zh": "敏感的",
+"level": "a2"
+},
+{
+"word": "parken",
+"pos": "v.",
+"zh": "停车",
+"level": "a2"
+},
+{
+"word": "reichlich",
+"pos": "adv.",
+"zh": "充足地",
+"level": "a2"
+},
+{
+"word": "Hahn",
+"pos": "n.m.",
+"zh": "公鸡；水龙头",
+"level": "a2"
+},
+{
+"word": "krachen",
+"pos": "v.",
+"zh": "砰然作响",
+"level": "a2"
+},
+{
+"word": "Versammlung",
+"pos": "n.f.",
+"zh": "集会",
+"level": "a2"
+},
+{
+"word": "Folter",
+"pos": "n.f.",
+"zh": "拷打",
+"level": "a2"
+},
+{
+"word": "Speck",
+"pos": "n.m.",
+"zh": "培根",
+"level": "a2"
+},
+{
+"word": "Saal",
+"pos": "n.m.",
+"zh": "大厅",
+"level": "a2"
+},
+{
+"word": "Wirtschaft",
+"pos": "n.f.",
+"zh": "经济",
+"level": "a2"
+},
+{
+"word": "mehrmals",
+"pos": "adv.",
+"zh": "多次",
+"level": "a2"
+},
+{
+"word": "abbrechen",
+"pos": "v.",
+"zh": "中断",
+"level": "a2"
+},
+{
+"word": "Seife",
+"pos": "n.f.",
+"zh": "肥皂",
+"level": "a2"
+},
+{
+"word": "Zwerg",
+"pos": "n.m.",
+"zh": "矮人",
+"level": "a2"
+},
+{
+"word": "Ablenkung",
+"pos": "n.f.",
+"zh": "分心",
+"level": "a2"
+},
+{
+"word": "Herrscher",
+"pos": "n.m.",
+"zh": "统治者",
+"level": "a2"
+},
+{
+"word": "überstehen",
+"pos": "v.",
+"zh": "经受住",
+"level": "a2"
+},
+{
+"word": "Sprengstoff",
+"pos": "n.m.",
+"zh": "炸药",
+"level": "a2"
+},
+{
+"word": "Erdbeben",
+"pos": "n.",
+"zh": "地震",
+"level": "a2"
+},
+{
+"word": "Gleichgewicht",
+"pos": "n.",
+"zh": "平衡",
+"level": "a2"
+},
+{
+"word": "Schalter",
+"pos": "n.m.",
+"zh": "开关；柜台",
+"level": "a2"
+},
+{
+"word": "Zuneigung",
+"pos": "n.f.",
+"zh": "好感",
+"level": "a2"
+},
+{
+"word": "Rollstuhl",
+"pos": "n.m.",
+"zh": "轮椅",
+"level": "a2"
+},
+{
+"word": "mischen",
+"pos": "v.",
+"zh": "混合",
+"level": "a2"
+},
+{
+"word": "umsehen",
+"pos": "v.",
+"zh": "环顾",
+"level": "a2"
+},
+{
+"word": "gelegen",
+"pos": "adj.",
+"zh": "合适的",
+"level": "a2"
+},
+{
+"word": "Dosis",
+"pos": "n.f.",
+"zh": "剂量",
+"level": "a2"
+},
+{
+"word": "somit",
+"pos": "adv.",
+"zh": "因此",
+"level": "a2"
+},
+{
+"word": "ernähren",
+"pos": "v.",
+"zh": "喂养",
+"level": "a2"
+},
+{
+"word": "hacken",
+"pos": "v.",
+"zh": "砍；黑入",
+"level": "a2"
+},
+{
+"word": "Kammer",
+"pos": "n.f.",
+"zh": "房间",
+"level": "a2"
+},
+{
+"word": "bezaubernd",
+"pos": "adj.",
+"zh": "迷人的",
+"level": "a2"
+},
+{
+"word": "zueinander",
+"pos": "adv.",
+"zh": "彼此相对",
+"level": "a2"
+},
+{
+"word": "einschließlich",
+"pos": "präp.",
+"zh": "包括",
+"level": "a2"
+},
+{
+"word": "Finsternis",
+"pos": "n.f.",
+"zh": "黑暗",
+"level": "a2"
+},
+{
+"word": "Transporter",
+"pos": "n.m.",
+"zh": "厢式货车",
+"level": "a2"
+},
+{
+"word": "Abzug",
+"pos": "n.m.",
+"zh": "撤离",
+"level": "a2"
+},
+{
+"word": "Becher",
+"pos": "n.m.",
+"zh": "杯子",
+"level": "a2"
+},
+{
+"word": "sicherstellen",
+"pos": "v.",
+"zh": "确保",
+"level": "a2"
+},
+{
+"word": "klettern",
+"pos": "v.",
+"zh": "攀爬",
+"level": "a2"
+},
+{
+"word": "Privatleben",
+"pos": "n.",
+"zh": "私生活",
+"level": "a2"
+},
+{
+"word": "Zusammenarbeit",
+"pos": "n.f.",
+"zh": "合作",
+"level": "a2"
+},
+{
+"word": "hinauf",
+"pos": "adv.",
+"zh": "向上",
+"level": "a2"
+},
+{
+"word": "Kaugummi",
+"pos": "n.",
+"zh": "口香糖",
+"level": "a2"
+},
+{
+"word": "Weltkrieg",
+"pos": "n.m.",
+"zh": "世界大战",
+"level": "a2"
+},
+{
+"word": "garantieren",
+"pos": "v.",
+"zh": "保证",
+"level": "a2"
+},
+{
+"word": "kommunizieren",
+"pos": "v.",
+"zh": "沟通",
+"level": "a2"
+},
+{
+"word": "technisch",
+"pos": "adj.",
+"zh": "技术的",
+"level": "a2"
+},
+{
+"word": "frühstücken",
+"pos": "v.",
+"zh": "吃早餐",
+"level": "a2"
+},
+{
+"word": "Standort",
+"pos": "n.m.",
+"zh": "位置",
+"level": "a2"
+},
+{
+"word": "leugnen",
+"pos": "v.",
+"zh": "否认",
+"level": "a2"
+},
+{
+"word": "Landung",
+"pos": "n.f.",
+"zh": "着陆",
+"level": "a2"
+},
+{
+"word": "schockieren",
+"pos": "v.",
+"zh": "震惊",
+"level": "a2"
+},
+{
+"word": "Begleitung",
+"pos": "n.f.",
+"zh": "陪同",
+"level": "a2"
+},
+{
+"word": "Allianz",
+"pos": "n.f.",
+"zh": "联盟",
+"level": "a2"
+},
+{
+"word": "Echo",
+"pos": "n.",
+"zh": "回声",
+"level": "a2"
+},
+{
+"word": "lokal",
+"pos": "adj.",
+"zh": "当地的",
+"level": "a2"
+},
+{
+"word": "verkehrt",
+"pos": "adj.",
+"zh": "错误的",
+"level": "a2"
+},
+{
+"word": "Göttin",
+"pos": "n.f.",
+"zh": "女神",
+"level": "a2"
+},
+{
+"word": "segeln",
+"pos": "v.",
+"zh": "帆船航行",
+"level": "a2"
+},
+{
+"word": "Begegnung",
+"pos": "n.f.",
+"zh": "相遇",
+"level": "a2"
+},
+{
+"word": "Feuerwehr",
+"pos": "n.f.",
+"zh": "消防队",
+"level": "a2"
+},
+{
+"word": "Grauen",
+"pos": "n.",
+"zh": "恐怖",
+"level": "a2"
+},
+{
+"word": "Wärter",
+"pos": "n.m.",
+"zh": "狱警",
+"level": "a2"
+},
+{
+"word": "Vertreter",
+"pos": "n.m.",
+"zh": "代表",
+"level": "a2"
+},
+{
+"word": "gewaltig",
+"pos": "adj.",
+"zh": "巨大的",
+"level": "a2"
+},
+{
+"word": "Knoten",
+"pos": "n.m.",
+"zh": "结",
+"level": "a2"
+},
+{
+"word": "klarstellen",
+"pos": "v.",
+"zh": "澄清",
+"level": "a2"
+},
+{
+"word": "Hinrichtung",
+"pos": "n.f.",
+"zh": "处决",
+"level": "a2"
+},
+{
+"word": "überwinden",
+"pos": "v.",
+"zh": "克服",
+"level": "a2"
+},
+{
+"word": "ablegen",
+"pos": "v.",
+"zh": "放下；改掉",
+"level": "a2"
+},
+{
+"word": "entgehen",
+"pos": "v.",
+"zh": "错过；逃脱",
+"level": "a2"
+},
+{
+"word": "stundenlang",
+"pos": "adj.",
+"zh": "数小时的",
+"level": "a2"
+},
+{
+"word": "Hausmeister",
+"pos": "n.m.",
+"zh": "管理员",
+"level": "a2"
+},
+{
+"word": "Helikopter",
+"pos": "n.m.",
+"zh": "直升机",
+"level": "a2"
+},
+{
+"word": "Bogen",
+"pos": "n.m.",
+"zh": "弓；拱",
+"level": "a2"
+},
+{
+"word": "Duft",
+"pos": "n.m.",
+"zh": "香气",
+"level": "a2"
+},
+{
+"word": "Schein",
+"pos": "n.m.",
+"zh": "外表；光",
+"level": "a2"
+},
+{
+"word": "Kellnerin",
+"pos": "n.f.",
+"zh": "女服务员",
+"level": "a2"
+},
+{
+"word": "vertraulich",
+"pos": "adj.",
+"zh": "机密的",
+"level": "a2"
+},
+{
+"word": "platt",
+"pos": "adj.",
+"zh": "平坦的",
+"level": "a2"
+},
+{
+"word": "aufrecht",
+"pos": "adj.",
+"zh": "挺直的",
+"level": "a2"
+},
+{
+"word": "Mangel",
+"pos": "n.m.",
+"zh": "缺乏",
+"level": "a2"
+},
+{
+"word": "Kollegin",
+"pos": "n.f.",
+"zh": "女同事",
+"level": "a2"
+},
+{
+"word": "Reichtum",
+"pos": "n.m.",
+"zh": "财富",
+"level": "a2"
+}
+]

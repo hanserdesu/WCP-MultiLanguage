@@ -1,0 +1,8 @@
+# 大体积原始语料（kaikki 词典转储 900MB+）
+data/raw/
+
+# 运行时产物与备份
+logs/
+backups/
+__pycache__/
+*.pyc

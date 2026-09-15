@@ -1,0 +1,2402 @@
+{
+ "双安定": {
+  "reading": "そうあんてい",
+  "meaning": "【そうあんてい】双稳态〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "挿入点": {
+  "reading": "そうにゅうてん",
+  "meaning": "【そうにゅうてん】插入点〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "操作卓": {
+  "reading": "そうさたく",
+  "meaning": "【そうさたく】操作台；控制台〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "装置名": {
+  "reading": "そうちめい",
+  "meaning": "【そうちめい】设备名〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "走査器": {
+  "reading": "そうさき",
+  "meaning": "【そうさき】扫描器〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "送信器": {
+  "reading": "そうしんき",
+  "meaning": "【そうしんき】发射机；发送器〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "送信者": {
+  "reading": "そうしんしゃ",
+  "meaning": "【そうしんしゃ】发送者〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "送信側": {
+  "reading": "そうしんがわ",
+  "meaning": "【そうしんがわ】发送方〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "増分量": {
+  "reading": "ぞうぶんりょう",
+  "meaning": "【ぞうぶんりょう】增量大小〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "即接続": {
+  "reading": "そくせつぞく",
+  "meaning": "【そくせつぞく】即时连接；直接连接〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "属性型": {
+  "reading": "ぞくせいがた",
+  "meaning": "【ぞくせいがた】属性类型〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "属性表": {
+  "reading": "ぞくせいひょう",
+  "meaning": "【ぞくせいひょう】属性列表〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "多態性": {
+  "reading": "たたいせい",
+  "meaning": "【たたいせい】多态性〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "対数的": {
+  "reading": "たいすうてき",
+  "meaning": "【たいすうてき】对数的〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "対話型": {
+  "reading": "たいわがた",
+  "meaning": "【たいわがた】交互式；对话式〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "対話的": {
+  "reading": "たいわてき",
+  "meaning": "【たいわてき】交互式的〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "代入文": {
+  "reading": "だいにゅうぶん",
+  "meaning": "【だいにゅうぶん】赋值语句〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "大域的": {
+  "reading": "たいいきてき",
+  "meaning": "【たいいきてき】全局的〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "大域名": {
+  "reading": "たいいきめい",
+  "meaning": "【たいいきめい】全局名〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "大記憶": {
+  "reading": "だいきおく",
+  "meaning": "【だいきおく】大容量存储〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "単純型": {
+  "reading": "たんじゅんがた",
+  "meaning": "【たんじゅんがた】简单类型〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "単方向": {
+  "reading": "たんほうこう",
+  "meaning": "【たんほうこう】单工；单向〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "単密度": {
+  "reading": "たんみつど",
+  "meaning": "【たんみつど】单密度〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "断片化": {
+  "reading": "だんぺんか",
+  "meaning": "【だんぺんか】碎片化（存储、网络）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "知識木": {
+  "reading": "ちしきぎ",
+  "meaning": "【ちしきぎ】知识树〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "置換文": {
+  "reading": "ちかんぶん",
+  "meaning": "【ちかんぶん】替换文本〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "遅延線": {
+  "reading": "ちえんせん",
+  "meaning": "【ちえんせん】延迟线〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "着信者": {
+  "reading": "ちゃくしんしゃ",
+  "meaning": "【ちゃくしんしゃ】接收者；被叫方〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "中継器": {
+  "reading": "ちゅうけいき",
+  "meaning": "【ちゅうけいき】中继器；转发器〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "中断点": {
+  "reading": "ちゅうだんてん",
+  "meaning": "【ちゅうだんてん】断点〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "注記行": {
+  "reading": "ちゅうきぎょう",
+  "meaning": "【ちゅうきぎょう】注释行〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "頂点色": {
+  "reading": "ちょうてんしょく",
+  "meaning": "【ちょうてんしょく】顶点色（3D 图形）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "通信量": {
+  "reading": "つうしんりょう",
+  "meaning": "【つうしんりょう】通信量；流量〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "通信路": {
+  "reading": "つうしんろ",
+  "meaning": "【つうしんろ】信道；传输通道〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "通知型": {
+  "reading": "つうちがた",
+  "meaning": "【つうちがた】通知类型〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "低損失": {
+  "reading": "ていそんしつ",
+  "meaning": "【ていそんしつ】低损耗〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "低遅延": {
+  "reading": "ていちえん",
+  "meaning": "【ていちえん】低延迟〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "低電力": {
+  "reading": "ていでんりょく",
+  "meaning": "【ていでんりょく】低功耗〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "低容量": {
+  "reading": "ていようりょう",
+  "meaning": "【ていようりょう】低容量；小容量〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "定数式": {
+  "reading": "ていすうしき",
+  "meaning": "【ていすうしき】常量表达式〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "電磁界": {
+  "reading": "でんじかい",
+  "meaning": "【でんじかい】电磁场〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "等化器": {
+  "reading": "とうかき",
+  "meaning": "【とうかき】均衡器〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "到達性": {
+  "reading": "とうたつせい",
+  "meaning": "【とうたつせい】可达性〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "透過的": {
+  "reading": "とうかてき",
+  "meaning": "【とうかてき】透明的；不为人察觉的〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "同期化": {
+  "reading": "どうきか",
+  "meaning": "【どうきか】同步化〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "同期的": {
+  "reading": "どうきてき",
+  "meaning": "【どうきてき】同步的〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "内容長": {
+  "reading": "ないようちょう",
+  "meaning": "【ないようちょう】内容长度（Content-Length）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "二重化": {
+  "reading": "にじゅうか",
+  "meaning": "【にじゅうか】双重化；冗余〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "入力行": {
+  "reading": "にゅうりょくぎょう",
+  "meaning": "【にゅうりょくぎょう】输入行〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "入力値": {
+  "reading": "にゅうりょくち",
+  "meaning": "【にゅうりょくち】输入值〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "入力用": {
+  "reading": "にゅうりょくよう",
+  "meaning": "【にゅうりょくよう】输入用（只读打开模式）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "任意型": {
+  "reading": "にんいがた",
+  "meaning": "【にんいがた】任意类型〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "認証局": {
+  "reading": "にんしょうきょく",
+  "meaning": "【にんしょうきょく】认证机构（CA）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "配列名": {
+  "reading": "はいれつめい",
+  "meaning": "【はいれつめい】数组名〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "倍密度": {
+  "reading": "ばいみつど",
+  "meaning": "【ばいみつど】双倍密度〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "発見的": {
+  "reading": "はっけんてき",
+  "meaning": "【はっけんてき】启发式的〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "発信元": {
+  "reading": "はっしんもと",
+  "meaning": "【はっしんもと】发送源；来源〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "発信者": {
+  "reading": "はっしんしゃ",
+  "meaning": "【はっしんしゃ】发信人〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "発生順": {
+  "reading": "はっせいじゅん",
+  "meaning": "【はっせいじゅん】按发生顺序；时间顺序〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "範囲名": {
+  "reading": "はんいめい",
+  "meaning": "【はんいめい】范围名称（表格）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "比較器": {
+  "reading": "ひかくき",
+  "meaning": "【ひかくき】比较器〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "比較式": {
+  "reading": "ひかくしき",
+  "meaning": "【ひかくしき】比较表达式〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "秘密鍵": {
+  "reading": "ひみつかぎ",
+  "meaning": "【ひみつかぎ】私钥（密码学）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "非圧縮": {
+  "reading": "ひあっしゅく",
+  "meaning": "【ひあっしゅく】未压缩的〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "非直結": {
+  "reading": "ひちょっけつ",
+  "meaning": "【ひちょっけつ】离线；非直连〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "表示域": {
+  "reading": "ひょうじいき",
+  "meaning": "【ひょうじいき】视口；显示区域〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "表色系": {
+  "reading": "ひょうしょくけい",
+  "meaning": "【ひょうしょくけい】表色系统〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "表要素": {
+  "reading": "ひょうようそ",
+  "meaning": "【ひょうようそ】表格元素〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "評価値": {
+  "reading": "ひょうかち",
+  "meaning": "【ひょうかち】评估值；评价值〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "符号表": {
+  "reading": "ふごうひょう",
+  "meaning": "【ふごうひょう】码表；编码表〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "部分木": {
+  "reading": "ぶぶんき",
+  "meaning": "【ぶぶんき】子树〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "部分列": {
+  "reading": "ぶぶんれつ",
+  "meaning": "【ぶぶんれつ】子串；子序列〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "部門名": {
+  "reading": "ぶもんめい",
+  "meaning": "【ぶもんめい】部门名（组织单位）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "復号化": {
+  "reading": "ふくごうか",
+  "meaning": "【ふくごうか】解密；解码〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "復号器": {
+  "reading": "ふくごうき",
+  "meaning": "【ふくごうき】解码器〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "復調機": {
+  "reading": "ふくちょうき",
+  "meaning": "【ふくちょうき】解调器〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "複合式": {
+  "reading": "ふくごうしき",
+  "meaning": "【ふくごうしき】复合表达式〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "複合文": {
+  "reading": "ふくごうぶん",
+  "meaning": "【ふくごうぶん】复合语句〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "複数行": {
+  "reading": "ふくすうぎょう",
+  "meaning": "【ふくすうぎょう】多行〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "物理層": {
+  "reading": "ぶつりそう",
+  "meaning": "【ぶつりそう】物理层（PHY）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "分散化": {
+  "reading": "ぶんさんか",
+  "meaning": "【ぶんさんか】分散化；去中心化〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "分周器": {
+  "reading": "ぶんしゅうき",
+  "meaning": "【ぶんしゅうき】分频器〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "分離子": {
+  "reading": "ぶんりし",
+  "meaning": "【ぶんりし】分隔符〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "文書化": {
+  "reading": "ぶんしょか",
+  "meaning": "【ぶんしょか】文档化〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "文書型": {
+  "reading": "ぶんしょがた",
+  "meaning": "【ぶんしょがた】文档类型（DOCTYPE）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "並行的": {
+  "reading": "へいこうてき",
+  "meaning": "【へいこうてき】并行的〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "頁送り": {
+  "reading": "ページおくり",
+  "meaning": "【ページおくり】换页；翻页〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "変数名": {
+  "reading": "へんすうめい",
+  "meaning": "【へんすうめい】变量名〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "保全性": {
+  "reading": "ほぜんせい",
+  "meaning": "【ほぜんせい】可维护性；完整性〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "放熱板": {
+  "reading": "ほうねつばん",
+  "meaning": "【ほうねつばん】散热片〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "埋め字": {
+  "reading": "うめじ",
+  "meaning": "【うめじ】填充字符〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "密結合": {
+  "reading": "みつけつごう",
+  "meaning": "【みつけつごう】紧耦合〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "無変換": {
+  "reading": "むへんかん",
+  "meaning": "【むへんかん】无变换（键）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "網管理": {
+  "reading": "もうかんり",
+  "meaning": "【もうかんり】网络管理〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "木構造": {
+  "reading": "きこうぞう",
+  "meaning": "【きこうぞう】树结构〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "木探索": {
+  "reading": "きたんさく",
+  "meaning": "【きたんさく】树搜索〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "戻り値": {
+  "reading": "もどりち",
+  "meaning": "【もどりち】返回值〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "予約名": {
+  "reading": "よやくめい",
+  "meaning": "【よやくめい】保留名〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "要求側": {
+  "reading": "ようきゅうがわ",
+  "meaning": "【ようきゅうがわ】请求方〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "要素型": {
+  "reading": "ようそがた",
+  "meaning": "【ようそがた】元素类型〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "要素数": {
+  "reading": "ようそすう",
+  "meaning": "【ようそすう】元素个数；元素数量〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "乱数列": {
+  "reading": "らんすうれつ",
+  "meaning": "【らんすうれつ】随机数序列〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "略成語": {
+  "reading": "りゃくせいご",
+  "meaning": "【りゃくせいご】首字母缩略词〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "流れ線": {
+  "reading": "ながれせん",
+  "meaning": "【ながれせん】流程线（流程图）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "累算器": {
+  "reading": "るいさんき",
+  "meaning": "【るいさんき】累加器〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "累積率": {
+  "reading": "るいせきりつ",
+  "meaning": "【るいせきりつ】累计百分比〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "累積和": {
+  "reading": "るいせきわ",
+  "meaning": "【るいせきわ】累计和；前缀和〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "暦日付": {
+  "reading": "れきひづけ",
+  "meaning": "【れきひづけ】日历日期〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "列番号": {
+  "reading": "れつばんごう",
+  "meaning": "【れつばんごう】列号〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "列変数": {
+  "reading": "れつへんすう",
+  "meaning": "【れつへんすう】字符串变量〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "連結式": {
+  "reading": "れんけつしき",
+  "meaning": "【れんけつしき】连接表达式〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "連結性": {
+  "reading": "れんけつせい",
+  "meaning": "【れんけつせい】连通性〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "連結網": {
+  "reading": "れんけつもう",
+  "meaning": "【れんけつもう】网状网络〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "連続紙": {
+  "reading": "れんぞくし",
+  "meaning": "【れんぞくし】连续打印纸〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "論理型": {
+  "reading": "ろんりがた",
+  "meaning": "【ろんりがた】布尔类型〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "論理図": {
+  "reading": "ろんりず",
+  "meaning": "【ろんりず】逻辑图〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "保存先": {
+  "reading": "ほぞんさき",
+  "meaning": "【ほぞんさき】保存位置；保存到〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "色再現": {
+  "reading": "いろさいげん",
+  "meaning": "【いろさいげん】色彩再现〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "過疎る": {
+  "reading": "かそる",
+  "meaning": "【かそる】变得冷清；人气衰退（社区、论坛）〈动1〉",
+  "level": "IT",
+  "need": 3
+ },
+ "多対多": {
+  "reading": "たたいた",
+  "meaning": "【たたいた】多对多〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "難読化": {
+  "reading": "なんどくか",
+  "meaning": "【なんどくか】（源代码）混淆；加密变形〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "2進数": {
+  "reading": "にしんすう",
+  "meaning": "【にしんすう】二进制数〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "更新暦": {
+  "reading": "こうしんれき",
+  "meaning": "【こうしんれき】更新日志；更新履历〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "仮想化": {
+  "reading": "かそうか",
+  "meaning": "【かそうか】虚拟化〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "構築子": {
+  "reading": "こうちくし",
+  "meaning": "【こうちくし】构造函数〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "C言語": {
+  "reading": "シーげんご",
+  "meaning": "【シーげんご】C 语言〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "同期元": {
+  "reading": "どうきもと",
+  "meaning": "【どうきもと】同步源〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "同期先": {
+  "reading": "どうきさき",
+  "meaning": "【どうきさき】同步目标〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "先読み": {
+  "reading": "さきよみ",
+  "meaning": "【さきよみ】预读；先看；前瞻〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "型付け": {
+  "reading": "かたつけ",
+  "meaning": "【かたつけ】（数据）定型；类型标注〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "液タブ": {
+  "reading": "えきタブ",
+  "meaning": "【えきタブ】数位屏（带屏绘图板）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "熱暴走": {
+  "reading": "ねつぼうそう",
+  "meaning": "【ねつぼうそう】过热死机；热失控〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "枝刈り": {
+  "reading": "えだかり",
+  "meaning": "【えだかり】剪枝（决策树、搜索）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "非表示": {
+  "reading": "ひひょうじ",
+  "meaning": "【ひひょうじ】隐藏；不显示〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "検索語": {
+  "reading": "けんさくご",
+  "meaning": "【けんさくご】搜索词〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "直帰率": {
+  "reading": "ちょっきりつ",
+  "meaning": "【ちょっきりつ】跳出率（网页分析）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "共有鍵": {
+  "reading": "きょうゆうかぎ",
+  "meaning": "【きょうゆうかぎ】共享密钥〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "非正規": {
+  "reading": "ひせいき",
+  "meaning": "【ひせいき】非规格化的；非正规的〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "論理値": {
+  "reading": "ろんりち",
+  "meaning": "【ろんりち】逻辑值；布尔值〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "長整数": {
+  "reading": "ちょうせいすう",
+  "meaning": "【ちょうせいすう】长整数〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "短整数": {
+  "reading": "たんせいすう",
+  "meaning": "【たんせいすう】短整数〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "赤黒木": {
+  "reading": "あかくろぎ",
+  "meaning": "【あかくろぎ】红黑树〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "縦倍角": {
+  "reading": "たてばいかく",
+  "meaning": "【たてばいかく】双倍高度（文字）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "計算量": {
+  "reading": "けいさんりょう",
+  "meaning": "【けいさんりょう】计算量；计算复杂度〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "手入力": {
+  "reading": "てにゅうりょく",
+  "meaning": "【てにゅうりょく】手动输入〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "並列化": {
+  "reading": "へいれつか",
+  "meaning": "【へいれつか】并行化〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "真偽値": {
+  "reading": "しんぎち",
+  "meaning": "【しんぎち】布尔值；真假值〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "論理行": {
+  "reading": "ろんりぎょう",
+  "meaning": "【ろんりぎょう】逻辑行（代码）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "物理行": {
+  "reading": "ぶつりぎょう",
+  "meaning": "【ぶつりぎょう】物理行（代码）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "通知音": {
+  "reading": "つうちおん",
+  "meaning": "【つうちおん】提示音；通知音〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "入力法": {
+  "reading": "にゅうりょくほう",
+  "meaning": "【にゅうりょくほう】输入法〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "再変換": {
+  "reading": "さいへんかん",
+  "meaning": "【さいへんかん】再变换（输入文字）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "共用体": {
+  "reading": "きょうようたい",
+  "meaning": "【きょうようたい】联合体（C 语言）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "検索窓": {
+  "reading": "けんさくまど",
+  "meaning": "【けんさくまど】搜索框〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "入力欄": {
+  "reading": "にゅうりょくらん",
+  "meaning": "【にゅうりょくらん】输入栏；输入框〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "符号点": {
+  "reading": "ふごうてん",
+  "meaning": "【ふごうてん】码点（字符集）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "拡張色": {
+  "reading": "かくちょうしょく",
+  "meaning": "【かくちょうしょく】扩展色〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "情シス": {
+  "reading": "じょうシス",
+  "meaning": "【じょうシス】信息系统部门（公司 IT 部门）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "分類器": {
+  "reading": "ぶんるいき",
+  "meaning": "【ぶんるいき】分类器〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "準結合": {
+  "reading": "じゅんけつごう",
+  "meaning": "【じゅんけつごう】半连接（关系代数）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "配布物": {
+  "reading": "はいふぶつ",
+  "meaning": "【はいふぶつ】发行包；分发物〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "冪等性": {
+  "reading": "べきとうせい",
+  "meaning": "【べきとうせい】幂等性〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "参照型": {
+  "reading": "さんしょうがた",
+  "meaning": "【さんしょうがた】引用类型〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "列挙型": {
+  "reading": "れっきょがた",
+  "meaning": "【れっきょがた】枚举类型（enum）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "板タブ": {
+  "reading": "いたタブ",
+  "meaning": "【いたタブ】数位板（不带屏绘图板）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "上詰め": {
+  "reading": "うえづめ",
+  "meaning": "【うえづめ】顶端对齐〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "下詰め": {
+  "reading": "したづめ",
+  "meaning": "【したづめ】底端对齐〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "宣言型": {
+  "reading": "せんげんがた",
+  "meaning": "【せんげんがた】声明式（编程）〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "命令型": {
+  "reading": "めいれいがた",
+  "meaning": "【めいれいがた】命令式（编程）；指令式〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "値渡し": {
+  "reading": "あたいわたし",
+  "meaning": "【あたいわたし】传值（调用）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "実行順": {
+  "reading": "じっこうじゅん",
+  "meaning": "【じっこうじゅん】执行顺序〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "網羅率": {
+  "reading": "もうらりつ",
+  "meaning": "【もうらりつ】覆盖率（测试）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "携帯性": {
+  "reading": "けいたいせい",
+  "meaning": "【けいたいせい】可移植性；便携性〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "非推奨": {
+  "reading": "ひすいしょう",
+  "meaning": "【ひすいしょう】已弃用；不推荐使用〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "直列化": {
+  "reading": "ちょくれつか",
+  "meaning": "【ちょくれつか】序列化〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "逐次化": {
+  "reading": "ちくじか",
+  "meaning": "【ちくじか】串行化〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "物理名": {
+  "reading": "ぶつりめい",
+  "meaning": "【ぶつりめい】物理名（数据库表、字段）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "論理名": {
+  "reading": "ろんりめい",
+  "meaning": "【ろんりめい】逻辑名（数据库表、字段）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "非バグ": {
+  "reading": "ひバグ",
+  "meaning": "【ひバグ】非 Bug（看似异常实为设计）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "文鎮化": {
+  "reading": "ぶんちんか",
+  "meaning": "【ぶんちんか】变砖（设备无法启动）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "固定値": {
+  "reading": "こていち",
+  "meaning": "【こていち】固定值；常量〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "レン鯖": {
+  "reading": "レンサバ",
+  "meaning": "【レンサバ】租用服务器（レンタルサーバー缩略）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "無圧縮": {
+  "reading": "むあっしゅく",
+  "meaning": "【むあっしゅく】无压缩的〈ナ形〉",
+  "level": "IT",
+  "need": 3
+ },
+ "型推論": {
+  "reading": "かたすいろん",
+  "meaning": "【かたすいろん】类型推导〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "過学習": {
+  "reading": "かがくしゅう",
+  "meaning": "【かがくしゅう】过拟合（机器学习）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "型理論": {
+  "reading": "かたりろん",
+  "meaning": "【かたりろん】类型论〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "後勝ち": {
+  "reading": "あとがち",
+  "meaning": "【あとがち】后写优先（冲突解决）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "先勝ち": {
+  "reading": "さきがち",
+  "meaning": "【さきがち】先写优先（冲突解决）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "キー入力": {
+  "reading": "キーにゅうりょく",
+  "meaning": "【キーにゅうりょく】按键输入〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "ビット毎": {
+  "reading": "ビットごと",
+  "meaning": "【ビットごと】按位（运算）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "英小文字": {
+  "reading": "えいこもじ",
+  "meaning": "【えいこもじ】英文小写字母〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "音声圧縮": {
+  "reading": "おんせいあっしゅく",
+  "meaning": "【おんせいあっしゅく】语音压缩〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "仮想記憶": {
+  "reading": "かそうきおく",
+  "meaning": "【かそうきおく】虚拟内存〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "仮想空間": {
+  "reading": "かそうくうかん",
+  "meaning": "【かそうくうかん】虚拟空间〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "機械翻訳": {
+  "reading": "きかいほんやく",
+  "meaning": "【きかいほんやく】机器翻译〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "機能キー": {
+  "reading": "きのうキー",
+  "meaning": "【きのうキー】功能键〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "機密保護": {
+  "reading": "きみつほご",
+  "meaning": "【きみつほご】保密；安全防护〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "記憶装置": {
+  "reading": "きおくそうち",
+  "meaning": "【きおくそうち】存储器；存储设备〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "記憶容量": {
+  "reading": "きおくようりょう",
+  "meaning": "【きおくようりょう】存储容量〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "後退文字": {
+  "reading": "こうたいもじ",
+  "meaning": "【こうたいもじ】退格字符（BS）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "参照渡し": {
+  "reading": "さんしょうわたし",
+  "meaning": "【さんしょうわたし】传引用（调用）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "書き出す": {
+  "reading": "かきだす",
+  "meaning": "【かきだす】导出；写出（文件）〈动1〉",
+  "level": "IT",
+  "need": 3
+ },
+ "書式送り": {
+  "reading": "しょしきおくり",
+  "meaning": "【しょしきおくり】换页（FF）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "人工知能": {
+  "reading": "じんこうちのう",
+  "meaning": "【じんこうちのう】人工智能（AI）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "正規表現": {
+  "reading": "せいきひょうげん",
+  "meaning": "【せいきひょうげん】正则表达式〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "切り貼り": {
+  "reading": "きりばり",
+  "meaning": "【きりばり】剪贴；拼贴〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "多バイト": {
+  "reading": "たバイト",
+  "meaning": "【たバイト】多字节〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "端末装置": {
+  "reading": "たんまつそうち",
+  "meaning": "【たんまつそうち】终端设备〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "伝送速度": {
+  "reading": "でんそうそくど",
+  "meaning": "【でんそうそくど】传输速度；波特率〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "読み込む": {
+  "reading": "よみこむ",
+  "meaning": "【よみこむ】读取；载入〈动1〉",
+  "level": "IT",
+  "need": 3
+ },
+ "読み出す": {
+  "reading": "よみだす",
+  "meaning": "【よみだす】读出；检索（数据）〈动1〉",
+  "level": "IT",
+  "need": 3
+ },
+ "標準出力": {
+  "reading": "ひょうじゅんしゅつりょく",
+  "meaning": "【ひょうじゅんしゅつりょく】标准输出（stdout）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "標準入力": {
+  "reading": "ひょうじゅんにゅうりょく",
+  "meaning": "【ひょうじゅんにゅうりょく】标准输入（stdin）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "分散処理": {
+  "reading": "ぶんさんしょり",
+  "meaning": "【ぶんさんしょり】分布式处理〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "分周回路": {
+  "reading": "ぶんしゅうかいろ",
+  "meaning": "【ぶんしゅうかいろ】分频电路〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "文字化け": {
+  "reading": "もじばけ",
+  "meaning": "【もじばけ】乱码（编码问题导致）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "編集機能": {
+  "reading": "へんしゅうきのう",
+  "meaning": "【へんしゅうきのう】编辑功能〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "名前空間": {
+  "reading": "なまえくうかん",
+  "meaning": "【なまえくうかん】命名空间〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "流し込む": {
+  "reading": "ながしこむ",
+  "meaning": "【ながしこむ】注入；灌入（数据流）〈动1〉",
+  "level": "IT",
+  "need": 3
+ },
+ "例外処理": {
+  "reading": "れいがいしょり",
+  "meaning": "【れいがいしょり】异常处理〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "論理演算": {
+  "reading": "ろんりえんざん",
+  "meaning": "【ろんりえんざん】逻辑运算〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "論理回路": {
+  "reading": "ろんりかいろ",
+  "meaning": "【ろんりかいろ】逻辑电路〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "論理素子": {
+  "reading": "ろんりそし",
+  "meaning": "【ろんりそし】逻辑元件；门电路〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "読み出し": {
+  "reading": "よみだし",
+  "meaning": "【よみだし】读出；读取〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "負荷分散": {
+  "reading": "ふかぶんさん",
+  "meaning": "【ふかぶんさん】负载均衡〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "情報検索": {
+  "reading": "じょうほうけんさく",
+  "meaning": "【じょうほうけんさく】信息检索〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "記憶素子": {
+  "reading": "きおくそし",
+  "meaning": "【きおくそし】存储元件〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "圧縮効率": {
+  "reading": "あっしゅくこうりつ",
+  "meaning": "【あっしゅくこうりつ】压缩效率〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "添付書類": {
+  "reading": "てんぷしょるい",
+  "meaning": "【てんぷしょるい】附件（邮件等）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "演算装置": {
+  "reading": "えんざんそうち",
+  "meaning": "【えんざんそうち】运算器〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "自動実行": {
+  "reading": "じどうじっこう",
+  "meaning": "【じどうじっこう】自动运行〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "自動解凍": {
+  "reading": "じどうかいとう",
+  "meaning": "【じどうかいとう】自解压（文件）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "常時接続": {
+  "reading": "じょうじせつぞく",
+  "meaning": "【じょうじせつぞく】常时在线；持续连接〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "転送速度": {
+  "reading": "てんそうそくど",
+  "meaning": "【てんそうそくど】传输速度；转发速度〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "電子署名": {
+  "reading": "でんししょめい",
+  "meaning": "【でんししょめい】电子签名〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "環境設定": {
+  "reading": "かんきょうせってい",
+  "meaning": "【かんきょうせってい】环境设置；偏好设置〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "空白文字": {
+  "reading": "くうはくもじ",
+  "meaning": "【くうはくもじ】空白字符〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "主従関係": {
+  "reading": "しゅじゅうかんけい",
+  "meaning": "【しゅじゅうかんけい】主从关系〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "音声認識": {
+  "reading": "おんせいにんしき",
+  "meaning": "【おんせいにんしき】语音识别〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "透過画像": {
+  "reading": "とうかがぞう",
+  "meaning": "【とうかがぞう】透明背景图像〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "用紙送り": {
+  "reading": "ようしおくり",
+  "meaning": "【ようしおくり】进纸〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "IP電話": {
+  "reading": "アイピーでんわ",
+  "meaning": "【アイピーでんわ】IP 电话；网络电话（VoIP）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "寡占": {
+  "reading": "かせん",
+  "meaning": "【かせん】寡头垄断；寡占〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "恐慌": {
+  "reading": "きょうこう",
+  "meaning": "【きょうこう】恐慌；经济恐慌〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "硬化": {
+  "reading": "こうか",
+  "meaning": "【こうか】（行情）坚挺；硬化〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "債券": {
+  "reading": "さいけん",
+  "meaning": "【さいけん】债券〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "思惑": {
+  "reading": "おもわく",
+  "meaning": "【おもわく】投机；想法；（市场上的）预期〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "手形": {
+  "reading": "てがた",
+  "meaning": "【てがた】票据；汇票；支票〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "終値": {
+  "reading": "おわりね",
+  "meaning": "【おわりね】收盘价〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "限り": {
+  "reading": "きり",
+  "meaning": "【きり】交割日（期货）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "先物": {
+  "reading": "さきもの",
+  "meaning": "【さきもの】期货〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "叩き": {
+  "reading": "たたき",
+  "meaning": "【たたき】草案；讨论的草稿〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "暖簾": {
+  "reading": "のれん",
+  "meaning": "【のれん】商誉；（店）门帘〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "店頭": {
+  "reading": "てんとう",
+  "meaning": "【てんとう】店头；柜台；（证券）场外〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "軟化": {
+  "reading": "なんか",
+  "meaning": "【なんか】（行情）疲软；软化；变软〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "複利": {
+  "reading": "ふくり",
+  "meaning": "【ふくり】复利〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "銘柄": {
+  "reading": "めいがら",
+  "meaning": "【めいがら】（交易的）品种；股票代码；牌子〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "離反": {
+  "reading": "りはん",
+  "meaning": "【りはん】（客户）流失；离心；背离〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "元金": {
+  "reading": "がんきん",
+  "meaning": "【がんきん】本金〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "大台": {
+  "reading": "おおだい",
+  "meaning": "【おおだい】大关（股价整数关口）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "新株": {
+  "reading": "しんかぶ",
+  "meaning": "【しんかぶ】新股〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "タイト": {
+  "reading": "",
+  "meaning": "（资金）紧；紧俏〈ナ形〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "フロー": {
+  "reading": "",
+  "meaning": "流量；流程〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "ヘッジ": {
+  "reading": "",
+  "meaning": "对冲；套期保值〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "購買力": {
+  "reading": "こうばいりょく",
+  "meaning": "【こうばいりょく】购买力〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "消費者": {
+  "reading": "しょうひしゃ",
+  "meaning": "【しょうひしゃ】消费者〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "騰げる": {
+  "reading": "あげる",
+  "meaning": "【あげる】上涨（行情、股价）〈动2〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "生産者": {
+  "reading": "せいさんしゃ",
+  "meaning": "【せいさんしゃ】生产者；厂商〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "即戦力": {
+  "reading": "そくせんりょく",
+  "meaning": "【そくせんりょく】即战力；能立即派上用场的人才〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "カルテル": {
+  "reading": "",
+  "meaning": "卡特尔；企业联盟〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "ショート": {
+  "reading": "",
+  "meaning": "做空；卖空；短缺〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "ストック": {
+  "reading": "",
+  "meaning": "存量；库存；股份〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "フロート": {
+  "reading": "",
+  "meaning": "浮动（汇率）；浮点〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "ワラント": {
+  "reading": "",
+  "meaning": "认股权证〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "成り行き": {
+  "reading": "なりゆき",
+  "meaning": "【なりゆき】市价单；趋势；进展〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "投資信託": {
+  "reading": "とうししんたく",
+  "meaning": "【とうししんたく】投资信托；基金〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "物価指数": {
+  "reading": "ぶっかしすう",
+  "meaning": "【ぶっかしすう】物价指数〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "オプション": {
+  "reading": "",
+  "meaning": "期权；选项；可选配件〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "クレジット": {
+  "reading": "",
+  "meaning": "信用；赊购；信用卡〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "ディーラー": {
+  "reading": "",
+  "meaning": "交易员；经销商〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "ダンピング": {
+  "reading": "",
+  "meaning": "倾销〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "メーンバンク": {
+  "reading": "",
+  "meaning": "主往来银行（主要融资行）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "リセッション": {
+  "reading": "",
+  "meaning": "经济衰退〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "鞘": {
+  "reading": "さや",
+  "meaning": "【さや】差价；价差；佣金〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "旧株": {
+  "reading": "きゅうかぶ",
+  "meaning": "【きゅうかぶ】旧股〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "繋ぎ": {
+  "reading": "つなぎ",
+  "meaning": "【つなぎ】对冲；过桥；衔接〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "単利": {
+  "reading": "たんり",
+  "meaning": "【たんり】单利〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "日歩": {
+  "reading": "ひぶ",
+  "meaning": "【ひぶ】日息；日利〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "親株": {
+  "reading": "おやかぶ",
+  "meaning": "【おやかぶ】母股；旧股〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "日脚": {
+  "reading": "ひあし",
+  "meaning": "【ひあし】日K线〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "子株": {
+  "reading": "こかぶ",
+  "meaning": "【こかぶ】子股；新股〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "特融": {
+  "reading": "とくゆう",
+  "meaning": "【とくゆう】特别融资〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "始値": {
+  "reading": "はじめね",
+  "meaning": "【はじめね】开盘价〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "建玉": {
+  "reading": "たてぎょく",
+  "meaning": "【たてぎょく】持仓；未平仓合约〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "証憑": {
+  "reading": "しょうひょう",
+  "meaning": "【しょうひょう】凭证；书面证据〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "借株": {
+  "reading": "かりかぶ",
+  "meaning": "【かりかぶ】借股；融券〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "難平": {
+  "reading": "なんぴん",
+  "meaning": "【なんぴん】摊平（亏损加仓）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "追証": {
+  "reading": "おいしょう",
+  "meaning": "【おいしょう】追加保证金〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "特損": {
+  "reading": "とくそん",
+  "meaning": "【とくそん】特别损失（非经常性损失）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "陽線": {
+  "reading": "ようせん",
+  "meaning": "【ようせん】阳线（K线）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "陰線": {
+  "reading": "いんせん",
+  "meaning": "【いんせん】阴线（K线）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "平取": {
+  "reading": "ひらとり",
+  "meaning": "【ひらとり】非执行董事；普通董事〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "純損": {
+  "reading": "じゅんそん",
+  "meaning": "【じゅんそん】净损失〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "週足": {
+  "reading": "しゅうあし",
+  "meaning": "【しゅうあし】周K线〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "年足": {
+  "reading": "ねんあし",
+  "meaning": "【ねんあし】年K线〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "月足": {
+  "reading": "つきあし",
+  "meaning": "【つきあし】月K线〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "予実": {
+  "reading": "よじつ",
+  "meaning": "【よじつ】预算与实际（对比）〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "翌期": {
+  "reading": "よくき",
+  "meaning": "【よくき】下期；下一会计期〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "赤伝": {
+  "reading": "あかでん",
+  "meaning": "【あかでん】红字冲销单（作废单据）〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "黒伝": {
+  "reading": "くろでん",
+  "meaning": "【くろでん】正常业务单据〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "悪材料": {
+  "reading": "あくざいりょう",
+  "meaning": "【あくざいりょう】利空因素；坏消息〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "仮定款": {
+  "reading": "かりていかん",
+  "meaning": "【かりていかん】暂定公司章程〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "強含み": {
+  "reading": "つよふくみ",
+  "meaning": "【つよふくみ】行情趋涨；看涨态势〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "空相場": {
+  "reading": "からそうば",
+  "meaning": "【からそうば】虚假交易；买空卖空〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "罫線表": {
+  "reading": "けいせんひょう",
+  "meaning": "【けいせんひょう】K线图；走势图〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "先渡し": {
+  "reading": "さきわたし",
+  "meaning": "【さきわたし】远期交割〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "粗利益": {
+  "reading": "あらりえき",
+  "meaning": "【あらりえき】毛利；毛利润〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "単利法": {
+  "reading": "たんりほう",
+  "meaning": "【たんりほう】单利计息法〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "値動き": {
+  "reading": "ねうごき",
+  "meaning": "【ねうごき】价格波动；价格走势〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "直取引": {
+  "reading": "じきとりひき",
+  "meaning": "【じきとりひき】直接交易；现货交易〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "底抜け": {
+  "reading": "そこぬけ",
+  "meaning": "【そこぬけ】（行情）暴跌不止；一泻千里〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "店頭株": {
+  "reading": "てんとうかぶ",
+  "meaning": "【てんとうかぶ】场外交易股票〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "普通株": {
+  "reading": "ふつうかぶ",
+  "meaning": "【ふつうかぶ】普通股〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "後配株": {
+  "reading": "こうはいかぶ",
+  "meaning": "【こうはいかぶ】后配股；劣后股〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "空取引": {
+  "reading": "からとりひき",
+  "meaning": "【からとりひき】虚构交易；空头交易〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "空売り": {
+  "reading": "からうり",
+  "meaning": "【からうり】卖空；做空〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "配分法": {
+  "reading": "はいぶんほう",
+  "meaning": "【はいぶんほう】分摊法（会计）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "浮き足": {
+  "reading": "うきあし",
+  "meaning": "【うきあし】（行情）剧烈波动；不稳定；慌乱〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "相場師": {
+  "reading": "そうばし",
+  "meaning": "【そうばし】投机商；炒家〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "利ざや": {
+  "reading": "りざや",
+  "meaning": "【りざや】利差；利润差额〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "記名株": {
+  "reading": "きめいかぶ",
+  "meaning": "【きめいかぶ】记名股票〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "複利法": {
+  "reading": "ふくりほう",
+  "meaning": "【ふくりほう】复利计息法〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "弱含み": {
+  "reading": "よわふくみ",
+  "meaning": "【よわふくみ】行情趋跌；看跌态势〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "好材料": {
+  "reading": "こうざいりょう",
+  "meaning": "【こうざいりょう】利好因素；好消息〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "中間財": {
+  "reading": "ちゅうかんざい",
+  "meaning": "【ちゅうかんざい】中间产品；中间品〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "頭出し": {
+  "reading": "あたまだし",
+  "meaning": "【あたまだし】开头简介；先说明要点〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "方向性": {
+  "reading": "ほうこうせい",
+  "meaning": "【ほうこうせい】方向性；目标；方针〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "報連相": {
+  "reading": "ほうれんそう",
+  "meaning": "【ほうれんそう】报告、联络、商谈（职场沟通原则）〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "不胎化": {
+  "reading": "ふたいか",
+  "meaning": "【ふたいか】冲销（央行操作）〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "最安値": {
+  "reading": "さいやすね",
+  "meaning": "【さいやすね】最低价；历史最低〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "最高値": {
+  "reading": "さいたかね",
+  "meaning": "【さいたかね】最高价；历史最高〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "損切り": {
+  "reading": "そんぎり",
+  "meaning": "【そんぎり】止损；割肉〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "製品群": {
+  "reading": "せいひんぐん",
+  "meaning": "【せいひんぐん】产品系列；产品群〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "社内便": {
+  "reading": "しゃないびん",
+  "meaning": "【しゃないびん】公司内部邮件；内部信函〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "黄金株": {
+  "reading": "おうごんかぶ",
+  "meaning": "【おうごんかぶ】黄金股（一票否决权股）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "原資産": {
+  "reading": "げんしさん",
+  "meaning": "【げんしさん】标的资产（衍生品）〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "内出来": {
+  "reading": "うちでき",
+  "meaning": "【うちでき】部分成交〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "回転率": {
+  "reading": "かいてんりつ",
+  "meaning": "【かいてんりつ】周转率〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "見せ玉": {
+  "reading": "みせぎょく",
+  "meaning": "【みせぎょく】虚假挂单（诱多诱空操纵）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "見せ板": {
+  "reading": "みせいた",
+  "meaning": "【みせいた】虚假挂单（诱多诱空操纵）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "社債券": {
+  "reading": "しゃさいけん",
+  "meaning": "【しゃさいけん】公司债券〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "掛取引": {
+  "reading": "かけとりひき",
+  "meaning": "【かけとりひき】赊账交易；挂账买卖〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "持ち高": {
+  "reading": "もちだか",
+  "meaning": "【もちだか】头寸；持仓〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "非上場": {
+  "reading": "ひじょうじょう",
+  "meaning": "【ひじょうじょう】未上市〈ナ形〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "受渡日": {
+  "reading": "うけわたしび",
+  "meaning": "【うけわたしび】交割日；结算日〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "綾戻し": {
+  "reading": "あやもどし",
+  "meaning": "【あやもどし】技术性回调〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "最終財": {
+  "reading": "さいしゅうざい",
+  "meaning": "【さいしゅうざい】最终产品〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "基本財": {
+  "reading": "きほんざい",
+  "meaning": "【きほんざい】基本财；初级财货〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "純損失": {
+  "reading": "じゅんそんしつ",
+  "meaning": "【じゅんそんしつ】净亏损〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "平衡税": {
+  "reading": "へいこうぜい",
+  "meaning": "【へいこうぜい】平衡税；反补贴税〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "益回り": {
+  "reading": "えきまわり",
+  "meaning": "【えきまわり】收益率（股价收益率倒数）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "連れ高": {
+  "reading": "つれだか",
+  "meaning": "【つれだか】跟涨（随其他股票上涨）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "二番底": {
+  "reading": "にばんぞこ",
+  "meaning": "【にばんぞこ】二次探底；双底〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "長期債": {
+  "reading": "ちょうきさい",
+  "meaning": "【ちょうきさい】长期债券〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "含み損": {
+  "reading": "ふくみそん",
+  "meaning": "【ふくみそん】浮亏；账面亏损〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "地位財": {
+  "reading": "ちいざい",
+  "meaning": "【ちいざい】身份象征性商品〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "譲渡益": {
+  "reading": "じょうとえき",
+  "meaning": "【じょうとえき】转让收益；资本利得〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "支持線": {
+  "reading": "しじせん",
+  "meaning": "【しじせん】支撑线〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "抵抗線": {
+  "reading": "ていこうせん",
+  "meaning": "【ていこうせん】阻力线；压力线〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "売為替": {
+  "reading": "うりがわせ",
+  "meaning": "【うりがわせ】卖出外汇〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "含み益": {
+  "reading": "ふくみえき",
+  "meaning": "【ふくみえき】浮盈；账面盈利〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "種類株": {
+  "reading": "しゅるいかぶ",
+  "meaning": "【しゅるいかぶ】类别股（优先股等）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "代理商": {
+  "reading": "だいりしょう",
+  "meaning": "【だいりしょう】代理商；代理人〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "劣後株": {
+  "reading": "れつごかぶ",
+  "meaning": "【れつごかぶ】劣后股；后配股〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "新発債": {
+  "reading": "しんぱつさい",
+  "meaning": "【しんぱつさい】新发债券〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "順日歩": {
+  "reading": "じゅんひぶ",
+  "meaning": "【じゅんひぶ】顺日息（融券日息）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "逆日歩": {
+  "reading": "ぎゃくひぶ",
+  "meaning": "【ぎゃくひぶ】逆日息（融券贴费）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "控除率": {
+  "reading": "こうじょりつ",
+  "meaning": "【こうじょりつ】扣除率〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "逆張り": {
+  "reading": "ぎゃくばり",
+  "meaning": "【ぎゃくばり】逆势操作；反向投资〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "順張り": {
+  "reading": "じゅんばり",
+  "meaning": "【じゅんばり】顺势操作；趋势跟随〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "経費率": {
+  "reading": "けいひりつ",
+  "meaning": "【けいひりつ】费用率〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "乖離率": {
+  "reading": "かいりりつ",
+  "meaning": "【かいりりつ】乖离率；偏离率〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "配当額": {
+  "reading": "はいとうがく",
+  "meaning": "【はいとうがく】分红金额；股息额〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "ミニ株": {
+  "reading": "ミニかぶ",
+  "meaning": "【ミニかぶ】迷你股（小额股票投资）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "足取表": {
+  "reading": "あしどりひょう",
+  "meaning": "【あしどりひょう】行情表；K线图〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "死の谷": {
+  "reading": "しのたに",
+  "meaning": "【しのたに】死亡之谷（产品开发到商业化的鸿沟）〈惯〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "受注率": {
+  "reading": "じゅちゅうりつ",
+  "meaning": "【じゅちゅうりつ】接单率；赢单率〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "統括部": {
+  "reading": "とうかつぶ",
+  "meaning": "【とうかつぶ】统括部门；总管部门〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "繰戻し": {
+  "reading": "くりもどし",
+  "meaning": "【くりもどし】亏损弥补（结转前期）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "需要家": {
+  "reading": "じゅようか",
+  "meaning": "【じゅようか】用户；需求方；买主〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "単元株": {
+  "reading": "たんげんかぶ",
+  "meaning": "【たんげんかぶ】单位股（最小交易单位）〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "執行者": {
+  "reading": "しっこうしゃ",
+  "meaning": "【しっこうしゃ】执行官；执行者〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "底這い": {
+  "reading": "そこばい",
+  "meaning": "【そこばい】低位徘徊（价格、经济）〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "会計監査": {
+  "reading": "かいけいかんさ",
+  "meaning": "【かいけいかんさ】会计审计〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "株式公開": {
+  "reading": "かぶしきこうかい",
+  "meaning": "【かぶしきこうかい】股票公开发行；上市〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "企業戦略": {
+  "reading": "きぎょうせんりゃく",
+  "meaning": "【きぎょうせんりゃく】企业战略〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "実物取引": {
+  "reading": "じつぶつとりひき",
+  "meaning": "【じつぶつとりひき】现货交易〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "乗数効果": {
+  "reading": "じょうすうこうか",
+  "meaning": "【じょうすうこうか】乘数效应〈名〉",
+  "level": "BIZ",
+  "need": 2
+ },
+ "店頭債券": {
+  "reading": "てんとうさいけん",
+  "meaning": "【てんとうさいけん】场外债券〈名〉",
+  "level": "BIZ",
+  "need": 3
+ },
+ "店頭取引": {
+  "reading": "てんとうとりひき",
+  "meaning": "【てんとうとりひき】场外交易〈名〉",
+  "level": "BIZ",
+  "need": 3
+ }
+}

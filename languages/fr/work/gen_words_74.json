@@ -1,0 +1,602 @@
+[
+{
+"word": "purger",
+"pos": "v.",
+"zh": "服（刑）；清除",
+"level": "b2"
+},
+{
+"word": "purifier",
+"pos": "v.",
+"zh": "净化；提纯",
+"level": "b2"
+},
+{
+"word": "puéril",
+"pos": "adj.",
+"zh": "幼稚的；孩子气的",
+"level": "b2"
+},
+{
+"word": "python",
+"pos": "n.m.",
+"zh": "蟒蛇",
+"level": "b2"
+},
+{
+"word": "pèlerin",
+"pos": "n.m.",
+"zh": "朝圣者",
+"level": "b2"
+},
+{
+"word": "pèlerinage",
+"pos": "n.m.",
+"zh": "朝圣；朝觐",
+"level": "b2"
+},
+{
+"word": "pécher",
+"pos": "v.",
+"zh": "犯罪；作孽",
+"level": "b2"
+},
+{
+"word": "pédale",
+"pos": "n.f.",
+"zh": "踏板",
+"level": "b2"
+},
+{
+"word": "pénal",
+"pos": "adj.",
+"zh": "刑事的",
+"level": "b2"
+},
+{
+"word": "pénitentiaire",
+"pos": "adj.",
+"zh": "监狱的；刑罚的",
+"level": "b2"
+},
+{
+"word": "pénétration",
+"pos": "n.f.",
+"zh": "穿透；洞察",
+"level": "b2"
+},
+{
+"word": "pépin",
+"pos": "n.m.",
+"zh": "果核；小麻烦",
+"level": "b2"
+},
+{
+"word": "péril",
+"pos": "n.m.",
+"zh": "危险",
+"level": "b2"
+},
+{
+"word": "périmètre",
+"pos": "n.m.",
+"zh": "周长；周边范围",
+"level": "b2"
+},
+{
+"word": "périr",
+"pos": "v.",
+"zh": "丧生；灭亡",
+"level": "b2"
+},
+{
+"word": "pétard",
+"pos": "n.m.",
+"zh": "爆竹；鞭炮",
+"level": "b2"
+},
+{
+"word": "pétrifier",
+"pos": "v.",
+"zh": "使石化；使惊呆",
+"level": "b2"
+},
+{
+"word": "pétrin",
+"pos": "n.m.",
+"zh": "困境（口语）；揉面槽",
+"level": "b2"
+},
+{
+"word": "pôle",
+"pos": "n.m.",
+"zh": "极；极点；中心",
+"level": "b2"
+},
+{
+"word": "quant",
+"pos": "n.f.",
+"zh": "至于",
+"level": "b2"
+},
+{
+"word": "quelconque",
+"pos": "adj.",
+"zh": "普通的；随便哪个的",
+"level": "b2"
+},
+{
+"word": "querelle",
+"pos": "n.f.",
+"zh": "争吵",
+"level": "b2"
+},
+{
+"word": "quiconque",
+"pos": "pron.",
+"zh": "任何人；无论谁",
+"level": "b2"
+},
+{
+"word": "quille",
+"pos": "n.f.",
+"zh": "木瓶；腿（口语）",
+"level": "b2"
+},
+{
+"word": "quitte",
+"pos": "adj.",
+"zh": "两清的；偿清的",
+"level": "b2"
+},
+{
+"word": "quête",
+"pos": "n.f.",
+"zh": "寻求；募捐；探索",
+"level": "b2"
+},
+{
+"word": "rabaisser",
+"pos": "v.",
+"zh": "降低；贬低",
+"level": "b2"
+},
+{
+"word": "rabattre",
+"pos": "v.",
+"zh": "折下；驱赶；压低",
+"level": "b2"
+},
+{
+"word": "rabbi",
+"pos": "n.m.",
+"zh": "拉比（犹太教士）",
+"level": "b2"
+},
+{
+"word": "rabbin",
+"pos": "n.m.",
+"zh": "拉比；犹太教士",
+"level": "b2"
+},
+{
+"word": "racaille",
+"pos": "n.f.",
+"zh": "无赖；人渣（贬）",
+"level": "b2"
+},
+{
+"word": "raccourci",
+"pos": "n.m.",
+"zh": "捷径；快捷键",
+"level": "b2"
+},
+{
+"word": "racket",
+"pos": "n.m.",
+"zh": "敲诈；勒索",
+"level": "b2"
+},
+{
+"word": "raclée",
+"pos": "n.f.",
+"zh": "一顿毒打；惨败",
+"level": "b2"
+},
+{
+"word": "rade",
+"pos": "n.f.",
+"zh": "港湾；锚地",
+"level": "b2"
+},
+{
+"word": "radiation",
+"pos": "n.f.",
+"zh": "除名；除籍",
+"level": "b2"
+},
+{
+"word": "radieux",
+"pos": "adj.",
+"zh": "灿烂的；容光焕发的",
+"level": "b2"
+},
+{
+"word": "radioactif",
+"pos": "adj.",
+"zh": "放射性的",
+"level": "b2"
+},
+{
+"word": "raffiné",
+"pos": "adj.",
+"zh": "精致的；精炼的",
+"level": "b2"
+},
+{
+"word": "rafler",
+"pos": "v.",
+"zh": "席卷；一举夺得",
+"level": "b2"
+},
+{
+"word": "rafraîchir",
+"pos": "v.",
+"zh": "使凉爽；使清新；刷新",
+"level": "b2"
+},
+{
+"word": "ragot",
+"pos": "n.m.",
+"zh": "流言；闲话",
+"level": "b2"
+},
+{
+"word": "raid",
+"pos": "n.m.",
+"zh": "突袭；远征",
+"level": "b2"
+},
+{
+"word": "rail",
+"pos": "n.m.",
+"zh": "铁轨；轨道",
+"level": "b2"
+},
+{
+"word": "railler",
+"pos": "v.",
+"zh": "嘲笑；讥讽",
+"level": "b2"
+},
+{
+"word": "rajeunir",
+"pos": "v.",
+"zh": "使年轻；显年轻",
+"level": "b2"
+},
+{
+"word": "ralenti",
+"pos": "n.m.",
+"zh": "慢动作；减速",
+"level": "b2"
+},
+{
+"word": "rallier",
+"pos": "v.",
+"zh": "重新集合；驶抵",
+"level": "b2"
+},
+{
+"word": "rame",
+"pos": "n.f.",
+"zh": "桨；一沓纸",
+"level": "b2"
+},
+{
+"word": "ramer",
+"pos": "v.",
+"zh": "划桨；费力前行",
+"level": "b2"
+},
+{
+"word": "ramollir",
+"pos": "v.",
+"zh": "使变软；使松懈",
+"level": "b2"
+},
+{
+"word": "rampe",
+"pos": "n.f.",
+"zh": "坡道；扶手",
+"level": "b2"
+},
+{
+"word": "rancard",
+"pos": "n.m.",
+"zh": "约会；约见（口语）",
+"level": "b2"
+},
+{
+"word": "rancune",
+"pos": "n.f.",
+"zh": "怨恨；积怨",
+"level": "b2"
+},
+{
+"word": "ranimer",
+"pos": "v.",
+"zh": "使苏醒；重燃",
+"level": "b2"
+},
+{
+"word": "rançon",
+"pos": "n.f.",
+"zh": "赎金",
+"level": "b2"
+},
+{
+"word": "rapatrier",
+"pos": "v.",
+"zh": "遣返；撤回",
+"level": "b2"
+},
+{
+"word": "rappliquer",
+"pos": "v.",
+"zh": "赶来；再次登门（口语）",
+"level": "b2"
+},
+{
+"word": "ras",
+"pos": "adj.",
+"zh": "齐平的",
+"level": "b2"
+},
+{
+"word": "rassemblement",
+"pos": "n.m.",
+"zh": "集会；聚集",
+"level": "b2"
+},
+{
+"word": "ration",
+"pos": "n.f.",
+"zh": "口粮；定量",
+"level": "b2"
+},
+{
+"word": "rationnel",
+"pos": "adj.",
+"zh": "理性的；合理的",
+"level": "b2"
+},
+{
+"word": "ratisser",
+"pos": "v.",
+"zh": "耙拢；搜查",
+"level": "b2"
+},
+{
+"word": "ravage",
+"pos": "n.m.",
+"zh": "破坏；毁坏",
+"level": "b2"
+},
+{
+"word": "ravager",
+"pos": "v.",
+"zh": "毁坏；蹂躏",
+"level": "b2"
+},
+{
+"word": "ravin",
+"pos": "n.m.",
+"zh": "沟壑；深谷",
+"level": "b2"
+},
+{
+"word": "ravioli",
+"pos": "n.m.",
+"zh": "意式方饺",
+"level": "b2"
+},
+{
+"word": "ravir",
+"pos": "v.",
+"zh": "使欣喜；夺走",
+"level": "b2"
+},
+{
+"word": "ravissant",
+"pos": "adj.",
+"zh": "迷人的；非常美的",
+"level": "b2"
+},
+{
+"word": "ravisseur",
+"pos": "n.m.",
+"zh": "绑架者；劫持者",
+"level": "b2"
+},
+{
+"word": "ravitaillement",
+"pos": "n.m.",
+"zh": "补给；粮食供应",
+"level": "b2"
+},
+{
+"word": "raviver",
+"pos": "v.",
+"zh": "重新点燃；唤起",
+"level": "b2"
+},
+{
+"word": "rayer",
+"pos": "v.",
+"zh": "划伤；划掉",
+"level": "b2"
+},
+{
+"word": "rayonner",
+"pos": "v.",
+"zh": "发光；焕发光彩",
+"level": "b2"
+},
+{
+"word": "rebeller",
+"pos": "v.",
+"zh": "反抗；不服管束",
+"level": "b2"
+},
+{
+"word": "rebord",
+"pos": "n.m.",
+"zh": "边缘；窗沿",
+"level": "b2"
+},
+{
+"word": "rebours",
+"pos": "adv.",
+"zh": "逆向；倒着",
+"level": "b2"
+},
+{
+"word": "rechange",
+"pos": "n.m.",
+"zh": "更换；备用",
+"level": "b2"
+},
+{
+"word": "recherché",
+"pos": "adj.",
+"zh": "精致的；考究的",
+"level": "b2"
+},
+{
+"word": "recoin",
+"pos": "n.m.",
+"zh": "角落；隐蔽处",
+"level": "b2"
+},
+{
+"word": "reconduire",
+"pos": "v.",
+"zh": "押送回去；续签；延长",
+"level": "b2"
+},
+{
+"word": "reconstituer",
+"pos": "v.",
+"zh": "重建；还原",
+"level": "b2"
+},
+{
+"word": "reconstitution",
+"pos": "n.f.",
+"zh": "复原；重现",
+"level": "b2"
+},
+{
+"word": "reconstruction",
+"pos": "n.f.",
+"zh": "重建",
+"level": "b2"
+},
+{
+"word": "recoucher",
+"pos": "v.",
+"zh": "使再躺下；再睡",
+"level": "b2"
+},
+{
+"word": "recoudre",
+"pos": "v.",
+"zh": "重新缝上；缝补",
+"level": "b2"
+},
+{
+"word": "recours",
+"pos": "n.m.",
+"zh": "求助；追索权",
+"level": "b2"
+},
+{
+"word": "recracher",
+"pos": "v.",
+"zh": "吐出；原样倒出",
+"level": "b2"
+},
+{
+"word": "recrue",
+"pos": "n.f.",
+"zh": "新兵；新手",
+"level": "b2"
+},
+{
+"word": "recréer",
+"pos": "v.",
+"zh": "重现；再创造",
+"level": "b2"
+},
+{
+"word": "recteur",
+"pos": "n.m.",
+"zh": "大学校长；学区总长",
+"level": "b2"
+},
+{
+"word": "recueillir",
+"pos": "v.",
+"zh": "收集；收留",
+"level": "b2"
+},
+{
+"word": "recul",
+"pos": "n.m.",
+"zh": "后退；（时间）推移",
+"level": "b2"
+},
+{
+"word": "reddition",
+"pos": "n.f.",
+"zh": "投降",
+"level": "b2"
+},
+{
+"word": "redevable",
+"pos": "adj.",
+"zh": "感激的；应偿付的",
+"level": "b2"
+},
+{
+"word": "redonner",
+"pos": "v.",
+"zh": "归还；重新给予",
+"level": "b2"
+},
+{
+"word": "redoubler",
+"pos": "v.",
+"zh": "加倍；留级重读",
+"level": "b2"
+},
+{
+"word": "redoutable",
+"pos": "adj.",
+"zh": "可怕的；厉害的",
+"level": "b2"
+},
+{
+"word": "redouter",
+"pos": "v.",
+"zh": "畏惧；担忧",
+"level": "b2"
+},
+{
+"word": "refiler",
+"pos": "v.",
+"zh": "转交；偷偷塞给（口语）",
+"level": "b2"
+}
+]

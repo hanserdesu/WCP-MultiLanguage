@@ -1,0 +1,602 @@
+[
+{
+"word": "farine",
+"pos": "n.f.",
+"zh": "面粉",
+"level": "a2"
+},
+{
+"word": "fast-food",
+"pos": "n.m.",
+"zh": "快餐",
+"level": "a2"
+},
+{
+"word": "fatigant",
+"pos": "adj.",
+"zh": "累人的",
+"level": "a2"
+},
+{
+"word": "fatiguer",
+"pos": "v.",
+"zh": "使疲劳；使累",
+"level": "a2"
+},
+{
+"word": "faute",
+"pos": "n.f.",
+"zh": "错误；过失；犯规",
+"level": "a2"
+},
+{
+"word": "fauteuil",
+"pos": "n.m.",
+"zh": "扶手椅",
+"level": "a2"
+},
+{
+"word": "faux",
+"pos": "adj.",
+"zh": "假的；错误的",
+"level": "a2"
+},
+{
+"word": "faveur",
+"pos": "n.f.",
+"zh": "恩惠；好感",
+"level": "a2"
+},
+{
+"word": "favori",
+"pos": "adj.",
+"zh": "最喜欢的；热门的",
+"level": "a2"
+},
+{
+"word": "fax",
+"pos": "n.m.",
+"zh": "传真；传真机",
+"level": "a2"
+},
+{
+"word": "façon",
+"pos": "n.f.",
+"zh": "方式；方法",
+"level": "a2"
+},
+{
+"word": "fer",
+"pos": "n.m.",
+"zh": "铁；熨斗",
+"level": "a2"
+},
+{
+"word": "ferme",
+"pos": "n.f.",
+"zh": "农场；农庄",
+"level": "a2"
+},
+{
+"word": "fermier",
+"pos": "n.m.",
+"zh": "农场主；农民",
+"level": "a2"
+},
+{
+"word": "fesse",
+"pos": "n.f.",
+"zh": "臀部；屁股",
+"level": "a2"
+},
+{
+"word": "festival",
+"pos": "n.m.",
+"zh": "节；艺术节",
+"level": "a2"
+},
+{
+"word": "feu",
+"pos": "n.m.",
+"zh": "火；火光；红绿灯",
+"level": "a2"
+},
+{
+"word": "feuille",
+"pos": "n.f.",
+"zh": "叶子；纸张",
+"level": "a2"
+},
+{
+"word": "fiancer",
+"pos": "v.",
+"zh": "订婚",
+"level": "a2"
+},
+{
+"word": "fiancé",
+"pos": "n.m.",
+"zh": "未婚夫",
+"level": "a2"
+},
+{
+"word": "fichier",
+"pos": "n.m.",
+"zh": "文件；档案",
+"level": "a2"
+},
+{
+"word": "figure",
+"pos": "n.f.",
+"zh": "脸；人物；图形",
+"level": "a2"
+},
+{
+"word": "fil",
+"pos": "n.m.",
+"zh": "线；线索",
+"level": "a2"
+},
+{
+"word": "fillette",
+"pos": "n.f.",
+"zh": "小女孩",
+"level": "a2"
+},
+{
+"word": "filmer",
+"pos": "v.",
+"zh": "拍摄",
+"level": "a2"
+},
+{
+"word": "filtre",
+"pos": "n.m.",
+"zh": "过滤器；滤嘴",
+"level": "a2"
+},
+{
+"word": "fin",
+"pos": "n.",
+"zh": "结束；末尾；目的",
+"level": "a2"
+},
+{
+"word": "finalement",
+"pos": "adv.",
+"zh": "最终；到底",
+"level": "a2"
+},
+{
+"word": "fini",
+"pos": "adj.",
+"zh": "完结的；结束了的",
+"level": "a2"
+},
+{
+"word": "fixe",
+"pos": "adj.",
+"zh": "固定的",
+"level": "a2"
+},
+{
+"word": "fièvre",
+"pos": "n.f.",
+"zh": "发烧",
+"level": "a2"
+},
+{
+"word": "flamme",
+"pos": "n.f.",
+"zh": "火焰",
+"level": "a2"
+},
+{
+"word": "flan",
+"pos": "n.m.",
+"zh": "蛋奶挞；果馅饼",
+"level": "a2"
+},
+{
+"word": "flaque",
+"pos": "n.f.",
+"zh": "水洼；水坑",
+"level": "a2"
+},
+{
+"word": "flash",
+"pos": "n.m.",
+"zh": "闪光；闪光灯；快讯",
+"level": "a2"
+},
+{
+"word": "fleuriste",
+"pos": "n.",
+"zh": "花店；花商",
+"level": "a2"
+},
+{
+"word": "fleuve",
+"pos": "n.m.",
+"zh": "江；大河",
+"level": "a2"
+},
+{
+"word": "flic",
+"pos": "n.m.",
+"zh": "警察（俚语）",
+"level": "a2"
+},
+{
+"word": "flûte",
+"pos": "n.f.",
+"zh": "长笛",
+"level": "a2"
+},
+{
+"word": "fonctionner",
+"pos": "v.",
+"zh": "运转；起作用",
+"level": "a2"
+},
+{
+"word": "foncé",
+"pos": "adj.",
+"zh": "深色的",
+"level": "a2"
+},
+{
+"word": "fontaine",
+"pos": "n.f.",
+"zh": "泉水；喷泉",
+"level": "a2"
+},
+{
+"word": "footballeur",
+"pos": "n.m.",
+"zh": "足球运动员",
+"level": "a2"
+},
+{
+"word": "force",
+"pos": "n.f.",
+"zh": "力气；力量；武力",
+"level": "a2"
+},
+{
+"word": "forme",
+"pos": "n.f.",
+"zh": "形状；形式",
+"level": "a2"
+},
+{
+"word": "formidable",
+"pos": "adj.",
+"zh": "极好的；了不起的",
+"level": "a2"
+},
+{
+"word": "fortune",
+"pos": "n.f.",
+"zh": "财富；运气",
+"level": "a2"
+},
+{
+"word": "forêt",
+"pos": "n.f.",
+"zh": "森林",
+"level": "a2"
+},
+{
+"word": "fou",
+"pos": "adj.",
+"zh": "疯的；狂热的",
+"level": "a2"
+},
+{
+"word": "fouiller",
+"pos": "v.",
+"zh": "翻找；搜查",
+"level": "a2"
+},
+{
+"word": "foulard",
+"pos": "n.m.",
+"zh": "方巾；头巾",
+"level": "a2"
+},
+{
+"word": "four",
+"pos": "n.m.",
+"zh": "烤箱；炉子",
+"level": "a2"
+},
+{
+"word": "fourmi",
+"pos": "n.f.",
+"zh": "蚂蚁",
+"level": "a2"
+},
+{
+"word": "fourrure",
+"pos": "n.f.",
+"zh": "毛皮；裘皮",
+"level": "a2"
+},
+{
+"word": "fragile",
+"pos": "adj.",
+"zh": "易碎的；脆弱的",
+"level": "a2"
+},
+{
+"word": "frais",
+"pos": "adj.",
+"zh": "新鲜的；凉爽的",
+"level": "a2"
+},
+{
+"word": "framboise",
+"pos": "n.f.",
+"zh": "覆盆子；山莓",
+"level": "a2"
+},
+{
+"word": "franc",
+"pos": "adj.",
+"zh": "坦率的；直爽的",
+"level": "a2"
+},
+{
+"word": "franchement",
+"pos": "adv.",
+"zh": "坦率地；说真的",
+"level": "a2"
+},
+{
+"word": "frapper",
+"pos": "v.",
+"zh": "敲；打；撞击",
+"level": "a2"
+},
+{
+"word": "frein",
+"pos": "n.m.",
+"zh": "刹车；制动器",
+"level": "a2"
+},
+{
+"word": "freiner",
+"pos": "v.",
+"zh": "刹车；制止",
+"level": "a2"
+},
+{
+"word": "frigo",
+"pos": "n.m.",
+"zh": "冰箱（口语）",
+"level": "a2"
+},
+{
+"word": "frite",
+"pos": "n.f.",
+"zh": "炸薯条",
+"level": "a2"
+},
+{
+"word": "front",
+"pos": "n.m.",
+"zh": "额头；前线",
+"level": "a2"
+},
+{
+"word": "frontière",
+"pos": "n.f.",
+"zh": "边界；国境",
+"level": "a2"
+},
+{
+"word": "frotter",
+"pos": "v.",
+"zh": "擦；揉搓",
+"level": "a2"
+},
+{
+"word": "fréquent",
+"pos": "adj.",
+"zh": "频繁的；常见的",
+"level": "a2"
+},
+{
+"word": "fumeur",
+"pos": "n.m.",
+"zh": "吸烟者",
+"level": "a2"
+},
+{
+"word": "fumée",
+"pos": "n.f.",
+"zh": "烟；烟雾",
+"level": "a2"
+},
+{
+"word": "fun",
+"pos": "n.m.",
+"zh": "乐趣；有趣",
+"level": "a2"
+},
+{
+"word": "fusil",
+"pos": "n.m.",
+"zh": "枪；步枪",
+"level": "a2"
+},
+{
+"word": "futur",
+"pos": "n.m.",
+"zh": "未来；将来",
+"level": "a2"
+},
+{
+"word": "fâcher",
+"pos": "v.",
+"zh": "使生气；惹恼",
+"level": "a2"
+},
+{
+"word": "fâché",
+"pos": "adj.",
+"zh": "生气的；恼火的",
+"level": "a2"
+},
+{
+"word": "fée",
+"pos": "n.f.",
+"zh": "仙女",
+"level": "a2"
+},
+{
+"word": "félicitation",
+"pos": "n.f.",
+"zh": "祝贺",
+"level": "a2"
+},
+{
+"word": "féliciter",
+"pos": "v.",
+"zh": "祝贺",
+"level": "a2"
+},
+{
+"word": "fêter",
+"pos": "v.",
+"zh": "庆祝",
+"level": "a2"
+},
+{
+"word": "gai",
+"pos": "adj.",
+"zh": "快乐的；欢快的",
+"level": "a2"
+},
+{
+"word": "galerie",
+"pos": "n.f.",
+"zh": "画廊；走廊",
+"level": "a2"
+},
+{
+"word": "gant",
+"pos": "n.m.",
+"zh": "手套",
+"level": "a2"
+},
+{
+"word": "garage",
+"pos": "n.m.",
+"zh": "车库；修车行",
+"level": "a2"
+},
+{
+"word": "garanti",
+"pos": "adj.",
+"zh": "有保证的",
+"level": "a2"
+},
+{
+"word": "garce",
+"pos": "n.f.",
+"zh": "贱人（骂人语）",
+"level": "a2"
+},
+{
+"word": "gardien",
+"pos": "n.m.",
+"zh": "看守者；守门员",
+"level": "a2"
+},
+{
+"word": "garer",
+"pos": "v.",
+"zh": "停放（车辆）",
+"level": "a2"
+},
+{
+"word": "gars",
+"pos": "n.m.",
+"zh": "男孩；家伙（口语）",
+"level": "a2"
+},
+{
+"word": "gaspiller",
+"pos": "v.",
+"zh": "浪费",
+"level": "a2"
+},
+{
+"word": "gay",
+"pos": "adj.",
+"zh": "同性恋的",
+"level": "a2"
+},
+{
+"word": "gaz",
+"pos": "n.m.",
+"zh": "气体；煤气",
+"level": "a2"
+},
+{
+"word": "gazon",
+"pos": "n.m.",
+"zh": "草坪；草皮",
+"level": "a2"
+},
+{
+"word": "geler",
+"pos": "v.",
+"zh": "结冰；冻结；冻僵",
+"level": "a2"
+},
+{
+"word": "gendarme",
+"pos": "n.m.",
+"zh": "宪兵",
+"level": "a2"
+},
+{
+"word": "genou",
+"pos": "n.m.",
+"zh": "膝盖",
+"level": "a2"
+},
+{
+"word": "genre",
+"pos": "n.m.",
+"zh": "类型；种类；性别",
+"level": "a2"
+},
+{
+"word": "gentillesse",
+"pos": "n.f.",
+"zh": "亲切；和善",
+"level": "a2"
+},
+{
+"word": "gentiment",
+"pos": "adv.",
+"zh": "温和地；客气地",
+"level": "a2"
+},
+{
+"word": "geste",
+"pos": "n.",
+"zh": "手势；举动",
+"level": "a2"
+},
+{
+"word": "gilet",
+"pos": "n.m.",
+"zh": "背心；马甲",
+"level": "a2"
+}
+]

@@ -1,0 +1,12 @@
+日语词的 masteryLevel 分布: {0: 73}
+  未标(0) = True
+  易忘(1) = True
+  一般(2) = True
+  较好(3) = True
+  很好(4) = True
+  词破(5) = False
+
+S8TestWordList_DailyReview n = 72
+  含日语 = 72
+allTestWordsS10_Para n = 100
+  含日语 = 0

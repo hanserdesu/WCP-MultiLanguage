@@ -1,0 +1,602 @@
+[
+{
+"word": "unangenehm",
+"pos": "adj.",
+"zh": "令人不快的",
+"level": "a2"
+},
+{
+"word": "Ausrüstung",
+"pos": "n.f.",
+"zh": "装备",
+"level": "a2"
+},
+{
+"word": "Segen",
+"pos": "n.m.",
+"zh": "祝福",
+"level": "a2"
+},
+{
+"word": "präsentieren",
+"pos": "v.",
+"zh": "展示",
+"level": "a2"
+},
+{
+"word": "Kehle",
+"pos": "n.f.",
+"zh": "喉咙",
+"level": "a2"
+},
+{
+"word": "Krone",
+"pos": "n.f.",
+"zh": "王冠",
+"level": "a2"
+},
+{
+"word": "garantiert",
+"pos": "adj.",
+"zh": "保证的",
+"level": "a2"
+},
+{
+"word": "Ladung",
+"pos": "n.f.",
+"zh": "载荷；传票",
+"level": "a2"
+},
+{
+"word": "hell",
+"pos": "adj.",
+"zh": "明亮的",
+"level": "a2"
+},
+{
+"word": "Kapitel",
+"pos": "n.",
+"zh": "章节",
+"level": "a2"
+},
+{
+"word": "Alibi",
+"pos": "n.",
+"zh": "不在场证明",
+"level": "a2"
+},
+{
+"word": "Bestie",
+"pos": "n.f.",
+"zh": "野兽",
+"level": "a2"
+},
+{
+"word": "nirgends",
+"pos": "adv.",
+"zh": "无处",
+"level": "a2"
+},
+{
+"word": "Beute",
+"pos": "n.f.",
+"zh": "猎物",
+"level": "a2"
+},
+{
+"word": "Bau",
+"pos": "n.m.",
+"zh": "建造",
+"level": "a2"
+},
+{
+"word": "schmutzig",
+"pos": "adj.",
+"zh": "脏的",
+"level": "a2"
+},
+{
+"word": "Liebhaber",
+"pos": "n.m.",
+"zh": "情人",
+"level": "a2"
+},
+{
+"word": "ersetzen",
+"pos": "v.",
+"zh": "替换",
+"level": "a2"
+},
+{
+"word": "Verfahren",
+"pos": "n.",
+"zh": "程序；诉讼",
+"level": "a2"
+},
+{
+"word": "Stiefel",
+"pos": "n.m.",
+"zh": "靴子",
+"level": "a2"
+},
+{
+"word": "allzu",
+"pos": "adv.",
+"zh": "过于",
+"level": "a2"
+},
+{
+"word": "Camp",
+"pos": "n.",
+"zh": "营地",
+"level": "a2"
+},
+{
+"word": "Hitze",
+"pos": "n.f.",
+"zh": "酷热",
+"level": "a2"
+},
+{
+"word": "Wolle",
+"pos": "n.f.",
+"zh": "羊毛",
+"level": "a2"
+},
+{
+"word": "Zone",
+"pos": "n.f.",
+"zh": "区域",
+"level": "a2"
+},
+{
+"word": "heulen",
+"pos": "v.",
+"zh": "嚎哭",
+"level": "a2"
+},
+{
+"word": "entschlossen",
+"pos": "adj.",
+"zh": "坚决的",
+"level": "a2"
+},
+{
+"word": "Ausweg",
+"pos": "n.m.",
+"zh": "出路",
+"level": "a2"
+},
+{
+"word": "hinweg",
+"pos": "adv.",
+"zh": "越过",
+"level": "a2"
+},
+{
+"word": "Schmuck",
+"pos": "n.m.",
+"zh": "首饰",
+"level": "a2"
+},
+{
+"word": "Ausgang",
+"pos": "n.m.",
+"zh": "出口",
+"level": "a2"
+},
+{
+"word": "illegal",
+"pos": "adj.",
+"zh": "非法的",
+"level": "a2"
+},
+{
+"word": "Geisel",
+"pos": "n.f.",
+"zh": "人质",
+"level": "a2"
+},
+{
+"word": "Steuer",
+"pos": "n.f.",
+"zh": "税；方向盘",
+"level": "a2"
+},
+{
+"word": "Raumschiff",
+"pos": "n.",
+"zh": "宇宙飞船",
+"level": "a2"
+},
+{
+"word": "Ausbildung",
+"pos": "n.f.",
+"zh": "培训",
+"level": "a2"
+},
+{
+"word": "Hauptsache",
+"pos": "n.f.",
+"zh": "主要的事",
+"level": "a2"
+},
+{
+"word": "Admiral",
+"pos": "n.m.",
+"zh": "海军上将",
+"level": "a2"
+},
+{
+"word": "entgegen",
+"pos": "präp.",
+"zh": "逆着；迎着",
+"level": "a2"
+},
+{
+"word": "Strecke",
+"pos": "n.f.",
+"zh": "路段",
+"level": "a2"
+},
+{
+"word": "Version",
+"pos": "n.f.",
+"zh": "版本",
+"level": "a2"
+},
+{
+"word": "hilfreich",
+"pos": "adj.",
+"zh": "有帮助的",
+"level": "a2"
+},
+{
+"word": "jahrelang",
+"pos": "adj.",
+"zh": "多年的",
+"level": "a2"
+},
+{
+"word": "leeren",
+"pos": "v.",
+"zh": "倒空；空的",
+"level": "a2"
+},
+{
+"word": "Küste",
+"pos": "n.f.",
+"zh": "海岸",
+"level": "a2"
+},
+{
+"word": "Baron",
+"pos": "n.m.",
+"zh": "男爵",
+"level": "a2"
+},
+{
+"word": "Behörde",
+"pos": "n.f.",
+"zh": "当局",
+"level": "a2"
+},
+{
+"word": "Puls",
+"pos": "n.m.",
+"zh": "脉搏",
+"level": "a2"
+},
+{
+"word": "Flur",
+"pos": "n.m.",
+"zh": "走廊",
+"level": "a2"
+},
+{
+"word": "Rettung",
+"pos": "n.f.",
+"zh": "营救",
+"level": "a2"
+},
+{
+"word": "widerlich",
+"pos": "adj.",
+"zh": "令人厌恶的",
+"level": "a2"
+},
+{
+"word": "Laster",
+"pos": "n.",
+"zh": "恶习",
+"level": "a2"
+},
+{
+"word": "sozusagen",
+"pos": "adv.",
+"zh": "可以说",
+"level": "a2"
+},
+{
+"word": "abwarten",
+"pos": "v.",
+"zh": "等待观望",
+"level": "a2"
+},
+{
+"word": "Vision",
+"pos": "n.f.",
+"zh": "视野；幻象",
+"level": "a2"
+},
+{
+"word": "Schauspielerin",
+"pos": "n.f.",
+"zh": "女演员",
+"level": "a2"
+},
+{
+"word": "Friedhof",
+"pos": "n.m.",
+"zh": "墓地",
+"level": "a2"
+},
+{
+"word": "Irrtum",
+"pos": "n.m.",
+"zh": "错误",
+"level": "a2"
+},
+{
+"word": "Klient",
+"pos": "n.m.",
+"zh": "委托人",
+"level": "a2"
+},
+{
+"word": "trainieren",
+"pos": "v.",
+"zh": "训练",
+"level": "a2"
+},
+{
+"word": "Gegenwart",
+"pos": "n.f.",
+"zh": "现在",
+"level": "a2"
+},
+{
+"word": "zurückbringen",
+"pos": "v.",
+"zh": "送回",
+"level": "a2"
+},
+{
+"word": "Protokoll",
+"pos": "n.",
+"zh": "记录",
+"level": "a2"
+},
+{
+"word": "durchaus",
+"pos": "adv.",
+"zh": "完全可以",
+"level": "a2"
+},
+{
+"word": "grausam",
+"pos": "adj.",
+"zh": "残忍的",
+"level": "a2"
+},
+{
+"word": "höchste",
+"pos": "adj.",
+"zh": "最高的",
+"level": "a2"
+},
+{
+"word": "verwickeln",
+"pos": "v.",
+"zh": "卷入",
+"level": "a2"
+},
+{
+"word": "apropos",
+"pos": "adv.",
+"zh": "顺便说",
+"level": "a2"
+},
+{
+"word": "ansonsten",
+"pos": "adv.",
+"zh": "否则",
+"level": "a2"
+},
+{
+"word": "Missverständnis",
+"pos": "n.",
+"zh": "误会",
+"level": "a2"
+},
+{
+"word": "blicken",
+"pos": "v.",
+"zh": "看向",
+"level": "a2"
+},
+{
+"word": "diejenigen",
+"pos": "pron.",
+"zh": "那些（人）",
+"level": "a2"
+},
+{
+"word": "diskutieren",
+"pos": "v.",
+"zh": "讨论",
+"level": "a2"
+},
+{
+"word": "Huhn",
+"pos": "n.",
+"zh": "母鸡",
+"level": "a2"
+},
+{
+"word": "erheben",
+"pos": "v.",
+"zh": "提升；征收",
+"level": "a2"
+},
+{
+"word": "Paradies",
+"pos": "n.",
+"zh": "天堂",
+"level": "a2"
+},
+{
+"word": "Tagebuch",
+"pos": "n.",
+"zh": "日记",
+"level": "a2"
+},
+{
+"word": "jenseits",
+"pos": "adv.",
+"zh": "在…彼岸",
+"level": "a2"
+},
+{
+"word": "Apartment",
+"pos": "n.",
+"zh": "公寓",
+"level": "a2"
+},
+{
+"word": "enttäuschen",
+"pos": "v.",
+"zh": "使失望",
+"level": "a2"
+},
+{
+"word": "Konsequenz",
+"pos": "n.f.",
+"zh": "后果",
+"level": "a2"
+},
+{
+"word": "Fleck",
+"pos": "n.m.",
+"zh": "污渍",
+"level": "a2"
+},
+{
+"word": "Führerschein",
+"pos": "n.m.",
+"zh": "驾照",
+"level": "a2"
+},
+{
+"word": "online",
+"pos": "adj.",
+"zh": "在线的",
+"level": "a2"
+},
+{
+"word": "Enkel",
+"pos": "n.m.",
+"zh": "孙子",
+"level": "a2"
+},
+{
+"word": "Stift",
+"pos": "n.m.",
+"zh": "笔",
+"level": "a2"
+},
+{
+"word": "Interview",
+"pos": "n.",
+"zh": "采访",
+"level": "a2"
+},
+{
+"word": "Aussicht",
+"pos": "n.f.",
+"zh": "景色；前景",
+"level": "a2"
+},
+{
+"word": "wiederkommen",
+"pos": "v.",
+"zh": "再来",
+"level": "a2"
+},
+{
+"word": "Werbung",
+"pos": "n.f.",
+"zh": "广告",
+"level": "a2"
+},
+{
+"word": "Anblick",
+"pos": "n.m.",
+"zh": "景象",
+"level": "a2"
+},
+{
+"word": "Teppich",
+"pos": "n.m.",
+"zh": "地毯",
+"level": "a2"
+},
+{
+"word": "Handel",
+"pos": "n.m.",
+"zh": "贸易",
+"level": "a2"
+},
+{
+"word": "Trainer",
+"pos": "n.m.",
+"zh": "教练",
+"level": "a2"
+},
+{
+"word": "Kämpfer",
+"pos": "n.m.",
+"zh": "斗士",
+"level": "a2"
+},
+{
+"word": "bedenken",
+"pos": "v.",
+"zh": "考虑",
+"level": "a2"
+},
+{
+"word": "Sitzung",
+"pos": "n.f.",
+"zh": "会议",
+"level": "a2"
+},
+{
+"word": "tapfer",
+"pos": "adj.",
+"zh": "勇敢的",
+"level": "a2"
+},
+{
+"word": "Experiment",
+"pos": "n.",
+"zh": "实验",
+"level": "a2"
+},
+{
+"word": "Tiefe",
+"pos": "n.f.",
+"zh": "深度",
+"level": "a2"
+}
+]

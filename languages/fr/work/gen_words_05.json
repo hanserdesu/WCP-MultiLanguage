@@ -1,0 +1,602 @@
+[
+{
+"word": "pressé",
+"pos": "adj.",
+"zh": "急匆匆的；赶时间的",
+"level": "a1"
+},
+{
+"word": "printemps",
+"pos": "n.m.",
+"zh": "春天",
+"level": "a1"
+},
+{
+"word": "prix",
+"pos": "n.m.",
+"zh": "价格；奖品；代价",
+"level": "a1"
+},
+{
+"word": "problème",
+"pos": "n.m.",
+"zh": "问题；麻烦",
+"level": "a1"
+},
+{
+"word": "prochain",
+"pos": "adj.",
+"zh": "下一个的；下次的",
+"level": "a1"
+},
+{
+"word": "professeur",
+"pos": "n.",
+"zh": "教师；教授",
+"level": "a1"
+},
+{
+"word": "promener",
+"pos": "v.",
+"zh": "散步；遛",
+"level": "a1"
+},
+{
+"word": "propre",
+"pos": "adj.",
+"zh": "干净的；自己的",
+"level": "a1"
+},
+{
+"word": "près",
+"pos": "prép.",
+"zh": "近；靠近",
+"level": "a1"
+},
+{
+"word": "préférer",
+"pos": "v.",
+"zh": "更喜欢；宁可",
+"level": "a1"
+},
+{
+"word": "préféré",
+"pos": "adj.",
+"zh": "最喜爱的",
+"level": "a1"
+},
+{
+"word": "prénom",
+"pos": "n.m.",
+"zh": "名；名字",
+"level": "a1"
+},
+{
+"word": "préparer",
+"pos": "v.",
+"zh": "准备；预备",
+"level": "a1"
+},
+{
+"word": "présenter",
+"pos": "v.",
+"zh": "介绍；提出；展示",
+"level": "a1"
+},
+{
+"word": "prêt",
+"pos": "adj.",
+"zh": "准备好的",
+"level": "a1"
+},
+{
+"word": "puis",
+"pos": "conj.",
+"zh": "然后；接着",
+"level": "a1"
+},
+{
+"word": "père",
+"pos": "n.m.",
+"zh": "父亲；爸爸",
+"level": "a1"
+},
+{
+"word": "pépé",
+"pos": "n.m.",
+"zh": "爷爷（儿语）",
+"level": "a1"
+},
+{
+"word": "quand",
+"pos": "conj.",
+"zh": "当……时；何时",
+"level": "a1"
+},
+{
+"word": "quarante",
+"pos": "adj.",
+"zh": "四十",
+"level": "a1"
+},
+{
+"word": "quatorze",
+"pos": "adj.",
+"zh": "十四",
+"level": "a1"
+},
+{
+"word": "quatre",
+"pos": "adj.",
+"zh": "四；四个",
+"level": "a1"
+},
+{
+"word": "quatrième",
+"pos": "adj.",
+"zh": "第四",
+"level": "a1"
+},
+{
+"word": "que",
+"pos": "pron.",
+"zh": "（连词，无实义）；什么",
+"level": "a1"
+},
+{
+"word": "quel",
+"pos": "adj.",
+"zh": "什么样的；哪个",
+"level": "a1"
+},
+{
+"word": "quelle",
+"pos": "adj.",
+"zh": "什么样的；哪个（阴性）",
+"level": "a1"
+},
+{
+"word": "quelqu'un",
+"pos": "pron.",
+"zh": "某人；有人",
+"level": "a1"
+},
+{
+"word": "quelque",
+"pos": "adj.",
+"zh": "某个；一些",
+"level": "a1"
+},
+{
+"word": "quelques",
+"pos": "adj.",
+"zh": "几个；一些",
+"level": "a1"
+},
+{
+"word": "question",
+"pos": "n.f.",
+"zh": "问题；提问",
+"level": "a1"
+},
+{
+"word": "qui",
+"pos": "pron.",
+"zh": "谁；（关系代词）",
+"level": "a1"
+},
+{
+"word": "quinze",
+"pos": "adj.",
+"zh": "十五",
+"level": "a1"
+},
+{
+"word": "quoi",
+"pos": "adj.",
+"zh": "什么",
+"level": "a1"
+},
+{
+"word": "radio",
+"pos": "n.",
+"zh": "收音机；广播",
+"level": "a1"
+},
+{
+"word": "rapide",
+"pos": "adj.",
+"zh": "快的；迅速的",
+"level": "a1"
+},
+{
+"word": "regarder",
+"pos": "v.",
+"zh": "看；观看",
+"level": "a1"
+},
+{
+"word": "rentrer",
+"pos": "v.",
+"zh": "回家；返回",
+"level": "a1"
+},
+{
+"word": "repas",
+"pos": "n.m.",
+"zh": "一餐；饭",
+"level": "a1"
+},
+{
+"word": "restaurant",
+"pos": "n.m.",
+"zh": "餐馆",
+"level": "a1"
+},
+{
+"word": "rester",
+"pos": "v.",
+"zh": "停留；保持",
+"level": "a1"
+},
+{
+"word": "retour",
+"pos": "n.m.",
+"zh": "回来；返回；背面",
+"level": "a1"
+},
+{
+"word": "revenir",
+"pos": "v.",
+"zh": "回来；返回",
+"level": "a1"
+},
+{
+"word": "revoir",
+"pos": "n.m.",
+"zh": "再见；重新见到",
+"level": "a1"
+},
+{
+"word": "rez-de-chaussée",
+"pos": "n.m.",
+"zh": "底层；一楼",
+"level": "a1"
+},
+{
+"word": "rien",
+"pos": "pron.",
+"zh": "没什么；什么也没有",
+"level": "a1"
+},
+{
+"word": "rire",
+"pos": "v.",
+"zh": "笑；发笑",
+"level": "a1"
+},
+{
+"word": "riz",
+"pos": "n.m.",
+"zh": "大米；米饭",
+"level": "a1"
+},
+{
+"word": "robe",
+"pos": "n.f.",
+"zh": "连衣裙",
+"level": "a1"
+},
+{
+"word": "rose",
+"pos": "n.",
+"zh": "玫瑰；粉红色",
+"level": "a1"
+},
+{
+"word": "rouge",
+"pos": "adj.",
+"zh": "红色的",
+"level": "a1"
+},
+{
+"word": "route",
+"pos": "n.f.",
+"zh": "道路；公路；路线",
+"level": "a1"
+},
+{
+"word": "rue",
+"pos": "n.f.",
+"zh": "街；街道",
+"level": "a1"
+},
+{
+"word": "russe",
+"pos": "n.",
+"zh": "俄语；俄罗斯人",
+"level": "a1"
+},
+{
+"word": "réfrigérateur",
+"pos": "n.m.",
+"zh": "冰箱",
+"level": "a1"
+},
+{
+"word": "répondre",
+"pos": "v.",
+"zh": "回答；回复",
+"level": "a1"
+},
+{
+"word": "réponse",
+"pos": "n.f.",
+"zh": "回答；答复",
+"level": "a1"
+},
+{
+"word": "réveiller",
+"pos": "v.",
+"zh": "叫醒；唤醒；醒来",
+"level": "a1"
+},
+{
+"word": "sa",
+"pos": "adj.",
+"zh": "他/她的（阴性）",
+"level": "a1"
+},
+{
+"word": "sac",
+"pos": "n.m.",
+"zh": "包；袋子",
+"level": "a1"
+},
+{
+"word": "salade",
+"pos": "n.f.",
+"zh": "沙拉；生菜",
+"level": "a1"
+},
+{
+"word": "sale",
+"pos": "adj.",
+"zh": "脏的；肮脏的",
+"level": "a1"
+},
+{
+"word": "salle",
+"pos": "n.f.",
+"zh": "房间；大厅",
+"level": "a1"
+},
+{
+"word": "salut",
+"pos": "n.m.",
+"zh": "你好；再见（口语）",
+"level": "a1"
+},
+{
+"word": "samedi",
+"pos": "n.m.",
+"zh": "星期六",
+"level": "a1"
+},
+{
+"word": "sans",
+"pos": "prép.",
+"zh": "没有；不带",
+"level": "a1"
+},
+{
+"word": "sauce",
+"pos": "n.f.",
+"zh": "酱汁",
+"level": "a1"
+},
+{
+"word": "sauter",
+"pos": "v.",
+"zh": "跳；跳跃",
+"level": "a1"
+},
+{
+"word": "savoir",
+"pos": "v.",
+"zh": "知道；会",
+"level": "a1"
+},
+{
+"word": "savon",
+"pos": "n.m.",
+"zh": "肥皂",
+"level": "a1"
+},
+{
+"word": "se",
+"pos": "pron.",
+"zh": "自己；彼此（代词）",
+"level": "a1"
+},
+{
+"word": "seconde",
+"pos": "n.f.",
+"zh": "秒；片刻",
+"level": "a1"
+},
+{
+"word": "seize",
+"pos": "adj.",
+"zh": "十六",
+"level": "a1"
+},
+{
+"word": "sel",
+"pos": "n.m.",
+"zh": "盐；食盐",
+"level": "a1"
+},
+{
+"word": "semaine",
+"pos": "n.f.",
+"zh": "星期；周",
+"level": "a1"
+},
+{
+"word": "sept",
+"pos": "adj.",
+"zh": "七",
+"level": "a1"
+},
+{
+"word": "septembre",
+"pos": "n.m.",
+"zh": "九月",
+"level": "a1"
+},
+{
+"word": "ses",
+"pos": "adj.",
+"zh": "他/她的（复数）",
+"level": "a1"
+},
+{
+"word": "seul",
+"pos": "adj.",
+"zh": "单独的；唯一的",
+"level": "a1"
+},
+{
+"word": "seulement",
+"pos": "adv.",
+"zh": "只；仅仅；才",
+"level": "a1"
+},
+{
+"word": "si",
+"pos": "adv.",
+"zh": "如果；是否；这么",
+"level": "a1"
+},
+{
+"word": "simple",
+"pos": "adj.",
+"zh": "简单的；朴素的",
+"level": "a1"
+},
+{
+"word": "six",
+"pos": "adj.",
+"zh": "六；六个",
+"level": "a1"
+},
+{
+"word": "soeur",
+"pos": "n.f.",
+"zh": "姐妹；姐姐；妹妹",
+"level": "a1"
+},
+{
+"word": "soif",
+"pos": "n.f.",
+"zh": "口渴；渴望",
+"level": "a1"
+},
+{
+"word": "soir",
+"pos": "n.m.",
+"zh": "晚上；傍晚",
+"level": "a1"
+},
+{
+"word": "soixante",
+"pos": "adj.",
+"zh": "六十",
+"level": "a1"
+},
+{
+"word": "soleil",
+"pos": "n.m.",
+"zh": "太阳；阳光",
+"level": "a1"
+},
+{
+"word": "son",
+"pos": "adj.",
+"zh": "他/她的；它的",
+"level": "a1"
+},
+{
+"word": "sortir",
+"pos": "v.",
+"zh": "出去；拿出",
+"level": "a1"
+},
+{
+"word": "souris",
+"pos": "n.",
+"zh": "老鼠；鼠标",
+"level": "a1"
+},
+{
+"word": "sous",
+"pos": "prép.",
+"zh": "在……下面",
+"level": "a1"
+},
+{
+"word": "souvent",
+"pos": "adv.",
+"zh": "经常；常常",
+"level": "a1"
+},
+{
+"word": "sport",
+"pos": "n.m.",
+"zh": "体育运动",
+"level": "a1"
+},
+{
+"word": "stop",
+"pos": "n.m.",
+"zh": "停止；停车标志",
+"level": "a1"
+},
+{
+"word": "stylo",
+"pos": "n.m.",
+"zh": "钢笔",
+"level": "a1"
+},
+{
+"word": "sucre",
+"pos": "n.m.",
+"zh": "食糖",
+"level": "a1"
+},
+{
+"word": "sucré",
+"pos": "adj.",
+"zh": "甜的；加糖的",
+"level": "a1"
+},
+{
+"word": "sud-est",
+"pos": "n.m.",
+"zh": "东南；东南方",
+"level": "a1"
+},
+{
+"word": "suivre",
+"pos": "v.",
+"zh": "跟随；沿着",
+"level": "a1"
+},
+{
+"word": "super",
+"pos": "adj.",
+"zh": "极好的；棒极了",
+"level": "a1"
+}
+]

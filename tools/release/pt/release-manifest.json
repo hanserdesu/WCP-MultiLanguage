@@ -1,0 +1,21 @@
+{
+  "version": "wcp-pt-resources-v1.0.0",
+  "built": "2026-09-15 10:09:32",
+  "base_urls": [
+    "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-pt-resources-v1.0.0"
+  ],
+  "assets": [
+    {
+      "kind": "word_audio",
+      "name": "wcp-portuguese-audio-words.zip",
+      "size": 84917010,
+      "sha256": "d68a98f9546e47ce49af0b529217475a341f07ec19809dc4f12ea6bd769e08e3"
+    },
+    {
+      "kind": "sentence_audio",
+      "name": "wcp-portuguese-audio-sentences.zip",
+      "size": 638116518,
+      "sha256": "1132b6dd94d14d093fb1094e4e308bc16e7c0e479275e5a6a05be5f62a15384a"
+    }
+  ]
+}

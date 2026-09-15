@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+logs/
+work/
+output/ar_word_audio/
+output/ar_sentence_audio/
+*.mp3

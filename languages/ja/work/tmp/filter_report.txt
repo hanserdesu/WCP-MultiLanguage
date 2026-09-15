@@ -1,0 +1,21 @@
+ChosenBook_Para = '自定义词书一'
+ChosenBook_List n = 1293
+S7FightWordType = '复习范围词'
+ReviewRange_Para = '本书已学'
+S7FightWordMax = 120
+
+S7TestWordList_Para n = 73
+  在本书内 = 73 ; 不在本书 = 0
+  不在本书的样本 = []
+  样例 = ['続ける', '歯医者', '全部', 'うち', '豚肉', '工業']
+
+HaveLearnedDictionary n = 756
+  含日语字符 = 73 ; 纯 ASCII = 683
+  日语样本 = ['続ける', '歯医者', '全部', 'うち', '豚肉', '工業', '割れる', '黄色', '今週', '止む']
+
+日语词中「不在当前日语书里」的 = 0
+
+--- 模拟 Filter(非日语词书) 对 S7TestWordList_Para 的效果 ---
+剔除日语后剩 = 0 (原 73)
+--- 模拟 Filter(日语词书) 对 S7TestWordList_Para 的效果 ---
+剔除书外词后剩 = 73

@@ -1,0 +1,602 @@
+[
+{
+"word": "coffre",
+"pos": "n.m.",
+"zh": "箱子；后备箱",
+"level": "a2"
+},
+{
+"word": "coiffer",
+"pos": "v.",
+"zh": "梳头；做头发",
+"level": "a2"
+},
+{
+"word": "coiffure",
+"pos": "n.f.",
+"zh": "发型；理发",
+"level": "a2"
+},
+{
+"word": "coin",
+"pos": "n.m.",
+"zh": "角落；地段",
+"level": "a2"
+},
+{
+"word": "colis",
+"pos": "n.m.",
+"zh": "包裹",
+"level": "a2"
+},
+{
+"word": "colle",
+"pos": "n.f.",
+"zh": "胶水",
+"level": "a2"
+},
+{
+"word": "collection",
+"pos": "n.f.",
+"zh": "收藏；系列",
+"level": "a2"
+},
+{
+"word": "coller",
+"pos": "v.",
+"zh": "粘；贴",
+"level": "a2"
+},
+{
+"word": "collier",
+"pos": "n.m.",
+"zh": "项链",
+"level": "a2"
+},
+{
+"word": "collège",
+"pos": "n.m.",
+"zh": "初中",
+"level": "a2"
+},
+{
+"word": "collègue",
+"pos": "n.",
+"zh": "同事",
+"level": "a2"
+},
+{
+"word": "coloré",
+"pos": "adj.",
+"zh": "色彩鲜艳的",
+"level": "a2"
+},
+{
+"word": "colère",
+"pos": "n.f.",
+"zh": "愤怒",
+"level": "a2"
+},
+{
+"word": "commande",
+"pos": "n.f.",
+"zh": "订购；订单",
+"level": "a2"
+},
+{
+"word": "commander",
+"pos": "v.",
+"zh": "订购；点（菜）；指挥",
+"level": "a2"
+},
+{
+"word": "commun",
+"pos": "adj.",
+"zh": "共同的；普通的",
+"level": "a2"
+},
+{
+"word": "comparer",
+"pos": "v.",
+"zh": "比较；对比",
+"level": "a2"
+},
+{
+"word": "complet",
+"pos": "adj.",
+"zh": "完整的；满员的",
+"level": "a2"
+},
+{
+"word": "compliqué",
+"pos": "adj.",
+"zh": "复杂的",
+"level": "a2"
+},
+{
+"word": "comprimé",
+"pos": "n.m.",
+"zh": "药片",
+"level": "a2"
+},
+{
+"word": "compréhension",
+"pos": "n.f.",
+"zh": "理解；理解力",
+"level": "a2"
+},
+{
+"word": "compte",
+"pos": "n.m.",
+"zh": "账目；账户；计数",
+"level": "a2"
+},
+{
+"word": "compter",
+"pos": "v.",
+"zh": "数；计算；打算",
+"level": "a2"
+},
+{
+"word": "comptoir",
+"pos": "n.m.",
+"zh": "柜台；吧台",
+"level": "a2"
+},
+{
+"word": "comédie",
+"pos": "n.f.",
+"zh": "喜剧",
+"level": "a2"
+},
+{
+"word": "concentration",
+"pos": "n.f.",
+"zh": "专注；集中",
+"level": "a2"
+},
+{
+"word": "concert",
+"pos": "n.m.",
+"zh": "音乐会",
+"level": "a2"
+},
+{
+"word": "concombre",
+"pos": "n.m.",
+"zh": "黄瓜",
+"level": "a2"
+},
+{
+"word": "condition",
+"pos": "n.f.",
+"zh": "条件；状况",
+"level": "a2"
+},
+{
+"word": "conducteur",
+"pos": "n.m.",
+"zh": "司机；导体",
+"level": "a2"
+},
+{
+"word": "conduire",
+"pos": "v.",
+"zh": "驾驶；开车；引导",
+"level": "a2"
+},
+{
+"word": "conduite",
+"pos": "n.f.",
+"zh": "驾驶；行为",
+"level": "a2"
+},
+{
+"word": "confiance",
+"pos": "n.f.",
+"zh": "信任；信心",
+"level": "a2"
+},
+{
+"word": "confiant",
+"pos": "adj.",
+"zh": "自信的；信任的",
+"level": "a2"
+},
+{
+"word": "confirmer",
+"pos": "v.",
+"zh": "确认；证实",
+"level": "a2"
+},
+{
+"word": "confort",
+"pos": "n.m.",
+"zh": "舒适",
+"level": "a2"
+},
+{
+"word": "confortable",
+"pos": "adj.",
+"zh": "舒适的",
+"level": "a2"
+},
+{
+"word": "congeler",
+"pos": "v.",
+"zh": "冷冻",
+"level": "a2"
+},
+{
+"word": "connexion",
+"pos": "n.f.",
+"zh": "连接；网络连接",
+"level": "a2"
+},
+{
+"word": "connu",
+"pos": "adj.",
+"zh": "著名的；已知的",
+"level": "a2"
+},
+{
+"word": "conseil",
+"pos": "n.m.",
+"zh": "建议；劝告",
+"level": "a2"
+},
+{
+"word": "conseiller",
+"pos": "v.",
+"zh": "建议；推荐",
+"level": "a2"
+},
+{
+"word": "conserver",
+"pos": "v.",
+"zh": "保存；保持",
+"level": "a2"
+},
+{
+"word": "construire",
+"pos": "v.",
+"zh": "建造；构建",
+"level": "a2"
+},
+{
+"word": "conséquence",
+"pos": "n.f.",
+"zh": "后果；结果",
+"level": "a2"
+},
+{
+"word": "contact",
+"pos": "n.m.",
+"zh": "接触；联系",
+"level": "a2"
+},
+{
+"word": "contacter",
+"pos": "v.",
+"zh": "联系",
+"level": "a2"
+},
+{
+"word": "contenir",
+"pos": "v.",
+"zh": "包含；容纳",
+"level": "a2"
+},
+{
+"word": "content",
+"pos": "adj.",
+"zh": "高兴的；满意的",
+"level": "a2"
+},
+{
+"word": "contenu",
+"pos": "n.m.",
+"zh": "内容",
+"level": "a2"
+},
+{
+"word": "contraire",
+"pos": "n.m.",
+"zh": "相反；相反的",
+"level": "a2"
+},
+{
+"word": "contrôle",
+"pos": "n.m.",
+"zh": "控制；检查",
+"level": "a2"
+},
+{
+"word": "contrôler",
+"pos": "v.",
+"zh": "控制；检查；核查",
+"level": "a2"
+},
+{
+"word": "conversation",
+"pos": "n.f.",
+"zh": "谈话；会话",
+"level": "a2"
+},
+{
+"word": "cookie",
+"pos": "n.m.",
+"zh": "曲奇饼",
+"level": "a2"
+},
+{
+"word": "cool",
+"pos": "adj.",
+"zh": "酷；不错（口语）",
+"level": "a2"
+},
+{
+"word": "copier",
+"pos": "v.",
+"zh": "抄写；复制；抄袭",
+"level": "a2"
+},
+{
+"word": "coq",
+"pos": "n.m.",
+"zh": "公鸡",
+"level": "a2"
+},
+{
+"word": "coquillage",
+"pos": "n.m.",
+"zh": "贝壳",
+"level": "a2"
+},
+{
+"word": "corde",
+"pos": "n.f.",
+"zh": "绳子",
+"level": "a2"
+},
+{
+"word": "corps",
+"pos": "n.m.",
+"zh": "身体；躯体",
+"level": "a2"
+},
+{
+"word": "correct",
+"pos": "adj.",
+"zh": "正确的；得体的",
+"level": "a2"
+},
+{
+"word": "correctement",
+"pos": "adv.",
+"zh": "正确地；得体地",
+"level": "a2"
+},
+{
+"word": "corriger",
+"pos": "v.",
+"zh": "改正；批改",
+"level": "a2"
+},
+{
+"word": "coréen",
+"pos": "adj.",
+"zh": "韩国的；韩语的",
+"level": "a2"
+},
+{
+"word": "costume",
+"pos": "n.m.",
+"zh": "男西装；套装；戏服",
+"level": "a2"
+},
+{
+"word": "coton",
+"pos": "n.m.",
+"zh": "棉花",
+"level": "a2"
+},
+{
+"word": "couché",
+"pos": "adj.",
+"zh": "躺着的；睡下的",
+"level": "a2"
+},
+{
+"word": "coucou",
+"pos": "n.m.",
+"zh": "布谷鸟；你好（亲昵）",
+"level": "a2"
+},
+{
+"word": "coude",
+"pos": "n.m.",
+"zh": "肘；肘部",
+"level": "a2"
+},
+{
+"word": "couler",
+"pos": "v.",
+"zh": "流淌；沉没",
+"level": "a2"
+},
+{
+"word": "couloir",
+"pos": "n.m.",
+"zh": "走廊；过道",
+"level": "a2"
+},
+{
+"word": "coup",
+"pos": "n.m.",
+"zh": "打；击；一下",
+"level": "a2"
+},
+{
+"word": "coupe",
+"pos": "n.f.",
+"zh": "奖杯；杯子；剪裁",
+"level": "a2"
+},
+{
+"word": "couple",
+"pos": "n.",
+"zh": "一对；夫妇；情侣",
+"level": "a2"
+},
+{
+"word": "courage",
+"pos": "n.m.",
+"zh": "勇气",
+"level": "a2"
+},
+{
+"word": "courageux",
+"pos": "adj.",
+"zh": "勇敢的；有胆量的",
+"level": "a2"
+},
+{
+"word": "course",
+"pos": "n.f.",
+"zh": "购物；奔跑；比赛",
+"level": "a2"
+},
+{
+"word": "court",
+"pos": "adj.",
+"zh": "短的",
+"level": "a2"
+},
+{
+"word": "couteau",
+"pos": "n.m.",
+"zh": "刀",
+"level": "a2"
+},
+{
+"word": "couvert",
+"pos": "n.m.",
+"zh": "餐具；盖子",
+"level": "a2"
+},
+{
+"word": "couverture",
+"pos": "n.f.",
+"zh": "被子；封面；覆盖",
+"level": "a2"
+},
+{
+"word": "coûter",
+"pos": "v.",
+"zh": "花费；值（多少钱）",
+"level": "a2"
+},
+{
+"word": "crabe",
+"pos": "n.m.",
+"zh": "螃蟹",
+"level": "a2"
+},
+{
+"word": "cracher",
+"pos": "v.",
+"zh": "吐；吐痰",
+"level": "a2"
+},
+{
+"word": "cravate",
+"pos": "n.f.",
+"zh": "领带",
+"level": "a2"
+},
+{
+"word": "crevette",
+"pos": "n.f.",
+"zh": "虾；小虾",
+"level": "a2"
+},
+{
+"word": "cri",
+"pos": "n.m.",
+"zh": "喊叫声；尖叫",
+"level": "a2"
+},
+{
+"word": "crier",
+"pos": "v.",
+"zh": "喊叫；大叫",
+"level": "a2"
+},
+{
+"word": "crocodile",
+"pos": "n.m.",
+"zh": "鳄鱼",
+"level": "a2"
+},
+{
+"word": "croiser",
+"pos": "v.",
+"zh": "交叉；使交叉",
+"level": "a2"
+},
+{
+"word": "croix",
+"pos": "n.f.",
+"zh": "十字；十字架",
+"level": "a2"
+},
+{
+"word": "crème",
+"pos": "n.",
+"zh": "奶油；乳霜",
+"level": "a2"
+},
+{
+"word": "création",
+"pos": "n.f.",
+"zh": "创造；创作",
+"level": "a2"
+},
+{
+"word": "crêpe",
+"pos": "n.",
+"zh": "可丽饼；薄饼",
+"level": "a2"
+},
+{
+"word": "cube",
+"pos": "n.m.",
+"zh": "立方体",
+"level": "a2"
+},
+{
+"word": "cuillère",
+"pos": "n.f.",
+"zh": "勺子；匙",
+"level": "a2"
+},
+{
+"word": "cuir",
+"pos": "n.m.",
+"zh": "皮革",
+"level": "a2"
+},
+{
+"word": "cuire",
+"pos": "v.",
+"zh": "烧煮；烤",
+"level": "a2"
+},
+{
+"word": "cuisiner",
+"pos": "v.",
+"zh": "做饭；烹饪",
+"level": "a2"
+}
+]

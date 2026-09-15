@@ -1,0 +1,256 @@
+{
+  "version": "wcp-jp-resources-v1.1.0",
+  "built": "2026-09-15 05:16:09",
+  "base_urls": [
+    "https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.1.0"
+  ],
+  "download_routes": [
+    {
+      "id": "gitee",
+      "name": "国内 Gitee Release",
+      "mode": "parts",
+      "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+    },
+    {
+      "id": "github",
+      "name": "GitHub Release",
+      "url_template": "https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.1.0/{name}"
+    }
+  ],
+  "assets": [
+    {
+      "kind": "word_audio",
+      "name": "wcp-japanese-audio-words.zip",
+      "size": 165831996,
+      "expanded_size": 164234592,
+      "sha256": "34336de1c830e867756709062c57bc1170f9a5be00bc89977fda32d746c1f1eb",
+      "parts": [
+        {
+          "name": "wcp-japanese-audio-words.zip.001",
+          "size": 47185920,
+          "sha256": "a60774c472d569701004c1eafbcc9393d9519e7ff56a01cb776385a653528d4f",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-words/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-words.zip.002",
+          "size": 47185920,
+          "sha256": "4d402ccd493f77ec56a7d6d6ab525933ea4734fde93ac54130a34ca6f74c8805",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-words/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-words.zip.003",
+          "size": 47185920,
+          "sha256": "34b07a94992023ed45382d57dd714af65dcf81e80d684a96bda230074122c510",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-words/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-words.zip.004",
+          "size": 24274236,
+          "sha256": "da2d7fe5627798f2b2b85d459d50cd1a2ea2aebe34cf28be2d66081ec5b5982d",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-words/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        }
+      ]
+    },
+    {
+      "kind": "sentence_audio",
+      "name": "wcp-japanese-audio-sentences.zip",
+      "size": 1499343818,
+      "expanded_size": 1490916528,
+      "sha256": "2ca601e04510f12376aa19792189a0ae719b16ae704b88be9c7be27cf6461109",
+      "parts": [
+        {
+          "name": "wcp-japanese-audio-sentences.zip.001",
+          "size": 47185920,
+          "sha256": "8b61dbba56550829d20424e2935aec5bd968ab071be23b2a8bf3f57d7f437595",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.002",
+          "size": 47185920,
+          "sha256": "4695e0987e10c2436a595bbd2c9e8d0e5ef53a05e0f25e4796ed663eb42b16ba",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.003",
+          "size": 47185920,
+          "sha256": "e8eec72c1451d452b4d93d67c600becac37e1e2fd97fafc889f12a3a4e3aa834",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.004",
+          "size": 47185920,
+          "sha256": "d82aa2c7650aa7d0d8cb914745ed2ba04870d959fe2d978a20d9d76fe82d8655",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.005",
+          "size": 47185920,
+          "sha256": "1c9c1c0718e0d5f95e3eb20d86766fca8e1c56d38f352d19e770a5d2f0fd231b",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.006",
+          "size": 47185920,
+          "sha256": "e246b2953bab09c735d8e6e995c698bca6dd5af09ac751d042edbbe9735941c5",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.007",
+          "size": 47185920,
+          "sha256": "2b9989b772803044c80dd57d7ad7983a6023af349b31a08c8d6f06b24ec60761",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.008",
+          "size": 47185920,
+          "sha256": "463a5f93dfa4b61a607965c1c9971628ca7c450ed77fa2867ffc76ca11ee49cb",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.009",
+          "size": 47185920,
+          "sha256": "2f03740953695f6befd66bbaea78474933d31a92438dab232392c5a98eba7454",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.010",
+          "size": 47185920,
+          "sha256": "fce8a3e23786028efbffa101d92c927a1d4d1c0f3bc356e521996ea53074cd34",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.011",
+          "size": 47185920,
+          "sha256": "fd7e1afad6cee1063596fa6201278c378d8b19bbd9613abe7489fb3d77300454",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.012",
+          "size": 47185920,
+          "sha256": "59ec9ba534a17fd81291ed8acb62529eaa1a44a9809ffcbf7d8f663c8f385238",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.013",
+          "size": 47185920,
+          "sha256": "49ac931f902c2e6449264214cebf4a384640d94d25a9ba5a26cbfb922ff51da9",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.014",
+          "size": 47185920,
+          "sha256": "c92c2d31b5c66add9b3564e86cf42aa44c2220aa93a8b095c00c474d17e0854d",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.015",
+          "size": 47185920,
+          "sha256": "a1d0818560fcaec87950ebfa4f1b40e1834bf36ba7484cbcf11b522214b4d4e1",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.016",
+          "size": 47185920,
+          "sha256": "33170457b227cdbea676b95b544c8f29e1faa0c01281c1813b679974481cf2f8",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.017",
+          "size": 47185920,
+          "sha256": "7a4d352b014bbd0e330c16776b9ade853bd8a04fd7eb854bee2b6adfb8eba6b6",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.018",
+          "size": 47185920,
+          "sha256": "eaf6be3fe579c6e7741c5546fecc8f16c56d981aa97cc19c3382aa88d377f304",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.019",
+          "size": 47185920,
+          "sha256": "4820617d3ab2114b3415454a23fa9d3df9f2471f54b354db099448833e394833",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.020",
+          "size": 47185920,
+          "sha256": "3c53083b8adcdb2e3a6ad80b2dfab24902b79c046a0f3daf5fbb46ca1bd6a621",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.021",
+          "size": 47185920,
+          "sha256": "8682aec0dba4349a18b4c79d847c79449330ceabeb61eb57e9aa8094509aad69",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.022",
+          "size": 47185920,
+          "sha256": "f41cbe7fcc2f70d8a00501f799a6823f591b4b973f01b9758d7d412a19ab132d",
+          "url_template": "https://gitee.com/cat-stripe/code-warehouse-for-cat-stripes/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.023",
+          "size": 47185920,
+          "sha256": "99d9ba50298f908260fdc2ccf0af6d9c9cd5e5bc3b91089bd22cd35f51e57c43",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-sentences/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.024",
+          "size": 47185920,
+          "sha256": "0287b55662bd68038e74179a617fca023204d871a9e3c3b4ff4200d19c590b93",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-sentences/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.025",
+          "size": 47185920,
+          "sha256": "eece551ae4d5e505171baea88f2115f53c7d50d3019af93b195ca6c08ab41465",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-sentences/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.026",
+          "size": 47185920,
+          "sha256": "182d70880610b6a511a07e3b562fa821cda4187ebb811a129f56d75edea0a339",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-sentences/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.027",
+          "size": 47185920,
+          "sha256": "6bd81f684456908159cd17a36cf86a63ea2624fde00aa093bba7a8564d7570eb",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-sentences/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.028",
+          "size": 47185920,
+          "sha256": "b0d6e25f76d5fb477949b8fe7cc4e5739b7dff94290add8b693bc8bb09d29772",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-sentences/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.029",
+          "size": 47185920,
+          "sha256": "fc63cadde538d01f5ab7f42d16361d68447f3f01149a6efe6d2e1f20a7a46931",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-sentences/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.030",
+          "size": 47185920,
+          "sha256": "c97706b93f3c68a730f4dd510b5103065f3f8552c2ec4a9e5ce7665430256b2d",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-sentences/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.031",
+          "size": 47185920,
+          "sha256": "f9421723507dc04c11b10a069d705c56685e2d4be86744f4ea81751169454dca",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-sentences/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        },
+        {
+          "name": "wcp-japanese-audio-sentences.zip.032",
+          "size": 36580298,
+          "sha256": "140cd2641288705cc003f548d2ebf83ed250835c52a6bf4ca552d5bb364838be",
+          "url_template": "https://gitee.com/cat-stripe/wcp-jp-audio-sentences/releases/download/wcp-jp-resources-v1.1.0/{name}"
+        }
+      ]
+    }
+  ]
+}

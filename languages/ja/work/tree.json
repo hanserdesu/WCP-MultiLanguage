@@ -1,0 +1,148 @@
+{
+  "sha": "13aa3c54b27115be72d8a62cd4071077c68d2171",
+  "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/trees/13aa3c54b27115be72d8a62cd4071077c68d2171",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9656ae183eee77ddd646e034ec76892f793eec5",
+      "size": 13,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/f9656ae183eee77ddd646e034ec76892f793eec5"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "222ff0cb789ad970f128d65472dd4548871ac298",
+      "size": 53,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/222ff0cb789ad970f128d65472dd4548871ac298"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "601e3ef3595553e39753e61cc1bb06a00c5b08e1",
+      "size": 1096,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/601e3ef3595553e39753e61cc1bb06a00c5b08e1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55a724abd1e1c9e5773a19c9a932e8fd6c57f885",
+      "size": 631,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/55a724abd1e1c9e5773a19c9a932e8fd6c57f885"
+    },
+    {
+      "path": "out",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4048dfb6ed2eb137a8814fc2d5ca723046125ea",
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/trees/b4048dfb6ed2eb137a8814fc2d5ca723046125ea"
+    },
+    {
+      "path": "out/all.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "455b969241cbf1c1e307d4b201056aaa1ddb9528",
+      "size": 505385,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/455b969241cbf1c1e307d4b201056aaa1ddb9528"
+    },
+    {
+      "path": "out/all.min.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b82760a20ca776bc2d9fe8e3c42d6eefafb922ef",
+      "size": 162693,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/b82760a20ca776bc2d9fe8e3c42d6eefafb922ef"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed20d4a04345fb870d3df3ed1a6cfb2192089948",
+      "size": 196,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/ed20d4a04345fb870d3df3ed1a6cfb2192089948"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d19cb8037a97828c4db90c587a849b256bdf9532",
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/trees/d19cb8037a97828c4db90c587a849b256bdf9532"
+    },
+    {
+      "path": "scripts/.prettierrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36301bc5cff6c8839372a27a7d60e8920334c32b",
+      "size": 69,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/36301bc5cff6c8839372a27a7d60e8920334c32b"
+    },
+    {
+      "path": "scripts/merge.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "65876cd78ce766020d4d1152ac50fa26382bddbd",
+      "size": 842,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/65876cd78ce766020d4d1152ac50fa26382bddbd"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "608fd62a708d688cc593ee1ab91322f0cce3f8cb",
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/trees/608fd62a708d688cc593ee1ab91322f0cce3f8cb"
+    },
+    {
+      "path": "src/n1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a9fa37cadc116d2f21758709b0116c6d5327513",
+      "size": 161334,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/6a9fa37cadc116d2f21758709b0116c6d5327513"
+    },
+    {
+      "path": "src/n2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315d195569d6563a7cb26d5732a9b418b073f227",
+      "size": 102601,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/315d195569d6563a7cb26d5732a9b418b073f227"
+    },
+    {
+      "path": "src/n3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e30fb0ea07b83f7025f2577343d2923a6fb1e88",
+      "size": 143457,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/7e30fb0ea07b83f7025f2577343d2923a6fb1e88"
+    },
+    {
+      "path": "src/n4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a9b3fb6cede1333abfc0627be3830ca49037e7e",
+      "size": 42190,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/9a9b3fb6cede1333abfc0627be3830ca49037e7e"
+    },
+    {
+      "path": "src/n5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "062918122c8676f88fcd7cf3636f26b542f0564f",
+      "size": 55931,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/062918122c8676f88fcd7cf3636f26b542f0564f"
+    },
+    {
+      "path": "yarn.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb57ccd13afbd082ad82051c2ffebef4840661ec",
+      "size": 86,
+      "url": "https://api.github.com/repos/elzup/jlpt-word-list/git/blobs/fb57ccd13afbd082ad82051c2ffebef4840661ec"
+    }
+  ],
+  "truncated": false
+}

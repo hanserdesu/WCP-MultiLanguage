@@ -1,0 +1,5 @@
+exitcode=0
+mod_sentence_audio\SentenceAudioMod.cs(384,51): warning CS0618: “UnityEngine.Object.FindObjectOfType(System.Type)”已过时:“Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType”
+mod_sentence_audio\SentenceAudioMod.cs(385,54): warning CS0618: “UnityEngine.Object.FindObjectOfType(System.Type)”已过时:“Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType”
+BUILD OK
+DEPLOY SKIPPED (WCP_NO_DEPLOY=1)

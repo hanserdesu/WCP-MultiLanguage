@@ -1,0 +1,502 @@
+{
+"bis": [
+{"de": "Ich warte bis um sechs Uhr hier.", "zh": "我在这里等到六点。"},
+{"de": "Bis morgen, schlaf gut!", "zh": "明天见，睡个好觉！"},
+{"de": "Der Laden ist bis Abend offen.", "zh": "这家店营业到傍晚。"}
+],
+"zurück": [
+{"de": "Komm bitte um acht Uhr zurück.", "zh": "请八点回来。"},
+{"de": "Gib mir mein Buch zurück.", "zh": "把我的书还给我。"},
+{"de": "Er ist gestern aus dem Urlaub zurück.", "zh": "他昨天度假回来了。"}
+],
+"lassen": [
+{"de": "Lass uns am Wochenende grillen.", "zh": "我们周末去烧烤吧。"},
+{"de": "Ich lasse das Auto heute in der Werkstatt.", "zh": "我今天把车留在修理厂。"},
+{"de": "Lass mich das kurz erklären.", "zh": "让我简单解释一下。"}
+],
+"hallo": [
+{"de": "Hallo, wie war dein Tag?", "zh": "你好，你今天过得怎么样？"},
+{"de": "Hallo zusammen, setzt euch.", "zh": "大家好，请坐。"},
+{"de": "Hallo, bist du Frau Weber?", "zh": "您好，您是韦伯女士吗？"}
+],
+"zwei": [
+{"de": "Ich habe zwei Brüder und eine Schwester.", "zh": "我有两个兄弟和一个姐妹。"},
+{"de": "Der Zug fährt um zwei Uhr ab.", "zh": "火车两点开。"},
+{"de": "Zwei Kaffee, bitte, zum Mitnehmen.", "zh": "请来两杯咖啡，带走。"}
+],
+"genau": [
+{"de": "So habe ich das genau gemeint.", "zh": "我指的正是这个意思。"},
+{"de": "Ich weiß genau, wo das liegt.", "zh": "我确切地知道它在哪。"},
+{"de": "Um genau drei Uhr beginnt das Treffen.", "zh": "会议三点整开始。"}
+],
+"zur": [
+{"de": "Wir gehen zur Schule zusammen.", "zh": "我们一起去学校。"},
+{"de": "Sie fährt zur Arbeit mit dem Rad.", "zh": "她骑自行车去上班。"},
+{"de": "Zur Party habe ich keine Zeit.", "zh": "我没时间去参加聚会。"}
+],
+"klar": [
+{"de": "Alles klar, wir sehen uns dann.", "zh": "明白了，那我们到时见。"},
+{"de": "Die Anleitung war klar geschrieben.", "zh": "说明写得很清楚。"},
+{"de": "Ist dir klar, was passieren kann?", "zh": "你清楚可能发生什么吗？"}
+],
+"morgen": [
+{"de": "Morgen früh muss ich zum Arzt.", "zh": "明天早上我得去看医生。"},
+{"de": "Bis morgen in der Schule.", "zh": "明天学校见。"},
+{"de": "Morgen fahren wir ans Meer.", "zh": "明天我们去海边。"}
+],
+"Leute": [
+{"de": "Die Leute hier sind sehr freundlich.", "zh": "这里的人非常友好。"},
+{"de": "Viele Leute warten an der Haltestelle.", "zh": "很多人在车站等车。"},
+{"de": "Die Leute reden immer viel über Promis.", "zh": "人们总是爱谈论名人。"}
+],
+"Vater": [
+{"de": "Mein Vater arbeitet bei der Bahn.", "zh": "我父亲在铁路工作。"},
+{"de": "Sein Vater kocht am besten.", "zh": "他父亲做饭最好吃。"},
+{"de": "Der Vater liest dem Kind vor.", "zh": "父亲给孩子读书。"}
+],
+"schön": [
+{"de": "Der Garten sieht im Sommer schön aus.", "zh": "花园夏天看起来很美。"},
+{"de": "Schön, dass du gekommen bist.", "zh": "你来了真好。"},
+{"de": "Wir hatten schöne Tage am Meer.", "zh": "我们在海边度过了美好的日子。"}
+],
+"glauben": [
+{"de": "Ich glaube dir nicht, zeig es mir.", "zh": "我不信你，做给我看。"},
+{"de": "Glaubst du an das Glück?", "zh": "你相信运气吗？"},
+{"de": "Wir glauben, dass er recht hat.", "zh": "我们相信他是对的。"}
+],
+"gerade": [
+{"de": "Ich bin gerade aus dem Büro gekommen.", "zh": "我刚从办公室出来。"},
+{"de": "Der Bus ist gerade losgefahren.", "zh": "公交车刚开走。"},
+{"de": "Genau jetzt brauche ich deine Hilfe.", "zh": "我现在正需要你的帮助。"}
+],
+"Tag": [
+{"de": "Jeden Tag gehe ich spazieren.", "zh": "我每天散步。"},
+{"de": "Der Tag war lang und heiß.", "zh": "这一天又长又热。"},
+{"de": "Eines Tages ziehen wir aufs Land.", "zh": "总有一天我们会搬到乡下去。"}
+],
+"Liebe": [
+{"de": "Liebe Grüße aus Hamburg!", "zh": "来自汉堡的亲切问候！"},
+{"de": "Die Liebe zur Musik bleibt immer.", "zh": "对音乐的热爱会一直保留。"},
+{"de": "Liebe Oma, vielen Dank für das Paket.", "zh": "亲爱的奶奶，谢谢你的包裹。"}
+],
+"unser": [
+{"de": "Unser Haus steht am Ende der Straße.", "zh": "我们的房子在街道尽头。"},
+{"de": "Unsere Nachbarn sind sehr ruhig.", "zh": "我们的邻居非常安静。"},
+{"de": "Unseren Plan ändern wir nicht.", "zh": "我们不改变计划。"}
+],
+"jemand": [
+{"de": "Jemand hat an der Tür geklopft.", "zh": "有人敲了门。"},
+{"de": "Ich suche jemanden, der mir hilft.", "zh": "我在找一个能帮我的人。"},
+{"de": "Hier wohnt jemand, den ich kenne.", "zh": "这里住着一个我认识的人。"}
+],
+"Geld": [
+{"de": "Ich habe kein Geld dabei, sorry.", "zh": "我身上没带钱，抱歉。"},
+{"de": "Das Geld liegt in der Schublade.", "zh": "钱在抽屉里。"},
+{"de": "Für das Projekt fehlt das Geld.", "zh": "这个项目缺钱。"}
+],
+"durch": [
+{"de": "Wir gingen durch den alten Park.", "zh": "我们穿过了老公园。"},
+{"de": "Der Zug fährt durch viele Tunnel.", "zh": "火车穿过许多隧道。"},
+{"de": "Durch Üben wird alles einfacher.", "zh": "通过练习，一切都会变简单。"}
+],
+"Mutter": [
+{"de": "Meine Mutter backt am Sonntag Kuchen.", "zh": "我妈妈周日烤蛋糕。"},
+{"de": "Seine Mutter kommt aus Polen.", "zh": "他的母亲来自波兰。"},
+{"de": "Die Mutter wartet vor der Schule.", "zh": "母亲在学校门前等着。"}
+],
+"denken": [
+{"de": "Ich denke oft an meine Heimat.", "zh": "我经常想起我的家乡。"},
+{"de": "Was denkst du über diesen Plan?", "zh": "你觉得这个计划怎么样？"},
+{"de": "Denk daran, das Licht auszumachen.", "zh": "记得把灯关掉。"}
+],
+"besser": [
+{"de": "Heute fühle ich mich viel besser.", "zh": "我今天感觉好多了。"},
+{"de": "Es ist besser, früh zu buchen.", "zh": "早点预订更好。"},
+{"de": "Sie spricht jetzt besser Deutsch als ich.", "zh": "她现在德语说得比我还好。"}
+],
+"möchte": [
+{"de": "Ich möchte ein Zimmer für zwei Nächte.", "zh": "我想要一间住两晚的房间。"},
+{"de": "Was möchtest du zum Frühstück?", "zh": "你早餐想吃什么？"},
+{"de": "Sie möchte nächsten Monat umziehen.", "zh": "她想下个月搬家。"}
+],
+"ohne": [
+{"de": "Ohne dich wäre das Fest langweilig.", "zh": "没有你，这个聚会会很无聊。"},
+{"de": "Ich trinke Kaffee ohne Zucker.", "zh": "我喝咖啡不加糖。"},
+{"de": "Er ging ohne ein Wort weg.", "zh": "他一句话没说就走了。"}
+],
+"hören": [
+{"de": "Hörst du auch die Vögel draußen?", "zh": "你也听到外面的鸟叫了吗？"},
+{"de": "Ich höre gern alte Lieder.", "zh": "我喜欢听老歌。"},
+{"de": "Wir hören von dir, hoffentlich bald.", "zh": "希望很快能听到你的消息。"}
+],
+"andere": [
+{"de": "Andere Leute denken da anders drüber.", "zh": "其他人对这事看法不同。"},
+{"de": "Hast du eine andere Farbe da?", "zh": "你有别的颜色吗？"},
+{"de": "In anderen Städten ist das billiger.", "zh": "在别的城市这更便宜。"}
+],
+"helfen": [
+{"de": "Kannst du mir helfen beim Tragen?", "zh": "你能帮我搬一下吗？"},
+{"de": "Sie hilft jedem, der fragt.", "zh": "她帮助每一个求助的人。"},
+{"de": "Das Medikament hilft wirklich gut.", "zh": "这个药真的很管用。"}
+],
+"Nacht": [
+{"de": "In der Nacht war es sehr kalt.", "zh": "夜里非常冷。"},
+{"de": "Gute Nacht und schlaf gut!", "zh": "晚安，睡个好觉！"},
+{"de": "Wir haben die ganze Nacht getanzt.", "zh": "我们跳了一整夜的舞。"}
+],
+"finden": [
+{"de": "Ich finde die Idee richtig gut.", "zh": "我觉得这个主意非常好。"},
+{"de": "Findest du den Weg alleine?", "zh": "你能自己找到路吗？"},
+{"de": "Im Schrank fand ich alte Fotos.", "zh": "我在柜子里找到了老照片。"}
+],
+"lange": [
+{"de": "Warte nicht zu lange am Telefon.", "zh": "别在电话前等太久。"},
+{"de": "Wie lange dauert die Fahrt?", "zh": "路程要多久？"},
+{"de": "Sie hat lange Haare bekommen.", "zh": "她留了长头发。"}
+],
+"natürlich": [
+{"de": "Natürlich helfe ich dir sofort.", "zh": "我当然马上帮你。"},
+{"de": "Das ist eine natürliche Reaktion.", "zh": "这是很自然的反应。"},
+{"de": "Natürlich Essen ist gesünder.", "zh": "天然食品更健康。"}
+],
+"ins": [
+{"de": "Wir gehen ins Kino um sieben.", "zh": "我们七点去电影院。"},
+{"de": "Ins Schwimmbad nehme ich Handtücher mit.", "zh": "去游泳池我带上毛巾。"},
+{"de": "Er kommt ins Büro später.", "zh": "他晚点到办公室。"}
+],
+"dort": [
+{"de": "Dort hinten steht der Kühlschrank.", "zh": "冰箱在那边后面。"},
+{"de": "Dort war früher ein Kino.", "zh": "那里以前是一家电影院。"},
+{"de": "Bleib dort, ich komme sofort.", "zh": "待在那儿，我马上来。"}
+],
+"weiter": [
+{"de": "Geh geradeaus und dann weiter links.", "zh": "直走，然后继续往左。"},
+{"de": "Weiter so, du machst das gut!", "zh": "就这样继续，你做得很好！"},
+{"de": "Wie geht es weiter im Film?", "zh": "电影接下来怎么发展？"}
+],
+"gleich": [
+{"de": "Ich bin gleich wieder zurück.", "zh": "我马上回来。"},
+{"de": "Wir haben gleich alte Schulen besucht.", "zh": "我们上过同一所学校。"},
+{"de": "Der Chef kommt gleich in die Besprechung.", "zh": "老板马上来开会。"}
+],
+"richtig": [
+{"de": "Du hast die Antwort richtig verstanden.", "zh": "你正确理解了答案。"},
+{"de": "Das ist der richtige Weg zum Bahnhof.", "zh": "这是去火车站正确的路。"},
+{"de": "Mach die Tür richtig zu.", "zh": "把门关严实。"}
+],
+"vom": [
+{"de": "Der Kuchen ist vom Nachbarn.", "zh": "蛋糕是邻居送的。"},
+{"de": "Vom Balkon sehen wir das Meer.", "zh": "从阳台我们看到大海。"},
+{"de": "Er kommt gerade vom Training.", "zh": "他刚从训练回来。"}
+],
+"Mädchen": [
+{"de": "Das Mädchen malt gerne Tiere.", "zh": "这个女孩喜欢画动物。"},
+{"de": "Die Mädchen spielen im Hof Ball.", "zh": "女孩们院子里玩球。"},
+{"de": "Unser Mädchen lernt jetzt Klavier.", "zh": "我们家女儿现在学钢琴。"}
+],
+"Abend": [
+{"de": "Am Abend lesen wir meistens.", "zh": "晚上我们大多读书。"},
+{"de": "Guten Abend, haben Sie reserviert?", "zh": "晚上好，您有预订吗？"},
+{"de": "Den Abend verbringen wir bei Freunden.", "zh": "晚上我们在朋友家度过。"}
+],
+"Haus": [
+{"de": "Unser Haus hat einen kleinen Garten.", "zh": "我们的房子有个小花园。"},
+{"de": "Das Haus nebenan wird verkauft.", "zh": "隔壁的房子要卖了。"},
+{"de": "Bleib heute im Haus, es stürmt.", "zh": "今天待在家里，外面有风暴。"}
+],
+"viele": [
+{"de": "Viele Gäste kommen zum Fest.", "zh": "许多客人来参加庆祝活动。"},
+{"de": "Ich habe viele Fragen an dich.", "zh": "我有很多问题要问你。"},
+{"de": "Viele fahren im Sommer ans Meer.", "zh": "许多人夏天去海边。"}
+],
+"drei": [
+{"de": "Wir sind drei Kinder in der Familie.", "zh": "我们家有三个孩子。"},
+{"de": "In drei Tagen beginnt der Urlaub.", "zh": "三天后开始休假。"},
+{"de": "Drei Tassen Tee, bitte.", "zh": "请来三杯茶。"}
+],
+"Freund": [
+{"de": "Mein Freund kommt morgen zu Besuch.", "zh": "我朋友明天来做客。"},
+{"de": "Er ist ein guter Freund von mir.", "zh": "他是我的一个好朋友。"},
+{"de": "Unsere Freunde wohnen in Hamburg.", "zh": "我们的朋友们住在汉堡。"}
+],
+"warten": [
+{"de": "Warte bitte kurz am Eingang.", "zh": "请在入口稍等。"},
+{"de": "Wir warten schon auf den Bus.", "zh": "我们已经在等公交车了。"},
+{"de": "Sie wartete lange auf die Antwort.", "zh": "她等回信等了很久。"}
+],
+"Mensch": [
+{"de": "Jeder Mensch braucht manchmal Ruhe.", "zh": "每个人有时都需要安静。"},
+{"de": "Der Mensch lernt sein Leben lang.", "zh": "人一辈子都在学习。"},
+{"de": "Da waren Menschen aus vielen Ländern.", "zh": "那里有来自许多国家的人。"}
+],
+"essen": [
+{"de": "Wir essen heute Abend beim Italiener.", "zh": "我们今晚在意大利餐馆吃饭。"},
+{"de": "Iss langsam, das ist heiß.", "zh": "慢点吃，很烫。"},
+{"de": "Was hast du zum Frühstück gegessen?", "zh": "你早餐吃了什么？"}
+],
+"bleiben": [
+{"de": "Bleib ruhig sitzen, es geht gleich los.", "zh": "坐着别动，马上就开始。"},
+{"de": "Die Kinder bleiben bei der Oma.", "zh": "孩子们留在奶奶家。"},
+{"de": "Nur zwei Fragen bleiben offen.", "zh": "只剩两个问题没解决。"}
+],
+"zusammen": [
+{"de": "Wir kochen heute zusammen Pizza.", "zh": "我们今天一起做披萨。"},
+{"de": "Sie wohnen zusammen in einer WG.", "zh": "他们合住一套公寓。"},
+{"de": "Zusammen schaffen wir das leicht.", "zh": "我们一起就能轻松完成。"}
+],
+"Welt": [
+{"de": "Sie reist gern um die Welt.", "zh": "她喜欢周游世界。"},
+{"de": "In der Welt passiert jeden Tag viel.", "zh": "世界上每天发生很多事。"},
+{"de": "Für ihn ist Fußball die ganze Welt.", "zh": "对他来说足球就是整个世界。"}
+],
+"unter": [
+{"de": "Die Katze sitzt unter dem Tisch.", "zh": "猫坐在桌子底下。"},
+{"de": "Unter Freunden spricht man offen.", "zh": "朋友之间说话很坦率。"},
+{"de": "Wir stehen unter Zeitdruck.", "zh": "我们时间紧迫。"}
+],
+"schnell": [
+{"de": "Das Taxi war schnell am Flughafen.", "zh": "出租车很快到了机场。"},
+{"de": "Komm schnell, der Film beginnt!", "zh": "快点来，电影开始了！"},
+{"de": "Sie spricht sehr schnell, hör genau zu.", "zh": "她说得很快，仔细听。"}
+],
+"nehmen": [
+{"de": "Wir nehmen den Bus ins Zentrum.", "zh": "我们坐公交车去市中心。"},
+{"de": "Nimm dir einen Regenschirm mit.", "zh": "带上雨伞。"},
+{"de": "Sie nimmt an dem Kurs teil.", "zh": "她参加了这个课程。"}
+],
+"Kind": [
+{"de": "Das Kind schläft endlich.", "zh": "孩子终于睡着了。"},
+{"de": "Unsere Kinder gehen in dieselbe Schule.", "zh": "我们的孩子们上同一所学校。"},
+{"de": "Als Kind hatte ich ein Fahrrad.", "zh": "小时候我有辆自行车。"}
+],
+"bringen": [
+{"de": "Ich bringe dir morgen das Buch.", "zh": "我明天把书带给你。"},
+{"de": "Bring bitte Getränke zur Party mit.", "zh": "聚会请带点饮料来。"},
+{"de": "Das brachte uns alle zum Lachen.", "zh": "这把我们大家都逗笑了。"}
+],
+"genug": [
+{"de": "Es ist genug Essen für alle da.", "zh": "食物足够所有人吃。"},
+{"de": "Jetzt reicht es, genug geredet.", "zh": "现在够了，别再说了。"},
+{"de": "Hast du genug Geld für die Karte?", "zh": "你的钱够买票吗？"}
+],
+"brauchen": [
+{"de": "Ich brauche deine Hilfe beim Umzug.", "zh": "我搬家需要你的帮助。"},
+{"de": "Brauchst du noch Milch vom Laden?", "zh": "你还需要从店里买牛奶吗？"},
+{"de": "Kinder brauchen viel Schlaf.", "zh": "孩子需要很多睡眠。"}
+],
+"gegen": [
+{"de": "Das Spiel beginnt gegen acht.", "zh": "比赛八点左右开始。"},
+{"de": "Er ist gegen den Plan.", "zh": "他反对这个计划。"},
+{"de": "Wir fahren gegen den Wind.", "zh": "我们逆风行驶。"}
+],
+"Moment": [
+{"de": "Warte einen Moment, ich komme.", "zh": "等一下，我马上来。"},
+{"de": "Im Moment habe ich viel Arbeit.", "zh": "我现在工作很多。"},
+{"de": "Einen Moment bitte, ich verbinde.", "zh": "请稍等，我帮您转接。"}
+],
+"Junge": [
+{"de": "Der Junge fährt gern Skateboard.", "zh": "这个男孩喜欢玩滑板。"},
+{"de": "Die Jungen spielen Fußball im Park.", "zh": "男孩们在公园踢足球。"},
+{"de": "Unser Junge beginnt bald die Schule.", "zh": "我们家男孩快上学了。"}
+],
+"stehen": [
+{"de": "Das Auto steht vor dem Haus.", "zh": "车停在房子前面。"},
+{"de": "Im Regal stehen viele alte Bücher.", "zh": "书架上放着许多旧书。"},
+{"de": "Was steht in dem Brief?", "zh": "信里写了什么？"}
+],
+"Musik": [
+{"de": "Ich höre beim Laufen Musik.", "zh": "我跑步时听音乐。"},
+{"de": "Die Musik war viel zu laut.", "zh": "音乐声音太大了。"},
+{"de": "Sie macht selbst Musik mit Freunden.", "zh": "她和朋友们自己玩音乐。"}
+],
+"Arbeit": [
+{"de": "Die Arbeit macht heute viel Spaß.", "zh": "今天的工作很有趣。"},
+{"de": "Nach der Arbeit gehe ich einkaufen.", "zh": "下班后我去购物。"},
+{"de": "Sie sucht eine Arbeit in Berlin.", "zh": "她在柏林找一份工作。"}
+],
+"fragen": [
+{"de": "Frag den Lehrer nach der Aufgabe.", "zh": "问一下老师作业的事。"},
+{"de": "Ich frage mich, ob das klappt.", "zh": "我在想这事能不能成。"},
+{"de": "Sie fragte nach dem Weg.", "zh": "她问了路。"}
+],
+"Herr": [
+{"de": "Der Herr dort fragt nach dir.", "zh": "那边那位先生在找你。"},
+{"de": "Herr Müller ist heute im Meeting.", "zh": "米勒先生今天在开会。"},
+{"de": "Guten Tag, Herr Doktor Wagner.", "zh": "您好，瓦格纳医生。"}
+],
+"heißen": [
+{"de": "Wie heißt du mit Vornamen?", "zh": "你叫什么名字？"},
+{"de": "Die Straße heißt jetzt anders.", "zh": "这条街现在改名了。"},
+{"de": "Ich heiße Anna und komme aus Wien.", "zh": "我叫安娜，来自维也纳。"}
+],
+"Familie": [
+{"de": "Meine Familie wohnt im Süden.", "zh": "我的家人住在南方。"},
+{"de": "Die Familie macht einen Ausflug.", "zh": "一家人去郊游。"},
+{"de": "Sie hat eine große Familie.", "zh": "她有一个大家庭。"}
+],
+"niemand": [
+{"de": "Niemand hat die Frage beantwortet.", "zh": "没有人回答这个问题。"},
+{"de": "Da war niemand zu Hause.", "zh": "那时家里没有人。"},
+{"de": "Niemand kennt die Wahrheit genau.", "zh": "没有人确切知道真相。"}
+],
+"Jahr": [
+{"de": "Das Jahr beginnt mit Schnee.", "zh": "这一年以雪开始。"},
+{"de": "Wir kennen uns seit einem Jahr.", "zh": "我们认识一年了。"},
+{"de": "Im nächsten Jahr reisen wir nach Spanien.", "zh": "明年我们去西班牙旅行。"}
+],
+"einmal": [
+{"de": "Komm doch einmal mit zum See.", "zh": "你跟我们来一次湖边吧。"},
+{"de": "Sag das noch einmal, bitte.", "zh": "请再说一遍。"},
+{"de": "Einmal im Jahr fahren wir in die Berge.", "zh": "我们每年去一次山里。"}
+],
+"Problem": [
+{"de": "Das Problem ist schnell gelöst.", "zh": "这个问题很快解决了。"},
+{"de": "Ich sehe hier kein Problem.", "zh": "我看这里没问题。"},
+{"de": "Mit dem Auto gibt es Probleme.", "zh": "汽车出了问题。"}
+],
+"Sohn": [
+{"de": "Mein Sohn beginnt bald das Studium.", "zh": "我儿子快开始上大学了。"},
+{"de": "Ihr Sohn spielt sehr gut Klavier.", "zh": "她儿子钢琴弹得很好。"},
+{"de": "Der Sohn des Nachbarn hilft oft.", "zh": "邻居的儿子经常帮忙。"}
+],
+"wann": [
+{"de": "Wann beginnt der Film heute?", "zh": "电影今天几点开始？"},
+{"de": "Weißt du, wann der Bus kommt?", "zh": "你知道公交车什么时候来吗？"},
+{"de": "Wann hast du Geburtstag?", "zh": "你什么时候过生日？"}
+],
+"fertig": [
+{"de": "Das Essen ist fertig, komm!", "zh": "饭好了，来吧！"},
+{"de": "Ich bin mit der Arbeit fertig.", "zh": "我的工作做完了。"},
+{"de": "Sei fertig bis um neun.", "zh": "九点前要弄好。"}
+],
+"allein": [
+{"de": "Ich wohne nicht allein in der Wohnung.", "zh": "我不是一个人住在这套公寓。"},
+{"de": "Sie reist allein durch Asien.", "zh": "她独自穿越亚洲旅行。"},
+{"de": "Allein hätte das niemand geschafft.", "zh": "一个人谁也做不到。"}
+],
+"beim": [
+{"de": "Beim Essen reden wir über den Tag.", "zh": "吃饭时我们聊聊这一天。"},
+{"de": "Ich war beim Friseur.", "zh": "我去理发了。"},
+{"de": "Beim Fußballspiel war es laut.", "zh": "足球赛现场很吵。"}
+],
+"sprechen": [
+{"de": "Kann ich kurz mit dem Chef sprechen?", "zh": "我能和老板简单说几句吗？"},
+{"de": "Sie spricht drei Sprachen.", "zh": "她会说三种语言。"},
+{"de": "Wir sprechen morgen über den Vertrag.", "zh": "我们明天谈合同。"}
+],
+"Hilfe": [
+{"de": "Brauchst du Hilfe beim Kochen?", "zh": "你做饭需要帮忙吗？"},
+{"de": "Ruf im Notfall die Hilfe an.", "zh": "紧急情况打求救电话。"},
+{"de": "Mit deiner Hilfe ging alles schnell.", "zh": "有你的帮助一切都很快。"}
+],
+"jeder": [
+{"de": "Jeder sollte mal im Ausland leben.", "zh": "每个人都应该在国外生活一段时间。"},
+{"de": "Jeden Morgen trinke ich Kaffee.", "zh": "我每天早上喝咖啡。"},
+{"de": "Er kennt jeden in der Straße.", "zh": "他认识街上每一个人。"}
+],
+"gern": [
+{"de": "Ich trinke gern Tee am Abend.", "zh": "我喜欢晚上喝茶。"},
+{"de": "Gern geschehen, das macht nichts.", "zh": "不客气，没事的。"},
+{"de": "Wir würden gern früher kommen.", "zh": "我们很想早点来。"}
+],
+"verstehen": [
+{"de": "Ich verstehe die Frage nicht ganz.", "zh": "我不太理解这个问题。"},
+{"de": "Verstehst du, warum sie sauer ist?", "zh": "你明白她为什么生气吗？"},
+{"de": "Endlich hat er alles verstanden.", "zh": "他终于全都明白了。"}
+],
+"Bruder": [
+{"de": "Mein Bruder wohnt in Köln.", "zh": "我哥哥住在科隆。"},
+{"de": "Ihr Bruder ist wie ein Freund.", "zh": "她的兄弟像朋友一样。"},
+{"de": "Die Brüder streiten selten.", "zh": "兄弟俩很少争吵。"}
+],
+"lieber": [
+{"de": "Ich trinke lieber Tee als Kaffee.", "zh": "比起咖啡我更爱喝茶。"},
+{"de": "Geh lieber früher los.", "zh": "你最好早点出发。"},
+{"de": "Wir würden lieber zu Hause bleiben.", "zh": "我们更想待在家里。"}
+],
+"kennen": [
+{"de": "Ich kenne ihn seit der Schule.", "zh": "我从上学时就认识他。"},
+{"de": "Kennst du diesen Song?", "zh": "你知道这首歌吗？"},
+{"de": "Sie kennt sich hier gut aus.", "zh": "她对这里很熟悉。"}
+],
+"vergessen": [
+{"de": "Ich habe meinen Schirm vergessen.", "zh": "我忘了带伞。"},
+{"de": "Vergiss die Schlüssel nicht.", "zh": "别忘了带钥匙。"},
+{"de": "Das kann man schnell vergessen.", "zh": "这件事很快就会忘记。"}
+],
+"Frage": [
+{"de": "Ich habe eine Frage an den Lehrer.", "zh": "我有一个问题要问老师。"},
+{"de": "Die Frage ist einfach zu beantworten.", "zh": "这个问题很好回答。"},
+{"de": "Zu dieser Frage gibt es viele Meinungen.", "zh": "对这个问题有很多看法。"}
+],
+"Uhr": [
+{"de": "Es ist genau zehn Uhr.", "zh": "现在正好十点。"},
+{"de": "Meine Uhr geht drei Minuten vor.", "zh": "我的表快三分钟。"},
+{"de": "Um ein Uhr treffen wir uns.", "zh": "我们一点钟见面。"}
+],
+"Stadt": [
+{"de": "Die Stadt hat viele alte Gebäude.", "zh": "这座城市有许多老建筑。"},
+{"de": "In der Stadt ist immer was los.", "zh": "城里总是有事情发生。"},
+{"de": "Wir ziehen nächstes Jahr in die Stadt.", "zh": "我们明年搬进城。"}
+],
+"Baby": [
+{"de": "Das Baby schläft endlich.", "zh": "宝宝终于睡着了。"},
+{"de": "Ihr Baby ist schon acht Monate alt.", "zh": "她的宝宝已经八个月大了。"},
+{"de": "Die Babys brauchen viel Ruhe.", "zh": "婴儿需要很多安静。"}
+],
+"fahren": [
+{"de": "Wir fahren im Sommer ans Meer.", "zh": "我们夏天开车去海边。"},
+{"de": "Fährst du langsam, es regnet.", "zh": "开慢点，在下雨。"},
+{"de": "Der Bus fährt alle zehn Minuten.", "zh": "公交车每十分钟一班。"}
+],
+"Name": [
+{"de": "Wie ist Ihr Name, bitte?", "zh": "请问您叫什么名字？"},
+{"de": "Der Name des Films fällt mir nicht ein.", "zh": "我想不起这部电影的名字了。"},
+{"de": "Ich schreibe deinen Namen auf die Liste.", "zh": "我把你的名字写进名单。"}
+],
+"Kopf": [
+{"de": "Mein Kopf tut heute weh.", "zh": "我今天头疼。"},
+{"de": "Im Kopf habe ich den Plan fertig.", "zh": "计划在我脑子里已经好了。"},
+{"de": "Kopf hoch, das wird schon.", "zh": "振作点，会好起来的。"}
+],
+"klein": [
+{"de": "Das Zimmer ist klein, aber gemütlich.", "zh": "房间小，但很温馨。"},
+{"de": "Ich war noch ein kleines Kind damals.", "zh": "那时我还是个小孩子。"},
+{"de": "Die kleinere Tasse reicht mir.", "zh": "小杯的就够我了。"}
+],
+"später": [
+{"de": "Bis später am Bahnhof.", "zh": "回头火车站见。"},
+{"de": "Später haben wir es alle verstanden.", "zh": "后来我们都明白了。"},
+{"de": "Ruf mich später nochmal an.", "zh": "晚点再给我打个电话。"}
+],
+"Glück": [
+{"de": "Viel Glück bei der Prüfung!", "zh": "祝你考试好运！"},
+{"de": "Zum Glück war niemand verletzt.", "zh": "幸好没人受伤。"},
+{"de": "Sie hat Glück im Beruf.", "zh": "她在事业上很走运。"}
+],
+"bald": [
+{"de": "Bis bald, ich freue mich.", "zh": "回头见，我很期待。"},
+{"de": "Der Winter kommt bald.", "zh": "冬天快到了。"},
+{"de": "Ich bin bald fertig mit dem Bericht.", "zh": "我很快就能写完报告。"}
+],
+"Ding": [
+{"de": "Was ist das für ein Ding dort?", "zh": "那边那个东西是什么？"},
+{"de": "Alles hat zwei Seiten, jedes Ding.", "zh": "每件事物都有两面。"},
+{"de": "Die kleinen Dinge im Leben zählen.", "zh": "生活中的小事才重要。"}
+],
+"eins": [
+{"de": "Eins, zwei, drei, los!", "zh": "一、二、三，开始！"},
+{"de": "Eins ist mir noch unklar.", "zh": "还有一点我不明白。"},
+{"de": "Wir treffen uns um eins.", "zh": "我们一点钟见面。"}
+],
+"Minute": [
+{"de": "Warte eine Minute, ich komme.", "zh": "等一分钟，我马上来。"},
+{"de": "Der Zug hat zehn Minuten Verspätung.", "zh": "火车晚点十分钟。"},
+{"de": "In fünf Minuten ist das Essen fertig.", "zh": "五分钟后饭就好了。"}
+],
+"bisschen": [
+{"de": "Kannst du leiser sein, ein bisschen?", "zh": "你能稍微小声一点吗？"},
+{"de": "Ich verstehe ein bisschen Spanisch.", "zh": "我懂一点西班牙语。"},
+{"de": "Warte ein bisschen, fast fertig.", "zh": "再等一下，马上好。"}
+]
+}

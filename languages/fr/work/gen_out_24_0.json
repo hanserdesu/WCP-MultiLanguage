@@ -1,0 +1,502 @@
+{
+"station": [
+{"fr": "La station de métro la plus proche ferme à minuit.", "zh": "最近的地铁站午夜关闭。"},
+{"fr": "Ils attendent le bus à la station du centre commercial.", "zh": "他们在商场的公交站等车。"},
+{"fr": "Cette station de ski ouvre ses pistes dès décembre.", "zh": "这个滑雪场十二月就开雪道。"}
+],
+"station-service": [
+{"fr": "Arrête-toi à la station-service pour faire le plein avant l'autoroute.", "zh": "上高速前先在加油站把油加满。"},
+{"fr": "La station-service du village ferme tôt le dimanche.", "zh": "村里的加油站周日很早就关门。"},
+{"fr": "Il a payé l'essence par carte à la station-service de l'aéroport.", "zh": "他在机场加油站刷卡付了油钱。"}
+],
+"statue": [
+{"fr": "Une statue de bronze orne la place du marché.", "zh": "市场广场上立着一尊青铜雕像。"},
+{"fr": "Les pigeons se posent souvent sur la statue du parc.", "zh": "鸽子经常落在公园的雕像上。"},
+{"fr": "Cette statue représente une femme tenant une lampe.", "zh": "这座雕像是一位手举灯的女子。"}
+],
+"steak": [
+{"fr": "Le steak haché doit être bien cuit pour les enfants.", "zh": "给孩子吃的牛肉饼一定要煎熟。"},
+{"fr": "Il aime son steak saignant avec des frites maison.", "zh": "他喜欢三分熟的牛排配自制薯条。"},
+{"fr": "On a grillé des steaks au barbecue du jardin dimanche.", "zh": "周日我们在花园烤架上烤了牛排。"}
+],
+"stress": [
+{"fr": "Le stress des examens lui donne des insomnies.", "zh": "考试压力让他失眠。"},
+{"fr": "Respirer profondément aide à réduire le stress avant l'entretien.", "zh": "面试前深呼吸有助于减压。"},
+{"fr": "Il a quitté son poste à cause du stress permanent.", "zh": "由于长期压力大，他辞了职。"}
+],
+"studio": [
+{"fr": "Elle loue un studio meublé près de la faculté.", "zh": "她在学院附近租了一间带家具的单间公寓。"},
+{"fr": "Le musicien a transformé son garage en studio d'enregistrement.", "zh": "音乐人把车库改成了录音棚。"},
+{"fr": "Ils répètent dans un studio au sous-sol de l'immeuble.", "zh": "他们在楼地下室的一间排练室里排练。"}
+],
+"stupide": [
+{"fr": "Ce serait stupide de partir sans consulter la météo.", "zh": "不看天气预报就出发太蠢了。"},
+{"fr": "Il se sent stupide d'avoir oublié les billets à la maison.", "zh": "把票忘在家里，他觉得自己真傻。"},
+{"fr": "Ce n'est pas une question stupide, pose-la sans crainte.", "zh": "这个问题一点也不傻，放心问吧。"}
+],
+"style": [
+{"fr": "J'aime son style simple et élégant.", "zh": "我喜欢他简洁优雅的风格。"},
+{"fr": "Ce style de musique plaît beaucoup aux adolescents.", "zh": "这种音乐风格很受青少年欢迎。"},
+{"fr": "L'architecte a gardé le style ancien de la façade.", "zh": "建筑师保留了立面的原有风格。"}
+],
+"stéréo": [
+{"fr": "Baisse le volume de la stéréo, les voisins dorment.", "zh": "把音响声音调小点，邻居睡了。"},
+{"fr": "Il a branché sa nouvelle stéréo dans le salon.", "zh": "他把新音响接在了客厅。"},
+{"fr": "Cette vieille stéréo fonctionne encore très bien.", "zh": "这台旧音响至今仍运转良好。"}
+],
+"succès": [
+{"fr": "Son premier roman a connu un grand succès.", "zh": "他的第一本小说大获成功。"},
+{"fr": "Le spectacle remporte un succès croissant depuis sa création.", "zh": "首演以来，这部演出越来越受欢迎。"},
+{"fr": "Tous ses projets aboutissent avec succès.", "zh": "他的项目个个都顺利落地。"}
+],
+"sucer": [
+{"fr": "Le bébé suce son pouce pour s'endormir.", "zh": "宝宝吮着大拇指入睡。"},
+{"fr": "Les enfants sucent des glaces à l'orange sur le trottoir.", "zh": "孩子们在人行道上舔着橙味冰棍。"},
+{"fr": "Il suce un bonbon pour éviter de tousser pendant la réunion.", "zh": "他含着糖，免得开会时咳嗽。"}
+],
+"sucette": [
+{"fr": "La petite fille a choisi une sucette à la fraise.", "zh": "小姑娘挑了一支草莓味棒棒糖。"},
+{"fr": "Le clown offrait des sucettes aux enfants venus au spectacle.", "zh": "小丑给来看演出的孩子们发棒棒糖。"},
+{"fr": "Cette sucette au citron est trop acide pour le petit.", "zh": "这支柠檬棒棒糖对小孩来说太酸了。"}
+],
+"sud": [
+{"fr": "Le sud de l'Espagne attire de nombreux visiteurs en hiver.", "zh": "冬天，西班牙南部吸引大量游客。"},
+{"fr": "Nous avons voyagé plein sud pendant trois jours.", "zh": "我们一路向南旅行了三天。"},
+{"fr": "Le vent tourne au sud et ramène la douceur.", "zh": "风向转为南风，暖意回归。"}
+],
+"sueur": [
+{"fr": "Il essuya la sueur de son front après l'ascension.", "zh": "爬上去之后，他擦去额头上的汗。"},
+{"fr": "La sueur coulait sur les danseurs sous les projecteurs.", "zh": "聚光灯下，汗水顺着舞者往下淌。"},
+{"fr": "Une sueur froide l'a pris avant son tour de parole.", "zh": "轮到他发言前，他冒了一身冷汗。"}
+],
+"suicider": [
+{"fr": "Dans ce drame classique, le héros décide de se suicider après la trahison.", "zh": "在这部古典悲剧中，主人公遭受背叛后决意自杀。"},
+{"fr": "Les lignes d'écoute aident ceux qui pensent à se suicider.", "zh": "心理热线帮助那些有自杀念头的人。"},
+{"fr": "Le film traite du deuil d'un adolescent qui a voulu se suicider.", "zh": "影片讲述一位曾想自杀的少年的哀伤。"}
+],
+"suisse": [
+{"fr": "Notre voisin suisse fabrique d'excellentes fondues.", "zh": "我们的瑞士邻居做的奶酪火锅特别好。"},
+{"fr": "Elle a passé son été dans un petit village suisse.", "zh": "她夏天是在一个瑞士小村庄度过的。"},
+{"fr": "Les banques suisses sont connues dans le monde entier.", "zh": "瑞士银行闻名世界。"}
+],
+"suite": [
+{"fr": "Et la suite du film est encore meilleure que le début.", "zh": "电影的后续部分比开头还精彩。"},
+{"fr": "Je t'explique tout de suite comment ça marche.", "zh": "我马上就告诉你这是怎么回事。"},
+{"fr": "Ils ont réservé une suite avec vue sur la mer pour leur lune de miel.", "zh": "蜜月他们订了海景套房。"}
+],
+"suivant": [
+{"fr": "Nous verrons la leçon suivante la semaine prochaine.", "zh": "下一课我们下周再学。"},
+{"fr": "Les documents suivants doivent être joints au dossier.", "zh": "以下文件须附在档案里。"},
+{"fr": "Le mercredi suivant, ils sont partis visiter les grottes.", "zh": "接下来的周三，他们去参观了溶洞。"}
+],
+"sujet": [
+{"fr": "Changeons de sujet, parlons plutôt des vacances.", "zh": "换个话题吧，聊聊假期。"},
+{"fr": "Ce sujet de dissertation porte sur l'environnement.", "zh": "这篇作文的题目与环境有关。"},
+{"fr": "Elle est au courant de tous les sujets d'actualité.", "zh": "所有时事话题她都了解。"}
+],
+"surf": [
+{"fr": "Les jeunes apprennent le surf sur les vagues de la côte atlantique.", "zh": "年轻人在大西洋沿岸的海浪中学冲浪。"},
+{"fr": "Il a acheté une nouvelle planche de surf avant l'été.", "zh": "入夏前他买了块新冲浪板。"},
+{"fr": "Après deux leçons, elle tient déjà debout sur son surf.", "zh": "上了两节课，她已经能在冲浪板上站稳了。"}
+],
+"surface": [
+{"fr": "La surface de la table est rayée par les couteaux.", "zh": "桌面被刀子划花了。"},
+{"fr": "Cet appartement offre une surface habitable de soixante mètres carrés.", "zh": "这套公寓的使用面积有六十平方米。"},
+{"fr": "Sous une surface calme, elle cache beaucoup d'émotions.", "zh": "平静的外表下，她藏着许多情绪。"}
+],
+"surprenant": [
+{"fr": "C'est surprenant de le voir si ponctuel aujourd'hui.", "zh": "他今天这么准时，真让人意外。"},
+{"fr": "Le résultat du vote est vraiment surprenant.", "zh": "投票结果实在出人意料。"},
+{"fr": "Son accent a un charme surprenant pour un Parisien.", "zh": "对一个巴黎人来说，他的口音有种意外的魅力。"}
+],
+"surprendre": [
+{"fr": "Nous voulons surprendre maman avec un petit-déjeuner au lit.", "zh": "我们想把早餐端到床上，给妈妈一个惊喜。"},
+{"fr": "Il m'a surpris en train de lire son journal intime.", "zh": "他撞见我在偷看他的日记。"},
+{"fr": "La fin du film m'a complètement surpris.", "zh": "电影的结尾完全出乎我的意料。"}
+],
+"surpris": [
+{"fr": "Il a ouvert les yeux, surpris par ce bruit étrange.", "zh": "他被这怪声惊到，睁大了眼睛。"},
+{"fr": "J'ai été agréablement surpris par ce petit restaurant.", "zh": "这家小餐馆给了我惊喜。"},
+{"fr": "Personne n'était vraiment surpris par sa démission.", "zh": "对他的辞职，没人感到特别意外。"}
+],
+"surprise": [
+{"fr": "Organisons une surprise pour les dix ans de Julien.", "zh": "我们来为于连的十岁生日准备一个惊喜吧。"},
+{"fr": "Sa visite fut une agréable surprise pour toute la famille.", "zh": "他的到访让全家人又惊又喜。"},
+{"fr": "Quelle surprise de te croiser au marché ce matin !", "zh": "今天早上在市场碰见你，真没想到！"}
+],
+"suspect": [
+{"fr": "Le suspect a refusé de répondre aux questions du policier.", "zh": "嫌疑人拒绝回答警察的问话。"},
+{"fr": "Un individu suspect rôdait près des garages la nuit.", "zh": "夜里有个可疑的人在车库附近转悠。"},
+{"fr": "Les enquêteurs ont relâché le suspect faute de preuves.", "zh": "由于证据不足，调查人员释放了嫌疑人。"}
+],
+"suédois": [
+{"fr": "Il apprend le suédois pour son nouveau travail à Stockholm.", "zh": "为了在斯德哥尔摩的新工作，他在学瑞典语。"},
+{"fr": "Les Suédois parlent presque tous un excellent anglais.", "zh": "瑞典人几乎都能说一口流利的英语。"},
+{"fr": "Elle a suivi des cours de suédois avant de déménager.", "zh": "搬家前她上过瑞典语课。"}
+],
+"symbole": [
+{"fr": "La tour Eiffel est le symbole de Paris.", "zh": "埃菲尔铁塔是巴黎的象征。"},
+{"fr": "La colombe est un symbole de paix universel.", "zh": "鸽子是世界和平的象征。"},
+{"fr": "Ce geste est un symbole fort pour toute l'équipe.", "zh": "这个举动对全队意义重大。"}
+],
+"sympa": [
+{"fr": "La nouvelle voisine a l'air vraiment sympa.", "zh": "新来的邻居看起来人很好。"},
+{"fr": "C'est sympa de ta part de nous accompagner.", "zh": "你能陪我们一起来，真好。"},
+{"fr": "Le prof de sport est super sympa cette année.", "zh": "今年的体育老师特别和气。"}
+],
+"sympathique": [
+{"fr": "Nous avons passé une soirée sympathique autour d'un bon repas.", "zh": "我们围着一顿好饭度过了一个愉快的夜晚。"},
+{"fr": "C'est un quartier sympathique avec ses cafés et ses librairies.", "zh": "这个街区咖啡馆书店林立，很讨人喜欢。"},
+{"fr": "L'hôtelier sympathique nous a donné de bons conseils de visite.", "zh": "和气的旅馆老板给了我们很好的游览建议。"}
+],
+"sécher": [
+{"fr": "Laisse sécher la peinture une nuit avant d'accrocher le tableau.", "zh": "油漆晾一晚再挂画。"},
+{"fr": "Elle sèche ses cheveux au sèche-cheveux chaque matin.", "zh": "她每天早上用吹风机吹干头发。"},
+{"fr": "Le linge sèche vite au soleil de midi.", "zh": "正午的太阳下，衣服干得很快。"}
+],
+"sécurité": [
+{"fr": "Portez toujours votre casque pour votre sécurité.", "zh": "为了安全，请务必戴好头盔。"},
+{"fr": "La sécurité de l'avion passe par des contrôles réguliers.", "zh": "飞机的安全有赖于定期检查。"},
+{"fr": "Ils ont quitté le bâtiment par mesure de sécurité.", "zh": "出于安全考虑，他们撤离了大楼。"}
+],
+"séjour": [
+{"fr": "Notre séjour à Rome a duré quatre jours inoubliables.", "zh": "我们的罗马之行难忘，一共待了四天。"},
+{"fr": "Un séjour linguistique lui a permis de progresser en anglais.", "zh": "一次语言研修让他的英语进步了。"},
+{"fr": "Le prix du séjour comprend l'hôtel et les petits-déjeuners.", "zh": "住宿价格包含酒店和早餐。"}
+],
+"séparer": [
+{"fr": "Un mur de verre sépare la cuisine du salon.", "zh": "一堵玻璃墙把厨房和客厅隔开。"},
+{"fr": "Il faut séparer les blancs des jaunes pour cette recette.", "zh": "这道食谱要把蛋白和蛋黄分开。"},
+{"fr": "Le couple a décidé de se séparer après dix ans ensemble.", "zh": "在一起十年后，这对伴侣决定分开。"}
+],
+"série": [
+{"fr": "Cette série policière se déroule dans le Marseille des années soixante.", "zh": "这部警匪剧的背景是六十年代的马赛。"},
+{"fr": "Il regarde des séries américaines tous les soirs.", "zh": "他每天晚上都看美剧。"},
+{"fr": "L'usine lance une nouvelle série de voitures électriques.", "zh": "工厂推出了全新的电动汽车系列。"}
+],
+"sérieusement": [
+{"fr": "Tu devrais sérieusement penser à changer de travail.", "zh": "你真该认真考虑换工作了。"},
+{"fr": "Ils discutent sérieusement de l'avenir de l'entreprise.", "zh": "他们在认真讨论公司的前景。"},
+{"fr": "Elle s'entraîne sérieusement depuis deux ans.", "zh": "两年来她一直在认真训练。"}
+],
+"sérieux": [
+{"fr": "C'est un étudiant sérieux qui rend toujours ses devoirs à temps.", "zh": "他是个认真的学生，总是按时交作业。"},
+{"fr": "Cette entreprise traverse un problème sérieux de trésorerie.", "zh": "这家公司现金流出了严重问题。"},
+{"fr": "Sans vouloir te faire peur, prends la chose au sérieux.", "zh": "不是吓你，这事你得认真对待。"}
+],
+"tabac": [
+{"fr": "Il a arrêté le tabac depuis le premier janvier.", "zh": "他从一月一日起就戒烟了。"},
+{"fr": "Le tabac du coin vend aussi les tickets de bus.", "zh": "街角的烟草店也卖公交车票。"},
+{"fr": "L'odeur de tabac imprégnait le rideau du vieux café.", "zh": "老咖啡馆的窗帘浸透了烟味。"}
+],
+"tableau": [
+{"fr": "Le professeur efface le tableau après chaque leçon.", "zh": "每节课后老师都把黑板擦干净。"},
+{"fr": "Ce tableau de Van Gogh est exposé au musée d'Amsterdam.", "zh": "梵高的这幅画陈列在阿姆斯特丹的博物馆里。"},
+{"fr": "Le tableau des prix est affiché à l'entrée du parking.", "zh": "停车场入口贴着收费表。"}
+],
+"tablette": [
+{"fr": "Il a offert une tablette de chocolat noir à l'hôtesse.", "zh": "他送给女主人一块黑巧克力。"},
+{"fr": "Les enfants regardent des dessins animés sur la tablette pendant le trajet.", "zh": "路上孩子们用平板电脑看动画片。"},
+{"fr": "Elle a posé sa tablette sur le chargeur avant de dormir.", "zh": "睡前她把平板电脑放上充电器。"}
+],
+"tablier": [
+{"fr": "Mets ton tablier avant de commencer la pâtisserie.", "zh": "开始做点心前先系上围裙。"},
+{"fr": "Le menuisier protège ses vêtements avec un tablier en toile.", "zh": "木匠用帆布围裙护住衣服。"},
+{"fr": "Elle a roulé son tablier de serveuse à la fin du service.", "zh": "结束营业后，她收起了服务员的围裙。"}
+],
+"tache": [
+{"fr": "Cette tache de vin ne partira jamais de la nappe.", "zh": "桌布上的酒渍再也洗不掉了。"},
+{"fr": "Une tache de peinture sèche sur le bras du peintre.", "zh": "画家胳膊上干了一块颜料斑。"},
+{"fr": "Il a frotté la tache de gras avec du liquide vaisselle.", "zh": "他用洗洁精搓洗油渍。"}
+],
+"taille": [
+{"fr": "Quelle taille de chemise portez-vous ?", "zh": "您穿多大尺码的衬衫？"},
+{"fr": "Elle a pris un pantalon à sa taille au magasin.", "zh": "她在店里买了一条合身的裤子。"},
+{"fr": "De taille moyenne, ce chien convient bien à un appartement.", "zh": "这种狗体型中等，很适合养在公寓里。"}
+],
+"tailleur": [
+{"fr": "Le tailleur ajuste le costume à la craie et aux épingles.", "zh": "裁缝用划粉和大头针修整西装。"},
+{"fr": "Elle a porté un tailleur élégant à l'entretien d'embauche.", "zh": "面试时她穿了一身优雅的套装。"},
+{"fr": "Chez ce tailleur réputé, les retouches se font en vingt-quatre heures.", "zh": "在这家有名的裁缝店，修改二十四小时就能取。"}
+],
+"talent": [
+{"fr": "Elle a un vrai talent pour raconter des histoires.", "zh": "她讲故事特别有天分。"},
+{"fr": "Ce jeune pianiste montre un talent précoce.", "zh": "这位年轻钢琴家早早显露了才华。"},
+{"fr": "Le concours révèle chaque année de nouveaux talents.", "zh": "这项比赛每年都发掘出新秀。"}
+],
+"talon": [
+{"fr": "Ces chaussures à haut talon font mal aux pieds.", "zh": "这种高跟鞋穿着脚疼。"},
+{"fr": "Le cordonnier a réparé le talon de sa botte.", "zh": "修鞋匠修好了她靴子的鞋跟。"},
+{"fr": "Elle a une ampoule au talon à cause des nouvelles chaussures.", "zh": "新鞋磨脚，她脚跟上起了泡。"}
+],
+"tambour": [
+{"fr": "Le tambour du défilé résonne dans toute la rue.", "zh": "游行队伍的鼓声响彻整条街。"},
+{"fr": "Il a appris à jouer du tambour à l'âge de huit ans.", "zh": "他八岁就开始学打鼓。"},
+{"fr": "Le tambour de la machine à laver fait un bruit étrange.", "zh": "洗衣机的滚筒发出怪声。"}
+],
+"tank": [
+{"fr": "Ce musée expose un tank de la Seconde Guerre mondiale.", "zh": "这家博物馆陈列着一辆二战坦克。"},
+{"fr": "Le vieux film montre des tanks traverser la campagne.", "zh": "老电影里坦克正穿越乡野。"},
+{"fr": "Dans ce jeu vidéo, ton tank doit franchir le pont sous les tirs ennemis.", "zh": "在这款游戏里，你的坦克要在敌人火力下过桥。"}
+],
+"tant": [
+{"fr": "Tu me manques tant quand tu es loin.", "zh": "你不在身边时，我非常想你。"},
+{"fr": "Elle a tant travaillé qu'elle a oublié de déjeuner.", "zh": "她忙得连午饭都忘了吃。"},
+{"fr": "Pourquoi tant de bruit si tard dans la nuit ?", "zh": "这么晚了，为什么还这么吵？"}
+],
+"taper": [
+{"fr": "Tape ton mot de passe puis appuie sur la touche entrée.", "zh": "输入密码，然后按回车键。"},
+{"fr": "Elle tape son mémoire sur un vieux clavier bruyant.", "zh": "她在一台吵闹的旧键盘上敲论文。"},
+{"fr": "Ne tape pas sur la table pour appeler le serveur.", "zh": "别敲桌子叫服务员。"}
+],
+"tapis": [
+{"fr": "Le chat dort sur le tapis devant la cheminée.", "zh": "猫睡在壁炉前的地毯上。"},
+{"fr": "Essuie tes pieds sur le tapis d'entrée.", "zh": "在门口的地垫上蹭蹭脚。"},
+{"fr": "Ce tapis persan a été rapporté du voyage de noces.", "zh": "这块波斯地毯是蜜月旅行带回来的。"}
+],
+"tarif": [
+{"fr": "Le tarif étudiant représente la moitié du prix normal.", "zh": "学生票价是原价的一半。"},
+{"fr": "Les tarifs augmentent pendant la haute saison.", "zh": "旺季价格会上调。"},
+{"fr": "Vérifie le tarif du taxi avant de monter.", "zh": "上车前先问清出租车价格。"}
+],
+"tarte": [
+{"fr": "La tarte aux pommes sort tout juste du four.", "zh": "苹果挞刚出炉。"},
+{"fr": "Elle prépare une tarte aux fraises pour l'anniversaire de sa fille.", "zh": "她为女儿的生日做草莓挞。"},
+{"fr": "Il ne reste qu'une part de tarte au citron.", "zh": "柠檬挞只剩一块了。"}
+],
+"tas": [
+{"fr": "Il y a un tas de livres à rendre à la bibliothèque.", "zh": "有一堆书要还图书馆。"},
+{"fr": "Range tes affaires, il y a un tas de vêtements sur la chaise.", "zh": "收拾一下，椅子上堆了一堆衣服。"},
+{"fr": "Les feuilles mortes forment un tas au fond du jardin.", "zh": "落叶在花园深处堆成一堆。"}
+],
+"tata": [
+{"fr": "Ma tata prépare les meilleures crêpes de la famille.", "zh": "我姨做的可丽饼是全家最好吃的。"},
+{"fr": "Les enfants vont passer le week-end chez leur tata.", "zh": "孩子们要去姨妈家过周末。"},
+{"fr": "Tata arrive de Marseille avec des cadeaux pour tout le monde.", "zh": "姨妈从马赛赶来，给每个人都带了礼物。"}
+],
+"tchao": [
+{"fr": "Tchao, on se voit demain à la sortie du cours !", "zh": "回见，明天下课的时候见！"},
+{"fr": "Je file, tchao et bonne soirée !", "zh": "我先走了，拜拜，晚上愉快！"},
+{"fr": "Tchao, merci encore pour ton coup de main !", "zh": "回见，再次谢谢你帮忙！"}
+],
+"technique": [
+{"fr": "Ce manuel technique explique le fonctionnement du moteur.", "zh": "这本技术手册讲解发动机的工作原理。"},
+{"fr": "L'équipe a développé une technique originale de fabrication.", "zh": "团队研发出一套独特的制造工艺。"},
+{"fr": "Son problème est technique et demande un spécialiste.", "zh": "他的问题是技术性的，得找专家。"}
+],
+"tellement": [
+{"fr": "Il pleut tellement que les rues sont désertes.", "zh": "雨下得太大，街上空无一人。"},
+{"fr": "Elle m'a tellement aidé que je ne sais comment la remercier.", "zh": "她帮了我这么多，我都不知道怎么谢她。"},
+{"fr": "Cette ville a tellement changé depuis dix ans.", "zh": "十年来这座城市变化太大了。"}
+],
+"temple": [
+{"fr": "Les visiteurs retirent leurs chaussures avant d'entrer dans le temple.", "zh": "参观者进寺庙前先脱鞋。"},
+{"fr": "Ce temple bouddhiste attire des pèlerins de tout le pays.", "zh": "这座佛寺吸引全国各地的香客。"},
+{"fr": "On aperçoit le temple au sommet de la colline.", "zh": "可以看到神殿矗立在山顶上。"}
+],
+"température": [
+{"fr": "La température va descendre sous zéro cette nuit.", "zh": "今夜气温将降到零度以下。"},
+{"fr": "Prends la température du petit avant de donner le sirop.", "zh": "喂药水前先给孩子量体温。"},
+{"fr": "Le four doit atteindre la bonne température avant d'enfourner le pain.", "zh": "面包入炉前，烤箱要先升到合适温度。"}
+],
+"tenir": [
+{"fr": "Tiens la rampe en descendant, les marches sont glissantes.", "zh": "下楼时扶好扶手，台阶很滑。"},
+{"fr": "Cette écharpe tient chaud pendant tout l'hiver.", "zh": "这条围巾一冬天都保暖。"},
+{"fr": "Il n'a pas pu tenir jusqu'à la fin de la réunion.", "zh": "他没能坚持到会议结束。"}
+],
+"tennis": [
+{"fr": "Elle joue au tennis deux fois par semaine.", "zh": "她每周打两次网球。"},
+{"fr": "La finale de tennis attire des milliers de spectateurs.", "zh": "网球决赛吸引了数千观众。"},
+{"fr": "Il a acheté une nouvelle raquette de tennis avant le tournoi.", "zh": "赛前他买了支新网球拍。"}
+],
+"tente": [
+{"fr": "Montons la tente avant que la nuit tombe.", "zh": "趁天没黑赶紧搭帐篷。"},
+{"fr": "Une tente orange se dresse au bord du lac.", "zh": "湖边支着一顶橙色的帐篷。"},
+{"fr": "Le vent a arraché un piquet de leur tente pendant la nuit.", "zh": "夜里大风拔掉了他们帐篷的一根地钉。"}
+],
+"terme": [
+{"fr": "À long terme, cette épargne protégera votre famille.", "zh": "从长远看，这笔积蓄能保障你的家庭。"},
+{"fr": "Le contrat prendra fin au terme des douze mois.", "zh": "合同将在十二个月期满时终止。"},
+{"fr": "Explique ce terme juridique avec des mots simples.", "zh": "用简单的话解释一下这个法律术语。"}
+],
+"terrasse": [
+{"fr": "Nous dînons sur la terrasse tant qu'il fait doux.", "zh": "天气还暖和，我们在露台上吃晚饭。"},
+{"fr": "Les tables de la terrasse donnent sur le port.", "zh": "露天座的桌子正对着港口。"},
+{"fr": "Il a arrosé les fleurs de la terrasse avant de partir.", "zh": "出发前他浇了露台上的花。"}
+],
+"terrible": [
+{"fr": "L'accident de vélo a fait un bruit terrible.", "zh": "自行车摔出的声响大得吓人。"},
+{"fr": "Elle a une migraine terrible depuis ce matin.", "zh": "从今天早上起她头疼得厉害。"},
+{"fr": "La tempête a causé des dégâts terribles sur la côte.", "zh": "风暴给海岸造成了严重破坏。"}
+],
+"test": [
+{"fr": "Le test de vue a lieu mardi chez l'ophtalmologue.", "zh": "周二是眼科医生那里的视力检查。"},
+{"fr": "Elle a réussi le test d'anglais sans difficulté.", "zh": "她轻松通过了英语测试。"},
+{"fr": "Ce test de personnalité circule beaucoup sur les réseaux.", "zh": "这个性格测试在网上传得很火。"}
+],
+"tester": [
+{"fr": "Les ingénieurs vont tester le prototype en conditions réelles.", "zh": "工程师将在真实环境下测试样机。"},
+{"fr": "Veux-tu tester cette application de cuisine ?", "zh": "你想试试这款做菜软件吗？"},
+{"fr": "Il faut tester le détecteur de fumée tous les mois.", "zh": "烟雾报警器每个月都要测试一次。"}
+],
+"thon": [
+{"fr": "La salade de thon est prête en dix minutes.", "zh": "金枪鱼沙拉十分钟就能做好。"},
+{"fr": "Il a pêché un thon énorme au large de la Bretagne.", "zh": "他在布列塔尼近海钓到一条大金枪鱼。"},
+{"fr": "Ce sandwich au thon tombe bien, je n'ai pas encore déjeuné.", "zh": "这个金枪鱼三明治来得正好，我还没吃午饭。"}
+],
+"théâtre": [
+{"fr": "Nous avons deux places de théâtre pour ce soir.", "zh": "我们有两张今晚的戏票。"},
+{"fr": "Elle suit des cours de théâtre depuis septembre.", "zh": "她从九月开始上戏剧课。"},
+{"fr": "Le théâtre municipal rouvre après dix-huit mois de travaux.", "zh": "市政剧院经过十八个月的整修重新开放。"}
+],
+"ticket": [
+{"fr": "Garde ton ticket de caisse pour un éventuel échange.", "zh": "留着小票，方便以后退换。"},
+{"fr": "Il a pris un ticket à la boulangerie pour attendre son tour.", "zh": "他在面包店取了个号，等着轮到自己。"},
+{"fr": "Ce ticket de métro est valable jusqu'à la fin de la journée.", "zh": "这张地铁票当天有效。"}
+],
+"tiens": [
+{"fr": "Tiens, prends ce parapluie, il va pleuvoir cet après-midi.", "zh": "喏，带上这把伞，下午要下雨。"},
+{"fr": "Tiens donc, je ne t'attendais pas avant dimanche !", "zh": "哟，我本以为你周日才来呢！"},
+{"fr": "Tiens, regarde par la fenêtre, il neige sur la ville.", "zh": "看，窗外的城市下雪了。"}
+],
+"tigre": [
+{"fr": "Le tigre de Sumatra est une espèce protégée.", "zh": "苏门答腊虎是受保护的物种。"},
+{"fr": "Dans le zoo, le tigre dort à l'ombre toute la journée.", "zh": "动物园里，老虎整天在阴凉处睡觉。"},
+{"fr": "Le tigre se déplace sans bruit dans la jungle.", "zh": "老虎在丛林里悄无声息地移动。"}
+],
+"timbre": [
+{"fr": "Il manque un timbre pour envoyer cette lettre.", "zh": "寄这封信还差一枚邮票。"},
+{"fr": "Elle collectionne les timbres anciens depuis son enfance.", "zh": "她从小就收集老邮票。"},
+{"fr": "Le timbre de sa voix est grave et apaisant.", "zh": "他的嗓音低沉而安抚人心。"}
+],
+"timide": [
+{"fr": "Le nouvel élève est timide mais très gentil.", "zh": "新来的学生害羞但很友善。"},
+{"fr": "Elle est trop timide pour chanter devant la classe.", "zh": "她太腼腆，不敢在全班面前唱歌。"},
+{"fr": "Souris-lui pour le rassurer, il est un peu timide.", "zh": "朝他笑笑让他放松点，他有点害羞。"}
+],
+"tirer": [
+{"fr": "Tire la porte en sortant, elle se ferme toute seule.", "zh": "出去时拉一下门，它会自动关上。"},
+{"fr": "Le cheval tire la charrette le long du canal.", "zh": "马沿着运河拉车。"},
+{"fr": "Ne tire pas la queue du chat, ça le rend agressif.", "zh": "别拽猫尾巴，它会生气的。"}
+],
+"tiroir": [
+{"fr": "Les clés de la voiture sont dans le tiroir de l'entrée.", "zh": "车钥匙在玄关的抽屉里。"},
+{"fr": "Il a rangé ses chaussettes dans le tiroir du bas.", "zh": "他把袜子放进了最下面的抽屉。"},
+{"fr": "Ce tiroir coince, il faut le poncer un peu.", "zh": "这个抽屉卡住了，得打磨一下。"}
+],
+"tissu": [
+{"fr": "Ce tissu est trop fin pour un rideau.", "zh": "这种布料做窗帘太薄了。"},
+{"fr": "La couturière a choisi un tissu épais pour le manteau.", "zh": "裁缝为大衣选了一块厚实的布料。"},
+{"fr": "Elle coupe le tissu le long des repères à la craie.", "zh": "她沿着划粉标记裁布。"}
+],
+"titre": [
+{"fr": "Le titre du nouveau roman sera dévoilé lundi.", "zh": "新小说的书名将于周一揭晓。"},
+{"fr": "Il a gagné le titre de champion régional deux fois.", "zh": "他两次夺得地区冠军头衔。"},
+{"fr": "Écris le titre au centre de la première page.", "zh": "把标题写在第一页正中。"}
+],
+"toast": [
+{"fr": "On a levé un toast aux jeunes mariés à minuit.", "zh": "午夜时分，大家举杯祝新人幸福。"},
+{"fr": "Il a grillé deux toasts pour le petit-déjeuner.", "zh": "他烤了两片吐司当早餐。"},
+{"fr": "Le champagne est servi pour le toast final du dîner.", "zh": "晚宴最后一轮祝酒时端上了香槟。"}
+],
+"toi-même": [
+{"fr": "Fais-le toi-même, c'est plus rapide que d'attendre.", "zh": "自己动手做吧，比干等快。"},
+{"fr": "Tu connais la réponse, cherche un peu toi-même.", "zh": "你知道答案，自己再想想。"},
+{"fr": "Sois fière de toi, tu as monté ce meuble toi-même.", "zh": "为你自己骄傲吧，这件家具是你亲手装的。"}
+],
+"toilette": [
+{"fr": "Elle fait sa toilette rapide avant le petit-déjeuner.", "zh": "她趁早餐前快速梳洗。"},
+{"fr": "Les toilettes des visiteurs se trouvent au fond du couloir.", "zh": "访客洗手间在走廊尽头。"},
+{"fr": "Il a rangé sa serviette après sa toilette du matin.", "zh": "晨洗之后，他收好了毛巾。"}
+],
+"toit": [
+{"fr": "Le chat dormait sur le toit du garage.", "zh": "猫睡在车库顶上。"},
+{"fr": "Il faut réparer le toit avant les pluies d'automne.", "zh": "秋雨来临前得把屋顶修好。"},
+{"fr": "Du haut du toit, on voit toute la baie.", "zh": "从屋顶能看到整个海湾。"}
+],
+"tombe": [
+{"fr": "Des fleurs fraîches ornent la tombe du poète.", "zh": "诗人的墓前摆着鲜花。"},
+{"fr": "La famille se recueille sur la tombe du grand-père chaque premier novembre.", "zh": "每年十一月一日，全家人都到祖父墓前追思。"},
+{"fr": "Cette vieille tombe couverte de mousse date du siècle dernier.", "zh": "这座长满青苔的老墓建于上个世纪。"}
+],
+"tonne": [
+{"fr": "Cette cargaison pèse presque une tonne au total.", "zh": "这批货物总共将近一吨重。"},
+{"fr": "Le camion transporte trois tonnes de gravier pour le chantier.", "zh": "卡车给工地运来三吨碎石。"},
+{"fr": "Une tonne de sable a été livrée pour la cour de l'école.", "zh": "学校操场运来了一吨沙子。"}
+],
+"tonnerre": [
+{"fr": "Le tonnerre gronde au loin depuis une heure.", "zh": "雷声已在远处轰隆了一个钟头。"},
+{"fr": "Un coup de tonnerre a réveillé tout le quartier.", "zh": "一声炸雷惊醒了整个街区。"},
+{"fr": "Les enfants se cachent sous la couverture au bruit du tonnerre.", "zh": "听到雷声，孩子们躲进了被子底下。"}
+],
+"tonton": [
+{"fr": "Tonton nous ramène en voiture après le match.", "zh": "比赛结束后叔叔开车送我们回来。"},
+{"fr": "Mon tonton fabrique des jouets en bois pour les enfants.", "zh": "我叔叔给孩子们做木制玩具。"},
+{"fr": "Le petit attend son tonton à la gare avec des fleurs.", "zh": "小家伙捧着花在车站等叔叔。"}
+],
+"top": [
+{"fr": "À quarante ans, elle est toujours au top de sa forme.", "zh": "四十岁的她状态仍处在巅峰。"},
+{"fr": "Ce nouveau restaurant est vraiment top, réserve une table.", "zh": "这家新餐厅特别棒，赶紧订个位子。"},
+{"fr": "La marque est au top du classement des ventes.", "zh": "这个品牌位居销量榜榜首。"}
+],
+"torchon": [
+{"fr": "Essuie la vaisselle avec ce torchon propre.", "zh": "用这块干净的抹布把餐具擦干。"},
+{"fr": "Le torchon pend au bord du four de la cuisine.", "zh": "抹布搭在厨房炉子边上。"},
+{"fr": "Change le torchon de la cuisine tous les deux jours.", "zh": "厨房的抹布要两天一换。"}
+],
+"tort": [
+{"fr": "Tu as tort de partir sans dire au revoir.", "zh": "不告别就走是不对的。"},
+{"fr": "Il a reconnu son tort et s'est excusé.", "zh": "他承认了错误并道了歉。"},
+{"fr": "Ce bruit constant me fait du tort.", "zh": "这种持续的噪音对我有害。"}
+],
+"tortue": [
+{"fr": "La tortue du jardin traverse lentement l'allée.", "zh": "园子里的乌龟慢悠悠地穿过小径。"},
+{"fr": "Les tortues marines pondent leurs œufs sur cette plage la nuit.", "zh": "海龟夜里在这片沙滩上产卵。"},
+{"fr": "Cette tortue terrestre mange surtout des feuilles de pissenlit.", "zh": "这只陆龟主要吃蒲公英叶子。"}
+],
+"total": [
+{"fr": "Le silence total régnait dans la salle après l'annonce.", "zh": "消息宣布后，大厅里鸦雀无声。"},
+{"fr": "La distance totale du parcours est de vingt kilomètres.", "zh": "全程总长二十公里。"},
+{"fr": "Il a le soutien total de son équipe.", "zh": "他得到团队的全力支持。"}
+],
+"totalement": [
+{"fr": "Le quartier a été totalement rénové en deux ans.", "zh": "两年间这个街区彻底翻新了。"},
+{"fr": "Elle est totalement d'accord avec cette proposition.", "zh": "她完全同意这个提议。"},
+{"fr": "Je suis totalement perdu dans cette ville sans ma carte.", "zh": "没带地图，我在这座城市完全迷路了。"}
+],
+"touche": [
+{"fr": "Appuie sur la touche Entrée pour valider.", "zh": "按回车键确认。"},
+{"fr": "Chaque touche du piano demande des années de travail.", "zh": "钢琴的每个琴键背后都是多年的苦练。"},
+{"fr": "Sa peinture se reconnaît à sa touche légère.", "zh": "他的画作以轻盈的笔触而辨识。"}
+],
+"toucher": [
+{"fr": "Ne touche pas la plaque, elle reste brûlante.", "zh": "别碰灶台，还很烫。"},
+{"fr": "Il touche son salaire à la fin du mois.", "zh": "他月底领工资。"},
+{"fr": "Sa chanson a touché des millions de personnes.", "zh": "他的歌打动了数百万人。"}
+],
+"tour": [
+{"fr": "Nous montons au sommet de la tour pour la vue.", "zh": "我们登上塔顶看风景。"},
+{"fr": "C'est ton tour de lancer les dés.", "zh": "轮到你掷骰子了。"},
+{"fr": "Les enfants font un tour de carrousel avant de rentrer.", "zh": "回家前孩子们坐一圈旋转木马。"}
+],
+"tourisme": [
+{"fr": "Le tourisme représente une part importante de l'économie de la région.", "zh": "旅游业在该地区经济中占重要地位。"},
+{"fr": "L'office de tourisme distribue des plans gratuits de la ville.", "zh": "旅游咨询处免费发放城市地图。"},
+{"fr": "Le tourisme vert attire de plus en plus de citadins.", "zh": "绿色旅游吸引越来越多的城里人。"}
+],
+"touriste": [
+{"fr": "Chaque touriste photographie la tour depuis le même endroit.", "zh": "每个游客都在同一个位置拍塔。"},
+{"fr": "Les touristes remplissent les cafés du vieux port en été.", "zh": "夏天，老港的咖啡馆坐满游客。"},
+{"fr": "Il se sent touriste dans sa propre ville le week-end.", "zh": "周末他在自己生活的城市里倒像个游客。"}
+],
+"touristique": [
+{"fr": "La brochure touristique recense tous les sentiers de la vallée.", "zh": "这本旅游手册收录了山谷里所有步道。"},
+{"fr": "Cette région très touristique se vide à l'automne.", "zh": "一到秋天，这个热门旅游地就冷清下来。"},
+{"fr": "Le guide propose un circuit touristique original à vélo.", "zh": "导游推荐了一条别致的自行车观光线路。"}
+],
+"tourner": [
+{"fr": "La clé tourne à moitié dans la serrure rouillée.", "zh": "钥匙在生锈的锁里只能转到一半。"},
+{"fr": "Le groupe va tourner son prochain clip à Marseille.", "zh": "乐队下一支音乐录影带将在马赛拍摄。"},
+{"fr": "La terre tourne autour du soleil en un an.", "zh": "地球绕太阳一周需要一年。"}
+]
+}

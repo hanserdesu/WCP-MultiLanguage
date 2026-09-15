@@ -1,0 +1,602 @@
+[
+{
+"word": "écrouler",
+"pos": "v.",
+"zh": "倒塌；崩溃",
+"level": "b1"
+},
+{
+"word": "éditeur",
+"pos": "n.m.",
+"zh": "出版商；编辑器",
+"level": "b1"
+},
+{
+"word": "édition",
+"pos": "n.f.",
+"zh": "出版；版本",
+"level": "b1"
+},
+{
+"word": "éduquer",
+"pos": "v.",
+"zh": "教育；教养",
+"level": "b1"
+},
+{
+"word": "égalité",
+"pos": "n.f.",
+"zh": "平等；相等",
+"level": "b1"
+},
+{
+"word": "égaré",
+"pos": "adj.",
+"zh": "迷路的；不知所措的",
+"level": "b1"
+},
+{
+"word": "égyptien",
+"pos": "adj.",
+"zh": "埃及的；埃及人",
+"level": "b1"
+},
+{
+"word": "électeur",
+"pos": "n.m.",
+"zh": "选民",
+"level": "b1"
+},
+{
+"word": "élection",
+"pos": "n.f.",
+"zh": "选举",
+"level": "b1"
+},
+{
+"word": "électricien",
+"pos": "n.m.",
+"zh": "电工",
+"level": "b1"
+},
+{
+"word": "électronique",
+"pos": "adj.",
+"zh": "电子的",
+"level": "b1"
+},
+{
+"word": "élevage",
+"pos": "n.m.",
+"zh": "饲养；养殖",
+"level": "b1"
+},
+{
+"word": "élever",
+"pos": "v.",
+"zh": "举起；抚养；提高",
+"level": "b1"
+},
+{
+"word": "élevé",
+"pos": "adj.",
+"zh": "高的；崇高的",
+"level": "b1"
+},
+{
+"word": "éliminer",
+"pos": "v.",
+"zh": "淘汰；清除",
+"level": "b1"
+},
+{
+"word": "élire",
+"pos": "v.",
+"zh": "选举；选出",
+"level": "b1"
+},
+{
+"word": "élite",
+"pos": "n.f.",
+"zh": "精英",
+"level": "b1"
+},
+{
+"word": "élu",
+"pos": "adj.",
+"zh": "当选者；被选中的",
+"level": "b1"
+},
+{
+"word": "élégance",
+"pos": "n.f.",
+"zh": "优雅",
+"level": "b1"
+},
+{
+"word": "élément",
+"pos": "n.m.",
+"zh": "元素；要素",
+"level": "b1"
+},
+{
+"word": "élémentaire",
+"pos": "adj.",
+"zh": "基础的；基本的",
+"level": "b1"
+},
+{
+"word": "émigrer",
+"pos": "v.",
+"zh": "移居国外；移民",
+"level": "b1"
+},
+{
+"word": "émotionnel",
+"pos": "adj.",
+"zh": "情感的；情绪化的",
+"level": "b1"
+},
+{
+"word": "émouvant",
+"pos": "adj.",
+"zh": "感人的；动情的",
+"level": "b1"
+},
+{
+"word": "ému",
+"pos": "adj.",
+"zh": "感动的；激动的",
+"level": "b1"
+},
+{
+"word": "énergétique",
+"pos": "adj.",
+"zh": "能量的；能源的",
+"level": "b1"
+},
+{
+"word": "énerver",
+"pos": "v.",
+"zh": "使恼火；惹怒",
+"level": "b1"
+},
+{
+"word": "énigme",
+"pos": "n.f.",
+"zh": "谜；费解之事",
+"level": "b1"
+},
+{
+"word": "épaisseur",
+"pos": "n.f.",
+"zh": "厚度",
+"level": "b1"
+},
+{
+"word": "épargne",
+"pos": "n.f.",
+"zh": "储蓄",
+"level": "b1"
+},
+{
+"word": "épargner",
+"pos": "v.",
+"zh": "节省；储蓄；饶恕",
+"level": "b1"
+},
+{
+"word": "épeler",
+"pos": "v.",
+"zh": "拼写",
+"level": "b1"
+},
+{
+"word": "épidémie",
+"pos": "n.f.",
+"zh": "流行病；传染病",
+"level": "b1"
+},
+{
+"word": "épingle",
+"pos": "n.f.",
+"zh": "别针；大头针",
+"level": "b1"
+},
+{
+"word": "épingler",
+"pos": "v.",
+"zh": "用别针别住",
+"level": "b1"
+},
+{
+"word": "éplucher",
+"pos": "v.",
+"zh": "去皮；择洗（蔬菜）",
+"level": "b1"
+},
+{
+"word": "époque",
+"pos": "n.f.",
+"zh": "时代；时期",
+"level": "b1"
+},
+{
+"word": "épouser",
+"pos": "v.",
+"zh": "娶；嫁；与…结婚",
+"level": "b1"
+},
+{
+"word": "épouvantable",
+"pos": "adj.",
+"zh": "可怕的；骇人的",
+"level": "b1"
+},
+{
+"word": "époux",
+"pos": "n.m.",
+"zh": "配偶；丈夫（正式）",
+"level": "b1"
+},
+{
+"word": "épreuve",
+"pos": "n.f.",
+"zh": "考验；试验；磨难",
+"level": "b1"
+},
+{
+"word": "éprouver",
+"pos": "v.",
+"zh": "感到；经受；考验",
+"level": "b1"
+},
+{
+"word": "épuisant",
+"pos": "adj.",
+"zh": "使人筋疲力尽的",
+"level": "b1"
+},
+{
+"word": "épuiser",
+"pos": "v.",
+"zh": "使精疲力竭；耗尽",
+"level": "b1"
+},
+{
+"word": "équation",
+"pos": "n.f.",
+"zh": "方程；等式",
+"level": "b1"
+},
+{
+"word": "équilibre",
+"pos": "n.m.",
+"zh": "平衡；均衡",
+"level": "b1"
+},
+{
+"word": "équilibré",
+"pos": "adj.",
+"zh": "均衡的；稳重的",
+"level": "b1"
+},
+{
+"word": "équipage",
+"pos": "n.m.",
+"zh": "船员；机组人员",
+"level": "b1"
+},
+{
+"word": "équipement",
+"pos": "n.m.",
+"zh": "设备；装备",
+"level": "b1"
+},
+{
+"word": "équiper",
+"pos": "v.",
+"zh": "装备；配备",
+"level": "b1"
+},
+{
+"word": "équipier",
+"pos": "n.m.",
+"zh": "队友；队员",
+"level": "b1"
+},
+{
+"word": "équivalent",
+"pos": "n.m.",
+"zh": "等同物；等价物",
+"level": "b1"
+},
+{
+"word": "établir",
+"pos": "v.",
+"zh": "建立；确立",
+"level": "b1"
+},
+{
+"word": "établissement",
+"pos": "n.m.",
+"zh": "机构；建立",
+"level": "b1"
+},
+{
+"word": "étang",
+"pos": "n.m.",
+"zh": "池塘",
+"level": "b1"
+},
+{
+"word": "étendre",
+"pos": "v.",
+"zh": "铺开；伸展；扩大",
+"level": "b1"
+},
+{
+"word": "éternel",
+"pos": "adj.",
+"zh": "永恒的；无休止的",
+"level": "b1"
+},
+{
+"word": "éternellement",
+"pos": "adv.",
+"zh": "永远地；永恒地",
+"level": "b1"
+},
+{
+"word": "éternité",
+"pos": "n.f.",
+"zh": "永恒；极长时间",
+"level": "b1"
+},
+{
+"word": "éthique",
+"pos": "n.f.",
+"zh": "伦理；道德",
+"level": "b1"
+},
+{
+"word": "étiquette",
+"pos": "n.f.",
+"zh": "标签；礼节",
+"level": "b1"
+},
+{
+"word": "étonner",
+"pos": "v.",
+"zh": "使惊讶",
+"level": "b1"
+},
+{
+"word": "étouffer",
+"pos": "v.",
+"zh": "使窒息；压抑",
+"level": "b1"
+},
+{
+"word": "étrange",
+"pos": "adj.",
+"zh": "奇怪的；怪异的",
+"level": "b1"
+},
+{
+"word": "étrangement",
+"pos": "adv.",
+"zh": "奇怪地；异常地",
+"level": "b1"
+},
+{
+"word": "étrangler",
+"pos": "v.",
+"zh": "掐死；勒住",
+"level": "b1"
+},
+{
+"word": "étroit",
+"pos": "adj.",
+"zh": "狭窄的；狭隘的",
+"level": "b1"
+},
+{
+"word": "évader",
+"pos": "v.",
+"zh": "逃跑；逃脱",
+"level": "b1"
+},
+{
+"word": "évaluation",
+"pos": "n.f.",
+"zh": "评估；评价",
+"level": "b1"
+},
+{
+"word": "évaluer",
+"pos": "v.",
+"zh": "评估；评价",
+"level": "b1"
+},
+{
+"word": "évanouir",
+"pos": "v.",
+"zh": "昏倒；消失",
+"level": "b1"
+},
+{
+"word": "évasion",
+"pos": "n.f.",
+"zh": "逃跑；逃脱",
+"level": "b1"
+},
+{
+"word": "éveiller",
+"pos": "v.",
+"zh": "唤醒；唤起",
+"level": "b1"
+},
+{
+"word": "éveillé",
+"pos": "adj.",
+"zh": "醒着的；机敏的",
+"level": "b1"
+},
+{
+"word": "éventuel",
+"pos": "adj.",
+"zh": "可能的；万一的",
+"level": "b1"
+},
+{
+"word": "éventuellement",
+"pos": "adv.",
+"zh": "可能；必要时",
+"level": "b1"
+},
+{
+"word": "évidence",
+"pos": "n.f.",
+"zh": "明显；显而易见之事",
+"level": "b1"
+},
+{
+"word": "éviter",
+"pos": "v.",
+"zh": "避免；避开",
+"level": "b1"
+},
+{
+"word": "évoluer",
+"pos": "v.",
+"zh": "演变；进化",
+"level": "b1"
+},
+{
+"word": "évolution",
+"pos": "n.f.",
+"zh": "演变；进化",
+"level": "b1"
+},
+{
+"word": "évoquer",
+"pos": "v.",
+"zh": "提及；使人想起",
+"level": "b1"
+},
+{
+"word": "évènement",
+"pos": "n.m.",
+"zh": "事件；大事",
+"level": "b1"
+},
+{
+"word": "abattoir",
+"pos": "n.m.",
+"zh": "屠宰场",
+"level": "b2"
+},
+{
+"word": "abattu",
+"pos": "adj.",
+"zh": "沮丧的；垂头丧气的",
+"level": "b2"
+},
+{
+"word": "abbé",
+"pos": "n.m.",
+"zh": "神父；修道院长",
+"level": "b2"
+},
+{
+"word": "abdomen",
+"pos": "n.m.",
+"zh": "腹部",
+"level": "b2"
+},
+{
+"word": "abdominal",
+"pos": "adj.",
+"zh": "腹部的",
+"level": "b2"
+},
+{
+"word": "abject",
+"pos": "adj.",
+"zh": "卑劣的；可鄙的",
+"level": "b2"
+},
+{
+"word": "abolir",
+"pos": "v.",
+"zh": "废除",
+"level": "b2"
+},
+{
+"word": "abominable",
+"pos": "adj.",
+"zh": "可憎的；恶劣的",
+"level": "b2"
+},
+{
+"word": "abord",
+"pos": "n.m.",
+"zh": "接近；四周（习语）",
+"level": "b2"
+},
+{
+"word": "about",
+"pos": "n.m.",
+"zh": "端头；末端",
+"level": "b2"
+},
+{
+"word": "aboyer",
+"pos": "v.",
+"zh": "吠叫",
+"level": "b2"
+},
+{
+"word": "abrutir",
+"pos": "v.",
+"zh": "使迟钝；使麻木",
+"level": "b2"
+},
+{
+"word": "absorber",
+"pos": "v.",
+"zh": "吸收；承受",
+"level": "b2"
+},
+{
+"word": "absoudre",
+"pos": "v.",
+"zh": "赦免；宽恕",
+"level": "b2"
+},
+{
+"word": "absurdité",
+"pos": "n.f.",
+"zh": "荒谬；荒唐事",
+"level": "b2"
+},
+{
+"word": "abîme",
+"pos": "n.m.",
+"zh": "深渊",
+"level": "b2"
+},
+{
+"word": "accabler",
+"pos": "v.",
+"zh": "压垮；使难以承受",
+"level": "b2"
+},
+{
+"word": "acclamation",
+"pos": "n.f.",
+"zh": "欢呼；喝彩",
+"level": "b2"
+}
+]

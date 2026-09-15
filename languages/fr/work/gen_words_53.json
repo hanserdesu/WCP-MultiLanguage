@@ -1,0 +1,602 @@
+[
+{
+"word": "tenue",
+"pos": "n.f.",
+"zh": "服装；制服",
+"level": "b1"
+},
+{
+"word": "terminal",
+"pos": "n.m.",
+"zh": "终点站；航站楼",
+"level": "b1"
+},
+{
+"word": "terminus",
+"pos": "n.m.",
+"zh": "终点站",
+"level": "b1"
+},
+{
+"word": "terrain",
+"pos": "n.m.",
+"zh": "场地；土地；地形",
+"level": "b1"
+},
+{
+"word": "terreur",
+"pos": "n.f.",
+"zh": "恐怖",
+"level": "b1"
+},
+{
+"word": "terriblement",
+"pos": "adv.",
+"zh": "可怕地；极其",
+"level": "b1"
+},
+{
+"word": "terrifiant",
+"pos": "adj.",
+"zh": "可怕的；骇人的",
+"level": "b1"
+},
+{
+"word": "territoire",
+"pos": "n.m.",
+"zh": "领土；地区",
+"level": "b1"
+},
+{
+"word": "terrorisme",
+"pos": "n.m.",
+"zh": "恐怖主义",
+"level": "b1"
+},
+{
+"word": "terroriste",
+"pos": "n.",
+"zh": "恐怖分子",
+"level": "b1"
+},
+{
+"word": "testament",
+"pos": "n.m.",
+"zh": "遗嘱",
+"level": "b1"
+},
+{
+"word": "thanksgiving",
+"pos": "n.m.",
+"zh": "感恩节",
+"level": "b1"
+},
+{
+"word": "thème",
+"pos": "n.m.",
+"zh": "主题；题目",
+"level": "b1"
+},
+{
+"word": "thèse",
+"pos": "n.f.",
+"zh": "论文；论点",
+"level": "b1"
+},
+{
+"word": "théorie",
+"pos": "n.f.",
+"zh": "理论；学说",
+"level": "b1"
+},
+{
+"word": "théoriquement",
+"pos": "adv.",
+"zh": "理论上",
+"level": "b1"
+},
+{
+"word": "thérapeute",
+"pos": "n.",
+"zh": "治疗师",
+"level": "b1"
+},
+{
+"word": "thérapie",
+"pos": "n.f.",
+"zh": "治疗；疗法",
+"level": "b1"
+},
+{
+"word": "tibia",
+"pos": "n.m.",
+"zh": "胫骨",
+"level": "b1"
+},
+{
+"word": "tien",
+"pos": "pron.",
+"zh": "你的（东西）",
+"level": "b1"
+},
+{
+"word": "tiers",
+"pos": "n.m.",
+"zh": "三分之一；第三方",
+"level": "b1"
+},
+{
+"word": "tir",
+"pos": "n.m.",
+"zh": "射击；发射",
+"level": "b1"
+},
+{
+"word": "tireur",
+"pos": "n.m.",
+"zh": "射手；开枪的人",
+"level": "b1"
+},
+{
+"word": "tiède",
+"pos": "adj.",
+"zh": "温热的；不冷不热的",
+"level": "b1"
+},
+{
+"word": "toile",
+"pos": "n.f.",
+"zh": "画布；帆布；蛛网",
+"level": "b1"
+},
+{
+"word": "tolérance",
+"pos": "n.f.",
+"zh": "宽容；容忍",
+"level": "b1"
+},
+{
+"word": "tolérant",
+"pos": "adj.",
+"zh": "宽容的；容忍的",
+"level": "b1"
+},
+{
+"word": "tolérer",
+"pos": "v.",
+"zh": "容忍；容许",
+"level": "b1"
+},
+{
+"word": "tondre",
+"pos": "v.",
+"zh": "剪（草、羊毛）",
+"level": "b1"
+},
+{
+"word": "tonneau",
+"pos": "n.m.",
+"zh": "大桶；酒桶",
+"level": "b1"
+},
+{
+"word": "tornade",
+"pos": "n.f.",
+"zh": "龙卷风",
+"level": "b1"
+},
+{
+"word": "torture",
+"pos": "n.f.",
+"zh": "拷打；折磨",
+"level": "b1"
+},
+{
+"word": "torturer",
+"pos": "v.",
+"zh": "拷打；折磨",
+"level": "b1"
+},
+{
+"word": "totalité",
+"pos": "n.f.",
+"zh": "全部；整体",
+"level": "b1"
+},
+{
+"word": "touché",
+"pos": "adj.",
+"zh": "感动的；受触动的",
+"level": "b1"
+},
+{
+"word": "tourmenter",
+"pos": "v.",
+"zh": "折磨；使烦恼",
+"level": "b1"
+},
+{
+"word": "tournant",
+"pos": "n.m.",
+"zh": "转折点；弯道",
+"level": "b1"
+},
+{
+"word": "tournoi",
+"pos": "n.m.",
+"zh": "锦标赛；联赛",
+"level": "b1"
+},
+{
+"word": "tournée",
+"pos": "n.f.",
+"zh": "巡回；一轮（请客）",
+"level": "b1"
+},
+{
+"word": "tousser",
+"pos": "v.",
+"zh": "咳嗽",
+"level": "b1"
+},
+{
+"word": "toutefois",
+"pos": "adv.",
+"zh": "然而；不过",
+"level": "b1"
+},
+{
+"word": "toux",
+"pos": "n.f.",
+"zh": "咳嗽",
+"level": "b1"
+},
+{
+"word": "toxique",
+"pos": "adj.",
+"zh": "有毒的",
+"level": "b1"
+},
+{
+"word": "trace",
+"pos": "n.f.",
+"zh": "痕迹；踪迹",
+"level": "b1"
+},
+{
+"word": "tracer",
+"pos": "v.",
+"zh": "划线；勾勒",
+"level": "b1"
+},
+{
+"word": "traditionnel",
+"pos": "adj.",
+"zh": "传统的",
+"level": "b1"
+},
+{
+"word": "traducteur",
+"pos": "n.m.",
+"zh": "译者；翻译者",
+"level": "b1"
+},
+{
+"word": "traduction",
+"pos": "n.f.",
+"zh": "翻译；译文",
+"level": "b1"
+},
+{
+"word": "trafiquant",
+"pos": "n.m.",
+"zh": "贩子；走私者",
+"level": "b1"
+},
+{
+"word": "tragédie",
+"pos": "n.f.",
+"zh": "悲剧",
+"level": "b1"
+},
+{
+"word": "trahir",
+"pos": "v.",
+"zh": "背叛；泄露",
+"level": "b1"
+},
+{
+"word": "trahison",
+"pos": "n.f.",
+"zh": "背叛",
+"level": "b1"
+},
+{
+"word": "trait",
+"pos": "n.m.",
+"zh": "线条；笔画；特征",
+"level": "b1"
+},
+{
+"word": "traitement",
+"pos": "n.m.",
+"zh": "处理；治疗；待遇",
+"level": "b1"
+},
+{
+"word": "traiter",
+"pos": "v.",
+"zh": "对待；处理",
+"level": "b1"
+},
+{
+"word": "traité",
+"pos": "n.m.",
+"zh": "条约",
+"level": "b1"
+},
+{
+"word": "trajet",
+"pos": "n.m.",
+"zh": "路程；行程",
+"level": "b1"
+},
+{
+"word": "tranquillité",
+"pos": "n.f.",
+"zh": "安宁；平静",
+"level": "b1"
+},
+{
+"word": "transaction",
+"pos": "n.f.",
+"zh": "交易；买卖",
+"level": "b1"
+},
+{
+"word": "transfert",
+"pos": "n.m.",
+"zh": "转移；转会",
+"level": "b1"
+},
+{
+"word": "transformation",
+"pos": "n.f.",
+"zh": "转变；改造",
+"level": "b1"
+},
+{
+"word": "transformer",
+"pos": "v.",
+"zh": "使变形；改造",
+"level": "b1"
+},
+{
+"word": "transférer",
+"pos": "v.",
+"zh": "转移；转账",
+"level": "b1"
+},
+{
+"word": "transition",
+"pos": "n.f.",
+"zh": "过渡；转变",
+"level": "b1"
+},
+{
+"word": "transmettre",
+"pos": "v.",
+"zh": "传递；传送；传染",
+"level": "b1"
+},
+{
+"word": "transparent",
+"pos": "adj.",
+"zh": "透明的；显而易见的",
+"level": "b1"
+},
+{
+"word": "transpirer",
+"pos": "v.",
+"zh": "出汗",
+"level": "b1"
+},
+{
+"word": "travers",
+"pos": "n.m.",
+"zh": "横穿；穿过（短语中）",
+"level": "b1"
+},
+{
+"word": "traversée",
+"pos": "n.f.",
+"zh": "横渡；穿越",
+"level": "b1"
+},
+{
+"word": "traîner",
+"pos": "v.",
+"zh": "拖；磨蹭；闲逛",
+"level": "b1"
+},
+{
+"word": "traître",
+"pos": "n.m.",
+"zh": "叛徒",
+"level": "b1"
+},
+{
+"word": "tremper",
+"pos": "v.",
+"zh": "浸泡；浸湿",
+"level": "b1"
+},
+{
+"word": "trentaine",
+"pos": "n.f.",
+"zh": "三十来个；三十多岁",
+"level": "b1"
+},
+{
+"word": "tribu",
+"pos": "n.f.",
+"zh": "部落；大家族",
+"level": "b1"
+},
+{
+"word": "tribunal",
+"pos": "n.m.",
+"zh": "法庭；法院",
+"level": "b1"
+},
+{
+"word": "tricher",
+"pos": "v.",
+"zh": "作弊；欺诈",
+"level": "b1"
+},
+{
+"word": "tricoter",
+"pos": "v.",
+"zh": "编织；打毛线",
+"level": "b1"
+},
+{
+"word": "trier",
+"pos": "v.",
+"zh": "分拣；挑选",
+"level": "b1"
+},
+{
+"word": "trio",
+"pos": "n.m.",
+"zh": "三人组；三重奏",
+"level": "b1"
+},
+{
+"word": "triompher",
+"pos": "v.",
+"zh": "获胜；凯旋",
+"level": "b1"
+},
+{
+"word": "tripe",
+"pos": "n.f.",
+"zh": "肠子；内脏",
+"level": "b1"
+},
+{
+"word": "triple",
+"pos": "adj.",
+"zh": "三倍的；三重的",
+"level": "b1"
+},
+{
+"word": "tristesse",
+"pos": "n.f.",
+"zh": "悲伤",
+"level": "b1"
+},
+{
+"word": "trombone",
+"pos": "n.m.",
+"zh": "回形针；长号",
+"level": "b1"
+},
+{
+"word": "tronc",
+"pos": "n.m.",
+"zh": "树干；躯干",
+"level": "b1"
+},
+{
+"word": "tronche",
+"pos": "n.f.",
+"zh": "脸（口语）",
+"level": "b1"
+},
+{
+"word": "trophée",
+"pos": "n.m.",
+"zh": "奖杯",
+"level": "b1"
+},
+{
+"word": "tropical",
+"pos": "adj.",
+"zh": "热带的",
+"level": "b1"
+},
+{
+"word": "trouille",
+"pos": "n.f.",
+"zh": "恐惧；害怕（口语）",
+"level": "b1"
+},
+{
+"word": "troupe",
+"pos": "n.f.",
+"zh": "部队；队伍；剧团",
+"level": "b1"
+},
+{
+"word": "troupeau",
+"pos": "n.m.",
+"zh": "畜群；一群（人）",
+"level": "b1"
+},
+{
+"word": "trèfle",
+"pos": "n.m.",
+"zh": "三叶草；梅花（纸牌）",
+"level": "b1"
+},
+{
+"word": "trône",
+"pos": "n.m.",
+"zh": "王座；王位",
+"level": "b1"
+},
+{
+"word": "tube",
+"pos": "n.m.",
+"zh": "管子；软管",
+"level": "b1"
+},
+{
+"word": "tueur",
+"pos": "n.m.",
+"zh": "杀手；凶手",
+"level": "b1"
+},
+{
+"word": "tumeur",
+"pos": "n.f.",
+"zh": "肿瘤",
+"level": "b1"
+},
+{
+"word": "tuyau",
+"pos": "n.m.",
+"zh": "管子；内幕消息",
+"level": "b1"
+},
+{
+"word": "typique",
+"pos": "adj.",
+"zh": "典型的；特有的",
+"level": "b1"
+},
+{
+"word": "tâcher",
+"pos": "v.",
+"zh": "设法；力求",
+"level": "b1"
+},
+{
+"word": "télégramme",
+"pos": "n.m.",
+"zh": "电报",
+"level": "b1"
+}
+]

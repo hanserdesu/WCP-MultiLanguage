@@ -1,0 +1,602 @@
+[
+{
+"word": "soweit",
+"pos": "adv.",
+"zh": "就…而言",
+"level": "a2"
+},
+{
+"word": "Bord",
+"pos": "n.m.",
+"zh": "船舱；甲板",
+"level": "a2"
+},
+{
+"word": "Rat",
+"pos": "n.m.",
+"zh": "建议",
+"level": "a2"
+},
+{
+"word": "worauf",
+"pos": "adv.",
+"zh": "指什么",
+"level": "a2"
+},
+{
+"word": "Achtung",
+"pos": "n.f.",
+"zh": "注意",
+"level": "a2"
+},
+{
+"word": "Glückwunsch",
+"pos": "n.m.",
+"zh": "祝贺",
+"level": "a2"
+},
+{
+"word": "statt",
+"pos": "präp.",
+"zh": "代替",
+"level": "a2"
+},
+{
+"word": "übernehmen",
+"pos": "v.",
+"zh": "接管",
+"level": "a2"
+},
+{
+"word": "Gegend",
+"pos": "n.f.",
+"zh": "地区",
+"level": "a2"
+},
+{
+"word": "Wald",
+"pos": "n.m.",
+"zh": "森林",
+"level": "a2"
+},
+{
+"word": "erkennen",
+"pos": "v.",
+"zh": "认出；承认",
+"level": "a2"
+},
+{
+"word": "verantwortlich",
+"pos": "adj.",
+"zh": "负责的",
+"level": "a2"
+},
+{
+"word": "stöhnen",
+"pos": "v.",
+"zh": "呻吟",
+"level": "a2"
+},
+{
+"word": "herein",
+"pos": "adv.",
+"zh": "进来",
+"level": "a2"
+},
+{
+"word": "jawohl",
+"pos": "interj.",
+"zh": "遵命；是的",
+"level": "a2"
+},
+{
+"word": "Gesetz",
+"pos": "n.",
+"zh": "法律",
+"level": "a2"
+},
+{
+"word": "gemeinsam",
+"pos": "adv.",
+"zh": "共同",
+"level": "a2"
+},
+{
+"word": "Schritt",
+"pos": "n.m.",
+"zh": "步伐",
+"level": "a2"
+},
+{
+"word": "nahe",
+"pos": "adj.",
+"zh": "靠近的",
+"level": "a2"
+},
+{
+"word": "beginnen",
+"pos": "v.",
+"zh": "开始",
+"level": "a2"
+},
+{
+"word": "Band",
+"pos": "n.",
+"zh": "带子；乐队",
+"level": "a2"
+},
+{
+"word": "Aufgabe",
+"pos": "n.f.",
+"zh": "任务",
+"level": "a2"
+},
+{
+"word": "furchtbar",
+"pos": "adj.",
+"zh": "可怕的",
+"level": "a2"
+},
+{
+"word": "drinnen",
+"pos": "adv.",
+"zh": "在里面",
+"level": "a2"
+},
+{
+"word": "zuvor",
+"pos": "adv.",
+"zh": "之前",
+"level": "a2"
+},
+{
+"word": "übrig",
+"pos": "adj.",
+"zh": "剩余的",
+"level": "a2"
+},
+{
+"word": "Spur",
+"pos": "n.f.",
+"zh": "线索；踪迹",
+"level": "a2"
+},
+{
+"word": "Sergeant",
+"pos": "n.m.",
+"zh": "警官",
+"level": "a2"
+},
+{
+"word": "melden",
+"pos": "v.",
+"zh": "报告",
+"level": "a2"
+},
+{
+"word": "werfen",
+"pos": "v.",
+"zh": "扔",
+"level": "a2"
+},
+{
+"word": "hängen",
+"pos": "v.",
+"zh": "挂",
+"level": "a2"
+},
+{
+"word": "Ehemann",
+"pos": "n.m.",
+"zh": "丈夫",
+"level": "a2"
+},
+{
+"word": "erschießen",
+"pos": "v.",
+"zh": "枪杀",
+"level": "a2"
+},
+{
+"word": "verzeihen",
+"pos": "v.",
+"zh": "原谅",
+"level": "a2"
+},
+{
+"word": "Monster",
+"pos": "n.",
+"zh": "怪物",
+"level": "a2"
+},
+{
+"word": "Mission",
+"pos": "n.f.",
+"zh": "任务",
+"level": "a2"
+},
+{
+"word": "vorne",
+"pos": "adv.",
+"zh": "前面",
+"level": "a2"
+},
+{
+"word": "übel",
+"pos": "adj.",
+"zh": "恶劣的；不舒服",
+"level": "a2"
+},
+{
+"word": "Unsinn",
+"pos": "n.m.",
+"zh": "胡说",
+"level": "a2"
+},
+{
+"word": "Respekt",
+"pos": "n.m.",
+"zh": "尊重",
+"level": "a2"
+},
+{
+"word": "pro",
+"pos": "präp.",
+"zh": "每",
+"level": "a2"
+},
+{
+"word": "leisten",
+"pos": "v.",
+"zh": "完成；负担",
+"level": "a2"
+},
+{
+"word": "davor",
+"pos": "adv.",
+"zh": "在那之前",
+"level": "a2"
+},
+{
+"word": "mitnehmen",
+"pos": "v.",
+"zh": "带走",
+"level": "a2"
+},
+{
+"word": "Schwierigkeit",
+"pos": "n.f.",
+"zh": "困难",
+"level": "a2"
+},
+{
+"word": "Hälfte",
+"pos": "n.f.",
+"zh": "一半",
+"level": "a2"
+},
+{
+"word": "Planet",
+"pos": "n.m.",
+"zh": "行星",
+"level": "a2"
+},
+{
+"word": "schwanger",
+"pos": "adj.",
+"zh": "怀孕的",
+"level": "a2"
+},
+{
+"word": "Gruppe",
+"pos": "n.f.",
+"zh": "小组",
+"level": "a2"
+},
+{
+"word": "verhaften",
+"pos": "v.",
+"zh": "逮捕",
+"level": "a2"
+},
+{
+"word": "irgendwelche",
+"pos": "pron.",
+"zh": "任何的",
+"level": "a2"
+},
+{
+"word": "drehen",
+"pos": "v.",
+"zh": "转动",
+"level": "a2"
+},
+{
+"word": "Erfolg",
+"pos": "n.m.",
+"zh": "成功",
+"level": "a2"
+},
+{
+"word": "zufrieden",
+"pos": "adj.",
+"zh": "满意的",
+"level": "a2"
+},
+{
+"word": "schließen",
+"pos": "v.",
+"zh": "关闭；结束",
+"level": "a2"
+},
+{
+"word": "besorgen",
+"pos": "v.",
+"zh": "办妥；搞到",
+"level": "a2"
+},
+{
+"word": "worüber",
+"pos": "adv.",
+"zh": "关于什么",
+"level": "a2"
+},
+{
+"word": "Verbrechen",
+"pos": "n.",
+"zh": "犯罪",
+"level": "a2"
+},
+{
+"word": "Bericht",
+"pos": "n.m.",
+"zh": "报告",
+"level": "a2"
+},
+{
+"word": "nachts",
+"pos": "adv.",
+"zh": "夜里",
+"level": "a2"
+},
+{
+"word": "Prinzessin",
+"pos": "n.f.",
+"zh": "公主",
+"level": "a2"
+},
+{
+"word": "Schmerz",
+"pos": "n.m.",
+"zh": "疼痛",
+"level": "a2"
+},
+{
+"word": "klingeln",
+"pos": "v.",
+"zh": "铃响",
+"level": "a2"
+},
+{
+"word": "Position",
+"pos": "n.f.",
+"zh": "位置",
+"level": "a2"
+},
+{
+"word": "fernsehen",
+"pos": "n.",
+"zh": "电视",
+"level": "a2"
+},
+{
+"word": "schließlich",
+"pos": "adv.",
+"zh": "终于；毕竟",
+"level": "a2"
+},
+{
+"word": "schwierig",
+"pos": "adj.",
+"zh": "困难的",
+"level": "a2"
+},
+{
+"word": "Angebot",
+"pos": "n.",
+"zh": "提议；供应",
+"level": "a2"
+},
+{
+"word": "nah",
+"pos": "adj.",
+"zh": "近的",
+"level": "a2"
+},
+{
+"word": "Ring",
+"pos": "n.m.",
+"zh": "戒指；环",
+"level": "a2"
+},
+{
+"word": "rennen",
+"pos": "v.",
+"zh": "跑",
+"level": "a2"
+},
+{
+"word": "fantastisch",
+"pos": "adj.",
+"zh": "极好的",
+"level": "a2"
+},
+{
+"word": "Insel",
+"pos": "n.f.",
+"zh": "岛",
+"level": "a2"
+},
+{
+"word": "daher",
+"pos": "adv.",
+"zh": "因此",
+"level": "a2"
+},
+{
+"word": "zufällig",
+"pos": "adv.",
+"zh": "偶然",
+"level": "a2"
+},
+{
+"word": "Dorf",
+"pos": "n.",
+"zh": "村庄",
+"level": "a2"
+},
+{
+"word": "mitten",
+"pos": "adv.",
+"zh": "正中间",
+"level": "a2"
+},
+{
+"word": "Bulle",
+"pos": "n.m.",
+"zh": "警察（俚）；公牛",
+"level": "a2"
+},
+{
+"word": "Feind",
+"pos": "n.m.",
+"zh": "敌人",
+"level": "a2"
+},
+{
+"word": "bauen",
+"pos": "v.",
+"zh": "建造",
+"level": "a2"
+},
+{
+"word": "deren",
+"pos": "pron.",
+"zh": "其（属格）",
+"level": "a2"
+},
+{
+"word": "verpassen",
+"pos": "v.",
+"zh": "错过",
+"level": "a2"
+},
+{
+"word": "leise",
+"pos": "adj.",
+"zh": "轻声的",
+"level": "a2"
+},
+{
+"word": "unternehmen",
+"pos": "v.",
+"zh": "从事",
+"level": "a2"
+},
+{
+"word": "kosten",
+"pos": "v.",
+"zh": "花费",
+"level": "a2"
+},
+{
+"word": "entlang",
+"pos": "präp.",
+"zh": "沿着",
+"level": "a2"
+},
+{
+"word": "Freiheit",
+"pos": "n.f.",
+"zh": "自由",
+"level": "a2"
+},
+{
+"word": "unterhalten",
+"pos": "v.",
+"zh": "交谈；供养",
+"level": "a2"
+},
+{
+"word": "einladen",
+"pos": "v.",
+"zh": "邀请",
+"level": "a2"
+},
+{
+"word": "Schaden",
+"pos": "n.m.",
+"zh": "损害",
+"level": "a2"
+},
+{
+"word": "beenden",
+"pos": "v.",
+"zh": "结束",
+"level": "a2"
+},
+{
+"word": "lächerlich",
+"pos": "adj.",
+"zh": "可笑的",
+"level": "a2"
+},
+{
+"word": "größte",
+"pos": "adj.",
+"zh": "最大的",
+"level": "a2"
+},
+{
+"word": "Energie",
+"pos": "n.f.",
+"zh": "能量",
+"level": "a2"
+},
+{
+"word": "bestehen",
+"pos": "v.",
+"zh": "存在；组成",
+"level": "a2"
+},
+{
+"word": "worum",
+"pos": "adv.",
+"zh": "关于什么",
+"level": "a2"
+},
+{
+"word": "betrunken",
+"pos": "adj.",
+"zh": "醉的",
+"level": "a2"
+},
+{
+"word": "sowas",
+"pos": "pron.",
+"zh": "这种事（口语）",
+"level": "a2"
+},
+{
+"word": "Patient",
+"pos": "n.m.",
+"zh": "病人",
+"level": "a2"
+},
+{
+"word": "Gespräch",
+"pos": "n.",
+"zh": "谈话",
+"level": "a2"
+}
+]

@@ -1,0 +1,502 @@
+{
+"privé": [
+{"fr": "L'hôpital privé se trouve en face du parc.", "zh": "私立医院在公园对面。"},
+{"fr": "Cette plage est privée, l'accès coûte cinq euros.", "zh": "这片海滩是私人的，进去要花五欧元。"},
+{"fr": "Il enseigne dans une école privée depuis dix ans.", "zh": "他在一所私立学校教了十年书。"}
+],
+"probable": [
+{"fr": "Il est probable qu'il pleuve demain matin.", "zh": "明天早上很可能下雨。"},
+{"fr": "Un retard est probable à cause de la grève.", "zh": "因为罢工，很可能会晚点。"},
+{"fr": "La solution la plus probable reste un simple malentendu.", "zh": "最可能的解释是一场误会。"}
+],
+"probablement": [
+{"fr": "Elle a probablement raté le dernier métro.", "zh": "她八成是错过末班地铁了。"},
+{"fr": "Nous partirons probablement en vacances en septembre.", "zh": "我们大概九月出发去度假。"},
+{"fr": "Ce souvenir est probablement inventé, il était trop petit à l'époque.", "zh": "这段记忆多半是他自己编的，那时他还太小。"}
+],
+"proche": [
+{"fr": "Mes proches habitent tous dans le même village.", "zh": "我的亲人们都住在同一个村子。"},
+{"fr": "La gare est proche du centre-ville, dix minutes à pied.", "zh": "车站离市中心很近，走路十分钟。"},
+{"fr": "Elle est très proche de sa sœur cadette.", "zh": "她和她妹妹感情特别深。"}
+],
+"produit": [
+{"fr": "Ce produit d'entretien sent trop fort pour moi.", "zh": "这种清洁剂的味道对我太冲了。"},
+{"fr": "La ferme vend ses produits sur le marché du samedi.", "zh": "农场每周六在集市上卖自家的产品。"},
+{"fr": "Ils ont lancé un nouveau produit au salon de l'agriculture.", "zh": "他们在农业展上发布了一款新产品。"}
+],
+"prof": [
+{"fr": "Mon prof de maths explique toujours deux fois.", "zh": "我的数学老师总是讲两遍。"},
+{"fr": "La prof d'anglais a annulé le cours de ce matin.", "zh": "英语老师取消了今天上午的课。"},
+{"fr": "Notre prof nous a donné moins de devoirs pour les vacances.", "zh": "放假前，老师给我们的作业布置得少了些。"}
+],
+"professionnel": [
+{"fr": "Il est devenu joueur professionnel à dix-sept ans.", "zh": "他十七岁就成了职业球员。"},
+{"fr": "Garde un ton professionnel dans ce courriel.", "zh": "写这封邮件请用职业一点的语气。"},
+{"fr": "Elle a une expérience professionnelle de dix ans dans le domaine.", "zh": "她在这个领域有十年的从业经验。"}
+],
+"profond": [
+{"fr": "Ce lac est si profond qu'on n'en voit pas le fond.", "zh": "这个湖深得看不到底。"},
+{"fr": "Il a un profond respect pour le travail bien fait.", "zh": "他对把活干好这件事怀有深深的敬意。"},
+{"fr": "Ils sont tombés dans un profond sommeil après la longue marche.", "zh": "走了那么远的路，他们沉沉地睡着了。"}
+],
+"programme": [
+{"fr": "Le programme du festival sort la semaine prochaine.", "zh": "艺术节的节目单下周发布。"},
+{"fr": "Elle a suivi un programme de remise en forme pendant trois mois.", "zh": "她照着一个健身计划练了三个月。"},
+{"fr": "Ce programme télévisé passionne toute la famille.", "zh": "这档电视节目全家人都爱看。"}
+],
+"progrès": [
+{"fr": "La médecine a fait d'énormes progrès ces dernières années.", "zh": "这些年医学进步巨大。"},
+{"fr": "Il a fait de vrais progrès en grammaire ce trimestre.", "zh": "这个学期他的语法确实进步了。"},
+{"fr": "Le progrès technique change nos habitudes sans qu'on le demande.", "zh": "技术进步在不知不觉中改变了我们的习惯。"}
+],
+"projet": [
+{"fr": "Ils présentent leur projet de rénovation au maire jeudi.", "zh": "周四他们要向市长汇报翻修方案。"},
+{"fr": "Ce projet de voyage en Italie me tient à cœur.", "zh": "去意大利旅行的计划是我心心念念的事。"},
+{"fr": "Elle a abandonné le projet faute de budget.", "zh": "因为没钱，她放弃了这个项目。"}
+],
+"promenade": [
+{"fr": "Nous faisons une promenade le long du canal chaque dimanche.", "zh": "每周日我们都沿运河散步。"},
+{"fr": "La promenade du soir l'aide à penser à autre chose.", "zh": "晚上的散步能让她暂时不想烦心事。"},
+{"fr": "Les enfants adorent la promenade à dos de poney.", "zh": "孩子们最喜欢骑小马兜风。"}
+],
+"promesse": [
+{"fr": "Il a tenu sa promesse et est venu nous chercher.", "zh": "他兑现了承诺，来接我们了。"},
+{"fr": "Garde ta promesse, les enfants y croient.", "zh": "说话要算数，孩子们是当真的。"},
+{"fr": "Cette bague symbolise une promesse de mariage.", "zh": "这枚戒指代表着结婚的承诺。"}
+],
+"promettre": [
+{"fr": "Je te promets que je serai à l'heure cette fois.", "zh": "我保证这次一定准时到。"},
+{"fr": "Elle a promis d'écrire chaque semaine pendant son voyage.", "zh": "她答应旅行期间每周写一封信。"},
+{"fr": "Il ne faut jamais promettre ce qu'on ne peut pas tenir.", "zh": "做不到的事就别轻易答应。"}
+],
+"proposer": [
+{"fr": "Je te propose de manger sur le pouce ce soir.", "zh": "今晚我提议随便简单吃一口。"},
+{"fr": "L'agence propose plusieurs appartements dans ce quartier.", "zh": "中介在这个街区有好几套房子。"},
+{"fr": "Qui peut proposer une solution pour ce problème de planning ?", "zh": "谁能出个主意解决这个排班问题？"}
+],
+"propreté": [
+{"fr": "La propreté de cet hôtel est remarquable.", "zh": "这家酒店干净得出名。"},
+{"fr": "Il veille à la propreté de son atelier chaque soir.", "zh": "他每天晚上都把车间收拾得干干净净。"},
+{"fr": "Avant l'école, les parents apprennent la propreté à leur enfant.", "zh": "上学之前，父母要先教会孩子讲卫生。"}
+],
+"propriétaire": [
+{"fr": "Le propriétaire de l'appartement augmente le loyer de peu.", "zh": "房东只是小幅上调了房租。"},
+{"fr": "Elle est propriétaire de deux cafés dans le centre.", "zh": "她是市中心两家咖啡馆的老板。"},
+{"fr": "Le propriétaire du chien a affiché des avis partout.", "zh": "狗主人到处贴了寻狗启事。"}
+],
+"protection": [
+{"fr": "Ce casque offre une bonne protection pour le vélo.", "zh": "这顶头盔骑车防护效果很好。"},
+{"fr": "La protection de l'environnement préoccupe toute la commune.", "zh": "环境保护是全社区都关心的事。"},
+{"fr": "Les crèmes solaires offrent une protection contre les ultraviolets.", "zh": "防晒霜能挡住紫外线。"}
+],
+"protéger": [
+{"fr": "Il faut protéger sa peau du soleil en été.", "zh": "夏天要保护好皮肤，别晒伤了。"},
+{"fr": "Les parents protègent leurs enfants des dangers de la route.", "zh": "父母护着孩子，不让他们沾马路的危险。"},
+{"fr": "Cette association protège les oiseaux migrateurs de la région.", "zh": "这个协会保护本地区的候鸟。"}
+],
+"prudent": [
+{"fr": "Sois prudent en traversant cette route sans trottoir.", "zh": "过这条没人行道的马路要小心。"},
+{"fr": "Elle reste toujours prudente quand elle signe un contrat.", "zh": "签合同的时候她一向谨慎。"},
+{"fr": "Un conducteur prudent ralentit avant ce virage.", "zh": "稳重的司机过弯前总会减速。"}
+],
+"prune": [
+{"fr": "Il récolte les prunes du verger fin août.", "zh": "八月底他收果园里的李子。"},
+{"fr": "Elle prépare une tarte aux prunes pour le goûter.", "zh": "她做了李子挞当下午茶点心。"},
+{"fr": "Les prunes séchées se conservent tout l'hiver.", "zh": "李子干能存放一整个冬天。"}
+],
+"près de": [
+{"fr": "Ils habitent près de la gare, c'est très commode.", "zh": "他们住在火车站旁边，特别方便。"},
+{"fr": "Il est près de midi, allons déjeuner.", "zh": "快中午了，我们去吃午饭吧。"},
+{"fr": "Le feu s'est déclaré près de la vieille usine.", "zh": "火灾发生在旧工厂附近。"}
+],
+"pré": [
+{"fr": "Les vaches paissent dans le pré au bord de la rivière.", "zh": "牛群在河边的草地上吃草。"},
+{"fr": "Il a planté des pommiers dans son pré l'année dernière.", "zh": "去年他在自家草场里种了苹果树。"},
+{"fr": "Nous faisons un pique-nique dans le pré derrière la ferme.", "zh": "我们在农场后面的草地上野餐。"}
+],
+"précis": [
+{"fr": "Donne-moi l'heure précise de ton arrivée.", "zh": "告诉我你到达的确切时间。"},
+{"fr": "Ce rapport manque de données précises sur les ventes.", "zh": "这份报告缺少关于销售的准确数据。"},
+{"fr": "Il a une mémoire précise de cette journée d'orage.", "zh": "他对那个雷雨天记得清清楚楚。"}
+],
+"préparation": [
+{"fr": "La préparation du repas commence à dix-sept heures.", "zh": "下午五点开始准备晚饭。"},
+{"fr": "Après des mois de préparation, l'examen s'est bien passé.", "zh": "准备了几个月，考试考得不错。"},
+{"fr": "La préparation de la pâte demande de la patience.", "zh": "和面这一步最需要耐心。"}
+],
+"présence": [
+{"fr": "Sa présence à la réunion était nécessaire.", "zh": "他必须出席那次会议。"},
+{"fr": "Merci de votre présence à notre mariage.", "zh": "谢谢各位光临我们的婚礼。"},
+{"fr": "En présence des témoins, les deux parties ont signé.", "zh": "在有见证人在场的情况下，双方签了字。"}
+],
+"présent": [
+{"fr": "Vivre dans le présent aide à se libérer du passé.", "zh": "活在当下，才能放下过去。"},
+{"fr": "Tous les élèves sont présents ce matin.", "zh": "今天早上学生一个不落全到了。"},
+{"fr": "Il m'a offert un beau présent pour la fête.", "zh": "过节时他送了我一份漂亮的礼物。"}
+],
+"président": [
+{"fr": "Le président de l'association ouvre l'assemblée à dix heures.", "zh": "协会主席十点宣布大会开始。"},
+{"fr": "Elle a été élue présidente du club de tennis.", "zh": "她当选了网球俱乐部的主席。"},
+{"fr": "Le discours du président a été diffusé en direct.", "zh": "总统的讲话做了直播。"}
+],
+"prévenir": [
+{"fr": "Préviens-moi si tu arrives après vingt heures.", "zh": "你要是八点以后才到，提前跟我说一声。"},
+{"fr": "Il a prévenu ses voisins du bruit des travaux.", "zh": "工地很吵，他事先跟邻居们打了招呼。"},
+{"fr": "On ne peut rien faire pour prévenir cette maladie.", "zh": "这种病目前还无法预防。"}
+],
+"prêter": [
+{"fr": "Peux-tu me prêter ton parapluie jusqu'à demain ?", "zh": "你的伞能借我用到明天吗？"},
+{"fr": "Elle ne prête jamais sa voiture à personne.", "zh": "他的车谁借都不借。"},
+{"fr": "Le banquier accepte de prêter la somme demandée.", "zh": "银行家同意贷出这笔款子。"}
+],
+"pub": [
+{"fr": "Cette pub m'est restée dans la tête toute la journée.", "zh": "这条广告在我脑子里转了一整天。"},
+{"fr": "Il zappe dès qu'une pub commence à la télé.", "zh": "电视里广告一开始他就换台。"},
+{"fr": "La nouvelle pub pour la voiture sort au cinéma ce mois-ci.", "zh": "汽车的新广告这个月登陆影院。"}
+],
+"public": [
+{"fr": "Le public applaudit longuement à la fin du spectacle.", "zh": "演出结束时，观众掌声经久不息。"},
+{"fr": "Ce parc est ouvert au public toute l'année.", "zh": "这座公园全年对公众开放。"},
+{"fr": "L'exposition attire un public de tous les âges.", "zh": "这场展览吸引了各个年龄段的观众。"}
+],
+"publicité": [
+{"fr": "Cette publicité pour les téléphones passe trop souvent.", "zh": "那则手机广告播得太频繁了。"},
+{"fr": "Elle travaille dans une agence de publicité parisienne.", "zh": "她在巴黎一家广告公司工作。"},
+{"fr": "La mairie a lancé une publicité pour le nouveau tramway.", "zh": "市政府为有轨电车新线做了宣传。"}
+],
+"pudding": [
+{"fr": "Elle prépare un pudding au chocolat pour le dessert.", "zh": "她做了巧克力布丁当甜点。"},
+{"fr": "Ce pudding anglais à la vanille est son péché mignon.", "zh": "这款香草英式布丁是他的心头好。"},
+{"fr": "Il reste un peu de pudding dans le frigo pour toi.", "zh": "冰箱里还剩一点布丁，给你留着呢。"}
+],
+"puisque": [
+{"fr": "Puisque tu es là, aide-moi à porter ces cartons.", "zh": "你正好在，帮我搬下这些箱子吧。"},
+{"fr": "Restons à l'intérieur, puisque la pluie ne s'arrête pas.", "zh": "雨一直下，我们就待在屋里吧。"},
+{"fr": "Puisque personne ne pose de question, je passe au point suivant.", "zh": "既然没人提问，我讲下一点。"}
+],
+"puissant": [
+{"fr": "Ce moteur puissant monte les côtes sans effort.", "zh": "这台大功率发动机爬坡毫不费力。"},
+{"fr": "Elle a une voix puissante qui remplit la salle.", "zh": "她的嗓音浑厚，能撑满整个大厅。"},
+{"fr": "Le pays le plus puissant de la région change d'allié.", "zh": "该地区最有实力的国家换了盟友。"}
+],
+"puits": [
+{"fr": "Les villageois tirent l'eau du puits chaque matin.", "zh": "村民每天早上从井里打水。"},
+{"fr": "Autrefois, chaque ferme avait son propre puits.", "zh": "从前每座农庄都有自己的水井。"},
+{"fr": "Au fond du puits, l'eau reste fraîche toute l'année.", "zh": "井底的水一年到头都很清凉。"}
+],
+"pull": [
+{"fr": "Mets un pull, il fait frais ce soir.", "zh": "今晚凉，穿件毛衣吧。"},
+{"fr": "Elle a tricoté un pull bleu pour son neveu.", "zh": "她给侄子织了件蓝毛衣。"},
+{"fr": "Ce pull en laine gratte un peu, mais il tient chaud.", "zh": "这件羊毛衫有点扎，但很暖和。"}
+],
+"punir": [
+{"fr": "Les parents ne doivent pas punir sans expliquer.", "zh": "父母不该不问缘由就惩罚孩子。"},
+{"fr": "Le maître a puni toute la classe pour le bruit.", "zh": "全班太吵，老师把全班都罚了。"},
+{"fr": "Il se fait punir chaque fois qu'il ment.", "zh": "他每次撒谎都会挨罚。"}
+],
+"punition": [
+{"fr": "Copier cent fois la leçon, quelle punition bizarre !", "zh": "把课文抄一百遍，这惩罚也太怪了！"},
+{"fr": "Il accepte sa punition sans se plaindre.", "zh": "他一声不吭地接受了处罚。"},
+{"fr": "À l'école, les punitions sont remplacées par du travail supplémentaire.", "zh": "在学校里，惩罚如今换成了额外的功课。"}
+],
+"pyjama": [
+{"fr": "Les enfants mettent leur pyjama avant l'histoire du soir.", "zh": "孩子们换上睡衣听睡前故事。"},
+{"fr": "Il reste en pyjama tout le dimanche matin.", "zh": "周日早上他能穿着睡衣赖一上午。"},
+{"fr": "Ce pyjama en coton est doux pour la peau sensible.", "zh": "这套棉质睡衣适合敏感肌肤。"}
+],
+"pâtisserie": [
+{"fr": "Elle achète des pâtisseries pour le goûter du dimanche.", "zh": "她买了点心准备周日的下午茶。"},
+{"fr": "Cette pâtisserie du quartier fait les meilleurs éclairs.", "zh": "街区这家甜品店做的闪电泡芙最棒。"},
+{"fr": "Il suit une formation de pâtisserie depuis septembre.", "zh": "他从九月起开始学做糕点。"}
+],
+"période": [
+{"fr": "La période des soldes attire beaucoup de monde.", "zh": "打折季人山人海。"},
+{"fr": "Il traverse une période difficile au travail.", "zh": "他工作上正处在一段困难时期。"},
+{"fr": "Cette période de l'histoire reste mal connue.", "zh": "这段历史时期人们至今了解得很少。"}
+],
+"pêche": [
+{"fr": "Elle cueille des pêches dans le verger en juillet.", "zh": "七月她在果园里摘桃子。"},
+{"fr": "La pêche en rivière demande un permis spécial.", "zh": "在河里捕鱼要有专门的许可。"},
+{"fr": "Cette confiture de pêches sent l'été.", "zh": "这罐桃子酱一打开就是夏天的味道。"}
+],
+"pêcher": [
+{"fr": "Il aime pêcher la truite dans la rivière du village.", "zh": "他喜欢在村里的河里钓鳟鱼。"},
+{"fr": "On ne peut pas pêcher ici sans permis.", "zh": "这里没有许可证不许钓鱼。"},
+{"fr": "Ils sont allés pêcher au petit matin sur le lac.", "zh": "他们一大早就去湖上钓鱼了。"}
+],
+"pêcheur": [
+{"fr": "Le pêcheur jette sa ligne depuis la jetée.", "zh": "渔夫从堤坝上甩出鱼线。"},
+{"fr": "Les pêcheurs rentrent au port avant la tempête.", "zh": "暴风雨来临前，渔民们都回了港。"},
+{"fr": "Ce vieux pêcheur connaît tous les coins du lac.", "zh": "这位老渔夫对湖里每个好钓点都了如指掌。"}
+],
+"quai": [
+{"fr": "Le train pour Lyon part du quai numéro sept.", "zh": "去里昂的火车在七号站台发车。"},
+{"fr": "Nous nous promenons le long des quais de la Seine.", "zh": "我们沿着塞纳河的堤岸散步。"},
+{"fr": "Attends-moi sur le quai, j'achète les billets.", "zh": "在站台上等我，我去买票。"}
+],
+"qualité": [
+{"fr": "La qualité de ce tissu se voit au premier toucher.", "zh": "这块布料的品质一摸就知道。"},
+{"fr": "Sa principale qualité, c'est sa patience.", "zh": "她最大的优点就是有耐心。"},
+{"fr": "Ils privilégient la qualité plutôt que la quantité.", "zh": "他们重质量胜过重数量。"}
+],
+"quantité": [
+{"fr": "Il faut une grande quantité de farine pour ce pain.", "zh": "做这个面包需要大量的面粉。"},
+{"fr": "Elle achète cette épice en petite quantité.", "zh": "这种香料她每次只买少量。"},
+{"fr": "Une quantité impressionnante de touristes visite la ville en août.", "zh": "八月来这座城的游客多得惊人。"}
+],
+"quart": [
+{"fr": "Il arrive toujours un quart d'heure en avance.", "zh": "他总是提前一刻钟到。"},
+{"fr": "Elle a bu un quart de litre de jus d'orange.", "zh": "她喝了四分之一升橙汁。"},
+{"fr": "Il reste un quart du gâteau pour demain.", "zh": "蛋糕还剩四分之一，留到明天。"}
+],
+"quartier": [
+{"fr": "Elle déménage dans un quartier calme près du parc.", "zh": "她要搬到公园附近一个安静的街区。"},
+{"fr": "Ce quartier ancien se visite à pied.", "zh": "这个老街区适合步行游览。"},
+{"fr": "Les commerces du quartier ferment tôt le dimanche.", "zh": "街上的店铺周日很早就关门。"}
+],
+"quelquefois": [
+{"fr": "Quelquefois, nous prenons le petit déjeuner sur la terrasse.", "zh": "有时候我们就在露台上吃早饭。"},
+{"fr": "Il oublie quelquefois ses clés au bureau.", "zh": "他偶尔会把钥匙落在办公室。"},
+{"fr": "Quelquefois il pleut, mais la plupart du temps il fait beau.", "zh": "偶尔下点雨，但大多数时候天气都很好。"}
+],
+"quelques-unes": [
+{"fr": "Quelques-unes de mes amies viennent au vernissage.", "zh": "我的几位女性朋友要来看画展开幕。"},
+{"fr": "Elle a goûté toutes les pâtisseries, quelques-unes seulement lui ont plu.", "zh": "那些点心她每样都尝了，只有几样合她口味。"},
+{"fr": "Quelques-unes des photos sont floues, les autres sont réussies.", "zh": "有几张照片糊了，其他的拍得不错。"}
+],
+"quelques-uns": [
+{"fr": "Quelques-uns de ses films sont des chefs-d'œuvre.", "zh": "他的电影里有几部堪称经典。"},
+{"fr": "J'ai invité beaucoup de camarades, quelques-uns sont déjà arrivés.", "zh": "我请了好多同学，已经有几位到了。"},
+{"fr": "Sur dix candidats, quelques-uns seulement ont passé l'entretien.", "zh": "十个候选人里，只有几个进了面试。"}
+],
+"queue": [
+{"fr": "Il y a une longue queue devant la boulangerie.", "zh": "面包店门口排着长队。"},
+{"fr": "Le lapin remue sa petite queue dans l'herbe.", "zh": "小兔子在草丛里摇着短尾巴。"},
+{"fr": "Fais la queue au guichet numéro deux.", "zh": "请到二号窗口排队。"}
+],
+"quitter": [
+{"fr": "Elle quitte son appartement à la fin du mois.", "zh": "月底她要搬离这套公寓。"},
+{"fr": "Ne quitte pas la salle avant la fin de l'examen.", "zh": "考试结束前别离开考场。"},
+{"fr": "Il a quitté son village natal à dix-huit ans.", "zh": "他十八岁就离开了老家村子。"}
+],
+"racine": [
+{"fr": "L'arbre a des racines profondes qui cherchent l'eau.", "zh": "这棵树的根扎得很深，一直在找水。"},
+{"fr": "Elle arrache la mauvaise herbe avec ses racines.", "zh": "她把那株野草连根拔了起来。"},
+{"fr": "Plusieurs mots français ont la même racine latine.", "zh": "好几个法语词都来自同一个拉丁语词根。"}
+],
+"raconter": [
+{"fr": "Grand-mère raconte des histoires aux enfants avant le coucher.", "zh": "睡觉前，奶奶给孩子们讲故事。"},
+{"fr": "Il raconte ses voyages avec beaucoup d'humour.", "zh": "他讲起旅行来特别风趣。"},
+{"fr": "Elle m'a raconté toute l'histoire au téléphone.", "zh": "她在电话里把整件事从头讲给我听。"}
+],
+"radar": [
+{"fr": "Un radar automatique flashe les voitures trop rapides.", "zh": "自动测速雷达专拍超速的车。"},
+{"fr": "Les avions sont suivis par radar jusqu'à l'atterrissage.", "zh": "直到降落，飞机一直由雷达跟踪。"},
+{"fr": "La police installe un radar mobile sur cette départementale.", "zh": "交警在这条省道上装了移动测速仪。"}
+],
+"radiateur": [
+{"fr": "Le radiateur du salon ne chauffe plus depuis hier.", "zh": "从昨天起客厅的暖气片就不热了。"},
+{"fr": "Elle pose ses chaussettes mouillées sur le radiateur.", "zh": "她把湿袜子搭在暖气片上。"},
+{"fr": "Purge les radiateurs avant l'hiver, ils font du bruit.", "zh": "入冬前给暖气片排排气，它们响得厉害。"}
+],
+"raide": [
+{"fr": "Cette pente est trop raide pour le vélo chargé.", "zh": "这坡太陡，载着货的自行车上不去。"},
+{"fr": "Il a le dos raide après avoir dormi sur le canapé.", "zh": "在沙发上睡了一晚，他后背都僵了。"},
+{"fr": "Monter ce chemin raide demande une bonne paire de jambes.", "zh": "爬这么陡的路得有好腿脚。"}
+],
+"raisin": [
+{"fr": "Les vendanges commencent quand le raisin est bien mûr.", "zh": "葡萄熟透了才开始采收。"},
+{"fr": "Elle achète du raisin noir au marché du samedi.", "zh": "周六集市上她买了黑葡萄。"},
+{"fr": "Le jus de raisin fermente pour devenir du vin.", "zh": "葡萄汁发酵后就变成了酒。"}
+],
+"raison": [
+{"fr": "Tu as raison, ce plan ne tiendra pas.", "zh": "你说得对，这个计划根本行不通。"},
+{"fr": "Elle a de bonnes raisons de refuser cette offre.", "zh": "她拒绝那份邀约自有她的道理。"},
+{"fr": "Pour cette raison, le train ne s'arrête pas à la petite gare.", "zh": "因此，火车在小站不停靠。"}
+],
+"rajouter": [
+{"fr": "Rajoute une pincée de sel dans la sauce.", "zh": "往酱汁里再加一小撮盐。"},
+{"fr": "Il faut rajouter deux chaises pour les invités.", "zh": "还得再加两把椅子，客人不够坐。"},
+{"fr": "Elle rajoute une couche avant la promenade, il fait froid.", "zh": "天冷，出门散步前她多给孩子加了一件衣服。"}
+],
+"ralentir": [
+{"fr": "Ralentis avant le passage à niveau.", "zh": "过铁路道口前请减速。"},
+{"fr": "La circulation ralentit près des travaux du pont.", "zh": "桥边施工，车流慢了下来。"},
+{"fr": "Il faut ralentir le rythme avant les vacances.", "zh": "度假前得把节奏放慢。"}
+],
+"ramasser": [
+{"fr": "Ramasse tes jouets avant d'aller au lit.", "zh": "睡觉前把玩具收起来。"},
+{"fr": "Elle ramasse les feuilles mortes dans le jardin.", "zh": "她在园子里捡落叶。"},
+{"fr": "Il a ramassé un portefeuille sur le trottoir et l'a rendu.", "zh": "他在人行道上捡到一个钱包，还给了失主。"}
+],
+"ramener": [
+{"fr": "Ramène du pain en rentrant, il n'y en a plus.", "zh": "回来时带条面包，家里没有了。"},
+{"fr": "Elle ramène les enfants de l'école à quatre heures.", "zh": "她四点去学校接孩子回家。"},
+{"fr": "Ils nous ont ramené des souvenirs de leur voyage.", "zh": "他们旅行回来给我们带了纪念品。"}
+],
+"randonnée": [
+{"fr": "Nous partons en randonnée dans les Alpes au printemps.", "zh": "春天我们去阿尔卑斯山远足。"},
+{"fr": "Cette randonnée dure six heures avec un dénivelé important.", "zh": "这条徒步线路要走上六个小时，爬升不小。"},
+{"fr": "Une randonnée en forêt reste le meilleur remède au stress.", "zh": "去森林里走一走，是对抗压力最好的药方。"}
+],
+"rang": [
+{"fr": "Les élèves se mettent en rang devant l'école.", "zh": "学生们在学校门口站成一排。"},
+{"fr": "Elle occupe le premier rang de la salle de concert.", "zh": "音乐会上她坐在第一排。"},
+{"fr": "Les soldats s'alignent en rang derrière le capitaine.", "zh": "士兵们在上尉身后列队站好。"}
+],
+"ranger": [
+{"fr": "Range ta chambre avant de sortir.", "zh": "出门前把房间收拾好。"},
+{"fr": "Elle range les achats dans les placards de la cuisine.", "zh": "她把买来的东西归置进厨房的柜子。"},
+{"fr": "Il faut ranger les outils après le bricolage.", "zh": "干完活得把工具收好。"}
+],
+"rangé": [
+{"fr": "Son bureau reste toujours bien rangé.", "zh": "他的办公桌总是收拾得整整齐齐。"},
+{"fr": "C'est un garçon rangé, il rentre tôt le soir.", "zh": "这孩子很规矩，晚上总是早早回家。"},
+{"fr": "Les dossiers rangés par date facilitent le travail.", "zh": "文件按日期码放得整整齐齐，找起来省事。"}
+],
+"rangée": [
+{"fr": "Une rangée de tilleuls borde l'allée du parc.", "zh": "一排椴树夹着公园的小径。"},
+{"fr": "Notre rangée de cinéma se trouve tout au fond.", "zh": "我们的那排座位在电影院最里头。"},
+{"fr": "Elle a planté une rangée de fraisiers le long du mur.", "zh": "她沿着墙种了一排草莓。"}
+],
+"rapidement": [
+{"fr": "La situation a rapidement changé après la réunion.", "zh": "会后局势迅速起了变化。"},
+{"fr": "Il court rapidement pour attraper le bus.", "zh": "他撒腿快跑，好赶上公交车。"},
+{"fr": "Elle a rapidement compris le fonctionnement du logiciel.", "zh": "她很快就弄明白了这套软件怎么用。"}
+],
+"rappeler": [
+{"fr": "Rappelle-moi de sortir le rôti du four à midi.", "zh": "到中午提醒我一下，把烤肉从烤箱里拿出来。"},
+{"fr": "Elle rappelle sa mère chaque dimanche soir.", "zh": "她每周日晚上给她妈妈回个电话。"},
+{"fr": "Ce parfum me rappelle les vacances chez mes grands-parents.", "zh": "这种气味让我想起在祖父母家的假期。"}
+],
+"rapport": [
+{"fr": "Le rapport annuel sera présenté à l'assemblée.", "zh": "年度报告将在大会上提交。"},
+{"fr": "Il y a un rapport entre la pollution et ces allergies.", "zh": "污染和这些过敏之间有关联。"},
+{"fr": "J'ai rédigé un rapport de dix pages sur le sujet.", "zh": "我写了一份十页的专题报告。"}
+],
+"rapporter": [
+{"fr": "Rapporte du lait en rentrant, s'il te plaît.", "zh": "回来时顺便带点牛奶，拜托。"},
+{"fr": "Elle rapporte toujours des spécialités de ses voyages.", "zh": "她旅行回来总带些当地特产。"},
+{"fr": "Le journaliste rapporte les faits avec précision.", "zh": "记者如实报道事实。"}
+],
+"rare": [
+{"fr": "Cette fleur est si rare qu'on ne la voit qu'ici.", "zh": "这种花太少见了，只有这儿才有。"},
+{"fr": "Il est rare qu'il pleuve en juillet ici.", "zh": "这里七月很少下雨。"},
+{"fr": "Les moments de calme sont rares dans cette maison.", "zh": "在这个家里，安安静静的时刻可不多。"}
+],
+"rarement": [
+{"fr": "Il neige rarement dans cette région du sud.", "zh": "南部这个地区难得下雪。"},
+{"fr": "Nous mangeons rarement au restaurant en semaine.", "zh": "工作日我们很少下馆子。"},
+{"fr": "On le voit rarement sourire depuis son déménagement.", "zh": "自从搬走后，人们很少见他笑了。"}
+],
+"raser": [
+{"fr": "Il se rase chaque matin devant le miroir de la salle de bain.", "zh": "他每天早上在浴室的镜子前刮胡子。"},
+{"fr": "Le coiffeur lui a rasé la tête pour l'été.", "zh": "为了过夏天，理发师给他剃了个光头。"},
+{"fr": "L'avion a rasé les toits en atterrissant, quel exploit !", "zh": "着陆时飞机几乎是贴着屋顶掠过的，真是绝了！"}
+],
+"rasoir": [
+{"fr": "Il a oublié son rasoir chez lui pendant le voyage.", "zh": "旅行时他把剃须刀忘在家里了。"},
+{"fr": "Ce rasoir électrique fonctionne sur batterie.", "zh": "这把电动剃须刀用电池。"},
+{"fr": "Elle lui a offert un rasoir neuf pour Noël.", "zh": "圣诞节她送了他一把新剃须刀。"}
+],
+"rat": [
+{"fr": "Un rat s'est faufilé sous le portail du jardin.", "zh": "一只老鼠从花园门底下溜了进去。"},
+{"fr": "Les rats prolifèrent près des poubelles mal fermées.", "zh": "垃圾桶盖不严，老鼠就越聚越多。"},
+{"fr": "L'enfant a un rat domestique comme animal de compagnie.", "zh": "孩子养了一只宠物鼠作伴。"}
+],
+"rater": [
+{"fr": "Dépêche-toi, on va rater le début du film.", "zh": "快点，电影开头要赶不上了。"},
+{"fr": "Elle a raté son train d'une minute.", "zh": "她就晚了一分钟，没赶上火车。"},
+{"fr": "Ne rate pas cette occasion unique de visiter l'atelier.", "zh": "参观工坊的机会难得，别错过了。"}
+],
+"rattraper": [
+{"fr": "Il pédale fort pour rattraper ses copains.", "zh": "他拼命蹬车想追上伙伴们。"},
+{"fr": "Elle a rattrapé son retard en maths pendant les vacances.", "zh": "假期里她把落下的数学补了回来。"},
+{"fr": "Le sprinter a rattrapé le leader dans les derniers mètres.", "zh": "最后一程，短跑选手追上了领跑的人。"}
+],
+"ravi": [
+{"fr": "Je suis ravi de faire votre connaissance.", "zh": "认识您我非常高兴。"},
+{"fr": "Elle était ravie de retrouver ses anciennes camarades.", "zh": "又见到老同学，她高兴极了。"},
+{"fr": "Les enfants sont ravis de leur cadeau d'anniversaire.", "zh": "收到生日礼物，孩子们乐坏了。"}
+],
+"recette": [
+{"fr": "Cette recette de tarte aux pommes vient de ma grand-mère.", "zh": "这道苹果挞的方子是我奶奶传下来的。"},
+{"fr": "Il suit la recette à la lettre pour le gâteau.", "zh": "他严格照着食谱做蛋糕。"},
+{"fr": "Le restaurant garde sa recette de sauce secrète.", "zh": "那家餐厅的酱汁配方是保密的。"}
+],
+"recevoir": [
+{"fr": "Nous recevons des invités samedi soir.", "zh": "周六晚上我们家有客人来。"},
+{"fr": "Elle a reçu une lettre du maire hier.", "zh": "昨天她收到了市长的一封信。"},
+{"fr": "Tu recevras ta commande avant la fin de la semaine.", "zh": "你订的东西周末前会送到。"}
+],
+"recharger": [
+{"fr": "Recharge ton téléphone avant le long trajet.", "zh": "长途出发前给手机充好电。"},
+{"fr": "Il recharge la batterie de la voiture dans le garage.", "zh": "他在车库里给汽车电池充电。"},
+{"fr": "Elle recharge sa carte de transport chaque début de mois.", "zh": "每月月初她给交通卡充值。"}
+],
+"rechercher": [
+{"fr": "Les scientifiques recherchent un traitement contre cette maladie.", "zh": "科学家们正在寻找对付这种病的疗法。"},
+{"fr": "Il recherche un appartement avec balcon près du parc.", "zh": "他在找一处带阳台、离公园近的房子。"},
+{"fr": "Ce designer recherche des matériaux naturels pour ses meubles.", "zh": "这位设计师给家具选材讲究天然。"}
+],
+"recommander": [
+{"fr": "Je vous recommande le poisson grillé de ce restaurant.", "zh": "我向您推荐这家餐厅的烤鱼。"},
+{"fr": "Le médecin recommande de marcher trente minutes par jour.", "zh": "医生建议每天走路三十分钟。"},
+{"fr": "Elle recommande son filleul pour le poste de stagiaire.", "zh": "她推荐自己的教子去做那个实习职位。"}
+],
+"recommencer": [
+{"fr": "Recommence ton calcul, il y a une erreur à la deuxième ligne.", "zh": "第二行算错了，重新算一遍。"},
+{"fr": "Il a recommencé la chanson au début, la corde avait cassé.", "zh": "琴弦断了，他把那首歌从头再来了一遍。"},
+{"fr": "Elle ne veut jamais recommencer cette expérience pénible.", "zh": "那段糟心的经历她再也不想重来。"}
+],
+"reconnaître": [
+{"fr": "Je l'ai reconnue à sa démarche légère.", "zh": "凭她轻盈的步态，我一眼就认出了她。"},
+{"fr": "Il reconnaît son erreur et présente ses excuses.", "zh": "他承认了错误，并道了歉。"},
+{"fr": "Elle a reconnu la voix de son frère au téléphone.", "zh": "在电话里，她听出了哥哥的声音。"}
+],
+"record": [
+{"fr": "Elle a battu le record du 100 mètres féminin.", "zh": "她刷新了女子百米纪录。"},
+{"fr": "Ce film a établi un record d'entrées au cinéma.", "zh": "这部电影创下了影院观影人次纪录。"},
+{"fr": "Il détient le record de victoires dans ce tournoi.", "zh": "他保持着这项赛事的获胜次数纪录。"}
+],
+"reculer": [
+{"fr": "La voiture recule doucement dans le garage étroit.", "zh": "车在狭窄的车库里慢慢往后倒。"},
+{"fr": "Il refuse de reculer devant les difficultés.", "zh": "他从不因困难而退缩。"},
+{"fr": "La date du concours a été reculée d'une semaine.", "zh": "比赛日期往后推了一周。"}
+],
+"redemander": [
+{"fr": "Si le plat te plaît, tu pourras le redemander la prochaine fois.", "zh": "要是喜欢这道菜，下回可以再点。"},
+{"fr": "Elle redemande pardon pour son retard de hier.", "zh": "她为昨天的迟到再次请求原谅。"},
+{"fr": "Il redemande des explications au prof, il n'a rien compris.", "zh": "他没听懂，又找老师问了一遍。"}
+],
+"refaire": [
+{"fr": "Il faut refaire ce calcul, le résultat est faux.", "zh": "这道计算得重做，结果不对。"},
+{"fr": "Ils ont refait toute la façade de la maison.", "zh": "房子的整个门面他们都翻新了。"},
+{"fr": "On ne peut pas refaire le passé, regardons devant.", "zh": "过去无法重来，向前看吧。"}
+],
+"refermer": [
+{"fr": "Referme la porte doucement, le bébé dort.", "zh": "轻轻把门带上，宝宝在睡觉。"},
+{"fr": "Elle referme le livre et réfléchit à la fin.", "zh": "她合上书，回味着结局。"},
+{"fr": "Il a refermé la fenêtre avant l'orage de nuit.", "zh": "夜里暴风雨来之前，他把窗户关严了。"}
+],
+"refuser": [
+{"fr": "Elle refuse toutes les invitations en cette période chargée.", "zh": "这段日子她推掉了所有邀约。"},
+{"fr": "Il a refusé la proposition sans même la lire.", "zh": "他连看都没看就拒绝了那个提议。"},
+{"fr": "Le chauffeur refuse de partir avant la fin de la grève.", "zh": "司机拒绝在罢工结束前出车。"}
+],
+"regretter": [
+{"fr": "Je regrette de ne pas avoir vu cette exposition.", "zh": "没看成那个展览，我很遗憾。"},
+{"fr": "Elle regrette sa ville natale depuis son déménagement.", "zh": "自从搬走，她一直想念老家。"},
+{"fr": "Nous regrettons le temps où les enfants étaient petits.", "zh": "我们怀念孩子们还小的那些日子。"}
+],
+"rein": [
+{"fr": "Il boit beaucoup d'eau pour protéger ses reins.", "zh": "他多喝水，好保护肾脏。"},
+{"fr": "Le médecin a détecté un petit calcul dans le rein gauche.", "zh": "医生发现他左肾里有一颗小结石。"},
+{"fr": "Après avoir porté ces cartons, elle a mal aux reins.", "zh": "搬了那些箱子后，她腰酸得不行。"}
+],
+"reine": [
+{"fr": "La reine a salué la foule depuis le balcon.", "zh": "女王在阳台上向人群挥手致意。"},
+{"fr": "Dans la ruche, la reine pond des milliers d'œufs.", "zh": "蜂王在蜂巢里产下成千上万颗卵。"},
+{"fr": "Elle a été élue reine du carnaval cette année.", "zh": "今年她被选为狂欢节皇后。"}
+]
+}

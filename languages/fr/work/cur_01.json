@@ -1,0 +1,1802 @@
+[
+{
+"word": "vieux",
+"ipa": "vjø",
+"pos": "adj",
+"rank": 301
+},
+{
+"word": "rappeler",
+"ipa": "ʁapəle",
+"pos": "v",
+"rank": 302
+},
+{
+"word": "lire",
+"ipa": "liʁ",
+"pos": "v",
+"rank": 303
+},
+{
+"word": "cas",
+"ipa": "ka",
+"pos": "n.m",
+"rank": 304
+},
+{
+"word": "mot",
+"ipa": "mo",
+"pos": "n.m",
+"rank": 305
+},
+{
+"word": "seulement",
+"ipa": "sœləmɑ̃",
+"pos": "adv",
+"rank": 306
+},
+{
+"word": "voici",
+"ipa": "vwasi",
+"pos": "prép",
+"rank": 307
+},
+{
+"word": "salut",
+"ipa": "saly",
+"pos": "n.m",
+"rank": 308
+},
+{
+"word": "monter",
+"ipa": "mɔ̃te",
+"pos": "v",
+"rank": 309
+},
+{
+"word": "désolé",
+"ipa": "dezole",
+"pos": "adj",
+"rank": 310
+},
+{
+"word": "police",
+"ipa": "polis",
+"pos": "n.f",
+"rank": 311
+},
+{
+"word": "quitter",
+"ipa": "kite",
+"pos": "v",
+"rank": 312
+},
+{
+"word": "suite",
+"ipa": "sɥit",
+"pos": "n.f",
+"rank": 313
+},
+{
+"word": "matin",
+"ipa": "matɛ̃",
+"pos": "n.m",
+"rank": 314
+},
+{
+"word": "emmener",
+"ipa": "ɑ̃məne",
+"pos": "v",
+"rank": 315
+},
+{
+"word": "toucher",
+"ipa": "tuʃe",
+"pos": "v",
+"rank": 316
+},
+{
+"word": "continuer",
+"ipa": "kɔ̃tinɥe",
+"pos": "v",
+"rank": 317
+},
+{
+"word": "gros",
+"ipa": "gʁo",
+"pos": "adj",
+"rank": 318
+},
+{
+"word": "enfin",
+"ipa": "ɑ̃fɛ̃",
+"pos": "adv",
+"rank": 319
+},
+{
+"word": "mari",
+"ipa": "maʁi",
+"pos": "n.m",
+"rank": 320
+},
+{
+"word": "là-bas",
+"ipa": "laba",
+"pos": "adv",
+"rank": 321
+},
+{
+"word": "revoir",
+"ipa": "ʁəvwaʁ",
+"pos": "n.m",
+"rank": 322
+},
+{
+"word": "importer",
+"ipa": "ɛ̃pɔʁte",
+"pos": "v",
+"rank": 323
+},
+{
+"word": "papa",
+"ipa": "papa",
+"pos": "n.m",
+"rank": 324
+},
+{
+"word": "puis",
+"ipa": "pɥi",
+"pos": "conj",
+"rank": 325
+},
+{
+"word": "train",
+"ipa": "tʁɛ̃",
+"pos": "n.m",
+"rank": 326
+},
+{
+"word": "manquer",
+"ipa": "mɑ̃ke",
+"pos": "v",
+"rank": 327
+},
+{
+"word": "raconter",
+"ipa": "ʁakɔ̃te",
+"pos": "v",
+"rank": 328
+},
+{
+"word": "ensemble",
+"ipa": "ɑ̃sɑ̃bl",
+"pos": "adv",
+"rank": 329
+},
+{
+"word": "film",
+"ipa": "film",
+"pos": "n.m",
+"rank": 330
+},
+{
+"word": "mauvais",
+"ipa": "movɛ",
+"pos": "adj",
+"rank": 331
+},
+{
+"word": "répondre",
+"ipa": "ʁepɔ̃dʁ",
+"pos": "v",
+"rank": 332
+},
+{
+"word": "garçon",
+"ipa": "gaʁsɔ̃",
+"pos": "n.m",
+"rank": 333
+},
+{
+"word": "corps",
+"ipa": "kɔʁ",
+"pos": "n.m",
+"rank": 334
+},
+{
+"word": "celui",
+"ipa": "səlɥi",
+"pos": "pron",
+"rank": 335
+},
+{
+"word": "autres",
+"ipa": "otʁ",
+"pos": "pron",
+"rank": 336
+},
+{
+"word": "heureux",
+"ipa": "øʁø",
+"pos": "adj",
+"rank": 337
+},
+{
+"word": "loin",
+"ipa": "lwɛ̃",
+"pos": "adv",
+"rank": 338
+},
+{
+"word": "sauver",
+"ipa": "sove",
+"pos": "v",
+"rank": 339
+},
+{
+"word": "chaque",
+"ipa": "ʃak",
+"pos": "adj",
+"rank": 340
+},
+{
+"word": "retourner",
+"ipa": "ʁətuʁne",
+"pos": "v",
+"rank": 341
+},
+{
+"word": "leurs",
+"ipa": "lœʁ",
+"pos": "adj",
+"rank": 342
+},
+{
+"word": "rencontrer",
+"ipa": "ʁɑ̃kɔ̃tʁe",
+"pos": "v",
+"rank": 343
+},
+{
+"word": "coeur",
+"ipa": "kœʁ",
+"pos": "n.m",
+"rank": 344
+},
+{
+"word": "voler",
+"ipa": "vole",
+"pos": "v",
+"rank": 345
+},
+{
+"word": "fermer",
+"ipa": "fɛʁme",
+"pos": "v",
+"rank": 346
+},
+{
+"word": "car",
+"ipa": "kaʁ",
+"pos": "conj",
+"rank": 347
+},
+{
+"word": "valoir",
+"ipa": "valwaʁ",
+"pos": "v",
+"rank": 348
+},
+{
+"word": "descendre",
+"ipa": "desɑ̃dʁ",
+"pos": "v",
+"rank": 349
+},
+{
+"word": "ok",
+"ipa": "oke",
+"pos": "adj",
+"rank": 350
+},
+{
+"word": "feu",
+"ipa": "fø",
+"pos": "n.m",
+"rank": 351
+},
+{
+"word": "docteur",
+"ipa": "dɔktœʁ",
+"pos": "n.m",
+"rank": 352
+},
+{
+"word": "suffire",
+"ipa": "syfiʁ",
+"pos": "v",
+"rank": 353
+},
+{
+"word": "façon",
+"ipa": "fasɔ̃",
+"pos": "n.f",
+"rank": 354
+},
+{
+"word": "nouveau",
+"ipa": "nuvo",
+"pos": "n.m",
+"rank": 355
+},
+{
+"word": "important",
+"ipa": "ɛ̃pɔʁtɑ̃",
+"pos": "adj",
+"rank": 356
+},
+{
+"word": "sembler",
+"ipa": "sɑ̃ble",
+"pos": "v",
+"rank": 357
+},
+{
+"word": "compter",
+"ipa": "kɔ̃te",
+"pos": "v",
+"rank": 358
+},
+{
+"word": "vers",
+"ipa": "vɛʁ",
+"pos": "prép",
+"rank": 359
+},
+{
+"word": "joli",
+"ipa": "ʒoli",
+"pos": "adj",
+"rank": 360
+},
+{
+"word": "point",
+"ipa": "pwɛ̃",
+"pos": "n.m",
+"rank": 361
+},
+{
+"word": "hier",
+"ipa": "jɛʁ",
+"pos": "adv",
+"rank": 362
+},
+{
+"word": "chien",
+"ipa": "ʃjɛ̃",
+"pos": "n.m",
+"rank": 363
+},
+{
+"word": "dont",
+"ipa": "dɔ̃",
+"pos": "pron",
+"rank": 364
+},
+{
+"word": "guerre",
+"ipa": "gɛʁ",
+"pos": "n.f",
+"rank": 365
+},
+{
+"word": "genre",
+"ipa": "ʒɑ̃ʁ",
+"pos": "n.m",
+"rank": 366
+},
+{
+"word": "merde",
+"ipa": "mɛʁd",
+"pos": "onoma",
+"rank": 367
+},
+{
+"word": "meilleur",
+"ipa": "mɛjœʁ",
+"pos": "adj",
+"rank": 368
+},
+{
+"word": "marier",
+"ipa": "maʁje",
+"pos": "v",
+"rank": 369
+},
+{
+"word": "arme",
+"ipa": "aʁm",
+"pos": "n.f",
+"rank": 370
+},
+{
+"word": "cause",
+"ipa": "koz",
+"pos": "n.f",
+"rank": 371
+},
+{
+"word": "endroit",
+"ipa": "ɑ̃dʁwa",
+"pos": "n.m",
+"rank": 372
+},
+{
+"word": "ordre",
+"ipa": "ɔʁdʁ",
+"pos": "n.m",
+"rank": 373
+},
+{
+"word": "poser",
+"ipa": "poze",
+"pos": "v",
+"rank": 374
+},
+{
+"word": "reste",
+"ipa": "ʁɛst",
+"pos": "n.m",
+"rank": 375
+},
+{
+"word": "pied",
+"ipa": "pje",
+"pos": "n.m",
+"rank": 376
+},
+{
+"word": "envie",
+"ipa": "ɑ̃vi",
+"pos": "n.f",
+"rank": 377
+},
+{
+"word": "fin",
+"ipa": "fɛ̃",
+"pos": "n",
+"rank": 378
+},
+{
+"word": "tiens",
+"ipa": "tjɛ̃",
+"pos": "onoma",
+"rank": 379
+},
+{
+"word": "inquiéter",
+"ipa": "ɛ̃kjete",
+"pos": "v",
+"rank": 380
+},
+{
+"word": "bouger",
+"ipa": "buʒe",
+"pos": "v",
+"rank": 381
+},
+{
+"word": "plutôt",
+"ipa": "plyto",
+"pos": "adv",
+"rank": 382
+},
+{
+"word": "apporter",
+"ipa": "apɔʁte",
+"pos": "v",
+"rank": 383
+},
+{
+"word": "pardon",
+"ipa": "paʁdɔ̃",
+"pos": "onoma",
+"rank": 384
+},
+{
+"word": "photo",
+"ipa": "foto",
+"pos": "n.f",
+"rank": 385
+},
+{
+"word": "plein",
+"ipa": "plɛ̃",
+"pos": "adj",
+"rank": 386
+},
+{
+"word": "devant",
+"ipa": "dəvɑ̃",
+"pos": "prép",
+"rank": 387
+},
+{
+"word": "décider",
+"ipa": "deside",
+"pos": "v",
+"rank": 388
+},
+{
+"word": "ainsi",
+"ipa": "ɛ̃si",
+"pos": "adv",
+"rank": 389
+},
+{
+"word": "droit",
+"ipa": "dʁwa",
+"pos": "n.m",
+"rank": 390
+},
+{
+"word": "aucune",
+"ipa": "okyn",
+"pos": "adj",
+"rank": 391
+},
+{
+"word": "vendre",
+"ipa": "vɑ̃dʁ",
+"pos": "v",
+"rank": 392
+},
+{
+"word": "école",
+"ipa": "ekɔl",
+"pos": "n.f",
+"rank": 393
+},
+{
+"word": "cher",
+"ipa": "ʃɛʁ",
+"pos": "adj",
+"rank": 394
+},
+{
+"word": "chef",
+"ipa": "ʃɛf",
+"pos": "n",
+"rank": 395
+},
+{
+"word": "tourner",
+"ipa": "tuʁne",
+"pos": "v",
+"rank": 396
+},
+{
+"word": "cacher",
+"ipa": "kaʃe",
+"pos": "v",
+"rank": 397
+},
+{
+"word": "boulot",
+"ipa": "bulo",
+"pos": "n.m",
+"rank": 398
+},
+{
+"word": "pays",
+"ipa": "pei",
+"pos": "n.m",
+"rank": 399
+},
+{
+"word": "ceux",
+"ipa": "sø",
+"pos": "pron",
+"rank": 400
+},
+{
+"word": "possible",
+"ipa": "posibl",
+"pos": "adj",
+"rank": 401
+},
+{
+"word": "expliquer",
+"ipa": "ɛksplike",
+"pos": "v",
+"rank": 402
+},
+{
+"word": "battre",
+"ipa": "batʁ",
+"pos": "v",
+"rank": 403
+},
+{
+"word": "peine",
+"ipa": "pɛn",
+"pos": "n.f",
+"rank": 404
+},
+{
+"word": "livre",
+"ipa": "livʁ",
+"pos": "n",
+"rank": 405
+},
+{
+"word": "agir",
+"ipa": "aʒiʁ",
+"pos": "v",
+"rank": 406
+},
+{
+"word": "imaginer",
+"ipa": "imaʒine",
+"pos": "v",
+"rank": 407
+},
+{
+"word": "tour",
+"ipa": "tuʁ",
+"pos": "n",
+"rank": 408
+},
+{
+"word": "adorer",
+"ipa": "adoʁe",
+"pos": "v",
+"rank": 409
+},
+{
+"word": "vérité",
+"ipa": "veʁite",
+"pos": "n.f",
+"rank": 410
+},
+{
+"word": "recevoir",
+"ipa": "ʁəsəvwaʁ",
+"pos": "v",
+"rank": 411
+},
+{
+"word": "gentil",
+"ipa": "ʒɑ̃ti",
+"pos": "adj",
+"rank": 412
+},
+{
+"word": "jeter",
+"ipa": "ʒəte",
+"pos": "v",
+"rank": 413
+},
+{
+"word": "bébé",
+"ipa": "bebe",
+"pos": "n.m",
+"rank": 414
+},
+{
+"word": "pleurer",
+"ipa": "pløʁe",
+"pos": "v",
+"rank": 415
+},
+{
+"word": "nouvelle",
+"ipa": "nuvɛl",
+"pos": "adj",
+"rank": 416
+},
+{
+"word": "partie",
+"ipa": "paʁti",
+"pos": "n.f",
+"rank": 417
+},
+{
+"word": "jeu",
+"ipa": "ʒø",
+"pos": "n.m",
+"rank": 418
+},
+{
+"word": "amener",
+"ipa": "aməne",
+"pos": "v",
+"rank": 419
+},
+{
+"word": "instant",
+"ipa": "ɛ̃stɑ̃",
+"pos": "n.m",
+"rank": 420
+},
+{
+"word": "parent",
+"ipa": "paʁɑ̃",
+"pos": "n.m",
+"rank": 421
+},
+{
+"word": "dur",
+"ipa": "dyʁ",
+"pos": "adj",
+"rank": 422
+},
+{
+"word": "service",
+"ipa": "sɛʁvis",
+"pos": "n.m",
+"rank": 423
+},
+{
+"word": "plaisir",
+"ipa": "pleziʁ",
+"pos": "n.m",
+"rank": 424
+},
+{
+"word": "promettre",
+"ipa": "pʁomɛtʁ",
+"pos": "v",
+"rank": 425
+},
+{
+"word": "mentir",
+"ipa": "mɑ̃tiʁ",
+"pos": "v",
+"rank": 426
+},
+{
+"word": "bientôt",
+"ipa": "bjɛ̃to",
+"pos": "adv",
+"rank": 427
+},
+{
+"word": "soeur",
+"ipa": "sœʁ",
+"pos": "n.f",
+"rank": 428
+},
+{
+"word": "lit",
+"ipa": "li",
+"pos": "n.m",
+"rank": 429
+},
+{
+"word": "tellement",
+"ipa": "tɛləmɑ̃",
+"pos": "adv",
+"rank": 430
+},
+{
+"word": "utiliser",
+"ipa": "ytilize",
+"pos": "v",
+"rank": 431
+},
+{
+"word": "coucher",
+"ipa": "kuʃe",
+"pos": "v",
+"rank": 432
+},
+{
+"word": "lieu",
+"ipa": "ljø",
+"pos": "n.m",
+"rank": 433
+},
+{
+"word": "presque",
+"ipa": "pʁɛsk",
+"pos": "adv",
+"rank": 434
+},
+{
+"word": "dehors",
+"ipa": "døɔʁ",
+"pos": "adv",
+"rank": 435
+},
+{
+"word": "préférer",
+"ipa": "pʁefeʁe",
+"pos": "v",
+"rank": 436
+},
+{
+"word": "content",
+"ipa": "kɔ̃tɑ̃",
+"pos": "adj",
+"rank": 437
+},
+{
+"word": "pauvre",
+"ipa": "povʁ",
+"pos": "adj",
+"rank": 438
+},
+{
+"word": "offrir",
+"ipa": "ofʁiʁ",
+"pos": "v",
+"rank": 439
+},
+{
+"word": "roi",
+"ipa": "ʁwa",
+"pos": "n.m",
+"rank": 440
+},
+{
+"word": "verre",
+"ipa": "vɛʁ",
+"pos": "n.m",
+"rank": 441
+},
+{
+"word": "réveiller",
+"ipa": "ʁeveje",
+"pos": "v",
+"rank": 442
+},
+{
+"word": "aucun",
+"ipa": "okœ̃",
+"pos": "adj",
+"rank": 443
+},
+{
+"word": "aide",
+"ipa": "ɛd",
+"pos": "n",
+"rank": 444
+},
+{
+"word": "d'abord",
+"ipa": "dabɔʁ",
+"pos": "adv",
+"rank": 445
+},
+{
+"word": "journée",
+"ipa": "ʒuʁne",
+"pos": "n.f",
+"rank": 446
+},
+{
+"word": "préparer",
+"ipa": "pʁepaʁe",
+"pos": "v",
+"rank": 447
+},
+{
+"word": "numéro",
+"ipa": "nymeʁo",
+"pos": "n.m",
+"rank": 448
+},
+{
+"word": "permettre",
+"ipa": "pɛʁmɛtʁ",
+"pos": "v",
+"rank": 449
+},
+{
+"word": "ramener",
+"ipa": "ʁaməne",
+"pos": "v",
+"rank": 450
+},
+{
+"word": "enlever",
+"ipa": "ɑ̃ləve",
+"pos": "v",
+"rank": 451
+},
+{
+"word": "chéri",
+"ipa": "ʃeʁi",
+"pos": "n",
+"rank": 452
+},
+{
+"word": "fort",
+"ipa": "fɔʁ",
+"pos": "adv",
+"rank": 453
+},
+{
+"word": "lâcher",
+"ipa": "laʃe",
+"pos": "v",
+"rank": 454
+},
+{
+"word": "choisir",
+"ipa": "ʃwaziʁ",
+"pos": "v",
+"rank": 455
+},
+{
+"word": "musique",
+"ipa": "myzik",
+"pos": "n.f",
+"rank": 456
+},
+{
+"word": "conduire",
+"ipa": "kɔ̃dɥiʁ",
+"pos": "v",
+"rank": 457
+},
+{
+"word": "faute",
+"ipa": "fot",
+"pos": "n.f",
+"rank": 458
+},
+{
+"word": "calmer",
+"ipa": "kalme",
+"pos": "v",
+"rank": 459
+},
+{
+"word": "mariage",
+"ipa": "maʁjaʒ",
+"pos": "n.m",
+"rank": 460
+},
+{
+"word": "bureau",
+"ipa": "byʁo",
+"pos": "n.m",
+"rank": 461
+},
+{
+"word": "route",
+"ipa": "ʁut",
+"pos": "n.f",
+"rank": 462
+},
+{
+"word": "chanter",
+"ipa": "ʃɑ̃te",
+"pos": "v",
+"rank": 463
+},
+{
+"word": "disparaître",
+"ipa": "dispaʁɛtʁ",
+"pos": "v",
+"rank": 464
+},
+{
+"word": "lever",
+"ipa": "ləve",
+"pos": "v",
+"rank": 465
+},
+{
+"word": "présenter",
+"ipa": "pʁezɑ̃te",
+"pos": "v",
+"rank": 466
+},
+{
+"word": "accepter",
+"ipa": "aksɛpte",
+"pos": "v",
+"rank": 467
+},
+{
+"word": "sinon",
+"ipa": "sinɔ̃",
+"pos": "conj",
+"rank": 468
+},
+{
+"word": "long",
+"ipa": "lɔ̃",
+"pos": "adj",
+"rank": 469
+},
+{
+"word": "café",
+"ipa": "kafe",
+"pos": "n.m",
+"rank": 470
+},
+{
+"word": "propre",
+"ipa": "pʁɔpʁ",
+"pos": "adj",
+"rank": 471
+},
+{
+"word": "confiance",
+"ipa": "kɔ̃fjɑ̃s",
+"pos": "n.f",
+"rank": 472
+},
+{
+"word": "cinq",
+"ipa": "sɛ̃k",
+"pos": "adj",
+"rank": 473
+},
+{
+"word": "bonsoir",
+"ipa": "bɔ̃swaʁ",
+"pos": "n.m",
+"rank": 474
+},
+{
+"word": "compte",
+"ipa": "kɔ̃t",
+"pos": "n.m",
+"rank": 475
+},
+{
+"word": "téléphone",
+"ipa": "telefɔn",
+"pos": "n.m",
+"rank": 476
+},
+{
+"word": "casser",
+"ipa": "kase",
+"pos": "v",
+"rank": 477
+},
+{
+"word": "prochain",
+"ipa": "pʁoʃɛ̃",
+"pos": "adj",
+"rank": 478
+},
+{
+"word": "frapper",
+"ipa": "fʁape",
+"pos": "v",
+"rank": 479
+},
+{
+"word": "facile",
+"ipa": "fasil",
+"pos": "adj",
+"rank": 480
+},
+{
+"word": "attention",
+"ipa": "atɑ̃sjɔ̃",
+"pos": "onoma",
+"rank": 481
+},
+{
+"word": "rêve",
+"ipa": "ʁɛv",
+"pos": "n.m",
+"rank": 482
+},
+{
+"word": "copain",
+"ipa": "kopɛ̃",
+"pos": "n.m",
+"rank": 483
+},
+{
+"word": "malade",
+"ipa": "malad",
+"pos": "adj",
+"rank": 484
+},
+{
+"word": "rue",
+"ipa": "ʁy",
+"pos": "n.f",
+"rank": 485
+},
+{
+"word": "lettre",
+"ipa": "lɛtʁ",
+"pos": "n.f",
+"rank": 486
+},
+{
+"word": "ignorer",
+"ipa": "iɲoʁe",
+"pos": "v",
+"rank": 487
+},
+{
+"word": "fête",
+"ipa": "fɛt",
+"pos": "n.f",
+"rank": 488
+},
+{
+"word": "couper",
+"ipa": "kupe",
+"pos": "v",
+"rank": 489
+},
+{
+"word": "esprit",
+"ipa": "ɛspʁi",
+"pos": "n.m",
+"rank": 490
+},
+{
+"word": "super",
+"ipa": "sypɛʁ",
+"pos": "adj",
+"rank": 491
+},
+{
+"word": "taire",
+"ipa": "tɛʁ",
+"pos": "v",
+"rank": 492
+},
+{
+"word": "seigneur",
+"ipa": "sɛɲœʁ",
+"pos": "n.m",
+"rank": 493
+},
+{
+"word": "flic",
+"ipa": "flik",
+"pos": "n.m",
+"rank": 494
+},
+{
+"word": "parfois",
+"ipa": "paʁfwa",
+"pos": "adv",
+"rank": 495
+},
+{
+"word": "capitaine",
+"ipa": "kapitɛn",
+"pos": "n.m",
+"rank": 496
+},
+{
+"word": "âge",
+"ipa": "aʒ",
+"pos": "n.m",
+"rank": 497
+},
+{
+"word": "autant",
+"ipa": "otɑ̃",
+"pos": "adv",
+"rank": 498
+},
+{
+"word": "force",
+"ipa": "fɔʁs",
+"pos": "n.f",
+"rank": 499
+},
+{
+"word": "pièce",
+"ipa": "pjɛs",
+"pos": "n.f",
+"rank": 500
+},
+{
+"word": "quatre",
+"ipa": "katʁ",
+"pos": "adj",
+"rank": 501
+},
+{
+"word": "cul",
+"ipa": "ky",
+"pos": "n.m",
+"rank": 502
+},
+{
+"word": "difficile",
+"ipa": "difisil",
+"pos": "adj",
+"rank": 503
+},
+{
+"word": "bras",
+"ipa": "bʁa",
+"pos": "n.m",
+"rank": 504
+},
+{
+"word": "tromper",
+"ipa": "tʁɔ̃pe",
+"pos": "v",
+"rank": 505
+},
+{
+"word": "surtout",
+"ipa": "syʁtu",
+"pos": "adv",
+"rank": 506
+},
+{
+"word": "ressembler",
+"ipa": "ʁəsɑ̃ble",
+"pos": "v",
+"rank": 507
+},
+{
+"word": "jurer",
+"ipa": "ʒyʁe",
+"pos": "v",
+"rank": 508
+},
+{
+"word": "plan",
+"ipa": "plɑ̃",
+"pos": "n.m",
+"rank": 509
+},
+{
+"word": "prison",
+"ipa": "pʁizɔ̃",
+"pos": "n.f",
+"rank": 510
+},
+{
+"word": "sale",
+"ipa": "sal",
+"pos": "adj",
+"rank": 511
+},
+{
+"word": "courir",
+"ipa": "kuʁiʁ",
+"pos": "v",
+"rank": 512
+},
+{
+"word": "état",
+"ipa": "eta",
+"pos": "n.m",
+"rank": 513
+},
+{
+"word": "carte",
+"ipa": "kaʁt",
+"pos": "n.f",
+"rank": 514
+},
+{
+"word": "remettre",
+"ipa": "ʁəmɛtʁ",
+"pos": "v",
+"rank": 515
+},
+{
+"word": "paix",
+"ipa": "pɛ",
+"pos": "n.f",
+"rank": 516
+},
+{
+"word": "noir",
+"ipa": "nwaʁ",
+"pos": "adj",
+"rank": 517
+},
+{
+"word": "exactement",
+"ipa": "ɛgzaktəmɑ̃",
+"pos": "adv",
+"rank": 518
+},
+{
+"word": "drôle",
+"ipa": "dʁol",
+"pos": "adj",
+"rank": 519
+},
+{
+"word": "refuser",
+"ipa": "ʁəfyze",
+"pos": "v",
+"rank": 520
+},
+{
+"word": "dès",
+"ipa": "dɛ",
+"pos": "prép",
+"rank": 521
+},
+{
+"word": "président",
+"ipa": "pʁezidɑ̃",
+"pos": "n.m",
+"rank": 522
+},
+{
+"word": "cours",
+"ipa": "kuʁ",
+"pos": "n",
+"rank": 523
+},
+{
+"word": "grave",
+"ipa": "gʁav",
+"pos": "adj",
+"rank": 524
+},
+{
+"word": "terminer",
+"ipa": "tɛʁmine",
+"pos": "v",
+"rank": 525
+},
+{
+"word": "ciel",
+"ipa": "sjɛl",
+"pos": "n.m",
+"rank": 526
+},
+{
+"word": "partout",
+"ipa": "paʁtu",
+"pos": "adv",
+"rank": 527
+},
+{
+"word": "âme",
+"ipa": "am",
+"pos": "n.f",
+"rank": 528
+},
+{
+"word": "patron",
+"ipa": "patʁɔ̃",
+"pos": "n.m",
+"rank": 529
+},
+{
+"word": "amuser",
+"ipa": "amyze",
+"pos": "v",
+"rank": 530
+},
+{
+"word": "celle",
+"ipa": "sɛl",
+"pos": "pron",
+"rank": 531
+},
+{
+"word": "visage",
+"ipa": "vizaʒ",
+"pos": "n.m",
+"rank": 532
+},
+{
+"word": "intéresser",
+"ipa": "ɛ̃teʁese",
+"pos": "v",
+"rank": 533
+},
+{
+"word": "reconnaître",
+"ipa": "ʁəkonɛtʁ",
+"pos": "v",
+"rank": 534
+},
+{
+"word": "médecin",
+"ipa": "mɛdsɛ̃",
+"pos": "n.m",
+"rank": 535
+},
+{
+"word": "rire",
+"ipa": "ʁiʁ",
+"pos": "v",
+"rank": 536
+},
+{
+"word": "rapport",
+"ipa": "ʁapɔʁ",
+"pos": "n.m",
+"rank": 537
+},
+{
+"word": "pardonner",
+"ipa": "paʁdone",
+"pos": "v",
+"rank": 538
+},
+{
+"word": "avis",
+"ipa": "avi",
+"pos": "n.m",
+"rank": 539
+},
+{
+"word": "embrasser",
+"ipa": "ɑ̃bʁase",
+"pos": "v",
+"rank": 540
+},
+{
+"word": "retour",
+"ipa": "ʁətuʁ",
+"pos": "n.m",
+"rank": 541
+},
+{
+"word": "simple",
+"ipa": "sɛ̃pl",
+"pos": "adj",
+"rank": 542
+},
+{
+"word": "danser",
+"ipa": "dɑ̃se",
+"pos": "v",
+"rank": 543
+},
+{
+"word": "exister",
+"ipa": "ɛgziste",
+"pos": "v",
+"rank": 544
+},
+{
+"word": "différent",
+"ipa": "difeʁɑ̃",
+"pos": "adj",
+"rank": 545
+},
+{
+"word": "souvent",
+"ipa": "suvɑ̃",
+"pos": "adv",
+"rank": 546
+},
+{
+"word": "lumière",
+"ipa": "lymjɛʁ",
+"pos": "n.f",
+"rank": 547
+},
+{
+"word": "génial",
+"ipa": "ʒenjal",
+"pos": "adj",
+"rank": 548
+},
+{
+"word": "libre",
+"ipa": "libʁ",
+"pos": "adj",
+"rank": 549
+},
+{
+"word": "dollar",
+"ipa": "dolaʁ",
+"pos": "n.m",
+"rank": 550
+},
+{
+"word": "près",
+"ipa": "pʁɛ",
+"pos": "prép",
+"rank": 551
+},
+{
+"word": "sûrement",
+"ipa": "syʁəmɑ̃",
+"pos": "adv",
+"rank": 552
+},
+{
+"word": "pareil",
+"ipa": "paʁɛj",
+"pos": "adj",
+"rank": 553
+},
+{
+"word": "d'autres",
+"ipa": "dotʁ",
+"pos": "adj",
+"rank": 554
+},
+{
+"word": "hôpital",
+"ipa": "opital",
+"pos": "n.m",
+"rank": 555
+},
+{
+"word": "ceci",
+"ipa": "səsi",
+"pos": "pron",
+"rank": 556
+},
+{
+"word": "réussir",
+"ipa": "ʁeysiʁ",
+"pos": "v",
+"rank": 557
+},
+{
+"word": "bizarre",
+"ipa": "bizaʁ",
+"pos": "adj",
+"rank": 558
+},
+{
+"word": "voix",
+"ipa": "vwa",
+"pos": "n.f",
+"rank": 559
+},
+{
+"word": "honneur",
+"ipa": "onœʁ",
+"pos": "n.m",
+"rank": 560
+},
+{
+"word": "protéger",
+"ipa": "pʁoteʒe",
+"pos": "v",
+"rank": 561
+},
+{
+"word": "tôt",
+"ipa": "to",
+"pos": "adv",
+"rank": 562
+},
+{
+"word": "équipe",
+"ipa": "ekip",
+"pos": "n.f",
+"rank": 563
+},
+{
+"word": "prévenir",
+"ipa": "pʁɛvəniʁ",
+"pos": "v",
+"rank": 564
+},
+{
+"word": "cheval",
+"ipa": "ʃəval",
+"pos": "n.m",
+"rank": 565
+},
+{
+"word": "ailleurs",
+"ipa": "ajœʁ",
+"pos": "adv",
+"rank": 566
+},
+{
+"word": "maître",
+"ipa": "mɛtʁ",
+"pos": "n.m",
+"rank": 567
+},
+{
+"word": "avion",
+"ipa": "avjɔ̃",
+"pos": "n.m",
+"rank": 568
+},
+{
+"word": "bout",
+"ipa": "bu",
+"pos": "n.m",
+"rank": 569
+},
+{
+"word": "habiter",
+"ipa": "abite",
+"pos": "v",
+"rank": 570
+},
+{
+"word": "faim",
+"ipa": "fɛ̃",
+"pos": "n.f",
+"rank": 571
+},
+{
+"word": "ensuite",
+"ipa": "ɑ̃sɥit",
+"pos": "adv",
+"rank": 572
+},
+{
+"word": "l'un",
+"ipa": "lœ̃",
+"pos": "pron",
+"rank": 573
+},
+{
+"word": "froid",
+"ipa": "fʁwa",
+"pos": "adj",
+"rank": 574
+},
+{
+"word": "normal",
+"ipa": "nɔʁmal",
+"pos": "adj",
+"rank": 575
+},
+{
+"word": "déranger",
+"ipa": "deʁɑ̃ʒe",
+"pos": "v",
+"rank": 576
+},
+{
+"word": "reprendre",
+"ipa": "ʁəpʁɑ̃dʁ",
+"pos": "v",
+"rank": 577
+},
+{
+"word": "oncle",
+"ipa": "ɔ̃kl",
+"pos": "n.m",
+"rank": 578
+},
+{
+"word": "prix",
+"ipa": "pʁi",
+"pos": "n.m",
+"rank": 579
+},
+{
+"word": "retard",
+"ipa": "ʁətaʁ",
+"pos": "n.m",
+"rank": 580
+},
+{
+"word": "détruire",
+"ipa": "detʁɥiʁ",
+"pos": "v",
+"rank": 581
+},
+{
+"word": "cadeau",
+"ipa": "kado",
+"pos": "n.m",
+"rank": 582
+},
+{
+"word": "pousser",
+"ipa": "puse",
+"pos": "v",
+"rank": 583
+},
+{
+"word": "face",
+"ipa": "fas",
+"pos": "n.f",
+"rank": 584
+},
+{
+"word": "chemin",
+"ipa": "ʃəmɛ̃",
+"pos": "n.m",
+"rank": 585
+},
+{
+"word": "gueule",
+"ipa": "gœl",
+"pos": "n.f",
+"rank": 586
+},
+{
+"word": "vivant",
+"ipa": "vivɑ̃",
+"pos": "adj",
+"rank": 587
+},
+{
+"word": "bateau",
+"ipa": "bato",
+"pos": "n.m",
+"rank": 588
+},
+{
+"word": "général",
+"ipa": "ʒeneʁal",
+"pos": "n.m",
+"rank": 589
+},
+{
+"word": "million",
+"ipa": "miljɔ̃",
+"pos": "n.m",
+"rank": 590
+},
+{
+"word": "sac",
+"ipa": "sak",
+"pos": "n.m",
+"rank": 591
+},
+{
+"word": "impossible",
+"ipa": "ɛ̃posibl",
+"pos": "adj",
+"rank": 592
+},
+{
+"word": "seconde",
+"ipa": "səgɔ̃d",
+"pos": "n.f",
+"rank": 593
+},
+{
+"word": "découvrir",
+"ipa": "dekuvʁiʁ",
+"pos": "v",
+"rank": 594
+},
+{
+"word": "erreur",
+"ipa": "ɛʁœʁ",
+"pos": "n.f",
+"rank": 595
+},
+{
+"word": "soleil",
+"ipa": "solɛj",
+"pos": "n.m",
+"rank": 596
+},
+{
+"word": "voyage",
+"ipa": "vwajaʒ",
+"pos": "n.m",
+"rank": 597
+},
+{
+"word": "rêver",
+"ipa": "ʁeve",
+"pos": "v",
+"rank": 598
+},
+{
+"word": "sauter",
+"ipa": "sote",
+"pos": "v",
+"rank": 599
+},
+{
+"word": "détester",
+"ipa": "detɛste",
+"pos": "v",
+"rank": 600
+}
+]

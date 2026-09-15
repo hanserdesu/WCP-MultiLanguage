@@ -1,0 +1,1207 @@
+{
+  "level": "L1",
+  "name": "粤语基础核心词汇",
+  "description": "涵盖人称代词、核心高频动词、特征虚词助词、疑问词、核心形容词及基础时间日常表达",
+  "words": [
+    {
+      "word": "我",
+      "jyutping": "ngo5",
+      "pos": "代",
+      "meaning": "我",
+      "sentences": [
+        {"sentence": "我係廣東人。（ngo5 hai6 gwong2 dung1 jan4.）", "translate": "我是广东人。"},
+        {"sentence": "我今日好得閒。（ngo5 gam1 jat6 hou2 dak1 haan4.）", "translate": "我今天很有空。"}
+      ]
+    },
+    {
+      "word": "你",
+      "jyutping": "nei5",
+      "pos": "代",
+      "meaning": "你",
+      "sentences": [
+        {"sentence": "你去邊度啊？（nei5 heoi3 bin1 dou6 aa3?）", "translate": "你去哪里啊？"},
+        {"sentence": "你食咗飯未？（nei5 sik6 zo2 faan6 mei6?）", "translate": "你吃饭了吗？"}
+      ]
+    },
+    {
+      "word": "佢",
+      "jyutping": "keoi5",
+      "pos": "代",
+      "meaning": "他，她，它",
+      "sentences": [
+        {"sentence": "佢係我嘅好朋友。（keoi5 hai6 ngo5 ge3 hou2 pang4 jau5.）", "translate": "他是我的好朋友。"},
+        {"sentence": "佢琴日冇嚟返工。（keoi5 kam4 jat6 mou5 lai4 faan1 gung1.）", "translate": "他昨天没有来上班。"}
+      ]
+    },
+    {
+      "word": "我哋",
+      "jyutping": "ngo5 dei6",
+      "pos": "代",
+      "meaning": "我们",
+      "sentences": [
+        {"sentence": "我哋一齊去飲茶啦。（ngo5 dei6 jat1 cai4 heoi3 jam2 caa4 laa1.）", "translate": "我们一起去喝早茶吧。"},
+        {"sentence": "我哋聽日再傾。（ngo5 dei6 ting1 jat6 zoi3 king1.）", "translate": "我们明天再聊。"}
+      ]
+    },
+    {
+      "word": "你哋",
+      "jyutping": "nei5 dei6",
+      "pos": "代",
+      "meaning": "你们",
+      "sentences": [
+        {"sentence": "你哋慢慢行啦。（nei5 dei6 maan6 maan6 haang4 laa1.）", "translate": "你们慢慢走。"},
+        {"sentence": "你哋想食咩啊？（nei5 dei6 soeng2 sik6 me1 aa3?）", "translate": "你们想吃什么呀？"}
+      ]
+    },
+    {
+      "word": "佢哋",
+      "jyutping": "keoi5 dei6",
+      "pos": "代",
+      "meaning": "他们，她们，它们",
+      "sentences": [
+        {"sentence": "佢哋啱啱出咗去。（keoi5 dei6 ngaam1 ngaam1 ceot1 zo2 heoi3.）", "translate": "他们刚刚出去了。"},
+        {"sentence": "佢哋去咗睇戲。（keoi5 dei6 heoi3 zo2 tai2 hei3.）", "translate": "他们去看电影了。"}
+      ]
+    },
+    {
+      "word": "大家",
+      "jyutping": "daai6 gaa1",
+      "pos": "代",
+      "meaning": "大家，各位",
+      "sentences": [
+        {"sentence": "大家早晨！（daai6 gaa1 zou2 san4!）", "translate": "大家早上好！"},
+        {"sentence": "大家一齊努力啦。（daai6 gaa1 jat1 cai4 nou5 lik6 laa1.）", "translate": "大家一起努力吧。"}
+      ]
+    },
+    {
+      "word": "人哋",
+      "jyutping": "jan4 dei6",
+      "pos": "代",
+      "meaning": "人家，别人",
+      "sentences": [
+        {"sentence": "人哋都話唔去咯，你就咪逼人啦。（jan4 dei6 dou1 waa6 m4 heoi3 lok3, nei5 zau6 mai5 bik1 jan4 laa1.）", "translate": "人家都说不去了，你就别逼人家了。"},
+        {"sentence": "唔好亂講人哋嘅嘢。（m4 hou2 lyun6 gong2 jan4 dei6 ge3 je5.）", "translate": "不要胡乱议论别人的事情。"}
+      ]
+    },
+    {
+      "word": "自己",
+      "jyutping": "zi6 gei2",
+      "pos": "代",
+      "meaning": "自己",
+      "sentences": [
+        {"sentence": "自己嘅事自己搞掂。（zi6 gei2 ge3 si6 zi6 gei2 gaau2 dim6.）", "translate": "自己的事情自己搞定。"},
+        {"sentence": "你要好好照顧自己。（nei5 jiu3 hou2 hou2 ziu3 gu3 zi6 gei2.）", "translate": "你要好好照顾自己。"}
+      ]
+    },
+    {
+      "word": "呢個",
+      "jyutping": "ni1 go3",
+      "pos": "代",
+      "meaning": "这个",
+      "sentences": [
+        {"sentence": "呢個麵包好好食。（ni1 go3 min6 baau1 hou2 hou2 sik6.）", "translate": "这个面包很好吃。"},
+        {"sentence": "呢個多少錢啊？（ni1 go3 do1 siu2 cin2 aa3?）", "translate": "这个多少钱啊？"}
+      ]
+    },
+    {
+      "word": "嗰個",
+      "jyutping": "go2 go3",
+      "pos": "代",
+      "meaning": "那个",
+      "sentences": [
+        {"sentence": "嗰個人係邊個嚟㗎？（go2 go3 jan4 hai6 bin1 go3 lai4 gaa3?）", "translate": "那个人是谁呀？"},
+        {"sentence": "嗰個手袋好靚。（go2 go3 sau2 doi2 hou2 leng3.）", "translate": "那个手提包很漂亮。"}
+      ]
+    },
+    {
+      "word": "邊個",
+      "jyutping": "bin1 go3",
+      "pos": "代",
+      "meaning": "谁，哪一个",
+      "sentences": [
+        {"sentence": "邊個打電話畀你啊？（bin1 go3 daa2 din6 waa2 bei2 nei5 aa3?）", "translate": "谁打电话给你呀？"},
+        {"sentence": "邊個想食冰淇淋？（bin1 go3 soeng2 sik6 bing1 kei4 lam4?）", "translate": "谁想吃冰淇淋？"}
+      ]
+    },
+    {
+      "word": "呢度",
+      "jyutping": "ni1 dou6",
+      "pos": "代",
+      "meaning": "这里，这儿",
+      "sentences": [
+        {"sentence": "呢度嘅風景好靚。（ni1 dou6 ge3 fung1 ging2 hou2 leng3.）", "translate": "这里的风景很美。"},
+        {"sentence": "你喺呢度等我一陣。（nei5 hai2 ni1 dou6 dang2 ngo5 jat1 zan6.）", "translate": "你在这里等我一会儿。"}
+      ]
+    },
+    {
+      "word": "嗰度",
+      "jyutping": "go2 dou6",
+      "pos": "代",
+      "meaning": "那里，那儿",
+      "sentences": [
+        {"sentence": "嗰度好多人排隊。（go2 dou6 hou2 do1 jan4 paai4 deoi2.）", "translate": "那里很多人排队。"},
+        {"sentence": "我聽日要去嗰度開會。（ngo5 ting1 jat6 jiu3 heoi3 go2 dou6 hoi1 wui2.）", "translate": "我明天要去那里开会。"}
+      ]
+    },
+    {
+      "word": "邊度",
+      "jyutping": "bin1 dou6",
+      "pos": "代",
+      "meaning": "哪里，哪儿",
+      "sentences": [
+        {"sentence": "洗手間喺邊度啊？（sai2 sau2 gaan1 hai2 bin1 dou6 aa3?）", "translate": "洗手间在哪里呀？"},
+        {"sentence": "你住喺邊度？（nei5 zyu6 hai2 bin1 dou6?）", "translate": "你住在哪里？"}
+      ]
+    },
+    {
+      "word": "點樣",
+      "jyutping": "dim2 joeng2",
+      "pos": "副/代",
+      "meaning": "怎样，如何",
+      "sentences": [
+        {"sentence": "呢件事點樣搞啊？（ni1 gin6 si6 dim2 joeng2 gaau2 aa3?）", "translate": "这件事该怎么处理啊？"},
+        {"sentence": "你覺得點樣？（nei5 gok3 dak1 dim2 joeng2?）", "translate": "你觉得怎么样？"}
+      ]
+    },
+    {
+      "word": "點解",
+      "jyutping": "dim2 gaai2",
+      "pos": "副",
+      "meaning": "为什么",
+      "sentences": [
+        {"sentence": "點解你今日咁遲返嚟？（dim2 gaai2 nei5 gam1 jat6 gam3 ci4 faan1 lai4?）", "translate": "为什么你今天这么晚回来？"},
+        {"sentence": "點解會搞成噉㗎？（dim2 gaai2 wui5 gaau2 sing4 gam2 gaa3?）", "translate": "为什么会搞成这样呢？"}
+      ]
+    },
+    {
+      "word": "幾多",
+      "jyutping": "gei2 do1",
+      "pos": "数/代",
+      "meaning": "多少",
+      "sentences": [
+        {"sentence": "呢杯奶茶幾多錢？（ni1 bui1 naai5 caa4 gei2 do1 cin2?）", "translate": "这杯奶茶多少钱？"},
+        {"sentence": "你今年幾多歲啊？（nei5 gam1 nin4 gei2 do1 seoi3 aa3?）", "translate": "你今年多大年纪呀？"}
+      ]
+    },
+    {
+      "word": "幾時",
+      "jyutping": "gei2 si4",
+      "pos": "名/代",
+      "meaning": "什么时候，何时",
+      "sentences": [
+        {"sentence": "你幾時放假啊？（nei5 gei2 si4 fong3 gaa3 aa3?）", "translate": "你什么时候放假呀？"},
+        {"sentence": "我哋幾時出發？（ngo5 dei6 gei2 si4 ceot1 faat3?）", "translate": "我们什么时候出发？"}
+      ]
+    },
+    {
+      "word": "咩",
+      "jyutping": "me1",
+      "pos": "代",
+      "meaning": "什么",
+      "sentences": [
+        {"sentence": "你睇緊咩書啊？（nei5 tai2 gan2 me1 syu1 aa3?）", "translate": "你在看什么书呀？"},
+        {"sentence": "有咩事打電話畀我啦。（jau5 me1 si6 daa2 din6 waa2 bei2 ngo5 laa1.）", "translate": "有什么事打电话给我吧。"}
+      ]
+    },
+    {
+      "word": "嘢",
+      "jyutping": "je5",
+      "pos": "名",
+      "meaning": "东西，事物",
+      "sentences": [
+        {"sentence": "唔好亂買嘢啦。（m4 hou2 lyun6 maai5 je5 laa1.）", "translate": "别乱买东西啦。"},
+        {"sentence": "有冇嘢食啊？我好肚餓。（jau5 mou5 je5 sik6 aa3? ngo5 hou2 tou5 ngo6.）", "translate": "有东西吃吗？我很饿。"}
+      ]
+    },
+    {
+      "word": "係",
+      "jyutping": "hai6",
+      "pos": "动",
+      "meaning": "是",
+      "sentences": [
+        {"sentence": "今日係星期日。（gam1 jat6 hai6 sing1 kei4 jat6.）", "translate": "今天是星期日。"},
+        {"sentence": "係啊，冇錯！（hai6 aa3, mou5 co3!）", "translate": "是的，没错！"}
+      ]
+    },
+    {
+      "word": "唔係",
+      "jyutping": "m4 hai6",
+      "pos": "动",
+      "meaning": "不是",
+      "sentences": [
+        {"sentence": "呢部手機唔係我嘅。（ni1 bou6 sau2 gei1 m4 hai6 ngo5 ge3.）", "translate": "这部手机不是我的。"},
+        {"sentence": "唔係噉樣做㗎。（m4 hai6 gam2 joeng2 zou6 gaa3.）", "translate": "不是这样做事的。"}
+      ]
+    },
+    {
+      "word": "有",
+      "jyutping": "jau5",
+      "pos": "动",
+      "meaning": "有，存在",
+      "sentences": [
+        {"sentence": "屋企仲有冇水飲？（uk1 kei2 zung6 jau5 mou5 seoi2 jam2?）", "translate": "家里还有水喝吗？"},
+        {"sentence": "我有一張電影飛。（ngo5 jau5 jat1 zoeng1 din6 jing2 fei1.）", "translate": "我有一张电影票。"}
+      ]
+    },
+    {
+      "word": "冇",
+      "jyutping": "mou5",
+      "pos": "动",
+      "meaning": "没有，无",
+      "sentences": [
+        {"sentence": "我今日冇帶鎖匙。（ngo5 gam1 jat6 mou5 daai3 so2 si4.）", "translate": "我今天没带钥匙。"},
+        {"sentence": "呢度冇人。（ni1 dou6 mou5 jan4.）", "translate": "这里没有人。"}
+      ]
+    },
+    {
+      "word": "喺",
+      "jyutping": "hai2",
+      "pos": "动/介",
+      "meaning": "在（某处），位于",
+      "sentences": [
+        {"sentence": "你喺邊度啊？（nei5 hai2 bin1 dou6 aa3?）", "translate": "你在哪里呀？"},
+        {"sentence": "佢喺圖書館睇書。（keoi5 hai2 tou4 syu1 gun2 tai2 syu1.）", "translate": "他在图书馆看书。"}
+      ]
+    },
+    {
+      "word": "食",
+      "jyutping": "sik6",
+      "pos": "动",
+      "meaning": "吃",
+      "sentences": [
+        {"sentence": "快啲食啦，唔好放凍。（faai3 di1 sik6 laa1, m4 hou2 fong3 dung3.）", "translate": "快点吃吧，别放凉了。"},
+        {"sentence": "你鍾意食咩點心？（nei5 zung1 ji3 sik6 me1 dim2 sam1?）", "translate": "你喜欢吃什么点心？"}
+      ]
+    },
+    {
+      "word": "飲",
+      "jyutping": "jam2",
+      "pos": "动",
+      "meaning": "喝，饮",
+      "sentences": [
+        {"sentence": "天氣熱，飲多啲水啦。（tin1 hei3 jit6, jam2 do1 di1 seoi2 laa1.）", "translate": "天气热，多喝点水吧。"},
+        {"sentence": "得閒一齊去飲茶！（dak1 haan4 jat1 cai4 heoi3 jam2 caa4!）", "translate": "有空一起去喝茶！"}
+      ]
+    },
+    {
+      "word": "睇",
+      "jyutping": "tai2",
+      "pos": "动",
+      "meaning": "看，瞧，观察",
+      "sentences": [
+        {"sentence": "你睇下嗰度！（nei5 tai2 haa5 go2 dou6!）", "translate": "你看一下那里！"},
+        {"sentence": "我好鍾意睇港產片。（ngo5 hou2 zung1 ji3 tai2 gong2 caan2 pin2.）", "translate": "我很喜欢看香港电影。"}
+      ]
+    },
+    {
+      "word": "聽",
+      "jyutping": "teng1",
+      "pos": "动",
+      "meaning": "听，聆听",
+      "sentences": [
+        {"sentence": "你聽唔聽到我講嘢？（nei5 teng1 m4 teng1 dou2 ngo5 gong2 je5?）", "translate": "你听得清我说话吗？"},
+        {"sentence": "我喺度聽緊廣東歌。（ngo5 hai2 dou6 teng1 gan2 gwong2 dung1 go1.）", "translate": "我在这边听粤语歌。"}
+      ]
+    },
+    {
+      "word": "講",
+      "jyutping": "gong2",
+      "pos": "动",
+      "meaning": "说，讲",
+      "sentences": [
+        {"sentence": "唔該你講慢少少。（m4 goi1 nei5 gong2 maan6 siu2 siu2.）", "translate": "麻烦你讲慢一点点。"},
+        {"sentence": "佢好識講嘢。（keoi5 hou2 sik1 gong2 je5.）", "translate": "他很会说话。"}
+      ]
+    },
+    {
+      "word": "傾偈",
+      "jyutping": "king1 gai2",
+      "pos": "动",
+      "meaning": "聊天，谈天",
+      "sentences": [
+        {"sentence": "得閒出嚟傾下偈啦。（dak1 haan4 ceot1 lai4 king1 haa5 gai2 laa1.）", "translate": "有空出来聊聊天吧。"},
+        {"sentence": "佢哋兩個喺咖啡廳傾偈。（keoi5 dei6 loeng5 go3 hai2 gaa3 fe1 teng1 king1 gai2.）", "translate": "他们两个在咖啡厅聊天。"}
+      ]
+    },
+    {
+      "word": "行",
+      "jyutping": "haang4",
+      "pos": "动",
+      "meaning": "走，步行",
+      "sentences": [
+        {"sentence": "我每日都行路返工。（ngo5 mui5 jat6 dou1 haang4 lou6 faan1 gung1.）", "translate": "我每天都走路去上班。"},
+        {"sentence": "行快兩步啦！（haang4 faai3 loeng5 bou6 laa1!）", "translate": "走快两步吧！"}
+      ]
+    },
+    {
+      "word": "行街",
+      "jyutping": "haang4 gaai1",
+      "pos": "动",
+      "meaning": "逛街，散步购物",
+      "sentences": [
+        {"sentence": "星期六我哋一齊去行街啦。（sing1 kei4 luk6 ngo5 dei6 jat1 cai4 heoi3 haang4 gaai1 laa1.）", "translate": "星期六我们一起去逛街吧。"},
+        {"sentence": "行街行到腳都軟晒。（haang4 gaai1 haang4 dou3 goek3 dou1 jyun5 saai3.）", "translate": "逛街逛得腿都软了。"}
+      ]
+    },
+    {
+      "word": "跑",
+      "jyutping": "paau2",
+      "pos": "动",
+      "meaning": "跑，奔跑",
+      "sentences": [
+        {"sentence": "佢跑得好快。（keoi5 paau2 dak1 hou2 faai3.）", "translate": "他跑得很快。"},
+        {"sentence": "每日朝早我都要跑半個鐘。（mui5 jat6 ziu1 zou2 ngo5 dou1 jiu3 paau2 bun3 go3 zung1.）", "translate": "每天早晨我都要跑步半小时。"}
+      ]
+    },
+    {
+      "word": "買",
+      "jyutping": "maai5",
+      "pos": "动",
+      "meaning": "买，购买",
+      "sentences": [
+        {"sentence": "我想買包紙巾。（ngo5 soeng2 maai5 baau1 zi2 gan1.）", "translate": "我想买包纸巾。"},
+        {"sentence": "呢部電腦喺邊度買㗎？（ni1 bou6 din6 nou5 hai2 bin1 dou6 maai5 gaa3?）", "translate": "这部电脑在哪里买的？"}
+      ]
+    },
+    {
+      "word": "賣",
+      "jyutping": "maai6",
+      "pos": "动",
+      "meaning": "卖，出售",
+      "sentences": [
+        {"sentence": "呢間舖頭賣嘅嘢好抵。（ni1 gaan1 pou3 tau4 maai6 ge3 je5 hou2 dai2.）", "translate": "这家店铺卖的东西很划算。"},
+        {"sentence": "西瓜點樣賣啊？（sai1 gwaa1 dim2 joeng2 maai6 aa3?）", "translate": "西瓜怎么卖呀？"}
+      ]
+    },
+    {
+      "word": "搵",
+      "jyutping": "wan2",
+      "pos": "动",
+      "meaning": "找，寻找，挣（钱）",
+      "sentences": [
+        {"sentence": "你喺度搵緊咩啊？（nei5 hai2 dou6 wan2 gan2 me1 aa3?）", "translate": "你在找什么呢？"},
+        {"sentence": "努力返工搵錢養家。（nou5 lik6 faan1 gung1 wan2 cin2 joeng5 gaa1.）", "translate": "努力上班挣钱养家。"}
+      ]
+    },
+    {
+      "word": "畀",
+      "jyutping": "bei2",
+      "pos": "动/介",
+      "meaning": "给，被，让",
+      "sentences": [
+        {"sentence": "唔該畀杯熱水我。（m4 goi1 bei2 bui1 jit6 seoi2 ngo5.）", "translate": "麻烦给我一杯热水。"},
+        {"sentence": "呢件事畀佢知道咗就麻煩。（ni1 gin6 si6 bei2 keoi5 zi1 dou3 zo2 zau6 maa4 faan4.）", "translate": "这件事被他知道了就麻烦了。"}
+      ]
+    },
+    {
+      "word": "攞",
+      "jyutping": "lo2",
+      "pos": "动",
+      "meaning": "拿，取",
+      "sentences": [
+        {"sentence": "幫我攞張紙巾過嚟。（bong1 ngo5 lo2 zoeng1 zi2 gan1 gwo3 lai4.）", "translate": "帮我拿张纸巾过来。"},
+        {"sentence": "我去快遞櫃攞件。（ngo5 heoi3 faai3 dai6 gwai6 lo2 gin6.）", "translate": "我去快递柜拿快递。"}
+      ]
+    },
+    {
+      "word": "整",
+      "jyutping": "zing2",
+      "pos": "动",
+      "meaning": "做，弄，修，烹调",
+      "sentences": [
+        {"sentence": "今晚我整幾味好餸畀你食。（gam1 maan5 ngo5 zing2 gei2 mei6 hou2 sung3 bei2 nei5 sik6.）", "translate": "今晚我做几样好菜给你吃。"},
+        {"sentence": "部電話壞咗，要攞去整。（bou6 din6 waa2 waai6 zo2, jiu3 lo2 heoi3 zing2.）", "translate": "手机坏了，要拿去修。"}
+      ]
+    },
+    {
+      "word": "搞",
+      "jyutping": "gaau2",
+      "pos": "动",
+      "meaning": "搞，弄，办",
+      "sentences": [
+        {"sentence": "呢個活動搞得好成功。（ni1 go3 wut6 dung6 gaau2 dak1 hou2 sing4 gung1.）", "translate": "这个活动办得很成功。"},
+        {"sentence": "你唔好喺度搞搞震啦！（nei5 m4 hou2 hai2 dou6 gaau2 gaau2 zan3 laa1!）", "translate": "你别在这里捣乱啦！"}
+      ]
+    },
+    {
+      "word": "搞掂",
+      "jyutping": "gaau2 dim6",
+      "pos": "动",
+      "meaning": "办妥，弄好，搞定",
+      "sentences": [
+        {"sentence": "份報告我已經搞掂咗。（fan6 baau3 gou3 ngo5 ji5 ging1 gaau2 dim6 zo2.）", "translate": "那份报告我已经搞定了。"},
+        {"sentence": "放心啦，一陣就搞掂！（fong3 sam1 laa1, jat1 zan6 zau6 gaau2 dim6!）", "translate": "放心吧，一会儿就办妥！"}
+      ]
+    },
+    {
+      "word": "返工",
+      "jyutping": "faan1 gung1",
+      "pos": "动",
+      "meaning": "上班",
+      "sentences": [
+        {"sentence": "聽日星期一，又要返工。（ting1 jat6 sing1 kei4 jat1, jau6 jiu3 faan1 gung1.）", "translate": "明天星期一，又要上班了。"},
+        {"sentence": "你平時幾點返工啊？（nei5 ping4 si4 gei2 dim2 faan1 gung1 aa3?）", "translate": "你平时几点上班呀？"}
+      ]
+    },
+    {
+      "word": "放工",
+      "jyutping": "fong3 gung1",
+      "pos": "动",
+      "meaning": "下班",
+      "sentences": [
+        {"sentence": "放工一齊去食飯啦！（fong3 gung1 jat1 cai4 heoi3 sik6 faan6 laa1!）", "translate": "下班一起去吃饭吧！"},
+        {"sentence": "佢今日好夜先放工。（keoi5 gam1 jat6 hou2 je6 sin1 fong3 gung1.）", "translate": "他今天很晚才下班。"}
+      ]
+    },
+    {
+      "word": "返屋企",
+      "jyutping": "faan1 uk1 kei2",
+      "pos": "动",
+      "meaning": "回家",
+      "sentences": [
+        {"sentence": "時間唔早啦，我都要返屋企咯。（si4 gaan3 m4 zou2 laa1, ngo5 dou1 jiu3 faan1 uk1 kei2 lok3.）", "translate": "时间不早了，我也得回家了。"},
+        {"sentence": "你幾時返屋企食飯？（nei5 gei2 si4 faan1 uk1 kei2 sik6 faan6?）", "translate": "你什么时候回家吃饭？"}
+      ]
+    },
+    {
+      "word": "返學",
+      "jyutping": "faan1 hok6",
+      "pos": "动",
+      "meaning": "上学",
+      "sentences": [
+        {"sentence": "小朋友朝早七點半返學。（siu2 pang4 jau5 ziu1 zou2 cat1 dim2 bun3 faan1 hok6.）", "translate": "小朋友早晨七点半上学。"},
+        {"sentence": "今日學校放假，唔使返學。（gam1 jat6 hok6 haau6 fong3 gaa3, m4 sai2 faan1 hok6.）", "translate": "今天学校放假，不用上学。"}
+      ]
+    },
+    {
+      "word": "放學",
+      "jyutping": "fong3 hok6",
+      "pos": "动",
+      "meaning": "放学",
+      "sentences": [
+        {"sentence": "放學之後記住早啲返屋企。（fong3 hok6 zi1 hau6 gei3 zyu6 zou2 di1 faan1 uk1 kei2.）", "translate": "放学之后记得早点回家。"},
+        {"sentence": "學校門口好多家長等放學。（hok6 haau6 mun4 hau2 hou2 do1 gaa1 zoeng2 dang2 fong3 hok6.）", "translate": "学校门口很多家长等放学。"}
+      ]
+    },
+    {
+      "word": "瞓覺",
+      "jyutping": "fan3 gaau3",
+      "pos": "动",
+      "meaning": "睡觉",
+      "sentences": [
+        {"sentence": "好眼瞓，我想瞓覺。（hou2 ngaan5 fan3, ngo5 soeng2 fan3 gaau3.）", "translate": "很困，我想睡觉。"},
+        {"sentence": "早啲瞓覺對身體好。（zou2 di1 fan3 gaau3 deoi3 san1 tai2 hou2.）", "translate": "早点睡觉对身体好。"}
+      ]
+    },
+    {
+      "word": "起身",
+      "jyutping": "hei2 san1",
+      "pos": "动",
+      "meaning": "起床，起立",
+      "sentences": [
+        {"sentence": "快啲起身啦，返學就嚟遲到喇！（faai3 di1 hei2 san1 laa1, faan1 hok6 zau6 lai4 ci4 dou3 laa3!）", "translate": "快点起床啦，上学快迟到了！"},
+        {"sentence": "我今日朝早六點就起咗身。（ngo5 gam1 jat6 ziu1 zou2 luk6 dim2 zau6 hei2 zo2 san1.）", "translate": "我今天早晨六点就起床了。"}
+      ]
+    },
+    {
+      "word": "沖涼",
+      "jyutping": "cung1 loeng4",
+      "pos": "动",
+      "meaning": "洗澡，沐浴",
+      "sentences": [
+        {"sentence": "出咗一身汗，快啲去沖涼。（ceot1 zo2 jat1 san1 hon6, faai3 di1 heoi3 cung1 loeng4.）", "translate": "出了一身汗，快去洗澡。"},
+        {"sentence": "沖完涼好舒服。（cung1 jyun4 loeng4 hou2 syu1 fuk6.）", "translate": "洗完澡很舒服。"}
+      ]
+    },
+    {
+      "word": "搭車",
+      "jyutping": "daap3 ce1",
+      "pos": "动",
+      "meaning": "坐车，乘车",
+      "sentences": [
+        {"sentence": "我平時搭地鐵返工。（ngo5 ping4 si4 daap3 dei6 tit3 faan1 gung1.）", "translate": "我平时坐地铁上班。"},
+        {"sentence": "搭巴士定係搭的士啊？（daap3 baa1 si2 ding6 hai6 daap3 dik1 si2 aa3?）", "translate": "坐公交车还是打出租车？"}
+      ]
+    },
+    {
+      "word": "落車",
+      "jyutping": "lok6 ce1",
+      "pos": "动",
+      "meaning": "下车",
+      "sentences": [
+        {"sentence": "下一站我就要落車喇。（haa6 jat1 zaam6 ngo5 zau6 jiu3 lok6 ce1 laa3.）", "translate": "下一站我就要下车了。"},
+        {"sentence": "司機，有落唔該！（si1 gei1, jau5 lok6 m4 goi1!）", "translate": "司机，有下的麻烦停一下！"}
+      ]
+    },
+    {
+      "word": "上車",
+      "jyutping": "soeng5 ce1",
+      "pos": "动",
+      "meaning": "上车",
+      "sentences": [
+        {"sentence": "人好多，小心上車。（jan4 hou2 do1, siu2 sam1 soeng5 ce1.）", "translate": "人很多，小心上车。"},
+        {"sentence": "等車停定先好上車。（dang2 ce1 ting4 ding6 sin1 hou2 soeng5 ce1.）", "translate": "等车停稳了再上车。"}
+      ]
+    },
+    {
+      "word": "知",
+      "jyutping": "zi1",
+      "pos": "动",
+      "meaning": "知道",
+      "sentences": [
+        {"sentence": "我知道呢件事。（ngo5 zi1 dou3 ni1 gin6 si6.）", "translate": "我知道这件事。"},
+        {"sentence": "你知唔知佢叫咩名？（nei5 zi1 m4 zi1 keoi5 giu3 me1 meng2?）", "translate": "你知道他叫什么名字吗？"}
+      ]
+    },
+    {
+      "word": "識",
+      "jyutping": "sik1",
+      "pos": "动",
+      "meaning": "认识，懂得，会",
+      "sentences": [
+        {"sentence": "你識唔識講廣東話？（nei5 sik1 m4 sik1 gong2 gwong2 dung1 waa2?）", "translate": "你会说粤语吗？"},
+        {"sentence": "我好耐之前就識佢。（ngo5 hou2 noi6 zi1 cin4 zau6 sik1 keoi5.）", "translate": "我很早以前就认识他。"}
+      ]
+    },
+    {
+      "word": "諗",
+      "jyutping": "nam2",
+      "pos": "动",
+      "meaning": "想，思考，以为",
+      "sentences": [
+        {"sentence": "等我認真諗下先。（dang2 ngo5 jing6 zan1 nam2 haa5 sin1.）", "translate": "等我认真想一想先。"},
+        {"sentence": "你喺度諗緊咩啊？（nei5 hai2 dou6 nam2 gan2 me1 aa3?）", "translate": "你在想什么呢？"}
+      ]
+    },
+    {
+      "word": "幫",
+      "jyutping": "bong1",
+      "pos": "动/介",
+      "meaning": "帮助，替",
+      "sentences": [
+        {"sentence": "唔該你幫幫手。（m4 goi1 nei5 bong1 bong1 sau2.）", "translate": "麻烦你帮帮忙。"},
+        {"sentence": "你可以幫我買份報紙嗎？（nei5 ho2 ji5 bong1 ngo5 maai5 fan6 bou3 zi2 maa3?）", "translate": "你可以帮我买份报纸吗？"}
+      ]
+    },
+    {
+      "word": "等",
+      "jyutping": "dang2",
+      "pos": "动",
+      "meaning": "等，等待，让",
+      "sentences": [
+        {"sentence": "喺度等我一陣，好快返嚟。（hai2 dou6 dang2 ngo5 jat1 zan6, hou2 faai3 faan1 lai4.）", "translate": "在这等我一会儿，很快回来。"},
+        {"sentence": "等我嚟幫你搞掂佢。（dang2 ngo5 lai4 bong1 nei5 gaau2 dim6 keoi5.）", "translate": "让我来帮你解决它。"}
+      ]
+    },
+    {
+      "word": "開",
+      "jyutping": "hoi1",
+      "pos": "动",
+      "meaning": "开，打开，开始",
+      "sentences": [
+        {"sentence": "唔該幫手開下門。（m4 goi1 bong1 sau2 hoi1 haa5 mun4.）", "translate": "麻烦帮手开一下门。"},
+        {"sentence": "我哋準備開會喇。（ngo5 dei6 zeon2 bei6 hoi1 wui2 laa3.）", "translate": "我们准备开会了。"}
+      ]
+    },
+    {
+      "word": "閂",
+      "jyutping": "saan1",
+      "pos": "动",
+      "meaning": "关，闭（门窗）",
+      "sentences": [
+        {"sentence": "出門記得閂窗。（ceot1 mun4 gei3 dak1 saan1 coeng1.）", "translate": "出门记得关窗。"},
+        {"sentence": "冷氣好凍，唔該閂門。（laang5 hei3 hou2 dung3, m4 goi1 saan1 mun4.）", "translate": "空调很冷，麻烦关门。"}
+      ]
+    },
+    {
+      "word": "熄",
+      "jyutping": "sik1",
+      "pos": "动",
+      "meaning": "关掉，熄灭（灯、电器）",
+      "sentences": [
+        {"sentence": "瞓覺前要熄燈。（fan3 gaau3 cin4 jiu3 sik1 dang1.）", "translate": "睡觉前要关灯。"},
+        {"sentence": "記住熄咗個電視。（gei3 zyu6 sik1 zo2 go3 din6 si6.）", "translate": "记住把电视关了。"}
+      ]
+    },
+    {
+      "word": "好",
+      "jyutping": "hou2",
+      "pos": "形/副",
+      "meaning": "好，非常，很",
+      "sentences": [
+        {"sentence": "呢個煲仔飯好好食。（ni1 go3 bou1 zai2 faan6 hou2 hou2 sik6.）", "translate": "这个煲仔饭很好吃。"},
+        {"sentence": "今日天氣好正。（gam1 jat6 tin1 hei3 hou2 zeng3.）", "translate": "今天天气太棒了。"}
+      ]
+    },
+    {
+      "word": "唔好",
+      "jyutping": "m4 hou2",
+      "pos": "副/形",
+      "meaning": "不好，不要，别",
+      "sentences": [
+        {"sentence": "唔好意思，借借。（m4 hou2 ji3 si3, ze3 ze3.）", "translate": "不好意思，借过借过。"},
+        {"sentence": "唔好喺度食煙。（m4 hou2 hai2 dou6 sik6 jin1.）", "translate": "不要在这里抽烟。"}
+      ]
+    },
+    {
+      "word": "靚",
+      "jyutping": "leng3",
+      "pos": "形",
+      "meaning": "美丽，漂亮，质量优良",
+      "sentences": [
+        {"sentence": "今日天氣好靚。（gam1 jat6 tin1 hei3 hou2 leng3.）", "translate": "今天天气很好。"},
+        {"sentence": "呢條裙着得你好靚。（ni1 tiu4 kwan4 zoek3 dak1 nei5 hou2 leng3.）", "translate": "这条裙子穿得你很漂亮。"}
+      ]
+    },
+    {
+      "word": "正",
+      "jyutping": "zeng3",
+      "pos": "形",
+      "meaning": "棒，正宗，极好",
+      "sentences": [
+        {"sentence": "呢間茶餐廳嘅蛋撻好正！（ni1 gaan1 caa4 caan1 teng1 ge3 daan6 taat1 hou2 zeng3!）", "translate": "这家茶餐厅的蛋挞太赞了！"},
+        {"sentence": "個湯好正，好濃味。（go3 tong1 hou2 zeng3, hou2 nung4 mei6.）", "translate": "那汤太棒了，很浓郁。"}
+      ]
+    },
+    {
+      "word": "平",
+      "jyutping": "peng4",
+      "pos": "形",
+      "meaning": "便宜，平价",
+      "sentences": [
+        {"sentence": "呢度啲菜好平。（ni1 dou6 di1 coi3 hou2 peng4.）", "translate": "这里的菜很便宜。"},
+        {"sentence": "老闆，可唔可以平少少？（lou5 baan2, ho2 m4 ho2 ji5 peng4 siu2 siu2?）", "translate": "老板，能不能便宜一点点？"}
+      ]
+    },
+    {
+      "word": "貴",
+      "jyutping": "gwai3",
+      "pos": "形",
+      "meaning": "昂贵",
+      "sentences": [
+        {"sentence": "商場啲嘢好貴。（soeng1 coeng4 di1 je5 hou2 gwai3.）", "translate": "商场里的东西很贵。"},
+        {"sentence": "太貴喇，買唔起。（taai3 gwai3 laa3, maai5 m4 hei2.）", "translate": "太贵了，买不起。"}
+      ]
+    },
+    {
+      "word": "抵",
+      "jyutping": "dai2",
+      "pos": "形",
+      "meaning": "划算，值，合算",
+      "sentences": [
+        {"sentence": "買一送一真係抵！（maai5 jat1 sung3 jat1 zan1 hai6 dai2!）", "translate": "买一送一真的很划算！"},
+        {"sentence": "平靚正，超抵！（peng4 leng3 zeng3, ciu1 dai2!）", "translate": "又便宜又好，超级划算！"}
+      ]
+    },
+    {
+      "word": "大",
+      "jyutping": "daai6",
+      "pos": "形",
+      "meaning": "大",
+      "sentences": [
+        {"sentence": "間屋好大好舒服。（gaan1 uk1 hou2 daai6 hou2 syu1 fuk6.）", "translate": "房子很大很舒服。"},
+        {"sentence": "雨落得好大。（jyu5 lok6 dak1 hou2 daai6.）", "translate": "雨下得很大。"}
+      ]
+    },
+    {
+      "word": "細",
+      "jyutping": "sai3",
+      "pos": "形",
+      "meaning": "小，年幼",
+      "sentences": [
+        {"sentence": "呢隻鞋太細，着唔落。（ni1 zek3 haai4 taai3 sai3, zoek3 m4 lok6.）", "translate": "这只鞋太小，穿不进去。"},
+        {"sentence": "佢年紀仲細。（keoi5 nin4 gei2 zung6 sai3.）", "translate": "他年纪还小。"}
+      ]
+    },
+    {
+      "word": "多",
+      "jyutping": "do1",
+      "pos": "形/数",
+      "meaning": "多",
+      "sentences": [
+        {"sentence": "今日街上面好多人。（gam1 jat6 gaai1 soeng6 min6 hou2 do1 jan4.）", "translate": "今天街上很多人。"},
+        {"sentence": "多謝你嘅幫忙。（do1 ze6 nei5 ge3 bong1 mong4.）", "translate": "多谢你的帮忙。"}
+      ]
+    },
+    {
+      "word": "少",
+      "jyutping": "siu2",
+      "pos": "形/数",
+      "meaning": "少",
+      "sentences": [
+        {"sentence": "我放假嘅時間好少。（ngo5 fong3 gaa3 ge3 si4 gaan3 hou2 siu2.）", "translate": "我放假的时间很少。"},
+        {"sentence": "畀少少鹽就夠。（bei2 siu2 siu2 jim4 zau6 gau3.）", "translate": "放一点点盐就够了。"}
+      ]
+    },
+    {
+      "word": "快",
+      "jyutping": "faai3",
+      "pos": "形/副",
+      "meaning": "快，快速",
+      "sentences": [
+        {"sentence": "快啲啦，就嚟遲到喇！（faai3 di1 laa1, zau6 lai4 ci4 dou3 laa3!）", "translate": "快点啦，快要迟到了！"},
+        {"sentence": "搭高鐵好快就到。（daap3 gou1 tit3 hou2 faai3 zau6 dou3.）", "translate": "坐高铁很快就到了。"}
+      ]
+    },
+    {
+      "word": "慢",
+      "jyutping": "maan6",
+      "pos": "形/副",
+      "meaning": "慢，缓慢",
+      "sentences": [
+        {"sentence": "慢慢食，唔好急。（maan6 maan6 sik6, m4 hou2 gap1.）", "translate": "慢慢吃，别着急。"},
+        {"sentence": "網速好慢。（mong5 cuk1 hou2 maan6.）", "translate": "网速很慢。"}
+      ]
+    },
+    {
+      "word": "早",
+      "jyutping": "zou2",
+      "pos": "形/副",
+      "meaning": "早",
+      "sentences": [
+        {"sentence": "你今日咁早起嘅？（nei5 gam1 jat6 gam3 zou2 hei2 ge2?）", "translate": "你今天怎么这么早起呀？"},
+        {"sentence": "早晨，食咗早餐未？（zou2 san4, sik6 zo2 zou2 caan1 mei6?）", "translate": "早上好，吃过早饭了吗？"}
+      ]
+    },
+    {
+      "word": "夜",
+      "jyutping": "je6",
+      "pos": "形/名",
+      "meaning": "晚，迟，夜晚",
+      "sentences": [
+        {"sentence": "咁夜仲未瞓？（gam3 je6 zung6 mei6 fan3?）", "translate": "这么晚了还没睡？"},
+        {"sentence": "今晚我好夜先返到。（gam1 maan5 ngo5 hou2 je6 sin1 faan1 dou3.）", "translate": "今晚我很晚才到家。"}
+      ]
+    },
+    {
+      "word": "熱",
+      "jyutping": "jit6",
+      "pos": "形",
+      "meaning": "热，炎热",
+      "sentences": [
+        {"sentence": "夏天嘅天氣好熱。（haa6 tin1 ge3 tin1 hei3 hou2 jit6.）", "translate": "夏天的天气很热。"},
+        {"sentence": "呢杯咖啡好熱，慢慢飲。（ni1 bui1 gaa3 fe1 hou2 jit6, maan6 maan6 jam2.）", "translate": "这杯咖啡很热，慢慢喝。"}
+      ]
+    },
+    {
+      "word": "凍",
+      "jyutping": "dung3",
+      "pos": "形",
+      "meaning": "冷，冰冷，寒凉",
+      "sentences": [
+        {"sentence": "今日出面好凍，着多件衫。（gam1 jat6 ceot1 min6 hou2 dung3, zoek3 do1 gin6 saam1.）", "translate": "今天外面很冷，多穿件衣服。"},
+        {"sentence": "我想要一杯凍檸茶。（ngo5 soeng2 jiu3 jat1 bui1 dung3 ning4 caa4.）", "translate": "我想要一杯冰柠檬茶。"}
+      ]
+    },
+    {
+      "word": "肚餓",
+      "jyutping": "tou5 ngo6",
+      "pos": "形",
+      "meaning": "肚子饿，饥饿",
+      "sentences": [
+        {"sentence": "行咗大半日，好肚餓。（haang4 zo2 daai6 bun3 jat6, hou2 tou5 ngo6.）", "translate": "走大半天了，肚子好饿。"},
+        {"sentence": "肚餓就食啲嘢先啦。（tou5 ngo6 zau6 sik6 di1 je5 sin1 laa1.）", "translate": "肚子饿就先吃点东西吧。"}
+      ]
+    },
+    {
+      "word": "飽",
+      "jyutping": "baau2",
+      "pos": "形",
+      "meaning": "饱，吃饱",
+      "sentences": [
+        {"sentence": "食得好飽，食唔落喇。（sik6 dak1 hou2 baau2, sik6 m4 lok6 laa3.）", "translate": "吃得好饱，吃不下了。"},
+        {"sentence": "你食飽未啊？（nei5 sik6 baau2 mei6 aa3?）", "translate": "你吃饱了吗？"}
+      ]
+    },
+    {
+      "word": "攰",
+      "jyutping": "gui6",
+      "pos": "形",
+      "meaning": "累，疲乏",
+      "sentences": [
+        {"sentence": "返咗成日工，好攰。（faan1 zo2 seng4 jat6 gung1, hou2 gui6.）", "translate": "上了一整天班，好累。"},
+        {"sentence": "攰就早啲休息啦。（gui6 zau6 zou2 di1 jau1 sik1 laa1.）", "translate": "累了就早点休息吧。"}
+      ]
+    },
+    {
+      "word": "開心",
+      "jyutping": "hoi1 sam1",
+      "pos": "形",
+      "meaning": "开心，愉快",
+      "sentences": [
+        {"sentence": "今日玩得好開心！（gam1 jat6 waan2 dak1 hou2 hoi1 sam1!）", "translate": "今天玩得真开心！"},
+        {"sentence": "見到你我都好開心。（gin3 dou2 nei5 ngo5 dou1 hou2 hoi1 sam1.）", "translate": "见到你我也很高兴。"}
+      ]
+    },
+    {
+      "word": "得閒",
+      "jyutping": "dak1 haan4",
+      "pos": "形",
+      "meaning": "有空，闲暇",
+      "sentences": [
+        {"sentence": "你周末得唔得閒？（nei5 zau1 mut6 dak1 m4 dak1 haan4?）", "translate": "你周末有没有空？"},
+        {"sentence": "得閒出嚟飲茶啦！（dak1 haan4 ceot1 lai4 jam2 caa4 laa1!）", "translate": "有空出来喝早茶啊！"}
+      ]
+    },
+    {
+      "word": "好彩",
+      "jyutping": "hou2 coi2",
+      "pos": "副/形",
+      "meaning": "幸好，幸运，走运",
+      "sentences": [
+        {"sentence": "好彩帶咗遮，唔係就淋濕晒。（hou2 coi2 daai3 zo2 ze1, m4 hai6 zau6 lam4 sap1 saai3.）", "translate": "幸好带了伞，不然就全淋湿了。"},
+        {"sentence": "真係好彩，咁都畀你搵到。（zan1 hai6 hou2 coi2, gam3 dou1 bei2 nei5 wan2 dou2.）", "translate": "真的很走运，这样都被你找到了。"}
+      ]
+    },
+    {
+      "word": "啱",
+      "jyutping": "ngaam1",
+      "pos": "形/副",
+      "meaning": "对，正确，刚好，刚刚",
+      "sentences": [
+        {"sentence": "你講得好啱！（nei5 gong2 dak1 hou2 ngaam1!）", "translate": "你说得太对了！"},
+        {"sentence": "我啱啱返到屋企。（ngo5 ngaam1 ngaam1 faan1 dou3 uk1 kei2.）", "translate": "我刚刚回到家。"}
+      ]
+    },
+    {
+      "word": "錯",
+      "jyutping": "co3",
+      "pos": "形",
+      "meaning": "错，错误",
+      "sentences": [
+        {"sentence": "呢道算式計錯咗。（ni1 dou6 syun3 sik1 gai3 co3 zo2.）", "translate": "这道算式算错了。"},
+        {"sentence": "認錯人，好尷尬。（jing6 co3 jan4, hou2 gaam1 gaa3.）", "translate": "认错人了，好尴尬。"}
+      ]
+    },
+    {
+      "word": "啱啱",
+      "jyutping": "ngaam1 ngaam1",
+      "pos": "副",
+      "meaning": "刚刚，刚才",
+      "sentences": [
+        {"sentence": "佢啱啱走咗。（keoi5 ngaam1 ngaam1 zau2 zo2.）", "translate": "他刚刚走了。"},
+        {"sentence": "啲餸啱啱煮好，趁熱食。（di1 sung3 ngaam1 ngaam1 zyu2 hou2, can3 jit6 sik6.）", "translate": "菜刚刚烧好，趁热吃。"}
+      ]
+    },
+    {
+      "word": "仲",
+      "jyutping": "zung6",
+      "pos": "副",
+      "meaning": "还，依然，更加",
+      "sentences": [
+        {"sentence": "你仲未瞓啊？（nei5 zung6 mei6 fan3 aa3?）", "translate": "你还没睡吗？"},
+        {"sentence": "出面仲落緊雨。（ceot1 min6 zung6 lok6 gan2 jyu5.）", "translate": "外面还在下雨。"}
+      ]
+    },
+    {
+      "word": "真係",
+      "jyutping": "zan1 hai6",
+      "pos": "副",
+      "meaning": "真的，实在",
+      "sentences": [
+        {"sentence": "呢個煲仔飯真係正！（ni1 go3 bou1 zai2 faan6 zan1 hai6 zeng3!）", "translate": "这个煲仔饭真的很棒！"},
+        {"sentence": "今次真係多謝你。（gam1 ci3 zan1 hai6 do1 ze6 nei5.）", "translate": "这次真多谢你。"}
+      ]
+    },
+    {
+      "word": "好似",
+      "jyutping": "hou2 ci5",
+      "pos": "动/副",
+      "meaning": "好像，似乎",
+      "sentences": [
+        {"sentence": "出面好似落緊雨。（ceot1 min6 hou2 ci5 lok6 gan2 jyu5.）", "translate": "外面好像在下雨。"},
+        {"sentence": "佢好似唔係好開心。（keoi5 hou2 ci5 m4 hai6 hou2 hoi1 sam1.）", "translate": "他看起来好像不太开心。"}
+      ]
+    },
+    {
+      "word": "一齊",
+      "jyutping": "jat1 cai4",
+      "pos": "副",
+      "meaning": "一起，一同",
+      "sentences": [
+        {"sentence": "我哋一齊去睇戲啦。（ngo5 dei6 jat1 cai4 heoi3 tai2 hei3 laa1.）", "translate": "我们一起去看电影吧。"},
+        {"sentence": "大家一齊舉杯！（daai6 gaa1 jat1 cai4 geoi2 bui1!）", "translate": "大家一起干杯！"}
+      ]
+    },
+    {
+      "word": "先",
+      "jyutping": "sin1",
+      "pos": "副/助",
+      "meaning": "先，才，方",
+      "sentences": [
+        {"sentence": "你食先啦，唔使等我。（nei5 sik6 sin1 laa1, m4 sai2 dang2 ngo5.）", "translate": "你先吃吧，不用等我。"},
+        {"sentence": "做完功課先好睇電視。（zou6 jyun4 gung1 fo3 sin1 hou2 tai2 din6 si6.）", "translate": "做完功课才能看电视。"}
+      ]
+    },
+    {
+      "word": "咪",
+      "jyutping": "mai5",
+      "pos": "副",
+      "meaning": "别，不要；不就是",
+      "sentences": [
+        {"sentence": "咪行埋去嗰度，危險啊。（mai5 haang4 maai4 heoi3 go2 dou6, ngai4 him2 aa3.）", "translate": "别走过去那边，危险啊。"},
+        {"sentence": "嗰個咪係陳先生咯！（go2 go3 mai5 hai6 can4 sin1 saang1 lok3!）", "translate": "那不就是陈先生嘛！"}
+      ]
+    },
+    {
+      "word": "唔使",
+      "jyutping": "m4 sai2",
+      "pos": "能愿",
+      "meaning": "不用，不必",
+      "sentences": [
+        {"sentence": "唔使客氣，小事嚟㗎。（m4 sai2 haak3 hei3, siu2 si6 lai4 gaa3.）", "translate": "不用客气，小事情而已。"},
+        {"sentence": "今日唔使返工，可以訓到自然醒。（gam1 jat6 m4 sai2 faan1 gung1, ho2 ji5 fan3 dou3 zi6 jin4 seng2.）", "translate": "今天不用上班，可以睡到自然醒。"}
+      ]
+    },
+    {
+      "word": "可以",
+      "jyutping": "ho2 ji5",
+      "pos": "能愿",
+      "meaning": "可以，能够",
+      "sentences": [
+        {"sentence": "我可以坐呢度嗎？（ngo5 ho2 ji5 co5 ni1 dou6 maa3?）", "translate": "我可以坐这里吗？"},
+        {"sentence": "呢件事你可以同佢傾下。（ni1 gin6 si6 nei5 ho2 ji5 tung4 keoi5 king1 haa5.）", "translate": "这件事你可以跟他聊聊。"}
+      ]
+    },
+    {
+      "word": "得",
+      "jyutping": "dak1",
+      "pos": "动/助",
+      "meaning": "行，可以；得到",
+      "sentences": [
+        {"sentence": "噉樣做得唔得啊？（gam2 joeng2 zou6 dak1 m4 dak1 aa3?）", "translate": "这样做行不行啊？"},
+        {"sentence": "放心，一定得嘅！（fong3 sam1, jat1 ding6 dak1 ge3!）", "translate": "放心，一定行的！"}
+      ]
+    },
+    {
+      "word": "唔得",
+      "jyutping": "m4 dak1",
+      "pos": "动",
+      "meaning": "不行，不可以",
+      "sentences": [
+        {"sentence": "呢度唔得泊車㗎。（ni1 dou6 m4 dak1 paak3 ce1 gaa3.）", "translate": "这里不可以停车的。"},
+        {"sentence": "真係唔得，太急喇。（zan1 hai6 m4 dak1, taai3 gap1 laa3.）", "translate": "真的不行，太仓促了。"}
+      ]
+    },
+    {
+      "word": "今日",
+      "jyutping": "gam1 jat6",
+      "pos": "名",
+      "meaning": "今天",
+      "sentences": [
+        {"sentence": "今日天氣好熱。（gam1 jat6 tin1 hei3 hou2 jit6.）", "translate": "今天天气好热。"},
+        {"sentence": "今日係中秋節。（gam1 jat6 hai6 zung1 cau1 zit3.）", "translate": "今天是中秋节。"}
+      ]
+    },
+    {
+      "word": "聽日",
+      "jyutping": "ting1 jat6",
+      "pos": "名",
+      "meaning": "明天",
+      "sentences": [
+        {"sentence": "聽日見啦，拜拜！（ting1 jat6 gin3 laa1, baai1 baai3!）", "translate": "明天见啦，拜拜！"},
+        {"sentence": "聽日朝早九點開會。（ting1 jat6 ziu1 zou2 gau2 dim2 hoi1 wui2.）", "translate": "明天早晨九点开会。"}
+      ]
+    },
+    {
+      "word": "琴日",
+      "jyutping": "kam4 jat6",
+      "pos": "名",
+      "meaning": "昨天",
+      "sentences": [
+        {"sentence": "我琴日去咗廣州。（ngo5 kam4 jat6 heoi3 zo2 gwong2 zau1.）", "translate": "我昨天去了广州。"},
+        {"sentence": "琴日落咗成日雨。（kam4 jat6 lok6 zo2 seng4 jat6 jyu5.）", "translate": "昨天下一整天的雨。"}
+      ]
+    },
+    {
+      "word": "後日",
+      "jyutping": "hau6 jat6",
+      "pos": "名",
+      "meaning": "后天",
+      "sentences": [
+        {"sentence": "後日我就要出差。（hau6 jat6 ngo5 zau6 jiu3 ceot1 caai1.）", "translate": "后天我就要出差了。"},
+        {"sentence": "後日係佢生日。（hau6 jat6 hai6 keoi5 saang1 jat6.）", "translate": "后天是他生日。"}
+      ]
+    },
+    {
+      "word": "前日",
+      "jyutping": "cin4 jat6",
+      "pos": "名",
+      "meaning": "前天",
+      "sentences": [
+        {"sentence": "前日寄嘅快遞已經到咗。（cin4 jat6 gei3 ge3 faai3 dai6 ji5 ging1 dou3 zo2.）", "translate": "前天寄的快递已经到了。"},
+        {"sentence": "我前日先見過佢。（ngo5 cin4 jat6 sin1 gin3 gwo3 keoi5.）", "translate": "我前天才见过他。"}
+      ]
+    },
+    {
+      "word": "朝早",
+      "jyutping": "ziu1 zou2",
+      "pos": "名",
+      "meaning": "早上，早晨",
+      "sentences": [
+        {"sentence": "朝早空氣好清新。（ziu1 zou2 hung1 hei3 hou2 cing1 san1.）", "translate": "早晨空气很清新。"},
+        {"sentence": "我朝早鍾意飲杯黑咖啡。（ngo5 ziu1 zou2 zung1 ji3 jam2 bui1 hak1 gaa3 fe1.）", "translate": "我早晨喜欢喝杯黑咖啡。"}
+      ]
+    },
+    {
+      "word": "下晝",
+      "jyutping": "haa6 zau3",
+      "pos": "名",
+      "meaning": "下午",
+      "sentences": [
+        {"sentence": "下晝三點去食下午茶。（haa6 zau3 saam1 dim2 heoi3 sik6 haa6 zau3 caa4.）", "translate": "下午三点去吃下午茶。"},
+        {"sentence": "下晝我有一個面試。（haa6 zau3 ngo5 jau5 jat1 go3 min6 si3.）", "translate": "下午我有一个面试。"}
+      ]
+    },
+    {
+      "word": "夜晚",
+      "jyutping": "je6 maan5",
+      "pos": "名",
+      "meaning": "晚上，夜晚",
+      "sentences": [
+        {"sentence": "夜晚出街要小心。（je6 maan5 ceot1 gaai1 jiu3 siu2 sam1.）", "translate": "晚上出门要小心。"},
+        {"sentence": "夜晚嘅維港夜景好靚。（je6 maan5 ge3 wai4 gong2 je6 ging2 hou2 leng3.）", "translate": "夜晚的维多利亚港夜景真美。"}
+      ]
+    },
+    {
+      "word": "而家",
+      "jyutping": "ji4 gaa1",
+      "pos": "名/副",
+      "meaning": "现在，目前",
+      "sentences": [
+        {"sentence": "而家幾多點啊？（ji4 gaa1 gei2 do1 dim2 aa3?）", "translate": "现在几点啦？"},
+        {"sentence": "我而家即刻過嚟。（ngo5 ji4 gaa1 zik1 hak1 gwo3 lai4.）", "translate": "我现在马上过来。"}
+      ]
+    },
+    {
+      "word": "一陣",
+      "jyutping": "jat1 zan6",
+      "pos": "名/副",
+      "meaning": "一会儿，一阵子",
+      "sentences": [
+        {"sentence": "等我一陣，好快好！（dang2 ngo5 jat1 zan6, hou2 faai3 hou2!）", "translate": "等我一会儿，很快好！"},
+        {"sentence": "一陣間一齊去食飯。（jat1 zan6 gaan1 jat1 cai4 heoi3 sik6 faan6.）", "translate": "一会儿一起去吃饭。"}
+      ]
+    },
+    {
+      "word": "耐",
+      "jyutping": "noi6",
+      "pos": "形",
+      "meaning": "久，时间长",
+      "sentences": [
+        {"sentence": "好耐冇見，最近點啊？（hou2 noi6 mou5 gin3, zeoi3 gan6 dim2 aa3?）", "translate": "好久不见，最近怎么样啊？"},
+        {"sentence": "等咗好耐架巴士都仲未嚟。（dang2 zo2 hou2 noi6 gaa3 baa1 si2 dou1 zung6 mei6 lai4.）", "translate": "等了好久那辆公交车都还没来。"}
+      ]
+    },
+    {
+      "word": "屋企",
+      "jyutping": "uk1 kei2",
+      "pos": "名",
+      "meaning": "家里，家",
+      "sentences": [
+        {"sentence": "我喺屋企睇電視。（ngo5 hai2 uk1 kei2 tai2 din6 si6.）", "translate": "我在家里看电视。"},
+        {"sentence": "你屋企喺邊度啊？（nei5 uk1 kei2 hai2 bin1 dou6 aa3?）", "translate": "你家在哪里呀？"}
+      ]
+    },
+    {
+      "word": "屋企人",
+      "jyutping": "uk1 kei2 jan4",
+      "pos": "名",
+      "meaning": "家人，家里人",
+      "sentences": [
+        {"sentence": "放假返去陪下屋企人。（fong3 gaa3 faan1 heoi3 pui4 haa5 uk1 kei2 jan4.）", "translate": "放假回去陪陪家里人。"},
+        {"sentence": "佢好孝順屋企人。（keoi5 hou2 haau3 seon6 uk1 kei2 jan4.）", "translate": "他很孝顺家人。"}
+      ]
+    },
+    {
+      "word": "朋友",
+      "jyutping": "pang4 jau5",
+      "pos": "名",
+      "meaning": "朋友",
+      "sentences": [
+        {"sentence": "佢係我大學嘅好朋友。（keoi5 hai6 ngo5 daai6 hok6 ge3 hou2 pang4 jau5.）", "translate": "他是我大学的好朋友。"},
+        {"sentence": "朋友之間最緊要講誠信。（pang4 jau5 zi1 gaan1 zeoi3 gan2 jiu3 gong2 sing4 seon3.）", "translate": "朋友之间最重要讲诚信。"}
+      ]
+    },
+    {
+      "word": "先生",
+      "jyutping": "sin1 saang1",
+      "pos": "名",
+      "meaning": "先生，老师，丈夫",
+      "sentences": [
+        {"sentence": "陳先生，早晨！（can4 sin1 saang1, zou2 san4!）", "translate": "陈先生，早上好！"},
+        {"sentence": "呢位係我先生。（ni1 wai2 hai6 ngo5 sin1 saang1.）", "translate": "这位是我先生。"}
+      ]
+    },
+    {
+      "word": "小姐",
+      "jyutping": "siu2 ze2",
+      "pos": "名",
+      "meaning": "小姐，女士",
+      "sentences": [
+        {"sentence": "李小姐，請呢邊坐。（lei5 siu2 ze2, cing2 ni1 bin1 co5.）", "translate": "李小姐，请这边坐。"},
+        {"sentence": "呢位小姐，你跌咗銀包。（ni1 wai2 siu2 ze2, nei5 dit3 zo2 ngan4 baau1.）", "translate": "这位小姐，你掉了钱包。"}
+      ]
+    },
+    {
+      "word": "靓女",
+      "jyutping": "leng3 neoi2",
+      "pos": "名",
+      "meaning": "美女（称呼青年女性）",
+      "sentences": [
+        {"sentence": "靚女，想買啲咩啊？（leng3 neoi2, soeng2 maai5 di1 me1 aa3?）", "translate": "美女，想买点什么呀？"},
+        {"sentence": "個個都讚佢係個大靚女。（go3 go3 dou1 zaan3 keoi5 hai6 go3 daai6 leng3 neoi2.）", "translate": "人人都夸她是个大美女。"}
+      ]
+    },
+    {
+      "word": "靓仔",
+      "jyutping": "leng3 zai2",
+      "pos": "名",
+      "meaning": "帅哥（称呼青年男子）；白米饭",
+      "sentences": [
+        {"sentence": "靚仔，要唔要飲杯茶？（leng3 zai2, jiu3 m4 jiu3 jam2 bui1 caa4?）", "translate": "帅哥，要不要喝杯茶？"},
+        {"sentence": "伙計，唔該加多個靚仔！（fo2 gei3, m4 goi1 gaa1 do1 go3 leng3 zai2!）", "translate": "服务员，麻烦加一碗白米饭！"}
+      ]
+    },
+    {
+      "word": "老細",
+      "jyutping": "lou5 sai3",
+      "pos": "名",
+      "meaning": "老板",
+      "sentences": [
+        {"sentence": "老細今日請大家食晏晝。（lou5 sai3 gam1 jat6 cing2 daai6 gaa1 sik6 aan3 zau3.）", "translate": "老板今天请大家吃午饭。"},
+        {"sentence": "老細，埋單唔該！（lou5 sai3, maai4 daan1 m4 goi1!）", "translate": "老板，买单麻烦！"}
+      ]
+    },
+    {
+      "word": "伙計",
+      "jyutping": "fo2 gei3",
+      "pos": "名",
+      "meaning": "服务员，店员，伙计",
+      "sentences": [
+        {"sentence": "伙計，加水唔該！（fo2 gei3, gaa1 seoi2 m4 goi1!）", "translate": "服务员，加水麻烦！"},
+        {"sentence": "呢間舖頭嘅伙計好熱情。（ni1 gaan1 pou3 tau4 ge3 fo2 gei3 hou2 jit6 cing4.）", "translate": "这家店铺的伙计很热情。"}
+      ]
+    },
+    {
+      "word": "細路",
+      "jyutping": "sai3 lou6",
+      "pos": "名",
+      "meaning": "小孩，儿童",
+      "sentences": [
+        {"sentence": "啲細路喺公園玩得好開心。（di1 sai3 lou6 hai2 gung1 jyun2 waan2 dak1 hou2 hoi1 sam1.）", "translate": "孩子们在公园玩得很开心。"},
+        {"sentence": "你唔好同啲細路計較啦。（nei5 m4 hou2 tung4 di1 sai3 lou6 gai3 gaau3 laa1.）", "translate": "你别跟小孩子斤斤计较啦。"}
+      ]
+    },
+    {
+      "word": "打工仔",
+      "jyutping": "daa2 gung1 zai2",
+      "pos": "名",
+      "meaning": "打工者，上班族",
+      "sentences": [
+        {"sentence": "打工仔最緊要準時放工。（daa2 gung1 zai2 zeoi3 gan2 jiu3 zeon2 si4 fong3 gung1.）", "translate": "打工人最重要准时下班。"},
+        {"sentence": "我哋普通打工仔好勤力。（ngo5 dei6 pou2 tung1 daa2 gung1 zai2 hou2 kan4 lik6.）", "translate": "我们普通打工人很勤快。"}
+      ]
+    }
+  ]
+}

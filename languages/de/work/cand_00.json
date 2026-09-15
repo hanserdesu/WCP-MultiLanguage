@@ -1,0 +1,802 @@
+[
+{
+"word": "ich",
+"rank": 1
+},
+{
+"word": "sie",
+"rank": 2
+},
+{
+"word": "das",
+"rank": 3
+},
+{
+"word": "ist",
+"rank": 4
+},
+{
+"word": "du",
+"rank": 5
+},
+{
+"word": "nicht",
+"rank": 6
+},
+{
+"word": "die",
+"rank": 7
+},
+{
+"word": "es",
+"rank": 8
+},
+{
+"word": "und",
+"rank": 9
+},
+{
+"word": "der",
+"rank": 10
+},
+{
+"word": "wir",
+"rank": 11
+},
+{
+"word": "was",
+"rank": 12
+},
+{
+"word": "zu",
+"rank": 13
+},
+{
+"word": "er",
+"rank": 14
+},
+{
+"word": "ein",
+"rank": 15
+},
+{
+"word": "in",
+"rank": 16
+},
+{
+"word": "ja",
+"rank": 17
+},
+{
+"word": "mir",
+"rank": 18
+},
+{
+"word": "mit",
+"rank": 19
+},
+{
+"word": "wie",
+"rank": 20
+},
+{
+"word": "den",
+"rank": 21
+},
+{
+"word": "mich",
+"rank": 22
+},
+{
+"word": "auf",
+"rank": 23
+},
+{
+"word": "dass",
+"rank": 24
+},
+{
+"word": "aber",
+"rank": 25
+},
+{
+"word": "eine",
+"rank": 26
+},
+{
+"word": "so",
+"rank": 27
+},
+{
+"word": "hat",
+"rank": 28
+},
+{
+"word": "hier",
+"rank": 29
+},
+{
+"word": "haben",
+"rank": 30
+},
+{
+"word": "für",
+"rank": 31
+},
+{
+"word": "sind",
+"rank": 32
+},
+{
+"word": "war",
+"rank": 33
+},
+{
+"word": "von",
+"rank": 34
+},
+{
+"word": "wenn",
+"rank": 35
+},
+{
+"word": "dich",
+"rank": 36
+},
+{
+"word": "ihr",
+"rank": 37
+},
+{
+"word": "nein",
+"rank": 38
+},
+{
+"word": "habe",
+"rank": 39
+},
+{
+"word": "an",
+"rank": 40
+},
+{
+"word": "bin",
+"rank": 41
+},
+{
+"word": "noch",
+"rank": 42
+},
+{
+"word": "nur",
+"rank": 43
+},
+{
+"word": "da",
+"rank": 44
+},
+{
+"word": "dir",
+"rank": 45
+},
+{
+"word": "sich",
+"rank": 46
+},
+{
+"word": "einen",
+"rank": 47
+},
+{
+"word": "uns",
+"rank": 48
+},
+{
+"word": "hast",
+"rank": 49
+},
+{
+"word": "dem",
+"rank": 50
+},
+{
+"word": "kann",
+"rank": 51
+},
+{
+"word": "gut",
+"rank": 52
+},
+{
+"word": "auch",
+"rank": 53
+},
+{
+"word": "schon",
+"rank": 54
+},
+{
+"word": "als",
+"rank": 55
+},
+{
+"word": "sein",
+"rank": 56
+},
+{
+"word": "mal",
+"rank": 57
+},
+{
+"word": "jetzt",
+"rank": 58
+},
+{
+"word": "ihn",
+"rank": 59
+},
+{
+"word": "dann",
+"rank": 60
+},
+{
+"word": "aus",
+"rank": 61
+},
+{
+"word": "meine",
+"rank": 62
+},
+{
+"word": "um",
+"rank": 63
+},
+{
+"word": "im",
+"rank": 64
+},
+{
+"word": "wird",
+"rank": 65
+},
+{
+"word": "mein",
+"rank": 66
+},
+{
+"word": "bist",
+"rank": 67
+},
+{
+"word": "doch",
+"rank": 68
+},
+{
+"word": "alles",
+"rank": 69
+},
+{
+"word": "weiß",
+"rank": 70
+},
+{
+"word": "keine",
+"rank": 71
+},
+{
+"word": "oder",
+"rank": 72
+},
+{
+"word": "nach",
+"rank": 73
+},
+{
+"word": "nichts",
+"rank": 74
+},
+{
+"word": "man",
+"rank": 75
+},
+{
+"word": "muss",
+"rank": 76
+},
+{
+"word": "werden",
+"rank": 77
+},
+{
+"word": "will",
+"rank": 78
+},
+{
+"word": "ihnen",
+"rank": 79
+},
+{
+"word": "geht",
+"rank": 80
+},
+{
+"word": "wo",
+"rank": 81
+},
+{
+"word": "etwas",
+"rank": 82
+},
+{
+"word": "oh",
+"rank": 83
+},
+{
+"word": "mehr",
+"rank": 84
+},
+{
+"word": "bei",
+"rank": 85
+},
+{
+"word": "also",
+"rank": 86
+},
+{
+"word": "bitte",
+"rank": 87
+},
+{
+"word": "immer",
+"rank": 88
+},
+{
+"word": "hab",
+"rank": 89
+},
+{
+"word": "warum",
+"rank": 90
+},
+{
+"word": "vor",
+"rank": 91
+},
+{
+"word": "los",
+"rank": 92
+},
+{
+"word": "können",
+"rank": 93
+},
+{
+"word": "wieder",
+"rank": 94
+},
+{
+"word": "sagen",
+"rank": 95
+},
+{
+"word": "machen",
+"rank": 96
+},
+{
+"word": "danke",
+"rank": 97
+},
+{
+"word": "sehr",
+"rank": 98
+},
+{
+"word": "alle",
+"rank": 99
+},
+{
+"word": "denn",
+"rank": 100
+},
+{
+"word": "mann",
+"rank": 101
+},
+{
+"word": "tun",
+"rank": 102
+},
+{
+"word": "ihm",
+"rank": 103
+},
+{
+"word": "zum",
+"rank": 104
+},
+{
+"word": "gehen",
+"rank": 105
+},
+{
+"word": "sehen",
+"rank": 106
+},
+{
+"word": "vielleicht",
+"rank": 107
+},
+{
+"word": "einem",
+"rank": 108
+},
+{
+"word": "wer",
+"rank": 109
+},
+{
+"word": "ihre",
+"rank": 110
+},
+{
+"word": "diese",
+"rank": 111
+},
+{
+"word": "euch",
+"rank": 112
+},
+{
+"word": "einer",
+"rank": 113
+},
+{
+"word": "komm",
+"rank": 114
+},
+{
+"word": "über",
+"rank": 115
+},
+{
+"word": "gibt",
+"rank": 116
+},
+{
+"word": "okay",
+"rank": 117
+},
+{
+"word": "wissen",
+"rank": 118
+},
+{
+"word": "deine",
+"rank": 119
+},
+{
+"word": "müssen",
+"rank": 120
+},
+{
+"word": "soll",
+"rank": 121
+},
+{
+"word": "werde",
+"rank": 122
+},
+{
+"word": "nie",
+"rank": 123
+},
+{
+"word": "wirklich",
+"rank": 124
+},
+{
+"word": "hey",
+"rank": 125
+},
+{
+"word": "kein",
+"rank": 126
+},
+{
+"word": "viel",
+"rank": 127
+},
+{
+"word": "weg",
+"rank": 128
+},
+{
+"word": "würde",
+"rank": 129
+},
+{
+"word": "tut",
+"rank": 130
+},
+{
+"word": "am",
+"rank": 131
+},
+{
+"word": "des",
+"rank": 132
+},
+{
+"word": "einfach",
+"rank": 133
+},
+{
+"word": "leben",
+"rank": 134
+},
+{
+"word": "hatte",
+"rank": 135
+},
+{
+"word": "zeit",
+"rank": 136
+},
+{
+"word": "weil",
+"rank": 137
+},
+{
+"word": "willst",
+"rank": 138
+},
+{
+"word": "kommen",
+"rank": 139
+},
+{
+"word": "dein",
+"rank": 140
+},
+{
+"word": "heute",
+"rank": 141
+},
+{
+"word": "kommt",
+"rank": 142
+},
+{
+"word": "wollen",
+"rank": 143
+},
+{
+"word": "damit",
+"rank": 144
+},
+{
+"word": "ganz",
+"rank": 145
+},
+{
+"word": "wäre",
+"rank": 146
+},
+{
+"word": "wollte",
+"rank": 147
+},
+{
+"word": "weißt",
+"rank": 148
+},
+{
+"word": "ok",
+"rank": 149
+},
+{
+"word": "sicher",
+"rank": 150
+},
+{
+"word": "gesagt",
+"rank": 151
+},
+{
+"word": "frau",
+"rank": 152
+},
+{
+"word": "nun",
+"rank": 153
+},
+{
+"word": "bis",
+"rank": 154
+},
+{
+"word": "wurde",
+"rank": 155
+},
+{
+"word": "leid",
+"rank": 156
+},
+{
+"word": "na",
+"rank": 157
+},
+{
+"word": "kannst",
+"rank": 158
+},
+{
+"word": "macht",
+"rank": 159
+},
+{
+"word": "dieser",
+"rank": 160
+},
+{
+"word": "zurück",
+"rank": 161
+},
+{
+"word": "lassen",
+"rank": 162
+},
+{
+"word": "hallo",
+"rank": 163
+},
+{
+"word": "meinen",
+"rank": 164
+},
+{
+"word": "gott",
+"rank": 165
+},
+{
+"word": "seine",
+"rank": 166
+},
+{
+"word": "hätte",
+"rank": 167
+},
+{
+"word": "zwei",
+"rank": 168
+},
+{
+"word": "könnte",
+"rank": 169
+},
+{
+"word": "genau",
+"rank": 170
+},
+{
+"word": "waren",
+"rank": 171
+},
+{
+"word": "zur",
+"rank": 172
+},
+{
+"word": "lass",
+"rank": 173
+},
+{
+"word": "klar",
+"rank": 174
+},
+{
+"word": "morgen",
+"rank": 175
+},
+{
+"word": "leute",
+"rank": 176
+},
+{
+"word": "vater",
+"rank": 177
+},
+{
+"word": "schön",
+"rank": 178
+},
+{
+"word": "glaube",
+"rank": 179
+},
+{
+"word": "mr.",
+"rank": 180
+},
+{
+"word": "ab",
+"rank": 181
+},
+{
+"word": "gerade",
+"rank": 182
+},
+{
+"word": "tag",
+"rank": 183
+},
+{
+"word": "gesehen",
+"rank": 184
+},
+{
+"word": "reden",
+"rank": 185
+},
+{
+"word": "wohl",
+"rank": 186
+},
+{
+"word": "liebe",
+"rank": 187
+},
+{
+"word": "sollte",
+"rank": 188
+},
+{
+"word": "sagte",
+"rank": 189
+},
+{
+"word": "unsere",
+"rank": 190
+},
+{
+"word": "jemand",
+"rank": 191
+},
+{
+"word": "geld",
+"rank": 192
+},
+{
+"word": "durch",
+"rank": 193
+},
+{
+"word": "ob",
+"rank": 194
+},
+{
+"word": "keinen",
+"rank": 195
+},
+{
+"word": "mutter",
+"rank": 196
+},
+{
+"word": "raus",
+"rank": 197
+},
+{
+"word": "gemacht",
+"rank": 198
+},
+{
+"word": "paar",
+"rank": 199
+},
+{
+"word": "mach",
+"rank": 200
+}
+]

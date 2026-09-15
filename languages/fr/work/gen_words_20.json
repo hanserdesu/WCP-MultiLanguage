@@ -1,0 +1,602 @@
+[
+{
+"word": "peu",
+"pos": "n.m.",
+"zh": "少；稍许；不太",
+"level": "a2"
+},
+{
+"word": "pharmacie",
+"pos": "n.f.",
+"zh": "药房；药学",
+"level": "a2"
+},
+{
+"word": "pharmacien",
+"pos": "n.m.",
+"zh": "药剂师",
+"level": "a2"
+},
+{
+"word": "photocopie",
+"pos": "n.f.",
+"zh": "复印件",
+"level": "a2"
+},
+{
+"word": "photographe",
+"pos": "n.",
+"zh": "摄影师",
+"level": "a2"
+},
+{
+"word": "photographie",
+"pos": "n.f.",
+"zh": "照片；摄影",
+"level": "a2"
+},
+{
+"word": "photographier",
+"pos": "v.",
+"zh": "拍摄；拍照",
+"level": "a2"
+},
+{
+"word": "physique",
+"pos": "adj.",
+"zh": "身体的；物理的",
+"level": "a2"
+},
+{
+"word": "physiquement",
+"pos": "adv.",
+"zh": "身体上；体力上",
+"level": "a2"
+},
+{
+"word": "phénomène",
+"pos": "n.m.",
+"zh": "现象；杰出人物",
+"level": "a2"
+},
+{
+"word": "pianiste",
+"pos": "n.",
+"zh": "钢琴家；钢琴师",
+"level": "a2"
+},
+{
+"word": "pierre",
+"pos": "n.f.",
+"zh": "石头",
+"level": "a2"
+},
+{
+"word": "pigeon",
+"pos": "n.m.",
+"zh": "鸽子",
+"level": "a2"
+},
+{
+"word": "pile",
+"pos": "n.f.",
+"zh": "电池；一堆",
+"level": "a2"
+},
+{
+"word": "pilote",
+"pos": "n.",
+"zh": "飞行员；领航员",
+"level": "a2"
+},
+{
+"word": "pin",
+"pos": "n.m.",
+"zh": "松树",
+"level": "a2"
+},
+{
+"word": "pinceau",
+"pos": "n.m.",
+"zh": "画笔；刷子",
+"level": "a2"
+},
+{
+"word": "ping-pong",
+"pos": "n.m.",
+"zh": "乒乓球",
+"level": "a2"
+},
+{
+"word": "pingouin",
+"pos": "n.m.",
+"zh": "企鹅；海雀",
+"level": "a2"
+},
+{
+"word": "pipe",
+"pos": "n.f.",
+"zh": "烟斗；管道",
+"level": "a2"
+},
+{
+"word": "pipi",
+"pos": "n.m.",
+"zh": "尿尿（儿语）",
+"level": "a2"
+},
+{
+"word": "pique-nique",
+"pos": "n.m.",
+"zh": "野餐",
+"level": "a2"
+},
+{
+"word": "piquer",
+"pos": "v.",
+"zh": "刺；扎；叮；偷（口语）",
+"level": "a2"
+},
+{
+"word": "piqûre",
+"pos": "n.f.",
+"zh": "注射；叮咬",
+"level": "a2"
+},
+{
+"word": "pirate",
+"pos": "n.m.",
+"zh": "海盗",
+"level": "a2"
+},
+{
+"word": "pis",
+"pos": "adv.",
+"zh": "更糟（惯用语）",
+"level": "a2"
+},
+{
+"word": "pistolet",
+"pos": "n.m.",
+"zh": "手枪",
+"level": "a2"
+},
+{
+"word": "pièce",
+"pos": "n.f.",
+"zh": "房间；硬币；件",
+"level": "a2"
+},
+{
+"word": "piège",
+"pos": "n.m.",
+"zh": "陷阱；圈套",
+"level": "a2"
+},
+{
+"word": "placard",
+"pos": "n.m.",
+"zh": "壁橱；柜子",
+"level": "a2"
+},
+{
+"word": "placer",
+"pos": "v.",
+"zh": "放置；安放；安排",
+"level": "a2"
+},
+{
+"word": "plafond",
+"pos": "n.m.",
+"zh": "天花板；上限",
+"level": "a2"
+},
+{
+"word": "plaire",
+"pos": "v.",
+"zh": "使喜欢；讨人喜欢",
+"level": "a2"
+},
+{
+"word": "plaisir",
+"pos": "n.m.",
+"zh": "快乐；乐趣",
+"level": "a2"
+},
+{
+"word": "plan",
+"pos": "n.m.",
+"zh": "计划；平面图；地图",
+"level": "a2"
+},
+{
+"word": "planche",
+"pos": "n.f.",
+"zh": "木板；板",
+"level": "a2"
+},
+{
+"word": "plancher",
+"pos": "n.m.",
+"zh": "地板",
+"level": "a2"
+},
+{
+"word": "planter",
+"pos": "v.",
+"zh": "种植；钉进",
+"level": "a2"
+},
+{
+"word": "planète",
+"pos": "n.f.",
+"zh": "行星；地球",
+"level": "a2"
+},
+{
+"word": "plaque",
+"pos": "n.f.",
+"zh": "板；牌子；斑块",
+"level": "a2"
+},
+{
+"word": "plastique",
+"pos": "n.",
+"zh": "塑料；塑料的",
+"level": "a2"
+},
+{
+"word": "plein",
+"pos": "adj.",
+"zh": "满的；充满的",
+"level": "a2"
+},
+{
+"word": "pleurer",
+"pos": "v.",
+"zh": "哭；哭泣",
+"level": "a2"
+},
+{
+"word": "plonger",
+"pos": "v.",
+"zh": "跳入；潜水",
+"level": "a2"
+},
+{
+"word": "plongeur",
+"pos": "n.m.",
+"zh": "潜水员；洗碗工",
+"level": "a2"
+},
+{
+"word": "plume",
+"pos": "n.f.",
+"zh": "羽毛；钢笔",
+"level": "a2"
+},
+{
+"word": "plusieurs",
+"pos": "adj.",
+"zh": "几个；多个",
+"level": "a2"
+},
+{
+"word": "plutôt",
+"pos": "adv.",
+"zh": "宁可；宁愿；更确切地说",
+"level": "a2"
+},
+{
+"word": "pneu",
+"pos": "n.m.",
+"zh": "轮胎",
+"level": "a2"
+},
+{
+"word": "poche",
+"pos": "n.",
+"zh": "口袋",
+"level": "a2"
+},
+{
+"word": "poids",
+"pos": "n.m.",
+"zh": "重量；分量",
+"level": "a2"
+},
+{
+"word": "poignet",
+"pos": "n.m.",
+"zh": "手腕",
+"level": "a2"
+},
+{
+"word": "poil",
+"pos": "n.m.",
+"zh": "毛；毛发",
+"level": "a2"
+},
+{
+"word": "point",
+"pos": "n.m.",
+"zh": "点；要点；分数",
+"level": "a2"
+},
+{
+"word": "poire",
+"pos": "n.f.",
+"zh": "梨",
+"level": "a2"
+},
+{
+"word": "pois",
+"pos": "n.m.",
+"zh": "豌豆",
+"level": "a2"
+},
+{
+"word": "poison",
+"pos": "n.m.",
+"zh": "毒药",
+"level": "a2"
+},
+{
+"word": "poivre",
+"pos": "n.m.",
+"zh": "胡椒",
+"level": "a2"
+},
+{
+"word": "poker",
+"pos": "n.m.",
+"zh": "扑克（牌戏）",
+"level": "a2"
+},
+{
+"word": "poli",
+"pos": "adj.",
+"zh": "有礼貌的；光滑的",
+"level": "a2"
+},
+{
+"word": "policier",
+"pos": "n.m.",
+"zh": "警察；警探",
+"level": "a2"
+},
+{
+"word": "pollution",
+"pos": "n.f.",
+"zh": "污染",
+"level": "a2"
+},
+{
+"word": "polonais",
+"pos": "adj.",
+"zh": "波兰的；波兰人；波兰语",
+"level": "a2"
+},
+{
+"word": "pompe",
+"pos": "n.f.",
+"zh": "泵；抽水机",
+"level": "a2"
+},
+{
+"word": "ponctuel",
+"pos": "adj.",
+"zh": "准时的；守时的",
+"level": "a2"
+},
+{
+"word": "pont",
+"pos": "n.m.",
+"zh": "桥",
+"level": "a2"
+},
+{
+"word": "pop-corn",
+"pos": "n.m.",
+"zh": "爆米花",
+"level": "a2"
+},
+{
+"word": "populaire",
+"pos": "adj.",
+"zh": "大众的；受欢迎的",
+"level": "a2"
+},
+{
+"word": "population",
+"pos": "n.f.",
+"zh": "人口；居民",
+"level": "a2"
+},
+{
+"word": "porc",
+"pos": "n.m.",
+"zh": "猪肉；猪",
+"level": "a2"
+},
+{
+"word": "port",
+"pos": "n.m.",
+"zh": "港口",
+"level": "a2"
+},
+{
+"word": "portable",
+"pos": "adj.",
+"zh": "便携的；手机",
+"level": "a2"
+},
+{
+"word": "portefeuille",
+"pos": "n.m.",
+"zh": "钱包；皮夹",
+"level": "a2"
+},
+{
+"word": "portier",
+"pos": "n.m.",
+"zh": "门房；门卫",
+"level": "a2"
+},
+{
+"word": "portugais",
+"pos": "n.m.",
+"zh": "葡萄牙的；葡萄牙人；葡萄牙语",
+"level": "a2"
+},
+{
+"word": "pose",
+"pos": "n.f.",
+"zh": "姿势；姿态",
+"level": "a2"
+},
+{
+"word": "poser",
+"pos": "v.",
+"zh": "放；放下；提出",
+"level": "a2"
+},
+{
+"word": "positif",
+"pos": "adj.",
+"zh": "积极的；阳性的",
+"level": "a2"
+},
+{
+"word": "possibilité",
+"pos": "n.f.",
+"zh": "可能性",
+"level": "a2"
+},
+{
+"word": "pot",
+"pos": "n.m.",
+"zh": "罐；盆；运气（口语）",
+"level": "a2"
+},
+{
+"word": "poubelle",
+"pos": "n.f.",
+"zh": "垃圾桶",
+"level": "a2"
+},
+{
+"word": "pouce",
+"pos": "n.m.",
+"zh": "拇指",
+"level": "a2"
+},
+{
+"word": "poudre",
+"pos": "n.f.",
+"zh": "粉末；火药",
+"level": "a2"
+},
+{
+"word": "poule",
+"pos": "n.f.",
+"zh": "母鸡",
+"level": "a2"
+},
+{
+"word": "poupée",
+"pos": "n.f.",
+"zh": "玩偶；布娃娃",
+"level": "a2"
+},
+{
+"word": "pourboire",
+"pos": "n.m.",
+"zh": "小费",
+"level": "a2"
+},
+{
+"word": "pousser",
+"pos": "v.",
+"zh": "推；推动；促使",
+"level": "a2"
+},
+{
+"word": "poussin",
+"pos": "n.m.",
+"zh": "小鸡；雏鸟",
+"level": "a2"
+},
+{
+"word": "poème",
+"pos": "n.m.",
+"zh": "诗；诗歌",
+"level": "a2"
+},
+{
+"word": "poète",
+"pos": "n.m.",
+"zh": "诗人",
+"level": "a2"
+},
+{
+"word": "poésie",
+"pos": "n.f.",
+"zh": "诗；诗意",
+"level": "a2"
+},
+{
+"word": "poêle",
+"pos": "n.",
+"zh": "平底锅；火炉",
+"level": "a2"
+},
+{
+"word": "pratique",
+"pos": "adj.",
+"zh": "实用的；方便的",
+"level": "a2"
+},
+{
+"word": "pratiquer",
+"pos": "v.",
+"zh": "从事；进行（运动等）",
+"level": "a2"
+},
+{
+"word": "prier",
+"pos": "v.",
+"zh": "祈祷；恳求",
+"level": "a2"
+},
+{
+"word": "prince",
+"pos": "n.m.",
+"zh": "王子；亲王",
+"level": "a2"
+},
+{
+"word": "principal",
+"pos": "adj.",
+"zh": "主要的",
+"level": "a2"
+},
+{
+"word": "principalement",
+"pos": "adv.",
+"zh": "主要地",
+"level": "a2"
+},
+{
+"word": "prison",
+"pos": "n.f.",
+"zh": "监狱",
+"level": "a2"
+},
+{
+"word": "prisonnier",
+"pos": "n.m.",
+"zh": "囚犯；俘虏",
+"level": "a2"
+}
+]

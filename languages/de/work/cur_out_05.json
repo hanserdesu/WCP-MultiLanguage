@@ -1,0 +1,1265 @@
+{
+ "kept": [
+  {
+   "word": "anwalt",
+   "lemma": "Anwalt",
+   "zh": "律师",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "fahr",
+   "lemma": "fahren",
+   "zh": "开车；乘行",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "sitzt",
+   "lemma": "sitzen",
+   "zh": "坐",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "hilf",
+   "lemma": "helfen",
+   "zh": "帮助",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "offen",
+   "zh": "开着的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "müsste",
+   "lemma": "müssen",
+   "zh": "必须",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "arme",
+   "lemma": "arm",
+   "zh": "手臂；可怜的",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "bier",
+   "lemma": "Bier",
+   "zh": "啤酒",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "fürs",
+   "zh": "为了（für das 缩合）",
+   "level": "a2",
+   "pos": "präp."
+  },
+  {
+   "word": "partner",
+   "lemma": "Partner",
+   "zh": "伙伴；搭档",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "klein",
+   "zh": "小的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "klappe",
+   "lemma": "Klappe",
+   "zh": "嘴（口语）；盖子",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "süß",
+   "zh": "甜的；可爱的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "herum",
+   "zh": "到处；四周",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "finger",
+   "lemma": "Finger",
+   "zh": "手指",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "ehe",
+   "zh": "在…之前；婚姻",
+   "level": "a2",
+   "pos": "konj."
+  },
+  {
+   "word": "rolle",
+   "lemma": "Rolle",
+   "zh": "角色",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "ließ",
+   "lemma": "lassen",
+   "zh": "让；使",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "gleiche",
+   "zh": "相同的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "monat",
+   "lemma": "Monat",
+   "zh": "月",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "hochzeit",
+   "lemma": "Hochzeit",
+   "zh": "婚礼",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "führt",
+   "lemma": "führen",
+   "zh": "引导；领导",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "wach",
+   "zh": "醒着的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "wozu",
+   "zh": "为什么目的",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "arm",
+   "zh": "手臂；可怜的",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "geschrieben",
+   "lemma": "schreiben",
+   "zh": "写",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "chef",
+   "lemma": "Chef",
+   "zh": "老板；上司",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "benutzen",
+   "zh": "使用",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "informationen",
+   "lemma": "Information",
+   "zh": "信息",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "erledigt",
+   "lemma": "erledigen",
+   "zh": "完成",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "hoffentlich",
+   "zh": "但愿",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "müsst",
+   "lemma": "müssen",
+   "zh": "必须",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "fühlt",
+   "lemma": "fühlen",
+   "zh": "感觉",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "tanzen",
+   "zh": "跳舞",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "ansehen",
+   "zh": "看；观看",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "darfst",
+   "lemma": "dürfen",
+   "zh": "允许；可以",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "zuhause",
+   "zh": "在家",
+   "level": "a1",
+   "pos": "adv."
+  },
+  {
+   "word": "wunderbar",
+   "zh": "美妙的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "hältst",
+   "lemma": "halten",
+   "zh": "握住；保持",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "reise",
+   "lemma": "Reise",
+   "zh": "旅行",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "gewonnen",
+   "lemma": "gewinnen",
+   "zh": "赢",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "dame",
+   "lemma": "Dame",
+   "zh": "女士",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "irgendwann",
+   "zh": "某个时候",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "steckt",
+   "lemma": "stecken",
+   "zh": "放置；插",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "jedenfalls",
+   "zh": "无论如何",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "schreit",
+   "lemma": "schreien",
+   "zh": "喊叫",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "tolle",
+   "lemma": "toll",
+   "zh": "极好的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "rüber",
+   "zh": "过去（口语）",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "tschüss",
+   "zh": "再见",
+   "level": "a1",
+   "pos": "interj."
+  },
+  {
+   "word": "nennt",
+   "lemma": "nennen",
+   "zh": "称呼",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "raum",
+   "lemma": "Raum",
+   "zh": "空间；房间",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "heiß",
+   "zh": "热的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "foto",
+   "lemma": "Foto",
+   "zh": "照片",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "kalt",
+   "zh": "冷的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "irgendetwas",
+   "zh": "某事",
+   "level": "a2",
+   "pos": "pron."
+  },
+  {
+   "word": "weile",
+   "lemma": "Weile",
+   "zh": "一会儿",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "bisher",
+   "zh": "至今",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "minute",
+   "lemma": "Minute",
+   "zh": "分钟",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "unbedingt",
+   "zh": "无论如何；绝对",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "zug",
+   "lemma": "Zug",
+   "zh": "火车",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "sekunden",
+   "lemma": "Sekunde",
+   "zh": "秒",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "wofür",
+   "zh": "为了什么",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "erzähl",
+   "lemma": "erzählen",
+   "zh": "讲述",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "beweise",
+   "lemma": "beweisen",
+   "zh": "证明",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "nahm",
+   "lemma": "nehmen",
+   "zh": "拿；取",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "freut",
+   "lemma": "freuen",
+   "zh": "使高兴",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "seele",
+   "lemma": "Seele",
+   "zh": "灵魂",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "schießen",
+   "zh": "射击",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "müde",
+   "zh": "累的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "dauert",
+   "lemma": "dauern",
+   "zh": "持续",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "magst",
+   "lemma": "mögen",
+   "zh": "喜欢",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "brief",
+   "lemma": "Brief",
+   "zh": "信",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "gelernt",
+   "lemma": "lernen",
+   "zh": "学习",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "sucht",
+   "lemma": "suchen",
+   "zh": "寻找",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "bekannt",
+   "zh": "熟知的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "weitere",
+   "zh": "更多的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "unfall",
+   "lemma": "Unfall",
+   "zh": "事故",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "dahin",
+   "zh": "到那里",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "kontrolle",
+   "lemma": "Kontrolle",
+   "zh": "控制",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "beispiel",
+   "lemma": "Beispiel",
+   "zh": "例子",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "dasselbe",
+   "zh": "同样的",
+   "level": "a2",
+   "pos": "pron."
+  },
+  {
+   "word": "schlagen",
+   "zh": "打；击",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "wütend",
+   "zh": "生气的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "weise",
+   "lemma": "Weise",
+   "zh": "方式",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "damen",
+   "lemma": "Dame",
+   "zh": "女士",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "darin",
+   "zh": "在其中",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "holt",
+   "lemma": "holen",
+   "zh": "取来",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "fehlt",
+   "lemma": "fehlen",
+   "zh": "缺少",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "vorsicht",
+   "lemma": "Vorsicht",
+   "zh": "小心",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "beweisen",
+   "zh": "证明",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "gehabt",
+   "lemma": "haben",
+   "zh": "有",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "zumindest",
+   "zh": "至少",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "vermisst",
+   "lemma": "vermissen",
+   "zh": "想念",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "hübsch",
+   "zh": "漂亮的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "kriegt",
+   "lemma": "kriegen",
+   "zh": "得到（口语）",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "verbindung",
+   "lemma": "Verbindung",
+   "zh": "联系",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "tief",
+   "zh": "深的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "richtung",
+   "lemma": "Richtung",
+   "zh": "方向",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "lage",
+   "lemma": "Lage",
+   "zh": "情况；位置",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "sowieso",
+   "zh": "反正",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "kraft",
+   "lemma": "Kraft",
+   "zh": "力量",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "normal",
+   "zh": "正常的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "lauf",
+   "lemma": "laufen",
+   "zh": "跑；运行",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "ehre",
+   "lemma": "Ehre",
+   "zh": "荣誉",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "stell",
+   "lemma": "stellen",
+   "zh": "放置；提出",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "geschenk",
+   "lemma": "Geschenk",
+   "zh": "礼物",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "bar",
+   "lemma": "Bar",
+   "zh": "酒吧",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "tasche",
+   "lemma": "Tasche",
+   "zh": "包；口袋",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "gelesen",
+   "lemma": "lesen",
+   "zh": "读",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "gekauft",
+   "lemma": "kaufen",
+   "zh": "买",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "wussten",
+   "lemma": "wissen",
+   "zh": "知道",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "gestohlen",
+   "lemma": "stehlen",
+   "zh": "偷",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "hunger",
+   "lemma": "Hunger",
+   "zh": "饥饿",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "leg",
+   "lemma": "legen",
+   "zh": "放；躺下",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "lügen",
+   "lemma": "lügen",
+   "zh": "撒谎",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "beziehung",
+   "lemma": "Beziehung",
+   "zh": "关系",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "verschwunden",
+   "lemma": "verschwinden",
+   "zh": "消失",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "steh",
+   "lemma": "stehen",
+   "zh": "站立；处于",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "gearbeitet",
+   "lemma": "arbeiten",
+   "zh": "工作",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "preis",
+   "lemma": "Preis",
+   "zh": "价格",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "witz",
+   "lemma": "Witz",
+   "zh": "笑话",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "meinte",
+   "lemma": "meinen",
+   "zh": "认为；指的是",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "liste",
+   "lemma": "Liste",
+   "zh": "清单",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "geist",
+   "lemma": "Geist",
+   "zh": "精神；幽灵",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "neben",
+   "zh": "在…旁边",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "gesucht",
+   "lemma": "suchen",
+   "zh": "寻找",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "firma",
+   "lemma": "Firma",
+   "zh": "公司",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "rücken",
+   "lemma": "Rücken",
+   "zh": "背",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "schrecklich",
+   "zh": "可怕的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "verliebt",
+   "zh": "恋爱的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "öffnen",
+   "zh": "打开",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "redet",
+   "lemma": "reden",
+   "zh": "谈论；说话",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "boot",
+   "lemma": "Boot",
+   "zh": "小船",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "seltsam",
+   "zh": "奇怪的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "versteckt",
+   "lemma": "verstecken",
+   "zh": "藏；隐藏",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "fürchte",
+   "lemma": "fürchten",
+   "zh": "害怕",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "verschwinde",
+   "lemma": "verschwinden",
+   "zh": "消失",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "erwischt",
+   "lemma": "erwischen",
+   "zh": "抓住（口语）",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "verkauft",
+   "lemma": "verkaufen",
+   "zh": "卖",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "tante",
+   "lemma": "Tante",
+   "zh": "姑姑；阿姨",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "erwarten",
+   "zh": "期待",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "pferd",
+   "lemma": "Pferd",
+   "zh": "马",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "wunder",
+   "lemma": "Wunder",
+   "zh": "奇迹",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "sauer",
+   "zh": "酸的；生气的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "vermutlich",
+   "zh": "大概",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "näher",
+   "zh": "更近",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "major",
+   "lemma": "Major",
+   "zh": "少校",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "jung",
+   "zh": "年轻的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "majestät",
+   "lemma": "Majestät",
+   "zh": "陛下",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "aussehen",
+   "zh": "看起来",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "ans",
+   "zh": "到…旁（an das 缩合）",
+   "level": "a1",
+   "pos": "präp."
+  },
+  {
+   "word": "links",
+   "zh": "左边的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "welches",
+   "lemma": "welcher",
+   "zh": "哪一个",
+   "level": "a1",
+   "pos": "pron."
+  },
+  {
+   "word": "beschützen",
+   "zh": "保护",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "geboren",
+   "zh": "出生的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "erreichen",
+   "zh": "达到",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "punkt",
+   "lemma": "Punkt",
+   "zh": "点；要点",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "kirche",
+   "lemma": "Kirche",
+   "zh": "教堂",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "verraten",
+   "zh": "泄露；背叛",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "selber",
+   "zh": "自己（口语）",
+   "level": "a2",
+   "pos": "pron."
+  },
+  {
+   "word": "befehl",
+   "lemma": "Befehl",
+   "zh": "命令",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "fährt",
+   "lemma": "fahren",
+   "zh": "开车；乘行",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "zieht",
+   "lemma": "ziehen",
+   "zh": "拉；搬",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "geburtstag",
+   "lemma": "Geburtstag",
+   "zh": "生日",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "haut",
+   "lemma": "Haut",
+   "zh": "皮肤",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "wette",
+   "lemma": "Wette",
+   "zh": "打赌",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "reich",
+   "zh": "富有的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "sekunde",
+   "lemma": "Sekunde",
+   "zh": "秒",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "fahre",
+   "lemma": "fahren",
+   "zh": "开车；乘行",
+   "level": "a1",
+   "pos": "v."
+  },
+  {
+   "word": "schwöre",
+   "lemma": "schwören",
+   "zh": "发誓",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "geredet",
+   "lemma": "reden",
+   "zh": "谈论；说话",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "zeiten",
+   "lemma": "Zeit",
+   "zh": "时间",
+   "level": "a1",
+   "pos": "n.f."
+  },
+  {
+   "word": "traurig",
+   "zh": "悲伤的",
+   "level": "a1",
+   "pos": "adj."
+  }
+ ],
+ "drop": [
+  {
+   "word": "herzen",
+   "reason": "变格形式"
+  },
+  {
+   "word": "schönen",
+   "reason": "变格形式"
+  },
+  {
+   "word": "monsieur",
+   "reason": "法语词"
+  },
+  {
+   "word": "david",
+   "reason": "专名"
+  },
+  {
+   "word": "max",
+   "reason": "专名"
+  },
+  {
+   "word": "paris",
+   "reason": "专名"
+  },
+  {
+   "word": "chffffff",
+   "reason": "乱码"
+  },
+  {
+   "word": "alex",
+   "reason": "专名"
+  },
+  {
+   "word": "paul",
+   "reason": "专名"
+  },
+  {
+   "word": "nen",
+   "reason": "口语缩略"
+  },
+  {
+   "word": "aller",
+   "reason": "变格形式"
+  },
+  {
+   "word": "harry",
+   "reason": "专名"
+  },
+  {
+   "word": "lady",
+   "reason": "英语借词"
+  },
+  {
+   "word": "gottes",
+   "reason": "变格形式"
+  },
+  {
+   "word": "heiße",
+   "reason": "变格形式"
+  },
+  {
+   "word": "ben",
+   "reason": "专名"
+  },
+  {
+   "word": "nächstes",
+   "reason": "变格形式"
+  },
+  {
+   "word": "süße",
+   "reason": "变格形式"
+  },
+  {
+   "word": "letzter",
+   "reason": "变格形式"
+  },
+  {
+   "word": "de",
+   "reason": "法语词"
+  },
+  {
+   "word": "and",
+   "reason": "英语借词"
+  },
+  {
+   "word": "großes",
+   "reason": "变格形式"
+  },
+  {
+   "word": "kindern",
+   "reason": "变格形式"
+  },
+  {
+   "word": "colonel",
+   "reason": "英语借词"
+  },
+  {
+   "word": "james",
+   "reason": "专名"
+  },
+  {
+   "word": "madame",
+   "reason": "法语词"
+  },
+  {
+   "word": "eigene",
+   "reason": "变格形式"
+  }
+ ],
+ "dedup": []
+}

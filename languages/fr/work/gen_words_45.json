@@ -1,0 +1,602 @@
+[
+{
+"word": "opération",
+"pos": "n.f.",
+"zh": "手术；行动；运算",
+"level": "b1"
+},
+{
+"word": "opérer",
+"pos": "v.",
+"zh": "做手术；施行",
+"level": "b1"
+},
+{
+"word": "orchidée",
+"pos": "n.f.",
+"zh": "兰花",
+"level": "b1"
+},
+{
+"word": "ordonner",
+"pos": "v.",
+"zh": "命令；规定",
+"level": "b1"
+},
+{
+"word": "ordure",
+"pos": "n.f.",
+"zh": "垃圾；卑鄙的人（骂）",
+"level": "b1"
+},
+{
+"word": "organe",
+"pos": "n.m.",
+"zh": "器官",
+"level": "b1"
+},
+{
+"word": "organisateur",
+"pos": "n.m.",
+"zh": "组织者",
+"level": "b1"
+},
+{
+"word": "organisé",
+"pos": "adj.",
+"zh": "有组织的；有条理的",
+"level": "b1"
+},
+{
+"word": "orgue",
+"pos": "n.m.",
+"zh": "管风琴",
+"level": "b1"
+},
+{
+"word": "orgueil",
+"pos": "n.m.",
+"zh": "骄傲；傲慢",
+"level": "b1"
+},
+{
+"word": "oriental",
+"pos": "adj.",
+"zh": "东方的",
+"level": "b1"
+},
+{
+"word": "orientation",
+"pos": "n.f.",
+"zh": "方向；定位",
+"level": "b1"
+},
+{
+"word": "orienter",
+"pos": "v.",
+"zh": "指引；定向",
+"level": "b1"
+},
+{
+"word": "originaire",
+"pos": "adj.",
+"zh": "出生于……的；原产于……的",
+"level": "b1"
+},
+{
+"word": "original",
+"pos": "adj.",
+"zh": "原先的；独创的；原件",
+"level": "b1"
+},
+{
+"word": "orphelin",
+"pos": "adj.",
+"zh": "孤儿；失去双亲的",
+"level": "b1"
+},
+{
+"word": "orphelinat",
+"pos": "n.m.",
+"zh": "孤儿院",
+"level": "b1"
+},
+{
+"word": "orthographe",
+"pos": "n.f.",
+"zh": "拼写；正字法",
+"level": "b1"
+},
+{
+"word": "oser",
+"pos": "v.",
+"zh": "敢；敢于",
+"level": "b1"
+},
+{
+"word": "otage",
+"pos": "n.m.",
+"zh": "人质",
+"level": "b1"
+},
+{
+"word": "oubli",
+"pos": "n.m.",
+"zh": "遗忘；疏漏",
+"level": "b1"
+},
+{
+"word": "ouragan",
+"pos": "n.m.",
+"zh": "飓风",
+"level": "b1"
+},
+{
+"word": "out",
+"pos": "adj.",
+"zh": "出局；过时（口语）",
+"level": "b1"
+},
+{
+"word": "ouverture",
+"pos": "n.f.",
+"zh": "打开；开幕；开端",
+"level": "b1"
+},
+{
+"word": "ouvrage",
+"pos": "n.m.",
+"zh": "作品；著作；工程",
+"level": "b1"
+},
+{
+"word": "ovni",
+"pos": "n.m.",
+"zh": "不明飞行物",
+"level": "b1"
+},
+{
+"word": "pacifique",
+"pos": "adj.",
+"zh": "和平的；温和的",
+"level": "b1"
+},
+{
+"word": "pacte",
+"pos": "n.m.",
+"zh": "条约；契约",
+"level": "b1"
+},
+{
+"word": "paiement",
+"pos": "n.m.",
+"zh": "支付；付款",
+"level": "b1"
+},
+{
+"word": "paille",
+"pos": "n.f.",
+"zh": "稻草；麦秆；吸管",
+"level": "b1"
+},
+{
+"word": "pair",
+"pos": "n.m.",
+"zh": "偶数；同等的人",
+"level": "b1"
+},
+{
+"word": "paisible",
+"pos": "adj.",
+"zh": "宁静的；平和的",
+"level": "b1"
+},
+{
+"word": "palace",
+"pos": "n.m.",
+"zh": "豪华大饭店；宫殿",
+"level": "b1"
+},
+{
+"word": "palestinien",
+"pos": "adj.",
+"zh": "巴勒斯坦的；巴勒斯坦人",
+"level": "b1"
+},
+{
+"word": "pancarte",
+"pos": "n.f.",
+"zh": "标牌；告示牌",
+"level": "b1"
+},
+{
+"word": "panique",
+"pos": "n.f.",
+"zh": "恐慌",
+"level": "b1"
+},
+{
+"word": "paniquer",
+"pos": "v.",
+"zh": "恐慌；惊慌失措",
+"level": "b1"
+},
+{
+"word": "panne",
+"pos": "n.f.",
+"zh": "故障；抛锚",
+"level": "b1"
+},
+{
+"word": "pantoufle",
+"pos": "n.f.",
+"zh": "拖鞋",
+"level": "b1"
+},
+{
+"word": "pape",
+"pos": "n.m.",
+"zh": "教皇",
+"level": "b1"
+},
+{
+"word": "par-dessus",
+"pos": "prép.",
+"zh": "在…上方；越过",
+"level": "b1"
+},
+{
+"word": "parachute",
+"pos": "n.m.",
+"zh": "降落伞",
+"level": "b1"
+},
+{
+"word": "parallèle",
+"pos": "adj.",
+"zh": "平行的；类似的",
+"level": "b1"
+},
+{
+"word": "parano",
+"pos": "adj.",
+"zh": "多疑的；偏执的（口语）",
+"level": "b1"
+},
+{
+"word": "parasite",
+"pos": "n.m.",
+"zh": "寄生虫",
+"level": "b1"
+},
+{
+"word": "paraître",
+"pos": "v.",
+"zh": "显得；好像",
+"level": "b1"
+},
+{
+"word": "parcourir",
+"pos": "v.",
+"zh": "跑遍；穿越；浏览",
+"level": "b1"
+},
+{
+"word": "parcours",
+"pos": "n.m.",
+"zh": "路线；历程",
+"level": "b1"
+},
+{
+"word": "paresse",
+"pos": "n.f.",
+"zh": "懒惰；懒散",
+"level": "b1"
+},
+{
+"word": "parfumé",
+"pos": "adj.",
+"zh": "芳香的；喷香水的",
+"level": "b1"
+},
+{
+"word": "pari",
+"pos": "n.m.",
+"zh": "打赌；赌注",
+"level": "b1"
+},
+{
+"word": "parier",
+"pos": "v.",
+"zh": "打赌；下注",
+"level": "b1"
+},
+{
+"word": "parlement",
+"pos": "n.m.",
+"zh": "议会",
+"level": "b1"
+},
+{
+"word": "parlé",
+"pos": "adj.",
+"zh": "口头的；口语的",
+"level": "b1"
+},
+{
+"word": "parquet",
+"pos": "n.m.",
+"zh": "镶木地板；检察院",
+"level": "b1"
+},
+{
+"word": "parrain",
+"pos": "n.m.",
+"zh": "教父；担保人",
+"level": "b1"
+},
+{
+"word": "partage",
+"pos": "n.m.",
+"zh": "分享；分配",
+"level": "b1"
+},
+{
+"word": "parti",
+"pos": "n.m.",
+"zh": "政党",
+"level": "b1"
+},
+{
+"word": "participation",
+"pos": "n.f.",
+"zh": "参加；参与",
+"level": "b1"
+},
+{
+"word": "particulièrement",
+"pos": "adv.",
+"zh": "特别；尤其",
+"level": "b1"
+},
+{
+"word": "partiel",
+"pos": "adj.",
+"zh": "部分的；期中的",
+"level": "b1"
+},
+{
+"word": "passant",
+"pos": "n.m.",
+"zh": "行人；过路人",
+"level": "b1"
+},
+{
+"word": "passe",
+"pos": "n.f.",
+"zh": "传球；关口；一遍",
+"level": "b1"
+},
+{
+"word": "passif",
+"pos": "adj.",
+"zh": "被动的；消极的",
+"level": "b1"
+},
+{
+"word": "passionnant",
+"pos": "adj.",
+"zh": "引人入胜的；迷人的",
+"level": "b1"
+},
+{
+"word": "passionner",
+"pos": "v.",
+"zh": "使着迷",
+"level": "b1"
+},
+{
+"word": "passionné",
+"pos": "adj.",
+"zh": "热情的；痴迷的",
+"level": "b1"
+},
+{
+"word": "patient",
+"pos": "n.m.",
+"zh": "病人",
+"level": "b1"
+},
+{
+"word": "patienter",
+"pos": "v.",
+"zh": "耐心等待",
+"level": "b1"
+},
+{
+"word": "patiner",
+"pos": "v.",
+"zh": "滑冰；打滑",
+"level": "b1"
+},
+{
+"word": "patrie",
+"pos": "n.f.",
+"zh": "祖国",
+"level": "b1"
+},
+{
+"word": "patrimoine",
+"pos": "n.m.",
+"zh": "遗产；文物",
+"level": "b1"
+},
+{
+"word": "patriote",
+"pos": "n.",
+"zh": "爱国者",
+"level": "b1"
+},
+{
+"word": "patriotisme",
+"pos": "n.m.",
+"zh": "爱国主义；爱国心",
+"level": "b1"
+},
+{
+"word": "patrouille",
+"pos": "n.f.",
+"zh": "巡逻；巡逻队",
+"level": "b1"
+},
+{
+"word": "pauvreté",
+"pos": "n.f.",
+"zh": "贫穷；贫乏",
+"level": "b1"
+},
+{
+"word": "paye",
+"pos": "n.f.",
+"zh": "工资；薪水",
+"level": "b1"
+},
+{
+"word": "peindre",
+"pos": "v.",
+"zh": "画；描绘；粉刷",
+"level": "b1"
+},
+{
+"word": "peiner",
+"pos": "v.",
+"zh": "费力；使难过",
+"level": "b1"
+},
+{
+"word": "pelouse",
+"pos": "n.f.",
+"zh": "草坪",
+"level": "b1"
+},
+{
+"word": "peluche",
+"pos": "n.f.",
+"zh": "绒毛；毛绒玩具",
+"level": "b1"
+},
+{
+"word": "pendule",
+"pos": "n.",
+"zh": "挂钟；摆钟",
+"level": "b1"
+},
+{
+"word": "pension",
+"pos": "n.f.",
+"zh": "养老金；膳宿费",
+"level": "b1"
+},
+{
+"word": "pensée",
+"pos": "n.f.",
+"zh": "思想；想法",
+"level": "b1"
+},
+{
+"word": "pente",
+"pos": "n.f.",
+"zh": "斜坡；坡度",
+"level": "b1"
+},
+{
+"word": "perception",
+"pos": "n.f.",
+"zh": "感知；看法",
+"level": "b1"
+},
+{
+"word": "percer",
+"pos": "v.",
+"zh": "打穿；戳穿",
+"level": "b1"
+},
+{
+"word": "performance",
+"pos": "n.f.",
+"zh": "性能；成绩；表现",
+"level": "b1"
+},
+{
+"word": "permanent",
+"pos": "adj.",
+"zh": "永久的；常设的",
+"level": "b1"
+},
+{
+"word": "personnage",
+"pos": "n.m.",
+"zh": "人物；角色",
+"level": "b1"
+},
+{
+"word": "personnalité",
+"pos": "n.f.",
+"zh": "个性；名人",
+"level": "b1"
+},
+{
+"word": "personnellement",
+"pos": "adv.",
+"zh": "就个人而言；亲自",
+"level": "b1"
+},
+{
+"word": "perspective",
+"pos": "n.f.",
+"zh": "前景；观点",
+"level": "b1"
+},
+{
+"word": "persuader",
+"pos": "v.",
+"zh": "说服；使相信",
+"level": "b1"
+},
+{
+"word": "pertinent",
+"pos": "adj.",
+"zh": "贴切的；中肯的",
+"level": "b1"
+},
+{
+"word": "perturber",
+"pos": "v.",
+"zh": "干扰；扰乱",
+"level": "b1"
+},
+{
+"word": "pervers",
+"pos": "n.m.",
+"zh": "变态者；堕落者",
+"level": "b1"
+},
+{
+"word": "peso",
+"pos": "n.m.",
+"zh": "比索（货币单位）",
+"level": "b1"
+},
+{
+"word": "peste",
+"pos": "n.f.",
+"zh": "鼠疫；瘟疫",
+"level": "b1"
+},
+{
+"word": "peuple",
+"pos": "n.m.",
+"zh": "人民；民族",
+"level": "b1"
+}
+]

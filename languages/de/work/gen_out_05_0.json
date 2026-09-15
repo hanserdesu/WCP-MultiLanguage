@@ -1,0 +1,1402 @@
+{
+ "Jacke": [
+  {
+   "de": "Die Jacke hängt am Haken.",
+   "zh": "夹克挂在挂钩上。"
+  },
+  {
+   "de": "Zieh die Jacke an, es ist kalt.",
+   "zh": "穿上夹克，天冷。"
+  },
+  {
+   "de": "In der Jacke sind die Schlüssel.",
+   "zh": "钥匙在夹克里。"
+  }
+ ],
+ "zuhören": [
+  {
+   "de": "Hör mir bitte zu, es ist wichtig.",
+   "zh": "请听我说，这很重要。"
+  },
+  {
+   "de": "Kinder hören gern Geschichten zu.",
+   "zh": "孩子们爱听故事。"
+  },
+  {
+   "de": "Wer gut zuhört, lernt viel.",
+   "zh": "善于倾听的人学到很多。"
+  }
+ ],
+ "Schlafzimmer": [
+  {
+   "de": "Das Schlafzimmer ist ruhig nach hinten.",
+   "zh": "卧室在后面，很安静。"
+  },
+  {
+   "de": "Im Schlafzimmer steht ein großes Bett.",
+   "zh": "卧室里有一张大床。"
+  },
+  {
+   "de": "Wir streichen das Schlafzimmer neu.",
+   "zh": "我们把卧室重新刷一遍。"
+  }
+ ],
+ "meins": [
+  {
+   "de": "Der rote Rucksack ist meins.",
+   "zh": "红色的背包是我的。"
+  },
+  {
+   "de": "Ist das meins oder deins?",
+   "zh": "这是我的还是你的？"
+  },
+  {
+   "de": "Was meins ist, teile ich gern.",
+   "zh": "我的东西乐意分享。"
+  }
+ ],
+ "Gift": [
+  {
+   "de": "Das Gift für die Mäuse ist giftig.",
+   "zh": "灭鼠药有毒。"
+  },
+  {
+   "de": "Für Hunde ist Schokolade Gift.",
+   "zh": "巧克力对狗来说是毒药。"
+  },
+  {
+   "de": "Das Gift liegt außerhalb der Reichweite.",
+   "zh": "毒药放在够不到的地方。"
+  }
+ ],
+ "Weg": [
+  {
+   "de": "Der Weg zur Schule ist kurz.",
+   "zh": "去学校的路很短。"
+  },
+  {
+   "de": "Wir haben den Weg zum Haus gefunden.",
+   "zh": "我们找到了去那房子的路。"
+  },
+  {
+   "de": "Am Weg stehen alte Linden.",
+   "zh": "路边长着老椴树。"
+  }
+ ],
+ "Mittagessen": [
+  {
+   "de": "Das Mittagessen gibt es um zwölf.",
+   "zh": "午饭十二点开。"
+  },
+  {
+   "de": "Zum Mittagessen gibt es Suppe und Brot.",
+   "zh": "午饭有汤和面包。"
+  },
+  {
+   "de": "Wir nehmen das Mittagessen im Park ein.",
+   "zh": "我们在公园里吃午饭。"
+  }
+ ],
+ "Rock": [
+  {
+   "de": "Der Rock ist aus weichem Stoff.",
+   "zh": "这条裙子是软面料做的。"
+  },
+  {
+   "de": "Sie trägt im Sommer gern einen Rock.",
+   "zh": "她夏天爱穿裙子。"
+  },
+  {
+   "de": "Der kurze Rock ist modern.",
+   "zh": "短裙很时髦。"
+  }
+ ],
+ "Wetter": [
+  {
+   "de": "Das Wetter wird morgen besser.",
+   "zh": "明天天气会转好。"
+  },
+  {
+   "de": "Bei dem Wetter bleiben wir zu Hause.",
+   "zh": "这天气我们待在家里。"
+  },
+  {
+   "de": "Wie ist das Wetter bei dir?",
+   "zh": "你那边天气怎么样？"
+  }
+ ],
+ "Kleidung": [
+  {
+   "de": "Die Kleidung für den Winter ist warm.",
+   "zh": "冬装很保暖。"
+  },
+  {
+   "de": "Wir spenden alte Kleidung.",
+   "zh": "我们捐赠旧衣物。"
+  },
+  {
+   "de": "Sportliche Kleidung trage ich am Wochenende.",
+   "zh": "周末我穿运动装。"
+  }
+ ],
+ "Brot": [
+  {
+   "de": "Das Brot ist heute noch warm.",
+   "zh": "面包今天还是热的。"
+  },
+  {
+   "de": "Kauf ein Brot beim Bäcker.",
+   "zh": "去面包店买个面包。"
+  },
+  {
+   "de": "Ein Stück Brot mit Käse schmeckt immer.",
+   "zh": "面包配奶酪总是好吃。"
+  }
+ ],
+ "Winter": [
+  {
+   "de": "Im Winter schneit es oft bei uns.",
+   "zh": "我们这儿冬天常下雪。"
+  },
+  {
+   "de": "Der Winter war diesmal mild.",
+   "zh": "今年冬天很温和。"
+  },
+  {
+   "de": "Im Winter fahren wir in die Berge.",
+   "zh": "冬天我们去山里。"
+  }
+ ],
+ "blau": [
+  {
+   "de": "Der Himmel ist heute blau.",
+   "zh": "今天天空是蓝色的。"
+  },
+  {
+   "de": "Sie trägt ein blaues Kleid.",
+   "zh": "她穿一条蓝裙子。"
+  },
+  {
+   "de": "Mein Lieblingsauto ist das blaue.",
+   "zh": "我最喜欢蓝色的车。"
+  }
+ ],
+ "Fernseher": [
+  {
+   "de": "Der Fernseher ist zu groß fürs Zimmer.",
+   "zh": "电视机对房间来说太大。"
+  },
+  {
+   "de": "Abends sitzen wir vor dem Fernseher.",
+   "zh": "晚上我们坐在电视机前。"
+  },
+  {
+   "de": "Der neue Fernseher hat ein klares Bild.",
+   "zh": "新电视画面很清晰。"
+  }
+ ],
+ "Europa": [
+  {
+   "de": "Wir reisen quer durch Europa.",
+   "zh": "我们横穿欧洲旅行。"
+  },
+  {
+   "de": "Europa hat viele kleine Sprachen.",
+   "zh": "欧洲有许多小语种。"
+  },
+  {
+   "de": "Vom Norden bis Süden ist Europa grün.",
+   "zh": "从北到南欧洲都是绿的。"
+  }
+ ],
+ "Deutschland": [
+  {
+   "de": "Deutschland hat viele große Städte.",
+   "zh": "德国有许多大城市。"
+  },
+  {
+   "de": "In Deutschland beginnt die Schule früh.",
+   "zh": "在德国上学很早。"
+  },
+  {
+   "de": "Wir fahren durch Deutschland nach Österreich.",
+   "zh": "我们开车穿过德国去奥地利。"
+  }
+ ],
+ "null": [
+  {
+   "de": "Das Spiel endete null zu null.",
+   "zh": "比赛零比零结束。"
+  },
+  {
+   "de": "Bei null Grad gefriert Wasser.",
+   "zh": "零度时水结冰。"
+  },
+  {
+   "de": "Seine Geduld ist bei null.",
+   "zh": "他的耐心已为零。"
+  }
+ ],
+ "hungrig": [
+  {
+   "de": "Ich bin hungrig wie ein Wolf.",
+   "zh": "我饿得像狼一样。"
+  },
+  {
+   "de": "Die hungrigen Kinder warten aufs Essen.",
+   "zh": "饥饿的孩子们等着吃饭。"
+  },
+  {
+   "de": "Bist du hungrig nach der Arbeit?",
+   "zh": "下班后你饿吗？"
+  }
+ ],
+ "Pizza": [
+  {
+   "de": "Am Freitag bestellen wir Pizza.",
+   "zh": "周五我们订披萨。"
+  },
+  {
+   "de": "Die Pizza ist noch heiß aus dem Ofen.",
+   "zh": "披萨刚出炉还热着。"
+  },
+  {
+   "de": "Eine Pizza für zwei reicht.",
+   "zh": "两人吃一份披萨够了。"
+  }
+ ],
+ "Kilometer": [
+  {
+   "de": "Der Strand ist zwei Kilometer weit.",
+   "zh": "海滩有两公里远。"
+  },
+  {
+   "de": "Wir laufen jeden Tag fünf Kilometer.",
+   "zh": "我们每天跑五公里。"
+  },
+  {
+   "de": "Der Wagen hat 100000 Kilometer gefahren.",
+   "zh": "这车已经跑了十万公里。"
+  }
+ ],
+ "Mittag": [
+  {
+   "de": "Um Mittag essen wir warm.",
+   "zh": "我们中午吃热食。"
+  },
+  {
+   "de": "Am Mittag ist die Sonne am höchsten.",
+   "zh": "正午太阳最高。"
+  },
+  {
+   "de": "Bis Mittag ist die Arbeit fertig.",
+   "zh": "到中午工作就完成了。"
+  }
+ ],
+ "tausend": [
+  {
+   "de": "Das Dorf hat tausend Einwohner.",
+   "zh": "这个村子有一千居民。"
+  },
+  {
+   "de": "Tausend Dank für die Hilfe!",
+   "zh": "万分感谢你的帮助！"
+  },
+  {
+   "de": "Tausende Sterne sind heute Nacht sichtbar.",
+   "zh": "今晚能看到数千颗星星。"
+  }
+ ],
+ "Mexiko": [
+  {
+   "de": "Mexiko ist bekannt für seine Küche.",
+   "zh": "墨西哥以美食闻名。"
+  },
+  {
+   "de": "Sie reist drei Wochen nach Mexiko.",
+   "zh": "她去墨西哥旅行三周。"
+  },
+  {
+   "de": "Der Freund arbeitet in Mexiko.",
+   "zh": "朋友在墨西哥工作。"
+  }
+ ],
+ "lecker": [
+  {
+   "de": "Die Suppe ist wirklich lecker.",
+   "zh": "这汤真的很好喝。"
+  },
+  {
+   "de": "Der Kuchen riecht lecker.",
+   "zh": "蛋糕闻起来很香。"
+  },
+  {
+   "de": "Das war lecker, danke fürs Kochen.",
+   "zh": "很好吃，谢谢你的手艺。"
+  }
+ ],
+ "Internet": [
+  {
+   "de": "Das Internet ist im Hotel langsam.",
+   "zh": "酒店的网络很慢。"
+  },
+  {
+   "de": "Ich suche die Zugzeiten im Internet.",
+   "zh": "我在网上查火车时刻。"
+  },
+  {
+   "de": "Ohne Internet geht heute kaum etwas.",
+   "zh": "如今没有网络几乎寸步难行。"
+  }
+ ],
+ "Schnee": [
+  {
+   "de": "Der Schnee liegt einen halben Meter hoch.",
+   "zh": "积雪有半米深。"
+  },
+  {
+   "de": "Der erste Schnee kommt im November.",
+   "zh": "初雪十一月就来了。"
+  },
+  {
+   "de": "Im Schnee hinterlassen wir Spuren.",
+   "zh": "我们在雪地里留下脚印。"
+  }
+ ],
+ "Brille": [
+  {
+   "de": "Meine Brille liegt auf dem Tisch.",
+   "zh": "我的眼镜在桌上。"
+  },
+  {
+   "de": "Ohne Brille sehe ich schlecht.",
+   "zh": "不戴眼镜我看不清。"
+  },
+  {
+   "de": "Die neue Brille ist leichter.",
+   "zh": "新眼镜更轻。"
+  }
+ ],
+ "China": [
+  {
+   "de": "China hat eine lange Geschichte.",
+   "zh": "中国历史悠久。"
+  },
+  {
+   "de": "Der Tee kommt direkt aus China.",
+   "zh": "这茶直接来自中国。"
+  },
+  {
+   "de": "Sie lernt Chinesisch für die Reise nach China.",
+   "zh": "为去中国旅行她在学中文。"
+  }
+ ],
+ "grün": [
+  {
+   "de": "Der Rasen ist grün und frisch gemäht.",
+   "zh": "草坪绿油油，刚修剪过。"
+  },
+  {
+   "de": "Die Ampel wird gleich grün.",
+   "zh": "红绿灯马上变绿。"
+  },
+  {
+   "de": "Grüne Äpfel schmecken säuerlich.",
+   "zh": "青苹果吃起来偏酸。"
+  }
+ ],
+ "Käse": [
+  {
+   "de": "Der Käse stammt von der Alm.",
+   "zh": "这奶酪来自高山牧场。"
+  },
+  {
+   "de": "Ein Brot mit Käse reicht mir.",
+   "zh": "面包配奶酪就够我吃了。"
+  },
+  {
+   "de": "Welcher Käse schmeckt am mildesten?",
+   "zh": "哪种奶酪味道最温和？"
+  }
+ ],
+ "Gesundheit": [
+  {
+   "de": "Auf Ihre Gesundheit!",
+   "zh": "祝您健康！"
+  },
+  {
+   "de": "Die Gesundheit ist wichtiger als Geld.",
+   "zh": "健康比金钱重要。"
+  },
+  {
+   "de": "Sport hält die Gesundheit fit.",
+   "zh": "运动让身体保持健康。"
+  }
+ ],
+ "April": [
+  {
+   "de": "Im April blühen die Obstbäume.",
+   "zh": "四月果树开花。"
+  },
+  {
+   "de": "Der April macht, was er will.",
+   "zh": "四月的天气说变就变。"
+  },
+  {
+   "de": "Anfang April sind die Nächte noch kalt.",
+   "zh": "四月初的夜晚还冷。"
+  }
+ ],
+ "Zucker": [
+  {
+   "de": "Ich nehme keinen Zucker im Tee.",
+   "zh": "我喝茶不加糖。"
+  },
+  {
+   "de": "Der Zucker liegt in der zweiten Schublade.",
+   "zh": "糖放在第二个抽屉。"
+  },
+  {
+   "de": "Zu viel Zucker ist ungesund.",
+   "zh": "糖太多不健康。"
+  }
+ ],
+ "Tasse": [
+  {
+   "de": "Eine Tasse Kaffee, bitte.",
+   "zh": "请来一杯咖啡。"
+  },
+  {
+   "de": "Die Tasse ist aus Portugal.",
+   "zh": "这个杯子来自葡萄牙。"
+  },
+  {
+   "de": "Zwei Tassen Tee kosten drei Euro.",
+   "zh": "两杯茶三欧元。"
+  }
+ ],
+ "Markt": [
+  {
+   "de": "Auf dem Markt kaufen wir Obst.",
+   "zh": "我们在市场买水果。"
+  },
+  {
+   "de": "Der Markt ist am Vormittag offen.",
+   "zh": "市场上午开放。"
+  },
+  {
+   "de": "Am Markt rufen die Händler laut.",
+   "zh": "市场上摊贩大声吆喝。"
+  }
+ ],
+ "elf": [
+  {
+   "de": "Der Zug fährt um elf Uhr zwölf.",
+   "zh": "火车十一点十二分开。"
+  },
+  {
+   "de": "Wir sind elf Spieler im Team.",
+   "zh": "我们队有十一名球员。"
+  },
+  {
+   "de": "Um elf Uhr nachts ist es still.",
+   "zh": "夜里十一点很安静。"
+  }
+ ],
+ "Viertel": [
+  {
+   "de": "Es ist Viertel vor acht.",
+   "zh": "现在七点三刻。"
+  },
+  {
+   "de": "Ein Viertel Kilo Käse, bitte.",
+   "zh": "请来四分之一公斤奶酪。"
+  },
+  {
+   "de": "Wir wohnen in einem ruhigen Viertel.",
+   "zh": "我们住在一个安静的街区。"
+  }
+ ],
+ "Farm": [
+  {
+   "de": "Die Farm liegt weit draußen.",
+   "zh": "农场在很远的郊外。"
+  },
+  {
+   "de": "Auf der Farm leben Kühe und Hühner.",
+   "zh": "农场里养着牛和鸡。"
+  },
+  {
+   "de": "Die Familie führt die Farm seit Generationen.",
+   "zh": "这个家族经营农场已经好几代。"
+  }
+ ],
+ "hundert": [
+  {
+   "de": "Das Haus ist hundert Jahre alt.",
+   "zh": "这房子有一百年历史。"
+  },
+  {
+   "de": "Hundert Gäste sind eingeladen.",
+   "zh": "邀请了一百位客人。"
+  },
+  {
+   "de": "Ich habe hundert Mal daran gedacht.",
+   "zh": "这事我想了一百遍。"
+  }
+ ],
+ "Dienstag": [
+  {
+   "de": "Am Dienstag komme ich später.",
+   "zh": "周二我晚点到。"
+  },
+  {
+   "de": "Dienstags ist der Markt geschlossen.",
+   "zh": "周二市场不开放。"
+  },
+  {
+   "de": "Der Termin fällt auf Dienstag.",
+   "zh": "约期定在周二。"
+  }
+ ],
+ "Suppe": [
+  {
+   "de": "Die Suppe wärmt an kalten Tagen.",
+   "zh": "冷天喝汤很暖和。"
+  },
+  {
+   "de": "Suppe braucht Zeit beim Kochen.",
+   "zh": "熬汤需要时间。"
+  },
+  {
+   "de": "Eine Tasse Suppe reicht mir.",
+   "zh": "一碗汤就够我了。"
+  }
+ ],
+ "rosa": [
+  {
+   "de": "Die Blumen sind rosa und weiß.",
+   "zh": "花是粉色和白色的。"
+  },
+  {
+   "de": "Sie malt die Wand rosa.",
+   "zh": "她把墙刷成粉色。"
+  },
+  {
+   "de": "Das rosa Kleid gefällt der Tochter.",
+   "zh": "女儿喜欢那条粉裙子。"
+  }
+ ],
+ "amerikanisch": [
+  {
+   "de": "Der amerikanische Film läuft um acht.",
+   "zh": "那部美国电影八点放映。"
+  },
+  {
+   "de": "Amerikanische Autos sind groß.",
+   "zh": "美国汽车很大。"
+  },
+  {
+   "de": "Sie hat einen amerikanischen Akzent.",
+   "zh": "她有一点美国口音。"
+  }
+ ],
+ "Französisch": [
+  {
+   "de": "Französisch lerne ich seit zwei Jahren.",
+   "zh": "我学法语已经两年了。"
+  },
+  {
+   "de": "Das Menü ist auf Französisch geschrieben.",
+   "zh": "菜单是法文写的。"
+  },
+  {
+   "de": "Sie spricht fließend Französisch.",
+   "zh": "她法语说得很流利。"
+  }
+ ],
+ "Tiger": [
+  {
+   "de": "Der Tiger schläft im Schatten.",
+   "zh": "老虎在阴凉处睡觉。"
+  },
+  {
+   "de": "Tiger leben allein im Wald.",
+   "zh": "老虎独自生活在林中。"
+  },
+  {
+   "de": "Im Zoo gibt es zwei junge Tiger.",
+   "zh": "动物园里有两只小老虎。"
+  }
+ ],
+ "Zigarette": [
+  {
+   "de": "Er raucht eine Zigarette vor dem Haus.",
+   "zh": "他在屋外抽一支烟。"
+  },
+  {
+   "de": "Zigaretten sind hier teuer.",
+   "zh": "这里香烟很贵。"
+  },
+  {
+   "de": "Rauchst du Zigaretten oder aufgehört?",
+   "zh": "你抽烟还是已经戒了？"
+  }
+ ],
+ "Donnerstag": [
+  {
+   "de": "Am Donnerstag habe ich frei.",
+   "zh": "周四我休息。"
+  },
+  {
+   "de": "Donnerstags kommt der Müllwagen.",
+   "zh": "周四来收垃圾。"
+  },
+  {
+   "de": "Der Termin ist am Donnerstag um zehn.",
+   "zh": "约期在周四十点。"
+  }
+ ],
+ "Sport": [
+  {
+   "de": "Ich treibe dreimal pro Woche Sport.",
+   "zh": "我每周运动三次。"
+  },
+  {
+   "de": "Welchen Sport magst du am meisten?",
+   "zh": "你最喜欢哪种运动？"
+  },
+  {
+   "de": "Sport hält Körper und Kopf fit.",
+   "zh": "运动让身体和大脑保持活力。"
+  }
+ ],
+ "Maus": [
+  {
+   "de": "Die Maus rennt hinter dem Schrank.",
+   "zh": "老鼠在柜子后面跑。"
+  },
+  {
+   "de": "Die Computermaus ist kaputt.",
+   "zh": "电脑鼠标坏了。"
+  },
+  {
+   "de": "Die Katze jagt die Maus nachts.",
+   "zh": "猫夜里追老鼠。"
+  }
+ ],
+ "einkaufen": [
+  {
+   "de": "Ich kaufe am Samstag für die Woche ein.",
+   "zh": "我周六采购一周的东西。"
+  },
+  {
+   "de": "Gehen wir gemeinsam einkaufen?",
+   "zh": "我们一起去购物吗？"
+  },
+  {
+   "de": "Im Netz kann man rund um die Uhr einkaufen.",
+   "zh": "网上可以全天购物。"
+  }
+ ],
+ "Afrika": [
+  {
+   "de": "Afrika ist ein riesiger Kontinent.",
+   "zh": "非洲是一片辽阔的大陆。"
+  },
+  {
+   "de": "Sie arbeitet zwei Jahre in Afrika.",
+   "zh": "她在非洲工作两年。"
+  },
+  {
+   "de": "Von Afrika ziehen die Vögel im Herbst.",
+   "zh": "鸟儿秋天从非洲迁徙。"
+  }
+ ],
+ "wieviel": [
+  {
+   "de": "Wieviel Uhr haben wir jetzt?",
+   "zh": "现在几点了？"
+  },
+  {
+   "de": "Wieviel kostet die Fahrkarte?",
+   "zh": "车票多少钱？"
+  },
+  {
+   "de": "Weißt du, wieviel Wasser ein Tag braucht?",
+   "zh": "你知道一天需要多少水吗？"
+  }
+ ],
+ "Kilo": [
+  {
+   "de": "Ein Kilo Äpfel, bitte.",
+   "zh": "请来一公斤苹果。"
+  },
+  {
+   "de": "Ich habe zwei Kilo abgenommen.",
+   "zh": "我减了两公斤。"
+  },
+  {
+   "de": "Der Koffer wiegt mehr als zwanzig Kilo.",
+   "zh": "行李箱超过二十公斤。"
+  }
+ ],
+ "Lehrerin": [
+  {
+   "de": "Die Lehrerin erklärt die Grammatik langsam.",
+   "zh": "女老师慢慢地讲解语法。"
+  },
+  {
+   "de": "Unsere Lehrerin kommt aus Wien.",
+   "zh": "我们的老师来自维也纳。"
+  },
+  {
+   "de": "Die Lehrerin kennt jeden Schüler.",
+   "zh": "老师认识每个学生。"
+  }
+ ],
+ "Appetit": [
+  {
+   "de": "Guten Appetit beim Essen!",
+   "zh": "祝用餐愉快！"
+  },
+  {
+   "de": "Der Kuchen hat mir den Appetit verdorben.",
+   "zh": "蛋糕让我没了食欲。"
+  },
+  {
+   "de": "Nach dem Sport habe ich großen Appetit.",
+   "zh": "运动后我胃口大开。"
+  }
+ ],
+ "Schokolade": [
+  {
+   "de": "Ein Stück Schokolade zwischendurch.",
+   "zh": "来一块巧克力当点心。"
+  },
+  {
+   "de": "Die Schokolade schmilzt in der Sonne.",
+   "zh": "巧克力在太阳下融化了。"
+  },
+  {
+   "de": "Dunkle Schokolade ist nicht so süß.",
+   "zh": "黑巧克力没那么甜。"
+  }
+ ],
+ "Garage": [
+  {
+   "de": "Das Auto steht in der Garage.",
+   "zh": "车停在车库里。"
+  },
+  {
+   "de": "Die Garage ist zu klein für zwei Wagen.",
+   "zh": "车库停不下两辆车。"
+  },
+  {
+   "de": "In der Garage stehen die Fahrräder.",
+   "zh": "自行车放在车库里。"
+  }
+ ],
+ "grüßen": [
+  {
+   "de": "Grüß deine Eltern von mir.",
+   "zh": "代我向你的父母问好。"
+  },
+  {
+   "de": "Er grüßt jeden Morgen den Nachbarn.",
+   "zh": "他每天早上跟邻居打招呼。"
+  },
+  {
+   "de": "Die Kinder grüßen höflich.",
+   "zh": "孩子们礼貌地问好。"
+  }
+ ],
+ "Italien": [
+  {
+   "de": "Italien liegt südlich von Österreich.",
+   "zh": "意大利在奥地利以南。"
+  },
+  {
+   "de": "Im Urlaub fahren wir nach Italien.",
+   "zh": "假期我们去意大利。"
+  },
+  {
+   "de": "Italien ist berühmt für Pasta und Meer.",
+   "zh": "意大利以面食和大海闻名。"
+  }
+ ],
+ "Euro": [
+  {
+   "de": "Das Buch kostet zwanzig Euro.",
+   "zh": "这本书二十欧元。"
+  },
+  {
+   "de": "Fünfzig Euro habe ich noch dabei.",
+   "zh": "我身上还有五十欧元。"
+  },
+  {
+   "de": "Der Eintritt ist zehn Euro pro Person.",
+   "zh": "门票每人十欧元。"
+  }
+ ],
+ "Satz": [
+  {
+   "de": "Der letzte Satz im Buch ist schön.",
+   "zh": "书的最后一句很美。"
+  },
+  {
+   "de": "Baue mit diesen Wörtern einen Satz.",
+   "zh": "用这些词造个句子。"
+  },
+  {
+   "de": "Er sprach lange in ganzen Sätzen.",
+   "zh": "他滔滔不绝说了很久。"
+  }
+ ],
+ "Hausaufgabe": [
+  {
+   "de": "Die Hausaufgaben sind bis morgen fertig.",
+   "zh": "作业明天前完成。"
+  },
+  {
+   "de": "Macht ihr die Hausaufgaben zusammen?",
+   "zh": "你们一起做作业吗？"
+  },
+  {
+   "de": "Die Hausaufgabe war schwerer als gedacht.",
+   "zh": "作业比想象中难。"
+  }
+ ],
+ "Teller": [
+  {
+   "de": "Der Teller ist noch warm.",
+   "zh": "盘子还是温的。"
+  },
+  {
+   "de": "Bring zwei Teller aus der Küche.",
+   "zh": "从厨房拿两个盘子来。"
+  },
+  {
+   "de": "Auf dem Teller ist Reis mit Gemüse.",
+   "zh": "盘子里是米饭配蔬菜。"
+  }
+ ],
+ "Fahrrad": [
+  {
+   "de": "Das Fahrrad braucht neue Reifen.",
+   "zh": "自行车需要换新胎。"
+  },
+  {
+   "de": "Ich fahre mit dem Fahrrad zur Arbeit.",
+   "zh": "我骑车上班。"
+  },
+  {
+   "de": "Die Fahrräder stehen im Keller.",
+   "zh": "自行车放在地下室。"
+  }
+ ],
+ "Tipp": [
+  {
+   "de": "Hast du einen Tipp für ein gutes Buch?",
+   "zh": "有好书推荐吗？"
+  },
+  {
+   "de": "Danke für den Tipp mit dem Parkplatz.",
+   "zh": "谢谢你的停车提示。"
+  },
+  {
+   "de": "Ein kleiner Tipp: früh buchen ist billiger.",
+   "zh": "小提示：早订更便宜。"
+  }
+ ],
+ "Mai": [
+  {
+   "de": "Im Mai blüht alles auf.",
+   "zh": "五月万物开花。"
+  },
+  {
+   "de": "Der Mai war diesmal kalt.",
+   "zh": "今年五月很冷。"
+  },
+  {
+   "de": "Anfang Mai fahren wir ans Meer.",
+   "zh": "五月初我们去海边。"
+  }
+ ],
+ "Ehefrau": [
+  {
+   "de": "Seine Ehefrau arbeitet als Ärztin.",
+   "zh": "他的妻子是医生。"
+  },
+  {
+   "de": "Die Ehefrau holt die Kinder ab.",
+   "zh": "妻子去接孩子。"
+  },
+  {
+   "de": "Er kocht für seine Ehefrau am Sonntag.",
+   "zh": "周日他为妻子下厨。"
+  }
+ ],
+ "Japan": [
+  {
+   "de": "Japan hat viele kleine Inseln.",
+   "zh": "日本有许多小岛。"
+  },
+  {
+   "de": "Im Frühling ist Japan berühmt für Blüten.",
+   "zh": "春天的日本以樱花闻名。"
+  },
+  {
+   "de": "Wir planen eine Reise nach Japan.",
+   "zh": "我们在计划去日本旅行。"
+  }
+ ],
+ "Badezimmer": [
+  {
+   "de": "Das Badezimmer ist frisch gefliest.",
+   "zh": "浴室刚贴了新瓷砖。"
+  },
+  {
+   "de": "Im Badezimmer ist kein Handtuch.",
+   "zh": "浴室里没有毛巾。"
+  },
+  {
+   "de": "Das Badezimmer teilen wir uns.",
+   "zh": "浴室我们共用。"
+  }
+ ],
+ "Bahnhof": [
+  {
+   "de": "Der Bahnhof liegt zehn Minuten entfernt.",
+   "zh": "火车站离这儿十分钟。"
+  },
+  {
+   "de": "Am Bahnhof hängt ein großer Fahrplan.",
+   "zh": "火车站挂着一张大时刻表。"
+  },
+  {
+   "de": "Ich bringe dich zum Bahnhof.",
+   "zh": "我送你去火车站。"
+  }
+ ],
+ "Spanien": [
+  {
+   "de": "Spanien ist im Sommer sehr heiß.",
+   "zh": "西班牙的夏天非常热。"
+  },
+  {
+   "de": "Wir verbringen den Urlaub in Spanien.",
+   "zh": "我们在西班牙度假。"
+  },
+  {
+   "de": "Die Sprache in Spanien ist Spanisch.",
+   "zh": "西班牙的语言是西班牙语。"
+  }
+ ],
+ "Russland": [
+  {
+   "de": "Russland ist das größte Land der Erde.",
+   "zh": "俄罗斯是世界上最大的国家。"
+  },
+  {
+   "de": "Im Winter ist es in Russland sehr kalt.",
+   "zh": "俄罗斯的冬天非常冷。"
+  },
+  {
+   "de": "Sie kommt ursprünglich aus Russland.",
+   "zh": "她原本来自俄罗斯。"
+  }
+ ],
+ "Übung": [
+  {
+   "de": "Diese Übung macht die Schultern locker.",
+   "zh": "这个练习让肩膀放松。"
+  },
+  {
+   "de": "Übung macht den Meister.",
+   "zh": "熟能生巧。"
+  },
+  {
+   "de": "Zur Übung lesen wir den Text laut.",
+   "zh": "作为练习我们朗读课文。"
+  }
+ ],
+ "Franzose": [
+  {
+   "de": "Der Franzose kocht für uns.",
+   "zh": "这位法国人给我们做饭。"
+  },
+  {
+   "de": "Die Franzosen lieben langes Essen.",
+   "zh": "法国人喜欢慢慢用餐。"
+  },
+  {
+   "de": "Er ist Franzose aus Lyon.",
+   "zh": "他是里昂来的法国人。"
+  }
+ ],
+ "Ärztin": [
+  {
+   "de": "Die Ärztin hört in die Lunge.",
+   "zh": "女医生用听诊器听肺。"
+  },
+  {
+   "de": "Unsere Ärztin hat noch Termine frei.",
+   "zh": "我们的女医生还有空位。"
+  },
+  {
+   "de": "Die Ärztin verschreibt ein neues Medikament.",
+   "zh": "女医生开了新药。"
+  }
+ ],
+ "Museum": [
+  {
+   "de": "Das Museum ist sonntags frei.",
+   "zh": "博物馆周日免费。"
+  },
+  {
+   "de": "Im Museum lernen Kinder viel.",
+   "zh": "孩子们在博物馆学到很多。"
+  },
+  {
+   "de": "Das Museum öffnet um neun.",
+   "zh": "博物馆九点开门。"
+  }
+ ],
+ "Wohnzimmer": [
+  {
+   "de": "Im Wohnzimmer steht das große Sofa.",
+   "zh": "大沙发在客厅里。"
+  },
+  {
+   "de": "Das Wohnzimmer ist das hellste Zimmer.",
+   "zh": "客厅是最亮的房间。"
+  },
+  {
+   "de": "Wir sehen im Wohnzimmer fern.",
+   "zh": "我们在客厅看电视。"
+  }
+ ],
+ "Durst": [
+  {
+   "de": "Nach dem Sport habe ich Durst.",
+   "zh": "运动后我口渴。"
+  },
+  {
+   "de": "Trink etwas, dein Durst ist groß.",
+   "zh": "喝点水，你很渴了。"
+  },
+  {
+   "de": "Der Durst verschwindet nach dem Tee.",
+   "zh": "喝茶后就不渴了。"
+  }
+ ],
+ "Spielzeug": [
+  {
+   "de": "Das Spielzeug liegt in der Kiste.",
+   "zh": "玩具放在箱子里。"
+  },
+  {
+   "de": "Die Kinder räumen das Spielzeug auf.",
+   "zh": "孩子们收拾玩具。"
+  },
+  {
+   "de": "Zum Geburtstag gibt es neues Spielzeug.",
+   "zh": "生日会有新玩具。"
+  }
+ ],
+ "trocken": [
+  {
+   "de": "Die Straße ist endlich trocken.",
+   "zh": "路面终于干了。"
+  },
+  {
+   "de": "Der Wein ist lieber trocken als süß.",
+   "zh": "酒我宁愿要干型不要甜的。"
+  },
+  {
+   "de": "Trockene Handtücher liegen im Schrank.",
+   "zh": "干毛巾放在柜子里。"
+  }
+ ],
+ "Paket": [
+  {
+   "de": "Das Paket ist heute gekommen.",
+   "zh": "包裹今天到了。"
+  },
+  {
+   "de": "Ich bringe das Paket zur Post.",
+   "zh": "我把包裹送去邮局。"
+  },
+  {
+   "de": "Im Paket ist ein Geschenk für dich.",
+   "zh": "包裹里是给你的礼物。"
+  }
+ ],
+ "Ferien": [
+  {
+   "de": "In den Ferien fahren wir an den See.",
+   "zh": "假期我们去湖边。"
+  },
+  {
+   "de": "Die Ferien beginnen im Juli.",
+   "zh": "假期七月开始。"
+  },
+  {
+   "de": "In den Ferien schlafen die Kinder lang.",
+   "zh": "假期里孩子们睡得久。"
+  }
+ ],
+ "Klavier": [
+  {
+   "de": "Das Klavier steht am Fenster.",
+   "zh": "钢琴放在窗边。"
+  },
+  {
+   "de": "Sie spielt seit fünf Jahren Klavier.",
+   "zh": "她弹钢琴五年了。"
+  },
+  {
+   "de": "Das Klavier braucht regelmäßig Stimmung.",
+   "zh": "钢琴需要定期调音。"
+  }
+ ],
+ "Parkplatz": [
+  {
+   "de": "Der Parkplatz vor dem Hotel ist voll.",
+   "zh": "酒店前的停车场满了。"
+  },
+  {
+   "de": "Wir finden einen Parkplatz in der Nähe.",
+   "zh": "我们在附近找到了车位。"
+  },
+  {
+   "de": "Der Parkplatz kostet zwei Euro die Stunde.",
+   "zh": "停车场每小时两欧元。"
+  }
+ ],
+ "Mittwoch": [
+  {
+   "de": "Am Mittwoch gehe ich zum Arzt.",
+   "zh": "周三我去看医生。"
+  },
+  {
+   "de": "Mittwochs ist der Laden bis acht offen.",
+   "zh": "周三商店营业到八点。"
+  },
+  {
+   "de": "Der Kurs fällt am Mittwoch aus.",
+   "zh": "课程周三取消。"
+  }
+ ],
+ "Motorrad": [
+  {
+   "de": "Das Motorrad ist laut, aber schnell.",
+   "zh": "摩托车很吵，但很快。"
+  },
+  {
+   "de": "Er fährt mit dem Motorrad über die Berge.",
+   "zh": "他骑摩托车翻山。"
+  },
+  {
+   "de": "Das Motorrad braucht einen neuen Reifen.",
+   "zh": "摩托车需要换新胎。"
+  }
+ ],
+ "aua": [
+  {
+   "de": "Aua, das tut weh!",
+   "zh": "哎哟，好疼！"
+  },
+  {
+   "de": "Aua, der Stich an der Hand brennt.",
+   "zh": "哎哟，手上的刺火辣辣的。"
+  },
+  {
+   "de": "Aua, ich habe mich am Knie gestoßen.",
+   "zh": "哎哟，我膝盖撞到了。"
+  }
+ ],
+ "Sandwich": [
+  {
+   "de": "Ein Sandwich für die Fahrt, bitte.",
+   "zh": "请来一份路上吃的三明治。"
+  },
+  {
+   "de": "Das Sandwich ist mit Käse und Schinken.",
+   "zh": "三明治夹着奶酪和火腿。"
+  },
+  {
+   "de": "Ich mache zwei Sandwiches für die Pause.",
+   "zh": "我做两个三明治当加餐。"
+  }
+ ],
+ "Verkehr": [
+  {
+   "de": "Im Berufsverkehr stehen wir lange.",
+   "zh": "高峰期我们堵了很久。"
+  },
+  {
+   "de": "Der Verkehr in der Stadt ist laut.",
+   "zh": "城里的交通很吵。"
+  },
+  {
+   "de": "Wegen des Verkehrs kommen wir später.",
+   "zh": "因为堵车我们会晚到。"
+  }
+ ],
+ "liebste": [
+  {
+   "de": "Meine liebste Blume ist die Tulpe.",
+   "zh": "我最喜欢的花是郁金香。"
+  },
+  {
+   "de": "Grüße die Liebsten von mir.",
+   "zh": "代我向你最爱的人们问好。"
+  },
+  {
+   "de": "Am liebsten lese ich nachts.",
+   "zh": "我最喜欢夜里读书。"
+  }
+ ],
+ "Salz": [
+  {
+   "de": "Ein wenig Salz in die Suppe.",
+   "zh": "往汤里加一点盐。"
+  },
+  {
+   "de": "Das Salz fehlt auf dem Tisch.",
+   "zh": "桌上缺盐。"
+  },
+  {
+   "de": "Salz und Pfeffer stehen neben dem Herd.",
+   "zh": "盐和胡椒放在炉子旁。"
+  }
+ ],
+ "Krankenschwester": [
+  {
+   "de": "Die Krankenschwester misst den Druck.",
+   "zh": "护士量了血压。"
+  },
+  {
+   "de": "Die Krankenschwester kommt alle zwei Stunden.",
+   "zh": "护士每两小时来一次。"
+  },
+  {
+   "de": "Frag die Krankenschwester nach dem Termin.",
+   "zh": "问一下护士预约的事。"
+  }
+ ],
+ "Engländer": [
+  {
+   "de": "Der Engländer trinkt starken Tee.",
+   "zh": "这位英国人喝浓茶。"
+  },
+  {
+   "de": "Viele Engländer fahren im Sommer ans Meer.",
+   "zh": "许多英国人夏天去海边。"
+  },
+  {
+   "de": "Er ist Engländer aus Manchester.",
+   "zh": "他是曼彻斯特来的英国人。"
+  }
+ ],
+ "Café": [
+  {
+   "de": "Im Café nebenan gibt es guten Kuchen.",
+   "zh": "隔壁咖啡馆的蛋糕不错。"
+  },
+  {
+   "de": "Wir treffen uns im Café am Markt.",
+   "zh": "我们在市场旁的咖啡馆碰面。"
+  },
+  {
+   "de": "Das Café öffnet früh um sieben.",
+   "zh": "咖啡馆七点就开门。"
+  }
+ ],
+ "September": [
+  {
+   "de": "Im September wird es abends kühler.",
+   "zh": "九月晚上开始转凉。"
+  },
+  {
+   "de": "Der September bringt oft warme Tage.",
+   "zh": "九月常有暖和的日子。"
+  },
+  {
+   "de": "Die Schule beginnt im September.",
+   "zh": "学校九月开学。"
+  }
+ ],
+ "vorm": [
+  {
+   "de": "Vorm Haus steht ein alter Baum.",
+   "zh": "房子前有一棵老树。"
+  },
+  {
+   "de": "Vorm Laden wartet die Oma.",
+   "zh": "奶奶在店前等着。"
+  },
+  {
+   "de": "Ich stehe vorm Schrank und suche die Jacke.",
+   "zh": "我站在柜子前找夹克。"
+  }
+ ],
+ "dankeschön": [
+  {
+   "de": "Dankeschön für die schnelle Hilfe.",
+   "zh": "谢谢你的快速帮助。"
+  },
+  {
+   "de": "Ein herzliches Dankeschön an alle Helfer.",
+   "zh": "向所有帮助者致以衷心感谢。"
+  },
+  {
+   "de": "Dankeschön, das war sehr aufmerksam.",
+   "zh": "谢谢，你想得真周到。"
+  }
+ ],
+ "Keks": [
+  {
+   "de": "Ein Keks zum Kaffee, bitte.",
+   "zh": "请来一块饼干配咖啡。"
+  },
+  {
+   "de": "Die Kekse sind selbst gebacken.",
+   "zh": "饼干是自己烤的。"
+  },
+  {
+   "de": "Der Keks ist am Boden der Tüte.",
+   "zh": "饼干在袋子底部。"
+  }
+ ],
+ "Juni": [
+  {
+   "de": "Im Juni werden die Tage sehr lang.",
+   "zh": "六月白昼变得很长。"
+  },
+  {
+   "de": "Der Juni war diesmal regnerisch.",
+   "zh": "今年六月雨水多。"
+  },
+  {
+   "de": "Ende Juni beginnt das Fest.",
+   "zh": "庆祝活动六月底开始。"
+  }
+ ],
+ "Indien": [
+  {
+   "de": "Indien hat viele Sprachen und Kulturen.",
+   "zh": "印度有多种语言和文化。"
+  },
+  {
+   "de": "Sie reist drei Monate durch Indien.",
+   "zh": "她在印度旅行三个月。"
+  },
+  {
+   "de": "Der Gewürztee aus Indien ist scharf.",
+   "zh": "印度的香料茶很辛辣。"
+  }
+ ]
+}

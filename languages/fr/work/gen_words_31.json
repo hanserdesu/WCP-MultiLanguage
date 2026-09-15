@@ -1,0 +1,602 @@
+[
+{
+"word": "certificat",
+"pos": "n.m.",
+"zh": "证书；证明",
+"level": "b1"
+},
+{
+"word": "certitude",
+"pos": "n.f.",
+"zh": "确信；确定性",
+"level": "b1"
+},
+{
+"word": "cerveau",
+"pos": "n.m.",
+"zh": "大脑；头脑",
+"level": "b1"
+},
+{
+"word": "cesse",
+"pos": "n.f.",
+"zh": "停止",
+"level": "b1"
+},
+{
+"word": "cesser",
+"pos": "v.",
+"zh": "停止；中止",
+"level": "b1"
+},
+{
+"word": "ceux-ci",
+"pos": "pron.",
+"zh": "这些（近指）",
+"level": "b1"
+},
+{
+"word": "chagrin",
+"pos": "n.m.",
+"zh": "忧伤；悲伤",
+"level": "b1"
+},
+{
+"word": "chair",
+"pos": "n.f.",
+"zh": "肉；肉体",
+"level": "b1"
+},
+{
+"word": "chaleureux",
+"pos": "adj.",
+"zh": "热情的；温暖的",
+"level": "b1"
+},
+{
+"word": "chanceux",
+"pos": "adj.",
+"zh": "幸运的",
+"level": "b1"
+},
+{
+"word": "change",
+"pos": "n.m.",
+"zh": "兑换；汇兑",
+"level": "b1"
+},
+{
+"word": "chantage",
+"pos": "n.m.",
+"zh": "敲诈；要挟",
+"level": "b1"
+},
+{
+"word": "chantier",
+"pos": "n.m.",
+"zh": "工地",
+"level": "b1"
+},
+{
+"word": "chantonner",
+"pos": "v.",
+"zh": "哼歌；轻声唱",
+"level": "b1"
+},
+{
+"word": "chaos",
+"pos": "n.m.",
+"zh": "混乱；混沌",
+"level": "b1"
+},
+{
+"word": "charbon",
+"pos": "n.m.",
+"zh": "煤；炭",
+"level": "b1"
+},
+{
+"word": "charge",
+"pos": "n.f.",
+"zh": "负荷；费用；指控",
+"level": "b1"
+},
+{
+"word": "chargement",
+"pos": "n.m.",
+"zh": "装载；货物",
+"level": "b1"
+},
+{
+"word": "charger",
+"pos": "v.",
+"zh": "装载；充电",
+"level": "b1"
+},
+{
+"word": "chariot",
+"pos": "n.m.",
+"zh": "手推车；购物车",
+"level": "b1"
+},
+{
+"word": "charité",
+"pos": "n.f.",
+"zh": "慈善；施舍",
+"level": "b1"
+},
+{
+"word": "charmer",
+"pos": "v.",
+"zh": "使着迷；诱惑",
+"level": "b1"
+},
+{
+"word": "charpentier",
+"pos": "n.m.",
+"zh": "木匠",
+"level": "b1"
+},
+{
+"word": "charrette",
+"pos": "n.f.",
+"zh": "手推车；板车",
+"level": "b1"
+},
+{
+"word": "chasser",
+"pos": "v.",
+"zh": "打猎；驱赶",
+"level": "b1"
+},
+{
+"word": "chauve",
+"pos": "adj.",
+"zh": "秃头的",
+"level": "b1"
+},
+{
+"word": "cheeseburger",
+"pos": "n.m.",
+"zh": "芝士汉堡",
+"level": "b1"
+},
+{
+"word": "chef-d'oeuvre",
+"pos": "n.m.",
+"zh": "杰作；代表作",
+"level": "b1"
+},
+{
+"word": "chercheur",
+"pos": "n.m.",
+"zh": "研究员；科研人员",
+"level": "b1"
+},
+{
+"word": "chevalier",
+"pos": "n.m.",
+"zh": "骑士",
+"level": "b1"
+},
+{
+"word": "cheville",
+"pos": "n.f.",
+"zh": "脚踝；销钉",
+"level": "b1"
+},
+{
+"word": "chiffon",
+"pos": "n.m.",
+"zh": "抹布；碎布",
+"level": "b1"
+},
+{
+"word": "chimique",
+"pos": "adj.",
+"zh": "化学的",
+"level": "b1"
+},
+{
+"word": "chirurgical",
+"pos": "adj.",
+"zh": "外科的；手术的",
+"level": "b1"
+},
+{
+"word": "chirurgie",
+"pos": "n.f.",
+"zh": "外科；外科手术",
+"level": "b1"
+},
+{
+"word": "choeur",
+"pos": "n.m.",
+"zh": "合唱团；唱诗班",
+"level": "b1"
+},
+{
+"word": "choper",
+"pos": "v.",
+"zh": "抓住；逮住（口语）",
+"level": "b1"
+},
+{
+"word": "choquant",
+"pos": "adj.",
+"zh": "令人震惊的；无礼的",
+"level": "b1"
+},
+{
+"word": "choquer",
+"pos": "v.",
+"zh": "冒犯；使震惊",
+"level": "b1"
+},
+{
+"word": "chorale",
+"pos": "n.f.",
+"zh": "合唱团",
+"level": "b1"
+},
+{
+"word": "chouchou",
+"pos": "n.m.",
+"zh": "宠儿；心头好（口语）",
+"level": "b1"
+},
+{
+"word": "christianisme",
+"pos": "n.m.",
+"zh": "基督教",
+"level": "b1"
+},
+{
+"word": "chrétien",
+"pos": "adj.",
+"zh": "基督徒的；基督徒",
+"level": "b1"
+},
+{
+"word": "chuchoter",
+"pos": "v.",
+"zh": "低语；耳语",
+"level": "b1"
+},
+{
+"word": "chute",
+"pos": "n.f.",
+"zh": "跌落；衰落",
+"level": "b1"
+},
+{
+"word": "châle",
+"pos": "n.m.",
+"zh": "披肩；围巾",
+"level": "b1"
+},
+{
+"word": "chômage",
+"pos": "n.m.",
+"zh": "失业",
+"level": "b1"
+},
+{
+"word": "cible",
+"pos": "n.f.",
+"zh": "靶子；目标",
+"level": "b1"
+},
+{
+"word": "cicatrice",
+"pos": "n.f.",
+"zh": "伤疤",
+"level": "b1"
+},
+{
+"word": "cigale",
+"pos": "n.f.",
+"zh": "蝉；知了",
+"level": "b1"
+},
+{
+"word": "cigogne",
+"pos": "n.f.",
+"zh": "鹳",
+"level": "b1"
+},
+{
+"word": "ciment",
+"pos": "n.m.",
+"zh": "水泥",
+"level": "b1"
+},
+{
+"word": "cinéaste",
+"pos": "n.",
+"zh": "电影导演；电影人",
+"level": "b1"
+},
+{
+"word": "circonstance",
+"pos": "n.f.",
+"zh": "情况；情形",
+"level": "b1"
+},
+{
+"word": "circuit",
+"pos": "n.m.",
+"zh": "电路；线路；巡回",
+"level": "b1"
+},
+{
+"word": "circuler",
+"pos": "v.",
+"zh": "通行；流通；传播",
+"level": "b1"
+},
+{
+"word": "cire",
+"pos": "n.f.",
+"zh": "蜡；蜡质",
+"level": "b1"
+},
+{
+"word": "citation",
+"pos": "n.f.",
+"zh": "引文；引用",
+"level": "b1"
+},
+{
+"word": "citer",
+"pos": "v.",
+"zh": "引用；列举",
+"level": "b1"
+},
+{
+"word": "citoyen",
+"pos": "n.m.",
+"zh": "公民；市民",
+"level": "b1"
+},
+{
+"word": "cité",
+"pos": "n.f.",
+"zh": "城区；城市",
+"level": "b1"
+},
+{
+"word": "civil",
+"pos": "adj.",
+"zh": "公民的；平民的；民事的",
+"level": "b1"
+},
+{
+"word": "civilisation",
+"pos": "n.f.",
+"zh": "文明",
+"level": "b1"
+},
+{
+"word": "civilisé",
+"pos": "adj.",
+"zh": "文明的；有教养的",
+"level": "b1"
+},
+{
+"word": "clan",
+"pos": "n.m.",
+"zh": "帮派；小集团",
+"level": "b1"
+},
+{
+"word": "claquer",
+"pos": "v.",
+"zh": "拍；砰地响；挥霍",
+"level": "b1"
+},
+{
+"word": "clarinette",
+"pos": "n.f.",
+"zh": "单簧管",
+"level": "b1"
+},
+{
+"word": "classement",
+"pos": "n.m.",
+"zh": "排名；分类",
+"level": "b1"
+},
+{
+"word": "classer",
+"pos": "v.",
+"zh": "分类；排序",
+"level": "b1"
+},
+{
+"word": "cliché",
+"pos": "n.m.",
+"zh": "陈词滥调；老套",
+"level": "b1"
+},
+{
+"word": "clientèle",
+"pos": "n.f.",
+"zh": "顾客；客户群",
+"level": "b1"
+},
+{
+"word": "cligner",
+"pos": "v.",
+"zh": "眨眼；闪烁",
+"level": "b1"
+},
+{
+"word": "clin",
+"pos": "n.m.",
+"zh": "眼色；眨眼示意",
+"level": "b1"
+},
+{
+"word": "clip",
+"pos": "n.m.",
+"zh": "音乐短片；别针",
+"level": "b1"
+},
+{
+"word": "clochard",
+"pos": "n.m.",
+"zh": "流浪汉",
+"level": "b1"
+},
+{
+"word": "cloison",
+"pos": "n.f.",
+"zh": "隔板；隔墙",
+"level": "b1"
+},
+{
+"word": "clone",
+"pos": "n.m.",
+"zh": "克隆；复制品",
+"level": "b1"
+},
+{
+"word": "clôture",
+"pos": "n.f.",
+"zh": "围栏；栅栏；结束",
+"level": "b1"
+},
+{
+"word": "cobra",
+"pos": "n.m.",
+"zh": "眼镜蛇",
+"level": "b1"
+},
+{
+"word": "cocaïne",
+"pos": "n.f.",
+"zh": "可卡因",
+"level": "b1"
+},
+{
+"word": "cocktail",
+"pos": "n.m.",
+"zh": "鸡尾酒；混合物",
+"level": "b1"
+},
+{
+"word": "coco",
+"pos": "n.",
+"zh": "椰子（口语）",
+"level": "b1"
+},
+{
+"word": "coder",
+"pos": "v.",
+"zh": "编码；编程序",
+"level": "b1"
+},
+{
+"word": "coffre-fort",
+"pos": "n.m.",
+"zh": "保险箱",
+"level": "b1"
+},
+{
+"word": "cogner",
+"pos": "v.",
+"zh": "撞；敲",
+"level": "b1"
+},
+{
+"word": "coincer",
+"pos": "v.",
+"zh": "卡住；夹住；困住",
+"level": "b1"
+},
+{
+"word": "coincé",
+"pos": "adj.",
+"zh": "卡住的；尴尬的；放不开的",
+"level": "b1"
+},
+{
+"word": "coke",
+"pos": "n.",
+"zh": "可卡因（口语）",
+"level": "b1"
+},
+{
+"word": "col",
+"pos": "n.m.",
+"zh": "衣领；山口；颈部",
+"level": "b1"
+},
+{
+"word": "collaborateur",
+"pos": "n.m.",
+"zh": "合作者；雇员",
+"level": "b1"
+},
+{
+"word": "collaboration",
+"pos": "n.f.",
+"zh": "合作；（历史）通敌",
+"level": "b1"
+},
+{
+"word": "collaborer",
+"pos": "v.",
+"zh": "合作",
+"level": "b1"
+},
+{
+"word": "collant",
+"pos": "n.m.",
+"zh": "连裤袜；紧身裤",
+"level": "b1"
+},
+{
+"word": "collecter",
+"pos": "v.",
+"zh": "收集；募集",
+"level": "b1"
+},
+{
+"word": "collectif",
+"pos": "adj.",
+"zh": "集体的；共同的",
+"level": "b1"
+},
+{
+"word": "collectionner",
+"pos": "v.",
+"zh": "收藏；收集",
+"level": "b1"
+},
+{
+"word": "colline",
+"pos": "n.f.",
+"zh": "小山；丘陵",
+"level": "b1"
+},
+{
+"word": "colocataire",
+"pos": "n.",
+"zh": "合租者；室友",
+"level": "b1"
+},
+{
+"word": "colombe",
+"pos": "n.f.",
+"zh": "鸽子；白鸽",
+"level": "b1"
+},
+{
+"word": "colonel",
+"pos": "n.m.",
+"zh": "上校",
+"level": "b1"
+}
+]

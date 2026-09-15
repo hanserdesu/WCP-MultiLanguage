@@ -1,0 +1,119 @@
+{
+  "level": "L9",
+  "name": "经典广府熟语与民间歇后语",
+  "description": "涵盖广府语言智慧结晶、生动形象的歇后语与民间习惯用语",
+  "words": [
+    {
+      "word": "水過鴨背",
+      "jyutping": "seoi2 gwo3 aap3 bui3",
+      "pos": "熟语",
+      "meaning": "像水从鸭背流过一样毫无痕迹，转眼全忘光",
+      "sentences": [
+        {
+          "sentence": "教咗佢幾次都水過鴨背，轉頭就唔記得。（gaau3 zo2 keoi5 gei2 ci3 dou1 seoi2 gwo3 aap3 bui3, zyun3 tau4 zau6 m4 gei3 dak1.）",
+          "translate": "教了他几次都像耳旁风，转眼就忘得一干二净。"
+        },
+        {
+          "sentence": "做人要吸收教訓，唔好水過鴨背。（zou6 jan4 jiu3 kap1 sau1 gaau3 fan3, m4 hou2 seoi2 gwo3 aap3 bui3.）",
+          "translate": "做人要吸取教训，别听过就算全不往心里去。"
+        }
+      ]
+    },
+    {
+      "word": "扮豬食老虎",
+      "jyutping": "baan6 zyu1 sik6 lou5 fu2",
+      "pos": "熟语",
+      "meaning": "装傻充愣，故意示弱以麻痹对手暗中取胜",
+      "sentences": [
+        {
+          "sentence": "佢表面好老實，其實係扮豬食老虎。（keoi5 biu1 min6 hou2 lou5 sat6, kei4 sat6 hai6 baan6 zyu1 sik6 lou5 fu2.）",
+          "translate": "他表面上很老实，其实是在扮猪吃老虎。"
+        },
+        {
+          "sentence": "商場競爭對手最叻扮豬食老虎。（soeng1 coeng4 ging6 zang1 deoi3 sau2 zeoi3 lek1 baan6 zyu1 sik6 lou5 fu2.）",
+          "translate": "商场竞争对手最擅长装弱示好暗度陈仓。"
+        }
+      ]
+    },
+    {
+      "word": "死雞撐飯蓋",
+      "jyutping": "sei2 gai1 caang1 faan6 goi3",
+      "pos": "熟语",
+      "meaning": "死不认错，铁证如山依然硬拗抵赖",
+      "sentences": [
+        {
+          "sentence": "明明做錯咗仲喺度死雞撐飯蓋。（ming4 ming4 zou6 co3 zo2 zung6 hai2 dou6 sei2 gai1 caang1 faan6 goi3.）",
+          "translate": "明明做错了还在那里死不认账死硬狡辩。"
+        },
+        {
+          "sentence": "認錯道歉好過死雞撐飯蓋。（jing6 co3 dou6 hip3 hou2 gwo3 sei2 gai1 caang1 faan6 goi3.）",
+          "translate": "认错道歉好过死鸭子嘴硬到底。"
+        }
+      ]
+    },
+    {
+      "word": "扯貓尾",
+      "jyutping": "ce2 maau1 mei5",
+      "pos": "熟语",
+      "meaning": "唱双簧，串通一气，暗中合谋互相掩护演戏",
+      "sentences": [
+        {
+          "sentence": "佢哋兩個喺度扯貓尾呃人。（keoi5 dei6 loeng5 go3 hai2 dou6 ce2 maau1 mei5 ngaak1 jan4.）",
+          "translate": "他们两个在那唱双簧合伙骗人。"
+        },
+        {
+          "sentence": "咪喺我面前扯貓尾啦，我睇穿晒。（mai5 hai2 ngo5 min6 cin4 ce2 maau1 mei5 laa1, ngo5 tai2 cyun1 saai3.）",
+          "translate": "别在我面前演双簧了，我全看穿了。"
+        }
+      ]
+    },
+    {
+      "word": "過橋抽板",
+      "jyutping": "gwo3 kiu4 cau1 baan2",
+      "pos": "熟语",
+      "meaning": "过河拆桥，得到好处后就背弃帮助过自己的人",
+      "sentences": [
+        {
+          "sentence": "做人千祈唔好過橋抽板。（zou6 jan4 cin1 kei4 m4 hou2 gwo3 kiu4 cau1 baan2.）",
+          "translate": "做人千万不要过河拆桥忘恩负义。"
+        },
+        {
+          "sentence": "幫完佢之後佢即刻過橋抽板。（bong1 jyun4 keoi5 zi1 hau6 keoi5 zik1 hak1 gwo3 kiu4 cau1 baan2.）",
+          "translate": "帮完他之后他立刻过河拆桥不认人。"
+        }
+      ]
+    },
+    {
+      "word": "一擔擔",
+      "jyutping": "jat1 daam1 daam1",
+      "pos": "熟语",
+      "meaning": "半斤八两，彼此差不多（多含贬义）",
+      "sentences": [
+        {
+          "sentence": "佢哋兩個做嘢態度都係一擔擔。（keoi5 dei6 loeng5 go3 zou6 je5 taai3 dou6 dou1 hai6 jat1 daam1 daam1.）",
+          "translate": "他们两个做事态度都是半斤八两一个样。"
+        },
+        {
+          "sentence": "邊個都唔好話邊個，一擔擔。（bin1 go3 dou1 m4 hou2 waa6 bin1 go3, jat1 daam1 daam1.）",
+          "translate": "谁也别笑话谁，彼此半斤八两。"
+        }
+      ]
+    },
+    {
+      "word": "牛頭唔對馬嘴",
+      "jyutping": "ngau4 tau4 m4 deoi3 maa5 zeoi2",
+      "pos": "熟语",
+      "meaning": "答非所问，前言不搭后语",
+      "sentences": [
+        {
+          "sentence": "問佢東佢答西，真係牛頭唔對馬嘴。（man6 keoi5 dung1 keoi5 daap3 sai1, zan1 hai6 ngau4 tau4 m4 deoi3 maa5 zeoi2.）",
+          "translate": "问他东他答西，真是前言不搭后语。"
+        },
+        {
+          "sentence": "你講嘅嘢同呢件事牛頭唔對馬嘴。（nei5 gong2 ge3 je5 tung4 ni1 gin6 si6 ngau4 tau4 m4 deoi3 maa5 zeoi2.）",
+          "translate": "你说的话跟这件事完全搭不上边。"
+        }
+      ]
+    }
+  ]
+}

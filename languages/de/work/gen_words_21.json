@@ -1,0 +1,602 @@
+[
+{
+"word": "Fantasie",
+"pos": "n.f.",
+"zh": "想象力",
+"level": "a2"
+},
+{
+"word": "Kommissar",
+"pos": "n.m.",
+"zh": "警长",
+"level": "a2"
+},
+{
+"word": "Exzellenz",
+"pos": "n.f.",
+"zh": "阁下",
+"level": "a2"
+},
+{
+"word": "schulden",
+"pos": "v.",
+"zh": "欠",
+"level": "a2"
+},
+{
+"word": "nass",
+"pos": "adj.",
+"zh": "湿的",
+"level": "a2"
+},
+{
+"word": "rächen",
+"pos": "v.",
+"zh": "报仇",
+"level": "a2"
+},
+{
+"word": "womöglich",
+"pos": "adv.",
+"zh": "可能",
+"level": "a2"
+},
+{
+"word": "begrüßen",
+"pos": "v.",
+"zh": "欢迎；问候",
+"level": "a2"
+},
+{
+"word": "überraschen",
+"pos": "v.",
+"zh": "使惊讶",
+"level": "a2"
+},
+{
+"word": "Führung",
+"pos": "n.f.",
+"zh": "领导",
+"level": "a2"
+},
+{
+"word": "gestehen",
+"pos": "v.",
+"zh": "承认",
+"level": "a2"
+},
+{
+"word": "Schütze",
+"pos": "n.m.",
+"zh": "射手",
+"level": "a2"
+},
+{
+"word": "filmen",
+"pos": "v.",
+"zh": "拍摄",
+"level": "a2"
+},
+{
+"word": "Unterlage",
+"pos": "n.f.",
+"zh": "文件",
+"level": "a2"
+},
+{
+"word": "Palast",
+"pos": "n.m.",
+"zh": "宫殿",
+"level": "a2"
+},
+{
+"word": "graben",
+"pos": "v.",
+"zh": "挖",
+"level": "a2"
+},
+{
+"word": "Kette",
+"pos": "n.f.",
+"zh": "链条",
+"level": "a2"
+},
+{
+"word": "wovor",
+"pos": "adv.",
+"zh": "在什么前面",
+"level": "a2"
+},
+{
+"word": "Terrorist",
+"pos": "n.m.",
+"zh": "恐怖分子",
+"level": "a2"
+},
+{
+"word": "bekämpfen",
+"pos": "v.",
+"zh": "与…斗争",
+"level": "a2"
+},
+{
+"word": "Lärm",
+"pos": "n.m.",
+"zh": "噪音",
+"level": "a2"
+},
+{
+"word": "flehen",
+"pos": "v.",
+"zh": "恳求",
+"level": "a2"
+},
+{
+"word": "aufwachsen",
+"pos": "v.",
+"zh": "长大",
+"level": "a2"
+},
+{
+"word": "Arbeiter",
+"pos": "n.m.",
+"zh": "工人",
+"level": "a2"
+},
+{
+"word": "Humor",
+"pos": "n.m.",
+"zh": "幽默",
+"level": "a2"
+},
+{
+"word": "betrachten",
+"pos": "v.",
+"zh": "观看；视为",
+"level": "a2"
+},
+{
+"word": "Organisation",
+"pos": "n.f.",
+"zh": "组织",
+"level": "a2"
+},
+{
+"word": "Widerstand",
+"pos": "n.m.",
+"zh": "抵抗",
+"level": "a2"
+},
+{
+"word": "Studio",
+"pos": "n.",
+"zh": "工作室",
+"level": "a2"
+},
+{
+"word": "bescheuert",
+"pos": "adj.",
+"zh": "愚蠢的（粗俗）",
+"level": "a2"
+},
+{
+"word": "weggehen",
+"pos": "v.",
+"zh": "离开",
+"level": "a2"
+},
+{
+"word": "Original",
+"pos": "n.",
+"zh": "原件",
+"level": "a2"
+},
+{
+"word": "Revolution",
+"pos": "n.f.",
+"zh": "革命",
+"level": "a2"
+},
+{
+"word": "Ermittlung",
+"pos": "n.f.",
+"zh": "侦查",
+"level": "a2"
+},
+{
+"word": "Wäsche",
+"pos": "n.f.",
+"zh": "洗的衣物",
+"level": "a2"
+},
+{
+"word": "Rätsel",
+"pos": "n.",
+"zh": "谜语",
+"level": "a2"
+},
+{
+"word": "hunderte",
+"pos": "num.",
+"zh": "数百",
+"level": "a2"
+},
+{
+"word": "versetzen",
+"pos": "v.",
+"zh": "调动；使处于",
+"level": "a2"
+},
+{
+"word": "Bibel",
+"pos": "n.f.",
+"zh": "圣经",
+"level": "a2"
+},
+{
+"word": "reißen",
+"pos": "v.",
+"zh": "撕",
+"level": "a2"
+},
+{
+"word": "Kopie",
+"pos": "n.f.",
+"zh": "复制品",
+"level": "a2"
+},
+{
+"word": "ungewöhnlich",
+"pos": "adj.",
+"zh": "不寻常的",
+"level": "a2"
+},
+{
+"word": "Höhe",
+"pos": "n.f.",
+"zh": "高度",
+"level": "a2"
+},
+{
+"word": "beschreiben",
+"pos": "v.",
+"zh": "描述",
+"level": "a2"
+},
+{
+"word": "aussuchen",
+"pos": "v.",
+"zh": "挑选",
+"level": "a2"
+},
+{
+"word": "notwendig",
+"pos": "adj.",
+"zh": "必要的",
+"level": "a2"
+},
+{
+"word": "ignorieren",
+"pos": "v.",
+"zh": "忽视",
+"level": "a2"
+},
+{
+"word": "Deck",
+"pos": "n.",
+"zh": "甲板",
+"level": "a2"
+},
+{
+"word": "Narr",
+"pos": "n.m.",
+"zh": "傻瓜（旧）",
+"level": "a2"
+},
+{
+"word": "höchstens",
+"pos": "adv.",
+"zh": "至多",
+"level": "a2"
+},
+{
+"word": "übersehen",
+"pos": "v.",
+"zh": "忽视；看漏",
+"level": "a2"
+},
+{
+"word": "darunter",
+"pos": "adv.",
+"zh": "在其中",
+"level": "a2"
+},
+{
+"word": "außen",
+"pos": "adv.",
+"zh": "在外面",
+"level": "a2"
+},
+{
+"word": "einzig",
+"pos": "adj.",
+"zh": "唯一的",
+"level": "a2"
+},
+{
+"word": "Spielchen",
+"pos": "n.",
+"zh": "小把戏",
+"level": "a2"
+},
+{
+"word": "bequem",
+"pos": "adj.",
+"zh": "舒适的",
+"level": "a2"
+},
+{
+"word": "Rauch",
+"pos": "n.m.",
+"zh": "烟",
+"level": "a2"
+},
+{
+"word": "Hubschrauber",
+"pos": "n.m.",
+"zh": "直升机",
+"level": "a2"
+},
+{
+"word": "erstmal",
+"pos": "adv.",
+"zh": "首先（口语）",
+"level": "a2"
+},
+{
+"word": "derselbe",
+"pos": "pron.",
+"zh": "同一个",
+"level": "a2"
+},
+{
+"word": "Konto",
+"pos": "n.",
+"zh": "账户",
+"level": "a2"
+},
+{
+"word": "Haken",
+"pos": "n.m.",
+"zh": "钩子",
+"level": "a2"
+},
+{
+"word": "Munition",
+"pos": "n.f.",
+"zh": "弹药",
+"level": "a2"
+},
+{
+"word": "Sünde",
+"pos": "n.f.",
+"zh": "罪孽",
+"level": "a2"
+},
+{
+"word": "Militär",
+"pos": "n.",
+"zh": "军队",
+"level": "a2"
+},
+{
+"word": "Anzeichen",
+"pos": "n.",
+"zh": "迹象",
+"level": "a2"
+},
+{
+"word": "Hintergrund",
+"pos": "n.m.",
+"zh": "背景",
+"level": "a2"
+},
+{
+"word": "keins",
+"pos": "pron.",
+"zh": "没有一个",
+"level": "a2"
+},
+{
+"word": "genial",
+"pos": "adj.",
+"zh": "天才的",
+"level": "a2"
+},
+{
+"word": "Kram",
+"pos": "n.m.",
+"zh": "杂物（口语）",
+"level": "a2"
+},
+{
+"word": "umziehen",
+"pos": "v.",
+"zh": "搬家",
+"level": "a2"
+},
+{
+"word": "zunächst",
+"pos": "adv.",
+"zh": "首先",
+"level": "a2"
+},
+{
+"word": "keinerlei",
+"pos": "pron.",
+"zh": "毫无",
+"level": "a2"
+},
+{
+"word": "typisch",
+"pos": "adj.",
+"zh": "典型的",
+"level": "a2"
+},
+{
+"word": "Technologie",
+"pos": "n.f.",
+"zh": "技术",
+"level": "a2"
+},
+{
+"word": "jünger",
+"pos": "adj.",
+"zh": "更年轻的",
+"level": "a2"
+},
+{
+"word": "umso",
+"pos": "adv.",
+"zh": "更加",
+"level": "a2"
+},
+{
+"word": "unhöflich",
+"pos": "adj.",
+"zh": "不礼貌的",
+"level": "a2"
+},
+{
+"word": "Universität",
+"pos": "n.f.",
+"zh": "大学",
+"level": "a2"
+},
+{
+"word": "heben",
+"pos": "v.",
+"zh": "举起",
+"level": "a2"
+},
+{
+"word": "Koch",
+"pos": "n.m.",
+"zh": "厨师",
+"level": "a2"
+},
+{
+"word": "Katastrophe",
+"pos": "n.f.",
+"zh": "灾难",
+"level": "a2"
+},
+{
+"word": "Mal",
+"pos": "n.",
+"zh": "次",
+"level": "a2"
+},
+{
+"word": "Prüfung",
+"pos": "n.f.",
+"zh": "考试",
+"level": "a2"
+},
+{
+"word": "Meeting",
+"pos": "n.",
+"zh": "会议",
+"level": "a2"
+},
+{
+"word": "Versicherung",
+"pos": "n.f.",
+"zh": "保险",
+"level": "a2"
+},
+{
+"word": "mitmachen",
+"pos": "v.",
+"zh": "参与",
+"level": "a2"
+},
+{
+"word": "tauschen",
+"pos": "v.",
+"zh": "交换",
+"level": "a2"
+},
+{
+"word": "senden",
+"pos": "v.",
+"zh": "发送",
+"level": "a2"
+},
+{
+"word": "Reporter",
+"pos": "n.m.",
+"zh": "记者",
+"level": "a2"
+},
+{
+"word": "abgeben",
+"pos": "v.",
+"zh": "交出",
+"level": "a2"
+},
+{
+"word": "anhören",
+"pos": "v.",
+"zh": "听取",
+"level": "a2"
+},
+{
+"word": "Bibliothek",
+"pos": "n.f.",
+"zh": "图书馆",
+"level": "a2"
+},
+{
+"word": "hinsetzen",
+"pos": "v.",
+"zh": "坐下",
+"level": "a2"
+},
+{
+"word": "Motiv",
+"pos": "n.",
+"zh": "动机",
+"level": "a2"
+},
+{
+"word": "schalten",
+"pos": "v.",
+"zh": "切换",
+"level": "a2"
+},
+{
+"word": "Gewicht",
+"pos": "n.",
+"zh": "体重",
+"level": "a2"
+},
+{
+"word": "schieben",
+"pos": "v.",
+"zh": "推",
+"level": "a2"
+},
+{
+"word": "dreimal",
+"pos": "adv.",
+"zh": "三次",
+"level": "a2"
+},
+{
+"word": "weich",
+"pos": "adj.",
+"zh": "软的",
+"level": "a2"
+}
+]

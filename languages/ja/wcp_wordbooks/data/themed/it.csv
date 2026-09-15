@@ -1,0 +1,801 @@
+﻿word,reading,meaning_en,pos,common
+句,く,clause (e.g. in a database query language),"n,n-suf",True
+表,おもて,foreground,n,True
+文,ぶん,statement,n,True
+値,あたい,value,n,True
+キロ,,kilo-,pref,True
+ギガ,,gigabyte,n,True
+タブ,,tab (in a window),n,True
+バス,,bus,n,True
+ログ,,log,n,True
+ロゴ,,Logo (programming language),n,True
+圧縮,あっしゅく,compression (of data),"n,vs,vt",True
+移植,いしょく,porting (software),"n,vs,vt",True
+解放,かいほう,deallocation (of computer memory),"n,vs,vt",True
+改造,かいぞう,modding,"n,vs,vt",True
+開く,ひらく,"to open (a file, etc.)","v5k,vt",True
+拡張,かくちょう,escape,"n,vs,vt",True
+間隔,かんかく,space character,n,True
+基盤,きばん,platform,n,True
+記憶,きおく,memory,"n,vs,vt",True
+空白,くうはく,whitespace,n,True
+継承,けいしょう,inheritance,"n,vs,vt",True
+結合,けつごう,join (in relational algebra),n,True
+後退,こうたい,backspace (key),n,True
+攻撃,こうげき,cyber attack (e.g. DDoS),n,True
+参照,さんしょう,browsing (to a file or folder),"n,vs,vt",True
+実行,じっこう,execution (of a program),"n,vs,vt",True
+周辺,しゅうへん,(computer) peripheral,n,True
+照会,しょうかい,query (of a database),"n,vs,vt",True
+上位,じょうい,higher order (e.g. byte),n,True
+常駐,じょうちゅう,"resident (program, file, etc.)",adj-no,True
+設定,せってい,options setting,"n,vs,vt",True
+走行,そうこう,running (of a program),"n,vs,vi",True
+退避,たいひ,backup (of data),"n,vs,vi",True
+叩く,たたく,to call,"v5k,vt",True
+端末,たんまつ,terminal,n,True
+通知,つうち,"notification (on a smartphone, PC, etc.)",n,True
+通報,つうほう,message (in information and communication theory),"n,vs,vt,vi",True
+定数,ていすう,literal,n,True
+摘み,つまみ,(file) handle,n,True
+展開,てんかい,extraction (of compressed data),"n,vs,vt,vi",True
+投入,とうにゅう,submitting (a job to a computer),"n,vs,vt",True
+同期,どうき,synchronization,"n,vs,vt,vi",True
+破壊,はかい,(application) crash,"n,vs,vt,vi",True
+配列,はいれつ,array,n,True
+発火,はっか,firing (of an event),"n,vs,vi",True
+発行,はっこう,raising (an event),"n,vs,vt",True
+番地,ばんち,address,n,True
+否定,ひてい,NOT operation,n,True
+表示,ひょうじ,display,"n,vs,vt",True
+復帰,ふっき,carriage return,n,True
+壁紙,かべがみ,wallpaper,n,True
+保存,ほぞん,save (to storage),"n,vs,vt",True
+本番,ほんばん,production environment,n,True
+命令,めいれい,(software) instruction,"n,vs,vt",True
+戻り,もどり,return (from a procedure),n,True
+要素,ようそ,element (e.g. in array),n,True
+連携,れんけい,integration,"n,vs,vi",True
+曖昧,あいまい,fuzzy,"adj-na,n",True
+足跡,あしあと,record of page visitors (e.g. in social networking sites),n,True
+稼働,かどう,deployment (e.g. to a production environment),"n,vs,vi",True
+反映,はんえい,"application (of an update, changes, etc.)","n,vs,vt,vi",True
+反復,はんぷく,recursion,"n,vs,vt",True
+アプリ,,app,n,True
+エコー,,echo,"n,vs,vt",True
+ゲート,,gate,n,True
+コード,,code,n,True
+ＣＯＭ,コム,computer output microfilm system,n,True
+シーク,,seek,n,True
+シェル,,shell,n,True
+スキン,,skin (custom graphical user interface for an application),n,True
+ストア,ストアー,"storing (data in memory, etc.)","n,vs,vt",True
+セーブ,,save,"n,vs,vt",True
+ソフト,,software,n,True
+ダウン,,"going down (of a computer system, server, etc.)","n,vs,vi",True
+ツール,,tool (software),n,True
+ドット,,dot,n,True
+ネスト,,"nesting (software, data structures)","n,vs",True
+ハード,,hardware,n,True
+ハング,,hang,"n,vs,vi",True
+パージ,,purging (data),"n,vs,vt",True
+ヒット,,hit (i.e. a successful match in a search),"n,vs,vi",True
+ビット,ビト,bit,n,True
+フラグ,,flag,n,True
+ボーン,,Bourne (shell),n,True
+ポート,,port,n,True
+ポップ,,pop (stack operation),"n,vs,vt",True
+マクロ,,macro (instruction),n,True
+モデム,,modem,n,True
+リンク,,linking (of object files),"n,vs,vt",True
+ループ,,loop (in a program),"n,vs,vi",True
+ルビー,ルビ,Ruby (programming language),n,True
+ＲＯＭ,ロム,read-only memory,n,True
+ワード,,word,n,True
+外付け,そとづけ,"external (hard drive, disk drive, etc.)","adj-no,n,vs,vt",True
+管理者,かんりしゃ,root (user),n,True
+固まる,かたまる,to freeze,"v5r,vi",True
+荒らす,あらす,to troll (e.g. web forums),"v5s,vt",True
+再起動,さいきどう,restart,"n,vs,vt",True
+先取り,さきどり,prefetch,"n,vs,vt",True
+抜ける,ぬける,to exit (a program loop),"v1,vi",True
+与える,あたえる,to pass (a variable to a function),"v1,vt",True
+落ちる,おちる,"to go down (of a website, server, etc.)","v1,vi",True
+落とす,おとす,to download,"v5s,vt",True
+拡張子,かくちょうし,file extension,n,True
+ＧＵＩ,ジー・ユー・アイ,graphical user interface,n,True
+ＭＰ３,エムピースリー,MP3,n,True
+表計算,ひょうけいさん,spreadsheet,n,True
+シート,,spreadsheet,n,True
+ロード,,loading (a program or data into memory),"n,vs,vt",True
+ウェア,ウエア,-ware,n-suf,True
+アイコン,,icon,n,True
+アクセス,,"access (to a website, data, etc.)","n,vs,vi",True
+アドレス,,address,n,True
+イメージ,,(computer) image,n,True
+ウインド,ウィンド,window,n,True
+カーソル,,cursor,n,True
+キャスト,,"casting (video, audio, etc.)","n,vs,vt",True
+クッキー,,cookie,n,True
+クリック,,(mouse) click,"n,vs,vt",True
+クロック,,clock,n,True
+コマンド,,command,n,True
+コミット,,"commit (data management, version control)","n,vs,vi",True
+サーバー,サーバ,server,n,True
+スコープ,,scope (of a name binding),n,True
+スリップ,,Serial Link IP,n,True
+スワップ,,(memory) swapping,"n,vs,vt",True
+セクター,セクタ,(disk) sector,n,True
+デーモン,デモン,"daemon (in Unix, etc.)",n,True
+ディスク,,disk (storage),n,True
+ドライブ,,drive,n,True
+ドロップ,,dropping (mouse gesture),"n,vs,vt",True
+ハッカー,,hacker,n,True
+パスカル,,PASCAL (language),n,True
+ファイル,,file,n,True
+フリーズ,,freezing,"n,vs",True
+ブリッジ,,(network) bridge,n,True
+ブロック,,block,n,True
+プッシュ,,"pushing (an update, content, etc.)","n,vs,vt",True
+ポイント,,to point (at),"vs,vt",True
+マイコン,,microcomputer,n,True
+マウント,,mounting (e.g. a drive),"n,vs",True
+メニュー,,menu,n,True
+メモリー,メモリ,memory,n,True
+リターン,,return (key),n,True
+リリース,,release (of a previously pressed mouse button),"n,vs,vt",True
+ルーチン,ルーティン,routine,n,True
+レコード,,record (data structure),n,True
+ワープロ,,word processor,n,True
+ワクチン,,antivirus software,n,True
+呼び出す,よびだす,to invoke (e.g. a subroutine),"v5s,vt",True
+取り込む,とりこむ,to capture (e.g. image),"v5m,vt",True
+書き込む,かきこむ,to write (data),"v5m,vt",True
+情報処理,じょうほうしょり,data processing,n,True
+折り返し,おりかえし,back-to-back,"n,adj-no",True
+折り返す,おりかえす,"to loopback (a signal, message, etc.)","v5s,vt",True
+打ち込み,うちこみ,step recording (in electronic or computer music),n,True
+吐き出す,はきだす,to output,"v5s,vt",True
+抜け出す,ぬけだす,to break out (of a loop),"v5s,vi",True
+取り込み,とりこみ,importing (e.g. data),"n,vs,vt",True
+呼び出し,よびだし,call,n,True
+割り当て,わりあて,allocation,n,True
+割り込み,わりこみ,interrupt,n,True
+総当たり,そうあたり,brute force (in cryptography),"n,adj-no",True
+検索条件,けんさくじょうけん,search criteria,n,True
+推奨環境,すいしょうかんきょう,system requirements (i.e. recommended hardware and software to run a package),n,True
+ＡＳＣＩＩ,アスキー,American Standard Code for Information Interchange,n,True
+インポート,,importing (data),"n,vs,vt",True
+ウィンドウ,ウインドウ,window,n,True
+エディター,エディタ,text editor,n,True
+キーワード,キイワード,keyword,n,True
+キャッシュ,,cache,n,True
+キャディー,キャディ,(CD-ROM) caddy,n,True
+クラッカー,クラッカ,cracker,n,True
+クラッシュ,,crash,"n,vs,vi",True
+ジャーナル,,journal,n,True
+データ通信,データつうしん,data communication,n,True
+ドライバー,ドライバ,(device) driver,n,True
+ハウジング,,colocation,n,True
+フィールド,,"field (in a form, web page, etc.)",n,True
+フォーカス,,focus (in a graphical user interface),n,True
+フォワード,,forwarding (an email),"n,vs,vt",True
+フロッピー,フロッピ,floppy (disk),n,True
+プログラム,,(computer) program,"n,vs,vt",True
+ボリューム,ヴォリューム,volume (storage area),n,True
+レジスター,レジスタ,register,n,True
+立ち上がる,たちあがる,to start up,"v5r,vi",True
+立ち上げる,たちあげる,to boot (a computer),"v1,vt",True
+お気に入り,おきにいり,bookmark (in a web browser),n,True
+右クリック,みぎクリック,right-click,"n,vs,vt",True
+アルゴリズム,,algorithm,n,True
+インバーター,インバータ,inverter,n,True
+ウィジェット,,widget,n,True
+エージェント,エイジェント,agent,n,True
+キャッシング,,caching,n,True
+キャラクター,キャラクタ,character,n,True
+ソフトウェア,ソフトウエア,software,n,True
+ダウンロード,,download,"n,vs,vt",True
+データバンク,データ・バンク,data bank,n,True
+データベース,データーベース,database,n,True
+ディレクトリ,ディレクトリー,directory,n,True
+ドキュメント,,document,n,True
+ハードウェア,ハードウエア,hardware,n,True
+バックアップ,,backup,"n,vs,vt",True
+バックボーン,,backbone (of a network),n,True
+フォーマット,,(data) format,n,True
+プロセッサー,プロセッサ,processor,n,True
+ライブラリー,ライブラリ,"library (software, modules, images, etc.)",n,True
+リフレッシュ,リフレシュ,(memory) refresh,"n,vs,vt",True
+インターネット,インタネット,Internet,n,True
+ショートカット,ショート・カット,(keyboard) shortcut,n,True
+ハードディスク,ハード・ディスク,hard disk (drive),n,True
+メモリーカード,メモリカード,memory card,n,True
+光学式文字認識,こうがくしきもじにんしき,optical character recognition,n,True
+アプリケーション,アプリケイション,application,n,True
+ダウンサイジング,,switching from mainframe to personal computers,"n,vs",True
+バックグラウンド,バックグランド,background (activity),n,True
+フリップフロップ,フリップ・フロップ,flip flop,n,True
+ファイアウォール,ファイヤーウォール,firewall,n,True
+フロッピーディスク,フロッピー・ディスク,floppy disk,n,True
+ワークステーション,,workstation,n,True
+コンフィギュレーション,コンフィグレーション,configuration,n,True
+Ｃ,シー,C (programming language),n,False
+ヌル,ナル,null,n,False
+バグ,,(software) bug,n,False
+パソ,,personal (computer),n,False
+一意,いちい,unique,"adj-no,adj-na",False
+引数,ひきすう,argument (of a function),n,False
+英数,えいすう,alphanumeric characters,n,False
+仮数,かすう,significand,n,False
+解凍,かいとう,decompression (of data),"n,vs,vt",False
+改行,かいぎょう,newline,"n,vs,vt,vi",False
+外字,がいじ,external character,n,False
+格納,かくのう,putting into computer memory,"n,vs,vt",False
+帰着,きちゃく,reduction,"n,vs,vi",False
+区点,くてん,Japanese character set row and column index,n,False
+罫線,けいせん,border,n,False
+後置,こうち,back-end,"n,vs,adj-no",False
+構文,こうぶん,syntax,n,False
+差分,さぶん,incremental difference (e.g. between files),n,False
+再帰,さいき,recursion,n,False
+作譜,さくふ,log (i.e. work-file),n,False
+算体,さんたい,(computer) object,n,False
+算程,さんてい,(computer) process,n,False
+算譜,さんぷ,computer program,n,False
+子局,こきょく,(computer) slave station,n,False
+重畳,ちょうじょう,superimposition,"n,vs,vt,vi",False
+書庫,しょこ,archive (file),n,False
+親局,おやきょく,master station,n,False
+線形,せんけい,linear,"adj-no,adj-na,n",False
+属性,ぞくせい,attribute,n,False
+打鍵,だけん,execution of test cases,"n,vs",False
+代入,だいにゅう,assignment,"n,vs,vt",False
+端子,たんし,port (e.g. LAN port),n,False
+変数,へんすう,variable,n,False
+関数,かんすう,function (programming),n,False
+脱獄,だつごく,"jailbreaking (a smartphone, video game console, etc.)","n,vs,vt",False
+母線,ぼせん,bus,n,False
+探番,たんばん,"attributing a sequence number (packet, message, etc.)","n,vs",False
+孫局,まごきょく,(computer) sub-node,n,False
+べた,ベタ,plaintext,adj-no,False
+ＯＳ,オー・エス,operating system,n,False
+ＩＰ,アイ・ピー,Internet Protocol,n,False
+ＩＭ,アイ・エム,input method,n,False
+モニ,,program that monitors (and adjusts) activity of a P2P program,n,False
+ＣＧ,シー・ジー,computer graphics,n,False
+ＩＴ,アイ・ティー,information technology,n,False
+イニ,,.ini,n,False
+ＨＤ,エイチ・ディー,hard disk,n,False
+ＦＤ,エフ・ディー,floppy disk,n,False
+ＭＯ,エム・オー,magneto-optical disk,n,False
+ＤＢ,ディー・ビー,database,n,False
+ピア,,peer,n,False
+ピフ,,program information file,n,False
+ＶＲ,ブイ・アール,VR,n,False
+ＶＩ,ブイ・アイ,vi (text editor),n,False
+ＶＭ,ブイ・エム,VM,n,False
+ＶＢ,ブイ・ビー,Visual Basic,n,False
+ペル,,pel,n,False
+ＵＩ,ユー・アイ,user interface,n,False
+圧電,あつでん,piezoelectric,"n,adj-no",False
+丸め,まるめ,rounding,n,False
+給送,きゅうそう,feed,n,False
+局建,きょくげん,office setup,n,False
+空列,くうれつ,null string,n,False
+結線,けっせん,hard wiring,n,False
+行枠,ぎょうわく,line box,n,False
+始端,したん,start edge,n,False
+主局,しゅきょく,master station,n,False
+従局,じゅうきょく,slave station,n,False
+縮退,しゅくたい,"degradation (CPU, memory, etc.)",n,False
+出側,しゅつがわ,sending side,"n,adj-no",False
+色値,しきち,colour value,n,False
+線種,せんしゅ,linetype,n,False
+束表,たばひょう,bundle table,n,False
+単紙,たんし,cut sheet (paper),n,False
+単票,たんぴょう,cut form,n,False
+端点,たんてん,anchor,n,False
+着呼,ちゃっこ,incoming call,n,False
+中置,ちゅうち,infix,adj-f,False
+長弧,ちょうこ,long arc,n,False
+等化,とうか,equalization,n,False
+等時,とうじ,isochronous,"n,adj-no",False
+内字,ないじ,internal character,n,False
+倍角,ばいかく,double size of character,n,False
+倍速,ばいそく,"double speed (data transfer, video playback, etc.)",n,False
+発局,はっきょく,sending office,n,False
+発呼,はっこ,outgoing call,n,False
+半語,はんご,half-word,n,False
+非数,ひすう,not a number,n,False
+付番,ふばん,rank suffix (in SGML),n,False
+副層,ふくそう,sublayer,n,False
+閉域,へいいき,"closed (network, e.g.)",n,False
+翻音,ほんおん,transcription,n,False
+名礼,なれ,label (e.g. in programming languages),n,False
+暦週,れきしゅう,calendar week,n,False
+ＤＬ,ディー・エル,download,n,False
+漢直,かんちょく,direct kanji input (as opposed to kana-kanji conversion),n,False
+ＳＰ,エス・ピー,structured programming,n,False
+ＣＡ,シー・エー,Certification Authority,n,False
+ＩＳ,アイ・エス,information separator,n,False
+点群,てんぐん,point cloud,n,False
+ＭＢ,エム・ビー,megabyte,n,False
+ボー,,baud,n,False
+ＪＳ,ジェー・エス,JavaScript,n,False
+ＭＴ,エム・ティー,machine translation,n,False
+串鯖,くしさば,proxy server,n,False
+冪等,べきとう,idempotent,adj-no,False
+列幅,れつはば,column width,n,False
+行高,ぎょうこう,line height,n,False
+ＴＢ,ティー・ビー,terabyte,n,False
+値型,あたいがた,value type,n,False
+エビ,,(positive) test results,n,False
+ＩＦ,アイ・エフ,interface,n,False
+パス,,"path (of a file, directory, etc.)",n,False
+Ｂ木,ビーき,B-tree,n,False
+倉頡,そうけつ,Cangjie (input method for Chinese),n,False
+ＸＰ,エックス・ピー,extreme programming,n,False
+ＵＬ,ユー・エル,upload,n,False
+ＵＸ,ユー・エックス,user experience,n,False
+ＡＰ,エー・ピー,access point,n,False
+ＵＵ,ユー・ユー,unique user (of a website),n,False
+ＸＲ,エックス・アール,extended reality,n,False
+動確,どうかく,validation,n,False
+ＤＣ,ディー・シー,data center,n,False
+お呪い,おまじない,code that is not (yet) necessary to understand,n,False
+クリア,クリアー,clearing (e.g. a checked box),"n,vs,vt",False
+ジョブ,,job,n,False
+ＤＯＳ,ドス,disk operating system,n,False
+ハック,,hack,n,False
+バナー,,banner (on a web page),n,False
+パッチ,,(software) patch,n,False
+ブート,,boot,"n,vs,vt,vi",False
+マージ,,merge,"n,vs",False
+ワーム,,worm,n,False
+演算子,えんざんし,operator,n,False
+仮数部,かすうぶ,significand,n,False
+可変長,かへんちょう,variable-length,"adj-no,n",False
+機械語,きかいご,machine language,n,False
+記述子,きじゅつし,descriptor,n,False
+型変換,かたへんかん,type conversion,n,False
+計算木,けいさんぎ,computer-tree,n,False
+固定長,こていちょう,fixed-length,"adj-no,n",False
+子画面,こがめん,subsidiary screen,n,False
+実行権,じっこうけん,right to execute (a file),n,False
+実行時,じっこうじ,execution-time,n,False
+初期化,しょきか,initialization (of a variable),"n,vs,vt",False
+初期値,しょきち,initializing value,n,False
+上書き,うわがき,"overwriting (data, file, etc.)","n,vs,vt",False
+情報化,じょうほうか,computerization,"n,vs",False
+情報源,じょうほうげん,message source,n,False
+条件文,じょうけんぶん,conditional statement,n,False
+親画面,おやがめん,main screen,n,False
+対応版,たいおうばん,supported version,n,False
+単漢字,たんかんじ,single kanji,"n,n-pref",False
+電算機,でんさんき,electronic computer,n,False
+特徴量,とくちょうりょう,feature value,n,False
+二進木,にしんぎ,binary tree,n,False
+二分木,にぶんぎ,binary tree,n,False
+入れ子,いれこ,nested structure,n,False
+入出力,にゅうしゅつりょく,input and output,n,False
+汎用機,はんようき,general-purpose computer,n,False
+非同期,ひどうき,asynchronous,"adj-no,n",False
+文字列,もじれつ,character string,n,False
+網掛け,あみかけ,half-tone dot meshing,n,False
+無手順,むてじゅん,ASCII data transfer with XON-XOFF flow control,n,False
+予約語,よやくご,reserved word,n,False
+再配布,さいはいふ,redistribution (of software),"n,vs,vt",False
+実体化,じったいか,(specific to object language classes) instantiation,"n,vs",False
+最下位,さいかい,least significant (bit),adj-no,False
+脆弱性,ぜいじゃくせい,vulnerability,n,False
+袋綴じ,ふくろとじ,dual page,n,False
+ＡＢＣ,エー・ビー・シー,Atanasoff-Berry Computer,n,False
+論理積,ろんりせき,logical product,n,False
+正論理,せいろんり,positive logic,n,False
+試用版,しようばん,trial version (e.g. software),n,False
+ＬＳＩ,エル・エス・アイ,large scale integrated circuit,n,False
+桁上げ,けたあげ,"carry (of digit, bit, etc.)",n,False
+桁上り,けたあがり,"carry (of digit, bit, etc.)",n,False
+エミュ,,emulator,n,False
+Ｃ＋＋,シー・プラス・プラス,C++ (programming language),n,False
+マザー,,motherboard,n,False
+返り値,かえりち,return value,n,False
+ＶＡＮ,ブイ・エー・エヌ,value-added network,n,False
+ＵＳＢ,ユー・エス・ビー,USB,n,False
+ボット,,"bot (autonomous computer program, esp. on a network)",n,False
+ＳＳＬ,エス・エス・エル,Secure Sockets Layer,n,False
+ＸＭＬ,エックス・エム・エル,XML,n,False
+ＣＧＩ,シー・ジー・アイ,common gateway interface,n,False
+識別名,しきべつめい,identifier,n,False
+ＲＡＭ,ラム,random-access memory,n,False
+ＬＡＮ,ラン,local area network,n,False
+モナド,,monad (in functional programming),n,False
+ＣＡＤ,キャド,computer-aided design,n,False
+ＣＡＭ,キャム,computer-aided manufacturing,n,False
+ＣＡＩ,シー・エー・アイ,computer-assisted instruction,n,False
+ぬるぽ,ヌルポ,null pointer exception (runtime exception in Java),n,False
+全画面,ぜんがめん,full screen,n,False
+直リン,ちょくリン,direct link,n,False
+アク禁,アクきん,"ban (from accessing a website, network service, etc.)",n,False
+文字間,もじかん,letter spacing,n,False
+ＷＡＮ,ワン,wide area network,n,False
+ＲＡＳ,ラス,remote access service,n,False
+ＬＡＰ,ラップ,link access protocol,n,False
+２次局,にじきょく,secondary station,n,False
+Ｘ端末,エックスたんまつ,Xterm,n,False
+すくみ,,deadlock,n,False
+ＡＲＰ,アープ,Address Resolution Protocol,n,False
+ＲＴＦ,アール・ティー・エフ,RTF,n,False
+ＲＤＯ,アール・ディー・オー,remote data object,n,False
+ＩＲＱ,アイ・アール・キュー,IRQ,n,False
+ＩＩＳ,アイ・アイ・エス,IIS (web server),n,False
+ＩＭＥ,アイ・エム・イー,input method editor,n,False
+ＩＤＥ,アイ・ディー・イー,Integrated Drive Electronics,n,False
+ＩＤＬ,アイ・ディー・エル,interface definition language,n,False
+ＩＤＣ,アイ・ディー・シー,Internet data center,n,False
+アゴラ,,Agora (programming language),n,False
+ＡＣＫ,アック,ACK (acknowledgement message),n,False
+ＥＲＰ,イー・アール・ピー,enterprise resource planning,n,False
+ＥＭＳ,イー・エム・エス,Expanded Memory Specification (MS-DOS),n,False
+ＥＯＳ,イー・オー・エス,electronic ordering system,n,False
+ＥＯＦ,イー・オー・エフ,end of file,n,False
+ＥＧＡ,イー・ジー・エー,Enhanced Graphics Adapter,n,False
+ＥＷＳ,イー・ダブリュー・エス,engineering workstation,n,False
+ＥＤＩ,イー・ディー・アイ,electronic data interchange,n,False
+ＥＵＣ,イー・ユー・シー,EUC (encoding),n,False
+ＡＳＰ,エー・エス・ピー,application service provider,n,False
+ＡＣＬ,エー・シー・エル,access control list,n,False
+ＡＴＡ,エー・ティー・エー,ATA (connector standard),n,False
+ＡＰＩ,エー・ピー・アイ,application programming interface,n,False
+ＡＰＬ,エー・ピー・エル,APL,n,False
+ＡＶＩ,エー・ブイ・アイ,AVI (file format),n,False
+Ａｄａ,エイダ,Ada (programming language),n,False
+ＨＳＶ,エイチ・エス・ブイ,"hue, saturation, value",n,False
+ＨＭＡ,エイチ・エム・エー,high memory area,n,False
+ＨＤＤ,エイチ・ディー・ディー,hard disk drive,n,False
+ＳＦＡ,エス・エフ・エー,sales force automation,n,False
+ＳＱＬ,エス・キュー・エル,Structured Query Language,n,False
+ＳＤＫ,エス・ディー・ケー,SDK,n,False
+ＮＦＳ,エヌ・エフ・エス,NFS,n,False
+ＮＯＳ,ノス,network operating system,n,False
+ＦＥＰ,エフ・イー・ピー,front-end processor,n,False
+ＦＴＰ,エフ・ティー・ピー,file transfer protocol,n,False
+ＦＰＵ,エフ・ピー・ユー,floating point unit,n,False
+ＭＭＵ,エムエムユー,MMU,n,False
+ＬＬＣ,エル・エル・シー,logical link control,n,False
+ＬＺＨ,エル・ゼット・エイチ,LZH,n,False
+ＯＳＩ,オー・エス・アイ,OSI,n,False
+ＯＬＥ,オー・エル・イー,OLE,n,False
+ＯＣＲ,オー・シー・アール,optical character recognition,n,False
+ＯＤＰ,オー・ディー・ピー,overdrive processor,n,False
+カルク,,spreadsheet,n,False
+クエリ,クエリー,query,n,False
+ＧＮＵ,グヌー,"GNU (project, operating system, etc.)",n,False
+グリフ,,glyph,n,False
+グレア,,glare,n,False
+コーム,,comb,n,False
+コア径,コアけい,core diameter (of a fiber),n,False
+コプロ,,coprocessor,n,False
+ＣＲＣ,シー・アール・シー,cyclic redundancy check,n,False
+ＣＡＥ,シー・エー・イー,computer-aided engineering,n,False
+ＣＡＶ,シー・エー・ブイ,constant angular velocity,n,False
+ＣＳＶ,シー・エス・ブイ,comma-separated values (data format),n,False
+ＣＬＶ,シー・エル・ブイ,constant linear velocity,n,False
+ＣＣＤ,シー・シー・ディー,CCD,n,False
+ＣＧＡ,シー・ジー・エー,color graphics adapter,n,False
+ＣＰＭ,シー・ピー・エム,control program for microcomputers,n,False
+ＣＰＵ,シー・ピー・ユー,CPU,n,False
+ＣＵＩ,シー・ユー・アイ,character-based user interface,n,False
+ＣＵＧ,シー・ユー・ジー,closed user group,n,False
+ＳＩＧ,シグ,SIG,n,False
+ＪＣＬ,ジェー・シー・エル,job control language,n,False
+ＪＤＫ,ジェー・ディー・ケー,Java Development Kit,n,False
+セル化,セルか,cell encapsulation,"n,vs",False
+タリー,,tally,n,False
+ＤＡＯ,ダオ,data access object,n,False
+ＤＥＳ,ディー・イー・エス,Data Encryption Standard,n,False
+ＤＳＳ,ディー・エス・エス,decision support system,n,False
+ＤＳＰ,ディー・エス・ピー,digital signal processor,n,False
+ＤＬＬ,ディー・エル・エル,dynamic link library,n,False
+ＤＣＥ,ディー・シー・イー,distributed computing environment,n,False
+ＤＴＰ,ディー・ティー・ピー,desktop publishing,n,False
+ＤＤＸ,ディー・ディー・エックス,digital data exchange,n,False
+ＤＤＬ,ディー・ディー・エル,data definition language,n,False
+ｄｐｉ,ディー・ピー・アイ,dots per inch,n,False
+ディザ,ディザー,dither,n,False
+ディフ,,DIF,n,False
+ディム,,DIMM,n,False
+ＮＡＫ,ナック,negative acknowledgement,n,False
+ヌル型,ヌルがた,null type,n,False
+ヌル値,ヌルち,null value,n,False
+バス型,バスがた,bus configuration,n,False
+バス幅,バスはば,bus width,n,False
+パス名,パスめい,pathname,n,False
+ＢＥＲ,ビー・イー・アール,bit error rate,n,False
+ＢＳＤ,ビー・エス・ディー,BSD (Unix operating system),n,False
+ＢＭＰ,ビー・エム・ピー,BMP (file format),n,False
+ｂｐｓ,ビー・ピー・エス,bps,n,False
+Ｖｉｍ,ヴィム,Vim (text editor),n,False
+ビルド,,build,n,False
+ＰｎＰ,ピー・エヌ・ピー,plug and play,n,False
+ＰＣＩ,ピー・シー・アイ,PCI,n,False
+ＰＤＦ,ピー・ディー・エフ,PDF,n,False
+ＰＤＭ,ピー・ディー・エム,product data management,n,False
+ＰＰＰ,ピー・ピー・ピー,point-to-point protocol,n,False
+ピコ秒,ピコびょう,picosecond,n,False
+ＰＩＭ,ピム,personal information manager,n,False
+ＶＧＡ,ブイ・ジー・エー,VGA,n,False
+ＶＤＴ,ブイ・ディー・ティー,VDT,n,False
+ＶＢＡ,ブイ・ビー・エー,VBA (programming language),n,False
+ベアラ,,bearer,n,False
+ベジェ,ベジエ,Bezier,n,False
+ベル型,ベルがた,bell-shaped (e.g. curve),n,False
+ホーブ,,HORB,n,False
+ホスツ,,hosts,n,False
+ホロス,,Holos,n,False
+ミスク,,misc,n,False
+ＵＭＡ,ユー・エム・エー,unified memory architecture,n,False
+ラビー,,Lavie,n,False
+リドゥ,リドゥー,redo,"n,vs,vi",False
+ロガー,,logger,n,False
+Ｙ２Ｋ,ワイ・ツー・ケー,Y2K (bug),n,False
+圧伸器,あっしんき,compander,n,False
+暗黙的,あんもくてき,implicit,adj-na,False
+移行期,いこうき,"transition, cutover period",n,False
+移動局,いどうきょく,mobile terminal,n,False
+一意名,いちいめい,identifier,n,False
+一次局,いちじきょく,primary station,n,False
+一般色,いっぱんしょく,general colour,n,False
+印字欄,いんじらん,print zone,n,False
+右下隅,みぎしたすみ,bottom right corner,n,False
+右上隅,みぎうえすみ,top right corner,n,False
+衛星系,えいせいけい,satellite link,n,False
+演算器,えんざんき,functional unit (e.g. in analog computing),n,False
+演算数,えんざんすう,operand,n,False
+演算表,えんざんひょう,operation table,n,False
+演算部,えんざんぶ,operation part,n,False
+応答側,おうとうがわ,responder,n,False
+横倍角,よこばいかく,double-width size (of text),n,False
+欧字列,おうじれつ,alphabetic string,n,False
+下付き,したつき,subscript,n,False
+下位語,かいご,narrower term,n,False
+下位層,かいそう,lower level,n,False
+仮引数,かりひきすう,(formal) parameter,n,False
+仮原文,かりげんぶん,pseudo-text,n,False
+仮手続,かりてつづき,dummy procedure,n,False
+仮想局,かそうきょく,virtual (switching) office,n,False
+仮想的,かそうてき,virtual,adj-na,False
+仮配列,かりはいれつ,dummy array,n,False
+可変部,かへんぶ,variant part,n,False
+可用率,かようりつ,availability ratio,n,False
+画面上,がめんじょう,on-screen,"n,adj-no",False
+会話形,かいわがた,conversational mode,n,False
+回線群,かいせんぐん,trunk group,n,False
+回線網,かいせんもう,line network,n,False
+開き口,ひらきぐち,aperture,n,False
+外部型,がいぶがた,external type,n,False
+拡散率,かくさんりつ,spreading factor,n,False
+拡張性,かくちょうせい,augmentability,n,False
+活用率,かつようりつ,activity ratio,n,False
+環境句,かんきょうく,environment clause,n,False
+環境光,かんきょうこう,ambient light,n,False
+環状網,かんじょうもう,ring network,n,False
+監視局,かんしきょく,monitor,n,False
+関数名,かんすうめい,function name,n,False
+関連図,かんれんず,graphic display,n,False
+危険域,きけんいき,critical section,n,False
+基準縁,きじゅんえん,reference edge,n,False
+基底解,きていかい,basic solution,n,False
+基本外,きほんがい,non-basic,n,False
+基本値,きほんち,basic value,n,False
+基本文,きほんぶん,basic statement,n,False
+基本名,きほんめい,primitive name,n,False
+奇偶性,きぐうせい,parity,n,False
+記憶列,きおくれつ,storage sequence,n,False
+記号列,きごうれつ,symbol string,n,False
+記述項,きじゅつこう,entry (COBOL),n,False
+記述名,きじゅつめい,descriptive name,n,False
+記法名,きほうめい,notation name,n,False
+起動者,きどうしゃ,invoker,n,False
+起動側,きどうがわ,initiator,n,False
+逆編集,ぎゃくへんしゅう,de-edit,n,False
+共通線,きょうつうせん,common channel,n,False
+局管理,きょくかんり,SMT,n,False
+局所名,きょくしょめい,local name,n,False
+空状態,くうじょうたい,empty state,n,False
+空白列,くうはくれつ,blank sequence,n,False
+係数器,けいすうき,coefficient unit,n,False
+型定義,かたていぎ,type definition,n,False
+継続行,けいぞくぎょう,continuation line,n,False
+継続文,けいぞくぶん,continued statement,n,False
+計数器,けいすうき,counter (reversible),n,False
+決定表,けっていひょう,decision table,n,False
+結合性,けつごうせい,associativity,n,False
+検索者,けんさくしゃ,searcher,n,False
+検出部,けんしゅつぶ,read station,n,False
+肩文字,かたもじ,superscript,n,False
+鍵管理,かぎかんり,key management,n,False
+顕示性,けんじせい,highlighting,n,False
+原稿台,げんこうだい,copy holder,n,False
+原資料,げんしりょう,original source,n,False
+減算器,げんざんき,subtracter,n,False
+減衰量,げんすいりょう,attenuation,n,False
+源項目,げんこうもく,source item,n,False
+現位置,げんいち,current position,n,False
+現在値,げんざいち,current value,n,False
+現在点,げんざいてん,current point,n,False
+現属性,げんぞくせい,current attribute,n,False
+現地化,げんちか,localization,n,False
+現付番,げんふばん,current rank,n,False
+現要素,げんようそ,current element,n,False
+限定子,げんていし,qualifier,n,False
+呼出側,よびだしがわ,calling side,n,False
+呼処理,こしょり,call processing,n,False
+呼制御,こせいぎょ,call control,n,False
+呼損率,こそんりつ,blocking ratio,n,False
+固有色,こゆうしょく,intrinsic colour,n,False
+互換機,ごかんき,compatible machine,n,False
+後方端,こうほうたん,trailing edge,n,False
+誤り率,あやまりりつ,error rate,n,False
+誤差幅,ごさはば,error span,n,False
+交換機,こうかんき,switch,n,False
+交換型,こうかんがた,switched,adj-no,False
+交換網,こうかんもう,switching network,n,False
+公開鍵,こうかいかぎ,public key,n,False
+公開文,こうかいぶん,public text,n,False
+広域網,こういきもう,wide area network,n,False
+構成節,こうせいせつ,configuration section,n,False
+構成体,こうせいたい,constituent,n,False
+構造型,こうぞうがた,derived type,n,False
+構文素,こうぶんそ,lexical token,n,False
+行位置,ぎょういち,line number,n,False
+行間隔,ぎょうかんかく,line spacing,n,False
+行起点,ぎょうきてん,line home position,n,False
+行始端,ぎょうしたん,home position of line,n,False
+行送り,ぎょうおくり,linefeed,n,False
+行番号,ぎょうばんごう,line number,n,False
+行方向,ぎょうほうこう,line writing direction,n,False
+項目名,こうもくめい,item name,n,False
+刻み幅,きざみはば,stride,n,False
+左下隅,ひだりしたすみ,bottom left corner,n,False
+左上隅,ひだりうえすみ,top left corner,n,False
+左辺値,さへんち,left side value (of an equation),n,False
+左方端,さほうたん,left hand edge,n,False
+差分法,さぶんほう,difference method,n,False
+座標点,ざひょうてん,coordinate point,n,False
+再割当,さいわりあて,reassignment,n,False
+再計算,さいけいさん,recalculation,"n,vs",False
+再実行,さいじっこう,re-execute,"n,vs",False
+再接続,さいせつぞく,reconnect,n,False
+再設定,さいせってい,reestablish,"n,vs",False
+再宣言,さいせんげん,redeclaration,n,False
+再組立,さいくみたて,reassembly,n,False
+再送信,さいそうしん,retransmission,n,False
+再描画,さいびょうが,redraw,n,False
+最右端,さいうたん,low order end,n,False
+最左端,さいさたん,high order end,n,False
+最終値,さいしゅうち,final value,n,False
+最上位,さいじょうい,high-end,"n,adj-no",False
+最大数,さいだいすう,maximum number,n,False
+細胞状,さいぼうじょう,cellular,n,False
+作業域,さぎょういき,work(ing) space,n,False
+索引語,さくいんご,indexing term,n,False
+雑時間,ざつじかん,miscellaneous time,n,False
+参照権,さんしょうけん,access right,n,False
+参照先,さんしょうさき,referent,n,False
+参照線,さんしょうせん,reference line,n,False
+散布度,さんぷど,irrelevance,n,False
+散布量,さんぷりょう,irrelevance,n,False
+算術式,さんじゅつしき,arithmetic expression,n,False
+算術文,さんじゅつぶん,arithmetic statement,n,False
+算術和,さんじゅつわ,arithmetic sum,n,False
+始端部,したんぶ,leader,n,False
+子操作,こそうさ,child-operation,n,False
+指数的,しすうてき,exponential,adj-na,False
+指定子,していし,descriptor,n,False
+指動輪,しどうりん,thumb wheel,n,False
+指標名,しひょうめい,index-name,n,False
+紙送り,かみおくり,paper feed,n,False
+試験群,しけんぐん,test group,n,False
+字下げ,じさげ,indentation,n,False
+字方向,じほうこう,character writing direction,n,False
+字類名,じるいめい,class name,n,False
+時分割,じぶんかつ,time-sharing,n,False
+次元数,じげんすう,rank,n,False
+自立型,じりつがた,stand-alone,n,False
+実引数,じつひきすう,(actual) argument,n,False
+実記憶,じつきおく,real storage,n,False
+実験網,じっけんもう,test network,n,False
+実効値,じっこうち,root mean squared value,n,False
+実効長,じっこうちょう,effective length,n,False
+実行文,じっこうぶん,executable statement,n,False
+実体文,じったいぶん,entity text,n,False
+実体木,じったいぼく,entity tree,n,False
+借り数,かりすう,borrow digit,n,False
+主キー,しゅキー,master key,n,False
+手順書,てじゅんしょ,process document,n,False
+手順名,てじゅんめい,routine-name,n,False
+受諾側,じゅだくがわ,acceptor,n,False
+受動局,じゅどうきょく,passive station,n,False
+修正版,しゅうせいばん,revised version,n,False
+終端間,しゅうたんかん,end-to-end,n,False
+終端部,しゅうたんぶ,trailer,n,False
+終着局,しゅうちゃくきょく,end office,n,False
+集合型,しゅうごうがた,set type,n,False
+集中化,しゅうちゅうか,centralization,"n,vs",False
+従属局,じゅうぞくきょく,tributary station,n,False
+出回線,しゅつかいせん,output line,n,False
+準内字,じゅんないじ,quasi-internal character,n,False
+順序性,じゅんじょせい,ordering,n,False
+順序木,じゅんじょぎ,ordered tree,n,False
+順読み,じゅんよみ,forward reading,n,False
+順番列,じゅんばんれつ,sequence,n,False
+順編成,じゅんへんせい,sequential organization,n,False
+処理系,しょりけい,implementation,n,False
+初期点,しょきてん,initial point,n,False
+書簡箱,しょかんばこ,electronic mailbox,n,False
+承認者,しょうにんしゃ,approver,n,False
+消光比,しょうこうひ,extinction ratio,n,False
+照合機,しょうごうき,collator,n,False
+証明証,しょうめいしょう,user certificate,n,False
+上位層,じょういそう,upper level,n,False
+上下限,じょうげげん,bounds,n,False
+上下列,じょうげれつ,chain,n,False
+上限値,じょうげんち,upper bound,n,False
+冗長化,じょうちょうか,duplication,n,False
+冗長量,じょうちょうりょう,redundancy (in information theory),n,False
+情報群,じょうほうぐん,information group,n,False
+条件式,じょうけんしき,conditional expression,n,False
+条件名,じょうけんめい,condition-name,n,False
+色温度,いろおんど,color temperature,n,False
+色指標,いろしひょう,color index,n,False
+色写像,いろしゃぞう,colour mapping,n,False
+色分解,いろぶんかい,color separation,n,False
+色補正,いろほせい,color correction,n,False
+信号局,しんごうきょく,signalling office,n,False
+信号網,しんごうもう,signalling network,n,False
+新規呼,しんきこ,new call,n,False
+真空槽,しんくうそう,vacuum column,n,False
+親操作,おやそうさ,parent-operation,n,False
+親要素,おやようそ,containing element,n,False
+推定値,すいていち,estimated value,n,False
+数字句,すうじく,number token,n,False
+数体系,すうたいけい,number system,n,False
+数値型,すうちがた,numeric type,n,False
+数値語,すうちご,numeric word,n,False
+数値的,すうちてき,numeric,adj-na,False
+数表現,すうひょうげん,number representation,n,False
+制御域,せいぎょいき,control area,n,False
+制御局,せいぎょきょく,control station,n,False
+制御系,せいぎょけい,control system,n,False
+制御権,せいぎょけん,control,n,False
+制御卓,せいぎょたく,(operator) console,n,False
+制御点,せいぎょてん,Control Point,n,False
+整数型,せいすうがた,integer type,n,False
+整数値,せいすうち,integer value,n,False
+星状網,ほしじょうもう,star network,n,False
+正規形,せいきけい,normalized form (e.g. in floating-point representation),n,False
+製表機,せいひょうき,tabulator,n,False
+製品化,せいひんか,making into a product,"n,vs",False
+折れ線,おれせん,polyline,n,False
+設定時,せっていじ,initialization time,n,False
+宣言子,せんげんし,declarator,n,False
+宣言文,せんげんぶん,declarative statement,n,False
+穿孔部,せんこうぶ,punch station,n,False
+線間隔,せんかんかく,line spacing,n,False
+線状網,せんじょうもう,linear network,n,False
+選択型,せんたくがた,choice type,n,False
+遷移図,せんいず,transition diagram,n,False
+前方端,ぜんぽうたん,leading edge,n,False
+全集合,ぜんしゅうごう,universal set,n,False
+全体語,ぜんたいご,collective term,n,False
+疎結合,そけつごう,loosely-coupled,"n,adj-no",False
+組始端,くみしたん,first character position of line,n,False
+組終端,くみしゅうたん,last character position of line,n,False
+双安定,そうあんてい,bistable,n,False
+層管理,そうかんり,layer-management,n,False
+挿入点,そうにゅうてん,insertion point,n,False
+操作卓,そうさたく,(operator) console,n,False
+総括票,そうかつひょう,batch-header document,n,False
+装置名,そうちめい,device name,n,False

@@ -1,0 +1,602 @@
+[
+{
+"word": "ficher",
+"pos": "v.",
+"zh": "登记；存档",
+"level": "b1"
+},
+{
+"word": "fichu",
+"pos": "adj.",
+"zh": "糟透的；完蛋的",
+"level": "b1"
+},
+{
+"word": "fidèle",
+"pos": "adj.",
+"zh": "忠实的；忠诚的",
+"level": "b1"
+},
+{
+"word": "fidélité",
+"pos": "n.f.",
+"zh": "忠诚；忠实",
+"level": "b1"
+},
+{
+"word": "fier",
+"pos": "adj.",
+"zh": "自豪的；骄傲的",
+"level": "b1"
+},
+{
+"word": "fierté",
+"pos": "n.f.",
+"zh": "自豪；骄傲",
+"level": "b1"
+},
+{
+"word": "figue",
+"pos": "n.f.",
+"zh": "无花果",
+"level": "b1"
+},
+{
+"word": "figurer",
+"pos": "v.",
+"zh": "出现；位列；想象",
+"level": "b1"
+},
+{
+"word": "file",
+"pos": "n.f.",
+"zh": "队；行列",
+"level": "b1"
+},
+{
+"word": "filer",
+"pos": "v.",
+"zh": "递给；赶快离开；跟踪",
+"level": "b1"
+},
+{
+"word": "filet",
+"pos": "n.m.",
+"zh": "网；细流；里脊",
+"level": "b1"
+},
+{
+"word": "filtrer",
+"pos": "v.",
+"zh": "过滤；筛选",
+"level": "b1"
+},
+{
+"word": "final",
+"pos": "adj.",
+"zh": "最后的；最终的",
+"level": "b1"
+},
+{
+"word": "finale",
+"pos": "n.",
+"zh": "决赛；终曲",
+"level": "b1"
+},
+{
+"word": "finance",
+"pos": "n.f.",
+"zh": "财政；金融",
+"level": "b1"
+},
+{
+"word": "financement",
+"pos": "n.m.",
+"zh": "融资；资金筹措",
+"level": "b1"
+},
+{
+"word": "financer",
+"pos": "v.",
+"zh": "资助；出资",
+"level": "b1"
+},
+{
+"word": "financier",
+"pos": "adj.",
+"zh": "金融的；财政的",
+"level": "b1"
+},
+{
+"word": "financièrement",
+"pos": "adv.",
+"zh": "财政上；资金方面",
+"level": "b1"
+},
+{
+"word": "firme",
+"pos": "n.f.",
+"zh": "公司；商行",
+"level": "b1"
+},
+{
+"word": "fissure",
+"pos": "n.f.",
+"zh": "裂缝；裂痕",
+"level": "b1"
+},
+{
+"word": "fiston",
+"pos": "n.m.",
+"zh": "儿子（爱称）",
+"level": "b1"
+},
+{
+"word": "fixer",
+"pos": "v.",
+"zh": "固定；注视；确定",
+"level": "b1"
+},
+{
+"word": "flacon",
+"pos": "n.m.",
+"zh": "小瓶；细颈瓶",
+"level": "b1"
+},
+{
+"word": "flingue",
+"pos": "n.m.",
+"zh": "枪（俚语）",
+"level": "b1"
+},
+{
+"word": "flirter",
+"pos": "v.",
+"zh": "调情",
+"level": "b1"
+},
+{
+"word": "flocon",
+"pos": "n.m.",
+"zh": "雪花；薄片",
+"level": "b1"
+},
+{
+"word": "flottant",
+"pos": "adj.",
+"zh": "漂浮的；悬垂的；摇摆不定的",
+"level": "b1"
+},
+{
+"word": "flotte",
+"pos": "n.f.",
+"zh": "舰队；船队",
+"level": "b1"
+},
+{
+"word": "flotter",
+"pos": "v.",
+"zh": "飘扬；漂浮",
+"level": "b1"
+},
+{
+"word": "flou",
+"pos": "adj.",
+"zh": "模糊的",
+"level": "b1"
+},
+{
+"word": "fluide",
+"pos": "n.m.",
+"zh": "流体；液体",
+"level": "b1"
+},
+{
+"word": "flèche",
+"pos": "n.f.",
+"zh": "箭；箭头",
+"level": "b1"
+},
+{
+"word": "foi",
+"pos": "n.f.",
+"zh": "信仰；信心",
+"level": "b1"
+},
+{
+"word": "foie",
+"pos": "n.m.",
+"zh": "肝脏",
+"level": "b1"
+},
+{
+"word": "foire",
+"pos": "n.f.",
+"zh": "集市；博览会",
+"level": "b1"
+},
+{
+"word": "folie",
+"pos": "n.f.",
+"zh": "疯狂；蠢事",
+"level": "b1"
+},
+{
+"word": "foncer",
+"pos": "v.",
+"zh": "猛冲；疾驰",
+"level": "b1"
+},
+{
+"word": "fonction",
+"pos": "n.f.",
+"zh": "职务；功能",
+"level": "b1"
+},
+{
+"word": "fonctionnaire",
+"pos": "n.",
+"zh": "公务员",
+"level": "b1"
+},
+{
+"word": "fonctionnement",
+"pos": "n.m.",
+"zh": "运转；运作方式",
+"level": "b1"
+},
+{
+"word": "fond",
+"pos": "n.m.",
+"zh": "底部；背景",
+"level": "b1"
+},
+{
+"word": "fondamental",
+"pos": "adj.",
+"zh": "根本的；基本的",
+"level": "b1"
+},
+{
+"word": "fondateur",
+"pos": "n.m.",
+"zh": "创始人；奠基的",
+"level": "b1"
+},
+{
+"word": "fondation",
+"pos": "n.f.",
+"zh": "创建；基金会；地基",
+"level": "b1"
+},
+{
+"word": "fonder",
+"pos": "v.",
+"zh": "创立；建立",
+"level": "b1"
+},
+{
+"word": "fondre",
+"pos": "v.",
+"zh": "熔化；融化",
+"level": "b1"
+},
+{
+"word": "fonds",
+"pos": "n.m.",
+"zh": "资金；基金",
+"level": "b1"
+},
+{
+"word": "forcer",
+"pos": "v.",
+"zh": "强迫；强行打开",
+"level": "b1"
+},
+{
+"word": "forcément",
+"pos": "adv.",
+"zh": "必然；一定",
+"level": "b1"
+},
+{
+"word": "formalité",
+"pos": "n.f.",
+"zh": "手续；形式",
+"level": "b1"
+},
+{
+"word": "formation",
+"pos": "n.f.",
+"zh": "培训；组成",
+"level": "b1"
+},
+{
+"word": "formel",
+"pos": "adj.",
+"zh": "正式的；明确的",
+"level": "b1"
+},
+{
+"word": "former",
+"pos": "v.",
+"zh": "形成；培养",
+"level": "b1"
+},
+{
+"word": "formulaire",
+"pos": "n.m.",
+"zh": "表格；表单",
+"level": "b1"
+},
+{
+"word": "formule",
+"pos": "n.f.",
+"zh": "公式；格式；套语",
+"level": "b1"
+},
+{
+"word": "formuler",
+"pos": "v.",
+"zh": "表达；拟定",
+"level": "b1"
+},
+{
+"word": "fortement",
+"pos": "adv.",
+"zh": "强烈地；大大地",
+"level": "b1"
+},
+{
+"word": "forteresse",
+"pos": "n.f.",
+"zh": "要塞；堡垒",
+"level": "b1"
+},
+{
+"word": "fosse",
+"pos": "n.f.",
+"zh": "坑；沟；墓穴",
+"level": "b1"
+},
+{
+"word": "fouet",
+"pos": "n.m.",
+"zh": "鞭子",
+"level": "b1"
+},
+{
+"word": "foule",
+"pos": "n.f.",
+"zh": "人群",
+"level": "b1"
+},
+{
+"word": "fourgon",
+"pos": "n.m.",
+"zh": "厢式货车；囚车",
+"level": "b1"
+},
+{
+"word": "fourneau",
+"pos": "n.m.",
+"zh": "炉灶；炉子",
+"level": "b1"
+},
+{
+"word": "fournir",
+"pos": "v.",
+"zh": "提供；供给",
+"level": "b1"
+},
+{
+"word": "fournisseur",
+"pos": "n.m.",
+"zh": "供应商",
+"level": "b1"
+},
+{
+"word": "fourrer",
+"pos": "v.",
+"zh": "塞进；填塞",
+"level": "b1"
+},
+{
+"word": "foutaise",
+"pos": "n.f.",
+"zh": "胡扯；废话（粗俗）",
+"level": "b1"
+},
+{
+"word": "foutre",
+"pos": "v.",
+"zh": "干；搞（粗俗语）",
+"level": "b1"
+},
+{
+"word": "foutu",
+"pos": "adj.",
+"zh": "完蛋的；该死的（粗）",
+"level": "b1"
+},
+{
+"word": "foyer",
+"pos": "n.m.",
+"zh": "家；壁炉；中心",
+"level": "b1"
+},
+{
+"word": "fracture",
+"pos": "n.f.",
+"zh": "骨折；断裂",
+"level": "b1"
+},
+{
+"word": "franchir",
+"pos": "v.",
+"zh": "越过；跨过",
+"level": "b1"
+},
+{
+"word": "frappe",
+"pos": "n.f.",
+"zh": "击打；打击",
+"level": "b1"
+},
+{
+"word": "fraude",
+"pos": "n.f.",
+"zh": "欺诈；舞弊",
+"level": "b1"
+},
+{
+"word": "fraîcheur",
+"pos": "n.f.",
+"zh": "凉爽；新鲜",
+"level": "b1"
+},
+{
+"word": "fric",
+"pos": "n.m.",
+"zh": "钱；钞票（口语）",
+"level": "b1"
+},
+{
+"word": "frisson",
+"pos": "n.m.",
+"zh": "战栗；寒意",
+"level": "b1"
+},
+{
+"word": "frisé",
+"pos": "adj.",
+"zh": "卷曲的",
+"level": "b1"
+},
+{
+"word": "frustration",
+"pos": "n.f.",
+"zh": "挫败感；不满",
+"level": "b1"
+},
+{
+"word": "frustrer",
+"pos": "v.",
+"zh": "使受挫；使沮丧",
+"level": "b1"
+},
+{
+"word": "fréquence",
+"pos": "n.f.",
+"zh": "频率；次数",
+"level": "b1"
+},
+{
+"word": "fréquenter",
+"pos": "v.",
+"zh": "常去；与…交往",
+"level": "b1"
+},
+{
+"word": "fuir",
+"pos": "v.",
+"zh": "逃跑；逃避",
+"level": "b1"
+},
+{
+"word": "fuite",
+"pos": "n.f.",
+"zh": "逃跑；泄漏",
+"level": "b1"
+},
+{
+"word": "fumé",
+"pos": "adj.",
+"zh": "烟熏的",
+"level": "b1"
+},
+{
+"word": "funérailles",
+"pos": "n.f.",
+"zh": "葬礼",
+"level": "b1"
+},
+{
+"word": "fureur",
+"pos": "n.f.",
+"zh": "狂怒",
+"level": "b1"
+},
+{
+"word": "furieux",
+"pos": "adj.",
+"zh": "狂怒的；激烈的",
+"level": "b1"
+},
+{
+"word": "fusionner",
+"pos": "v.",
+"zh": "合并；融合",
+"level": "b1"
+},
+{
+"word": "fusée",
+"pos": "n.f.",
+"zh": "火箭",
+"level": "b1"
+},
+{
+"word": "fédéral",
+"pos": "adj.",
+"zh": "联邦的；联邦制的",
+"level": "b1"
+},
+{
+"word": "fédération",
+"pos": "n.f.",
+"zh": "联合会；联盟",
+"level": "b1"
+},
+{
+"word": "féminin",
+"pos": "adj.",
+"zh": "女性的；阴性的",
+"level": "b1"
+},
+{
+"word": "féroce",
+"pos": "adj.",
+"zh": "凶猛的；残忍的",
+"level": "b1"
+},
+{
+"word": "gadget",
+"pos": "n.m.",
+"zh": "小玩意儿；小发明",
+"level": "b1"
+},
+{
+"word": "gaffe",
+"pos": "n.f.",
+"zh": "失言；失礼（口语）",
+"level": "b1"
+},
+{
+"word": "gagnant",
+"pos": "n.m.",
+"zh": "获胜者；赢家",
+"level": "b1"
+},
+{
+"word": "gagné",
+"pos": "adj.",
+"zh": "赢了的；已成定局的",
+"level": "b1"
+},
+{
+"word": "gain",
+"pos": "n.m.",
+"zh": "收益；利润",
+"level": "b1"
+}
+]

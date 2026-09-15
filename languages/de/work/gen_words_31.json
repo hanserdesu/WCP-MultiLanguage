@@ -1,0 +1,602 @@
+[
+{
+"word": "T-Shirt",
+"pos": "n.",
+"zh": "T恤",
+"level": "a2"
+},
+{
+"word": "beiseite",
+"pos": "adv.",
+"zh": "到一边",
+"level": "a2"
+},
+{
+"word": "umgekehrt",
+"pos": "adv.",
+"zh": "相反",
+"level": "a2"
+},
+{
+"word": "beseitigen",
+"pos": "v.",
+"zh": "清除",
+"level": "a2"
+},
+{
+"word": "Burg",
+"pos": "n.f.",
+"zh": "城堡",
+"level": "a2"
+},
+{
+"word": "ausführen",
+"pos": "v.",
+"zh": "执行",
+"level": "a2"
+},
+{
+"word": "ersparen",
+"pos": "v.",
+"zh": "免除；节省",
+"level": "a2"
+},
+{
+"word": "frech",
+"pos": "adj.",
+"zh": "放肆的",
+"level": "a2"
+},
+{
+"word": "einziehen",
+"pos": "v.",
+"zh": "搬入",
+"level": "a2"
+},
+{
+"word": "Genehmigung",
+"pos": "n.f.",
+"zh": "许可",
+"level": "a2"
+},
+{
+"word": "Tankstelle",
+"pos": "n.f.",
+"zh": "加油站",
+"level": "a2"
+},
+{
+"word": "gefährden",
+"pos": "v.",
+"zh": "危及",
+"level": "a2"
+},
+{
+"word": "Handtasche",
+"pos": "n.f.",
+"zh": "手提包",
+"level": "a2"
+},
+{
+"word": "urteilen",
+"pos": "v.",
+"zh": "判断",
+"level": "a2"
+},
+{
+"word": "möglichst",
+"pos": "adv.",
+"zh": "尽可能",
+"level": "a2"
+},
+{
+"word": "Münze",
+"pos": "n.f.",
+"zh": "硬币",
+"level": "a2"
+},
+{
+"word": "Saison",
+"pos": "n.f.",
+"zh": "季节",
+"level": "a2"
+},
+{
+"word": "Partnerin",
+"pos": "n.f.",
+"zh": "女伙伴",
+"level": "a2"
+},
+{
+"word": "Haltung",
+"pos": "n.f.",
+"zh": "姿态；态度",
+"level": "a2"
+},
+{
+"word": "Ruhestand",
+"pos": "n.m.",
+"zh": "退休",
+"level": "a2"
+},
+{
+"word": "Anhörung",
+"pos": "n.f.",
+"zh": "听证会",
+"level": "a2"
+},
+{
+"word": "dreckig",
+"pos": "adj.",
+"zh": "脏的",
+"level": "a2"
+},
+{
+"word": "verbreiten",
+"pos": "v.",
+"zh": "传播",
+"level": "a2"
+},
+{
+"word": "erholen",
+"pos": "v.",
+"zh": "休息恢复",
+"level": "a2"
+},
+{
+"word": "beschweren",
+"pos": "v.",
+"zh": "抱怨",
+"level": "a2"
+},
+{
+"word": "Gauner",
+"pos": "n.m.",
+"zh": "骗子",
+"level": "a2"
+},
+{
+"word": "Produkt",
+"pos": "n.",
+"zh": "产品",
+"level": "a2"
+},
+{
+"word": "Tafel",
+"pos": "n.f.",
+"zh": "板；黑板",
+"level": "a2"
+},
+{
+"word": "regelmäßig",
+"pos": "adj.",
+"zh": "定期的",
+"level": "a2"
+},
+{
+"word": "Geschrei",
+"pos": "n.",
+"zh": "喊叫声",
+"level": "a2"
+},
+{
+"word": "Ruder",
+"pos": "n.",
+"zh": "桨",
+"level": "a2"
+},
+{
+"word": "Aktivität",
+"pos": "n.f.",
+"zh": "活动",
+"level": "a2"
+},
+{
+"word": "Kaninchen",
+"pos": "n.",
+"zh": "兔子",
+"level": "a2"
+},
+{
+"word": "befolgen",
+"pos": "v.",
+"zh": "遵循",
+"level": "a2"
+},
+{
+"word": "veröffentlichen",
+"pos": "v.",
+"zh": "发表",
+"level": "a2"
+},
+{
+"word": "Mahlzeit",
+"pos": "n.f.",
+"zh": "餐",
+"level": "a2"
+},
+{
+"word": "aufbrechen",
+"pos": "v.",
+"zh": "出发；撬开",
+"level": "a2"
+},
+{
+"word": "Kenntnis",
+"pos": "n.f.",
+"zh": "知情",
+"level": "a2"
+},
+{
+"word": "Sanitäter",
+"pos": "n.m.",
+"zh": "急救员",
+"level": "a2"
+},
+{
+"word": "überraschend",
+"pos": "adj.",
+"zh": "惊人的",
+"level": "a2"
+},
+{
+"word": "drohen",
+"pos": "v.",
+"zh": "威胁",
+"level": "a2"
+},
+{
+"word": "Italienisch",
+"pos": "n.",
+"zh": "意大利语",
+"level": "a2"
+},
+{
+"word": "Verhör",
+"pos": "n.",
+"zh": "审讯",
+"level": "a2"
+},
+{
+"word": "klagen",
+"pos": "v.",
+"zh": "抱怨；起诉",
+"level": "a2"
+},
+{
+"word": "Dichter",
+"pos": "n.m.",
+"zh": "诗人",
+"level": "a2"
+},
+{
+"word": "gratis",
+"pos": "adj.",
+"zh": "免费的",
+"level": "a2"
+},
+{
+"word": "beschäftigen",
+"pos": "v.",
+"zh": "雇用；从事",
+"level": "a2"
+},
+{
+"word": "selbe",
+"pos": "pron.",
+"zh": "同样的",
+"level": "a2"
+},
+{
+"word": "Funkgerät",
+"pos": "n.",
+"zh": "无线电设备",
+"level": "a2"
+},
+{
+"word": "angemessen",
+"pos": "adj.",
+"zh": "适当的",
+"level": "a2"
+},
+{
+"word": "ohnehin",
+"pos": "adv.",
+"zh": "反正",
+"level": "a2"
+},
+{
+"word": "Orden",
+"pos": "n.m.",
+"zh": "勋章",
+"level": "a2"
+},
+{
+"word": "anheuern",
+"pos": "v.",
+"zh": "雇用",
+"level": "a2"
+},
+{
+"word": "abhängen",
+"pos": "v.",
+"zh": "依赖；闲逛",
+"level": "a2"
+},
+{
+"word": "bezeichnen",
+"pos": "v.",
+"zh": "称为",
+"level": "a2"
+},
+{
+"word": "beruflich",
+"pos": "adj.",
+"zh": "职业上的",
+"level": "a2"
+},
+{
+"word": "bedecken",
+"pos": "v.",
+"zh": "覆盖",
+"level": "a2"
+},
+{
+"word": "verständlich",
+"pos": "adj.",
+"zh": "易懂的",
+"level": "a2"
+},
+{
+"word": "Infektion",
+"pos": "n.f.",
+"zh": "感染",
+"level": "a2"
+},
+{
+"word": "entsprechen",
+"pos": "v.",
+"zh": "符合",
+"level": "a2"
+},
+{
+"word": "Winkel",
+"pos": "n.m.",
+"zh": "角落；角度",
+"level": "a2"
+},
+{
+"word": "Torte",
+"pos": "n.f.",
+"zh": "蛋糕",
+"level": "a2"
+},
+{
+"word": "Austausch",
+"pos": "n.m.",
+"zh": "交流",
+"level": "a2"
+},
+{
+"word": "Geheimdienst",
+"pos": "n.m.",
+"zh": "情报机构",
+"level": "a2"
+},
+{
+"word": "überzeugend",
+"pos": "adj.",
+"zh": "有说服力的",
+"level": "a2"
+},
+{
+"word": "Genick",
+"pos": "n.",
+"zh": "后颈",
+"level": "a2"
+},
+{
+"word": "Autorität",
+"pos": "n.f.",
+"zh": "威信",
+"level": "a2"
+},
+{
+"word": "Schinken",
+"pos": "n.m.",
+"zh": "火腿",
+"level": "a2"
+},
+{
+"word": "Erpressung",
+"pos": "n.f.",
+"zh": "敲诈",
+"level": "a2"
+},
+{
+"word": "derzeit",
+"pos": "adv.",
+"zh": "目前",
+"level": "a2"
+},
+{
+"word": "keines",
+"pos": "pron.",
+"zh": "没有一个",
+"level": "a2"
+},
+{
+"word": "Sammlung",
+"pos": "n.f.",
+"zh": "收藏",
+"level": "a2"
+},
+{
+"word": "weisen",
+"pos": "v.",
+"zh": "指示",
+"level": "a2"
+},
+{
+"word": "ergreifen",
+"pos": "v.",
+"zh": "抓住；采取措施",
+"level": "a2"
+},
+{
+"word": "Bewohner",
+"pos": "n.m.",
+"zh": "居民",
+"level": "a2"
+},
+{
+"word": "Verwandte",
+"pos": "n.",
+"zh": "亲戚",
+"level": "a2"
+},
+{
+"word": "Schwachkopf",
+"pos": "n.m.",
+"zh": "傻瓜",
+"level": "a2"
+},
+{
+"word": "kündigen",
+"pos": "v.",
+"zh": "辞职；解约",
+"level": "a2"
+},
+{
+"word": "Priorität",
+"pos": "n.f.",
+"zh": "优先",
+"level": "a2"
+},
+{
+"word": "Beförderung",
+"pos": "n.f.",
+"zh": "晋升",
+"level": "a2"
+},
+{
+"word": "Eifersucht",
+"pos": "n.f.",
+"zh": "嫉妒",
+"level": "a2"
+},
+{
+"word": "erbärmlich",
+"pos": "adj.",
+"zh": "可悲的",
+"level": "a2"
+},
+{
+"word": "erfassen",
+"pos": "v.",
+"zh": "抓住；领会",
+"level": "a2"
+},
+{
+"word": "königliche",
+"pos": "adj.",
+"zh": "王室的",
+"level": "a2"
+},
+{
+"word": "Ufer",
+"pos": "n.",
+"zh": "岸",
+"level": "a2"
+},
+{
+"word": "ausbilden",
+"pos": "v.",
+"zh": "培训",
+"level": "a2"
+},
+{
+"word": "Bezirk",
+"pos": "n.m.",
+"zh": "行政区",
+"level": "a2"
+},
+{
+"word": "beauftragen",
+"pos": "v.",
+"zh": "委托",
+"level": "a2"
+},
+{
+"word": "abschneiden",
+"pos": "v.",
+"zh": "剪下；切断",
+"level": "a2"
+},
+{
+"word": "Qualität",
+"pos": "n.f.",
+"zh": "质量",
+"level": "a2"
+},
+{
+"word": "Henker",
+"pos": "n.m.",
+"zh": "刽子手",
+"level": "a2"
+},
+{
+"word": "Scheibe",
+"pos": "n.f.",
+"zh": "圆片",
+"level": "a2"
+},
+{
+"word": "Konferenz",
+"pos": "n.f.",
+"zh": "会议",
+"level": "a2"
+},
+{
+"word": "Sonnenaufgang",
+"pos": "n.m.",
+"zh": "日出",
+"level": "a2"
+},
+{
+"word": "Diagnose",
+"pos": "n.f.",
+"zh": "诊断",
+"level": "a2"
+},
+{
+"word": "paranoid",
+"pos": "adj.",
+"zh": "多疑的",
+"level": "a2"
+},
+{
+"word": "Weltraum",
+"pos": "n.m.",
+"zh": "太空",
+"level": "a2"
+},
+{
+"word": "Vorbild",
+"pos": "n.",
+"zh": "榜样",
+"level": "a2"
+},
+{
+"word": "wandern",
+"pos": "v.",
+"zh": "徒步",
+"level": "a2"
+},
+{
+"word": "Frost",
+"pos": "n.m.",
+"zh": "霜冻",
+"level": "a2"
+}
+]

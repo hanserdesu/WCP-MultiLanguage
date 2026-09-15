@@ -1,0 +1,2402 @@
+{
+ "水虫": {
+  "reading": "みずむし",
+  "meaning": "【みずむし】脚气；足癣〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "水痘": {
+  "reading": "すいとう",
+  "meaning": "【すいとう】水痘〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "正視": {
+  "reading": "せいし",
+  "meaning": "【せいし】正视（正常视力）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "精巣": {
+  "reading": "せいそう",
+  "meaning": "【せいそう】睾丸〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "精嚢": {
+  "reading": "せいのう",
+  "meaning": "【せいのう】精囊〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "声帯": {
+  "reading": "せいたい",
+  "meaning": "【せいたい】声带〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "声門": {
+  "reading": "せいもん",
+  "meaning": "【せいもん】声门〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脊椎": {
+  "reading": "せきつい",
+  "meaning": "【せきつい】脊椎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "切歯": {
+  "reading": "せっし",
+  "meaning": "【せっし】门牙；切齿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "仙骨": {
+  "reading": "せんこつ",
+  "meaning": "【せんこつ】骶骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "穿刺": {
+  "reading": "せんし",
+  "meaning": "【せんし】穿刺〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "前葉": {
+  "reading": "ぜんよう",
+  "meaning": "【ぜんよう】（脑下垂体）前叶〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼠径": {
+  "reading": "そけい",
+  "meaning": "【そけい】腹股沟〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "掻痒": {
+  "reading": "そうよう",
+  "meaning": "【そうよう】瘙痒〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "装具": {
+  "reading": "そうぐ",
+  "meaning": "【そうぐ】矫形器具〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "体腔": {
+  "reading": "たいこう",
+  "meaning": "【たいこう】体腔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "苔癬": {
+  "reading": "たいせん",
+  "meaning": "【たいせん】苔癣（皮肤）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脱腸": {
+  "reading": "だっちょう",
+  "meaning": "【だっちょう】腹股沟疝〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脱疽": {
+  "reading": "だっそ",
+  "meaning": "【だっそ】脱疽（末端坏疽）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "丹毒": {
+  "reading": "たんどく",
+  "meaning": "【たんどく】丹毒〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胆嚢": {
+  "reading": "たんのう",
+  "meaning": "【たんのう】胆囊〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "恥骨": {
+  "reading": "ちこつ",
+  "meaning": "【ちこつ】耻骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "中隔": {
+  "reading": "ちゅうかく",
+  "meaning": "【ちゅうかく】中隔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "中気": {
+  "reading": "ちゅうき",
+  "meaning": "【ちゅうき】中风；瘫痪〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "中手": {
+  "reading": "なかて",
+  "meaning": "【なかて】掌骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "中脳": {
+  "reading": "ちゅうのう",
+  "meaning": "【ちゅうのう】中脑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "中葉": {
+  "reading": "ちゅうよう",
+  "meaning": "【ちゅうよう】中叶（肺）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "虫垂": {
+  "reading": "ちゅうすい",
+  "meaning": "【ちゅうすい】阑尾〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "直腸": {
+  "reading": "ちょくちょう",
+  "meaning": "【ちょくちょう】直肠〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "沈渣": {
+  "reading": "ちんさ",
+  "meaning": "【ちんさ】沉渣（尿检）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "痛風": {
+  "reading": "つうふう",
+  "meaning": "【つうふう】痛风〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "吐血": {
+  "reading": "とけつ",
+  "meaning": "【とけつ】呕血〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "痘瘡": {
+  "reading": "とうそう",
+  "meaning": "【とうそう】天花〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "瞳孔": {
+  "reading": "どうこう",
+  "meaning": "【どうこう】瞳孔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "内攻": {
+  "reading": "ないこう",
+  "meaning": "【ないこう】内攻（病邪内陷）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "内腔": {
+  "reading": "ないこう",
+  "meaning": "【ないこう】内腔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肉腫": {
+  "reading": "にくしゅ",
+  "meaning": "【にくしゅ】肉瘤〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "虹彩": {
+  "reading": "こうさい",
+  "meaning": "【こうさい】虹膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "乳腺": {
+  "reading": "にゅうせん",
+  "meaning": "【にゅうせん】乳腺〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "乳頭": {
+  "reading": "にゅうとう",
+  "meaning": "【にゅうとう】乳头〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "尿管": {
+  "reading": "にょうかん",
+  "meaning": "【にょうかん】输尿管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "尿道": {
+  "reading": "にょうどう",
+  "meaning": "【にょうどう】尿道〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脳髄": {
+  "reading": "のうずい",
+  "meaning": "【のうずい】脑髓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膿疱": {
+  "reading": "のうほう",
+  "meaning": "【のうほう】脓疱〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膿瘍": {
+  "reading": "のうよう",
+  "meaning": "【のうよう】脓肿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "排液": {
+  "reading": "はいえき",
+  "meaning": "【はいえき】体液排出〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "排尿": {
+  "reading": "はいにょう",
+  "meaning": "【はいにょう】排尿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肺胞": {
+  "reading": "はいほう",
+  "meaning": "【はいほう】肺泡〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "白痴": {
+  "reading": "はくち",
+  "meaning": "【はくち】白痴（重度智力障碍）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "発疹": {
+  "reading": "ほっしん",
+  "meaning": "【ほっしん】发疹〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "皮質": {
+  "reading": "ひしつ",
+  "meaning": "【ひしつ】皮质〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼻炎": {
+  "reading": "びえん",
+  "meaning": "【びえん】鼻炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼻筋": {
+  "reading": "はなすじ",
+  "meaning": "【はなすじ】鼻梁〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼻孔": {
+  "reading": "びこう",
+  "meaning": "【びこう】鼻孔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼻骨": {
+  "reading": "びこつ",
+  "meaning": "【びこつ】鼻骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼻根": {
+  "reading": "びこん",
+  "meaning": "【びこん】鼻根〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "表皮": {
+  "reading": "ひょうひ",
+  "meaning": "【ひょうひ】表皮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "病巣": {
+  "reading": "びょうそう",
+  "meaning": "【びょうそう】病灶〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "不随": {
+  "reading": "ふずい",
+  "meaning": "【ふずい】瘫痪〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腹膜": {
+  "reading": "ふくまく",
+  "meaning": "【ふくまく】腹膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "閉経": {
+  "reading": "へいけい",
+  "meaning": "【へいけい】绝经〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "弁膜": {
+  "reading": "べんまく",
+  "meaning": "【べんまく】瓣膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "母斑": {
+  "reading": "ぼはん",
+  "meaning": "【ぼはん】痣；胎记〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "包茎": {
+  "reading": "ほうけい",
+  "meaning": "【ほうけい】包茎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "包皮": {
+  "reading": "ほうひ",
+  "meaning": "【ほうひ】包皮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頬骨": {
+  "reading": "ほおぼね",
+  "meaning": "【ほおぼね】颧骨；颊骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "門歯": {
+  "reading": "もんし",
+  "meaning": "【もんし】门牙〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "乱視": {
+  "reading": "らんし",
+  "meaning": "【らんし】散光〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "卵胞": {
+  "reading": "らんぽう",
+  "meaning": "【らんぽう】卵泡〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "利尿": {
+  "reading": "りにょう",
+  "meaning": "【りにょう】利尿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "喀血": {
+  "reading": "かっけつ",
+  "meaning": "【かっけつ】咳血〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "扁桃": {
+  "reading": "へんとう",
+  "meaning": "【へんとう】扁桃体〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "拇指": {
+  "reading": "ぼし",
+  "meaning": "【ぼし】拇指〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "橈骨": {
+  "reading": "とうこつ",
+  "meaning": "【とうこつ】桡骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "漿液": {
+  "reading": "しょうえき",
+  "meaning": "【しょうえき】浆液〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "疥癬": {
+  "reading": "かいせん",
+  "meaning": "【かいせん】疥疮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "疼痛": {
+  "reading": "とうつう",
+  "meaning": "【とうつう】疼痛〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "疱疹": {
+  "reading": "ほうしん",
+  "meaning": "【ほうしん】疱疹〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "淋病": {
+  "reading": "りんびょう",
+  "meaning": "【りんびょう】淋病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "癲癇": {
+  "reading": "てんかん",
+  "meaning": "【てんかん】癫痫〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "睾丸": {
+  "reading": "こうがん",
+  "meaning": "【こうがん】睾丸〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "絨毛": {
+  "reading": "じゅうもう",
+  "meaning": "【じゅうもう】绒毛〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肛門": {
+  "reading": "こうもん",
+  "meaning": "【こうもん】肛门〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脛骨": {
+  "reading": "けいこつ",
+  "meaning": "【けいこつ】胫骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脾腫": {
+  "reading": "ひしゅ",
+  "meaning": "【ひしゅ】脾肿大〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脾臓": {
+  "reading": "ひぞう",
+  "meaning": "【ひぞう】脾脏〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腓骨": {
+  "reading": "ひこつ",
+  "meaning": "【ひこつ】腓骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膀胱": {
+  "reading": "ぼうこう",
+  "meaning": "【ぼうこう】膀胱〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膵臓": {
+  "reading": "すいぞう",
+  "meaning": "【すいぞう】胰腺〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "褥瘡": {
+  "reading": "じょくそう",
+  "meaning": "【じょくそう】褥疮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "躁病": {
+  "reading": "そうびょう",
+  "meaning": "【そうびょう】躁狂症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "口腔": {
+  "reading": "こうこう",
+  "meaning": "【こうこう】口腔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "歯肉": {
+  "reading": "しにく",
+  "meaning": "【しにく】牙龈〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "上皮": {
+  "reading": "うわかわ",
+  "meaning": "【うわかわ】上皮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼻腔": {
+  "reading": "びこう",
+  "meaning": "【びこう】鼻腔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "臍帯": {
+  "reading": "さいたい",
+  "meaning": "【さいたい】脐带〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腋窩": {
+  "reading": "えきか",
+  "meaning": "【えきか】腋窝〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頸部": {
+  "reading": "けいぶ",
+  "meaning": "【けいぶ】颈部〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "凝り": {
+  "reading": "しこり",
+  "meaning": "【しこり】（组织内）硬结〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "梅毒": {
+  "reading": "ばいどく",
+  "meaning": "【ばいどく】梅毒〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "恥丘": {
+  "reading": "ちきゅう",
+  "meaning": "【ちきゅう】耻骨丘〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腸炎": {
+  "reading": "ちょうえん",
+  "meaning": "【ちょうえん】肠炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "複視": {
+  "reading": "ふくし",
+  "meaning": "【ふくし】复视〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肺尖": {
+  "reading": "はいせん",
+  "meaning": "【はいせん】肺尖〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "被膜": {
+  "reading": "ひまく",
+  "meaning": "【ひまく】被膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脹脛": {
+  "reading": "ふくらはぎ",
+  "meaning": "【ふくらはぎ】小腿肚〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "徐脈": {
+  "reading": "じょみゃく",
+  "meaning": "【じょみゃく】心动过缓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "縦隔": {
+  "reading": "じゅうかく",
+  "meaning": "【じゅうかく】纵隔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "潰瘍": {
+  "reading": "かいよう",
+  "meaning": "【かいよう】溃疡〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "憩室": {
+  "reading": "けいしつ",
+  "meaning": "【けいしつ】憩室〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "狭窄": {
+  "reading": "きょうさく",
+  "meaning": "【きょうさく】狭窄〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "門脈": {
+  "reading": "もんみゃく",
+  "meaning": "【もんみゃく】门静脉〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脈管": {
+  "reading": "みゃっかん",
+  "meaning": "【みゃっかん】脉管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "涙嚢": {
+  "reading": "るいのう",
+  "meaning": "【るいのう】泪囊〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "涙腺": {
+  "reading": "るいせん",
+  "meaning": "【るいせん】泪腺〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腺熱": {
+  "reading": "せんねつ",
+  "meaning": "【せんねつ】腺热〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心房": {
+  "reading": "しんぼう",
+  "meaning": "【しんぼう】心房〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "問診": {
+  "reading": "もんしん",
+  "meaning": "【もんしん】问诊〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腹腔": {
+  "reading": "ふくくう",
+  "meaning": "【ふくくう】腹腔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頭頂": {
+  "reading": "とうちょう",
+  "meaning": "【とうちょう】头顶〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "小腸": {
+  "reading": "しょうちょう",
+  "meaning": "【しょうちょう】小肠〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "早産": {
+  "reading": "そうざん",
+  "meaning": "【そうざん】早产〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "舌癌": {
+  "reading": "ぜつがん",
+  "meaning": "【ぜつがん】舌癌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "骨膜": {
+  "reading": "こつまく",
+  "meaning": "【こつまく】骨膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "血尿": {
+  "reading": "けつにょう",
+  "meaning": "【けつにょう】血尿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "血便": {
+  "reading": "けつべん",
+  "meaning": "【けつべん】血便〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "血栓": {
+  "reading": "けっせん",
+  "meaning": "【けっせん】血栓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "喉仏": {
+  "reading": "のどぼとけ",
+  "meaning": "【のどぼとけ】喉结〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胸椎": {
+  "reading": "きょうつい",
+  "meaning": "【きょうつい】胸椎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胸腺": {
+  "reading": "きょうせん",
+  "meaning": "【きょうせん】胸腺〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "触診": {
+  "reading": "しょくしん",
+  "meaning": "【しょくしん】触诊〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頭蓋": {
+  "reading": "ずがい",
+  "meaning": "【ずがい】颅骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "癒合": {
+  "reading": "ゆごう",
+  "meaning": "【ゆごう】愈合；粘连〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "遅発": {
+  "reading": "ちはつ",
+  "meaning": "【ちはつ】迟发〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "椎骨": {
+  "reading": "ついこつ",
+  "meaning": "【ついこつ】椎骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "吻合": {
+  "reading": "ふんごう",
+  "meaning": "【ふんごう】吻合〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "尾骨": {
+  "reading": "びこつ",
+  "meaning": "【びこつ】尾骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "紫斑": {
+  "reading": "しはん",
+  "meaning": "【しはん】紫斑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腎炎": {
+  "reading": "じんえん",
+  "meaning": "【じんえん】肾炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "開腹": {
+  "reading": "かいふく",
+  "meaning": "【かいふく】开腹〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "筋腫": {
+  "reading": "きんしゅ",
+  "meaning": "【きんしゅ】肌瘤〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "術中": {
+  "reading": "じゅっちゅう",
+  "meaning": "【じゅっちゅう】术中〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "水疱": {
+  "reading": "すいほう",
+  "meaning": "【すいほう】水疱〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "水腫": {
+  "reading": "すいしゅ",
+  "meaning": "【すいしゅ】水肿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "尺骨": {
+  "reading": "しゃっこつ",
+  "meaning": "【しゃっこつ】尺骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "小爪": {
+  "reading": "こづめ",
+  "meaning": "【こづめ】甲半月（月牙白）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腹水": {
+  "reading": "ふくすい",
+  "meaning": "【ふくすい】腹水〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "精管": {
+  "reading": "せいかん",
+  "meaning": "【せいかん】输精管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "産道": {
+  "reading": "さんどう",
+  "meaning": "【さんどう】产道〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "産褥": {
+  "reading": "さんじょく",
+  "meaning": "【さんじょく】产褥期〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "視診": {
+  "reading": "ししん",
+  "meaning": "【ししん】视诊〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "死斑": {
+  "reading": "しはん",
+  "meaning": "【しはん】尸斑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "皮癬": {
+  "reading": "ひぜん",
+  "meaning": "【ひぜん】癣（皮肤）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "跛行": {
+  "reading": "はこう",
+  "meaning": "【はこう】跛行〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "海馬": {
+  "reading": "かいば",
+  "meaning": "【かいば】海马体〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脊柱": {
+  "reading": "せきちゅう",
+  "meaning": "【せきちゅう】脊柱〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脊梁": {
+  "reading": "せきりょう",
+  "meaning": "【せきりょう】脊梁〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "屈筋": {
+  "reading": "くっきん",
+  "meaning": "【くっきん】屈肌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "壊死": {
+  "reading": "えし",
+  "meaning": "【えし】坏死〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "大腿": {
+  "reading": "だいたい",
+  "meaning": "【だいたい】大腿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心音": {
+  "reading": "しんおん",
+  "meaning": "【しんおん】心音〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心嚢": {
+  "reading": "しんのう",
+  "meaning": "【しんのう】心包〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "羊膜": {
+  "reading": "ようまく",
+  "meaning": "【ようまく】羊膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "聴診": {
+  "reading": "ちょうしん",
+  "meaning": "【ちょうしん】听诊〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "偽膜": {
+  "reading": "ぎまく",
+  "meaning": "【ぎまく】假膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "眼窩": {
+  "reading": "がんか",
+  "meaning": "【がんか】眼窝〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "眼瞼": {
+  "reading": "がんけん",
+  "meaning": "【がんけん】眼睑；眼皮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "目縁": {
+  "reading": "まぶち",
+  "meaning": "【まぶち】眼缘〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "検温": {
+  "reading": "けんおん",
+  "meaning": "【けんおん】量体温〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "耳介": {
+  "reading": "じかい",
+  "meaning": "【じかい】耳廓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "耳殻": {
+  "reading": "じかく",
+  "meaning": "【じかく】耳壳〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "耳漏": {
+  "reading": "じろう",
+  "meaning": "【じろう】耳漏；耳溢〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肥厚": {
+  "reading": "ひこう",
+  "meaning": "【ひこう】肥厚〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "子癇": {
+  "reading": "しかん",
+  "meaning": "【しかん】子痫〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脳症": {
+  "reading": "のうしょう",
+  "meaning": "【のうしょう】脑病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脳幹": {
+  "reading": "のうかん",
+  "meaning": "【のうかん】脑干〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "赤沈": {
+  "reading": "せきちん",
+  "meaning": "【せきちん】血沉〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頚骨": {
+  "reading": "けいこつ",
+  "meaning": "【けいこつ】颈骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頚椎": {
+  "reading": "けいつい",
+  "meaning": "【けいつい】颈椎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "熱型": {
+  "reading": "ねっけい",
+  "meaning": "【ねっけい】热型〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "熱傷": {
+  "reading": "ねっしょう",
+  "meaning": "【ねっしょう】烧伤〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "掻爬": {
+  "reading": "そうは",
+  "meaning": "【そうは】刮除〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腰椎": {
+  "reading": "ようつい",
+  "meaning": "【ようつい】腰椎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "白斑": {
+  "reading": "はくはん",
+  "meaning": "【はくはん】白斑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "溢血": {
+  "reading": "いっけつ",
+  "meaning": "【いっけつ】溢血；内出血〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "視床": {
+  "reading": "ししょう",
+  "meaning": "【ししょう】丘脑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "前傾": {
+  "reading": "ぜんけい",
+  "meaning": "【ぜんけい】前倾〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "陰阜": {
+  "reading": "いんぷ",
+  "meaning": "【いんぷ】阴阜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "筋炎": {
+  "reading": "きんえん",
+  "meaning": "【きんえん】肌炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "距骨": {
+  "reading": "きょこつ",
+  "meaning": "【きょこつ】距骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "弱毒": {
+  "reading": "じゃくどく",
+  "meaning": "【じゃくどく】弱毒（化）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "柔毛": {
+  "reading": "じゅうもう",
+  "meaning": "【じゅうもう】肠绒毛〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脹満": {
+  "reading": "ちょうまん",
+  "meaning": "【ちょうまん】胀满〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脳橋": {
+  "reading": "のうきょう",
+  "meaning": "【のうきょう】脑桥〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "盲管": {
+  "reading": "もうかん",
+  "meaning": "【もうかん】盲管；盲端〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "真皮": {
+  "reading": "しんぴ",
+  "meaning": "【しんぴ】真皮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腎盂": {
+  "reading": "じんう",
+  "meaning": "【じんう】肾盂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "髄膜": {
+  "reading": "ずいまく",
+  "meaning": "【ずいまく】脑脊膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "Ｒｈ": {
+  "reading": "アール・エイチ",
+  "meaning": "Rh血型〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "滑液": {
+  "reading": "かつえき",
+  "meaning": "【かつえき】滑液〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膵炎": {
+  "reading": "すいえん",
+  "meaning": "【すいえん】胰腺炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "小弯": {
+  "reading": "しょうわん",
+  "meaning": "【しょうわん】胃小弯〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "大弯": {
+  "reading": "だいわん",
+  "meaning": "【だいわん】胃大弯〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "弯入": {
+  "reading": "わんにゅう",
+  "meaning": "【わんにゅう】弯入（胃弯凹陷）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "探針": {
+  "reading": "たんしん",
+  "meaning": "【たんしん】探针〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "呑酸": {
+  "reading": "どんさん",
+  "meaning": "【どんさん】反酸〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "中皮": {
+  "reading": "ちゅうひ",
+  "meaning": "【ちゅうひ】间皮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心膜": {
+  "reading": "しんまく",
+  "meaning": "【しんまく】心包膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ＣＴ": {
+  "reading": "シー・ティー",
+  "meaning": "CT扫描〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膵島": {
+  "reading": "すいとう",
+  "meaning": "【すいとう】胰岛〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "人中": {
+  "reading": "じんちゅう",
+  "meaning": "【じんちゅう】人中〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "寛骨": {
+  "reading": "かんこつ",
+  "meaning": "【かんこつ】髋骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "顴骨": {
+  "reading": "かんこつ",
+  "meaning": "【かんこつ】颧骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腸管": {
+  "reading": "ちょうかん",
+  "meaning": "【ちょうかん】肠管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "気腫": {
+  "reading": "きしゅ",
+  "meaning": "【きしゅ】气肿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "多胎": {
+  "reading": "たたい",
+  "meaning": "【たたい】多胎妊娠〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "足根": {
+  "reading": "そっこん",
+  "meaning": "【そっこん】跗骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肝癌": {
+  "reading": "かんがん",
+  "meaning": "【かんがん】肝癌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "硬膜": {
+  "reading": "こうまく",
+  "meaning": "【こうまく】硬膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "誤嚥": {
+  "reading": "ごえん",
+  "meaning": "【ごえん】误吸；呛入〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "喘鳴": {
+  "reading": "ぜんめい",
+  "meaning": "【ぜんめい】喘鸣〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "軟膜": {
+  "reading": "なんまく",
+  "meaning": "【なんまく】软脑膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "皮疹": {
+  "reading": "ひしん",
+  "meaning": "【ひしん】皮疹〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "採卵": {
+  "reading": "さいらん",
+  "meaning": "【さいらん】取卵〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "白肌": {
+  "reading": "しらはだ",
+  "meaning": "【しらはだ】白斑皮肤〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "篩骨": {
+  "reading": "しこつ",
+  "meaning": "【しこつ】筛骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "涙骨": {
+  "reading": "るいこつ",
+  "meaning": "【るいこつ】泪骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鋤骨": {
+  "reading": "じょこつ",
+  "meaning": "【じょこつ】犁骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "舌骨": {
+  "reading": "ぜっこつ",
+  "meaning": "【ぜっこつ】舌骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "槌骨": {
+  "reading": "つちこつ",
+  "meaning": "【つちこつ】锤骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "砧骨": {
+  "reading": "きぬたこつ",
+  "meaning": "【きぬたこつ】砧骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "耳管": {
+  "reading": "じかん",
+  "meaning": "【じかん】咽鼓管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "房水": {
+  "reading": "ぼうすい",
+  "meaning": "【ぼうすい】房水（眼）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腱板": {
+  "reading": "けんばん",
+  "meaning": "【けんばん】肩袖〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "褥傷": {
+  "reading": "じょくしょう",
+  "meaning": "【じょくしょう】褥疮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脳梁": {
+  "reading": "のうりょう",
+  "meaning": "【のうりょう】胼胝体〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "眼振": {
+  "reading": "がんしん",
+  "meaning": "【がんしん】眼球震颤〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "狼瘡": {
+  "reading": "ろうそう",
+  "meaning": "【ろうそう】狼疮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "嚢胞": {
+  "reading": "のうほう",
+  "meaning": "【のうほう】囊肿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "嚢腫": {
+  "reading": "のうしゅ",
+  "meaning": "【のうしゅ】囊肿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "指骨": {
+  "reading": "しこつ",
+  "meaning": "【しこつ】指骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "趾骨": {
+  "reading": "しこつ",
+  "meaning": "【しこつ】趾骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "手骨": {
+  "reading": "しゅこつ",
+  "meaning": "【しゅこつ】手骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "掌骨": {
+  "reading": "しょうこつ",
+  "meaning": "【しょうこつ】掌骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "咬筋": {
+  "reading": "こうきん",
+  "meaning": "【こうきん】咬肌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "泉門": {
+  "reading": "せんもん",
+  "meaning": "【せんもん】囟门〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "血腫": {
+  "reading": "けっしゅ",
+  "meaning": "【けっしゅ】血肿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "娩出": {
+  "reading": "べんしゅつ",
+  "meaning": "【べんしゅつ】娩出〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "侵襲": {
+  "reading": "しんしゅう",
+  "meaning": "【しんしゅう】侵袭（手术创伤）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腱炎": {
+  "reading": "けんえん",
+  "meaning": "【けんえん】腱炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頚髄": {
+  "reading": "けいずい",
+  "meaning": "【けいずい】颈髓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ＰＤ": {
+  "reading": "ピー・ディー",
+  "meaning": "腹膜透析〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "眼筋": {
+  "reading": "がんきん",
+  "meaning": "【がんきん】眼肌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "埋植": {
+  "reading": "まいしょく",
+  "meaning": "【まいしょく】植入；埋植〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胎便": {
+  "reading": "たいべん",
+  "meaning": "【たいべん】胎便〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "桿体": {
+  "reading": "かんたい",
+  "meaning": "【かんたい】视杆细胞〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頻脈": {
+  "reading": "ひんみゃく",
+  "meaning": "【ひんみゃく】心动过速〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "叉骨": {
+  "reading": "さこつ",
+  "meaning": "【さこつ】锁骨（旧称叉骨）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "坐骨": {
+  "reading": "ざこつ",
+  "meaning": "【ざこつ】坐骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腸骨": {
+  "reading": "ちょうこつ",
+  "meaning": "【ちょうこつ】髂骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膣炎": {
+  "reading": "ちつえん",
+  "meaning": "【ちつえん】阴道炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膣壁": {
+  "reading": "ちつへき",
+  "meaning": "【ちつへき】阴道壁〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膣内": {
+  "reading": "ちつない",
+  "meaning": "【ちつない】阴道内〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膣口": {
+  "reading": "ちつこう",
+  "meaning": "【ちつこう】阴道口〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ざ瘡": {
+  "reading": "ざそう",
+  "meaning": "【ざそう】痤疮；粉刺〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "多尿": {
+  "reading": "たにょう",
+  "meaning": "【たにょう】多尿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "珪肺": {
+  "reading": "けいはい",
+  "meaning": "【けいはい】矽肺〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腺癌": {
+  "reading": "せんがん",
+  "meaning": "【せんがん】腺癌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腺腫": {
+  "reading": "せんしゅ",
+  "meaning": "【せんしゅ】腺瘤〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "環椎": {
+  "reading": "かんつい",
+  "meaning": "【かんつい】寰椎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "踵骨": {
+  "reading": "しょうこつ",
+  "meaning": "【しょうこつ】跟骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "空腸": {
+  "reading": "くうちょう",
+  "meaning": "【くうちょう】空肠〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心耳": {
+  "reading": "しんじ",
+  "meaning": "【しんじ】心耳〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "漿膜": {
+  "reading": "しょうまく",
+  "meaning": "【しょうまく】浆膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "白癬": {
+  "reading": "はくせん",
+  "meaning": "【はくせん】癣（头癣等）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "嘔気": {
+  "reading": "おうき",
+  "meaning": "【おうき】恶心〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "溶菌": {
+  "reading": "ようきん",
+  "meaning": "【ようきん】溶菌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "瘻管": {
+  "reading": "ろうかん",
+  "meaning": "【ろうかん】瘘管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "陰裂": {
+  "reading": "いんれつ",
+  "meaning": "【いんれつ】阴裂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "終脳": {
+  "reading": "しゅうのう",
+  "meaning": "【しゅうのう】终脑（端脑）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "端脳": {
+  "reading": "たんのう",
+  "meaning": "【たんのう】端脑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "労咳": {
+  "reading": "ろうがい",
+  "meaning": "【ろうがい】肺痨；肺结核〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "裂肛": {
+  "reading": "れっこう",
+  "meaning": "【れっこう】肛裂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "酒さ": {
+  "reading": "しゅさ",
+  "meaning": "【しゅさ】酒渣鼻〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "足底": {
+  "reading": "そくてい",
+  "meaning": "【そくてい】足底〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "散瞳": {
+  "reading": "さんどう",
+  "meaning": "【さんどう】散瞳〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "縮瞳": {
+  "reading": "しゅくどう",
+  "meaning": "【しゅくどう】缩瞳〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腹側": {
+  "reading": "ふくそく",
+  "meaning": "【ふくそく】腹侧〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "外転": {
+  "reading": "がいてん",
+  "meaning": "【がいてん】外展〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "内転": {
+  "reading": "ないてん",
+  "meaning": "【ないてん】内收〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "体幹": {
+  "reading": "たいかん",
+  "meaning": "【たいかん】躯干〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "耳炎": {
+  "reading": "じえん",
+  "meaning": "【じえん】耳炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼠毒": {
+  "reading": "そどく",
+  "meaning": "【そどく】鼠咬症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膵管": {
+  "reading": "すいかん",
+  "meaning": "【すいかん】胰管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "瘢痕": {
+  "reading": "はんこん",
+  "meaning": "【はんこん】瘢痕〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼻閉": {
+  "reading": "びへい",
+  "meaning": "【びへい】鼻塞〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "水癌": {
+  "reading": "すいがん",
+  "meaning": "【すいがん】走马疳（面部坏疽）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鶏眼": {
+  "reading": "けいがん",
+  "meaning": "【けいがん】鸡眼〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "黒質": {
+  "reading": "こくしつ",
+  "meaning": "【こくしつ】黑质（脑）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "髄質": {
+  "reading": "ずいしつ",
+  "meaning": "【ずいしつ】髓质〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "骨炎": {
+  "reading": "こつえん",
+  "meaning": "【こつえん】骨炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "骨学": {
+  "reading": "こつがく",
+  "meaning": "【こつがく】骨学〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膝膕": {
+  "reading": "しっかく",
+  "meaning": "【しっかく】腘窝〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膝窩": {
+  "reading": "しっか",
+  "meaning": "【しっか】腘窝〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "類洞": {
+  "reading": "るいどう",
+  "meaning": "【るいどう】血窦〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "閉創": {
+  "reading": "へいそう",
+  "meaning": "【へいそう】闭合创口〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "間質": {
+  "reading": "かんしつ",
+  "meaning": "【かんしつ】间质〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "長頭": {
+  "reading": "ちょうとう",
+  "meaning": "【ちょうとう】长头（型颅骨）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "短頭": {
+  "reading": "たんとう",
+  "meaning": "【たんとう】短头（型颅骨）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "白癜": {
+  "reading": "しろなまず",
+  "meaning": "【しろなまず】白癜风〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "近位": {
+  "reading": "きんい",
+  "meaning": "【きんい】近位（近侧）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心肺": {
+  "reading": "しんぱい",
+  "meaning": "【しんぱい】心肺〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ピカ": {
+  "reading": "",
+  "meaning": "异食（癖）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "血胸": {
+  "reading": "けっきょう",
+  "meaning": "【けっきょう】血胸〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "虚血": {
+  "reading": "きょけつ",
+  "meaning": "【きょけつ】缺血〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "舌炎": {
+  "reading": "ぜつえん",
+  "meaning": "【ぜつえん】舌炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膵癌": {
+  "reading": "すいがん",
+  "meaning": "【すいがん】胰腺癌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腰筋": {
+  "reading": "ようきん",
+  "meaning": "【ようきん】腰肌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "灌流": {
+  "reading": "かんりゅう",
+  "meaning": "【かんりゅう】灌流〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "担癌": {
+  "reading": "たんがん",
+  "meaning": "【たんがん】带癌（状态）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脂漏": {
+  "reading": "しろう",
+  "meaning": "【しろう】皮脂溢〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胸管": {
+  "reading": "きょうかん",
+  "meaning": "【きょうかん】胸导管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胆管": {
+  "reading": "たんかん",
+  "meaning": "【たんかん】胆管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肝斑": {
+  "reading": "かんぱん",
+  "meaning": "【かんぱん】黄褐斑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "異所": {
+  "reading": "いしょ",
+  "meaning": "【いしょ】异位〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "拇趾": {
+  "reading": "ぼし",
+  "meaning": "【ぼし】大脚趾〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "汗疱": {
+  "reading": "かんぽう",
+  "meaning": "【かんぽう】汗疱疹〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "寛解": {
+  "reading": "かんかい",
+  "meaning": "【かんかい】缓解（病情）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "側索": {
+  "reading": "そくさく",
+  "meaning": "【そくさく】侧索（脊髓）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "好発": {
+  "reading": "こうはつ",
+  "meaning": "【こうはつ】好发（部位）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "経管": {
+  "reading": "けいかん",
+  "meaning": "【けいかん】插管（营养）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "糞塊": {
+  "reading": "ふんかい",
+  "meaning": "【ふんかい】粪块〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "大網": {
+  "reading": "だいもう",
+  "meaning": "【だいもう】大网膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "背側": {
+  "reading": "はいそく",
+  "meaning": "【はいそく】背侧〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "角化": {
+  "reading": "かくか",
+  "meaning": "【かくか】角化〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "粥状": {
+  "reading": "じゅくじょう",
+  "meaning": "【じゅくじょう】粥样（硬化）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "欠指": {
+  "reading": "けっし",
+  "meaning": "【けっし】缺指〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "足趾": {
+  "reading": "そくし",
+  "meaning": "【そくし】脚趾〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "多指": {
+  "reading": "たし",
+  "meaning": "【たし】多指（畸形）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "舌尖": {
+  "reading": "ぜっせん",
+  "meaning": "【ぜっせん】舌尖〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "筋膜": {
+  "reading": "きんまく",
+  "meaning": "【きんまく】筋膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "経膣": {
+  "reading": "けいちつ",
+  "meaning": "【けいちつ】经阴道〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "内柱": {
+  "reading": "ないちゅう",
+  "meaning": "【ないちゅう】内柱（脊索）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "側板": {
+  "reading": "そくばん",
+  "meaning": "【そくばん】侧板〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "方骨": {
+  "reading": "ほうこつ",
+  "meaning": "【ほうこつ】方骨（爬行类）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "歯骨": {
+  "reading": "しこつ",
+  "meaning": "【しこつ】齿骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "毛帯": {
+  "reading": "もうたい",
+  "meaning": "【もうたい】丘系（神经束）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "角栓": {
+  "reading": "かくせん",
+  "meaning": "【かくせん】角栓（黑头）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "自閉": {
+  "reading": "じへい",
+  "meaning": "【じへい】自闭（精神症状）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "減胎": {
+  "reading": "げんたい",
+  "meaning": "【げんたい】减胎（术）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "絞扼": {
+  "reading": "こうやく",
+  "meaning": "【こうやく】绞窄〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "耳翼": {
+  "reading": "じよく",
+  "meaning": "【じよく】耳廓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "耳痛": {
+  "reading": "じつう",
+  "meaning": "【じつう】耳痛〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "不育": {
+  "reading": "ふいく",
+  "meaning": "【ふいく】不孕不育〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "飛沫": {
+  "reading": "ひまつ",
+  "meaning": "【ひまつ】飞沫〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "経皮": {
+  "reading": "けいひ",
+  "meaning": "【けいひ】经皮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "再診": {
+  "reading": "さいしん",
+  "meaning": "【さいしん】复诊〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "精索": {
+  "reading": "せいさく",
+  "meaning": "【せいさく】精索〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "糜汁": {
+  "reading": "びじゅう",
+  "meaning": "【びじゅう】食糜（液态）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "糜粥": {
+  "reading": "びじゅく",
+  "meaning": "【びじゅく】食糜；糜粥〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "終板": {
+  "reading": "しゅうばん",
+  "meaning": "【しゅうばん】终板〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "発来": {
+  "reading": "はつらい",
+  "meaning": "【はつらい】发来；发生〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "筋節": {
+  "reading": "きんせつ",
+  "meaning": "【きんせつ】肌节；肌小节〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "筋痛": {
+  "reading": "きんつう",
+  "meaning": "【きんつう】肌痛〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "挙筋": {
+  "reading": "きょきん",
+  "meaning": "【きょきん】提肌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "多脾": {
+  "reading": "たひ",
+  "meaning": "【たひ】多脾（症）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "溢乳": {
+  "reading": "いつにゅう",
+  "meaning": "【いつにゅう】溢乳〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "禿瘡": {
+  "reading": "とくそう",
+  "meaning": "【とくそう】斑秃；秃疮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "粃糠": {
+  "reading": "ひこう",
+  "meaning": "【ひこう】糠秕样（脱屑）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "猿手": {
+  "reading": "さるて",
+  "meaning": "【さるて】猿手（正中神经麻痹）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "矢状": {
+  "reading": "しじょう",
+  "meaning": "【しじょう】矢状（面）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "輪匙": {
+  "reading": "りんひ",
+  "meaning": "【りんひ】晶状体匙〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "不応": {
+  "reading": "ふおう",
+  "meaning": "【ふおう】不应（期）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膣鏡": {
+  "reading": "ちつきょう",
+  "meaning": "【ちつきょう】阴道窥器〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "歯周": {
+  "reading": "ししゅう",
+  "meaning": "【ししゅう】牙周〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "後房": {
+  "reading": "こうぼう",
+  "meaning": "【こうぼう】后房（眼）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肥胖": {
+  "reading": "ひはん",
+  "meaning": "【ひはん】肥胖〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "確診": {
+  "reading": "かくしん",
+  "meaning": "【かくしん】确诊〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "穿頭": {
+  "reading": "せんとう",
+  "meaning": "【せんとう】穿颅术〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腎砂": {
+  "reading": "じんさ",
+  "meaning": "【じんさ】肾砂（微小结石）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "焮衝": {
+  "reading": "きんしょう",
+  "meaning": "【きんしょう】焮肿灼痛（红肿热痛）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "筋群": {
+  "reading": "きんぐん",
+  "meaning": "【きんぐん】肌群〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脱垂": {
+  "reading": "だっすい",
+  "meaning": "【だっすい】脱垂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "早発": {
+  "reading": "そうはつ",
+  "meaning": "【そうはつ】早发〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "拍出": {
+  "reading": "はくしゅつ",
+  "meaning": "【はくしゅつ】泵出（心输出）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "喀出": {
+  "reading": "かくしゅつ",
+  "meaning": "【かくしゅつ】咳出〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "錯語": {
+  "reading": "さくご",
+  "meaning": "【さくご】错语（言语错乱）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脳写": {
+  "reading": "のうしゃ",
+  "meaning": "【のうしゃ】脑造影（术）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "被殻": {
+  "reading": "ひかく",
+  "meaning": "【ひかく】壳核〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膿栓": {
+  "reading": "のうせん",
+  "meaning": "【のうせん】脓栓〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "栓子": {
+  "reading": "せんし",
+  "meaning": "【せんし】栓子〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "栓塞": {
+  "reading": "せんそく",
+  "meaning": "【せんそく】栓塞〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "労症": {
+  "reading": "ろうしょう",
+  "meaning": "【ろうしょう】痨症（脊髓痨）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鞍鼻": {
+  "reading": "あんび",
+  "meaning": "【あんび】鞍状鼻〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "気腔": {
+  "reading": "きくう",
+  "meaning": "【きくう】气腔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "無乳": {
+  "reading": "むにゅう",
+  "meaning": "【むにゅう】无乳（泌乳不能）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ＥＤ": {
+  "reading": "イー・ディー",
+  "meaning": "勃起功能障碍〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "後根": {
+  "reading": "こうこん",
+  "meaning": "【こうこん】后根（脊神经）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "上葉": {
+  "reading": "じょうよう",
+  "meaning": "【じょうよう】上叶（肺）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "下葉": {
+  "reading": "かよう",
+  "meaning": "【かよう】下叶（肺）〈名〉",
+  "level": "medical",
+  "need": 2
+ }
+}

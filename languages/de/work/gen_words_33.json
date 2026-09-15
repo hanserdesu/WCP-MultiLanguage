@@ -1,0 +1,602 @@
+[
+{
+"word": "überaus",
+"pos": "adv.",
+"zh": "极其",
+"level": "a2"
+},
+{
+"word": "Eisen",
+"pos": "n.",
+"zh": "铁",
+"level": "a2"
+},
+{
+"word": "Haftbefehl",
+"pos": "n.m.",
+"zh": "逮捕令",
+"level": "a2"
+},
+{
+"word": "buchstäblich",
+"pos": "adv.",
+"zh": "字面上",
+"level": "a2"
+},
+{
+"word": "Ernte",
+"pos": "n.f.",
+"zh": "收成",
+"level": "a2"
+},
+{
+"word": "Kamin",
+"pos": "n.m.",
+"zh": "壁炉",
+"level": "a2"
+},
+{
+"word": "Weste",
+"pos": "n.f.",
+"zh": "背心",
+"level": "a2"
+},
+{
+"word": "Kennzeichen",
+"pos": "n.",
+"zh": "车牌",
+"level": "a2"
+},
+{
+"word": "siegen",
+"pos": "v.",
+"zh": "获胜",
+"level": "a2"
+},
+{
+"word": "würdig",
+"pos": "adj.",
+"zh": "值得的",
+"level": "a2"
+},
+{
+"word": "Schwager",
+"pos": "n.m.",
+"zh": "姐夫；妹夫",
+"level": "a2"
+},
+{
+"word": "Föderation",
+"pos": "n.f.",
+"zh": "联邦",
+"level": "a2"
+},
+{
+"word": "Wärme",
+"pos": "n.f.",
+"zh": "温暖",
+"level": "a2"
+},
+{
+"word": "Magazin",
+"pos": "n.",
+"zh": "杂志",
+"level": "a2"
+},
+{
+"word": "Klemme",
+"pos": "n.f.",
+"zh": "困境",
+"level": "a2"
+},
+{
+"word": "kräftig",
+"pos": "adj.",
+"zh": "有力的",
+"level": "a2"
+},
+{
+"word": "Formel",
+"pos": "n.f.",
+"zh": "公式",
+"level": "a2"
+},
+{
+"word": "hervor",
+"pos": "adv.",
+"zh": "出来",
+"level": "a2"
+},
+{
+"word": "Wohnwagen",
+"pos": "n.m.",
+"zh": "房车",
+"level": "a2"
+},
+{
+"word": "wegwerfen",
+"pos": "v.",
+"zh": "扔掉",
+"level": "a2"
+},
+{
+"word": "Spinne",
+"pos": "n.f.",
+"zh": "蜘蛛",
+"level": "a2"
+},
+{
+"word": "Tumor",
+"pos": "n.m.",
+"zh": "肿瘤",
+"level": "a2"
+},
+{
+"word": "Bezahlung",
+"pos": "n.f.",
+"zh": "付款",
+"level": "a2"
+},
+{
+"word": "grob",
+"pos": "adj.",
+"zh": "粗糙的",
+"level": "a2"
+},
+{
+"word": "Nagel",
+"pos": "n.m.",
+"zh": "钉子；指甲",
+"level": "a2"
+},
+{
+"word": "vertreiben",
+"pos": "v.",
+"zh": "驱逐",
+"level": "a2"
+},
+{
+"word": "Gitter",
+"pos": "n.",
+"zh": "栅栏",
+"level": "a2"
+},
+{
+"word": "erobern",
+"pos": "v.",
+"zh": "征服",
+"level": "a2"
+},
+{
+"word": "Gestalt",
+"pos": "n.f.",
+"zh": "形状",
+"level": "a2"
+},
+{
+"word": "Illusion",
+"pos": "n.f.",
+"zh": "幻觉",
+"level": "a2"
+},
+{
+"word": "plaudern",
+"pos": "v.",
+"zh": "闲聊",
+"level": "a2"
+},
+{
+"word": "Spannung",
+"pos": "n.f.",
+"zh": "紧张；电压",
+"level": "a2"
+},
+{
+"word": "Bestimmung",
+"pos": "n.f.",
+"zh": "命运；规定",
+"level": "a2"
+},
+{
+"word": "Tresor",
+"pos": "n.m.",
+"zh": "保险箱",
+"level": "a2"
+},
+{
+"word": "Fischer",
+"pos": "n.m.",
+"zh": "渔民",
+"level": "a2"
+},
+{
+"word": "Lehre",
+"pos": "n.f.",
+"zh": "教训；学徒期",
+"level": "a2"
+},
+{
+"word": "Revolver",
+"pos": "n.m.",
+"zh": "左轮手枪",
+"level": "a2"
+},
+{
+"word": "Schrott",
+"pos": "n.m.",
+"zh": "废铁",
+"level": "a2"
+},
+{
+"word": "Vorhang",
+"pos": "n.m.",
+"zh": "窗帘；幕布",
+"level": "a2"
+},
+{
+"word": "mitspielen",
+"pos": "v.",
+"zh": "一起玩；参与",
+"level": "a2"
+},
+{
+"word": "erregt",
+"pos": "adj.",
+"zh": "激动的",
+"level": "a2"
+},
+{
+"word": "auflösen",
+"pos": "v.",
+"zh": "解散；溶解",
+"level": "a2"
+},
+{
+"word": "überein",
+"pos": "adv.",
+"zh": "一致",
+"level": "a2"
+},
+{
+"word": "Lagerhaus",
+"pos": "n.",
+"zh": "仓库",
+"level": "a2"
+},
+{
+"word": "Raub",
+"pos": "n.m.",
+"zh": "抢劫",
+"level": "a2"
+},
+{
+"word": "Produktion",
+"pos": "n.f.",
+"zh": "生产",
+"level": "a2"
+},
+{
+"word": "füreinander",
+"pos": "adv.",
+"zh": "互相",
+"level": "a2"
+},
+{
+"word": "schräg",
+"pos": "adj.",
+"zh": "歪的；古怪",
+"level": "a2"
+},
+{
+"word": "bluten",
+"pos": "v.",
+"zh": "流血",
+"level": "a2"
+},
+{
+"word": "einmischen",
+"pos": "v.",
+"zh": "干涉",
+"level": "a2"
+},
+{
+"word": "Futter",
+"pos": "n.",
+"zh": "饲料；衬里",
+"level": "a2"
+},
+{
+"word": "verknallt",
+"pos": "adj.",
+"zh": "热恋的（口语）",
+"level": "a2"
+},
+{
+"word": "Aktie",
+"pos": "n.f.",
+"zh": "股票",
+"level": "a2"
+},
+{
+"word": "sexuell",
+"pos": "adj.",
+"zh": "性的",
+"level": "a2"
+},
+{
+"word": "Kinderspiel",
+"pos": "n.",
+"zh": "轻而易举的事",
+"level": "a2"
+},
+{
+"word": "Dummheit",
+"pos": "n.f.",
+"zh": "愚蠢",
+"level": "a2"
+},
+{
+"word": "Karre",
+"pos": "n.f.",
+"zh": "破车（口语）",
+"level": "a2"
+},
+{
+"word": "abziehen",
+"pos": "v.",
+"zh": "撤走；扣除",
+"level": "a2"
+},
+{
+"word": "Inhalt",
+"pos": "n.m.",
+"zh": "内容",
+"level": "a2"
+},
+{
+"word": "Dankbarkeit",
+"pos": "n.f.",
+"zh": "感激",
+"level": "a2"
+},
+{
+"word": "ehren",
+"pos": "v.",
+"zh": "尊敬",
+"level": "a2"
+},
+{
+"word": "Messe",
+"pos": "n.f.",
+"zh": "博览会；弥撒",
+"level": "a2"
+},
+{
+"word": "Anwesen",
+"pos": "n.",
+"zh": "庄园",
+"level": "a2"
+},
+{
+"word": "Anerkennung",
+"pos": "n.f.",
+"zh": "认可",
+"level": "a2"
+},
+{
+"word": "Galaxie",
+"pos": "n.f.",
+"zh": "星系",
+"level": "a2"
+},
+{
+"word": "Vermutung",
+"pos": "n.f.",
+"zh": "猜测",
+"level": "a2"
+},
+{
+"word": "inklusive",
+"pos": "präp.",
+"zh": "包括",
+"level": "a2"
+},
+{
+"word": "Überwachung",
+"pos": "n.f.",
+"zh": "监视",
+"level": "a2"
+},
+{
+"word": "unabhängig",
+"pos": "adj.",
+"zh": "独立的",
+"level": "a2"
+},
+{
+"word": "fernhalten",
+"pos": "v.",
+"zh": "使远离",
+"level": "a2"
+},
+{
+"word": "Statue",
+"pos": "n.f.",
+"zh": "雕像",
+"level": "a2"
+},
+{
+"word": "Bestätigung",
+"pos": "n.f.",
+"zh": "确认",
+"level": "a2"
+},
+{
+"word": "Finale",
+"pos": "n.",
+"zh": "决赛；结尾",
+"level": "a2"
+},
+{
+"word": "Verzweiflung",
+"pos": "n.f.",
+"zh": "绝望",
+"level": "a2"
+},
+{
+"word": "gewähren",
+"pos": "v.",
+"zh": "给予",
+"level": "a2"
+},
+{
+"word": "deprimiert",
+"pos": "adj.",
+"zh": "沮丧的",
+"level": "a2"
+},
+{
+"word": "erteilen",
+"pos": "v.",
+"zh": "授予；颁布",
+"level": "a2"
+},
+{
+"word": "durchgedreht",
+"pos": "adj.",
+"zh": "发疯的（口语）",
+"level": "a2"
+},
+{
+"word": "jubeln",
+"pos": "v.",
+"zh": "欢呼",
+"level": "a2"
+},
+{
+"word": "auslöschen",
+"pos": "v.",
+"zh": "消灭",
+"level": "a2"
+},
+{
+"word": "servieren",
+"pos": "v.",
+"zh": "上菜",
+"level": "a2"
+},
+{
+"word": "weltweit",
+"pos": "adj.",
+"zh": "全世界",
+"level": "a2"
+},
+{
+"word": "fotografieren",
+"pos": "v.",
+"zh": "拍照",
+"level": "a2"
+},
+{
+"word": "Niederlage",
+"pos": "n.f.",
+"zh": "失败",
+"level": "a2"
+},
+{
+"word": "Zehe",
+"pos": "n.f.",
+"zh": "脚趾",
+"level": "a2"
+},
+{
+"word": "bemühen",
+"pos": "v.",
+"zh": "努力",
+"level": "a2"
+},
+{
+"word": "Logik",
+"pos": "n.f.",
+"zh": "逻辑",
+"level": "a2"
+},
+{
+"word": "stillen",
+"pos": "v.",
+"zh": "哺乳；平息",
+"level": "a2"
+},
+{
+"word": "Todesursache",
+"pos": "n.f.",
+"zh": "死因",
+"level": "a2"
+},
+{
+"word": "klassische",
+"pos": "adj.",
+"zh": "经典的",
+"level": "a2"
+},
+{
+"word": "außergewöhnlich",
+"pos": "adj.",
+"zh": "非凡的",
+"level": "a2"
+},
+{
+"word": "durchhalten",
+"pos": "v.",
+"zh": "坚持到底",
+"level": "a2"
+},
+{
+"word": "kooperieren",
+"pos": "v.",
+"zh": "合作",
+"level": "a2"
+},
+{
+"word": "Forderung",
+"pos": "n.f.",
+"zh": "要求",
+"level": "a2"
+},
+{
+"word": "Anfall",
+"pos": "n.m.",
+"zh": "发作",
+"level": "a2"
+},
+{
+"word": "aufeinander",
+"pos": "adv.",
+"zh": "彼此相接",
+"level": "a2"
+},
+{
+"word": "mitbekommen",
+"pos": "v.",
+"zh": "听到；得到",
+"level": "a2"
+},
+{
+"word": "Ingenieur",
+"pos": "n.m.",
+"zh": "工程师",
+"level": "a2"
+},
+{
+"word": "Andenken",
+"pos": "n.",
+"zh": "纪念品",
+"level": "a2"
+},
+{
+"word": "eintreten",
+"pos": "v.",
+"zh": "进入；加入",
+"level": "a2"
+}
+]

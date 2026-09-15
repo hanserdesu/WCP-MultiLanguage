@@ -1,0 +1,602 @@
+[
+{
+"word": "Obhut",
+"pos": "n.f.",
+"zh": "小心；照料；忧虑\\. 关心",
+"level": "b1"
+},
+{
+"word": "Aufführung",
+"pos": "n.f.",
+"zh": "施行；工作情况；成绩",
+"level": "b1"
+},
+{
+"word": "Abfahrt",
+"pos": "n.f.",
+"zh": "离开；出发；违背",
+"level": "b1"
+},
+{
+"word": "unterschätzen",
+"pos": "v.",
+"zh": "低估\\. 低估；看轻",
+"level": "b1"
+},
+{
+"word": "Hausfrau",
+"pos": "n.f.",
+"zh": "主妇；家庭妇女",
+"level": "b1"
+},
+{
+"word": "errichten",
+"pos": "v.",
+"zh": "植物；作物；工厂",
+"level": "b1"
+},
+{
+"word": "Stapel",
+"pos": "n.m.",
+"zh": "一次所烘的面包；一次所制之量；一组",
+"level": "b1"
+},
+{
+"word": "Reparatur",
+"pos": "n.f.",
+"zh": "修理；补救；修复\\. 修理",
+"level": "b1"
+},
+{
+"word": "Übereinstimmung",
+"pos": "n.f.",
+"zh": "遵照；适合；一致",
+"level": "b1"
+},
+{
+"word": "Entwurf",
+"pos": "n.m.",
+"zh": "气流；草稿；汇票",
+"level": "b1"
+},
+{
+"word": "Täuschung",
+"pos": "n.f.",
+"zh": "欺骗；欺瞒；轻松地消磨",
+"level": "b1"
+},
+{
+"word": "verstärken",
+"pos": "v.",
+"zh": "赋与力量",
+"level": "b1"
+},
+{
+"word": "Mithilfe",
+"pos": "n.f.",
+"zh": "帮忙；帮助者；补救办法",
+"level": "b1"
+},
+{
+"word": "Packung",
+"pos": "n.f.",
+"zh": "小包；一批信件；大量",
+"level": "b1"
+},
+{
+"word": "Themen",
+"pos": "n.",
+"zh": "有特定主题的",
+"level": "b1"
+},
+{
+"word": "aufteilen",
+"pos": "v.",
+"zh": "分割；隔离物；隔墙",
+"level": "b1"
+},
+{
+"word": "unberechenbar",
+"pos": "adv.",
+"zh": "不可胜数地；无数地",
+"level": "b1"
+},
+{
+"word": "Drohne",
+"pos": "n.f.",
+"zh": "雄蜂；懒惰者；嗡嗡的声音",
+"level": "b1"
+},
+{
+"word": "vage",
+"pos": "adv.",
+"zh": "含糊地；暧昧地",
+"level": "b1"
+},
+{
+"word": "Hindernis",
+"pos": "n.",
+"zh": "障碍；妨碍；闭塞物\\ 梗阻",
+"level": "b1"
+},
+{
+"word": "Solo",
+"pos": "n.",
+"zh": "独奏；独唱",
+"level": "b1"
+},
+{
+"word": "gierig",
+"pos": "adv.",
+"zh": "贪心地；热心地",
+"level": "b1"
+},
+{
+"word": "Schreck",
+"pos": "n.m.",
+"zh": "惊骇；吃惊\\ 惊吓",
+"level": "b1"
+},
+{
+"word": "verrotten",
+"pos": "v.",
+"zh": "腐烂；腐蚀；败坏\\. 腐烂",
+"level": "b1"
+},
+{
+"word": "Hinterkopf",
+"pos": "n.m.",
+"zh": "枕部\\ 枕部",
+"level": "b1"
+},
+{
+"word": "Lob",
+"pos": "n.",
+"zh": "赞美；称赞；崇拜\\. 称赞",
+"level": "b1"
+},
+{
+"word": "verwirren",
+"pos": "v.",
+"zh": "使混乱；使狼狈；使困惑\\ 混淆",
+"level": "b1"
+},
+{
+"word": "Autoschlüssel",
+"pos": "n.m.",
+"zh": "汽车；客车\\ 车",
+"level": "b1"
+},
+{
+"word": "Image",
+"pos": "n.",
+"zh": "在公众心目中的形象",
+"level": "b1"
+},
+{
+"word": "Joint",
+"pos": "n.m.",
+"zh": "连接处；接合；关节\\. 共同的",
+"level": "b1"
+},
+{
+"word": "gedrängt",
+"pos": "adv.",
+"zh": "压碎的；倒碎的",
+"level": "b1"
+},
+{
+"word": "soziale",
+"pos": "adv.",
+"zh": "社会的；群居的",
+"level": "b1"
+},
+{
+"word": "wissenschaftliche",
+"pos": "adv.",
+"zh": "科学的；系统的",
+"level": "b1"
+},
+{
+"word": "dastehen",
+"pos": "v.",
+"zh": "站立；站住；停顿",
+"level": "b1"
+},
+{
+"word": "inmitten",
+"pos": "v.",
+"zh": "在中部；正忙于；拦腰",
+"level": "b1"
+},
+{
+"word": "ausnahmsweise",
+"pos": "adv.",
+"zh": "被；经；由",
+"level": "b1"
+},
+{
+"word": "Silvester",
+"pos": "n.m.",
+"zh": "除夕\\ 新年前夜；新年前夕；新年除夕",
+"level": "b1"
+},
+{
+"word": "Schließfach",
+"pos": "n.",
+"zh": "抽屉；小柜；上锁人\\ 锁柜",
+"level": "b1"
+},
+{
+"word": "Bunny",
+"pos": "n.",
+"zh": "兔子",
+"level": "b1"
+},
+{
+"word": "Vase",
+"pos": "n.f.",
+"zh": "花瓶；瓶",
+"level": "b1"
+},
+{
+"word": "einhalten",
+"pos": "v.",
+"zh": "停留；遵守；居留",
+"level": "b1"
+},
+{
+"word": "Millionär",
+"pos": "n.m.",
+"zh": "百万富翁；大富豪\\ 大资本家；巨富",
+"level": "b1"
+},
+{
+"word": "Dreißig",
+"pos": "n.f.",
+"zh": "三十；三十个",
+"level": "b1"
+},
+{
+"word": "Begeisterung",
+"pos": "n.f.",
+"zh": "巨大的热情；热心",
+"level": "b1"
+},
+{
+"word": "Forscher",
+"pos": "n.m.",
+"zh": "研究人员",
+"level": "b1"
+},
+{
+"word": "begabt",
+"pos": "adv.",
+"zh": "适当地；适宜地",
+"level": "b1"
+},
+{
+"word": "Taufe",
+"pos": "n.f.",
+"zh": "浸礼；洗礼",
+"level": "b1"
+},
+{
+"word": "entscheidend",
+"pos": "adv.",
+"zh": "决定物",
+"level": "b1"
+},
+{
+"word": "Nervensäge",
+"pos": "n.f.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "Kuckuck",
+"pos": "n.m.",
+"zh": "杜鹃鸟；布谷鸟",
+"level": "b1"
+},
+{
+"word": "jeweils",
+"pos": "adv.",
+"zh": "每一；所有的",
+"level": "b1"
+},
+{
+"word": "passende",
+"pos": "adv.",
+"zh": "比赛；火柴",
+"level": "b1"
+},
+{
+"word": "Unabhängigkeit",
+"pos": "n.f.",
+"zh": "独立；自立；自主\\ 自主性",
+"level": "b1"
+},
+{
+"word": "Lücke",
+"pos": "n.f.",
+"zh": "缝隙；缺口；间断",
+"level": "b1"
+},
+{
+"word": "Schwangere",
+"pos": "n.f.",
+"zh": "怀孕的；充满的；思想丰富的",
+"level": "b1"
+},
+{
+"word": "Unfug",
+"pos": "n.m.",
+"zh": "损害；伤害；灾祸",
+"level": "b1"
+},
+{
+"word": "Weibchen",
+"pos": "n.",
+"zh": "女性；女人",
+"level": "b1"
+},
+{
+"word": "ergriffen",
+"pos": "v.",
+"zh": "发疯；渴望做某事；镇静",
+"level": "b1"
+},
+{
+"word": "Jahrestag",
+"pos": "n.m.",
+"zh": "周年纪念",
+"level": "b1"
+},
+{
+"word": "exzellent",
+"pos": "adj.",
+"zh": "最佳部分；初期",
+"level": "b1"
+},
+{
+"word": "Strahlen",
+"pos": "n.",
+"zh": "横梁；杆；光线",
+"level": "b1"
+},
+{
+"word": "Business",
+"pos": "n.",
+"zh": "生意；事情；业务",
+"level": "b1"
+},
+{
+"word": "Depression",
+"pos": "n.f.",
+"zh": "不景气；消沉；沮丧",
+"level": "b1"
+},
+{
+"word": "privates",
+"pos": "adv.",
+"zh": "武装民船；私掠船\\ 私掠船；私掠船长",
+"level": "b1"
+},
+{
+"word": "Alaska",
+"pos": "n.",
+"zh": "阿拉斯加州",
+"level": "b1"
+},
+{
+"word": "Männchen",
+"pos": "n.",
+"zh": "男人；雄性的",
+"level": "b1"
+},
+{
+"word": "senken",
+"pos": "v.",
+"zh": "低的；下级的",
+"level": "b1"
+},
+{
+"word": "Beamter",
+"pos": "n.m.",
+"zh": "市民的；公民的；有礼貌的\\ 公民的",
+"level": "b1"
+},
+{
+"word": "Kommission",
+"pos": "n.f.",
+"zh": "委任状；任官令；所委职责",
+"level": "b1"
+},
+{
+"word": "Fünfzig",
+"pos": "n.f.",
+"zh": "五十；五十个",
+"level": "b1"
+},
+{
+"word": "Mehrheit",
+"pos": "n.f.",
+"zh": "多数；大半\\ 多数逻辑",
+"level": "b1"
+},
+{
+"word": "abreißen",
+"pos": "v.",
+"zh": "折断；突然停止；脱落",
+"level": "b1"
+},
+{
+"word": "Komödie",
+"pos": "n.f.",
+"zh": "喜剧；有趣的事情",
+"level": "b1"
+},
+{
+"word": "außergewöhnliche",
+"pos": "adv.",
+"zh": "非常的；特别的；非凡的\\ 非常的",
+"level": "b1"
+},
+{
+"word": "Fahrzeuge",
+"pos": "n.",
+"zh": "全部车辆",
+"level": "b1"
+},
+{
+"word": "Zähl",
+"pos": "n.",
+"zh": "测光模式；计量；测量",
+"level": "b1"
+},
+{
+"word": "Verehrer",
+"pos": "n.m.",
+"zh": "钦佩者；仰慕者；求爱者",
+"level": "b1"
+},
+{
+"word": "Strecken",
+"pos": "n.",
+"zh": "伸展；张开；连绵",
+"level": "b1"
+},
+{
+"word": "gegeneinander",
+"pos": "adv.",
+"zh": "反对；对着；倚靠",
+"level": "b1"
+},
+{
+"word": "Ausfüllen",
+"pos": "n.",
+"zh": "完成\\ 完井；结束；完工",
+"level": "b1"
+},
+{
+"word": "Olive",
+"pos": "n.f.",
+"zh": "橄榄；橄榄树；橄榄色",
+"level": "b1"
+},
+{
+"word": "Vermächtnis",
+"pos": "n.",
+"zh": "遗嘱的；据遗嘱的",
+"level": "b1"
+},
+{
+"word": "Beteiligung",
+"pos": "n.f.",
+"zh": "拥护；支持；辩护",
+"level": "b1"
+},
+{
+"word": "Bengel",
+"pos": "n.m.",
+"zh": "小孩；小不点",
+"level": "b1"
+},
+{
+"word": "ätzend",
+"pos": "adv.",
+"zh": "腐蚀的；腐蚀性的",
+"level": "b1"
+},
+{
+"word": "Kapital",
+"pos": "n.",
+"zh": "首都；大写字母；资本\\. 首都的",
+"level": "b1"
+},
+{
+"word": "Attacke",
+"pos": "n.f.",
+"zh": "突击；猛击；猛攻",
+"level": "b1"
+},
+{
+"word": "Vorstellungsgespräch",
+"pos": "n.",
+"zh": "面谈；访问；接见",
+"level": "b1"
+},
+{
+"word": "Medium",
+"pos": "n.",
+"zh": "媒体；方法",
+"level": "b1"
+},
+{
+"word": "Stockwerk",
+"pos": "n.",
+"zh": "地板；楼层；底部",
+"level": "b1"
+},
+{
+"word": "einzeln",
+"pos": "v.",
+"zh": "单身的；单程的；单一的",
+"level": "b1"
+},
+{
+"word": "Aufwärmen",
+"pos": "n.",
+"zh": "准备动作；热身；预热",
+"level": "b1"
+},
+{
+"word": "Befreiung",
+"pos": "n.f.",
+"zh": "释放；解放\\ 发出",
+"level": "b1"
+},
+{
+"word": "Anzahlung",
+"pos": "n.f.",
+"zh": "预付定金；分期付款的首次交款",
+"level": "b1"
+},
+{
+"word": "Komplex",
+"pos": "n.m.",
+"zh": "综合体；情结",
+"level": "b1"
+},
+{
+"word": "alias",
+"pos": "adv.",
+"zh": "别名；替换入口",
+"level": "b1"
+},
+{
+"word": "Franc",
+"pos": "n.m.",
+"zh": "法郎",
+"level": "b1"
+},
+{
+"word": "zerschlagen",
+"pos": "v.",
+"zh": "平板；以平板盖上",
+"level": "b1"
+},
+{
+"word": "Italienische",
+"pos": "n.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "Marseille",
+"pos": "n.",
+"zh": "法国马赛市",
+"level": "b1"
+}
+]

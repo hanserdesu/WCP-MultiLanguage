@@ -1,0 +1,247 @@
+{
+  "level": "L7",
+  "name": "港式茶餐厅与粤菜美食全集",
+  "description": "涵盖经典港式茶餐厅饮品、碟头饭、经典粤菜点心及街头地道小食",
+  "words": [
+    {
+      "word": "茶走",
+      "jyutping": "caa4 zau2",
+      "pos": "名",
+      "meaning": "茶走（奶茶改用炼奶代替淡奶与砂糖）",
+      "sentences": [
+        {
+          "sentence": "伙計，一杯熱茶走！（fo2 gei3, jat1 bui1 jit6 caa4 zau2!）",
+          "translate": "服务员，一杯热茶走！"
+        },
+        {
+          "sentence": "茶走味道特別香滑。（caa4 zau2 mei6 dou6 dak6 bit6 hoeng1 waat6.）",
+          "translate": "茶走味道特别香浓丝滑。"
+        }
+      ]
+    },
+    {
+      "word": "鴛鴦",
+      "jyutping": "jin1 joeng1",
+      "pos": "名",
+      "meaning": "鸳鸯（咖啡混合奶茶的经典饮品）",
+      "sentences": [
+        {
+          "sentence": "凍鴛鴦少冰少甜。（dung3 jin1 joeng1 siu2 bing1 siu2 tim4.）",
+          "translate": "冰鸳鸯少冰少糖。"
+        },
+        {
+          "sentence": "鴛鴦融合咗咖啡同奶茶嘅香味。（jin1 joeng1 jung4 hap6 zo2 gaa3 fe1 tung4 naai5 caa4 ge3 hoeng1 mei6.）",
+          "translate": "鸳鸯融合了咖啡与奶茶的独特香气。"
+        }
+      ]
+    },
+    {
+      "word": "菠蘿油",
+      "jyutping": "bo1 lo4 jau4",
+      "pos": "名",
+      "meaning": "菠萝油（热菠萝面包夹厚切冰牛油）",
+      "sentences": [
+        {
+          "sentence": "剛出爐嘅菠蘿油冰火交融，超好食！（gong1 ceot1 lou4 ge3 bo1 lo4 jau4 bing1 fo2 gaau1 jung4, ciu1 hou2 sik6!）",
+          "translate": "刚出炉的菠萝油冰火交融，太好吃了！"
+        },
+        {
+          "sentence": "食下午茶必嗌菠蘿油。（sik6 haa6 zau3 caa4 bit1 aai3 bo1 lo4 jau4.）",
+          "translate": "吃下午茶必点菠萝油。"
+        }
+      ]
+    },
+    {
+      "word": "乾炒牛河",
+      "jyutping": "gon1 caau2 ngau4 ho2",
+      "pos": "名",
+      "meaning": "干炒牛河（考验粤菜厨师镬气的经典炒河粉）",
+      "sentences": [
+        {
+          "sentence": "一碟合格嘅乾炒牛河必須夠鑊氣。（jat1 dip6 hap6 gak3 ge3 gon1 caau2 ngau4 ho2 bit1 seoi1 gau3 wok6 hei3.）",
+          "translate": "一盘合格的干炒牛河必须锅气十足。"
+        },
+        {
+          "sentence": "牛肉好嫩，河粉條條分明。（ngau4 juk6 hou2 nyun3, ho4 fan2 tiu4 tiu4 fan1 ming4.）",
+          "translate": "牛肉鲜嫩，河粉根根分明不上色过黑。"
+        }
+      ]
+    },
+    {
+      "word": "滑蛋牛肉",
+      "jyutping": "waat6 daan2 ngau4 juk6",
+      "pos": "名",
+      "meaning": "滑蛋牛肉饭（经典茶餐厅碟头饭）",
+      "sentences": [
+        {
+          "sentence": "滑蛋牛肉飯嘅蛋好滑好嫩。（waat6 daan2 ngau4 juk6 faan6 ge3 daan2 hou2 waat6 hou2 nyun3.）",
+          "translate": "滑蛋牛肉饭的鸡蛋非常滑嫩鲜美。"
+        },
+        {
+          "sentence": "今晚煮滑蛋牛肉做晚餐。（gam1 maan5 zyu2 waat6 daan2 ngau4 juk6 zou6 maan5 caan1.）",
+          "translate": "今晚做滑蛋牛肉当晚饭。"
+        }
+      ]
+    },
+    {
+      "word": "西多士",
+      "jyutping": "sai1 do1 si2",
+      "pos": "名",
+      "meaning": "法兰西多士（油炸裹蛋液吐司配牛油与糖浆）",
+      "sentences": [
+        {
+          "sentence": "西多士淋上糖漿同牛油，邪惡又好食。（sai1 do1 si2 lam4 soeng5 tong4 zoeng1 tung4 ngau4 jau4, ce4 ok3 jau6 hou2 sik6.）",
+          "translate": "西多士浇上糖浆和黄油，卡路里爆棚又极美味。"
+        },
+        {
+          "sentence": "下晝食個西多士飲杯奶茶。（haa6 zau3 sik6 go3 sai1 do1 si2 jam2 bui1 naai5 caa4.）",
+          "translate": "下午吃个西多士喝杯奶茶。"
+        }
+      ]
+    },
+    {
+      "word": "車仔麵",
+      "jyutping": "ce1 zai2 min6",
+      "pos": "名",
+      "meaning": "车仔面（香港平民自选配料汤面）",
+      "sentences": [
+        {
+          "sentence": "車仔麵可以自己揀餸，我揀咗牛腩同蘿蔔。（ce1 zai2 min6 ho2 ji5 zi6 gei2 gaan2 sung3, ngo5 gaan2 zo2 ngau4 naam5 tung4 lo4 baak6.）",
+          "translate": "车仔面可以自选配菜，我选了牛腩和白萝卜。"
+        },
+        {
+          "sentence": "車仔麵嘅咖喱汁好濃。（ce1 zai2 min6 ge3 gaa3 lei1 zap1 hou2 nung4.）",
+          "translate": "车仔面的咖喱酱汁非常香浓。"
+        }
+      ]
+    },
+    {
+      "word": "魚蛋",
+      "jyutping": "jyu4 daan2",
+      "pos": "名",
+      "meaning": "鱼丸，鱼蛋",
+      "sentences": [
+        {
+          "sentence": "街頭咖喱魚蛋好彈牙。（gaai1 tau4 gaa3 lei1 jyu4 daan2 hou2 daan6 ngaa4.）",
+          "translate": "街头的咖喱鱼蛋非常有嚼劲弹牙。"
+        },
+        {
+          "sentence": "食完一串咖喱魚蛋仲想食。（sik6 jyun4 jat1 cyun3 gaa3 lei1 jyu4 daan2 zung6 soeng2 sik6.）",
+          "translate": "吃完一串咖喱鱼蛋还想吃。"
+        }
+      ]
+    },
+    {
+      "word": "雞蛋仔",
+      "jyutping": "gai1 daan6 zai2",
+      "pos": "名",
+      "meaning": "鸡蛋仔（著名香港街头烘焙小吃）",
+      "sentences": [
+        {
+          "sentence": "熱辣辣嘅雞蛋仔外脆內軟。（jit6 laat6 laat6 ge3 gai1 daan6 zai2 ngoi6 ceoi3 noi6 jyun5.）",
+          "translate": "热气腾腾的鸡蛋仔外皮酥脆内里松软。"
+        },
+        {
+          "sentence": "買底原味雞蛋仔邊行邊食。（maai5 dai2 jyun4 mei6 gai1 daan6 zai2 bin1 haang4 bin1 sik6.）",
+          "translate": "买一整份原味鸡蛋仔边走边吃。"
+        }
+      ]
+    },
+    {
+      "word": "碗仔翅",
+      "jyutping": "wun2 zai2 ci3",
+      "pos": "名",
+      "meaning": "碗仔翅（仿鱼翅街头羹汤小吃）",
+      "sentences": [
+        {
+          "sentence": "碗仔翅加啲麻油同胡椒粉先好食。（wun2 zai2 ci3 gaa1 di1 maa4 jau4 tung4 wu4 ziu1 fan2 sin1 hou2 sik6.）",
+          "translate": "碗仔翅加点芝麻油和胡椒粉才好吃。"
+        },
+        {
+          "sentence": "冬日街頭食碗熱辣辣嘅碗仔翅。（dung1 jat6 gaai1 tau4 sik6 wun2 jit6 laat6 laat6 ge3 wun2 zai2 ci3.）",
+          "translate": "冬天街头吃一碗热腾腾的碗仔翅。"
+        }
+      ]
+    },
+    {
+      "word": "煎釀三寶",
+      "jyutping": "zin1 joeng6 saam1 bou2",
+      "pos": "名",
+      "meaning": "煎酿三宝（酿鲮鱼肉馅的街头小吃）",
+      "sentences": [
+        {
+          "sentence": "煎釀三寶有釀青椒、茄子同豆腐。（zin1 joeng6 saam1 bou2 jau5 joeng6 cing1 ziu1, ke2 zi2 tung4 dau6 fu6.）",
+          "translate": "煎酿三宝有酿青椒、酿茄子和酿豆腐。"
+        },
+        {
+          "sentence": "點甜豉油食煎釀三寶好正。（dim2 tim4 si6 jau4 sik6 zin1 joeng6 saam1 bou2 hou2 zeng3.）",
+          "translate": "蘸着甜酱油吃煎酿三宝太赞了。"
+        }
+      ]
+    },
+    {
+      "word": "雙皮奶",
+      "jyutping": "soeng1 pei4 naai5",
+      "pos": "名",
+      "meaning": "双皮奶（顺德传统水牛奶甜品）",
+      "sentences": [
+        {
+          "sentence": "順德大良雙皮奶奶香濃郁。（seon6 dak1 daai6 loeng4 soeng1 pei4 naai5 naai5 hoeng1 nung4 juk1.）",
+          "translate": "顺德大良双皮奶奶香极其浓郁。"
+        },
+        {
+          "sentence": "冷熱雙皮奶各有風味。（laang5 jit6 soeng1 pei4 naai5 gok3 jau5 fung1 mei6.）",
+          "translate": "冰的和热的双皮奶各有千秋。"
+        }
+      ]
+    },
+    {
+      "word": "楊枝甘露",
+      "jyutping": "joeng4 zi1 gam1 lou6",
+      "pos": "名",
+      "meaning": "杨枝甘露（芒果西米柚子经典甜汤）",
+      "sentences": [
+        {
+          "sentence": "夏天食一碗冰凍楊枝甘露好消暑。（haa6 tin1 sik6 jat1 wun2 bing1 dung3 joeng4 zi1 gam1 lou6 hou2 siu1 syu2.）",
+          "translate": "夏天吃一碗冰镇杨枝甘露非常消暑解渴。"
+        },
+        {
+          "sentence": "芒果好甜，西米好爽。（mong1 gwo2 hou2 tim4, sai1 mai5 hou2 song2.）",
+          "translate": "芒果很甜，西米非常爽滑。"
+        }
+      ]
+    },
+    {
+      "word": "燒鵝",
+      "jyutping": "siu1 ngo4",
+      "pos": "名",
+      "meaning": "烧鹅（皮脆肉嫩的经典广式烧味）",
+      "sentences": [
+        {
+          "sentence": "深井燒鵝皮脆肉嫩，肉汁好多。（sam1 zing2 siu1 ngo4 pei4 ceoi3 juk6 nyun3, juk6 zap1 hou2 do1.）",
+          "translate": "深井烧鹅皮脆肉嫩，汁水丰盈。"
+        },
+        {
+          "sentence": "點酸梅醬食燒鵝真係絕配。（dim2 syun1 mui4 zoeng3 sik6 siu1 ngo4 zan1 hai6 zyut6 pui3.）",
+          "translate": "蘸着酸梅酱吃烧鹅真是绝配。"
+        }
+      ]
+    },
+    {
+      "word": "牛腩",
+      "jyutping": "ngau4 naam5",
+      "pos": "名",
+      "meaning": "牛腩（柱侯牛腩）",
+      "sentences": [
+        {
+          "sentence": "清湯牛腩煲燉得好軟爛。（cing1 tong1 ngau4 naam5 bou1 dan6 dak1 hou2 jyun5 laan6.）",
+          "translate": "清汤牛腩煲炖得非常软烂可口。"
+        },
+        {
+          "sentence": "牛腩麵啲湯底好濃香。（ngau4 naam5 min6 di1 tong1 dai2 hou2 nung4 hoeng1.）",
+          "translate": "牛腩面的汤底非常浓厚鲜香。"
+        }
+      ]
+    }
+  ]
+}

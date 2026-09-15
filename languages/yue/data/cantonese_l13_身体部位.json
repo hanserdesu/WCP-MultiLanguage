@@ -1,0 +1,167 @@
+{
+  "level": "L13",
+  "name": "身体部位与就医健康",
+  "description": "涵盖人体生理部位称谓与生病、看诊就医粤语口语",
+  "words": [
+    {
+      "word": "頸",
+      "jyutping": "geng2",
+      "pos": "名",
+      "meaning": "脖子，颈部",
+      "sentences": [
+        {
+          "sentence": "成日低頭睇電話，條頸好酸痛。（seng4 jat6 dai1 tau4 tai2 din6 waa2, tiu4 geng2 hou2 syun1 tung3.）",
+          "translate": "整天低头看手机，脖子很酸痛。"
+        },
+        {
+          "sentence": "天氣凍要圍條圍巾保暖條頸。（tin1 hei3 dung3 jiu3 wai4 tiu4 wai4 gan1 bou2 nyun5 tiu4 geng2.）",
+          "translate": "天气冷要围围巾给脖子保暖。"
+        }
+      ]
+    },
+    {
+      "word": "肚",
+      "jyutping": "tou5",
+      "pos": "名",
+      "meaning": "肚子，腹部",
+      "sentences": [
+        {
+          "sentence": "食錯嘢搞到肚痛。（sik6 co3 je5 gaau2 dou3 tou5 tung3.）",
+          "translate": "吃坏东西搞得肚子痛。"
+        },
+        {
+          "sentence": "摸下個肚，食得好飽。（mo2 haa5 go3 tou5, sik6 dak1 hou2 baau2.）",
+          "translate": "摸一下肚子，吃得好饱。"
+        }
+      ]
+    },
+    {
+      "word": "背脊",
+      "jyutping": "bui3 zek3",
+      "pos": "名",
+      "meaning": "后背，背部",
+      "sentences": [
+        {
+          "sentence": "做完運動成個背脊都係汗。（zou6 jyun4 wan6 dung6 seng4 go3 bui3 zek3 dou1 hai6 hon6.）",
+          "translate": "做完运动整个后背都是汗水。"
+        },
+        {
+          "sentence": "坐姿要端正，唔好駝住背脊。（co5 zi1 jiu3 dyun1 zing3, m4 hou2 to4 zyu6 bui3 zek3.）",
+          "translate": "坐姿要端正，不要弓着背。"
+        }
+      ]
+    },
+    {
+      "word": "膝頭哥",
+      "jyutping": "sat1 tau4 go1",
+      "pos": "名",
+      "meaning": "膝盖",
+      "sentences": [
+        {
+          "sentence": "跑步跌親整親個膝頭哥。（paau2 bou6 dit3 can1 zing2 can1 go3 sat1 tau4 go1.）",
+          "translate": "跑步摔倒弄伤了膝盖。"
+        },
+        {
+          "sentence": "落雨天膝頭哥容易風濕痛。（lok6 jyu5 tin1 sat1 tau4 go1 jung4 ji6 fung1 sap1 tung3.）",
+          "translate": "下雨天膝盖容易风湿酸痛。"
+        }
+      ]
+    },
+    {
+      "word": "睇醫生",
+      "jyutping": "tai2 ji1 sang1",
+      "pos": "动",
+      "meaning": "看医生，就医门诊",
+      "sentences": [
+        {
+          "sentence": "發燒成三十九度，快啲去睇醫生。（faat3 siu1 seng4 saam1 sap6 gau2 dou6, faai3 di1 heoi3 tai2 ji1 sang1.）",
+          "translate": "发烧将近39度，快点去看医生。"
+        },
+        {
+          "sentence": "睇完醫生記得按時食藥。（tai2 jyun4 ji1 sang1 gei3 dak1 on3 si4 sik6 joek6.）",
+          "translate": "看完医生记得按时吃药。"
+        }
+      ]
+    },
+    {
+      "word": "發燒",
+      "jyutping": "faat3 siu1",
+      "pos": "动",
+      "meaning": "发烧，发热",
+      "sentences": [
+        {
+          "sentence": "佢發燒出咗成身汗。（keoi5 faat3 siu1 ceot1 zo2 seng4 san1 hon6.）",
+          "translate": "他发烧出了一身汗。"
+        },
+        {
+          "sentence": "用探热针量下有冇發燒。（jung6 taam3 jit6 zam1 loeng4 haa5 jau5 mou5 faat3 siu1.）",
+          "translate": "用体温计测一下有没有发烧。"
+        }
+      ]
+    },
+    {
+      "word": "感冒",
+      "jyutping": "gam2 mou6",
+      "pos": "名/动",
+      "meaning": "感冒，患伤风",
+      "sentences": [
+        {
+          "sentence": "轉季天氣好易感冒。（zyun2 gwai3 tin1 hei3 hou2 ji3 gam2 mou6.）",
+          "translate": "换季时节很容易感冒。"
+        },
+        {
+          "sentence": "感冒要多飲溫水多休息。（gam2 mou6 jiu3 do1 jam2 wan1 seoi2 do1 jau1 sik1.）",
+          "translate": "感冒要多喝温水多休息。"
+        }
+      ]
+    },
+    {
+      "word": "肚痛",
+      "jyutping": "tou5 tung3",
+      "pos": "动/形",
+      "meaning": "腹痛，肚子痛",
+      "sentences": [
+        {
+          "sentence": "食完生冷嘢之後好肚痛。（sik6 jyun4 saang1 laang5 je5 zi1 hau6 hou2 tou5 tung3.）",
+          "translate": "吃完生冷生鲜之后肚子很痛。"
+        },
+        {
+          "sentence": "肚痛得好犀利要去醫院。（tou5 tung3 dak1 hou2 sai1 lei6 jiu3 heoi3 ji1 jyun2.）",
+          "translate": "肚子痛得厉害要去医院。"
+        }
+      ]
+    },
+    {
+      "word": "食藥",
+      "jyutping": "sik6 joek6",
+      "pos": "动",
+      "meaning": "吃药，服药",
+      "sentences": [
+        {
+          "sentence": "食完飯半個鐘先好食藥。（sik6 jyun4 faan6 bun3 go3 zung1 sin1 hou2 sik6 joek6.）",
+          "translate": "吃完饭半小时后再吃药。"
+        },
+        {
+          "sentence": "醫生開嘅藥好有效。（ji1 sang1 hoi1 ge3 joek6 hou2 jau5 haau6.）",
+          "translate": "医生开的药很见效。"
+        }
+      ]
+    },
+    {
+      "word": "保重",
+      "jyutping": "bou2 zung6",
+      "pos": "动",
+      "meaning": "保重（多用于叮嘱病患或离别祝福）",
+      "sentences": [
+        {
+          "sentence": "天氣轉凍，多着衫保重身體！（tin1 hei3 zyun2 dung3, do1 zoek3 saam1 bou2 zung6 san1 tai2!）",
+          "translate": "天气转冷，多穿衣服保重身体！"
+        },
+        {
+          "sentence": "祝你早日康復，多多保重。（zuk1 nei5 zou2 jat6 hong1 fuk6, do1 do1 bou2 zung6.）",
+          "translate": "祝你早日康复，多加保重。"
+        }
+      ]
+    }
+  ]
+}

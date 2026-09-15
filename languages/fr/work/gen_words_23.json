@@ -1,0 +1,602 @@
+[
+{
+"word": "salopard",
+"pos": "n.m.",
+"zh": "混蛋（骂人语）",
+"level": "a2"
+},
+{
+"word": "saluer",
+"pos": "v.",
+"zh": "问候；打招呼",
+"level": "a2"
+},
+{
+"word": "salé",
+"pos": "adj.",
+"zh": "咸的",
+"level": "a2"
+},
+{
+"word": "sandale",
+"pos": "n.f.",
+"zh": "凉鞋",
+"level": "a2"
+},
+{
+"word": "sang",
+"pos": "n.m.",
+"zh": "血；血液",
+"level": "a2"
+},
+{
+"word": "santé",
+"pos": "n.f.",
+"zh": "健康",
+"level": "a2"
+},
+{
+"word": "sardine",
+"pos": "n.f.",
+"zh": "沙丁鱼",
+"level": "a2"
+},
+{
+"word": "satisfaction",
+"pos": "n.f.",
+"zh": "满意",
+"level": "a2"
+},
+{
+"word": "saucisse",
+"pos": "n.f.",
+"zh": "香肠",
+"level": "a2"
+},
+{
+"word": "saumon",
+"pos": "n.m.",
+"zh": "三文鱼；鲑鱼",
+"level": "a2"
+},
+{
+"word": "sauna",
+"pos": "n.m.",
+"zh": "桑拿浴",
+"level": "a2"
+},
+{
+"word": "saut",
+"pos": "n.m.",
+"zh": "跳；跳跃",
+"level": "a2"
+},
+{
+"word": "sauver",
+"pos": "v.",
+"zh": "救；拯救；挽救",
+"level": "a2"
+},
+{
+"word": "saveur",
+"pos": "n.f.",
+"zh": "味道；风味",
+"level": "a2"
+},
+{
+"word": "scanner",
+"pos": "n.m.",
+"zh": "扫描仪",
+"level": "a2"
+},
+{
+"word": "science",
+"pos": "n.f.",
+"zh": "科学",
+"level": "a2"
+},
+{
+"word": "scooter",
+"pos": "n.m.",
+"zh": "小踏板摩托",
+"level": "a2"
+},
+{
+"word": "score",
+"pos": "n.m.",
+"zh": "比分；得分",
+"level": "a2"
+},
+{
+"word": "scorpion",
+"pos": "n.m.",
+"zh": "蝎子",
+"level": "a2"
+},
+{
+"word": "sculpture",
+"pos": "n.f.",
+"zh": "雕塑；雕刻",
+"level": "a2"
+},
+{
+"word": "seau",
+"pos": "n.m.",
+"zh": "桶；水桶",
+"level": "a2"
+},
+{
+"word": "sec",
+"pos": "adj.",
+"zh": "干的；干燥的",
+"level": "a2"
+},
+{
+"word": "second",
+"pos": "adj.",
+"zh": "第二的；秒",
+"level": "a2"
+},
+{
+"word": "secours",
+"pos": "n.m.",
+"zh": "救助；救援；帮助",
+"level": "a2"
+},
+{
+"word": "secret",
+"pos": "n.m.",
+"zh": "秘密",
+"level": "a2"
+},
+{
+"word": "secrétaire",
+"pos": "n.",
+"zh": "秘书",
+"level": "a2"
+},
+{
+"word": "semestre",
+"pos": "n.m.",
+"zh": "学期；半年",
+"level": "a2"
+},
+{
+"word": "sentier",
+"pos": "n.m.",
+"zh": "小径；小路",
+"level": "a2"
+},
+{
+"word": "sentir",
+"pos": "v.",
+"zh": "感觉；闻；觉得",
+"level": "a2"
+},
+{
+"word": "septième",
+"pos": "adj.",
+"zh": "第七",
+"level": "a2"
+},
+{
+"word": "serpent",
+"pos": "n.m.",
+"zh": "蛇（动物）",
+"level": "a2"
+},
+{
+"word": "serré",
+"pos": "adj.",
+"zh": "紧的；密集的",
+"level": "a2"
+},
+{
+"word": "serveur",
+"pos": "n.m.",
+"zh": "服务员；服务器",
+"level": "a2"
+},
+{
+"word": "service",
+"pos": "n.m.",
+"zh": "服务；服役；部门",
+"level": "a2"
+},
+{
+"word": "serviette",
+"pos": "n.f.",
+"zh": "毛巾；餐巾；公文包",
+"level": "a2"
+},
+{
+"word": "servir",
+"pos": "v.",
+"zh": "服务；用于",
+"level": "a2"
+},
+{
+"word": "sexe",
+"pos": "n.m.",
+"zh": "性别；性",
+"level": "a2"
+},
+{
+"word": "sexy",
+"pos": "adj.",
+"zh": "性感的",
+"level": "a2"
+},
+{
+"word": "shampooing",
+"pos": "n.m.",
+"zh": "洗发水",
+"level": "a2"
+},
+{
+"word": "shopping",
+"pos": "n.m.",
+"zh": "购物",
+"level": "a2"
+},
+{
+"word": "short",
+"pos": "n.m.",
+"zh": "短裤",
+"level": "a2"
+},
+{
+"word": "sien",
+"pos": "pron.",
+"zh": "他（她）的（物主代词）",
+"level": "a2"
+},
+{
+"word": "siffler",
+"pos": "v.",
+"zh": "吹哨；吹口哨",
+"level": "a2"
+},
+{
+"word": "sifflet",
+"pos": "n.m.",
+"zh": "哨子",
+"level": "a2"
+},
+{
+"word": "signal",
+"pos": "n.m.",
+"zh": "信号",
+"level": "a2"
+},
+{
+"word": "signature",
+"pos": "n.f.",
+"zh": "签名",
+"level": "a2"
+},
+{
+"word": "signe",
+"pos": "n.m.",
+"zh": "记号；迹象",
+"level": "a2"
+},
+{
+"word": "signer",
+"pos": "v.",
+"zh": "签字；签署",
+"level": "a2"
+},
+{
+"word": "silence",
+"pos": "n.m.",
+"zh": "沉默；寂静",
+"level": "a2"
+},
+{
+"word": "silencieux",
+"pos": "adj.",
+"zh": "安静的；沉默的",
+"level": "a2"
+},
+{
+"word": "simplement",
+"pos": "adv.",
+"zh": "简单地；只是",
+"level": "a2"
+},
+{
+"word": "simplicité",
+"pos": "n.f.",
+"zh": "简单；朴素",
+"level": "a2"
+},
+{
+"word": "simplifier",
+"pos": "v.",
+"zh": "简化",
+"level": "a2"
+},
+{
+"word": "sincère",
+"pos": "adj.",
+"zh": "真诚的",
+"level": "a2"
+},
+{
+"word": "singe",
+"pos": "n.m.",
+"zh": "猴子",
+"level": "a2"
+},
+{
+"word": "sinon",
+"pos": "conj.",
+"zh": "否则；不然",
+"level": "a2"
+},
+{
+"word": "situation",
+"pos": "n.f.",
+"zh": "情况；处境",
+"level": "a2"
+},
+{
+"word": "sixième",
+"pos": "adj.",
+"zh": "第六",
+"level": "a2"
+},
+{
+"word": "siècle",
+"pos": "n.m.",
+"zh": "世纪",
+"level": "a2"
+},
+{
+"word": "siège",
+"pos": "n.m.",
+"zh": "座位；总部",
+"level": "a2"
+},
+{
+"word": "skate",
+"pos": "n.m.",
+"zh": "滑板",
+"level": "a2"
+},
+{
+"word": "ski",
+"pos": "n.m.",
+"zh": "滑雪；滑雪板",
+"level": "a2"
+},
+{
+"word": "skier",
+"pos": "v.",
+"zh": "滑雪",
+"level": "a2"
+},
+{
+"word": "social",
+"pos": "adj.",
+"zh": "社会的；社交的",
+"level": "a2"
+},
+{
+"word": "soda",
+"pos": "n.m.",
+"zh": "汽水",
+"level": "a2"
+},
+{
+"word": "sofa",
+"pos": "n.m.",
+"zh": "长沙发",
+"level": "a2"
+},
+{
+"word": "soie",
+"pos": "n.f.",
+"zh": "丝绸；丝",
+"level": "a2"
+},
+{
+"word": "soigner",
+"pos": "v.",
+"zh": "照料；医治",
+"level": "a2"
+},
+{
+"word": "soigneusement",
+"pos": "adv.",
+"zh": "仔细地；细心地",
+"level": "a2"
+},
+{
+"word": "soin",
+"pos": "n.m.",
+"zh": "照料；小心",
+"level": "a2"
+},
+{
+"word": "soirée",
+"pos": "n.f.",
+"zh": "晚上；晚会",
+"level": "a2"
+},
+{
+"word": "sol",
+"pos": "n.m.",
+"zh": "地面；土地",
+"level": "a2"
+},
+{
+"word": "solide",
+"pos": "adj.",
+"zh": "坚固的；结实的",
+"level": "a2"
+},
+{
+"word": "solution",
+"pos": "n.f.",
+"zh": "解决办法；溶液",
+"level": "a2"
+},
+{
+"word": "sommeil",
+"pos": "n.m.",
+"zh": "睡眠",
+"level": "a2"
+},
+{
+"word": "sonner",
+"pos": "v.",
+"zh": "响铃；鸣响",
+"level": "a2"
+},
+{
+"word": "sonnette",
+"pos": "n.f.",
+"zh": "门铃",
+"level": "a2"
+},
+{
+"word": "sorte",
+"pos": "n.f.",
+"zh": "种类；类型",
+"level": "a2"
+},
+{
+"word": "sortie",
+"pos": "n.f.",
+"zh": "出口；外出",
+"level": "a2"
+},
+{
+"word": "souci",
+"pos": "n.m.",
+"zh": "担忧；烦恼",
+"level": "a2"
+},
+{
+"word": "soudain",
+"pos": "adv.",
+"zh": "突然",
+"level": "a2"
+},
+{
+"word": "souffler",
+"pos": "v.",
+"zh": "吹；喘气",
+"level": "a2"
+},
+{
+"word": "souhait",
+"pos": "n.m.",
+"zh": "愿望；祝愿",
+"level": "a2"
+},
+{
+"word": "souhaiter",
+"pos": "v.",
+"zh": "祝愿；希望",
+"level": "a2"
+},
+{
+"word": "soupe",
+"pos": "n.f.",
+"zh": "汤；浓汤",
+"level": "a2"
+},
+{
+"word": "souper",
+"pos": "v.",
+"zh": "吃晚饭",
+"level": "a2"
+},
+{
+"word": "sourd",
+"pos": "adj.",
+"zh": "聋的；沉闷的",
+"level": "a2"
+},
+{
+"word": "souriant",
+"pos": "adj.",
+"zh": "面带微笑的",
+"level": "a2"
+},
+{
+"word": "sourire",
+"pos": "v.",
+"zh": "微笑",
+"level": "a2"
+},
+{
+"word": "sous-sol",
+"pos": "n.m.",
+"zh": "地下室",
+"level": "a2"
+},
+{
+"word": "souvenir",
+"pos": "v.",
+"zh": "记得；回忆",
+"level": "a2"
+},
+{
+"word": "spaghetti",
+"pos": "n.m.",
+"zh": "意大利面",
+"level": "a2"
+},
+{
+"word": "spectacle",
+"pos": "n.m.",
+"zh": "演出；节目；景象",
+"level": "a2"
+},
+{
+"word": "spectateur",
+"pos": "n.m.",
+"zh": "观众",
+"level": "a2"
+},
+{
+"word": "sportif",
+"pos": "adj.",
+"zh": "体育的；运动员",
+"level": "a2"
+},
+{
+"word": "spray",
+"pos": "n.m.",
+"zh": "喷雾；喷剂",
+"level": "a2"
+},
+{
+"word": "spécial",
+"pos": "adj.",
+"zh": "特别的；专门的",
+"level": "a2"
+},
+{
+"word": "stade",
+"pos": "n.m.",
+"zh": "体育场；阶段",
+"level": "a2"
+},
+{
+"word": "stage",
+"pos": "n.m.",
+"zh": "实习；培训班",
+"level": "a2"
+},
+{
+"word": "star",
+"pos": "n.f.",
+"zh": "明星",
+"level": "a2"
+}
+]

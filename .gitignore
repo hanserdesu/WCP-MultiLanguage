@@ -1,0 +1,26 @@
+# WCP-MultiLanguage 忽略规则
+#
+# languages/<code>/ 是各语言工程的源码树（原语言仓库工作区的集成快照）。
+# 音频包、安装包、虚拟环境等大体积可再生产物由 Releases 承载或由各工程 tools/ 重建，
+# 不进 git 历史。语言工程自带的 .gitignore 原样保留在 languages/<code>/ 下，
+# git 按目录层级同时生效，因此各工程对原始语料（data/raw 等）的边界保持原样。
+#
+# 下列模式只作用于新文件，不影响已入库内容。
+
+# ---- 语言工程：可再生产物（保护性规则，集成时无文件命中） ----
+languages/**/__pycache__/
+languages/**/*.pyc
+languages/**/*venv*/
+languages/**/*.mp3
+languages/**/*.wav
+languages/**/*.es3
+languages/**/*.zip
+languages/**/output/installer_pkg/
+languages/**/output/release/*.zip
+languages/**/output/release/gitee-parts/
+
+# ---- 仓库自身 ----
+__pycache__/
+*.pyc
+.venv/
+venv/

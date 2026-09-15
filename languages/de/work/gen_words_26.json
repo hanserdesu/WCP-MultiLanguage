@@ -1,0 +1,602 @@
+[
+{
+"word": "eklig",
+"pos": "adj.",
+"zh": "恶心的",
+"level": "a2"
+},
+{
+"word": "öffentlich",
+"pos": "adj.",
+"zh": "公开的",
+"level": "a2"
+},
+{
+"word": "Marine",
+"pos": "n.f.",
+"zh": "海军",
+"level": "a2"
+},
+{
+"word": "brillant",
+"pos": "adj.",
+"zh": "才华横溢的",
+"level": "a2"
+},
+{
+"word": "Köder",
+"pos": "n.m.",
+"zh": "鱼饵",
+"level": "a2"
+},
+{
+"word": "vorgehen",
+"pos": "v.",
+"zh": "着手进行",
+"level": "a2"
+},
+{
+"word": "Kleinigkeit",
+"pos": "n.f.",
+"zh": "小事",
+"level": "a2"
+},
+{
+"word": "Kissen",
+"pos": "n.",
+"zh": "靠垫",
+"level": "a2"
+},
+{
+"word": "gerecht",
+"pos": "adj.",
+"zh": "公平的",
+"level": "a2"
+},
+{
+"word": "Trost",
+"pos": "n.m.",
+"zh": "安慰",
+"level": "a2"
+},
+{
+"word": "Spinner",
+"pos": "n.m.",
+"zh": "怪人（口语）",
+"level": "a2"
+},
+{
+"word": "Vergebung",
+"pos": "n.f.",
+"zh": "宽恕",
+"level": "a2"
+},
+{
+"word": "Vieh",
+"pos": "n.",
+"zh": "牲畜",
+"level": "a2"
+},
+{
+"word": "fesseln",
+"pos": "v.",
+"zh": "捆绑",
+"level": "a2"
+},
+{
+"word": "ekelhaft",
+"pos": "adj.",
+"zh": "令人恶心的",
+"level": "a2"
+},
+{
+"word": "Schicht",
+"pos": "n.f.",
+"zh": "层；班次",
+"level": "a2"
+},
+{
+"word": "intelligent",
+"pos": "adj.",
+"zh": "聪明的",
+"level": "a2"
+},
+{
+"word": "Verhältnis",
+"pos": "n.",
+"zh": "关系；比例",
+"level": "a2"
+},
+{
+"word": "Socke",
+"pos": "n.f.",
+"zh": "袜子",
+"level": "a2"
+},
+{
+"word": "Brieftasche",
+"pos": "n.f.",
+"zh": "钱包",
+"level": "a2"
+},
+{
+"word": "eventuell",
+"pos": "adv.",
+"zh": "也许",
+"level": "a2"
+},
+{
+"word": "nirgendwohin",
+"pos": "adv.",
+"zh": "无处可去",
+"level": "a2"
+},
+{
+"word": "Methode",
+"pos": "n.f.",
+"zh": "方法",
+"level": "a2"
+},
+{
+"word": "gelangen",
+"pos": "v.",
+"zh": "到达",
+"level": "a2"
+},
+{
+"word": "gespannt",
+"pos": "adj.",
+"zh": "期待的；绷紧",
+"level": "a2"
+},
+{
+"word": "Vernunft",
+"pos": "n.f.",
+"zh": "理智",
+"level": "a2"
+},
+{
+"word": "zurückgehen",
+"pos": "v.",
+"zh": "返回；追溯",
+"level": "a2"
+},
+{
+"word": "Drama",
+"pos": "n.",
+"zh": "戏剧",
+"level": "a2"
+},
+{
+"word": "entspannt",
+"pos": "adj.",
+"zh": "放松的",
+"level": "a2"
+},
+{
+"word": "Sprung",
+"pos": "n.m.",
+"zh": "跳跃",
+"level": "a2"
+},
+{
+"word": "anständig",
+"pos": "adj.",
+"zh": "正派的",
+"level": "a2"
+},
+{
+"word": "Gangster",
+"pos": "n.m.",
+"zh": "歹徒",
+"level": "a2"
+},
+{
+"word": "Aufzeichnung",
+"pos": "n.f.",
+"zh": "记录",
+"level": "a2"
+},
+{
+"word": "Ofen",
+"pos": "n.m.",
+"zh": "炉子",
+"level": "a2"
+},
+{
+"word": "Cowboy",
+"pos": "n.m.",
+"zh": "牛仔",
+"level": "a2"
+},
+{
+"word": "endgültig",
+"pos": "adj.",
+"zh": "最终的",
+"level": "a2"
+},
+{
+"word": "respektieren",
+"pos": "v.",
+"zh": "尊重",
+"level": "a2"
+},
+{
+"word": "riskant",
+"pos": "adj.",
+"zh": "有风险的",
+"level": "a2"
+},
+{
+"word": "Lohn",
+"pos": "n.m.",
+"zh": "工资",
+"level": "a2"
+},
+{
+"word": "zuviel",
+"pos": "adv.",
+"zh": "太多",
+"level": "a2"
+},
+{
+"word": "zustimmen",
+"pos": "v.",
+"zh": "同意",
+"level": "a2"
+},
+{
+"word": "Schnaps",
+"pos": "n.m.",
+"zh": "烈酒",
+"level": "a2"
+},
+{
+"word": "Stufe",
+"pos": "n.f.",
+"zh": "阶梯；等级",
+"level": "a2"
+},
+{
+"word": "erleichtert",
+"pos": "adj.",
+"zh": "松了口气的",
+"level": "a2"
+},
+{
+"word": "Scheune",
+"pos": "n.f.",
+"zh": "谷仓",
+"level": "a2"
+},
+{
+"word": "Spaziergang",
+"pos": "n.m.",
+"zh": "散步",
+"level": "a2"
+},
+{
+"word": "Zettel",
+"pos": "n.m.",
+"zh": "纸条",
+"level": "a2"
+},
+{
+"word": "Blödmann",
+"pos": "n.m.",
+"zh": "傻瓜",
+"level": "a2"
+},
+{
+"word": "hurra",
+"pos": "interj.",
+"zh": "万岁",
+"level": "a2"
+},
+{
+"word": "Symptom",
+"pos": "n.",
+"zh": "症状",
+"level": "a2"
+},
+{
+"word": "Vorfahr",
+"pos": "n.m.",
+"zh": "祖先",
+"level": "a2"
+},
+{
+"word": "nutzlos",
+"pos": "adj.",
+"zh": "无用的",
+"level": "a2"
+},
+{
+"word": "Telefonnummer",
+"pos": "n.f.",
+"zh": "电话号码",
+"level": "a2"
+},
+{
+"word": "nochmals",
+"pos": "adv.",
+"zh": "再一次",
+"level": "a2"
+},
+{
+"word": "Medien",
+"pos": "n.",
+"zh": "媒体",
+"level": "a2"
+},
+{
+"word": "faul",
+"pos": "adj.",
+"zh": "懒的；腐烂的",
+"level": "a2"
+},
+{
+"word": "Ereignis",
+"pos": "n.",
+"zh": "事件",
+"level": "a2"
+},
+{
+"word": "fabelhaft",
+"pos": "adj.",
+"zh": "极好的",
+"level": "a2"
+},
+{
+"word": "Klinge",
+"pos": "n.f.",
+"zh": "刀刃",
+"level": "a2"
+},
+{
+"word": "Leistung",
+"pos": "n.f.",
+"zh": "成绩；性能",
+"level": "a2"
+},
+{
+"word": "Beileid",
+"pos": "n.",
+"zh": "哀悼",
+"level": "a2"
+},
+{
+"word": "durchführen",
+"pos": "v.",
+"zh": "执行",
+"level": "a2"
+},
+{
+"word": "eröffnen",
+"pos": "v.",
+"zh": "开业；开创",
+"level": "a2"
+},
+{
+"word": "Unschuld",
+"pos": "n.f.",
+"zh": "无辜",
+"level": "a2"
+},
+{
+"word": "genügend",
+"pos": "adj.",
+"zh": "足够的",
+"level": "a2"
+},
+{
+"word": "gestatten",
+"pos": "v.",
+"zh": "允许",
+"level": "a2"
+},
+{
+"word": "Biest",
+"pos": "n.",
+"zh": "野兽",
+"level": "a2"
+},
+{
+"word": "auslösen",
+"pos": "v.",
+"zh": "触发",
+"level": "a2"
+},
+{
+"word": "Nachbarschaft",
+"pos": "n.f.",
+"zh": "街区",
+"level": "a2"
+},
+{
+"word": "Villa",
+"pos": "n.f.",
+"zh": "别墅",
+"level": "a2"
+},
+{
+"word": "Hauptquartier",
+"pos": "n.",
+"zh": "总部",
+"level": "a2"
+},
+{
+"word": "Werkstatt",
+"pos": "n.f.",
+"zh": "车间；修理厂",
+"level": "a2"
+},
+{
+"word": "überreden",
+"pos": "v.",
+"zh": "说服",
+"level": "a2"
+},
+{
+"word": "Schläger",
+"pos": "n.m.",
+"zh": "球拍；恶棍",
+"level": "a2"
+},
+{
+"word": "bewundern",
+"pos": "v.",
+"zh": "钦佩",
+"level": "a2"
+},
+{
+"word": "geschieden",
+"pos": "adj.",
+"zh": "离婚的",
+"level": "a2"
+},
+{
+"word": "Assistentin",
+"pos": "n.f.",
+"zh": "女助理",
+"level": "a2"
+},
+{
+"word": "Wettbewerb",
+"pos": "n.m.",
+"zh": "竞赛",
+"level": "a2"
+},
+{
+"word": "Sieger",
+"pos": "n.m.",
+"zh": "优胜者",
+"level": "a2"
+},
+{
+"word": "Verfassung",
+"pos": "n.f.",
+"zh": "宪法；状态",
+"level": "a2"
+},
+{
+"word": "quietschen",
+"pos": "v.",
+"zh": "发出嘎吱声",
+"level": "a2"
+},
+{
+"word": "füttern",
+"pos": "v.",
+"zh": "喂食",
+"level": "a2"
+},
+{
+"word": "Gürtel",
+"pos": "n.m.",
+"zh": "腰带",
+"level": "a2"
+},
+{
+"word": "menschlich",
+"pos": "adj.",
+"zh": "人类的；人道的",
+"level": "a2"
+},
+{
+"word": "eigenartig",
+"pos": "adj.",
+"zh": "奇特的",
+"level": "a2"
+},
+{
+"word": "Kabel",
+"pos": "n.",
+"zh": "电缆",
+"level": "a2"
+},
+{
+"word": "Krankenstation",
+"pos": "n.f.",
+"zh": "病房",
+"level": "a2"
+},
+{
+"word": "Leine",
+"pos": "n.f.",
+"zh": "绳索",
+"level": "a2"
+},
+{
+"word": "Beschreibung",
+"pos": "n.f.",
+"zh": "描述",
+"level": "a2"
+},
+{
+"word": "beschädigen",
+"pos": "v.",
+"zh": "损坏",
+"level": "a2"
+},
+{
+"word": "Grundstück",
+"pos": "n.",
+"zh": "地产",
+"level": "a2"
+},
+{
+"word": "Turm",
+"pos": "n.m.",
+"zh": "塔",
+"level": "a2"
+},
+{
+"word": "Mine",
+"pos": "n.f.",
+"zh": "矿井",
+"level": "a2"
+},
+{
+"word": "Sauerstoff",
+"pos": "n.m.",
+"zh": "氧气",
+"level": "a2"
+},
+{
+"word": "Versager",
+"pos": "n.m.",
+"zh": "失败者",
+"level": "a2"
+},
+{
+"word": "anklagen",
+"pos": "v.",
+"zh": "控告",
+"level": "a2"
+},
+{
+"word": "baden",
+"pos": "v.",
+"zh": "游泳；洗澡",
+"level": "a2"
+},
+{
+"word": "knacken",
+"pos": "v.",
+"zh": "破解；爆裂",
+"level": "a2"
+},
+{
+"word": "Panzer",
+"pos": "n.m.",
+"zh": "坦克；装甲",
+"level": "a2"
+},
+{
+"word": "Bach",
+"pos": "n.m.",
+"zh": "小溪",
+"level": "a2"
+}
+]

@@ -1,0 +1,602 @@
+[
+{
+"word": "station",
+"pos": "n.f.",
+"zh": "车站；站点",
+"level": "a2"
+},
+{
+"word": "station-service",
+"pos": "n.f.",
+"zh": "加油站",
+"level": "a2"
+},
+{
+"word": "statue",
+"pos": "n.f.",
+"zh": "雕像",
+"level": "a2"
+},
+{
+"word": "steak",
+"pos": "n.m.",
+"zh": "牛排",
+"level": "a2"
+},
+{
+"word": "stress",
+"pos": "n.m.",
+"zh": "压力；紧张",
+"level": "a2"
+},
+{
+"word": "studio",
+"pos": "n.m.",
+"zh": "工作室；单间公寓",
+"level": "a2"
+},
+{
+"word": "stupide",
+"pos": "adj.",
+"zh": "愚蠢的",
+"level": "a2"
+},
+{
+"word": "style",
+"pos": "n.m.",
+"zh": "风格；款式",
+"level": "a2"
+},
+{
+"word": "stéréo",
+"pos": "n.f.",
+"zh": "立体声音响",
+"level": "a2"
+},
+{
+"word": "succès",
+"pos": "n.m.",
+"zh": "成功；成功之作",
+"level": "a2"
+},
+{
+"word": "sucer",
+"pos": "v.",
+"zh": "吮吸",
+"level": "a2"
+},
+{
+"word": "sucette",
+"pos": "n.f.",
+"zh": "棒棒糖",
+"level": "a2"
+},
+{
+"word": "sud",
+"pos": "n.m.",
+"zh": "南；南方",
+"level": "a2"
+},
+{
+"word": "sueur",
+"pos": "n.f.",
+"zh": "汗；汗水",
+"level": "a2"
+},
+{
+"word": "suicider",
+"pos": "v.",
+"zh": "自杀",
+"level": "a2"
+},
+{
+"word": "suisse",
+"pos": "adj.",
+"zh": "瑞士的；瑞士人",
+"level": "a2"
+},
+{
+"word": "suite",
+"pos": "n.f.",
+"zh": "继续；接着；套房",
+"level": "a2"
+},
+{
+"word": "suivant",
+"pos": "adj.",
+"zh": "接着的；下列的",
+"level": "a2"
+},
+{
+"word": "sujet",
+"pos": "n.m.",
+"zh": "话题；主题；主语",
+"level": "a2"
+},
+{
+"word": "surf",
+"pos": "n.m.",
+"zh": "冲浪（运动）",
+"level": "a2"
+},
+{
+"word": "surface",
+"pos": "n.f.",
+"zh": "表面；面积",
+"level": "a2"
+},
+{
+"word": "surprenant",
+"pos": "adj.",
+"zh": "惊人的；出人意料的",
+"level": "a2"
+},
+{
+"word": "surprendre",
+"pos": "v.",
+"zh": "使吃惊；撞见",
+"level": "a2"
+},
+{
+"word": "surpris",
+"pos": "adj.",
+"zh": "吃惊的；意外的",
+"level": "a2"
+},
+{
+"word": "surprise",
+"pos": "n.f.",
+"zh": "惊喜；意外",
+"level": "a2"
+},
+{
+"word": "suspect",
+"pos": "n.m.",
+"zh": "嫌疑人；可疑的",
+"level": "a2"
+},
+{
+"word": "suédois",
+"pos": "n.m.",
+"zh": "瑞典语；瑞典人",
+"level": "a2"
+},
+{
+"word": "symbole",
+"pos": "n.m.",
+"zh": "象征；符号",
+"level": "a2"
+},
+{
+"word": "sympa",
+"pos": "adj.",
+"zh": "和气的；讨人喜欢的（口语）",
+"level": "a2"
+},
+{
+"word": "sympathique",
+"pos": "adj.",
+"zh": "友好的；讨人喜欢的",
+"level": "a2"
+},
+{
+"word": "sécher",
+"pos": "v.",
+"zh": "弄干；变干",
+"level": "a2"
+},
+{
+"word": "sécurité",
+"pos": "n.f.",
+"zh": "安全；治安",
+"level": "a2"
+},
+{
+"word": "séjour",
+"pos": "n.m.",
+"zh": "逗留；居留",
+"level": "a2"
+},
+{
+"word": "séparer",
+"pos": "v.",
+"zh": "分开；隔开",
+"level": "a2"
+},
+{
+"word": "série",
+"pos": "n.f.",
+"zh": "系列；连续剧",
+"level": "a2"
+},
+{
+"word": "sérieusement",
+"pos": "adv.",
+"zh": "认真地；严肃地",
+"level": "a2"
+},
+{
+"word": "sérieux",
+"pos": "adj.",
+"zh": "严肃的；认真的",
+"level": "a2"
+},
+{
+"word": "tabac",
+"pos": "n.m.",
+"zh": "烟草",
+"level": "a2"
+},
+{
+"word": "tableau",
+"pos": "n.m.",
+"zh": "黑板；画；表格",
+"level": "a2"
+},
+{
+"word": "tablette",
+"pos": "n.f.",
+"zh": "薄板；药片；平板电脑",
+"level": "a2"
+},
+{
+"word": "tablier",
+"pos": "n.m.",
+"zh": "围裙",
+"level": "a2"
+},
+{
+"word": "tache",
+"pos": "n.f.",
+"zh": "污渍；斑点",
+"level": "a2"
+},
+{
+"word": "taille",
+"pos": "n.f.",
+"zh": "尺寸；身材",
+"level": "a2"
+},
+{
+"word": "tailleur",
+"pos": "n.m.",
+"zh": "裁缝；女式套装",
+"level": "a2"
+},
+{
+"word": "talent",
+"pos": "n.m.",
+"zh": "才能；天赋",
+"level": "a2"
+},
+{
+"word": "talon",
+"pos": "n.m.",
+"zh": "脚跟；鞋跟",
+"level": "a2"
+},
+{
+"word": "tambour",
+"pos": "n.m.",
+"zh": "鼓（乐器）",
+"level": "a2"
+},
+{
+"word": "tank",
+"pos": "n.m.",
+"zh": "坦克",
+"level": "a2"
+},
+{
+"word": "tant",
+"pos": "adv.",
+"zh": "那么多；如此",
+"level": "a2"
+},
+{
+"word": "taper",
+"pos": "v.",
+"zh": "敲；打；打字",
+"level": "a2"
+},
+{
+"word": "tapis",
+"pos": "n.m.",
+"zh": "地毯",
+"level": "a2"
+},
+{
+"word": "tarif",
+"pos": "n.m.",
+"zh": "价目；收费",
+"level": "a2"
+},
+{
+"word": "tarte",
+"pos": "n.f.",
+"zh": "果馅饼；挞",
+"level": "a2"
+},
+{
+"word": "tas",
+"pos": "n.m.",
+"zh": "堆；一堆",
+"level": "a2"
+},
+{
+"word": "tata",
+"pos": "n.f.",
+"zh": "姨妈；阿姨（儿语）",
+"level": "a2"
+},
+{
+"word": "tchao",
+"pos": "interj.",
+"zh": "再见（口语）",
+"level": "a2"
+},
+{
+"word": "technique",
+"pos": "adj.",
+"zh": "技术的；技巧",
+"level": "a2"
+},
+{
+"word": "tellement",
+"pos": "adv.",
+"zh": "如此；这么；非常",
+"level": "a2"
+},
+{
+"word": "temple",
+"pos": "n.m.",
+"zh": "寺庙；神殿",
+"level": "a2"
+},
+{
+"word": "température",
+"pos": "n.f.",
+"zh": "温度；体温",
+"level": "a2"
+},
+{
+"word": "tenir",
+"pos": "v.",
+"zh": "握住；拿住；坚持",
+"level": "a2"
+},
+{
+"word": "tennis",
+"pos": "n.m.",
+"zh": "网球运动",
+"level": "a2"
+},
+{
+"word": "tente",
+"pos": "n.f.",
+"zh": "帐篷",
+"level": "a2"
+},
+{
+"word": "terme",
+"pos": "n.m.",
+"zh": "期限；术语",
+"level": "a2"
+},
+{
+"word": "terrasse",
+"pos": "n.f.",
+"zh": "露台；露天座",
+"level": "a2"
+},
+{
+"word": "terrible",
+"pos": "adj.",
+"zh": "可怕的；糟糕的",
+"level": "a2"
+},
+{
+"word": "test",
+"pos": "n.m.",
+"zh": "测试；检验",
+"level": "a2"
+},
+{
+"word": "tester",
+"pos": "v.",
+"zh": "测试；试验",
+"level": "a2"
+},
+{
+"word": "thon",
+"pos": "n.m.",
+"zh": "金枪鱼",
+"level": "a2"
+},
+{
+"word": "théâtre",
+"pos": "n.m.",
+"zh": "剧院；戏剧",
+"level": "a2"
+},
+{
+"word": "ticket",
+"pos": "n.m.",
+"zh": "票；券",
+"level": "a2"
+},
+{
+"word": "tiens",
+"pos": "interj.",
+"zh": "喏；你看（口语）",
+"level": "a2"
+},
+{
+"word": "tigre",
+"pos": "n.m.",
+"zh": "虎",
+"level": "a2"
+},
+{
+"word": "timbre",
+"pos": "n.m.",
+"zh": "邮票；音色",
+"level": "a2"
+},
+{
+"word": "timide",
+"pos": "adj.",
+"zh": "害羞的；腼腆的",
+"level": "a2"
+},
+{
+"word": "tirer",
+"pos": "v.",
+"zh": "拉；拖；射",
+"level": "a2"
+},
+{
+"word": "tiroir",
+"pos": "n.m.",
+"zh": "抽屉",
+"level": "a2"
+},
+{
+"word": "tissu",
+"pos": "n.m.",
+"zh": "布料；织物",
+"level": "a2"
+},
+{
+"word": "titre",
+"pos": "n.m.",
+"zh": "标题；头衔",
+"level": "a2"
+},
+{
+"word": "toast",
+"pos": "n.m.",
+"zh": "吐司；祝酒",
+"level": "a2"
+},
+{
+"word": "toi-même",
+"pos": "pron.",
+"zh": "你自己；你本人",
+"level": "a2"
+},
+{
+"word": "toilette",
+"pos": "n.f.",
+"zh": "梳洗；厕所（常用复数）",
+"level": "a2"
+},
+{
+"word": "toit",
+"pos": "n.m.",
+"zh": "屋顶",
+"level": "a2"
+},
+{
+"word": "tombe",
+"pos": "n.f.",
+"zh": "坟墓",
+"level": "a2"
+},
+{
+"word": "tonne",
+"pos": "n.f.",
+"zh": "公吨；吨",
+"level": "a2"
+},
+{
+"word": "tonnerre",
+"pos": "n.m.",
+"zh": "雷；雷声",
+"level": "a2"
+},
+{
+"word": "tonton",
+"pos": "n.m.",
+"zh": "叔叔（儿语）",
+"level": "a2"
+},
+{
+"word": "top",
+"pos": "n.m.",
+"zh": "顶端；顶尖",
+"level": "a2"
+},
+{
+"word": "torchon",
+"pos": "n.m.",
+"zh": "抹布；洗碗布",
+"level": "a2"
+},
+{
+"word": "tort",
+"pos": "n.m.",
+"zh": "过错；不对；损害",
+"level": "a2"
+},
+{
+"word": "tortue",
+"pos": "n.f.",
+"zh": "乌龟",
+"level": "a2"
+},
+{
+"word": "total",
+"pos": "adj.",
+"zh": "全部的；总的",
+"level": "a2"
+},
+{
+"word": "totalement",
+"pos": "adv.",
+"zh": "完全地",
+"level": "a2"
+},
+{
+"word": "touche",
+"pos": "n.f.",
+"zh": "按键；琴键；笔触",
+"level": "a2"
+},
+{
+"word": "toucher",
+"pos": "v.",
+"zh": "触摸；碰；触及",
+"level": "a2"
+},
+{
+"word": "tour",
+"pos": "n.",
+"zh": "塔；塔楼；轮流",
+"level": "a2"
+},
+{
+"word": "tourisme",
+"pos": "n.m.",
+"zh": "旅游业；观光",
+"level": "a2"
+},
+{
+"word": "touriste",
+"pos": "n.",
+"zh": "游客",
+"level": "a2"
+},
+{
+"word": "touristique",
+"pos": "adj.",
+"zh": "旅游的；观光的",
+"level": "a2"
+},
+{
+"word": "tourner",
+"pos": "v.",
+"zh": "转动；转向；拍摄",
+"level": "a2"
+}
+]

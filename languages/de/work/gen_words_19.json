@@ -1,0 +1,602 @@
+[
+{
+"word": "Bereich",
+"pos": "n.m.",
+"zh": "范围",
+"level": "a2"
+},
+{
+"word": "meinetwegen",
+"pos": "adv.",
+"zh": "就我而言",
+"level": "a2"
+},
+{
+"word": "Senator",
+"pos": "n.m.",
+"zh": "参议员",
+"level": "a2"
+},
+{
+"word": "ausziehen",
+"pos": "v.",
+"zh": "搬走；脱下",
+"level": "a2"
+},
+{
+"word": "verzweifelt",
+"pos": "adj.",
+"zh": "绝望的",
+"level": "a2"
+},
+{
+"word": "Anteil",
+"pos": "n.m.",
+"zh": "份额",
+"level": "a2"
+},
+{
+"word": "stets",
+"pos": "adv.",
+"zh": "总是",
+"level": "a2"
+},
+{
+"word": "Ritter",
+"pos": "n.m.",
+"zh": "骑士",
+"level": "a2"
+},
+{
+"word": "Roman",
+"pos": "n.m.",
+"zh": "小说",
+"level": "a2"
+},
+{
+"word": "pünktlich",
+"pos": "adj.",
+"zh": "准时的",
+"level": "a2"
+},
+{
+"word": "Basis",
+"pos": "n.f.",
+"zh": "基础",
+"level": "a2"
+},
+{
+"word": "Schock",
+"pos": "n.m.",
+"zh": "震惊",
+"level": "a2"
+},
+{
+"word": "Empfang",
+"pos": "n.m.",
+"zh": "接待；前台",
+"level": "a2"
+},
+{
+"word": "Titel",
+"pos": "n.m.",
+"zh": "标题",
+"level": "a2"
+},
+{
+"word": "Stil",
+"pos": "n.m.",
+"zh": "风格",
+"level": "a2"
+},
+{
+"word": "Fingerabdruck",
+"pos": "n.m.",
+"zh": "指纹",
+"level": "a2"
+},
+{
+"word": "Einfluss",
+"pos": "n.m.",
+"zh": "影响",
+"level": "a2"
+},
+{
+"word": "Anweisung",
+"pos": "n.f.",
+"zh": "指示",
+"level": "a2"
+},
+{
+"word": "opfern",
+"pos": "v.",
+"zh": "牺牲",
+"level": "a2"
+},
+{
+"word": "sparen",
+"pos": "v.",
+"zh": "节省",
+"level": "a2"
+},
+{
+"word": "erstaunlich",
+"pos": "adj.",
+"zh": "惊人的",
+"level": "a2"
+},
+{
+"word": "Schwachsinn",
+"pos": "n.m.",
+"zh": "胡说",
+"level": "a2"
+},
+{
+"word": "Miete",
+"pos": "n.f.",
+"zh": "租金",
+"level": "a2"
+},
+{
+"word": "verwandeln",
+"pos": "v.",
+"zh": "转变",
+"level": "a2"
+},
+{
+"word": "daneben",
+"pos": "adv.",
+"zh": "在旁边",
+"level": "a2"
+},
+{
+"word": "bereiten",
+"pos": "v.",
+"zh": "准备",
+"level": "a2"
+},
+{
+"word": "Wüste",
+"pos": "n.f.",
+"zh": "沙漠",
+"level": "a2"
+},
+{
+"word": "prüfen",
+"pos": "v.",
+"zh": "检查；测试",
+"level": "a2"
+},
+{
+"word": "Gabe",
+"pos": "n.f.",
+"zh": "天赋；礼物",
+"level": "a2"
+},
+{
+"word": "erscheinen",
+"pos": "v.",
+"zh": "出现；出版",
+"level": "a2"
+},
+{
+"word": "besiegen",
+"pos": "v.",
+"zh": "打败",
+"level": "a2"
+},
+{
+"word": "Angelegenheit",
+"pos": "n.f.",
+"zh": "事务",
+"level": "a2"
+},
+{
+"word": "folgendes",
+"pos": "pron.",
+"zh": "以下内容",
+"level": "a2"
+},
+{
+"word": "angestellt",
+"pos": "adj.",
+"zh": "受雇的",
+"level": "a2"
+},
+{
+"word": "Training",
+"pos": "n.",
+"zh": "训练",
+"level": "a2"
+},
+{
+"word": "auftauchen",
+"pos": "v.",
+"zh": "出现",
+"level": "a2"
+},
+{
+"word": "ächzen",
+"pos": "v.",
+"zh": "呻吟",
+"level": "a2"
+},
+{
+"word": "rauskommen",
+"pos": "v.",
+"zh": "出来（口语）",
+"level": "a2"
+},
+{
+"word": "Sitz",
+"pos": "n.m.",
+"zh": "座位",
+"level": "a2"
+},
+{
+"word": "Vorteil",
+"pos": "n.m.",
+"zh": "优点",
+"level": "a2"
+},
+{
+"word": "Tour",
+"pos": "n.f.",
+"zh": "旅行",
+"level": "a2"
+},
+{
+"word": "berühren",
+"pos": "v.",
+"zh": "触摸",
+"level": "a2"
+},
+{
+"word": "Gouverneur",
+"pos": "n.m.",
+"zh": "州长",
+"level": "a2"
+},
+{
+"word": "Gedächtnis",
+"pos": "n.",
+"zh": "记忆力",
+"level": "a2"
+},
+{
+"word": "Wirklichkeit",
+"pos": "n.f.",
+"zh": "现实",
+"level": "a2"
+},
+{
+"word": "bestrafen",
+"pos": "v.",
+"zh": "惩罚",
+"level": "a2"
+},
+{
+"word": "Kreis",
+"pos": "n.m.",
+"zh": "圆圈",
+"level": "a2"
+},
+{
+"word": "Staatsanwalt",
+"pos": "n.m.",
+"zh": "检察官",
+"level": "a2"
+},
+{
+"word": "Ewigkeit",
+"pos": "n.f.",
+"zh": "永恒",
+"level": "a2"
+},
+{
+"word": "Störung",
+"pos": "n.f.",
+"zh": "打扰；故障",
+"level": "a2"
+},
+{
+"word": "hässlich",
+"pos": "adj.",
+"zh": "丑的",
+"level": "a2"
+},
+{
+"word": "mutig",
+"pos": "adj.",
+"zh": "勇敢的",
+"level": "a2"
+},
+{
+"word": "ausruhen",
+"pos": "v.",
+"zh": "休息",
+"level": "a2"
+},
+{
+"word": "Hauptmann",
+"pos": "n.m.",
+"zh": "上尉",
+"level": "a2"
+},
+{
+"word": "Umstand",
+"pos": "n.m.",
+"zh": "情况",
+"level": "a2"
+},
+{
+"word": "Not",
+"pos": "n.f.",
+"zh": "困难；急需",
+"level": "a2"
+},
+{
+"word": "Unglück",
+"pos": "n.",
+"zh": "不幸",
+"level": "a2"
+},
+{
+"word": "eng",
+"pos": "adj.",
+"zh": "紧的；狭窄",
+"level": "a2"
+},
+{
+"word": "üben",
+"pos": "v.",
+"zh": "练习",
+"level": "a2"
+},
+{
+"word": "Wissenschaftler",
+"pos": "n.m.",
+"zh": "科学家",
+"level": "a2"
+},
+{
+"word": "Reaktion",
+"pos": "n.f.",
+"zh": "反应",
+"level": "a2"
+},
+{
+"word": "Dusche",
+"pos": "n.f.",
+"zh": "淋浴",
+"level": "a2"
+},
+{
+"word": "Mitarbeiter",
+"pos": "n.m.",
+"zh": "员工",
+"level": "a2"
+},
+{
+"word": "bedrohen",
+"pos": "v.",
+"zh": "威胁",
+"level": "a2"
+},
+{
+"word": "reagieren",
+"pos": "v.",
+"zh": "反应",
+"level": "a2"
+},
+{
+"word": "Identität",
+"pos": "n.f.",
+"zh": "身份",
+"level": "a2"
+},
+{
+"word": "rund",
+"pos": "adj.",
+"zh": "圆的；大约",
+"level": "a2"
+},
+{
+"word": "Fieber",
+"pos": "n.",
+"zh": "发烧",
+"level": "a2"
+},
+{
+"word": "Hirn",
+"pos": "n.",
+"zh": "脑子",
+"level": "a2"
+},
+{
+"word": "leiten",
+"pos": "v.",
+"zh": "领导；引导",
+"level": "a2"
+},
+{
+"word": "unheimlich",
+"pos": "adj.",
+"zh": "可怕的；极其",
+"level": "a2"
+},
+{
+"word": "Jahrhundert",
+"pos": "n.",
+"zh": "世纪",
+"level": "a2"
+},
+{
+"word": "Diener",
+"pos": "n.m.",
+"zh": "仆人",
+"level": "a2"
+},
+{
+"word": "extrem",
+"pos": "adj.",
+"zh": "极端的",
+"level": "a2"
+},
+{
+"word": "Ausweis",
+"pos": "n.m.",
+"zh": "证件",
+"level": "a2"
+},
+{
+"word": "Sicht",
+"pos": "n.f.",
+"zh": "视线",
+"level": "a2"
+},
+{
+"word": "studieren",
+"pos": "v.",
+"zh": "上大学",
+"level": "a2"
+},
+{
+"word": "anlügen",
+"pos": "v.",
+"zh": "撒谎骗",
+"level": "a2"
+},
+{
+"word": "Text",
+"pos": "n.m.",
+"zh": "文本",
+"level": "a2"
+},
+{
+"word": "nebenan",
+"pos": "adv.",
+"zh": "隔壁",
+"level": "a2"
+},
+{
+"word": "Lektion",
+"pos": "n.f.",
+"zh": "课",
+"level": "a2"
+},
+{
+"word": "Staub",
+"pos": "n.m.",
+"zh": "灰尘",
+"level": "a2"
+},
+{
+"word": "Dutzend",
+"pos": "n.",
+"zh": "一打",
+"level": "a2"
+},
+{
+"word": "Ratte",
+"pos": "n.f.",
+"zh": "老鼠",
+"level": "a2"
+},
+{
+"word": "Mitleid",
+"pos": "n.",
+"zh": "同情",
+"level": "a2"
+},
+{
+"word": "testen",
+"pos": "v.",
+"zh": "测试",
+"level": "a2"
+},
+{
+"word": "Auftritt",
+"pos": "n.m.",
+"zh": "登场",
+"level": "a2"
+},
+{
+"word": "Gegner",
+"pos": "n.m.",
+"zh": "对手",
+"level": "a2"
+},
+{
+"word": "Verdienst",
+"pos": "n.",
+"zh": "收入；功劳",
+"level": "a2"
+},
+{
+"word": "Wunde",
+"pos": "n.f.",
+"zh": "伤口",
+"level": "a2"
+},
+{
+"word": "Linie",
+"pos": "n.f.",
+"zh": "线",
+"level": "a2"
+},
+{
+"word": "Bedrohung",
+"pos": "n.f.",
+"zh": "威胁",
+"level": "a2"
+},
+{
+"word": "Bauer",
+"pos": "n.m.",
+"zh": "农民",
+"level": "a2"
+},
+{
+"word": "Kreuz",
+"pos": "n.",
+"zh": "十字",
+"level": "a2"
+},
+{
+"word": "begehen",
+"pos": "v.",
+"zh": "犯（罪）",
+"level": "a2"
+},
+{
+"word": "nachsehen",
+"pos": "v.",
+"zh": "查看",
+"level": "a2"
+},
+{
+"word": "Leidenschaft",
+"pos": "n.f.",
+"zh": "激情",
+"level": "a2"
+},
+{
+"word": "Geliebte",
+"pos": "n.",
+"zh": "情人",
+"level": "a2"
+},
+{
+"word": "bereuen",
+"pos": "v.",
+"zh": "后悔",
+"level": "a2"
+},
+{
+"word": "Spieler",
+"pos": "n.m.",
+"zh": "玩家",
+"level": "a2"
+}
+]

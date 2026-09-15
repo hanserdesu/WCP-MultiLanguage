@@ -1,0 +1,502 @@
+{
+"consommation": [
+{"fr": "La consommation d'énergie baisse dans nos bureaux.", "zh": "我们办公室的能耗在下降。"},
+{"fr": "Ce moteur affiche une consommation très raisonnable sur autoroute.", "zh": "这款发动机在高速上的油耗相当省。"},
+{"fr": "La consommation de viande diminue chez les jeunes.", "zh": "年轻人的肉类消费在减少。"}
+],
+"consommer": [
+{"fr": "Il faut consommer ce yaourt avant la date indiquée.", "zh": "这盒酸奶要在保质期前吃完。"},
+{"fr": "Les Français consomment moins de sucre qu'avant.", "zh": "法国人吃糖比以前少了。"},
+{"fr": "Cette voiture consomme beaucoup en ville.", "zh": "这辆车在市区开很费油。"}
+],
+"constamment": [
+{"fr": "Il se plaint constamment de son salaire.", "zh": "他不停地抱怨自己的工资。"},
+{"fr": "Le guetteur surveillait constamment l'horizon.", "zh": "哨兵目不转睛地监视着地平线。"},
+{"fr": "Les prix montent constamment depuis janvier.", "zh": "一月以来物价一直在涨。"}
+],
+"constant": [
+{"fr": "Elle suit ce dossier avec une attention constante.", "zh": "她一直密切关注着这份卷宗。"},
+{"fr": "La température reste constante dans la cave.", "zh": "地窖里的温度保持恒定。"},
+{"fr": "Leur soutien a été constant pendant toute la maladie.", "zh": "整个患病期间，他们的支持从未间断。"}
+],
+"constater": [
+{"fr": "En arrivant, j'ai constaté que la fenêtre était cassée.", "zh": "一到家我就发现窗户碎了。"},
+{"fr": "On constate une nette amélioration de sa santé.", "zh": "可以看出他的健康明显好转。"},
+{"fr": "Le policier a constaté l'accident et dressé un rapport.", "zh": "警察勘察了事故并做了笔录。"}
+],
+"constituer": [
+{"fr": "Ces preuves constituent un élément clé de l'enquête.", "zh": "这些证据构成案件的关键一环。"},
+{"fr": "Ce vieux mobilier constitue une véritable fortune.", "zh": "这批旧家具值一大笔钱。"},
+{"fr": "Ils ont constitué une équipe de bénévoles en deux jours.", "zh": "两天之内他们就组建起一支志愿者队伍。"}
+],
+"construction": [
+{"fr": "La construction de la nouvelle école commence en mars.", "zh": "新学校三月动工。"},
+{"fr": "Cette construction en bois respecte l'environnement.", "zh": "这座木结构建筑很环保。"},
+{"fr": "La phrase est fautive : sa construction est incorrecte.", "zh": "这个句子有语病：结构不对。"}
+],
+"consul": [
+{"fr": "Adresse-toi au consul pour renouveler ton passeport.", "zh": "换护照的事，你去找领事办。"},
+{"fr": "Le consul de France à Lima a aidé les touristes bloqués.", "zh": "法国驻利马的领事帮了被滞留游客的忙。"},
+{"fr": "Dans l'Antiquité, chaque consul commandait une légion.", "zh": "古罗马时代，每位执政官统率一个军团。"}
+],
+"consulat": [
+{"fr": "Le consulat de France se trouve près de la place principale.", "zh": "法国领事馆就在主广场附近。"},
+{"fr": "Va au consulat avec ta pièce d'identité.", "zh": "带上身份证件去领事馆。"},
+{"fr": "Le consulat a délivré les visas en trois jours.", "zh": "领事馆三天就把签证发下来了。"}
+],
+"consultation": [
+{"fr": "La consultation du médecin a duré vingt minutes.", "zh": "医生这次看诊用了二十分钟。"},
+{"fr": "Il a pris rendez-vous pour une consultation d'urgence.", "zh": "他约了一个急诊号。"},
+{"fr": "Le projet sera soumis à la consultation des habitants.", "zh": "工程方案将交由居民征询意见。"}
+],
+"consulter": [
+{"fr": "Consulte le dictionnaire si tu doutes de l'orthographe.", "zh": "拿不准拼写就查词典。"},
+{"fr": "Elle a consulté trois spécialistes avant l'opération.", "zh": "手术前她看了三位专家。"},
+{"fr": "Nous consultons nos courriels toutes les heures.", "zh": "我们每小时查看一次邮件。"}
+],
+"container": [
+{"fr": "Le container est arrivé au port ce matin.", "zh": "集装箱今天早上到港了。"},
+{"fr": "Ils ont transformé un container en maison de campagne.", "zh": "他们把一个集装箱改成了乡间小屋。"},
+{"fr": "Déposez vos déchets verts dans le container prévu à cet effet.", "zh": "园林垃圾请放进指定的垃圾箱。"}
+],
+"conte": [
+{"fr": "Ma grand-mère me racontait des contes avant de dormir.", "zh": "奶奶从前总在睡前给我讲故事。"},
+{"fr": "Perrault a écrit des contes restés célèbres.", "zh": "佩罗写下的童话至今家喻户晓。"},
+{"fr": "Ce conte traduit les croyances de la campagne bretonne.", "zh": "这个民间故事反映了布列塔尼乡间的信仰。"}
+],
+"contenter": [
+{"fr": "Il se contente de peu pour être heureux.", "zh": "他很容易满足，过得挺幸福。"},
+{"fr": "Elle a contenté ses invités avec un dessert maison.", "zh": "她用一道自制甜点让客人们吃得心满意足。"},
+{"fr": "Ne te contente pas de promesses, exige des actes.", "zh": "别光听空头许诺，要拿出实际行动来。"}
+],
+"contester": [
+{"fr": "Il conteste le résultat du match.", "zh": "他对比赛结果提出异议。"},
+{"fr": "Les syndicats ont contesté la nouvelle organisation du travail.", "zh": "工会对新的人员组织安排表示不服。"},
+{"fr": "Personne ne conteste son talent de pianiste.", "zh": "他的钢琴天赋无人质疑。"}
+],
+"contexte": [
+{"fr": "Hors contexte, cette phrase prête à confusion.", "zh": "脱离上下文，这句话容易让人误会。"},
+{"fr": "Dans le contexte actuel, prudence et patience s'imposent.", "zh": "在当前形势下，谨慎和耐心必不可少。"},
+{"fr": "Le roman situe l'action dans le contexte de l'après-guerre.", "zh": "小说把故事放在战后的大背景下。"}
+],
+"continent": [
+{"fr": "L'Afrique est un continent aux mille visages.", "zh": "非洲是一片面貌万千的大陆。"},
+{"fr": "Cet oiseau migre d'un continent à l'autre.", "zh": "这种鸟在两大洲之间迁徙。"},
+{"fr": "Ils ont traversé le continent en train.", "zh": "他们坐火车横穿了整片大陆。"}
+],
+"continu": [
+{"fr": "Le bruit continu du frigo m'empêche de dormir.", "zh": "冰箱持续的低鸣声吵得我睡不着。"},
+{"fr": "Ce chantier exige une surveillance continue de nuit.", "zh": "这项工程夜间也要有人不间断值守。"},
+{"fr": "Il suit une formation continue le jeudi.", "zh": "他每周四参加继续教育课程。"}
+],
+"contraction": [
+{"fr": "Une contraction musculaire l'a réveillé en pleine nuit.", "zh": "半夜一次肌肉抽搐把他弄醒了。"},
+{"fr": "À l'écrit soigné, on évite la contraction des mots.", "zh": "在讲究的书面语里，要避免缩略形式。"},
+{"fr": "La contraction du métal au froid modifie la mesure.", "zh": "遇冷收缩会让金属测出来的尺寸变掉。"}
+],
+"contrainte": [
+{"fr": "Le budget impose de vraies contraintes au projet.", "zh": "预算给项目带来了实实在在的限制。"},
+{"fr": "Par contrainte, il a signé le papier sous la menace.", "zh": "他是被迫在威胁之下签字的。"},
+{"fr": "Vivre ensemble suppose d'accepter certaines contraintes.", "zh": "共同生活就要接受一些约束。"}
+],
+"contrairement": [
+{"fr": "Contrairement à son frère, il adore les foules.", "zh": "和他哥哥不同，他特别喜欢热闹。"},
+{"fr": "Contrairement aux apparences, ce mécanisme est très simple.", "zh": "和表面看起来相反，这个装置其实非常简单。"},
+{"fr": "Contrairement à ce que disent les rumeurs, l'usine ne fermera pas.", "zh": "谣言归谣言，工厂并不会关门。"}
+],
+"contrat": [
+{"fr": "Elle a signé son contrat de travail hier.", "zh": "她昨天签了劳动合同。"},
+{"fr": "Le contrat prévoit une période d'essai de trois mois.", "zh": "合同规定了三个月的试用期。"},
+{"fr": "Ils ont résilié le contrat sans frais.", "zh": "他们解约了，没花一分钱违约金。"}
+],
+"contribuer": [
+{"fr": "Chacun peut contribuer à la réussite du projet.", "zh": "每个人都能为项目的成功出一份力。"},
+{"fr": "Le bénévolat contribue au bien-être de la communauté.", "zh": "志愿服务有助于增进社区福祉。"},
+{"fr": "Ces plantes contribuent à purifier l'air de la pièce.", "zh": "这些植物有助于净化室内空气。"}
+],
+"contrôleur": [
+{"fr": "Le contrôleur a vérifié tous les bilans de l'entreprise.", "zh": "稽查员核查了公司的全部账目。"},
+{"fr": "Le contrôleur du train nous a demandé nos tickets.", "zh": "列车员请我们出示车票。"},
+{"fr": "Un contrôleur aérien surveille le trafic jour et nuit.", "zh": "空管员日夜盯着空中交通。"}
+],
+"convaincant": [
+{"fr": "Son argument était clair et convaincant.", "zh": "他的论据清晰而有说服力。"},
+{"fr": "Elle a présenté un dossier très convaincant au jury.", "zh": "她向评委提交了一份极具说服力的材料。"},
+{"fr": "Le film est beau mais le dénouement reste peu convaincant.", "zh": "电影很美，但结局不太有说服力。"}
+],
+"convaincre": [
+{"fr": "Il a fallu deux heures pour convaincre mon père.", "zh": "为了说服我父亲，足足花了两个小时。"},
+{"fr": "Tu ne me convaincas pas avec ces chiffres.", "zh": "你拿这些数字可说服不了我。"},
+{"fr": "Elle cherche à convaincre ses collègues d'adopter le nouvel outil.", "zh": "她想说服同事们启用新工具。"}
+],
+"convaincu": [
+{"fr": "Je suis convaincu que tu réussiras.", "zh": "我确信你会成功。"},
+{"fr": "Après la visite, il est resté convaincu du contraire.", "zh": "参观之后，他仍然坚信相反的看法。"},
+{"fr": "Convaincue par le plan, elle a signé immédiatement.", "zh": "被这个方案说服后，她立刻签了字。"}
+],
+"convenable": [
+{"fr": "Cette tenue est parfaitement convenable pour un entretien.", "zh": "这身衣服穿去面试完全得体。"},
+{"fr": "Trouve un moment convenable pour en discuter.", "zh": "找个合适的时间谈这件事。"},
+{"fr": "Ce n'est pas convenable de parler ainsi à ta grand-mère.", "zh": "对你奶奶这样说话可不像话。"}
+],
+"convenir": [
+{"fr": "Samedi matin, cela me convient parfaitement.", "zh": "周六早上，这个时间我完全合适。"},
+{"fr": "Il convient de vérifier les règles avant de jouer.", "zh": "开玩之前最好先把规则核对一遍。"},
+{"fr": "Nous sommes convenus de nous retrouver à midi.", "zh": "我们说好了中午碰头。"}
+],
+"convention": [
+{"fr": "La convention signée hier protège mieux les travailleurs.", "zh": "昨天签署的公约能更好地保护劳动者。"},
+{"fr": "Le film joue avec les conventions du polar.", "zh": "这部电影有意打破警匪片的常规套路。"},
+{"fr": "Les salariés ont voté la convention collective à l'unanimité.", "zh": "员工们一致通过了集体协议。"}
+],
+"conventionnel": [
+{"fr": "Ce film suit un scénario très conventionnel.", "zh": "这部电影走的完全是老一套剧情。"},
+{"fr": "Préfères-tu l'énergie nucléaire ou l'énergie conventionnelle ?", "zh": "你更倾向核电还是传统能源？"},
+{"fr": "Son mariage était loin d'être conventionnel.", "zh": "他们的婚礼一点也不落俗套。"}
+],
+"conviction": [
+{"fr": "Elle a plaidé avec conviction devant le tribunal.", "zh": "她在法庭上满怀信念地作了陈述。"},
+{"fr": "J'ai la conviction que ce choix est le bon.", "zh": "我坚信这个选择是对的。"},
+{"fr": "Ses convictions politiques ne datent pas d'hier.", "zh": "他的政治信念不是一天两天了。"}
+],
+"convoquer": [
+{"fr": "Le directeur a convoqué une réunion urgente.", "zh": "经理召集了一次紧急会议。"},
+{"fr": "Le joueur a été convoqué en équipe nationale.", "zh": "这名球员被征召进了国家队。"},
+{"fr": "Convoquez les témoins pour la semaine prochaine.", "zh": "把证人约到下周来问话。"}
+],
+"coopératif": [
+{"fr": "Cette boulangerie appartient à un groupe coopératif.", "zh": "这家面包房属于一个合作社集团。"},
+{"fr": "Le mouvement coopératif se développe dans les campagnes.", "zh": "合作社运动正在乡村发展壮大。"},
+{"fr": "La banque coopérative prête aussi aux petits projets.", "zh": "合作银行也向小项目放贷。"}
+],
+"coopération": [
+{"fr": "La coopération entre les deux universités dure depuis vingt ans.", "zh": "两所大学的合作已经持续了二十年。"},
+{"fr": "Merci à tous pour votre coopération cette semaine.", "zh": "感谢大家本周的通力配合。"},
+{"fr": "Ce projet s'inscrit dans un cadre de coopération internationale.", "zh": "这个项目属于国际合作的框架。"}
+],
+"coopérer": [
+{"fr": "Les deux laboratoires coopèrent sur ce vaccin.", "zh": "两家实验室正在合作研发这种疫苗。"},
+{"fr": "Il refuse de coopérer avec la police.", "zh": "他拒绝和警方配合。"},
+{"fr": "Nous coopérons depuis des années avec ce fournisseur.", "zh": "我们和这家供应商合作多年了。"}
+],
+"coordonnée": [
+{"fr": "Note les coordonnées du restaurant pour samedi.", "zh": "把周六那家餐厅的联系方式记下来。"},
+{"fr": "Le GPS indique les coordonnées exactes du gîte.", "zh": "导航仪显示出民宿的精确坐标。"},
+{"fr": "Elle a égaré les coordonnées bancaires du nouveau fournisseur.", "zh": "她把新供应商的银行信息弄丢了。"}
+],
+"copie": [
+{"fr": "Garde une copie du contrat dans le tiroir.", "zh": "合同的复印件放进抽屉里收好。"},
+{"fr": "La copie de la clef se trouve chez la voisine.", "zh": "备用钥匙放在邻居家。"},
+{"fr": "Le prof a corrigé chaque copie à la main.", "zh": "老师亲手批改每一份试卷。"}
+],
+"coquille": [
+{"fr": "L'enfant a ramassé une coquille sur la plage.", "zh": "孩子在沙滩上捡了一枚贝壳。"},
+{"fr": "La tortue sort sa tête de sa coquille.", "zh": "乌龟从壳里探出了脑袋。"},
+{"fr": "Une coquille s'est glissée dans le titre de l'article.", "zh": "文章标题里混进了一个错字。"}
+],
+"corbeille": [
+{"fr": "Vide la corbeille à papier avant de partir.", "zh": "走之前把纸篓倒掉。"},
+{"fr": "Il a jeté le brouillon à la corbeille.", "zh": "他把草稿扔进了垃圾桶。"},
+{"fr": "Une corbeille de fruits trône au milieu de la table.", "zh": "桌子上摆着一大篮水果。"}
+],
+"cordon": [
+{"fr": "Ton cordon de chaussure est défait.", "zh": "你的鞋带开了。"},
+{"fr": "La police a établi un cordon de sécurité autour du bâtiment.", "zh": "警方在大楼周围拉起了警戒线。"},
+{"fr": "Branche le cordon d'alimentation avant d'allumer l'écran.", "zh": "开机前先插好电源线。"}
+],
+"corne": [
+{"fr": "Le taureau frappe le sol et baisse ses cornes.", "zh": "公牛刨着地，压低了双角。"},
+{"fr": "Elle a soufflé dans la corne pour appeler les bergers.", "zh": "她吹响号角，召唤牧羊人。"},
+{"fr": "La statue tient une corne d'abondance pleine de fruits.", "zh": "雕像手里捧着装满果实的丰饶角。"}
+],
+"correction": [
+{"fr": "La correction des copies prendra deux jours.", "zh": "批改试卷要花两天时间。"},
+{"fr": "Apporte la correction de l'exercice demain.", "zh": "明天把练习的标准答案带来。"},
+{"fr": "Merci de la correction, mon texte était plein d'erreurs.", "zh": "谢谢你帮我改稿，我那篇文章原来错漏百出。"}
+],
+"correspondance": [
+{"fr": "J'entretiens une correspondance avec une amie canadienne depuis dix ans.", "zh": "十年来我一直和一位加拿大朋友通信。"},
+{"fr": "Attends-moi, ma correspondance est dans cinq minutes.", "zh": "等等我，我下一班换乘五分钟后就发车。"},
+{"fr": "La correspondance entre les deux comptes est exacte.", "zh": "两个账目完全对得上。"}
+],
+"correspondant": [
+{"fr": "Notre correspondant à Tokyo nous envoie des reportages chaque semaine.", "zh": "我们驻东京的通讯员每周发回报道。"},
+{"fr": "J'ai un correspondant allemand pour m'entraîner à écrire.", "zh": "我有个德国笔友，帮我练写作。"},
+{"fr": "Ce signe n'a pas de correspondant dans notre alphabet.", "zh": "这个符号在我们的字母表里找不到对应。"}
+],
+"correspondre": [
+{"fr": "Ce modèle correspond exactement à ce que je cherchais.", "zh": "这个型号和我要找的完全吻合。"},
+{"fr": "Nos goûts en musique correspondent étonnamment bien.", "zh": "我们在音乐品味上出奇地合拍。"},
+{"fr": "Nous nous sommes correspondu pendant des années.", "zh": "我们通了好几年的信。"}
+],
+"corse": [
+{"fr": "Ce fromage corse accompagne très bien le vin blanc.", "zh": "这种科西嘉奶酪配白葡萄酒特别好。"},
+{"fr": "Le corse se parle encore dans les villages de l'île.", "zh": "在岛上的村子里，科西嘉语还有人讲。"},
+{"fr": "Son accent corse trahit son origine dès la première phrase.", "zh": "他一开口，科西嘉口音就暴露了他的出身。"}
+],
+"costaud": [
+{"fr": "Ce déménageur est costaud, il porte le frigo seul.", "zh": "这位搬家工人真壮，一个人就把冰箱扛走了。"},
+{"fr": "Il faut être costaud pour grimper ce mur.", "zh": "爬这面墙得有好身板。"},
+{"fr": "Ma grand-mère est encore très costaud à quatre-vingt-dix ans.", "zh": "我奶奶九十岁了，身子骨还很硬朗。"}
+],
+"couche": [
+{"fr": "Change la couche du bébé, elle est pleine.", "zh": "给宝宝换尿布吧，已经满了。"},
+{"fr": "Une couche de peinture fraîche a transformé la pièce.", "zh": "一层新油漆让房间焕然一新。"},
+{"fr": "La couche d'ozone se reconstitue lentement.", "zh": "臭氧层正在慢慢恢复。"}
+],
+"coudre": [
+{"fr": "Ma mère m'a appris à coudre des boutons.", "zh": "妈妈教我钉扣子。"},
+{"fr": "Elle coud un costume entier pour son fils.", "zh": "她在给儿子缝一整套西装。"},
+{"fr": "Il faut coudre l'ourlet de ce pantalon.", "zh": "这条裤子的裤脚得缝一下。"}
+],
+"couille": [
+{"fr": "Il a les couilles de dire non à son patron.", "zh": "他有胆子对老板说不。"},
+{"fr": "Arrête de me casser les couilles avec ce formulaire.", "zh": "别再拿这张表格烦死我了。"},
+{"fr": "J'ai encore mal aux couilles après ce match de rugby.", "zh": "打完这场橄榄球赛，我的裆到现在还疼。"}
+],
+"coupable": [
+{"fr": "Le tribunal l'a déclaré coupable.", "zh": "法庭宣布他有罪。"},
+{"fr": "Je me sens coupable d'avoir oublié son anniversaire.", "zh": "忘了他的生日，我心里很过意不去。"},
+{"fr": "Le vrai coupable avoue rarement tout de suite.", "zh": "真正的凶手很少马上认罪。"}
+],
+"coupure": [
+{"fr": "Il s'est fait une coupure au doigt avec le couteau.", "zh": "他用刀划破了手指，割了道口子。"},
+{"fr": "Une coupure de courant a stoppé la production.", "zh": "一次停电让生产停了下来。"},
+{"fr": "Elle a collé ses coupures de presse dans un classeur.", "zh": "她把剪下来的报纸都贴进了文件夹。"}
+],
+"cour": [
+{"fr": "Les enfants jouent dans la cour de l'école.", "zh": "孩子们在学校的院子里玩。"},
+{"fr": "La cour du palais s'inclinait devant le roi.", "zh": "宫廷众人向国王俯首行礼。"},
+{"fr": "La cour de la ferme est pavée de vieilles pierres.", "zh": "农家的院子铺着老石板。"}
+],
+"courant": [
+{"fr": "Le courant marin porte les bateaux vers le large.", "zh": "洋流把船推向外海。"},
+{"fr": "N'oublie pas de couper le courant avant de réparer.", "zh": "修理前别忘了断电。"},
+{"fr": "Ce courant d'air va rendre tout le monde malade.", "zh": "这股穿堂风要让全家人都病倒了。"}
+],
+"courbe": [
+{"fr": "La courbe des ventes remonte depuis mars.", "zh": "销售曲线自三月起回升。"},
+{"fr": "Ralentis avant la courbe, la route est glissante.", "zh": "弯道前减速，路面很滑。"},
+{"fr": "Le graphique trace une courbe descendante nette.", "zh": "图表画出了一条明显的下行曲线。"}
+],
+"coureur": [
+{"fr": "Ce coureur a gagné le marathon de la ville.", "zh": "这位跑者夺得了城市马拉松冠军。"},
+{"fr": "Les coureurs s'élancent dès le coup de fusil.", "zh": "发令枪一响，选手们冲了出去。"},
+{"fr": "Mon frère est un coureur de fond.", "zh": "我哥哥是个长跑运动员。"}
+],
+"courge": [
+{"fr": "Elle a récolté une énorme courge au potager.", "zh": "她在菜园里收了一个特大的南瓜。"},
+{"fr": "La soupe de courge réchauffe les soirées d'automne.", "zh": "南瓜汤最配秋天的夜晚。"},
+{"fr": "Ce gâteau à la courge surprend tous les invités.", "zh": "这款南瓜蛋糕让所有客人都惊喜。"}
+],
+"couronne": [
+{"fr": "Le roi a posé la couronne sur la tête de son fils.", "zh": "国王把王冠戴在了儿子头上。"},
+{"fr": "Une couronne de fleurs a été déposée sur la tombe.", "zh": "人们在墓前献了花圈。"},
+{"fr": "Le dentiste a posé une couronne sur la molaire.", "zh": "牙医给那颗大牙装了牙冠。"}
+],
+"courrier": [
+{"fr": "Le facteur dépose le courrier avant midi.", "zh": "邮递员中午前把信送到了。"},
+{"fr": "J'ai reçu un courrier du service des impôts.", "zh": "我收到税务局寄来的一封信。"},
+{"fr": "Elle trie le courrier de toute l'équipe chaque matin.", "zh": "每天早上她帮全组人分拣邮件。"}
+],
+"coussin": [
+{"fr": "Ce coussin rend le canapé beaucoup plus confortable.", "zh": "有了这个靠垫，沙发舒服多了。"},
+{"fr": "Le chat dort sur le coussin du fauteuil.", "zh": "猫在扶手椅的垫子上睡觉。"},
+{"fr": "Elle a brodé son prénom sur un coussin.", "zh": "她在一个靠垫上绣了自己的名字。"}
+],
+"coutume": [
+{"fr": "Porter un chapeau à la fête est une vieille coutume du village.", "zh": "节日戴帽子是村里流传已久的习俗。"},
+{"fr": "C'est la coutume d'offrir des œufs à Pâques.", "zh": "复活节送彩蛋是当地的老规矩。"},
+{"fr": "Chaque pays a ses coutumes de nouvel an.", "zh": "每个国家都有自己的过年习俗。"}
+],
+"couture": [
+{"fr": "Elle apprend la couture sur une vieille machine.", "zh": "她用一台旧缝纫机学缝纫。"},
+{"fr": "La haute couture française fascine le monde entier.", "zh": "法国高级时装令全世界着迷。"},
+{"fr": "La couture de cette poche a lâché.", "zh": "这只口袋的缝线开线了。"}
+],
+"couturier": [
+{"fr": "Ce couturier lance sa collection printemps-été.", "zh": "这位时装设计师即将发布春夏系列。"},
+{"fr": "Le couturier a ajusté la robe en vingt minutes.", "zh": "裁缝只用二十分钟就把裙子改好了。"},
+{"fr": "Les grands couturiers présentent leurs créations à Paris.", "zh": "大牌设计师们纷纷在巴黎发布新作。"}
+],
+"couvent": [
+{"fr": "Ce couvent du douzième siècle abrite maintenant un hôtel.", "zh": "这座十二世纪的修道院如今改成了一家旅馆。"},
+{"fr": "Les nonnes du couvent cultivent un potager magnifique.", "zh": "修道院的修女们打理着一个漂亮的大菜园。"},
+{"fr": "Elle a passé son enfance près d'un couvent.", "zh": "她童年是在一座修道院旁边度过的。"}
+],
+"couvercle": [
+{"fr": "Le couvercle de la casserole siffle.", "zh": "锅盖被蒸汽顶得直响。"},
+{"fr": "Revisse bien le couvercle du bocal.", "zh": "把罐子的盖子拧紧。"},
+{"fr": "Le couvercle du congélateur est bloqué par la glace.", "zh": "冰柜的盖子被冰卡住了。"}
+],
+"couvrir": [
+{"fr": "Couvre le lit du bébé avec cette couverture légère.", "zh": "给宝宝的床盖上这条薄毯。"},
+{"fr": "La neige couvre les champs jusqu'à l'horizon.", "zh": "大雪覆盖了整片田野。"},
+{"fr": "Ce salaire couvre à peine le loyer.", "zh": "这点工资刚够付房租。"}
+],
+"coéquipier": [
+{"fr": "Son coéquipier lui a passé la balle au bon moment.", "zh": "队友在关键时刻把球传给了他。"},
+{"fr": "Les coéquipiers se félicitent après la victoire.", "zh": "获胜后，队友们互相庆贺。"},
+{"fr": "En randonnée, mon coéquipier porte la tente.", "zh": "远足时，我的队友负责背帐篷。"}
+],
+"coïncidence": [
+{"fr": "Quelle coïncidence, on a le même anniversaire !", "zh": "太巧了，我们生日同一天！"},
+{"fr": "Par une étrange coïncidence, ils ont pris le même train.", "zh": "真是蹊跷，他们竟然坐了同一班火车。"},
+{"fr": "Ce n'est pas une coïncidence, il a tout planifié.", "zh": "这不是巧合，他全都计划好了。"}
+],
+"coût": [
+{"fr": "Le coût des travaux dépasse le budget.", "zh": "工程费用超出了预算。"},
+{"fr": "Ils ont sous-estimé le coût du déménagement.", "zh": "他们低估了搬家的开销。"},
+{"fr": "Le coût de la vie grimpe chaque année.", "zh": "生活成本年年上涨。"}
+],
+"coûteux": [
+{"fr": "Ce procès a été très coûteux pour les deux parties.", "zh": "这场官司让双方都付出了高昂的代价。"},
+{"fr": "Un système aussi coûteux n'est pas rentable ici.", "zh": "这么贵的系统在这儿根本回不了本。"},
+{"fr": "Il a renoncé à ce voyage, trop coûteux pour son budget.", "zh": "这趟旅行对他的钱包来说太奢侈了，他只好作罢。"}
+],
+"craie": [
+{"fr": "Le prof écrit à la craie blanche sur le tableau noir.", "zh": "老师用白粉笔在黑板上写字。"},
+{"fr": "Passe-moi la craie bleue, s'il te plaît.", "zh": "麻烦把蓝粉笔递给我。"},
+{"fr": "Une craie a roulé sous le bureau.", "zh": "一支粉笔滚到了桌子底下。"}
+],
+"craindre": [
+{"fr": "Je commence à craindre le pire pour sa santé.", "zh": "对他的身体，我开始担心最坏的情况。"},
+{"fr": "Il craint de déranger à chaque visite.", "zh": "他每次登门都怕打扰人家。"},
+{"fr": "Sans craindre le froid, elle marche toujours en T-shirt.", "zh": "她不怕冷，常年穿着短袖走路。"}
+],
+"crainte": [
+{"fr": "Il a obéi par crainte du châtiment.", "zh": "他是慑于惩罚才服从的。"},
+{"fr": "Elle a vaincu sa crainte de l'eau grâce aux cours de natation.", "zh": "多亏了游泳课，她克服了对水的恐惧。"},
+{"fr": "Dans la crainte d'un contrôle, il a refait tous les calculs.", "zh": "生怕检查出问题，他把所有数字都重新算了一遍。"}
+],
+"crapaud": [
+{"fr": "Un crapaud s'est installé près de la mare.", "zh": "一只蟾蜍在水塘边安了家。"},
+{"fr": "Les crapauds sortent après la pluie d'été.", "zh": "夏天的雨后，蟾蜍们纷纷出来活动。"},
+{"fr": "Le crapaud de notre jardin mange les limaces.", "zh": "我们花园里的蟾蜍会吃鼻涕虫。"}
+],
+"craquer": [
+{"fr": "Le vieux parquet craque sous nos pas.", "zh": "旧地板在我们脚下咯吱作响。"},
+{"fr": "J'ai craqué pour cette robe rouge.", "zh": "那条红裙子让我彻底沦陷了。"},
+{"fr": "Il a craqué devant la pression de l'examen.", "zh": "考试的压力终于把他压垮了。"}
+],
+"crash": [
+{"fr": "Le crash de l'avion n'a laissé aucun survivant.", "zh": "那次坠机无人生还。"},
+{"fr": "Les experts redoutent un crash boursier.", "zh": "专家们担心股市崩盘。"},
+{"fr": "L'enquête sur le crash se poursuit.", "zh": "坠机事故的调查仍在进行。"}
+],
+"cratère": [
+{"fr": "Le cratère du volcan fume encore.", "zh": "火山口还在冒烟。"},
+{"fr": "Les astronautes ont photographié un immense cratère lunaire.", "zh": "宇航员拍下了一个巨大的月球环形山。"},
+{"fr": "Une bombe a laissé un cratère au milieu du champ.", "zh": "一枚炸弹在田中央炸出了一个大坑。"}
+],
+"creuser": [
+{"fr": "Le chien creuse un trou au pied du cerisier.", "zh": "狗在樱桃树下刨坑。"},
+{"fr": "Il a creusé pendant des heures pour planter ce puits.", "zh": "为了打这口井，他挖了好几个小时。"},
+{"fr": "Ce problème me creuse la tête depuis hier.", "zh": "这个问题从昨天起就一直在我脑子里打转。"}
+],
+"creux": [
+{"fr": "Les murs de cette cabane sont creux, on entend le vent.", "zh": "这间小木屋的墙是空心的，风声听得一清二楚。"},
+{"fr": "Ses joues creuses trahissent des semaines de maladie.", "zh": "她双颊凹陷，看得出病了好几个星期。"},
+{"fr": "Tape sur le mur : le son creux indique une cavité.", "zh": "敲敲墙：空洞的声音说明里面有夹层。"}
+],
+"crever": [
+{"fr": "Un pneu a crevé sur l'autoroute.", "zh": "一个轮胎在高速上爆了。"},
+{"fr": "Cette semaine, je creve de fatigue.", "zh": "这星期我累得要死。"},
+{"fr": "Toutes mes plantes ont crevé pendant les vacances.", "zh": "假期里我的花全枯死了。"}
+],
+"crevé": [
+{"fr": "Je suis complètement crevé après ce footing.", "zh": "晨跑完，我整个人累瘫了。"},
+{"fr": "La roue arrière est crevée, on ne peut pas partir.", "zh": "后胎爆了，我们没法出发。"},
+{"fr": "Vous avez l'air crevés, allez vous coucher.", "zh": "你们一副累坏了的样子，快去睡吧。"}
+],
+"crime": [
+{"fr": "Ce crime reste impuni depuis vingt ans.", "zh": "这桩罪行二十年来始终未受惩处。"},
+{"fr": "Le détective a résolu le crime en trois jours.", "zh": "侦探三天就破了案。"},
+{"fr": "Gaspiller autant de nourriture, c'est un vrai crime.", "zh": "浪费这么多粮食简直是造孽。"}
+],
+"criminel": [
+{"fr": "Le criminel a été arrêté à la frontière.", "zh": "罪犯在边境落网。"},
+{"fr": "La police recherche un criminel armé et dangereux.", "zh": "警方正在搜捕一名持械的危险罪犯。"},
+{"fr": "Cette négligence est proprement criminelle.", "zh": "这种疏忽简直形同犯罪。"}
+],
+"crise": [
+{"fr": "L'entreprise traverse une crise sans précédent.", "zh": "公司正经历一场空前的危机。"},
+{"fr": "Il a vécu une crise de nerfs devant l'examen.", "zh": "考试面前他崩溃了一次，情绪失控。"},
+{"fr": "La crise du logement frappe surtout les jeunes.", "zh": "住房危机对年轻人的冲击最大。"}
+],
+"cristal": [
+{"fr": "Ce vase en cristal vaut une fortune.", "zh": "这只水晶花瓶价值不菲。"},
+{"fr": "L'eau de la source est claire comme du cristal.", "zh": "泉水清得像水晶一样。"},
+{"fr": "Ils ont reçu un service en cristal pour leur mariage.", "zh": "结婚时他们收到一整套水晶器皿。"}
+],
+"critique": [
+{"fr": "La critique salue ce premier roman.", "zh": "评论界对这部处女作赞不绝口。"},
+{"fr": "Il ne supporte pas la critique.", "zh": "他受不了别人的批评。"},
+{"fr": "La critique du film m'a donné envie de le voir.", "zh": "那篇影评让我很想去看这部电影。"}
+],
+"critiquer": [
+{"fr": "Elle critique tout le monde, sauf elle-même.", "zh": "她谁都要挑刺，唯独不说自己。"},
+{"fr": "N'aie pas peur d'être critiqué pour tes choix.", "zh": "别怕自己的选择被人说三道四。"},
+{"fr": "Les journalistes ont critiqué la gestion de la crise.", "zh": "记者们批评了这次危机的处理方式。"}
+],
+"critère": [
+{"fr": "Le prix est le premier critère de choix.", "zh": "价格是选择时的首要标准。"},
+{"fr": "Quels critères utilisent les jurys pour départager les candidats ?", "zh": "评委用哪些标准来给候选人排序？"},
+{"fr": "L'ancienneté n'est pas le seul critère de promotion.", "zh": "资历并不是晋升的唯一标准。"}
+],
+"crochet": [
+{"fr": "Elle accroche ses clés à un crochet près de la porte.", "zh": "她把钥匙挂在门边的挂钩上。"},
+{"fr": "Ma tante tricote des écharpes au crochet.", "zh": "我姑姑用钩针钩围巾。"},
+{"fr": "Le cambrioleur a crocheté la serrure en dix secondes.", "zh": "小偷十秒钟就把锁撬开了。"}
+],
+"croisement": [
+{"fr": "Tourne à droite au deuxième croisement.", "zh": "到第二个路口向右拐。"},
+{"fr": "Ce croisement dangereux sera équipé de feux.", "zh": "这个危险的路口将来要装红绿灯。"},
+{"fr": "Le croisement de ces deux races donne un chien robuste.", "zh": "这两个品种杂交，育出了很强壮的狗。"}
+],
+"croisière": [
+{"fr": "Ils partent en croisière en Méditerranée.", "zh": "他们要去地中海坐游轮。"},
+{"fr": "La croisière s'arrête dans trois ports différents.", "zh": "游轮会在三个港口停靠。"},
+{"fr": "Une croisière sur le Nil passe devant les temples.", "zh": "尼罗河游轮一路经过座座神庙。"}
+],
+"croissance": [
+{"fr": "La croissance économique a ralenti ce trimestre.", "zh": "这个季度经济增长放缓。"},
+{"fr": "Cet enfant connaît une croissance rapide.", "zh": "这孩子长得特别快。"},
+{"fr": "Les ventes affichent une croissance à deux chiffres.", "zh": "销售额实现了两位数增长。"}
+],
+"croisé": [
+{"fr": "Il a les bras croisés depuis une heure.", "zh": "他抱着胳膊站了一个小时。"},
+{"fr": "Nos chemins se sont croisés plusieurs fois sans qu'on se parle.", "zh": "我们的路交叉而过好几次，却从没说过话。"},
+{"fr": "Elle médite mieux assise en tailleur, jambes croisées.", "zh": "她喜欢盘腿打坐冥想。"}
+],
+"croquis": [
+{"fr": "Elle a dessiné un croquis de la place en dix minutes.", "zh": "她花十分钟就给广场画了张速写。"},
+{"fr": "Le plan est un simple croquis à main levée.", "zh": "这张图只是随手画的草图。"},
+{"fr": "Il garde tous ses croquis dans un carnet noir.", "zh": "他把自己所有的速写都收在一个黑色本子里。"}
+],
+"croyance": [
+{"fr": "Cette croyance populaire n'a aucun fondement.", "zh": "这种民间说法毫无根据。"},
+{"fr": "Les croyances varient d'une région à l'autre.", "zh": "各地的信仰五花八门。"},
+{"fr": "Il a abandonné ses anciennes croyances en vieillissant.", "zh": "上了年纪之后，他放下了旧日的信仰。"}
+],
+"croyant": [
+{"fr": "Croyant ou non, tout le monde est bienvenu ici.", "zh": "信不信教，这里都欢迎你。"},
+{"fr": "C'est un croyant sincère et tolérant.", "zh": "他是个虔诚而宽容的信徒。"},
+{"fr": "Les croyants se rassemblent chaque dimanche.", "zh": "信众们每周日聚在一起。"}
+],
+"croûte": [
+{"fr": "Il mange le pain même avec la croûte.", "zh": "他连面包皮都一起吃掉。"},
+{"fr": "La croûte du gâteau est bien dorée.", "zh": "蛋糕的表皮烤得金黄。"},
+{"fr": "Ne touche pas à la croûte, la plaie guérit.", "zh": "别抠那层痂，伤口要自己长好。"}
+],
+"cru": [
+{"fr": "J'adore le poisson cru, surtout le saumon.", "zh": "我爱吃生鱼，尤其是三文鱼。"},
+{"fr": "Ces légumes se mangent crus en salade.", "zh": "这些蔬菜可以生着拌沙拉吃。"},
+{"fr": "Le miel cru conserve toutes ses propriétés.", "zh": "生蜂蜜保留了全部营养成分。"}
+],
+"cruel": [
+{"fr": "C'était une décision cruelle mais nécessaire.", "zh": "那是个残忍却必要的决定。"},
+{"fr": "Le sort s'est montré cruel avec cette équipe.", "zh": "命运对这支队伍太残酷了。"},
+{"fr": "Sa remarque a été cruelle sans qu'il s'en rende compte.", "zh": "他随口那句话伤人至深，自己却没意识到。"}
+]
+}

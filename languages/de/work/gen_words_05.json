@@ -1,0 +1,602 @@
+[
+{
+"word": "Jacke",
+"pos": "n.f.",
+"zh": "夹克",
+"level": "a1"
+},
+{
+"word": "zuhören",
+"pos": "v.",
+"zh": "倾听",
+"level": "a1"
+},
+{
+"word": "Schlafzimmer",
+"pos": "n.",
+"zh": "卧室",
+"level": "a1"
+},
+{
+"word": "meins",
+"pos": "pron.",
+"zh": "我的（东西）",
+"level": "a1"
+},
+{
+"word": "Gift",
+"pos": "n.",
+"zh": "毒药",
+"level": "a1"
+},
+{
+"word": "Weg",
+"pos": "n.m.",
+"zh": "路",
+"level": "a1"
+},
+{
+"word": "Mittagessen",
+"pos": "n.",
+"zh": "午餐",
+"level": "a1"
+},
+{
+"word": "Rock",
+"pos": "n.m.",
+"zh": "裙子；摇滚",
+"level": "a1"
+},
+{
+"word": "Wetter",
+"pos": "n.",
+"zh": "天气",
+"level": "a1"
+},
+{
+"word": "Kleidung",
+"pos": "n.f.",
+"zh": "衣服",
+"level": "a1"
+},
+{
+"word": "Brot",
+"pos": "n.",
+"zh": "面包",
+"level": "a1"
+},
+{
+"word": "Winter",
+"pos": "n.m.",
+"zh": "冬天",
+"level": "a1"
+},
+{
+"word": "blau",
+"pos": "adj.",
+"zh": "蓝色的",
+"level": "a1"
+},
+{
+"word": "Fernseher",
+"pos": "n.m.",
+"zh": "电视机",
+"level": "a1"
+},
+{
+"word": "Europa",
+"pos": "n.",
+"zh": "欧洲",
+"level": "a1"
+},
+{
+"word": "Deutschland",
+"pos": "n.",
+"zh": "德国",
+"level": "a1"
+},
+{
+"word": "null",
+"pos": "num.",
+"zh": "零",
+"level": "a1"
+},
+{
+"word": "hungrig",
+"pos": "adj.",
+"zh": "饥饿的",
+"level": "a1"
+},
+{
+"word": "Pizza",
+"pos": "n.f.",
+"zh": "披萨",
+"level": "a1"
+},
+{
+"word": "Kilometer",
+"pos": "n.m.",
+"zh": "公里",
+"level": "a1"
+},
+{
+"word": "Mittag",
+"pos": "n.m.",
+"zh": "中午",
+"level": "a1"
+},
+{
+"word": "tausend",
+"pos": "num.",
+"zh": "千",
+"level": "a1"
+},
+{
+"word": "Mexiko",
+"pos": "n.",
+"zh": "墨西哥",
+"level": "a1"
+},
+{
+"word": "lecker",
+"pos": "adj.",
+"zh": "好吃的",
+"level": "a1"
+},
+{
+"word": "Internet",
+"pos": "n.",
+"zh": "互联网",
+"level": "a1"
+},
+{
+"word": "Schnee",
+"pos": "n.m.",
+"zh": "雪",
+"level": "a1"
+},
+{
+"word": "Brille",
+"pos": "n.f.",
+"zh": "眼镜",
+"level": "a1"
+},
+{
+"word": "China",
+"pos": "n.",
+"zh": "中国",
+"level": "a1"
+},
+{
+"word": "grün",
+"pos": "adj.",
+"zh": "绿色的",
+"level": "a1"
+},
+{
+"word": "Käse",
+"pos": "n.m.",
+"zh": "奶酪",
+"level": "a1"
+},
+{
+"word": "Gesundheit",
+"pos": "n.f.",
+"zh": "健康",
+"level": "a1"
+},
+{
+"word": "April",
+"pos": "n.m.",
+"zh": "四月",
+"level": "a1"
+},
+{
+"word": "Zucker",
+"pos": "n.m.",
+"zh": "糖",
+"level": "a1"
+},
+{
+"word": "Tasse",
+"pos": "n.f.",
+"zh": "杯子",
+"level": "a1"
+},
+{
+"word": "Markt",
+"pos": "n.m.",
+"zh": "市场",
+"level": "a1"
+},
+{
+"word": "elf",
+"pos": "num.",
+"zh": "十一",
+"level": "a1"
+},
+{
+"word": "Viertel",
+"pos": "n.",
+"zh": "四分之一；一刻",
+"level": "a1"
+},
+{
+"word": "Farm",
+"pos": "n.f.",
+"zh": "农场",
+"level": "a1"
+},
+{
+"word": "hundert",
+"pos": "num.",
+"zh": "百",
+"level": "a1"
+},
+{
+"word": "Dienstag",
+"pos": "n.m.",
+"zh": "星期二",
+"level": "a1"
+},
+{
+"word": "Suppe",
+"pos": "n.f.",
+"zh": "汤",
+"level": "a1"
+},
+{
+"word": "rosa",
+"pos": "adj.",
+"zh": "粉红色的",
+"level": "a1"
+},
+{
+"word": "amerikanisch",
+"pos": "adj.",
+"zh": "美国的",
+"level": "a1"
+},
+{
+"word": "Französisch",
+"pos": "n.",
+"zh": "法语",
+"level": "a1"
+},
+{
+"word": "Tiger",
+"pos": "n.m.",
+"zh": "老虎",
+"level": "a1"
+},
+{
+"word": "Zigarette",
+"pos": "n.f.",
+"zh": "香烟",
+"level": "a1"
+},
+{
+"word": "Donnerstag",
+"pos": "n.m.",
+"zh": "星期四",
+"level": "a1"
+},
+{
+"word": "Sport",
+"pos": "n.m.",
+"zh": "体育",
+"level": "a1"
+},
+{
+"word": "Maus",
+"pos": "n.f.",
+"zh": "老鼠",
+"level": "a1"
+},
+{
+"word": "einkaufen",
+"pos": "v.",
+"zh": "购物",
+"level": "a1"
+},
+{
+"word": "Afrika",
+"pos": "n.",
+"zh": "非洲",
+"level": "a1"
+},
+{
+"word": "wieviel",
+"pos": "adv.",
+"zh": "多少",
+"level": "a1"
+},
+{
+"word": "Kilo",
+"pos": "n.",
+"zh": "千克",
+"level": "a1"
+},
+{
+"word": "Lehrerin",
+"pos": "n.f.",
+"zh": "女老师",
+"level": "a1"
+},
+{
+"word": "Appetit",
+"pos": "n.m.",
+"zh": "食欲",
+"level": "a1"
+},
+{
+"word": "Schokolade",
+"pos": "n.f.",
+"zh": "巧克力",
+"level": "a1"
+},
+{
+"word": "Garage",
+"pos": "n.f.",
+"zh": "车库",
+"level": "a1"
+},
+{
+"word": "grüßen",
+"pos": "v.",
+"zh": "问候",
+"level": "a1"
+},
+{
+"word": "Italien",
+"pos": "n.",
+"zh": "意大利",
+"level": "a1"
+},
+{
+"word": "Euro",
+"pos": "n.m.",
+"zh": "欧元",
+"level": "a1"
+},
+{
+"word": "Satz",
+"pos": "n.m.",
+"zh": "句子",
+"level": "a1"
+},
+{
+"word": "Hausaufgabe",
+"pos": "n.f.",
+"zh": "作业",
+"level": "a1"
+},
+{
+"word": "Teller",
+"pos": "n.m.",
+"zh": "盘子",
+"level": "a1"
+},
+{
+"word": "Fahrrad",
+"pos": "n.",
+"zh": "自行车",
+"level": "a1"
+},
+{
+"word": "Tipp",
+"pos": "n.m.",
+"zh": "提示",
+"level": "a1"
+},
+{
+"word": "Mai",
+"pos": "n.m.",
+"zh": "五月",
+"level": "a1"
+},
+{
+"word": "Ehefrau",
+"pos": "n.f.",
+"zh": "妻子",
+"level": "a1"
+},
+{
+"word": "Japan",
+"pos": "n.",
+"zh": "日本",
+"level": "a1"
+},
+{
+"word": "Badezimmer",
+"pos": "n.",
+"zh": "浴室",
+"level": "a1"
+},
+{
+"word": "Bahnhof",
+"pos": "n.m.",
+"zh": "火车站",
+"level": "a1"
+},
+{
+"word": "Spanien",
+"pos": "n.",
+"zh": "西班牙",
+"level": "a1"
+},
+{
+"word": "Russland",
+"pos": "n.",
+"zh": "俄罗斯",
+"level": "a1"
+},
+{
+"word": "Übung",
+"pos": "n.f.",
+"zh": "练习",
+"level": "a1"
+},
+{
+"word": "Franzose",
+"pos": "n.m.",
+"zh": "法国人",
+"level": "a1"
+},
+{
+"word": "Ärztin",
+"pos": "n.f.",
+"zh": "女医生",
+"level": "a1"
+},
+{
+"word": "Museum",
+"pos": "n.",
+"zh": "博物馆",
+"level": "a1"
+},
+{
+"word": "Wohnzimmer",
+"pos": "n.",
+"zh": "客厅",
+"level": "a1"
+},
+{
+"word": "Durst",
+"pos": "n.m.",
+"zh": "口渴",
+"level": "a1"
+},
+{
+"word": "Spielzeug",
+"pos": "n.",
+"zh": "玩具",
+"level": "a1"
+},
+{
+"word": "trocken",
+"pos": "adj.",
+"zh": "干的",
+"level": "a1"
+},
+{
+"word": "Paket",
+"pos": "n.",
+"zh": "包裹",
+"level": "a1"
+},
+{
+"word": "Ferien",
+"pos": "n.",
+"zh": "假期",
+"level": "a1"
+},
+{
+"word": "Klavier",
+"pos": "n.",
+"zh": "钢琴",
+"level": "a1"
+},
+{
+"word": "Parkplatz",
+"pos": "n.m.",
+"zh": "停车场",
+"level": "a1"
+},
+{
+"word": "Mittwoch",
+"pos": "n.m.",
+"zh": "星期三",
+"level": "a1"
+},
+{
+"word": "Motorrad",
+"pos": "n.",
+"zh": "摩托车",
+"level": "a1"
+},
+{
+"word": "aua",
+"pos": "interj.",
+"zh": "哎哟",
+"level": "a1"
+},
+{
+"word": "Sandwich",
+"pos": "n.",
+"zh": "三明治",
+"level": "a1"
+},
+{
+"word": "Verkehr",
+"pos": "n.m.",
+"zh": "交通",
+"level": "a1"
+},
+{
+"word": "liebste",
+"pos": "adj.",
+"zh": "最亲爱的",
+"level": "a1"
+},
+{
+"word": "Salz",
+"pos": "n.",
+"zh": "盐",
+"level": "a1"
+},
+{
+"word": "Krankenschwester",
+"pos": "n.f.",
+"zh": "护士",
+"level": "a1"
+},
+{
+"word": "Engländer",
+"pos": "n.m.",
+"zh": "英国人",
+"level": "a1"
+},
+{
+"word": "Café",
+"pos": "n.",
+"zh": "咖啡馆",
+"level": "a1"
+},
+{
+"word": "September",
+"pos": "n.m.",
+"zh": "九月",
+"level": "a1"
+},
+{
+"word": "vorm",
+"pos": "präp.",
+"zh": "在…前（vor dem 缩合）",
+"level": "a1"
+},
+{
+"word": "dankeschön",
+"pos": "n.",
+"zh": "谢谢你",
+"level": "a1"
+},
+{
+"word": "Keks",
+"pos": "n.m.",
+"zh": "饼干",
+"level": "a1"
+},
+{
+"word": "Juni",
+"pos": "n.m.",
+"zh": "六月",
+"level": "a1"
+},
+{
+"word": "Indien",
+"pos": "n.",
+"zh": "印度",
+"level": "a1"
+}
+]

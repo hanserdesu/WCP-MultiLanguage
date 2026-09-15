@@ -1,0 +1,2 @@
+wcp_wordbooks/installer/*.cmd text eol=crlf
+wcp_wordbooks/installer/*.ps1 text eol=crlf

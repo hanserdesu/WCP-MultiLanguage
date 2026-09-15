@@ -1,0 +1,602 @@
+[
+{
+"word": "consommation",
+"pos": "n.f.",
+"zh": "消费；消耗",
+"level": "b1"
+},
+{
+"word": "consommer",
+"pos": "v.",
+"zh": "消费；消耗",
+"level": "b1"
+},
+{
+"word": "constamment",
+"pos": "adv.",
+"zh": "不断地；始终",
+"level": "b1"
+},
+{
+"word": "constant",
+"pos": "adj.",
+"zh": "持续的；不断的",
+"level": "b1"
+},
+{
+"word": "constater",
+"pos": "v.",
+"zh": "发觉；确认",
+"level": "b1"
+},
+{
+"word": "constituer",
+"pos": "v.",
+"zh": "组成；构成；设立",
+"level": "b1"
+},
+{
+"word": "construction",
+"pos": "n.f.",
+"zh": "建造；建筑物",
+"level": "b1"
+},
+{
+"word": "consul",
+"pos": "n.m.",
+"zh": "领事",
+"level": "b1"
+},
+{
+"word": "consulat",
+"pos": "n.m.",
+"zh": "领事馆",
+"level": "b1"
+},
+{
+"word": "consultation",
+"pos": "n.f.",
+"zh": "就诊；咨询",
+"level": "b1"
+},
+{
+"word": "consulter",
+"pos": "v.",
+"zh": "咨询；查阅",
+"level": "b1"
+},
+{
+"word": "container",
+"pos": "n.m.",
+"zh": "集装箱",
+"level": "b1"
+},
+{
+"word": "conte",
+"pos": "n.m.",
+"zh": "故事；童话",
+"level": "b1"
+},
+{
+"word": "contenter",
+"pos": "v.",
+"zh": "使满意；满足",
+"level": "b1"
+},
+{
+"word": "contester",
+"pos": "v.",
+"zh": "质疑；争执",
+"level": "b1"
+},
+{
+"word": "contexte",
+"pos": "n.m.",
+"zh": "背景；环境；语境",
+"level": "b1"
+},
+{
+"word": "continent",
+"pos": "n.m.",
+"zh": "大陆；洲",
+"level": "b1"
+},
+{
+"word": "continu",
+"pos": "adj.",
+"zh": "连续的；不断的",
+"level": "b1"
+},
+{
+"word": "contraction",
+"pos": "n.f.",
+"zh": "收缩；缩约形",
+"level": "b1"
+},
+{
+"word": "contrainte",
+"pos": "n.f.",
+"zh": "约束；强制",
+"level": "b1"
+},
+{
+"word": "contrairement",
+"pos": "adv.",
+"zh": "与……相反",
+"level": "b1"
+},
+{
+"word": "contrat",
+"pos": "n.m.",
+"zh": "合同；契约",
+"level": "b1"
+},
+{
+"word": "contribuer",
+"pos": "v.",
+"zh": "贡献；捐助；促成",
+"level": "b1"
+},
+{
+"word": "contrôleur",
+"pos": "n.m.",
+"zh": "检查员；稽查员",
+"level": "b1"
+},
+{
+"word": "convaincant",
+"pos": "adj.",
+"zh": "有说服力的",
+"level": "b1"
+},
+{
+"word": "convaincre",
+"pos": "v.",
+"zh": "说服；使信服",
+"level": "b1"
+},
+{
+"word": "convaincu",
+"pos": "adj.",
+"zh": "确信的；信服的",
+"level": "b1"
+},
+{
+"word": "convenable",
+"pos": "adj.",
+"zh": "得体的；合适的",
+"level": "b1"
+},
+{
+"word": "convenir",
+"pos": "v.",
+"zh": "适合；商定",
+"level": "b1"
+},
+{
+"word": "convention",
+"pos": "n.f.",
+"zh": "公约；惯例",
+"level": "b1"
+},
+{
+"word": "conventionnel",
+"pos": "adj.",
+"zh": "常规的；习俗的",
+"level": "b1"
+},
+{
+"word": "conviction",
+"pos": "n.f.",
+"zh": "信念；确信",
+"level": "b1"
+},
+{
+"word": "convoquer",
+"pos": "v.",
+"zh": "召集；传唤",
+"level": "b1"
+},
+{
+"word": "coopératif",
+"pos": "adj.",
+"zh": "合作的；合作制的",
+"level": "b1"
+},
+{
+"word": "coopération",
+"pos": "n.f.",
+"zh": "合作",
+"level": "b1"
+},
+{
+"word": "coopérer",
+"pos": "v.",
+"zh": "合作",
+"level": "b1"
+},
+{
+"word": "coordonnée",
+"pos": "n.f.",
+"zh": "坐标",
+"level": "b1"
+},
+{
+"word": "copie",
+"pos": "n.f.",
+"zh": "副本；复印件",
+"level": "b1"
+},
+{
+"word": "coquille",
+"pos": "n.f.",
+"zh": "贝壳；外壳",
+"level": "b1"
+},
+{
+"word": "corbeille",
+"pos": "n.f.",
+"zh": "篮子；花篮；垃圾桶",
+"level": "b1"
+},
+{
+"word": "cordon",
+"pos": "n.m.",
+"zh": "绳带；电线；警戒线",
+"level": "b1"
+},
+{
+"word": "corne",
+"pos": "n.f.",
+"zh": "角；号角",
+"level": "b1"
+},
+{
+"word": "correction",
+"pos": "n.f.",
+"zh": "修改；批改；纠正",
+"level": "b1"
+},
+{
+"word": "correspondance",
+"pos": "n.f.",
+"zh": "通信；函件；换乘",
+"level": "b1"
+},
+{
+"word": "correspondant",
+"pos": "n.m.",
+"zh": "通信者；驻地记者；对应物",
+"level": "b1"
+},
+{
+"word": "correspondre",
+"pos": "v.",
+"zh": "符合；通信",
+"level": "b1"
+},
+{
+"word": "corse",
+"pos": "adj.",
+"zh": "科西嘉的；科西嘉人",
+"level": "b1"
+},
+{
+"word": "costaud",
+"pos": "adj.",
+"zh": "结实的；壮实的",
+"level": "b1"
+},
+{
+"word": "couche",
+"pos": "n.f.",
+"zh": "层；尿布",
+"level": "b1"
+},
+{
+"word": "coudre",
+"pos": "v.",
+"zh": "缝纫；缝制",
+"level": "b1"
+},
+{
+"word": "couille",
+"pos": "n.f.",
+"zh": "睾丸（粗俗）",
+"level": "b1"
+},
+{
+"word": "coupable",
+"pos": "adj.",
+"zh": "有罪的；内疚的",
+"level": "b1"
+},
+{
+"word": "coupure",
+"pos": "n.f.",
+"zh": "伤口；中断；剪报",
+"level": "b1"
+},
+{
+"word": "cour",
+"pos": "n.f.",
+"zh": "院子；宫廷",
+"level": "b1"
+},
+{
+"word": "courant",
+"pos": "n.m.",
+"zh": "水流；电流",
+"level": "b1"
+},
+{
+"word": "courbe",
+"pos": "n.f.",
+"zh": "曲线；弯道",
+"level": "b1"
+},
+{
+"word": "coureur",
+"pos": "n.m.",
+"zh": "跑步者；赛跑选手",
+"level": "b1"
+},
+{
+"word": "courge",
+"pos": "n.f.",
+"zh": "瓜类；葫芦；傻瓜（俚语）",
+"level": "b1"
+},
+{
+"word": "couronne",
+"pos": "n.f.",
+"zh": "王冠；花环",
+"level": "b1"
+},
+{
+"word": "courrier",
+"pos": "n.m.",
+"zh": "邮件；信件",
+"level": "b1"
+},
+{
+"word": "coussin",
+"pos": "n.m.",
+"zh": "靠垫；垫子",
+"level": "b1"
+},
+{
+"word": "coutume",
+"pos": "n.f.",
+"zh": "习俗；惯例",
+"level": "b1"
+},
+{
+"word": "couture",
+"pos": "n.f.",
+"zh": "缝纫；时装业",
+"level": "b1"
+},
+{
+"word": "couturier",
+"pos": "n.m.",
+"zh": "裁缝；时装设计师",
+"level": "b1"
+},
+{
+"word": "couvent",
+"pos": "n.m.",
+"zh": "修道院",
+"level": "b1"
+},
+{
+"word": "couvercle",
+"pos": "n.m.",
+"zh": "盖子",
+"level": "b1"
+},
+{
+"word": "couvrir",
+"pos": "v.",
+"zh": "覆盖；遮盖",
+"level": "b1"
+},
+{
+"word": "coéquipier",
+"pos": "n.m.",
+"zh": "队友",
+"level": "b1"
+},
+{
+"word": "coïncidence",
+"pos": "n.f.",
+"zh": "巧合",
+"level": "b1"
+},
+{
+"word": "coût",
+"pos": "n.m.",
+"zh": "成本；费用",
+"level": "b1"
+},
+{
+"word": "coûteux",
+"pos": "adj.",
+"zh": "昂贵的",
+"level": "b1"
+},
+{
+"word": "craie",
+"pos": "n.f.",
+"zh": "粉笔",
+"level": "b1"
+},
+{
+"word": "craindre",
+"pos": "v.",
+"zh": "害怕；担忧",
+"level": "b1"
+},
+{
+"word": "crainte",
+"pos": "n.f.",
+"zh": "恐惧；担忧",
+"level": "b1"
+},
+{
+"word": "crapaud",
+"pos": "n.m.",
+"zh": "蟾蜍",
+"level": "b1"
+},
+{
+"word": "craquer",
+"pos": "v.",
+"zh": "断裂；着迷；崩溃",
+"level": "b1"
+},
+{
+"word": "crash",
+"pos": "n.m.",
+"zh": "坠机；崩盘",
+"level": "b1"
+},
+{
+"word": "cratère",
+"pos": "n.m.",
+"zh": "火山口；弹坑",
+"level": "b1"
+},
+{
+"word": "creuser",
+"pos": "v.",
+"zh": "挖；掘",
+"level": "b1"
+},
+{
+"word": "creux",
+"pos": "adj.",
+"zh": "空心的；凹陷的；空洞的",
+"level": "b1"
+},
+{
+"word": "crever",
+"pos": "v.",
+"zh": "爆裂；累坏；（口语）死",
+"level": "b1"
+},
+{
+"word": "crevé",
+"pos": "adj.",
+"zh": "累坏的；爆了胎的",
+"level": "b1"
+},
+{
+"word": "crime",
+"pos": "n.m.",
+"zh": "罪行；犯罪",
+"level": "b1"
+},
+{
+"word": "criminel",
+"pos": "n.m.",
+"zh": "罪犯；犯罪的",
+"level": "b1"
+},
+{
+"word": "crise",
+"pos": "n.f.",
+"zh": "危机",
+"level": "b1"
+},
+{
+"word": "cristal",
+"pos": "n.m.",
+"zh": "水晶",
+"level": "b1"
+},
+{
+"word": "critique",
+"pos": "n.",
+"zh": "批评；评论；评论家",
+"level": "b1"
+},
+{
+"word": "critiquer",
+"pos": "v.",
+"zh": "批评；评论",
+"level": "b1"
+},
+{
+"word": "critère",
+"pos": "n.m.",
+"zh": "标准；准则",
+"level": "b1"
+},
+{
+"word": "crochet",
+"pos": "n.m.",
+"zh": "钩；钩针编织",
+"level": "b1"
+},
+{
+"word": "croisement",
+"pos": "n.m.",
+"zh": "交叉路口；交叉；杂交",
+"level": "b1"
+},
+{
+"word": "croisière",
+"pos": "n.f.",
+"zh": "乘船游；巡游",
+"level": "b1"
+},
+{
+"word": "croissance",
+"pos": "n.f.",
+"zh": "增长；生长",
+"level": "b1"
+},
+{
+"word": "croisé",
+"pos": "adj.",
+"zh": "交叉的；十字形的",
+"level": "b1"
+},
+{
+"word": "croquis",
+"pos": "n.m.",
+"zh": "素描；速写",
+"level": "b1"
+},
+{
+"word": "croyance",
+"pos": "n.f.",
+"zh": "信念；信仰",
+"level": "b1"
+},
+{
+"word": "croyant",
+"pos": "adj.",
+"zh": "信徒；信教的",
+"level": "b1"
+},
+{
+"word": "croûte",
+"pos": "n.f.",
+"zh": "面包皮；痂",
+"level": "b1"
+},
+{
+"word": "cru",
+"pos": "adj.",
+"zh": "生的；未加工的",
+"level": "b1"
+},
+{
+"word": "cruel",
+"pos": "adj.",
+"zh": "残忍的；残酷的",
+"level": "b1"
+}
+]

@@ -1,0 +1,602 @@
+[
+{
+"word": "leiden",
+"pos": "v.",
+"zh": "忍受；患病",
+"level": "a2"
+},
+{
+"word": "See",
+"pos": "n.f.",
+"zh": "湖",
+"level": "a2"
+},
+{
+"word": "Unterschied",
+"pos": "n.m.",
+"zh": "区别",
+"level": "a2"
+},
+{
+"word": "Wind",
+"pos": "n.m.",
+"zh": "风",
+"level": "a2"
+},
+{
+"word": "Angriff",
+"pos": "n.m.",
+"zh": "攻击",
+"level": "a2"
+},
+{
+"word": "Verhalten",
+"pos": "n.",
+"zh": "行为",
+"level": "a2"
+},
+{
+"word": "Loch",
+"pos": "n.",
+"zh": "洞",
+"level": "a2"
+},
+{
+"word": "Interesse",
+"pos": "n.",
+"zh": "兴趣",
+"level": "a2"
+},
+{
+"word": "treten",
+"pos": "v.",
+"zh": "踩；进入",
+"level": "a2"
+},
+{
+"word": "Quatsch",
+"pos": "n.m.",
+"zh": "胡说",
+"level": "a2"
+},
+{
+"word": "Neuigkeit",
+"pos": "n.f.",
+"zh": "消息",
+"level": "a2"
+},
+{
+"word": "Schuss",
+"pos": "n.m.",
+"zh": "射击",
+"level": "a2"
+},
+{
+"word": "fassen",
+"pos": "v.",
+"zh": "抓住；把握",
+"level": "a2"
+},
+{
+"word": "verbringen",
+"pos": "v.",
+"zh": "度过",
+"level": "a2"
+},
+{
+"word": "blöd",
+"pos": "adj.",
+"zh": "愚蠢的",
+"level": "a2"
+},
+{
+"word": "Meter",
+"pos": "n.m.",
+"zh": "米",
+"level": "a2"
+},
+{
+"word": "dessen",
+"pos": "pron.",
+"zh": "其（属格）",
+"level": "a2"
+},
+{
+"word": "Engel",
+"pos": "n.m.",
+"zh": "天使",
+"level": "a2"
+},
+{
+"word": "offenbar",
+"pos": "adv.",
+"zh": "显然",
+"level": "a2"
+},
+{
+"word": "Gelegenheit",
+"pos": "n.f.",
+"zh": "机会",
+"level": "a2"
+},
+{
+"word": "Lüge",
+"pos": "n.f.",
+"zh": "谎言",
+"level": "a2"
+},
+{
+"word": "beeilen",
+"pos": "v.",
+"zh": "赶快",
+"level": "a2"
+},
+{
+"word": "brechen",
+"pos": "v.",
+"zh": "打破",
+"level": "a2"
+},
+{
+"word": "Zeitpunkt",
+"pos": "n.m.",
+"zh": "时刻",
+"level": "a2"
+},
+{
+"word": "Ecke",
+"pos": "n.f.",
+"zh": "角落",
+"level": "a2"
+},
+{
+"word": "Brücke",
+"pos": "n.f.",
+"zh": "桥",
+"level": "a2"
+},
+{
+"word": "Druck",
+"pos": "n.m.",
+"zh": "压力",
+"level": "a2"
+},
+{
+"word": "mitbringen",
+"pos": "v.",
+"zh": "带来",
+"level": "a2"
+},
+{
+"word": "seufzen",
+"pos": "v.",
+"zh": "叹气",
+"level": "a2"
+},
+{
+"word": "Date",
+"pos": "n.",
+"zh": "约会",
+"level": "a2"
+},
+{
+"word": "Haufen",
+"pos": "n.m.",
+"zh": "堆",
+"level": "a2"
+},
+{
+"word": "Auftrag",
+"pos": "n.m.",
+"zh": "任务；订单",
+"level": "a2"
+},
+{
+"word": "entkommen",
+"pos": "v.",
+"zh": "逃脱",
+"level": "a2"
+},
+{
+"word": "Lösung",
+"pos": "n.f.",
+"zh": "解决办法",
+"level": "a2"
+},
+{
+"word": "Pause",
+"pos": "n.f.",
+"zh": "休息",
+"level": "a2"
+},
+{
+"word": "irre",
+"pos": "adj.",
+"zh": "疯的",
+"level": "a2"
+},
+{
+"word": "Keller",
+"pos": "n.m.",
+"zh": "地下室",
+"level": "a2"
+},
+{
+"word": "weinen",
+"pos": "v.",
+"zh": "哭",
+"level": "a2"
+},
+{
+"word": "nutzen",
+"pos": "v.",
+"zh": "利用",
+"level": "a2"
+},
+{
+"word": "Maul",
+"pos": "n.",
+"zh": "嘴（粗俗）",
+"level": "a2"
+},
+{
+"word": "Verantwortung",
+"pos": "n.f.",
+"zh": "责任",
+"level": "a2"
+},
+{
+"word": "Schloss",
+"pos": "n.",
+"zh": "锁；宫殿",
+"level": "a2"
+},
+{
+"word": "hinaus",
+"pos": "adv.",
+"zh": "出去（方向）",
+"level": "a2"
+},
+{
+"word": "vorhin",
+"pos": "adv.",
+"zh": "刚才",
+"level": "a2"
+},
+{
+"word": "Fahrt",
+"pos": "n.f.",
+"zh": "行驶；旅程",
+"level": "a2"
+},
+{
+"word": "ernsthaft",
+"pos": "adj.",
+"zh": "认真的",
+"level": "a2"
+},
+{
+"word": "Bombe",
+"pos": "n.f.",
+"zh": "炸弹",
+"level": "a2"
+},
+{
+"word": "Operation",
+"pos": "n.f.",
+"zh": "手术；行动",
+"level": "a2"
+},
+{
+"word": "Dach",
+"pos": "n.",
+"zh": "屋顶",
+"level": "a2"
+},
+{
+"word": "Folge",
+"pos": "n.f.",
+"zh": "后果；集",
+"level": "a2"
+},
+{
+"word": "dankbar",
+"pos": "adj.",
+"zh": "感激的",
+"level": "a2"
+},
+{
+"word": "Gehirn",
+"pos": "n.",
+"zh": "大脑",
+"level": "a2"
+},
+{
+"word": "Mädel",
+"pos": "n.",
+"zh": "女孩（口语）",
+"level": "a2"
+},
+{
+"word": "Mut",
+"pos": "n.m.",
+"zh": "勇气",
+"level": "a2"
+},
+{
+"word": "heilige",
+"pos": "adj.",
+"zh": "神圣的",
+"level": "a2"
+},
+{
+"word": "System",
+"pos": "n.",
+"zh": "系统",
+"level": "a2"
+},
+{
+"word": "Wahnsinn",
+"pos": "n.m.",
+"zh": "疯狂",
+"level": "a2"
+},
+{
+"word": "Rose",
+"pos": "n.f.",
+"zh": "玫瑰",
+"level": "a2"
+},
+{
+"word": "Club",
+"pos": "n.m.",
+"zh": "俱乐部",
+"level": "a2"
+},
+{
+"word": "Hintern",
+"pos": "n.m.",
+"zh": "屁股",
+"level": "a2"
+},
+{
+"word": "Thema",
+"pos": "n.",
+"zh": "主题",
+"level": "a2"
+},
+{
+"word": "dorthin",
+"pos": "adv.",
+"zh": "到那里",
+"level": "a2"
+},
+{
+"word": "steigen",
+"pos": "v.",
+"zh": "攀登；上升",
+"level": "a2"
+},
+{
+"word": "vorwärts",
+"pos": "adv.",
+"zh": "向前",
+"level": "a2"
+},
+{
+"word": "überprüfen",
+"pos": "v.",
+"zh": "检查",
+"level": "a2"
+},
+{
+"word": "Beweis",
+"pos": "n.m.",
+"zh": "证据",
+"level": "a2"
+},
+{
+"word": "anscheinend",
+"pos": "adv.",
+"zh": "看来",
+"level": "a2"
+},
+{
+"word": "Risiko",
+"pos": "n.",
+"zh": "风险",
+"level": "a2"
+},
+{
+"word": "Knast",
+"pos": "n.m.",
+"zh": "监狱（口语）",
+"level": "a2"
+},
+{
+"word": "gelten",
+"pos": "v.",
+"zh": "有效",
+"level": "a2"
+},
+{
+"word": "Held",
+"pos": "n.m.",
+"zh": "英雄",
+"level": "a2"
+},
+{
+"word": "daraus",
+"pos": "adv.",
+"zh": "由此",
+"level": "a2"
+},
+{
+"word": "prima",
+"pos": "adj.",
+"zh": "很棒",
+"level": "a2"
+},
+{
+"word": "Gewalt",
+"pos": "n.f.",
+"zh": "暴力；权力",
+"level": "a2"
+},
+{
+"word": "nachdenken",
+"pos": "v.",
+"zh": "思考",
+"level": "a2"
+},
+{
+"word": "Tor",
+"pos": "n.",
+"zh": "球门；大门",
+"level": "a2"
+},
+{
+"word": "Erfahrung",
+"pos": "n.f.",
+"zh": "经验",
+"level": "a2"
+},
+{
+"word": "jagen",
+"pos": "v.",
+"zh": "追猎",
+"level": "a2"
+},
+{
+"word": "Runde",
+"pos": "n.f.",
+"zh": "轮次",
+"level": "a2"
+},
+{
+"word": "Tat",
+"pos": "n.f.",
+"zh": "行为",
+"level": "a2"
+},
+{
+"word": "dringend",
+"pos": "adj.",
+"zh": "紧急的",
+"level": "a2"
+},
+{
+"word": "hinterlassen",
+"pos": "v.",
+"zh": "留下",
+"level": "a2"
+},
+{
+"word": "Gewissen",
+"pos": "n.",
+"zh": "良心",
+"level": "a2"
+},
+{
+"word": "Kunde",
+"pos": "n.m.",
+"zh": "顾客",
+"level": "a2"
+},
+{
+"word": "Zeuge",
+"pos": "n.m.",
+"zh": "证人",
+"level": "a2"
+},
+{
+"word": "planen",
+"pos": "v.",
+"zh": "计划",
+"level": "a2"
+},
+{
+"word": "stören",
+"pos": "v.",
+"zh": "打扰",
+"level": "a2"
+},
+{
+"word": "atmen",
+"pos": "v.",
+"zh": "呼吸",
+"level": "a2"
+},
+{
+"word": "größer",
+"pos": "adj.",
+"zh": "更大的",
+"level": "a2"
+},
+{
+"word": "Prinz",
+"pos": "n.m.",
+"zh": "王子",
+"level": "a2"
+},
+{
+"word": "behandeln",
+"pos": "v.",
+"zh": "对待；治疗",
+"level": "a2"
+},
+{
+"word": "überlegen",
+"pos": "v.",
+"zh": "考虑；优越",
+"level": "a2"
+},
+{
+"word": "Natur",
+"pos": "n.f.",
+"zh": "自然",
+"level": "a2"
+},
+{
+"word": "lauten",
+"pos": "v.",
+"zh": "内容为",
+"level": "a2"
+},
+{
+"word": "Streit",
+"pos": "n.m.",
+"zh": "争吵",
+"level": "a2"
+},
+{
+"word": "längst",
+"pos": "adv.",
+"zh": "早已",
+"level": "a2"
+},
+{
+"word": "erlauben",
+"pos": "v.",
+"zh": "允许",
+"level": "a2"
+},
+{
+"word": "schmecken",
+"pos": "v.",
+"zh": "尝起来",
+"level": "a2"
+},
+{
+"word": "Kugel",
+"pos": "n.f.",
+"zh": "球；子弹",
+"level": "a2"
+},
+{
+"word": "normalerweise",
+"pos": "adv.",
+"zh": "通常",
+"level": "a2"
+}
+]

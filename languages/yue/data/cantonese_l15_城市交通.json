@@ -1,0 +1,119 @@
+{
+  "level": "L15",
+  "name": "城市交通与市政设施",
+  "description": "涵盖城际交通、公共交通设施与城市出行标志",
+  "words": [
+    {
+      "word": "機場",
+      "jyutping": "gei1 coeng4",
+      "pos": "名",
+      "meaning": "机场，航空港",
+      "sentences": [
+        {
+          "sentence": "搭機場快綫二十分鐘就到市區。（daap3 gei1 coeng4 faai3 sin3 jaa6 fan1 zung1 zau6 dou3 si5 keoi1.）",
+          "translate": "坐机场快线二十分钟就能到市区。"
+        },
+        {
+          "sentence": "我去機場接朋友機。（ngo5 heoi3 gei1 coeng4 zip3 pang4 jau5 gei1.）",
+          "translate": "我去机场接朋友下飞机。"
+        }
+      ]
+    },
+    {
+      "word": "碼頭",
+      "jyutping": "maa5 tau4",
+      "pos": "名",
+      "meaning": "轮渡码头",
+      "sentences": [
+        {
+          "sentence": "尖沙咀天星碼頭風景好靚。（zim1 saa1 zeoi2 tin1 sing1 maa5 tau4 fung1 ging2 hou2 leng3.）",
+          "translate": "尖沙咀天星码头风景真漂亮。"
+        },
+        {
+          "sentence": "喺碼頭搭船過海。（hai2 maa5 tau4 daap3 syun4 gwo3 hoi2.）",
+          "translate": "在码头坐轮渡过海。"
+        }
+      ]
+    },
+    {
+      "word": "天星小輪",
+      "jyutping": "tin1 sing1 siu2 leon4",
+      "pos": "名",
+      "meaning": "天星小轮（维港标志性渡轮）",
+      "sentences": [
+        {
+          "sentence": "搭天星小輪睇維港夜景好浪漫。（daap3 tin1 sing1 siu2 leon4 tai2 wai4 gong2 je6 ging2 hou2 long6 maan6.）",
+          "translate": "乘坐天星小轮欣赏维港夜景很浪漫。"
+        },
+        {
+          "sentence": "天星小輪票價好平。（tin1 sing1 siu2 leon4 piu3 gaa3 hou2 peng4.）",
+          "translate": "天星小轮票价非常便宜亲民。"
+        }
+      ]
+    },
+    {
+      "word": "叮叮車",
+      "jyutping": "ding1 ding1 ce1",
+      "pos": "名",
+      "meaning": "叮叮车（香港岛双层有轨电车）",
+      "sentences": [
+        {
+          "sentence": "坐叮叮車慢悠悠遊香港島。（co5 ding1 ding1 ce1 maan6 jau1 jau1 jau4 hoeng1 gong2 dou2.）",
+          "translate": "坐叮叮车慢悠悠畅游香港岛。"
+        },
+        {
+          "sentence": "叮叮車係百年歷史交通工具。（ding1 ding1 ce1 hai6 baak3 nin4 lik6 si2 gaau1 tung1 gung1 geoi6.）",
+          "translate": "叮叮车是有百年历史的交通工具。"
+        }
+      ]
+    },
+    {
+      "word": "天橋",
+      "jyutping": "tin1 kiu4",
+      "pos": "名",
+      "meaning": "人行天桥，过街立交桥",
+      "sentences": [
+        {
+          "sentence": "行天橋過馬路好安全。（haang4 tin1 kiu4 gwo3 maa5 lou6 hou2 on1 cyun4.）",
+          "translate": "走人行天桥过马路非常安全。"
+        },
+        {
+          "sentence": "中環天橋網絡四通八達。（zung1 waan4 tin1 kiu4 mong5 lok3 sei3 tung1 baat3 daat6.）",
+          "translate": "中环的人行天桥系统四通八达。"
+        }
+      ]
+    },
+    {
+      "word": "斑馬線",
+      "jyutping": "baan1 maa5 sin3",
+      "pos": "名",
+      "meaning": "斑马线，人行横道",
+      "sentences": [
+        {
+          "sentence": "過馬路一定要行斑馬線。（gwo3 maa5 lou6 jat1 ding6 jiu3 haang4 baan1 maa5 sin3.）",
+          "translate": "过马路一定要走斑马线。"
+        },
+        {
+          "sentence": "司機會喺斑馬線前停車禮讓行人。（si1 gei1 wui5 hai2 baan1 maa5 sin3 cin4 ting4 ce1 lai5 joeng6 hang4 jan4.）",
+          "translate": "司机会在斑马线前停车礼让行人。"
+        }
+      ]
+    },
+    {
+      "word": "紅綠燈",
+      "jyutping": "hung4 luk6 dang1",
+      "pos": "名",
+      "meaning": "交通信号灯，红绿灯",
+      "sentences": [
+        {
+          "sentence": "紅燈停，綠燈行。（hung4 dang1 ting4, luk6 dang1 haang4.）",
+          "translate": "红灯停，绿灯行。"
+        },
+        {
+          "sentence": "等緊紅綠燈過馬路。（dang2 gan2 hung4 luk6 dang1 gwo3 maa5 lou6.）",
+          "translate": "正在等红绿灯过马路。"
+        }
+      ]
+    }
+  ]
+}

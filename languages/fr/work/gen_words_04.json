@@ -1,0 +1,602 @@
+[
+{
+"word": "même",
+"pos": "adv.",
+"zh": "甚至；相同的",
+"level": "a1"
+},
+{
+"word": "nager",
+"pos": "v.",
+"zh": "游泳",
+"level": "a1"
+},
+{
+"word": "ne",
+"pos": "adv.",
+"zh": "不（否定词）",
+"level": "a1"
+},
+{
+"word": "neige",
+"pos": "n.f.",
+"zh": "雪；积雪",
+"level": "a1"
+},
+{
+"word": "neiger",
+"pos": "v.",
+"zh": "下雪",
+"level": "a1"
+},
+{
+"word": "neuf",
+"pos": "adj.",
+"zh": "新的；九",
+"level": "a1"
+},
+{
+"word": "neveu",
+"pos": "n.m.",
+"zh": "侄子；外甥",
+"level": "a1"
+},
+{
+"word": "nez",
+"pos": "n.m.",
+"zh": "鼻子",
+"level": "a1"
+},
+{
+"word": "ni",
+"pos": "conj.",
+"zh": "也不；既不",
+"level": "a1"
+},
+{
+"word": "nièce",
+"pos": "n.f.",
+"zh": "侄女；外甥女",
+"level": "a1"
+},
+{
+"word": "noir",
+"pos": "adj.",
+"zh": "黑色的；黑暗的",
+"level": "a1"
+},
+{
+"word": "nom",
+"pos": "n.m.",
+"zh": "名字；名称；姓氏",
+"level": "a1"
+},
+{
+"word": "non",
+"pos": "adv.",
+"zh": "不；不是",
+"level": "a1"
+},
+{
+"word": "nord",
+"pos": "n.m.",
+"zh": "北；北方",
+"level": "a1"
+},
+{
+"word": "normal",
+"pos": "adj.",
+"zh": "正常的；寻常的",
+"level": "a1"
+},
+{
+"word": "nos",
+"pos": "adj.",
+"zh": "我们的（复数）",
+"level": "a1"
+},
+{
+"word": "notre",
+"pos": "adj.",
+"zh": "我们的",
+"level": "a1"
+},
+{
+"word": "nous",
+"pos": "pron.",
+"zh": "我们",
+"level": "a1"
+},
+{
+"word": "nouveau",
+"pos": "n.m.",
+"zh": "新的；新来的",
+"level": "a1"
+},
+{
+"word": "novembre",
+"pos": "n.m.",
+"zh": "十一月",
+"level": "a1"
+},
+{
+"word": "noël",
+"pos": "n.m.",
+"zh": "圣诞节",
+"level": "a1"
+},
+{
+"word": "nuit",
+"pos": "n.f.",
+"zh": "夜；夜晚",
+"level": "a1"
+},
+{
+"word": "numéro",
+"pos": "n.m.",
+"zh": "号码；期号",
+"level": "a1"
+},
+{
+"word": "occupé",
+"pos": "adj.",
+"zh": "忙的；被占用的",
+"level": "a1"
+},
+{
+"word": "octobre",
+"pos": "n.m.",
+"zh": "十月",
+"level": "a1"
+},
+{
+"word": "oeil",
+"pos": "n.m.",
+"zh": "眼睛",
+"level": "a1"
+},
+{
+"word": "oeuf",
+"pos": "n.m.",
+"zh": "鸡蛋",
+"level": "a1"
+},
+{
+"word": "oignon",
+"pos": "n.m.",
+"zh": "洋葱",
+"level": "a1"
+},
+{
+"word": "oiseau",
+"pos": "n.m.",
+"zh": "鸟；禽",
+"level": "a1"
+},
+{
+"word": "ok",
+"pos": "adj.",
+"zh": "好；行；可以",
+"level": "a1"
+},
+{
+"word": "on",
+"pos": "pron.",
+"zh": "人们；（口语）我们",
+"level": "a1"
+},
+{
+"word": "oncle",
+"pos": "n.m.",
+"zh": "叔叔；伯父；舅舅",
+"level": "a1"
+},
+{
+"word": "onze",
+"pos": "adj.",
+"zh": "十一",
+"level": "a1"
+},
+{
+"word": "orange",
+"pos": "n.",
+"zh": "橙子；橙色",
+"level": "a1"
+},
+{
+"word": "ordinateur",
+"pos": "n.m.",
+"zh": "电脑；计算机",
+"level": "a1"
+},
+{
+"word": "oreille",
+"pos": "n.f.",
+"zh": "耳朵",
+"level": "a1"
+},
+{
+"word": "ou",
+"pos": "conj.",
+"zh": "或者",
+"level": "a1"
+},
+{
+"word": "oublier",
+"pos": "v.",
+"zh": "忘记",
+"level": "a1"
+},
+{
+"word": "oui",
+"pos": "adv.",
+"zh": "是；对",
+"level": "a1"
+},
+{
+"word": "ouvrir",
+"pos": "v.",
+"zh": "打开；开启",
+"level": "a1"
+},
+{
+"word": "où",
+"pos": "pron.",
+"zh": "哪里；在哪里",
+"level": "a1"
+},
+{
+"word": "page",
+"pos": "n.",
+"zh": "页；页面",
+"level": "a1"
+},
+{
+"word": "pain",
+"pos": "n.m.",
+"zh": "面包",
+"level": "a1"
+},
+{
+"word": "pantalon",
+"pos": "n.m.",
+"zh": "裤子",
+"level": "a1"
+},
+{
+"word": "papa",
+"pos": "n.m.",
+"zh": "爸爸",
+"level": "a1"
+},
+{
+"word": "papi",
+"pos": "n.m.",
+"zh": "爷爷（儿语）",
+"level": "a1"
+},
+{
+"word": "papier",
+"pos": "n.m.",
+"zh": "纸；纸张",
+"level": "a1"
+},
+{
+"word": "par",
+"pos": "prép.",
+"zh": "由；通过；被",
+"level": "a1"
+},
+{
+"word": "parapluie",
+"pos": "n.m.",
+"zh": "雨伞",
+"level": "a1"
+},
+{
+"word": "parc",
+"pos": "n.m.",
+"zh": "公园；停车场",
+"level": "a1"
+},
+{
+"word": "parce que",
+"pos": "conj.",
+"zh": "因为",
+"level": "a1"
+},
+{
+"word": "pardon",
+"pos": "interj.",
+"zh": "对不起；劳驾；请再说一遍",
+"level": "a1"
+},
+{
+"word": "parent",
+"pos": "n.m.",
+"zh": "父亲；父母；亲戚",
+"level": "a1"
+},
+{
+"word": "parfait",
+"pos": "adj.",
+"zh": "完美的",
+"level": "a1"
+},
+{
+"word": "parfois",
+"pos": "adv.",
+"zh": "有时；偶尔",
+"level": "a1"
+},
+{
+"word": "parler",
+"pos": "v.",
+"zh": "说话；讲",
+"level": "a1"
+},
+{
+"word": "partir",
+"pos": "v.",
+"zh": "离开；出发",
+"level": "a1"
+},
+{
+"word": "partout",
+"pos": "adv.",
+"zh": "到处；处处",
+"level": "a1"
+},
+{
+"word": "pas",
+"pos": "adv.",
+"zh": "不（否定词）；步子",
+"level": "a1"
+},
+{
+"word": "passeport",
+"pos": "n.m.",
+"zh": "护照",
+"level": "a1"
+},
+{
+"word": "passer",
+"pos": "v.",
+"zh": "经过；度过；传递",
+"level": "a1"
+},
+{
+"word": "payer",
+"pos": "v.",
+"zh": "付钱；支付",
+"level": "a1"
+},
+{
+"word": "pays",
+"pos": "n.m.",
+"zh": "国家；家乡",
+"level": "a1"
+},
+{
+"word": "pendant",
+"pos": "prép.",
+"zh": "在……期间",
+"level": "a1"
+},
+{
+"word": "penser",
+"pos": "v.",
+"zh": "想；思考；认为",
+"level": "a1"
+},
+{
+"word": "perdre",
+"pos": "v.",
+"zh": "丢失；输掉",
+"level": "a1"
+},
+{
+"word": "personne",
+"pos": "pron.",
+"zh": "没有人；人",
+"level": "a1"
+},
+{
+"word": "petit",
+"pos": "adj.",
+"zh": "小的；年幼的",
+"level": "a1"
+},
+{
+"word": "petit-déjeuner",
+"pos": "n.m.",
+"zh": "早餐",
+"level": "a1"
+},
+{
+"word": "petit-fils",
+"pos": "n.m.",
+"zh": "孙子",
+"level": "a1"
+},
+{
+"word": "petite-fille",
+"pos": "n.f.",
+"zh": "孙女；外孙女",
+"level": "a1"
+},
+{
+"word": "peur",
+"pos": "n.f.",
+"zh": "害怕；恐惧",
+"level": "a1"
+},
+{
+"word": "peut-être",
+"pos": "adv.",
+"zh": "也许；可能",
+"level": "a1"
+},
+{
+"word": "photo",
+"pos": "n.f.",
+"zh": "照片；相片",
+"level": "a1"
+},
+{
+"word": "phrase",
+"pos": "n.f.",
+"zh": "句子",
+"level": "a1"
+},
+{
+"word": "piano",
+"pos": "n.m.",
+"zh": "钢琴",
+"level": "a1"
+},
+{
+"word": "pied",
+"pos": "n.m.",
+"zh": "脚；足；底部",
+"level": "a1"
+},
+{
+"word": "piscine",
+"pos": "n.f.",
+"zh": "游泳池",
+"level": "a1"
+},
+{
+"word": "pizza",
+"pos": "n.f.",
+"zh": "披萨",
+"level": "a1"
+},
+{
+"word": "place",
+"pos": "n.f.",
+"zh": "地方；位置；广场",
+"level": "a1"
+},
+{
+"word": "plage",
+"pos": "n.f.",
+"zh": "海滩",
+"level": "a1"
+},
+{
+"word": "plante",
+"pos": "n.f.",
+"zh": "植物",
+"level": "a1"
+},
+{
+"word": "plat",
+"pos": "n.",
+"zh": "平的；盘子；菜肴",
+"level": "a1"
+},
+{
+"word": "pleuvoir",
+"pos": "v.",
+"zh": "下雨（无人称）",
+"level": "a1"
+},
+{
+"word": "pluie",
+"pos": "n.f.",
+"zh": "雨；雨水",
+"level": "a1"
+},
+{
+"word": "plus",
+"pos": "adv.",
+"zh": "更；更多；加",
+"level": "a1"
+},
+{
+"word": "poisson",
+"pos": "n.m.",
+"zh": "鱼；鱼肉",
+"level": "a1"
+},
+{
+"word": "police",
+"pos": "n.f.",
+"zh": "警察；警方",
+"level": "a1"
+},
+{
+"word": "pomme",
+"pos": "n.f.",
+"zh": "苹果",
+"level": "a1"
+},
+{
+"word": "pompier",
+"pos": "n.m.",
+"zh": "消防员",
+"level": "a1"
+},
+{
+"word": "porte",
+"pos": "n.f.",
+"zh": "门；门口",
+"level": "a1"
+},
+{
+"word": "porter",
+"pos": "v.",
+"zh": "穿；戴；携带",
+"level": "a1"
+},
+{
+"word": "possible",
+"pos": "adj.",
+"zh": "可能的",
+"level": "a1"
+},
+{
+"word": "poulet",
+"pos": "n.m.",
+"zh": "鸡肉；鸡",
+"level": "a1"
+},
+{
+"word": "pour",
+"pos": "prép.",
+"zh": "为了；给；对于",
+"level": "a1"
+},
+{
+"word": "pourquoi",
+"pos": "adv.",
+"zh": "为什么",
+"level": "a1"
+},
+{
+"word": "pouvoir",
+"pos": "v.",
+"zh": "能；可以",
+"level": "a1"
+},
+{
+"word": "premier",
+"pos": "adj.",
+"zh": "第一的；最初的",
+"level": "a1"
+},
+{
+"word": "prendre",
+"pos": "v.",
+"zh": "拿；乘坐；服用",
+"level": "a1"
+},
+{
+"word": "presque",
+"pos": "adv.",
+"zh": "几乎；差不多",
+"level": "a1"
+}
+]

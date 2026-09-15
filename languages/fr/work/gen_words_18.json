@@ -1,0 +1,602 @@
+[
+{
+"word": "milliard",
+"pos": "n.m.",
+"zh": "十亿",
+"level": "a2"
+},
+{
+"word": "millier",
+"pos": "n.m.",
+"zh": "约一千；千余",
+"level": "a2"
+},
+{
+"word": "mince",
+"pos": "adj.",
+"zh": "细的；苗条的",
+"level": "a2"
+},
+{
+"word": "minimum",
+"pos": "n.m.",
+"zh": "最小量；最低限度",
+"level": "a2"
+},
+{
+"word": "minou",
+"pos": "n.m.",
+"zh": "猫咪（儿语）",
+"level": "a2"
+},
+{
+"word": "minéral",
+"pos": "adj.",
+"zh": "矿物的；含矿物质的",
+"level": "a2"
+},
+{
+"word": "miracle",
+"pos": "n.m.",
+"zh": "奇迹",
+"level": "a2"
+},
+{
+"word": "miroir",
+"pos": "n.m.",
+"zh": "镜子",
+"level": "a2"
+},
+{
+"word": "miss",
+"pos": "n.f.",
+"zh": "小姐；选美冠军",
+"level": "a2"
+},
+{
+"word": "moche",
+"pos": "adj.",
+"zh": "丑的；难看的",
+"level": "a2"
+},
+{
+"word": "mode",
+"pos": "n.",
+"zh": "时尚；流行；方式",
+"level": "a2"
+},
+{
+"word": "moderne",
+"pos": "adj.",
+"zh": "现代的",
+"level": "a2"
+},
+{
+"word": "modifier",
+"pos": "v.",
+"zh": "修改；更改",
+"level": "a2"
+},
+{
+"word": "modèle",
+"pos": "n.m.",
+"zh": "模型；模范；型号",
+"level": "a2"
+},
+{
+"word": "moi-même",
+"pos": "pron.",
+"zh": "我自己；本人",
+"level": "a2"
+},
+{
+"word": "moitié",
+"pos": "n.f.",
+"zh": "一半；半个",
+"level": "a2"
+},
+{
+"word": "monnaie",
+"pos": "n.f.",
+"zh": "货币；零钱",
+"level": "a2"
+},
+{
+"word": "monstre",
+"pos": "n.m.",
+"zh": "怪物",
+"level": "a2"
+},
+{
+"word": "montagne",
+"pos": "n.f.",
+"zh": "山；山区",
+"level": "a2"
+},
+{
+"word": "montre",
+"pos": "n.f.",
+"zh": "手表",
+"level": "a2"
+},
+{
+"word": "morceau",
+"pos": "n.m.",
+"zh": "一块；片段",
+"level": "a2"
+},
+{
+"word": "mordre",
+"pos": "v.",
+"zh": "咬；咬住",
+"level": "a2"
+},
+{
+"word": "mort",
+"pos": "n.",
+"zh": "死亡；死者；死的",
+"level": "a2"
+},
+{
+"word": "mosquée",
+"pos": "n.f.",
+"zh": "清真寺",
+"level": "a2"
+},
+{
+"word": "moteur",
+"pos": "n.m.",
+"zh": "发动机；马达",
+"level": "a2"
+},
+{
+"word": "mouche",
+"pos": "n.f.",
+"zh": "苍蝇",
+"level": "a2"
+},
+{
+"word": "mouchoir",
+"pos": "n.m.",
+"zh": "手帕；纸巾",
+"level": "a2"
+},
+{
+"word": "mouiller",
+"pos": "v.",
+"zh": "弄湿",
+"level": "a2"
+},
+{
+"word": "mouillé",
+"pos": "adj.",
+"zh": "湿的",
+"level": "a2"
+},
+{
+"word": "mourir",
+"pos": "v.",
+"zh": "死；死亡",
+"level": "a2"
+},
+{
+"word": "moustache",
+"pos": "n.f.",
+"zh": "小胡子",
+"level": "a2"
+},
+{
+"word": "moustique",
+"pos": "n.m.",
+"zh": "蚊子",
+"level": "a2"
+},
+{
+"word": "moutarde",
+"pos": "n.f.",
+"zh": "芥末",
+"level": "a2"
+},
+{
+"word": "mouton",
+"pos": "n.m.",
+"zh": "绵羊；羊肉",
+"level": "a2"
+},
+{
+"word": "mouvement",
+"pos": "n.m.",
+"zh": "运动；动作",
+"level": "a2"
+},
+{
+"word": "moyen",
+"pos": "n.m.",
+"zh": "方法；手段",
+"level": "a2"
+},
+{
+"word": "moyenne",
+"pos": "n.f.",
+"zh": "平均数；中等",
+"level": "a2"
+},
+{
+"word": "muffin",
+"pos": "n.m.",
+"zh": "玛芬；松饼",
+"level": "a2"
+},
+{
+"word": "murmure",
+"pos": "n.m.",
+"zh": "低语声；潺潺声",
+"level": "a2"
+},
+{
+"word": "murmurer",
+"pos": "v.",
+"zh": "低声说；嘀咕",
+"level": "a2"
+},
+{
+"word": "muscle",
+"pos": "n.m.",
+"zh": "肌肉",
+"level": "a2"
+},
+{
+"word": "musical",
+"pos": "adj.",
+"zh": "音乐的",
+"level": "a2"
+},
+{
+"word": "musicien",
+"pos": "n.m.",
+"zh": "音乐家；乐手",
+"level": "a2"
+},
+{
+"word": "mystère",
+"pos": "n.m.",
+"zh": "秘密；谜",
+"level": "a2"
+},
+{
+"word": "mystérieux",
+"pos": "adj.",
+"zh": "神秘的",
+"level": "a2"
+},
+{
+"word": "mâle",
+"pos": "n.m.",
+"zh": "雄性；公的",
+"level": "a2"
+},
+{
+"word": "méchant",
+"pos": "adj.",
+"zh": "凶的；恶毒的；淘气的",
+"level": "a2"
+},
+{
+"word": "médaille",
+"pos": "n.f.",
+"zh": "奖章；勋章",
+"level": "a2"
+},
+{
+"word": "médecine",
+"pos": "n.f.",
+"zh": "医学；药",
+"level": "a2"
+},
+{
+"word": "médical",
+"pos": "adj.",
+"zh": "医学的；医疗的",
+"level": "a2"
+},
+{
+"word": "médicament",
+"pos": "n.m.",
+"zh": "药；药品",
+"level": "a2"
+},
+{
+"word": "mélanger",
+"pos": "v.",
+"zh": "混合；掺和",
+"level": "a2"
+},
+{
+"word": "mélodie",
+"pos": "n.f.",
+"zh": "旋律",
+"level": "a2"
+},
+{
+"word": "mémé",
+"pos": "n.f.",
+"zh": "奶奶；外婆（口语）",
+"level": "a2"
+},
+{
+"word": "ménage",
+"pos": "n.m.",
+"zh": "家务；打扫",
+"level": "a2"
+},
+{
+"word": "métal",
+"pos": "n.m.",
+"zh": "金属",
+"level": "a2"
+},
+{
+"word": "méthode",
+"pos": "n.f.",
+"zh": "方法",
+"level": "a2"
+},
+{
+"word": "métier",
+"pos": "n.m.",
+"zh": "职业；行当；手艺",
+"level": "a2"
+},
+{
+"word": "météo",
+"pos": "n.f.",
+"zh": "天气预报",
+"level": "a2"
+},
+{
+"word": "mûr",
+"pos": "adj.",
+"zh": "成熟的",
+"level": "a2"
+},
+{
+"word": "nage",
+"pos": "n.f.",
+"zh": "游泳；泳姿",
+"level": "a2"
+},
+{
+"word": "nageur",
+"pos": "n.m.",
+"zh": "游泳者；游泳运动员",
+"level": "a2"
+},
+{
+"word": "nain",
+"pos": "n.m.",
+"zh": "侏儒；矮子",
+"level": "a2"
+},
+{
+"word": "naissance",
+"pos": "n.f.",
+"zh": "出生；诞生",
+"level": "a2"
+},
+{
+"word": "nappe",
+"pos": "n.f.",
+"zh": "桌布",
+"level": "a2"
+},
+{
+"word": "natation",
+"pos": "n.f.",
+"zh": "游泳（运动）",
+"level": "a2"
+},
+{
+"word": "national",
+"pos": "adj.",
+"zh": "国家的；全国的",
+"level": "a2"
+},
+{
+"word": "nationalité",
+"pos": "n.f.",
+"zh": "国籍",
+"level": "a2"
+},
+{
+"word": "nature",
+"pos": "n.f.",
+"zh": "自然；本性",
+"level": "a2"
+},
+{
+"word": "naturel",
+"pos": "adj.",
+"zh": "自然的；天生的",
+"level": "a2"
+},
+{
+"word": "naturellement",
+"pos": "adv.",
+"zh": "自然地；当然",
+"level": "a2"
+},
+{
+"word": "naviguer",
+"pos": "v.",
+"zh": "航行；浏览",
+"level": "a2"
+},
+{
+"word": "naître",
+"pos": "v.",
+"zh": "出生；诞生",
+"level": "a2"
+},
+{
+"word": "nerveux",
+"pos": "adj.",
+"zh": "神经质的；紧张的",
+"level": "a2"
+},
+{
+"word": "nettoyage",
+"pos": "n.m.",
+"zh": "清洁；打扫",
+"level": "a2"
+},
+{
+"word": "nettoyer",
+"pos": "v.",
+"zh": "打扫；清洗",
+"level": "a2"
+},
+{
+"word": "nid",
+"pos": "n.m.",
+"zh": "巢；窝",
+"level": "a2"
+},
+{
+"word": "niveau",
+"pos": "n.m.",
+"zh": "水平；等级；楼层",
+"level": "a2"
+},
+{
+"word": "noble",
+"pos": "adj.",
+"zh": "高贵的；贵族的",
+"level": "a2"
+},
+{
+"word": "noeud",
+"pos": "n.m.",
+"zh": "结；节",
+"level": "a2"
+},
+{
+"word": "noisette",
+"pos": "n.f.",
+"zh": "榛子",
+"level": "a2"
+},
+{
+"word": "noix",
+"pos": "n.f.",
+"zh": "坚果；核桃",
+"level": "a2"
+},
+{
+"word": "nombre",
+"pos": "n.m.",
+"zh": "数目；数量",
+"level": "a2"
+},
+{
+"word": "nombreux",
+"pos": "adj.",
+"zh": "众多的；许多的",
+"level": "a2"
+},
+{
+"word": "nommer",
+"pos": "v.",
+"zh": "命名；任命",
+"level": "a2"
+},
+{
+"word": "nonne",
+"pos": "n.f.",
+"zh": "修女",
+"level": "a2"
+},
+{
+"word": "normalement",
+"pos": "adv.",
+"zh": "通常；正常地",
+"level": "a2"
+},
+{
+"word": "norvégien",
+"pos": "adj.",
+"zh": "挪威的；挪威语的",
+"level": "a2"
+},
+{
+"word": "note",
+"pos": "n.f.",
+"zh": "笔记；分数；音符",
+"level": "a2"
+},
+{
+"word": "noter",
+"pos": "v.",
+"zh": "记下；评分",
+"level": "a2"
+},
+{
+"word": "nouer",
+"pos": "v.",
+"zh": "打结；系上",
+"level": "a2"
+},
+{
+"word": "nouille",
+"pos": "n.f.",
+"zh": "面条",
+"level": "a2"
+},
+{
+"word": "nounou",
+"pos": "n.f.",
+"zh": "保姆（儿语）",
+"level": "a2"
+},
+{
+"word": "nourriture",
+"pos": "n.f.",
+"zh": "食物；营养",
+"level": "a2"
+},
+{
+"word": "nous-mêmes",
+"pos": "pron.",
+"zh": "我们自己",
+"level": "a2"
+},
+{
+"word": "nouvelle",
+"pos": "adj.",
+"zh": "消息；新闻；短篇小说",
+"level": "a2"
+},
+{
+"word": "nu",
+"pos": "adj.",
+"zh": "裸体的；光秃的",
+"level": "a2"
+},
+{
+"word": "nuage",
+"pos": "n.m.",
+"zh": "云；云朵",
+"level": "a2"
+},
+{
+"word": "nul",
+"pos": "adj.",
+"zh": "差劲的；（比分）零",
+"level": "a2"
+},
+{
+"word": "nécessaire",
+"pos": "adj.",
+"zh": "必需的；必要的",
+"level": "a2"
+}
+]

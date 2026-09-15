@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+*.dll
+*.mp3
+*.es3
+*.es3.bak_*
+*.tmp
+*.lock
+logs/
+scratch/
+backups/
+.serena/
+.zcode/
+
+# 大体积原始语料与中间产物: 由 tools/ 现场生成, 不入库
+data/raw/
+work/**/*.db
+work/**/*.csv
+work/**/venv/
+output/installer_pkg/
+output/release/

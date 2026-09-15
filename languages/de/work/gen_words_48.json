@@ -1,0 +1,602 @@
+[
+{
+"word": "Aufprall",
+"pos": "n.m.",
+"zh": "跳；跳跃；弹力",
+"level": "b1"
+},
+{
+"word": "aneinander",
+"pos": "adv.",
+"zh": "一起；共同；彼此",
+"level": "b1"
+},
+{
+"word": "Vorwurf",
+"pos": "n.m.",
+"zh": "断言；主张；申辩\\ 声明",
+"level": "b1"
+},
+{
+"word": "Sonntags",
+"pos": "n.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "Garde",
+"pos": "n.f.",
+"zh": "禁卫军；护卫队；守卫",
+"level": "b1"
+},
+{
+"word": "Sonde",
+"pos": "n.f.",
+"zh": "探索；调查；探针",
+"level": "b1"
+},
+{
+"word": "Unterhose",
+"pos": "n.f.",
+"zh": "裤子；长裤；短衬裤",
+"level": "b1"
+},
+{
+"word": "Instrumentalmusik",
+"pos": "n.f.",
+"zh": "器乐",
+"level": "b1"
+},
+{
+"word": "Heldin",
+"pos": "n.f.",
+"zh": "巾帼英雄；烈妇；女主角\\ 海洛因",
+"level": "b1"
+},
+{
+"word": "Psychopath",
+"pos": "n.m.",
+"zh": "精神病患者；变态人格者",
+"level": "b1"
+},
+{
+"word": "bezeugen",
+"pos": "v.",
+"zh": "证明；作证；声明",
+"level": "b1"
+},
+{
+"word": "Massage",
+"pos": "n.f.",
+"zh": "按摩；揉\\. 按摩；揉",
+"level": "b1"
+},
+{
+"word": "Pudding",
+"pos": "n.m.",
+"zh": "牛奶冻",
+"level": "b1"
+},
+{
+"word": "Line",
+"pos": "n.",
+"zh": "列；线；绳",
+"level": "b1"
+},
+{
+"word": "zwecklos",
+"pos": "adv.",
+"zh": "无目的的；无意义的",
+"level": "b1"
+},
+{
+"word": "Teilnehmer",
+"pos": "n.m.",
+"zh": "参加者；参加的",
+"level": "b1"
+},
+{
+"word": "Langeweile",
+"pos": "n.f.",
+"zh": "厌烦；厌倦；令人厌烦的事物",
+"level": "b1"
+},
+{
+"word": "Rudi",
+"pos": "n.",
+"zh": "贺拉斯",
+"level": "b1"
+},
+{
+"word": "Tabak",
+"pos": "n.m.",
+"zh": "烟草；香烟\\ 烟草",
+"level": "b1"
+},
+{
+"word": "übler",
+"pos": "adv.",
+"zh": "气味；臭气；香气",
+"level": "b1"
+},
+{
+"word": "Kodex",
+"pos": "n.m.",
+"zh": "手抄本；法典；药典\\ 编译码器",
+"level": "b1"
+},
+{
+"word": "Südamerika",
+"pos": "n.",
+"zh": "南美",
+"level": "b1"
+},
+{
+"word": "Schonen",
+"pos": "n.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "machtlos",
+"pos": "adj.",
+"zh": "无力的；无权的；无效能的",
+"level": "b1"
+},
+{
+"word": "Mythos",
+"pos": "n.m.",
+"zh": "神话；虚构的事；虚构的人",
+"level": "b1"
+},
+{
+"word": "ausschließlich",
+"pos": "adj.",
+"zh": "排外的；独占的；唯一的\\ 独占的",
+"level": "b1"
+},
+{
+"word": "zurückbekommen",
+"pos": "v.",
+"zh": "开垦；改造；感化",
+"level": "b1"
+},
+{
+"word": "Lebenszeichen",
+"pos": "n.",
+"zh": "符号；招牌；征兆",
+"level": "b1"
+},
+{
+"word": "anmachen",
+"pos": "v.",
+"zh": "投掷；抛；摇摆",
+"level": "b1"
+},
+{
+"word": "Sklaverei",
+"pos": "n.f.",
+"zh": "奴隶的身分；奴隶状态",
+"level": "b1"
+},
+{
+"word": "Haustier",
+"pos": "n.",
+"zh": "宠物；受宠爱的人；宠坏的孩子",
+"level": "b1"
+},
+{
+"word": "Stützpunkt",
+"pos": "n.m.",
+"zh": "底部；垒；基础",
+"level": "b1"
+},
+{
+"word": "Gesichtsausdruck",
+"pos": "n.m.",
+"zh": "美颜；表面的",
+"level": "b1"
+},
+{
+"word": "Fernbedienung",
+"pos": "n.f.",
+"zh": "遥远的；偏僻的；疏远的",
+"level": "b1"
+},
+{
+"word": "verstärkt",
+"pos": "adj.",
+"zh": "以债券作保证的；有担保的",
+"level": "b1"
+},
+{
+"word": "Element",
+"pos": "n.",
+"zh": "元件；元素；要素\\ 部分",
+"level": "b1"
+},
+{
+"word": "Verlegenheit",
+"pos": "n.f.",
+"zh": "笨拙的；棘手的",
+"level": "b1"
+},
+{
+"word": "Metro",
+"pos": "n.f.",
+"zh": "地铁",
+"level": "b1"
+},
+{
+"word": "Bruderschaft",
+"pos": "n.f.",
+"zh": "手足情谊；兄弟关系",
+"level": "b1"
+},
+{
+"word": "Bereitschaft",
+"pos": "n.f.",
+"zh": "可依靠的人；被喜爱的食品；备用品",
+"level": "b1"
+},
+{
+"word": "Börse",
+"pos": "n.f.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "Aufsatz",
+"pos": "n.m.",
+"zh": "随笔；短文；评论",
+"level": "b1"
+},
+{
+"word": "Untergrund",
+"pos": "n.m.",
+"zh": "底土；下层土",
+"level": "b1"
+},
+{
+"word": "Gegenstände",
+"pos": "n.",
+"zh": "材料；材料费；材料科学",
+"level": "b1"
+},
+{
+"word": "gebildet",
+"pos": "adj.",
+"zh": "受过教育的；有教养的",
+"level": "b1"
+},
+{
+"word": "Regiment",
+"pos": "n.",
+"zh": "团；组织",
+"level": "b1"
+},
+{
+"word": "kostenlos",
+"pos": "adv.",
+"zh": "自由的；享受政治权力的；允许的",
+"level": "b1"
+},
+{
+"word": "Ausschuss",
+"pos": "n.m.",
+"zh": "委员会\\ 委员会",
+"level": "b1"
+},
+{
+"word": "Feldwebel",
+"pos": "n.m.",
+"zh": "警察小队长；军士",
+"level": "b1"
+},
+{
+"word": "Durchdrehen",
+"pos": "n.",
+"zh": "纺纱\\ 纺丝",
+"level": "b1"
+},
+{
+"word": "ausgelassen",
+"pos": "v.",
+"zh": "嬉戏的；爱闹着玩的",
+"level": "b1"
+},
+{
+"word": "Tango",
+"pos": "n.m.",
+"zh": "探戈舞",
+"level": "b1"
+},
+{
+"word": "respektlos",
+"pos": "adv.",
+"zh": "失礼的；无礼的；不尊敬的",
+"level": "b1"
+},
+{
+"word": "Schwanzlutscher",
+"pos": "n.m.",
+"zh": "狗杂种；浑蛋",
+"level": "b1"
+},
+{
+"word": "Banane",
+"pos": "n.f.",
+"zh": "香蕉",
+"level": "b1"
+},
+{
+"word": "Geschäftspartner",
+"pos": "n.m.",
+"zh": "生意；事情；业务",
+"level": "b1"
+},
+{
+"word": "Psychologie",
+"pos": "n.f.",
+"zh": "心理学；心理状态\\ 心理学",
+"level": "b1"
+},
+{
+"word": "Belastung",
+"pos": "n.f.",
+"zh": "阻碍；妨害物；累赘\\ 累赘",
+"level": "b1"
+},
+{
+"word": "Bindung",
+"pos": "n.f.",
+"zh": "定置；固定；定色\\ 固定",
+"level": "b1"
+},
+{
+"word": "Menschenleben",
+"pos": "n.",
+"zh": "人；人类\\. 人类的；似人类的",
+"level": "b1"
+},
+{
+"word": "Öde",
+"pos": "n.f.",
+"zh": "沙漠；应得的赏罚；功劳\\. 沙漠的",
+"level": "b1"
+},
+{
+"word": "Ursprung",
+"pos": "n.m.",
+"zh": "发生；起源；创世记\\ 生殖",
+"level": "b1"
+},
+{
+"word": "Sektion",
+"pos": "n.f.",
+"zh": "区段；部分；区域",
+"level": "b1"
+},
+{
+"word": "Schleppen",
+"pos": "n.",
+"zh": "拖车；拖吊",
+"level": "b1"
+},
+{
+"word": "Terrasse",
+"pos": "n.f.",
+"zh": "阶地；梯田；房屋之平顶",
+"level": "b1"
+},
+{
+"word": "Wilhelm",
+"pos": "n.",
+"zh": "征服者威廉一世；诺曼王朝威廉一世",
+"level": "b1"
+},
+{
+"word": "Sekretär",
+"pos": "n.m.",
+"zh": "秘书；书记；大臣\\ 秘书",
+"level": "b1"
+},
+{
+"word": "beruhigend",
+"pos": "adv.",
+"zh": "止痛药",
+"level": "b1"
+},
+{
+"word": "Impuls",
+"pos": "n.m.",
+"zh": "冲动；驱使；刺激",
+"level": "b1"
+},
+{
+"word": "voreilig",
+"pos": "adv.",
+"zh": "性急地；任性地",
+"level": "b1"
+},
+{
+"word": "Peitsche",
+"pos": "n.f.",
+"zh": "鞭子；抽打；车夫",
+"level": "b1"
+},
+{
+"word": "Seemann",
+"pos": "n.m.",
+"zh": "船员；海员；水兵\\ 海员",
+"level": "b1"
+},
+{
+"word": "aufgeräumt",
+"pos": "adv.",
+"zh": "整齐的；整洁的",
+"level": "b1"
+},
+{
+"word": "Absturz",
+"pos": "n.m.",
+"zh": "哗啦声；猛撞；崩溃",
+"level": "b1"
+},
+{
+"word": "begleichen",
+"pos": "v.",
+"zh": "整理；安放",
+"level": "b1"
+},
+{
+"word": "Orgasmus",
+"pos": "n.m.",
+"zh": "极度兴奋；兴奋的高潮；爆发\\ 性欲高潮",
+"level": "b1"
+},
+{
+"word": "Toto",
+"pos": "n.",
+"zh": "提；负；携带",
+"level": "b1"
+},
+{
+"word": "Vögelchen",
+"pos": "n.",
+"zh": "一点点；少许；一会儿",
+"level": "b1"
+},
+{
+"word": "Kavallerie",
+"pos": "n.f.",
+"zh": "骑兵",
+"level": "b1"
+},
+{
+"word": "allerseits",
+"pos": "adv.",
+"zh": "在各方面；到处",
+"level": "b1"
+},
+{
+"word": "Beifall",
+"pos": "n.m.",
+"zh": "欢呼；称赞；喝彩",
+"level": "b1"
+},
+{
+"word": "global",
+"pos": "adj.",
+"zh": "通用的；全球的；球形的",
+"level": "b1"
+},
+{
+"word": "Pennsylvania",
+"pos": "n.",
+"zh": "共和国；联邦；国民整体",
+"level": "b1"
+},
+{
+"word": "aufziehen",
+"pos": "v.",
+"zh": "风；气息；气味",
+"level": "b1"
+},
+{
+"word": "verdreht",
+"pos": "adv.",
+"zh": "乖张的；故意作对的；有悖常情的",
+"level": "b1"
+},
+{
+"word": "Vorschuss",
+"pos": "n.m.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "Bananen",
+"pos": "n.",
+"zh": "香蕉",
+"level": "b1"
+},
+{
+"word": "Beschützer",
+"pos": "n.m.",
+"zh": "小圆盾；防卫物",
+"level": "b1"
+},
+{
+"word": "wahrlich",
+"pos": "adj.",
+"zh": "实在；的确；真的",
+"level": "b1"
+},
+{
+"word": "Betrag",
+"pos": "n.m.",
+"zh": "总数；总额\\. 总计；等同",
+"level": "b1"
+},
+{
+"word": "hysterisch",
+"pos": "adj.",
+"zh": "歇斯底里的",
+"level": "b1"
+},
+{
+"word": "Schlägerei",
+"pos": "n.f.",
+"zh": "打架；争吵；斗志\\. 对抗",
+"level": "b1"
+},
+{
+"word": "Bösewicht",
+"pos": "n.m.",
+"zh": "坏人；恶人",
+"level": "b1"
+},
+{
+"word": "Auszeichnung",
+"pos": "n.f.",
+"zh": "荣誉；赞美；骑士爵位的授予礼",
+"level": "b1"
+},
+{
+"word": "ermöglichen",
+"pos": "v.",
+"zh": "使容易；促进；帮助\\ 使容易",
+"level": "b1"
+},
+{
+"word": "Komiker",
+"pos": "n.m.",
+"zh": "连环漫画；喜剧演员",
+"level": "b1"
+},
+{
+"word": "eingegangen",
+"pos": "v.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "Kondom",
+"pos": "n.",
+"zh": "避孕套\\ 阴茎套",
+"level": "b1"
+},
+{
+"word": "Besserung",
+"pos": "n.f.",
+"zh": "改进；改善；增值\\ 改良",
+"level": "b1"
+},
+{
+"word": "Karton",
+"pos": "n.m.",
+"zh": "薄纸板\\ 咭纸；特等纸板；卡纸板",
+"level": "b1"
+}
+]

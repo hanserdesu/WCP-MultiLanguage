@@ -1,0 +1,602 @@
+[
+{
+"word": "impatience",
+"pos": "n.f.",
+"zh": "不耐烦；急切",
+"level": "a2"
+},
+{
+"word": "impoli",
+"pos": "adj.",
+"zh": "不礼貌的；无礼的",
+"level": "a2"
+},
+{
+"word": "importance",
+"pos": "n.f.",
+"zh": "重要性",
+"level": "a2"
+},
+{
+"word": "importer",
+"pos": "v.",
+"zh": "要紧；重要；进口",
+"level": "a2"
+},
+{
+"word": "impressionnant",
+"pos": "adj.",
+"zh": "令人惊叹的；可观的",
+"level": "a2"
+},
+{
+"word": "imprimer",
+"pos": "v.",
+"zh": "印刷；打印",
+"level": "a2"
+},
+{
+"word": "incapable",
+"pos": "adj.",
+"zh": "无能的；不能的",
+"level": "a2"
+},
+{
+"word": "incorrect",
+"pos": "adj.",
+"zh": "不正确的；失礼的",
+"level": "a2"
+},
+{
+"word": "indien",
+"pos": "n.m.",
+"zh": "印度的；印第安的；印度人",
+"level": "a2"
+},
+{
+"word": "indiquer",
+"pos": "v.",
+"zh": "指示；表明",
+"level": "a2"
+},
+{
+"word": "industrie",
+"pos": "n.f.",
+"zh": "工业",
+"level": "a2"
+},
+{
+"word": "infirmier",
+"pos": "n.m.",
+"zh": "护士",
+"level": "a2"
+},
+{
+"word": "influence",
+"pos": "n.f.",
+"zh": "影响；影响力",
+"level": "a2"
+},
+{
+"word": "info",
+"pos": "n.f.",
+"zh": "消息；信息（口语）",
+"level": "a2"
+},
+{
+"word": "information",
+"pos": "n.f.",
+"zh": "信息；消息",
+"level": "a2"
+},
+{
+"word": "informer",
+"pos": "v.",
+"zh": "通知；告知",
+"level": "a2"
+},
+{
+"word": "ingrédient",
+"pos": "n.m.",
+"zh": "成分；配料",
+"level": "a2"
+},
+{
+"word": "ingénieur",
+"pos": "n.m.",
+"zh": "工程师",
+"level": "a2"
+},
+{
+"word": "injuste",
+"pos": "adj.",
+"zh": "不公正的",
+"level": "a2"
+},
+{
+"word": "innocent",
+"pos": "adj.",
+"zh": "无辜的；天真的",
+"level": "a2"
+},
+{
+"word": "inquiet",
+"pos": "adj.",
+"zh": "担心的；不安的",
+"level": "a2"
+},
+{
+"word": "inquiéter",
+"pos": "v.",
+"zh": "担心；使不安",
+"level": "a2"
+},
+{
+"word": "insecte",
+"pos": "n.m.",
+"zh": "昆虫",
+"level": "a2"
+},
+{
+"word": "inspiration",
+"pos": "n.f.",
+"zh": "灵感；吸气",
+"level": "a2"
+},
+{
+"word": "installer",
+"pos": "v.",
+"zh": "安装；安顿",
+"level": "a2"
+},
+{
+"word": "instant",
+"pos": "n.m.",
+"zh": "瞬间；片刻",
+"level": "a2"
+},
+{
+"word": "instituteur",
+"pos": "n.m.",
+"zh": "小学教师",
+"level": "a2"
+},
+{
+"word": "instrument",
+"pos": "n.m.",
+"zh": "乐器；仪器；工具",
+"level": "a2"
+},
+{
+"word": "interdit",
+"pos": "adj.",
+"zh": "被禁止的",
+"level": "a2"
+},
+{
+"word": "international",
+"pos": "adj.",
+"zh": "国际的",
+"level": "a2"
+},
+{
+"word": "internet",
+"pos": "n.",
+"zh": "互联网",
+"level": "a2"
+},
+{
+"word": "interrupteur",
+"pos": "n.m.",
+"zh": "开关",
+"level": "a2"
+},
+{
+"word": "intéressé",
+"pos": "adj.",
+"zh": "感兴趣的；有利害关系的",
+"level": "a2"
+},
+{
+"word": "intérieur",
+"pos": "n.m.",
+"zh": "内部；里面",
+"level": "a2"
+},
+{
+"word": "inventer",
+"pos": "v.",
+"zh": "发明；编造",
+"level": "a2"
+},
+{
+"word": "invitation",
+"pos": "n.f.",
+"zh": "邀请",
+"level": "a2"
+},
+{
+"word": "invité",
+"pos": "n.m.",
+"zh": "客人；受邀者",
+"level": "a2"
+},
+{
+"word": "irlandais",
+"pos": "adj.",
+"zh": "爱尔兰的；爱尔兰人",
+"level": "a2"
+},
+{
+"word": "jaloux",
+"pos": "adj.",
+"zh": "嫉妒的",
+"level": "a2"
+},
+{
+"word": "jambon",
+"pos": "n.m.",
+"zh": "火腿",
+"level": "a2"
+},
+{
+"word": "japonais",
+"pos": "n.m.",
+"zh": "日本的；日本人；日语",
+"level": "a2"
+},
+{
+"word": "jardinier",
+"pos": "n.m.",
+"zh": "园丁",
+"level": "a2"
+},
+{
+"word": "jazz",
+"pos": "n.m.",
+"zh": "爵士乐",
+"level": "a2"
+},
+{
+"word": "jean",
+"pos": "n.m.",
+"zh": "牛仔裤；牛仔布",
+"level": "a2"
+},
+{
+"word": "jeter",
+"pos": "v.",
+"zh": "扔；抛；扔掉",
+"level": "a2"
+},
+{
+"word": "jeunesse",
+"pos": "n.f.",
+"zh": "青年；青春",
+"level": "a2"
+},
+{
+"word": "job",
+"pos": "n.m.",
+"zh": "工作（口语）",
+"level": "a2"
+},
+{
+"word": "jogging",
+"pos": "n.m.",
+"zh": "慢跑；运动裤",
+"level": "a2"
+},
+{
+"word": "joue",
+"pos": "n.f.",
+"zh": "脸颊",
+"level": "a2"
+},
+{
+"word": "jouet",
+"pos": "n.m.",
+"zh": "玩具",
+"level": "a2"
+},
+{
+"word": "joueur",
+"pos": "n.m.",
+"zh": "玩家；运动员",
+"level": "a2"
+},
+{
+"word": "journal",
+"pos": "n.m.",
+"zh": "报纸；日记",
+"level": "a2"
+},
+{
+"word": "journaliste",
+"pos": "n.",
+"zh": "记者",
+"level": "a2"
+},
+{
+"word": "joyeux",
+"pos": "adj.",
+"zh": "快乐的；欢快的",
+"level": "a2"
+},
+{
+"word": "juif",
+"pos": "n.m.",
+"zh": "犹太人；犹太的",
+"level": "a2"
+},
+{
+"word": "jumeau",
+"pos": "n.m.",
+"zh": "双胞胎之一",
+"level": "a2"
+},
+{
+"word": "jumelle",
+"pos": "n.f.",
+"zh": "双胞胎之一；（复）双筒望远镜",
+"level": "a2"
+},
+{
+"word": "junior",
+"pos": "adj.",
+"zh": "年少的；青少年的",
+"level": "a2"
+},
+{
+"word": "jurer",
+"pos": "v.",
+"zh": "发誓；咒骂",
+"level": "a2"
+},
+{
+"word": "jusque",
+"pos": "prép.",
+"zh": "直到",
+"level": "a2"
+},
+{
+"word": "juste",
+"pos": "adj.",
+"zh": "正确的；恰好；公正的",
+"level": "a2"
+},
+{
+"word": "justement",
+"pos": "adv.",
+"zh": "正好；恰恰",
+"level": "a2"
+},
+{
+"word": "karaté",
+"pos": "n.m.",
+"zh": "空手道",
+"level": "a2"
+},
+{
+"word": "ketchup",
+"pos": "n.m.",
+"zh": "番茄酱",
+"level": "a2"
+},
+{
+"word": "kiosque",
+"pos": "n.m.",
+"zh": "报亭；售货亭",
+"level": "a2"
+},
+{
+"word": "l'un",
+"pos": "pron.",
+"zh": "两者之一；一个…另一个",
+"level": "a2"
+},
+{
+"word": "la plupart de",
+"pos": "adj.",
+"zh": "大多数；大部分",
+"level": "a2"
+},
+{
+"word": "la plupart des",
+"pos": "adj.",
+"zh": "大多数",
+"level": "a2"
+},
+{
+"word": "labo",
+"pos": "n.m.",
+"zh": "实验室（口语）",
+"level": "a2"
+},
+{
+"word": "laboratoire",
+"pos": "n.m.",
+"zh": "实验室",
+"level": "a2"
+},
+{
+"word": "lac",
+"pos": "n.m.",
+"zh": "湖；湖泊",
+"level": "a2"
+},
+{
+"word": "lacet",
+"pos": "n.m.",
+"zh": "鞋带；系带",
+"level": "a2"
+},
+{
+"word": "laid",
+"pos": "adj.",
+"zh": "丑的；难看的",
+"level": "a2"
+},
+{
+"word": "laine",
+"pos": "n.f.",
+"zh": "羊毛；毛线",
+"level": "a2"
+},
+{
+"word": "laitue",
+"pos": "n.f.",
+"zh": "莴苣；生菜",
+"level": "a2"
+},
+{
+"word": "lancer",
+"pos": "v.",
+"zh": "投掷；发起",
+"level": "a2"
+},
+{
+"word": "lanterne",
+"pos": "n.f.",
+"zh": "灯笼；提灯",
+"level": "a2"
+},
+{
+"word": "lapin",
+"pos": "n.m.",
+"zh": "兔子",
+"level": "a2"
+},
+{
+"word": "lard",
+"pos": "n.m.",
+"zh": "培根；肥肉",
+"level": "a2"
+},
+{
+"word": "large",
+"pos": "adj.",
+"zh": "宽的；宽大的",
+"level": "a2"
+},
+{
+"word": "larme",
+"pos": "n.f.",
+"zh": "眼泪",
+"level": "a2"
+},
+{
+"word": "laser",
+"pos": "n.m.",
+"zh": "激光",
+"level": "a2"
+},
+{
+"word": "lavabo",
+"pos": "n.m.",
+"zh": "洗手池；盥洗盆",
+"level": "a2"
+},
+{
+"word": "lecture",
+"pos": "n.f.",
+"zh": "阅读",
+"level": "a2"
+},
+{
+"word": "lendemain",
+"pos": "n.m.",
+"zh": "次日；第二天",
+"level": "a2"
+},
+{
+"word": "lent",
+"pos": "adj.",
+"zh": "慢的；缓慢的",
+"level": "a2"
+},
+{
+"word": "lentement",
+"pos": "adv.",
+"zh": "慢慢地",
+"level": "a2"
+},
+{
+"word": "lessive",
+"pos": "n.f.",
+"zh": "洗衣粉；洗衣",
+"level": "a2"
+},
+{
+"word": "leçon",
+"pos": "n.f.",
+"zh": "课；教训",
+"level": "a2"
+},
+{
+"word": "lien",
+"pos": "n.m.",
+"zh": "联系；纽带；链接",
+"level": "a2"
+},
+{
+"word": "lieu",
+"pos": "n.m.",
+"zh": "地点；场所",
+"level": "a2"
+},
+{
+"word": "ligne",
+"pos": "n.f.",
+"zh": "线；行列",
+"level": "a2"
+},
+{
+"word": "limite",
+"pos": "n.f.",
+"zh": "界限；极限",
+"level": "a2"
+},
+{
+"word": "limiter",
+"pos": "v.",
+"zh": "限制；限定",
+"level": "a2"
+},
+{
+"word": "limonade",
+"pos": "n.f.",
+"zh": "柠檬水",
+"level": "a2"
+},
+{
+"word": "linge",
+"pos": "n.m.",
+"zh": "衣物；内衣",
+"level": "a2"
+},
+{
+"word": "liquide",
+"pos": "n.m.",
+"zh": "液体；液态的",
+"level": "a2"
+},
+{
+"word": "liste",
+"pos": "n.f.",
+"zh": "清单；名单",
+"level": "a2"
+},
+{
+"word": "littérature",
+"pos": "n.f.",
+"zh": "文学",
+"level": "a2"
+},
+{
+"word": "livrer",
+"pos": "v.",
+"zh": "递送；交付",
+"level": "a2"
+}
+]

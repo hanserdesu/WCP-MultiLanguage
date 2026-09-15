@@ -1,0 +1,602 @@
+[
+{
+"word": "impératrice",
+"pos": "n.f.",
+"zh": "女皇；皇后",
+"level": "b2"
+},
+{
+"word": "impérial",
+"pos": "adj.",
+"zh": "帝国的；专横的",
+"level": "b2"
+},
+{
+"word": "inachevé",
+"pos": "adj.",
+"zh": "未完成的",
+"level": "b2"
+},
+{
+"word": "inadmissible",
+"pos": "adj.",
+"zh": "不可容忍的；离谱的",
+"level": "b2"
+},
+{
+"word": "inaperçu",
+"pos": "adj.",
+"zh": "未被注意的；不显眼的",
+"level": "b2"
+},
+{
+"word": "inaudible",
+"pos": "adj.",
+"zh": "听不见的",
+"level": "b2"
+},
+{
+"word": "incapacité",
+"pos": "n.f.",
+"zh": "无能力；丧失劳动能力",
+"level": "b2"
+},
+{
+"word": "incarner",
+"pos": "v.",
+"zh": "化身；体现",
+"level": "b2"
+},
+{
+"word": "incendier",
+"pos": "v.",
+"zh": "纵火焚烧",
+"level": "b2"
+},
+{
+"word": "incertitude",
+"pos": "n.f.",
+"zh": "不确定；犹豫不决",
+"level": "b2"
+},
+{
+"word": "incinérer",
+"pos": "v.",
+"zh": "焚化；火化",
+"level": "b2"
+},
+{
+"word": "incision",
+"pos": "n.f.",
+"zh": "切口；切开",
+"level": "b2"
+},
+{
+"word": "incliner",
+"pos": "v.",
+"zh": "使倾斜；倾向",
+"level": "b2"
+},
+{
+"word": "incompétent",
+"pos": "adj.",
+"zh": "不称职的；无能的",
+"level": "b2"
+},
+{
+"word": "incontrôlable",
+"pos": "adj.",
+"zh": "无法控制的",
+"level": "b2"
+},
+{
+"word": "incruster",
+"pos": "v.",
+"zh": "镶嵌；使嵌入",
+"level": "b2"
+},
+{
+"word": "inculpation",
+"pos": "n.f.",
+"zh": "控告；指控",
+"level": "b2"
+},
+{
+"word": "inculper",
+"pos": "v.",
+"zh": "控告",
+"level": "b2"
+},
+{
+"word": "inculte",
+"pos": "adj.",
+"zh": "无教养的；无知的",
+"level": "b2"
+},
+{
+"word": "incurable",
+"pos": "adj.",
+"zh": "无法治愈的；无可救药的",
+"level": "b2"
+},
+{
+"word": "indemne",
+"pos": "adj.",
+"zh": "安然无恙的",
+"level": "b2"
+},
+{
+"word": "indemnité",
+"pos": "n.f.",
+"zh": "补偿金；津贴",
+"level": "b2"
+},
+{
+"word": "indic",
+"pos": "n.m.",
+"zh": "告密者（口语）",
+"level": "b2"
+},
+{
+"word": "indigne",
+"pos": "adj.",
+"zh": "不相称的；可耻的",
+"level": "b2"
+},
+{
+"word": "indigner",
+"pos": "v.",
+"zh": "使愤慨；激怒",
+"level": "b2"
+},
+{
+"word": "indigène",
+"pos": "n.",
+"zh": "土著；本地的",
+"level": "b2"
+},
+{
+"word": "indiscret",
+"pos": "adj.",
+"zh": "多嘴的；冒失的",
+"level": "b2"
+},
+{
+"word": "indiscrétion",
+"pos": "n.f.",
+"zh": "冒失；泄密",
+"level": "b2"
+},
+{
+"word": "indulgence",
+"pos": "n.f.",
+"zh": "宽容；宽厚",
+"level": "b2"
+},
+{
+"word": "indulgent",
+"pos": "adj.",
+"zh": "宽容的；宽大的",
+"level": "b2"
+},
+{
+"word": "inestimable",
+"pos": "adj.",
+"zh": "无法估价的；极珍贵的",
+"level": "b2"
+},
+{
+"word": "infaillible",
+"pos": "adj.",
+"zh": "不会犯错的；万无一失的",
+"level": "b2"
+},
+{
+"word": "infamie",
+"pos": "n.f.",
+"zh": "丑行；耻辱",
+"level": "b2"
+},
+{
+"word": "infanterie",
+"pos": "n.f.",
+"zh": "步兵；步兵团",
+"level": "b2"
+},
+{
+"word": "infantile",
+"pos": "adj.",
+"zh": "幼儿的；幼稚的",
+"level": "b2"
+},
+{
+"word": "infarctus",
+"pos": "n.m.",
+"zh": "梗死；心肌梗死",
+"level": "b2"
+},
+{
+"word": "infect",
+"pos": "adj.",
+"zh": "恶臭的；极糟的",
+"level": "b2"
+},
+{
+"word": "infecter",
+"pos": "v.",
+"zh": "感染；污染",
+"level": "b2"
+},
+{
+"word": "infernal",
+"pos": "adj.",
+"zh": "地狱般的；难熬的",
+"level": "b2"
+},
+{
+"word": "infiltrer",
+"pos": "v.",
+"zh": "渗透；潜入",
+"level": "b2"
+},
+{
+"word": "infini",
+"pos": "adj.",
+"zh": "无限的；无穷的",
+"level": "b2"
+},
+{
+"word": "infiniment",
+"pos": "adv.",
+"zh": "无限地；极其",
+"level": "b2"
+},
+{
+"word": "infirmerie",
+"pos": "n.f.",
+"zh": "医务室",
+"level": "b2"
+},
+{
+"word": "infliger",
+"pos": "v.",
+"zh": "使遭受；施加",
+"level": "b2"
+},
+{
+"word": "influent",
+"pos": "adj.",
+"zh": "有影响力的",
+"level": "b2"
+},
+{
+"word": "informateur",
+"pos": "n.m.",
+"zh": "线人；情报提供者",
+"level": "b2"
+},
+{
+"word": "infraction",
+"pos": "n.f.",
+"zh": "违法行为；违规",
+"level": "b2"
+},
+{
+"word": "infâme",
+"pos": "adj.",
+"zh": "可耻的；恶劣的",
+"level": "b2"
+},
+{
+"word": "ingrat",
+"pos": "adj.",
+"zh": "忘恩负义的；不讨好的",
+"level": "b2"
+},
+{
+"word": "ingénieux",
+"pos": "adj.",
+"zh": "巧妙的；有独创性的",
+"level": "b2"
+},
+{
+"word": "inhabituel",
+"pos": "adj.",
+"zh": "不寻常的；罕见的",
+"level": "b2"
+},
+{
+"word": "inhumain",
+"pos": "adj.",
+"zh": "非人的；残忍的",
+"level": "b2"
+},
+{
+"word": "initier",
+"pos": "v.",
+"zh": "启蒙；传授入门",
+"level": "b2"
+},
+{
+"word": "injecter",
+"pos": "v.",
+"zh": "注射；注入",
+"level": "b2"
+},
+{
+"word": "injure",
+"pos": "n.f.",
+"zh": "辱骂；侮辱",
+"level": "b2"
+},
+{
+"word": "injustice",
+"pos": "n.f.",
+"zh": "不公正；不义",
+"level": "b2"
+},
+{
+"word": "inoffensif",
+"pos": "adj.",
+"zh": "无害的",
+"level": "b2"
+},
+{
+"word": "inonder",
+"pos": "v.",
+"zh": "淹没；充斥",
+"level": "b2"
+},
+{
+"word": "inouï",
+"pos": "adj.",
+"zh": "闻所未闻的；惊人的",
+"level": "b2"
+},
+{
+"word": "inquisition",
+"pos": "n.f.",
+"zh": "宗教裁判；严查",
+"level": "b2"
+},
+{
+"word": "insatiable",
+"pos": "adj.",
+"zh": "贪得无厌的；永不满足的",
+"level": "b2"
+},
+{
+"word": "insensible",
+"pos": "adj.",
+"zh": "无感觉的；无动于衷的",
+"level": "b2"
+},
+{
+"word": "insensé",
+"pos": "adj.",
+"zh": "荒唐的；疯狂的",
+"level": "b2"
+},
+{
+"word": "insigne",
+"pos": "n.m.",
+"zh": "徽章；勋章",
+"level": "b2"
+},
+{
+"word": "insignifiant",
+"pos": "adj.",
+"zh": "微不足道的",
+"level": "b2"
+},
+{
+"word": "insinuer",
+"pos": "v.",
+"zh": "暗示；影射",
+"level": "b2"
+},
+{
+"word": "insolence",
+"pos": "n.f.",
+"zh": "无礼；傲慢",
+"level": "b2"
+},
+{
+"word": "insolent",
+"pos": "adj.",
+"zh": "傲慢无礼的",
+"level": "b2"
+},
+{
+"word": "insolite",
+"pos": "adj.",
+"zh": "奇特的；少见的",
+"level": "b2"
+},
+{
+"word": "insouciant",
+"pos": "adj.",
+"zh": "无忧无虑的",
+"level": "b2"
+},
+{
+"word": "instantané",
+"pos": "adj.",
+"zh": "瞬间的；即时的",
+"level": "b2"
+},
+{
+"word": "instaurer",
+"pos": "v.",
+"zh": "设立；建立",
+"level": "b2"
+},
+{
+"word": "instruire",
+"pos": "v.",
+"zh": "教育；告知",
+"level": "b2"
+},
+{
+"word": "insu",
+"pos": "n.m.",
+"zh": "不知；瞒着",
+"level": "b2"
+},
+{
+"word": "intact",
+"pos": "adj.",
+"zh": "完好无损的",
+"level": "b2"
+},
+{
+"word": "intellectuel",
+"pos": "adj.",
+"zh": "智力的；知识分子的",
+"level": "b2"
+},
+{
+"word": "intello",
+"pos": "n.",
+"zh": "知识分子（口语）",
+"level": "b2"
+},
+{
+"word": "intendant",
+"pos": "n.m.",
+"zh": "总管；事务主管",
+"level": "b2"
+},
+{
+"word": "intercepter",
+"pos": "v.",
+"zh": "拦截；截住",
+"level": "b2"
+},
+{
+"word": "interférence",
+"pos": "n.f.",
+"zh": "干扰；干涉",
+"level": "b2"
+},
+{
+"word": "interférer",
+"pos": "v.",
+"zh": "干扰；干涉",
+"level": "b2"
+},
+{
+"word": "interminable",
+"pos": "adj.",
+"zh": "没完没了的",
+"level": "b2"
+},
+{
+"word": "interner",
+"pos": "v.",
+"zh": "强制收治；拘禁",
+"level": "b2"
+},
+{
+"word": "interpréter",
+"pos": "v.",
+"zh": "口译；诠释；扮演",
+"level": "b2"
+},
+{
+"word": "intestin",
+"pos": "n.m.",
+"zh": "肠",
+"level": "b2"
+},
+{
+"word": "intimider",
+"pos": "v.",
+"zh": "恐吓；使胆怯",
+"level": "b2"
+},
+{
+"word": "intituler",
+"pos": "v.",
+"zh": "题为；定名为",
+"level": "b2"
+},
+{
+"word": "intrigue",
+"pos": "n.f.",
+"zh": "阴谋；情节",
+"level": "b2"
+},
+{
+"word": "intrus",
+"pos": "n.m.",
+"zh": "闯入者；不速之客",
+"level": "b2"
+},
+{
+"word": "intrusion",
+"pos": "n.f.",
+"zh": "闯入；侵扰",
+"level": "b2"
+},
+{
+"word": "intégrité",
+"pos": "n.f.",
+"zh": "完整；正直",
+"level": "b2"
+},
+{
+"word": "investigation",
+"pos": "n.f.",
+"zh": "调查；侦查",
+"level": "b2"
+},
+{
+"word": "invincible",
+"pos": "adj.",
+"zh": "无敌的；不可战胜的",
+"level": "b2"
+},
+{
+"word": "involontaire",
+"pos": "adj.",
+"zh": "无意的；非自愿的",
+"level": "b2"
+},
+{
+"word": "invoquer",
+"pos": "v.",
+"zh": "援引；祈求",
+"level": "b2"
+},
+{
+"word": "iris",
+"pos": "n.m.",
+"zh": "鸢尾；虹膜",
+"level": "b2"
+},
+{
+"word": "irriter",
+"pos": "v.",
+"zh": "激怒；使不适",
+"level": "b2"
+},
+{
+"word": "irruption",
+"pos": "n.f.",
+"zh": "闯入；突然出现",
+"level": "b2"
+},
+{
+"word": "irréel",
+"pos": "adj.",
+"zh": "虚幻的；不真实的",
+"level": "b2"
+},
+{
+"word": "irréprochable",
+"pos": "adj.",
+"zh": "无可指摘的；完美无瑕的",
+"level": "b2"
+}
+]

@@ -1,0 +1,2702 @@
+[
+ {
+  "w": "お手上げ",
+  "r": "おてあげ",
+  "en": "all over; given in; given up hope; bring to knees",
+  "zh": "遍;给予；放弃希望；跪下",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お早う",
+  "r": "おはよう",
+  "en": "Good morning",
+  "zh": "早上好",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お洒落",
+  "r": "おしゃれ",
+  "en": "smartly dressed; someone smartly dressed; fashion-conscious",
+  "zh": "时髦；爱打扮",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お産",
+  "r": "おさん",
+  "en": "(giving) birth",
+  "zh": "（给予）出生",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お目出度う",
+  "r": "おめでとう",
+  "en": "(ateji) (int) (uk) Congratulations!; an auspicious occasion!",
+  "zh": "恭喜；可喜可贺",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お祖母さん",
+  "r": "おばあさん",
+  "en": "grandmother; female senior-citizen",
+  "zh": "祖母；奶奶",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お祖父さん",
+  "r": "おじいさん",
+  "en": "grandfather; male senior-citizen",
+  "zh": "祖父；爷爷",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お菜",
+  "r": "おかず",
+  "en": "side dish; accompaniment for rice dishes",
+  "zh": "小菜;米饭的配菜",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お蔭",
+  "r": "おかげ",
+  "en": "(your) backing; assistance",
+  "zh": "帮忙，托……的福，多亏了……",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お蔭様で",
+  "r": "おかげさまで",
+  "en": "Thanks to god; thanks to you",
+  "zh": "感谢上帝；谢谢你",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お襁褓",
+  "r": "おむつ",
+  "en": "diaper; nappy",
+  "zh": "尿布;尿布",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お邪魔します",
+  "r": "おじゃまします",
+  "en": "Excuse me for disturbing (interrupting) you",
+  "zh": "抱歉打扰（打断）你",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "お願いします",
+  "r": "おねがいします",
+  "en": "please",
+  "zh": "请（用于请求他人做某事时，表达礼貌的用语）。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "かも知れない",
+  "r": "かもしれない",
+  "en": "may; might; perhaps; may be; possibly",
+  "zh": "可能;可能;也许;或许;可能",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "がっくり",
+  "r": "",
+  "en": "heartbroken",
+  "zh": "肠断",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "がっしり",
+  "r": "",
+  "en": "firmly; solidly; tough",
+  "zh": "牢牢;扎实地；艰难的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "がっちり",
+  "r": "",
+  "en": "solidly built; tightly; shrewd; calculating",
+  "zh": "建造坚固；紧紧;精明;计算",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "がる",
+  "r": "",
+  "en": "feel",
+  "zh": "感觉",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "きちっと",
+  "r": "",
+  "en": "exactly; perfectly",
+  "zh": "确切地;完美",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "きっかり",
+  "r": "",
+  "en": "exactly; precisely",
+  "zh": "确切地;恰恰",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "きっちり",
+  "r": "",
+  "en": "precisely; tightly",
+  "zh": "恰恰;紧紧",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "きっぱり",
+  "r": "",
+  "en": "clearly; plainly; distinctly",
+  "zh": "清楚地;明明白白地；明显地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "くっきり",
+  "r": "",
+  "en": "distinctly; clearly; boldly",
+  "zh": "明显地；清楚地;大胆地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "くっ付く",
+  "r": "くっつく",
+  "en": "to adhere to; to keep close to",
+  "zh": "坚持；保持靠近",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "くっ付ける",
+  "r": "くっつける",
+  "en": "to attach",
+  "zh": "附加",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ぐっと",
+  "r": "",
+  "en": "firmly; fast; much; more",
+  "zh": "牢牢;快速地;很多;更多的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ぐらい",
+  "r": "",
+  "en": "approximately",
+  "zh": "大约",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "けれど",
+  "r": "",
+  "en": "but; however",
+  "zh": "但;然而",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "げっそり",
+  "r": "",
+  "en": "being disheartened; losing weight",
+  "zh": "灰心丧气；减肥",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "こだわる",
+  "r": "",
+  "en": "to fuss over; to be particular about; to be concerned about",
+  "zh": "大惊小怪；有所讲究；关心",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "この間",
+  "r": "このあいだ",
+  "en": "the other day; lately; recently",
+  "zh": "日前;最近;最近",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "この頃",
+  "r": "このごろ",
+  "en": "recently",
+  "zh": "最近",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ご座います",
+  "r": "ございます",
+  "en": "to be (polite); to exist",
+  "zh": "要有（礼貌）；存在",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ご無沙汰",
+  "r": "ごぶさた",
+  "en": "not writing or contacting for a while",
+  "zh": "有一段时间没有写信或联系",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ご苦労様",
+  "r": "ごくろうさま",
+  "en": "Thank you very much for your....",
+  "zh": "非常感谢您的....",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ご馳走",
+  "r": "ごちそう",
+  "en": "feast; treating (someone)",
+  "zh": "盛宴;治疗（某人）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ご馳走さま",
+  "r": "ごちそうさま",
+  "en": "feast",
+  "zh": "盛宴",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "さっと",
+  "r": "",
+  "en": "quickly; suddenly",
+  "zh": "迅速地;突然",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "さん",
+  "r": "さん",
+  "en": "Mr or Mrs",
+  "zh": "桑",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "し",
+  "r": "ひっし",
+  "en": "10^24 (kanji is JIS X 0212 kuten 4906); septillion (American); quadrillion (British)",
+  "zh": "拼命、极度努力的；绝望的状态。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "しくじる",
+  "r": "",
+  "en": "to fail; to fall through; to blunder",
+  "zh": "失败；跌倒；犯错误",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "しぶとい",
+  "r": "",
+  "en": "tenacious; stubborn",
+  "zh": "顽强;固执的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "しょっちゅう",
+  "r": "",
+  "en": "always; constantly",
+  "zh": "总是;不断地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "じっくり",
+  "r": "",
+  "en": "deliberately; carefully",
+  "zh": "故意地;小心",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "じゃん拳",
+  "r": "じゃんけん",
+  "en": "rock-scissors-paper game",
+  "zh": "石头剪刀布游戏",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "すばしこい",
+  "r": "",
+  "en": "nimble; smart; quick",
+  "zh": "灵活;聪明的;快的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "すれ違う",
+  "r": "すれちがう",
+  "en": "to pass by one another; to disagree; to miss each other",
+  "zh": "互相擦肩而过；不同意；互相想念",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "すんなり",
+  "r": "",
+  "en": "pass with no objection; slim; slender",
+  "zh": "无异议通过；苗条的;细长的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ずばり",
+  "r": "",
+  "en": "decisively; decidedly; once and for all; unreservedly; frankly",
+  "zh": "果断地；坚决地；一劳永逸；毫无保留地；坦白地说",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ずぶ濡れ",
+  "r": "ずぶぬれ",
+  "en": "soaked; dripping wet",
+  "zh": "浸泡；湿淋淋的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ずらっと",
+  "r": "",
+  "en": "in a line; in a row",
+  "zh": "排成一行；连续",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ずるずる",
+  "r": "",
+  "en": "sound or act of dragging; loose; inconclusive but unwanted situation; trailingly",
+  "zh": "拖拉的声音或动作；松动的;不确定但不想要的情况；尾随地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ずれ",
+  "r": "",
+  "en": "gap; slippage",
+  "zh": "差距;滑移",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ずれる",
+  "r": "",
+  "en": "to slide; to slip off",
+  "zh": "滑动；滑落",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "その上",
+  "r": "そのうえ",
+  "en": "in addition; furthermore",
+  "zh": "此外;此外",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "その内",
+  "r": "そのうち",
+  "en": "eventually; sooner or later; of the previously mentioned",
+  "zh": "迟早，不久之后",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "その外",
+  "r": "そのほか",
+  "en": "besides; in addition; the rest",
+  "zh": "除了;此外;其余的部分",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "その為",
+  "r": "そのため",
+  "en": "hence; for that reason",
+  "zh": "因此;因为这个原因",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ぞんざい",
+  "r": "",
+  "en": "rude; careless; slovenly",
+  "zh": "粗鲁的;粗心;不修边幅地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "たった",
+  "r": "たった",
+  "en": "only; merely; but; no more than",
+  "zh": "只有，仅仅",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "だぶだぶ",
+  "r": "",
+  "en": "loose; baggy",
+  "zh": "松动的;宽松的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "だらけ",
+  "r": "",
+  "en": "implying (negatively) that something is full of e.g. mistakes",
+  "zh": "暗示（消极地）某物充满了例如错误",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ちやほや",
+  "r": "",
+  "en": "pamper; make a fuss of; spoil",
+  "zh": "宠爱；大惊小怪；破坏",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ちょくちょく",
+  "r": "",
+  "en": "often; frequently; now and then; occasionally",
+  "zh": "经常;频繁地;时不时；偶尔",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ちらっと",
+  "r": "",
+  "en": "at a glance; by accident",
+  "zh": "一目了然；意外地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "てっきり",
+  "r": "",
+  "en": "surely; certainly; beyond doubt",
+  "zh": "一定;当然;毫无疑问",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "てんで",
+  "r": "",
+  "en": "(not) at all; altogether; entirely",
+  "zh": "（一点也不;共;完全",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "でかい",
+  "r": "",
+  "en": "huge",
+  "zh": "巨大的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "と",
+  "r": "せいと",
+  "en": "1. if (conjunction); 2. promoted pawn (shogi) (abbr)",
+  "zh": "学生",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "とんだ",
+  "r": "",
+  "en": "terrible; awful; serious; preposterous; absolutely not",
+  "zh": "糟糕的;可怕;严肃的;荒谬;绝对不是",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "どうぞ宜しく",
+  "r": "どうぞよろしく",
+  "en": "pleased to meet you",
+  "zh": "很高兴认识你",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "どうにか",
+  "r": "どうにか",
+  "en": "in some way or other; one way or another",
+  "zh": "设法，想办法；不知怎么地。用来表示经过努力或者偶然地达成了某件事。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "どうやら",
+  "r": "どうやら",
+  "en": "it seems like; somehow or other",
+  "zh": "似乎，好像，看来",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "なんか",
+  "r": "",
+  "en": "things like ...; or something like that .. (often derogatory)",
+  "zh": "诸如……之类的事情；或类似的东西..（通常是贬义的）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "なんだかんだ",
+  "r": "",
+  "en": "something or other",
+  "zh": "某事或其他",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "にも拘らず",
+  "r": "にもかかわらず",
+  "en": "in spite of; nevertheless",
+  "zh": "尽管;尽管如此",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ねじ回し",
+  "r": "ねじまわし",
+  "en": "screwdriver",
+  "zh": "螺丝刀；改锥",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ばてる",
+  "r": "",
+  "en": "to be exhausted; to be worn out",
+  "zh": "疲惫不堪；累垮",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ひょっと",
+  "r": "",
+  "en": "possibly; accidentally",
+  "zh": "或许；偶然",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "びっしょり",
+  "r": "",
+  "en": "wet through; drenched",
+  "zh": "湿透",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "びり",
+  "r": "",
+  "en": "last on the list; at the bottom",
+  "zh": "最后一名；末尾",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ふんだん",
+  "r": "",
+  "en": "plentiful; abundant; lavish",
+  "zh": "大量；绰绰有余",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ぶかぶか",
+  "r": "",
+  "en": "too big; baggy",
+  "zh": "肥大；宽松",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ぶらぶら",
+  "r": "",
+  "en": "dangle heavily; swing; sway to and fro; aimlessly; idly; lazily; loiter; loaf; be idle; stroll idly",
+  "zh": "闲逛；晃荡",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ぶら下げる",
+  "r": "ぶらさげる",
+  "en": "to hang; to suspend; to dangle; to swing",
+  "zh": "悬挂；拎",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ぺこぺこ",
+  "r": "",
+  "en": "fawn; be very hungry",
+  "zh": "饿扁了；空腹",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ほっと",
+  "r": "",
+  "en": "feel relieved",
+  "zh": "放心；安心",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ぼつぼつ",
+  "r": "",
+  "en": "gradually; here and there; spots; pimples",
+  "zh": "渐渐；零零星星",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ぼやく",
+  "r": "",
+  "en": "to grumble; to complain",
+  "zh": "发牢骚；抱怨",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ぼやける",
+  "r": "",
+  "en": "to become dim; to become blurred",
+  "zh": "模糊；不清晰",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "まごつく",
+  "r": "",
+  "en": "to be confused; to be flustered",
+  "zh": "慌张；不知所措",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "もろに",
+  "r": "",
+  "en": "completely; all the way",
+  "zh": "迎面地；狠狠地",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "やっ付ける",
+  "r": "やっつける",
+  "en": "to beat",
+  "zh": "干掉；迅速解决",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ややこしい",
+  "r": "",
+  "en": "puzzling; tangled; complicated; complex",
+  "zh": "复杂的；麻烦的",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "やり遂げる",
+  "r": "やりとげる",
+  "en": "to accomplish",
+  "zh": "坚持完成；做完",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ゆとり",
+  "r": "",
+  "en": "reserve; affluence; room; time (to spare)",
+  "zh": "富余；从容",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "アクセル",
+  "r": "",
+  "en": "accelerator",
+  "zh": "加速器",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "アップ",
+  "r": "",
+  "en": "up",
+  "zh": "向上",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "アプローチ",
+  "r": "",
+  "en": "approach (in golf)",
+  "zh": "接近（高尔夫）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "アマチュア",
+  "r": "",
+  "en": "amateur",
+  "zh": "业余",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "アラブ",
+  "r": "",
+  "en": "Arab",
+  "zh": "阿拉伯",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "アルカリ",
+  "r": "",
+  "en": "alkali",
+  "zh": "碱",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "アルミ",
+  "r": "",
+  "en": "aluminum (Al); aluminium",
+  "zh": "铝（Al）；铝",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "アワー",
+  "r": "",
+  "en": "hour",
+  "zh": "小时",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "アンケート",
+  "r": "",
+  "en": "(fr:) (n) questionnaire (fr: enquete); survey",
+  "zh": "问卷调查",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "アンコール",
+  "r": "",
+  "en": "encore",
+  "zh": "安可",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "イエス",
+  "r": "",
+  "en": "Jesus; yes",
+  "zh": "耶稣;是的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "インターチェンジ",
+  "r": "",
+  "en": "interchange",
+  "zh": "交换",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "インターナショナル",
+  "r": "",
+  "en": "international",
+  "zh": "国际的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "インターフォン",
+  "r": "",
+  "en": "intercom",
+  "zh": "对讲机",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "インテリ",
+  "r": "",
+  "en": "egghead; intelligentsia",
+  "zh": "书呆子；知识分子",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "インフォメーション",
+  "r": "",
+  "en": "information",
+  "zh": "信息",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "インフレ",
+  "r": "",
+  "en": "inflation",
+  "zh": "通货膨胀",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ウェートレス",
+  "r": "",
+  "en": "waitress",
+  "zh": "女服务员",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "エアメール",
+  "r": "",
+  "en": "air mail",
+  "zh": "航空邮件",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "エレガント",
+  "r": "",
+  "en": "elegant",
+  "zh": "优雅的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "エンジニア",
+  "r": "",
+  "en": "engineer",
+  "zh": "工程师",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "オリエンテーション",
+  "r": "",
+  "en": "orientation",
+  "zh": "方向",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "オレンジ",
+  "r": "",
+  "en": "an orange",
+  "zh": "一个橙子",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "オンライン",
+  "r": "",
+  "en": "on-line",
+  "zh": "在线的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "オーケー",
+  "r": "",
+  "en": "OK",
+  "zh": "好的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "オートマチック",
+  "r": "",
+  "en": "automatic",
+  "zh": "自动的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "オープン",
+  "r": "",
+  "en": "open",
+  "zh": "打开",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "カクテル",
+  "r": "",
+  "en": "cocktail",
+  "zh": "鸡尾酒",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "カット",
+  "r": "",
+  "en": "cut; cutting",
+  "zh": "切;切割",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "カテゴリー",
+  "r": "",
+  "en": "category",
+  "zh": "类别",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "カムバック",
+  "r": "",
+  "en": "comeback",
+  "zh": "卷土重来",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "カメラマン",
+  "r": "",
+  "en": "cameraman",
+  "zh": "摄影师",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "カルテ",
+  "r": "",
+  "en": "(de:) (n) clinical records (de: Karte)",
+  "zh": "病历",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "カンニング",
+  "r": "",
+  "en": "cunning; cheat",
+  "zh": "狡猾;欺骗",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "カーペット",
+  "r": "",
+  "en": "carpet",
+  "zh": "地毯",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ガイド",
+  "r": "",
+  "en": "tour guide",
+  "zh": "导游",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ガイドブック",
+  "r": "",
+  "en": "guidebook",
+  "zh": "指南",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ガレージ",
+  "r": "",
+  "en": "garage (at house)",
+  "zh": "车库（家里）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "キャッチ",
+  "r": "",
+  "en": "catch",
+  "zh": "抓住",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "キャリア",
+  "r": "",
+  "en": "career; career government employee",
+  "zh": "经历；职业生涯",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "クイズ",
+  "r": "",
+  "en": "quiz",
+  "zh": "测验",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "クラブ",
+  "r": "",
+  "en": "club; crab",
+  "zh": "俱乐部;螃蟹",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "クレーン",
+  "r": "",
+  "en": "crane",
+  "zh": "起重机",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "グラフ",
+  "r": "",
+  "en": "graph",
+  "zh": "图形",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "グレー",
+  "r": "",
+  "en": "grey; gray",
+  "zh": "灰色的;灰色的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ゲスト",
+  "r": "",
+  "en": "guest",
+  "zh": "客人",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "コマーシャル",
+  "r": "",
+  "en": "a commercial",
+  "zh": "商业广告",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "コミュニケーション",
+  "r": "",
+  "en": "communication",
+  "zh": "沟通",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "コメント",
+  "r": "",
+  "en": "comment",
+  "zh": "评论",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "コンタクト",
+  "r": "",
+  "en": "contact; contact lens",
+  "zh": "接触;隐形眼镜",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "コンテスト",
+  "r": "",
+  "en": "contest",
+  "zh": "竞赛",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "コントラスト",
+  "r": "",
+  "en": "contrast",
+  "zh": "对比",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "コントロール",
+  "r": "",
+  "en": "control",
+  "zh": "控制",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "コンパス",
+  "r": "",
+  "en": "compass",
+  "zh": "罗盘",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "コーナー",
+  "r": "",
+  "en": "corner",
+  "zh": "角落",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "サイクル",
+  "r": "",
+  "en": "cycle",
+  "zh": "循环",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "サイズ",
+  "r": "",
+  "en": "size",
+  "zh": "尺寸",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "サボる",
+  "r": "",
+  "en": "to be truant; to be idle; to sabotage by slowness",
+  "zh": "逃学；闲着；缓慢破坏",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "サンキュー",
+  "r": "",
+  "en": "thank you",
+  "zh": "谢谢",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "サンタクロース",
+  "r": "",
+  "en": "Santa Claus",
+  "zh": "圣诞老人",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "システム",
+  "r": "",
+  "en": "system",
+  "zh": "系统",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "シック",
+  "r": "",
+  "en": "chic",
+  "zh": "别致的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "シナリオ",
+  "r": "",
+  "en": "scenario",
+  "zh": "设想",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ショック",
+  "r": "",
+  "en": "shock",
+  "zh": "震惊",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ショー",
+  "r": "",
+  "en": "show",
+  "zh": "展示",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "シート",
+  "r": "",
+  "en": "seat; sheet",
+  "zh": "座位;床单",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ジャズ",
+  "r": "",
+  "en": "jazz",
+  "zh": "爵士乐",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ジャンパー",
+  "r": "",
+  "en": "jacket; jumper",
+  "zh": "夹克;毛衣",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ジャンプ",
+  "r": "",
+  "en": "jump",
+  "zh": "跳",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ジャンボ",
+  "r": "",
+  "en": "jumbo",
+  "zh": "巨型",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ジャンル",
+  "r": "",
+  "en": "genre",
+  "zh": "类型",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ジーパン",
+  "r": "",
+  "en": "jeans (lit: jeans pants); dungarees",
+  "zh": "牛仔裤（字面意思：牛仔裤）；工装裤",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "スタジオ",
+  "r": "",
+  "en": "studio",
+  "zh": "工作室",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "スチーム",
+  "r": "",
+  "en": "steam",
+  "zh": "蒸汽",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ストライキ",
+  "r": "",
+  "en": "strike",
+  "zh": "罢工",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ストレス",
+  "r": "",
+  "en": "stress",
+  "zh": "压力",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ストロボ",
+  "r": "",
+  "en": "stroboscope (lit: strobo); strobe lamp; stroboscopic lamp",
+  "zh": "频闪仪（点亮：频闪）；频闪灯；频闪灯",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ストロー",
+  "r": "",
+  "en": "straw",
+  "zh": "稻草",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "スピード",
+  "r": "",
+  "en": "speed",
+  "zh": "速度",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "スプリング",
+  "r": "",
+  "en": "spring",
+  "zh": "春天",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "スペース",
+  "r": "",
+  "en": "space",
+  "zh": "空间",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "スポーツカー",
+  "r": "",
+  "en": "sports car",
+  "zh": "跑车",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "スラックス",
+  "r": "",
+  "en": "slacks",
+  "zh": "休闲裤",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "セクション",
+  "r": "",
+  "en": "section",
+  "zh": "部分",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "セックス",
+  "r": "",
+  "en": "sexual intercourse",
+  "zh": "性交",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "セレモニー",
+  "r": "",
+  "en": "ceremony",
+  "zh": "仪式",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "センス",
+  "r": "",
+  "en": "good sense (for music style tact etc.)",
+  "zh": "良好的判断力（对于音乐风格的机智等）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "セール",
+  "r": "",
+  "en": "sale",
+  "zh": "销售",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ゼリー",
+  "r": "",
+  "en": "1. jelly; 2. Jerry",
+  "zh": "1. 果冻； 2.杰瑞",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ソックス",
+  "r": "",
+  "en": "socks",
+  "zh": "袜子",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ソロ",
+  "r": "",
+  "en": "solo",
+  "zh": "独奏",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ソース",
+  "r": "",
+  "en": "source",
+  "zh": "来源",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "タイトル",
+  "r": "",
+  "en": "title",
+  "zh": "标题",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "タイピスト",
+  "r": "",
+  "en": "typist",
+  "zh": "打字员",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "タイマー",
+  "r": "",
+  "en": "timer",
+  "zh": "定时器",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "タイミング",
+  "r": "",
+  "en": "timing",
+  "zh": "定时",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "タイム",
+  "r": "",
+  "en": "time",
+  "zh": "时间",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "タイムリー",
+  "r": "",
+  "en": "timely; run-batted-in (baseball); RBI",
+  "zh": "及时;跑垒（棒球）；印度储备银行",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "タイヤ",
+  "r": "",
+  "en": "tire; tyre",
+  "zh": "胎;胎",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "タイル",
+  "r": "",
+  "en": "tile",
+  "zh": "瓦",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "タレント",
+  "r": "",
+  "en": "talent; star; personality",
+  "zh": "天赋;星星;性格",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "タワー",
+  "r": "",
+  "en": "tower",
+  "zh": "塔",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ダウン",
+  "r": "",
+  "en": "down",
+  "zh": "向下",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ダブる",
+  "r": "",
+  "en": "to coincide (fall on the same day); to have two of something; to repeat a school year after failing",
+  "zh": "重合（同一天）；拥有两件东西；失败后重读一个学年",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ダンプ",
+  "r": "",
+  "en": "dump",
+  "zh": "倾倒",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ダース",
+  "r": "",
+  "en": "dozen",
+  "zh": "打",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "チェンジ",
+  "r": "",
+  "en": "change",
+  "zh": "改变",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "チャイム",
+  "r": "",
+  "en": "chime",
+  "zh": "钟声",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "チャンネル",
+  "r": "",
+  "en": "a channel",
+  "zh": "一个频道",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "チームワーク",
+  "r": "",
+  "en": "teamwork",
+  "zh": "团队合作",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ティッシュペーパー",
+  "r": "",
+  "en": "tissue paper",
+  "zh": "棉纸",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "テレックス",
+  "r": "",
+  "en": "telex; teletypewriter exchange",
+  "zh": "电传;电传打字机交换",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "デコレーション",
+  "r": "",
+  "en": "decoration",
+  "zh": "装饰",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "デザイン",
+  "r": "",
+  "en": "design",
+  "zh": "设计",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "デザート",
+  "r": "",
+  "en": "dessert",
+  "zh": "甜点",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "デッサン",
+  "r": "",
+  "en": "(fr:) (n) rough sketch (fr: dessin)",
+  "zh": "素描；草图",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "デモンストレーション",
+  "r": "",
+  "en": "demonstration",
+  "zh": "示范",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "データ",
+  "r": "",
+  "en": "data",
+  "zh": "数据",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "トラブル",
+  "r": "",
+  "en": "trouble (sometimes used as a verb)",
+  "zh": "麻烦（有时用作动词）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "トランジスター",
+  "r": "",
+  "en": "transistor",
+  "zh": "晶体管",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "トーン",
+  "r": "",
+  "en": "tone",
+  "zh": "语气",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ドライ",
+  "r": "",
+  "en": "dry",
+  "zh": "干燥",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ドライクリーニング",
+  "r": "",
+  "en": "dry cleaning",
+  "zh": "干洗",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ドライバー",
+  "r": "",
+  "en": "driver; screwdriver",
+  "zh": "司机;螺丝刀",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ドライブイン",
+  "r": "",
+  "en": "drive in",
+  "zh": "开车进来",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ドリル",
+  "r": "",
+  "en": "drill",
+  "zh": "钻头",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ナイター",
+  "r": "",
+  "en": "game under lights (e.g. baseball) (lit: nighter); night game",
+  "zh": "夜场比赛",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ナプキン",
+  "r": "",
+  "en": "napkin",
+  "zh": "餐巾",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ナンセンス",
+  "r": "",
+  "en": "nonsense",
+  "zh": "废话",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ニュアンス",
+  "r": "",
+  "en": "nuance",
+  "zh": "细微差别",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ニュー",
+  "r": "",
+  "en": "new",
+  "zh": "新（前缀）",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ネガ",
+  "r": "",
+  "en": "(photographic) negative",
+  "zh": "底片；负片",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ノイローゼ",
+  "r": "",
+  "en": "(de:) (n) neurosis (de: Neurose)",
+  "zh": "神经衰弱",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ハンガー",
+  "r": "",
+  "en": "hangar; (coat) hanger; hunger",
+  "zh": "衣架",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "バッジ",
+  "r": "",
+  "en": "badge",
+  "zh": "徽章；证章",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "バット",
+  "r": "",
+  "en": "bat; vat",
+  "zh": "球棒",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "バー",
+  "r": "",
+  "en": "bar",
+  "zh": "酒吧；棒",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "パジャマ",
+  "r": "",
+  "en": "pajamas; pyjamas",
+  "zh": "睡衣",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "パチンコ",
+  "r": "",
+  "en": "pachinko (Japanese pinball)",
+  "zh": "弹珠机；柏青哥",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "パトカー",
+  "r": "",
+  "en": "patrol car",
+  "zh": "警车；巡逻车",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "パンク",
+  "r": "",
+  "en": "1. (abbr) puncture; bursting; 2. punk",
+  "zh": "爆胎；故障",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ヒント",
+  "r": "",
+  "en": "hint",
+  "zh": "提示；暗示",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ビジネス",
+  "r": "",
+  "en": "business",
+  "zh": "商务；生意",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ビールス",
+  "r": "",
+  "en": "virus",
+  "zh": "病毒",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ファイト",
+  "r": "",
+  "en": "fight",
+  "zh": "斗志；拼搏",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ファイル",
+  "r": "",
+  "en": "file",
+  "zh": "文件夹；档案",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ファン",
+  "r": "",
+  "en": "fan; fun",
+  "zh": "粉丝；风扇",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "フィルター",
+  "r": "",
+  "en": "(camera) filter",
+  "zh": "滤网；滤镜",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "フェリー",
+  "r": "",
+  "en": "ferry",
+  "zh": "渡轮；渡船",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "フォーム",
+  "r": "",
+  "en": "foam; form",
+  "zh": "姿势；形式",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "フロント",
+  "r": "",
+  "en": "front",
+  "zh": "前台；正面",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ブザー",
+  "r": "",
+  "en": "buzzer",
+  "zh": "蜂鸣器；警报器",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ブルー",
+  "r": "",
+  "en": "blue",
+  "zh": "蓝色；忧郁",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ブーツ",
+  "r": "",
+  "en": "boots",
+  "zh": "长筒靴",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ブーム",
+  "r": "",
+  "en": "boom",
+  "zh": "热潮；风靡",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ベスト",
+  "r": "",
+  "en": "best; vest",
+  "zh": "最好；背心",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ベストセラー",
+  "r": "",
+  "en": "best-seller",
+  "zh": "畅销书",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ベース",
+  "r": "",
+  "en": "base; bass",
+  "zh": "基础；低音",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ペア",
+  "r": "",
+  "en": "pair; pear",
+  "zh": "一对；一副",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ホース",
+  "r": "",
+  "en": "hose",
+  "zh": "软管；水管",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ホール",
+  "r": "",
+  "en": "hall; hole",
+  "zh": "大厅；孔洞",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ボイコット",
+  "r": "",
+  "en": "boycott",
+  "zh": "抵制；罢买",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ボルト",
+  "r": "",
+  "en": "volt; bolt",
+  "zh": "伏特；螺栓",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ポイント",
+  "r": "",
+  "en": "point",
+  "zh": "要点；积分",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ポジション",
+  "r": "",
+  "en": "position",
+  "zh": "位置；岗位",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ポット",
+  "r": "",
+  "en": "pot",
+  "zh": "热水壶；壶",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ポンプ",
+  "r": "",
+  "en": "pump",
+  "zh": "泵；抽水机",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ポーズ",
+  "r": "",
+  "en": "pause",
+  "zh": "姿势；暂停",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "マスコミ",
+  "r": "",
+  "en": "mass communication",
+  "zh": "大众传媒",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "マッサージ",
+  "r": "",
+  "en": "massage",
+  "zh": "按摩",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "マーク",
+  "r": "",
+  "en": "mark",
+  "zh": "记号；标记",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ミスプリント",
+  "r": "",
+  "en": "misprint",
+  "zh": "印刷错误",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ミセス",
+  "r": "",
+  "en": "Mrs.",
+  "zh": "夫人；太太",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ミュージック",
+  "r": "",
+  "en": "music",
+  "zh": "音乐",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ムード",
+  "r": "",
+  "en": "mood",
+  "zh": "气氛；情绪",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "メッセージ",
+  "r": "",
+  "en": "message",
+  "zh": "留言；讯息",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "メディア",
+  "r": "",
+  "en": "media",
+  "zh": "媒体",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "メロディー",
+  "r": "",
+  "en": "melody",
+  "zh": "旋律；曲调",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "メーカー",
+  "r": "",
+  "en": "maker",
+  "zh": "制造商；厂商",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "モニター",
+  "r": "",
+  "en": "(computer) monitor",
+  "zh": "显示器；监视",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "モーテル",
+  "r": "",
+  "en": "motel",
+  "zh": "汽车旅馆",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ヤング",
+  "r": "",
+  "en": "young",
+  "zh": "年轻人",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ユニフォーム",
+  "r": "",
+  "en": "uniform",
+  "zh": "制服",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ユニーク",
+  "r": "",
+  "en": "unique",
+  "zh": "独特；别致",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ライス",
+  "r": "",
+  "en": "rice",
+  "zh": "米饭",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ラベル",
+  "r": "",
+  "en": "label",
+  "zh": "标签",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ランプ",
+  "r": "",
+  "en": "lamp; ramp; headlight; light",
+  "zh": "灯；油灯",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ルーズ",
+  "r": "",
+  "en": "loose",
+  "zh": "松动的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ルール",
+  "r": "",
+  "en": "rule",
+  "zh": "规则",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "レギュラー",
+  "r": "",
+  "en": "regular",
+  "zh": "常规的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "レクリエーション",
+  "r": "",
+  "en": "recreation",
+  "zh": "娱乐",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "レッスン",
+  "r": "",
+  "en": "lesson",
+  "zh": "课",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "レディー",
+  "r": "",
+  "en": "lady",
+  "zh": "女士",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "レバー",
+  "r": "",
+  "en": "lever; liver",
+  "zh": "杠杆;肝",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "レンジ",
+  "r": "",
+  "en": "range; stove",
+  "zh": "范围;火炉",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "レンタカー",
+  "r": "",
+  "en": "hire car (lit: rent-a-car)",
+  "zh": "租车（字面意思：租车）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "レントゲン",
+  "r": "",
+  "en": "X-ray (lit: Roentgen)",
+  "zh": "X 射线（点亮：伦琴）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "レース",
+  "r": "",
+  "en": "race; lace",
+  "zh": "种族;蕾丝",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ロマンチック",
+  "r": "",
+  "en": "romantic",
+  "zh": "浪漫的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ロープ",
+  "r": "",
+  "en": "rope",
+  "zh": "绳索",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ローマ字",
+  "r": "ローマじ",
+  "en": "romanization; Roman letters",
+  "zh": "罗马化；罗马字母",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ワット",
+  "r": "",
+  "en": "watt",
+  "zh": "瓦",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "ヶ月",
+  "r": "かげつ",
+  "en": "#NAME?",
+  "zh": "＃姓名？",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "一々",
+  "r": "いちいち",
+  "en": "one by one; separately",
+  "zh": "逐个;分别地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ }
+]

@@ -1,0 +1,602 @@
+[
+{
+"word": "hauteur",
+"pos": "n.f.",
+"zh": "高度；傲慢",
+"level": "b1"
+},
+{
+"word": "haïr",
+"pos": "v.",
+"zh": "憎恨；痛恨",
+"level": "b1"
+},
+{
+"word": "historien",
+"pos": "n.m.",
+"zh": "历史学家",
+"level": "b1"
+},
+{
+"word": "historique",
+"pos": "adj.",
+"zh": "历史的；历史性的",
+"level": "b1"
+},
+{
+"word": "hiérarchie",
+"pos": "n.f.",
+"zh": "等级制度；层次",
+"level": "b1"
+},
+{
+"word": "hockey",
+"pos": "n.m.",
+"zh": "冰球；曲棍球",
+"level": "b1"
+},
+{
+"word": "homard",
+"pos": "n.m.",
+"zh": "龙虾",
+"level": "b1"
+},
+{
+"word": "hommage",
+"pos": "n.m.",
+"zh": "致敬；敬意",
+"level": "b1"
+},
+{
+"word": "homosexualité",
+"pos": "n.f.",
+"zh": "同性恋",
+"level": "b1"
+},
+{
+"word": "homosexuel",
+"pos": "adj.",
+"zh": "同性恋的；同性恋者",
+"level": "b1"
+},
+{
+"word": "honneur",
+"pos": "n.m.",
+"zh": "荣誉；名誉；敬意",
+"level": "b1"
+},
+{
+"word": "honnêtement",
+"pos": "adv.",
+"zh": "诚实地；老实说",
+"level": "b1"
+},
+{
+"word": "honnêteté",
+"pos": "n.f.",
+"zh": "诚实；正直",
+"level": "b1"
+},
+{
+"word": "honorer",
+"pos": "v.",
+"zh": "尊敬；履行",
+"level": "b1"
+},
+{
+"word": "honte",
+"pos": "n.f.",
+"zh": "羞耻；耻辱",
+"level": "b1"
+},
+{
+"word": "honteux",
+"pos": "adj.",
+"zh": "可耻的；羞耻的",
+"level": "b1"
+},
+{
+"word": "horizon",
+"pos": "n.m.",
+"zh": "地平线；眼界",
+"level": "b1"
+},
+{
+"word": "hormis",
+"pos": "prép.",
+"zh": "除…之外",
+"level": "b1"
+},
+{
+"word": "hormone",
+"pos": "n.f.",
+"zh": "激素；荷尔蒙",
+"level": "b1"
+},
+{
+"word": "horoscope",
+"pos": "n.m.",
+"zh": "星座运势",
+"level": "b1"
+},
+{
+"word": "horriblement",
+"pos": "adv.",
+"zh": "可怕地；极其",
+"level": "b1"
+},
+{
+"word": "hostile",
+"pos": "adj.",
+"zh": "敌对的",
+"level": "b1"
+},
+{
+"word": "humanité",
+"pos": "n.f.",
+"zh": "人类；人性；人道",
+"level": "b1"
+},
+{
+"word": "humidité",
+"pos": "n.f.",
+"zh": "湿度；潮湿",
+"level": "b1"
+},
+{
+"word": "humiliation",
+"pos": "n.f.",
+"zh": "羞辱；屈辱",
+"level": "b1"
+},
+{
+"word": "humilier",
+"pos": "v.",
+"zh": "羞辱；使丢脸",
+"level": "b1"
+},
+{
+"word": "humilié",
+"pos": "adj.",
+"zh": "受辱的；蒙羞的",
+"level": "b1"
+},
+{
+"word": "hutte",
+"pos": "n.f.",
+"zh": "小木屋；棚屋",
+"level": "b1"
+},
+{
+"word": "huître",
+"pos": "n.f.",
+"zh": "牡蛎",
+"level": "b1"
+},
+{
+"word": "hyper",
+"pos": "adv.",
+"zh": "非常；特别（口语）",
+"level": "b1"
+},
+{
+"word": "hypnose",
+"pos": "n.f.",
+"zh": "催眠",
+"level": "b1"
+},
+{
+"word": "hypocrisie",
+"pos": "n.f.",
+"zh": "虚伪",
+"level": "b1"
+},
+{
+"word": "hypocrite",
+"pos": "n.",
+"zh": "伪善的；伪君子",
+"level": "b1"
+},
+{
+"word": "hâte",
+"pos": "n.f.",
+"zh": "急忙；仓促",
+"level": "b1"
+},
+{
+"word": "hélas",
+"pos": "interj.",
+"zh": "唉（表遗憾）",
+"level": "b1"
+},
+{
+"word": "héritage",
+"pos": "n.m.",
+"zh": "遗产；继承",
+"level": "b1"
+},
+{
+"word": "hériter",
+"pos": "v.",
+"zh": "继承",
+"level": "b1"
+},
+{
+"word": "héritier",
+"pos": "n.m.",
+"zh": "继承人",
+"level": "b1"
+},
+{
+"word": "héros",
+"pos": "n.m.",
+"zh": "英雄；主角",
+"level": "b1"
+},
+{
+"word": "héroïque",
+"pos": "adj.",
+"zh": "英勇的；英雄的",
+"level": "b1"
+},
+{
+"word": "hésitation",
+"pos": "n.f.",
+"zh": "犹豫",
+"level": "b1"
+},
+{
+"word": "hétéro",
+"pos": "adj.",
+"zh": "异性恋的（口语）",
+"level": "b1"
+},
+{
+"word": "hôte",
+"pos": "n.m.",
+"zh": "主人；客人",
+"level": "b1"
+},
+{
+"word": "identification",
+"pos": "n.f.",
+"zh": "身份验证；识别",
+"level": "b1"
+},
+{
+"word": "identifier",
+"pos": "v.",
+"zh": "识别；确认",
+"level": "b1"
+},
+{
+"word": "identique",
+"pos": "adj.",
+"zh": "完全相同的",
+"level": "b1"
+},
+{
+"word": "idole",
+"pos": "n.f.",
+"zh": "偶像",
+"level": "b1"
+},
+{
+"word": "idéologie",
+"pos": "n.f.",
+"zh": "意识形态；思想体系",
+"level": "b1"
+},
+{
+"word": "ignorant",
+"pos": "adj.",
+"zh": "无知的",
+"level": "b1"
+},
+{
+"word": "ignorer",
+"pos": "v.",
+"zh": "不知道；忽视；不理会",
+"level": "b1"
+},
+{
+"word": "illusion",
+"pos": "n.f.",
+"zh": "幻觉；幻想",
+"level": "b1"
+},
+{
+"word": "illustrer",
+"pos": "v.",
+"zh": "加插图；举例说明",
+"level": "b1"
+},
+{
+"word": "illégal",
+"pos": "adj.",
+"zh": "非法的",
+"level": "b1"
+},
+{
+"word": "imaginaire",
+"pos": "adj.",
+"zh": "想象的；虚构的",
+"level": "b1"
+},
+{
+"word": "imitation",
+"pos": "n.f.",
+"zh": "模仿；仿制品",
+"level": "b1"
+},
+{
+"word": "immigration",
+"pos": "n.f.",
+"zh": "移民；移居",
+"level": "b1"
+},
+{
+"word": "immobiliser",
+"pos": "v.",
+"zh": "使停住；冻结",
+"level": "b1"
+},
+{
+"word": "impact",
+"pos": "n.m.",
+"zh": "冲击；影响",
+"level": "b1"
+},
+{
+"word": "impatient",
+"pos": "adj.",
+"zh": "不耐烦的；急切的",
+"level": "b1"
+},
+{
+"word": "impeccable",
+"pos": "adj.",
+"zh": "无可挑剔的；完美的",
+"level": "b1"
+},
+{
+"word": "impliquer",
+"pos": "v.",
+"zh": "牵涉；意味着",
+"level": "b1"
+},
+{
+"word": "imposer",
+"pos": "v.",
+"zh": "强加；施加",
+"level": "b1"
+},
+{
+"word": "impression",
+"pos": "n.f.",
+"zh": "印象；感觉",
+"level": "b1"
+},
+{
+"word": "impressionner",
+"pos": "v.",
+"zh": "使印象深刻",
+"level": "b1"
+},
+{
+"word": "improviser",
+"pos": "v.",
+"zh": "即兴发挥；临时拼凑",
+"level": "b1"
+},
+{
+"word": "imprévisible",
+"pos": "adj.",
+"zh": "不可预测的",
+"level": "b1"
+},
+{
+"word": "imprévu",
+"pos": "n.m.",
+"zh": "意外情况",
+"level": "b1"
+},
+{
+"word": "impôt",
+"pos": "n.m.",
+"zh": "税；税款",
+"level": "b1"
+},
+{
+"word": "inacceptable",
+"pos": "adj.",
+"zh": "不能接受的",
+"level": "b1"
+},
+{
+"word": "inaccessible",
+"pos": "adj.",
+"zh": "达不到的；难接近的",
+"level": "b1"
+},
+{
+"word": "inattendu",
+"pos": "adj.",
+"zh": "意外的；想不到的",
+"level": "b1"
+},
+{
+"word": "inauguration",
+"pos": "n.f.",
+"zh": "落成典礼；开幕式",
+"level": "b1"
+},
+{
+"word": "inaugurer",
+"pos": "v.",
+"zh": "揭幕；开创",
+"level": "b1"
+},
+{
+"word": "incendie",
+"pos": "n.m.",
+"zh": "火灾",
+"level": "b1"
+},
+{
+"word": "incertain",
+"pos": "adj.",
+"zh": "不确定的",
+"level": "b1"
+},
+{
+"word": "incident",
+"pos": "n.m.",
+"zh": "事故；冲突",
+"level": "b1"
+},
+{
+"word": "inciter",
+"pos": "v.",
+"zh": "促使；激励；煽动",
+"level": "b1"
+},
+{
+"word": "inclure",
+"pos": "v.",
+"zh": "包括；包含",
+"level": "b1"
+},
+{
+"word": "incomplet",
+"pos": "adj.",
+"zh": "不完整的；不全的",
+"level": "b1"
+},
+{
+"word": "incompréhensible",
+"pos": "adj.",
+"zh": "无法理解的",
+"level": "b1"
+},
+{
+"word": "inconnu",
+"pos": "n.m.",
+"zh": "陌生人；未知的人",
+"level": "b1"
+},
+{
+"word": "inconscient",
+"pos": "adj.",
+"zh": "无意识的；不省人事的",
+"level": "b1"
+},
+{
+"word": "inconvénient",
+"pos": "n.m.",
+"zh": "缺点；不便",
+"level": "b1"
+},
+{
+"word": "incroyable",
+"pos": "adj.",
+"zh": "难以置信的；惊人的",
+"level": "b1"
+},
+{
+"word": "incroyablement",
+"pos": "adv.",
+"zh": "难以置信地；极其",
+"level": "b1"
+},
+{
+"word": "index",
+"pos": "n.m.",
+"zh": "索引；食指",
+"level": "b1"
+},
+{
+"word": "indication",
+"pos": "n.f.",
+"zh": "指示；迹象；说明",
+"level": "b1"
+},
+{
+"word": "indice",
+"pos": "n.m.",
+"zh": "线索；指数；迹象",
+"level": "b1"
+},
+{
+"word": "indifférence",
+"pos": "n.f.",
+"zh": "冷淡；无动于衷",
+"level": "b1"
+},
+{
+"word": "indifférent",
+"pos": "adj.",
+"zh": "冷漠的；无所谓的",
+"level": "b1"
+},
+{
+"word": "indispensable",
+"pos": "adj.",
+"zh": "必不可少的",
+"level": "b1"
+},
+{
+"word": "individu",
+"pos": "n.m.",
+"zh": "个人；个体",
+"level": "b1"
+},
+{
+"word": "individuel",
+"pos": "adj.",
+"zh": "个人的；单独的",
+"level": "b1"
+},
+{
+"word": "industriel",
+"pos": "adj.",
+"zh": "工业的",
+"level": "b1"
+},
+{
+"word": "indépendance",
+"pos": "n.f.",
+"zh": "独立",
+"level": "b1"
+},
+{
+"word": "indépendant",
+"pos": "adj.",
+"zh": "独立的；自主的",
+"level": "b1"
+},
+{
+"word": "inexplicable",
+"pos": "adj.",
+"zh": "无法解释的",
+"level": "b1"
+},
+{
+"word": "infection",
+"pos": "n.f.",
+"zh": "感染",
+"level": "b1"
+},
+{
+"word": "infecté",
+"pos": "adj.",
+"zh": "被感染的",
+"level": "b1"
+},
+{
+"word": "infidèle",
+"pos": "adj.",
+"zh": "不忠的；背信的",
+"level": "b1"
+}
+]

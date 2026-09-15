@@ -1,0 +1,602 @@
+[
+{
+"word": "deutlich",
+"pos": "adj.",
+"zh": "清楚的",
+"level": "a2"
+},
+{
+"word": "träumen",
+"pos": "v.",
+"zh": "做梦",
+"level": "a2"
+},
+{
+"word": "verwirrt",
+"pos": "adj.",
+"zh": "困惑的",
+"level": "a2"
+},
+{
+"word": "riskieren",
+"pos": "v.",
+"zh": "冒险",
+"level": "a2"
+},
+{
+"word": "Beerdigung",
+"pos": "n.f.",
+"zh": "葬礼",
+"level": "a2"
+},
+{
+"word": "Müll",
+"pos": "n.m.",
+"zh": "垃圾",
+"level": "a2"
+},
+{
+"word": "Mitte",
+"pos": "n.f.",
+"zh": "中心",
+"level": "a2"
+},
+{
+"word": "Geburt",
+"pos": "n.f.",
+"zh": "出生",
+"level": "a2"
+},
+{
+"word": "Decke",
+"pos": "n.f.",
+"zh": "被子；天花板",
+"level": "a2"
+},
+{
+"word": "vernichten",
+"pos": "v.",
+"zh": "消灭",
+"level": "a2"
+},
+{
+"word": "Gewehr",
+"pos": "n.",
+"zh": "步枪",
+"level": "a2"
+},
+{
+"word": "Spiegel",
+"pos": "n.m.",
+"zh": "镜子",
+"level": "a2"
+},
+{
+"word": "geraten",
+"pos": "v.",
+"zh": "陷入；落入",
+"level": "a2"
+},
+{
+"word": "schwul",
+"pos": "adj.",
+"zh": "同性恋的",
+"level": "a2"
+},
+{
+"word": "befinden",
+"pos": "v.",
+"zh": "处于",
+"level": "a2"
+},
+{
+"word": "Einheit",
+"pos": "n.f.",
+"zh": "单位；统一",
+"level": "a2"
+},
+{
+"word": "anstatt",
+"pos": "konj.",
+"zh": "而不是",
+"level": "a2"
+},
+{
+"word": "Champagner",
+"pos": "n.m.",
+"zh": "香槟",
+"level": "a2"
+},
+{
+"word": "Strafe",
+"pos": "n.f.",
+"zh": "惩罚",
+"level": "a2"
+},
+{
+"word": "öfter",
+"pos": "adv.",
+"zh": "更经常",
+"level": "a2"
+},
+{
+"word": "Zelle",
+"pos": "n.f.",
+"zh": "细胞；牢房",
+"level": "a2"
+},
+{
+"word": "ruinieren",
+"pos": "v.",
+"zh": "毁掉",
+"level": "a2"
+},
+{
+"word": "Gras",
+"pos": "n.",
+"zh": "草",
+"level": "a2"
+},
+{
+"word": "erfreut",
+"pos": "adj.",
+"zh": "高兴的",
+"level": "a2"
+},
+{
+"word": "Staat",
+"pos": "n.m.",
+"zh": "国家",
+"level": "a2"
+},
+{
+"word": "Station",
+"pos": "n.f.",
+"zh": "车站",
+"level": "a2"
+},
+{
+"word": "hinterher",
+"pos": "adv.",
+"zh": "之后；跟随",
+"level": "a2"
+},
+{
+"word": "Hemd",
+"pos": "n.",
+"zh": "衬衫",
+"level": "a2"
+},
+{
+"word": "klären",
+"pos": "v.",
+"zh": "澄清",
+"level": "a2"
+},
+{
+"word": "praktisch",
+"pos": "adj.",
+"zh": "实用的",
+"level": "a2"
+},
+{
+"word": "Theorie",
+"pos": "n.f.",
+"zh": "理论",
+"level": "a2"
+},
+{
+"word": "Zunge",
+"pos": "n.f.",
+"zh": "舌头",
+"level": "a2"
+},
+{
+"word": "Notfall",
+"pos": "n.m.",
+"zh": "紧急情况",
+"level": "a2"
+},
+{
+"word": "dahinter",
+"pos": "adv.",
+"zh": "在后面",
+"level": "a2"
+},
+{
+"word": "Anführer",
+"pos": "n.m.",
+"zh": "领袖",
+"level": "a2"
+},
+{
+"word": "schief",
+"pos": "adj.",
+"zh": "歪的；出岔",
+"level": "a2"
+},
+{
+"word": "bestens",
+"pos": "adv.",
+"zh": "极好地",
+"level": "a2"
+},
+{
+"word": "Unrecht",
+"pos": "n.",
+"zh": "错误",
+"level": "a2"
+},
+{
+"word": "Leck",
+"pos": "n.",
+"zh": "漏洞",
+"level": "a2"
+},
+{
+"word": "wonach",
+"pos": "adv.",
+"zh": "在什么之后",
+"level": "a2"
+},
+{
+"word": "entwickeln",
+"pos": "v.",
+"zh": "发展",
+"level": "a2"
+},
+{
+"word": "Bedeutung",
+"pos": "n.f.",
+"zh": "意义",
+"level": "a2"
+},
+{
+"word": "Strom",
+"pos": "n.m.",
+"zh": "电流；河流",
+"level": "a2"
+},
+{
+"word": "Krebs",
+"pos": "n.m.",
+"zh": "癌症",
+"level": "a2"
+},
+{
+"word": "gemein",
+"pos": "adj.",
+"zh": "卑鄙的；共同的",
+"level": "a2"
+},
+{
+"word": "wessen",
+"pos": "pron.",
+"zh": "谁的",
+"level": "a2"
+},
+{
+"word": "Minister",
+"pos": "n.m.",
+"zh": "部长",
+"level": "a2"
+},
+{
+"word": "Quelle",
+"pos": "n.f.",
+"zh": "来源",
+"level": "a2"
+},
+{
+"word": "Zahl",
+"pos": "n.f.",
+"zh": "数字",
+"level": "a2"
+},
+{
+"word": "Talent",
+"pos": "n.",
+"zh": "天赋",
+"level": "a2"
+},
+{
+"word": "spitze",
+"pos": "adj.",
+"zh": "顶尖的；尖",
+"level": "a2"
+},
+{
+"word": "treiben",
+"pos": "v.",
+"zh": "驱赶；漂浮",
+"level": "a2"
+},
+{
+"word": "ausgezeichnet",
+"pos": "adj.",
+"zh": "极好的",
+"level": "a2"
+},
+{
+"word": "Tatort",
+"pos": "n.m.",
+"zh": "案发现场",
+"level": "a2"
+},
+{
+"word": "Detail",
+"pos": "n.",
+"zh": "细节",
+"level": "a2"
+},
+{
+"word": "Täter",
+"pos": "n.m.",
+"zh": "罪犯",
+"level": "a2"
+},
+{
+"word": "Dieb",
+"pos": "n.m.",
+"zh": "小偷",
+"level": "a2"
+},
+{
+"word": "offiziell",
+"pos": "adj.",
+"zh": "官方的",
+"level": "a2"
+},
+{
+"word": "dienen",
+"pos": "v.",
+"zh": "服务",
+"level": "a2"
+},
+{
+"word": "Westen",
+"pos": "n.m.",
+"zh": "西方",
+"level": "a2"
+},
+{
+"word": "dauernd",
+"pos": "adv.",
+"zh": "不断地",
+"level": "a2"
+},
+{
+"word": "Geschmack",
+"pos": "n.m.",
+"zh": "味道；品味",
+"level": "a2"
+},
+{
+"word": "gegenseitig",
+"pos": "adj.",
+"zh": "互相的",
+"level": "a2"
+},
+{
+"word": "Pech",
+"pos": "n.",
+"zh": "倒霉",
+"level": "a2"
+},
+{
+"word": "verteidigen",
+"pos": "v.",
+"zh": "防御",
+"level": "a2"
+},
+{
+"word": "Schauspieler",
+"pos": "n.m.",
+"zh": "演员",
+"level": "a2"
+},
+{
+"word": "überlassen",
+"pos": "v.",
+"zh": "让给；听任",
+"level": "a2"
+},
+{
+"word": "Publikum",
+"pos": "n.",
+"zh": "观众",
+"level": "a2"
+},
+{
+"word": "wechseln",
+"pos": "v.",
+"zh": "更换",
+"level": "a2"
+},
+{
+"word": "begegnen",
+"pos": "v.",
+"zh": "遇见",
+"level": "a2"
+},
+{
+"word": "betrügen",
+"pos": "v.",
+"zh": "欺骗",
+"level": "a2"
+},
+{
+"word": "loswerden",
+"pos": "v.",
+"zh": "摆脱",
+"level": "a2"
+},
+{
+"word": "bestätigen",
+"pos": "v.",
+"zh": "确认",
+"level": "a2"
+},
+{
+"word": "Gas",
+"pos": "n.",
+"zh": "气体",
+"level": "a2"
+},
+{
+"word": "Sturm",
+"pos": "n.m.",
+"zh": "风暴",
+"level": "a2"
+},
+{
+"word": "starten",
+"pos": "v.",
+"zh": "启动",
+"level": "a2"
+},
+{
+"word": "festhalten",
+"pos": "v.",
+"zh": "抓住；坚持",
+"level": "a2"
+},
+{
+"word": "geheim",
+"pos": "adj.",
+"zh": "秘密的",
+"level": "a2"
+},
+{
+"word": "übergeben",
+"pos": "v.",
+"zh": "递交",
+"level": "a2"
+},
+{
+"word": "Abteilung",
+"pos": "n.f.",
+"zh": "部门",
+"level": "a2"
+},
+{
+"word": "verschiedene",
+"pos": "adj.",
+"zh": "不同的",
+"level": "a2"
+},
+{
+"word": "gleichzeitig",
+"pos": "adv.",
+"zh": "同时",
+"level": "a2"
+},
+{
+"word": "Genie",
+"pos": "n.",
+"zh": "天才",
+"level": "a2"
+},
+{
+"word": "Inspektor",
+"pos": "n.m.",
+"zh": "检察官",
+"level": "a2"
+},
+{
+"word": "Kuh",
+"pos": "n.f.",
+"zh": "奶牛",
+"level": "a2"
+},
+{
+"word": "unterstützen",
+"pos": "v.",
+"zh": "支持",
+"level": "a2"
+},
+{
+"word": "Süden",
+"pos": "n.m.",
+"zh": "南方",
+"level": "a2"
+},
+{
+"word": "Pater",
+"pos": "n.m.",
+"zh": "神父",
+"level": "a2"
+},
+{
+"word": "Menschheit",
+"pos": "n.f.",
+"zh": "人类",
+"level": "a2"
+},
+{
+"word": "Versteck",
+"pos": "n.",
+"zh": "躲藏处",
+"level": "a2"
+},
+{
+"word": "Fähigkeit",
+"pos": "n.f.",
+"zh": "能力",
+"level": "a2"
+},
+{
+"word": "rechtzeitig",
+"pos": "adj.",
+"zh": "及时的",
+"level": "a2"
+},
+{
+"word": "streng",
+"pos": "adj.",
+"zh": "严格的",
+"level": "a2"
+},
+{
+"word": "Sendung",
+"pos": "n.f.",
+"zh": "节目；运送",
+"level": "a2"
+},
+{
+"word": "Treppe",
+"pos": "n.f.",
+"zh": "楼梯",
+"level": "a2"
+},
+{
+"word": "Wolf",
+"pos": "n.m.",
+"zh": "狼",
+"level": "a2"
+},
+{
+"word": "Dämon",
+"pos": "n.m.",
+"zh": "恶魔",
+"level": "a2"
+},
+{
+"word": "Wut",
+"pos": "n.f.",
+"zh": "愤怒",
+"level": "a2"
+},
+{
+"word": "Schlange",
+"pos": "n.f.",
+"zh": "蛇；队伍",
+"level": "a2"
+},
+{
+"word": "Medikament",
+"pos": "n.",
+"zh": "药物",
+"level": "a2"
+}
+]

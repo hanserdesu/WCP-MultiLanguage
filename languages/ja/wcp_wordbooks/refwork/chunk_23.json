@@ -1,0 +1,2702 @@
+[
+ {
+  "w": "添う",
+  "r": "そう",
+  "en": "to accompany; to become married; to comply with",
+  "zh": "如此，那样，以那种方式",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "添える",
+  "r": "そえる",
+  "en": "to add to; to attach; to append; to accompany; to garnish; to imitate; to annex",
+  "zh": "添加到；附加；追加；陪伴；装饰；模仿；附件",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "清々しい",
+  "r": "すがすがしい",
+  "en": "fresh; refreshing",
+  "zh": "新鲜的;清爽",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "清らか",
+  "r": "きよらか",
+  "en": "clean; pure; chaste",
+  "zh": "干净的;纯的;贞洁的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "清濁",
+  "r": "せいだく",
+  "en": "good and evil; purity and impurity",
+  "zh": "善与恶；纯度和杂质",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "清算",
+  "r": "せいさん",
+  "en": "liquidation; settlement",
+  "zh": "清算；沉降",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "清純",
+  "r": "せいじゅん",
+  "en": "purity; innocence",
+  "zh": "纯度;纯真",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "済ます",
+  "r": "すます",
+  "en": "to finish; to get it over with; to settle; to conclude; to pay back",
+  "zh": "完成；结束这一切；解决；得出结论；偿还",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "済まない",
+  "r": "すまない",
+  "en": "sorry (phrase)",
+  "zh": "对不起（短语）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "済みません",
+  "r": "すみません",
+  "en": "sorry; excuse me",
+  "zh": "抱歉，对不起，劳驾",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "渋い",
+  "r": "しぶい",
+  "en": "1. tasteful (clothing); cool; an aura of refined masculinity; 2. astringent; sullen; bitter (taste); 3",
+  "zh": "1. 有品位的(衣着);凉爽的;精致的阳刚气息； 2. 涩；忧郁;苦（味道）； 3",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "減少",
+  "r": "げんしょう",
+  "en": "decrease; reduction; decline",
+  "zh": "减少;减少;衰退",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "減点",
+  "r": "げんてん",
+  "en": "subtract; give a demerit",
+  "zh": "减去;记过",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "渡り鳥",
+  "r": "わたりどり",
+  "en": "migratory bird; bird of passage",
+  "zh": "候鸟；过路鸟",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "渦",
+  "r": "うず",
+  "en": "swirl",
+  "zh": "漩涡",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "温和",
+  "r": "おんわ",
+  "en": "gentle; mild; moderate",
+  "zh": "温和的;温和的;缓和",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "湿気る",
+  "r": "しける",
+  "en": "to be damp; to be moist",
+  "zh": "受潮；返潮",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "満たす",
+  "r": "みたす",
+  "en": "to satisfy; to ingratiate; to fill; to fulfill",
+  "zh": "满足，符合（某种条件或要求）",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "満場",
+  "r": "まんじょう",
+  "en": "unanimous; whole audience",
+  "zh": "一致;全场观众",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "満月",
+  "r": "まんげつ",
+  "en": "full moon",
+  "zh": "满月",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "源",
+  "r": "みなもと",
+  "en": "source; origin",
+  "zh": "来源;起源",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "準じる",
+  "r": "じゅんじる",
+  "en": "to follow; to conform; to apply to",
+  "zh": "跟随；符合；申请到",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "準ずる",
+  "r": "じゅんずる",
+  "en": "to apply correspondingly; to correspond to; to be proportionate to; to conform to",
+  "zh": "进行相应的申请；对应于；成比例；符合",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "準急",
+  "r": "じゅんきゅう",
+  "en": "local express (train slower than an express)",
+  "zh": "本地快车（火车比快车慢）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "溜まり",
+  "r": "たまり",
+  "en": "collected things; gathering place; arrears",
+  "zh": "汇;聚集地；欠款",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "溝",
+  "r": "こう",
+  "en": "10^38; hundred undecillion (American); hundred sextillion (British)",
+  "zh": "学校；教育机构。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "溢れる",
+  "r": "あふれる",
+  "en": "to flood; to overflow; to brim over",
+  "zh": "溢出，泛滥",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "溶液",
+  "r": "ようえき",
+  "en": "solution (liquid)",
+  "zh": "溶液（液体）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "滅びる",
+  "r": "ほろびる",
+  "en": "to be ruined; to go under; to perish; to be destroyed",
+  "zh": "被毁掉；去下；灭亡；被摧毁",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "滅ぼす",
+  "r": "ほろぼす",
+  "en": "to destroy; to overthrow; to wreck; to ruin",
+  "zh": "摧毁；推翻；破坏；毁掉",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "滅亡",
+  "r": "めつぼう",
+  "en": "downfall; ruin; collapse; destruction",
+  "zh": "倒台;废墟;坍塌;破坏",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "滅茶苦茶",
+  "r": "めちゃくちゃ",
+  "en": "absurd; unreasonable; excessive; messed up; spoiled; wreaked",
+  "zh": "荒诞;不合理;过多的;搞砸了；被宠坏了；造成的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "滑らか",
+  "r": "なめらか",
+  "en": "smoothness; glassiness",
+  "zh": "光滑度；玻璃质",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "滑稽",
+  "r": "こっけい",
+  "en": "funny; humorous; comical; laughable; ridiculous; joking",
+  "zh": "有趣的;幽默;滑稽;可笑；荒谬的;开玩笑",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "滞る",
+  "r": "とどこおる",
+  "en": "to stagnate; to be delayed",
+  "zh": "停滞不前；被推迟",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "滞納",
+  "r": "たいのう",
+  "en": "non-payment; default",
+  "zh": "不付款；默认",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "滲む",
+  "r": "にじむ",
+  "en": "to run; to blur; to spread; to blot; to ooze",
+  "zh": "跑；模糊；传播；吸干；渗出",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "漁村",
+  "r": "ぎょそん",
+  "en": "fishing village",
+  "zh": "渔村",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "漁船",
+  "r": "ぎょせん",
+  "en": "fishing boat",
+  "zh": "渔船",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "漂う",
+  "r": "ただよう",
+  "en": "to drift about; to float; to hang in air",
+  "zh": "漂流，漂浮。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "漏らす",
+  "r": "もらす",
+  "en": "to let leak; to reveal",
+  "zh": "泄露，透露（指将秘密或信息泄漏出去）",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "漏る",
+  "r": "もる",
+  "en": "to leak; to run out",
+  "zh": "泄漏；耗尽",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "漏れる",
+  "r": "もれる",
+  "en": "to leak out; to escape; to come through; to shine through; to filter out; to be omitted",
+  "zh": "泄漏；泄露；（声音、液体等）漏出",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "演じる",
+  "r": "えんじる",
+  "en": "to perform (a play); to play (a part); to act (a part); to commit (a blunder)",
+  "zh": "表演（戏剧）；扮演（一部分）；采取行动（一部分）；犯（错误）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "演ずる",
+  "r": "えんずる",
+  "en": "to perform; to play",
+  "zh": "执行；玩",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "演出",
+  "r": "えんしゅつ",
+  "en": "production (e.g. play); direction",
+  "zh": "制作（例如游戏）；方向",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "演習",
+  "r": "えんしゅう",
+  "en": "practice; exercises; manoeuvers",
+  "zh": "实践;练习；演习",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "漕ぐ",
+  "r": "こぐ",
+  "en": "to row; to scull; to pedal",
+  "zh": "划船；划桨；踩踏板",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "漠然",
+  "r": "ばくぜん",
+  "en": "obscure; vague; equivocal",
+  "zh": "朦胧;模糊的;模棱两可的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "漢語",
+  "r": "かんご",
+  "en": "Chinese word; Sino-Japanese word",
+  "zh": "中文单词；汉日词",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "潜入",
+  "r": "せんにゅう",
+  "en": "infiltration; sneaking in",
+  "zh": "浸润;潜入",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "潜水",
+  "r": "せんすい",
+  "en": "diving",
+  "zh": "潜水",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "潤う",
+  "r": "うるおう",
+  "en": "to be moist; to be damp; to get wet; to profit by; to be watered; to receive benefits; to favor; to charm; t",
+  "zh": "湿润；潮湿；弄湿；从中获利；被浇水；领取福利；赞成；魅力； t",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "潮",
+  "r": "うしお",
+  "en": "tide",
+  "zh": "潮",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "澄ます",
+  "r": "すます",
+  "en": "to clear; to make clear; to be unruffled; to look unconcerned; to look demure; look prim; put on airs",
+  "zh": "清除；说清楚；泰然自若；表现出漠不关心的样子；看起来端庄；看起来很拘谨；摆架子",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "激励",
+  "r": "げきれい",
+  "en": "encouragement",
+  "zh": "鼓励",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "濫用",
+  "r": "らんよう",
+  "en": "abuse; misuse; misappropriation; using to excess",
+  "zh": "虐待;滥用;挪用；使用过度",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "濯ぐ",
+  "r": "すすぐ",
+  "en": "to rinse; to wash out",
+  "zh": "冲洗；洗掉",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "火星",
+  "r": "かせい",
+  "en": "Mars (planet)",
+  "zh": "火星（行星）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "火燵",
+  "r": "こたつ",
+  "en": "table with heater; (orig) charcoal brazier in a floor well",
+  "zh": "带加热器的桌子； （原始）地板井中的木炭火盆",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "火花",
+  "r": "ひばな",
+  "en": "spark",
+  "zh": "火花",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "災害",
+  "r": "さいがい",
+  "en": "calamity; disaster; misfortune",
+  "zh": "灾害;灾难;不幸",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "炒める",
+  "r": "いためる",
+  "en": "to stir-fry",
+  "zh": "炒",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "炙る",
+  "r": "あぶる",
+  "en": "to scorch",
+  "zh": "烧焦",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "炭素",
+  "r": "たんそ",
+  "en": "carbon (C)",
+  "zh": "碳（C）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "点検",
+  "r": "てんけん",
+  "en": "inspection; examination; checking",
+  "zh": "检查;考试;检查",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "点火",
+  "r": "てんか",
+  "en": "ignition; lighting; set fire to",
+  "zh": "点火;灯光;放火烧",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "点線",
+  "r": "てんせん",
+  "en": "dotted line; perforated line",
+  "zh": "虚线;穿孔线",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "為さる",
+  "r": "なさる",
+  "en": "to do",
+  "zh": "要做",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "為来り",
+  "r": "しきたり",
+  "en": "customs",
+  "zh": "海关",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "焚火",
+  "r": "たきび",
+  "en": "(open) fire",
+  "zh": "（开火",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無効",
+  "r": "むこう",
+  "en": "invalid; no effect; unavailable",
+  "zh": "那边，对方，对手",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無口",
+  "r": "むくち",
+  "en": "reticence",
+  "zh": "沉默寡言",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無念",
+  "r": "むねん",
+  "en": "chagrin; regret",
+  "zh": "懊恼；后悔",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無意味",
+  "r": "むいみ",
+  "en": "nonsense; no meaning",
+  "zh": "废话;没有意义",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無断",
+  "r": "むだん",
+  "en": "without permission; without notice",
+  "zh": "私自;恕不另行通知",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無用",
+  "r": "むよう",
+  "en": "useless; futility; needlessness; unnecessariness",
+  "zh": "无用;无用;不必要的；不必要的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無知",
+  "r": "むち",
+  "en": "ignorance",
+  "zh": "无知",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無礼",
+  "r": "ぶれい",
+  "en": "impolite; rude",
+  "zh": "不礼貌；粗鲁的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無線",
+  "r": "むせん",
+  "en": "wireless; radio",
+  "zh": "无线的;收音机",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無能",
+  "r": "むのう",
+  "en": "inefficiency; incompetence",
+  "zh": "效率低下；无能",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無茶",
+  "r": "むちゃ",
+  "en": "absurd; unreasonable; excessive; rash; absurdity; nonsense",
+  "zh": "荒诞;不合理;过多的;皮疹;荒谬；废话",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無茶苦茶",
+  "r": "むちゃくちゃ",
+  "en": "confused; jumbled; mixed up; unreasonable",
+  "zh": "使困惑;错杂;混淆了；不合理",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無言",
+  "r": "むごん",
+  "en": "silence",
+  "zh": "沉默，无言。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無論",
+  "r": "むろん",
+  "en": "of course; naturally",
+  "zh": "当然;自然",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無邪気",
+  "r": "むじゃき",
+  "en": "innocence; simple-mindedness",
+  "zh": "纯真；头脑简单",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無闇に",
+  "r": "むやみに",
+  "en": "unreasonably; absurdly; recklessly; indiscreetly; at random",
+  "zh": "无理地；荒唐地；鲁莽地；轻率地；随机地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無難",
+  "r": "ぶなん",
+  "en": "safety; security",
+  "zh": "安全;安全",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "無駄遣い",
+  "r": "むだづかい",
+  "en": "waste money on; squander money on; flog a dead horse",
+  "zh": "浪费金钱；把钱浪费在；鞭打死马",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "焦げ茶",
+  "r": "こげちゃ",
+  "en": "black tea",
+  "zh": "红茶",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "焦る",
+  "r": "あせる",
+  "en": "to be in a hurry; to be impatient",
+  "zh": "感到焦急，感到有压力，急于做某事。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "然うして",
+  "r": "そうして",
+  "en": "and; like that",
+  "zh": "和;像这样",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "然し",
+  "r": "しかし",
+  "en": "however; but",
+  "zh": "然而;但",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "然して",
+  "r": "そして",
+  "en": "and",
+  "zh": "而且，此外，然后",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "然しながら",
+  "r": "しかしながら",
+  "en": "nevertheless; however",
+  "zh": "尽管如此;然而",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "然も",
+  "r": "さも",
+  "en": "with gusto; with satisfaction",
+  "zh": "满怀热情；满意地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "煌々と",
+  "r": "こうこうと",
+  "en": "brilliantly; brightly",
+  "zh": "出色地;明亮地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "煌びやか",
+  "r": "きらびやか",
+  "en": "gorgeous; gaudy; dazzling; gay",
+  "zh": "华丽的;艳丽的；令人眼花缭乱；同性恋",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "煙たい",
+  "r": "けむたい",
+  "en": "smoky; feeling awkward",
+  "zh": "烟;感觉尴尬",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "煙る",
+  "r": "けむる",
+  "en": "to smoke (e.g. fire)",
+  "zh": "抽烟（例如火）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "煙草",
+  "r": "たばこ",
+  "en": "(pt:) (n) (uk) tobacco (pt: tabaco); cigarettes",
+  "zh": "香烟；烟草",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "照り返す",
+  "r": "てりかえす",
+  "en": "to reflect; to throw back light",
+  "zh": "反思；反射光",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "照合",
+  "r": "しょうごう",
+  "en": "collation; comparison",
+  "zh": "整理；比较",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "照明",
+  "r": "しょうめい",
+  "en": "illumination",
+  "zh": "证明；作为证据",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "煩わしい",
+  "r": "わずらわしい",
+  "en": "troublesome; annoying; complicated",
+  "zh": "麻烦；恼人的;复杂的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "煽てる",
+  "r": "おだてる",
+  "en": "to stir up; to instigate; to flatter",
+  "zh": "搅动；煽动；奉承",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "熱意",
+  "r": "ねつい",
+  "en": "zeal; enthusiasm",
+  "zh": "热情;热情",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "熱湯",
+  "r": "ねっとう",
+  "en": "boiling water",
+  "zh": "开水",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "熱量",
+  "r": "ねつりょう",
+  "en": "temperature",
+  "zh": "温度",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "燃料",
+  "r": "ねんりょう",
+  "en": "fuel",
+  "zh": "燃料",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "燃焼",
+  "r": "ねんしょう",
+  "en": "burning; combustion",
+  "zh": "燃烧；燃烧",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "爆弾",
+  "r": "ばくだん",
+  "en": "bomb",
+  "zh": "炸弹",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "爆破",
+  "r": "ばくは",
+  "en": "blast; explosion; blow up",
+  "zh": "爆炸；爆炸;爆破",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "爽やか",
+  "r": "さわやか",
+  "en": "fresh; refreshing; invigorating; clear; fluent; eloquent",
+  "zh": "新鲜的;清爽；振奋精神；清除;流利;雄辩",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "片付け",
+  "r": "かたづけ",
+  "en": "tidying up; finishing",
+  "zh": "整理；精加工",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "片思い",
+  "r": "かたおもい",
+  "en": "unrequited love",
+  "zh": "单恋",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "片言",
+  "r": "かたこと",
+  "en": "a smattering; talk like a baby; speak haltingly",
+  "zh": "一点点；像婴儿一样说话；结结巴巴地说",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "版",
+  "r": "はん",
+  "en": "edition",
+  "zh": "米饭，餐食",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "版画",
+  "r": "はんが",
+  "en": "art print",
+  "zh": "艺术印刷品",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "牧師",
+  "r": "ぼくし",
+  "en": "pastor; minister; clergyman",
+  "zh": "牧师;部长;牧师",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "物体",
+  "r": "ぶったい",
+  "en": "body; object",
+  "zh": "身体;目的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "物体ない",
+  "r": "もったいない",
+  "en": "too good; more than one deserves; wasteful; sacrilegious; unworthy of",
+  "zh": "太好了；不止一个人应得的；浪费；亵渎的；不值得",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "物好き",
+  "r": "ものずき",
+  "en": "curiosity",
+  "zh": "好奇心",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "物置き",
+  "r": "ものおき",
+  "en": "storeroom",
+  "zh": "库房",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "物議",
+  "r": "ぶつぎ",
+  "en": "public discussion (criticism)",
+  "zh": "公众讨论（批评）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "物資",
+  "r": "ぶっし",
+  "en": "goods; materials",
+  "zh": "商品;材料",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "物足りない",
+  "r": "ものたりない",
+  "en": "unsatisfied; unsatisfactory",
+  "zh": "不满意；不满意",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "特技",
+  "r": "とくぎ",
+  "en": "special skill",
+  "zh": "特长；绝技",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "特有",
+  "r": "とくゆう",
+  "en": "characteristic (of); peculiar (to)",
+  "zh": "特有；独有",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "特権",
+  "r": "とっけん",
+  "en": "privilege; special right",
+  "zh": "特权",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "特派",
+  "r": "とくは",
+  "en": "send specially; special envoy",
+  "zh": "特别派遣",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "特産",
+  "r": "とくさん",
+  "en": "specialty; special product",
+  "zh": "特产",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "特許",
+  "r": "とっきょ",
+  "en": "special permission; patent",
+  "zh": "专利；特许",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "特集",
+  "r": "とくしゅう",
+  "en": "feature (e.g. newspaper); special edition; report",
+  "zh": "特辑；专题",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "犠牲",
+  "r": "ぎせい",
+  "en": "sacrifice",
+  "zh": "牺牲",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "犯す",
+  "r": "おかす",
+  "en": "to commit; to perpetrate; to violate; to rape",
+  "zh": "承诺；实施；违反；强奸",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "状",
+  "r": "じょう",
+  "en": "shape",
+  "zh": "……以上，超过……",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "独創",
+  "r": "どくそう",
+  "en": "originality",
+  "zh": "独创；独创性",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "独占",
+  "r": "どくせん",
+  "en": "monopoly",
+  "zh": "垄断；独占",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "独自",
+  "r": "どくじ",
+  "en": "original; peculiar; characteristic",
+  "zh": "独自；独创",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "独裁",
+  "r": "どくさい",
+  "en": "dictatorship; despotism",
+  "zh": "独裁；专政",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "猛烈",
+  "r": "もうれつ",
+  "en": "violent; vehement; rage",
+  "zh": "暴力;慷慨;愤怒",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "獣",
+  "r": "けだもの",
+  "en": "beast; brute",
+  "zh": "野兽、畜生。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "獲得",
+  "r": "かくとく",
+  "en": "acquisition; possession",
+  "zh": "获得;拥有",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "獲物",
+  "r": "えもの",
+  "en": "game; spoils; trophy",
+  "zh": "游戏;战利品；杯",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "玄人",
+  "r": "くろうと",
+  "en": "expert; professional; geisha; prostitute",
+  "zh": "专家;专业的;艺妓;妓女",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "率いる",
+  "r": "ひきいる",
+  "en": "to lead; to spearhead (a group); to command (troops)",
+  "zh": "领导；为（团体）带头；指挥（军队）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "率直",
+  "r": "そっちょく",
+  "en": "frankness; candour; openheartedness",
+  "zh": "坦率；坦率；开放的心胸",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "玩具",
+  "r": "おもちゃ",
+  "en": "toy",
+  "zh": "玩具",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "班",
+  "r": "はん",
+  "en": "group; party; section (mil)",
+  "zh": "米饭，餐食",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "現われ",
+  "r": "あらわれ",
+  "en": "embodiment; materialization",
+  "zh": "实施例；物化",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "現われる",
+  "r": "あらわれる",
+  "en": "to appear; to come in sight; to become visible; to come out; to embody; to materialize; to express oneself",
+  "zh": "出现，显现",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "現像",
+  "r": "げんぞう",
+  "en": "developing (film)",
+  "zh": "显影（胶片）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "現地",
+  "r": "げんち",
+  "en": "actual place; local",
+  "zh": "实际地点；当地的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "現行",
+  "r": "げんこう",
+  "en": "present; current; in operation",
+  "zh": "展示;当前的;运行中",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "球根",
+  "r": "きゅうこん",
+  "en": "(plant) bulb",
+  "zh": "（植物）灯泡",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "理屈",
+  "r": "りくつ",
+  "en": "theory; reason",
+  "zh": "理论;原因",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "理性",
+  "r": "りせい",
+  "en": "reason; sense",
+  "zh": "原因;感觉",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "理論",
+  "r": "りろん",
+  "en": "theory",
+  "zh": "理论",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "甘える",
+  "r": "あまえる",
+  "en": "to behave like a spoiled child; to fawn on",
+  "zh": "依赖，利用（某人或某事的好意或帮助）",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "甘口",
+  "r": "あまくち",
+  "en": "sweet flavour; mildness; flattery; stupidity",
+  "zh": "甜味；温和;阿谀奉承；愚蠢",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "甚だ",
+  "r": "はなはだ",
+  "en": "very; greatly; exceedingly",
+  "zh": "非常;大大;非常",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "生かす",
+  "r": "いかす",
+  "en": "to revive; to resuscitate; to make use of",
+  "zh": "复活；复苏；利用",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "生まれつき",
+  "r": "うまれつき",
+  "en": "by nature; by birth; native",
+  "zh": "本质上；出生时；本国的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "生やす",
+  "r": "はやす",
+  "en": "to grow; to cultivate; to wear beard",
+  "zh": "成长；培养；留胡子",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "生死",
+  "r": "せいし",
+  "en": "life and death",
+  "zh": "生死",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "生温い",
+  "r": "なまぬるい",
+  "en": "lukewarm; halfhearted",
+  "zh": "温;三心二意",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "生理",
+  "r": "せいり",
+  "en": "physiology; menses",
+  "zh": "生理;月经",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "生真面目",
+  "r": "きまじめ",
+  "en": "too serious; person who is too serious; honesty; sincerity",
+  "zh": "太严重了；过于严肃的人；诚实;诚意",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "生育",
+  "r": "せいいく",
+  "en": "growth; development; breeding",
+  "zh": "生长;发展;选育",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "生臭い",
+  "r": "なまぐさい",
+  "en": "smelling of fish or blood; fish or meat",
+  "zh": "鱼或血的气味；鱼或肉",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "生計",
+  "r": "せいけい",
+  "en": "livelihood; living",
+  "zh": "生计;活的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "生身",
+  "r": "なまみ",
+  "en": "living flesh; flesh and blood; the quick",
+  "zh": "活生生的肉体；骨肉;快速的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "産む",
+  "r": "うむ",
+  "en": "to give birth; to deliver; to produce",
+  "zh": "生育、产下（孩子）",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "産休",
+  "r": "さんきゅう",
+  "en": "maternity leave",
+  "zh": "产假",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "産出",
+  "r": "さんしゅつ",
+  "en": "yield; produce",
+  "zh": "出产；产出",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "産婦人科",
+  "r": "さんふじんか",
+  "en": "maternity and gynecology department",
+  "zh": "妇产科",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "産後",
+  "r": "さんご",
+  "en": "postpartum; after childbirth",
+  "zh": "产后",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "産物",
+  "r": "さんぶつ",
+  "en": "product; result; fruit",
+  "zh": "产物；特产",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "甥",
+  "r": "おい",
+  "en": "nephew",
+  "zh": "侄子",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "用件",
+  "r": "ようけん",
+  "en": "business",
+  "zh": "商业",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "用品",
+  "r": "ようひん",
+  "en": "articles; supplies; parts",
+  "zh": "文章；补给品;部分",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "用法",
+  "r": "ようほう",
+  "en": "directions; rules of use",
+  "zh": "方向；使用规则",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "用紙",
+  "r": "ようし",
+  "en": "blank form",
+  "zh": "空白表格",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "田園",
+  "r": "でんえん",
+  "en": "country; rural districts",
+  "zh": "国家;农村地区",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "甲",
+  "r": "きのえ",
+  "en": "1st in rank; first sign of the Chinese calendar; shell; instep; grade A",
+  "zh": "排名第一；中国历法的第一个标志；壳;脚背; A级",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "申し入れる",
+  "r": "もうしいれる",
+  "en": "to propose; to suggest",
+  "zh": "提议；建议",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "申し出る",
+  "r": "もうしでる",
+  "en": "to report to; to tell; to suggest; to submit; to request; to make an offer; to come forward with informati",
+  "zh": "报告给；告诉；建议；提交；请求；提出报价；提供信息",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "申し分",
+  "r": "もうしぶん",
+  "en": "objection; shortcomings",
+  "zh": "异议;缺点",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "申し込み",
+  "r": "もうしこみ",
+  "en": "application; entry; request; subscription; offer; proposal; overture; challenge",
+  "zh": "申请；报名",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "申出",
+  "r": "もうしで",
+  "en": "proposal; request; claim; report; notice",
+  "zh": "提议;要求;宣称;报告;注意",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "申告",
+  "r": "しんこく",
+  "en": "report; statement; filing a return; notification",
+  "zh": "报告;陈述;提交申报表；通知",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "画",
+  "r": "かく",
+  "en": "stroke",
+  "zh": "写；书写。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "画期",
+  "r": "かっき",
+  "en": "epoch-making",
+  "zh": "划时代",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "畏まりました",
+  "r": "かしこまりました",
+  "en": "certainly!",
+  "zh": "当然！",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "畜生",
+  "r": "ちくしょう",
+  "en": "beast; brute; damn",
+  "zh": "兽;野蛮；该死",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "畜産",
+  "r": "ちくさん",
+  "en": "animal husbandry",
+  "zh": "畜牧业",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "略奪",
+  "r": "りゃくだつ",
+  "en": "pillage; plunder; looting; robbery",
+  "zh": "掠夺；掠夺;抢劫；抢劫",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "略語",
+  "r": "りゃくご",
+  "en": "abbreviation; acronym",
+  "zh": "缩写;缩写词",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "番目",
+  "r": "ばんめ",
+  "en": "cardinal number suffix",
+  "zh": "基数后缀",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "異動",
+  "r": "いどう",
+  "en": "a change",
+  "zh": "移动，转移",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "異性",
+  "r": "いせい",
+  "en": "the opposite sex",
+  "zh": "异性",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "異見",
+  "r": "いけん",
+  "en": "different opinion; objection",
+  "zh": "意见、看法。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "異論",
+  "r": "いろん",
+  "en": "different opinion; objection",
+  "zh": "不同意见；异议",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "異議",
+  "r": "いぎ",
+  "en": "objection; dissent; protest",
+  "zh": "异议;异议;反对",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "疎か",
+  "r": "おろそか",
+  "en": "neglect; negligence; carelessness",
+  "zh": "忽视;疏忽;疏忽",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "疑惑",
+  "r": "ぎわく",
+  "en": "doubt; misgivings; distrust; suspicion",
+  "zh": "怀疑;疑虑；怀疑;怀疑",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "疲労",
+  "r": "ひろう",
+  "en": "fatigue; weariness",
+  "zh": "捡起，拾到",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "疾っくに",
+  "r": "とっくに",
+  "en": "long ago; already; a long time ago",
+  "zh": "早就",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "病",
+  "r": "やまい",
+  "en": "illness; disease",
+  "zh": "疾病;疾病",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "病む",
+  "r": "やむ",
+  "en": "to fall ill; to be ill",
+  "zh": "生病；生病了",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "症",
+  "r": "しょう",
+  "en": "illness",
+  "zh": "多少；有些；稍微",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "痒い",
+  "r": "かゆい",
+  "en": "itchy; itching",
+  "zh": "发痒;瘙痒",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "痛む",
+  "r": "いたむ",
+  "en": "to hurt; to feel a pain; to be injured",
+  "zh": "伤害；感到疼痛；受伤",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "痛める",
+  "r": "いためる",
+  "en": "to hurt; to injure; to cause pain; to worry; to bother; to afflict; to be grieved over",
+  "zh": "伤害；伤害；引起疼痛；担心；打扰；使受苦；感到悲伤",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "痛切",
+  "r": "つうせつ",
+  "en": "keen; acute",
+  "zh": "深切；痛切",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "痛感",
+  "r": "つうかん",
+  "en": "feeling keenly; fully realizing",
+  "zh": "敏锐地感觉；充分认识到",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "痺れる",
+  "r": "しびれる",
+  "en": "to become numb; to go to sleep (i.e. a limb)",
+  "zh": "变得麻木；去睡觉（即肢体）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "癌",
+  "r": "がん",
+  "en": "cancer",
+  "zh": "癌症",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "発",
+  "r": "はつ",
+  "en": "departure; beginning; counter for gunshots",
+  "zh": "爆炸，爆发。指突然发生的爆破或猛烈的释放能量。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "発作",
+  "r": "ほっさ",
+  "en": "fit; spasm",
+  "zh": "合身;痉挛",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "発掘",
+  "r": "はっくつ",
+  "en": "excavation; exhumation",
+  "zh": "挖掘;挖掘",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "発条",
+  "r": "ばね",
+  "en": "spring (e.g. coil leaf)",
+  "zh": "弹簧（例如卷叶）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "発生",
+  "r": "はっせい",
+  "en": "outbreak; spring forth; occurrence; incidence; origin",
+  "zh": "发生、出现（指某事的发生或产生）",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "発病",
+  "r": "はつびょう",
+  "en": "attack (disease)",
+  "zh": "攻击（疾病）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "発育",
+  "r": "はついく",
+  "en": "(physical) growth; development",
+  "zh": "（身体）成长；发展",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "発芽",
+  "r": "はつが",
+  "en": "burgeoning",
+  "zh": "新兴的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "発言",
+  "r": "はつげん",
+  "en": "utterance; speech; proposal",
+  "zh": "发言，讲话",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "発足",
+  "r": "はっそく",
+  "en": "starting; inauguration",
+  "zh": "开始;就职典礼",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "登校",
+  "r": "とうこう",
+  "en": "attendance (at school)",
+  "zh": "出勤率（在学校）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "登録",
+  "r": "とうろく",
+  "en": "registration; register; entry; record",
+  "zh": "登记;登记;入口;记录",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "白状",
+  "r": "はくじょう",
+  "en": "confession",
+  "zh": "忏悔",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "百科事典",
+  "r": "ひゃっかじてん",
+  "en": "encyclopedia",
+  "zh": "百科全书",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "百科辞典",
+  "r": "ひゃっかじてん",
+  "en": "encyclopedia",
+  "zh": "百科全书",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "的",
+  "r": "てき",
+  "en": "-like; typical",
+  "zh": "敌人",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "皇居",
+  "r": "こうきょ",
+  "en": "Imperial Palace",
+  "zh": "故宫",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "皺",
+  "r": "しわ",
+  "en": "wrinkles; creases",
+  "zh": "皱纹；折痕",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "益々",
+  "r": "ますます",
+  "en": "increasingly; more and more",
+  "zh": "越来越，日益增加地。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "盗み",
+  "r": "ぬすみ",
+  "en": "stealing",
+  "zh": "偷窃",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "盛り上がる",
+  "r": "もりあがる",
+  "en": "to rouse; to swell; to rise",
+  "zh": "唤醒；膨胀；上升",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "盛大",
+  "r": "せいだい",
+  "en": "grand; prosperous; magnificent",
+  "zh": "盛大;繁荣;壮丽",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "盛装",
+  "r": "せいそう",
+  "en": "be dressed up; wear rich clothes",
+  "zh": "盛装打扮；穿华丽的衣服",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "監視",
+  "r": "かんし",
+  "en": "observation; guarding; inspection; surveillance",
+  "zh": "观察；守护；检查;监视",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "目付き",
+  "r": "めつき",
+  "en": "look; expression of the eyes; eyes",
+  "zh": "看;眼睛的表情；眼睛",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "目方",
+  "r": "めかた",
+  "en": "weight",
+  "zh": "重量",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "目盛",
+  "r": "めもり",
+  "en": "scale; gradations",
+  "zh": "规模;渐变",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "目眩",
+  "r": "めまい",
+  "en": "dizziness; giddiness",
+  "zh": "头晕;眩晕",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "目蓋",
+  "r": "まぶた",
+  "en": "eyelid",
+  "zh": "眼皮",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "目覚しい",
+  "r": "めざましい",
+  "en": "brilliant; splendid; striking; remarkable",
+  "zh": "杰出的;灿烂;引人注目;卓越",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "目覚める",
+  "r": "めざめる",
+  "en": "to wake up",
+  "zh": "醒来，清醒过来；意识到",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "目論見",
+  "r": "もくろみ",
+  "en": "a plan; a scheme; a project; a program; intention; goal",
+  "zh": "一个计划；计划；一个项目；一个程序；意图;目标",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "目録",
+  "r": "もくろく",
+  "en": "catalogue; catalog; list",
+  "zh": "目录;目录;列表",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "盲点",
+  "r": "もうてん",
+  "en": "blind spot",
+  "zh": "盲点",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "直ぐ",
+  "r": "すぐ",
+  "en": "immediately; soon; easily; right (near); honest; upright",
+  "zh": "立刻，马上",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "直感",
+  "r": "ちょっかん",
+  "en": "intuition",
+  "zh": "直觉",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "直面",
+  "r": "ちょくめん",
+  "en": "confrontation",
+  "zh": "对抗",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "相",
+  "r": "あい",
+  "en": "together; mutually; fellow",
+  "zh": "情况，场合。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "相場",
+  "r": "そうば",
+  "en": "market price; speculation; estimation",
+  "zh": "市价;投机；估计",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "相変わらず",
+  "r": "あいかわらず",
+  "en": "as ever; as usual; the same",
+  "zh": "照常，依然，像往常一样",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "相対",
+  "r": "あいたい",
+  "en": "confrontation; facing; between ourselves; no third party; tete-a-tete",
+  "zh": "对抗;面对;我们之间；没有第三方；面对面",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "相応",
+  "r": "そうおう",
+  "en": "suitability; fitness",
+  "zh": "适应性;健康",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "相応しい",
+  "r": "ふさわしい",
+  "en": "appropriate",
+  "zh": "合适的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "盾",
+  "r": "たて",
+  "en": "shield; buckler; escutcheon; pretext",
+  "zh": "盾;小圆盾；孔罩；借口",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "省みる",
+  "r": "かえりみる",
+  "en": "to reflect",
+  "zh": "反映",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "眉",
+  "r": "まゆ",
+  "en": "eyebrow",
+  "zh": "眉",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "看護",
+  "r": "かんご",
+  "en": "nursing; (army) nurse",
+  "zh": "护理； （军队）护士",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真っ二つ",
+  "r": "まっぷたつ",
+  "en": "in two equal parts",
+  "zh": "分成两等份",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真に",
+  "r": "まことに",
+  "en": "truly; actually; really",
+  "zh": "确实；实际上;真的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真ん中",
+  "r": "まんなか",
+  "en": "middle; centre; mid-way",
+  "zh": "中间;中心;中途",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真ん丸い",
+  "r": "まんまるい",
+  "en": "perfectly circular",
+  "zh": "完美的圆形",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真ん前",
+  "r": "まんまえ",
+  "en": "right in front; under the nose",
+  "zh": "就在前面；在鼻子下面",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真上",
+  "r": "まうえ",
+  "en": "just above; right overhead",
+  "zh": "就在上面；右头顶",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真下",
+  "r": "ました",
+  "en": "right under; directly below",
+  "zh": "就在下面；直接在下面",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真実",
+  "r": "さな",
+  "en": "truth; reality",
+  "zh": "真相，事实，现实。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真心",
+  "r": "まこころ",
+  "en": "sincerity; devotion",
+  "zh": "诚意;奉献精神",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真珠",
+  "r": "しんじゅ",
+  "en": "pearl",
+  "zh": "珍珠",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真理",
+  "r": "しんり",
+  "en": "truth",
+  "zh": "真相",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "真相",
+  "r": "しんそう",
+  "en": "truth; real situation",
+  "zh": "真相;真实情况",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "眠たい",
+  "r": "ねむたい",
+  "en": "sleepy",
+  "zh": "困",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "眩しい",
+  "r": "まぶしい",
+  "en": "dazzling; radiant",
+  "zh": "令人眼花缭乱；容光焕发的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "眼球",
+  "r": "がんきゅう",
+  "en": "eyeball",
+  "zh": "眼球",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "眼科",
+  "r": "がんか",
+  "en": "ophthalmology",
+  "zh": "眼科",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "着",
+  "r": "ちゃく",
+  "en": "counter for suits of clothing; arriving at ..",
+  "zh": "到达，抵达。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "着工",
+  "r": "ちゃっこう",
+  "en": "start of (construction) work",
+  "zh": "（建设）工作开始",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "着席",
+  "r": "ちゃくせき",
+  "en": "sit down; seat",
+  "zh": "坐下;座位",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "着手",
+  "r": "ちゃくしゅ",
+  "en": "embarkation; launch",
+  "zh": "登船；发射",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "着目",
+  "r": "ちゃくもく",
+  "en": "attention",
+  "zh": "注意力",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "着色",
+  "r": "ちゃくしょく",
+  "en": "colouring; coloring",
+  "zh": "染色;染色",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "着陸",
+  "r": "ちゃくりく",
+  "en": "landing; alighting; touch down",
+  "zh": "降落;下车；着陆",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "着飾る",
+  "r": "きかざる",
+  "en": "to dress up",
+  "zh": "打扮",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "瞑る",
+  "r": "つぶる",
+  "en": "to close the eyes",
+  "zh": "闭上眼睛",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "瞬き",
+  "r": "またたき",
+  "en": "wink; twinkling (of stars); flicker (of light)",
+  "zh": "眨眼; （星星）闪烁； （光的）闪烁",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "矢",
+  "r": "や",
+  "en": "arrow",
+  "zh": "今晚；今天晚上。",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "矢っ張り",
+  "r": "やっぱり",
+  "en": "also; as I thought; still; in spite of; absolutely",
+  "zh": "果然；还是",
+  "src": "llm",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "矢鱈に",
+  "r": "やたらに",
+  "en": "randomly; recklessly; blindly",
+  "zh": "随机；鲁莽地；盲目地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "知り合い",
+  "r": "しりあい",
+  "en": "acquaintance",
+  "zh": "熟人、认识的人",
+  "src": "",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "知性",
+  "r": "ちせい",
+  "en": "intelligence",
+  "zh": "智力",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "知的",
+  "r": "ちてき",
+  "en": "intellectual",
+  "zh": "知识分子",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "短大",
+  "r": "たんだい",
+  "en": "junior college",
+  "zh": "大专",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ },
+ {
+  "w": "短歌",
+  "r": "たんか",
+  "en": "tanka; 31-syllable Japanese poem",
+  "zh": "短歌； 31音节的日本诗",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n1"
+ }
+]

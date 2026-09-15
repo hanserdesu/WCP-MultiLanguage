@@ -1,0 +1,602 @@
+[
+{
+"word": "journalisme",
+"pos": "n.m.",
+"zh": "新闻业",
+"level": "b1"
+},
+{
+"word": "judiciaire",
+"pos": "adj.",
+"zh": "司法的",
+"level": "b1"
+},
+{
+"word": "juge",
+"pos": "n.m.",
+"zh": "法官；裁判",
+"level": "b1"
+},
+{
+"word": "jugement",
+"pos": "n.m.",
+"zh": "判断；审判",
+"level": "b1"
+},
+{
+"word": "juger",
+"pos": "v.",
+"zh": "审判；判断；评价",
+"level": "b1"
+},
+{
+"word": "jungle",
+"pos": "n.f.",
+"zh": "丛林",
+"level": "b1"
+},
+{
+"word": "juridique",
+"pos": "adj.",
+"zh": "法律的；司法的",
+"level": "b1"
+},
+{
+"word": "juriste",
+"pos": "n.",
+"zh": "法学家；法律专家",
+"level": "b1"
+},
+{
+"word": "jury",
+"pos": "n.m.",
+"zh": "评审团；陪审团",
+"level": "b1"
+},
+{
+"word": "jusque-là",
+"pos": "adv.",
+"zh": "直到那时；迄今",
+"level": "b1"
+},
+{
+"word": "justice",
+"pos": "n.",
+"zh": "司法；正义",
+"level": "b1"
+},
+{
+"word": "justifier",
+"pos": "v.",
+"zh": "为…辩解；说明理由",
+"level": "b1"
+},
+{
+"word": "kid",
+"pos": "n.m.",
+"zh": "小孩（口语）",
+"level": "b1"
+},
+{
+"word": "kidnapper",
+"pos": "v.",
+"zh": "绑架",
+"level": "b1"
+},
+{
+"word": "kidnappeur",
+"pos": "n.m.",
+"zh": "绑架者",
+"level": "b1"
+},
+{
+"word": "kidnapping",
+"pos": "n.m.",
+"zh": "绑架；绑架案",
+"level": "b1"
+},
+{
+"word": "kit",
+"pos": "n.m.",
+"zh": "成套工具；套装",
+"level": "b1"
+},
+{
+"word": "klaxon",
+"pos": "n.m.",
+"zh": "（汽车）喇叭",
+"level": "b1"
+},
+{
+"word": "klaxonner",
+"pos": "v.",
+"zh": "鸣喇叭",
+"level": "b1"
+},
+{
+"word": "la plupart",
+"pos": "pron.",
+"zh": "大部分；大多数",
+"level": "b1"
+},
+{
+"word": "labyrinthe",
+"pos": "n.m.",
+"zh": "迷宫",
+"level": "b1"
+},
+{
+"word": "laisse",
+"pos": "n.f.",
+"zh": "（牵狗的）绳带",
+"level": "b1"
+},
+{
+"word": "laissez-passer",
+"pos": "n.m.",
+"zh": "通行证",
+"level": "b1"
+},
+{
+"word": "lame",
+"pos": "n.f.",
+"zh": "刀刃；刀片",
+"level": "b1"
+},
+{
+"word": "langage",
+"pos": "n.m.",
+"zh": "语言；用语",
+"level": "b1"
+},
+{
+"word": "laquelle",
+"pos": "pron.",
+"zh": "哪一个（阴性）",
+"level": "b1"
+},
+{
+"word": "largement",
+"pos": "adv.",
+"zh": "宽裕地；在很大程度上",
+"level": "b1"
+},
+{
+"word": "larguer",
+"pos": "v.",
+"zh": "投下；甩掉（口语）",
+"level": "b1"
+},
+{
+"word": "larve",
+"pos": "n.f.",
+"zh": "幼虫；蛆",
+"level": "b1"
+},
+{
+"word": "latin",
+"pos": "n.m.",
+"zh": "拉丁语；拉丁的",
+"level": "b1"
+},
+{
+"word": "lavage",
+"pos": "n.m.",
+"zh": "清洗；洗涤",
+"level": "b1"
+},
+{
+"word": "lave",
+"pos": "n.f.",
+"zh": "熔岩",
+"level": "b1"
+},
+{
+"word": "laverie",
+"pos": "n.f.",
+"zh": "自助洗衣店",
+"level": "b1"
+},
+{
+"word": "leader",
+"pos": "n.m.",
+"zh": "领袖；领先者",
+"level": "b1"
+},
+{
+"word": "lecteur",
+"pos": "n.m.",
+"zh": "读者；播放器；读卡器",
+"level": "b1"
+},
+{
+"word": "lentille",
+"pos": "n.f.",
+"zh": "扁豆；镜片",
+"level": "b1"
+},
+{
+"word": "lequel",
+"pos": "pron.",
+"zh": "哪一个",
+"level": "b1"
+},
+{
+"word": "lesbien",
+"pos": "adj.",
+"zh": "女同性恋的",
+"level": "b1"
+},
+{
+"word": "lesquelles",
+"pos": "pron.",
+"zh": "哪些（阴性复数）",
+"level": "b1"
+},
+{
+"word": "lesquels",
+"pos": "pron.",
+"zh": "哪些（阳性复数）",
+"level": "b1"
+},
+{
+"word": "liaison",
+"pos": "n.f.",
+"zh": "联系；联络",
+"level": "b1"
+},
+{
+"word": "liberté",
+"pos": "n.f.",
+"zh": "自由",
+"level": "b1"
+},
+{
+"word": "libéral",
+"pos": "adj.",
+"zh": "自由的；自由派的",
+"level": "b1"
+},
+{
+"word": "libération",
+"pos": "n.f.",
+"zh": "解放",
+"level": "b1"
+},
+{
+"word": "libérer",
+"pos": "v.",
+"zh": "释放；解放",
+"level": "b1"
+},
+{
+"word": "libéré",
+"pos": "adj.",
+"zh": "获释的；解脱的",
+"level": "b1"
+},
+{
+"word": "licence",
+"pos": "n.f.",
+"zh": "执照；学士学位",
+"level": "b1"
+},
+{
+"word": "licenciement",
+"pos": "n.m.",
+"zh": "解雇",
+"level": "b1"
+},
+{
+"word": "licencier",
+"pos": "v.",
+"zh": "解雇；裁员",
+"level": "b1"
+},
+{
+"word": "lier",
+"pos": "v.",
+"zh": "捆绑；连接；联系",
+"level": "b1"
+},
+{
+"word": "lieutenant",
+"pos": "n.m.",
+"zh": "中尉",
+"level": "b1"
+},
+{
+"word": "ligue",
+"pos": "n.f.",
+"zh": "联盟；联赛",
+"level": "b1"
+},
+{
+"word": "limité",
+"pos": "adj.",
+"zh": "有限的",
+"level": "b1"
+},
+{
+"word": "liqueur",
+"pos": "n.f.",
+"zh": "利口酒",
+"level": "b1"
+},
+{
+"word": "littéraire",
+"pos": "adj.",
+"zh": "文学的",
+"level": "b1"
+},
+{
+"word": "livraison",
+"pos": "n.f.",
+"zh": "送货；交货",
+"level": "b1"
+},
+{
+"word": "lié",
+"pos": "adj.",
+"zh": "有关的；相连的",
+"level": "b1"
+},
+{
+"word": "local",
+"pos": "adj.",
+"zh": "当地的；场所",
+"level": "b1"
+},
+{
+"word": "locataire",
+"pos": "n.",
+"zh": "房客；承租人",
+"level": "b1"
+},
+{
+"word": "loger",
+"pos": "v.",
+"zh": "住宿；安置",
+"level": "b1"
+},
+{
+"word": "loi",
+"pos": "n.f.",
+"zh": "法律",
+"level": "b1"
+},
+{
+"word": "lointain",
+"pos": "adj.",
+"zh": "遥远的；久远的",
+"level": "b1"
+},
+{
+"word": "longuement",
+"pos": "adv.",
+"zh": "长久地；冗长地",
+"level": "b1"
+},
+{
+"word": "longueur",
+"pos": "n.f.",
+"zh": "长度；冗长",
+"level": "b1"
+},
+{
+"word": "look",
+"pos": "n.m.",
+"zh": "造型；打扮",
+"level": "b1"
+},
+{
+"word": "lorsque",
+"pos": "conj.",
+"zh": "当…时（书面）",
+"level": "b1"
+},
+{
+"word": "loterie",
+"pos": "n.f.",
+"zh": "彩票；碰运气的事",
+"level": "b1"
+},
+{
+"word": "loto",
+"pos": "n.m.",
+"zh": "乐透；彩票游戏",
+"level": "b1"
+},
+{
+"word": "loup-garou",
+"pos": "n.m.",
+"zh": "狼人",
+"level": "b1"
+},
+{
+"word": "loyal",
+"pos": "adj.",
+"zh": "忠诚的；正直的",
+"level": "b1"
+},
+{
+"word": "lutte",
+"pos": "n.f.",
+"zh": "斗争；搏斗",
+"level": "b1"
+},
+{
+"word": "lutter",
+"pos": "v.",
+"zh": "斗争；搏斗",
+"level": "b1"
+},
+{
+"word": "là-dessus",
+"pos": "adv.",
+"zh": "在这点上；于是",
+"level": "b1"
+},
+{
+"word": "lâche",
+"pos": "n.",
+"zh": "懦夫；胆小鬼",
+"level": "b1"
+},
+{
+"word": "légal",
+"pos": "adj.",
+"zh": "合法的",
+"level": "b1"
+},
+{
+"word": "légalement",
+"pos": "adv.",
+"zh": "合法地",
+"level": "b1"
+},
+{
+"word": "légendaire",
+"pos": "adj.",
+"zh": "传奇的；传说中的",
+"level": "b1"
+},
+{
+"word": "légende",
+"pos": "n.f.",
+"zh": "传说；图例",
+"level": "b1"
+},
+{
+"word": "lézard",
+"pos": "n.m.",
+"zh": "蜥蜴",
+"level": "b1"
+},
+{
+"word": "macaroni",
+"pos": "n.m.",
+"zh": "通心粉",
+"level": "b1"
+},
+{
+"word": "machin",
+"pos": "n.m.",
+"zh": "玩意儿；东西（口语）",
+"level": "b1"
+},
+{
+"word": "macho",
+"pos": "n.m.",
+"zh": "大男子主义的；大男子汉",
+"level": "b1"
+},
+{
+"word": "mafia",
+"pos": "n.f.",
+"zh": "黑手党；黑帮",
+"level": "b1"
+},
+{
+"word": "magnétique",
+"pos": "adj.",
+"zh": "磁性的；有魅力的",
+"level": "b1"
+},
+{
+"word": "maillot",
+"pos": "n.m.",
+"zh": "运动衫；泳衣",
+"level": "b1"
+},
+{
+"word": "maintenir",
+"pos": "v.",
+"zh": "维持；保持",
+"level": "b1"
+},
+{
+"word": "maire",
+"pos": "n.m.",
+"zh": "市长",
+"level": "b1"
+},
+{
+"word": "majesté",
+"pos": "n.f.",
+"zh": "威严；陛下",
+"level": "b1"
+},
+{
+"word": "majeur",
+"pos": "adj.",
+"zh": "主要的；重大的；成年的",
+"level": "b1"
+},
+{
+"word": "maladroit",
+"pos": "adj.",
+"zh": "笨拙的",
+"level": "b1"
+},
+{
+"word": "malchance",
+"pos": "n.f.",
+"zh": "厄运；不幸",
+"level": "b1"
+},
+{
+"word": "malentendu",
+"pos": "n.m.",
+"zh": "误会；误解",
+"level": "b1"
+},
+{
+"word": "malheur",
+"pos": "n.m.",
+"zh": "不幸；灾难",
+"level": "b1"
+},
+{
+"word": "malhonnête",
+"pos": "adj.",
+"zh": "不诚实的；无礼的",
+"level": "b1"
+},
+{
+"word": "malle",
+"pos": "n.f.",
+"zh": "大箱子；衣箱",
+"level": "b1"
+},
+{
+"word": "malédiction",
+"pos": "n.f.",
+"zh": "诅咒",
+"level": "b1"
+},
+{
+"word": "mangeur",
+"pos": "n.m.",
+"zh": "吃…的人；食客",
+"level": "b1"
+},
+{
+"word": "manif",
+"pos": "n.f.",
+"zh": "游行示威（口语）",
+"level": "b1"
+},
+{
+"word": "manifestation",
+"pos": "n.f.",
+"zh": "示威游行；表现",
+"level": "b1"
+},
+{
+"word": "manifestement",
+"pos": "adv.",
+"zh": "显然；明摆着",
+"level": "b1"
+}
+]

@@ -1,0 +1,2702 @@
+[
+ {
+  "w": "見える",
+  "r": "みえる",
+  "en": "to be in sight",
+  "zh": "能看见；可见",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "見つかる",
+  "r": "みつかる",
+  "en": "to be discovered",
+  "zh": "被找到，被发现，找到（东西等）。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "見つける",
+  "r": "みつける",
+  "en": "to discover",
+  "zh": "找到，发现",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "見物",
+  "r": "けんぶつ",
+  "en": "sightseeing",
+  "zh": "观光",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "規則",
+  "r": "きそく",
+  "en": "regulations",
+  "zh": "法规",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "親",
+  "r": "おや",
+  "en": "parents",
+  "zh": "父母；家长。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "親切",
+  "r": "しんせつ",
+  "en": "kindness",
+  "zh": "亲切；热心",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "触る",
+  "r": "さわる",
+  "en": "to touch",
+  "zh": "触摸、碰；与之接触。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "計画",
+  "r": "けいかくする",
+  "en": "to plan",
+  "zh": "计划，方案",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "訪ねる",
+  "r": "たずねる",
+  "en": "to visit",
+  "zh": "询问，寻求；打听。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "訳",
+  "r": "わけ",
+  "en": "meaning; reason",
+  "zh": "借口，托词；用来推脱或解释的理由。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "試合",
+  "r": "しあい",
+  "en": "match; game",
+  "zh": "匹配;游戏",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "試験",
+  "r": "しけん",
+  "en": "examination",
+  "zh": "考试",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "説明",
+  "r": "せつめい",
+  "en": "explanation",
+  "zh": "说明，解释。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "課長",
+  "r": "かちょう",
+  "en": "section manager",
+  "zh": "部门经理",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "調べる",
+  "r": "しらべる",
+  "en": "to investigate",
+  "zh": "查找，检索",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "講堂",
+  "r": "こうどう",
+  "en": "auditorium",
+  "zh": "行动，行为",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "講義",
+  "r": "こうぎ",
+  "en": "lecture",
+  "zh": "演讲",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "謝る",
+  "r": "あやまる",
+  "en": "to apologize",
+  "zh": "道歉",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "警察",
+  "r": "けいさつ",
+  "en": "police",
+  "zh": "警察",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "負ける",
+  "r": "まける",
+  "en": "to lose",
+  "zh": "输，失败。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "貿易",
+  "r": "ぼうえき",
+  "en": "trade",
+  "zh": "贸易",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "贈り物",
+  "r": "おくりもの",
+  "en": "gift",
+  "zh": "礼物",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "赤ん坊",
+  "r": "あかんぼう",
+  "en": "baby",
+  "zh": "婴儿",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "起す",
+  "r": "おこす",
+  "en": "to wake",
+  "zh": "引起，造成",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "趣味",
+  "r": "しゅみ",
+  "en": "hobby",
+  "zh": "爱好、兴趣",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "足す",
+  "r": "たす",
+  "en": "to add a number",
+  "zh": "加；加上",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "足りる",
+  "r": "たりる",
+  "en": "to be enough",
+  "zh": "足够，充足，能够满足需求。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "踊り",
+  "r": "おどり",
+  "en": "a dance",
+  "zh": "舞蹈",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "踊る",
+  "r": "おどる",
+  "en": "to dance",
+  "zh": "跳舞",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "踏む",
+  "r": "ふむ",
+  "en": "to step on",
+  "zh": "踩，踏（指用脚踩或踩踏）",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "輸入",
+  "r": "ゆにゅうする",
+  "en": "to import",
+  "zh": "进口",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "輸出",
+  "r": "ゆしゅつする",
+  "en": "to export",
+  "zh": "出口",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "辞典",
+  "r": "じてん",
+  "en": "dictionary",
+  "zh": "字典",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "込む",
+  "r": "こむ",
+  "en": "to be crowded",
+  "zh": "拥挤",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "迎える",
+  "r": "むかえる",
+  "en": "to go out to meet",
+  "zh": "迎接，接（人），邀请。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "近所",
+  "r": "きんじょ",
+  "en": "neighbourhood",
+  "zh": "邻里",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "返事",
+  "r": "へんじ",
+  "en": "reply",
+  "zh": "回复、答复。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "退院",
+  "r": "たいいんする",
+  "en": "to leave hospital",
+  "zh": "出院",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "送る",
+  "r": "おくる",
+  "en": "to send",
+  "zh": "发送；寄送",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "逃げる",
+  "r": "にげる",
+  "en": "to escape",
+  "zh": "逃跑，逃走，逃离。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "途中",
+  "r": "とちゅう",
+  "en": "on the way",
+  "zh": "途中；中途",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "通う",
+  "r": "かよう",
+  "en": "to commute",
+  "zh": "往返于（某地），经常去某地",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "通る",
+  "r": "とおる",
+  "en": "to go through",
+  "zh": "经过，穿过；走过某地",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "連れる",
+  "r": "つれる",
+  "en": "to lead",
+  "zh": "带着，陪同（某人）一起前往",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "連絡",
+  "r": "れんらく",
+  "en": "contact",
+  "zh": "联系、通信。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "進む",
+  "r": "すすむ",
+  "en": "to make progress",
+  "zh": "前进，向前走。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "遅れる",
+  "r": "おくれる",
+  "en": "to be late",
+  "zh": "迟到；来晚了。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "遊び",
+  "r": "あそび",
+  "en": "play",
+  "zh": "游戏；玩耍",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "運ぶ",
+  "r": "はこぶ",
+  "en": "to transport",
+  "zh": "搬运；携带",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "運動",
+  "r": "うんどうする",
+  "en": "to exercise",
+  "zh": "锻炼身体",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "運転",
+  "r": "うんてんする",
+  "en": "to drive",
+  "zh": "开车",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "運転手",
+  "r": "うんてんしゅ",
+  "en": "driver",
+  "zh": "司机",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "過ぎる",
+  "r": "すぎる",
+  "en": "to exceed",
+  "zh": "超过，流逝，经过。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "道具",
+  "r": "どうぐ",
+  "en": "tool; means",
+  "zh": "工具；道具",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "遠く",
+  "r": "とおく",
+  "en": "distant",
+  "zh": "远（离得很远的地方）",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "遠慮",
+  "r": "えんりょする",
+  "en": "to be reserved; to be restrained",
+  "zh": "客气；顾虑",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "適当",
+  "r": "てきとう",
+  "en": "suitability",
+  "zh": "合适的，适当的；恰当的。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "選ぶ",
+  "r": "えらぶ",
+  "en": "to choose",
+  "zh": "选择，挑选",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "郊外",
+  "r": "こうがい",
+  "en": "outskirts",
+  "zh": "郊外；市郊",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "部長",
+  "r": "ぶちょう",
+  "en": "head of a section",
+  "zh": "部长；部门主管",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "都",
+  "r": "と",
+  "en": "metropolitan",
+  "zh": "学生",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "都合",
+  "r": "つごう",
+  "en": "circumstances; convenience",
+  "zh": "情况；方便与否",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "釣る",
+  "r": "つる",
+  "en": "to fish",
+  "zh": "钓鱼",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "鏡",
+  "r": "かがみ",
+  "en": "mirror",
+  "zh": "镜子",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "間",
+  "r": "あいだ",
+  "en": "a space",
+  "zh": "间隔，空隙",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "間に合う",
+  "r": "まにあう",
+  "en": "to be in time for",
+  "zh": "来得及；赶上",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "間違える",
+  "r": "まちがえる",
+  "en": "to make a mistake",
+  "zh": "搞错，弄错，混淆。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "関係",
+  "r": "かんけい",
+  "en": "relationship",
+  "zh": "关系、关联",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "降り出す",
+  "r": "ふりだす",
+  "en": "to start to rain",
+  "zh": "开始下雨",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "隅",
+  "r": "すみ",
+  "en": "corner; nook",
+  "zh": "角落;角落",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "集める",
+  "r": "あつめる",
+  "en": "to collect something",
+  "zh": "收集，聚集",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "集る",
+  "r": "あつまる",
+  "en": "to gather",
+  "zh": "纠缠；成群聚集",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "雲",
+  "r": "くも",
+  "en": "cloud",
+  "zh": "云",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "電報",
+  "r": "でんぽう",
+  "en": "telegram",
+  "zh": "电报",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "電灯",
+  "r": "でんとう",
+  "en": "electric light",
+  "zh": "电灯",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "非常に",
+  "r": "ひじょうに",
+  "en": "extremely",
+  "zh": "非常；极其",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "音",
+  "r": "おと",
+  "en": "sound; note",
+  "zh": "声音、响声",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "飛行場",
+  "r": "ひこうじょう",
+  "en": "airport",
+  "zh": "机场",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "食事",
+  "r": "しょくじする",
+  "en": "to have a meal",
+  "zh": "餐、用餐",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "食料品",
+  "r": "しょくりょうひん",
+  "en": "groceries",
+  "zh": "食品",
+  "src": "llm",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "飾る",
+  "r": "かざる",
+  "en": "to decorate",
+  "zh": "装饰",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "首",
+  "r": "くび",
+  "en": "neck",
+  "zh": "脖子；颈部",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "駐車場",
+  "r": "ちゅうしゃじょう",
+  "en": "parking lot",
+  "zh": "停车场",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "騒ぐ",
+  "r": "さわぐ",
+  "en": "to make noise; to be excited",
+  "zh": "喧闹，吵闹，胡闹。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "驚く",
+  "r": "おどろく",
+  "en": "to be surprised",
+  "zh": "感到惊讶，吃惊。",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "高校",
+  "r": "こうこう",
+  "en": "high school",
+  "zh": "中学",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "高校生",
+  "r": "こうこうせい",
+  "en": "high school student",
+  "zh": "高中生",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "高等学校",
+  "r": "こうとうがっこう",
+  "en": "high school",
+  "zh": "中学",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "髪",
+  "r": "かみ",
+  "en": "hair",
+  "zh": "头发，发型",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "鳴る",
+  "r": "なる",
+  "en": "to sound",
+  "zh": "响，发出声音（如铃声或警报）",
+  "src": "",
+  "pos": "",
+  "lv": "n4"
+ },
+ {
+  "w": "あいにく",
+  "r": "",
+  "en": "unfortunately; Sorry; but....",
+  "zh": "很遗憾;对不起;但....",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "あした",
+  "r": "あした",
+  "en": "tomorrow",
+  "zh": "明天",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "あちこち",
+  "r": "",
+  "en": "here and there",
+  "zh": "这里和那里",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "あっ",
+  "r": "",
+  "en": "Ah!; Oh!",
+  "zh": "啊！;哦！",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "あと",
+  "r": "あと",
+  "en": "(1) trace; tracks; (2) remains; ruins; (3) scar",
+  "zh": "之后；……以后",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "あらゆる",
+  "r": "",
+  "en": "all; every",
+  "zh": "全部;每一个",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ありがとう",
+  "r": "",
+  "en": "(conj; exp; int) Thank you",
+  "zh": "谢谢",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "あるいは",
+  "r": "",
+  "en": "or; possibly",
+  "zh": "或者;可能",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "あんなに",
+  "r": "あんなに",
+  "en": "to that extent; to that degree",
+  "zh": "那么；那样地",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "あんまり",
+  "r": "",
+  "en": "not very; not much; remainder; rest",
+  "zh": "不太；不多；余;休息",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いえ",
+  "r": "いえ",
+  "en": "TODO same as いいえ?",
+  "zh": "房子；家。指住所或家庭。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いけない",
+  "r": "",
+  "en": "must not do; bad; wrong; not good",
+  "zh": "一定不能做；坏的;错误的;不好",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いずれ",
+  "r": "いずれ",
+  "en": "where; which; who",
+  "zh": "迟早、改天、将来某个时候。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いたずら",
+  "r": "",
+  "en": "tease; prank; trick; practical joke",
+  "zh": "逗;恶作剧；诡计;恶作剧",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いただきます",
+  "r": "いただきます",
+  "en": "expression of gratitude before meals",
+  "zh": "我要开动了；谢谢招待。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いち",
+  "r": "いち",
+  "en": "market; fair",
+  "zh": "一",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いつか",
+  "r": "いつか",
+  "en": "sometime; someday; one day",
+  "zh": "某时、某一天；将来有一天。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いつでも",
+  "r": "",
+  "en": "(at) any time; always; at all times; never (neg)",
+  "zh": "（随时;总是;随时;从不（否定）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いつまでも",
+  "r": "いつまでも",
+  "en": "forever; for good; eternally; as long as one likes; indefinitely",
+  "zh": "永远，始终，一直。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いらいら",
+  "r": "",
+  "en": "getting nervous; irritation",
+  "zh": "变得紧张；刺激",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いらっしゃい",
+  "r": "",
+  "en": "welcome",
+  "zh": "欢迎",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "いわゆる",
+  "r": "",
+  "en": "the so-called; so to speak",
+  "zh": "所谓的；可以这么说",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "うがい",
+  "r": "",
+  "en": "gargle; rinse mouth",
+  "zh": "漱口;漱口",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "うなる",
+  "r": "",
+  "en": "to groan; to moan",
+  "zh": "呻吟；呻吟",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "うるさい",
+  "r": "うるさい",
+  "en": "noisy; loud; fussy",
+  "zh": "吵闹，令人烦躁",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "おしゃべり",
+  "r": "",
+  "en": "chattering; talk; idle talk",
+  "zh": "喋喋不休；讲话;闲话",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "おじいさん",
+  "r": "おじいさん",
+  "en": "grandfather; male senior-citizen",
+  "zh": "祖父；爷爷",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "おそらく",
+  "r": "おそらく",
+  "en": "perhaps",
+  "zh": "恐怕；大概",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "おまえ",
+  "r": "",
+  "en": "(fam) you (sing); presence (of a high personage)",
+  "zh": "你（粗俗）",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "おめでとう",
+  "r": "",
+  "en": "Congratulations!; an auspicious occasion!",
+  "zh": "恭喜！；一个吉祥的时刻！",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "おや",
+  "r": "おや",
+  "en": "parents",
+  "zh": "父母；家长。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "およそ",
+  "r": "",
+  "en": "about; roughly; as a rule; approximately",
+  "zh": "关于;大致;作为一项规则；大约",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "お互い",
+  "r": "おたがい",
+  "en": "mutual; reciprocal; each other",
+  "zh": "彼此；互相。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "お昼",
+  "r": "おひる",
+  "en": "lunch; noon",
+  "zh": "午餐;中午",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "お腹",
+  "r": "おなか",
+  "en": "stomach",
+  "zh": "肚子、腹部",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "かなり",
+  "r": "かなり",
+  "en": "considerably; fairly; quite",
+  "zh": "相当、非常、挺",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "かもしれない",
+  "r": "",
+  "en": "may; might; perhaps; may be; possibly",
+  "zh": "可能;可能;也许;或许;可能",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "かわいそう",
+  "r": "",
+  "en": "poor; pitiable; pathetic",
+  "zh": "贫穷的;可怜的；可怜的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "かわいらしい",
+  "r": "",
+  "en": "lovely; sweet",
+  "zh": "迷人的;甜的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "がっかり",
+  "r": "",
+  "en": "feel disappointed; be dejected; lose heart",
+  "zh": "感到失望；垂头丧气；失去信心",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "きちんと",
+  "r": "きちんと",
+  "en": "precisely; accurately",
+  "zh": "整齐地、准确地",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "きつい",
+  "r": "きつい",
+  "en": "tight; close; intense",
+  "zh": "紧、窄；表示衣物过于贴身或不够宽松。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ぐっすり",
+  "r": "",
+  "en": "sound asleep; fast asleep",
+  "zh": "睡得很香；快睡着了",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "けち",
+  "r": "",
+  "en": "stinginess; miser; miserliness",
+  "zh": "吝啬；吝啬鬼;吝啬",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "これら",
+  "r": "",
+  "en": "these",
+  "zh": "这些",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "こんなに",
+  "r": "こんなに",
+  "en": "so; like this; in this way",
+  "zh": "这么多；这样地",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "こんにちは",
+  "r": "",
+  "en": "hello; good day (daytime greeting; id)",
+  "zh": "你好;美好的一天（白天问候；id）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ごめんなさい",
+  "r": "",
+  "en": "I beg your pardon; excuse me",
+  "zh": "请再说一遍;打扰一下",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "さっぱり",
+  "r": "",
+  "en": "feeling refreshed; feeling relieved; neat; trimmed",
+  "zh": "清爽；完全不",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "さて",
+  "r": "",
+  "en": "well; now; then",
+  "zh": "出色地;现在;然后",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ざっと",
+  "r": "",
+  "en": "roughly; in round numbers",
+  "zh": "大致;以整数表示",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "しかも",
+  "r": "",
+  "en": "moreover; furthermore; nevertheless; and yet",
+  "zh": "而且;此外;尽管如此;然而",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "しきりに",
+  "r": "",
+  "en": "frequently; repeatedly; incessantly; eagerly",
+  "zh": "频繁地;反复;不已;热切地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "したがって",
+  "r": "したがって",
+  "en": "therefore; consequently; in accordance with",
+  "zh": "所以;最后;依据",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "しばしば",
+  "r": "",
+  "en": "often; again and again; frequently",
+  "zh": "经常;一次又一次；频繁地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "しまい",
+  "r": "（終わり）",
+  "en": "sisters",
+  "zh": "姐妹",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "しまう",
+  "r": "（終わる）",
+  "en": "to finish; to close; to do something completely",
+  "zh": "完成；关闭；完全地做某事",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "しまった",
+  "r": "（感）",
+  "en": "Damn it!",
+  "zh": "该死的！",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "しゃべる",
+  "r": "",
+  "en": "to talk; to chat; to chatter",
+  "zh": "说话；聊天；闲聊",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "じっと",
+  "r": "じっと",
+  "en": "fixedly; firmly; patiently; quietly",
+  "zh": "静静地，一动不动地",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "すごい",
+  "r": "すごい",
+  "en": "terrible; dreadful; terrific; amazing; great",
+  "zh": "厉害的；非常大的；了不起的。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "すてき",
+  "r": "すてき",
+  "en": "lovely; dreamy; beautiful; great",
+  "zh": "美好、极好、很棒",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "すなわち",
+  "r": "",
+  "en": "that is; namely; i.e.",
+  "zh": "那是;即； IE。",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "すみません",
+  "r": "（感）",
+  "en": "sorry; excuse me",
+  "zh": "抱歉，对不起，劳驾",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ずっと",
+  "r": "ずっと",
+  "en": "consecutively; throughout; a lot",
+  "zh": "一直，始终（指持续一段时间，不间断地）",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "そこで",
+  "r": "",
+  "en": "so (conj); accordingly; now; then; thereupon",
+  "zh": "所以（连词）；因此;现在;然后;于是",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "そっくり",
+  "r": "",
+  "en": "all; altogether; entirely; be just like; the splitting image of",
+  "zh": "全部;共;完全;就像；的分裂图像",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "そっと",
+  "r": "そっと",
+  "en": "face of the earth",
+  "zh": "轻轻地，温柔地。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "そのうち",
+  "r": "そのうち",
+  "en": "eventually; sooner or later; of the previously mentioned",
+  "zh": "迟早，不久之后",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "そのまま",
+  "r": "",
+  "en": "without change; as it is (i.e. now)",
+  "zh": "没有改变；就这样（即现在）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "それぞれ",
+  "r": "それぞれ",
+  "en": "each; every; either; respectively; severally",
+  "zh": "每个人，各自，各个；指各自或每一个。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "それでも",
+  "r": "",
+  "en": "but (still); and yet; nevertheless; even so; notwithstanding",
+  "zh": "尽管如此",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "それとも",
+  "r": "",
+  "en": "or; or else",
+  "zh": "或者;不然",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ただ",
+  "r": "ただ",
+  "en": "free of charge; mere; only",
+  "zh": "免费；不用付钱",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "たっぷり",
+  "r": "たっぷり",
+  "en": "full; in plenty; ample",
+  "zh": "充分地，充足地，大量地",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "たとえ",
+  "r": "",
+  "en": "simile; metaphor; allegory",
+  "zh": "明喻；隐喻;寓言",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "たびたび",
+  "r": "",
+  "en": "often; repeatedly; frequently",
+  "zh": "经常;反复;频繁地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "たまらない",
+  "r": "たまらない",
+  "en": "intolerable; unbearable; unendurable",
+  "zh": "受不了；棒极了",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "だけど",
+  "r": "",
+  "en": "however",
+  "zh": "然而",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "だって",
+  "r": "",
+  "en": "but; because; even; also; too",
+  "zh": "但;因为;甚至;还;也",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ちゃんと",
+  "r": "ちゃんと",
+  "en": "perfectly; properly; exactly",
+  "zh": "好好地；确实地；妥当地",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ちょうだい",
+  "r": "",
+  "en": "(1) please do for me (preceded by -te); (2) reception; being given; get",
+  "zh": "（请）给我；赐予",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "つまり",
+  "r": "つまり",
+  "en": "in short; in brief; in other words",
+  "zh": "总之，基本上，也就是说。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "で",
+  "r": "おもいで",
+  "en": "outflow; coming (going) out; graduate (of)",
+  "zh": "回忆，记忆",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ですから",
+  "r": "",
+  "en": "therefore",
+  "zh": "所以",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ところが",
+  "r": "",
+  "en": "however; while; even if",
+  "zh": "然而;尽管;即使",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ところで",
+  "r": "",
+  "en": "by the way; even if; no matter what",
+  "zh": "顺便一提;即使;无论",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "とにかく",
+  "r": "とにかく",
+  "en": "anyhow; at any rate; anyway; somehow or other; generally speaking; in any case",
+  "zh": "无论如何；总之；反正",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "とん",
+  "r": "（1000",
+  "en": "ton",
+  "zh": "吨",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "とんでもない",
+  "r": "とんでもない",
+  "en": "unexpected; offensive; What a thing to say!; No way!",
+  "zh": "不可想象的，荒唐的，完全不可以的。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "どうか",
+  "r": "どうか",
+  "en": "copper coin",
+  "zh": "请、务必、希望（表示恳求或祈愿时使用）。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "どうしても",
+  "r": "どうしても",
+  "en": "by all means; at any cost; no matter what",
+  "zh": "无论如何；非要",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "どこか",
+  "r": "",
+  "en": "somewhere; anywhere",
+  "zh": "某处;任何地方",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "どんな",
+  "r": "どんな",
+  "en": "what; what kind of",
+  "zh": "什么样的；哪种类型的",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "どんなに",
+  "r": "",
+  "en": "how; how much",
+  "zh": "如何;多少",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "なお",
+  "r": "すなお",
+  "en": "straight; mischief; ordinary; common",
+  "zh": "诚实、坦率",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "なかなか",
+  "r": "なかなか",
+  "en": "very; considerably; easily",
+  "zh": "相当、颇为、挺，表示程度较高。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "なぜなら",
+  "r": "",
+  "en": "because",
+  "zh": "因为",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "なにも",
+  "r": "",
+  "en": "nothing",
+  "zh": "没有什么",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "にっこり",
+  "r": "",
+  "en": "smile sweetly; smile; grin",
+  "zh": "笑容甜美；微笑;咧嘴笑",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ね",
+  "r": "（感）",
+  "en": "value; price; cost; worth; merit",
+  "zh": "价值;价格;成本;值得;优点",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "のんびり",
+  "r": "",
+  "en": "carefree; at leisure",
+  "zh": "畅快;闲暇时",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "はさみ",
+  "r": "",
+  "en": "scissors",
+  "zh": "剪刀",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ばったり",
+  "r": "",
+  "en": "with a clash (thud); with a bang; plump; flop",
+  "zh": "突然相遇；猝然倒下",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "びっくり",
+  "r": "",
+  "en": "be surprised; be amazed; be frightened; astonishment",
+  "zh": "感到惊讶；感到惊讶；受到惊吓；惊讶",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ぴったり",
+  "r": "",
+  "en": "exactly; neatly; sharp",
+  "zh": "确切地;整齐地；锋利的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ふと",
+  "r": "（副）",
+  "en": "suddenly; casually; accidentally; incidentally; unexpectedly; unintentionally",
+  "zh": "突然；无意间。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ほぼ",
+  "r": "ほぼ",
+  "en": "almost; roughly; approximately",
+  "zh": "几乎，基本上",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ぼんやり",
+  "r": "ぼんやり",
+  "en": "absent-minded; block-head; dim; faint; vague",
+  "zh": "模糊地，心不在焉地",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "まあ",
+  "r": "まあ",
+  "en": "(female) you might say",
+  "zh": "嗯；算了",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "まさか",
+  "r": "まさか",
+  "en": "by no means",
+  "zh": "难道；怎么会",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "まさに",
+  "r": "まさに",
+  "en": "correctly; surely",
+  "zh": "确实，真正，正是",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ますます",
+  "r": "ますます",
+  "en": "increasingly; more and more",
+  "zh": "越来越，日益增加地。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "まるで",
+  "r": "まるで",
+  "en": "quite; entirely; completely",
+  "zh": "完全像，就如同，好似",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "もしも",
+  "r": "もしも",
+  "en": "if",
+  "zh": "如果、要是（表示假设或条件）。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "やがて",
+  "r": "",
+  "en": "before long; soon; at length",
+  "zh": "不久之后；很快;终于",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "やや",
+  "r": "",
+  "en": "a little; partially; somewhat; a short time; a while",
+  "zh": "一点;部分;有些;很短的时间；一会儿",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ゆっくり",
+  "r": "ゆっくり",
+  "en": "slowly; at ease",
+  "zh": "慢慢地，慢一些。",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "よい",
+  "r": "",
+  "en": "good; nice; pleasant; ok",
+  "zh": "好的;好的;令人愉快的;好的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "より",
+  "r": "",
+  "en": "twist; ply",
+  "zh": "捻;层数",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "よると",
+  "r": "",
+  "en": "according to",
+  "zh": "根据",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "よろしく",
+  "r": "（感）",
+  "en": "well; properly; suitably; best regards; please remember me",
+  "zh": "出色地;适当地;适当地；此致;请记住我",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "わがまま",
+  "r": "",
+  "en": "selfishness; egoism; wilfulness; disobedience; whim",
+  "zh": "自私;利己主义;任性;不服从；一时兴起",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "わざと",
+  "r": "わざと",
+  "en": "on purpose",
+  "zh": "故意、有意",
+  "src": "",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "アイスクリーム",
+  "r": "",
+  "en": "ice cream",
+  "zh": "冰淇淋",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "アイロン",
+  "r": "",
+  "en": "(electric) iron",
+  "zh": "（电的）熨斗",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "アウト",
+  "r": "",
+  "en": "out",
+  "zh": "出去",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "アルバム",
+  "r": "",
+  "en": "album",
+  "zh": "专辑",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "インク",
+  "r": "",
+  "en": "ink",
+  "zh": "墨水",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ウイスキー",
+  "r": "",
+  "en": "whisky",
+  "zh": "威士忌酒",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "エネルギー",
+  "r": "",
+  "en": "(n) energy (de: Energie)",
+  "zh": "能量；能源",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "エンジン",
+  "r": "",
+  "en": "engine",
+  "zh": "引擎",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "オフィス",
+  "r": "",
+  "en": "office",
+  "zh": "办公室",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "オーバー",
+  "r": "",
+  "en": "(1) overcoat; (2) over",
+  "zh": "(1)大衣； (2) 超过",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "カー",
+  "r": "",
+  "en": "car",
+  "zh": "车",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "カード",
+  "r": "",
+  "en": "card; curd",
+  "zh": "卡片;凝乳",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "キャプテン",
+  "r": "",
+  "en": "captain",
+  "zh": "队长",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "キャンプ",
+  "r": "",
+  "en": "camp",
+  "zh": "营",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "クラシック",
+  "r": "",
+  "en": "classic(s)",
+  "zh": "经典",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "クリスマス",
+  "r": "",
+  "en": "Christmas",
+  "zh": "圣诞节",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "クリーム",
+  "r": "",
+  "en": "cream",
+  "zh": "奶油",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "グラス",
+  "r": "",
+  "en": "(1) glass; (2) grass",
+  "zh": "(1)玻璃； (2)草",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "グランド",
+  "r": "",
+  "en": "gland; grand; (electrical) ground",
+  "zh": "腺;盛大; （电气）接地",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "グループ",
+  "r": "",
+  "en": "group",
+  "zh": "团体",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ケース",
+  "r": "",
+  "en": "case",
+  "zh": "案件",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ゲーム",
+  "r": "",
+  "en": "game",
+  "zh": "游戏",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "コピー",
+  "r": "",
+  "en": "(1) a (photo)copy; (2) blurb on a book jacket",
+  "zh": "复印；副本",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "コーチ",
+  "r": "",
+  "en": "coach",
+  "zh": "教练",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "コード",
+  "r": "",
+  "en": "code; cord; chord",
+  "zh": "代码;绳索;弦",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ゴール",
+  "r": "",
+  "en": "goal",
+  "zh": "目标",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "サイン",
+  "r": "",
+  "en": "(1) autograph; (2) sign; (3) sine",
+  "zh": "签名；签字",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "サービス",
+  "r": "",
+  "en": "(1) service; support system; (2) goods or services without charge",
+  "zh": "服务；免费赠送",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ジェット機",
+  "r": "ジェットき",
+  "en": "jet aeroplane",
+  "zh": "喷气式飞机",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ジュース",
+  "r": "",
+  "en": "juice; soft drink; deuce",
+  "zh": "汁;汽水;平局",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ジーンズ",
+  "r": "",
+  "en": "jeans",
+  "zh": "牛仔裤",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "スイッチ",
+  "r": "",
+  "en": "switch",
+  "zh": "转变",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "スキー",
+  "r": "",
+  "en": "skiing",
+  "zh": "滑雪",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "スケート",
+  "r": "",
+  "en": "skate(s); skating",
+  "zh": "冰鞋）;溜冰",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "スタイル",
+  "r": "",
+  "en": "style",
+  "zh": "风格",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "スタンド",
+  "r": "",
+  "en": "stand",
+  "zh": "站立",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "スター",
+  "r": "",
+  "en": "star",
+  "zh": "星星",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "スピーチ",
+  "r": "",
+  "en": "speech",
+  "zh": "演讲",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "スープ",
+  "r": "",
+  "en": "(Western) soup",
+  "zh": "（西式）汤",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "セット",
+  "r": "",
+  "en": "set",
+  "zh": "放",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "センター",
+  "r": "",
+  "en": "a center",
+  "zh": "一个中心",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ソファー",
+  "r": "",
+  "en": "sofa; couch",
+  "zh": "沙发;长椅",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "タイプライター",
+  "r": "",
+  "en": "typewriter",
+  "zh": "打字机",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "タオル",
+  "r": "",
+  "en": "(hand) towel",
+  "zh": "（手）毛巾",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ダイヤ",
+  "r": "",
+  "en": "(1) dyer; (2) diagram; (3) (railway) schedule; (4) diamond",
+  "zh": "钻石；火车时刻表",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ダンス",
+  "r": "",
+  "en": "dance",
+  "zh": "舞蹈",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "チャンス",
+  "r": "",
+  "en": "chance; opportunity",
+  "zh": "机会;机会",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "チーズ",
+  "r": "",
+  "en": "cheese",
+  "zh": "奶酪",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "チーム",
+  "r": "",
+  "en": "team",
+  "zh": "团队",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "テント",
+  "r": "",
+  "en": "tent",
+  "zh": "帐篷",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "デモ",
+  "r": "",
+  "en": "(abbr) demo; demonstration",
+  "zh": "（缩写）演示；示范",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "デート",
+  "r": "",
+  "en": "date; go on a date",
+  "zh": "日期;去约会",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "トップ",
+  "r": "",
+  "en": "top",
+  "zh": "顶部",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "トラック",
+  "r": "",
+  "en": "(1) truck; (2) (running) track",
+  "zh": "(1) 卡车； (2)（跑步）跑道",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "トランプ",
+  "r": "",
+  "en": "playing cards (lit: trump)",
+  "zh": "扑克牌（字面意思：王牌）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "トンネル",
+  "r": "",
+  "en": "tunnel",
+  "zh": "隧道",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ドライブ",
+  "r": "",
+  "en": "drive; trip by car; driving",
+  "zh": "驾驶;开车旅行；驾驶",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ドラマ",
+  "r": "",
+  "en": "drama",
+  "zh": "戏剧",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ドレス",
+  "r": "",
+  "en": "dress",
+  "zh": "裙子",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ノック",
+  "r": "",
+  "en": "(1) knock; (2) fungo (baseball)",
+  "zh": "(1)敲击； (2) 真菌（棒球）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ハイキング",
+  "r": "",
+  "en": "hiking",
+  "zh": "远足",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ハンサム",
+  "r": "",
+  "en": "handsome",
+  "zh": "英俊的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "バイオリン",
+  "r": "",
+  "en": "violin",
+  "zh": "小提琴",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "バッグ",
+  "r": "",
+  "en": "bag; bug",
+  "zh": "包;漏洞",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "バン",
+  "r": "",
+  "en": "bun; van (caravan); VAN (value-added network)",
+  "zh": "货车；面包车",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "パイプ",
+  "r": "",
+  "en": "(1) pipe; tube; (2) channels; official or otherwise",
+  "zh": "管子；渠道",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "パイロット",
+  "r": "",
+  "en": "pilot",
+  "zh": "飞行员",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "パス",
+  "r": "",
+  "en": "path; pass (in games)",
+  "zh": "小路;通过（在游戏中）",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "パスポート",
+  "r": "",
+  "en": "passport",
+  "zh": "护照",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "パーセント",
+  "r": "",
+  "en": "percent",
+  "zh": "百分比",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ビデオ",
+  "r": "",
+  "en": "video",
+  "zh": "视频",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ビール",
+  "r": "",
+  "en": "beer",
+  "zh": "啤酒",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ピクニック",
+  "r": "",
+  "en": "picnic",
+  "zh": "野餐",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ピン",
+  "r": "",
+  "en": "pin",
+  "zh": "别针",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ブレーキ",
+  "r": "",
+  "en": "a brake",
+  "zh": "刹车",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "プラス",
+  "r": "",
+  "en": "plus",
+  "zh": "加",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "プラン",
+  "r": "",
+  "en": "plan",
+  "zh": "计划",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "プロ",
+  "r": "",
+  "en": "professional",
+  "zh": "专业的",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ベルト",
+  "r": "",
+  "en": "Belt for western clothes",
+  "zh": "西服腰带",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ベンチ",
+  "r": "",
+  "en": "bench",
+  "zh": "长椅",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ペンキ",
+  "r": "",
+  "en": "(n) paint (nl: pek)",
+  "zh": "油漆",
+  "src": "llm",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ホーム",
+  "r": "",
+  "en": "(1) platform; (2) home",
+  "zh": "（一）平台； (2) 家",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ボーイ",
+  "r": "",
+  "en": "boy",
+  "zh": "男生",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ボート",
+  "r": "",
+  "en": "rowing boat",
+  "zh": "划艇",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ },
+ {
+  "w": "ボール",
+  "r": "",
+  "en": "ball; bowl",
+  "zh": "球;碗",
+  "src": "gtx",
+  "pos": "",
+  "lv": "n3"
+ }
+]

@@ -1,0 +1,602 @@
+[
+{
+"word": "cuisse",
+"pos": "n.f.",
+"zh": "大腿",
+"level": "a2"
+},
+{
+"word": "cuit",
+"pos": "adj.",
+"zh": "熟的；煮熟的",
+"level": "a2"
+},
+{
+"word": "cul",
+"pos": "n.m.",
+"zh": "臀部；屁股（粗俗）",
+"level": "a2"
+},
+{
+"word": "culotte",
+"pos": "n.f.",
+"zh": "内裤；短裤",
+"level": "a2"
+},
+{
+"word": "culture",
+"pos": "n.f.",
+"zh": "文化；耕作",
+"level": "a2"
+},
+{
+"word": "culturel",
+"pos": "adj.",
+"zh": "文化的",
+"level": "a2"
+},
+{
+"word": "curieux",
+"pos": "adj.",
+"zh": "好奇的；奇怪的",
+"level": "a2"
+},
+{
+"word": "cygne",
+"pos": "n.m.",
+"zh": "天鹅",
+"level": "a2"
+},
+{
+"word": "câble",
+"pos": "n.m.",
+"zh": "电缆；缆绳",
+"level": "a2"
+},
+{
+"word": "célibataire",
+"pos": "adj.",
+"zh": "单身的；未婚者",
+"level": "a2"
+},
+{
+"word": "célèbre",
+"pos": "adj.",
+"zh": "著名的",
+"level": "a2"
+},
+{
+"word": "côte",
+"pos": "n.f.",
+"zh": "肋骨；海岸；坡",
+"level": "a2"
+},
+{
+"word": "d'autres",
+"pos": "adj.",
+"zh": "其他的；另一些",
+"level": "a2"
+},
+{
+"word": "danger",
+"pos": "n.m.",
+"zh": "危险",
+"level": "a2"
+},
+{
+"word": "dangereux",
+"pos": "adj.",
+"zh": "危险的",
+"level": "a2"
+},
+{
+"word": "danois",
+"pos": "adj.",
+"zh": "丹麦的；丹麦语",
+"level": "a2"
+},
+{
+"word": "danse",
+"pos": "n.f.",
+"zh": "舞蹈；跳舞",
+"level": "a2"
+},
+{
+"word": "danseur",
+"pos": "n.m.",
+"zh": "舞蹈演员",
+"level": "a2"
+},
+{
+"word": "debout",
+"pos": "adv.",
+"zh": "站着；直立",
+"level": "a2"
+},
+{
+"word": "dedans",
+"pos": "adv.",
+"zh": "在里面；内部",
+"level": "a2"
+},
+{
+"word": "demande",
+"pos": "n.f.",
+"zh": "请求；要求；申请",
+"level": "a2"
+},
+{
+"word": "demi-frère",
+"pos": "n.m.",
+"zh": "同父异母的兄弟",
+"level": "a2"
+},
+{
+"word": "dentifrice",
+"pos": "n.m.",
+"zh": "牙膏",
+"level": "a2"
+},
+{
+"word": "dernièrement",
+"pos": "adv.",
+"zh": "最近；近来",
+"level": "a2"
+},
+{
+"word": "descente",
+"pos": "n.f.",
+"zh": "下降；下坡",
+"level": "a2"
+},
+{
+"word": "dessin",
+"pos": "n.m.",
+"zh": "图画；素描",
+"level": "a2"
+},
+{
+"word": "dessiner",
+"pos": "v.",
+"zh": "画；绘制",
+"level": "a2"
+},
+{
+"word": "dessous",
+"pos": "n.m.",
+"zh": "下面；底部",
+"level": "a2"
+},
+{
+"word": "dessus",
+"pos": "adv.",
+"zh": "在上面；其上",
+"level": "a2"
+},
+{
+"word": "destination",
+"pos": "n.f.",
+"zh": "目的地",
+"level": "a2"
+},
+{
+"word": "devenir",
+"pos": "v.",
+"zh": "变成；成为",
+"level": "a2"
+},
+{
+"word": "diable",
+"pos": "n.m.",
+"zh": "魔鬼；恶魔",
+"level": "a2"
+},
+{
+"word": "diamant",
+"pos": "n.m.",
+"zh": "钻石",
+"level": "a2"
+},
+{
+"word": "diarrhée",
+"pos": "n.f.",
+"zh": "腹泻",
+"level": "a2"
+},
+{
+"word": "dictée",
+"pos": "n.f.",
+"zh": "听写",
+"level": "a2"
+},
+{
+"word": "dieu",
+"pos": "n.m.",
+"zh": "上帝；神",
+"level": "a2"
+},
+{
+"word": "difficilement",
+"pos": "adv.",
+"zh": "困难地",
+"level": "a2"
+},
+{
+"word": "difficulté",
+"pos": "n.f.",
+"zh": "困难；难点",
+"level": "a2"
+},
+{
+"word": "différemment",
+"pos": "adv.",
+"zh": "不同地",
+"level": "a2"
+},
+{
+"word": "différence",
+"pos": "n.f.",
+"zh": "差别；不同",
+"level": "a2"
+},
+{
+"word": "diminuer",
+"pos": "v.",
+"zh": "减少；降低",
+"level": "a2"
+},
+{
+"word": "dinosaure",
+"pos": "n.m.",
+"zh": "恐龙",
+"level": "a2"
+},
+{
+"word": "diplôme",
+"pos": "n.m.",
+"zh": "文凭；证书",
+"level": "a2"
+},
+{
+"word": "direct",
+"pos": "adj.",
+"zh": "直接的；直的",
+"level": "a2"
+},
+{
+"word": "directement",
+"pos": "adv.",
+"zh": "直接地",
+"level": "a2"
+},
+{
+"word": "directeur",
+"pos": "n.m.",
+"zh": "经理；校长；主任",
+"level": "a2"
+},
+{
+"word": "direction",
+"pos": "n.f.",
+"zh": "方向；管理部门",
+"level": "a2"
+},
+{
+"word": "discussion",
+"pos": "n.f.",
+"zh": "讨论；谈话",
+"level": "a2"
+},
+{
+"word": "discuter",
+"pos": "v.",
+"zh": "讨论；交谈",
+"level": "a2"
+},
+{
+"word": "disparaître",
+"pos": "v.",
+"zh": "消失；失踪",
+"level": "a2"
+},
+{
+"word": "disponible",
+"pos": "adj.",
+"zh": "可用的；有空的",
+"level": "a2"
+},
+{
+"word": "dispute",
+"pos": "n.f.",
+"zh": "争吵",
+"level": "a2"
+},
+{
+"word": "disputer",
+"pos": "v.",
+"zh": "争夺；争吵",
+"level": "a2"
+},
+{
+"word": "disque",
+"pos": "n.m.",
+"zh": "唱片；圆盘",
+"level": "a2"
+},
+{
+"word": "distance",
+"pos": "n.f.",
+"zh": "距离；间距",
+"level": "a2"
+},
+{
+"word": "divers",
+"pos": "adj.",
+"zh": "各种各样的",
+"level": "a2"
+},
+{
+"word": "divorce",
+"pos": "n.m.",
+"zh": "离婚",
+"level": "a2"
+},
+{
+"word": "divorcer",
+"pos": "v.",
+"zh": "离婚",
+"level": "a2"
+},
+{
+"word": "dizaine",
+"pos": "n.f.",
+"zh": "十来个",
+"level": "a2"
+},
+{
+"word": "document",
+"pos": "n.m.",
+"zh": "文件；文献",
+"level": "a2"
+},
+{
+"word": "dodo",
+"pos": "n.m.",
+"zh": "睡觉（儿语）",
+"level": "a2"
+},
+{
+"word": "doigt",
+"pos": "n.m.",
+"zh": "手指",
+"level": "a2"
+},
+{
+"word": "domaine",
+"pos": "n.m.",
+"zh": "领域；庄园",
+"level": "a2"
+},
+{
+"word": "domicile",
+"pos": "n.m.",
+"zh": "住所；家",
+"level": "a2"
+},
+{
+"word": "dominer",
+"pos": "v.",
+"zh": "支配；统治；俯瞰",
+"level": "a2"
+},
+{
+"word": "dommage",
+"pos": "n.m.",
+"zh": "遗憾；可惜；损失",
+"level": "a2"
+},
+{
+"word": "dont",
+"pos": "pron.",
+"zh": "其中；…的",
+"level": "a2"
+},
+{
+"word": "doré",
+"pos": "adj.",
+"zh": "金色的；镀金的",
+"level": "a2"
+},
+{
+"word": "double",
+"pos": "adj.",
+"zh": "两倍的；双重的",
+"level": "a2"
+},
+{
+"word": "doucement",
+"pos": "adv.",
+"zh": "轻轻地；温和地",
+"level": "a2"
+},
+{
+"word": "doux",
+"pos": "adj.",
+"zh": "温柔的；柔软的；甜的",
+"level": "a2"
+},
+{
+"word": "douzaine",
+"pos": "n.f.",
+"zh": "一打；约十二个",
+"level": "a2"
+},
+{
+"word": "dragon",
+"pos": "n.m.",
+"zh": "龙",
+"level": "a2"
+},
+{
+"word": "drap",
+"pos": "n.m.",
+"zh": "床单",
+"level": "a2"
+},
+{
+"word": "drapeau",
+"pos": "n.m.",
+"zh": "旗帜",
+"level": "a2"
+},
+{
+"word": "drogue",
+"pos": "n.f.",
+"zh": "毒品",
+"level": "a2"
+},
+{
+"word": "droit",
+"pos": "n.m.",
+"zh": "权利；法律；右边",
+"level": "a2"
+},
+{
+"word": "drôle",
+"pos": "adj.",
+"zh": "好笑的；滑稽的；古怪的",
+"level": "a2"
+},
+{
+"word": "dur",
+"pos": "adj.",
+"zh": "硬的；艰难的；艰苦的",
+"level": "a2"
+},
+{
+"word": "dès",
+"pos": "prép.",
+"zh": "从…起",
+"level": "a2"
+},
+{
+"word": "dé",
+"pos": "n.m.",
+"zh": "骰子；色子",
+"level": "a2"
+},
+{
+"word": "débile",
+"pos": "adj.",
+"zh": "智力低下的；差劲的",
+"level": "a2"
+},
+{
+"word": "début",
+"pos": "n.m.",
+"zh": "开始；开头",
+"level": "a2"
+},
+{
+"word": "débutant",
+"pos": "n.m.",
+"zh": "初学者",
+"level": "a2"
+},
+{
+"word": "décider",
+"pos": "v.",
+"zh": "决定",
+"level": "a2"
+},
+{
+"word": "décision",
+"pos": "n.f.",
+"zh": "决定",
+"level": "a2"
+},
+{
+"word": "décoller",
+"pos": "v.",
+"zh": "起飞；揭开",
+"level": "a2"
+},
+{
+"word": "découper",
+"pos": "v.",
+"zh": "切；剪裁；分割",
+"level": "a2"
+},
+{
+"word": "découverte",
+"pos": "n.f.",
+"zh": "发现",
+"level": "a2"
+},
+{
+"word": "découvrir",
+"pos": "v.",
+"zh": "发现；发觉",
+"level": "a2"
+},
+{
+"word": "dégoûtant",
+"pos": "adj.",
+"zh": "令人恶心的；讨厌的",
+"level": "a2"
+},
+{
+"word": "dégueulasse",
+"pos": "adj.",
+"zh": "恶心的；令人作呕的（粗俗）",
+"level": "a2"
+},
+{
+"word": "déguiser",
+"pos": "v.",
+"zh": "化装；伪装",
+"level": "a2"
+},
+{
+"word": "déguisé",
+"pos": "adj.",
+"zh": "化了装的；伪装的",
+"level": "a2"
+},
+{
+"word": "délicieux",
+"pos": "adj.",
+"zh": "美味的；怡人的",
+"level": "a2"
+},
+{
+"word": "démarrer",
+"pos": "v.",
+"zh": "启动；开动",
+"level": "a2"
+},
+{
+"word": "déménagement",
+"pos": "n.m.",
+"zh": "搬家",
+"level": "a2"
+},
+{
+"word": "déménager",
+"pos": "v.",
+"zh": "搬家",
+"level": "a2"
+},
+{
+"word": "départ",
+"pos": "n.m.",
+"zh": "出发；离开",
+"level": "a2"
+},
+{
+"word": "dépasser",
+"pos": "v.",
+"zh": "超过；越过",
+"level": "a2"
+}
+]

@@ -1,0 +1,602 @@
+[
+{
+"word": "symbolique",
+"pos": "adj.",
+"zh": "象征的；象征性的",
+"level": "b2"
+},
+{
+"word": "symboliser",
+"pos": "v.",
+"zh": "象征；代表",
+"level": "b2"
+},
+{
+"word": "synagogue",
+"pos": "n.f.",
+"zh": "犹太教堂",
+"level": "b2"
+},
+{
+"word": "syndrome",
+"pos": "n.m.",
+"zh": "综合征；症候群",
+"level": "b2"
+},
+{
+"word": "sève",
+"pos": "n.f.",
+"zh": "树液；汁液",
+"level": "b2"
+},
+{
+"word": "sécuriser",
+"pos": "v.",
+"zh": "保护；使安全",
+"level": "b2"
+},
+{
+"word": "sédatif",
+"pos": "n.m.",
+"zh": "镇静剂",
+"level": "b2"
+},
+{
+"word": "séducteur",
+"pos": "n.m.",
+"zh": "引诱者；情场高手",
+"level": "b2"
+},
+{
+"word": "sénile",
+"pos": "adj.",
+"zh": "衰老的；老糊涂的",
+"level": "b2"
+},
+{
+"word": "sérum",
+"pos": "n.m.",
+"zh": "血清；精华液",
+"level": "b2"
+},
+{
+"word": "sévir",
+"pos": "v.",
+"zh": "肆虐；严厉打击",
+"level": "b2"
+},
+{
+"word": "sûreté",
+"pos": "n.f.",
+"zh": "安全；稳妥",
+"level": "b2"
+},
+{
+"word": "tabasser",
+"pos": "v.",
+"zh": "毒打（口语）",
+"level": "b2"
+},
+{
+"word": "tacher",
+"pos": "v.",
+"zh": "弄脏；沾污",
+"level": "b2"
+},
+{
+"word": "tact",
+"pos": "n.m.",
+"zh": "机敏；分寸",
+"level": "b2"
+},
+{
+"word": "tailler",
+"pos": "v.",
+"zh": "切削；裁剪",
+"level": "b2"
+},
+{
+"word": "tampon",
+"pos": "n.m.",
+"zh": "图章；棉塞；缓冲垫",
+"level": "b2"
+},
+{
+"word": "tanner",
+"pos": "v.",
+"zh": "鞣（皮革）；纠缠使厌烦（口语）",
+"level": "b2"
+},
+{
+"word": "tantôt",
+"pos": "adv.",
+"zh": "不久前；时而……时而",
+"level": "b2"
+},
+{
+"word": "tape",
+"pos": "n.f.",
+"zh": "轻拍；巴掌",
+"level": "b2"
+},
+{
+"word": "tapette",
+"pos": "n.f.",
+"zh": "苍蝇拍；男同性恋（贬）",
+"level": "b2"
+},
+{
+"word": "tardif",
+"pos": "adj.",
+"zh": "晚的；迟到的",
+"level": "b2"
+},
+{
+"word": "tarer",
+"pos": "v.",
+"zh": "校准；扣除皮重",
+"level": "b2"
+},
+{
+"word": "taré",
+"pos": "n.m.",
+"zh": "（俚语）疯子；怪人",
+"level": "b2"
+},
+{
+"word": "tasser",
+"pos": "v.",
+"zh": "压实；挤在一处",
+"level": "b2"
+},
+{
+"word": "taudis",
+"pos": "n.m.",
+"zh": "贫民窟；破屋",
+"level": "b2"
+},
+{
+"word": "taule",
+"pos": "n.f.",
+"zh": "牢房（俚语）",
+"level": "b2"
+},
+{
+"word": "taupe",
+"pos": "n.f.",
+"zh": "鼹鼠；内奸",
+"level": "b2"
+},
+{
+"word": "taxer",
+"pos": "v.",
+"zh": "征税；指责为",
+"level": "b2"
+},
+{
+"word": "techniquement",
+"pos": "adv.",
+"zh": "技术上；严格来说",
+"level": "b2"
+},
+{
+"word": "teindre",
+"pos": "v.",
+"zh": "染色",
+"level": "b2"
+},
+{
+"word": "teint",
+"pos": "n.m.",
+"zh": "肤色；面色",
+"level": "b2"
+},
+{
+"word": "tempe",
+"pos": "n.f.",
+"zh": "太阳穴",
+"level": "b2"
+},
+{
+"word": "temporel",
+"pos": "adj.",
+"zh": "时间的；世俗的",
+"level": "b2"
+},
+{
+"word": "tempérament",
+"pos": "n.m.",
+"zh": "气质；性情；脾气",
+"level": "b2"
+},
+{
+"word": "tendrement",
+"pos": "adv.",
+"zh": "温柔地",
+"level": "b2"
+},
+{
+"word": "tenu",
+"pos": "adj.",
+"zh": "保持的；整洁的",
+"level": "b2"
+},
+{
+"word": "tequila",
+"pos": "n.f.",
+"zh": "龙舌兰酒",
+"level": "b2"
+},
+{
+"word": "termite",
+"pos": "n.m.",
+"zh": "白蚁",
+"level": "b2"
+},
+{
+"word": "terrasser",
+"pos": "v.",
+"zh": "打垮；压倒",
+"level": "b2"
+},
+{
+"word": "terrestre",
+"pos": "adj.",
+"zh": "陆地的；地球的",
+"level": "b2"
+},
+{
+"word": "terrien",
+"pos": "adj.",
+"zh": "地球的；陆生的",
+"level": "b2"
+},
+{
+"word": "terrifier",
+"pos": "v.",
+"zh": "使惊恐",
+"level": "b2"
+},
+{
+"word": "terroriser",
+"pos": "v.",
+"zh": "恐吓；使惊恐",
+"level": "b2"
+},
+{
+"word": "testicule",
+"pos": "n.m.",
+"zh": "睾丸",
+"level": "b2"
+},
+{
+"word": "thermique",
+"pos": "adj.",
+"zh": "热的；热量的",
+"level": "b2"
+},
+{
+"word": "thorax",
+"pos": "n.m.",
+"zh": "胸廓",
+"level": "b2"
+},
+{
+"word": "thune",
+"pos": "n.f.",
+"zh": "钱（俚语）",
+"level": "b2"
+},
+{
+"word": "tic",
+"pos": "n.m.",
+"zh": "习惯动作；抽搐",
+"level": "b2"
+},
+{
+"word": "tige",
+"pos": "n.f.",
+"zh": "茎；杆",
+"level": "b2"
+},
+{
+"word": "timing",
+"pos": "n.m.",
+"zh": "时机把握",
+"level": "b2"
+},
+{
+"word": "tirage",
+"pos": "n.m.",
+"zh": "抽签；印数；冲印",
+"level": "b2"
+},
+{
+"word": "tisane",
+"pos": "n.f.",
+"zh": "草药茶；花草茶",
+"level": "b2"
+},
+{
+"word": "tisser",
+"pos": "v.",
+"zh": "编织；织造",
+"level": "b2"
+},
+{
+"word": "titi",
+"pos": "n.m.",
+"zh": "顽童；小家伙（口语）",
+"level": "b2"
+},
+{
+"word": "toc",
+"pos": "adj.",
+"zh": "疯疯癫癫的（口语）",
+"level": "b2"
+},
+{
+"word": "tombeau",
+"pos": "n.m.",
+"zh": "坟墓；陵墓",
+"level": "b2"
+},
+{
+"word": "tombée",
+"pos": "n.f.",
+"zh": "降临；落下之时",
+"level": "b2"
+},
+{
+"word": "topo",
+"pos": "n.m.",
+"zh": "概况；情况说明（口语）",
+"level": "b2"
+},
+{
+"word": "torche",
+"pos": "n.f.",
+"zh": "抹布；擦布",
+"level": "b2"
+},
+{
+"word": "tordre",
+"pos": "v.",
+"zh": "拧；扭",
+"level": "b2"
+},
+{
+"word": "tordu",
+"pos": "adj.",
+"zh": "扭曲的；古怪的",
+"level": "b2"
+},
+{
+"word": "torpille",
+"pos": "n.f.",
+"zh": "鱼雷",
+"level": "b2"
+},
+{
+"word": "torrent",
+"pos": "n.m.",
+"zh": "激流；急流",
+"level": "b2"
+},
+{
+"word": "torse",
+"pos": "n.m.",
+"zh": "躯干；上身",
+"level": "b2"
+},
+{
+"word": "torturé",
+"pos": "adj.",
+"zh": "受刑的；扭曲的",
+"level": "b2"
+},
+{
+"word": "toubib",
+"pos": "n.m.",
+"zh": "大夫（口语）",
+"level": "b2"
+},
+{
+"word": "touchant",
+"pos": "adj.",
+"zh": "感人的",
+"level": "b2"
+},
+{
+"word": "touffe",
+"pos": "n.f.",
+"zh": "一簇；一丛",
+"level": "b2"
+},
+{
+"word": "toupet",
+"pos": "n.m.",
+"zh": "额发；一绺头发；厚脸皮",
+"level": "b2"
+},
+{
+"word": "tourbillon",
+"pos": "n.m.",
+"zh": "漩涡；旋风",
+"level": "b2"
+},
+{
+"word": "tourment",
+"pos": "n.m.",
+"zh": "痛苦；折磨",
+"level": "b2"
+},
+{
+"word": "tourmenté",
+"pos": "adj.",
+"zh": "备受折磨的；坎坷的",
+"level": "b2"
+},
+{
+"word": "tournage",
+"pos": "n.m.",
+"zh": "拍摄",
+"level": "b2"
+},
+{
+"word": "tournure",
+"pos": "n.f.",
+"zh": "表达方式；体态",
+"level": "b2"
+},
+{
+"word": "tourné",
+"pos": "adj.",
+"zh": "转向…的；倾向…的",
+"level": "b2"
+},
+{
+"word": "tout-puissant",
+"pos": "adj.",
+"zh": "全能的；权力至上的",
+"level": "b2"
+},
+{
+"word": "toutou",
+"pos": "n.m.",
+"zh": "狗狗（儿语）",
+"level": "b2"
+},
+{
+"word": "toxine",
+"pos": "n.f.",
+"zh": "毒素",
+"level": "b2"
+},
+{
+"word": "trac",
+"pos": "n.m.",
+"zh": "怯场；发怵（口语）",
+"level": "b2"
+},
+{
+"word": "tracasser",
+"pos": "v.",
+"zh": "烦扰；使担忧",
+"level": "b2"
+},
+{
+"word": "tract",
+"pos": "n.m.",
+"zh": "传单",
+"level": "b2"
+},
+{
+"word": "trafiquer",
+"pos": "v.",
+"zh": "非法买卖；篡改",
+"level": "b2"
+},
+{
+"word": "tragique",
+"pos": "adj.",
+"zh": "悲剧性的；悲惨的",
+"level": "b2"
+},
+{
+"word": "traire",
+"pos": "v.",
+"zh": "挤奶",
+"level": "b2"
+},
+{
+"word": "traite",
+"pos": "n.f.",
+"zh": "挤奶；汇票；贩卖",
+"level": "b2"
+},
+{
+"word": "traiteur",
+"pos": "n.m.",
+"zh": "酒席承办商；熟食商",
+"level": "b2"
+},
+{
+"word": "trajectoire",
+"pos": "n.f.",
+"zh": "轨迹；弹道",
+"level": "b2"
+},
+{
+"word": "tramer",
+"pos": "v.",
+"zh": "密谋；酝酿",
+"level": "b2"
+},
+{
+"word": "tranchant",
+"pos": "adj.",
+"zh": "锋利的；斩钉截铁的",
+"level": "b2"
+},
+{
+"word": "tranche",
+"pos": "n.f.",
+"zh": "片；部分；年龄段",
+"level": "b2"
+},
+{
+"word": "trancher",
+"pos": "v.",
+"zh": "切断；果断决定",
+"level": "b2"
+},
+{
+"word": "tranchée",
+"pos": "n.f.",
+"zh": "战壕；沟渠",
+"level": "b2"
+},
+{
+"word": "tranquillisant",
+"pos": "n.m.",
+"zh": "镇静剂",
+"level": "b2"
+},
+{
+"word": "transcender",
+"pos": "v.",
+"zh": "超越",
+"level": "b2"
+},
+{
+"word": "transe",
+"pos": "n.f.",
+"zh": "恍惚；出神",
+"level": "b2"
+},
+{
+"word": "transfusion",
+"pos": "n.f.",
+"zh": "输血",
+"level": "b2"
+},
+{
+"word": "transmission",
+"pos": "n.f.",
+"zh": "传送；传染；传动",
+"level": "b2"
+},
+{
+"word": "transpercer",
+"pos": "v.",
+"zh": "刺穿；穿透",
+"level": "b2"
+},
+{
+"word": "transplantation",
+"pos": "n.f.",
+"zh": "移植",
+"level": "b2"
+}
+]

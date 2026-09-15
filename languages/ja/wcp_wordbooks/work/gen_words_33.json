@@ -1,0 +1,2402 @@
+{
+ "毒を吐く": {
+  "reading": "どくをはく",
+  "meaning": "【どくをはく】口吐恶言〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "肴にする": {
+  "reading": "さかなにする",
+  "meaning": "【さかなにする】当作下酒菜（谈资）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手がない": {
+  "reading": "てがない",
+  "meaning": "【てがない】人手不足；没辙〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "箸が進む": {
+  "reading": "はしがすすむ",
+  "meaning": "【はしがすすむ】食欲大增〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "血が騒ぐ": {
+  "reading": "ちがさわぐ",
+  "meaning": "【ちがさわぐ】热血沸腾；心痒〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "台所事情": {
+  "reading": "だいどころじじょう",
+  "meaning": "【だいどころじじょう】家用收支；财务状况〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "お蔵入り": {
+  "reading": "おくらいり",
+  "meaning": "【おくらいり】打入冷宫；未能上映〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "傷弓の鳥": {
+  "reading": "しょうきゅうのとり",
+  "meaning": "【しょうきゅうのとり】惊弓之鸟〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "蛞蝓に塩": {
+  "reading": "なめくじにしお",
+  "meaning": "【なめくじにしお】鼻涕虫遇盐；蔫了〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "嘴を挟む": {
+  "reading": "くちばしをはさむ",
+  "meaning": "【くちばしをはさむ】插嘴；多嘴〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "頭が低い": {
+  "reading": "あたまがひくい",
+  "meaning": "【あたまがひくい】谦逊有礼〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "場外乱闘": {
+  "reading": "じょうがいらんとう",
+  "meaning": "【じょうがいらんとう】场外混战；隔空骂战〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "鬼が笑う": {
+  "reading": "おにがわらう",
+  "meaning": "【おにがわらう】鬼见了都笑；痴人说梦〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "希望の星": {
+  "reading": "きぼうのほし",
+  "meaning": "【きぼうのほし】希望之星〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "星になる": {
+  "reading": "ほしになる",
+  "meaning": "【ほしになる】化星长眠（去世婉辞）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "迦陵頻伽": {
+  "reading": "かりょうびんが",
+  "meaning": "【かりょうびんが】迦陵频伽；妙音鸟〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "年を食う": {
+  "reading": "としをくう",
+  "meaning": "【としをくう】长岁数；显老〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "点を稼ぐ": {
+  "reading": "てんをかせぐ",
+  "meaning": "【てんをかせぐ】刷好感；挣分数〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "裸の王様": {
+  "reading": "はだかのおうさま",
+  "meaning": "【はだかのおうさま】皇帝的新装；纸老虎权威〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "会稽の恥": {
+  "reading": "かいけいのはじ",
+  "meaning": "【かいけいのはじ】会稽之耻；奇耻大辱〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "屋烏の愛": {
+  "reading": "おくうのあい",
+  "meaning": "【おくうのあい】爱屋及乌〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "桁が違う": {
+  "reading": "けたがちがう",
+  "meaning": "【けたがちがう】差着量级；不是一个档次〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "愛のムチ": {
+  "reading": "あいのむち",
+  "meaning": "【あいのむち】爱之鞭策〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "垣を作る": {
+  "reading": "かきをつくる",
+  "meaning": "【かきをつくる】筑起心墙〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "楔を刺す": {
+  "reading": "くさびをさす",
+  "meaning": "【くさびをさす】打楔子；敲死钉子〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "俎上の魚": {
+  "reading": "そじょうのうお",
+  "meaning": "【そじょうのうお】俎上之鱼；任人宰割〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "目に立つ": {
+  "reading": "めにたつ",
+  "meaning": "【めにたつ】显眼扎眼〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "骨になる": {
+  "reading": "ほねになる",
+  "meaning": "【ほねになる】化骨长眠（去世婉辞）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "骨に刻む": {
+  "reading": "ほねにきざむ",
+  "meaning": "【ほねにきざむ】铭刻于心〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "株を守る": {
+  "reading": "くいをまもる",
+  "meaning": "【くいをまもる】守株待兔；墨守成规〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "紅葉に鹿": {
+  "reading": "もみじにしか",
+  "meaning": "【もみじにしか】红叶配鹿；相得益彰〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "実が入る": {
+  "reading": "みがはいる",
+  "meaning": "【みがはいる】全身心投入〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "声なき声": {
+  "reading": "こえなきこえ",
+  "meaning": "【こえなきこえ】无声之声；无名意见〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "永久就職": {
+  "reading": "えいきゅうしゅうしょく",
+  "meaning": "【えいきゅうしゅうしょく】永久就业（嫁人当主妇）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "心を読む": {
+  "reading": "こころをよむ",
+  "meaning": "【こころをよむ】读心；察其心思〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "言葉の海": {
+  "reading": "ことばのうみ",
+  "meaning": "【ことばのうみ】辞海；词的海洋〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "一寸刻み": {
+  "reading": "いっすんきざみ",
+  "meaning": "【いっすんきざみ】寸刻；寸步挪进〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "虫が騒ぐ": {
+  "reading": "むしがさわぐ",
+  "meaning": "【むしがさわぐ】心里痒痒；跃跃欲试〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "錦の御旗": {
+  "reading": "にしきのみはた",
+  "meaning": "【にしきのみはた】锦旗；正当名分〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "救いの手": {
+  "reading": "すくいのて",
+  "meaning": "【すくいのて】援手；救命稻草〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "心を病む": {
+  "reading": "こころをやむ",
+  "meaning": "【こころをやむ】心病缠身〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "周りの目": {
+  "reading": "まわりのめ",
+  "meaning": "【まわりのめ】旁人的眼光〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "花が咲く": {
+  "reading": "はながさく",
+  "meaning": "【はながさく】开花；谈兴大发〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "服を着る": {
+  "reading": "ふくをきる",
+  "meaning": "【ふくをきる】体现；尽显（气质）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "肌に合う": {
+  "reading": "はだにあう",
+  "meaning": "【はだにあう】合拍；正合意〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "心に響く": {
+  "reading": "こころにひびく",
+  "meaning": "【こころにひびく】打动人心〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "池魚の殃": {
+  "reading": "ちぎょのわざわい",
+  "meaning": "【ちぎょのわざわい】池鱼之殃；城门失火殃及池鱼〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "穴を穿つ": {
+  "reading": "あなをうがつ",
+  "meaning": "【あなをうがつ】戳穿；找破绽〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手負い猪": {
+  "reading": "ておいじし",
+  "meaning": "【ておいじし】受伤的野猪；困兽〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "体が空く": {
+  "reading": "からだがあく",
+  "meaning": "【からだがあく】腾出时间；得空〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "首を取る": {
+  "reading": "くびをとる",
+  "meaning": "【くびをとる】取下首级；罢免〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "崖端歩き": {
+  "reading": "がけばたあるき",
+  "meaning": "【がけばたあるき】崖边行走；冒险行事〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "一日一歩": {
+  "reading": "いちにちいっぽ",
+  "meaning": "【いちにちいっぽ】每天一步；日拱一卒〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "盆と正月": {
+  "reading": "ぼんとしょうがつ",
+  "meaning": "【ぼんとしょうがつ】双喜临门；好事成双〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "笈を負う": {
+  "reading": "きゅうをおう",
+  "meaning": "【きゅうをおう】负笈远游；外出求学〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "鼻が利く": {
+  "reading": "はながきく",
+  "meaning": "【はながきく】鼻子灵；眼光敏锐〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "俑を作る": {
+  "reading": "ようをつくる",
+  "meaning": "【ようをつくる】始作俑者〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "城下の盟": {
+  "reading": "じょうかのちかい",
+  "meaning": "【じょうかのちかい】城下之盟；屈辱投降〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "腹を切る": {
+  "reading": "はらをきる",
+  "meaning": "【はらをきる】剖腹担责；引咎〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "烏の足跡": {
+  "reading": "からすのあしあと",
+  "meaning": "【からすのあしあと】乌鸦脚印；鱼尾纹〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "闇に鉄砲": {
+  "reading": "やみにてっぽう",
+  "meaning": "【やみにてっぽう】暗夜放枪；无的放矢〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "心を開く": {
+  "reading": "こころをひらく",
+  "meaning": "【こころをひらく】敞开心扉〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "日向に氷": {
+  "reading": "ひなたにこおり",
+  "meaning": "【ひなたにこおり】向阳之冰；日渐消融〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "無常の風": {
+  "reading": "むじょうのかぜ",
+  "meaning": "【むじょうのかぜ】无常之风（生命无常）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "世を去る": {
+  "reading": "よをさる",
+  "meaning": "【よをさる】与世长辞〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "一条の光": {
+  "reading": "いちじょうのひかり",
+  "meaning": "【いちじょうのひかり】一线光明〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "職場の花": {
+  "reading": "しょくばのはな",
+  "meaning": "【しょくばのはな】办公室之花〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "月夜の蟹": {
+  "reading": "つきよのかに",
+  "meaning": "【つきよのかに】月夜螃蟹；空壳无货〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "傷口に塩": {
+  "reading": "きずぐちにしお",
+  "meaning": "【きずぐちにしお】伤口撒盐〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "目を開く": {
+  "reading": "めをひらく",
+  "meaning": "【めをひらく】睁眼看清（真相）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "角を折る": {
+  "reading": "つのをおる",
+  "meaning": "【つのをおる】（抵抗后）服软；让步〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "火を吐く": {
+  "reading": "ひをはく",
+  "meaning": "【ひをはく】口吐烈言〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "機械の心": {
+  "reading": "きかいのこころ",
+  "meaning": "【きかいのこころ】机心；机巧之心〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "異域の鬼": {
+  "reading": "いいきのき",
+  "meaning": "【いいきのき】异域之鬼；客死他乡〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "時を得る": {
+  "reading": "ときをえる",
+  "meaning": "【ときをえる】时机来临〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "芯を食う": {
+  "reading": "しんをくう",
+  "meaning": "【しんをくう】击中要害〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "水が合う": {
+  "reading": "みずがあう",
+  "meaning": "【みずがあう】水土相服〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "鬼になる": {
+  "reading": "おにになる",
+  "meaning": "【おにになる】硬起心肠〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "下に出る": {
+  "reading": "したにでる",
+  "meaning": "【したにでる】退让；自居低姿态〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "重箱の隅": {
+  "reading": "じゅうばこのすみ",
+  "meaning": "【じゅうばこのすみ】重箱的角；鸡毛蒜皮〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "俎上の鯉": {
+  "reading": "そじょうのこい",
+  "meaning": "【そじょうのこい】俎上之鲤；任人宰割〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "膿を出す": {
+  "reading": "うみをだす",
+  "meaning": "【うみをだす】排出脓毒；清除积弊〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "地獄に仏": {
+  "reading": "じごくにほとけ",
+  "meaning": "【じごくにほとけ】绝处逢佛；雪中送炭〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "口が回る": {
+  "reading": "くちがまわる",
+  "meaning": "【くちがまわる】口若悬河；滔滔不绝〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "貝になる": {
+  "reading": "かいになる",
+  "meaning": "【かいになる】闭口不言；装哑巴〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "蓋をする": {
+  "reading": "ふたをする",
+  "meaning": "【ふたをする】捂盖子；掩盖问题〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "色をなす": {
+  "reading": "いろをなす",
+  "meaning": "【いろをなす】（气得）变色；涨红脸〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "サバ読む": {
+  "reading": "さばよむ",
+  "meaning": "【さばよむ】虚报数字；读鲭（报数造假）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "獅子に鰭": {
+  "reading": "ししにひれ",
+  "meaning": "【ししにひれ】狮子加鳍；如虎添翼〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "目が泳ぐ": {
+  "reading": "めがおよぐ",
+  "meaning": "【めがおよぐ】眼神游移；躲闪〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "泥中の蓮": {
+  "reading": "でいちゅうのはす",
+  "meaning": "【でいちゅうのはす】淤泥之莲；出淤泥而不染〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "胡蝶の夢": {
+  "reading": "こちょうのゆめ",
+  "meaning": "【こちょうのゆめ】蝴蝶梦；庄周梦蝶〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "痰を切る": {
+  "reading": "たんをきる",
+  "meaning": "【たんをきる】清嗓怒斥；厉声训话〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "膝を折る": {
+  "reading": "ひざをおる",
+  "meaning": "【ひざをおる】屈膝认输〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "冬の時代": {
+  "reading": "ふゆのじだい",
+  "meaning": "【ふゆのじだい】寒冬期；低谷时代〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "指をさす": {
+  "reading": "ゆびをさす",
+  "meaning": "【ゆびをさす】被指指点点〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "側面攻撃": {
+  "reading": "そくめんこうげき",
+  "meaning": "【そくめんこうげき】侧攻；侧面迂回〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "天を仰ぐ": {
+  "reading": "てんをあおぐ",
+  "meaning": "【てんをあおぐ】仰天长叹；望天〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "雲をつく": {
+  "reading": "くもをつく",
+  "meaning": "【くもをつく】高耸入云；个头惊人〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "男が立つ": {
+  "reading": "おとこがたつ",
+  "meaning": "【おとこがたつ】保住男人面子〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "踏みつけ": {
+  "reading": "ふみつけ",
+  "meaning": "【ふみつけ】践踏；蔑视〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "芽を吹く": {
+  "reading": "めをふく",
+  "meaning": "【めをふく】冒芽；崭露头角〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "算を乱す": {
+  "reading": "さんをみだす",
+  "meaning": "【さんをみだす】溃不成军；四散奔逃〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "人を選ぶ": {
+  "reading": "ひとをえらぶ",
+  "meaning": "【ひとをえらぶ】挑人；不合所有人〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ゲンを担ぐ": {
+  "reading": "げんをかつぐ",
+  "meaning": "【げんをかつぐ】讲究吉利；信口彩〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "じゃじゃ馬": {
+  "reading": "じゃじゃうま",
+  "meaning": "【じゃじゃうま】泼辣马；难驯的烈性子〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "一発かます": {
+  "reading": "いっぱつかます",
+  "meaning": "【いっぱつかます】给一记重击；放狠话〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "下火になる": {
+  "reading": "したびになる",
+  "meaning": "【したびになる】降温；趋于平淡〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "株が上がる": {
+  "reading": "かぶがあがる",
+  "meaning": "【かぶがあがる】声望上涨〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "冠を曲げる": {
+  "reading": "かんむりをまげる",
+  "meaning": "【かんむりをまげる】心里不痛快〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "九牛の一毛": {
+  "reading": "きゅうぎゅうのいちもう",
+  "meaning": "【きゅうぎゅうのいちもう】九牛一毛〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "九死に一生": {
+  "reading": "きゅうしにいっしょう",
+  "meaning": "【きゅうしにいっしょう】九死一生〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "固唾を呑む": {
+  "reading": "かたずをのむ",
+  "meaning": "【かたずをのむ】屏息；捏把汗〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "胡坐をかく": {
+  "reading": "あぐらをかく",
+  "meaning": "【あぐらをかく】盘腿坐；掉以轻心〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "口火を切る": {
+  "reading": "くちびをきる",
+  "meaning": "【くちびをきる】打响第一炮；首先发难〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "三種の神器": {
+  "reading": "さんしゅのじんぎ",
+  "meaning": "【さんしゅのじんぎ】三件套；三大神器〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "小耳に挟む": {
+  "reading": "こみみにはさむ",
+  "meaning": "【こみみにはさむ】偶然听说〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ヤキが回る": {
+  "reading": "やきがまわる",
+  "meaning": "【やきがまわる】老糊涂；（酒色）掏空〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "親の七光り": {
+  "reading": "おやのななひかり",
+  "meaning": "【おやのななひかり】沾父母的光〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "体を惜しむ": {
+  "reading": "からだをおしむ",
+  "meaning": "【からだをおしむ】惜力偷懒〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "虫の知らせ": {
+  "reading": "むしのしらせ",
+  "meaning": "【むしのしらせ】不祥预感；心灵感应〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "泥をかぶる": {
+  "reading": "どろをかぶる",
+  "meaning": "【どろをかぶる】背黑锅〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "非行に走る": {
+  "reading": "ひこうにはしる",
+  "meaning": "【ひこうにはしる】误入歧途〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "鼻を明かす": {
+  "reading": "はなをあかす",
+  "meaning": "【はなをあかす】让对手吃亏；杀他个措手不及〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "墓穴を掘る": {
+  "reading": "ぼけつをほる",
+  "meaning": "【ぼけつをほる】自掘坟墓；自找麻烦〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "末席を汚す": {
+  "reading": "まっせきをけがす",
+  "meaning": "【まっせきをけがす】忝列末座（谦辞）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "矢面に立つ": {
+  "reading": "やおもてにたつ",
+  "meaning": "【やおもてにたつ】站上风口浪尖〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "薮蛇になる": {
+  "reading": "やぶへびになる",
+  "meaning": "【やぶへびになる】弄巧成拙〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "よりを戻す": {
+  "reading": "よりをもどす",
+  "meaning": "【よりをもどす】复合；重归于好〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "顰蹙を買う": {
+  "reading": "ひんしゅくをかう",
+  "meaning": "【ひんしゅくをかう】招人皱眉；惹人反感〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "サバを読む": {
+  "reading": "さばをよむ",
+  "meaning": "【さばをよむ】谎报数字〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "度が過ぎる": {
+  "reading": "どがすぎる",
+  "meaning": "【どがすぎる】过头；过分〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "腹を据える": {
+  "reading": "はらをすえる",
+  "meaning": "【はらをすえる】横下心来〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "型にはめる": {
+  "reading": "かたにはめる",
+  "meaning": "【かたにはめる】套用固定模式〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "股にかける": {
+  "reading": "またにかける",
+  "meaning": "【またにかける】走南闯北〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "虻蜂取らず": {
+  "reading": "あぶはちとらず",
+  "meaning": "【あぶはちとらず】虻蜂皆失；两头落空〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "抜け目ない": {
+  "reading": "ぬけめない",
+  "meaning": "【ぬけめない】精明；不吃亏〈ナ形〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "琴瑟相和す": {
+  "reading": "きんしつあいわす",
+  "meaning": "【きんしつあいわす】琴瑟相和；伉俪情深〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "不完全燃焼": {
+  "reading": "ふかんぜんねんしょう",
+  "meaning": "【ふかんぜんねんしょう】燃烧不完全；意犹未尽〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "頂門の一針": {
+  "reading": "ちょうもんのいっしん",
+  "meaning": "【ちょうもんのいっしん】顶门一针；当头棒喝〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "濡れ手で粟": {
+  "reading": "ぬれてであわ",
+  "meaning": "【ぬれてであわ】不劳而获；捞油水〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "立て板に水": {
+  "reading": "たていたにみず",
+  "meaning": "【たていたにみず】口若悬河〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "猫可愛がり": {
+  "reading": "ねこかわいがり",
+  "meaning": "【ねこかわいがり】捧在手心里疼爱〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "鎌をかける": {
+  "reading": "かまをかける",
+  "meaning": "【かまをかける】下套试探；套话〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "春秋に富む": {
+  "reading": "しゅんじゅうにとむ",
+  "meaning": "【しゅんじゅうにとむ】春秋正富；来日方长〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ウマが合う": {
+  "reading": "うまがあう",
+  "meaning": "【うまがあう】对脾气；合得来〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "跡をつける": {
+  "reading": "あとをつける",
+  "meaning": "【あとをつける】尾随；盯梢〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "一歩下がる": {
+  "reading": "いっぽさがる",
+  "meaning": "【いっぽさがる】退一步（冷静）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "鬼籍に入る": {
+  "reading": "きせきにいる",
+  "meaning": "【きせきにいる】上了鬼籍；离世〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "肝に銘じる": {
+  "reading": "きもにめいじる",
+  "meaning": "【きもにめいじる】铭记在心〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "くだを巻く": {
+  "reading": "くだをまく",
+  "meaning": "【くだをまく】酒后吹牛〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "心にかかる": {
+  "reading": "こころにかかる",
+  "meaning": "【こころにかかる】挂心；放不下〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "言葉を濁す": {
+  "reading": "ことばをにごす",
+  "meaning": "【ことばをにごす】含糊其辞〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "業を煮やす": {
+  "reading": "ごうをにやす",
+  "meaning": "【ごうをにやす】按捺不住火起〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "朱を入れる": {
+  "reading": "しゅをいれる",
+  "meaning": "【しゅをいれる】朱批；润色修改〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "生を受ける": {
+  "reading": "せいをうける",
+  "meaning": "【せいをうける】降生；问世〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "血の通った": {
+  "reading": "ちのかよった",
+  "meaning": "【ちのかよった】有血有肉的；有人情味〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ツケを払う": {
+  "reading": "つけをはらう",
+  "meaning": "【つけをはらう】付账；付出代价〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手を染める": {
+  "reading": "てをそめる",
+  "meaning": "【てをそめる】染指；开始涉足〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手を携えて": {
+  "reading": "てをたずさえて",
+  "meaning": "【てをたずさえて】携手〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手を伸べる": {
+  "reading": "てをのべる",
+  "meaning": "【てをのべる】伸手援助〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "点数を稼ぐ": {
+  "reading": "てんすうをかせぐ",
+  "meaning": "【てんすうをかせぐ】攒印象分〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "峠を越える": {
+  "reading": "とうげをこえる",
+  "meaning": "【とうげをこえる】翻过山口；渡过难关〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "腹鼓を打つ": {
+  "reading": "はらつづみをうつ",
+  "meaning": "【はらつづみをうつ】敲肚皮鼓；吃撑满足〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "腹を痛める": {
+  "reading": "はらをいためる",
+  "meaning": "【はらをいためる】亲生（骨肉）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "恨みを買う": {
+  "reading": "うらみをかう",
+  "meaning": "【うらみをかう】招人怨恨〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "見得を切る": {
+  "reading": "みえをきる",
+  "meaning": "【みえをきる】亮相摆姿势；赌气逞能〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "水をかける": {
+  "reading": "みずをかける",
+  "meaning": "【みずをかける】泼冷水〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "身を入れる": {
+  "reading": "みをいれる",
+  "meaning": "【みをいれる】全心投入〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "虫も殺さぬ": {
+  "reading": "むしもころさぬ",
+  "meaning": "【むしもころさぬ】文弱无害的样子〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "虫唾が走る": {
+  "reading": "むしずがはしる",
+  "meaning": "【むしずがはしる】浑身起鸡皮疙瘩；厌恶〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "後釜に座る": {
+  "reading": "あとがまにすわる",
+  "meaning": "【あとがまにすわる】接任；坐上前任宝座〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "馬脚を現す": {
+  "reading": "ばきゃくをあらわす",
+  "meaning": "【ばきゃくをあらわす】露出马脚〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "怪我の功名": {
+  "reading": "けがのこうみょう",
+  "meaning": "【けがのこうみょう】歪打正着〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "蛙の面に水": {
+  "reading": "かえるのつらにみず",
+  "meaning": "【かえるのつらにみず】如水泼蛙面；无动于衷〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "まな板の鯉": {
+  "reading": "まないたのこい",
+  "meaning": "【まないたのこい】砧板上的鲤鱼；任人摆布〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ケリが付く": {
+  "reading": "ケリがつく",
+  "meaning": "【ケリがつく】有个了断〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "水をあける": {
+  "reading": "みずをあける",
+  "meaning": "【みずをあける】拉开差距〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "目をつける": {
+  "reading": "めをつける",
+  "meaning": "【めをつける】盯上；看中〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "音を上げる": {
+  "reading": "ねをあげる",
+  "meaning": "【ねをあげる】认怂；叫苦〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "羽目を外す": {
+  "reading": "はめをはずす",
+  "meaning": "【はめをはずす】忘乎所以；出格〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "敷居が高い": {
+  "reading": "しきいがたかい",
+  "meaning": "【しきいがたかい】门槛高；不好意思再去〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "腹をくくる": {
+  "reading": "はらをくくる",
+  "meaning": "【はらをくくる】豁出去；下决心〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "あごで使う": {
+  "reading": "あごでつかう",
+  "meaning": "【あごでつかう】颐指气使〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手玉に取る": {
+  "reading": "てだまにとる",
+  "meaning": "【てだまにとる】玩弄于股掌〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手がかかる": {
+  "reading": "てがかかる",
+  "meaning": "【てがかかる】费心费事〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "紺屋の白袴": {
+  "reading": "こうやのしろばかま",
+  "meaning": "【こうやのしろばかま】染坊的白衣；本行吃亏〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "胡麻を擂る": {
+  "reading": "ごまをする",
+  "meaning": "【ごまをする】阿谀拍马〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "対岸の火事": {
+  "reading": "たいがんのかじ",
+  "meaning": "【たいがんのかじ】隔岸观火；无关痛痒〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "波風が立つ": {
+  "reading": "なみかぜがたつ",
+  "meaning": "【なみかぜがたつ】起风波；生嫌隙〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "味を占める": {
+  "reading": "あじをしめる",
+  "meaning": "【あじをしめる】尝到甜头〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "引導を渡す": {
+  "reading": "いんどうをわたす",
+  "meaning": "【いんどうをわたす】下最后通牒；宣判出局〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "お株を奪う": {
+  "reading": "おかぶをうばう",
+  "meaning": "【おかぶをうばう】抢人看家本领；夺其绝活〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "灸を据える": {
+  "reading": "きゅうをすえる",
+  "meaning": "【きゅうをすえる】严惩；好好教训〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "お茶を濁す": {
+  "reading": "おちゃをにごす",
+  "meaning": "【おちゃをにごす】敷衍搪塞〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "肝をつぶす": {
+  "reading": "きもをつぶす",
+  "meaning": "【きもをつぶす】魂飞魄散〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ウドの大木": {
+  "reading": "うどのたいぼく",
+  "meaning": "【うどのたいぼく】大而无用；庸碌巨材〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "水を向ける": {
+  "reading": "みずをむける",
+  "meaning": "【みずをむける】引话试探〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "引けを取る": {
+  "reading": "ひけをとる",
+  "meaning": "【ひけをとる】逊色；落于人后〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "尻尾を巻く": {
+  "reading": "しっぽをまく",
+  "meaning": "【しっぽをまく】夹尾巴认输〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "息がかかる": {
+  "reading": "いきがかかる",
+  "meaning": "【いきがかかる】沾亲带故；受其影响〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "足るを知る": {
+  "reading": "たるをしる",
+  "meaning": "【たるをしる】知足〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "金魚のフン": {
+  "reading": "きんぎょのふん",
+  "meaning": "【きんぎょのふん】跟屁虫〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "路頭に迷う": {
+  "reading": "ろとうにまよう",
+  "meaning": "【ろとうにまよう】流落街头〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "前轍を踏む": {
+  "reading": "ぜんてつをふむ",
+  "meaning": "【ぜんてつをふむ】重蹈覆辙〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "煙幕を張る": {
+  "reading": "えんまくをはる",
+  "meaning": "【えんまくをはる】施放烟幕〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "提灯に釣鐘": {
+  "reading": "ちょうちんにつりがね",
+  "meaning": "【ちょうちんにつりがね】提灯配钟；不相称〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "闇夜の鉄砲": {
+  "reading": "やみよのてっぽう",
+  "meaning": "【やみよのてっぽう】暗夜放枪；无的放矢〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "大船に乗る": {
+  "reading": "おおぶねにのる",
+  "meaning": "【おおぶねにのる】如乘大船；稳坐钓鱼台〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "尻をたたく": {
+  "reading": "しりをたたく",
+  "meaning": "【しりをたたく】催促；鞭策〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "火をつける": {
+  "reading": "ひをつける",
+  "meaning": "【ひをつける】点火；点燃争端〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ツケが回る": {
+  "reading": "つけがまわる",
+  "meaning": "【つけがまわる】恶果显现；报应临头〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "足をすくう": {
+  "reading": "あしをすくう",
+  "meaning": "【あしをすくう】使绊子〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手を挙げる": {
+  "reading": "てをあげる",
+  "meaning": "【てをあげる】举手；投降〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "自腹を切る": {
+  "reading": "じばらをきる",
+  "meaning": "【じばらをきる】自掏腰包〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "血肉の争い": {
+  "reading": "けつにくのあらそい",
+  "meaning": "【けつにくのあらそい】骨肉相残之争〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "骨肉の争い": {
+  "reading": "こつにくのあらそい",
+  "meaning": "【こつにくのあらそい】骨肉之争〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "火蓋を切る": {
+  "reading": "ひぶたをきる",
+  "meaning": "【ひぶたをきる】打响发令枪；揭幕〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "瓢箪から駒": {
+  "reading": "ひょうたんからこま",
+  "meaning": "【ひょうたんからこま】歪打正着；无中生有〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "天に唾する": {
+  "reading": "てんにつばする",
+  "meaning": "【てんにつばする】向天吐唾；自食其果〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "猫をかぶる": {
+  "reading": "ねこをかぶる",
+  "meaning": "【ねこをかぶる】装乖；伪装老实〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手が塞がる": {
+  "reading": "てがふさがる",
+  "meaning": "【てがふさがる】腾不出手〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "泣きを見る": {
+  "reading": "なきをみる",
+  "meaning": "【なきをみる】吃亏受苦〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "盲亀の浮木": {
+  "reading": "もうきのふぼく",
+  "meaning": "【もうきのふぼく】盲龟浮木；万幸〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "金の世の中": {
+  "reading": "かねのよのなか",
+  "meaning": "【かねのよのなか】金钱社会〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "お鉢が回る": {
+  "reading": "おはちがまわる",
+  "meaning": "【おはちがまわる】轮到自己头上〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "功罪相償う": {
+  "reading": "こうざいあいつぐなう",
+  "meaning": "【こうざいあいつぐなう】功过相抵〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "山が見える": {
+  "reading": "やまがみえる",
+  "meaning": "【やまがみえる】看到尽头；胜利在望〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "四海波静か": {
+  "reading": "しかいなみしずか",
+  "meaning": "【しかいなみしずか】四海升平〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "車軸を流す": {
+  "reading": "しゃじくをながす",
+  "meaning": "【しゃじくをながす】大雨如注〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "分秒を争う": {
+  "reading": "ふんびょうをあらそう",
+  "meaning": "【ふんびょうをあらそう】分秒必争〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ざまあ見ろ": {
+  "reading": "ざまあみろ",
+  "meaning": "【ざまあみろ】活该；看你活该〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "竜虎相打つ": {
+  "reading": "りゅうこあいうつ",
+  "meaning": "【りゅうこあいうつ】龙虎相击；势均力敌之争〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "白衣の天使": {
+  "reading": "はくいのてんし",
+  "meaning": "【はくいのてんし】白衣天使（护士）〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "味噌を擂る": {
+  "reading": "みそをする",
+  "meaning": "【みそをする】拍马屁〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "山をかける": {
+  "reading": "やまをかける",
+  "meaning": "【やまをかける】押题；赌一把〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手のかかる": {
+  "reading": "てのかかる",
+  "meaning": "【てのかかる】费心的；难伺候的〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "羽を伸ばす": {
+  "reading": "はねをのばす",
+  "meaning": "【はねをのばす】放开手脚；轻松自在〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ぶら下がり": {
+  "reading": "ぶらさがり",
+  "meaning": "【ぶらさがり】守株待兔式采访〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ここに来て": {
+  "reading": "ここにきて",
+  "meaning": "【ここにきて】事到如今；此时此刻〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "花も恥らう": {
+  "reading": "はなもはじらう",
+  "meaning": "【はなもはじらう】羞花之貌〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "感情に走る": {
+  "reading": "かんじょうにはしる",
+  "meaning": "【かんじょうにはしる】感情用事〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "口を糊する": {
+  "reading": "くちをのりする",
+  "meaning": "【くちをのりする】糊口谋生〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "焼け野の鴉": {
+  "reading": "やけののからす",
+  "meaning": "【やけののからす】焦土乌鸦；黑上加黑〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "心が通じる": {
+  "reading": "こころがつうじる",
+  "meaning": "【こころがつうじる】心意相通〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "切れ上がる": {
+  "reading": "きれあがる",
+  "meaning": "【きれあがる】（酒味）干净利落〈动1〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "口をつぐむ": {
+  "reading": "くちをつぐむ",
+  "meaning": "【くちをつぐむ】闭口不言〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "同気相求む": {
+  "reading": "どうきあいもとむ",
+  "meaning": "【どうきあいもとむ】同气相求〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "いすかの嘴": {
+  "reading": "いすかのはし",
+  "meaning": "【いすかのはし】交不上喙；合不上拍〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "骨を惜しむ": {
+  "reading": "ほねをおしむ",
+  "meaning": "【ほねをおしむ】惜力；怕苦怕累〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "狐に小豆飯": {
+  "reading": "きつねにあずきめし",
+  "meaning": "【きつねにあずきめし】狐守豆饭；托非其人〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "騎虎の勢い": {
+  "reading": "きこのいきおい",
+  "meaning": "【きこのいきおい】骑虎难下〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手が切れる": {
+  "reading": "てがきれる",
+  "meaning": "【てがきれる】一刀两断；关系断绝〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "顔を揃える": {
+  "reading": "かおをそろえる",
+  "meaning": "【かおをそろえる】齐聚一堂〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "天狗になる": {
+  "reading": "てんぐになる",
+  "meaning": "【てんぐになる】翘尾巴；飘飘然〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "砂上の楼閣": {
+  "reading": "さじょうのろうかく",
+  "meaning": "【さじょうのろうかく】沙上楼阁；空中楼阁〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "唾をつける": {
+  "reading": "つばをつける",
+  "meaning": "【つばをつける】先占；指定预定〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "子供の使い": {
+  "reading": "こどものつかい",
+  "meaning": "【こどものつかい】小儿差事；白跑一趟〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "合間を縫う": {
+  "reading": "あいまをぬう",
+  "meaning": "【あいまをぬう】见缝插针〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "屁でもない": {
+  "reading": "へでもない",
+  "meaning": "【へでもない】小菜一碟；不算什么〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "猿の尻笑い": {
+  "reading": "さるのしりわらい",
+  "meaning": "【さるのしりわらい】猴子笑红臀；五十步笑百步〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "毛の生えた": {
+  "reading": "けのはえた",
+  "meaning": "【けのはえた】稍好一点；半吊子〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "首の皮一枚": {
+  "reading": "くびのかわいちまい",
+  "meaning": "【くびのかわいちまい】仅剩一线生机〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "呼吸が合う": {
+  "reading": "こきゅうがあう",
+  "meaning": "【こきゅうがあう】合拍；有默契〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "粉をかける": {
+  "reading": "こなをかける",
+  "meaning": "【こなをかける】调情；抛媚眼〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "鷸蚌の争い": {
+  "reading": "いつぼうのあらそい",
+  "meaning": "【いつぼうのあらそい】鹬蚌相争〈名〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ケツが青い": {
+  "reading": "ケツがあおい",
+  "meaning": "【ケツがあおい】乳臭未干；嫩得很〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "尻毛を抜く": {
+  "reading": "しりげをぬく",
+  "meaning": "【しりげをぬく】冷不防袭人；出其不意〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "手を借りる": {
+  "reading": "てをかりる",
+  "meaning": "【てをかりる】借助他人之力〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "血が流れる": {
+  "reading": "ちがながれる",
+  "meaning": "【ちがながれる】流淌着（艺术）血液〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "雷が落ちる": {
+  "reading": "かみなりがおちる",
+  "meaning": "【かみなりがおちる】挨雷劈（被上司大骂）〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "尻尾を掴む": {
+  "reading": "しっぽをつかむ",
+  "meaning": "【しっぽをつかむ】抓住把柄〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "心血を注ぐ": {
+  "reading": "しんけつをそそぐ",
+  "meaning": "【しんけつをそそぐ】呕心沥血〈惯〉",
+  "level": "idiom",
+  "need": 2
+ },
+ "ちゃちゃっと": {
+  "reading": "ちゃちゃっと",
+  "meaning": "麻利地；三下五除二〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "しんなり": {
+  "reading": "しんなり",
+  "meaning": "（蔫）软塌塌；温婉〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "からっと": {
+  "reading": "からっと",
+  "meaning": "爽朗；干脆〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ふっと": {
+  "reading": "ふっと",
+  "meaning": "忽然；一下子〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ごっつり": {
+  "reading": "ごっつり",
+  "meaning": "结结实实；大块头〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "じんわり": {
+  "reading": "じんわり",
+  "meaning": "缓缓渗开；暖意渐上〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "すとんと": {
+  "reading": "すとんと",
+  "meaning": "轻巧落下；顺理成章〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぴんと": {
+  "reading": "ぴんと",
+  "meaning": "一下子反应过来；绷直〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "まじまじと": {
+  "reading": "まじまじと",
+  "meaning": "直勾勾地（盯着）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぐんと": {
+  "reading": "ぐんと",
+  "meaning": "猛地；大幅（增长）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "うるうる": {
+  "reading": "うるうる",
+  "meaning": "眼含泪水〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ころっと": {
+  "reading": "ころっと",
+  "meaning": "轻巧一滚；一下子（忘光）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "つんと": {
+  "reading": "つんと",
+  "meaning": "淡淡清冷；矜持〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どきりと": {
+  "reading": "どきりと",
+  "meaning": "心头一惊〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "はっと": {
+  "reading": "はっと",
+  "meaning": "猛然惊觉〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ふわっと": {
+  "reading": "ふわっと",
+  "meaning": "轻飘飘地；蓦地〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "むっと": {
+  "reading": "むっと",
+  "meaning": "噎住；烦闷上来〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "きりっと": {
+  "reading": "きりっと",
+  "meaning": "清秀；利落端正〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "くすっと": {
+  "reading": "くすっと",
+  "meaning": "扑哧（轻笑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぐらっと": {
+  "reading": "ぐらっと",
+  "meaning": "晃动；内心动摇〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "屡々": {
+  "reading": "しばしば",
+  "meaning": "【しばしば】屡屡；往往；再三〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "グー": {
+  "reading": "ぐー",
+  "meaning": "（拳头）攥拳；咕（肚子叫）〈名〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "カッと": {
+  "reading": "かっと",
+  "meaning": "刷地（变红/发怒）；一下子〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ズバリ": {
+  "reading": "ずばり",
+  "meaning": "一针见血；直截了当〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パッと": {
+  "reading": "ぱっと",
+  "meaning": "忽然；迅速地〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "チェッ": {
+  "reading": "ちぇっ",
+  "meaning": "啧（咂嘴不满）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "バタン": {
+  "reading": "ばたん",
+  "meaning": "哐当（关门倒地声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "がらん": {
+  "reading": "ガラン",
+  "meaning": "哗啦（空旷金属声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "にゃー": {
+  "reading": "にゃあ",
+  "meaning": "喵（猫叫）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "チラリ": {
+  "reading": "ちらり",
+  "meaning": "瞥一眼；一闪而过〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ムッと": {
+  "reading": "むっと",
+  "meaning": "一股火气；发闷〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ドドン": {
+  "reading": "どどん",
+  "meaning": "咚咚（重大响声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "オドオド": {
+  "reading": "おどおど",
+  "meaning": "慌慌张张；畏畏缩缩〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "カチカチ": {
+  "reading": "コチコチ",
+  "meaning": "咔嗒咔嗒；僵硬发抖〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガタガタ": {
+  "reading": "がたがた",
+  "meaning": "咯噔咯噔（晃动）；哆嗦〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "キラキラ": {
+  "reading": "きらきら",
+  "meaning": "闪闪发光〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ギザギザ": {
+  "reading": "ぎざぎざ",
+  "meaning": "锯齿状；凹凸不平〈名〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぎゅっと": {
+  "reading": "ギュッと",
+  "meaning": "紧紧地〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぎょっと": {
+  "reading": "ギョッと",
+  "meaning": "吓一跳〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ギラギラ": {
+  "reading": "ぎらぎら",
+  "meaning": "刺眼闪耀；咄咄逼人〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "限り限り": {
+  "reading": "ぎりぎり",
+  "meaning": "【ぎりぎり】极尽；望不到头〈名〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "グラグラ": {
+  "reading": "ぐらぐら",
+  "meaning": "摇晃；动摇〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "コツコツ": {
+  "reading": "こつこつ",
+  "meaning": "一步一个脚印；勤恳〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "コロコロ": {
+  "reading": "ころころ",
+  "meaning": "骨碌碌；圆滚滚〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ゴロゴロ": {
+  "reading": "ごろごろ",
+  "meaning": "咕噜噜（肚子/雷声）；无所事事〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ザラザラ": {
+  "reading": "ざらざら",
+  "meaning": "糙糙的；沙沙的〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "スラスラ": {
+  "reading": "すらすら",
+  "meaning": "流利地；顺利地〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ちんちん": {
+  "reading": "チンチン",
+  "meaning": "叮当响；滚烫〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ドキッと": {
+  "reading": "ドキっと",
+  "meaning": "心头一惊〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ドキドキ": {
+  "reading": "どきどき",
+  "meaning": "怦怦跳〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ニヤニヤ": {
+  "reading": "にやにや",
+  "meaning": "嘿嘿直笑〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ヌルヌル": {
+  "reading": "ぬるぬる",
+  "meaning": "滑腻腻〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "バラバラ": {
+  "reading": "ばらばら",
+  "meaning": "散落；四分五裂〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ヒソヒソ": {
+  "reading": "ひそひそ",
+  "meaning": "窃窃私语〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ビリビリ": {
+  "reading": "びりびり",
+  "meaning": "嘶啦撕碎；刺痛〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ピカピカ": {
+  "reading": "ぴかぴか",
+  "meaning": "锃亮；崭新〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ヘトヘト": {
+  "reading": "へとへと",
+  "meaning": "累瘫；疲惫至极〈名〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ベタベタ": {
+  "reading": "べたべた",
+  "meaning": "黏糊糊；形影不离〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぼーっと": {
+  "reading": "ボーっと",
+  "meaning": "发呆；模糊〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ボロボロ": {
+  "reading": "ぼろぼろ",
+  "meaning": "破破烂烂；泪如雨下〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポタポタ": {
+  "reading": "ぽたぽた",
+  "meaning": "滴答滴答（漏水）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ムカムカ": {
+  "reading": "むかむか",
+  "meaning": "恶心；窝火〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "メキメキ": {
+  "reading": "めきめき",
+  "meaning": "突飞猛进；快速成长〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "揺ら揺ら": {
+  "reading": "ゆらゆら",
+  "meaning": "【ゆらゆら】摇曳晃动〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "カサカサ": {
+  "reading": "かさかさ",
+  "meaning": "干巴巴；窸窣作响〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガンガン": {
+  "reading": "がんがん",
+  "meaning": "咚咚（巨响）；猛晒〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ジワジワ": {
+  "reading": "じわじわ",
+  "meaning": "一步步侵蚀；缓缓逼近〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ニコニコ": {
+  "reading": "にこにこ",
+  "meaning": "笑眯眯〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ヌーボー": {
+  "reading": "ヌーヴォー",
+  "meaning": "模糊（口语）；新潮派头〈名〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ハラハラ": {
+  "reading": "はらはら",
+  "meaning": "提心吊胆；纷纷〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "バタバタ": {
+  "reading": "ばたばた",
+  "meaning": "噼里啪啦；手忙脚乱〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パサパサ": {
+  "reading": "ぱさぱさ",
+  "meaning": "干巴巴（发质/口感）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パチパチ": {
+  "reading": "ぱちぱち",
+  "meaning": "噼啪（拍手/爆裂）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "プンプン": {
+  "reading": "ぷんぷん",
+  "meaning": "怒气冲冲；（气味）冲鼻〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぐるっと": {
+  "reading": "ぐるりと",
+  "meaning": "转一圈；环绕〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "せっせと": {
+  "reading": "",
+  "meaning": "勤勤恳恳〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "まったり": {
+  "reading": "マッタリ",
+  "meaning": "醇厚浓郁；悠闲〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガシガシ": {
+  "reading": "がしがし",
+  "meaning": "嘎吱嘎吱（用力抓挠/啃咬）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "グダグダ": {
+  "reading": "ぐだぐだ",
+  "meaning": "拖沓啰嗦；软塌塌〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "キョロキョロ": {
+  "reading": "きょろきょろ",
+  "meaning": "东张西望〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぎゅうぎゅう": {
+  "reading": "",
+  "meaning": "挤得满满；紧紧〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "しゃぶしゃぶ": {
+  "reading": "",
+  "meaning": "涮涮锅；涮肉〈名〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぴょんぴょん": {
+  "reading": "ピョンピョン",
+  "meaning": "蹦蹦跳跳〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ひょっとすると": {
+  "reading": "",
+  "meaning": "说不定；或许〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ちんぷんかんぷん": {
+  "reading": "",
+  "meaning": "莫名其妙；天书〈名〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "チン": {
+  "reading": "ちん",
+  "meaning": "叮（微波炉提示音）；叮（门铃）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ポン": {
+  "reading": "ぽん",
+  "meaning": "砰（轻拍/爆炸轻响）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "呵呵": {
+  "reading": "かか",
+  "meaning": "【かか】哈哈大笑（呵呵）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "戛戛": {
+  "reading": "かつかつ",
+  "meaning": "【かつかつ】咔咔（响声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "メー": {
+  "reading": "メエ",
+  "meaning": "咩（羊叫）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "がん": {
+  "reading": "ガン",
+  "meaning": "砰（重击声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "かん": {
+  "reading": "くわん",
+  "meaning": "叮（钟声/金属声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "どん": {
+  "reading": "ドン",
+  "meaning": "咚（重响）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "唖々": {
+  "reading": "ああ",
+  "meaning": "【ああ】哑哑（乌鸦叫）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "こん": {
+  "reading": "",
+  "meaning": "咚（轻碰声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "習習": {
+  "reading": "しゅうしゅう",
+  "meaning": "【しゅうしゅう】习习（微风）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "噁噁": {
+  "reading": "あくあく",
+  "meaning": "【あくあく】噁噁（鸟虫叫声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "フッ": {
+  "reading": "",
+  "meaning": "噗（轻笑/消失）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "とん": {
+  "reading": "",
+  "meaning": "嗒（轻点）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パチ": {
+  "reading": "",
+  "meaning": "啪（合上/眨眼）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ブー": {
+  "reading": "ブーッ",
+  "meaning": "嘟（喇叭）；哼（不满）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "むむ": {
+  "reading": "",
+  "meaning": "唔（沉吟/不满）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ペッ": {
+  "reading": "",
+  "meaning": "呸（吐痰）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ほう": {
+  "reading": "ほー",
+  "meaning": "喔（猫头鹰叫）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "プー": {
+  "reading": "ぷー",
+  "meaning": "噗（汽笛/吹气）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "きー": {
+  "reading": "きーっ",
+  "meaning": "吱——（刺耳声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぽい": {
+  "reading": "ポイ",
+  "meaning": "随手（扔）；扑通一扔〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ワン": {
+  "reading": "わん",
+  "meaning": "汪（狗叫）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パフ": {
+  "reading": "",
+  "meaning": "噗噗（喇叭）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "泡々": {
+  "reading": "あわあわ",
+  "meaning": "【あわあわ】咕嘟咕嘟（冒泡状）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "淡々": {
+  "reading": "あわあわ",
+  "meaning": "【あわあわ】淡淡地；平静地〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ちち": {
+  "reading": "チチ",
+  "meaning": "啾啾（幼鸟叫）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ガー": {
+  "reading": "がー",
+  "meaning": "呼呼（吹风机）；哗（泼水）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "じー": {
+  "reading": "じーっ",
+  "meaning": "嘶嘶（虫鸣）；滋滋〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "けっ": {
+  "reading": "",
+  "meaning": "哼（不屑）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "くい": {
+  "reading": "ぐい",
+  "meaning": "猛地一（拽/拉）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ピッ": {
+  "reading": "",
+  "meaning": "哔（提示音）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぴっ": {
+  "reading": "",
+  "meaning": "挺直；紧贴〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ブヒ": {
+  "reading": "",
+  "meaning": "哼哼（猪叫）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "カチン": {
+  "reading": "かちん",
+  "meaning": "叮（金属轻响）；心头一火〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ゲップ": {
+  "reading": "げっぷ",
+  "meaning": "打嗝；嗝〈名〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ぞっと": {
+  "reading": "ゾッと",
+  "meaning": "毛骨悚然；打寒战〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ちゅう": {
+  "reading": "チュー",
+  "meaning": "啾（亲一口）〈名〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パチッ": {
+  "reading": "ぱちっ",
+  "meaning": "啪嚓（按下/眨眼）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "パクリ": {
+  "reading": "ぱくり",
+  "meaning": "一口咬下；张着大口〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ピクリ": {
+  "reading": "ぴくり",
+  "meaning": "微微一（动/抽）〈副〉",
+  "level": "onoma",
+  "need": 2
+ },
+ "ゴツン": {
+  "reading": "ごつん",
+  "meaning": "咚（磕碰硬物声）〈副〉",
+  "level": "onoma",
+  "need": 2
+ }
+}

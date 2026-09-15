@@ -1,0 +1,602 @@
+[
+{
+"word": "bis",
+"pos": "präp.",
+"zh": "直到",
+"level": "a1"
+},
+{
+"word": "zurück",
+"pos": "adv.",
+"zh": "回；返回",
+"level": "a1"
+},
+{
+"word": "lassen",
+"pos": "v.",
+"zh": "让；使",
+"level": "a1"
+},
+{
+"word": "hallo",
+"pos": "interj.",
+"zh": "你好",
+"level": "a1"
+},
+{
+"word": "zwei",
+"pos": "num.",
+"zh": "二；两",
+"level": "a1"
+},
+{
+"word": "genau",
+"pos": "adv.",
+"zh": "确切；正好",
+"level": "a1"
+},
+{
+"word": "zur",
+"pos": "präp.",
+"zh": "到…（zu der 缩合）",
+"level": "a1"
+},
+{
+"word": "klar",
+"pos": "adj.",
+"zh": "清楚的",
+"level": "a1"
+},
+{
+"word": "morgen",
+"pos": "adv.",
+"zh": "明天；早晨",
+"level": "a1"
+},
+{
+"word": "Leute",
+"pos": "n.",
+"zh": "人们（复数）",
+"level": "a1"
+},
+{
+"word": "Vater",
+"pos": "n.m.",
+"zh": "父亲",
+"level": "a1"
+},
+{
+"word": "schön",
+"pos": "adj.",
+"zh": "美丽的；好看的",
+"level": "a1"
+},
+{
+"word": "glauben",
+"pos": "v.",
+"zh": "相信",
+"level": "a1"
+},
+{
+"word": "gerade",
+"pos": "adv.",
+"zh": "正好；刚刚",
+"level": "a1"
+},
+{
+"word": "Tag",
+"pos": "n.m.",
+"zh": "天；日子",
+"level": "a1"
+},
+{
+"word": "Liebe",
+"pos": "n.f.",
+"zh": "爱；爱情",
+"level": "a1"
+},
+{
+"word": "unser",
+"pos": "pron.",
+"zh": "我们的",
+"level": "a1"
+},
+{
+"word": "jemand",
+"pos": "pron.",
+"zh": "某人",
+"level": "a1"
+},
+{
+"word": "Geld",
+"pos": "n.",
+"zh": "钱",
+"level": "a1"
+},
+{
+"word": "durch",
+"pos": "präp.",
+"zh": "穿过；通过",
+"level": "a1"
+},
+{
+"word": "Mutter",
+"pos": "n.f.",
+"zh": "母亲",
+"level": "a1"
+},
+{
+"word": "denken",
+"pos": "v.",
+"zh": "思考；想",
+"level": "a1"
+},
+{
+"word": "besser",
+"pos": "adj.",
+"zh": "更好的",
+"level": "a1"
+},
+{
+"word": "möchte",
+"pos": "v.",
+"zh": "想要；愿意",
+"level": "a1"
+},
+{
+"word": "ohne",
+"pos": "präp.",
+"zh": "没有",
+"level": "a1"
+},
+{
+"word": "hören",
+"pos": "v.",
+"zh": "听",
+"level": "a1"
+},
+{
+"word": "andere",
+"pos": "adj.",
+"zh": "其他的",
+"level": "a1"
+},
+{
+"word": "helfen",
+"pos": "v.",
+"zh": "帮助",
+"level": "a1"
+},
+{
+"word": "Nacht",
+"pos": "n.f.",
+"zh": "夜晚",
+"level": "a1"
+},
+{
+"word": "finden",
+"pos": "v.",
+"zh": "找到；认为",
+"level": "a1"
+},
+{
+"word": "lange",
+"pos": "adj.",
+"zh": "长久的；很久",
+"level": "a1"
+},
+{
+"word": "natürlich",
+"pos": "adv.",
+"zh": "当然；自然",
+"level": "a1"
+},
+{
+"word": "ins",
+"pos": "präp.",
+"zh": "到…里（in das 缩合）",
+"level": "a1"
+},
+{
+"word": "dort",
+"pos": "adv.",
+"zh": "那里",
+"level": "a1"
+},
+{
+"word": "weiter",
+"pos": "adv.",
+"zh": "继续",
+"level": "a1"
+},
+{
+"word": "gleich",
+"pos": "adv.",
+"zh": "马上；相同的",
+"level": "a1"
+},
+{
+"word": "richtig",
+"pos": "adj.",
+"zh": "正确的",
+"level": "a1"
+},
+{
+"word": "vom",
+"pos": "präp.",
+"zh": "从（von dem 缩合）",
+"level": "a1"
+},
+{
+"word": "Mädchen",
+"pos": "n.",
+"zh": "女孩",
+"level": "a1"
+},
+{
+"word": "Abend",
+"pos": "n.m.",
+"zh": "傍晚；晚上",
+"level": "a1"
+},
+{
+"word": "Haus",
+"pos": "n.",
+"zh": "房子",
+"level": "a1"
+},
+{
+"word": "viele",
+"pos": "adj.",
+"zh": "许多；很多",
+"level": "a1"
+},
+{
+"word": "drei",
+"pos": "num.",
+"zh": "三",
+"level": "a1"
+},
+{
+"word": "Freund",
+"pos": "n.m.",
+"zh": "朋友",
+"level": "a1"
+},
+{
+"word": "warten",
+"pos": "v.",
+"zh": "等待",
+"level": "a1"
+},
+{
+"word": "Mensch",
+"pos": "n.m.",
+"zh": "人；人类",
+"level": "a1"
+},
+{
+"word": "essen",
+"pos": "v.",
+"zh": "吃",
+"level": "a1"
+},
+{
+"word": "bleiben",
+"pos": "v.",
+"zh": "停留；保持",
+"level": "a1"
+},
+{
+"word": "zusammen",
+"pos": "adv.",
+"zh": "一起",
+"level": "a1"
+},
+{
+"word": "Welt",
+"pos": "n.f.",
+"zh": "世界",
+"level": "a1"
+},
+{
+"word": "unter",
+"pos": "präp.",
+"zh": "在…下面",
+"level": "a1"
+},
+{
+"word": "schnell",
+"pos": "adj.",
+"zh": "快的",
+"level": "a1"
+},
+{
+"word": "nehmen",
+"pos": "v.",
+"zh": "拿；取",
+"level": "a1"
+},
+{
+"word": "Kind",
+"pos": "n.",
+"zh": "孩子",
+"level": "a1"
+},
+{
+"word": "bringen",
+"pos": "v.",
+"zh": "带来",
+"level": "a1"
+},
+{
+"word": "genug",
+"pos": "adv.",
+"zh": "足够",
+"level": "a1"
+},
+{
+"word": "brauchen",
+"pos": "v.",
+"zh": "需要",
+"level": "a1"
+},
+{
+"word": "gegen",
+"pos": "präp.",
+"zh": "反对；朝着",
+"level": "a1"
+},
+{
+"word": "Moment",
+"pos": "n.m.",
+"zh": "片刻；瞬间",
+"level": "a1"
+},
+{
+"word": "Junge",
+"pos": "n.m.",
+"zh": "男孩",
+"level": "a1"
+},
+{
+"word": "stehen",
+"pos": "v.",
+"zh": "站立；处于",
+"level": "a1"
+},
+{
+"word": "Musik",
+"pos": "n.f.",
+"zh": "音乐",
+"level": "a1"
+},
+{
+"word": "Arbeit",
+"pos": "n.f.",
+"zh": "工作",
+"level": "a1"
+},
+{
+"word": "fragen",
+"pos": "v.",
+"zh": "问",
+"level": "a1"
+},
+{
+"word": "Herr",
+"pos": "n.m.",
+"zh": "先生",
+"level": "a1"
+},
+{
+"word": "heißen",
+"pos": "v.",
+"zh": "叫做",
+"level": "a1"
+},
+{
+"word": "Familie",
+"pos": "n.f.",
+"zh": "家庭",
+"level": "a1"
+},
+{
+"word": "niemand",
+"pos": "pron.",
+"zh": "没有人",
+"level": "a1"
+},
+{
+"word": "Jahr",
+"pos": "n.",
+"zh": "年",
+"level": "a1"
+},
+{
+"word": "einmal",
+"pos": "adv.",
+"zh": "一次；曾经",
+"level": "a1"
+},
+{
+"word": "Problem",
+"pos": "n.",
+"zh": "问题",
+"level": "a1"
+},
+{
+"word": "Sohn",
+"pos": "n.m.",
+"zh": "儿子",
+"level": "a1"
+},
+{
+"word": "wann",
+"pos": "adv.",
+"zh": "何时",
+"level": "a1"
+},
+{
+"word": "fertig",
+"pos": "adj.",
+"zh": "完成的",
+"level": "a1"
+},
+{
+"word": "allein",
+"pos": "adv.",
+"zh": "独自；仅仅",
+"level": "a1"
+},
+{
+"word": "beim",
+"pos": "präp.",
+"zh": "在…时（bei dem 缩合）",
+"level": "a1"
+},
+{
+"word": "sprechen",
+"pos": "v.",
+"zh": "说话",
+"level": "a1"
+},
+{
+"word": "Hilfe",
+"pos": "n.f.",
+"zh": "帮助",
+"level": "a1"
+},
+{
+"word": "jeder",
+"pos": "pron.",
+"zh": "每个",
+"level": "a1"
+},
+{
+"word": "gern",
+"pos": "adv.",
+"zh": "乐意",
+"level": "a1"
+},
+{
+"word": "verstehen",
+"pos": "v.",
+"zh": "理解",
+"level": "a1"
+},
+{
+"word": "Bruder",
+"pos": "n.m.",
+"zh": "兄弟",
+"level": "a1"
+},
+{
+"word": "lieber",
+"pos": "adv.",
+"zh": "更喜欢；宁可",
+"level": "a1"
+},
+{
+"word": "kennen",
+"pos": "v.",
+"zh": "认识",
+"level": "a1"
+},
+{
+"word": "vergessen",
+"pos": "v.",
+"zh": "忘记",
+"level": "a1"
+},
+{
+"word": "Frage",
+"pos": "n.f.",
+"zh": "问题",
+"level": "a1"
+},
+{
+"word": "Uhr",
+"pos": "n.f.",
+"zh": "钟点；钟表",
+"level": "a1"
+},
+{
+"word": "Stadt",
+"pos": "n.f.",
+"zh": "城市",
+"level": "a1"
+},
+{
+"word": "Baby",
+"pos": "n.",
+"zh": "婴儿",
+"level": "a1"
+},
+{
+"word": "fahren",
+"pos": "v.",
+"zh": "开车；乘行",
+"level": "a1"
+},
+{
+"word": "Name",
+"pos": "n.m.",
+"zh": "名字",
+"level": "a1"
+},
+{
+"word": "Kopf",
+"pos": "n.m.",
+"zh": "头",
+"level": "a1"
+},
+{
+"word": "klein",
+"pos": "adj.",
+"zh": "小的",
+"level": "a1"
+},
+{
+"word": "später",
+"pos": "adv.",
+"zh": "稍后",
+"level": "a1"
+},
+{
+"word": "Glück",
+"pos": "n.",
+"zh": "幸运；幸福",
+"level": "a1"
+},
+{
+"word": "bald",
+"pos": "adv.",
+"zh": "很快",
+"level": "a1"
+},
+{
+"word": "Ding",
+"pos": "n.",
+"zh": "东西；事情",
+"level": "a1"
+},
+{
+"word": "eins",
+"pos": "num.",
+"zh": "一",
+"level": "a1"
+},
+{
+"word": "Minute",
+"pos": "n.f.",
+"zh": "分钟",
+"level": "a1"
+},
+{
+"word": "bisschen",
+"pos": "n.",
+"zh": "一点；少量",
+"level": "a1"
+}
+]

@@ -1,0 +1,2402 @@
+{
+ "血瘤": {
+  "reading": "けつりゅう",
+  "meaning": "【けつりゅう】血囊肿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "劇症": {
+  "reading": "げきしょう",
+  "meaning": "【げきしょう】暴发性（剧症）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "向軸": {
+  "reading": "こうじく",
+  "meaning": "【こうじく】向轴侧〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "増成": {
+  "reading": "ぞうせい",
+  "meaning": "【ぞうせい】增厚扩大〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "割創": {
+  "reading": "かっそう",
+  "meaning": "【かっそう】锐器切割伤〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "被蓋": {
+  "reading": "ひがい",
+  "meaning": "【ひがい】被盖（中脑）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "落屑": {
+  "reading": "らくせつ",
+  "meaning": "【らくせつ】脱屑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "羸痩": {
+  "reading": "るいそう",
+  "meaning": "【るいそう】羸瘦；消瘦〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "莢膜": {
+  "reading": "きょうまく",
+  "meaning": "【きょうまく】荚膜（细菌）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "白質": {
+  "reading": "はくしつ",
+  "meaning": "【はくしつ】白质〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "乳管": {
+  "reading": "にゅうかん",
+  "meaning": "【にゅうかん】乳腺管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "潜血": {
+  "reading": "せんけつ",
+  "meaning": "【せんけつ】潜血〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "流涎": {
+  "reading": "りゅうぜん",
+  "meaning": "【りゅうぜん】流涎；流口水〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "後壁": {
+  "reading": "こうへき",
+  "meaning": "【こうへき】后壁〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "固縮": {
+  "reading": "こしゅく",
+  "meaning": "【こしゅく】固缩；强直〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ＮＴ": {
+  "reading": "エヌ・ティー",
+  "meaning": "颈项透明层（NT）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "制癌": {
+  "reading": "せいがん",
+  "meaning": "【せいがん】抗癌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "兎眼": {
+  "reading": "とがん",
+  "meaning": "【とがん】兔眼（闭眼不全）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "錐体": {
+  "reading": "すいたい",
+  "meaning": "【すいたい】锥体；岩部〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "空嘔": {
+  "reading": "からえずき",
+  "meaning": "【からえずき】干呕〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "断歯": {
+  "reading": "だんし",
+  "meaning": "【だんし】断牙（矫正）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "味盲": {
+  "reading": "みもう",
+  "meaning": "【みもう】味盲；味觉丧失〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "主剤": {
+  "reading": "しゅざい",
+  "meaning": "【しゅざい】主药〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "死腔": {
+  "reading": "しくう",
+  "meaning": "【しくう】死腔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "切痕": {
+  "reading": "せっこん",
+  "meaning": "【せっこん】切迹〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "顱頂": {
+  "reading": "ろちょう",
+  "meaning": "【ろちょう】颅顶〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "小孔": {
+  "reading": "しょうこう",
+  "meaning": "【しょうこう】小孔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "瘻孔": {
+  "reading": "ろうこう",
+  "meaning": "【ろうこう】瘘孔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "臀裂": {
+  "reading": "でんれつ",
+  "meaning": "【でんれつ】臀裂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "無食": {
+  "reading": "むじき",
+  "meaning": "【むじき】不能进食〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "瘟疫": {
+  "reading": "うんえき",
+  "meaning": "【うんえき】瘟疫〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "突顎": {
+  "reading": "とつがく",
+  "meaning": "【とつがく】下颌前突〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "焮腫": {
+  "reading": "きんしゅ",
+  "meaning": "【きんしゅ】红肿（热痛）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "皮屑": {
+  "reading": "ひせつ",
+  "meaning": "【ひせつ】皮屑〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "抜針": {
+  "reading": "ばっしん",
+  "meaning": "【ばっしん】拔针；拆线〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "転子": {
+  "reading": "てんし",
+  "meaning": "【てんし】转子（股骨）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "挿管": {
+  "reading": "そうかん",
+  "meaning": "【そうかん】插管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頸管": {
+  "reading": "けいかん",
+  "meaning": "【けいかん】宫颈〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "耳鳴": {
+  "reading": "じめい",
+  "meaning": "【じめい】耳鸣〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "体壁": {
+  "reading": "たいへき",
+  "meaning": "【たいへき】体壁〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "管腔": {
+  "reading": "かんくう",
+  "meaning": "【かんくう】管腔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脳圧": {
+  "reading": "のうあつ",
+  "meaning": "【のうあつ】颅内压〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "不耐": {
+  "reading": "ふたい",
+  "meaning": "【ふたい】不耐（受性）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "小葉": {
+  "reading": "しょうよう",
+  "meaning": "【しょうよう】小叶〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "眼軸": {
+  "reading": "がんじく",
+  "meaning": "【がんじく】眼轴〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心悸": {
+  "reading": "しんき",
+  "meaning": "【しんき】心悸〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脂臀": {
+  "reading": "しでん",
+  "meaning": "【しでん】脂肪臀（脂臀现象）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "小帯": {
+  "reading": "しょうたい",
+  "meaning": "【しょうたい】系带（舌系带）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "斜筋": {
+  "reading": "しゃきん",
+  "meaning": "【しゃきん】斜肌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "生着": {
+  "reading": "せいちゃく",
+  "meaning": "【せいちゃく】（移植）成活〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "菌症": {
+  "reading": "きんしょう",
+  "meaning": "【きんしょう】真菌病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "老視": {
+  "reading": "ろうし",
+  "meaning": "【ろうし】老花眼〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "仮骨": {
+  "reading": "かこつ",
+  "meaning": "【かこつ】骨痂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "瘧疾": {
+  "reading": "ぎゃくしつ",
+  "meaning": "【ぎゃくしつ】疟疾〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腫気": {
+  "reading": "しゅき",
+  "meaning": "【しゅき】肿胀（状态）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "毛瘡": {
+  "reading": "もうそう",
+  "meaning": "【もうそう】毛囊炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "精漿": {
+  "reading": "せいしょう",
+  "meaning": "【せいしょう】精浆〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "躁狂": {
+  "reading": "そうきょう",
+  "meaning": "【そうきょう】躁狂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "白帯": {
+  "reading": "しろおび",
+  "meaning": "【しろおび】白带〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "造影": {
+  "reading": "ぞうえい",
+  "meaning": "【ぞうえい】造影（检查）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "魚尾": {
+  "reading": "ぎょび",
+  "meaning": "【ぎょび】眼角（鱼尾纹）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膣錠": {
+  "reading": "ちつじょう",
+  "meaning": "【ちつじょう】阴道栓剂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "傷寒": {
+  "reading": "しょうかん",
+  "meaning": "【しょうかん】伤寒〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "洞房": {
+  "reading": "どうぼう",
+  "meaning": "【どうぼう】窦房（结）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "双胎": {
+  "reading": "そうたい",
+  "meaning": "【そうたい】双胎妊娠〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "発痘": {
+  "reading": "はっとう",
+  "meaning": "【はっとう】出痘〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鶏痘": {
+  "reading": "けいとう",
+  "meaning": "【けいとう】禽痘〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "帝切": {
+  "reading": "ていせつ",
+  "meaning": "【ていせつ】剖腹产（帝王切开）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "挙上": {
+  "reading": "きょじょう",
+  "meaning": "【きょじょう】上举〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "幻臭": {
+  "reading": "げんしゅう",
+  "meaning": "【げんしゅう】幻嗅〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "幻触": {
+  "reading": "げんしょく",
+  "meaning": "【げんしょく】幻触〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "右房": {
+  "reading": "うぼう",
+  "meaning": "【うぼう】右心房〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "左房": {
+  "reading": "さぼう",
+  "meaning": "【さぼう】左心房〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "病型": {
+  "reading": "びょうけい",
+  "meaning": "【びょうけい】病型〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "増悪": {
+  "reading": "ぞうあく",
+  "meaning": "【ぞうあく】恶化〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "開胸": {
+  "reading": "かいきょう",
+  "meaning": "【かいきょう】开胸〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "口裂": {
+  "reading": "こうれつ",
+  "meaning": "【こうれつ】口裂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "病訴": {
+  "reading": "びょうそ",
+  "meaning": "【びょうそ】主诉（病诉）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肩甲": {
+  "reading": "けんこう",
+  "meaning": "【けんこう】肩胛〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "粉瘤": {
+  "reading": "ふんりゅう",
+  "meaning": "【ふんりゅう】皮脂腺囊肿（粉瘤）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "術式": {
+  "reading": "じゅつしき",
+  "meaning": "【じゅつしき】术式〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胼胝": {
+  "reading": "べんち",
+  "meaning": "【べんち】胼胝；老茧〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "耳科": {
+  "reading": "じか",
+  "meaning": "【じか】耳科〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "間代": {
+  "reading": "かんだい",
+  "meaning": "【かんだい】阵挛〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "蝸牛": {
+  "reading": "かぎゅう",
+  "meaning": "【かぎゅう】耳蜗〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "輪癬": {
+  "reading": "りんせん",
+  "meaning": "【りんせん】圆癣〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頭位": {
+  "reading": "とうい",
+  "meaning": "【とうい】头位（胎位）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胸鎖": {
+  "reading": "きょうさ",
+  "meaning": "【きょうさ】胸锁（关节）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "尿石": {
+  "reading": "にょうせき",
+  "meaning": "【にょうせき】尿路结石〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膝部": {
+  "reading": "しつぶ",
+  "meaning": "【しつぶ】膝部〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "黒子": {
+  "reading": "こくし",
+  "meaning": "【こくし】雀斑样痣〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "眼内": {
+  "reading": "がんない",
+  "meaning": "【がんない】眼内〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "血症": {
+  "reading": "けっしょう",
+  "meaning": "【けっしょう】血症（-emia 后缀）〈接尾〉",
+  "level": "medical",
+  "need": 2
+ },
+ "断端": {
+  "reading": "だんたん",
+  "meaning": "【だんたん】断端〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ＭＲ": {
+  "reading": "エム・アール",
+  "meaning": "二尖瓣返流〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "眼杯": {
+  "reading": "がんぱい",
+  "meaning": "【がんぱい】视杯〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "異食": {
+  "reading": "いしょく",
+  "meaning": "【いしょく】异食癖〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "兎唇": {
+  "reading": "としん",
+  "meaning": "【としん】兔唇〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "唇裂": {
+  "reading": "しんれつ",
+  "meaning": "【しんれつ】唇裂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "髄腔": {
+  "reading": "ずいこう",
+  "meaning": "【ずいこう】骨髓腔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "Ｍ痘": {
+  "reading": "エムとう",
+  "meaning": "【エムとう】猴痘〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "槌指": {
+  "reading": "つちゆび",
+  "meaning": "【つちゆび】锤状趾〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "遅筋": {
+  "reading": "ちきん",
+  "meaning": "【ちきん】慢肌纤维〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "速筋": {
+  "reading": "そっきん",
+  "meaning": "【そっきん】快肌纤维〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "幻味": {
+  "reading": "げんみ",
+  "meaning": "【げんみ】幻味〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "幻嗅": {
+  "reading": "げんきゅう",
+  "meaning": "【げんきゅう】幻嗅〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "眩暈": {
+  "reading": "げんうん",
+  "meaning": "【げんうん】眩晕〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "副子": {
+  "reading": "ふくし",
+  "meaning": "【ふくし】夹板〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "腱索": {
+  "reading": "けんさく",
+  "meaning": "【けんさく】腱索〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "隅角": {
+  "reading": "ぐうかく",
+  "meaning": "【ぐうかく】前房角〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "造設": {
+  "reading": "ぞうせつ",
+  "meaning": "【ぞうせつ】造设（人工造口）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "小腺": {
+  "reading": "しょうせん",
+  "meaning": "【しょうせん】小腺体〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "陥凹": {
+  "reading": "かんおう",
+  "meaning": "【かんおう】凹陷〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "嵌頓": {
+  "reading": "かんとん",
+  "meaning": "【かんとん】嵌顿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肝門": {
+  "reading": "かんもん",
+  "meaning": "【かんもん】肝门〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "断薬": {
+  "reading": "だんやく",
+  "meaning": "【だんやく】停药〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "減薬": {
+  "reading": "げんやく",
+  "meaning": "【げんやく】减药〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "爪甲": {
+  "reading": "そうこう",
+  "meaning": "【そうこう】指（趾）甲〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "円背": {
+  "reading": "えんぱい",
+  "meaning": "【えんぱい】驼背；圆背〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "病痾": {
+  "reading": "びょうあ",
+  "meaning": "【びょうあ】痼疾；慢性病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "瞼板": {
+  "reading": "けんばん",
+  "meaning": "【けんばん】睑板〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "耳浴": {
+  "reading": "じよく",
+  "meaning": "【じよく】耳浴（滴耳）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "項部": {
+  "reading": "こうぶ",
+  "meaning": "【こうぶ】颈后部〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脈波": {
+  "reading": "みゃくは",
+  "meaning": "【みゃくは】脉搏波〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心尖": {
+  "reading": "しんせん",
+  "meaning": "【しんせん】心尖〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "尖足": {
+  "reading": "せんそく",
+  "meaning": "【せんそく】尖足（马蹄足）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "粥腫": {
+  "reading": "しゅくしゅ",
+  "meaning": "【しゅくしゅ】粥样斑块〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鎖肛": {
+  "reading": "さこう",
+  "meaning": "【さこう】肛门闭锁〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "導尿": {
+  "reading": "どうにょう",
+  "meaning": "【どうにょう】导尿〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "尿閉": {
+  "reading": "にょうへい",
+  "meaning": "【にょうへい】尿潴留〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "器質": {
+  "reading": "きしつ",
+  "meaning": "【きしつ】器质性〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "消炎": {
+  "reading": "しょうえん",
+  "meaning": "【しょうえん】消炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "遠位": {
+  "reading": "えんい",
+  "meaning": "【えんい】远位（远侧）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肘頭": {
+  "reading": "ひじがしら",
+  "meaning": "【ひじがしら】肘尖（尺骨鹰嘴）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "滑膜": {
+  "reading": "かつまく",
+  "meaning": "【かつまく】滑膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膿盆": {
+  "reading": "のうぼん",
+  "meaning": "【のうぼん】弯盘（肾形盘）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "鼻尖": {
+  "reading": "びせん",
+  "meaning": "【びせん】鼻尖〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ＡＳ": {
+  "reading": "エー・エス",
+  "meaning": "阿斯伯格综合征〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "副乳": {
+  "reading": "ふくにゅう",
+  "meaning": "【ふくにゅう】副乳〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "点耳": {
+  "reading": "てんじ",
+  "meaning": "【てんじ】滴耳〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "強毒": {
+  "reading": "きょうどく",
+  "meaning": "【きょうどく】强毒（性）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "全摘": {
+  "reading": "ぜんてき",
+  "meaning": "【ぜんてき】全切除〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肢位": {
+  "reading": "しい",
+  "meaning": "【しい】体位；肢位〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心マ": {
+  "reading": "しんマ",
+  "meaning": "【しんマ】心脏按压（心マッサージ）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ＯＤ": {
+  "reading": "オー・ディー",
+  "meaning": "直立不耐受〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "小管": {
+  "reading": "しょうかん",
+  "meaning": "【しょうかん】小管（微管）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "毛孔": {
+  "reading": "もうこう",
+  "meaning": "【もうこう】毛孔〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ＣＳ": {
+  "reading": "シー・エス",
+  "meaning": "多种化学物质过敏症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "外膜": {
+  "reading": "がいまく",
+  "meaning": "【がいまく】外膜〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "右室": {
+  "reading": "うしつ",
+  "meaning": "【うしつ】右心室〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "頻拍": {
+  "reading": "ひんぱく",
+  "meaning": "【ひんぱく】心动过速〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "甲介": {
+  "reading": "こうかい",
+  "meaning": "【こうかい】鼻甲介〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "抜管": {
+  "reading": "ばっかん",
+  "meaning": "【ばっかん】拔管〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "臍炎": {
+  "reading": "さいえん",
+  "meaning": "【さいえん】脐炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "索痕": {
+  "reading": "さっこん",
+  "meaning": "【さっこん】索沟（勒痕）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "索溝": {
+  "reading": "さくこう",
+  "meaning": "【さくこう】索沟（缢痕）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "心炎": {
+  "reading": "しんえん",
+  "meaning": "【しんえん】心肌炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "灌注": {
+  "reading": "かんちゅう",
+  "meaning": "【かんちゅう】冲洗；灌注〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "雁瘡": {
+  "reading": "がんがさ",
+  "meaning": "【がんがさ】深脓疱疮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膿瘡": {
+  "reading": "のうそう",
+  "meaning": "【のうそう】脓疮〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "口部": {
+  "reading": "こうぶ",
+  "meaning": "【こうぶ】口部〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "老嚥": {
+  "reading": "ろうえん",
+  "meaning": "【ろうえん】老年吞咽困难〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "直筋": {
+  "reading": "ちょっきん",
+  "meaning": "【ちょっきん】直肌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "病相": {
+  "reading": "びょうそう",
+  "meaning": "【びょうそう】病程相（精神发作期）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "笑筋": {
+  "reading": "しょうきん",
+  "meaning": "【しょうきん】笑肌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "洗薬": {
+  "reading": "せんやく",
+  "meaning": "【せんやく】洗剂〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "精糸": {
+  "reading": "せいし",
+  "meaning": "【せいし】精索（旧称）〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "胃底": {
+  "reading": "いてい",
+  "meaning": "【いてい】胃底〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "酸血": {
+  "reading": "さんけつ",
+  "meaning": "【さんけつ】酸血症〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ＭＥ": {
+  "reading": "エム・イー",
+  "meaning": "慢性疲劳性脑脊髓炎〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "脈圧": {
+  "reading": "みゃくあつ",
+  "meaning": "【みゃくあつ】脉压〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "夢遊": {
+  "reading": "むゆう",
+  "meaning": "【むゆう】梦游〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "創口": {
+  "reading": "そうこう",
+  "meaning": "【そうこう】创口〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "著変": {
+  "reading": "ちょへん",
+  "meaning": "【ちょへん】显著变化〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "麻疹": {
+  "reading": "ましん",
+  "meaning": "【ましん】麻疹〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "肩骨": {
+  "reading": "けんこつ",
+  "meaning": "【けんこつ】肩胛骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "膝蓋": {
+  "reading": "しつがい",
+  "meaning": "【しつがい】髌骨〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "晩発": {
+  "reading": "ばんぱつ",
+  "meaning": "【ばんぱつ】晚发〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "尿量": {
+  "reading": "にょうりょう",
+  "meaning": "【にょうりょう】尿量〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "顔筋": {
+  "reading": "がんきん",
+  "meaning": "【がんきん】表情肌〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "触毛": {
+  "reading": "しょくもう",
+  "meaning": "【しょくもう】触须〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "外旋": {
+  "reading": "がいせん",
+  "meaning": "【がいせん】外旋〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "くる病": {
+  "reading": "くるびょう",
+  "meaning": "【くるびょう】佝偻病〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "ＣＴＳ": {
+  "reading": "シー・ティー・エス",
+  "meaning": "腕管综合征〈名〉",
+  "level": "medical",
+  "need": 2
+ },
+ "動議": {
+  "reading": "どうぎ",
+  "meaning": "【どうぎ】动议；临时提案〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "延会": {
+  "reading": "えんかい",
+  "meaning": "【えんかい】休会；会议延期〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "散会": {
+  "reading": "さんかい",
+  "meaning": "【さんかい】散会〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "挙手": {
+  "reading": "きょしゅ",
+  "meaning": "【きょしゅ】举手〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "契約書": {
+  "reading": "けいやくしょ",
+  "meaning": "【けいやくしょ】合同；契约书〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "解約": {
+  "reading": "かいやく",
+  "meaning": "【かいやく】解约；解除合同〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "捺印": {
+  "reading": "なついん",
+  "meaning": "【なついん】盖章；用印〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "違約金": {
+  "reading": "いやくきん",
+  "meaning": "【いやくきん】违约金〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "損害賠償": {
+  "reading": "そんがいばいしょう",
+  "meaning": "【そんがいばいしょう】损害赔偿〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "免責": {
+  "reading": "めんせき",
+  "meaning": "【めんせき】免责；免除责任〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "秘密保持": {
+  "reading": "ひみつほじ",
+  "meaning": "【ひみつほじ】保密；保守机密〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "見積書": {
+  "reading": "みつもりしょ",
+  "meaning": "【みつもりしょ】报价单；估价单〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "入金": {
+  "reading": "にゅうきん",
+  "meaning": "【にゅうきん】（款项）到账；入账〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "振込": {
+  "reading": "ふりこみ",
+  "meaning": "【ふりこみ】（银行）转账〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "棚卸": {
+  "reading": "たなおろし",
+  "meaning": "【たなおろし】盘点存货〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "四半期": {
+  "reading": "しはんき",
+  "meaning": "【しはんき】季度〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "増資": {
+  "reading": "ぞうし",
+  "meaning": "【ぞうし】增资；增加资本〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "配当": {
+  "reading": "はいとう",
+  "meaning": "【はいとう】分红；股息〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "検収": {
+  "reading": "けんしゅう",
+  "meaning": "【けんしゅう】验收〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "発送": {
+  "reading": "はっそう",
+  "meaning": "【はっそう】发货；寄送〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "内定": {
+  "reading": "ないてい",
+  "meaning": "【ないてい】内定；初步录用〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "有給": {
+  "reading": "ゆうきゅう",
+  "meaning": "【ゆうきゅう】带薪休假〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "欠勤": {
+  "reading": "けっきん",
+  "meaning": "【けっきん】缺勤；旷工〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "早退": {
+  "reading": "そうたい",
+  "meaning": "【そうたい】早退；提前下班〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "就業規則": {
+  "reading": "しゅうぎょうきそく",
+  "meaning": "【しゅうぎょうきそく】就业规则；员工手册〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "人事考課": {
+  "reading": "じんじこうか",
+  "meaning": "【じんじこうか】人事考核；绩效评估〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "上長": {
+  "reading": "じょうちょう",
+  "meaning": "【じょうちょう】上级领导〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "折り返し電話": {
+  "reading": "おりかえしでんわ",
+  "meaning": "【おりかえしでんわ】回电〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "宛先": {
+  "reading": "あてさき",
+  "meaning": "【あてさき】收件地址；收件人〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "件名": {
+  "reading": "けんめい",
+  "meaning": "【けんめい】（邮件）主题；标题〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "稟議書": {
+  "reading": "りんぎしょ",
+  "meaning": "【りんぎしょ】内部审批单；请示书〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "交通費": {
+  "reading": "こうつうひ",
+  "meaning": "【こうつうひ】交通费〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "精算": {
+  "reading": "せいさん",
+  "meaning": "【せいさん】结算；精算〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "こちらでよろしいでしょうか": {
+  "reading": "こちらでよろしいでしょうか",
+  "meaning": "…可以吗（郑重确认）〈惯〉",
+  "level": "business",
+  "need": 2
+ },
+ "心よりお詫び申し上げます": {
+  "reading": "こころよりおわびもうしあげます",
+  "meaning": "【こころよりおわびもうしあげます】由衷致歉〈惯〉",
+  "level": "business",
+  "need": 2
+ },
+ "ご多忙のことと存じます": {
+  "reading": "ごたぼうのこととぞんじます",
+  "meaning": "【ごたぼうのこととぞんじます】想必您很繁忙（郑重推测）〈惯〉",
+  "level": "business",
+  "need": 2
+ },
+ "お言葉に甘えまして": {
+  "reading": "おことばにあまえまして",
+  "meaning": "【おことばにあまえまして】承您美意（恭敬地接受好意）〈惯〉",
+  "level": "business",
+  "need": 2
+ },
+ "ご確認のほどお願いいたします": {
+  "reading": "ごかくにんのほどおねがいいたします",
+  "meaning": "【ごかくにんのほどおねがいいたします】请您确认（郑重）〈惯〉",
+  "level": "business",
+  "need": 2
+ },
+ "させていただけますか": {
+  "reading": "させていただけますか",
+  "meaning": "能否允许我…〈惯〉",
+  "level": "business",
+  "need": 2
+ },
+ "ご無理を申し上げましたら": {
+  "reading": "ごむりをもうしあげましたら",
+  "meaning": "【ごむりをもうしあげましたら】恕我强人所难〈惯〉",
+  "level": "business",
+  "need": 2
+ },
+ "集群": {
+  "reading": "しゅうぐん",
+  "meaning": "【しゅうぐん】聚集；成群〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "属名": {
+  "reading": "ぞくめい",
+  "meaning": "【ぞくめい】属名（分类学/匿名署名）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＥＶ": {
+  "reading": "イー・ブイ",
+  "meaning": "企业价值（EV）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "動学": {
+  "reading": "どうがく",
+  "meaning": "【どうがく】动态（分析）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＭＣ": {
+  "reading": "エム・シー",
+  "meaning": "边际成本（MC）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "経済人": {
+  "reading": "けいざいじん",
+  "meaning": "【けいざいじん】经济人；实业界人士〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＣＥＯ": {
+  "reading": "シー・イー・オー",
+  "meaning": "首席执行官（CEO）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＣＲＭ": {
+  "reading": "シー・アール・エム",
+  "meaning": "客户关系管理（CRM）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＳＩＳ": {
+  "reading": "シス",
+  "meaning": "战略信息系统〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "リスケ": {
+  "reading": "",
+  "meaning": "改期；债务重组〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＭＩＳ": {
+  "reading": "エム・アイ・エス",
+  "meaning": "管理信息系统〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＶＡＲ": {
+  "reading": "ブイ・エー・アール",
+  "meaning": "增值经销商（VAR）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "Ｍ＆Ａ": {
+  "reading": "エム・アンド・エー",
+  "meaning": "企业并购（M&A）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＭＭＴ": {
+  "reading": "エム・エム・ティー",
+  "meaning": "现代货币理论（MMT）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＭＢＯ": {
+  "reading": "エム・ビー・オー",
+  "meaning": "目标管理（MBO）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＫＹＣ": {
+  "reading": "ケー・ワイ・シー",
+  "meaning": "了解你的客户（KYC）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＢＰＭ": {
+  "reading": "ビー・ピー・エム",
+  "meaning": "业务流程管理（BPM）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＢＰＯ": {
+  "reading": "ビー・ピー・オー",
+  "meaning": "业务流程外包（BPO）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "指図人": {
+  "reading": "さしずにん",
+  "meaning": "【さしずにん】抬头人；指定受款人〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "歴史学派": {
+  "reading": "れきしがくは",
+  "meaning": "【れきしがくは】历史学派（经济学）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ＳＩｅｒ": {
+  "reading": "エスアイヤー",
+  "meaning": "系统集成商〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "Ｖ字回復": {
+  "reading": "ブイじかいふく",
+  "meaning": "【ブイじかいふく】V字复苏〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "Ｋ字回復": {
+  "reading": "ケーじかいふく",
+  "meaning": "【ケーじかいふく】K型复苏〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "非地位財": {
+  "reading": "ひちいざい",
+  "meaning": "【ひちいざい】非地位性财货〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "縮小均衡": {
+  "reading": "しゅくしょうきんこう",
+  "meaning": "【しゅくしょうきんこう】收缩式均衡〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "特定社員": {
+  "reading": "とくていしゃいん",
+  "meaning": "【とくていしゃいん】特定合伙人〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "北欧学派": {
+  "reading": "ほくおうがくは",
+  "meaning": "【ほくおうがくは】北欧学派（经济学）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "社会信用": {
+  "reading": "しゃかいしんよう",
+  "meaning": "【しゃかいしんよう】社会信用〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "パーパス": {
+  "reading": "",
+  "meaning": "经营宗旨；使命感〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "対物信用": {
+  "reading": "たいぶつしんよう",
+  "meaning": "【たいぶつしんよう】实物抵押信贷〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "情物一致": {
+  "reading": "じょうぶついっち",
+  "meaning": "【じょうぶついっち】账实相符〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "インボイス": {
+  "reading": "インヴォイス",
+  "meaning": "发票；形式发票〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ビハインド": {
+  "reading": "",
+  "meaning": "进度落后〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "企業プラン": {
+  "reading": "きぎょうプラン",
+  "meaning": "【きぎょうプラン】企业计划〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ゾンビ会社": {
+  "reading": "ゾンビかいしゃ",
+  "meaning": "【ゾンビかいしゃ】僵尸企业〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "大家族主義": {
+  "reading": "だいかぞくしゅぎ",
+  "meaning": "【だいかぞくしゅぎ】大家庭主义（经营理念）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "超過収益力": {
+  "reading": "ちょうかしゅうえきりょく",
+  "meaning": "【ちょうかしゅうえきりょく】超额盈利能力〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "貨幣国定説": {
+  "reading": "かへいこくていせつ",
+  "meaning": "【かへいこくていせつ】货币国定说〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "中間生産物": {
+  "reading": "ちゅうかんせいさんぶつ",
+  "meaning": "【ちゅうかんせいさんぶつ】中间产品〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "トスアップ": {
+  "reading": "トス・アップ",
+  "meaning": "转介绍客户（内部转单）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ポモドーロ": {
+  "reading": "",
+  "meaning": "番茄工作法〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ニアショア": {
+  "reading": "",
+  "meaning": "近岸外包〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "マネタリズム": {
+  "reading": "",
+  "meaning": "货币主义〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ポイズンピル": {
+  "reading": "ポイズン・ピル",
+  "meaning": "毒丸计划〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "恒常所得仮説": {
+  "reading": "こうじょうしょとくかせつ",
+  "meaning": "【こうじょうしょとくかせつ】持久收入假说〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "マネタリスト": {
+  "reading": "",
+  "meaning": "货币主义者〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "購買力平価説": {
+  "reading": "こうばいりょくへいかせつ",
+  "meaning": "【こうばいりょくへいかせつ】购买力平价说〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "アベノミクス": {
+  "reading": "アベノミックス",
+  "meaning": "安倍经济学〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "チャンスロス": {
+  "reading": "チャンス・ロス",
+  "meaning": "机会流失〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "金銀複本位制": {
+  "reading": "きんぎんふくほんいせい",
+  "meaning": "【きんぎんふくほんいせい】金银复本位制〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "独占資本主義": {
+  "reading": "どくせんしほんしゅぎ",
+  "meaning": "【どくせんしほんしゅぎ】垄断资本主义〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "秩序自由主義": {
+  "reading": "ちつじょじゆうしゅぎ",
+  "meaning": "【ちつじょじゆうしゅぎ】秩序自由主义〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "必要労働時間": {
+  "reading": "ひつようろうどうじかん",
+  "meaning": "【ひつようろうどうじかん】必要劳动时间（马克思）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "テーパリング": {
+  "reading": "",
+  "meaning": "缩减购债〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ケインジアン": {
+  "reading": "",
+  "meaning": "凯恩斯主义者〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "バーンダウン": {
+  "reading": "",
+  "meaning": "任务燃尽（进度）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ファンド会社": {
+  "reading": "ファンドがいしゃ",
+  "meaning": "【ファンドがいしゃ】基金公司〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "アクハイヤー": {
+  "reading": "アクイハイヤー",
+  "meaning": "收购式招聘〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "バックマージン": {
+  "reading": "バック・マージン",
+  "meaning": "（零售商收取的）返点〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "マーケットイン": {
+  "reading": "マーケット・イン",
+  "meaning": "市场导向（先有需求）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "シックスシグマ": {
+  "reading": "シックス・シグマ",
+  "meaning": "六西格玛管理〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "キャリーバック": {
+  "reading": "",
+  "meaning": "亏损结转〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "モノカルチャー": {
+  "reading": "モノカルチュア",
+  "meaning": "单一化；单一文化〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "流動性ジレンマ": {
+  "reading": "りゅうどうせいジレンマ",
+  "meaning": "【りゅうどうせいジレンマ】流动性困境〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "レポートライン": {
+  "reading": "レポート・ライン",
+  "meaning": "汇报线〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "コモンズの悲劇": {
+  "reading": "コモンズのひげき",
+  "meaning": "【コモンズのひげき】公地悲剧〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "神の見えざる手": {
+  "reading": "かみのみえざるて",
+  "meaning": "【かみのみえざるて】上帝看不见的手〈惯〉",
+  "level": "business",
+  "need": 2
+ },
+ "オルド自由主義": {
+  "reading": "オルドじゆうしゅぎ",
+  "meaning": "【オルドじゆうしゅぎ】秩序自由主义〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "コストセンター": {
+  "reading": "コスト・センター",
+  "meaning": "成本中心〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "新しい資本主義": {
+  "reading": "あたらしいしほんしゅぎ",
+  "meaning": "【あたらしいしほんしゅぎ】新资本主义（政策理念）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "アタックリスト": {
+  "reading": "アタック・リスト",
+  "meaning": "潜在客户名单〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ブラックスワン": {
+  "reading": "ブラック・スワン",
+  "meaning": "黑天鹅事件〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "目標による管理": {
+  "reading": "もくひょうによるかんり",
+  "meaning": "【もくひょうによるかんり】目标管理（MBO）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ファシリーダー": {
+  "reading": "",
+  "meaning": "会议主持人〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "クリーンフロート": {
+  "reading": "クリーン・フロート",
+  "meaning": "清洁浮动汇率〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ショックセオリー": {
+  "reading": "ショック・セオリー",
+  "meaning": "冲击理论（宽松货币）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "バイイングパワー": {
+  "reading": "バイイング・パワー",
+  "meaning": "买方议价能力〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ユースマーケット": {
+  "reading": "ユース・マーケット",
+  "meaning": "青年市场〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "規模に関する収穫": {
+  "reading": "きぼにかんするしゅうかく",
+  "meaning": "【きぼにかんするしゅうかく】规模报酬〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "所得不平等度係数": {
+  "reading": "しょとくふびょうどうどけいすう",
+  "meaning": "【しょとくふびょうどうどけいすう】收入不平等系数〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "イニシャルコスト": {
+  "reading": "イニシャル・コスト",
+  "meaning": "初始成本〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "戦略情報システム": {
+  "reading": "せんりゃくじょうほうシステム",
+  "meaning": "【せんりゃくじょうほうシステム】战略信息系统〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "付加価値再販業者": {
+  "reading": "ふかかちさいはんぎょうしゃ",
+  "meaning": "【ふかかちさいはんぎょうしゃ】增值经销商〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "カテゴリーキラー": {
+  "reading": "カテゴリー・キラー",
+  "meaning": "品类杀手（大型专营店）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "流動性のジレンマ": {
+  "reading": "りゅうどうせいのジレンマ",
+  "meaning": "【りゅうどうせいのジレンマ】流动性困境〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ブルーオーシャン": {
+  "reading": "ブルー・オーシャン",
+  "meaning": "蓝海（市场）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "フランチャイジー": {
+  "reading": "",
+  "meaning": "加盟商〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "プロダクトアウト": {
+  "reading": "プロダクト・アウト",
+  "meaning": "产品导向（先有产品）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "スウェーデン学派": {
+  "reading": "スウェーデンがくは",
+  "meaning": "【スウェーデンがくは】瑞典学派〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "オンボーディング": {
+  "reading": "オン・ボーディング",
+  "meaning": "入职培训〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "イネーブルメント": {
+  "reading": "",
+  "meaning": "销售赋能〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "フルフィルメント": {
+  "reading": "",
+  "meaning": "订单履约〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "フリーマーケット": {
+  "reading": "フリー・マーケット",
+  "meaning": "自由市场〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "フィジオクラシー": {
+  "reading": "",
+  "meaning": "重农主义〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "バリューチェーン": {
+  "reading": "バリュー・チェーン",
+  "meaning": "价值链〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "シグナリング理論": {
+  "reading": "シグナリングりろん",
+  "meaning": "【シグナリングりろん】信号传递理论〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "コンシューマリング": {
+  "reading": "コンシューマーリング",
+  "meaning": "消费者导向经营〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "スタグフレーション": {
+  "reading": "",
+  "meaning": "滞胀〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "バッファーストック": {
+  "reading": "バッファー・ストック",
+  "meaning": "缓冲库存〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "パーソナルセリング": {
+  "reading": "パーソナル・セリング",
+  "meaning": "人员推销〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ダーティーフロート": {
+  "reading": "ダーティー・フロート",
+  "meaning": "管理浮动汇率〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ブレトンウッズ協定": {
+  "reading": "ブレトンウッズきょうてい",
+  "meaning": "【ブレトンウッズきょうてい】布雷顿森林协定〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ヘリコプターマネー": {
+  "reading": "ヘリコプター・マネー",
+  "meaning": "直升机撒钱〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ベーシックインカム": {
+  "reading": "ベーシック・インカム",
+  "meaning": "全民基本收入〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ストックホルム学派": {
+  "reading": "ストックホルムがくは",
+  "meaning": "【ストックホルムがくは】斯德哥尔摩学派〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "エンタイトルメント": {
+  "reading": "",
+  "meaning": "应享权益〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "カスタマーサクセス": {
+  "reading": "カスタマー・サクセス",
+  "meaning": "客户成功（岗位）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "アーリーアダプター": {
+  "reading": "アーリー・アダプター",
+  "meaning": "早期采用者〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ビジネスエンジェル": {
+  "reading": "ビジネス・エンジェル",
+  "meaning": "天使投资人〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "アニマルスピリット": {
+  "reading": "アニマルスピリッツ",
+  "meaning": "动物精神（经济信心）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ベンチャーキャピタル": {
+  "reading": "ベンチャー・キャピタル",
+  "meaning": "风险投资〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "コストパーサウザンド": {
+  "reading": "コスト・パー・サウザンド",
+  "meaning": "千次展示成本〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "グロースリセッション": {
+  "reading": "グロース・リセッション",
+  "meaning": "增长型衰退〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "トリフィンのジレンマ": {
+  "reading": "",
+  "meaning": "特里芬难题〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ネガティブオプション": {
+  "reading": "ネガティブ・オプション",
+  "meaning": "默认续费式销售〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "プロフィットセンター": {
+  "reading": "プロフィット・センター",
+  "meaning": "利润中心〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "バーンダウンチャート": {
+  "reading": "バーンダウン・チャート",
+  "meaning": "燃尽图〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "タックスフレーション": {
+  "reading": "",
+  "meaning": "税致通胀〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "シュリンクフレーション": {
+  "reading": "",
+  "meaning": "缩水式通胀（减量不减价）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "コンドラチエフのサイクル": {
+  "reading": "",
+  "meaning": "康德拉季耶夫长波〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "コミュニケーションコスト": {
+  "reading": "コミュニケーション・コスト",
+  "meaning": "沟通成本〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "ネットプロモータースコア": {
+  "reading": "ネット・プロモーター・スコア",
+  "meaning": "净推荐值〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "スムージングオペレーション": {
+  "reading": "スムージング・オペレーション",
+  "meaning": "平滑干预（稳汇率）〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "グローバルバリューチェーン": {
+  "reading": "グローバル・バリュー・チェーン",
+  "meaning": "全球价值链〈名〉",
+  "level": "business",
+  "need": 2
+ },
+ "悪意": {
+  "reading": "あくい",
+  "meaning": "【あくい】恶意〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "陰謀": {
+  "reading": "いんぼう",
+  "meaning": "【いんぼう】阴谋〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "隠滅": {
+  "reading": "いんめつ",
+  "meaning": "【いんめつ】湮灭（证据）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "回避": {
+  "reading": "かいひ",
+  "meaning": "【かいひ】回避（法官回避审理）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "開示": {
+  "reading": "かいじ",
+  "meaning": "【かいじ】（证据）开示；披露〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "喚問": {
+  "reading": "かんもん",
+  "meaning": "【かんもん】传唤（讯问）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "器物": {
+  "reading": "きぶつ",
+  "meaning": "【きぶつ】器物；财物〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "忌避": {
+  "reading": "きひ",
+  "meaning": "【きひ】忌避；申请回避〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "供述": {
+  "reading": "きょうじゅつ",
+  "meaning": "【きょうじゅつ】供述；陈述〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "教唆": {
+  "reading": "きょうさ",
+  "meaning": "【きょうさ】教唆〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "検証": {
+  "reading": "けんしょう",
+  "meaning": "【けんしょう】勘验；查证〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "原告": {
+  "reading": "げんこく",
+  "meaning": "【げんこく】原告〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "故意": {
+  "reading": "こい",
+  "meaning": "【こい】故意〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "公訴": {
+  "reading": "こうそ",
+  "meaning": "【こうそ】公诉〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "公有": {
+  "reading": "こうゆう",
+  "meaning": "【こうゆう】公有〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "控訴": {
+  "reading": "こうそ",
+  "meaning": "【こうそ】上诉（二审）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "告訴": {
+  "reading": "こくそ",
+  "meaning": "【こくそ】（被害人）控告〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "婚姻": {
+  "reading": "こんいん",
+  "meaning": "【こんいん】婚姻〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "再審": {
+  "reading": "さいしん",
+  "meaning": "【さいしん】再审〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "時効": {
+  "reading": "じこう",
+  "meaning": "【じこう】时效〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "執行": {
+  "reading": "しっこう",
+  "meaning": "【しっこう】执行〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "主犯": {
+  "reading": "しゅはん",
+  "meaning": "【しゅはん】主犯〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "召喚": {
+  "reading": "しょうかん",
+  "meaning": "【しょうかん】传唤〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "上告": {
+  "reading": "じょうこく",
+  "meaning": "【じょうこく】（向最高法院）上告〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "宣告": {
+  "reading": "せんこく",
+  "meaning": "【せんこく】宣告（判决）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "善意": {
+  "reading": "ぜんい",
+  "meaning": "【ぜんい】善意（不知情）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "相殺": {
+  "reading": "そうさい",
+  "meaning": "【そうさい】抵销〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "送検": {
+  "reading": "そうけん",
+  "meaning": "【そうけん】移送检方〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "発動": {
+  "reading": "はつどう",
+  "meaning": "【はつどう】发动（权力/条款）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "判例": {
+  "reading": "はんれい",
+  "meaning": "【はんれい】判例〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "被告": {
+  "reading": "ひこく",
+  "meaning": "【ひこく】被告〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "報復": {
+  "reading": "ほうふく",
+  "meaning": "【ほうふく】报复〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "猶予": {
+  "reading": "ゆうよ",
+  "meaning": "【ゆうよ】缓期；犹豫〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "和解": {
+  "reading": "わかい",
+  "meaning": "【わかい】和解〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "抗告": {
+  "reading": "こうこく",
+  "meaning": "【こうこく】抗告（不服裁定上诉）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "仮処分": {
+  "reading": "かりしょぶん",
+  "meaning": "【かりしょぶん】临时处分〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "管理人": {
+  "reading": "かんりにん",
+  "meaning": "【かんりにん】管理人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "不文律": {
+  "reading": "ふぶんりつ",
+  "meaning": "【ふぶんりつ】不成文规矩〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "被疑者": {
+  "reading": "ひぎしゃ",
+  "meaning": "【ひぎしゃ】嫌疑人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "意思表示": {
+  "reading": "いしひょうじ",
+  "meaning": "【いしひょうじ】意思表示（法律）〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "刑事事件": {
+  "reading": "けいじじけん",
+  "meaning": "【けいじじけん】刑事案件〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "財団法人": {
+  "reading": "ざいだんほうじん",
+  "meaning": "【ざいだんほうじん】财团法人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "執行猶予": {
+  "reading": "しっこうゆうよ",
+  "meaning": "【しっこうゆうよ】缓期执行〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "社団法人": {
+  "reading": "しゃだんほうじん",
+  "meaning": "【しゃだんほうじん】社团法人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "心神耗弱": {
+  "reading": "しんしんこうじゃく",
+  "meaning": "【しんしんこうじゃく】心神耗弱〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "正当防衛": {
+  "reading": "せいとうぼうえい",
+  "meaning": "【せいとうぼうえい】正当防卫〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "会社更生法": {
+  "reading": "かいしゃこうせいほう",
+  "meaning": "【かいしゃこうせいほう】《公司更生法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "労働基準法": {
+  "reading": "ろうどうきじゅんほう",
+  "meaning": "【ろうどうきじゅんほう】《劳动基准法》〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "独立行政法人": {
+  "reading": "どくりつぎょうせいほうじん",
+  "meaning": "【どくりつぎょうせいほうじん】独立行政法人〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "擬制": {
+  "reading": "ぎせい",
+  "meaning": "【ぎせい】法律拟制〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "係属": {
+  "reading": "けいぞく",
+  "meaning": "【けいぞく】（案件）审理中〈名〉",
+  "level": "law",
+  "need": 2
+ },
+ "勾留": {
+  "reading": "こうりゅう",
+  "meaning": "【こうりゅう】羁押〈名〉",
+  "level": "law",
+  "need": 2
+ }
+}

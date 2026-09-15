@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+*.dll
+*.mp3
+logs/
+scratch/
+backups/
+*.es3
+*.es3.bak_*
+*.tmp
+*.lock
+
+data/raw/
+.serena/
+work/ui_audit/
+
+# 打包产物 (体积大, 由 tools/build_*_fr.py 现场生成)
+output/installer_pkg/
+output/release/
+
+# 校验脚本的单次运行日志 (临时证据, 不入库)
+work/_verify_run_*.txt

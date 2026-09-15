@@ -1,0 +1,56 @@
+=== 命中 audio/LocalLow/wcp 字样的进程 ===
+PID=58816 bash.exe start=2026/9/14 5:52:38
+   "C:\Program Files\Git\bin\bash.exe" -c ". /c/Users/hanserdesu/.zcode/cli/exec/shell-snapshots/snapshot-bash-1789335641151-6cqqw8.sh 2>/dev/null || true
+. /c/Users/hanserdesu/.zcode/cli/exec/bash-startup/sess_bf8c1460-f207-49d1-87ea-a3c9c3986e4d/embedded-search-startup-e21809241b3ce91d.sh
+python tool
+PID=61728 bash.exe start=2026/9/14 5:52:38
+   "C:\Program Files\Git\bin\..\usr\bin\bash.exe" -c ". /c/Users/hanserdesu/.zcode/cli/exec/shell-snapshots/snapshot-bash-1789335641151-6cqqw8.sh 2>/dev/null || true
+. /c/Users/hanserdesu/.zcode/cli/exec/bash-startup/sess_bf8c1460-f207-49d1-87ea-a3c9c3986e4d/embedded-search-startup-e21809241b3ce91d.sh
+
+PID=52312 python.exe start=2026/9/14 5:52:38
+   C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe tools/gen_word_audio.py --retry-failed
+PID=4268 nohup.exe start=2026/9/14 7:14:02
+   "C:\Program Files\Git\usr\bin\nohup.exe" python -u tools/gen_sentence_audio_ru.py
+PID=3316 python.exe start=2026/9/14 7:14:02
+   C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe -u tools/gen_sentence_audio_ru.py
+PID=31772 powershell.exe start=2026/9/14 8:02:55
+   C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -NonInteractive -Command "if (-not (Get-Variable -Name CODEBUDDY_SAFE_DELETE_PS_READY -Scope Global -ErrorAction SilentlyContinue)) {
+    $Global:CODEBUDDY_SAFE_DELETE_PS_READY = $true
+
+    Add-Type -AssemblyName Microsoft.VisualBa
+
+=== 全部 python 进程命令行 ===
+PID=58324 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=23784 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=54948 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=59944 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=63452 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=47500 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=58976 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=32632 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=52312 C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe tools/gen_word_audio.py --retry-failed
+PID=36256 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=32600 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=58288 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=53364 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=26540 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=28400 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=16152 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=47356 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=60068 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=15576 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=3316 C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe -u tools/gen_sentence_audio_ru.py
+PID=31372 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=19376 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=31624 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=27208 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=17412 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=28692 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=7452 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=6456 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=55720 "C:\Users\hanserdesu\.serena\runtime\Scripts\python.exe"  "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=58072 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.serena\runtime\Scripts\serena.exe" start-mcp-server --context=codex --project-from-cwd
+PID=34200 "C:\Users\hanserdesu\.hindsight\runtime\tools\hindsight-embed\Scripts\python.exe" "C:\Users\hanserdesu\.hindsight\runtime\tools\hindsight-embed\Scripts\hindsight-embed.exe" daemon --profile coding-agent start 
+PID=58176 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\python.exe" "C:\Users\hanserdesu\.hindsight\runtime\tools\hindsight-embed\Scripts\hindsight-embed.exe" daemon --profile coding-agent start 
+PID=32488 C:\Users\hanserdesu\.hindsight\runtime\tools\hindsight-embed\Scripts\pythonw.exe -m hindsight_api.main --daemon --idle-timeout 0 --port 9077
+PID=65540 "C:\Users\hanserdesu\AppData\Local\Programs\Python\Python312\pythonw.exe" -m hindsight_api.main --daemon --idle-timeout 0 --port 9077

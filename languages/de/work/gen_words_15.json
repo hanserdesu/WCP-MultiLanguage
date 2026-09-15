@@ -1,0 +1,602 @@
+[
+{
+"word": "Unterstützung",
+"pos": "n.f.",
+"zh": "支持",
+"level": "a2"
+},
+{
+"word": "antun",
+"pos": "v.",
+"zh": "做给；加于",
+"level": "a2"
+},
+{
+"word": "Rechnung",
+"pos": "n.f.",
+"zh": "账单",
+"level": "a2"
+},
+{
+"word": "dieselbe",
+"pos": "pron.",
+"zh": "同一个",
+"level": "a2"
+},
+{
+"word": "möglicherweise",
+"pos": "adv.",
+"zh": "可能",
+"level": "a2"
+},
+{
+"word": "definitiv",
+"pos": "adv.",
+"zh": "肯定",
+"level": "a2"
+},
+{
+"word": "locker",
+"pos": "adj.",
+"zh": "松的；轻松",
+"level": "a2"
+},
+{
+"word": "ums",
+"pos": "präp.",
+"zh": "关于（um das 缩合）",
+"level": "a2"
+},
+{
+"word": "Kohle",
+"pos": "n.f.",
+"zh": "煤；钱（口语）",
+"level": "a2"
+},
+{
+"word": "Cousin",
+"pos": "n.m.",
+"zh": "表兄弟",
+"level": "a2"
+},
+{
+"word": "einsam",
+"pos": "adj.",
+"zh": "孤独的",
+"level": "a2"
+},
+{
+"word": "lebendig",
+"pos": "adj.",
+"zh": "活着的",
+"level": "a2"
+},
+{
+"word": "knapp",
+"pos": "adj.",
+"zh": "勉强的；紧凑",
+"level": "a2"
+},
+{
+"word": "ebenfalls",
+"pos": "adv.",
+"zh": "同样",
+"level": "a2"
+},
+{
+"word": "Artikel",
+"pos": "n.m.",
+"zh": "文章；冠词",
+"level": "a2"
+},
+{
+"word": "jederzeit",
+"pos": "adv.",
+"zh": "随时",
+"level": "a2"
+},
+{
+"word": "kompliziert",
+"pos": "adj.",
+"zh": "复杂的",
+"level": "a2"
+},
+{
+"word": "spüren",
+"pos": "v.",
+"zh": "感觉到",
+"level": "a2"
+},
+{
+"word": "Signal",
+"pos": "n.",
+"zh": "信号",
+"level": "a2"
+},
+{
+"word": "Stich",
+"pos": "n.m.",
+"zh": "刺",
+"level": "a2"
+},
+{
+"word": "probieren",
+"pos": "v.",
+"zh": "尝试",
+"level": "a2"
+},
+{
+"word": "wundervoll",
+"pos": "adj.",
+"zh": "美妙的",
+"level": "a2"
+},
+{
+"word": "Tanz",
+"pos": "n.m.",
+"zh": "舞蹈",
+"level": "a2"
+},
+{
+"word": "geöffnet",
+"pos": "adj.",
+"zh": "开放的",
+"level": "a2"
+},
+{
+"word": "begraben",
+"pos": "v.",
+"zh": "埋葬",
+"level": "a2"
+},
+{
+"word": "Prozent",
+"pos": "n.",
+"zh": "百分比",
+"level": "a2"
+},
+{
+"word": "stoppen",
+"pos": "v.",
+"zh": "停止",
+"level": "a2"
+},
+{
+"word": "riesen",
+"pos": "adj.",
+"zh": "巨大的（口语）",
+"level": "a2"
+},
+{
+"word": "Zugang",
+"pos": "n.m.",
+"zh": "进入；通道",
+"level": "a2"
+},
+{
+"word": "vorn",
+"pos": "adv.",
+"zh": "前面",
+"level": "a2"
+},
+{
+"word": "aufmachen",
+"pos": "v.",
+"zh": "打开",
+"level": "a2"
+},
+{
+"word": "sexy",
+"pos": "adj.",
+"zh": "性感的",
+"level": "a2"
+},
+{
+"word": "Erlaubnis",
+"pos": "n.f.",
+"zh": "许可",
+"level": "a2"
+},
+{
+"word": "Priester",
+"pos": "n.m.",
+"zh": "神父",
+"level": "a2"
+},
+{
+"word": "packen",
+"pos": "v.",
+"zh": "收拾；抓住",
+"level": "a2"
+},
+{
+"word": "dritte",
+"pos": "adj.",
+"zh": "第三的",
+"level": "a2"
+},
+{
+"word": "inzwischen",
+"pos": "adv.",
+"zh": "与此同时",
+"level": "a2"
+},
+{
+"word": "Presse",
+"pos": "n.f.",
+"zh": "新闻界",
+"level": "a2"
+},
+{
+"word": "klauen",
+"pos": "v.",
+"zh": "偷（口语）",
+"level": "a2"
+},
+{
+"word": "Geduld",
+"pos": "n.f.",
+"zh": "耐心",
+"level": "a2"
+},
+{
+"word": "Bühne",
+"pos": "n.f.",
+"zh": "舞台",
+"level": "a2"
+},
+{
+"word": "reparieren",
+"pos": "v.",
+"zh": "修理",
+"level": "a2"
+},
+{
+"word": "Gerechtigkeit",
+"pos": "n.f.",
+"zh": "正义",
+"level": "a2"
+},
+{
+"word": "selten",
+"pos": "adj.",
+"zh": "稀少的",
+"level": "a2"
+},
+{
+"word": "unterschreiben",
+"pos": "v.",
+"zh": "签字",
+"level": "a2"
+},
+{
+"word": "drücken",
+"pos": "v.",
+"zh": "按；压",
+"level": "a2"
+},
+{
+"word": "Lügner",
+"pos": "n.m.",
+"zh": "骗子",
+"level": "a2"
+},
+{
+"word": "Medizin",
+"pos": "n.f.",
+"zh": "医学；药",
+"level": "a2"
+},
+{
+"word": "Prozess",
+"pos": "n.m.",
+"zh": "过程；诉讼",
+"level": "a2"
+},
+{
+"word": "Motor",
+"pos": "n.m.",
+"zh": "发动机",
+"level": "a2"
+},
+{
+"word": "abhauen",
+"pos": "v.",
+"zh": "溜走（口语）",
+"level": "a2"
+},
+{
+"word": "Chaos",
+"pos": "n.",
+"zh": "混乱",
+"level": "a2"
+},
+{
+"word": "Schönheit",
+"pos": "n.f.",
+"zh": "美丽",
+"level": "a2"
+},
+{
+"word": "beinahe",
+"pos": "adv.",
+"zh": "几乎",
+"level": "a2"
+},
+{
+"word": "anhalten",
+"pos": "v.",
+"zh": "停止；使停下",
+"level": "a2"
+},
+{
+"word": "Hof",
+"pos": "n.m.",
+"zh": "庭院",
+"level": "a2"
+},
+{
+"word": "akzeptieren",
+"pos": "v.",
+"zh": "接受",
+"level": "a2"
+},
+{
+"word": "Norden",
+"pos": "n.m.",
+"zh": "北方",
+"level": "a2"
+},
+{
+"word": "anziehen",
+"pos": "v.",
+"zh": "穿上；吸引",
+"level": "a2"
+},
+{
+"word": "umgehen",
+"pos": "v.",
+"zh": "对待；绕过",
+"level": "a2"
+},
+{
+"word": "Bauch",
+"pos": "n.m.",
+"zh": "肚子",
+"level": "a2"
+},
+{
+"word": "gesamte",
+"pos": "adj.",
+"zh": "整个的",
+"level": "a2"
+},
+{
+"word": "ertragen",
+"pos": "v.",
+"zh": "忍受",
+"level": "a2"
+},
+{
+"word": "Kiste",
+"pos": "n.f.",
+"zh": "箱子",
+"level": "a2"
+},
+{
+"word": "brennen",
+"pos": "v.",
+"zh": "燃烧",
+"level": "a2"
+},
+{
+"word": "Deckung",
+"pos": "n.f.",
+"zh": "掩护",
+"level": "a2"
+},
+{
+"word": "landen",
+"pos": "v.",
+"zh": "着陆",
+"level": "a2"
+},
+{
+"word": "aufnehmen",
+"pos": "v.",
+"zh": "接收；录制",
+"level": "a2"
+},
+{
+"word": "Untersuchung",
+"pos": "n.f.",
+"zh": "调查",
+"level": "a2"
+},
+{
+"word": "Alarm",
+"pos": "n.m.",
+"zh": "警报",
+"level": "a2"
+},
+{
+"word": "extra",
+"pos": "adj.",
+"zh": "额外的",
+"level": "a2"
+},
+{
+"word": "entspannen",
+"pos": "v.",
+"zh": "放松",
+"level": "a2"
+},
+{
+"word": "Eindruck",
+"pos": "n.m.",
+"zh": "印象",
+"level": "a2"
+},
+{
+"word": "wehtun",
+"pos": "v.",
+"zh": "疼",
+"level": "a2"
+},
+{
+"word": "springen",
+"pos": "v.",
+"zh": "跳",
+"level": "a2"
+},
+{
+"word": "nackt",
+"pos": "adj.",
+"zh": "裸体的",
+"level": "a2"
+},
+{
+"word": "existieren",
+"pos": "v.",
+"zh": "存在",
+"level": "a2"
+},
+{
+"word": "befreien",
+"pos": "v.",
+"zh": "解放；释放",
+"level": "a2"
+},
+{
+"word": "Gerät",
+"pos": "n.",
+"zh": "设备",
+"level": "a2"
+},
+{
+"word": "zwingen",
+"pos": "v.",
+"zh": "强迫",
+"level": "a2"
+},
+{
+"word": "fliehen",
+"pos": "v.",
+"zh": "逃走",
+"level": "a2"
+},
+{
+"word": "Freundschaft",
+"pos": "n.f.",
+"zh": "友谊",
+"level": "a2"
+},
+{
+"word": "Papier",
+"pos": "n.",
+"zh": "纸；证件",
+"level": "a2"
+},
+{
+"word": "abschließen",
+"pos": "v.",
+"zh": "结束；上锁",
+"level": "a2"
+},
+{
+"word": "Schnauze",
+"pos": "n.f.",
+"zh": "嘴（粗俗）",
+"level": "a2"
+},
+{
+"word": "Beruf",
+"pos": "n.m.",
+"zh": "职业",
+"level": "a2"
+},
+{
+"word": "Gebiet",
+"pos": "n.",
+"zh": "地区；领域",
+"level": "a2"
+},
+{
+"word": "jedoch",
+"pos": "adv.",
+"zh": "然而",
+"level": "a2"
+},
+{
+"word": "beten",
+"pos": "v.",
+"zh": "祈祷",
+"level": "a2"
+},
+{
+"word": "verbinden",
+"pos": "v.",
+"zh": "连接",
+"level": "a2"
+},
+{
+"word": "Verräter",
+"pos": "n.m.",
+"zh": "叛徒",
+"level": "a2"
+},
+{
+"word": "Brust",
+"pos": "n.f.",
+"zh": "胸部",
+"level": "a2"
+},
+{
+"word": "bestellen",
+"pos": "v.",
+"zh": "订购",
+"level": "a2"
+},
+{
+"word": "wild",
+"pos": "adj.",
+"zh": "野生的",
+"level": "a2"
+},
+{
+"word": "angesehen",
+"pos": "adj.",
+"zh": "受尊敬的",
+"level": "a2"
+},
+{
+"word": "trennen",
+"pos": "v.",
+"zh": "分开",
+"level": "a2"
+},
+{
+"word": "Vorschlag",
+"pos": "n.m.",
+"zh": "建议",
+"level": "a2"
+},
+{
+"word": "Ton",
+"pos": "n.m.",
+"zh": "声音；色调",
+"level": "a2"
+},
+{
+"word": "ankommen",
+"pos": "v.",
+"zh": "到达",
+"level": "a2"
+},
+{
+"word": "beantworten",
+"pos": "v.",
+"zh": "回答",
+"level": "a2"
+}
+]

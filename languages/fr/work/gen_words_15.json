@@ -1,0 +1,602 @@
+[
+{
+"word": "glace",
+"pos": "n.f.",
+"zh": "冰；冰淇淋；镜子",
+"level": "a2"
+},
+{
+"word": "glacé",
+"pos": "adj.",
+"zh": "冰冷的；结冰的",
+"level": "a2"
+},
+{
+"word": "glaçon",
+"pos": "n.m.",
+"zh": "冰块",
+"level": "a2"
+},
+{
+"word": "glissant",
+"pos": "adj.",
+"zh": "滑的；湿滑的",
+"level": "a2"
+},
+{
+"word": "glisser",
+"pos": "v.",
+"zh": "滑动；滑落",
+"level": "a2"
+},
+{
+"word": "globe",
+"pos": "n.m.",
+"zh": "球体；地球",
+"level": "a2"
+},
+{
+"word": "golf",
+"pos": "n.m.",
+"zh": "高尔夫球",
+"level": "a2"
+},
+{
+"word": "gomme",
+"pos": "n.f.",
+"zh": "橡皮；树胶",
+"level": "a2"
+},
+{
+"word": "gorge",
+"pos": "n.",
+"zh": "喉咙；峡谷",
+"level": "a2"
+},
+{
+"word": "gorille",
+"pos": "n.m.",
+"zh": "大猩猩",
+"level": "a2"
+},
+{
+"word": "goutte",
+"pos": "n.f.",
+"zh": "滴；一滴",
+"level": "a2"
+},
+{
+"word": "goût",
+"pos": "n.m.",
+"zh": "味道；品味",
+"level": "a2"
+},
+{
+"word": "goûter",
+"pos": "v.",
+"zh": "品尝",
+"level": "a2"
+},
+{
+"word": "graine",
+"pos": "n.f.",
+"zh": "种子",
+"level": "a2"
+},
+{
+"word": "grandir",
+"pos": "v.",
+"zh": "长大；增高",
+"level": "a2"
+},
+{
+"word": "gras",
+"pos": "adj.",
+"zh": "肥的；油腻的",
+"level": "a2"
+},
+{
+"word": "gratter",
+"pos": "v.",
+"zh": "刮；抓",
+"level": "a2"
+},
+{
+"word": "gratuit",
+"pos": "adj.",
+"zh": "免费的",
+"level": "a2"
+},
+{
+"word": "grave",
+"pos": "adj.",
+"zh": "严重的；重大的",
+"level": "a2"
+},
+{
+"word": "grec",
+"pos": "adj.",
+"zh": "希腊的；希腊人",
+"level": "a2"
+},
+{
+"word": "grenouille",
+"pos": "n.f.",
+"zh": "青蛙",
+"level": "a2"
+},
+{
+"word": "grille-pain",
+"pos": "n.m.",
+"zh": "烤面包机",
+"level": "a2"
+},
+{
+"word": "griller",
+"pos": "v.",
+"zh": "烤；烧断（灯泡）",
+"level": "a2"
+},
+{
+"word": "grillé",
+"pos": "adj.",
+"zh": "烤的；烤焦的",
+"level": "a2"
+},
+{
+"word": "grimper",
+"pos": "v.",
+"zh": "攀爬",
+"level": "a2"
+},
+{
+"word": "grippe",
+"pos": "n.f.",
+"zh": "流感",
+"level": "a2"
+},
+{
+"word": "grossir",
+"pos": "v.",
+"zh": "变胖；增大",
+"level": "a2"
+},
+{
+"word": "groupe",
+"pos": "n.m.",
+"zh": "小组；群体",
+"level": "a2"
+},
+{
+"word": "guerre",
+"pos": "n.f.",
+"zh": "战争",
+"level": "a2"
+},
+{
+"word": "gueule",
+"pos": "n.f.",
+"zh": "（动物的）嘴；嘴脸（粗俗）",
+"level": "a2"
+},
+{
+"word": "guichet",
+"pos": "n.m.",
+"zh": "窗口；售票窗",
+"level": "a2"
+},
+{
+"word": "guide",
+"pos": "n.",
+"zh": "导游；指南",
+"level": "a2"
+},
+{
+"word": "guéri",
+"pos": "adj.",
+"zh": "痊愈的；治好的",
+"level": "a2"
+},
+{
+"word": "guérir",
+"pos": "v.",
+"zh": "治愈；痊愈",
+"level": "a2"
+},
+{
+"word": "guêpe",
+"pos": "n.f.",
+"zh": "黄蜂；马蜂",
+"level": "a2"
+},
+{
+"word": "gym",
+"pos": "n.f.",
+"zh": "体操；健身房",
+"level": "a2"
+},
+{
+"word": "gymnase",
+"pos": "n.m.",
+"zh": "体育馆；健身房",
+"level": "a2"
+},
+{
+"word": "gymnastique",
+"pos": "n.f.",
+"zh": "体操",
+"level": "a2"
+},
+{
+"word": "géant",
+"pos": "adj.",
+"zh": "巨大的；巨人",
+"level": "a2"
+},
+{
+"word": "génial",
+"pos": "adj.",
+"zh": "极好的；绝妙的",
+"level": "a2"
+},
+{
+"word": "génie",
+"pos": "n.m.",
+"zh": "天才；才华",
+"level": "a2"
+},
+{
+"word": "général",
+"pos": "n.m.",
+"zh": "将军；总的；一般的",
+"level": "a2"
+},
+{
+"word": "généralement",
+"pos": "adv.",
+"zh": "一般地；通常",
+"level": "a2"
+},
+{
+"word": "génération",
+"pos": "n.f.",
+"zh": "一代人；世代",
+"level": "a2"
+},
+{
+"word": "généreux",
+"pos": "adj.",
+"zh": "慷慨的；宽宏的",
+"level": "a2"
+},
+{
+"word": "géographie",
+"pos": "n.f.",
+"zh": "地理",
+"level": "a2"
+},
+{
+"word": "habiller",
+"pos": "v.",
+"zh": "穿衣；给……穿衣",
+"level": "a2"
+},
+{
+"word": "habillé",
+"pos": "adj.",
+"zh": "穿好衣服的；盛装的",
+"level": "a2"
+},
+{
+"word": "habitant",
+"pos": "n.m.",
+"zh": "居民",
+"level": "a2"
+},
+{
+"word": "habitude",
+"pos": "n.f.",
+"zh": "习惯",
+"level": "a2"
+},
+{
+"word": "habituellement",
+"pos": "adv.",
+"zh": "通常；惯常",
+"level": "a2"
+},
+{
+"word": "habituer",
+"pos": "v.",
+"zh": "使习惯",
+"level": "a2"
+},
+{
+"word": "hache",
+"pos": "n.f.",
+"zh": "斧头",
+"level": "a2"
+},
+{
+"word": "hall",
+"pos": "n.m.",
+"zh": "门厅；大厅",
+"level": "a2"
+},
+{
+"word": "halte",
+"pos": "interj.",
+"zh": "站住；停下（喝令）",
+"level": "a2"
+},
+{
+"word": "hamster",
+"pos": "n.m.",
+"zh": "仓鼠",
+"level": "a2"
+},
+{
+"word": "hanche",
+"pos": "n.f.",
+"zh": "髋部",
+"level": "a2"
+},
+{
+"word": "haricot",
+"pos": "n.m.",
+"zh": "菜豆；豆子",
+"level": "a2"
+},
+{
+"word": "haut",
+"pos": "n.m.",
+"zh": "高处；顶端",
+"level": "a2"
+},
+{
+"word": "hectare",
+"pos": "n.m.",
+"zh": "公顷",
+"level": "a2"
+},
+{
+"word": "hein",
+"pos": "interj.",
+"zh": "是吧；嗯？（口语）",
+"level": "a2"
+},
+{
+"word": "herbe",
+"pos": "n.f.",
+"zh": "草；草地",
+"level": "a2"
+},
+{
+"word": "heu",
+"pos": "interj.",
+"zh": "呃（迟疑声）",
+"level": "a2"
+},
+{
+"word": "heureusement",
+"pos": "adv.",
+"zh": "幸好；所幸",
+"level": "a2"
+},
+{
+"word": "heureux",
+"pos": "adj.",
+"zh": "幸福的；高兴的",
+"level": "a2"
+},
+{
+"word": "hibou",
+"pos": "n.m.",
+"zh": "猫头鹰",
+"level": "a2"
+},
+{
+"word": "hippopotame",
+"pos": "n.m.",
+"zh": "河马",
+"level": "a2"
+},
+{
+"word": "hobby",
+"pos": "n.m.",
+"zh": "业余爱好",
+"level": "a2"
+},
+{
+"word": "hollandais",
+"pos": "adj.",
+"zh": "荷兰的；荷兰人",
+"level": "a2"
+},
+{
+"word": "honnête",
+"pos": "adj.",
+"zh": "诚实的；正派的",
+"level": "a2"
+},
+{
+"word": "horaire",
+"pos": "n.m.",
+"zh": "时刻表；时间的",
+"level": "a2"
+},
+{
+"word": "horloge",
+"pos": "n.f.",
+"zh": "钟；挂钟",
+"level": "a2"
+},
+{
+"word": "horreur",
+"pos": "n.f.",
+"zh": "恐怖；憎恶",
+"level": "a2"
+},
+{
+"word": "horrible",
+"pos": "adj.",
+"zh": "可怕的；糟透的",
+"level": "a2"
+},
+{
+"word": "hors",
+"pos": "prép.",
+"zh": "在……之外",
+"level": "a2"
+},
+{
+"word": "hot dog",
+"pos": "n.m.",
+"zh": "热狗",
+"level": "a2"
+},
+{
+"word": "hot-dog",
+"pos": "n.m.",
+"zh": "热狗",
+"level": "a2"
+},
+{
+"word": "hum",
+"pos": "interj.",
+"zh": "嗯（迟疑声）",
+"level": "a2"
+},
+{
+"word": "humain",
+"pos": "adj.",
+"zh": "人类的；有人情味的",
+"level": "a2"
+},
+{
+"word": "humeur",
+"pos": "n.f.",
+"zh": "心情；情绪",
+"level": "a2"
+},
+{
+"word": "humide",
+"pos": "adj.",
+"zh": "潮湿的",
+"level": "a2"
+},
+{
+"word": "humour",
+"pos": "n.m.",
+"zh": "幽默",
+"level": "a2"
+},
+{
+"word": "hurler",
+"pos": "v.",
+"zh": "吼叫；喊叫",
+"level": "a2"
+},
+{
+"word": "hygiène",
+"pos": "n.f.",
+"zh": "卫生",
+"level": "a2"
+},
+{
+"word": "hélicoptère",
+"pos": "n.m.",
+"zh": "直升机",
+"level": "a2"
+},
+{
+"word": "hésiter",
+"pos": "v.",
+"zh": "犹豫",
+"level": "a2"
+},
+{
+"word": "hôtesse",
+"pos": "n.f.",
+"zh": "女乘务员；女主人",
+"level": "a2"
+},
+{
+"word": "identité",
+"pos": "n.f.",
+"zh": "身份；特性",
+"level": "a2"
+},
+{
+"word": "idiot",
+"pos": "n.m.",
+"zh": "白痴；傻瓜",
+"level": "a2"
+},
+{
+"word": "idéal",
+"pos": "adj.",
+"zh": "理想的",
+"level": "a2"
+},
+{
+"word": "image",
+"pos": "n.f.",
+"zh": "图像；形象",
+"level": "a2"
+},
+{
+"word": "imagination",
+"pos": "n.f.",
+"zh": "想象；想象力",
+"level": "a2"
+},
+{
+"word": "imaginer",
+"pos": "v.",
+"zh": "想象；设想",
+"level": "a2"
+},
+{
+"word": "imbécile",
+"pos": "n.",
+"zh": "蠢货；愚蠢的",
+"level": "a2"
+},
+{
+"word": "imiter",
+"pos": "v.",
+"zh": "模仿",
+"level": "a2"
+},
+{
+"word": "immense",
+"pos": "adj.",
+"zh": "巨大的；辽阔的",
+"level": "a2"
+},
+{
+"word": "immeuble",
+"pos": "n.m.",
+"zh": "楼房；大楼",
+"level": "a2"
+},
+{
+"word": "immobile",
+"pos": "adj.",
+"zh": "不动的；静止的",
+"level": "a2"
+},
+{
+"word": "immédiat",
+"pos": "adj.",
+"zh": "立即的；直接的",
+"level": "a2"
+},
+{
+"word": "immédiatement",
+"pos": "adv.",
+"zh": "立即；马上",
+"level": "a2"
+}
+]

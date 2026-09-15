@@ -1,0 +1,27 @@
+===== mod_book_name =====
+exitcode=0
+mod_book_name\Diag.cs(17,30): warning CS0649: 从未对字段“WcpBookName.Diag.Enabled”赋值，字段将一直保持其默认值 false
+BUILD OK
+DEPLOY SKIPPED (WCP_NO_DEPLOY=1)
+===== mod_jp_wordlist =====
+exitcode=0
+mod_jp_wordlist\JpWordListMod.cs(1142,37): warning CS0618: “UnityEngine.Object.FindObjectOfType<T>()”已过时:“Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType”
+mod_jp_wordlist\JpWordListMod.cs(1281,43): warning CS0618: “UnityEngine.Object.FindObjectsOfType<T>()”已过时:“Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.”
+mod_jp_wordlist\JpWordListMod.cs(1287,44): warning CS0618: “UnityEngine.Object.FindObjectsOfType<T>()”已过时:“Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.”
+BUILD OK
+DEPLOY SKIPPED (WCP_NO_DEPLOY=1)
+===== mod_sentence_audio =====
+exitcode=0
+'o' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'P_GAME_DIR' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+mod_sentence_audio\SentenceAudioMod.cs(384,51): warning CS0618: “UnityEngine.Object.FindObjectOfType(System.Type)”已过时:“Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType”
+mod_sentence_audio\SentenceAudioMod.cs(385,54): warning CS0618: “UnityEngine.Object.FindObjectOfType(System.Type)”已过时:“Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType”
+BUILD OK
+DEPLOYED to BepInEx\plugins
+===== mod_host =====
+exitcode=0
+BUILD OK
+DEPLOY SKIPPED (WCP_NO_DEPLOY=1)
+ALL DONE

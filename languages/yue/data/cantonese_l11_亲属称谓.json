@@ -1,0 +1,199 @@
+{
+  "level": "L11",
+  "name": "亲属称谓与人际社交",
+  "description": "涵盖广府传统及日常亲属称谓与人际称呼",
+  "words": [
+    {
+      "word": "老竇",
+      "jyutping": "lou5 dau6",
+      "pos": "名",
+      "meaning": "爸爸，父亲（口语称呼）",
+      "sentences": [
+        {
+          "sentence": "我老竇平時好鍾意飲早茶。（ngo5 lou5 dau6 ping4 si4 hou2 zung1 ji3 jam2 zou2 caa4.）",
+          "translate": "我爸爸平时很喜欢喝早茶。"
+        },
+        {
+          "sentence": "老竇教我要做個正直嘅人。（lou5 dau6 gaau3 ngo5 jiu3 zou6 go3 zing3 zik6 ge3 jan4.）",
+          "translate": "爸爸教导我要做个正直的人。"
+        }
+      ]
+    },
+    {
+      "word": "老母",
+      "jyutping": "lou5 mou5",
+      "pos": "名",
+      "meaning": "妈妈，母亲（日常口语称呼）",
+      "sentences": [
+        {
+          "sentence": "我老母煲嘅老火湯最好飲。（ngo5 lou5 mou5 bou1 ge3 lou5 fo2 tong1 zeoi3 hou2 jam2.）",
+          "translate": "我妈妈煲的老火靓汤最好喝。"
+        },
+        {
+          "sentence": "今日打電話返去問候老母。（gam1 jat6 daa2 din6 waa2 faan1 heoi3 man6 hau6 lou5 mou5.）",
+          "translate": "今天打电话回去问候妈妈。"
+        }
+      ]
+    },
+    {
+      "word": "阿爸",
+      "jyutping": "aa3 baa1",
+      "pos": "名",
+      "meaning": "爸爸",
+      "sentences": [
+        {
+          "sentence": "阿爸今晚煮幾味好餸。（aa3 baa1 gam1 maan5 zyu2 gei2 mei6 hou2 sung3.）",
+          "translate": "爸爸今晚做几样好菜。"
+        },
+        {
+          "sentence": "同阿爸一齊去散步。（tung4 aa3 baa1 jat1 cai4 heoi3 saan3 bou6.）",
+          "translate": "和爸爸一起去散步。"
+        }
+      ]
+    },
+    {
+      "word": "阿媽",
+      "jyutping": "aa3 maa1",
+      "pos": "名",
+      "meaning": "妈妈",
+      "sentences": [
+        {
+          "sentence": "阿媽成日叮囑我要早瞓。（aa3 maa1 seng4 jat6 ding1 zuk1 ngo5 jiu3 zou2 fan3.）",
+          "translate": "妈妈整天叮嘱我要早点睡觉。"
+        },
+        {
+          "sentence": "阿媽煮嘅飯最有家嘅味道。（aa3 maa1 zyu2 ge3 faan6 zeoi3 jau5 gaa1 ge3 mei6 dou6.）",
+          "translate": "妈妈做的饭最具有家的味道。"
+        }
+      ]
+    },
+    {
+      "word": "阿哥",
+      "jyutping": "aa3 go1",
+      "pos": "名",
+      "meaning": "哥哥",
+      "sentences": [
+        {
+          "sentence": "我阿哥讀大學電腦系。（ngo5 aa3 go1 duk6 daai6 hok6 din6 nou5 hai6.）",
+          "translate": "我哥哥在大学念计算机系。"
+        },
+        {
+          "sentence": "阿哥好照顧細佬妹。（aa3 go1 hou2 ziu3 gu3 sai3 lou6 mui2.）",
+          "translate": "哥哥很照顾弟弟妹妹。"
+        }
+      ]
+    },
+    {
+      "word": "阿嫂",
+      "jyutping": "aa3 sou2",
+      "pos": "名",
+      "meaning": "嫂子",
+      "sentences": [
+        {
+          "sentence": "阿嫂整嘅甜品好好食。（aa3 sou2 zing2 ge3 tim4 ban2 hou2 hou2 sik6.）",
+          "translate": "嫂子做的甜品非常好吃。"
+        },
+        {
+          "sentence": "阿哥同阿嫂感情好好。（aa3 go1 tung4 aa3 sou2 gam2 cing4 hou2 hou2.）",
+          "translate": "哥哥和嫂子感情非常好。"
+        }
+      ]
+    },
+    {
+      "word": "細佬",
+      "jyutping": "sai3 lou2",
+      "pos": "名",
+      "meaning": "弟弟",
+      "sentences": [
+        {
+          "sentence": "我細佬今年讀小學三年級。（ngo5 sai3 lou2 gam1 nin4 duk6 siu2 hok6 saam1 nin4 kap1.）",
+          "translate": "我弟弟今年上小学三年级。"
+        },
+        {
+          "sentence": "細佬好鍾意踢足球。（sai3 lou2 hou2 zung1 ji3 tek3 zuk1 kau4.）",
+          "translate": "弟弟很喜欢踢足球。"
+        }
+      ]
+    },
+    {
+      "word": "細妹",
+      "jyutping": "sai3 mui2",
+      "pos": "名",
+      "meaning": "妹妹",
+      "sentences": [
+        {
+          "sentence": "細妹彈鋼琴彈得好聽。（sai3 mui2 daan6 gong3 kam4 daan6 dak1 hou2 teng1.）",
+          "translate": "妹妹钢琴弹得很好听。"
+        },
+        {
+          "sentence": "細妹笑得好甜。（sai3 mui2 siu3 dak1 hou2 tim4.）",
+          "translate": "妹妹笑得很甜。"
+        }
+      ]
+    },
+    {
+      "word": "阿爺",
+      "jyutping": "aa3 je4",
+      "pos": "名",
+      "meaning": "爷爷，祖父",
+      "sentences": [
+        {
+          "sentence": "阿爺今年八十歲，身體仲好健康。（aa3 je4 gam1 nin4 baat3 sap6 seoi3, san1 tai2 zung6 hou2 gin6 hong1.）",
+          "translate": "爷爷今年八十岁，身体还很硬朗健康。"
+        },
+        {
+          "sentence": "阿爺每日早上去公園打太極。（aa3 je4 mui5 jat6 zou2 soeng6 heoi3 gung1 jyun2 daa2 taai3 gik6.）",
+          "translate": "爷爷每天早上去公园打太极拳。"
+        }
+      ]
+    },
+    {
+      "word": "阿嫲",
+      "jyutping": "aa3 maa4",
+      "pos": "名",
+      "meaning": "奶奶，祖母",
+      "sentences": [
+        {
+          "sentence": "阿嫲教我包粽。（aa3 maa4 gaau3 ngo5 baau1 zung2.）",
+          "translate": "奶奶教我包粽子。"
+        },
+        {
+          "sentence": "阿嫲好錫啲孫。（aa3 maa4 hou2 sek3 di1 syun1.）",
+          "translate": "奶奶非常疼爱孙辈。"
+        }
+      ]
+    },
+    {
+      "word": "阿公",
+      "jyutping": "aa3 gung1",
+      "pos": "名",
+      "meaning": "外公，姥爷",
+      "sentences": [
+        {
+          "sentence": "阿公以前係中學校長。（aa3 gung1 ji5 cin4 hai6 zung1 hok6 haau6 zoeng2.）",
+          "translate": "外公以前是中学校长。"
+        },
+        {
+          "sentence": "放假返鄉下探阿公。（fong3 gaa3 faan1 hoeng1 haa2 taam3 aa3 gung1.）",
+          "translate": "放假回老家探望外公。"
+        }
+      ]
+    },
+    {
+      "word": "婆婆",
+      "jyutping": "po4 po2",
+      "pos": "名",
+      "meaning": "外婆，姥姥；老奶奶",
+      "sentences": [
+        {
+          "sentence": "婆婆煮嘅餸好合我胃口。（po4 po2 zyu2 ge3 sung3 hou2 hap6 ngo5 wai6 hau2.）",
+          "translate": "外婆做的饭菜很对我的胃口。"
+        },
+        {
+          "sentence": "扶婆婆過馬路。（fu4 po4 po2 gwo3 maa5 lou6.）",
+          "translate": "搀扶老奶奶过马路。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+[
+{
+"word": "pur",
+"pos": "adj.",
+"zh": "纯的；纯净的",
+"level": "b1"
+},
+{
+"word": "purement",
+"pos": "adv.",
+"zh": "纯粹地；完全地",
+"level": "b1"
+},
+{
+"word": "purée",
+"pos": "n.f.",
+"zh": "菜泥；果泥",
+"level": "b1"
+},
+{
+"word": "putain",
+"pos": "n.f.",
+"zh": "该死（粗口）；妓女",
+"level": "b1"
+},
+{
+"word": "pute",
+"pos": "n.f.",
+"zh": "妓女（粗俗）",
+"level": "b1"
+},
+{
+"word": "puzzle",
+"pos": "n.m.",
+"zh": "拼图",
+"level": "b1"
+},
+{
+"word": "pyramide",
+"pos": "n.f.",
+"zh": "金字塔；棱锥",
+"level": "b1"
+},
+{
+"word": "pâle",
+"pos": "adj.",
+"zh": "苍白的；暗淡的",
+"level": "b1"
+},
+{
+"word": "pâte",
+"pos": "n.f.",
+"zh": "面团；糊状物",
+"level": "b1"
+},
+{
+"word": "pâtissier",
+"pos": "n.m.",
+"zh": "糕点师",
+"level": "b1"
+},
+{
+"word": "pâté",
+"pos": "n.m.",
+"zh": "肉酱；肉馅饼",
+"level": "b1"
+},
+{
+"word": "pécheur",
+"pos": "n.m.",
+"zh": "罪人",
+"level": "b1"
+},
+{
+"word": "péché",
+"pos": "n.m.",
+"zh": "罪孽；过失",
+"level": "b1"
+},
+{
+"word": "pédiatre",
+"pos": "n.",
+"zh": "儿科医生",
+"level": "b1"
+},
+{
+"word": "pénible",
+"pos": "adj.",
+"zh": "令人厌烦的；辛苦的",
+"level": "b1"
+},
+{
+"word": "pénis",
+"pos": "n.m.",
+"zh": "阴茎",
+"level": "b1"
+},
+{
+"word": "pénétrer",
+"pos": "v.",
+"zh": "渗入；进入",
+"level": "b1"
+},
+{
+"word": "pétale",
+"pos": "n.m.",
+"zh": "花瓣",
+"level": "b1"
+},
+{
+"word": "pétasse",
+"pos": "n.f.",
+"zh": "贱货（粗俗）",
+"level": "b1"
+},
+{
+"word": "péter",
+"pos": "v.",
+"zh": "放屁（粗俗）；爆裂",
+"level": "b1"
+},
+{
+"word": "pétition",
+"pos": "n.f.",
+"zh": "请愿书",
+"level": "b1"
+},
+{
+"word": "pétrole",
+"pos": "n.m.",
+"zh": "石油",
+"level": "b1"
+},
+{
+"word": "qualification",
+"pos": "n.f.",
+"zh": "资格；资历",
+"level": "b1"
+},
+{
+"word": "qualifier",
+"pos": "v.",
+"zh": "把……称作；定性为",
+"level": "b1"
+},
+{
+"word": "qualifié",
+"pos": "adj.",
+"zh": "合格的；有资质的",
+"level": "b1"
+},
+{
+"word": "quarantaine",
+"pos": "n.f.",
+"zh": "四十上下；隔离期",
+"level": "b1"
+},
+{
+"word": "quasi",
+"pos": "adv.",
+"zh": "几乎；近乎",
+"level": "b1"
+},
+{
+"word": "quasiment",
+"pos": "adv.",
+"zh": "几乎；差不多",
+"level": "b1"
+},
+{
+"word": "questionner",
+"pos": "v.",
+"zh": "提问；盘问",
+"level": "b1"
+},
+{
+"word": "quoique",
+"pos": "conj.",
+"zh": "尽管；虽然",
+"level": "b1"
+},
+{
+"word": "quotidien",
+"pos": "adj.",
+"zh": "每日的；日常的",
+"level": "b1"
+},
+{
+"word": "raccompagner",
+"pos": "v.",
+"zh": "送（某人）回去",
+"level": "b1"
+},
+{
+"word": "raccourcir",
+"pos": "v.",
+"zh": "弄短；缩短",
+"level": "b1"
+},
+{
+"word": "raccrocher",
+"pos": "v.",
+"zh": "挂断（电话）",
+"level": "b1"
+},
+{
+"word": "race",
+"pos": "n.f.",
+"zh": "种族；品种",
+"level": "b1"
+},
+{
+"word": "racheter",
+"pos": "v.",
+"zh": "收购；再买；赎回",
+"level": "b1"
+},
+{
+"word": "racial",
+"pos": "adj.",
+"zh": "种族的",
+"level": "b1"
+},
+{
+"word": "raciste",
+"pos": "adj.",
+"zh": "种族主义的；种族主义者",
+"level": "b1"
+},
+{
+"word": "radeau",
+"pos": "n.m.",
+"zh": "木筏；救生筏",
+"level": "b1"
+},
+{
+"word": "radical",
+"pos": "adj.",
+"zh": "激进的；彻底的；根本的",
+"level": "b1"
+},
+{
+"word": "radin",
+"pos": "adj.",
+"zh": "小气的；吝啬的（口语）",
+"level": "b1"
+},
+{
+"word": "raffoler",
+"pos": "v.",
+"zh": "酷爱；迷恋",
+"level": "b1"
+},
+{
+"word": "rage",
+"pos": "n.f.",
+"zh": "狂怒；狂犬病",
+"level": "b1"
+},
+{
+"word": "ragoût",
+"pos": "n.m.",
+"zh": "炖菜；焖肉",
+"level": "b1"
+},
+{
+"word": "raie",
+"pos": "n.f.",
+"zh": "条纹；分缝；鳐鱼",
+"level": "b1"
+},
+{
+"word": "raisonnable",
+"pos": "adj.",
+"zh": "合理的；明智的",
+"level": "b1"
+},
+{
+"word": "raisonnement",
+"pos": "n.m.",
+"zh": "推理；思路",
+"level": "b1"
+},
+{
+"word": "raisonner",
+"pos": "v.",
+"zh": "推理；思考",
+"level": "b1"
+},
+{
+"word": "rallumer",
+"pos": "v.",
+"zh": "重新点燃；重新打开",
+"level": "b1"
+},
+{
+"word": "ramper",
+"pos": "v.",
+"zh": "爬行；匍匐",
+"level": "b1"
+},
+{
+"word": "ranch",
+"pos": "n.m.",
+"zh": "牧场；大农场",
+"level": "b1"
+},
+{
+"word": "rap",
+"pos": "n.m.",
+"zh": "说唱音乐",
+"level": "b1"
+},
+{
+"word": "rapidité",
+"pos": "n.f.",
+"zh": "迅速；速度",
+"level": "b1"
+},
+{
+"word": "rappel",
+"pos": "n.m.",
+"zh": "提醒；召回；复习",
+"level": "b1"
+},
+{
+"word": "rapprocher",
+"pos": "v.",
+"zh": "使靠近；使亲近",
+"level": "b1"
+},
+{
+"word": "rassembler",
+"pos": "v.",
+"zh": "集合；聚集",
+"level": "b1"
+},
+{
+"word": "rassurant",
+"pos": "adj.",
+"zh": "令人安心的",
+"level": "b1"
+},
+{
+"word": "rassurer",
+"pos": "v.",
+"zh": "使安心",
+"level": "b1"
+},
+{
+"word": "raté",
+"pos": "n.m.",
+"zh": "失败者；失败（口语）",
+"level": "b1"
+},
+{
+"word": "rayon",
+"pos": "n.m.",
+"zh": "货架；光线；半径",
+"level": "b1"
+},
+{
+"word": "rayure",
+"pos": "n.f.",
+"zh": "条纹；划痕",
+"level": "b1"
+},
+{
+"word": "rebelle",
+"pos": "n.",
+"zh": "反抗者；叛逆者",
+"level": "b1"
+},
+{
+"word": "rebondir",
+"pos": "v.",
+"zh": "弹起；东山再起",
+"level": "b1"
+},
+{
+"word": "recherche",
+"pos": "n.f.",
+"zh": "研究；寻找",
+"level": "b1"
+},
+{
+"word": "recoller",
+"pos": "v.",
+"zh": "重新粘合",
+"level": "b1"
+},
+{
+"word": "recommandation",
+"pos": "n.f.",
+"zh": "建议；推荐",
+"level": "b1"
+},
+{
+"word": "reconnaissance",
+"pos": "n.f.",
+"zh": "感激；承认；侦察",
+"level": "b1"
+},
+{
+"word": "reconnaissant",
+"pos": "adj.",
+"zh": "感激的；感恩的",
+"level": "b1"
+},
+{
+"word": "reconnu",
+"pos": "adj.",
+"zh": "公认的；知名的",
+"level": "b1"
+},
+{
+"word": "reconstruire",
+"pos": "v.",
+"zh": "重建",
+"level": "b1"
+},
+{
+"word": "recopier",
+"pos": "v.",
+"zh": "抄写；誊抄",
+"level": "b1"
+},
+{
+"word": "recouvrir",
+"pos": "v.",
+"zh": "覆盖；重新覆盖",
+"level": "b1"
+},
+{
+"word": "recruter",
+"pos": "v.",
+"zh": "招募；招聘",
+"level": "b1"
+},
+{
+"word": "redescendre",
+"pos": "v.",
+"zh": "（重新）下去；降下",
+"level": "b1"
+},
+{
+"word": "redevenir",
+"pos": "v.",
+"zh": "重新变得",
+"level": "b1"
+},
+{
+"word": "redire",
+"pos": "v.",
+"zh": "反对意见；再说",
+"level": "b1"
+},
+{
+"word": "redresser",
+"pos": "v.",
+"zh": "纠正；扶正；整顿",
+"level": "b1"
+},
+{
+"word": "refrain",
+"pos": "n.m.",
+"zh": "副歌；老调子",
+"level": "b1"
+},
+{
+"word": "refroidir",
+"pos": "v.",
+"zh": "使冷却；使扫兴",
+"level": "b1"
+},
+{
+"word": "refuge",
+"pos": "n.m.",
+"zh": "避难所；藏身处",
+"level": "b1"
+},
+{
+"word": "refus",
+"pos": "n.m.",
+"zh": "拒绝",
+"level": "b1"
+},
+{
+"word": "regard",
+"pos": "n.m.",
+"zh": "目光；眼神",
+"level": "b1"
+},
+{
+"word": "registre",
+"pos": "n.m.",
+"zh": "登记簿；语域",
+"level": "b1"
+},
+{
+"word": "regret",
+"pos": "n.m.",
+"zh": "遗憾；后悔",
+"level": "b1"
+},
+{
+"word": "rejeter",
+"pos": "v.",
+"zh": "拒绝；扔回；排放",
+"level": "b1"
+},
+{
+"word": "rejoindre",
+"pos": "v.",
+"zh": "与…会合；加入",
+"level": "b1"
+},
+{
+"word": "relais",
+"pos": "n.m.",
+"zh": "接力；中继站",
+"level": "b1"
+},
+{
+"word": "relatif",
+"pos": "adj.",
+"zh": "相对的",
+"level": "b1"
+},
+{
+"word": "relation",
+"pos": "n.f.",
+"zh": "关系；联系",
+"level": "b1"
+},
+{
+"word": "relativement",
+"pos": "adv.",
+"zh": "相对地；比较而言",
+"level": "b1"
+},
+{
+"word": "relax",
+"pos": "adj.",
+"zh": "放松的（口语）",
+"level": "b1"
+},
+{
+"word": "relaxer",
+"pos": "v.",
+"zh": "使放松；放松",
+"level": "b1"
+},
+{
+"word": "relever",
+"pos": "v.",
+"zh": "扶起；记下",
+"level": "b1"
+},
+{
+"word": "relire",
+"pos": "v.",
+"zh": "重读；再读一遍",
+"level": "b1"
+},
+{
+"word": "relâcher",
+"pos": "v.",
+"zh": "释放；放松",
+"level": "b1"
+},
+{
+"word": "remarquable",
+"pos": "adj.",
+"zh": "出色的；非凡的",
+"level": "b1"
+},
+{
+"word": "remarque",
+"pos": "n.",
+"zh": "评语；意见",
+"level": "b1"
+},
+{
+"word": "remarquer",
+"pos": "v.",
+"zh": "注意到；察觉",
+"level": "b1"
+},
+{
+"word": "rembourser",
+"pos": "v.",
+"zh": "偿还；还清",
+"level": "b1"
+},
+{
+"word": "remerciement",
+"pos": "n.m.",
+"zh": "感谢；谢意",
+"level": "b1"
+}
+]

@@ -1,0 +1,602 @@
+[
+{
+"word": "multiple",
+"pos": "adj.",
+"zh": "多种的；多个的",
+"level": "b2"
+},
+{
+"word": "muse",
+"pos": "n.f.",
+"zh": "缪斯；灵感女神",
+"level": "b2"
+},
+{
+"word": "must",
+"pos": "n.m.",
+"zh": "必备之物（借词）",
+"level": "b2"
+},
+{
+"word": "mutant",
+"pos": "n.m.",
+"zh": "突变体；变种人",
+"level": "b2"
+},
+{
+"word": "mutation",
+"pos": "n.f.",
+"zh": "调动；突变",
+"level": "b2"
+},
+{
+"word": "muter",
+"pos": "v.",
+"zh": "调职；调动",
+"level": "b2"
+},
+{
+"word": "mutiler",
+"pos": "v.",
+"zh": "使残缺；致残",
+"level": "b2"
+},
+{
+"word": "mutilé",
+"pos": "adj.",
+"zh": "残废的；肢体残缺的",
+"level": "b2"
+},
+{
+"word": "mutinerie",
+"pos": "n.f.",
+"zh": "哗变；骚动",
+"level": "b2"
+},
+{
+"word": "mutuellement",
+"pos": "adv.",
+"zh": "相互地",
+"level": "b2"
+},
+{
+"word": "mystique",
+"pos": "adj.",
+"zh": "神秘的；神秘主义的",
+"level": "b2"
+},
+{
+"word": "mèche",
+"pos": "n.f.",
+"zh": "灯芯；一缕头发；钻头",
+"level": "b2"
+},
+{
+"word": "méchanceté",
+"pos": "n.f.",
+"zh": "恶毒；坏心眼",
+"level": "b2"
+},
+{
+"word": "médium",
+"pos": "n.m.",
+"zh": "灵媒；通灵者",
+"level": "b2"
+},
+{
+"word": "mélancolie",
+"pos": "n.f.",
+"zh": "忧郁；感伤",
+"level": "b2"
+},
+{
+"word": "mélancolique",
+"pos": "adj.",
+"zh": "忧郁的；感伤的",
+"level": "b2"
+},
+{
+"word": "mémo",
+"pos": "n.m.",
+"zh": "备忘录；便条",
+"level": "b2"
+},
+{
+"word": "mémorable",
+"pos": "adj.",
+"zh": "值得纪念的；难忘的",
+"level": "b2"
+},
+{
+"word": "ménager",
+"pos": "v.",
+"zh": "节省使用；小心对待",
+"level": "b2"
+},
+{
+"word": "méprendre",
+"pos": "v.",
+"zh": "弄错；误解",
+"level": "b2"
+},
+{
+"word": "mépris",
+"pos": "n.m.",
+"zh": "蔑视；轻蔑",
+"level": "b2"
+},
+{
+"word": "métaphore",
+"pos": "n.f.",
+"zh": "隐喻；比喻",
+"level": "b2"
+},
+{
+"word": "méticuleux",
+"pos": "adj.",
+"zh": "一丝不苟的",
+"level": "b2"
+},
+{
+"word": "météorite",
+"pos": "n.f.",
+"zh": "陨石",
+"level": "b2"
+},
+{
+"word": "naufrage",
+"pos": "n.m.",
+"zh": "海难；沉船",
+"level": "b2"
+},
+{
+"word": "nausée",
+"pos": "n.f.",
+"zh": "恶心；想吐",
+"level": "b2"
+},
+{
+"word": "naval",
+"pos": "adj.",
+"zh": "海军的",
+"level": "b2"
+},
+{
+"word": "navet",
+"pos": "n.m.",
+"zh": "芜菁；（电影）烂片",
+"level": "b2"
+},
+{
+"word": "navette",
+"pos": "n.f.",
+"zh": "班车；摆渡车",
+"level": "b2"
+},
+{
+"word": "navrer",
+"pos": "v.",
+"zh": "使悲痛；使难过",
+"level": "b2"
+},
+{
+"word": "navré",
+"pos": "adj.",
+"zh": "悲痛的；深感歉意的",
+"level": "b2"
+},
+{
+"word": "naze",
+"pos": "adj.",
+"zh": "很差的；糟透的（俚语）",
+"level": "b2"
+},
+{
+"word": "nectar",
+"pos": "n.m.",
+"zh": "花蜜；甘露",
+"level": "b2"
+},
+{
+"word": "neutraliser",
+"pos": "v.",
+"zh": "中和；瓦解；制服",
+"level": "b2"
+},
+{
+"word": "niche",
+"pos": "n.f.",
+"zh": "壁龛；狗窝；利基",
+"level": "b2"
+},
+{
+"word": "nichon",
+"pos": "n.m.",
+"zh": "乳房（粗俗口语）",
+"level": "b2"
+},
+{
+"word": "niquer",
+"pos": "v.",
+"zh": "与…性交（粗俗）",
+"level": "b2"
+},
+{
+"word": "noblesse",
+"pos": "n.f.",
+"zh": "贵族身份；高贵",
+"level": "b2"
+},
+{
+"word": "nocturne",
+"pos": "adj.",
+"zh": "夜间的；夜曲",
+"level": "b2"
+},
+{
+"word": "nombril",
+"pos": "n.m.",
+"zh": "肚脐",
+"level": "b2"
+},
+{
+"word": "nomination",
+"pos": "n.f.",
+"zh": "任命；提名",
+"level": "b2"
+},
+{
+"word": "nourrice",
+"pos": "n.f.",
+"zh": "奶妈；保姆",
+"level": "b2"
+},
+{
+"word": "noyé",
+"pos": "n.m.",
+"zh": "溺水者",
+"level": "b2"
+},
+{
+"word": "nudiste",
+"pos": "n.",
+"zh": "裸体主义者",
+"level": "b2"
+},
+{
+"word": "néant",
+"pos": "n.m.",
+"zh": "虚无；乌有",
+"level": "b2"
+},
+{
+"word": "nécessiter",
+"pos": "v.",
+"zh": "需要；使成为必要",
+"level": "b2"
+},
+{
+"word": "négligence",
+"pos": "n.f.",
+"zh": "疏忽；马虎",
+"level": "b2"
+},
+{
+"word": "négliger",
+"pos": "v.",
+"zh": "忽视；疏忽",
+"level": "b2"
+},
+{
+"word": "négociation",
+"pos": "n.f.",
+"zh": "谈判；协商",
+"level": "b2"
+},
+{
+"word": "négro",
+"pos": "n.m.",
+"zh": "对黑人的蔑称（侮辱语）",
+"level": "b2"
+},
+{
+"word": "obscène",
+"pos": "adj.",
+"zh": "淫秽的；下流的",
+"level": "b2"
+},
+{
+"word": "obstiner",
+"pos": "v.",
+"zh": "固执；坚持到底",
+"level": "b2"
+},
+{
+"word": "obséder",
+"pos": "v.",
+"zh": "使痴迷；纠缠",
+"level": "b2"
+},
+{
+"word": "obsédé",
+"pos": "n.m.",
+"zh": "痴迷者；色迷（口语）",
+"level": "b2"
+},
+{
+"word": "obus",
+"pos": "n.m.",
+"zh": "炮弹",
+"level": "b2"
+},
+{
+"word": "occulte",
+"pos": "adj.",
+"zh": "神秘的；隐秘的",
+"level": "b2"
+},
+{
+"word": "occupant",
+"pos": "n.m.",
+"zh": "占用者；占领者",
+"level": "b2"
+},
+{
+"word": "occupation",
+"pos": "n.f.",
+"zh": "占领；占用；职业",
+"level": "b2"
+},
+{
+"word": "oculaire",
+"pos": "adj.",
+"zh": "眼的；视觉的",
+"level": "b2"
+},
+{
+"word": "odieux",
+"pos": "adj.",
+"zh": "可憎的；恶劣的",
+"level": "b2"
+},
+{
+"word": "oeuvrer",
+"pos": "v.",
+"zh": "致力于；效力",
+"level": "b2"
+},
+{
+"word": "off",
+"pos": "adj.",
+"zh": "画外的；镜头外的",
+"level": "b2"
+},
+{
+"word": "offense",
+"pos": "n.f.",
+"zh": "冒犯；侮辱",
+"level": "b2"
+},
+{
+"word": "offenser",
+"pos": "v.",
+"zh": "冒犯；触怒",
+"level": "b2"
+},
+{
+"word": "offensé",
+"pos": "adj.",
+"zh": "被冒犯的；被侮辱的",
+"level": "b2"
+},
+{
+"word": "office",
+"pos": "n.",
+"zh": "办事处；职责",
+"level": "b2"
+},
+{
+"word": "offrande",
+"pos": "n.f.",
+"zh": "供品；祭品",
+"level": "b2"
+},
+{
+"word": "ogre",
+"pos": "n.m.",
+"zh": "食人魔（童话）",
+"level": "b2"
+},
+{
+"word": "omettre",
+"pos": "v.",
+"zh": "省略；遗漏",
+"level": "b2"
+},
+{
+"word": "once",
+"pos": "n.f.",
+"zh": "盎司",
+"level": "b2"
+},
+{
+"word": "onde",
+"pos": "n.f.",
+"zh": "波；水波",
+"level": "b2"
+},
+{
+"word": "opium",
+"pos": "n.m.",
+"zh": "鸦片",
+"level": "b2"
+},
+{
+"word": "opposer",
+"pos": "v.",
+"zh": "使对立；反对",
+"level": "b2"
+},
+{
+"word": "oppression",
+"pos": "n.f.",
+"zh": "压迫；压制",
+"level": "b2"
+},
+{
+"word": "opérateur",
+"pos": "n.m.",
+"zh": "操作员；运营商",
+"level": "b2"
+},
+{
+"word": "opérationnel",
+"pos": "adj.",
+"zh": "可运转的；行之有效的",
+"level": "b2"
+},
+{
+"word": "oracle",
+"pos": "n.m.",
+"zh": "神谕；权威人士",
+"level": "b2"
+},
+{
+"word": "orbite",
+"pos": "n.f.",
+"zh": "轨道；眼眶",
+"level": "b2"
+},
+{
+"word": "orchestrer",
+"pos": "v.",
+"zh": "编管弦乐；精心策划",
+"level": "b2"
+},
+{
+"word": "ordonnance",
+"pos": "n.",
+"zh": "处方；法令",
+"level": "b2"
+},
+{
+"word": "organique",
+"pos": "adj.",
+"zh": "器官的；有机的",
+"level": "b2"
+},
+{
+"word": "organisme",
+"pos": "n.m.",
+"zh": "机构；有机体",
+"level": "b2"
+},
+{
+"word": "orgasme",
+"pos": "n.m.",
+"zh": "性高潮",
+"level": "b2"
+},
+{
+"word": "orgie",
+"pos": "n.f.",
+"zh": "纵欲；狂欢",
+"level": "b2"
+},
+{
+"word": "orner",
+"pos": "v.",
+"zh": "装饰",
+"level": "b2"
+},
+{
+"word": "oublié",
+"pos": "adj.",
+"zh": "被遗忘的",
+"level": "b2"
+},
+{
+"word": "ouf",
+"pos": "interj.",
+"zh": "呼！（如释重负）",
+"level": "b2"
+},
+{
+"word": "outrage",
+"pos": "n.m.",
+"zh": "侮辱；亵渎",
+"level": "b2"
+},
+{
+"word": "outrager",
+"pos": "v.",
+"zh": "侮辱；亵渎",
+"level": "b2"
+},
+{
+"word": "outre",
+"pos": "n.f.",
+"zh": "在……之外；此外；皮囊",
+"level": "b2"
+},
+{
+"word": "ouvertement",
+"pos": "adv.",
+"zh": "公开地；直率地",
+"level": "b2"
+},
+{
+"word": "ouïe",
+"pos": "n.f.",
+"zh": "听觉",
+"level": "b2"
+},
+{
+"word": "overdose",
+"pos": "n.f.",
+"zh": "（药物）过量",
+"level": "b2"
+},
+{
+"word": "pacha",
+"pos": "n.m.",
+"zh": "帕夏（奥斯曼官职）",
+"level": "b2"
+},
+{
+"word": "pacificateur",
+"pos": "n.m.",
+"zh": "调解人；安抚者",
+"level": "b2"
+},
+{
+"word": "pagaille",
+"pos": "n.f.",
+"zh": "乱七八糟；混乱",
+"level": "b2"
+},
+{
+"word": "palier",
+"pos": "n.m.",
+"zh": "楼梯平台；阶段",
+"level": "b2"
+},
+{
+"word": "pansement",
+"pos": "n.m.",
+"zh": "敷料；绷带",
+"level": "b2"
+},
+{
+"word": "pantin",
+"pos": "n.m.",
+"zh": "木偶；傀儡",
+"level": "b2"
+},
+{
+"word": "paperasse",
+"pos": "n.f.",
+"zh": "繁琐文书（口语）",
+"level": "b2"
+}
+]

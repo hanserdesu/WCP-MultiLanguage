@@ -1,0 +1,602 @@
+[
+{
+"word": "principe",
+"pos": "n.m.",
+"zh": "原则；原理",
+"level": "b1"
+},
+{
+"word": "prioritaire",
+"pos": "adj.",
+"zh": "优先的",
+"level": "b1"
+},
+{
+"word": "priorité",
+"pos": "n.f.",
+"zh": "优先；优先权",
+"level": "b1"
+},
+{
+"word": "pris",
+"pos": "adj.",
+"zh": "被占用的；有约在身的",
+"level": "b1"
+},
+{
+"word": "prise",
+"pos": "n.f.",
+"zh": "插座；抓握；拍摄",
+"level": "b1"
+},
+{
+"word": "priver",
+"pos": "v.",
+"zh": "剥夺；使丧失",
+"level": "b1"
+},
+{
+"word": "privilège",
+"pos": "n.m.",
+"zh": "特权；荣幸",
+"level": "b1"
+},
+{
+"word": "prière",
+"pos": "n.f.",
+"zh": "祈祷；恳求",
+"level": "b1"
+},
+{
+"word": "pro",
+"pos": "n.",
+"zh": "行家；专业人员",
+"level": "b1"
+},
+{
+"word": "probabilité",
+"pos": "n.f.",
+"zh": "可能性；概率",
+"level": "b1"
+},
+{
+"word": "processus",
+"pos": "n.m.",
+"zh": "过程；进程",
+"level": "b1"
+},
+{
+"word": "procureur",
+"pos": "n.m.",
+"zh": "检察官",
+"level": "b1"
+},
+{
+"word": "procès",
+"pos": "n.m.",
+"zh": "诉讼；审判",
+"level": "b1"
+},
+{
+"word": "procéder",
+"pos": "v.",
+"zh": "进行；着手",
+"level": "b1"
+},
+{
+"word": "producteur",
+"pos": "n.m.",
+"zh": "制作人；生产者",
+"level": "b1"
+},
+{
+"word": "production",
+"pos": "n.f.",
+"zh": "生产；制作",
+"level": "b1"
+},
+{
+"word": "produire",
+"pos": "v.",
+"zh": "生产；制造；产生",
+"level": "b1"
+},
+{
+"word": "profession",
+"pos": "n.f.",
+"zh": "职业",
+"level": "b1"
+},
+{
+"word": "profil",
+"pos": "n.m.",
+"zh": "侧面；轮廓；简介",
+"level": "b1"
+},
+{
+"word": "profit",
+"pos": "n.m.",
+"zh": "利润；好处",
+"level": "b1"
+},
+{
+"word": "profiter",
+"pos": "v.",
+"zh": "利用；受益；享受",
+"level": "b1"
+},
+{
+"word": "profondeur",
+"pos": "n.f.",
+"zh": "深度；深处",
+"level": "b1"
+},
+{
+"word": "profondément",
+"pos": "adv.",
+"zh": "深深地",
+"level": "b1"
+},
+{
+"word": "programmer",
+"pos": "v.",
+"zh": "编程；设定",
+"level": "b1"
+},
+{
+"word": "progresser",
+"pos": "v.",
+"zh": "进步；进展",
+"level": "b1"
+},
+{
+"word": "proie",
+"pos": "n.f.",
+"zh": "猎物；受害者",
+"level": "b1"
+},
+{
+"word": "projecteur",
+"pos": "n.m.",
+"zh": "聚光灯；投影仪",
+"level": "b1"
+},
+{
+"word": "projection",
+"pos": "n.f.",
+"zh": "放映；投射",
+"level": "b1"
+},
+{
+"word": "projeter",
+"pos": "v.",
+"zh": "投掷；投射；打算",
+"level": "b1"
+},
+{
+"word": "prolonger",
+"pos": "v.",
+"zh": "延长",
+"level": "b1"
+},
+{
+"word": "prometteur",
+"pos": "adj.",
+"zh": "有前途的；有希望的",
+"level": "b1"
+},
+{
+"word": "promo",
+"pos": "n.f.",
+"zh": "促销；特价",
+"level": "b1"
+},
+{
+"word": "promotion",
+"pos": "n.f.",
+"zh": "促销；晋升",
+"level": "b1"
+},
+{
+"word": "promouvoir",
+"pos": "v.",
+"zh": "推广；促进；提升",
+"level": "b1"
+},
+{
+"word": "prononcer",
+"pos": "v.",
+"zh": "发音；宣布",
+"level": "b1"
+},
+{
+"word": "propagande",
+"pos": "n.f.",
+"zh": "宣传",
+"level": "b1"
+},
+{
+"word": "prophète",
+"pos": "n.m.",
+"zh": "先知",
+"level": "b1"
+},
+{
+"word": "proportion",
+"pos": "n.f.",
+"zh": "比例；部分",
+"level": "b1"
+},
+{
+"word": "propos",
+"pos": "n.m.",
+"zh": "话题；话语",
+"level": "b1"
+},
+{
+"word": "proposition",
+"pos": "n.f.",
+"zh": "建议；提议",
+"level": "b1"
+},
+{
+"word": "proprio",
+"pos": "n.m.",
+"zh": "房东；业主（口语）",
+"level": "b1"
+},
+{
+"word": "propriété",
+"pos": "n.f.",
+"zh": "财产；所有权；性质",
+"level": "b1"
+},
+{
+"word": "prostitué",
+"pos": "n.m.",
+"zh": "卖淫者；妓女",
+"level": "b1"
+},
+{
+"word": "protecteur",
+"pos": "adj.",
+"zh": "保护的；保护者",
+"level": "b1"
+},
+{
+"word": "protestant",
+"pos": "adj.",
+"zh": "新教的；新教徒",
+"level": "b1"
+},
+{
+"word": "protestation",
+"pos": "n.f.",
+"zh": "抗议",
+"level": "b1"
+},
+{
+"word": "protester",
+"pos": "v.",
+"zh": "抗议；反对",
+"level": "b1"
+},
+{
+"word": "protocole",
+"pos": "n.m.",
+"zh": "协议；规程；礼仪",
+"level": "b1"
+},
+{
+"word": "prototype",
+"pos": "n.m.",
+"zh": "原型；样机",
+"level": "b1"
+},
+{
+"word": "protéine",
+"pos": "n.f.",
+"zh": "蛋白质",
+"level": "b1"
+},
+{
+"word": "prouver",
+"pos": "v.",
+"zh": "证明；证实",
+"level": "b1"
+},
+{
+"word": "provenance",
+"pos": "n.f.",
+"zh": "来源；产地",
+"level": "b1"
+},
+{
+"word": "provenir",
+"pos": "v.",
+"zh": "来自；源于",
+"level": "b1"
+},
+{
+"word": "proverbe",
+"pos": "n.m.",
+"zh": "谚语；格言",
+"level": "b1"
+},
+{
+"word": "province",
+"pos": "n.f.",
+"zh": "外省；省份",
+"level": "b1"
+},
+{
+"word": "provision",
+"pos": "n.f.",
+"zh": "储备；储存",
+"level": "b1"
+},
+{
+"word": "provisoire",
+"pos": "adj.",
+"zh": "暂时的；临时的",
+"level": "b1"
+},
+{
+"word": "provocation",
+"pos": "n.f.",
+"zh": "挑衅；刺激",
+"level": "b1"
+},
+{
+"word": "provoquer",
+"pos": "v.",
+"zh": "引起；挑衅",
+"level": "b1"
+},
+{
+"word": "prudence",
+"pos": "n.f.",
+"zh": "谨慎；小心",
+"level": "b1"
+},
+{
+"word": "précaution",
+"pos": "n.f.",
+"zh": "谨慎；预防措施",
+"level": "b1"
+},
+{
+"word": "précieux",
+"pos": "adj.",
+"zh": "珍贵的；宝贵的",
+"level": "b1"
+},
+{
+"word": "préciser",
+"pos": "v.",
+"zh": "明确说明；具体指出",
+"level": "b1"
+},
+{
+"word": "précisément",
+"pos": "adv.",
+"zh": "确切地；正是",
+"level": "b1"
+},
+{
+"word": "précédemment",
+"pos": "adv.",
+"zh": "此前；先前",
+"level": "b1"
+},
+{
+"word": "précédent",
+"pos": "adj.",
+"zh": "先前的；以前的",
+"level": "b1"
+},
+{
+"word": "précéder",
+"pos": "v.",
+"zh": "先于；走在前面",
+"level": "b1"
+},
+{
+"word": "prédire",
+"pos": "v.",
+"zh": "预言；预测",
+"level": "b1"
+},
+{
+"word": "préfecture",
+"pos": "n.f.",
+"zh": "省政府；警察总局",
+"level": "b1"
+},
+{
+"word": "préfet",
+"pos": "n.m.",
+"zh": "省长；警察局长",
+"level": "b1"
+},
+{
+"word": "préférable",
+"pos": "adj.",
+"zh": "更可取的；更好的",
+"level": "b1"
+},
+{
+"word": "préférence",
+"pos": "n.f.",
+"zh": "偏爱；优先",
+"level": "b1"
+},
+{
+"word": "préliminaire",
+"pos": "adj.",
+"zh": "预备的；初步的",
+"level": "b1"
+},
+{
+"word": "préoccupation",
+"pos": "n.f.",
+"zh": "担忧；心事",
+"level": "b1"
+},
+{
+"word": "présentable",
+"pos": "adj.",
+"zh": "体面的；像样的",
+"level": "b1"
+},
+{
+"word": "présentateur",
+"pos": "n.m.",
+"zh": "主持人；播音员",
+"level": "b1"
+},
+{
+"word": "présentation",
+"pos": "n.f.",
+"zh": "介绍；引见；演示",
+"level": "b1"
+},
+{
+"word": "préservatif",
+"pos": "n.m.",
+"zh": "避孕套",
+"level": "b1"
+},
+{
+"word": "préserver",
+"pos": "v.",
+"zh": "保护；保存",
+"level": "b1"
+},
+{
+"word": "présidence",
+"pos": "n.f.",
+"zh": "主席职位；主席团",
+"level": "b1"
+},
+{
+"word": "présidentiel",
+"pos": "adj.",
+"zh": "总统的",
+"level": "b1"
+},
+{
+"word": "prétexte",
+"pos": "n.m.",
+"zh": "借口",
+"level": "b1"
+},
+{
+"word": "prévisible",
+"pos": "adj.",
+"zh": "可预见的；意料之中的",
+"level": "b1"
+},
+{
+"word": "prévision",
+"pos": "n.f.",
+"zh": "预报；预料",
+"level": "b1"
+},
+{
+"word": "prévoir",
+"pos": "v.",
+"zh": "预见；安排",
+"level": "b1"
+},
+{
+"word": "prêtre",
+"pos": "n.m.",
+"zh": "神父；教士",
+"level": "b1"
+},
+{
+"word": "psy",
+"pos": "n.",
+"zh": "心理医生（口语）",
+"level": "b1"
+},
+{
+"word": "psychiatre",
+"pos": "n.",
+"zh": "精神科医生",
+"level": "b1"
+},
+{
+"word": "psychologie",
+"pos": "n.f.",
+"zh": "心理学；心理",
+"level": "b1"
+},
+{
+"word": "psychologique",
+"pos": "adj.",
+"zh": "心理的",
+"level": "b1"
+},
+{
+"word": "psychologue",
+"pos": "n.",
+"zh": "心理医生；心理学家",
+"level": "b1"
+},
+{
+"word": "publicitaire",
+"pos": "adj.",
+"zh": "广告的",
+"level": "b1"
+},
+{
+"word": "publier",
+"pos": "v.",
+"zh": "出版；发表",
+"level": "b1"
+},
+{
+"word": "publiquement",
+"pos": "adv.",
+"zh": "公开地；当众",
+"level": "b1"
+},
+{
+"word": "puce",
+"pos": "n.f.",
+"zh": "跳蚤；芯片",
+"level": "b1"
+},
+{
+"word": "puer",
+"pos": "v.",
+"zh": "发臭",
+"level": "b1"
+},
+{
+"word": "puissance",
+"pos": "n.f.",
+"zh": "力量；权力；功率",
+"level": "b1"
+},
+{
+"word": "pulvériser",
+"pos": "v.",
+"zh": "粉碎；喷洒",
+"level": "b1"
+},
+{
+"word": "punaise",
+"pos": "n.f.",
+"zh": "图钉；臭虫",
+"level": "b1"
+},
+{
+"word": "punk",
+"pos": "n.",
+"zh": "朋克",
+"level": "b1"
+}
+]

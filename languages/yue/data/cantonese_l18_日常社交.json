@@ -1,0 +1,103 @@
+{
+  "level": "L18",
+  "name": "日常社交礼貌与应答应候",
+  "description": "涵盖广府社交礼貌常用客套语与日常问候回应",
+  "words": [
+    {
+      "word": "唔該",
+      "jyutping": "m4 goi1",
+      "pos": "叹/副",
+      "meaning": "劳驾，麻烦，谢谢（用于请托人或接受轻微帮助）",
+      "sentences": [
+        {
+          "sentence": "唔該借借。（m4 goi1 ze3 ze3.）",
+          "translate": "劳驾借过借过。"
+        },
+        {
+          "sentence": "唔該畀杯熱水我。（m4 goi1 bei2 bui1 jit6 seoi2 ngo5.）",
+          "translate": "麻烦给我一杯热水，谢谢。"
+        }
+      ]
+    },
+    {
+      "word": "多謝",
+      "jyutping": "do1 ze6",
+      "pos": "动/叹",
+      "meaning": "多谢，感谢（用于接收礼物、款待或厚意）",
+      "sentences": [
+        {
+          "sentence": "多謝你嘅禮物！（do1 ze6 nei5 ge3 lai5 mat6!）",
+          "translate": "多谢你的精美礼物！"
+        },
+        {
+          "sentence": "多謝大家嘅支持同厚愛。（do1 ze6 daai6 gaa1 ge3 zi1 ci4 tung4 hau5 oi3.）",
+          "translate": "非常感谢大家的支持与厚爱。"
+        }
+      ]
+    },
+    {
+      "word": "唔好意思",
+      "jyutping": "m4 hou2 ji3 si3",
+      "pos": "短语",
+      "meaning": "不好意思，抱歉，打扰一下",
+      "sentences": [
+        {
+          "sentence": "唔好意思，我遲到咗。（m4 hou2 ji3 si3, ngo5 ci4 dou3 zo2.）",
+          "translate": "不好意思，我迟到了。"
+        },
+        {
+          "sentence": "唔好意思，請問地鐵站喺邊度？（m4 hou2 ji3 si3, cing2 man6 dei6 tit3 zaam6 hai2 bin1 dou6?）",
+          "translate": "不好意思打扰一下，请问地铁站在哪里？"
+        }
+      ]
+    },
+    {
+      "word": "唔緊要",
+      "jyutping": "m4 gan2 jiu3",
+      "pos": "短语",
+      "meaning": "没关系，不打紧，不要紧",
+      "sentences": [
+        {
+          "sentence": "唔緊要啦，小事一樁。（m4 gan2 jiu3 laa1, siu2 si6 jat1 zong1.）",
+          "translate": "没关系啦，小事一桩。"
+        },
+        {
+          "sentence": "跌咗就算，最緊要人冇事，唔緊要。（dit3 zo2 zau6 syun3, zeoi3 gan2 jiu3 jan4 mou5 si6, m4 gan2 jiu3.）",
+          "translate": "掉了就算了，最重要人没事，不要紧。"
+        }
+      ]
+    },
+    {
+      "word": "拜拜",
+      "jyutping": "baai1 baai3",
+      "pos": "叹",
+      "meaning": "再见，拜拜",
+      "sentences": [
+        {
+          "sentence": "聽日見啦，拜拜！（ting1 jat6 gin3 laa1, baai1 baai3!）",
+          "translate": "明天见啦，拜拜！"
+        },
+        {
+          "sentence": "大家拜拜，路上小心！（daai6 gaa1 baai1 baai3, lou6 soeng6 siu2 sam1!）",
+          "translate": "大家再见，路上当心！"
+        }
+      ]
+    },
+    {
+      "word": "慢慢行",
+      "jyutping": "maan6 maan6 haang4",
+      "pos": "短语",
+      "meaning": "慢走（送客礼貌用语）",
+      "sentences": [
+        {
+          "sentence": "食飽喇？慢慢行啦，得閒再嚟坐。（sik6 baau2 laa3? maan6 maan6 haang4 laa1, dak1 haan4 zoi3 lai4 co5.）",
+          "translate": "吃饱啦？慢走啊，有空常来坐。"
+        },
+        {
+          "sentence": "夜深路黑，慢慢行小心睇路。（je6 sam1 lou6 hak1, maan6 maan6 haang4 siu2 sam1 tai2 lou6.）",
+          "translate": "夜深天黑，慢走小心看路。"
+        }
+      ]
+    }
+  ]
+}

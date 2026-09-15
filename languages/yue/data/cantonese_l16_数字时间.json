@@ -1,0 +1,135 @@
+{
+  "level": "L16",
+  "name": "数字时间度量与高频连词",
+  "description": "涵盖大数表述、常用时间节点及因果转折等核心连接词",
+  "words": [
+    {
+      "word": "同埋",
+      "jyutping": "tung4 maai4",
+      "pos": "连",
+      "meaning": "和，以及，还有",
+      "sentences": [
+        {
+          "sentence": "我同埋佢一齊去。（ngo5 tung4 maai4 keoi5 jat1 cai4 heoi3.）",
+          "translate": "我和他一起去。"
+        },
+        {
+          "sentence": "買咗麵包同埋牛奶。（maai5 zo2 min6 baau1 tung4 maai4 ngau4 naai5.）",
+          "translate": "买了面包和牛奶。"
+        }
+      ]
+    },
+    {
+      "word": "但係",
+      "jyutping": "daan6 hai6",
+      "pos": "连",
+      "meaning": "但是，可是，不过",
+      "sentences": [
+        {
+          "sentence": "雖然好貴，但係物有所值。（seoi1 jin4 hou2 gwai3, daan6 hai6 mat6 jau5 so2 zik6.）",
+          "translate": "虽然很贵，但是物有所值。"
+        },
+        {
+          "sentence": "佢想去，但係冇時間。（keoi5 soeng2 heoi3, daan6 hai6 mou5 si4 gaan3.）",
+          "translate": "他想去，可是没有时间。"
+        }
+      ]
+    },
+    {
+      "word": "因為",
+      "jyutping": "jan1 wai6",
+      "pos": "连",
+      "meaning": "因为",
+      "sentences": [
+        {
+          "sentence": "因為落雨，所以取消咗活動。（jan1 wai6 lok6 jyu5, so2 ji5 ceoi2 siu1 zo2 wut6 dung6.）",
+          "translate": "因为下雨，所以取消了户外活动。"
+        },
+        {
+          "sentence": "佢因為努力而成功。（keoi5 jan1 wai6 nou5 lik6 ji4 sing4 gung1.）",
+          "translate": "他因为刻苦努力而获得成功。"
+        }
+      ]
+    },
+    {
+      "word": "所以",
+      "jyutping": "so2 ji5",
+      "pos": "连",
+      "meaning": "所以，因此",
+      "sentences": [
+        {
+          "sentence": "今日放假，所以唔使返工。（gam1 jat6 fong3 gaa3, so2 ji5 m4 sai2 faan1 gung1.）",
+          "translate": "今天放假，所以不用上班。"
+        },
+        {
+          "sentence": "佢好勤力，所以成績好。（keoi5 hou2 kan4 lik6, so2 ji5 sing4 zik1 hou2.）",
+          "translate": "他很勤奋，因此成绩优异。"
+        }
+      ]
+    },
+    {
+      "word": "如果",
+      "jyutping": "jyu4 gwo2",
+      "pos": "连",
+      "meaning": "如果，假如",
+      "sentences": [
+        {
+          "sentence": "如果得閒就過嚟坐下。（jyu4 gwo2 dak1 haan4 zau6 gwo3 lai4 co5 haa5.）",
+          "translate": "如果有空就过来坐坐。"
+        },
+        {
+          "sentence": "如果有問題隨時問我。（jyu4 gwo2 jau5 man6 tai4 ceoi4 si4 man6 ngo5.）",
+          "translate": "如果有什么问题随时问我。"
+        }
+      ]
+    },
+    {
+      "word": "其實",
+      "jyutping": "kei4 sat6",
+      "pos": "副",
+      "meaning": "其实，实际上",
+      "sentences": [
+        {
+          "sentence": "其實佢個人心地好好。（kei4 sat6 keoi5 go3 jan4 sam1 dei6 hou2 hou2.）",
+          "translate": "其实他这个人心地很善良。"
+        },
+        {
+          "sentence": "件事其實好簡單。（gin6 si6 kei4 sat6 hou2 gaan2 daan1.）",
+          "translate": "事情其实非常简单。"
+        }
+      ]
+    },
+    {
+      "word": "總之",
+      "jyutping": "zung2 zi1",
+      "pos": "连/副",
+      "meaning": "总之，总而言之",
+      "sentences": [
+        {
+          "sentence": "總之小心為上。（zung2 zi1 siu2 sam1 wai4 soeng6.）",
+          "translate": "总之小心为上策。"
+        },
+        {
+          "sentence": "總之大家平安就最好。（zung2 zi1 daai6 gaa1 ping4 on1 zau6 zeoi3 hou2.）",
+          "translate": "总而言之大家平平安安就最好了。"
+        }
+      ]
+    },
+    {
+      "word": "頭先",
+      "jyutping": "tau4 sin1",
+      "pos": "名/副",
+      "meaning": "刚才，方才",
+      "sentences": [
+        {
+          "sentence": "頭先邊個打電話嚟？（tau4 sin1 bin1 go3 daa2 din6 waa2 lai4?）",
+          "translate": "刚才谁打电话过来了？"
+        },
+        {
+          "sentence": "我頭先喺路上撞見佢。（ngo5 tau4 sin1 hai2 lou6 soeng6 zong6 gin3 keoi5.）",
+          "translate": "我刚才在路上碰见他了。"
+        }
+      ]
+    }
+  ]
+}

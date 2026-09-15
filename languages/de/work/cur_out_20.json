@@ -1,0 +1,1050 @@
+{
+ "kept": [
+  {
+   "word": "wolle",
+   "lemma": "Wolle",
+   "zh": "羊毛",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "zone",
+   "lemma": "Zone",
+   "zh": "区域",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "trocken",
+   "zh": "干的",
+   "level": "a1",
+   "pos": "adj."
+  },
+  {
+   "word": "heulen",
+   "zh": "嚎哭",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "entschlossen",
+   "zh": "坚决的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "paket",
+   "lemma": "Paket",
+   "zh": "包裹",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "ausweg",
+   "lemma": "Ausweg",
+   "zh": "出路",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "hinweg",
+   "zh": "越过",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "schmuck",
+   "lemma": "Schmuck",
+   "zh": "首饰",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "ausgang",
+   "lemma": "Ausgang",
+   "zh": "出口",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "illegal",
+   "zh": "非法的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "ferien",
+   "lemma": "Ferien",
+   "zh": "假期",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "geiseln",
+   "lemma": "Geisel",
+   "zh": "人质",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "steuer",
+   "lemma": "Steuer",
+   "zh": "税；方向盘",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "raumschiff",
+   "lemma": "Raumschiff",
+   "zh": "宇宙飞船",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "ausbildung",
+   "lemma": "Ausbildung",
+   "zh": "培训",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "klavier",
+   "lemma": "Klavier",
+   "zh": "钢琴",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "hauptsache",
+   "lemma": "Hauptsache",
+   "zh": "主要的事",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "admiral",
+   "lemma": "Admiral",
+   "zh": "海军上将",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "entgegen",
+   "zh": "逆着；迎着",
+   "level": "a2",
+   "pos": "präp."
+  },
+  {
+   "word": "strecke",
+   "lemma": "Strecke",
+   "zh": "路段",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "version",
+   "lemma": "Version",
+   "zh": "版本",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "hilfreich",
+   "zh": "有帮助的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "jahrelang",
+   "zh": "多年的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "leeren",
+   "zh": "倒空；空的",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "küste",
+   "lemma": "Küste",
+   "zh": "海岸",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "baron",
+   "lemma": "Baron",
+   "zh": "男爵",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "behörden",
+   "lemma": "Behörde",
+   "zh": "当局",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "puls",
+   "lemma": "Puls",
+   "zh": "脉搏",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "flur",
+   "lemma": "Flur",
+   "zh": "走廊",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "rettung",
+   "lemma": "Rettung",
+   "zh": "营救",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "widerlich",
+   "zh": "令人厌恶的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "parkplatz",
+   "lemma": "Parkplatz",
+   "zh": "停车场",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "laster",
+   "lemma": "Laster",
+   "zh": "恶习",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "sozusagen",
+   "zh": "可以说",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "mittwoch",
+   "lemma": "Mittwoch",
+   "zh": "星期三",
+   "level": "a1",
+   "pos": "n.m."
+  },
+  {
+   "word": "abwarten",
+   "zh": "等待观望",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "vision",
+   "lemma": "Vision",
+   "zh": "视野；幻象",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "schauspielerin",
+   "lemma": "Schauspielerin",
+   "zh": "女演员",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "friedhof",
+   "lemma": "Friedhof",
+   "zh": "墓地",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "irrtum",
+   "lemma": "Irrtum",
+   "zh": "错误",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "klienten",
+   "lemma": "Klient",
+   "zh": "委托人",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "trainieren",
+   "zh": "训练",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "gegenwart",
+   "lemma": "Gegenwart",
+   "zh": "现在",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "zurückbringen",
+   "zh": "送回",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "protokoll",
+   "lemma": "Protokoll",
+   "zh": "记录",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "durchaus",
+   "zh": "完全可以",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "grausam",
+   "zh": "残忍的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "höchste",
+   "zh": "最高的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "verwickelt",
+   "lemma": "verwickeln",
+   "zh": "卷入",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "apropos",
+   "zh": "顺便说",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "ansonsten",
+   "zh": "否则",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "missverständnis",
+   "lemma": "Missverständnis",
+   "zh": "误会",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "motorrad",
+   "lemma": "Motorrad",
+   "zh": "摩托车",
+   "level": "a1",
+   "pos": "n."
+  },
+  {
+   "word": "blicken",
+   "zh": "看向",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "diejenigen",
+   "zh": "那些（人）",
+   "level": "a2",
+   "pos": "pron."
+  },
+  {
+   "word": "diskutieren",
+   "zh": "讨论",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "huhn",
+   "lemma": "Huhn",
+   "zh": "母鸡",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "erheben",
+   "zh": "提升；征收",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "paradies",
+   "lemma": "Paradies",
+   "zh": "天堂",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "tagebuch",
+   "lemma": "Tagebuch",
+   "zh": "日记",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "jenseits",
+   "zh": "在…彼岸",
+   "level": "a2",
+   "pos": "adv."
+  },
+  {
+   "word": "apartment",
+   "lemma": "Apartment",
+   "zh": "公寓",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "enttäuschen",
+   "zh": "使失望",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "konsequenzen",
+   "lemma": "Konsequenz",
+   "zh": "后果",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "fleck",
+   "lemma": "Fleck",
+   "zh": "污渍",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "führerschein",
+   "lemma": "Führerschein",
+   "zh": "驾照",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "online",
+   "zh": "在线的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "enkel",
+   "lemma": "Enkel",
+   "zh": "孙子",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "stift",
+   "lemma": "Stift",
+   "zh": "笔",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "interview",
+   "lemma": "Interview",
+   "zh": "采访",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "aussicht",
+   "lemma": "Aussicht",
+   "zh": "景色；前景",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "wiederkommen",
+   "zh": "再来",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "werbung",
+   "lemma": "Werbung",
+   "zh": "广告",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "anblick",
+   "lemma": "Anblick",
+   "zh": "景象",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "teppich",
+   "lemma": "Teppich",
+   "zh": "地毯",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "handel",
+   "lemma": "Handel",
+   "zh": "贸易",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "trainer",
+   "lemma": "Trainer",
+   "zh": "教练",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "kämpfer",
+   "lemma": "Kämpfer",
+   "zh": "斗士",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "bedenken",
+   "zh": "考虑",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "sitzung",
+   "lemma": "Sitzung",
+   "zh": "会议",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "tapfer",
+   "zh": "勇敢的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "experiment",
+   "lemma": "Experiment",
+   "zh": "实验",
+   "level": "a2",
+   "pos": "n."
+  },
+  {
+   "word": "tiefe",
+   "lemma": "Tiefe",
+   "zh": "深度",
+   "level": "a2",
+   "pos": "n.f."
+  },
+  {
+   "word": "abhalten",
+   "zh": "阻止；举行",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "bestimmte",
+   "zh": "特定的",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "löschen",
+   "zh": "删除",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "mies",
+   "zh": "糟糕的（口语）",
+   "level": "a2",
+   "pos": "adj."
+  },
+  {
+   "word": "sarg",
+   "lemma": "Sarg",
+   "zh": "棺材",
+   "level": "a2",
+   "pos": "n.m."
+  },
+  {
+   "word": "vertragen",
+   "zh": "忍受；和解",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "gebissen",
+   "lemma": "beißen",
+   "zh": "咬",
+   "level": "a2",
+   "pos": "v."
+  },
+  {
+   "word": "tradition",
+   "lemma": "Tradition",
+   "zh": "传统",
+   "level": "a2",
+   "pos": "n.f."
+  }
+ ],
+ "drop": [
+  {
+   "word": "rita",
+   "reason": "专名"
+  },
+  {
+   "word": "lincoln",
+   "reason": "专名"
+  },
+  {
+   "word": "audrey",
+   "reason": "专名"
+  },
+  {
+   "word": "quinn",
+   "reason": "专名"
+  },
+  {
+   "word": "le",
+   "reason": "法语词"
+  },
+  {
+   "word": "kids",
+   "reason": "英语借词"
+  },
+  {
+   "word": "do",
+   "reason": "英语借词"
+  },
+  {
+   "word": "jennifer",
+   "reason": "专名"
+  },
+  {
+   "word": "ann",
+   "reason": "专名"
+  },
+  {
+   "word": "murphy",
+   "reason": "专名"
+  },
+  {
+   "word": "julian",
+   "reason": "专名"
+  },
+  {
+   "word": "stone",
+   "reason": "英语借词"
+  },
+  {
+   "word": "blue",
+   "reason": "英语借词"
+  },
+  {
+   "word": "grandma",
+   "reason": "英语借词"
+  },
+  {
+   "word": "florida",
+   "reason": "专名"
+  },
+  {
+   "word": "re",
+   "reason": "乱码"
+  },
+  {
+   "word": "passe",
+   "reason": "法语词"
+  },
+  {
+   "word": "highschool",
+   "reason": "英语借词"
+  },
+  {
+   "word": "reverend",
+   "reason": "英语借词"
+  },
+  {
+   "word": "herman",
+   "reason": "专名"
+  },
+  {
+   "word": "liz",
+   "reason": "专名"
+  },
+  {
+   "word": "alfred",
+   "reason": "专名"
+  },
+  {
+   "word": "wade",
+   "reason": "专名"
+  },
+  {
+   "word": "mickey",
+   "reason": "专名"
+  },
+  {
+   "word": "pinkeln",
+   "reason": "粗俗"
+  },
+  {
+   "word": "arschlöcher",
+   "reason": "脏话"
+  },
+  {
+   "word": "mason",
+   "reason": "专名"
+  },
+  {
+   "word": "greg",
+   "reason": "专名"
+  },
+  {
+   "word": "macgyver",
+   "reason": "专名"
+  },
+  {
+   "word": "ned",
+   "reason": "专名"
+  },
+  {
+   "word": "scully",
+   "reason": "专名"
+  },
+  {
+   "word": "victoria",
+   "reason": "专名"
+  },
+  {
+   "word": "ken",
+   "reason": "专名"
+  },
+  {
+   "word": "ron",
+   "reason": "专名"
+  },
+  {
+   "word": "school",
+   "reason": "英语借词"
+  },
+  {
+   "word": "tara",
+   "reason": "专名"
+  },
+  {
+   "word": "sebastian",
+   "reason": "专名"
+  },
+  {
+   "word": "drinks",
+   "reason": "英语借词"
+  }
+ ],
+ "dedup": [
+  {
+   "word": "knurrt",
+   "reason": "重复词条"
+  },
+  {
+   "word": "meldet",
+   "reason": "重复词条"
+  },
+  {
+   "word": "schreibst",
+   "reason": "重复词条"
+  },
+  {
+   "word": "probier",
+   "reason": "重复词条"
+  },
+  {
+   "word": "unterschrieben",
+   "reason": "重复词条"
+  },
+  {
+   "word": "gefiel",
+   "reason": "重复词条"
+  },
+  {
+   "word": "bekamen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "netten",
+   "reason": "重复词条"
+  },
+  {
+   "word": "geheime",
+   "reason": "重复词条"
+  },
+  {
+   "word": "aktiviert",
+   "reason": "重复词条"
+  },
+  {
+   "word": "wunderschöne",
+   "reason": "重复词条"
+  },
+  {
+   "word": "zurückkommt",
+   "reason": "重复词条"
+  },
+  {
+   "word": "persönlichen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "segne",
+   "reason": "重复词条"
+  },
+  {
+   "word": "normaler",
+   "reason": "重复词条"
+  },
+  {
+   "word": "aufgepasst",
+   "reason": "重复词条"
+  },
+  {
+   "word": "dummen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "weißer",
+   "reason": "重复词条"
+  },
+  {
+   "word": "fasse",
+   "reason": "重复词条"
+  },
+  {
+   "word": "schweren",
+   "reason": "重复词条"
+  },
+  {
+   "word": "grüße",
+   "reason": "重复词条"
+  },
+  {
+   "word": "geklärt",
+   "reason": "重复词条"
+  },
+  {
+   "word": "bruders",
+   "reason": "重复词条"
+  },
+  {
+   "word": "kaufte",
+   "reason": "重复词条"
+  },
+  {
+   "word": "denselben",
+   "reason": "重复词条"
+  },
+  {
+   "word": "katzen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "unschuldige",
+   "reason": "重复词条"
+  },
+  {
+   "word": "grünen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "könntet",
+   "reason": "重复词条"
+  },
+  {
+   "word": "aufnahmen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "sing",
+   "reason": "重复词条"
+  },
+  {
+   "word": "glückliche",
+   "reason": "重复词条"
+  },
+  {
+   "word": "nervt",
+   "reason": "重复词条"
+  },
+  {
+   "word": "leidet",
+   "reason": "重复词条"
+  },
+  {
+   "word": "studenten",
+   "reason": "重复词条"
+  },
+  {
+   "word": "schmecken",
+   "reason": "重复词条"
+  },
+  {
+   "word": "klappen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "mitglieder",
+   "reason": "重复词条"
+  },
+  {
+   "word": "glücklicher",
+   "reason": "重复词条"
+  },
+  {
+   "word": "hübschen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "dicke",
+   "reason": "重复词条"
+  },
+  {
+   "word": "gewünscht",
+   "reason": "重复词条"
+  },
+  {
+   "word": "gejagt",
+   "reason": "重复词条"
+  },
+  {
+   "word": "möglichen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "pfeift",
+   "reason": "重复词条"
+  },
+  {
+   "word": "dieselben",
+   "reason": "重复词条"
+  },
+  {
+   "word": "wilden",
+   "reason": "重复词条"
+  },
+  {
+   "word": "vergaß",
+   "reason": "重复词条"
+  },
+  {
+   "word": "bete",
+   "reason": "重复词条"
+  },
+  {
+   "word": "verdächtige",
+   "reason": "重复词条"
+  },
+  {
+   "word": "normalen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "süßen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "riesige",
+   "reason": "重复词条"
+  },
+  {
+   "word": "warf",
+   "reason": "重复词条"
+  },
+  {
+   "word": "telefoniert",
+   "reason": "重复词条"
+  },
+  {
+   "word": "einzelnen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "hielten",
+   "reason": "重复词条"
+  },
+  {
+   "word": "gekannt",
+   "reason": "重复词条"
+  },
+  {
+   "word": "getrieben",
+   "reason": "重复词条"
+  },
+  {
+   "word": "schuh",
+   "reason": "重复词条"
+  },
+  {
+   "word": "bomben",
+   "reason": "重复词条"
+  },
+  {
+   "word": "sicheren",
+   "reason": "重复词条"
+  },
+  {
+   "word": "verkaufe",
+   "reason": "重复词条"
+  },
+  {
+   "word": "besorge",
+   "reason": "重复词条"
+  },
+  {
+   "word": "narren",
+   "reason": "重复词条"
+  },
+  {
+   "word": "abgeholt",
+   "reason": "重复词条"
+  },
+  {
+   "word": "laufenden",
+   "reason": "重复词条"
+  },
+  {
+   "word": "auftaucht",
+   "reason": "重复词条"
+  },
+  {
+   "word": "geheimen",
+   "reason": "重复词条"
+  },
+  {
+   "word": "schlief",
+   "reason": "重复词条"
+  }
+ ]
+}

@@ -1,0 +1,602 @@
+[
+{
+"word": "Scheren",
+"pos": "n.",
+"zh": "修剪；剪下的东西；大剪刀",
+"level": "b1"
+},
+{
+"word": "Brei",
+"pos": "n.m.",
+"zh": "浓粥；感伤的话",
+"level": "b1"
+},
+{
+"word": "Fäden",
+"pos": "n.",
+"zh": "线；丝；纤维",
+"level": "b1"
+},
+{
+"word": "Mehl",
+"pos": "n.",
+"zh": "面粉；粉沫；碎粉\\ 面粉",
+"level": "b1"
+},
+{
+"word": "Expedition",
+"pos": "n.f.",
+"zh": "远征；探险队；迅速",
+"level": "b1"
+},
+{
+"word": "Änderung",
+"pos": "n.f.",
+"zh": "变更；改动\\ 变更",
+"level": "b1"
+},
+{
+"word": "Blinder",
+"pos": "n.",
+"zh": "白化病者",
+"level": "b1"
+},
+{
+"word": "Parlament",
+"pos": "n.",
+"zh": "国会；议会\\ 会议",
+"level": "b1"
+},
+{
+"word": "Umfeld",
+"pos": "n.",
+"zh": "周围；社会环境；环境",
+"level": "b1"
+},
+{
+"word": "Michigan",
+"pos": "n.",
+"zh": "密歇根州",
+"level": "b1"
+},
+{
+"word": "auffliegen",
+"pos": "v.",
+"zh": "漏出；泄漏",
+"level": "b1"
+},
+{
+"word": "grauenvoll",
+"pos": "adv.",
+"zh": "冷酷的；坚强的；残忍的",
+"level": "b1"
+},
+{
+"word": "Schwiegermutter",
+"pos": "n.f.",
+"zh": "婆母；岳母\\ 岳母",
+"level": "b1"
+},
+{
+"word": "Seuche",
+"pos": "n.f.",
+"zh": "传染病；传染性的",
+"level": "b1"
+},
+{
+"word": "Zauberspruch",
+"pos": "n.m.",
+"zh": "魔术；魔法\\. 魔术的；有魔力的",
+"level": "b1"
+},
+{
+"word": "Läufer",
+"pos": "n.m.",
+"zh": "跑步者；赛跑者；送信人",
+"level": "b1"
+},
+{
+"word": "effektiv",
+"pos": "adj.",
+"zh": "真实的；实际的",
+"level": "b1"
+},
+{
+"word": "auskommen",
+"pos": "v.",
+"zh": "用…对付",
+"level": "b1"
+},
+{
+"word": "Jupiter",
+"pos": "n.m.",
+"zh": "朱庇物；木星",
+"level": "b1"
+},
+{
+"word": "Nuss",
+"pos": "n.f.",
+"zh": "坚果；核心",
+"level": "b1"
+},
+{
+"word": "Trauzeuge",
+"pos": "n.m.",
+"zh": "证人；目击者；证据",
+"level": "b1"
+},
+{
+"word": "puh",
+"pos": "adv.",
+"zh": "呸；啐\\. 使疲倦",
+"level": "b1"
+},
+{
+"word": "Österreich",
+"pos": "n.",
+"zh": "奥地利",
+"level": "b1"
+},
+{
+"word": "Einkommen",
+"pos": "n.",
+"zh": "收入；收益；流入\\ 收益",
+"level": "b1"
+},
+{
+"word": "Vereinigung",
+"pos": "n.f.",
+"zh": "统一；联合；一致\\ 连结",
+"level": "b1"
+},
+{
+"word": "Mittelpunkt",
+"pos": "n.m.",
+"zh": "中心；中心点；中锋\\. 中央的",
+"level": "b1"
+},
+{
+"word": "Page",
+"pos": "n.m.",
+"zh": "页；记录；事件",
+"level": "b1"
+},
+{
+"word": "andeuten",
+"pos": "v.",
+"zh": "是；表示；在\\ 后端",
+"level": "b1"
+},
+{
+"word": "Anschein",
+"pos": "n.m.",
+"zh": "颜色；面色；颜料",
+"level": "b1"
+},
+{
+"word": "Höflichkeit",
+"pos": "n.f.",
+"zh": "有礼；优雅",
+"level": "b1"
+},
+{
+"word": "Aufsteigen",
+"pos": "n.",
+"zh": "上升；耶稣升天",
+"level": "b1"
+},
+{
+"word": "gefällig",
+"pos": "adv.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "schlicht",
+"pos": "adv.",
+"zh": "严肃地；冷静地；朴素地",
+"level": "b1"
+},
+{
+"word": "anstrengen",
+"pos": "v.",
+"zh": "紧张；拉紧；张力",
+"level": "b1"
+},
+{
+"word": "Druckmittel",
+"pos": "n.",
+"zh": "杠杆作用；杠杆装置；杠杆效率\\ 杠杆率",
+"level": "b1"
+},
+{
+"word": "Schweben",
+"pos": "n.",
+"zh": "漂浮；浮选；筹款",
+"level": "b1"
+},
+{
+"word": "Formular",
+"pos": "n.",
+"zh": "空格；空白\\. 空白的；空虚的",
+"level": "b1"
+},
+{
+"word": "Architekt",
+"pos": "n.m.",
+"zh": "建筑师；设计者；缔造者",
+"level": "b1"
+},
+{
+"word": "Eindringling",
+"pos": "n.m.",
+"zh": "侵入者；干扰者；妨碍者\\ 入侵者",
+"level": "b1"
+},
+{
+"word": "Wahlkampf",
+"pos": "n.m.",
+"zh": "选举；当选；选择权\\ 选举",
+"level": "b1"
+},
+{
+"word": "lagern",
+"pos": "v.",
+"zh": "谎言；假象；位置\\. 躺着",
+"level": "b1"
+},
+{
+"word": "gewissermaßen",
+"pos": "adv.",
+"zh": "在某种程度上；稍稍",
+"level": "b1"
+},
+{
+"word": "verbraucht",
+"pos": "adv.",
+"zh": "耗尽的；疲惫的",
+"level": "b1"
+},
+{
+"word": "Bremse",
+"pos": "n.f.",
+"zh": "刹车；阻碍；丛林\\. 刹车",
+"level": "b1"
+},
+{
+"word": "gleichgültig",
+"pos": "adj.",
+"zh": "心不在焉的；不注意的",
+"level": "b1"
+},
+{
+"word": "Gefangenschaft",
+"pos": "n.f.",
+"zh": "囚禁；被关\\ 囚禁；被俘",
+"level": "b1"
+},
+{
+"word": "westlich",
+"pos": "adv.",
+"zh": "向西的；往西",
+"level": "b1"
+},
+{
+"word": "Samt",
+"pos": "n.m.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "Laurie",
+"pos": "n.f.",
+"zh": "劳里（女子名；等于）；劳里（男子名",
+"level": "b1"
+},
+{
+"word": "vorhanden",
+"pos": "v.",
+"zh": "是；表示；在\\ 后端",
+"level": "b1"
+},
+{
+"word": "Adoption",
+"pos": "n.f.",
+"zh": "采用；采纳；收养\\ 收养",
+"level": "b1"
+},
+{
+"word": "hinterm",
+"pos": "adv.",
+"zh": "旁敲侧击",
+"level": "b1"
+},
+{
+"word": "zart",
+"pos": "adv.",
+"zh": "细致优雅的；微妙的；美味的\\ 柔弱的",
+"level": "b1"
+},
+{
+"word": "Immunität",
+"pos": "n.f.",
+"zh": "免疫；免疫性；免除\\ 免疫性",
+"level": "b1"
+},
+{
+"word": "eingelassen",
+"pos": "adj.",
+"zh": "沉没的",
+"level": "b1"
+},
+{
+"word": "Tonne",
+"pos": "n.f.",
+"zh": "公尺的；公制的；计量的\\ 测量的",
+"level": "b1"
+},
+{
+"word": "Borgen",
+"pos": "n.",
+"zh": "他\\. 男孩；男人；雄性动物",
+"level": "b1"
+},
+{
+"word": "Spezialeinheit",
+"pos": "n.f.",
+"zh": "特种部队",
+"level": "b1"
+},
+{
+"word": "zerreißen",
+"pos": "v.",
+"zh": "撕成碎片；挖开；撕掉",
+"level": "b1"
+},
+{
+"word": "Alma",
+"pos": "n.",
+"zh": "丰饶之母；母校",
+"level": "b1"
+},
+{
+"word": "Wanze",
+"pos": "n.f.",
+"zh": "错误；虫；病菌",
+"level": "b1"
+},
+{
+"word": "Zeugnis",
+"pos": "n.",
+"zh": "证明书；介绍信；奖品",
+"level": "b1"
+},
+{
+"word": "Phänomen",
+"pos": "n.",
+"zh": "现象；迹象；表现",
+"level": "b1"
+},
+{
+"word": "Misch",
+"pos": "n.",
+"zh": "混合者；混合器；搅拌机",
+"level": "b1"
+},
+{
+"word": "beklagen",
+"pos": "v.",
+"zh": "哀悼；惋惜；认为遗憾",
+"level": "b1"
+},
+{
+"word": "Schurke",
+"pos": "n.m.",
+"zh": "恶棍；流氓",
+"level": "b1"
+},
+{
+"word": "kleinere",
+"pos": "adv.",
+"zh": "行为不良；失职\\ 毁约；怠工",
+"level": "b1"
+},
+{
+"word": "Sonnenbrille",
+"pos": "n.f.",
+"zh": "太阳镜；墨镜；太阳眼镜",
+"level": "b1"
+},
+{
+"word": "Strenge",
+"pos": "n.f.",
+"zh": "严格；严密；严重",
+"level": "b1"
+},
+{
+"word": "Phantom",
+"pos": "n.",
+"zh": "幻影；虚位；幽灵",
+"level": "b1"
+},
+{
+"word": "Schwiegervater",
+"pos": "n.m.",
+"zh": "公公；岳父",
+"level": "b1"
+},
+{
+"word": "abscheulich",
+"pos": "adj.",
+"zh": "可憎的；可恶的",
+"level": "b1"
+},
+{
+"word": "Kleinigkeiten",
+"pos": "n.",
+"zh": "零星东西",
+"level": "b1"
+},
+{
+"word": "Kompass",
+"pos": "n.m.",
+"zh": "指南针；范围；音域\\. 包围",
+"level": "b1"
+},
+{
+"word": "Yoga",
+"pos": "n.",
+"zh": "瑜珈",
+"level": "b1"
+},
+{
+"word": "Elektrische",
+"pos": "n.",
+"zh": "电的；有关电的\\ 电的",
+"level": "b1"
+},
+{
+"word": "Kaviar",
+"pos": "n.m.",
+"zh": "鱼子酱\\ 鱼子酱",
+"level": "b1"
+},
+{
+"word": "Reiben",
+"pos": "n.",
+"zh": "摩擦；困难；障碍",
+"level": "b1"
+},
+{
+"word": "Plage",
+"pos": "n.f.",
+"zh": "烦恼；麻烦；困难",
+"level": "b1"
+},
+{
+"word": "erziehen",
+"pos": "v.",
+"zh": "教育；培养；训练",
+"level": "b1"
+},
+{
+"word": "Streife",
+"pos": "n.f.",
+"zh": "巡逻；巡逻员；侦察队\\. 巡逻",
+"level": "b1"
+},
+{
+"word": "erhoben",
+"pos": "adj.",
+"zh": "不弯的；不屈服的",
+"level": "b1"
+},
+{
+"word": "Norwegen",
+"pos": "n.",
+"zh": "挪威",
+"level": "b1"
+},
+{
+"word": "Kappe",
+"pos": "n.f.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "Iran",
+"pos": "n.m.",
+"zh": "伊朗",
+"level": "b1"
+},
+{
+"word": "volles",
+"pos": "adv.",
+"zh": "非常热情地；非常有魄力地",
+"level": "b1"
+},
+{
+"word": "Hebel",
+"pos": "n.m.",
+"zh": "杠杆",
+"level": "b1"
+},
+{
+"word": "Urin",
+"pos": "n.m.",
+"zh": "小便；尿\\ 尿",
+"level": "b1"
+},
+{
+"word": "Triumph",
+"pos": "n.m.",
+"zh": "凯旋；胜利；欢欣\\. 得胜",
+"level": "b1"
+},
+{
+"word": "begrenzt",
+"pos": "adv.",
+"zh": "有限制的；有限的",
+"level": "b1"
+},
+{
+"word": "Erscheinung",
+"pos": "n.f.",
+"zh": "出现；露面；外观",
+"level": "b1"
+},
+{
+"word": "Neid",
+"pos": "n.m.",
+"zh": "羡慕；嫉妒\\. 羡慕；嫉妒",
+"level": "b1"
+},
+{
+"word": "Tabu",
+"pos": "n.",
+"zh": "禁忌；禁止接近",
+"level": "b1"
+},
+{
+"word": "Auskunft",
+"pos": "n.f.",
+"zh": "消息；知识；通知",
+"level": "b1"
+},
+{
+"word": "Dänemark",
+"pos": "n.",
+"zh": "丹麦",
+"level": "b1"
+},
+{
+"word": "erweitern",
+"pos": "v.",
+"zh": "扩大；增大\\. 扩大；详述",
+"level": "b1"
+},
+{
+"word": "Ami",
+"pos": "n.m.",
+"zh": "新英格兰人；北方诸州的人；美国佬",
+"level": "b1"
+},
+{
+"word": "Waffenstillstand",
+"pos": "n.m.",
+"zh": "休战；停战\\ 休战；停战",
+"level": "b1"
+},
+{
+"word": "Kreislauf",
+"pos": "n.m.",
+"zh": "环；圈；弯曲部分",
+"level": "b1"
+},
+{
+"word": "Lebensunterhalt",
+"pos": "n.m.",
+"zh": "生活；生计；生存\\. 活的",
+"level": "b1"
+}
+]

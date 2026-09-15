@@ -1,0 +1,502 @@
+{
+  "glace": [
+    {"fr": "Deux boules de glace à la vanille, s'il vous plaît.", "zh": "请给我两球香草冰淇淋。"},
+    {"fr": "La glace du lac supporte le poids des patineurs.", "zh": "湖面的冰能承受滑冰者的重量。"},
+    {"fr": "Elle se recoiffe vite devant la glace de l'entrée.", "zh": "她在门厅的镜子前快速整理了一下头发。"}
+  ],
+  "glacé": [
+    {"fr": "Commande un thé glacé, il fait trop chaud pour du café.", "zh": "点杯冰茶吧，这么热喝咖啡受不了。"},
+    {"fr": "Ses mains sont toutes glacées après cette sortie dans le froid.", "zh": "在外面冻了半天，她的手冰凉冰凉的。"},
+    {"fr": "Un vent glacé souffle sur la digue depuis le matin.", "zh": "从早上起，冰冷的风就一直吹着海堤。"}
+  ],
+  "glaçon": [
+    {"fr": "Mets deux glaçons dans mon jus d'orange.", "zh": "在我的橙汁里加两块冰块。"},
+    {"fr": "Le gobelet rempli de glaçons s'est renversé sur la nappe.", "zh": "装着冰块的杯子在桌布上打翻了。"},
+    {"fr": "Il reste des glaçons dans le congélateur pour les boissons.", "zh": "冷冻室里还有冰块，够做饮料用。"}
+  ],
+  "glissant": [
+    {"fr": "Le chemin de forêt est glissant après la pluie.", "zh": "雨后的林间小路很湿滑。"},
+    {"fr": "Fais attention aux marches glissantes de la piscine.", "zh": "小心泳池边湿滑的台阶。"},
+    {"fr": "Cette route de montagne devient glissante dès les premières pluies.", "zh": "一到初雨时节，这条山路就变得很滑。"}
+  ],
+  "glisser": [
+    {"fr": "Glisse la carte sous la porte, je l'attraperai.", "zh": "把卡从门缝底下塞进来，我来接。"},
+    {"fr": "Les enfants glissent sur la piste de neige avec leur luge.", "zh": "孩子们坐着雪橇在雪道上往下滑。"},
+    {"fr": "Un mot glissé dans la poche du manteau m'a fait sourire.", "zh": "塞在外套口袋里的一张小纸条让我会心一笑。"}
+  ],
+  "globe": [
+    {"fr": "Le globe terrestre tourne autour du soleil en un an.", "zh": "地球绕太阳一周需要一年。"},
+    {"fr": "Sur ce globe ancien, l'Amérique est dessinée très petit.", "zh": "在这个老式地球仪上，美洲画得很小。"},
+    {"fr": "Des voyageurs venus des quatre coins du globe se retrouvent ici.", "zh": "来自世界各地的旅行者在此相聚。"}
+  ],
+  "golf": [
+    {"fr": "Il joue au golf tous les samedis matin avec ses collègues.", "zh": "他每周六上午都和同事打高尔夫球。"},
+    {"fr": "Le terrain de golf borde la mer.", "zh": "高尔夫球场紧挨着大海。"},
+    {"fr": "Elle a offert un nouveau club de golf à son père.", "zh": "她送给父亲一根新高尔夫球杆。"}
+  ],
+  "gomme": [
+    {"fr": "Prête-moi ta gomme, j'ai fait une faute de calcul.", "zh": "借我一下橡皮，我算错了一个地方。"},
+    {"fr": "Cette gomme efface aussi l'encre.", "zh": "这块橡皮连钢笔字都能擦掉。"},
+    {"fr": "Il a rangé des gommes et des crayons dans sa trousse neuve.", "zh": "他把橡皮和铅笔都装进了新文具盒。"}
+  ],
+  "gorge": [
+    {"fr": "J'ai la gorge irritée, je vais boire une tisane.", "zh": "我喉咙发炎，去喝杯草药茶。"},
+    {"fr": "Le guide parle fort pour couvrir le bruit de la rivière dans les gorges.", "zh": "峡谷里水声很大，导游提高嗓门讲解。"},
+    {"fr": "Sa gorge s'est serrée quand elle a lu le message.", "zh": "读到那条消息时，她的喉咙一阵发紧。"}
+  ],
+  "gorille": [
+    {"fr": "Le gorille protège sa famille au moindre danger.", "zh": "大猩猩一有危险就保护家人。"},
+    {"fr": "Au zoo, le gorille mangeait des feuilles tranquillement.", "zh": "动物园里，大猩猩悠闲地吃着树叶。"},
+    {"fr": "Ce gorille du film est gentil malgré sa force.", "zh": "电影里这只大猩猩虽然力气大，心却很善良。"}
+  ],
+  "goutte": [
+    {"fr": "Ajoute une goutte de citron dans la sauce.", "zh": "在酱汁里滴一滴柠檬汁。"},
+    {"fr": "Il pleut si fort que chaque goutte fait du bruit sur la tente.", "zh": "雨下得很大，每一滴打在帐篷上都啪啪作响。"},
+    {"fr": "Bois ta tisane jusqu'à la dernière goutte.", "zh": "把草药茶喝到最后一滴。"}
+  ],
+  "goût": [
+    {"fr": "Ce fromage a un goût un peu salé, c'est délicieux.", "zh": "这款奶酪有点咸味，很好吃。"},
+    {"fr": "Elle a un bon goût en matière de décoration.", "zh": "她在装修方面品味不错。"},
+    {"fr": "Le sucre cache le goût amer du médicament.", "zh": "糖盖住了药的苦味。"}
+  ],
+  "goûter": [
+    {"fr": "Goûte la sauce avant de servir, elle manque peut-être de sel.", "zh": "上桌前先尝尝酱汁，可能不够咸。"},
+    {"fr": "Tu devrais goûter la tarte aux pommes de ma grand-mère.", "zh": "你应该尝尝我祖母做的苹果挞。"},
+    {"fr": "Les enfants goûtent à tous les plats du buffet.", "zh": "孩子们把自助餐上的每样菜都尝了一遍。"}
+  ],
+  "graine": [
+    {"fr": "Sème les graines de tomate au début du printemps.", "zh": "初春时把番茄种子播下去。"},
+    {"fr": "Ces graines de tournesol serviront aux oiseaux en hiver.", "zh": "这些葵花籽留着冬天喂鸟。"},
+    {"fr": "Un oiseau a apporté cette graine jusque dans notre jardin.", "zh": "一只鸟把这粒种子带到了我们的院子里。"}
+  ],
+  "grandir": [
+    {"fr": "Les enfants grandissent trop vite, dit la mère avec nostalgie.", "zh": "孩子们长得太快了，母亲感叹道。"},
+    {"fr": "Cette plante peut grandir de vingt centimètres par mois.", "zh": "这种植物一个月能长二十厘米。"},
+    {"fr": "Il espère grandir dans son nouveau poste.", "zh": "他希望在新岗位上有所成长。"}
+  ],
+  "gras": [
+    {"fr": "Évite la viande trop grasse avant le match.", "zh": "比赛前别吃太肥腻的肉。"},
+    {"fr": "Il a les cheveux gras parce qu'il n'a pas pris sa douche.", "zh": "他没洗头，头发都油了。"},
+    {"fr": "Le mardi gras précède le carême dans beaucoup de pays.", "zh": "在许多国家，油腻星期二标志着四旬期的开始。"}
+  ],
+  "gratter": [
+    {"fr": "Arrête de gratter ta piqûre de moustique !", "zh": "别再挠蚊子咬的包了！"},
+    {"fr": "Le chat gratte la porte pour sortir au jardin.", "zh": "猫抓着门想去院子里。"},
+    {"fr": "Elle gratte la peinture écaillée avant de repeindre le mur.", "zh": "她刮掉剥落的旧漆，准备重新粉刷墙壁。"}
+  ],
+  "gratuit": [
+    {"fr": "L'entrée du parc est gratuite pour les moins de douze ans.", "zh": "十二岁以下儿童免费入园。"},
+    {"fr": "Ces échantillons sont gratuits, prenez-en deux.", "zh": "这些样品是免费的，拿两份吧。"},
+    {"fr": "Un parking gratuit se trouve derrière la gare.", "zh": "车站后面有个免费停车场。"}
+  ],
+  "grave": [
+    {"fr": "Son état est grave, les médecins restent à son chevet.", "zh": "他的情况很严重，医生守在床边。"},
+    {"fr": "Ce n'est pas grave, on ratera juste le début du film.", "zh": "没关系，只是错过电影开头而已。"},
+    {"fr": "Une erreur grave dans le rapport a coûté le contrat.", "zh": "报告里的一个严重错误让公司丢了合同。"}
+  ],
+  "grec": [
+    {"fr": "Ce restaurant grec prépare d'excellentes grillades.", "zh": "这家希腊餐厅的烤肉做得特别好。"},
+    {"fr": "Mon voisin est grec et parle trois langues.", "zh": "我的邻居是希腊人，会说三种语言。"},
+    {"fr": "Elle prépare une salade grecque avec des olives noires.", "zh": "她用黑橄榄做了一份希腊沙拉。"}
+  ],
+  "grenouille": [
+    {"fr": "Les grenouilles coassent depuis le marais toute la nuit.", "zh": "沼泽里的青蛙叫了一整夜。"},
+    {"fr": "La grenouille saute de nénuphar en nénuphar.", "zh": "青蛙从一片睡莲叶跳到另一片。"},
+    {"fr": "La princesse a embrassé la grenouille du conte.", "zh": "童话里公主吻了青蛙。"}
+  ],
+  "grille-pain": [
+    {"fr": "Le grille-pain saute quand les tranches sont prêtes.", "zh": "烤面包片好了，烤面包机会弹起来。"},
+    {"fr": "J'ai acheté un grille-pain pour huit tranches à la brocante.", "zh": "我在旧货市场买了一台能一次烤八片的烤面包机。"},
+    {"fr": "Nettoie le ramasse-miettes du grille-pain une fois par semaine.", "zh": "每周清理一次烤面包机的碎屑盒。"}
+  ],
+  "griller": [
+    {"fr": "On va griller des saucisses dans le jardin ce soir.", "zh": "今晚我们在院子里烤香肠。"},
+    {"fr": "Cette ampoule a grillé, prends-en une dans le placard.", "zh": "这灯泡烧了，去柜子里拿个新的。"},
+    {"fr": "Il a grillé un feu rouge sans s'en rendre compte.", "zh": "他闯了个红灯都没察觉。"}
+  ],
+  "grillé": [
+    {"fr": "Les toasts sont trop grillés à mon goût.", "zh": "依我看，吐司烤得太焦了。"},
+    {"fr": "Il adore le poulet grillé au barbecue.", "zh": "他特别爱吃烧烤架上的烤鸡。"},
+    {"fr": "Ses épaules sont toutes grillées après une journée au soleil.", "zh": "在太阳下晒了一天，他的肩膀都烤伤了。"}
+  ],
+  "grimper": [
+    {"fr": "Le chat grimpe à l'arbre et reste bloqué.", "zh": "猫爬上了树，结果下不来了。"},
+    {"fr": "Les enfants grimpent sur les rochers près de la plage.", "zh": "孩子们在海滩边的岩石上攀爬。"},
+    {"fr": "Ce coureur grimpe la côte sans ralentir.", "zh": "这位车手爬坡时一点也不减速。"}
+  ],
+  "grippe": [
+    {"fr": "Une mauvaise grippe l'a gardé au lit toute la semaine.", "zh": "一场重流感让他卧床整整一周。"},
+    {"fr": "Pense à te faire vacciner contre la grippe avant l'hiver.", "zh": "入冬前记得去打流感疫苗。"},
+    {"fr": "La grippe court dans toute l'école en ce moment.", "zh": "现在全学校都在闹流感。"}
+  ],
+  "grossir": [
+    {"fr": "Il a grossi depuis qu'il a arrêté le football.", "zh": "他不踢球以后胖了不少。"},
+    {"fr": "Ce zoom permet de grossir l'image sans la déformer.", "zh": "这个变焦能在不变形的情况下放大图像。"},
+    {"fr": "Ne grossis pas le problème, il est simple à régler.", "zh": "别把问题夸大，其实很容易解决。"}
+  ],
+  "groupe": [
+    {"fr": "Un groupe de touristes attend devant la cathédrale.", "zh": "一群游客在教堂前等候。"},
+    {"fr": "Elle chante dans un groupe de rock avec ses amis.", "zh": "她和朋友们组建了一支摇滚乐队。"},
+    {"fr": "Ce groupe de mots désigne une action.", "zh": "这个词组表示一个动作。"}
+  ],
+  "guerre": [
+    {"fr": "Le grand-père raconte encore des histoires de la guerre.", "zh": "爷爷还会讲起战争年代的故事。"},
+    {"fr": "Cette guerre civile a duré cinq longues années.", "zh": "那场内战持续了漫长的五年。"},
+    {"fr": "Les deux pays ont signé la paix après la guerre.", "zh": "战后两国签署了和约。"}
+  ],
+  "gueule": [
+    {"fr": "Le lion ouvre sa gueule et rugit dans la savane.", "zh": "狮子在草原上张开大嘴吼叫。"},
+    {"fr": "Ferme ta gueule, le bébé dort !", "zh": "闭嘴，宝宝在睡觉呢！"},
+    {"fr": "Il m'a fait une gueule bizarre quand je lui ai annoncé la nouvelle.", "zh": "我告诉他这个消息时，他一脸怪相。"}
+  ],
+  "guichet": [
+    {"fr": "Le guichet de la gare ferme à vingt-deux heures.", "zh": "车站售票窗口二十二点关闭。"},
+    {"fr": "Faites la queue au guichet numéro trois pour les remboursements.", "zh": "办理退款请到三号窗口排队。"},
+    {"fr": "Ce guichet automatique ne rend plus la monnaie.", "zh": "这台自动售票机不出零钱了。"}
+  ],
+  "guide": [
+    {"fr": "Notre guide explique l'histoire du château en trois langues.", "zh": "导游用三种语言讲解这座城堡的历史。"},
+    {"fr": "Ce guide du voyage indique les meilleurs restaurants de Lisbonne.", "zh": "这本旅行指南列出了里斯本最好的餐厅。"},
+    {"fr": "L'ancien ouvrier sert de guide aux visiteurs de l'usine.", "zh": "这位老工人给参观工厂的客人当向导。"}
+  ],
+  "guéri": [
+    {"fr": "Le médecin dit que tu es complètement guéri.", "zh": "医生说你已经完全康复了。"},
+    {"fr": "Les patients guéris quittent l'hôpital ce matin.", "zh": "痊愈的病人今天上午出院。"},
+    {"fr": "Elle est guérie de sa peur de l'eau depuis le cours de natation.", "zh": "上了游泳课以后，她再也不怕水了。"}
+  ],
+  "guérir": [
+    {"fr": "Ce sirop guérira ta toux en trois jours.", "zh": "这种糖浆三天就能治好你的咳嗽。"},
+    {"fr": "Le temps guérit toutes les blessures, paraît-il.", "zh": "人们说时间能治愈一切伤痛。"},
+    {"fr": "Repose-toi bien, c'est le meilleur moyen de guérir vite.", "zh": "好好休息，这是尽快痊愈的最好办法。"}
+  ],
+  "guêpe": [
+    {"fr": "Une guêpe tourne autour de notre table de pique-nique.", "zh": "一只黄蜂围着我们的野餐桌打转。"},
+    {"fr": "Attention au nid de guêpes sous la gouttière !", "zh": "小心排水槽下面的马蜂窝！"},
+    {"fr": "Il a été piqué par une guêpe pendant le goûter.", "zh": "下午茶时他被黄蜂蜇了一下。"}
+  ],
+  "gym": [
+    {"fr": "Je vais à la gym deux fois par semaine pour garder la forme.", "zh": "我每周去健身房两次，保持体形。"},
+    {"fr": "Le cours de gym commence par un échauffement.", "zh": "健身课从热身开始。"},
+    {"fr": "Elle met ses affaires de gym dans un sac bleu.", "zh": "她把健身用品装进一个蓝色的包里。"}
+  ],
+  "gymnase": [
+    {"fr": "Le gymnase de l'école accueille les matchs du samedi.", "zh": "学校体育馆周六承办比赛。"},
+    {"fr": "On repeint le gymnase pendant les vacances d'été.", "zh": "暑假期间要给体育馆重新刷漆。"},
+    {"fr": "Tous les élèves se réunissent au gymnase pour la photo de classe.", "zh": "全体学生到体育馆拍集体照。"}
+  ],
+  "gymnastique": [
+    {"fr": "La gymnastique rythmique demande beaucoup de souplesse.", "zh": "艺术体操需要非常好的柔韧性。"},
+    {"fr": "Elle fait quinze minutes de gymnastique chaque matin.", "zh": "她每天早上做十五分钟体操。"},
+    {"fr": "Mon arrière-grand-mère faisait encore de la gymnastique à quatre-vingts ans.", "zh": "我曾祖母八十岁了还坚持做操。"}
+  ],
+  "géant": [
+    {"fr": "Un château de sable géant trône au milieu de la plage.", "zh": "一座巨大的沙堡立在沙滩中央。"},
+    {"fr": "Dans le conte, les pas du géant font trembler le village.", "zh": "童话里巨人的脚步声震得村庄发颤。"},
+    {"fr": "Cette entreprise est devenue un géant de l'informatique.", "zh": "这家公司已经成长为计算机行业的巨头。"}
+  ],
+  "génial": [
+    {"fr": "Ton idée de pique-nique surprise est vraiment géniale !", "zh": "你这个惊喜野餐的主意真是太棒了！"},
+    {"fr": "Ce nouveau jeu vidéo est génial, je n'arrive plus à m'arrêter.", "zh": "这款新游戏太好玩了，我一玩就停不下来。"},
+    {"fr": "Le concert d'hier était génial, la foule chantait avec le groupe.", "zh": "昨天的演唱会太赞了，全场观众都跟着乐队一起唱。"}
+  ],
+  "génie": [
+    {"fr": "Ce jeune mathématicien est considéré comme un génie.", "zh": "这位年轻的数学家被视为天才。"},
+    {"fr": "Le génie de cette invention est dans sa simplicité.", "zh": "这项发明的精妙之处在于它的简单。"},
+    {"fr": "Il a le génie de mettre tout le monde à l'aise.", "zh": "他天生就有让所有人放松的本事。"}
+  ],
+  "général": [
+    {"fr": "Le général a salué ses troupes avant la parade.", "zh": "将军在阅兵前向部队致意。"},
+    {"fr": "En général, le marché ferme à treize heures.", "zh": "集市一般十三点收摊。"},
+    {"fr": "Sous ce général, l'armée n'a jamais perdu une bataille.", "zh": "在这位将军麾下，军队从未打过败仗。"}
+  ],
+  "généralement": [
+    {"fr": "Le magasin ferme généralement à dix-neuf heures.", "zh": "商店一般七点关门。"},
+    {"fr": "Généralement, elle prend le métro plutôt que le bus.", "zh": "通常她坐地铁而不坐公交。"},
+    {"fr": "Il ne pleut généralement pas beaucoup ici en juillet.", "zh": "这里的七月通常雨水不多。"}
+  ],
+  "génération": [
+    {"fr": "Cette histoire se transmet de génération en génération.", "zh": "这个故事代代相传。"},
+    {"fr": "Ma génération a grandi sans téléphone portable.", "zh": "我这一代人是在没有手机的年代长大的。"},
+    {"fr": "Les jeunes de cette génération voyagent beaucoup plus.", "zh": "这一代年轻人旅行的次数多得多。"}
+  ],
+  "généreux": [
+    {"fr": "C'est généreux de ta part de prêter ta voiture.", "zh": "你肯把车借出去，真是大方。"},
+    {"fr": "Ce restaurateur généreux offre le café aux vieux du quartier.", "zh": "这位慷慨的餐馆老板请街坊老人喝咖啡。"},
+    {"fr": "Ils ont fait un don généreux à l'association du village.", "zh": "他们给村里的协会捐了一笔可观的善款。"}
+  ],
+  "géographie": [
+    {"fr": "La géographie m'a toujours semblé plus vivante que l'histoire.", "zh": "我一直觉得地理比历史更有意思。"},
+    {"fr": "Elle obtient la meilleure note de la classe en géographie.", "zh": "她的地理成绩是全班最好的。"},
+    {"fr": "Ce livre de géographie décrit tous les fleuves du continent.", "zh": "这本地理书介绍了这片大陆的所有大河。"}
+  ],
+  "habiller": [
+    {"fr": "Habille les enfants chaudement, il va neiger.", "zh": "给孩子们穿暖和点，要下雪了。"},
+    {"fr": "Elle s'habille en dix minutes chaque matin.", "zh": "她每天早上十分钟就穿戴整齐。"},
+    {"fr": "Ce tailleur sait habiller les femmes d'affaires avec élégance.", "zh": "这位裁缝很会为职业女性打造优雅着装。"}
+  ],
+  "habillé": [
+    {"fr": "Tu n'es pas assez habillé pour sortir par ce temps.", "zh": "这天气你穿这么少可不行。"},
+    {"fr": "Tout le monde était habillé en noir au vernissage.", "zh": "画展开幕式上大家都穿黑衣。"},
+    {"fr": "Les petits sont déjà habillés, on peut partir.", "zh": "小家伙们已经穿好衣服了，可以出发了。"}
+  ],
+  "habitant": [
+    {"fr": "Les habitants du village se réunissent pour nettoyer la place.", "zh": "村民们聚在一起打扫广场。"},
+    {"fr": "Cette île compte à peine mille habitants.", "zh": "这座岛只有不到一千名居民。"},
+    {"fr": "Un habitant a signalé l'odeur bizarre à la mairie.", "zh": "有位居民向市政府反映了怪味。"}
+  ],
+  "habitude": [
+    {"fr": "Il a l'habitude de boire un café en lisant le journal.", "zh": "他习惯边喝咖啡边看报。"},
+    {"fr": "Tu prends cette route par habitude ? Essaie plutôt le chemin de la rivière.", "zh": "你是习惯性地走这条路？不如试试河边那条。"},
+    {"fr": "Cinq ans dans la même maison, cela crée des habitudes.", "zh": "在同一栋房子里住上五年，就会养成各种习惯。"}
+  ],
+  "habituellement": [
+    {"fr": "Habituellement, je me lève à six heures et demie.", "zh": "我通常六点半起床。"},
+    {"fr": "Le bus passe habituellement toutes les dix minutes.", "zh": "公交车通常每十分钟一班。"},
+    {"fr": "Ils dînent habituellement à la table près de la fenêtre.", "zh": "他们通常坐在靠窗的那张桌子吃晚饭。"}
+  ],
+  "habituer": [
+    {"fr": "Habitue ton chien au bruit de l'aspirateur dès son jeune âge.", "zh": "趁狗小的时候就让它习惯吸尘器的声音。"},
+    {"fr": "Il faut s'habituer au climat sec de la montagne.", "zh": "得慢慢适应山上干燥的气候。"},
+    {"fr": "Elle a habitué ses élèves à rendre les devoirs le vendredi.", "zh": "她让学生们养成了周五交作业的习惯。"}
+  ],
+  "hache": [
+    {"fr": "Le bûcheron fend le bois avec sa hache.", "zh": "伐木工用斧头劈柴。"},
+    {"fr": "Il a enterré la hache de guerre avec son frère.", "zh": "他和哥哥握手言和了。"},
+    {"fr": "Cette vieille hache de jardin sert aussi à fendre les petites branches.", "zh": "这把老园用斧还能劈细树枝。"}
+  ],
+  "hall": [
+    {"fr": "Attends-moi dans le hall de l'hôtel, je descends dans cinq minutes.", "zh": "你在酒店大堂等我，我五分钟后下来。"},
+    {"fr": "Le hall d'entrée sent la cire fraîche.", "zh": "门厅里有一股新打蜡的味道。"},
+    {"fr": "Un grand lustre illumine le hall de la mairie.", "zh": "一盏大吊灯照亮了市政厅的门厅。"}
+  ],
+  "halte": [
+    {"fr": "Le gardien a crié « Halte ! » au voleur qui traversait le parking.", "zh": "门卫朝穿过停车场的贼大喊了一声“站住！”。"},
+    {"fr": "Halte au feu : les deux équipes sont enfin d'accord.", "zh": "停火吧：两个团队总算达成一致了。"},
+    {"fr": "Nous avons fait halte près d'une source pour déjeuner.", "zh": "我们在一处泉水旁停下来吃午饭。"}
+  ],
+  "hamster": [
+    {"fr": "Le hamster fait sa roue toute la nuit.", "zh": "仓鼠整晚都在跑轮上跑。"},
+    {"fr": "Nourris le hamster de Léa pendant son absence.", "zh": "莉亚不在的时候，请你帮忙喂她的仓鼠。"},
+    {"fr": "Ce hamster s'est échappé de sa cage hier soir.", "zh": "昨晚这只仓鼠从笼子里跑出去了。"}
+  ],
+  "hanche": [
+    {"fr": "Elle porte son bébé contre sa hanche en montant l'escalier.", "zh": "她把宝宝抱在胯上爬楼梯。"},
+    {"fr": "Grand-mère se plaint de sa hanche droite depuis l'hiver.", "zh": "奶奶从入冬起就抱怨右胯疼。"},
+    {"fr": "Il a les mains sur les hanches, fier de son potager.", "zh": "他双手叉腰，对自己的菜园颇为得意。"}
+  ],
+  "haricot": [
+    {"fr": "Mets une poignée de haricots verts dans la cocotte.", "zh": "往炖锅里抓一把四季豆。"},
+    {"fr": "Ce haricot rouge mijote avec les tomates depuis ce matin.", "zh": "这锅红豆配番茄从早上就开始煨了。"},
+    {"fr": "Le haricot grimpant pousse vite contre le treillis.", "zh": "藤架上的爬蔓豆长势很快。"}
+  ],
+  "haut": [
+    {"fr": "Du haut de la tour, on voit toute la baie.", "zh": "从塔顶可以看到整个海湾。"},
+    {"fr": "Le chat observe la cuisine depuis le haut de l'armoire.", "zh": "猫从柜子顶上俯视厨房。"},
+    {"fr": "L'ascenseur mène jusqu'en haut du donjon.", "zh": "电梯能一直通到主堡顶层。"}
+  ],
+  "hectare": [
+    {"fr": "Cette exploitation couvre deux cents hectares de vignes.", "zh": "这家农场拥有两百公顷葡萄园。"},
+    {"fr": "Un hectare de forêt a brûlé avant l'arrivée des pompiers.", "zh": "在消防队赶到之前，一公顷森林已被烧毁。"},
+    {"fr": "Ils plantent un verger de trois hectares derrière la colline.", "zh": "他们在山后种了一片三公顷的果园。"}
+  ],
+  "hein": [
+    {"fr": "Tu viens avec nous au cinéma, hein ?", "zh": "你和我们一起去看电影，好吗？"},
+    {"fr": "C'est ton anniversaire aujourd'hui, hein ? Je ne me trompe pas ?", "zh": "今天是你生日，对吧？我没记错吧？"},
+    {"fr": "Il fait chaud, hein ? On croirait déjà en été.", "zh": "今天挺热的，是吧？感觉已经是夏天了。"}
+  ],
+  "herbe": [
+    {"fr": "L'herbe est encore mouillée de rosée ce matin.", "zh": "今天早上草上还带着露水。"},
+    {"fr": "Les moutons broutent l'herbe fraîche du pré.", "zh": "羊群啃吃着牧场上鲜嫩的青草。"},
+    {"fr": "Des brins d'herbe poussent entre les dalles de la terrasse.", "zh": "露台石板缝里长出了几丛草。"}
+  ],
+  "heu": [
+    {"fr": "Heu, je ne me souviens plus de son prénom, attends.", "zh": "呃，我想不起来他的名字了，等一下。"},
+    {"fr": "Tu as vu mon portefeuille ? Heu, il était sur la table.", "zh": "看见我的钱包了吗？呃，刚才还在桌上的。"},
+    {"fr": "Heu, je ne suis pas sûr d'avoir bien compris la question.", "zh": "呃，我不太确定自己听懂了这个问题没有。"}
+  ],
+  "heureusement": [
+    {"fr": "Heureusement, j'avais pris mon parapluie, il a plu toute la journée.", "zh": "幸好我带了伞，下了一整天雨。"},
+    {"fr": "Heureusement que le voisin était là pour éteindre le début d'incendie.", "zh": "多亏邻居在场，把刚起的火扑灭了。"},
+    {"fr": "Le train était plein, mais heureusement deux places se sont libérées.", "zh": "火车上人很多，不过幸好后来空出了两个座位。"}
+  ],
+  "heureux": [
+    {"fr": "Ils sont heureux dans leur petite maison à la campagne.", "zh": "他们在乡间的小屋里过得很幸福。"},
+    {"fr": "Je suis très heureux de vous accueillir aujourd'hui.", "zh": "今天能接待各位，我非常高兴。"},
+    {"fr": "Quelle heureuse nouvelle, vous allez avoir un enfant !", "zh": "多么令人高兴的消息，你们要有孩子了！"}
+  ],
+  "hibou": [
+    {"fr": "Le hibou chasse les rongeurs dès la nuit tombée.", "zh": "天一黑，猫头鹰就开始捕食鼠类。"},
+    {"fr": "Un hibou grand-duc niche dans le vieux clocher.", "zh": "一只雕鸮在老钟楼里筑巢。"},
+    {"fr": "On entend le hibou hululer depuis la forêt.", "zh": "能听到森林那边猫头鹰的叫声。"}
+  ],
+  "hippopotame": [
+    {"fr": "L'hippopotame passe ses journées dans la boue pour se protéger du soleil.", "zh": "河马整天泡在泥里防晒。"},
+    {"fr": "Au zoo, l'hippopotame ouvre une gueule énorme pour les carottes.", "zh": "动物园里，河马张着大嘴等胡萝卜。"},
+    {"fr": "Les hippopotames se baignent dans le fleuve au crépuscule.", "zh": "黄昏时分，河马们下河洗澡。"}
+  ],
+  "hobby": [
+    {"fr": "Son hobby principal est la photo de rue.", "zh": "他的主要爱好是街头摄影。"},
+    {"fr": "Le jardinage est un hobby qui détend beaucoup de gens.", "zh": "园艺是很多人用来放松的爱好。"},
+    {"fr": "Elle cherche un hobby pour occuper ses dimanches pluvieux.", "zh": "她想找点爱好，让下雨的周日有事情做。"}
+  ],
+  "hollandais": [
+    {"fr": "Ce tableau hollandais du dix-septième siècle représente un canal gelé.", "zh": "这幅十七世纪的荷兰画作描绘了结冰的运河。"},
+    {"fr": "Mon collègue hollandais apporte toujours du fromage de chez lui.", "zh": "我那位荷兰同事总从家乡带奶酪来。"},
+    {"fr": "Les tulipes viennent des serres hollandaises.", "zh": "这些郁金香产自荷兰的温室。"}
+  ],
+  "honnête": [
+    {"fr": "C'est un commerçant honnête, il ne gonfle jamais ses prix.", "zh": "这是个诚实的商家，从不抬价。"},
+    {"fr": "Sois honnête : as-tu vraiment terminé tes devoirs ?", "zh": "说实话：你真的写完作业了吗？"},
+    {"fr": "Elle a mené une enquête honnête et rendu un rapport clair.", "zh": "她做了一次公正的调查，交出了一份清晰的报告。"}
+  ],
+  "horaire": [
+    {"fr": "Le nouvel horaire des trains entre en vigueur en décembre.", "zh": "新的火车时刻表十二月生效。"},
+    {"fr": "Vérifie l'horaire d'ouverture de la piscine avant d'y aller.", "zh": "去游泳馆之前先查一下开放时间。"},
+    {"fr": "Son horaire de travail est flexible depuis la rentrée.", "zh": "开学以来他的工作时间很灵活。"}
+  ],
+  "horloge": [
+    {"fr": "La grande horloge de la gare est en retard de deux minutes.", "zh": "车站的大钟慢了两分钟。"},
+    {"fr": "L'horloge du salon carillonne chaque heure.", "zh": "客厅的挂钟每个整点都会报时。"},
+    {"fr": "Il faut remonter cette horloge ancienne une fois par semaine.", "zh": "这座老钟每周要上一次发条。"}
+  ],
+  "horreur": [
+    {"fr": "Elle a une horreur des films d'épouvante.", "zh": "她特别受不了恐怖片。"},
+    {"fr": "Quelle horreur, cette route est couverte de déchets après la fête.", "zh": "真吓人，庆典之后这条路满是垃圾。"},
+    {"fr": "Il racontait les horreurs de la guerre dans ses lettres.", "zh": "他在信里讲述战争的种种恐怖。"}
+  ],
+  "horrible": [
+    {"fr": "Quel temps horrible pour un pique-nique !", "zh": "这天气野餐可真糟糕！"},
+    {"fr": "Il a fait un rêve horrible après le film.", "zh": "看完电影他做了个噩梦。"},
+    {"fr": "Cette douleur horrible dans le dos ne passe pas.", "zh": "背上这阵剧痛一直不消。"}
+  ],
+  "hors": [
+    {"fr": "Hors saison, l'hôtel coûte moitié moins cher.", "zh": "淡季时酒店便宜一半。"},
+    {"fr": "Le chien s'est échappé hors du jardin par le trou du grillage.", "zh": "狗从栅栏的洞钻出去，跑出了院子。"},
+    {"fr": "Ce dossier est hors de mes compétences, adresse-toi au service comptable.", "zh": "这个案子超出我的能力范围，你去问会计部门吧。"}
+  ],
+  "hot dog": [
+    {"fr": "J'ai acheté un hot dog au stand devant le stade.", "zh": "我在体育场外的小摊买了个热狗。"},
+    {"fr": "Mange ton hot dog avant que la moutarde ne coule.", "zh": "趁芥末还没流出来，快点吃你的热狗。"},
+    {"fr": "Un hot dog géant, c'est trop pour mon appétit.", "zh": "超大热狗对我的胃口来说太多了。"}
+  ],
+  "hot-dog": [
+    {"fr": "Ce stand propose le meilleur hot-dog de la ville.", "zh": "这个摊位卖全城最好吃的热狗。"},
+    {"fr": "Il a commandé un hot-dog avec des oignons grillés.", "zh": "他点了一个加烤洋葱的热狗。"},
+    {"fr": "Le prix du hot-dog a encore augmenté cette année.", "zh": "热狗的价格今年又涨了。"}
+  ],
+  "hum": [
+    {"fr": "Hum, je ne suis pas convaincu par ce plan.", "zh": "嗯，这个方案我可不怎么信服。"},
+    {"fr": "Hum, il y a un problème avec cette facture.", "zh": "嗯，这张发票好像有点问题。"},
+    {"fr": "Elle a répondu « hum » et a continué à lire.", "zh": "她应了一声“嗯”，接着看书。"}
+  ],
+  "humain": [
+    {"fr": "Aucun humain ne pourrait soulever ce rocher seul.", "zh": "没有人能独自搬起这块石头。"},
+    {"fr": "C'est une erreur humaine, cela peut arriver à tout le monde.", "zh": "这是人的失误，谁都会遇到。"},
+    {"fr": "Ce médecin a un vrai sens humain avec ses patients.", "zh": "这位医生待病人特别有人情味。"}
+  ],
+  "humeur": [
+    {"fr": "Elle est de bonne humeur depuis qu'elle court le matin.", "zh": "自从早上开始跑步，她心情一直很好。"},
+    {"fr": "Ne le dérange pas, il est de mauvaise humeur aujourd'hui.", "zh": "别去招他，他今天心情不好。"},
+    {"fr": "Son humeur change avec la météo.", "zh": "他的情绪随着天气变化。"}
+  ],
+  "humide": [
+    {"fr": "Le sous-sol est humide, il faudra installer un déshumidificateur.", "zh": "地下室很潮，得装台除湿机。"},
+    {"fr": "Cet été particulièrement humide a fait pourrir les récoltes.", "zh": "今年夏天格外潮湿，庄稼都烂了。"},
+    {"fr": "L'air est si humide que les serviettes ne sèchent jamais.", "zh": "空气太潮湿，毛巾都晾不干。"}
+  ],
+  "humour": [
+    {"fr": "Son humour met tout le bureau de bonne humeur.", "zh": "他的幽默让整个办公室心情大好。"},
+    {"fr": "J'apprécie son humour anglais, toujours piquant.", "zh": "我很欣赏他的英式幽默，总带着机锋。"},
+    {"fr": "Un peu d'humour aide à passer les moments difficiles.", "zh": "一点幽默感有助于度过艰难时刻。"}
+  ],
+  "hurler": [
+    {"fr": "Le bébé hurle dès qu'on lui enlève son jouet.", "zh": "一拿走玩具，宝宝就大喊大叫。"},
+    {"fr": "Il a hurlé de douleur en se cognant le petit doigt.", "zh": "他撞到小指头，疼得大叫起来。"},
+    {"fr": "Les supporters hurlent le nom de leur équipe.", "zh": "球迷们高喊着自己球队的名字。"}
+  ],
+  "hygiène": [
+    {"fr": "Lave-toi les mains, l'hygiène avant tout !", "zh": "洗手去，卫生第一！"},
+    {"fr": "Une bonne hygiène de vie passe par le sommeil et l'alimentation.", "zh": "健康的生活方式离不开睡眠和饮食。"},
+    {"fr": "Les normes d'hygiène dans cette cuisine sont très strictes.", "zh": "这间厨房的卫生标准非常严格。"}
+  ],
+  "hélicoptère": [
+    {"fr": "L'hélicoptère survole la baie pour les touristes.", "zh": "直升机载着游客在湾区的上空盘旋。"},
+    {"fr": "Un hélicoptère a évacué le blessé vers l'hôpital.", "zh": "一架直升机把伤员送去了医院。"},
+    {"fr": "On entend le hélicoptère de la gendarmerie chaque samedi.", "zh": "每个周六都能听到宪兵队直升机的声音。"}
+  ],
+  "hésiter": [
+    {"fr": "N'hésite pas à me rappeler si tu as d'autres questions.", "zh": "还有问题的话，随时再打给我，别犹豫。"},
+    {"fr": "Elle a hésité devant les deux robes avant de choisir la verte.", "zh": "她在两条裙子之间犹豫了一会儿，最后选了绿的。"},
+    {"fr": "N'hésitez pas à goûter le plat du jour.", "zh": "别客气，尝尝今日特餐吧。"}
+  ],
+  "hôtesse": [
+    {"fr": "L'hôtesse de l'air explique les consignes de sécurité.", "zh": "空乘人员讲解安全须知。"},
+    {"fr": "L'hôtesse d'accueil vous orientera vers le bon service.", "zh": "接待小姐会指引您到相应的部门。"},
+    {"fr": "En tant qu'hôtesse, elle a reçu les invités toute la soirée.", "zh": "作为女主人，她整晚都在招呼宾客。"}
+  ],
+  "identité": [
+    {"fr": "Présentez une pièce d'identité à l'entrée du bâtiment.", "zh": "进这栋大楼需要出示身份证件。"},
+    {"fr": "Sa carte d'identité a été volée à la gare.", "zh": "她的身份证在车站被偷了。"},
+    {"fr": "La cuisine fait partie de l'identité de cette région.", "zh": "美食是这一地区身份认同的一部分。"}
+  ],
+  "idiot": [
+    {"fr": "Arrête de faire l'idiot devant les caméras !", "zh": "别在镜头前装傻了！"},
+    {"fr": "Quel idiot, j'ai oublié mes clés dans la voiture.", "zh": "我真是个傻瓜，把钥匙锁车里了。"},
+    {"fr": "Ce type me prend pour un idiot, je connais les prix.", "zh": "这家伙当我是傻子，价格我门儿清。"}
+  ],
+  "idéal": [
+    {"fr": "Cette plage est l'endroit idéal pour apprendre à surfer.", "zh": "这片海滩是学冲浪的绝佳地点。"},
+    {"fr": "Par une température de vingt degrés, c'est idéal pour randonner.", "zh": "二十度的天气正适合远足。"},
+    {"fr": "Ce canapé serait idéal dans votre salon ensoleillé.", "zh": "这张沙发放在您采光好的客厅里正合适。"}
+  ],
+  "image": [
+    {"fr": "L'image du film est restée dans ma tête toute la nuit.", "zh": "电影里的那个画面在我脑子里萦绕了一夜。"},
+    {"fr": "Les images du reportage montrent la vie du port.", "zh": "纪录片的画面展现了港口的生活。"},
+    {"fr": "Cette marque soigne beaucoup son image.", "zh": "这个品牌非常注重自己的形象。"}
+  ],
+  "imagination": [
+    {"fr": "Les enfants ont une imagination sans limites.", "zh": "孩子们的想象力没有边界。"},
+    {"fr": "Son imagination l'emporte parfois trop loin.", "zh": "她的想象有时跑得太远。"},
+    {"fr": "C'est avec imagination qu'il a réparé la porte sans outils.", "zh": "他没工具，全凭巧思把门修好了。"}
+  ],
+  "imaginer": [
+    {"fr": "Imagine un peu la scène : la salle entière applaudit.", "zh": "想象一下那个场景：全场起立鼓掌。"},
+    {"fr": "Je n'imaginais pas la ville aussi vivante la nuit.", "zh": "我没想到这座城市夜里这么有活力。"},
+    {"fr": "Elle imagine une fin différente pour chaque histoire qu'elle lit.", "zh": "她读到的每个故事，都会想象出另一种结局。"}
+  ],
+  "imbécile": [
+    {"fr": "Ne fais pas l'imbécile avec les allumettes !", "zh": "别拿火柴胡闹！"},
+    {"fr": "Il s'est senti imbécile d'avoir raté le dernier métro.", "zh": "赶不上末班地铁，他觉得自己真蠢。"},
+    {"fr": "Ce commentaire imbécile a blessé toute l'équipe.", "zh": "这句蠢话伤了整个团队的心。"}
+  ],
+  "imiter": [
+    {"fr": "Le perroquet imite parfaitement la sonnerie du téléphone.", "zh": "这只鹦鹉模仿电话铃声惟妙惟肖。"},
+    {"fr": "Les enfants imitent leurs professeurs pour rire.", "zh": "孩子们模仿老师取乐。"},
+    {"fr": "N'essaie pas d'imiter les grands, tu es bien comme tu es.", "zh": "不用学大人样，你现在的样子就很好。"}
+  ],
+  "immense": [
+    {"fr": "La plaine immense s'étend jusqu'à l'horizon.", "zh": "辽阔的平原一直延伸到天边。"},
+    {"fr": "Merci infiniment, votre aide m'a été d'un immense secours.", "zh": "太感谢了，您的帮助帮了大忙。"},
+    {"fr": "Devant l'immense bibliothèque, elle ne savait par où commencer.", "zh": "面对巨大的藏书库，她不知从何读起。"}
+  ],
+  "immeuble": [
+    {"fr": "Notre immeuble compte huit étages et un ascenseur.", "zh": "我们这栋楼有八层，带电梯。"},
+    {"fr": "Le concierge de l'immeuble arrose les plantes du hall.", "zh": "大楼的门房给门厅的绿植浇水。"},
+    {"fr": "Tous les immeubles du quartier datent des années trente.", "zh": "街区里的楼房都是三十年代建的老房子。"}
+  ],
+  "immobile": [
+    {"fr": "Le héron reste immobile au bord de l'étang.", "zh": "苍鹭一动不动地站在池塘边。"},
+    {"fr": "Reste immobile pendant la photo, sinon elle sera floue.", "zh": "拍照时别动，不然照片会糊。"},
+    {"fr": "Immobile derrière le rideau, elle attendait son tour de scène.", "zh": "她一动不动地站在幕布后面，等着上场。"}
+  ],
+  "immédiat": [
+    {"fr": "Sa démission a eu un effet immédiat sur l'équipe.", "zh": "他的辞职对团队立刻产生了影响。"},
+    {"fr": "Le voisinage exige une réponse immédiate à la pétition.", "zh": "街坊们要求立即答复请愿。"},
+    {"fr": "Ce remède soulage la douleur de façon immédiate.", "zh": "这种药能立刻缓解疼痛。"}
+  ],
+  "immédiatement": [
+    {"fr": "Réponds immédiatement au client, c'est une commande urgente.", "zh": "马上回复客户，这是笔紧急订单。"},
+    {"fr": "Il a raccroché immédiatement, sans un mot.", "zh": "他一句话没说就立刻挂了电话。"},
+    {"fr": "Ouvre les fenêtres immédiatement, ça sent le brûlé !", "zh": "马上开窗，有东西烧糊了！"}
+  ]
+}

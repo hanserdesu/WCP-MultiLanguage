@@ -1,0 +1,602 @@
+[
+{
+"word": "réflexe",
+"pos": "n.m.",
+"zh": "反射；本能反应",
+"level": "b1"
+},
+{
+"word": "réflexion",
+"pos": "n.f.",
+"zh": "思考；反思",
+"level": "b1"
+},
+{
+"word": "réfléchi",
+"pos": "adj.",
+"zh": "深思熟虑的",
+"level": "b1"
+},
+{
+"word": "réfléchir",
+"pos": "v.",
+"zh": "思考；反省",
+"level": "b1"
+},
+{
+"word": "réforme",
+"pos": "n.f.",
+"zh": "改革",
+"level": "b1"
+},
+{
+"word": "réfugié",
+"pos": "n.m.",
+"zh": "难民；避难者",
+"level": "b1"
+},
+{
+"word": "référence",
+"pos": "n.f.",
+"zh": "参考；出处",
+"level": "b1"
+},
+{
+"word": "régime",
+"pos": "n.m.",
+"zh": "制度；饮食法；政体",
+"level": "b1"
+},
+{
+"word": "régional",
+"pos": "adj.",
+"zh": "地区的；区域的",
+"level": "b1"
+},
+{
+"word": "régler",
+"pos": "v.",
+"zh": "解决；调整；支付",
+"level": "b1"
+},
+{
+"word": "régner",
+"pos": "v.",
+"zh": "统治；盛行",
+"level": "b1"
+},
+{
+"word": "régulièrement",
+"pos": "adv.",
+"zh": "定期地；经常地",
+"level": "b1"
+},
+{
+"word": "réjouir",
+"pos": "v.",
+"zh": "使高兴",
+"level": "b1"
+},
+{
+"word": "rénover",
+"pos": "v.",
+"zh": "翻新；修缮",
+"level": "b1"
+},
+{
+"word": "répandre",
+"pos": "v.",
+"zh": "撒；传播；流布",
+"level": "b1"
+},
+{
+"word": "répartir",
+"pos": "v.",
+"zh": "分配；分摊",
+"level": "b1"
+},
+{
+"word": "réplique",
+"pos": "n.f.",
+"zh": "回嘴；反驳；台词",
+"level": "b1"
+},
+{
+"word": "républicain",
+"pos": "n.m.",
+"zh": "共和的；共和主义者",
+"level": "b1"
+},
+{
+"word": "réputation",
+"pos": "n.f.",
+"zh": "名声；声誉",
+"level": "b1"
+},
+{
+"word": "répétition",
+"pos": "n.f.",
+"zh": "重复；排练",
+"level": "b1"
+},
+{
+"word": "réseau",
+"pos": "n.m.",
+"zh": "网；网络；人脉",
+"level": "b1"
+},
+{
+"word": "réserve",
+"pos": "n.f.",
+"zh": "储备；保留",
+"level": "b1"
+},
+{
+"word": "réservoir",
+"pos": "n.m.",
+"zh": "水库；油箱",
+"level": "b1"
+},
+{
+"word": "réservé",
+"pos": "adj.",
+"zh": "预订的；矜持的",
+"level": "b1"
+},
+{
+"word": "résistance",
+"pos": "n.f.",
+"zh": "抵抗；抵抗力",
+"level": "b1"
+},
+{
+"word": "résistant",
+"pos": "adj.",
+"zh": "坚固的；耐…的",
+"level": "b1"
+},
+{
+"word": "résolution",
+"pos": "n.f.",
+"zh": "决心；决议；分辨率",
+"level": "b1"
+},
+{
+"word": "résonner",
+"pos": "v.",
+"zh": "回响；鸣响",
+"level": "b1"
+},
+{
+"word": "résoudre",
+"pos": "v.",
+"zh": "解决；解答",
+"level": "b1"
+},
+{
+"word": "résumer",
+"pos": "v.",
+"zh": "概括；总结",
+"level": "b1"
+},
+{
+"word": "rétrécir",
+"pos": "v.",
+"zh": "使缩小；变窄",
+"level": "b1"
+},
+{
+"word": "réunion",
+"pos": "n.f.",
+"zh": "会议；聚会",
+"level": "b1"
+},
+{
+"word": "réunir",
+"pos": "v.",
+"zh": "集合；聚集；合并",
+"level": "b1"
+},
+{
+"word": "réussi",
+"pos": "adj.",
+"zh": "成功的；圆满的",
+"level": "b1"
+},
+{
+"word": "réussite",
+"pos": "n.f.",
+"zh": "成功",
+"level": "b1"
+},
+{
+"word": "révision",
+"pos": "n.f.",
+"zh": "复习；修订",
+"level": "b1"
+},
+{
+"word": "révolter",
+"pos": "v.",
+"zh": "激怒；使愤慨",
+"level": "b1"
+},
+{
+"word": "révolution",
+"pos": "n.f.",
+"zh": "革命；变革",
+"level": "b1"
+},
+{
+"word": "révolutionnaire",
+"pos": "adj.",
+"zh": "革命的；革命者",
+"level": "b1"
+},
+{
+"word": "révélation",
+"pos": "n.f.",
+"zh": "揭露；启示",
+"level": "b1"
+},
+{
+"word": "révéler",
+"pos": "v.",
+"zh": "揭露；显示",
+"level": "b1"
+},
+{
+"word": "réécrire",
+"pos": "v.",
+"zh": "重写；改写",
+"level": "b1"
+},
+{
+"word": "rêveur",
+"pos": "n.m.",
+"zh": "爱做梦的；出神的",
+"level": "b1"
+},
+{
+"word": "rêvé",
+"pos": "adj.",
+"zh": "梦寐以求的；理想的",
+"level": "b1"
+},
+{
+"word": "rôti",
+"pos": "n.m.",
+"zh": "烤肉",
+"level": "b1"
+},
+{
+"word": "sabotage",
+"pos": "n.m.",
+"zh": "蓄意破坏；破坏活动",
+"level": "b1"
+},
+{
+"word": "sacrifice",
+"pos": "n.m.",
+"zh": "牺牲",
+"level": "b1"
+},
+{
+"word": "sacrifier",
+"pos": "v.",
+"zh": "牺牲",
+"level": "b1"
+},
+{
+"word": "sacré",
+"pos": "adj.",
+"zh": "神圣的；该死的（语气）",
+"level": "b1"
+},
+{
+"word": "sagement",
+"pos": "adv.",
+"zh": "明智地；乖巧地",
+"level": "b1"
+},
+{
+"word": "sagesse",
+"pos": "n.f.",
+"zh": "智慧；明智",
+"level": "b1"
+},
+{
+"word": "saigner",
+"pos": "v.",
+"zh": "流血；放血",
+"level": "b1"
+},
+{
+"word": "sain",
+"pos": "adj.",
+"zh": "健康的；健全的",
+"level": "b1"
+},
+{
+"word": "saisir",
+"pos": "v.",
+"zh": "抓住；领会",
+"level": "b1"
+},
+{
+"word": "salaud",
+"pos": "n.m.",
+"zh": "混蛋；坏蛋（粗俗）",
+"level": "b1"
+},
+{
+"word": "saleté",
+"pos": "n.f.",
+"zh": "肮脏；污物",
+"level": "b1"
+},
+{
+"word": "salive",
+"pos": "n.f.",
+"zh": "唾液；口水",
+"level": "b1"
+},
+{
+"word": "sanction",
+"pos": "n.f.",
+"zh": "处罚；制裁",
+"level": "b1"
+},
+{
+"word": "sanguin",
+"pos": "adj.",
+"zh": "血液的",
+"level": "b1"
+},
+{
+"word": "sanitaire",
+"pos": "adj.",
+"zh": "卫生的；卫生方面的",
+"level": "b1"
+},
+{
+"word": "satellite",
+"pos": "n.m.",
+"zh": "卫星",
+"level": "b1"
+},
+{
+"word": "satisfaire",
+"pos": "v.",
+"zh": "使满意；满足",
+"level": "b1"
+},
+{
+"word": "satisfaisant",
+"pos": "adj.",
+"zh": "令人满意的",
+"level": "b1"
+},
+{
+"word": "satisfait",
+"pos": "adj.",
+"zh": "满意的；满足的",
+"level": "b1"
+},
+{
+"word": "sauf",
+"pos": "prép.",
+"zh": "除…以外",
+"level": "b1"
+},
+{
+"word": "sauterelle",
+"pos": "n.f.",
+"zh": "蚱蜢",
+"level": "b1"
+},
+{
+"word": "sauvage",
+"pos": "adj.",
+"zh": "野生的；野蛮的",
+"level": "b1"
+},
+{
+"word": "sauvegarder",
+"pos": "v.",
+"zh": "保存（文件）；保障",
+"level": "b1"
+},
+{
+"word": "sauvetage",
+"pos": "n.m.",
+"zh": "营救；救援",
+"level": "b1"
+},
+{
+"word": "savant",
+"pos": "n.m.",
+"zh": "学者；博学的",
+"level": "b1"
+},
+{
+"word": "savourer",
+"pos": "v.",
+"zh": "品味；细细享受",
+"level": "b1"
+},
+{
+"word": "scandale",
+"pos": "n.m.",
+"zh": "丑闻；轰动",
+"level": "b1"
+},
+{
+"word": "scandaleux",
+"pos": "adj.",
+"zh": "令人愤慨的；可耻的",
+"level": "b1"
+},
+{
+"word": "schéma",
+"pos": "n.m.",
+"zh": "简图；纲要",
+"level": "b1"
+},
+{
+"word": "scie",
+"pos": "n.f.",
+"zh": "锯子",
+"level": "b1"
+},
+{
+"word": "science-fiction",
+"pos": "n.f.",
+"zh": "科幻；科幻小说",
+"level": "b1"
+},
+{
+"word": "scientifique",
+"pos": "adj.",
+"zh": "科学的；科学家",
+"level": "b1"
+},
+{
+"word": "scientifiquement",
+"pos": "adv.",
+"zh": "科学地；从科学上讲",
+"level": "b1"
+},
+{
+"word": "scolaire",
+"pos": "adj.",
+"zh": "学校的；学制的",
+"level": "b1"
+},
+{
+"word": "sculpter",
+"pos": "v.",
+"zh": "雕刻",
+"level": "b1"
+},
+{
+"word": "sculpteur",
+"pos": "n.m.",
+"zh": "雕塑家",
+"level": "b1"
+},
+{
+"word": "scène",
+"pos": "n.f.",
+"zh": "舞台；场景",
+"level": "b1"
+},
+{
+"word": "scénario",
+"pos": "n.m.",
+"zh": "剧本；情节",
+"level": "b1"
+},
+{
+"word": "scénariste",
+"pos": "n.",
+"zh": "编剧",
+"level": "b1"
+},
+{
+"word": "secondaire",
+"pos": "adj.",
+"zh": "次要的；中等的",
+"level": "b1"
+},
+{
+"word": "secouer",
+"pos": "v.",
+"zh": "摇动；抖动",
+"level": "b1"
+},
+{
+"word": "secrètement",
+"pos": "adv.",
+"zh": "秘密地",
+"level": "b1"
+},
+{
+"word": "secte",
+"pos": "n.f.",
+"zh": "教派；邪教",
+"level": "b1"
+},
+{
+"word": "secteur",
+"pos": "n.m.",
+"zh": "部门；领域",
+"level": "b1"
+},
+{
+"word": "section",
+"pos": "n.f.",
+"zh": "部分；部门",
+"level": "b1"
+},
+{
+"word": "seigneur",
+"pos": "n.m.",
+"zh": "领主；老爷；勋爵",
+"level": "b1"
+},
+{
+"word": "sein",
+"pos": "n.m.",
+"zh": "胸；乳房；内部",
+"level": "b1"
+},
+{
+"word": "selle",
+"pos": "n.f.",
+"zh": "马鞍；车座",
+"level": "b1"
+},
+{
+"word": "selon",
+"pos": "prép.",
+"zh": "根据；依照",
+"level": "b1"
+},
+{
+"word": "semblable",
+"pos": "adj.",
+"zh": "相似的；类似的",
+"level": "b1"
+},
+{
+"word": "semblant",
+"pos": "n.m.",
+"zh": "假装；外表",
+"level": "b1"
+},
+{
+"word": "sembler",
+"pos": "v.",
+"zh": "似乎；好像",
+"level": "b1"
+},
+{
+"word": "semelle",
+"pos": "n.f.",
+"zh": "鞋底",
+"level": "b1"
+},
+{
+"word": "semer",
+"pos": "v.",
+"zh": "播种；撒",
+"level": "b1"
+},
+{
+"word": "sens",
+"pos": "n.m.",
+"zh": "意义；感觉；方向",
+"level": "b1"
+}
+]

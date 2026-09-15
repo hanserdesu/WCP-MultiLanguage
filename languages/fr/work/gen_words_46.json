@@ -1,0 +1,602 @@
+[
+{
+"word": "peureux",
+"pos": "adj.",
+"zh": "胆小的；胆怯的",
+"level": "b1"
+},
+{
+"word": "phare",
+"pos": "n.m.",
+"zh": "灯塔；车头灯",
+"level": "b1"
+},
+{
+"word": "phase",
+"pos": "n.f.",
+"zh": "阶段；时期",
+"level": "b1"
+},
+{
+"word": "philo",
+"pos": "n.f.",
+"zh": "哲学（口语）",
+"level": "b1"
+},
+{
+"word": "philosophe",
+"pos": "n.",
+"zh": "哲学家",
+"level": "b1"
+},
+{
+"word": "philosophie",
+"pos": "n.f.",
+"zh": "哲学",
+"level": "b1"
+},
+{
+"word": "phoque",
+"pos": "n.m.",
+"zh": "海豹",
+"level": "b1"
+},
+{
+"word": "photocopieur",
+"pos": "n.m.",
+"zh": "复印机",
+"level": "b1"
+},
+{
+"word": "piger",
+"pos": "v.",
+"zh": "明白；领会（口语）",
+"level": "b1"
+},
+{
+"word": "piloter",
+"pos": "v.",
+"zh": "驾驶；操纵",
+"level": "b1"
+},
+{
+"word": "pilule",
+"pos": "n.f.",
+"zh": "药丸；避孕药",
+"level": "b1"
+},
+{
+"word": "piment",
+"pos": "n.m.",
+"zh": "辣椒",
+"level": "b1"
+},
+{
+"word": "pincer",
+"pos": "v.",
+"zh": "捏；掐",
+"level": "b1"
+},
+{
+"word": "pionnier",
+"pos": "n.m.",
+"zh": "先驱；开拓者",
+"level": "b1"
+},
+{
+"word": "piquant",
+"pos": "adj.",
+"zh": "辣的；扎人的；尖刻的",
+"level": "b1"
+},
+{
+"word": "pirater",
+"pos": "v.",
+"zh": "盗版；非法侵入",
+"level": "b1"
+},
+{
+"word": "pire",
+"pos": "adj.",
+"zh": "更坏的；最糟的",
+"level": "b1"
+},
+{
+"word": "pisser",
+"pos": "v.",
+"zh": "撒尿（粗俗）",
+"level": "b1"
+},
+{
+"word": "piste",
+"pos": "n.f.",
+"zh": "跑道；踪迹；小径",
+"level": "b1"
+},
+{
+"word": "pitié",
+"pos": "n.f.",
+"zh": "怜悯；同情",
+"level": "b1"
+},
+{
+"word": "placé",
+"pos": "adj.",
+"zh": "位于的；处境有利的",
+"level": "b1"
+},
+{
+"word": "plaie",
+"pos": "n.f.",
+"zh": "伤口；创伤",
+"level": "b1"
+},
+{
+"word": "plaindre",
+"pos": "v.",
+"zh": "怜悯；抱怨",
+"level": "b1"
+},
+{
+"word": "plaine",
+"pos": "n.f.",
+"zh": "平原",
+"level": "b1"
+},
+{
+"word": "plainte",
+"pos": "n.f.",
+"zh": "抱怨；申诉",
+"level": "b1"
+},
+{
+"word": "plaisanter",
+"pos": "v.",
+"zh": "开玩笑",
+"level": "b1"
+},
+{
+"word": "plaisanterie",
+"pos": "n.f.",
+"zh": "玩笑；戏言",
+"level": "b1"
+},
+{
+"word": "planer",
+"pos": "v.",
+"zh": "滑翔；飘荡",
+"level": "b1"
+},
+{
+"word": "planifier",
+"pos": "v.",
+"zh": "计划；规划",
+"level": "b1"
+},
+{
+"word": "planning",
+"pos": "n.m.",
+"zh": "日程表",
+"level": "b1"
+},
+{
+"word": "planquer",
+"pos": "v.",
+"zh": "藏；躲藏（口语）",
+"level": "b1"
+},
+{
+"word": "plantation",
+"pos": "n.f.",
+"zh": "种植园；种植",
+"level": "b1"
+},
+{
+"word": "planté",
+"pos": "adj.",
+"zh": "种下的；呆立的",
+"level": "b1"
+},
+{
+"word": "plate-forme",
+"pos": "n.f.",
+"zh": "平台；站台",
+"level": "b1"
+},
+{
+"word": "plateau",
+"pos": "n.m.",
+"zh": "托盘；高原",
+"level": "b1"
+},
+{
+"word": "pleinement",
+"pos": "adv.",
+"zh": "充分地；完全地",
+"level": "b1"
+},
+{
+"word": "pleur",
+"pos": "n.m.",
+"zh": "哭泣；眼泪",
+"level": "b1"
+},
+{
+"word": "pli",
+"pos": "n.m.",
+"zh": "褶皱；折痕",
+"level": "b1"
+},
+{
+"word": "plier",
+"pos": "v.",
+"zh": "折叠；使屈服",
+"level": "b1"
+},
+{
+"word": "plomb",
+"pos": "n.m.",
+"zh": "铅；铅块",
+"level": "b1"
+},
+{
+"word": "plombier",
+"pos": "n.m.",
+"zh": "水管工；铅管工",
+"level": "b1"
+},
+{
+"word": "plongée",
+"pos": "n.f.",
+"zh": "潜水；跳水",
+"level": "b1"
+},
+{
+"word": "plâtre",
+"pos": "n.m.",
+"zh": "灰泥；石膏",
+"level": "b1"
+},
+{
+"word": "pneumonie",
+"pos": "n.f.",
+"zh": "肺炎",
+"level": "b1"
+},
+{
+"word": "podium",
+"pos": "n.m.",
+"zh": "领奖台；讲台",
+"level": "b1"
+},
+{
+"word": "poignarder",
+"pos": "v.",
+"zh": "用匕首刺",
+"level": "b1"
+},
+{
+"word": "poignée",
+"pos": "n.f.",
+"zh": "把手；一把；一撮",
+"level": "b1"
+},
+{
+"word": "poing",
+"pos": "n.m.",
+"zh": "拳头",
+"level": "b1"
+},
+{
+"word": "pointe",
+"pos": "n.f.",
+"zh": "尖端；顶尖",
+"level": "b1"
+},
+{
+"word": "pointer",
+"pos": "v.",
+"zh": "指向；打卡",
+"level": "b1"
+},
+{
+"word": "poitrine",
+"pos": "n.f.",
+"zh": "胸；胸膛",
+"level": "b1"
+},
+{
+"word": "poivron",
+"pos": "n.m.",
+"zh": "甜椒；柿子椒",
+"level": "b1"
+},
+{
+"word": "poliment",
+"pos": "adv.",
+"zh": "礼貌地",
+"level": "b1"
+},
+{
+"word": "politesse",
+"pos": "n.f.",
+"zh": "礼貌；客气",
+"level": "b1"
+},
+{
+"word": "politicien",
+"pos": "n.m.",
+"zh": "政客",
+"level": "b1"
+},
+{
+"word": "politique",
+"pos": "n.",
+"zh": "政治；政策的",
+"level": "b1"
+},
+{
+"word": "politiquement",
+"pos": "adv.",
+"zh": "在政治上",
+"level": "b1"
+},
+{
+"word": "polluer",
+"pos": "v.",
+"zh": "污染",
+"level": "b1"
+},
+{
+"word": "pommade",
+"pos": "n.f.",
+"zh": "药膏；发油",
+"level": "b1"
+},
+{
+"word": "poney",
+"pos": "n.m.",
+"zh": "矮马；小马",
+"level": "b1"
+},
+{
+"word": "pop",
+"pos": "adj.",
+"zh": "流行音乐的",
+"level": "b1"
+},
+{
+"word": "porcelaine",
+"pos": "n.f.",
+"zh": "瓷；瓷器",
+"level": "b1"
+},
+{
+"word": "portail",
+"pos": "n.m.",
+"zh": "大门；门户网站",
+"level": "b1"
+},
+{
+"word": "porte-monnaie",
+"pos": "n.m.",
+"zh": "钱包；零钱包",
+"level": "b1"
+},
+{
+"word": "portion",
+"pos": "n.f.",
+"zh": "部分；一份",
+"level": "b1"
+},
+{
+"word": "portrait",
+"pos": "n.m.",
+"zh": "肖像；描绘",
+"level": "b1"
+},
+{
+"word": "position",
+"pos": "n.f.",
+"zh": "位置；姿势；立场",
+"level": "b1"
+},
+{
+"word": "possession",
+"pos": "n.f.",
+"zh": "拥有；占有物",
+"level": "b1"
+},
+{
+"word": "posséder",
+"pos": "v.",
+"zh": "拥有；具有",
+"level": "b1"
+},
+{
+"word": "postal",
+"pos": "adj.",
+"zh": "邮政的",
+"level": "b1"
+},
+{
+"word": "poste",
+"pos": "n.",
+"zh": "职位；岗位",
+"level": "b1"
+},
+{
+"word": "poster",
+"pos": "v.",
+"zh": "邮寄；张贴",
+"level": "b1"
+},
+{
+"word": "postuler",
+"pos": "v.",
+"zh": "申请（职位）",
+"level": "b1"
+},
+{
+"word": "potable",
+"pos": "adj.",
+"zh": "可饮用的；凑合的",
+"level": "b1"
+},
+{
+"word": "potager",
+"pos": "n.m.",
+"zh": "菜园",
+"level": "b1"
+},
+{
+"word": "pote",
+"pos": "n.m.",
+"zh": "好友；哥们儿（口语）",
+"level": "b1"
+},
+{
+"word": "potentiel",
+"pos": "n.m.",
+"zh": "潜力；潜能",
+"level": "b1"
+},
+{
+"word": "potion",
+"pos": "n.f.",
+"zh": "药水；魔水",
+"level": "b1"
+},
+{
+"word": "pou",
+"pos": "n.m.",
+"zh": "虱子",
+"level": "b1"
+},
+{
+"word": "poulain",
+"pos": "n.m.",
+"zh": "马驹；小马",
+"level": "b1"
+},
+{
+"word": "poumon",
+"pos": "n.m.",
+"zh": "肺；肺部",
+"level": "b1"
+},
+{
+"word": "pourcentage",
+"pos": "n.m.",
+"zh": "百分比",
+"level": "b1"
+},
+{
+"word": "pourri",
+"pos": "adj.",
+"zh": "腐烂的；烂透的",
+"level": "b1"
+},
+{
+"word": "pourrir",
+"pos": "v.",
+"zh": "使腐烂；腐烂",
+"level": "b1"
+},
+{
+"word": "poursuite",
+"pos": "n.f.",
+"zh": "追赶；追究；诉讼",
+"level": "b1"
+},
+{
+"word": "poursuivre",
+"pos": "v.",
+"zh": "追赶；继续；追究",
+"level": "b1"
+},
+{
+"word": "pourtant",
+"pos": "adv.",
+"zh": "然而；可是",
+"level": "b1"
+},
+{
+"word": "pousse",
+"pos": "n.f.",
+"zh": "芽；新梢",
+"level": "b1"
+},
+{
+"word": "poussière",
+"pos": "n.f.",
+"zh": "灰尘",
+"level": "b1"
+},
+{
+"word": "prairie",
+"pos": "n.f.",
+"zh": "草地；牧场",
+"level": "b1"
+},
+{
+"word": "pratiquement",
+"pos": "adv.",
+"zh": "几乎；实际上",
+"level": "b1"
+},
+{
+"word": "premièrement",
+"pos": "adv.",
+"zh": "第一；首先",
+"level": "b1"
+},
+{
+"word": "presse",
+"pos": "n.f.",
+"zh": "新闻界；报刊",
+"level": "b1"
+},
+{
+"word": "presser",
+"pos": "v.",
+"zh": "催促；挤压",
+"level": "b1"
+},
+{
+"word": "pressing",
+"pos": "n.m.",
+"zh": "干洗店",
+"level": "b1"
+},
+{
+"word": "pression",
+"pos": "n.f.",
+"zh": "压力；按压",
+"level": "b1"
+},
+{
+"word": "prestige",
+"pos": "n.m.",
+"zh": "威望；声望",
+"level": "b1"
+},
+{
+"word": "preuve",
+"pos": "n.f.",
+"zh": "证据；证明",
+"level": "b1"
+},
+{
+"word": "primaire",
+"pos": "adj.",
+"zh": "初级的；原始的",
+"level": "b1"
+},
+{
+"word": "prime",
+"pos": "n.f.",
+"zh": "奖金；补贴",
+"level": "b1"
+}
+]

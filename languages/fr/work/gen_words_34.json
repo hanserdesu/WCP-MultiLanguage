@@ -1,0 +1,602 @@
+[
+{
+"word": "crâne",
+"pos": "n.m.",
+"zh": "头颅；脑袋",
+"level": "b1"
+},
+{
+"word": "crèche",
+"pos": "n.f.",
+"zh": "托儿所；马槽",
+"level": "b1"
+},
+{
+"word": "créatif",
+"pos": "adj.",
+"zh": "有创造力的",
+"level": "b1"
+},
+{
+"word": "créature",
+"pos": "n.f.",
+"zh": "创造物；生物",
+"level": "b1"
+},
+{
+"word": "crédible",
+"pos": "adj.",
+"zh": "可信的",
+"level": "b1"
+},
+{
+"word": "crédit",
+"pos": "n.m.",
+"zh": "信贷；赊购",
+"level": "b1"
+},
+{
+"word": "créer",
+"pos": "v.",
+"zh": "创造；创建",
+"level": "b1"
+},
+{
+"word": "crétin",
+"pos": "n.m.",
+"zh": "白痴；蠢货（骂）",
+"level": "b1"
+},
+{
+"word": "cubain",
+"pos": "adj.",
+"zh": "古巴的；古巴人",
+"level": "b1"
+},
+{
+"word": "cuivre",
+"pos": "n.m.",
+"zh": "铜；铜器",
+"level": "b1"
+},
+{
+"word": "culpabilité",
+"pos": "n.f.",
+"zh": "过错；内疚",
+"level": "b1"
+},
+{
+"word": "cultiver",
+"pos": "v.",
+"zh": "种植；培养",
+"level": "b1"
+},
+{
+"word": "cultivé",
+"pos": "adj.",
+"zh": "有教养的；有文化的",
+"level": "b1"
+},
+{
+"word": "curiosité",
+"pos": "n.f.",
+"zh": "好奇心；珍品",
+"level": "b1"
+},
+{
+"word": "curé",
+"pos": "n.m.",
+"zh": "本堂神父",
+"level": "b1"
+},
+{
+"word": "cycle",
+"pos": "n.m.",
+"zh": "周期；循环",
+"level": "b1"
+},
+{
+"word": "céder",
+"pos": "v.",
+"zh": "让步；出让",
+"level": "b1"
+},
+{
+"word": "célébration",
+"pos": "n.f.",
+"zh": "庆祝；庆典",
+"level": "b1"
+},
+{
+"word": "célébrer",
+"pos": "v.",
+"zh": "庆祝；颂扬",
+"level": "b1"
+},
+{
+"word": "céréale",
+"pos": "n.f.",
+"zh": "谷物；谷类食物",
+"level": "b1"
+},
+{
+"word": "cérémonie",
+"pos": "n.f.",
+"zh": "仪式；典礼",
+"level": "b1"
+},
+{
+"word": "côtelette",
+"pos": "n.f.",
+"zh": "排骨；肉排",
+"level": "b1"
+},
+{
+"word": "dater",
+"pos": "v.",
+"zh": "注明日期；始于",
+"level": "b1"
+},
+{
+"word": "dauphin",
+"pos": "n.m.",
+"zh": "海豚；王太子",
+"level": "b1"
+},
+{
+"word": "davantage",
+"pos": "adv.",
+"zh": "更多；更加",
+"level": "b1"
+},
+{
+"word": "deal",
+"pos": "n.m.",
+"zh": "交易；毒品交易（口语）",
+"level": "b1"
+},
+{
+"word": "degré",
+"pos": "n.m.",
+"zh": "度数；程度",
+"level": "b1"
+},
+{
+"word": "delà",
+"pos": "adv.",
+"zh": "在…那边；更远处",
+"level": "b1"
+},
+{
+"word": "demi-million",
+"pos": "n.m.",
+"zh": "五十万",
+"level": "b1"
+},
+{
+"word": "demi-tour",
+"pos": "n.m.",
+"zh": "掉头；回转",
+"level": "b1"
+},
+{
+"word": "descendant",
+"pos": "n.m.",
+"zh": "后代；子孙",
+"level": "b1"
+},
+{
+"word": "description",
+"pos": "n.f.",
+"zh": "描写；描述",
+"level": "b1"
+},
+{
+"word": "destin",
+"pos": "n.m.",
+"zh": "命运",
+"level": "b1"
+},
+{
+"word": "destruction",
+"pos": "n.f.",
+"zh": "破坏；毁灭",
+"level": "b1"
+},
+{
+"word": "dette",
+"pos": "n.f.",
+"zh": "债；债务",
+"level": "b1"
+},
+{
+"word": "deuxièmement",
+"pos": "adv.",
+"zh": "第二；其次",
+"level": "b1"
+},
+{
+"word": "deviner",
+"pos": "v.",
+"zh": "猜出；猜中",
+"level": "b1"
+},
+{
+"word": "devinette",
+"pos": "n.f.",
+"zh": "谜语",
+"level": "b1"
+},
+{
+"word": "diabolique",
+"pos": "adj.",
+"zh": "恶魔般的；邪恶的",
+"level": "b1"
+},
+{
+"word": "diabète",
+"pos": "n.m.",
+"zh": "糖尿病",
+"level": "b1"
+},
+{
+"word": "dialogue",
+"pos": "n.m.",
+"zh": "对话；对白",
+"level": "b1"
+},
+{
+"word": "dictateur",
+"pos": "n.m.",
+"zh": "独裁者",
+"level": "b1"
+},
+{
+"word": "dictature",
+"pos": "n.f.",
+"zh": "独裁；专政",
+"level": "b1"
+},
+{
+"word": "dicter",
+"pos": "v.",
+"zh": "口授；听写",
+"level": "b1"
+},
+{
+"word": "diffuser",
+"pos": "v.",
+"zh": "播放；传播",
+"level": "b1"
+},
+{
+"word": "diffusion",
+"pos": "n.f.",
+"zh": "播出；传播；散发",
+"level": "b1"
+},
+{
+"word": "digital",
+"pos": "adj.",
+"zh": "数字的；指部的",
+"level": "b1"
+},
+{
+"word": "digne",
+"pos": "adj.",
+"zh": "值得的；有尊严的",
+"level": "b1"
+},
+{
+"word": "dignité",
+"pos": "n.f.",
+"zh": "尊严",
+"level": "b1"
+},
+{
+"word": "digérer",
+"pos": "v.",
+"zh": "消化；领会",
+"level": "b1"
+},
+{
+"word": "dilemme",
+"pos": "n.m.",
+"zh": "两难；困境",
+"level": "b1"
+},
+{
+"word": "dimension",
+"pos": "n.f.",
+"zh": "尺寸；范围；维度",
+"level": "b1"
+},
+{
+"word": "dinde",
+"pos": "n.f.",
+"zh": "火鸡",
+"level": "b1"
+},
+{
+"word": "dingue",
+"pos": "adj.",
+"zh": "疯的（口语）",
+"level": "b1"
+},
+{
+"word": "diplomate",
+"pos": "n.",
+"zh": "外交官",
+"level": "b1"
+},
+{
+"word": "diplomatique",
+"pos": "adj.",
+"zh": "外交的；圆通的",
+"level": "b1"
+},
+{
+"word": "directive",
+"pos": "n.f.",
+"zh": "指令；指示",
+"level": "b1"
+},
+{
+"word": "dirigeant",
+"pos": "n.m.",
+"zh": "领导人；主管",
+"level": "b1"
+},
+{
+"word": "diriger",
+"pos": "v.",
+"zh": "领导；管理；操纵",
+"level": "b1"
+},
+{
+"word": "discipline",
+"pos": "n.f.",
+"zh": "纪律；学科",
+"level": "b1"
+},
+{
+"word": "discours",
+"pos": "n.m.",
+"zh": "演讲；话语",
+"level": "b1"
+},
+{
+"word": "discret",
+"pos": "adj.",
+"zh": "谨慎的；低调的",
+"level": "b1"
+},
+{
+"word": "discrètement",
+"pos": "adv.",
+"zh": "谨慎地；低调地",
+"level": "b1"
+},
+{
+"word": "discrétion",
+"pos": "n.f.",
+"zh": "谨慎；慎重",
+"level": "b1"
+},
+{
+"word": "disparition",
+"pos": "n.f.",
+"zh": "消失；失踪",
+"level": "b1"
+},
+{
+"word": "disperser",
+"pos": "v.",
+"zh": "使分散；驱散",
+"level": "b1"
+},
+{
+"word": "disposer",
+"pos": "v.",
+"zh": "布置；拥有",
+"level": "b1"
+},
+{
+"word": "disposition",
+"pos": "n.f.",
+"zh": "安排；处置",
+"level": "b1"
+},
+{
+"word": "distinct",
+"pos": "adj.",
+"zh": "清楚的；不同的",
+"level": "b1"
+},
+{
+"word": "distinction",
+"pos": "n.f.",
+"zh": "区别；殊荣",
+"level": "b1"
+},
+{
+"word": "distinguer",
+"pos": "v.",
+"zh": "区分；辨别",
+"level": "b1"
+},
+{
+"word": "distraction",
+"pos": "n.f.",
+"zh": "消遣；分心",
+"level": "b1"
+},
+{
+"word": "distraire",
+"pos": "v.",
+"zh": "使分心；消遣",
+"level": "b1"
+},
+{
+"word": "distribuer",
+"pos": "v.",
+"zh": "分发；分配",
+"level": "b1"
+},
+{
+"word": "distributeur",
+"pos": "n.m.",
+"zh": "自动售货机；经销商",
+"level": "b1"
+},
+{
+"word": "distribution",
+"pos": "n.f.",
+"zh": "分发；分配；演员阵容",
+"level": "b1"
+},
+{
+"word": "district",
+"pos": "n.m.",
+"zh": "区；行政区",
+"level": "b1"
+},
+{
+"word": "divertir",
+"pos": "v.",
+"zh": "使消遣；使娱乐",
+"level": "b1"
+},
+{
+"word": "divertissement",
+"pos": "n.m.",
+"zh": "娱乐；消遣",
+"level": "b1"
+},
+{
+"word": "divin",
+"pos": "adj.",
+"zh": "神的；神圣的",
+"level": "b1"
+},
+{
+"word": "diviser",
+"pos": "v.",
+"zh": "分开；划分；除",
+"level": "b1"
+},
+{
+"word": "division",
+"pos": "n.f.",
+"zh": "分开；除法；部门",
+"level": "b1"
+},
+{
+"word": "divorcé",
+"pos": "n.m.",
+"zh": "离婚者；离婚的",
+"level": "b1"
+},
+{
+"word": "doctorat",
+"pos": "n.m.",
+"zh": "博士学位",
+"level": "b1"
+},
+{
+"word": "documentaire",
+"pos": "n.m.",
+"zh": "纪录片",
+"level": "b1"
+},
+{
+"word": "dominant",
+"pos": "adj.",
+"zh": "占优势的；主导的",
+"level": "b1"
+},
+{
+"word": "domination",
+"pos": "n.f.",
+"zh": "统治；支配",
+"level": "b1"
+},
+{
+"word": "don",
+"pos": "n.m.",
+"zh": "天赋；捐赠",
+"level": "b1"
+},
+{
+"word": "donnée",
+"pos": "n.f.",
+"zh": "数据；资料",
+"level": "b1"
+},
+{
+"word": "dortoir",
+"pos": "n.m.",
+"zh": "宿舍；大寝室",
+"level": "b1"
+},
+{
+"word": "dose",
+"pos": "n.f.",
+"zh": "剂量；一剂",
+"level": "b1"
+},
+{
+"word": "dossier",
+"pos": "n.m.",
+"zh": "案卷；文件夹",
+"level": "b1"
+},
+{
+"word": "douane",
+"pos": "n.f.",
+"zh": "海关；关税",
+"level": "b1"
+},
+{
+"word": "doubler",
+"pos": "v.",
+"zh": "超车；加倍；配音",
+"level": "b1"
+},
+{
+"word": "douceur",
+"pos": "n.f.",
+"zh": "温柔；柔和",
+"level": "b1"
+},
+{
+"word": "doucher",
+"pos": "v.",
+"zh": "给…淋浴；冲洗",
+"level": "b1"
+},
+{
+"word": "douer",
+"pos": "v.",
+"zh": "使有天赋",
+"level": "b1"
+},
+{
+"word": "douleur",
+"pos": "n.f.",
+"zh": "疼痛；痛苦",
+"level": "b1"
+},
+{
+"word": "douloureux",
+"pos": "adj.",
+"zh": "疼痛的；痛苦的",
+"level": "b1"
+},
+{
+"word": "doute",
+"pos": "n.m.",
+"zh": "怀疑；疑问",
+"level": "b1"
+}
+]

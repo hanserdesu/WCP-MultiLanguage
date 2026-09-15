@@ -1,0 +1,802 @@
+[
+{
+"word": "anwalt",
+"rank": 1001
+},
+{
+"word": "fahr",
+"rank": 1002
+},
+{
+"word": "sitzt",
+"rank": 1003
+},
+{
+"word": "hilf",
+"rank": 1004
+},
+{
+"word": "offen",
+"rank": 1005
+},
+{
+"word": "schönen",
+"rank": 1006
+},
+{
+"word": "monsieur",
+"rank": 1007
+},
+{
+"word": "müsste",
+"rank": 1008
+},
+{
+"word": "arme",
+"rank": 1009
+},
+{
+"word": "bier",
+"rank": 1010
+},
+{
+"word": "fürs",
+"rank": 1011
+},
+{
+"word": "partner",
+"rank": 1012
+},
+{
+"word": "klein",
+"rank": 1013
+},
+{
+"word": "david",
+"rank": 1014
+},
+{
+"word": "klappe",
+"rank": 1015
+},
+{
+"word": "süß",
+"rank": 1016
+},
+{
+"word": "herum",
+"rank": 1017
+},
+{
+"word": "finger",
+"rank": 1018
+},
+{
+"word": "ehe",
+"rank": 1019
+},
+{
+"word": "rolle",
+"rank": 1020
+},
+{
+"word": "ließ",
+"rank": 1021
+},
+{
+"word": "gleiche",
+"rank": 1022
+},
+{
+"word": "monat",
+"rank": 1023
+},
+{
+"word": "hochzeit",
+"rank": 1024
+},
+{
+"word": "max",
+"rank": 1025
+},
+{
+"word": "führt",
+"rank": 1026
+},
+{
+"word": "paris",
+"rank": 1027
+},
+{
+"word": "wach",
+"rank": 1028
+},
+{
+"word": "wozu",
+"rank": 1029
+},
+{
+"word": "arm",
+"rank": 1030
+},
+{
+"word": "geschrieben",
+"rank": 1031
+},
+{
+"word": "chef",
+"rank": 1032
+},
+{
+"word": "benutzen",
+"rank": 1033
+},
+{
+"word": "informationen",
+"rank": 1034
+},
+{
+"word": "erledigt",
+"rank": 1035
+},
+{
+"word": "hoffentlich",
+"rank": 1036
+},
+{
+"word": "müsst",
+"rank": 1037
+},
+{
+"word": "fühlt",
+"rank": 1038
+},
+{
+"word": "tanzen",
+"rank": 1039
+},
+{
+"word": "ansehen",
+"rank": 1040
+},
+{
+"word": "darfst",
+"rank": 1041
+},
+{
+"word": "zuhause",
+"rank": 1042
+},
+{
+"word": "wunderbar",
+"rank": 1043
+},
+{
+"word": "hältst",
+"rank": 1044
+},
+{
+"word": "reise",
+"rank": 1045
+},
+{
+"word": "gewonnen",
+"rank": 1046
+},
+{
+"word": "dame",
+"rank": 1047
+},
+{
+"word": "irgendwann",
+"rank": 1048
+},
+{
+"word": "chffffff",
+"rank": 1049
+},
+{
+"word": "alex",
+"rank": 1050
+},
+{
+"word": "steckt",
+"rank": 1051
+},
+{
+"word": "jedenfalls",
+"rank": 1052
+},
+{
+"word": "schreit",
+"rank": 1053
+},
+{
+"word": "tolle",
+"rank": 1054
+},
+{
+"word": "rüber",
+"rank": 1055
+},
+{
+"word": "tschüss",
+"rank": 1056
+},
+{
+"word": "nennt",
+"rank": 1057
+},
+{
+"word": "raum",
+"rank": 1058
+},
+{
+"word": "heiß",
+"rank": 1059
+},
+{
+"word": "foto",
+"rank": 1060
+},
+{
+"word": "kalt",
+"rank": 1061
+},
+{
+"word": "paul",
+"rank": 1062
+},
+{
+"word": "irgendetwas",
+"rank": 1063
+},
+{
+"word": "weile",
+"rank": 1064
+},
+{
+"word": "bisher",
+"rank": 1065
+},
+{
+"word": "minute",
+"rank": 1066
+},
+{
+"word": "unbedingt",
+"rank": 1067
+},
+{
+"word": "zug",
+"rank": 1068
+},
+{
+"word": "sekunden",
+"rank": 1069
+},
+{
+"word": "wofür",
+"rank": 1070
+},
+{
+"word": "erzähl",
+"rank": 1071
+},
+{
+"word": "nen",
+"rank": 1072
+},
+{
+"word": "beweise",
+"rank": 1073
+},
+{
+"word": "nahm",
+"rank": 1074
+},
+{
+"word": "aller",
+"rank": 1075
+},
+{
+"word": "freut",
+"rank": 1076
+},
+{
+"word": "seele",
+"rank": 1077
+},
+{
+"word": "schießen",
+"rank": 1078
+},
+{
+"word": "müde",
+"rank": 1079
+},
+{
+"word": "dauert",
+"rank": 1080
+},
+{
+"word": "magst",
+"rank": 1081
+},
+{
+"word": "harry",
+"rank": 1082
+},
+{
+"word": "brief",
+"rank": 1083
+},
+{
+"word": "gelernt",
+"rank": 1084
+},
+{
+"word": "sucht",
+"rank": 1085
+},
+{
+"word": "bekannt",
+"rank": 1086
+},
+{
+"word": "weitere",
+"rank": 1087
+},
+{
+"word": "unfall",
+"rank": 1088
+},
+{
+"word": "dahin",
+"rank": 1089
+},
+{
+"word": "kontrolle",
+"rank": 1090
+},
+{
+"word": "beispiel",
+"rank": 1091
+},
+{
+"word": "lady",
+"rank": 1092
+},
+{
+"word": "dasselbe",
+"rank": 1093
+},
+{
+"word": "herzen",
+"rank": 1094
+},
+{
+"word": "schlagen",
+"rank": 1095
+},
+{
+"word": "wütend",
+"rank": 1096
+},
+{
+"word": "weise",
+"rank": 1097
+},
+{
+"word": "damen",
+"rank": 1098
+},
+{
+"word": "darin",
+"rank": 1099
+},
+{
+"word": "gottes",
+"rank": 1100
+},
+{
+"word": "holt",
+"rank": 1101
+},
+{
+"word": "fehlt",
+"rank": 1102
+},
+{
+"word": "vorsicht",
+"rank": 1103
+},
+{
+"word": "heiße",
+"rank": 1104
+},
+{
+"word": "beweisen",
+"rank": 1105
+},
+{
+"word": "gehabt",
+"rank": 1106
+},
+{
+"word": "zumindest",
+"rank": 1107
+},
+{
+"word": "vermisst",
+"rank": 1108
+},
+{
+"word": "hübsch",
+"rank": 1109
+},
+{
+"word": "kriegt",
+"rank": 1110
+},
+{
+"word": "verbindung",
+"rank": 1111
+},
+{
+"word": "tief",
+"rank": 1112
+},
+{
+"word": "richtung",
+"rank": 1113
+},
+{
+"word": "lage",
+"rank": 1114
+},
+{
+"word": "sowieso",
+"rank": 1115
+},
+{
+"word": "kraft",
+"rank": 1116
+},
+{
+"word": "normal",
+"rank": 1117
+},
+{
+"word": "lauf",
+"rank": 1118
+},
+{
+"word": "ehre",
+"rank": 1119
+},
+{
+"word": "stell",
+"rank": 1120
+},
+{
+"word": "geschenk",
+"rank": 1121
+},
+{
+"word": "bar",
+"rank": 1122
+},
+{
+"word": "tasche",
+"rank": 1123
+},
+{
+"word": "gelesen",
+"rank": 1124
+},
+{
+"word": "gekauft",
+"rank": 1125
+},
+{
+"word": "wussten",
+"rank": 1126
+},
+{
+"word": "gestohlen",
+"rank": 1127
+},
+{
+"word": "hunger",
+"rank": 1128
+},
+{
+"word": "leg",
+"rank": 1129
+},
+{
+"word": "lügen",
+"rank": 1130
+},
+{
+"word": "beziehung",
+"rank": 1131
+},
+{
+"word": "ben",
+"rank": 1132
+},
+{
+"word": "verschwunden",
+"rank": 1133
+},
+{
+"word": "steh",
+"rank": 1134
+},
+{
+"word": "nächstes",
+"rank": 1135
+},
+{
+"word": "gearbeitet",
+"rank": 1136
+},
+{
+"word": "preis",
+"rank": 1137
+},
+{
+"word": "witz",
+"rank": 1138
+},
+{
+"word": "meinte",
+"rank": 1139
+},
+{
+"word": "liste",
+"rank": 1140
+},
+{
+"word": "geist",
+"rank": 1141
+},
+{
+"word": "neben",
+"rank": 1142
+},
+{
+"word": "gesucht",
+"rank": 1143
+},
+{
+"word": "firma",
+"rank": 1144
+},
+{
+"word": "süße",
+"rank": 1145
+},
+{
+"word": "rücken",
+"rank": 1146
+},
+{
+"word": "schrecklich",
+"rank": 1147
+},
+{
+"word": "letzter",
+"rank": 1148
+},
+{
+"word": "verliebt",
+"rank": 1149
+},
+{
+"word": "öffnen",
+"rank": 1150
+},
+{
+"word": "redet",
+"rank": 1151
+},
+{
+"word": "boot",
+"rank": 1152
+},
+{
+"word": "seltsam",
+"rank": 1153
+},
+{
+"word": "versteckt",
+"rank": 1154
+},
+{
+"word": "fürchte",
+"rank": 1155
+},
+{
+"word": "verschwinde",
+"rank": 1156
+},
+{
+"word": "erwischt",
+"rank": 1157
+},
+{
+"word": "verkauft",
+"rank": 1158
+},
+{
+"word": "tante",
+"rank": 1159
+},
+{
+"word": "erwarten",
+"rank": 1160
+},
+{
+"word": "pferd",
+"rank": 1161
+},
+{
+"word": "wunder",
+"rank": 1162
+},
+{
+"word": "sauer",
+"rank": 1163
+},
+{
+"word": "vermutlich",
+"rank": 1164
+},
+{
+"word": "näher",
+"rank": 1165
+},
+{
+"word": "major",
+"rank": 1166
+},
+{
+"word": "jung",
+"rank": 1167
+},
+{
+"word": "majestät",
+"rank": 1168
+},
+{
+"word": "aussehen",
+"rank": 1169
+},
+{
+"word": "ans",
+"rank": 1170
+},
+{
+"word": "de",
+"rank": 1171
+},
+{
+"word": "and",
+"rank": 1172
+},
+{
+"word": "links",
+"rank": 1173
+},
+{
+"word": "großes",
+"rank": 1174
+},
+{
+"word": "welches",
+"rank": 1175
+},
+{
+"word": "beschützen",
+"rank": 1176
+},
+{
+"word": "geboren",
+"rank": 1177
+},
+{
+"word": "erreichen",
+"rank": 1178
+},
+{
+"word": "punkt",
+"rank": 1179
+},
+{
+"word": "kindern",
+"rank": 1180
+},
+{
+"word": "kirche",
+"rank": 1181
+},
+{
+"word": "verraten",
+"rank": 1182
+},
+{
+"word": "selber",
+"rank": 1183
+},
+{
+"word": "befehl",
+"rank": 1184
+},
+{
+"word": "colonel",
+"rank": 1185
+},
+{
+"word": "fährt",
+"rank": 1186
+},
+{
+"word": "zieht",
+"rank": 1187
+},
+{
+"word": "geburtstag",
+"rank": 1188
+},
+{
+"word": "haut",
+"rank": 1189
+},
+{
+"word": "wette",
+"rank": 1190
+},
+{
+"word": "reich",
+"rank": 1191
+},
+{
+"word": "sekunde",
+"rank": 1192
+},
+{
+"word": "fahre",
+"rank": 1193
+},
+{
+"word": "schwöre",
+"rank": 1194
+},
+{
+"word": "geredet",
+"rank": 1195
+},
+{
+"word": "james",
+"rank": 1196
+},
+{
+"word": "madame",
+"rank": 1197
+},
+{
+"word": "eigene",
+"rank": 1198
+},
+{
+"word": "zeiten",
+"rank": 1199
+},
+{
+"word": "traurig",
+"rank": 1200
+}
+]

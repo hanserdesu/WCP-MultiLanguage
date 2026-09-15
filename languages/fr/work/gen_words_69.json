@@ -1,0 +1,602 @@
+[
+{
+"word": "isolement",
+"pos": "n.m.",
+"zh": "隔离；孤独",
+"level": "b2"
+},
+{
+"word": "issu",
+"pos": "adj.",
+"zh": "出身于……的",
+"level": "b2"
+},
+{
+"word": "issue",
+"pos": "n.f.",
+"zh": "出口；出路；结局",
+"level": "b2"
+},
+{
+"word": "ivresse",
+"pos": "n.f.",
+"zh": "醉意；陶醉",
+"level": "b2"
+},
+{
+"word": "jadis",
+"pos": "adv.",
+"zh": "从前；往昔",
+"level": "b2"
+},
+{
+"word": "jaillir",
+"pos": "v.",
+"zh": "喷出；迸发",
+"level": "b2"
+},
+{
+"word": "jaser",
+"pos": "v.",
+"zh": "闲聊；说闲话",
+"level": "b2"
+},
+{
+"word": "jeûner",
+"pos": "v.",
+"zh": "禁食；斋戒",
+"level": "b2"
+},
+{
+"word": "joint",
+"pos": "n.m.",
+"zh": "接缝；接头",
+"level": "b2"
+},
+{
+"word": "joug",
+"pos": "n.m.",
+"zh": "枷锁；束缚",
+"level": "b2"
+},
+{
+"word": "jouir",
+"pos": "v.",
+"zh": "享有；获得乐趣",
+"level": "b2"
+},
+{
+"word": "joyau",
+"pos": "n.m.",
+"zh": "珠宝；珍品",
+"level": "b2"
+},
+{
+"word": "judicieux",
+"pos": "adj.",
+"zh": "明智的；中肯的",
+"level": "b2"
+},
+{
+"word": "jules",
+"pos": "n.m.",
+"zh": "丈夫；男人（口语）",
+"level": "b2"
+},
+{
+"word": "jument",
+"pos": "n.f.",
+"zh": "母马",
+"level": "b2"
+},
+{
+"word": "junkie",
+"pos": "n.m.",
+"zh": "瘾君子",
+"level": "b2"
+},
+{
+"word": "juridiction",
+"pos": "n.f.",
+"zh": "司法权；法院",
+"level": "b2"
+},
+{
+"word": "juré",
+"pos": "n.m.",
+"zh": "陪审员",
+"level": "b2"
+},
+{
+"word": "juteux",
+"pos": "adj.",
+"zh": "多汁的；有利可图的",
+"level": "b2"
+},
+{
+"word": "karma",
+"pos": "n.m.",
+"zh": "业报；因果",
+"level": "b2"
+},
+{
+"word": "keuf",
+"pos": "n.f.",
+"zh": "警察（俚语）",
+"level": "b2"
+},
+{
+"word": "labeur",
+"pos": "n.m.",
+"zh": "苦工；辛劳",
+"level": "b2"
+},
+{
+"word": "labourer",
+"pos": "v.",
+"zh": "耕地；翻土",
+"level": "b2"
+},
+{
+"word": "lambeau",
+"pos": "n.m.",
+"zh": "碎块；破布条",
+"level": "b2"
+},
+{
+"word": "lamentable",
+"pos": "adj.",
+"zh": "悲惨的；糟糕透顶的",
+"level": "b2"
+},
+{
+"word": "lamenter",
+"pos": "v.",
+"zh": "哀叹；悲叹",
+"level": "b2"
+},
+{
+"word": "lance",
+"pos": "n.f.",
+"zh": "长矛",
+"level": "b2"
+},
+{
+"word": "lancement",
+"pos": "n.m.",
+"zh": "发射；推出；启动",
+"level": "b2"
+},
+{
+"word": "lanceur",
+"pos": "n.m.",
+"zh": "发射器；投掷者",
+"level": "b2"
+},
+{
+"word": "langouste",
+"pos": "n.f.",
+"zh": "岩龙虾；龙虾",
+"level": "b2"
+},
+{
+"word": "languir",
+"pos": "v.",
+"zh": "憔悴；苦苦盼望",
+"level": "b2"
+},
+{
+"word": "las",
+"pos": "adj.",
+"zh": "厌倦的（书面）",
+"level": "b2"
+},
+{
+"word": "lasser",
+"pos": "v.",
+"zh": "使厌倦；使疲惫",
+"level": "b2"
+},
+{
+"word": "laurier",
+"pos": "n.m.",
+"zh": "月桂；桂冠",
+"level": "b2"
+},
+{
+"word": "leurre",
+"pos": "n.m.",
+"zh": "诱饵；假象",
+"level": "b2"
+},
+{
+"word": "levier",
+"pos": "n.m.",
+"zh": "杠杆；手段",
+"level": "b2"
+},
+{
+"word": "librement",
+"pos": "adv.",
+"zh": "自由地；无拘束地",
+"level": "b2"
+},
+{
+"word": "light",
+"pos": "adj.",
+"zh": "低脂的；清淡的",
+"level": "b2"
+},
+{
+"word": "lignée",
+"pos": "n.f.",
+"zh": "血统；世系",
+"level": "b2"
+},
+{
+"word": "ligoter",
+"pos": "v.",
+"zh": "捆绑；束缚",
+"level": "b2"
+},
+{
+"word": "lilas",
+"pos": "n.m.",
+"zh": "丁香花",
+"level": "b2"
+},
+{
+"word": "limace",
+"pos": "n.f.",
+"zh": "蛞蝓",
+"level": "b2"
+},
+{
+"word": "limpide",
+"pos": "adj.",
+"zh": "清澈的；清晰的",
+"level": "b2"
+},
+{
+"word": "lin",
+"pos": "n.m.",
+"zh": "亚麻",
+"level": "b2"
+},
+{
+"word": "lingerie",
+"pos": "n.f.",
+"zh": "内衣；内衣店",
+"level": "b2"
+},
+{
+"word": "liquider",
+"pos": "v.",
+"zh": "清算；了结；处理掉",
+"level": "b2"
+},
+{
+"word": "lisse",
+"pos": "adj.",
+"zh": "光滑的；平滑的",
+"level": "b2"
+},
+{
+"word": "littéralement",
+"pos": "adv.",
+"zh": "字面上地；简直",
+"level": "b2"
+},
+{
+"word": "live",
+"pos": "adj.",
+"zh": "现场的；实况的（借词）",
+"level": "b2"
+},
+{
+"word": "livret",
+"pos": "n.m.",
+"zh": "小册子；存折",
+"level": "b2"
+},
+{
+"word": "lièvre",
+"pos": "n.m.",
+"zh": "野兔",
+"level": "b2"
+},
+{
+"word": "lobe",
+"pos": "n.m.",
+"zh": "（脑）叶；耳垂",
+"level": "b2"
+},
+{
+"word": "localiser",
+"pos": "v.",
+"zh": "定位；确定位置",
+"level": "b2"
+},
+{
+"word": "loge",
+"pos": "n.f.",
+"zh": "更衣室；包厢；门房",
+"level": "b2"
+},
+{
+"word": "loque",
+"pos": "n.f.",
+"zh": "破布；烂衫；疲惫不堪的人",
+"level": "b2"
+},
+{
+"word": "lors",
+"pos": "adv.",
+"zh": "在…期间（书面）",
+"level": "b2"
+},
+{
+"word": "lot",
+"pos": "n.m.",
+"zh": "一批；一份；奖品",
+"level": "b2"
+},
+{
+"word": "louange",
+"pos": "n.f.",
+"zh": "赞美；颂扬",
+"level": "b2"
+},
+{
+"word": "louche",
+"pos": "adj.",
+"zh": "可疑的",
+"level": "b2"
+},
+{
+"word": "loutre",
+"pos": "n.f.",
+"zh": "水獭",
+"level": "b2"
+},
+{
+"word": "lover",
+"pos": "v.",
+"zh": "蜷缩；盘绕",
+"level": "b2"
+},
+{
+"word": "loyauté",
+"pos": "n.f.",
+"zh": "忠诚；诚实",
+"level": "b2"
+},
+{
+"word": "lubie",
+"pos": "n.f.",
+"zh": "怪念头；一时兴致",
+"level": "b2"
+},
+{
+"word": "lucide",
+"pos": "adj.",
+"zh": "清醒的；明智的",
+"level": "b2"
+},
+{
+"word": "lueur",
+"pos": "n.f.",
+"zh": "微光；闪光",
+"level": "b2"
+},
+{
+"word": "lugubre",
+"pos": "adj.",
+"zh": "阴森的；凄凉的",
+"level": "b2"
+},
+{
+"word": "luire",
+"pos": "v.",
+"zh": "发光；闪耀",
+"level": "b2"
+},
+{
+"word": "lumineux",
+"pos": "adj.",
+"zh": "明亮的；光明的",
+"level": "b2"
+},
+{
+"word": "lunaire",
+"pos": "adj.",
+"zh": "月亮的；恍惚的",
+"level": "b2"
+},
+{
+"word": "lustre",
+"pos": "n.m.",
+"zh": "吊灯；五年",
+"level": "b2"
+},
+{
+"word": "luxueux",
+"pos": "adj.",
+"zh": "豪华的；奢华的",
+"level": "b2"
+},
+{
+"word": "lys",
+"pos": "n.m.",
+"zh": "百合花",
+"level": "b2"
+},
+{
+"word": "là-dessous",
+"pos": "adv.",
+"zh": "在那下面；在其中",
+"level": "b2"
+},
+{
+"word": "lâcheté",
+"pos": "n.f.",
+"zh": "怯懦；卑鄙",
+"level": "b2"
+},
+{
+"word": "légalité",
+"pos": "n.f.",
+"zh": "合法性",
+"level": "b2"
+},
+{
+"word": "légion",
+"pos": "n.f.",
+"zh": "军团；大批",
+"level": "b2"
+},
+{
+"word": "légiste",
+"pos": "n.",
+"zh": "法医",
+"level": "b2"
+},
+{
+"word": "légitime",
+"pos": "adj.",
+"zh": "正当的；合法的",
+"level": "b2"
+},
+{
+"word": "léguer",
+"pos": "v.",
+"zh": "遗赠；传给",
+"level": "b2"
+},
+{
+"word": "léopard",
+"pos": "n.m.",
+"zh": "豹",
+"level": "b2"
+},
+{
+"word": "lésion",
+"pos": "n.f.",
+"zh": "损伤；病变",
+"level": "b2"
+},
+{
+"word": "macabre",
+"pos": "adj.",
+"zh": "阴森可怖的；与死亡相关的",
+"level": "b2"
+},
+{
+"word": "machette",
+"pos": "n.f.",
+"zh": "砍刀",
+"level": "b2"
+},
+{
+"word": "maestro",
+"pos": "n.m.",
+"zh": "大师；名指挥",
+"level": "b2"
+},
+{
+"word": "magistrat",
+"pos": "n.m.",
+"zh": "法官；司法官",
+"level": "b2"
+},
+{
+"word": "magner",
+"pos": "v.",
+"zh": "赶紧；加快（口语）",
+"level": "b2"
+},
+{
+"word": "magot",
+"pos": "n.m.",
+"zh": "窖藏钱财；私蓄",
+"level": "b2"
+},
+{
+"word": "magouille",
+"pos": "n.f.",
+"zh": "私下勾当；鬼把戏（口语）",
+"level": "b2"
+},
+{
+"word": "maintenance",
+"pos": "n.f.",
+"zh": "维护；保养",
+"level": "b2"
+},
+{
+"word": "maintes",
+"pos": "adj.",
+"zh": "许多的（书面语）",
+"level": "b2"
+},
+{
+"word": "major",
+"pos": "n.",
+"zh": "军士长；第一名",
+"level": "b2"
+},
+{
+"word": "majordome",
+"pos": "n.m.",
+"zh": "管家",
+"level": "b2"
+},
+{
+"word": "malaise",
+"pos": "n.",
+"zh": "不适；不安；窘迫",
+"level": "b2"
+},
+{
+"word": "malfaiteur",
+"pos": "n.m.",
+"zh": "罪犯；歹徒",
+"level": "b2"
+},
+{
+"word": "mallette",
+"pos": "n.f.",
+"zh": "公文包；小提箱",
+"level": "b2"
+},
+{
+"word": "malsain",
+"pos": "adj.",
+"zh": "不健康的；病态的",
+"level": "b2"
+},
+{
+"word": "maltraiter",
+"pos": "v.",
+"zh": "虐待",
+"level": "b2"
+},
+{
+"word": "maléfique",
+"pos": "adj.",
+"zh": "邪恶的；有害的",
+"level": "b2"
+},
+{
+"word": "manchette",
+"pos": "n.f.",
+"zh": "袖口；头条",
+"level": "b2"
+},
+{
+"word": "mandat",
+"pos": "n.m.",
+"zh": "委任；汇票；任期",
+"level": "b2"
+}
+]

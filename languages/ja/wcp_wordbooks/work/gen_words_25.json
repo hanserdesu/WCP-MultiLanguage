@@ -1,0 +1,2402 @@
+{
+ "戻り": {
+  "reading": "もどり",
+  "meaning": "【もどり】返回（从过程返回）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "連携": {
+  "reading": "れんけい",
+  "meaning": "【れんけい】联动；协作；整合〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "稼働": {
+  "reading": "かどう",
+  "meaning": "【かどう】上线部署；运转；投用〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "反復": {
+  "reading": "はんぷく",
+  "meaning": "【はんぷく】迭代；反复〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "アプリ": {
+  "reading": "",
+  "meaning": "应用程序；App〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "エコー": {
+  "reading": "",
+  "meaning": "回显；回声；回波〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ゲート": {
+  "reading": "",
+  "meaning": "门（电路）；闸门；大门〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "シーク": {
+  "reading": "",
+  "meaning": "寻道；快进；定位〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "シェル": {
+  "reading": "",
+  "meaning": "Shell；命令行解释器；外壳〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "スキン": {
+  "reading": "",
+  "meaning": "皮肤；外观主题〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ストア": {
+  "reading": "",
+  "meaning": "存储；应用商店〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "セーブ": {
+  "reading": "",
+  "meaning": "保存（游戏进度、文件）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ツール": {
+  "reading": "",
+  "meaning": "工具；软件工具〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ドット": {
+  "reading": "",
+  "meaning": "点；像素；圆点〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ネスト": {
+  "reading": "",
+  "meaning": "嵌套（代码、数据结构）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ハード": {
+  "reading": "",
+  "meaning": "硬件；硬的〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ハング": {
+  "reading": "",
+  "meaning": "挂起；死机；卡死〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "パージ": {
+  "reading": "",
+  "meaning": "清除；清理（数据）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ヒット": {
+  "reading": "",
+  "meaning": "命中（搜索结果）；热门；击中〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ビット": {
+  "reading": "",
+  "meaning": "位；比特〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "フラグ": {
+  "reading": "",
+  "meaning": "标志位；旗标；（作品里的）死亡Flag〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ポート": {
+  "reading": "",
+  "meaning": "端口；港〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ポップ": {
+  "reading": "",
+  "meaning": "弹出（出栈操作）；流行〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "マクロ": {
+  "reading": "",
+  "meaning": "宏（指令）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "モデム": {
+  "reading": "",
+  "meaning": "调制解调器；猫〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "リンク": {
+  "reading": "",
+  "meaning": "链接；超链接；（目标文件）连接〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ループ": {
+  "reading": "",
+  "meaning": "循环（程序）；环；圈〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ルビー": {
+  "reading": "",
+  "meaning": "Ruby（编程语言）；红宝石〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ワード": {
+  "reading": "",
+  "meaning": "词；单词；Word 文档〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "外付け": {
+  "reading": "そとづけ",
+  "meaning": "【そとづけ】外置的（硬盘、驱动器等）〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "管理者": {
+  "reading": "かんりしゃ",
+  "meaning": "【かんりしゃ】管理员；root 用户；管理者〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "呼出す": {
+  "reading": "よびだす",
+  "meaning": "【よびだす】调用（子程序）；唤起；叫出来〈动1〉",
+  "level": "IT",
+  "need": 3
+ },
+ "再起動": {
+  "reading": "さいきどう",
+  "meaning": "【さいきどう】重启；重新启动〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "先取り": {
+  "reading": "さきどり",
+  "meaning": "【さきどり】预取；预先取得；抢先〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "脱ける": {
+  "reading": "ぬける",
+  "meaning": "【ぬける】退出（循环）；脱落；脱臼〈动2〉",
+  "level": "IT",
+  "need": 3
+ },
+ "墜ちる": {
+  "reading": "おちる",
+  "meaning": "【おちる】宕机；掉线（网站、服务器）；坠落〈动2〉",
+  "level": "IT",
+  "need": 3
+ },
+ "割当て": {
+  "reading": "わりあて",
+  "meaning": "【わりあて】分配；配额〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "拡張子": {
+  "reading": "かくちょうし",
+  "meaning": "【かくちょうし】文件扩展名〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "表計算": {
+  "reading": "ひょうけいさん",
+  "meaning": "【ひょうけいさん】电子表格〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ロード": {
+  "reading": "",
+  "meaning": "加载（程序或数据入内存）；装载〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ウェア": {
+  "reading": "",
+  "meaning": "～件（软件后缀 -ware）；服装〈接尾〉",
+  "level": "IT",
+  "need": 2
+ },
+ "アイコン": {
+  "reading": "",
+  "meaning": "图标〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "アクセス": {
+  "reading": "",
+  "meaning": "访问（网站、数据）；接入〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "アドレス": {
+  "reading": "",
+  "meaning": "地址；（内存、邮箱、网络）地址〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "イメージ": {
+  "reading": "",
+  "meaning": "印象；图像；镜像文件〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "カーソル": {
+  "reading": "",
+  "meaning": "光标；指针〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "キャスト": {
+  "reading": "",
+  "meaning": "类型转换；演员阵容；投掷〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "クッキー": {
+  "reading": "",
+  "meaning": "Cookie（浏览器缓存）；曲奇饼干〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "クリック": {
+  "reading": "",
+  "meaning": "点击（鼠标）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "クロック": {
+  "reading": "",
+  "meaning": "时钟；时钟频率〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "コマンド": {
+  "reading": "",
+  "meaning": "命令；指令〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "コミット": {
+  "reading": "",
+  "meaning": "提交（版本控制、数据管理）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "サーバー": {
+  "reading": "",
+  "meaning": "服务器〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "スコープ": {
+  "reading": "",
+  "meaning": "作用域；范围；望远镜〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "スワップ": {
+  "reading": "",
+  "meaning": "掉期；互换（金融）；交换（内存）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "セクター": {
+  "reading": "",
+  "meaning": "扇区（磁盘）；部门；领域〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "デーモン": {
+  "reading": "",
+  "meaning": "守护进程（Unix 等）；恶魔〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ディスク": {
+  "reading": "",
+  "meaning": "磁盘；光盘〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ドロップ": {
+  "reading": "",
+  "meaning": "放下（鼠标拖放）；掉落；滴〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ハッカー": {
+  "reading": "",
+  "meaning": "黑客〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "フリーズ": {
+  "reading": "",
+  "meaning": "死机；冻结；结冰〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ブリッジ": {
+  "reading": "",
+  "meaning": "网桥；桥；桥牌〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ブロック": {
+  "reading": "",
+  "meaning": "块（代码）；封锁；街区〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "プッシュ": {
+  "reading": "",
+  "meaning": "推送（更新、内容）；推；按〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "マイコン": {
+  "reading": "",
+  "meaning": "微型计算机；单片机〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "マウント": {
+  "reading": "",
+  "meaning": "挂载（驱动器等）； mounting〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "メモリー": {
+  "reading": "",
+  "meaning": "内存；存储器〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "リターン": {
+  "reading": "",
+  "meaning": "返回；回车键；回报〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "リリース": {
+  "reading": "",
+  "meaning": "发布；松开（鼠标按键）；释放〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ルーチン": {
+  "reading": "",
+  "meaning": "例程；例行程序〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ワクチン": {
+  "reading": "",
+  "meaning": "疫苗；（比喻）杀毒软件〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "取り込む": {
+  "reading": "とりこむ",
+  "meaning": "【とりこむ】导入；采集（图像）；收入〈动1〉",
+  "level": "IT",
+  "need": 2
+ },
+ "書き込む": {
+  "reading": "かきこむ",
+  "meaning": "【かきこむ】写入（数据）；刷写；发帖回帖〈动1〉",
+  "level": "IT",
+  "need": 2
+ },
+ "情報処理": {
+  "reading": "じょうほうしょり",
+  "meaning": "【じょうほうしょり】信息处理；数据处理〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "吐き出す": {
+  "reading": "はきだす",
+  "meaning": "【はきだす】输出；导出；吐出〈动1〉",
+  "level": "IT",
+  "need": 2
+ },
+ "取り込み": {
+  "reading": "とりこみ",
+  "meaning": "【とりこみ】导入；（图像）采集〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "呼び出し": {
+  "reading": "よびだし",
+  "meaning": "【よびだし】调用；呼叫；唤起〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "割り込み": {
+  "reading": "わりこみ",
+  "meaning": "【わりこみ】中断；插话；插队〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "総当たり": {
+  "reading": "そうあたり",
+  "meaning": "【そうあたり】穷举；暴力破解（密码学）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "検索条件": {
+  "reading": "けんさくじょうけん",
+  "meaning": "【けんさくじょうけん】搜索条件；检索条件〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "推奨環境": {
+  "reading": "すいしょうかんきょう",
+  "meaning": "【すいしょうかんきょう】推荐配置（运行环境）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "インポート": {
+  "reading": "",
+  "meaning": "导入（数据）；进口〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ウィンドウ": {
+  "reading": "",
+  "meaning": "窗口〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "エディター": {
+  "reading": "",
+  "meaning": "文本编辑器；编辑者〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "キーワード": {
+  "reading": "",
+  "meaning": "关键词；索引词〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "キャッシュ": {
+  "reading": "",
+  "meaning": "缓存；现金〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "クラッカー": {
+  "reading": "",
+  "meaning": "骇客；破解者〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "クラッシュ": {
+  "reading": "",
+  "meaning": "崩溃；撞毁〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ジャーナル": {
+  "reading": "",
+  "meaning": "日志；期刊；日记账〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "データ通信": {
+  "reading": "データつうしん",
+  "meaning": "【データつうしん】数据通信〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "フィールド": {
+  "reading": "",
+  "meaning": "字段（表单、网页）；领域；场地〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "フォーカス": {
+  "reading": "",
+  "meaning": "焦点（图形界面）；聚焦〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "フォワード": {
+  "reading": "",
+  "meaning": "转发（邮件）；前锋〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "フロッピー": {
+  "reading": "",
+  "meaning": "软盘〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ボリューム": {
+  "reading": "",
+  "meaning": "卷（存储区）；音量；体积〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "レジスター": {
+  "reading": "",
+  "meaning": "寄存器；收银机；登记〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "立ちあがる": {
+  "reading": "たちあがる",
+  "meaning": "【たちあがる】启动；开机；站起来〈动1〉",
+  "level": "IT",
+  "need": 3
+ },
+ "立ち上げる": {
+  "reading": "たちあげる",
+  "meaning": "【たちあげる】启动（电脑）；开设（公司）；扶起〈动2〉",
+  "level": "IT",
+  "need": 2
+ },
+ "お気に入り": {
+  "reading": "おきにいり",
+  "meaning": "【おきにいり】收藏夹（浏览器）；非常喜欢〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "右クリック": {
+  "reading": "みぎクリック",
+  "meaning": "【みぎクリック】右击；右键点击〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "アルゴリズム": {
+  "reading": "",
+  "meaning": "算法〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "インバーター": {
+  "reading": "",
+  "meaning": "逆变器；变频器〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ウィジェット": {
+  "reading": "",
+  "meaning": "小部件；小组件〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "エージェント": {
+  "reading": "",
+  "meaning": "代理（程序）；经纪人；代理人〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "キャッシング": {
+  "reading": "",
+  "meaning": "缓存（操作）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "キャラクター": {
+  "reading": "",
+  "meaning": "字符；角色；人物〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ソフトウェア": {
+  "reading": "",
+  "meaning": "软件〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ダウンロード": {
+  "reading": "",
+  "meaning": "下载〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "データバンク": {
+  "reading": "",
+  "meaning": "数据库；资料库〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "データベース": {
+  "reading": "",
+  "meaning": "数据库〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ディレクトリ": {
+  "reading": "",
+  "meaning": "目录；文件夹〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ドキュメント": {
+  "reading": "",
+  "meaning": "文档；文件〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ハードウェア": {
+  "reading": "",
+  "meaning": "硬件〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "バックアップ": {
+  "reading": "",
+  "meaning": "备份；后备〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "バックボーン": {
+  "reading": "",
+  "meaning": "骨干网；脊柱；支柱〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "フォーマット": {
+  "reading": "",
+  "meaning": "格式；格式化〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "プロセッサー": {
+  "reading": "",
+  "meaning": "处理器；CPU〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ライブラリー": {
+  "reading": "",
+  "meaning": "库（软件、模块）；图书馆〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "リフレッシュ": {
+  "reading": "",
+  "meaning": "刷新；翻新；恢复精神〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "インターネット": {
+  "reading": "",
+  "meaning": "互联网〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ショートカット": {
+  "reading": "",
+  "meaning": "快捷方式；（键盘）快捷键；捷径〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ハードディスク": {
+  "reading": "",
+  "meaning": "硬盘〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "メモリーカード": {
+  "reading": "",
+  "meaning": "存储卡；内存卡〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "光学式文字認識": {
+  "reading": "こうがくしきもじにんしき",
+  "meaning": "【こうがくしきもじにんしき】光学字符识别（OCR）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "アプリケーション": {
+  "reading": "",
+  "meaning": "应用；应用程序〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "バックグラウンド": {
+  "reading": "",
+  "meaning": "后台；背景〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ファイアウォール": {
+  "reading": "",
+  "meaning": "防火墙〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "フロッピーディスク": {
+  "reading": "",
+  "meaning": "软盘〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ワークステーション": {
+  "reading": "",
+  "meaning": "工作站〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "コンフィギュレーション": {
+  "reading": "",
+  "meaning": "配置；构型〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "一意": {
+  "reading": "いちい",
+  "meaning": "【いちい】唯一；独一无二的〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "引数": {
+  "reading": "ひきすう",
+  "meaning": "【ひきすう】参数（函数的 argument）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "英数": {
+  "reading": "えいすう",
+  "meaning": "【えいすう】英文字母和数字；字母数字〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "仮数": {
+  "reading": "かすう",
+  "meaning": "【かすう】尾数；有效数字（浮点数）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "解凍": {
+  "reading": "かいとう",
+  "meaning": "【かいとう】解压（数据）；解冻〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "改行": {
+  "reading": "かいぎょう",
+  "meaning": "【かいぎょう】换行〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "格納": {
+  "reading": "かくのう",
+  "meaning": "【かくのう】存入（内存）；收纳；保存〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "構文": {
+  "reading": "こうぶん",
+  "meaning": "【こうぶん】语法；句法〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "差分": {
+  "reading": "さぶん",
+  "meaning": "【さぶん】差异；增量（diff）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "再帰": {
+  "reading": "さいき",
+  "meaning": "【さいき】递归〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "書庫": {
+  "reading": "しょこ",
+  "meaning": "【しょこ】压缩包；档案文件〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "線形": {
+  "reading": "せんけい",
+  "meaning": "【せんけい】线性〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "属性": {
+  "reading": "ぞくせい",
+  "meaning": "【ぞくせい】属性〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "代入": {
+  "reading": "だいにゅう",
+  "meaning": "【だいにゅう】赋值；代入〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "変数": {
+  "reading": "へんすう",
+  "meaning": "【へんすう】变量〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "関数": {
+  "reading": "かんすう",
+  "meaning": "【かんすう】函数〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "脱獄": {
+  "reading": "だつごく",
+  "meaning": "【だつごく】越狱（手机、游戏机）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "母線": {
+  "reading": "ぼせん",
+  "meaning": "【ぼせん】总线；母线〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "丸め": {
+  "reading": "まるめ",
+  "meaning": "【まるめ】舍入（取整）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "空列": {
+  "reading": "くうれつ",
+  "meaning": "【くうれつ】空串（null string）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "結線": {
+  "reading": "けっせん",
+  "meaning": "【けっせん】接线；固定布线〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "始端": {
+  "reading": "したん",
+  "meaning": "【したん】起始端〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "主局": {
+  "reading": "しゅきょく",
+  "meaning": "【しゅきょく】主站〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "従局": {
+  "reading": "じゅうきょく",
+  "meaning": "【じゅうきょく】从站〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "縮退": {
+  "reading": "しゅくたい",
+  "meaning": "【しゅくたい】退化（CPU、存储等）；缩减〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "色値": {
+  "reading": "しきち",
+  "meaning": "【しきち】颜色值〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "線種": {
+  "reading": "せんしゅ",
+  "meaning": "【せんしゅ】线型〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "端点": {
+  "reading": "たんてん",
+  "meaning": "【たんてん】端点；锚点〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "着呼": {
+  "reading": "ちゃっこ",
+  "meaning": "【ちゃっこ】来话；被叫〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "等化": {
+  "reading": "とうか",
+  "meaning": "【とうか】均衡（处理）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "倍角": {
+  "reading": "ばいかく",
+  "meaning": "【ばいかく】双倍字号〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "倍速": {
+  "reading": "ばいそく",
+  "meaning": "【ばいそく】倍速（传输、播放）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "発呼": {
+  "reading": "はっこ",
+  "meaning": "【はっこ】去话；主叫〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "非数": {
+  "reading": "ひすう",
+  "meaning": "【ひすう】非数值（NaN）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "閉域": {
+  "reading": "へいいき",
+  "meaning": "【へいいき】封闭（网络）区域〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "暦週": {
+  "reading": "れきしゅう",
+  "meaning": "【れきしゅう】日历周〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "点群": {
+  "reading": "てんぐん",
+  "meaning": "【てんぐん】点云（3D 扫描）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "冪等": {
+  "reading": "べきとう",
+  "meaning": "【べきとう】幂等的〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "列幅": {
+  "reading": "れつはば",
+  "meaning": "【れつはば】列宽〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "行高": {
+  "reading": "ぎょうこう",
+  "meaning": "【ぎょうこう】行高〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "値型": {
+  "reading": "あたいがた",
+  "meaning": "【あたいがた】值类型〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "動確": {
+  "reading": "どうかく",
+  "meaning": "【どうかく】动作确认；运行验证（動作確認的缩略）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "お呪い": {
+  "reading": "おまじない",
+  "meaning": "【おまじない】咒文（暂不需要理解的模板代码）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "演算子": {
+  "reading": "えんざんし",
+  "meaning": "【えんざんし】运算符；操作符〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "仮数部": {
+  "reading": "かすうぶ",
+  "meaning": "【かすうぶ】尾数部分〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "可変長": {
+  "reading": "かへんちょう",
+  "meaning": "【かへんちょう】可变长度的〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "機械語": {
+  "reading": "きかいご",
+  "meaning": "【きかいご】机器语言；机器码〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "記述子": {
+  "reading": "きじゅつし",
+  "meaning": "【きじゅつし】描述符〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "型変換": {
+  "reading": "かたへんかん",
+  "meaning": "【かたへんかん】类型转换〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "固定長": {
+  "reading": "こていちょう",
+  "meaning": "【こていちょう】固定长度的〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "子画面": {
+  "reading": "こがめん",
+  "meaning": "【こがめん】子画面；弹出窗口〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "実行権": {
+  "reading": "じっこうけん",
+  "meaning": "【じっこうけん】执行权限〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "実行時": {
+  "reading": "じっこうじ",
+  "meaning": "【じっこうじ】运行时〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "初期化": {
+  "reading": "しょきか",
+  "meaning": "【しょきか】初始化〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "初期値": {
+  "reading": "しょきち",
+  "meaning": "【しょきち】初始值；默认值〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "上書き": {
+  "reading": "うわがき",
+  "meaning": "【うわがき】覆盖（保存）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "情報化": {
+  "reading": "じょうほうか",
+  "meaning": "【じょうほうか】信息化〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "情報源": {
+  "reading": "じょうほうげん",
+  "meaning": "【じょうほうげん】信息源；消息源〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "条件文": {
+  "reading": "じょうけんぶん",
+  "meaning": "【じょうけんぶん】条件语句〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "親画面": {
+  "reading": "おやがめん",
+  "meaning": "【おやがめん】父画面；主画面〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "対応版": {
+  "reading": "たいおうばん",
+  "meaning": "【たいおうばん】对应版本；支持版本〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "電算機": {
+  "reading": "でんさんき",
+  "meaning": "【でんさんき】电子计算机〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "特徴量": {
+  "reading": "とくちょうりょう",
+  "meaning": "【とくちょうりょう】特征值；特征量（机器学习）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "二分木": {
+  "reading": "にぶんぎ",
+  "meaning": "【にぶんぎ】二叉树〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "入れ子": {
+  "reading": "いれこ",
+  "meaning": "【いれこ】嵌套结构〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "入出力": {
+  "reading": "にゅうしゅつりょく",
+  "meaning": "【にゅうしゅつりょく】输入输出（IO）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "汎用機": {
+  "reading": "はんようき",
+  "meaning": "【はんようき】通用计算机；大型机〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "非同期": {
+  "reading": "ひどうき",
+  "meaning": "【ひどうき】异步的；不同步的〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "文字列": {
+  "reading": "もじれつ",
+  "meaning": "【もじれつ】字符串〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "予約語": {
+  "reading": "よやくご",
+  "meaning": "【よやくご】保留字；关键字〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "再配布": {
+  "reading": "さいはいふ",
+  "meaning": "【さいはいふ】再分发（软件）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "実体化": {
+  "reading": "じったいか",
+  "meaning": "【じったいか】实例化〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "最下位": {
+  "reading": "さいかい",
+  "meaning": "【さいかい】最低位（比特）；最末位；最后一名〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "脆弱性": {
+  "reading": "ぜいじゃくせい",
+  "meaning": "【ぜいじゃくせい】漏洞；安全弱点〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "論理積": {
+  "reading": "ろんりせき",
+  "meaning": "【ろんりせき】逻辑与（AND）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "正論理": {
+  "reading": "せいろんり",
+  "meaning": "【せいろんり】正逻辑〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "試用版": {
+  "reading": "しようばん",
+  "meaning": "【しようばん】试用版〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "桁上げ": {
+  "reading": "けたあげ",
+  "meaning": "【けたあげ】进位〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "返り値": {
+  "reading": "かえりち",
+  "meaning": "【かえりち】返回值〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "識別名": {
+  "reading": "しきべつめい",
+  "meaning": "【しきべつめい】标识符〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "全画面": {
+  "reading": "ぜんがめん",
+  "meaning": "【ぜんがめん】全屏；全画面〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "直リン": {
+  "reading": "ちょくリン",
+  "meaning": "【ちょくリン】直链（直接链接图片、文件）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "アク禁": {
+  "reading": "アクきん",
+  "meaning": "【アクきん】封禁（禁止访问）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "文字間": {
+  "reading": "もじかん",
+  "meaning": "【もじかん】字距；字间距〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "セル化": {
+  "reading": "セルか",
+  "meaning": "【セルか】单元格化〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ヌル型": {
+  "reading": "ヌルがた",
+  "meaning": "【ヌルがた】空类型（null）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ナル型": {
+  "reading": "ナルがた",
+  "meaning": "【ナルがた】空类型（null）〈名〉",
+  "level": "IT",
+  "need": 3
+ },
+ "ヌル値": {
+  "reading": "ヌルち",
+  "meaning": "【ヌルち】空值〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "バス型": {
+  "reading": "バスがた",
+  "meaning": "【バスがた】总线型（拓扑）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "バス幅": {
+  "reading": "バスはば",
+  "meaning": "【バスはば】总线宽度〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "パス名": {
+  "reading": "パスめい",
+  "meaning": "【パスめい】路径名〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "ピコ秒": {
+  "reading": "ピコびょう",
+  "meaning": "【ピコびょう】皮秒〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "圧伸器": {
+  "reading": "あっしんき",
+  "meaning": "【あっしんき】压扩器〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "暗黙的": {
+  "reading": "あんもくてき",
+  "meaning": "【あんもくてき】隐式的；默认的；心照不宣的〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "移行期": {
+  "reading": "いこうき",
+  "meaning": "【いこうき】过渡期；切换期〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "移動局": {
+  "reading": "いどうきょく",
+  "meaning": "【いどうきょく】移动终端；移动站〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "一意名": {
+  "reading": "いちいめい",
+  "meaning": "【いちいめい】唯一标识符〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "一次局": {
+  "reading": "いちじきょく",
+  "meaning": "【いちじきょく】主站（一次局）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "一般色": {
+  "reading": "いっぱんしょく",
+  "meaning": "【いっぱんしょく】普通颜色〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "右下隅": {
+  "reading": "みぎしたすみ",
+  "meaning": "【みぎしたすみ】右下角〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "右上隅": {
+  "reading": "みぎうえすみ",
+  "meaning": "【みぎうえすみ】右上角〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "衛星系": {
+  "reading": "えいせいけい",
+  "meaning": "【えいせいけい】卫星链路；卫星系统〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "演算数": {
+  "reading": "えんざんすう",
+  "meaning": "【えんざんすう】操作数〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "演算表": {
+  "reading": "えんざんひょう",
+  "meaning": "【えんざんひょう】运算表〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "応答側": {
+  "reading": "おうとうがわ",
+  "meaning": "【おうとうがわ】应答方；响应方〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "横倍角": {
+  "reading": "よこばいかく",
+  "meaning": "【よこばいかく】双倍宽度（文字）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "下付き": {
+  "reading": "したつき",
+  "meaning": "【したつき】下标〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "下位語": {
+  "reading": "かいご",
+  "meaning": "【かいご】下位词〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "下位層": {
+  "reading": "かいそう",
+  "meaning": "【かいそう】下层；低层〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "仮引数": {
+  "reading": "かりひきすう",
+  "meaning": "【かりひきすう】形式参数；形参〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "仮想的": {
+  "reading": "かそうてき",
+  "meaning": "【かそうてき】虚拟的〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "可変部": {
+  "reading": "かへんぶ",
+  "meaning": "【かへんぶ】可变部分〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "可用率": {
+  "reading": "かようりつ",
+  "meaning": "【かようりつ】可用率〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "画面上": {
+  "reading": "がめんじょう",
+  "meaning": "【がめんじょう】屏幕上〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "会話形": {
+  "reading": "かいわがた",
+  "meaning": "【かいわがた】交互模式；会话模式〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "回線群": {
+  "reading": "かいせんぐん",
+  "meaning": "【かいせんぐん】中继群；线路群〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "回線網": {
+  "reading": "かいせんもう",
+  "meaning": "【かいせんもう】线路网；网络〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "外部型": {
+  "reading": "がいぶがた",
+  "meaning": "【がいぶがた】外部类型〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "拡張性": {
+  "reading": "かくちょうせい",
+  "meaning": "【かくちょうせい】可扩展性〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "環境光": {
+  "reading": "かんきょうこう",
+  "meaning": "【かんきょうこう】环境光〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "環状網": {
+  "reading": "かんじょうもう",
+  "meaning": "【かんじょうもう】环形网络〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "監視局": {
+  "reading": "かんしきょく",
+  "meaning": "【かんしきょく】监视站〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "関数名": {
+  "reading": "かんすうめい",
+  "meaning": "【かんすうめい】函数名〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "危険域": {
+  "reading": "きけんいき",
+  "meaning": "【きけんいき】临界区〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "基準縁": {
+  "reading": "きじゅんえん",
+  "meaning": "【きじゅんえん】基准边；定位边〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "基本値": {
+  "reading": "きほんち",
+  "meaning": "【きほんち】基本值〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "基本文": {
+  "reading": "きほんぶん",
+  "meaning": "【きほんぶん】基本语句〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "奇偶性": {
+  "reading": "きぐうせい",
+  "meaning": "【きぐうせい】奇偶性〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "記号列": {
+  "reading": "きごうれつ",
+  "meaning": "【きごうれつ】符号串〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "起動者": {
+  "reading": "きどうしゃ",
+  "meaning": "【きどうしゃ】调用者；启动者〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "起動側": {
+  "reading": "きどうがわ",
+  "meaning": "【きどうがわ】发起方；主叫方〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "共通線": {
+  "reading": "きょうつうせん",
+  "meaning": "【きょうつうせん】公共信道〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "局所名": {
+  "reading": "きょくしょめい",
+  "meaning": "【きょくしょめい】局部名〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "空状態": {
+  "reading": "くうじょうたい",
+  "meaning": "【くうじょうたい】空状态〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "型定義": {
+  "reading": "かたていぎ",
+  "meaning": "【かたていぎ】类型定义〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "継続行": {
+  "reading": "けいぞくぎょう",
+  "meaning": "【けいぞくぎょう】续行〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "計数器": {
+  "reading": "けいすうき",
+  "meaning": "【けいすうき】计数器〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "決定表": {
+  "reading": "けっていひょう",
+  "meaning": "【けっていひょう】判定表；决策表〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "結合性": {
+  "reading": "けつごうせい",
+  "meaning": "【けつごうせい】结合性；连通性〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "検出部": {
+  "reading": "けんしゅつぶ",
+  "meaning": "【けんしゅつぶ】读出装置〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "肩文字": {
+  "reading": "かたもじ",
+  "meaning": "【かたもじ】上标〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "鍵管理": {
+  "reading": "かぎかんり",
+  "meaning": "【かぎかんり】密钥管理〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "顕示性": {
+  "reading": "けんじせい",
+  "meaning": "【けんじせい】高亮显示〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "減算器": {
+  "reading": "げんざんき",
+  "meaning": "【げんざんき】减法器〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "減衰量": {
+  "reading": "げんすいりょう",
+  "meaning": "【げんすいりょう】衰减量〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "現位置": {
+  "reading": "げんいち",
+  "meaning": "【げんいち】当前位置〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "現在値": {
+  "reading": "げんざいち",
+  "meaning": "【げんざいち】当前值〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "現在点": {
+  "reading": "げんざいてん",
+  "meaning": "【げんざいてん】当前点〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "現地化": {
+  "reading": "げんちか",
+  "meaning": "【げんちか】本地化〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "限定子": {
+  "reading": "げんていし",
+  "meaning": "【げんていし】限定符〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "呼出側": {
+  "reading": "よびだしがわ",
+  "meaning": "【よびだしがわ】调用方；主叫方〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "呼制御": {
+  "reading": "こせいぎょ",
+  "meaning": "【こせいぎょ】呼叫控制〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "呼損率": {
+  "reading": "こそんりつ",
+  "meaning": "【こそんりつ】呼损率；阻塞率〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "固有色": {
+  "reading": "こゆうしょく",
+  "meaning": "【こゆうしょく】固有色〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "互換機": {
+  "reading": "ごかんき",
+  "meaning": "【ごかんき】兼容机；克隆机〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "後方端": {
+  "reading": "こうほうたん",
+  "meaning": "【こうほうたん】后端；尾端〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "誤り率": {
+  "reading": "あやまりりつ",
+  "meaning": "【あやまりりつ】误码率；出错率〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "交換機": {
+  "reading": "こうかんき",
+  "meaning": "【こうかんき】交换机〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "交換型": {
+  "reading": "こうかんがた",
+  "meaning": "【こうかんがた】交换型的〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "交換網": {
+  "reading": "こうかんもう",
+  "meaning": "【こうかんもう】交换网络〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "広域網": {
+  "reading": "こういきもう",
+  "meaning": "【こういきもう】广域网〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "構成体": {
+  "reading": "こうせいたい",
+  "meaning": "【こうせいたい】构造体；组合体〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "構造型": {
+  "reading": "こうぞうがた",
+  "meaning": "【こうぞうがた】结构类型；派生类型〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "構文素": {
+  "reading": "こうぶんそ",
+  "meaning": "【こうぶんそ】词法单元；记号〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "行位置": {
+  "reading": "ぎょういち",
+  "meaning": "【ぎょういち】行位置；行号〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "行間隔": {
+  "reading": "ぎょうかんかく",
+  "meaning": "【ぎょうかんかく】行距；行间隔〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "行送り": {
+  "reading": "ぎょうおくり",
+  "meaning": "【ぎょうおくり】换行；行进给〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "行番号": {
+  "reading": "ぎょうばんごう",
+  "meaning": "【ぎょうばんごう】行号〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "項目名": {
+  "reading": "こうもくめい",
+  "meaning": "【こうもくめい】项目名；字段名〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "刻み幅": {
+  "reading": "きざみはば",
+  "meaning": "【きざみはば】步长〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "左下隅": {
+  "reading": "ひだりしたすみ",
+  "meaning": "【ひだりしたすみ】左下角〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "左上隅": {
+  "reading": "ひだりうえすみ",
+  "meaning": "【ひだりうえすみ】左上角〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "左辺値": {
+  "reading": "さへんち",
+  "meaning": "【さへんち】左值〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "差分法": {
+  "reading": "さぶんほう",
+  "meaning": "【さぶんほう】差分法〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "座標点": {
+  "reading": "ざひょうてん",
+  "meaning": "【ざひょうてん】坐标点〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "再割当": {
+  "reading": "さいわりあて",
+  "meaning": "【さいわりあて】重新分配〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "再計算": {
+  "reading": "さいけいさん",
+  "meaning": "【さいけいさん】重新计算〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "再実行": {
+  "reading": "さいじっこう",
+  "meaning": "【さいじっこう】重新执行；重试〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "再接続": {
+  "reading": "さいせつぞく",
+  "meaning": "【さいせつぞく】重连；重新连接〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "再設定": {
+  "reading": "さいせってい",
+  "meaning": "【さいせってい】重新设置（如重设密码）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "再宣言": {
+  "reading": "さいせんげん",
+  "meaning": "【さいせんげん】重新声明〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "再組立": {
+  "reading": "さいくみたて",
+  "meaning": "【さいくみたて】重组装〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "再送信": {
+  "reading": "さいそうしん",
+  "meaning": "【さいそうしん】重发；重新发送〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "再描画": {
+  "reading": "さいびょうが",
+  "meaning": "【さいびょうが】重绘；重画〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "最右端": {
+  "reading": "さいうたん",
+  "meaning": "【さいうたん】最右端；低位端〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "最左端": {
+  "reading": "さいさたん",
+  "meaning": "【さいさたん】最左端；高位端〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "最終値": {
+  "reading": "さいしゅうち",
+  "meaning": "【さいしゅうち】最终值〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "最上位": {
+  "reading": "さいじょうい",
+  "meaning": "【さいじょうい】最高位；最高端；最高级别〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "最大数": {
+  "reading": "さいだいすう",
+  "meaning": "【さいだいすう】最大数；上限〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "作業域": {
+  "reading": "さぎょういき",
+  "meaning": "【さぎょういき】工作区；工作空间〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "索引語": {
+  "reading": "さくいんご",
+  "meaning": "【さくいんご】索引词〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "参照権": {
+  "reading": "さんしょうけん",
+  "meaning": "【さんしょうけん】访问权限；查看权〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "参照先": {
+  "reading": "さんしょうさき",
+  "meaning": "【さんしょうさき】被引用对象〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "参照線": {
+  "reading": "さんしょうせん",
+  "meaning": "【さんしょうせん】参考线〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "算術式": {
+  "reading": "さんじゅつしき",
+  "meaning": "【さんじゅつしき】算术表达式〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "算術和": {
+  "reading": "さんじゅつわ",
+  "meaning": "【さんじゅつわ】算术和〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "指数的": {
+  "reading": "しすうてき",
+  "meaning": "【しすうてき】指数的（增长等）〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "指定子": {
+  "reading": "していし",
+  "meaning": "【していし】指示符；说明符〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "指標名": {
+  "reading": "しひょうめい",
+  "meaning": "【しひょうめい】索引名〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "紙送り": {
+  "reading": "かみおくり",
+  "meaning": "【かみおくり】走纸；进纸〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "字下げ": {
+  "reading": "じさげ",
+  "meaning": "【じさげ】缩进〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "時分割": {
+  "reading": "じぶんかつ",
+  "meaning": "【じぶんかつ】分时（处理）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "次元数": {
+  "reading": "じげんすう",
+  "meaning": "【じげんすう】维数；秩〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "自立型": {
+  "reading": "じりつがた",
+  "meaning": "【じりつがた】独立型；单机式〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "実引数": {
+  "reading": "じつひきすう",
+  "meaning": "【じつひきすう】实际参数；实参〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "実記憶": {
+  "reading": "じつきおく",
+  "meaning": "【じつきおく】实存；实际存储〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "実効値": {
+  "reading": "じっこうち",
+  "meaning": "【じっこうち】有效值（均方根值）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "実効長": {
+  "reading": "じっこうちょう",
+  "meaning": "【じっこうちょう】有效长度〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "実行文": {
+  "reading": "じっこうぶん",
+  "meaning": "【じっこうぶん】可执行语句〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "借り数": {
+  "reading": "かりすう",
+  "meaning": "【かりすう】借位数（减法）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "主キー": {
+  "reading": "しゅキー",
+  "meaning": "【しゅキー】主键〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "手順書": {
+  "reading": "てじゅんしょ",
+  "meaning": "【てじゅんしょ】操作手册；流程文档〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "受諾側": {
+  "reading": "じゅだくがわ",
+  "meaning": "【じゅだくがわ】接受方〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "受動局": {
+  "reading": "じゅどうきょく",
+  "meaning": "【じゅどうきょく】被动站〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "修正版": {
+  "reading": "しゅうせいばん",
+  "meaning": "【しゅうせいばん】修订版〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "終端部": {
+  "reading": "しゅうたんぶ",
+  "meaning": "【しゅうたんぶ】尾部；结尾部分〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "集合型": {
+  "reading": "しゅうごうがた",
+  "meaning": "【しゅうごうがた】集合类型〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "集中化": {
+  "reading": "しゅうちゅうか",
+  "meaning": "【しゅうちゅうか】集中化〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "出回線": {
+  "reading": "しゅつかいせん",
+  "meaning": "【しゅつかいせん】输出线路〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "順序性": {
+  "reading": "じゅんじょせい",
+  "meaning": "【じゅんじょせい】顺序性；排序〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "順序木": {
+  "reading": "じゅんじょぎ",
+  "meaning": "【じゅんじょぎ】有序树〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "順番列": {
+  "reading": "じゅんばんれつ",
+  "meaning": "【じゅんばんれつ】序列；顺序串〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "順編成": {
+  "reading": "じゅんへんせい",
+  "meaning": "【じゅんへんせい】顺序组织（文件）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "処理系": {
+  "reading": "しょりけい",
+  "meaning": "【しょりけい】处理系统；实现（编译器等）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "初期点": {
+  "reading": "しょきてん",
+  "meaning": "【しょきてん】初始点〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "書簡箱": {
+  "reading": "しょかんばこ",
+  "meaning": "【しょかんばこ】电子邮箱〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "承認者": {
+  "reading": "しょうにんしゃ",
+  "meaning": "【しょうにんしゃ】审批人；批准者〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "消光比": {
+  "reading": "しょうこうひ",
+  "meaning": "【しょうこうひ】消光比（光通信）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "証明証": {
+  "reading": "しょうめいしょう",
+  "meaning": "【しょうめいしょう】证书（数字证书）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "上位層": {
+  "reading": "じょういそう",
+  "meaning": "【じょういそう】上层；高层〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "上下限": {
+  "reading": "じょうげげん",
+  "meaning": "【じょうげげん】上下限；边界〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "上限値": {
+  "reading": "じょうげんち",
+  "meaning": "【じょうげんち】上限值〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "冗長化": {
+  "reading": "じょうちょうか",
+  "meaning": "【じょうちょうか】冗余化〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "冗長量": {
+  "reading": "じょうちょうりょう",
+  "meaning": "【じょうちょうりょう】冗余量（信息论）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "条件式": {
+  "reading": "じょうけんしき",
+  "meaning": "【じょうけんしき】条件表达式〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "色温度": {
+  "reading": "いろおんど",
+  "meaning": "【いろおんど】色温〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "色指標": {
+  "reading": "いろしひょう",
+  "meaning": "【いろしひょう】颜色指数〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "色写像": {
+  "reading": "いろしゃぞう",
+  "meaning": "【いろしゃぞう】颜色映射〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "色分解": {
+  "reading": "いろぶんかい",
+  "meaning": "【いろぶんかい】分色（印刷）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "色補正": {
+  "reading": "いろほせい",
+  "meaning": "【いろほせい】色彩校正〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "信号網": {
+  "reading": "しんごうもう",
+  "meaning": "【しんごうもう】信令网〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "親要素": {
+  "reading": "おやようそ",
+  "meaning": "【おやようそ】父元素〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "推定値": {
+  "reading": "すいていち",
+  "meaning": "【すいていち】估计值〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "数体系": {
+  "reading": "すうたいけい",
+  "meaning": "【すうたいけい】数系；记数系统〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "数値型": {
+  "reading": "すうちがた",
+  "meaning": "【すうちがた】数值类型〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "数値的": {
+  "reading": "すうちてき",
+  "meaning": "【すうちてき】数值的〈ナ形〉",
+  "level": "IT",
+  "need": 2
+ },
+ "数表現": {
+  "reading": "すうひょうげん",
+  "meaning": "【すうひょうげん】数的表示（法）〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "制御域": {
+  "reading": "せいぎょいき",
+  "meaning": "【せいぎょいき】控制区〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "制御局": {
+  "reading": "せいぎょきょく",
+  "meaning": "【せいぎょきょく】控制站〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "制御系": {
+  "reading": "せいぎょけい",
+  "meaning": "【せいぎょけい】控制系统〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "制御権": {
+  "reading": "せいぎょけん",
+  "meaning": "【せいぎょけん】控制权〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "制御卓": {
+  "reading": "せいぎょたく",
+  "meaning": "【せいぎょたく】控制台〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "制御点": {
+  "reading": "せいぎょてん",
+  "meaning": "【せいぎょてん】控制点〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "整数型": {
+  "reading": "せいすうがた",
+  "meaning": "【せいすうがた】整数类型〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "整数値": {
+  "reading": "せいすうち",
+  "meaning": "【せいすうち】整数值〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "星状網": {
+  "reading": "ほしじょうもう",
+  "meaning": "【ほしじょうもう】星型网络〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "正規形": {
+  "reading": "せいきけい",
+  "meaning": "【せいきけい】规范形（浮点表示等）；标准形〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "製品化": {
+  "reading": "せいひんか",
+  "meaning": "【せいひんか】产品化；商品化〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "折れ線": {
+  "reading": "おれせん",
+  "meaning": "【おれせん】折线〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "設定時": {
+  "reading": "せっていじ",
+  "meaning": "【せっていじ】初始化时〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "宣言子": {
+  "reading": "せんげんし",
+  "meaning": "【せんげんし】声明符〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "宣言文": {
+  "reading": "せんげんぶん",
+  "meaning": "【せんげんぶん】声明语句〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "線間隔": {
+  "reading": "せんかんかく",
+  "meaning": "【せんかんかく】线间距〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "線状網": {
+  "reading": "せんじょうもう",
+  "meaning": "【せんじょうもう】线状网络〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "選択型": {
+  "reading": "せんたくがた",
+  "meaning": "【せんたくがた】选择类型〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "遷移図": {
+  "reading": "せんいず",
+  "meaning": "【せんいず】状态转移图〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "前方端": {
+  "reading": "ぜんぽうたん",
+  "meaning": "【ぜんぽうたん】前端；前缘〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "全集合": {
+  "reading": "ぜんしゅうごう",
+  "meaning": "【ぜんしゅうごう】全集〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "全体語": {
+  "reading": "ぜんたいご",
+  "meaning": "【ぜんたいご】总称术语〈名〉",
+  "level": "IT",
+  "need": 2
+ },
+ "疎結合": {
+  "reading": "そけつごう",
+  "meaning": "【そけつごう】松耦合〈名〉",
+  "level": "IT",
+  "need": 2
+ }
+}

@@ -1,0 +1,502 @@
+{
+"stock": [
+{"fr": "Le magasin a écoulé tout son stock avant les fêtes.", "zh": "商店赶在节前把库存全部卖光了。"},
+{"fr": "Ce modèle n'est plus en stock, il faudra commander.", "zh": "这个型号已经没货了，得预订。"},
+{"fr": "L'entrepôt ne peut plus absorber un tel stock de marchandises.", "zh": "仓库再也装不下这么多存货了。"}
+],
+"stocker": [
+{"fr": "Il stocke des boîtes de conserve en cas de pénurie.", "zh": "他囤了一些罐头以防物资短缺。"},
+{"fr": "Ces photos se stockent automatiquement dans le nuage.", "zh": "这些照片会自动存到云端。"},
+{"fr": "On ne peut pas stocker ces produits dans un endroit humide.", "zh": "这些产品不能存放在潮湿的地方。"}
+],
+"stopper": [
+{"fr": "Le policier a stoppé la voiture au bord de l'autoroute.", "zh": "警察让那辆车在高速公路边停了下来。"},
+{"fr": "Il faut stopper la machine avant de nettoyer le filtre.", "zh": "清洗滤网前必须先停机。"},
+{"fr": "Le médecin lui a conseillé de stopper ce traitement.", "zh": "医生建议他停止这项治疗。"}
+],
+"stratégie": [
+{"fr": "Sa stratégie consiste à convaincre les clients un par un.", "zh": "他的策略是逐个说服客户。"},
+{"fr": "L'entraîneur a changé de stratégie à la mi-temps.", "zh": "教练在中场时改变了战术思路。"},
+{"fr": "Sans une vraie stratégie, cette campagne de vente échouera.", "zh": "没有真正的策略，这次销售活动会失败。"}
+],
+"stratégique": [
+{"fr": "Ce port est un point stratégique qu'il faut défendre.", "zh": "这个港口是必须守住的战略要地。"},
+{"fr": "L'entreprise a ouvert une agence dans une ville stratégique de l'Est.", "zh": "公司在东部一座具有战略意义的城市开设了分部。"},
+{"fr": "Ces matières premières sont stratégiques pour notre industrie.", "zh": "这些原材料对我们的工业至关重要。"}
+],
+"stresser": [
+{"fr": "N'essaie pas de le stresser avec tes questions avant l'oral.", "zh": "口试前别用你的问题给他施压。"},
+{"fr": "Ce trajet quotidien dans le métro me stresse énormément.", "zh": "每天挤地铁通勤让我压力很大。"},
+{"fr": "Le patron stresse toute l'équipe avec ses délais impossibles.", "zh": "老板用那些不可能的期限让全组人心惶惶。"}
+],
+"strict": [
+{"fr": "Le règlement intérieur est très strict sur les horaires.", "zh": "内部规章对上班时间要求很严格。"},
+{"fr": "Ses parents étaient stricts sur la politesse à table.", "zh": "他的父母在餐桌礼仪上要求很严。"},
+{"fr": "C'est un professeur exigeant mais pas strict.", "zh": "他是一位要求高但不刻板的老师。"}
+],
+"strictement": [
+{"fr": "Il est strictement interdit de fumer dans les locaux.", "zh": "楼内严禁吸烟。"},
+{"fr": "Ce document est strictement confidentiel, ne le photocopie pas.", "zh": "这份文件绝密，别复印。"},
+{"fr": "J'obéis strictement aux consignes du médecin.", "zh": "我严格遵守医嘱。"}
+],
+"structure": [
+{"fr": "La structure du pont a été renforcée après le séisme.", "zh": "地震后大桥的结构得到了加固。"},
+{"fr": "Cette association est une structure d'accueil pour étudiants étrangers.", "zh": "这家协会是一个接待外国学生的机构。"},
+{"fr": "Il faudra revoir la structure de ta phrase.", "zh": "你得重新调整一下这句子的结构。"}
+],
+"subir": [
+{"fr": "La région a subi de graves inondations le mois dernier.", "zh": "该地区上个月遭受了严重洪灾。"},
+{"fr": "Il refuse de subir les décisions des autres sans rien dire.", "zh": "他拒绝一声不吭地承受别人的决定。"},
+{"fr": "L'équipe a subi une défaite cruelle en finale.", "zh": "球队在决赛中惨遭败绩。"}
+],
+"substance": [
+{"fr": "Une substance huileuse flottait sur la rivière.", "zh": "河面上漂着一层油状物质。"},
+{"fr": "Le résumé reprend la substance du rapport sans les détails.", "zh": "摘要撷取了报告的实质内容，省去了细节。"},
+{"fr": "Cette substance est toxique pour les chats.", "zh": "这种物质对猫有毒。"}
+],
+"subvention": [
+{"fr": "L'État a accordé une subvention à ce théâtre indépendant.", "zh": "国家给这家独立剧院发放了补贴。"},
+{"fr": "Sans cette subvention, le projet ne verrait jamais le jour.", "zh": "没有这笔补助金，项目根本无法启动。"},
+{"fr": "L'association demande une subvention à la mairie chaque année.", "zh": "协会每年都向市政府申请补助。"}
+],
+"successeur": [
+{"fr": "Le directeur part en juin et son successeur est déjà connu.", "zh": "主任六月份离任，继任者已经确定。"},
+{"fr": "Bien choisir son successeur est la préoccupation du président sortant.", "zh": "选好接替者是即将卸任的主席最操心的事。"},
+{"fr": "Son successeur a repris l'affaire familiale sans changer la recette.", "zh": "接班人接手了家族生意，配方一点没改。"}
+],
+"succession": [
+{"fr": "Une succession de pannes a retardé le chantier.", "zh": "接连不断的故障耽误了工期。"},
+{"fr": "La succession du roi a déclenché un conflit entre les frères.", "zh": "王位继承在兄弟之间引发了争斗。"},
+{"fr": "Les papiers de la succession sont chez le notaire.", "zh": "遗产继承的文件在公证人那里。"}
+],
+"succéder": [
+{"fr": "À la mauvaise récolte a succédé une longue sécheresse.", "zh": "歉收之后接着又是一场长期干旱。"},
+{"fr": "Elle succédera à son père à la tête de l'entreprise.", "zh": "她将接替父亲执掌公司。"},
+{"fr": "Qui va succéder au maire sortant aux prochaines élections ?", "zh": "下届选举谁来接替现任市长？"}
+],
+"suer": [
+{"fr": "Cet exercice nous fait suer depuis une bonne demi-heure.", "zh": "这个练习让我们流汗流了整整半小时。"},
+{"fr": "Il faut suer pour finir la toiture avant la pluie.", "zh": "要在下雨前把屋顶修完，非得流一身汗不可。"},
+{"fr": "Après le match, ses maillots sentent la sueur.", "zh": "比赛结束后，他的球衣满是汗味。"}
+],
+"suffire": [
+{"fr": "Deux cents euros par mois ne suffisent pas pour vivre à Paris.", "zh": "每月两百欧元在巴黎不够生活。"},
+{"fr": "Il suffit d'appuyer sur ce bouton pour démarrer la machine.", "zh": "只要按一下这个按钮，机器就能启动。"},
+{"fr": "Ta présence me suffit, inutile d'apporter un cadeau.", "zh": "你能来就够了，不必带礼物。"}
+],
+"suffisamment": [
+{"fr": "Elle ne dort pas suffisamment en semaine.", "zh": "她工作日睡眠不足。"},
+{"fr": "Nous avons suffisamment de temps pour visiter le musée.", "zh": "我们有足够的时间参观博物馆。"},
+{"fr": "Il ne s'entraîne pas suffisamment pour viser le podium.", "zh": "他想冲击领奖台，训练量还不够。"}
+],
+"suffisant": [
+{"fr": "Un salaire suffisant lui permettrait de rester dans la région.", "zh": "一份够用的工资能让他留在这个地区。"},
+{"fr": "La récolte sera suffisante pour nourrir tout le village.", "zh": "收成将足以养活全村人。"},
+{"fr": "Il est trop suffisant pour reconnaître ses erreurs.", "zh": "他自大得很，不肯承认自己的错误。"}
+],
+"suggestion": [
+{"fr": "Merci pour ta suggestion, nous allons la suivre.", "zh": "谢谢你的建议，我们会采纳。"},
+{"fr": "J'ai une suggestion à vous faire pour améliorer l'accueil.", "zh": "我有一条改进接待工作的建议。"},
+{"fr": "Sur la suggestion du professeur, elle a relu son devoir.", "zh": "在老师的建议下，她把作业重读了一遍。"}
+],
+"suggérer": [
+{"fr": "Le médecin lui a suggéré de marcher un peu chaque jour.", "zh": "医生建议他每天散散步。"},
+{"fr": "Je voudrais suggérer une petite modification au planning.", "zh": "我想对日程表提一个小修改。"},
+{"fr": "Son sourire suggère qu'il est d'accord avec nous.", "zh": "他的微笑表明他同意我们的看法。"}
+],
+"suicide": [
+{"fr": "La police écarte la thèse du suicide et ouvre une enquête.", "zh": "警方排除自杀的结论，已展开调查。"},
+{"fr": "Des campagnes de prévention du suicide sont lancées chaque automne.", "zh": "每年秋天都会开展预防自杀的宣传活动。"},
+{"fr": "Cette ligne d'écoute aide les personnes en détresse vingt-quatre heures sur vingt-quatre.", "zh": "这条心理援助热线全天候帮助陷入困境的人。"}
+],
+"superbe": [
+{"fr": "Quelle superbe vue depuis la terrasse !", "zh": "从露台看出去的景色真壮丽！"},
+{"fr": "Elle a passé une superbe journée au bord du lac.", "zh": "她在湖边度过了极好的一天。"},
+{"fr": "Le château est encore plus superbe en vrai qu'en photo.", "zh": "这座城堡实物比照片上还要壮观。"}
+],
+"superficiel": [
+{"fr": "Son analyse reste superficielle et ne convainc personne.", "zh": "他的分析很肤浅，谁也说服不了。"},
+{"fr": "Il juge les gens de façon beaucoup trop superficielle.", "zh": "他评判别人的方式太流于表面了。"},
+{"fr": "C'est une égratignure superficielle, rien de grave.", "zh": "只是表皮划伤，不严重。"}
+],
+"supplier": [
+{"fr": "Elle a supplié le gardien de laisser entrer son frère.", "zh": "她哀求门卫放她哥哥进去。"},
+{"fr": "Il supplie son patron de ne pas le licencier.", "zh": "他恳求老板不要解雇他。"},
+{"fr": "Ne me force pas à supplier pour obtenir ce qui m'est dû.", "zh": "别逼我为了拿回属于自己的东西去苦苦哀求。"}
+],
+"supplément": [
+{"fr": "Vous paierez un supplément pour la chambre avec vue sur mer.", "zh": "海景房要额外付费。"},
+{"fr": "Ce journal publie un supplément spécial sur le sport.", "zh": "这份报纸出了一期体育特刊。"},
+{"fr": "Il a pris un supplément de frites pour les enfants.", "zh": "他给孩子们多加了一份薯条。"}
+],
+"supplémentaire": [
+{"fr": "Un bus supplémentaire circule aux heures de pointe.", "zh": "高峰时段会增开一班公交车。"},
+{"fr": "Ces frais supplémentaires n'étaient pas prévus dans le devis.", "zh": "这些额外费用没有列在报价单里。"},
+{"fr": "Nous avons besoin de renseignements supplémentaires avant de décider.", "zh": "做决定前我们还需要更多信息。"}
+],
+"supporter": [
+{"fr": "Je ne supporte pas le bruit la nuit.", "zh": "我受不了夜里的噪音。"},
+{"fr": "Elle n'a jamais pu supporter l'humidité de cette région.", "zh": "她一直忍受不了这个地区的潮湿。"},
+{"fr": "Comment as-tu supporté cette chaleur toute la semaine ?", "zh": "这一整周的高温你是怎么熬过来的？"}
+],
+"supposer": [
+{"fr": "Je suppose que tu as déjà lu le contrat ?", "zh": "我猜你已经看过合同了吧？"},
+{"fr": "Ce résultat suppose des mois de préparation sérieuse.", "zh": "取得这个结果意味着数月的认真准备。"},
+{"fr": "En supposant que le train ait du retard, préviens-moi.", "zh": "万一火车晚点，记得通知我。"}
+],
+"supposé": [
+{"fr": "Le supposé expert s'est révélé un simple amateur.", "zh": "那个所谓的专家原来只是个业余爱好者。"},
+{"fr": "Ce village, supposé hanté, attire tous les curieux.", "zh": "这个据说闹鬼的村子吸引了所有好奇的人。"},
+{"fr": "Ils sont supposés arriver à midi, mais on ne les voit pas.", "zh": "按说他们中午就该到了，可到现在也没露面。"}
+],
+"supprimer": [
+{"fr": "Elle a supprimé le fichier par erreur.", "zh": "她误删了那个文件。"},
+{"fr": "L'usine va supprimer cinquante postes cette année.", "zh": "工厂今年将裁减五十个岗位。"},
+{"fr": "Il faudrait supprimer cette règle devenue inutile.", "zh": "这条已经没用的规定应该取消。"}
+],
+"suprême": [
+{"fr": "La Cour suprême a rejeté le recours des plaignants.", "zh": "最高法院驳回了原告的上诉。"},
+{"fr": "Le rendre responsable de cette erreur serait une injustice suprême.", "zh": "把这个错误归咎于他是最大的不公。"},
+{"fr": "Pour lui, la liberté reste une valeur suprême.", "zh": "对他来说，自由是最高的价值。"}
+],
+"supérieur": [
+{"fr": "Mon supérieur hiérarchique a validé mes congés d'été.", "zh": "我的上级批准了我的暑假。"},
+{"fr": "Ce nouveau modèle est nettement supérieur au précédent.", "zh": "这个新型号明显优于上一款。"},
+{"fr": "Le devis est supérieur à ce que nous avions prévu.", "zh": "报价超出了我们的预算。"}
+],
+"surcharger": [
+{"fr": "Ne surchargez pas la prise avec quatre appareils.", "zh": "别在一个插座上插四个电器，会超载的。"},
+{"fr": "Il s'est surchargé de travail et est tombé malade.", "zh": "他工作负担过重，病倒了。"},
+{"fr": "Le camion surchargé roulait lentement dans la côte.", "zh": "超载的卡车在坡道上开得很慢。"}
+],
+"surfer": [
+{"fr": "Les jeunes passent des heures à surfer sur les réseaux sociaux.", "zh": "年轻人一上网就在社交平台上泡好几个小时。"},
+{"fr": "Il apprend à surfer sur les vagues de la côte atlantique.", "zh": "他在大西洋沿岸学习冲浪。"},
+{"fr": "Surfer sur cette tendance serait une bonne affaire pour la marque.", "zh": "借这股潮流的势头，对品牌来说是笔好买卖。"}
+],
+"surnaturel": [
+{"fr": "Le film mêle enquête policière et phénomènes surnaturels.", "zh": "这部电影把警探调查和超自然现象混在一起。"},
+{"fr": "Elle attribue ces événements étranges à des forces surnaturelles.", "zh": "她把这些怪事归因于超自然的力量。"},
+{"fr": "Le roman joue habilement avec le surnaturel.", "zh": "这部小说巧妙地玩转超自然元素。"}
+],
+"surnom": [
+{"fr": "Tout le monde l'appelle Mimi, son surnom d'enfance.", "zh": "大家都叫他米米，那是他小时候的绰号。"},
+{"fr": "Les copains lui ont trouvé un surnom rigolo.", "zh": "伙伴们给他起了一个搞笑的外号。"},
+{"fr": "Son vrai nom est difficile, alors chacun utilise son surnom.", "zh": "他的真名太难念，所以大家都用他的外号。"}
+],
+"surveillance": [
+{"fr": "Les caméras de surveillance ont filmé le voleur.", "zh": "监控摄像头拍到了窃贼。"},
+{"fr": "Le patient reste sous surveillance médicale pendant la nuit.", "zh": "病人整夜都在医疗监护之下。"},
+{"fr": "La surveillance du périmètre est assurée par des drones.", "zh": "周边的监视由无人机负责。"}
+],
+"surveillant": [
+{"fr": "Le surveillant du lycée a confisqué le téléphone.", "zh": "中学的监考老师没收了手机。"},
+{"fr": "Un surveillant vérifie les sacs à l'entrée de la piscine.", "zh": "泳池入口有一名管理员检查背包。"},
+{"fr": "Le surveillant de nuit fait sa ronde toutes les deux heures.", "zh": "夜班看守每两小时巡逻一次。"}
+],
+"surveiller": [
+{"fr": "Il faut surveiller la cuisson de la sauce.", "zh": "得盯着点酱汁的火候。"},
+{"fr": "Le médecin surveille son poids de près.", "zh": "医生密切留意他的体重。"},
+{"fr": "Surveille tes affaires dans le train, il y a du monde.", "zh": "火车上人多，看好你的东西。"}
+],
+"survie": [
+{"fr": "Ils ont appris les techniques de survie en forêt.", "zh": "他们在森林里学会了野外生存技能。"},
+{"fr": "La survie de l'espèce est menacée par la pollution.", "zh": "这一物种的生存正受到污染威胁。"},
+{"fr": "Ce kit de survie tient dans une petite sacoche.", "zh": "这套救生装备能装进一个小挎包。"}
+],
+"survivant": [
+{"fr": "Les survivants du naufrage ont été recueillis par un cargo.", "zh": "海难的幸存者被一艘货轮救起。"},
+{"fr": "C'est le seul survivant de l'accident d'avion.", "zh": "他是那起空难唯一的幸存者。"},
+{"fr": "Chaque année, les survivants de la catastrophe se retrouvent au mémorial.", "zh": "每年，那场灾难的幸存者都会在纪念碑前相聚。"}
+],
+"survivre": [
+{"fr": "Ces plantes parviennent à survivre sans eau pendant des semaines.", "zh": "这些植物能在无水条件下存活数周。"},
+{"fr": "Ils ont survécu à la tempête en grimpant jusqu'au refuge.", "zh": "他们爬到避难所，熬过了那场暴风雨。"},
+{"fr": "Comment survivre à une telle chaleur sans climatisation ?", "zh": "没有空调，这样的高温怎么熬得过去？"}
+],
+"suspecter": [
+{"fr": "La police suspecte un ancien employé de la banque.", "zh": "警方怀疑是银行的一名前员工。"},
+{"fr": "Je suspecte une fuite quelque part dans le circuit d'eau.", "zh": "我怀疑水路系统某处有渗漏。"},
+{"fr": "On le suspecte d'avoir caché des documents importants.", "zh": "他被怀疑藏匿了重要文件。"}
+],
+"suspendre": [
+{"fr": "Il faut suspendre le linge avant qu'il pleuve.", "zh": "得趁下雨前把衣服晾出去。"},
+{"fr": "La fédération a suspendu le joueur pour deux matchs.", "zh": "联合会暂停该球员两场比赛资格。"},
+{"fr": "Le pays a suspendu les importations de cette viande.", "zh": "该国暂停进口这种肉。"}
+],
+"suspendu": [
+{"fr": "Le pont suspendu traverse la vallée sur deux cents mètres.", "zh": "这座吊桥横跨山谷两百米。"},
+{"fr": "L'électricité est suspendue dans tout le quartier depuis ce matin.", "zh": "从今天早上起，整个街区都停了电。"},
+{"fr": "Une lampe suspendue au plafond éclaire la table.", "zh": "一盏吊灯照亮了餐桌。"}
+],
+"sympathie": [
+{"fr": "Elle a beaucoup de sympathie pour ses voisins.", "zh": "她对邻居们颇有好感。"},
+{"fr": "Son sourire inspire aussitôt la sympathie.", "zh": "他的微笑立刻让人心生好感。"},
+{"fr": "En signe de sympathie, il a offert des fleurs à la famille.", "zh": "为了表达同情，他给这家人送去了鲜花。"}
+],
+"symptôme": [
+{"fr": "La fièvre est souvent le premier symptôme de la grippe.", "zh": "发烧往往是流感的首个症状。"},
+{"fr": "Ce tremblement pourrait être le symptôme d'une grande fatigue.", "zh": "这种手抖可能是极度疲劳的征兆。"},
+{"fr": "Consultez si les symptômes durent plus de trois jours.", "zh": "如果症状持续三天以上，请就医。"}
+],
+"syndicat": [
+{"fr": "Le syndicat a négocié une hausse des salaires.", "zh": "工会谈成了加薪。"},
+{"fr": "Elle est membre du syndicat depuis son arrivée à l'usine.", "zh": "她进厂以来一直是工会成员。"},
+{"fr": "Les syndicats appellent à la grève jeudi prochain.", "zh": "各工会号召下周四罢工。"}
+],
+"synthétique": [
+{"fr": "Cette veste en tissu synthétique sèche très vite.", "zh": "这件化纤外套干得很快。"},
+{"fr": "L'huile synthétique protège mieux le moteur en hiver.", "zh": "合成机油在冬天能更好地保护发动机。"},
+{"fr": "Les fibres synthétiques coûtent moins cher que la laine.", "zh": "人造纤维比羊毛便宜。"}
+],
+"système": [
+{"fr": "Le système de chauffage est tombé en panne.", "zh": "供暖系统出了故障。"},
+{"fr": "Ce pays a réformé tout son système de santé.", "zh": "这个国家改革了整套医疗体系。"},
+{"fr": "Un bon système de classement facilite le rangement des dossiers.", "zh": "好的归档系统让文件整理更轻松。"}
+],
+"séance": [
+{"fr": "La séance de cinéma commence à vingt heures.", "zh": "电影场次二十点开始。"},
+{"fr": "Nous avons une séance de travail prévue demain matin.", "zh": "我们明天上午安排了一次工作会议。"},
+{"fr": "Elle a réservé une séance de photos pour le bébé.", "zh": "她为宝宝预约了一场拍照。"}
+],
+"sécheresse": [
+{"fr": "La sécheresse a ruiné les récoltes de maïs.", "zh": "干旱毁了玉米收成。"},
+{"fr": "En cas de sécheresse, arroser les jardins est interdit.", "zh": "干旱期间禁止给花园浇水。"},
+{"fr": "Cette longue sécheresse a fait baisser le niveau de la rivière.", "zh": "这场长期干旱使河水水位下降。"}
+],
+"séduction": [
+{"fr": "La publicité mise sur la séduction pour vendre ce parfum.", "zh": "广告靠魅力来推销这款香水。"},
+{"fr": "Il a un vrai pouvoir de séduction avec son humour.", "zh": "他的幽默让他很有魅力。"},
+{"fr": "La ville exerce une douce séduction sur les touristes.", "zh": "这座城市对游客散发着温柔的吸引力。"}
+],
+"séduire": [
+{"fr": "Cette maison m'a séduit dès la première visite.", "zh": "第一次看房，这套房子就把我迷住了。"},
+{"fr": "Il sait séduire les clients avec un discours honnête.", "zh": "他懂得用真诚的话术打动客户。"},
+{"fr": "L'idée de partir un an à l'étranger le séduit de plus en plus.", "zh": "出国一年的想法越来越吸引他。"}
+],
+"séduisant": [
+{"fr": "L'offre paraît séduisante, mais lisez les petites lignes.", "zh": "这报价看似诱人，但请细读附则。"},
+{"fr": "Il a proposé un compromis séduisant aux deux parties.", "zh": "他向双方提出了一个很有吸引力的折中方案。"},
+{"fr": "Un salaire en hausse reste un argument séduisant pour les candidats.", "zh": "涨薪对求职者来说依然是诱人的条件。"}
+],
+"séisme": [
+{"fr": "Un séisme de magnitude six a secoué la région.", "zh": "一场六级地震袭击了该地区。"},
+{"fr": "Le séisme a détruit plusieurs ponts et routes.", "zh": "地震毁坏了多座桥梁和道路。"},
+{"fr": "Les constructions doivent résister aux séismes dans ce pays.", "zh": "在这个国家，建筑必须能抗地震。"}
+],
+"séjourner": [
+{"fr": "Nous avons séjourné une semaine à Lisbonne en avril.", "zh": "四月份我们在里斯本逗留了一周。"},
+{"fr": "Elle séjourne chez sa grand-mère pendant les vacances.", "zh": "假期她住在奶奶家。"},
+{"fr": "Ce visa permet de séjourner jusqu'à trois mois dans le pays.", "zh": "这种签证允许在该国停留最多三个月。"}
+],
+"sélection": [
+{"fr": "La sélection des candidats durera deux semaines.", "zh": "候选人选拔将持续两周。"},
+{"fr": "Ce fromage fait partie de notre sélection du mois.", "zh": "这款奶酪入选了我们本月的精选。"},
+{"fr": "Sa sélection en équipe nationale a surpris tout le monde.", "zh": "他入选国家队让所有人大吃一惊。"}
+],
+"sélectionner": [
+{"fr": "Le jury a sélectionné dix films pour le festival.", "zh": "评审团为电影节挑选了十部影片。"},
+{"fr": "Sélectionnez les fichiers, puis cliquez sur envoyer.", "zh": "选中文件，然后点击发送。"},
+{"fr": "On sélectionne les pommes les plus mûres pour le jus.", "zh": "人们挑出最熟的苹果来榨汁。"}
+],
+"séminaire": [
+{"fr": "Le séminaire de marketing aura lieu jeudi prochain.", "zh": "市场营销研讨班下周四举行。"},
+{"fr": "Les étudiants présentent leurs travaux au séminaire de recherche.", "zh": "学生们在研究讨论课上汇报自己的成果。"},
+{"fr": "L'entreprise organise un séminaire de trois jours au bord du lac.", "zh": "公司组织了为期三天的湖边研修活动。"}
+],
+"sénateur": [
+{"fr": "Le sénateur a défendu la loi devant la presse.", "zh": "这位参议员在媒体面前为法案辩护。"},
+{"fr": "Deux sénateurs du Sud-Ouest ont voté contre le projet.", "zh": "两位西南地区的参议员投了反对票。"},
+{"fr": "Il a été élu sénateur à quarante ans.", "zh": "他四十岁当选参议员。"}
+],
+"séparation": [
+{"fr": "Leur séparation a été dure pour les enfants.", "zh": "他们的分居让孩子们很难受。"},
+{"fr": "Après six mois de séparation, le couple s'est retrouvé.", "zh": "分开六个月后，这对夫妻重归于好。"},
+{"fr": "La séparation des deux salles apporte plus de calme.", "zh": "把两个厅隔开，安静多了。"}
+],
+"séparé": [
+{"fr": "Ils vivent séparés depuis l'automne dernier.", "zh": "他们从去年秋天起就分居了。"},
+{"fr": "Les couples séparés partagent souvent la garde des enfants.", "zh": "分居的夫妻通常共同抚养孩子。"},
+{"fr": "Il est séparé de sa femme depuis deux ans.", "zh": "他和妻子分居两年了。"}
+],
+"séparément": [
+{"fr": "Nous avons payé séparément, chacun sa part.", "zh": "我们各付各的，分开结账。"},
+{"fr": "Les dossiers seront étudiés séparément par deux commissions.", "zh": "这些档案将由两个委员会分别审阅。"},
+{"fr": "Ils voyagent séparément et se retrouvent à l'hôtel.", "zh": "他们分头出行，在旅馆会合。"}
+],
+"séquence": [
+{"fr": "La scène d'ouverture reste la meilleure séquence du film.", "zh": "开场那段仍是全片最精彩的片段。"},
+{"fr": "L'entraîneur a modifié la séquence des exercices.", "zh": "教练调整了训练动作的顺序。"},
+{"fr": "Regarde cette séquence en boucle pour comprendre le mouvement.", "zh": "反复看这一段，弄懂动作要领。"}
+],
+"sérénité": [
+{"fr": "Il aborde sa retraite avec sérénité.", "zh": "他以平和安详的心态迎接退休。"},
+{"fr": "Le lac au petit matin respire la sérénité.", "zh": "清晨的湖面透着一派安详。"},
+{"fr": "Malgré les difficultés, elle garde sa sérénité.", "zh": "尽管困难重重，她依然保持平静。"}
+],
+"sévère": [
+{"fr": "Le professeur est sévère mais parfaitement juste.", "zh": "这位老师严厉却十分公正。"},
+{"fr": "L'hiver a été particulièrement sévère dans les montagnes.", "zh": "今年山区的冬天格外严酷。"},
+{"fr": "La sanction paraît trop sévère pour une simple faute d'inattention.", "zh": "对一次粗心失误来说，这个处罚显得太重了。"}
+],
+"sévèrement": [
+{"fr": "Le juge a sanctionné sévèrement cette fraude.", "zh": "法官对这起欺诈行为严加惩处。"},
+{"fr": "La grêle a sévèrement touché la récolte de raisin.", "zh": "冰雹严重打击了葡萄收成。"},
+{"fr": "Il a été réprimandé sévèrement par sa directrice.", "zh": "他被女主管严厉训斥了一顿。"}
+],
+"tabouret": [
+{"fr": "Assieds-toi sur le tabouret de bar.", "zh": "坐到吧台凳上去。"},
+{"fr": "Il a réparé le tabouret de la cuisine.", "zh": "他修好了厨房的那只凳子。"},
+{"fr": "Le tabouret du pianiste est trop bas, remonte-le.", "zh": "钢琴凳太低了，调高一点。"}
+],
+"tactique": [
+{"fr": "Sa tactique consiste à attendre le bon moment.", "zh": "他的策略是等待合适的时机。"},
+{"fr": "L'équipe a changé de tactique en deuxième période.", "zh": "球队在下半场改变了战术。"},
+{"fr": "Retarder la décision fait partie de sa tactique habituelle.", "zh": "推迟决定是他惯用的策略之一。"}
+],
+"taire": [
+{"fr": "Le ministre a promis de se taire sur cette affaire.", "zh": "部长承诺对此事保持沉默。"},
+{"fr": "Tais-toi un instant, j'entends une voiture.", "zh": "你先别说，我听到有车来了。"},
+{"fr": "Elle n'a jamais su se taire devant une injustice.", "zh": "面对不公，她从来学不会闭口不言。"}
+],
+"talentueux": [
+{"fr": "Ces jeunes architectes sont tous très talentueux.", "zh": "这些年轻建筑师个个才华出众。"},
+{"fr": "Un acteur talentueux joue le rôle principal du film.", "zh": "一位才华横溢的演员出演影片主角。"},
+{"fr": "Elle est aussi appliquée que talentueuse.", "zh": "她既勤奋又有才华。"}
+],
+"tandis que": [
+{"fr": "Il lisait sur la terrasse tandis que les enfants jouaient dans le jardin.", "zh": "他在露台上看书，而孩子们在花园里玩耍。"},
+{"fr": "Les prix montent en ville tandis que les salaires stagnent.", "zh": "城里的物价在涨，工资却原地踏步。"},
+{"fr": "Elle préfère la mer tandis que son frère adore la montagne.", "zh": "她喜欢大海，而她哥哥偏爱高山。"}
+],
+"tango": [
+{"fr": "Ils dansent le tango depuis dix ans.", "zh": "他们跳探戈已经十年了。"},
+{"fr": "Un orchestre joue un tango entraînant sur la place.", "zh": "广场上有乐队在演奏一支欢快的探戈曲。"},
+{"fr": "Elle a appris les pas du tango en Argentine.", "zh": "她在阿根廷学会了探戈舞步。"}
+],
+"taquiner": [
+{"fr": "Il taquine toujours sa petite sœur au petit-déjeuner.", "zh": "他总在早餐时逗弄小妹妹。"},
+{"fr": "Arrête de me taquiner, tu sais que je suis sensible.", "zh": "别再打趣我了，你知道我很敏感。"},
+{"fr": "Ses camarades le taquinaient à cause de ses lunettes.", "zh": "同学们曾因为他戴眼镜而取笑他。"}
+],
+"tarder": [
+{"fr": "Ne tarde pas, le film commence dans dix minutes.", "zh": "别磨蹭了，电影十分钟后就开演。"},
+{"fr": "Il tarde de revoir toute la famille pour Noël.", "zh": "他迫不及待想圣诞节和家人团聚。"},
+{"fr": "Le printemps tardait à arriver cette année.", "zh": "今年春天迟迟不来。"}
+],
+"tartine": [
+{"fr": "Au petit-déjeuner, elle prépare une tartine de confiture.", "zh": "早餐时她做了一片果酱面包。"},
+{"fr": "Il mange une tartine de beurre avant d'aller à l'école.", "zh": "他上学前吃一片黄油面包。"},
+{"fr": "Les tartines au fromage passent quelques minutes au four.", "zh": "奶酪面包片在烤箱里烤几分钟。"}
+],
+"tatouage": [
+{"fr": "Son tatouage représente une vague à la japonaise.", "zh": "他的纹身是日式波浪图案。"},
+{"fr": "Il a fait recouvrir le tatouage de son épaule.", "zh": "他找人遮盖了肩膀上的纹身。"},
+{"fr": "Le tatouage sur son bras date de ses vingt ans.", "zh": "他手臂上的纹身是二十岁时纹的。"}
+],
+"tatouer": [
+{"fr": "Elle se fait tatouer un papillon sur la cheville.", "zh": "她在脚踝上纹了一只蝴蝶。"},
+{"fr": "Le salon refuse de tatouer les mineurs sans accord parental.", "zh": "没有家长同意，纹身店不给未成年人纹身。"},
+{"fr": "Dans cette tribu, on tatouait les jeunes guerriers.", "zh": "在这个部落，人们会给年轻战士纹身。"}
+],
+"taureau": [
+{"fr": "Le taureau charge dès que la porte s'ouvre.", "zh": "门一开，公牛就冲了过来。"},
+{"fr": "Un taureau noir garde le troupeau dans le champ.", "zh": "一头黑公牛在田里守着牛群。"},
+{"fr": "Les taureaux de Camargue sont réputés pour leur vitesse.", "zh": "卡马格的公牛以速度快而闻名。"}
+],
+"taux": [
+{"fr": "Le taux de chômage a encore baissé ce trimestre.", "zh": "本季度失业率又下降了。"},
+{"fr": "La banque propose un taux d'intérêt fixe sur dix ans.", "zh": "银行提供十年期固定利率。"},
+{"fr": "Quel est le taux de réussite de cet examen ?", "zh": "这项考试的通过率是多少？"}
+],
+"taverne": [
+{"fr": "Les pêcheurs se retrouvent le soir dans la vieille taverne du port.", "zh": "渔民们晚上聚在港口的老酒馆里。"},
+{"fr": "Cette taverne sert des bières artisanales et des plats simples.", "zh": "这家小酒馆供应精酿啤酒和家常菜。"},
+{"fr": "Autrefois, les voyageurs faisaient étape à la taverne du village.", "zh": "从前，旅人会在村里的酒馆歇脚。"}
+],
+"taxe": [
+{"fr": "La taxe sur les logements vacants va augmenter.", "zh": "空置房税费将上调。"},
+{"fr": "L'aéroport ajoute une taxe au prix du billet.", "zh": "机场在票价上加收一项税费。"},
+{"fr": "Ces produits sont exonérés de taxes à l'exportation.", "zh": "这些产品出口免税。"}
+],
+"team": [
+{"fr": "L'entreprise a organisé une journée de team building au bord du lac.", "zh": "公司组织了一次湖边团建活动。"},
+{"fr": "Notre team se qualifie pour la finale du tournoi.", "zh": "我们的队伍晋级了锦标赛决赛。"},
+{"fr": "Il gère une team de bénévoles pour le festival.", "zh": "他为艺术节管理着一支志愿者小组。"}
+],
+"technicien": [
+{"fr": "Le technicien est venu réparer la chaudière ce matin.", "zh": "技术员今天上午来修锅炉了。"},
+{"fr": "Il travaille comme technicien de maintenance dans une usine.", "zh": "他在一家工厂当维修技师。"},
+{"fr": "Les techniciens installent la fibre dans tout l'immeuble.", "zh": "技师们正在给整栋楼装光纤。"}
+],
+"technologie": [
+{"fr": "Cette nouvelle technologie réduit la consommation d'énergie.", "zh": "这项新技术能降低能耗。"},
+{"fr": "Il suit les évolutions de la technologie de très près.", "zh": "他密切关注技术的发展动向。"},
+{"fr": "Les technologies numériques transforment l'école.", "zh": "数字技术正在改变学校。"}
+],
+"tel": [
+{"fr": "Un tel accueil mérite de sincères remerciements.", "zh": "这样的款待值得真诚道谢。"},
+{"fr": "Je n'avais jamais vu un tel enthousiasme dans cette classe.", "zh": "我从没见过这个班有如此高涨的热情。"},
+{"fr": "Une situation telle que celle-ci demande beaucoup de calme.", "zh": "这样的局面需要极大的冷静。"}
+],
+"temporaire": [
+{"fr": "Il a trouvé un emploi temporaire pour l'été.", "zh": "他找了一份暑期临时工作。"},
+{"fr": "Cette fermeture est temporaire, le pont rouvrira en mai.", "zh": "这次封闭是暂时的，大桥五月份重新开放。"},
+{"fr": "Un pont temporaire remplace l'ancien ouvrage effondré.", "zh": "一座临时便桥取代了坍塌的旧桥。"}
+],
+"temporairement": [
+{"fr": "Le magasin est temporairement fermé pour cause de travaux.", "zh": "商店因施工暂时歇业。"},
+{"fr": "Elle loge temporairement chez sa cousine.", "zh": "她暂时住在表姐家。"},
+{"fr": "La ligne sera temporairement interrompue dimanche matin.", "zh": "线路周日上午将暂时中断。"}
+],
+"tempête": [
+{"fr": "La tempête a arraché des arbres sur tout le littoral.", "zh": "风暴把整个海岸沿线的树木连根拔起。"},
+{"fr": "Une violente tempête s'annonce pour ce soir.", "zh": "今晚将有一场猛烈的风暴。"},
+{"fr": "Les bateaux sont rentrés au port avant la tempête.", "zh": "船只在风暴来临前回到了港口。"}
+],
+"tendance": [
+{"fr": "Les jupes longues reviennent à la mode, c'est la tendance.", "zh": "长裙重新流行，这就是当下的时尚趋势。"},
+{"fr": "La tendance du marché reste favorable aux voitures électriques.", "zh": "市场行情依然利好电动汽车。"},
+{"fr": "Il a la mauvaise tendance à toujours arriver en retard.", "zh": "他有个坏毛病，总是迟到。"}
+],
+"tendre": [
+{"fr": "Elle me tend la main avec un grand sourire.", "zh": "她满面笑容地向我伸出手。"},
+{"fr": "Tends-moi le sel, s'il te plaît.", "zh": "请把盐递给我。"},
+{"fr": "Il a tendu une corde entre les deux arbres.", "zh": "他在两棵树之间绷紧了一根绳子。"}
+],
+"tendresse": [
+{"fr": "Elle regarde son nouveau-né avec une immense tendresse.", "zh": "她满怀温柔地望着新生儿。"},
+{"fr": "Sous son air dur se cache une vraie tendresse.", "zh": "他生硬的外表下藏着真正的温情。"},
+{"fr": "Un petit mot plein de tendresse glissé dans la poche.", "zh": "一张写满温情的小纸条塞进了口袋。"}
+],
+"tendu": [
+{"fr": "L'ambiance était tendue pendant toute la réunion.", "zh": "整个会议期间气氛都很紧张。"},
+{"fr": "Ses épaules sont tendues à force de travailler sur ordinateur.", "zh": "长时间对着电脑工作，他的肩膀绷得紧紧的。"},
+{"fr": "Le fil est trop tendu, il va finir par casser.", "zh": "线拉得太紧，最后会断的。"}
+],
+"tension": [
+{"fr": "Le médecin contrôle sa tension tous les mois.", "zh": "医生每月检查一次他的血压。"},
+{"fr": "Une tension diplomatique monte entre les deux pays.", "zh": "两国之间的外交紧张局势正在升级。"},
+{"fr": "Des tensions sont apparues dans l'équipe après cette décision.", "zh": "这项决定公布后，团队里出现了紧张关系。"}
+],
+"tentant": [
+{"fr": "L'odeur du pain frais est vraiment tentante.", "zh": "新鲜面包的香气实在太诱人了。"},
+{"fr": "Cette proposition est tentante, mais je dois en parler à mon mari.", "zh": "这个提议很诱人，但我得跟丈夫商量一下。"},
+{"fr": "Le dessert du jour semble bien tentant.", "zh": "今日甜点看上去十分诱人。"}
+],
+"tentation": [
+{"fr": "Il a cédé à la tentation d'un dernier morceau de gâteau.", "zh": "他没能抵住诱惑，又吃了一块蛋糕。"},
+{"fr": "La tentation d'acheter ce vélo est trop grande.", "zh": "买下这辆自行车的诱惑太大了。"},
+{"fr": "Résister à la tentation demande beaucoup de volonté.", "zh": "抵制诱惑需要很强的意志力。"}
+],
+"tentative": [
+{"fr": "Sa tentative d'escalade du mur d'enceinte a échoué.", "zh": "他翻越围墙的企图失败了。"},
+{"fr": "La police a arrêté un homme pour tentative de vol.", "zh": "警方以盗窃未遂逮捕了一名男子。"},
+{"fr": "Après plusieurs tentatives, elle a enfin obtenu son permis.", "zh": "经过几次尝试，她终于拿到了驾照。"}
+],
+"tenter": [
+{"fr": "J'ai tenté de le joindre toute la journée.", "zh": "我一整天都在设法联系他。"},
+{"fr": "Ça me tente d'aller voir cette exposition.", "zh": "我想去看看那个展览。"},
+{"fr": "Le club tente de recruter un nouveau gardien.", "zh": "俱乐部正试图引进一名新门将。"}
+]
+}

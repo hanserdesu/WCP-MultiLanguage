@@ -1,0 +1,801 @@
+﻿word,reading,meaning_en,pos,common
+股,また,groin,n,True
+石,いし,"stone (in the bladder, kidney etc.)",n,True
+帯,おび,cingulum,n,True
+腸,ちょう,intestine,n,True
+脳,のう,brain,n,True
+管,かん,vessel,n,True
+移植,いしょく,"transplantation (of an organ, tissue, etc.)","n,vs,vt",True
+下肢,かし,lower limbs,n,True
+角膜,かくまく,cornea,n,True
+感染,かんせん,infection,"n,vs,vi",True
+肝炎,かんえん,hepatitis,n,True
+肝臓,かんぞう,liver,n,True
+関節,かんせつ,joint,n,True
+気管,きかん,trachea,n,True
+急性,きゅうせい,acute (illness),"adj-no,n",True
+形成,けいせい,repair (e.g. with plastic surgery),"n,vs,vt",True
+結核,けっかく,tuberculosis,n,True
+血管,けっかん,blood vessel,n,True
+鼓膜,こまく,eardrum,n,True
+梗塞,こうそく,infarction,"n,vs,vi",True
+骨髄,こつずい,bone marrow,n,True
+昏睡,こんすい,coma,"n,vs,vi",True
+湿疹,しっしん,eczema,n,True
+疾患,しっかん,disease,n,True
+実質,じっしつ,parenchyma,n,True
+腫瘍,しゅよう,tumor,n,True
+食道,しょくどう,esophagus,n,True
+心臓,しんぞう,heart,n,True
+神経,しんけい,nerve,n,True
+腎臓,じんぞう,kidney,n,True
+静脈,じょうみゃく,vein,n,True
+脊髄,せきずい,spinal cord,n,True
+赤痢,せきり,dysentery,n,True
+前庭,ぜんてい,vestibule (of the ear),n,True
+堕胎,だたい,abortion,"n,vs,vi",True
+打診,だしん,percussion,"n,vs,vt",True
+体型,たいけい,somatotype,n,True
+胎盤,たいばん,placenta,n,True
+大腸,だいちょう,large intestine,n,True
+大脳,だいのう,cerebrum,n,True
+脱出,だっしゅつ,prolapse,"n,vs,vi",True
+中耳,ちゅうじ,middle ear,n,True
+点滴,てんてき,intravenous drip,"n,vs,vt",True
+頭骨,とうこつ,skull,n,True
+動脈,どうみゃく,artery,n,True
+軟骨,なんこつ,cartilage,n,True
+難聴,なんちょう,hardness of hearing,n,True
+難病,なんびょう,serious disease,n,True
+粘膜,ねんまく,mucous membrane,n,True
+脳炎,のうえん,brain inflammation,n,True
+脳波,のうは,electroencephalogram,n,True
+肺炎,はいえん,pneumonia,n,True
+白線,はくせん,linea alba,n,True
+発作,ほっさ,fit,n,True
+肥大,ひだい,hypertrophy,"n,vs,vi",True
+貧血,ひんけつ,anemia,n,True
+浮腫,むくみ,swelling,n,True
+負荷,ふか,stress testing (of physical function or performance),n,True
+腹部,ふくぶ,abdomen,n,True
+慢性,まんせい,chronic (illness),"adj-no,n",True
+盲腸,もうちょう,cecum,n,True
+網膜,もうまく,retina,n,True
+癒着,ゆちゃく,adhesion,"n,vs,vi",True
+卵巣,らんそう,ovary,n,True
+喘息,ぜんそく,asthma,n,True
+嘔吐,おうと,vomiting,"n,vs,vt",True
+悪阻,つわり,morning sickness,n,True
+上唇,うわくちびる,upper lip,n,True
+萎縮,いしゅく,contraction,"n,vs,vi",True
+失神,しっしん,syncope,n,True
+麻酔,ますい,anaesthesia,n,True
+麻痺,まひ,paralysis,"n,vs,vi",True
+投与,とうよ,administration (of medicine),"n,vs,vt",True
+心筋,しんきん,cardiac muscle,n,True
+転移,てんい,metastasis,"n,vs,vi",True
+症例,しょうれい,case,n,True
+耐性,たいせい,"resistance (to drugs, pesticides, etc.)",n,True
+発症,はっしょう,outbreak of an illness,"n,vs,vt,vi",True
+エコー,,ultrasound (scan),n,True
+カタル,,catarrh,n,True
+チフス,チブス,typhoid,n,True
+ポリオ,,polio,n,True
+肝硬変,かんこうへん,cirrhosis (of the liver),n,True
+気管支,きかんし,bronchus,n,True
+狭心症,きょうしんしょう,angina pectoris,n,True
+血友病,けつゆうびょう,hemophilia,n,True
+呼吸器,こきゅうき,respiratory organs,n,True
+後遺症,こういしょう,prognostic symptoms,n,True
+甲状腺,こうじょうせん,thyroid (gland),n,True
+高血圧,こうけつあつ,high blood pressure,n,True
+合併症,がっぺいしょう,complication,n,True
+自閉症,じへいしょう,autism,n,True
+症候群,しょうこうぐん,syndrome,n,True
+心不全,しんふぜん,heart failure,n,True
+中耳炎,ちゅうじえん,otitis media,n,True
+伝染病,でんせんびょう,contagious disease,n,True
+糖尿病,とうにょうびょう,diabetes,n,True
+脳出血,のうしゅっけつ,cerebral hemorrhage,n,True
+脳卒中,のうそっちゅう,stroke,n,True
+肺結核,はいけっかく,pulmonary tuberculosis,n,True
+白血病,はっけつびょう,leukemia,n,True
+不整脈,ふせいみゃく,arrhythmia,n,True
+不眠症,ふみんしょう,sleeplessness,n,True
+副作用,ふくさよう,side effect,n,True
+うつ病,うつびょう,depression,n,True
+内分泌,ないぶんぴ,endocrine,adj-f,True
+泌尿器,ひにょうき,urinary organs,n,True
+処方箋,しょほうせん,prescription,n,True
+消化器,しょうかき,digestive organ,n,True
+循環器,じゅんかんき,circulatory organ,n,True
+成人病,せいじんびょう,disease common in middle-aged and elderly people,n,True
+大動脈,だいどうみゃく,aorta,n,True
+白内障,はくないしょう,cataract,n,True
+水俣病,みなまたびょう,Minamata disease,n,True
+認知症,にんちしょう,dementia,n,True
+コレラ,,cholera,n,True
+副反応,ふくはんのう,side effect (of a vaccine),n,True
+アトピー,,atopy,"n,adj-no",True
+ショック,,(circulatory) shock,n,True
+ヘルニア,,hernia,n,True
+ベクター,ベクタ,(disease) vector,n,True
+ポリープ,ポリプ,polyp,n,True
+マラリア,,malaria,n,True
+拒絶反応,きょぜつはんのう,(transplant) rejection,n,True
+体外受精,たいがいじゅせい,in vitro fertilization,n,True
+動脈硬化,どうみゃくこうか,arteriosclerosis,n,True
+血液検査,けつえきけんさ,blood test,n,True
+対症療法,たいしょうりょうほう,symptomatic therapy,n,True
+キャリア,キャリアー,carrier (of a disease-causing agent),n,True
+アキレス腱,アキレスけん,Achilles tendon,n,True
+カテーテル,,catheter,n,True
+ニューロン,,neuron,n,True
+ジストロフィー,ジストロフィ,dystrophy,n,True
+クレアチニンクリアランス,クレアチニン・クリアランス,creatinine clearance,n,True
+新型コロナウイルス感染症,しんがたコロナウイルスかんせんしょう,COVID-19,n,True
+痰,たん,phlegm,n,False
+踝,くるぶし,ankle,n,False
+橋,きょう,pons,n,False
+炎,えん,-itis (indicating an inflammatory disease),suf,False
+癤,せつ,furuncle,n,False
+束,そく,fascicle,n,False
+頤,おとがい,(lower) jaw,n,False
+髄,ずい,marrow,n,False
+腔,こう,cavity,n,False
+叢,そう,plexus,"n-suf,n",False
+疹,しん,rash,"suf,n",False
+疔,ちょう,furuncle,n,False
+洞,どう,sinus,n,False
+ＴＢ,テー・ベー,tuberculosis,n,False
+悪心,おしん,nausea,n,False
+悪露,おろ,lochia,n,False
+圧排,あっぱい,exclusion,"n,vs",False
+胃炎,いえん,gastritis,n,False
+咽喉,いんこう,throat,n,False
+咽頭,いんとう,pharynx,n,False
+陰核,いんかく,clitoris,n,False
+陰茎,いんけい,penis,n,False
+陰唇,いんしん,labia,n,False
+陰嚢,いんのう,scrotum,n,False
+疫痢,えきり,children's dysentery,n,False
+延髄,えんずい,medulla oblongata,"n,adj-no",False
+黄体,おうたい,corpus luteum,n,False
+黄斑,おうはん,macula,n,False
+黄疸,おうだん,jaundice,n,False
+下血,げけつ,bloody bowel discharge,"n,vs,vi",False
+仮死,かし,(state of) apparent death,n,False
+仮痘,かとう,varioloid,"n,adj-no",False
+加薬,かやく,adjuvant (in Chinese medicine),n,False
+会陰,えいん,perineum,"n,adj-no",False
+解毒,げどく,detoxification,"n,vs,vi",False
+回腸,かいちょう,ileum,n,False
+壊疽,えそ,gangrene,n,False
+外耳,がいじ,external ear,n,False
+乾癬,かんせん,psoriasis,n,False
+冠状,かんじょう,coronary,"adj-no,n",False
+汗腺,かんせん,sweat gland,n,False
+雁首,かりくび,corona of glans penis,n,False
+気胸,ききょう,pneumothorax,n,False
+偽薬,ぎやく,placebo,n,False
+脚気,かっけ,beriberi,n,False
+旧痾,きゅうあ,persistent disease,n,False
+牛痘,ぎゅうとう,cowpox,n,False
+虚脱,きょだつ,(physical) collapse,"n,vs,vi",False
+強膜,きょうまく,sclera,n,False
+胸郭,きょうかく,chest,"n,adj-no",False
+胸腔,きょうこう,thorax,n,False
+胸膜,きょうまく,pleura,n,False
+禁忌,きんき,contraindication,n,False
+結石,けっせき,calculus,n,False
+結腸,けっちょう,colon,n,False
+結膜,けつまく,conjunctiva,n,False
+血清,けっせい,serum,n,False
+健忘,けんぼう,amnesia,n,False
+鼓室,こしつ,tympanic cavity,n,False
+口炎,こうえん,mouth ulcer,n,False
+口蓋,こうがい,palate,n,False
+口唇,こうしん,lips,n,False
+喉頭,こうとう,larynx,n,False
+黒線,こくせん,linea nigra,n,False
+腰骨,こしぼね,hipbone,n,False
+骨盤,こつばん,pelvis,n,False
+鎖骨,さこつ,collarbone,n,False
+挫傷,ざしょう,sprain,"n,vs",False
+歯髄,しずい,pulp (of a tooth),n,False
+歯槽,しそう,(dental) alveolus,n,False
+歯齦,しぎん,gums,n,False
+失調,しっちょう,ataxia,n,False
+主訴,しゅそ,chief complaint,n,False
+主脈,しゅみゃく,midrib,n,False
+主薬,しゅやく,principal agent (in a medicine),n,False
+手掌,しゅしょう,palm,n,False
+充血,じゅうけつ,congestion (with blood),"n,vs,vi",False
+小脳,しょうのう,cerebellum,n,False
+伸筋,しんきん,extensor (muscle),n,False
+水虫,みずむし,athlete's foot,n,False
+水痘,すいとう,chickenpox,n,False
+正視,せいし,normal vision,n,False
+精巣,せいそう,testicle,"n,adj-no",False
+精嚢,せいのう,seminal vesicle,n,False
+声帯,せいたい,vocal cords,n,False
+声門,せいもん,glottis,n,False
+脊椎,せきつい,spine,n,False
+切歯,せっし,incisor (esp. in humans),n,False
+仙骨,せんこつ,sacrum,n,False
+穿刺,せんし,paracentesis,"n,vs,vt,vi",False
+前葉,ぜんよう,anterior pituitary,n,False
+鼠径,そけい,groin,n,False
+掻痒,そうよう,itch,n,False
+装具,そうぐ,orthotic,n,False
+体腔,たいこう,body cavity,n,False
+苔癬,たいせん,lichen,n,False
+脱腸,だっちょう,abdominal hernia,n,False
+脱疽,だっそ,gangrene,n,False
+丹毒,たんどく,erysipelas,n,False
+胆嚢,たんのう,gallbladder,n,False
+恥骨,ちこつ,pubis,n,False
+中隔,ちゅうかく,septum,n,False
+中気,ちゅうき,palsy,n,False
+中手,なかて,metacarpus,n,False
+中脳,ちゅうのう,midbrain,n,False
+中葉,ちゅうよう,middle lobe (right lung),n,False
+虫垂,ちゅうすい,(vermiform) appendix,n,False
+直腸,ちょくちょう,rectum,n,False
+沈渣,ちんさ,sediment,n,False
+痛風,つうふう,gout,n,False
+吐血,とけつ,vomiting blood,"n,vs,vi",False
+痘瘡,とうそう,smallpox,n,False
+瞳孔,どうこう,pupil (of the eye),n,False
+内攻,ないこう,retrocession,"n,vs,vi",False
+内腔,ないこう,lumen,n,False
+肉腫,にくしゅ,sarcoma,n,False
+虹彩,こうさい,iris,n,False
+乳腺,にゅうせん,mammary gland,n,False
+乳頭,にゅうとう,(mammary) nipple,n,False
+尿管,にょうかん,urinary duct,n,False
+尿道,にょうどう,urethra,n,False
+脳髄,のうずい,brain,n,False
+膿疱,のうほう,pustule,n,False
+膿瘍,のうよう,abscess,n,False
+排液,はいえき,discharge (of bodily fluid),"n,vs,vi",False
+排尿,はいにょう,urination,"n,vs,vi",False
+肺胞,はいほう,pulmonary alveolus,n,False
+白痴,はくち,profound mental retardation,n,False
+発疹,ほっしん,rash,"n,vs,vi",False
+皮質,ひしつ,cortex,n,False
+鼻炎,びえん,rhinitis,n,False
+鼻筋,はなすじ,bridge of the nose,n,False
+鼻孔,びこう,nostril,n,False
+鼻骨,びこつ,nasal bone,n,False
+鼻根,びこん,root of the nose,n,False
+表皮,ひょうひ,epidermis,n,False
+病巣,びょうそう,focus,"n,adj-no",False
+不随,ふずい,paralysis,n,False
+腹膜,ふくまく,peritoneum,n,False
+閉経,へいけい,menopause,"n,vs,vi",False
+弁膜,べんまく,valve (of the heart and the veins),n,False
+母斑,ぼはん,nevus,n,False
+包茎,ほうけい,phimosis,n,False
+包皮,ほうひ,foreskin,n,False
+頬骨,ほおぼね,cheekbone,n,False
+門歯,もんし,incisor,n,False
+乱視,らんし,astigmatism,n,False
+卵胞,らんぽう,(ovarian) follicle,n,False
+利尿,りにょう,diuresis,n,False
+喀血,かっけつ,hemoptysis,"n,vs,vi",False
+扁桃,へんとう,tonsil,n,False
+拇指,ぼし,thumb,n,False
+橈骨,とうこつ,radius,n,False
+漿液,しょうえき,serous fluid,n,False
+疥癬,かいせん,scabies,n,False
+疼痛,とうつう,throbbing pain,n,False
+疱疹,ほうしん,herpes,n,False
+淋病,りんびょう,gonorrhea,n,False
+癲癇,てんかん,epilepsy,n,False
+睾丸,こうがん,testicle,n,False
+絨毛,じゅうもう,villus,n,False
+肛門,こうもん,anus,n,False
+脛骨,けいこつ,tibia,n,False
+脾腫,ひしゅ,splenomegaly,n,False
+脾臓,ひぞう,spleen,n,False
+腓骨,ひこつ,fibula,n,False
+膀胱,ぼうこう,urinary bladder,n,False
+膵臓,すいぞう,pancreas,n,False
+褥瘡,じょくそう,bedsore,n,False
+躁病,そうびょう,mania,n,False
+口腔,こうこう,oral cavity,n,False
+歯肉,しにく,gums,n,False
+上皮,うわかわ,epithelium,"n,adj-no",False
+鼻腔,びこう,nasal cavity,n,False
+臍帯,さいたい,umbilical cord,n,False
+腋窩,えきか,armpit,n,False
+頸部,けいぶ,neck,n,False
+凝り,しこり,"lump (in tissue, esp. breast)",n,False
+梅毒,ばいどく,syphilis,n,False
+恥丘,ちきゅう,mons pubis,n,False
+腸炎,ちょうえん,enteritis,n,False
+複視,ふくし,diplopia,n,False
+肺尖,はいせん,pulmonary apex,n,False
+被膜,ひまく,capsule,n,False
+脹脛,ふくらはぎ,calf,n,False
+徐脈,じょみゃく,bradycardia,n,False
+縦隔,じゅうかく,mediastinum,n,False
+潰瘍,かいよう,ulcer,n,False
+憩室,けいしつ,diverticulum,n,False
+狭窄,きょうさく,stricture,n,False
+門脈,もんみゃく,portal vein,"n,adj-no",False
+脈管,みゃっかん,(vascular) vessel,n,False
+涙嚢,るいのう,lachrymal sac,n,False
+涙腺,るいせん,tear gland,n,False
+腺熱,せんねつ,sennetsu rickettsiosis,n,False
+心房,しんぼう,atrium,n,False
+問診,もんしん,interview (with a doctor),"n,vs,vt",False
+腹腔,ふくくう,abdominal cavity,n,False
+頭頂,とうちょう,top of the head,n,False
+小腸,しょうちょう,small intestine,n,False
+早産,そうざん,premature birth,"n,vs,vt,vi,adj-no",False
+舌癌,ぜつがん,cancer of the tongue,n,False
+骨膜,こつまく,periosteum,n,False
+血尿,けつにょう,bloody urine,n,False
+血便,けつべん,bloody stool,n,False
+血栓,けっせん,thrombus,n,False
+喉仏,のどぼとけ,Adam's apple,n,False
+胸椎,きょうつい,thoracic vertebra,n,False
+胸腺,きょうせん,thymus,n,False
+触診,しょくしん,palpation,"n,vs,vt",False
+頭蓋,ずがい,cranium,n,False
+癒合,ゆごう,agglutination,"n,vs,vi",False
+遅発,ちはつ,delayed onset,"n,vs,vi",False
+椎骨,ついこつ,vertebra,n,False
+吻合,ふんごう,anastomosis,"n,vs",False
+尾骨,びこつ,coccyx,n,False
+紫斑,しはん,purpura,n,False
+腎炎,じんえん,nephritis,n,False
+開腹,かいふく,making an incision in the abdomen,"n,vs,vi",False
+筋腫,きんしゅ,myoma,n,False
+術中,じゅっちゅう,intraoperative,adj-no,False
+水疱,すいほう,blister,n,False
+水腫,すいしゅ,edema,n,False
+尺骨,しゃっこつ,ulna,n,False
+小爪,こづめ,lunula,n,False
+腹水,ふくすい,ascites,n,False
+精管,せいかん,vas deferens,n,False
+産道,さんどう,birth canal,n,False
+産褥,さんじょく,puerperium,n,False
+視診,ししん,visual examination,"n,vs,vt",False
+死斑,しはん,postmortem lividity,n,False
+皮癬,ひぜん,scabies,n,False
+跛行,はこう,limp,"n,vs,vi",False
+海馬,かいば,hippocampus,n,False
+脊柱,せきちゅう,spinal column,n,False
+脊梁,せきりょう,spinal column,n,False
+屈筋,くっきん,flexor (muscle),n,False
+壊死,えし,necrosis,"n,vs,vi",False
+大腿,だいたい,thigh,n,False
+心音,しんおん,heart sound,n,False
+心嚢,しんのう,pericardium,n,False
+羊膜,ようまく,amnion,n,False
+聴診,ちょうしん,auscultation,"n,vs,vt,adj-no",False
+偽膜,ぎまく,false membrane,n,False
+眼窩,がんか,orbit,n,False
+眼瞼,がんけん,eyelid,n,False
+目縁,まぶち,eyelid margin,n,False
+検温,けんおん,taking someone's temperature,"n,vs,vi",False
+耳介,じかい,auricle,n,False
+耳殻,じかく,auricle,n,False
+耳漏,じろう,otorrhea,n,False
+肥厚,ひこう,"thickening (of organic tissue, e.g. skin)","n,vs,vi",False
+子癇,しかん,eclampsia,n,False
+脳症,のうしょう,encephalopathy,n,False
+脳幹,のうかん,brain stem,n,False
+赤沈,せきちん,erythrocyte sedimentation rate,n,False
+頚骨,けいこつ,neckbones,n,False
+頚椎,けいつい,cervical vertebrae,n,False
+熱型,ねっけい,fever type,n,False
+熱傷,ねっしょう,burn,n,False
+掻爬,そうは,curettage,"n,vs,vt",False
+腰椎,ようつい,lumbar vertebra,"n,adj-no",False
+白斑,はくはん,vitiligo,n,False
+溢血,いっけつ,hemorrhage,"n,vs,vi",False
+視床,ししょう,thalamus,n,False
+前傾,ぜんけい,anteversion,"n,vs",False
+陰阜,いんぷ,mons veneris,n,False
+筋炎,きんえん,myositis,n,False
+距骨,きょこつ,talus,"n,adj-no",False
+弱毒,じゃくどく,low toxicity,n,False
+柔毛,じゅうもう,(intestinal) villus,n,False
+脹満,ちょうまん,tympanites,n,False
+脳橋,のうきょう,pons,n,False
+盲管,もうかん,cul-de-sac,n,False
+真皮,しんぴ,dermis,n,False
+腎盂,じんう,renal pelvis,n,False
+髄膜,ずいまく,meninges,n,False
+Ｒｈ,アール・エイチ,Rh,n,False
+滑液,かつえき,synovial fluid,n,False
+膵炎,すいえん,pancreatitis,n,False
+小弯,しょうわん,lesser curvature (of the stomach),n,False
+大弯,だいわん,greater curvature (of the stomach),n,False
+弯入,わんにゅう,curved indentation (esp. in stomach),n,False
+探針,たんしん,probe,n,False
+呑酸,どんさん,acid reflux,n,False
+中皮,ちゅうひ,mesothelium,"n,adj-no",False
+心膜,しんまく,pericardium,n,False
+ＣＴ,シー・ティー,computed tomography,n,False
+膵島,すいとう,pancreatic islets,n,False
+人中,じんちゅう,philtrum,n,False
+寛骨,かんこつ,hipbone,n,False
+顴骨,かんこつ,cheekbone,n,False
+腸管,ちょうかん,digestive tract,n,False
+気腫,きしゅ,emphysema,n,False
+多胎,たたい,multiple pregnancy,n,False
+足根,そっこん,tarsal,adj-f,False
+肝癌,かんがん,liver cancer (esp. hepatoma),n,False
+硬膜,こうまく,dura,n,False
+誤嚥,ごえん,"breathing in (of a foreign body, food, etc.)","n,vs,vt",False
+喘鳴,ぜんめい,stridor,n,False
+軟膜,なんまく,pia mater (membranes surrounding the brain and spinal cord),n,False
+皮疹,ひしん,rash,n,False
+採卵,さいらん,oocyte collection,"n,vs",False
+白肌,しらはだ,vitiligo,n,False
+篩骨,しこつ,ethmoid bone (of the skull),n,False
+涙骨,るいこつ,lacrimal bone (of the skull),n,False
+鋤骨,じょこつ,vomer (bone of the skull),"n,adj-no",False
+舌骨,ぜっこつ,hyoid bone (of the skull),"n,adj-no",False
+槌骨,つちこつ,malleus (bone of the ear),n,False
+砧骨,きぬたこつ,incus (bone of the ear),n,False
+耳管,じかん,Eustachian tube,n,False
+房水,ぼうすい,aqueous humor,n,False
+腱板,けんばん,rotator cuff,n,False
+褥傷,じょくしょう,bedsore,n,False
+脳梁,のうりょう,corpus callosum,n,False
+眼振,がんしん,nystagmus,n,False
+狼瘡,ろうそう,lupus,n,False
+嚢胞,のうほう,cyst,n,False
+嚢腫,のうしゅ,cyst,n,False
+指骨,しこつ,phalanx,n,False
+趾骨,しこつ,phalanx (of the foot),n,False
+手骨,しゅこつ,bones of the hand,n,False
+掌骨,しょうこつ,metacarpal (bone),n,False
+咬筋,こうきん,masseter muscle,n,False
+泉門,せんもん,soft spot (in the skull of an infant),n,False
+血腫,けっしゅ,hematoma,n,False
+娩出,べんしゅつ,expulsion (of a baby),"n,vs,vt,vi",False
+侵襲,しんしゅう,invasion,"n,vs,vt",False
+腱炎,けんえん,tendinitis,n,False
+頚髄,けいずい,cervical spinal cord,n,False
+ＨＤ,エイチ・ディー,hemodialysis,n,False
+ＰＤ,ピー・ディー,peritoneal dialysis,n,False
+眼筋,がんきん,ocular muscle,n,False
+埋植,まいしょく,enthesis,"n,adj-no",False
+胎便,たいべん,meconium,n,False
+桿体,かんたい,rod (cell),n,False
+頻脈,ひんみゃく,tachycardia,n,False
+叉骨,さこつ,furcula,n,False
+坐骨,ざこつ,ischium,n,False
+腸骨,ちょうこつ,ilium,n,False
+膣炎,ちつえん,vaginitis,n,False
+膣壁,ちつへき,vaginal wall,n,False
+膣内,ちつない,intravaginal,adj-no,False
+膣口,ちつこう,vaginal opening,n,False
+ざ瘡,ざそう,acne,n,False
+多尿,たにょう,polyuria,n,False
+珪肺,けいはい,silicosis,n,False
+腺癌,せんがん,adenocarcinoma,n,False
+腺腫,せんしゅ,adenoma,n,False
+環椎,かんつい,atlas,n,False
+踵骨,しょうこつ,calcaneus,n,False
+空腸,くうちょう,jejunum,n,False
+心耳,しんじ,auricle (of the atrium),n,False
+漿膜,しょうまく,serous membrane,n,False
+白癬,はくせん,ringworm,n,False
+嘔気,おうき,nausea,n,False
+溶菌,ようきん,bacteriolysis,n,False
+瘻管,ろうかん,fistula,n,False
+陰裂,いんれつ,pudendal cleft,n,False
+終脳,しゅうのう,telencephalon,n,False
+端脳,たんのう,telencephalon,n,False
+労咳,ろうがい,pulmonary tuberculosis,n,False
+裂肛,れっこう,anal fissure,n,False
+酒さ,しゅさ,rosacea,n,False
+足底,そくてい,planta,n,False
+散瞳,さんどう,mydriasis,n,False
+縮瞳,しゅくどう,miosis,n,False
+腹側,ふくそく,ventral,adj-no,False
+外転,がいてん,abduction,"n,vs",False
+内転,ないてん,adduction,"n,vs",False
+体幹,たいかん,trunk (of the body),"n,adj-no",False
+耳炎,じえん,otitis,n,False
+鼠毒,そどく,rat-bite fever,n,False
+膵管,すいかん,pancreatic duct,n,False
+瘢痕,はんこん,scar,n,False
+鼻閉,びへい,nasal obstruction,n,False
+水癌,すいがん,noma,n,False
+鶏眼,けいがん,corn,n,False
+黒質,こくしつ,substantia nigra,n,False
+髄質,ずいしつ,medulla,n,False
+骨炎,こつえん,osteitis,n,False
+骨学,こつがく,osteology,n,False
+膝膕,しっかく,popliteal fossa,n,False
+膝窩,しっか,popliteal fossa,n,False
+類洞,るいどう,sinusoid,"n,adj-no",False
+閉創,へいそう,"closing a surgical incision (by suture, etc.)","n,vs,vt",False
+間質,かんしつ,stroma,n,False
+長頭,ちょうとう,dolichocephaly,n,False
+短頭,たんとう,brachycephaly,n,False
+白癜,しろなまず,vitiligo,n,False
+近位,きんい,proximal,"adj-no,n",False
+心肺,しんぱい,heart and lungs,n,False
+ピカ,,pica,n,False
+血胸,けっきょう,hemothorax,n,False
+虚血,きょけつ,ischemia,n,False
+舌炎,ぜつえん,glossitis,n,False
+膵癌,すいがん,pancreatic cancer,n,False
+腰筋,ようきん,psoas,n,False
+灌流,かんりゅう,perfusion,n,False
+担癌,たんがん,tumour-bearing,adj-f,False
+脂漏,しろう,seborrhea,n,False
+胸管,きょうかん,thoracic duct,n,False
+胆管,たんかん,bile duct,n,False
+肝斑,かんぱん,melasma,n,False
+異所,いしょ,ectopic site,n,False
+拇趾,ぼし,big toe,n,False
+汗疱,かんぽう,dyshidrosis,n,False
+寛解,かんかい,remission,"n,vs,vi",False
+側索,そくさく,lateral funiculus,n,False
+好発,こうはつ,"occurring frequently (of a disease, condition, etc.)","n,vs",False
+経管,けいかん,feeding tube,n,False
+糞塊,ふんかい,fecaloma,n,False
+大網,だいもう,greater omentum,n,False
+背側,はいそく,dorsal,adj-no,False
+角化,かくか,keratinization,"n,vs",False
+粥状,じゅくじょう,arthero-,n-pref,False
+欠指,けっし,ectrodactyly,n,False
+足趾,そくし,foot,n,False
+多指,たし,polydactyly,"n,adj-no",False
+舌尖,ぜっせん,tip of the tongue,n,False
+筋膜,きんまく,fascia,n,False
+経膣,けいちつ,transvaginal,adj-no,False
+内柱,ないちゅう,endostyle,n,False
+側板,そくばん,lateral plate,n,False
+方骨,ほうこつ,quadrate bone,n,False
+歯骨,しこつ,dentary bone,n,False
+毛帯,もうたい,lemniscus,n,False
+角栓,かくせん,blackhead,n,False
+自閉,じへい,social withdrawal (in schizophrenia),n,False
+減胎,げんたい,selective reduction,"n,vs",False
+絞扼,こうやく,strangulation,"n,vs",False
+耳翼,じよく,auricle,n,False
+耳痛,じつう,earache,"n,adj-no",False
+不育,ふいく,female infertility,n,False
+飛沫,ひまつ,droplet,n,False
+経皮,けいひ,percutaneous,"adj-no,n",False
+再診,さいしん,re-examination,"n,vs",False
+精索,せいさく,spermatic cord,n,False
+糜汁,びじゅう,chyme,"n,n-suf",False
+糜粥,びじゅく,chyme,"n,adj-f",False
+終板,しゅうばん,end plate,n,False
+発来,はつらい,onset,n,False
+筋節,きんせつ,sarcomere,n,False
+筋痛,きんつう,myalgia,n,False
+挙筋,きょきん,levator,n,False
+多脾,たひ,polysplenia,n,False
+溢乳,いつにゅう,galactorrhea,n,False
+禿瘡,とくそう,alopecia areata,n,False
+粃糠,ひこう,furfur,n,False
+猿手,さるて,ape hand (deformity),n,False
+矢状,しじょう,sagittal,adj-no,False
+輪匙,りんひ,lens loop,n,False
+不応,ふおう,refractory,adj-no,False
+膣鏡,ちつきょう,vaginal speculum,n,False
+歯周,ししゅう,periodontal,adj-no,False
+後房,こうぼう,deutomerite,n,False
+肥胖,ひはん,obesity,n,False
+確診,かくしん,certain diagnosis,n,False
+穿頭,せんとう,trepanation,n,False
+腎砂,じんさ,renal sand,n,False
+焮衝,きんしょう,inflammation,"n,vs",False
+筋群,きんぐん,myotome,n,False
+脱垂,だっすい,prolapse,"n,vs",False
+早発,そうはつ,early onset,"n,vs,vi",False
+拍出,はくしゅつ,ejection (e.g. cardiac output),"n,vs,vt",False
+喀出,かくしゅつ,expectoration,"n,vs",False
+錯語,さくご,paraphasia,n,False
+脳写,のうしゃ,encephalography,n,False
+被殻,ひかく,putamen (part of brain),n,False
+膿栓,のうせん,tonsillolith,n,False
+栓子,せんし,embolus,n,False
+栓塞,せんそく,embolus,n,False
+労症,ろうしょう,tabes,n,False
+鞍鼻,あんび,saddle nose,n,False
+気腔,きくう,air space,n,False
+無乳,むにゅう,agalactia,n,False
+ＥＤ,イー・ディー,erectile dysfunction,n,False
+後根,こうこん,dorsal root,n,False
+上葉,じょうよう,upper lobe (of lung),n,False
+下葉,かよう,lower lobe (of lung),n,False
+血瘤,けつりゅう,hematocele,n,False
+劇症,げきしょう,acute and serious,adj-no,False
+向軸,こうじく,adaxial,adj-no,False
+増成,ぞうせい,expansion,n,False
+割創,かっそう,wound caused by a heavy blade,n,False
+被蓋,ひがい,tegmentum,n,False
+落屑,らくせつ,desquamation,n,False
+羸痩,るいそう,emaciation,n,False
+莢膜,きょうまく,(bacterial) capsule,n,False
+白質,はくしつ,white matter (e.g. in the brain),n,False
+乳管,にゅうかん,milk duct,n,False
+潜血,せんけつ,occult blood,n,False
+流涎,りゅうぜん,drooling,n,False
+後壁,こうへき,posterior wall,n,False
+固縮,こしゅく,rigidity (e.g. muscular),n,False
+ＮＴ,エヌ・ティー,nuchal translucency,n,False
+制癌,せいがん,antitumor,adj-f,False
+兎眼,とがん,lagophthalmos,n,False
+錐体,すいたい,petrosa,n,False
+空嘔,からえずき,retching,n,False
+断歯,だんし,teeth clipping,n,False
+味盲,みもう,ageusia,n,False
+主剤,しゅざい,principal agent (in a medicine),n,False
+死腔,しくう,dead space,n,False
+切痕,せっこん,notch,n,False
+顱頂,ろちょう,top of the head,n,False
+小孔,しょうこう,stoma,n,False
+瘻孔,ろうこう,fistula,n,False
+臀裂,でんれつ,intergluteal cleft,n,False
+無食,むじき,aphagia,n,False
+瘟疫,うんえき,fever epidemic,n,False
+突顎,とつがく,prognathism,n,False
+焮腫,きんしゅ,warm tumor,n,False
+皮屑,ひせつ,dander,n,False
+抜針,ばっしん,needle removal,n,False
+転子,てんし,trochanter,n,False
+挿管,そうかん,intubation,n,False
+頸管,けいかん,cervical canal,n,False
+耳鳴,じめい,tinnitus,n,False
+体壁,たいへき,body wall,n,False
+管腔,かんくう,lumen,n,False
+脳圧,のうあつ,intracranial pressure,n,False
+不耐,ふたい,"intolerance (to food, drug, etc.)",n,False
+小葉,しょうよう,lobe,n,False
+眼軸,がんじく,geometrical axis (of the eye),n,False
+心悸,しんき,palpitation (of the heart),n,False
+脂臀,しでん,steatopygia,n,False
+小帯,しょうたい,frenulum,n,False
+斜筋,しゃきん,oblique muscle,n,False
+生着,せいちゃく,graft survival,"n,vs",False
+菌症,きんしょう,mycosis,n,False
+老視,ろうし,presbyopia,n,False
+仮骨,かこつ,callus,n,False
+瘧疾,ぎゃくしつ,ague,n,False
+腫気,しゅき,swelling,n,False
+毛瘡,もうそう,sycosis,n,False
+精漿,せいしょう,seminal plasma,n,False
+躁狂,そうきょう,mania,n,False
+白帯,しろおび,leukorrhoea,n,False
+造影,ぞうえい,contrast imaging,n,False
+魚尾,ぎょび,outer corner of the eye,n,False
+膣錠,ちつじょう,vaginal tablet,n,False
+傷寒,しょうかん,acute febrile illness (e.g. typhoid),n,False
+洞房,どうぼう,sinoatrial,adj-f,False
+双胎,そうたい,twin pregnancy,n,False
+発痘,はっとう,outbreak (of pox),n,False
+鶏痘,けいとう,fowl pox,n,False
+帝切,ていせつ,Caesarean section,n,False
+挙上,きょじょう,elevation,"n,vs,vt,vi",False
+幻臭,げんしゅう,phantosmia,n,False
+幻触,げんしょく,tactile hallucination,n,False
+右房,うぼう,right atrium,n,False
+左房,さぼう,left atrium,n,False
+病型,びょうけい,type (of a disease),n,False
+増悪,ぞうあく,worsening,"n,vs,vi",False
+開胸,かいきょう,thoracotomy,"n,vs,vi",False
+口裂,こうれつ,oral slit,n,False
+病訴,びょうそ,complaint,n,False
+肩甲,けんこう,scapular,adj-f,False
+粉瘤,ふんりゅう,atheroma,n,False
+術式,じゅつしき,surgical method,n,False
+胼胝,べんち,callus,n,False
+耳科,じか,otology,n,False
+間代,かんだい,clonus,n,False
+蝸牛,かぎゅう,cochlea,n,False
+輪癬,りんせん,ringworm,n,False
+頭位,とうい,cephalic presentation (of the fetus),n,False
+胸鎖,きょうさ,sternoclavicular,adj-no,False
+尿石,にょうせき,urinary calculus,n,False
+膝部,しつぶ,knee (region),n,False
+黒子,こくし,lentigo,n,False
+眼内,がんない,intraocular,adj-no,False
+プロ,,percent,n,False
+血症,けっしょう,-emia,suf,False
+断端,だんたん,stump,n,False
+ＭＲ,エム・アール,mitral regurgitation,n,False
+眼杯,がんぱい,optic cup,n,False
+異食,いしょく,pica,n,False
+兎唇,としん,cleft lip,n,False
+唇裂,しんれつ,cleft lip,n,False
+髄腔,ずいこう,medullary cavity,n,False
+Ｍ痘,エムとう,mpox,n,False
+槌指,つちゆび,hammer toe,n,False
+遅筋,ちきん,slow muscle,n,False
+速筋,そっきん,fast muscle,n,False
+幻味,げんみ,gustatory hallucination,n,False
+幻嗅,げんきゅう,phantosmia,n,False
+眩暈,げんうん,dizziness,n,False
+副子,ふくし,splint,n,False
+腱索,けんさく,cord,n,False
+隅角,ぐうかく,iridocorneal angle,n,False
+造設,ぞうせつ,placing or inserting into the body (e.g. an artificial organ),"n,vs,vt",False
+小腺,しょうせん,glandule,n,False
+陥凹,かんおう,indentation,n,False
+嵌頓,かんとん,incarceration (e.g. of a hernia),n,False
+肝門,かんもん,porta hepatis,n,False
+断薬,だんやく,ceasing medication (esp. of antipsychotic drugs),n,False
+減薬,げんやく,dose reduction (esp. of antipsychotic drugs),n,False
+爪甲,そうこう,nail plate,n,False
+円背,えんぱい,hunchback,n,False
+病痾,びょうあ,chronic disease,n,False
+瞼板,けんばん,tarsus (part of the eyelid),n,False
+耳浴,じよく,ear instillation,n,False
+項部,こうぶ,nape (of the neck),n,False
+脈波,みゃくは,pulse wave,n,False
+心尖,しんせん,apex of the heart,n,False
+尖足,せんそく,clubfoot,n,False
+粥腫,しゅくしゅ,atheroma,n,False
+鎖肛,さこう,imperforate anus,n,False
+導尿,どうにょう,urethral catheterization (catheterisation),"n,vs,vi",False
+尿閉,にょうへい,urinary retention,n,False
+器質,きしつ,organ property,n,False
+消炎,しょうえん,anti-inflammatory (substance),"n,adj-f",False
+遠位,えんい,distal,"adj-no,n",False
+肘頭,ひじがしら,olecranon,n,False
+滑膜,かつまく,synovial membrane,n,False
+膿盆,のうぼん,kidney dish,n,False
+鼻尖,びせん,apex of nose,n,False
+ＡＳ,エー・エス,Asperger syndrome,n,False
+副乳,ふくにゅう,supernumerary nipple,n,False
+点耳,てんじ,administration of ear drops,"n,vs,vt",False
+強毒,きょうどく,high toxicity,n,False
+全摘,ぜんてき,complete removal,"n,vs,vt",False
+肢位,しい,"body joints position (leg, foot, etc.)",n,False
+心マ,しんマ,cardiac massage,n,False
+ＯＤ,オー・ディー,orthostatic intolerance,n,False
+小管,しょうかん,canaliculus,n,False
+毛孔,もうこう,pore (of the skin),n,False
+ＣＳ,シー・エス,multiple chemical sensitivity,n,False
+外膜,がいまく,adventitia,n,False
+右室,うしつ,right ventricle,"n,adj-f",False
+頻拍,ひんぱく,tachycardia,n,False
+甲介,こうかい,concha,n,False
+抜管,ばっかん,extubation,"n,vs,vt,vi",False
+臍炎,さいえん,omphalitis,n,False
+索痕,さっこん,ligature mark,n,False
+索溝,さくこう,ligature mark,n,False
+心炎,しんえん,carditis,n,False
+灌注,かんちゅう,irrigation,"n,vs",False
+雁瘡,がんがさ,ecthyma,n,False
+膿瘡,のうそう,ecthyma,n,False
+口部,こうぶ,oral region,n,False
+老嚥,ろうえん,presbyphagia,n,False
+直筋,ちょっきん,rectus muscle,"n,n-suf",False
+病相,びょうそう,episode (of a mental illness),n,False
+笑筋,しょうきん,risorius muscle,n,False
+洗薬,せんやく,wash,n,False
+精糸,せいし,spermatic cord,n,False
+胃底,いてい,gastric fundus,n,False
+酸血,さんけつ,acidemia,n,False
+ＭＥ,エム・イー,myalgic encephalomyelitis,n,False
+脈圧,みゃくあつ,pulse pressure,n,False
+夢遊,むゆう,sleepwalking,"n,vs,vi",False
+創口,そうこう,opening of a wound,n,False
+著変,ちょへん,marked change (of a patient's condition),n,False
+麻疹,ましん,measles,n,False
+肩骨,けんこつ,shoulder blade,n,False
+膝蓋,しつがい,patella,n,False
+晩発,ばんぱつ,delayed onset (of an illness or its symptoms),"n,vs,vi",False
+尿量,にょうりょう,urine volume,n,False
+顔筋,がんきん,facial muscles,n,False
+触毛,しょくもう,vibrissa,n,False
+外旋,がいせん,external rotation (of a limb towards the outside of the body),n,False
+くる病,くるびょう,rickets,n,False
+ＣＴＳ,シー・ティー・エス,carpal tunnel syndrome,n,False

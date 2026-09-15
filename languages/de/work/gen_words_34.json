@@ -1,0 +1,602 @@
+[
+{
+"word": "Zustimmung",
+"pos": "n.f.",
+"zh": "同意",
+"level": "a2"
+},
+{
+"word": "besagen",
+"pos": "v.",
+"zh": "表明",
+"level": "a2"
+},
+{
+"word": "Flamme",
+"pos": "n.f.",
+"zh": "火焰",
+"level": "a2"
+},
+{
+"word": "Feder",
+"pos": "n.f.",
+"zh": "羽毛",
+"level": "a2"
+},
+{
+"word": "auswendig",
+"pos": "adv.",
+"zh": "背诵地",
+"level": "a2"
+},
+{
+"word": "Pfannkuchen",
+"pos": "n.m.",
+"zh": "煎饼",
+"level": "a2"
+},
+{
+"word": "Hase",
+"pos": "n.m.",
+"zh": "兔子",
+"level": "a2"
+},
+{
+"word": "Aufenthalt",
+"pos": "n.m.",
+"zh": "逗留",
+"level": "a2"
+},
+{
+"word": "summen",
+"pos": "v.",
+"zh": "哼唱；嗡嗡",
+"level": "a2"
+},
+{
+"word": "Blutung",
+"pos": "n.f.",
+"zh": "出血",
+"level": "a2"
+},
+{
+"word": "hilflos",
+"pos": "adj.",
+"zh": "无助的",
+"level": "a2"
+},
+{
+"word": "Staatsanwaltschaft",
+"pos": "n.f.",
+"zh": "检察院",
+"level": "a2"
+},
+{
+"word": "Ehrlichkeit",
+"pos": "n.f.",
+"zh": "诚实",
+"level": "a2"
+},
+{
+"word": "messen",
+"pos": "v.",
+"zh": "测量",
+"level": "a2"
+},
+{
+"word": "stur",
+"pos": "adj.",
+"zh": "顽固的",
+"level": "a2"
+},
+{
+"word": "weiterleben",
+"pos": "v.",
+"zh": "继续生活",
+"level": "a2"
+},
+{
+"word": "aufspüren",
+"pos": "v.",
+"zh": "追踪到",
+"level": "a2"
+},
+{
+"word": "rückgängig",
+"pos": "adj.",
+"zh": "撤销的",
+"level": "a2"
+},
+{
+"word": "fünfte",
+"pos": "adj.",
+"zh": "第五的",
+"level": "a2"
+},
+{
+"word": "mieten",
+"pos": "v.",
+"zh": "租",
+"level": "a2"
+},
+{
+"word": "speziell",
+"pos": "adj.",
+"zh": "特别的",
+"level": "a2"
+},
+{
+"word": "Neugier",
+"pos": "n.f.",
+"zh": "好奇",
+"level": "a2"
+},
+{
+"word": "Verstorbene",
+"pos": "n.",
+"zh": "死者",
+"level": "a2"
+},
+{
+"word": "verkleiden",
+"pos": "v.",
+"zh": "化装",
+"level": "a2"
+},
+{
+"word": "Entdeckung",
+"pos": "n.f.",
+"zh": "发现",
+"level": "a2"
+},
+{
+"word": "betteln",
+"pos": "v.",
+"zh": "乞讨",
+"level": "a2"
+},
+{
+"word": "blond",
+"pos": "adj.",
+"zh": "金发的",
+"level": "a2"
+},
+{
+"word": "Herkunft",
+"pos": "n.f.",
+"zh": "出身",
+"level": "a2"
+},
+{
+"word": "Annahme",
+"pos": "n.f.",
+"zh": "假设",
+"level": "a2"
+},
+{
+"word": "Gestank",
+"pos": "n.m.",
+"zh": "臭味",
+"level": "a2"
+},
+{
+"word": "Hintertür",
+"pos": "n.f.",
+"zh": "后门",
+"level": "a2"
+},
+{
+"word": "Truthahn",
+"pos": "n.m.",
+"zh": "火鸡",
+"level": "a2"
+},
+{
+"word": "bereithalten",
+"pos": "v.",
+"zh": "备好",
+"level": "a2"
+},
+{
+"word": "tagsüber",
+"pos": "adv.",
+"zh": "白天",
+"level": "a2"
+},
+{
+"word": "feucht",
+"pos": "adj.",
+"zh": "潮湿的",
+"level": "a2"
+},
+{
+"word": "Befragung",
+"pos": "n.f.",
+"zh": "询问",
+"level": "a2"
+},
+{
+"word": "ablaufen",
+"pos": "v.",
+"zh": "到期；流走",
+"level": "a2"
+},
+{
+"word": "Ausschau",
+"pos": "n.m.",
+"zh": "留意",
+"level": "a2"
+},
+{
+"word": "Studie",
+"pos": "n.f.",
+"zh": "研究",
+"level": "a2"
+},
+{
+"word": "Abwesenheit",
+"pos": "n.f.",
+"zh": "缺席",
+"level": "a2"
+},
+{
+"word": "Bestellung",
+"pos": "n.f.",
+"zh": "订购",
+"level": "a2"
+},
+{
+"word": "Sehnsucht",
+"pos": "n.f.",
+"zh": "渴望",
+"level": "a2"
+},
+{
+"word": "Demokratie",
+"pos": "n.f.",
+"zh": "民主",
+"level": "a2"
+},
+{
+"word": "aggressiv",
+"pos": "adj.",
+"zh": "有攻击性的",
+"level": "a2"
+},
+{
+"word": "ausleihen",
+"pos": "v.",
+"zh": "借出",
+"level": "a2"
+},
+{
+"word": "schlucken",
+"pos": "v.",
+"zh": "吞咽",
+"level": "a2"
+},
+{
+"word": "wesentlich",
+"pos": "adj.",
+"zh": "重要的；显著",
+"level": "a2"
+},
+{
+"word": "Horn",
+"pos": "n.",
+"zh": "号角",
+"level": "a2"
+},
+{
+"word": "eiskalt",
+"pos": "adj.",
+"zh": "冰冷的",
+"level": "a2"
+},
+{
+"word": "Sirene",
+"pos": "n.f.",
+"zh": "警报器",
+"level": "a2"
+},
+{
+"word": "Ritual",
+"pos": "n.",
+"zh": "仪式",
+"level": "a2"
+},
+{
+"word": "investieren",
+"pos": "v.",
+"zh": "投资",
+"level": "a2"
+},
+{
+"word": "bescheiden",
+"pos": "adj.",
+"zh": "谦虚的",
+"level": "a2"
+},
+{
+"word": "Garderobe",
+"pos": "n.f.",
+"zh": "衣帽间",
+"level": "a2"
+},
+{
+"word": "Streifen",
+"pos": "n.m.",
+"zh": "条纹；巡逻",
+"level": "a2"
+},
+{
+"word": "voneinander",
+"pos": "adv.",
+"zh": "互相分开",
+"level": "a2"
+},
+{
+"word": "Wirt",
+"pos": "n.m.",
+"zh": "店主",
+"level": "a2"
+},
+{
+"word": "Kasten",
+"pos": "n.m.",
+"zh": "箱子",
+"level": "a2"
+},
+{
+"word": "zeichnen",
+"pos": "v.",
+"zh": "绘画",
+"level": "a2"
+},
+{
+"word": "backen",
+"pos": "v.",
+"zh": "烘焙",
+"level": "a2"
+},
+{
+"word": "scheitern",
+"pos": "v.",
+"zh": "失败",
+"level": "a2"
+},
+{
+"word": "Salon",
+"pos": "n.m.",
+"zh": "沙龙",
+"level": "a2"
+},
+{
+"word": "demnächst",
+"pos": "adv.",
+"zh": "不久",
+"level": "a2"
+},
+{
+"word": "allmählich",
+"pos": "adv.",
+"zh": "逐渐",
+"level": "a2"
+},
+{
+"word": "benommen",
+"pos": "adj.",
+"zh": "恍惚的",
+"level": "a2"
+},
+{
+"word": "Vortrag",
+"pos": "n.m.",
+"zh": "报告；演讲",
+"level": "a2"
+},
+{
+"word": "U-Boot",
+"pos": "n.",
+"zh": "潜艇",
+"level": "a2"
+},
+{
+"word": "ängstlich",
+"pos": "adj.",
+"zh": "胆怯的",
+"level": "a2"
+},
+{
+"word": "Durchbruch",
+"pos": "n.m.",
+"zh": "突破",
+"level": "a2"
+},
+{
+"word": "zuschlagen",
+"pos": "v.",
+"zh": "猛击",
+"level": "a2"
+},
+{
+"word": "Kampagne",
+"pos": "n.f.",
+"zh": "运动",
+"level": "a2"
+},
+{
+"word": "reinigen",
+"pos": "v.",
+"zh": "清洁",
+"level": "a2"
+},
+{
+"word": "quälen",
+"pos": "v.",
+"zh": "折磨",
+"level": "a2"
+},
+{
+"word": "Berufung",
+"pos": "n.f.",
+"zh": "上诉；使命",
+"level": "a2"
+},
+{
+"word": "Knöchel",
+"pos": "n.m.",
+"zh": "脚踝",
+"level": "a2"
+},
+{
+"word": "Zeitplan",
+"pos": "n.m.",
+"zh": "时间表",
+"level": "a2"
+},
+{
+"word": "jegliche",
+"pos": "pron.",
+"zh": "任何",
+"level": "a2"
+},
+{
+"word": "Versuchung",
+"pos": "n.f.",
+"zh": "诱惑",
+"level": "a2"
+},
+{
+"word": "Beitrag",
+"pos": "n.m.",
+"zh": "贡献",
+"level": "a2"
+},
+{
+"word": "Argument",
+"pos": "n.",
+"zh": "论据",
+"level": "a2"
+},
+{
+"word": "Hamburger",
+"pos": "n.m.",
+"zh": "汉堡包",
+"level": "a2"
+},
+{
+"word": "Türklingel",
+"pos": "n.f.",
+"zh": "门铃",
+"level": "a2"
+},
+{
+"word": "Dynamit",
+"pos": "n.",
+"zh": "炸药",
+"level": "a2"
+},
+{
+"word": "Fell",
+"pos": "n.",
+"zh": "毛皮",
+"level": "a2"
+},
+{
+"word": "Sonnenschein",
+"pos": "n.m.",
+"zh": "阳光",
+"level": "a2"
+},
+{
+"word": "Bräutigam",
+"pos": "n.m.",
+"zh": "新郎",
+"level": "a2"
+},
+{
+"word": "Drohung",
+"pos": "n.f.",
+"zh": "威胁",
+"level": "a2"
+},
+{
+"word": "Wende",
+"pos": "n.f.",
+"zh": "转折",
+"level": "a2"
+},
+{
+"word": "gelöst",
+"pos": "adj.",
+"zh": "溶解物；溶质\\ 溶质",
+"level": "b1"
+},
+{
+"word": "bedroht",
+"pos": "adj.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "befreit",
+"pos": "adj.",
+"zh": "宽慰的；解除的；减轻的",
+"level": "b1"
+},
+{
+"word": "Mäuse",
+"pos": "n.",
+"zh": "老鼠；胆小羞怯的人；鼠标\\. 捕鼠",
+"level": "b1"
+},
+{
+"word": "Lese",
+"pos": "n.f.",
+"zh": "聚集；集中；采集\\ 富集",
+"level": "b1"
+},
+{
+"word": "Stahl",
+"pos": "n.m.",
+"zh": "钢；钢制品；钢铁",
+"level": "b1"
+},
+{
+"word": "aussagen",
+"pos": "v.",
+"zh": "谓语；使基于",
+"level": "b1"
+},
+{
+"word": "gestört",
+"pos": "adv.",
+"zh": "不整齐的；未处理的；未决定的\\ 未决的",
+"level": "b1"
+},
+{
+"word": "Spring",
+"pos": "n.f.",
+"zh": "倒缆；拱脚线；斜系船缆",
+"level": "b1"
+},
+{
+"word": "weitergehen",
+"pos": "v.",
+"zh": "继续；延续",
+"level": "b1"
+},
+{
+"word": "Bedingungen",
+"pos": "n.",
+"zh": "条件；条款；费用",
+"level": "b1"
+},
+{
+"word": "diamanten",
+"pos": "adj.",
+"zh": "钻石；菱形\\ 菱形",
+"level": "b1"
+}
+]

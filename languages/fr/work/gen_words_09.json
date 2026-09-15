@@ -1,0 +1,602 @@
+[
+{
+"word": "botte",
+"pos": "n.f.",
+"zh": "靴子（常用复数）；一捆",
+"level": "a2"
+},
+{
+"word": "bouc",
+"pos": "n.m.",
+"zh": "公山羊",
+"level": "a2"
+},
+{
+"word": "boucherie",
+"pos": "n.f.",
+"zh": "肉店",
+"level": "a2"
+},
+{
+"word": "bouchon",
+"pos": "n.m.",
+"zh": "瓶塞；堵塞物",
+"level": "a2"
+},
+{
+"word": "bouché",
+"pos": "adj.",
+"zh": "堵塞的",
+"level": "a2"
+},
+{
+"word": "bouclé",
+"pos": "adj.",
+"zh": "卷曲的；卷发的",
+"level": "a2"
+},
+{
+"word": "boue",
+"pos": "n.f.",
+"zh": "泥；泥浆",
+"level": "a2"
+},
+{
+"word": "bouffer",
+"pos": "v.",
+"zh": "吃（口语）",
+"level": "a2"
+},
+{
+"word": "bouger",
+"pos": "v.",
+"zh": "动；移动；挪动",
+"level": "a2"
+},
+{
+"word": "bougie",
+"pos": "n.f.",
+"zh": "蜡烛",
+"level": "a2"
+},
+{
+"word": "bouillir",
+"pos": "v.",
+"zh": "沸腾；煮开",
+"level": "a2"
+},
+{
+"word": "bouillon",
+"pos": "n.m.",
+"zh": "汤；高汤",
+"level": "a2"
+},
+{
+"word": "boulanger",
+"pos": "n.m.",
+"zh": "面包师",
+"level": "a2"
+},
+{
+"word": "boule",
+"pos": "n.f.",
+"zh": "圆球；球状物",
+"level": "a2"
+},
+{
+"word": "bouleversé",
+"pos": "adj.",
+"zh": "震惊的；心烦意乱的",
+"level": "a2"
+},
+{
+"word": "boulot",
+"pos": "n.m.",
+"zh": "工作；活儿（口语）",
+"level": "a2"
+},
+{
+"word": "boum",
+"pos": "n.m.",
+"zh": "砰；（口）派对",
+"level": "a2"
+},
+{
+"word": "boussole",
+"pos": "n.f.",
+"zh": "指南针",
+"level": "a2"
+},
+{
+"word": "bout",
+"pos": "n.m.",
+"zh": "末端；尽头；一端",
+"level": "a2"
+},
+{
+"word": "bouteille",
+"pos": "n.f.",
+"zh": "瓶子",
+"level": "a2"
+},
+{
+"word": "boutique",
+"pos": "n.f.",
+"zh": "小店；商店",
+"level": "a2"
+},
+{
+"word": "bouton",
+"pos": "n.m.",
+"zh": "按钮；疙瘩；花蕾",
+"level": "a2"
+},
+{
+"word": "boxeur",
+"pos": "n.m.",
+"zh": "拳击手",
+"level": "a2"
+},
+{
+"word": "boîte",
+"pos": "n.f.",
+"zh": "盒子；箱子",
+"level": "a2"
+},
+{
+"word": "bracelet",
+"pos": "n.m.",
+"zh": "手镯；表带",
+"level": "a2"
+},
+{
+"word": "branche",
+"pos": "n.f.",
+"zh": "树枝；分支",
+"level": "a2"
+},
+{
+"word": "brave",
+"pos": "adj.",
+"zh": "勇敢的；正直的",
+"level": "a2"
+},
+{
+"word": "brillant",
+"pos": "adj.",
+"zh": "闪亮的；辉煌的",
+"level": "a2"
+},
+{
+"word": "briller",
+"pos": "v.",
+"zh": "发光；闪耀",
+"level": "a2"
+},
+{
+"word": "brique",
+"pos": "n.f.",
+"zh": "砖；砖块",
+"level": "a2"
+},
+{
+"word": "briquet",
+"pos": "n.m.",
+"zh": "打火机",
+"level": "a2"
+},
+{
+"word": "britannique",
+"pos": "adj.",
+"zh": "英国的；英国人",
+"level": "a2"
+},
+{
+"word": "brosse",
+"pos": "n.f.",
+"zh": "刷子",
+"level": "a2"
+},
+{
+"word": "brosser",
+"pos": "v.",
+"zh": "刷；刷净",
+"level": "a2"
+},
+{
+"word": "brouillard",
+"pos": "n.m.",
+"zh": "雾",
+"level": "a2"
+},
+{
+"word": "bruit",
+"pos": "n.m.",
+"zh": "声音；噪声",
+"level": "a2"
+},
+{
+"word": "bruyant",
+"pos": "adj.",
+"zh": "吵闹的；喧哗的",
+"level": "a2"
+},
+{
+"word": "brésilien",
+"pos": "n.m.",
+"zh": "巴西的；巴西人",
+"level": "a2"
+},
+{
+"word": "brûlant",
+"pos": "adj.",
+"zh": "烫的；灼热的",
+"level": "a2"
+},
+{
+"word": "brûler",
+"pos": "v.",
+"zh": "烧；燃烧",
+"level": "a2"
+},
+{
+"word": "brûlé",
+"pos": "adj.",
+"zh": "烧焦的",
+"level": "a2"
+},
+{
+"word": "budget",
+"pos": "n.m.",
+"zh": "预算",
+"level": "a2"
+},
+{
+"word": "bulle",
+"pos": "n.f.",
+"zh": "泡；气泡",
+"level": "a2"
+},
+{
+"word": "burger",
+"pos": "n.m.",
+"zh": "汉堡包",
+"level": "a2"
+},
+{
+"word": "bâtiment",
+"pos": "n.m.",
+"zh": "建筑；大楼",
+"level": "a2"
+},
+{
+"word": "bâton",
+"pos": "n.m.",
+"zh": "棍；棒",
+"level": "a2"
+},
+{
+"word": "bête",
+"pos": "n.f.",
+"zh": "牲畜；野兽；蠢货",
+"level": "a2"
+},
+{
+"word": "cabane",
+"pos": "n.f.",
+"zh": "小屋；棚屋",
+"level": "a2"
+},
+{
+"word": "cabine",
+"pos": "n.f.",
+"zh": "舱；小间",
+"level": "a2"
+},
+{
+"word": "cacahuète",
+"pos": "n.f.",
+"zh": "花生",
+"level": "a2"
+},
+{
+"word": "cache-cache",
+"pos": "n.m.",
+"zh": "捉迷藏",
+"level": "a2"
+},
+{
+"word": "cacher",
+"pos": "v.",
+"zh": "藏；隐藏；隐瞒",
+"level": "a2"
+},
+{
+"word": "caché",
+"pos": "adj.",
+"zh": "藏起来的；暗中的",
+"level": "a2"
+},
+{
+"word": "cactus",
+"pos": "n.m.",
+"zh": "仙人掌",
+"level": "a2"
+},
+{
+"word": "cadenas",
+"pos": "n.m.",
+"zh": "挂锁",
+"level": "a2"
+},
+{
+"word": "cadet",
+"pos": "n.m.",
+"zh": "幼子；较年幼的",
+"level": "a2"
+},
+{
+"word": "cafard",
+"pos": "n.m.",
+"zh": "蟑螂；忧郁（口语）",
+"level": "a2"
+},
+{
+"word": "cafetière",
+"pos": "n.f.",
+"zh": "咖啡壶；咖啡机",
+"level": "a2"
+},
+{
+"word": "cafétéria",
+"pos": "n.f.",
+"zh": "自助餐厅",
+"level": "a2"
+},
+{
+"word": "cage",
+"pos": "n.f.",
+"zh": "笼子",
+"level": "a2"
+},
+{
+"word": "caillou",
+"pos": "n.m.",
+"zh": "石子；小石头",
+"level": "a2"
+},
+{
+"word": "caisse",
+"pos": "n.f.",
+"zh": "箱子；收银台",
+"level": "a2"
+},
+{
+"word": "caissier",
+"pos": "n.m.",
+"zh": "收银员；出纳",
+"level": "a2"
+},
+{
+"word": "calcul",
+"pos": "n.m.",
+"zh": "计算；算计",
+"level": "a2"
+},
+{
+"word": "calculer",
+"pos": "v.",
+"zh": "计算",
+"level": "a2"
+},
+{
+"word": "calendrier",
+"pos": "n.m.",
+"zh": "日历；日程表",
+"level": "a2"
+},
+{
+"word": "calme",
+"pos": "n.m.",
+"zh": "平静；镇静",
+"level": "a2"
+},
+{
+"word": "calmer",
+"pos": "v.",
+"zh": "使平静；平息",
+"level": "a2"
+},
+{
+"word": "camarade",
+"pos": "n.",
+"zh": "同伴；同学；战友",
+"level": "a2"
+},
+{
+"word": "camion",
+"pos": "n.m.",
+"zh": "卡车",
+"level": "a2"
+},
+{
+"word": "camp",
+"pos": "n.m.",
+"zh": "营地；阵营",
+"level": "a2"
+},
+{
+"word": "campagne",
+"pos": "n.f.",
+"zh": "乡下；农村；运动（宣传）",
+"level": "a2"
+},
+{
+"word": "camper",
+"pos": "v.",
+"zh": "露营",
+"level": "a2"
+},
+{
+"word": "camping",
+"pos": "n.m.",
+"zh": "露营；露营地",
+"level": "a2"
+},
+{
+"word": "campus",
+"pos": "n.m.",
+"zh": "校园",
+"level": "a2"
+},
+{
+"word": "caméra",
+"pos": "n.f.",
+"zh": "摄影机；摄像机",
+"level": "a2"
+},
+{
+"word": "canadien",
+"pos": "adj.",
+"zh": "加拿大的；加拿大人",
+"level": "a2"
+},
+{
+"word": "canapé",
+"pos": "n.m.",
+"zh": "沙发",
+"level": "a2"
+},
+{
+"word": "canard",
+"pos": "n.m.",
+"zh": "鸭子",
+"level": "a2"
+},
+{
+"word": "canne",
+"pos": "n.f.",
+"zh": "手杖；拐杖",
+"level": "a2"
+},
+{
+"word": "cantine",
+"pos": "n.f.",
+"zh": "食堂；饭盒",
+"level": "a2"
+},
+{
+"word": "capable",
+"pos": "adj.",
+"zh": "有能力的；能干的",
+"level": "a2"
+},
+{
+"word": "capitaine",
+"pos": "n.m.",
+"zh": "上尉；队长；船长",
+"level": "a2"
+},
+{
+"word": "capitale",
+"pos": "n.f.",
+"zh": "首都",
+"level": "a2"
+},
+{
+"word": "car",
+"pos": "conj.",
+"zh": "因为；由于",
+"level": "a2"
+},
+{
+"word": "caractère",
+"pos": "n.m.",
+"zh": "性格；特性",
+"level": "a2"
+},
+{
+"word": "caramel",
+"pos": "n.m.",
+"zh": "焦糖",
+"level": "a2"
+},
+{
+"word": "caresser",
+"pos": "v.",
+"zh": "抚摸",
+"level": "a2"
+},
+{
+"word": "carnaval",
+"pos": "n.m.",
+"zh": "狂欢节",
+"level": "a2"
+},
+{
+"word": "carnet",
+"pos": "n.m.",
+"zh": "记事本；册子",
+"level": "a2"
+},
+{
+"word": "carrière",
+"pos": "n.",
+"zh": "职业；生涯",
+"level": "a2"
+},
+{
+"word": "carré",
+"pos": "adj.",
+"zh": "正方形的；方形的",
+"level": "a2"
+},
+{
+"word": "carton",
+"pos": "n.m.",
+"zh": "纸板；纸箱",
+"level": "a2"
+},
+{
+"word": "cas",
+"pos": "n.m.",
+"zh": "情况；案例；场合",
+"level": "a2"
+},
+{
+"word": "casque",
+"pos": "n.m.",
+"zh": "头盔；耳机",
+"level": "a2"
+},
+{
+"word": "casquette",
+"pos": "n.f.",
+"zh": "鸭舌帽；便帽",
+"level": "a2"
+},
+{
+"word": "casser",
+"pos": "v.",
+"zh": "打碎；折断；弄坏",
+"level": "a2"
+},
+{
+"word": "casserole",
+"pos": "n.f.",
+"zh": "有柄平底锅",
+"level": "a2"
+},
+{
+"word": "cassette",
+"pos": "n.f.",
+"zh": "盒式磁带",
+"level": "a2"
+},
+{
+"word": "cassé",
+"pos": "adj.",
+"zh": "破了的；断了的",
+"level": "a2"
+}
+]

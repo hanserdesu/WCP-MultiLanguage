@@ -1,0 +1,327 @@
+{
+  "level": "L6",
+  "name": "粤语特征量词与语法虚词助词",
+  "description": "涵盖粤语独特量词（嚿、粒、樖、啖等）与核心时态助词、语气词体系",
+  "words": [
+    {
+      "word": "嚿",
+      "jyutping": "gau6",
+      "pos": "量",
+      "meaning": "块（量词，用于块状物）",
+      "sentences": [
+        {
+          "sentence": "食多嚿肉啦。（sik6 do1 gau6 juk6 laa1.）",
+          "translate": "多吃一块肉吧。"
+        },
+        {
+          "sentence": "地下有嚿大石頭。（dei6 haa2 jau5 gau6 daai6 sek6 tau4.）",
+          "translate": "地上有一块大石头。"
+        }
+      ]
+    },
+    {
+      "word": "粒",
+      "jyutping": "nap1",
+      "pos": "量",
+      "meaning": "颗，粒（量词，用于小圆物）",
+      "sentences": [
+        {
+          "sentence": "呢粒糖好甜。（ni1 nap1 tong2 hou2 tim4.）",
+          "translate": "这颗糖很甜。"
+        },
+        {
+          "sentence": "粒掣壞咗，禁唔到。（nap1 zai3 waai6 zo2, gam6 m4 dou2.）",
+          "translate": "那个按钮坏了，按不下去。"
+        }
+      ]
+    },
+    {
+      "word": "樖",
+      "jyutping": "po1",
+      "pos": "量",
+      "meaning": "棵（量词，用于树木植物）",
+      "sentences": [
+        {
+          "sentence": "門口有樖大榕樹。（mun4 hau2 jau5 po1 daai6 jung4 syu6.）",
+          "translate": "门口有一棵大榕树。"
+        },
+        {
+          "sentence": "呢樖花開得好靚。（ni1 po1 faa1 hoi1 dak1 hou2 leng3.）",
+          "translate": "这株花开得很漂亮。"
+        }
+      ]
+    },
+    {
+      "word": "啖",
+      "jyutping": "daam6",
+      "pos": "量",
+      "meaning": "口（量词，用于饮、食的一口）",
+      "sentences": [
+        {
+          "sentence": "飲啖水先講啦。（jam2 daam6 seoi2 sin1 gong2 laa1.）",
+          "translate": "喝口水再讲吧。"
+        },
+        {
+          "sentence": "食多啖飯，唔好嘥嘢。（sik6 do1 daam6 faan6, m4 hou2 saai1 je5.）",
+          "translate": "多吃一口饭，别浪费东西。"
+        }
+      ]
+    },
+    {
+      "word": "樽",
+      "jyutping": "zeon1",
+      "pos": "量/名",
+      "meaning": "瓶（量词/名词，瓶子）",
+      "sentences": [
+        {
+          "sentence": "唔該買樽水返嚟。（m4 goi1 maai5 zeon1 seoi2 faan1 lai4.）",
+          "translate": "麻烦买一瓶水回来。"
+        },
+        {
+          "sentence": "呢個玻璃樽好精緻。（ni1 go3 bo1 lei1 zeon1 hou2 zing1 zi3.）",
+          "translate": "这个玻璃瓶很精致。"
+        }
+      ]
+    },
+    {
+      "word": "隻",
+      "jyutping": "zek3",
+      "pos": "量",
+      "meaning": "只（量词，用于动物、单只鞋袜手脚等）",
+      "sentences": [
+        {
+          "sentence": "呢隻狗好乖。（ni1 zek3 gau2 hou2 gwaai1.）",
+          "translate": "这只狗很乖巧。"
+        },
+        {
+          "sentence": "我隻手整親咗。（ngo5 zek3 sau2 zing2 can1 zo2.）",
+          "translate": "我的手受伤弄伤了。"
+        }
+      ]
+    },
+    {
+      "word": "餐",
+      "jyutping": "caan1",
+      "pos": "量",
+      "meaning": "顿，番（量词，用于饮食、责骂或打斗）",
+      "sentences": [
+        {
+          "sentence": "今餐我請客！（gam1 caan1 ngo5 cing2 haak3!）",
+          "translate": "这顿饭我请客！"
+        },
+        {
+          "sentence": "佢畀阿媽鬧咗一餐。（keoi5 bei2 aa3 maa1 naau6 zo2 jat1 caan1.）",
+          "translate": "他被妈妈狠狠训斥了一顿。"
+        }
+      ]
+    },
+    {
+      "word": "陣",
+      "jyutping": "zan6",
+      "pos": "量/名",
+      "meaning": "阵，一阵子（时间或风雨等）",
+      "sentences": [
+        {
+          "sentence": "過咗一陣佢就返嚟。（gwo3 zo2 jat1 zan6 keoi5 zau6 faan1 lai4.）",
+          "translate": "过了一会儿他就回来了。"
+        },
+        {
+          "sentence": "啱啱落咗一陣狂風暴雨。（ngaam1 ngaam1 lok6 zo2 jat1 zan6 kwong4 fung1 bou6 jyu5.）",
+          "translate": "刚刚下了一阵狂风暴雨。"
+        }
+      ]
+    },
+    {
+      "word": "篤",
+      "jyutping": "doek1",
+      "pos": "量/名",
+      "meaning": "坨，滩，堆；尽头",
+      "sentences": [
+        {
+          "sentence": "地下有一篤水，小心跣倒。（dei6 haa2 jau5 jat1 doek1 seoi2, siu2 sam1 sin2 dou2.）",
+          "translate": "地上有一滩水，小心滑倒。"
+        },
+        {
+          "sentence": "行到巷仔最篤就係。（haang4 dou3 hong6 zai2 zeoi3 doek1 zau6 hai6.）",
+          "translate": "走到小巷最尽头就是了。"
+        }
+      ]
+    },
+    {
+      "word": "緊",
+      "jyutping": "gan2",
+      "pos": "助",
+      "meaning": "着，正（动态助词，表示动作正在进行）",
+      "sentences": [
+        {
+          "sentence": "我食緊飯，一陣覆你。（ngo5 sik6 gan2 faan6, jat1 zan6 fuk1 nei5.）",
+          "translate": "我正在吃饭，一会儿回复你。"
+        },
+        {
+          "sentence": "佢睇緊電視。（keoi5 tai2 gan2 din6 si6.）",
+          "translate": "他正在看电视。"
+        }
+      ]
+    },
+    {
+      "word": "咗",
+      "jyutping": "zo2",
+      "pos": "助",
+      "meaning": "了（动态助词，表示动作完成）",
+      "sentences": [
+        {
+          "sentence": "我已經做完咗功課。（ngo5 ji5 ging1 zou6 jyun4 zo2 gung1 fo3.）",
+          "translate": "我已经做完了功课。"
+        },
+        {
+          "sentence": "佢去咗香港旅行。（keoi5 heoi3 zo2 hoeng1 gong2 leoi5 hang4.）",
+          "translate": "他去香港旅游了。"
+        }
+      ]
+    },
+    {
+      "word": "過",
+      "jyutping": "gwo3",
+      "pos": "助/动",
+      "meaning": "过（表示经历；超过；重新）",
+      "sentences": [
+        {
+          "sentence": "我去過廣州塔。（ngo5 heoi3 gwo3 gwong2 zau1 taap3.）",
+          "translate": "我去过广州塔。"
+        },
+        {
+          "sentence": "寫得唔好，重新寫過。（se2 dak1 m4 hou2, cung4 san1 se2 gwo3.）",
+          "translate": "写得不好，重新再写一遍。"
+        }
+      ]
+    },
+    {
+      "word": "埋",
+      "jyutping": "maai4",
+      "pos": "助/动",
+      "meaning": "连同，全部一起；靠拢",
+      "sentences": [
+        {
+          "sentence": "食埋呢啖飯就走。（sik6 maai4 ni1 daam6 faan6 zau6 zau2.）",
+          "translate": "吃完这口饭就走。"
+        },
+        {
+          "sentence": "行埋一邊，咪阻住條路。（haang4 maai4 jat1 bin1, mai5 zo2 zyu6 tiu4 lou6.）",
+          "translate": "靠边走，别挡住路。"
+        }
+      ]
+    },
+    {
+      "word": "晒",
+      "jyutping": "saai3",
+      "pos": "助",
+      "meaning": "全部，光，完（表示完全或极度）",
+      "sentences": [
+        {
+          "sentence": "啲蛋糕畀人食晒喇。（di1 daan6 gou1 bei2 jan4 sik6 saai3 laa3.）",
+          "translate": "蛋糕被人全吃光了。"
+        },
+        {
+          "sentence": "真係唔該晒你！（zan1 hai6 m4 goi1 saai3 nei5!）",
+          "translate": "真是太感谢你了！"
+        }
+      ]
+    },
+    {
+      "word": "親",
+      "jyutping": "can1",
+      "pos": "助",
+      "meaning": "到，及（动作触及某结果，多表意外受损）",
+      "sentences": [
+        {
+          "sentence": "小心整親隻手。（siu2 sam1 zing2 can1 zek3 sau2.）",
+          "translate": "小心弄伤了手。"
+        },
+        {
+          "sentence": "佢跌親個膝頭哥。（keoi5 dit3 can1 go3 sat1 tau4 go1.）",
+          "translate": "他摔伤了膝盖。"
+        }
+      ]
+    },
+    {
+      "word": "定",
+      "jyutping": "ding6",
+      "pos": "助/副",
+      "meaning": "预先，提前",
+      "sentences": [
+        {
+          "sentence": "買定聽日嘅火車飛。（maai5 ding6 ting1 jat6 ge3 fo2 ce1 fei1.）",
+          "translate": "提前买好明天的火车票。"
+        },
+        {
+          "sentence": "準備定資料開會。（zeon2 bei6 ding6 zi1 liu2 hoi1 wui2.）",
+          "translate": "提前准备好资料去开会。"
+        }
+      ]
+    },
+    {
+      "word": "返",
+      "jyutping": "faan1",
+      "pos": "助/动",
+      "meaning": "恢复，返回，重新回到原态",
+      "sentences": [
+        {
+          "sentence": "休息完個人精神返晒。（jau1 sik1 jyun4 go3 jan4 zing1 san4 faan1 saai3.）",
+          "translate": "休息完之后整个人重新精神起来了。"
+        },
+        {
+          "sentence": "找返廿蚊畀你。（zaau2 faan1 jaa6 man1 bei2 nei5.）",
+          "translate": "找回二十块钱给你。"
+        }
+      ]
+    },
+    {
+      "word": "啫",
+      "jyutping": "ze1",
+      "pos": "助",
+      "meaning": "而已，罢了（语气助词，表不过如此）",
+      "sentences": [
+        {
+          "sentence": "講下笑啫，唔好嬲啦。（gong2 haa5 siu3 ze1, m4 hou2 nau1 laa1.）",
+          "translate": "开个玩笑罢了，别生气啦。"
+        },
+        {
+          "sentence": "幾十蚊啫，好平。（gei2 sap6 man1 ze1, hou2 peng4.）",
+          "translate": "几十块钱而已，很便宜。"
+        }
+      ]
+    },
+    {
+      "word": "喎",
+      "jyutping": "wo3",
+      "pos": "助",
+      "meaning": "啊，据说（转述或提醒语气）",
+      "sentences": [
+        {
+          "sentence": "天文台話聽日會落雨喎。（tin1 man4 toi4 waa6 ting1 jat6 wui5 lok6 jyu5 wo3.）",
+          "translate": "天文台说明天会下雨呢。"
+        },
+        {
+          "sentence": "好似幾好食喎。（hou2 ci5 gei2 hou2 sik6 wo3.）",
+          "translate": "好像挺好吃的样子呢。"
+        }
+      ]
+    },
+    {
+      "word": "添",
+      "jyutping": "tim1",
+      "pos": "助/副",
+      "meaning": "还，再，连...也（表示递进或强调）",
+      "sentences": [
+        {
+          "sentence": "唔記得帶鎖匙添！（m4 gei3 dak1 daai3 so2 si4 tim1!）",
+          "translate": "居然还把钥匙给忘了！"
+        },
+        {
+          "sentence": "飲多杯茶添啦。（jam2 do1 bui1 caa4 tim1 laa1.）",
+          "translate": "再多喝一杯茶吧。"
+        }
+      ]
+    }
+  ]
+}

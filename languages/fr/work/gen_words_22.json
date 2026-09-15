@@ -1,0 +1,602 @@
+[
+{
+"word": "rejouer",
+"pos": "v.",
+"zh": "重播；再玩",
+"level": "a2"
+},
+{
+"word": "religieux",
+"pos": "adj.",
+"zh": "宗教的；修士",
+"level": "a2"
+},
+{
+"word": "religion",
+"pos": "n.f.",
+"zh": "宗教",
+"level": "a2"
+},
+{
+"word": "remercier",
+"pos": "v.",
+"zh": "感谢；道谢",
+"level": "a2"
+},
+{
+"word": "remettre",
+"pos": "v.",
+"zh": "放回；递交；推迟",
+"level": "a2"
+},
+{
+"word": "remplacer",
+"pos": "v.",
+"zh": "代替；取代",
+"level": "a2"
+},
+{
+"word": "rempli",
+"pos": "adj.",
+"zh": "装满的；挤满的",
+"level": "a2"
+},
+{
+"word": "remplir",
+"pos": "v.",
+"zh": "装满；填写",
+"level": "a2"
+},
+{
+"word": "remède",
+"pos": "n.m.",
+"zh": "药；补救办法",
+"level": "a2"
+},
+{
+"word": "rencontre",
+"pos": "n.f.",
+"zh": "相遇；会面；比赛",
+"level": "a2"
+},
+{
+"word": "rencontrer",
+"pos": "v.",
+"zh": "遇见；结识；会面",
+"level": "a2"
+},
+{
+"word": "rendez-vous",
+"pos": "n.m.",
+"zh": "约会；预约",
+"level": "a2"
+},
+{
+"word": "rendre",
+"pos": "v.",
+"zh": "归还；使变得",
+"level": "a2"
+},
+{
+"word": "rentrée",
+"pos": "n.f.",
+"zh": "开学；返回",
+"level": "a2"
+},
+{
+"word": "reparler",
+"pos": "v.",
+"zh": "再谈；重提",
+"level": "a2"
+},
+{
+"word": "repartir",
+"pos": "v.",
+"zh": "再出发；动身返回",
+"level": "a2"
+},
+{
+"word": "repasser",
+"pos": "v.",
+"zh": "再次经过；熨烫",
+"level": "a2"
+},
+{
+"word": "repos",
+"pos": "n.m.",
+"zh": "休息",
+"level": "a2"
+},
+{
+"word": "reposer",
+"pos": "v.",
+"zh": "（使）休息",
+"level": "a2"
+},
+{
+"word": "reprendre",
+"pos": "v.",
+"zh": "重新开始；取回；恢复",
+"level": "a2"
+},
+{
+"word": "respect",
+"pos": "n.m.",
+"zh": "尊敬；尊重",
+"level": "a2"
+},
+{
+"word": "respecter",
+"pos": "v.",
+"zh": "尊重；遵守",
+"level": "a2"
+},
+{
+"word": "respirer",
+"pos": "v.",
+"zh": "呼吸",
+"level": "a2"
+},
+{
+"word": "responsable",
+"pos": "adj.",
+"zh": "负责的",
+"level": "a2"
+},
+{
+"word": "ressembler",
+"pos": "v.",
+"zh": "相像；相似",
+"level": "a2"
+},
+{
+"word": "restau",
+"pos": "n.m.",
+"zh": "餐馆（口语）",
+"level": "a2"
+},
+{
+"word": "reste",
+"pos": "n.m.",
+"zh": "剩余；其余",
+"level": "a2"
+},
+{
+"word": "resto",
+"pos": "n.m.",
+"zh": "餐馆（口语）",
+"level": "a2"
+},
+{
+"word": "retard",
+"pos": "n.m.",
+"zh": "迟到；延误",
+"level": "a2"
+},
+{
+"word": "retarder",
+"pos": "v.",
+"zh": "使延迟；拖延",
+"level": "a2"
+},
+{
+"word": "retomber",
+"pos": "v.",
+"zh": "再落下；回落",
+"level": "a2"
+},
+{
+"word": "retourner",
+"pos": "v.",
+"zh": "返回；回去；翻转",
+"level": "a2"
+},
+{
+"word": "retraité",
+"pos": "n.m.",
+"zh": "退休者；领养老金者",
+"level": "a2"
+},
+{
+"word": "retrouver",
+"pos": "v.",
+"zh": "重新找到；重逢",
+"level": "a2"
+},
+{
+"word": "revoilà",
+"pos": "prép.",
+"zh": "又来了；又见面了",
+"level": "a2"
+},
+{
+"word": "revolver",
+"pos": "n.m.",
+"zh": "左轮手枪",
+"level": "a2"
+},
+{
+"word": "reçu",
+"pos": "adj.",
+"zh": "收据；收讫的",
+"level": "a2"
+},
+{
+"word": "rhinocéros",
+"pos": "n.m.",
+"zh": "犀牛",
+"level": "a2"
+},
+{
+"word": "rhume",
+"pos": "n.m.",
+"zh": "感冒",
+"level": "a2"
+},
+{
+"word": "riche",
+"pos": "adj.",
+"zh": "富有的；有钱的",
+"level": "a2"
+},
+{
+"word": "ride",
+"pos": "n.f.",
+"zh": "皱纹",
+"level": "a2"
+},
+{
+"word": "rideau",
+"pos": "n.m.",
+"zh": "窗帘；幕布",
+"level": "a2"
+},
+{
+"word": "rigoler",
+"pos": "v.",
+"zh": "开玩笑；打闹",
+"level": "a2"
+},
+{
+"word": "rincer",
+"pos": "v.",
+"zh": "冲洗；涮洗",
+"level": "a2"
+},
+{
+"word": "risque",
+"pos": "n.m.",
+"zh": "风险；危险",
+"level": "a2"
+},
+{
+"word": "rivière",
+"pos": "n.f.",
+"zh": "河；河流",
+"level": "a2"
+},
+{
+"word": "robinet",
+"pos": "n.m.",
+"zh": "水龙头",
+"level": "a2"
+},
+{
+"word": "robot",
+"pos": "n.m.",
+"zh": "机器人",
+"level": "a2"
+},
+{
+"word": "rocher",
+"pos": "n.m.",
+"zh": "岩石；礁石",
+"level": "a2"
+},
+{
+"word": "rock",
+"pos": "n.m.",
+"zh": "摇滚乐",
+"level": "a2"
+},
+{
+"word": "roi",
+"pos": "n.m.",
+"zh": "国王",
+"level": "a2"
+},
+{
+"word": "roman",
+"pos": "n.m.",
+"zh": "小说",
+"level": "a2"
+},
+{
+"word": "romantique",
+"pos": "adj.",
+"zh": "浪漫的；浪漫主义的",
+"level": "a2"
+},
+{
+"word": "rond",
+"pos": "n.m.",
+"zh": "圆形；圆圈",
+"level": "a2"
+},
+{
+"word": "roue",
+"pos": "n.f.",
+"zh": "轮子",
+"level": "a2"
+},
+{
+"word": "rouler",
+"pos": "v.",
+"zh": "滚动；行驶；开车",
+"level": "a2"
+},
+{
+"word": "roux",
+"pos": "adj.",
+"zh": "红棕色的；红发的",
+"level": "a2"
+},
+{
+"word": "royal",
+"pos": "adj.",
+"zh": "王室的；盛大的",
+"level": "a2"
+},
+{
+"word": "ruban",
+"pos": "n.m.",
+"zh": "丝带；缎带",
+"level": "a2"
+},
+{
+"word": "rythme",
+"pos": "n.m.",
+"zh": "节奏",
+"level": "a2"
+},
+{
+"word": "règle",
+"pos": "n.f.",
+"zh": "规则；尺子",
+"level": "a2"
+},
+{
+"word": "ré",
+"pos": "n.m.",
+"zh": "音阶唱名",
+"level": "a2"
+},
+{
+"word": "réaction",
+"pos": "n.f.",
+"zh": "反应",
+"level": "a2"
+},
+{
+"word": "réagir",
+"pos": "v.",
+"zh": "作出反应；回应",
+"level": "a2"
+},
+{
+"word": "récemment",
+"pos": "adv.",
+"zh": "最近",
+"level": "a2"
+},
+{
+"word": "récent",
+"pos": "adj.",
+"zh": "最近的",
+"level": "a2"
+},
+{
+"word": "réciter",
+"pos": "v.",
+"zh": "背诵",
+"level": "a2"
+},
+{
+"word": "récompense",
+"pos": "n.f.",
+"zh": "奖励；报酬",
+"level": "a2"
+},
+{
+"word": "récréation",
+"pos": "n.f.",
+"zh": "课间休息；娱乐",
+"level": "a2"
+},
+{
+"word": "rédaction",
+"pos": "n.f.",
+"zh": "作文；编辑部",
+"level": "a2"
+},
+{
+"word": "réduction",
+"pos": "n.f.",
+"zh": "折扣；缩减",
+"level": "a2"
+},
+{
+"word": "réel",
+"pos": "adj.",
+"zh": "真实的",
+"level": "a2"
+},
+{
+"word": "région",
+"pos": "n.f.",
+"zh": "地区；区域",
+"level": "a2"
+},
+{
+"word": "régulier",
+"pos": "adj.",
+"zh": "有规律的；定期的",
+"level": "a2"
+},
+{
+"word": "réparation",
+"pos": "n.f.",
+"zh": "修理；修复",
+"level": "a2"
+},
+{
+"word": "réparer",
+"pos": "v.",
+"zh": "修理",
+"level": "a2"
+},
+{
+"word": "répondeur",
+"pos": "n.m.",
+"zh": "答录机",
+"level": "a2"
+},
+{
+"word": "république",
+"pos": "n.f.",
+"zh": "共和国",
+"level": "a2"
+},
+{
+"word": "répéter",
+"pos": "v.",
+"zh": "重复；排练",
+"level": "a2"
+},
+{
+"word": "réservation",
+"pos": "n.f.",
+"zh": "预订",
+"level": "a2"
+},
+{
+"word": "réserver",
+"pos": "v.",
+"zh": "预订；保留",
+"level": "a2"
+},
+{
+"word": "résidence",
+"pos": "n.f.",
+"zh": "住宅；居所",
+"level": "a2"
+},
+{
+"word": "résister",
+"pos": "v.",
+"zh": "抵抗；忍住",
+"level": "a2"
+},
+{
+"word": "résultat",
+"pos": "n.m.",
+"zh": "结果；成绩",
+"level": "a2"
+},
+{
+"word": "résumé",
+"pos": "n.m.",
+"zh": "摘要；梗概",
+"level": "a2"
+},
+{
+"word": "réussir",
+"pos": "v.",
+"zh": "成功；做到；及格",
+"level": "a2"
+},
+{
+"word": "réveil",
+"pos": "n.m.",
+"zh": "闹钟；睡醒",
+"level": "a2"
+},
+{
+"word": "réviser",
+"pos": "v.",
+"zh": "复习；修订",
+"level": "a2"
+},
+{
+"word": "rêve",
+"pos": "n.m.",
+"zh": "梦；梦想",
+"level": "a2"
+},
+{
+"word": "rêver",
+"pos": "v.",
+"zh": "做梦；梦见；幻想",
+"level": "a2"
+},
+{
+"word": "rôle",
+"pos": "n.m.",
+"zh": "角色；作用",
+"level": "a2"
+},
+{
+"word": "rôtir",
+"pos": "v.",
+"zh": "烤；炙烤",
+"level": "a2"
+},
+{
+"word": "sable",
+"pos": "n.m.",
+"zh": "沙子",
+"level": "a2"
+},
+{
+"word": "sachet",
+"pos": "n.m.",
+"zh": "小袋；小包",
+"level": "a2"
+},
+{
+"word": "sage",
+"pos": "adj.",
+"zh": "乖的；明智的",
+"level": "a2"
+},
+{
+"word": "saint",
+"pos": "n.",
+"zh": "圣人；神圣的",
+"level": "a2"
+},
+{
+"word": "saison",
+"pos": "n.f.",
+"zh": "季节；赛季",
+"level": "a2"
+},
+{
+"word": "salaire",
+"pos": "n.m.",
+"zh": "工资；薪水",
+"level": "a2"
+},
+{
+"word": "saler",
+"pos": "v.",
+"zh": "加盐；腌制",
+"level": "a2"
+},
+{
+"word": "salon",
+"pos": "n.m.",
+"zh": "客厅；沙龙",
+"level": "a2"
+}
+]

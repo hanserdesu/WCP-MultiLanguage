@@ -1,0 +1,21 @@
+{
+  "version": "wcp-ko-resources-v1.0.0",
+  "built": "2026-09-15 10:09:32",
+  "base_urls": [
+    "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.0.0"
+  ],
+  "assets": [
+    {
+      "kind": "word_audio",
+      "name": "wcp-korean-audio-words.zip",
+      "size": 33135550,
+      "sha256": "e911390b1e0c0bdefe88f4925dec2f57f3e24f2aa34a9f10e05b4791e5676bb9"
+    },
+    {
+      "kind": "sentence_audio",
+      "name": "wcp-korean-audio-sentences.zip",
+      "size": 277666730,
+      "sha256": "e3cb868b402581e5f1fcff2e614d88b390b7c3a747da88ce845a5c553aa6c857"
+    }
+  ]
+}

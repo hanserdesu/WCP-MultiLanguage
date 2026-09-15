@@ -1,0 +1,602 @@
+[
+{
+"word": "aucun",
+"pos": "adj.",
+"zh": "没有一个；毫无",
+"level": "a2"
+},
+{
+"word": "aucune",
+"pos": "adj.",
+"zh": "没有一个（阴性）；毫无",
+"level": "a2"
+},
+{
+"word": "augmenter",
+"pos": "v.",
+"zh": "增加；提高",
+"level": "a2"
+},
+{
+"word": "autant",
+"pos": "adv.",
+"zh": "同样多；如此多",
+"level": "a2"
+},
+{
+"word": "auteur",
+"pos": "n.m.",
+"zh": "作者；作家",
+"level": "a2"
+},
+{
+"word": "auto",
+"pos": "n.",
+"zh": "汽车（口语）",
+"level": "a2"
+},
+{
+"word": "autobus",
+"pos": "n.m.",
+"zh": "公共汽车",
+"level": "a2"
+},
+{
+"word": "autocar",
+"pos": "n.m.",
+"zh": "大客车；长途巴士",
+"level": "a2"
+},
+{
+"word": "autocollant",
+"pos": "n.m.",
+"zh": "贴纸；不干胶标签",
+"level": "a2"
+},
+{
+"word": "automatique",
+"pos": "adj.",
+"zh": "自动的",
+"level": "a2"
+},
+{
+"word": "automobile",
+"pos": "n.f.",
+"zh": "汽车",
+"level": "a2"
+},
+{
+"word": "autoriser",
+"pos": "v.",
+"zh": "允许；批准",
+"level": "a2"
+},
+{
+"word": "autoroute",
+"pos": "n.f.",
+"zh": "高速公路",
+"level": "a2"
+},
+{
+"word": "autour",
+"pos": "adv.",
+"zh": "周围；四周",
+"level": "a2"
+},
+{
+"word": "autrefois",
+"pos": "adv.",
+"zh": "从前；往昔",
+"level": "a2"
+},
+{
+"word": "autrement",
+"pos": "adv.",
+"zh": "否则；用别的方式",
+"level": "a2"
+},
+{
+"word": "autres",
+"pos": "pron.",
+"zh": "其他人；其余的",
+"level": "a2"
+},
+{
+"word": "autrichien",
+"pos": "n.m.",
+"zh": "奥地利的；奥地利人",
+"level": "a2"
+},
+{
+"word": "autruche",
+"pos": "n.f.",
+"zh": "鸵鸟",
+"level": "a2"
+},
+{
+"word": "avaler",
+"pos": "v.",
+"zh": "吞下；咽下",
+"level": "a2"
+},
+{
+"word": "avance",
+"pos": "n.f.",
+"zh": "前进；提前；领先",
+"level": "a2"
+},
+{
+"word": "avancer",
+"pos": "v.",
+"zh": "前进；提前",
+"level": "a2"
+},
+{
+"word": "avant-hier",
+"pos": "adv.",
+"zh": "前天",
+"level": "a2"
+},
+{
+"word": "aventure",
+"pos": "n.f.",
+"zh": "冒险；奇遇",
+"level": "a2"
+},
+{
+"word": "avenue",
+"pos": "n.f.",
+"zh": "大街；大道",
+"level": "a2"
+},
+{
+"word": "aveugle",
+"pos": "adj.",
+"zh": "失明的；盲目的",
+"level": "a2"
+},
+{
+"word": "avis",
+"pos": "n.m.",
+"zh": "意见；看法",
+"level": "a2"
+},
+{
+"word": "avocat",
+"pos": "n.m.",
+"zh": "律师；鳄梨",
+"level": "a2"
+},
+{
+"word": "aéroport",
+"pos": "n.m.",
+"zh": "机场",
+"level": "a2"
+},
+{
+"word": "baby",
+"pos": "n.m.",
+"zh": "婴儿（口语）",
+"level": "a2"
+},
+{
+"word": "baby-sitter",
+"pos": "n.f.",
+"zh": "临时保姆",
+"level": "a2"
+},
+{
+"word": "bacon",
+"pos": "n.m.",
+"zh": "培根",
+"level": "a2"
+},
+{
+"word": "bagage",
+"pos": "n.m.",
+"zh": "行李",
+"level": "a2"
+},
+{
+"word": "bagarre",
+"pos": "n.f.",
+"zh": "打架；斗殴",
+"level": "a2"
+},
+{
+"word": "bague",
+"pos": "n.f.",
+"zh": "戒指",
+"level": "a2"
+},
+{
+"word": "bah",
+"pos": "interj.",
+"zh": "哼；得了吧（语气词）",
+"level": "a2"
+},
+{
+"word": "baignoire",
+"pos": "n.f.",
+"zh": "浴缸",
+"level": "a2"
+},
+{
+"word": "bain",
+"pos": "n.m.",
+"zh": "洗澡；沐浴",
+"level": "a2"
+},
+{
+"word": "baiser",
+"pos": "v.",
+"zh": "吻；性交（粗俗）",
+"level": "a2"
+},
+{
+"word": "baisser",
+"pos": "v.",
+"zh": "放下；降低；低头",
+"level": "a2"
+},
+{
+"word": "bal",
+"pos": "n.m.",
+"zh": "舞会",
+"level": "a2"
+},
+{
+"word": "balade",
+"pos": "n.f.",
+"zh": "漫步；兜风",
+"level": "a2"
+},
+{
+"word": "balai",
+"pos": "n.m.",
+"zh": "扫帚",
+"level": "a2"
+},
+{
+"word": "balance",
+"pos": "n.f.",
+"zh": "秤；天平",
+"level": "a2"
+},
+{
+"word": "balancer",
+"pos": "v.",
+"zh": "摇摆；抛（口语）",
+"level": "a2"
+},
+{
+"word": "balançoire",
+"pos": "n.f.",
+"zh": "秋千",
+"level": "a2"
+},
+{
+"word": "balcon",
+"pos": "n.m.",
+"zh": "阳台",
+"level": "a2"
+},
+{
+"word": "baleine",
+"pos": "n.f.",
+"zh": "鲸鱼",
+"level": "a2"
+},
+{
+"word": "balle",
+"pos": "n.f.",
+"zh": "球；子弹",
+"level": "a2"
+},
+{
+"word": "ballet",
+"pos": "n.m.",
+"zh": "芭蕾舞",
+"level": "a2"
+},
+{
+"word": "banc",
+"pos": "n.m.",
+"zh": "长凳；长椅",
+"level": "a2"
+},
+{
+"word": "bar",
+"pos": "n.m.",
+"zh": "酒吧",
+"level": "a2"
+},
+{
+"word": "barbe",
+"pos": "n.",
+"zh": "胡子",
+"level": "a2"
+},
+{
+"word": "barbecue",
+"pos": "n.m.",
+"zh": "烤架；烧烤",
+"level": "a2"
+},
+{
+"word": "barman",
+"pos": "n.m.",
+"zh": "酒保；调酒师",
+"level": "a2"
+},
+{
+"word": "barre",
+"pos": "n.f.",
+"zh": "杆；杠；条状物",
+"level": "a2"
+},
+{
+"word": "barrière",
+"pos": "n.f.",
+"zh": "栅栏；障碍；屏障",
+"level": "a2"
+},
+{
+"word": "bas",
+"pos": "adj.",
+"zh": "低的；矮的",
+"level": "a2"
+},
+{
+"word": "base",
+"pos": "n.f.",
+"zh": "基础；基地",
+"level": "a2"
+},
+{
+"word": "base-ball",
+"pos": "n.m.",
+"zh": "棒球",
+"level": "a2"
+},
+{
+"word": "baseball",
+"pos": "n.m.",
+"zh": "棒球",
+"level": "a2"
+},
+{
+"word": "basket",
+"pos": "n.",
+"zh": "篮球；球鞋",
+"level": "a2"
+},
+{
+"word": "batte",
+"pos": "n.f.",
+"zh": "球棒；棍棒",
+"level": "a2"
+},
+{
+"word": "batterie",
+"pos": "n.f.",
+"zh": "电池；架子鼓",
+"level": "a2"
+},
+{
+"word": "battre",
+"pos": "v.",
+"zh": "打；打败；敲打",
+"level": "a2"
+},
+{
+"word": "bavarder",
+"pos": "v.",
+"zh": "闲聊",
+"level": "a2"
+},
+{
+"word": "beau-frère",
+"pos": "n.m.",
+"zh": "姐夫；妹夫；连襟",
+"level": "a2"
+},
+{
+"word": "beau-père",
+"pos": "n.m.",
+"zh": "岳父；继父",
+"level": "a2"
+},
+{
+"word": "bec",
+"pos": "n.m.",
+"zh": "喙；嘴",
+"level": "a2"
+},
+{
+"word": "beignet",
+"pos": "n.m.",
+"zh": "炸面饼",
+"level": "a2"
+},
+{
+"word": "belge",
+"pos": "adj.",
+"zh": "比利时的；比利时人",
+"level": "a2"
+},
+{
+"word": "belle-fille",
+"pos": "n.f.",
+"zh": "儿媳；继女",
+"level": "a2"
+},
+{
+"word": "ben",
+"pos": "n.m.",
+"zh": "嗯；那个（语气词）",
+"level": "a2"
+},
+{
+"word": "beurk",
+"pos": "interj.",
+"zh": "呸（嫌恶声）",
+"level": "a2"
+},
+{
+"word": "bicyclette",
+"pos": "n.f.",
+"zh": "自行车",
+"level": "a2"
+},
+{
+"word": "bienvenu",
+"pos": "n.m.",
+"zh": "欢迎；受欢迎的",
+"level": "a2"
+},
+{
+"word": "bijou",
+"pos": "n.m.",
+"zh": "珠宝；首饰",
+"level": "a2"
+},
+{
+"word": "billet",
+"pos": "n.m.",
+"zh": "票；钞票",
+"level": "a2"
+},
+{
+"word": "bio",
+"pos": "adj.",
+"zh": "有机的；生态的",
+"level": "a2"
+},
+{
+"word": "biologie",
+"pos": "n.f.",
+"zh": "生物学",
+"level": "a2"
+},
+{
+"word": "bise",
+"pos": "n.f.",
+"zh": "亲吻；贴面礼",
+"level": "a2"
+},
+{
+"word": "bison",
+"pos": "n.m.",
+"zh": "野牛",
+"level": "a2"
+},
+{
+"word": "bisou",
+"pos": "n.m.",
+"zh": "亲亲（口语）",
+"level": "a2"
+},
+{
+"word": "bizarrement",
+"pos": "adv.",
+"zh": "奇怪地",
+"level": "a2"
+},
+{
+"word": "bière",
+"pos": "n.f.",
+"zh": "啤酒",
+"level": "a2"
+},
+{
+"word": "blague",
+"pos": "n.f.",
+"zh": "玩笑；笑话",
+"level": "a2"
+},
+{
+"word": "blessure",
+"pos": "n.f.",
+"zh": "伤口",
+"level": "a2"
+},
+{
+"word": "blessé",
+"pos": "n.m.",
+"zh": "伤员；受伤的",
+"level": "a2"
+},
+{
+"word": "blond",
+"pos": "n.m.",
+"zh": "金发的；金发的人",
+"level": "a2"
+},
+{
+"word": "bloquer",
+"pos": "v.",
+"zh": "堵住；封锁",
+"level": "a2"
+},
+{
+"word": "bloqué",
+"pos": "adj.",
+"zh": "被卡的；封锁的；冻结的",
+"level": "a2"
+},
+{
+"word": "blouson",
+"pos": "n.m.",
+"zh": "夹克；短外套",
+"level": "a2"
+},
+{
+"word": "bocal",
+"pos": "n.m.",
+"zh": "广口瓶；罐子",
+"level": "a2"
+},
+{
+"word": "bof",
+"pos": "interj.",
+"zh": "一般般；不怎么样（口语）",
+"level": "a2"
+},
+{
+"word": "bois",
+"pos": "n.m.",
+"zh": "木头；树林",
+"level": "a2"
+},
+{
+"word": "bombe",
+"pos": "n.f.",
+"zh": "炸弹",
+"level": "a2"
+},
+{
+"word": "bonnet",
+"pos": "n.m.",
+"zh": "毛线帽；便帽",
+"level": "a2"
+},
+{
+"word": "bord",
+"pos": "n.m.",
+"zh": "边缘；旁边",
+"level": "a2"
+},
+{
+"word": "boss",
+"pos": "n.m.",
+"zh": "老板（口语）",
+"level": "a2"
+},
+{
+"word": "bosse",
+"pos": "n.",
+"zh": "肿块；隆起",
+"level": "a2"
+}
+]

@@ -1,0 +1,602 @@
+[
+{
+"word": "boxe",
+"pos": "n.f.",
+"zh": "拳击",
+"level": "b1"
+},
+{
+"word": "brancher",
+"pos": "v.",
+"zh": "接上电源；连接",
+"level": "b1"
+},
+{
+"word": "braquer",
+"pos": "v.",
+"zh": "瞄准；用枪对准",
+"level": "b1"
+},
+{
+"word": "brebis",
+"pos": "n.f.",
+"zh": "母羊",
+"level": "b1"
+},
+{
+"word": "bref",
+"pos": "adv.",
+"zh": "简言之；简短的",
+"level": "b1"
+},
+{
+"word": "brevet",
+"pos": "n.m.",
+"zh": "专利；文凭",
+"level": "b1"
+},
+{
+"word": "bricoler",
+"pos": "v.",
+"zh": "做零活；摆弄修理",
+"level": "b1"
+},
+{
+"word": "brigade",
+"pos": "n.f.",
+"zh": "旅；（警察）分队",
+"level": "b1"
+},
+{
+"word": "brioche",
+"pos": "n.f.",
+"zh": "奶油圆面包",
+"level": "b1"
+},
+{
+"word": "brise",
+"pos": "n.f.",
+"zh": "微风",
+"level": "b1"
+},
+{
+"word": "briser",
+"pos": "v.",
+"zh": "打碎；打破；击碎",
+"level": "b1"
+},
+{
+"word": "brochette",
+"pos": "n.f.",
+"zh": "肉串；一串",
+"level": "b1"
+},
+{
+"word": "brochure",
+"pos": "n.f.",
+"zh": "小册子",
+"level": "b1"
+},
+{
+"word": "broder",
+"pos": "v.",
+"zh": "绣花；刺绣",
+"level": "b1"
+},
+{
+"word": "bronze",
+"pos": "n.m.",
+"zh": "青铜；铜像",
+"level": "b1"
+},
+{
+"word": "bronzer",
+"pos": "v.",
+"zh": "晒黑；晒太阳",
+"level": "b1"
+},
+{
+"word": "bronzé",
+"pos": "adj.",
+"zh": "晒黑的",
+"level": "b1"
+},
+{
+"word": "brouiller",
+"pos": "v.",
+"zh": "弄乱；使关系不和",
+"level": "b1"
+},
+{
+"word": "brouillé",
+"pos": "adj.",
+"zh": "闹翻的；模糊的",
+"level": "b1"
+},
+{
+"word": "brune",
+"pos": "n.f.",
+"zh": "黑发女子；深褐色的",
+"level": "b1"
+},
+{
+"word": "brusquement",
+"pos": "adv.",
+"zh": "突然地；唐突地",
+"level": "b1"
+},
+{
+"word": "brut",
+"pos": "adj.",
+"zh": "未加工的；粗制的",
+"level": "b1"
+},
+{
+"word": "brutal",
+"pos": "adj.",
+"zh": "粗暴的；野蛮的",
+"level": "b1"
+},
+{
+"word": "brutalement",
+"pos": "adv.",
+"zh": "粗暴地；猛然",
+"level": "b1"
+},
+{
+"word": "brutalité",
+"pos": "n.f.",
+"zh": "残暴；粗暴",
+"level": "b1"
+},
+{
+"word": "brute",
+"pos": "n.f.",
+"zh": "蛮横的人；恶汉",
+"level": "b1"
+},
+{
+"word": "buffet",
+"pos": "n.m.",
+"zh": "餐边柜；自助餐",
+"level": "b1"
+},
+{
+"word": "bulldozer",
+"pos": "n.m.",
+"zh": "推土机",
+"level": "b1"
+},
+{
+"word": "bulletin",
+"pos": "n.m.",
+"zh": "公报；简报；通知单",
+"level": "b1"
+},
+{
+"word": "business",
+"pos": "n.m.",
+"zh": "生意；商务（借词）",
+"level": "b1"
+},
+{
+"word": "but",
+"pos": "n.m.",
+"zh": "目标；进球",
+"level": "b1"
+},
+{
+"word": "buveur",
+"pos": "n.m.",
+"zh": "饮酒者",
+"level": "b1"
+},
+{
+"word": "bâtir",
+"pos": "v.",
+"zh": "建造",
+"level": "b1"
+},
+{
+"word": "bénir",
+"pos": "v.",
+"zh": "祝福；保佑",
+"level": "b1"
+},
+{
+"word": "bénédiction",
+"pos": "n.f.",
+"zh": "祝福；恩赐",
+"level": "b1"
+},
+{
+"word": "bénéfice",
+"pos": "n.m.",
+"zh": "利润；好处",
+"level": "b1"
+},
+{
+"word": "bénéficier",
+"pos": "v.",
+"zh": "受益；享有",
+"level": "b1"
+},
+{
+"word": "béquille",
+"pos": "n.f.",
+"zh": "拐杖",
+"level": "b1"
+},
+{
+"word": "bêtise",
+"pos": "n.f.",
+"zh": "蠢事；蠢话",
+"level": "b1"
+},
+{
+"word": "bûche",
+"pos": "n.f.",
+"zh": "木柴；劈柴",
+"level": "b1"
+},
+{
+"word": "bûcheron",
+"pos": "n.m.",
+"zh": "伐木工",
+"level": "b1"
+},
+{
+"word": "cabinet",
+"pos": "n.m.",
+"zh": "事务所；诊室；内阁",
+"level": "b1"
+},
+{
+"word": "cachette",
+"pos": "n.f.",
+"zh": "藏身处；密藏处",
+"level": "b1"
+},
+{
+"word": "cadavre",
+"pos": "n.m.",
+"zh": "尸体",
+"level": "b1"
+},
+{
+"word": "cadre",
+"pos": "n.m.",
+"zh": "框架；主管",
+"level": "b1"
+},
+{
+"word": "cake",
+"pos": "n.m.",
+"zh": "果料蛋糕",
+"level": "b1"
+},
+{
+"word": "caleçon",
+"pos": "n.m.",
+"zh": "内裤；衬裤",
+"level": "b1"
+},
+{
+"word": "cambriolage",
+"pos": "n.m.",
+"zh": "入室盗窃",
+"level": "b1"
+},
+{
+"word": "cambrioleur",
+"pos": "n.m.",
+"zh": "窃贼",
+"level": "b1"
+},
+{
+"word": "camionnette",
+"pos": "n.f.",
+"zh": "小货车；面包车",
+"level": "b1"
+},
+{
+"word": "camionneur",
+"pos": "n.m.",
+"zh": "卡车司机",
+"level": "b1"
+},
+{
+"word": "camouflage",
+"pos": "n.m.",
+"zh": "伪装",
+"level": "b1"
+},
+{
+"word": "canal",
+"pos": "n.m.",
+"zh": "运河；频道",
+"level": "b1"
+},
+{
+"word": "cancer",
+"pos": "n.m.",
+"zh": "癌；癌症",
+"level": "b1"
+},
+{
+"word": "candidat",
+"pos": "n.m.",
+"zh": "候选人；考生",
+"level": "b1"
+},
+{
+"word": "candidature",
+"pos": "n.f.",
+"zh": "候选资格；申请",
+"level": "b1"
+},
+{
+"word": "canon",
+"pos": "n.m.",
+"zh": "大炮",
+"level": "b1"
+},
+{
+"word": "canyon",
+"pos": "n.m.",
+"zh": "峡谷",
+"level": "b1"
+},
+{
+"word": "caoutchouc",
+"pos": "n.m.",
+"zh": "橡胶",
+"level": "b1"
+},
+{
+"word": "cap",
+"pos": "n.m.",
+"zh": "航向；目标；海角",
+"level": "b1"
+},
+{
+"word": "capacité",
+"pos": "n.f.",
+"zh": "能力；容量",
+"level": "b1"
+},
+{
+"word": "capitalisme",
+"pos": "n.m.",
+"zh": "资本主义",
+"level": "b1"
+},
+{
+"word": "capituler",
+"pos": "v.",
+"zh": "投降",
+"level": "b1"
+},
+{
+"word": "caporal",
+"pos": "n.m.",
+"zh": "下士（军衔）",
+"level": "b1"
+},
+{
+"word": "capricieux",
+"pos": "adj.",
+"zh": "任性的；反复无常的",
+"level": "b1"
+},
+{
+"word": "capteur",
+"pos": "n.m.",
+"zh": "传感器",
+"level": "b1"
+},
+{
+"word": "capture",
+"pos": "n.f.",
+"zh": "捕获；抓获",
+"level": "b1"
+},
+{
+"word": "capturer",
+"pos": "v.",
+"zh": "捕获；捉住",
+"level": "b1"
+},
+{
+"word": "caractéristique",
+"pos": "n.f.",
+"zh": "特征；特性",
+"level": "b1"
+},
+{
+"word": "caravane",
+"pos": "n.f.",
+"zh": "房车；车队",
+"level": "b1"
+},
+{
+"word": "carbone",
+"pos": "n.m.",
+"zh": "碳",
+"level": "b1"
+},
+{
+"word": "carburant",
+"pos": "n.m.",
+"zh": "燃料；燃油",
+"level": "b1"
+},
+{
+"word": "cardiaque",
+"pos": "adj.",
+"zh": "心脏的；心脏病患者",
+"level": "b1"
+},
+{
+"word": "caresse",
+"pos": "n.f.",
+"zh": "抚摸；爱抚",
+"level": "b1"
+},
+{
+"word": "cargo",
+"pos": "n.m.",
+"zh": "货船；货机",
+"level": "b1"
+},
+{
+"word": "carreau",
+"pos": "n.m.",
+"zh": "瓷砖；窗玻璃",
+"level": "b1"
+},
+{
+"word": "carrefour",
+"pos": "n.m.",
+"zh": "十字路口",
+"level": "b1"
+},
+{
+"word": "carrément",
+"pos": "adv.",
+"zh": "干脆；完全；直截了当（口语）",
+"level": "b1"
+},
+{
+"word": "cascade",
+"pos": "n.f.",
+"zh": "瀑布；特技动作",
+"level": "b1"
+},
+{
+"word": "cash",
+"pos": "adv.",
+"zh": "现金（口语）",
+"level": "b1"
+},
+{
+"word": "casier",
+"pos": "n.m.",
+"zh": "储物柜；格架",
+"level": "b1"
+},
+{
+"word": "casino",
+"pos": "n.m.",
+"zh": "赌场",
+"level": "b1"
+},
+{
+"word": "catalogue",
+"pos": "n.m.",
+"zh": "目录；目录册",
+"level": "b1"
+},
+{
+"word": "catastrophique",
+"pos": "adj.",
+"zh": "灾难性的；极糟的",
+"level": "b1"
+},
+{
+"word": "catholique",
+"pos": "adj.",
+"zh": "天主教的；天主教徒",
+"level": "b1"
+},
+{
+"word": "causer",
+"pos": "v.",
+"zh": "引起；导致；闲聊",
+"level": "b1"
+},
+{
+"word": "cavalier",
+"pos": "n.m.",
+"zh": "骑手；骑士",
+"level": "b1"
+},
+{
+"word": "cave",
+"pos": "n.f.",
+"zh": "地窖；酒窖",
+"level": "b1"
+},
+{
+"word": "caviar",
+"pos": "n.m.",
+"zh": "鱼子酱",
+"level": "b1"
+},
+{
+"word": "celles-ci",
+"pos": "pron.",
+"zh": "这些（阴性复数）",
+"level": "b1"
+},
+{
+"word": "cellule",
+"pos": "n.f.",
+"zh": "细胞；小房间",
+"level": "b1"
+},
+{
+"word": "cendre",
+"pos": "n.f.",
+"zh": "灰烬",
+"level": "b1"
+},
+{
+"word": "censure",
+"pos": "n.f.",
+"zh": "审查；查禁",
+"level": "b1"
+},
+{
+"word": "censé",
+"pos": "adj.",
+"zh": "理应；据称",
+"level": "b1"
+},
+{
+"word": "centaine",
+"pos": "n.f.",
+"zh": "约一百；百来个",
+"level": "b1"
+},
+{
+"word": "central",
+"pos": "adj.",
+"zh": "中心的；中央的",
+"level": "b1"
+},
+{
+"word": "centrale",
+"pos": "n.f.",
+"zh": "发电站；总站",
+"level": "b1"
+},
+{
+"word": "cependant",
+"pos": "adv.",
+"zh": "然而；不过",
+"level": "b1"
+},
+{
+"word": "cercueil",
+"pos": "n.m.",
+"zh": "棺材",
+"level": "b1"
+},
+{
+"word": "certes",
+"pos": "adv.",
+"zh": "当然；确实（书面）",
+"level": "b1"
+}
+]

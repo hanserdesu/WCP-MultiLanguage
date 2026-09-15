@@ -1,0 +1,602 @@
+[
+{
+"word": "déjà",
+"pos": "adv.",
+"zh": "已经",
+"level": "a1"
+},
+{
+"word": "désoler",
+"pos": "v.",
+"zh": "使难过；（常用）抱歉",
+"level": "a1"
+},
+{
+"word": "désolé",
+"pos": "adj.",
+"zh": "抱歉的；遗憾的",
+"level": "a1"
+},
+{
+"word": "dîner",
+"pos": "n.m.",
+"zh": "晚饭；正餐",
+"level": "a1"
+},
+{
+"word": "eau",
+"pos": "n.f.",
+"zh": "水；水域",
+"level": "a1"
+},
+{
+"word": "elle",
+"pos": "pron.",
+"zh": "她；它",
+"level": "a1"
+},
+{
+"word": "elle-même",
+"pos": "pron.",
+"zh": "她自己",
+"level": "a1"
+},
+{
+"word": "elles",
+"pos": "pron.",
+"zh": "她们；它们",
+"level": "a1"
+},
+{
+"word": "en",
+"pos": "prép.",
+"zh": "在……里；在……期间",
+"level": "a1"
+},
+{
+"word": "encore",
+"pos": "adv.",
+"zh": "还；再；仍然",
+"level": "a1"
+},
+{
+"word": "enfant",
+"pos": "n.",
+"zh": "孩子；儿童",
+"level": "a1"
+},
+{
+"word": "ensemble",
+"pos": "adv.",
+"zh": "一起；共同",
+"level": "a1"
+},
+{
+"word": "ensuite",
+"pos": "adv.",
+"zh": "然后；接着",
+"level": "a1"
+},
+{
+"word": "entendre",
+"pos": "v.",
+"zh": "听见；听懂",
+"level": "a1"
+},
+{
+"word": "entre",
+"pos": "prép.",
+"zh": "在……之间",
+"level": "a1"
+},
+{
+"word": "entrer",
+"pos": "v.",
+"zh": "进入；进来",
+"level": "a1"
+},
+{
+"word": "envoyer",
+"pos": "v.",
+"zh": "寄；发送",
+"level": "a1"
+},
+{
+"word": "espagnol",
+"pos": "adj.",
+"zh": "西班牙的；西班牙语",
+"level": "a1"
+},
+{
+"word": "est-ce que",
+"pos": "adv.",
+"zh": "（构成疑问句）是不是",
+"level": "a1"
+},
+{
+"word": "et",
+"pos": "conj.",
+"zh": "和；而且",
+"level": "a1"
+},
+{
+"word": "euh",
+"pos": "interj.",
+"zh": "呃（犹豫时的声音）",
+"level": "a1"
+},
+{
+"word": "euro",
+"pos": "n.m.",
+"zh": "欧元",
+"level": "a1"
+},
+{
+"word": "eux",
+"pos": "pron.",
+"zh": "他们（重读）",
+"level": "a1"
+},
+{
+"word": "exactement",
+"pos": "adv.",
+"zh": "恰好；正是",
+"level": "a1"
+},
+{
+"word": "excuser",
+"pos": "v.",
+"zh": "原谅；宽恕",
+"level": "a1"
+},
+{
+"word": "exemple",
+"pos": "n.m.",
+"zh": "例子；榜样",
+"level": "a1"
+},
+{
+"word": "exercice",
+"pos": "n.m.",
+"zh": "练习；锻炼",
+"level": "a1"
+},
+{
+"word": "expliquer",
+"pos": "v.",
+"zh": "解释；说明",
+"level": "a1"
+},
+{
+"word": "facile",
+"pos": "adj.",
+"zh": "容易的；轻松的",
+"level": "a1"
+},
+{
+"word": "faim",
+"pos": "n.f.",
+"zh": "饿；饥饿",
+"level": "a1"
+},
+{
+"word": "faire",
+"pos": "v.",
+"zh": "做；干；使",
+"level": "a1"
+},
+{
+"word": "falloir",
+"pos": "v.",
+"zh": "必须；需要",
+"level": "a1"
+},
+{
+"word": "famille",
+"pos": "n.f.",
+"zh": "家庭；家人",
+"level": "a1"
+},
+{
+"word": "fatigue",
+"pos": "n.f.",
+"zh": "疲劳；疲倦",
+"level": "a1"
+},
+{
+"word": "fatigué",
+"pos": "adj.",
+"zh": "累的；疲倦的",
+"level": "a1"
+},
+{
+"word": "femme",
+"pos": "n.f.",
+"zh": "女人；妻子",
+"level": "a1"
+},
+{
+"word": "fenêtre",
+"pos": "n.f.",
+"zh": "窗；窗户",
+"level": "a1"
+},
+{
+"word": "fermer",
+"pos": "v.",
+"zh": "关；关闭；合上",
+"level": "a1"
+},
+{
+"word": "fermé",
+"pos": "adj.",
+"zh": "关闭的；闭着的",
+"level": "a1"
+},
+{
+"word": "fille",
+"pos": "n.f.",
+"zh": "女孩；女儿",
+"level": "a1"
+},
+{
+"word": "film",
+"pos": "n.m.",
+"zh": "电影；影片",
+"level": "a1"
+},
+{
+"word": "fils",
+"pos": "n.m.",
+"zh": "儿子",
+"level": "a1"
+},
+{
+"word": "finir",
+"pos": "v.",
+"zh": "结束；完成",
+"level": "a1"
+},
+{
+"word": "fleur",
+"pos": "n.f.",
+"zh": "花；花朵",
+"level": "a1"
+},
+{
+"word": "fois",
+"pos": "n.f.",
+"zh": "次；倍；回",
+"level": "a1"
+},
+{
+"word": "foot",
+"pos": "n.m.",
+"zh": "足球（口语）",
+"level": "a1"
+},
+{
+"word": "football",
+"pos": "n.m.",
+"zh": "足球",
+"level": "a1"
+},
+{
+"word": "fort",
+"pos": "adv.",
+"zh": "强壮的；强烈的；大声地",
+"level": "a1"
+},
+{
+"word": "fourchette",
+"pos": "n.f.",
+"zh": "叉子",
+"level": "a1"
+},
+{
+"word": "fraise",
+"pos": "n.f.",
+"zh": "草莓",
+"level": "a1"
+},
+{
+"word": "français",
+"pos": "adj.",
+"zh": "法国的；法语的；法国人",
+"level": "a1"
+},
+{
+"word": "froid",
+"pos": "adj.",
+"zh": "冷的；寒冷的",
+"level": "a1"
+},
+{
+"word": "fromage",
+"pos": "n.m.",
+"zh": "奶酪",
+"level": "a1"
+},
+{
+"word": "fruit",
+"pos": "n.m.",
+"zh": "水果；成果",
+"level": "a1"
+},
+{
+"word": "frère",
+"pos": "n.m.",
+"zh": "兄弟；哥哥；弟弟",
+"level": "a1"
+},
+{
+"word": "fumer",
+"pos": "v.",
+"zh": "吸烟；抽烟",
+"level": "a1"
+},
+{
+"word": "février",
+"pos": "n.m.",
+"zh": "二月",
+"level": "a1"
+},
+{
+"word": "fête",
+"pos": "n.f.",
+"zh": "节日；庆祝会；聚会",
+"level": "a1"
+},
+{
+"word": "gagner",
+"pos": "v.",
+"zh": "赢得；挣得",
+"level": "a1"
+},
+{
+"word": "garder",
+"pos": "v.",
+"zh": "保管；看守；保持",
+"level": "a1"
+},
+{
+"word": "gare",
+"pos": "n.f.",
+"zh": "火车站",
+"level": "a1"
+},
+{
+"word": "garçon",
+"pos": "n.m.",
+"zh": "男孩；儿子；服务员",
+"level": "a1"
+},
+{
+"word": "gauche",
+"pos": "n.",
+"zh": "左边；左侧；笨拙的",
+"level": "a1"
+},
+{
+"word": "gens",
+"pos": "n.",
+"zh": "人们",
+"level": "a1"
+},
+{
+"word": "gentil",
+"pos": "adj.",
+"zh": "和善的；亲切的；乖的",
+"level": "a1"
+},
+{
+"word": "girafe",
+"pos": "n.f.",
+"zh": "长颈鹿",
+"level": "a1"
+},
+{
+"word": "gramme",
+"pos": "n.m.",
+"zh": "克",
+"level": "a1"
+},
+{
+"word": "grand",
+"pos": "adj.",
+"zh": "大的；高大的",
+"level": "a1"
+},
+{
+"word": "grand-mère",
+"pos": "n.f.",
+"zh": "祖母；外祖母",
+"level": "a1"
+},
+{
+"word": "grand-papa",
+"pos": "n.m.",
+"zh": "爷爷；外公（儿语）",
+"level": "a1"
+},
+{
+"word": "grand-père",
+"pos": "n.m.",
+"zh": "祖父；外祖父",
+"level": "a1"
+},
+{
+"word": "grands-parents",
+"pos": "n.m.",
+"zh": "祖父母；外祖父母",
+"level": "a1"
+},
+{
+"word": "gris",
+"pos": "adj.",
+"zh": "灰色的",
+"level": "a1"
+},
+{
+"word": "gros",
+"pos": "adj.",
+"zh": "胖的；粗的；大的",
+"level": "a1"
+},
+{
+"word": "guitare",
+"pos": "n.f.",
+"zh": "吉他",
+"level": "a1"
+},
+{
+"word": "gâteau",
+"pos": "n.m.",
+"zh": "蛋糕",
+"level": "a1"
+},
+{
+"word": "ha",
+"pos": "interj.",
+"zh": "哈（惊叹声）",
+"level": "a1"
+},
+{
+"word": "habit",
+"pos": "n.m.",
+"zh": "衣服",
+"level": "a1"
+},
+{
+"word": "habiter",
+"pos": "v.",
+"zh": "居住；住在",
+"level": "a1"
+},
+{
+"word": "hamburger",
+"pos": "n.m.",
+"zh": "汉堡包",
+"level": "a1"
+},
+{
+"word": "heure",
+"pos": "n.f.",
+"zh": "小时；钟点；时刻",
+"level": "a1"
+},
+{
+"word": "hier",
+"pos": "adv.",
+"zh": "昨天",
+"level": "a1"
+},
+{
+"word": "histoire",
+"pos": "n.f.",
+"zh": "故事；历史",
+"level": "a1"
+},
+{
+"word": "hiver",
+"pos": "n.m.",
+"zh": "冬天",
+"level": "a1"
+},
+{
+"word": "homme",
+"pos": "n.m.",
+"zh": "男人；人",
+"level": "a1"
+},
+{
+"word": "huile",
+"pos": "n.f.",
+"zh": "油；油脂",
+"level": "a1"
+},
+{
+"word": "huit",
+"pos": "adj.",
+"zh": "八",
+"level": "a1"
+},
+{
+"word": "hôpital",
+"pos": "n.m.",
+"zh": "医院",
+"level": "a1"
+},
+{
+"word": "hôtel",
+"pos": "n.m.",
+"zh": "旅馆；酒店",
+"level": "a1"
+},
+{
+"word": "ici",
+"pos": "adv.",
+"zh": "这里",
+"level": "a1"
+},
+{
+"word": "idée",
+"pos": "n.f.",
+"zh": "主意；想法",
+"level": "a1"
+},
+{
+"word": "il",
+"pos": "pron.",
+"zh": "他；它",
+"level": "a1"
+},
+{
+"word": "ils",
+"pos": "pron.",
+"zh": "他们",
+"level": "a1"
+},
+{
+"word": "important",
+"pos": "adj.",
+"zh": "重要的；重大的",
+"level": "a1"
+},
+{
+"word": "impossible",
+"pos": "adj.",
+"zh": "不可能的",
+"level": "a1"
+},
+{
+"word": "intelligent",
+"pos": "adj.",
+"zh": "聪明的",
+"level": "a1"
+},
+{
+"word": "intéressant",
+"pos": "adj.",
+"zh": "有趣的",
+"level": "a1"
+},
+{
+"word": "intéresser",
+"pos": "v.",
+"zh": "使感兴趣",
+"level": "a1"
+},
+{
+"word": "inviter",
+"pos": "v.",
+"zh": "邀请；招待",
+"level": "a1"
+},
+{
+"word": "italien",
+"pos": "adj.",
+"zh": "意大利的；意大利人",
+"level": "a1"
+}
+]

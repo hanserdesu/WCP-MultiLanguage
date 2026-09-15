@@ -1,0 +1,602 @@
+[
+{
+"word": "accommoder",
+"pos": "v.",
+"zh": "烹制；使适应",
+"level": "b2"
+},
+{
+"word": "accompli",
+"pos": "adj.",
+"zh": "完成的；圆满的",
+"level": "b2"
+},
+{
+"word": "accoupler",
+"pos": "v.",
+"zh": "使交配；使成对",
+"level": "b2"
+},
+{
+"word": "accourir",
+"pos": "v.",
+"zh": "跑来；赶来",
+"level": "b2"
+},
+{
+"word": "accro",
+"pos": "adj.",
+"zh": "上瘾的；着迷的",
+"level": "b2"
+},
+{
+"word": "accrochage",
+"pos": "n.m.",
+"zh": "碰撞（车辆）；口角",
+"level": "b2"
+},
+{
+"word": "accroître",
+"pos": "v.",
+"zh": "增加；增长",
+"level": "b2"
+},
+{
+"word": "accélérateur",
+"pos": "n.m.",
+"zh": "加速器；油门",
+"level": "b2"
+},
+{
+"word": "acharner",
+"pos": "v.",
+"zh": "猛攻；发狠",
+"level": "b2"
+},
+{
+"word": "acheteur",
+"pos": "n.m.",
+"zh": "买家；买主",
+"level": "b2"
+},
+{
+"word": "achever",
+"pos": "v.",
+"zh": "完成；结束",
+"level": "b2"
+},
+{
+"word": "acide",
+"pos": "n.m.",
+"zh": "酸；酸的；尖刻的",
+"level": "b2"
+},
+{
+"word": "aciérie",
+"pos": "n.f.",
+"zh": "炼钢厂",
+"level": "b2"
+},
+{
+"word": "acompte",
+"pos": "n.m.",
+"zh": "定金；分期付款",
+"level": "b2"
+},
+{
+"word": "acquisition",
+"pos": "n.f.",
+"zh": "获得；购置",
+"level": "b2"
+},
+{
+"word": "acquitter",
+"pos": "v.",
+"zh": "宣判无罪；清偿",
+"level": "b2"
+},
+{
+"word": "acquérir",
+"pos": "v.",
+"zh": "获得；购得",
+"level": "b2"
+},
+{
+"word": "actionnaire",
+"pos": "n.",
+"zh": "股东",
+"level": "b2"
+},
+{
+"word": "activation",
+"pos": "n.f.",
+"zh": "激活；启动",
+"level": "b2"
+},
+{
+"word": "activer",
+"pos": "v.",
+"zh": "使加速；激活",
+"level": "b2"
+},
+{
+"word": "activé",
+"pos": "adj.",
+"zh": "已激活的；接通的",
+"level": "b2"
+},
+{
+"word": "adjoint",
+"pos": "n.m.",
+"zh": "副手；助理",
+"level": "b2"
+},
+{
+"word": "adjudant",
+"pos": "n.m.",
+"zh": "军士（军衔）",
+"level": "b2"
+},
+{
+"word": "administrer",
+"pos": "v.",
+"zh": "管理；投药",
+"level": "b2"
+},
+{
+"word": "admirable",
+"pos": "adj.",
+"zh": "令人赞叹的",
+"level": "b2"
+},
+{
+"word": "adoptif",
+"pos": "adj.",
+"zh": "收养的",
+"level": "b2"
+},
+{
+"word": "adoucir",
+"pos": "v.",
+"zh": "使柔和；缓和",
+"level": "b2"
+},
+{
+"word": "adrénaline",
+"pos": "n.f.",
+"zh": "肾上腺素",
+"level": "b2"
+},
+{
+"word": "adultère",
+"pos": "n.m.",
+"zh": "通奸",
+"level": "b2"
+},
+{
+"word": "advenir",
+"pos": "v.",
+"zh": "发生（书面）",
+"level": "b2"
+},
+{
+"word": "adéquat",
+"pos": "adj.",
+"zh": "适当的；足够的",
+"level": "b2"
+},
+{
+"word": "affaiblir",
+"pos": "v.",
+"zh": "削弱；使衰弱",
+"level": "b2"
+},
+{
+"word": "affairer",
+"pos": "v.",
+"zh": "奔忙；操劳",
+"level": "b2"
+},
+{
+"word": "affamer",
+"pos": "v.",
+"zh": "使挨饿",
+"level": "b2"
+},
+{
+"word": "affectation",
+"pos": "n.f.",
+"zh": "分配；做作",
+"level": "b2"
+},
+{
+"word": "affecter",
+"pos": "v.",
+"zh": "影响；分配；使悲痛",
+"level": "b2"
+},
+{
+"word": "affectueux",
+"pos": "adj.",
+"zh": "深情的；亲切的",
+"level": "b2"
+},
+{
+"word": "affliger",
+"pos": "v.",
+"zh": "使悲痛；使苦恼",
+"level": "b2"
+},
+{
+"word": "affront",
+"pos": "n.m.",
+"zh": "侮辱；冒犯",
+"level": "b2"
+},
+{
+"word": "agacer",
+"pos": "v.",
+"zh": "惹恼；使烦躁",
+"level": "b2"
+},
+{
+"word": "agenouiller",
+"pos": "v.",
+"zh": "（使）跪下",
+"level": "b2"
+},
+{
+"word": "agile",
+"pos": "adj.",
+"zh": "敏捷的；灵活的",
+"level": "b2"
+},
+{
+"word": "agitation",
+"pos": "n.f.",
+"zh": "骚动；激动",
+"level": "b2"
+},
+{
+"word": "agonie",
+"pos": "n.f.",
+"zh": "垂死；极度痛苦",
+"level": "b2"
+},
+{
+"word": "agresser",
+"pos": "v.",
+"zh": "袭击；侵犯",
+"level": "b2"
+},
+{
+"word": "agresseur",
+"pos": "n.m.",
+"zh": "侵犯者；攻击者",
+"level": "b2"
+},
+{
+"word": "agressivité",
+"pos": "n.f.",
+"zh": "攻击性；好斗",
+"level": "b2"
+},
+{
+"word": "agripper",
+"pos": "v.",
+"zh": "紧紧抓住",
+"level": "b2"
+},
+{
+"word": "aigu",
+"pos": "adj.",
+"zh": "尖的；尖锐的",
+"level": "b2"
+},
+{
+"word": "aiguiser",
+"pos": "v.",
+"zh": "磨快；使敏锐",
+"level": "b2"
+},
+{
+"word": "aire",
+"pos": "n.f.",
+"zh": "场地；（高速路）服务区",
+"level": "b2"
+},
+{
+"word": "aise",
+"pos": "n.f.",
+"zh": "自在；安逸",
+"level": "b2"
+},
+{
+"word": "aisément",
+"pos": "adv.",
+"zh": "轻而易举地",
+"level": "b2"
+},
+{
+"word": "alchimiste",
+"pos": "n.",
+"zh": "炼金术士",
+"level": "b2"
+},
+{
+"word": "alentour",
+"pos": "adv.",
+"zh": "在周围；四周",
+"level": "b2"
+},
+{
+"word": "alerter",
+"pos": "v.",
+"zh": "报警；使警觉",
+"level": "b2"
+},
+{
+"word": "alias",
+"pos": "adv.",
+"zh": "别名；又名",
+"level": "b2"
+},
+{
+"word": "alibi",
+"pos": "n.m.",
+"zh": "不在场证明；托词",
+"level": "b2"
+},
+{
+"word": "allier",
+"pos": "v.",
+"zh": "使结合；使联合",
+"level": "b2"
+},
+{
+"word": "allocation",
+"pos": "n.f.",
+"zh": "津贴；补助",
+"level": "b2"
+},
+{
+"word": "allusion",
+"pos": "n.f.",
+"zh": "暗指；影射",
+"level": "b2"
+},
+{
+"word": "alléger",
+"pos": "v.",
+"zh": "减轻；使变轻",
+"level": "b2"
+},
+{
+"word": "alléluia",
+"pos": "interj.",
+"zh": "哈利路亚",
+"level": "b2"
+},
+{
+"word": "alpha",
+"pos": "n.m.",
+"zh": "希腊字母首字；开端",
+"level": "b2"
+},
+{
+"word": "altesse",
+"pos": "n.f.",
+"zh": "殿下（尊称）",
+"level": "b2"
+},
+{
+"word": "altitude",
+"pos": "n.f.",
+"zh": "海拔；高度",
+"level": "b2"
+},
+{
+"word": "altérer",
+"pos": "v.",
+"zh": "改变；使变质；使口渴",
+"level": "b2"
+},
+{
+"word": "amabilité",
+"pos": "n.f.",
+"zh": "和蔼；客气",
+"level": "b2"
+},
+{
+"word": "amasser",
+"pos": "v.",
+"zh": "积攒；堆积",
+"level": "b2"
+},
+{
+"word": "ambulant",
+"pos": "adj.",
+"zh": "流动的；巡回的",
+"level": "b2"
+},
+{
+"word": "amendement",
+"pos": "n.m.",
+"zh": "（法案）修正案",
+"level": "b2"
+},
+{
+"word": "amer",
+"pos": "adj.",
+"zh": "苦的；辛酸的",
+"level": "b2"
+},
+{
+"word": "amertume",
+"pos": "n.f.",
+"zh": "苦味；辛酸；怨恨",
+"level": "b2"
+},
+{
+"word": "amigo",
+"pos": "n.m.",
+"zh": "朋友（西语借词，口语）",
+"level": "b2"
+},
+{
+"word": "amnistie",
+"pos": "n.f.",
+"zh": "大赦",
+"level": "b2"
+},
+{
+"word": "amnésie",
+"pos": "n.f.",
+"zh": "失忆；遗忘症",
+"level": "b2"
+},
+{
+"word": "amnésique",
+"pos": "adj.",
+"zh": "失忆的",
+"level": "b2"
+},
+{
+"word": "amocher",
+"pos": "v.",
+"zh": "打伤；揍坏（口语）",
+"level": "b2"
+},
+{
+"word": "amorcer",
+"pos": "v.",
+"zh": "开始；引发；装饵",
+"level": "b2"
+},
+{
+"word": "amour-propre",
+"pos": "n.m.",
+"zh": "自尊心",
+"level": "b2"
+},
+{
+"word": "ampleur",
+"pos": "n.f.",
+"zh": "规模；幅度",
+"level": "b2"
+},
+{
+"word": "amputer",
+"pos": "v.",
+"zh": "截肢；削减",
+"level": "b2"
+},
+{
+"word": "amulette",
+"pos": "n.f.",
+"zh": "护身符",
+"level": "b2"
+},
+{
+"word": "anal",
+"pos": "adj.",
+"zh": "肛门的",
+"level": "b2"
+},
+{
+"word": "anarchie",
+"pos": "n.f.",
+"zh": "无政府状态；混乱",
+"level": "b2"
+},
+{
+"word": "anatomie",
+"pos": "n.f.",
+"zh": "解剖；构造",
+"level": "b2"
+},
+{
+"word": "ancestral",
+"pos": "adj.",
+"zh": "祖传的；古老的",
+"level": "b2"
+},
+{
+"word": "andouille",
+"pos": "n.f.",
+"zh": "猪肉肠；蠢货（口语）",
+"level": "b2"
+},
+{
+"word": "anesthésie",
+"pos": "n.f.",
+"zh": "麻醉",
+"level": "b2"
+},
+{
+"word": "anguille",
+"pos": "n.f.",
+"zh": "鳗鱼",
+"level": "b2"
+},
+{
+"word": "animer",
+"pos": "v.",
+"zh": "使活跃；主持",
+"level": "b2"
+},
+{
+"word": "anomalie",
+"pos": "n.f.",
+"zh": "异常；反常",
+"level": "b2"
+},
+{
+"word": "antidote",
+"pos": "n.m.",
+"zh": "解毒剂",
+"level": "b2"
+},
+{
+"word": "antiquaire",
+"pos": "n.",
+"zh": "古董商",
+"level": "b2"
+},
+{
+"word": "antre",
+"pos": "n.m.",
+"zh": "兽穴；巢穴",
+"level": "b2"
+},
+{
+"word": "antécédent",
+"pos": "n.m.",
+"zh": "先例；病史；前科",
+"level": "b2"
+},
+{
+"word": "antérieur",
+"pos": "adj.",
+"zh": "先前的；前面的",
+"level": "b2"
+},
+{
+"word": "anéantir",
+"pos": "v.",
+"zh": "歼灭；使崩溃",
+"level": "b2"
+},
+{
+"word": "apaiser",
+"pos": "v.",
+"zh": "平息；安抚",
+"level": "b2"
+},
+{
+"word": "apitoyer",
+"pos": "v.",
+"zh": "激起怜悯；同情",
+"level": "b2"
+}
+]

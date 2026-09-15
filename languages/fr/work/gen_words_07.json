@@ -1,0 +1,602 @@
+[
+{
+"word": "absence",
+"pos": "n.f.",
+"zh": "缺席；缺乏",
+"level": "a2"
+},
+{
+"word": "absent",
+"pos": "adj.",
+"zh": "缺席的；心不在焉的",
+"level": "a2"
+},
+{
+"word": "accent",
+"pos": "n.m.",
+"zh": "口音；重音",
+"level": "a2"
+},
+{
+"word": "accepter",
+"pos": "v.",
+"zh": "接受；同意",
+"level": "a2"
+},
+{
+"word": "accessoire",
+"pos": "n.m.",
+"zh": "附件；配饰；次要的",
+"level": "a2"
+},
+{
+"word": "accident",
+"pos": "n.m.",
+"zh": "事故；意外",
+"level": "a2"
+},
+{
+"word": "accrocher",
+"pos": "v.",
+"zh": "挂；钩住",
+"level": "a2"
+},
+{
+"word": "accueillir",
+"pos": "v.",
+"zh": "迎接；接待",
+"level": "a2"
+},
+{
+"word": "accélérer",
+"pos": "v.",
+"zh": "加速",
+"level": "a2"
+},
+{
+"word": "achat",
+"pos": "n.m.",
+"zh": "购买；采购",
+"level": "a2"
+},
+{
+"word": "acteur",
+"pos": "n.m.",
+"zh": "演员",
+"level": "a2"
+},
+{
+"word": "action",
+"pos": "n.f.",
+"zh": "行动；行为",
+"level": "a2"
+},
+{
+"word": "activité",
+"pos": "n.f.",
+"zh": "活动",
+"level": "a2"
+},
+{
+"word": "actuel",
+"pos": "adj.",
+"zh": "目前的；当前的",
+"level": "a2"
+},
+{
+"word": "actuellement",
+"pos": "adv.",
+"zh": "目前；现今",
+"level": "a2"
+},
+{
+"word": "adieu",
+"pos": "n.m.",
+"zh": "告别；永别",
+"level": "a2"
+},
+{
+"word": "admiration",
+"pos": "n.f.",
+"zh": "钦佩；赞赏",
+"level": "a2"
+},
+{
+"word": "admirer",
+"pos": "v.",
+"zh": "欣赏；钦佩",
+"level": "a2"
+},
+{
+"word": "ado",
+"pos": "n.",
+"zh": "青少年（口语）",
+"level": "a2"
+},
+{
+"word": "adorable",
+"pos": "adj.",
+"zh": "可爱的；讨人喜欢的",
+"level": "a2"
+},
+{
+"word": "adresser",
+"pos": "v.",
+"zh": "寄给；向…提出",
+"level": "a2"
+},
+{
+"word": "adulte",
+"pos": "n.",
+"zh": "成年人；成年的",
+"level": "a2"
+},
+{
+"word": "affaire",
+"pos": "n.f.",
+"zh": "事情；事务；生意",
+"level": "a2"
+},
+{
+"word": "affiche",
+"pos": "n.f.",
+"zh": "海报；招贴",
+"level": "a2"
+},
+{
+"word": "affreux",
+"pos": "adj.",
+"zh": "可怕的；讨厌的",
+"level": "a2"
+},
+{
+"word": "africain",
+"pos": "adj.",
+"zh": "非洲的；非洲人",
+"level": "a2"
+},
+{
+"word": "agence",
+"pos": "n.f.",
+"zh": "事务所；中介机构",
+"level": "a2"
+},
+{
+"word": "agenda",
+"pos": "n.m.",
+"zh": "日程本；日程安排",
+"level": "a2"
+},
+{
+"word": "agiter",
+"pos": "v.",
+"zh": "摇动；使不安",
+"level": "a2"
+},
+{
+"word": "agneau",
+"pos": "n.m.",
+"zh": "羔羊；羊肉",
+"level": "a2"
+},
+{
+"word": "agrandir",
+"pos": "v.",
+"zh": "扩大；放大",
+"level": "a2"
+},
+{
+"word": "agréable",
+"pos": "adj.",
+"zh": "令人愉快的；宜人的",
+"level": "a2"
+},
+{
+"word": "aiguille",
+"pos": "n.f.",
+"zh": "针；指针",
+"level": "a2"
+},
+{
+"word": "ail",
+"pos": "n.m.",
+"zh": "大蒜",
+"level": "a2"
+},
+{
+"word": "aile",
+"pos": "n.f.",
+"zh": "翅膀；翼",
+"level": "a2"
+},
+{
+"word": "ailleurs",
+"pos": "adv.",
+"zh": "在别处",
+"level": "a2"
+},
+{
+"word": "aimable",
+"pos": "adj.",
+"zh": "和蔼的；亲切的",
+"level": "a2"
+},
+{
+"word": "aimé",
+"pos": "adj.",
+"zh": "心爱的；受爱戴的",
+"level": "a2"
+},
+{
+"word": "air",
+"pos": "n.m.",
+"zh": "空气；样子；神态",
+"level": "a2"
+},
+{
+"word": "ajouter",
+"pos": "v.",
+"zh": "添加；补充",
+"level": "a2"
+},
+{
+"word": "alarme",
+"pos": "n.f.",
+"zh": "警报；警报器",
+"level": "a2"
+},
+{
+"word": "album",
+"pos": "n.m.",
+"zh": "专辑；相册",
+"level": "a2"
+},
+{
+"word": "alcool",
+"pos": "n.m.",
+"zh": "酒精；酒",
+"level": "a2"
+},
+{
+"word": "aller-retour",
+"pos": "n.m.",
+"zh": "往返；来回票",
+"level": "a2"
+},
+{
+"word": "allonger",
+"pos": "v.",
+"zh": "加长；伸长；躺下",
+"level": "a2"
+},
+{
+"word": "allongé",
+"pos": "adj.",
+"zh": "躺着的；拉长的",
+"level": "a2"
+},
+{
+"word": "allumer",
+"pos": "v.",
+"zh": "点燃；打开（电）",
+"level": "a2"
+},
+{
+"word": "allumette",
+"pos": "n.f.",
+"zh": "火柴",
+"level": "a2"
+},
+{
+"word": "allumé",
+"pos": "adj.",
+"zh": "点亮的；点燃的",
+"level": "a2"
+},
+{
+"word": "allée",
+"pos": "n.f.",
+"zh": "小路；过道",
+"level": "a2"
+},
+{
+"word": "aluminium",
+"pos": "n.m.",
+"zh": "铝（金属）",
+"level": "a2"
+},
+{
+"word": "amande",
+"pos": "n.f.",
+"zh": "杏仁",
+"level": "a2"
+},
+{
+"word": "ambiance",
+"pos": "n.f.",
+"zh": "气氛；氛围",
+"level": "a2"
+},
+{
+"word": "ambulance",
+"pos": "n.f.",
+"zh": "救护车",
+"level": "a2"
+},
+{
+"word": "amener",
+"pos": "v.",
+"zh": "带来；领来；导致",
+"level": "a2"
+},
+{
+"word": "amitié",
+"pos": "n.f.",
+"zh": "友谊",
+"level": "a2"
+},
+{
+"word": "amoureux",
+"pos": "adj.",
+"zh": "恋爱的；热恋的",
+"level": "a2"
+},
+{
+"word": "ampoule",
+"pos": "n.f.",
+"zh": "灯泡；水疱",
+"level": "a2"
+},
+{
+"word": "amusant",
+"pos": "adj.",
+"zh": "好玩的；有趣的",
+"level": "a2"
+},
+{
+"word": "amuser",
+"pos": "v.",
+"zh": "逗乐；使开心",
+"level": "a2"
+},
+{
+"word": "améliorer",
+"pos": "v.",
+"zh": "改善；改进",
+"level": "a2"
+},
+{
+"word": "analyse",
+"pos": "n.f.",
+"zh": "分析",
+"level": "a2"
+},
+{
+"word": "ancien",
+"pos": "adj.",
+"zh": "古老的；从前的",
+"level": "a2"
+},
+{
+"word": "ange",
+"pos": "n.m.",
+"zh": "天使",
+"level": "a2"
+},
+{
+"word": "animal",
+"pos": "n.m.",
+"zh": "动物；野兽",
+"level": "a2"
+},
+{
+"word": "animé",
+"pos": "adj.",
+"zh": "有生气的；热闹的；动画的",
+"level": "a2"
+},
+{
+"word": "annonce",
+"pos": "n.f.",
+"zh": "公告；广告",
+"level": "a2"
+},
+{
+"word": "annoncer",
+"pos": "v.",
+"zh": "宣布；告知",
+"level": "a2"
+},
+{
+"word": "annuler",
+"pos": "v.",
+"zh": "取消",
+"level": "a2"
+},
+{
+"word": "apparemment",
+"pos": "adv.",
+"zh": "看来；似乎",
+"level": "a2"
+},
+{
+"word": "appel",
+"pos": "n.m.",
+"zh": "呼唤；电话；呼吁",
+"level": "a2"
+},
+{
+"word": "applaudir",
+"pos": "v.",
+"zh": "鼓掌",
+"level": "a2"
+},
+{
+"word": "apporter",
+"pos": "v.",
+"zh": "带来；拿来",
+"level": "a2"
+},
+{
+"word": "appuyer",
+"pos": "v.",
+"zh": "按；压；靠",
+"level": "a2"
+},
+{
+"word": "appétit",
+"pos": "n.m.",
+"zh": "食欲",
+"level": "a2"
+},
+{
+"word": "aquarium",
+"pos": "n.m.",
+"zh": "水族馆；鱼缸",
+"level": "a2"
+},
+{
+"word": "arabe",
+"pos": "n.",
+"zh": "阿拉伯的；阿拉伯人",
+"level": "a2"
+},
+{
+"word": "araignée",
+"pos": "n.f.",
+"zh": "蜘蛛",
+"level": "a2"
+},
+{
+"word": "arbitre",
+"pos": "n.",
+"zh": "裁判",
+"level": "a2"
+},
+{
+"word": "arc-en-ciel",
+"pos": "n.m.",
+"zh": "彩虹",
+"level": "a2"
+},
+{
+"word": "architecte",
+"pos": "n.",
+"zh": "建筑师",
+"level": "a2"
+},
+{
+"word": "arme",
+"pos": "n.f.",
+"zh": "武器；兵器",
+"level": "a2"
+},
+{
+"word": "armoire",
+"pos": "n.f.",
+"zh": "衣柜；橱柜",
+"level": "a2"
+},
+{
+"word": "armé",
+"pos": "adj.",
+"zh": "武装的",
+"level": "a2"
+},
+{
+"word": "arrivée",
+"pos": "n.f.",
+"zh": "到达",
+"level": "a2"
+},
+{
+"word": "arrière",
+"pos": "n.m.",
+"zh": "后面；后方",
+"level": "a2"
+},
+{
+"word": "arroser",
+"pos": "v.",
+"zh": "浇水；洒",
+"level": "a2"
+},
+{
+"word": "art",
+"pos": "n.m.",
+"zh": "艺术",
+"level": "a2"
+},
+{
+"word": "article",
+"pos": "n.m.",
+"zh": "文章；物品；冠词",
+"level": "a2"
+},
+{
+"word": "artiste",
+"pos": "n.",
+"zh": "艺术家；艺人",
+"level": "a2"
+},
+{
+"word": "aspirateur",
+"pos": "n.m.",
+"zh": "吸尘器",
+"level": "a2"
+},
+{
+"word": "aspirine",
+"pos": "n.f.",
+"zh": "阿司匹林",
+"level": "a2"
+},
+{
+"word": "assistant",
+"pos": "n.m.",
+"zh": "助理；助手",
+"level": "a2"
+},
+{
+"word": "astuce",
+"pos": "n.f.",
+"zh": "窍门；妙计",
+"level": "a2"
+},
+{
+"word": "attacher",
+"pos": "v.",
+"zh": "系上；绑；拴",
+"level": "a2"
+},
+{
+"word": "attirer",
+"pos": "v.",
+"zh": "吸引",
+"level": "a2"
+},
+{
+"word": "attitude",
+"pos": "n.f.",
+"zh": "态度；姿态",
+"level": "a2"
+},
+{
+"word": "attraper",
+"pos": "v.",
+"zh": "抓住；逮住",
+"level": "a2"
+},
+{
+"word": "au-dessous",
+"pos": "adv.",
+"zh": "在下面；低于",
+"level": "a2"
+},
+{
+"word": "au-dessus",
+"pos": "adv.",
+"zh": "在上面；上方",
+"level": "a2"
+}
+]

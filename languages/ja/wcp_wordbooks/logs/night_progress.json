@@ -1,0 +1,29 @@
+{
+ "time": "2026-09-06 23:40:04",
+ "status": "ok",
+ "elapsed_sec": 3.2,
+ "steps": {
+  "audio_topic": [
+   "待生成 0 个",
+   "本轮完成: ok=0 fail=0, 总进度 1118/1118"
+  ],
+  "audio_kanji": [
+   "待生成 0 个音频",
+   "音频完成 ok=0 fail=0 总 2136/2136"
+  ],
+  "merge_topic": [
+   "{\"it\": 662, \"biz\": 458} untranslated: {\"it\": 0, \"biz\": 0}",
+   "IT用语.xlsx: 662 词",
+   "商务日语.xlsx: 458 词",
+   "wcp_topic.db: pron 1118 词 (去重)"
+  ],
+  "local_db": [
+   "wcpFullEng.db: 补丁已存在(探针 3/3 命中), 跳过 (--force 可强制)",
+   "wcpOnlyWord.db: 补丁已存在(探针 3/3 命中), 跳过 (--force 可强制)"
+  ],
+  "rename": [
+   "书名均为默认(自定义词书一~四), 无需修改"
+  ],
+  "time_left": "33595s"
+ }
+}

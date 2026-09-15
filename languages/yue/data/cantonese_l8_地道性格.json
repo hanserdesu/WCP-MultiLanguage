@@ -1,0 +1,167 @@
+{
+  "level": "L8",
+  "name": "地道性格气质与心理情绪表达",
+  "description": "涵盖广府特色性格描摹、神态刻画与情绪反应口语词汇",
+  "words": [
+    {
+      "word": "牙擦",
+      "jyutping": "ngaa4 caat3",
+      "pos": "形",
+      "meaning": "嚣张，爱吹嘘，狂妄自大",
+      "sentences": [
+        {
+          "sentence": "佢份人好牙擦，成日自誇。（keoi5 fan6 jan4 hou2 ngaa4 caat3, seng4 jat6 zi6 kwaa1.）",
+          "translate": "他为人很狂妄自大，整天自我吹嘘。"
+        },
+        {
+          "sentence": "有真本事嘅人唔會咁牙擦。（jau5 zan1 bun2 si6 ge3 jan4 m4 wui5 gam3 ngaa4 caat3.）",
+          "translate": "有真本领的人不会这么狂妄嚣张。"
+        }
+      ]
+    },
+    {
+      "word": "心悒",
+      "jyutping": "sam1 jap1",
+      "pos": "形",
+      "meaning": "心里难过，酸楚，揪心心疼",
+      "sentences": [
+        {
+          "sentence": "見到佢生活咁艱難，睇到人心悒。（gin3 dou2 keoi5 sang1 wut6 gam3 gaan1 naan4, tai2 dou2 jan4 sam1 jap1.）",
+          "translate": "看到他生活这么艰辛，看得人心里阵阵酸楚。"
+        },
+        {
+          "sentence": "唔好諗咁多令人心悒嘅事。（m4 hou2 nam2 gam3 do1 ling6 jan4 sam1 jap1 ge3 si6.）",
+          "translate": "别想那么多让人心里难过的事情。"
+        }
+      ]
+    },
+    {
+      "word": "生性",
+      "jyutping": "saang1 sing3",
+      "pos": "形",
+      "meaning": "懂事，乖巧成器，体谅父母",
+      "sentences": [
+        {
+          "sentence": "個仔大個咗，識得幫手好生性。（go3 zai2 daai6 go3 zo2, sik1 dak1 bong1 sau2 hou2 saang1 sing3.）",
+          "translate": "儿子长大了，懂得帮忙非常懂事。"
+        },
+        {
+          "sentence": "你要生性做人，唔好令父母擔心。（nei5 jiu3 saang1 sing3 zou6 jan4, m4 hou2 ling6 fu6 mou5 daam1 sam1.）",
+          "translate": "你要做个懂事争气的人，别让父母担心。"
+        }
+      ]
+    },
+    {
+      "word": "百厭",
+      "jyutping": "baak3 jim3",
+      "pos": "形",
+      "meaning": "调皮，淘气捣蛋",
+      "sentences": [
+        {
+          "sentence": "呢個細路仔好百厭，四圍亂跑。（ni1 go3 sai3 lou6 zai2 hou2 baak3 jim3, sei3 wai4 lyun6 paau2.）",
+          "translate": "这个小孩子很调皮捣蛋，到处乱跑。"
+        },
+        {
+          "sentence": "雖然百厭，但好聰明。（seoi1 jin4 baak3 jim3, daan6 hou2 cung1 ming4.）",
+          "translate": "虽然淘气，但是很聪明。"
+        }
+      ]
+    },
+    {
+      "word": "扭計",
+      "jyutping": "nau2 gai2",
+      "pos": "动",
+      "meaning": "耍脾气，闹别扭（多指小孩撒娇哭闹）",
+      "sentences": [
+        {
+          "sentence": "小朋友想買玩具就喺度扭計。（siu2 pang4 jau5 soeng2 maai5 wun6 geoi6 zau6 hai2 dou6 nau2 gai2.）",
+          "translate": "小朋友想买玩具就在那里闹别扭哭闹。"
+        },
+        {
+          "sentence": "乖啦，唔好再扭計喇。（gwaai1 laa1, m4 hou2 zoi3 nau2 gai2 laa3.）",
+          "translate": "乖啦，不要再闹脾气了。"
+        }
+      ]
+    },
+    {
+      "word": "發老脾",
+      "jyutping": "faat3 lou5 pei4",
+      "pos": "动",
+      "meaning": "发脾气，大动肝火",
+      "sentences": [
+        {
+          "sentence": "好好講嘢，唔好郁啲就發老脾。（hou2 hou2 gong2 je5, m4 hou2 juk1 di1 zau6 faat3 lou5 pei4.）",
+          "translate": "好好说话，别动不动就大发雷霆。"
+        },
+        {
+          "sentence": "老細今日唔知點解發老脾。（lou5 sai3 gam1 jat6 m4 zi1 dim2 gaai2 faat3 lou5 pei4.）",
+          "translate": "老板今天不知为何大发脾气。"
+        }
+      ]
+    },
+    {
+      "word": "大懵",
+      "jyutping": "daai6 mung2",
+      "pos": "形",
+      "meaning": "粗心大意，健忘，糊里糊涂",
+      "sentences": [
+        {
+          "sentence": "我真係大懵，出門又唔記得帶電話。（ngo5 zan1 hai6 daai6 mung2, ceot1 mun4 jau6 m4 gei3 dak1 daai3 din6 waa2.）",
+          "translate": "我真是太糊涂粗心了，出门又忘了带手机。"
+        },
+        {
+          "sentence": "佢做嘢好大懵，成日漏嘢。（keoi5 zou6 je5 hou2 daai6 mung2, seng4 jat6 lau6 je5.）",
+          "translate": "他做事很大意，经常丢三落四。"
+        }
+      ]
+    },
+    {
+      "word": "論盡",
+      "jyutping": "leon6 zeon6",
+      "pos": "形",
+      "meaning": "笨手笨脚，动作不灵活，笨拙",
+      "sentences": [
+        {
+          "sentence": "搬嘢小心啲，唔好咁論盡跌爛嘢。（bun1 je5 siu2 sam1 di1, m4 hou2 gam3 leon6 zeon6 dit3 laan6 je5.）",
+          "translate": "搬东西小心点，别笨手笨脚摔烂了东西。"
+        },
+        {
+          "sentence": "佢行步路都論論盡盡。（keoi5 haang4 bou6 lou6 dou1 leon6 leon6 zeon6 zeon6.）",
+          "translate": "他走起路来都笨手笨脚跌跌撞撞的。"
+        }
+      ]
+    },
+    {
+      "word": "肉緊",
+      "jyutping": "juk6 gan2",
+      "pos": "形",
+      "meaning": "紧张心焦，极度投入，激动用力",
+      "sentences": [
+        {
+          "sentence": "睇世界盃決賽睇到大家超肉緊。（tai2 sai3 gaai3 bui1 kyut3 coi3 tai2 dou3 daai6 gaa1 ciu1 juk6 gan2.）",
+          "translate": "看世界杯决赛看得大家极度紧张投入。"
+        },
+        {
+          "sentence": "見到得意BB忍唔住想肉緊咬一啖。（gin3 dou2 dak1 ji3 BB jan2 m4 zyu6 soeng2 juk6 gan2 ngaau5 jat1 daam6.）",
+          "translate": "看到可爱宝宝忍不住喜欢得想咬一口。"
+        }
+      ]
+    },
+    {
+      "word": "唔忿氣",
+      "jyutping": "m4 fan5 hei3",
+      "pos": "形/动",
+      "meaning": "不服气，心有不甘",
+      "sentences": [
+        {
+          "sentence": "明明係佢贏，輸咗比賽好唔忿氣。（ming4 ming4 hai6 keoi5 jeng4, syu1 zo2 bei2 coi3 hou2 m4 fan5 hei3.）",
+          "translate": "明明该是他赢的，输了比赛非常不服气。"
+        },
+        {
+          "sentence": "唔忿氣就下次再贏返！（m4 fan5 hei3 zau6 haa6 ci3 zoi3 jeng4 faan1!）",
+          "translate": "不服气那就下次再赢回来！"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+[
+{
+"word": "Columbia",
+"pos": "n.m.",
+"zh": "哥伦比亚",
+"level": "b1"
+},
+{
+"word": "unterschiedlich",
+"pos": "adj.",
+"zh": "不同的\\ 差动；微分的；差速器",
+"level": "b1"
+},
+{
+"word": "Schichten",
+"pos": "n.",
+"zh": "成层\\ 分层",
+"level": "b1"
+},
+{
+"word": "Zielperson",
+"pos": "n.f.",
+"zh": "目标；靶子；指标\\. 对准",
+"level": "b1"
+},
+{
+"word": "Kopenhagen",
+"pos": "n.",
+"zh": "哥本哈根",
+"level": "b1"
+},
+{
+"word": "Säufer",
+"pos": "n.m.",
+"zh": "痛饮者",
+"level": "b1"
+},
+{
+"word": "Weiser",
+"pos": "n.m.",
+"zh": "卡胡纳",
+"level": "b1"
+},
+{
+"word": "Mieter",
+"pos": "n.m.",
+"zh": "承租人；房客",
+"level": "b1"
+},
+{
+"word": "Montana",
+"pos": "n.",
+"zh": "蒙大拿州",
+"level": "b1"
+},
+{
+"word": "rührend",
+"pos": "adv.",
+"zh": "激动地；刺激地；令人兴奋地",
+"level": "b1"
+},
+{
+"word": "Stumme",
+"pos": "n.",
+"zh": "哑子；哑音字母；弱音器\\. 哑的",
+"level": "b1"
+},
+{
+"word": "Winde",
+"pos": "n.f.",
+"zh": "曲柄",
+"level": "b1"
+},
+{
+"word": "Wirbel",
+"pos": "n.m.",
+"zh": "转环；旋转轴承",
+"level": "b1"
+},
+{
+"word": "Kakao",
+"pos": "n.m.",
+"zh": "可可粉；可可茶；可可色\\ 可可",
+"level": "b1"
+},
+{
+"word": "Thailand",
+"pos": "n.",
+"zh": "泰国",
+"level": "b1"
+},
+{
+"word": "Behälter",
+"pos": "n.m.",
+"zh": "容器；花托；插座\\ 容器",
+"level": "b1"
+},
+{
+"word": "scheußlich",
+"pos": "adj.",
+"zh": "丑陋的；邪恶的；险恶的",
+"level": "b1"
+},
+{
+"word": "Kurier",
+"pos": "n.m.",
+"zh": "送快信的人；伴游服务员\\ 信使；送急件者",
+"level": "b1"
+},
+{
+"word": "Abu",
+"pos": "n.",
+"zh": "阿布扎比",
+"level": "b1"
+},
+{
+"word": "gereizt",
+"pos": "adj.",
+"zh": "被激怒的；生了气的；变粗的",
+"level": "b1"
+},
+{
+"word": "Fassung",
+"pos": "n.f.",
+"zh": "框；结构；体格\\. 构成",
+"level": "b1"
+},
+{
+"word": "Leitungen",
+"pos": "n.",
+"zh": "测深；管子工行业；管道设备",
+"level": "b1"
+},
+{
+"word": "Kaliber",
+"pos": "n.",
+"zh": "口径；才干；水准",
+"level": "b1"
+},
+{
+"word": "Gemeine",
+"pos": "n.",
+"zh": "通常的；共同的；通俗的",
+"level": "b1"
+},
+{
+"word": "wochenlang",
+"pos": "adv.",
+"zh": "永久的；永恒的",
+"level": "b1"
+},
+{
+"word": "Morgengrauen",
+"pos": "n.",
+"zh": "破晓；黎明\\. 破晓",
+"level": "b1"
+},
+{
+"word": "Kristall",
+"pos": "n.m.",
+"zh": "水晶；水晶装饰品；结晶\\. 水晶的",
+"level": "b1"
+},
+{
+"word": "dulden",
+"pos": "v.",
+"zh": "遭受；经历",
+"level": "b1"
+},
+{
+"word": "Unheil",
+"pos": "n.",
+"zh": "灾难；不幸事件",
+"level": "b1"
+},
+{
+"word": "Wiege",
+"pos": "n.f.",
+"zh": "摇篮；发祥地",
+"level": "b1"
+},
+{
+"word": "herb",
+"pos": "adv.",
+"zh": "干的；无酒的；枯燥无味的",
+"level": "b1"
+},
+{
+"word": "Verwendung",
+"pos": "n.f.",
+"zh": "利用\\ 利用",
+"level": "b1"
+},
+{
+"word": "Rauben",
+"pos": "n.",
+"zh": "抢夺；掠夺\\ 抢劫；掠夺",
+"level": "b1"
+},
+{
+"word": "allgemein",
+"pos": "adj.",
+"zh": "通常的；共同的；通俗的",
+"level": "b1"
+},
+{
+"word": "Blas",
+"pos": "n.m.",
+"zh": "吹；打击；殴打",
+"level": "b1"
+},
+{
+"word": "Inn",
+"pos": "n.m.",
+"zh": "旅馆",
+"level": "b1"
+},
+{
+"word": "Marmelade",
+"pos": "n.f.",
+"zh": "果酱；拥塞之物；堵塞",
+"level": "b1"
+},
+{
+"word": "Becken",
+"pos": "n.",
+"zh": "盆；盆地\\ 第三脑室；骨盆",
+"level": "b1"
+},
+{
+"word": "hingegen",
+"pos": "v.",
+"zh": "然而；鉴于\\ 考虑到；鉴于",
+"level": "b1"
+},
+{
+"word": "unversehrt",
+"pos": "adv.",
+"zh": "未亵渎的；未受侵犯的；无污点的",
+"level": "b1"
+},
+{
+"word": "gering",
+"pos": "adv.",
+"zh": "一点点；少许；一会儿",
+"level": "b1"
+},
+{
+"word": "Zitrone",
+"pos": "n.",
+"zh": "柠檬；柠檬树；柠檬色\\ 柠檬",
+"level": "b1"
+},
+{
+"word": "Störungen",
+"pos": "n.",
+"zh": "干扰；人为干扰\\ 干扰",
+"level": "b1"
+},
+{
+"word": "kreativ",
+"pos": "adv.",
+"zh": "有创造力的；创作的；产生的",
+"level": "b1"
+},
+{
+"word": "Quark",
+"pos": "n.m.",
+"zh": "奶油干酪",
+"level": "b1"
+},
+{
+"word": "Zigeuner",
+"pos": "n.m.",
+"zh": "流浪",
+"level": "b1"
+},
+{
+"word": "schnarchen",
+"pos": "v.",
+"zh": "鼾声",
+"level": "b1"
+},
+{
+"word": "ärgerlich",
+"pos": "adj.",
+"zh": "生气的；愤怒的",
+"level": "b1"
+},
+{
+"word": "Angaben",
+"pos": "n.",
+"zh": "详细资料",
+"level": "b1"
+},
+{
+"word": "Chili",
+"pos": "n.",
+"zh": "辣牛肉酱",
+"level": "b1"
+},
+{
+"word": "Diskretion",
+"pos": "n.f.",
+"zh": "慎重；辨别力；考虑",
+"level": "b1"
+},
+{
+"word": "erforderlich",
+"pos": "adj.",
+"zh": "必需品；要素",
+"level": "b1"
+},
+{
+"word": "Pascha",
+"pos": "n.m.",
+"zh": "帕夏",
+"level": "b1"
+},
+{
+"word": "sentimental",
+"pos": "adv.",
+"zh": "乡巴佬的；陈腐的",
+"level": "b1"
+},
+{
+"word": "Evakuierung",
+"pos": "n.f.",
+"zh": "撤退；疏散\\ 抽空；排空",
+"level": "b1"
+},
+{
+"word": "Vernichtung",
+"pos": "n.f.",
+"zh": "歼灭；湮灭\\ 消灭；湮灭",
+"level": "b1"
+},
+{
+"word": "idiotisch",
+"pos": "adj.",
+"zh": "笨蛋；呆子",
+"level": "b1"
+},
+{
+"word": "Cocktail",
+"pos": "n.m.",
+"zh": "鸡尾酒",
+"level": "b1"
+},
+{
+"word": "säubern",
+"pos": "v.",
+"zh": "擦拭；用力打；凸轮\\. 擦",
+"level": "b1"
+},
+{
+"word": "Meisterwerk",
+"pos": "n.",
+"zh": "杰作；名著",
+"level": "b1"
+},
+{
+"word": "Einbringen",
+"pos": "n.",
+"zh": "倾销\\ 倾倒；倾泻；填埋",
+"level": "b1"
+},
+{
+"word": "Smoking",
+"pos": "n.m.",
+"zh": "夜小礼服；夜便礼服",
+"level": "b1"
+},
+{
+"word": "Misstrauen",
+"pos": "n.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "Chinese",
+"pos": "n.m.",
+"zh": "中文；中国话",
+"level": "b1"
+},
+{
+"word": "Zeugenstand",
+"pos": "n.m.",
+"zh": "证人；目击者；证据",
+"level": "b1"
+},
+{
+"word": "Gästezimmer",
+"pos": "n.",
+"zh": "来客住房",
+"level": "b1"
+},
+{
+"word": "Hungern",
+"pos": "n.",
+"zh": "饥饿；饿死\\ 绝食；饥锇",
+"level": "b1"
+},
+{
+"word": "Serum",
+"pos": "n.",
+"zh": "浆液；血清；乳清\\ 血清",
+"level": "b1"
+},
+{
+"word": "Phantasie",
+"pos": "n.",
+"zh": "想象力；幻想；喜好\\. 想象的",
+"level": "b1"
+},
+{
+"word": "Bedienung",
+"pos": "n.f.",
+"zh": "操作；动作；手术",
+"level": "b1"
+},
+{
+"word": "beugen",
+"pos": "v.",
+"zh": "变弯曲；使屈服\\. 弯曲",
+"level": "b1"
+},
+{
+"word": "verriegelt",
+"pos": "adv.",
+"zh": "连结；连锁\\. 连锁；连结\\ 相关",
+"level": "b1"
+},
+{
+"word": "Spurensicherung",
+"pos": "n.f.",
+"zh": "收集；采集；收藏品",
+"level": "b1"
+},
+{
+"word": "Falten",
+"pos": "n.",
+"zh": "皱纹；妙计；方法",
+"level": "b1"
+},
+{
+"word": "saugen",
+"pos": "v.",
+"zh": "哺乳；养育；吮吸\\ 哺乳",
+"level": "b1"
+},
+{
+"word": "Graue",
+"pos": "n.",
+"zh": "灰色\\. 灰色的",
+"level": "b1"
+},
+{
+"word": "Bohren",
+"pos": "n.",
+"zh": "烦人的；无聊的；无趣的\\ 成孔期",
+"level": "b1"
+},
+{
+"word": "Milliarde",
+"pos": "n.f.",
+"zh": "十亿；十亿个",
+"level": "b1"
+},
+{
+"word": "Gorilla",
+"pos": "n.m.",
+"zh": "大猩猩；残暴的男人；歹徒",
+"level": "b1"
+},
+{
+"word": "Kippen",
+"pos": "n.",
+"zh": "交换；变换；代替\\ 整流",
+"level": "b1"
+},
+{
+"word": "Pflaster",
+"pos": "n.",
+"zh": "地方；地点；位置",
+"level": "b1"
+},
+{
+"word": "verlockend",
+"pos": "adv.",
+"zh": "诱人地；妩媚地",
+"level": "b1"
+},
+{
+"word": "Ampel",
+"pos": "n.f.",
+"zh": "绞死；绞杀；悬挂\\ 绞刑",
+"level": "b1"
+},
+{
+"word": "technische",
+"pos": "adv.",
+"zh": "技术上的；专门的；工业的",
+"level": "b1"
+},
+{
+"word": "Zimmerservice",
+"pos": "n.m.",
+"zh": "客房用餐服务",
+"level": "b1"
+},
+{
+"word": "Hirsch",
+"pos": "n.m.",
+"zh": "鹿",
+"level": "b1"
+},
+{
+"word": "lachend",
+"pos": "adv.",
+"zh": "笑着地；可笑地；笑哈哈",
+"level": "b1"
+},
+{
+"word": "geschätzt",
+"pos": "adj.",
+"zh": "估算的；估计的；预计的",
+"level": "b1"
+},
+{
+"word": "zuschauen",
+"pos": "v.",
+"zh": "观看；旁观；看待",
+"level": "b1"
+},
+{
+"word": "Abstimmen",
+"pos": "n.",
+"zh": "投票；选举\\. 投票的；选举的",
+"level": "b1"
+},
+{
+"word": "Schwägerin",
+"pos": "n.f.",
+"zh": "夫的姊妹；嫂子",
+"level": "b1"
+},
+{
+"word": "deaktivieren",
+"pos": "v.",
+"zh": "撤消遣散；复员；使无效",
+"level": "b1"
+},
+{
+"word": "Rück",
+"pos": "n.",
+"zh": "后面；背后；后方\\. 后面的",
+"level": "b1"
+},
+{
+"word": "begehrt",
+"pos": "adv.",
+"zh": "实用表达",
+"level": "b1"
+},
+{
+"word": "Sauerei",
+"pos": "n.f.",
+"zh": "污秽；肮脏",
+"level": "b1"
+},
+{
+"word": "Portion",
+"pos": "n.f.",
+"zh": "部分；一份；命运",
+"level": "b1"
+},
+{
+"word": "Jugendlichen",
+"pos": "n.",
+"zh": "稚气",
+"level": "b1"
+},
+{
+"word": "Bemerkung",
+"pos": "n.f.",
+"zh": "注解；批评；评论",
+"level": "b1"
+},
+{
+"word": "Istanbul",
+"pos": "n.",
+"zh": "伊斯坦布尔",
+"level": "b1"
+},
+{
+"word": "beunruhigen",
+"pos": "v.",
+"zh": "打搅；使烦恼；使忧虑",
+"level": "b1"
+}
+]
