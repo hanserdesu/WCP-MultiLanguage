@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "profile_id": "catbar-russian-cefr-complete",
+  "language": "ru",
+  "display_name": "俄语词库(猫条版)",
+  "word_count": 8451,
+  "fingerprint_sha256": "dfecb0ab75e9b3ef75aedd47c677d68594b060bfbb84cc6bd94efd7888f4b74e",
+  "observed_slot": 3,
+  "es3_prefix": "ru",
+  "book_layout": "fragmented",
+  "strategy": {
+    "assembly": "WcpPack.Ru.dll",
+    "type": "WcpPack.Ru.RussianStrategy"
+  },
+  "resources": {
+    "books": ["books/俄语A1A2.xlsx", "books/俄语B1.xlsx", "books/俄语B2.xlsx"],
+    "meaning_db": "db/meaning.sqlite",
+    "sentence_table": "db/sentences.json",
+    "repair": "db/repair.tsv",
+    "word_audio": "audio/word/",
+    "sentence_audio": "audio/sentence/"
+  },
+  "repair_probes": ["стол", "человек", "хорошо", "говорить"],
+  "notes": [
+    "word_count / fingerprint_sha256 是对 resources.books 全部分册的**并集去重后排序**算的 SHA-256。",
+    "俄语是三分册: A1A2=2930 + B1=3026 + B2=2495，并集去重 = 8451，与指纹精确吻合（2026-09-14 复算）。",
+    "observed_slot=3 来自实测存档 MyBook.es3 的 SelfBookList3（8451 词，指纹一致）。",
+    "现状缺陷: 单词音频回退到游戏原生 vocabulary/（RuWordListMod.cs 第 1248 行），",
+    "该回退必须在接入宿主时去掉 —— 它绕过了 packs/<lang>/audio/word/ 的物理隔离。"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "updated": "2026-09-15",
+  "wordbooks": [
+    {
+      "id": "ja",
+      "status": "pending_release",
+      "language": "ja",
+      "display_name": "\u65e5\u8bed\u8bcd\u5e93(\u732b\u6761\u7248)",
+      "repo": "hanserdesu/japanese",
+      "release_tag": "wcp-jp-resources-v1.1.0",
+      "version": "wcp-jp-resources-v1.1.0",
+      "word_count": 7922,
+      "fingerprint_sha256": "6d7a51c0c5d30dd63d8a6e3412bce1cf2419554fb8487cf5c8a205e43ac41663",
+      "es3_prefix": "ja",
+      "disk": { "extract_mb": 1571 },
+      "assets": [
+        { "kind": "word_audio",    "name": "wcp-japanese-audio-words.zip",    "size": 165831996,  "sha256": "34336de1c830e867756709062c57bc1170f9a5be00bc89977fda32d746c1f1eb", "url": "https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.1.0/wcp-japanese-audio-words.zip" },
+        { "kind": "sentence_audio","name": "wcp-japanese-audio-sentences.zip","size": 1499343818, "sha256": "2ca601e04510f12376aa19792189a0ae719b16ae704b88be9c7be27cf6461109", "url": "https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.1.0/wcp-japanese-audio-sentences.zip" }
+      ]
+    },
+    {
+      "id": "fr",
+      "status": "pending_release",
+      "language": "fr",
+      "display_name": "\u6cd5\u8bed\u8bcd\u5e93(\u732b\u6761\u7248)",
+      "repo": "hanserdesu/WCP-French-Wordbook",
+      "release_tag": "wcp-fr-resources-v1.0.0",
+      "version": "wcp-fr-resources-v1.0.0",
+      "word_count": 8116,
+      "fingerprint_sha256": "376af2eae0292052cefb4cb0d673f48a5ca480a38e25a6bf5353998caea17e9d",
+      "es3_prefix": "fr",
+      "disk": { "extract_mb": 2150 },
+      "assets": [
+        { "kind": "word_audio",    "name": "wcp-french-audio-words.zip",    "size": 79901354,  "sha256": "a0714473a7e7bc7ca736ef5d7004cf5783ce00c6c16436ee296b2e817687e3d0", "url": "https://github.com/hanserdesu/WCP-French-Wordbook/releases/download/wcp-fr-resources-v1.0.0/wcp-french-audio-words.zip" },
+        { "kind": "sentence_audio","name": "wcp-french-audio-sentences.zip","size": 535068278, "sha256": "d661ba183014c5a26747885468305d28546f5dc4c5ba54fb37ad8f713c49e0e5", "url": "https://github.com/hanserdesu/WCP-French-Wordbook/releases/download/wcp-fr-resources-v1.0.0/wcp-french-audio-sentences.zip" }
+      ]
+    },
+    {
+      "id": "ru",
+      "status": "pending_release",
+      "language": "ru",
+      "display_name": "\u4fc4\u8bed\u8bcd\u5e93(\u732b\u6761\u7248)",
+      "repo": "hanserdesu/WCP-Russian-Wordbook",
+      "release_tag": "wcp-ru-resources-v1.0.0",
+      "version": "wcp-ru-resources-v1.0.0",
+      "word_count": 8451,
+      "fingerprint_sha256": "dfecb0ab75e9b3ef75aedd47c677d68594b060bfbb84cc6bd94efd7888f4b74e",
+      "es3_prefix": "ru",
+      "disk": { "extract_mb": 2200 },
+      "assets": []
+    },
+    {
+      "id": "de",
+      "status": "pending_release",
+      "language": "de",
+      "display_name": "\u5fb7\u8bed\u8bcd\u5e93(\u732b\u6761\u7248)",
+      "repo": "hanserdesu/WCP-German-Wordbook",
+      "release_tag": "wcp-de-resources-v1.0.0",
+      "version": "wcp-de-resources-v1.0.0",
+      "word_count": 8062,
+      "fingerprint_sha256": "66bded175dee70d9fd18ac3e08e793b79b35e9fd750904367a16c6012dd1f70a",
+      "es3_prefix": "de",
+      "disk": { "extract_mb": 2100 },
+      "assets": []
+    },
+    {
+      "id": "yue",
+      "status": "pending_release",
+      "language": "yue",
+      "display_name": "\u7ca4\u8bed\u8bcd\u5e93(\u732b\u6761\u7248)",
+      "repo": "hanserdesu/WCP-Cantonese-Wordbook",
+      "release_tag": "wcp-yue-resources-v1.0.0",
+      "version": "wcp-yue-resources-v1.0.0",
+      "word_count": 384,
+      "fingerprint_sha256": "",
+      "es3_prefix": "yue",
+      "disk": { "extract_mb": 120 },
+      "assets": []
+    },
+    {
+      "id": "ko",
+      "status": "pending_release",
+      "language": "ko",
+      "display_name": "\u97e9\u8bed\u8bcd\u5e93(\u732b\u6761\u7248)",
+      "repo": "hanserdesu/WCP-Korean-Wordbook",
+      "release_tag": "wcp-ko-resources-v1.0.0",
+      "version": "wcp-ko-resources-v1.0.0",
+      "word_count": 3123,
+      "fingerprint_sha256": "",
+      "es3_prefix": "ko",
+      "disk": { "extract_mb": 850 },
+      "assets": []
+    },
+    {
+      "id": "ar",
+      "status": "pending_release",
+      "language": "ar",
+      "display_name": "\u963f\u62c9\u4f2f\u8bcd\u5e93(\u732b\u6761\u7248)",
+      "repo": "hanserdesu/WCP-Arabic-Wordbook",
+      "release_tag": "wcp-ar-resources-v1.0.0",
+      "version": "wcp-ar-resources-v1.0.0",
+      "word_count": 8118,
+      "fingerprint_sha256": "",
+      "es3_prefix": "ar",
+      "disk": { "extract_mb": 1800 },
+      "assets": []
+    },
+    {
+      "id": "es",
+      "status": "pending_release",
+      "language": "es",
+      "display_name": "\u897f\u73ed\u7259\u8bcd\u5e93(\u732b\u6761\u7248)",
+      "repo": "hanserdesu/WCP-Spanish-Wordbook",
+      "release_tag": "wcp-es-resources-v1.0.0",
+      "version": "wcp-es-resources-v1.0.0",
+      "word_count": 8600,
+      "fingerprint_sha256": "691bfd98ebb58e1e52071bb6c1c79e15e1338d163c79f13a03124dc3678541f1",
+      "es3_prefix": "es",
+      "disk": { "extract_mb": 2600 },
+      "assets": []
+    },
+    {
+      "id": "pt",
+      "status": "pending_release",
+      "language": "pt",
+      "display_name": "\u8461\u8404\u7259\u8bcd\u5e93(\u732b\u6761\u7248)",
+      "repo": "hanserdesu/WCP-Portuguese-Wordbook",
+      "release_tag": "wcp-pt-resources-v1.0.0",
+      "version": "wcp-pt-resources-v1.0.0",
+      "word_count": 8600,
+      "fingerprint_sha256": "86a9ee2ce21dceb81d9576639fc9ade2575a61307962d7a60b3629cce7052b9e",
+      "es3_prefix": "pt",
+      "disk": { "extract_mb": 2600 },
+      "assets": []
+    }
+  ]
+}

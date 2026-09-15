@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "profile_id": "catbar-french-cefr-complete",
+  "language": "fr",
+  "display_name": "法语词库(猫条版)",
+  "word_count": 8116,
+  "fingerprint_sha256": "376af2eae0292052cefb4cb0d673f48a5ca480a38e25a6bf5353998caea17e9d",
+  "observed_slot": 2,
+  "es3_prefix": "fr",
+  "book_layout": "fragmented",
+  "strategy": {
+    "assembly": "WcpPack.Fr.dll",
+    "type": "WcpPack.Fr.FrenchStrategy"
+  },
+  "resources": {
+    "books": ["books/法语A1A2.xlsx", "books/法语B1.xlsx", "books/法语B2.xlsx"],
+    "meaning_db": "db/meaning.sqlite",
+    "sentence_table": "db/sentences.json",
+    "repair": "db/repair.tsv",
+    "word_audio": "audio/word/",
+    "sentence_audio": "audio/sentence/"
+  },
+  "repair_probes": ["être", "coing", "vaguement"],
+  "notes": [
+    "word_count / fingerprint_sha256 是对 resources.books 全部分册的**并集去重后排序**算的 SHA-256。",
+    "法语是三分册: A1A2=2680 + B1=2902 + B2=2534，并集去重 = 8116，与指纹精确吻合（2026-09-14 复算）。",
+    "observed_slot=2 来自实测存档 MyBook.es3 的 SelfBookList2（8116 词，指纹一致）。",
+    "同形词风险: 与英语同形 1638/8116，故 audio/word/ 必须私有 —— 不能与游戏原生 vocabulary/ 共享。"
+  ]
+}
