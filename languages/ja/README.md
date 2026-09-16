@@ -8,12 +8,12 @@
 
 ## 普通用户怎么安装
 
-1. 下载 [WCP 日语词书一键安装包 v1.2.8.3](https://github.com/hanserdesu/japanese/releases/download/wcp-jp-v1.2.8.3/WCP-Japanese-OneClick-Installer-wcp-jp-v1.2.8.3.zip)（SHA-256 `1062b7cba80655ff11c9ac438ffc7f9a268b9e25202281c1efdcb9212a8e5349`，发布页见 [wcp-jp-v1.2.8.3](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.8.3)）。
+1. 下载 [WCP 日语词书一键安装包 v1.2.9.1](https://github.com/hanserdesu/japanese/releases/download/wcp-jp-v1.2.9.1/WCP-Japanese-OneClick-Installer-wcp-jp-v1.2.9.1.zip)（SHA-256 `b8cd38fd2c64a35c7469da8c8ca5347a1b77112ed9661120b1ff3d718956c9a5`，发布页见 [wcp-jp-v1.2.9.1](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.9.1)）。
 2. 解压安装包。
 3. 关闭万词破，双击解压后最外层的 `01_双击运行我.cmd`，不要进入 `support` 文件夹。
 4. 等待安装器完成，然后重新启动游戏。安装窗口会一直保留，请点击右上角 X 关闭；按 Enter 不会关闭窗口。
 
-**正在使用旧版本的用户直接下载 v1.2.8.3 覆盖安装一次即可**，无需先卸载——从 v1.2.7 起安装器支持自更新，之后的新版本会自动提示升级，不再需要手动换包。v1.2.8.3 相比 v1.2.1 的改进（含 v1.2.5/v1.2.6/v1.2.7/v1.2.8 全部改进）：
+**正在使用旧版本的用户直接下载 v1.2.9.1 覆盖安装一次即可**，无需先卸载——从 v1.2.7 起安装器支持自更新，之后的新版本会自动提示升级，不再需要手动换包。v1.2.9.1 相比 v1.2.1 的改进（含 v1.2.9 全部改进与性能优化）：（含 v1.2.5/v1.2.6/v1.2.7/v1.2.8 全部改进）：
 
 - **修复「部分机器上单词发音变成英语 AI 语音」**：单词音频除语言包外同步补进游戏原生目录，接管插件未生效（刚进游戏读档中 / 装完未重启 / 使用非受管词书）时也能播放本地日语发音；已安装的用户只需运行一次游戏，插件会自动补齐缺失音频，无需重装。
 - 发音词形查不到时按写法差异（全角/半角、大小写、空格、句点）自动重试，并在日志中记录未命中原因，便于定位。

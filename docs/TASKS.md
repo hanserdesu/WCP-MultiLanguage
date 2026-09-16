@@ -434,3 +434,14 @@ probes 41/0、verify_integration PASS(9)、build_pack --check-all PASS、arch_ch
 - 验收：PSParser SYNTAX OK；提取 C# 用 csc `/langversion:5` 编译通过；离线 harness `work/tmp/move_workdir_test.ps1` 6/0；verify_integration PASS(9)；GitHub `wcp-jp-v1.2.8.3` 发布（公开 URL 200 + sha256 一致；资源 index 回读 = v1.2.8.3）。
 - 提交：Japanese `d8d11f4`（未 push）；ML `3216eb2`（已 push）。
 - **遗留（已决策：兼容性优先，不清理）**：旧版音频目录保留在云同步范围内（`wcp\sentence_audio` 3.4GB + `*_sentence_audio` 约 8.5GB）。已用 DLL 字符串扫描确认：其中 388,631 个文件（`sentence_audio`、`ja_sentence_audio`、`es/pt/ar/ko_*_audio`）没有任何插件引用，但用户明确选择「兼容性优先」——保留全部历史目录（含旧插件回退路径），不做改名/清理，也暂不关 Steam 云同步。因此该游戏的云同步会长期维持「无法同步」（本地数据不受影响，只是没有有效云备份；换机器时手动拷存档或重跑安装器）。若将来要改善：候选子集与判定手段（DLL UTF-16 字符串扫描）已在本节，可直接复用。
+
+
+### 2026-09-16 质量收敛后续轮：ko/de 高置信内容修复（本会话完成收尾）
+- ✅ ko：源头修复 45 条高置信错译/污染词条及对应例句（含 `맨발` 残留 HTML 实体 `&apos;` 清零——上一轮实体正则漏检数字实体）；更新 `ko_translation_cache.json`；`verify_all_ko.py` ALL PASS。
+- ✅ ko 音频：P0 替换的 135 句新例句 TTS 定向补齐（`_local/audit/gen_ko_tts_missing_20260916.py`），语料 21,990 句 0 缺口（与备份+生成目录并集比对）。
+- ✅ de：German 仓回滚到 §11 验收态（上一轮上游词典重生成混入 1,416 处回归：fallback 垃圾、字面 `\n`、重复 sense 回流），再单独重放 17 条跨词义黏连修复（`_local/audit/replay_de_p0_20260916.py`，词性-释义错配核验）；pack 复核 fallback=0、字面\n=0、多义词义项无丢失。
+- ⚠️ **回归教训**：es/pt 曾在 20:14 被用 HEAD 版生成器重跑——§10 的数据级修复（es 阴性一致 459 处、pt `o parecia` 147 处）没折进生成器，重生成即回退（pt 坏框架 144 行回归）。已 `git checkout` 回滚 es/pt 数据侧；**生成器级收敛（重生成输出 ≡ 已验收数据）仍待做**，做之前禁止再跑 es/pt 生成器。
+- ✅ 门禁全绿：`build_pack.py --check-all` PASS、`sync_packs.py --check` PASS、`verify_integration.py` **PASS (9 languages)**（ja 6 文件门面漂移已随 v1.2.9.1 重集成收敛；ja CSV EOL 噪声已回退）。
+- 提交：korean `7a09ed1`、German `ba78ad3`、ML 本轮 docs+packs+languages。
+- 未验证项：es/pt 数据与 §10 报告的逐字抽检（回滚后 verify PASS、指纹未变，低风险）；de 17 条修复未在实机抽读。
+

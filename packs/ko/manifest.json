@@ -32,12 +32,12 @@
     "pron": "ko_pron.tsv",
     "sentences": "ko_sentences.tsv",
     "payload_files": {
-      "ko_pron.tsv": "b997e6e61d6d04544093279f369240027c6d7b43b8716ff8f323f7c75f1dea6a",
-      "ko_sentences.tsv": "89c5b47b9d96d16a25f13f4fea7d05a623226aa96b28e9a94adf1f7c82215031"
+      "ko_pron.tsv": "ab40199bb8a33260caef57d8609f9d5f3e0619c495adf5ab2e806f4f89448ca5",
+      "ko_sentences.tsv": "7e62d5d6e9e2b19bede7fb3d37852bdb1acdf34ee5e1b1590d3732c2d7b62be2"
     }
   },
   "book_sha256": {
-    "韩语全量.xlsx": "9cfe93870b9c7cf325c7f1b4747b548584a858727e17c1d25380a22ea45cecdb"
+    "韩语全量.xlsx": "c682fd81a2b98e8a6148f281c5f359ccd02b2b2bd58ba692c832f3f83652b919"
   },
   "counts": {
     "pron": 7330,
