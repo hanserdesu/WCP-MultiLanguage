@@ -36,19 +36,19 @@
     "pron": "de_pron.tsv",
     "sentences": "de_sentences.tsv",
     "payload_files": {
-      "de_pron.tsv": "cb56d932a60848845c1d9894f3fd8b312336c45542c317c89758c6a3f48d4346",
+      "de_pron.tsv": "79cf66efca802a81b43104d4c4a97064e2137b63b1a73f2ce56603768522a33f",
       "de_sentences.tsv": "e15ef243197f41a279aa3858085d3bff7985f9699c8706176319efc8193e27af",
-      "de_only_pron.tsv": "cb56d932a60848845c1d9894f3fd8b312336c45542c317c89758c6a3f48d4346",
+      "de_only_pron.tsv": "79cf66efca802a81b43104d4c4a97064e2137b63b1a73f2ce56603768522a33f",
       "en_pron.tsv": "3d9e08e3e3e882350fff931c869cb856a5287712567c6eb3ffed086adcfd1669",
       "en_sentences.tsv": "03240187e74606562fe28c6ffda21c9cc07c365e473ad5e396349165b04cab2c"
     }
   },
   "book_sha256": {
-    "德语A1.xlsx": "0d2c6eabc42a8b3012621f8c08367ce0fba984b0367f65570a0d49e137ed138d",
-    "德语A2.xlsx": "5e7f6791f38cf11bcd1b71d863f7f46bad16d7639203390723ac68f77c861d7b",
-    "德语A1A2.xlsx": "11819d960911f1a508f57112a373dd46d02695c46e42ef16fcc0cf0961f067e3",
-    "德语B1.xlsx": "ec2629b23c4410c9b2d2afc6a4d20225c50c374daeefe97845b578d954db7d7f",
-    "德语B2.xlsx": "ec0ad9726a3a59d40b68bbfb79d9c1b5465b2146f7ae31d9e7acf0950bd53207"
+    "德语A1.xlsx": "00e7c423b4c634bf94fea8ab833a0fd2d53029303c8ead9dddda3f6b62fe009e",
+    "德语A2.xlsx": "83c43b103c9e49c71df0dfc293b93efadb5694420f3246c3555df50949f124ad",
+    "德语A1A2.xlsx": "df977d33d0815c12028abb2b42ff4ad41bc5ff38da6b5529d0e6114db0c1765e",
+    "德语B1.xlsx": "d26051dbed913fb62abd373fc2caa07e1259d7484a6d42bcaa8466aa97bb2cf0",
+    "德语B2.xlsx": "d63f992eb46f9f1f9ac9f418fcd3ab049cdd5a704c2218320566344c7052de07"
   },
   "counts": {
     "pron": 8062,
