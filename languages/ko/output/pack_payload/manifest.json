@@ -2,8 +2,8 @@
   "word_count": 7330,
   "sentence_count": 21990,
   "files": {
-    "ko_pron.tsv": "b997e6e61d6d04544093279f369240027c6d7b43b8716ff8f323f7c75f1dea6a",
-    "ko_sentences.tsv": "89c5b47b9d96d16a25f13f4fea7d05a623226aa96b28e9a94adf1f7c82215031"
+    "ko_pron.tsv": "ab40199bb8a33260caef57d8609f9d5f3e0619c495adf5ab2e806f4f89448ca5",
+    "ko_sentences.tsv": "7e62d5d6e9e2b19bede7fb3d37852bdb1acdf34ee5e1b1590d3732c2d7b62be2"
   },
   "note": "本目录是 pack 专用载荷（展平两列），由 MultiLanguage/tools/build_pack_payload.py 生成；原 output/ko_db_payload 保持不变，仍供旧插件安装器使用。"
 }

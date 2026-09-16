@@ -8,7 +8,7 @@ row	pron	아니요	[a̠nijo]	[a̠nijo]	不 (基础)
 row	pron	맛있다	[ma̠ɕʰit̚t͈a̠]	[ma̠ɕʰit̚t͈a̠]	美味 (食物)	
 row	pron	물	[muɭ]	[muɭ]	水 (食物)	
 row	pron	친구	[t͡ɕʰinɡu]	[t͡ɕʰinɡu]	朋友 (人际关系)	
-row	pron	가족	[ka̠d͡ʑo̞k̚]	[ka̠d͡ʑo̞k̚]	科 (关系)	
+row	pron	가족	[ka̠d͡ʑo̞k̚]	[ka̠d͡ʑo̞k̚]	家庭 (关系)	
 row	pron	귀엽다	[ˈkɥi(ː)jʌ̹p̚t͈a̠]	[ˈkɥi(ː)jʌ̹p̚t͈a̠]	可爱 (描述)	
 row	pron	행복하다	[ˈhɛ(ː)ŋbo̞kʰa̠da̠]	[ˈhɛ(ː)ŋbo̞kʰa̠da̠]	开心 (情感)	
 row	pron	슬프다	[sʰɯɭpʰɯda̠]	[sʰɯɭpʰɯda̠]	哀: (情感)	
@@ -129,7 +129,7 @@ row	pron	과제	[kwa̠d͡ʑe̞]	[kwa̠d͡ʑe̞]	作业 (教育)
 row	pron	프로젝트	[pʰɯɾo̞d͡ʑe̞k̚tʰɯ]	[pʰɯɾo̞d͡ʑe̞k̚tʰɯ]	专案 (教育)	
 row	pron	학기	[ha̠k̚k͈i]	[ha̠k̚k͈i]	上课学期 (教育)	
 row	pron	방학	[pa̠ŋɦa̠k̚]	[pa̠ŋɦa̠k̚]	休假 (教育)	
-row	pron	신나다	[ɕʰinna̠da̠]	[ɕʰinna̠da̠]	期待 期待 (情感)	
+row	pron	신나다	[ɕʰinna̠da̠]	[ɕʰinna̠da̠]	兴奋；开心 (形容词)	
 row	pron	지루하다	[t͡ɕiɾuɦa̠da̠]	[t͡ɕiɾuɦa̠da̠]	无聊 (情感)	
 row	pron	무섭다	[musʰʌ̹p̚t͈a̠]	[musʰʌ̹p̚t͈a̠]	恐惧 (情感)	
 row	pron	놀라다	[ˈno̞(ː)ɭɭa̠da̠]	[ˈno̞(ː)ɭɭa̠da̠]	惊讶 (情感)	
@@ -2750,7 +2750,7 @@ row	pron	결연하다	kyomchyonata	kyomchyonata	决心 (情感)
 row	pron	침착하다	[t͡ɕʰimt͡ɕʰa̠kʰa̠da̠]	[t͡ɕʰimt͡ɕʰa̠kʰa̠da̠]	组成 (情感)	
 row	pron	달콤씁쓸하다	tamhungcengcemata	tamhungcengcemata	痛快乐 (情感)	
 row	pron	아련하다	[a̠ɾjʌ̹nɦa̠da̠]	[a̠ɾjʌ̹nɦa̠da̠]	渴望的 (情感)	
-row	pron	갈망하다	[ka̠ɭma̠ŋɦa̠da̠]	[ka̠ɭma̠ŋɦa̠da̠]	渴望&#x0D; (情感)	
+row	pron	갈망하다	[ka̠ɭma̠ŋɦa̠da̠]	[ka̠ɭma̠ŋɦa̠da̠]	渴望 (动词)	
 row	pron	증오하다	ketchuata	ketchuata	憎恨 (情绪)	
 row	pron	사생팬	[sʰa̠sʰɛŋpʰɛn]	[sʰa̠sʰɛŋpʰɛn]	Sasaeng (文化)	
 row	pron	성형수술	ngotyotngingim	ngotyotngingim	整形手术 (文化)	
@@ -3132,7 +3132,7 @@ row	pron	한국 패션	Hanguk paesyon	Hanguk paesyon	韩国时尚 (进阶词汇)
 row	pron	건강 문화	Geongang munhwa	Geongang munhwa	健康养生文化 (文化·生活)	
 row	pron	음주 문화	Eumju munhwa	Eumju munhwa	饮酒文化 (文化·生活)	
 row	pron	생일 파티	Saengil pati	Saengil pati	生日派对 (进阶词汇)	
-row	pron	음악 수업	Eumak Sueop	Eumak Sueop	一mén音乐修养 (进阶词汇)	
+row	pron	음악 수업	Eumak Sueop	Eumak Sueop	音乐课 (名词)	
 row	pron	스터디 그룹	Seuteodi Geurup	Seuteodi Geurup	Study Group (进阶词汇)	
 row	pron	진로 상담사	Jinro Sangdamsa	Jinro Sangdamsa	职涯咨询师 (进阶词汇)	
 row	pron	취업 면접	Chwieop Myeonjeop	Chwieop Myeonjeop	求职面试 (进阶词汇)	
@@ -3152,7 +3152,7 @@ row	pron	영감을 받다	Yeonggameul batda	Yeonggameul batda	受启发 (进阶�
 row	pron	의욕이 넘치다	Uiyogi neomchida	Uiyogi neomchida	有动力 (进阶词汇)	
 row	pron	경외감을 느끼다	Gyeongoeagameul neukkida	Gyeongoeagameul neukkida	Awestruck (进阶词汇)	
 row	pron	회복력이 있다	Hoebongnyeogi itda	Hoebongnyeogi itda	适应性强 (进阶词汇)	
-row	pron	계산해 주세요	Gyesan hae juseyo	Gyesan hae juseyo	检查请 (进阶词汇)	
+row	pron	계산해 주세요	Gyesan hae juseyo	Gyesan hae juseyo	请结账 (表达)	
 row	pron	만나서 반갑습니다	Mannaseo bangapseumnida	Mannaseo bangapseumnida	很高兴认识你 (进阶词汇)	
 row	pron	좋은 아침이에요	Joeun achimieyo	Joeun achimieyo	早安 (进阶词汇)	
 row	pron	잘 자요	Jal jayo	Jal jayo	晚安 (进阶词汇)	
@@ -3234,7 +3234,7 @@ row	pron	영어 할 수 있어요	Yeongeo hal su isseoyo	Yeongeo hal su isseoyo	
 row	pron	한국어를 잘 못해요	Hangugeoreul jal mothaeyo	Hangugeoreul jal mothaeyo	我不会说韩语 (进阶词汇)	
 row	pron	경찰을 불러 주세요	Gyeongchareul bulleo juseyo	Gyeongchareul bulleo juseyo	报警 (进阶词汇)	
 row	pron	채식 메뉴 있어요	Chaesik menyu isseoyo	Chaesik menyu isseoyo	有素食吗？ (进阶词汇)	
-row	pron	연상연하 커플	Yeonsangyeonha kepeul	Yeonsangyeonha kepeul	Noona浪漫 (进阶词汇)	
+row	pron	연상연하 커플	Yeonsangyeonha kepeul	Yeonsangyeonha kepeul	年上年下情侣；姐弟恋 (名词)	
 row	pron	길거리 음식	Gilgeori eumsik	Gilgeori eumsik	街头美食文化 (进阶词汇)	
 row	pron	매운 음식 챌린지	Maeun eumsik chaellinji	Maeun eumsik chaellinji	辛辣食物挑战 (进阶词汇)	
 row	pron	서바이벌 프로그램	Seobaibeol peulogeulaem	Seobaibeol peulogeulaem	生存实境秀 (进阶词汇)	
@@ -3330,7 +3330,7 @@ row	pron	방과 후	banggwa hu	banggwa hu	放学后 (进阶词汇)
 row	pron	학교 규칙	hakgyo gyuchik	hakgyo gyuchik	校规 (进阶词汇)	
 row	pron	학부모 상담	hakbumo sangdam	hakbumo sangdam	家长-教师会议 (进阶词汇)	
 row	pron	학교 폭력	hakgyo pokryok	hakgyo pokryok	学校暴力 (进阶词汇)	
-row	pron	또래 압력	ttarae apryeok	ttarae apryeok	灌水达人 (进阶词汇)	
+row	pron	또래 압력	ttarae apryeok	ttarae apryeok	同龄人压力 (名词)	
 row	pron	학교 우정	hakgyo ujeong	hakgyo ujeong	学校里的友谊 (进阶词汇)	
 row	pron	학교 추억	hakgyo chueok	hakgyo chueok	学校回忆 (进阶词汇)	
 row	pron	학생 대출	haksaeng daechul	haksaeng daechul	学生贷款 (进阶词汇)	
@@ -3417,7 +3417,7 @@ row	pron	계약 관계	gyeyak gwangye	gyeyak gwangye	合同关系 (进阶词汇)
 row	pron	파스텔 색	Paseutel Saek	Paseutel Saek	粉彩色 (进阶词汇)	
 row	pron	첫 서리	Cheos Seori	Cheos Seori	第一次霜冻 (进阶词汇)	
 row	pron	잔뜩 흐린	Janddeuk Heurin	Janddeuk Heurin	阴天 (进阶词汇)	
-row	pron	체감 더위	Chegam Deowi	Chegam Deowi	热门指数 (进阶词汇)	
+row	pron	체감 더위	Chegam Deowi	Chegam Deowi	体感炎热；体感温度 (名词)	
 row	pron	한랭 전선	Hallaeng Jeonseon	Hallaeng Jeonseon	冷锋面 (进阶词汇)	
 row	pron	주인공 보정	Juingong Bojeong	Juingong Bojeong	嘴遁 (进阶词汇)	
 row	pron	열린 결말	Yeollin Gyeolmal	Yeollin Gyeolmal	Cliffhanger Ending (进阶词汇)	
@@ -3444,7 +3444,7 @@ row	pron	학부모 회의	hakbumeo hoeuyi	hakbumeo hoeuyi	家长会 (进阶词�
 row	pron	선생님 선물	seonsaengnim seonmul	seonsaengnim seonmul	教师礼物 (进阶词汇)	
 row	pron	졸업 사진	jorop sajin	jorop sajin	毕业照 (进阶词汇)	
 row	pron	고등학교 동창회	godeunghakgyo dongchanghoe	godeunghakgyo dongchanghoe	高中同学团聚么?。 (进阶词汇)	
-row	pron	교환 학생	gyohwan haksaeng	gyohwan haksaeng	外汇留学生 (进阶词汇)	
+row	pron	교환 학생	gyohwan haksaeng	gyohwan haksaeng	交换学生 (名词)	
 row	pron	해외 유학	haewoe yuhak	haewoe yuhak	境外留学 (进阶词汇)	
 row	pron	학교 주변	hakgyo jubyeon	hakgyo jubyeon	学校街区 (进阶词汇)	
 row	pron	학교 등교	hakgyo deunggyo	hakgyo deunggyo	步行上学 (进阶词汇)	
@@ -3502,7 +3502,7 @@ row	pron	멜론 차트	Mellon Chateu	Mellon Chateu	Melon排行榜 (进阶词汇)
 row	pron	가온 차트	Gaon Chateu	Gaon Chateu	Gaon排行榜 (进阶词汇)	
 row	pron	멜론 뮤직 어워드	Mellon Myusik Eowodeu	Mellon Myusik Eowodeu	Melon音乐奖 (进阶词汇)	
 row	pron	음악 방송	Eumak Bangsong	Eumak Bangsong	音乐节目 (进阶词汇)	
-row	pron	쇼 챔피언	Syo Chaempieon	Syo Chaempieon	显示英雄 (进阶词汇)	
+row	pron	쇼 챔피언	Syo Chaempieon	Syo Chaempieon	《Show Champion》（韩国音乐节目） (专名)	
 row	pron	인디 음악	Indi Eumak	Indi Eumak	独立音乐 (进阶词汇)	
 row	pron	댄스 음악	Daenseu Eumak	Daenseu Eumak	舞曲 (进阶词汇)	
 row	pron	전통 음악	Jeongtong Eumak	Jeongtong Eumak	韩国传统音乐 (进阶词汇)	
@@ -3530,7 +3530,7 @@ row	pron	클라우드 저장소	keullaoudeu jeojangso	keullaoudeu jeojangso	云�
 row	pron	뮤직비디오 촬영	myujikbideo chwallyeong	myujikbideo chwallyeong	音乐录影带拍摄 (进阶词汇)	
 row	pron	정신 건강	jeongshin geongang	jeongshin geongang	心理健康 (进阶词汇)	
 row	pron	혈액 검사	hyeonaek geomsa	hyeonaek geomsa	血液检查 (进阶词汇)	
-row	pron	시력 검사	siryeok geomsa	siryeok geomsa	眼 <x id="522"/>考试 (进阶词汇)	
+row	pron	시력 검사	siryeok geomsa	siryeok geomsa	视力检查 (名词)	
 row	pron	신체 검사	sinche geomsa	sinche geomsa	体检 (进阶词汇)	
 row	pron	항암 치료	hangam chiryo	hangam chiryo	化疗 (进阶词汇)	
 row	pron	산소 마스크	sanso maseukeу	sanso maseukeу	氧气罩 (进阶词汇)	
@@ -3548,10 +3548,10 @@ row	pron	명절 귀성길	myeongjeol gwisonggil	myeongjeol gwisonggil	假日流�
 row	pron	명절 선물세트	myeongjeol seolmul set	myeongjeol seolmul set	节日礼品套装 (进阶词汇)	
 row	pron	명절 상여금	myeongjeol sangyeogeum	myeongjeol sangyeogeum	假期奖金 (进阶词汇)	
 row	pron	전통 놀이	jeontong nori	jeontong nori	传统游戏 (进阶词汇)	
-row	pron	명절 음식	myeongjeol eumsik	myeongjeol eumsik	Chuseok Food (进阶词汇)	
+row	pron	명절 음식	myeongjeol eumsik	myeongjeol eumsik	节日食品 (名词)	
 row	pron	축제 퍼레이드	chukje peoraid	chukje peoraid	节日游行 (进阶词汇)	
 row	pron	어른께 절	eoreunke jeol	eoreunke jeol	向长老鞠躬 (进阶词汇)	
-row	pron	풍성한 한가위 되세요	pungseonghan hangawi doeseyo	pungseonghan hangawi doeseyo	Chuseok问候语 (进阶词汇)	
+row	pron	풍성한 한가위 되세요	pungseonghan hangawi doeseyo	pungseonghan hangawi doeseyo	祝您度过丰盛的秋夕 (祝语)	
 row	pron	연인의 날	yeonin ui nal	yeonin ui nal	情侣日 (进阶词汇)	
 row	pron	새해 다짐	saehae dajim	saehae dajim	新年决心 (进阶词汇)	
 row	pron	명절 연휴	myeongjeol yeonhyu	myeongjeol yeonhyu	节日假期 (进阶词汇)	
@@ -3578,7 +3578,7 @@ row	pron	자동차 보험	jadongcha boheom	jadongcha boheom	汽车保险 (进阶
 row	pron	교통 벌금	gyotong beolgeum	gyotong beolgeum	交通罚款 (进阶词汇)	
 row	pron	차량 등록	charyang deungnok	charyang deungnok	车辆登记信息 (进阶词汇)	
 row	pron	차량 고장	charyang gojang	charyang gojang	汽车故障 (进阶词汇)	
-row	pron	가속 페달	gasok pedal	gasok pedal	加速卡 (进阶词汇)	
+row	pron	가속 페달	gasok pedal	gasok pedal	加速踏板 (名词)	
 row	pron	사이드 미러	saideu mireo	saideu mireo	侧镜 (进阶词汇)	
 row	pron	오일 교환	oil gyohwan	oil gyohwan	换机油 (进阶词汇)	
 row	pron	주차 금지	jucha geunji	jucha geunji	禁止停车 (进阶词汇)	
@@ -3707,9 +3707,9 @@ row	pron	사공이 많으면 배가 산으로 간다	Sagongi Maneuumyeon Baega S
 row	pron	원숭이도 나무에서 떨어진다	Wonsungido Namueso Tteoreojinda	Wonsungido Namueso Tteoreojinda	熟能生巧，也会出错 (进阶词汇)	
 row	pron	세 살 버릇 여든까지 간다	Se Sal Beoreut Yeodeunkkaji Ganda	Se Sal Beoreut Yeodeunkkaji Ganda	江山易改，本性难移 (进阶词汇)	
 row	pron	쇠뿔도 단김에 빼라	Soeppuredo Dangie Baera	Soeppuredo Dangie Baera	打铁趁热 (进阶词汇)	
-row	pron	지난 일은 지난 일이다	Jinan Ireun Jinan Irida	Jinan Ireun Jinan Irida	桥下的水 (进阶词汇)	
+row	pron	지난 일은 지난 일이다	Jinan Ireun Jinan Irida	Jinan Ireun Jinan Irida	过去的事就让它过去 (谚语)	
 row	pron	로마는 하루아침에 이루어지지 않았다	Romaneun Haruachime Irueojiji Anatta	Romaneun Haruachime Irueojiji Anatta	罗马不是一天造成的 (进阶词汇)	
-row	pron	아는 것이 힘이다	Aneun Geosi Himida	Aneun Geosi Himida	Knowledge Is Power 知识就是力量 (进阶词汇)	
+row	pron	아는 것이 힘이다	Aneun Geosi Himida	Aneun Geosi Himida	知识就是力量 (谚语)	
 row	pron	천천히 가는 자가 이긴다	Cheoncheoni Ganeun Jaga Iginda	Cheoncheoni Ganeun Jaga Iginda	稳扎稳打 (进阶词汇)	
 row	pron	눈에는 눈 이에는 이	Nunene Nun Iene I	Nunene Nun Iene I	以眼还眼 (进阶词汇)	
 row	pron	눈에서 멀어지면 마음에서도 멀어진다	Nuneso Meoreojimyeon Maeumeseo Meoreojinda	Nuneso Meoreojimyeon Maeumeseo Meoreojinda	眼不见，心不想 (进阶词汇)	
@@ -3745,21 +3745,21 @@ row	pron	과욕은 금물	Gwayogeum Geummul	Gwayogeum Geummul	贪多不嚼 (进�
 row	pron	짖는 개는 물지 않는다	Jjitneun Gaeneun Mulji Anneunda	Jjitneun Gaeneun Mulji Anneunda	吠叫的狗很少咬人 (进阶词汇)	
 row	pron	아주 드물게	Aju Deumulge	Aju Deumulge	Once in a Blue Moon (进阶词汇)	
 row	pron	비가 억수로 쏟아진다	Biga Eoksuro Ssodajinda	Biga Eoksuro Ssodajinda	下雨的猫和狗 (进阶词汇)	
-row	pron	몸이 좋지 않다	Momi Jochi Anta	Momi Jochi Anta	在天气下面 (进阶词汇)	
+row	pron	몸이 좋지 않다	Momi Jochi Anta	Momi Jochi Anta	身体不舒服 (短语)	
 row	pron	주목을 독차지하다	Jumogeul Dokchajihada	Jumogeul Dokchajihada	窃取表演 (进阶词汇)	
 row	pron	인내의 한계	Innaee Hangye	Innaee Hangye	最后一根稻草 (进阶词汇)	
 row	pron	문제를 더 키우다	Munjereul Deo Kiuda	Munjereul Deo Kiuda	你开启了一个极为棘手的问题 (进阶词汇)	
 row	pron	같은 처지다	Gateun Cheojida	Gateun Cheojida	一根绳上的蚂蚱 (进阶词汇)	
 row	pron	다리를 불태우다	Darigul Bultaeu uda	Darigul Bultaeu uda	燃烧的桥梁 (进阶词汇)	
-row	pron	백방으로 노력하다	Baekbangero Noryeokhada	Baekbangero Noryeokhada	不留任何未翻转的石头 (进阶词汇)	
+row	pron	백방으로 노력하다	Baekbangero Noryeokhada	Baekbangero Noryeokhada	千方百计努力；尽一切努力 (短语)	
 row	pron	책임을 떠넘기다	Chaegimeul Tteonumgida	Chaegimeul Tteonumgida	推卸责任 (进阶词汇)	
 row	pron	오늘은 여기서 끝내다	Oneuleun Yeogiseo Kkeunnada	Oneuleun Yeogiseo Kkeunnada	结束这一天 (进阶词汇)	
-row	pron	가능성이 낮다	Ganeungseonggi Natda	Ganeungseonggi Natda	远射 (进阶词汇)	
+row	pron	가능성이 낮다	Ganeungseonggi Natda	Ganeungseonggi Natda	可能性低；希望渺茫 (表达)	
 row	pron	일을 시작하다	Ireul Sijakhada	Ireul Sijakhada	Get the Ball Rolling (进阶词汇)	
 row	pron	실력을 키우다	Sillyeogeul Kiuda	Sillyeogeul Kiuda	提升表现。 (进阶词汇)	
-row	pron	창의적으로 생각하다	Changeui Jeogro Saenggakhada	Changeui Jeogro Saenggakhada	打破常规。&#10; (进阶词汇)	
-row	pron	기회를 놓치다	Gihoereul Notchida	Gihoereul Notchida	错过游船 (进阶词汇)	
-row	pron	이를 악물다	Ireul Angmulda	Ireul Angmulda	咬住子弹 (进阶词汇)	
+row	pron	창의적으로 생각하다	Changeui Jeogro Saenggakhada	Changeui Jeogro Saenggakhada	创造性地思考 (短语)	
+row	pron	기회를 놓치다	Gihoereul Notchida	Gihoereul Notchida	错过机会 (短语)	
+row	pron	이를 악물다	Ireul Angmulda	Ireul Angmulda	咬紧牙关 (短语)	
 row	pron	비장의 무기가 있다	Bijangui Mugiga Itda	Bijangui Mugiga Itda	有一张王牌在你的袖子里 (进阶词汇)	
 row	pron	현행범으로 잡히다	Hyeonhaengbeomro Japida	Hyeonhaengbeomro Japida	当场被捕 ,当场捕获,作案时被逮 (进阶词汇)	
 row	pron	모 아니면 도	Mo Animyeon Do	Mo Animyeon Do	全有或全无 (进阶词汇)	
@@ -4236,7 +4236,7 @@ row	pron	인터뷰 방법	Inteobyyu Bangbeop	Inteobyyu Bangbeop	面试方式 (�
 row	pron	사례 연구	Saryae Yeongu	Saryae Yeongu	案例研究 (进阶词汇)	
 row	pron	통계적 유의성	Tonggaejok Yuuiseong	Tonggaejok Yuuiseong	统计学显著性： (进阶词汇)	
 row	pron	표본 크기	Pyobon Keugi	Pyobon Keugi	样本量 (进阶词汇)	
-row	pron	데이터 시각화	Deiteo Sigakhwa	Deiteo Sigakhwa	数据可视化&#10; (进阶词汇)	
+row	pron	데이터 시각화	Deiteo Sigakhwa	Deiteo Sigakhwa	数据可视化 (名词)	
 row	pron	소프트웨어 개발	Sopeutuweo Gaebal	Sopeutuweo Gaebal	软件开发 (进阶词汇)	
 row	pron	반도체 연구	Bandoche Yeongu	Bandoche Yeongu	半导体研究 (进阶词汇)	
 row	pron	디스플레이 기술	Diseupeulei Gisul	Diseupeulei Gisul	显示技术 (进阶词汇)	
@@ -4658,7 +4658,7 @@ row	pron	게임 패스	geim paeseu	geim paeseu	游戏通行证 (进阶词汇)
 row	pron	가게	[ˈka̠(ː)ɡe̞]	[ˈka̠(ː)ɡe̞]	商店 (명사)	
 row	pron	가깝다	[ka̠k͈a̠p̚t͈a̠]	[ka̠k͈a̠p̚t͈a̠]	要接近 (형용사)	
 row	pron	가늘다	[ka̠nɯɭda̠]	[ka̠nɯɭda̠]	要薄 (형용사)	
-row	pron	가볍다	[ka̠bjʌ̹p̚t͈a̠]	[ka̠bjʌ̹p̚t͈a̠]	光污染 (형용사)	
+row	pron	가볍다	[ka̠bjʌ̹p̚t͈a̠]	[ka̠bjʌ̹p̚t͈a̠]	轻；轻便；轻松 (形容词)	
 row	pron	가운데	[ka̠unde̞]	[ka̠unde̞]	居中 (명사)	
 row	pron	가져가다	[ka̠d͡ʑʌ̹ɡa̠da̠]	[ka̠d͡ʑʌ̹ɡa̠da̠]	拿走一些东西 (동사)	
 row	pron	가져오다	[ka̠d͡ʑʌ̹o̞da̠]	[ka̠d͡ʑʌ̹o̞da̠]	带点东西来 (동사)	
@@ -4706,7 +4706,7 @@ row	pron	그것	[kɯɡʌ̹t̚]	[kɯɡʌ̹t̚]	同时 (대명사)
 row	pron	그곳	[kɯɡo̞t̚]	[kɯɡo̞t̚]	那里 (명사)	
 row	pron	그날	[kɯna̠ɭ]	[kɯna̠ɭ]	那天 (명사)	
 row	pron	그냥	[kɯɲa̠ŋ]	[kɯɲa̠ŋ]	简单地 (부사)	
-row	pron	그대로	[kɯdɛɾo̞]	[kɯdɛɾo̞]	纯文本的logo (부사)	
+row	pron	그대로	[kɯdɛɾo̞]	[kɯdɛɾo̞]	原样；照旧 (副词)	
 row	pron	그동안	[kɯdo̞ŋa̠n]	[kɯdo̞ŋa̠n]	自从我们上次见面或谈话以来 (부사)	
 row	pron	그때	[kɯt͈ɛ]	[kɯt͈ɛ]	那个时候 (명사)	
 row	pron	그래서	[kɯɾɛsʰʌ̹]	[kɯɾɛsʰʌ̹]	因此 (부사)	
@@ -4829,7 +4829,7 @@ row	pron	딸기	[ˈt͈a̠(ː)ɭɡi]	[ˈt͈a̠(ː)ɭɡi]	草莓 (명사)
 row	pron	때문	[t͈ɛmun]	[t͈ɛmun]	原因 (명사)	
 row	pron	떠나다	[t͈ʌ̹na̠da̠]	[t͈ʌ̹na̠da̠]	离开 (동사)	
 row	pron	떨어지다	[t͈ʌ̹ɾʌ̹d͡ʑida̠]	[t͈ʌ̹ɾʌ̹d͡ʑida̠]	摔跟头 (동사)	
-row	pron	또	[t͈o̞]	[t͈o̞]	你可能还喜欢&hellip; (부사)	
+row	pron	또	[t͈o̞]	[t͈o̞]	又；再；还 (副词)	
 row	pron	또는	[t͈o̞nɯn]	[t͈o̞nɯn]	要不是 (부사)	
 row	pron	똑같다	[t͈o̞k̚k͈a̠t̚t͈a̠]	[t͈o̞k̚k͈a̠t̚t͈a̠]	如出一辙 (형용사)	
 row	pron	똑같이	[t͈o̞k̚k͈a̠t͡ɕʰi]	[t͈o̞k̚k͈a̠t͡ɕʰi]	一样 (부사)	
@@ -4918,7 +4918,7 @@ row	pron	부탁	[ˈpu(ː)tʰa̠k̚]	[ˈpu(ː)tʰa̠k̚]	请求 (명사)
 row	pron	북쪽	[puk̚t͡ɕ͈o̞k̚]	[puk̚t͡ɕ͈o̞k̚]	北 (명사)	
 row	pron	분위기	[punɥiɡi]	[punɥiɡi]	智力氛围或环境 (명사)	
 row	pron	분홍색	[ˈpu(ː)nβo̞ŋsʰɛk̚]	[ˈpu(ː)nβo̞ŋsʰɛk̚]	粉红色 (명사)	
-row	pron	불쌍하다	[puɭs͈a̠ŋɦa̠da̠]	[puɭs͈a̠ŋɦa̠da̠]	差劲 差劲 [cha1 jin4] (형용사)	
+row	pron	불쌍하다	[puɭs͈a̠ŋɦa̠da̠]	[puɭs͈a̠ŋɦa̠da̠]	可怜 (形容词)	
 row	pron	붙다	[put̚t͈a̠]	[put̚t͈a̠]	要坚持 (동사)	
 row	pron	붙이다	[put͡ɕʰida̠]	[put͡ɕʰida̠]	贴上或附上 (동사)	
 row	pron	비디오	[pidio̞]	[pidio̞]	视频 (명사)	
@@ -5334,12 +5334,12 @@ row	pron	간신히	[ka̠nɕʰinʝi]	[ka̠nɕʰinʝi]	敝履 (부사)
 row	pron	간지럽다	[ka̠ɲd͡ʑiɾʌ̹p̚t͈a̠]	[ka̠ɲd͡ʑiɾʌ̹p̚t͈a̠]	发痒 (동사)	
 row	pron	간편하다	[ka̠npʰjʌ̹nɦa̠da̠]	[ka̠npʰjʌ̹nɦa̠da̠]	简单方便 (형용사)	
 row	pron	간호	[ka̠nβo̞]	[ka̠nβo̞]	护理 (명사)	
-row	pron	간혹	[ˈka̠(ː)nβo̞k̚]	[ˈka̠(ː)nβo̞k̚]	重新启动服务器。嘿-这是一台电脑，有时您只需要这 (부사)	
+row	pron	간혹	[ˈka̠(ː)nβo̞k̚]	[ˈka̠(ː)nβo̞k̚]	偶尔 (副词)	
 row	pron	갇히다	[ka̠t͡ɕʰida̠]	[ka̠t͡ɕʰida̠]	被锁起来 (동사)	
 row	pron	갈수록	[ka̠ɭs͈uɾo̞k̚]	[ka̠ɭs͈uɾo̞k̚]	岁月流逝 (부사)	
 row	pron	갈증	[ka̠ʎt͡ɕ͈ɯŋ]	[ka̠ʎt͡ɕ͈ɯŋ]	口渴 (명사)	
 row	pron	감독	[ka̠mdo̞k̚]	[ka̠mdo̞k̚]	方向 (명사)	
-row	pron	감동적	[ˈka̠(ː)mdo̞ŋd͡ʑʌ̹k̚]	[ˈka̠(ː)mdo̞ŋd͡ʑʌ̹k̚]	触 触 [chu4] (명사)	
+row	pron	감동적	[ˈka̠(ː)mdo̞ŋd͡ʑʌ̹k̚]	[ˈka̠(ː)mdo̞ŋd͡ʑʌ̹k̚]	感人的；令人感动的 (形容词)	
 row	pron	감싸다	[ˈka̠(ː)ms͈a̠da̠]	[ˈka̠(ː)ms͈a̠da̠]	覆盖 (동사)	
 row	pron	감추다	[ka̠mt͡ɕʰuda̠]	[ka̠mt͡ɕʰuda̠]	隐藏 (동사)	
 row	pron	감히	[ˈka̠(ː)mʝi]	[ˈka̠(ː)mʝi]	大胆地 (부사)	
@@ -5443,7 +5443,7 @@ row	pron	괴롭히다	[kwe̞ɾo̞pʰida̠]	[kwe̞ɾo̞pʰida̠]	骚扰 (동사)
 row	pron	굉장하다	[kwe̞ŋd͡ʑa̠ŋɦa̠da̠]	[kwe̞ŋd͡ʑa̠ŋɦa̠da̠]	棒极了 (형용사)	
 row	pron	굉장히	[kwe̞ŋd͡ʑa̠ŋʝi]	[kwe̞ŋd͡ʑa̠ŋʝi]	非常 (부사)	
 row	pron	구경하다	[ˈku(ː)ɡjʌ̹ŋɦa̠da̠]	[ˈku(ː)ɡjʌ̹ŋɦa̠da̠]	去观光 (동사)	
-row	pron	구멍	[kumʌ̹ŋ]	[kumʌ̹ŋ]	球洞&#x0D; (명사)	
+row	pron	구멍	[kumʌ̹ŋ]	[kumʌ̹ŋ]	洞；孔 (名词)	
 row	pron	구체적	[kut͡ɕʰe̞d͡ʑʌ̹k̚]	[kut͡ɕʰe̞d͡ʑʌ̹k̚]	混凝土 (관형사)	
 row	pron	국내선	[kuŋnɛsʰʌ̹n]	[kuŋnɛsʰʌ̹n]	国内航班 (명사)	
 row	pron	국립	[kuŋnip̚]	[kuŋnip̚]	国家的 (명사)	
@@ -5483,7 +5483,7 @@ row	pron	그림책	[ˈkɯ(ː)ɾimt͡ɕʰɛk̚]	[ˈkɯ(ː)ɾimt͡ɕʰɛk̚]	画�
 row	pron	그만큼	[kɯma̠nkxɯm]	[kɯma̠nkxɯm]	在这个程度上 (부사)	
 row	pron	그만하다	[kɯma̠nɦa̠da̠]	[kɯma̠nɦa̠da̠]	罢停 (동사)	
 row	pron	그야말로	[kɯja̠ma̠ɭɭo̞]	[kɯja̠ma̠ɭɭo̞]	真 (부사)	
-row	pron	그저	[kɯd͡ʑʌ̹]	[kɯd͡ʑʌ̹]	纯文本的logo (부사)	
+row	pron	그저	[kɯd͡ʑʌ̹]	[kɯd͡ʑʌ̹]	只是；不过 (副词)	
 row	pron	그중	[kɯd͡ʑuŋ]	[kɯd͡ʑuŋ]	其中 (명사)	
 row	pron	그토록	[kɯtʰo̞ɾo̞k̚]	[kɯtʰo̞ɾo̞k̚]	食物。 (부사)	
 row	pron	그해	[kɯɦɛ]	[kɯɦɛ]	那一年 (명사)	
@@ -5658,7 +5658,7 @@ row	pron	다짐	[ta̠d͡ʑim]	[ta̠d͡ʑim]	承诺 ,答应,订约,诺言 ;n.许�
 row	pron	다행	[ta̠ɦɛŋ]	[ta̠ɦɛŋ]	好远气 (명사)	
 row	pron	다행히	[ta̠ɦɛŋʝi]	[ta̠ɦɛŋʝi]	辛亏 (부사)	
 row	pron	단단하다	[ta̠nda̠nɦa̠da̠]	[ta̠nda̠nɦa̠da̠]	很难 (형용사)	
-row	pron	단맛	[ta̠nma̠t̚]	[ta̠nma̠t̚]	甘 甘 [gan1] (명사)	
+row	pron	단맛	[ta̠nma̠t̚]	[ta̠nma̠t̚]	甜味 (名词)	
 row	pron	단순하다	[ta̠nsʰunɦa̠da̠]	[ta̠nsʰunɦa̠da̠]	要简单 (형용사)	
 row	pron	단순히	[ta̠nsʰunʝi]	[ta̠nsʰunʝi]	简单地 (부사)	
 row	pron	닫히다	[ta̠t͡ɕʰida̠]	[ta̠t͡ɕʰida̠]	待关闭 (동사)	
@@ -5772,19 +5772,19 @@ row	pron	따르릉	[t͈a̠ɾɯɾɯŋ]	[t͈a̠ɾɯɾɯŋ]	叮铃铃 (명사)
 row	pron	땅바닥	[t͈a̠ŋba̠da̠k̚]	[t͈a̠ŋba̠da̠k̚]	地面 (명사)	
 row	pron	땅속	[t͈a̠ŋsʰo̞k̚]	[t͈a̠ŋsʰo̞k̚]	地铁 (명사)	
 row	pron	땅콩	[t͈a̠ŋkʰo̞ŋ]	[t͈a̠ŋkʰo̞ŋ]	花生 (명사)	
-row	pron	때때로	[t͈ɛt͈ɛɾo̞]	[t͈ɛt͈ɛɾo̞]	重新启动服务器。嘿-这是一台电脑，有时您只需要这 (부사)	
+row	pron	때때로	[t͈ɛt͈ɛɾo̞]	[t͈ɛt͈ɛɾo̞]	有时；偶尔 (副词)	
 row	pron	때로	[t͈ɛɾo̞]	[t͈ɛɾo̞]	偶尔 (부사)	
 row	pron	떠나가다	[t͈ʌ̹na̠ɡa̠da̠]	[t͈ʌ̹na̠ɡa̠da̠]	离开 (동사)	
 row	pron	떠오르다	[t͈ʌ̹o̞ɾɯda̠]	[t͈ʌ̹o̞ɾɯda̠]	上升 (동사)	
 row	pron	떠올리다	[t͈ʌ̹o̞ʎʎida̠]	[t͈ʌ̹o̞ʎʎida̠]	让某人想到某事 (동사)	
 row	pron	떨어뜨리다	[t͈ʌ̹ɾʌ̹t͈ɯɾida̠]	[t͈ʌ̹ɾʌ̹t͈ɯɾida̠]	降下 (동사)	
 row	pron	또다시	[t͈o̞da̠ɕʰi]	[t͈o̞da̠ɕʰi]	不再显示弹出窗口 (명사)	
-row	pron	또한	[t͈o̞ɦa̠n]	[t͈o̞ɦa̠n]	你可能还喜欢&hellip; (부사)	
+row	pron	또한	[t͈o̞ɦa̠n]	[t͈o̞ɦa̠n]	也；此外 (副词)	
 row	pron	똥	[t͈o̞ŋ]	[t͈o̞ŋ]	粪便 (명사)	
 row	pron	뚜껑	[t͈uk͈ʌ̹ŋ]	[t͈uk͈ʌ̹ŋ]	顶盖 (명사)	
 row	pron	뚜렷하다	[t͈uɾjʌ̹tʰa̠da̠]	[t͈uɾjʌ̹tʰa̠da̠]	事先说明 (형용사)	
 row	pron	뚫다	[t͈uɭtʰa̠]	[t͈uɭtʰa̠]	刺穿一个洞 (동사)	
-row	pron	뛰어나다	[t͈ɥiʌ̹na̠da̠]	[t͈ɥiʌ̹na̠da̠]	发送到 Excel (형용사)	
+row	pron	뛰어나다	[t͈ɥiʌ̹na̠da̠]	[t͈ɥiʌ̹na̠da̠]	出色；优秀 (形容词)	
 row	pron	뛰어나오다	[t͈ɥiʌ̹na̠o̞da̠]	[t͈ɥiʌ̹na̠o̞da̠]	用完了 (동사)	
 row	pron	뛰어넘다	[t͈ɥiʌ̹nʌ̹mt͈a̠]	[t͈ɥiʌ̹nʌ̹mt͈a̠]	跳跃 (동사)	
 row	pron	뛰어다니다	[t͈ɥiʌ̹da̠nida̠]	[t͈ɥiʌ̹da̠nida̠]	跳来跳去 (동사)	
@@ -5844,7 +5844,7 @@ row	pron	매달리다	[ˈmɛ(ː)da̠ʎʎida̠]	[ˈmɛ(ː)da̠ʎʎida̠]	被吊�
 row	pron	매력	[mɛɾjʌ̹k̚]	[mɛɾjʌ̹k̚]	超级按钮 (명사)	
 row	pron	매번	[ˈmɛ(ː)bʌ̹n]	[ˈmɛ(ː)bʌ̹n]	我们一直这么做。 (부사)	
 row	pron	매체	[mɛt͡ɕʰe̞]	[mɛt͡ɕʰe̞]	一种媒介。 (명사)	
-row	pron	맨발	[mɛnba̠ɭ]	[mɛnba̠ɭ]	足赤&apos;裸&apos; (명사)	
+row	pron	맨발	[mɛnba̠ɭ]	[mɛnba̠ɭ]	赤脚；光脚 (명사)	
 row	pron	맺다	[mɛt̚t͈a̠]	[mɛt̚t͈a̠]	完成或总结 (동사)	
 row	pron	머리칼	[mʌ̹ɾikʰa̠ɭ]	[mʌ̹ɾikʰa̠ɭ]	缩写为 머리카락 (명사)	
 row	pron	머릿속	[mʌ̹ɾiss͈o̞k̚]	[mʌ̹ɾiss͈o̞k̚]	内心深处 (명사)	
@@ -5876,7 +5876,7 @@ row	pron	목마르다	[mo̞ŋma̠ɾɯda̠]	[mo̞ŋma̠ɾɯda̠]	口渴 (형용�
 row	pron	목숨	[mo̞ks͈um]	[mo̞ks͈um]	生命 (명사)	
 row	pron	목적지	[mo̞k̚t͡ɕ͈ʌ̹k̚t͡ɕ͈i]	[mo̞k̚t͡ɕ͈ʌ̹k̚t͡ɕ͈i]	目标 (명사)	
 row	pron	목표	[mo̞k̚pʰjo]	[mo̞k̚pʰjo]	目标 (명사)	
-row	pron	몫	[mo̞k̚]	[mo̞k̚]	股票 股票 [gu3 piao4] (명사)	
+row	pron	몫	[mo̞k̚]	[mo̞k̚]	份额；一份 (名词)	
 row	pron	몰려들다	[mo̞ʎʎʌ̹dɯɭda̠]	[mo̞ʎʎʌ̹dɯɭda̠]	成群结队地聚集在一起 (동사)	
 row	pron	몸매	[mo̞mmɛ]	[mo̞mmɛ]	体的样子 (명사)	
 row	pron	몸짓	[mo̞mt͡ɕ͈it̚]	[mo̞mt͡ɕ͈it̚]	笔势 (명사)	
@@ -6150,7 +6150,7 @@ row	pron	세계화	[ˈsʰe̞(ː)ɡje̞βwa̠]	[ˈsʰe̞(ː)ɡje̞βwa̠]	全球�
 row	pron	세력	[ˈsʰe̞(ː)ɾjʌ̹k̚]	[ˈsʰe̞(ː)ɾjʌ̹k̚]	影响 (명사)	
 row	pron	세련되다	[ˈsʰe̞(ː)ɾjʌ̹ndwe̞da̠]	[ˈsʰe̞(ː)ɾjʌ̹ndwe̞da̠]	儒雅 (형용사)	
 row	pron	세워지다	[sʰe̞wʌ̹d͡ʑida̠]	[sʰe̞wʌ̹d͡ʑida̠]	待创立 (동사)	
-row	pron	세트	[s͈e̞tʰɯ]	[s͈e̞tʰɯ]	套 (명사)	
+row	pron	세트	[s͈e̞tʰɯ]	[s͈e̞tʰɯ]	套；组 (名词)	
 row	pron	소개되다	[sʰo̞ɡɛdwe̞da̠]	[sʰo̞ɡɛdwe̞da̠]	待介绍 (동사)	
 row	pron	소금물	[sʰo̞ɡɯmmuɭ]	[sʰo̞ɡɯmmuɭ]	咸水 (명사)	
 row	pron	소득	[ˈsʰo̞(ː)dɯk̚]	[ˈsʰo̞(ː)dɯk̚]	收入 (명사)	
@@ -6187,7 +6187,7 @@ row	pron	수도꼭지	[sʰudo̞k͈o̞k̚t͡ɕ͈i]	[sʰudo̞k͈o̞k̚t͡ɕ͈i]	�
 row	pron	수돗물	[sʰudo̞nmuɭ]	[sʰudo̞nmuɭ]	自来水 (명사)	
 row	pron	수수께끼	[sʰusʰuk͈e̞k͈i]	[sʰusʰuk͈e̞k͈i]	谜语，奥秘，隐语 (명사)	
 row	pron	수수료	[sʰusʰuɾjo]	[sʰusʰuɾjo]	佣金 (명사)	
-row	pron	수시로	[sʰuɕʰiɾo̞]	[sʰuɕʰiɾo̞]	重新启动服务器。嘿-这是一台电脑，有时您只需要这 (부사)	
+row	pron	수시로	[sʰuɕʰiɾo̞]	[sʰuɕʰiɾo̞]	随时；经常 (副词)	
 row	pron	수십	[ˈsʰu(ː)ɕʰip̚]	[ˈsʰu(ː)ɕʰip̚]	分数 (명사)	
 row	pron	수없이	[ˈsʰu(ː)ʌ̹pɕ͈i]	[ˈsʰu(ː)ʌ̹pɕ͈i]	大量 (부사)	
 row	pron	수준	[sʰud͡ʑun]	[sʰud͡ʑun]	标准或准则级别 (명사)	
@@ -6195,11 +6195,11 @@ row	pron	수화기	[sʰuβwa̠ɡi]	[sʰuβwa̠ɡi]	电话接收器 (명사)
 row	pron	숙녀	[sʰuŋɲʌ̹]	[sʰuŋɲʌ̹]	太后 (명사)	
 row	pron	숙박	[sʰuk̚p͈a̠k̚]	[sʰuk̚p͈a̠k̚]	住处 (명사)	
 row	pron	숙이다	[sʰuɡida̠]	[sʰuɡida̠]	弯曲 (동사)	
-row	pron	순식간	[sʰunɕʰik̚k͈a̠n]	[sʰunɕʰik̚k͈a̠n]	<g id="198">眨眼</g><g id= (명사)	
+row	pron	순식간	[sʰunɕʰik̚k͈a̠n]	[sʰunɕʰik̚k͈a̠n]	转眼间；一瞬间 (名词)	
 row	pron	술자리	[sʰuʎt͡ɕ͈a̠ɾi]	[sʰuʎt͡ɕ͈a̠ɾi]	饮酒派对 (명사)	
 row	pron	숨기다	[sʰumɡida̠]	[sʰumɡida̠]	隐藏 (동사)	
 row	pron	숨소리	[ˈsʰu(ː)ms͈o̞ɾi]	[ˈsʰu(ː)ms͈o̞ɾi]	呼吸的声音 (명사)	
-row	pron	숨지다	[ˈsʰu(ː)md͡ʑida̠]	[ˈsʰu(ː)md͡ʑida̠]	卒 卒 [zu2] (동사)	
+row	pron	숨지다	[ˈsʰu(ː)md͡ʑida̠]	[ˈsʰu(ː)md͡ʑida̠]	去世；死亡 (动词)	
 row	pron	쉿	[ʃʰɥit̚]	[ʃʰɥit̚]	嘘 (감탄사)	
 row	pron	슈퍼	[ɕʰupʰʌ̹]	[ɕʰupʰʌ̹]	超级 (명사)	
 row	pron	스무째	[sʰɯmut͡ɕ͈ɛ]	[sʰɯmut͡ɕ͈ɛ]	第二十 (수사)	
@@ -6466,7 +6466,7 @@ row	pron	유창하다	[jut͡ɕʰa̠ŋɦa̠da̠]	[jut͡ɕʰa̠ŋɦa̠da̠]	要流
 row	pron	유쾌	[jukʰwɛ]	[jukʰwɛ]	愉快 (명사)	
 row	pron	육체적	[juk̚t͡ɕʰe̞d͡ʑʌ̹k̚]	[juk̚t͡ɕʰe̞d͡ʑʌ̹k̚]	身体 (명사)	
 row	pron	음반	[ɯmba̠n]	[ɯmba̠n]	记录 (명사)	
-row	pron	음식물	[ɯmɕʰiŋmuɭ]	[ɯmɕʰiŋmuɭ]	* 食品和饮料 (명사)	
+row	pron	음식물	[ɯmɕʰiŋmuɭ]	[ɯmɕʰiŋmuɭ]	食品和饮料 (名词)	
 row	pron	음악회	[ɯma̠kʰwe̞]	[ɯma̠kʰwe̞]	音乐会 (명사)	
 row	pron	음주	[ˈɯ(ː)md͡ʑu]	[ˈɯ(ː)md͡ʑu]	饮酒 (명사)	
 row	pron	응답	[ˈɯ(ː)ŋda̠p̚]	[ˈɯ(ː)ŋda̠p̚]	个答案 (명사)	
@@ -6644,7 +6644,7 @@ row	pron	준비물	[t͡ɕunbimuɭ]	[t͡ɕunbimuɭ]	有待准备的项目 (명사
 row	pron	줄곧	[t͡ɕuɭɡo̞t̚]	[t͡ɕuɭɡo̞t̚]	连续 (부사)	
 row	pron	줄어들다	[t͡ɕuɾʌ̹dɯɭda̠]	[t͡ɕuɾʌ̹dɯɭda̠]	减少或减少 (동사)	
 row	pron	중고품	[t͡ɕuŋɡo̞pʰum]	[t͡ɕuŋɡo̞pʰum]	二手物品 (명사)	
-row	pron	중국어	[t͡ɕuŋɡuɡʌ̹]	[t͡ɕuŋɡuɡʌ̹]	中文<g id="1"> </g> (명사)	
+row	pron	중국어	[t͡ɕuŋɡuɡʌ̹]	[t͡ɕuŋɡuɡʌ̹]	中文；汉语 (名词)	
 row	pron	중국인	[t͡ɕuŋɡuɡin]	[t͡ɕuŋɡuɡin]	中文 (명사)	
 row	pron	중급	[t͡ɕuŋɡɯp̚]	[t͡ɕuŋɡɯp̚]	中阶 (명사)	
 row	pron	중소기업	[t͡ɕuŋsʰo̞ɡiʌ̹p̚]	[t͡ɕuŋsʰo̞ɡiʌ̹p̚]	规模较小的企业 (명사)	
@@ -7055,7 +7055,7 @@ row	pron	디스크	[tisʰɯkxɯ]	[tisʰɯkxɯ]	磁盘 (명사)
 row	pron	뛰어오르다	[t͈ɥiʌ̹o̞ɾɯda̠]	[t͈ɥiʌ̹o̞ɾɯda̠]	跳起来 (동사)	
 row	pron	뜻하다	[t͈ɯtʰa̠da̠]	[t͈ɯtʰa̠da̠]	意味着 (동사)	
 row	pron	라이벌	[ɾa̠ibʌ̹ɭ]	[ɾa̠ibʌ̹ɭ]	竞争对手 (명사)	
-row	pron	라켓	[ɾa̠kʰe̞t̚]	[ɾa̠kʰe̞t̚]	噪声 噪声 [zao4 sheng1] (명사)	
+row	pron	라켓	[ɾa̠kʰe̞t̚]	[ɾa̠kʰe̞t̚]	球拍 (名词)	
 row	pron	레이저	[ɾe̞id͡ʑʌ̹]	[ɾe̞id͡ʑʌ̹]	灼热射线 (명사)	
 row	pron	로터리	[ɾo̞tʰʌ̹ɾi]	[ɾo̞tʰʌ̹ɾi]	环形交叉 (명사)	
 row	pron	마요네즈	[ma̠jone̞d͡ʑɯ]	[ma̠jone̞d͡ʑɯ]	蛋黄酱 (명사)	
@@ -7109,7 +7109,7 @@ row	pron	상징하다	[sʰa̠ŋd͡ʑiŋɦa̠da̠]	[sʰa̠ŋd͡ʑiŋɦa̠da̠]	�
 row	pron	색연필	[sʰɛŋɲʌ̹npʰiɭ]	[sʰɛŋɲʌ̹npʰiɭ]	彩铅 (명사)	
 row	pron	생산되다	[sʰɛŋsʰa̠ndwe̞da̠]	[sʰɛŋsʰa̠ndwe̞da̠]	待制作 (동사)	
 row	pron	생산력	[sʰɛŋsʰa̠nɲʌ̹k̚]	[sʰɛŋsʰa̠nɲʌ̹k̚]	生产力 (명사)	
-row	pron	생산자	[sʰɛŋsʰa̠ɲd͡ʑa̠]	[sʰɛŋsʰa̠ɲd͡ʑa̠]	生产者<g id="155">/</g>商标： (명사)	
+row	pron	생산자	[sʰɛŋsʰa̠ɲd͡ʑa̠]	[sʰɛŋsʰa̠ɲd͡ʑa̠]	生产者；制造商 (名词)	
 row	pron	생산하다	[sʰɛŋsʰa̠nɦa̠da̠]	[sʰɛŋsʰa̠nɦa̠da̠]	生产 (동사)	
 row	pron	서민	[ˈsʰɘ(ː)min]	[ˈsʰɘ(ː)min]	常人 (명사)	
 row	pron	서클	[s͈ʌ̹kxɯɭ]	[s͈ʌ̹kxɯɭ]	党 (명사)	
@@ -7357,8 +7357,8 @@ row	sentence	친구				例句：우리는 오랜 친구예요.（我们是老朋
 row	sentence	친구				例句：친구가 요즘 특히 주목받고 있습니다.（朋友近来尤其受到关注。）
 row	sentence	친구				例句：관련 업계에서는 친구를 중요한 과제로 꼽고 있습니다.（相关行业把朋友列为重要课题。）
 row	sentence	가족				例句：우리 가족은 네 명이에요.（我家有四口人。）
-row	sentence	가족				例句：여러 나라에서 가족을 두고 두고 연구해 왔습니다.（许多国家一直在反复研究科。）
-row	sentence	가족				例句：가족을/를 둘러싼 논의가 활발해지고 있습니다.（围绕科的讨论正变得活跃。）
+row	sentence	가족				例句：주말에는 가족과 함께 공원에 가요.（周末和家人一起去公园。）
+row	sentence	가족				例句：가족을 소중히 여기는 마음이 중요해요.（珍惜家人的心意很重要。）
 row	sentence	귀엽다				例句：이 강아지 너무 귀여워요!（这只小狗好可爱！）
 row	sentence	귀엽다				例句：새 환경이 처음엔 좀 귀엽게 느껴질 수 있어요.（新环境起初可能让人觉得有点可爱。）
 row	sentence	귀엽다				例句：그 소식을 듣고 모두 귀엽다고 했어요.（听到那个消息，大家都说很可爱。）
@@ -7719,9 +7719,9 @@ row	sentence	학기				例句：다양한 분야에서 학기를 응용하고 �
 row	sentence	방학				例句：최근 들어 많은 사람들이 방학의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到休假的重要性。）
 row	sentence	방학				例句：체계적인 학습과 연구를 거쳐 방학으로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向休假的方向推进发展。）
 row	sentence	방학				例句：이 보고서는 방학이 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了休假对我们日常生活所产生的积极影响。）
-row	sentence	신나다				例句：오늘 콘서트에 가서 너무 신나요!（我今天去演唱会真是太兴奋了！）
-row	sentence	신나다				例句：신나기 전에 계획을 세우는 편이 좋아요.（在期待 期待之前，最好先制定好计划。）
-row	sentence	신나다				例句：친구와 함께 신나기로 했어요.（我决定和朋友一起期待 期待。）
+row	sentence	신나다				例句：오늘은 여행 생각만 해도 신나요.（光是想到旅行，今天就很兴奋。）
+row	sentence	신나다				例句：아이들이 놀이공원에서 신나게 놀았어요.（孩子们在游乐园玩得很开心。）
+row	sentence	신나다				例句：분위기가 신나서 모두 춤을 췄어요.（气氛很热烈，大家都跳起了舞。）
 row	sentence	지루하다				例句：오늘 수업이 너무 지루해요.（今天的课程真是太无聊了。）
 row	sentence	지루하다				例句：지루하다는 이야기를 어릴 때 자주 들었어요.（小时候常听人说很无聊。）
 row	sentence	지루하다				例句：새 환경이 처음엔 좀 지루하게 느껴질 수 있어요.（新环境起初可能让人觉得有点无聊。）
@@ -15582,9 +15582,9 @@ row	sentence	달콤씁쓸하다				例句：'달콤씁쓸하다'라는 말을 �
 row	sentence	아련하다				例句：옛날 사진을 보니 아련한 추억이 떠올랐어요.（看著旧照片，怀旧的记忆涌上心头。）
 row	sentence	아련하다				例句：오늘따라 유독 아련하네요.（今天格外觉得渴望的。）
 row	sentence	아련하다				例句：저는 이번 결과가 좀 아련하다고 봐요.（我觉得这次结果有些渴望的。）
-row	sentence	갈망하다				例句：자유를 갈망하는 마음이 너무 커요.（我心中的自由渴望如此强烈。）
-row	sentence	갈망하다				例句：요즘 갈망하는 것을 좋아하는 사람이 많아졌어요.（近来喜欢渴望&#x0D的人变多了。）
-row	sentence	갈망하다				例句：매일 조금씩 갈망하려고 노력하고 있어요.（我每天都在努力一点点去渴望&#x0D。）
+row	sentence	갈망하다				例句：그는 새로운 지식을 갈망해요.（他渴望新的知识。）
+row	sentence	갈망하다				例句：많은 사람들이 자유를 갈망합니다.（许多人渴望自由。）
+row	sentence	갈망하다				例句：그녀는 성공을 갈망하며 열심히 노력했어요.（她渴望成功并努力奋斗。）
 row	sentence	증오하다				例句：불공정함을 증오해요.（我憎恨不公。）
 row	sentence	증오하다				例句：사전에서 '증오하다'라는 표현을 찾아봤어요.（我在词典里查了'憎恨'这个表达。）
 row	sentence	증오하다				例句：'증오하다'와 관련된 자료를 찾아 읽었어요.（我找了与'憎恨'相关的资料来读。）
@@ -16728,9 +16728,9 @@ row	sentence	음주 문화				例句：음주 문화와 비교하면 음주 문�
 row	sentence	생일 파티				例句：현대 사회에서 생일 파티는 개인의 삶과 밀접한 관련을 맺고 있습니다.（在现代社会中，生日派对与个人的生活有着极其密切的联系。）
 row	sentence	생일 파티				例句：전문가들은 생일 파티를 올바르게 이해하는 것이 무엇보다 중요하다고 강조합니다.（专家们强调，正确理解生日派对比什么都重要。）
 row	sentence	생일 파티				例句：우리는 다양한 경험을 통해 생일 파티에 대한 폭넓은 시각을 기를 수 있습니다.（我们能够通过丰富的经历培养对生日派对更加宽广的视角。）
-row	sentence	음악 수업				例句：성공적인 미래를 준비하기 위해서는 음악 수업과 관련된 지식을 쌓아야 합니다.（为了准备成功的未来，必须积累与一mén音乐修养相关的知识。）
-row	sentence	음악 수업				例句：새로운 환경에 적응하면서 음악 수업에 대한 관심이 더욱 커졌습니다.（在适应新环境的过程中，对一mén音乐修养的关注度进一步提升了。）
-row	sentence	음악 수업				例句：국가와 사회의 지속 가능한 발전을 위해 음악 수업은 필수적인 요소입니다.（为了国家与社会的可持续发展，一mén音乐修养是必不可少的关键要素。）
+row	sentence	음악 수업				例句：음악 수업에서 노래를 배웠어요.（我在音乐课上学了一首歌。）
+row	sentence	음악 수업				例句：오늘 음악 수업에는 기타 연습이 있어요.（今天的音乐课要练习吉他。）
+row	sentence	음악 수업				例句：음악 수업을 통해 다양한 악기를 알게 됐어요.（通过音乐课，我了解了各种乐器。）
 row	sentence	스터디 그룹				例句：스터디 그룹을/를 둘러싼 논의가 활발해지고 있습니다.（围绕Study Group的讨论正变得活跃。）
 row	sentence	스터디 그룹				例句：우리는 실천적인 노력을 기울여 스터디 그룹의 완성도를 높여야 합니다.（我们必须付出切实具体的努力，以提升Study Group的成熟度。）
 row	sentence	스터디 그룹				例句：세계화 시대에 발맞추어 스터디 그룹은 국제적인 주목을 받고 있습니다.（顺应全球化时代的发展步伐，Study Group正在受到国际社会的广泛瞩目。）
@@ -16788,9 +16788,9 @@ row	sentence	경외감을 느끼다				例句：문장에서 '경외감을 느�
 row	sentence	회복력이 있다				例句：사전에서 '회복력이 있다'라는 표현을 찾아봤어요.（我在词典里查了'适应性强'这个表达。）
 row	sentence	회복력이 있다				例句：'회복력이 있다'와 관련된 자료를 찾아 읽었어요.（我找了与'适应性强'相关的资料来读。）
 row	sentence	회복력이 있다				例句：오늘 배운 단어 중에 '회복력이 있다'가 제일 기억에 남아요.（今天学的单词里，'适应性强'印象最深。）
-row	sentence	계산해 주세요				例句：최근 들어 많은 사람들이 계산해 주세요의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到检查请的重要性。）
-row	sentence	계산해 주세요				例句：체계적인 학습과 연구를 거쳐 계산해 주세요로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向检查请的方向推进发展。）
-row	sentence	계산해 주세요				例句：이 보고서는 계산해 주세요가 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了检查请对我们日常生活所产生的积极影响。）
+row	sentence	계산해 주세요				例句：다 먹었어요. 계산해 주세요!（我们吃完了，请结账！）
+row	sentence	계산해 주세요				例句：직원에게 계산해 달라고 말했어요.（我请店员帮忙结账。）
+row	sentence	계산해 주세요				例句：계산해 주세요라고 정중하게 부탁했어요.（我礼貌地请求对方结账。）
 row	sentence	만나서 반갑습니다				例句：예문을 통해 '만나서 반갑습니다'의 쓰임을 익혔어요.（通过例句掌握了'很高兴认识你'的用法。）
 row	sentence	만나서 반갑습니다				例句：'만나서 반갑습니다'와 비슷한 표현을 함께 정리해 봤어요.（我把与'很高兴认识你'相近的表达一起整理了一下。）
 row	sentence	만나서 반갑습니다				例句：사전에서 '만나서 반갑습니다'라는 표현을 찾아봤어요.（我在词典里查了'很高兴认识你'这个表达。）
@@ -17034,9 +17034,9 @@ row	sentence	경찰을 불러 주세요				例句：초심자에게 경찰을 �
 row	sentence	채식 메뉴 있어요				例句：채식 메뉴 있어요와 비교하면 채식 메뉴 있어요의 특징이 더 분명해집니다.（与有素食吗？比较之后，其特点会更加分明。）
 row	sentence	채식 메뉴 있어요				例句：학교 교육에서도 채식 메뉴 있어요를 점점 더 많이 다루고 있습니다.（学校教育中也越来越多地涉及有素食吗？。）
 row	sentence	채식 메뉴 있어요				例句：시간이 지나면서 채식 메뉴 있어요에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对有素食吗？的认识正在拓宽。）
-row	sentence	연상연하 커플				例句：전문가들은 연상연하 커플을 올바르게 이해하는 것이 무엇보다 중요하다고 강조합니다.（专家们强调，正确理解Noona浪漫比什么都重要。）
-row	sentence	연상연하 커플				例句：우리는 다양한 경험을 통해 연상연하 커플에 대한 폭넓은 시각을 기를 수 있습니다.（我们能够通过丰富的经历培养对Noona浪漫更加宽广的视角。）
-row	sentence	연상연하 커플				例句：최근 들어 많은 사람들이 연상연하 커플의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到Noona浪漫的重要性。）
+row	sentence	연상연하 커플				例句：연상연하 커플이 드라마에서 인기를 끌고 있어요.（年上年下情侣在电视剧中很受欢迎。）
+row	sentence	연상연하 커플				例句：연상연하 커플도 서로 존중하면 행복할 수 있어요.（年上年下情侣彼此尊重也能幸福。）
+row	sentence	연상연하 커플				例句：그 드라마는 연상연하 커플의 사랑을 다뤄요.（那部电视剧讲述了年上年下情侣的爱情。）
 row	sentence	길거리 음식				例句：새로운 환경에 적응하면서 길거리 음식에 대한 관심이 더욱 커졌습니다.（在适应新环境的过程中，对街头美食文化的关注度进一步提升了。）
 row	sentence	길거리 음식				例句：국가와 사회의 지속 가능한 발전을 위해 길거리 음식은 필수적인 요소입니다.（为了国家与社会的可持续发展，街头美食文化是必不可少的关键要素。）
 row	sentence	길거리 음식				例句：우리는 교육 과정을 통해 길거리 음식의 본질적 가치를 배울 수 있습니다.（我们能够通过教育课程学到街头美食文化的本质价值。）
@@ -17322,9 +17322,9 @@ row	sentence	학부모 상담				例句：어려운 여건 속에서도 학부�
 row	sentence	학교 폭력				例句：학교 폭력이 요즘 특히 주목받고 있습니다.（学校暴力近来尤其受到关注。）
 row	sentence	학교 폭력				例句：이번 학기 세미나에서는 학교 폭력을 집중적으로 다룰 예정입니다.（本学期的研讨课将集中探讨学校暴力。）
 row	sentence	학교 폭력				例句：기회가 되면 학교 폭력을 직접 경험해 보시길 권합니다.（如果有机会，推荐亲自体验一下学校暴力。）
-row	sentence	또래 압력				例句：초심자에게 또래 압력이 좋은 출발점이 됩니다.（对初学者来说，灌水达人是一个好的起点。）
-row	sentence	또래 압력				例句：전문가와 일반인 모두 또래 압력에 대해 이야기하고 싶어 합니다.（专家和普通人都想谈谈灌水达人。）
-row	sentence	또래 압력				例句：여러 나라에서 또래 압력을 두고 두고 연구해 왔습니다.（许多国家一直在反复研究灌水达人。）
+row	sentence	또래 압력				例句：청소년들은 또래 압력을 받을 수 있어요.（青少年可能会受到同龄人压力。）
+row	sentence	또래 압력				例句：또래 압력 때문에 원하지 않는 일을 하면 안 돼요.（不能因为同龄人压力去做不想做的事。）
+row	sentence	또래 압력				例句：건강한 친구 관계는 또래 압력을 이겨 내는 데 도움이 돼요.（健康的朋友关系有助于克服同龄人压力。）
 row	sentence	학교 우정				例句：학교 우정이 우리 생활 곳곳에 스며들어 있습니다.（学校里的友谊渗透在我们生活的各个角落。）
 row	sentence	학교 우정				例句：시간이 지나면서 학교 우정에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对学校里的友谊的认识正在拓宽。）
 row	sentence	학교 우정				例句：다양한 분야에서 학교 우정을 응용하고 있습니다.（各个领域都在应用学校里的友谊。）
@@ -17583,9 +17583,9 @@ row	sentence	첫 서리				例句：우리는 교육 과정을 통해 첫 서리
 row	sentence	잔뜩 흐린				例句：잔뜩 흐린은 사회 전반에 걸친 영향을 미칩니다.（阴天对整个社会都产生了影响。）
 row	sentence	잔뜩 흐린				例句：세계화 시대에 발맞추어 잔뜩 흐린은 국제적인 주목을 받고 있습니다.（顺应全球化时代的发展步伐，阴天正在受到国际社会的广泛瞩目。）
 row	sentence	잔뜩 흐린				例句：체계적인 관리 시스템을 구축하여 잔뜩 흐린을 효율적으로 활용하고 있습니다.（通过建立规范的管理系统，正在对阴天进行高效利用。）
-row	sentence	체감 더위				例句：체감 더위는 사회 전반에 걸친 영향을 미칩니다.（热门指数对整个社会都产生了影响。）
-row	sentence	체감 더위				例句：일상 속에서도 체감 더위가 쉽게 찾아볼 수 있습니다.（在日常生活中也容易见到热门指数。）
-row	sentence	체감 더위				例句：체감 더위와 관련된 경험은 누구에게나 소중한 자산이 됩니다.（与热门指数相关的经历会成为每个人宝贵的财富。）
+row	sentence	체감 더위				例句：기온은 32도지만 체감 더위는 38도예요.（气温是32度，但体感温度像38度。）
+row	sentence	체감 더위				例句：습도가 높으면 체감 더위가 더 심해져요.（湿度高时，体感炎热会更加明显。）
+row	sentence	체감 더위				例句：체감 더위 때문에 한낮에는 외출을 피했어요.（因为体感炎热，正午时分避免了外出。）
 row	sentence	한랭 전선				例句：한랭 전선은 사회 전반에 걸친 영향을 미칩니다.（冷锋面对整个社会都产生了影响。）
 row	sentence	한랭 전선				例句：학교 교육에서도 한랭 전선을 점점 더 많이 다루고 있습니다.（学校教育中也越来越多地涉及冷锋面。）
 row	sentence	한랭 전선				例句：한랭 전선과 비교하면 한랭 전선의 특징이 더 분명해집니다.（与冷锋面比较之后，其特点会更加分明。）
@@ -17664,9 +17664,9 @@ row	sentence	졸업 사진				例句：이번 학기 세미나에서는 졸업 �
 row	sentence	고등학교 동창회				例句：고등학교 동창회와 비교하면 고등학교 동창회의 특징이 더 분명해집니다.（与高中同学团聚么?。比较之后，其特点会更加分明。）
 row	sentence	고등학교 동창회				例句：신문 기사에서도 고등학교 동창회를 자주 접할 수 있습니다.（在报纸报道中也经常能接触到高中同学团聚么?。。）
 row	sentence	고등학교 동창회				例句：초심자에게 고등학교 동창회가 좋은 출발점이 됩니다.（对初学者来说，高中同学团聚么?。是一个好的起点。）
-row	sentence	교환 학생				例句：교환 학생과 비교하면 교환 학생의 특징이 더 분명해집니다.（与外汇留学生比较之后，其特点会更加分明。）
-row	sentence	교환 학생				例句：시간이 지나면서 교환 학생에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对外汇留学生的认识正在拓宽。）
-row	sentence	교환 학생				例句：다양한 분야에서 교환 학생을 응용하고 있습니다.（各个领域都在应用外汇留学生。）
+row	sentence	교환 학생				例句：교환 학생으로 한국에 왔어요.（我作为交换学生来到了韩国。）
+row	sentence	교환 학생				例句：우리 반에 외국인 교환 학생이 있어요.（我们班有一名外国交换学生。）
+row	sentence	교환 학생				例句：교환 학생과 서로의 문화를 배웠어요.（我和交换学生互相了解了彼此的文化。）
 row	sentence	해외 유학				例句：우리는 다양한 경험을 통해 해외 유학에 대한 폭넓은 시각을 기를 수 있습니다.（我们能够通过丰富的经历培养对境外留学更加宽广的视角。）
 row	sentence	해외 유학				例句：최근 들어 많은 사람들이 해외 유학의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到境外留学的重要性。）
 row	sentence	해외 유학				例句：체계적인 학습과 연구를 거쳐 해외 유학으로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向境外留学的方向推进发展。）
@@ -17838,9 +17838,9 @@ row	sentence	멜론 뮤직 어워드				例句：멜론 뮤직 어워드을/를 
 row	sentence	음악 방송				例句：음악 방송이 우리 생활 곳곳에 스며들어 있습니다.（音乐节目渗透在我们生活的各个角落。）
 row	sentence	음악 방송				例句：앞으로 음악 방송의 역할은 더욱 중요해질 것입니다.（未来音乐节目的作用会变得更加重要。）
 row	sentence	음악 방송				例句：현대 사회에서 음악 방송은 개인의 삶과 밀접한 관련을 맺고 있습니다.（在现代社会中，音乐节目与个人的生活有着极其密切的联系。）
-row	sentence	쇼 챔피언				例句：이 보고서는 쇼 챔피언이 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了显示英雄对我们日常生活所产生的积极影响。）
-row	sentence	쇼 챔피언				例句：많은 학자들은 학술 토론회에서 쇼 챔피언을 심도 있게 다루었습니다.（许多学者在学术研讨会上对显示英雄进行了深入的探讨。）
-row	sentence	쇼 챔피언				例句：성공적인 미래를 준비하기 위해서는 쇼 챔피언과 관련된 지식을 쌓아야 합니다.（为了准备成功的未来，必须积累与显示英雄相关的知识。）
+row	sentence	쇼 챔피언				例句：가수가 쇼 챔피언에 출연했어요.（歌手参加了《Show Champion》。）
+row	sentence	쇼 챔피언				例句：쇼 챔피언에서 신곡 무대를 선보였어요.（他在《Show Champion》上表演了新歌舞台。）
+row	sentence	쇼 챔피언				例句：친구와 함께 쇼 챔피언을 시청했어요.（我和朋友一起观看了《Show Champion》。）
 row	sentence	인디 음악				例句：기존의 관점에서 벗어나 인디 음악으로 접근하는 새로운 시도가 요구됩니다.（需要打破传统视角，以独立音乐为导向展开新的尝试。）
 row	sentence	인디 음악				例句：어려운 여건 속에서도 인디 음악이 제 역할을 다해 큰 성과를 거두었습니다.（即便在艰难的条件下，独立音乐依然发挥了充分的作用并取得了显著成果。）
 row	sentence	인디 음악				例句：우리는 실천적인 노력을 기울여 인디 음악의 완성도를 높여야 합니다.（我们必须付出切实具体的努力，以提升独立音乐的成熟度。）
@@ -17922,9 +17922,9 @@ row	sentence	정신 건강				例句：국가와 사회의 지속 가능한 발�
 row	sentence	혈액 검사				例句：혈액 검사을/를 둘러싼 논의가 활발해지고 있습니다.（围绕血液检查的讨论正变得活跃。）
 row	sentence	혈액 검사				例句：우리는 실천적인 노력을 기울여 혈액 검사의 완성도를 높여야 합니다.（我们必须付出切实具体的努力，以提升血液检查的成熟度。）
 row	sentence	혈액 검사				例句：세계화 시대에 발맞추어 혈액 검사는 국제적인 주목을 받고 있습니다.（顺应全球化时代的发展步伐，血液检查正在受到国际社会的广泛瞩目。）
-row	sentence	시력 검사				例句：시력 검사을/를 둘러싼 논의가 활발해지고 있습니다.（围绕眼 <x id="522"的讨论正变得活跃。）
-row	sentence	시력 검사				例句：관련 업계에서는 시력 검사를 중요한 과제로 꼽고 있습니다.（相关行业把眼 <x id="522"列为重要课题。）
-row	sentence	시력 검사				例句：일상 속에서도 시력 검사가 쉽게 찾아볼 수 있습니다.（在日常生活中也容易见到眼 <x id="522"。）
+row	sentence	시력 검사				例句：학교에서 정기적으로 시력 검사를 해요.（学校会定期进行视力检查。）
+row	sentence	시력 검사				例句：시력 검사를 받으러 안과에 갔어요.（我去眼科接受视力检查。）
+row	sentence	시력 검사				例句：시력 검사 결과 안경이 필요하대요.（视力检查结果显示需要戴眼镜。）
 row	sentence	신체 검사				例句：신체 검사을/를 둘러싼 논의가 활발해지고 있습니다.（围绕体检的讨论正变得活跃。）
 row	sentence	신체 검사				例句：신체 검사는 사회 전반에 걸친 영향을 미칩니다.（体检对整个社会都产生了影响。）
 row	sentence	신체 검사				例句：학교 교육에서도 신체 검사를 점점 더 많이 다루고 있습니다.（学校教育中也越来越多地涉及体检。）
@@ -17976,18 +17976,18 @@ row	sentence	명절 상여금				例句：여러 나라에서 명절 상여금�
 row	sentence	전통 놀이				例句：전통 놀이가 우리 생활 곳곳에 스며들어 있습니다.（传统游戏渗透在我们生活的各个角落。）
 row	sentence	전통 놀이				例句：시간이 지나면서 전통 놀이에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对传统游戏的认识正在拓宽。）
 row	sentence	전통 놀이				例句：다양한 분야에서 전통 놀이를 응용하고 있습니다.（各个领域都在应用传统游戏。）
-row	sentence	명절 음식				例句：최근 들어 많은 사람들이 명절 음식의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到Chuseok Food的重要性。）
-row	sentence	명절 음식				例句：체계적인 학습과 연구를 거쳐 명절 음식으로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向Chuseok Food的方向推进发展。）
-row	sentence	명절 음식				例句：이 보고서는 명절 음식이 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了Chuseok Food对我们日常生活所产生的积极影响。）
+row	sentence	명절 음식				例句：명절 음식 준비에 온 가족이 함께 도왔어요.（全家人一起帮忙准备节日食品。）
+row	sentence	명절 음식				例句：추석에는 다양한 명절 음식을 먹어요.（秋夕会吃各种节日食品。）
+row	sentence	명절 음식				例句：명절 음식에는 가족의 정성이 담겨 있어요.（节日食品中包含着家人的心意。）
 row	sentence	축제 퍼레이드				例句：우리는 교육 과정을 통해 축제 퍼레이드의 본질적 가치를 배울 수 있습니다.（我们能够通过教育课程学到节日游行的本质价值。）
 row	sentence	축제 퍼레이드				例句：동료들과 깊이 있는 대화를 나누며 축제 퍼레이드를 새롭게 조명해 보았습니다.（与同事们进行深度对话，从而对节日游行进行了全新的审视。）
 row	sentence	축제 퍼레이드				例句：기존의 관점에서 벗어나 축제 퍼레이드로 접근하는 새로운 시도가 요구됩니다.（需要打破传统视角，以节日游行为导向展开新的尝试。）
 row	sentence	어른께 절				例句：어른께 절과 비교하면 어른께 절의 특징이 더 분명해집니다.（与向长老鞠躬比较之后，其特点会更加分明。）
 row	sentence	어른께 절				例句：공공의 이익을 증진하기 위해 어른께 절과 긴밀한 협력을 이어가고 있습니다.（为了增进公众利益，正保持与向长老鞠躬的紧密协作。）
 row	sentence	어른께 절				例句：이번 학기 세미나에서는 어른께 절을 집중적으로 다룰 예정입니다.（本学期的研讨课将集中探讨向长老鞠躬。）
-row	sentence	풍성한 한가위 되세요				例句：풍성한 한가위 되세요와 비교하면 풍성한 한가위 되세요의 특징이 더 분명해집니다.（与Chuseok问候语比较之后，其特点会更加分明。）
-row	sentence	풍성한 한가위 되세요				例句：신문 기사에서도 풍성한 한가위 되세요를 자주 접할 수 있습니다.（在报纸报道中也经常能接触到Chuseok问候语。）
-row	sentence	풍성한 한가위 되세요				例句：초심자에게 풍성한 한가위 되세요가 좋은 출발점이 됩니다.（对初学者来说，Chuseok问候语是一个好的起点。）
+row	sentence	풍성한 한가위 되세요				例句：가족에게 풍성한 한가위 되세요라고 인사했어요.（我向家人祝愿秋夕安康丰盛。）
+row	sentence	풍성한 한가위 되세요				例句：친구에게 풍성한 한가위 되세요라는 문자를 보냈어요.（我给朋友发了“祝您度过丰盛的秋夕”的短信。）
+row	sentence	풍성한 한가위 되세요				例句：풍성한 한가위 되세요! 가족과 행복한 시간 보내세요.（祝您秋夕丰盛安康！愿您和家人度过幸福时光。）
 row	sentence	연인의 날				例句：연인의 날과 비교하면 연인의 날의 특징이 더 분명해집니다.（与情侣日比较之后，其特点会更加分明。）
 row	sentence	연인의 날				例句：시간이 지나면서 연인의 날에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对情侣日的认识正在拓宽。）
 row	sentence	연인의 날				例句：다양한 분야에서 연인의 날을 응용하고 있습니다.（各个领域都在应用情侣日。）
@@ -18066,9 +18066,9 @@ row	sentence	차량 등록				例句：관련 업계에서는 차량 등록을 �
 row	sentence	차량 고장				例句：차량 고장을/를 둘러싼 논의가 활발해지고 있습니다.（围绕汽车故障的讨论正变得活跃。）
 row	sentence	차량 고장				例句：전문가와 일반인 모두 차량 고장에 대해 이야기하고 싶어 합니다.（专家和普通人都想谈谈汽车故障。）
 row	sentence	차량 고장				例句：여러 나라에서 차량 고장을 두고 두고 연구해 왔습니다.（许多国家一直在反复研究汽车故障。）
-row	sentence	가속 페달				例句：가속 페달이 우리 생활 곳곳에 스며들어 있습니다.（加速卡渗透在我们生活的各个角落。）
-row	sentence	가속 페달				例句：다양한 분야에서 가속 페달을 응용하고 있습니다.（各个领域都在应用加速卡。）
-row	sentence	가속 페달				例句：앞으로 가속 페달의 역할은 더욱 중요해질 것입니다.（未来加速卡的作用会变得更加重要。）
+row	sentence	가속 페달				例句：가속 페달을 천천히 밟으세요.（请慢慢踩下加速踏板。）
+row	sentence	가속 페달				例句：운전할 때 가속 페달과 브레이크를 혼동하면 안 돼요.（开车时不能混淆加速踏板和刹车。）
+row	sentence	가속 페달				例句：비가 오면 가속 페달을 조심해서 조작해야 해요.（下雨时要小心操作加速踏板。）
 row	sentence	사이드 미러				例句：체계적인 학습과 연구를 거쳐 사이드 미러로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向侧镜的方向推进发展。）
 row	sentence	사이드 미러				例句：이 보고서는 사이드 미러가 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了侧镜对我们日常生活所产生的积极影响。）
 row	sentence	사이드 미러				例句：많은 학자들은 학술 토론회에서 사이드 미러를 심도 있게 다루었습니다.（许多学者在学术研讨会上对侧镜进行了深入的探讨。）
@@ -18453,15 +18453,15 @@ row	sentence	세 살 버릇 여든까지 간다				例句：사전에서 '세 �
 row	sentence	쇠뿔도 단김에 빼라				例句：쇠뿔도 단김에 빼라는 사회 전반에 걸친 영향을 미칩니다.（打铁趁热对整个社会都产生了影响。）
 row	sentence	쇠뿔도 단김에 빼라				例句：학교 교육에서도 쇠뿔도 단김에 빼라를 점점 더 많이 다루고 있습니다.（学校教育中也越来越多地涉及打铁趁热。）
 row	sentence	쇠뿔도 단김에 빼라				例句：쇠뿔도 단김에 빼라와 비교하면 쇠뿔도 단김에 빼라의 특징이 더 분명해집니다.（与打铁趁热比较之后，其特点会更加分明。）
-row	sentence	지난 일은 지난 일이다				例句：'지난 일은 지난 일이다'라는 말을 처음 들었을 때 의미를 몰랐어요.（第一次听到'桥下的水'这个词时，我还不知道它的意思。）
-row	sentence	지난 일은 지난 일이다				例句：선생님께서 '지난 일은 지난 일이다'의 용법을 설명해 주셨어요.（老师给我们讲解了'桥下的水'的用法。）
-row	sentence	지난 일은 지난 일이다				例句：예문을 통해 '지난 일은 지난 일이다'의 쓰임을 익혔어요.（通过例句掌握了'桥下的水'的用法。）
+row	sentence	지난 일은 지난 일이다				例句：지난 일은 지난 일이라고 생각하고 앞으로 나아가요.（就把过去的事当作过去，继续向前吧。）
+row	sentence	지난 일은 지난 일이다				例句：지난 일은 지난 일이다라는 마음으로 용서했어요.（我抱着“过去的事就让它过去”的心态原谅了对方。）
+row	sentence	지난 일은 지난 일이다				例句：친구가 지난 일은 지난 일이라고 위로해 줬어요.（朋友用“过去的事就让它过去”来安慰我。）
 row	sentence	로마는 하루아침에 이루어지지 않았다				例句：문장에서 '로마는 하루아침에 이루어지지 않았다'가 어떻게 쓰이는지 찾아봤어요.（我查了'罗马不是一天造成的'在句子中是怎么用的。）
 row	sentence	로마는 하루아침에 이루어지지 않았다				例句：'로마는 하루아침에 이루어지지 않았다'라는 말을 처음 들었을 때 의미를 몰랐어요.（第一次听到'罗马不是一天造成的'这个词时，我还不知道它的意思。）
 row	sentence	로마는 하루아침에 이루어지지 않았다				例句：선생님께서 '로마는 하루아침에 이루어지지 않았다'의 용법을 설명해 주셨어요.（老师给我们讲解了'罗马不是一天造成的'的用法。）
-row	sentence	아는 것이 힘이다				例句：오늘 배운 단어 중에 '아는 것이 힘이다'가 제일 기억에 남아요.（今天学的单词里，'Knowledge Is Power 知识就是力量'印象最深。）
-row	sentence	아는 것이 힘이다				例句：문장에서 '아는 것이 힘이다'가 어떻게 쓰이는지 찾아봤어요.（我查了'Knowledge Is Power 知识就是力量'在句子中是怎么用的。）
-row	sentence	아는 것이 힘이다				例句：'아는 것이 힘이다'라는 말을 처음 들었을 때 의미를 몰랐어요.（第一次听到'Knowledge Is Power 知识就是力量'这个词时，我还不知道它的意思。）
+row	sentence	아는 것이 힘이다				例句：아는 것이 힘이다라는 말처럼 꾸준히 공부해야 해요.（正如“知识就是力量”所说，要坚持学习。）
+row	sentence	아는 것이 힘이다				例句：선생님은 아는 것이 힘이다라는 말을 자주 하셨어요.（老师经常说“知识就是力量”。）
+row	sentence	아는 것이 힘이다				例句：아는 것이 힘이다라는 신념으로 새로운 것을 배웠어요.（我本着“知识就是力量”的信念学习了新东西。）
 row	sentence	천천히 가는 자가 이긴다				例句：'천천히 가는 자가 이긴다'와 관련된 자료를 찾아 읽었어요.（我找了与'稳扎稳打'相关的资料来读。）
 row	sentence	천천히 가는 자가 이긴다				例句：오늘 배운 단어 중에 '천천히 가는 자가 이긴다'가 제일 기억에 남아요.（今天学的单词里，'稳扎稳打'印象最深。）
 row	sentence	천천히 가는 자가 이긴다				例句：문장에서 '천천히 가는 자가 이긴다'가 어떻게 쓰이는지 찾아봤어요.（我查了'稳扎稳打'在句子中是怎么用的。）
@@ -18567,9 +18567,9 @@ row	sentence	아주 드물게				例句：우리는 다양한 경험을 통해 �
 row	sentence	비가 억수로 쏟아진다				例句：'비가 억수로 쏟아진다'와 비슷한 표현을 함께 정리해 봤어요.（我把与'下雨的猫和狗'相近的表达一起整理了一下。）
 row	sentence	비가 억수로 쏟아진다				例句：사전에서 '비가 억수로 쏟아진다'라는 표현을 찾아봤어요.（我在词典里查了'下雨的猫和狗'这个表达。）
 row	sentence	비가 억수로 쏟아진다				例句：'비가 억수로 쏟아진다'와 관련된 자료를 찾아 읽었어요.（我找了与'下雨的猫和狗'相关的资料来读。）
-row	sentence	몸이 좋지 않다				例句：예문을 통해 '몸이 좋지 않다'의 쓰임을 익혔어요.（通过例句掌握了'在天气下面'的用法。）
-row	sentence	몸이 좋지 않다				例句：'몸이 좋지 않다'와 비슷한 표현을 함께 정리해 봤어요.（我把与'在天气下面'相近的表达一起整理了一下。）
-row	sentence	몸이 좋지 않다				例句：사전에서 '몸이 좋지 않다'라는 표현을 찾아봤어요.（我在词典里查了'在天气下面'这个表达。）
+row	sentence	몸이 좋지 않다				例句：오늘은 몸이 좋지 않아서 쉬려고 해요.（今天身体不舒服，打算休息。）
+row	sentence	몸이 좋지 않다				例句：몸이 좋지 않으면 무리하지 마세요.（身体不舒服时不要勉强自己。）
+row	sentence	몸이 좋지 않다				例句：어제부터 몸이 좋지 않아 병원에 갔어요.（从昨天起身体就不舒服，所以去了医院。）
 row	sentence	주목을 독차지하다				例句：선생님께서 '주목을 독차지하다'의 용법을 설명해 주셨어요.（老师给我们讲解了'窃取表演'的用法。）
 row	sentence	주목을 독차지하다				例句：예문을 통해 '주목을 독차지하다'의 쓰임을 익혔어요.（通过例句掌握了'窃取表演'的用法。）
 row	sentence	주목을 독차지하다				例句：'주목을 독차지하다'와 비슷한 표현을 함께 정리해 봤어요.（我把与'窃取表演'相近的表达一起整理了一下。）
@@ -18585,33 +18585,33 @@ row	sentence	같은 처지다				例句：'같은 처지다'라는 말을 처음
 row	sentence	다리를 불태우다				例句：'다리를 불태우다'와 관련된 자료를 찾아 읽었어요.（我找了与'燃烧的桥梁'相关的资料来读。）
 row	sentence	다리를 불태우다				例句：오늘 배운 단어 중에 '다리를 불태우다'가 제일 기억에 남아요.（今天学的单词里，'燃烧的桥梁'印象最深。）
 row	sentence	다리를 불태우다				例句：문장에서 '다리를 불태우다'가 어떻게 쓰이는지 찾아봤어요.（我查了'燃烧的桥梁'在句子中是怎么用的。）
-row	sentence	백방으로 노력하다				例句：사전에서 '백방으로 노력하다'라는 표현을 찾아봤어요.（我在词典里查了'不留任何未翻转的石头'这个表达。）
-row	sentence	백방으로 노력하다				例句：'백방으로 노력하다'와 관련된 자료를 찾아 읽었어요.（我找了与'不留任何未翻转的石头'相关的资料来读。）
-row	sentence	백방으로 노력하다				例句：오늘 배운 단어 중에 '백방으로 노력하다'가 제일 기억에 남아요.（今天学的单词里，'不留任何未翻转的石头'印象最深。）
+row	sentence	백방으로 노력하다				例句：문제를 해결하려고 백방으로 노력했어요.（为了​​解决问题，我想尽一切办法努力了。）
+row	sentence	백방으로 노력하다				例句：팀은 환자를 구하기 위해 백방으로 노력했어요.（团队为了救治患者竭尽了全力。）
+row	sentence	백방으로 노력하다				例句：목표를 이루기 위해 백방으로 노력하고 있어요.（为了实现目标，我正在千方百计地努力。）
 row	sentence	책임을 떠넘기다				例句：'책임을 떠넘기다'와 비슷한 표현을 함께 정리해 봤어요.（我把与'推卸责任'相近的表达一起整理了一下。）
 row	sentence	책임을 떠넘기다				例句：사전에서 '책임을 떠넘기다'라는 표현을 찾아봤어요.（我在词典里查了'推卸责任'这个表达。）
 row	sentence	책임을 떠넘기다				例句：'책임을 떠넘기다'와 관련된 자료를 찾아 읽었어요.（我找了与'推卸责任'相关的资料来读。）
 row	sentence	오늘은 여기서 끝내다				例句：예문을 통해 '오늘은 여기서 끝내다'의 쓰임을 익혔어요.（通过例句掌握了'结束这一天'的用法。）
 row	sentence	오늘은 여기서 끝내다				例句：'오늘은 여기서 끝내다'와 비슷한 표현을 함께 정리해 봤어요.（我把与'结束这一天'相近的表达一起整理了一下。）
 row	sentence	오늘은 여기서 끝내다				例句：사전에서 '오늘은 여기서 끝내다'라는 표현을 찾아봤어요.（我在词典里查了'结束这一天'这个表达。）
-row	sentence	가능성이 낮다				例句：선생님께서 '가능성이 낮다'의 용법을 설명해 주셨어요.（老师给我们讲解了'远射'的用法。）
-row	sentence	가능성이 낮다				例句：예문을 통해 '가능성이 낮다'의 쓰임을 익혔어요.（通过例句掌握了'远射'的用法。）
-row	sentence	가능성이 낮다				例句：'가능성이 낮다'와 비슷한 표현을 함께 정리해 봤어요.（我把与'远射'相近的表达一起整理了一下。）
+row	sentence	가능성이 낮다				例句：이번 계획이 성공할 가능성은 낮아요.（这次计划成功的可能性很低。）
+row	sentence	가능성이 낮다				例句：비가 그칠 가능성이 낮아서 우산을 가져왔어요.（雨停的可能性不大，所以我带了伞。）
+row	sentence	가능성이 낮다				例句：가능성이 낮더라도 끝까지 시도해 볼 거예요.（即使希望渺茫，我也会努力尝试到底。）
 row	sentence	일을 시작하다				例句：'일을 시작하다'라는 말을 처음 들었을 때 의미를 몰랐어요.（第一次听到'Get the Ball Rolling'这个词时，我还不知道它的意思。）
 row	sentence	일을 시작하다				例句：선생님께서 '일을 시작하다'의 용법을 설명해 주셨어요.（老师给我们讲解了'Get the Ball Rolling'的用法。）
 row	sentence	일을 시작하다				例句：예문을 통해 '일을 시작하다'의 쓰임을 익혔어요.（通过例句掌握了'Get the Ball Rolling'的用法。）
 row	sentence	실력을 키우다				例句：문장에서 '실력을 키우다'가 어떻게 쓰이는지 찾아봤어요.（我查了'提升表现。'在句子中是怎么用的。）
 row	sentence	실력을 키우다				例句：'실력을 키우다'라는 말을 처음 들었을 때 의미를 몰랐어요.（第一次听到'提升表现。'这个词时，我还不知道它的意思。）
 row	sentence	실력을 키우다				例句：선생님께서 '실력을 키우다'의 용법을 설명해 주셨어요.（老师给我们讲解了'提升表现。'的用法。）
-row	sentence	창의적으로 생각하다				例句：오늘 배운 단어 중에 '창의적으로 생각하다'가 제일 기억에 남아요.（今天学的单词里，'打破常规。&#10'印象最深。）
-row	sentence	창의적으로 생각하다				例句：문장에서 '창의적으로 생각하다'가 어떻게 쓰이는지 찾아봤어요.（我查了'打破常规。&#10'在句子中是怎么用的。）
-row	sentence	창의적으로 생각하다				例句：'창의적으로 생각하다'라는 말을 처음 들었을 때 의미를 몰랐어요.（第一次听到'打破常规。&#10'这个词时，我还不知道它的意思。）
-row	sentence	기회를 놓치다				例句：'기회를 놓치다'와 관련된 자료를 찾아 읽었어요.（我找了与'错过游船'相关的资料来读。）
-row	sentence	기회를 놓치다				例句：오늘 배운 단어 중에 '기회를 놓치다'가 제일 기억에 남아요.（今天学的单词里，'错过游船'印象最深。）
-row	sentence	기회를 놓치다				例句：문장에서 '기회를 놓치다'가 어떻게 쓰이는지 찾아봤어요.（我查了'错过游船'在句子中是怎么用的。）
-row	sentence	이를 악물다				例句：사전에서 '이를 악물다'라는 표현을 찾아봤어요.（我在词典里查了'咬住子弹'这个表达。）
-row	sentence	이를 악물다				例句：'이를 악물다'와 관련된 자료를 찾아 읽었어요.（我找了与'咬住子弹'相关的资料来读。）
-row	sentence	이를 악물다				例句：오늘 배운 단어 중에 '이를 악물다'가 제일 기억에 남아요.（今天学的单词里，'咬住子弹'印象最深。）
+row	sentence	창의적으로 생각하다				例句：문제를 해결하려면 창의적으로 생각해야 해요.（要解决问题，就要创造性地思考。）
+row	sentence	창의적으로 생각하다				例句：학생들에게 창의적으로 생각하는 방법을 가르쳤어요.（教学生如何创造性地思考。）
+row	sentence	창의적으로 생각하다				例句：새로운 아이디어를 위해 창의적으로 생각해 봅시다.（为了产生新想法，让我们创造性地思考吧。）
+row	sentence	기회를 놓치다				例句：이번에는 좋은 기회를 놓치고 싶지 않아요.（这次我不想错过好机会。）
+row	sentence	기회를 놓치다				例句：준비하지 않으면 중요한 기회를 놓칠 수 있어요.（不做好准备可能会错过重要机会。）
+row	sentence	기회를 놓치다				例句：그는 망설이다가 기회를 놓쳤어요.（他因为犹豫而错过了机会。）
+row	sentence	이를 악물다				例句：힘들어도 이를 악물고 끝까지 해냈어요.（即使很辛苦，我也咬紧牙关坚持到了最后。）
+row	sentence	이를 악물다				例句：그는 이를 악물고 재활 치료를 받았어요.（他咬紧牙关接受了康复治疗。）
+row	sentence	이를 악물다				例句：실패했지만 이를 악물고 다시 도전했어요.（虽然失败了，但他咬紧牙关再次挑战。）
 row	sentence	비장의 무기가 있다				例句：'비장의 무기가 있다'와 비슷한 표현을 함께 정리해 봤어요.（我把与'有一张王牌在你的袖子里'相近的表达一起整理了一下。）
 row	sentence	비장의 무기가 있다				例句：사전에서 '비장의 무기가 있다'라는 표현을 찾아봤어요.（我在词典里查了'有一张王牌在你的袖子里'这个表达。）
 row	sentence	비장의 무기가 있다				例句：'비장의 무기가 있다'와 관련된 자료를 찾아 읽었어요.（我找了与'有一张王牌在你的袖子里'相关的资料来读。）
@@ -20040,9 +20040,9 @@ row	sentence	통계적 유의성				例句：이번 학기 세미나에서는 �
 row	sentence	표본 크기				例句：표본 크기와 비교하면 표본 크기의 특징이 더 분명해집니다.（与样本量比较之后，其特点会更加分明。）
 row	sentence	표본 크기				例句：신문 기사에서도 표본 크기를 자주 접할 수 있습니다.（在报纸报道中也经常能接触到样本量。）
 row	sentence	표본 크기				例句：초심자에게 표본 크기가 좋은 출발점이 됩니다.（对初学者来说，样本量是一个好的起点。）
-row	sentence	데이터 시각화				例句：데이터 시각화와 비교하면 데이터 시각화의 특징이 더 분명해집니다.（与数据可视化&#10比较之后，其特点会更加分明。）
-row	sentence	데이터 시각화				例句：시간이 지나면서 데이터 시각화에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对数据可视化&#10的认识正在拓宽。）
-row	sentence	데이터 시각화				例句：다양한 분야에서 데이터 시각화를 응용하고 있습니다.（各个领域都在应用数据可视化&#10。）
+row	sentence	데이터 시각화				例句：데이터 시각화는 복잡한 정보를 쉽게 보여 줘요.（数据可视化能直观呈现复杂信息。）
+row	sentence	데이터 시각화				例句：보고서에 데이터 시각화 자료를 넣었어요.（我在报告中加入了数据可视化资料。）
+row	sentence	데이터 시각화				例句：데이터 시각화를 이용하면 추세를 쉽게 알 수 있어요.（利用数据可视化可以轻松了解趋势。）
 row	sentence	소프트웨어 개발				例句：우리는 다양한 경험을 통해 소프트웨어 개발에 대한 폭넓은 시각을 기를 수 있습니다.（我们能够通过丰富的经历培养对软件开发更加宽广的视角。）
 row	sentence	소프트웨어 개발				例句：최근 들어 많은 사람들이 소프트웨어 개발의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到软件开发的重要性。）
 row	sentence	소프트웨어 개발				例句：체계적인 학습과 연구를 거쳐 소프트웨어 개발로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向软件开发的方向推进发展。）
@@ -21306,9 +21306,9 @@ row	sentence	가깝다				例句：요즘 들어 모든 게 좀 가깝다고 느
 row	sentence	가늘다				例句：새 환경이 처음엔 좀 가늘게 느껴질 수 있어요.（新环境起初可能让人觉得有点要薄。）
 row	sentence	가늘다				例句：그 소식을 듣고 모두 가늘다고 했어요.（听到那个消息，大家都说很要薄。）
 row	sentence	가늘다				例句：요즘 들어 모든 게 좀 가늘다고 느껴져요.（最近总觉得一切都很要薄。）
-row	sentence	가볍다				例句：가볍다는 이야기를 어릴 때 자주 들었어요.（小时候常听人说很光污染。）
-row	sentence	가볍다				例句：새 환경이 처음엔 좀 가볍게 느껴질 수 있어요.（新环境起初可能让人觉得有点光污染。）
-row	sentence	가볍다				例句：그 소식을 듣고 모두 가볍다고 했어요.（听到那个消息，大家都说很光污染。）
+row	sentence	가볍다				例句：이 가방은 가벼워서 들고 다니기 좋아요.（这个包很轻，方便携带。）
+row	sentence	가볍다				例句：아침에는 가볍게 산책을 했어요.（早上轻松地散了会儿步。）
+row	sentence	가볍다				例句：점심으로 가벼운 음식을 먹었어요.（午饭吃了些清淡的食物。）
 row	sentence	가운데				例句：체계적인 학습과 연구를 거쳐 가운데로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向居中的方向推进发展。）
 row	sentence	가운데				例句：이 보고서는 가운데가 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了居中对我们日常生活所产生的积极影响。）
 row	sentence	가운데				例句：많은 학자들은 학술 토론회에서 가운데를 심도 있게 다루었습니다.（许多学者在学术研讨会上对居中进行了深入的探讨。）
@@ -21450,9 +21450,9 @@ row	sentence	그날				例句：다양한 분야에서 그날을 응용하고 �
 row	sentence	그냥				例句：팀원들이 그냥 협력해서 프로젝트를 마쳤어요.（队员们简单地协作完成了项目。）
 row	sentence	그냥				例句：그 일은 생각보다 그냥 풀렸어요.（那件事比想象中简单地地解决了。）
 row	sentence	그냥				例句：회의 준비를 그냥 끝냈어요.（我简单地完成了会议准备。）
-row	sentence	그대로				例句：저는 아침에 그대로 일어나는 편이에요.（我早上纯文本的logo起床。）
-row	sentence	그대로				例句：팀원들이 그대로 협력해서 프로젝트를 마쳤어요.（队员们纯文本的logo协作完成了项目。）
-row	sentence	그대로				例句：그 일은 생각보다 그대로 풀렸어요.（那件事比想象中纯文本的logo地解决了。）
+row	sentence	그대로				例句：원래 계획을 그대로 진행하기로 했어요.（我们决定按原计划照常进行。）
+row	sentence	그대로				例句：상자 안의 물건을 그대로 두세요.（请把箱子里的东西原样放着。）
+row	sentence	그대로				例句：그는 약속한 시간에 그대로 나타났어요.（他按约定的时间准时出现了。）
 row	sentence	그동안				例句：학생들이 그동안 발표를 준비했어요.（学生们自从我们上次见面或谈话以来准备了发表。）
 row	sentence	그동안				例句：저는 아침에 그동안 일어나는 편이에요.（我早上自从我们上次见面或谈话以来起床。）
 row	sentence	그동안				例句：팀원들이 그동안 협력해서 프로젝트를 마쳤어요.（队员们自从我们上次见面或谈话以来协作完成了项目。）
@@ -21819,9 +21819,9 @@ row	sentence	떠나다				例句：떠나는 것을 처음 배웠을 때 어려�
 row	sentence	떨어지다				例句：요즘 떨어지는 것을 좋아하는 사람이 많아졌어요.（近来喜欢摔跟头的人变多了。）
 row	sentence	떨어지다				例句：매일 조금씩 떨어지려고 노력하고 있어요.（我每天都在努力一点点去摔跟头。）
 row	sentence	떨어지다				例句：지난주에 처음으로 떨어지는 것에 도전해 봤어요.（上周我第一次挑战了摔跟头。）
-row	sentence	또				例句：문제를 또 다루면 결과가 달라져요.（你可能还喜欢&hellip处理问题，结果就会不一样。）
-row	sentence	또				例句：그는 어떤 일이든 또 받아들여요.（无论什么事，他都你可能还喜欢&hellip接受。）
-row	sentence	또				例句：학생들이 또 발표를 준비했어요.（学生们你可能还喜欢&hellip准备了发表。）
+row	sentence	또				例句：다음 주에 또 만나요.（下周再见。）
+row	sentence	또				例句：커피를 또 한 잔 마셨어요.（我又喝了一杯咖啡。）
+row	sentence	또				例句：그 소식을 듣고 또 웃었어요.（听到那个消息后又笑了。）
 row	sentence	또는				例句：상황이 또는 변하고 있어요.（情况正在要不是变化。）
 row	sentence	또는				例句：문제를 또는 다루면 결과가 달라져요.（要不是处理问题，结果就会不一样。）
 row	sentence	또는				例句：그는 어떤 일이든 또는 받아들여요.（无论什么事，他都要不是接受。）
@@ -22086,9 +22086,9 @@ row	sentence	분위기				例句：이 보고서는 분위기가 우리 일상�
 row	sentence	분홍색				例句：우리는 교육 과정을 통해 분홍색의 본질적 가치를 배울 수 있습니다.（我们能够通过教育课程学到粉红色的本质价值。）
 row	sentence	분홍색				例句：동료들과 깊이 있는 대화를 나누며 분홍색을 새롭게 조명해 보았습니다.（与同事们进行深度对话，从而对粉红色进行了全新的审视。）
 row	sentence	분홍색				例句：기존의 관점에서 벗어나 분홍색으로 접근하는 새로운 시도가 요구됩니다.（需要打破传统视角，以粉红色为导向展开新的尝试。）
-row	sentence	불쌍하다				例句：불쌍하다는 이야기를 어릴 때 자주 들었어요.（小时候常听人说很(형용사)。）
-row	sentence	불쌍하다				例句：이 제품은 사용자들 사이에서 불쌍하다는 평가를 받고 있어요.（这款产品在用户之间获得了(형용사)的评价。）
-row	sentence	불쌍하다				例句：오늘따라 유독 불쌍하네요.（今天格外觉得(형용사)。）
+row	sentence	불쌍하다				例句：길을 잃은 강아지가 너무 불쌍해 보여요.（那只迷路的小狗看起来很可怜。）
+row	sentence	불쌍하다				例句：어려운 사람을 불쌍하게 여기기보다 도와야 해요.（与其怜悯困难的人，不如帮助他们。）
+row	sentence	불쌍하다				例句：비를 맞고 있는 고양이가 불쌍했어요.（淋雨的猫很可怜。）
 row	sentence	붙다				例句：붙기 때문에 요즘 시간이 부족해요.（因为要要坚持，近来时间不够用。）
 row	sentence	붙다				例句：붙기 전에 계획을 세우는 편이 좋아요.（在要坚持之前，最好先制定好计划。）
 row	sentence	붙다				例句：친구와 함께 붙기로 했어요.（我决定和朋友一起要坚持。）
@@ -23334,9 +23334,9 @@ row	sentence	간편하다				例句：친구는 그 장소가 간편하다고 �
 row	sentence	간호				例句：간호가 요즘 특히 주목받고 있습니다.（护理近来尤其受到关注。）
 row	sentence	간호				例句：많은 학자들은 학술 토론회에서 간호를 심도 있게 다루었습니다.（许多学者在学术研讨会上对护理进行了深入的探讨。）
 row	sentence	간호				例句：성공적인 미래를 준비하기 위해서는 간호와 관련된 지식을 쌓아야 합니다.（为了准备成功的未来，必须积累与护理相关的知识。）
-row	sentence	간혹				例句：상황이 간혹 변하고 있어요.（情况正在重新启动服务器。嘿-这是一台电脑，有时您只需要这变化。）
-row	sentence	간혹				例句：문제를 간혹 다루면 결과가 달라져요.（重新启动服务器。嘿-这是一台电脑，有时您只需要这处理问题，结果就会不一样。）
-row	sentence	간혹				例句：그는 어떤 일이든 간혹 받아들여요.（无论什么事，他都重新启动服务器。嘿-这是一台电脑，有时您只需要这接受。）
+row	sentence	간혹				例句：간혹 지하철이 늦게 도착할 때가 있어요.（地铁偶尔会晚到。）
+row	sentence	간혹				例句：그 식당에는 간혹 유명인이 찾아와요.（那家餐厅偶尔会有名人光顾。）
+row	sentence	간혹				例句：간혹 혼자 조용히 쉬고 싶을 때가 있어요.（偶尔会想一个人安静地休息。）
 row	sentence	갇히다				例句：갇히기 전에 계획을 세우는 편이 좋아요.（在被锁起来之前，最好先制定好计划。）
 row	sentence	갇히다				例句：친구와 함께 갇히기로 했어요.（我决定和朋友一起被锁起来。）
 row	sentence	갇히다				例句：갇히는 것을 처음 배웠을 때 어려웠어요.（刚开始学被锁起来的时候觉得很难。）
@@ -23349,9 +23349,9 @@ row	sentence	갈증				例句：현대 사회에서 갈증은 개인의 삶과 �
 row	sentence	감독				例句：이 보고서는 감독이 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了方向对我们日常生活所产生的积极影响。）
 row	sentence	감독				例句：많은 학자들은 학술 토론회에서 감독을 심도 있게 다루었습니다.（许多学者在学术研讨会上对方向进行了深入的探讨。）
 row	sentence	감독				例句：성공적인 미래를 준비하기 위해서는 감독과 관련된 지식을 쌓아야 합니다.（为了准备成功的未来，必须积累与方向相关的知识。）
-row	sentence	감동적				例句：기존의 관점에서 벗어나 감동적으로 접근하는 새로운 시도가 요구됩니다.（需要打破传统视角，以(명사)为导向展开新的尝试。）
-row	sentence	감동적				例句：어려운 여건 속에서도 감동적이 제 역할을 다해 큰 성과를 거두었습니다.（即便在艰难的条件下，(명사)依然发挥了充分的作用并取得了显著成果。）
-row	sentence	감동적				例句：우리는 실천적인 노력을 기울여 감동적의 완성도를 높여야 합니다.（我们必须付出切实具体的努力，以提升(명사)的成熟度。）
+row	sentence	감동적				例句：그 영화의 마지막 장면은 정말 감동적이었어요.（那部电影的最后一幕非常感人。）
+row	sentence	감동적				例句：졸업식에서 선생님의 말씀이 감동적이었어요.（毕业典礼上老师的话令人感动。）
+row	sentence	감동적				例句：그의 이야기는 진솔하고 감동적이에요.（他的故事真挚而感人。）
 row	sentence	감싸다				例句：요즘 감싸는 것을 좋아하는 사람이 많아졌어요.（近来喜欢覆盖的人变多了。）
 row	sentence	감싸다				例句：매일 조금씩 감싸려고 노력하고 있어요.（我每天都在努力一点点去覆盖。）
 row	sentence	감싸다				例句：지난주에 처음으로 감싸는 것에 도전해 봤어요.（上周我第一次挑战了覆盖。）
@@ -23661,9 +23661,9 @@ row	sentence	굉장히				例句：회의 준비를 굉장히 끝냈어요.（�
 row	sentence	구경하다				例句：요즘 구경하는 것을 좋아하는 사람이 많아졌어요.（近来喜欢去观光的人变多了。）
 row	sentence	구경하다				例句：매일 조금씩 구경하려고 노력하고 있어요.（我每天都在努力一点点去去观光。）
 row	sentence	구경하다				例句：지난주에 처음으로 구경하는 것에 도전해 봤어요.（上周我第一次挑战了去观光。）
-row	sentence	구멍				例句：구멍이 요즘 특히 주목받고 있습니다.（球洞&#x0D近来尤其受到关注。）
-row	sentence	구멍				例句：관련 업계에서는 구멍을 중요한 과제로 꼽고 있습니다.（相关行业把球洞&#x0D列为重要课题。）
-row	sentence	구멍				例句：일상 속에서도 구멍이 쉽게 찾아볼 수 있습니다.（在日常生活中也容易见到球洞&#x0D。）
+row	sentence	구멍				例句：벽에 작은 구멍이 생겼어요.（墙上出现了一个小洞。）
+row	sentence	구멍				例句：양말에 구멍이 나서 새것으로 바꿨어요.（袜子破了个洞，所以换了新的。）
+row	sentence	구멍				例句：구멍에 실을 통과시켜 보세요.（请把线穿过孔。）
 row	sentence	구체적				例句：구체적이 우리 생활 곳곳에 스며들어 있습니다.（混凝土渗透在我们生活的各个角落。）
 row	sentence	구체적				例句：여러 나라에서 구체적을 두고 두고 연구해 왔습니다.（许多国家一直在反复研究混凝土。）
 row	sentence	구체적				例句：구체적을/를 둘러싼 논의가 활발해지고 있습니다.（围绕混凝土的讨论正变得活跃。）
@@ -23781,9 +23781,9 @@ row	sentence	그만하다				例句：그만하는 것을 처음 배웠을 때 �
 row	sentence	그야말로				例句：저는 아침에 그야말로 일어나는 편이에요.（我早上真起床。）
 row	sentence	그야말로				例句：팀원들이 그야말로 협력해서 프로젝트를 마쳤어요.（队员们真协作完成了项目。）
 row	sentence	그야말로				例句：그 일은 생각보다 그야말로 풀렸어요.（那件事比想象中真地解决了。）
-row	sentence	그저				例句：학생들이 그저 발표를 준비했어요.（学生们纯文本的logo准备了发表。）
-row	sentence	그저				例句：저는 아침에 그저 일어나는 편이에요.（我早上纯文本的logo起床。）
-row	sentence	그저				例句：팀원들이 그저 협력해서 프로젝트를 마쳤어요.（队员们纯文本的logo协作完成了项目。）
+row	sentence	그저				例句：그저 조용히 쉬고 싶어요.（我只是想安静地休息。）
+row	sentence	그저				例句：그저 좋은 친구로 지내고 싶어요.（我只是想做普通朋友。）
+row	sentence	그저				例句：그는 그저 사실을 말했을 뿐이에요.（他不过是说了事实而已。）
 row	sentence	그중				例句：그중이 요즘 특히 주목받고 있습니다.（其中近来尤其受到关注。）
 row	sentence	그중				例句：기회가 되면 그중을 직접 경험해 보시길 권합니다.（如果有机会，推荐亲自体验一下其中。）
 row	sentence	그중				例句：관련 업계에서는 그중을 중요한 과제로 꼽고 있습니다.（相关行业把其中列为重要课题。）
@@ -24306,9 +24306,9 @@ row	sentence	다행히				例句：상황이 다행히 변하고 있어요.（�
 row	sentence	단단하다				例句：새 환경이 처음엔 좀 단단하게 느껴질 수 있어요.（新环境起初可能让人觉得有点很难。）
 row	sentence	단단하다				例句：그 소식을 듣고 모두 단단하다고 했어요.（听到那个消息，大家都说很很难。）
 row	sentence	단단하다				例句：요즘 들어 모든 게 좀 단단하다고 느껴져요.（最近总觉得一切都很很难。）
-row	sentence	단맛				例句：단맛이 요즘 특히 주목받고 있습니다.（(명사)近来尤其受到关注。）
-row	sentence	단맛				例句：어려운 여건 속에서도 단맛이 제 역할을 다해 큰 성과를 거두었습니다.（即便在艰难的条件下，(명사)依然发挥了充分的作用并取得了显著成果。）
-row	sentence	단맛				例句：우리는 실천적인 노력을 기울여 단맛의 완성도를 높여야 합니다.（我们必须付出切实具体的努力，以提升(명사)的成熟度。）
+row	sentence	단맛				例句：이 차는 은은한 단맛이 나요.（这杯茶带有淡淡的甜味。）
+row	sentence	단맛				例句：단맛을 줄이려고 설탕을 조금만 넣었어요.（为了减少甜味，只放了一点糖。）
+row	sentence	단맛				例句：과일은 자연스러운 단맛이 있어요.（水果带有自然的甜味。）
 row	sentence	단순하다				例句：단순하다는 이야기를 어릴 때 자주 들었어요.（小时候常听人说很要简单。）
 row	sentence	단순하다				例句：친구는 그 장소가 단순하다고 했어요.（朋友说那个地方很要简单。）
 row	sentence	단순하다				例句：새 환경이 처음엔 좀 단순하게 느껴질 수 있어요.（新环境起初可能让人觉得有点要简单。）
@@ -24648,9 +24648,9 @@ row	sentence	땅속				例句：성공적인 미래를 준비하기 위해서는
 row	sentence	땅콩				例句：기존의 관점에서 벗어나 땅콩으로 접근하는 새로운 시도가 요구됩니다.（需要打破传统视角，以花生为导向展开新的尝试。）
 row	sentence	땅콩				例句：어려운 여건 속에서도 땅콩이 제 역할을 다해 큰 성과를 거두었습니다.（即便在艰难的条件下，花生依然发挥了充分的作用并取得了显著成果。）
 row	sentence	땅콩				例句：우리는 실천적인 노력을 기울여 땅콩의 완성도를 높여야 합니다.（我们必须付出切实具体的努力，以提升花生的成熟度。）
-row	sentence	때때로				例句：그는 어떤 일이든 때때로 받아들여요.（无论什么事，他都重新启动服务器。嘿-这是一台电脑，有时您只需要这接受。）
-row	sentence	때때로				例句：학생들이 때때로 발표를 준비했어요.（学生们重新启动服务器。嘿-这是一台电脑，有时您只需要这准备了发表。）
-row	sentence	때때로				例句：저는 아침에 때때로 일어나는 편이에요.（我早上重新启动服务器。嘿-这是一台电脑，有时您只需要这起床。）
+row	sentence	때때로				例句：때때로 고향에 있는 가족에게 전화해요.（有时会给家乡的家人打电话。）
+row	sentence	때때로				例句：인생에는 때때로 예상하지 못한 일이 생겨요.（人生中偶尔会发生意想不到的事。）
+row	sentence	때때로				例句：때때로 천천히 걸으며 생각을 정리해요.（有时会慢慢散步整理思绪。）
 row	sentence	때로				例句：문제를 때로 다루면 결과가 달라져요.（偶尔处理问题，结果就会不一样。）
 row	sentence	때로				例句：그는 어떤 일이든 때로 받아들여요.（无论什么事，他都偶尔接受。）
 row	sentence	때로				例句：학생들이 때로 발표를 준비했어요.（学生们偶尔准备了发表。）
@@ -24669,9 +24669,9 @@ row	sentence	떨어뜨리다				例句：친구와 함께 떨어뜨리기로 했
 row	sentence	또다시				例句：초심자에게 또다시가 좋은 출발점이 됩니다.（对初学者来说，不再显示弹出窗口是一个好的起点。）
 row	sentence	또다시				例句：전문가와 일반인 모두 또다시에 대해 이야기하고 싶어 합니다.（专家和普通人都想谈谈不再显示弹出窗口。）
 row	sentence	또다시				例句：여러 나라에서 또다시를 두고 두고 연구해 왔습니다.（许多国家一直在反复研究不再显示弹出窗口。）
-row	sentence	또한				例句：학생들이 또한 발표를 준비했어요.（学生们你可能还喜欢&hellip准备了发表。）
-row	sentence	또한				例句：저는 아침에 또한 일어나는 편이에요.（我早上你可能还喜欢&hellip起床。）
-row	sentence	또한				例句：팀원들이 또한 협력해서 프로젝트를 마쳤어요.（队员们你可能还喜欢&hellip协作完成了项目。）
+row	sentence	또한				例句：그는 노래를 잘하고 또한 춤도 잘 춰요.（他歌唱得好，舞也跳得好。）
+row	sentence	또한				例句：이 방법은 간단하고 또한 효과적이에요.（这个方法简单，而且很有效。）
+row	sentence	또한				例句：또한 다른 의견도 함께 검토해야 해요.（此外，还要一起考虑其他意见。）
 row	sentence	똥				例句：최근 들어 많은 사람들이 똥의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到粪便的重要性。）
 row	sentence	똥				例句：체계적인 학습과 연구를 거쳐 똥으로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向粪便的方向推进发展。）
 row	sentence	똥				例句：이 보고서는 똥이 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了粪便对我们日常生活所产生的积极影响。）
@@ -24684,9 +24684,9 @@ row	sentence	뚜렷하다				例句：오늘따라 유독 뚜렷하네요.（今
 row	sentence	뚫다				例句：뚫기 전에 계획을 세우는 편이 좋아요.（在刺穿一个洞之前，最好先制定好计划。）
 row	sentence	뚫다				例句：친구와 함께 뚫기로 했어요.（我决定和朋友一起刺穿一个洞。）
 row	sentence	뚫다				例句：뚫는 것을 처음 배웠을 때 어려웠어요.（刚开始学刺穿一个洞的时候觉得很难。）
-row	sentence	뛰어나다				例句：뛰어나다는 이야기를 어릴 때 자주 들었어요.（小时候常听人说很发送到 Excel。）
-row	sentence	뛰어나다				例句：그 소식을 듣고 모두 뛰어나다고 했어요.（听到那个消息，大家都说很发送到 Excel。）
-row	sentence	뛰어나다				例句：요즘 들어 모든 게 좀 뛰어나다고 느껴져요.（最近总觉得一切都很发送到 Excel。）
+row	sentence	뛰어나다				例句：그 선수는 체력과 기술이 뛰어나요.（那名选手的体力和技术都很出色。）
+row	sentence	뛰어나다				例句：이 제품은 내구성이 뛰어나서 인기가 많아요.（这款产品耐用性优秀，因此很受欢迎。）
+row	sentence	뛰어나다				例句：그녀는 외국어 실력이 뛰어나요.（她的外语能力很优秀。）
 row	sentence	뛰어나오다				例句：뛰어나오기 전에 계획을 세우는 편이 좋아요.（在用完了之前，最好先制定好计划。）
 row	sentence	뛰어나오다				例句：친구와 함께 뛰어나오기로 했어요.（我决定和朋友一起用完了。）
 row	sentence	뛰어나오다				例句：뛰어나오는 것을 처음 배웠을 때 어려웠어요.（刚开始学用完了的时候觉得很难。）
@@ -24960,9 +24960,9 @@ row	sentence	목적지				例句：우리는 실천적인 노력을 기울여 �
 row	sentence	목표				例句：목표가 요즘 특히 주목받고 있습니다.（目标近来尤其受到关注。）
 row	sentence	목표				例句：관련 업계에서는 목표를 중요한 과제로 꼽고 있습니다.（相关行业把目标列为重要课题。）
 row	sentence	목표				例句：일상 속에서도 목표가 쉽게 찾아볼 수 있습니다.（在日常生活中也容易见到目标。）
-row	sentence	몫				例句：몫이 우리 생활 곳곳에 스며들어 있습니다.（(명사)渗透在我们生活的各个角落。）
-row	sentence	몫				例句：여러 나라에서 몫을 두고 두고 연구해 왔습니다.（许多国家一直在反复研究(명사)。）
-row	sentence	몫				例句：몫을/를 둘러싼 논의가 활발해지고 있습니다.（围绕(명사)的讨论正变得活跃。）
+row	sentence	몫				例句：각자 맡은 몫을 다해야 해요.（每个人都要完成自己应尽的份额。）
+row	sentence	몫				例句：친구와 음식을 공평하게 나누어 몫을 정했어요.（我和朋友公平分配了食物的份额。）
+row	sentence	몫				例句：그는 팀의 몫까지 책임지고 일했어요.（他连团队应负的那份责任也承担起来完成了工作。）
 row	sentence	몰려들다				例句：몰려들기 전에 계획을 세우는 편이 좋아요.（在成群结队地聚集在一起之前，最好先制定好计划。）
 row	sentence	몰려들다				例句：친구와 함께 몰려들기로 했어요.（我决定和朋友一起成群结队地聚集在一起。）
 row	sentence	몰려들다				例句：몰려들는 것을 처음 배웠을 때 어려웠어요.（刚开始学成群结队地聚集在一起的时候觉得很难。）
@@ -25782,9 +25782,9 @@ row	sentence	세련되다				例句：친구는 그 장소가 세련되다고 �
 row	sentence	세워지다				例句：세워지기 전에 계획을 세우는 편이 좋아요.（在待创立之前，最好先制定好计划。）
 row	sentence	세워지다				例句：친구와 함께 세워지기로 했어요.（我决定和朋友一起待创立。）
 row	sentence	세워지다				例句：세워지는 것을 처음 배웠을 때 어려웠어요.（刚开始学待创立的时候觉得很难。）
-row	sentence	세트				例句：전문가들은 세트를 올바르게 이해하는 것이 무엇보다 중요하다고 강조합니다.（专家们强调，正确理解套比什么都重要。）
-row	sentence	세트				例句：우리는 다양한 경험을 통해 세트에 대한 폭넓은 시각을 기를 수 있습니다.（我们能够通过丰富的经历培养对套更加宽广的视角。）
-row	sentence	세트				例句：최근 들어 많은 사람들이 세트의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到套的重要性。）
+row	sentence	세트				例句：커피 잔 한 세트를 선물로 받았어요.（我收到了一套咖啡杯作为礼物。）
+row	sentence	세트				例句：운동을 세 세트 하고 잠시 쉬었어요.（做了三组运动后休息了一会儿。）
+row	sentence	세트				例句：이 제품은 여러 부품이 한 세트로 들어 있어요.（这件产品包含一整套零部件。）
 row	sentence	소개되다				例句：소개되기 때문에 요즘 시간이 부족해요.（因为要待介绍，近来时间不够用。）
 row	sentence	소개되다				例句：소개되기 전에 계획을 세우는 편이 좋아요.（在待介绍之前，最好先制定好计划。）
 row	sentence	소개되다				例句：친구와 함께 소개되기로 했어요.（我决定和朋友一起待介绍。）
@@ -25893,9 +25893,9 @@ row	sentence	수수께끼				例句：시간이 지나면서 수수께끼에 대
 row	sentence	수수료				例句：전문가들은 수수료를 올바르게 이해하는 것이 무엇보다 중요하다고 강조합니다.（专家们强调，正确理解佣金比什么都重要。）
 row	sentence	수수료				例句：우리는 다양한 경험을 통해 수수료에 대한 폭넓은 시각을 기를 수 있습니다.（我们能够通过丰富的经历培养对佣金更加宽广的视角。）
 row	sentence	수수료				例句：최근 들어 많은 사람들이 수수료의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到佣金的重要性。）
-row	sentence	수시로				例句：학생들이 수시로 발표를 준비했어요.（学生们重新启动服务器。嘿-这是一台电脑，有时您只需要这准备了发表。）
-row	sentence	수시로				例句：저는 아침에 수시로 일어나는 편이에요.（我早上重新启动服务器。嘿-这是一台电脑，有时您只需要这起床。）
-row	sentence	수시로				例句：팀원들이 수시로 협력해서 프로젝트를 마쳤어요.（队员们重新启动服务器。嘿-这是一台电脑，有时您只需要这协作完成了项目。）
+row	sentence	수시로				例句：문이 열려 있으니 수시로 들러도 돼요.（门开着，随时都可以来。）
+row	sentence	수시로				例句：환자는 상태를 수시로 확인해야 해요.（需要经常确认患者的状态。）
+row	sentence	수시로				例句：필요한 내용은 수시로 알려 드리겠습니다.（需要的内容我会随时告知您。）
 row	sentence	수십				例句：수십은 사회 전반에 걸친 영향을 미칩니다.（分数对整个社会都产生了影响。）
 row	sentence	수십				例句：세계화 시대에 발맞추어 수십은 국제적인 주목을 받고 있습니다.（顺应全球化时代的发展步伐，分数正在受到国际社会的广泛瞩目。）
 row	sentence	수십				例句：체계적인 관리 시스템을 구축하여 수십을 효율적으로 활용하고 있습니다.（通过建立规范的管理系统，正在对分数进行高效利用。）
@@ -25917,9 +25917,9 @@ row	sentence	숙박				例句：세계화 시대에 발맞추어 숙박은 국�
 row	sentence	숙이다				例句：요즘 숙이는 것을 좋아하는 사람이 많아졌어요.（近来喜欢弯曲的人变多了。）
 row	sentence	숙이다				例句：매일 조금씩 숙이려고 노력하고 있어요.（我每天都在努力一点点去弯曲。）
 row	sentence	숙이다				例句：지난주에 처음으로 숙이는 것에 도전해 봤어요.（上周我第一次挑战了弯曲。）
-row	sentence	순식간				例句：순식간을/를 둘러싼 논의가 활발해지고 있습니다.（围绕<g id="198">眨眼<的讨论正变得活跃。）
-row	sentence	순식간				例句：순식간은 사회 전반에 걸친 영향을 미칩니다.（<g id="198">眨眼<对整个社会都产生了影响。）
-row	sentence	순식간				例句：학교 교육에서도 순식간을 점점 더 많이 다루고 있습니다.（学校教育中也越来越多地涉及<g id="198">眨眼<。）
+row	sentence	순식간				例句：순식간에 비가 쏟아지기 시작했어요.（转眼间开始下起了大雨。）
+row	sentence	순식간				例句：그 소식은 순식간에 퍼졌어요.（那个消息一瞬间传开了。）
+row	sentence	순식간				例句：순식간에 모든 일이 끝났어요.（一转眼所有事情都结束了。）
 row	sentence	술자리				例句：앞으로 술자리의 역할은 더욱 중요해질 것입니다.（未来饮酒派对的作用会变得更加重要。）
 row	sentence	술자리				例句：현대 사회에서 술자리는 개인의 삶과 밀접한 관련을 맺고 있습니다.（在现代社会中，饮酒派对与个人的生活有着极其密切的联系。）
 row	sentence	술자리				例句：전문가들은 술자리를 올바르게 이해하는 것이 무엇보다 중요하다고 강조합니다.（专家们强调，正确理解饮酒派对比什么都重要。）
@@ -25929,9 +25929,9 @@ row	sentence	숨기다				例句：친구와 함께 숨기기로 했어요.（�
 row	sentence	숨소리				例句：숨소리가 요즘 특히 주목받고 있습니다.（呼吸的声音近来尤其受到关注。）
 row	sentence	숨소리				例句：어려운 여건 속에서도 숨소리가 제 역할을 다해 큰 성과를 거두었습니다.（即便在艰难的条件下，呼吸的声音依然发挥了充分的作用并取得了显著成果。）
 row	sentence	숨소리				例句：우리는 실천적인 노력을 기울여 숨소리의 완성도를 높여야 합니다.（我们必须付出切实具体的努力，以提升呼吸的声音的成熟度。）
-row	sentence	숨지다				例句：숨지기 전에 계획을 세우는 편이 좋아요.（在(동사)之前，最好先制定好计划。）
-row	sentence	숨지다				例句：친구와 함께 숨지기로 했어요.（我决定和朋友一起(동사)。）
-row	sentence	숨지다				例句：숨지는 것을 처음 배웠을 때 어려웠어요.（刚开始学(동사)的时候觉得很难。）
+row	sentence	숨지다				例句：그분은 오랜 투병 끝에 숨졌어요.（那位人士经过长期治疗后去世了。）
+row	sentence	숨지다				例句：사고로 여러 사람이 숨졌다는 소식이 전해졌어요.（传来了多人因事故死亡的消息。）
+row	sentence	숨지다				例句：그는 가족들이 지켜보는 가운데 조용히 숨졌어요.（他在家人的陪伴下安静地去世了。）
 row	sentence	쉿				例句：그 일은 생각보다 쉿 풀렸어요.（那件事比想象中嘘地解决了。）
 row	sentence	쉿				例句：회의 준비를 쉿 끝냈어요.（我嘘完成了会议准备。）
 row	sentence	쉿				例句：상황이 쉿 변하고 있어요.（情况正在嘘变化。）
@@ -27264,9 +27264,9 @@ row	sentence	줄어들다				例句：지난주에 처음으로 줄어들는 것
 row	sentence	중고품				例句：중고품이 우리 생활 곳곳에 스며들어 있습니다.（二手物品渗透在我们生活的各个角落。）
 row	sentence	중고품				例句：시간이 지나면서 중고품에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对二手物品的认识正在拓宽。）
 row	sentence	중고품				例句：다양한 분야에서 중고품을 응용하고 있습니다.（各个领域都在应用二手物品。）
-row	sentence	중국어				例句：최근 들어 많은 사람들이 중국어의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到中文<g id="1"> <的重要性。）
-row	sentence	중국어				例句：체계적인 학습과 연구를 거쳐 중국어로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向中文<g id="1"> <的方向推进发展。）
-row	sentence	중국어				例句：이 보고서는 중국어가 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了中文<g id="1"> <对我们日常生活所产生的积极影响。）
+row	sentence	중국어				例句：대학교에서 중국어를 공부하고 있어요.（我正在大学学习中文。）
+row	sentence	중국어				例句：중국어로 간단한 인사를 해 봤어요.（我试着用中文做了简单的问候。）
+row	sentence	중국어				例句：중국어 발음은 성조가 중요해요.（中文发音中声调很重要。）
 row	sentence	중국인				例句：우리는 교육 과정을 통해 중국인의 본질적 가치를 배울 수 있습니다.（我们能够通过教育课程学到中文的本质价值。）
 row	sentence	중국인				例句：동료들과 깊이 있는 대화를 나누며 중국인을 새롭게 조명해 보았습니다.（与同事们进行深度对话，从而对中文进行了全新的审视。）
 row	sentence	중국인				例句：기존의 관점에서 벗어나 중국인으로 접근하는 새로운 시도가 요구됩니다.（需要打破传统视角，以中文为导向展开新的尝试。）
@@ -28497,9 +28497,9 @@ row	sentence	뜻하다				例句：뜻하는 것을 처음 배웠을 때 어려�
 row	sentence	라이벌				例句：라이벌은 사회 전반에 걸친 영향을 미칩니다.（竞争对手对整个社会都产生了影响。）
 row	sentence	라이벌				例句：학교 교육에서도 라이벌을 점점 더 많이 다루고 있습니다.（学校教育中也越来越多地涉及竞争对手。）
 row	sentence	라이벌				例句：라이벌과 비교하면 라이벌의 특징이 더 분명해집니다.（与竞争对手比较之后，其特点会更加分明。）
-row	sentence	라켓				例句：현대 사회에서 라켓은 개인의 삶과 밀접한 관련을 맺고 있습니다.（在现代社会中，(명사)与个人的生活有着极其密切的联系。）
-row	sentence	라켓				例句：전문가들은 라켓을 올바르게 이해하는 것이 무엇보다 중요하다고 강조합니다.（专家们强调，正确理解(명사)比什么都重要。）
-row	sentence	라켓				例句：우리는 다양한 경험을 통해 라켓에 대한 폭넓은 시각을 기를 수 있습니다.（我们能够通过丰富的经历培养对(명사)更加宽广的视角。）
+row	sentence	라켓				例句：테니스 라켓을 새로 샀어요.（我买了一把新的网球拍。）
+row	sentence	라켓				例句：라켓을 가볍게 잡고 공을 쳐 보세요.（请轻握球拍试着击球。）
+row	sentence	라켓				例句：경기 전에 라켓의 줄을 점검했어요.（比赛前检查了球拍的拍线。）
 row	sentence	레이저				例句：성공적인 미래를 준비하기 위해서는 레이저와 관련된 지식을 쌓아야 합니다.（为了准备成功的未来，必须积累与灼热射线相关的知识。）
 row	sentence	레이저				例句：새로운 환경에 적응하면서 레이저에 대한 관심이 더욱 커졌습니다.（在适应新环境的过程中，对灼热射线的关注度进一步提升了。）
 row	sentence	레이저				例句：국가와 사회의 지속 가능한 발전을 위해 레이저는 필수적인 요소입니다.（为了国家与社会的可持续发展，灼热射线是必不可少的关键要素。）
@@ -28659,9 +28659,9 @@ row	sentence	생산되다				例句：친구와 함께 생산되기로 했어요
 row	sentence	생산력				例句：동료들과 깊이 있는 대화를 나누며 생산력을 새롭게 조명해 보았습니다.（与同事们进行深度对话，从而对生产力进行了全新的审视。）
 row	sentence	생산력				例句：기존의 관점에서 벗어나 생산력으로 접근하는 새로운 시도가 요구됩니다.（需要打破传统视角，以生产力为导向展开新的尝试。）
 row	sentence	생산력				例句：어려운 여건 속에서도 생산력이 제 역할을 다해 큰 성과를 거두었습니다.（即便在艰难的条件下，生产力依然发挥了充分的作用并取得了显著成果。）
-row	sentence	생산자				例句：생산자가 요즘 특히 주목받고 있습니다.（生产者<g id="155">近来尤其受到关注。）
-row	sentence	생산자				例句：이번 학기 세미나에서는 생산자를 집중적으로 다룰 예정입니다.（本学期的研讨课将集中探讨生产者<g id="155">。）
-row	sentence	생산자				例句：기회가 되면 생산자를 직접 경험해 보시길 권합니다.（如果有机会，推荐亲自体验一下生产者<g id="155">。）
+row	sentence	생산자				例句：생산자는 제품의 품질을 관리해야 해요.（生产者必须管理产品质量。）
+row	sentence	생산자				例句：소비자와 생산자 사이의 신뢰가 중요해요.（消费者与生产者之间的信任很重要。）
+row	sentence	생산자				例句：이 회사는 친환경 제품의 생산자예요.（这家公司是环保产品的制造商。）
 row	sentence	생산하다				例句：요즘 생산하는 것을 좋아하는 사람이 많아졌어요.（近来喜欢生产的人变多了。）
 row	sentence	생산하다				例句：매일 조금씩 생산하려고 노력하고 있어요.（我每天都在努力一点点去生产。）
 row	sentence	생산하다				例句：지난주에 처음으로 생산하는 것에 도전해 봤어요.（上周我第一次挑战了生产。）

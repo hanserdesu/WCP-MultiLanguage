@@ -21,8 +21,23 @@ from pathlib import Path
 import integrate_languages as il
 
 
+TEXT_EOL_INSENSITIVE_SUFFIXES = {
+    ".tsv", ".json", ".md", ".txt", ".csv", ".cs", ".py", ".ps1", ".cmd",
+}
+
+
 def sha256(path: Path) -> str:
+    """文本类文件按 LF 归一后哈希（行尾无关）；二进制保持原字节。
+
+    背景（2026-09-16）：不同会话产出的文本行尾不一致（语言仓产物 CRLF、
+    languages/ 镜像 LF），内容完全相同却误报 mismatch。行尾不是内容语义。
+    """
     digest = hashlib.sha256()
+    suffix = path.suffix.lower()
+    if suffix in TEXT_EOL_INSENSITIVE_SUFFIXES:
+        data = path.read_bytes().replace(b"\r\n", b"\n")
+        digest.update(data)
+        return digest.hexdigest()
     with open(path, "rb") as fh:
         for chunk in iter(lambda: fh.read(1 << 20), b""):
             digest.update(chunk)
