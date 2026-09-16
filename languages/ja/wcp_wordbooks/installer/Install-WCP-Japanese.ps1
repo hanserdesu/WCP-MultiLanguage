@@ -749,7 +749,27 @@ function Write-InstallerErrorLog([string]$text) {
     try {
         $logPath = Get-InstallerErrorLogPath
         New-Item -ItemType Directory -Force -Path (Split-Path -Parent $logPath) | Out-Null
-        [IO.File]::AppendAllText($logPath, ("[{0}] {1}`r`n" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $text), (New-Object Text.UTF8Encoding($false)))
+        $line = "[{0}] {1}`r`n" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $text
+        $exists = [IO.File]::Exists($logPath)
+        if ($exists) {
+            $head = New-Object byte[] 3
+            $fs = [IO.File]::Open($logPath, [IO.FileMode]::Open, [IO.FileAccess]::Read)
+            try {
+                if ($fs.Length -ge 3) { $null = $fs.Read($head, 0, 3) }
+            } finally {
+                $fs.Dispose()
+            }
+            $hasBom = ($head[0] -eq 0xEF -and $head[1] -eq 0xBB -and $head[2] -eq 0xBF)
+            if (-not $hasBom) {
+                # 旧版安装器写的是无 BOM UTF-8；run-installer 的 Get-Content
+                # 按 ANSI 解码会把中文读成乱码进反馈 Issue。先补 BOM 一次性升级。
+                $oldText = [IO.File]::ReadAllText($logPath, [Text.Encoding]::UTF8)
+                [IO.File]::WriteAllText($logPath, $oldText, (New-Object Text.UTF8Encoding($true)))
+            }
+        }
+        # 必须带 BOM：run-installer.ps1 用 Get-Content -Tail 读这个文件，
+        # PS 5.1 对无 BOM 文件按系统 ANSI/GBK 解码，中文会变乱码进反馈 Issue。
+        [IO.File]::AppendAllText($logPath, $line, (New-Object Text.UTF8Encoding($true)))
     } catch { }
 }
 
@@ -1163,6 +1183,8 @@ function Test-DownloadRoute([string]$uri) {
         $headError = "HTTP $statusCode"
     } catch {
         $headError = $_.Exception.GetType().Name
+        $headMsg = $_.Exception.Message
+        if ($headMsg) { $headError = $headError + ': ' + $headMsg }
     } finally {
         if ($headResponse) { $headResponse.Dispose() }
     }
@@ -1201,11 +1223,14 @@ function Test-DownloadRoute([string]$uri) {
             Error = "HEAD $headError; HTTP $statusCode"
         }
     } catch {
+        $rangeErr = $_.Exception.GetType().Name
+        $rangeMsg = $_.Exception.Message
+        if ($rangeMsg) { $rangeErr = $rangeErr + ': ' + $rangeMsg }
         return [pscustomobject]@{
             Success = $false
             StatusCode = 0
             Method = 'HEAD/GET range'
-            Error = "HEAD $headError; $($_.Exception.GetType().Name)"
+            Error = "HEAD $headError; $rangeErr"
         }
     } finally {
         if ($rangeStream) { $rangeStream.Dispose() }
@@ -1376,6 +1401,78 @@ $downloadDriveName = [IO.Path]::GetPathRoot($data).TrimEnd('\').Substring(0, 1)
 $downloadDrive = Get-PSDrive -Name $downloadDriveName
 if ($downloadDrive.Free -lt $requiredBytes) {
     Fail "磁盘空间不足：下载缓存、解压临时目录和最终音频同时存在时，预计至少需要 $([Math]::Ceiling($requiredBytes / 1GB)) GB；$($downloadDriveName): 当前仅剩 $([Math]::Round($downloadDrive.Free / 1GB, 2)) GB。缓存位置：$data\jpmod_downloads"
+}
+
+# ---- 安装器自更新（方案 C：仅在有新版本时提示，用户确认才更新） ----
+# 版本号由 run-installer.ps1 通过环境变量带入；老版本安装器没有这个变量。
+$selfVersion = if ($env:WCP_INSTALLER_VERSION) { $env:WCP_INSTALLER_VERSION } else { '' }
+if ($selfVersion) {
+    try {
+        $idxUrl = 'https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.1.0/release-index.json'
+        $idxTmp = Join-Path $data 'release-index.json.check'
+        $indexObj = $null
+        try {
+            $idxReq = [Net.WebRequest]::Create($idxUrl)
+            $idxReq.Method = 'GET'
+            $idxReq.Timeout = 15000
+            # file:// 的 FileWebRequest 没有 ReadWriteTimeout/UserAgent/Proxy 属性，仅在 http(s) 下设置。
+            if ($idxReq -is [Net.HttpWebRequest]) {
+                $idxReq.ReadWriteTimeout = 15000
+                $idxReq.UserAgent = 'WCP-Japanese-Installer/SelfUpdate'
+                $idxReq.Proxy = [Net.WebRequest]::DefaultWebProxy
+                if ($idxReq.Proxy) { $idxReq.Proxy.Credentials = [Net.CredentialCache]::DefaultCredentials }
+            }
+            $idxResp = $idxReq.GetResponse()
+            $idxStream = $idxResp.GetResponseStream()
+            $idxReader = New-Object IO.StreamReader($idxStream, [Text.Encoding]::UTF8)
+            $indexRaw = $idxReader.ReadToEnd()
+            $idxReader.Dispose(); $idxStream.Dispose(); $idxResp.Dispose()
+            $indexObj = $indexRaw | ConvertFrom-Json
+        } catch {
+            Write-Host '自更新检查：在线获取版本信息失败（不影响本次安装）。' -ForegroundColor DarkGray
+        }
+        if ($indexObj -and $indexObj.installer_version -and $indexObj.installer_version -ne $selfVersion) {
+            Write-Host ''
+            Write-Host "检测到安装器新版本 $($indexObj.installer_version)（当前 $selfVersion）。" -ForegroundColor Cyan
+            Write-Host '新版本可能已修复你遇到的问题。是否下载并切换到新版后重新安装？' -ForegroundColor Cyan
+            $answer = Read-Host '输入 y 确认更新，其他键跳过（默认跳过）'
+            if ($answer -match '^[Yy]') {
+                $coreName = $indexObj.core_installer.name
+                $coreSha = [string]$indexObj.core_installer.sha256
+                $coreSize = [int64]$indexObj.core_installer.size
+                $coreUrl = "https://github.com/hanserdesu/japanese/releases/download/$($indexObj.main_release)/$coreName"
+                $coreTmp = Join-Path $data $coreName
+                Write-Host "正在下载新版安装器（$([Math]::Round($coreSize / 1MB, 1)) MB）..." -ForegroundColor Cyan
+                Download-WithProgress $coreUrl $coreTmp '新版安装器' $coreSize
+                $actualCoreSha = Get-Sha256 $coreTmp
+                if ($actualCoreSha -ne $coreSha.ToLower()) {
+                    Write-Host "新版安装器 SHA-256 校验失败（实际 $actualCoreSha），放弃自动更新，继续用当前版本安装。" -ForegroundColor Yellow
+                } else {
+                    # 解压到全新目录再切换，失败则留在当前版本继续装（fail-safe）
+                    $newPkgDir = Join-Path $data "installer_update_$stamp"
+                    try {
+                        Write-Host '正在解压新版安装器...' -ForegroundColor Cyan
+                        Expand-ZipWithProgress $coreTmp $newPkgDir '新版安装器'
+                        $newCmd = Join-Path $newPkgDir 'WCP日语词书安装包\01_双击运行我.cmd'
+                        if (-not ([IO.File]::Exists($newCmd))) { throw '新包缺少 01_双击运行我.cmd' }
+                        Write-Host ''
+                        Write-Host "即将切换到新版安装器 $($indexObj.installer_version) 并重新开始安装。" -ForegroundColor Green
+                        Write-Host "本窗口可以关闭；新版窗口会自动打开。" -ForegroundColor Green
+                        Start-Process -FilePath $newCmd -WorkingDirectory (Split-Path -Parent $newCmd)
+                        exit 0
+                    } catch {
+                        Write-Host "新版安装器准备失败：$($_.Exception.Message)" -ForegroundColor Yellow
+                        Write-Host '将继续使用当前版本完成安装。' -ForegroundColor Yellow
+                    }
+                }
+            }
+        } elseif ($indexObj -and $indexObj.installer_version) {
+            Write-Host "安装器已是最新版本（$selfVersion）。" -ForegroundColor DarkGray
+        }
+    } catch {
+        # 自更新检查是纯增益路径：任何异常都不能阻断安装。
+        Write-Host '自更新检查异常（不影响本次安装）。' -ForegroundColor DarkGray
+    }
 }
 Write-Host "磁盘空间检查通过：$($downloadDriveName): 剩余 $([Math]::Round($downloadDrive.Free / 1GB, 2)) GB，预计峰值需要 $([Math]::Round($requiredBytes / 1GB, 2)) GB。" -ForegroundColor DarkGray
 $wordZip = Download-VerifiedAsset $wordAsset

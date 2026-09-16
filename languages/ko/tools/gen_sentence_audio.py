@@ -32,12 +32,12 @@ def fname(text: str) -> str:
     return hashlib.md5(text.encode('utf-8')).hexdigest() + '.mp3'
 
 
-async def worker(sem, text, ok, fail):
+async def worker(sem, text, ok, fail, proxy=None):
     async with sem:
         path = OUT_DIR / fname(text)
         for attempt in range(3):
             try:
-                tts = edge_tts.Communicate(text, VOICE)
+                tts = edge_tts.Communicate(text, VOICE, proxy=proxy)
                 await tts.save(str(path))
                 if path.stat().st_size > 500:
                     ok.add(text)
@@ -50,6 +50,7 @@ async def worker(sem, text, ok, fail):
 async def main():
     parser = argparse.ArgumentParser(description='Generate Korean sentence audio')
     parser.add_argument('--limit', type=int, default=0, help='Limit number of sentences')
+    parser.add_argument('--proxy', default='', help='aiohttp proxy for edge-tts, e.g. http://127.0.0.1:7897')
     args = parser.parse_args()
 
     if not MASTER.exists():
@@ -80,13 +81,14 @@ async def main():
 
     ok, fail = set(), set()
     sem = asyncio.Semaphore(CONCURRENCY)
+    proxy = args.proxy or None
     t0 = time.time()
     done = 0
     BATCH = 30
 
     for i in range(0, len(todo), BATCH):
         batch = todo[i:i + BATCH]
-        tasks = [worker(sem, ko, ok, fail) for ko in batch]
+        tasks = [worker(sem, ko, ok, fail, proxy) for ko in batch]
         await asyncio.gather(*tasks)
         done += len(batch)
         rate = done / max(time.time() - t0, 0.1)

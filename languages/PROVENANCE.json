@@ -1,6 +1,6 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-15T21:42:50+08:00",
+  "integrated_at": "2026-09-16T10:05:39+08:00",
   "languages": {
     "ar": {
       "absent_in_worktree": [],
@@ -28,8 +28,8 @@
     },
     "de": {
       "absent_in_worktree": [],
-      "bytes": 33020043,
-      "content_digest": "sha256:b853afc2d0669cd9d63f9fc41f6865c27ebe85e2f6a729d039ccf418359bd2d6",
+      "bytes": 32760190,
+      "content_digest": "sha256:98cf0928dfd31653c9f628663ad8efc9d89758e3884a271622d47f2c9a836bb1",
       "excluded": {},
       "excluded_bytes": 0,
       "excluded_samples": [],
@@ -45,15 +45,15 @@
       "source_repo": "https://github.com/hanserdesu/WCP-German-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 0,
-        "tracked": 302,
+        "modified": 11,
+        "tracked": 291,
         "untracked": 0
       }
     },
     "es": {
       "absent_in_worktree": [],
-      "bytes": 55042717,
-      "content_digest": "sha256:0f6d0f6432cd735b7f8247b9d61e4fe5bb9894233b680111f77c979c511dad99",
+      "bytes": 54769916,
+      "content_digest": "sha256:52ce1f717f22f2d449e9fcfd573a4d1d8da0b687f34fbfa9d8200b445681aa6a",
       "excluded": {},
       "excluded_bytes": 0,
       "excluded_samples": [],
@@ -69,8 +69,8 @@
       "source_repo": "https://github.com/hanserdesu/WCP-Spanish-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 0,
-        "tracked": 33,
+        "modified": 7,
+        "tracked": 26,
         "untracked": 0
       }
     },
@@ -100,15 +100,15 @@
     },
     "ja": {
       "absent_in_worktree": [],
-      "bytes": 71043797,
-      "content_digest": "sha256:906b857927338aa5fa0e8456327c2dfeb32b4aaf997002b8e3c6c5f3789729c5",
+      "bytes": 71059748,
+      "content_digest": "sha256:739246ac52bb0de16b11946dc6604d23674d409a76cfdae7c96b2f7c8e26c542",
       "excluded": {
-        "build-archive": 23,
+        "build-archive": 25,
         "duplicate-pack-build": 4,
-        "installer-package": 62,
+        "installer-package": 63,
         "release-artifacts": 36
       },
-      "excluded_bytes": 3649087938,
+      "excluded_bytes": 3681419100,
       "excluded_samples": [
         "packs/ja/books/日语词库(猫条版).xlsx (duplicate-pack-build)",
         "packs/ja/db/repair.tsv (duplicate-pack-build)",
@@ -123,27 +123,27 @@
         "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.dll (installer-package)",
         "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.xml (installer-package)"
       ],
-      "files": 846,
+      "files": 848,
       "note": "日语：本体与语音资源保留在 hanserdesu/japanese",
       "removed_in_worktree": [],
       "source_branch": "master",
       "source_dir": "D:\\ATooManyLanguage\\Japanese",
-      "source_head": "f889dcca059644886cb79d662431c11fc17802e1",
-      "source_head_date": "2026-09-15 21:29:21 +0800",
-      "source_head_subject": "docs: 首页指向 v1.2.5，重写迁移公告与失败反馈指引",
-      "source_origin_head": "dd6859faed5d058dbdf7535fdba8d602f6413f8d",
+      "source_head": "4c8b33e0ca5a19eb7860d5d2ed7b19b2cf8d8370",
+      "source_head_date": "2026-09-16 00:55:48 +0800",
+      "source_head_subject": "docs: 首页指向 v1.2.7（自更新版）",
+      "source_origin_head": "920de44b00faf3a7d9e34e5e2c623f944b049c9f",
       "source_repo": "https://github.com/hanserdesu/japanese.git",
       "states": {
         "added": 0,
-        "modified": 156,
-        "tracked": 679,
+        "modified": 155,
+        "tracked": 682,
         "untracked": 11
       }
     },
     "ko": {
       "absent_in_worktree": [],
-      "bytes": 36957371,
-      "content_digest": "sha256:3f87a2f5da15eef8c8d5ca37e9b981dd128f89de99b0ac5dfd112ae2363a7a36",
+      "bytes": 36956559,
+      "content_digest": "sha256:a9e8c4ee70062c7ccd0f704ad4335a548e7af9ce1aef79ddb782cd9e211f0c30",
       "excluded": {},
       "excluded_bytes": 0,
       "excluded_samples": [],
@@ -159,15 +159,15 @@
       "source_repo": "https://github.com/hanserdesu/WCP-Korean-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 0,
-        "tracked": 37,
+        "modified": 2,
+        "tracked": 35,
         "untracked": 0
       }
     },
     "pt": {
       "absent_in_worktree": [],
-      "bytes": 49819758,
-      "content_digest": "sha256:3940813f83c15ac631b435b8b1458946a26520ffcc700545ad3e15a1368fb47d",
+      "bytes": 49545037,
+      "content_digest": "sha256:a13ae04267f0cad3357a816d85f72a8a3a4457438b0429ea81ee98e08e74ea24",
       "excluded": {},
       "excluded_bytes": 0,
       "excluded_samples": [],
@@ -183,15 +183,15 @@
       "source_repo": "https://github.com/hanserdesu/WCP-Portuguese-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 0,
-        "tracked": 39,
+        "modified": 7,
+        "tracked": 32,
         "untracked": 0
       }
     },
     "ru": {
       "absent_in_worktree": [],
-      "bytes": 135900828,
-      "content_digest": "sha256:1783eab16bcf32d078fa760a2ae8e8c2336cd4d4933169de9e25f4390fc8ce04",
+      "bytes": 135600911,
+      "content_digest": "sha256:3e990bebc6797c01b3c69d7f889634e0859dd2dc1b38b10afc4df16d8bd444ce",
       "excluded": {},
       "excluded_bytes": 0,
       "excluded_samples": [],
@@ -207,8 +207,8 @@
       "source_repo": "https://github.com/hanserdesu/WCP-Russian-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 0,
-        "tracked": 334,
+        "modified": 5,
+        "tracked": 329,
         "untracked": 0
       }
     },

@@ -7330,12 +7330,11 @@
     "흐려지다": true,
     "흑인": true,
     "희곡": true,
-    "힘겹다": true
+    "힘겹다": true,
+    "상황을 봐가며 하다": true,
+    "건지다": true,
+    "꾸준하다": true,
+    "유쾌": true
   },
-  "failed": {
-    "상황을 봐가며 하다": "",
-    "건지다": "503, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=60cc2ac286384200ac69803f6e316a85&Sec-MS-GEC=C322DAE5186FA2417693480844E4A86AA75BF42E263C91D07AC8EFA71F84E11E&Sec-MS-GEC-Version=1-143.0.3650.75'",
-    "꾸준하다": "503, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=b13812ac02cf494995b69cd86cd1b617&Sec-MS-GEC=C322DAE5186FA2417693480844E4A86AA75BF42E263C91D07AC8EFA71F84E11E&Sec-MS-GEC-Version=1-143.0.3650.75'",
-    "유쾌": "503, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=5bcd18b1bd9f4c0b90ae4a241c718648&Sec-MS-GEC=DE993082F9543FF1451F728CD4E8CC1DB079DB9D4DFEAC08774566F75129B8B2&Sec-MS-GEC-Version=1-143.0.3650.75'"
-  }
+  "failed": {}
 }

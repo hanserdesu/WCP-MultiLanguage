@@ -5,11 +5,13 @@
 $ErrorActionPreference = 'Stop'
 
 # 每次发布安装包时同步更新，失败反馈里会带上这个版本号。
-$InstallerVersion = 'wcp-jp-v1.2.5'
+$InstallerVersion = 'wcp-jp-v1.2.7'
 $IssueBaseUrl = 'https://github.com/hanserdesu/japanese/issues/new'
 
 $version = $PSVersionTable.PSVersion.ToString()
 Write-Host "运行环境：$HostLabel $version" -ForegroundColor DarkCyan
+# 把安装器版本传给主脚本，供自更新检查比对（老版本没有这一步，等于跳过检查）。
+$env:WCP_INSTALLER_VERSION = $InstallerVersion
 $installScript = Join-Path $PSScriptRoot 'Install-WCP-Japanese.ps1'
 $success = $false
 $failureDetail = ''
@@ -58,7 +60,7 @@ try {
         $bodyLines += $failureDetail
         $bodyLines += '```'
         if (Test-Path -LiteralPath $logPath) {
-            $tail = @(Get-Content -LiteralPath $logPath -Tail 40 -ErrorAction SilentlyContinue)
+            $tail = @(Get-Content -LiteralPath $logPath -Tail 40 -Encoding UTF8 -ErrorAction SilentlyContinue)
             if ($tail.Count -gt 0) {
                 $bodyLines += ''
                 $bodyLines += '### installer-error.log 尾部'
