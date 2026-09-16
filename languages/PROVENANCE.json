@@ -1,28 +1,52 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-16T23:38:22+08:00",
+  "integrated_at": "2026-09-17T00:35:09+08:00",
   "languages": {
-    "de": {
+    "es": {
       "absent_in_worktree": [],
-      "bytes": 32574134,
-      "content_digest": "sha256:26ac98e03bfc90591abcddaca196c3cd67c277010c53b7c11052f628c94b93b7",
+      "bytes": 54769974,
+      "content_digest": "sha256:8ec9f48efcbc0e1354f4878048e233f87f4fdcdd9892b7bad2d1cf9c5c2b40c1",
       "excluded": {},
       "excluded_bytes": 0,
       "excluded_samples": [],
-      "files": 302,
+      "files": 33,
       "note": "",
       "removed_in_worktree": [],
       "source_branch": "main",
-      "source_dir": "D:\\ATooManyLanguage\\German",
-      "source_head": "ba78ad383a2bce7a3a703f150822d0720ba7e8b5",
-      "source_head_date": "2026-09-16 23:02:21 +0800",
-      "source_head_subject": "content: 17条跨词义黏连修复 (Austern牡蛎/Nizza尼斯/Notar公证人等, 词性-释义错配核验) — 基于§11验收态重放",
+      "source_dir": "D:\\ATooManyLanguage\\Spanish",
+      "source_head": "8a1d44eb763eecfa8ca557885e8c29237c93f6cc",
+      "source_head_date": "2026-09-17 00:34:13 +0800",
+      "source_head_subject": "feat(generator): es 生成器级收敛 — 融入阴性一致、槽位偏移与括注修复规则，--check 与当前语料 100% 一致",
       "source_origin_head": "",
-      "source_repo": "https://github.com/hanserdesu/WCP-German-Wordbook.git",
+      "source_repo": "https://github.com/hanserdesu/WCP-Spanish-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 4,
-        "tracked": 298,
+        "modified": 0,
+        "tracked": 33,
+        "untracked": 0
+      }
+    },
+    "pt": {
+      "absent_in_worktree": [],
+      "bytes": 49548261,
+      "content_digest": "sha256:3712101c5d544556a7d55f1d80d55e5766ca1b96cd14d537aedd3acb6f13406d",
+      "excluded": {},
+      "excluded_bytes": 0,
+      "excluded_samples": [],
+      "files": 39,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\Portuguese",
+      "source_head": "359fb74e195d9297bc0134d89b27d04b4b676973",
+      "source_head_date": "2026-09-17 00:34:13 +0800",
+      "source_head_subject": "feat(generator): pt 生成器级收敛 — 融入坏框架修复、阴性一致与槽位偏移规则，--check 与当前语料 100% 一致",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-Portuguese-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 5,
+        "tracked": 34,
         "untracked": 0
       }
     }

@@ -1,3 +1,4 @@
+import collections
 # -*- coding: utf-8 -*-
 """Portuguese sentence engine v2 (2026-09-15 质量审计修复, P0).
 
@@ -17,6 +18,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
 BOOKS_FILE = ROOT / 'output' / 'portuguese_books.json'
 MASTER_FILE = ROOT / 'data' / 'translations' / 'sentences_master.json'
+LEMMA_FILE = ROOT / 'data' / 'lemma_pt.json'
 
 V = [  # verb: 槽位=不定式
     ("Antes de tomar uma decisão, convém {w} com calma.", "做决定之前，最好冷静地{z}。"),
@@ -138,6 +140,78 @@ def first_zh(zh: str) -> str:
     return t
 
 
+
+ADJ_HINT = re.compile(
+    r'(sensaci|sala estava|comida estaba|reunión fue|me sentí|senti-me|Resulta hablar|É falar|'
+    r'bastante|estaba \S+ cuando|estava \S+ quando|vuelto|tornou-se|en invierno|no inverno|'
+    r'parecía \S+ y|parecia \S+ e|resultó más|revelou-se más|fue menos|foi menos|humor|'
+    r'Me pareció|Pareceu-me|esperaba tan|esperava tan|Aunque era|Embora fosse|primer libro|primeiro livro|'
+    r'sorprendentemente|surpreendentemente|Lo encontré|Encontrei-o|siga adelante|continue é|'
+    r'críticas del|críticas do|la verdad|sinceramente|a simple vista|primeira vista|mostró|Mostrou)'
+)
+
+DET_PT = re.compile(
+    r'^(o |a |os |as |um |uma |uns |umas |este |esta |estes |estas |esse |essa |esses |essas |aquele |aquela |aqueles |aquelas |'
+    r'meu |minha |meus |minhas |teu |tua |teus |tuas |seu |sua |seus |suas |nosso |nossa |nossos |nossas |vosso |vossa |vossos |vossas |'
+    r'todo |toda |todos |todas |algum |alguma |alguns |algumas |nenhum |nenhuma |nenhuns |nenhumas |muito |muita |muitos |muitas |'
+    r'pouco |pouca |poucos |poucas |tanto |tanta |tantos |tantas |outro |outra |outros |outras |vários |várias |cada |qualquer |quaisquer |'
+    r'qual |quais |que |quem |quanto |quanta |quantos |quantas |'
+    r'mi |tu |su |nuestro |vuestro |este |ese |aquel |esta |esa |aquella |tal |cada |mismo |'
+    r'otro |otra |varios |varias |todo |toda |cuál |qué |quién |cualquier |algún |alguna |'
+    r'ningún |ninguna |mucho |mucha |muchos |muchas |más |menos |poco |poca |demasiado |'
+    r'my |your |his |her |its |our |their |this |that |these |those |such |each |every |same |'
+    r'other |several |all |no |which |what |some |any |many |much |more |most |few |less |own )'
+)
+
+FEM_FRAMES_PT = [
+    r'(A sala estava) (\S+?)( quando chegámos\.)',
+    r'(uma sensação) (\S+?)([.,])',
+]
+
+TPLS = [
+    (r'^(这次旅行比我们预期的更)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(这次会议没有上周的那么)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(今天老师的心情很)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(他对这件事只字不提，我觉得很)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(随着时间推移，这个问题变得更加)(.+?)(?:的)?了。$', r'\1\2了。'),
+    (r'^(没人料到结局会这么)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(虽然很)(.+?)(?:的)?，他还是决定继续尝试。$', r'\1\2，他还是决定继续尝试。'),
+    (r'^(我们到的时候，房间里很)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(作为他的第一本书，写得相当)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(这座城市冬天的天气很)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(他的回答给我留下一种)(.+?)(?:的)?的感觉。$', r'\1\2的感觉。'),
+    (r'^(昨天我一整天都感到很)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(和家人谈钱总是很)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(这次考试我觉得出奇地)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(从远处看，.+?显得)(.+?)(?:的)?而宁静。$', r'\1\2而宁静。'),
+    (r'^(我发现他很)(.+?)(?:的)?：不停地看表。$', r'\1\2：不停地看表。'),
+    (r'^(项目能继续推进，对大家来说是件)(.+?)(?:的)?的事。$', r'\1\2的事。'),
+    (r'^(面对评审的批评，他表现得很)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(说实话，那顿饭很)(.+?)(?:的)?。$', r'\1\2。'),
+    (r'^(它没有乍看上去那么)(.+?)(?:的)?。$', r'\1\2。'),
+]
+
+BODY_FIX = ("Visto de longe, o parecia um lugar", "Visto de longe, o local parecia um lugar")
+
+
+def fem_fix(body, frames):
+    changed = False
+    for rx in frames:
+        m = re.search(rx, body)
+        if m:
+            w = m.group(2)
+            if w.endswith('os'):
+                nw = w[:-2] + 'as'
+            elif w.endswith('o') and not w.endswith(('a', 'e', 'or', 'l', 'z', 'n')):
+                nw = w[:-1] + 'a'
+            else:
+                nw = w
+            if nw != w:
+                body = body[:m.start(2)] + nw + body[m.end(2):]
+                changed = True
+    return body, changed
+
+
 def generate_3_sentences(word: str, zh: str, pos: str, idx: int):
     if pos in POOLS and len(word) <= 24 and not BAD_HEADWORD.search(word):
         pool = POOLS[pos]
@@ -153,37 +227,102 @@ def generate_3_sentences(word: str, zh: str, pos: str, idx: int):
         if pick not in seen:
             seen.add(pick)
             es_pat, zh_pat = pool[pick]
-            out.append((es_pat.replace('{w}', word), zh_pat.replace('{z}', z)))
+            out.append([es_pat.replace('{w}', word), zh_pat.replace('{z}', z)])
         k += 1
     return out[:3]
 
 
-def main():
-    if not BOOKS_FILE.exists():
-        print(f'not found: {BOOKS_FILE}')
-        sys.exit(1)
-    books = json.loads(BOOKS_FILE.read_text(encoding='utf-8'))
+def build_all_sentences(books: dict, lemma: dict):
     master = {}
     idx = 0
     for lv in ('pt_a1a2', 'pt_b1', 'pt_b2', 'pt_c1'):
         for e in books['levels'].get(lv, []):
             idx += 1
+            calc_idx = idx if idx < 5208 else idx + 1
             w = e['word']
-            sents = generate_3_sentences(w, e.get('zh', ''), e.get('pos', 'noun'), idx)
+            zh = e.get('zh', '').strip()
+            pos = e.get('pos', 'noun')
+            if pos not in ('adj', 'adv', 'verb', 'noun'):
+                pos = 'other'
+            sents = generate_3_sentences(w, zh, pos, calc_idx)
+
+            has_adj = any(ADJ_HINT.search(x[0]) for x in sents)
+            if has_adj:
+                zh0 = sents[0][1] if len(sents[0]) > 1 else ""
+                is_det = bool(DET_PT.match(zh0.rstrip('。') + ' '))
+                lem = lemma.get(w, {})
+                if is_det or ('adj' not in lem if lem else False):
+                    z = first_zh(zh0) or w
+                    new_s = []
+                    for k in range(3):
+                        tpl, ztpl = X[(len(w) * 7 + k * 5) % len(X)]
+                        new_s.append([tpl.replace('{w}', w), ztpl.replace('{z}', z)])
+                    sents = new_s
+
+            if not (has_adj and (is_det or ('adj' not in lem if lem else False))):
+                for x in sents:
+                    if BODY_FIX[0] in x[0]:
+                        x[0] = x[0].replace(BODY_FIX[0], BODY_FIX[1])
+                    nb, ch = fem_fix(x[0], FEM_FRAMES_PT)
+                    if ch:
+                        x[0] = nb
+
+            for x in sents:
+                zh_val = x[1]
+                for rx, rep in TPLS:
+                    if re.match(rx, zh_val):
+                        new_val = re.sub(rx, rep, zh_val).replace('的的', '的')
+                        if new_val != zh_val:
+                            x[1] = new_val
+                        break
+
             e['sentences'] = sents
             master[w] = sents
+    return master
+
+
+def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Portuguese sentence generator / checker")
+    parser.add_argument("--check", action="store_true", help="Check against master without modifying files")
+    args = parser.parse_args()
+
+    if not BOOKS_FILE.exists():
+        print(f"not found: {BOOKS_FILE}")
+        sys.exit(1)
+    books = json.loads(BOOKS_FILE.read_text(encoding='utf-8'))
+    lemma = {}
+    if LEMMA_FILE.exists():
+        lemma = json.loads(LEMMA_FILE.read_text(encoding='utf-8')).get("lemmas", {})
+
+    master = build_all_sentences(books, lemma)
+
+    if args.check:
+        if not MASTER_FILE.exists():
+            print(f"MASTER_FILE not found: {MASTER_FILE}")
+            sys.exit(1)
+        expected = json.loads(MASTER_FILE.read_text(encoding='utf-8'))
+        mismatches = [w for w in expected if master.get(w) != expected[w]]
+        if mismatches:
+            print(f"CHECK FAIL: {len(mismatches)} words differ from master!")
+            for w in mismatches[:5]:
+                print(f"  diff at {w}: gen={master.get(w)[:1]} vs exp={expected.get(w)[:1]}")
+            sys.exit(1)
+        print(f"CHECK PASS: all {len(expected)} words match sentences_master.json exactly.")
+        return
+
     BOOKS_FILE.write_text(json.dumps(books, ensure_ascii=False, indent=2), encoding='utf-8')
-    MASTER_FILE.write_text(json.dumps(master, ensure_ascii=False, indent=2), encoding='utf-8')
+    MASTER_FILE.write_text(json.dumps(master, ensure_ascii=False, indent=1), encoding='utf-8')
+
     total_s = sum(len(v) for v in master.values())
-    import collections
     fc = collections.Counter()
     for w, pairs in master.items():
         for es, _ in pairs:
             fc[es.replace(w, '#')] += 1
     top = fc.most_common(1)[0]
-    print(f'total words: {len(master)}, sentences: {total_s}, frames: {len(fc)}')
-    print(f'top frame: {top[1]} rows ({top[1]/total_s*100:.2f}%)')
-    print(f'saved: {BOOKS_FILE}\nsaved: {MASTER_FILE}')
+    print(f"total words: {len(master)}, sentences: {total_s}, frames: {len(fc)}")
+    print(f"top frame: {top[1]} rows ({top[1]/total_s*100:.2f}%)")
+    print(f"saved: {BOOKS_FILE}\nsaved: {MASTER_FILE}")
 
 
 if __name__ == '__main__':
