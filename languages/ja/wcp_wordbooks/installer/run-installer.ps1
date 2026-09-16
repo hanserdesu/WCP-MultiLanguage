@@ -5,7 +5,7 @@
 $ErrorActionPreference = 'Stop'
 
 # 每次发布安装包时同步更新，失败反馈里会带上这个版本号。
-$InstallerVersion = 'wcp-jp-v1.2.7'
+$InstallerVersion = 'wcp-jp-v1.2.8'
 $IssueBaseUrl = 'https://github.com/hanserdesu/japanese/issues/new'
 
 $version = $PSVersionTable.PSVersion.ToString()

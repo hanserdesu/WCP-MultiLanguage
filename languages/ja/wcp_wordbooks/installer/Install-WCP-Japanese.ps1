@@ -1554,6 +1554,13 @@ $jaWordAudio = Join-Path $jaPackTarget 'audio\word'
 $jaSentenceAudio = Join-Path $jaPackTarget 'audio\sentence'
 Copy-TreeNet (Join-Path $audioStage 'vocabulary') $jaWordAudio '日语单词音频'
 Copy-TreeNet (Join-Path $audioStage 'sentence_audio') $jaSentenceAudio '日语例句音频'
+# 兼容层：游戏的 VocabularyAudioPlayer 只认 <LocalLow>\WCP\vocabulary\<词>.mp3
+# （引擎自带路径，不是插件约定）。只装 pack 的机器在该目录为空，宿主未接管
+# （首次读档中/未重启游戏/未激活）时发音会静默回退成游戏的英语 AI 语音。
+# 这里把单词音频补一份到游戏原生目录；只覆盖同名文件，不清理其它语言的历史
+# 文件（该目录为多语言共享）。宿主侧对已安装用户有同款运行时补缺。
+$legacyVocabDir = Join-Path $wcpRoot 'vocabulary'
+Copy-TreeNet (Join-Path $audioStage 'vocabulary') $legacyVocabDir '日语单词音频(游戏原生目录)'
 try {
     Remove-TreeNet $audioStage
     Write-Host '音频临时目录已清理。' -ForegroundColor DarkGray

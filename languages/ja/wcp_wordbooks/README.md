@@ -10,7 +10,7 @@
 
 只需要下载主 Release 里的一个安装包：
 
-[下载 WCP 日语词书一键安装包 v1.2.7](https://github.com/hanserdesu/japanese/releases/download/wcp-jp-v1.2.7/WCP-Japanese-OneClick-Installer-wcp-jp-v1.2.7.zip)（发布页：[wcp-jp-v1.2.7](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.7)）。正在使用旧版本的用户直接覆盖安装一次即可；v1.2.7 起安装器自带自更新，之后无需再手动换包。
+[下载 WCP 日语词书一键安装包 v1.2.8](https://github.com/hanserdesu/japanese/releases/download/wcp-jp-v1.2.8/WCP-Japanese-OneClick-Installer-wcp-jp-v1.2.8.zip)（发布页：[wcp-jp-v1.2.8](https://github.com/hanserdesu/japanese/releases/tag/wcp-jp-v1.2.8)）。正在使用旧版本的用户直接覆盖安装一次即可；v1.2.7 起安装器自带自更新，之后无需再手动换包。本次 v1.2.8 修复「部分机器上单词发音变成英语 AI 语音」：单词音频同步补进游戏原生目录，已安装的用户运行一次游戏即自动补缺，无需重装。
 
 不要单独下载资源 Release。安装器会自动下载单词音频和例句音频（优先 Gitee 分片路由，失败自动切换 GitHub），下载后做 SHA-256 完整性校验，中断后保留缓存并断点续传。
 

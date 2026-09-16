@@ -387,8 +387,41 @@ function Get-InstalledWordbooks {
     return $State.wordbooks
 }
 
+function Sync-WordAudioMirror {
+    # 单词音频兼容层：把 pack 里的单词音频镜像到游戏原生目录
+    # （%USERPROFILE%\AppData\LocalLow\WCP\vocabulary）。
+    #
+    # 为什么需要：游戏的 VocabularyAudioPlayer 只读那个目录（引擎自带路径，
+    # 不是本安装器或插件的约定）。该目录为空时，宿主未接管（首次读档中 /
+    # 未重启游戏 / 未激活）发音会静默回退成游戏的英语 AI 语音——只在
+    # 用户机暴露、开发机因历史副本而正常。规则对所有语言一致，无语言分支；
+    # 只覆盖同名文件，不清理其它内容（该目录为多语言共享），保留名文件
+    # 复制失败即跳过。
+    #
+    # 返回实际复制/覆盖的文件数；源目录缺失或目标不可写时返回 -1
+    # （调用方只提示，不视为安装失败）。
+    param(
+        [Parameter(Mandatory = $true)][string]$SourceDir,
+        [Parameter(Mandatory = $true)][string]$VocabDir
+    )
+    if (-not (Test-Path -LiteralPath $SourceDir)) { return -1 }
+    try {
+        if (-not (Test-Path -LiteralPath $VocabDir)) {
+            New-Item -ItemType Directory -Path $VocabDir -Force | Out-Null
+        }
+        $mirrored = 0
+        foreach ($mp3 in [IO.Directory]::EnumerateFiles($SourceDir, '*.mp3', [IO.SearchOption]::AllDirectories)) {
+            try {
+                [IO.File]::Copy($mp3, (Join-Path $VocabDir ([IO.Path]::GetFileName($mp3))), $true)
+                $mirrored++
+            } catch { }
+        }
+        return $mirrored
+    } catch { return -1 }
+}
+
 Export-ModuleMember -Function Import-WordbookCatalog, Assert-WordbookCatalog, `
     Get-WordbookById, Resolve-WordbookSelection, Get-WordbookAssetDiff, `
     Test-WordbookInstalledFully, New-DiskPlan, Test-DiskPlanCompatibility, `
     Read-HubState, Get-InstalledWordbooks, Get-ExtractMb, Test-ExtractKnown, `
-    Get-HubCatalogRows, Get-InstalledBookIds, Resolve-InteractivePick
+    Get-HubCatalogRows, Get-InstalledBookIds, Resolve-InteractivePick, Sync-WordAudioMirror

@@ -1,3 +1,4 @@
 tools/release/core/*/wcp-*-core.zip
 tools/release/core/*/release-manifest.json
 __pycache__/
+_local/

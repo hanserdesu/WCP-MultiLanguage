@@ -632,6 +632,18 @@ foreach ($wb in $selection) {
             if ($asset.kind -in @('word_audio', 'sentence_audio')) {
                 $dest = Join-Path (Join-Path $packRoot 'audio') ($asset.kind -replace '_audio$', '')
                 Expand-HubZip $tmp $dest
+                if ($asset.kind -eq 'word_audio') {
+                    # 兼容层：游戏的 VocabularyAudioPlayer 只认 <LocalLow>\WCP\vocabulary
+                    # （引擎自带路径）。宿主未接管时该目录为空会让发音静默回退成游戏
+                    # 的英语 AI 语音，所以单词音频在 pack 之外再镜像一份。失败只提示。
+                    $vocabMirror = Join-Path $wcpRoot 'vocabulary'
+                    $mirrored = Sync-WordAudioMirror -SourceDir $dest -VocabDir $vocabMirror
+                    if ($mirrored -lt 0) {
+                        Write-Host ('    提示：单词音频镜像到游戏原生目录失败（不影响主安装）：{0}' -f $vocabMirror) -ForegroundColor DarkYellow
+                    } else {
+                        Write-Host ('    单词音频镜像到游戏原生目录：{0} 个 → {1}' -f $mirrored, $vocabMirror)
+                    }
+                }
             } elseif ($asset.kind -eq 'slot_manifest') {
                 # The custom-slot plugin owns the logical 20-row catalog.  Keep
                 # the seed outside language-specific payload directories so the

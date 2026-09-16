@@ -1,53 +1,47 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-16T13:51:36+08:00",
+  "integrated_at": "2026-09-16T14:10:36+08:00",
   "languages": {
-    "de": {
+    "ja": {
       "absent_in_worktree": [],
-      "bytes": 32589485,
-      "content_digest": "sha256:4d873230a9774ce106eaead4190a0f47a8958f06adc243fd40a6b509df11e76a",
-      "excluded": {},
-      "excluded_bytes": 0,
-      "excluded_samples": [],
-      "files": 302,
-      "note": "",
+      "bytes": 71089698,
+      "content_digest": "sha256:378db208632c89a54c0b059f05c24d976e4807439749baf9a35c5fc6af5d8253",
+      "excluded": {
+        "build-archive": 26,
+        "duplicate-pack-build": 4,
+        "installer-package": 63,
+        "release-artifacts": 37
+      },
+      "excluded_bytes": 3697593787,
+      "excluded_samples": [
+        "packs/ja/books/日语词库(猫条版).xlsx (duplicate-pack-build)",
+        "packs/ja/db/repair.tsv (duplicate-pack-build)",
+        "packs/ja/db/sentences.json (duplicate-pack-build)",
+        "packs/ja/pack.build.json (duplicate-pack-build)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/01_双击运行我.cmd (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/Install-WCP-Japanese.ps1 (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/check-compatibility.ps1 (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/compatibility-help.cmd (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/additions.db (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/config/BepInEx.cfg (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.dll (installer-package)",
+        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.xml (installer-package)"
+      ],
+      "files": 851,
+      "note": "日语：本体与语音资源保留在 hanserdesu/japanese",
       "removed_in_worktree": [],
-      "source_branch": "main",
-      "source_dir": "D:\\ATooManyLanguage\\German",
-      "source_head": "79b6814e8eb300b229d50c495e44281172b91cf9",
-      "source_head_date": "2026-09-16 13:50:23 +0800",
-      "source_head_subject": "content: 三轮质量修复 — 47条fallback垃圾释义手写重译、770条释义内部重复去重、4条标签泄漏/音译垃圾修正 (824条, 零语义损失); payload/packs 同步",
-      "source_origin_head": "",
-      "source_repo": "https://github.com/hanserdesu/WCP-German-Wordbook.git",
+      "source_branch": "master",
+      "source_dir": "D:\\ATooManyLanguage\\Japanese",
+      "source_head": "4c8b33e0ca5a19eb7860d5d2ed7b19b2cf8d8370",
+      "source_head_date": "2026-09-16 00:55:48 +0800",
+      "source_head_subject": "docs: 首页指向 v1.2.7（自更新版）",
+      "source_origin_head": "920de44b00faf3a7d9e34e5e2c623f944b049c9f",
+      "source_repo": "https://github.com/hanserdesu/japanese.git",
       "states": {
         "added": 0,
-        "modified": 0,
-        "tracked": 302,
-        "untracked": 0
-      }
-    },
-    "ko": {
-      "absent_in_worktree": [],
-      "bytes": 33370293,
-      "content_digest": "sha256:3b3e49fd22dcb673cca8ba2052a6f3c65aa259d38c01f33012e421ab11f05c90",
-      "excluded": {},
-      "excluded_bytes": 0,
-      "excluded_samples": [],
-      "files": 37,
-      "note": "",
-      "removed_in_worktree": [],
-      "source_branch": "main",
-      "source_dir": "D:\\ATooManyLanguage\\korean",
-      "source_head": "37fbf21fe9f6d1960d4318148e961f2cfc0d9e07",
-      "source_head_date": "2026-09-16 13:50:29 +0800",
-      "source_head_subject": "content: 三轮质量修复 — 音标填充(kaikki IPA 2672+规则音译912, 空缺清零)、释义[[ ]]前缀清洗3746条、例句v3重生成(词性分族+36帧轮换+语法槽位修复, top框架4.77%→2.94%); payload/packs 同步",
-      "source_origin_head": "",
-      "source_repo": "https://github.com/hanserdesu/WCP-Korean-Wordbook.git",
-      "states": {
-        "added": 0,
-        "modified": 0,
-        "tracked": 37,
-        "untracked": 0
+        "modified": 163,
+        "tracked": 674,
+        "untracked": 14
       }
     }
   },

@@ -217,6 +217,32 @@ Check '未知解压空间给出提示' ($compatUnknown.extract_unknown -and $com
 $planKnown = New-DiskPlan -Wordbooks @(Get-WordbookById -Catalog $pickCat -Id 'aa') -InstalledState $null
 Check '有元数据时不报未知' (-not $planKnown.unknown_extract)
 
+# --- WordAudioMirror：单词音频兼容层（游戏原生目录）--------------------------
+# 游戏的 VocabularyAudioPlayer 只读 <LocalLow>\WCP\vocabulary；宿主未接管时
+# 该目录为空会让发音静默回退成英语 AI 语音。这里验证镜像函数的幂等与边界。
+$mirrorRoot = Join-Path $env:TEMP ('wcp-mirror-test-' + [guid]::NewGuid().ToString('N'))
+$mirrorSrc = Join-Path $mirrorRoot 'packs\ja\audio\word'
+$mirrorVoc = Join-Path $mirrorRoot 'vocabulary'
+New-Item -ItemType Directory -Path $mirrorSrc -Force | Out-Null
+[IO.File]::WriteAllBytes((Join-Path $mirrorSrc 'a.mp3'), [byte[]](1, 2, 3))
+[IO.File]::WriteAllBytes((Join-Path $mirrorSrc 'b.mp3'), [byte[]](4, 5))
+[IO.File]::WriteAllBytes((Join-Path $mirrorSrc 'readme.txt'), [byte[]](9))
+$mirrored = Sync-WordAudioMirror -SourceDir $mirrorSrc -VocabDir $mirrorVoc
+Check '镜像：复制数量等于 mp3 数' ($mirrored -eq 2)
+Check '镜像：目标文件已就位' (Test-Path -LiteralPath (Join-Path $mirrorVoc 'a.mp3'))
+Check '镜像：不复制非 mp3 文件' (-not (Test-Path -LiteralPath (Join-Path $mirrorVoc 'readme.txt')))
+# 已存在同名但内容错误的文件必须被覆盖（大小不一致 = 需要修复）。
+[IO.File]::WriteAllBytes((Join-Path $mirrorVoc 'a.mp3'), [byte[]](7, 7, 7, 7))
+$null = Sync-WordAudioMirror -SourceDir $mirrorSrc -VocabDir $mirrorVoc
+Check '镜像：覆盖被改坏的同名文件' ((Get-Item -LiteralPath (Join-Path $mirrorVoc 'a.mp3')).Length -eq 3)
+# 目录不存在时自动创建，不抛异常。
+$mirrorVocNew = Join-Path $mirrorRoot 'vocabulary_fresh'
+$mirroredFresh = Sync-WordAudioMirror -SourceDir $mirrorSrc -VocabDir $mirrorVocNew
+Check '镜像：目标目录不存在时自动创建' (($mirroredFresh -eq 2) -and (Test-Path -LiteralPath (Join-Path $mirrorVocNew 'b.mp3')))
+# 源目录缺失 → -1（调用方只提示，不失败）。
+Check '镜像：源缺失返回 -1' ((Sync-WordAudioMirror -SourceDir (Join-Path $mirrorRoot 'nope') -VocabDir $mirrorVoc) -eq -1)
+Remove-Item -LiteralPath $mirrorRoot -Recurse -Force -ErrorAction SilentlyContinue
+
 Write-Host ''
 Write-Host ('结果: {0} 通过, {1} 失败' -f $pass, $fail)
 if ($fail -gt 0) { exit 1 } else { exit 0 }

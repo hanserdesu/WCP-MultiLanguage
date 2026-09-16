@@ -34,6 +34,13 @@ namespace WcpHost
         private string _activeProfileId;
         private bool _leftOnce;
         private bool _staleRecoveryAttempted;
+        // 兼容层状态：单词音频镜像（每语言包每会话最多安排一次）与 miss 限流。
+        private bool _mirrorAttempted;
+        private int _audioMissTotal;
+        private readonly HashSet<string> _audioMissReported =
+            new HashSet<string>(StringComparer.Ordinal);
+        private readonly HashSet<string> _onceMessages =
+            new HashSet<string>(StringComparer.Ordinal);
 
         internal HostRuntime(WcpHostPlugin plugin, BookRegistry registry,
                              ResourceRouter router, StrategyRegistry strategies)
@@ -73,6 +80,7 @@ namespace WcpHost
             LeaveCurrent();
             _activeProfileId = next;
             _activeWords = words == null ? null : new List<string>(words);
+            _mirrorAttempted = false;
             if (manifest == null || words == null || words.Count == 0)
             {
                 _router.SetActive(null);
@@ -116,6 +124,7 @@ namespace WcpHost
         {
             if (!IsActive || ActiveStrategy == null) return;
             EnsureServices();
+            TryBeginWordAudioMirror();
             try { _scope.Enforce(); }
             catch (Exception e) { Warn("运行态队列校正失败: " + e.Message); }
             try { ScanBookLabels(); }
@@ -154,11 +163,139 @@ namespace WcpHost
                 return true;
             }
             if (string.IsNullOrEmpty(lookup)) lookup = canonical;
-            string path = _router.Resolve(ResourceKind.WordAudio, lookup);
-            if (string.IsNullOrEmpty(path) || !File.Exists(path)) return true;
+            string path = ResolveWordAudio(lookup);
+            if (string.IsNullOrEmpty(path))
+            {
+                // 不接住这次播放：放行给游戏自己的 VocabularyAudioPlayer。
+                // 兼容层（TryBeginWordAudioMirror）已把 pack 音频补进游戏原生
+                // 目录，因此放行后通常仍能听到本地发音而不是英语 AI 语音。
+                ReportAudioMiss(displayed, lookup, canonical);
+                return true;
+            }
             EnsureServices();
             _audio.Play(path);
             return false;
+        }
+
+        // 精确词形优先；未命中再按写法差异候选重试（全角/半角、大小写、
+        // 空格与下划线、尾部句点）。命中候选只记一次日志，便于线上定位。
+        private string ResolveWordAudio(string key)
+        {
+            if (string.IsNullOrEmpty(key)) return null;
+            string path = _router.Resolve(ResourceKind.WordAudio, key);
+            if (!string.IsNullOrEmpty(path) && File.Exists(path)) return path;
+
+            string[] forms = WordAudioCompat.CandidateForms(key);
+            for (int i = 0; i < forms.Length; i++)
+            {
+                string form = forms[i];
+                if (string.Equals(form, key, StringComparison.Ordinal)) continue;
+                path = _router.Resolve(ResourceKind.WordAudio, form);
+                if (!string.IsNullOrEmpty(path) && File.Exists(path))
+                {
+                    InfoOnce("audioform:" + key, "单词音频按候选词形命中: " +
+                        key + " → " + form);
+                    return path;
+                }
+            }
+            return null;
+        }
+
+        private void ReportAudioMiss(string displayed, string lookup, string canonical)
+        {
+            _audioMissTotal++;
+            string shown = lookup;
+            if (string.IsNullOrEmpty(shown)) shown = displayed;
+            if (string.IsNullOrEmpty(shown)) shown = "<空>";
+            if (_audioMissReported.Count < 20 && _audioMissReported.Add(shown))
+            {
+                Warn("单词音频未命中 pack（放行游戏原生目录）: 显示=" + displayed +
+                     " 查词=" + shown + " 词表=" + (canonical == null ? "<无>" : canonical));
+            }
+            else if (_audioMissTotal == 50 || _audioMissTotal == 500 ||
+                     _audioMissTotal == 5000)
+            {
+                Warn("单词音频未命中累计 " + _audioMissTotal + " 次（示例: " + shown + "）");
+            }
+        }
+
+        private void InfoOnce(string key, string message)
+        {
+            if (WcpHostPlugin.Log == null) return;
+            if (_onceMessages.Add(key)) WcpHostPlugin.Log.LogInfo("WcpHost: " + message);
+        }
+
+        // ── 单词音频兼容层 ──────────────────────────────────────────────
+        //
+        // 游戏原生 VocabularyAudioPlayer 只读 <LocalLow>\WCP\vocabulary。
+        // 安装器 v1.1.0 起只写 pack（开发机有历史副本、用户机没有），导致
+        // 宿主未接管时发音静默变成英语 AI 语音。这里在激活语言包时把 pack 的
+        // 单词音频补进游戏原生目录：只补缺、分批做（不卡帧）、可中断可重入，
+        // 失败只记日志。整段不写任何语言专属路径——目标目录由引擎约定推导。
+        private void TryBeginWordAudioMirror()
+        {
+            if (_mirrorAttempted) return;
+            _mirrorAttempted = true;
+            if (WcpHostPlugin.Instance == null || !WcpHostPlugin.Instance.MirrorWordAudio) return;
+
+            LanguageManifest manifest = ActiveManifest;
+            if (manifest == null || string.IsNullOrEmpty(manifest.WordAudioDir)) return;
+            string source = manifest.Resolve(manifest.WordAudioDir);
+            if (string.IsNullOrEmpty(source) || !Directory.Exists(source)) return;
+
+            string parent = Path.GetDirectoryName(Application.persistentDataPath);
+            if (string.IsNullOrEmpty(parent)) return;
+            string targetDir = Path.Combine(parent, "vocabulary");
+
+            try
+            {
+                string[] files = WordAudioCompat.ListSourceFiles(source);
+                if (files == null || files.Length == 0) return;
+                string stamp = WordAudioCompat.ExpectedStamp(manifest.Profile.Id, files.Length);
+                if (WordAudioCompat.StampMatches(WordAudioCompat.StampPath(targetDir), stamp))
+                    return;
+                if (WcpHostPlugin.Log != null)
+                    WcpHostPlugin.Log.LogInfo("WcpHost: 单词音频兼容层开始（" +
+                        manifest.Profile.Language + " 共 " + files.Length + " 个文件 → " +
+                        targetDir + "）");
+                _plugin.StartCoroutine(MirrorWordAudio(files, targetDir, stamp));
+            }
+            catch (Exception e)
+            {
+                Warn("单词音频兼容层启动失败: " + e.Message);
+            }
+        }
+
+        private IEnumerator MirrorWordAudio(string[] files, string targetDir, string stamp)
+        {
+            int copied = 0;
+            int skipped = 0;
+            int failed = 0;
+            int frameCount = 0;
+            float frameBudget = Time.realtimeSinceStartup + WordAudioCompat.FrameBudgetSeconds;
+            for (int i = 0; i < files.Length; i++)
+            {
+                string target = Path.Combine(targetDir, Path.GetFileName(files[i]));
+                if (WordAudioCompat.AlreadyPresent(files[i], target)) skipped++;
+                else if (WordAudioCompat.TryCopy(files[i], target)) copied++;
+                else failed++;
+
+                frameCount++;
+                if (frameCount >= WordAudioCompat.MaxFilesPerFrame ||
+                    Time.realtimeSinceStartup >= frameBudget)
+                {
+                    frameCount = 0;
+                    frameBudget = Time.realtimeSinceStartup +
+                                  WordAudioCompat.FrameBudgetSeconds;
+                    yield return null;
+                }
+            }
+            if (failed == 0)
+                WordAudioCompat.WriteStamp(WordAudioCompat.StampPath(targetDir), stamp);
+            if (WcpHostPlugin.Log != null)
+                WcpHostPlugin.Log.LogInfo("WcpHost: 单词音频兼容层完成：复制=" + copied +
+                    " 已存在=" + skipped + " 失败=" + failed +
+                    (failed == 0 ? "（已记录，后续会话跳过）" : "（下次会话重试）"));
         }
 
         internal void PostMultipleChoice(object instance)
@@ -377,6 +514,8 @@ namespace WcpHost
             if (_sentenceAudio != null) _sentenceAudio.Leave();
             RestoreLabels();
             _scope.Leave();
+            // 离开当前语言范围后音频缓存不再有用，及时释放避免长会话内存增长。
+            if (_audio != null) _audio.ClearCache();
         }
 
         private void EnsureServices()
@@ -534,9 +673,14 @@ namespace WcpHost
 
     internal sealed class HostAudioPlayer : MonoBehaviour
     {
+        // 缓存上限：每个播放过的音频都被永久缓存会让长会话内存只增不减
+        // （每条约 0.3-1MB 解码后 PCM）。超过上限时淘汰最旧且不在播放中的条目。
+        private const int MaxCache = 160;
+
         private AudioSource _source;
         private readonly Dictionary<string, AudioClip> _cache =
             new Dictionary<string, AudioClip>(StringComparer.Ordinal);
+        private readonly Queue<string> _cacheOrder = new Queue<string>();
         private readonly HashSet<string> _loading =
             new HashSet<string>(StringComparer.Ordinal);
 
@@ -566,6 +710,34 @@ namespace WcpHost
             }
         }
 
+        // 离开当前语言范围时调用：释放除正在播放外的全部缓存。
+        internal void ClearCache()
+        {
+            foreach (KeyValuePair<string, AudioClip> pair in _cache)
+            {
+                AudioClip clip = pair.Value;
+                if (clip != null && (_source == null || _source.clip != clip))
+                    UnityEngine.Object.Destroy(clip);
+            }
+            _cache.Clear();
+            _cacheOrder.Clear();
+        }
+
+        private void Remember(string file, AudioClip clip)
+        {
+            if (!_cache.ContainsKey(file)) _cacheOrder.Enqueue(file);
+            _cache[file] = clip;
+            while (_cacheOrder.Count > MaxCache)
+            {
+                string oldest = _cacheOrder.Dequeue();
+                AudioClip dropped;
+                if (!_cache.TryGetValue(oldest, out dropped)) continue;
+                _cache.Remove(oldest);
+                if (dropped != null && (_source == null || _source.clip != dropped))
+                    UnityEngine.Object.Destroy(dropped);
+            }
+        }
+
         private IEnumerator LoadAndPlay(string file)
         {
             UnityWebRequest request = null;
@@ -589,7 +761,7 @@ namespace WcpHost
                     AudioClip clip = DownloadHandlerAudioClip.GetContent(request);
                     if (clip != null)
                     {
-                        _cache[file] = clip;
+                        Remember(file, clip);
                         _source.Stop();
                         _source.clip = clip;
                         _source.Play();

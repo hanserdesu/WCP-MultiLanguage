@@ -50,6 +50,7 @@ set REFS=/r:"%GAME%\BepInEx\core\BepInEx.dll" ^
  "%HERE%GameAdapter.cs" ^
  "%HERE%TakeoverScope.cs" ^
  "%HERE%HostRuntime.cs" ^
+ "%HERE%WordAudioCompat.cs" ^
  "%HERE%SentenceAudioService.cs" ^
  "%HERE%HostPatches.cs" ^
  "%HERE%Host.cs"
