@@ -3,7 +3,7 @@
     {
       "word": "gelöst",
       "pos": "adj.",
-      "zh": "溶解物；溶质\\n 溶质",
+      "zh": "解决的；轻松自在的；溶解的",
       "ipa": "ɡeːlœst",
       "level": "b1",
       "rank": 3223
@@ -131,7 +131,7 @@
     {
       "word": "Leb",
       "pos": "n.",
-      "zh": "活的；生动的；精力充沛的",
+      "zh": "活；生活（口语词干）",
       "ipa": "leːp",
       "level": "b1",
       "rank": 3685
@@ -355,7 +355,7 @@
     {
       "word": "Unschuldige",
       "pos": "n.",
-      "zh": "无罪的；不懂事的；无知的\\nn. 天真的人",
+      "zh": "无辜者；清白的人",
       "ipa": "ʊnʃʊldɪɡə",
       "level": "b1",
       "rank": 4090
@@ -443,7 +443,7 @@
     {
       "word": "riesige",
       "pos": "adv.",
-      "zh": "获暴利的人；奸商\\nvi. 获暴利；赚大钱",
+      "zh": "巨大的；庞大的",
       "ipa": "ʁiːzɪɡə",
       "level": "b1",
       "rank": 4167
@@ -835,7 +835,7 @@
     {
       "word": "übliche",
       "pos": "adv.",
-      "zh": "行为；举止\\n 特性；性能",
+      "zh": "常见的；惯例的；通常的",
       "ipa": "ʏblɪçə",
       "level": "b1",
       "rank": 4619
@@ -859,7 +859,7 @@
     {
       "word": "Dummer",
       "pos": "n.m.",
-      "zh": "愚蠢的；糊涂的",
+      "zh": "傻瓜；蠢人；笨蛋",
       "ipa": "dʊmɐ",
       "level": "b1",
       "rank": 4686
@@ -1379,7 +1379,7 @@
     {
       "word": "ausgebildet",
       "pos": "adv.",
-      "zh": "火车；列车；行列",
+      "zh": "受过培训的；受过训练的",
       "ipa": "aʊsɡəbɪldət",
       "level": "b1",
       "rank": 6180
@@ -1411,7 +1411,7 @@
     {
       "word": "Fremd",
       "pos": "n.",
-      "zh": "外来的；非必要的；无关的\\n 体外的",
+      "zh": "陌生人；外人",
       "ipa": "fʁɛmt",
       "level": "b1",
       "rank": 6298
@@ -1515,7 +1515,7 @@
     {
       "word": "Firmen",
       "pos": "n.",
-      "zh": "社团的；合伙的；公司的\\n 团体的",
+      "zh": "公司；企业（复数）",
       "ipa": "fɪʁmən",
       "level": "b1",
       "rank": 6640
@@ -1659,7 +1659,7 @@
     {
       "word": "Nationale",
       "pos": "n.",
-      "zh": "国家的；国立的；全国性的",
+      "zh": "个人基本情况；国民",
       "ipa": "naːt͡sjoːnalə",
       "level": "b1",
       "rank": 7034
@@ -1715,7 +1715,7 @@
     {
       "word": "warme",
       "pos": "adv.",
-      "zh": "带子；线；鞋带",
+      "zh": "温暖的；热情的",
       "ipa": "vaʁmə",
       "level": "b1",
       "rank": 7048
@@ -2203,7 +2203,7 @@
     {
       "word": "Freizeit",
       "pos": "n.f.",
-      "zh": "自由的；享受政治权力的；允许的",
+      "zh": "业余时间；空闲；闲暇",
       "ipa": "fʁaɪt͡saɪt",
       "level": "b1",
       "rank": 7185
@@ -2411,7 +2411,7 @@
     {
       "word": "Lungen",
       "pos": "n.",
-      "zh": "肺的；与肺有关的；有肺的\\n 肺的",
+      "zh": "肺；肺部（复数）",
       "ipa": "lʊnɡən",
       "level": "b1",
       "rank": 7244
@@ -2915,7 +2915,7 @@
     {
       "word": "Schwule",
       "pos": "n.m.",
-      "zh": "欢快的；艳丽的；快乐的",
+      "zh": "男同性恋者",
       "ipa": "ʃvuːlə",
       "level": "b1",
       "rank": 7422
@@ -3139,7 +3139,7 @@
     {
       "word": "Glückspilz",
       "pos": "n.m.",
-      "zh": "幸运的；吉祥的；好运的",
+      "zh": "幸运儿；幸运的人",
       "ipa": "ɡlʏkspɪlt͡s",
       "level": "b1",
       "rank": 7494
@@ -3211,7 +3211,7 @@
     {
       "word": "Schwindel",
       "pos": "n.m.",
-      "zh": "假的；伪造的\\n 伪的；伪造的",
+      "zh": "眩晕；眩晕症；骗局",
       "ipa": "ʃvɪndəl",
       "level": "b1",
       "rank": 7519
@@ -3219,7 +3219,7 @@
     {
       "word": "National",
       "pos": "n.",
-      "zh": "国家的；国立的；全国性的",
+      "zh": "国家队；国家报",
       "ipa": "naːt͡sjoːnaːl",
       "level": "b1",
       "rank": 7520
@@ -3387,7 +3387,7 @@
     {
       "word": "Diät",
       "pos": "n.f.",
-      "zh": "受限制的；有限的",
+      "zh": "节食；特种饮食；议员津贴",
       "ipa": "dɪɛːt",
       "level": "b1",
       "rank": 7579
@@ -3531,7 +3531,7 @@
     {
       "word": "grau",
       "pos": "adv.",
-      "zh": "灰色；灰色物",
+      "zh": "灰色的；暗淡的",
       "ipa": "ɡʁaʊ",
       "level": "b1",
       "rank": 7631
@@ -3595,7 +3595,7 @@
     {
       "word": "Beleidigung",
       "pos": "n.f.",
-      "zh": "恶言谩骂的；被滥用的；腐败的",
+      "zh": "侮辱；冒犯；凌辱",
       "ipa": "beːlaɪdɪɡʊnk",
       "level": "b1",
       "rank": 7642
@@ -3611,7 +3611,7 @@
     {
       "word": "hohes",
       "pos": "adv.",
-      "zh": "名声；声望\\nvt. 使有声望",
+      "zh": "高的；高贵的",
       "ipa": "hoːəs",
       "level": "b1",
       "rank": 7647
@@ -3691,7 +3691,7 @@
     {
       "word": "Küsschen",
       "pos": "n.",
-      "zh": "友好的；亲切的",
+      "zh": "飞吻；轻吻；小吻",
       "ipa": "kʏsçən",
       "level": "b1",
       "rank": 7661
@@ -3699,7 +3699,7 @@
     {
       "word": "Limonade",
       "pos": "n.f.",
-      "zh": "嘶嘶作响的；起泡沫的",
+      "zh": "柠檬汽水；汽水",
       "ipa": "liːmɔnadə",
       "level": "b1",
       "rank": 7665
@@ -4163,7 +4163,7 @@
     {
       "word": "Bildung",
       "pos": "n.f.",
-      "zh": "正式的；形式的；礼仪的",
+      "zh": "教育；教养；形成；培养",
       "ipa": "bɪldʊnk",
       "level": "b1",
       "rank": 7794
@@ -4251,7 +4251,7 @@
     {
       "word": "ursprünglich",
       "pos": "adj.",
-      "zh": "本地人；土产；当地人\\na. 本国的",
+      "zh": "最初的；原本的",
       "ipa": "ʊʁspʁʏnɡliːç",
       "level": "b1",
       "rank": 7822
@@ -4419,7 +4419,7 @@
     {
       "word": "Schweres",
       "pos": "n.",
-      "zh": "严格的；尖锐的；严肃的",
+      "zh": "沉重之物；困难的事",
       "ipa": "ʃveːʁəs",
       "level": "b1",
       "rank": 7874
@@ -4731,7 +4731,7 @@
     {
       "word": "Rippen",
       "pos": "n.",
-      "zh": "肋骨的；具中脉的\\n 肋的",
+      "zh": "肋骨；肋条（复数）",
       "ipa": "ʁɪpən",
       "level": "b1",
       "rank": 7957
@@ -5283,7 +5283,7 @@
     {
       "word": "Diner",
       "pos": "n.",
-      "zh": "正式的；形式的；礼仪的",
+      "zh": "正餐；晚宴",
       "ipa": "diːnɐ",
       "level": "b1",
       "rank": 8094
@@ -5467,7 +5467,7 @@
     {
       "word": "leichtes",
       "pos": "adv.",
-      "zh": "拍击者；惊鸟器；苍蝇拍",
+      "zh": "轻便的；容易的；轻微的",
       "ipa": "laɪçtəs",
       "level": "b1",
       "rank": 8154
@@ -6243,7 +6243,7 @@
     {
       "word": "Eichhörnchen",
       "pos": "n.",
-      "zh": "松软的；模糊的；不肯定的",
+      "zh": "松鼠",
       "ipa": "aɪçhœʁnçən",
       "level": "b1",
       "rank": 8385
@@ -6275,7 +6275,7 @@
     {
       "word": "niedrig",
       "pos": "adj.",
-      "zh": "低点；低价；低",
+      "zh": "低矮的；低下的；低廉的",
       "ipa": "niːdʁɪç",
       "level": "b1",
       "rank": 8396
@@ -6923,7 +6923,7 @@
     {
       "word": "betäubt",
       "pos": "adv.",
-      "zh": "使麻木；使麻痹",
+      "zh": "麻木的；目瞪口呆的；麻醉的",
       "ipa": "beːtɔʏbt",
       "level": "b1",
       "rank": 8617
@@ -7027,7 +7027,7 @@
     {
       "word": "dunkler",
       "pos": "adv.",
-      "zh": "大斑点；污斑；疹块\\n 污点",
+      "zh": "更黑暗的；更阴暗的",
       "ipa": "dʊnklɐ",
       "level": "b1",
       "rank": 8650
@@ -7267,7 +7267,7 @@
     {
       "word": "Nieren",
       "pos": "n.",
-      "zh": "肾脏的；肾的\\n 肾的",
+      "zh": "肾脏；腰子（复数）",
       "ipa": "niːʁən",
       "level": "b1",
       "rank": 8718
@@ -7699,7 +7699,7 @@
     {
       "word": "Alarmstufe",
       "pos": "n.f.",
-      "zh": "警觉的；灵敏的",
+      "zh": "警报级别；警戒等级",
       "ipa": "aːlaʁmstʊfə",
       "level": "b1",
       "rank": 8822
@@ -7755,7 +7755,7 @@
     {
       "word": "abgefeuert",
       "pos": "adv.",
-      "zh": "火；炉火；电炉",
+      "zh": "开火的；射出的；发射的",
       "ipa": "abɡəfɔʏəʁt",
       "level": "b1",
       "rank": 8839
@@ -7843,7 +7843,7 @@
     {
       "word": "Glückstag",
       "pos": "n.m.",
-      "zh": "快乐的；幸福的；愉快的",
+      "zh": "吉日；幸运日",
       "ipa": "ɡlʏkstaːk",
       "level": "b1",
       "rank": 8861
@@ -8091,7 +8091,7 @@
     {
       "word": "glückliches",
       "pos": "adv.",
-      "zh": "偶然发现珍宝的运气/才能；易遇奇缘的运气",
+      "zh": "幸福的；吉祥的",
       "ipa": "ɡlʏklɪçəs",
       "level": "b1",
       "rank": 8931
@@ -8155,7 +8155,7 @@
     {
       "word": "vorsichtiger",
       "pos": "adv.",
-      "zh": "胆小鬼；缩手缩脚的人；小气鬼",
+      "zh": "更小心的；更谨慎的",
       "ipa": "fɔʁzɪçtɪɡɐ",
       "level": "b1",
       "rank": 8950
@@ -8211,7 +8211,7 @@
     {
       "word": "Toiletten",
       "pos": "n.",
-      "zh": "厕所的；洗涤的；低级粗俗的",
+      "zh": "厕所；洗手间（复数）",
       "ipa": "tɔɪlətən",
       "level": "b1",
       "rank": 8967
@@ -8379,7 +8379,7 @@
     {
       "word": "professionelle",
       "pos": "adv.",
-      "zh": "美容术",
+      "zh": "专业的；职业的",
       "ipa": "pʁoːfəsɪɔnələ",
       "level": "b1",
       "rank": 9019
@@ -8587,7 +8587,7 @@
     {
       "word": "kranker",
       "pos": "adv.",
-      "zh": "<美俚>有精神病的人；道德败坏的人",
+      "zh": "患病的；病态的",
       "ipa": "kʁankɐ",
       "level": "b1",
       "rank": 9076
@@ -9347,7 +9347,7 @@
     {
       "word": "Luder",
       "pos": "n.",
-      "zh": "狡诈的；诡计多端的；巧妙的",
+      "zh": "荡妇；泼妇；诱饵",
       "ipa": "luːdɐ",
       "level": "b1",
       "rank": 9276
@@ -9619,7 +9619,7 @@
     {
       "word": "Eigentliche",
       "pos": "n.",
-      "zh": "典型的；象征性的\\n 典型的",
+      "zh": "本质；实质；本来面目",
       "ipa": "aɪɡəntlɪçə",
       "level": "b1",
       "rank": 9368
@@ -9675,7 +9675,7 @@
     {
       "word": "kaltes",
       "pos": "adv.",
-      "zh": "正式茶点；晚茶",
+      "zh": "寒冷的；冰凉的",
       "ipa": "kaltəs",
       "level": "b1",
       "rank": 9380
@@ -9715,7 +9715,7 @@
     {
       "word": "Erkältung",
       "pos": "n.f.",
-      "zh": "通常的；共同的；通俗的",
+      "zh": "感冒；受凉",
       "ipa": "ɛʁkɛltʊnk",
       "level": "b1",
       "rank": 9394
@@ -9763,7 +9763,7 @@
     {
       "word": "Gehirnerschütterung",
       "pos": "n.f.",
-      "zh": "脑的；大脑的\\n 小脑的",
+      "zh": "脑震荡",
       "ipa": "ɡeːɪʁnəʁʃʏtəʁʊnk",
       "level": "b1",
       "rank": 9405
@@ -9947,7 +9947,7 @@
     {
       "word": "einmalige",
       "pos": "adv.",
-      "zh": "在一处只演出一场；一夜演出",
+      "zh": "一次性的；绝无仅有的；极佳的",
       "ipa": "aɪnmalɪɡə",
       "level": "b1",
       "rank": 9458
@@ -10011,7 +10011,7 @@
     {
       "word": "Klugscheißer",
       "pos": "n.m.",
-      "zh": "聪明的；漂亮的；刺痛的",
+      "zh": "自作聪明的人；万事通",
       "ipa": "klʊɡʃaɪsɐ",
       "level": "b1",
       "rank": 9481
@@ -10651,7 +10651,7 @@
     {
       "word": "übler",
       "pos": "adv.",
-      "zh": "气味；臭气；香气",
+      "zh": "更糟的；更恶劣的",
       "ipa": "ʏblɐ",
       "level": "b1",
       "rank": 9708
@@ -10763,7 +10763,7 @@
     {
       "word": "Fernbedienung",
       "pos": "n.f.",
-      "zh": "遥远的；偏僻的；疏远的",
+      "zh": "遥控器；遥控",
       "ipa": "fɛʁnbədiːnʊnk",
       "level": "b1",
       "rank": 9744
@@ -10787,7 +10787,7 @@
     {
       "word": "Verlegenheit",
       "pos": "n.f.",
-      "zh": "笨拙的；棘手的",
+      "zh": "尴尬；窘迫；困窘",
       "ipa": "fɛʁləɡənhaɪt",
       "level": "b1",
       "rank": 9751
@@ -11035,7 +11035,7 @@
     {
       "word": "beruhigend",
       "pos": "adv.",
-      "zh": "止痛药；镇痛剂\\na. 止痛的",
+      "zh": "令人宽慰的；让人安心的；镇静的",
       "ipa": "beːʁuːɪɡənt",
       "level": "b1",
       "rank": 9823
@@ -11675,7 +11675,7 @@
     {
       "word": "entscheidend",
       "pos": "adv.",
-      "zh": "决定物",
+      "zh": "决定性的；至关紧要的",
       "ipa": "ɛnt͡ʃaɪdənt",
       "level": "b1",
       "rank": 10000
@@ -11731,7 +11731,7 @@
     {
       "word": "Schwangere",
       "pos": "n.f.",
-      "zh": "怀孕的；充满的；思想丰富的",
+      "zh": "孕妇",
       "ipa": "ʃvanɡəʁə",
       "level": "b1",
       "rank": 10019
@@ -11835,7 +11835,7 @@
     {
       "word": "Beamter",
       "pos": "n.m.",
-      "zh": "市民的；公民的；有礼貌的\\n 公民的",
+      "zh": "公务员；公职人员",
       "ipa": "bɛamtɐ",
       "level": "b1",
       "rank": 10043
@@ -11947,7 +11947,7 @@
     {
       "word": "Vermächtnis",
       "pos": "n.",
-      "zh": "遗嘱的；据遗嘱的；遗嘱中有的\\n 遗嘱的",
+      "zh": "遗产；遗赠；遗愿",
       "ipa": "fɛʁmɛçtnɪs",
       "level": "b1",
       "rank": 10069
@@ -12283,7 +12283,7 @@
     {
       "word": "Gemeine",
       "pos": "n.",
-      "zh": "通常的；共同的；通俗的",
+      "zh": "恶人；平民；下等人",
       "ipa": "ɡeːmaɪnə",
       "level": "b1",
       "rank": 10156
@@ -12419,7 +12419,7 @@
     {
       "word": "gering",
       "pos": "adv.",
-      "zh": "一点点；少许；一会儿",
+      "zh": "微小的；微弱的；少的",
       "ipa": "ɡeːʁɪnk",
       "level": "b1",
       "rank": 10196
@@ -13339,7 +13339,7 @@
     {
       "word": "Tonne",
       "pos": "n.f.",
-      "zh": "公尺的；公制的；计量的\\n 测量的",
+      "zh": "吨；大桶",
       "ipa": "tɔnə",
       "level": "b1",
       "rank": 10473
@@ -13499,7 +13499,7 @@
     {
       "word": "Elektrische",
       "pos": "n.",
-      "zh": "电的；有关电的\\n 电的",
+      "zh": "电动车；电车；电",
       "ipa": "eːləktʁɪʃə",
       "level": "b1",
       "rank": 10508
@@ -13995,7 +13995,7 @@
     {
       "word": "weiblich",
       "pos": "adj.",
-      "zh": "女性；女人；雌性动物\\na. 女性的",
+      "zh": "女性的；雌性的",
       "ipa": "vaɪbliːç",
       "level": "b1",
       "rank": 10660
@@ -14275,7 +14275,7 @@
     {
       "word": "Klippe",
       "pos": "n.f.",
-      "zh": "海岸的；沿海的；沿岸的\\n 海岸的",
+      "zh": "悬崖；峭壁；暗礁",
       "ipa": "klɪpə",
       "level": "b1",
       "rank": 10730
@@ -14331,7 +14331,7 @@
     {
       "word": "erfolgreiche",
       "pos": "adv.",
-      "zh": "乐队彩车；流行",
+      "zh": "成功的",
       "ipa": "ɛʁfɔlɡʁaɪçə",
       "level": "b1",
       "rank": 10744
@@ -14347,7 +14347,7 @@
     {
       "word": "Bestechung",
       "pos": "n.f.",
-      "zh": "活跃的；起作用的；积极的",
+      "zh": "贿赂；行贿；受贿",
       "ipa": "bɛstəçʊnk",
       "level": "b1",
       "rank": 10746
@@ -14363,7 +14363,7 @@
     {
       "word": "Kasino",
       "pos": "n.",
-      "zh": "受委任的；现役的；受任命的\\n 经授权的",
+      "zh": "赌场；军官俱乐部",
       "ipa": "kaːzɪnɔ",
       "level": "b1",
       "rank": 10758
@@ -14691,7 +14691,7 @@
     {
       "word": "fliegende",
       "pos": "adv.",
-      "zh": "眼睛；视力；看\\nvt. 看",
+      "zh": "飞行的；飞翔的",
       "ipa": "fliːɡəndə",
       "level": "b1",
       "rank": 10853
@@ -15347,7 +15347,7 @@
     {
       "word": "Rinder",
       "pos": "n.",
-      "zh": "牛的；似牛的；迟钝的",
+      "zh": "牛；肉牛（复数）",
       "ipa": "ʁɪndɐ",
       "level": "b1",
       "rank": 11067
@@ -15691,7 +15691,7 @@
     {
       "word": "handvoll",
       "pos": "adj.",
-      "zh": "少数；一把；棘手事",
+      "zh": "一把；一小撮",
       "ipa": "handfɔl",
       "level": "b1",
       "rank": 11179
@@ -15939,7 +15939,7 @@
     {
       "word": "sofortige",
       "pos": "adv.",
-      "zh": "污点；地点；斑点",
+      "zh": "立即的；即刻的",
       "ipa": "zoːfɔʁtɪɡə",
       "level": "b1",
       "rank": 11250
@@ -16811,7 +16811,7 @@
     {
       "word": "blutig",
       "pos": "adj.",
-      "zh": "出血；流血\\n 渗色",
+      "zh": "流血的；血腥的；残暴的",
       "ipa": "bluːtɪç",
       "level": "b1",
       "rank": 11549
@@ -16835,7 +16835,7 @@
     {
       "word": "Unbekannter",
       "pos": "n.",
-      "zh": "不知道的；未知的；陌生的\\nn. 未知物",
+      "zh": "陌生人；无名氏",
       "ipa": "ʊnbəkantɐ",
       "level": "b1",
       "rank": 11557
@@ -17083,7 +17083,7 @@
     {
       "word": "Dirk",
       "pos": "n.f.",
-      "zh": "极好的；主要的；一流的\\nn. 除顶部",
+      "zh": "迪克（男子名）；短剑",
       "ipa": "dɪʁk",
       "level": "b1",
       "rank": 11641
@@ -17099,7 +17099,7 @@
     {
       "word": "Fläschchen",
       "pos": "n.",
-      "zh": "小的；少的；小型的",
+      "zh": "小瓶；小药瓶；小奶瓶",
       "ipa": "flɛʃçən",
       "level": "b1",
       "rank": 11643
@@ -17563,7 +17563,7 @@
     {
       "word": "Beratung",
       "pos": "n.f.",
-      "zh": "商议的；咨询的；任专职顾问的",
+      "zh": "咨询；协商；顾问服务",
       "ipa": "beːʁatʊnk",
       "level": "b1",
       "rank": 11810
@@ -17939,7 +17939,7 @@
     {
       "word": "Glatze",
       "pos": "n.f.",
-      "zh": "秃头的；光秃的；单调的",
+      "zh": "秃顶；光头",
       "ipa": "ɡlat͡sə",
       "level": "b1",
       "rank": 11954
@@ -18011,7 +18011,7 @@
     {
       "word": "Empfänger",
       "pos": "n.m.",
-      "zh": "领受的；容易接受的",
+      "zh": "收件人；接收者；接收机",
       "ipa": "ɛmpfɛnɡɐ",
       "level": "b1",
       "rank": 11979
@@ -18059,7 +18059,7 @@
     {
       "word": "genetisch",
       "pos": "adj.",
-      "zh": "创始；遗传学；生殖",
+      "zh": "基因的；遗传的",
       "ipa": "ɡeːnətɪʃ",
       "level": "b1",
       "rank": 11997
@@ -19269,7 +19269,7 @@
     {
       "word": "erfolgreicher",
       "pos": "adv.",
-      "zh": "（商业或政治上的）交易者",
+      "zh": "更成功的；成功的",
       "ipa": "ɛʁfɔlɡʁaɪçɐ",
       "level": "b2",
       "rank": 12669
@@ -19813,7 +19813,7 @@
     {
       "word": "ärztliche",
       "pos": "adv.",
-      "zh": "药物治疗；药物处理；医药\\n 药疗法",
+      "zh": "医生的；医疗的",
       "ipa": "ɛʁt͡stlɪçə",
       "level": "b2",
       "rank": 12849
@@ -19957,7 +19957,7 @@
     {
       "word": "Übersee",
       "pos": "n.",
-      "zh": "在海洋彼岸的；横越海洋的",
+      "zh": "海外；海外地区",
       "ipa": "yːbəʁzeː",
       "level": "b2",
       "rank": 12894
@@ -20397,7 +20397,7 @@
     {
       "word": "psychologische",
       "pos": "adv.",
-      "zh": "思想；愿望；智力",
+      "zh": "心理学的；心理上的",
       "ipa": "pzʏçoːlɔɡɪʃə",
       "level": "b2",
       "rank": 13042
@@ -20501,7 +20501,7 @@
     {
       "word": "Alltag",
       "pos": "n.m.",
-      "zh": "每天的；日常的；平常的",
+      "zh": "日常生活；平日",
       "ipa": "altaːk",
       "level": "b2",
       "rank": 13077
@@ -20893,7 +20893,7 @@
     {
       "word": "bequemer",
       "pos": "adv.",
-      "zh": "游手好闲的人；懒人；懒汉鞋\\n 无业游民",
+      "zh": "更舒适的；更安逸的",
       "ipa": "bɛkvəmɐ",
       "level": "b2",
       "rank": 13217
@@ -21229,7 +21229,7 @@
     {
       "word": "Handlanger",
       "pos": "n.m.",
-      "zh": "抚恤金的；领取抚恤金的；依靠抚恤金生活的",
+      "zh": "帮凶；爪牙；打杂工",
       "ipa": "handlanɡɐ",
       "level": "b2",
       "rank": 13306
@@ -21293,7 +21293,7 @@
     {
       "word": "Pazifik",
       "pos": "n.m.",
-      "zh": "太平洋\\na. 太平洋的；太平洋沿岸的；爱好和平的",
+      "zh": "太平洋",
       "ipa": "paːt͡sɪfiːk",
       "level": "b2",
       "rank": 13334
@@ -21629,7 +21629,7 @@
     {
       "word": "Ferkel",
       "pos": "n.",
-      "zh": "年轻的；无经验的",
+      "zh": "小猪；小猪仔；邋遢鬼",
       "ipa": "fɛʁkəl",
       "level": "b2",
       "rank": 13444
@@ -21669,7 +21669,7 @@
     {
       "word": "effizient",
       "pos": "adv.",
-      "zh": "生效；能胜任；有能力",
+      "zh": "高效的；有成效的",
       "ipa": "ɛfɪt͡siːnt",
       "level": "b2",
       "rank": 13455
@@ -21845,7 +21845,7 @@
     {
       "word": "Ehrenhaft",
       "pos": "n.f.",
-      "zh": "值得尊敬的；荣耀的；高贵的",
+      "zh": "光荣的；体面的；正派的",
       "ipa": "eːʁənhaft",
       "level": "b2",
       "rank": 13515
@@ -21909,7 +21909,7 @@
     {
       "word": "Unglückliche",
       "pos": "n.",
-      "zh": "不幸的；不合适的；不吉利的",
+      "zh": "不幸者；可怜人",
       "ipa": "ʊnɡlʏklɪçə",
       "level": "b2",
       "rank": 13527
@@ -22245,7 +22245,7 @@
     {
       "word": "Obdachlose",
       "pos": "n.",
-      "zh": "无家的；无养主的",
+      "zh": "无家可归者；流浪者",
       "ipa": "ɔbdaxlɔzə",
       "level": "b2",
       "rank": 13635
@@ -22397,7 +22397,7 @@
     {
       "word": "Krümel",
       "pos": "n.m.",
-      "zh": "小的；少的；小型的",
+      "zh": "面包屑；碎屑",
       "ipa": "kʁyːməl",
       "level": "b2",
       "rank": 13694
@@ -22837,7 +22837,7 @@
     {
       "word": "chinesisches",
       "pos": "adv.",
-      "zh": "中文；中国话；中国人\\na. 中国的",
+      "zh": "中国的；汉语的",
       "ipa": "çiːnəzɪʃəs",
       "level": "b2",
       "rank": 13848
@@ -23373,7 +23373,7 @@
     {
       "word": "Beurteilung",
       "pos": "n.f.",
-      "zh": "机密的；获他人信赖的",
+      "zh": "评估；评判；鉴定",
       "ipa": "bɔʏʁtaɪlʊnk",
       "level": "b2",
       "rank": 14005
@@ -24797,7 +24797,7 @@
     {
       "word": "Endstation",
       "pos": "n.f.",
-      "zh": "最后的；末尾的；最近的\\nvi. 持续",
+      "zh": "终点站；最后结局",
       "ipa": "ɛndstat͡sjoːn",
       "level": "b2",
       "rank": 14515
@@ -24813,7 +24813,7 @@
     {
       "word": "Alarmbereitschaft",
       "pos": "n.f.",
-      "zh": "警觉的；灵敏的",
+      "zh": "戒备状态；警戒就绪",
       "ipa": "aːlaʁmbəʁaɪt͡ʃaft",
       "level": "b2",
       "rank": 14517
@@ -25101,7 +25101,7 @@
     {
       "word": "Handynummer",
       "pos": "n.f.",
-      "zh": "移动的；易变的；机动的\\nn. 活动物体",
+      "zh": "手机号码",
       "ipa": "handʏnʊmɐ",
       "level": "b2",
       "rank": 14597
@@ -25181,7 +25181,7 @@
     {
       "word": "Scherben",
       "pos": "n.",
-      "zh": "坏掉的；打破的",
+      "zh": "碎片；破瓷片（复数）",
       "ipa": "ʃɛʁbən",
       "level": "b2",
       "rank": 14618
@@ -25301,7 +25301,7 @@
     {
       "word": "Edel",
       "pos": "n.",
-      "zh": "宝贵的；珍贵的；过于精致的",
+      "zh": "贵族的；高尚的；名贵的",
       "ipa": "eːdəl",
       "level": "b2",
       "rank": 14669
@@ -25485,7 +25485,7 @@
     {
       "word": "angestrengt",
       "pos": "adv.",
-      "zh": "同等的人；匹敌；贵族\\nvi. 凝视",
+      "zh": "紧张的；费力的；竭力的",
       "ipa": "anɡəstʁənɡt",
       "level": "b2",
       "rank": 14721
@@ -25517,7 +25517,7 @@
     {
       "word": "Ablassen",
       "pos": "n.",
-      "zh": "皱眉的；愠怒的；昏暗的",
+      "zh": "排放；放气；放出；停止",
       "ipa": "ablasən",
       "level": "b2",
       "rank": 14731
@@ -25677,7 +25677,7 @@
     {
       "word": "Aufbau",
       "pos": "n.m.",
-      "zh": "组合的；合成的",
+      "zh": "建设；搭建；结构；布局",
       "ipa": "aʊfbaʊ",
       "level": "b2",
       "rank": 14795
@@ -25741,7 +25741,7 @@
     {
       "word": "komplexe",
       "pos": "adv.",
-      "zh": "综合体；情结；络合物\\na. 复杂的",
+      "zh": "复杂的；综合的",
       "ipa": "kɔmpləksə",
       "level": "b2",
       "rank": 14821
@@ -26053,7 +26053,7 @@
     {
       "word": "Bauchschmerzen",
       "pos": "n.",
-      "zh": "腹部的；有腹鳍的\\n 腹的",
+      "zh": "腹痛；肚子疼",
       "ipa": "baʊksçməʁt͡sən",
       "level": "b2",
       "rank": 14914
@@ -26341,7 +26341,7 @@
     {
       "word": "unverantwortlich",
       "pos": "adj.",
-      "zh": "罪犯；犯人；刑事\\na. 犯了罪的",
+      "zh": "不负责任的",
       "ipa": "ʊnfəʁantvɔʁtliːç",
       "level": "b2",
       "rank": 15005
@@ -26821,7 +26821,7 @@
     {
       "word": "Durchlaucht",
       "pos": "n.f.",
-      "zh": "宁静的；沉着的；安详的",
+      "zh": "殿下；阁下（贵族尊称）",
       "ipa": "dʊʁçlaʊxt",
       "level": "b2",
       "rank": 15147
@@ -26877,7 +26877,7 @@
     {
       "word": "Baracke",
       "pos": "n.f.",
-      "zh": "木制的；呆笨的；木然的",
+      "zh": "简易营房；工棚；兵营",
       "ipa": "baːʁakə",
       "level": "b2",
       "rank": 15171
@@ -26949,7 +26949,7 @@
     {
       "word": "politisches",
       "pos": "adv.",
-      "zh": "政体；国体；政治组织\\n 政府",
+      "zh": "政治的",
       "ipa": "poːlɪtɪʃəs",
       "level": "b2",
       "rank": 15193
@@ -27013,7 +27013,7 @@
     {
       "word": "untere",
       "pos": "adv.",
-      "zh": "妖怪；可怕的人\\n 转向架",
+      "zh": "下面的；底部的",
       "ipa": "ʊntəʁə",
       "level": "b2",
       "rank": 15209
@@ -27717,7 +27717,7 @@
     {
       "word": "tierisch",
       "pos": "adj.",
-      "zh": "动物\\n 动物",
+      "zh": "兽类的；残忍的；野性的",
       "ipa": "tiːʁɪʃ",
       "level": "b2",
       "rank": 15447
@@ -28261,7 +28261,7 @@
     {
       "word": "Nachwuchs",
       "pos": "n.m.",
-      "zh": "年轻的；无经验的",
+      "zh": "后代；新生力量；后备人才",
       "ipa": "naxvʊks",
       "level": "b2",
       "rank": 15639
@@ -28293,7 +28293,7 @@
     {
       "word": "Gefreiter",
       "pos": "n.m.",
-      "zh": "私人的；秘密的；私立的",
+      "zh": "一等兵；列兵",
       "ipa": "ɡɛfʁaɪtɐ",
       "level": "b2",
       "rank": 15648
@@ -28693,7 +28693,7 @@
     {
       "word": "sanfter",
       "pos": "adv.",
-      "zh": "安乐死\\n 安死术",
+      "zh": "更温和的；更柔和的",
       "ipa": "zanftɐ",
       "level": "b2",
       "rank": 15796
@@ -28781,7 +28781,7 @@
     {
       "word": "eiserne",
       "pos": "adv.",
-      "zh": "否定；否定语；负数",
+      "zh": "铁的；坚强的；刚毅的",
       "ipa": "aɪzəʁnə",
       "level": "b2",
       "rank": 15816
@@ -28821,7 +28821,7 @@
     {
       "word": "Reizt",
       "pos": "n.",
-      "zh": "刺激的；使愤怒的；气人的",
+      "zh": "刺激；激怒（动词现在时）",
       "ipa": "ʁaɪt͡st",
       "level": "b2",
       "rank": 15831
@@ -28837,7 +28837,7 @@
     {
       "word": "Beleidigungen",
       "pos": "n.",
-      "zh": "恶言谩骂的；被滥用的；腐败的",
+      "zh": "侮辱；冒犯（复数）",
       "ipa": "beːlaɪdɪɡʊnɡən",
       "level": "b2",
       "rank": 15834
@@ -28909,7 +28909,7 @@
     {
       "word": "Nationalgarde",
       "pos": "n.f.",
-      "zh": "国家的；国立的；全国性的",
+      "zh": "国民警卫队",
       "ipa": "naːt͡sjoːnalɡaʁdə",
       "level": "b2",
       "rank": 15851
@@ -28933,7 +28933,7 @@
     {
       "word": "brutaler",
       "pos": "adv.",
-      "zh": "杀人者；凶手；屠宰者\\n 杀人者",
+      "zh": "更残暴的；更凶狠的",
       "ipa": "bʁuːtalɐ",
       "level": "b2",
       "rank": 15858
@@ -28957,7 +28957,7 @@
     {
       "word": "Gouverneurs",
       "pos": "n.",
-      "zh": "州长的；统治者的",
+      "zh": "州长；省长（属格/复数）",
       "ipa": "ɡɔʊfəʁnɔʏʁs",
       "level": "b2",
       "rank": 15865
@@ -28981,7 +28981,7 @@
     {
       "word": "mittlere",
       "pos": "adv.",
-      "zh": "平均；平均数；一般水平",
+      "zh": "中部的；中等的；中间的",
       "ipa": "mɪtləʁə",
       "level": "b2",
       "rank": 15868
@@ -29045,7 +29045,7 @@
     {
       "word": "englischer",
       "pos": "adv.",
-      "zh": "管理人；保管人；监护人\\n 保管人",
+      "zh": "英国的；英格兰的",
       "ipa": "ɛnɡlɪʃɐ",
       "level": "b2",
       "rank": 15900
@@ -29581,7 +29581,7 @@
     {
       "word": "Foul",
       "pos": "n.",
-      "zh": "污秽的；邪恶的；恶臭的",
+      "zh": "犯规（体育）",
       "ipa": "fɔuːl",
       "level": "b2",
       "rank": 16063
@@ -29901,7 +29901,7 @@
     {
       "word": "Außenminister",
       "pos": "n.m.",
-      "zh": "外国的；外交的；外省的",
+      "zh": "外交部长；外长",
       "ipa": "aʊsənmɪnɪstɐ",
       "level": "b2",
       "rank": 16186
@@ -30165,7 +30165,7 @@
     {
       "word": "obendrein",
       "pos": "adv.",
-      "zh": "在上面；成功；领先",
+      "zh": "此外；而且；加之",
       "ipa": "oːbəndʁaɪn",
       "level": "b2",
       "rank": 16289
@@ -30205,7 +30205,7 @@
     {
       "word": "neutral",
       "pos": "adv.",
-      "zh": "中立者；中立国；非彩色",
+      "zh": "中立的；中性的",
       "ipa": "nɔʏtʁaːl",
       "level": "b2",
       "rank": 16298
@@ -30501,7 +30501,7 @@
     {
       "word": "Sonnen",
       "pos": "n.",
-      "zh": "太阳的；日光的；源自太阳的\\n 太阳的",
+      "zh": "太阳（复数）；晒太阳",
       "ipa": "zɔnən",
       "level": "b2",
       "rank": 16396
@@ -30589,7 +30589,7 @@
     {
       "word": "Kästchen",
       "pos": "n.",
-      "zh": "小的；少的；小型的",
+      "zh": "小盒子；小箱；小方格",
       "ipa": "kɛstçən",
       "level": "b2",
       "rank": 16429
@@ -30613,7 +30613,7 @@
     {
       "word": "Ablenkungsmanöver",
       "pos": "n.",
-      "zh": "转换注意力的；牵制的",
+      "zh": "转移注意力策略；声东击西手段；牵制行动",
       "ipa": "ablənkʊnɡsmanœfɐ",
       "level": "b2",
       "rank": 16436
@@ -30701,7 +30701,7 @@
     {
       "word": "Langweiler",
       "pos": "n.m.",
-      "zh": "沉闷的；冗长乏味的",
+      "zh": "乏味的人；令人厌烦的人",
       "ipa": "lanɡvaɪlɐ",
       "level": "b2",
       "rank": 16465
@@ -30717,7 +30717,7 @@
     {
       "word": "Blickwinkel",
       "pos": "n.m.",
-      "zh": "有角的；消瘦的；有尖角的",
+      "zh": "视角；观察角度",
       "ipa": "blɪkvɪnkəl",
       "level": "b2",
       "rank": 16469
@@ -30829,7 +30829,7 @@
     {
       "word": "Sportwagen",
       "pos": "n.m.",
-      "zh": "喜好运动的；运动用的；冒险性的",
+      "zh": "跑车；运动汽车",
       "ipa": "ʃpɔʁtvaɡən",
       "level": "b2",
       "rank": 16526
@@ -31237,7 +31237,7 @@
     {
       "word": "Vorsichtsmaßnahme",
       "pos": "n.f.",
-      "zh": "预先警戒的；预防的；留心的",
+      "zh": "预防措施；防范对策",
       "ipa": "fɔʁzɪçtsmasnaːmə",
       "level": "b2",
       "rank": 16666
@@ -31485,7 +31485,7 @@
     {
       "word": "Romantiker",
       "pos": "n.m.",
-      "zh": "浪漫的；风流的；传奇性的",
+      "zh": "浪漫主义者；浪漫的人",
       "ipa": "ʁoːmantɪkɐ",
       "level": "b2",
       "rank": 16761
@@ -32069,7 +32069,7 @@
     {
       "word": "Großstadt",
       "pos": "n.f.",
-      "zh": "大的；大量的；宽大的",
+      "zh": "大城市；大都会",
       "ipa": "ɡʁɔsstadt",
       "level": "b2",
       "rank": 16962
@@ -32221,7 +32221,7 @@
     {
       "word": "dumpfer",
       "pos": "adv.",
-      "zh": "砰的一声；嘭的一声",
+      "zh": "更低沉的；更沉闷的",
       "ipa": "dʊmpfɐ",
       "level": "b2",
       "rank": 17020
@@ -33301,7 +33301,7 @@
     {
       "word": "etliche",
       "pos": "adv.",
-      "zh": "数；数字；数目",
+      "zh": "若干的；好些；相当多的",
       "ipa": "ɛtlɪçə",
       "level": "b2",
       "rank": 17440
@@ -33317,7 +33317,7 @@
     {
       "word": "Gewöhnliches",
       "pos": "n.",
-      "zh": "通常的；共同的；通俗的",
+      "zh": "寻常事；平常事",
       "ipa": "ɡɛvøːnlɪçəs",
       "level": "b2",
       "rank": 17451
@@ -33941,7 +33941,7 @@
     {
       "word": "hintere",
       "pos": "adv.",
-      "zh": "列；线；绳",
+      "zh": "后面的；后部的",
       "ipa": "hɪntəʁə",
       "level": "b2",
       "rank": 17702
@@ -34765,7 +34765,7 @@
     {
       "word": "bloße",
       "pos": "adv.",
-      "zh": "暗黄色；暗黄色皮革；人的皮肤\\nvt. 擦亮",
+      "zh": "单纯的；仅仅的；赤裸的",
       "ipa": "bloːsə",
       "level": "b2",
       "rank": 18010
@@ -34893,7 +34893,7 @@
     {
       "word": "großzügige",
       "pos": "adv.",
-      "zh": "慷慨；宽大；礼物\\n 奖励金",
+      "zh": "慷慨的；大方的；宽宏大量的",
       "ipa": "ɡʁɔst͡sʏɡɪɡə",
       "level": "b2",
       "rank": 18049
@@ -34941,7 +34941,7 @@
     {
       "word": "Ader",
       "pos": "n.f.",
-      "zh": "隔热的；绝缘的",
+      "zh": "血管；静脉；矿脉",
       "ipa": "aːdɐ",
       "level": "b2",
       "rank": 18073
@@ -35285,7 +35285,7 @@
     {
       "word": "Dialekt",
       "pos": "n.",
-      "zh": "方言的；乡音的",
+      "zh": "方言；地方话",
       "ipa": "dɪaləkt",
       "level": "b2",
       "rank": 18195
@@ -35317,7 +35317,7 @@
     {
       "word": "Aufpasser",
       "pos": "n.m.",
-      "zh": "私人的；涉及隐私的；有人性的",
+      "zh": "看守人；监护者；监工",
       "ipa": "aʊfpasɐ",
       "level": "b2",
       "rank": 18207
@@ -35405,7 +35405,7 @@
     {
       "word": "Allmächtige",
       "pos": "n.m.",
-      "zh": "万能的；全能的",
+      "zh": "全能者；上帝",
       "ipa": "almɛçtɪɡə",
       "level": "b2",
       "rank": 18234
@@ -36013,7 +36013,7 @@
     {
       "word": "Aktive",
       "pos": "n.",
-      "zh": "活跃的；起作用的；积极的",
+      "zh": "积极分子；在役人员",
       "ipa": "aktɪfə",
       "level": "b2",
       "rank": 18452
@@ -36357,7 +36357,7 @@
     {
       "word": "Kappen",
       "pos": "n.",
-      "zh": "极好的；主要的；一流的\\nn. 除顶部",
+      "zh": "护盖；帽子 / 截短；切除",
       "ipa": "kapən",
       "level": "b2",
       "rank": 18582
@@ -36581,7 +36581,7 @@
     {
       "word": "Kollektiv",
       "pos": "n.",
-      "zh": "集体的；聚集的；共同的\\n 集体的",
+      "zh": "集体；集体组织",
       "ipa": "kɔləktiːf",
       "level": "b2",
       "rank": 18657
