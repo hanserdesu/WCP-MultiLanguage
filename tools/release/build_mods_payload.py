@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
 """构建 mods 载荷 zip（wcp-mods-payload.zip）。
 
-条目约定（与现网一致，勿改）：BepInEx 相对布局 plugins/<dll>，ZIP_STORED。
+条目约定：BepInEx 相对布局 plugins/<dll>，ZIP_STORED。
 来源 = 仓库内规范副本：
   mod_host/WcpHost.dll、mod_custom_slots/CustomSlotsMod.dll、mod_book_name/BookNameMod.dll
+  + languages/<lang>/ 下的 8 个语言词表/例句插件（de/fr/ru/yue，收敛版：
+    只读 pack，Legacy/*Fallback 开关保留）。
+    注：日语一键包自带 ja 系 5 插件；载荷里带上全部通用插件，保证任何
+    渠道装完都是收敛版（覆盖用户机上可能残留的旧版 legacy 回退 DLL）。
 
 用法: python tools/release/build_mods_payload.py [输出路径]
 默认输出: MultiLanguage/_local/wcp-mods-payload.zip
@@ -21,6 +25,14 @@ FILES = [
     ('plugins/WcpHost.dll', ROOT / 'mod_host' / 'WcpHost.dll'),
     ('plugins/CustomSlotsMod.dll', ROOT / 'mod_custom_slots' / 'CustomSlotsMod.dll'),
     ('plugins/BookNameMod.dll', ROOT / 'mod_book_name' / 'BookNameMod.dll'),
+    ('plugins/FrWordListMod.dll', ROOT.parent / 'French' / 'mod_fr_wordlist' / 'FrWordListMod.dll'),
+    ('plugins/SentenceAudioFrMod.dll', ROOT.parent / 'French' / 'mod_sentence_audio_fr' / 'SentenceAudioFrMod.dll'),
+    ('plugins/DeWordListMod.dll', ROOT.parent / 'German' / 'mod_de_wordlist' / 'DeWordListMod.dll'),
+    ('plugins/SentenceAudioDeMod.dll', ROOT.parent / 'German' / 'mod_sentence_audio_de' / 'SentenceAudioDeMod.dll'),
+    ('plugins/RuWordListMod.dll', ROOT.parent / 'Russian' / 'mod_ru_wordlist' / 'RuWordListMod.dll'),
+    ('plugins/SentenceAudioRuMod.dll', ROOT.parent / 'Russian' / 'mod_sentence_audio_ru' / 'SentenceAudioRuMod.dll'),
+    ('plugins/YueWordListMod.dll', ROOT.parent / 'Contonese' / 'mod_yue_wordlist' / 'YueWordListMod.dll'),
+    ('plugins/SentenceAudioYueMod.dll', ROOT.parent / 'Contonese' / 'mod_sentence_audio_yue' / 'SentenceAudioYueMod.dll'),
 ]
 
 
