@@ -542,10 +542,10 @@ public static class WcpEs3Helper
         catch { return true; }
     }
 
-    public static string FindBestSaveBackup(string dataDir)
+    public static string FindBestSaveBackup(string dataDir, string backupRoot)
     {
         var candidates = new List<string>();
-        string jpmodDir = Path.Combine(dataDir, "jpmod_backups");
+        string jpmodDir = string.IsNullOrEmpty(backupRoot) ? Path.Combine(dataDir, "jpmod_backups") : backupRoot;
         if (Directory.Exists(jpmodDir))
         {
             foreach (string sub in Directory.GetDirectories(jpmodDir))
@@ -579,11 +579,11 @@ public static class WcpEs3Helper
         return null;
     }
 
-    public static bool TryRepairSaveFile(string savePath, string dataDir, out string restoredFrom)
+    public static bool TryRepairSaveFile(string savePath, string dataDir, string backupRoot, out string restoredFrom)
     {
         restoredFrom = null;
         if (!IsSaveCorrupted(savePath)) return false;
-        string best = FindBestSaveBackup(dataDir);
+        string best = FindBestSaveBackup(dataDir, backupRoot);
         if (string.IsNullOrEmpty(best)) return false;
         try { File.Copy(savePath, savePath + ".corrupt_before_repair.bak", true); } catch { }
         File.Copy(best, savePath, true);
@@ -591,7 +591,7 @@ public static class WcpEs3Helper
         return true;
     }
 
-    public static bool TryRepairMyBook(string myBookPath, string dataDir, out string restoredFrom)
+    public static bool TryRepairMyBook(string myBookPath, string dataDir, string backupRoot, out string restoredFrom)
     {
         restoredFrom = null;
         if (!File.Exists(myBookPath)) return false;
@@ -606,7 +606,7 @@ public static class WcpEs3Helper
                 if (child != null && !child.ContainsKey("__type")) { needRepair = true; break; }
             }
             if (!needRepair) return false;
-            string jpmodDir = Path.Combine(dataDir, "jpmod_backups");
+            string jpmodDir = string.IsNullOrEmpty(backupRoot) ? Path.Combine(dataDir, "jpmod_backups") : backupRoot;
             if (Directory.Exists(jpmodDir))
             {
                 var subs = new List<string>(Directory.GetDirectories(jpmodDir));
@@ -787,7 +787,7 @@ function Show-ExtractFailure([string]$displayName, [string]$detail) {
     } elseif ($detail -match 'IOException|磁盘空间|There is not enough space| HALT:') {
         if ($detail -notmatch '磁盘空间') { $hint = '提示：可能是磁盘空间不足或磁盘写入错误，请确认相关磁盘剩余空间后重试。' }
     } elseif ($detail -match 'InvalidDataException|ZIP|压缩') {
-        $hint = '提示：音频压缩包可能下载不完整或被安全软件改动，请删除 %USERPROFILE%\AppData\LocalLow\WCP\wcp\jpmod_downloads 目录后重试。'
+        $hint = '提示：音频压缩包可能下载不完整或被安全软件改动，请删除 %USERPROFILE%\AppData\LocalLow\WCP\jpmod_data\downloads 目录后重试。'
     } elseif ($detail -match 'DirectoryNotFoundException|FileNotFoundException|找不到') {
         $hint = '提示：文件或目录丢失，可能是安全软件隔离了安装文件。请把安装目录加入白名单后重新解压安装包再试。'
     }
@@ -903,18 +903,55 @@ function Backup-PackWithoutAudio([string]$sourceDir, [string]$targetDir) {
     }
 }
 
+function Move-LegacyWorkDir {
+    # 把旧版本放在 wcp 目录（Steam 云同步范围内）的工作目录搬到范围之外。
+    # 同盘 Move 是瞬间重命名，不会触发重新下载 1.6GB 缓存；新位置已存在时
+    # 只搬运缺失项；任何失败都只提示，绝不影响安装。
+    param(
+        [Parameter(Mandatory = $true)][string]$Old,
+        [Parameter(Mandatory = $true)][string]$New
+    )
+    if (-not (Test-Path -LiteralPath $Old)) { return }
+    # 目标父目录不存在时 Move-Item 会报「未能找到路径中的某一部分」，先补齐。
+    $parent = Split-Path -Parent $New
+    if (-not [string]::IsNullOrEmpty($parent)) {
+        New-Item -ItemType Directory -Force -Path $parent | Out-Null
+    }
+    try {
+        if (-not (Test-Path -LiteralPath $New)) {
+            Move-Item -LiteralPath $Old -Destination $New -Force -ErrorAction Stop
+            Write-Host ("已把 {0} 移出 Steam 云同步范围：{1}" -f (Split-Path -Leaf $Old), $New) -ForegroundColor DarkGray
+            return
+        }
+        $moved = 0
+        foreach ($item in @(Get-ChildItem -LiteralPath $Old -Force -ErrorAction SilentlyContinue)) {
+            $target = Join-Path $New $item.Name
+            if (Test-Path -LiteralPath $target) { continue }
+            try {
+                Move-Item -LiteralPath $item.FullName -Destination $target -Force -ErrorAction Stop
+                $moved++
+            } catch { }
+        }
+        if ($moved -gt 0) {
+            Write-Host ("已把 {0} 项移出 Steam 云同步范围：{1}" -f $moved, $New) -ForegroundColor DarkGray
+        }
+    } catch {
+        Write-Host ("工作目录迁移失败（不影响安装，后续使用新位置）：{0}" -f $_.Exception.Message) -ForegroundColor DarkYellow
+    }
+}
+
 function Remove-LegacyRedundancy {
     # 新版安装器接管旧版本遗留：清理过期下载缓存与多余备份，避免每次
     # 更新都在用户磁盘上堆积数 GB 冗余。所有删除都允许失败（被占用则跳过）。
     param(
-        [string]$DataDir,
+        [string]$WorkRoot,
         $WordAsset,
         $SentenceAsset
     )
     $freed = [int64]0
     # 1) 下载缓存：只保留与当前清单 SHA-256 一致的两个音频包，其余全删
     #    （旧版本安装器留下的同名旧缓存、未完成的 .download 分卷都算冗余）。
-    $downloads = Join-Path $DataDir 'jpmod_downloads'
+    $downloads = Join-Path $WorkRoot 'downloads'
     if (Test-Path -LiteralPath $downloads) {
         $keep = @{}
         foreach ($asset in @($WordAsset, $SentenceAsset)) {
@@ -938,7 +975,7 @@ function Remove-LegacyRedundancy {
         }
     }
     # 2) 旧备份目录：只保留最近 3 份（目录名以时间戳开头，按名称倒序即最新在前）。
-    $backupRoot = Join-Path $DataDir 'jpmod_backups'
+    $backupRoot = Join-Path $WorkRoot 'backups'
     $staleBackups = @()
     if (Test-Path -LiteralPath $backupRoot) {
         $staleBackups = @(Get-ChildItem -LiteralPath $backupRoot -Directory -ErrorAction SilentlyContinue |
@@ -1062,9 +1099,19 @@ $wcpRoot = Join-Path $env:USERPROFILE 'AppData\LocalLow\WCP'
 $data = Join-Path $wcpRoot 'wcp'
 $packsPayload = Join-Path $payload 'packs'
 $packsRoot = Join-Path $wcpRoot 'packs'
+# 工作文件（下载缓存/备份/解压临时目录）刻意放在 wcp 目录之外：
+#   Steam 对该游戏的云同步范围是整个 %USERPROFILE%\AppData\LocalLow\WCP\wcp，
+#   这些没有同步价值的大文件（下载缓存约 1.6GB、解压临时目录数 GB）会把云同步
+#   配额/队列撑爆，导致 MyBook.es3 等关键存档永远排不进同步队列（2026-09-16 实测
+#   该目录 53 万文件 / 约 15GB，Steam 云状态长期显示「无法同步」）。
+#   jpmod_data 与 packs 同级，不在云同步范围内。
+$workRoot = Join-Path $wcpRoot 'jpmod_data'
 New-Item -ItemType Directory -Force -Path $data | Out-Null
+New-Item -ItemType Directory -Force -Path $workRoot | Out-Null
+Move-LegacyWorkDir -Old (Join-Path $data 'jpmod_downloads') -New (Join-Path $workRoot 'downloads')
+Move-LegacyWorkDir -Old (Join-Path $data 'jpmod_backups') -New (Join-Path $workRoot 'backups')
 $stamp = Get-Date -Format 'yyyyMMdd_HHmmss'
-$backup = Join-Path $data "jpmod_backups\$stamp"
+$backup = Join-Path $workRoot "backups\$stamp"
 New-Item -ItemType Directory -Force -Path $backup | Out-Null
 
 $bepPayload = Join-Path $payload 'bepinex'
@@ -1265,7 +1312,7 @@ function Download-VerifiedAsset($asset) {
     if (-not $asset.name -or -not $asset.sha256 -or -not $asset.size) { Fail 'Release 资源清单缺少文件信息。' }
     $free = (Get-PSDrive -Name ([IO.Path]::GetPathRoot($data).TrimEnd('\').Substring(0,1))).Free
     if ($free -lt [int64]$asset.size) { Fail "磁盘空间不足，至少需要 $([math]::Ceiling($asset.size / 1GB)) GB 可用空间。" }
-    $downloadDir = Join-Path $data 'jpmod_downloads'
+    $downloadDir = Join-Path $workRoot 'downloads'
     New-Item -ItemType Directory -Force -Path $downloadDir | Out-Null
     $target = Join-Path $downloadDir $asset.name
     $valid = $false
@@ -1396,11 +1443,11 @@ $requiredBytes = $compressedBytes + (2 * $expandedBytes) + $safetyBytes
 # 下载预检前先接管旧版本遗留的冗余（过期缓存/旧备份）：
 # 清理释放的空间能让磁盘检查更宽松，也让 v1.2.4 之前的用户腾出数 GB。
 Write-Step '正在清理旧版本遗留的冗余文件。'
-Remove-LegacyRedundancy -DataDir $data -WordAsset $wordAsset -SentenceAsset $sentenceAsset
+Remove-LegacyRedundancy -WorkRoot $workRoot -WordAsset $wordAsset -SentenceAsset $sentenceAsset
 $downloadDriveName = [IO.Path]::GetPathRoot($data).TrimEnd('\').Substring(0, 1)
 $downloadDrive = Get-PSDrive -Name $downloadDriveName
 if ($downloadDrive.Free -lt $requiredBytes) {
-    Fail "磁盘空间不足：下载缓存、解压临时目录和最终音频同时存在时，预计至少需要 $([Math]::Ceiling($requiredBytes / 1GB)) GB；$($downloadDriveName): 当前仅剩 $([Math]::Round($downloadDrive.Free / 1GB, 2)) GB。缓存位置：$data\jpmod_downloads"
+    Fail "磁盘空间不足：下载缓存、解压临时目录和最终音频同时存在时，预计至少需要 $([Math]::Ceiling($requiredBytes / 1GB)) GB；$($downloadDriveName): 当前仅剩 $([Math]::Round($downloadDrive.Free / 1GB, 2)) GB。缓存位置：$workRoot\downloads"
 }
 
 # ---- 安装器自更新（方案 C：仅在有新版本时提示，用户确认才更新） ----
@@ -1409,7 +1456,7 @@ $selfVersion = if ($env:WCP_INSTALLER_VERSION) { $env:WCP_INSTALLER_VERSION } el
 if ($selfVersion) {
     try {
         $idxUrl = 'https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.1.0/release-index.json'
-        $idxTmp = Join-Path $data 'release-index.json.check'
+        $idxTmp = Join-Path $workRoot 'release-index.json.check'
         $indexObj = $null
         try {
             $idxReq = [Net.WebRequest]::Create($idxUrl)
@@ -1441,7 +1488,7 @@ if ($selfVersion) {
                 $coreSha = [string]$indexObj.core_installer.sha256
                 $coreSize = [int64]$indexObj.core_installer.size
                 $coreUrl = "https://github.com/hanserdesu/japanese/releases/download/$($indexObj.main_release)/$coreName"
-                $coreTmp = Join-Path $data $coreName
+                $coreTmp = Join-Path $workRoot $coreName
                 Write-Host "正在下载新版安装器（$([Math]::Round($coreSize / 1MB, 1)) MB）..." -ForegroundColor Cyan
                 Download-WithProgress $coreUrl $coreTmp '新版安装器' $coreSize
                 $actualCoreSha = Get-Sha256 $coreTmp
@@ -1449,7 +1496,7 @@ if ($selfVersion) {
                     Write-Host "新版安装器 SHA-256 校验失败（实际 $actualCoreSha），放弃自动更新，继续用当前版本安装。" -ForegroundColor Yellow
                 } else {
                     # 解压到全新目录再切换，失败则留在当前版本继续装（fail-safe）
-                    $newPkgDir = Join-Path $data "installer_update_$stamp"
+                    $newPkgDir = Join-Path $workRoot "installer_update_$stamp"
                     try {
                         Write-Host '正在解压新版安装器...' -ForegroundColor Cyan
                         Expand-ZipWithProgress $coreTmp $newPkgDir '新版安装器'
@@ -1478,8 +1525,15 @@ Write-Host "磁盘空间检查通过：$($downloadDriveName): 剩余 $([Math]::R
 $wordZip = Download-VerifiedAsset $wordAsset
 $sentenceZip = Download-VerifiedAsset $sentenceAsset
 Write-Step '音频资源下载并校验完成，正在解压。'
-$stagePattern = 'jpmod_audio_stage*'
-foreach ($staleStage in @(Get-ChildItem -LiteralPath $data -Directory -Filter $stagePattern -ErrorAction SilentlyContinue)) {
+$stagePattern = 'audio_stage*'
+# 旧版本把解压临时目录放在 wcp 里（云同步范围内），顺带清掉残留。
+foreach ($legacyStage in @(Get-ChildItem -LiteralPath $data -Directory -Filter 'jpmod_audio_stage*' -ErrorAction SilentlyContinue)) {
+    try {
+        Remove-TreeNet $legacyStage.FullName
+        Write-Host "已清理旧位置的临时目录：$($legacyStage.Name)" -ForegroundColor DarkGray
+    } catch { }
+}
+foreach ($staleStage in @(Get-ChildItem -LiteralPath $workRoot -Directory -Filter $stagePattern -ErrorAction SilentlyContinue)) {
     try {
         Remove-Item -LiteralPath $staleStage.FullName -Recurse -Force -ErrorAction Stop
         Write-Host "已清理上次安装遗留的临时目录：$($staleStage.Name)" -ForegroundColor DarkGray
@@ -1487,7 +1541,7 @@ foreach ($staleStage in @(Get-ChildItem -LiteralPath $data -Directory -Filter $s
         Write-Host "无法清理旧临时目录：$($staleStage.FullName)，本次将使用新的临时目录继续安装。" -ForegroundColor DarkYellow
     }
 }
-$audioStage = Join-Path $data ("jpmod_audio_stage_{0}_{1}" -f $stamp, ([guid]::NewGuid().ToString('N')))
+$audioStage = Join-Path $workRoot ("audio_stage_{0}_{1}" -f $stamp, ([guid]::NewGuid().ToString('N')))
 New-Item -ItemType Directory -Force -Path $audioStage | Out-Null
 New-Item -ItemType Directory -Force -Path (Join-Path $audioStage 'vocabulary') | Out-Null
 New-Item -ItemType Directory -Force -Path (Join-Path $audioStage 'sentence_audio') | Out-Null
@@ -1559,8 +1613,13 @@ Copy-TreeNet (Join-Path $audioStage 'sentence_audio') $jaSentenceAudio '日语�
 # （首次读档中/未重启游戏/未激活）时发音会静默回退成游戏的英语 AI 语音。
 # 这里把单词音频补一份到游戏原生目录；只覆盖同名文件，不清理其它语言的历史
 # 文件（该目录为多语言共享）。宿主侧对已安装用户有同款运行时补缺。
+# 这是加分项而非必需步骤：任何失败（权限/占用）只提示，绝不中断主安装。
 $legacyVocabDir = Join-Path $wcpRoot 'vocabulary'
-Copy-TreeNet (Join-Path $audioStage 'vocabulary') $legacyVocabDir '日语单词音频(游戏原生目录)'
+try {
+    Copy-TreeNet (Join-Path $audioStage 'vocabulary') $legacyVocabDir '日语单词音频(游戏原生目录)'
+} catch {
+    Write-Host "单词音频镜像到游戏原生目录失败（不影响主安装；游戏内运行时会再次尝试补齐）：$($_.Exception.Message)" -ForegroundColor DarkYellow
+}
 try {
     Remove-TreeNet $audioStage
     Write-Host '音频临时目录已清理。' -ForegroundColor DarkGray
@@ -1578,11 +1637,11 @@ $savePath = Join-Path $data 'SaveFile.es3'
 
 # 1. 自动检测并修复历史受损存档（针对旧版脚本序列化导致丢失 __type 或开局剧情重置的问题）
 $repairedSave = ''
-if ([WcpEs3Helper]::TryRepairSaveFile($savePath, $data, [ref]$repairedSave)) {
+if ([WcpEs3Helper]::TryRepairSaveFile($savePath, $data, (Join-Path $workRoot 'backups'), [ref]$repairedSave)) {
     Write-Host "检测到历史存档受损（元数据丢失/开局剧情重置），已自动从完整备份成功恢复：$repairedSave" -ForegroundColor Green
 }
 $repairedMb = ''
-if ([WcpEs3Helper]::TryRepairMyBook($myBookPath, $data, [ref]$repairedMb)) {
+if ([WcpEs3Helper]::TryRepairMyBook($myBookPath, $data, (Join-Path $workRoot 'backups'), [ref]$repairedMb)) {
     Write-Host "检测到 MyBook.es3 元数据受损，已自动恢复：$repairedMb" -ForegroundColor Green
 }
 

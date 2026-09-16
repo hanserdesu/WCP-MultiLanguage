@@ -1,18 +1,18 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-16T14:10:36+08:00",
+  "integrated_at": "2026-09-16T15:47:56+08:00",
   "languages": {
     "ja": {
       "absent_in_worktree": [],
-      "bytes": 71089698,
-      "content_digest": "sha256:378db208632c89a54c0b059f05c24d976e4807439749baf9a35c5fc6af5d8253",
+      "bytes": 71111910,
+      "content_digest": "sha256:dcc110b8db8a8b0d288fe76792da1b51f5b47209b6a2fe64afa4c2c7c289f1f4",
       "excluded": {
-        "build-archive": 26,
+        "build-archive": 29,
         "duplicate-pack-build": 4,
         "installer-package": 63,
-        "release-artifacts": 37
+        "release-artifacts": 40
       },
-      "excluded_bytes": 3697593787,
+      "excluded_bytes": 3746107350,
       "excluded_samples": [
         "packs/ja/books/日语词库(猫条版).xlsx (duplicate-pack-build)",
         "packs/ja/db/repair.tsv (duplicate-pack-build)",
@@ -27,20 +27,20 @@
         "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.dll (installer-package)",
         "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.xml (installer-package)"
       ],
-      "files": 851,
+      "files": 854,
       "note": "日语：本体与语音资源保留在 hanserdesu/japanese",
       "removed_in_worktree": [],
       "source_branch": "master",
       "source_dir": "D:\\ATooManyLanguage\\Japanese",
-      "source_head": "4c8b33e0ca5a19eb7860d5d2ed7b19b2cf8d8370",
-      "source_head_date": "2026-09-16 00:55:48 +0800",
-      "source_head_subject": "docs: 首页指向 v1.2.7（自更新版）",
+      "source_head": "591896d4a4addeccf0fac2cfadd551e764f38d92",
+      "source_head_date": "2026-09-16 14:21:09 +0800",
+      "source_head_subject": "fix(installer): 兼容层容错（镜像失败不中断安装）+ 发布 v1.2.8.2",
       "source_origin_head": "920de44b00faf3a7d9e34e5e2c623f944b049c9f",
       "source_repo": "https://github.com/hanserdesu/japanese.git",
       "states": {
         "added": 0,
-        "modified": 163,
-        "tracked": 674,
+        "modified": 159,
+        "tracked": 681,
         "untracked": 14
       }
     }
