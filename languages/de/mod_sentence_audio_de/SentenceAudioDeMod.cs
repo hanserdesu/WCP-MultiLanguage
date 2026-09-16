@@ -41,6 +41,9 @@ namespace SentenceAudioDe
         // 资源命名空间化: 只读 pack (packs/<lang>/audio/sentence)。
         // legacy 目录 (<lang>_sentence_audio) 回退已移除（迁移期结束，2026-09-16）。
         private const string PackLangCode = "de";
+        // legacy 目录与开关：AudioFallback=true 时恢复迁移期回退（数据保留，只读）。
+        private string _legacyAudioDir;
+        private ConfigEntry<bool> _audioFallback;
 
         private AudioSource _audio;
         private ConfigEntry<bool> _enabled;
@@ -81,10 +84,15 @@ namespace SentenceAudioDe
             string packsRoot = Path.Combine(
                 Path.GetDirectoryName(Application.persistentDataPath), "packs");
             _packAudioDir = Path.Combine(packsRoot, PackLangCode, "audio", "sentence");
-
+            _legacyAudioDir = Path.Combine(Application.persistentDataPath,
+                PackLangCode + "_sentence_audio");
+            _audioFallback = Config.Bind("Legacy", "AudioFallback", false,
+                "旧版兼容开关（默认关）。true 时例句音频在 pack 缺失时回退读 legacy 目录 "
+                + "<persistentDataPath>/" + PackLangCode + "_sentence_audio（迁移期行为，只读）。");
             Log.LogInfo(string.Format(
-                "WCP Sentence Audio 1.1.0 loaded, pack dir = {0} (存在={1})",
-                _packAudioDir, Directory.Exists(_packAudioDir)));
+                "WCP Sentence Audio 1.1.0 loaded, pack dir = {0} (存在={1}), legacy fallback = {2}",
+                _packAudioDir, Directory.Exists(_packAudioDir),
+                _audioFallback != null && _audioFallback.Value));
         }
 
         void Update()
@@ -544,6 +552,8 @@ namespace SentenceAudioDe
                 if (fr != null)
                 {
                     string p = Path.Combine(_packAudioDir, Md5(fr) + ".mp3");
+                    if (!File.Exists(p) && _audioFallback != null && _audioFallback.Value)
+                        p = Path.Combine(_legacyAudioDir, Md5(fr) + ".mp3");
                     if (File.Exists(p)) file = p;
                 }
                 GameObject btn;

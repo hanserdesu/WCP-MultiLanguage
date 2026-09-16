@@ -46,6 +46,11 @@ namespace SentenceAudioFr
         private ConfigEntry<bool> _enabled;
         private float _nextScan;
         private string _packAudioDir;
+        // 旧版兼容开关（默认关）：true 时恢复 pack→legacy(<lang>_sentence_audio)
+        // 的迁移期回退链。B 类改造后默认只读 pack；只有 pack 缺音频且用户明确
+        // 打开本开关时才碰 legacy 目录（只读，绝不写/删）。
+        private ConfigEntry<bool> _audioFallback;
+        private string _legacyAudioDir;
         private readonly Dictionary<Button, FrReadBtnState> _readStates =
             new Dictionary<Button, FrReadBtnState>();
         private bool _gameButtonsActive;
@@ -81,10 +86,16 @@ namespace SentenceAudioFr
             string packsRoot = Path.Combine(
                 Path.GetDirectoryName(Application.persistentDataPath), "packs");
             _packAudioDir = Path.Combine(packsRoot, PackLangCode, "audio", "sentence");
+            _legacyAudioDir = Path.Combine(Application.persistentDataPath,
+                PackLangCode + "_sentence_audio");
+            _audioFallback = Config.Bind("Legacy", "AudioFallback", false,
+                "旧版兼容开关（默认关）。true 时例句音频在 pack 缺失时回退读 legacy 目录 " +
+                "<persistentDataPath>/" + PackLangCode + "_sentence_audio（迁移期行为，只读）。");
 
             Log.LogInfo(string.Format(
-                "WCP Sentence Audio 1.1.0 loaded, pack dir = {0} (存在={1})",
-                _packAudioDir, Directory.Exists(_packAudioDir)));
+                "WCP Sentence Audio 1.1.0 loaded, pack dir = {0} (存在={1}), legacy fallback = {2}",
+                _packAudioDir, Directory.Exists(_packAudioDir),
+                _audioFallback != null && _audioFallback.Value));
         }
 
         void Update()
@@ -421,8 +432,10 @@ namespace SentenceAudioFr
             // 扫描每 0.3s 跑一次, 缓存 md5 -> 文件路径的磁盘判定,
             // 未命中也缓存, 避免对同一句反复 File.Exists。
             if (_audioLookup.TryGetValue(key, out p)) return p;
-            // 只读 pack（legacy 回退已移除）。
+            // 只读 pack；Legacy/AudioFallback=true 时恢复迁移期回退链。
             p = Path.Combine(_packAudioDir, key + ".mp3");
+            if (!File.Exists(p) && _audioFallback != null && _audioFallback.Value)
+                p = Path.Combine(_legacyAudioDir, key + ".mp3");
             p = File.Exists(p) ? p : null;
             _audioLookup[key] = p;
             return p;
@@ -544,6 +557,8 @@ namespace SentenceAudioFr
                 if (fr != null)
                 {
                     string p = Path.Combine(_packAudioDir, Md5(fr) + ".mp3");
+                    if (!File.Exists(p) && _audioFallback != null && _audioFallback.Value)
+                        p = Path.Combine(_legacyAudioDir, Md5(fr) + ".mp3");
                     if (File.Exists(p)) file = p;
                 }
                 GameObject btn;

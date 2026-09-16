@@ -1,11 +1,59 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-16T17:45:18+08:00",
+  "integrated_at": "2026-09-16T19:39:31+08:00",
   "languages": {
+    "de": {
+      "absent_in_worktree": [],
+      "bytes": 32591733,
+      "content_digest": "sha256:42ff934a3a076a27b289308a9896449767c023497b131e01f4ee4bf742db6bfc",
+      "excluded": {},
+      "excluded_bytes": 0,
+      "excluded_samples": [],
+      "files": 302,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\German",
+      "source_head": "0751ae5741218521ac4e5c8e0c0666a2f9d682f8",
+      "source_head_date": "2026-09-16 17:46:33 +0800",
+      "source_head_subject": "refactor(plugins): 移除 legacy 音频目录回退（迁移期结束）",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-German-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 2,
+        "tracked": 300,
+        "untracked": 0
+      }
+    },
+    "fr": {
+      "absent_in_worktree": [],
+      "bytes": 81588046,
+      "content_digest": "sha256:849485b8775831b1274d9af4bb71179efa8c92523f828c21221bc5f7ff8e3ec8",
+      "excluded": {},
+      "excluded_bytes": 0,
+      "excluded_samples": [],
+      "files": 336,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\French",
+      "source_head": "3691f8a6a9abc85d20fdf8743b7d726af5c80a85",
+      "source_head_date": "2026-09-16 17:46:33 +0800",
+      "source_head_subject": "refactor(plugins): 移除 legacy 音频目录回退（迁移期结束）",
+      "source_origin_head": "dd8d91d8a3a8da4922b2df180290770a72ace762",
+      "source_repo": "https://github.com/hanserdesu/WCP-French-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 2,
+        "tracked": 334,
+        "untracked": 0
+      }
+    },
     "ru": {
       "absent_in_worktree": [],
-      "bytes": 135603772,
-      "content_digest": "sha256:935cf9c92271c2e4a4990892b25bb452d907152f7089ccd19da634778821886a",
+      "bytes": 135606056,
+      "content_digest": "sha256:aee696bf7b14273c3773fb5917714f715a61e7cc4107868cca648f2a7c9e5483",
       "excluded": {},
       "excluded_bytes": 0,
       "excluded_samples": [],
@@ -14,15 +62,39 @@
       "removed_in_worktree": [],
       "source_branch": "main",
       "source_dir": "D:\\ATooManyLanguage\\Russian",
-      "source_head": "f95e1f693fdd151e82c811057eaf6ce15da699e2",
-      "source_head_date": "2026-09-16 10:13:38 +0800",
-      "source_head_subject": "content: 二轮质量修复 — 8 个形容词框架改工具格重生成 (1,138 行) + 972 条嵌套括注契约漂移归零",
+      "source_head": "7622bcab7585008a442ab81ea7ce63d38d952372",
+      "source_head_date": "2026-09-16 17:46:44 +0800",
+      "source_head_subject": "refactor(plugins): 移除 legacy 音频目录回退（迁移期结束）",
       "source_origin_head": "",
       "source_repo": "https://github.com/hanserdesu/WCP-Russian-Wordbook.git",
       "states": {
         "added": 0,
         "modified": 4,
         "tracked": 330,
+        "untracked": 0
+      }
+    },
+    "yue": {
+      "absent_in_worktree": [],
+      "bytes": 1600518,
+      "content_digest": "sha256:48506f75254ddac4ed026073c3af11736a9613bcd88b5f72a7cbf722bdbb5117",
+      "excluded": {},
+      "excluded_bytes": 0,
+      "excluded_samples": [],
+      "files": 65,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\Contonese",
+      "source_head": "6f1269c1ce3be7b35ece0aab6531c40a228d9867",
+      "source_head_date": "2026-09-16 17:46:44 +0800",
+      "source_head_subject": "refactor(plugins): 移除 legacy 音频目录回退（迁移期结束）",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-Cantonese-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 2,
+        "tracked": 63,
         "untracked": 0
       }
     }

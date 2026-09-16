@@ -42,6 +42,7 @@ namespace RuWordList
         private static ConfigEntry<bool> _healDb;
         private static ConfigEntry<bool> _allowLegacySharedDbWrites;
         private static readonly HashSet<string> Warned = new HashSet<string>();
+        private static ConfigEntry<bool> _wordAudioFallback;
         private static ConfigEntry<bool> _yieldToHost;
         private static readonly Dictionary<string, string> LastSig = new Dictionary<string, string>();
 
@@ -149,6 +150,9 @@ namespace RuWordList
 
             _yieldToHost = Config.Bind("Legacy", "YieldToHost", true,
                 "宿主 WcpHost 接管本语言后, 旧词表插件自动让位(只保留语言资源)。设 false 强制以旧模式运行。");
+            _wordAudioFallback = Config.Bind("Legacy", "WordAudioFallback", false,
+                "旧版兼容开关（默认关）。true 时单词音频在 pack 缺失时回退读 legacy 目录 "
+                + "<persistentDataPath>/ru_word_audio（迁移期行为，只读）。");
             if (HostTakesOver())
             {
                 Log.LogWarning("RUWordList: WcpHost 已接管俄语, 旧词表插件不再打补丁 (Legacy/YieldToHost=false 可强制旧模式)。");
@@ -1316,11 +1320,14 @@ namespace RuWordList
             string word = (__instance.text1.text ?? "").Trim();
             if (word.Length == 0 || word.IndexOfAny(System.IO.Path.GetInvalidFileNameChars()) >= 0)
                 return false;
-            // 只读 pack（legacy 目录 <persistentDataPath>/ru_word_audio 回退已移除，
-            // 与宿主 ResourceRouter 的 WordAudioDir 同一物理目录）。
+            // pack 优先（与宿主 ResourceRouter 的 WordAudioDir 同一物理目录）；
+            // Legacy/WordAudioFallback=true 时回退旧目录（数据保留，只读）。
             string file = System.IO.Path.Combine(Application.persistentDataPath,
                 "..", "packs", "ru", "audio", "word", word + ".mp3");
             Instance.StopWordAudio();
+            if (!System.IO.File.Exists(file) && _wordAudioFallback != null && _wordAudioFallback.Value)
+                file = System.IO.Path.Combine(Application.persistentDataPath,
+                    "ru_word_audio", word + ".mp3");
             if (!System.IO.File.Exists(file))
             {
                 WarnOnce("word-audio:" + word, "俄语独立单词音频缺失: " + word);
