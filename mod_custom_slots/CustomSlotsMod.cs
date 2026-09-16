@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Text;
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
@@ -22,20 +23,117 @@ using UnityEngine.UI;
 
 namespace WcpCustomSlots
 {
+    // 入口补丁：编译期不绑定游戏类型（HarmonyPatch 属性必须给 Type，所以这里用
+    // 运行时解析 + 显式 Patch，见 CustomSlotsPlugin.PatchEntryExplicitly）。
+    // 补丁目标是 GameCompat.EntryMethod 解析出的方法；解析失败则只保留 F8 热键入口。
     internal static class CustomCategoryPatch
     {
-        [HarmonyPatch(typeof(WordChooseButtonS10), "OnBookButtonClicked")]
-        [HarmonyPostfix]
-        private static void Postfix(WordChooseButtonS10 __instance, int num)
+        // 诊断：确认补丁是否真的被调用、以及实际收到哪些 num。
+        private static int _seen;
+        private static int _lastNum = int.MinValue;
+
+        // Harmony 以 __instance/__0 按名字注入；用 object/int 接住，不绑类型。
+        internal static void Postfix(object __instance, int num)
         {
             CustomSlotsPlugin plugin = CustomSlotsPlugin.Instance;
+            string stack = DescribeStack();
+            bool programmatic = false;
+            try { programmatic = CalledFromGameInitialization(); }
+            catch (Exception) { }
+
+            // 信号 c：只有「UGUI 按钮回调栈」才算用户点击并记录页签。
+            // 不能用 CalledFromGameInitialization 来过滤 —— 实测它把真实点击也判成
+            // 初始化（Unity 事件系统深处有同名 Initialize 帧，见 2026-09-16 日志）。
+            try { if (CalledFromUserClick()) GameCompat.NotePageClick(num); }
+            catch (Exception) { }
+
+            // 兼容层核心：不靠 num 魔数，改用"页面状态"判定。
+            bool customPage = false;
+            try { customPage = GameCompat.IsCustomPageShowing(__instance); }
+            catch (Exception) { }
+
+            if (_seen < 40 || num != _lastNum)
+            {
+                _seen++;
+                _lastNum = num;
+                if (CustomSlotsPlugin.Log != null)
+                    CustomSlotsPlugin.Log.LogInfo("CustomSlots: postfix num=" + num +
+                        "; plugin=" + (plugin != null ? "ok" : "NULL") +
+                        "; 程序化=" + (programmatic ? "是(忽略)" : "否") +
+                        "; 自定义页=" + (customPage ? "是" : "否") +
+                        "; 栈=" + stack);
+            }
             if (plugin == null) return;
-            if (num == 20) plugin.Show(__instance);
-            else plugin.Hide();
+
+            // 显示判据统一由 Update 轮询决定（见 PollCustomPage）。
+            // 钩子这里只做即时响应，避免轮询间隔带来的延迟。
+            plugin.ReactToPageChange(__instance);
+        }
+
+        // 打印调用栈前若干帧的方法名，用于判定"用户点击"与"游戏初始化"的真实差异。
+        private static string DescribeStack()
+        {
+            try
+            {
+                System.Diagnostics.StackTrace st = new System.Diagnostics.StackTrace();
+                StringBuilder sb = new StringBuilder();
+                int frames = st.FrameCount;
+                for (int i = 0; i < frames && i < 8; i++)
+                {
+                    System.Reflection.MethodBase m = st.GetFrame(i).GetMethod();
+                    if (m == null) continue;
+                    if (sb.Length > 0) sb.Append(" < ");
+                    sb.Append(m.DeclaringType != null ? m.DeclaringType.Name + "." : "").Append(m.Name);
+                }
+                return sb.ToString();
+            }
+            catch (Exception) { return "?"; }
+        }
+
+        // 只有游戏自己的初始化路径会从 Initialize/Initialize_ResetButton 直接调用；
+        // 用户点击的调用栈来自按钮回调。
+        private static bool CalledFromGameInitialization()
+        {
+            try
+            {
+                System.Diagnostics.StackTrace stack = new System.Diagnostics.StackTrace();
+                int frames = stack.FrameCount;
+                for (int i = 1; i < frames && i < 24; i++)
+                {
+                    System.Reflection.MethodBase m = stack.GetFrame(i).GetMethod();
+                    if (m == null) continue;
+                    string name = m.Name;
+                    if (name == "Initialize" || name == "Initialize_ResetButton") return true;
+                }
+            }
+            catch (Exception) { }
+            return false;
+        }
+
+        // 信号 c 的过滤器：UGUI 按钮回调栈的特征帧。实测（2026-09-16 日志）
+        // 用户点击的栈含 Button.Press/OnPointerClick；游戏初始化调用不含。
+        // 不用 CalledFromGameInitialization 判此题 —— 它会把真实点击也判成初始化
+        // （事件系统深处存在同名 Initialize 帧）。
+        private static bool CalledFromUserClick()
+        {
+            try
+            {
+                System.Diagnostics.StackTrace stack = new System.Diagnostics.StackTrace();
+                int frames = stack.FrameCount;
+                for (int i = 1; i < frames && i < 24; i++)
+                {
+                    System.Reflection.MethodBase m = stack.GetFrame(i).GetMethod();
+                    if (m == null) continue;
+                    string name = m.Name;
+                    if (name == "Press" || name == "OnPointerClick" || name == "Invoke") return true;
+                }
+            }
+            catch (Exception) { }
+            return false;
         }
     }
 
-    [BepInPlugin("dev.hanserdesu.customslots", "WCP Custom Slots", "1.2.0")]
+    [BepInPlugin("dev.hanserdesu.customslots", "WCP Custom Slots", "1.2.1")]
     public sealed class CustomSlotsPlugin : BaseUnityPlugin
     {
         internal static CustomSlotsPlugin Instance;
@@ -49,13 +147,17 @@ namespace WcpCustomSlots
         private string _storePath;
         private GameObject _overlay;
         private RectTransform _content;
-        private WordChooseButtonS10 _bookChooser;
+        private object _bookChooser;
         private GameObject _renameBar;
         private InputField _renameInput;
         private Text _renameTitle;
         private int _renameIndex = -1;
         private Text _toast;
         private float _toastUntil;
+        private float _lastVisibilityCheck;
+        // 用户刚通过 F8/关闭按钮手动关掉面板：本轮停在自定义页时轮询不再自动重开，
+        // 否则用户想看原生 4 行时面板会每 0.25 秒弹回来。离开页面后复位。
+        private bool _userDismissed;
 
         private string MyBookPath
         {
@@ -84,6 +186,44 @@ namespace WcpCustomSlots
                     "; native mirror rows imported=" + imported);
             }
             catch (Exception e) { Log.LogError("CustomSlots: Harmony patch failed: " + e.Message); }
+            PatchEntryExplicitly();
+        }
+
+        // PatchAll 报 OK 也可能是"没挂上"（实机实测 postfixes=0 且无异常）。
+        // 这里用显式 Patch 补挂，并把真实结果（挂上前后 postfix 数）写进日志。
+        // 目标方法来自兼容层解析（不绑定编译期类型名）。
+        private void PatchEntryExplicitly()
+        {
+            try
+            {
+                Log.LogInfo("CustomSlots: 兼容层解析结果 → " + GameCompat.Notes);
+                System.Reflection.MethodInfo target = GameCompat.EntryMethod;
+                if (target == null)
+                {
+                    Log.LogWarning("CustomSlots: 入口方法未解析出来；只保留 F8 热键入口（其它功能不受影响）");
+                    return;
+                }
+
+                Patches before = Harmony.GetPatchInfo(target);
+                int beforeCount = (before == null || before.Postfixes == null) ? 0 : before.Postfixes.Count;
+                if (beforeCount == 0)
+                {
+                    System.Reflection.MethodInfo postfix =
+                        typeof(CustomCategoryPatch).GetMethod("Postfix",
+                            System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
+                    if (postfix == null) { Log.LogError("CustomSlots: 未找到 Postfix 方法"); return; }
+                    new Harmony("dev.hanserdesu.customslots.entry")
+                        .Patch(target, postfix: new HarmonyMethod(postfix));
+                    Log.LogInfo("CustomSlots: 显式补挂 " + target.DeclaringType.Name + "." + target.Name);
+                }
+
+                Patches after = Harmony.GetPatchInfo(target);
+                int afterCount = (after == null || after.Postfixes == null) ? -1 : after.Postfixes.Count;
+                Log.LogInfo("CustomSlots: patch 状态 " + target.DeclaringType.Name + "." + target.Name +
+                    " postfixes=" + afterCount +
+                    (afterCount > 0 ? "（已挂上）" : "（未挂上！改用 F8 热键入口）"));
+            }
+            catch (Exception e) { Log.LogError("CustomSlots: 显式补挂失败: " + e); }
         }
 
         void OnDestroy()
@@ -110,9 +250,10 @@ namespace WcpCustomSlots
             catch (Exception e) { Log.LogWarning("CustomSlots: serializer round-trip 失败: " + e.Message); }
         }
 
-        internal void Show(WordChooseButtonS10 chooser)
+        internal void Show(object chooser)
         {
             _bookChooser = chooser;
+            GameCompat.CalibrateCustomPageIndex(chooser);
             if (_overlay != null)
             {
                 _overlay.SetActive(true);
@@ -120,7 +261,9 @@ namespace WcpCustomSlots
                 RebuildRows();
                 return;
             }
-            Canvas canvas = _bookChooser != null ? _bookChooser.GetComponentInParent<Canvas>() : null;
+            Canvas canvas = null;
+            Component chooserComponent = _bookChooser as Component;
+            if (chooserComponent != null) canvas = chooserComponent.GetComponentInParent<Canvas>();
             if (canvas == null) canvas = FindCanvas();
             if (canvas == null)
             {
@@ -132,13 +275,16 @@ namespace WcpCustomSlots
 
             _overlay = new GameObject("WcpCustomSlotsOverlay");
             _overlay.transform.SetParent(canvas.transform, false);
-            // 覆盖层必须自建 Canvas + 强制排序：只挂在游戏 Canvas 下会被原生 UI 盖住
-            // （原生自定义页看起来"还是 4 行"的成因之一）。
+            // 覆盖层必须自建 Canvas + 强制排序：只挂在游戏 Canvas 下会被原生 UI 盖住。
+            // 注意：Canvas 自带 [RequireComponent(RectTransform)]，AddComponent<Canvas> 会
+            // 自动补上 RectTransform —— 之后不能再 AddComponent<RectTransform>()，
+            // 否则报 "already added"、返回 null，随后 panel 解引用直接 NRE（实机踩过）。
             Canvas overlayCanvas = _overlay.AddComponent<Canvas>();
             overlayCanvas.overrideSorting = true;
             overlayCanvas.sortingOrder = 32760;
             _overlay.transform.SetAsLastSibling();
-            RectTransform panel = _overlay.AddComponent<RectTransform>();
+            RectTransform panel = _overlay.GetComponent<RectTransform>();
+            if (panel == null) panel = _overlay.AddComponent<RectTransform>();
             panel.anchorMin = new Vector2(0.5f, 0.5f);
             panel.anchorMax = new Vector2(0.5f, 0.5f);
             panel.pivot = new Vector2(0.5f, 0.5f);
@@ -160,7 +306,7 @@ namespace WcpCustomSlots
             close.GetComponent<RectTransform>().anchorMin = new Vector2(1f, 1f);
             close.GetComponent<RectTransform>().anchorMax = new Vector2(1f, 1f);
             close.GetComponent<RectTransform>().pivot = new Vector2(1f, 1f);
-            close.onClick.AddListener(new UnityAction(Hide));
+            close.onClick.AddListener(new UnityAction(OnCloseButton));
             EnsureEventSystem();
             CreateActionButton(_overlay.transform, "刷新", new Vector2(-112f, -18f),
                 new Vector2(56f, 36f), new Color(0.16f, 0.30f, 0.38f),
@@ -209,8 +355,17 @@ namespace WcpCustomSlots
             RebuildRows();
         }
 
+        // 关闭按钮：与 F8 同一语义 —— 手动关闭后轮询不再自动重开（本轮停留期间）。
+        private void OnCloseButton()
+        {
+            Hide();
+            _userDismissed = true;
+        }
+
         internal void Hide()
         {
+            if (_overlay != null && _overlay.activeSelf)
+                Log.LogInfo("CustomSlots: Hide → 关闭覆盖层");
             if (_renameBar != null) { UnityEngine.Object.Destroy(_renameBar); _renameBar = null; }
             _renameInput = null;
             _renameTitle = null;
@@ -221,16 +376,201 @@ namespace WcpCustomSlots
 
         private void Update()
         {
+            // 每帧检查"是否停在自定义词书页且页面可见"——这是唯一的显示判据，
+            // 不依赖点击钩子（钩子只在页签被点击时触发，直接进入该页时不会触发）。
+            if (Time.unscaledTime - _lastVisibilityCheck > 0.25f)
+            {
+                _lastVisibilityCheck = Time.unscaledTime;
+                PollCustomPage();
+            }
+
+            // 手动入口兜底：不依赖游戏方法钩子。F8 打开/关闭 20 槽面板。
+            if (Input.GetKeyDown(KeyCode.F8))
+            {
+                if (_overlay != null && _overlay.activeSelf)
+                {
+                    Hide();
+                    _userDismissed = true; // 轮询不许立即弹回
+                }
+                else
+                {
+                    _userDismissed = false;
+                    object chooser = GameCompat.FindChooserInstance();
+                    Log.LogInfo("CustomSlots: F8 手动打开（chooser=" + GameCompat.Describe(chooser) + "）");
+                    Show(chooser);
+                }
+            }
+            // F9：dump 原生词书页真实层级（写文件，不依赖日志被刷新）。
+            if (Input.GetKeyDown(KeyCode.F9)) DumpNativeBookPage();
+
             if (_overlay == null || !_overlay.activeSelf) return;
             if (_toast != null && _toast.gameObject.activeSelf && Time.unscaledTime > _toastUntil)
                 _toast.gameObject.SetActive(false);
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                if (_renameIndex >= 0) CancelRename(); else Hide();
+                if (_renameIndex >= 0) CancelRename();
+                else { Hide(); _userDismissed = true; }
             }
             else if (_renameIndex >= 0 &&
                      (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)))
                 SubmitRename();
+        }
+
+        // 钩子回调入口：与轮询共用同一判据（页面可见 + 处于自定义页）。
+        internal void ReactToPageChange(object chooser)
+        {
+            try
+            {
+                if (GameCompat.IsChooserVisible(chooser) && GameCompat.IsCustomPageShowing(chooser))
+                {
+                    if (_overlay == null || !_overlay.activeSelf)
+                    {
+                        Log.LogInfo("CustomSlots: 钩子 → 显示面板");
+                        Show(chooser);
+                    }
+                }
+                else if (_overlay != null && _overlay.activeSelf)
+                {
+                    Log.LogInfo("CustomSlots: 钩子 → 隐藏面板");
+                    Hide();
+                }
+            }
+            catch (Exception e) { Log.LogWarning("CustomSlots: 钩子响应失败: " + e.Message); }
+        }
+
+        // 轮询"是否停在自定义词书页且页面可见"，据此显示/隐藏面板。
+        // 轮询而非依赖点击钩子：用户可能直接就停在该页（不点页签），钩子不会触发。
+        // 场景里可能有多个 chooser 实例（实机日志见两个 canvas 各挂一份）——
+        // 必须找"可见的那个"来判，拿错实例会得出"不在页"的假象。
+        private void PollCustomPage()
+        {
+            try
+            {
+                object chooser = GameCompat.FindVisibleChooserInstance();
+                if (chooser == null)
+                {
+                    // 选书窗整体不可见：清掉页签点击信号，避免旧点击跨界面生效
+                    GameCompat.ClearUserPageNum();
+                    _userDismissed = false;
+                    if (_overlay != null && _overlay.activeSelf)
+                    {
+                        Log.LogInfo("CustomSlots: 轮询 → 选书窗不可见，隐藏面板");
+                        Hide();
+                    }
+                    return;
+                }
+                bool want = GameCompat.IsCustomPageShowing(chooser);
+                bool shown = _overlay != null && _overlay.activeSelf;
+                if (!want)
+                {
+                    _userDismissed = false;
+                    GameCompat.ClearUserPageNum();
+                    if (shown)
+                    {
+                        Log.LogInfo("CustomSlots: 轮询 → 离开自定义页，隐藏面板");
+                        Hide();
+                    }
+                    return;
+                }
+                if (shown) return;
+                if (_userDismissed) return; // 用户刚手动关掉：停在页上不自动重开
+                Log.LogInfo("CustomSlots: 轮询 → 进入自定义页，显示面板");
+                Show(chooser);
+            }
+            catch (Exception e) { Log.LogWarning("CustomSlots: 轮询失败: " + e.Message); }
+        }
+
+        // 诊断用：dump 原生词书页的真实层级（节点路径、RectTransform 几何、Button/Text 组件），
+        // 用于设计"无缝扩展原生列表 + 滚动条"的改造。写入 <persistentDataPath>/WcpSlotsDiag.txt。
+        private void DumpNativeBookPage()
+        {
+            try
+            {
+                object chooser = GameCompat.FindChooserInstance();
+                Component chooserComponent = chooser as Component;
+                if (chooserComponent == null)
+                {
+                    Log.LogWarning("CustomSlots: F9 找不到词书页实例，无法 dump 原生页");
+                    return;
+                }
+                List<string> lines = new List<string>();
+                lines.Add("=== WCP native book page dump " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + " ===");
+                lines.Add("compat: " + GameCompat.Notes);
+                lines.Add("chooser path = " + GameCompat.NodePath(chooserComponent.transform));
+                lines.Add("BookButtonFather=" + GameCompat.Count(GameCompat.GetFatherButtons(chooser)));
+                lines.Add("BookButtonSon=" + GameCompat.Count(GameCompat.GetSonButtons(chooser)));
+                lines.Add("BookNameText=" + GameCompat.Count(GameCompat.GetNameTexts(chooser)));
+                lines.Add("LearnedNumInBook=" + GameCompat.Count(GameCompat.GetLearnedButtons(chooser)));
+                lines.Add("自定义页判定=" + (GameCompat.IsCustomPageShowing(chooser) ? "是" : "否") +
+                          "; 校准页签索引=" + GameCompat.CustomPageIndex);
+
+                DumpNode(chooserComponent.transform, lines, 0, 4);
+                DumpArray(GameCompat.GetFatherButtons(chooser), "Father", lines);
+                DumpArray(GameCompat.GetSonButtons(chooser), "Son", lines);
+                DumpArray(GameCompat.GetNameTexts(chooser), "NameText", lines);
+
+                string path = Path.Combine(Application.persistentDataPath, "WcpSlotsDiag.txt");
+                File.WriteAllText(path, string.Join("\n", lines.ToArray()));
+                Log.LogInfo("CustomSlots: F9 已 dump 原生页层级 -> " + path + "（" + lines.Count + " 行）");
+            }
+            catch (Exception e) { Log.LogError("CustomSlots: dump 原生页失败: " + e); }
+        }
+
+        private void DumpNode(Transform t, List<string> lines, int depth, int maxDepth)
+        {
+            if (t == null || depth > maxDepth) return;
+            RectTransform rt = t as RectTransform;
+            string geo = "";
+            if (rt != null)
+                geo = " size=" + rt.sizeDelta.x.ToString("0") + "x" + rt.sizeDelta.y.ToString("0") +
+                      " pos=" + rt.anchoredPosition.x.ToString("0") + "," + rt.anchoredPosition.y.ToString("0") +
+                      " anchor=" + rt.anchorMin.x.ToString("0.##") + "," + rt.anchorMin.y.ToString("0.##") +
+                      "->" + rt.anchorMax.x.ToString("0.##") + "," + rt.anchorMax.y.ToString("0.##");
+            string comps = "";
+            Component[] cs = t.GetComponents<Component>();
+            if (cs != null)
+                foreach (Component c in cs)
+                    if (c != null && !(c is Transform)) comps += c.GetType().Name + " ";
+            string active = t.gameObject.activeSelf ? "" : " [INACTIVE]";
+            lines.Add(new string(' ', depth * 2) + t.name + geo + " {" + comps.Trim() + "}" + active);
+            for (int i = 0; i < t.childCount; i++) DumpNode(t.GetChild(i), lines, depth + 1, maxDepth);
+        }
+
+        // 通过兼容层 dump 一个组件数组（按钮组 / 文本组），不绑具体类型。
+        private void DumpArray(Array items, string tag, List<string> lines)
+        {
+            if (items == null) { lines.Add(tag + ": (字段未解析到)"); return; }
+            for (int i = 0; i < items.Length; i++)
+            {
+                object item = items.GetValue(i);
+                Component c = item as Component;
+                if (c == null) { lines.Add(tag + "[" + i + "]: (null)"); continue; }
+
+                RectTransform rt = c.GetComponent<RectTransform>();
+                string geo = rt != null
+                    ? " size=" + rt.sizeDelta.x.ToString("0") + "x" + rt.sizeDelta.y.ToString("0") +
+                      " pos=" + rt.anchoredPosition.x.ToString("0") + "," + rt.anchoredPosition.y.ToString("0") +
+                      " anchor=" + rt.anchorMin.x.ToString("0.##") + "," + rt.anchorMin.y.ToString("0.##") +
+                      "->" + rt.anchorMax.x.ToString("0.##") + "," + rt.anchorMax.y.ToString("0.##")
+                    : "";
+                Button b = item as Button;
+                string state = b != null ? " interactable=" + b.interactable : "";
+
+                // 标签：该节点下任意含 "Text" 的组件（含 TMP），用反射读 text，不绑 TMPro。
+                string label = "";
+                Component[] children = c.GetComponentsInChildren<Component>(true);
+                if (children != null)
+                    foreach (Component child in children)
+                    {
+                        if (child == null) continue;
+                        if (child.GetType().Name.IndexOf("Text", StringComparison.Ordinal) < 0) continue;
+                        string t = GameCompat.ReadText(child);
+                        if (!string.IsNullOrEmpty(t)) { label = t; break; }
+                    }
+
+                lines.Add(tag + "[" + i + "] " + GameCompat.NodePath(c.transform) +
+                    " active=" + c.gameObject.activeSelf + state + geo + " label='" + label + "'");
+            }
         }
 
         private void RebuildRows()
@@ -371,14 +711,30 @@ namespace WcpCustomSlots
             return SlotRules.NativeContentTracked(_state, words);
         }
 
+        // ── ES3 存档读写（通过兼容层反射，避免编译期绑定 ES3 类型）──
+        private static void Es3Save(string key, object value)
+        {
+            GameCompat.Es3Save(key, value, null);
+        }
+
+        private static void Es3SaveTo(string key, object value, string path)
+        {
+            GameCompat.Es3Save(key, value, path);
+        }
+
+        private static T Es3Load<T>(string key, string path)
+        {
+            return GameCompat.Es3Load<T>(key, path);
+        }
+
         private void Materialize(SlotRecord record, int nativeSlot)
         {
             string[] words = (string[])record.words.Clone();
             string name = string.IsNullOrEmpty(record.name) ? record.id : record.name;
             string listKey = "SelfBookList" + nativeSlot;
             string nameKey = "SelfBookName" + nativeSlot;
-            ES3.Save(listKey, words, MyBookPath);
-            ES3.Save(nameKey, name, MyBookPath);
+            Es3SaveTo(listKey, words, MyBookPath);
+            Es3SaveTo(nameKey, name, MyBookPath);
             SetStatic(listKey, words);
             SetStatic(nameKey, name);
 
@@ -388,8 +744,8 @@ namespace WcpCustomSlots
             SetStatic("tem_ChosenBook_List", new List<string>(chosen));
             SetStatic("ChosenBook_Para", canonical);
             SetStatic("ChosenBook_List", chosen);
-            ES3.Save("ChosenBook_Para", canonical);
-            ES3.Save("ChosenBook_List", chosen);
+            Es3Save("ChosenBook_Para", canonical);
+            Es3Save("ChosenBook_List", chosen);
 
             if (_bookChooser != null)
             {
@@ -465,7 +821,7 @@ namespace WcpCustomSlots
             {
                 try
                 {
-                    ES3.Save("SelfBookList" + release, new string[0], MyBookPath);
+                    Es3SaveTo("SelfBookList" + release, new string[0], MyBookPath);
                     SetStatic("SelfBookList" + release, new string[0]);
                 }
                 catch (Exception e) { Log.LogWarning("CustomSlots: 清空原生槽 " + release + " 失败: " + e.Message); }
@@ -694,7 +1050,7 @@ namespace WcpCustomSlots
             try
             {
                 if (!File.Exists(MyBookPath)) return new string[0];
-                string[] words = ES3.Load<string[]>("SelfBookList" + nativeSlot, MyBookPath);
+                string[] words = Es3Load<string[]>("SelfBookList" + nativeSlot, MyBookPath);
                 return words ?? new string[0];
             }
             catch { return new string[0]; }
@@ -705,7 +1061,7 @@ namespace WcpCustomSlots
             try
             {
                 if (!File.Exists(MyBookPath)) return "";
-                return ES3.Load<string>("SelfBookName" + nativeSlot, MyBookPath);
+                return Es3Load<string>("SelfBookName" + nativeSlot, MyBookPath);
             }
             catch { return ""; }
         }
@@ -721,11 +1077,10 @@ namespace WcpCustomSlots
             }
         }
 
+        // 通过兼容层写游戏静态字段（不绑 MyParameters 类型名，游戏改名也走这里）。
         private static void SetStatic(string name, object value)
         {
-            FieldInfo field = typeof(MyParameters).GetField(name,
-                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
-            if (field != null) field.SetValue(null, value);
+            GameCompat.SetStaticField(name, value);
         }
 
         private static void InvokeNoArg(object instance, string method)

@@ -22,9 +22,10 @@ set REFS=/r:"%GAME%\BepInEx\core\BepInEx.dll" ^
  /r:"%MGD%\UnityEngine.UI.dll" ^
  /r:"%MGD%\UnityEngine.TextRenderingModule.dll" ^
  /r:"%MGD%\UnityEngine.InputLegacyModule.dll" ^
- /r:"%MGD%\UnityEngine.JSONSerializeModule.dll"
+ /r:"%MGD%\UnityEngine.JSONSerializeModule.dll" ^
+ /r:"%MGD%\Unity.TextMeshPro.dll"
 "%CSC%" /nologo /noconfig /nostdlib+ /target:library /langversion:5 /optimize+ /codepage:65001 %REFS% ^
- /out:"%~dp0CustomSlotsMod.dll" "%~dp0CustomSlotModel.cs" "%~dp0CustomSlotsMod.cs"
+ /out:"%~dp0CustomSlotsMod.dll" "%~dp0CustomSlotModel.cs" "%~dp0GameCompat.cs" "%~dp0CustomSlotsMod.cs"
 if errorlevel 1 (echo BUILD FAILED & exit /b 1)
 echo BUILD OK
 if "%WCP_NO_DEPLOY%"=="1" (
