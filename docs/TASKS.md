@@ -440,8 +440,10 @@ probes 41/0、verify_integration PASS(9)、build_pack --check-all PASS、arch_ch
 - ✅ ko：源头修复 45 条高置信错译/污染词条及对应例句（含 `맨발` 残留 HTML 实体 `&apos;` 清零——上一轮实体正则漏检数字实体）；更新 `ko_translation_cache.json`；`verify_all_ko.py` ALL PASS。
 - ✅ ko 音频：P0 替换的 135 句新例句 TTS 定向补齐（`_local/audit/gen_ko_tts_missing_20260916.py`），语料 21,990 句 0 缺口（与备份+生成目录并集比对）。
 - ✅ de：German 仓回滚到 §11 验收态（上一轮上游词典重生成混入 1,416 处回归：fallback 垃圾、字面 `\n`、重复 sense 回流），再单独重放 17 条跨词义黏连修复（`_local/audit/replay_de_p0_20260916.py`，词性-释义错配核验）；pack 复核 fallback=0、字面\n=0、多义词义项无丢失。
+- ✅ es：回滚 §10 验收态后顺带修复 5 词条例句中文括注残句嵌套（vuelto/humor/sensación/sinceramente/sorprendentemente，§10 数据里既有缺陷）Spanish `c33f6a1`。
 - ⚠️ **回归教训**：es/pt 曾在 20:14 被用 HEAD 版生成器重跑——§10 的数据级修复（es 阴性一致 459 处、pt `o parecia` 147 处）没折进生成器，重生成即回退（pt 坏框架 144 行回归）。已 `git checkout` 回滚 es/pt 数据侧；**生成器级收敛（重生成输出 ≡ 已验收数据）仍待做**，做之前禁止再跑 es/pt 生成器。
-- ✅ 门禁全绿：`build_pack.py --check-all` PASS、`sync_packs.py --check` PASS、`verify_integration.py` **PASS (9 languages)**（ja 6 文件门面漂移已随 v1.2.9.1 重集成收敛；ja CSV EOL 噪声已回退）。
-- 提交：korean `7a09ed1`、German `ba78ad3`、ML 本轮 docs+packs+languages。
+- ⚠️ **并行会话事故**：同为质量收敛的并行会话 23:13 将 German 仓重写成回归版并污染 ML de 镜像；本会话 100a467 用 `git add -A` 把该回归扫进了 es 修复提交。已回滚 ML de 到 cb7ff0c 验收态（1b71dea，1443 释义复原）。该会话 23:30 一轮已收敛到与本会话语义一致；其工作区剩余 EOL-only 差异由其收尾。**规则：共享仓提交前必须逐文件归因 `git status`，禁止 `git add -A`。**
+- ✅ 门禁全绿（终态复验）：`build_pack.py --check-all` PASS、`sync_packs.py --check` PASS、`verify_integration.py` **PASS (9 languages)**、`test_hub` 61/0、`verify_all_ko` ALL PASS（ja 6 文件门面漂移已随 v1.2.9.1 重集成收敛）。
+- 提交：korean `7a09ed1`、German `ba78ad3`、Spanish `c33f6a1`、ML `cb7ff0c`/`100a467`/`1b71dea`。
 - 未验证项：es/pt 数据与 §10 报告的逐字抽检（回滚后 verify PASS、指纹未变，低风险）；de 17 条修复未在实机抽读。
 
