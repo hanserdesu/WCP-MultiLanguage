@@ -28,7 +28,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CATALOG = REPO_ROOT / "catalog.json"
 SHA_RE = re.compile(r"^[0-9a-f]{64}$")
-KINDS = ("word_audio", "sentence_audio")
+# pack/slot_manifest 由 P1-3 起随行分发（安装器按 name/kind 装载 core zip 与槽位种子）
+KINDS = ("word_audio", "sentence_audio", "pack", "slot_manifest")
 
 
 def main():
