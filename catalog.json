@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-09-16",
+  "updated": "2026-09-16 17:59:21",
   "mods": {
     "id": "wcp-mods",
     "version": "wcp-mods-v1.2.0",
@@ -252,42 +252,42 @@
       "language": "ko",
       "display_name": "韩语词库(猫条版)",
       "repo": "hanserdesu/WCP-MultiLanguage",
-      "release_tag": "wcp-ko-resources-v1.1.0",
-      "version": "wcp-ko-resources-v1.1.0",
+      "release_tag": "wcp-ko-resources-v1.1.1",
+      "version": "wcp-ko-resources-v1.1.1",
       "word_count": 7330,
       "fingerprint_sha256": "ff64542ef480b8edbbff1266eaf43ada77894c97fa61652f67a19061157088b2",
       "es3_prefix": "ko",
       "disk": {
-        "extract_mb": 785
+        "extract_mb": 675
       },
       "assets": [
         {
           "kind": "pack",
           "name": "wcp-ko-core.zip",
-          "size": 1732973,
-          "sha256": "2b338a5ab0eda0d769f36cd2d134f695b0c61f80f189a89639f0aee8bdbc9d35",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.0/wcp-ko-core.zip"
+          "size": 1886889,
+          "sha256": "6f46fb8dddaac43144d868c0720242006af6068d21db63e4a230ccbbfbe93cf6",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.1/wcp-ko-core.zip"
         },
         {
           "kind": "slot_manifest",
           "name": "wcp-ko-slot-seed.json",
           "size": 141180,
           "sha256": "76c8495645fb985baeb06952109d0ddfb4f752375e08d77252ba454aea5f8d82",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.0/wcp-ko-slot-seed.json"
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.1/wcp-ko-slot-seed.json"
         },
         {
           "kind": "sentence_audio",
           "name": "wcp-korean-audio-sentences.zip",
-          "size": 734337502,
-          "sha256": "03025d91f08786480c13efd52a6613404261aacc611e61ce1a09eb0324aec993",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.0/wcp-korean-audio-sentences.zip"
+          "size": 620627326,
+          "sha256": "14fd7b841ec365eac1a53f9940e17a5f27701acf2a7cfde84b4554ead2f60209",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.1/wcp-korean-audio-sentences.zip"
         },
         {
           "kind": "word_audio",
           "name": "wcp-korean-audio-words.zip",
           "size": 82106980,
           "sha256": "749ee3f44db75f901bb003024970175d5b264f88f6b07588f426ea370a5b2a72",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.0/wcp-korean-audio-words.zip"
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.1/wcp-korean-audio-words.zip"
         }
       ],
       "profile_id": "catbar-ko-complete"
