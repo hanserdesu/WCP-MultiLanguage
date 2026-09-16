@@ -6,9 +6,9 @@
   "en_pron": 225,
   "en_sentences": 670,
   "files": {
-    "de_pron.tsv": "04ed2c5e1ff48208bfa2ee3875c2d0b279798359f2b0b86b34f3c3184f598209",
+    "de_pron.tsv": "ce2736d7188ea5556d3e28bb93cdb7a464035416bcd8c11a4ec018a3654d06b9",
     "de_sentences.tsv": "c1b5951e3e9ef45b82cf1204ebd3ccb7106b0c28f798b18ef7de2ac59f6827e9",
-    "de_only_pron.tsv": "04ed2c5e1ff48208bfa2ee3875c2d0b279798359f2b0b86b34f3c3184f598209",
+    "de_only_pron.tsv": "ce2736d7188ea5556d3e28bb93cdb7a464035416bcd8c11a4ec018a3654d06b9",
     "en_pron.tsv": "3d9e08e3e3e882350fff931c869cb856a5287712567c6eb3ffed086adcfd1669",
     "en_sentences.tsv": "03240187e74606562fe28c6ffda21c9cc07c365e473ad5e396349165b04cab2c"
   }
