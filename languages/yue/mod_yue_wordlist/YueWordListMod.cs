@@ -1320,8 +1320,10 @@ namespace YueWordList
             string word = (__instance.text1.text ?? "").Trim();
             if (word.Length == 0 || word.IndexOfAny(System.IO.Path.GetInvalidFileNameChars()) >= 0)
                 return false;
+            // 只读 pack（legacy 目录 <persistentDataPath>/yue_word_audio 回退已移除，
+            // 与宿主 ResourceRouter 的 WordAudioDir 同一物理目录）。
             string file = System.IO.Path.Combine(Application.persistentDataPath,
-                "yue_word_audio", word + ".mp3");
+                "..", "packs", "yue", "audio", "word", word + ".mp3");
             Instance.StopWordAudio();
             if (!System.IO.File.Exists(file))
             {
