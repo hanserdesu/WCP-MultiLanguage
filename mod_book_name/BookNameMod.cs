@@ -188,6 +188,28 @@ namespace WcpBookName
         private bool _groupLogged;
         private float _nextSwitchScan;
 
+        // 宿主是否已激活受管词书：从 BepInEx 链对象里读 WcpHost 的 Router
+        // ActiveProfileId。任何一步失败都返回 false（回退到本插件自扫）。
+        private static bool HostTakesOver()
+        {
+            try
+            {
+                var plugin = Instance;
+                if (plugin == null) return false;
+                var hostType = AccessTools.TypeByName("WcpHost.WcpHostPlugin");
+                if (hostType == null) return false;
+                var inst = AccessTools.PropertyGetter(hostType, "Instance") != null
+                    ? hostType.GetProperty("Instance").GetValue(null) : null;
+                if (inst == null) return false;
+                var runtime = inst.GetType().GetProperty("Runtime") != null
+                    ? inst.GetType().GetProperty("Runtime").GetValue(inst) : null;
+                if (runtime == null) return false;
+                var pid = runtime.GetType().GetProperty("ActiveProfileId");
+                return pid != null && pid.GetValue(runtime) != null;
+            }
+            catch (Exception) { return false; }
+        }
+
         internal static BookProfile SelectedManagedBook()
         {
             try
@@ -333,6 +355,12 @@ namespace WcpBookName
         {
             BookProfile managedBook = SelectedManagedBook();
             bool isManaged = managedBook != null;
+            // 性能收敛 2026-09-16：宿主接管受管词书时，书名（DisplayName）与
+            // 口音标签都由 WcpHost 的 Tick 写入，本插件的全场 TMP_Text 扫描
+            // 是重复劳动——直接跳过。离开受管书（isManaged=false）走原路径
+            // 负责还原。Legacy/YieldToHost=false 强制旧模式时不受影响。
+            if (isManaged && HostTakesOver())
+                return;
             string vLabel = isManaged ? VoiceLabelFor(managedBook) : null;
             if (_lastVoiceLabel != vLabel) RestoreWordSide();
             _lastVoiceLabel = vLabel;

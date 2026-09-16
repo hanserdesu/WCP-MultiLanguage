@@ -32,6 +32,7 @@ namespace WcpHost
         private object _s8;
         private object _s17;
         private float _nextScan;
+        private bool _scanBusy;
 
         internal SentenceAudioService(HostRuntime runtime, HostAudioPlayer audio)
         {
@@ -42,7 +43,10 @@ namespace WcpHost
         internal void Tick()
         {
             if (Time.unscaledTime < _nextScan) return;
-            _nextScan = Time.unscaledTime + 0.3f;
+            // 性能收敛 2026-09-16：0.3s → 1s（按钮出现/消失滞后于人眼无感）；
+            // 发生过挂载/移除的扫描后短暂回 0.3s 加速连续出现的响应。
+            float interval = _scanBusy ? 0.3f : 1f;
+            _nextScan = Time.unscaledTime + interval;
             if (!_runtime.IsActive || _runtime.ActiveStrategy == null)
             {
                 Leave();
@@ -54,6 +58,7 @@ namespace WcpHost
             if (_s17 == null && _t17 != null) _s17 = FindObject(_t17);
 
             UnityEngine.Object[] objects = Resources.FindObjectsOfTypeAll(_showReadType);
+            _scanBusy = false;
             HashSet<Button> seen = new HashSet<Button>();
             for (int i = 0; i < objects.Length; i++)
             {
@@ -70,9 +75,11 @@ namespace WcpHost
                     if (string.IsNullOrEmpty(file) || !File.Exists(file))
                     {
                         Remove(button);
+                        _scanBusy = true;
                         continue;
                     }
                     Attach(button, file, j);
+                    _scanBusy = true;
                 }
             }
             RemoveUnseen(seen);

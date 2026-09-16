@@ -127,7 +127,7 @@ namespace WcpHost
             TryBeginWordAudioMirror();
             try { _scope.Enforce(); }
             catch (Exception e) { Warn("运行态队列校正失败: " + e.Message); }
-            try { ScanBookLabels(); }
+            try { ScanBookLabelsThrottled(); }
             catch (Exception e) { Warn("书名/UI 扫描失败: " + e.Message); }
             try
             {
@@ -516,6 +516,8 @@ namespace WcpHost
             _scope.Leave();
             // 离开当前语言范围后音频缓存不再有用，及时释放避免长会话内存增长。
             if (_audio != null) _audio.ClearCache();
+            _labelScanIdleCount = 0;
+            _nextLabelScan = 0f;
         }
 
         private void EnsureServices()
@@ -528,6 +530,29 @@ namespace WcpHost
             }
             if (_sentenceAudio == null)
                 _sentenceAudio = new SentenceAudioService(this, _audio);
+        }
+
+        // UI 标签扫描节流（性能收敛 2026-09-16）：FindObjectsOfTypeAll 全场
+        // 扫描有固定成本，标签变化本来就慢。活跃期 1s（与身份轮询同拍，切书
+        // 时立即跟进）；连续 5 次无任何改写视为空闲，放慢到 5s；一旦发生
+        // 改写立即回到活跃期。
+        private const int LabelScanIdleAfter = 5;
+        private const float LabelScanIdleInterval = 5f;
+        private float _nextLabelScan;
+        private int _labelScanIdleCount;
+
+        private void ScanBookLabelsThrottled()
+        {
+            if (Time.unscaledTime < _nextLabelScan) return;
+            int writtenBefore = _labelWritten.Count;
+            ScanBookLabels();
+            if (_labelWritten.Count != writtenBefore)
+                _labelScanIdleCount = 0;
+            else if (_labelScanIdleCount < LabelScanIdleAfter)
+                _labelScanIdleCount++;
+            _nextLabelScan = Time.unscaledTime +
+                (_labelScanIdleCount >= LabelScanIdleAfter
+                    ? LabelScanIdleInterval : 1f);
         }
 
         private void ScanBookLabels()
