@@ -3,7 +3,7 @@
   "sentence_count": 25797,
   "files": {
     "es_pron.tsv": "958cef863a2424640a5cbe06580088a6300d239dd4ae6f7a612971b7973a0f46",
-    "es_sentences.tsv": "7ae2bec49fc8cf91bf057c7b57b354b4b70a65816b47939e72fbaa6f33c99577"
+    "es_sentences.tsv": "155bf22b24ab776ac1e5f96fbb528d36c94b7eb227cc7488a120aada423d622f"
   },
   "note": "本目录是 pack 专用载荷（展平两列），由 MultiLanguage/tools/build_pack_payload.py 生成；原 output/es_db_payload 保持不变，仍供旧插件安装器使用。"
 }

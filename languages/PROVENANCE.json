@@ -1,47 +1,29 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-16T22:58:01+08:00",
+  "integrated_at": "2026-09-16T23:22:54+08:00",
   "languages": {
-    "ja": {
+    "es": {
       "absent_in_worktree": [],
-      "bytes": 71142310,
-      "content_digest": "sha256:f3f2a0a318481e6f8a4c5f950dbe8761cfa9f25d5181f9516cdf8474dc9e6430",
-      "excluded": {
-        "build-archive": 31,
-        "duplicate-pack-build": 4,
-        "installer-package": 63,
-        "release-artifacts": 42
-      },
-      "excluded_bytes": 3778450040,
-      "excluded_samples": [
-        "packs/ja/books/日语词库(猫条版).xlsx (duplicate-pack-build)",
-        "packs/ja/db/repair.tsv (duplicate-pack-build)",
-        "packs/ja/db/sentences.json (duplicate-pack-build)",
-        "packs/ja/pack.build.json (duplicate-pack-build)",
-        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/01_双击运行我.cmd (installer-package)",
-        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/Install-WCP-Japanese.ps1 (installer-package)",
-        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/check-compatibility.ps1 (installer-package)",
-        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/compatibility-help.cmd (installer-package)",
-        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/additions.db (installer-package)",
-        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/config/BepInEx.cfg (installer-package)",
-        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.dll (installer-package)",
-        "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/0Harmony.xml (installer-package)"
-      ],
-      "files": 862,
-      "note": "日语：本体与语音资源保留在 hanserdesu/japanese",
+      "bytes": 54768548,
+      "content_digest": "sha256:29a37c2135d01578b5de20260fbc88af9ebc365db412969e6e04d0356c0198c2",
+      "excluded": {},
+      "excluded_bytes": 0,
+      "excluded_samples": [],
+      "files": 33,
+      "note": "",
       "removed_in_worktree": [],
-      "source_branch": "master",
-      "source_dir": "D:\\ATooManyLanguage\\Japanese",
-      "source_head": "a246ac16a96aa79bb0a22330e1e996175a882f93",
-      "source_head_date": "2026-09-16 22:45:47 +0800",
-      "source_head_subject": "release: v1.2.9.1 — 性能收敛版 WcpHost 进包（payload 一致性闭环）",
-      "source_origin_head": "a246ac16a96aa79bb0a22330e1e996175a882f93",
-      "source_repo": "https://github.com/hanserdesu/japanese.git",
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\Spanish",
+      "source_head": "c33f6a1add6c7985df37feefe3a21acde23010d6",
+      "source_head_date": "2026-09-16 23:22:47 +0800",
+      "source_head_subject": "content: 5词条例句中文括注修复 (vuelto/humor/sensación/sinceramente/sorprendentemente 残句嵌套清零) — §10验收态+zh修复",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-Spanish-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 147,
-        "tracked": 704,
-        "untracked": 11
+        "modified": 0,
+        "tracked": 33,
+        "untracked": 0
       }
     }
   },
