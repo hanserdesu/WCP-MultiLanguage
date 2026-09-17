@@ -1440,3 +1440,24 @@ B) BookNameMod 只在自定义页美化、官方分类页恢复显示"自定义�
   - `mod_custom_slots/build.cmd` 与 `mod_book_name/build.cmd` 编译成功并部署到游戏目录（哈希全部吻合）。
   - `gate_probe.py` 16/16 PASS；`test_custom_slots.ps1` 11/11 PASS。
   - `build_mods_payload.py` 生成最新载荷包。
+
+### P1-16 方案 A 落地：彻底根除串词书、全透明底板、滚动条全手势交互收敛（2026-09-18）
+
+- 核心解决与根因收敛：
+  1. 彻底根除初中词汇等页面「串词书」：
+     - 根因：原生代码在切换到初中词汇等分类页时，根据书目数量精确控制 `BookButtonSon` 的显示与隐藏（初中仅 1 本，关闭 1..3 行）。旧版 `RestoreNativeBars()` 在离开自定义页时盲目执行 `SetActive(true)`，强行唤醒原生刚刚关闭的行，且残留自定义页的文本，造成初中页被污染。
+     - 修复：收紧 `RestoreNativeBars()` 判定，严禁在离开自定义页（`clickNum != 20`）时调用 `SetActive(true)`；仅当在自定义页手动关闭覆盖层（F8/关闭按钮）时才恢复原生 4 槽。`LateUpdate` 同样增加 `clickNum == 20` 严格门禁。
+  2. 彻底去除黑色遮挡底板，恢复原生发光纯净美术质感：
+     - 根因：覆盖层 `_panelBg` 以及视口 `viewportImage` 均赋予了暗黑背景色（Alpha 0.98），遮挡了原生立绘与光斑。
+     - 修复：将 `_panelBg` 彻底禁用且颜色设为 `Color.clear`；将 `viewportImage` 设为 `Color.clear`，配合 `RectMask2D`，实现 100% 原生发光底板透出。
+  3. 彻底修复自定义槽位滚动条不可用：
+     - 根因：自建独立 Canvas 开启了 `overrideSorting = true`，但缺少 `GraphicRaycaster` 组件，导致 Unity EventSystem 无法派发任何点击、拖拽和滚轮事件到覆层及其子物体；此外滚动条方向误设为 `TopToBottom`，且克隆行未带 `LayoutElement` 导致 PreferredHeight 未能撑开 Content。
+     - 修复：
+       - 给覆盖层补齐 `GraphicRaycaster`，激活完整 uGUI 事件链路；
+       - `viewportImage` 保持透明但保留 `raycastTarget = true`，平滑承接鼠标滚轮；
+       - 修正滚动条方向为标准的 `BottomToTop`，手势与拖拽平滑对应；
+       - 每行克隆体追加 `LayoutElement(minH=25, prefH=25)`，Content 自动撑开至 1573.5px，滚动条按实际比例自适应并支持自由拖拽滚动。
+- 验证闭环：
+  - `CustomSlotsMod.dll` 构建通过并部署至游戏目录，SHA256 吻合。
+  - `test_custom_slots.ps1` 11/11 PASS；`gate_probe.py` 16/16 PASS。
+  - `build_mods_payload.py` 重新打包完成。

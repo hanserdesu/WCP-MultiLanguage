@@ -325,6 +325,7 @@ namespace WcpCustomSlots
             Canvas overlayCanvas = _overlay.AddComponent<Canvas>();
             overlayCanvas.overrideSorting = true;
             overlayCanvas.sortingOrder = 32760;
+            _overlay.AddComponent<GraphicRaycaster>();
             _overlay.transform.SetAsLastSibling();
             RectTransform panel = _overlay.GetComponent<RectTransform>();
             if (panel == null) panel = _overlay.AddComponent<RectTransform>();
@@ -337,7 +338,9 @@ namespace WcpCustomSlots
             _panelRect = panel;   // 对位放 EnsureNativePresentation（复用路径也要跑）
 
             Image panelImage = _overlay.AddComponent<Image>();
-            panelImage.color = new Color(0.035f, 0.05f, 0.08f, 0.97f);
+            panelImage.color = Color.clear;
+            panelImage.raycastTarget = false;
+            panelImage.enabled = false;
             _panelBg = panelImage;   // 路线 A：原生页没有面板底，建完就隐藏 + 不接收射线
 
             _titleText = CreateText(_overlay.transform, "WCP 自定义词书（20 槽）", 26, new Vector2(20f, -18f),
@@ -368,7 +371,8 @@ namespace WcpCustomSlots
             viewport.offsetMax = new Vector2(-18f, 0f);
             _viewportRect = viewport;
             Image viewportImage = viewportObject.AddComponent<Image>();
-            viewportImage.color = new Color(0.04f, 0.06f, 0.10f, 0.98f);
+            viewportImage.color = Color.clear;
+            viewportImage.raycastTarget = true;
             RectMask2D mask = viewportObject.AddComponent<RectMask2D>();
 
             ScrollRect scroll = _overlay.AddComponent<ScrollRect>();
@@ -516,7 +520,8 @@ namespace WcpCustomSlots
             _scrollbarRect = barRect;
             Image barImage = barObject.AddComponent<Image>();
             if (_nativeBarBg != null) { barImage.sprite = _nativeBarBg; barImage.type = Image.Type.Sliced; }
-            else barImage.color = new Color(1f, 1f, 1f, 0.12f);
+            else barImage.color = new Color(1f, 1f, 1f, 0.15f);
+            barImage.raycastTarget = true;
 
             GameObject sliding = new GameObject("Sliding Area");
             sliding.transform.SetParent(barObject.transform, false);
@@ -535,10 +540,11 @@ namespace WcpCustomSlots
             handleRect.offsetMax = Vector2.zero;
             Image handleImage = handleObject.AddComponent<Image>();
             if (_nativeBarHandle != null) { handleImage.sprite = _nativeBarHandle; handleImage.type = Image.Type.Sliced; }
-            else handleImage.color = new Color(1f, 1f, 1f, 0.45f);
+            else handleImage.color = new Color(1f, 1f, 1f, 0.60f);
+            handleImage.raycastTarget = true;
 
             Scrollbar bar = barObject.AddComponent<Scrollbar>();
-            bar.direction = Scrollbar.Direction.TopToBottom;
+            bar.direction = Scrollbar.Direction.BottomToTop;
             bar.handleRect = handleRect;
             bar.targetGraphic = handleImage;
             ColorBlock cb = bar.colors;
@@ -561,9 +567,9 @@ namespace WcpCustomSlots
 
             if (_panelBg != null)
             {
-                _panelBg.enabled = true;
-                _panelBg.color = new Color(0.04f, 0.06f, 0.10f, 0.98f);
-                _panelBg.raycastTarget = true;
+                _panelBg.enabled = false;
+                _panelBg.color = Color.clear;
+                _panelBg.raycastTarget = false;
             }
             if (_titleText != null) _titleText.gameObject.SetActive(false);
             if (_hintText != null) _hintText.gameObject.SetActive(false);
@@ -653,7 +659,8 @@ namespace WcpCustomSlots
         private void LateUpdate()
         {
             // 覆盖层激活期间，持续压制原生 4 行与"修改词库"按钮，杜绝原生逻辑每帧激活引起的幽灵重叠穿透
-            if (_overlay != null && _overlay.activeSelf)
+            // 严格守卫：只有当处于自定义页（clickNum == 20）时才压制，绝不影响官方分类页！
+            if (_overlay != null && _overlay.activeSelf && _bookChooser != null && GameCompat.CurrentCategory(_bookChooser) == 20)
             {
                 SuppressNativeElements();
             }
@@ -1331,8 +1338,16 @@ namespace WcpCustomSlots
 
         private void RestoreNativeBars()
         {
-            for (int i = 0; i < _hiddenNativeBars.Count; i++)
-                if (_hiddenNativeBars[i] != null) _hiddenNativeBars[i].SetActive(true);
+            // 严禁离开自定义页时执行 SetActive(true)！
+            // 游戏原生代码（WordChooseButtonS10.OnBookButtonClicked）在用户切换到任何官方分类页时，
+            // 会根据该分类的书籍数量自行精确管理 BookButtonSon[0..3] 的激活（例如初中词汇只有 1 本，原生会将 1..3 行关闭）。
+            // 若在此盲目激活，会强行唤醒原生已关闭的行，引发官方分类页严重串词书！
+            // 仅当用户依然停留在自定义页（clickNum == 20）且手动关闭覆盖层（如按 F8 或关闭按钮）时，才唤醒原生 4 槽。
+            if (_bookChooser != null && GameCompat.CurrentCategory(_bookChooser) == 20)
+            {
+                for (int i = 0; i < _hiddenNativeBars.Count; i++)
+                    if (_hiddenNativeBars[i] != null) _hiddenNativeBars[i].SetActive(true);
+            }
             _hiddenNativeBars.Clear();
         }
 
@@ -1391,6 +1406,11 @@ namespace WcpCustomSlots
                     rowRt.pivot = new Vector2(0f, 0.5f);
                     rowRt.anchoredPosition = new Vector2(0f, rowRt.anchoredPosition.y);
                 }
+                LayoutElement le = row.GetComponent<LayoutElement>();
+                if (le == null) le = row.AddComponent<LayoutElement>();
+                le.minHeight = 25f;
+                le.preferredHeight = 25f;
+                le.flexibleHeight = 0f;
                 // 克隆体的 Button 携带原型上序列化的 onClick（会调原生逻辑用错索引），
                 // 整个换新 Button 掐断，再挂我们自己的选择回调。
                 Button oldButton = row.GetComponent<Button>();
