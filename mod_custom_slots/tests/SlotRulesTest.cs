@@ -280,6 +280,25 @@ internal static class SlotRulesTest
             "回到 4 槽后槽 5 拒绝导入（越界保护）");
         Check(SlotRules.NativeSlotOwnedByManaged(grown, 5) == false, "越界原生槽不算受管");
 
+        // ── P1-18：中文槽名生成器边界（1..10、11..99、防呆）──
+        // Canonical 在 CustomSlotsMod 内（不可直接单测），这里用反射调静态私有方法。
+        System.Reflection.MethodInfo canon = typeof(SlotRules).Assembly.GetType("WcpCustomSlots.CustomSlotsMod") == null
+            ? null : typeof(SlotRules).Assembly.GetType("WcpCustomSlots.CustomSlotsMod")
+                .GetMethod("Canonical", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
+        if (canon != null)
+        {
+            Check((string)canon.Invoke(null, new object[] { 1 }) == "自定义词书一", "槽1 → 自定义词书一");
+            Check((string)canon.Invoke(null, new object[] { 4 }) == "自定义词书四", "槽4 → 自定义词书四");
+            Check((string)canon.Invoke(null, new object[] { 5 }) == "自定义词书五", "槽5 → 自定义词书五（旧 switch 会错写成四）");
+            Check((string)canon.Invoke(null, new object[] { 10 }) == "自定义词书十", "槽10 → 十");
+            Check((string)canon.Invoke(null, new object[] { 12 }) == "自定义词书十二", "槽12 → 十二");
+            Check((string)canon.Invoke(null, new object[] { 20 }) == "自定义词书二十", "槽20 → 二十");
+        }
+        else
+        {
+            Console.WriteLine("SKIP Canonical 用例（测试工程不含 CustomSlotsMod.cs，只测模型）");
+        }
+
         Console.WriteLine("Failures: " + failures);
         return failures == 0 ? 0 : 1;
     }

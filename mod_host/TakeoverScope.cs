@@ -225,7 +225,7 @@ namespace WcpHost
         private void EnforceList(FieldRule rule, HashSet<string> allowed, ILearnedStats stats,
                                  PoolOrder order, bool canRebuild)
         {
-            object raw = GameAdapter.StaticField("MyParameters", rule.Name);
+            object raw = GameAdapter.StaticField(GameAdapter.ParametersType, rule.Name);
             IList<string> current = GameAdapter.ToWordList(raw);
             if (current == null || current.Count == 0) return;   // 游戏本来就让它空着: 不凭空造内容
 
@@ -254,13 +254,13 @@ namespace WcpHost
             if (Same(current, next)) return;
             if (!CaptureList(rule.Name, current)) return;
             object replacement = ListValueForField(raw, next);
-            if (!GameAdapter.SetStaticField("MyParameters", rule.Name, replacement)) return;
+            if (!GameAdapter.SetStaticField(GameAdapter.ParametersType, rule.Name, replacement)) return;
             GameAdapter.Es3Save(rule.Name, replacement);
         }
 
         private void EnforceArray(FieldRule rule, HashSet<string> allowed)
         {
-            object raw = GameAdapter.StaticField("MyParameters", rule.Name);
+            object raw = GameAdapter.StaticField(GameAdapter.ParametersType, rule.Name);
             string[] current = ToArray(raw);
             if (current == null || current.Length == 0) return;
             List<string> filtered = BookPool.FilterOnly(current, _bookWords);
@@ -268,7 +268,7 @@ namespace WcpHost
             if (Same(current, filtered)) return;
             if (!CaptureArray(rule.Name, current)) return;
             string[] value = filtered.ToArray();
-            if (!GameAdapter.SetStaticField("MyParameters", rule.Name, value)) return;
+            if (!GameAdapter.SetStaticField(GameAdapter.ParametersType, rule.Name, value)) return;
             GameAdapter.Es3Save(rule.Name, value);
         }
 
@@ -277,7 +277,7 @@ namespace WcpHost
         private void AlignTestQueue(HashSet<string> allowed)
         {
             if (!IsLearnedTest()) return;
-            object poolRaw = GameAdapter.StaticField("MyParameters", "allTestWordsS10_Para");
+            object poolRaw = GameAdapter.StaticField(GameAdapter.ParametersType, "allTestWordsS10_Para");
             List<string> pool = GameAdapter.ToWordList(poolRaw) as List<string>;
             if (pool == null)
             {
@@ -293,7 +293,7 @@ namespace WcpHost
             List<string> expected = new List<string>();
             for (int i = progress; i < pool.Count; i++) expected.Add(pool[i]);
 
-            object needRaw = GameAdapter.StaticField("MyParameters", "S8needToLearnWordList_Para");
+            object needRaw = GameAdapter.StaticField(GameAdapter.ParametersType, "S8needToLearnWordList_Para");
             IList<string> current = GameAdapter.ToWordList(needRaw);
             if (current == null || current.Count == 0 || current[0] != pool[progress] ||
                 !ContainsOnly(current, allowed))
@@ -301,7 +301,7 @@ namespace WcpHost
                 List<string> old = current == null ? new List<string>() : new List<string>(current);
                 if (!CaptureList("S8needToLearnWordList_Para", old)) return;
                 object replacement = ListValueForField(needRaw, expected);
-                if (!GameAdapter.SetStaticField("MyParameters", "S8needToLearnWordList_Para", replacement)) return;
+                if (!GameAdapter.SetStaticField(GameAdapter.ParametersType, "S8needToLearnWordList_Para", replacement)) return;
                 GameAdapter.Es3Save("S8needToLearnWordList_Para", replacement);
             }
         }
@@ -319,7 +319,7 @@ namespace WcpHost
 
         private int FightTarget(int fallback)
         {
-            object value = GameAdapter.StaticField("MyParameters", "S7FightWordMax");
+            object value = GameAdapter.StaticField(GameAdapter.ParametersType, "S7FightWordMax");
             int configured = value is int ? (int)value : 0;
             return configured > fallback ? configured : fallback;
         }
@@ -423,17 +423,17 @@ namespace WcpHost
 
         private bool RestoreList(string fieldName, List<string> value)
         {
-            object current = GameAdapter.StaticField("MyParameters", fieldName);
+            object current = GameAdapter.StaticField(GameAdapter.ParametersType, fieldName);
             object replacement;
             if (current is string[]) replacement = value.ToArray();
             else replacement = value;
-            if (!GameAdapter.SetStaticField("MyParameters", fieldName, replacement)) return false;
+            if (!GameAdapter.SetStaticField(GameAdapter.ParametersType, fieldName, replacement)) return false;
             return GameAdapter.Es3Save(fieldName, replacement);
         }
 
         private bool RestoreArray(string fieldName, string[] value)
         {
-            if (!GameAdapter.SetStaticField("MyParameters", fieldName,
+            if (!GameAdapter.SetStaticField(GameAdapter.ParametersType, fieldName,
                 (string[])value.Clone())) return false;
             return GameAdapter.Es3Save(fieldName, (string[])value.Clone());
         }
@@ -451,26 +451,26 @@ namespace WcpHost
 
         private bool IsLearnedTest()
         {
-            object mode = GameAdapter.StaticField("MyParameters", "S8ThisMode_Para");
+            object mode = GameAdapter.StaticField(GameAdapter.ParametersType, "S8ThisMode_Para");
             return string.Equals(mode as string, "已学词测试", StringComparison.Ordinal);
         }
 
         private void MarkNoTestIfUnsafe()
         {
             IList<string> pool = GameAdapter.ToWordList(
-                GameAdapter.StaticField("MyParameters", "allTestWordsS10_Para"));
+                GameAdapter.StaticField(GameAdapter.ParametersType, "allTestWordsS10_Para"));
             if (pool != null && pool.Count >= 5) return;
-            GameAdapter.SetStaticField("MyParameters", "S8Progress_Para", 0);
+            GameAdapter.SetStaticField(GameAdapter.ParametersType, "S8Progress_Para", 0);
             GameAdapter.Es3Save("S8Progress_Para", 0);
-            GameAdapter.SetStaticField("MyParameters", "testingIf_Para", false);
+            GameAdapter.SetStaticField(GameAdapter.ParametersType, "testingIf_Para", false);
             GameAdapter.Es3Save("testingIf_Para", false);
-            GameAdapter.SetStaticField("MyParameters", "testingIf_CompleteIf", true);
+            GameAdapter.SetStaticField(GameAdapter.ParametersType, "testingIf_CompleteIf", true);
             GameAdapter.Es3Save("testingIf_CompleteIf", true);
         }
 
         private int ReadInt(string fieldName, int fallback)
         {
-            object value = GameAdapter.StaticField("MyParameters", fieldName);
+            object value = GameAdapter.StaticField(GameAdapter.ParametersType, fieldName);
             if (value is int) return (int)value;
             return fallback;
         }
@@ -478,10 +478,10 @@ namespace WcpHost
         private PoolOrder ReadOrder()
         {
             PoolOrder order = new PoolOrder();
-            object mode = GameAdapter.StaticField("MyParameters", "testNegOrPos");
+            object mode = GameAdapter.StaticField(GameAdapter.ParametersType, "testNegOrPos");
             string text = mode as string;
             if (!string.IsNullOrEmpty(text)) order.Mode = text;
-            object priority = GameAdapter.StaticField("MyParameters", "testPriorityOn");
+            object priority = GameAdapter.StaticField(GameAdapter.ParametersType, "testPriorityOn");
             if (priority is bool) order.PriorityOn = (bool)priority;
             return order;
         }

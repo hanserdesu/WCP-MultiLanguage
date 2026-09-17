@@ -213,7 +213,7 @@ namespace WcpHost
             raw = SentenceAt(_s8, _f8, index);
             file = Resolve(raw);
             if (file != null) return file;
-            object rawSentences = GameAdapter.StaticField("MyParameters", "exaple_sentences");
+            object rawSentences = GameAdapter.StaticField(GameAdapter.ParametersType, "exaple_sentences");
             IList list = rawSentences as IList;
             if (list != null && index >= 0 && index < list.Count)
                 return Resolve(list[index] as string);

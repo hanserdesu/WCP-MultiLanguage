@@ -806,3 +806,28 @@ custom-slots 离线 harness 11/0 无回归。
    作者若改键名格式，补 ListKeyFormatCandidates/NameKeyFormatCandidates 一行即可。
    languages/ja 快照与主源已漂移（独立事项，未混入本次）。
 
+
+### 已收敛 P1-18 兼容层第二轮（三个残余写死簇 + 探针抓出一个引入 bug）
+
+1. Canonical/NativeCanonical 中文槽名生成化：
+   - 旧 switch 写死 1..4，**槽 5+ 会错写成"自定义词书四"并落进存档**（P1-17 加槽跟随
+     路径上的真 bug）。改为 CnDigits 生成器：1..9 直接映射、10..99 十位组合、>99 防呆
+     回"原生槽位N"。NativeCanonical 与 Canonical 合并为同一生成器。
+   - 离线探针（源码同文编译）12 用例全过：1/2/4/5/9/10/11/12/20/48/99/100。
+   - 探针首跑抓到第一版生成器 `<=10` 分支 CnDigits[10] 越界（IndexOutOfRange），
+     已修为 `<=9` + `>=10` 双分支后复跑全过 —— 这就是"源码同文探针"的价值。
+2. InvokeNoArg 失败可见化 + 缓存：
+   - 以前 GetMethod 找不到就静默 return（游戏改刷新方法名 → UI 不更新且无日志）。
+     现在找不到方法记警告（含类型名+方法名，唯一定位点），调用异常也记警告。
+   - (类型,方法) 解析结果缓存（含负缓存），Materialize 高频路径不再反复全量扫描。
+3. mod_host 类型名单点化：30 处裸 "MyParameters" 字符串收敛到
+   GameAdapter.ParametersType 常量（Host/HostRuntime/TakeoverScope/SentenceAudioService
+   全部替换；作者改类型名只改一处）。键名/字段名不动（那是字段候选表的职责）。
+4. GameCompat.FindTypeByName 加 Dictionary 缓存（负结果也缓存）——
+   StaticFieldExists 每槽每键都会走它，不缓存就是全程序集 GetTypes() × N。
+5. 回归：mod/mod_host 构建零 error（CS0618 为 SentenceAudioService 既有过期 API 警告，
+   与本次无关）；slot_rules 74/0；registry 全部通过；ownership ALL PASS；
+   takeover 0；word_audio 0；hub 89/0；payload 重建 71a1b2d9ff1ee26f。
+6. 说明：Canonical 用例在离线套件 SKIP（测试工程只编译模型），以源码同文探针为准；
+   探针脚本 _local/audit/_canon_probe.cs 保留，改生成器后重跑即可。
+

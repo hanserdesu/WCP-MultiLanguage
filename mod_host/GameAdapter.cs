@@ -17,6 +17,9 @@ namespace WcpHost
 {
     internal static class GameAdapter
     {
+        // 游戏参数类型名单点：作者改类型名（MyParameters → …）时只改这里。
+        // 30+ 个静态字段访问都引用此常量；类型缺失时各调用方按 fail-closed 降级。
+        internal const string ParametersType = "MyParameters";
         private static readonly Dictionary<string, FieldInfo> _fields =
             new Dictionary<string, FieldInfo>();
         private static readonly Dictionary<string, FieldInfo> _instanceFields =

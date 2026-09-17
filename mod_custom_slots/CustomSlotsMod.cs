@@ -1371,14 +1371,7 @@ namespace WcpCustomSlots
 
         private static string NativeCanonical(int nativeSlot)
         {
-            switch (nativeSlot)
-            {
-                case 1: return "自定义词书一";
-                case 2: return "自定义词书二";
-                case 3: return "自定义词书三";
-                case 4: return "自定义词书四";
-                default: return "原生槽位" + nativeSlot;
-            }
+            return Canonical(nativeSlot);   // 同一生成器（P1-18：槽 5+ 不再错写"四"）
         }
 
         private void Select(int index)
@@ -1791,15 +1784,23 @@ namespace WcpCustomSlots
             catch { return ""; }
         }
 
+        // 中文数字槽名：原生扩展到槽 5+ 时自动跟随（旧 switch 写死 1..4，
+        // 槽 5 会被错写成"自定义词书四"并落进存档 —— 2026-09-17 P1-18 修正）。
+        private static readonly string[] CnDigits =
+        {
+            "", "一", "二", "三", "四", "五", "六", "七", "八", "九"
+        };
+
         private static string Canonical(int nativeSlot)
         {
-            switch (nativeSlot)
+            if (nativeSlot >= 1 && nativeSlot <= 9) return "自定义词书" + CnDigits[nativeSlot];
+            if (nativeSlot >= 10 && nativeSlot <= 99)
             {
-                case 1: return "自定义词书一";
-                case 2: return "自定义词书二";
-                case 3: return "自定义词书三";
-                default: return "自定义词书四";
+                int tens = nativeSlot / 10, ones = nativeSlot % 10;
+                return "自定义词书" + (tens > 1 ? CnDigits[tens] : "") + "十" +
+                       (ones > 0 ? CnDigits[ones] : "");
             }
+            return "原生槽位" + nativeSlot;   // 防呆：>99 不可能，绝不猜
         }
 
         // 通过兼容层写游戏静态字段（不绑 MyParameters 类型名，游戏改名也走这里）。
@@ -1808,12 +1809,38 @@ namespace WcpCustomSlots
             GameCompat.SetStaticField(name, value);
         }
 
+        // 反射调用缓存：同一 (类型, 方法) 只解析一次；失败也缓存（负缓存），
+        // 否则 Materialize 每次选择都要全量 GetMethods 扫描。找不到方法时记一条
+        // 警告 —— 游戏改刷新方法名后，这里就是唯一定位点（以前是静默跳过）。
+        private static readonly Dictionary<RuntimeTypeHandle, Dictionary<string, MethodInfo>>
+            _invokeCache = new Dictionary<RuntimeTypeHandle, Dictionary<string, MethodInfo>>();
+
         private static void InvokeNoArg(object instance, string method)
         {
-            if (instance == null) return;
-            MethodInfo m = instance.GetType().GetMethod(method,
-                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
-            if (m != null && m.GetParameters().Length == 0) m.Invoke(instance, null);
+            if (instance == null || string.IsNullOrEmpty(method)) return;
+            Type type = instance.GetType();
+            Dictionary<string, MethodInfo> byName;
+            if (!_invokeCache.TryGetValue(type.TypeHandle, out byName))
+            {
+                byName = new Dictionary<string, MethodInfo>();
+                _invokeCache[type.TypeHandle] = byName;
+            }
+            MethodInfo m;
+            if (!byName.TryGetValue(method, out m))
+            {
+                m = type.GetMethod(method,
+                    BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                if (m != null && m.GetParameters().Length != 0) m = null;
+                byName[method] = m;   // null 也缓存（负缓存）
+                if (m == null)
+                    Log.LogWarning("CustomSlots: 刷新方法未找到（游戏更新导致？本项刷新跳过，其余不受影响）: " +
+                        type.Name + "." + method);
+            }
+            if (m != null)
+            {
+                try { m.Invoke(instance, null); }
+                catch (Exception e) { Log.LogWarning("CustomSlots: 调用 " + type.Name + "." + method + " 失败: " + e.Message); }
+            }
         }
 
         private static Canvas FindCanvas()

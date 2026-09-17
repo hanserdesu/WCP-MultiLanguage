@@ -429,7 +429,7 @@ namespace WcpHost
                 if (rebuilt != null && !SameWords(list, rebuilt))
                 {
                     list = rebuilt;
-                    GameAdapter.SetStaticField("MyParameters", "S7TestWordList_Para", rebuilt);
+                    GameAdapter.SetStaticField(GameAdapter.ParametersType, "S7TestWordList_Para", rebuilt);
                     GameAdapter.Es3Save("S7TestWordList_Para", rebuilt);
                 }
                 // 受管词书下补池一律由宿主负责: 即使本次没有变化，也不能让游戏
@@ -453,15 +453,15 @@ namespace WcpHost
             try
             {
                 IList<string> pool = GameAdapter.ToWordList(
-                    GameAdapter.StaticField("MyParameters", "S7TestWordList_Para"));
+                    GameAdapter.StaticField(GameAdapter.ParametersType, "S7TestWordList_Para"));
                 if (pool == null || pool.Count == 0) return;
                 IList<string> withInfo = GameAdapter.ToWordList(
-                    GameAdapter.StaticField("MyParameters", "S7TestWordList_WithInfo"));
+                    GameAdapter.StaticField(GameAdapter.ParametersType, "S7TestWordList_WithInfo"));
                 if (withInfo != null && withInfo.Count == pool.Count) return;
 
                 List<string> rebuilt = new List<string>(pool.Count);
                 for (int i = 0; i < pool.Count; i++) rebuilt.Add(pool[i] + "##0");
-                GameAdapter.SetStaticField("MyParameters", "S7TestWordList_WithInfo", rebuilt);
+                GameAdapter.SetStaticField(GameAdapter.ParametersType, "S7TestWordList_WithInfo", rebuilt);
                 GameAdapter.SetInstanceField(instance, "maxPage", (pool.Count + 11) / 12);
                 InvokeNoArg(instance, "ShowWordList");
             }
@@ -604,14 +604,14 @@ namespace WcpHost
 
         private string StaticString(string field)
         {
-            object value = GameAdapter.StaticField("MyParameters", field);
+            object value = GameAdapter.StaticField(GameAdapter.ParametersType, field);
             return value as string;
         }
 
         private string CurrentFightWord()
         {
             IList<string> values = GameAdapter.ToWordList(
-                GameAdapter.StaticField("MyParameters", "S7TestWordList_Para"));
+                GameAdapter.StaticField(GameAdapter.ParametersType, "S7TestWordList_Para"));
             int index = StaticInt("S7Progress_Para");
             return At(values, index);
         }
@@ -619,14 +619,14 @@ namespace WcpHost
         private string CurrentTestWord()
         {
             IList<string> values = GameAdapter.ToWordList(
-                GameAdapter.StaticField("MyParameters", "allTestWordsS10_Para"));
+                GameAdapter.StaticField(GameAdapter.ParametersType, "allTestWordsS10_Para"));
             int index = StaticInt("S8Progress_Para");
             return At(values, index);
         }
 
         private int StaticInt(string field)
         {
-            object value = GameAdapter.StaticField("MyParameters", field);
+            object value = GameAdapter.StaticField(GameAdapter.ParametersType, field);
             return value is int ? (int)value : 0;
         }
 

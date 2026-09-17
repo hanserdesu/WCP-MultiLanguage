@@ -691,8 +691,17 @@ namespace WcpCustomSlots
             return null;
         }
 
+        // 类型查找缓存：StaticFieldExists 每槽每键都会问一次，不缓存就是
+        // 全程序集 GetTypes() 扫描 ×N（探测循环里最贵的一条）。负结果也缓存。
+        private static readonly Dictionary<string, Type> _typeByNameCache =
+            new Dictionary<string, Type>(StringComparer.Ordinal);
+
         internal static Type FindTypeByName(string name)
         {
+            if (string.IsNullOrEmpty(name)) return null;
+            Type cached;
+            if (_typeByNameCache.TryGetValue(name, out cached)) return cached;
+            Type found = null;
             try
             {
                 foreach (Assembly asm in AppDomain.CurrentDomain.GetAssemblies())
@@ -701,11 +710,13 @@ namespace WcpCustomSlots
                     try { types = asm.GetTypes(); }
                     catch (Exception) { continue; }
                     foreach (Type t in types)
-                        if (t != null && t.Name == name) return t;
+                        if (t != null && t.Name == name) { found = t; break; }
+                    if (found != null) break;
                 }
             }
             catch (Exception) { }
-            return null;
+            _typeByNameCache[name] = found;
+            return found;
         }
 
         // ── ES3 存档读写（Easy Save 3）：反射调用，避免编译期绑定 ──

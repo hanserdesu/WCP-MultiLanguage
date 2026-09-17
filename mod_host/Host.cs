@@ -256,8 +256,8 @@ namespace WcpHost
         // 任一环节读不到或对不上 → 返回"未激活"。这条门是从现有插件的 fail-closed 门搬来的。
         private string Evaluate()
         {
-            object rawList = GameAdapter.StaticField("MyParameters", "ChosenBook_List");
-            string memName = GameAdapter.StaticField("MyParameters", "ChosenBook_Para") as string;
+            object rawList = GameAdapter.StaticField(GameAdapter.ParametersType, "ChosenBook_List");
+            string memName = GameAdapter.StaticField(GameAdapter.ParametersType, "ChosenBook_Para") as string;
             IList<string> words = GameAdapter.ToWordList(rawList);
             string diskName = GameAdapter.DiskBookName();
 
