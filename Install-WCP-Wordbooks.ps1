@@ -473,7 +473,7 @@ if ($selfVersion -and -not $Offline -and -not $Plan -and -not $List) {
             $answer = Read-Host '输入 y 确认更新，其他键跳过（默认跳过）'
             if ($answer -match '^[Yy]') {
                 $core = $indexObj.core_installer
-                $coreTmp = Join-Path $data ('installer_update_' + [guid]::NewGuid().ToString('N') + '.zip')
+                $coreTmp = Join-Path (Get-HubWorkPath 'dl') ('installer_update_' + [guid]::NewGuid().ToString('N') + '.zip')
                 try {
                     Invoke-HubDownload $core.url $coreTmp
                     $actualCoreSha = Get-Sha256Hex $coreTmp
@@ -481,7 +481,7 @@ if ($selfVersion -and -not $Offline -and -not $Plan -and -not $List) {
                         throw ('SHA-256 校验失败（实际 ' + $actualCoreSha + '）')
                     }
                     # 解到全新临时目录、校验通过后再切换；任何一步失败都留在当前版本继续装（fail-safe）。
-                    $newPkgDir = Join-Path $data ('installer_update_' + [guid]::NewGuid().ToString('N'))
+                    $newPkgDir = Join-Path (Get-HubWorkPath 'dl') ('installer_update_' + [guid]::NewGuid().ToString('N'))
                     Expand-HubZip $coreTmp $newPkgDir
                     $newScript = Get-ChildItem -LiteralPath $newPkgDir -Recurse -Filter 'Install-WCP-Wordbooks.ps1' |
                         Select-Object -First 1
@@ -507,6 +507,111 @@ if ($selfVersion -and -not $Offline -and -not $Plan -and -not $List) {
         Write-Host '自更新检查异常（不影响本次安装）。' -ForegroundColor DarkGray
     }
 }
+
+# ---------- 工作目录卫生（学习 ja 实战经验，全部失败不阻断） ----------
+# 下载临时文件（hub_dl_*，zip 可达数百 MB）与解压残留绝不能留在
+# LocalLow\WCP\wcp 内：Steam 对该游戏的云同步范围是整个 wcp 目录，
+# 这些没有同步价值的大文件会撑爆云同步配额，导致 MyBook.es3 等关键
+# 存档永远排不进同步队列（ja 2026-09-16 实测 53 万文件/约 15GB 长期
+# 「无法同步」）。工作目录与 packs 同级，不在云同步范围内。
+$hubWorkRoot = Join-Path $wcpRoot 'wcp_hub_work'
+New-Item -ItemType Directory -Force -Path $hubWorkRoot | Out-Null
+
+function Get-HubWorkPath([string]$kind) {
+    # kind: 'dl'（下载临时）| 'backup'（旧包备份）。返回该类工作路径；
+    # 历史遗留的 wcp 内旧位置由 Move-LegacyHubWork 搬出。
+    if ($kind -eq 'dl') { return (Join-Path $hubWorkRoot 'downloads') }
+    if ($kind -eq 'backup') { return (Join-Path $hubWorkRoot 'backups') }
+    return $hubWorkRoot
+}
+
+function Move-LegacyHubWork {
+    # 旧版本安装器把 hub_dl_* 和备份直接写进 wcp（云同步范围）。一次性
+    # 搬到新工作根：同盘 Move 是瞬间重命名；目标已存在的项跳过；任何
+    # 失败只提示（旧文件留在原地只是多占点磁盘，不影响安装）。
+    foreach ($pair in @(@('hub_dl_*', 'downloads'), @('hub_backup_*', 'backups'))) {
+        $legacy = @(Get-ChildItem -LiteralPath $data -Filter $pair[0] -Force -ErrorAction SilentlyContinue)
+        if ($legacy.Count -eq 0) { continue }
+        $targetDir = Get-HubWorkPath $pair[1]
+        New-Item -ItemType Directory -Force -Path $targetDir | Out-Null
+        $moved = 0
+        foreach ($item in $legacy) {
+            $target = Join-Path $targetDir $item.Name
+            if (Test-Path -LiteralPath $target) { continue }
+            try {
+                Move-Item -LiteralPath $item.FullName -Destination $target -Force -ErrorAction Stop
+                $moved++
+            } catch { }
+        }
+        if ($moved -gt 0) {
+            Write-Host ("已把 {0} 项移出 Steam 云同步范围：{1}" -f $moved, $targetDir) -ForegroundColor DarkGray
+        }
+    }
+}
+
+function Remove-HubStaleWork {
+    # 清理上次安装的残留下载临时目录/文件（正常流程结束时已自删，这里兜底
+    # 处理中断留下的），并只保留最近 3 份旧包备份。所有删除都允许失败。
+    $freed = [int64]0
+    $dlDir = Get-HubWorkPath 'dl'
+    if (Test-Path -LiteralPath $dlDir) {
+        foreach ($f in @(Get-ChildItem -LiteralPath $dlDir -Recurse -Force -ErrorAction SilentlyContinue)) {
+            $size = if (-not $f.PSIsContainer) { $f.Length } else { 0 }
+            try { Remove-Item -LiteralPath $f.FullName -Recurse -Force -ErrorAction Stop; $freed += $size } catch { }
+        }
+    }
+    $backupDir = Get-HubWorkPath 'backup'
+    if (Test-Path -LiteralPath $backupDir) {
+        $stale = @(Get-ChildItem -LiteralPath $backupDir -Directory -ErrorAction SilentlyContinue |
+            Sort-Object Name -Descending | Select-Object -Skip 3)
+        foreach ($s in $stale) {
+            $size = 0
+            try {
+                $size = [int64]((Get-ChildItem -LiteralPath $s.FullName -Recurse -File -ErrorAction SilentlyContinue |
+                    Measure-Object Length -Sum).Sum)
+            } catch { }
+            try { Remove-Item -LiteralPath $s.FullName -Recurse -Force -ErrorAction Stop; $freed += $size } catch { }
+        }
+    }
+    if ($freed -gt 1MB) {
+        Write-Host ("已清理安装工作残留，释放约 {0:N0} MB。" -f ($freed / 1MB)) -ForegroundColor DarkGray
+    }
+}
+
+function Backup-HubPack([string]$packDir, [string]$backupRoot, [string]$langId) {
+    # 覆盖前备份旧语言包，跳过 audio 子树：音频体积大（每语 1~2 GB）且每次
+    # 更新都全量重新下载，旧音频备份毫无回滚价值，只会把备份目录撑爆。
+    # 失败只提示，绝不阻断本次安装（备份只是回滚保险，不是必经路径）。
+    if (-not (Test-Path -LiteralPath $packDir)) { return }
+    try {
+        $stamp = Get-Date -Format 'yyyyMMdd_HHmmss'
+        $target = Join-Path $backupRoot ("{0}_{1}" -f $stamp, $langId)
+        New-Item -ItemType Directory -Force -Path $target | Out-Null
+        foreach ($item in @([IO.Directory]::EnumerateFileSystemEntries($packDir))) {
+            $name = [IO.Path]::GetFileName($item)
+            if ($name -ieq 'audio') { continue }
+            $dst = Join-Path $target $name
+            if ([IO.Directory]::Exists($item)) {
+                [IO.Directory]::CreateDirectory($dst) | Out-Null
+                foreach ($f in [IO.Directory]::EnumerateFiles($item, '*', [IO.SearchOption]::AllDirectories)) {
+                    $rel = $f.Substring($item.Length).TrimStart('\', '/')
+                    $dstF = Join-Path $dst $rel
+                    $dstParent = Split-Path -Parent $dstF
+                    if (-not [string]::IsNullOrEmpty($dstParent)) { [IO.Directory]::CreateDirectory($dstParent) | Out-Null }
+                    [IO.File]::Copy($f, $dstF, $true)
+                }
+            } else {
+                [IO.File]::Copy($item, $dst, $true)
+            }
+        }
+        Write-Host ('  已备份旧包（不含音频）→ ' + $target) -ForegroundColor DarkGray
+    } catch {
+        Write-Host ('  旧包备份失败（不影响本次安装）：' + $_.Exception.Message) -ForegroundColor DarkYellow
+    }
+}
+
+Move-LegacyHubWork
+Remove-HubStaleWork
 
 # ---------- main ----------
 if ($List) { Show-Catalog; exit 0 }
@@ -634,7 +739,7 @@ function Install-HubMods([string]$gameRoot, $Catalog, $HubState) {
     $files = [pscustomobject]@{}
     foreach ($a in $pending) {
         Write-Host ('  mod: {0} ({1} MB)' -f $a.name, [math]::Round($a.size / 1MB, 1))
-        $tmp = Join-Path $data ('hub_dl_' + [guid]::NewGuid().ToString('N'))
+        $tmp = Join-Path (Get-HubWorkPath 'dl') ('hub_dl_' + [guid]::NewGuid().ToString('N'))
         try {
             $request = [Net.HttpWebRequest]::Create($a.url)
             $request.Method = 'GET'
@@ -694,6 +799,10 @@ foreach ($wb in $selection) {
     if ($changed.Count -eq 0 -and (Test-WordbookInstalledFully -Wordbook $wb -InstalledState $installed)) {
         Write-Host ('  {0}: 已是最新，跳过' -f $wb.id); continue
     }
+    # 有内容要覆盖前先备份旧包（跳过 audio，见 Backup-HubPack；失败不阻断）。
+    if ((Test-Path -LiteralPath $packRoot) -and $changed.Count -gt 0) {
+        Backup-HubPack -packDir $packRoot -backupRoot (Get-HubWorkPath 'backup') -langId ([string]$wb.language)
+    }
     if (-not (Test-Path -LiteralPath $ns)) { New-Item -ItemType Directory -Path $ns -Force | Out-Null }
 
     $files = if ($Update) { $changed } else { @($wb.assets) }
@@ -701,7 +810,7 @@ foreach ($wb in $selection) {
     foreach ($asset in $files) {
         $done++
         Write-Host ('  [{0}/{1}] {2}: {3}' -f $done, $totalAssets, $wb.id, $asset.name)
-        $tmp = Join-Path $data ('hub_dl_' + [guid]::NewGuid().ToString('N'))
+        $tmp = Join-Path (Get-HubWorkPath 'dl') ('hub_dl_' + [guid]::NewGuid().ToString('N'))
         try {
             $request = [Net.HttpWebRequest]::Create($asset.url)
             $request.Method = 'GET'

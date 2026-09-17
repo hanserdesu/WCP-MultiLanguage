@@ -139,6 +139,15 @@ Check '自更新失败不阻断安装' ($installerText -match '自更新检查�
 Check 'run-installer 注入版本号' ((Test-Path -LiteralPath (Join-Path $here '..\run-installer.ps1')) -and
     ((Get-Content -LiteralPath (Join-Path $here '..\run-installer.ps1') -Raw -Encoding UTF8) -match '\$env:WCP_INSTALLER_VERSION = \$InstallerVersion'))
 
+# 工作目录卫生契约（学习 ja 云同步实测教训）：下载临时与备份必须放在
+# wcp 云同步范围之外；备份跳过 audio；备份只留最近 3 份；清理失败不阻断。
+Check '下载临时文件写到云同步范围外的工作根' ($installerText -match "Join-Path \(Get-HubWorkPath 'dl'\)") -and
+    (-not ($installerText -match '\$tmp = Join-Path \$data \(''hub_dl_'))
+Check '工作根位于 wcp 目录同级（不入 Steam 云同步）' ($installerText -match "wcp_hub_work")
+Check '旧包备份跳过 audio 子树' ($installerText -match 'if \(\$name -ieq ''audio''\) \{ continue \}')
+Check '旧备份只保留最近 3 份' ($installerText -match 'Sort-Object Name -Descending \| Select-Object -Skip 3')
+Check '备份/清理失败不阻断安装' ($installerText -match '旧包备份失败（不影响本次安装）')
+
 # 编码守卫: 脚本含非 ASCII 时必须带 UTF-8 BOM，否则 Windows PowerShell 5.1
 # 会按 ANSI 解码，静默把代码行吞进注释/字符串里（本仓库已因此吃过两次亏）。
 foreach ($rel in @('..\Install-WCP-Wordbooks.ps1', '..\WordbookHub.psm1', '.\test_hub.ps1')) {
