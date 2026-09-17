@@ -64,6 +64,172 @@ namespace WcpBookName
         }
     }
 
+    // ── 选项 B（2026-09-18）：只在「自定义」分类页美化书名 ─────────────────
+    // 背景（已实机核对）：游戏把自定义槽 4 渲染进每个官方分类页 Son 列表尾部，
+    // 出厂态那行显示「自定义词书四」（游戏原生行为）；BookNameMod 把它美化成
+    // 「德语词库(猫条版)」后，四级页/考研页…都顶着这个名字 → 用户报的违和。
+    //
+    // 页签判据：WordChooseButtonS10.clickNum 就是当前 Father(分类) 索引 ——
+    // 反编译 case 20 = 自定义（OnBookButtonClicked(num) 末尾 clickNum = num;）。
+    // 兜底/校准：游戏在自定义页写的行带全角括注「自定义词书N（SelfBookNameN）」，
+    // 看到这种原生行就说明当前分类是自定义页 → 顺手把索引记准（游戏改类别顺序
+    // 也能自适应）。判据全不可用时一律按「不是自定义页」处理 = 显示游戏原生名：
+    // fail-safe，绝不会把规范名写进美化名位置造成跨页错乱。
+    internal static class LabelPageGate
+    {
+        internal const int CustomCategoryDefault = 20;
+
+        // canon[i] = 槽 i+1 的规范名；cosmetic = 本项目各语言包的显示名
+        internal static int SlotFromCanon(string s, IList<string> canon)
+        {
+            if (string.IsNullOrEmpty(s) || canon == null) return 0;
+            for (int i = 0; i < canon.Count; i++)
+            {
+                if (string.IsNullOrEmpty(canon[i])) continue;
+                if (s.StartsWith(canon[i], StringComparison.Ordinal)) return i + 1;
+            }
+            return 0;
+        }
+
+        internal static bool IsCustomSlotLabel(string s, IList<string> canon,
+                                               IList<string> cosmetic)
+        {
+            if (string.IsNullOrEmpty(s)) return false;
+            if (SlotFromCanon(s, canon) > 0) return true;
+            for (int i = 0; cosmetic != null && i < cosmetic.Count; i++)
+                if (!string.IsNullOrEmpty(cosmetic[i]) &&
+                    s.StartsWith(cosmetic[i], StringComparison.Ordinal)) return true;
+            return false;
+        }
+
+        internal static string CanonicalAt(IList<string> canon, int slot)
+        {
+            if (canon == null || slot < 1 || slot > canon.Count) return null;
+            return canon[slot - 1];
+        }
+
+        // 游戏原生「自定义页」行格式：自定义词书N（SelfBookNameN）
+        internal static bool HasWrapperMark(string s)
+        {
+            return !string.IsNullOrEmpty(s) && s.IndexOf('（') >= 0;
+        }
+
+        internal static bool WrappedCustomRow(IList<string> texts, IList<bool> visible,
+                                              IList<string> canon, IList<string> cosmetic)
+        {
+            if (texts == null) return false;
+            for (int i = 0; i < texts.Count; i++)
+            {
+                if (visible != null && i < visible.Count && !visible[i]) continue;
+                if (!HasWrapperMark(texts[i])) continue;
+                if (IsCustomSlotLabel(texts[i], canon, cosmetic)) return true;
+            }
+            return false;
+        }
+
+        // 该行应当显示什么；null = 不动（与自定义槽无关的文字一律不碰）
+        internal static string TargetRowText(string current, int slot, string desired,
+                                             bool onCustomPage, IList<string> canon,
+                                             IList<string> cosmetic)
+        {
+            if (slot < 1 || string.IsNullOrEmpty(current)) return null;
+            if (!IsCustomSlotLabel(current, canon, cosmetic)) return null;
+            string target = onCustomPage ? desired : CanonicalAt(canon, slot);
+            if (string.IsNullOrEmpty(target) || target == current) return null;
+            return target;
+        }
+    }
+
+    // Unity 侧：页签判定 + 选书页行枚举
+    internal static class LabelGate
+    {
+        internal static string[] Canon() { return Names.Canon; }
+
+        internal static string[] Cosmetic()
+        {
+            var list = new List<string>();
+            for (int i = 0; i < BookProfiles.All.Length; i++)
+                list.Add(BookProfiles.All[i].DisplayName);
+            return list.ToArray();
+        }
+
+        // 场景里可见的那个选书页实例（同一组件可能有多份实例挂在不同 Canvas 上）
+        internal static WordChooseButtonS10 VisibleChooser()
+        {
+            try
+            {
+                var all = Resources.FindObjectsOfTypeAll(typeof(WordChooseButtonS10));
+                for (int i = 0; i < all.Length; i++)
+                {
+                    var c = all[i] as WordChooseButtonS10;
+                    if (c == null || c.BookNameText == null) continue;
+                    if (c.gameObject != null && c.gameObject.activeInHierarchy) return c;
+                }
+            }
+            catch (Exception) { }
+            return null;
+        }
+
+        internal static bool IsRow(WordChooseButtonS10 inst, TMP_Text row)
+        {
+            if (inst == null || inst.BookNameText == null || row == null) return false;
+            for (int i = 0; i < inst.BookNameText.Length; i++)
+                if (inst.BookNameText[i] == row) return true;
+            return false;
+        }
+
+        // 游戏自己存的当前 Father(分类) 索引；读不到返回 -1
+        internal static int CurrentCategory(WordChooseButtonS10 inst)
+        {
+            if (inst == null) return -1;
+            try
+            {
+                var fi = AccessTools.Field(typeof(WordChooseButtonS10), "clickNum");
+                if (fi == null) return -1;
+                object raw = fi.GetValue(inst);
+                return raw == null ? -1 : Convert.ToInt32(raw);
+            }
+            catch (Exception) { return -1; }
+        }
+
+        private static int _customCategory = LabelPageGate.CustomCategoryDefault;
+
+        internal static int CustomCategory { get { return _customCategory; } }
+
+        // 当前是不是「自定义」分类页。fail-safe：判据缺失 → false（显示原生名）
+        internal static bool OnCustomPage(WordChooseButtonS10 inst)
+        {
+            try
+            {
+                if (inst == null || inst.BookNameText == null) return false;
+                var canon = Canon();
+                var cosmetic = Cosmetic();
+                var texts = new List<string>();
+                var visible = new List<bool>();
+                for (int i = 0; i < inst.BookNameText.Length; i++)
+                {
+                    var t = inst.BookNameText[i];
+                    texts.Add(t == null ? null : t.text);
+                    visible.Add(t != null && t.gameObject != null &&
+                                t.gameObject.activeInHierarchy);
+                }
+                bool wrapped = LabelPageGate.WrappedCustomRow(texts, visible, canon, cosmetic);
+                int cur = CurrentCategory(inst);
+                if (cur < 0) return wrapped;
+                // 原生括注行 = 此刻就在自定义页 → 校准索引
+                if (wrapped && cur != _customCategory)
+                {
+                    _customCategory = cur;
+                    if (BookNamePlugin.Log != null)
+                        BookNamePlugin.Log.LogInfo(
+                            "BookName: 自定义分类索引 = " + cur + "（来自原生括注行）");
+                }
+                return cur == _customCategory;
+            }
+            catch (Exception) { return false; }
+        }
+    }
+
     // 让 SonBookChoose 读到的仍是游戏认识的书名
     [HarmonyPatch(typeof(WordChooseButtonS10), "SonBookChoose")]
     internal static class SonBookChoosePatch
@@ -91,7 +257,10 @@ namespace WcpBookName
                 if (string.IsNullOrEmpty(s)) return;
                 var n = toCanonical
                     ? Names.ToCanonical(s, num)
-                    : BookNamePlugin.ToCosmeticIfManaged(s);
+                    : (LabelGate.OnCustomPage(inst)
+                        ? BookNamePlugin.ToCosmeticIfManaged(s)
+                        : LabelPageGate.TargetRowText(s, num + 1, null, false,
+                              Names.Canon, LabelGate.Cosmetic()));
                 if (string.IsNullOrEmpty(n) || n == s) return;
                 label.text = n;
             }
@@ -103,7 +272,7 @@ namespace WcpBookName
         }
     }
 
-    [BepInPlugin("dev.hanserdesu.bookname", "WCP Book Name", "1.3.0")]
+    [BepInPlugin("dev.hanserdesu.bookname", "WCP Book Name", "1.3.1")]
     public class BookNamePlugin : BaseUnityPlugin
     {
         internal static ManualLogSource Log;
@@ -361,6 +530,11 @@ namespace WcpBookName
             // 负责还原。Legacy/YieldToHost=false 强制旧模式时不受影响。
             if (isManaged && HostTakesOver())
                 return;
+            // 选项 B（2026-09-18）：行按分类页定显示名 —— 自定义分类页才美化；
+            // 官方分类页尾部那行（槽 4 原生显示「自定义词书四」）保持游戏原生名。
+            // 判据 = 游戏自己的 clickNum，见 LabelGate.OnCustomPage。
+            var chooser = LabelGate.VisibleChooser();
+            bool onCustomPage = LabelGate.OnCustomPage(chooser);
             string vLabel = isManaged ? VoiceLabelFor(managedBook) : null;
             if (_lastVoiceLabel != vLabel) RestoreWordSide();
             _lastVoiceLabel = vLabel;
@@ -375,6 +549,18 @@ namespace WcpBookName
                 if (s.IndexOf("自定义词书", StringComparison.Ordinal) >= 0)
                 {
                     if (!_patched && Names.LooksLikeSlotLabel(s)) continue;
+                    if (!onCustomPage && LabelGate.IsRow(chooser, t))
+                    {
+                        // 官方分类页：这行是自定义槽 → 保持/还原游戏原生名
+                        var page = LabelPageGate.TargetRowText(s, SlotOfRowText(t, s),
+                            null, false, Names.Canon, LabelGate.Cosmetic());
+                        if (page != null && page != s)
+                        {
+                            t.text = page;
+                            Log.LogInfo("BookName(分类页): " + s + " -> " + page);
+                        }
+                        continue;
+                    }
                     var n = ToCosmeticIfManaged(s);
                     if (n == s) continue;
                     t.text = n;
@@ -395,6 +581,8 @@ namespace WcpBookName
                     Log.LogInfo("Label: " + s + " -> " + vLabel);
                 }
             }
+            // 选项 B：离开自定义分类页后，把已经美化的选书页行还原成游戏原生名
+            RestoreRowNamesOffCustomPage(chooser);
             if (isManaged)
             {
                 if (_singleJp.Value) EnforceSingleWordJp();
@@ -408,6 +596,48 @@ namespace WcpBookName
 
         // 离开日语词书(切到英语词书)时, 把我们改过的东西还原,
         // 避免影响其它词书里 UK/US 本身的含义。
+        // 选项 B（2026-09-18）：当前不在自定义分类页时，把选书页里已经被美化的
+        // 行还原成游戏原生名（官方分类页尾部那行原生显示「自定义词书四」）。
+        // 只碰选书页的行，且只碰确实是自定义槽的行 —— 其余文字一律不动。
+        private void RestoreRowNamesOffCustomPage(WordChooseButtonS10 chooser)
+        {
+            if (chooser == null || chooser.BookNameText == null) return;
+            if (LabelGate.OnCustomPage(chooser)) return;
+            for (int i = 0; i < chooser.BookNameText.Length; i++)
+            {
+                var row = chooser.BookNameText[i];
+                if (row == null) continue;
+                string s = row.text;
+                if (string.IsNullOrEmpty(s)) continue;
+                string n = LabelPageGate.TargetRowText(s, SlotOfRowText(row, s), null,
+                    false, Names.Canon, LabelGate.Cosmetic());
+                if (n == null || n == s) continue;
+                row.text = n;
+                Log.LogInfo("BookName(分类页): " + s + " -> " + n);
+            }
+        }
+
+        // 这一行对应哪个槽（1 起）。先看规范名前缀；再看美化名（词表指纹认槽，
+        // SlotProfile 有 5s 缓存）；都认不出就按行下标（游戏自定义页 BookNameText[i]
+        // = 槽 i+1）。0 = 认不出 —— 调用方不动这一行。
+        private int SlotOfRowText(TMP_Text row, string text)
+        {
+            int slot = Names.SlotOfCanonicalText(text) + 1;
+            if (slot > 0) return slot;
+            if (!BookProfiles.IsManagedDisplayName(text)) return 0;
+            for (int i = 0; i < BookProfiles.All.Length; i++)
+            {
+                BookProfile p = SlotProfile(i);
+                if (p == null || string.IsNullOrEmpty(p.DisplayName)) continue;
+                if (text.StartsWith(p.DisplayName, StringComparison.Ordinal)) return i + 1;
+            }
+            var inst = LabelGate.VisibleChooser();
+            if (inst != null && inst.BookNameText != null)
+                for (int i = 0; i < inst.BookNameText.Length; i++)
+                    if (inst.BookNameText[i] == row && i < Names.Canon.Length) return i + 1;
+            return 0;
+        }
+
         private void RestoreWordSide()
         {
             RestoreLabels();
