@@ -4,7 +4,7 @@
 学习 Japanese 一键包（build_installer_payload.py + normalize_installer_eol.py）的
 发布经验：
   1. 打包集合 = Install-WCP-Wordbooks.ps1 + run-installer.ps1 + WordbookHub.psm1
-     + catalog.json + 一键启动 cmd；
+     + catalog.json + 许可说明.txt + 一键启动 cmd；
   2. .ps1/.cmd 统一 CRLF（PowerShell 进度块与 cmd 对 LF 敏感）；
   3. 产物 zip 的 sha256/size 写进 release-index.json（自更新索引），与安装包
      一起上传到 mods release；
@@ -28,6 +28,7 @@ FILES = [
     "run-installer.ps1",
     "WordbookHub.psm1",
     "catalog.json",
+    "许可说明.txt",
 ]
 REPO = "hanserdesu/WCP-MultiLanguage"
 

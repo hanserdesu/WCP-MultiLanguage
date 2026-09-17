@@ -35,20 +35,25 @@ Required Notice: Copyright (c) 2026 hanserdesu（猫条）
 | ja | 汉字音训读：kanjidic2（EDRDG） | EDRDG 官方为 CC BY-SA 3.0，本仓库脚本内标注为 4.0 | `languages/ja/wcp_wordbooks/tools/build_kanji_book.py` |
 | fr | 音标：Lexique 3.83（lexique.org）的 phon 记号转为 IPA | CC BY-SA（脚本注释记为 CC-BY，早期版本以 CC BY 发布） | `languages/fr/tools/prepare_lemmas.py` |
 | ru | 重音：kaikki.org（Wiktionary wiktextract）；词频排序：hermitdave/FrequencyWords（OpenSubtitles 2018） | kaikki 与 Wiktionary 为 CC BY-SA 与 GFDL 双许可；FrequencyWords 内容为 CC BY-SA 4.0 | `languages/ru/tools/enrich_stress.py`、`languages/ru/tools/prepare_lemmas_ru.py` |
-| de | 词频候选：OpenSubtitles de_50k（FrequencyWords） | CC BY-SA 4.0 | `languages/de/tools/prepare_candidates.py` |
+| de | 词频候选：OpenSubtitles de_50k（FrequencyWords）；候选过滤：ECDICT | CC BY-SA 4.0；ECDICT 为 MIT | `languages/de/tools/prepare_candidates.py`、`languages/de/tools/extract_b1_b2_candidates.py` |
 | es | 音标：kaikki-es；词频：OpenSubtitles es_50k | 同 ru | `languages/es/tools/build_dataset_es.py` |
 | pt | 音标：kaikki-pt；词频：OpenSubtitles pt_50k | 同 ru | `languages/pt/tools/fill_ipa_kaikki_pt.py` |
 | ko | 词表：TOPIK 词表加 kaikki 补充词形 | kaikki 部分同 ru | `languages/ko/tools/build_ko_v2.py` |
-| ar | 词表：FreeDict ara_eng；词频：OpenSubtitles ar_50k | 待核实 | `languages/ar/tools/build_tem_arabic_dataset.py` |
+| ar | 词表：FreeDict ara_eng（构建期）；词频：OpenSubtitles ar_50k；中文释义对齐：ECDICT | FreeDict ara_eng 为 GPL-2.0-or-later；FrequencyWords 为 CC BY-SA 4.0；ECDICT 为 MIT | `languages/ar/tools/build_tem_arabic_dataset.py` |
 | yue | 未使用第三方词典数据集，选词与粤拼为自建 | 不适用 | `languages/yue/data/cantonese_*.json` |
 
 上游位置：Lexique 见 lexique.org；Wiktionary 数据提取见 kaikki.org；OpenSubtitles 词频表见 github.com/hermitdave/FrequencyWords；kanjidic2 见 EDRDG（www.edrdg.org）。
 
 词频数值只在构建阶段用于排序与筛选，没有进入发布态的 xlsx 与 sqlite，列在这里是为了完整说明来源。真正进入发布态的上游数值是音标、重音与汉字读音三列。
 
+## 第三方数据集的许可（2026-09-17 核实）
+
+- ECDICT（github.com/skywind3000/ECDICT）：MIT License，经 GitHub 接口核实。它用于德语候选词过滤，以及阿拉伯语把英文义项对齐成中文释义。由它得到的中文释义，那部分按 MIT 授权，任何人都能从 MIT 取得包括商业使用在内的权利，因此本文件第二条的非商业限制不覆盖阿拉伯语词库中的这部分释义。
+- FreeDict ara_eng（Arabic-English FreeDict Dictionary 0.6.3，作者 Arabeyes.org）：GPL-2.0-or-later。文件头部原文为 Available under the terms of the GNU General Public License ver. 2.0 and any later version。它只用于构建期的词条挖掘与英文义项对齐，未随本仓库或发布包分发。若要分发由它派生的内容，需要按 GPL 处理，而 GPL 不允许附加非商业限制，这与本文件第二条在阿拉伯语那部分上不兼容。
+- JLPT N5 到 N1 词表：文件是社区整理的 CSV，列为 expression、reading、meaning、tags，其中带 Genki 章节交叉标签，文件内没有记录来源；日语能力考试主办方自 2010 年起不再公布官方词表。它只用于确定教学范围。
+
 ## 待核实
 
-- 阿拉伯语工程引用的 ECDICT 与 FreeDict ara_eng，其再分发条款没有逐项核对，以各自上游声明为准。
 - 语音由 edge-tts 调用微软神经网络音色合成，不是游戏内资源；涉及微软服务条款的部分不在本仓库的授权范围内。
 
 ## 与游戏的关系

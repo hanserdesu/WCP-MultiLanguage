@@ -1,6 +1,6 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-17T21:00:10+08:00",
+  "integrated_at": "2026-09-17T21:21:52+08:00",
   "languages": {
     "ar": {
       "absent_in_worktree": [],
@@ -100,8 +100,8 @@
     },
     "ja": {
       "absent_in_worktree": [],
-      "bytes": 80280914,
-      "content_digest": "sha256:145c0c838fe351ec1ca224c7346e75732f483d635defdb6ae83c1022acece33a",
+      "bytes": 80280832,
+      "content_digest": "sha256:50f5e7ba92b67ee92ce5d2b512d807e2536e08dfbe4723834b50454198a5ec23",
       "excluded": {
         "build-archive": 31,
         "installer-package": 63,
@@ -130,12 +130,12 @@
       "source_head": "9dab09ddd17b42c74ff25f9b7f8b8385198fa7f4",
       "source_head_date": "2026-09-17 20:57:01 +0800",
       "source_head_subject": "许可：分层授权落地——代码 PolyForm Noncommercial 1.0.0 / 内容 CC BY-NC-SA 4.0 / 词典数据 CC BY-SA 4.0",
-      "source_origin_head": "30635a4c76bef39dcc39cf0770c8ed36bfa45a35",
+      "source_origin_head": "9dab09ddd17b42c74ff25f9b7f8b8385198fa7f4",
       "source_repo": "https://github.com/hanserdesu/japanese.git",
       "states": {
         "added": 0,
-        "modified": 146,
-        "tracked": 713,
+        "modified": 147,
+        "tracked": 712,
         "untracked": 9
       }
     },

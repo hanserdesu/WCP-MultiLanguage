@@ -32,11 +32,10 @@ Required Notice: Copyright (c) 2026 hanserdesu（猫条）
 | --- | --- | --- | --- |
 | 常用汉字书的音训读 | kanjidic2（EDRDG） | EDRDG 官方为 CC BY-SA 3.0，本仓库脚本内标注为 4.0 | `wcp_wordbooks/tools/build_kanji_book.py` |
 | 假名注音校验 | kanjidic2（EDRDG） | 同上 | `wcp_wordbooks/tools/furigana.py` |
-| JLPT N5–N1 词表 | 社区整理的 JLPT 词表（fr 工程 README 记为 OpenJLPT） | 待核实 | `tools/prep_worklist.py`、`wcp_wordbooks/tools/build_books.py` |
+| JLPT N5 到 N1 词表 | 社区整理的 JLPT 词表 CSV（含 Genki 章节交叉标签，文件内未记录来源） | 只用于确定教学范围，词条集合本身独创性有限 | `tools/prep_worklist.py`、`wcp_wordbooks/tools/build_books.py` |
 
 ## 待核实
 
-- JLPT 词表与 OpenJLPT 的再分发条款没有逐项核对，以各自上游声明为准。词表只用于确定教学范围，词条本身不受版权保护。
 - 语音由 edge-tts 调用微软神经网络音色合成，不是游戏内资源；涉及微软服务条款的部分不在本仓库的授权范围内。
 
 ## 与游戏的关系
