@@ -176,6 +176,11 @@ namespace WcpCustomSlots
         private Text _hintText;
         private Button _closeButton;
         private Button _refreshButton;
+        // 路线 B：原生行内嵌 —— 克隆原生 bookNameBar 当行，不再自绘行外观。
+        private GameObject _nativeRowTemplate;   // 场景里现成的 bookNameBar（隐藏的考博行优先）
+        private Sprite _nativeChosenSprite;      // 选中态 sprite（XQ56_button_list_long_choose）
+        private readonly System.Collections.Generic.List<GameObject> _hiddenNativeBars
+            = new System.Collections.Generic.List<GameObject>();
 
         private string MyBookPath
         {
@@ -309,6 +314,11 @@ namespace WcpCustomSlots
             panel.sizeDelta = new Vector2(760f, 660f);
             panel.anchoredPosition = Vector2.zero;
 
+            // 路线 B：把面板精确对位到原生 bookNameBar 列表区域上（不悬浮居中）。
+            // 拿原生行(1)与最底行(5/4)的世界坐标算区域中心与尺寸，换算到本覆盖层
+            // 画布的缩放（两种 Canvas 参考分辨率一致，比率≈1，但按实测值换算保险）。
+            AlignToNativeBookList(panel, overlayCanvas);
+
             Image panelImage = _overlay.AddComponent<Image>();
             panelImage.color = new Color(0.035f, 0.05f, 0.08f, 0.97f);
             _panelBg = panelImage;   // 路线 A：原生页没有面板底，建完就隐藏 + 不接收射线
@@ -370,6 +380,15 @@ namespace WcpCustomSlots
             fitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
             fitter.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
             scroll.content = _content;
+            // 路线 B：原生行距（bar1 y=-331.19 → bar2 y=-412.76 ⇒ 步进 81.57，行高 25）。
+            if (EnsureRowTemplate())
+            {
+                layout.spacing = 56.5f;                    // 81.57 - 25
+                layout.childControlWidth = false;          // 行宽自带 431.61
+                layout.childControlHeight = false;
+                layout.childForceExpandWidth = false;
+                layout.childForceExpandHeight = false;
+            }
 
             // 路线 A：补一个**克隆原生**的竖向滚动条 —— 原生选择词汇书页是横向页签
             // （Scroll View h=True），竖向滚动区只有背包/手机聊天里有，所以这里不能
@@ -379,6 +398,8 @@ namespace WcpCustomSlots
             ApplyNativeLook();
 
             EnsureInputField(_overlay.transform);
+            // 路线 B：本 mod 的 20 条克隆行接管显示，原生 5 条临时收起（Hide 恢复）。
+            HideNativeBars();
             RebuildRows();
         }
 
@@ -550,6 +571,20 @@ namespace WcpCustomSlots
             }
         }
 
+        // 行内小按钮：换原生行 sprite + 深色字（白底黑字是原生风格），避免黑块溢出 30 高的行。
+        private void StyleRowAction(Button button)
+        {
+            if (button == null) return;
+            Image img = button.GetComponent<Image>();
+            if (img != null && _nativeRowSprite != null)
+            {
+                img.sprite = _nativeRowSprite;
+                img.type = Image.Type.Sliced;
+            }
+            Text label = button.GetComponentInChildren<Text>();
+            if (label != null) label.color = new Color(0.15f, 0.17f, 0.23f);
+        }
+
         internal void Hide()
         {
             if (_overlay != null && _overlay.activeSelf)
@@ -559,6 +594,7 @@ namespace WcpCustomSlots
             _renameTitle = null;
             _renameIndex = -1;
             if (_toast != null && _toast.gameObject.activeSelf) _toast.gameObject.SetActive(false);
+            RestoreNativeBars();
             if (_overlay != null) _overlay.SetActive(false);
         }
 
@@ -1025,6 +1061,8 @@ namespace WcpCustomSlots
         private void RebuildRows()
         {
             if (_content == null) return;
+            if (EnsureRowTemplate()) { RebuildRowsNative(); return; }
+            // 取不到原生模板时退回自绘行（老路径）。
             for (int i = _content.childCount - 1; i >= 0; i--)
                 UnityEngine.Object.Destroy(_content.GetChild(i).gameObject);
             SlotRules.Normalize(_state);
@@ -1033,11 +1071,14 @@ namespace WcpCustomSlots
                 SlotRecord record = _state.slots[i];
                 int captured = i;
                 bool hasActions = !SlotRules.IsNativeMirror(record) && SlotRules.HasPlayableWords(record);
-                Color color = captured + 1 == _state.selected
-                    ? new Color(0.12f, 0.34f, 0.26f)
-                    : (SlotRules.IsManaged(record)
-                        ? new Color(0.10f, 0.18f, 0.29f)
-                        : new Color(0.10f, 0.11f, 0.15f));
+                bool isSelected = captured + 1 == _state.selected;
+                bool isManaged = SlotRules.IsManaged(record);
+                // 路线 A：原生行是**白底 UISprite + 深色文字**；深色只该上文字，
+                // 不能 tint 底图（上一版把深蓝/黑压在白 sprite 上 → 截图里的黑条）。
+                // 状态区分：选中 = 原生蓝，受管/空 = 白底（空行半透明弱化）。
+                Color rowColor = isSelected
+                    ? new Color(0.55f, 0.65f, 0.85f)
+                    : (isManaged ? Color.white : new Color(1f, 1f, 1f, 0.55f));
                 GameObject rowObject = new GameObject("Row" + (i + 1));
                 rowObject.transform.SetParent(_content, false);
                 LayoutElement element = rowObject.AddComponent<LayoutElement>();
@@ -1053,20 +1094,20 @@ namespace WcpCustomSlots
                     rowImage.sprite = _nativeRowSprite;
                     rowImage.type = Image.Type.Sliced;
                 }
-                rowImage.color = color;
+                rowImage.color = rowColor;
                 Button row = rowObject.AddComponent<Button>();
                 row.targetGraphic = rowImage;
                 row.colors = new ColorBlock {
-                    normalColor = color,
-                    highlightedColor = new Color(Mathf.Min(1f, color.r + 0.12f), Mathf.Min(1f, color.g + 0.12f), Mathf.Min(1f, color.b + 0.12f), color.a),
-                    pressedColor = color,
-                    selectedColor = color,
-                    disabledColor = color,
+                    normalColor = rowColor,
+                    highlightedColor = new Color(Mathf.Min(1f, rowColor.r + 0.12f), Mathf.Min(1f, rowColor.g + 0.12f), Mathf.Min(1f, rowColor.b + 0.12f), rowColor.a),
+                    pressedColor = rowColor,
+                    selectedColor = rowColor,
+                    disabledColor = rowColor,
                     colorMultiplier = 1f,
                     fadeDuration = 0.05f
                 };
                 Text label = CreateText(rowObject.transform, RowLabel(record, i + 1), 16, Vector2.zero,
-                    new Vector2(-24f, -12f), TextAnchor.MiddleLeft, Color.white);
+                    new Vector2(-24f, -12f), TextAnchor.MiddleLeft, new Color(0.15f, 0.17f, 0.23f));
                 label.rectTransform.anchorMin = new Vector2(0f, 0f);
                 label.rectTransform.anchorMax = new Vector2(1f, 1f);
                 label.rectTransform.offsetMin = new Vector2(12f, 4f);
@@ -1074,15 +1115,149 @@ namespace WcpCustomSlots
                 row.onClick.AddListener(new UnityAction(delegate { Select(captured); }));
 
                 if (!hasActions) continue;
-                CreateActionButton(rowObject.transform, "改名", new Vector2(-64f, -6f),
-                    new Vector2(56f, 36f), new Color(0.16f, 0.30f, 0.38f),
-                    new UnityAction(delegate { BeginRename(captured); }), false);
-                CreateActionButton(rowObject.transform, "移除", new Vector2(-8f, -6f),
-                    new Vector2(56f, 36f), new Color(0.38f, 0.16f, 0.16f),
-                    new UnityAction(delegate { ClearSlot(captured); }), false);
+                StyleRowAction(CreateActionButton(rowObject.transform, "改名", new Vector2(-58f, 3f),
+                    new Vector2(44f, 24f), Color.white,
+                    new UnityAction(delegate { BeginRename(captured); }), false));
+                StyleRowAction(CreateActionButton(rowObject.transform, "移除", new Vector2(-6f, 3f),
+                    new Vector2(44f, 24f), Color.white,
+                    new UnityAction(delegate { ClearSlot(captured); }), false));
             }
             RenderRenameBar();
             Canvas.ForceUpdateCanvases();
+        }
+
+        // ── 路线 B：克隆原生 bookNameBar 行 ─────────────────────────────────
+        private bool EnsureRowTemplate()
+        {
+            if (_nativeRowTemplate != null) return true;
+            GameObject tmpl = FindSceneObject(NativeListRoot + "/bookNameBar (5)");
+            if (tmpl == null) tmpl = FindSceneObject(NativeListRoot + "/bookNameBar (1)");
+            if (tmpl == null) return false;
+            _nativeRowTemplate = tmpl;
+            // 选中态 sprite：当前不可点（interactable=False）的那条就是选中行。
+            for (int i = 1; i <= 5; i++)
+            {
+                GameObject bar = FindSceneObject(NativeListRoot + "/bookNameBar (" + i + ")");
+                if (bar == null) continue;
+                Button b = bar.GetComponent<Button>();
+                Image img = bar.GetComponent<Image>();
+                if (b != null && img != null && !b.interactable && img.sprite != null)
+                {
+                    _nativeChosenSprite = img.sprite;
+                    break;
+                }
+            }
+            if (_nativeChosenSprite == null) Log.LogWarning("CustomSlots: 路线B 未取到选中态 sprite，选中行用普通底图");
+            return true;
+        }
+
+        private const string NativeListRoot = "AllCanvas/SettingPart/CanvasSetting1";
+
+        // 隐藏原生行（本 mod 提供 20 条克隆行接管显示），并记录以便 Hide 时恢复。
+        private void HideNativeBars()
+        {
+            for (int i = 1; i <= 5; i++)
+            {
+                GameObject bar = FindSceneObject(NativeListRoot + "/bookNameBar (" + i + ")");
+                if (bar == null || !bar.activeSelf) continue;
+                bar.SetActive(false);
+                _hiddenNativeBars.Add(bar);
+            }
+        }
+
+        private void RestoreNativeBars()
+        {
+            for (int i = 0; i < _hiddenNativeBars.Count; i++)
+                if (_hiddenNativeBars[i] != null) _hiddenNativeBars[i].SetActive(true);
+            _hiddenNativeBars.Clear();
+        }
+
+        // 找子节点里的 TMP 文本组件并写值（反射，无编译期依赖）。
+        private static bool WriteChildText(Transform root, string namePrefix, string value)
+        {
+            for (int i = 0; i < root.childCount; i++)
+            {
+                Transform childT = root.GetChild(i);
+                if (!childT.name.StartsWith(namePrefix)) continue;
+                Component[] comps = childT.GetComponents<Component>();
+                for (int j = 0; j < comps.Length; j++)
+                    if (comps[j] != null && GameCompat.WriteText(comps[j], value)) return true;
+            }
+            return false;
+        }
+
+        private void RebuildRowsNative()
+        {
+            for (int i = _content.childCount - 1; i >= 0; i--)
+                UnityEngine.Object.Destroy(_content.GetChild(i).gameObject);
+            SlotRules.Normalize(_state);
+            for (int i = 0; i < SlotRules.MaxSlots; i++)
+            {
+                SlotRecord record = _state.slots[i];
+                int captured = i;
+                bool isSelected = captured + 1 == _state.selected;
+                bool hasActions = !SlotRules.IsNativeMirror(record) && SlotRules.HasPlayableWords(record);
+                GameObject row = UnityEngine.Object.Instantiate(_nativeRowTemplate);
+                row.name = "WcpSlotRow" + (i + 1);
+                row.transform.SetParent(_content, false);
+                row.SetActive(true);
+                // 克隆体的 Button 携带原型上序列化的 onClick（会调原生逻辑用错索引），
+                // 整个换新 Button 掐断，再挂我们自己的选择回调。
+                Button oldButton = row.GetComponent<Button>();
+                if (oldButton != null) UnityEngine.Object.DestroyImmediate(oldButton);
+                Image img = row.GetComponent<Image>();
+                if (img != null && isSelected && _nativeChosenSprite != null) img.sprite = _nativeChosenSprite;
+                Button btn = row.AddComponent<Button>();
+                if (img != null) btn.targetGraphic = img;
+                btn.transition = Selectable.Transition.SpriteSwap;
+                btn.onClick.AddListener(new UnityAction(delegate { Select(captured); }));
+
+                // 左文本 = 书名行，右文本 = 词数/空槽说明；可管理行右侧放 改名/移除。
+                string label = RowLabel(record, i + 1);
+                WriteChildText(row.transform, "Text _Left", label);
+                if (hasActions)
+                {
+                    WriteChildText(row.transform, "Text _Right", "");
+                    CreateActionButton(row.transform, "改名", new Vector2(-108f, 1f),
+                        new Vector2(48f, 20f), new Color(1f, 1f, 1f, 0.35f),
+                        new UnityAction(delegate { BeginRename(captured); }), false);
+                    CreateActionButton(row.transform, "移除", new Vector2(-52f, 1f),
+                        new Vector2(48f, 20f), new Color(1f, 1f, 1f, 0.35f),
+                        new UnityAction(delegate { ClearSlot(captured); }), false);
+                }
+                else
+                {
+                    string right = SlotRules.HasPlayableWords(record)
+                        ? record.words.Length + " 词"
+                        : "（空）";
+                    WriteChildText(row.transform, "Text _Right", right);
+                }
+            }
+            RenderRenameBar();
+            Canvas.ForceUpdateCanvases();
+        }
+
+        // 把面板对位到原生行列表区域：用原生行(1)与最底行的世界角算中心/尺寸，
+        // 按两块画布的 lossyScale 比率换算成本覆盖层坐标。
+        private void AlignToNativeBookList(RectTransform panel, Canvas overlayCanvas)
+        {
+            RectTransform topRT = null, bottomRT = null;
+            GameObject bar1 = FindSceneObject(NativeListRoot + "/bookNameBar (1)");
+            GameObject barB = FindSceneObject(NativeListRoot + "/bookNameBar (5)") ??
+                              FindSceneObject(NativeListRoot + "/bookNameBar (4)");
+            if (bar1 != null) topRT = bar1.GetComponent<RectTransform>();
+            if (barB != null) bottomRT = barB.GetComponent<RectTransform>();
+            if (topRT == null || bottomRT == null) return;   // 退回居中（老几何）
+            Vector3[] a = new Vector3[4]; topRT.GetWorldCorners(a);
+            Vector3[] b = new Vector3[4]; bottomRT.GetWorldCorners(b);
+            Vector3 center = (a[1] + b[3]) * 0.5f;           // 顶行左上 + 底行右下 的中点
+            float widthWorld = a[2].x - a[1].x;
+            float heightWorld = a[1].y - b[0].y;
+            float ourScale = overlayCanvas.transform.lossyScale.x;
+            if (ourScale <= 0f) ourScale = 1f;
+            // 右侧留 16 给滚动条，整体外扩 6 视觉缓冲
+            panel.sizeDelta = new Vector2(widthWorld / ourScale + 22f, heightWorld / ourScale + 12f);
+            panel.position = center + new Vector3(9f * ourScale, -4f * ourScale, 0f);
         }
 
         private string RowLabel(SlotRecord record, int number)
@@ -1570,50 +1745,65 @@ namespace WcpCustomSlots
         private static Font _nativeFont;
         private static bool _nativeFontProbed;
 
-        private static Font ResolveNativeFont()
+        // Unity 内置字体（无中文字形），不能当"原生字体"用。
+        private static bool IsBuiltInFont(Font f)
+        {
+            string n = f != null ? f.name : null;
+            return n == "LiberationSans" || n == "Arial" || n == "LegacyRuntime";
+        }
+
+private static Font ResolveNativeFont()
         {
             if (_nativeFont != null || _nativeFontProbed) return _nativeFont;
             _nativeFontProbed = true;
+            // 1) TMP 字体资产优先：游戏原生 UI 全走 TMP（SourceHanSerifCN-Heavy SDF），
+            //    其 sourceFontFile 就是原生传统 Font，挂上去字面与原生一致。
+            //    （上一版先扫传统 Text，第一个命中的是 Unity 内置 LiberationSans，
+            //    TMP 分支永远不执行 —— 截图里字体违和的根因。）
             try
             {
-                Text[] texts = Resources.FindObjectsOfTypeAll<Text>();
-                if (texts != null)
+                Type tmpType = null;
+                Assembly[] asms = AppDomain.CurrentDomain.GetAssemblies();
+                for (int i = 0; i < asms.Length && tmpType == null; i++)
                 {
-                    for (int i = 0; i < texts.Length; i++)
+                    try { tmpType = asms[i].GetType("TMPro.TMP_FontAsset", false); }
+                    catch (Exception) { }
+                }
+                if (tmpType != null)
+                {
+                    PropertyInfo prop = tmpType.GetProperty("sourceFontFile",
+                        BindingFlags.Public | BindingFlags.Instance);
+                    UnityEngine.Object[] assets = Resources.FindObjectsOfTypeAll(tmpType);
+                    if (prop != null && assets != null)
                     {
-                        Text t = texts[i];
-                        if (t == null || t.font == null) continue;
-                        if (!t.gameObject.scene.IsValid()) continue;   // 排除预制体/资源
-                        _nativeFont = t.font;
-                        break;
+                        for (int i = 0; i < assets.Length; i++)
+                        {
+                            if (assets[i] == null) continue;
+                            Font f = prop.GetValue(assets[i], null) as Font;
+                            if (f == null || IsBuiltInFont(f)) continue;
+                            _nativeFont = f;
+                            break;
+                        }
                     }
                 }
             }
             catch (Exception) { }
+            // 2) 其次：场景里原生传统 Text 的 font（跳过 Unity 内置）。
             if (_nativeFont == null)
             {
                 try
                 {
-                    Type tmpType = null;
-                    Assembly[] asms = AppDomain.CurrentDomain.GetAssemblies();
-                    for (int i = 0; i < asms.Length && tmpType == null; i++)
+                    Text[] texts = Resources.FindObjectsOfTypeAll<Text>();
+                    if (texts != null)
                     {
-                        try { tmpType = asms[i].GetType("TMPro.TMP_FontAsset", false); }
-                        catch (Exception) { }
-                    }
-                    if (tmpType != null)
-                    {
-                        PropertyInfo prop = tmpType.GetProperty("sourceFontFile",
-                            BindingFlags.Public | BindingFlags.Instance);
-                        UnityEngine.Object[] assets = Resources.FindObjectsOfTypeAll(tmpType);
-                        if (prop != null && assets != null)
+                        for (int i = 0; i < texts.Length; i++)
                         {
-                            for (int i = 0; i < assets.Length; i++)
-                            {
-                                if (assets[i] == null) continue;
-                                Font f = prop.GetValue(assets[i], null) as Font;
-                                if (f != null) { _nativeFont = f; break; }
-                            }
+                            Text t = texts[i];
+                            if (t == null || t.font == null) continue;
+                            if (IsBuiltInFont(t.font)) continue;
+                            if (!t.gameObject.scene.IsValid()) continue;
+                            _nativeFont = t.font;
+                            break;
                         }
                     }
                 }
@@ -1621,6 +1811,8 @@ namespace WcpCustomSlots
             }
             if (_nativeFont != null)
                 Log.LogInfo("CustomSlots: 原生字体 = " + _nativeFont.name);
+            else
+                Log.LogWarning("CustomSlots: 原生字体未取到（TMP 与场景 Text 均失败），回退内置字体");
             return _nativeFont;
         }
 

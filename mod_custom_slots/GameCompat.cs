@@ -189,6 +189,24 @@ namespace WcpCustomSlots
             return null;
         }
 
+        // 写 TMP/UGUI 文本（反射，避免编译期绑定 TMPro）。
+        internal static bool WriteText(object textComponent, string value)
+        {
+            if (textComponent == null) return false;
+            try
+            {
+                PropertyInfo p = textComponent.GetType().GetProperty("text",
+                    BindingFlags.Public | BindingFlags.Instance);
+                if (p != null && p.CanWrite)
+                {
+                    p.SetValue(textComponent, value, null);
+                    return true;
+                }
+            }
+            catch (Exception) { }
+            return false;
+        }
+
         // ── 关键：用"页面状态"判定当前是不是自定义词书页 ──
         //
         // 判据只认「自定义词书」：2026-09-17 实机信号（wcp_diag\WcpSlotsSignals.txt）证明

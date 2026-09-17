@@ -750,3 +750,26 @@ custom-slots 离线 harness 11/0 无回归。
 - 四个候选屏幕容器（`SettingPart` / `CanvasSetting1` / `CanvasWordCount` / `Canvas-Hider`）全程 `activeSelf=on` → **没有任何可用的切屏信号**，判据只能靠标签文字。
 - 修法：标签扫描只认 `自定义词书`（删掉 `猫条版` 分支），保留"用户点击过第 20 页签"兜底。
 
+
+### 已改 P1-15 路线 B：取消悬浮窗，原生行内嵌续接（用户裁定）
+
+- 用户原话：『我不是要独立窗口，原生的窗口不是有4个槽位吗，我想在下面多实现16条』。
+- 原生结构（WcpSlotsDiag.txt 实测）：自定义页 4 槽 = CanvasSetting1/bookNameBar (1..4)，
+  431.61x25，sprite=XQ56_button_list_long（选中=_choose 变体），Button(SpriteSwap)+ButtonSound，
+  左 TMP `_LeftN`（书名, fontSize=11）+ 右 TMP `_RightN`（已学统计, fontSize=9.5），
+  绝对定位 y 步进 81.57；bookNameBar (5)（考博行）默认隐藏 = 现成克隆模板。
+- 实现：
+  - EnsureRowTemplate：取隐藏的 bookNameBar (5) 当模板（缺则 (1)），顺带从
+    interactable=False 的行读选中态 sprite。
+  - RebuildRowsNative：Instantiate 模板成 20 行；克隆体 Button 带原型序列化 onClick
+    （会拿错索引调原生逻辑）→ DestroyImmediate 换新 Button 再挂 Select(i)。
+    左文本写 RowLabel，可管理行右侧放 改名/移除 小按钮，空槽右侧写"（空）"。
+  - AlignToNativeBookList：用 bar(1)/bar(5) 世界角算列表区域，换算 lossyScale 后
+    把覆盖层精确贴上去（不再居中悬浮）。
+  - HideNativeBars/RestoreNativeBars：本 mod 20 行接管期间收起原生 5 条，Hide 恢复。
+  - GameCompat.WriteText：反射写 TMP text（无编译期 TMPro 依赖）。
+  - 滚动：Content spacing=56.5（=81.57 步进 - 25 行高），行宽高交给克隆体自带尺寸。
+- 回退链：模板取不到 → 老自绘行；bar 几何取不到 → 居中几何。
+- 回归：hub 89/0、slot_rules 0 失败、registry 全部通过、slot_ownership ALL PASS。
+- 待实机确认：克隆行外观/点击/改名移除按钮位置、离开页面原生 4 行恢复。
+
