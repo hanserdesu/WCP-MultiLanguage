@@ -32,12 +32,12 @@
     "pron": "es_pron.tsv",
     "sentences": "es_sentences.tsv",
     "payload_files": {
-      "es_pron.tsv": "1cc4e2f1bf27bdb155d4b9b79e679654070187ea570bd264e00b10977327224a",
-      "es_sentences.tsv": "427882b93618a47ccbb7291e4a0a38eb7781d8be95af6402b56c617b69d3b53f"
+      "es_pron.tsv": "0d10254a822d51b0e9c318d6e9df41b61ed5421af2402e67ce9909f20fb5f315",
+      "es_sentences.tsv": "e028e00cbd5c66eb8a6102d427db62ae57912614511e93fe7f37733bdd67f4de"
     }
   },
   "book_sha256": {
-    "西班牙语考级词库(猫条版).xlsx": "acb1b69b6c66a2ac0592d40bd43207c10f110384ceda55d7b333938959130484"
+    "西班牙语考级词库(猫条版).xlsx": "738e88e7cc4603d204ddc008fd2462b3315ad10e95c720e2967efe920dacfffa"
   },
   "counts": {
     "pron": 8599,

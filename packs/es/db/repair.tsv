@@ -1,17 +1,17 @@
 #	schema=1	kind	word	ukPhonic	usPhonic	value
 row	pron	de	de	de	[de] 从；的<介>	
-row	pron	que	ke	ke	[ke] （关系代词/连接词）<连>	
+row	pron	que	ke	ke	[ke] 关系代词/连接词<连>	
 row	pron	no	no	no	[no] 不，不是<副>	
-row	pron	la	la	la	[la] 定冠词（阴性单数）<限定>	
+row	pron	la	la	la	[la] 定冠词[阴性单数]<限定>	
 row	pron	ser	/ˈseɾ/	/ˈseɾ/	[ˈseɾ] 是<名>	
 row	pron	en	/en/	/en/	[en] 在<介>	
-row	pron	un	un	un	[un] 一个（阳性）<限定>	
+row	pron	un	un	un	[un] 一个[阳性]<限定>	
 row	pron	por	por	por	[por] 通过；因为；为<介>	
 row	pron	qué	/ˈke/	/ˈke/	[ˈke] 什么<副>	
-row	pron	me	me	me	[me] 我（宾格）<代>	
-row	pron	una	una	una	[una] 一个（阴性）<限定>	
+row	pron	me	me	me	[me] 我[宾格]<代>	
+row	pron	una	una	una	[una] 一个[阴性]<限定>	
 row	pron	se	se	se	[se] 自己<代>	
-row	pron	te	te	te	[te] 你（宾格）<代>	
+row	pron	te	te	te	[te] 你[宾格]<代>	
 row	pron	con	/kon/	/kon/	[kon] 与<介>	
 row	pron	para	para	para	[para] 为了；给<介>	
 row	pron	estar	/esˈtaɾ/	/esˈtaɾ/	[esˈtaɾ] 是<动>	
@@ -28,18 +28,18 @@ row	pron	como	komo	komo	[komo] 怎样；作为<副>
 row	pron	aquí	/aˈki/	/aˈki/	[aˈki] 这里<副>	
 row	pron	tu	tu	tu	[tu] 你的<限定>	
 row	pron	más	/ˈmas/	/ˈmas/	[ˈmas] 更多<副>	
-row	pron	le	le	le	[le] 他/她/您（与格）<代>	
+row	pron	le	le	le	[le] 他/她/您[与格]<代>	
 row	pron	éste	/ˈeste/	/ˈeste/	[ˈeste] 这个<代>	
 row	pron	todo	todo	todo	[todo] 所有；全部<限定>	
 row	pron	ya	ja	ja	[ja] 已经；现在<副>	
 row	pron	ahora	aora	aora	[aora] 现在<副>	
 row	pron	muy	muj	muj	[muj] 非常<副>	
 row	pron	ha			哈<名>	
-row	pron	esta	esta	esta	[esta] 这个（阴性）<限定>	
+row	pron	esta	esta	esta	[esta] 这个[阴性]<限定>	
 row	pron	así	/aˈsi/	/aˈsi/	[aˈsi] 所以<副>	
 row	pron	vamos	/ˈbamos/	/ˈbamos/	[ˈbamos] 我们走吧<叹>	
 row	pron	algo	algo	algo	[algo] 某事；某物<代>	
-row	pron	hay	aj	aj	[aj] 有（存在）<动>	
+row	pron	hay	aj	aj	[aj] 有[存在]<动>	
 row	pron	bueno	/ˈbweno/	/ˈbweno/	[ˈbweno] 好<形>	
 row	pron	tener	/teˈneɾ/	/teˈneɾ/	[teˈneɾ] 有<动>	
 row	pron	él	/ˈel/	/ˈel/	[ˈel] 他<代>	
@@ -121,7 +121,7 @@ row	pron	mira	/ˈmiɾa/	/ˈmiɾa/	[ˈmiɾa] 看看<名>
 row	pron	mismo	/ˈmismo/	/ˈmismo/	[ˈmismo] 一样<形>	
 row	pron	nadie	/ˈnadje/	/ˈnadje/	[ˈnadje] 没有人<名>	
 row	pron	hablar	/aˈblaɾ/	/aˈblaɾ/	[aˈblaɾ] 谈话<动>	
-row	pron	sr.			先生。<名>	
+row	pron	sr.			[seˈɲoɾ] 先生<名>	
 row	pron	tal	/ˈtal/	/ˈtal/	[ˈtal] 这样的<形>	
 row	pron	pasa	/ˈpasa/	/ˈpasa/	[ˈpasa] 通过<名>	
 row	pron	fuera	/ˈfweɾa/	/ˈfweɾa/	[ˈfweɾa] 出<副>	
@@ -352,7 +352,7 @@ row	pron	pregunta	/pɾeˈɡunta/	/pɾeˈɡunta/	[pɾeˈɡunta] 问题<名>
 row	pron	atrás	/aˈtɾas/	/aˈtɾas/	[aˈtɾas] 回来<副>	
 row	pron	malo	/ˈmalo/	/ˈmalo/	[ˈmalo] 坏<名>	
 row	pron	capitán	/kapiˈtan/	/kapiˈtan/	[kapiˈtan] 队长<名>	
-row	pron	sra.			夫人。<名>	
+row	pron	sra.			[seˈɲoɾa] 夫人<名>	
 row	pron	bebé	/beˈbe/	/beˈbe/	[beˈbe] 宝贝<名>	
 row	pron	segundo	/seˈɡundo/	/seˈɡundo/	[seˈɡundo] 第二<名>	
 row	pron	mayor	/maˈʝoɾ/	/maˈʝoɾ/	[maˈʝoɾ] 较老的<名>	
@@ -372,7 +372,7 @@ row	pron	tampoco	/tamˈpoko/	/tamˈpoko/	[tamˈpoko] 两者都不是<副>
 row	pron	amo	/ˈamo/	/ˈamo/	[ˈamo] 爱<名>	
 row	pron	joven	/ˈxoben/	/ˈxoben/	[ˈxoben] 年轻的<名>	
 row	pron	par	/ˈpaɾ/	/ˈpaɾ/	[ˈpaɾ] 一对<名>	
-row	pron	dr.			博士。<名>	
+row	pron	dr.			[doɡˈtoɾ] 博士<名>	
 row	pron	simplemente	/ˌsimpleˈmente/	/ˌsimpleˈmente/	[ˌsimpleˈmente] 简单地<副>	
 row	pron	medio	/ˈmedjo/	/ˈmedjo/	[ˈmedjo] 中等<名>	
 row	pron	puta	/ˈputa/	/ˈputa/	[ˈputa] 妓女<名>	
@@ -844,7 +844,7 @@ row	pron	gana	/ˈɡana/	/ˈɡana/	[ˈɡana] 赢<名>
 row	pron	cielos	/ˈθjelos/	/ˈθjelos/	[ˈθjelos] 天堂<叹>	
 row	pron	matado	/maˈtado/	/maˈtado/	[maˈtado] 被杀<形>	
 row	pron	azul	/aˈθul/	/aˈθul/	[aˈθul] 蓝色<名>	
-row	pron	ia	/ˈia/	/ˈia/	[ˈia] ia<名>	
+row	pron	ia	/ˈia/	/ˈia/	[ˈia] 人工智能；AI<名>	
 row	pron	comandante	/komanˈdante/	/komanˈdante/	[komanˈdante] 指挥官<名>	
 row	pron	acción	/aɡˈθjon/	/aɡˈθjon/	[aɡˈθjon] 行动<名>	
 row	pron	regla	/ˈreɡla/	/ˈreɡla/	[ˈreɡla] 规则<名>	
@@ -1129,7 +1129,7 @@ row	pron	contrato	/konˈtɾato/	/konˈtɾato/	[konˈtɾato] 合同<名>
 row	pron	viernes	/ˈbjeɾnes/	/ˈbjeɾnes/	[ˈbjeɾnes] 星期五<名>	
 row	pron	ex	/ˈeɡs/	/ˈeɡs/	[ˈeɡs] 前<名>	
 row	pron	sociedad	/soθjeˈdad/	/soθjeˈdad/	[soθjeˈdad] 社会<名>	
-row	pron	dra.			博士。<名>	
+row	pron	dra.			[doɡˈtoɾa] 博士<名>	
 row	pron	carga	/ˈkaɾɡa/	/ˈkaɾɡa/	[ˈkaɾɡa] 负载<名>	
 row	pron	puto	/ˈputo/	/ˈputo/	[ˈputo] 他妈的<名>	
 row	pron	presente	/pɾeˈsente/	/pɾeˈsente/	[pɾeˈsente] 现在<名>	
@@ -1877,7 +1877,7 @@ row	pron	civil	/θiˈbil/	/θiˈbil/	[θiˈbil] 民事<形>
 row	pron	gasolina	/ɡasoˈlina/	/ɡasoˈlina/	[ɡasoˈlina] 汽油<名>	
 row	pron	sabio	/ˈsabjo/	/ˈsabjo/	[ˈsabjo] 明智的<名>	
 row	pron	judío	/xuˈdio/	/xuˈdio/	[xuˈdio] 犹太人的<名>	
-row	pron	s.			s。<名>	
+row	pron	s.			[seˈɣundo] 秒；秒钟<名>	
 row	pron	tripulación	/tɾipulaˈθjon/	/tɾipulaˈθjon/	[tɾipulaˈθjon] 船员<名>	
 row	pron	arrestado	/aresˈtado/	/aresˈtado/	[aresˈtado] 被捕<形>	
 row	pron	canta	/ˈkanta/	/ˈkanta/	[ˈkanta] 唱歌<名>	
@@ -5173,7 +5173,7 @@ row	pron	anormal	/anoɾˈmal/	/anoɾˈmal/	[anoɾˈmal] 不正常的<形>
 row	pron	aló	/aˈlo/	/aˈlo/	[aˈlo] 你好<叹>	
 row	pron	disputa	/disˈputa/	/disˈputa/	[disˈputa] 争议<名>	
 row	pron	manguera	/manˈɡeɾa/	/manˈɡeɾa/	[manˈɡeɾa] 软管<名>	
-row	pron	cas	/ˈkas/	/ˈkas/	[ˈkas] CAS<名>	
+row	pron	cas	/ˈkas/	/ˈkas/	[ˈkas] 化学文摘社号；CAS登记号<名>	
 row	pron	pum	/ˈpum/	/ˈpum/	[ˈpum] 繁荣<叹>	
 row	pron	condolencia	/kondoˈlenθja/	/kondoˈlenθja/	[kondoˈlenθja] 哀悼<名>	
 row	pron	paco	/ˈpako/	/ˈpako/	[ˈpako] 帕科<名>	
@@ -7637,7 +7637,7 @@ row	pron	fascinar	/fasθiˈnaɾ/	/fasθiˈnaɾ/	[fasθiˈnaɾ] 着迷<动>
 row	pron	conmover	/kommoˈbeɾ/	/kommoˈbeɾ/	[kommoˈbeɾ] 移动<动>	
 row	pron	agitar	/axiˈtaɾ/	/axiˈtaɾ/	[axiˈtaɾ] 摇动<动>	
 row	pron	foca	/ˈfoka/	/ˈfoka/	[ˈfoka] 密封件<名>	
-row	pron	lsd	/elˈesde/	/elˈesde/	[elˈesde] LSD<名>	
+row	pron	lsd	/elˈesde/	/elˈesde/	[elˈesde] 麦角酸二乙酰胺；致幻剂LSD<名>	
 row	pron	suertudo	/sweɾˈtudo/	/sweɾˈtudo/	[sweɾˈtudo] 幸运的<名>	
 row	pron	transfusión	/tɾansfuˈsjon/	/tɾansfuˈsjon/	[tɾansfuˈsjon] 输血<名>	
 row	pron	heladera	/elaˈdeɾa/	/elaˈdeɾa/	[elaˈdeɾa] 冰箱<名>	
@@ -8550,7 +8550,7 @@ row	pron	palermo	/paˈleɾmo/	/paˈleɾmo/	[paˈleɾmo] 巴勒莫<名>
 row	pron	hornear	/oɾneˈaɾ/	/oɾneˈaɾ/	[oɾneˈaɾ] 烘烤<动>	
 row	pron	llendo			去<动>	
 row	pron	ubicado	/ubiˈkado/	/ubiˈkado/	[ubiˈkado] 位于<形>	
-row	pron	bb			BB<名>	
+row	pron	bb			[beˈbe] 幼童；宝贝；BB弹<名>	
 row	pron	cesárea	/θeˈsaɾea/	/θeˈsaɾea/	[θeˈsaɾea] 剖腹产<名>	
 row	pron	batear	/bateˈaɾ/	/bateˈaɾ/	[bateˈaɾ] 蝙蝠<动>	
 row	pron	colecta	/koˈleɡta/	/koˈleɡta/	[koˈleɡta] 收藏<名>	
@@ -8601,42 +8601,42 @@ row	pron	cabellera	/kabeˈʝeɾa/	/kabeˈʝeɾa/	[kabeˈʝeɾa] 头发<名>
 row	sentence	de				例句：En la pizarra escribieron el término de.（他们在黑板上写下了从这个词。）
 row	sentence	de				例句：No encuentro el sentido exacto de de en esta frase.（在这个句子里，我找不到从的确切意思。）
 row	sentence	de				例句：El diccionario sitúa de entre las entradas más consultadas.（词典把从列为查询最多的词条之一。）
-row	sentence	que				例句：No encuentro el sentido exacto de que en esta frase.（在这个句子里，我找不到（关系代词/连接词）的确切意思。）
-row	sentence	que				例句：El diccionario sitúa que entre las entradas más consultadas.（词典把（关系代词/连接词）列为查询最多的词条之一。）
-row	sentence	que				例句：¿Cómo se traduce que al chino?（（关系代词/连接词）用中文怎么说？）
+row	sentence	que				例句：No encuentro el sentido exacto de que en esta frase.（在这个句子里，我找不到关系代词/连接词的确切意思。）
+row	sentence	que				例句：El diccionario sitúa que entre las entradas más consultadas.（词典把关系代词/连接词列为查询最多的词条之一。）
+row	sentence	que				例句：¿Cómo se traduce que al chino?（关系代词/连接词用中文怎么说？）
 row	sentence	no				例句：El diccionario sitúa no entre las entradas más consultadas.（词典把不列为查询最多的词条之一。）
 row	sentence	no				例句：¿Cómo se traduce no al chino?（不用中文怎么说？）
 row	sentence	no				例句：El profesor escribió no en la pizarra y nos pidió un ejemplo.（老师在黑板上写下不，让我们造个句子。）
-row	sentence	la				例句：¿Cómo se traduce la al chino?（定冠词（阴性单数）用中文怎么说？）
-row	sentence	la				例句：El profesor escribió la en la pizarra y nos pidió un ejemplo.（老师在黑板上写下定冠词（阴性单数），让我们造个句子。）
-row	sentence	la				例句：En este texto, la se usa con un matiz distinto.（在这篇文章里，定冠词（阴性单数）的用法略有不同。）
+row	sentence	la				例句：¿Cómo se traduce la al chino?（定冠词[阴性单数]用中文怎么说？）
+row	sentence	la				例句：El profesor escribió la en la pizarra y nos pidió un ejemplo.（老师在黑板上写下定冠词[阴性单数]，让我们造个句子。）
+row	sentence	la				例句：En este texto, la se usa con un matiz distinto.（在这篇文章里，定冠词[阴性单数]的用法略有不同。）
 row	sentence	ser				例句：Con ser no se juega: hay que ir con cuidado.（是可不能当儿戏，必须小心。）
 row	sentence	ser				例句：Ese comentario demuestra que sabe mucho de ser.（那个评论说明他对是很在行。）
 row	sentence	ser				例句：El museo guarda piezas relacionadas con ser.（博物馆里保存着与是相关的展品。）
 row	sentence	en				例句：En este texto, en se usa con un matiz distinto.（在这篇文章里，在的用法略有不同。）
 row	sentence	en				例句：Repite en otra vez, por favor.（请再把在念一遍。）
 row	sentence	en				例句：Subraya la palabra en en la tercera línea.（请在第三行标出在这个词。）
-row	sentence	un				例句：Repite un otra vez, por favor.（请再把一个（阳性）念一遍。）
-row	sentence	un				例句：Subraya la palabra un en la tercera línea.（请在第三行标出一个（阳性）这个词。）
-row	sentence	un				例句：El uso de un varía mucho entre países.（一个（阳性）的用法在不同国家差别很大。）
+row	sentence	un				例句：Repite un otra vez, por favor.（请再把一个[阳性]念一遍。）
+row	sentence	un				例句：Subraya la palabra un en la tercera línea.（请在第三行标出一个[阳性]这个词。）
+row	sentence	un				例句：El uso de un varía mucho entre países.（一个[阳性]的用法在不同国家差别很大。）
 row	sentence	por				例句：Subraya la palabra por en la tercera línea.（请在第三行标出通过这个词。）
 row	sentence	por				例句：El uso de por varía mucho entre países.（通过的用法在不同国家差别很大。）
 row	sentence	por				例句：Me cuesta distinguir por de palabras parecidas.（我很难把通过和相近的词区分开。）
 row	sentence	qué				例句：El uso de qué varía mucho entre países.（什么的用法在不同国家差别很大。）
 row	sentence	qué				例句：Me cuesta distinguir qué de palabras parecidas.（我很难把什么和相近的词区分开。）
 row	sentence	qué				例句：Este capítulo explica cuándo se emplea qué.（这一章讲解什么时候用什么。）
-row	sentence	me				例句：Me cuesta distinguir me de palabras parecidas.（我很难把我（宾格）和相近的词区分开。）
-row	sentence	me				例句：Este capítulo explica cuándo se emplea me.（这一章讲解什么时候用我（宾格）。）
-row	sentence	me				例句：La palabra me aparece varias veces en este diálogo.（在这段对话里，我（宾格）这个词出现了好几次。）
-row	sentence	una				例句：Este capítulo explica cuándo se emplea una.（这一章讲解什么时候用一个（阴性）。）
-row	sentence	una				例句：La palabra una aparece varias veces en este diálogo.（在这段对话里，一个（阴性）这个词出现了好几次。）
-row	sentence	una				例句：En la pizarra escribieron el término una.（他们在黑板上写下了一个（阴性）这个词。）
+row	sentence	me				例句：Me cuesta distinguir me de palabras parecidas.（我很难把我[宾格]和相近的词区分开。）
+row	sentence	me				例句：Este capítulo explica cuándo se emplea me.（这一章讲解什么时候用我[宾格]。）
+row	sentence	me				例句：La palabra me aparece varias veces en este diálogo.（在这段对话里，我[宾格]这个词出现了好几次。）
+row	sentence	una				例句：Este capítulo explica cuándo se emplea una.（这一章讲解什么时候用一个[阴性]。）
+row	sentence	una				例句：La palabra una aparece varias veces en este diálogo.（在这段对话里，一个[阴性]这个词出现了好几次。）
+row	sentence	una				例句：En la pizarra escribieron el término una.（他们在黑板上写下了一个[阴性]这个词。）
 row	sentence	se				例句：La palabra se aparece varias veces en este diálogo.（在这段对话里，自己这个词出现了好几次。）
 row	sentence	se				例句：En la pizarra escribieron el término se.（他们在黑板上写下了自己这个词。）
 row	sentence	se				例句：No encuentro el sentido exacto de se en esta frase.（在这个句子里，我找不到自己的确切意思。）
-row	sentence	te				例句：En la pizarra escribieron el término te.（他们在黑板上写下了你（宾格）这个词。）
-row	sentence	te				例句：No encuentro el sentido exacto de te en esta frase.（在这个句子里，我找不到你（宾格）的确切意思。）
-row	sentence	te				例句：El diccionario sitúa te entre las entradas más consultadas.（词典把你（宾格）列为查询最多的词条之一。）
+row	sentence	te				例句：En la pizarra escribieron el término te.（他们在黑板上写下了你[宾格]这个词。）
+row	sentence	te				例句：No encuentro el sentido exacto de te en esta frase.（在这个句子里，我找不到你[宾格]的确切意思。）
+row	sentence	te				例句：El diccionario sitúa te entre las entradas más consultadas.（词典把你[宾格]列为查询最多的词条之一。）
 row	sentence	con				例句：No encuentro el sentido exacto de con en esta frase.（在这个句子里，我找不到与的确切意思。）
 row	sentence	con				例句：El diccionario sitúa con entre las entradas más consultadas.（词典把与列为查询最多的词条之一。）
 row	sentence	con				例句：¿Cómo se traduce con al chino?（与用中文怎么说？）
@@ -8685,9 +8685,9 @@ row	sentence	tu				例句：En este texto, tu se usa con un matiz distinto.（�
 row	sentence	más				例句：El profesor escribió más en la pizarra y nos pidió un ejemplo.（老师在黑板上写下更多，让我们造个句子。）
 row	sentence	más				例句：En este texto, más se usa con un matiz distinto.（在这篇文章里，更多的用法略有不同。）
 row	sentence	más				例句：Repite más otra vez, por favor.（请再把更多念一遍。）
-row	sentence	le				例句：En este texto, le se usa con un matiz distinto.（在这篇文章里，他/她/您（与格）的用法略有不同。）
-row	sentence	le				例句：Repite le otra vez, por favor.（请再把他/她/您（与格）念一遍。）
-row	sentence	le				例句：Subraya la palabra le en la tercera línea.（请在第三行标出他/她/您（与格）这个词。）
+row	sentence	le				例句：En este texto, le se usa con un matiz distinto.（在这篇文章里，他/她/您[与格]的用法略有不同。）
+row	sentence	le				例句：Repite le otra vez, por favor.（请再把他/她/您[与格]念一遍。）
+row	sentence	le				例句：Subraya la palabra le en la tercera línea.（请在第三行标出他/她/您[与格]这个词。）
 row	sentence	éste				例句：Repite éste otra vez, por favor.（请再把这个念一遍。）
 row	sentence	éste				例句：Subraya la palabra éste en la tercera línea.（请在第三行标出这个这个词。）
 row	sentence	éste				例句：El uso de éste varía mucho entre países.（这个的用法在不同国家差别很大。）
@@ -8706,9 +8706,9 @@ row	sentence	muy				例句：En la pizarra escribieron el término muy.（他们
 row	sentence	ha				例句：Para mí, ha es algo imprescindible.（对我来说，哈是必不可少的东西。）
 row	sentence	ha				例句：De pequeño coleccionaba datos sobre ha.（他小时候就收集关于哈的资料。）
 row	sentence	ha				例句：El informe final incluye un apartado dedicado a ha.（最终报告里有一个专门讲哈的章节。）
-row	sentence	esta				例句：En la pizarra escribieron el término esta.（他们在黑板上写下了这个（阴性）这个词。）
-row	sentence	esta				例句：No encuentro el sentido exacto de esta en esta frase.（在这个句子里，我找不到这个（阴性）的确切意思。）
-row	sentence	esta				例句：El diccionario sitúa esta entre las entradas más consultadas.（词典把这个（阴性）列为查询最多的词条之一。）
+row	sentence	esta				例句：En la pizarra escribieron el término esta.（他们在黑板上写下了这个[阴性]这个词。）
+row	sentence	esta				例句：No encuentro el sentido exacto de esta en esta frase.（在这个句子里，我找不到这个[阴性]的确切意思。）
+row	sentence	esta				例句：El diccionario sitúa esta entre las entradas más consultadas.（词典把这个[阴性]列为查询最多的词条之一。）
 row	sentence	así				例句：No encuentro el sentido exacto de así en esta frase.（在这个句子里，我找不到所以的确切意思。）
 row	sentence	así				例句：El diccionario sitúa así entre las entradas más consultadas.（词典把所以列为查询最多的词条之一。）
 row	sentence	así				例句：¿Cómo se traduce así al chino?（所以用中文怎么说？）
@@ -8718,9 +8718,9 @@ row	sentence	vamos				例句：El profesor escribió vamos en la pizarra y nos p
 row	sentence	algo				例句：¿Cómo se traduce algo al chino?（某事用中文怎么说？）
 row	sentence	algo				例句：El profesor escribió algo en la pizarra y nos pidió un ejemplo.（老师在黑板上写下某事，让我们造个句子。）
 row	sentence	algo				例句：En este texto, algo se usa con un matiz distinto.（在这篇文章里，某事的用法略有不同。）
-row	sentence	hay				例句：Vale la pena hay aunque los resultados tarden.（即使见效慢，有（存在）也是值得的。）
-row	sentence	hay				例句：Cada mañana dedica media hora a hay.（他每天早上花半小时有（存在）。）
-row	sentence	hay				例句：Me cuesta hay, pero cada día lo hago un poco mejor.（有（存在）对我来说很难，但我每天都做得好一点。）
+row	sentence	hay				例句：Vale la pena hay aunque los resultados tarden.（即使见效慢，有[存在]也是值得的。）
+row	sentence	hay				例句：Cada mañana dedica media hora a hay.（他每天早上花半小时有[存在]。）
+row	sentence	hay				例句：Me cuesta hay, pero cada día lo hago un poco mejor.（有[存在]对我来说很难，但我每天都做得好一点。）
 row	sentence	bueno				例句：Desde lejos, el pueblo parecía bueno y tranquilo.（从远处看，这座村庄显得好而宁静。）
 row	sentence	bueno				例句：Hoy el profesor estaba de un humor bueno.（今天老师的心情很好。）
 row	sentence	bueno				例句：Su respuesta me dejó con una sensación buena.（他的回答给我留下一种好的感觉。）

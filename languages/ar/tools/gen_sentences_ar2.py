@@ -343,6 +343,7 @@ def main():
                         sents.append((a, t.replace('{z}', z or w)))
                     if len(sents) == 3:
                         break
+            sents = [[a, t.replace('（', '[').replace('）', ']')] for a, t in sents]
             master[w] = [list(p) for p in sents]
             e['example_ar'] = sents[0][0]
             e['example_zh'] = sents[0][1]

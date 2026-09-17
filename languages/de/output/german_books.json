@@ -61,15 +61,15 @@
         "sentences": [
           [
             "Das Wörterbuch zählt das zu den häufigsten Anfragen.",
-            "词典把定冠词（中性）列为查询最多的词条之一。"
+            "词典把定冠词[中性]列为查询最多的词条之一。"
           ],
           [
             "Wie übersetzt man das ins Chinesische?",
-            "定冠词（中性）用中文怎么说？"
+            "定冠词[中性]用中文怎么说？"
           ],
           [
             "Der Lehrer schrieb das an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下定冠词（中性），让我们造个句子。"
+            "老师在黑板上写下定冠词[中性]，让我们造个句子。"
           ]
         ]
       },
@@ -149,15 +149,15 @@
         "sentences": [
           [
             "Wiederhole bitte das Wort die.",
-            "请再把定冠词（阴性、复数）念一遍。"
+            "请再把定冠词[阴性、复数]念一遍。"
           ],
           [
             "Unterstreiche das Wort die in der dritten Zeile.",
-            "请在第三行标出定冠词（阴性、复数）这个词。"
+            "请在第三行标出定冠词[阴性、复数]这个词。"
           ],
           [
             "Der Gebrauch von die variiert stark zwischen Ländern.",
-            "定冠词（阴性、复数）的用法在不同国家差别很大。"
+            "定冠词[阴性、复数]的用法在不同国家差别很大。"
           ]
         ]
       },
@@ -215,15 +215,15 @@
         "sentences": [
           [
             "Es fällt mir schwer, der von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把定冠词（阳性）和相近的词区分开。"
+            "我很难把定冠词[阳性]和相近的词区分开。"
           ],
           [
             "Dieses Kapitel erklärt, wann man der verwendet.",
-            "这一章讲解什么时候用定冠词（阳性）。"
+            "这一章讲解什么时候用定冠词[阳性]。"
           ],
           [
             "Das Wort der erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，定冠词（阳性）这个词出现了好几次。"
+            "在这段对话里，定冠词[阳性]这个词出现了好几次。"
           ]
         ]
       },
@@ -325,15 +325,15 @@
         "sentences": [
           [
             "Das Wörterbuch zählt ein zu den häufigsten Anfragen.",
-            "词典把一个（不定冠词）列为查询最多的词条之一。"
+            "词典把一个[不定冠词]列为查询最多的词条之一。"
           ],
           [
             "Wie übersetzt man ein ins Chinesische?",
-            "一个（不定冠词）用中文怎么说？"
+            "一个[不定冠词]用中文怎么说？"
           ],
           [
             "Der Lehrer schrieb ein an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下一个（不定冠词），让我们造个句子。"
+            "老师在黑板上写下一个[不定冠词]，让我们造个句子。"
           ]
         ]
       },
@@ -451,21 +451,21 @@
         "word": "dass",
         "ipa": "das",
         "pos": "konj.",
-        "zh": "（引导从句）",
+        "zh": "（引导从属从句）；即；表明",
         "level": "a1",
         "rank": 24,
         "sentences": [
           [
             "Der Gebrauch von dass variiert stark zwischen Ländern.",
-            "（引导从句）的用法在不同国家差别很大。"
+            "[引导从句]的用法在不同国家差别很大。"
           ],
           [
             "Es fällt mir schwer, dass von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把（引导从句）和相近的词区分开。"
+            "我很难把[引导从句]和相近的词区分开。"
           ],
           [
             "Dieses Kapitel erklärt, wann man dass verwendet.",
-            "这一章讲解什么时候用（引导从句）。"
+            "这一章讲解什么时候用[引导从句]。"
           ]
         ]
       },
@@ -765,15 +765,15 @@
         "sentences": [
           [
             "Dieses Kapitel erklärt, wann man sich verwendet.",
-            "这一章讲解什么时候用自己（反身代词）。"
+            "这一章讲解什么时候用自己[反身代词]。"
           ],
           [
             "Das Wort sich erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，自己（反身代词）这个词出现了好几次。"
+            "在这段对话里，自己[反身代词]这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff sich.",
-            "他们在黑板上写下了自己（反身代词）这个词。"
+            "他们在黑板上写下了自己[反身代词]这个词。"
           ]
         ]
       },
@@ -1029,15 +1029,15 @@
         "sentences": [
           [
             "Dieses Kapitel erklärt, wann man im verwendet.",
-            "这一章讲解什么时候用在…里（in dem 缩合）。"
+            "这一章讲解什么时候用在…里[in dem 缩合]。"
           ],
           [
             "Das Wort im erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，在…里（in dem 缩合）这个词出现了好几次。"
+            "在这段对话里，在…里[in dem 缩合]这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff im.",
-            "他们在黑板上写下了在…里（in dem 缩合）这个词。"
+            "他们在黑板上写下了在…里[in dem 缩合]这个词。"
           ]
         ]
       },
@@ -1227,15 +1227,15 @@
         "sentences": [
           [
             "Unterstreiche das Wort man in der dritten Zeile.",
-            "请在第三行标出人们（泛指）这个词。"
+            "请在第三行标出人们[泛指]这个词。"
           ],
           [
             "Der Gebrauch von man variiert stark zwischen Ländern.",
-            "人们（泛指）的用法在不同国家差别很大。"
+            "人们[泛指]的用法在不同国家差别很大。"
           ],
           [
             "Es fällt mir schwer, man von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把人们（泛指）和相近的词区分开。"
+            "我很难把人们[泛指]和相近的词区分开。"
           ]
         ]
       },
@@ -1689,15 +1689,15 @@
         "sentences": [
           [
             "Der Lehrer schrieb zum an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下到…（zu dem 缩合），让我们造个句子。"
+            "老师在黑板上写下到…[zu dem 缩合]，让我们造个句子。"
           ],
           [
             "In diesem Text wird zum mit einer anderen Nuance verwendet.",
-            "在这篇文章里，到…（zu dem 缩合）的用法略有不同。"
+            "在这篇文章里，到…[zu dem 缩合]的用法略有不同。"
           ],
           [
             "Wiederhole bitte das Wort zum.",
-            "请再把到…（zu dem 缩合）念一遍。"
+            "请再把到…[zu dem 缩合]念一遍。"
           ]
         ]
       },
@@ -1997,15 +1997,15 @@
         "sentences": [
           [
             "Wiederhole bitte das Wort am.",
-            "请再把在（时刻、地点）念一遍。"
+            "请再把在[时刻、地点]念一遍。"
           ],
           [
             "Unterstreiche das Wort am in der dritten Zeile.",
-            "请在第三行标出在（时刻、地点）这个词。"
+            "请在第三行标出在[时刻、地点]这个词。"
           ],
           [
             "Der Gebrauch von am variiert stark zwischen Ländern.",
-            "在（时刻、地点）的用法在不同国家差别很大。"
+            "在[时刻、地点]的用法在不同国家差别很大。"
           ]
         ]
       },
@@ -2349,15 +2349,15 @@
         "sentences": [
           [
             "Dieses Kapitel erklärt, wann man zur verwendet.",
-            "这一章讲解什么时候用到…（zu der 缩合）。"
+            "这一章讲解什么时候用到…[zu der 缩合]。"
           ],
           [
             "Das Wort zur erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，到…（zu der 缩合）这个词出现了好几次。"
+            "在这段对话里，到…[zu der 缩合]这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff zur.",
-            "他们在黑板上写下了到…（zu der 缩合）这个词。"
+            "他们在黑板上写下了到…[zu der 缩合]这个词。"
           ]
         ]
       },
@@ -2415,15 +2415,15 @@
         "sentences": [
           [
             "Im Museum gibt es Exponate rund um Leute.",
-            "博物馆里保存着与人们（复数）相关的展品。"
+            "博物馆里保存着与人们[复数]相关的展品。"
           ],
           [
             "Diesem Buch ist ein ganzes Kapitel über Leute gewidmet.",
-            "这本书用整整一章讲人们（复数）。"
+            "这本书用整整一章讲人们[复数]。"
           ],
           [
             "Der Lehrer beantwortete alle Fragen zu Leute.",
-            "老师解答了关于人们（复数）的所有疑问。"
+            "老师解答了关于人们[复数]的所有疑问。"
           ]
         ]
       },
@@ -2921,15 +2921,15 @@
         "sentences": [
           [
             "An der Tafel stand der Begriff ins.",
-            "他们在黑板上写下了到…里（in das 缩合）这个词。"
+            "他们在黑板上写下了到…里[in das 缩合]这个词。"
           ],
           [
             "In diesem Satz finde ich die genaue Bedeutung von ins nicht.",
-            "在这个句子里，我找不到到…里（in das 缩合）的确切意思。"
+            "在这个句子里，我找不到到…里[in das 缩合]的确切意思。"
           ],
           [
             "Das Wörterbuch zählt ins zu den häufigsten Anfragen.",
-            "词典把到…里（in das 缩合）列为查询最多的词条之一。"
+            "词典把到…里[in das 缩合]列为查询最多的词条之一。"
           ]
         ]
       },
@@ -3031,15 +3031,15 @@
         "sentences": [
           [
             "In diesem Text wird vom mit einer anderen Nuance verwendet.",
-            "在这篇文章里，从（von dem 缩合）的用法略有不同。"
+            "在这篇文章里，从[von dem 缩合]的用法略有不同。"
           ],
           [
             "Wiederhole bitte das Wort vom.",
-            "请再把从（von dem 缩合）念一遍。"
+            "请再把从[von dem 缩合]念一遍。"
           ],
           [
             "Unterstreiche das Wort vom in der dritten Zeile.",
-            "请在第三行标出从（von dem 缩合）这个词。"
+            "请在第三行标出从[von dem 缩合]这个词。"
           ]
         ]
       },
@@ -3867,15 +3867,15 @@
         "sentences": [
           [
             "Unterstreiche das Wort beim in der dritten Zeile.",
-            "请在第三行标出在…时（bei dem 缩合）这个词。"
+            "请在第三行标出在…时[bei dem 缩合]这个词。"
           ],
           [
             "Der Gebrauch von beim variiert stark zwischen Ländern.",
-            "在…时（bei dem 缩合）的用法在不同国家差别很大。"
+            "在…时[bei dem 缩合]的用法在不同国家差别很大。"
           ],
           [
             "Es fällt mir schwer, beim von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把在…时（bei dem 缩合）和相近的词区分开。"
+            "我很难把在…时[bei dem 缩合]和相近的词区分开。"
           ]
         ]
       },
@@ -5825,15 +5825,15 @@
         "sentences": [
           [
             "An der Tafel stand der Begriff wen.",
-            "他们在黑板上写下了谁（宾语）这个词。"
+            "他们在黑板上写下了谁[宾语]这个词。"
           ],
           [
             "In diesem Satz finde ich die genaue Bedeutung von wen nicht.",
-            "在这个句子里，我找不到谁（宾语）的确切意思。"
+            "在这个句子里，我找不到谁[宾语]的确切意思。"
           ],
           [
             "Das Wörterbuch zählt wen zu den häufigsten Anfragen.",
-            "词典把谁（宾语）列为查询最多的词条之一。"
+            "词典把谁[宾语]列为查询最多的词条之一。"
           ]
         ]
       },
@@ -7123,15 +7123,15 @@
         "sentences": [
           [
             "Das Wort aufs erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，到…上（auf das 缩合）这个词出现了好几次。"
+            "在这段对话里，到…上[auf das 缩合]这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff aufs.",
-            "他们在黑板上写下了到…上（auf das 缩合）这个词。"
+            "他们在黑板上写下了到…上[auf das 缩合]这个词。"
           ],
           [
             "In diesem Satz finde ich die genaue Bedeutung von aufs nicht.",
-            "在这个句子里，我找不到到…上（auf das 缩合）的确切意思。"
+            "在这个句子里，我找不到到…上[auf das 缩合]的确切意思。"
           ]
         ]
       },
@@ -8069,15 +8069,15 @@
         "sentences": [
           [
             "Wiederhole bitte das Wort ans.",
-            "请再把到…旁（an das 缩合）念一遍。"
+            "请再把到…旁[an das 缩合]念一遍。"
           ],
           [
             "Unterstreiche das Wort ans in der dritten Zeile.",
-            "请在第三行标出到…旁（an das 缩合）这个词。"
+            "请在第三行标出到…旁[an das 缩合]这个词。"
           ],
           [
             "Der Gebrauch von ans variiert stark zwischen Ländern.",
-            "到…旁（an das 缩合）的用法在不同国家差别很大。"
+            "到…旁[an das 缩合]的用法在不同国家差别很大。"
           ]
         ]
       },
@@ -8729,15 +8729,15 @@
         "sentences": [
           [
             "Er sagte, er würde lieber zu Hause gucken.",
-            "他说他更愿意在家里看（口语）。"
+            "他说他更愿意在家里看[口语]。"
           ],
           [
             "Nachdem er lange gucken hatte, fühlte er sich erschöpft.",
-            "长时间看（口语）之后，他感到疲惫。"
+            "长时间看[口语]之后，他感到疲惫。"
           ],
           [
             "Dieses Projekt verlangt, konzentriert zu gucken.",
-            "这个项目要求全神贯注地看（口语）。"
+            "这个项目要求全神贯注地看[口语]。"
           ]
         ]
       },
@@ -10995,15 +10995,15 @@
         "sentences": [
           [
             "Im Museum gibt es Exponate rund um Kleider.",
-            "博物馆里保存着与衣服（复数）相关的展品。"
+            "博物馆里保存着与衣服[复数]相关的展品。"
           ],
           [
             "Diesem Buch ist ein ganzes Kapitel über Kleider gewidmet.",
-            "这本书用整整一章讲衣服（复数）。"
+            "这本书用整整一章讲衣服[复数]。"
           ],
           [
             "Der Lehrer beantwortete alle Fragen zu Kleider.",
-            "老师解答了关于衣服（复数）的所有疑问。"
+            "老师解答了关于衣服[复数]的所有疑问。"
           ]
         ]
       },
@@ -11083,15 +11083,15 @@
         "sentences": [
           [
             "Das Wort meins erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，我的（东西）这个词出现了好几次。"
+            "在这段对话里，我的[东西]这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff meins.",
-            "他们在黑板上写下了我的（东西）这个词。"
+            "他们在黑板上写下了我的[东西]这个词。"
           ],
           [
             "In diesem Satz finde ich die genaue Bedeutung von meins nicht.",
-            "在这个句子里，我找不到我的（东西）的确切意思。"
+            "在这个句子里，我找不到我的[东西]的确切意思。"
           ]
         ]
       },
@@ -13107,15 +13107,15 @@
         "sentences": [
           [
             "Unterstreiche das Wort vorm in der dritten Zeile.",
-            "请在第三行标出在…前（vor dem 缩合）这个词。"
+            "请在第三行标出在…前[vor dem 缩合]这个词。"
           ],
           [
             "Der Gebrauch von vorm variiert stark zwischen Ländern.",
-            "在…前（vor dem 缩合）的用法在不同国家差别很大。"
+            "在…前[vor dem 缩合]的用法在不同国家差别很大。"
           ],
           [
             "Es fällt mir schwer, vorm von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把在…前（vor dem 缩合）和相近的词区分开。"
+            "我很难把在…前[vor dem 缩合]和相近的词区分开。"
           ]
         ]
       },
@@ -14069,7 +14069,7 @@
         "word": "Orange",
         "ipa": "oːʁanɡə",
         "pos": "n.f.",
-        "zh": "橙子；橙色的",
+        "zh": "橙子；柑橘",
         "level": "a1",
         "rank": 6001,
         "sentences": [
@@ -14715,15 +14715,15 @@
         "sentences": [
           [
             "Der Gebrauch von raus variiert stark zwischen Ländern.",
-            "出去（口语）的用法在不同国家差别很大。"
+            "出去[口语]的用法在不同国家差别很大。"
           ],
           [
             "Es fällt mir schwer, raus von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把出去（口语）和相近的词区分开。"
+            "我很难把出去[口语]和相近的词区分开。"
           ],
           [
             "Dieses Kapitel erklärt, wann man raus verwendet.",
-            "这一章讲解什么时候用出去（口语）。"
+            "这一章讲解什么时候用出去[口语]。"
           ]
         ]
       },
@@ -14781,15 +14781,15 @@
         "sentences": [
           [
             "Das Wort wieso erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，为什么（口语）这个词出现了好几次。"
+            "在这段对话里，为什么[口语]这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff wieso.",
-            "他们在黑板上写下了为什么（口语）这个词。"
+            "他们在黑板上写下了为什么[口语]这个词。"
           ],
           [
             "In diesem Satz finde ich die genaue Bedeutung von wieso nicht.",
-            "在这个句子里，我找不到为什么（口语）的确切意思。"
+            "在这个句子里，我找不到为什么[口语]的确切意思。"
           ]
         ]
       },
@@ -14847,15 +14847,15 @@
         "sentences": [
           [
             "Das Wörterbuch zählt her zu den häufigsten Anfragen.",
-            "词典把（方向）过来列为查询最多的词条之一。"
+            "词典把[方向]过来列为查询最多的词条之一。"
           ],
           [
             "Wie übersetzt man her ins Chinesische?",
-            "（方向）过来用中文怎么说？"
+            "[方向]过来用中文怎么说？"
           ],
           [
             "Der Lehrer schrieb her an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下（方向）过来，让我们造个句子。"
+            "老师在黑板上写下[方向]过来，让我们造个句子。"
           ]
         ]
       },
@@ -14869,15 +14869,15 @@
         "sentences": [
           [
             "Wie übersetzt man gar ins Chinesische?",
-            "完全（用于否定强调）用中文怎么说？"
+            "完全[用于否定强调]用中文怎么说？"
           ],
           [
             "Der Lehrer schrieb gar an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下完全（用于否定强调），让我们造个句子。"
+            "老师在黑板上写下完全[用于否定强调]，让我们造个句子。"
           ],
           [
             "In diesem Text wird gar mit einer anderen Nuance verwendet.",
-            "在这篇文章里，完全（用于否定强调）的用法略有不同。"
+            "在这篇文章里，完全[用于否定强调]的用法略有不同。"
           ]
         ]
       },
@@ -15023,15 +15023,15 @@
         "sentences": [
           [
             "Dieses Kapitel erklärt, wann man hin verwendet.",
-            "这一章讲解什么时候用（方向）过去。"
+            "这一章讲解什么时候用[方向]过去。"
           ],
           [
             "Das Wort hin erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，（方向）过去这个词出现了好几次。"
+            "在这段对话里，[方向]过去这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff hin.",
-            "他们在黑板上写下了（方向）过去这个词。"
+            "他们在黑板上写下了[方向]过去这个词。"
           ]
         ]
       },
@@ -15133,15 +15133,15 @@
         "sentences": [
           [
             "Wie übersetzt man rein ins Chinesische?",
-            "进来（口语）用中文怎么说？"
+            "进来[口语]用中文怎么说？"
           ],
           [
             "Der Lehrer schrieb rein an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下进来（口语），让我们造个句子。"
+            "老师在黑板上写下进来[口语]，让我们造个句子。"
           ],
           [
             "In diesem Text wird rein mit einer anderen Nuance verwendet.",
-            "在这篇文章里，进来（口语）的用法略有不同。"
+            "在这篇文章里，进来[口语]的用法略有不同。"
           ]
         ]
       },
@@ -15265,15 +15265,15 @@
         "sentences": [
           [
             "Es fällt mir schwer, halt von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把就是（语气词）和相近的词区分开。"
+            "我很难把就是[语气词]和相近的词区分开。"
           ],
           [
             "Dieses Kapitel erklärt, wann man halt verwendet.",
-            "这一章讲解什么时候用就是（语气词）。"
+            "这一章讲解什么时候用就是[语气词]。"
           ],
           [
             "Das Wort halt erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，就是（语气词）这个词出现了好几次。"
+            "在这段对话里，就是[语气词]这个词出现了好几次。"
           ]
         ]
       },
@@ -15529,15 +15529,15 @@
         "sentences": [
           [
             "Heute war der Lehrer echt gelaunt.",
-            "今天老师的心情很真的（口语）。"
+            "今天老师的心情很真的[口语]。"
           ],
           [
             "Ehrlich gesagt war das Essen sehr echt.",
-            "说实话，那顿饭很真的（口语）。"
+            "说实话，那顿饭很真的[口语]。"
           ],
           [
             "Von weitem sah dieser Ort echt und ruhig aus.",
-            "从远处看，那个地方显得真的（口语）而宁静。"
+            "从远处看，那个地方显得真的[口语]而宁静。"
           ]
         ]
       },
@@ -15837,15 +15837,15 @@
         "sentences": [
           [
             "Das Wort runter erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，下来（口语）这个词出现了好几次。"
+            "在这段对话里，下来[口语]这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff runter.",
-            "他们在黑板上写下了下来（口语）这个词。"
+            "他们在黑板上写下了下来[口语]这个词。"
           ],
           [
             "In diesem Satz finde ich die genaue Bedeutung von runter nicht.",
-            "在这个句子里，我找不到下来（口语）的确切意思。"
+            "在这个句子里，我找不到下来[口语]的确切意思。"
           ]
         ]
       },
@@ -15991,15 +15991,15 @@
         "sentences": [
           [
             "Wiederhole bitte das Wort drin.",
-            "请再把在里面（口语）念一遍。"
+            "请再把在里面[口语]念一遍。"
           ],
           [
             "Unterstreiche das Wort drin in der dritten Zeile.",
-            "请在第三行标出在里面（口语）这个词。"
+            "请在第三行标出在里面[口语]这个词。"
           ],
           [
             "Der Gebrauch von drin variiert stark zwischen Ländern.",
-            "在里面（口语）的用法在不同国家差别很大。"
+            "在里面[口语]的用法在不同国家差别很大。"
           ]
         ]
       },
@@ -17025,15 +17025,15 @@
         "sentences": [
           [
             "Fast niemand schafft es beim ersten Mal zu kriegen.",
-            "几乎没人第一次就能得到（口语）成功。"
+            "几乎没人第一次就能得到[口语]成功。"
           ],
           [
             "Wenn du kriegen willst, fang am besten sofort an.",
-            "如果你想得到（口语），最好马上开始。"
+            "如果你想得到[口语]，最好马上开始。"
           ],
           [
             "Er begann zu kriegen, bevor der Wecker klingelte.",
-            "闹钟还没响，他就开始得到（口语）了。"
+            "闹钟还没响，他就开始得到[口语]了。"
           ]
         ]
       },
@@ -17223,15 +17223,15 @@
         "sentences": [
           [
             "Das Wörterbuch zählt irgendwas zu den häufigsten Anfragen.",
-            "词典把某些东西（口语）列为查询最多的词条之一。"
+            "词典把某些东西[口语]列为查询最多的词条之一。"
           ],
           [
             "Wie übersetzt man irgendwas ins Chinesische?",
-            "某些东西（口语）用中文怎么说？"
+            "某些东西[口语]用中文怎么说？"
           ],
           [
             "Der Lehrer schrieb irgendwas an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下某些东西（口语），让我们造个句子。"
+            "老师在黑板上写下某些东西[口语]，让我们造个句子。"
           ]
         ]
       },
@@ -17773,15 +17773,15 @@
         "sentences": [
           [
             "Die Nachricht über Kumpel verbreitete sich blitzartig.",
-            "伙伴（口语）的消息瞬间传开了。"
+            "伙伴[口语]的消息瞬间传开了。"
           ],
           [
             "In diesem Film geht es im Kern um Kumpel.",
-            "这部电影归根结底讲的是伙伴（口语）。"
+            "这部电影归根结底讲的是伙伴[口语]。"
           ],
           [
             "Denk besser frühzeitig an Kumpel.",
-            "预防总比补救好：我们最好尽早考虑伙伴（口语）。"
+            "预防总比补救好：我们最好尽早考虑伙伴[口语]。"
           ]
         ]
       },
@@ -19203,15 +19203,15 @@
         "sentences": [
           [
             "Reden wir weiter über Zeug oder wechselst du das Thema?",
-            "我们继续聊东西（口语），还是你想换个话题？"
+            "我们继续聊东西[口语]，还是你想换个话题？"
           ],
           [
             "Ich verstehe immer besser, wie Zeug funktioniert.",
-            "我越来越明白东西（口语）是怎么运作的了。"
+            "我越来越明白东西[口语]是怎么运作的了。"
           ],
           [
             "Diesen Sommer möchte ich mehr über Zeug erfahren.",
-            "今年夏天我想多了解东西（口语）。"
+            "今年夏天我想多了解东西[口语]。"
           ]
         ]
       },
@@ -19225,15 +19225,15 @@
         "sentences": [
           [
             "Er versprach, bis Ende der Woche zu umbringen.",
-            "他答应在周末前杀害（口语）。"
+            "他答应在周末前杀害[口语]。"
           ],
           [
             "Wenn etwas unklar ist, frage lieber, bevor du anfängst zu umbringen.",
-            "如果有不明白的地方，先问再杀害（口语）。"
+            "如果有不明白的地方，先问再杀害[口语]。"
           ],
           [
             "Bevor du eine Entscheidung triffst, solltest du ruhig umbringen.",
-            "做决定之前，你应该冷静地杀害（口语）。"
+            "做决定之前，你应该冷静地杀害[口语]。"
           ]
         ]
       },
@@ -20435,15 +20435,15 @@
         "sentences": [
           [
             "Der Lehrer schrieb rum an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下到处（口语），让我们造个句子。"
+            "老师在黑板上写下到处[口语]，让我们造个句子。"
           ],
           [
             "In diesem Text wird rum mit einer anderen Nuance verwendet.",
-            "在这篇文章里，到处（口语）的用法略有不同。"
+            "在这篇文章里，到处[口语]的用法略有不同。"
           ],
           [
             "Wiederhole bitte das Wort rum.",
-            "请再把到处（口语）念一遍。"
+            "请再把到处[口语]念一遍。"
           ]
         ]
       },
@@ -20655,15 +20655,15 @@
         "sentences": [
           [
             "Das Wörterbuch zählt fürs zu den häufigsten Anfragen.",
-            "词典把为了（für das 缩合）列为查询最多的词条之一。"
+            "词典把为了[für das 缩合]列为查询最多的词条之一。"
           ],
           [
             "Wie übersetzt man fürs ins Chinesische?",
-            "为了（für das 缩合）用中文怎么说？"
+            "为了[für das 缩合]用中文怎么说？"
           ],
           [
             "Der Lehrer schrieb fürs an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下为了（für das 缩合），让我们造个句子。"
+            "老师在黑板上写下为了[für das 缩合]，让我们造个句子。"
           ]
         ]
       },
@@ -20699,15 +20699,15 @@
         "sentences": [
           [
             "Heute haben wir im Unterricht den Begriff Klappe analysiert.",
-            "今天课上我们分析了嘴（口语）这个概念。"
+            "今天课上我们分析了嘴[口语]这个概念。"
           ],
           [
             "Wir haben den ganzen Abend über Klappe gesprochen.",
-            "我们聊了一晚上嘴（口语）。"
+            "我们聊了一晚上嘴[口语]。"
           ],
           [
             "Schon als Kind sammelte er Materialien über Klappe.",
-            "他小时候就收集关于嘴（口语）的资料。"
+            "他小时候就收集关于嘴[口语]的资料。"
           ]
         ]
       },
@@ -21095,15 +21095,15 @@
         "sentences": [
           [
             "Dieses Kapitel erklärt, wann man rüber verwendet.",
-            "这一章讲解什么时候用过去（口语）。"
+            "这一章讲解什么时候用过去[口语]。"
           ],
           [
             "Das Wort rüber erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，过去（口语）这个词出现了好几次。"
+            "在这段对话里，过去[口语]这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff rüber.",
-            "他们在黑板上写下了过去（口语）这个词。"
+            "他们在黑板上写下了过去[口语]这个词。"
           ]
         ]
       },
@@ -22173,15 +22173,15 @@
         "sentences": [
           [
             "Es bringt nichts, erst in letzter Minute zu erwischen.",
-            "拖到最后关头才抓住（口语）毫无意义。"
+            "拖到最后关头才抓住[口语]毫无意义。"
           ],
           [
             "Jeden Morgen widmet er eine halbe Stunde dem erwischen.",
-            "他每天早上花半小时抓住（口语）。"
+            "他每天早上花半小时抓住[口语]。"
           ],
           [
             "Mit ständiger Übung kann jeder lernen zu erwischen.",
-            "只要坚持练习，任何人都能学会抓住（口语）。"
+            "只要坚持练习，任何人都能学会抓住[口语]。"
           ]
         ]
       },
@@ -22459,15 +22459,15 @@
         "sentences": [
           [
             "An der Tafel stand der Begriff selber.",
-            "他们在黑板上写下了自己（口语）这个词。"
+            "他们在黑板上写下了自己[口语]这个词。"
           ],
           [
             "In diesem Satz finde ich die genaue Bedeutung von selber nicht.",
-            "在这个句子里，我找不到自己（口语）的确切意思。"
+            "在这个句子里，我找不到自己[口语]的确切意思。"
           ],
           [
             "Das Wörterbuch zählt selber zu den häufigsten Anfragen.",
-            "词典把自己（口语）列为查询最多的词条之一。"
+            "词典把自己[口语]列为查询最多的词条之一。"
           ]
         ]
       },
@@ -23625,15 +23625,15 @@
         "sentences": [
           [
             "In diesem Text wird entweder mit einer anderen Nuance verwendet.",
-            "在这篇文章里，或者（二选一）的用法略有不同。"
+            "在这篇文章里，或者[二选一]的用法略有不同。"
           ],
           [
             "Wiederhole bitte das Wort entweder.",
-            "请再把或者（二选一）念一遍。"
+            "请再把或者[二选一]念一遍。"
           ],
           [
             "Unterstreiche das Wort entweder in der dritten Zeile.",
-            "请在第三行标出或者（二选一）这个词。"
+            "请在第三行标出或者[二选一]这个词。"
           ]
         ]
       },
@@ -25913,15 +25913,15 @@
         "sentences": [
           [
             "Im ganzen Haus sprach man nur über Bulle.",
-            "全家上下都在谈论警察（俚）。"
+            "全家上下都在谈论警察[俚]。"
           ],
           [
             "Für mich ist Bulle einfach unverzichtbar.",
-            "对我来说，警察（俚）是必不可少的东西。"
+            "对我来说，警察[俚]是必不可少的东西。"
           ],
           [
             "Mir fehlt das Vokabular, um Bulle genau zu erklären.",
-            "我的词汇量不够，没法精确解释警察（俚）。"
+            "我的词汇量不够，没法精确解释警察[俚]。"
           ]
         ]
       },
@@ -25979,15 +25979,15 @@
         "sentences": [
           [
             "Der Lehrer schrieb deren an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下其（属格），让我们造个句子。"
+            "老师在黑板上写下其[属格]，让我们造个句子。"
           ],
           [
             "In diesem Text wird deren mit einer anderen Nuance verwendet.",
-            "在这篇文章里，其（属格）的用法略有不同。"
+            "在这篇文章里，其[属格]的用法略有不同。"
           ],
           [
             "Wiederhole bitte das Wort deren.",
-            "请再把其（属格）念一遍。"
+            "请再把其[属格]念一遍。"
           ]
         ]
       },
@@ -26353,15 +26353,15 @@
         "sentences": [
           [
             "Es fällt mir schwer, sowas von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把这种事（口语）和相近的词区分开。"
+            "我很难把这种事[口语]和相近的词区分开。"
           ],
           [
             "Dieses Kapitel erklärt, wann man sowas verwendet.",
-            "这一章讲解什么时候用这种事（口语）。"
+            "这一章讲解什么时候用这种事[口语]。"
           ],
           [
             "Das Wort sowas erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，这种事（口语）这个词出现了好几次。"
+            "在这段对话里，这种事[口语]这个词出现了好几次。"
           ]
         ]
       },
@@ -26771,15 +26771,15 @@
         "sentences": [
           [
             "Der Lehrer schrieb dessen an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下其（属格），让我们造个句子。"
+            "老师在黑板上写下其[属格]，让我们造个句子。"
           ],
           [
             "In diesem Text wird dessen mit einer anderen Nuance verwendet.",
-            "在这篇文章里，其（属格）的用法略有不同。"
+            "在这篇文章里，其[属格]的用法略有不同。"
           ],
           [
             "Wiederhole bitte das Wort dessen.",
-            "请再把其（属格）念一遍。"
+            "请再把其[属格]念一遍。"
           ]
         ]
       },
@@ -27277,15 +27277,15 @@
         "sentences": [
           [
             "Bis Freitag muss ich Maul wiederholen.",
-            "周五之前我得复习嘴（粗俗）。"
+            "周五之前我得复习嘴[粗俗]。"
           ],
           [
             "Im ganzen Haus sprach man nur über Maul.",
-            "全家上下都在谈论嘴（粗俗）。"
+            "全家上下都在谈论嘴[粗俗]。"
           ],
           [
             "Für mich ist Maul einfach unverzichtbar.",
-            "对我来说，嘴（粗俗）是必不可少的东西。"
+            "对我来说，嘴[粗俗]是必不可少的东西。"
           ]
         ]
       },
@@ -27343,15 +27343,15 @@
         "sentences": [
           [
             "Wiederhole bitte das Wort hinaus.",
-            "请再把出去（方向）念一遍。"
+            "请再把出去[方向]念一遍。"
           ],
           [
             "Unterstreiche das Wort hinaus in der dritten Zeile.",
-            "请在第三行标出出去（方向）这个词。"
+            "请在第三行标出出去[方向]这个词。"
           ],
           [
             "Der Gebrauch von hinaus variiert stark zwischen Ländern.",
-            "出去（方向）的用法在不同国家差别很大。"
+            "出去[方向]的用法在不同国家差别很大。"
           ]
         ]
       },
@@ -27563,15 +27563,15 @@
         "sentences": [
           [
             "Übrigens, zu Mädel: hast du die heutigen Nachrichten gesehen?",
-            "说到女孩（口语），你看今天的新闻了吗？"
+            "说到女孩[口语]，你看今天的新闻了吗？"
           ],
           [
             "Im Abschlussbericht gibt es ein eigenes Kapitel über Mädel.",
-            "最终报告里有一个专门讲女孩（口语）的章节。"
+            "最终报告里有一个专门讲女孩[口语]的章节。"
           ],
           [
             "Dieser Kommentar zeigt, dass er sich mit Mädel auskennt.",
-            "那个评论说明他对女孩（口语）很在行。"
+            "那个评论说明他对女孩[口语]很在行。"
           ]
         ]
       },
@@ -27915,15 +27915,15 @@
         "sentences": [
           [
             "Wir haben den ganzen Abend über Knast gesprochen.",
-            "我们聊了一晚上监狱（口语）。"
+            "我们聊了一晚上监狱[口语]。"
           ],
           [
             "Schon als Kind sammelte er Materialien über Knast.",
-            "他小时候就收集关于监狱（口语）的资料。"
+            "他小时候就收集关于监狱[口语]的资料。"
           ],
           [
             "Mit Knast spielt man nicht: sei vorsichtig.",
-            "监狱（口语）可不能当儿戏，必须小心。"
+            "监狱[口语]可不能当儿戏，必须小心。"
           ]
         ]
       },
@@ -28619,15 +28619,15 @@
         "sentences": [
           [
             "Der Lehrer schrieb rauf an die Tafel und verlangte ein Beispiel.",
-            "老师在黑板上写下上去（口语），让我们造个句子。"
+            "老师在黑板上写下上去[口语]，让我们造个句子。"
           ],
           [
             "In diesem Text wird rauf mit einer anderen Nuance verwendet.",
-            "在这篇文章里，上去（口语）的用法略有不同。"
+            "在这篇文章里，上去[口语]的用法略有不同。"
           ],
           [
             "Wiederhole bitte das Wort rauf.",
-            "请再把上去（口语）念一遍。"
+            "请再把上去[口语]念一遍。"
           ]
         ]
       },
@@ -28795,15 +28795,15 @@
         "sentences": [
           [
             "An der Tafel stand der Begriff eh.",
-            "他们在黑板上写下了反正（口语）这个词。"
+            "他们在黑板上写下了反正[口语]这个词。"
           ],
           [
             "In diesem Satz finde ich die genaue Bedeutung von eh nicht.",
-            "在这个句子里，我找不到反正（口语）的确切意思。"
+            "在这个句子里，我找不到反正[口语]的确切意思。"
           ],
           [
             "Das Wörterbuch zählt eh zu den häufigsten Anfragen.",
-            "词典把反正（口语）列为查询最多的词条之一。"
+            "词典把反正[口语]列为查询最多的词条之一。"
           ]
         ]
       },
@@ -29455,15 +29455,15 @@
         "sentences": [
           [
             "Ich habe noch nie jemanden so engagiert kapieren sehen.",
-            "我从没见过有人如此投入地明白（口语）。"
+            "我从没见过有人如此投入地明白[口语]。"
           ],
           [
             "Erzähl mir, wie du gelernt hast zu kapieren.",
-            "跟我讲讲你是怎么学会明白（口语）的。"
+            "跟我讲讲你是怎么学会明白[口语]的。"
           ],
           [
             "Er hat gelernt zu kapieren, indem er abends Videos sah.",
-            "他靠晚上看视频学会了明白（口语）。"
+            "他靠晚上看视频学会了明白[口语]。"
           ]
         ]
       },
@@ -30489,15 +30489,15 @@
         "sentences": [
           [
             "Morgen fahren wir in die Stadt, um zu feuern.",
-            "明天我们进城去解雇（口语）。"
+            "明天我们进城去解雇[口语]。"
           ],
           [
             "Er versprach, bis Ende der Woche zu feuern.",
-            "他答应在周末前解雇（口语）。"
+            "他答应在周末前解雇[口语]。"
           ],
           [
             "Wenn etwas unklar ist, frage lieber, bevor du anfängst zu feuern.",
-            "如果有不明白的地方，先问再解雇（口语）。"
+            "如果有不明白的地方，先问再解雇[口语]。"
           ]
         ]
       },
@@ -31875,15 +31875,15 @@
         "sentences": [
           [
             "Der Gebrauch von derjenige variiert stark zwischen Ländern.",
-            "那个（人）的用法在不同国家差别很大。"
+            "那个[人]的用法在不同国家差别很大。"
           ],
           [
             "Es fällt mir schwer, derjenige von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把那个（人）和相近的词区分开。"
+            "我很难把那个[人]和相近的词区分开。"
           ],
           [
             "Dieses Kapitel erklärt, wann man derjenige verwendet.",
-            "这一章讲解什么时候用那个（人）。"
+            "这一章讲解什么时候用那个[人]。"
           ]
         ]
       },
@@ -31963,15 +31963,15 @@
         "sentences": [
           [
             "Als er jung war, pflegte er sonntags zu schnappen.",
-            "年轻时他常常在星期天抓住（口语）。"
+            "年轻时他常常在星期天抓住[口语]。"
           ],
           [
             "Der Arzt riet ihm, täglich zu schnappen.",
-            "医生建议他每天抓住（口语）。"
+            "医生建议他每天抓住[口语]。"
           ],
           [
             "Es fällt mir schwer zu schnappen, aber es wird besser.",
-            "抓住（口语）对我来说很难，但正在变好。"
+            "抓住[口语]对我来说很难，但正在变好。"
           ]
         ]
       },
@@ -32997,15 +32997,15 @@
         "sentences": [
           [
             "Bevor du eine Entscheidung triffst, solltest du ruhig reinkommen.",
-            "做决定之前，你应该冷静地进来（口语）。"
+            "做决定之前，你应该冷静地进来[口语]。"
           ],
           [
             "Es lohnt sich zu reinkommen, auch wenn es dauert.",
-            "即使见效慢，进来（口语）也是值得的。"
+            "即使见效慢，进来[口语]也是值得的。"
           ],
           [
             "Der Lehrer hat uns gebeten, ohne Hilfe zu reinkommen.",
-            "老师请求我们不靠帮助去进来（口语）。"
+            "老师请求我们不靠帮助去进来[口语]。"
           ]
         ]
       },
@@ -33173,15 +33173,15 @@
         "sentences": [
           [
             "Unterstreiche das Wort ums in der dritten Zeile.",
-            "请在第三行标出关于（um das 缩合）这个词。"
+            "请在第三行标出关于[um das 缩合]这个词。"
           ],
           [
             "Der Gebrauch von ums variiert stark zwischen Ländern.",
-            "关于（um das 缩合）的用法在不同国家差别很大。"
+            "关于[um das 缩合]的用法在不同国家差别很大。"
           ],
           [
             "Es fällt mir schwer, ums von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把关于（um das 缩合）和相近的词区分开。"
+            "我很难把关于[um das 缩合]和相近的词区分开。"
           ]
         ]
       },
@@ -33613,15 +33613,15 @@
         "sentences": [
           [
             "Dass das Projekt weitergeht, ist riesen für uns alle.",
-            "项目能继续推进，对大家来说是件巨大的（口语）的事。"
+            "项目能继续推进，对大家来说是件巨大的[口语]的事。"
           ],
           [
             "Über Geld mit der Familie zu sprechen ist immer riesen.",
-            "和家人谈钱总是很巨大的（口语）。"
+            "和家人谈钱总是很巨大的[口语]。"
           ],
           [
             "Für ein erstes Buch ist es ziemlich riesen geschrieben.",
-            "作为他的第一本书，写得相当巨大的（口语）。"
+            "作为他的第一本书，写得相当巨大的[口语]。"
           ]
         ]
       },
@@ -33855,15 +33855,15 @@
         "sentences": [
           [
             "Es fällt mir schwer zu klauen, aber es wird besser.",
-            "偷（口语）对我来说很难，但正在变好。"
+            "偷[口语]对我来说很难，但正在变好。"
           ],
           [
             "Er sagte, er würde lieber zu Hause klauen.",
-            "他说他更愿意在家里偷（口语）。"
+            "他说他更愿意在家里偷[口语]。"
           ],
           [
             "Nachdem er lange klauen hatte, fühlte er sich erschöpft.",
-            "长时间偷（口语）之后，他感到疲惫。"
+            "长时间偷[口语]之后，他感到疲惫。"
           ]
         ]
       },
@@ -34119,15 +34119,15 @@
         "sentences": [
           [
             "Endlich habe ich Zeit zu abhauen.",
-            "我终于有时间去溜走（口语）了。"
+            "我终于有时间去溜走[口语]了。"
           ],
           [
             "Ich habe noch nie jemanden so engagiert abhauen sehen.",
-            "我从没见过有人如此投入地溜走（口语）。"
+            "我从没见过有人如此投入地溜走[口语]。"
           ],
           [
             "Erzähl mir, wie du gelernt hast zu abhauen.",
-            "跟我讲讲你是怎么学会溜走（口语）的。"
+            "跟我讲讲你是怎么学会溜走[口语]的。"
           ]
         ]
       },
@@ -34867,15 +34867,15 @@
         "sentences": [
           [
             "Mit Schnauze hatte ich früher noch nie zu tun.",
-            "我以前从未接触过嘴（粗俗）。"
+            "我以前从未接触过嘴[粗俗]。"
           ],
           [
             "Übrigens, zu Schnauze: hast du die heutigen Nachrichten gesehen?",
-            "说到嘴（粗俗），你看今天的新闻了吗？"
+            "说到嘴[粗俗]，你看今天的新闻了吗？"
           ],
           [
             "Im Abschlussbericht gibt es ein eigenes Kapitel über Schnauze.",
-            "最终报告里有一个专门讲嘴（粗俗）的章节。"
+            "最终报告里有一个专门讲嘴[粗俗]的章节。"
           ]
         ]
       },
@@ -38035,15 +38035,15 @@
         "sentences": [
           [
             "Ich habe noch nie jemanden so engagiert fressen sehen.",
-            "我从没见过有人如此投入地吞食（动物）。"
+            "我从没见过有人如此投入地吞食[动物]。"
           ],
           [
             "Erzähl mir, wie du gelernt hast zu fressen.",
-            "跟我讲讲你是怎么学会吞食（动物）的。"
+            "跟我讲讲你是怎么学会吞食[动物]的。"
           ],
           [
             "Er hat gelernt zu fressen, indem er abends Videos sah.",
-            "他靠晚上看视频学会了吞食（动物）。"
+            "他靠晚上看视频学会了吞食[动物]。"
           ]
         ]
       },
@@ -38145,15 +38145,15 @@
         "sentences": [
           [
             "In diesem Text wird welch mit einer anderen Nuance verwendet.",
-            "在这篇文章里，多么（感叹）的用法略有不同。"
+            "在这篇文章里，多么[感叹]的用法略有不同。"
           ],
           [
             "Wiederhole bitte das Wort welch.",
-            "请再把多么（感叹）念一遍。"
+            "请再把多么[感叹]念一遍。"
           ],
           [
             "Unterstreiche das Wort welch in der dritten Zeile.",
-            "请在第三行标出多么（感叹）这个词。"
+            "请在第三行标出多么[感叹]这个词。"
           ]
         ]
       },
@@ -39047,15 +39047,15 @@
         "sentences": [
           [
             "Nachdem er lange spinnen hatte, fühlte er sich erschöpft.",
-            "长时间发疯（口语）之后，他感到疲惫。"
+            "长时间发疯[口语]之后，他感到疲惫。"
           ],
           [
             "Dieses Projekt verlangt, konzentriert zu spinnen.",
-            "这个项目要求全神贯注地发疯（口语）。"
+            "这个项目要求全神贯注地发疯[口语]。"
           ],
           [
             "Hast du Lust, am Wochenende zu spinnen?",
-            "周末你想不想去发疯（口语）？"
+            "周末你想不想去发疯[口语]？"
           ]
         ]
       },
@@ -39091,15 +39091,15 @@
         "sentences": [
           [
             "Schon als Kind sammelte er Materialien über Cent.",
-            "他小时候就收集关于分（货币）的资料。"
+            "他小时候就收集关于分[货币]的资料。"
           ],
           [
             "Mit Cent spielt man nicht: sei vorsichtig.",
-            "分（货币）可不能当儿戏，必须小心。"
+            "分[货币]可不能当儿戏，必须小心。"
           ],
           [
             "Reden wir weiter über Cent oder wechselst du das Thema?",
-            "我们继续聊分（货币），还是你想换个话题？"
+            "我们继续聊分[货币]，还是你想换个话题？"
           ]
         ]
       },
@@ -39239,7 +39239,7 @@
         "word": "Zweck",
         "ipa": "t͡svɛk",
         "pos": "n.m.",
-        "zh": "目的",
+        "zh": "目的；意图；宗旨",
         "level": "a2",
         "rank": 2853,
         "sentences": [
@@ -39465,15 +39465,15 @@
         "sentences": [
           [
             "Denk besser frühzeitig an Klo.",
-            "预防总比补救好：我们最好尽早考虑厕所（口语）。"
+            "预防总比补救好：我们最好尽早考虑厕所[口语]。"
           ],
           [
             "Dank Klo konnte das Projekt weitergehen.",
-            "多亏了厕所（口语），项目得以推进。"
+            "多亏了厕所[口语]，项目得以推进。"
           ],
           [
             "Im Museum gibt es Exponate rund um Klo.",
-            "博物馆里保存着与厕所（口语）相关的展品。"
+            "博物馆里保存着与厕所[口语]相关的展品。"
           ]
         ]
       },
@@ -39509,15 +39509,15 @@
         "sentences": [
           [
             "Unterstreiche das Wort durchs in der dritten Zeile.",
-            "请在第三行标出穿过（缩合介词）这个词。"
+            "请在第三行标出穿过[缩合介词]这个词。"
           ],
           [
             "Der Gebrauch von durchs variiert stark zwischen Ländern.",
-            "穿过（缩合介词）的用法在不同国家差别很大。"
+            "穿过[缩合介词]的用法在不同国家差别很大。"
           ],
           [
             "Es fällt mir schwer, durchs von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把穿过（缩合介词）和相近的词区分开。"
+            "我很难把穿过[缩合介词]和相近的词区分开。"
           ]
         ]
       },
@@ -39531,15 +39531,15 @@
         "sentences": [
           [
             "Es ist nicht so geil, wie es auf den ersten Blick scheint.",
-            "它没有乍看上去那么极棒的（俚语）。"
+            "它没有乍看上去那么极棒的[俚语]。"
           ],
           [
             "Ich merkte, dass er geil war: er sah ständig auf die Uhr.",
-            "我发现他很极棒的（俚语）：不停地看表。"
+            "我发现他很极棒的[俚语]：不停地看表。"
           ],
           [
             "Gestern fühlte er sich den ganzen Tag geil.",
-            "昨天我一整天都感到很极棒的（俚语）。"
+            "昨天我一整天都感到很极棒的[俚语]。"
           ]
         ]
       },
@@ -40917,15 +40917,15 @@
         "sentences": [
           [
             "Das Wort ciao erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，再见（口语）这个词出现了好几次。"
+            "在这段对话里，再见[口语]这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff ciao.",
-            "他们在黑板上写下了再见（口语）这个词。"
+            "他们在黑板上写下了再见[口语]这个词。"
           ],
           [
             "In diesem Satz finde ich die genaue Bedeutung von ciao nicht.",
-            "在这个句子里，我找不到再见（口语）的确切意思。"
+            "在这个句子里，我找不到再见[口语]的确切意思。"
           ]
         ]
       },
@@ -41225,15 +41225,15 @@
         "sentences": [
           [
             "Ohne Klamotten wären all diese Bemühungen umsonst gewesen.",
-            "没有衣服（口语），这一切努力都是白费。"
+            "没有衣服[口语]，这一切努力都是白费。"
           ],
           [
             "Seine Forschung kreist um Klamotten.",
-            "他的研究围绕衣服（口语）展开。"
+            "他的研究围绕衣服[口语]展开。"
           ],
           [
             "Bis Freitag muss ich Klamotten wiederholen.",
-            "周五之前我得复习衣服（口语）。"
+            "周五之前我得复习衣服[口语]。"
           ]
         ]
       },
@@ -42633,15 +42633,15 @@
         "sentences": [
           [
             "Es bringt nichts, erst in letzter Minute zu rauskommen.",
-            "拖到最后关头才出来（口语）毫无意义。"
+            "拖到最后关头才出来[口语]毫无意义。"
           ],
           [
             "Jeden Morgen widmet er eine halbe Stunde dem rauskommen.",
-            "他每天早上花半小时出来（口语）。"
+            "他每天早上花半小时出来[口语]。"
           ],
           [
             "Mit ständiger Übung kann jeder lernen zu rauskommen.",
-            "只要坚持练习，任何人都能学会出来（口语）。"
+            "只要坚持练习，任何人都能学会出来[口语]。"
           ]
         ]
       },
@@ -43887,15 +43887,15 @@
         "sentences": [
           [
             "Er hat gelernt zu begehen, indem er abends Videos sah.",
-            "他靠晚上看视频学会了犯（罪）。"
+            "他靠晚上看视频学会了犯[罪]。"
           ],
           [
             "Als er jung war, pflegte er sonntags zu begehen.",
-            "年轻时他常常在星期天犯（罪）。"
+            "年轻时他常常在星期天犯[罪]。"
           ],
           [
             "Der Arzt riet ihm, täglich zu begehen.",
-            "医生建议他每天犯（罪）。"
+            "医生建议他每天犯[罪]。"
           ]
         ]
       },
@@ -44943,15 +44943,15 @@
         "sentences": [
           [
             "Dieses Projekt verlangt, konzentriert zu reingehen.",
-            "这个项目要求全神贯注地走进去（口语）。"
+            "这个项目要求全神贯注地走进去[口语]。"
           ],
           [
             "Hast du Lust, am Wochenende zu reingehen?",
-            "周末你想不想去走进去（口语）？"
+            "周末你想不想去走进去[口语]？"
           ],
           [
             "Bei Regen liebt er es zu reingehen.",
-            "下雨的时候他特别喜欢走进去（口语）。"
+            "下雨的时候他特别喜欢走进去[口语]。"
           ]
         ]
       },
@@ -45009,15 +45009,15 @@
         "sentences": [
           [
             "Morgen fahren wir in die Stadt, um zu rausholen.",
-            "明天我们进城去拿出来（口语）。"
+            "明天我们进城去拿出来[口语]。"
           ],
           [
             "Er versprach, bis Ende der Woche zu rausholen.",
-            "他答应在周末前拿出来（口语）。"
+            "他答应在周末前拿出来[口语]。"
           ],
           [
             "Wenn etwas unklar ist, frage lieber, bevor du anfängst zu rausholen.",
-            "如果有不明白的地方，先问再拿出来（口语）。"
+            "如果有不明白的地方，先问再拿出来[口语]。"
           ]
         ]
       },
@@ -45163,15 +45163,15 @@
         "sentences": [
           [
             "In der Prüfung kam eine Frage über Ex vor.",
-            "考试里出了一道关于前任（口语）的题。"
+            "考试里出了一道关于前任[口语]的题。"
           ],
           [
             "Heute haben wir im Unterricht den Begriff Ex analysiert.",
-            "今天课上我们分析了前任（口语）这个概念。"
+            "今天课上我们分析了前任[口语]这个概念。"
           ],
           [
             "Wir haben den ganzen Abend über Ex gesprochen.",
-            "我们聊了一晚上前任（口语）。"
+            "我们聊了一晚上前任[口语]。"
           ]
         ]
       },
@@ -45317,15 +45317,15 @@
         "sentences": [
           [
             "Im Museum gibt es Exponate rund um Uni.",
-            "博物馆里保存着与大学（口语）相关的展品。"
+            "博物馆里保存着与大学[口语]相关的展品。"
           ],
           [
             "Diesem Buch ist ein ganzes Kapitel über Uni gewidmet.",
-            "这本书用整整一章讲大学（口语）。"
+            "这本书用整整一章讲大学[口语]。"
           ],
           [
             "Der Lehrer beantwortete alle Fragen zu Uni.",
-            "老师解答了关于大学（口语）的所有疑问。"
+            "老师解答了关于大学[口语]的所有疑问。"
           ]
         ]
       },
@@ -45449,15 +45449,15 @@
         "sentences": [
           [
             "In diesem Satz finde ich die genaue Bedeutung von nix nicht.",
-            "在这个句子里，我找不到没什么（口语）的确切意思。"
+            "在这个句子里，我找不到没什么[口语]的确切意思。"
           ],
           [
             "Das Wörterbuch zählt nix zu den häufigsten Anfragen.",
-            "词典把没什么（口语）列为查询最多的词条之一。"
+            "词典把没什么[口语]列为查询最多的词条之一。"
           ],
           [
             "Wie übersetzt man nix ins Chinesische?",
-            "没什么（口语）用中文怎么说？"
+            "没什么[口语]用中文怎么说？"
           ]
         ]
       },
@@ -46857,15 +46857,15 @@
         "sentences": [
           [
             "Seine Antwort hinterließ einen bescheuert Eindruck.",
-            "他的回答给我留下一种愚蠢的（粗俗）的印象。"
+            "他的回答给我留下一种愚蠢的[粗俗]的印象。"
           ],
           [
             "Obwohl es bescheuert war, beschloss er weiterzumachen.",
-            "虽然很愚蠢的（粗俗），他还是决定继续尝试。"
+            "虽然很愚蠢的[粗俗]，他还是决定继续尝试。"
           ],
           [
             "Heute war der Lehrer bescheuert gelaunt.",
-            "今天老师的心情很愚蠢的（粗俗）。"
+            "今天老师的心情很愚蠢的[粗俗]。"
           ]
         ]
       },
@@ -47275,15 +47275,15 @@
         "sentences": [
           [
             "Dieser Kommentar zeigt, dass er sich mit Narr auskennt.",
-            "那个评论说明他对傻瓜（旧）很在行。"
+            "那个评论说明他对傻瓜[旧]很在行。"
           ],
           [
             "Über Narr gibt es schon etliche wissenschaftliche Arbeiten.",
-            "关于傻瓜（旧）已经有不少学术著作。"
+            "关于傻瓜[旧]已经有不少学术著作。"
           ],
           [
             "Seine Doktorarbeit handelt von Narr im Mittelalter.",
-            "他的博士论文研究的是中世纪的傻瓜（旧）。"
+            "他的博士论文研究的是中世纪的傻瓜[旧]。"
           ]
         ]
       },
@@ -47495,15 +47495,15 @@
         "sentences": [
           [
             "Dieses Kapitel erklärt, wann man erstmal verwendet.",
-            "这一章讲解什么时候用首先（口语）。"
+            "这一章讲解什么时候用首先[口语]。"
           ],
           [
             "Das Wort erstmal erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，首先（口语）这个词出现了好几次。"
+            "在这段对话里，首先[口语]这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff erstmal.",
-            "他们在黑板上写下了首先（口语）这个词。"
+            "他们在黑板上写下了首先[口语]这个词。"
           ]
         ]
       },
@@ -47737,15 +47737,15 @@
         "sentences": [
           [
             "Bis Freitag muss ich Kram wiederholen.",
-            "周五之前我得复习杂物（口语）。"
+            "周五之前我得复习杂物[口语]。"
           ],
           [
             "Im ganzen Haus sprach man nur über Kram.",
-            "全家上下都在谈论杂物（口语）。"
+            "全家上下都在谈论杂物[口语]。"
           ],
           [
             "Für mich ist Kram einfach unverzichtbar.",
-            "对我来说，杂物（口语）是必不可少的东西。"
+            "对我来说，杂物[口语]是必不可少的东西。"
           ]
         ]
       },
@@ -49167,15 +49167,15 @@
         "sentences": [
           [
             "Niemand hatte ein so pleite Ende erwartet.",
-            "没人料到结局会这么破产的（口语）。"
+            "没人料到结局会这么破产的[口语]。"
           ],
           [
             "Die Besprechung verlief weniger pleite als in der letzten Woche.",
-            "这次会议没有上周的那么破产的（口语）。"
+            "这次会议没有上周的那么破产的[口语]。"
           ],
           [
             "Auf die Kritik der Jury reagierte er ziemlich pleite.",
-            "面对评审的批评，他表现得很破产的（口语）。"
+            "面对评审的批评，他表现得很破产的[口语]。"
           ]
         ]
       },
@@ -49651,15 +49651,15 @@
         "sentences": [
           [
             "An der Tafel stand der Begriff diejenige.",
-            "他们在黑板上写下了那个（女）这个词。"
+            "他们在黑板上写下了那个[女]这个词。"
           ],
           [
             "In diesem Satz finde ich die genaue Bedeutung von diejenige nicht.",
-            "在这个句子里，我找不到那个（女）的确切意思。"
+            "在这个句子里，我找不到那个[女]的确切意思。"
           ],
           [
             "Das Wörterbuch zählt diejenige zu den häufigsten Anfragen.",
-            "词典把那个（女）列为查询最多的词条之一。"
+            "词典把那个[女]列为查询最多的词条之一。"
           ]
         ]
       },
@@ -52181,15 +52181,15 @@
         "sentences": [
           [
             "Unterstreiche das Wort diejenigen in der dritten Zeile.",
-            "请在第三行标出那些（人）这个词。"
+            "请在第三行标出那些[人]这个词。"
           ],
           [
             "Der Gebrauch von diejenigen variiert stark zwischen Ländern.",
-            "那些（人）的用法在不同国家差别很大。"
+            "那些[人]的用法在不同国家差别很大。"
           ],
           [
             "Es fällt mir schwer, diejenigen von ähnlichen Wörtern zu unterscheiden.",
-            "我很难把那些（人）和相近的词区分开。"
+            "我很难把那些[人]和相近的词区分开。"
           ]
         ]
       },
@@ -52885,15 +52885,15 @@
         "sentences": [
           [
             "Für ein erstes Buch ist es ziemlich mies geschrieben.",
-            "作为他的第一本书，写得相当糟糕的（口语）。"
+            "作为他的第一本书，写得相当糟糕的[口语]。"
           ],
           [
             "Mit den Jahren ist das Problem noch mies geworden.",
-            "随着时间推移，这个问题变得更加糟糕的（口语）了。"
+            "随着时间推移，这个问题变得更加糟糕的[口语]了。"
           ],
           [
             "Die Reise war mies, als wir erwartet hatten.",
-            "这次旅行比我们预期的更糟糕的（口语）。"
+            "这次旅行比我们预期的更糟糕的[口语]。"
           ]
         ]
       },
@@ -54425,15 +54425,15 @@
         "sentences": [
           [
             "In diesem Satz finde ich die genaue Bedeutung von gefälligst nicht.",
-            "在这个句子里，我找不到最好（命令语气）的确切意思。"
+            "在这个句子里，我找不到最好[命令语气]的确切意思。"
           ],
           [
             "Das Wörterbuch zählt gefälligst zu den häufigsten Anfragen.",
-            "词典把最好（命令语气）列为查询最多的词条之一。"
+            "词典把最好[命令语气]列为查询最多的词条之一。"
           ],
           [
             "Wie übersetzt man gefälligst ins Chinesische?",
-            "最好（命令语气）用中文怎么说？"
+            "最好[命令语气]用中文怎么说？"
           ]
         ]
       },
@@ -55195,15 +55195,15 @@
         "sentences": [
           [
             "Ich fand es krass, dass er dazu nichts sagte.",
-            "他对这件事只字不提，我觉得很夸张的（口语）。"
+            "他对这件事只字不提，我觉得很夸张的[口语]。"
           ],
           [
             "Es ist nicht so krass, wie es auf den ersten Blick scheint.",
-            "它没有乍看上去那么夸张的（口语）。"
+            "它没有乍看上去那么夸张的[口语]。"
           ],
           [
             "Ich merkte, dass er krass war: er sah ständig auf die Uhr.",
-            "我发现他很夸张的（口语）：不停地看表。"
+            "我发现他很夸张的[口语]：不停地看表。"
           ]
         ]
       },
@@ -55767,15 +55767,15 @@
         "sentences": [
           [
             "Seine Doktorarbeit handelt von Profi im Mittelalter.",
-            "他的博士论文研究的是中世纪的专家（口语）。"
+            "他的博士论文研究的是中世纪的专家[口语]。"
           ],
           [
             "In der Prüfung kam eine Frage über Profi vor.",
-            "考试里出了一道关于专家（口语）的题。"
+            "考试里出了一道关于专家[口语]的题。"
           ],
           [
             "Heute haben wir im Unterricht den Begriff Profi analysiert.",
-            "今天课上我们分析了专家（口语）这个概念。"
+            "今天课上我们分析了专家[口语]这个概念。"
           ]
         ]
       },
@@ -55833,15 +55833,15 @@
         "sentences": [
           [
             "Es bringt nichts, erst in letzter Minute zu rausgehen.",
-            "拖到最后关头才出去（口语）毫无意义。"
+            "拖到最后关头才出去[口语]毫无意义。"
           ],
           [
             "Jeden Morgen widmet er eine halbe Stunde dem rausgehen.",
-            "他每天早上花半小时出去（口语）。"
+            "他每天早上花半小时出去[口语]。"
           ],
           [
             "Mit ständiger Übung kann jeder lernen zu rausgehen.",
-            "只要坚持练习，任何人都能学会出去（口语）。"
+            "只要坚持练习，任何人都能学会出去[口语]。"
           ]
         ]
       },
@@ -56383,15 +56383,15 @@
         "sentences": [
           [
             "In der Prüfung kam eine Frage über Hühnchen vor.",
-            "考试里出了一道关于鸡（菜肴）的题。"
+            "考试里出了一道关于鸡[菜肴]的题。"
           ],
           [
             "Heute haben wir im Unterricht den Begriff Hühnchen analysiert.",
-            "今天课上我们分析了鸡（菜肴）这个概念。"
+            "今天课上我们分析了鸡[菜肴]这个概念。"
           ],
           [
             "Wir haben den ganzen Abend über Hühnchen gesprochen.",
-            "我们聊了一晚上鸡（菜肴）。"
+            "我们聊了一晚上鸡[菜肴]。"
           ]
         ]
       },
@@ -57439,15 +57439,15 @@
         "sentences": [
           [
             "Ich verstehe immer besser, wie Spinner funktioniert.",
-            "我越来越明白怪人（口语）是怎么运作的了。"
+            "我越来越明白怪人[口语]是怎么运作的了。"
           ],
           [
             "Diesen Sommer möchte ich mehr über Spinner erfahren.",
-            "今年夏天我想多了解怪人（口语）。"
+            "今年夏天我想多了解怪人[口语]。"
           ],
           [
             "Die heutige Radiosendung handelt von Spinner.",
-            "今晚的广播节目将围绕怪人（口语）展开。"
+            "今晚的广播节目将围绕怪人[口语]展开。"
           ]
         ]
       },
@@ -61861,15 +61861,15 @@
         "sentences": [
           [
             "Wenn du schmeißen willst, fang am besten sofort an.",
-            "如果你想扔（口语），最好马上开始。"
+            "如果你想扔[口语]，最好马上开始。"
           ],
           [
             "Er begann zu schmeißen, bevor der Wecker klingelte.",
-            "闹钟还没响，他就开始扔（口语）了。"
+            "闹钟还没响，他就开始扔[口语]了。"
           ],
           [
             "Es bringt nichts, erst in letzter Minute zu schmeißen.",
-            "拖到最后关头才扔（口语）毫无意义。"
+            "拖到最后关头才扔[口语]毫无意义。"
           ]
         ]
       },
@@ -62697,15 +62697,15 @@
         "sentences": [
           [
             "Gestern las ich einen interessanten Artikel über Sau.",
-            "昨天我读了一篇关于母猪（骂语）的有趣文章。"
+            "昨天我读了一篇关于母猪[骂语]的有趣文章。"
           ],
           [
             "Die Nachricht über Sau verbreitete sich blitzartig.",
-            "母猪（骂语）的消息瞬间传开了。"
+            "母猪[骂语]的消息瞬间传开了。"
           ],
           [
             "In diesem Film geht es im Kern um Sau.",
-            "这部电影归根结底讲的是母猪（骂语）。"
+            "这部电影归根结底讲的是母猪[骂语]。"
           ]
         ]
       },
@@ -65469,15 +65469,15 @@
         "sentences": [
           [
             "Morgen fahren wir in die Stadt, um zu umlegen.",
-            "明天我们进城去杀害（口语）。"
+            "明天我们进城去杀害[口语]。"
           ],
           [
             "Er versprach, bis Ende der Woche zu umlegen.",
-            "他答应在周末前杀害（口语）。"
+            "他答应在周末前杀害[口语]。"
           ],
           [
             "Wenn etwas unklar ist, frage lieber, bevor du anfängst zu umlegen.",
-            "如果有不明白的地方，先问再杀害（口语）。"
+            "如果有不明白的地方，先问再杀害[口语]。"
           ]
         ]
       },
@@ -66437,15 +66437,15 @@
         "sentences": [
           [
             "Die Reise war besoffen, als wir erwartet hatten.",
-            "这次旅行比我们预期的更喝醉的（粗俗）。"
+            "这次旅行比我们预期的更喝醉的[粗俗]。"
           ],
           [
             "Dass das Projekt weitergeht, ist besoffen für uns alle.",
-            "项目能继续推进，对大家来说是件喝醉的（粗俗）的事。"
+            "项目能继续推进，对大家来说是件喝醉的[粗俗]的事。"
           ],
           [
             "Über Geld mit der Familie zu sprechen ist immer besoffen.",
-            "和家人谈钱总是很喝醉的（粗俗）。"
+            "和家人谈钱总是很喝醉的[粗俗]。"
           ]
         ]
       },
@@ -66811,15 +66811,15 @@
         "sentences": [
           [
             "An der Tafel stand der Begriff unterm.",
-            "他们在黑板上写下了在…下（缩合介词）这个词。"
+            "他们在黑板上写下了在…下[缩合介词]这个词。"
           ],
           [
             "In diesem Satz finde ich die genaue Bedeutung von unterm nicht.",
-            "在这个句子里，我找不到在…下（缩合介词）的确切意思。"
+            "在这个句子里，我找不到在…下[缩合介词]的确切意思。"
           ],
           [
             "Das Wörterbuch zählt unterm zu den häufigsten Anfragen.",
-            "词典把在…下（缩合介词）列为查询最多的词条之一。"
+            "词典把在…下[缩合介词]列为查询最多的词条之一。"
           ]
         ]
       },
@@ -73741,15 +73741,15 @@
         "sentences": [
           [
             "Mit den Jahren ist das Problem noch verknallt geworden.",
-            "随着时间推移，这个问题变得更加热恋的（口语）了。"
+            "随着时间推移，这个问题变得更加热恋的[口语]了。"
           ],
           [
             "Die Reise war verknallt, als wir erwartet hatten.",
-            "这次旅行比我们预期的更热恋的（口语）。"
+            "这次旅行比我们预期的更热恋的[口语]。"
           ],
           [
             "Dass das Projekt weitergeht, ist verknallt für uns alle.",
-            "项目能继续推进，对大家来说是件热恋的（口语）的事。"
+            "项目能继续推进，对大家来说是件热恋的[口语]的事。"
           ]
         ]
       },
@@ -73851,15 +73851,15 @@
         "sentences": [
           [
             "Die heutige Radiosendung handelt von Karre.",
-            "今晚的广播节目将围绕破车（口语）展开。"
+            "今晚的广播节目将围绕破车[口语]展开。"
           ],
           [
             "Mit Karre hatte ich früher noch nie zu tun.",
-            "我以前从未接触过破车（口语）。"
+            "我以前从未接触过破车[口语]。"
           ],
           [
             "Übrigens, zu Karre: hast du die heutigen Nachrichten gesehen?",
-            "说到破车（口语），你看今天的新闻了吗？"
+            "说到破车[口语]，你看今天的新闻了吗？"
           ]
         ]
       },
@@ -74313,15 +74313,15 @@
         "sentences": [
           [
             "Obwohl es durchgedreht war, beschloss er weiterzumachen.",
-            "虽然很发疯的（口语），他还是决定继续尝试。"
+            "虽然很发疯的[口语]，他还是决定继续尝试。"
           ],
           [
             "Heute war der Lehrer durchgedreht gelaunt.",
-            "今天老师的心情很发疯的（口语）。"
+            "今天老师的心情很发疯的[口语]。"
           ],
           [
             "Ehrlich gesagt war das Essen sehr durchgedreht.",
-            "说实话，那顿饭很发疯的（口语）。"
+            "说实话，那顿饭很发疯的[口语]。"
           ]
         ]
       },
@@ -77124,7 +77124,7 @@
       {
         "word": "Male",
         "pos": "n.",
-        "zh": "男人；雄性的",
+        "zh": "次数；标记（复数）",
         "ipa": "maːlə",
         "level": "b1",
         "rank": 3704,
@@ -77300,7 +77300,7 @@
       {
         "word": "Linke",
         "pos": "n.",
-        "zh": "左翼的人；左派；左派的",
+        "zh": "左翼人士；左派分子",
         "ipa": "lɪnkə",
         "level": "b1",
         "rank": 3808,
@@ -77476,7 +77476,7 @@
       {
         "word": "Fällen",
         "pos": "n.",
-        "zh": "折缝；凶猛的",
+        "zh": "砍伐；裁决；砍伐树木",
         "ipa": "fɛlən",
         "level": "b1",
         "rank": 3928,
@@ -77527,15 +77527,15 @@
         "sentences": [
           [
             "Ohne Schließ wären all diese Bemühungen umsonst gewesen.",
-            "没有关闭（schließen 变化形式），这一切努力都是白费。"
+            "没有关闭[schließen 变化形式]，这一切努力都是白费。"
           ],
           [
             "Seine Forschung kreist um Schließ.",
-            "他的研究围绕关闭（schließen 变化形式）展开。"
+            "他的研究围绕关闭[schließen 变化形式]展开。"
           ],
           [
             "Bis Freitag muss ich Schließ wiederholen.",
-            "周五之前我得复习关闭（schließen 变化形式）。"
+            "周五之前我得复习关闭[schließen 变化形式]。"
           ]
         ]
       },
@@ -78312,7 +78312,7 @@
       {
         "word": "Rechnen",
         "pos": "n.",
-        "zh": "算术；算术知识；算术的",
+        "zh": "计算；算术",
         "ipa": "ʁɛçnən",
         "level": "b1",
         "rank": 4371,
@@ -80292,7 +80292,7 @@
       {
         "word": "Anhänger",
         "pos": "n.m.",
-        "zh": "信徒；发生联系的",
+        "zh": "支持者；追随者；拖车；挂车；吊坠",
         "ipa": "anhɛnɡɐ",
         "level": "b1",
         "rank": 5909,
@@ -80644,7 +80644,7 @@
       {
         "word": "Generationen",
         "pos": "n.",
-        "zh": "两代人之间的",
+        "zh": "代；时代；世代（复数）",
         "ipa": "ɡeːnəʁat͡sjoːnən",
         "level": "b1",
         "rank": 6300,
@@ -82074,7 +82074,7 @@
       {
         "word": "Braten",
         "pos": "n.m.",
-        "zh": "烤肉；烘烤；嘲笑；烘烤的",
+        "zh": "烤肉；烘烤肉",
         "ipa": "bʁaːtən",
         "level": "b1",
         "rank": 7121,
@@ -82360,7 +82360,7 @@
       {
         "word": "Schweizer",
         "pos": "n.",
-        "zh": "瑞士人；瑞士风格的",
+        "zh": "瑞士人",
         "ipa": "ʃvaɪt͡sɐ",
         "level": "b1",
         "rank": 7150,
@@ -82426,7 +82426,7 @@
       {
         "word": "Außerirdische",
         "pos": "n.",
-        "zh": "外国人；外侨；外国的；相异的",
+        "zh": "外星人；外星生物",
         "ipa": "aʊsəʁɪʁdɪʃə",
         "level": "b1",
         "rank": 7156,
@@ -84318,7 +84318,7 @@
       {
         "word": "Grünes",
         "pos": "n.",
-        "zh": "绿色；未成熟的",
+        "zh": "绿色之物；绿植；蔬菜",
         "ipa": "ɡʁyːnəs",
         "level": "b1",
         "rank": 7372,
@@ -84567,15 +84567,15 @@
         "sentences": [
           [
             "Mir fehlt das Vokabular, um Hasen genau zu erklären.",
-            "我的词汇量不够，没法精确解释兔子（Hase 的变格）。"
+            "我的词汇量不够，没法精确解释兔子[Hase 的变格]。"
           ],
           [
             "Am Anfang war Hasen mir völlig fremd.",
-            "一开始，兔子（Hase 的变格）对我来说很陌生。"
+            "一开始，兔子[Hase 的变格]对我来说很陌生。"
           ],
           [
             "Gestern las ich einen interessanten Artikel über Hasen.",
-            "昨天我读了一篇关于兔子（Hase 的变格）的有趣文章。"
+            "昨天我读了一篇关于兔子[Hase 的变格]的有趣文章。"
           ]
         ]
       },
@@ -84626,7 +84626,7 @@
       {
         "word": "Bass",
         "pos": "n.m.",
-        "zh": "低沉的声音；男低音；椴树；低音的",
+        "zh": "男低音；贝斯；低音吉他；低音",
         "ipa": "bas",
         "level": "b1",
         "rank": 7412,
@@ -84846,7 +84846,7 @@
       {
         "word": "Flüssigkeit",
         "pos": "n.f.",
-        "zh": "液体；分泌液；流体；流动的",
+        "zh": "液体；流体",
         "ipa": "flʏsɪɡkaɪt",
         "level": "b1",
         "rank": 7430,
@@ -86034,7 +86034,7 @@
       {
         "word": "Verband",
         "pos": "n.",
-        "zh": "美洲的",
+        "zh": "协会；联合会；绷带；包扎",
         "ipa": "fɛʁbant",
         "level": "b1",
         "rank": 7575,
@@ -86283,15 +86283,15 @@
         "sentences": [
           [
             "Dank Internationale konnte das Projekt weitergehen.",
-            "多亏了国际（组织），项目得以推进。"
+            "多亏了国际[组织]，项目得以推进。"
           ],
           [
             "Im Museum gibt es Exponate rund um Internationale.",
-            "博物馆里保存着与国际（组织）相关的展品。"
+            "博物馆里保存着与国际[组织]相关的展品。"
           ],
           [
             "Diesem Buch ist ein ganzes Kapitel über Internationale gewidmet.",
-            "这本书用整整一章讲国际（组织）。"
+            "这本书用整整一章讲国际[组织]。"
           ]
         ]
       },
@@ -87640,7 +87640,7 @@
       {
         "word": "Luxus",
         "pos": "n.m.",
-        "zh": "奢侈；豪华；奢侈的；豪华的",
+        "zh": "奢华；奢侈品；阔气",
         "ipa": "lʊksʊs",
         "level": "b1",
         "rank": 7738,
@@ -90544,7 +90544,7 @@
       {
         "word": "Fee",
         "pos": "n.f.",
-        "zh": "仙女；精灵；仙女的",
+        "zh": "仙女；小仙子",
         "ipa": "feː",
         "level": "b1",
         "rank": 8029,
@@ -90698,7 +90698,7 @@
       {
         "word": "Jammern",
         "pos": "n.",
-        "zh": "抱怨的",
+        "zh": "叹息；悲叹；抱怨",
         "ipa": "jamɐn",
         "level": "b1",
         "rank": 8039,
@@ -90786,7 +90786,7 @@
       {
         "word": "Taube",
         "pos": "n.",
-        "zh": "聋的",
+        "zh": "鸽子；聋人",
         "ipa": "taʊbə",
         "level": "b1",
         "rank": 8047,
@@ -90808,7 +90808,7 @@
       {
         "word": "Mais",
         "pos": "n.m.",
-        "zh": "玉蜀黍；黄色的",
+        "zh": "玉米；玉蜀黍",
         "ipa": "maɪs",
         "level": "b1",
         "rank": 8048,
@@ -91380,7 +91380,7 @@
       {
         "word": "Mechaniker",
         "pos": "n.m.",
-        "zh": "机械工；技工；手工的",
+        "zh": "机械师；技工；机修工",
         "ipa": "mɛçanɪkɐ",
         "level": "b1",
         "rank": 8104,
@@ -91534,7 +91534,7 @@
       {
         "word": "Chirurg",
         "pos": "n.m.",
-        "zh": "医生；内科的",
+        "zh": "外科医生",
         "ipa": "çiːʁʊʁk",
         "level": "b1",
         "rank": 8116,
@@ -91842,7 +91842,7 @@
       {
         "word": "Gegenstand",
         "pos": "n.m.",
-        "zh": "物体；目标；目的",
+        "zh": "物体；物品；题材；对象",
         "ipa": "ɡeːɡənstant",
         "level": "b1",
         "rank": 8159,
@@ -92194,7 +92194,7 @@
       {
         "word": "Araber",
         "pos": "n.m.",
-        "zh": "阿拉伯人；阿拉伯的",
+        "zh": "阿拉伯人",
         "ipa": "aːʁabɐ",
         "level": "b1",
         "rank": 8205,
@@ -92260,7 +92260,7 @@
       {
         "word": "Drittel",
         "pos": "n.",
-        "zh": "第三；三分之一；第三的",
+        "zh": "三分之一",
         "ipa": "dʁɪtəl",
         "level": "b1",
         "rank": 8213,
@@ -94680,7 +94680,7 @@
       {
         "word": "Strafzettel",
         "pos": "n.m.",
-        "zh": "停车；停车的",
+        "zh": "罚单；违规停车罚单",
         "ipa": "ʃtʁaft͡sətəl",
         "level": "b1",
         "rank": 8475,
@@ -95120,7 +95120,7 @@
       {
         "word": "Pullover",
         "pos": "n.m.",
-        "zh": "套衫；套穿的",
+        "zh": "套头毛衣；套衫",
         "ipa": "pʊlɔfɐ",
         "level": "b1",
         "rank": 8530,
@@ -95670,7 +95670,7 @@
       {
         "word": "Pony",
         "pos": "n.",
-        "zh": "每日摘要的",
+        "zh": "小马；矮种马；刘海",
         "ipa": "poːnʏ",
         "level": "b1",
         "rank": 8597,
@@ -95758,7 +95758,7 @@
       {
         "word": "Glanz",
         "pos": "n.m.",
-        "zh": "光辉；光彩；光泽；光辉的",
+        "zh": "光泽；光彩；光芒",
         "ipa": "ɡlant͡s",
         "level": "b1",
         "rank": 8615,
@@ -96044,7 +96044,7 @@
       {
         "word": "Blaues",
         "pos": "n.",
-        "zh": "蓝色；蓝色的；下流的",
+        "zh": "蓝色之物；蓝天",
         "ipa": "blaʊəs",
         "level": "b1",
         "rank": 8643,
@@ -96616,7 +96616,7 @@
       {
         "word": "Beruhigungsmittel",
         "pos": "n.",
-        "zh": "使安静的",
+        "zh": "镇静剂；安眠药",
         "ipa": "beːʁuːɪɡʊnɡsmɪtəl",
         "level": "b1",
         "rank": 8704,
@@ -97782,7 +97782,7 @@
       {
         "word": "Durchsage",
         "pos": "n.f.",
-        "zh": "公众；民众；公众的；公共的",
+        "zh": "广播通知；口头广播",
         "ipa": "dʊʁksaɡə",
         "level": "b1",
         "rank": 8808,
@@ -98046,7 +98046,7 @@
       {
         "word": "Japanische",
         "pos": "n.",
-        "zh": "日本人；日语；日本的；日语的",
+        "zh": "日语；日本事物",
         "ipa": "jaːpanɪʃə",
         "level": "b1",
         "rank": 8833,
@@ -98794,7 +98794,7 @@
       {
         "word": "Blinde",
         "pos": "n.",
-        "zh": "蒙蔽物；窗帘；盲目的；瞎的",
+        "zh": "盲人；失明者",
         "ipa": "blɪndə",
         "level": "b1",
         "rank": 8915,
@@ -99366,7 +99366,7 @@
       {
         "word": "Portal",
         "pos": "n.",
-        "zh": "入口；大门；肝门的",
+        "zh": "大门；入口；门户网站",
         "ipa": "pɔʁtaːl",
         "level": "b1",
         "rank": 8971,
@@ -99542,7 +99542,7 @@
       {
         "word": "Schuft",
         "pos": "n.m.",
-        "zh": "恶棍；卑鄙的",
+        "zh": "恶棍；无赖；坏蛋",
         "ipa": "ʃʊft",
         "level": "b1",
         "rank": 8990,
@@ -99652,7 +99652,7 @@
       {
         "word": "Taktik",
         "pos": "n.f.",
-        "zh": "一项战术；顺序的",
+        "zh": "战术；策略；策略手段",
         "ipa": "taktiːk",
         "level": "b1",
         "rank": 9010,
@@ -101133,15 +101133,15 @@
         "sentences": [
           [
             "Schon als Kind sammelte er Materialien über Änderungen.",
-            "他小时候就收集关于更改（Änderung 的复数）的资料。"
+            "他小时候就收集关于更改[Änderung 的复数]的资料。"
           ],
           [
             "Mit Änderungen spielt man nicht: sei vorsichtig.",
-            "更改（Änderung 的复数）可不能当儿戏，必须小心。"
+            "更改[Änderung 的复数]可不能当儿戏，必须小心。"
           ],
           [
             "Reden wir weiter über Änderungen oder wechselst du das Thema?",
-            "我们继续聊更改（Änderung 的复数），还是你想换个话题？"
+            "我们继续聊更改[Änderung 的复数]，还是你想换个话题？"
           ]
         ]
       },
@@ -101280,7 +101280,7 @@
       {
         "word": "Neger",
         "pos": "n.m.",
-        "zh": "黑人；黑人的",
+        "zh": "黑人（旧称/忌用）",
         "ipa": "neːɡɐ",
         "level": "b1",
         "rank": 9174,
@@ -101368,7 +101368,7 @@
       {
         "word": "Gerichtsmediziner",
         "pos": "n.m.",
-        "zh": "专门医师；专家；专业的；专家的",
+        "zh": "法医",
         "ipa": "ɡeːʁɪçtsmədɪt͡sɪnɐ",
         "level": "b1",
         "rank": 9187,
@@ -101566,7 +101566,7 @@
       {
         "word": "Abfall",
         "pos": "n.m.",
-        "zh": "拒绝；无用的",
+        "zh": "垃圾；废料；废物；下降",
         "ipa": "abfal",
         "level": "b1",
         "rank": 9203,
@@ -102314,7 +102314,7 @@
       {
         "word": "Latein",
         "pos": "n.",
-        "zh": "拉丁人；拉丁语的",
+        "zh": "拉丁语",
         "ipa": "laːtaɪn",
         "level": "b1",
         "rank": 9264,
@@ -103443,15 +103443,15 @@
         "sentences": [
           [
             "Wenn du piepsen willst, fang am besten sofort an.",
-            "如果你想（鸟/机器）发出短促尖音，最好马上开始。"
+            "如果你想[鸟/机器]发出短促尖音，最好马上开始。"
           ],
           [
             "Er begann zu piepsen, bevor der Wecker klingelte.",
-            "闹钟还没响，他就开始（鸟/机器）发出短促尖音了。"
+            "闹钟还没响，他就开始[鸟/机器]发出短促尖音了。"
           ],
           [
             "Es bringt nichts, erst in letzter Minute zu piepsen.",
-            "拖到最后关头才（鸟/机器）发出短促尖音毫无意义。"
+            "拖到最后关头才[鸟/机器]发出短促尖音毫无意义。"
           ]
         ]
       },
@@ -104162,7 +104162,7 @@
       {
         "word": "Schwerkraft",
         "pos": "n.f.",
-        "zh": "向下的",
+        "zh": "重力；地心引力",
         "ipa": "ʃvɛʁkʁaft",
         "level": "b1",
         "rank": 9466,
@@ -104228,7 +104228,7 @@
       {
         "word": "Söldner",
         "pos": "n.m.",
-        "zh": "唯利是图者；被雇的",
+        "zh": "雇佣兵",
         "ipa": "zœldnɐ",
         "level": "b1",
         "rank": 9472,
@@ -104250,7 +104250,7 @@
       {
         "word": "Aufwecken",
         "pos": "n.",
-        "zh": "醒着的",
+        "zh": "唤醒；叫醒",
         "ipa": "aʊfvəkən",
         "level": "b1",
         "rank": 9479,
@@ -104426,7 +104426,7 @@
       {
         "word": "Blauer",
         "pos": "n.",
-        "zh": "蓝色；蓝色的；下流的",
+        "zh": "穿蓝衣者；蓝色事物",
         "ipa": "blaʊɐ",
         "level": "b1",
         "rank": 9502,
@@ -105687,15 +105687,15 @@
         "sentences": [
           [
             "Mir fehlt das Vokabular, um Sonntags genau zu erklären.",
-            "我的词汇量不够，没法精确解释每逢星期天（sonntags 副词形式）。"
+            "我的词汇量不够，没法精确解释每逢星期天[sonntags 副词形式]。"
           ],
           [
             "Am Anfang war Sonntags mir völlig fremd.",
-            "一开始，每逢星期天（sonntags 副词形式）对我来说很陌生。"
+            "一开始，每逢星期天[sonntags 副词形式]对我来说很陌生。"
           ],
           [
             "Gestern las ich einen interessanten Artikel über Sonntags.",
-            "昨天我读了一篇关于每逢星期天（sonntags 副词形式）的有趣文章。"
+            "昨天我读了一篇关于每逢星期天[sonntags 副词形式]的有趣文章。"
           ]
         ]
       },
@@ -105944,7 +105944,7 @@
       {
         "word": "Teilnehmer",
         "pos": "n.m.",
-        "zh": "参加者；参加的",
+        "zh": "参加者；参与者；选手",
         "ipa": "taɪlneːmɐ",
         "level": "b1",
         "rank": 9698,
@@ -106318,7 +106318,7 @@
       {
         "word": "Gesichtsausdruck",
         "pos": "n.m.",
-        "zh": "美颜；表面的",
+        "zh": "面部表情；神色",
         "ipa": "ɡeːzɪçtzaʊsdʁʊk",
         "level": "b1",
         "rank": 9741,
@@ -106912,7 +106912,7 @@
       {
         "word": "Menschenleben",
         "pos": "n.",
-        "zh": "人；人类；人类的；似人类的",
+        "zh": "人命；人的生命",
         "ipa": "mɛnʃənləbən",
         "level": "b1",
         "rank": 9808,
@@ -106934,7 +106934,7 @@
       {
         "word": "Öde",
         "pos": "n.f.",
-        "zh": "沙漠；应得的赏罚；功劳；沙漠的",
+        "zh": "荒原；荒凉；单调乏味",
         "ipa": "øːdə",
         "level": "b1",
         "rank": 9810,
@@ -108122,7 +108122,7 @@
       {
         "word": "Themen",
         "pos": "n.",
-        "zh": "有特定主题的",
+        "zh": "主题；课题；议题（复数）",
         "ipa": "teːmən",
         "level": "b1",
         "rank": 9934,
@@ -108452,7 +108452,7 @@
       {
         "word": "Joint",
         "pos": "n.m.",
-        "zh": "连接处；接合；关节；共同的",
+        "zh": "大麻烟卷；接缝；接头",
         "ipa": "jɔɪnt",
         "level": "b1",
         "rank": 9966,
@@ -109244,7 +109244,7 @@
       {
         "word": "Männchen",
         "pos": "n.",
-        "zh": "男人；雄性的",
+        "zh": "雄性动物；小公兽；小男人",
         "ipa": "mɛnçən",
         "level": "b1",
         "rank": 10039,
@@ -109684,7 +109684,7 @@
       {
         "word": "Kapital",
         "pos": "n.",
-        "zh": "首都；大写字母；资本；首都的",
+        "zh": "资本；资金；资产",
         "ipa": "kaːpɪtaːl",
         "level": "b1",
         "rank": 10077,
@@ -109970,7 +109970,7 @@
       {
         "word": "Italienische",
         "pos": "n.",
-        "zh": "意大利语；意大利的",
+        "zh": "意大利语；意大利风格",
         "ipa": "iːtaliːnɪʃə",
         "level": "b1",
         "rank": 10110,
@@ -110234,7 +110234,7 @@
       {
         "word": "Stumme",
         "pos": "n.",
-        "zh": "哑子；哑音字母；弱音器；哑的",
+        "zh": "哑巴；哑人",
         "ipa": "ʃtʊmə",
         "level": "b1",
         "rank": 10135,
@@ -110586,7 +110586,7 @@
       {
         "word": "Kristall",
         "pos": "n.m.",
-        "zh": "水晶；水晶装饰品；结晶；水晶的",
+        "zh": "水晶；结晶体",
         "ipa": "kʁɪstal",
         "level": "b1",
         "rank": 10161,
@@ -111510,7 +111510,7 @@
       {
         "word": "Phantasie",
         "pos": "n.",
-        "zh": "想象力；幻想；喜好；想象的",
+        "zh": "想象力；幻想；奇想",
         "ipa": "fantaziː",
         "level": "b1",
         "rank": 10265,
@@ -111664,7 +111664,7 @@
       {
         "word": "Graue",
         "pos": "n.",
-        "zh": "灰色；灰色的",
+        "zh": "灰色事物；灰暗",
         "ipa": "ɡʁaʊə",
         "level": "b1",
         "rank": 10277,
@@ -111972,7 +111972,7 @@
       {
         "word": "Abstimmen",
         "pos": "n.",
-        "zh": "投票；选举；投票的；选举的",
+        "zh": "投票表决；协调；调准",
         "ipa": "abstɪmən",
         "level": "b1",
         "rank": 10316,
@@ -112038,7 +112038,7 @@
       {
         "word": "Rück",
         "pos": "n.",
-        "zh": "后面；背后；后方；后面的",
+        "zh": "回程；退回；反向",
         "ipa": "ʁʏk",
         "level": "b1",
         "rank": 10320,
@@ -112500,7 +112500,7 @@
       {
         "word": "Seuche",
         "pos": "n.f.",
-        "zh": "传染病；传染性的",
+        "zh": "瘟疫；流行病；传染病",
         "ipa": "zɔʏxə",
         "level": "b1",
         "rank": 10377,
@@ -112522,7 +112522,7 @@
       {
         "word": "Zauberspruch",
         "pos": "n.m.",
-        "zh": "魔术；魔法；魔术的；有魔力的",
+        "zh": "咒语；魔法口诀",
         "ipa": "t͡saʊbəʁspʁuːx",
         "level": "b1",
         "rank": 10378,
@@ -112764,7 +112764,7 @@
       {
         "word": "Mittelpunkt",
         "pos": "n.m.",
-        "zh": "中心；中心点；中锋；中央的",
+        "zh": "中心点；核心；焦点",
         "ipa": "mɪtəlpʊnkt",
         "level": "b1",
         "rank": 10396,
@@ -113006,7 +113006,7 @@
       {
         "word": "Formular",
         "pos": "n.",
-        "zh": "空格；空白；空白的；空虚的",
+        "zh": "表格；表单",
         "ipa": "fɔʁmʊlaːɐ",
         "level": "b1",
         "rank": 10427,
@@ -114392,7 +114392,7 @@
       {
         "word": "Lebensunterhalt",
         "pos": "n.m.",
-        "zh": "生活；生计；生存；活的",
+        "zh": "生活费；生计",
         "ipa": "leːbənzʊntəʁhalt",
         "level": "b1",
         "rank": 10563,
@@ -114458,7 +114458,7 @@
       {
         "word": "Nummernschild",
         "pos": "n.",
-        "zh": "分期连载作品；一连串的",
+        "zh": "车牌；车辆号牌",
         "ipa": "nʊməʁnʃɪlt",
         "level": "b1",
         "rank": 10570,
@@ -114524,7 +114524,7 @@
       {
         "word": "Autoren",
         "pos": "n.",
-        "zh": "著作者的",
+        "zh": "作者；作家（复数）",
         "ipa": "aʊtɔʁən",
         "level": "b1",
         "rank": 10573,
@@ -115338,7 +115338,7 @@
       {
         "word": "Einsamer",
         "pos": "n.",
-        "zh": "独居的",
+        "zh": "孤独者；独行侠",
         "ipa": "aɪnzamɐ",
         "level": "b1",
         "rank": 10674,
@@ -115668,7 +115668,7 @@
       {
         "word": "Zweier",
         "pos": "n.",
-        "zh": "两党的",
+        "zh": "两人组；二重奏；双人艇",
         "ipa": "t͡svaɪɐ",
         "level": "b1",
         "rank": 10699,
@@ -116174,7 +116174,7 @@
       {
         "word": "Impfstoff",
         "pos": "n.m.",
-        "zh": "牛痘苗；疫苗；疫苗的；牛痘的",
+        "zh": "疫苗",
         "ipa": "ɪmpfstɔf",
         "level": "b1",
         "rank": 10745,
@@ -116614,7 +116614,7 @@
       {
         "word": "Ausbrechen",
         "pos": "n.",
-        "zh": "脱离；一碰就散开；脱落的",
+        "zh": "逃脱；突围；爆发",
         "ipa": "aʊsbʁəçən",
         "level": "b1",
         "rank": 10788,
@@ -117252,7 +117252,7 @@
       {
         "word": "Manuskript",
         "pos": "n.",
-        "zh": "手稿；原稿；底稿；手写的",
+        "zh": "手稿；原稿；底稿",
         "ipa": "maːnʊskʁɪpt",
         "level": "b1",
         "rank": 10870,
@@ -117318,7 +117318,7 @@
       {
         "word": "Reduzieren",
         "pos": "n.",
-        "zh": "尖端细的",
+        "zh": "缩减；降低；削减",
         "ipa": "ʁeːdʊt͡siːʁən",
         "level": "b1",
         "rank": 10879,
@@ -118594,7 +118594,7 @@
       {
         "word": "Einzelhaft",
         "pos": "n.f.",
-        "zh": "独居的",
+        "zh": "单独监禁；关禁闭",
         "ipa": "aɪnt͡səlhaft",
         "level": "b1",
         "rank": 11031,
@@ -118814,7 +118814,7 @@
       {
         "word": "Schiffs",
         "pos": "n.",
-        "zh": "舰队；水兵；海景画；海的",
+        "zh": "船舶；船只（属格/构词成分）",
         "ipa": "ʃɪfs",
         "level": "b1",
         "rank": 11055,
@@ -120317,15 +120317,15 @@
         "sentences": [
           [
             "Ich fand es häufiger, dass er dazu nichts sagte.",
-            "他对这件事只字不提，我觉得很更常发生的（häufig 比较级）。"
+            "他对这件事只字不提，我觉得很更常发生的[häufig 比较级]。"
           ],
           [
             "Es ist nicht so häufiger, wie es auf den ersten Blick scheint.",
-            "它没有乍看上去那么更常发生的（häufig 比较级）。"
+            "它没有乍看上去那么更常发生的[häufig 比较级]。"
           ],
           [
             "Ich merkte, dass er häufiger war: er sah ständig auf die Uhr.",
-            "我发现他很更常发生的（häufig 比较级）：不停地看表。"
+            "我发现他很更常发生的[häufig 比较级]：不停地看表。"
           ]
         ]
       },
@@ -120647,15 +120647,15 @@
         "sentences": [
           [
             "Für ein erstes Buch ist es ziemlich edle geschrieben.",
-            "作为他的第一本书，写得相当高贵的（edel 变化形式）。"
+            "作为他的第一本书，写得相当高贵的[edel 变化形式]。"
           ],
           [
             "Mit den Jahren ist das Problem noch edle geworden.",
-            "随着时间推移，这个问题变得更加高贵的（edel 变化形式）了。"
+            "随着时间推移，这个问题变得更加高贵的[edel 变化形式]了。"
           ],
           [
             "Die Reise war edle, als wir erwartet hatten.",
-            "这次旅行比我们预期的更高贵的（edel 变化形式）。"
+            "这次旅行比我们预期的更高贵的[edel 变化形式]。"
           ]
         ]
       },
@@ -120728,7 +120728,7 @@
       {
         "word": "Jade",
         "pos": "n.",
-        "zh": "玉；翡翠；老马；绿色的",
+        "zh": "玉；翡翠",
         "ipa": "jaːdə",
         "level": "b1",
         "rank": 11265,
@@ -120823,15 +120823,15 @@
         "sentences": [
           [
             "Am Anfang war Buchen mir völlig fremd.",
-            "一开始，山毛榉（Buche 的复数/变位形式）对我来说很陌生。"
+            "一开始，山毛榉[Buche 的复数/变位形式]对我来说很陌生。"
           ],
           [
             "Gestern las ich einen interessanten Artikel über Buchen.",
-            "昨天我读了一篇关于山毛榉（Buche 的复数/变位形式）的有趣文章。"
+            "昨天我读了一篇关于山毛榉[Buche 的复数/变位形式]的有趣文章。"
           ],
           [
             "Die Nachricht über Buchen verbreitete sich blitzartig.",
-            "山毛榉（Buche 的复数/变位形式）的消息瞬间传开了。"
+            "山毛榉[Buche 的复数/变位形式]的消息瞬间传开了。"
           ]
         ]
       },
@@ -121571,15 +121571,15 @@
         "sentences": [
           [
             "Heute war der Lehrer elektronische gelaunt.",
-            "今天老师的心情很电子的（变化形式）。"
+            "今天老师的心情很电子的[变化形式]。"
           ],
           [
             "Ehrlich gesagt war das Essen sehr elektronische.",
-            "说实话，那顿饭很电子的（变化形式）。"
+            "说实话，那顿饭很电子的[变化形式]。"
           ],
           [
             "Von weitem sah dieser Ort elektronische und ruhig aus.",
-            "从远处看，那个地方显得电子的（变化形式）而宁静。"
+            "从远处看，那个地方显得电子的[变化形式]而宁静。"
           ]
         ]
       },
@@ -121769,15 +121769,15 @@
         "sentences": [
           [
             "Niemand hatte ein so biologische Ende erwartet.",
-            "没人料到结局会这么生物学的（变化形式）。"
+            "没人料到结局会这么生物学的[变化形式]。"
           ],
           [
             "Die Besprechung verlief weniger biologische als in der letzten Woche.",
-            "这次会议没有上周的那么生物学的（变化形式）。"
+            "这次会议没有上周的那么生物学的[变化形式]。"
           ],
           [
             "Auf die Kritik der Jury reagierte er ziemlich biologische.",
-            "面对评审的批评，他表现得很生物学的（变化形式）。"
+            "面对评审的批评，他表现得很生物学的[变化形式]。"
           ]
         ]
       },
@@ -122290,7 +122290,7 @@
       {
         "word": "Römische",
         "pos": "n.",
-        "zh": "罗马的",
+        "zh": "罗马事物；罗马风格",
         "ipa": "ʁøːmɪʃə",
         "level": "b1",
         "rank": 11453,
@@ -123236,7 +123236,7 @@
       {
         "word": "Zwilling",
         "pos": "n.m.",
-        "zh": "双胞胎中一人；成对的",
+        "zh": "双胞胎之一；孪生儿",
         "ipa": "t͡svɪlɪnk",
         "level": "b1",
         "rank": 11576,
@@ -123566,7 +123566,7 @@
       {
         "word": "Off",
         "pos": "n.",
-        "zh": "台后；幕内；台后的；幕内的",
+        "zh": "画外音；幕后；场外",
         "ipa": "ɔf",
         "level": "b1",
         "rank": 11623,
@@ -123698,7 +123698,7 @@
       {
         "word": "Schweinchen",
         "pos": "n.",
-        "zh": "小猪；贪心的；似猪的；邋遢的",
+        "zh": "小猪；乳猪",
         "ipa": "ʃvaɪnçən",
         "level": "b1",
         "rank": 11638,
@@ -123727,15 +123727,15 @@
         "sentences": [
           [
             "Ohne Dirk wären all diese Bemühungen umsonst gewesen.",
-            "没有迪克（男子名），这一切努力都是白费。"
+            "没有迪克[男子名]，这一切努力都是白费。"
           ],
           [
             "Seine Forschung kreist um Dirk.",
-            "他的研究围绕迪克（男子名）展开。"
+            "他的研究围绕迪克[男子名]展开。"
           ],
           [
             "Bis Freitag muss ich Dirk wiederholen.",
-            "周五之前我得复习迪克（男子名）。"
+            "周五之前我得复习迪克[男子名]。"
           ]
         ]
       },
@@ -124754,7 +124754,7 @@
       {
         "word": "Intuition",
         "pos": "n.f.",
-        "zh": "直觉的",
+        "zh": "直觉；第六感",
         "ipa": "ɪntʊɪt͡sjoːn",
         "level": "b1",
         "rank": 11769,
@@ -124996,7 +124996,7 @@
       {
         "word": "Kopieren",
         "pos": "n.",
-        "zh": "誊写；复写；仿形的",
+        "zh": "复印；复制；拷贝",
         "ipa": "koːpiːʁən",
         "level": "b1",
         "rank": 11799,
@@ -126059,15 +126059,15 @@
         "sentences": [
           [
             "Gestern las ich einen interessanten Artikel über Quarterback.",
-            "昨天我读了一篇关于（美式橄榄球）四分卫的有趣文章。"
+            "昨天我读了一篇关于[美式橄榄球]四分卫的有趣文章。"
           ],
           [
             "Die Nachricht über Quarterback verbreitete sich blitzartig.",
-            "（美式橄榄球）四分卫的消息瞬间传开了。"
+            "[美式橄榄球]四分卫的消息瞬间传开了。"
           ],
           [
             "In diesem Film geht es im Kern um Quarterback.",
-            "这部电影归根结底讲的是（美式橄榄球）四分卫。"
+            "这部电影归根结底讲的是[美式橄榄球]四分卫。"
           ]
         ]
       },
@@ -126125,15 +126125,15 @@
         "sentences": [
           [
             "Reden wir weiter über Mäuschen oder wechselst du das Thema?",
-            "我们继续聊小老鼠（Maus 的指小形式），还是你想换个话题？"
+            "我们继续聊小老鼠[Maus 的指小形式]，还是你想换个话题？"
           ],
           [
             "Ich verstehe immer besser, wie Mäuschen funktioniert.",
-            "我越来越明白小老鼠（Maus 的指小形式）是怎么运作的了。"
+            "我越来越明白小老鼠[Maus 的指小形式]是怎么运作的了。"
           ],
           [
             "Diesen Sommer möchte ich mehr über Mäuschen erfahren.",
-            "今年夏天我想多了解小老鼠（Maus 的指小形式）。"
+            "今年夏天我想多了解小老鼠[Maus 的指小形式]。"
           ]
         ]
       },
@@ -126807,15 +126807,15 @@
         "sentences": [
           [
             "Mir fehlt das Vokabular, um Dora genau zu erklären.",
-            "我的词汇量不够，没法精确解释多拉（人名）。"
+            "我的词汇量不够，没法精确解释多拉[人名]。"
           ],
           [
             "Am Anfang war Dora mir völlig fremd.",
-            "一开始，多拉（人名）对我来说很陌生。"
+            "一开始，多拉[人名]对我来说很陌生。"
           ],
           [
             "Gestern las ich einen interessanten Artikel über Dora.",
-            "昨天我读了一篇关于多拉（人名）的有趣文章。"
+            "昨天我读了一篇关于多拉[人名]的有趣文章。"
           ]
         ]
       },
@@ -127724,7 +127724,7 @@
       {
         "word": "Republikaner",
         "pos": "n.m.",
-        "zh": "共和主义者；共和国的",
+        "zh": "共和党人；共和主义者",
         "ipa": "ʁeːpʊblɪkanɐ",
         "level": "b1",
         "rank": 12178,
@@ -127775,15 +127775,15 @@
         "sentences": [
           [
             "Dass das Projekt weitergeht, ist schmutziges für uns alle.",
-            "项目能继续推进，对大家来说是件脏的（schmutzig 变化形式）的事。"
+            "项目能继续推进，对大家来说是件脏的[schmutzig 变化形式]的事。"
           ],
           [
             "Über Geld mit der Familie zu sprechen ist immer schmutziges.",
-            "和家人谈钱总是很脏的（schmutzig 变化形式）。"
+            "和家人谈钱总是很脏的[schmutzig 变化形式]。"
           ],
           [
             "Für ein erstes Buch ist es ziemlich schmutziges geschrieben.",
-            "作为他的第一本书，写得相当脏的（schmutzig 变化形式）。"
+            "作为他的第一本书，写得相当脏的[schmutzig 变化形式]。"
           ]
         ]
       },
@@ -127812,7 +127812,7 @@
       {
         "word": "Beton",
         "pos": "n.m.",
-        "zh": "凝结物；实在的",
+        "zh": "混凝土",
         "ipa": "beːtoːn",
         "level": "b1",
         "rank": 12192,
@@ -127966,7 +127966,7 @@
       {
         "word": "Äußere",
         "pos": "n.",
-        "zh": "外面；外表；外界；外面的",
+        "zh": "外表；外貌；外部",
         "ipa": "ɔʏsəʁə",
         "level": "b1",
         "rank": 12213,
@@ -128208,7 +128208,7 @@
       {
         "word": "Fülle",
         "pos": "n.f.",
-        "zh": "充分；很多；丰富；很多的",
+        "zh": "丰富；充沛；大量",
         "ipa": "fʏlə",
         "level": "b1",
         "rank": 12244,
@@ -128384,7 +128384,7 @@
       {
         "word": "Kontinent",
         "pos": "n.m.",
-        "zh": "大陆；洲；自制的",
+        "zh": "大陆；大洲",
         "ipa": "kɔntɪnənt",
         "level": "b1",
         "rank": 12262,
@@ -128736,7 +128736,7 @@
       {
         "word": "Windel",
         "pos": "n.f.",
-        "zh": "尿布；菜盆；起毛的；多毛的",
+        "zh": "尿布；纸尿裤",
         "ipa": "vɪndəl",
         "level": "b1",
         "rank": 12304,
@@ -129552,7 +129552,7 @@
       {
         "word": "Elfen",
         "pos": "n.",
-        "zh": "仙女；精灵；仙女的",
+        "zh": "精灵；小仙子（复数）",
         "ipa": "ɛlfən",
         "level": "b2",
         "rank": 12647,
@@ -129860,7 +129860,7 @@
       {
         "word": "Musical",
         "pos": "n.",
-        "zh": "音乐片；声音美妙的",
+        "zh": "音乐剧",
         "ipa": "muːzɪkaːl",
         "level": "b2",
         "rank": 12687,
@@ -130366,7 +130366,7 @@
       {
         "word": "Favorit",
         "pos": "n.m.",
-        "zh": "宠爱的",
+        "zh": "夺冠热门；受宠者；心腹",
         "ipa": "faːfɔʁiːt",
         "level": "b2",
         "rank": 12758,
@@ -130432,7 +130432,7 @@
       {
         "word": "Banner",
         "pos": "n.",
-        "zh": "旗帜；显著的；特别好的",
+        "zh": "横幅；旗帜；标语牌",
         "ipa": "banɐ",
         "level": "b2",
         "rank": 12765,
@@ -130916,7 +130916,7 @@
       {
         "word": "Rückendeckung",
         "pos": "n.f.",
-        "zh": "后面；背后；后方；后面的",
+        "zh": "后盾；支援；掩护",
         "ipa": "ʁʏkəndəkʊnk",
         "level": "b2",
         "rank": 12804,
@@ -132786,7 +132786,7 @@
       {
         "word": "Treib",
         "pos": "n.",
-        "zh": "推进的",
+        "zh": "驱使；推动；漂移",
         "ipa": "tʁaɪp",
         "level": "b2",
         "rank": 13034,
@@ -135338,7 +135338,7 @@
       {
         "word": "Denkmal",
         "pos": "n.",
-        "zh": "纪念物；记忆的",
+        "zh": "纪念碑；历史古迹",
         "ipa": "dɛnkmaːl",
         "level": "b2",
         "rank": 13337,
@@ -135514,7 +135514,7 @@
       {
         "word": "Strömung",
         "pos": "n.f.",
-        "zh": "涌流；趋势；流；流通的",
+        "zh": "水流；气流；思潮；潮流",
         "ipa": "ʃtʁøːmʊnk",
         "level": "b2",
         "rank": 13356,
@@ -135954,7 +135954,7 @@
       {
         "word": "Höhen",
         "pos": "n.",
-        "zh": "高空的",
+        "zh": "高度；高空；高峰（复数）",
         "ipa": "høːən",
         "level": "b2",
         "rank": 13409,
@@ -136812,7 +136812,7 @@
       {
         "word": "Ehrenhaft",
         "pos": "n.f.",
-        "zh": "光荣的；体面的；正派的",
+        "zh": "体面；正直；光荣行为",
         "ipa": "eːʁənhaft",
         "level": "b2",
         "rank": 13515,
@@ -137560,7 +137560,7 @@
       {
         "word": "Premier",
         "pos": "n.m.",
-        "zh": "总理；首相；首位的；最初的",
+        "zh": "总理；首相",
         "ipa": "pʁeːmiːɐ",
         "level": "b2",
         "rank": 13594,
@@ -138066,7 +138066,7 @@
       {
         "word": "Naturtalent",
         "pos": "n.",
-        "zh": "白痴；自然的；自然界的；本能的",
+        "zh": "天生奇才；天赋型人才",
         "ipa": "naːtʊʁtalənt",
         "level": "b2",
         "rank": 13653,
@@ -141146,7 +141146,7 @@
       {
         "word": "Heck",
         "pos": "n.",
-        "zh": "尾部；船尾；臀；严厉的",
+        "zh": "车尾；船尾",
         "ipa": "hɛk",
         "level": "b2",
         "rank": 14026,
@@ -142070,7 +142070,7 @@
       {
         "word": "Tötung",
         "pos": "n.f.",
-        "zh": "谋杀；杀戮；杀害的；疲惫的",
+        "zh": "杀害；杀戮；致死",
         "ipa": "tøːtʊnk",
         "level": "b2",
         "rank": 14143,
@@ -142510,7 +142510,7 @@
       {
         "word": "Fegefeuer",
         "pos": "n.",
-        "zh": "涤罪；炼狱；涤罪的",
+        "zh": "炼狱",
         "ipa": "feːɡəfɔʏɐ",
         "level": "b2",
         "rank": 14186,
@@ -143544,7 +143544,7 @@
       {
         "word": "Minimum",
         "pos": "n.",
-        "zh": "最小的",
+        "zh": "最小值；最低限度",
         "ipa": "miːnɪmuːm",
         "level": "b2",
         "rank": 14327,
@@ -146316,7 +146316,7 @@
       {
         "word": "Edel",
         "pos": "n.",
-        "zh": "贵族的；高尚的；名贵的",
+        "zh": "贵族；高尚人士",
         "ipa": "eːdəl",
         "level": "b2",
         "rank": 14669,
@@ -146800,7 +146800,7 @@
       {
         "word": "Schwefel",
         "pos": "n.",
-        "zh": "硫的",
+        "zh": "硫磺；硫",
         "ipa": "ʃveːfəl",
         "level": "b2",
         "rank": 14719,
@@ -147020,7 +147020,7 @@
       {
         "word": "Amerikanisches",
         "pos": "n.",
-        "zh": "美洲的",
+        "zh": "美洲事物；美国风格",
         "ipa": "aːməʁɪkanɪʃəs",
         "level": "b2",
         "rank": 14744,
@@ -147394,7 +147394,7 @@
       {
         "word": "Einwanderer",
         "pos": "n.m.",
-        "zh": "移民；移入的；移民的",
+        "zh": "移民；迁入者",
         "ipa": "aɪnvandəʁɐ",
         "level": "b2",
         "rank": 14801,
@@ -148428,7 +148428,7 @@
       {
         "word": "Karibik",
         "pos": "n.f.",
-        "zh": "加勒比人的",
+        "zh": "加勒比海；加勒比地区",
         "ipa": "kaːʁɪbiːk",
         "level": "b2",
         "rank": 14923,
@@ -148934,7 +148934,7 @@
       {
         "word": "Aktentasche",
         "pos": "n.f.",
-        "zh": "摘要；简报；简短的",
+        "zh": "公文包；公事包",
         "ipa": "aktəntaʃə",
         "level": "b2",
         "rank": 14983,
@@ -149110,7 +149110,7 @@
       {
         "word": "Zaubertrank",
         "pos": "n.m.",
-        "zh": "魔术；魔法；魔术的；有魔力的",
+        "zh": "魔药；魔法药水",
         "ipa": "t͡saʊbəʁtʁank",
         "level": "b2",
         "rank": 14997,
@@ -149330,7 +149330,7 @@
       {
         "word": "Straßenrand",
         "pos": "n.m.",
-        "zh": "路旁；路边；路边的",
+        "zh": "路旁；路边",
         "ipa": "ʃtʁaːsənʁant",
         "level": "b2",
         "rank": 15018,
@@ -149550,7 +149550,7 @@
       {
         "word": "Mediziner",
         "pos": "n.m.",
-        "zh": "医生；内科的",
+        "zh": "医生；医学工作者",
         "ipa": "meːdɪt͡sɪnɐ",
         "level": "b2",
         "rank": 15039,
@@ -150716,7 +150716,7 @@
       {
         "word": "Mitbürger",
         "pos": "n.m.",
-        "zh": "男人；朋友；同事；同伴的",
+        "zh": "同胞；公民；市民",
         "ipa": "mɪtbʏʁɡɐ",
         "level": "b2",
         "rank": 15177,
@@ -151772,7 +151772,7 @@
       {
         "word": "Versuchs",
         "pos": "n.",
-        "zh": "暂时的",
+        "zh": "试验；尝试（构词成分）",
         "ipa": "fɛʁzʊks",
         "level": "b2",
         "rank": 15299,
@@ -152014,7 +152014,7 @@
       {
         "word": "Mitmenschen",
         "pos": "n.",
-        "zh": "男人；朋友；同事；同伴的",
+        "zh": "同胞；周围的人；同仁",
         "ipa": "mɪtmənʃən",
         "level": "b2",
         "rank": 15333,
@@ -152454,7 +152454,7 @@
       {
         "word": "Glänzen",
         "pos": "n.m.",
-        "zh": "有光泽的",
+        "zh": "闪烁；发光；光彩夺目",
         "ipa": "ɡlɛnt͡sən",
         "level": "b2",
         "rank": 15380,
@@ -152740,7 +152740,7 @@
       {
         "word": "Lehrling",
         "pos": "n.m.",
-        "zh": "学徒；无经验的",
+        "zh": "学徒；徒弟；见习生",
         "ipa": "leːʁlɪnk",
         "level": "b2",
         "rank": 15420,
@@ -153158,7 +153158,7 @@
       {
         "word": "Lieblingsessen",
         "pos": "n.",
-        "zh": "宠爱的",
+        "zh": "最喜欢的食物；最爱吃的菜",
         "ipa": "liːblɪnɡzəsən",
         "level": "b2",
         "rank": 15484,
@@ -154720,7 +154720,7 @@
       {
         "word": "Tonic",
         "pos": "n.",
-        "zh": "补药；声调的",
+        "zh": "汤力水；滋补饮料",
         "ipa": "toːniːk",
         "level": "b2",
         "rank": 15673,
@@ -155204,7 +155204,7 @@
       {
         "word": "Fanatiker",
         "pos": "n.m.",
-        "zh": "狂热者；盲信；狂热的；盲信的",
+        "zh": "狂热分子；狂热崇拜者",
         "ipa": "faːnatɪkɐ",
         "level": "b2",
         "rank": 15732,
@@ -155666,7 +155666,7 @@
       {
         "word": "Rascheln",
         "pos": "n.",
-        "zh": "时髦的",
+        "zh": "沙沙声；悉索声",
         "ipa": "ʁaʃəln",
         "level": "b2",
         "rank": 15797,
@@ -156128,7 +156128,7 @@
       {
         "word": "Unabhängige",
         "pos": "n.",
-        "zh": "独立自主者；有主见的",
+        "zh": "独立候选人；无党派人士",
         "ipa": "uːnabhɛnɡɪɡə",
         "level": "b2",
         "rank": 15843,
@@ -157514,7 +157514,7 @@
       {
         "word": "Fahrerflucht",
         "pos": "n.f.",
-        "zh": "打了人后即逃跑的",
+        "zh": "交通肇事逃逸",
         "ipa": "faːʁəʁflʊxt",
         "level": "b2",
         "rank": 15996,
@@ -158093,15 +158093,15 @@
         "sentences": [
           [
             "Der Lehrer beantwortete alle Fragen zu Foul.",
-            "老师解答了关于犯规（体育）的所有疑问。"
+            "老师解答了关于犯规[体育]的所有疑问。"
           ],
           [
             "Ohne Foul wären all diese Bemühungen umsonst gewesen.",
-            "没有犯规（体育），这一切努力都是白费。"
+            "没有犯规[体育]，这一切努力都是白费。"
           ],
           [
             "Seine Forschung kreist um Foul.",
-            "他的研究围绕犯规（体育）展开。"
+            "他的研究围绕犯规[体育]展开。"
           ]
         ]
       },
@@ -159215,15 +159215,15 @@
         "sentences": [
           [
             "Schon als Kind sammelte er Materialien über Internationaler.",
-            "他小时候就收集关于国际的（变化形式）的资料。"
+            "他小时候就收集关于国际的[变化形式]的资料。"
           ],
           [
             "Mit Internationaler spielt man nicht: sei vorsichtig.",
-            "国际的（变化形式）可不能当儿戏，必须小心。"
+            "国际的[变化形式]可不能当儿戏，必须小心。"
           ],
           [
             "Reden wir weiter über Internationaler oder wechselst du das Thema?",
-            "我们继续聊国际的（变化形式），还是你想换个话题？"
+            "我们继续聊国际的[变化形式]，还是你想换个话题？"
           ]
         ]
       },
@@ -159281,15 +159281,15 @@
         "sentences": [
           [
             "Bis Freitag muss ich Lilith wiederholen.",
-            "周五之前我得复习莉莉丝（人名）。"
+            "周五之前我得复习莉莉丝[人名]。"
           ],
           [
             "Im ganzen Haus sprach man nur über Lilith.",
-            "全家上下都在谈论莉莉丝（人名）。"
+            "全家上下都在谈论莉莉丝[人名]。"
           ],
           [
             "Für mich ist Lilith einfach unverzichtbar.",
-            "对我来说，莉莉丝（人名）是必不可少的东西。"
+            "对我来说，莉莉丝[人名]是必不可少的东西。"
           ]
         ]
       },
@@ -160440,7 +160440,7 @@
       {
         "word": "Mondlicht",
         "pos": "n.",
-        "zh": "月夜的",
+        "zh": "月光",
         "ipa": "mɔndlɪçt",
         "level": "b2",
         "rank": 16372,
@@ -160623,15 +160623,15 @@
         "sentences": [
           [
             "Heute haben wir im Unterricht den Begriff Sonnen analysiert.",
-            "今天课上我们分析了太阳（复数）这个概念。"
+            "今天课上我们分析了太阳[复数]这个概念。"
           ],
           [
             "Wir haben den ganzen Abend über Sonnen gesprochen.",
-            "我们聊了一晚上太阳（复数）。"
+            "我们聊了一晚上太阳[复数]。"
           ],
           [
             "Schon als Kind sammelte er Materialien über Sonnen.",
-            "他小时候就收集关于太阳（复数）的资料。"
+            "他小时候就收集关于太阳[复数]的资料。"
           ]
         ]
       },
@@ -160880,7 +160880,7 @@
       {
         "word": "Maximum",
         "pos": "n.",
-        "zh": "极点；最大量；极大；最高的",
+        "zh": "最大值；最高限度",
         "ipa": "maksɪmuːm",
         "level": "b2",
         "rank": 16430,
@@ -161694,7 +161694,7 @@
       {
         "word": "Hochverrat",
         "pos": "n.m.",
-        "zh": "高度；高处；高的；高级的",
+        "zh": "叛国罪；大逆不道罪",
         "ipa": "hɔxfəʁaːt",
         "level": "b2",
         "rank": 16548,
@@ -162354,7 +162354,7 @@
       {
         "word": "Porzellan",
         "pos": "n.",
-        "zh": "瓷器；瓷；瓷制的",
+        "zh": "瓷器；瓷",
         "ipa": "pɔʁt͡səlaːn",
         "level": "b2",
         "rank": 16623,
@@ -163564,7 +163564,7 @@
       {
         "word": "Regenschirm",
         "pos": "n.m.",
-        "zh": "伞；雨伞；保护伞；伞的",
+        "zh": "雨伞",
         "ipa": "ʁeːɡənʃɪʁm",
         "level": "b2",
         "rank": 16806,
@@ -164840,7 +164840,7 @@
       {
         "word": "Breiten",
         "pos": "n.",
-        "zh": "纬度的",
+        "zh": "纬度（复数）",
         "ipa": "bʁaɪtən",
         "level": "b2",
         "rank": 16955,
@@ -165280,7 +165280,7 @@
       {
         "word": "Kanadier",
         "pos": "n.m.",
-        "zh": "加拿大的",
+        "zh": "加拿大人",
         "ipa": "kaːnadiːɐ",
         "level": "b2",
         "rank": 17010,
@@ -166050,7 +166050,7 @@
       {
         "word": "Rückfall",
         "pos": "n.",
-        "zh": "复归的",
+        "zh": "旧病复发；倒退；重新犯罪",
         "ipa": "ʁʏkfal",
         "level": "b2",
         "rank": 17112,
@@ -166072,7 +166072,7 @@
       {
         "word": "Asteroiden",
         "pos": "n.",
-        "zh": "星状的",
+        "zh": "小行星（复数）",
         "ipa": "astəʁɔɪdən",
         "level": "b2",
         "rank": 17115,
@@ -166446,7 +166446,7 @@
       {
         "word": "Digital",
         "pos": "n.",
-        "zh": "数字显示的",
+        "zh": "数字显示屏；数码产品",
         "ipa": "diːɡɪtaːl",
         "level": "b2",
         "rank": 17167,
@@ -166468,7 +166468,7 @@
       {
         "word": "Speichern",
         "pos": "n.",
-        "zh": "存款；挽救；节约；搭救的",
+        "zh": "存储；储存；保全",
         "ipa": "ʃpaɪçɐn",
         "level": "b2",
         "rank": 17168,
@@ -167040,7 +167040,7 @@
       {
         "word": "Cabrio",
         "pos": "n.",
-        "zh": "可改变的",
+        "zh": "敞篷汽车；敞篷车",
         "ipa": "kabʁɪɔ",
         "level": "b2",
         "rank": 17242,
@@ -167370,7 +167370,7 @@
       {
         "word": "Jugendlicher",
         "pos": "n.m.",
-        "zh": "青春期的",
+        "zh": "青少年；少年",
         "ipa": "juːɡəndlɪçɐ",
         "level": "b2",
         "rank": 17309,
@@ -167964,7 +167964,7 @@
       {
         "word": "Downton",
         "pos": "n.",
-        "zh": "当顿的",
+        "zh": "唐顿（地名/庄园名）",
         "ipa": "dɔvntoːn",
         "level": "b2",
         "rank": 17399,
@@ -168448,7 +168448,7 @@
       {
         "word": "Senatoren",
         "pos": "n.",
-        "zh": "参议院的",
+        "zh": "参议员（复数）",
         "ipa": "zeːnatɔʁən",
         "level": "b2",
         "rank": 17468,
@@ -168602,7 +168602,7 @@
       {
         "word": "Koreaner",
         "pos": "n.m.",
-        "zh": "朝鲜人；朝鲜语的",
+        "zh": "韩国人；朝鲜人",
         "ipa": "koːʁɛanɐ",
         "level": "b2",
         "rank": 17499,
@@ -168932,7 +168932,7 @@
       {
         "word": "Hosentasche",
         "pos": "n.f.",
-        "zh": "裤子的",
+        "zh": "裤兜；裤袋",
         "ipa": "hoːzəntaʃə",
         "level": "b2",
         "rank": 17545,
@@ -169812,7 +169812,7 @@
       {
         "word": "Lebensweise",
         "pos": "n.f.",
-        "zh": "生活；生计；生存；活的",
+        "zh": "生活方式；生存习性",
         "ipa": "leːbənsvaɪzə",
         "level": "b2",
         "rank": 17646,
@@ -170032,7 +170032,7 @@
       {
         "word": "Fachmann",
         "pos": "n.m.",
-        "zh": "专家；行家；老练的；内行的",
+        "zh": "专家；内行；行家",
         "ipa": "faxman",
         "level": "b2",
         "rank": 17693,
@@ -170098,7 +170098,7 @@
       {
         "word": "Sterbliche",
         "pos": "n.",
-        "zh": "生物；人类的",
+        "zh": "凡人；会死的人类",
         "ipa": "ʃtɛʁblɪçə",
         "level": "b2",
         "rank": 17703,
@@ -170164,7 +170164,7 @@
       {
         "word": "Hunderter",
         "pos": "n.m.",
-        "zh": "百；百个；一百的",
+        "zh": "百位数；一百元纸币",
         "ipa": "hʊndəʁtɐ",
         "level": "b2",
         "rank": 17711,
@@ -171132,7 +171132,7 @@
       {
         "word": "Afrikanische",
         "pos": "n.",
-        "zh": "非洲人的",
+        "zh": "非洲事物；非洲风格",
         "ipa": "afʁɪkanɪʃə",
         "level": "b2",
         "rank": 17834,
@@ -171176,7 +171176,7 @@
       {
         "word": "Lebenszeit",
         "pos": "n.f.",
-        "zh": "一生；终生；一生的；终生的",
+        "zh": "一生；终身；寿命",
         "ipa": "leːbənst͡saɪt",
         "level": "b2",
         "rank": 17836,
@@ -171418,7 +171418,7 @@
       {
         "word": "Taufen",
         "pos": "n.",
-        "zh": "洗礼的",
+        "zh": "施洗；受洗礼",
         "ipa": "taʊfən",
         "level": "b2",
         "rank": 17867,
@@ -171814,7 +171814,7 @@
       {
         "word": "Lieblingsfarbe",
         "pos": "n.f.",
-        "zh": "宠爱的",
+        "zh": "最喜欢的颜色",
         "ipa": "liːblɪnɡsfaʁbə",
         "level": "b2",
         "rank": 17937,
@@ -171968,7 +171968,7 @@
       {
         "word": "Stacheldraht",
         "pos": "n.m.",
-        "zh": "有倒刺的",
+        "zh": "铁丝网；带刺铁丝",
         "ipa": "ʃtaxəldʁaːt",
         "level": "b2",
         "rank": 17959,
@@ -172848,7 +172848,7 @@
       {
         "word": "Schleudern",
         "pos": "n.",
-        "zh": "脱离；一碰就散开；脱落的",
+        "zh": "打滑甩尾；脱水甩干；抛掷",
         "ipa": "ʃlɔʏdɐn",
         "level": "b2",
         "rank": 18075,
@@ -173119,15 +173119,15 @@
         "sentences": [
           [
             "Wir haben den ganzen Abend über Gemeinsamer gesprochen.",
-            "我们聊了一晚上共同的事物（共同的人）。"
+            "我们聊了一晚上共同的事物[共同的人]。"
           ],
           [
             "Schon als Kind sammelte er Materialien über Gemeinsamer.",
-            "他小时候就收集关于共同的事物（共同的人）的资料。"
+            "他小时候就收集关于共同的事物[共同的人]的资料。"
           ],
           [
             "Mit Gemeinsamer spielt man nicht: sei vorsichtig.",
-            "共同的事物（共同的人）可不能当儿戏，必须小心。"
+            "共同的事物[共同的人]可不能当儿戏，必须小心。"
           ]
         ]
       },
@@ -174014,7 +174014,7 @@
       {
         "word": "Bernstein",
         "pos": "n.m.",
-        "zh": "琥珀；琥珀似的",
+        "zh": "琥珀",
         "ipa": "bɛʁnstaɪn",
         "level": "b2",
         "rank": 18224,
@@ -175686,7 +175686,7 @@
       {
         "word": "Aas",
         "pos": "n.",
-        "zh": "死肉；腐肉；腐肉的；似腐肉的",
+        "zh": "死肉；腐肉",
         "ipa": "aːs",
         "level": "b2",
         "rank": 18443,
@@ -175803,15 +175803,15 @@
         "sentences": [
           [
             "Dieses Kapitel erklärt, wann man uff verwendet.",
-            "这一章讲解什么时候用呼（表示松一口气/疲惫）。"
+            "这一章讲解什么时候用呼[表示松一口气/疲惫]。"
           ],
           [
             "Das Wort uff erscheint in diesem Dialog mehrmals.",
-            "在这段对话里，呼（表示松一口气/疲惫）这个词出现了好几次。"
+            "在这段对话里，呼[表示松一口气/疲惫]这个词出现了好几次。"
           ],
           [
             "An der Tafel stand der Begriff uff.",
-            "他们在黑板上写下了呼（表示松一口气/疲惫）这个词。"
+            "他们在黑板上写下了呼[表示松一口气/疲惫]这个词。"
           ]
         ]
       },
@@ -175884,7 +175884,7 @@
       {
         "word": "Blinddarm",
         "pos": "n.m.",
-        "zh": "蒙蔽物；窗帘；盲目的；瞎的",
+        "zh": "阑尾；盲肠",
         "ipa": "blɪndaʁm",
         "level": "b2",
         "rank": 18473,
@@ -176302,7 +176302,7 @@
       {
         "word": "Knacker",
         "pos": "n.m.",
-        "zh": "裂解；分解；敏捷的",
+        "zh": "脆皮小香肠；老朽",
         "ipa": "knakɐ",
         "level": "b2",
         "rank": 18525,
@@ -177204,7 +177204,7 @@
       {
         "word": "Nachttisch",
         "pos": "n.m.",
-        "zh": "床边；床边的；临床的",
+        "zh": "床头柜；床边桌",
         "ipa": "naxtɪʃ",
         "level": "b2",
         "rank": 18643,

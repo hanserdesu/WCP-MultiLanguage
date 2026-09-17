@@ -186,7 +186,7 @@ def main():
         write_tsv(os.path.join(out, pron_name),
                   [(r[0], r[1], r[2], r[3]) for r in pron])
         write_tsv(os.path.join(out, sent_name),
-                  [(w, "例句：%s（%s）" % (orig, zh)) for (w, orig, zh) in pairs])
+                  [(w, "例句：%s（%s）" % (orig, zh.replace('（', '[').replace('）', ']'))) for (w, orig, zh) in pairs])
 
         files = {n: sha256(os.path.join(out, n)) for n in (pron_name, sent_name)}
         manifest = {

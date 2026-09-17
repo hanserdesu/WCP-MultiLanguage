@@ -276,6 +276,9 @@ def build_all_sentences(books: dict, lemma: dict):
                             x[1] = new_val
                         break
 
+            for x in sents:
+                x[1] = x[1].replace('（', '[').replace('）', ']')
+
             e['sentences'] = sents
             master[w] = sents
     return master

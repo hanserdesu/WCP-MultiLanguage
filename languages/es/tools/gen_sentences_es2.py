@@ -305,6 +305,9 @@ def build_all_sentences(books: dict, lemma: dict):
                 for i, fixed_zh in enumerate(FIX_ZH_5[w]):
                     sents[i][1] = fixed_zh
 
+            for x in sents:
+                x[1] = x[1].replace('（', '[').replace('）', ']')
+
             e['sentences'] = sents
             master[w] = sents
     return master

@@ -16,15 +16,15 @@
  "que": [
   [
    "No encuentro el sentido exacto de que en esta frase.",
-   "在这个句子里，我找不到（关系代词/连接词）的确切意思。"
+   "在这个句子里，我找不到关系代词/连接词的确切意思。"
   ],
   [
    "El diccionario sitúa que entre las entradas más consultadas.",
-   "词典把（关系代词/连接词）列为查询最多的词条之一。"
+   "词典把关系代词/连接词列为查询最多的词条之一。"
   ],
   [
    "¿Cómo se traduce que al chino?",
-   "（关系代词/连接词）用中文怎么说？"
+   "关系代词/连接词用中文怎么说？"
   ]
  ],
  "no": [
@@ -44,15 +44,15 @@
  "la": [
   [
    "¿Cómo se traduce la al chino?",
-   "定冠词（阴性单数）用中文怎么说？"
+   "定冠词[阴性单数]用中文怎么说？"
   ],
   [
    "El profesor escribió la en la pizarra y nos pidió un ejemplo.",
-   "老师在黑板上写下定冠词（阴性单数），让我们造个句子。"
+   "老师在黑板上写下定冠词[阴性单数]，让我们造个句子。"
   ],
   [
    "En este texto, la se usa con un matiz distinto.",
-   "在这篇文章里，定冠词（阴性单数）的用法略有不同。"
+   "在这篇文章里，定冠词[阴性单数]的用法略有不同。"
   ]
  ],
  "ser": [
@@ -86,15 +86,15 @@
  "un": [
   [
    "Repite un otra vez, por favor.",
-   "请再把一个（阳性）念一遍。"
+   "请再把一个[阳性]念一遍。"
   ],
   [
    "Subraya la palabra un en la tercera línea.",
-   "请在第三行标出一个（阳性）这个词。"
+   "请在第三行标出一个[阳性]这个词。"
   ],
   [
    "El uso de un varía mucho entre países.",
-   "一个（阳性）的用法在不同国家差别很大。"
+   "一个[阳性]的用法在不同国家差别很大。"
   ]
  ],
  "por": [
@@ -128,29 +128,29 @@
  "me": [
   [
    "Me cuesta distinguir me de palabras parecidas.",
-   "我很难把我（宾格）和相近的词区分开。"
+   "我很难把我[宾格]和相近的词区分开。"
   ],
   [
    "Este capítulo explica cuándo se emplea me.",
-   "这一章讲解什么时候用我（宾格）。"
+   "这一章讲解什么时候用我[宾格]。"
   ],
   [
    "La palabra me aparece varias veces en este diálogo.",
-   "在这段对话里，我（宾格）这个词出现了好几次。"
+   "在这段对话里，我[宾格]这个词出现了好几次。"
   ]
  ],
  "una": [
   [
    "Este capítulo explica cuándo se emplea una.",
-   "这一章讲解什么时候用一个（阴性）。"
+   "这一章讲解什么时候用一个[阴性]。"
   ],
   [
    "La palabra una aparece varias veces en este diálogo.",
-   "在这段对话里，一个（阴性）这个词出现了好几次。"
+   "在这段对话里，一个[阴性]这个词出现了好几次。"
   ],
   [
    "En la pizarra escribieron el término una.",
-   "他们在黑板上写下了一个（阴性）这个词。"
+   "他们在黑板上写下了一个[阴性]这个词。"
   ]
  ],
  "se": [
@@ -170,15 +170,15 @@
  "te": [
   [
    "En la pizarra escribieron el término te.",
-   "他们在黑板上写下了你（宾格）这个词。"
+   "他们在黑板上写下了你[宾格]这个词。"
   ],
   [
    "No encuentro el sentido exacto de te en esta frase.",
-   "在这个句子里，我找不到你（宾格）的确切意思。"
+   "在这个句子里，我找不到你[宾格]的确切意思。"
   ],
   [
    "El diccionario sitúa te entre las entradas más consultadas.",
-   "词典把你（宾格）列为查询最多的词条之一。"
+   "词典把你[宾格]列为查询最多的词条之一。"
   ]
  ],
  "con": [
@@ -408,15 +408,15 @@
  "le": [
   [
    "En este texto, le se usa con un matiz distinto.",
-   "在这篇文章里，他/她/您（与格）的用法略有不同。"
+   "在这篇文章里，他/她/您[与格]的用法略有不同。"
   ],
   [
    "Repite le otra vez, por favor.",
-   "请再把他/她/您（与格）念一遍。"
+   "请再把他/她/您[与格]念一遍。"
   ],
   [
    "Subraya la palabra le en la tercera línea.",
-   "请在第三行标出他/她/您（与格）这个词。"
+   "请在第三行标出他/她/您[与格]这个词。"
   ]
  ],
  "éste": [
@@ -506,15 +506,15 @@
  "esta": [
   [
    "En la pizarra escribieron el término esta.",
-   "他们在黑板上写下了这个（阴性）这个词。"
+   "他们在黑板上写下了这个[阴性]这个词。"
   ],
   [
    "No encuentro el sentido exacto de esta en esta frase.",
-   "在这个句子里，我找不到这个（阴性）的确切意思。"
+   "在这个句子里，我找不到这个[阴性]的确切意思。"
   ],
   [
    "El diccionario sitúa esta entre las entradas más consultadas.",
-   "词典把这个（阴性）列为查询最多的词条之一。"
+   "词典把这个[阴性]列为查询最多的词条之一。"
   ]
  ],
  "así": [
@@ -562,15 +562,15 @@
  "hay": [
   [
    "Vale la pena hay aunque los resultados tarden.",
-   "即使见效慢，有（存在）也是值得的。"
+   "即使见效慢，有[存在]也是值得的。"
   ],
   [
    "Cada mañana dedica media hora a hay.",
-   "他每天早上花半小时有（存在）。"
+   "他每天早上花半小时有[存在]。"
   ],
   [
    "Me cuesta hay, pero cada día lo hago un poco mejor.",
-   "有（存在）对我来说很难，但我每天都做得好一点。"
+   "有[存在]对我来说很难，但我每天都做得好一点。"
   ]
  ],
  "bueno": [
