@@ -612,7 +612,7 @@ probes 41/0、verify_integration PASS(9)、build_pack --check-all PASS、arch_ch
 | P1-9 | Test-WordbookDiskHealth（骨架/词表自证/音频抽样）+ -Update 摘除重下 | ✅ 在线端到端验证 |
 | 附带修复 | Get-HubWorkPath 目录保证（新用户阻断级回归）+ 下载句柄 finally 释放 | ✅ 沙箱实锤后修复 |
 | 门禁 | test_hub 87/0 · takeover 0 · custom-slots 11/0 · word-audio 0 · slot-ownership 15/0 · registry 全过 · verify_integration 9/9 · sync --check · build_pack --check-all · arch_check 0F/0W · probes 41/0 | ✅ 全绿 |
-| 发布 | 新 mods 载荷已构建（含 WcpHost 0.5.0 服务边界，payload sha256 `187defd4…`）——**未发布**，待用户批准 | ⬜ |
+| 发布 | 新 mods 载荷已构建（含 WcpHost 0.5.0 服务边界，payload sha256 `774d66f2…`）——**未发布**，待用户批准 | ⬜ |
 
 **版本记录**：WcpHost 0.4.0 → 0.5.0（服务边界门 + RequireSlotOwnership 配置）。
 mods 载荷待发布为新版本（建议 wcp-mods-v1.4.0）并同步 catalog mods 块 + hub catalog 副本；
@@ -642,10 +642,10 @@ mods 载荷待发布为新版本（建议 wcp-mods-v1.4.0）并同步 catalog mo
 Image 颜色/sprite、Text 字体/字号/颜色/对齐、LayoutGroup 间距/内边距/子对齐、ContentSizeFitter、
 LayoutElement、CanvasGroup）、`BookButtonFather/Son/NameText/LearnedNum` 四组逐项 self/parent/child 几何、
 **全场景 `ScrollRect`/`Scrollbar` 模板扫描**（无缝改造要克隆原生滚动条，不是自造一个风格不同的）、
-页面字体清单。写入 `%persistentDataPath%\WcpSlotsDiag.txt`（本机 =
+页面字体清单。写入 `%LocalLow%\WCP\wcp_diag\WcpSlotsDiag.txt`（本机 =
 `%USERPROFILE%\AppData\LocalLow\WCP\...`）。
 
-**验收**：BUILD OK + 部署，CustomSlotsMod.dll sha `43c5f858…` 仓内 = 游戏 BepInEx\plugins 一致；
+**验收**：BUILD OK + 部署，CustomSlotsMod.dll sha `3f73ef39…` 仓内 = 游戏 BepInEx\plugins 一致；
 custom-slots 离线 harness 11/0 无回归。
 
 **验证命令**：`powershell -NoProfile -ExecutionPolicy Bypass -File 'mod_custom_slots\tests\test_custom_slots.ps1'`

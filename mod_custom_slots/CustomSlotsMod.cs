@@ -556,7 +556,10 @@ namespace WcpCustomSlots
                 DumpScrollTemplates(lines);
                 DumpFonts(chooserComponent.transform, lines);
 
-                string path = Path.Combine(Application.persistentDataPath, "WcpSlotsDiag.txt");
+                // 落点必须在 Steam 云同步范围（LocalLow\WCP\wcp 整目录）之外：
+                // 一次性诊断文件不许进同步队列；失败退回 persistentDataPath（只记日志，不阻断）。
+                string path = DiagPath();
+                Directory.CreateDirectory(Path.GetDirectoryName(path));
                 File.WriteAllText(path, string.Join("\n", lines.ToArray()));
                 Log.LogInfo("CustomSlots: native page dumped (" + source + ") -> " + path +
                             " (" + lines.Count + " lines)");
@@ -765,6 +768,23 @@ namespace WcpCustomSlots
         {
             return "RGBA(" + c.r.ToString("0.###") + "," + c.g.ToString("0.###") + "," + c.b.ToString("0.###") +
                    "," + c.a.ToString("0.###") + ")";
+        }
+
+        // 诊断文件落点：<LocalLow>\WCP\wcp_diag\WcpSlotsDiag.txt（云同步范围外）。
+        // persistentDataPath 就是被同步的那个 wcp 目录，所以取它的上一级再拼 wcp_diag。
+        private static string DiagPath()
+        {
+            try
+            {
+                DirectoryInfo parent = Directory.GetParent(Application.persistentDataPath);
+                if (parent != null && !string.IsNullOrEmpty(parent.FullName))
+                    return Path.Combine(Path.Combine(parent.FullName, "wcp_diag"), "WcpSlotsDiag.txt");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("CustomSlots: 诊断目录解析失败，退回 persistentDataPath: " + e.Message);
+            }
+            return Path.Combine(Application.persistentDataPath, "WcpSlotsDiag.txt");
         }
 
         private static string Clip(string s)
