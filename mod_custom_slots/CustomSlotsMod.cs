@@ -198,6 +198,7 @@ namespace WcpCustomSlots
             Log = Logger;
             _storePath = Path.Combine(Application.persistentDataPath, StoreFile);
             _state = LoadState();
+            DetectNativeSlotCount();      // 先探测原生槽数，导入才不会漏掉新槽
             int imported = ImportNativeBooksNow();
             MergeSeed();
             VerifySerializerRoundTrip();
@@ -210,6 +211,19 @@ namespace WcpCustomSlots
             }
             catch (Exception e) { Log.LogError("CustomSlots: Harmony patch failed: " + e.Message); }
             PatchEntryExplicitly();
+        }
+
+        // P1-17：原生槽位数量探测回填（作者加槽自动跟随；探测失败保持 4）。
+        private void DetectNativeSlotCount()
+        {
+            try
+            {
+                int detected = GameCompat.DetectListSlotCount(MyBookPath);
+                SlotRules.SetNativeSlotCount(detected);
+                Log.LogInfo("CustomSlots: 原生槽位探测 = " + SlotRules.CurrentNativeSlots +
+                    "（下限 " + SlotRules.MinNativeSlots + "；作者加槽会自动跟随）");
+            }
+            catch (Exception e) { Log.LogWarning("CustomSlots: 原生槽位探测失败（保持 4）: " + e.Message); }
         }
 
         // PatchAll 报 OK 也可能是"没挂上"（实机实测 postfixes=0 且无异常）。
@@ -1130,35 +1144,96 @@ namespace WcpCustomSlots
         private bool EnsureRowTemplate()
         {
             if (_nativeRowTemplate != null) return true;
-            GameObject tmpl = FindSceneObject(NativeListRoot + "/bookNameBar (5)");
-            if (tmpl == null) tmpl = FindSceneObject(NativeListRoot + "/bookNameBar (1)");
-            if (tmpl == null) return false;
-            _nativeRowTemplate = tmpl;
-            // 选中态 sprite：当前不可点（interactable=False）的那条就是选中行。
-            for (int i = 1; i <= 5; i++)
+            List<Transform> bars = NativeBars();
+            if (bars.Count == 0) return false;
+            Transform template = null;
+            // 选中态 sprite：当前不可点（interactable=False）的那条就是选中行；
+            // 模板优先取隐藏行（游戏自己加行用的原型），没有隐藏行才用第一行。
+            for (int i = 0; i < bars.Count; i++)
             {
-                GameObject bar = FindSceneObject(NativeListRoot + "/bookNameBar (" + i + ")");
-                if (bar == null) continue;
-                Button b = bar.GetComponent<Button>();
-                Image img = bar.GetComponent<Image>();
+                Button b = bars[i].GetComponent<Button>();
+                Image img = bars[i].GetComponent<Image>();
                 if (b != null && img != null && !b.interactable && img.sprite != null)
-                {
                     _nativeChosenSprite = img.sprite;
-                    break;
-                }
+                if (template == null && !bars[i].gameObject.activeSelf) template = bars[i];
             }
+            if (template == null) template = bars[0];
+            _nativeRowTemplate = template.gameObject;
             if (_nativeChosenSprite == null) Log.LogWarning("CustomSlots: 路线B 未取到选中态 sprite，选中行用普通底图");
             return true;
         }
 
-        private const string NativeListRoot = "AllCanvas/SettingPart/CanvasSetting1";
+        private static readonly string[] NativeListRootCandidates =
+        {
+            "AllCanvas/SettingPart/CanvasSetting1",
+            "AllCanvas/SettingPart/CanvasSetting2",
+        };
+        private static string _nativeListRoot;
+
+        // 原生列表根解析：先精确候选，再按"子节点有 bookNameBar 行"的特征扫描
+        // SettingPart 全域（作者改页名/挪层级时不失联）。返回场景路径或 null。
+        private string EnsureNativeListRoot()
+        {
+            if (_nativeListRoot != null) return _nativeListRoot;
+            for (int c = 0; c < NativeListRootCandidates.Length; c++)
+            {
+                GameObject rootGo = FindSceneObject(NativeListRootCandidates[c]);
+                if (rootGo != null && FindBookBarChild(rootGo.transform) != null)
+                {
+                    _nativeListRoot = NativeListRootCandidates[c];
+                    return _nativeListRoot;
+                }
+            }
+            GameObject setting = FindSceneObject("AllCanvas/SettingPart");
+            if (setting != null)
+            {
+                Transform bar = GameCompat.FindDescendant(setting.transform, "bookNameBar", 512);
+                if (bar != null && bar.parent != null)
+                {
+                    _nativeListRoot = GameCompat.NodePath(bar.parent);
+                    Log.LogInfo("CustomSlots: 原生列表根按特征扫描命中 → " + _nativeListRoot);
+                    return _nativeListRoot;
+                }
+            }
+            return null;
+        }
+
+        private static Transform FindBookBarChild(Transform root)
+        {
+            for (int i = 0; i < root.childCount; i++)
+            {
+                Transform child = root.GetChild(i);
+                if (child.name.StartsWith("bookNameBar", StringComparison.Ordinal)) return child;
+            }
+            return null;
+        }
+
+        // 当前全部原生行（bookNameBar*），数量不写死——作者加行自动跟随。
+        private List<Transform> NativeBars()
+        {
+            List<Transform> bars = new List<Transform>();
+            string rootPath = EnsureNativeListRoot();
+            GameObject rootGo = rootPath == null ? null : FindSceneObject(rootPath);
+            if (rootGo != null)
+            {
+                Transform t2 = rootGo.transform;
+                for (int i = 0; i < t2.childCount; i++)
+                {
+                    Transform child = t2.GetChild(i);
+                    if (child.name.StartsWith("bookNameBar", StringComparison.Ordinal)) bars.Add(child);
+                }
+            }
+            return bars;
+        }
 
         // 隐藏原生行（本 mod 提供 20 条克隆行接管显示），并记录以便 Hide 时恢复。
         private void HideNativeBars()
         {
-            for (int i = 1; i <= 5; i++)
+            // 不写死 1..5：按"bookNameBar 开头"枚举全部原生行，作者加槽/加行也不漏。
+            List<Transform> bars = NativeBars();
+            for (int i = 0; i < bars.Count; i++)
             {
-                GameObject bar = FindSceneObject(NativeListRoot + "/bookNameBar (" + i + ")");
+                GameObject bar = bars[i].gameObject;
                 if (bar == null || !bar.activeSelf) continue;
                 bar.SetActive(false);
                 _hiddenNativeBars.Add(bar);
@@ -1172,13 +1247,31 @@ namespace WcpCustomSlots
             _hiddenNativeBars.Clear();
         }
 
+        // 行文本节点名候选：作者改名时补前缀即可；全不中按位置兜底
+        // （左=首子节点，右=末子节点），文本节点换了名字也还能写。
+        private static readonly string[] LeftTextPrefixes = { "Text _Left", "_Left" };
+        private static readonly string[] RightTextPrefixes = { "Text _Right", "_Right" };
+
         // 找子节点里的 TMP 文本组件并写值（反射，无编译期依赖）。
-        private static bool WriteChildText(Transform root, string namePrefix, string value)
+        private static bool WriteChildText(Transform root, string[] namePrefixes, string value,
+                                           bool fallbackLast)
+        {
+            for (int p = 0; p < namePrefixes.Length; p++)
+                if (WriteChildTextByPrefix(root, namePrefixes[p], value)) return true;
+            int idx = fallbackLast ? root.childCount - 1 : 0;
+            if (idx < 0 || idx >= root.childCount) return false;
+            Component[] comps = root.GetChild(idx).GetComponents<Component>();
+            for (int j = 0; j < comps.Length; j++)
+                if (comps[j] != null && GameCompat.WriteText(comps[j], value)) return true;
+            return false;
+        }
+
+        private static bool WriteChildTextByPrefix(Transform root, string namePrefix, string value)
         {
             for (int i = 0; i < root.childCount; i++)
             {
                 Transform childT = root.GetChild(i);
-                if (!childT.name.StartsWith(namePrefix)) continue;
+                if (!childT.name.StartsWith(namePrefix, StringComparison.Ordinal)) continue;
                 Component[] comps = childT.GetComponents<Component>();
                 for (int j = 0; j < comps.Length; j++)
                     if (comps[j] != null && GameCompat.WriteText(comps[j], value)) return true;
@@ -1214,10 +1307,10 @@ namespace WcpCustomSlots
 
                 // 左文本 = 书名行，右文本 = 词数/空槽说明；可管理行右侧放 改名/移除。
                 string label = RowLabel(record, i + 1);
-                WriteChildText(row.transform, "Text _Left", label);
+                WriteChildText(row.transform, LeftTextPrefixes, label, false);
                 if (hasActions)
                 {
-                    WriteChildText(row.transform, "Text _Right", "");
+                    WriteChildText(row.transform, RightTextPrefixes, "", true);
                     CreateActionButton(row.transform, "改名", new Vector2(-108f, 1f),
                         new Vector2(48f, 20f), new Color(1f, 1f, 1f, 0.35f),
                         new UnityAction(delegate { BeginRename(captured); }), false);
@@ -1230,7 +1323,7 @@ namespace WcpCustomSlots
                     string right = SlotRules.HasPlayableWords(record)
                         ? record.words.Length + " 词"
                         : "（空）";
-                    WriteChildText(row.transform, "Text _Right", right);
+                    WriteChildText(row.transform, RightTextPrefixes, right, true);
                 }
             }
             RenderRenameBar();
@@ -1242,11 +1335,9 @@ namespace WcpCustomSlots
         private void AlignToNativeBookList(RectTransform panel, Canvas overlayCanvas)
         {
             RectTransform topRT = null, bottomRT = null;
-            GameObject bar1 = FindSceneObject(NativeListRoot + "/bookNameBar (1)");
-            GameObject barB = FindSceneObject(NativeListRoot + "/bookNameBar (5)") ??
-                              FindSceneObject(NativeListRoot + "/bookNameBar (4)");
-            if (bar1 != null) topRT = bar1.GetComponent<RectTransform>();
-            if (barB != null) bottomRT = barB.GetComponent<RectTransform>();
+            List<Transform> bars = NativeBars();
+            if (bars.Count > 0) topRT = bars[0].GetComponent<RectTransform>();
+            if (bars.Count > 1) bottomRT = bars[bars.Count - 1].GetComponent<RectTransform>();
             if (topRT == null || bottomRT == null) return;   // 退回居中（老几何）
             Vector3[] a = new Vector3[4]; topRT.GetWorldCorners(a);
             Vector3[] b = new Vector3[4]; bottomRT.GetWorldCorners(b);
@@ -1326,9 +1417,9 @@ namespace WcpCustomSlots
 
         private int ChooseNativeSlot(SlotRecord record)
         {
-            if (record.nativeSlot >= 1 && record.nativeSlot <= SlotRules.NativeSlots &&
+            if (record.nativeSlot >= 1 && record.nativeSlot <= SlotRules.CurrentNativeSlots &&
                 CanUseNativeSlot(record.nativeSlot, record)) return record.nativeSlot;
-            for (int i = 1; i <= SlotRules.NativeSlots; i++)
+            for (int i = 1; i <= SlotRules.CurrentNativeSlots; i++)
                 if (CanUseNativeSlot(i, record)) return i;
             return SelectedNativeSlotFallback;
         }
@@ -1364,8 +1455,8 @@ namespace WcpCustomSlots
         {
             string[] words = (string[])record.words.Clone();
             string name = string.IsNullOrEmpty(record.name) ? record.id : record.name;
-            string listKey = "SelfBookList" + nativeSlot;
-            string nameKey = "SelfBookName" + nativeSlot;
+            string listKey = GameCompat.ListKeyFor(nativeSlot);
+            string nameKey = GameCompat.NameKeyFor(nativeSlot);
             Es3SaveTo(listKey, words, MyBookPath);
             Es3SaveTo(nameKey, name, MyBookPath);
             SetStatic(listKey, words);
@@ -1454,8 +1545,8 @@ namespace WcpCustomSlots
             {
                 try
                 {
-                    Es3SaveTo("SelfBookList" + release, new string[0], MyBookPath);
-                    SetStatic("SelfBookList" + release, new string[0]);
+                    Es3SaveTo(GameCompat.ListKeyFor(release), new string[0], MyBookPath);
+                    SetStatic(GameCompat.ListKeyFor(release), new string[0]);
                 }
                 catch (Exception e) { Log.LogWarning("CustomSlots: 清空原生槽 " + release + " 失败: " + e.Message); }
             }
@@ -1592,7 +1683,7 @@ namespace WcpCustomSlots
         private int ImportNativeBooksNow()
         {
             List<SlotRules.NativeBook> books = new List<SlotRules.NativeBook>();
-            for (int i = 1; i <= SlotRules.NativeSlots; i++)
+            for (int i = 1; i <= SlotRules.CurrentNativeSlots; i++)
             {
                 string[] words = ReadNativeWords(i);
                 if (!SlotRules.HasPlayableWords(new SlotRecord { words = words })) continue;
@@ -1684,7 +1775,7 @@ namespace WcpCustomSlots
             try
             {
                 if (!File.Exists(MyBookPath)) return new string[0];
-                string[] words = Es3Load<string[]>("SelfBookList" + nativeSlot, MyBookPath);
+                string[] words = Es3Load<string[]>(GameCompat.ListKeyFor(nativeSlot), MyBookPath);
                 return words ?? new string[0];
             }
             catch { return new string[0]; }
@@ -1695,7 +1786,7 @@ namespace WcpCustomSlots
             try
             {
                 if (!File.Exists(MyBookPath)) return "";
-                return Es3Load<string>("SelfBookName" + nativeSlot, MyBookPath);
+                return Es3Load<string>(GameCompat.NameKeyFor(nativeSlot), MyBookPath);
             }
             catch { return ""; }
         }

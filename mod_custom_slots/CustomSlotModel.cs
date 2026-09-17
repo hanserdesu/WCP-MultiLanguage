@@ -34,6 +34,22 @@ namespace WcpCustomSlots
         public const int NativeSlots = 4;
         public const int MinimumPlayableWords = 5;
 
+        // ── 兼容层：原生槽位数量运行时可回填（P1-17）────────────────────────
+        // 游戏作者将来把 SelfBookList1..4 扩到 5/6/... 时，宿主启动探测后回填，
+        // 规则函数一律用 CurrentNativeSlots；NativeSlots 保留为历史下限
+        // （探测失败/旧存档的保底值），旧测试与旧调用不受影响。
+        public const int MinNativeSlots = 4;
+        public const int MaxNativeSlotsProbe = 64;
+        private static int _nativeSlotCount = NativeSlots;
+        public static int CurrentNativeSlots { get { return _nativeSlotCount; } }
+
+        public static void SetNativeSlotCount(int count)
+        {
+            if (count < MinNativeSlots) count = MinNativeSlots;
+            if (count > MaxNativeSlotsProbe) count = MaxNativeSlotsProbe;
+            _nativeSlotCount = count;
+        }
+
         public static SlotState NewState()
         {
             SlotState state = new SlotState();
@@ -97,7 +113,7 @@ namespace WcpCustomSlots
 
         public static bool NativeSlotOwnedByManaged(SlotState state, int nativeSlot)
         {
-            if (state == null || nativeSlot < 1 || nativeSlot > NativeSlots) return false;
+            if (state == null || nativeSlot < 1 || nativeSlot > CurrentNativeSlots) return false;
             Normalize(state);
             for (int i = 0; i < state.slots.Length; i++)
             {
@@ -136,7 +152,7 @@ namespace WcpCustomSlots
             int changed = 0;
             foreach (NativeBook book in books)
             {
-                if (book == null || book.Slot < 1 || book.Slot > NativeSlots) continue;
+                if (book == null || book.Slot < 1 || book.Slot > CurrentNativeSlots) continue;
                 if (!HasPlayableWords(new SlotRecord { words = book.Words })) continue;
                 if (NativeSlotOwnedByManaged(state, book.Slot)) continue;
                 SlotRecord existing = FindNativeMirror(state, book.Slot);
@@ -216,7 +232,7 @@ namespace WcpCustomSlots
             Normalize(state);
             SlotRecord record = state.slots[index];
             if (IsNativeMirror(record)) return false;
-            if (IsManaged(record) && record.nativeSlot >= 1 && record.nativeSlot <= NativeSlots)
+            if (IsManaged(record) && record.nativeSlot >= 1 && record.nativeSlot <= CurrentNativeSlots)
                 releaseNativeSlot = record.nativeSlot;
             state.slots[index] = Empty(record.number);
             if (state.selected == index + 1) state.selected = 0;

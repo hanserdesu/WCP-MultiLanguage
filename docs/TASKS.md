@@ -773,3 +773,36 @@ custom-slots 离线 harness 11/0 无回归。
 - 回归：hub 89/0、slot_rules 0 失败、registry 全部通过、slot_ownership ALL PASS。
 - 待实机确认：克隆行外观/点击/改名移除按钮位置、离开页面原生 4 行恢复。
 
+
+### 已加固 P1-17 兼容层：作者更新（加槽/改键/改节点）后长期稳定
+
+原则：兼容层所有"数量、键名、节点路径、方法名"都不再写死——探测 + 候选 + 特征扫描，
+失败一律回退当前行为并写日志，绝不阻断加载。
+
+1. 原生槽位数量探测（作者 4→5/6/… 自动跟随）：
+   - 信号 = ES3 键 SelfBookListN 存在（ES3.KeyExists 反射）或 Parameters 静态字段
+     SelfBookListN 已声明，从 1 连续数到第一个缺口；下限 4（首次启动键未建时保底）。
+   - GameCompat.DetectListSlotCount(path) 在 Awake 里、ImportNativeBooksNow **之前**
+     跑（顺序错了首次启动会漏导入新槽的原生书）；结果回填
+     SlotRules.SetNativeSlotCount / CurrentNativeSlots（MinNativeSlots=4 下限保护，
+     MaxNativeSlotsProbe=64 上限防呆）。规则函数全部改用 CurrentNativeSlots；
+     NativeSlots 常量保留为历史下限，旧调用/旧测试不受影响。
+   - mod_host/GameAdapter.SlotWords 同样探测回填（self-contained，缓存一次）。
+   - 键名走 GameCompat.ListKeyFor/NameKeyFor（候选格式表，作者改键名补一处即可）。
+2. 入口方法候选化：OnBookButtonClicked / OnBookButtonClick / OnClickBookButton，
+   全不中再在已确认的 chooser 类型内做模糊匹配（void + 单 int + 名字含 Book&Click/Choose）；
+   通配类型扫描不用模糊匹配，防误配。类型候选补 S12/S13。
+3. 原生列表根与行枚举去写死：
+   - 列表根：精确候选（CanvasSetting1/2）→ 按"子节点有 bookNameBar 行"特征扫描
+     SettingPart 全域（作者改页名/挪层级不失联），命中即缓存路径并写日志。
+   - 原生行：按 "bookNameBar" 前缀枚举全部行（模板=隐藏行优先，选中态 sprite 从
+     interactable=False 的行取），不再假设 5 行——作者加行自动跟随。
+   - 行文本节点名候选化（Text _Left/_Right 前缀表）+ 位置兜底（左=首子/右=末子）。
+4. 测试：SlotRulesTest 新增 6 条（默认下限、回填生效、槽 5 导入、落位 native-5、
+   回到 4 槽拒绝越界导入、越界槽不算受管）。
+5. 回归：slot_rules 74 PASS/0 FAIL；registry 全部通过；slot_ownership ALL PASS；
+   takeover 0 失败；word_audio 0 失败；test_hub 89/0；mod 构建零告警并已部署。
+6. 边界说明：探测键名候选当前只有 SelfBookList{0}/SelfBookName{0}（与游戏现状一致）；
+   作者若改键名格式，补 ListKeyFormatCandidates/NameKeyFormatCandidates 一行即可。
+   languages/ja 快照与主源已漂移（独立事项，未混入本次）。
+

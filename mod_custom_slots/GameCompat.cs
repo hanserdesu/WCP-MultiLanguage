@@ -19,9 +19,15 @@ namespace WcpCustomSlots
         // ── 候选名（按优先级）──
         private static readonly string[] ChooserTypeCandidates =
         {
-            "WordChooseButtonS10", "WordChooseButtonS11", "WordChooseButtonS9", "WordChooseButton"
+            "WordChooseButtonS10", "WordChooseButtonS11", "WordChooseButtonS12",
+            "WordChooseButtonS13", "WordChooseButtonS9", "WordChooseButton"
         };
-        private const string EntryMethodName = "OnBookButtonClicked";
+        // 入口方法名候选：作者重命名时补这里即可；都不中再走模糊匹配（仅限已选中的
+        // chooser 类型内，避免通配扫描误配）。全失败 → 只提供手动热键入口 + 日志说明。
+        private static readonly string[] EntryMethodNameCandidates =
+        {
+            "OnBookButtonClicked", "OnBookButtonClick", "OnClickBookButton"
+        };
         // 页签索引仅作兜底：主判据是"页面状态看起来是不是自定义页"（见 IsCustomPageShowing）。
         private const int FallbackCustomPageIndex = 20;
 
@@ -62,7 +68,7 @@ namespace WcpCustomSlots
             }
             notes.Add("类型=" + _chooserType.Name);
 
-            _entryMethod = FindEntryMethod(_chooserType);
+            _entryMethod = FindEntryMethod(_chooserType, true);
             notes.Add(_entryMethod != null
                 ? "入口=" + _entryMethod.Name + "(" + DescribeParams(_entryMethod) + ")"
                 : "入口方法未找到（将只提供手动热键入口）");
@@ -95,7 +101,7 @@ namespace WcpCustomSlots
                 try { types = asm.GetTypes(); }
                 catch (Exception) { continue; }
                 foreach (Type t in types)
-                    if (t != null && LooksLikeChooser(t) && FindEntryMethod(t) != null) return t;
+                    if (t != null && LooksLikeChooser(t) && FindEntryMethod(t, false) != null) return t;
             }
             return null;
         }
@@ -107,21 +113,130 @@ namespace WcpCustomSlots
                    FindField(t, NameTextFieldCandidates) != null;
         }
 
-        private static MethodInfo FindEntryMethod(Type t)
+        private static MethodInfo FindEntryMethod(Type t, bool allowFuzzy)
         {
             if (t == null) return null;
             try
             {
-                MethodInfo exact = t.GetMethod(EntryMethodName,
-                    BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance,
-                    null, new Type[] { typeof(int) }, null);
-                if (exact != null) return exact;
-                // 退一步：不限定参数表
-                foreach (MethodInfo m in t.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance))
-                    if (m.Name == EntryMethodName) return m;
+                for (int c = 0; c < EntryMethodNameCandidates.Length; c++)
+                {
+                    MethodInfo exact = t.GetMethod(EntryMethodNameCandidates[c],
+                        BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance,
+                        null, new Type[] { typeof(int) }, null);
+                    if (exact != null) return exact;
+                    foreach (MethodInfo m in t.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance))
+                        if (m.Name == EntryMethodNameCandidates[c]) return m;
+                }
+                // 模糊兜底：单 int 参数、名字像"选书"的方法。只在已确认的 chooser 类型内
+                // 尝试（allowFuzzy=false 的通配扫描不用它，防止误配到无关类型）。
+                if (allowFuzzy)
+                {
+                    foreach (MethodInfo m in t.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance))
+                    {
+                        if (m.ReturnType != typeof(void)) continue;
+                        ParameterInfo[] ps = m.GetParameters();
+                        if (ps.Length != 1 || ps[0].ParameterType != typeof(int)) continue;
+                        string n = m.Name;
+                        if (n.IndexOf("Book", StringComparison.OrdinalIgnoreCase) >= 0 &&
+                            (n.IndexOf("Click", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                             n.IndexOf("Choose", StringComparison.OrdinalIgnoreCase) >= 0))
+                            return m;
+                    }
+                }
             }
             catch (Exception) { }
             return null;
+        }
+
+        // ── 原生槽位数量探测（P1-17）────────────────────────────────────────
+        // 信号 = ES3 键 SelfBookListN 存在 或 Parameters 静态字段 SelfBookListN 已声明，
+        // 从 1 连续数到第一个缺口（作者加槽会同时加静态字段，新装机也能探出）。
+        // 下限 4：键全探不到（首次启动/文件未建）时维持当前版本事实。
+        private static int _nativeSlotCount = int.MinValue;
+        private static string _listKeyFormat;
+        private static string _nameKeyFormat;
+        private static readonly string[] ListKeyFormatCandidates = { "SelfBookList{0}" };
+        private static readonly string[] NameKeyFormatCandidates = { "SelfBookName{0}" };
+
+        internal static int DetectListSlotCount(string es3Path)
+        {
+            if (_nativeSlotCount != int.MinValue) return _nativeSlotCount;
+            _listKeyFormat = PickKeyFormat(ListKeyFormatCandidates, es3Path);
+            _nameKeyFormat = PickKeyFormat(NameKeyFormatCandidates, es3Path);
+            int count = 0;
+            for (int i = 1; i <= 64; i++)
+            {
+                if (!ListSlotExists(i, es3Path)) break;
+                count = i;
+            }
+            if (count < 4) count = 4;
+            _nativeSlotCount = count;
+            return count;
+        }
+
+        private static string PickKeyFormat(string[] candidates, string path)
+        {
+            for (int c = 0; c < candidates.Length; c++)
+            {
+                string key = string.Format(candidates[c], 1);
+                if (Es3KeyExists(key, path) || StaticFieldExists(key)) return candidates[c];
+            }
+            return candidates[0];
+        }
+
+        private static bool ListSlotExists(int slot, string path)
+        {
+            string key = ListKeyFor(slot);
+            return Es3KeyExists(key, path) || StaticFieldExists(key);
+        }
+
+        internal static string ListKeyFor(int slot)
+        {
+            return string.Format(_listKeyFormat ?? ListKeyFormatCandidates[0], slot);
+        }
+
+        internal static string NameKeyFor(int slot)
+        {
+            return string.Format(_nameKeyFormat ?? NameKeyFormatCandidates[0], slot);
+        }
+
+        internal static bool Es3KeyExists(string key, string path)
+        {
+            EnsureEs3();
+            if (_es3Type == null || string.IsNullOrEmpty(key)) return false;
+            try
+            {
+                foreach (MethodInfo m in _es3Type.GetMethods(BindingFlags.Public | BindingFlags.Static))
+                {
+                    if (m.Name != "KeyExists") continue;
+                    ParameterInfo[] ps = m.GetParameters();
+                    if (ps.Length < 1 || ps.Length > 2) continue;
+                    if (!ps[0].ParameterType.IsAssignableFrom(typeof(string))) continue;
+                    if (ps.Length == 2 && !ps[1].ParameterType.IsAssignableFrom(typeof(string))) continue;
+                    object result = ps.Length == 1
+                        ? m.Invoke(null, new object[] { key })
+                        : m.Invoke(null, new object[] { key, path ?? "" });
+                    if (result is bool) return (bool)result;
+                }
+            }
+            catch (Exception) { }
+            return false;
+        }
+
+        internal static bool StaticFieldExists(string fieldName)
+        {
+            foreach (string typeName in ParameterTypeCandidates)
+            {
+                Type t = FindTypeByName(typeName);
+                if (t == null) continue;
+                try
+                {
+                    if (t.GetField(fieldName, BindingFlags.Public | BindingFlags.NonPublic |
+                        BindingFlags.Static) != null) return true;
+                }
+                catch (Exception) { }
+            }
+            return false;
         }
 
         private static FieldInfo FindField(Type t, string[] names)

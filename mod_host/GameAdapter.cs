@@ -109,9 +109,26 @@ namespace WcpHost
             return list;
         }
 
+        // 原生槽位数量：从存档连续探测（作者加槽自动跟随），下限 4。探测一次并缓存。
+        private static int _nativeSlotCount;
+        internal static int NativeSlotCount()
+        {
+            if (_nativeSlotCount > 0) return _nativeSlotCount;
+            int count = 0;
+            for (int i = 1; i <= 64; i++)
+            {
+                object probe = Es3Load("SelfBookList" + i, typeof(string[]), null,
+                                       PersistentBookPath());
+                if (probe == null) break;
+                count = i;
+            }
+            _nativeSlotCount = count >= 4 ? count : 4;
+            return _nativeSlotCount;
+        }
+
         internal static IList<string> SlotWords(int slot)
         {
-            if (slot < 1 || slot > 4) return null;
+            if (slot < 1 || slot > NativeSlotCount()) return null;
             object value = Es3Load("SelfBookList" + slot, typeof(string[]), null,
                                   PersistentBookPath());
             return ToWordList(value);

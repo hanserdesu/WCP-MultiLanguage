@@ -263,6 +263,23 @@ internal static class SlotRulesTest
         Check(SlotRules.Deserialize("{\"schema\":2,\"unknownKey\":{\"a\":[1,2]},\"slots\":[]}") != null,
             "未知字段可跳过（向后兼容）");
 
+        // ── P1-17：原生槽位数量可探测回填（作者加槽不失联）──
+        Check(SlotRules.MinNativeSlots == 4 && SlotRules.CurrentNativeSlots == 4,
+            "默认原生槽数 = 4（下限保护）");
+        SlotRules.SetNativeSlotCount(6);
+        Check(SlotRules.CurrentNativeSlots == 6, "SetNativeSlotCount(6) 生效");
+        SlotState grown = SlotRules.NewState();
+        SlotRules.NativeBook[] extra = new SlotRules.NativeBook[] {
+            new SlotRules.NativeBook { Slot = 5, Name = "新槽书", Words = MakeWords(10) } };
+        Check(SlotRules.ImportNativeBooks(grown, extra) == 1, "原生槽 5 能导入（加槽跟随）");
+        Check(grown.slots[4].id == "native-5" && grown.slots[4].words.Length == 10,
+            "导入落在 native-5 镜像行");
+        SlotRules.SetNativeSlotCount(4);
+        SlotState shrunk = SlotRules.NewState();
+        Check(SlotRules.ImportNativeBooks(shrunk, extra) == 0,
+            "回到 4 槽后槽 5 拒绝导入（越界保护）");
+        Check(SlotRules.NativeSlotOwnedByManaged(grown, 5) == false, "越界原生槽不算受管");
+
         Console.WriteLine("Failures: " + failures);
         return failures == 0 ? 0 : 1;
     }
