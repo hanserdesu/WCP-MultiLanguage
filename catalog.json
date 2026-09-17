@@ -160,8 +160,8 @@
       "language": "de",
       "display_name": "德语词库(猫条版)",
       "repo": "hanserdesu/WCP-MultiLanguage",
-      "release_tag": "wcp-de-resources-v1.1.0",
-      "version": "wcp-de-resources-v1.1.0",
+      "release_tag": "wcp-de-resources-v1.1.1",
+      "version": "wcp-de-resources-v1.1.1",
       "word_count": 8062,
       "fingerprint_sha256": "66bded175dee70d9fd18ac3e08e793b79b35e9fd750904367a16c6012dd1f70a",
       "es3_prefix": "de",
@@ -172,30 +172,30 @@
         {
           "kind": "pack",
           "name": "wcp-de-core.zip",
-          "size": 1995503,
-          "sha256": "e18c49459f381ef7dd344c46657082f0eb1da4b5e65a7d0f504c6347a97ced11",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.1.0/wcp-de-core.zip"
+          "size": 1933913,
+          "sha256": "8923785c0b7b4694ea835c3fb4de40f60250c406a5afcce2e8fcb2269237e432",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.1.1/wcp-de-core.zip"
         },
         {
           "kind": "slot_manifest",
           "name": "wcp-de-slot-seed.json",
           "size": 137370,
           "sha256": "b381a70e0e72f45d8e3e479932704a67f79c3aa0e7b64226f1df4e29453a040e",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.1.0/wcp-de-slot-seed.json"
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.1.1/wcp-de-slot-seed.json"
         },
         {
           "kind": "sentence_audio",
           "name": "wcp-german-audio-sentences.zip",
           "size": 586338478,
           "sha256": "4bca4519d379c7072fe91a6f98d7095fe4b23eccf068530452ad46247037e6c1",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.1.0/wcp-german-audio-sentences.zip"
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.1.1/wcp-german-audio-sentences.zip"
         },
         {
           "kind": "word_audio",
           "name": "wcp-german-audio-words.zip",
           "size": 80896890,
           "sha256": "091bbb91aad56d1eba3603a91774932f3a787be88e0388b998c306e97fa036e8",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.1.0/wcp-german-audio-words.zip"
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-de-resources-v1.1.1/wcp-german-audio-words.zip"
         }
       ],
       "profile_id": "catbar-german-complete"
@@ -252,8 +252,8 @@
       "language": "ko",
       "display_name": "韩语词库(猫条版)",
       "repo": "hanserdesu/WCP-MultiLanguage",
-      "release_tag": "wcp-ko-resources-v1.1.1",
-      "version": "wcp-ko-resources-v1.1.1",
+      "release_tag": "wcp-ko-resources-v1.1.2",
+      "version": "wcp-ko-resources-v1.1.2",
       "word_count": 7330,
       "fingerprint_sha256": "ff64542ef480b8edbbff1266eaf43ada77894c97fa61652f67a19061157088b2",
       "es3_prefix": "ko",
@@ -264,30 +264,30 @@
         {
           "kind": "pack",
           "name": "wcp-ko-core.zip",
-          "size": 1886889,
-          "sha256": "6f46fb8dddaac43144d868c0720242006af6068d21db63e4a230ccbbfbe93cf6",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.1/wcp-ko-core.zip"
+          "size": 1894507,
+          "sha256": "acab7a94d9f263405f2d6c714a16e2541f2f08099ae9d171a9242968f407601d",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.2/wcp-ko-core.zip"
         },
         {
           "kind": "slot_manifest",
           "name": "wcp-ko-slot-seed.json",
           "size": 141180,
           "sha256": "76c8495645fb985baeb06952109d0ddfb4f752375e08d77252ba454aea5f8d82",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.1/wcp-ko-slot-seed.json"
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.2/wcp-ko-slot-seed.json"
         },
         {
           "kind": "sentence_audio",
           "name": "wcp-korean-audio-sentences.zip",
-          "size": 620627326,
-          "sha256": "14fd7b841ec365eac1a53f9940e17a5f27701acf2a7cfde84b4554ead2f60209",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.1/wcp-korean-audio-sentences.zip"
+          "size": 521944552,
+          "sha256": "53acf0743025341a8a0069cd42cd7bedc2776a46a1bd9259759f2181ef9169d8",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.2/wcp-korean-audio-sentences.zip"
         },
         {
           "kind": "word_audio",
           "name": "wcp-korean-audio-words.zip",
           "size": 82106980,
           "sha256": "749ee3f44db75f901bb003024970175d5b264f88f6b07588f426ea370a5b2a72",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.1/wcp-korean-audio-words.zip"
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-ko-resources-v1.1.2/wcp-korean-audio-words.zip"
         }
       ],
       "profile_id": "catbar-ko-complete"
