@@ -11,7 +11,7 @@ row	pron	친구	[t͡ɕʰinɡu]	[t͡ɕʰinɡu]	朋友 (人际关系)
 row	pron	가족	[ka̠d͡ʑo̞k̚]	[ka̠d͡ʑo̞k̚]	家庭 (关系)	
 row	pron	귀엽다	[ˈkɥi(ː)jʌ̹p̚t͈a̠]	[ˈkɥi(ː)jʌ̹p̚t͈a̠]	可爱 (描述)	
 row	pron	행복하다	[ˈhɛ(ː)ŋbo̞kʰa̠da̠]	[ˈhɛ(ː)ŋbo̞kʰa̠da̠]	开心 (情感)	
-row	pron	슬프다	[sʰɯɭpʰɯda̠]	[sʰɯɭpʰɯda̠]	哀: (情感)	
+row	pron	슬프다	[sʰɯɭpʰɯda̠]	[sʰɯɭpʰɯda̠]	悲伤；悲哀；难过 (형용사)	
 row	pron	배고프다	[pɛɡo̞pʰɯda̠]	[pɛɡo̞pʰɯda̠]	饿 (日常生活)	
 row	pron	피곤하다	[pʰiɡo̞nɦa̠da̠]	[pʰiɡo̞nɦa̠da̠]	累 (日常生活)	
 row	pron	커피	[kʰʌ̹pʰi]	[kʰʌ̹pʰi]	咖啡 (饮食)	
@@ -24,7 +24,7 @@ row	pron	병원	[ˈpjɘ(ː)ŋwʌ̹n]	[ˈpjɘ(ː)ŋwʌ̹n]	医院 (日常生活)
 row	pron	돈	[to̞(ː)n]	[to̞(ː)n]	金钱 (日常生活)	
 row	pron	날씨	[na̠ɭɕ͈i]	[na̠ɭɕ͈i]	天 气 (日常生活)	
 row	pron	기차	[kit͡ɕʰa̠]	[kit͡ɕʰa̠]	火车 (旅行)	
-row	pron	공항	[ko̞ŋɦa̠ŋ]	[ko̞ŋɦa̠ŋ]	【2】银行 (旅行)	
+row	pron	공항	[ko̞ŋɦa̠ŋ]	[ko̞ŋɦa̠ŋ]	机场 (명사)	
 row	pron	호텔	[ɸʷo̞tʰe̞ɭ]	[ɸʷo̞tʰe̞ɭ]	酒店 (旅行)	
 row	pron	화장실	[ɸwa̠d͡ʑa̠ŋɕʰiɭ]	[ɸwa̠d͡ʑa̠ŋɕʰiɭ]	浴室 (旅行)	
 row	pron	실례합니다	ngimryeangnita	ngimryeangnita	麻烦 (表达)	
@@ -266,15 +266,15 @@ row	pron	모이다	[mo̞ida̠]	[mo̞ida̠]	凝聚在一起 (人际关系)
 row	pron	사랑해요	ngaratechy	ngaratechy	我爱你 (人际关系)	
 row	pron	있어요	chilchochy	chilchochy	有...吗？ (购物)	
 row	pron	할인	[ha̠ɾin]	[ha̠ɾin]	折扣 (购物)	
-row	pron	세일	[s͈e̞iɭ]	[s͈e̞iɭ]	Sale (购物)	
+row	pron	세일	[s͈e̞iɭ]	[s͈e̞iɭ]	打折；降价促销 (명사)	
 row	pron	사이즈	[s͈a̠id͡ʑɯ]	[s͈a̠id͡ʑɯ]	规模​​ (购物)	
-row	pron	탈의실	[tʰa̠ɾɰiɕʰiɭ]	[tʰa̠ɾɰiɕʰiɭ]	试衣间 ? (购物)	
+row	pron	탈의실	[tʰa̠ɾɰiɕʰiɭ]	[tʰa̠ɾɰiɕʰiɭ]	试衣间；更衣室 (명사)	
 row	pron	현금	[ˈçɘ(ː)nɡɯm]	[ˈçɘ(ː)nɡɯm]	现金 (购物)	
 row	pron	영수증	[jʌ̹ŋsʰud͡ʑɯŋ]	[jʌ̹ŋsʰud͡ʑɯŋ]	收据 (购物)	
 row	pron	백화점	[pɛkʰwa̠d͡ʑʌ̹m]	[pɛkʰwa̠d͡ʑʌ̹m]	百货店 (购物)	
 row	pron	화장품	[ɸwa̠d͡ʑa̠ŋpʰum]	[ɸwa̠d͡ʑa̠ŋpʰum]	化妆品 (购物)	
 row	pron	동대문	tuttemin	tuttemin	时尚区 (购物)	
-row	pron	시장	[ɕʰid͡ʑa̠ŋ]	[ɕʰid͡ʑa̠ŋ]	传统市场(Traditional Market) (购物)	
+row	pron	시장	[ɕʰid͡ʑa̠ŋ]	[ɕʰid͡ʑa̠ŋ]	传统市场；集市 (명사)	
 row	pron	색	[sʰɛk̚]	[sʰɛk̚]	颜色 (购物)	
 row	pron	배송	[ˈpɛ(ː)sʰo̞ŋ]	[ˈpɛ(ː)sʰo̞ŋ]	交货和装运 (购物)	
 row	pron	포인트	[pʰo̞intʰɯ]	[pʰo̞intʰɯ]	会员积分 (购物)	
@@ -298,7 +298,7 @@ row	pron	티켓	[tʰikʰe̞t̚]	[tʰikʰe̞t̚]	传说券 (旅游)
 row	pron	여권	[jʌ̹k͈wʌ̹n]	[jʌ̹k͈wʌ̹n]	护照 (旅游)	
 row	pron	환전	[ɸwa̠ɲd͡ʑʌ̹n]	[ɸwa̠ɲd͡ʑʌ̹n]	货币兑换 (旅游)	
 row	pron	편의점	[pʰjʌ̹nɰid͡ʑʌ̹m]	[pʰjʌ̹nɰid͡ʑʌ̹m]	便利店 (旅游)	
-row	pron	전통시장	konutngikat	konutngikat	传统市场(Traditional Market) (旅游)	
+row	pron	전통시장	konutngikat	konutngikat	传统市场 (명사)	
 row	pron	궁	kit	kit	宫殿 (旅游)	
 row	pron	등산	[tɯŋsʰa̠n]	[tɯŋsʰa̠n]	山地徒步 (旅游)	
 row	pron	해변	[ˈhɛ(ː)bjʌ̹n]	[ˈhɛ(ː)bjʌ̹n]	沙滩 (旅游)	
@@ -307,26 +307,26 @@ row	pron	기념품	[kiɲʌ̹mpʰum]	[kiɲʌ̹mpʰum]	纪念品 (旅游)
 row	pron	면세점	[ˈmjɘ(ː)nsʰe̞d͡ʑʌ̹m]	[ˈmjɘ(ː)nsʰe̞d͡ʑʌ̹m]	免税商店 (旅游)	
 row	pron	티머니	imoni	imoni	T-Money卡 (旅游)	
 row	pron	한복	[ha̠nbo̞k̚]	[ha̠nbo̞k̚]	韩国传统服装 (旅游)	
-row	pron	와이파이	[wa̠ipʰa̠i]	[wa̠ipʰa̠i]	WiFi (旅游)	
+row	pron	와이파이	[wa̠ipʰa̠i]	[wa̠ipʰa̠i]	无线网络；Wi-Fi (명사)	
 row	pron	약국	[ja̠k̚k͈uk̚]	[ja̠k̚k͈uk̚]	药房 (旅游)	
 row	pron	응급실	[ˈɯ(ː)ŋɡɯpɕ͈iɭ]	[ˈɯ(ː)ŋɡɯpɕ͈iɭ]	急诊室 (旅游)	
 row	pron	직진	[t͡ɕik̚t͡ɕ͈in]	[t͡ɕik̚t͡ɕ͈in]	直行前进 (旅游)	
-row	pron	멀어요	momchochy	momchochy	“远吗？” (旅游)	
+row	pron	멀어요	momchochy	momchochy	远吗？；路途远吗？ (구)	
 row	pron	입장료	[ip̚t͡ɕ͈a̠ŋɲo]	[ip̚t͡ɕ͈a̠ŋɲo]	门票费用 (旅游)	
 row	pron	열었어요	chyomcholchochy	chyomcholchochy	门开着吗？ (旅游)	
 row	pron	얼마예요	chommachyechy	chommachyechy	大概多少钱 (旅游)	
 row	pron	신용카드	nginchythate	nginchythate	信用卡 (旅游)	
 row	pron	짐	[t͡ɕim]	[t͡ɕim]	行李箱 (旅游)	
 row	pron	제주도	[ˈt͡ɕe̞(ː)d͡ʑudo̞]	[ˈt͡ɕe̞(ː)d͡ʑudo̞]	济州岛 (旅游)	
-row	pron	애교	[ˈɛ(ː)ɡjo]	[ˈɛ(ː)ɡjo]	Aegyo (文化)	
-row	pron	대박	[ˈtɛ(ː)ba̠k̚]	[ˈtɛ(ː)ba̠k̚]	Daebak (文化)	
-row	pron	헐	[hʌ̹ɭ]	[hʌ̹ɭ]	Heol (文化)	
+row	pron	애교	[ˈɛ(ː)ɡjo]	[ˈɛ(ː)ɡjo]	撒娇；娇憨 (명사)	
+row	pron	대박	[ˈtɛ(ː)ba̠k̚]	[ˈtɛ(ː)ba̠k̚]	大发；大赚；太棒了 (명사/감탄사)	
+row	pron	헐	[hʌ̹ɭ]	[hʌ̹ɭ]	晕；天哪；天啊 (감탄사)	
 row	pron	사랑해	[sʰa̠ɾa̠ŋɦɛ]	[sʰa̠ɾa̠ŋɦɛ]	撒浪嘿 (文化)	
 row	pron	데뷔	[te̞bɥi]	[te̞bɥi]	偶像首次亮相 (文化)	
 row	pron	예능	[ˈje̞(ː)nɯŋ]	[ˈje̞(ː)nɯŋ]	综艺节目 (文化)	
 row	pron	컴백	[kʰʌ̹mbɛk̚]	[kʰʌ̹mbɛk̚]	卷土 (文化)	
 row	pron	팬미팅	[pʰɛnmitʰiŋ]	[pʰɛnmitʰiŋ]	粉丝会议 (文化)	
-row	pron	응원봉	[ˈɯ(ː)ŋwʌ̹nbo̞ŋ]	[ˈɯ(ː)ŋwʌ̹nbo̞ŋ]	Lightstick (文化)	
+row	pron	응원봉	[ˈɯ(ː)ŋwʌ̹nbo̞ŋ]	[ˈɯ(ː)ŋwʌ̹nbo̞ŋ]	应援棒；荧光棒 (명사)	
 row	pron	셀카	[s͈e̞ɭkʰa̠]	[s͈e̞ɭkʰa̠]	自拍 (文化)	
 row	pron	팬아트	[pʰɛna̠tʰɯ]	[pʰɛna̠tʰɯ]	粉丝艺术 (文化)	
 row	pron	커플링	hoemrit	hoemrit	情侣戒指 (文化)	
@@ -342,10 +342,10 @@ row	pron	굿즈	[kut̚t͡ɕ͈ɯ]	[kut̚t͡ɕ͈ɯ]	偶像周边商品 (文化)
 row	pron	귀요미	kechymi	kechymi	可爱鬼（可爱游戏） (文化)	
 row	pron	칫솔	[t͡ɕʰiss͈o̞ɭ]	[t͡ɕʰiss͈o̞ɭ]	牙刷 (日常生活)	
 row	pron	거울	[kʌ̹uɭ]	[kʌ̹uɭ]	镜像 (日常生活)	
-row	pron	세면대	[ˈsʰe̞(ː)mjʌ̹ndɛ]	[ˈsʰe̞(ː)mjʌ̹ndɛ]	Sink (日常生活)	
+row	pron	세면대	[ˈsʰe̞(ː)mjʌ̹ndɛ]	[ˈsʰe̞(ː)mjʌ̹ndɛ]	洗手台；洗脸池 (명사)	
 row	pron	샤워	[ɕʰa̠wʌ̹]	[ɕʰa̠wʌ̹]	花洒 (日常生活)	
 row	pron	욕조	[jok̚t͡ɕ͈o̞]	[jok̚t͡ɕ͈o̞]	浴缸 (日常生活)	
-row	pron	수건	[ˈsʰu(ː)ɡʌ̹n]	[ˈsʰu(ː)ɡʌ̹n]	Towel (日常生活)	
+row	pron	수건	[ˈsʰu(ː)ɡʌ̹n]	[ˈsʰu(ː)ɡʌ̹n]	毛巾 (명사)	
 row	pron	비누	[pinu]	[pinu]	香皂 (日常生活)	
 row	pron	샴푸	[ɕʰa̠mpʰu]	[ɕʰa̠mpʰu]	洗发水 (日常生活)	
 row	pron	린스	[ɾins͈ɯ]	[ɾins͈ɯ]	护发素 (日常生活)	
@@ -468,7 +468,7 @@ row	pron	놀다	[ˈno̞(ː)ɭda̠]	[ˈno̞(ː)ɭda̠]	闲逛 (人际关系)
 row	pron	전화하다	[t͡ɕʌ̹nβwa̠ɦa̠da̠]	[t͡ɕʌ̹nβwa̠ɦa̠da̠]	打电话 (人际关系)	
 row	pron	문자하다	minkaata	minkaata	传简讯 (人际关系)	
 row	pron	칭찬	[t͡ɕʰiŋt͡ɕʰa̠n]	[t͡ɕʰiŋt͡ɕʰa̠n]	称赞 (人际关系)	
-row	pron	농담	[ˈno̞(ː)ŋda̠m]	[ˈno̞(ː)ŋda̠m]	Joke (人际关系)	
+row	pron	농담	[ˈno̞(ː)ŋda̠m]	[ˈno̞(ː)ŋda̠m]	玩笑；幽默 (명사)	
 row	pron	나누다	[na̠nuda̠]	[na̠nuda̠]	共享 (人际关系)	
 row	pron	비밀	[ˈpi(ː)miɭ]	[ˈpi(ː)miɭ]	密钥 (人际关系)	
 row	pron	약속	[ja̠ks͈o̞k̚]	[ja̠ks͈o̞k̚]	责任 (人际关系)	
@@ -509,7 +509,7 @@ row	pron	스키장	[sʰɯcçid͡ʑa̠ŋ]	[sʰɯcçid͡ʑa̠ŋ]	滑雪度假村 (
 row	pron	캠핑	[kʰɛmpʰiŋ]	[kʰɛmpʰiŋ]	露营 (旅游)	
 row	pron	글래머핑	kemremoit	kemremoit	豪华露营 (旅游)	
 row	pron	호스텔	[ɸʷo̞sʰɯtʰe̞ɭ]	[ɸʷo̞sʰɯtʰe̞ɭ]	青年旅馆 (旅游)	
-row	pron	에어비앤비	chechopichenpi	chechopichenpi	Airbnb (旅游)	
+row	pron	에어비앤비	chechopichenpi	chechopichenpi	爱彼迎；Airbnb民宿 (명사)	
 row	pron	모텔	[mo̞tʰe̞ɭ]	[mo̞tʰe̞ɭ]	汽车旅馆 (旅游)	
 row	pron	펜션	[pʰe̞nɕʰʌ̹n]	[pʰe̞nɕʰʌ̹n]	民宿 (旅游)	
 row	pron	로비	[ɾo̞bi]	[ɾo̞bi]	大厅 (旅游)	
@@ -742,7 +742,7 @@ row	pron	출석	[t͡ɕʰuɭs͈ʌ̹k̚]	[t͡ɕʰuɭs͈ʌ̹k̚]	考勤 (校园生�
 row	pron	결석	[kjʌ̹ɭs͈ʌ̹k̚]	[kjʌ̹ɭs͈ʌ̹k̚]	无 (校园生活)	
 row	pron	반장	[pa̠ɲd͡ʑa̠ŋ]	[pa̠ɲd͡ʑa̠ŋ]	班长 (校园生活)	
 row	pron	맑은	malchen	malchen	晴 (天气)	
-row	pron	흐린	erin	erin	Cloudy (天气)	
+row	pron	흐린	erin	erin	阴的；阴沉的；模糊的 (형용사)	
 row	pron	비오는	pichunen	pichunen	多雨 (天气)	
 row	pron	습한	ngengan	ngengan	湿气重的 (天气)	
 row	pron	건조한	konkuan	konkuan	干燥的 (天气)	
@@ -924,24 +924,24 @@ row	pron	타이머	[tʰa̠imʌ̹]	[tʰa̠imʌ̹]	倒计时 (烹饪)
 row	pron	약불	chyakpim	chyakpim	低温 (烹饪)	
 row	pron	중불	kitpim	kitpim	五成热 (烹饪)	
 row	pron	센불	ngenpim	ngenpim	高温 (烹饪)	
-row	pron	바삭한	pangakan	pangakan	豆dhal (烹饪)	
+row	pron	바삭한	pangakan	pangakan	酥脆的；松脆的 (형용사)	
 row	pron	짭짤한	tangtaman	tangtaman	菜谱 (烹饪)	
-row	pron	노래	[no̞ɾɛ]	[no̞ɾɛ]	Song (音乐)	
+row	pron	노래	[no̞ɾɛ]	[no̞ɾɛ]	歌曲；歌唱 (명사)	
 row	pron	멜로디	[me̞ɭɭo̞di]	[me̞ɭɭo̞di]	旋律音 (音乐)	
 row	pron	리듬	[ɾidɯm]	[ɾidɯm]	节律 (音乐)	
 row	pron	비트	[pitʰɯ]	[pitʰɯ]	打 (音乐)	
 row	pron	가사	[ka̠sʰa̠]	[ka̠sʰa̠]	歌词 (音乐)	
 row	pron	후렴	[ˈɸʷu(ː)ɾjʌ̹m]	[ˈɸʷu(ː)ɾjʌ̹m]	副歌 (音乐)	
 row	pron	인트로	chineru	chineru	引子 (音乐)	
-row	pron	아웃로	chachitru	chachitru	Outro (音乐)	
-row	pron	미니앨범	minichempong	minichempong	EP (音乐)	
+row	pron	아웃로	chachitru	chachitru	尾奏；结尾乐段 (명사)	
+row	pron	미니앨범	minichempong	minichempong	迷你专辑；EP (명사)	
 row	pron	플레이리스트	[pʰɯɭɭe̞iɾisʰɯtʰɯ]	[pʰɯɭɭe̞iɾisʰɯtʰɯ]	播放清单 (音乐)	
 row	pron	무대	[ˈmu(ː)dɛ]	[ˈmu(ː)dɛ]	舞台 (音乐)	
 row	pron	마이크	[ma̠ikxɯ]	[ma̠ikxɯ]	麦克风 (音乐)	
 row	pron	스피커	[sʰɯpʰikʰʌ̹]	[sʰɯpʰikʰʌ̹]	喇叭 (音乐)	
 row	pron	헤드폰	[he̞dɯpʰo̞n]	[he̞dɯpʰo̞n]	耳机 (音乐)	
 row	pron	이어폰	[iʌ̹pʰo̞n]	[iʌ̹pʰo̞n]	耳塞式耳机 (音乐)	
-row	pron	디제이	[tid͡ʑe̞i]	[tid͡ʑe̞i]	DJ (音乐)	
+row	pron	디제이	[tid͡ʑe̞i]	[tid͡ʑe̞i]	DJ；唱片骑师 (명사)	
 row	pron	보컬	puhom	puhom	主唱 (音乐)	
 row	pron	래퍼	[ɾɛpʰʌ̹]	[ɾɛpʰʌ̹]	饶舌歌手 (音乐)	
 row	pron	댄서	[tɛnsʰʌ̹]	[tɛnsʰʌ̹]	舞者 (音乐)	
@@ -965,9 +965,9 @@ row	pron	플루트	[pʰɯɭɭutʰɯ]	[pʰɯɭɭutʰɯ]	长笛 (音乐)
 row	pron	트럼펫	[tʰɯɾʌ̹mpʰe̞t̚]	[tʰɯɾʌ̹mpʰe̞t̚]	小号 (音乐)	
 row	pron	베이스	[pe̞is͈ɯ]	[pe̞is͈ɯ]	巴斯 (音乐)	
 row	pron	치어리딩	[t͡ɕʰiʌ̹ɾidiŋ]	[t͡ɕʰiʌ̹ɾidiŋ]	啦啦队 (运动)	
-row	pron	비비다	[pibida̠]	[pibida̠]	Bibim Mixing (烹饪)	
-row	pron	혼밥	[ɸʷo̞nba̠p̚]	[ɸʷo̞nba̠p̚]	Honbap (俚语)	
-row	pron	개인	[ˈkɛ(ː)in]	[ˈkɛ(ː)in]	Gaesaeng (俚语)	
+row	pron	비비다	[pibida̠]	[pibida̠]	拌；揉搓；摩擦 (동사)	
+row	pron	혼밥	[ɸʷo̞nba̠p̚]	[ɸʷo̞nba̠p̚]	独食；一个人吃饭 (명사)	
+row	pron	개인	[ˈkɛ(ː)in]	[ˈkɛ(ː)in]	个人；私人 (명사)	
 row	pron	레전드	[ɾe̞d͡ʑʌ̹ndɯ]	[ɾe̞d͡ʑʌ̹ndɯ]	传奇 (俚语)	
 row	pron	커버곡	hopokuk	hopokuk	翻唱 (音乐)	
 row	pron	완전	[wa̠ɲd͡ʑʌ̹n]	[wa̠ɲd͡ʑʌ̹n]	完全 (俚语)	
@@ -1059,10 +1059,10 @@ row	pron	백업	[pɛɡʌ̹p̚]	[pɛɡʌ̹p̚]	备份 (科技)
 row	pron	카메라	[kʰa̠me̞ɾa̠]	[kʰa̠me̞ɾa̠]	摄像头 (科技)	
 row	pron	화상통화	wngatutw	wngatutw	视频通话 (科技)	
 row	pron	팟캐스트	[pʰa̠t̚kʰɛsʰɯtʰɯ]	[pʰa̠t̚kʰɛsʰɯtʰɯ]	播客 (科技)	
-row	pron	유튜브	[jutʰjubɯ]	[jutʰjubɯ]	YouTube (科技)	
-row	pron	인스타그램	[insʰɯtʰa̠ɡɯɾɛm]	[insʰɯtʰa̠ɡɯɾɛm]	Instagram (科技)	
-row	pron	카카오톡	[kʰa̠kʰa̠o̞tʰo̞k̚]	[kʰa̠kʰa̠o̞tʰo̞k̚]	KakaoTalk (科技)	
-row	pron	네이버	nechipo	nechipo	Naver (科技)	
+row	pron	유튜브	[jutʰjubɯ]	[jutʰjubɯ]	YouTube；油管 (명사)	
+row	pron	인스타그램	[insʰɯtʰa̠ɡɯɾɛm]	[insʰɯtʰa̠ɡɯɾɛm]	Instagram；照片墙 (명사)	
+row	pron	카카오톡	[kʰa̠kʰa̠o̞tʰo̞k̚]	[kʰa̠kʰa̠o̞tʰo̞k̚]	KakaoTalk (韩国即时通讯软件) (명사)	
+row	pron	네이버	nechipo	nechipo	Naver；韩国搜索引擎 (명사)	
 row	pron	검색엔진	kongngekchenkin	kongngekchenkin	搜索引擎 (科技)	
 row	pron	브라우저	[pɯɾa̠ud͡ʑʌ̹]	[pɯɾa̠ud͡ʑʌ̹]	浏览器 (科技)	
 row	pron	로봇	[ɾo̞bo̞t̚]	[ɾo̞bo̞t̚]	机器人 (科技)	
@@ -1160,7 +1160,7 @@ row	pron	스킨케어	ngehinhecho	ngehinhecho	护肤 (美容护肤)
 row	pron	토너	uno	uno	爽肤水 (美容护肤)	
 row	pron	시트마스크	ngiemangehe	ngiemangehe	面膜 (美容护肤)	
 row	pron	아이라이너	chachirachino	chachirachino	อายไลเนอร์ (美容与护肤)	
-row	pron	마스카라	[ma̠sʰɯkʰa̠ɾa̠]	[ma̠sʰɯkʰa̠ɾa̠]	Mascara (美容与护肤)	
+row	pron	마스카라	[ma̠sʰɯkʰa̠ɾa̠]	[ma̠sʰɯkʰa̠ɾa̠]	睫毛膏 (명사)	
 row	pron	아이섀도	chachingyetu	chachingyetu	眼影 (美容与护肤)	
 row	pron	블러셔	[pɯɭɭʌ̹ɕʰʌ̹]	[pɯɭɭʌ̹ɕʰʌ̹]	腮红 (美容与护肤)	
 row	pron	파운데이션	[pʰa̠unde̞iɕʰʌ̹n]	[pʰa̠unde̞iɕʰʌ̹n]	粉底 (美妆护肤)	
@@ -1301,7 +1301,7 @@ row	pron	모자이크	[mo̞d͡ʑa̠ikxɯ]	[mo̞d͡ʑa̠ikxɯ]	马赛克 (艺术�
 row	pron	건축	[ˈkɘ(ː)ɲt͡ɕʰuk̚]	[ˈkɘ(ː)ɲt͡ɕʰuk̚]	建筑 (艺术与设计)	
 row	pron	다큐멘터리	[ta̠cçume̞ntʰʌ̹ɾi]	[ta̠cçume̞ntʰʌ̹ɾi]	纪录片 (艺术与设计)	
 row	pron	갤러리	[kɛɭɭʌ̹ɾi]	[kɛɭɭʌ̹ɾi]	大厅 (艺术与设计)	
-row	pron	전시	[ˈt͡ɕɘ(ː)nɕʰi]	[ˈt͡ɕɘ(ː)nɕʰi]	Exhibition (艺术与设计)	
+row	pron	전시	[ˈt͡ɕɘ(ː)nɕʰi]	[ˈt͡ɕɘ(ː)nɕʰi]	展览；展出 (명사)	
 row	pron	예술가	[ˈje̞(ː)sʰuɭɡa̠]	[ˈje̞(ː)sʰuɭɡa̠]	美编 (艺术设计)	
 row	pron	디자이너	[tid͡ʑa̠inʌ̹]	[tid͡ʑa̠inʌ̹]	设计师 (艺术设计)	
 row	pron	종교	[t͡ɕo̞ŋɡjo]	[t͡ɕo̞ŋɡjo]	宗教 (宗教)	
@@ -1344,10 +1344,10 @@ row	pron	유아	[jua̠]	[jua̠]	幼儿 (育儿与家庭生活)
 row	pron	아이	[a̠i]	[a̠i]	小孩 (育儿与家庭生活)	
 row	pron	십대	[ɕʰip̚t͈ɛ]	[ɕʰip̚t͈ɛ]	青少年 (育儿与家庭生活)	
 row	pron	양육	chyatchwk	chyatchwk	育儿 (育儿与家庭生活)	
-row	pron	모성	mungot	mungot	母亲的身份 (eomeoni-ui sinbun) (育儿与家庭生活)	
-row	pron	부성	pingot	pingot	父亲的身份 (abeoji-ui sinbun) (育儿与家庭生活)	
-row	pron	분유	[puɲu]	[puɲu]	配方奶粉 (pyeong-ga naepul) (育儿与家庭生活)	
-row	pron	기저귀	[kid͡ʑʌ̹ɡɥi]	[kid͡ʑʌ̹ɡɥi]	尿布 (naebuk) (育儿与家庭生活)	
+row	pron	모성	mungot	mungot	母性；母亲的身份 (명사)	
+row	pron	부성	pingot	pingot	父性；父亲的身份 (명사)	
+row	pron	분유	[puɲu]	[puɲu]	配方奶粉 (명사)	
+row	pron	기저귀	[kid͡ʑʌ̹ɡɥi]	[kid͡ʑʌ̹ɡɥi]	尿布；纸尿裤 (명사)	
 row	pron	이유식	chichwngik	chichwngik	婴儿食品 (育儿与家庭生活)	
 row	pron	요람	[joɾa̠m]	[joɾa̠m]	婴儿摇篮 (育儿与家庭生活)	
 row	pron	유모차	[jumo̞t͡ɕʰa̠]	[jumo̞t͡ɕʰa̠]	婴儿推车 (育儿与家庭生活)	
@@ -1396,35 +1396,35 @@ row	pron	인터뷰	[intʰʌ̹bju]	[intʰʌ̹bju]	采访 (媒体与新闻)
 row	pron	속보	[sʰo̞k̚p͈o̞]	[sʰo̞k̚p͈o̞]	突发新闻 (媒体与新闻)	
 row	pron	방송국	[ˈpa̠(ː)ŋsʰo̞ŋɡuk̚]	[ˈpa̠(ː)ŋsʰo̞ŋɡuk̚]	广播电台 (媒体与新闻)	
 row	pron	구독	[kudo̞k̚]	[kudo̞k̚]	订阅 (媒体与新闻)	
-row	pron	리트윗	riechet	riechet	Retweet (媒体与新闻学)	
-row	pron	해시태그	[hɛɕʰitʰɛɡɯ]	[hɛɕʰitʰɛɡɯ]	Hashtag (媒体与新闻学)	
+row	pron	리트윗	riechet	riechet	转推；转发 (명사)	
+row	pron	해시태그	[hɛɕʰitʰɛɡɯ]	[hɛɕʰitʰɛɡɯ]	话题标签；标签 (명사)	
 row	pron	신문	[ɕʰinmun]	[ɕʰinmun]	报纸 (媒体与新闻学)	
 row	pron	잡지	[t͡ɕa̠p̚t͡ɕ͈i]	[t͡ɕa̠p̚t͡ɕ͈i]	弹匣 (媒体与新闻学)	
 row	pron	자막	[t͡ɕa̠ma̠k̚]	[t͡ɕa̠ma̠k̚]	字幕 (媒体与新闻学)	
-row	pron	국밥	[kuk̚p͈a̠p̚]	[kuk̚p͈a̠p̚]	汤饭(Gukbap) (韩式饮食)	
-row	pron	탕	[tʰa̠(ː)ŋ]	[tʰa̠(ː)ŋ]	汤/炖汤(Tang) (韩式饮食)	
-row	pron	짜장면	[t͡ɕ͈a̠d͡ʑa̠ŋmjʌ̹n]	[t͡ɕ͈a̠d͡ʑa̠ŋmjʌ̹n]	炸酱面(Jjajangmyeon) (韩式饮食)	
-row	pron	쌈	[s͈a̠m]	[s͈a̠m]	包饭(Ssam) (韩式饮食)	
-row	pron	치맥	[t͡ɕʰimɛk̚]	[t͡ɕʰimɛk̚]	炸鸡啤酒(Chimaek) (韩式饮食)	
+row	pron	국밥	[kuk̚p͈a̠p̚]	[kuk̚p͈a̠p̚]	汤饭 (명사)	
+row	pron	탕	[tʰa̠(ː)ŋ]	[tʰa̠(ː)ŋ]	汤；炖汤 (명사)	
+row	pron	짜장면	[t͡ɕ͈a̠d͡ʑa̠ŋmjʌ̹n]	[t͡ɕ͈a̠d͡ʑa̠ŋmjʌ̹n]	炸酱面 (명사)	
+row	pron	쌈	[s͈a̠m]	[s͈a̠m]	菜包饭；包饭 (명사)	
+row	pron	치맥	[t͡ɕʰimɛk̚]	[t͡ɕʰimɛk̚]	炸鸡配啤酒 (명사)	
 row	pron	과자	[kwa̠d͡ʑa̠]	[kwa̠d͡ʑa̠]	韩式点心 (韩式饮食)	
-row	pron	콩나물국	hutnamimkik	hutnamimkik	豆芽汤 (Kongnamul Guk) (韩国饮食)	
-row	pron	오뎅	[o̞de̞ŋ]	[o̞de̞ŋ]	鱼饼 (Odeng) (韩国饮食)	
-row	pron	죽	[t͡ɕuk̚]	[t͡ɕuk̚]	粥 (Juk) (韩国饮食)	
-row	pron	식초	[ɕʰik̚t͡ɕʰo̞]	[ɕʰik̚t͡ɕʰo̞]	醋 (Shikcho) (韩国饮食)	
-row	pron	양파	[ja̠ŋpʰa̠]	[ja̠ŋpʰa̠]	洋葱 (Yangpa) (韩国饮食)	
-row	pron	탕수육	[tʰa̠ŋsʰujuk̚]	[tʰa̠ŋsʰujuk̚]	糖醋肉 (Tangsuyuk) (韩国饮食)	
-row	pron	잡곡밥	[t͡ɕa̠p̚k͈o̞k̚p͈a̠p̚]	[t͡ɕa̠p̚k͈o̞k̚p͈a̠p̚]	杂谷饭 (Japgok Bap) (韩国饮食)	
-row	pron	어묵탕	chomikat	chomikat	鱼饼汤 (Eomuk Tang) (韩国饮食)	
-row	pron	계란찜	[kje̞ɾa̠ɲt͡ɕ͈im]	[kje̞ɾa̠ɲt͡ɕ͈im]	蒸蛋 (Gyeran Jjim) (韩国饮食)	
-row	pron	매운	mechin	mechin	辣 (Maeun) (韩国饮食)	
-row	pron	된장국	[twe̞ɲd͡ʑa̠ŋɡuk̚]	[twe̞ɲd͡ʑa̠ŋɡuk̚]	大酱汤 (Doenjang Guk) (韩国饮食)	
-row	pron	보리밥	[po̞ɾiba̠p̚]	[po̞ɾiba̠p̚]	Boribap (韩国饮食文化)	
+row	pron	콩나물국	hutnamimkik	hutnamimkik	豆芽汤 (명사)	
+row	pron	오뎅	[o̞de̞ŋ]	[o̞de̞ŋ]	鱼饼；鱼糕 (명사)	
+row	pron	죽	[t͡ɕuk̚]	[t͡ɕuk̚]	粥 (명사)	
+row	pron	식초	[ɕʰik̚t͡ɕʰo̞]	[ɕʰik̚t͡ɕʰo̞]	食醋；醋 (명사)	
+row	pron	양파	[ja̠ŋpʰa̠]	[ja̠ŋpʰa̠]	洋葱 (명사)	
+row	pron	탕수육	[tʰa̠ŋsʰujuk̚]	[tʰa̠ŋsʰujuk̚]	糖醋肉 (명사)	
+row	pron	잡곡밥	[t͡ɕa̠p̚k͈o̞k̚p͈a̠p̚]	[t͡ɕa̠p̚k͈o̞k̚p͈a̠p̚]	杂粮饭；杂谷饭 (명사)	
+row	pron	어묵탕	chomikat	chomikat	鱼糕汤；鱼饼汤 (명사)	
+row	pron	계란찜	[kje̞ɾa̠ɲt͡ɕ͈im]	[kje̞ɾa̠ɲt͡ɕ͈im]	蒸蛋；鸡蛋羹 (명사)	
+row	pron	매운	mechin	mechin	辣的；辛辣的 (형용사)	
+row	pron	된장국	[twe̞ɲd͡ʑa̠ŋɡuk̚]	[twe̞ɲd͡ʑa̠ŋɡuk̚]	大酱汤 (명사)	
+row	pron	보리밥	[po̞ɾiba̠p̚]	[po̞ɾiba̠p̚]	大麦饭；麦饭 (명사)	
 row	pron	생맥주	ngetmekki	ngetmekki	扎啤 (韩国饮食文化)	
 row	pron	두유	[tuju]	[tuju]	豆乳 (韩国饮食文化)	
 row	pron	국수	[kuks͈u]	[kuks͈u]	面条 (韩国饮食文化)	
-row	pron	붕어빵	[puŋʌ̹p͈a̠ŋ]	[puŋʌ̹p͈a̠ŋ]	Bungeoppang (韩国饮食文化)	
-row	pron	팥빙수	[pʰa̠t̚p͈iŋsʰu]	[pʰa̠t̚p͈iŋsʰu]	Patbingsu (韩国饮食文化)	
-row	pron	생선구이	[sʰɛŋsʰʌ̹nɡui]	[sʰɛŋsʰʌ̹nɡui]	Ganjang Gui Fish (韩国饮食文化)	
+row	pron	붕어빵	[puŋʌ̹p͈a̠ŋ]	[puŋʌ̹p͈a̠ŋ]	鲫鱼饼；鲷鱼烧 (명사)	
+row	pron	팥빙수	[pʰa̠t̚p͈iŋsʰu]	[pʰa̠t̚p͈iŋsʰu]	红豆刨冰；红豆冰 (명사)	
+row	pron	생선구이	[sʰɛŋsʰʌ̹nɡui]	[sʰɛŋsʰʌ̹nɡui]	烤鱼 (명사)	
 row	pron	초간장	pukankat	pukankat	葱酱油 (韩国饮食文化)	
 row	pron	쌈무	[s͈a̠mmu]	[s͈a̠mmu]	包饭萝卜 (韩国饮食文化)	
 row	pron	김	[ki(ː)m]	[ki(ː)m]	海苔 (韩国饮食文化)	
@@ -1435,7 +1435,7 @@ row	pron	어묵볶음	chomikpukcheng	chomikpukcheng	炒鱼糕 (韩国饮食文�
 row	pron	녹차	[no̞k̚t͡ɕʰa̠]	[no̞k̚t͡ɕʰa̠]	绿茶 (韩国饮食文化)	
 row	pron	불안	[puɾa̠n]	[puɾa̠n]	焦虑 (心理健康与身心保健)	
 row	pron	상담	[sʰa̠ŋda̠m]	[sʰa̠ŋda̠m]	咨商 (心理健康与身心保健)	
-row	pron	웰빙	[we̞ɭbiŋ]	[we̞ɭbiŋ]	健康幸福(Well-being) (心理健康与身心保健)	
+row	pron	웰빙	[we̞ɭbiŋ]	[we̞ɭbiŋ]	身心健康；福祉 (명사)	
 row	pron	행복	[ˈhɛ(ː)ŋbo̞k̚]	[ˈhɛ(ː)ŋbo̞k̚]	幸福 (心理健康与身心保健)	
 row	pron	힐링	[çiʎʎiŋ]	[çiʎʎiŋ]	疗愈 (心理健康与保健)	
 row	pron	분노	[ˈpu(ː)nno̞]	[ˈpu(ː)nno̞]	愤怒 (心理健康与保健)	
@@ -1444,7 +1444,7 @@ row	pron	걱정	[kʌ̹k̚t͡ɕ͈ʌ̹ŋ]	[kʌ̹k̚t͡ɕ͈ʌ̹ŋ]	担忧 (心理�
 row	pron	희망	[çima̠ŋ]	[çima̠ŋ]	希望 (心理健康与保健)	
 row	pron	감정	[ˈka̠(ː)md͡ʑʌ̹ŋ]	[ˈka̠(ː)md͡ʑʌ̹ŋ]	情绪 (心理健康与保健)	
 row	pron	인내	[innɛ]	[innɛ]	耐心 (心理健康与养生)	
-row	pron	카카오프렌즈	hahachuerenke	hahachuerenke	Kakao Friends (韩国流行文化)	
+row	pron	카카오프렌즈	hahachuerenke	hahachuerenke	Kakao Friends (韩国卡通IP形象) (명사)	
 row	pron	퍼포먼스	oumonnge	oumonnge	表演 (韩国流行文化)	
 row	pron	센터	[s͈e̞ntʰʌ̹]	[s͈e̞ntʰʌ̹]	中心 (韩国流行文化)	
 row	pron	팔로우	[pʰa̠ɭɭo̞u]	[pʰa̠ɭɭo̞u]	追踪 (韩国流行文化)	
@@ -1472,9 +1472,9 @@ row	pron	스크래처	ngeherepo	ngeherepo	猫抓板 (宠物照护与动物)
 row	pron	빗질	[pit̚t͡ɕ͈iɭ]	[pit̚t͡ɕ͈iɭ]	梳毛 (宠物照护与动物)	
 row	pron	프로게이머	erukechimo	erukechimo	职业电竞选手 (游戏与电竞)	
 row	pron	캐리	heri	heri	Carry(带飞) (游戏与电竞)	
-row	pron	렉	rek	rek	延迟(Lag) (游戏与电竞)	
+row	pron	렉	rek	rek	游戏延迟；网络卡顿 (명사)	
 row	pron	뉴비	[ɲubi]	[ɲubi]	菜鸟(新手) (游戏与电竞)	
-row	pron	리스폰	ringeun	ringeun	重生(Respawn) (游戏与电竞)	
+row	pron	리스폰	ringeun	ringeun	复活；重生 (명사)	
 row	pron	배틀로얄	peemruchyam	peemruchyam	大逃杀 (游戏与电竞)	
 row	pron	전리품	[ˈt͡ɕɘ(ː)ʎʎipʰum]	[ˈt͡ɕɘ(ː)ʎʎipʰum]	战利品 (游戏与电竞)	
 row	pron	핑	[pʰiŋ]	[pʰiŋ]	延迟（Ping） (游戏与电竞)	
@@ -1499,13 +1499,13 @@ row	pron	화나다	[ˈɸwa̠(ː)na̠da̠]	[ˈɸwa̠(ː)na̠da̠]	生气 (情感)
 row	pron	시간	[ɕʰiɡa̠n]	[ɕʰiɡa̠n]	时间 (日常生活)	
 row	pron	한류	[ˈha̠(ː)ʎʎu]	[ˈha̠(ː)ʎʎu]	韩流 (文化)	
 row	pron	추석	[t͡ɕʰusʰʌ̹k̚]	[t͡ɕʰusʰʌ̹k̚]	秋夕 (文化)	
-row	pron	설날	[ˈsʰɘ(ː)ɭɭa̠ɭ]	[ˈsʰɘ(ː)ɭɭa̠ɭ]	Seollal (农历新年) (文化)	
+row	pron	설날	[ˈsʰɘ(ː)ɭɭa̠ɭ]	[ˈsʰɘ(ː)ɭɭa̠ɭ]	农历新年；春节 (명사)	
 row	pron	한옥	[ˈha̠(ː)no̞k̚]	[ˈha̠(ː)no̞k̚]	传统韩屋 (文化)	
 row	pron	사찰음식	ngapamchengngik	ngapamchengngik	寺庙饮食 (文化)	
 row	pron	빨리빨리	[p͈a̠ʎʎip͈a̠ʎʎi]	[p͈a̠ʎʎip͈a̠ʎʎi]	快点快点（文化） (文化)	
 row	pron	회식	[ˈɸwe̞(ː)ɕʰik̚]	[ˈɸwe̞(ː)ɕʰik̚]	公司聚餐 (文化)	
 row	pron	존댓말	[t͡ɕo̞ndɛnma̠ɭ]	[t͡ɕo̞ndɛnma̠ɭ]	敬语 (文化)	
-row	pron	스킨십	[sʰɯcçinɕʰip̚]	[sʰɯcçinɕʰip̚]	Skinship（肢体接触） (文化)	
+row	pron	스킨십	[sʰɯcçinɕʰip̚]	[sʰɯcçinɕʰip̚]	肢体接触；亲昵动作 (명사)	
 row	pron	온돌	[o̞ndo̞ɭ]	[o̞ndo̞ɭ]	温突（地板暖气） (文化)	
 row	pron	선물하기	ngonmimaki	ngonmimaki	赠礼 (文化)	
 row	pron	출퇴근	pimwiken	pimwiken	通勤 (日常生活)	
@@ -1526,9 +1526,9 @@ row	pron	설명	[sʰʌ̹ɭmjʌ̹ŋ]	[sʰʌ̹ɭmjʌ̹ŋ]	解释 (教育)
 row	pron	강의	[ˈka̠(ː)ŋɰi]	[ˈka̠(ː)ŋɰi]	课堂授课 (教育)	
 row	pron	화이트보드	[ɸwa̠itʰɯbo̞dɯ]	[ɸwa̠itʰɯbo̞dɯ]	白板 (教育)	
 row	pron	대학원	[ˈtɛ(ː)ɦa̠ɡwʌ̹n]	[ˈtɛ(ː)ɦa̠ɡwʌ̹n]	研究生 (教育)	
-row	pron	전공	[t͡ɕʌ̹nɡo̞ŋ]	[t͡ɕʌ̹nɡo̞ŋ]	Major (教育)	
+row	pron	전공	[t͡ɕʌ̹nɡo̞ŋ]	[t͡ɕʌ̹nɡo̞ŋ]	专业；主修 (명사)	
 row	pron	부전공	pikonkut	pikonkut	不重要 (教育)	
-row	pron	학점	[ha̠k̚t͡ɕ͈ʌ̹m]	[ha̠k̚t͡ɕ͈ʌ̹m]	GPA (教育)	
+row	pron	학점	[ha̠k̚t͡ɕ͈ʌ̹m]	[ha̠k̚t͡ɕ͈ʌ̹m]	学分；学业成绩 (명사)	
 row	pron	장학금	[ˈt͡ɕa̠(ː)ŋɦa̠k̚k͈ɯm]	[ˈt͡ɕa̠(ː)ŋɦa̠k̚k͈ɯm]	奖学金 (教育)	
 row	pron	등록금	[tɯŋno̞k̚k͈ɯm]	[tɯŋno̞k̚k͈ɯm]	学费 (教育)	
 row	pron	기숙사	[kisʰuks͈a̠]	[kisʰuks͈a̠]	宿舍 (教育)	
@@ -1536,7 +1536,7 @@ row	pron	구내식당	[kunɛɕʰik̚t͈a̠ŋ]	[kunɛɕʰik̚t͈a̠ŋ]	餐厅 (�
 row	pron	교수	[ˈkjo(ː)sʰu]	[ˈkjo(ː)sʰu]	教授 (教育)	
 row	pron	강사	[ˈka̠(ː)ŋsʰa̠]	[ˈka̠(ː)ŋsʰa̠]	讲师 (教育)	
 row	pron	조교	[ˈt͡ɕo̞(ː)ɡjo]	[ˈt͡ɕo̞(ː)ɡjo]	助教 (教育)	
-row	pron	발표	[pa̠ɭpʰjo]	[pa̠ɭpʰjo]	PPT (教育)	
+row	pron	발표	[pa̠ɭpʰjo]	[pa̠ɭpʰjo]	发表；演讲；发布 (명사)	
 row	pron	에세이	[e̞s͈e̞i]	[e̞s͈e̞i]	作文 (教育)	
 row	pron	연구	[ˈjɘ(ː)nɡu]	[ˈjɘ(ː)nɡu]	研究 (教育)	
 row	pron	실험	[ɕʰiɾɦʌ̹m]	[ɕʰiɾɦʌ̹m]	实验 (教育)	
@@ -1581,7 +1581,7 @@ row	pron	낙담하다	naktangata	naktangata	垂头丧气 (情感)
 row	pron	절박하다	kompakata	kompakata	绝望 (情感)	
 row	pron	그리워하다	[kɯɾiwʌ̹ɦa̠da̠]	[kɯɾiwʌ̹ɦa̠da̠]	渴望 (情感)	
 row	pron	울먹이다	chimmokchita	chimmokchita	哭 (情感)	
-row	pron	흥분하다	[xɯŋbunɦa̠da̠]	[xɯŋbunɦa̠da̠]	浮躁？ (情感)	
+row	pron	흥분하다	[xɯŋbunɦa̠da̠]	[xɯŋbunɦa̠da̠]	兴奋；激动 (동사)	
 row	pron	겸손하다	[kjʌ̹msʰo̞nɦa̠da̠]	[kjʌ̹msʰo̞nɦa̠da̠]	谦逊 (情感)	
 row	pron	쑥스럽다	cikngerongta	cikngerongta	迎头痛击 (情感)	
 row	pron	대담하다	tetangata	tetangata	加粗 (情感)	
@@ -1642,7 +1642,7 @@ row	pron	스트리밍	[sʰɯtʰɯɾimiŋ]	[sʰɯtʰɯɾimiŋ]	串流（音乐）
 row	pron	시상식	ngingatngik	ngingatngik	颁奖典礼 (文化)	
 row	pron	사극	[ˈsʰa̠(ː)ɡɯk̚]	[ˈsʰa̠(ː)ɡɯk̚]	历史剧 (文化)	
 row	pron	워라밸	[wʌ̹ɾa̠bɛɭ]	[wʌ̹ɾa̠bɛɭ]	工作与生活平衡 (文化)	
-row	pron	콩글리시	[kʰo̞ŋɡɯʎʎiɕʰi]	[kʰo̞ŋɡɯʎʎiɕʰi]	韩式英语（Konglish） (文化)	
+row	pron	콩글리시	[kʰo̞ŋɡɯʎʎiɕʰi]	[kʰo̞ŋɡɯʎʎiɕʰi]	韩式英语；Konglish (명사)	
 row	pron	떡국	[t͈ʌ̹k̚k͈uk̚]	[t͈ʌ̹k̚k͈uk̚]	新年年糕汤传统 (文化)	
 row	pron	당황스러운	tatwtngerochin	tatwtngerochin	慌乱 (情绪)	
 row	pron	감동받은	kangtutpakchen	kangtutpakchen	深受感动 (情绪)	
@@ -1706,11 +1706,11 @@ row	pron	헌신	[ˈhɘ(ː)nɕʰin]	[ˈhɘ(ː)nɕʰin]	承诺 (人际关系)
 row	pron	헌정	onkot	onkot	献辞 (人际关系)	
 row	pron	희생	[çisʰɛŋ]	[çisʰɛŋ]	牺牲 (人际关系)	
 row	pron	타협	[ˈtʰa̠(ː)ʝʌ̹p̚]	[ˈtʰa̠(ː)ʝʌ̹p̚]	妥协 (人际关系)	
-row	pron	공감	[ˈko̞(ː)ŋɡa̠m]	[ˈko̞(ː)ŋɡa̠m]	Empathy 同理心 (人际关系)	
+row	pron	공감	[ˈko̞(ː)ŋɡa̠m]	[ˈko̞(ː)ŋɡa̠m]	同理心；共情 (명사)	
 row	pron	애정	[ˈɛ(ː)d͡ʑʌ̹ŋ]	[ˈɛ(ː)d͡ʑʌ̹ŋ]	好感 (人际关系)	
 row	pron	따뜻함	tatetang	tatetang	温暖 (人际关系)	
-row	pron	친밀함	pinmimang	pinmimang	Closeness (人际关系)	
-row	pron	유대	[judɛ]	[judɛ]	Bond（押金） (人际关系)	
+row	pron	친밀함	pinmimang	pinmimang	亲密；亲密感 (명사)	
+row	pron	유대	[judɛ]	[judɛ]	纽带；羁绊；联系 (명사)	
 row	pron	연결	[jʌ̹nɡjʌ̹ɭ]	[jʌ̹nɡjʌ̹ɭ]	连接方式 (人际关系)	
 row	pron	케미	[kʰe̞mi]	[kʰe̞mi]	化学 (人际关系)	
 row	pron	도매	[to̞mɛ]	[to̞mɛ]	批发 (购物)	
@@ -1787,11 +1787,11 @@ row	pron	하체	[ˈha̠(ː)t͡ɕʰe̞]	[ˈha̠(ː)t͡ɕʰe̞]	下盘 (身体部�
 row	pron	몸통	[mo̞mtʰo̞ŋ]	[mo̞mtʰo̞ŋ]	躯干 (身体部位)	
 row	pron	팔다리	[pʰa̠ɭda̠ɾi]	[pʰa̠ɭda̠ɾi]	四肢 (身体部位)	
 row	pron	장기	[ˈt͡ɕa̠(ː)ŋɡi]	[ˈt͡ɕa̠(ː)ŋɡi]	器官 (身体部位)	
-row	pron	체형	[t͡ɕʰe̞ʝʌ̹ŋ]	[t͡ɕʰe̞ʝʌ̹ŋ]	Body Shape (身体部位)	
+row	pron	체형	[t͡ɕʰe̞ʝʌ̹ŋ]	[t͡ɕʰe̞ʝʌ̹ŋ]	体型；身材 (명사)	
 row	pron	근육질의	kenchwkkimchy	kenchwkkimchy	肌肉 (身体部位)	
 row	pron	유연성	chwchyonngot	chwchyonngot	形态切换 (身体部位)	
 row	pron	쌍꺼풀	[s͈a̠ŋk͈ʌ̹pʰuɭ]	[s͈a̠ŋk͈ʌ̹pʰuɭ]	双眼皮 (身体部位)	
-row	pron	외꺼풀	chwikoim	chwikoim	Monolid (身体部位)	
+row	pron	외꺼풀	chwikoim	chwikoim	单眼皮 (명사)	
 row	pron	보조개	[po̞d͡ʑo̞ɡɛ]	[po̞d͡ʑo̞ɡɛ]	酒窝 (身体部位)	
 row	pron	주근깨	[t͡ɕuɡɯnk͈ɛ]	[t͡ɕuɡɯnk͈ɛ]	雀斑 (身体部位)	
 row	pron	산호색	[sʰa̠nβo̞sʰɛk̚]	[sʰa̠nβo̞sʰɛk̚]	珊瑚色 (颜色和形状)	
@@ -1849,7 +1849,7 @@ row	pron	미술실	mingimngim	mingimngim	美术教室 (学校生活)
 row	pron	음악실	[ɯma̠kɕ͈iɭ]	[ɯma̠kɕ͈iɭ]	音乐教室 (学校生活)	
 row	pron	동아리	[to̞ŋa̠ɾi]	[to̞ŋa̠ɾi]	社团 (学校生活)	
 row	pron	운동회	[ˈu(ː)ndo̞ŋβwe̞]	[ˈu(ː)ndo̞ŋβwe̞]	实地考察日 (校园生活)	
-row	pron	식	[ɕʰik̚]	[ɕʰik̚]	仪式（Ceremony） (校园生活)	
+row	pron	식	[ɕʰik̚]	[ɕʰik̚]	仪式；典礼 (명사)	
 row	pron	문화제	minwke	minwke	文化祭 (校园生活)	
 row	pron	조회	[ˈt͡ɕo̞(ː)βwe̞]	[ˈt͡ɕo̞(ː)βwe̞]	晨会 (校园生活)	
 row	pron	허락장	orakkat	orakkat	权限单 (校园生活)	
@@ -1884,7 +1884,7 @@ row	pron	블레이저	pemrechiko	pemrechiko	伐刀者 (服饰)
 row	pron	패딩	etit	etit	羽绒夹克 (服饰)	
 row	pron	크롭탑	[kxɯɾo̞p̚tʰa̠p̚]	[kxɯɾo̞p̚tʰa̠p̚]	短版上衣 (服饰)	
 row	pron	터틀넥	oemnek	oemnek	高领衫 (服饰)	
-row	pron	폴로셔츠	umrungyope	umrungyope	Polo衫 (服饰)	
+row	pron	폴로셔츠	umrungyope	umrungyope	Polo衫；翻领马球衫 (명사)	
 row	pron	드레스셔츠	terengengyope	terengengyope	正装衬衫 (服饰)	
 row	pron	브래지어	[pɯɾɛd͡ʑiʌ̹]	[pɯɾɛd͡ʑiʌ̹]	胸罩 (服饰)	
 row	pron	스타킹	[sʰɯtʰa̠cçiŋ]	[sʰɯtʰa̠cçiŋ]	丝袜 (服饰)	
@@ -2026,18 +2026,18 @@ row	pron	마스터링	mangeorit	mangeorit	控制 (音乐)
 row	pron	출장	[t͡ɕʰuʎt͡ɕ͈a̠ŋ]	[t͡ɕʰuʎt͡ɕ͈a̠ŋ]	出差 (商业)	
 row	pron	네트워킹	neechehit	neechehit	网络 (商业)	
 row	pron	칼질	[kʰa̠ʎd͡ʑiɭ]	[kʰa̠ʎd͡ʑiɭ]	刀技 (烹饪)	
-row	pron	인싸	[ins͈a̠]	[ins͈a̠]	Inssa (俚语)	
-row	pron	현타	[çʌ̹ntʰa̠]	[çʌ̹ntʰa̠]	Hyuntae (俚语)	
-row	pron	갓생	katnget	katnget	Gatsaeng (俚语)	
-row	pron	소확행	nguwket	nguwket	Sowhakhaeng (俚语)	
-row	pron	꼰대	[k͈o̞ndɛ]	[k͈o̞ndɛ]	Kkondae (俚语)	
-row	pron	갑분싸	[ka̠p̚p͈uns͈a̠]	[ka̠p̚p͈uns͈a̠]	Gabbunsssa (俚语)	
+row	pron	인싸	[ins͈a̠]	[ins͈a̠]	社交达人；圈内人 (명사)	
+row	pron	현타	[çʌ̹ntʰa̠]	[çʌ̹ntʰa̠]	现实清醒时间；贤者模式；幻灭感 (명사)	
+row	pron	갓생	katnget	katnget	模范充实人生；开挂般的生活 (명사)	
+row	pron	소확행	nguwket	nguwket	微小而确实的幸福；小确幸 (명사)	
+row	pron	꼰대	[k͈o̞ndɛ]	[k͈o̞ndɛ]	顽固长辈；老古板 (명사)	
+row	pron	갑분싸	[ka̠p̚p͈uns͈a̠]	[ka̠p̚p͈uns͈a̠]	气氛突然冷场；突然尴尬 (명사)	
 row	pron	세단뛰기	[sʰe̞da̠nt͈ɥiɡi]	[sʰe̞da̠nt͈ɥiɡi]	三级跳 (运动)	
 row	pron	알고리즘	[a̠ɭɡo̞ɾid͡ʑɯm]	[a̠ɭɡo̞ɾid͡ʑɯm]	流程图（见附件） (科技)	
-row	pron	믹스테이프	mikngeechie	mikngeechie	Mixtape (音乐)	
+row	pron	믹스테이프	mikngeechie	mikngeechie	混音带；Mixtape (명사)	
 row	pron	사운드체크	ngachintepehe	ngachintepehe	声音检查 (音乐)	
 row	pron	은근히	[ɯnɡɯnʝi]	[ɯnɡɯnʝi]	低调 (俚语)	
-row	pron	소외감	nguchwikang	nguchwikang	FOMO(Fear of missing out)恐惧症。 (俚语)	
+row	pron	소외감	nguchwikang	nguchwikang	疏离感；被孤立感 (명사)	
 row	pron	쩐다	tonta	tonta	超酷 (俚语)	
 row	pron	핵	[hɛk̚]	[hɛk̚]	特级 (俚语)	
 row	pron	미쳤다	mipyolta	mipyolta	疯狂 (俚语)	
@@ -2048,7 +2048,7 @@ row	pron	극혐	[kɯcçʌ̹m]	[kɯcçʌ̹m]	极度厌恶 (俚语)
 row	pron	취존	pekun	pekun	尊重品味 (俚语)	
 row	pron	웃프다	[ut̚pʰɯda̠]	[ut̚pʰɯda̠]	悲伤和滑稽 (俚语)	
 row	pron	억울하다	[ʌ̹ɡuɾɦa̠da̠]	[ʌ̹ɡuɾɦa̠da̠]	不公平 (俚语)	
-row	pron	아재	[a̠d͡ʑɛ]	[a̠d͡ʑɛ]	Ajae (俚语)	
+row	pron	아재	[a̠d͡ʑɛ]	[a̠d͡ʑɛ]	大叔；老伯 (명사)	
 row	pron	아재개그	[a̠d͡ʑɛɡɛɡɯ]	[a̠d͡ʑɛɡɛɡɯ]	老爸的笑话 (俚语)	
 row	pron	눈치없다	ninpichotta	ninpichotta	没有眼力 (俚语)	
 row	pron	센스없다	ngenngechotta	ngenngechotta	没有品味 (俚语)	
@@ -2137,14 +2137,14 @@ row	pron	버그	[pʌ̹ɡɯ]	[pʌ̹ɡɯ]	故障 (科技)
 row	pron	오류	[ˈo̞(ː)ɾju]	[ˈo̞(ː)ɾju]	错误 (科技)	
 row	pron	디버그	tipoke	tipoke	调试 (科技)	
 row	pron	오픈소스	chuenngunge	chuenngunge	华为开源 (科技)	
-row	pron	핀테크	inehe	inehe	Fintech (科技)	
+row	pron	핀테크	inehe	inehe	金融科技；Fintech (명사)	
 row	pron	전자상거래	konkangatkore	konkangatkore	电子商务 (科技)	
 row	pron	플랫폼	[pʰɯɭɭɛt̚pʰo̞m]	[pʰɯɭɭɛt̚pʰo̞m]	站台 (科技)	
 row	pron	반도체	[ˈpa̠(ː)ndo̞t͡ɕʰe̞]	[ˈpa̠(ː)ndo̞t͡ɕʰe̞]	半导体 (科技)	
 row	pron	칩	[t͡ɕʰip̚]	[t͡ɕʰip̚]	芯片 (科技)	
 row	pron	디스플레이	[tisʰɯpʰɯɭɭe̞i]	[tisʰɯpʰɯɭɭe̞i]	波形图显示 (科技)	
 row	pron	해상도	[ˈhɛ(ː)sʰa̠ŋdo̞]	[ˈhɛ(ː)sʰa̠ŋdo̞]	分辨率 (科技)	
-row	pron	쿠키	[kʰucçi]	[kʰucçi]	Cookie (科技)	
+row	pron	쿠키	[kʰucçi]	[kʰucçi]	曲奇；Cookie (명사)	
 row	pron	개인정보	kechinkotpu	kechinkotpu	隐私 (科技)	
 row	pron	사이버보안	ngachipopuchan	ngachipopuchan	网路安全 (科技)	
 row	pron	해킹	[hɛcçiŋ]	[hɛcçiŋ]	骇客攻击 (科技)	
@@ -2319,7 +2319,7 @@ row	pron	패션쇼	[pʰɛɕʰʌ̹nɕʰo]	[pʰɛɕʰʌ̹nɕʰo]	时装秀 (时尚
 row	pron	유니섹스	chwningeknge	chwningeknge	中性 (时尚穿搭)	
 row	pron	커플룩	hoemrik	hoemrik	匹配时装 (时尚穿搭)	
 row	pron	명품	myoting	myoting	奢侈品 (时尚与风格)	
-row	pron	슬링백	ngemritpek	ngemritpek	Slingback (时尚与风格)	
+row	pron	슬링백	ngemritpek	ngemritpek	后跟系带凉鞋；Slingback (명사)	
 row	pron	컬러블록	homropemruk	homropemruk	颜色区块 (时尚穿搭)	
 row	pron	오염	[ˈo̞(ː)jʌ̹m]	[ˈo̞(ː)jʌ̹m]	污染 (环境)	
 row	pron	가뭄	[ka̠mum]	[ka̠mum]	干旱 (环境)	
@@ -2327,7 +2327,7 @@ row	pron	홍수	[ɸʷo̞ŋsʰu]	[ɸʷo̞ŋsʰu]	洪水 (环境)
 row	pron	산불	[sʰa̠np͈uɭ]	[sʰa̠np͈uɭ]	野火 (环境)	
 row	pron	퇴비화	wipiw	wipiw	堆肥 (环境)	
 row	pron	야생동물	[ˈja̠(ː)sʰɛŋ to̞(ː)ŋmuɭ]	[ˈja̠(ː)sʰɛŋ to̞(ː)ŋmuɭ]	野生动物 (环境)	
-row	pron	광합성	[kwa̠ŋɦa̠ps͈ʌ̹ŋ]	[kwa̠ŋɦa̠ps͈ʌ̹ŋ]	光合作用(Photosynthesis) (环境)	
+row	pron	광합성	[kwa̠ŋɦa̠ps͈ʌ̹ŋ]	[kwa̠ŋɦa̠ps͈ʌ̹ŋ]	光合作用 (명사)	
 row	pron	댐	[tɛm]	[tɛm]	大坝 (环境)	
 row	pron	스모그	[sʰɯmo̞ɡɯ]	[sʰɯmo̞ɡɯ]	烟雾 (环境)	
 row	pron	세종대왕	ngekuttechwt	ngekuttechwt	世宗大帝 (韩国历史)	
@@ -2547,17 +2547,17 @@ row	pron	페이팔	echiam	echiam	贝宝（PayPal） (金融银行)
 row	pron	무함마드	[muɦa̠mma̠dɯ]	[muɦa̠mma̠dɯ]	穆罕默德 (宗教)	
 row	pron	공자	[ko̞ŋd͡ʑa̠]	[ko̞ŋd͡ʑa̠]	孔子 (宗教)	
 row	pron	거룩한	korikan	korikan	神圣 (宗教)	
-row	pron	죄	[t͡ɕwe̞(ː)]	[t͡ɕwe̞(ː)]	罪 (joe) (宗教)	
-row	pron	구원	[ˈku(ː)wʌ̹n]	[ˈku(ː)wʌ̹n]	救赎 (guseok) (宗教)	
-row	pron	은혜	[ɯnʝe̞]	[ɯnʝe̞]	恩典 (eunhye) (宗教)	
-row	pron	회개	[ˈɸwe̞(ː)ɡɛ]	[ˈɸwe̞(ː)ɡɛ]	悔改 (hoekai) (宗教)	
-row	pron	부활	[ˈpu(ː)βwa̠ɭ]	[ˈpu(ː)βwa̠ɭ]	复活 (hubok) (宗教)	
+row	pron	죄	[t͡ɕwe̞(ː)]	[t͡ɕwe̞(ː)]	罪过；罪 (명사)	
+row	pron	구원	[ˈku(ː)wʌ̹n]	[ˈku(ː)wʌ̹n]	救赎；拯救 (명사)	
+row	pron	은혜	[ɯnʝe̞]	[ɯnʝe̞]	恩典；恩惠 (명사)	
+row	pron	회개	[ˈɸwe̞(ː)ɡɛ]	[ˈɸwe̞(ː)ɡɛ]	悔改；忏悔 (명사)	
+row	pron	부활	[ˈpu(ː)βwa̠ɭ]	[ˈpu(ː)βwa̠ɭ]	复活；再生 (명사)	
 row	pron	이유	[ˈi(ː)ju]	[ˈi(ː)ju]	断奶 (育儿与家庭生活)	
 row	pron	훈육	inchwk	inchwk	管教 (育儿与家庭生活)	
 row	pron	오페어	chuecho	chuecho	互惠生 (育儿与家庭生活)	
 row	pron	한부모	anpimu	anpimu	单亲家长 (育儿与家庭生活)	
 row	pron	입양	[ibja̠ŋ]	[ibja̠ŋ]	韩国的收养 (育儿与家庭生活)	
-row	pron	돌	[to̞(ː)ɭ]	[to̞(ː)ɭ]	周岁宴 (Dol) (亲子与家庭生活)	
+row	pron	돌	[to̞(ː)ɭ]	[to̞(ː)ɭ]	周岁；周岁宴 (명사)	
 row	pron	성인식	ngotchinngik	ngotchinngik	成年礼 (亲子与家庭生活)	
 row	pron	재산세	kengannge	kengannge	财产税 (金融与银行)	
 row	pron	신용점수	nginchytkongngi	nginchytkongngi	信用评分 (金融与银行)	
@@ -2568,7 +2568,7 @@ row	pron	기와	[kiwa̠]	[kiwa̠]	屋瓦 (建筑)
 row	pron	기둥	[kiduŋ]	[kiduŋ]	柱子 (建筑)	
 row	pron	보	[po̞]	[po̞]	梁 (建筑)	
 row	pron	복원	[po̞ɡwʌ̹n]	[po̞ɡwʌ̹n]	修复 (建筑)	
-row	pron	등대	[tɯŋdɛ]	[tɯŋdɛ]	【11】蓝方基地 (建筑)	
+row	pron	등대	[tɯŋdɛ]	[tɯŋdɛ]	灯塔 (명사)	
 row	pron	탑	[tʰa̠p̚]	[tʰa̠p̚]	塔 (建筑)	
 row	pron	조경	[t͡ɕo̞ɡjʌ̹ŋ]	[t͡ɕo̞ɡjʌ̹ŋ]	景观结构 (建筑)	
 row	pron	간판	[ka̠npʰa̠n]	[ka̠npʰa̠n]	标牌 (建筑)	
@@ -2604,7 +2604,7 @@ row	pron	천문대	[t͡ɕʰʌ̹nmundɛ]	[t͡ɕʰʌ̹nmundɛ]	天文台 (科学�
 row	pron	자존감	[t͡ɕa̠d͡ʑo̞nɡa̠m]	[t͡ɕa̠d͡ʑo̞nɡa̠m]	自尊 (育儿与家庭生活)	
 row	pron	책임감	[t͡ɕʰɛɡimɡa̠m]	[t͡ɕʰɛɡimɡa̠m]	责任感 (育儿与家庭生活)	
 row	pron	연구팀	chyonkiing	chyonkiing	研究团队 (科学与研究)	
-row	pron	오피스텔	[o̞pʰisʰɯtʰe̞ɭ]	[o̞pʰisʰɯtʰe̞ɭ]	Officetel (建筑)	
+row	pron	오피스텔	[o̞pʰisʰɯtʰe̞ɭ]	[o̞pʰisʰɯtʰe̞ɭ]	商住两用楼；单身公寓 (명사)	
 row	pron	콘서트홀	hunngoeum	hunngoeum	音乐厅 (建筑)	
 row	pron	정기예금	kotkichyekeng	kotkichyekeng	定期存款 (金融与银行)	
 row	pron	송금	[sʰo̞ŋɡɯm]	[sʰo̞ŋɡɯm]	汇款 (金融与银行)	
@@ -2635,8 +2635,8 @@ row	pron	풍자	[pʰuŋd͡ʑa̠]	[pʰuŋd͡ʑa̠]	讽刺 (媒体与新闻学)
 row	pron	여론조사	chyorunkunga	chyorunkunga	观点投票 (媒体与新闻学)	
 row	pron	취재석	pekengok	pekengok	采访席 (媒体与新闻业)	
 row	pron	대변인	[ˈtɛ(ː)bjʌ̹nin]	[ˈtɛ(ː)bjʌ̹nin]	发言人 (媒体与新闻业)	
-row	pron	삼계탕	[sʰa̠mɡje̞tʰa̠ŋ]	[sʰa̠mɡje̞tʰa̠ŋ]	参鸡汤(Samgyetang) (韩式饮食)	
-row	pron	부침개	[put͡ɕʰimɡɛ]	[put͡ɕʰimɡɛ]	韩式煎饼(Buchimgae) (韩式饮食)	
+row	pron	삼계탕	[sʰa̠mɡje̞tʰa̠ŋ]	[sʰa̠mɡje̞tʰa̠ŋ]	参鸡汤 (명사)	
+row	pron	부침개	[put͡ɕʰimɡɛ]	[put͡ɕʰimɡɛ]	韩式煎饼 (명사)	
 row	pron	쌈장	[s͈a̠md͡ʑa̠ŋ]	[s͈a̠md͡ʑa̠ŋ]	包饭酱 (韩国美食与餐饮)	
 row	pron	호박죽	[ˈɸʷo̞(ː)ba̠k̚t͡ɕ͈uk̚]	[ˈɸʷo̞(ː)ba̠k̚t͡ɕ͈uk̚]	南瓜粥 (韩国美食与餐饮)	
 row	pron	안주	[a̠ɲd͡ʑu]	[a̠ɲd͡ʑu]	下酒菜 (韩国美食与餐饮)	
@@ -2646,30 +2646,30 @@ row	pron	누룽지	[nuɾuŋd͡ʑi]	[nuɾuŋd͡ʑi]	锅巴 (韩国美食与餐饮
 row	pron	동치미	[to̞ŋt͡ɕʰimi]	[to̞ŋt͡ɕʰimi]	萝卜水泡菜 (韩国美食与餐饮)	
 row	pron	오이소박이	chuchingupakchi	chuchingupakchi	黄瓜泡菜 (韩国美食与餐饮)	
 row	pron	빈대떡	[pindɛt͈ʌ̹k̚]	[pindɛt͈ʌ̹k̚]	绿豆煎饼 (韩国美食与餐饮)	
-row	pron	돌솥비빔밥	tumngupipingpang	tumngupipingpang	石锅拌饭 (Dolsot Bibimbap) (韩国饮食)	
-row	pron	닭볶음탕	[ta̠k̚p͈o̞k͈ɯmtʰa̠ŋ]	[ta̠k̚p͈o̞k͈ɯmtʰa̠ŋ]	辣炖鸡 (Dak Bokkeum Tang) (韩国饮食)	
-row	pron	갈치조림	kampikuring	kampikuring	炖带鱼 (Galchi Jorim) (韩国饮食)	
-row	pron	막국수	makkikngi	makkikngi	荞麦面 (Makguksu) (韩国饮食)	
-row	pron	멸치볶음	myompipukcheng	myompipukcheng	炒小鱼干 (Myeolchi Bokkeum) (韩国饮食)	
-row	pron	순대국	ngintekik	ngintekik	米肠汤 (Sundaeguk) (韩国饮食)	
-row	pron	겉절이	[kʌ̹t̚t͡ɕ͈ʌ̹ɾi]	[kʌ̹t̚t͡ɕ͈ʌ̹ɾi]	鲜拌泡菜 (Geotjeori) (韩国饮食)	
-row	pron	조림	[t͡ɕo̞ɾim]	[t͡ɕo̞ɾim]	炖煮 (Jorim) (韩国饮食)	
-row	pron	무침	[mut͡ɕʰim]	[mut͡ɕʰim]	拌菜 (Muchim) (韩国饮食)	
-row	pron	깍두기	[k͈a̠k̚t͈uɡi]	[k͈a̠k̚t͈uɡi]	块状萝卜泡菜 (Kkakdugi) (韩国饮食)	
-row	pron	닭죽	talkik	talkik	鸡肉粥 (Dakjuk) (韩国饮食)	
-row	pron	간장구이	kankatkichi	kankatkichi	Ganjang Gui (韩国饮食文化)	
-row	pron	호박전	upakkon	upakkon	Hobak Jeon (韩国饮食文化)	
-row	pron	돼지국밥	twekikikpang	twekikikpang	Dwaeji Gukbap (韩国饮食文化)	
-row	pron	칼국수	[kʰa̠ɭɡuks͈u]	[kʰa̠ɭɡuks͈u]	Kalguksu (韩国饮食文化)	
-row	pron	부추전	pipikon	pipikon	Buchu Jeon (韩国饮食文化)	
+row	pron	돌솥비빔밥	tumngupipingpang	tumngupipingpang	石锅拌饭 (명사)	
+row	pron	닭볶음탕	[ta̠k̚p͈o̞k͈ɯmtʰa̠ŋ]	[ta̠k̚p͈o̞k͈ɯmtʰa̠ŋ]	辣炖鸡 (명사)	
+row	pron	갈치조림	kampikuring	kampikuring	炖带鱼 (명사)	
+row	pron	막국수	makkikngi	makkikngi	荞麦面 (명사)	
+row	pron	멸치볶음	myompipukcheng	myompipukcheng	炒小鱼干 (명사)	
+row	pron	순대국	ngintekik	ngintekik	米肠汤 (명사)	
+row	pron	겉절이	[kʌ̹t̚t͡ɕ͈ʌ̹ɾi]	[kʌ̹t̚t͡ɕ͈ʌ̹ɾi]	鲜拌泡菜 (명사)	
+row	pron	조림	[t͡ɕo̞ɾim]	[t͡ɕo̞ɾim]	酱油炖煮菜；炖菜 (명사)	
+row	pron	무침	[mut͡ɕʰim]	[mut͡ɕʰim]	凉拌菜 (명사)	
+row	pron	깍두기	[k͈a̠k̚t͈uɡi]	[k͈a̠k̚t͈uɡi]	辣萝卜块；萝卜泡菜 (명사)	
+row	pron	닭죽	talkik	talkik	鸡肉粥 (명사)	
+row	pron	간장구이	kankatkichi	kankatkichi	酱油烤肉/烤鱼；酱油烧烤 (명사)	
+row	pron	호박전	upakkon	upakkon	煎西葫芦饼；南瓜饼 (명사)	
+row	pron	돼지국밥	twekikikpang	twekikikpang	猪肉汤饭 (명사)	
+row	pron	칼국수	[kʰa̠ɭɡuks͈u]	[kʰa̠ɭɡuks͈u]	刀切面；刀削面 (명사)	
+row	pron	부추전	pipikon	pipikon	韭菜煎饼 (명사)	
 row	pron	회	[ɸwe̞]	[ɸwe̞]	锄头 (韩国饮食文化)	
-row	pron	순대볶음	ngintepukcheng	ngintepukcheng	Sundae Bokkeum (韩国饮食文化)	
+row	pron	순대볶음	ngintepukcheng	ngintepukcheng	炒米肠 (명사)	
 row	pron	메밀국수	memimkikngi	memimkikngi	荞麦面 (韩国饮食文化)	
-row	pron	닭도리탕	[ta̠k̚t͈o̞ɾitʰa̠ŋ]	[ta̠k̚t͈o̞ɾitʰa̠ŋ]	Dakdoritang (韩国饮食文化)	
-row	pron	육포	chwku	chwku	Yukpo (韩国饮食文化)	
-row	pron	도토리묵	[to̞tʰo̞ɾimuk̚]	[to̞tʰo̞ɾimuk̚]	Dotorimuk (韩国饮食文化)	
-row	pron	곰탕	[ko̞mtʰa̠ŋ]	[ko̞mtʰa̠ŋ]	Gomtang (韩国饮食文化)	
-row	pron	수육	ngichwk	ngichwk	Suyuk (韩国饮食文化)	
+row	pron	닭도리탕	[ta̠k̚t͈o̞ɾitʰa̠ŋ]	[ta̠k̚t͈o̞ɾitʰa̠ŋ]	辣子鸡汤；辣炒鸡块 (명사)	
+row	pron	육포	chwku	chwku	肉干；牛肉干 (명사)	
+row	pron	도토리묵	[to̞tʰo̞ɾimuk̚]	[to̞tʰo̞ɾimuk̚]	橡子冻；橡子凉粉 (명사)	
+row	pron	곰탕	[ko̞mtʰa̠ŋ]	[ko̞mtʰa̠ŋ]	牛骨汤；牛肉浓汤 (명사)	
+row	pron	수육	ngichwk	ngichwk	白切肉；熟肉 (명사)	
 row	pron	액젓	chekkot	chekkot	鳀鱼酱 (韩国饮食文化)	
 row	pron	포장마차	[pʰo̞d͡ʑa̠ŋma̠t͡ɕʰa̠]	[pʰo̞d͡ʑa̠ŋma̠t͡ɕʰa̠]	路边摊 (韩国饮食文化)	
 row	pron	장아찌	[t͡ɕa̠ŋa̠t͡ɕ͈i]	[t͡ɕa̠ŋa̠t͡ɕ͈i]	酱渍菜 (韩国饮食文化)	
@@ -2752,7 +2752,7 @@ row	pron	달콤씁쓸하다	tamhungcengcemata	tamhungcengcemata	痛快乐 (情�
 row	pron	아련하다	[a̠ɾjʌ̹nɦa̠da̠]	[a̠ɾjʌ̹nɦa̠da̠]	渴望的 (情感)	
 row	pron	갈망하다	[ka̠ɭma̠ŋɦa̠da̠]	[ka̠ɭma̠ŋɦa̠da̠]	渴望 (动词)	
 row	pron	증오하다	ketchuata	ketchuata	憎恨 (情绪)	
-row	pron	사생팬	[sʰa̠sʰɛŋpʰɛn]	[sʰa̠sʰɛŋpʰɛn]	Sasaeng (文化)	
+row	pron	사생팬	[sʰa̠sʰɛŋpʰɛn]	[sʰa̠sʰɛŋpʰɛn]	私生饭 (명사)	
 row	pron	성형수술	ngotyotngingim	ngotyotngingim	整形手术 (文化)	
 row	pron	재벌	[t͡ɕɛbʌ̹ɭ]	[t͡ɕɛbʌ̹ɭ]	财阀 (文化)	
 row	pron	무감각한	mikangkakan	mikangkakan	麻木 (情绪)	
@@ -2824,9 +2824,9 @@ row	pron	발효하다	pamyata	pamyata	发酵 (烹饪)
 row	pron	염장하다	chyongkatata	chyongkatata	治愈 (烹饪)	
 row	pron	훈제하다	inkeata	inkeata	烟 (烹饪)	
 row	pron	수익률	ngichikrwm	ngichikrwm	利润率 (商业)	
-row	pron	공급망	kutkengmat	kutkengmat	Supply Chain (商业)	
+row	pron	공급망	kutkengmat	kutkengmat	供应链 (명사)	
 row	pron	김장	[kimd͡ʑa̠ŋ]	[kimd͡ʑa̠ŋ]	泡菜制作 (烹饪)	
-row	pron	탕진잼	atkinkeng	atkinkeng	Tangjinjam (俚语)	
+row	pron	탕진잼	atkinkeng	atkinkeng	挥霍消费的乐趣；小放纵的快乐 (명사)	
 row	pron	극성스럽다	kekngotngerongta	kekngotngerongta	没有寒意/强烈 (俚语)	
 row	pron	존나	kunna	kunna	真真 (俚语)	
 row	pron	벼락거지	pyorakkoki	pyorakkoki	瞬间赤贫 (俚语)	
@@ -2839,7 +2839,7 @@ row	pron	열정페이	chyomkotechi	chyomkotechi	热情薪资 (俚语)
 row	pron	트라이애슬론	erachichengemrun	erachichengemrun	铁人三项 (运动)	
 row	pron	장대높이뛰기	[t͡ɕa̠ŋdɛno̞pʰit͈ɥiɡi]	[t͡ɕa̠ŋdɛno̞pʰit͈ɥiɡi]	撑竿跳高 (运动)	
 row	pron	해머던지기	[hɛmʌ̹dʌ̹ɲd͡ʑiɡi]	[hɛmʌ̹dʌ̹ɲd͡ʑiɡi]	链球 (运动)	
-row	pron	크로스핏	herungeit	herungeit	Crossfit (运动)	
+row	pron	크로스핏	herungeit	herungeit	混合健身；Crossfit (명사)	
 row	pron	블록체인	pemrukpechin	pemrukpechin	区块链 (科技)	
 row	pron	암호화폐	[ˈa̠(ː)mβo̞βwa̠pʰje̞]	[ˈa̠(ː)mβo̞βwa̠pʰje̞]	加密货币 (科技)	
 row	pron	메타버스	[me̞tʰa̠bʌ̹sʰɯ]	[me̞tʰa̠bʌ̹sʰɯ]	元宇宙 (科技)	
@@ -2851,13 +2851,13 @@ row	pron	재생에너지기술	kengetchenokikingim	kengetchenokikingim	再生能
 row	pron	퇴직금	[ˈtʰwe̞(ː)d͡ʑik̚k͈ɯm]	[ˈtʰwe̞(ː)d͡ʑik̚k͈ɯm]	资遣费 (商业)	
 row	pron	침술	[t͡ɕʰimsʰuɭ]	[t͡ɕʰimsʰuɭ]	针灸 (健康与医疗)	
 row	pron	한의학	anchyak	anchyak	韩医学 (健康与医疗)	
-row	pron	자기공명영상	kakikutmyotchyotngat	kakikutmyotchyotngat	MRI (健康与医疗)	
+row	pron	자기공명영상	kakikutmyotchyotngat	kakikutmyotchyotngat	磁共振成像；MRI (명사)	
 row	pron	근시	[ˈkɯ(ː)nɕʰi]	[ˈkɯ(ː)nɕʰi]	近视 (健康医疗)	
 row	pron	산부인과	[sʰa̠nbuink͈wa̠]	[sʰa̠nbuink͈wa̠]	产科/妇产科 (健康医疗)	
 row	pron	심장내과	ngingkatnekw	ngingkatnekw	心脏病科 (健康医疗)	
 row	pron	정형외과	kotyotchwikw	kotyotchwikw	骨科 (健康医疗)	
 row	pron	신경과	nginkyotkw	nginkyotkw	神经内科 (健康医疗)	
-row	pron	체질량지수	pekimryatkingi	pekimryatkingi	Prowess BMI计算器 (健康医疗)	
+row	pron	체질량지수	pekimryatkingi	pekimryatkingi	身体质量指数；BMI (명사)	
 row	pron	암	[a̠(ː)m]	[a̠(ː)m]	癌症 (健康医疗)	
 row	pron	본인부담금	punchinpitangkeng	punchinpitangkeng	定额手续费 (健康医疗)	
 row	pron	뇌졸중	[nwe̞d͡ʑo̞ʎt͡ɕ͈uŋ]	[nwe̞d͡ʑo̞ʎt͡ɕ͈uŋ]	中风 (健康与医疗)	
@@ -2881,12 +2881,12 @@ row	pron	환갑	[ˈɸwa̠(ː)nɡa̠p̚]	[ˈɸwa̠(ː)nɡa̠p̚]	花甲（六十�
 row	pron	기제도	kiketu	kiketu	希赫多 (节日庆典)	
 row	pron	씨름	[ɕ͈iɾɯm]	[ɕ͈iɾɯm]	韩式摔跤 (节日庆典)	
 row	pron	널뛰기	[ˈnɘ(ː)ɭt͈ɥiɡi]	[ˈnɘ(ː)ɭt͈ɥiɡi]	跳板（韩国传统游戏） (节日庆典)	
-row	pron	제상	kengat	kengat	Jesa桌子 (节日庆典)	
+row	pron	제상	kengat	kengat	祭桌；祭祀桌 (명사)	
 row	pron	풍물	itmim	itmim	农乐（韩国传统打击乐） (节日庆典)	
 row	pron	부의금	pichykeng	pichykeng	哀悼金 (节日庆典)	
-row	pron	폐백	[ˈpʰje̞(ː)bɛk̚]	[ˈpʰje̞(ː)bɛk̚]	Pyebaek (传统婚礼仪式) (节日与庆典)	
+row	pron	폐백	[ˈpʰje̞(ː)bɛk̚]	[ˈpʰje̞(ː)bɛk̚]	币帛；韩国传统婚礼仪式 (명사)	
 row	pron	장례식	[ˈt͡ɕa̠(ː)ŋɲe̞ɕʰik̚]	[ˈt͡ɕa̠(ː)ŋɲe̞ɕʰik̚]	葬礼 (节日与庆典)	
-row	pron	유두	[judu]	[judu]	Yudu（夏日沐浴节） (节日与庆典)	
+row	pron	유두	[judu]	[judu]	流头节；夏日沐浴节 (명사)	
 row	pron	제물	[t͡ɕe̞muɭ]	[t͡ɕe̞muɭ]	祭祀食物 (节日与庆典)	
 row	pron	한가위	[ha̠nɡa̠ɥi]	[ha̠nɡa̠ɥi]	丰收之月 (节日与庆典)	
 row	pron	회전교차로	[ɸwe̞d͡ʑʌ̹nɡjot͡ɕʰa̠ɾo̞]	[ɸwe̞d͡ʑʌ̹nɡjot͡ɕʰa̠ɾo̞]	环形交叉路口 (交通)	
@@ -2902,7 +2902,7 @@ row	pron	세라마이드	ngeramachite	ngeramachite	神经醯胺 (美容与护肤
 row	pron	펩타이드	[pʰe̞p̚tʰa̠idɯ]	[pʰe̞p̚tʰa̠idɯ]	胜肽 (美容与护肤)	
 row	pron	로즈힙	rukeing	rukeing	玫瑰果 (美容与护肤)	
 row	pron	언더톤	chontoun	chontoun	肤色底调 (美容与护肤)	
-row	pron	바둑	[pa̠duk̚]	[pa̠duk̚]	围棋 (Baduk) (嗜好与休闲)	
+row	pron	바둑	[pa̠duk̚]	[pa̠duk̚]	围棋 (명사)	
 row	pron	천문학	[t͡ɕʰʌ̹nmunɦa̠k̚]	[t͡ɕʰʌ̹nmunɦa̠k̚]	天文学 (嗜好与休闲)	
 row	pron	승마	[sʰɯŋma̠]	[sʰɯŋma̠]	骑马 (嗜好与休闲)	
 row	pron	새옹지마	[sʰɛo̞ŋd͡ʑima̠]	[sʰɛo̞ŋd͡ʑima̠]	塞翁失马，焉知非福 (成语与谚语)	
@@ -3090,13 +3090,13 @@ row	pron	육회	[jukʰwe̞]	[jukʰwe̞]	生拌牛肉 (韩国美食与餐饮)
 row	pron	구절판	[kud͡ʑʌ̹ɭpʰa̠n]	[kud͡ʑʌ̹ɭpʰa̠n]	九节板 (韩国美食与餐饮)	
 row	pron	한정식	[ˈha̠(ː)ɲd͡ʑʌ̹ŋɕʰik̚]	[ˈha̠(ː)ɲd͡ʑʌ̹ŋɕʰik̚]	韩定食 (韩国美食与餐饮)	
 row	pron	약식	[ja̠kɕ͈ik̚]	[ja̠kɕ͈ik̚]	药饭 (韩国美食与餐饮)	
-row	pron	떡갈비	tokkampi	tokkampi	年糕排 (Tteok Galbi) (韩国饮食)	
-row	pron	새우젓	[sʰɛud͡ʑʌ̹t̚]	[sʰɛud͡ʑʌ̹t̚]	虾酱 (Saeujeot) (韩国饮食)	
-row	pron	적	[t͡ɕʌ̹k̚]	[t͡ɕʌ̹k̚]	Jeok (韩国饮食文化)	
-row	pron	멍게	[mʌ̹ŋɡe̞]	[mʌ̹ŋɡe̞]	Sea Squirt (韩国饮食文化)	
-row	pron	낙지볶음	nakkipukcheng	nakkipukcheng	Nakji Bokkeum (韩国饮食文化)	
-row	pron	어만두	chomanti	chomanti	Fish Mandu (韩国饮食文化)	
-row	pron	토란국	urankik	urankik	Toranguk (韩国饮食文化)	
+row	pron	떡갈비	tokkampi	tokkampi	烤排骨肉饼；年糕排骨 (명사)	
+row	pron	새우젓	[sʰɛud͡ʑʌ̹t̚]	[sʰɛud͡ʑʌ̹t̚]	虾酱 (명사)	
+row	pron	적	[t͡ɕʌ̹k̚]	[t͡ɕʌ̹k̚]	炙烤肉串；串烧 (명사)	
+row	pron	멍게	[mʌ̹ŋɡe̞]	[mʌ̹ŋɡe̞]	海鞘；海菠萝 (명사)	
+row	pron	낙지볶음	nakkipukcheng	nakkipukcheng	辣炒章鱼 (명사)	
+row	pron	어만두	chomanti	chomanti	鱼肉饺子 (명사)	
+row	pron	토란국	urankik	urankik	芋头汤 (명사)	
 row	pron	편육	[pʰjʌ̹ɲuk̚]	[pʰjʌ̹ɲuk̚]	肉片 (韩国饮食文化)	
 row	pron	꼬리곰탕	kurikungat	kurikungat	牛尾汤 (韩国饮食文化)	
 row	pron	더덕구이	totokkichi	totokkichi	烤山药根 (韩国饮食文化)	
@@ -3114,7 +3114,7 @@ row	pron	바이오피드백	pachichuitepek	pachichuitepek	生物回馈 (心理�
 row	pron	취약성	[ˈt͡ɕʰɥi(ː)ja̠ks͈ʌ̹ŋ]	[ˈt͡ɕʰɥi(ː)ja̠ks͈ʌ̹ŋ]	脆弱性 (心理健康与养生)	
 row	pron	세계관	[ˈsʰe̞(ː)ɡje̞ɡwa̠n]	[ˈsʰe̞(ː)ɡje̞ɡwa̠n]	世界观 (韩国流行文化)	
 row	pron	재계약	kekyechyak	kekyechyak	续约/合约 (韩国流行文化)	
-row	pron	하이브	achipe	achipe	HYBE (韩国流行文化)	
+row	pron	하이브	achipe	achipe	HYBE (韩国娱乐经纪企划社) (명사)	
 row	pron	세대	[ˈsʰe̞(ː)dɛ]	[ˈsʰe̞(ː)dɛ]	世代 (韩国流行文化)	
 row	pron	동물권	tutmimken	tutmimken	动物权利 (宠物护理与动物)	
 row	pron	올킬	chumhim	chumhim	一网打尽 (韩国流行文化)	
@@ -3133,7 +3133,7 @@ row	pron	건강 문화	Geongang munhwa	Geongang munhwa	健康养生文化 (文�
 row	pron	음주 문화	Eumju munhwa	Eumju munhwa	饮酒文化 (文化·生活)	
 row	pron	생일 파티	Saengil pati	Saengil pati	生日派对 (进阶词汇)	
 row	pron	음악 수업	Eumak Sueop	Eumak Sueop	音乐课 (名词)	
-row	pron	스터디 그룹	Seuteodi Geurup	Seuteodi Geurup	Study Group (进阶词汇)	
+row	pron	스터디 그룹	Seuteodi Geurup	Seuteodi Geurup	学习小组；研讨小组 (명사)	
 row	pron	진로 상담사	Jinro Sangdamsa	Jinro Sangdamsa	职涯咨询师 (进阶词汇)	
 row	pron	취업 면접	Chwieop Myeonjeop	Chwieop Myeonjeop	求职面试 (进阶词汇)	
 row	pron	온라인 학습	Onrain Hakseup	Onrain Hakseup	线上学习 (进阶词汇)	
@@ -3150,7 +3150,7 @@ row	pron	에너지가 넘치다	Eneojiga neomchida	Eneojiga neomchida	精力充�
 row	pron	자신감 있다	Jasigam itda	Jasigam itda	自信 (进阶词汇)	
 row	pron	영감을 받다	Yeonggameul batda	Yeonggameul batda	受启发 (进阶词汇)	
 row	pron	의욕이 넘치다	Uiyogi neomchida	Uiyogi neomchida	有动力 (进阶词汇)	
-row	pron	경외감을 느끼다	Gyeongoeagameul neukkida	Gyeongoeagameul neukkida	Awestruck (进阶词汇)	
+row	pron	경외감을 느끼다	Gyeongoeagameul neukkida	Gyeongoeagameul neukkida	感到敬畏；肃然起敬 (동사)	
 row	pron	회복력이 있다	Hoebongnyeogi itda	Hoebongnyeogi itda	适应性强 (进阶词汇)	
 row	pron	계산해 주세요	Gyesan hae juseyo	Gyesan hae juseyo	请结账 (表达)	
 row	pron	만나서 반갑습니다	Mannaseo bangapseumnida	Mannaseo bangapseumnida	很高兴认识你 (进阶词汇)	
@@ -3162,7 +3162,7 @@ row	pron	좋은 하루 보내세요	Joeun haru bonaeseyo	Joeun haru bonaeseyo	�
 row	pron	생일 축하해요	Saengil chukahaeyo	Saengil chukahaeyo	生日快乐 (进阶词汇)	
 row	pron	새해 복 많이 받으세요	Saehae bok mani badeuseyo	Saehae bok mani badeuseyo	新年快乐！ (进阶词汇)	
 row	pron	빨리 나으세요	Ppalli naeuseyo	Ppalli naeuseyo	早日康复！ (进阶词汇)	
-row	pron	어떻게 지냈어요	Eotteoke jinaesseoyo	Eotteoke jinaesseoyo	How have you been?（你近来怎样？） (进阶词汇)	
+row	pron	어떻게 지냈어요	Eotteoke jinaesseoyo	Eotteoke jinaesseoyo	最近过得怎么样？ (구)	
 row	pron	보고 싶었어요	Bogo sipeoesseoyo	Bogo sipeoesseoyo	我想你。。。。 (进阶词汇)	
 row	pron	나중에 봐요	Najunge bwayo	Najunge bwayo	回头见 (进阶词汇)	
 row	pron	내일 봐요	Naeil bwayo	Naeil bwayo	明天见 (进阶词汇)	
@@ -3245,7 +3245,7 @@ row	pron	먹방 문화	Meokbang munhwa	Meokbang munhwa	吃播文化 (文化·生
 row	pron	드라마 클리셰	Deurama keullise	Deurama keullise	韩剧陈腔滥调 (进阶词汇)	
 row	pron	한국 나이	Hanguk nai	Hanguk nai	韩国年龄计算 (进阶词汇)	
 row	pron	도시락 문화	Dosirak munhwa	Dosirak munhwa	学校午餐盒文化 (文化·生活)	
-row	pron	한류 관광	Hallyu gwangwang	Hallyu gwangwang	K-tourism (进阶词汇)	
+row	pron	한류 관광	Hallyu gwangwang	Hallyu gwangwang	韩流观光；韩流旅游 (명사)	
 row	pron	재활용 쓰레기통	jaehwalyong sseuregitoong	jaehwalyong sseuregitoong	分类回收桶 (进阶词汇)	
 row	pron	시원한 기분	Siwonhan Gibun	Siwonhan Gibun	清爽的感觉 (进阶词汇)	
 row	pron	좋은 여행 되세요	Joeun Yeohaeng Doeseyo	Joeun Yeohaeng Doeseyo	祝您旅途愉快 (进阶词汇)	
@@ -3281,7 +3281,7 @@ row	pron	상품 설명	sang-pum seol-myeong	sang-pum seol-myeong	商品详情 (�
 row	pron	고객 서비스	go-gaek seo-bi-seu	go-gaek seo-bi-seu	客户服务 (进阶词汇)	
 row	pron	윈도우 쇼핑	win-do-u syo-ping	win-do-u syo-ping	橱窗购物 (进阶词汇)	
 row	pron	충동 구매	chung-dong gu-mae	chung-dong gu-mae	冲动购买 (进阶词汇)	
-row	pron	예산 쇼핑	ye-san syo-ping	ye-san syo-ping	Budget Shopping (进阶词汇)	
+row	pron	예산 쇼핑	ye-san syo-ping	ye-san syo-ping	经济实惠购物；预算内购物 (명사)	
 row	pron	사전 주문	sa-jeon ju-mun	sa-jeon ju-mun	预订单 (进阶词汇)	
 row	pron	최고 평점	choe-go pyeong-jeom	choe-go pyeong-jeom	评价最高 (进阶词汇)	
 row	pron	비교 쇼핑	bi-gyo syo-ping	bi-gyo syo-ping	比价购物 (进阶词汇)	
@@ -3420,12 +3420,12 @@ row	pron	잔뜩 흐린	Janddeuk Heurin	Janddeuk Heurin	阴天 (进阶词汇)
 row	pron	체감 더위	Chegam Deowi	Chegam Deowi	体感炎热；体感温度 (名词)	
 row	pron	한랭 전선	Hallaeng Jeonseon	Hallaeng Jeonseon	冷锋面 (进阶词汇)	
 row	pron	주인공 보정	Juingong Bojeong	Juingong Bojeong	嘴遁 (进阶词汇)	
-row	pron	열린 결말	Yeollin Gyeolmal	Yeollin Gyeolmal	Cliffhanger Ending (进阶词汇)	
+row	pron	열린 결말	Yeollin Gyeolmal	Yeollin Gyeolmal	开放式结局 (명사)	
 row	pron	계약 결혼	Gyeyak Gyeolhon	Gyeyak Gyeolhon	婚姻合同 (进阶词汇)	
 row	pron	학교 급식	hakgyo geubsik	hakgyo geubsik	学校午餐 (进阶词汇)	
 row	pron	급식 트레이	geubsik teurai	geubsik teurai	午餐托盘 (进阶词汇)	
 row	pron	젓가락 예절	jeotgarag yejeol	jeotgarag yejeol	筷子礼仪 (进阶词汇)	
-row	pron	아침 조회	achim johoe	achim johoe	Morning Homeroom (进阶词汇)	
+row	pron	아침 조회	achim johoe	achim johoe	早会；晨会 (명사)	
 row	pron	학교 종	hakgyo jong	hakgyo jong	上课铃 (进阶词汇)	
 row	pron	학교 사물함	hakgyo samulham	hakgyo samulham	学校储物柜 (进阶词汇)	
 row	pron	수영 수업	suyeong sueop	suyeong sueop	游泳班 (进阶词汇)	
@@ -3443,7 +3443,7 @@ row	pron	지각 증명서	jigak jeungmyeongseo	jigak jeungmyeongseo	延迟到达
 row	pron	학부모 회의	hakbumeo hoeuyi	hakbumeo hoeuyi	家长会 (进阶词汇)	
 row	pron	선생님 선물	seonsaengnim seonmul	seonsaengnim seonmul	教师礼物 (进阶词汇)	
 row	pron	졸업 사진	jorop sajin	jorop sajin	毕业照 (进阶词汇)	
-row	pron	고등학교 동창회	godeunghakgyo dongchanghoe	godeunghakgyo dongchanghoe	高中同学团聚么?。 (进阶词汇)	
+row	pron	고등학교 동창회	godeunghakgyo dongchanghoe	godeunghakgyo dongchanghoe	高中同学聚会；高中校友会 (명사)	
 row	pron	교환 학생	gyohwan haksaeng	gyohwan haksaeng	交换学生 (名词)	
 row	pron	해외 유학	haewoe yuhak	haewoe yuhak	境外留学 (进阶词汇)	
 row	pron	학교 주변	hakgyo jubyeon	hakgyo jubyeon	学校街区 (进阶词汇)	
@@ -3472,8 +3472,8 @@ row	pron	소셜 미디어 마케팅	sosyeol midia maketing	sosyeol midia maketin
 row	pron	검색 엔진 최적화	gemsaek enjin choejeokwha	gemsaek enjin choejeokwha	搜寻引擎优化 (进阶词汇)	
 row	pron	목표 고객	mokpyo gogaek	mokpyo gogaek	目标受众 (进阶词汇)	
 row	pron	시장 점유율	sijang jeomyuryul	sijang jeomyuryul	市场占有率 (进阶词汇)	
-row	pron	핵심 성과 지표	haeksim seongwa jipyo	haeksim seongwa jipyo	KPI (进阶词汇)	
-row	pron	목표와 핵심 결과	mokpyowa haeksim gyeolgwa	mokpyowa haeksim gyeolgwa	OKR (进阶词汇)	
+row	pron	핵심 성과 지표	haeksim seongwa jipyo	haeksim seongwa jipyo	关键绩效指标；KPI (명사)	
+row	pron	목표와 핵심 결과	mokpyowa haeksim gyeolgwa	mokpyowa haeksim gyeolgwa	目标与关键结果；OKR (명사)	
 row	pron	분기 보고서	bungi bogoseo	bungi bogoseo	季度报告 (进阶词汇)	
 row	pron	연간 보고서	yeongan bogoseo	yeongan bogoseo	年度报告 (进阶词汇)	
 row	pron	이사회 회의	isahoe hoeuui	isahoe hoeuui	董事会会议 (进阶词汇)	
@@ -3489,14 +3489,14 @@ row	pron	저으면서 끓이다	jeoeumyeonseo kkeulida	jeoeumyeonseo kkeulida	�
 row	pron	강판에 갈다	gangpan-e galda	gangpan-e galda	磨碎 (进阶词汇)	
 row	pron	층을 이루다	cheung-eul iruda	cheung-eul iruda	涂层 (进阶词汇)	
 row	pron	물을 빼다	mul-eul bbaeda	mul-eul bbaeda	排水管 (进阶词汇)	
-row	pron	소금을 치다	sogeum-eul chida	sogeum-eul chida	Salt (进阶词汇)	
+row	pron	소금을 치다	sogeum-eul chida	sogeum-eul chida	撒盐；加盐调味 (동사)	
 row	pron	무게를 재다	mugae-reul jaeda	mugae-reul jaeda	称重 (进阶词汇)	
 row	pron	푸드 프로세서	pudeu peuroseseo	pudeu peuroseseo	食品加工机 (进阶词汇)	
 row	pron	절구와 공이	jeolgu wa gongi	jeolgu wa gongi	研钵和研杵 (进阶词汇)	
 row	pron	불의 세기	bul-ui segi	bul-ui segi	热度等级 (进阶词汇)	
-row	pron	익은 정도	igeun jeongdo	igeun jeongdo	Doneness (进阶词汇)	
+row	pron	익은 정도	igeun jeongdo	igeun jeongdo	熟度；成熟程度 (명사)	
 row	pron	덜 익은	deol igeun	deol igeun	稀有 (进阶词汇)	
-row	pron	육즙이 많은	yugjeupi maneun	yugjeupi maneun	Juicy (进阶词汇)	
+row	pron	육즙이 많은	yugjeupi maneun	yugjeupi maneun	多汁的；肉汁饱满的 (형용사)	
 row	pron	라이브 공연	Raibu Gongnyeon	Raibu Gongnyeon	现场演出 (进阶词汇)	
 row	pron	멜론 차트	Mellon Chateu	Mellon Chateu	Melon排行榜 (进阶词汇)	
 row	pron	가온 차트	Gaon Chateu	Gaon Chateu	Gaon排行榜 (进阶词汇)	
@@ -3642,7 +3642,7 @@ row	pron	스킨 토너	Seukin Toneo	Seukin Toneo	爽肤水 (进阶词汇)
 row	pron	수면 팩	Sumyeon Paek	Sumyeon Paek	睡眠包 (进阶词汇)	
 row	pron	피부 장벽	Pibu Jangbyeok	Pibu Jangbyeok	皮肤屏障 (进阶词汇)	
 row	pron	민낯 메이크업	Minnat Meikeuop	Minnat Meikeuop	没有化妆外观 (进阶词汇)	
-row	pron	물광 피부	Mulgwang Pibu	Mulgwang Pibu	Dewy Skin (进阶词汇)	
+row	pron	물광 피부	Mulgwang Pibu	Mulgwang Pibu	水光肌；水嫩透亮肌肤 (명사)	
 row	pron	셀프 케어 루틴	Selpeu Keo Rutin	Selpeu Keo Rutin	自我护理程序 (进阶词汇)	
 row	pron	사진 촬영	Sajin Chwarlyeong	Sajin Chwarlyeong	摄影 (进阶词汇)	
 row	pron	그림 그리기	Geurim Geurigi	Geurim Geurigi	绘画 (进阶词汇)	
@@ -3651,7 +3651,7 @@ row	pron	일기 쓰기	Ilgi Sseugi	Ilgi Sseugi	书写 (进阶词汇)
 row	pron	영화 보기	Yeonghwa Bogi	Yeonghwa Bogi	看电影 (进阶词汇)	
 row	pron	별 보기	Byeol Bogi	Byeol Bogi	一起看星星 (进阶词汇)	
 row	pron	모형 만들기	Mohyeong Mandeulgi	Mohyeong Mandeulgi	模型构建 (进阶词汇)	
-row	pron	웹툰 보기	Webtun Bogi	Webtun Bogi	Webtoon Reading (进阶词汇)	
+row	pron	웹툰 보기	Webtun Bogi	Webtun Bogi	看条漫；阅读网络漫画 (명사)	
 row	pron	악기 연주	Akgi Yeonju	Akgi Yeonju	琴艺 (进阶词汇)	
 row	pron	외국어 공부	Oegugeo Gongbu	Oegugeo Gongbu	语言学习 (进阶词汇)	
 row	pron	봉사 활동	Bongsa Hwaldong	Bongsa Hwaldong	志愿服务 (进阶词汇)	
@@ -3743,7 +3743,7 @@ row	pron	불에 기름을 붓다	Bure Gireumeul Butda	Bure Gireumeul Butda	火�
 row	pron	발을 빼다	Bareul Baeda	Bareul Baeda	临阵退缩 (进阶词汇)	
 row	pron	과욕은 금물	Gwayogeum Geummul	Gwayogeum Geummul	贪多不嚼 (进阶词汇)	
 row	pron	짖는 개는 물지 않는다	Jjitneun Gaeneun Mulji Anneunda	Jjitneun Gaeneun Mulji Anneunda	吠叫的狗很少咬人 (进阶词汇)	
-row	pron	아주 드물게	Aju Deumulge	Aju Deumulge	Once in a Blue Moon (进阶词汇)	
+row	pron	아주 드물게	Aju Deumulge	Aju Deumulge	极为罕见地；千载难逢地 (부사)	
 row	pron	비가 억수로 쏟아진다	Biga Eoksuro Ssodajinda	Biga Eoksuro Ssodajinda	下雨的猫和狗 (进阶词汇)	
 row	pron	몸이 좋지 않다	Momi Jochi Anta	Momi Jochi Anta	身体不舒服 (短语)	
 row	pron	주목을 독차지하다	Jumogeul Dokchajihada	Jumogeul Dokchajihada	窃取表演 (进阶词汇)	
@@ -3755,7 +3755,7 @@ row	pron	백방으로 노력하다	Baekbangero Noryeokhada	Baekbangero Noryeokha
 row	pron	책임을 떠넘기다	Chaegimeul Tteonumgida	Chaegimeul Tteonumgida	推卸责任 (进阶词汇)	
 row	pron	오늘은 여기서 끝내다	Oneuleun Yeogiseo Kkeunnada	Oneuleun Yeogiseo Kkeunnada	结束这一天 (进阶词汇)	
 row	pron	가능성이 낮다	Ganeungseonggi Natda	Ganeungseonggi Natda	可能性低；希望渺茫 (表达)	
-row	pron	일을 시작하다	Ireul Sijakhada	Ireul Sijakhada	Get the Ball Rolling (进阶词汇)	
+row	pron	일을 시작하다	Ireul Sijakhada	Ireul Sijakhada	着手工作；开始办事 (동사)	
 row	pron	실력을 키우다	Sillyeogeul Kiuda	Sillyeogeul Kiuda	提升表现。 (进阶词汇)	
 row	pron	창의적으로 생각하다	Changeui Jeogro Saenggakhada	Changeui Jeogro Saenggakhada	创造性地思考 (短语)	
 row	pron	기회를 놓치다	Gihoereul Notchida	Gihoereul Notchida	错过机会 (短语)	
@@ -3763,12 +3763,12 @@ row	pron	이를 악물다	Ireul Angmulda	Ireul Angmulda	咬紧牙关 (短语)
 row	pron	비장의 무기가 있다	Bijangui Mugiga Itda	Bijangui Mugiga Itda	有一张王牌在你的袖子里 (进阶词汇)	
 row	pron	현행범으로 잡히다	Hyeonhaengbeomro Japida	Hyeonhaengbeomro Japida	当场被捕 ,当场捕获,作案时被逮 (进阶词汇)	
 row	pron	모 아니면 도	Mo Animyeon Do	Mo Animyeon Do	全有或全无 (进阶词汇)	
-row	pron	중간에서 머뭇거리다	Jungganeso Meomutgeorida	Jungganeso Meomutgeorida	还在观望？ (进阶词汇)	
+row	pron	중간에서 머뭇거리다	Jungganeso Meomutgeorida	Jungganeso Meomutgeorida	犹豫观望；踌躇不前 (동사)	
 row	pron	성급하게 결론을 내리다	Seonggeupaghe Gyeolroneul Naerida	Seonggeupaghe Gyeolroneul Naerida	匆匆地作出结论 (进阶词汇)	
 row	pron	빙산의 일각	Bingsanui Ilgak	Bingsanui Ilgak	冰山一角 (进阶词汇)	
 row	pron	생각할 거리	Saenggakhal Geori	Saenggakhal Geori	想一想 (进阶词汇)	
 row	pron	원점으로 돌아가다	Wonjeomro Doragada	Wonjeomro Doragada	回到原点，从头再来 (进阶词汇)	
-row	pron	숨겨둔 패	Sumgyeodun Pae	Sumgyeodun Pae	Ace in the Hole (进阶词汇)	
+row	pron	숨겨둔 패	Sumgyeodun Pae	Sumgyeodun Pae	隐藏王牌；杀手锏 (명사)	
 row	pron	확정 짓다	Hwakjeong Jitda	Hwakjeong Jitda	把它钉下来 (进阶词汇)	
 row	pron	수정처럼 맑다	Sujeongcheoreom Makda	Sujeongcheoreom Makda	水晶透 (进阶词汇)	
 row	pron	계속 잘 해	Gyesok Jal Hae	Gyesok Jal Hae	继续保持目前的良好状态。 (进阶词汇)	
@@ -3776,7 +3776,7 @@ row	pron	가슴이 두근거리다	Gaseumi Dugeungeorida	Gaseumi Dugeungeorida	�
 row	pron	기본으로 돌아가다	Giboneuro Doragada	Giboneuro Doragada	回归基本。 (进阶词汇)	
 row	pron	시간 가는 줄 모르다	Sigan Ganeun Jul Moreuda	Sigan Ganeun Jul Moreuda	失去时间追踪 (进阶词汇)	
 row	pron	두 마리 토끼를 잡다	Du Mari Tokkireul Japda	Du Mari Tokkireul Japda	两个世界的强强结合 (进阶词汇)	
-row	pron	시류에 역행하다	Silyue Yeokaenghada	Silyue Yeokaenghada	Go Against the Grain (进阶词汇)	
+row	pron	시류에 역행하다	Silyue Yeokaenghada	Silyue Yeokaenghada	逆潮流而动；逆流而上 (동사)	
 row	pron	순풍에 돛단 배	Sunpunge Dotdan Bae	Sunpunge Dotdan Bae	一帆风顺 (进阶词汇)	
 row	pron	본론으로 들어가다	Bolloneuro Deureogada	Bolloneuro Deureogada	话不多说 (进阶词汇)	
 row	pron	개천에서 용 난다	Gaecheoneseo Yong Nanda	Gaecheoneseo Yong Nanda	从零到英雄 (进阶词汇)	
@@ -3786,7 +3786,7 @@ row	pron	여유를 가져라	Yeoyureul Gajeora	Yeoyureul Gajeora	别紧张 (进�
 row	pron	바닥을 치다	Badageul Chida	Badageul Chida	低谷什么的， (进阶词汇)	
 row	pron	본색을 드러내다	Bonsaegeul Deureondaeda	Bonsaegeul Deureondaeda	展现您的真实色彩 (进阶词汇)	
 row	pron	상황을 봐가며 하다	Sanghwangeul Bwagamyeo Hada	Sanghwangeul Bwagamyeo Hada	“随机应变。” (进阶词汇)	
-row	pron	모든 것을 다 하다	Modeun Geoseul Da Hada	Modeun Geoseul Da Hada	The Whole Nine Yards (进阶词汇)	
+row	pron	모든 것을 다 하다	Modeun Geoseul Da Hada	Modeun Geoseul Da Hada	倾尽所有；全盘投入 (동사)	
 row	pron	주방 후드	Jubang Hudeu	Jubang Hudeu	抽油烟机 (进阶词汇)	
 row	pron	소파 테이블	Sopa Teibel	Sopa Teibel	咖啡桌 (进阶词汇)	
 row	pron	베란다 정원	Beranda Jeongwon	Beranda Jeongwon	阳台花园 (进阶词汇)	
@@ -4001,11 +4001,11 @@ row	pron	드론 전쟁	Deuron jeonjaeng	Deuron jeonjaeng	无人机作战 (进阶
 row	pron	사이버 전쟁	Saibeeo jeonjaeng	Saibeeo jeonjaeng	网络战 (进阶词汇)	
 row	pron	전쟁 기념비	Jeonjaeng ginyeombpi	Jeonjaeng ginyeombpi	战争纪念碑 (进阶词汇)	
 row	pron	군인 묘지	Gunin myoji	Gunin myoji	军人公墓 (进阶词汇)	
-row	pron	국방 예산	Gukbang yessan	Gukbang yessan	Military budget (进阶词汇)	
+row	pron	국방 예산	Gukbang yessan	Gukbang yessan	国防预算 (명사)	
 row	pron	전쟁 범죄	Jeonjaeng beomjoe	Jeonjaeng beomjoe	战争罪 (进阶词汇)	
 row	pron	제네바 협약	Jeneba hyeobyak	Jeneba hyeobyak	公约》的进一步演进 (进阶词汇)	
 row	pron	군사 재판	Gunsa jaepan	Gunsa jaepan	军事法庭 (进阶词汇)	
-row	pron	신병 훈련소	Sinbyeong hunryeonso	Sinbyeong hunryeonso	Boot camp (进阶词汇)	
+row	pron	신병 훈련소	Sinbyeong hunryeonso	Sinbyeong hunryeonso	新兵训练所；新兵训练营 (명사)	
 row	pron	장애물 코스	Jangaemul koseu	Jangaemul koseu	障碍路线 (进阶词汇)	
 row	pron	야간 투시	Yagan tusi	Yagan tusi	夜视镜 (进阶词汇)	
 row	pron	야전 병원	Yajeon byeongwon	Yajeon byeongwon	闪医院 (进阶词汇)	
@@ -4078,7 +4078,7 @@ row	pron	미술 비평가	Misul bipyeonggga	Misul bipyeonggga	艺术评论家 (�
 row	pron	미술 학교	Misul hakgyo	Misul hakgyo	艺术学校 (进阶词汇)	
 row	pron	순수 미술	Sunsu misul	Sunsu misul	美术 (进阶词汇)	
 row	pron	미술 학사	Misul haksa	Misul haksa	美术学士 (进阶词汇)	
-row	pron	미술 석사	Misul seoksa	Misul seoksa	MFA (进阶词汇)	
+row	pron	미술 석사	Misul seoksa	Misul seoksa	美术硕士；MFA (명사)	
 row	pron	작가 성명	Jakga seongmyeong	Jakga seongmyeong	艺术家自述 (进阶词汇)	
 row	pron	미술 시장	Misul sijang	Misul sijang	艺术市场 (进阶词汇)	
 row	pron	미술 치료	Misul chiryo	Misul chiryo	艺术治疗 (进阶词汇)	
@@ -4114,7 +4114,7 @@ row	pron	주택 담보 대출	Jutaek dambo daechul	Jutaek dambo daechul	抵押�
 row	pron	현금 자동 입출금기	Hyungeum jadong ipchulgeum-gi	Hyungeum jadong ipchulgeum-gi	自动柜员机 (进阶词汇)	
 row	pron	주식 시장	Jusik sijang	Jusik sijang	股市 (进阶词汇)	
 row	pron	뮤추얼 펀드	Myuchuwal peundeu	Myuchuwal peundeu	共同基金 (进阶词汇)	
-row	pron	상장 지수 펀드	Sangjang jisu peundeu	Sangjang jisu peundeu	ETF (进阶词汇)	
+row	pron	상장 지수 펀드	Sangjang jisu peundeu	Sangjang jisu peundeu	交易型开放式指数基金；ETF (명사)	
 row	pron	부동산 투자	Budongsan tuija	Budongsan tuija	房地产投资 (进阶词汇)	
 row	pron	재무 제표	Jaemu jeyo	Jaemu jeyo	财务报表 (进阶词汇)	
 row	pron	손익 계산서	Soneik gyesan-seo	Soneik gyesan-seo	损益表 (进阶词汇)	
@@ -4139,13 +4139,13 @@ row	pron	상업 은행	Sangeop eunhaeng	Sangeop eunhaeng	商业银行 (进阶词
 row	pron	투자 은행	Tuija eunhaeng	Tuija eunhaeng	投资银行 (进阶词汇)	
 row	pron	모바일 뱅킹	Mobail baengking	Mobail baengking	行动银行 (进阶词汇)	
 row	pron	인터넷 뱅킹	Inteonet baengking	Inteonet baengking	网路银行 (进阶词汇)	
-row	pron	카카오 페이	Kakao pei	Kakao pei	Kakao Pay (进阶词汇)	
-row	pron	네이버 페이	Neibeo pei	Neibeo pei	Naver Pay (进阶词汇)	
+row	pron	카카오 페이	Kakao pei	Kakao pei	Kakao Pay (韩国移动支付) (명사)	
+row	pron	네이버 페이	Neibeo pei	Neibeo pei	Naver Pay (韩国移动支付) (명사)	
 row	pron	금융 규제	Geumyung gyuje	Geumyung gyuje	金融监管 (进阶词汇)	
 row	pron	헤지 펀드	Heji peundeu	Heji peundeu	对冲基金 (进阶词汇)	
 row	pron	스타트업 자금	Seutateup jageum	Seutateup jageum	启动资金 (进阶词汇)	
 row	pron	재무 고문	Jaemu gomun	Jaemu gomun	财务顾问 (进阶词汇)	
-row	pron	모유 수유	Moyu suyu	Moyu suyu	母乳喂养 (moyeo-ui wiyuu) (进阶词汇)	
+row	pron	모유 수유	Moyu suyu	Moyu suyu	母乳喂养 (명사)	
 row	pron	잠자리 준비	Jamjari junbi	Jamjari junbi	睡前作息 (进阶词汇)	
 row	pron	배변 훈련	Baebyon hullyeon	Baebyon hullyeon	如厕训练 (进阶词汇)	
 row	pron	학교 준비	Hakgyo junbi	Hakgyo junbi	学前准备 (进阶词汇)	
@@ -4231,7 +4231,7 @@ row	pron	서울대학교 연구	Seoul Daehakgyo Yeongu	Seoul Daehakgyo Yeongu	�
 row	pron	정부 연구기관	Jeongbu Yeongu Gigwan	Jeongbu Yeongu Gigwan	政府研究机构 (进阶词汇)	
 row	pron	연구개발 예산	Yeongu Gaebal Yessan	Yeongu Gaebal Yessan	研发预算 (进阶词汇)	
 row	pron	학부 연구	Hakbu Yeongu	Hakbu Yeongu	大学部研究 (进阶词汇)	
-row	pron	현장 조사	Hyeonjang Josa	Hyeonjang Josa	实地工作: (进阶词汇)	
+row	pron	현장 조사	Hyeonjang Josa	Hyeonjang Josa	实地调查；现场勘查 (명사)	
 row	pron	인터뷰 방법	Inteobyyu Bangbeop	Inteobyyu Bangbeop	面试方式 (进阶词汇)	
 row	pron	사례 연구	Saryae Yeongu	Saryae Yeongu	案例研究 (进阶词汇)	
 row	pron	통계적 유의성	Tonggaejok Yuuiseong	Tonggaejok Yuuiseong	统计学显著性： (进阶词汇)	
@@ -4365,14 +4365,14 @@ row	pron	허위 정보 유포	heowi jeongbo yupo	heowi jeongbo yupo	虚假资讯
 row	pron	목격자 진술	mokgyeokja jinsul	mokgyeokja jinsul	目击者陈述 (进阶词汇)	
 row	pron	언론 동향	eollon donghyang	eollon donghyang	媒体评论 (进阶词汇)	
 row	pron	사진 촬영 기회	sajin chwallyeong giho	sajin chwallyeong giho	摄影机会 (进阶词汇)	
-row	pron	김치 반찬	gimchi banchan	gimchi banchan	泡菜小菜 (Kimchi Banchan) (进阶词汇)	
+row	pron	김치 반찬	gimchi banchan	gimchi banchan	泡菜小菜 (명사)	
 row	pron	프라이드 치킨	peuraedeu chikin	peuraedeu chikin	韩国炸鸡 (进阶词汇)	
 row	pron	로제 떡볶이	roje tteokbokkgi	roje tteokbokkgi	玫瑰辣炒年糕 (进阶词汇)	
 row	pron	해물 된장찌개	haemul doenjang jjigae	haemul doenjang jjigae	海鲜大酱汤 (进阶词汇)	
 row	pron	상담 치료	sangdam chiryo	sangdam chiryo	心理治疗 (进阶词汇)	
 row	pron	자기 돌봄	jagi dolbom	jagi dolbom	自我照顾 (进阶词汇)	
 row	pron	외상 후 스트레스 장애	oesang hu seuteureseu jangae	oesang hu seuteureseu jangae	创伤后应激障碍 (进阶词汇)	
-row	pron	강박 장애	gangbak jangae	gangbak jangae	OCD (进阶词汇)	
+row	pron	강박 장애	gangbak jangae	gangbak jangae	强迫症；强迫障碍 (명사)	
 row	pron	양극성 장애	yanggeukseong jangae	yanggeukseong jangae	躁郁症 (进阶词汇)	
 row	pron	감정 조절	gamjeong jojeol	gamjeong jojeol	情绪调节 (进阶词汇)	
 row	pron	회복 탄력성	hoibok tallyeokseong	hoibok tallyeokseong	复原力 (进阶词汇)	
@@ -4383,7 +4383,7 @@ row	pron	자조 모임	jajo moim	jajo moim	支援组 (进阶词汇)
 row	pron	감정 소진	gamjeong sojin	gamjeong sojin	情绪疲惫 (进阶词汇)	
 row	pron	인지 왜곡	inji waegok	inji waegok	认知扭曲 (进阶词汇)	
 row	pron	정신 질환 낙인	jeongsin jirhwan nakjin	jeongsin jirhwan nakjin	精神疾病污名 (进阶词汇)	
-row	pron	수면 위생	sumyeon wisaeng	sumyeon wisaeng	Sleep Hygiene (进阶词汇)	
+row	pron	수면 위생	sumyeon wisaeng	sumyeon wisaeng	睡眠卫生 (명사)	
 row	pron	운동 치료	undong chiryo	undong chiryo	运动疗法 (进阶词汇)	
 row	pron	호흡 운동	hoheup undong	hoheup undong	呼吸练习 (进阶词汇)	
 row	pron	자살 예방	jasal yebang	jasal yebang	预防自杀 (进阶词汇)	
@@ -4468,7 +4468,7 @@ row	pron	투어 굿즈	tueo gutjeu	tueo gutjeu	巡演周边商品 (进阶词汇)
 row	pron	연예 뉴스	yeonye nyuseu	yeonye nyuseu	娱乐新闻 (进阶词汇)	
 row	pron	그룹 케미	geurup kemi	geurup kemi	团体化学反应 (进阶词汇)	
 row	pron	안무 연습 영상	anmu yeonseup yeongsang	anmu yeonseup yeongsang	舞蹈练习 (进阶词汇)	
-row	pron	에스엠 엔터테인먼트	eseum enteuteinmeonteu	eseum enteuteinmeonteu	SM Entertainment (进阶词汇)	
+row	pron	에스엠 엔터테인먼트	eseum enteuteinmeonteu	eseum enteuteinmeonteu	SM娱乐；SM Entertainment (명사)	
 row	pron	케이팝 역사	keipap yeoksa	keipap yeoksa	K-pop 历史 (进阶词汇)	
 row	pron	팬 전쟁	paen jeonjaeng	paen jeonjaeng	粉丝战争 (进阶词汇)	
 row	pron	미니 앨범	mini aelbeom	mini aelbeom	迷你专辑 (进阶词汇)	
@@ -4513,7 +4513,7 @@ row	pron	노령 동물	noryeong dongmul	noryeong dongmul	高龄宠物 (进阶词
 row	pron	개 품종	gae pumjong	gae pumjong	犬种 (进阶词汇)	
 row	pron	반려동물 생일	ballyeo dongmul saengil	ballyeo dongmul saengil	宠物生日 (进阶词汇)	
 row	pron	컴백 무대	keombaek mudae	keombaek mudae	回归舞台 (进阶词汇)	
-row	pron	최애 흔들기	choiae heundeurgi	choiae heundeurgi	Bias Wrecker (进阶词汇)	
+row	pron	최애 흔들기	choiae heundeurgi	choiae heundeurgi	动摇本命（粉丝术语） (명사)	
 row	pron	일방적 친밀감	ilbangjeok chinmilgam	ilbangjeok chinmilgam	拟社会关系 (进阶词汇)	
 row	pron	안무 영상	anmu yeongsang	anmu yeongsang	舞蹈练习影片 (进阶词汇)	
 row	pron	뮤직비디오 감독	myujikbideo gamdok	myujikbideo gamdok	MV 导演 (进阶词汇)	
@@ -4540,7 +4540,7 @@ row	pron	화장실 모래통	hwajangsil moraetong	hwajangsil moraetong	猫砂盒
 row	pron	반려동물 장난감	ballyeodongmul jangnangam	ballyeodongmul jangnangam	宠物玩具 (进阶词汇)	
 row	pron	반려동물 등록	ballyeodongmul deungnok	ballyeodongmul deungnok	宠物登记 (进阶词汇)	
 row	pron	복종 훈련	bokjong hullyeon	bokjong hullyeon	狗的服从 (进阶词汇)	
-row	pron	중성화 수술	jungseongwha susul	jungseongwha susul	Spay (进阶词汇)	
+row	pron	중성화 수술	jungseongwha susul	jungseongwha susul	绝育手术；中性化手术 (명사)	
 row	pron	반려동물 샴푸	ballyeodongmul syampu	ballyeodongmul syampu	宠物洗发水 (进阶词汇)	
 row	pron	동물 교상	dongmul gyosang	dongmul gyosang	咬伤 (进阶词汇)	
 row	pron	반려동물 영양제	ballyeodongmul yeongnangje	ballyeodongmul yeongnangje	宠物补充剂 (进阶词汇)	
@@ -4595,7 +4595,7 @@ row	pron	솔로 큐	sollo kyu	sollo kyu	单排 (进阶词汇)
 row	pron	게이밍 의자	geiming euija	geiming euija	电竞椅 (进阶词汇)	
 row	pron	소액 결제	soaek gyeolje	soaek gyeolje	微交易 (进阶词汇)	
 row	pron	최종 보스	choejong boseu	choejong boseu	最终头目 (进阶词汇)	
-row	pron	프레임 속도	peuleim sokdo	peuleim sokdo	每秒帧数 (FPS) (进阶词汇)	
+row	pron	프레임 속도	peuleim sokdo	peuleim sokdo	帧率；每秒帧数 (명사)	
 row	pron	게이밍 모니터	geiming moniteo	geiming moniteo	电竞萤幕 (进阶词汇)	
 row	pron	탑 라인	tap lain	tap lain	上路 (进阶词汇)	
 row	pron	게임 코치	geim kochi	geim kochi	游戏教练 (进阶词汇)	
@@ -4787,7 +4787,7 @@ row	pron	다녀오다	[ta̠ɲʌ̹o̞da̠]	[ta̠ɲʌ̹o̞da̠]	退货日期 (동�
 row	pron	다니다	[ta̠nida̠]	[ta̠nida̠]	出于某种目的去某个地方 (동사)	
 row	pron	다른	[ta̠ɾɯn]	[ta̠ɾɯn]	不同 (관형사)	
 row	pron	다섯째	[ta̠sʰʌ̹t̚t͡ɕ͈ɛ]	[ta̠sʰʌ̹t̚t͡ɕ͈ɛ]	第五个 (수사)	
-row	pron	다양	[ta̠ja̠ŋ]	[ta̠ja̠ŋ]	多元化 (diversity) (명사)	
+row	pron	다양	[ta̠ja̠ŋ]	[ta̠ja̠ŋ]	多样；多样化 (명사)	
 row	pron	다음날	[ta̠ɯmna̠ɭ]	[ta̠ɯmna̠ɭ]	第二天 (명사)	
 row	pron	다하다	[ˈta̠(ː)ɦa̠da̠]	[ˈta̠(ː)ɦa̠da̠]	用完了 (동사)	
 row	pron	단어	[ta̠nʌ̹]	[ta̠nʌ̹]	个人 (명사)	
@@ -4862,7 +4862,7 @@ row	pron	멋있다	[mʌ̹ɕʰit̚t͈a̠]	[mʌ̹ɕʰit̚t͈a̠]	棒极了 (형용
 row	pron	메모	[me̞mo̞]	[me̞mo̞]	备注 (명사)	
 row	pron	메시지	[me̞ɕʰid͡ʑi]	[me̞ɕʰid͡ʑi]	信息 (명사)	
 row	pron	메일	[me̞iɭ]	[me̞iɭ]	邮件 (명사)	
-row	pron	며칠	[mjʌ̹t͡ɕʰiɭ]	[mjʌ̹t͡ɕʰiɭ]	几天的 ？ (명사)	
+row	pron	며칠	[mjʌ̹t͡ɕʰiɭ]	[mjʌ̹t͡ɕʰiɭ]	几天；几号 (명사)	
 row	pron	모든	[ˈmo̞(ː)dɯn]	[ˈmo̞(ː)dɯn]	所有 (관형사)	
 row	pron	모르다	[ˈmo̞(ː)ɾɯda̠]	[ˈmo̞(ː)ɾɯda̠]	不知道 (동사)	
 row	pron	모시다	[ˈmo̞(ː)ɕʰida̠]	[ˈmo̞(ː)ɕʰida̠]	为地位较高的人服务或等待 (동사)	
@@ -4875,10 +4875,10 @@ row	pron	못생기다	[ˈmo̞(ː)ss͈ɛŋɡida̠]	[ˈmo̞(ː)ss͈ɛŋɡida̠]	�
 row	pron	못하다	[ˈmo̞(ː)tʰa̠da̠]	[ˈmo̞(ː)tʰa̠da̠]	无法 (동사)	
 row	pron	몽골	[mo̞ŋɡo̞ɭ]	[mo̞ŋɡo̞ɭ]	蒙古 (고유명사)	
 row	pron	무겁다	[muɡʌ̹p̚t͈a̠]	[muɡʌ̹p̚t͈a̠]	要沉重 (형용사)	
-row	pron	무게	[muɡe̞]	[muɡe̞]	（按重量计） (명사)	
+row	pron	무게	[muɡe̞]	[muɡe̞]	重量；分量 (명사)	
 row	pron	무궁화	[muɡuŋβwa̠]	[muɡuŋβwa̠]	木槿 (명사)	
 row	pron	무슨	[musʰɯn]	[musʰɯn]	什么 (관형사)	
-row	pron	무엇	[muʌ̹t̚]	[muʌ̹t̚]	what -在问题中使用 (대명사)	
+row	pron	무엇	[muʌ̹t̚]	[muʌ̹t̚]	什么 (대명사)	
 row	pron	물건	[muɭɡʌ̹n]	[muɭɡʌ̹n]	部 (명사)	
 row	pron	물어보다	[muɾʌ̹bo̞da̠]	[muɾʌ̹bo̞da̠]	来提问 (동사)	
 row	pron	미국	[miɡuk̚]	[miɡuk̚]	美利坚合众国 (고유명사)	
@@ -4980,7 +4980,7 @@ row	pron	스케이트	[sʰɯkʰe̞itʰɯ]	[sʰɯkʰe̞itʰɯ]	滑冰 (명사)
 row	pron	스타	[sʰɯtʰa̠]	[sʰɯtʰa̠]	星 (명사)	
 row	pron	스파게티	[sʰɯpʰa̠ɡe̞tʰi]	[sʰɯpʰa̠ɡe̞tʰi]	意大利面 (명사)	
 row	pron	스포츠	[sʰɯpʰo̞t͡ɕʰɯ]	[sʰɯpʰo̞t͡ɕʰɯ]	体育 (명사)	
-row	pron	슬퍼하다	[sʰɯɭpʰʌ̹ɦa̠da̠]	[sʰɯɭpʰʌ̹ɦa̠da̠]	找到SAD (동사)	
+row	pron	슬퍼하다	[sʰɯɭpʰʌ̹ɦa̠da̠]	[sʰɯɭpʰʌ̹ɦa̠da̠]	悲伤；哀伤；难过 (동사)	
 row	pron	습관	[sʰɯp̚k͈wa̠n]	[sʰɯp̚k͈wa̠n]	习惯 (명사)	
 row	pron	시골	[ɕʰiɡo̞ɭ]	[ɕʰiɡo̞ɭ]	乡村 (명사)	
 row	pron	시끄럽다	[ɕʰik͈ɯɾʌ̹p̚t͈a̠]	[ɕʰik͈ɯɾʌ̹p̚t͈a̠]	大声说话 (형용사)	
@@ -5037,8 +5037,8 @@ row	pron	약간	[ja̠k̚k͈a̠n]	[ja̠k̚k͈a̠n]	小 (명사)
 row	pron	약속하다	[ja̠ks͈o̞kʰa̠da̠]	[ja̠ks͈o̞kʰa̠da̠]	承诺 (동사)	
 row	pron	얇다	[ˈja̠(ː)ɭt͈a̠]	[ˈja̠(ː)ɭt͈a̠]	细 (형용사)	
 row	pron	양치질	[ja̠ŋt͡ɕʰid͡ʑiɭ]	[ja̠ŋt͡ɕʰid͡ʑiɭ]	刷牙 (명사)	
-row	pron	얘기	[ˈjɛ(ː)ɡi]	[ˈjɛ(ː)ɡi]	이야기 : talk的收缩 (명사)	
-row	pron	얘기하다	[ˈjɛ(ː)ɡiɦa̠da̠]	[ˈjɛ(ː)ɡiɦa̠da̠]	이야기하다 : to talk的收缩 (동사)	
+row	pron	얘기	[ˈjɛ(ː)ɡi]	[ˈjɛ(ː)ɡi]	谈话；故事；话（이야기的缩略形式） (명사)	
+row	pron	얘기하다	[ˈjɛ(ː)ɡiɦa̠da̠]	[ˈjɛ(ː)ɡiɦa̠da̠]	谈论；讲话（이야기하다的缩略形式） (동사)	
 row	pron	어둡다	[ʌ̹dup̚t͈a̠]	[ʌ̹dup̚t͈a̠]	深色 (형용사)	
 row	pron	어떠하다	[ʌ̹t͈ʌ̹ɦa̠da̠]	[ʌ̹t͈ʌ̹ɦa̠da̠]	替代形式的 어떻다 (형용사)	
 row	pron	어떤	[ʌ̹t͈ʌ̹n]	[ʌ̹t͈ʌ̹n]	何等 (관형사)	
@@ -5046,7 +5046,7 @@ row	pron	어떻다	[ʌ̹t͈ʌ̹tʰa̠]	[ʌ̹t͈ʌ̹tʰa̠]	处于什么状态 (�
 row	pron	어렵다	[ʌ̹ɾjʌ̹p̚t͈a̠]	[ʌ̹ɾjʌ̹p̚t͈a̠]	很难 (형용사)	
 row	pron	어린아이	[ʌ̹ɾina̠i]	[ʌ̹ɾina̠i]	子级 (명사)	
 row	pron	어머님	[ʌ̹mʌ̹nim]	[ʌ̹mʌ̹nim]	尊敬的 어머니 (명사)	
-row	pron	어울리다	[ʌ̹uʎʎida̠]	[ʌ̹uʎʎida̠]	到SUIT (동사)	
+row	pron	어울리다	[ʌ̹uʎʎida̠]	[ʌ̹uʎʎida̠]	相配；适合；融洽 (동사)	
 row	pron	어젯밤	[ʌ̹d͡ʑe̞t̚p͈a̠m]	[ʌ̹d͡ʑe̞t̚p͈a̠m]	昨夜 (명사)	
 row	pron	언제나	[ˈɘ(ː)ɲd͡ʑe̞na̠]	[ˈɘ(ː)ɲd͡ʑe̞na̠]	始终 (부사)	
 row	pron	얼마나	[ʌ̹ɭma̠na̠]	[ʌ̹ɭma̠na̠]	多长时间 (부사)	
@@ -5135,7 +5135,7 @@ row	pron	잃다	[iɭtʰa̠]	[iɭtʰa̠]	输掉 (동사)
 row	pron	잃어버리다	[iɾʌ̹bʌ̹ɾida̠]	[iɾʌ̹bʌ̹ɾida̠]	输掉 (동사)	
 row	pron	입장권	[ip̚t͡ɕ͈a̠ŋk͈wʌ̹n]	[ip̚t͡ɕ͈a̠ŋk͈wʌ̹n]	入场劵 (명사)	
 row	pron	잊어버리다	[id͡ʑʌ̹bʌ̹ɾida̠]	[id͡ʑʌ̹bʌ̹ɾida̠]	忘记 (동사)	
-row	pron	자기소개	[t͡ɕa̠ɡisʰo̞ɡɛ]	[t͡ɕa̠ɡisʰo̞ɡɛ]	Self-introduction 自我介绍 (명사)	
+row	pron	자기소개	[t͡ɕa̠ɡisʰo̞ɡɛ]	[t͡ɕa̠ɡisʰo̞ɡɛ]	自我介绍 (명사)	
 row	pron	자동판매기	[t͡ɕa̠do̞ŋpʰa̠nmɛɡi]	[t͡ɕa̠do̞ŋpʰa̠nmɛɡi]	自动贩卖机 (명사)	
 row	pron	자세히	[t͡ɕa̠sʰe̞ʝi]	[t͡ɕa̠sʰe̞ʝi]	具体规定是： (부사)	
 row	pron	작년	[t͡ɕa̠ŋɲʌ̹n]	[t͡ɕa̠ŋɲʌ̹n]	去年 (명사)	
@@ -5190,12 +5190,12 @@ row	pron	지난달	[t͡ɕina̠nda̠ɭ]	[t͡ɕina̠nda̠ɭ]	上月 (명사)
 row	pron	지난번	[t͡ɕina̠nbʌ̹n]	[t͡ɕina̠nbʌ̹n]	上次 (명사)	
 row	pron	지난주	[t͡ɕina̠ɲd͡ʑu]	[t͡ɕina̠ɲd͡ʑu]	上周 (명사)	
 row	pron	지난해	[t͡ɕina̠nɦɛ]	[t͡ɕina̠nɦɛ]	销售价值及其变化。 (명사)	
-row	pron	지하도	[t͡ɕiɦa̠do̞]	[t͡ɕiɦa̠do̞]	UNDERPASS地下通道 (명사)	
+row	pron	지하도	[t͡ɕiɦa̠do̞]	[t͡ɕiɦa̠do̞]	地下通道；地下过街通道 (명사)	
 row	pron	직업	[t͡ɕiɡʌ̹p̚]	[t͡ɕiɡʌ̹p̚]	作业 (명사)	
 row	pron	질문하다	[t͡ɕiɭmunɦa̠da̠]	[t͡ɕiɭmunɦa̠da̠]	以提出问题 (동사)	
 row	pron	집들이	[t͡ɕip̚t͈ɯɾi]	[t͡ɕip̚t͈ɯɾi]	乔迁聚会 (명사)	
 row	pron	짜증	[t͡ɕ͈a̠d͡ʑɯŋ]	[t͡ɕ͈a̠d͡ʑɯŋ]	刺激 (명사)	
-row	pron	짧다	[t͡ɕ͈a̠ɭt͈a̠]	[t͡ɕ͈a̠ɭt͈a̠]	短整型data type in C/ C++ (형용사)	
+row	pron	짧다	[t͡ɕ͈a̠ɭt͈a̠]	[t͡ɕ͈a̠ɭt͈a̠]	短；简短 (형용사)	
 row	pron	착하다	[t͡ɕʰa̠kʰa̠da̠]	[t͡ɕʰa̠kʰa̠da̠]	心地善良 (형용사)	
 row	pron	참다	[ˈt͡ɕʰa̠(ː)mt͈a̠]	[ˈt͡ɕʰa̠(ː)mt͈a̠]	承受 (동사)	
 row	pron	찾다	[t͡ɕʰa̠t̚t͈a̠]	[t͡ɕʰa̠t̚t͈a̠]	添加到搜索 (동사)	
@@ -5468,7 +5468,7 @@ row	pron	규칙적	[kjut͡ɕʰik̚t͡ɕ͈ʌ̹k̚]	[kjut͡ɕʰik̚t͡ɕ͈ʌ̹k̚]
 row	pron	균형	[kjunʝʌ̹ŋ]	[kjunʝʌ̹ŋ]	余额 (명사)	
 row	pron	그나마	[kɯna̠ma̠]	[kɯna̠ma̠]	至少选择一个项目 (부사)	
 row	pron	그녀	[kɯɲʌ̹]	[kɯɲʌ̹]	她 (대명사)	
-row	pron	그늘	[kɯnɯɭ]	[kɯnɯɭ]	阴影Note this is a KRunner (명사)	
+row	pron	그늘	[kɯnɯɭ]	[kɯnɯɭ]	树荫；阴凉处；阴影 (명사)	
 row	pron	그다음	[kɯda̠ɯm]	[kɯda̠ɯm]	下一张 (부사)	
 row	pron	그다지	[kɯda̠d͡ʑi]	[kɯda̠d͡ʑi]	食物。 (부사)	
 row	pron	그대	[kɯdɛ]	[kɯdɛ]	你 (대명사)	
@@ -5488,7 +5488,7 @@ row	pron	그중	[kɯd͡ʑuŋ]	[kɯd͡ʑuŋ]	其中 (명사)
 row	pron	그토록	[kɯtʰo̞ɾo̞k̚]	[kɯtʰo̞ɾo̞k̚]	食物。 (부사)	
 row	pron	그해	[kɯɦɛ]	[kɯɦɛ]	那一年 (명사)	
 row	pron	극히	[kɯcçi]	[kɯcçi]	非常 (부사)	
-row	pron	근교	[ˈkɯ(ː)nɡjo]	[ˈkɯ(ː)nɡjo]	区/县(Suburb) (명사)	
+row	pron	근교	[ˈkɯ(ː)nɡjo]	[ˈkɯ(ː)nɡjo]	郊区；近郊 (명사)	
 row	pron	근래	[ˈkɯ(ː)ɭɭɛ]	[ˈkɯ(ː)ɭɭɛ]	最近 (명사)	
 row	pron	근로자	[ˈkɯ(ː)ɭɭo̞d͡ʑa̠]	[ˈkɯ(ː)ɭɭo̞d͡ʑa̠]	工作者 ,劳动者,劳工 (명사)	
 row	pron	근무	[ˈkɯ(ː)nmu]	[ˈkɯ(ː)nmu]	工作 (명사)	
@@ -5582,9 +5582,9 @@ row	pron	내다보다	[nɛda̠bo̞da̠]	[nɛda̠bo̞da̠]	向外看 (동사)
 row	pron	내달	[ˈnɛ(ː)da̠ɭ]	[ˈnɛ(ː)da̠ɭ]	接下来的一个月 (명사)	
 row	pron	내려놓다	[nɛɾjʌ̹no̞tʰa̠]	[nɛɾjʌ̹no̞tʰa̠]	取下 (동사)	
 row	pron	내려다보다	[nɛɾjʌ̹da̠bo̞da̠]	[nɛɾjʌ̹da̠bo̞da̠]	向下看 (동사)	
-row	pron	내려앉다	[nɛɾjʌ̹a̠nt͈a̠]	[nɛɾjʌ̹a̠nt͈a̠]	- 降落？ (동사)	
+row	pron	내려앉다	[nɛɾjʌ̹a̠nt͈a̠]	[nɛɾjʌ̹a̠nt͈a̠]	塌陷；沉降；降落 (동사)	
 row	pron	내밀다	[ˈnɛ(ː)miɭda̠]	[ˈnɛ(ː)miɭda̠]	推出或推出或向前。 (동사)	
-row	pron	내버리다	[ˈnɛ(ː)bʌ̹ɾida̠]	[ˈnɛ(ː)bʌ̹ɾida̠]	丢弃@ info (동사)	
+row	pron	내버리다	[ˈnɛ(ː)bʌ̹ɾida̠]	[ˈnɛ(ː)bʌ̹ɾida̠]	扔掉；抛弃；丢弃 (동사)	
 row	pron	내보내다	[ˈnɛ(ː)bo̞nɛda̠]	[ˈnɛ(ː)bo̞nɛda̠]	让外出 (동사)	
 row	pron	내주다	[ˈnɛ(ː)d͡ʑuda̠]	[ˈnɛ(ː)d͡ʑuda̠]	给予 (동사)	
 row	pron	내쫓다	[nɛt͡ɕ͈o̞t̚t͈a̠]	[nɛt͡ɕ͈o̞t̚t͈a̠]	开除 (동사)	
@@ -5916,7 +5916,7 @@ row	pron	미성년자	[ˈmi(ː)sʰʌ̹ŋɲʌ̹ɲd͡ʑa̠]	[ˈmi(ː)sʰʌ̹ŋɲʌ
 row	pron	미용사	[ˈmi(ː)joŋsʰa̠]	[ˈmi(ː)joŋsʰa̠]	美容用品制造者 (명사)	
 row	pron	미움	miching	miching	仇恨 (명사)	
 row	pron	미워하다	[miwʌ̹ɦa̠da̠]	[miwʌ̹ɦa̠da̠]	恨 (동사)	
-row	pron	미장원	[ˈmi(ː)d͡ʑa̠ŋwʌ̹n]	[ˈmi(ː)d͡ʑa̠ŋwʌ̹n]	理发店？ (명사)	
+row	pron	미장원	[ˈmi(ː)d͡ʑa̠ŋwʌ̹n]	[ˈmi(ː)d͡ʑa̠ŋwʌ̹n]	美发厅；理发店；美容院 (명사)	
 row	pron	미처	[mit͡ɕʰʌ̹]	[mit͡ɕʰʌ̹]	仍然 (부사)	
 row	pron	미팅	[mitʰiŋ]	[mitʰiŋ]	（由第三者安排的）男女初次会面 (명사)	
 row	pron	민족	[miɲd͡ʑo̞k̚]	[miɲd͡ʑo̞k̚]	用户 (명사)	
@@ -6090,7 +6090,7 @@ row	pron	사무직	[ˈsʰa̠(ː)mud͡ʑik̚]	[ˈsʰa̠(ː)mud͡ʑik̚]	办公室
 row	pron	사업가	[ˈsʰa̠(ː)ʌ̹p̚k͈a̠]	[ˈsʰa̠(ː)ʌ̹p̚k͈a̠]	做买卖的 (명사)	
 row	pron	사업자	[ˈsʰa̠(ː)ʌ̹p̚t͡ɕ͈a̠]	[ˈsʰa̠(ː)ʌ̹p̚t͡ɕ͈a̠]	买卖人 (명사)	
 row	pron	사용되다	[ˈsʰa̠(ː)joŋdwe̞da̠]	[ˈsʰa̠(ː)joŋdwe̞da̠]	待用 (동사)	
-row	pron	사용자	[ˈsʰa̠(ː)joŋd͡ʑa̠]	[ˈsʰa̠(ː)joŋd͡ʑa̠]	users用户 (명사)	
+row	pron	사용자	[ˈsʰa̠(ː)joŋd͡ʑa̠]	[ˈsʰa̠(ː)joŋd͡ʑa̠]	用户；使用者 (명사)	
 row	pron	사우나	[s͈a̠una̠]	[s͈a̠una̠]	桑拿 (명사)	
 row	pron	사진첩	[sʰa̠d͡ʑiɲt͡ɕʰʌ̹p̚]	[sʰa̠d͡ʑiɲt͡ɕʰʌ̹p̚]	相机 (명사)	
 row	pron	사촌	[ˈsʰa̠(ː)t͡ɕʰo̞n]	[ˈsʰa̠(ː)t͡ɕʰo̞n]	嫡表亲 ,嫡堂亲,第一代嫡堂或表兄弟姐妹 (명사)	
@@ -6238,7 +6238,7 @@ row	pron	실수하다	[ɕʰiɭs͈uɦa̠da̠]	[ɕʰiɭs͈uɦa̠da̠]	犯一个错
 row	pron	실습	[ɕʰiɭs͈ɯp̚]	[ɕʰiɭs͈ɯp̚]	实践 (명사)	
 row	pron	실은	[ɕʰiɾɯn]	[ɕʰiɾɯn]	实际上 (부사)	
 row	pron	실장	[ɕʰiʎt͡ɕ͈a̠ŋ]	[ɕʰiʎt͡ɕ͈a̠ŋ]	办公室主任 (명사)	
-row	pron	실제로	[ɕʰiʎt͡ɕ͈e̞ɾo̞]	[ɕʰiʎt͡ɕ͈e̞ɾo̞]	实际上 ;prep.事实上 (부사)	
+row	pron	실제로	[ɕʰiʎt͡ɕ͈e̞ɾo̞]	[ɕʰiʎt͡ɕ͈e̞ɾo̞]	实际上；事实上 (부사)	
 row	pron	실컷	[ɕʰiɭkʰʌ̹t̚]	[ɕʰiɭkʰʌ̹t̚]	痛快 (부사)	
 row	pron	실현	[ɕʰiɾʝʌ̹n]	[ɕʰiɾʝʌ̹n]	得 (명사)	
 row	pron	싫어지다	[ɕʰiɾʌ̹d͡ʑida̠]	[ɕʰiɾʌ̹d͡ʑida̠]	变得厌恶 (동사)	
@@ -6247,7 +6247,7 @@ row	pron	심부름	[ˈɕʰi(ː)mbuɾɯm]	[ˈɕʰi(ː)mbuɾɯm]	家务 (명사)
 row	pron	심지어	[ˈɕʰi(ː)md͡ʑiʌ̹]	[ˈɕʰi(ː)md͡ʑiʌ̹]	持平 (부사)	
 row	pron	싱싱하다	[ɕʰiŋɕʰiŋɦa̠da̠]	[ɕʰiŋɕʰiŋɦa̠da̠]	清新 (형용사)	
 row	pron	싸구려	[s͈a̠ɡuɾjʌ̹]	[s͈a̠ɡuɾjʌ̹]	便宜货 (명사)	
-row	pron	쌍둥이	[s͈a̠ŋduŋi]	[s͈a̠ŋduŋi]	双子zodiac symbol for Canc (명사)	
+row	pron	쌍둥이	[s͈a̠ŋduŋi]	[s͈a̠ŋduŋi]	双胞胎；孪生儿 (명사)	
 row	pron	쌓이다	[s͈a̠ida̠]	[s͈a̠ida̠]	打桩 (동사)	
 row	pron	썩다	[s͈ʌ̹k̚t͈a̠]	[s͈ʌ̹k̚t͈a̠]	腐烂 (동사)	
 row	pron	쏟다	[s͈o̞t̚t͈a̠]	[s͈o̞t̚t͈a̠]	倾泻而出 (동사)	
@@ -6435,7 +6435,7 @@ row	pron	우연히	[ujʌ̹nʝi]	[ujʌ̹nʝi]	机缘巧合下 (부사)
 row	pron	우울	[uuɭ]	[uuɭ]	惆怅 (명사)	
 row	pron	우체통	[ut͡ɕʰe̞tʰo̞ŋ]	[ut͡ɕʰe̞tʰo̞ŋ]	信箱 (명사)	
 row	pron	우회전	[ˈu(ː)βwe̞d͡ʑʌ̹n]	[ˈu(ː)βwe̞d͡ʑʌ̹n]	右转 (명사)	
-row	pron	운동량	[ˈu(ː)ndo̞ŋɲa̠ŋ]	[ˈu(ː)ndo̞ŋɲa̠ŋ]	动量PropertyName (명사)	
+row	pron	운동량	[ˈu(ː)ndo̞ŋɲa̠ŋ]	[ˈu(ː)ndo̞ŋɲa̠ŋ]	运动量；动量 (명사)	
 row	pron	운동선수	[undo̞ŋsʰʌ̹nsʰu]	[undo̞ŋsʰʌ̹nsʰu]	运动员 (명사)	
 row	pron	운전자	[ˈu(ː)ɲd͡ʑʌ̹ɲd͡ʑa̠]	[ˈu(ː)ɲd͡ʑʌ̹ɲd͡ʑa̠]	驾驶员 (명사)	
 row	pron	울산	[uɭs͈a̠n]	[uɭs͈a̠n]	蔚山 (고유명사)	
@@ -6497,7 +6497,7 @@ row	pron	이빨	[ip͈a̠ɭ]	[ip͈a̠ɭ]	牙 (명사)
 row	pron	이상하다	[ˈi(ː)sʰa̠ŋɦa̠da̠]	[ˈi(ː)sʰa̠ŋɦa̠da̠]	很奇怪 (형용사)	
 row	pron	이어지다	[iʌ̹d͡ʑida̠]	[iʌ̹d͡ʑida̠]	继续 (동사)	
 row	pron	이용되다	[ˈi(ː)joŋdwe̞da̠]	[ˈi(ː)joŋdwe̞da̠]	待用 (동사)	
-row	pron	이용자	[ˈi(ː)joŋd͡ʑa̠]	[ˈi(ː)joŋd͡ʑa̠]	users用户 (명사)	
+row	pron	이용자	[ˈi(ː)joŋd͡ʑa̠]	[ˈi(ː)joŋd͡ʑa̠]	用户；使用者 (명사)	
 row	pron	이웃집	[iut̚t͡ɕ͈ip̚]	[iut̚t͡ɕ͈ip̚]	邻居家 (명사)	
 row	pron	이윽고	[iɯk̚k͈o̞]	[iɯk̚k͈o̞]	最后 (부사)	
 row	pron	이튿날	[itʰɯnna̠ɭ]	[itʰɯnna̠ɭ]	明天 (명사)	
@@ -6510,7 +6510,7 @@ row	pron	인격	[ink͈jʌ̹k̚]	[ink͈jʌ̹k̚]	个性 (명사)
 row	pron	인물	[inmuɭ]	[inmuɭ]	一个人的体形 (명사)	
 row	pron	인삼차	[insʰa̠mt͡ɕʰa̠]	[insʰa̠mt͡ɕʰa̠]	人参茶 (명사)	
 row	pron	인상적	[insʰa̠ŋd͡ʑʌ̹k̚]	[insʰa̠ŋd͡ʑʌ̹k̚]	难以忘怀的 (명사)	
-row	pron	인쇄	[insʰwɛ]	[insʰwɛ]	打印" executing object "ac (명사)	
+row	pron	인쇄	[insʰwɛ]	[insʰwɛ]	印刷；打印 (명사)	
 row	pron	인스턴트	[insʰɯtʰʌ̹ntʰɯ]	[insʰɯtʰʌ̹ntʰɯ]	瞬间 (명사)	
 row	pron	인식	[inɕʰik̚]	[inɕʰik̚]	认识 (명사)	
 row	pron	인원	[inwʌ̹n]	[inwʌ̹n]	员工 (명사)	
@@ -6635,7 +6635,7 @@ row	pron	좋아지다	[ˈt͡ɕo̞(ː)a̠d͡ʑida̠]	[ˈt͡ɕo̞(ː)a̠d͡ʑida̠
 row	pron	주고받다	[t͡ɕuɡo̞ba̠t̚t͈a̠]	[t͡ɕuɡo̞ba̠t̚t͈a̠]	可兑换 (동사)	
 row	pron	주먹	[t͡ɕumʌ̹k̚]	[t͡ɕumʌ̹k̚]	拳脚 (명사)	
 row	pron	주민	[ˈt͡ɕu(ː)min]	[ˈt͡ɕu(ː)min]	某个地方的居民 (명사)	
-row	pron	주어지다	[t͡ɕuʌ̹d͡ʑida̠]	[t͡ɕuʌ̹d͡ʑida̠]	【待提供】 (동사)	
+row	pron	주어지다	[t͡ɕuʌ̹d͡ʑida̠]	[t͡ɕuʌ̹d͡ʑida̠]	赋予；给予；提供 (동사)	
 row	pron	주인공	[t͡ɕuinɡo̞ŋ]	[t͡ɕuinɡo̞ŋ]	主角 (명사)	
 row	pron	주저앉다	[t͡ɕud͡ʑʌ̹a̠nt͈a̠]	[t͡ɕud͡ʑʌ̹a̠nt͈a̠]	无力地坐下 (동사)	
 row	pron	주전자	[t͡ɕud͡ʑʌ̹ɲd͡ʑa̠]	[t͡ɕud͡ʑʌ̹ɲd͡ʑa̠]	烧水壶 (명사)	
@@ -6675,7 +6675,7 @@ row	pron	지혜롭다	[t͡ɕiʝe̞ɾo̞p̚t͈a̠]	[t͡ɕiʝe̞ɾo̞p̚t͈a̠]	�
 row	pron	직장인	[t͡ɕik̚t͡ɕ͈a̠ŋin]	[t͡ɕik̚t͡ɕ͈a̠ŋin]	办事员 ,职员 (명사)	
 row	pron	직접적	[t͡ɕik̚t͡ɕ͈ʌ̹p̚t͡ɕ͈ʌ̹k̚]	[t͡ɕik̚t͡ɕ͈ʌ̹p̚t͡ɕ͈ʌ̹k̚]	直接或即时 (명사)	
 row	pron	직후	[t͡ɕikʰu]	[t͡ɕikʰu]	紧接着某件事 (명사)	
-row	pron	진리	[t͡ɕiʎʎi]	[t͡ɕiʎʎi]	为什么无需迷信 PageSpeed分数：%1$s (명사)	
+row	pron	진리	[t͡ɕiʎʎi]	[t͡ɕiʎʎi]	真理；真谛 (명사)	
 row	pron	진지하다	[t͡ɕiɲd͡ʑiɦa̠da̠]	[t͡ɕiɲd͡ʑiɦa̠da̠]	真诚的 (형용사)	
 row	pron	진학	[t͡ɕinɦa̠k̚]	[t͡ɕinɦa̠k̚]	进入学校的下一个层次 (명사)	
 row	pron	진행되다	[ˈt͡ɕi(ː)nɦɛŋdwe̞da̠]	[ˈt͡ɕi(ː)nɦɛŋdwe̞da̠]	以取得进展 (동사)	
@@ -6741,7 +6741,7 @@ row	pron	초여름	[t͡ɕʰo̞jʌ̹ɾɯm]	[t͡ɕʰo̞jʌ̹ɾɯm]	初夏。 (명�
 row	pron	촌스럽다	[ˈt͡ɕʰo̞(ː)nsʰɯɾʌ̹p̚t͈a̠]	[ˈt͡ɕʰo̞(ː)nsʰɯɾʌ̹p̚t͈a̠]	粗鲁 (형용사)	
 row	pron	촬영	[t͡ɕʰwa̠ɾjʌ̹ŋ]	[t͡ɕʰwa̠ɾjʌ̹ŋ]	枪决 (명사)	
 row	pron	최대	[ˈt͡ɕʰwe̞(ː)dɛ]	[ˈt͡ɕʰwe̞(ː)dɛ]	最伟大的 (명사)	
-row	pron	최대한	[ˈt͡ɕʰwe̞(ː)dɛɦa̠n]	[ˈt͡ɕʰwe̞(ː)dɛɦa̠n]	(最高限额) (명사)	
+row	pron	최대한	[ˈt͡ɕʰwe̞(ː)dɛɦa̠n]	[ˈt͡ɕʰwe̞(ː)dɛɦa̠n]	最大限度；尽量；至多 (명사/부사)	
 row	pron	최소한	[ˈt͡ɕʰwe̞(ː)sʰo̞ɦa̠n]	[ˈt͡ɕʰwe̞(ː)sʰo̞ɦa̠n]	至少选择一个项目 (부사)	
 row	pron	최신	[ˈt͡ɕʰwe̞(ː)ɕʰin]	[ˈt͡ɕʰwe̞(ː)ɕʰin]	最新 (명사)	
 row	pron	최종	[ˈt͡ɕʰwe̞(ː)d͡ʑo̞ŋ]	[ˈt͡ɕʰwe̞(ː)d͡ʑo̞ŋ]	最后 一贴 咯 . (명사)	
@@ -6867,7 +6867,7 @@ row	pron	한계	[ˈha̠(ː)nɡje̞]	[ˈha̠(ː)nɡje̞]	界限值 (명사)
 row	pron	한국말	[ˈha̠(ː)nɡuŋma̠ɭ]	[ˈha̠(ː)nɡuŋma̠ɭ]	朝鲜语 (명사)	
 row	pron	한국어	[ˈha̠(ː)nɡuɡʌ̹]	[ˈha̠(ː)nɡuɡʌ̹]	朝鲜语 (명사)	
 row	pron	한국인	[ˈha̠(ː)nɡuɡin]	[ˈha̠(ː)nɡuɡin]	一个韩国人 (명사)	
-row	pron	한꺼번에	[ha̠nk͈ʌ̹bʌ̹ne̞]	[ha̠nk͈ʌ̹bʌ̹ne̞]	同时 tóngshí (부사)	
+row	pron	한꺼번에	[ha̠nk͈ʌ̹bʌ̹ne̞]	[ha̠nk͈ʌ̹bʌ̹ne̞]	一下子；一股脑儿；同时 (부사)	
 row	pron	한낮	[ha̠nna̠t̚]	[ha̠nna̠t̚]	正午 (명사)	
 row	pron	한동안	[ha̠ndo̞ŋa̠n]	[ha̠ndo̞ŋa̠n]	了一会 (부사)	
 row	pron	한둘	[ha̠nduɭ]	[ha̠nduɭ]	一两 (수사)	
@@ -7101,7 +7101,7 @@ row	pron	분리되다	[puʎʎidwe̞da̠]	[puʎʎidwe̞da̠]	待分离 (동사)
 row	pron	불과하다	[puɭɡwa̠ɦa̠da̠]	[puɭɡwa̠ɦa̠da̠]	不超过 (형용사)	
 row	pron	불완전하다	[puɾwa̠ɲd͡ʑʌ̹nɦa̠da̠]	[puɾwa̠ɲd͡ʑʌ̹nɦa̠da̠]	不完整 (형용사)	
 row	pron	불필요하다	[puɭpʰiɾjoɦa̠da̠]	[puɭpʰiɾjoɦa̠da̠]	不必要 (형용사)	
-row	pron	사실상	[ˈsʰa̠(ː)ɕʰiɭs͈a̠ŋ]	[ˈsʰa̠(ː)ɕʰiɭs͈a̠ŋ]	实际上 ;prep.事实上 (부사)	
+row	pron	사실상	[ˈsʰa̠(ː)ɕʰiɭs͈a̠ŋ]	[ˈsʰa̠(ː)ɕʰiɭs͈a̠ŋ]	事实上；实际上 (부사)	
 row	pron	사회주의	[sʰa̠βwe̞d͡ʑuɰi]	[sʰa̠βwe̞d͡ʑuɰi]	社会主义 (명사)	
 row	pron	삼가다	[sʰa̠mɡa̠da̠]	[sʰa̠mɡa̠da̠]	避免 (동사)	
 row	pron	삼국	[sʰa̠mɡuk̚]	[sʰa̠mɡuk̚]	三国 (명사)	
@@ -7272,7 +7272,7 @@ row	pron	탁월하다	[tʰa̠ɡwʌ̹ɾɦa̠da̠]	[tʰa̠ɡwʌ̹ɾɦa̠da̠]	优�
 row	pron	탓	[tʰa̠t̚]	[tʰa̠t̚]	在 (명사)	
 row	pron	테러	[tʰe̞ɾʌ̹]	[tʰe̞ɾʌ̹]	恐怖主义行为 (명사)	
 row	pron	텍스트	[tʰe̞ks͈ɯtʰɯ]	[tʰe̞ks͈ɯtʰɯ]	文本 (명사)	
-row	pron	토대	[tʰo̞dɛ]	[tʰo̞dɛ]	收牌区slot type (명사)	
+row	pron	토대	[tʰo̞dɛ]	[tʰo̞dɛ]	基础；基石；底座 (명사)	
 row	pron	토론하다	[ˈtʰo̞(ː)ɾo̞nɦa̠da̠]	[ˈtʰo̞(ː)ɾo̞nɦa̠da̠]	辩论 (동사)	
 row	pron	토론회	[ˈtʰo̞(ː)ɾo̞nβwe̞]	[ˈtʰo̞(ː)ɾo̞nβwe̞]	争论 (명사)	
 row	pron	통과하다	[tʰo̞ŋɡwa̠ɦa̠da̠]	[tʰo̞ŋɡwa̠ɦa̠da̠]	及格线 (동사)	
@@ -7405,8 +7405,8 @@ row	sentence	기차				例句：기차로 부산에 갈 거예요.（我要搭�
 row	sentence	기차				例句：신문 기사에서도 기차를 자주 접할 수 있습니다.（在报纸报道中也经常能接触到火车。）
 row	sentence	기차				例句：초심자에게 기차가 좋은 출발점이 됩니다.（对初学者来说，火车是一个好的起点。）
 row	sentence	공항				例句：공항까지 얼마나 걸려요?（到机场要花多久时间？）
-row	sentence	공항				例句：공항과 비교하면 공항의 특징이 더 분명해집니다.（与【2】银行比较之后，其特点会更加分明。）
-row	sentence	공항				例句：시간이 지나면서 공항에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对【2】银行的认识正在拓宽。）
+row	sentence	공항				例句：공항과 비교하면 공항의 특징이 더 분명해집니다.（与机场比较之后，其特点会更加分明。）
+row	sentence	공항				例句：시간이 지나면서 공항에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对机场的认识正在拓宽。）
 row	sentence	호텔				例句：호텔 예약했어요?（你预订了酒店吗？）
 row	sentence	호텔				例句：우리는 다양한 경험을 통해 호텔에 대한 폭넓은 시각을 기를 수 있습니다.（我们能够通过丰富的经历培养对酒店更加宽广的视角。）
 row	sentence	호텔				例句：최근 들어 많은 사람들이 호텔의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到酒店的重要性。）
@@ -15037,8 +15037,8 @@ row	sentence	복원				例句：역사적 건물의 복원은 매우 중요해�
 row	sentence	복원				例句：기존의 관점에서 벗어나 복원으로 접근하는 새로운 시도가 요구됩니다.（需要打破传统视角，以修复为导向展开新的尝试。）
 row	sentence	복원				例句：어려운 여건 속에서도 복원이 제 역할을 다해 큰 성과를 거두었습니다.（即便在艰难的条件下，修复依然发挥了充分的作用并取得了显著成果。）
 row	sentence	등대				例句：등대는 밤에 배를 안내해요.（灯塔在夜间引导船只。）
-row	sentence	등대				例句：기회가 되면 등대를 직접 경험해 보시길 권합니다.（如果有机会，推荐亲自体验一下【11】蓝方基地。）
-row	sentence	등대				例句：등대가 요즘 특히 주목받고 있습니다.（【11】蓝方基地近来尤其受到关注。）
+row	sentence	등대				例句：기회가 되면 등대를 직접 경험해 보시길 권합니다.（如果有机会，推荐亲自去看看灯塔。）
+row	sentence	등대				例句：등대가 요즘 특히 주목받고 있습니다.（灯塔近来尤其受到关注。）
 row	sentence	탑				例句：불국사의 탑은 정말 아름다워요.（佛国寺的宝塔真的很漂亮。）
 row	sentence	탑				例句：전문가와 일반인 모두 탑에 대해 이야기하고 싶어 합니다.（专家和普通人都想谈谈塔。）
 row	sentence	탑				例句：여러 나라에서 탑을 두고 두고 연구해 왔습니다.（许多国家一直在反复研究塔。）
@@ -21957,18 +21957,18 @@ row	sentence	몽골				例句：여러 나라에서 몽골을 두고 두고 연�
 row	sentence	무겁다				例句：무겁다는 이야기를 어릴 때 자주 들었어요.（小时候常听人说很要沉重。）
 row	sentence	무겁다				例句：새 환경이 처음엔 좀 무겁게 느껴질 수 있어요.（新环境起初可能让人觉得有点要沉重。）
 row	sentence	무겁다				例句：그 소식을 듣고 모두 무겁다고 했어요.（听到那个消息，大家都说很要沉重。）
-row	sentence	무게				例句：체계적인 학습과 연구를 거쳐 무게로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向（按重量计） (명사)的方向推进发展。）
-row	sentence	무게				例句：이 보고서는 무게가 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了（按重量计） (명사)对我们日常生活所产生的积极影响。）
-row	sentence	무게				例句：많은 학자들은 학술 토론회에서 무게를 심도 있게 다루었습니다.（许多学者在学术研讨会上对（按重量计） (명사)进行了深入的探讨。）
+row	sentence	무게				例句：체계적인 학습과 연구를 거쳐 무게로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向深度与重量感的方向推进发展。）
+row	sentence	무게				例句：이 보고서는 무게가 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了分量与重量对我们日常生活所产生的积极影响。）
+row	sentence	무게				例句：많은 학자들은 학술 토론회에서 무게를 심도 있게 다루었습니다.（许多学者在学术研讨会上对分量与重量进行了深入的探讨。）
 row	sentence	무궁화				例句：동료들과 깊이 있는 대화를 나누며 무궁화를 새롭게 조명해 보았습니다.（与同事们进行深度对话，从而对木槿进行了全新的审视。）
 row	sentence	무궁화				例句：기존의 관점에서 벗어나 무궁화로 접근하는 새로운 시도가 요구됩니다.（需要打破传统视角，以木槿为导向展开新的尝试。）
 row	sentence	무궁화				例句：어려운 여건 속에서도 무궁화가 제 역할을 다해 큰 성과를 거두었습니다.（即便在艰难的条件下，木槿依然发挥了充分的作用并取得了显著成果。）
 row	sentence	무슨				例句：무슨이 요즘 특히 주목받고 있습니다.（什么近来尤其受到关注。）
 row	sentence	무슨				例句：이번 학기 세미나에서는 무슨을 집중적으로 다룰 예정입니다.（本学期的研讨课将集中探讨什么。）
 row	sentence	무슨				例句：기회가 되면 무슨을 직접 경험해 보시길 권합니다.（如果有机会，推荐亲自体验一下什么。）
-row	sentence	무엇				例句：초심자에게 무엇이 좋은 출발점이 됩니다.（对初学者来说，what -在问题中使用是一个好的起点。）
-row	sentence	무엇				例句：전문가와 일반인 모두 무엇에 대해 이야기하고 싶어 합니다.（专家和普通人都想谈谈what -在问题中使用。）
-row	sentence	무엇				例句：여러 나라에서 무엇을 두고 두고 연구해 왔습니다.（许多国家一直在反复研究what -在问题中使用。）
+row	sentence	무엇				例句：초심자에게 무엇이 좋은 출발점이 됩니다.（对初学者来说，把握“什么”是一个好的起点。）
+row	sentence	무엇				例句：전문가와 일반인 모두 무엇에 대해 이야기하고 싶어 합니다.（专家和普通人都想探究究竟是什么。）
+row	sentence	무엇				例句：여러 나라에서 무엇을 두고 두고 연구해 왔습니다.（许多国家一直在反复研究究竟是什么。）
 row	sentence	물건				例句：물건이 우리 생활 곳곳에 스며들어 있습니다.（部渗透在我们生活的各个角落。）
 row	sentence	물건				例句：시간이 지나면서 물건에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对部的认识正在拓宽。）
 row	sentence	물건				例句：다양한 분야에서 물건을 응용하고 있습니다.（各个领域都在应用部。）
@@ -22272,9 +22272,9 @@ row	sentence	스파게티				例句：성공적인 미래를 준비하기 위해
 row	sentence	스포츠				例句：기존의 관점에서 벗어나 스포츠로 접근하는 새로운 시도가 요구됩니다.（需要打破传统视角，以体育为导向展开新的尝试。）
 row	sentence	스포츠				例句：어려운 여건 속에서도 스포츠가 제 역할을 다해 큰 성과를 거두었습니다.（即便在艰难的条件下，体育依然发挥了充分的作用并取得了显著成果。）
 row	sentence	스포츠				例句：우리는 실천적인 노력을 기울여 스포츠의 완성도를 높여야 합니다.（我们必须付出切实具体的努力，以提升体育的成熟度。）
-row	sentence	슬퍼하다				例句：요즘 슬퍼하는 것을 좋아하는 사람이 많아졌어요.（近来喜欢找到SAD的人变多了。）
-row	sentence	슬퍼하다				例句：매일 조금씩 슬퍼하려고 노력하고 있어요.（我每天都在努力一点点去找到SAD。）
-row	sentence	슬퍼하다				例句：지난주에 처음으로 슬퍼하는 것에 도전해 봤어요.（上周我第一次挑战了找到SAD。）
+row	sentence	슬퍼하다				例句：요즘 슬퍼하는 것을 좋아하는 사람이 많아졌어요.（近来常沉浸于悲伤感怀的人变多了。）
+row	sentence	슬퍼하다				例句：매일 조금씩 슬퍼하려고 노력하고 있어요.（我每天都在努力面对悲伤情绪。）
+row	sentence	슬퍼하다				例句：지난주에 처음으로 슬퍼하는 것에 도전해 봤어요.（上周我第一次直面了悲伤。）
 row	sentence	습관				例句：습관을/를 둘러싼 논의가 활발해지고 있습니다.（围绕习惯的讨论正变得活跃。）
 row	sentence	습관				例句：전문가와 일반인 모두 습관에 대해 이야기하고 싶어 합니다.（专家和普通人都想谈谈习惯。）
 row	sentence	습관				例句：여러 나라에서 습관을 두고 두고 연구해 왔습니다.（许多国家一直在反复研究习惯。）
@@ -22443,12 +22443,12 @@ row	sentence	얇다				例句：새 환경이 처음엔 좀 얇게 느껴질 수
 row	sentence	양치질				例句：양치질은 사회 전반에 걸친 영향을 미칩니다.（刷牙对整个社会都产生了影响。）
 row	sentence	양치질				例句：세계화 시대에 발맞추어 양치질은 국제적인 주목을 받고 있습니다.（顺应全球化时代的发展步伐，刷牙正在受到国际社会的广泛瞩目。）
 row	sentence	양치질				例句：체계적인 관리 시스템을 구축하여 양치질을 효율적으로 활용하고 있습니다.（通过建立规范的管理系统，正在对刷牙进行高效利用。）
-row	sentence	얘기				例句：얘기는 사회 전반에 걸친 영향을 미칩니다.（이야기 : talk的收缩对整个社会都产生了影响。）
-row	sentence	얘기				例句：일상 속에서도 얘기가 쉽게 찾아볼 수 있습니다.（在日常生活中也容易见到이야기 : talk的收缩。）
-row	sentence	얘기				例句：얘기와 관련된 경험은 누구에게나 소중한 자산이 됩니다.（与이야기 : talk的收缩相关的经历会成为每个人宝贵的财富。）
-row	sentence	얘기하다				例句：요즘 얘기하는 것을 좋아하는 사람이 많아졌어요.（近来喜欢이야기하다 : to talk的收缩的人变多了。）
-row	sentence	얘기하다				例句：매일 조금씩 얘기하려고 노력하고 있어요.（我每天都在努力一点点去이야기하다 : to talk的收缩。）
-row	sentence	얘기하다				例句：지난주에 처음으로 얘기하는 것에 도전해 봤어요.（上周我第一次挑战了이야기하다 : to talk的收缩。）
+row	sentence	얘기				例句：얘기는 사회 전반에 걸친 영향을 미칩니다.（故事与交谈对整个社会都产生了影响。）
+row	sentence	얘기				例句：일상 속에서도 얘기가 쉽게 찾아볼 수 있습니다.（在日常生活中也容易听到各种故事与谈话。）
+row	sentence	얘기				例句：얘기와 관련된 경험은 누구에게나 소중한 자산이 됩니다.（与交谈和故事相关的经历会成为每个人宝贵的财富。）
+row	sentence	얘기하다				例句：요즘 얘기하는 것을 좋아하는 사람이 많아졌어요.（近来喜欢聊天谈话的人变多了。）
+row	sentence	얘기하다				例句：매일 조금씩 얘기하려고 노력하고 있어요.（我每天都在努力多说一点、多聊一点。）
+row	sentence	얘기하다				例句：지난주에 처음으로 얘기하는 것에 도전해 봤어요.（上周我第一次尝试主动与人交谈。）
 row	sentence	어둡다				例句：요즘 들어 모든 게 좀 어둡다고 느껴져요.（最近总觉得一切都很深色。）
 row	sentence	어둡다				例句：이 제품은 사용자들 사이에서 어둡다는 평가를 받고 있어요.（这款产品在用户之间获得了深色的评价。）
 row	sentence	어둡다				例句：오늘따라 유독 어둡네요.（今天格外觉得深色。）
@@ -22470,9 +22470,9 @@ row	sentence	어린아이				例句：전문가들은 어린아이를 올바르�
 row	sentence	어머님				例句：어머님이 요즘 특히 주목받고 있습니다.（尊敬的 어머니近来尤其受到关注。）
 row	sentence	어머님				例句：많은 학자들은 학술 토론회에서 어머님을 심도 있게 다루었습니다.（许多学者在学术研讨会上对尊敬的 어머니进行了深入的探讨。）
 row	sentence	어머님				例句：성공적인 미래를 준비하기 위해서는 어머님과 관련된 지식을 쌓아야 합니다.（为了准备成功的未来，必须积累与尊敬的 어머니相关的知识。）
-row	sentence	어울리다				例句：요즘 어울리는 것을 좋아하는 사람이 많아졌어요.（近来喜欢到SUIT的人变多了。）
-row	sentence	어울리다				例句：매일 조금씩 어울리려고 노력하고 있어요.（我每天都在努力一点点去到SUIT。）
-row	sentence	어울리다				例句：지난주에 처음으로 어울리는 것에 도전해 봤어요.（上周我第一次挑战了到SUIT。）
+row	sentence	어울리다				例句：요즘 어울리는 것을 좋아하는 사람이 많아졌어요.（近来喜欢融洽相处的人变多了。）
+row	sentence	어울리다				例句：매일 조금씩 어울리려고 노력하고 있어요.（我每天都在努力融入并相处融洽。）
+row	sentence	어울리다				例句：지난주에 처음으로 어울리는 것에 도전해 봤어요.（上周我第一次尝试融入集体。）
 row	sentence	어젯밤				例句：어젯밤이 요즘 특히 주목받고 있습니다.（昨夜近来尤其受到关注。）
 row	sentence	어젯밤				例句：관련 업계에서는 어젯밤을 중요한 과제로 꼽고 있습니다.（相关行业把昨夜列为重要课题。）
 row	sentence	어젯밤				例句：일상 속에서도 어젯밤이 쉽게 찾아볼 수 있습니다.（在日常生活中也容易见到昨夜。）
@@ -22917,9 +22917,9 @@ row	sentence	집들이				例句：현대 사회에서 집들이는 개인의 �
 row	sentence	짜증				例句：이 보고서는 짜증이 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了刺激对我们日常生活所产生的积极影响。）
 row	sentence	짜증				例句：많은 학자들은 학술 토론회에서 짜증을 심도 있게 다루었습니다.（许多学者在学术研讨会上对刺激进行了深入的探讨。）
 row	sentence	짜증				例句：성공적인 미래를 준비하기 위해서는 짜증과 관련된 지식을 쌓아야 합니다.（为了准备成功的未来，必须积累与刺激相关的知识。）
-row	sentence	짧다				例句：짧다는 이야기를 어릴 때 자주 들었어요.（小时候常听人说很短整型data type in C。）
-row	sentence	짧다				例句：친구는 그 장소가 짧다고 했어요.（朋友说那个地方很短整型data type in C。）
-row	sentence	짧다				例句：새 환경이 처음엔 좀 짧게 느껴질 수 있어요.（新环境起初可能让人觉得有点短整型data type in C。）
+row	sentence	짧다				例句：짧다는 이야기를 어릴 때 자주 들었어요.（小时候常听人说时间短暂或长度太短。）
+row	sentence	짧다				例句：친구는 그 장소가 짧다고 했어요.（朋友说在那里停留的时间太短了。）
+row	sentence	짧다				例句：새 환경이 처음엔 좀 짧게 느껴질 수 있어요.（新环境起初可能让人觉得时光短暂。）
 row	sentence	착하다				例句：착하다는 이야기를 어릴 때 자주 들었어요.（小时候常听人说很心地善良。）
 row	sentence	착하다				例句：저는 이번 결과가 좀 착하다고 봐요.（我觉得这次结果有些心地善良。）
 row	sentence	착하다				例句：친구는 그 장소가 착하다고 했어요.（朋友说那个地方很心地善良。）
@@ -23736,9 +23736,9 @@ row	sentence	그나마				例句：그 일은 생각보다 그나마 풀렸어�
 row	sentence	그녀				例句：새로운 환경에 적응하면서 그녀에 대한 관심이 더욱 커졌습니다.（在适应新环境的过程中，对她的关注度进一步提升了。）
 row	sentence	그녀				例句：국가와 사회의 지속 가능한 발전을 위해 그녀는 필수적인 요소입니다.（为了国家与社会的可持续发展，她是必不可少的关键要素。）
 row	sentence	그녀				例句：우리는 교육 과정을 통해 그녀의 본질적 가치를 배울 수 있습니다.（我们能够通过教育课程学到她的本质价值。）
-row	sentence	그늘				例句：그늘은 사회 전반에 걸친 영향을 미칩니다.（阴影Note this is a KRunner对整个社会都产生了影响。）
-row	sentence	그늘				例句：세계화 시대에 발맞추어 그늘은 국제적인 주목을 받고 있습니다.（顺应全球化时代的发展步伐，阴影Note this is a KRunner正在受到国际社会的广泛瞩目。）
-row	sentence	그늘				例句：체계적인 관리 시스템을 구축하여 그늘을 효율적으로 활용하고 있습니다.（通过建立规范的管理系统，正在对阴影Note this is a KRunner进行高效利用。）
+row	sentence	그늘				例句：그늘은 사회 전반에 걸친 영향을 미칩니다.（阴暗面与树荫对整个社会都产生了影响。）
+row	sentence	그늘				例句：세계화 시대에 발맞추어 그늘은 국제적인 주목을 받고 있습니다.（顺应全球化时代的发展步伐，阴凉与暗处问题正在受到国际社会的广泛瞩目。）
+row	sentence	그늘				例句：체계적인 관리 시스템을 구축하여 그늘을 효율적으로 활용하고 있습니다.（通过建立规范的管理系统，正在对绿荫与遮阴处进行高效利用。）
 row	sentence	그다음				例句：문제를 그다음 다루면 결과가 달라져요.（下一张处理问题，结果就会不一样。）
 row	sentence	그다음				例句：그는 어떤 일이든 그다음 받아들여요.（无论什么事，他都下一张接受。）
 row	sentence	그다음				例句：학생들이 그다음 발표를 준비했어요.（学生们下一张准备了发表。）
@@ -24084,9 +24084,9 @@ row	sentence	내려앉다				例句：지난주에 처음으로 내려앉는 것
 row	sentence	내밀다				例句：내밀기 전에 계획을 세우는 편이 좋아요.（在推出或推出或向前。之前，最好先制定好计划。）
 row	sentence	내밀다				例句：친구와 함께 내밀기로 했어요.（我决定和朋友一起推出或推出或向前。。）
 row	sentence	내밀다				例句：내밀는 것을 처음 배웠을 때 어려웠어요.（刚开始学推出或推出或向前。的时候觉得很难。）
-row	sentence	내버리다				例句：요즘 내버리는 것을 좋아하는 사람이 많아졌어요.（近来喜欢丢弃@ info的人变多了。）
-row	sentence	내버리다				例句：매일 조금씩 내버리려고 노력하고 있어요.（我每天都在努力一点点去丢弃@ info。）
-row	sentence	내버리다				例句：지난주에 처음으로 내버리는 것에 도전해 봤어요.（上周我第一次挑战了丢弃@ info。）
+row	sentence	내버리다				例句：요즘 내버리는 것을 좋아하는 사람이 많아졌어요.（近来推崇断舍离、扔掉不需要物品的人变多了。）
+row	sentence	내버리다				例句：매일 조금씩 내버리려고 노력하고 있어요.（我每天都在努力一点点清理并丢掉废品。）
+row	sentence	내버리다				例句：지난주에 처음으로 내버리는 것에 도전해 봤어요.（上周我第一次尝试扔掉堆积的杂物。）
 row	sentence	내보내다				例句：내보내기 전에 계획을 세우는 편이 좋아요.（在让外出之前，最好先制定好计划。）
 row	sentence	내보내다				例句：친구와 함께 내보내기로 했어요.（我决定和朋友一起让外出。）
 row	sentence	내보내다				例句：내보내는 것을 처음 배웠을 때 어려웠어요.（刚开始学让外出的时候觉得很难。）
@@ -25602,9 +25602,9 @@ row	sentence	사업자				例句：전문가들은 사업자를 올바르게 이
 row	sentence	사용되다				例句：사용되기 전에 계획을 세우는 편이 좋아요.（在待用之前，最好先制定好计划。）
 row	sentence	사용되다				例句：친구와 함께 사용되기로 했어요.（我决定和朋友一起待用。）
 row	sentence	사용되다				例句：사용되는 것을 처음 배웠을 때 어려웠어요.（刚开始学待用的时候觉得很难。）
-row	sentence	사용자				例句：사용자가 요즘 특히 주목받고 있습니다.（users用户近来尤其受到关注。）
-row	sentence	사용자				例句：어려운 여건 속에서도 사용자가 제 역할을 다해 큰 성과를 거두었습니다.（即便在艰难的条件下，users用户依然发挥了充分的作用并取得了显著成果。）
-row	sentence	사용자				例句：우리는 실천적인 노력을 기울여 사용자의 완성도를 높여야 합니다.（我们必须付出切实具体的努力，以提升users用户的成熟度。）
+row	sentence	사용자				例句：사용자가 요즘 특히 주목받고 있습니다.（用户近来尤其受到关注。）
+row	sentence	사용자				例句：어려운 여건 속에서도 사용자가 제 역할을 다해 큰 성과를 거두었습니다.（即便在艰难的条件下，使用者依然发挥了充分的作用并取得了显著成果。）
+row	sentence	사용자				例句：우리는 실천적인 노력을 기울여 사용자의 완성도를 높여야 합니다.（我们必须付出切实具体的努力，以提升用户体验的成熟度。）
 row	sentence	사우나				例句：사우나가 요즘 특히 주목받고 있습니다.（桑拿近来尤其受到关注。）
 row	sentence	사우나				例句：관련 업계에서는 사우나를 중요한 과제로 꼽고 있습니다.（相关行业把桑拿列为重要课题。）
 row	sentence	사우나				例句：일상 속에서도 사우나가 쉽게 찾아볼 수 있습니다.（在日常生活中也容易见到桑拿。）
@@ -26073,9 +26073,9 @@ row	sentence	싱싱하다				例句：친구는 그 장소가 싱싱하다고 �
 row	sentence	싸구려				例句：초심자에게 싸구려가 좋은 출발점이 됩니다.（对初学者来说，便宜货是一个好的起点。）
 row	sentence	싸구려				例句：전문가와 일반인 모두 싸구려에 대해 이야기하고 싶어 합니다.（专家和普通人都想谈谈便宜货。）
 row	sentence	싸구려				例句：여러 나라에서 싸구려를 두고 두고 연구해 왔습니다.（许多国家一直在反复研究便宜货。）
-row	sentence	쌍둥이				例句：쌍둥이가 우리 생활 곳곳에 스며들어 있습니다.（双子zodiac symbol for Canc渗透在我们生活的各个角落。）
-row	sentence	쌍둥이				例句：시간이 지나면서 쌍둥이에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对双子zodiac symbol for Canc的认识正在拓宽。）
-row	sentence	쌍둥이				例句：다양한 분야에서 쌍둥이를 응용하고 있습니다.（各个领域都在应用双子zodiac symbol for Canc。）
+row	sentence	쌍둥이				例句：쌍둥이가 우리 생활 곳곳에 스며들어 있습니다.（双胞胎的故事渗透在我们生活的各个角落。）
+row	sentence	쌍둥이				例句：시간이 지나면서 쌍둥이에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对双胞胎的认识正在拓宽。）
+row	sentence	쌍둥이				例句：다양한 분야에서 쌍둥이를 응용하고 있습니다.（各个领域都在关注双胞胎现象。）
 row	sentence	쌓이다				例句：쌓이는 것을 처음 배웠을 때 어려웠어요.（刚开始学打桩的时候觉得很难。）
 row	sentence	쌓이다				例句：요즘 쌓이는 것을 좋아하는 사람이 많아졌어요.（近来喜欢打桩的人变多了。）
 row	sentence	쌓이다				例句：매일 조금씩 쌓이려고 노력하고 있어요.（我每天都在努力一点点去打桩。）
@@ -26637,9 +26637,9 @@ row	sentence	우체통				例句：체계적인 학습과 연구를 거쳐 우�
 row	sentence	우회전				例句：우회전과 관련된 경험은 누구에게나 소중한 자산이 됩니다.（与右转相关的经历会成为每个人宝贵的财富。）
 row	sentence	우회전				例句：국가와 사회의 지속 가능한 발전을 위해 우회전은 필수적인 요소입니다.（为了国家与社会的可持续发展，右转是必不可少的关键要素。）
 row	sentence	우회전				例句：우리는 교육 과정을 통해 우회전의 본질적 가치를 배울 수 있습니다.（我们能够通过教育课程学到右转的本质价值。）
-row	sentence	운동량				例句：운동량과 관련된 경험은 누구에게나 소중한 자산이 됩니다.（与动量PropertyName相关的经历会成为每个人宝贵的财富。）
-row	sentence	운동량				例句：체계적인 관리 시스템을 구축하여 운동량을 효율적으로 활용하고 있습니다.（通过建立规范的管理系统，正在对动量PropertyName进行高效利用。）
-row	sentence	운동량				例句：공공의 이익을 증진하기 위해 운동량과 긴밀한 협력을 이어가고 있습니다.（为了增进公众利益，正保持与动量PropertyName的紧密协作。）
+row	sentence	운동량				例句：운동량과 관련된 경험은 누구에게나 소중한 자산이 됩니다.（与运动量相关的经验会成为每个人宝贵的财富。）
+row	sentence	운동량				例句：체계적인 관리 시스템을 구축하여 운동량을 효율적으로 활용하고 있습니다.（通过建立规范的管理系统，正在对运动量进行高效管理与利用。）
+row	sentence	운동량				例句：공공의 이익을 증진하기 위해 운동량과 긴밀한 협력을 이어가고 있습니다.（为了增进公众健康，正围绕运动量开展密切的指导配合。）
 row	sentence	운동선수				例句：운동선수와 관련된 경험은 누구에게나 소중한 자산이 됩니다.（与运动员相关的经历会成为每个人宝贵的财富。）
 row	sentence	운동선수				例句：신문 기사에서도 운동선수를 자주 접할 수 있습니다.（在报纸报道中也经常能接触到运动员。）
 row	sentence	운동선수				例句：초심자에게 운동선수가 좋은 출발점이 됩니다.（对初学者来说，运动员是一个好的起点。）
@@ -26823,9 +26823,9 @@ row	sentence	이어지다				例句：이어지는 것을 처음 배웠을 때 �
 row	sentence	이용되다				例句：이용되기 때문에 요즘 시간이 부족해요.（因为要待用，近来时间不够用。）
 row	sentence	이용되다				例句：요즘 이용되는 것을 좋아하는 사람이 많아졌어요.（近来喜欢待用的人变多了。）
 row	sentence	이용되다				例句：매일 조금씩 이용되려고 노력하고 있어요.（我每天都在努力一点点去待用。）
-row	sentence	이용자				例句：이용자가 요즘 특히 주목받고 있습니다.（users用户近来尤其受到关注。）
-row	sentence	이용자				例句：이번 학기 세미나에서는 이용자를 집중적으로 다룰 예정입니다.（本学期的研讨课将集中探讨users用户。）
-row	sentence	이용자				例句：기회가 되면 이용자를 직접 경험해 보시길 권합니다.（如果有机会，推荐亲自体验一下users用户。）
+row	sentence	이용자				例句：이용자가 요즘 특히 주목받고 있습니다.（用户近来尤其受到关注。）
+row	sentence	이용자				例句：이번 학기 세미나에서는 이용자를 집중적으로 다룰 예정입니다.（本学期的研讨课将集中探讨使用者的需求。）
+row	sentence	이용자				例句：기회가 되면 이용자를 직접 경험해 보시길 권합니다.（如果有机会，推荐亲自体验作为用户的感受。）
 row	sentence	이웃집				例句：초심자에게 이웃집이 좋은 출발점이 됩니다.（对初学者来说，邻居家是一个好的起点。）
 row	sentence	이웃집				例句：전문가와 일반인 모두 이웃집에 대해 이야기하고 싶어 합니다.（专家和普通人都想谈谈邻居家。）
 row	sentence	이웃집				例句：여러 나라에서 이웃집을 두고 두고 연구해 왔습니다.（许多国家一直在反复研究邻居家。）
@@ -26862,9 +26862,9 @@ row	sentence	인삼차				例句：초심자에게 인삼차가 좋은 출발점
 row	sentence	인상적				例句：인상적과 비교하면 인상적의 특징이 더 분명해집니다.（与难以忘怀的比较之后，其特点会更加分明。）
 row	sentence	인상적				例句：학교 교육에서도 인상적을 점점 더 많이 다루고 있습니다.（学校教育中也越来越多地涉及难以忘怀的。）
 row	sentence	인상적				例句：시간이 지나면서 인상적에 대한 인식이 넓어지고 있습니다.（随着时间的推移，人们对难以忘怀的的认识正在拓宽。）
-row	sentence	인쇄				例句：전문가들은 인쇄를 올바르게 이해하는 것이 무엇보다 중요하다고 강조합니다.（专家们强调，正确理解打印" executing object "ac比什么都重要。）
-row	sentence	인쇄				例句：우리는 다양한 경험을 통해 인쇄에 대한 폭넓은 시각을 기를 수 있습니다.（我们能够通过丰富的经历培养对打印" executing object "ac更加宽广的视角。）
-row	sentence	인쇄				例句：최근 들어 많은 사람들이 인쇄의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到打印" executing object "ac的重要性。）
+row	sentence	인쇄				例句：전문가들은 인쇄를 올바르게 이해하는 것이 무엇보다 중요하다고 강조합니다.（专家们强调，正确理解印刷技术比什么都重要。）
+row	sentence	인쇄				例句：우리는 다양한 경험을 통해 인쇄에 대한 폭넓은 시각을 기를 수 있습니다.（我们能够通过丰富的经历培养对印刷行业更加宽广的视角。）
+row	sentence	인쇄				例句：최근 들어 많은 사람들이 인쇄의 중요성을 깊이 인식하기 시작했습니다.（近来许多人开始深刻认识到印刷品质的重要性。）
 row	sentence	인스턴트				例句：새로운 환경에 적응하면서 인스턴트에 대한 관심이 더욱 커졌습니다.（在适应新环境的过程中，对瞬间的关注度进一步提升了。）
 row	sentence	인스턴트				例句：국가와 사회의 지속 가능한 발전을 위해 인스턴트는 필수적인 요소입니다.（为了国家与社会的可持续发展，瞬间是必不可少的关键要素。）
 row	sentence	인스턴트				例句：우리는 교육 과정을 통해 인스턴트의 본질적 가치를 배울 수 있습니다.（我们能够通过教育课程学到瞬间的本质价值。）
@@ -27237,9 +27237,9 @@ row	sentence	주먹				例句：현대 사회에서 주먹은 개인의 삶과 �
 row	sentence	주민				例句：이 보고서는 주민이 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了某个地方的居民对我们日常生活所产生的积极影响。）
 row	sentence	주민				例句：많은 학자들은 학술 토론회에서 주민을 심도 있게 다루었습니다.（许多学者在学术研讨会上对某个地方的居民进行了深入的探讨。）
 row	sentence	주민				例句：성공적인 미래를 준비하기 위해서는 주민과 관련된 지식을 쌓아야 합니다.（为了准备成功的未来，必须积累与某个地方的居民相关的知识。）
-row	sentence	주어지다				例句：주어지기 전에 계획을 세우는 편이 좋아요.（在【待提供】之前，最好先制定好计划。）
-row	sentence	주어지다				例句：친구와 함께 주어지기로 했어요.（我决定和朋友一起【待提供】。）
-row	sentence	주어지다				例句：주어지는 것을 처음 배웠을 때 어려웠어요.（刚开始学【待提供】的时候觉得很难。）
+row	sentence	주어지다				例句：주어지기 전에 계획을 세우는 편이 좋아요.（在机会赋予之前，最好先制定好计划。）
+row	sentence	주어지다				例句：친구와 함께 주어지기로 했어요.（我决定和朋友一起接受所给予的任务。）
+row	sentence	주어지다				例句：주어지는 것을 처음 배웠을 때 어려웠어요.（刚开始理解被赋予的意义时觉得很难。）
 row	sentence	주인공				例句：주인공이 요즘 특히 주목받고 있습니다.（主角近来尤其受到关注。）
 row	sentence	주인공				例句：기회가 되면 주인공을 직접 경험해 보시길 권합니다.（如果有机会，推荐亲自体验一下主角。）
 row	sentence	주인공				例句：관련 업계에서는 주인공을 중요한 과제로 꼽고 있습니다.（相关行业把主角列为重要课题。）
@@ -27357,9 +27357,9 @@ row	sentence	직접적				例句：여러 나라에서 직접적을 두고 두�
 row	sentence	직후				例句：직후가 우리 생활 곳곳에 스며들어 있습니다.（紧接着某件事渗透在我们生活的各个角落。）
 row	sentence	직후				例句：다양한 분야에서 직후를 응용하고 있습니다.（各个领域都在应用紧接着某件事。）
 row	sentence	직후				例句：앞으로 직후의 역할은 더욱 중요해질 것입니다.（未来紧接着某件事的作用会变得更加重要。）
-row	sentence	진리				例句：체계적인 학습과 연구를 거쳐 진리로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向为什么无需迷信 PageSpeed分数：%1$s的方向推进发展。）
-row	sentence	진리				例句：이 보고서는 진리가 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了为什么无需迷信 PageSpeed分数：%1$s对我们日常生活所产生的积极影响。）
-row	sentence	진리				例句：많은 학자들은 학술 토론회에서 진리를 심도 있게 다루었습니다.（许多学者在学术研讨会上对为什么无需迷信 PageSpeed分数：%1$s进行了深入的探讨。）
+row	sentence	진리				例句：체계적인 학습과 연구를 거쳐 진리로 발전시킬 수 있었습니다.（经过系统的学习与研究，成功将其向探求真理的方向推进发展。）
+row	sentence	진리				例句：이 보고서는 진리가 우리 일상생활에 미치는 긍정적인 영향을 다루고 있습니다.（这份报告探讨了探求真理对我们日常生活所产生的积极影响。）
+row	sentence	진리				例句：많은 학자들은 학술 토론회에서 진리를 심도 있게 다루었습니다.（许多学者在学术研讨会上对真理进行了深入的探讨。）
 row	sentence	진지하다				例句：진지하다는 이야기를 어릴 때 자주 들었어요.（小时候常听人说很真诚的。）
 row	sentence	진지하다				例句：저는 이번 결과가 좀 진지하다고 봐요.（我觉得这次结果有些真诚的。）
 row	sentence	진지하다				例句：친구는 그 장소가 진지하다고 했어요.（朋友说那个地方很真诚的。）
@@ -27555,9 +27555,9 @@ row	sentence	촬영				例句：일상 속에서도 촬영이 쉽게 찾아볼 �
 row	sentence	최대				例句：최대가 우리 생활 곳곳에 스며들어 있습니다.（最伟大的渗透在我们生活的各个角落。）
 row	sentence	최대				例句：여러 나라에서 최대를 두고 두고 연구해 왔습니다.（许多国家一直在反复研究最伟大的。）
 row	sentence	최대				例句：최대을/를 둘러싼 논의가 활발해지고 있습니다.（围绕最伟大的的讨论正变得活跃。）
-row	sentence	최대한				例句：최대한이 우리 생활 곳곳에 스며들어 있습니다.（(最高限额) (명사)渗透在我们生活的各个角落。）
-row	sentence	최대한				例句：앞으로 최대한의 역할은 더욱 중요해질 것입니다.（未来(最高限额) (명사)的作用会变得更加重要。）
-row	sentence	최대한				例句：현대 사회에서 최대한은 개인의 삶과 밀접한 관련을 맺고 있습니다.（在现代社会中，(最高限额) (명사)与个人的生活有着极其密切的联系。）
+row	sentence	최대한				例句：최대한이 우리 생활 곳곳에 스며들어 있습니다.（尽最大努力的原则渗透在我们生活的各个角落。）
+row	sentence	최대한				例句：앞으로 최대한의 역할은 더욱 중요해질 것입니다.（未来尽量发挥到最大程度的作用会变得更加重要。）
+row	sentence	최대한				例句：현대 사회에서 최대한은 개인의 삶과 밀접한 관련을 맺고 있습니다.（在现代社会中，发挥最大潜能与个人的生活有着极其密切的联系。）
 row	sentence	최소한				例句：상황이 최소한 변하고 있어요.（情况正在至少选择一个项目变化。）
 row	sentence	최소한				例句：문제를 최소한 다루면 결과가 달라져요.（至少选择一个项目处理问题，结果就会不一样。）
 row	sentence	최소한				例句：그는 어떤 일이든 최소한 받아들여요.（无论什么事，他都至少选择一个项目接受。）
@@ -27933,9 +27933,9 @@ row	sentence	한국어				例句：체계적인 학습과 연구를 거쳐 한�
 row	sentence	한국인				例句：한국인과 관련된 경험은 누구에게나 소중한 자산이 됩니다.（与一个韩国人相关的经历会成为每个人宝贵的财富。）
 row	sentence	한국인				例句：국가와 사회의 지속 가능한 발전을 위해 한국인은 필수적인 요소입니다.（为了国家与社会的可持续发展，一个韩国人是必不可少的关键要素。）
 row	sentence	한국인				例句：우리는 교육 과정을 통해 한국인의 본질적 가치를 배울 수 있습니다.（我们能够通过教育课程学到一个韩国人的本质价值。）
-row	sentence	한꺼번에				例句：학생들이 한꺼번에 발표를 준비했어요.（学生们同时 tóngshí准备了发表。）
-row	sentence	한꺼번에				例句：저는 아침에 한꺼번에 일어나는 편이에요.（我早上同时 tóngshí起床。）
-row	sentence	한꺼번에				例句：팀원들이 한꺼번에 협력해서 프로젝트를 마쳤어요.（队员们同时 tóngshí协作完成了项目。）
+row	sentence	한꺼번에				例句：학생들이 한꺼번에 발표를 준비했어요.（学生们一下子同时准备了发表。）
+row	sentence	한꺼번에				例句：저는 아침에 한꺼번에 일어나는 편이에요.（我早上习惯一下子翻身起床。）
+row	sentence	한꺼번에				例句：팀원들이 한꺼번에 협력해서 프로젝트를 마쳤어요.（队员们一同齐心协力完成了项目。）
 row	sentence	한낮				例句：한낮과 관련된 경험은 누구에게나 소중한 자산이 됩니다.（与正午相关的经历会成为每个人宝贵的财富。）
 row	sentence	한낮				例句：신문 기사에서도 한낮을 자주 접할 수 있습니다.（在报纸报道中也经常能接触到正午。）
 row	sentence	한낮				例句：초심자에게 한낮이 좋은 출발점이 됩니다.（对初学者来说，正午是一个好的起点。）
@@ -29148,9 +29148,9 @@ row	sentence	테러				例句：테러와 비교하면 테러의 특징이 더 �
 row	sentence	텍스트				例句：현대 사회에서 텍스트는 개인의 삶과 밀접한 관련을 맺고 있습니다.（在现代社会中，文本与个人的生活有着极其密切的联系。）
 row	sentence	텍스트				例句：전문가들은 텍스트를 올바르게 이해하는 것이 무엇보다 중요하다고 강조합니다.（专家们强调，正确理解文本比什么都重要。）
 row	sentence	텍스트				例句：우리는 다양한 경험을 통해 텍스트에 대한 폭넓은 시각을 기를 수 있습니다.（我们能够通过丰富的经历培养对文本更加宽广的视角。）
-row	sentence	토대				例句：성공적인 미래를 준비하기 위해서는 토대와 관련된 지식을 쌓아야 합니다.（为了准备成功的未来，必须积累与收牌区slot type相关的知识。）
-row	sentence	토대				例句：새로운 환경에 적응하면서 토대에 대한 관심이 더욱 커졌습니다.（在适应新环境的过程中，对收牌区slot type的关注度进一步提升了。）
-row	sentence	토대				例句：국가와 사회의 지속 가능한 발전을 위해 토대는 필수적인 요소입니다.（为了国家与社会的可持续发展，收牌区slot type是必不可少的关键要素。）
+row	sentence	토대				例句：성공적인 미래를 준비하기 위해서는 토대와 관련된 지식을 쌓아야 합니다.（为了准备成功的未来，必须积累扎实坚实的基础知识。）
+row	sentence	토대				例句：새로운 환경에 적응하면서 토대에 대한 관심이 더욱 커졌습니다.（在适应新环境的过程中，对打牢基础的关注度进一步提升了。）
+row	sentence	토대				例句：국가와 사회의 지속 가능한 발전을 위해 토대는 필수적인 요소입니다.（为了国家与社会的可持续发展，坚实的基础是必不可少的关键要素。）
 row	sentence	토론하다				例句：토론하기 전에 계획을 세우는 편이 좋아요.（在辩论之前，最好先制定好计划。）
 row	sentence	토론하다				例句：친구와 함께 토론하기로 했어요.（我决定和朋友一起辩论。）
 row	sentence	토론하다				例句：토론하는 것을 처음 배웠을 때 어려웠어요.（刚开始学辩论的时候觉得很难。）

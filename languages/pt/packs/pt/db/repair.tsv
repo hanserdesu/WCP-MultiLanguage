@@ -1055,7 +1055,7 @@ row	pron	corrida	/koˈʁi.dɐ/	/koˈʁi.dɐ/	[koˈʁi.dɐ] 种族<名>
 row	pron	deixado	/de(j)ˈʃa.du/	/de(j)ˈʃa.du/	[de(j)ˈʃa.du] 左<形>	
 row	pron	central	/sẽˈtɾaw/	/sẽˈtɾaw/	[sẽˈtɾaw] 中央<名>	
 row	pron	notícia	/noˈt͡ʃi.sjɐ/	/noˈt͡ʃi.sjɐ/	[noˈt͡ʃi.sjɐ] 新闻<名>	
-row	pron	perdão	/pɛʁˈdɐ̃w̃/ [pɛɦˈdɐ̃ʊ̯̃]	/pɛʁˈdɐ̃w̃/ [pɛɦˈdɐ̃ʊ̯̃]	[pɛʁˈdɐ̃w̃/ [pɛɦˈdɐ̃ʊ̯̃]] 宽恕<名>	
+row	pron	perdão	/pɛʁˈdɐ̃w̃/ [pɛɦˈdɐ̃ʊ̯̃]	/pɛʁˈdɐ̃w̃/ [pɛɦˈdɐ̃ʊ̯̃]	[pɛʁˈdɐ̃w̃] 宽恕<名>	
 row	pron	interior	/ĩ.te.ɾiˈoʁ/	/ĩ.te.ɾiˈoʁ/	[ĩ.te.ɾiˈoʁ] 室内<名>	
 row	pron	estilo	/isˈt͡ʃi.lu/	/isˈt͡ʃi.lu/	[isˈt͡ʃi.lu] 风格<名>	
 row	pron	acabado	/a.kaˈba.du/	/a.kaˈba.du/	[a.kaˈba.du] 完成<形>	
@@ -5795,7 +5795,7 @@ row	pron	qi			气<名>
 row	pron	cansativo	/kɐ̃.saˈt͡ʃi.vu/	/kɐ̃.saˈt͡ʃi.vu/	[kɐ̃.saˈt͡ʃi.vu] 累<形>	
 row	pron	assaltante	/a.sawˈtɐ̃.t͡ʃi/	/a.sawˈtɐ̃.t͡ʃi/	[a.sawˈtɐ̃.t͡ʃi] 窃贼<名>	
 row	pron	tolerância	/to.leˈɾɐ̃.sjɐ/	/to.leˈɾɐ̃.sjɐ/	[to.leˈɾɐ̃.sjɐ] 宽容<名>	
-row	pron	alabama	[ˌalaˈbɐma]	[ˌalaˈbɐma]	[[ˌalaˈbɐma]] 阿拉巴马州<名>	
+row	pron	alabama	[ˌalaˈbɐma]	[ˌalaˈbɐma]	[ˌalaˈbɐma] 阿拉巴马州<名>	
 row	pron	converter	/kõ.veʁˈte(ʁ)/	/kõ.veʁˈte(ʁ)/	[kõ.veʁˈte(ʁ)] 转换<动>	
 row	pron	pulga	/ˈpuw.ɡɐ/	/ˈpuw.ɡɐ/	[ˈpuw.ɡɐ] 跳蚤<名>	
 row	pron	implante	/ĩˈplɐ̃.t͡ʃi/	/ĩˈplɐ̃.t͡ʃi/	[ĩˈplɐ̃.t͡ʃi] 植入物<名>	
@@ -9252,9 +9252,9 @@ row	sentence	pronto				例句：O museu guarda peças relacionadas com pronto.�
 row	sentence	foram				例句：Adora foram quando chove.（下雨的时候他特别喜欢是。）
 row	sentence	foram				例句：Amanhã vamos ao centro para foram o que falta.（明天我们去市中心是还缺的东西。）
 row	sentence	foram				例句：Por fim decidiu-se a foram nessa mesma tarde.（他终于决定就在那天下午去是。）
-row	sentence	ia				例句：Passámos a tarde toda a falar de ia.（我们聊了一下午ia。）
-row	sentence	ia				例句：Mais vale prevenir: pensemos em ia o quanto antes.（预防总比补救好：我们最好尽早考虑ia。）
-row	sentence	ia				例句：Com ia não se brinca: é preciso ter cuidado.（ia可不能当儿戏，必须小心。）
+row	sentence	ia				例句：Passámos a tarde toda a falar de ia.（我们聊了一下午人工智能。）
+row	sentence	ia				例句：Mais vale prevenir: pensemos em ia o quanto antes.（预防总比补救好：我们最好尽早考虑人工智能。）
+row	sentence	ia				例句：Com ia não se brinca: é preciso ter cuidado.（人工智能可不能当儿戏，必须小心。）
 row	sentence	cidade				例句：Tenho de estudar cidade antes de sexta-feira.（周五之前我得学习城市。）
 row	sentence	cidade				例句：Nunca antes me tinha defrontado com cidade.（我以前从未面对过城市。）
 row	sentence	cidade				例句：Para mim, cidade é algo indispensável.（对我来说，城市是必不可少的东西。）
@@ -13032,9 +13032,9 @@ row	sentence	trocar				例句：Quase ninguém consegue trocar à primeira tenta
 row	sentence	inútil				例句：Nunca antes me tinha defrontado com inútil.（我以前从未面对过无用的。）
 row	sentence	inútil				例句：Para mim, inútil é algo indispensável.（对我来说，无用的是必不可少的东西。）
 row	sentence	inútil				例句：O relatório final inclui uma secção dedicada a inútil.（最终报告里有一个专门讲无用的的章节。）
-row	sentence	s.				例句：O dicionário coloca s. entre as entradas mais consultadas.（词典把s。列为查询最多的词条之一。）
-row	sentence	s.				例句：Como se traduz s. para chinês?（s。用中文怎么说？）
-row	sentence	s.				例句：O professor escreveu s. no quadro e pediu um exemplo.（老师在黑板上写下s。，让我们造个句子。）
+row	sentence	s.				例句：O dicionário coloca s. entre as entradas mais consultadas.（词典把秒列为查询最多的词条之一。）
+row	sentence	s.				例句：Como se traduz s. para chinês?（秒用中文怎么说？）
+row	sentence	s.				例句：O professor escreveu s. no quadro e pediu um exemplo.（老师在黑板上写下秒，让我们造个句子。）
 row	sentence	escada				例句：Tenho de estudar escada antes de sexta-feira.（周五之前我得学习梯子。）
 row	sentence	escada				例句：Nunca antes me tinha defrontado com escada.（我以前从未面对过梯子。）
 row	sentence	escada				例句：Para mim, escada é algo indispensável.（对我来说，梯子是必不可少的东西。）
@@ -18861,9 +18861,9 @@ row	sentence	postal				例句：O filme trata, no fundo, de postal.（这部电�
 row	sentence	conforme				例句：A sala estava conforme quando chegámos.（我们到的时候，房间里很根据。）
 row	sentence	conforme				例句：Pareceu-me conforme que não dissesse nada a respeito.（他对这件事只字不提，我觉得很根据。）
 row	sentence	conforme				例句：Não é tão conforme como parece à primeira vista.（它没有乍看上去那么根据。）
-row	sentence	pt				例句：No início, pt era-me desconhecido.（一开始，zh对我来说很陌生。）
-row	sentence	pt				例句：Ontem li um artigo interessante sobre pt.（昨天我读了一篇关于zh的有趣文章。）
-row	sentence	pt				例句：A tese dele versa sobre pt na época medieval.（他的博士论文研究的是中世纪的zh。）
+row	sentence	pt				例句：No início, pt era-me desconhecido.（一开始，葡萄牙语对我来说很陌生。）
+row	sentence	pt				例句：Ontem li um artigo interessante sobre pt.（昨天我读了一篇关于葡萄牙语的有趣文章。）
+row	sentence	pt				例句：A tese dele versa sobre pt na época medieval.（他的博士论文研究的是中世纪的葡萄牙语。）
 row	sentence	surdo				例句：O museu guarda peças relacionadas com surdo.（博物馆里保存着与聋子相关的展品。）
 row	sentence	surdo				例句：Cada vez percebo melhor como funciona surdo.（我越来越明白聋子是怎么运作的了。）
 row	sentence	surdo				例句：O professor respondeu a todas as dúvidas sobre surdo.（老师解答了关于聋子的所有疑问。）
@@ -21687,9 +21687,9 @@ row	sentence	gostaram				例句：Adora gostaram quando chove.（下雨的时候
 row	sentence	gata				例句：No exame apareceu uma pergunta sobre gata.（考试里出了一道关于宝贝的题。）
 row	sentence	gata				例句：A notícia de gata espalhou-se como um incêndio.（宝贝的消息瞬间传开了。）
 row	sentence	gata				例句：Passámos a tarde toda a falar de gata.（我们聊了一下午宝贝。）
-row	sentence	ss				例句：Sem ss, todo este esforço não teria servido de nada.（没有SS，这一切努力都是白费。）
-row	sentence	ss				例句：Este verão quero informar-me sobre ss.（今年夏天我想了解一下SS。）
-row	sentence	ss				例句：Tenho de estudar ss antes de sexta-feira.（周五之前我得学习SS。）
+row	sentence	ss				例句：Sem ss, todo este esforço não teria servido de nada.（没有党卫军，这一切努力都是白费。）
+row	sentence	ss				例句：Este verão quero informar-me sobre ss.（今年夏天我想了解一下党卫军。）
+row	sentence	ss				例句：Tenho de estudar ss antes de sexta-feira.（周五之前我得学习党卫军。）
 row	sentence	preguiçoso				例句：Encontrei-o preguiçoso: não parava de olhar para o relógio.（我发现他很懒惰：不停地看表。）
 row	sentence	preguiçoso				例句：Ontem senti-me preguiçoso o dia inteiro.（昨天我一整天都感到很懒惰。）
 row	sentence	preguiçoso				例句：A sala estava preguiçosa quando chegámos.（我们到的时候，房间里很懒惰。）
@@ -22182,9 +22182,9 @@ row	sentence	imobiliário				例句：A reunião foi menos imobiliário do que a
 row	sentence	parlamento				例句：A tese dele versa sobre parlamento na época medieval.（他的博士论文研究的是中世纪的议会。）
 row	sentence	parlamento				例句：O filme trata, no fundo, de parlamento.（这部电影归根结底讲的是议会。）
 row	sentence	parlamento				例句：Na aula de hoje analisámos o conceito de parlamento.（今天课上我们分析了议会这个概念。）
-row	sentence	csi				例句：O professor respondeu a todas as dúvidas sobre csi.（老师解答了关于CSI的所有疑问。）
-row	sentence	csi				例句：O programa de rádio desta noite será sobre csi.（今晚的广播节目将围绕CSI展开。）
-row	sentence	csi				例句：As investigações dele giram em torno de csi.（他的研究围绕CSI展开。）
+row	sentence	csi				例句：O professor respondeu a todas as dúvidas sobre csi.（老师解答了关于犯罪现场调查的所有疑问。）
+row	sentence	csi				例句：O programa de rádio desta noite será sobre csi.（今晚的广播节目将围绕犯罪现场调查展开。）
+row	sentence	csi				例句：As investigações dele giram em torno de csi.（他的研究围绕犯罪现场调查展开。）
 row	sentence	pinta				例句：Ontem li um artigo interessante sobre pinta.（昨天我读了一篇关于油漆的有趣文章。）
 row	sentence	pinta				例句：A tese dele versa sobre pinta na época medieval.（他的博士论文研究的是中世纪的油漆。）
 row	sentence	pinta				例句：O filme trata, no fundo, de pinta.（这部电影归根结底讲的是油漆。）
@@ -25014,9 +25014,9 @@ row	sentence	inspirado				例句：Que o projeto continue é inspirado para todo
 row	sentence	deslizar				例句：Quando tinha vinte anos, costumava deslizar aos domingos.（二十岁那年，他每个星期天都幻灯片。）
 row	sentence	deslizar				例句：Vale a pena deslizar, mesmo que os resultados demorem.（即使见效慢，幻灯片也是值得的。）
 row	sentence	deslizar				例句：Tenho dificuldade em deslizar, mas melhora todos os dias.（幻灯片对我来说很难，但每天都在进步。）
-row	sentence	todo-poderoso				例句：Não encontro o sentido exato de todo-poderoso nesta frase.（在这个句子里，我找不到all-powerful的确切意思。）
-row	sentence	todo-poderoso				例句：O dicionário coloca todo-poderoso entre as entradas mais consultadas.（词典把all-powerful列为查询最多的词条之一。）
-row	sentence	todo-poderoso				例句：Como se traduz todo-poderoso para chinês?（all-powerful用中文怎么说？）
+row	sentence	todo-poderoso				例句：Não encontro o sentido exato de todo-poderoso nesta frase.（在这个句子里，我找不到全能的的确切意思。）
+row	sentence	todo-poderoso				例句：O dicionário coloca todo-poderoso entre as entradas mais consultadas.（词典把全能的列为查询最多的词条之一。）
+row	sentence	todo-poderoso				例句：Como se traduz todo-poderoso para chinês?（全能的用中文怎么说？）
 row	sentence	descontrolado				例句：Ninguém esperava um final tão descontrolado.（没人料到结局会这么out of control。）
 row	sentence	descontrolado				例句：A reunião foi menos descontrolado do que a da semana passada.（这次会议没有上周的那么out of control。）
 row	sentence	descontrolado				例句：Mostrou-se descontrolado perante as críticas do júri.（面对评审的批评，他表现得很out of control。）
@@ -29580,9 +29580,9 @@ row	sentence	apresentador				例句：Ontem li um artigo interessante sobre apre
 row	sentence	complicar				例句：Depois de complicar tanto tempo, sentiu-se esgotado.（使复杂化了那么久之后，他感到筋疲力尽。）
 row	sentence	complicar				例句：Quase ninguém consegue complicar à primeira tentativa.（几乎没人能第一次就使复杂化成功。）
 row	sentence	complicar				例句：Apetece-te complicar este fim de semana?（这个周末你想不想去使复杂化？）
-row	sentence	lsd				例句：Para mim, lsd é algo indispensável.（对我来说，LSD是必不可少的东西。）
-row	sentence	lsd				例句：O relatório final inclui uma secção dedicada a lsd.（最终报告里有一个专门讲LSD的章节。）
-row	sentence	lsd				例句：No início, lsd era-me desconhecido.（一开始，LSD对我来说很陌生。）
+row	sentence	lsd				例句：Para mim, lsd é algo indispensável.（对我来说，致幻剂LSD是必不可少的东西。）
+row	sentence	lsd				例句：O relatório final inclui uma secção dedicada a lsd.（最终报告里有一个专门讲致幻剂LSD的章节。）
+row	sentence	lsd				例句：No início, lsd era-me desconhecido.（一开始，致幻剂LSD对我来说很陌生。）
 row	sentence	fileira				例句：Mais vale prevenir: pensemos em fileira o quanto antes.（预防总比补救好：我们最好尽早考虑行。）
 row	sentence	fileira				例句：Com fileira não se brinca: é preciso ter cuidado.（行可不能当儿戏，必须小心。）
 row	sentence	fileira				例句：O museu guarda peças relacionadas com fileira.（博物馆里保存着与行相关的展品。）

@@ -1,28 +1,76 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-17T00:46:51+08:00",
+  "integrated_at": "2026-09-17T12:24:43+08:00",
   "languages": {
-    "de": {
+    "es": {
       "absent_in_worktree": [],
-      "bytes": 32563704,
-      "content_digest": "sha256:0ceaddcbd472e2a3870a65dc3be84771c3504cf7a008646f2722bb52713e8fae",
+      "bytes": 54770574,
+      "content_digest": "sha256:2b4102a54b9e16bba9702bbfa07ed0b0a2ed9dade83440747fa61882e1b2c805",
       "excluded": {},
       "excluded_bytes": 0,
       "excluded_samples": [],
-      "files": 302,
+      "files": 34,
       "note": "",
       "removed_in_worktree": [],
       "source_branch": "main",
-      "source_dir": "D:\\ATooManyLanguage\\German",
-      "source_head": "ba78ad383a2bce7a3a703f150822d0720ba7e8b5",
-      "source_head_date": "2026-09-16 23:02:21 +0800",
-      "source_head_subject": "content: 17条跨词义黏连修复 (Austern牡蛎/Nizza尼斯/Notar公证人等, 词性-释义错配核验) — 基于§11验收态重放",
+      "source_dir": "D:\\ATooManyLanguage\\Spanish",
+      "source_head": "f8576cf4bed702636b3f1aa3d368ae9df2c6e148",
+      "source_head_date": "2026-09-17 12:24:31 +0800",
+      "source_head_subject": "content(es): 质量收敛 — 修复3处音标破坏StripReading括号+ia/cas/lsd/bb释义与例句汉化+标点规范",
       "source_origin_head": "",
-      "source_repo": "https://github.com/hanserdesu/WCP-German-Wordbook.git",
+      "source_repo": "https://github.com/hanserdesu/WCP-Spanish-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 10,
-        "tracked": 292,
+        "modified": 0,
+        "tracked": 34,
+        "untracked": 0
+      }
+    },
+    "ko": {
+      "absent_in_worktree": [],
+      "bytes": 33344039,
+      "content_digest": "sha256:55dbccf7a60fedfe0d8c6d7fa96d303c25ca2578368de2a488ba4be0465e9705",
+      "excluded": {},
+      "excluded_bytes": 0,
+      "excluded_samples": [],
+      "files": 37,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\korean",
+      "source_head": "cc78c82f2519eda77e4cd5b4091d4022df189d2b",
+      "source_head_date": "2026-09-17 12:24:39 +0800",
+      "source_head_subject": "content(ko): 质量收敛 — 彻底净化82处生硬罗马音与标点瑕疵+125处代码碎片与错配修正",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-Korean-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 0,
+        "tracked": 37,
+        "untracked": 0
+      }
+    },
+    "pt": {
+      "absent_in_worktree": [],
+      "bytes": 49549150,
+      "content_digest": "sha256:4090070e0fc3eac253c83981d5e1ce6a646bd54384a0631092a6b53daa2c1932",
+      "excluded": {},
+      "excluded_bytes": 0,
+      "excluded_samples": [],
+      "files": 40,
+      "note": "",
+      "removed_in_worktree": [],
+      "source_branch": "main",
+      "source_dir": "D:\\ATooManyLanguage\\Portuguese",
+      "source_head": "d71d71a0bd6f7f704650360b791d621fb628c4c5",
+      "source_head_date": "2026-09-17 12:24:35 +0800",
+      "source_head_subject": "content(pt): 质量收敛 — 修复2处音标坏括号+pt释义zh错配脱污染+todo-poderoso/ia汉化+标点规范",
+      "source_origin_head": "",
+      "source_repo": "https://github.com/hanserdesu/WCP-Portuguese-Wordbook.git",
+      "states": {
+        "added": 0,
+        "modified": 0,
+        "tracked": 40,
         "untracked": 0
       }
     }

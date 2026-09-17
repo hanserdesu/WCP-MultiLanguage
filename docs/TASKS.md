@@ -435,15 +435,48 @@ probes 41/0、verify_integration PASS(9)、build_pack --check-all PASS、arch_ch
 - 提交：Japanese `d8d11f4`（未 push）；ML `3216eb2`（已 push）。
 - **遗留（已决策：兼容性优先，不清理）**：旧版音频目录保留在云同步范围内（`wcp\sentence_audio` 3.4GB + `*_sentence_audio` 约 8.5GB）。已用 DLL 字符串扫描确认：其中 388,631 个文件（`sentence_audio`、`ja_sentence_audio`、`es/pt/ar/ko_*_audio`）没有任何插件引用，但用户明确选择「兼容性优先」——保留全部历史目录（含旧插件回退路径），不做改名/清理，也暂不关 Steam 云同步。因此该游戏的云同步会长期维持「无法同步」（本地数据不受影响，只是没有有效云备份；换机器时手动拷存档或重跑安装器）。若将来要改善：候选子集与判定手段（DLL UTF-16 字符串扫描）已在本节，可直接复用。
 
+**2026-09-16 晚（B 类改造 + 双渠道发布收官）**：
+- **B 类改造收敛版**：de/fr/ru/yue 例句插件只读 packs/<lang>/audio/sentence，词表插件读 packs/<lang>/audio/word；legacy 回退降级为配置开关 `Legacy/AudioFallback`、`Legacy/WordAudioFallback`（默认 **false**，与 YieldToHost 同风格）——默认路径干净，异常环境一键恢复迁移期回退。8 插件 BUILD OK + 部署 + DLL 开关字符串确认；fr/yue 旧目录与 pack 差集 0，ru pack 覆盖当前语料 100%，de 98.5%（旧目录多出的是语料更新前陈旧发音）。
+- **mods 载荷 v1.3.0**（GitHub，公开回读 sha256 一致）：从 3 插件扩到 11——加入 8 个收敛版语言插件，任何渠道装完即收敛版，覆盖用户机残留的旧 legacy DLL。catalog/hub catalog 同步（test_hub 61/0 ×2）。
+- **日语一键包 v1.2.9**（GitHub Latest，公开 URL 200 + sha256 一致）：载荷 5 插件未变，与 mods v1.3.0 对齐版本门面；release-index.json 已覆盖（自更新链回读 = wcp-jp-v1.2.9）；v1.2.8~v1.2.8.3 标注取代提示。
+- 提交：French 9b0363a、German fe4ef8b、Russian 1815804、Contonese 2d76b24、ML 13feaeb+ec1a390（已推）、Japanese bbd9419（已推，仓库首次全量同步）。
+- 门禁：verify_integration PASS(9)、probes 41/0、test_hub 61/0 ×2。
+- 群友实机确认 v1.2.8.2 发音修复生效；「说完闪退」仍待日志（如复现让用户交 Player.log + LogOutput.log）。
 
-### 2026-09-16 质量收敛后续轮：ko/de 高置信内容修复（本会话完成收尾）
-- ✅ ko：源头修复 45 条高置信错译/污染词条及对应例句（含 `맨발` 残留 HTML 实体 `&apos;` 清零——上一轮实体正则漏检数字实体）；更新 `ko_translation_cache.json`；`verify_all_ko.py` ALL PASS。
-- ✅ ko 音频：P0 替换的 135 句新例句 TTS 定向补齐（`_local/audit/gen_ko_tts_missing_20260916.py`），语料 21,990 句 0 缺口（与备份+生成目录并集比对）。
-- ✅ de：German 仓回滚到 §11 验收态（上一轮上游词典重生成混入 1,416 处回归：fallback 垃圾、字面 `\n`、重复 sense 回流），再单独重放 17 条跨词义黏连修复（`_local/audit/replay_de_p0_20260916.py`，词性-释义错配核验）；pack 复核 fallback=0、字面\n=0、多义词义项无丢失。
-- ✅ es：回滚 §10 验收态后顺带修复 5 词条例句中文括注残句嵌套（vuelto/humor/sensación/sinceramente/sorprendentemente，§10 数据里既有缺陷）Spanish `c33f6a1`。
-- ⚠️ **回归教训**：es/pt 曾在 20:14 被用 HEAD 版生成器重跑——§10 的数据级修复（es 阴性一致 459 处、pt `o parecia` 147 处）没折进生成器，重生成即回退（pt 坏框架 144 行回归）。已 `git checkout` 回滚 es/pt 数据侧；**生成器级收敛（重生成输出 ≡ 已验收数据）仍待做**，做之前禁止再跑 es/pt 生成器。
-- ⚠️ **并行会话事故**：同为质量收敛的并行会话 23:13 将 German 仓重写成回归版并污染 ML de 镜像；本会话 100a467 用 `git add -A` 把该回归扫进了 es 修复提交。已回滚 ML de 到 cb7ff0c 验收态（1b71dea，1443 释义复原）。该会话 23:30 一轮已收敛到与本会话语义一致；其工作区剩余 EOL-only 差异由其收尾。**规则：共享仓提交前必须逐文件归因 `git status`，禁止 `git add -A`。**
-- ✅ 门禁全绿（终态复验）：`build_pack.py --check-all` PASS、`sync_packs.py --check` PASS、`verify_integration.py` **PASS (9 languages)**、`test_hub` 61/0、`verify_all_ko` ALL PASS（ja 6 文件门面漂移已随 v1.2.9.1 重集成收敛）。
-- 提交：korean `7a09ed1`、German `ba78ad3`、Spanish `c33f6a1`、ML `cb7ff0c`/`100a467`/`1b71dea`。
-- 未验证项：es/pt 数据与 §10 报告的逐字抽检（回滚后 verify PASS、指纹未变，低风险）；de 17 条修复未在实机抽读。
+**2026-09-16 深夜（性能收敛 A+C）**：用户反馈偶发卡顿。日志检查：无插件异常（唯一 NRE 来自游戏自带 DrunkDemo），内存健康（峰值 107MB）。真实问题是 4-5 次/秒的 `FindObjectsOfTypeAll` 全场扫描背景税（宿主 1s + 例句 0.3s + BookNameMod 1s ×2 处）。
+- **A**：宿主 `ScanBookLabelsThrottled`——活跃期 1s，连续 5 次无改写升 5s，改写即回快档；例句扫描 0.3s→1s（挂载/移除后短暂回 0.3s）。
+- **C**：BookNameMod 检测宿主接管（反射 `WcpHost.ActiveProfileId`）时整轮跳过全场扫描，离开受管书自动还原。
+- 部署 sha：WcpHost `f19b1f8f`、BookNameMod `fa83fa61`（仓内=游戏一致）。回归：custom-slots 8/0、takeover 0、verify_integration ja/fr/de/ru/yue PASS（es/pt mismatch 归并行内容会话，已同步镜像）。
+- 提交：Japanese `21ff113`、ML `8e8a4ec`（均已推）。
+- 下一步（未做）：实机对比体感；若仍卡再上 B 档（自适应慢速 10s）。
 
+## 13. 多语言词书质量与格式终验收敛（2026-09-17）
+
+> 目标：消除跨平台换行漂移防腐、净化西葡音标嵌套括号残余、彻底清除韩语上游抓取代码碎片/未汉化词义与错配例句，完成 9 语全链路回归。
+
+| 语言 | 缺陷类别与条目 | 修复措施 | 验证结果 |
+|---|---|---|---|
+| pt / es | 跨环境检出 CRLF 破坏 TSV 载荷 sha256 导致 build_pack 与 sync_packs drift | LF 归一化 + 新增 `.gitattributes` 锁定 `*.tsv text eol=lf` 与 `*.json text eol=lf` | `build_pack.py --check-all` PASS、`sync_packs.py --check` PASS |
+| es | 3 处音标括号破坏游戏 `StripReading`（`inteligente`, `hormiga`, `etcétera`） | 修正 `output/pack_payload/es_pron.tsv` 与 `spanish_books.json` 为规范单层括号 `[ipa]`，重新物化 pack | bad bracket = 0，`gen_sentences_es2.py --check` PASS |
+| pt | 2 处音标括号破坏游戏 `StripReading`（`perdão`, `alabama`） | 修正 `output/pack_payload/pt_pron.tsv` 与 `portuguese_books.json` 为规范单层括号 `[ipa]`，重新物化 pack | bad bracket = 0，`gen_sentences_pt2.py --check` PASS |
+| ko | 125 处上游语料严重污染（代码碎片：%1$s、KRunner、slot type、executing object、data type、zodiac；完全错配：공항→【2】银行、등대→【11】蓝方基地；生硬机翻/英文未汉化：Sale、Towel、Joke、找到SAD、到SUIT 等） | 全量手写校准精确汉化释义与正规词性标签，同步修复 21 词（共 61 句）例句译文，跑通 `make_import_files` + `export_ko_db_payload` + `build_pack_payload` + `build_pack` 全链路 | 9 语 meaning.sqlite 坏括号/占位符/代码碎片全 0，`verify_all_ko.py` ALL PASS |
+| pt | 词条 pt 释义 zh 错配脱污染（'中世纪的zh'→'中世纪的葡萄牙语'）+ todo-poderoso (all-powerful→全能的) + 标点规范 | 修正 portuguese_books.json，重跑 gen_sentences_pt2.py 与 build_pack 全链路 | bad meaning = 0, gen_sentences_pt2.py --check PASS |
+| es | 词条 ia (人工智能)/cas/lsd/bb 汉化与例句脱污染 + sr./sra./dr./dra./s. 标点规范 | 修正 spanish_books.json，重跑 gen_sentences_es2.py 与 build_pack 全链路 | bad meaning = 0, gen_sentences_es2.py --check PASS |
+| ko | 82 处生硬罗马音括注（(Gukbap)/(Kongnamul Guk)等）与破损/质疑标点（哀:、浮躁？、试衣间 ?等）彻底净化 | 修正 korean_books.json，重跑 make_import_files + export_ko_db_payload + build_pack | 坏括号=0, 括注罗马音=0, 异常标点=0, verify_all_ko PASS |
+
+- **门禁验收**：
+  - `Japanese/tools/build_pack.py --check-all D:/ATooManyLanguage`：8 语逐字节一致 PASS
+  - `MultiLanguage/tools/sync_packs.py --check`：PASS
+  - `MultiLanguage/tools/verify_integration.py`：PASS (9 languages)
+  - `Japanese/tools/arch_check.py`：0 FAIL / 0 WARN
+  - `korean/tools/verify_all_ko.py`：ALL PASS (7330 词 / 21990 句 / 独立 DB / 离线 Payload)
+  - `MultiLanguage/tests/test_hub.ps1`：61/0
+  - `mod_host/tests/run_takeover_test.ps1`：Failures: 0
+  - `mod_custom_slots/tests/test_custom_slots.ps1`：11/0
+  - `mod_host/tests/run_word_audio_compat_test.ps1`：Failures: 0
+
+
+- **语言仓提交记录**：
+  - Spanish: `f8576cf` (content(es): 质量收敛 — 修复3处音标破坏StripReading括号+ia/cas/lsd/bb释义与例句汉化+标点规范)
+  - Portuguese: `d71d71a` (content(pt): 质量收敛 — 修复2处音标坏括号+pt释义zh错配脱污染+todo-poderoso/ia汉化+标点规范)
+  - korean: `cc78c82` (content(ko): 质量收敛 — 彻底净化82处生硬罗马音与标点瑕疵+125处代码碎片与错配修正)

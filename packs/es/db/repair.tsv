@@ -711,7 +711,7 @@ row	pron	veras	/ˈbeɾas/	/ˈbeɾas/	[ˈbeɾas] 你会看到<名>
 row	pron	preguntar	/pɾeɡunˈtaɾ/	/pɾeɡunˈtaɾ/	[pɾeɡunˈtaɾ] 问<动>	
 row	pron	cocina	/koˈθina/	/koˈθina/	[koˈθina] 厨房<名>	
 row	pron	vestido	/besˈtido/	/besˈtido/	[besˈtido] 连衣裙<名>	
-row	pron	inteligente	/inteliˈxente/ [ĩn̪.t̪e.liˈxẽn̪.t̪e]	/inteliˈxente/ [ĩn̪.t̪e.liˈxẽn̪.t̪e]	[inteliˈxente/ [ĩn̪.t̪e.liˈxẽn̪.t̪e]] 聪明的<形>	
+row	pron	inteligente	/inteliˈxente/ [ĩn̪.t̪e.liˈxẽn̪.t̪e]	/inteliˈxente/ [ĩn̪.t̪e.liˈxẽn̪.t̪e]	[inteliˈxente] 聪明的<形>	
 row	pron	caballo	/kaˈbaʝo/	/kaˈbaʝo/	[kaˈbaʝo] 马<名>	
 row	pron	bar	/ˈbaɾ/	/ˈbaɾ/	[ˈbaɾ] 酒吧<名>	
 row	pron	corte	/ˈkoɾte/	/ˈkoɾte/	[ˈkoɾte] 切<名>	
@@ -4151,7 +4151,7 @@ row	pron	suspirar	/suspiˈɾaɾ/	/suspiˈɾaɾ/	[suspiˈɾaɾ] 叹息<动>
 row	pron	doncella	/donˈθeʝa/	/donˈθeʝa/	[donˈθeʝa] 少女<名>	
 row	pron	conserje	/konˈseɾxe/	/konˈseɾxe/	[konˈseɾxe] 看门人<名>	
 row	pron	letal	/leˈtal/	/leˈtal/	[leˈtal] 致命的<形>	
-row	pron	hormiga	/hoˈɾmi.ɡa/ [hoɾˈmi.ɣ̞a]	/hoˈɾmi.ɡa/ [hoɾˈmi.ɣ̞a]	[hoˈɾmi.ɡa/ [hoɾˈmi.ɣ̞a]] 蚂蚁<名>	
+row	pron	hormiga	/hoˈɾmi.ɡa/ [hoɾˈmi.ɣ̞a]	/hoˈɾmi.ɡa/ [hoɾˈmi.ɣ̞a]	[hoˈɾmi.ɡa] 蚂蚁<名>	
 row	pron	dvd	/debeˈde/	/debeˈde/	[debeˈde] DVD<名>	
 row	pron	escolta	/esˈkolta/	/esˈkolta/	[esˈkolta] 护送<名>	
 row	pron	laurel	/lauˈɾel/	/lauˈɾel/	[lauˈɾel] 月桂树<名>	
@@ -5621,7 +5621,7 @@ row	pron	sabroso	/saˈbɾoso/	/saˈbɾoso/	[saˈbɾoso] 好吃<形>
 row	pron	aprieto	/aˈpɾjeto/	/aˈpɾjeto/	[aˈpɾjeto] 挤压<名>	
 row	pron	eficaz	/efiˈkaθ/	/efiˈkaθ/	[efiˈkaθ] 有效的<形>	
 row	pron	marquesa	/maɾˈkesa/	/maɾˈkesa/	[maɾˈkesa] 榄尖形<名>	
-row	pron	etcétera	/etˈθeteɾa/ [et̪ˈθe.t̪e.ɾa]	/etˈθeteɾa/ [et̪ˈθe.t̪e.ɾa]	[etˈθeteɾa/ [et̪ˈθe.t̪e.ɾa]] 等等<名>	
+row	pron	etcétera	/etˈθeteɾa/ [et̪ˈθe.t̪e.ɾa]	/etˈθeteɾa/ [et̪ˈθe.t̪e.ɾa]	[etˈθeteɾa] 等等<名>	
 row	pron	grifo	/ˈɡɾifo/	/ˈɡɾifo/	[ˈɡɾifo] 水龙头<名>	
 row	pron	psíquico	/ˈsikiko/	/ˈsikiko/	[ˈsikiko] 通灵的<形>	
 row	pron	votante	/boˈtante/	/boˈtante/	[boˈtante] 选民<名>	
@@ -11133,9 +11133,9 @@ row	sentence	matado				例句：Con los años, el problema se ha vuelto todavía
 row	sentence	azul				例句：Con azul no se juega: hay que ir con cuidado.（蓝色可不能当儿戏，必须小心。）
 row	sentence	azul				例句：Ese comentario demuestra que sabe mucho de azul.（那个评论说明他对蓝色很在行。）
 row	sentence	azul				例句：El museo guarda piezas relacionadas con azul.（博物馆里保存着与蓝色相关的展品。）
-row	sentence	ia				例句：Para mí, ia es algo imprescindible.（对我来说，ia是必不可少的东西。）
-row	sentence	ia				例句：De pequeño coleccionaba datos sobre ia.（他小时候就收集关于ia的资料。）
-row	sentence	ia				例句：El informe final incluye un apartado dedicado a ia.（最终报告里有一个专门讲ia的章节。）
+row	sentence	ia				例句：Para mí, ia es algo imprescindible.（对我来说，人工智能是必不可少的东西。）
+row	sentence	ia				例句：De pequeño coleccionaba datos sobre ia.（他小时候就收集关于人工智能的资料。）
+row	sentence	ia				例句：El informe final incluye un apartado dedicado a ia.（最终报告里有一个专门讲人工智能的章节。）
 row	sentence	comandante				例句：Vale más prevenir: mejor pensemos en comandante cuanto antes.（预防总比补救好：我们最好尽早考虑指挥官。）
 row	sentence	comandante				例句：Por toda la casa solo se hablaba de comandante.（全家上下都在谈论指挥官。）
 row	sentence	comandante				例句：Con comandante no se juega: hay que ir con cuidado.（指挥官可不能当儿戏，必须小心。）
@@ -14232,9 +14232,9 @@ row	sentence	sabio				例句：A sabio le dedicaron una exposición entera.（�
 row	sentence	judío				例句：El libro dedica todo un capítulo a judío.（这本书用整整一章讲犹太人的。）
 row	sentence	judío				例句：Al principio judío me resultaba desconocido.（一开始，犹太人的对我来说很陌生。）
 row	sentence	judío				例句：¿Hablamos de judío o prefieres cambiar de tema?（我们继续聊犹太人的，还是你想换个话题？）
-row	sentence	s.				例句：Repite s. otra vez, por favor.（请再把s。念一遍。）
-row	sentence	s.				例句：Subraya la palabra s. en la tercera línea.（请在第三行标出s。这个词。）
-row	sentence	s.				例句：El uso de s. varía mucho entre países.（s。的用法在不同国家差别很大。）
+row	sentence	s.				例句：Repite s. otra vez, por favor.（请再把秒念一遍。）
+row	sentence	s.				例句：Subraya la palabra s. en la tercera línea.（请在第三行标出秒这个词。）
+row	sentence	s.				例句：El uso de s. varía mucho entre países.（秒的用法在不同国家差别很大。）
 row	sentence	tripulación				例句：De pequeño coleccionaba datos sobre tripulación.（他小时候就收集关于船员的资料。）
 row	sentence	tripulación				例句：El informe final incluye un apartado dedicado a tripulación.（最终报告里有一个专门讲船员的章节。）
 row	sentence	tripulación				例句：El libro dedica todo un capítulo a tripulación.（这本书用整整一章讲船员。）
@@ -24120,9 +24120,9 @@ row	sentence	disputa				例句：Este verano quiero informarme sobre disputa.（
 row	sentence	manguera				例句：A manguera le dedicaron una exposición entera.（他们为软管办了一场专门的展览。）
 row	sentence	manguera				例句：El docente respondió a todas las dudas sobre manguera.（老师解答了关于软管的所有疑问。）
 row	sentence	manguera				例句：En el examen apareció una pregunta sobre manguera.（考试里出了一道关于软管的题。）
-row	sentence	cas				例句：¿Hablamos de cas o prefieres cambiar de tema?（我们继续聊CAS，还是你想换个话题？）
-row	sentence	cas				例句：Ayer leí un artículo interesante sobre cas.（昨天我读了一篇关于CAS的有趣文章。）
-row	sentence	cas				例句：Sin cas, todo este esfuerzo no habría servido de nada.（没有CAS，这一切努力都是白费。）
+row	sentence	cas				例句：¿Hablamos de cas o prefieres cambiar de tema?（我们继续聊化学文摘社号，还是你想换个话题？）
+row	sentence	cas				例句：Ayer leí un artículo interesante sobre cas.（昨天我读了一篇关于化学文摘社号的有趣文章。）
+row	sentence	cas				例句：Sin cas, todo este esfuerzo no habría servido de nada.（没有化学文摘社号，这一切努力都是白费。）
 row	sentence	pum				例句：El profesor escribió pum en la pizarra y nos pidió un ejemplo.（老师在黑板上写下繁荣，让我们造个句子。）
 row	sentence	pum				例句：En este texto, pum se usa con un matiz distinto.（在这篇文章里，繁荣的用法略有不同。）
 row	sentence	pum				例句：Repite pum otra vez, por favor.（请再把繁荣念一遍。）
@@ -31512,9 +31512,9 @@ row	sentence	agitar				例句：Me dijo que preferiría agitar en casa.（他告
 row	sentence	foca				例句：Ese comentario demuestra que sabe mucho de foca.（那个评论说明他对密封件很在行。）
 row	sentence	foca				例句：El museo guarda piezas relacionadas con foca.（博物馆里保存着与密封件相关的展品。）
 row	sentence	foca				例句：Me falta vocabulario para explicar foca con precisión.（我的词汇量不够，没法精确解释密封件。）
-row	sentence	lsd				例句：De pequeño coleccionaba datos sobre lsd.（他小时候就收集关于LSD的资料。）
-row	sentence	lsd				例句：El informe final incluye un apartado dedicado a lsd.（最终报告里有一个专门讲LSD的章节。）
-row	sentence	lsd				例句：El libro dedica todo un capítulo a lsd.（这本书用整整一章讲LSD。）
+row	sentence	lsd				例句：De pequeño coleccionaba datos sobre lsd.（他小时候就收集关于致幻剂LSD的资料。）
+row	sentence	lsd				例句：El informe final incluye un apartado dedicado a lsd.（最终报告里有一个专门讲致幻剂LSD的章节。）
+row	sentence	lsd				例句：El libro dedica todo un capítulo a lsd.（这本书用整整一章讲致幻剂LSD。）
 row	sentence	suertudo				例句：Por toda la casa solo se hablaba de suertudo.（全家上下都在谈论幸运的。）
 row	sentence	suertudo				例句：Con suertudo no se juega: hay que ir con cuidado.（幸运的可不能当儿戏，必须小心。）
 row	sentence	suertudo				例句：Ese comentario demuestra que sabe mucho de suertudo.（那个评论说明他对幸运的很在行。）
@@ -34251,9 +34251,9 @@ row	sentence	llendo				例句：Empezó a llendo antes de que sonara la alarma.�
 row	sentence	ubicado				例句：Con los años, el problema se ha vuelto todavía más ubicado.（随着时间推移，这个问题变得更加位于了。）
 row	sentence	ubicado				例句：Resulta ubicado hablar de dinero con la familia.（和家人谈钱总是很位于。）
 row	sentence	ubicado				例句：El viaje resultó más ubicado de lo que esperábamos.（这次旅行比我们预期的更位于。）
-row	sentence	bb				例句：El museo guarda piezas relacionadas con bb.（博物馆里保存着与BB相关的展品。）
-row	sentence	bb				例句：Me falta vocabulario para explicar bb con precisión.（我的词汇量不够，没法精确解释BB。）
-row	sentence	bb				例句：Cada vez entiendo mejor cómo funciona bb.（我越来越明白BB是怎么运作的了。）
+row	sentence	bb				例句：El museo guarda piezas relacionadas con bb.（博物馆里保存着与幼童相关的展品。）
+row	sentence	bb				例句：Me falta vocabulario para explicar bb con precisión.（我的词汇量不够，没法精确解释幼童。）
+row	sentence	bb				例句：Cada vez entiendo mejor cómo funciona bb.（我越来越明白幼童是怎么运作的了。）
 row	sentence	cesárea				例句：El informe final incluye un apartado dedicado a cesárea.（最终报告里有一个专门讲剖腹产的章节。）
 row	sentence	cesárea				例句：El libro dedica todo un capítulo a cesárea.（这本书用整整一章讲剖腹产。）
 row	sentence	cesárea				例句：Al principio cesárea me resultaba desconocido.（一开始，剖腹产对我来说很陌生。）
