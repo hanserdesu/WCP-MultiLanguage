@@ -114,3 +114,11 @@ asset 列表为准。`disk.extract_mb` 是按 zip 内实际文件大小算出的
    `languages/<code>/`，逐文件 sha256 记录在 `languages/PROVENANCE.json`，
    `python tools\verify_integration.py` 可随时复核。至此各语言不再分散提交，
    日语词书本体与日语语音包的 Release 保留在 `hanserdesu/japanese`。
+
+## 许可
+
+本仓库按代码、内容、词典数据三层分别授权，范围说明与上游署名见 [ATTRIBUTION.md](ATTRIBUTION.md)。
+
+- 代码（宿主、槽位、插件、安装器、工具）：[PolyForm Noncommercial License 1.0.0](LICENSE)，允许非商业用途的使用、修改与再分发，商业用途需单独授权。
+- 我自己生产的内容（选词分级、中文释义、例句、语音）：CC BY-NC-SA 4.0，要求署名、非商业使用、改编作品相同方式共享。
+- 从第三方词典数据集派生的逐项数值（音标、重音、汉字读音）：CC BY-SA 4.0，要求署名上游。
