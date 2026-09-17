@@ -418,6 +418,96 @@ function Save-HubState {
     $state | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $statePathResolved -Encoding UTF8
 }
 
+# ---------- 通用下载（供自更新使用；与主安装循环同一套代理/超时约定） ----------
+function Invoke-HubDownload([string]$uri, [string]$destination, [int]$timeoutMs = 120000) {
+    $request = [Net.HttpWebRequest]::Create($uri)
+    $request.Method = 'GET'
+    $request.Timeout = $timeoutMs
+    $request.ReadWriteTimeout = $timeoutMs
+    $request.Proxy = [Net.WebRequest]::DefaultWebProxy
+    if ($request.Proxy) { $request.Proxy.Credentials = [Net.CredentialCache]::DefaultCredentials }
+    $response = $request.GetResponse()
+    try {
+        $stream = $response.GetResponseStream()
+        $fs = [IO.File]::Create($destination)
+        try {
+            $buf = New-Object byte[] 262144
+            while (($n = $stream.Read($buf, 0, $buf.Length)) -gt 0) { $fs.Write($buf, 0, $n) }
+        } finally { $fs.Dispose() }
+        $stream.Dispose()
+    } finally { $response.Dispose() }
+}
+
+# ---------- 安装器自更新（学习 ja 方案 C：有新版才提示，用户确认才切换，失败不阻断） ----------
+# 版本号由 run-installer.ps1 通过环境变量注入；直接运行脚本的老用户没有版本号，
+# 自更新检查整体跳过（纯增益路径，不改变任何既有行为）。
+$selfVersion = if ($env:WCP_INSTALLER_VERSION) { $env:WCP_INSTALLER_VERSION } else { '' }
+if ($selfVersion -and -not $Offline -and -not $Plan -and -not $List) {
+    try {
+        # 版本索引（release-index.json）发布在 mods release（wcp-mods-v*）上，
+        # 与安装器解耦：发新版只需替换该资产，老安装器即可发现新核心包。
+        $modsRel = $null
+        try {
+            $modsRel = Get-GitHubJson 'https://api.github.com/repos/hanserdesu/WCP-MultiLanguage/releases?per_page=100' |
+                Where-Object { ([string](Get-FieldOr $_ 'tag_name' '')) -like 'wcp-mods-*' } |
+                Sort-Object -Property created_at -Descending | Select-Object -First 1
+        } catch { }
+        $idxAsset = if ($modsRel) { @($modsRel.assets | Where-Object { $_.name -eq 'release-index.json' })[0] } else { $null }
+        $indexObj = $null
+        if ($idxAsset) {
+            $idxTmp = Join-Path $data 'release-index.json.check'
+            try {
+                Invoke-HubDownload $idxAsset.url $idxTmp
+                $indexObj = Get-Content -LiteralPath $idxTmp -Raw -Encoding UTF8 | ConvertFrom-Json
+                Remove-Item -LiteralPath $idxTmp -Force -ErrorAction SilentlyContinue
+            } catch {
+                Write-Host '自更新检查：在线获取版本信息失败（不影响本次安装）。' -ForegroundColor DarkGray
+                if (Test-Path -LiteralPath $idxTmp) { Remove-Item -LiteralPath $idxTmp -Force -ErrorAction SilentlyContinue }
+            }
+        }
+        if ($indexObj -and (Get-FieldOr $indexObj 'installer_version' '') -and
+            [string]$indexObj.installer_version -ne [string]$selfVersion) {
+            Write-Host ''
+            Write-Host "检测到安装器新版本 $($indexObj.installer_version)（当前 $selfVersion）。" -ForegroundColor Cyan
+            Write-Host '新版本可能已修复你遇到的问题。是否下载并切换到新版后重新安装？' -ForegroundColor Cyan
+            $answer = Read-Host '输入 y 确认更新，其他键跳过（默认跳过）'
+            if ($answer -match '^[Yy]') {
+                $core = $indexObj.core_installer
+                $coreTmp = Join-Path $data ('installer_update_' + [guid]::NewGuid().ToString('N') + '.zip')
+                try {
+                    Invoke-HubDownload $core.url $coreTmp
+                    $actualCoreSha = Get-Sha256Hex $coreTmp
+                    if ($actualCoreSha -ne ([string]$core.sha256).ToLowerInvariant()) {
+                        throw ('SHA-256 校验失败（实际 ' + $actualCoreSha + '）')
+                    }
+                    # 解到全新临时目录、校验通过后再切换；任何一步失败都留在当前版本继续装（fail-safe）。
+                    $newPkgDir = Join-Path $data ('installer_update_' + [guid]::NewGuid().ToString('N'))
+                    Expand-HubZip $coreTmp $newPkgDir
+                    $newScript = Get-ChildItem -LiteralPath $newPkgDir -Recurse -Filter 'Install-WCP-Wordbooks.ps1' |
+                        Select-Object -First 1
+                    if (-not $newScript) { throw '新包缺少 Install-WCP-Wordbooks.ps1' }
+                    Remove-Item -LiteralPath $coreTmp -Force -ErrorAction SilentlyContinue
+                    Write-Host "即将切换到新版安装器 $($indexObj.installer_version) 并重新开始安装。" -ForegroundColor Green
+                    Write-Host '本窗口可以关闭；新版窗口会自动打开。' -ForegroundColor Green
+                    Start-Process -FilePath 'powershell.exe' `
+                        -ArgumentList @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $newScript.FullName) `
+                        -WorkingDirectory (Split-Path -Parent $newScript.FullName)
+                    exit 0
+                } catch {
+                    Write-Host ('新版安装器准备失败：' + $_.Exception.Message) -ForegroundColor Yellow
+                    Write-Host '将继续使用当前版本完成安装。' -ForegroundColor Yellow
+                    if (Test-Path -LiteralPath $coreTmp) { Remove-Item -LiteralPath $coreTmp -Force -ErrorAction SilentlyContinue }
+                }
+            }
+        } elseif ($indexObj -and (Get-FieldOr $indexObj 'installer_version' '')) {
+            Write-Host ('安装器已是最新版本（' + $selfVersion + '）。') -ForegroundColor DarkGray
+        }
+    } catch {
+        # 自更新检查是纯增益路径：任何异常都不能阻断安装。
+        Write-Host '自更新检查异常（不影响本次安装）。' -ForegroundColor DarkGray
+    }
+}
+
 # ---------- main ----------
 if ($List) { Show-Catalog; exit 0 }
 

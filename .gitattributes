@@ -4,3 +4,7 @@ packs/**/*.json text eol=lf
 packs/**/*.tsv text eol=lf
 languages/**/*.json text eol=lf
 languages/**/*.tsv text eol=lf
+output/ linguist-generated
+output/installer_pkg/ -text
+output/installer_pkg/** -text
+output/installer_pkg/** linguist-generated

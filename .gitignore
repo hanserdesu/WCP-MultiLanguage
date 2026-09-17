@@ -2,3 +2,5 @@ tools/release/core/*/wcp-*-core.zip
 tools/release/core/*/release-manifest.json
 __pycache__/
 _local/
+# 打包产物与发布索引（构建时生成，经 release 资产发布，不进 git）
+output/installer_pkg/

@@ -128,6 +128,17 @@ Check '发布清单缺失字段不会中断发现' ($installerText -match 'funct
     $installerText -match 'Get-FieldOr \$manifest ''wordbooks''' -and
     $installerText -match 'Get-FieldOr \$release ''assets''')
 
+# 自更新契约（学习 ja 方案 C）：版本由环境变量注入；索引在 mods release 上；
+# 校验失败/任何异常都不阻断安装；-Offline/-List 不做在线检查。
+Check '自更新只在有版本号且非离线/查询模式时启用' ($installerText -match 'if \(\$selfVersion -and -not \$Offline -and -not \$Plan -and -not \$List\)')
+Check '自更新索引指向 mods release 的 release-index.json' ($installerText -match "wcp-mods-\*" -and
+    $installerText -match "'release-index\.json'")
+Check '自更新核心包先校验 SHA-256 再切换' ($installerText -match 'actualCoreSha -ne \(\[string\]\$core\.sha256\)\.ToLowerInvariant\(\)')
+Check '自更新失败不阻断安装' ($installerText -match '自更新检查异常（不影响本次安装）' -and
+    $installerText -match '将继续使用当前版本完成安装')
+Check 'run-installer 注入版本号' ((Test-Path -LiteralPath (Join-Path $here '..\run-installer.ps1')) -and
+    ((Get-Content -LiteralPath (Join-Path $here '..\run-installer.ps1') -Raw -Encoding UTF8) -match '\$env:WCP_INSTALLER_VERSION = \$InstallerVersion'))
+
 # 编码守卫: 脚本含非 ASCII 时必须带 UTF-8 BOM，否则 Windows PowerShell 5.1
 # 会按 ANSI 解码，静默把代码行吞进注释/字符串里（本仓库已因此吃过两次亏）。
 foreach ($rel in @('..\Install-WCP-Wordbooks.ps1', '..\WordbookHub.psm1', '.\test_hub.ps1')) {
