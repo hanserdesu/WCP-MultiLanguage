@@ -1,6 +1,6 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-17T13:36:24+08:00",
+  "integrated_at": "2026-09-17T14:06:51+08:00",
   "languages": {
     "ar": {
       "absent_in_worktree": [],
@@ -28,8 +28,8 @@
     },
     "de": {
       "absent_in_worktree": [],
-      "bytes": 32511319,
-      "content_digest": "sha256:e9dabc58eb87b5a3fdad6540ff14c5653b77f62ae21db7e3aa1dc55fd88201c1",
+      "bytes": 32515380,
+      "content_digest": "sha256:a9bd0ed940d5af9536dca6cda5567cd629ce48739ef736c20cc1be882947e17a",
       "excluded": {},
       "excluded_bytes": 0,
       "excluded_samples": [],
@@ -38,9 +38,9 @@
       "removed_in_worktree": [],
       "source_branch": "main",
       "source_dir": "D:\\ATooManyLanguage\\German",
-      "source_head": "1395158f8414b6d707f68656a5ebb7fbb678cc0d",
-      "source_head_date": "2026-09-17 13:33:49 +0800",
-      "source_head_subject": "de: 载荷/包清单哈希刷新 + .gitattributes 锁定 EOL（内容零变化）",
+      "source_head": "4eb55a1eb9ecf2a915f458cb172dbd2af6c875dc",
+      "source_head_date": "2026-09-17 14:04:49 +0800",
+      "source_head_subject": "fix(de): 修复394句例句译文术语错配（以发布态正确译文回填 sentences_master 并重灌库对齐）+ 载荷/pack 重建",
       "source_origin_head": "",
       "source_repo": "https://github.com/hanserdesu/WCP-German-Wordbook.git",
       "states": {
@@ -130,7 +130,7 @@
       "source_head": "30635a4c76bef39dcc39cf0770c8ed36bfa45a35",
       "source_head_date": "2026-09-17 13:33:56 +0800",
       "source_head_subject": "ja: build_pack 以 LF 写 db/sentences.json；重算包清单与 jp_sentences 载荷哈希；锁定 EOL 契约",
-      "source_origin_head": "a246ac16a96aa79bb0a22330e1e996175a882f93",
+      "source_origin_head": "30635a4c76bef39dcc39cf0770c8ed36bfa45a35",
       "source_repo": "https://github.com/hanserdesu/japanese.git",
       "states": {
         "added": 0,
