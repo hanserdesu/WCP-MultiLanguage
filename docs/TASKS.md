@@ -831,3 +831,25 @@ custom-slots 离线 harness 11/0 无回归。
 6. 说明：Canonical 用例在离线套件 SKIP（测试工程只编译模型），以源码同文探针为准；
    探针脚本 _local/audit/_canon_probe.cs 保留，改生成器后重跑即可。
 
+
+### 已收敛 P1-19 兼容层第三轮（ES3 缓存 + ja 快照归一）
+
+1. ES3 重载解析缓存（Save/Load/KeyExists 三处）：以前每次落盘/读档/探测都全量
+   GetMethods 扫描，现在各解析一次并缓存（含负缓存 + 找不到重载时的警告文案）。
+   Es3Save 现在还会在重载缺失时显式报"写档不可用"（以前静默 return）。
+2. languages/ja/mod_custom_slots 快照归一（消除伪权威源）：
+   - 三源（CustomSlotsMod/CustomSlotModel/GameCompat.cs）与 SlotRulesTest.cs 已从
+     主源复制同步；ja 快照此前是旧架构（无 GameCompat、兼容函数内嵌、P1-17/18 缺失）。
+   - ja build.cmd 修两处：源清单补 GameCompat.cs；REFS 补
+     UnityEngine.InputLegacyModule.dll（F8 键）与 Unity.TextMeshPro.dll（TMP 反射
+     类型解析），与主源 build.cmd 一致。修正后 ja 快照独立构建可编译、可部署。
+   - ja 快照测试 74 PASS/0 FAIL（与主源同套用例）。
+   - 产物哈希说明：主源 DLL（游戏内部署版）与 ja 快照 DLL 哈希不同属正常 ——
+     csc 引用程序集集不同（主源带 TMP 引用、ja 现 TMP/UI 引用顺序一致但
+     csc 时间戳不同），源码同文即可；构建部署以主源 mod_custom_slots/build.cmd 为准。
+3. 回归：slot_rules 74/0（主源与 ja 快照各跑一遍）、registry 全部通过、
+   ownership ALL PASS、takeover 0、word_audio 0、hub 89/0、mod/mod_host 构建 0 error、
+   payload 重建 e6edb875d531add5。
+4. 教训记录：快照目录的 build.cmd 与主源 build.cmd 的源清单/引用集必须同步维护，
+   否则快照可编译性是假的（旧清单连 InputLegacyModule 都没有，F8 热键都编不过）。
+
