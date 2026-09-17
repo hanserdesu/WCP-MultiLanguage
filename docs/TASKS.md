@@ -20,11 +20,11 @@
 | R2 | 俄语切日语后仍出现俄语 | 根因已定，**部分修复** | 5 个插件同时写同一份全局词池；`YieldToHost` + `managed.txt` 已把 ja/yue 收敛到宿主，fr/ru/de 仍在旧插件竞争 |
 | R3 | 各语言资源解耦，只向下提供资源接口 | **9/9 资源包落地** | `LocalLow\WCP\packs\` 现有 9 个语言包，各自含 manifest+db+books+audio，全部走宿主通用策略（ja/yue 自带策略 DLL） |
 | R4 | 以后加语言只提供资源，不反复跑测试 | **契约已落实并被机械验证** | `pack.build.json` + `$host` + 自动发现（probe 不再硬编码语言名）；es/pt/ko/ar 正是用这套流程加进来的，未改 probe 与宿主语言分支 |
-| R5 | 自定义槽位 4 → 20 条，同页滚轮选择和管理 | 选择已实现，**管理缺失 + 20 行全空** | 滚动页与 20 行模型已编译部署；但没有改名/删除/新增/导入入口，且原生 4 本书没有出现在 20 行里 |
+| R5 | 自定义槽位 4 → 20 条，同页滚轮选择和管理 | ✅ 功能实现（实机待验）｜**UI 形态未收敛** | 20 行模型 + 滚轮滚动页 + 行内改名/移除/刷新 + 原生 4 本镜像行（P1-1/P1-2 已修）。但呈现方式是**自绘深色覆盖层**（自建 Canvas/字体/按钮/Toast），不是"原生一模一样、只多一个滚动条"——见 P1-15 |
 | R6 | 20 条也可给其它自定义词书用，本 mod 只服务自己范围 | ✅ 代码+离线测试（实机待验） | 服务边界落进宿主：指纹命中之外还必须在 20 槽 store 有登记行（托管播种行/原生镜像行）才服务；未登记/已移除 fail-closed，store 缺失按兼容回退。见 P1-4 |
 | R7 | 安装时从我的 GitHub 仓库自动判断可用词书 | **已实现且测试通过** | 在线发现 + `-List` + 编号选择；9 本词书 catalog 全 available |
 | R8 | 一键安装器：可选安装哪几本 | **已实现且测试通过** | `-Books fr,ja` / 交互编号 / `all`；51 项离线测试全过 |
-| R9 | 按所选词书判断峰值磁盘与兼容性 | 已实现，**数字不可信** | `-Plan` 有峰值/最终/预留守算，但 catalog 里 `disk.extract_mb` 三份互相矛盾（fr：582 / 2150） |
+| R9 | 按所选词书判断峰值磁盘与兼容性 | ✅ 已实现并验证 | `-Plan` 峰值 = 下载 + 解压 + 预留 512MB；`catalog.json` 与 hub 副本（installer 包内）9 行 `disk.extract_mb` 完全一致（P1-8 已完成：hub 改为 ML catalog 生成副本）；fr 端到端实测"下载 589.9MB / 解压 582MB"与 catalog 数字一致 |
 | R10 | 更新资源：比对同仓库差异、只下有差异的 | ✅ 已实现并端到端验证 | -Update 按 sha256 精准差异下载；新增磁盘健康核对：state 与磁盘背离（删文件/损坏）时摘除记录全量重下自愈，真实 GitHub 下载端到端验证。见 P1-9 |
 
 ---
@@ -612,8 +612,44 @@ probes 41/0、verify_integration PASS(9)、build_pack --check-all PASS、arch_ch
 | P1-9 | Test-WordbookDiskHealth（骨架/词表自证/音频抽样）+ -Update 摘除重下 | ✅ 在线端到端验证 |
 | 附带修复 | Get-HubWorkPath 目录保证（新用户阻断级回归）+ 下载句柄 finally 释放 | ✅ 沙箱实锤后修复 |
 | 门禁 | test_hub 87/0 · takeover 0 · custom-slots 11/0 · word-audio 0 · slot-ownership 15/0 · registry 全过 · verify_integration 9/9 · sync --check · build_pack --check-all · arch_check 0F/0W · probes 41/0 | ✅ 全绿 |
-| 发布 | 新 mods 载荷已构建（含 WcpHost 0.5.0 服务边界，payload sha256 `bb668cad…`）——**未发布**，待用户批准 | ⬜ |
+| 发布 | 新 mods 载荷已构建（含 WcpHost 0.5.0 服务边界，payload sha256 `187defd4…`）——**未发布**，待用户批准 | ⬜ |
 
 **版本记录**：WcpHost 0.4.0 → 0.5.0（服务边界门 + RequireSlotOwnership 配置）。
 mods 载荷待发布为新版本（建议 wcp-mods-v1.4.0）并同步 catalog mods 块 + hub catalog 副本；
 发布流程与渠道影响面见 P1-14 的经验（发版前 clarify 渠道映射）。
+
+---
+
+## 15. 20 槽 UI 形态收敛（P1-15，2026-09-17）
+
+> 用户需求原话：20 个槽位"全部用原生一模一样的方式，没有 UI 违和性，只是多了个滚动条可以往下
+> 管理哪些显示不出来的槽位"。**判定：未达标** —— 功能齐备，呈现形态不是原生无缝扩展。
+
+| 项 | 内容 | 状态 |
+|---|---|---|
+| P1-15a | 原生页几何/组件参数采集（自动触发，非热键） | ✅ 代码+部署（2026-09-17） |
+| P1-15b | 实机采集 `WcpSlotsDiag.txt` | ⬜ 待用户进一次自定义词书页（自动写盘） |
+| P1-15c | 按真实几何克隆原生行 + 原生风格滚动条容器 | ⬜ 待 P1-15b 数据 |
+| P1-15d | 自绘面板降级为配置开关回退（兼容优先） | ⬜ 与 P1-15c 同批 |
+
+**硬边界（必须先讲清）**：游戏运行态只有 4 个 `SelfBookList1..4` 字段
+（`WordChooseButtonS10` 里硬编码，`BookButtonSon` 数组固定），同一时刻仍只有 4 本能真正参与学习。
+"原生无缝"只能做到**视觉与管理层面**：20 行都能看、都能改名/移除，选中的那几行物化进原生 4 槽。
+
+**P1-15a 已完成**：`DumpNativeBookPage(source)` ① 自动触发 —— `PollCustomPage` 首次发现"自定义页可见"
+即写盘（挂热键的采集连续多轮拿不到文件，F9 路径实测从未产出过 `WcpSlotsDiag.txt`）；
+② 采集粒度扩到可克隆：父链各级容器几何 + `Canvas`/`CanvasScaler` 参数、深度 7 节点树（每节点组件参数：
+Image 颜色/sprite、Text 字体/字号/颜色/对齐、LayoutGroup 间距/内边距/子对齐、ContentSizeFitter、
+LayoutElement、CanvasGroup）、`BookButtonFather/Son/NameText/LearnedNum` 四组逐项 self/parent/child 几何、
+**全场景 `ScrollRect`/`Scrollbar` 模板扫描**（无缝改造要克隆原生滚动条，不是自造一个风格不同的）、
+页面字体清单。写入 `%persistentDataPath%\WcpSlotsDiag.txt`（本机 =
+`%USERPROFILE%\AppData\LocalLow\WCP\...`）。
+
+**验收**：BUILD OK + 部署，CustomSlotsMod.dll sha `43c5f858…` 仓内 = 游戏 BepInEx\plugins 一致；
+custom-slots 离线 harness 11/0 无回归。
+
+**验证命令**：`powershell -NoProfile -ExecutionPolicy Bypass -File 'mod_custom_slots\tests\test_custom_slots.ps1'`
+→ `Result: 11 passed, 0 failed`。
+
+**待用户的一条操作**：进游戏 → 打开"自定义词书"页（停留 1 秒即可）→ 自动产出 `WcpSlotsDiag.txt`。
+拿到真实几何后才能克隆原生行（猜行高/字体 = "永远差一点"）。

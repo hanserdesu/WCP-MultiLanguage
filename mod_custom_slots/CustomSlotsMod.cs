@@ -158,6 +158,7 @@ namespace WcpCustomSlots
         // 用户刚通过 F8/关闭按钮手动关掉面板：本轮停在自定义页时轮询不再自动重开，
         // 否则用户想看原生 4 行时面板会每 0.25 秒弹回来。离开页面后复位。
         private bool _userDismissed;
+        private bool _autoDiagDone;   // 原生页几何自动采集只做一次
 
         private string MyBookPath
         {
@@ -400,8 +401,8 @@ namespace WcpCustomSlots
                     Show(chooser);
                 }
             }
-            // F9：dump 原生词书页真实层级（写文件，不依赖日志被刷新）。
-            if (Input.GetKeyDown(KeyCode.F9)) DumpNativeBookPage();
+            // F9：手动重采原生页层级（自动采集见 PollCustomPage；写文件，不依赖日志刷新）。
+            if (Input.GetKeyDown(KeyCode.F9)) DumpNativeBookPage("manual");
 
             if (_overlay == null || !_overlay.activeSelf) return;
             if (_toast != null && _toast.gameObject.activeSelf && Time.unscaledTime > _toastUntil)
@@ -461,6 +462,13 @@ namespace WcpCustomSlots
                 }
                 bool want = GameCompat.IsCustomPageShowing(chooser);
                 bool shown = _overlay != null && _overlay.activeSelf;
+                // 原生层级几何采集自动触发：挂热键的方案连续多轮都拿不到文件。
+                // 只在首次进入该页时写盘一次（F9 可手动重采）。
+                if (want && !_autoDiagDone)
+                {
+                    _autoDiagDone = true;
+                    DumpNativeBookPage("auto");
+                }
                 if (!want)
                 {
                     _userDismissed = false;
@@ -480,83 +488,194 @@ namespace WcpCustomSlots
             catch (Exception e) { Log.LogWarning("CustomSlots: 轮询失败: " + e.Message); }
         }
 
-        // 诊断用：dump 原生词书页的真实层级（节点路径、RectTransform 几何、Button/Text 组件），
-        // 用于设计"无缝扩展原生列表 + 滚动条"的改造。写入 <persistentDataPath>/WcpSlotsDiag.txt。
-        private void DumpNativeBookPage()
+        // 诊断用：dump 原生词书页的真实层级与可克隆参数，用于"无缝扩展原生列表 + 滚动条"改造。
+        // 写成 <persistentDataPath>/WcpSlotsDiag.txt（不依赖日志被刷新）。
+        // source=auto：首次发现该页可见时自动采集；manual：F9 手动重采。
+        private void DumpNativeBookPage(string source)
         {
             try
             {
-                object chooser = GameCompat.FindChooserInstance();
+                object chooser = GameCompat.FindVisibleChooserInstance();
+                if (chooser == null) chooser = GameCompat.FindChooserInstance();
                 Component chooserComponent = chooser as Component;
                 if (chooserComponent == null)
                 {
-                    Log.LogWarning("CustomSlots: F9 找不到词书页实例，无法 dump 原生页");
+                    Log.LogWarning("CustomSlots: dump 找不到词书页实例（" + source + "）");
                     return;
                 }
-                List<string> lines = new List<string>();
-                lines.Add("=== WCP native book page dump " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + " ===");
-                lines.Add("compat: " + GameCompat.Notes);
-                lines.Add("chooser path = " + GameCompat.NodePath(chooserComponent.transform));
-                lines.Add("BookButtonFather=" + GameCompat.Count(GameCompat.GetFatherButtons(chooser)));
-                lines.Add("BookButtonSon=" + GameCompat.Count(GameCompat.GetSonButtons(chooser)));
-                lines.Add("BookNameText=" + GameCompat.Count(GameCompat.GetNameTexts(chooser)));
-                lines.Add("LearnedNumInBook=" + GameCompat.Count(GameCompat.GetLearnedButtons(chooser)));
-                lines.Add("自定义页判定=" + (GameCompat.IsCustomPageShowing(chooser) ? "是" : "否") +
-                          "; 校准页签索引=" + GameCompat.CustomPageIndex);
 
-                DumpNode(chooserComponent.transform, lines, 0, 4);
+                List<string> lines = new List<string>();
+                lines.Add("=== WCP native book page dump (" + source + ") " +
+                          DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + " ===");
+                lines.Add("compat: " + GameCompat.Notes);
+                lines.Add("chooser type = " + chooser.GetType().FullName);
+                lines.Add("chooser path = " + GameCompat.NodePath(chooserComponent.transform));
+                lines.Add("screen = " + Screen.width + "x" + Screen.height + " dpi=" + Screen.dpi);
+                lines.Add("BookButtonFather=" + GameCompat.Count(GameCompat.GetFatherButtons(chooser)) +
+                          " BookButtonSon=" + GameCompat.Count(GameCompat.GetSonButtons(chooser)) +
+                          " BookNameText=" + GameCompat.Count(GameCompat.GetNameTexts(chooser)) +
+                          " LearnedNumInBook=" + GameCompat.Count(GameCompat.GetLearnedButtons(chooser)));
+                lines.Add("isCustomPage=" + (GameCompat.IsCustomPageShowing(chooser) ? "yes" : "no") +
+                          " calibratedTabIndex=" + GameCompat.CustomPageIndex);
+                lines.Add("");
+
+                // 父链：把新容器挂回原页面时要按原样对齐各级容器尺寸与锚点。
+                lines.Add("--- parent chain (0 = chooser root) ---");
+                Transform up = chooserComponent.transform;
+                for (int depth = 0; up != null && depth < 12; depth++)
+                {
+                    lines.Add("[" + depth + "] " + DescribeTransform(up));
+                    Canvas cv = up.GetComponent<Canvas>();
+                    if (cv != null)
+                        lines.Add(new string(' ', 6) + "Canvas: renderMode=" + cv.renderMode + " sortingOrder=" +
+                                  cv.sortingOrder + " overrideSorting=" + cv.overrideSorting +
+                                  " pixelPerfect=" + cv.pixelPerfect + " scaleFactor=" + cv.scaleFactor);
+                    CanvasScaler scaler = up.GetComponent<CanvasScaler>();
+                    if (scaler != null)
+                        lines.Add(new string(' ', 6) + "CanvasScaler: uiScaleMode=" + scaler.uiScaleMode +
+                                  " refRes=" + scaler.referenceResolution.x + "x" + scaler.referenceResolution.y +
+                                  " match=" + scaler.matchWidthOrHeight + " screenMatchMode=" + scaler.screenMatchMode +
+                                  " scaleFactor=" + scaler.scaleFactor);
+                    up = up.parent;
+                }
+                lines.Add("");
+
+                lines.Add("--- chooser subtree (depth<=7) ---");
+                DumpNode(chooserComponent.transform, lines, 0, 7);
+                lines.Add("");
+                lines.Add("--- BookButtonFather (native 4 rows container) ---");
                 DumpArray(GameCompat.GetFatherButtons(chooser), "Father", lines);
+                lines.Add("--- BookButtonSon ---");
                 DumpArray(GameCompat.GetSonButtons(chooser), "Son", lines);
+                lines.Add("--- BookNameText ---");
                 DumpArray(GameCompat.GetNameTexts(chooser), "NameText", lines);
+                lines.Add("--- LearnedNumInBook ---");
+                DumpArray(GameCompat.GetLearnedButtons(chooser), "LearnedNum", lines);
+                lines.Add("");
+
+                DumpScrollTemplates(lines);
+                DumpFonts(chooserComponent.transform, lines);
 
                 string path = Path.Combine(Application.persistentDataPath, "WcpSlotsDiag.txt");
                 File.WriteAllText(path, string.Join("\n", lines.ToArray()));
-                Log.LogInfo("CustomSlots: F9 已 dump 原生页层级 -> " + path + "（" + lines.Count + " 行）");
+                Log.LogInfo("CustomSlots: native page dumped (" + source + ") -> " + path +
+                            " (" + lines.Count + " lines)");
             }
             catch (Exception e) { Log.LogError("CustomSlots: dump 原生页失败: " + e); }
+        }
+
+        // 组件可克隆参数：克隆原生行/滚动条时这些值必须照抄，靠猜必然"永远差一点"。
+        private string DescribeComponent(Component c)
+        {
+            if (c == null) return "(null)";
+            string type = c.GetType().Name;
+            if (c is Image)
+            {
+                Image img = (Image)c;
+                return "Image color=" + Fmt(img.color) + " sprite=" + (img.sprite == null ? "(none)" : img.sprite.name) +
+                       " type=" + img.type + " preserveAspect=" + img.preserveAspect + " raycast=" + img.raycastTarget;
+            }
+            if (c is UnityEngine.UI.Text)
+            {
+                UnityEngine.UI.Text tx = (UnityEngine.UI.Text)c;
+                return "Text text='" + Clip(tx.text) + "' fontSize=" + tx.fontSize + " font=" +
+                       (tx.font == null ? "(none)" : tx.font.name) + " color=" + Fmt(tx.color) + " style=" + tx.fontStyle +
+                       " align=" + tx.alignment + " bestFit=" + tx.resizeTextForBestFit + " raycast=" + tx.raycastTarget;
+            }
+            if (c is Button)
+            {
+                Button b = (Button)c;
+                string target = b.targetGraphic is Image ? " targetColor=" + Fmt(((Image)b.targetGraphic).color) : "";
+                return "Button interactable=" + b.interactable + " transition=" + b.transition + target;
+            }
+            if (c is ScrollRect)
+            {
+                ScrollRect sr = (ScrollRect)c;
+                return "ScrollRect movement=" + sr.movementType + " h=" + sr.horizontal + " v=" + sr.vertical +
+                       " inertia=" + sr.inertia + " elasticity=" + sr.elasticity + " decel=" + sr.decelerationRate +
+                       " sensitivity=" + sr.scrollSensitivity + " viewport=" + PathOf(sr.viewport) +
+                       " content=" + PathOf(sr.content) + " vScrollbar=" + PathOf(sr.verticalScrollbar == null ? null : sr.verticalScrollbar.transform) +
+                       " vScrollbarVisibility=" + sr.verticalScrollbarVisibility;
+            }
+            if (c is Scrollbar)
+            {
+                Scrollbar sb = (Scrollbar)c;
+                return "Scrollbar direction=" + sb.direction + " value=" + sb.value + " size=" + sb.size +
+                       " steps=" + sb.numberOfSteps + " handle=" + PathOf(sb.handleRect) +
+                       " normalColor=" + Fmt(sb.colors.normalColor);
+            }
+            if (c is Mask) return "Mask showMaskGraphic=" + ((Mask)c).showMaskGraphic;
+            if (type.IndexOf("RectMask2D", StringComparison.Ordinal) >= 0) return "RectMask2D";
+            if (c is CanvasGroup)
+            {
+                CanvasGroup g = (CanvasGroup)c;
+                return "CanvasGroup alpha=" + g.alpha + " interactable=" + g.interactable +
+                       " blocksRaycasts=" + g.blocksRaycasts + " ignoreParent=" + g.ignoreParentGroups;
+            }
+            if (type.IndexOf("LayoutGroup", StringComparison.Ordinal) >= 0)
+                return type + " spacing=" + Refl(c, "spacing") + " padding=" + Refl(c, "padding") +
+                       " align=" + Refl(c, "childAlignment") + " controlW=" + Refl(c, "childControlWidth") +
+                       " controlH=" + Refl(c, "childControlHeight") + " expandW=" + Refl(c, "childForceExpandWidth") +
+                       " expandH=" + Refl(c, "childForceExpandHeight") + " cellSize=" + Refl(c, "cellSize");
+            if (type.IndexOf("ContentSizeFitter", StringComparison.Ordinal) >= 0)
+                return "ContentSizeFitter h=" + Refl(c, "horizontalFit") + " v=" + Refl(c, "verticalFit");
+            if (type.IndexOf("LayoutElement", StringComparison.Ordinal) >= 0)
+                return "LayoutElement minH=" + Refl(c, "minHeight") + " prefH=" + Refl(c, "preferredHeight") +
+                       " minW=" + Refl(c, "minWidth") + " prefW=" + Refl(c, "preferredWidth") +
+                       " flexibleH=" + Refl(c, "flexibleHeight");
+            // 文本类组件不绑 TMPro：反射读 TMP_Text 的公开属性。
+            if (type.IndexOf("Text", StringComparison.Ordinal) >= 0)
+                return type + " text='" + Clip(GameCompat.ReadText(c)) + "' fontSize=" + Refl(c, "fontSize") +
+                       " font=" + Refl(c, "font") + " color=" + Refl(c, "color") + " style=" + Refl(c, "fontStyle") +
+                       " align=" + Refl(c, "alignment") + " wrap=" + Refl(c, "enableWordWrapping");
+            return type;
+        }
+
+        private string DescribeTransform(Transform t)
+        {
+            if (t == null) return "(null)";
+            string comps = "";
+            Component[] cs = t.GetComponents<Component>();
+            if (cs != null)
+                foreach (Component c in cs)
+                {
+                    if (c == null || c is Transform) continue;
+                    comps += (comps.Length == 0 ? "" : " | ") + DescribeComponent(c);
+                }
+            return t.name + Geo(t) + (t.gameObject.activeSelf ? "" : " [INACTIVE]") + " {" + comps + "}";
+        }
+
+        private static string Geo(Transform t)
+        {
+            RectTransform rt = t as RectTransform;
+            if (rt == null) return "";
+            Vector3 wp = rt.position;
+            Rect r = rt.rect;
+            return " size=" + rt.sizeDelta.x.ToString("0.##") + "x" + rt.sizeDelta.y.ToString("0.##") +
+                   " pos=" + rt.anchoredPosition.x.ToString("0.##") + "," + rt.anchoredPosition.y.ToString("0.##") +
+                   " anchor=" + rt.anchorMin.x.ToString("0.##") + "," + rt.anchorMin.y.ToString("0.##") +
+                   "->" + rt.anchorMax.x.ToString("0.##") + "," + rt.anchorMax.y.ToString("0.##") +
+                   " pivot=" + rt.pivot.x.ToString("0.##") + "," + rt.pivot.y.ToString("0.##") +
+                   " world=" + wp.x.ToString("0") + "," + wp.y.ToString("0") +
+                   " rect=" + r.width.ToString("0.##") + "x" + r.height.ToString("0.##");
         }
 
         private void DumpNode(Transform t, List<string> lines, int depth, int maxDepth)
         {
             if (t == null || depth > maxDepth) return;
-            RectTransform rt = t as RectTransform;
-            string geo = "";
-            if (rt != null)
-                geo = " size=" + rt.sizeDelta.x.ToString("0") + "x" + rt.sizeDelta.y.ToString("0") +
-                      " pos=" + rt.anchoredPosition.x.ToString("0") + "," + rt.anchoredPosition.y.ToString("0") +
-                      " anchor=" + rt.anchorMin.x.ToString("0.##") + "," + rt.anchorMin.y.ToString("0.##") +
-                      "->" + rt.anchorMax.x.ToString("0.##") + "," + rt.anchorMax.y.ToString("0.##");
-            string comps = "";
-            Component[] cs = t.GetComponents<Component>();
-            if (cs != null)
-                foreach (Component c in cs)
-                    if (c != null && !(c is Transform)) comps += c.GetType().Name + " ";
-            string active = t.gameObject.activeSelf ? "" : " [INACTIVE]";
-            lines.Add(new string(' ', depth * 2) + t.name + geo + " {" + comps.Trim() + "}" + active);
+            lines.Add(new string(' ', depth * 2) + DescribeTransform(t));
             for (int i = 0; i < t.childCount; i++) DumpNode(t.GetChild(i), lines, depth + 1, maxDepth);
         }
 
         // 通过兼容层 dump 一个组件数组（按钮组 / 文本组），不绑具体类型。
         private void DumpArray(Array items, string tag, List<string> lines)
         {
-            if (items == null) { lines.Add(tag + ": (字段未解析到)"); return; }
+            if (items == null) { lines.Add(tag + ": (field not resolved)"); return; }
             for (int i = 0; i < items.Length; i++)
             {
-                object item = items.GetValue(i);
-                Component c = item as Component;
+                Component c = items.GetValue(i) as Component;
                 if (c == null) { lines.Add(tag + "[" + i + "]: (null)"); continue; }
 
-                RectTransform rt = c.GetComponent<RectTransform>();
-                string geo = rt != null
-                    ? " size=" + rt.sizeDelta.x.ToString("0") + "x" + rt.sizeDelta.y.ToString("0") +
-                      " pos=" + rt.anchoredPosition.x.ToString("0") + "," + rt.anchoredPosition.y.ToString("0") +
-                      " anchor=" + rt.anchorMin.x.ToString("0.##") + "," + rt.anchorMin.y.ToString("0.##") +
-                      "->" + rt.anchorMax.x.ToString("0.##") + "," + rt.anchorMax.y.ToString("0.##")
-                    : "";
-                Button b = item as Button;
-                string state = b != null ? " interactable=" + b.interactable : "";
-
-                // 标签：该节点下任意含 "Text" 的组件（含 TMP），用反射读 text，不绑 TMPro。
                 string label = "";
                 Component[] children = c.GetComponentsInChildren<Component>(true);
                 if (children != null)
@@ -564,13 +683,113 @@ namespace WcpCustomSlots
                     {
                         if (child == null) continue;
                         if (child.GetType().Name.IndexOf("Text", StringComparison.Ordinal) < 0) continue;
-                        string t = GameCompat.ReadText(child);
-                        if (!string.IsNullOrEmpty(t)) { label = t; break; }
+                        string txt = GameCompat.ReadText(child);
+                        if (!string.IsNullOrEmpty(txt)) { label = txt; break; }
                     }
 
-                lines.Add(tag + "[" + i + "] " + GameCompat.NodePath(c.transform) +
-                    " active=" + c.gameObject.activeSelf + state + geo + " label='" + label + "'");
+                lines.Add(tag + "[" + i + "] path=" + GameCompat.NodePath(c.transform) +
+                          " active=" + c.gameObject.activeSelf + " label='" + label + "'");
+                lines.Add(new string(' ', 4) + "self: " + DescribeTransform(c.transform));
+                Transform parent = c.transform.parent;
+                if (parent != null) lines.Add(new string(' ', 4) + "parent: " + DescribeTransform(parent));
+                for (int k = 0; k < c.transform.childCount && k < 6; k++)
+                    lines.Add(new string(' ', 4) + "child[" + k + "]: " + DescribeTransform(c.transform.GetChild(k)));
             }
+        }
+
+        // 原生滚动件模板：无缝改造要克隆原生滚动条/滚动容器，不能自己造一个风格不同的。
+        private void DumpScrollTemplates(List<string> lines)
+        {
+            lines.Add("--- all ScrollRect in scene (clone templates) ---");
+            try
+            {
+                ScrollRect[] rects = Resources.FindObjectsOfTypeAll<ScrollRect>();
+                if (rects == null || rects.Length == 0) lines.Add("(none found)");
+                else
+                    foreach (ScrollRect sr in rects)
+                    {
+                        if (sr == null || !sr.gameObject.scene.IsValid()) continue;
+                        lines.Add("* " + GameCompat.NodePath(sr.transform) + " active=" +
+                                  sr.gameObject.activeInHierarchy + " " + DescribeComponent(sr));
+                        if (sr.viewport != null) lines.Add("    viewport: " + DescribeTransform(sr.viewport));
+                        if (sr.content != null)
+                        {
+                            lines.Add("    content: " + DescribeTransform(sr.content));
+                            for (int k = 0; k < sr.content.childCount && k < 3; k++)
+                                lines.Add("      content.child[" + k + "]: " + DescribeTransform(sr.content.GetChild(k)));
+                        }
+                    }
+
+                lines.Add("--- all Scrollbar in scene (clone templates) ---");
+                Scrollbar[] bars = Resources.FindObjectsOfTypeAll<Scrollbar>();
+                if (bars == null || bars.Length == 0) lines.Add("(none found)");
+                else
+                    foreach (Scrollbar sb in bars)
+                    {
+                        if (sb == null || !sb.gameObject.scene.IsValid()) continue;
+                        lines.Add("* " + GameCompat.NodePath(sb.transform) + " active=" +
+                                  sb.gameObject.activeInHierarchy + " " + DescribeComponent(sb));
+                        if (sb.handleRect != null) lines.Add("    handle: " + DescribeTransform(sb.handleRect));
+                    }
+            }
+            catch (Exception e) { lines.Add("(template scan failed: " + e.Message + ")"); }
+        }
+
+        private void DumpFonts(Transform root, List<string> lines)
+        {
+            lines.Add("--- fonts used in this page (clone rows must reuse these) ---");
+            try
+            {
+                Dictionary<string, int> seen = new Dictionary<string, int>();
+                Component[] all = root.GetComponentsInChildren<Component>(true);
+                if (all != null)
+                    foreach (Component c in all)
+                    {
+                        if (c == null) continue;
+                        string type = c.GetType().Name;
+                        bool isText = c is UnityEngine.UI.Text || type.IndexOf("Text", StringComparison.Ordinal) >= 0;
+                        if (!isText) continue;
+                        string font = c is UnityEngine.UI.Text
+                            ? (((UnityEngine.UI.Text)c).font == null ? "(none)" : ((UnityEngine.UI.Text)c).font.name)
+                            : Refl(c, "font");
+                        if (string.IsNullOrEmpty(font)) font = "(none)";
+                        seen[font] = (seen.ContainsKey(font) ? seen[font] : 0) + 1;
+                    }
+                if (seen.Count == 0) lines.Add("(no text components)");
+                foreach (KeyValuePair<string, int> kv in seen) lines.Add("* " + kv.Key + " x" + kv.Value);
+            }
+            catch (Exception e) { lines.Add("(font scan failed: " + e.Message + ")"); }
+        }
+
+        private static string Fmt(Color c)
+        {
+            return "RGBA(" + c.r.ToString("0.###") + "," + c.g.ToString("0.###") + "," + c.b.ToString("0.###") +
+                   "," + c.a.ToString("0.###") + ")";
+        }
+
+        private static string Clip(string s)
+        {
+            if (string.IsNullOrEmpty(s)) return "";
+            s = s.Replace("\r", " ").Replace("\n", " ");
+            return s.Length > 40 ? s.Substring(0, 40) + "..." : s;
+        }
+
+        private static string PathOf(Transform rt)
+        {
+            return rt == null ? "(none)" : GameCompat.NodePath(rt);
+        }
+
+        private static string Refl(object o, string prop)
+        {
+            try
+            {
+                if (o == null) return null;
+                System.Reflection.PropertyInfo pi = o.GetType().GetProperty(prop);
+                if (pi == null) return null;
+                object v = pi.GetValue(o, null);
+                return v == null ? "(null)" : v.ToString();
+            }
+            catch { return null; }
         }
 
         private void RebuildRows()
