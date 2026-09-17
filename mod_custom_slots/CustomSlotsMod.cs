@@ -160,6 +160,23 @@ namespace WcpCustomSlots
         private bool _userDismissed;
         private bool _autoDiagDone;   // 原生页几何自动采集只做一次
 
+        // ── 路线 A：克隆原生外观（P1-15）────────────────────────────────────
+        // 用户要求"20 槽全部用原生一模一样的方式，没有 UI 违和性，只是多了个滚动条"。
+        // 2026-09-17 实测差异（截图 724678 vs diag）：
+        //   行    : 原生 160x30 + Image sprite=UISprite(type=Sliced) | 我们 708x48 + 纯色块
+        //   面板底: 原生无面板底（直接落在页面上）           | 我们 0.035/0.05/0.08 深色板
+        //   滚动条: 原生有 Scrollbar Vertical（handle=sprite）| 我们 vScrollbar=(none)
+        // 所以：隐藏自绘外框/面板底、行克隆原生 sprite、补一个克隆原生滚动条。
+        private Sprite _nativeRowSprite;      // 原生 Button-showWord 的 Image.sprite（UISprite）
+        private Sprite _nativeBarBg;          // 克隆到的滚动条背景 sprite
+        private Sprite _nativeBarHandle;      // 克隆到的滚动条 handle sprite
+        private Scrollbar _vScrollbar;        // 顶部往下的竖向滚动条
+        private Image _panelBg;               // 自绘面板底（路线 A 下隐藏）
+        private Text _titleText;
+        private Text _hintText;
+        private Button _closeButton;
+        private Button _refreshButton;
+
         private string MyBookPath
         {
             get { return Path.Combine(Application.persistentDataPath, "MyBook.es3"); }
@@ -294,10 +311,11 @@ namespace WcpCustomSlots
 
             Image panelImage = _overlay.AddComponent<Image>();
             panelImage.color = new Color(0.035f, 0.05f, 0.08f, 0.97f);
+            _panelBg = panelImage;   // 路线 A：原生页没有面板底，建完就隐藏 + 不接收射线
 
-            CreateText(_overlay.transform, "WCP 自定义词书（20 槽）", 26, new Vector2(20f, -18f),
+            _titleText = CreateText(_overlay.transform, "WCP 自定义词书（20 槽）", 26, new Vector2(20f, -18f),
                 new Vector2(600f, 42f), TextAnchor.UpperLeft, Color.white);
-            CreateText(_overlay.transform,
+            _hintText = CreateText(_overlay.transform,
                 "滚轮选择。标记为“mod”才会启用语言资源服务；其它词书仅保留原样。",
                 14, new Vector2(20f, -57f), new Vector2(680f, 30f), TextAnchor.UpperLeft,
                 new Color(0.72f, 0.78f, 0.86f));
@@ -309,7 +327,8 @@ namespace WcpCustomSlots
             close.GetComponent<RectTransform>().pivot = new Vector2(1f, 1f);
             close.onClick.AddListener(new UnityAction(OnCloseButton));
             EnsureEventSystem();
-            CreateActionButton(_overlay.transform, "刷新", new Vector2(-112f, -18f),
+            _closeButton = close;
+            _refreshButton = CreateActionButton(_overlay.transform, "刷新", new Vector2(-112f, -18f),
                 new Vector2(56f, 36f), new Color(0.16f, 0.30f, 0.38f),
                 new UnityAction(RefreshFromDisk), true);
 
@@ -352,8 +371,156 @@ namespace WcpCustomSlots
             fitter.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
             scroll.content = _content;
 
+            // 路线 A：补一个**克隆原生**的竖向滚动条 —— 原生选择词汇书页是横向页签
+            // （Scroll View h=True），竖向滚动区只有背包/手机聊天里有，所以这里不能
+            // "复用原生节点"，只能把原生滚动条的层级结构（背景 + Sliding Area + Handle）
+            // 原样克隆出来，再取它的美术 sprite，这样外观与原生完全一致。
+            EnsureVScrollbar(scroll);
+            ApplyNativeLook();
+
             EnsureInputField(_overlay.transform);
             RebuildRows();
+        }
+
+        // ── 路线 A 实现（P1-15）─────────────────────────────────────────────
+        // 全部用"克隆原生件"的办法：不自己画 sprite、不自己定字号，能拿到的原生
+        // Image/Text 就直接取它的 sprite/font。拿不到时才退回自绘（并在日志里说明），
+        // 保证任何游戏版本下都不会因为取不到原生资源而变形或消失。
+
+        // 在场景里找原生竖向滚动条，取其背景/handle 美术。候选按 diag 里出现过的路径，
+        // 第一个能取到 handle sprite 的即采纳。
+        private static readonly string[] NativeScrollbarPaths =
+        {
+            "AllCanvas/Canvas-Gift/SellBox/InventoryList/Scrollbar Vertical",
+            "AllCanvas/Canvas-Phone/All/Phone/MaskPhone/phoneIn/Message4Chat/ScrollView4/Scrollbar Vertical",
+        };
+
+        private void CollectNativeSprites()
+        {
+            if (_nativeRowSprite != null && _nativeBarHandle != null) return;
+            // 行 sprite：原生 Button-showWord 的 Image（sprite=UISprite, type=Sliced）
+            if (_nativeRowSprite == null)
+            {
+                GameObject row = FindSceneObject("AllCanvas/Canvas-Hider/ShowWordNum-Group(book)/Button-showWord");
+                if (row != null)
+                {
+                    Image img = row.GetComponent<Image>();
+                    if (img != null) _nativeRowSprite = img.sprite;
+                }
+            }
+            // 滚动条：原生 Scrollbar 的背景 Image + handle 的 Image
+            for (int i = 0; i < NativeScrollbarPaths.Length && _nativeBarHandle == null; i++)
+            {
+                GameObject bar = FindSceneObject(NativeScrollbarPaths[i]);
+                if (bar == null) continue;
+                Image bg = bar.GetComponent<Image>();
+                if (bg != null) _nativeBarBg = bg.sprite;
+                Transform handle = bar.transform.Find("Sliding Area/Handle");
+                if (handle == null) handle = bar.transform.Find("Handle");
+                if (handle != null)
+                {
+                    Image hi = handle.GetComponent<Image>();
+                    if (hi != null && hi.sprite != null) _nativeBarHandle = hi.sprite;
+                }
+            }
+        }
+
+        // 按路径找对象：Transform.Find 能命中未激活对象（GameObject.Find 不行）。
+        private static GameObject FindSceneObject(string path)
+        {
+            try
+            {
+                string[] parts = path.Split('/');
+                GameObject root = GameObject.Find(parts[0]);
+                if (root == null) return null;
+                Transform t = root.transform;
+                for (int i = 1; i < parts.Length && t != null; i++) t = t.Find(parts[i]);
+                return t == null ? null : t.gameObject;
+            }
+            catch (Exception) { return null; }
+        }
+
+        // 竖向滚动条：结构照原生克隆（背景 + Sliding Area/Handle），美术用原生 sprite，
+        // 数值从顶部往下（与原生的自上而下一致）。
+        private void EnsureVScrollbar(ScrollRect scroll)
+        {
+            CollectNativeSprites();
+            GameObject barObject = new GameObject("Scrollbar Vertical");
+            barObject.transform.SetParent(_overlay.transform, false);
+            RectTransform barRect = barObject.AddComponent<RectTransform>();
+            barRect.anchorMin = new Vector2(1f, 0f);
+            barRect.anchorMax = new Vector2(1f, 1f);
+            barRect.pivot = new Vector2(1f, 0.5f);
+            barRect.sizeDelta = new Vector2(12f, -(18f + 94f));
+            barRect.anchoredPosition = new Vector2(-6f, -12f);
+            Image barImage = barObject.AddComponent<Image>();
+            if (_nativeBarBg != null) { barImage.sprite = _nativeBarBg; barImage.type = Image.Type.Sliced; }
+            else barImage.color = new Color(1f, 1f, 1f, 0.12f);
+
+            GameObject sliding = new GameObject("Sliding Area");
+            sliding.transform.SetParent(barObject.transform, false);
+            RectTransform slidingRect = sliding.AddComponent<RectTransform>();
+            slidingRect.anchorMin = Vector2.zero;
+            slidingRect.anchorMax = Vector2.one;
+            slidingRect.offsetMin = new Vector2(2f, 2f);
+            slidingRect.offsetMax = new Vector2(-2f, -2f);
+
+            GameObject handleObject = new GameObject("Handle");
+            handleObject.transform.SetParent(sliding.transform, false);
+            RectTransform handleRect = handleObject.AddComponent<RectTransform>();
+            handleRect.anchorMin = Vector2.zero;
+            handleRect.anchorMax = Vector2.one;
+            handleRect.offsetMin = Vector2.zero;
+            handleRect.offsetMax = Vector2.zero;
+            Image handleImage = handleObject.AddComponent<Image>();
+            if (_nativeBarHandle != null) { handleImage.sprite = _nativeBarHandle; handleImage.type = Image.Type.Sliced; }
+            else handleImage.color = new Color(1f, 1f, 1f, 0.45f);
+
+            Scrollbar bar = barObject.AddComponent<Scrollbar>();
+            bar.direction = Scrollbar.Direction.TopToBottom;
+            bar.handleRect = handleRect;
+            bar.targetGraphic = handleImage;
+            ColorBlock cb = bar.colors;
+            cb.normalColor = Color.white; cb.highlightedColor = Color.white;
+            cb.pressedColor = Color.white; cb.selectedColor = Color.white;
+            cb.disabledColor = Color.white; cb.colorMultiplier = 1f;
+            bar.colors = cb;
+
+            scroll.verticalScrollbar = bar;
+            scroll.verticalScrollbarVisibility = ScrollRect.ScrollbarVisibility.Permanent;
+            scroll.verticalScrollbarSpacing = -3f;
+            _vScrollbar = bar;
+        }
+
+        // 把自绘外框换成克隆来的原生外观：原生页没有深色面板底/大标题，
+        // 隐藏它们（含标题/说明文字），只留原生行 + 原生滚动条。
+        private void ApplyNativeLook()
+        {
+            CollectNativeSprites();
+
+            if (_panelBg != null)
+            {
+                _panelBg.enabled = false;              // 画面关掉
+                _panelBg.raycastTarget = false;        // 不挡下层原生点击
+            }
+            if (_titleText != null) _titleText.gameObject.SetActive(false);
+            if (_hintText != null) _hintText.gameObject.SetActive(false);
+            // 关闭/刷新仍要能点：改成右下角原生风格小按钮，别悬在大标题位置。
+            RestyleAsNative(_closeButton, new Vector2(-18f, 16f));
+            RestyleAsNative(_refreshButton, new Vector2(-104f, 16f));
+            // 行高/间距按原生比例（160x30 + HorizontalLayoutGroup spacing 17 → 这里竖向 6）。
+            if (_content != null)
+            {
+                VerticalLayoutGroup vlg = _content.GetComponent<VerticalLayoutGroup>();
+                if (vlg != null)
+                {
+                    vlg.spacing = 6f;
+                    vlg.padding = new RectOffset(2, 2, 2, 2);
+                }
+            }
+            Log.LogInfo("CustomSlots: 路线A 原生外观 → 行 sprite=" + (_nativeRowSprite == null ? "(none→自绘)" : _nativeRowSprite.name) +
+                "; 滚动条 handle=" + (_nativeBarHandle == null ? "(none→自绘)" : _nativeBarHandle.name) +
+                "; 面板底=" + (_panelBg == null ? "?" : "隐藏"));
         }
 
         // 关闭按钮：与 F8 同一语义 —— 手动关闭后轮询不再自动重开（本轮停留期间）。
@@ -361,6 +528,26 @@ namespace WcpCustomSlots
         {
             Hide();
             _userDismissed = true;
+        }
+
+        // 把自绘按钮换成原生外观：位置改到右下角，底图换成原生行 sprite。
+        private void RestyleAsNative(Button button, Vector2 anchoredPosition)
+        {
+            if (button == null) return;
+            RectTransform rt = button.GetComponent<RectTransform>();
+            rt.anchorMin = new Vector2(1f, 0f);
+            rt.anchorMax = new Vector2(1f, 0f);
+            rt.pivot = new Vector2(1f, 0f);
+            rt.anchoredPosition = anchoredPosition;
+            rt.sizeDelta = new Vector2(80f, 30f);
+            if (_nativeRowSprite == null) return;
+            Image img = button.GetComponent<Image>();
+            if (img != null)
+            {
+                img.sprite = _nativeRowSprite;
+                img.type = Image.Type.Sliced;
+                img.color = Color.white;   // 原生按钮底色，不再用自绘深蓝
+            }
         }
 
         internal void Hide()
@@ -854,9 +1041,18 @@ namespace WcpCustomSlots
                 GameObject rowObject = new GameObject("Row" + (i + 1));
                 rowObject.transform.SetParent(_content, false);
                 LayoutElement element = rowObject.AddComponent<LayoutElement>();
-                element.minHeight = 48f;
-                element.preferredHeight = 48f;
+                // 尺寸照原生行：Button-showWord = 160x30（diag 实测）。
+                element.minHeight = 30f;
+                element.preferredHeight = 30f;
                 Image rowImage = rowObject.AddComponent<Image>();
+                // 路线 A：能取到原生行 sprite（UISprite, Sliced）就用它，整行外观与原生一致；
+                // 取不到才退回纯色块。选中/受管状态仍用同一 sprite，只改色调。
+                if (_nativeRowSprite == null) CollectNativeSprites();
+                if (_nativeRowSprite != null)
+                {
+                    rowImage.sprite = _nativeRowSprite;
+                    rowImage.type = Image.Type.Sliced;
+                }
                 rowImage.color = color;
                 Button row = rowObject.AddComponent<Button>();
                 row.targetGraphic = rowImage;
@@ -1173,7 +1369,7 @@ namespace WcpCustomSlots
         }
 
         // anchorTop=true：右上角（面板头部按钮）；false：右下角（行内 / 输入栏按钮）。
-        private static void CreateActionButton(Transform parent, string label, Vector2 position,
+        private static Button CreateActionButton(Transform parent, string label, Vector2 position,
                                                Vector2 dimensions, Color color, UnityAction action,
                                                bool anchorTop)
         {
@@ -1183,6 +1379,7 @@ namespace WcpCustomSlots
             rect.anchorMax = rect.anchorMin;
             rect.pivot = rect.anchorMin;
             button.onClick.AddListener(action);
+            return button;
         }
 
         private SlotState LoadState()
@@ -1365,8 +1562,72 @@ namespace WcpCustomSlots
         // Unity 2022.2+ 起内建字体从 Arial.ttf 更名为 LegacyRuntime.ttf：
         // 旧名字在部分运行时会抛 ArgumentException 或返回 null，导致整个覆盖层文字不可见。
         // 逐级回退，最后退到系统字库，保证中文标签一定能画出来。
+        // 原生字体：先用场景里"真原生"的传统 Text 的 font，其次用 TMP 字体资产
+        // 底层的 sourceFontFile（游戏用 SourceHanSerifCN-Heavy SDF），最后才回退内置字体。
+        // 我们用的是传统 UnityEngine.UI.Text，所以不能直接挂 TMP_FontAsset，
+        // 但 TMP_FontAsset.sourceFontFile 就是一个 Font —— 挂上去字面与原生一致。
+        // TMP 类型用反射取，避免给 mod 增加编译期程序集依赖。
+        private static Font _nativeFont;
+        private static bool _nativeFontProbed;
+
+        private static Font ResolveNativeFont()
+        {
+            if (_nativeFont != null || _nativeFontProbed) return _nativeFont;
+            _nativeFontProbed = true;
+            try
+            {
+                Text[] texts = Resources.FindObjectsOfTypeAll<Text>();
+                if (texts != null)
+                {
+                    for (int i = 0; i < texts.Length; i++)
+                    {
+                        Text t = texts[i];
+                        if (t == null || t.font == null) continue;
+                        if (!t.gameObject.scene.IsValid()) continue;   // 排除预制体/资源
+                        _nativeFont = t.font;
+                        break;
+                    }
+                }
+            }
+            catch (Exception) { }
+            if (_nativeFont == null)
+            {
+                try
+                {
+                    Type tmpType = null;
+                    Assembly[] asms = AppDomain.CurrentDomain.GetAssemblies();
+                    for (int i = 0; i < asms.Length && tmpType == null; i++)
+                    {
+                        try { tmpType = asms[i].GetType("TMPro.TMP_FontAsset", false); }
+                        catch (Exception) { }
+                    }
+                    if (tmpType != null)
+                    {
+                        PropertyInfo prop = tmpType.GetProperty("sourceFontFile",
+                            BindingFlags.Public | BindingFlags.Instance);
+                        UnityEngine.Object[] assets = Resources.FindObjectsOfTypeAll(tmpType);
+                        if (prop != null && assets != null)
+                        {
+                            for (int i = 0; i < assets.Length; i++)
+                            {
+                                if (assets[i] == null) continue;
+                                Font f = prop.GetValue(assets[i], null) as Font;
+                                if (f != null) { _nativeFont = f; break; }
+                            }
+                        }
+                    }
+                }
+                catch (Exception) { }
+            }
+            if (_nativeFont != null)
+                Log.LogInfo("CustomSlots: 原生字体 = " + _nativeFont.name);
+            return _nativeFont;
+        }
+
         private static Font ResolveFont()
         {
+            Font native = ResolveNativeFont();
+            if (native != null) return native;
             Font font = null;
             try { font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf"); }
             catch (Exception) { }

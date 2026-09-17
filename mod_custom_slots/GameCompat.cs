@@ -191,20 +191,18 @@ namespace WcpCustomSlots
 
         // ── 关键：用"页面状态"判定当前是不是自定义词书页 ──
         //
-        // 不依赖页签索引魔数：任何 num 点击后，如果第一个书名标签变成「自定义词书N…」，
-        // 就说明当前停在自定义页。游戏重排页签顺序也不会失效。
+        // 判据只认「自定义词书」：2026-09-17 实机信号（wcp_diag\WcpSlotsSignals.txt）证明
+        // GetNameTexts 返回的就是**当前页的 5 行文字**——
+        //   自定义页：自定义词书一（日语词库(猫条版)) | 自定义词书二（…） | 俄语词库(猫条版) | …
+        //   普通页  ：日语词库(猫条版) | 法语词库(猫条版) | 俄语词库(猫条版) | …
+        // 而 CosmeticMarker（"猫条版"）分支让**每一页**都命中：受管书的页签名永远带这仨字，
+        // 于是离开自定义页后判据仍然恒真 → 面板浮在词数统计/选择词汇书页上
+        // （截图 1db190、724678 两次实测）。四个候选屏幕容器
+        // （SettingPart / CanvasSetting1 / CanvasWordCount / Canvas-Hider）全程
+        // activeSelf=on，**没有任何可用的切屏信号**，所以判据只能靠标签文字。
         internal static bool IsCustomPageShowing(object chooser)
         {
-            Array names = GetNameTexts(chooser);
-            if (names != null && names.Length > 0)
-            {
-                for (int i = 0; i < names.Length; i++)
-                {
-                    string text = ReadText(names.GetValue(i));
-                    if (string.IsNullOrEmpty(text)) continue;
-                    if (text.Contains(CustomBookLabel) || text.Contains(CosmeticMarker)) return true;
-                }
-            }
+            if (MatchesLabelText(chooser)) return true;
             // 兜底：最后一次用户点击的页签就是自定义页（书名被改成任何形态都不影响）。
             // 仅记用户点击、不记游戏初始化调用，启动阶段不会误置位。
             return LastUserPageNum == CustomPageIndex;
@@ -244,7 +242,8 @@ namespace WcpCustomSlots
             catch (Exception e) { return "CollectSignals ERR: " + e.Message; }
         }
 
-        // 标签扫描单独抽出来，取证时与最终判据分别观察（旧判据 = 本函数的返回值）。
+        // 标签扫描：只认「自定义词书」。**不要**再加 CosmeticMarker（"猫条版"）——
+        // 受管书的页签名永远带那三个字，会导致每一页都判真（2026-09-17 实机两次复现）。
         private static bool MatchesLabelText(object chooser)
         {
             Array names = GetNameTexts(chooser);
@@ -254,7 +253,7 @@ namespace WcpCustomSlots
                 {
                     string text = ReadText(names.GetValue(i));
                     if (string.IsNullOrEmpty(text)) continue;
-                    if (text.Contains(CustomBookLabel) || text.Contains(CosmeticMarker)) return true;
+                    if (text.Contains(CustomBookLabel)) return true;
                 }
             }
             return false;

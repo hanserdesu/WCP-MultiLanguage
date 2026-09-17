@@ -728,3 +728,25 @@ custom-slots 离线 harness 11/0 无回归。
 - `-All -Update` 后 9 语言 pack 全部含 `books/` + `audio/word` + `audio/sentence`；ru = books 3 / word 8451 / sentence 25048（此前只有 db/）。
 - 未做：宿主 20 槽 UI（P1-15/P1-16）实机验证仍待一次游戏运行（信号取证已埋好）。
 
+
+### 已实现 P1-15 20 槽原生外观（路线 A）
+
+- 依据（截图 724678 + WcpSlotsDiag 实测差异）：行 = 原生 `Button-showWord` 160x30 `sprite=UISprite type=Sliced`，我们 708x48 纯色；原生页**没有**深色面板底/大标题；原生有 `Scrollbar Vertical`，我们 `vScrollbar=(none)`；字体 = 原生 `SourceHanSerifCN-Heavy SDF`（TMP），我们用 `LegacyRuntime.ttf`（传统 Text）。
+- 改动：
+  - `CollectNativeSprites()` —— 取原生行 sprite（`AllCanvas/Canvas-Hider/ShowWordNum-Group(book)/Button-showWord`）与原生滚动条背景/handle sprite（`Canvas-Gift/SellBox/InventoryList/Scrollbar Vertical`、手机聊天兜底）。
+  - `EnsureVScrollbar()` —— 结构照原生克隆（背景 + Sliding Area + Handle），`direction=TopToBottom`、`Permanent`，美术用原生 sprite。
+  - `ApplyNativeLook()` —— 隐藏面板底（`Image.enabled=false` + 关 raycast，不挡下层原生点击）与标题/说明文字；关闭/刷新按钮改右下角、底图换原生 sprite；内容间距改为 6。
+  - 行体：高 48→**30**（照原生），底图换原生行 sprite（选中/受管仍用同 sprite 只改色调）。
+  - `ResolveNativeFont()` —— 场景内原生 `Text.font` → TMP 资产 `sourceFontFile`（反射取，避免程序集依赖）→ 内置字体逐级回退，保证取不到也不会文字消失。
+- 兼容性：任一原生资源取不到就退回自绘，并写 `CustomSlots: 路线A 原生外观 → ...` 日志（含每个资源的实际来源），机型差异可据此定位。
+- **未验证**：实机外观（需要一次游戏运行）；判据修复后进自定义页才显示。
+
+### 已修 P1-16 面板判据（实机证据，推翻旧判据）
+
+- 证据（`wcp_diag\WcpSlotsSignals.txt` 4 行）：
+  - 普通页 → `labels=日语词库(猫条版)|法语词库(猫条版)|俄语词库(猫条版)|德语词库(猫条版)|考博精选词`
+  - 自定义页 → `labels=自定义词书一（日语词库(猫条版))|自定义词书二（…）|俄语词库(猫条版)|…`
+  - 即 `GetNameTexts` 返回的就是**当前页 5 行文字**；旧判据的 `猫条版` 分支让**每一页**都命中（受管书页签名永远带这三个字）→ 离开页面后判据恒真，面板浮在词数统计/选择词汇书页上（截图 1db190、724678 两次）。
+- 四个候选屏幕容器（`SettingPart` / `CanvasSetting1` / `CanvasWordCount` / `Canvas-Hider`）全程 `activeSelf=on` → **没有任何可用的切屏信号**，判据只能靠标签文字。
+- 修法：标签扫描只认 `自定义词书`（删掉 `猫条版` 分支），保留"用户点击过第 20 页签"兜底。
+
