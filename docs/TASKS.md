@@ -1390,3 +1390,18 @@ B) BookNameMod 只在自定义页美化、官方分类页恢复显示"自定义�
   * `test_hub.ps1` 89/89 PASS
   * `build_mods_payload.py` 产出匹配最新部署 DLL（sha256: `874d04c0…`）
   * 游戏本体 `BepInEx/plugins/BookNameMod.dll` 已更新并断言逐字节一致
+
+### P1-15 路线 B CustomSlots 覆盖层几何与页签判据修复（2026-09-18）
+
+- 根因定位：
+  1. 页面判断穿透：`GameCompat.IsCustomPageShowing` 原先只扫文本 `CustomBookLabel`（"自定义词书"），四级页恢复显示原生 "自定义词书四" 后被误判为自定义页，导致覆盖层在四级页错误弹出并遮挡官方词书。
+  2. 几何与视口压缩：`AlignToNativeBookList` 缩放面板尺寸后，`Viewport` 仍残留老自绘标题预留的 `offsetMax.y = -94f`，导致可视区被纵向严重压缩；同时克隆行缺少左对齐锚定，导致书名向左漂出可视窗口（只剩尾部 `)`）。
+  3. 滚动条事件失效：滚动条区域受尺寸与偏置影响，未填满原生可视区，事件拾取与拖拽不可用。
+- 修复措施：
+  1. `GameCompat.cs`：接入 `CurrentCategory(chooser)` 反射获取 `clickNum` 作为主判据（只有 `clickNum == 20` 才是自定义页），兜底判据收窄为仅匹配含全/半角括注的特征行，彻底杜绝在四级等官方分类页误弹。
+  2. `CustomSlotsMod.cs`：重构 Viewport 与 Scrollbar 几何，`offsetMin/offsetMax` 归零满幅适配，面板居中与垂直世界坐标精准对齐原生区域。
+  3. `RebuildRowsNative`：对克隆行显式设置 `anchorMin=(0,1), anchorMax=(0,1), pivot=(0,0.5), anchoredPosition.x=0`，确保书名从左侧完整展开，右侧词数/管理按钮对齐。
+- 验证与闭环：
+  - `mod_custom_slots/build.cmd` 构建成功并部署至 `BepInEx/plugins/CustomSlotsMod.dll`（SHA256: `fce95c30…`）。
+  - `test_custom_slots.ps1`：11/11 测试全部通过。
+  - `tools/release/build_mods_payload.py`：载荷包 `wcp-mods-payload.zip` 成功生成并包含最新构建。

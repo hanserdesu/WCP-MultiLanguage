@@ -178,6 +178,8 @@ namespace WcpCustomSlots
         private Button _refreshButton;
         // 路线 B：原生行内嵌 —— 克隆原生 bookNameBar 当行，不再自绘行外观。
         private RectTransform _panelRect;        // 覆盖层面板（复用路径对位用）
+        private RectTransform _viewportRect;     // Viewport 区域
+        private RectTransform _scrollbarRect;    // 滚动条 RectTransform
         private GameObject _nativeRowTemplate;   // 场景里现成的 bookNameBar（隐藏的考博行优先）
         private Sprite _nativeChosenSprite;      // 选中态 sprite（XQ56_button_list_long_choose）
         private readonly System.Collections.Generic.List<GameObject> _hiddenNativeBars
@@ -360,8 +362,9 @@ namespace WcpCustomSlots
             RectTransform viewport = viewportObject.AddComponent<RectTransform>();
             viewport.anchorMin = new Vector2(0f, 0f);
             viewport.anchorMax = new Vector2(1f, 1f);
-            viewport.offsetMin = new Vector2(18f, 18f);
-            viewport.offsetMax = new Vector2(-18f, -94f);
+            viewport.offsetMin = new Vector2(0f, 0f);
+            viewport.offsetMax = new Vector2(-18f, 0f);
+            _viewportRect = viewport;
             Image viewportImage = viewportObject.AddComponent<Image>();
             viewportImage.color = new Color(0.02f, 0.03f, 0.05f, 0.8f);
             Mask mask = viewportObject.AddComponent<Mask>();
@@ -422,6 +425,16 @@ namespace WcpCustomSlots
                 layout.childControlHeight = false;
                 layout.childForceExpandWidth = false;
                 layout.childForceExpandHeight = false;
+            }
+            if (_viewportRect != null)
+            {
+                _viewportRect.offsetMin = new Vector2(0f, 0f);
+                _viewportRect.offsetMax = new Vector2(-18f, 0f);
+            }
+            if (_scrollbarRect != null)
+            {
+                _scrollbarRect.sizeDelta = new Vector2(12f, 0f);
+                _scrollbarRect.anchoredPosition = new Vector2(-2f, 0f);
             }
             if (_panelRect != null)
                 AlignToNativeBookList(_panelRect, _overlay.GetComponent<Canvas>());
@@ -497,8 +510,9 @@ namespace WcpCustomSlots
             barRect.anchorMin = new Vector2(1f, 0f);
             barRect.anchorMax = new Vector2(1f, 1f);
             barRect.pivot = new Vector2(1f, 0.5f);
-            barRect.sizeDelta = new Vector2(12f, -(18f + 94f));
-            barRect.anchoredPosition = new Vector2(-6f, -12f);
+            barRect.sizeDelta = new Vector2(12f, 0f);
+            barRect.anchoredPosition = new Vector2(-2f, 0f);
+            _scrollbarRect = barRect;
             Image barImage = barObject.AddComponent<Image>();
             if (_nativeBarBg != null) { barImage.sprite = _nativeBarBg; barImage.type = Image.Type.Sliced; }
             else barImage.color = new Color(1f, 1f, 1f, 0.12f);
@@ -1305,6 +1319,14 @@ namespace WcpCustomSlots
                 row.name = "WcpSlotRow" + (i + 1);
                 row.transform.SetParent(_content, false);
                 row.SetActive(true);
+                RectTransform rowRt = row.GetComponent<RectTransform>();
+                if (rowRt != null)
+                {
+                    rowRt.anchorMin = new Vector2(0f, 1f);
+                    rowRt.anchorMax = new Vector2(0f, 1f);
+                    rowRt.pivot = new Vector2(0f, 0.5f);
+                    rowRt.anchoredPosition = new Vector2(0f, rowRt.anchoredPosition.y);
+                }
                 // 克隆体的 Button 携带原型上序列化的 onClick（会调原生逻辑用错索引），
                 // 整个换新 Button 掐断，再挂我们自己的选择回调。
                 Button oldButton = row.GetComponent<Button>();
@@ -1350,9 +1372,10 @@ namespace WcpCustomSlots
             float heightWorld = a[1].y - b[0].y;
             float ourScale = overlayCanvas.transform.lossyScale.x;
             if (ourScale <= 0f) ourScale = 1f;
-            // 右侧留 16 给滚动条，整体外扩 6 视觉缓冲
-            panel.sizeDelta = new Vector2(widthWorld / ourScale + 22f, heightWorld / ourScale + 12f);
-            panel.position = center + new Vector3(9f * ourScale, -4f * ourScale, 0f);
+            float totalWidth = widthWorld / ourScale + 18f;
+            float totalHeight = heightWorld / ourScale + 10f;
+            panel.sizeDelta = new Vector2(totalWidth, totalHeight);
+            panel.position = center + new Vector3(9f * ourScale, 0f, 0f);
         }
 
         // 原生左栏宽 247.85、fontSize 11、框高仅 18px——换行就被裁（实机截图 6c6ddc：

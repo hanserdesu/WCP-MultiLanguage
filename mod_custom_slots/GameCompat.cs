@@ -350,11 +350,30 @@ namespace WcpCustomSlots
         // （截图 1db190、724678 两次实测）。四个候选屏幕容器
         // （SettingPart / CanvasSetting1 / CanvasWordCount / Canvas-Hider）全程
         // activeSelf=on，**没有任何可用的切屏信号**，所以判据只能靠标签文字。
+        internal static int CurrentCategory(object chooser)
+        {
+            if (chooser == null) return -1;
+            try
+            {
+                FieldInfo f = chooser.GetType().GetField("clickNum", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                if (f != null)
+                {
+                    object val = f.GetValue(chooser);
+                    if (val != null) return Convert.ToInt32(val);
+                }
+            }
+            catch (Exception) { }
+            return -1;
+        }
+
         internal static bool IsCustomPageShowing(object chooser)
         {
+            int cat = CurrentCategory(chooser);
+            if (cat >= 0)
+            {
+                return cat == CustomPageIndex;
+            }
             if (MatchesLabelText(chooser)) return true;
-            // 兜底：最后一次用户点击的页签就是自定义页（书名被改成任何形态都不影响）。
-            // 仅记用户点击、不记游戏初始化调用，启动阶段不会误置位。
             return LastUserPageNum == CustomPageIndex;
         }
 
@@ -403,7 +422,7 @@ namespace WcpCustomSlots
                 {
                     string text = ReadText(names.GetValue(i));
                     if (string.IsNullOrEmpty(text)) continue;
-                    if (text.Contains(CustomBookLabel)) return true;
+                    if (text.Contains(CustomBookLabel) && (text.Contains("（") || text.Contains("("))) return true;
                 }
             }
             return false;
