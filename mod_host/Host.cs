@@ -20,7 +20,7 @@ using UnityEngine;
 
 namespace WcpHost
 {
-    [BepInPlugin("dev.hanserdesu.wcphost", "WCP Host", "0.4.0")]
+    [BepInPlugin("dev.hanserdesu.wcphost", "WCP Host", "0.5.0")]
     public class WcpHostPlugin : BaseUnityPlugin
     {
         internal static ManualLogSource Log;
@@ -29,6 +29,8 @@ namespace WcpHost
         private ConfigEntry<bool> _enabled;
         private ConfigEntry<string> _packsRootOverride;
         private ConfigEntry<bool> _mirrorWordAudio;
+        private ConfigEntry<bool> _requireSlotOwnership;
+        private SlotOwnership _slotOwnership;
 
         private ResourceRouter _router;
         private BookRegistry _registry;
@@ -74,6 +76,10 @@ namespace WcpHost
                 "把当前语言包的单词音频补进游戏原生目录（…\\LocalLow\\WCP\\vocabulary）。" +
                 "游戏的播放器只认那个目录：宿主未接管（读档中/未激活）时，若该目录为空，" +
                 "发音会静默回退成游戏的英语 AI 语音。只补缺、分批复制、可在装好后关闭。");
+            _requireSlotOwnership = Config.Bind("Compatibility", "RequireSlotOwnership", true,
+                "服务边界强约束：词书必须在 20 槽存档（WcpCustomSlots.json）里登记为" +
+                "托管行或原生镜像行，宿主才提供服务。存档缺失（未装自定义槽位插件）时按" +
+                "兼容回退放行；遇到问题可设为 false 回退到纯指纹语义。");
 
             try
             {
@@ -82,6 +88,12 @@ namespace WcpHost
                 _router = new ResourceRouter(_registry);
                 _strategies = StrategyRegistry.Load(_registry);
                 _runtime = new HostRuntime(this, _registry, _router, _strategies);
+                // P1-4 服务边界：与 CustomSlotsMod 共用同一份数据目录约定
+                // （persistentDataPath = <LocalLow>\WCP\wcp，store 在其下）。
+                HostLog.InfoSink = m => Log.LogInfo(m);
+                HostLog.WarnSink = m => Log.LogWarning(m);
+                _slotOwnership = new SlotOwnership(
+                    Path.Combine(Application.persistentDataPath, "WcpCustomSlots.json"));
                 ReportRegistry(root);
                 _featureHarmony = new Harmony("dev.hanserdesu.wcphost.features");
                 Log.LogInfo("WcpHost: 身份轮询已启用（兼容旧选书补丁），行为接线等待身份门通过");
@@ -305,6 +317,19 @@ namespace WcpHost
                 if (_runtime != null) _runtime.SetInactive();
                 else _router.SetActive(null);
                 return "未激活 · 注册表没有 profile: " + p.Id;
+            }
+
+            // P1-4 服务边界：指纹命中只证明"本书是本 mod 发布的资源"，
+            // 是否仍被服务以 20 槽 store 的登记为准（托管行/原生镜像行）。
+            if (_requireSlotOwnership != null && _requireSlotOwnership.Value && _slotOwnership != null)
+            {
+                string ownershipReason;
+                if (!_slotOwnership.IsServed(p.Fingerprint, out ownershipReason))
+                {
+                    if (_runtime != null) _runtime.SetInactive();
+                    else _router.SetActive(null);
+                    return "未激活 · " + ownershipReason;
+                }
             }
 
             if (_runtime != null) _runtime.SetIdentity(manifest, words);

@@ -910,9 +910,16 @@ New-Item -ItemType Directory -Force -Path $hubWorkRoot | Out-Null
 function Get-HubWorkPath([string]$kind) {
     # kind: 'dl'（下载临时）| 'backup'（旧包备份）。返回该类工作路径；
     # 历史遗留的 wcp 内旧位置由 Move-LegacyHubWork 搬出。
-    if ($kind -eq 'dl') { return (Join-Path $hubWorkRoot 'downloads') }
-    if ($kind -eq 'backup') { return (Join-Path $hubWorkRoot 'backups') }
-    return $hubWorkRoot
+    # 目录必须就地保证存在：全新机器上没有任何历史遗留可搬，
+    # 若依赖 Move-LegacyHubWork 顺带建目录，首次下载就会因父目录缺失而失败
+    # （2026-09-17 沙箱端到端实锤：全部资源报「未能找到路径…的一部分」）。
+    $path = $hubWorkRoot
+    if ($kind -eq 'dl') { $path = Join-Path $hubWorkRoot 'downloads' }
+    elseif ($kind -eq 'backup') { $path = Join-Path $hubWorkRoot 'backups' }
+    if (-not (Test-Path -LiteralPath $path)) {
+        New-Item -ItemType Directory -Force -Path $path | Out-Null
+    }
+    return $path
 }
 
 function Move-LegacyHubWork {
@@ -1002,6 +1009,25 @@ function Backup-HubPack([string]$packDir, [string]$backupRoot, [string]$langId) 
 
 Move-LegacyHubWork
 Remove-HubStaleWork
+
+# ---------- P1-9 磁盘健康核对（-Update 专属；纯只读核对 + 摘除不健康记录）----------
+# state 只记「下载当时」的资产哈希；磁盘可能已被用户删改/杀软隔离/故障损坏。
+# 不健康的词书从 state 摘除后，下面的差异比对自然把它当「未安装」全量重下修复。
+if ($Update -and -not $List -and -not $Plan) {
+    $unhealthyIds = @(Test-WordbookDiskHealth -Catalog $catalog -InstalledState $installed -PacksRoot $packsRoot)
+    if ($unhealthyIds.Count -gt 0) {
+        foreach ($badId in $unhealthyIds) {
+            if ((Get-PropertyNames $state.wordbooks) -contains $badId) {
+                $state.wordbooks.PSObject.Properties.Remove($badId)
+            }
+        }
+        Save-HubState
+        $installed = Get-InstalledWordbooks -State $state
+        Write-Host ('磁盘核对: {0} 本词书不健康，已从安装记录摘除（本次自动全量重下修复）: {1}' -f $unhealthyIds.Count, ($unhealthyIds -join ', ')) -ForegroundColor Yellow
+    } else {
+        Write-Host '磁盘核对: 已安装词书全部健康' -ForegroundColor DarkGray
+    }
+}
 
 # ---------- main ----------
 if ($List) { Show-Catalog; exit 0 }
@@ -1211,12 +1237,21 @@ foreach ($wb in $selection) {
             $request.ReadWriteTimeout = 120000
             $request.Proxy = [Net.WebRequest]::DefaultWebProxy
             if ($request.Proxy) { $request.Proxy.Credentials = [Net.CredentialCache]::DefaultCredentials }
-            $response = $request.GetResponse()
-            $stream = $response.GetResponseStream()
-            $fs = [IO.File]::Create($tmp)
-            $buf = New-Object byte[] 262144
-            while (($n = $stream.Read($buf, 0, $buf.Length)) -gt 0) { $fs.Write($buf, 0, $n) }
-            $fs.Dispose(); $stream.Dispose(); $response.Dispose()
+            # 读循环必须保证句柄释放：中途异常若不 Dispose，tmp 文件会被
+            # 自己锁住，随后清理失败在 EAP=Stop 下直接终止整个安装
+            # （2026-09-17 沙箱端到端实锤）。
+            $response = $null; $stream = $null; $fs = $null
+            try {
+                $response = $request.GetResponse()
+                $stream = $response.GetResponseStream()
+                $fs = [IO.File]::Create($tmp)
+                $buf = New-Object byte[] 262144
+                while (($n = $stream.Read($buf, 0, $buf.Length)) -gt 0) { $fs.Write($buf, 0, $n) }
+            } finally {
+                if ($fs) { try { $fs.Dispose() } catch { } }
+                if ($stream) { try { $stream.Dispose() } catch { } }
+                if ($response) { try { $response.Dispose() } catch { } }
+            }
             $actual = Get-Sha256Hex $tmp
             if ($actual -ne ([string]$asset.sha256).ToLowerInvariant()) {
                 throw ('SHA-256 不匹配: ' + $asset.name + ' 期望 ' + $asset.sha256 + ' 实际 ' + $actual)
@@ -1254,11 +1289,11 @@ foreach ($wb in $selection) {
             } else {
                 Copy-Item -LiteralPath $tmp -Destination (Join-Path $ns $asset.name) -Force
             }
-            Remove-Item -LiteralPath $tmp -Force
+            Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue
             $succeeded[[string]$asset.name] = $asset
         } catch {
             $errors.Add($wb.id + '/' + $asset.name + ': ' + $_.Exception.Message)
-            if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force }
+            if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue }
             continue
         }
     }

@@ -420,8 +420,94 @@ function Sync-WordAudioMirror {
     } catch { return -1 }
 }
 
+# P1-9 — 磁盘健康核对（-Update 前运行；纯只读，绝不写/删任何文件）。
+#
+# hub-state.json 只记录「当时下载的资产 sha256」；用户手动删文件、解压被杀软
+# 隔离、磁盘故障都会让磁盘偏离 state 而 -Update 察觉不到（P1-9 实证：本机
+# 8 语言 pack 音频目录为空但 state 全记 sha256 一致）。这里对每个已安装词书
+# 按 pack manifest 自证做健康检查：
+#   1. pack 骨架: manifest.json / db/meaning.sqlite(SQLite 头) / db/repair.tsv / db/sentences.json
+#   2. 词表自证: repair.tsv 的 `row<TAB>pron<TAB>` 行数 == manifest.counts.pron
+#      （repair 是 pack 的唯一生成源；9 语言 2026-09-17 实测全等，行数漂移=内容损坏）
+#   3. 音频抽样: 只对 catalog 带 word_audio 资产的语言检查 packs/<lang>/audio/word
+#      的 mp3 计数 >= 词数*0.95（迁移期共享目录形态不强制，避免误伤）。
+# 任何异常按「该词书不健康」处理（fail-closed）。返回不健康词书 id 数组。
+function Test-WordbookDiskHealth {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true)]$Catalog,
+        [Parameter(Mandatory = $true)]$InstalledState,
+        [Parameter(Mandatory = $true)][string]$PacksRoot
+    )
+
+    $unhealthy = New-Object System.Collections.Generic.List[string]
+    foreach ($wb in @($Catalog.wordbooks)) {
+        $bookId = [string]$wb.id
+        $names = Get-PropertyNames $InstalledState
+        if ($names -notcontains $bookId) { continue }
+        $lang = [string]$wb.language
+        $packDir = Join-Path $PacksRoot $lang
+        try {
+            if (-not (Test-Path -LiteralPath $packDir)) { throw 'pack 目录缺失' }
+            $manifestPath = Join-Path $packDir 'manifest.json'
+            if (-not (Test-Path -LiteralPath $manifestPath)) { throw '缺 manifest.json' }
+            $manifest = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
+            $expected = 0
+            if ($manifest -and $manifest.counts -and
+                (Get-PropertyNames $manifest.counts) -contains 'pron') {
+                $expected = [int]$manifest.counts.pron
+            }
+            if ($expected -le 0) { $expected = [int]$wb.word_count }
+            if ($expected -le 0) { throw 'manifest 与 catalog 都没有词数记录' }
+
+            $dbDir = Join-Path $packDir 'db'
+            foreach ($name in @('meaning.sqlite', 'repair.tsv', 'sentences.json')) {
+                if (-not (Test-Path -LiteralPath (Join-Path $dbDir $name))) {
+                    throw ('缺 db/' + $name)
+                }
+            }
+            $head = New-Object byte[] 16
+            $fs = [IO.File]::OpenRead((Join-Path $dbDir 'meaning.sqlite'))
+            try { [void]$fs.Read($head, 0, 16) } finally { $fs.Dispose() }
+            if ([Text.Encoding]::ASCII.GetString($head) -ne 'SQLite format 3' + [char]0) {
+                throw 'meaning.sqlite 不是 SQLite 库'
+            }
+
+            $pronPrefix = 'row' + [char]9 + 'pron' + [char]9
+            $actual = 0
+            foreach ($line in [IO.File]::ReadLines((Join-Path $dbDir 'repair.tsv'))) {
+                if ($line -ne $null -and $line.StartsWith($pronPrefix)) { $actual++ }
+            }
+            if ($actual -ne $expected) {
+                throw ('词表行数 ' + $actual + ' 与 manifest 记录 ' + $expected + ' 不符')
+            }
+
+            $wordAsset = $null
+            foreach ($a in @($wb.assets)) {
+                if ([string]$a.kind -eq 'word_audio') { $wordAsset = $a; break }
+            }
+            if ($wordAsset) {
+                $wordDir = Join-Path $packDir 'audio\word'
+                $mp3 = 0
+                if (Test-Path -LiteralPath $wordDir) {
+                    $mp3 = @([IO.Directory]::EnumerateFiles($wordDir, '*.mp3')).Count
+                }
+                $minMp3 = [math]::Floor($expected * 0.95)
+                if ($mp3 -lt $minMp3) {
+                    throw ('单词音频 ' + $mp3 + ' 个低于期望 ' + $minMp3 + '（词数*0.95）')
+                }
+            }
+            Write-Verbose ($bookId + ': 健康（' + $actual + ' 词）')
+        } catch {
+            Write-Host ('  磁盘核对: {0} 不健康（{1}）→ 本次将全量重下' -f $bookId, $_.Exception.Message) -ForegroundColor Yellow
+            $unhealthy.Add($bookId)
+        }
+    }
+    return $unhealthy.ToArray()
+}
+
 Export-ModuleMember -Function Import-WordbookCatalog, Assert-WordbookCatalog, `
     Get-WordbookById, Resolve-WordbookSelection, Get-WordbookAssetDiff, `
     Test-WordbookInstalledFully, New-DiskPlan, Test-DiskPlanCompatibility, `
     Read-HubState, Get-InstalledWordbooks, Get-ExtractMb, Test-ExtractKnown, `
-    Get-HubCatalogRows, Get-InstalledBookIds, Resolve-InteractivePick, Sync-WordAudioMirror
+    Get-HubCatalogRows, Get-InstalledBookIds, Resolve-InteractivePick, Sync-WordAudioMirror, Test-WordbookDiskHealth

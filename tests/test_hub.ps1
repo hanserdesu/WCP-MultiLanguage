@@ -273,5 +273,67 @@ Check '镜像：源缺失返回 -1' ((Sync-WordAudioMirror -SourceDir (Join-Path
 Remove-Item -LiteralPath $mirrorRoot -Recurse -Force -ErrorAction SilentlyContinue
 
 Write-Host ''
+# --- Get-HubWorkPath 目录保证（全新机器下载回归，源契约） ---
+$hubWorkFn = (Get-Command Get-HubWorkPath -ErrorAction SilentlyContinue)
+$null = $hubWorkFn
+Check '安装器源：Get-HubWorkPath 保证目录存在' ($installerText2 -match 'New-Item -ItemType Directory -Force -Path \$path')
+Check '安装器源：下载 tmp 清理失败不终止安装' ($installerText2 -match 'Remove-Item -LiteralPath \$tmp -Force -ErrorAction SilentlyContinue')
+Check '安装器源：下载句柄 finally 释放' ($installerText2 -match '\$fs\.Dispose\(\) \} catch \{ \}' -or $installerText2 -match 'finally')
+
+# --- P1-9 磁盘健康核对（Test-WordbookDiskHealth + -Update 钩子） ---
+$healthPacks = Join-Path $env:TEMP ('wcp-health-packs-' + [guid]::NewGuid().ToString('N'))
+$frPack = Join-Path $healthPacks 'fr'
+$frDb = Join-Path $frPack 'db'
+New-Item -ItemType Directory -Path $frDb -Force | Out-Null
+$tab = [char]9
+$repairLines = @('#' + $tab + 'schema=1' + $tab + 'kind' + $tab + 'word' + $tab + 'ukPhonic' + $tab + 'usPhonic' + $tab + 'value')
+for ($i = 1; $i -le 10; $i++) { $repairLines += ('row' + $tab + 'pron' + $tab + 'w' + $i + $tab + '[]' + $tab + $tab + '义' + $tab) }
+[IO.File]::WriteAllLines((Join-Path $frDb 'repair.tsv'), $repairLines)
+[IO.File]::WriteAllBytes((Join-Path $frDb 'meaning.sqlite'),
+    [Text.Encoding]::ASCII.GetBytes('SQLite format 3' + [char]0 + 'rest-of-header-padding'))
+[IO.File]::WriteAllText((Join-Path $frDb 'sentences.json'), '[1]')
+$manifestJson = '{"language":"fr","word_count":10,"counts":{"pron":10}}'
+[IO.File]::WriteAllText((Join-Path $frPack 'manifest.json'), $manifestJson)
+$healthState = [pscustomobject]@{ fr = [pscustomobject]@{ version = 'v1'; files = [pscustomobject]@{} }; ja = [pscustomobject]@{ version = 'v1'; files = [pscustomobject]@{} } }
+$healthCat = [pscustomobject]@{ wordbooks = @(
+    [pscustomobject]@{ id = 'fr'; language = 'fr'; word_count = 10; assets = @(
+        [pscustomobject]@{ kind = 'pack'; name = 'core.zip' }) },
+    [pscustomobject]@{ id = 'ja'; language = 'ja'; word_count = 5; assets = @(
+        [pscustomobject]@{ kind = 'word_audio'; name = 'w.zip' }) } ) }
+
+$bad = @(Test-WordbookDiskHealth -Catalog $healthCat -InstalledState $healthState -PacksRoot $healthPacks)
+Check '磁盘健康：缺音频目录的不健康词书被指出' ($bad.Count -eq 1 -and $bad[0] -eq 'ja')
+
+# make ja healthy so only its missing word audio keeps it flagged — then repair.
+$jaPack = Join-Path $healthPacks 'ja'
+$jaWord = Join-Path $jaPack 'audio\word'
+$jaDb = Join-Path $jaPack 'db'
+New-Item -ItemType Directory -Path $jaWord -Force | Out-Null
+New-Item -ItemType Directory -Path $jaDb -Force | Out-Null
+foreach ($n in @('w1', 'w2', 'w3', 'w4', 'w5')) { [IO.File]::WriteAllText((Join-Path $jaWord ($n + '.mp3')), 'x') }
+[IO.File]::WriteAllText((Join-Path $jaPack 'manifest.json'), '{"language":"ja","word_count":5,"counts":{"pron":5}}')
+$jaLines = @()
+for ($i = 1; $i -le 5; $i++) { $jaLines += ('row' + $tab + 'pron' + $tab + 'w' + $i + $tab + '[]' + $tab + $tab + '义' + $tab) }
+[IO.File]::WriteAllLines((Join-Path $jaDb 'repair.tsv'), $jaLines)
+[IO.File]::WriteAllBytes((Join-Path $jaDb 'meaning.sqlite'),
+    [Text.Encoding]::ASCII.GetBytes('SQLite format 3' + [char]0 + 'x'))
+[IO.File]::WriteAllText((Join-Path $jaDb 'sentences.json'), '[1]')
+$bad2 = @(Test-WordbookDiskHealth -Catalog $healthCat -InstalledState $healthState -PacksRoot $healthPacks)
+Check '磁盘健康：补齐后全部健康' ($bad2.Count -eq 0)
+
+# Corrupt a repair row count (drop one row) → fr unhealthy again.
+[IO.File]::WriteAllLines((Join-Path $frDb 'repair.tsv'), ($repairLines | Select-Object -First 10))
+$bad3 = @(Test-WordbookDiskHealth -Catalog $healthCat -InstalledState $healthState -PacksRoot $healthPacks)
+Check '磁盘健康：词表行数漂移被指出' ($bad3.Count -eq 1 -and $bad3[0] -eq 'fr')
+
+# Not-installed books are skipped, corrupt store ignored.
+$bad4 = @(Test-WordbookDiskHealth -Catalog $healthCat -InstalledState ([pscustomobject]@{}) -PacksRoot $healthPacks)
+Check '磁盘健康：未安装词书跳过' ($bad4.Count -eq 0)
+
+Check '安装器：-Update 挂磁盘核对钩子' ($installerText2 -match 'Test-WordbookDiskHealth -Catalog')
+Check '安装器：不健康词书从 state 摘除' ($installerText2 -match 'PSObject\.Properties\.Remove\(\$badId\)')
+Check '安装器：摘除后重算 installed 并提示全量重下' ($installerText2 -match '已从安装记录摘除')
+Check 'psm1：Test-WordbookDiskHealth 已导出' ((Get-Command Test-WordbookDiskHealth -ErrorAction SilentlyContinue) -ne $null)
+
 Write-Host ('结果: {0} 通过, {1} 失败' -f $pass, $fail)
 if ($fail -gt 0) { exit 1 } else { exit 0 }

@@ -71,6 +71,14 @@ namespace WcpHost
             return result;
         }
 
+        internal static bool Bool(Dictionary<string, object> d, string key, bool fallback)
+        {
+            object v;
+            if (d == null || !d.TryGetValue(key, out v) || v == null) return fallback;
+            if (v is bool) return (bool)v;
+            return fallback;
+        }
+
         internal static Dictionary<string, object> Sub(Dictionary<string, object> d, string key)
         {
             object v;

@@ -21,11 +21,11 @@
 | R3 | 各语言资源解耦，只向下提供资源接口 | **9/9 资源包落地** | `LocalLow\WCP\packs\` 现有 9 个语言包，各自含 manifest+db+books+audio，全部走宿主通用策略（ja/yue 自带策略 DLL） |
 | R4 | 以后加语言只提供资源，不反复跑测试 | **契约已落实并被机械验证** | `pack.build.json` + `$host` + 自动发现（probe 不再硬编码语言名）；es/pt/ko/ar 正是用这套流程加进来的，未改 probe 与宿主语言分支 |
 | R5 | 自定义槽位 4 → 20 条，同页滚轮选择和管理 | 选择已实现，**管理缺失 + 20 行全空** | 滚动页与 20 行模型已编译部署；但没有改名/删除/新增/导入入口，且原生 4 本书没有出现在 20 行里 |
-| R6 | 20 条也可给其它自定义词书用，本 mod 只服务自己范围 | 部分 | `external` 行模型存在，但"导入现有原生书"只在读档失败分支执行 → 实际从不导入 |
+| R6 | 20 条也可给其它自定义词书用，本 mod 只服务自己范围 | ✅ 代码+离线测试（实机待验） | 服务边界落进宿主：指纹命中之外还必须在 20 槽 store 有登记行（托管播种行/原生镜像行）才服务；未登记/已移除 fail-closed，store 缺失按兼容回退。见 P1-4 |
 | R7 | 安装时从我的 GitHub 仓库自动判断可用词书 | **已实现且测试通过** | 在线发现 + `-List` + 编号选择；9 本词书 catalog 全 available |
 | R8 | 一键安装器：可选安装哪几本 | **已实现且测试通过** | `-Books fr,ja` / 交互编号 / `all`；51 项离线测试全过 |
 | R9 | 按所选词书判断峰值磁盘与兼容性 | 已实现，**数字不可信** | `-Plan` 有峰值/最终/预留守算，但 catalog 里 `disk.extract_mb` 三份互相矛盾（fr：582 / 2150） |
-| R10 | 更新资源：比对同仓库差异、只下有差异的 | 已实现，**未在磁盘上落地验证** | `-Update` 按 `hub-state.json` 的 sha256 比对；该 state 文件在本机从未产生过，且不重算磁盘哈希 |
+| R10 | 更新资源：比对同仓库差异、只下有差异的 | ✅ 已实现并端到端验证 | -Update 按 sha256 精准差异下载；新增磁盘健康核对：state 与磁盘背离（删文件/损坏）时摘除记录全量重下自愈，真实 GitHub 下载端到端验证。见 P1-9 |
 
 ---
 
@@ -190,6 +190,20 @@ harness `Failures: 0`，部署 sha `6b9d1f14…` 与仓内一致。**实机目�
 **现状**：`Host.Evaluate()` 只做「内存词表指纹 == 落盘槽位指纹」+ 指纹命中注册表；**不看** 20 行表里的 `managed` 标志。隔离目前靠指纹，不靠槽位归属。
 **要做**：若语义要求"槽位表标 `external` 的词书不得被服务"，就在 `Evaluate()` 里加一条 managed 归属检查（fail-closed）。**完成判定**：新增单测覆盖"指纹命中但 managed=false → 不接管"。
 
+**✅ 服务边界强约束已完成（2026-09-17，代码+离线测试）**：新增 `mod_host/Core/SlotOwnership.cs`，
+`Host.Evaluate()` 在指纹命中注册表之后追加一道**槽位归属门**——词书必须在 20 槽 store
+（`WcpCustomSlots.json`）里登记为**托管播种行**（owner=mod, managed=true，来自安装器 seed）
+或**原生镜像行**（owner=external, nativeSlot>0，存量用户兼容）才提供服务；行被用户"移除"
+或从未登记 → fail-closed 不接管，拒因写进日志（`未激活 · 词书不在 20 槽服务范围…`）。
+store 文件不存在（未装 CustomSlotsMod 的老部署）按兼容回退放行，保持旧指纹语义；
+store 损坏 → fail-closed，等 CustomSlotsMod 重写后按 mtime 缓存自愈（离线验证）。
+指纹对 store 行的 words 快照现算（与 BookRegistry.FingerprintOf 同源），mtime 缓存避免轮询重读 400KB。
+配置开关 `Compatibility/RequireSlotOwnership`（默认 true）可一键回退旧行为。
+**离线验收**：`mod_host\tests\run_slot_ownership_test.cmd`（新）→ 15/0（缺失放行/托管行/镜像行/
+未登记拒绝/移除拒绝/短行忽略/混合表/损坏自愈/空表/缓存）；宿主重编译 BUILD OK 并部署，
+sha `aa634786…` 仓内=游戏一致；takeover/registry/custom-slots 全量回归通过。
+**剩余**：实机验证（进游戏选 fr → 受管激活；在面板里移除 fr 行 → 宿主日志出现"不在 20 槽服务范围"拒因）。
+
 ### P1-5 4 原生槽的硬边界要实测
 **现状**：20 行里同一时刻只能有 4 行物化进 `SelfBookList1..4`（运行态串行）；文档自认"未做导入第 5 本书的实机验证"。
 **要做**：实测导入第 5 本是否被游戏拒绝/被 mod 正确 fail-closed，并把结论写回 `ARCHITECTURE-UNIFIED.md §8`。
@@ -236,6 +250,23 @@ harness `Failures: 0`，部署 sha `6b9d1f14…` 与仓内一致。**实机目�
 ### P1-9 更新只信 `hub-state.json`，不重算磁盘
 **证据**：`Get-WordbookAssetDiff` 只比 `InstalledState` 里记的 sha256；本机 `%USERPROFILE%\AppData\LocalLow\WCP\wcp\hub-state.json` **不存在**（在线安装从未跑过）。
 **要做**：`-Update` 增加"抽样/全量重算磁盘哈希"模式（大文件可抽 mp3 计数 + 尺寸），使"用户删了文件/改坏了"也能被修复。**完成判定**：手工删 3 个 mp3 → `-Update` 能补齐。
+
+**✅ 磁盘健康核对已完成（2026-09-17，代码+测试+在线端到端）**：`WordbookHub.psm1` 新增
+`Test-WordbookDiskHealth`（纯只读）：对每本**已安装**词书核对 ① pack 骨架
+（manifest.json / meaning.sqlite 的 SQLite 头 / repair.tsv / sentences.json）；
+② 词表自证——repair.tsv `row+TAB+pron+TAB` 行数 == manifest.counts.pron（9 语言 2026-09-17 实测全等，
+漂移即内容损坏）；③ 音频抽样——catalog 带 word_audio 资产的语言检查 `audio/word` mp3 计数
+≥ 词数×0.95。`-Update` 前运行：不健康词书从 hub-state.json **摘除** → 差异比对自然把它当
+"未安装"全量重下修复（**不删用户文件**，重下覆盖即修复）。
+**在线端到端（真实 GitHub 下载）**：构造沙箱——state 记 fr v1.0.0 全资产 sha256 一致但磁盘音频树为空
+（本机真实缺陷形态）→ `-Update -Books fr`：`磁盘核对: fr 不健康（单词音频 0 个低于期望 7709…）`
+→ 摘除 → 判定"需下载 589.9 MB / 峰值 1171.9 MB" → 逐资产下载+SHA 校验 → 词音频 8,116 +
+例句音频 24,328 落位 + vocabulary 镜像 8,116 → state 恢复 4 资产记账 → 二次运行幂等"已是最新，跳过"。
+**顺手修复两个被端到端暴露的存量缺陷**：① `Get-HubWorkPath` 现在就地保证 downloads/backups 目录存在
+——e3924ad 起全新机器上无人建目录，首次下载必然全部报"未能找到路径…的一部分"（阻断所有新用户，
+沙箱实锤后修复）；② 下载读循环 finally 释放 fs/stream/response + tmp 清理改 best-effort
+——中途异常原先会把 tmp 文件锁死并让清理在 EAP=Stop 下终止整个安装。
+**契约测试**：test_hub 76→87 条全过（健康/行数漂移/缺目录/未安装跳过/-Update 钩子/摘除/目录保证/句柄释放）。
 
 ### P1-10 双份安装器维护
 `hub\WordbookHub.psm1` 与 `MultiLanguage\WordbookHub.psm1` 逐字节相同（sha `9e098ff6…`），但 `Install-WCP-Wordbooks.ps1` 有 11 行差异（缓存时间戳守卫只在 ML 那份），`tests\test_hub.ps1` 有 20 行差异（47 vs 53 项检查）。**要做**：决定单点（建议 ML 仓库为唯一源），hub 仓库改成 Release 附件或指向 ML 的薄壳。
@@ -567,3 +598,22 @@ probes 41/0、verify_integration PASS(9)、build_pack --check-all PASS、arch_ch
 - **处置**: `_local/audit/round6f_repair_final9.py`（括号归一化判据，dry-run→--apply）替换 9 句（Dirk 3 / Foul 3 / Sonnen 3），来源=发布态载荷 `1395158:de_sentences.tsv`。随后重灌库 → 重跑导出 → 重建 pack → sync → integrate → 部署侧同步 → 提交（German `d3c9903`、ML `5758103`）。
 - **终验**: 库内实测 `Dirk`→`没有迪克[男子名]…`、`Foul`→`关于犯规[体育]…`、`Sonnen`→`太阳[复数]` ✓；`--check-all` PASS；`verify_integration` PASS(9)；**全库 24,186 句中「译文不含本词释义核心」= 0**（逐句复扫）。
 - **de 译文错配问题至此关闭**。剩余遗留：de 例句括号风格 `（）`/`[]` 两套并存（历史产物，统一需专门一轮）；音标缺口（es 220/pt 136/ja 878/ru 127 单音节豁免，低 ROI 已定性）；8 个语言子仓远端 `Repository not found`（内容已经 ML 宿主仓 `hanserdesu/WCP-MultiLanguage` 发布，子仓仅缺独立备份）。
+
+---
+
+## 14. 服务边界 + 磁盘健康收敛（2026-09-17 晚）
+
+> 目标：用户需求 R6（只服务本 mod 范围）与 R10（更新只下有差异的）从"部分实现"收敛到可验收。
+> 两项都坚持兼容优先：store 缺失回退旧语义、健康核对纯只读、任何失败不阻断主安装。
+
+| 项 | 内容 | 状态 |
+|---|---|---|
+| P1-4 | 宿主服务边界：指纹命中 + 20 槽登记（托管行/镜像行）双门；RequireSlotOwnership 开关 | ✅ 代码+15/0 离线，实机待验 |
+| P1-9 | Test-WordbookDiskHealth（骨架/词表自证/音频抽样）+ -Update 摘除重下 | ✅ 在线端到端验证 |
+| 附带修复 | Get-HubWorkPath 目录保证（新用户阻断级回归）+ 下载句柄 finally 释放 | ✅ 沙箱实锤后修复 |
+| 门禁 | test_hub 87/0 · takeover 0 · custom-slots 11/0 · word-audio 0 · slot-ownership 15/0 · registry 全过 · verify_integration 9/9 · sync --check · build_pack --check-all · arch_check 0F/0W · probes 41/0 | ✅ 全绿 |
+| 发布 | 新 mods 载荷已构建（含 WcpHost 0.5.0 服务边界，payload sha256 `bb668cad…`）——**未发布**，待用户批准 | ⬜ |
+
+**版本记录**：WcpHost 0.4.0 → 0.5.0（服务边界门 + RequireSlotOwnership 配置）。
+mods 载荷待发布为新版本（建议 wcp-mods-v1.4.0）并同步 catalog mods 块 + hub catalog 副本；
+发布流程与渠道影响面见 P1-14 的经验（发版前 clarify 渠道映射）。
