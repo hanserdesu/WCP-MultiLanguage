@@ -255,7 +255,9 @@ harness `Failures: 0`，部署 sha `6b9d1f14…` 与仓内一致。**实机目�
 | 旧包备份（跳 audio） | 覆盖前备份语言包到 `wcp_hub_work\backups\<时间戳>_<lang>`，跳过 audio 子树（每语 1~2 GB 无回滚价值） | e3924ad |
 | 备份卫生 | 只保留最近 3 份备份；清理失败只提示 | e3924ad |
 
-已发布 `wcp-installer-v0.1.0`（WCP-MultiLanguage release + wcp-mods-v1.3.0 索引资产，digest 回读一致）。契约测试 66→71 条全过；probes 41/0。**未移植**：存档修复（TryRepairSaveFile，高风险写存档，待用户批准）。
+已发布 `wcp-installer-v0.1.0`（WCP-MultiLanguage release + wcp-mods-v1.3.0 索引资产，digest 回读一致）。
+
+**存档修复也已完成（2026-09-17 深夜，wcp-installer-v0.1.1，ML 提交 0084b22）**：用户批准后移植 ja 的 TryRepairSaveFile/TryRepairMyBook 全套判据（ES3 `__type` 元数据丢失>5 条 / 开局剧情重置 → 从合格备份恢复；MyBook 无备份时就地补 `__type`）。安全设计：健康存档零触碰（实机两文件实测判定健康、TryRepair 双 False、mtime 不变）；修复前必留 `.corrupt_before_repair.bak`；找不到合格备份不动文件；检查先行于一切写入；任何失败不阻断。C# 源在 `tools/es3_repair_source.cs`（编译验证 + 沙箱端到端：受损恢复 ✓ / 健康跳过 ✓ / in-place 补齐 ✓）。契约测试 71→76 条全过。v0.1.1 已发布（digest 回读一致，mods 索引同步指向 v0.1.1）。
 
 
 ### P1-11 无卸载/回滚
