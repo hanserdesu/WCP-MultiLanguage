@@ -2,7 +2,7 @@
 
 Required Notice: Copyright (c) 2026 hanserdesu（猫条）
 
-本仓库同时包含我自己生产的代码与内容，以及从第三方词典数据集派生的逐项数值。三类材料适用不同许可，范围以本文件为准。
+本仓库包含本项目编写的代码与内容，以及从第三方词典数据集派生的逐项数值。三类材料适用不同许可，范围以本文件为准。
 
 ## 一、代码：PolyForm Noncommercial License 1.0.0
 
@@ -10,7 +10,7 @@ Required Notice: Copyright (c) 2026 hanserdesu（猫条）
 
 你可以为非商业目的使用、修改并再分发这些代码；商业用途需要另行取得授权。
 
-## 二、我生产的内容：CC BY-NC-SA 4.0
+## 二、内容：CC BY-NC-SA 4.0
 
 适用：
 
@@ -24,7 +24,7 @@ Required Notice: Copyright (c) 2026 hanserdesu（猫条）
 
 ## 三、词典数据：CC BY-SA 4.0
 
-适用：从第三方词典数据集提取或机械转换得到的逐项数值，即音标、重音标注、汉字音训读等，例如各语言载荷与 `packs/*/db/` 中的音标列。这些值不是我生产的，按上游要求以 CC BY-SA 4.0 提供，署名与相同方式共享两项必须保留。
+适用：从第三方词典数据集提取或机械转换得到的逐项数值，即音标、重音标注、汉字音训读等，例如各语言载荷与 `packs/*/db/` 中的音标列。这些值来自第三方数据集，按上游要求以 CC BY-SA 4.0 提供，署名与相同方式共享两项必须保留。
 
 法律文本（简体中文）：https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans
 
