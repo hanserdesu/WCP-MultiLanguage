@@ -78,10 +78,11 @@ def main() -> None:
     if args.version:
         runner = ROOT / "run-installer.ps1"
         text = runner.read_text(encoding="utf-8-sig")
-        old = text.split("$InstallerVersion = '", 1)
-        if len(old) == 2:
-            new = old[1].split("'", 1)
-            text = old[0] + f"$InstallerVersion = '{args.version}'" + "'" + new[1]
+        marker = "$InstallerVersion = '"
+        head, sep, tail = text.partition(marker)
+        if sep:
+            _, _, rest = tail.partition("'")
+            text = head + sep + args.version + "'" + rest
             runner.write_bytes(text.encode("utf-8-sig"))
             print(f"run-installer.ps1 version -> {args.version}")
 
