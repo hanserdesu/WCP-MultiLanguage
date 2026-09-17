@@ -148,6 +148,15 @@ Check '旧包备份跳过 audio 子树' ($installerText -match 'if \(\$name -ieq
 Check '旧备份只保留最近 3 份' ($installerText -match 'Sort-Object Name -Descending \| Select-Object -Skip 3')
 Check '备份/清理失败不阻断安装' ($installerText -match '旧包备份失败（不影响本次安装）')
 
+# 存档修复契约（移植 ja TryRepairSaveFile/TryRepairMyBook）：
+# 判据与语言无关；健康存档零触碰；修复前必留现场备份；找不到合格备份不动文件；失败不阻断。
+Check '存档修复只认 ES3 元数据判据（__type/开局重置）' ($installerText -match 'typeMissing > 5' -and
+    $installerText -match 'Initial_PlotDone')
+Check '存档修复前必须留现场备份' ($installerText -match 'corrupt_before_repair\.bak')
+Check '找不到合格备份就不动文件' ($installerText -match 'if \(string\.IsNullOrEmpty\(best\)\) return false;')
+Check '存档修复失败不阻断安装' ($installerText -match '存档修复检查失败（不影响本次安装）')
+Check '存档修复先行于 mod 与词书写入' ($installerText -match 'Repair-HubSaveFiles\r?\n\r?\n# Mod 本体先行')
+
 # 编码守卫: 脚本含非 ASCII 时必须带 UTF-8 BOM，否则 Windows PowerShell 5.1
 # 会按 ANSI 解码，静默把代码行吞进注释/字符串里（本仓库已因此吃过两次亏）。
 foreach ($rel in @('..\Install-WCP-Wordbooks.ps1', '..\WordbookHub.psm1', '.\test_hub.ps1')) {
