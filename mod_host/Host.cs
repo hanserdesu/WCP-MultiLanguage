@@ -20,7 +20,7 @@ using UnityEngine;
 
 namespace WcpHost
 {
-    [BepInPlugin("dev.hanserdesu.wcphost", "WCP Host", "0.5.1")]
+    [BepInPlugin("dev.hanserdesu.wcphost", "WCP Host", "0.5.2")]
     public class WcpHostPlugin : BaseUnityPlugin
     {
         internal static ManualLogSource Log;

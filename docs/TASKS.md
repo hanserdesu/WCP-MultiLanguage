@@ -896,3 +896,49 @@ custom-slots 离线 harness 11/0 无回归。
 B) BookNameMod 只在自定义页美化、官方分类页恢复显示"自定义词书四"
 （按页签判定，有实现成本与回退风险）；C) 清空槽 4（放弃德语，腾出全局槽）。
 
+
+### 已落地 P1-20-B：BookNameMod 只在自定义分类页美化（2026-09-18）
+
+决策：采纳 **B**（用户 2026-09-18 拍板）。保留游戏原生行为 —— 槽 4 仍会出现在每个
+官方分类页尾部，但那行恢复显示游戏规范名「自定义词书四」，不再顶着「德语词库(猫条版)」；
+只有「自定义」分类页继续显示美化名。
+
+页签判据（这次不猜了，改用游戏自己的状态）：
+- `WordChooseButtonS10.clickNum` = 当前 Father(分类) 索引。反编译核对
+  （`Japanese/work/decompiled/WordChooseButtonS10.cs`）：`OnBookButtonClicked(num)`
+  末尾 `clickNum = num;`，**case 20 = 自定义**；`clickThisButtonAgain()` 复用 clickNum 重绘。
+- 兜底/校准：游戏在自定义页写的行带全角括注「自定义词书N（SelfBookNameN）」（case 20 源码）
+  → 看到这种原生行就说明此刻在自定义页，顺手把索引记准（游戏以后改类别顺序也能自适应）。
+- 判据全不可用（游戏改掉字段名）→ 一律按「不是自定义页」处理 = 显示游戏原生名。
+  fail-safe：绝不会把规范名写进美化名位置，不会跨页错乱。
+
+改动（4 文件，纯显示层，不碰存档数据）：
+- `mod_book_name/BookNameMod.cs`（1.3.0 → 1.3.1）：新增 `LabelPageGate`（纯逻辑）+
+  `LabelGate`（页签判定 / 选书页行枚举）；`Scan` 与 `SonBookChoose` 的 Postfix 都改成
+  「按分类页定名」；新增 `RestoreRowNamesOffCustomPage`（离开自定义页时把美化过的行还原成原生名）。
+- `mod_host/GameAdapter.cs`：同一套 `LabelPageGate` + `ChooserType()/ChooserInstance()/
+  CurrentCategory()/IsCustomPage()/CanonicalNames()`（宿主侧判据同源）。
+- `mod_host/HostRuntime.cs`：`ScanBookLabels` 按分类页定名（自定义槽行在官方页写原生名）。
+- `mod_host/Host.cs`（0.5.1 → 0.5.2）。
+
+验证（离线，已完成）：
+- `mod_book_name/build.cmd`、`mod_host/build.cmd` 均 BUILD OK（只有原有告警），已部署到
+  `BepInEx/plugins/`；部署产物 SHA256 与仓库产物一致（BookNameMod `7d41b496…`、WcpHost `b9b76241…`）。
+- 源码同文探针 `_local/audit/gate_probe.py`：从 `BookNameMod.cs` 原样抽取 `LabelPageGate`
+  编译运行，**16/16 PASS**（含最关键的「官方页裸名不动」「官方页还原美化名」「括注行识别」
+  「括注里的半角括号不误判」「空判据不崩不改写」）。
+
+待实机确认（用户，游戏重启后）：
+1. 大学四级页 → 第 4 行应显示「自定义词书四 8:8062」（原生名 + 词数），不再是「德语词库(猫条版)」。
+2. 切到自定义页 → 4 行仍显示美化名（日语/法语/俄语/德语词库(猫条版)）。
+3. 来回切几个官方分类页 → 第 4 行保持原生名；回自定义页仍美化（无残留、无抖动）。
+4. `BepInEx/LogOutput.log` 里应出现一次「BookName: 自定义分类索引 = 20（来自原生括注行）」——
+   出现即说明判据确实被原生括注行校准过。
+5. 回归：点选书行、学习/复习入口、20 槽面板显示不受影响。
+
+回退：`git checkout` 这 4 个文件 + 重新 build 部署即可（纯显示层，无数据迁移）。
+
+未做（待用户决定）：5 个语言子仓（French/German/Japanese/Russian/Contonese）与
+`MultiLanguage/languages/*/mod_book_name/` 的同源副本未同步此改动 —— 发布链只打包
+`MultiLanguage/mod_book_name/BookNameMod.dll`（`tools/release/build_mods_payload.py` 第 27 行），
+其余副本既不打包也不部署；如需保持源码一致，要逐份 diff 后同步。

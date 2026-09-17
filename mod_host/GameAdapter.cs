@@ -348,5 +348,187 @@ namespace WcpHost
             if (WcpHostPlugin.Log != null)
                 WcpHostPlugin.Log.LogWarning("WcpHost: " + message);
         }
+        // ── 选项 B（2026-09-18）：只在「自定义」分类页美化书名 ────────────────
+        // 游戏把自定义槽 4 渲染进每个官方分类页 Son 列表尾部（出厂态那行显示
+        // 「自定义词书四」）；宿主/插件的美化只该发生在自定义分类页。
+        // 页签判据 = WordChooseButtonS10.clickNum（当前 Father 索引，反编译核对
+        // case 20 = 自定义）；兜底/校准 = 游戏原生自定义页行带全角括注「（…）」。
+        // 判据缺失一律按「不是自定义页」处理 = 显示游戏原生名（fail-safe）。
+        // 纯逻辑部分不引用 Unity 类型（配 _local/audit 的源码同文探针离线验证）。
+        internal static class LabelPageGate
+        {
+            internal const int CustomCategoryDefault = 20;
+
+            internal static int SlotFromCanon(string s, IList<string> canon)
+            {
+                if (string.IsNullOrEmpty(s) || canon == null) return 0;
+                for (int i = 0; i < canon.Count; i++)
+                {
+                    if (string.IsNullOrEmpty(canon[i])) continue;
+                    if (s.StartsWith(canon[i], StringComparison.Ordinal)) return i + 1;
+                }
+                return 0;
+            }
+
+            internal static bool IsCustomSlotLabel(string s, IList<string> canon,
+                                                   IList<string> cosmetic)
+            {
+                if (string.IsNullOrEmpty(s)) return false;
+                if (SlotFromCanon(s, canon) > 0) return true;
+                for (int i = 0; cosmetic != null && i < cosmetic.Count; i++)
+                    if (!string.IsNullOrEmpty(cosmetic[i]) &&
+                        s.StartsWith(cosmetic[i], StringComparison.Ordinal)) return true;
+                return false;
+            }
+
+            internal static string CanonicalAt(IList<string> canon, int slot)
+            {
+                if (canon == null || slot < 1 || slot > canon.Count) return null;
+                return canon[slot - 1];
+            }
+
+            internal static bool HasWrapperMark(string s)
+            {
+                return !string.IsNullOrEmpty(s) && s.IndexOf('\uff08') >= 0;
+            }
+
+            internal static bool WrappedCustomRow(IList<string> texts, IList<bool> visible,
+                                                  IList<string> canon, IList<string> cosmetic)
+            {
+                if (texts == null) return false;
+                for (int i = 0; i < texts.Count; i++)
+                {
+                    if (visible != null && i < visible.Count && !visible[i]) continue;
+                    if (!HasWrapperMark(texts[i])) continue;
+                    if (IsCustomSlotLabel(texts[i], canon, cosmetic)) return true;
+                }
+                return false;
+            }
+
+            // 该行应当显示什么；null = 不动（与自定义槽无关的文字一律不碰）
+            internal static string TargetRowText(string current, int slot, string desired,
+                                                 bool onCustomPage, IList<string> canon,
+                                                 IList<string> cosmetic)
+            {
+                if (slot < 1 || string.IsNullOrEmpty(current)) return null;
+                if (!IsCustomSlotLabel(current, canon, cosmetic)) return null;
+                string target = onCustomPage ? desired : CanonicalAt(canon, slot);
+                if (string.IsNullOrEmpty(target) || target == current) return null;
+                return target;
+            }
+        }
+
+        // ── 自定义槽的规范名（生成，不写死上限；与 CustomSlotsMod 同规则）──
+        private static readonly string[] CnDigits =
+        {
+            "\u4e00", "\u4e8c", "\u4e09", "\u56db", "\u4e94",
+            "\u516d", "\u4e03", "\u516b", "\u4e5d"
+        };
+
+        internal static string CnNumber(int n)
+        {
+            if (n < 1 || n > 99) return null;
+            if (n <= 9) return CnDigits[n - 1];
+            int tens = n / 10;
+            int ones = n % 10;
+            string head = tens == 1 ? "\u5341" : CnDigits[tens - 1] + "\u5341";
+            return ones == 0 ? head : head + CnDigits[ones - 1];
+        }
+
+        internal static string CanonicalBookName(int slot)
+        {
+            string digits = CnNumber(slot);
+            return digits == null ? null : "\u81ea\u5b9a\u4e49\u8bcd\u4e66" + digits;
+        }
+
+        // canon[i] = 槽 i+1 的规范名，与 LabelPageGate 的约定一致
+        internal static string[] CanonicalNames()
+        {
+            int count = NativeSlotCount();
+            string[] names = new string[count];
+            for (int i = 0; i < count; i++) names[i] = CanonicalBookName(i + 1);
+            return names;
+        }
+
+        // ── 选书页类型（候选名；作者改名时补这里即可，缺失只让本项降级）──
+        private static readonly string[] ChooserTypeCandidates =
+        {
+            "WordChooseButtonS10", "WordChooseButtonS11", "WordChooseButtonS12",
+            "WordChooseButtonS13", "WordChooseButtonS9", "WordChooseButton"
+        };
+        private static bool _chooserProbed;
+        private static Type _chooserType;
+
+        internal static Type ChooserType()
+        {
+            if (_chooserProbed) return _chooserType;
+            _chooserProbed = true;
+            for (int i = 0; i < ChooserTypeCandidates.Length; i++)
+            {
+                Type t = null;
+                try { t = AccessTools.TypeByName(ChooserTypeCandidates[i]); }
+                catch (Exception) { t = null; }
+                if (t == null) continue;
+                _chooserType = t;
+                break;
+            }
+            if (_chooserType == null)
+                Warn("\u627e\u4e0d\u5230\u9009\u4e66\u9875\u7c7b\u578b\uff08\u5019\u9009\uff1a" +
+                     string.Join("/", ChooserTypeCandidates) +
+                     "\uff09\u2014\u2014 \u300c\u5206\u7c7b\u9875\u663e\u793a\u89c4\u8303\u540d\u300d\u8fd9\u4e00\u9879\u964d\u7ea7");
+            return _chooserType;
+        }
+
+        // 场景里可见的选书页实例（同一组件可能多份实例；只认激活那份）
+        internal static object ChooserInstance()
+        {
+            Type chooser = ChooserType();
+            if (chooser == null) return null;
+            try
+            {
+                UnityEngine.Object[] all = Resources.FindObjectsOfTypeAll(chooser);
+                for (int i = 0; i < all.Length; i++)
+                {
+                    Component c = all[i] as Component;
+                    if (c == null || c.gameObject == null ||
+                        !c.gameObject.activeInHierarchy) continue;
+                    if (InstanceField(c, "BookNameText") == null) continue;
+                    return c;
+                }
+            }
+            catch (Exception) { }
+            return null;
+        }
+
+        // 当前 Father(分类) 索引 = 游戏自己存的 clickNum；读不到返回 -1
+        internal static int CurrentCategory(object chooser)
+        {
+            object raw = InstanceField(chooser, "clickNum");
+            if (raw == null) return -1;
+            try { return Convert.ToInt32(raw); }
+            catch (Exception) { return -1; }
+        }
+
+        private static int _customCategory = LabelPageGate.CustomCategoryDefault;
+
+        internal static int CustomCategory { get { return _customCategory; } }
+
+        // 当前是不是「自定义」分类页；判据缺失一律按 false（显示游戏原生名）
+        internal static bool IsCustomPage(object chooser, IList<string> texts,
+                                          IList<bool> visible, IList<string> canon,
+                                          IList<string> cosmetic)
+        {
+            bool wrapped = LabelPageGate.WrappedCustomRow(texts, visible, canon, cosmetic);
+            int cur = CurrentCategory(chooser);
+            if (cur < 0) return wrapped;
+            if (wrapped && cur != _customCategory)
+            {
+                _customCategory = cur;
+                Warn("\u81ea\u5b9a\u4e49\u5206\u7c7b\u7d22\u5f15 = " + cur +
+                     "\uff08\u6765\u81ea\u539f\u751f\u62ec\u6ce8\u884c\uff09");
+            }
+            return cur == _customCategory;
+        }
+
     }
 }

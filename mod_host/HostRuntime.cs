@@ -555,16 +555,48 @@ namespace WcpHost
                     ? LabelScanIdleInterval : 1f);
         }
 
+        // 选项 B（2026-09-18）：选书页的行按分类页定显示名 —— 自定义分类页美化，
+        // 官方分类页（尾部会渲染自定义槽那行，原生显示「自定义词书N」）保持游戏
+        // 原生名。判据 = 游戏自己的 clickNum（GameAdapter.IsCustomPage），
+        // 判据缺失时按「不是自定义页」处理 = 显示原生名（fail-safe）。
         private void ScanBookLabels()
         {
+            object chooser = GameAdapter.ChooserInstance();
+            List<TMP_Text> rows = ChooserRows(chooser);
+            bool onCustom = false;
+            string[] canon = GameAdapter.CanonicalNames();
+            string[] cosmetic = DisplayNames();
+            if (chooser != null && rows.Count > 0)
+            {
+                List<string> texts = new List<string>();
+                List<bool> visible = new List<bool>();
+                for (int r = 0; r < rows.Count; r++)
+                {
+                    TMP_Text row = rows[r];
+                    texts.Add(row == null ? null : row.text);
+                    visible.Add(row != null && row.gameObject != null &&
+                                row.gameObject.activeInHierarchy);
+                }
+                onCustom = GameAdapter.IsCustomPage(chooser, texts, visible, canon, cosmetic);
+            }
             UnityEngine.Object[] all = Resources.FindObjectsOfTypeAll(typeof(TMP_Text));
             for (int i = 0; i < all.Length; i++)
             {
                 TMP_Text text = all[i] as TMP_Text;
                 if (text == null || string.IsNullOrEmpty(text.text)) continue;
                 int slot = GameAdapter.SlotOfBookName(text.text);
+                bool isRow = rows.Contains(text);
                 if (slot > 0)
                 {
+                    if (isRow)
+                    {
+                        LanguageManifest rowManifest = ManifestForSlot(slot);
+                        string rowDesired = rowManifest == null
+                            ? null : rowManifest.Profile.DisplayName;
+                        WriteLabel(text, GameAdapter.LabelPageGate.TargetRowText(
+                            text.text, slot, rowDesired, onCustom, canon, cosmetic));
+                        continue;
+                    }
                     LanguageManifest m = ManifestForSlot(slot);
                     if (m != null && text.text != m.Profile.DisplayName)
                     {
@@ -574,12 +606,86 @@ namespace WcpHost
                     }
                     continue;
                 }
+                // 已经是美化名的选书页行：非自定义分类页下还原游戏原生名
+                if (isRow && !onCustom)
+                {
+                    WriteLabel(text, GameAdapter.LabelPageGate.TargetRowText(
+                        text.text, SlotByDisplayName(text.text), null, false, canon, cosmetic));
+                    continue;
+                }
                 if (!IsAccentLabel(text.text) || !HasButtonAncestor(text)) continue;
                 if (!_labelBackup.ContainsKey(text)) _labelBackup[text] = text.text;
                 string value = ActiveManifest.Profile.Language.ToUpperInvariant();
                 text.text = value;
                 _labelWritten[text] = value;
             }
+        }
+
+        // 选项 B 用的辅助：选书页行枚举 / 项目语言包显示名 / 美化名→槽位
+        private List<TMP_Text> ChooserRows(object chooser)
+        {
+            List<TMP_Text> rows = new List<TMP_Text>();
+            if (chooser == null) return rows;
+            Array arr = GameAdapter.InstanceField(chooser, "BookNameText") as Array;
+            if (arr == null) return rows;
+            for (int k = 0; k < arr.Length; k++)
+            {
+                TMP_Text row = arr.GetValue(k) as TMP_Text;
+                if (row != null) rows.Add(row);
+            }
+            return rows;
+        }
+
+        private string[] DisplayNames()
+        {
+            IList<LanguageManifest> all = _registry.Manifests;
+            string[] names = new string[all.Count];
+            for (int i = 0; i < all.Count; i++)
+                names[i] = all[i] == null || all[i].Profile == null
+                    ? null : all[i].Profile.DisplayName;
+            return names;
+        }
+
+        // 美化名 → 槽位（词表指纹认槽；10s 缓存，避免每帧重算 8000 词哈希）
+        private readonly Dictionary<string, int> _displaySlot =
+            new Dictionary<string, int>();
+        private float _displaySlotAt;
+
+        private int SlotByDisplayName(string text)
+        {
+            if (string.IsNullOrEmpty(text)) return 0;
+            float now = Time.unscaledTime;
+            if (now - _displaySlotAt > 10f)
+            {
+                _displaySlot.Clear();
+                _displaySlotAt = now;
+            }
+            int cached;
+            if (_displaySlot.TryGetValue(text, out cached)) return cached;
+            int found = 0;
+            int count = GameAdapter.NativeSlotCount();
+            for (int slot = 1; slot <= count; slot++)
+            {
+                LanguageManifest m = ManifestForSlot(slot);
+                if (m == null || m.Profile == null ||
+                    string.IsNullOrEmpty(m.Profile.DisplayName)) continue;
+                if (text.StartsWith(m.Profile.DisplayName, StringComparison.Ordinal))
+                {
+                    found = slot;
+                    break;
+                }
+            }
+            _displaySlot[text] = found;
+            return found;
+        }
+
+        private void WriteLabel(TMP_Text text, string value)
+        {
+            if (text == null || string.IsNullOrEmpty(value)) return;
+            if (text.text == value) return;
+            if (!_labelBackup.ContainsKey(text)) _labelBackup[text] = text.text;
+            text.text = value;
+            _labelWritten[text] = value;
         }
 
         private void RestoreLabels()
