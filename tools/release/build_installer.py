@@ -111,7 +111,8 @@ def main() -> None:
     print(f"  sha256 : {digest}")
 
     index = {
-        "main_release": REPO.split("/")[1],
+        "main_release": REPO,
+        "index_updated": __import__("datetime").datetime.now().isoformat(timespec="seconds"),
         "installer_version": args.version or "dev",
         "core_installer": {
             "name": zip_path.name,

@@ -21,7 +21,7 @@
 | `mod_book_name/` | 书名 / 身份层 `BookNameMod.dll`（`BookProfiles` + 诊断） |
 | `packs/` | 语言资源包契约：每语言一个 `manifest.json`（ja / fr / ru / de），ja 含词库与数据库负载 |
 | `tools/` | 迁移与生成工具：`migrate_legacy_host_yield.py`、`gen_bookprofiles.py` |
-| `tools/release/` | 资源包发布流水线：`build_all_languages.py`、`make_release_manifests.py`、`publish_release.py`、`merge_catalog_rows.py`，以及各语言的 release 清单与发布记录 |
+| `tools/release/` | 资源包发布流水线：`build_all_languages.py`、`make_release_manifests.py`、`publish_release.py`、`merge_catalog_rows.py`、`build_installer.py`（安装器打包与自更新索引），以及各语言的 release 清单与发布记录 |
 | `tools/integrate_languages.py`、`tools/verify_integration.py` | 语言工程集成与一致性校验工具 |
 | `languages/<code>/` | 9 个语言工程的源码树（ja / fr / ru / de / es / pt / ko / ar / yue），含集成时未提交的在研改动 |
 | `Install-WCP-Wordbooks.ps1`、`WordbookHub.psm1`、`catalog.json` | 一键安装器：GitHub 发现词书、选择安装、峰值磁盘检查、SHA-256 差异更新 |
@@ -34,6 +34,8 @@
 - `一键安装词书.cmd`：列出全部词书，输入编号（可逗号分隔或 `all`）选择安装。
 - `更新词书资源.cmd`：等价 `-Update`，默认选中已安装词书，回车即更新。
 - 安装前按 `hub-state.json` 记录的 SHA-256 逐项比对，只重新下载内容变化的资源。
+- 经 `run-installer.ps1` 启动时带版本注入：在线模式下若资源 release 上有更新的
+  `release-index.json`，会提示升级（确认才切换，失败不影响本次安装）。
 
 ```powershell
 .\Install-WCP-Wordbooks.ps1 -List
@@ -69,10 +71,22 @@ python tools\verify_integration.py
 
 `catalog.json` 中 9 本词书的语音资源均已发布并逐项校验（`status: available`）：
 
-| 词书 | 资源发布位置 | tag |
+| 词书 | 资源发布位置 | 当前 tag |
 |---|---|---|
 | `ja` | `hanserdesu/japanese`（日语本体保留在原仓库） | `wcp-jp-resources-v1.0.0` |
-| `ar` `de` `es` `fr` `ko` `pt` `ru` `yue` | 本仓库 | `wcp-<语言>-resources-v1.0.0` |
+| `ar` | 本仓库 | `wcp-ar-resources-v1.1.0` |
+| `de` | 本仓库 | `wcp-de-resources-v1.1.1` |
+| `es` | 本仓库 | `wcp-es-resources-v1.1.0` |
+| `fr` | 本仓库 | `wcp-fr-resources-v1.0.0` |
+| `ko` | 本仓库 | `wcp-ko-resources-v1.1.2` |
+| `pt` | 本仓库 | `wcp-pt-resources-v1.1.0` |
+| `ru` | 本仓库 | `wcp-ru-resources-v1.1.0` |
+| `yue` | 本仓库 | `wcp-yue-resources-v1.0.0` |
+
+一键安装器本体自 `wcp-installer-v0.1.0` 起带**自更新**（方案 C：版本索引
+`release-index.json` 挂在 `wcp-mods-*` release 上，有新版仅提示、用户确认才下载切换，
+SHA-256 校验通过才启动新包，任何异常不阻断安装）。各语言版本以 `catalog.json` 为准，
+逐资产 `url` / `size` / `sha256` 均与 release 实测一致。
 
 每条 asset 都带 `url` / `size` / `sha256`（或 GitHub 的 sha256 digest），安装器直接按 `url`
 下载并逐项校验。资源**不依赖** GitHub 的仓库发现流程：多语言仓库有多个 release 且每个都带
