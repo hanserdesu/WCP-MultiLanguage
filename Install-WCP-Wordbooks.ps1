@@ -395,7 +395,9 @@ function Merge-SlotSeed([string]$source) {
         if ($target -lt 0) {
             for ($i = 0; $i -lt $rows.Count; $i++) {
                 $existingWords = if ((Get-PropertyNames $rows[$i]) -contains 'words') { @($rows[$i].words) } else { @() }
-                if ($existingWords.Count -lt 5) { $target = $i; break }
+                # @() 再包一层：$existingWords 来自 if 表达式，空数组会被摊平成 $null，
+                # 单元素会变裸对象，直接 .Count 在 StrictMode 下抛异常（见函数头注释）。
+                if (@($existingWords).Count -lt 5) { $target = $i; break }
             }
         }
         if ($target -ge 0) {
@@ -1052,7 +1054,9 @@ if ($Books -or $All) {
     $pick = $null
     for ($attempt = 1; $attempt -le 3; $attempt++) {
         $hint = if ($Update) {
-            ('请输入要更新的编号 (逗号分隔; 回车=已安装的 {0} 本; q=取消)' -f $defaultIds.Count)
+            # @() 再包一层：$defaultIds 来自 if 表达式（第 1050 行），非 -Update 时为
+            # $null、只装 1 本时为裸字符串，直接 .Count 在 StrictMode 下抛异常。
+            ('请输入要更新的编号 (逗号分隔; 回车=已安装的 {0} 本; q=取消)' -f @($defaultIds).Count)
         } else {
             '请输入要安装的编号 (逗号分隔; all=全部可安装; q=取消)'
         }
@@ -1182,6 +1186,17 @@ function Install-HubMods([string]$gameRoot, $Catalog, $HubState) {
             $files | Add-Member -NotePropertyName $a.name -NotePropertyValue ([pscustomobject]@{ sha256 = $a.sha256; size = $a.size })
         } catch {
             $errors.Add('mod/' + $a.name + ': ' + $_.Exception.Message)
+            # 报错定位：带上出错行与调用栈（只记消息会让定位靠猜；2026-09-17 加）。
+            try {
+                $ii = $_.InvocationInfo
+                if ($ii -and $ii.ScriptLineNumber) {
+                    $errors.Add(('  @行{0}: {1}' -f $ii.ScriptLineNumber, ([string]$ii.Line).Trim()))
+                }
+                if ($_.ScriptStackTrace) {
+                    $frames = @((([string]$_.ScriptStackTrace) -split "`n") | Where-Object { $_.Trim() })
+                    $errors.Add('  @栈: ' + ((@($frames)[0..([Math]::Min(3, @($frames).Count - 1))]) -join ' <- '))
+                }
+            } catch { }
             if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force }
             continue
         }
@@ -1293,6 +1308,17 @@ foreach ($wb in $selection) {
             $succeeded[[string]$asset.name] = $asset
         } catch {
             $errors.Add($wb.id + '/' + $asset.name + ': ' + $_.Exception.Message)
+            # 报错定位：带上出错行与调用栈（只记消息会让定位靠猜；2026-09-17 加）。
+            try {
+                $ii = $_.InvocationInfo
+                if ($ii -and $ii.ScriptLineNumber) {
+                    $errors.Add(('  @行{0}: {1}' -f $ii.ScriptLineNumber, ([string]$ii.Line).Trim()))
+                }
+                if ($_.ScriptStackTrace) {
+                    $frames = @((([string]$_.ScriptStackTrace) -split "`n") | Where-Object { $_.Trim() })
+                    $errors.Add('  @栈: ' + ((@($frames)[0..([Math]::Min(3, @($frames).Count - 1))]) -join ' <- '))
+                }
+            } catch { }
             if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue }
             continue
         }

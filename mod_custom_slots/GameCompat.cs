@@ -210,6 +210,91 @@ namespace WcpCustomSlots
             return LastUserPageNum == CustomPageIndex;
         }
 
+        // ── 显示判据取证（P1-16）────────────────────────────────────────────
+        // 背景：旧判据只扫"页签标签文字"，而 BookChooseManager 这个逻辑对象在非选书
+        // 界面里依然 activeInHierarchy=True（它根本不是 UI 节点，UI 在 AllCanvas/
+        // SettingPart 另一支上），于是离开页面后标签仍是上一次的内容 → 判据恒真。
+        // 2026-09-17 实机表现：面板浮在词数统计界面上（截图 1db190）。
+        // 这里把所有候选"当前屏幕"信号打成一行，用一次实机（选书页 / 主界面 /
+        // 词数统计来回切）就能确定哪个信号真正跟着屏幕切换走。
+        internal static string CollectSignals(object chooser)
+        {
+            try
+            {
+                string s = "chooser=" + (chooser == null ? "null" : "ok");
+                s += " visible=" + (IsChooserVisible(chooser) ? "y" : "n");
+                s += " matchesLabel=" + (MatchesLabelText(chooser) ? "y" : "n");
+                s += " lastUserPage=" + (LastUserPageNum == int.MinValue ? "-" : LastUserPageNum.ToString());
+                s += " customIdx=" + CustomPageIndex;
+
+                Array names = GetNameTexts(chooser);
+                s += " labels=";
+                if (names == null || names.Length == 0) s += "(none)";
+                else
+                {
+                    for (int i = 0; i < names.Length; i++)
+                    {
+                        if (i > 0) s += "|";
+                        s += ReadText(names.GetValue(i));
+                    }
+                }
+                s += " || screens=" + DescribeScreenStates();
+                return s;
+            }
+            catch (Exception e) { return "CollectSignals ERR: " + e.Message; }
+        }
+
+        // 标签扫描单独抽出来，取证时与最终判据分别观察（旧判据 = 本函数的返回值）。
+        private static bool MatchesLabelText(object chooser)
+        {
+            Array names = GetNameTexts(chooser);
+            if (names != null && names.Length > 0)
+            {
+                for (int i = 0; i < names.Length; i++)
+                {
+                    string text = ReadText(names.GetValue(i));
+                    if (string.IsNullOrEmpty(text)) continue;
+                    if (text.Contains(CustomBookLabel) || text.Contains(CosmeticMarker)) return true;
+                }
+            }
+            return false;
+        }
+
+        // 候选"当前屏幕"容器：游戏的各个界面是 AllCanvas 下的兄弟节点，切屏改
+        // activeSelf。Transform.Find 能找到未激活对象（GameObject.Find 不行）。
+        private static readonly string[][] ScreenCandidates =
+        {
+            new string[] { "AllCanvas", "SettingPart" },
+            new string[] { "AllCanvas", "SettingPart", "CanvasSetting1" },
+            new string[] { "AllCanvas", "SettingPart", "CanvasWordCount" },
+            new string[] { "AllCanvas", "Canvas-Hider" },
+        };
+
+        private static string DescribeScreenStates()
+        {
+            Transform root = null;
+            try
+            {
+                GameObject go = GameObject.Find("AllCanvas");
+                if (go != null) root = go.transform;
+            }
+            catch (Exception) { }
+            if (root == null) return "AllCanvas(notfound)";
+
+            string s = "";
+            for (int i = 0; i < ScreenCandidates.Length; i++)
+            {
+                string[] path = ScreenCandidates[i];
+                Transform t = root;
+                for (int j = 1; j < path.Length && t != null; j++) t = t.Find(path[j]);
+                if (i > 0) s += ",";
+                s += path[path.Length - 1] + "=";
+                s += (t == null ? "?" : (t.gameObject.activeSelf ? "on" : "off"));
+                if (t != null && !t.gameObject.activeInHierarchy) s += "(inactiveInHierarchy)";
+            }
+            return s;
+        }
+
         // 兜底：页签索引匹配（仅在状态判定不可用时使用）。索引可运行时校准。
         internal static int CustomPageIndex
         {

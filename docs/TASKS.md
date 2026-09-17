@@ -612,7 +612,7 @@ probes 41/0、verify_integration PASS(9)、build_pack --check-all PASS、arch_ch
 | P1-9 | Test-WordbookDiskHealth（骨架/词表自证/音频抽样）+ -Update 摘除重下 | ✅ 在线端到端验证 |
 | 附带修复 | Get-HubWorkPath 目录保证（新用户阻断级回归）+ 下载句柄 finally 释放 | ✅ 沙箱实锤后修复 |
 | 门禁 | test_hub 87/0 · takeover 0 · custom-slots 11/0 · word-audio 0 · slot-ownership 15/0 · registry 全过 · verify_integration 9/9 · sync --check · build_pack --check-all · arch_check 0F/0W · probes 41/0 | ✅ 全绿 |
-| 发布 | 新 mods 载荷已构建（含 WcpHost 0.5.1 服务边界空表放行修复，payload sha256 `75552c6a…`）——**未发布**，待用户批准 | ⬜ |
+| 发布 | 新 mods 载荷已构建（含 WcpHost 0.5.1 服务边界空表放行修复 + CustomSlotsMod 1.2.2 判据信号取证，payload sha256 `13a54c2c…`）——**未发布**，待用户批准 | ⬜ |
 
 **版本记录**：WcpHost 0.4.0 → 0.5.0（服务边界门 + RequireSlotOwnership 配置）。
 mods 载荷待发布为新版本（建议 wcp-mods-v1.4.0）并同步 catalog mods 块 + hub catalog 副本；
@@ -691,3 +691,40 @@ custom-slots 离线 harness 11/0 无回归。
   非空表中的清空行仍 fail-closed（撤销语义保留）；损坏仍 fail-closed。
 - 版本：WcpHost 0.5.0 → **0.5.1**；部署 sha `836d857b611ffcfca777e43cedaa969e3760634d34108adfb72226afb72e673a`（仓内=游戏一致）。
 - 用例：`mod_host/tests/SlotOwnershipTest.cs` 18 条断言 ALL PASS（新增 4 条覆盖空表/占位行/非空表撤销）。
+
+
+### 已修 P1-18 StrictMode @() 摊平（本轮提交；8 语言 slot-seed 全挂的真凶）
+
+- 现象：`Install-WCP-Wordbooks.ps1 -All -Update` 装 9 语言时，**8 个语言的 `wcp-*-slot-seed.json` 全部失败**（只有 ja 成功），报错 `在此对象上找不到属性"Count"`。
+- 根因（实证，非推断）：`Merge-SlotSeed` 里 `$existingWords = if (...) { @($rows[$i].words) } else { @() }` —— PowerShell 的 if 表达式会**枚举摊平输出**：空数组变 `$null`、单元素变裸对象，于是下一行 `$existingWords.Count` 在 `Set-StrictMode -Version Latest` 下抛异常。ja 走的是"seed 不存在→直接复制"分支，所以只有第二个语言起才炸。
+- 修法：使用点无条件再包一层 `@()`（`@($existingWords).Count`），只恢复数组语义、不改判定结果；同类隐患 `$defaultIds`（交互式选择）一并修。
+- 顺带：安装器两处 catch 增加**出错行 + 调用栈**定位（此前只记消息，定位只能靠猜）——本次正是靠它一行定位到 398 行。
+- 验证：`-Books ru -Update` → 该资产由失败转为成功，seed 合并为 20 槽（ja #1 / ru #2）；`-All -Update` → 其余 7 语言 seed 全部写入；store 20 槽含 9 行登记：ja 7922 / ru 8451 / fr 8116 / de 8062 / yue 384 / ko 7330 / ar 8118 / es 8599 / pt 8599。
+- 回归：`tests/test_hub.ps1` 89 通过 0 失败。
+
+### 已判定 P1-19 单词音频镜像：硬链接优化**否决**（保留复制）
+
+- 测量：镜像目录 69918 个文件，与 pack 源同内容的 66785 个，可省 **669.1 MB**（9 语言）。
+- 试验：`Sync-WordAudioMirror` 改为同卷硬链接（PS 5.1 `New-Item -ItemType HardLink`，跨卷自动退回复制），先删后建避免就地覆写。
+- 否决理由（实测）：该目录**同时是游戏官方语音包自己的读写目录**（`已经下载【官方语音包】（请勿删除此文件）0720.txt` 就在其中）。镜像侧与 pack 源共享同一份数据后，游戏对同名文件的就地覆写会**反向污染 pack 源文件**——测试当场复现：往镜像侧写 4 字节 → 源文件由 3 字节变 4 字节，同一用例同时 FAIL。
+- 结论：按"兼容优先 / 不损失最终使用效果"回退为复制，669 MB 冗余保留。
+- 守卫：新增用例「镜像：写镜像侧不影响 pack 源文件」「镜像：重跑可把镜像侧改回与源一致」，实现改成链接即失败。
+- 附带发现：镜像目录是**扁平的**，跨语言同名文件（`Abu.mp3` / `adoption.mp3` / `agent.mp3` 等）互相覆盖，现存 345 个"无同大小源"的历史残渣（约 3 MB）——保留不删（兼容优先）。
+
+### 已知 P1-20 安装器会覆盖开发版插件（本轮实测）
+
+- 现象：hub 安装的 mod 步骤把 `BepInEx\plugins` 下的 `WcpHost.dll` / `CustomSlotsMod.dll` / `BookNameMod.dll` 整包替换为**已发布载荷 v1.3.0**，仓库开发版（含 0.5.1 与采集改动）被覆盖。
+- 对策：每次跑完安装器都要重新 `mod_*/build.cmd` 部署开发版（本轮已重新部署，三件 sha 与仓库一致）；发版前必须让载荷包含最新插件，否则用户装到的是旧版。
+
+### 进行中 P1-16 面板判据：改为"信号取证"落地（待一次实机）
+
+- 已实现：`GameCompat.CollectSignals`（候选信号打平成一行）+ `CustomSlotsMod.LogSignalsIfChanged`（仅在变化时追加）→ `wcp_diag\WcpSlotsSignals.txt`。
+- 记录：chooser 可见性、旧标签判据结果、LastUserPageNum、CustomPageIndex、页签标签全文、`AllCanvas/SettingPart`、`CanvasSetting1`、`CanvasWordCount`、`Canvas-Hider` 的 active 状态（含 inactiveInHierarchy）。
+- 目的：判据不再靠猜——一次实机在「自定义页 / 主界面 / 词数统计」之间切换，即可看出哪个信号真正跟着屏幕走。
+- 已知线索：面板父节点是 `AllCanvas/SettingPart/CanvasWordCount/WcpCustomSlotsOverlay`（与词数统计界面**共用**同一 canvas），而旧判据只扫标签文字、`BookChooseManager` 在非选书界面仍 activeInHierarchy=True → 离开页面后判据恒真。
+
+### 资源侧 P1-4（俄语无例句）已闭环
+
+- `-All -Update` 后 9 语言 pack 全部含 `books/` + `audio/word` + `audio/sentence`；ru = books 3 / word 8451 / sentence 25048（此前只有 db/）。
+- 未做：宿主 20 槽 UI（P1-15/P1-16）实机验证仍待一次游戏运行（信号取证已埋好）。
+

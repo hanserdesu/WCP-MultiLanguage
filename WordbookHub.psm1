@@ -396,7 +396,11 @@ function Sync-WordAudioMirror {
     # 未重启游戏 / 未激活）发音会静默回退成游戏的英语 AI 语音——只在
     # 用户机暴露、开发机因历史副本而正常。规则对所有语言一致，无语言分支；
     # 只覆盖同名文件，不清理其它内容（该目录为多语言共享），保留名文件
-    # 复制失败即跳过。
+    # 镜像失败即跳过。
+    #
+    # 2026-09-17 评估过"硬链接省 669 MB 冗余"：技术上可行，但该目录与游戏官方
+    # 语音包共用，链接一旦被游戏就地覆写就会反向污染 pack 源文件 → 按兼容优先否决，
+    # 保持复制。（测量数据见 docs/TASKS.md P1-18。）
     #
     # 返回实际复制/覆盖的文件数；源目录缺失或目标不可写时返回 -1
     # （调用方只提示，不视为安装失败）。
@@ -412,6 +416,11 @@ function Sync-WordAudioMirror {
         $mirrored = 0
         foreach ($mp3 in [IO.Directory]::EnumerateFiles($SourceDir, '*.mp3', [IO.SearchOption]::AllDirectories)) {
             try {
+                # 只允许"复制"，绝不用硬链接/符号链接（2026-09-17 实测后否决）：
+                # 本目录同时是游戏官方语音包自己的读写目录，链接会让游戏对同名文件的
+                # 就地覆写穿透到 pack 源文件（= 词书资源被游戏语音污染，且磁盘核对只数
+                # 文件数、查不出来）。代价是 9 语言约 669 MB 冗余，换取源文件不可被外部改写。
+                # 守卫：tests/test_hub.ps1 用例「镜像：写镜像侧不影响 pack 源文件」。
                 [IO.File]::Copy($mp3, (Join-Path $VocabDir ([IO.Path]::GetFileName($mp3))), $true)
                 $mirrored++
             } catch { }

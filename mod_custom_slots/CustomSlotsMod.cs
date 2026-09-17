@@ -133,7 +133,7 @@ namespace WcpCustomSlots
         }
     }
 
-    [BepInPlugin("dev.hanserdesu.customslots", "WCP Custom Slots", "1.2.1")]
+    [BepInPlugin("dev.hanserdesu.customslots", "WCP Custom Slots", "1.2.2")]
     public sealed class CustomSlotsPlugin : BaseUnityPlugin
     {
         internal static CustomSlotsPlugin Instance;
@@ -448,6 +448,8 @@ namespace WcpCustomSlots
             try
             {
                 object chooser = GameCompat.FindVisibleChooserInstance();
+                // P1-16 取证：把候选"当前屏幕"信号按变化落盘（wcp_diag\WcpSlotsSignals.txt）。
+                LogSignalsIfChanged(chooser);
                 if (chooser == null)
                 {
                     // 选书窗整体不可见：清掉页签点击信号，避免旧点击跨界面生效
@@ -558,7 +560,7 @@ namespace WcpCustomSlots
 
                 // 落点必须在 Steam 云同步范围（LocalLow\WCP\wcp 整目录）之外：
                 // 一次性诊断文件不许进同步队列；失败退回 persistentDataPath（只记日志，不阻断）。
-                string path = DiagPath();
+                string path = DiagPath("WcpSlotsDiag.txt");
                 Directory.CreateDirectory(Path.GetDirectoryName(path));
                 File.WriteAllText(path, string.Join("\n", lines.ToArray()));
                 Log.LogInfo("CustomSlots: native page dumped (" + source + ") -> " + path +
@@ -772,19 +774,40 @@ namespace WcpCustomSlots
 
         // 诊断文件落点：<LocalLow>\WCP\wcp_diag\WcpSlotsDiag.txt（云同步范围外）。
         // persistentDataPath 就是被同步的那个 wcp 目录，所以取它的上一级再拼 wcp_diag。
-        private static string DiagPath()
+        private static string DiagPath(string fileName)
         {
             try
             {
                 DirectoryInfo parent = Directory.GetParent(Application.persistentDataPath);
                 if (parent != null && !string.IsNullOrEmpty(parent.FullName))
-                    return Path.Combine(Path.Combine(parent.FullName, "wcp_diag"), "WcpSlotsDiag.txt");
+                    return Path.Combine(Path.Combine(parent.FullName, "wcp_diag"), fileName);
             }
             catch (Exception e)
             {
                 Log.LogWarning("CustomSlots: 诊断目录解析失败，退回 persistentDataPath: " + e.Message);
             }
-            return Path.Combine(Application.persistentDataPath, "WcpSlotsDiag.txt");
+            return Path.Combine(Application.persistentDataPath, fileName);
+        }
+
+        // ── 显示判据取证输出（P1-16）────────────────────────────────────────
+        // 只在信号行变化时追加一行（时间戳之外不同才算变化），避免刷爆磁盘。
+        // 用一次实机在「选书页(自定义页) / 主界面 / 词数统计」之间来回切，就能看出
+        // 哪个候选信号真正跟着屏幕切换走 —— 判据据此确定，而不是靠猜。
+        private string _lastSignalLine;
+        private void LogSignalsIfChanged(object chooser)
+        {
+            try
+            {
+                string sig = GameCompat.CollectSignals(chooser);
+                if (sig == _lastSignalLine) return;
+                _lastSignalLine = sig;
+                string path = DiagPath("WcpSlotsSignals.txt");
+                string dir = Path.GetDirectoryName(path);
+                if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir)) Directory.CreateDirectory(dir);
+                File.AppendAllText(path, DateTime.Now.ToString("HH:mm:ss.fff") + "  " + sig +
+                                   Environment.NewLine);
+            }
+            catch (Exception) { }
         }
 
         private static string Clip(string s)

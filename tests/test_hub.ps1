@@ -270,6 +270,14 @@ $mirroredFresh = Sync-WordAudioMirror -SourceDir $mirrorSrc -VocabDir $mirrorVoc
 Check '镜像：目标目录不存在时自动创建' (($mirroredFresh -eq 2) -and (Test-Path -LiteralPath (Join-Path $mirrorVocNew 'b.mp3')))
 # 源目录缺失 → -1（调用方只提示，不失败）。
 Check '镜像：源缺失返回 -1' ((Sync-WordAudioMirror -SourceDir (Join-Path $mirrorRoot 'nope') -VocabDir $mirrorVoc) -eq -1)
+# 不变量（2026-09-17 定的守卫）：镜像侧写入绝不能影响 pack 源文件。
+# 该目录与游戏官方语音包共用 —— 一旦实现改成硬链接/符号链接，游戏对同名文件的
+# 就地覆写会穿透到 pack 源文件（已实测：改镜像侧 → 源文件跟着变），本用例即失败。
+$srcProbe = Join-Path $mirrorSrc 'b.mp3'
+[IO.File]::WriteAllBytes((Join-Path $mirrorVoc 'b.mp3'), [byte[]](9, 9, 9))
+Check '镜像：写镜像侧不影响 pack 源文件' ((Get-Item -LiteralPath $srcProbe).Length -eq 2)
+$null = Sync-WordAudioMirror -SourceDir $mirrorSrc -VocabDir $mirrorVoc
+Check '镜像：重跑可把镜像侧改回与源一致' ((Get-Item -LiteralPath (Join-Path $mirrorVoc 'b.mp3')).Length -eq 2)
 Remove-Item -LiteralPath $mirrorRoot -Recurse -Force -ErrorAction SilentlyContinue
 
 Write-Host ''
