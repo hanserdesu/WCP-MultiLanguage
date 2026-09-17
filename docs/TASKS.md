@@ -242,6 +242,22 @@ harness `Failures: 0`，部署 sha `6b9d1f14…` 与仓内一致。**实机目�
 
 **✅ 已完成（2026-09-15 下午，cf661b3）**：installer/psm1/tests 三份文件 ML↔hub 逐字节一致；hub 的 51 项测试对 hub 自身 catalog 跑通过。注意：远端 `WCP-Wordbook-Hub` 已删除（见卷首远端实测），hub 仓从此只是本地工作副本，对外入口只剩 ML 仓。
 
+### P1-14 安装器质量回归（ja 实战经验移植）— ✅ 已完成（2026-09-17，ML 提交 1e0e942→e3924ad）
+
+对照 ja 安装器（Install-WCP-Japanese.ps1）逐功能移植到 ML 安装器，全部按「失败不阻断」原则：
+
+| 移植项 | 实现 | 提交 |
+|---|---|---|
+| 自更新（方案 C） | 版本由 `WCP_INSTALLER_VERSION` 注入；索引 `release-index.json` 挂最新 `wcp-mods-*` release；有新版仅提示、确认才下载；SHA-256 校验通过才解包切换；任何异常不阻断；`-Offline/-Plan/-List` 不检查 | 1e0e942 |
+| 启动器 run-installer.ps1 | 版本注入 + AggregateException 内层异常链展开 + 失败预填 GitHub Issue + 窗口保持 | 1e0e942 |
+| 打包发布链 | `tools/release/build_installer.py`：EOL 规范化→zip→改版本号→release-index.json→`--upload` 直传→API digest 回读校验 | 1e0e942/665853a |
+| 下载临时外置 | `hub_dl_*`/`installer_update_*` 写入 `LocalLow\WCP\wcp_hub_work\downloads`（Steam 云同步范围外），旧位置自动搬出；中断残留启动时兜底清理 | e3924ad |
+| 旧包备份（跳 audio） | 覆盖前备份语言包到 `wcp_hub_work\backups\<时间戳>_<lang>`，跳过 audio 子树（每语 1~2 GB 无回滚价值） | e3924ad |
+| 备份卫生 | 只保留最近 3 份备份；清理失败只提示 | e3924ad |
+
+已发布 `wcp-installer-v0.1.0`（WCP-MultiLanguage release + wcp-mods-v1.3.0 索引资产，digest 回读一致）。契约测试 66→71 条全过；probes 41/0。**未移植**：存档修复（TryRepairSaveFile，高风险写存档，待用户批准）。
+
+
 ### P1-11 无卸载/回滚
 `grep -n "Uninstall|卸载" Install-WCP-Wordbooks.ps1` = 0 命中。**要做**：`-Uninstall -Books fr`（只删该语言 pack 目录 + 注销 managed 语言），保留用户词书本体。
 
