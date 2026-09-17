@@ -551,6 +551,14 @@ namespace WcpCustomSlots
             if (t == null) return new object[0];
             try
             {
+                // 性能优化：优先通过固定场景路径瞬时命中，避免 Resources.FindObjectsOfTypeAll 遍历全内存
+                GameObject mgr = GameObject.Find("Manager/BookChooseManager");
+                if (mgr != null)
+                {
+                    Component c = mgr.GetComponent(t);
+                    if (c != null && c.gameObject.scene.IsValid())
+                        return new object[] { c };
+                }
                 UnityEngine.Object[] all = Resources.FindObjectsOfTypeAll(t);
                 if (all == null) return new object[0];
                 List<object> kept = new List<object>();

@@ -171,7 +171,9 @@ namespace WcpCustomSlots
         private Sprite _nativeBarBg;          // 克隆到的滚动条背景 sprite
         private Sprite _nativeBarHandle;      // 克隆到的滚动条 handle sprite
         private Scrollbar _vScrollbar;        // 顶部往下的竖向滚动条
-        private Image _panelBg;               // 自绘面板底（路线 A 下隐藏）
+        private Image _panelBg;               // 自绘面板底（遮罩防穿透）
+        private static bool _debugSignalsEnabled = false; // 生产关闭高频IO
+        private Component _selfBookSettingManager; // 缓存管理组件
         private Text _titleText;
         private Text _hintText;
         private Button _closeButton;
@@ -366,9 +368,8 @@ namespace WcpCustomSlots
             viewport.offsetMax = new Vector2(-18f, 0f);
             _viewportRect = viewport;
             Image viewportImage = viewportObject.AddComponent<Image>();
-            viewportImage.color = new Color(0.02f, 0.03f, 0.05f, 0.8f);
-            Mask mask = viewportObject.AddComponent<Mask>();
-            mask.showMaskGraphic = false;
+            viewportImage.color = new Color(0.04f, 0.06f, 0.10f, 0.98f);
+            RectMask2D mask = viewportObject.AddComponent<RectMask2D>();
 
             ScrollRect scroll = _overlay.AddComponent<ScrollRect>();
             scroll.viewport = viewport;
@@ -560,8 +561,9 @@ namespace WcpCustomSlots
 
             if (_panelBg != null)
             {
-                _panelBg.enabled = false;              // 画面关掉
-                _panelBg.raycastTarget = false;        // 不挡下层原生点击
+                _panelBg.enabled = true;
+                _panelBg.color = new Color(0.04f, 0.06f, 0.10f, 0.98f);
+                _panelBg.raycastTarget = true;
             }
             if (_titleText != null) _titleText.gameObject.SetActive(false);
             if (_hintText != null) _hintText.gameObject.SetActive(false);
@@ -646,6 +648,67 @@ namespace WcpCustomSlots
                 _lastVisibilityCheck = Time.unscaledTime;
                 PollCustomPage();
             }
+        }
+
+        private void LateUpdate()
+        {
+            // 覆盖层激活期间，持续压制原生 4 行与"修改词库"按钮，杜绝原生逻辑每帧激活引起的幽灵重叠穿透
+            if (_overlay != null && _overlay.activeSelf)
+            {
+                SuppressNativeElements();
+            }
+        }
+
+        private void SuppressNativeElements()
+        {
+            try
+            {
+                if (_bookChooser != null)
+                {
+                    System.Reflection.FieldInfo fi = _bookChooser.GetType().GetField("BookButtonSon",
+                        System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                    if (fi != null)
+                    {
+                        Array sons = fi.GetValue(_bookChooser) as Array;
+                        if (sons != null)
+                        {
+                            for (int i = 0; i < sons.Length; i++)
+                            {
+                                Component btn = sons.GetValue(i) as Component;
+                                if (btn != null && btn.gameObject.activeSelf)
+                                {
+                                    btn.gameObject.SetActive(false);
+                                    if (!_hiddenNativeBars.Contains(btn.gameObject))
+                                        _hiddenNativeBars.Add(btn.gameObject);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                if (_selfBookSettingManager == null)
+                {
+                    GameObject settingMgr = GameObject.Find("Manager/BookChooseManager");
+                    if (settingMgr != null)
+                    {
+                        _selfBookSettingManager = settingMgr.GetComponent("SelfBookButtonSettingManager");
+                    }
+                }
+                if (_selfBookSettingManager != null)
+                {
+                    System.Reflection.FieldInfo btnFi = _selfBookSettingManager.GetType().GetField("ThisButton",
+                        System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                    if (btnFi != null)
+                    {
+                        GameObject thisBtn = btnFi.GetValue(_selfBookSettingManager) as GameObject;
+                        if (thisBtn != null && thisBtn.activeSelf)
+                        {
+                            thisBtn.SetActive(false);
+                        }
+                    }
+                }
+            }
+            catch (Exception) { }
 
             // 手动入口兜底：不依赖游戏方法钩子。F8 打开/关闭 20 槽面板。
             if (Input.GetKeyDown(KeyCode.F8))
@@ -1058,6 +1121,7 @@ namespace WcpCustomSlots
         private string _lastSignalLine;
         private void LogSignalsIfChanged(object chooser)
         {
+            if (!_debugSignalsEnabled) return;
             try
             {
                 string sig = GameCompat.CollectSignals(chooser);

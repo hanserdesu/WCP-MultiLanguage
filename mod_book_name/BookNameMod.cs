@@ -539,7 +539,18 @@ namespace WcpBookName
             if (_lastVoiceLabel != vLabel) RestoreWordSide();
             _lastVoiceLabel = vLabel;
             _lastJpBook = isManaged;
-            var all = Resources.FindObjectsOfTypeAll(typeof(TMP_Text));
+            TMP_Text[] all = null;
+            GameObject settingPart = GameObject.Find("AllCanvas/SettingPart");
+            if (settingPart != null)
+            {
+                all = settingPart.GetComponentsInChildren<TMP_Text>(true);
+            }
+            if (all == null || all.Length == 0)
+            {
+                var objList = Resources.FindObjectsOfTypeAll(typeof(TMP_Text));
+                all = new TMP_Text[objList.Length];
+                for (int i = 0; i < objList.Length; i++) all[i] = objList[i] as TMP_Text;
+            }
             for (int i = 0; i < all.Length; i++)
             {
                 var t = all[i] as TMP_Text;

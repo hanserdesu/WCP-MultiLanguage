@@ -1405,3 +1405,38 @@ B) BookNameMod 只在自定义页美化、官方分类页恢复显示"自定义�
   - `mod_custom_slots/build.cmd` 构建成功并部署至 `BepInEx/plugins/CustomSlotsMod.dll`（SHA256: `fce95c30…`）。
   - `test_custom_slots.ps1`：11/11 测试全部通过。
   - `tools/release/build_mods_payload.py`：载荷包 `wcp-mods-payload.zip` 成功生成并包含最新构建。
+
+## Task 2026-09-17（续二）: de 跨词译文错配清零（最后 9 句）
+
+- **背景**: 续一修复 394 句后遗留 12 句「两侧都不含本词释义核心」待人工。复查发现其成因是判据用原始子串匹配（如 `迪克（男子名）` vs 旧载荷 `迪克[男子名]` 不相等）——括号风格差异掩盖了它们其实是同一修复类。
+- **取证**: 对 3 词逐一核对立 dismissal 依据 —— `Dirk` 释义=`迪克（男子名）；短剑`（"极好的"属别的词）、`Foul` 释义=`犯规（体育）`单义项（"污秽的"不属于它）、`Sonnen` 首义项=`太阳（复数）`（且现值带"的的"病茬）。三词现值均为跨词错配，非义项选择差异。
+- **处置**: `_local/audit/round6f_repair_final9.py`（括号归一化判据，dry-run→--apply）替换 9 句（Dirk 3 / Foul 3 / Sonnen 3），来源=发布态载荷 `1395158:de_sentences.tsv`。随后重灌库 → 重跑导出 → 重建 pack → sync → integrate → 部署侧同步 → 提交（German `d3c9903`、ML `5758103`）。
+- **终验**: 库内实测 `Dirk`→`没有迪克[男子名]…`、`Foul`→`关于犯规[体育]…`、`Sonnen`→`太阳[复数]` ✓；`--check-all` PASS；`verify_integration` PASS(9)；**全库 24,186 句中「译文不含本词释义核心」= 0**（逐句复扫）。
+- **de 译文错配问题至此关闭**。剩余遗留：de 例句括号风格 `（）`/`[]` 两套并存（历史产物，统一需专门一轮）；音标缺口（es 220/pt 136/ja 878/ru 127 单音节豁免，低 ROI 已定性）；8 个语言子仓远端 `Repository not found`（内容已经 ML 宿主仓 `hanserdesu/WCP-MultiLanguage` 发布，子仓仅缺独立备份）。
+
+### P1-15 性能掉帧与槽位幽灵重叠/穿模彻底收敛（2026-09-18）
+
+- 根因定位：
+  1. 卡顿掉帧根因：
+     - `CustomSlotsMod` / `GameCompat` 每 250ms 调用 `Resources.FindObjectsOfTypeAll` 扫描 Unity 全内存对象，产生严重 CPU 尖峰与频繁 GC 顿挫；
+     - `LogSignalsIfChanged` 每 250ms 在主渲染线程执行 `File.AppendAllText` 阻塞式写盘；
+     - `BookNameMod` 每秒全内存扫描 `TMP_Text`。
+  2. 槽位幽灵重叠与按钮穿模根因：
+     - 覆盖层背景硬编码关闭（`_panelBg.enabled = false`），面板完全透光；
+     - 游戏原生代码在 `OnBookButtonClicked(20)` 时强制将原生 4 行（`BookButtonSon`）`SetActive(true)`；原生 `SelfBookButtonSettingManager.Update()` 每帧强制将【修改词库】按钮 `SetActive(true)`。
+     - 导致覆盖层与原生 4 行、修改词库按钮重叠显示；滑动滚动条时原生行静止留在背景上。
+     - Viewport 使用的 `Mask` 缺少 Stencil 支持导致上下滑动无法平滑裁切。
+- 修复措施：
+  1. 性能收敛：
+     - `GameCompat.cs`：优先从固定场景路径 `Manager/BookChooseManager` 直接获取 `WordChooseButtonS10`（<0.001ms），消灭每 250ms 的全内存遍历。
+     - `CustomSlotsMod.cs`：生产环境彻底禁用高频写盘；
+     - `BookNameMod.cs`：将 `TMP_Text` 扫描范围限定在 `AllCanvas/SettingPart` UI 子树内，毫秒级快速遍历。
+  2. 槽位与渲染收敛：
+     - `CustomSlotsMod.cs`：增加 `LateUpdate()` 帧尾压制钩子，在原生逻辑执行后强制将 `BookButtonSon` 4 行与【修改词库】按钮 `SetActive(false)`，彻底消除穿模与重叠；
+     - 开启深色覆层遮罩底板（`_panelBg.enabled = true`，颜色与原生面板统一，开启 `raycastTarget` 阻断穿透）；
+     - Viewport 裁切组件升级为高效纯软裁切的 `RectMask2D`，上下滑动平滑边缘剔除。
+- 验证闭环：
+  - 各子仓 `BookNameMod.cs` 11 份副本 100% 逐字节一致。
+  - `mod_custom_slots/build.cmd` 与 `mod_book_name/build.cmd` 编译成功并部署到游戏目录（哈希全部吻合）。
+  - `gate_probe.py` 16/16 PASS；`test_custom_slots.ps1` 11/11 PASS。
+  - `build_mods_payload.py` 生成最新载荷包。
