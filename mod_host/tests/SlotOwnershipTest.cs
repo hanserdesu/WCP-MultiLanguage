@@ -96,15 +96,34 @@ internal static class SlotOwnershipTest
         Check(!so.IsServed(served, out reason), "未登记指纹 → 拒绝服务");
         Check(reason != null && reason.Contains("20 槽"), "拒因说明槽位归属");
 
-        // 5. Row cleared by the user's 移除 (words empty, no flags) → not served.
+        // 5. Every row cleared / too short → nothing registered at all → treated as
+        //    "not seeded yet" and served (an all-empty table cannot express
+        //    revocation; fail-closed here blacked out fully installed books).
         WriteStore(path, Store(0, Row(5, "", "external", false, 0, new string[0])));
         so = new SlotOwnership(path);
-        Check(!so.IsServed(served, out reason), "被移除的行 → 拒绝服务");
+        Check(so.IsServed(served, out reason), "唯一一行被清空 → 视为未播种，放行");
+        Check(reason == null, "未播种放行时不产生拒因");
 
-        // 6. Too-short row is ignored (below playable minimum) → not served.
+        // 6. Too-short row is ignored (below playable minimum) → same as not seeded.
         WriteStore(path, Store(0, Row(5, "catbar-xx", "mod", true, 0, new[] { "b1", "b2" })));
         so = new SlotOwnership(path);
-        Check(!so.IsServed(served, out reason), "词数不足的行不作为登记");
+        Check(so.IsServed(served, out reason), "词数不足的行不计入登记（等价未播种）");
+
+        // 6b. Real fresh-install shape: 20 placeholder rows, no registration → served.
+        string[] placeholders = new string[20];
+        for (int i = 0; i < placeholders.Length; i++)
+            placeholders[i] = Row(i + 1, "", "external", false, 0, new string[0]);
+        WriteStore(path, Store(0, placeholders));
+        so = new SlotOwnership(path);
+        Check(so.IsServed(served, out reason), "20 条占位行（新装未播种）→ 放行");
+
+        // 6c. Revocation still holds while other rows stay registered: clearing the
+        //     target's row leaks nothing because the table is non-empty.
+        WriteStore(path, Store(0,
+            Row(1, "", "external", false, 0, new string[0]),
+            Row(2, "", "external", false, 2, Other)));
+        so = new SlotOwnership(path);
+        Check(!so.IsServed(served, out reason), "非空表中的清空行 → 仍拒绝服务");
 
         // 7. Mixed table: served fingerprint present among other rows.
         WriteStore(path, Store(0,
@@ -122,10 +141,10 @@ internal static class SlotOwnershipTest
         WriteStore(path, Store(0, Row(5, "catbar-xx", "mod", true, 0, Six)));
         Check(so.IsServed(served, out reason), "存档被重写后自动恢复（自愈路径）");
 
-        // 9. Empty slots array → nothing served.
+        // 9. Empty slots array → nothing registered → compatibility fallback.
         WriteStore(path, Store(0));
         so = new SlotOwnership(path);
-        Check(!so.IsServed(served, out reason), "空表 → 无服务对象");
+        Check(so.IsServed(served, out reason), "空表（未播种）→ 兼容回退放行");
 
         // 10. mtime cache: unchanged store reuses result (no re-read) — same answer both ways.
         WriteStore(path, Store(0, Row(5, "catbar-xx", "mod", true, 0, Six)));

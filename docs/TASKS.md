@@ -612,7 +612,7 @@ probes 41/0、verify_integration PASS(9)、build_pack --check-all PASS、arch_ch
 | P1-9 | Test-WordbookDiskHealth（骨架/词表自证/音频抽样）+ -Update 摘除重下 | ✅ 在线端到端验证 |
 | 附带修复 | Get-HubWorkPath 目录保证（新用户阻断级回归）+ 下载句柄 finally 释放 | ✅ 沙箱实锤后修复 |
 | 门禁 | test_hub 87/0 · takeover 0 · custom-slots 11/0 · word-audio 0 · slot-ownership 15/0 · registry 全过 · verify_integration 9/9 · sync --check · build_pack --check-all · arch_check 0F/0W · probes 41/0 | ✅ 全绿 |
-| 发布 | 新 mods 载荷已构建（含 WcpHost 0.5.0 服务边界，payload sha256 `774d66f2…`）——**未发布**，待用户批准 | ⬜ |
+| 发布 | 新 mods 载荷已构建（含 WcpHost 0.5.1 服务边界空表放行修复，payload sha256 `75552c6a…`）——**未发布**，待用户批准 | ⬜ |
 
 **版本记录**：WcpHost 0.4.0 → 0.5.0（服务边界门 + RequireSlotOwnership 配置）。
 mods 载荷待发布为新版本（建议 wcp-mods-v1.4.0）并同步 catalog mods 块 + hub catalog 副本；
@@ -653,3 +653,41 @@ custom-slots 离线 harness 11/0 无回归。
 
 **待用户的一条操作**：进游戏 → 打开"自定义词书"页（停留 1 秒即可）→ 自动产出 `WcpSlotsDiag.txt`。
 拿到真实几何后才能克隆原生行（猜行高/字体 = "永远差一点"）。
+
+## 15. 2026-09-17 夜 · 实机 4 项反馈定位 + P1-16/P1-17 登记
+
+来源：用户实机截图（4 张，本会话用 Windows OCR 读出文字）+ WcpSlotsDiag.txt(270 行)
++ LogOutput.log + LocalLow\WCP\packs 现场取证。
+
+### P1-16 20 槽面板的"是否在自定义页"判据误判（导致面板出现在不该出现的位置）
+- 现象：面板在"日语词库(猫条版)"等受管书页面、甚至非自定义页也弹出。
+- 根因：`GameCompat.IsCustomPageShowing` 扫描 **BookNameText 数组（每个页签的标签）**
+  找 `自定义词书` 或 `猫条版`。两个分支都是恒真的：
+  ①页签 20（自定义页签）的标签永远是"自定义词书"；
+  ②BookNameMod 会把受管页签改写成 `…词库(猫条版)` → `CosmeticMarker` 命中。
+  于是"该页签存在"被当成"当前正停在该页"。
+- 正确判据应取自**当前显示页号**（用户点击信号 LastUserPageNum 或从原生 chooser 读
+  当前页），标签文本扫描只能作为辅助。
+- 状态：待修（需要一条"当前页"读取路径，改前必须实机确认，避免面板整页不弹）。
+
+### P1-17 存量部署的 8 个语言包缺 books/ 与 audio/（宿主因就绪门拒接管）
+- 实测（LocalLow\WCP\packs）：ja 完整（72,760 文件，含 books/ + audio/）；
+  ar/de/es/fr/ko/pt/ru/yue 只有 `db/` + `manifest.json` 4 个文件，缺 books/*.xlsx。
+- 后果链：宿主就绪门 `resources.books` 缺失 → "语言包资源未就绪, 本次不接管"
+  （LogOutput.log:89）→ 旧插件兜底 → 例句/发音/美化名不生效。
+  俄语无例句即此链的下游表现。
+- 原因：这些语言是**旧的分语言安装器**装的（wcp/ 下有 `ru_db_payload`、`rumod_install.json`
+  等痕迹），只落了 db 载荷；catalog 里的 `wcp-<lang>-core.zip` 本身**含** books/（已逐个
+  比对 zip 条目）。所以不是发布链漏打，是存量安装没走统一安装器。
+- 修法：对该语言跑统一安装器 `Install-WCP-Wordbooks.ps1 -Books <id> -Update`，pack 会**增量补齐**
+  books/（不删既有 db 与用户文件）。
+- 状态：待用户执行安装（需要游戏关闭）。
+
+### 已修 P1-4 回归（本轮已提交）
+`SlotOwnership` 的"20 槽服务边界"把 **store 存在但一条登记行都没有**（20 条占位行，
+`managed=false` 且 `nativeSlot=0`）判成 fail-closed → 把所有词书（含唯一装好的 ja）
+一起挡在门外（LogOutput.log:90 "未激活 · 词书不在 20 槽服务范围"）。
+- 改动：新增 `StoreStatus.Empty` 语义 = "存在但未播种" → 与 store 缺失同样按兼容回退放行；
+  非空表中的清空行仍 fail-closed（撤销语义保留）；损坏仍 fail-closed。
+- 版本：WcpHost 0.5.0 → **0.5.1**；部署 sha `836d857b611ffcfca777e43cedaa969e3760634d34108adfb72226afb72e673a`（仓内=游戏一致）。
+- 用例：`mod_host/tests/SlotOwnershipTest.cs` 18 条断言 ALL PASS（新增 4 条覆盖空表/占位行/非空表撤销）。
