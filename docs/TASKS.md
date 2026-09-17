@@ -521,3 +521,23 @@ probes 41/0、verify_integration PASS(9)、build_pack --check-all PASS、arch_ch
   1. **de 例句译文错配（上游库）**: 游戏库 `wcpFullEng.db` 当前对 Ablassen、Ablenkungsmanöver 等 329 词输出与词义不符的中文（如"皱眉的""转换注意力的的"），而仓库载荷（HEAD 版）是正确的"排放""转移注意力策略"。重跑 `export_de_db_payload.py` 会把这批劣化写入资源，故本轮保持 de 内容零变化；修好例句术语替换后再统一重跑即可收敛。
   2. **de 义项分隔符丢失**: 旧导出器未转义反斜杠，`build_pack` 反解后 Jucken/demütigend/gezielt 3 词的义项分隔符被吞（游戏库内该分隔符存在）→ 自愈灌回会合并义项；随上游重跑一并解决。
   3. **音标缺口**: es 缺 220 词（本地源仅可自动补 109）、pt 缺 136 词（仅可补 5）、ja 878 词多为假名原生、ru 127 词均为单音节（无需重音标记，豁免）——低 ROI，暂缓。
+
+## Task 2026-09-17（续）: de 例句译文术语错配修复（上游定位 + 回填 + 重灌对齐）
+
+- **现象**: 游戏内 de 例句译文出现别的词的释义 —— `Ablassen`→"皱眉的"、`riesige`→"暴利"、`Unschuldige`→"无罪的的"、`Ader`→"隔热的"，且带"的的"重复。
+- **逐层排查（关键：先分清哪一层脏）**:
+  - 源 `output/catbar_german_book.json` / 载荷 `output/de_db_payload/de_pron.tsv` / pack `packs/de/db/meaning.sqlite` 三层**全部正确**（`Ablassen=[ablasən] 排放；放气；放出；停止〈n.〉`）；`93f3383` 已修过 147 条跨词义错配。
+  - 游戏库 `wcpFullEng.db` **落后**：与 pack 比对释义偏离 1,807/8,062（错配 1,691 + 转义重复残留 116），例句 8,062/8,062 属另一套（`work/gen_out_*`）。
+  - ⇒ 因导出器以游戏库为源，**库未对齐前重跑导出会把库内旧错配倒灌回仓库**（本轮据此挡住了一次劣化）。
+- **定位真正的上游**: 灌库脚本 `patch_local_db_de.py` 的例句取自 `data/translations/sentences_master.json`（不是 german_books.json）。该文件 327 词 / 979 句译文含错配；而**发布态 HEAD 载荷里的译文是正确版本**（`排放`/`血管`/`转移注意力策略`）—— 即 master 曾被劣化覆盖。
+- **处置**:
+  1. 用 HEAD 载荷按 (词, 德语原文) 精确回填，判据取严：仅当 master 译文**不含本词释义核心**且发布态译文含 ⇒ 才替换（括号风格 `（）`↔`[]`、义项选择差异一律保留，避免倒退）；实际替换 **394 句**。
+  2. 重灌库（`patch_local_db_de.py`：7,837 词 / 23,511 句，跳过 225 英德同形词）→ 库内释义与例句与仓库对齐。
+  3. 重跑 `export_de_db_payload.py` → 重建 de pack → sync → integrate → 部署侧同步。
+- **验证**: 库内 `Ablassen` = `排放；放气；放出；停止〈n.〉`、例句"讲排放/关于排放的所有疑问/没有排放" ✓；载荷 vs HEAD 内容差异 329 → 141（剩余均为括号风格与同词不同例句选择，无错配）；`--check-all` PASS；`verify_integration` PASS(9)；`arch_check` 0 FAIL/0 WARN；提交后字节门禁 48 哈希 0 mismatch；probes 41/0；hub 61/0。
+- **提交**: German `4eb55a1`、MultiLanguage `8c23bc9`。
+- **遗留**:
+  1. **12 句两侧都不含本词释义核心**（如 `Dirk`：master"极好的" vs 发布态"迪克[男子名]"）—— 判据无法自动裁决，需人工确认后替换。
+  2. de 例句存在**同词不同例句选择**（`Dialekt` 等）与括号风格 `（）`/`[]` 两套并存，属历史多轮产物，未做统一（避免倒退）。
+  3. es 缺音标 220（本地源仅可补 109）、pt 缺 136（仅 5）、ru 127 全单音节豁免、ja 878 多为假名原生。
+  4. **远端**: 9 仓中仅 Japanese 有可用远端（推送成功 `a246ac1..30635a4`）；其余 8 仓 `git push` 返回 `Repository not found`，提交仅存本地。
