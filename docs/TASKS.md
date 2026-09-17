@@ -480,22 +480,44 @@ probes 41/0、verify_integration PASS(9)、build_pack --check-all PASS、arch_ch
   - Spanish: `f8576cf` (content(es): 质量收敛 — 修复3处音标破坏StripReading括号+ia/cas/lsd/bb释义与例句汉化+标点规范)
   - Portuguese: `d71d71a` (content(pt): 质量收敛 — 修复2处音标坏括号+pt释义zh错配脱污染+todo-poderoso/ia汉化+标点规范)
   - korean: `cc78c82` (content(ko): 质量收敛 — 彻底净化82处生硬罗马音与标点瑕疵+125处代码碎片与错配修正)
-## Task 2026-09-17: 跨环境可复现性收敛 (Round 5) — EOL 契约与哈希链自洽
-- **目标**: 消除"重新生成 ≠ 已提交产物"的漂移，使 9 语 pack/载荷在任意检出环境（autocrlf 开/关）下哈希自洽、门禁真绿。
+
+## Task 2026-09-17: 全语种词书资源质量深度收敛与结构闭环 (Round 4)
+- **目标**: 针对全 9 大语种（German, Korean, Spanish, Portuguese, Arabic, Japanese, French, Russian, Cantonese）实施深度词义校准与例句括号消除，达成 0 缺陷全面质量收敛。
 - **排查与根因**:
-  1. **生成器文本模式写盘**: `build_pack.py` 的 `db/sentences.json`、ko/ru 载荷导出器以文本模式写盘（Windows 下 CRLF），与 `.gitattributes` 的 LF 要求冲突 → 换环境或重跑即字节漂移。
-  2. **陈旧哈希**: de/ko/ru 载荷清单记录的哈希对应更早版本（de_pron/de_sentences、ru_*、ko_*），与仓库内文件不符；de 实际字节因 autocrlf 检出为 CRLF，而清单按 LF 记录 → 任何 LF 环境校验必失败。
-  3. **门禁盲区**: ar/ko 载荷清单缺 `files` 段，`check_payload_manifest` 因此从不校验其载荷哈希（校验静默跳过）。
-  4. **ja 清单失真**: `packs/ja/manifest.json` 与 `jp_sentences.tsv` 载荷哈希不一致，`--check-all` 实际 FAIL（既有记录写"8 语 PASS"，ja 从未被覆盖）；ja 的 `jp_sentences.tsv` 与 pack json 仍是 CRLF blob。
+  1. **德语 (de)**: 历史词典源数据行位移造成 156 个高频名词（Orange, Bass, Braten, Taube, Mechaniker 等）与连词 dass 释义缺失或错位；363 句中文翻译内嵌全角括号造成 `LastIndexOf('（')` 解析截断。
+  2. **韩语 (ko)**: 19 处核心词条释义（如 밥, 곰, 돈, 파이팅, 소, 뼈, 고양이, 닭, 달걀 等）因多音/派生误配为不自然短语；例句中含有多层嵌套全角括号。
+  3. **西/葡语 (es/pt)**: 基础功能词（es 的 que, la, un, me, te, le, hay; pt 的 o, a, um, uma, obrigado, obrigada 等）词义包含非标准全角括号，级联污染例句生成器，产生 27 句 (es) 与 9 句 (pt) 嵌套括号。
+  4. **阿/日语 (ar/ja)**: 阿拉伯语 38 句例句与日语 366 句例句中，中文翻译内带有辅助性全角括号（如 `二人ともフリーだよ。（两个人都是自由的（单身）。）`），导致 `SentenceAudioMod.cs` 中 `LastIndexOf('（')` 将句子原文截断为 `二人ともフリーだよ。（两个人都是自由的`，进而引发 MD5 计算畸变致使例句 TTS 音频寻址失败。
 - **处置方案**:
-  1. `build_pack.py` 写 `db/sentences.json` 改 `newline='\n'`；ko/ru 导出器全链路 LF 写入；ru 载荷清单增补 `files` 段。
-  2. 8 语 `.gitattributes` 增补 EOL 契约（`*.tsv`/`*.json` = LF，`*.bat`/`*.cmd` 保持 CRLF）；ja 与 ML 限定到 `packs/**`、`wcp_wordbooks/output/**`、`languages/**`，避免波及中间产物。
-  3. 载荷 TSV 落盘 LF 并重算 `files` 哈希（内容零变化）；ar/ko 补 `files` 段；9 语 pack 重建刷新 `payload_files`；`sync_packs --write` → `integrate_languages --apply` → 部署侧（LocalLow）同步。
-  4. ja 清单与其载荷哈希重建对齐；ja/ML 的 EOL 规则镜像同步（`languages/ja/.gitattributes`）。
+  1. 源头数据修复: 在各语言源码及核心生成器（`gen_sentences_*.py`, `build_dataset_*.py`, `output/*_books.json`）中直接修正词义，并将例句中文翻译内部嵌套的全角括号系统化规范为方括号 `[...]`，保留最外层单一 `（...）` 分界符。
+  2. 工具链防卫加固: 在 `MultiLanguage/tools/build_pack_payload.py` 载荷导出管道中嵌入中文嵌套括号清洗，确保未来重建具备防御机制。
+  3. 全链路闭环构建与物化: 重新运行生成器与 `--check` 严格校验门禁 -> 重新导出 payload/xlsx/sqlite -> `build_pack.py` 物化 -> `sync_packs.py` 同步 -> `integrate_languages.py` 镜像同步。
 - **提交与验证**:
-  - German `1395158` / Contonese `5021726` / French `d5b719c` / korean `549be43` / Russian `93d4954` / Arabic `e463489` / Japanese `30635a4` / MultiLanguage `2c800f4` + 镜像刷新提交
-  - 门禁: `build_pack.py --check-all` PASS；`sync_packs --check` PASS；`verify_integration` PASS(9)；`arch_check` 0 FAIL/0 WARN；`test_hub.ps1` 61/0（MultiLanguage 与 hub）；`probes/test_isolation_contract.ps1` 41/0；9 语载荷哈希 0 mismatch；**提交后字节门禁**（`git cat-file blob` 取 HEAD 字节，48 个哈希）0 mismatch；EOL 漂移判定 0。
-- **遗留（本轮刻意不处置，待上游根治）**:
-  1. **de 例句译文错配（上游库）**: 游戏库 `wcpFullEng.db` 当前对 Ablassen、Ablenkungsmanöver 等 329 词输出与词义不符的中文（如"皱眉的""转换注意力的的"），而仓库载荷（HEAD 版）是正确的"排放""转移注意力策略"。重跑 `export_de_db_payload.py` 会把这批劣化写入资源，故本轮保持 de 内容零变化；修好例句术语替换后再统一重跑即可收敛。
-  2. **de 义项分隔符丢失**: 旧导出器未转义反斜杠，`build_pack` 反解后 Jucken/demütigend/gezielt 3 词的义项分隔符被吞（游戏库内该分隔符存在）→ 自愈灌回会合并义项；随上游重跑一并解决。
-  3. **音标缺口**: es 缺 220 词（本地源仅可自动补 109）、pt 缺 136 词（仅可补 5）、ja 878 词多为假名原生、ru 127 词均为单音节（无需重音标记，豁免）——低 ROI，暂缓。
+  - German: `2f201bd`
+  - korean: `e980f92`
+  - Spanish: `5880255`
+  - Portuguese: `59b4a25`
+  - Arabic: `8868135`
+  - Japanese: `bb52e8e`
+  - MultiLanguage: `fd19bb9`
+  - 终检结果: `deep_scan_all.py` 针对全 9 大语种 pack 扫描，Meanings 缺陷 0，Sentences 缺陷 0，全量 20/20 及全语种资源审计 100% 通过。
+
+## Task 2026-09-17: 跨环境可复现性收敛 (Round 5) — EOL 契约与哈希链自洽
+- **目标**: 消除"重新生成 ≠ 已提交产物"的漂移，使 9 语 pack/载荷在任意检出环境（autocrlf 开/关）下哈希自洽、门禁真绿。
+- **排查与根因**:
+  1. **生成器文本模式写盘**: `build_pack.py` 的 `db/sentences.json`、ko/ru 载荷导出器以文本模式写盘（Windows 下 CRLF），与 `.gitattributes` 的 LF 要求冲突 → 换环境或重跑即字节漂移。
+  2. **陈旧哈希**: de/ko/ru 载荷清单记录的哈希对应更早版本（de_pron/de_sentences、ru_*、ko_*），与仓库内文件不符；de 实际字节因 autocrlf 检出为 CRLF，而清单按 LF 记录 → 任何 LF 环境校验必失败。
+  3. **门禁盲区**: ar/ko 载荷清单缺 `files` 段，`check_payload_manifest` 因此从不校验其载荷哈希（校验静默跳过）。
+  4. **ja 清单失真**: `packs/ja/manifest.json` 与 `jp_sentences.tsv` 载荷哈希不一致，`--check-all` 实际 FAIL（既有记录写"8 语 PASS"，ja 从未被覆盖）；ja 的 `jp_sentences.tsv` 与 pack json 仍是 CRLF blob。
+- **处置方案**:
+  1. `build_pack.py` 写 `db/sentences.json` 改 `newline='\n'`；ko/ru 导出器全链路 LF 写入；ru 载荷清单增补 `files` 段。
+  2. 8 语 `.gitattributes` 增补 EOL 契约（`*.tsv`/`*.json` = LF，`*.bat`/`*.cmd` 保持 CRLF）；ja 与 ML 限定到 `packs/**`、`wcp_wordbooks/output/**`、`languages/**`，避免波及中间产物。
+  3. 载荷 TSV 落盘 LF 并重算 `files` 哈希（内容零变化）；ar/ko 补 `files` 段；9 语 pack 重建刷新 `payload_files`；`sync_packs --write` → `integrate_languages --apply` → 部署侧（LocalLow）同步。
+  4. ja 清单与其载荷哈希重建对齐；ja/ML 的 EOL 规则镜像同步（`languages/ja/.gitattributes`）。
+- **提交与验证**:
+  - German `1395158` / Contonese `5021726` / French `d5b719c` / korean `549be43` / Russian `93d4954` / Arabic `e463489` / Japanese `30635a4` / MultiLanguage `2c800f4` + 镜像刷新提交
+  - 门禁: `build_pack.py --check-all` PASS；`sync_packs --check` PASS；`verify_integration` PASS(9)；`arch_check` 0 FAIL/0 WARN；`test_hub.ps1` 61/0（MultiLanguage 与 hub）；`probes/test_isolation_contract.ps1` 41/0；9 语载荷哈希 0 mismatch；**提交后字节门禁**（`git cat-file blob` 取 HEAD 字节，48 个哈希）0 mismatch；EOL 漂移判定 0。
+- **遗留（本轮刻意不处置，待上游根治）**:
+  1. **de 例句译文错配（上游库）**: 游戏库 `wcpFullEng.db` 当前对 Ablassen、Ablenkungsmanöver 等 329 词输出与词义不符的中文（如"皱眉的""转换注意力的的"），而仓库载荷（HEAD 版）是正确的"排放""转移注意力策略"。重跑 `export_de_db_payload.py` 会把这批劣化写入资源，故本轮保持 de 内容零变化；修好例句术语替换后再统一重跑即可收敛。
+  2. **de 义项分隔符丢失**: 旧导出器未转义反斜杠，`build_pack` 反解后 Jucken/demütigend/gezielt 3 词的义项分隔符被吞（游戏库内该分隔符存在）→ 自愈灌回会合并义项；随上游重跑一并解决。
+  3. **音标缺口**: es 缺 220 词（本地源仅可自动补 109）、pt 缺 136 词（仅可补 5）、ja 878 词多为假名原生、ru 127 词均为单音节（无需重音标记，豁免）——低 ROI，暂缓。
