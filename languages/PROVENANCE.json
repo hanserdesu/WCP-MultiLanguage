@@ -1,6 +1,6 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-17T15:10:46+08:00",
+  "integrated_at": "2026-09-17T21:00:10+08:00",
   "languages": {
     "ar": {
       "absent_in_worktree": [],
@@ -38,15 +38,15 @@
       "removed_in_worktree": [],
       "source_branch": "main",
       "source_dir": "D:\\ATooManyLanguage\\German",
-      "source_head": "4eb55a1eb9ecf2a915f458cb172dbd2af6c875dc",
-      "source_head_date": "2026-09-17 14:04:49 +0800",
-      "source_head_subject": "fix(de): 修复394句例句译文术语错配（以发布态正确译文回填 sentences_master 并重灌库对齐）+ 载荷/pack 重建",
+      "source_head": "d3c9903de4f1ed59c7949745758f1ef67316798e",
+      "source_head_date": "2026-09-17 15:11:00 +0800",
+      "source_head_subject": "fix(de): 修复最后9句跨词译文错配（Dirk/Foul/Sonnen，来源=发布态载荷，括号归一化判据）",
       "source_origin_head": "",
       "source_repo": "https://github.com/hanserdesu/WCP-German-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 6,
-        "tracked": 296,
+        "modified": 0,
+        "tracked": 302,
         "untracked": 0
       }
     },
@@ -100,8 +100,8 @@
     },
     "ja": {
       "absent_in_worktree": [],
-      "bytes": 80272382,
-      "content_digest": "sha256:96a17a1ba0d0a2c720e7974ba1bd97e58eec3377c39833538c46301de48eb168",
+      "bytes": 80280914,
+      "content_digest": "sha256:145c0c838fe351ec1ca224c7346e75732f483d635defdb6ae83c1022acece33a",
       "excluded": {
         "build-archive": 31,
         "installer-package": 63,
@@ -122,20 +122,20 @@
         "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/BepInEx.Harmony.xml (installer-package)",
         "wcp_wordbooks/output/installer_pkg/WCP日语词书安装包/support/payload/bepinex/BepInEx/core/BepInEx.Preloader.dll (installer-package)"
       ],
-      "files": 866,
+      "files": 868,
       "note": "日语：本体与语音资源保留在 hanserdesu/japanese",
       "removed_in_worktree": [],
       "source_branch": "master",
       "source_dir": "D:\\ATooManyLanguage\\Japanese",
-      "source_head": "30635a4c76bef39dcc39cf0770c8ed36bfa45a35",
-      "source_head_date": "2026-09-17 13:33:56 +0800",
-      "source_head_subject": "ja: build_pack 以 LF 写 db/sentences.json；重算包清单与 jp_sentences 载荷哈希；锁定 EOL 契约",
+      "source_head": "9dab09ddd17b42c74ff25f9b7f8b8385198fa7f4",
+      "source_head_date": "2026-09-17 20:57:01 +0800",
+      "source_head_subject": "许可：分层授权落地——代码 PolyForm Noncommercial 1.0.0 / 内容 CC BY-NC-SA 4.0 / 词典数据 CC BY-SA 4.0",
       "source_origin_head": "30635a4c76bef39dcc39cf0770c8ed36bfa45a35",
       "source_repo": "https://github.com/hanserdesu/japanese.git",
       "states": {
         "added": 0,
         "modified": 146,
-        "tracked": 711,
+        "tracked": 713,
         "untracked": 9
       }
     },
