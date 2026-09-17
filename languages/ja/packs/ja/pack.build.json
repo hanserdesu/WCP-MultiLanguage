@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "language": "ja",
+  "profile_id": "catbar-jlpt-complete",
+  "display_name": "日语词库(猫条版)",
+  "word_count": 7922,
+  "fingerprint_sha256": "6d7a51c0c5d30dd63d8a6e3412bce1cf2419554fb8487cf5c8a205e43ac41663",
+  "observed_slot": 1,
+  "es3_prefix": "ja",
+  "book_layout": "single",
+  "strategy": {
+    "assembly": "WcpPack.Ja.dll",
+    "type": "WcpPack.Ja.JapaneseStrategy"
+  },
+  "payload_dir": "wcp_wordbooks/output/jp_db_payload",
+  "pron": "jp_pron.tsv",
+  "sentences": "jp_sentences.tsv",
+  "books": ["wcp_wordbooks/output/import/日语词库(猫条版).xlsx"],
+  "repair_probes": ["歯医者", "続ける", "工業"],
+  "notes": [
+    "日语是单册: 日语词库(猫条版).xlsx 本身就含 7922 词；JLPT_N1/N2/N3/N5N4、IT用语 是合并前的源片段，不列入 books。",
+    "observed_slot=1 来自 2026-09-14 实测存档 MyBook.es3 的 SelfBookList1（7922 词，指纹一致）。",
+    "日语假名与英语零同形，因此宿主只需按本书释义服务，不需要任何共享库切换。",
+    "strategy 是 pack 内程序集（唯一还带语言代码的包）: 日语显示/读音规则需要代码，其余语言用 \"$host\"。"
+  ]
+}

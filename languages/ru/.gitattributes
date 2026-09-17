@@ -1,0 +1,5 @@
+# 跨平台重建防腐：载荷/产物文本均为 LF，批处理入口保持 CRLF
+*.tsv text eol=lf
+*.json text eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf

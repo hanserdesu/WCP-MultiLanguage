@@ -288,7 +288,7 @@ def materialize(spec_path: Path, out_dir: Path) -> dict:
     sentence_map: dict[str, list] = {}
     for word, sentence in sentences:
         sentence_map.setdefault(word, []).append(sentence)
-    with (db_dir / "sentences.json").open("w", encoding="utf-8") as handle:
+    with (db_dir / "sentences.json").open("w", encoding="utf-8", newline="\n") as handle:
         json.dump({"schema": 1, "sentences": sentence_map}, handle,
                   ensure_ascii=False, indent=2, sort_keys=True)
         handle.write("\n")

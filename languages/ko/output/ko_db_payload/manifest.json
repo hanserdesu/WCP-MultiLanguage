@@ -1,7 +1,12 @@
 {
-  "ko_pron.tsv": "b9ffb76f166790d3f8ebc5ed74d937d66e1fdcd9e91b1f69034a95fedc2514f9",
-  "ko_only_pron.tsv": "b9ffb76f166790d3f8ebc5ed74d937d66e1fdcd9e91b1f69034a95fedc2514f9",
-  "ko_sentences.tsv": "5cb2d0f960573788ae28c413923871e6ef1121dc70d007c42d37b1eb9572362b",
+  "ko_pron.tsv": "391b0f7698a6ce77111b134958c31ef0f65010a1ff758a6be5e0beb1a559bad1",
+  "ko_only_pron.tsv": "391b0f7698a6ce77111b134958c31ef0f65010a1ff758a6be5e0beb1a559bad1",
+  "ko_sentences.tsv": "3df5c7366ffa463bcacb014699163877f0ae1d01c1f1de82070def12ae8db95b",
   "word_count": 7330,
-  "sentence_count": 21990
+  "sentence_count": 21990,
+  "files": {
+    "ko_only_pron.tsv": "391b0f7698a6ce77111b134958c31ef0f65010a1ff758a6be5e0beb1a559bad1",
+    "ko_pron.tsv": "391b0f7698a6ce77111b134958c31ef0f65010a1ff758a6be5e0beb1a559bad1",
+    "ko_sentences.tsv": "3df5c7366ffa463bcacb014699163877f0ae1d01c1f1de82070def12ae8db95b"
+  }
 }

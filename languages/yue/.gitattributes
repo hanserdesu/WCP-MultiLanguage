@@ -1,2 +1,4 @@
 *.cmd text eol=crlf
 *.bat text eol=crlf
+*.tsv text eol=lf
+*.json text eol=lf

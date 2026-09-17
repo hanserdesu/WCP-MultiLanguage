@@ -89,11 +89,16 @@ def main():
         p_sent = d / 'ru_sentences.tsv'
         p_only = d / 'ru_only_pron.tsv'
         
-        p_pron.write_text('\n'.join(rows_pron) + '\n', encoding='utf-8')
-        p_sent.write_text('\n'.join(rows_sentences) + '\n', encoding='utf-8')
-        p_only.write_text('\n'.join(rows_pron) + '\n', encoding='utf-8')
+        p_pron.write_text('\n'.join(rows_pron) + '\n', encoding='utf-8', newline='\n')
+        p_sent.write_text('\n'.join(rows_sentences) + '\n', encoding='utf-8', newline='\n')
+        p_only.write_text('\n'.join(rows_pron) + '\n', encoding='utf-8', newline='\n')
         
         manifest = {
+            'files': {
+                'ru_pron.tsv': sha256_file(p_pron),
+                'ru_sentences.tsv': sha256_file(p_sent),
+                'ru_only_pron.tsv': sha256_file(p_only),
+            },
             'ru_pron.tsv': sha256_file(p_pron),
             'ru_sentences.tsv': sha256_file(p_sent),
             'ru_only_pron.tsv': sha256_file(p_only),

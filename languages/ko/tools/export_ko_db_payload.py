@@ -47,13 +47,13 @@ def main():
             ko_sent_lines.append(f"{w}\t{sent_str}\n")
 
     pron_file = PAYLOAD_DIR / 'ko_pron.tsv'
-    pron_file.write_text(''.join(ko_pron_lines), encoding='utf-8')
+    pron_file.write_text(''.join(ko_pron_lines), encoding='utf-8', newline='\n')
 
     only_pron_file = PAYLOAD_DIR / 'ko_only_pron.tsv'
-    only_pron_file.write_text(''.join(ko_pron_lines), encoding='utf-8')
+    only_pron_file.write_text(''.join(ko_pron_lines), encoding='utf-8', newline='\n')
 
     sent_file = PAYLOAD_DIR / 'ko_sentences.tsv'
-    sent_file.write_text(''.join(ko_sent_lines), encoding='utf-8')
+    sent_file.write_text(''.join(ko_sent_lines), encoding='utf-8', newline='\n')
 
     manifest = {
         'ko_pron.tsv': sha256(pron_file),
@@ -63,7 +63,7 @@ def main():
         'sentence_count': sum(len(master.get(w, [])) for w in master)
     }
 
-    (PAYLOAD_DIR / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
+    (PAYLOAD_DIR / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8', newline='\n')
     print(f'已生成 ko_db_payload (共 {len(ko_pron_lines)} 词, {manifest["sentence_count"]} 例句)')
 
 

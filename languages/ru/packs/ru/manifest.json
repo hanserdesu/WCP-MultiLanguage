@@ -34,7 +34,11 @@
     "payload_dir": "output/ru_db_payload",
     "pron": "ru_pron.tsv",
     "sentences": "ru_sentences.tsv",
-    "payload_files": {}
+    "payload_files": {
+      "ru_pron.tsv": "19e801f711c0a0e88fa6f31e183d7087cfce7d660e7f432105e6bbc47c9d8b27",
+      "ru_sentences.tsv": "aa6a3b53206f7f0b93b3e99fa8d170246fa8e386b1f5724bb935355ba17127bc",
+      "ru_only_pron.tsv": "19e801f711c0a0e88fa6f31e183d7087cfce7d660e7f432105e6bbc47c9d8b27"
+    }
   },
   "book_sha256": {
     "俄语A1A2.xlsx": "3492448cee5a4f7b515f5c6c72f927e1f99bf1e53bad9826eea416280f9e970f",

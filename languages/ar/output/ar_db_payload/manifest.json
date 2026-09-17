@@ -3,5 +3,10 @@
   "ar_only_pron.tsv": "916abdffa0f5d1bc83b06e144e775592a5096e14d38daaa6aab988a1f89f5a37",
   "ar_sentences.tsv": "4674d87d288e13a2c5b73afbbeafc8547400d95eb6250cc9c736eda4f1675101",
   "word_count": 8118,
-  "sentence_count": 8118
+  "sentence_count": 8118,
+  "files": {
+    "ar_only_pron.tsv": "916abdffa0f5d1bc83b06e144e775592a5096e14d38daaa6aab988a1f89f5a37",
+    "ar_pron.tsv": "916abdffa0f5d1bc83b06e144e775592a5096e14d38daaa6aab988a1f89f5a37",
+    "ar_sentences.tsv": "4674d87d288e13a2c5b73afbbeafc8547400d95eb6250cc9c736eda4f1675101"
+  }
 }
