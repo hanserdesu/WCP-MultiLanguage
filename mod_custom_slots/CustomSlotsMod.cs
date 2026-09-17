@@ -177,6 +177,7 @@ namespace WcpCustomSlots
         private Button _closeButton;
         private Button _refreshButton;
         // 路线 B：原生行内嵌 —— 克隆原生 bookNameBar 当行，不再自绘行外观。
+        private RectTransform _panelRect;        // 覆盖层面板（复用路径对位用）
         private GameObject _nativeRowTemplate;   // 场景里现成的 bookNameBar（隐藏的考博行优先）
         private Sprite _nativeChosenSprite;      // 选中态 sprite（XQ56_button_list_long_choose）
         private readonly System.Collections.Generic.List<GameObject> _hiddenNativeBars
@@ -295,6 +296,7 @@ namespace WcpCustomSlots
             {
                 _overlay.SetActive(true);
                 Log.LogInfo("CustomSlots: Show → 复用已有覆盖层（20 行）");
+                EnsureNativePresentation();
                 RebuildRows();
                 return;
             }
@@ -328,10 +330,7 @@ namespace WcpCustomSlots
             panel.sizeDelta = new Vector2(760f, 660f);
             panel.anchoredPosition = Vector2.zero;
 
-            // 路线 B：把面板精确对位到原生 bookNameBar 列表区域上（不悬浮居中）。
-            // 拿原生行(1)与最底行(5/4)的世界坐标算区域中心与尺寸，换算到本覆盖层
-            // 画布的缩放（两种 Canvas 参考分辨率一致，比率≈1，但按实测值换算保险）。
-            AlignToNativeBookList(panel, overlayCanvas);
+            _panelRect = panel;   // 对位放 EnsureNativePresentation（复用路径也要跑）
 
             Image panelImage = _overlay.AddComponent<Image>();
             panelImage.color = new Color(0.035f, 0.05f, 0.08f, 0.97f);
@@ -394,15 +393,6 @@ namespace WcpCustomSlots
             fitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
             fitter.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
             scroll.content = _content;
-            // 路线 B：原生行距（bar1 y=-331.19 → bar2 y=-412.76 ⇒ 步进 81.57，行高 25）。
-            if (EnsureRowTemplate())
-            {
-                layout.spacing = 56.5f;                    // 81.57 - 25
-                layout.childControlWidth = false;          // 行宽自带 431.61
-                layout.childControlHeight = false;
-                layout.childForceExpandWidth = false;
-                layout.childForceExpandHeight = false;
-            }
 
             // 路线 A：补一个**克隆原生**的竖向滚动条 —— 原生选择词汇书页是横向页签
             // （Scroll View h=True），竖向滚动区只有背包/手机聊天里有，所以这里不能
@@ -412,9 +402,30 @@ namespace WcpCustomSlots
             ApplyNativeLook();
 
             EnsureInputField(_overlay.transform);
-            // 路线 B：本 mod 的 20 条克隆行接管显示，原生 5 条临时收起（Hide 恢复）。
-            HideNativeBars();
+            EnsureNativePresentation();
             RebuildRows();
+        }
+
+        // ── 路线 B 呈现配置（幂等，每次 Show 都执行）─────────────────────────
+        // 实机教训（截图 6c6ddc）：行距/对位/隐藏原生行只在"首次创建"分支跑过，
+        // 覆盖层一旦复用就永远是老几何（行距 6 → 挤成 31 单位步进；面板居中 →
+        // 整体偏移 173px）。呈现是"状态"不是"创建参数"，必须每次进页重新保证。
+        private void EnsureNativePresentation()
+        {
+            if (!EnsureRowTemplate()) return;   // 模板没有 → 老自绘呈现，无原生度量可配
+            // 原生行距：bar1 y=-331.19 → bar2 y=-412.76 ⇒ 步进 81.57，行高 25。
+            VerticalLayoutGroup layout = _content != null ? _content.GetComponent<VerticalLayoutGroup>() : null;
+            if (layout != null)
+            {
+                layout.spacing = 56.5f;                    // 81.57 - 25
+                layout.childControlWidth = false;          // 行宽/高交给克隆体自带 431.61x25
+                layout.childControlHeight = false;
+                layout.childForceExpandWidth = false;
+                layout.childForceExpandHeight = false;
+            }
+            if (_panelRect != null)
+                AlignToNativeBookList(_panelRect, _overlay.GetComponent<Canvas>());
+            HideNativeBars();   // 克隆行接管期间原生行收起（Hide 已恢复过）
         }
 
         // ── 路线 A 实现（P1-15）─────────────────────────────────────────────
@@ -1308,22 +1319,15 @@ namespace WcpCustomSlots
                 // 左文本 = 书名行，右文本 = 词数/空槽说明；可管理行右侧放 改名/移除。
                 string label = RowLabel(record, i + 1);
                 WriteChildText(row.transform, LeftTextPrefixes, label, false);
+                WriteChildText(row.transform, RightTextPrefixes, RowRightLabel(record), true);
                 if (hasActions)
                 {
-                    WriteChildText(row.transform, RightTextPrefixes, "", true);
                     CreateActionButton(row.transform, "改名", new Vector2(-108f, 1f),
                         new Vector2(48f, 20f), new Color(1f, 1f, 1f, 0.35f),
                         new UnityAction(delegate { BeginRename(captured); }), false);
                     CreateActionButton(row.transform, "移除", new Vector2(-52f, 1f),
                         new Vector2(48f, 20f), new Color(1f, 1f, 1f, 0.35f),
                         new UnityAction(delegate { ClearSlot(captured); }), false);
-                }
-                else
-                {
-                    string right = SlotRules.HasPlayableWords(record)
-                        ? record.words.Length + " 词"
-                        : "（空）";
-                    WriteChildText(row.transform, RightTextPrefixes, right, true);
                 }
             }
             RenderRenameBar();
@@ -1351,22 +1355,29 @@ namespace WcpCustomSlots
             panel.position = center + new Vector3(9f * ourScale, -4f * ourScale, 0f);
         }
 
+        // 原生左栏宽 247.85、fontSize 11、框高仅 18px——换行就被裁（实机截图 6c6ddc：
+        // 长标签只剩"条版）"尾巴）。标签必须是单行短格式；词数/来源放右栏。
         private string RowLabel(SlotRecord record, int number)
         {
             if (!SlotRules.HasPlayableWords(record))
-                return "槽位 " + number + "    （空）";
-            string owner = record.managed ? "mod" : "外部词书";
+                return number + ". （空）";
             string name = string.IsNullOrEmpty(record.name) ? record.id : record.name;
             if (SlotRules.IsNativeMirror(record))
             {
-                // 原生镜像行：落盘的 SelfBookNameN 可能为空（游戏里"猫条版"是 BookNameMod 的
-                // 显示层伪装，不落盘），此时回退到游戏自己的规范名，避免显示成 "native-1"。
-                string canonical = NativeCanonical(record.nativeSlot);
-                name = string.IsNullOrEmpty(record.name)
-                    ? canonical
-                    : canonical + "（" + record.name + "）";
+                // 原生镜像行：落盘 SelfBookNameN 可能为空（"猫条版"是显示层伪装不落盘），
+                // 回退游戏规范名，避免显示成 "native-1"。
+                if (string.IsNullOrEmpty(record.name)) name = NativeCanonical(record.nativeSlot);
             }
-            return "槽位 " + number + "    " + name + "    " + record.words.Length + " 词    [" + owner + "]";
+            if (name != null && name.Length > 16) name = name.Substring(0, 16);   // 保守截断防换行
+            return number + ". " + name;
+        }
+
+        // 右栏短文本（原生右栏 188.91 宽）：词数或来源，不塞进左栏。
+        private string RowRightLabel(SlotRecord record)
+        {
+            if (!SlotRules.HasPlayableWords(record)) return "";
+            if (SlotRules.IsNativeMirror(record)) return "外部词书";
+            return record.words.Length + " 词";
         }
 
         private static string NativeCanonical(int nativeSlot)
