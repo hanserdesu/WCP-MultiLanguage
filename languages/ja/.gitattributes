@@ -1,2 +1,6 @@
 wcp_wordbooks/installer/*.cmd text eol=crlf
 wcp_wordbooks/installer/*.ps1 text eol=crlf
+packs/**/*.json text eol=lf
+packs/**/*.tsv text eol=lf
+wcp_wordbooks/output/**/*.tsv text eol=lf
+wcp_wordbooks/output/**/*.json text eol=lf

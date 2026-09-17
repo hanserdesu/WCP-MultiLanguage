@@ -1,2 +1,6 @@
 # cmd.exe 需要 CRLF；显式声明，保证任何克隆环境下双击入口都能工作
 *.cmd text eol=crlf
+packs/**/*.json text eol=lf
+packs/**/*.tsv text eol=lf
+languages/**/*.json text eol=lf
+languages/**/*.tsv text eol=lf

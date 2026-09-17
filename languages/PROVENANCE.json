@@ -1,6 +1,6 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-17T13:32:08+08:00",
+  "integrated_at": "2026-09-17T13:36:24+08:00",
   "languages": {
     "ar": {
       "absent_in_worktree": [],
@@ -14,16 +14,16 @@
       "removed_in_worktree": [],
       "source_branch": "main",
       "source_dir": "D:\\ATooManyLanguage\\Arabic",
-      "source_head": "8868135f26b70355e67b62cd2de2fc789bbf1b7d",
-      "source_head_date": "2026-09-17 12:50:39 +0800",
-      "source_head_subject": "fix(ar): 深度收敛阿拉伯语例句嵌套括号质量",
+      "source_head": "e46348940c125d584d9ecfe4a1a9925c28b165bc",
+      "source_head_date": "2026-09-17 13:33:50 +0800",
+      "source_head_subject": "ar: 载荷清单补 files 哈希段 + .gitattributes 锁定 EOL",
       "source_origin_head": "",
       "source_repo": "https://github.com/hanserdesu/WCP-Arabic-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 2,
-        "tracked": 60,
-        "untracked": 1
+        "modified": 1,
+        "tracked": 62,
+        "untracked": 0
       }
     },
     "de": {
@@ -38,15 +38,15 @@
       "removed_in_worktree": [],
       "source_branch": "main",
       "source_dir": "D:\\ATooManyLanguage\\German",
-      "source_head": "2f201bd3eb59550ae6566fa234fa1e8df1a47ac7",
-      "source_head_date": "2026-09-17 12:50:36 +0800",
-      "source_head_subject": "fix(de): 深度收敛释义与例句质量 (修复156词条释义移位与363句嵌套括号)",
+      "source_head": "1395158f8414b6d707f68656a5ebb7fbb678cc0d",
+      "source_head_date": "2026-09-17 13:33:49 +0800",
+      "source_head_subject": "de: 载荷/包清单哈希刷新 + .gitattributes 锁定 EOL（内容零变化）",
       "source_origin_head": "",
       "source_repo": "https://github.com/hanserdesu/WCP-German-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 3,
-        "tracked": 299,
+        "modified": 0,
+        "tracked": 302,
         "untracked": 0
       }
     },
@@ -86,22 +86,22 @@
       "removed_in_worktree": [],
       "source_branch": "main",
       "source_dir": "D:\\ATooManyLanguage\\French",
-      "source_head": "9b0363a77db206041ee8344e5555bf5427cddc26",
-      "source_head_date": "2026-09-16 19:42:14 +0800",
-      "source_head_subject": "refactor(plugins): 收敛 legacy 音频回退为配置开关（默认关）",
+      "source_head": "d5b719cefce91eaba42c336d46e5b34fbee75395",
+      "source_head_date": "2026-09-17 13:33:49 +0800",
+      "source_head_subject": "fr: .gitattributes 锁定 EOL（内容零变化）",
       "source_origin_head": "dd8d91d8a3a8da4922b2df180290770a72ace762",
       "source_repo": "https://github.com/hanserdesu/WCP-French-Wordbook.git",
       "states": {
         "added": 0,
         "modified": 1,
-        "tracked": 335,
-        "untracked": 1
+        "tracked": 336,
+        "untracked": 0
       }
     },
     "ja": {
       "absent_in_worktree": [],
-      "bytes": 80272242,
-      "content_digest": "sha256:c74c56ec1867e020fb6eaae3d077f5c3583fe8c4e42d9c954ac74585f4770c64",
+      "bytes": 80272382,
+      "content_digest": "sha256:96a17a1ba0d0a2c720e7974ba1bd97e58eec3377c39833538c46301de48eb168",
       "excluded": {
         "build-archive": 31,
         "installer-package": 63,
@@ -127,16 +127,16 @@
       "removed_in_worktree": [],
       "source_branch": "master",
       "source_dir": "D:\\ATooManyLanguage\\Japanese",
-      "source_head": "bb52e8e9b4621d70980ae9930f85c20bbceadcd2",
-      "source_head_date": "2026-09-17 12:50:40 +0800",
-      "source_head_subject": "fix(ja): 净化例句嵌套括号消除LastIndexOf歧义恢复音频定位",
+      "source_head": "30635a4c76bef39dcc39cf0770c8ed36bfa45a35",
+      "source_head_date": "2026-09-17 13:33:56 +0800",
+      "source_head_subject": "ja: build_pack 以 LF 写 db/sentences.json；重算包清单与 jp_sentences 载荷哈希；锁定 EOL 契约",
       "source_origin_head": "a246ac16a96aa79bb0a22330e1e996175a882f93",
       "source_repo": "https://github.com/hanserdesu/japanese.git",
       "states": {
         "added": 0,
-        "modified": 150,
-        "tracked": 706,
-        "untracked": 10
+        "modified": 146,
+        "tracked": 711,
+        "untracked": 9
       }
     },
     "ko": {
@@ -151,16 +151,16 @@
       "removed_in_worktree": [],
       "source_branch": "main",
       "source_dir": "D:\\ATooManyLanguage\\korean",
-      "source_head": "e980f926efae0bf11d6584a404b667aa8c84dd29",
-      "source_head_date": "2026-09-17 12:50:37 +0800",
-      "source_head_subject": "fix(ko): 深度收敛韩语释义与例句质量 (修复19个核心释义缺陷与例句嵌套括号)",
+      "source_head": "549be43af6d902b8f0ea2fb86bee703296ec7ce9",
+      "source_head_date": "2026-09-17 13:33:50 +0800",
+      "source_head_subject": "ko: 导出器按 LF 写盘、载荷清单补 files 哈希段 + .gitattributes",
       "source_origin_head": "",
       "source_repo": "https://github.com/hanserdesu/WCP-Korean-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 6,
-        "tracked": 31,
-        "untracked": 1
+        "modified": 1,
+        "tracked": 37,
+        "untracked": 0
       }
     },
     "pt": {
@@ -199,16 +199,16 @@
       "removed_in_worktree": [],
       "source_branch": "main",
       "source_dir": "D:\\ATooManyLanguage\\Russian",
-      "source_head": "18158041882274112c5f2b4ee8dce81de3a1a52f",
-      "source_head_date": "2026-09-16 19:42:15 +0800",
-      "source_head_subject": "refactor(plugins): 收敛 legacy 音频回退为配置开关（默认关）",
+      "source_head": "93d4954e5105c3a17711d7b00f243d8a3e251ee3",
+      "source_head_date": "2026-09-17 13:33:50 +0800",
+      "source_head_subject": "ru: 导出器 LF + files 哈希段，包/载荷清单刷新，.gitattributes",
       "source_origin_head": "",
       "source_repo": "https://github.com/hanserdesu/WCP-Russian-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 6,
-        "tracked": 328,
-        "untracked": 1
+        "modified": 3,
+        "tracked": 332,
+        "untracked": 0
       }
     },
     "yue": {
@@ -223,15 +223,15 @@
       "removed_in_worktree": [],
       "source_branch": "main",
       "source_dir": "D:\\ATooManyLanguage\\Contonese",
-      "source_head": "2d76b2486c842fc8c9b3aa5248ff8a20390bef05",
-      "source_head_date": "2026-09-16 19:42:15 +0800",
-      "source_head_subject": "refactor(plugins): 收敛 legacy 音频回退为配置开关（默认关）",
+      "source_head": "5021726a5606d7fb82d613eaf17324aab23cd2b1",
+      "source_head_date": "2026-09-17 13:33:49 +0800",
+      "source_head_subject": "yue: 载荷清单哈希刷新 + .gitattributes 锁定 EOL",
       "source_origin_head": "",
       "source_repo": "https://github.com/hanserdesu/WCP-Cantonese-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 2,
-        "tracked": 63,
+        "modified": 0,
+        "tracked": 65,
         "untracked": 0
       }
     }
