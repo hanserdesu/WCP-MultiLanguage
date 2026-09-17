@@ -1,6 +1,6 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-17T14:06:51+08:00",
+  "integrated_at": "2026-09-17T15:10:46+08:00",
   "languages": {
     "ar": {
       "absent_in_worktree": [],
@@ -28,8 +28,8 @@
     },
     "de": {
       "absent_in_worktree": [],
-      "bytes": 32515380,
-      "content_digest": "sha256:a9bd0ed940d5af9536dca6cda5567cd629ce48739ef736c20cc1be882947e17a",
+      "bytes": 32515596,
+      "content_digest": "sha256:dcaab1f718419b1269d4a84bfea22a6073e91a2809b23af983f72514e02d3ffc",
       "excluded": {},
       "excluded_bytes": 0,
       "excluded_samples": [],
@@ -45,8 +45,8 @@
       "source_repo": "https://github.com/hanserdesu/WCP-German-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 0,
-        "tracked": 302,
+        "modified": 6,
+        "tracked": 296,
         "untracked": 0
       }
     },
