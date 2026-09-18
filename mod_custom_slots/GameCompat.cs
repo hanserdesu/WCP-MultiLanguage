@@ -339,6 +339,23 @@ namespace WcpCustomSlots
             return false;
         }
 
+        internal static bool SetTextColor(object textComponent, Color color)
+        {
+            if (textComponent == null) return false;
+            try
+            {
+                PropertyInfo p = textComponent.GetType().GetProperty("color",
+                    BindingFlags.Public | BindingFlags.Instance);
+                if (p != null && p.CanWrite)
+                {
+                    p.SetValue(textComponent, color, null);
+                    return true;
+                }
+            }
+            catch (Exception) { }
+            return false;
+        }
+
         // ── 关键：用"页面状态"判定当前是不是自定义词书页 ──
         //
         // 判据只认「自定义词书」：2026-09-17 实机信号（wcp_diag\WcpSlotsSignals.txt）证明
@@ -658,7 +675,20 @@ namespace WcpCustomSlots
             try
             {
                 if (!c.gameObject.activeInHierarchy) return false;
-                // 任一祖先 CanvasGroup 关闭/透明 → 视为不可见
+
+                // 优先检查原生选书 UI 画布 CanvasSetting1
+                GameObject cs1 = GameObject.Find("AllCanvas/SettingPart/CanvasSetting1");
+                if (cs1 != null)
+                {
+                    if (!cs1.activeInHierarchy) return false;
+                    CanvasGroup cgCs1 = cs1.GetComponent<CanvasGroup>();
+                    if (cgCs1 != null && (cgCs1.alpha <= 0.01f || !cgCs1.interactable)) return false;
+                    Canvas canvasCs1 = cs1.GetComponent<Canvas>();
+                    if (canvasCs1 != null && !canvasCs1.isActiveAndEnabled) return false;
+                    return true;
+                }
+
+                // 兜底：任一祖先 CanvasGroup 关闭/透明 → 视为不可见
                 Transform t = c.transform;
                 int guard = 0;
                 while (t != null && guard++ < 24)

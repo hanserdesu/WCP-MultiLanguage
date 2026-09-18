@@ -173,8 +173,7 @@ namespace WcpCustomSlots
         private Scrollbar _vScrollbar;        // 顶部往下的竖向滚动条
         private Image _panelBg;               // 自绘面板底（遮罩防穿透）
         private static bool _debugSignalsEnabled = false; // 生产关闭高频IO
-        private Component _selfBookSettingManager; // 缓存管理组件
-        private Text _titleText;
+                private Text _titleText;
         private Text _hintText;
         private Button _closeButton;
         private Button _refreshButton;
@@ -304,10 +303,12 @@ namespace WcpCustomSlots
                 RebuildRows();
                 return;
             }
-            Canvas canvas = null;
-            Component chooserComponent = _bookChooser as Component;
-            if (chooserComponent != null) canvas = chooserComponent.GetComponentInParent<Canvas>();
-            if (canvas == null) canvas = FindCanvas();
+            Canvas canvas = FindCanvas();
+            if (canvas == null)
+            {
+                Component chooserComponent = _bookChooser as Component;
+                if (chooserComponent != null) canvas = chooserComponent.GetComponentInParent<Canvas>();
+            }
             if (canvas == null)
             {
                 Log.LogWarning("CustomSlots: 找不到活动 Canvas，暂不显示 20 槽位页面");
@@ -360,9 +361,7 @@ namespace WcpCustomSlots
             _closeButton = close;
             _refreshButton = CreateActionButton(_overlay.transform, "刷新", new Vector2(-112f, -18f),
                 new Vector2(56f, 36f), new Color(0.16f, 0.30f, 0.38f),
-                new UnityAction(RefreshFromDisk), true);
-
-            GameObject viewportObject = new GameObject("Viewport");
+                new UnityAction(RefreshFromDisk), true);GameObject viewportObject = new GameObject("Viewport");
             viewportObject.transform.SetParent(_overlay.transform, false);
             RectTransform viewport = viewportObject.AddComponent<RectTransform>();
             viewport.anchorMin = new Vector2(0f, 0f);
@@ -692,32 +691,9 @@ namespace WcpCustomSlots
                         }
                     }
                 }
-
-                if (_selfBookSettingManager == null)
-                {
-                    GameObject settingMgr = GameObject.Find("Manager/BookChooseManager");
-                    if (settingMgr != null)
-                    {
-                        _selfBookSettingManager = settingMgr.GetComponent("SelfBookButtonSettingManager");
-                    }
-                }
-                if (_selfBookSettingManager != null)
-                {
-                    System.Reflection.FieldInfo btnFi = _selfBookSettingManager.GetType().GetField("ThisButton",
-                        System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-                    if (btnFi != null)
-                    {
-                        GameObject thisBtn = btnFi.GetValue(_selfBookSettingManager) as GameObject;
-                        if (thisBtn != null && thisBtn.activeSelf)
-                        {
-                            thisBtn.SetActive(false);
-                        }
-                    }
-                }
             }
             catch (Exception) { }
 
-            // 手动入口兜底：不依赖游戏方法钩子。F8 打开/关闭 20 槽面板。
             if (Input.GetKeyDown(KeyCode.F8))
             {
                 if (_overlay != null && _overlay.activeSelf)
@@ -1239,17 +1215,31 @@ namespace WcpCustomSlots
         // ── 路线 B：克隆原生 bookNameBar 行 ─────────────────────────────────
         private bool EnsureRowTemplate()
         {
+            if (_nativeChosenSprite == null && _bookChooser != null)
+            {
+                try
+                {
+                    System.Reflection.FieldInfo fSprite = _bookChooser.GetType().GetField("Son_spriteChosen",
+                        System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                    if (fSprite != null)
+                    {
+                        _nativeChosenSprite = fSprite.GetValue(_bookChooser) as Sprite;
+                        if (_nativeChosenSprite != null)
+                            Log.LogInfo("CustomSlots: 从 WordChooseButtonS10.Son_spriteChosen 获取到原生选中底图: " + _nativeChosenSprite.name);
+                    }
+                }
+                catch (Exception) { }
+            }
+
             if (_nativeRowTemplate != null) return true;
             List<Transform> bars = NativeBars();
             if (bars.Count == 0) return false;
             Transform template = null;
-            // 选中态 sprite：当前不可点（interactable=False）的那条就是选中行；
-            // 模板优先取隐藏行（游戏自己加行用的原型），没有隐藏行才用第一行。
             for (int i = 0; i < bars.Count; i++)
             {
                 Button b = bars[i].GetComponent<Button>();
                 Image img = bars[i].GetComponent<Image>();
-                if (b != null && img != null && !b.interactable && img.sprite != null)
+                if (_nativeChosenSprite == null && b != null && img != null && !b.interactable && img.sprite != null)
                     _nativeChosenSprite = img.sprite;
                 if (template == null && !bars[i].gameObject.activeSelf) template = bars[i];
             }
@@ -1257,9 +1247,7 @@ namespace WcpCustomSlots
             _nativeRowTemplate = template.gameObject;
             if (_nativeChosenSprite == null) Log.LogWarning("CustomSlots: 路线B 未取到选中态 sprite，选中行用普通底图");
             return true;
-        }
-
-        private static readonly string[] NativeListRootCandidates =
+        }private static readonly string[] NativeListRootCandidates =
         {
             "AllCanvas/SettingPart/CanvasSetting1",
             "AllCanvas/SettingPart/CanvasSetting2",
@@ -1341,11 +1329,6 @@ namespace WcpCustomSlots
             try
             {
                 // 彻底保障官方分类词库 100% 显现（零消失）：
-                // 游戏原生代码 WordChooseButtonS10.OnBookButtonClicked 在切换任何官方分类（初中、高中、大学四六级等）时，
-                // 只会根据分类包含的书本数量设置 BookButtonSon[1..4] 的显隐，
-                // 但原生代码完全没有书写激活 BookButtonSon[0] 的指令（出厂默认 Son[0] 永不关闭）！
-                // Mod 在自定义页为了无缝接管曾隐藏原生行，因此离开自定义页或关闭覆层时，
-                // 必须无条件且精准唤醒 BookButtonSon[0]，否则高中词汇等单本官方分类将全部变成白板！
                 if (_bookChooser != null)
                 {
                     System.Reflection.FieldInfo fi = _bookChooser.GetType().GetField("BookButtonSon",
@@ -1370,21 +1353,6 @@ namespace WcpCustomSlots
                     for (int i = 0; i < _hiddenNativeBars.Count; i++)
                         if (_hiddenNativeBars[i] != null) _hiddenNativeBars[i].SetActive(true);
                 }
-
-                // 唤醒原生“修改词库”按钮
-                if (_selfBookSettingManager != null)
-                {
-                    System.Reflection.FieldInfo btnFi = _selfBookSettingManager.GetType().GetField("ThisButton",
-                        System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-                    if (btnFi != null)
-                    {
-                        GameObject thisBtn = btnFi.GetValue(_selfBookSettingManager) as GameObject;
-                        if (thisBtn != null && !thisBtn.activeSelf)
-                        {
-                            thisBtn.SetActive(true);
-                        }
-                    }
-                }
             }
             catch (Exception e) { Log.LogWarning("CustomSlots: 恢复原生状态异常: " + e.Message); }
             _hiddenNativeBars.Clear();
@@ -1397,19 +1365,25 @@ namespace WcpCustomSlots
 
         // 找子节点里的 TMP 文本组件并写值（反射，无编译期依赖）。
         private static bool WriteChildText(Transform root, string[] namePrefixes, string value,
-                                           bool fallbackLast)
+                                           bool fallbackLast, Color textColor)
         {
             for (int p = 0; p < namePrefixes.Length; p++)
-                if (WriteChildTextByPrefix(root, namePrefixes[p], value)) return true;
+                if (WriteChildTextByPrefix(root, namePrefixes[p], value, textColor)) return true;
             int idx = fallbackLast ? root.childCount - 1 : 0;
             if (idx < 0 || idx >= root.childCount) return false;
             Component[] comps = root.GetChild(idx).GetComponents<Component>();
             for (int j = 0; j < comps.Length; j++)
-                if (comps[j] != null && GameCompat.WriteText(comps[j], value)) return true;
-            return false;
+            {
+                if (comps[j] != null)
+                {
+                    GameCompat.WriteText(comps[j], value);
+                    GameCompat.SetTextColor(comps[j], textColor);
+                }
+            }
+            return true;
         }
 
-        private static bool WriteChildTextByPrefix(Transform root, string namePrefix, string value)
+        private static bool WriteChildTextByPrefix(Transform root, string namePrefix, string value, Color textColor)
         {
             for (int i = 0; i < root.childCount; i++)
             {
@@ -1417,10 +1391,20 @@ namespace WcpCustomSlots
                 if (!childT.name.StartsWith(namePrefix, StringComparison.Ordinal)) continue;
                 Component[] comps = childT.GetComponents<Component>();
                 for (int j = 0; j < comps.Length; j++)
-                    if (comps[j] != null && GameCompat.WriteText(comps[j], value)) return true;
+                {
+                    if (comps[j] != null)
+                    {
+                        GameCompat.WriteText(comps[j], value);
+                        GameCompat.SetTextColor(comps[j], textColor);
+                    }
+                }
+                return true;
             }
             return false;
         }
+
+        private static readonly Color ChosenTextColor = new Color(0.031f, 0.043f, 0.090f, 1f);
+        private static readonly Color NormalTextColor = Color.white;
 
         private void RebuildRowsNative()
         {
@@ -1450,12 +1434,12 @@ namespace WcpCustomSlots
                 le.minHeight = 25f;
                 le.preferredHeight = 25f;
                 le.flexibleHeight = 0f;
-                // 克隆体的 Button 携带原型上序列化的 onClick（会调原生逻辑用错索引），
-                // 整个换新 Button 掐断，再挂我们自己的选择回调。
+                
                 Button oldButton = row.GetComponent<Button>();
                 Selectable.Transition origTransition = Selectable.Transition.SpriteSwap;
                 SpriteState origSpriteState = new SpriteState();
                 ColorBlock origColors = ColorBlock.defaultColorBlock;
+                Sprite normalSprite = null;
                 if (oldButton != null)
                 {
                     origTransition = oldButton.transition;
@@ -1464,32 +1448,43 @@ namespace WcpCustomSlots
                     UnityEngine.Object.DestroyImmediate(oldButton);
                 }
                 Image img = row.GetComponent<Image>();
-                if (img != null && isSelected && _nativeChosenSprite != null) img.sprite = _nativeChosenSprite;
+                if (img != null)
+                {
+                    normalSprite = img.sprite;
+                    if (isSelected && _nativeChosenSprite != null)
+                        img.sprite = _nativeChosenSprite;
+                }
                 Button btn = row.AddComponent<Button>();
                 if (img != null) btn.targetGraphic = img;
                 btn.transition = origTransition;
                 btn.spriteState = origSpriteState;
                 btn.colors = origColors;
-                btn.onClick.AddListener(new UnityAction(delegate { Select(captured); }));
+                if (isSelected)
+                {
+                    btn.interactable = false; // 原生规范：选中行不可重复点击，呈静止选中高亮态
+                }
+                else
+                {
+                    btn.interactable = true;
+                    btn.onClick.AddListener(new UnityAction(delegate { Select(captured); }));
+                }
 
-                // 统一全行单体交互：完全遵循官方原生交互规范，整行作为可点击可高亮单元
-                // 彻底拔除行内多余的小方框遮挡，文字完全居中铺展
+                Color textColor = isSelected ? ChosenTextColor : NormalTextColor;
                 string label = RowLabel(record, i + 1);
-                WriteChildText(row.transform, LeftTextPrefixes, label, false);
-                WriteChildText(row.transform, RightTextPrefixes, RowRightLabel(record), true);
+                WriteChildText(row.transform, LeftTextPrefixes, label, false, textColor);
+                WriteChildText(row.transform, RightTextPrefixes, RowRightLabel(record), true, textColor);
             }
             RenderRenameBar();
             Canvas.ForceUpdateCanvases();
-        }
-
-        // 把面板对位到原生行列表区域：用原生行(1)与最底行的世界角算中心/尺寸，
-        // 按两块画布的 lossyScale 比率换算成本覆盖层坐标。
-        private void AlignToNativeBookList(RectTransform panel, Canvas overlayCanvas)
+        }private void AlignToNativeBookList(RectTransform panel, Canvas overlayCanvas)
         {
             RectTransform topRT = null, bottomRT = null;
             List<Transform> bars = NativeBars();
             if (bars.Count > 0) topRT = bars[0].GetComponent<RectTransform>();
-            if (bars.Count > 1) bottomRT = bars[bars.Count - 1].GetComponent<RectTransform>();
+            // 原生自定义页仅有 4 个可见行，第 5 行位置留给【修改词库】按钮
+            // 视口边界对齐原生前 4 行（bars[0]..bars[3]），绝不侵占修改词库按钮
+            int bottomIndex = Mathf.Min(3, bars.Count - 1);
+            if (bars.Count > 1 && bottomIndex >= 0) bottomRT = bars[bottomIndex].GetComponent<RectTransform>();
             if (topRT == null || bottomRT == null) return;
             Vector3[] a = new Vector3[4]; topRT.GetWorldCorners(a);
             Vector3[] b = new Vector3[4]; bottomRT.GetWorldCorners(b);
@@ -1504,8 +1499,6 @@ namespace WcpCustomSlots
             panel.position = center;
         }
 
-        // 原生左栏宽 247.85、fontSize 11、框高仅 18px——换行就被裁（实机截图 6c6ddc：
-        // 长标签只剩"条版）"尾巴）。标签必须是单行短格式；词数/来源放右栏。
         private string RowLabel(SlotRecord record, int number)
         {
             if (!SlotRules.HasPlayableWords(record))
@@ -2005,6 +1998,12 @@ namespace WcpCustomSlots
 
         private static Canvas FindCanvas()
         {
+            GameObject cs1 = GameObject.Find("AllCanvas/SettingPart/CanvasSetting1");
+            if (cs1 != null)
+            {
+                Canvas c = cs1.GetComponent<Canvas>();
+                if (c != null && c.isActiveAndEnabled) return c;
+            }
             GameObject setting = GameObject.Find("AllCanvas/SettingPart");
             if (setting != null)
             {
@@ -2023,7 +2022,7 @@ namespace WcpCustomSlots
                 Canvas cv = canvases[i];
                 if (cv != null && cv.isActiveAndEnabled && cv.gameObject.scene.IsValid())
                 {
-                    if (cv.name != "SceneLoaderCanvas") return cv;
+                    if (cv.name != "SceneLoaderCanvas" && cv.name != "CanvasWordCount") return cv;
                 }
             }
             for (int i = 0; i < canvases.Length; i++)
@@ -2032,14 +2031,6 @@ namespace WcpCustomSlots
             return null;
         }
 
-        // Unity 2022.2+ 起内建字体从 Arial.ttf 更名为 LegacyRuntime.ttf：
-        // 旧名字在部分运行时会抛 ArgumentException 或返回 null，导致整个覆盖层文字不可见。
-        // 逐级回退，最后退到系统字库，保证中文标签一定能画出来。
-        // 原生字体：先用场景里"真原生"的传统 Text 的 font，其次用 TMP 字体资产
-        // 底层的 sourceFontFile（游戏用 SourceHanSerifCN-Heavy SDF），最后才回退内置字体。
-        // 我们用的是传统 UnityEngine.UI.Text，所以不能直接挂 TMP_FontAsset，
-        // 但 TMP_FontAsset.sourceFontFile 就是一个 Font —— 挂上去字面与原生一致。
-        // TMP 类型用反射取，避免给 mod 增加编译期程序集依赖。
         private static Font _nativeFont;
         private static bool _nativeFontProbed;
 
