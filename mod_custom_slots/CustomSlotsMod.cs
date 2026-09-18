@@ -1650,9 +1650,16 @@ namespace WcpCustomSlots
                 : record.name;
             string listKey = GameCompat.ListKeyFor(nativeSlot);
             string nameKey = GameCompat.NameKeyFor(nativeSlot);
+            // SelfBookListN / wordDictionaryN 属于 MyBook.es3（原生 AddNewElements 与
+            // setTemBook 都从 MyBook.es3 读它们）。
             Es3SaveTo(listKey, words, MyBookPath);
-            Es3SaveTo(nameKey, name, MyBookPath);
             SetStatic(listKey, words);
+            // SelfBookNameN 则跟随原生 SaveSourceType.setBookName 的写法：那处
+            // ES3.Save 是两参、不带 path → 落在默认档。写进 MyBook.es3 会让原生
+            // 读名的路径读不到（它虽是带 path 读 MyBook.es3，但历史上该键不存在，
+            // 原生自己就是这么不一致的）。两处都写，兼容两种读法。
+            Es3SaveTo(nameKey, name, MyBookPath);
+            Es3Save(nameKey, name);
             SetStatic(nameKey, name);
 
             // 物理页框的第二半：游戏 calculateUnlearned / 词数统计读的是
@@ -1674,6 +1681,7 @@ namespace WcpCustomSlots
             // ChosenBook_Para。物化后立刻按新内容重算这三处，否则显示层会停留在
             // 上一次翻译结果（这就是「存档对了、界面还是日语词库」的直接原因）。
             PublishSelectionToDisplay(record, nativeSlot, canonical, words);
+            VerifyMaterialized(nativeSlot, canonical, words);
         }
 
         // 把当前选择翻译到所有显示寄存器：原生槽位标签、左侧「选择词汇书」、
@@ -1773,6 +1781,36 @@ namespace WcpCustomSlots
             catch (Exception e)
             {
                 Log.LogWarning("CustomSlots: 写入 " + key + " 失败: " + e.Message);
+            }
+        }
+
+        // 物化后的落盘自检：这是「选对了书但界面不变」这类问题的唯一权威判据。
+        // 之前 ES3 重载择优选中了不带 path 的版本，写入静默落到默认档，
+        // 表面无异常、日志无告警，只能靠「MyBook.es3 的 mtime 不动」才被发现
+        // ——代价是两轮实机。现在每次物化后强制回读一次并如实记日志：
+        // 回读内容与写入不一致时给出明确告警，下次一开日志就能定位。
+        private void VerifyMaterialized(int nativeSlot, string canonical, string[] words)
+        {
+            try
+            {
+                string listKey = GameCompat.ListKeyFor(nativeSlot);
+                string[] back = Es3Load<string[]>(listKey, MyBookPath);
+                bool listOk = back != null && SlotRules.SameWords(back, words);
+                bool diskExists = File.Exists(MyBookPath);
+                Log.LogInfo("CustomSlots: 物化自检 → 页框 " + nativeSlot +
+                    "; 落盘文件" + (diskExists ? "存在" : "缺失") +
+                    "; 回读词数=" + (back == null ? -1 : back.Length) +
+                    "（写入 " + words.Length + "）; 一致=" + (listOk ? "是" : "否") +
+                    "; ChosenBook_Para=" + canonical);
+                if (!listOk)
+                    Log.LogWarning("CustomSlots: 物化自检失败 —— " + MyBookPath +
+                        " 里的 " + listKey + " 与写入内容不一致。若该文件 mtime 未更新，" +
+                        "说明 ES3 写入没有落到指定档（重载择优问题），" +
+                        "游戏会读默认档而 BookNameMod 读 MyBook.es3，界面就会滞后一层。");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("CustomSlots: 物化自检异常: " + e.Message);
             }
         }
 

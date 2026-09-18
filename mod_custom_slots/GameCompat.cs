@@ -829,17 +829,38 @@ namespace WcpCustomSlots
         }
 
         // path 为 null 时走默认存档（等价于不带 path 的重载）。
-        // ES3 重载解析缓存（含负缓存）：Save/Load 每次落盘/读档都走这里，
-        // 不缓存就是每次全量 GetMethods 扫描。作者换 ES3 版本后重启即重解析。
+        //
+        // 重载选择必须显式优先「带 filePath」的那一支：游戏里 MyBook.es3 与
+        // SaveFile.es3 是两个不同的档，我们的槽位数据属于 MyBook.es3。旧实现
+        // 先命中两参重载就 break，把 path 参数整个丢掉，于是写入全落到默认档
+        // （实机证据：MyBook.es3 的 mtime 停在 9-16，而 SaveFile.es3 每次在动，
+        // 引擎读默认档所以「看起来选对了」，BookNameMod 读 MyBook.es3 却永远是
+        // 旧内容 → 界面显示滞后）。现在按「参数更多 = 更精确」显式择优。
         private static System.Reflection.MethodInfo _es3SaveMethod;
+        private static System.Reflection.MethodInfo _es3SaveMethodWithPath;
         private static bool _es3SaveProbed;
 
-        private static System.Reflection.MethodInfo Es3SaveMethod()
+        // 重载择优规则（纯函数，可离线单测）：从候选签名里挑出带 path 的那一支。
+        // 每个候选 = (参数个数, 第2参是 Object 还是 T, 第3参是否为 string path)。
+        // 返回 true 表示候选是「恰好 3 参的 (key, value, filePath)」——这是唯一
+        // 能安全反射调用的带 path 形态；4 参版本需要 ES3Settings 实例，凑不出。
+        internal static bool IsUsableSaveWithPath(int paramCount, bool secondIsValue,
+                                                  bool thirdIsStringPath)
         {
-            if (_es3SaveProbed) return _es3SaveMethod;
+            return paramCount == 3 && secondIsValue && thirdIsStringPath;
+        }
+
+        internal static bool IsUsableSaveWithoutPath(int paramCount, bool secondIsValue)
+        {
+            return paramCount == 2 && secondIsValue;
+        }
+
+        private static void ResolveEs3SaveMethods()
+        {
+            if (_es3SaveProbed) return;
             _es3SaveProbed = true;
             EnsureEs3();
-            if (_es3Type == null) return null;
+            if (_es3Type == null) return;
             try
             {
                 foreach (System.Reflection.MethodInfo m in _es3Type.GetMethods(
@@ -850,62 +871,89 @@ namespace WcpCustomSlots
                     if (ps.Length < 2) continue;
                     if (!ps[0].ParameterType.IsAssignableFrom(typeof(string))) continue;
                     string second = ps[1].ParameterType.Name;
-                    // 想要一个能接住 string / string[] / List<string> 的重载
-                    if (second == "Object" || second == "T")
+                    bool secondIsValue = second == "Object" || second == "T";
+                    if (!secondIsValue) continue;
+                    bool thirdIsPath = ps.Length >= 3 &&
+                        ps[2].ParameterType.IsAssignableFrom(typeof(string));
+                    if (IsUsableSaveWithPath(ps.Length, secondIsValue, thirdIsPath))
+                    {
+                        // 非泛型优先：object 值可直接吃 string[]/List<string>/Dictionary。
+                        if (_es3SaveMethodWithPath == null || !m.IsGenericMethodDefinition)
+                            _es3SaveMethodWithPath = m;
+                    }
+                    else if (IsUsableSaveWithoutPath(ps.Length, secondIsValue) &&
+                             _es3SaveMethod == null)
                     {
                         _es3SaveMethod = m;
-                        if (ps.Length == 2) break;
                     }
                 }
-                if (_es3SaveMethod == null)
+                if (_es3SaveMethodWithPath == null && _es3SaveMethod == null)
                     _es3Notes = "Save 重载未找到（游戏更新导致？写档不可用，其余不受影响）";
             }
             catch (Exception e) { _es3Notes = "Save 解析失败: " + e.Message; }
-            return _es3SaveMethod;
         }
 
         internal static void Es3Save(string key, object value, string path)
         {
             if (string.IsNullOrEmpty(key)) return;
-            System.Reflection.MethodInfo best = Es3SaveMethod();
+            ResolveEs3SaveMethods();
+            // 有 path 且解析到了带 path 的重载 → 必须用它，否则数据会写到
+            // 默认档（SaveFile.es3），与 MyBook.es3 分叉。
+            System.Reflection.MethodInfo best =
+                (!string.IsNullOrEmpty(path) && _es3SaveMethodWithPath != null)
+                    ? _es3SaveMethodWithPath
+                    : (_es3SaveMethod ?? _es3SaveMethodWithPath);
             if (best == null) return;
             try
             {
-
-                object[] args;
-                ParameterInfo[] bp = best.GetParameters();
-                if (bp.Length == 2)
-                    args = new object[] { key, value };
-                else
-                    args = new object[] { key, value, path };
+                bool usePath = !string.IsNullOrEmpty(path) &&
+                    _es3SaveMethodWithPath != null && best == _es3SaveMethodWithPath;
 
                 // 泛型方法需要显式闭合到值的类型
                 if (best.IsGenericMethodDefinition)
                 {
                     Type argType = value == null ? typeof(object) : value.GetType();
                     System.Reflection.MethodInfo closed = best.MakeGenericMethod(argType);
-                    // 形参个数可能因重载不同而不同，按闭合后的签名裁剪
                     ParameterInfo[] cp = closed.GetParameters();
-                    object[] final = cp.Length == 2 ? new object[] { key, value } : new object[] { key, value, path };
+                    object[] final = (usePath && cp.Length >= 3)
+                        ? new object[] { key, value, path }
+                        : new object[] { key, value };
                     closed.Invoke(null, final);
                 }
                 else
                 {
+                    ParameterInfo[] bp = best.GetParameters();
+                    object[] args = (usePath && bp.Length >= 3)
+                        ? new object[] { key, value, path }
+                        : new object[] { key, value };
                     best.Invoke(null, args);
                 }
             }
             catch (Exception e) { _es3Notes = "Save 失败 " + key + ": " + e.Message; }
         }
 
+        private static System.Reflection.MethodInfo _es3LoadMethodWithPath;
         private static System.Reflection.MethodInfo _es3LoadMethod;
         private static bool _es3LoadProbed;
 
-        private static System.Reflection.MethodInfo Es3LoadTemplate()
+        // 同 Save：只有恰好 (key, filePath) 这一支能在凑不出 ES3Settings 的前提下
+        // 安全调用；(key, filePath, ES3Settings) 与 (key, defaultValue) 一律不选。
+        internal static bool IsUsableLoadWithPath(int paramCount, bool secondIsStringPath)
         {
-            if (_es3LoadProbed) return _es3LoadMethod;
+            return paramCount == 2 && secondIsStringPath;
+        }
+
+        internal static bool IsUsableLoadWithoutPath(int paramCount)
+        {
+            return paramCount == 1;
+        }
+
+        private static void ResolveEs3LoadMethods()
+        {
+            if (_es3LoadProbed) return;
             _es3LoadProbed = true;
             EnsureEs3();
-            if (_es3Type == null) return null;
+            if (_es3Type == null) return;
             try
             {
                 foreach (System.Reflection.MethodInfo m in _es3Type.GetMethods(
@@ -915,27 +963,37 @@ namespace WcpCustomSlots
                     ParameterInfo[] ps = m.GetParameters();
                     if (ps.Length != 1 && ps.Length != 2) continue;
                     if (!ps[0].ParameterType.IsAssignableFrom(typeof(string))) continue;
-                    _es3LoadMethod = m;
-                    if (ps.Length == 2) break;   // 带 path 的重载优先（调用方总传 path）
+                    bool secondIsPath = ps.Length == 2 &&
+                        ps[1].ParameterType.IsAssignableFrom(typeof(string));
+                    if (IsUsableLoadWithPath(ps.Length, secondIsPath))
+                        _es3LoadMethodWithPath = m;
+                    else if (IsUsableLoadWithoutPath(ps.Length) && _es3LoadMethod == null)
+                        _es3LoadMethod = m;
                 }
-                if (_es3LoadMethod == null)
+                if (_es3LoadMethodWithPath == null && _es3LoadMethod == null)
                     _es3Notes = "Load 重载未找到（游戏更新导致？读档不可用，其余不受影响）";
             }
             catch (Exception e) { _es3Notes = "Load 解析失败: " + e.Message; }
-            return _es3LoadMethod;
         }
 
         internal static T Es3Load<T>(string key, string path)
         {
             if (string.IsNullOrEmpty(key)) return default(T);
-            System.Reflection.MethodInfo m = Es3LoadTemplate();
+            ResolveEs3LoadMethods();
+            // 同 Es3Save：指定了 path 就必须走带 path 的重载，否则会读到默认档，
+            // 得到与真实槽位文件不同的内容。
+            bool usePath = !string.IsNullOrEmpty(path) && _es3LoadMethodWithPath != null;
+            System.Reflection.MethodInfo m = usePath
+                ? _es3LoadMethodWithPath
+                : (_es3LoadMethod ?? _es3LoadMethodWithPath);
             if (m == null) return default(T);
             try
             {
                 System.Reflection.MethodInfo closed = m.MakeGenericMethod(typeof(T));
-                object result = closed.GetParameters().Length == 1
-                    ? closed.Invoke(null, new object[] { key })
-                    : closed.Invoke(null, new object[] { key, path });
+                bool passPath = usePath && closed.GetParameters().Length >= 2;
+                object result = passPath
+                    ? closed.Invoke(null, new object[] { key, path })
+                    : closed.Invoke(null, new object[] { key });
                 if (result is T) return (T)result;
             }
             catch (Exception e) { _es3Notes = "Load 失败 " + key + ": " + e.Message; }
