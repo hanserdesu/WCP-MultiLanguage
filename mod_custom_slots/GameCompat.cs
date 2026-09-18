@@ -200,6 +200,15 @@ namespace WcpCustomSlots
             return string.Format(_nameKeyFormat ?? NameKeyFormatCandidates[0], slot);
         }
 
+        // wordDictionaryN：原生每个自定义槽配一个 Dictionary<string,int>，
+        // calculateUnlearned / 词数统计读它。缺了它该槽词数会登记为 0。
+        private static readonly string[] DictionaryKeyFormatCandidates = { "wordDictionary{0}" };
+
+        internal static string DictionaryKeyFor(int slot)
+        {
+            return string.Format(DictionaryKeyFormatCandidates[0], slot);
+        }
+
         private static MethodInfo _es3KeyExistsMethod;
         private static bool _es3KeyExistsProbed;
 
@@ -269,6 +278,18 @@ namespace WcpCustomSlots
                 catch (Exception) { }
             }
             return null;
+        }
+
+        // 单名字段查找（不依赖候选数组）；供调用方在已知类型上取私有字段。
+        internal static FieldInfo FindFieldOnType(Type t, string name)
+        {
+            if (t == null || string.IsNullOrEmpty(name)) return null;
+            try
+            {
+                return t.GetField(name, BindingFlags.Public | BindingFlags.NonPublic |
+                    BindingFlags.Instance | BindingFlags.Static);
+            }
+            catch (Exception) { return null; }
         }
 
         // ── 字段读取（全部 null-safe）──

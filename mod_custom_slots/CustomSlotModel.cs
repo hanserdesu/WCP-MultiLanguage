@@ -140,6 +140,79 @@ namespace WcpCustomSlots
                    record.id.StartsWith("native-", StringComparison.Ordinal);
         }
 
+        // ── 地址翻译层（2026-09-18 收敛）────────────────────────────────────
+        //
+        // 症状（实机两轮）：20 槽里选中「俄语词库」，存档确实写对了
+        // （ChosenBook_Para=自定义词书二 / ChosenBook_List=俄语词表），但左侧
+        // 「选择词汇书」与保存确认弹窗仍显示「日语词库(猫条版)」。
+        //
+        // 根因：三层各用同一个「槽位号」当标识，语义却不一致——
+        //   ① 逻辑槽号：玩家在本 mod 的 20 行里的行号（index+1）；
+        //   ② 物理页框：游戏原生 SelfBookList1..4 的下标；
+        //   ③ 显示名：BookNameMod 按「槽号 → MyBook.es3 的 SelfBookListN」查表
+        //      得到的语言名（其 SlotProfile 对槽号做 5s 缓存）。
+        // 物化只改了物理页框的**内容**，槽号本身没变；BookNameMod 仍按槽号查它
+        // 那张「槽号 → 语言名」的表 → 显示层永远滞后一层。这就是「物理线程与
+        // 逻辑线程之间缺少映射表」的经典错位。
+        //
+        // 修法（对齐操作系统地址翻译）：显示名不再由槽号反查，而是由**页框内容
+        // 指纹**（词表首词序列 + 词数）直接判定；展示给玩家的每一处文本都用这张
+        // 映射表翻译，物理槽号从此只是「页框号」，不再当身份用。
+        public static string ContentFingerprint(string[] words)
+        {
+            if (words == null || words.Length == 0) return "";
+            // 只需稳定、可比较：词数 + 前 3 词 + 后 2 词；不做哈希以避免依赖。
+            StringBuilder sb = new StringBuilder(64);
+            sb.Append(words.Length).Append('|');
+            int head = words.Length < 3 ? words.Length : 3;
+            for (int i = 0; i < head; i++) sb.Append(words[i]).Append('\u0001');
+            sb.Append('|');
+            int tailStart = words.Length > 2 ? words.Length - 2 : 0;
+            for (int i = tailStart; i < words.Length; i++) sb.Append(words[i]).Append('\u0001');
+            return sb.ToString();
+        }
+
+        // 页框内容是否与给定快照一致（用于「这行显示什么名」的翻译判断，
+        // 不看槽号，只看内容 —— 槽号会被复用、会被别处改写）。
+        // 必须逐词比对：只比词数会把「词数相同的另一本书」误认成本行，
+        // 进而把别人的词书当成自己物化成功（离线用例已锁住这一条）。
+        public static bool ContentMatches(string[] live, SlotRecord record)
+        {
+            if (record == null || !HasPlayableWords(record)) return false;
+            if (live == null || live.Length == 0) return false;
+            return SameWords(live, record.words);
+        }
+
+        // 反查：某块页框内容属于哪个逻辑行（0 = 无主）。物理槽号不复用作身份，
+        // 因此任何「这块页框现在是谁」的判断都必须走这里，而不是比较 nativeSlot。
+        public static int OwnerOfContent(SlotState state, string[] liveWords)
+        {
+            if (state == null || liveWords == null || liveWords.Length == 0) return 0;
+            Normalize(state);
+            for (int i = 0; i < state.slots.Length; i++)
+            {
+                SlotRecord row = state.slots[i];
+                if (IsManaged(row) && ContentMatches(liveWords, row)) return i + 1;
+                if (IsNativeMirror(row) && ContentMatches(liveWords, row)) return i + 1;
+            }
+            return 0;
+        }
+
+        // 页框释放：把「某逻辑行占着这块页框」的登记撤掉（不动物化内容）。
+        // 供选中换行时使用 —— 旧实现只清别的行的 nativeSlot，漏掉了
+        // 「同一行先前占过的另一块页框」，会造成两块页框同时宣称归属。
+        public static void ReleaseFramesExcept(SlotState state, int keepRowIndex, int keepNativeSlot)
+        {
+            if (state == null) return;
+            Normalize(state);
+            for (int i = 0; i < state.slots.Length; i++)
+            {
+                if (i == keepRowIndex) continue;
+                SlotRecord row = state.slots[i];
+                if (IsManaged(row) && row.nativeSlot == keepNativeSlot) row.nativeSlot = 0;
+            }
+        }
+
         // P1-1：每次加载都把原生 4 槽的词书导入/刷新为外部镜像行（旧版只在“新建存档”
         // 分支导入一次，导致 store 文件一旦存在原生书就永远进不了 20 行）。
         // 规则：托管行物化占用的原生槽不导入（内容归托管行）；已有镜像按 id 原位更新；

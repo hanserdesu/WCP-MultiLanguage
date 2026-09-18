@@ -665,6 +665,48 @@ namespace WcpCustomSlots
             }
         }
 
+        // 原生【修改自定义词书】按钮的生存守卫。
+        //
+        // 根因（反编译 SelfBookButtonSettingManager.Update）：该按钮的显隐由它自己
+        // 每帧判定 —— 只有 SelfBookChosenImage.sprite == ChosenSprite（即「当前确实
+        // 选中了某个自定义槽」）时才 SetActive(true)，否则 SetActive(false)。
+        // 玩家在本 mod 的 20 行里点了空槽（或所选行的物化内容还没让原生识别成
+        // 「已选中」）时，这个条件不成立，原生按钮就把自己藏了 → 表现为
+        // 「点空槽位后修改自定义词书没反应」。
+        //
+        // 做法：只要我们的覆盖层在自定义页上显示，就保证该按钮 active（这是纯
+        // 显示层补正，不改它的点击行为、不改它的悬停/禁用逻辑）；离开页面即恢复
+        // 原生判定权。绝不在这里改它的 onClick 绑定 —— 原生入口要的就是原生链路。
+        private void KeepNativeModifyButtonAlive()
+        {
+            try
+            {
+                if (_overlay == null || !_overlay.activeSelf) return;
+                System.Reflection.FieldInfo fi = GameCompat.FindFieldOnType(
+                    GameCompat.FindTypeByName("SelfBookButtonSettingManager"), "ThisButton");
+                if (fi == null) return;
+                UnityEngine.Object[] managers =
+                    Resources.FindObjectsOfTypeAll(GameCompat.FindTypeByName("SelfBookButtonSettingManager"));
+                if (managers == null) return;
+                for (int i = 0; i < managers.Length; i++)
+                {
+                    Component mgr = managers[i] as Component;
+                    if (mgr == null || !mgr.gameObject.scene.IsValid()) continue;
+                    GameObject btn = fi.GetValue(mgr) as GameObject;
+                    if (btn == null) continue;
+                    if (!btn.activeSelf)
+                    {
+                        btn.SetActive(true);
+                        if (!_restoredModifyButton.Contains(btn))
+                            _restoredModifyButton.Add(btn);
+                    }
+                }
+            }
+            catch (Exception) { }
+        }
+
+        private readonly List<GameObject> _restoredModifyButton = new List<GameObject>();
+
         private void SuppressNativeElements()
         {
             try
@@ -693,6 +735,8 @@ namespace WcpCustomSlots
                 }
             }
             catch (Exception) { }
+
+            KeepNativeModifyButtonAlive();
 
             if (Input.GetKeyDown(KeyCode.F8))
             {
@@ -1545,18 +1589,16 @@ namespace WcpCustomSlots
             try
             {
                 Materialize(record, nativeSlot);
-                for (int i = 0; i < _state.slots.Length; i++)
-                {
-                    if (i != index && _state.slots[i].nativeSlot == nativeSlot &&
-                        _state.slots[i].managed)
-                        _state.slots[i].nativeSlot = 0;
-                }
+                // 页框归属唯一化：任何别的行都不再宣称占用这块页框（含本行先前
+                // 占过的另一块 —— 旧实现只清「别的行占这块」，漏了本行换框）。
+                SlotRules.ReleaseFramesExcept(_state, index, nativeSlot);
                 record.nativeSlot = nativeSlot;
                 _state.selected = index + 1;
                 SaveState();
                 RebuildRows();
-                Log.LogInfo("CustomSlots: 逻辑槽位 " + (index + 1) + " -> 原生槽位 " + nativeSlot +
-                    " (" + (record.managed ? "mod" : "external") + ")");
+                Log.LogInfo("CustomSlots: 逻辑槽位 " + (index + 1) + " -> 物理页框 " + nativeSlot +
+                    " (" + (record.managed ? "mod" : "external") + ")" +
+                    "; 指纹=" + SlotRules.ContentFingerprint(record.words));
             }
             catch (Exception e) { Log.LogError("CustomSlots: 选择槽位失败: " + e.Message); }
         }
@@ -1600,13 +1642,23 @@ namespace WcpCustomSlots
         private void Materialize(SlotRecord record, int nativeSlot)
         {
             string[] words = (string[])record.words.Clone();
-            string name = string.IsNullOrEmpty(record.name) ? record.id : record.name;
+            // 显示名：托管行用玩家命名；原生镜像行不能把 id（native-1）当名字写进去，
+            // 那会污染原生行标签（实机存档里 SelfBookName1/SelfBookName2 已变成
+            // "native-1"/"native-2"，就是这里漏判造成的）。
+            string name = string.IsNullOrEmpty(record.name)
+                ? (SlotRules.IsNativeMirror(record) ? Canonical(nativeSlot) : record.id)
+                : record.name;
             string listKey = GameCompat.ListKeyFor(nativeSlot);
             string nameKey = GameCompat.NameKeyFor(nativeSlot);
             Es3SaveTo(listKey, words, MyBookPath);
             Es3SaveTo(nameKey, name, MyBookPath);
             SetStatic(listKey, words);
             SetStatic(nameKey, name);
+
+            // 物理页框的第二半：游戏 calculateUnlearned / 词数统计读的是
+            // wordDictionaryN（Dictionary<string,int>），只写 SelfBookListN 会让
+            // 该槽词数登记为 0（实机存档 wordDictionary4 为空即为证）。
+            WriteNativeDictionary(nativeSlot, words);
 
             string canonical = Canonical(nativeSlot);
             List<string> chosen = new List<string>(words);
@@ -1617,14 +1669,110 @@ namespace WcpCustomSlots
             Es3Save("ChosenBook_Para", canonical);
             Es3Save("ChosenBook_List", chosen);
 
-            if (_bookChooser != null)
+            // 显示寄存器：原生 SonBookChoose 取「（」之前的规范名当书名，左面板
+            // RightText[0] 与保存弹窗 chosenBook_BA_Txt[1] 都读 tem_ChosenBook/
+            // ChosenBook_Para。物化后立刻按新内容重算这三处，否则显示层会停留在
+            // 上一次翻译结果（这就是「存档对了、界面还是日语词库」的直接原因）。
+            PublishSelectionToDisplay(record, nativeSlot, canonical, words);
+        }
+
+        // 把当前选择翻译到所有显示寄存器：原生槽位标签、左侧「选择词汇书」、
+        // 原生行文字。全部以 canonical 为唯一真相（游戏自己也是这么回读的），
+        // 但美化名交给 BookNameMod 的内容指纹判定，绝不在这里写死语言名。
+        private void PublishSelectionToDisplay(SlotRecord record, int nativeSlot,
+                                              string canonical, string[] words)
+        {
+            try
             {
-                InvokeNoArg(_bookChooser, "setTemBook");
-                SetStatic("tem_ChosenBook_List", new List<string>(chosen));
-                SetStatic("ChosenBook_List", new List<string>(chosen));
-                InvokeNoArg(_bookChooser, "SonButtonSetting");
-                InvokeNoArg(_bookChooser, "InitializeValueSetting3");
-                InvokeNoArg(_bookChooser, "showNeedReviewWord");
+                // 1) 原生槽位标签（BookNameText[nativeSlot-1]）要显示「自定义词书N（昵称）」，
+                //    这样 SonBookChoose 回读时取到的规范名仍是「自定义词书N」。
+                string display = BuildNativeRowLabel(canonical, record);
+                Array nameTexts = GameCompat.GetNameTexts(_bookChooser);
+                if (nameTexts != null && nativeSlot >= 1 && nativeSlot <= nameTexts.Length)
+                {
+                    GameCompat.WriteText(nameTexts.GetValue(nativeSlot - 1), display);
+                    RestyleRowChosenState(nativeSlot - 1);
+                }
+
+                // 2) 左侧面板「选择词汇书」= RightText[0]。原生只在 Initialize/
+                //    SonBookChoose 里写它，我们的物化不经过这两个入口，必须显式补写。
+                if (_bookChooser != null)
+                {
+                    FieldInfo rightField = _bookChooser.GetType().GetField("RightText",
+                        BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                    if (rightField != null)
+                    {
+                        Array right = rightField.GetValue(_bookChooser) as Array;
+                        if (right != null && right.Length > 0)
+                            GameCompat.WriteText(right.GetValue(0), display);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("CustomSlots: 发布选择到显示层失败: " + e.Message);
+            }
+        }
+
+        // 原生自定义行的显示格式：自定义词书N（昵称）。昵称缺失时不加括号，
+        // 与原生 AddElementsToScrollView 的退化形态一致。
+        private string BuildNativeRowLabel(string canonical, SlotRecord record)
+        {
+            string nick = null;
+            if (record != null)
+            {
+                bool nativeMirror = SlotRules.IsNativeMirror(record);
+                nick = string.IsNullOrEmpty(record.name)
+                    ? (nativeMirror ? null : record.id)
+                    : record.name;
+                if (nativeMirror && !string.IsNullOrEmpty(record.name) &&
+                    record.name.StartsWith("native-", StringComparison.Ordinal))
+                    nick = null;
+            }
+            if (string.IsNullOrEmpty(nick)) return canonical;
+            return canonical + "（" + nick + "）";
+        }
+
+        // 选中行的原生视觉：全白底图 + 深黑蓝文字 + interactable=false。
+        private void RestyleRowChosenState(int rowIndex)
+        {
+            try
+            {
+                Array sons = GameCompat.GetSonButtons(_bookChooser);
+                if (sons == null || rowIndex < 0 || rowIndex >= sons.Length) return;
+                Component son = sons.GetValue(rowIndex) as Component;
+                if (son == null) return;
+                Image img = son.GetComponent<Image>();
+                if (img != null && _nativeChosenSprite != null) img.sprite = _nativeChosenSprite;
+                Button btn = son.GetComponent<Button>();
+                if (btn != null) btn.interactable = false;
+                Array learned = GameCompat.GetLearnedButtons(_bookChooser);
+                if (learned != null && rowIndex < learned.Length)
+                    GameCompat.SetTextColor(learned.GetValue(rowIndex), ChosenTextColor);
+                Array nameTexts = GameCompat.GetNameTexts(_bookChooser);
+                if (nameTexts != null && rowIndex < nameTexts.Length)
+                    GameCompat.SetTextColor(nameTexts.GetValue(rowIndex), ChosenTextColor);
+            }
+            catch (Exception) { }
+        }
+
+        // 写入 wordDictionaryN：Dictionary<string,int>，原生用作「该槽词的序号表」。
+        // 值一律 0（未学），与游戏新建自定义书时一致；只求键集合匹配词表。
+        private void WriteNativeDictionary(int nativeSlot, string[] words)
+        {
+            string key = GameCompat.DictionaryKeyFor(nativeSlot);
+            if (string.IsNullOrEmpty(key) || words == null) return;
+            try
+            {
+                Dictionary<string, int> dict = new Dictionary<string, int>(words.Length);
+                for (int i = 0; i < words.Length; i++)
+                    if (!string.IsNullOrEmpty(words[i])) dict[words[i]] = 0;
+                Es3SaveTo(key, dict, MyBookPath);
+                SetStatic(key, dict);
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("CustomSlots: 写入 " + key + " 失败: " + e.Message);
             }
         }
 

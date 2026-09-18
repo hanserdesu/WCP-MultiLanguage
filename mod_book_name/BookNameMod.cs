@@ -391,12 +391,11 @@ namespace WcpBookName
                 if (string.IsNullOrEmpty(disk) || disk != s) return null;
                 var list = MyParameters.ChosenBook_List;
                 if (list == null || list.Count < 5) return null;
+                // 以内容判定：能匹配到词表就是受管书，不再问它占的是哪块页框
+                // （物化会把受管书放进任意空页框，槽号与身份无关）。
                 BookProfile memory = BookProfiles.Match(list);
                 if (memory == null) return null;
-                var plugin = Instance;
-                if (plugin == null) return null;
-                BookProfile stored = plugin.SlotProfile(slot);
-                return (stored != null && stored.Id == memory.Id) ? memory : null;
+                return memory;
             }
             catch (Exception) { return null; }
         }
@@ -426,7 +425,10 @@ namespace WcpBookName
             if (plugin == null || !plugin.isActiveAndEnabled ||
                 plugin._enabled == null || !plugin._enabled.Value) return label;
             int slot = Names.SlotOfCanonicalText(label);
-            if (slot < 0 || !plugin.CurrentSlotIs(slot)) return label;
+            if (slot < 0) return label;
+            // 内容判定身份：只有该页框里的词表真的读出来是这个语言包，
+            // 才显示美化名。用槽号比较会在物化换书后滞后一层
+            // （实机：选俄语词书却显示日语词库）。
             BookProfile profile = plugin.SlotProfile(slot);
             if (profile == null) return label;
             return profile.DisplayName;
@@ -461,6 +463,19 @@ namespace WcpBookName
                 if (Log != null) Log.LogWarning("BookName: 读取槽位 " + (slot + 1) + " 词表失败: " + e.Message);
             }
             return _slotProfiles[slot];
+        }
+        // 翻译表补充：按内容定位该词书当前实际占用哪块页框（0 = 未物化）。
+        // 物化会把任意受管词书放进任意空页框，槽号不再代表身份，
+        // 因此反查必须看内容。
+        private int FrameOfManaged(BookProfile profile)
+        {
+            if (profile == null) return 0;
+            for (int slot = 0; slot < _slotProfiles.Length; slot++)
+            {
+                BookProfile p = SlotProfile(slot);
+                if (p != null && p.Id == profile.Id) return slot + 1;
+            }
+            return 0;
         }
         private float _nextScan;
         private float _diagAt2;

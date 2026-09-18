@@ -299,6 +299,71 @@ internal static class SlotRulesTest
             Console.WriteLine("SKIP Canonical 用例（测试工程不含 CustomSlotsMod.cs，只测模型）");
         }
 
+        // ── 地址翻译层（2026-09-18）：物理页框 ≠ 逻辑身份 ──
+        // 回归的是本次实机 bug 的核心：物化把「俄语词书」放进物理槽 1 后，任何
+        // 「这块页框现在是谁」的判断都必须看内容，而不是看槽号。
+        {
+            SlotState map = SlotRules.NewState();
+            SlotRecord ru = SlotRules.Empty(3);
+            ru.id = "ru";
+            ru.name = "俄语词库(猫条版)";
+            ru.owner = "mod";
+            ru.managed = true;
+            ru.nativeSlot = 1;
+            string[] ruWords = MakeWords(8451);
+            ru.words = ruWords;
+            map.slots[2] = ru;
+
+            // 另一个托管行先占槽 2，随后被换掉
+            SlotRecord fr = SlotRules.Empty(2);
+            fr.id = "fr";
+            fr.name = "法语词库(猫条版)";
+            fr.owner = "mod";
+            fr.managed = true;
+            fr.nativeSlot = 2;
+            fr.words = MakeWords(8116);
+            map.slots[1] = fr;
+
+            // ① 内容指纹稳定且区分不同词表
+            Check(SlotRules.ContentFingerprint(ruWords) == SlotRules.ContentFingerprint(ruWords),
+                "指纹：同词表两次计算一致");
+            Check(SlotRules.ContentFingerprint(ruWords) != SlotRules.ContentFingerprint(fr.words),
+                "指纹：不同词表必须不同（俄语 vs 法语）");
+            Check(SlotRules.ContentFingerprint(new string[0]) == "",
+                "指纹：空词表返回空串");
+
+            // ② 反查归属看内容而非槽号 —— 这正是「日语词库」显示 bug 的根因
+            Check(SlotRules.OwnerOfContent(map, ruWords) == 3,
+                "反查：俄语内容落在物理槽1，归属仍是逻辑行3（不看槽号）");
+            Check(SlotRules.OwnerOfContent(map, fr.words) == 2, "反查：法语内容 → 逻辑行2");
+            Check(SlotRules.OwnerOfContent(map, MakeWords(600)) == 0, "反查：陌生内容 → 0（无主）");
+            Check(SlotRules.OwnerOfContent(map, null) == 0, "反查：null 内容 → 0");
+
+            // ③ ContentMatches 不认「词数相同但内容不同」的近似
+            string[] sameCountDifferent = MakeWords(8451);
+            sameCountDifferent[0] = "Ω-不同";
+            Check(!SlotRules.ContentMatches(sameCountDifferent, ru),
+                "内容比对：词数相同但词不同 → 不匹配（绝不吃近似）");
+            Check(SlotRules.ContentMatches(ruWords, ru), "内容比对：逐词一致 → 匹配");
+            Check(!SlotRules.ContentMatches(ruWords, null), "内容比对：null 记录 → 不匹配");
+
+            // ④ 页框归属唯一化：同一块页框不能有两行同时宣称占用
+            SlotState dup = SlotRules.NewState();
+            SlotRecord a = SlotRules.Empty(1);
+            a.managed = true; a.nativeSlot = 1; a.words = MakeWords(100);
+            SlotRecord b = SlotRules.Empty(5);
+            b.managed = true; b.nativeSlot = 1; b.words = MakeWords(200);
+            dup.slots[0] = a;
+            dup.slots[4] = b;
+            SlotRules.ReleaseFramesExcept(dup, 4, 1);
+            Check(dup.slots[0].nativeSlot == 0, "页框释放：旧占用者的 nativeSlot 被清 0");
+            Check(dup.slots[4].nativeSlot == 1, "页框释放：新占用者保留页框");
+            bool reentrant = true;
+            try { SlotRules.ReleaseFramesExcept(dup, 4, 1); }
+            catch (Exception) { reentrant = false; }
+            Check(reentrant, "页框释放：可重复调用不抛异常");
+        }
+
         Console.WriteLine("Failures: " + failures);
         return failures == 0 ? 0 : 1;
     }
