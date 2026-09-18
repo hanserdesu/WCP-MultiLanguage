@@ -1453,27 +1453,30 @@ namespace WcpCustomSlots
                 // 克隆体的 Button 携带原型上序列化的 onClick（会调原生逻辑用错索引），
                 // 整个换新 Button 掐断，再挂我们自己的选择回调。
                 Button oldButton = row.GetComponent<Button>();
-                if (oldButton != null) UnityEngine.Object.DestroyImmediate(oldButton);
+                Selectable.Transition origTransition = Selectable.Transition.SpriteSwap;
+                SpriteState origSpriteState = new SpriteState();
+                ColorBlock origColors = ColorBlock.defaultColorBlock;
+                if (oldButton != null)
+                {
+                    origTransition = oldButton.transition;
+                    origSpriteState = oldButton.spriteState;
+                    origColors = oldButton.colors;
+                    UnityEngine.Object.DestroyImmediate(oldButton);
+                }
                 Image img = row.GetComponent<Image>();
                 if (img != null && isSelected && _nativeChosenSprite != null) img.sprite = _nativeChosenSprite;
                 Button btn = row.AddComponent<Button>();
                 if (img != null) btn.targetGraphic = img;
-                btn.transition = Selectable.Transition.SpriteSwap;
+                btn.transition = origTransition;
+                btn.spriteState = origSpriteState;
+                btn.colors = origColors;
                 btn.onClick.AddListener(new UnityAction(delegate { Select(captured); }));
 
-                // 左文本 = 书名行，右文本 = 词数/空槽说明；可管理行右侧放 改名/移除。
+                // 统一全行单体交互：完全遵循官方原生交互规范，整行作为可点击可高亮单元
+                // 彻底拔除行内多余的小方框遮挡，文字完全居中铺展
                 string label = RowLabel(record, i + 1);
                 WriteChildText(row.transform, LeftTextPrefixes, label, false);
                 WriteChildText(row.transform, RightTextPrefixes, RowRightLabel(record), true);
-                if (hasActions)
-                {
-                    CreateActionButton(row.transform, "改名", new Vector2(-108f, 1f),
-                        new Vector2(48f, 20f), new Color(1f, 1f, 1f, 0.35f),
-                        new UnityAction(delegate { BeginRename(captured); }), false);
-                    CreateActionButton(row.transform, "移除", new Vector2(-52f, 1f),
-                        new Vector2(48f, 20f), new Color(1f, 1f, 1f, 0.35f),
-                        new UnityAction(delegate { ClearSlot(captured); }), false);
-                }
             }
             RenderRenameBar();
             Canvas.ForceUpdateCanvases();
