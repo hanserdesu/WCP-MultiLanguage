@@ -1338,16 +1338,55 @@ namespace WcpCustomSlots
 
         private void RestoreNativeBars()
         {
-            // 严禁离开自定义页时执行 SetActive(true)！
-            // 游戏原生代码（WordChooseButtonS10.OnBookButtonClicked）在用户切换到任何官方分类页时，
-            // 会根据该分类的书籍数量自行精确管理 BookButtonSon[0..3] 的激活（例如初中词汇只有 1 本，原生会将 1..3 行关闭）。
-            // 若在此盲目激活，会强行唤醒原生已关闭的行，引发官方分类页严重串词书！
-            // 仅当用户依然停留在自定义页（clickNum == 20）且手动关闭覆盖层（如按 F8 或关闭按钮）时，才唤醒原生 4 槽。
-            if (_bookChooser != null && GameCompat.CurrentCategory(_bookChooser) == 20)
+            try
             {
-                for (int i = 0; i < _hiddenNativeBars.Count; i++)
-                    if (_hiddenNativeBars[i] != null) _hiddenNativeBars[i].SetActive(true);
+                // 彻底保障官方分类词库 100% 显现（零消失）：
+                // 游戏原生代码 WordChooseButtonS10.OnBookButtonClicked 在切换任何官方分类（初中、高中、大学四六级等）时，
+                // 只会根据分类包含的书本数量设置 BookButtonSon[1..4] 的显隐，
+                // 但原生代码完全没有书写激活 BookButtonSon[0] 的指令（出厂默认 Son[0] 永不关闭）！
+                // Mod 在自定义页为了无缝接管曾隐藏原生行，因此离开自定义页或关闭覆层时，
+                // 必须无条件且精准唤醒 BookButtonSon[0]，否则高中词汇等单本官方分类将全部变成白板！
+                if (_bookChooser != null)
+                {
+                    System.Reflection.FieldInfo fi = _bookChooser.GetType().GetField("BookButtonSon",
+                        System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                    if (fi != null)
+                    {
+                        Array sons = fi.GetValue(_bookChooser) as Array;
+                        if (sons != null && sons.Length > 0)
+                        {
+                            Component son0 = sons.GetValue(0) as Component;
+                            if (son0 != null && !son0.gameObject.activeSelf)
+                            {
+                                son0.gameObject.SetActive(true);
+                            }
+                        }
+                    }
+                }
+
+                // 仅当停留在自定义页且用户手动关掉覆盖层（F8/关闭按钮）时，才将之前压制的所有行恢复
+                if (_bookChooser != null && GameCompat.CurrentCategory(_bookChooser) == 20)
+                {
+                    for (int i = 0; i < _hiddenNativeBars.Count; i++)
+                        if (_hiddenNativeBars[i] != null) _hiddenNativeBars[i].SetActive(true);
+                }
+
+                // 唤醒原生“修改词库”按钮
+                if (_selfBookSettingManager != null)
+                {
+                    System.Reflection.FieldInfo btnFi = _selfBookSettingManager.GetType().GetField("ThisButton",
+                        System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                    if (btnFi != null)
+                    {
+                        GameObject thisBtn = btnFi.GetValue(_selfBookSettingManager) as GameObject;
+                        if (thisBtn != null && !thisBtn.activeSelf)
+                        {
+                            thisBtn.SetActive(true);
+                        }
+                    }
+                }
             }
+            catch (Exception e) { Log.LogWarning("CustomSlots: 恢复原生状态异常: " + e.Message); }
             _hiddenNativeBars.Clear();
         }
 
@@ -1448,18 +1487,18 @@ namespace WcpCustomSlots
             List<Transform> bars = NativeBars();
             if (bars.Count > 0) topRT = bars[0].GetComponent<RectTransform>();
             if (bars.Count > 1) bottomRT = bars[bars.Count - 1].GetComponent<RectTransform>();
-            if (topRT == null || bottomRT == null) return;   // 退回居中（老几何）
+            if (topRT == null || bottomRT == null) return;
             Vector3[] a = new Vector3[4]; topRT.GetWorldCorners(a);
             Vector3[] b = new Vector3[4]; bottomRT.GetWorldCorners(b);
-            Vector3 center = (a[1] + b[3]) * 0.5f;           // 顶行左上 + 底行右下 的中点
+            Vector3 center = (a[1] + b[3]) * 0.5f;
             float widthWorld = a[2].x - a[1].x;
             float heightWorld = a[1].y - b[0].y;
             float ourScale = overlayCanvas.transform.lossyScale.x;
             if (ourScale <= 0f) ourScale = 1f;
-            float totalWidth = widthWorld / ourScale + 18f;
-            float totalHeight = heightWorld / ourScale + 10f;
+            float totalWidth = widthWorld / ourScale;
+            float totalHeight = heightWorld / ourScale;
             panel.sizeDelta = new Vector2(totalWidth, totalHeight);
-            panel.position = center + new Vector3(9f * ourScale, 0f, 0f);
+            panel.position = center;
         }
 
         // 原生左栏宽 247.85、fontSize 11、框高仅 18px——换行就被裁（实机截图 6c6ddc：
@@ -1963,7 +2002,27 @@ namespace WcpCustomSlots
 
         private static Canvas FindCanvas()
         {
+            GameObject setting = GameObject.Find("AllCanvas/SettingPart");
+            if (setting != null)
+            {
+                Canvas c = setting.GetComponentInParent<Canvas>();
+                if (c != null && c.isActiveAndEnabled) return c;
+            }
+            GameObject all = GameObject.Find("AllCanvas");
+            if (all != null)
+            {
+                Canvas c = all.GetComponent<Canvas>();
+                if (c != null && c.isActiveAndEnabled) return c;
+            }
             Canvas[] canvases = Resources.FindObjectsOfTypeAll<Canvas>();
+            for (int i = 0; i < canvases.Length; i++)
+            {
+                Canvas cv = canvases[i];
+                if (cv != null && cv.isActiveAndEnabled && cv.gameObject.scene.IsValid())
+                {
+                    if (cv.name != "SceneLoaderCanvas") return cv;
+                }
+            }
             for (int i = 0; i < canvases.Length; i++)
                 if (canvases[i] != null && canvases[i].isActiveAndEnabled && canvases[i].gameObject.scene.IsValid())
                     return canvases[i];
