@@ -24,6 +24,9 @@ copy /y "%HERE%..\WcpHost.dll" "%REGTEST_OUT%\WcpHost.dll" >nul
 if errorlevel 1 (echo COPY FAILED & exit /b 1)
 if exist "%MGD%\Mono.Data.Sqlite.dll" copy /y "%MGD%\Mono.Data.Sqlite.dll" "%REGTEST_OUT%\Mono.Data.Sqlite.dll" >nul
 if exist "%WCP_GAME_DIR%\wcp_Data\Plugins\x86_64\sqlite3.dll" copy /y "%WCP_GAME_DIR%\wcp_Data\Plugins\x86_64\sqlite3.dll" "%REGTEST_OUT%\sqlite3.dll" >nul
+rem 第十六轮：GameLearnedStats 进了离线门禁，其告警分支引用 BepInEx/UnityEngine
+rem 类型 —— 程序集解析由 RegistryTest.Main 里的 AssemblyResolve 钩子按需处理
+rem （拷贝传递依赖是无底洞：BepInEx → UnityEngine → …）。
 rem packs 根默认取本仓库的 packs\（tests\..\..\packs）；第一个显式参数可覆盖。
 set "PACKS_ARG=%HERE%..\..\packs"
 if not "%~1"=="" set "PACKS_ARG=%~1"

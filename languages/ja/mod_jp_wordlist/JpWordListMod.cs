@@ -170,6 +170,9 @@ namespace JpWordList
 
         // 跨词书启动守卫: 每次进游戏只做一次
         private static bool _crossBookGuardDone;
+        // 已让位宿主 WcpHost 的标志。注意 Awake 里的 return 只跳过了 PatchAll,
+        // 挡不住 Update 的每秒轮询 —— 详见 Update() 顶部说明。
+        private static bool _yieldedToHost;
         // Enabled 配置可在游戏中修改。关闭后仍需撤销此前由插件落盘的共享队列，
         // 否则切到其它词书的那个瞬间可能读到日语残留。
         private static bool _disabledCleanupDone;
@@ -240,7 +243,8 @@ namespace JpWordList
                 "宿主 WcpHost 接管本语言后, 旧词表插件自动让位(只保留语言资源)。设 false 强制以旧模式运行。");
             if (HostTakesOver())
             {
-                Log.LogWarning("JPWordList: WcpHost 已接管日语, 旧词表插件不再打补丁 (Legacy/YieldToHost=false 可强制旧模式)。");
+                _yieldedToHost = true;
+                Log.LogWarning("JPWordList: WcpHost 已接管日语, 旧词表插件不再打补丁, 轮询 Enforce 一并停用 (Legacy/YieldToHost=false 可强制旧模式)。");
                 return;
             }
             PatchAll();
@@ -479,6 +483,13 @@ namespace JpWordList
         // 兜底轮询: 覆盖没有补丁可打的读取点 (选词界面/重排/换标签)
         private void Update()
         {
+            // 已让位宿主: 受管字段的唯一写者必须是宿主 TakeoverScope。
+            // Awake 里的 return 只跳过了 PatchAll —— Update 照旧每 1s 跑一次
+            // Enforce() / TickDbHeal(), 两者都在写游戏共享库或共享队列,
+            // 与宿主争同一批受管字段。让位后必须零字段写入。
+            // 实证: RU 加此门控后 PLAYER.log 里恒为 100 的
+            // 「队列与完成状态不一致」重建计数降到 0。
+            if (_yieldedToHost) return;
             if (!IsEnabled())
             {
                 CleanupDisabledState();

@@ -1,4 +1,4 @@
-// WCP Custom Slots — twenty logical wordbook slots on one scrollable page.
+﻿// WCP Custom Slots — twenty logical wordbook slots on one scrollable page.
 //
 // The game exposes only four native SelfBookList fields.  This plugin does not
 // enlarge or rewrite those game internals.  It keeps twenty rows in its own
@@ -186,6 +186,21 @@ namespace WcpCustomSlots
         private readonly System.Collections.Generic.List<GameObject> _hiddenNativeBars
             = new System.Collections.Generic.List<GameObject>();
 
+        // ── 原生按钮守卫生涯（性能收敛 2026-09-18 第六轮）────────────────────
+        //
+        // 根因：原生【修改自定义词书】按钮的生存守卫每帧调一次
+        // Resources.FindObjectsOfTypeAll(SelfBookButtonSettingManager)，而那是
+        // "遍历内存里全部已加载对象"的全量扫描（本机日志 Loaded Objects ≈ 23498），
+        // 偏偏挂在 LateUpdate 上、且只在自定义词书页（覆盖层显示时）生效 ——
+        // **玩家正是在切词库的那个界面上每帧付一次全场景扫描**。
+        // 现在改成缓存组件与 FieldInfo：稳态 O(1)，只在引用失效（假 null / 换场景）
+        // 或面板重新显示时重扫一次，行为不变。
+        private static System.Reflection.FieldInfo _fiModifyThisButton;
+        private static System.Reflection.FieldInfo _fiBookButtonSon;
+        private readonly System.Collections.Generic.List<Component> _nativeManagers
+            = new System.Collections.Generic.List<Component>();
+        private float _nativeScanFailUntil;   // 解析落空后的退避截止（不每帧重扫）
+
         private string MyBookPath
         {
             get { return Path.Combine(Application.persistentDataPath, "MyBook.es3"); }
@@ -294,6 +309,10 @@ namespace WcpCustomSlots
         internal void Show(object chooser)
         {
             _bookChooser = chooser;
+            // 面板重新显示 = 一句"原生对象可能换了"：让守卫生涯缓存重解析一次，
+            // 之后稳态就是 O(1)（不再每帧全场景扫描）。
+            _nativeManagers.Clear();
+            _nativeScanFailUntil = 0f;
             GameCompat.CalibrateCustomPageIndex(chooser);
             if (_overlay != null)
             {
@@ -682,17 +701,30 @@ namespace WcpCustomSlots
             try
             {
                 if (_overlay == null || !_overlay.activeSelf) return;
-                System.Reflection.FieldInfo fi = GameCompat.FindFieldOnType(
-                    GameCompat.FindTypeByName("SelfBookButtonSettingManager"), "ThisButton");
-                if (fi == null) return;
-                UnityEngine.Object[] managers =
-                    Resources.FindObjectsOfTypeAll(GameCompat.FindTypeByName("SelfBookButtonSettingManager"));
-                if (managers == null) return;
-                for (int i = 0; i < managers.Length; i++)
+                if (_fiModifyThisButton == null)
                 {
-                    Component mgr = managers[i] as Component;
-                    if (mgr == null || !mgr.gameObject.scene.IsValid()) continue;
-                    GameObject btn = fi.GetValue(mgr) as GameObject;
+                    _fiModifyThisButton = GameCompat.FindFieldOnType(
+                        GameCompat.FindTypeByName("SelfBookButtonSettingManager"), "ThisButton");
+                    if (_fiModifyThisButton == null) return;
+                }
+                if (!HasLiveNativeManager())
+                {
+                    if (Time.unscaledTime < _nativeScanFailUntil) return;
+                    ResolveNativeManagers();
+                    if (_nativeManagers.Count == 0)
+                    {
+                        // 刚进页面时原生对象还没建好是常态：退避 0.5s 再试，
+                        // 绝不每帧全量扫描（这正是原来每帧卡一下的来源）。
+                        _nativeScanFailUntil = Time.unscaledTime + 0.5f;
+                        return;
+                    }
+                }
+                for (int i = 0; i < _nativeManagers.Count; i++)
+                {
+                    Component mgr = _nativeManagers[i];
+                    // Unity 假 null：被销毁的组件引用非 null，但 == null 为真。
+                    if (mgr == null) continue;
+                    GameObject btn = _fiModifyThisButton.GetValue(mgr) as GameObject;
                     if (btn == null) continue;
                     if (!btn.activeSelf)
                     {
@@ -700,6 +732,33 @@ namespace WcpCustomSlots
                         if (!_restoredModifyButton.Contains(btn))
                             _restoredModifyButton.Add(btn);
                     }
+                }
+            }
+            catch (Exception) { }
+        }
+
+        private bool HasLiveNativeManager()
+        {
+            for (int i = 0; i < _nativeManagers.Count; i++)
+                if (_nativeManagers[i] != null) return true;
+            return false;
+        }
+
+        // 只在缓存为空/失效、或面板重新显示时调用（不再是每帧）。
+        private void ResolveNativeManagers()
+        {
+            _nativeManagers.Clear();
+            try
+            {
+                Type t = GameCompat.FindTypeByName("SelfBookButtonSettingManager");
+                if (t == null) return;
+                UnityEngine.Object[] managers = Resources.FindObjectsOfTypeAll(t);
+                if (managers == null) return;
+                for (int i = 0; i < managers.Length; i++)
+                {
+                    Component mgr = managers[i] as Component;
+                    if (mgr == null || !mgr.gameObject.scene.IsValid()) continue;
+                    _nativeManagers.Add(mgr);
                 }
             }
             catch (Exception) { }
@@ -713,8 +772,15 @@ namespace WcpCustomSlots
             {
                 if (_bookChooser != null)
                 {
-                    System.Reflection.FieldInfo fi = _bookChooser.GetType().GetField("BookButtonSon",
-                        System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                    // FieldInfo 按类型缓存：这条路径在覆盖层显示期间每帧走一次
+                    // （LateUpdate → SuppressNativeElements），原来每帧 GetField 一次。
+                    System.Reflection.FieldInfo fi = _fiBookButtonSon;
+                    if (fi == null || fi.DeclaringType != _bookChooser.GetType())
+                    {
+                        fi = _bookChooser.GetType().GetField("BookButtonSon",
+                            System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                        _fiBookButtonSon = fi;
+                    }
                     if (fi != null)
                     {
                         Array sons = fi.GetValue(_bookChooser) as Array;

@@ -33,6 +33,20 @@ namespace WcpHost
         private readonly List<string> _servedFingerprints = new List<string>();
         private StoreStatus _cacheStatus = StoreStatus.NotPresent;
 
+        // 第十四轮（2026-09-18）：行指纹按内容记忆化。CustomSlotsMod 每次保存都重写
+        // 整个 store（mtime 必变），原实现每次重写都对每一行各跑一遍
+        // Normalize(FormC)+排序+SHA256（实机 77~123ms，切换帧大头之一；两轮日志
+        // 四次切换全部复现 130~165ms 重解析）。这里先对行词表算一个 O(总字符)、
+        // 零分配的 FNV-1a 64 位内容键：键命中直接复用上次的全量指纹，未命中才
+        // 回退 FingerprintOf。全内容参与散列 + 64 位键空间，碰撞概率可忽略；
+        // memo 上限 256 条防膨胀（行数有限，实际远达不到）。
+        private readonly Dictionary<ulong, string> _rowFingerprintMemo =
+            new Dictionary<ulong, string>();
+
+        /// <summary>测试观测点：行指纹记忆化命中次数（跨 mtime 变化累计）。</summary>
+        internal int MemoHits { get { return _memoHits; } }
+        private int _memoHits;
+
         private enum StoreStatus { NotPresent, Corrupt, Ok, Empty }
 
         internal SlotOwnership(string storePath)
@@ -112,6 +126,13 @@ namespace WcpHost
             _cacheValid = true;
             _servedFingerprints.Clear();
 
+            // 第十轮加探针：这一段是**唯一**在身份判定路径上会做批量分配的代码 ——
+            // store 的每一行都要 Json.StrList 出一份完整的词表快照（20 行 × 8000+ 词
+            // ≈ 16 万个字符串对象），再对每份快照跑一次 FingerprintOf。
+            // 它只在 mtime 变化时进入，所以平时看不见；而它正好也是"身份:Evaluate
+            // 偶发 2712ms"这类尖峰最合理的 GC 来源。切出来，账才算得清。
+            using (PerfProbe.Begin("槽位归属:重解析"))
+            {
             string raw;
             try { raw = File.ReadAllText(_storePath); }
             catch (Exception e)
@@ -156,8 +177,29 @@ namespace WcpHost
                 List<string> words = Json.StrList(row, "words");
                 if (words == null || words.Count < BookPool.MinPlayable) continue;
 
-                try { _servedFingerprints.Add(BookRegistry.FingerprintOf(words)); }
-                catch (Exception) { /* 单行异常不拖垮整表 */ }
+                using (PerfProbe.Begin("槽位归属:行指纹"))
+                {
+                    try
+                    {
+                        string fp;
+                        ulong cheap = CheapRowHash(words);
+                        if (!_rowFingerprintMemo.TryGetValue(cheap, out fp))
+                        {
+                            fp = BookRegistry.FingerprintOf(words);
+                            if (fp != null)
+                            {
+                                if (_rowFingerprintMemo.Count >= 256) _rowFingerprintMemo.Clear();
+                                _rowFingerprintMemo[cheap] = fp;
+                            }
+                        }
+                        else
+                        {
+                            _memoHits++;
+                        }
+                        _servedFingerprints.Add(fp);
+                    }
+                    catch (Exception) { /* 单行异常不拖垮整表 */ }
+                }
             }
 
             if (_servedFingerprints.Count == 0)
@@ -172,6 +214,32 @@ namespace WcpHost
             }
 
             _cacheStatus = StoreStatus.Ok;
+            }
+        }
+
+        // 行词表的内容键：FNV-1a 64 位，逐字符散列 + 词分隔符 + 行长度参与。
+        // 只要求"同一内容 → 同一键"，不要求与 FingerprintOf 同分布；键相同而
+        // 内容不同需要 64 位散列碰撞，可忽略。
+        internal static ulong CheapRowHash(List<string> words)
+        {
+            unchecked
+            {
+                ulong h = 14695981039346656037UL;
+                h = (h ^ (ulong)words.Count) * 1099511628211UL;
+                for (int i = 0; i < words.Count; i++)
+                {
+                    string w = words[i];
+                    if (w == null)
+                    {
+                        h = (h ^ 0x9E3779B97F4A7C15UL) * 1099511628211UL;
+                        continue;
+                    }
+                    for (int j = 0; j < w.Length; j++)
+                        h = (h ^ (ulong)w[j]) * 1099511628211UL;
+                    h = (h ^ 0x1FUL) * 1099511628211UL;
+                }
+                return h;
+            }
         }
 
         private void LogCorruptOnce(string detail)

@@ -113,6 +113,7 @@ namespace WcpHost
             RecoverStale(null);
         }
 
+
         internal void Leave()
         {
             if (!_active || _manifest == null)
@@ -122,7 +123,12 @@ namespace WcpHost
                 _active = false;
                 return;
             }
-            RestoreOwned(_manifest.Profile.Es3Prefix);
+            // 同一次还原里的多个字段写也合并成一次整档读写（切书离开时这笔最重：
+            // 每个待还原字段各写一次 bak_/owned_/游戏字段）。
+            using (GameAdapter.Es3BatchScope())
+            {
+                RestoreOwned(_manifest.Profile.Es3Prefix);
+            }
             _listBaselines.Clear();
             _arrayBaselines.Clear();
             _ownedLists.Clear();
@@ -141,14 +147,66 @@ namespace WcpHost
             RecoverStale(registry, activeProfileId);
         }
 
+        // ── 「哪些 prefix 可能有残留标记」索引 ────────────────────────────────
+        //
+        // 第七轮（2026-09-18）新增。原实现是**无条件**为注册表里每一个语言包都做一次
+        // `RestoreOwned`，而 `RestoreOwned` 一进门就要读两个键（prefix_owned_lists /
+        // prefix_owned_arrays）来判断"有没有残留"。ES3 的读是**整文件解析**：本机
+        // 默认存档 SaveFile.es3 = 6.0MB / 341 个键，所以每个语言包 2 次 = 9 个包 18 次
+        // 整文件解析。实测（第六轮日志）：首次激活那一次 `身份:Evaluate` 就花了 **698.5ms**，
+        // 量级与 18 × ~39ms 完全吻合，而结论每次都是"没有残留，直接返回"。
+        //
+        // 改法：加一个 mod 自己的索引键，记下"真的写过标记的 prefix"。读一次索引
+        // （O(1) 次整文件解析）就能跳过其余全部语言包。
+        //
+        // 正确性（这是纯读优化，不放松任何判定）：
+        //   能出现残留标记的 prefix 只有两类来源 ——
+        //     ① 本进程 `CaptureList/CaptureArray` 写下的（记在 `_capturedPrefixes`）；
+        //     ② 旧构建写下的（此时索引键在存档里**根本不存在** → 走 legacy 全扫）。
+        //   只要索引键存在，任何"不在索引且不在 _capturedPrefixes"的 prefix 都必然
+        //   没有标记，跳过它不改变任何判定。索引每轮都会被重新写回实际剩余集合，
+        //   所以它不会永久漏掉谁。
+        private const string OwnedIndexKey = "wcp_owned_prefixes";
+        private readonly HashSet<string> _capturedPrefixes =
+            new HashSet<string>(StringComparer.Ordinal);
+
+        private static string[] LoadOwnedOrNull(string key)
+        {
+            return GameAdapter.Es3Load(key, typeof(string[]), null, null) as string[];
+        }
+
         internal void RecoverStale(BookRegistry registry, string activeProfileId)
         {
             if (registry == null) return;
-            for (int i = 0; i < registry.Manifests.Count; i++)
+            // 稳态下这段一个键都不写（索引已就位、没有残留），批量作用域因此不会
+            // 触发装载 —— 成本为 0。只有真的迁移/清理时才落到一次整档读写。
+            using (GameAdapter.Es3BatchScope())
             {
-                LanguageManifest m = registry.Manifests[i];
-                if (m.Profile.Id == activeProfileId) continue;
-                RestoreOwned(m.Profile.Es3Prefix);
+                string[] raw = LoadOwnedOrNull(OwnedIndexKey);
+                bool legacy = raw == null;   // 索引键不存在 = 旧构建写过标记 → 只能全扫一遍
+                HashSet<string> index = new HashSet<string>(
+                    raw ?? new string[0], StringComparer.Ordinal);
+                bool dirty = legacy;         // 迁移：索引缺失时补一次，之后不再写
+                for (int i = 0; i < registry.Manifests.Count; i++)
+                {
+                    LanguageManifest m = registry.Manifests[i];
+                    if (m.Profile.Id == activeProfileId) continue;
+                    string prefix = m.Profile.Es3Prefix;
+                    if (string.IsNullOrEmpty(prefix)) continue;
+                    if (!legacy && !index.Contains(prefix) && !_capturedPrefixes.Contains(prefix))
+                        continue;
+                    if (RestoreOwned(prefix))
+                    {
+                        if (index.Add(prefix)) dirty = true;
+                    }
+                    else if (index.Remove(prefix)) dirty = true;
+                }
+                // 本进程刚捕获过标记的 prefix 必须并进索引，否则下一轮会跳过它、
+                // 把这次会话留下的残留标记漏在存档里。
+                foreach (string captured in _capturedPrefixes)
+                    if (index.Add(captured)) dirty = true;
+                if (!dirty) return;
+                GameAdapter.Es3Save(OwnedIndexKey, ToArray(index));
             }
         }
 
@@ -157,28 +215,50 @@ namespace WcpHost
             if (!_active || _manifest == null || _bookWords == null || _bookWords.Count == 0)
                 return;
 
-            HashSet<string> allowed = BookPool.ToSet(_bookWords);
-            // 词书本身不够游戏下限（坏语言包）时仍然只做过滤、不补词:
-            // 过滤是隔离要求，补词是内容要求。
-            bool canRebuild = allowed.Count >= BookPool.MinPlayable;
-
-            ILearnedStats stats = StatsProvider == null ? null : StatsProvider();
-            PoolOrder order = ReadOrder();
-            for (int i = 0; i < Rules.Length; i++)
+            // 一次 Enforce 里对 ES3 的所有写合并成「一次整文件读 + 一次整文件写」。
+            // 首次落位时这一轮要写 ~45 个键（每个字段 bak_/owned_/游戏字段 各一次），
+            // 逐键写是 45 次整档读写（离线实测 5084ms），批量后 110ms。作用域是惰性的，
+            // 本轮不需要改任何字段时（稳态的绝大多数轮次）成本为 0。
+            using (GameAdapter.Es3BatchScope())
             {
-                FieldRule rule = Rules[i];
-                try
+                // 第十一轮（2026-09-18）加探针：实机切书帧 `运行态:队列校正` 单次
+                // 257.8ms，稳态每秒 ~34ms。批量的账（装载+提交）已经单独有标签，
+                // 但扣除批量之后剩下那部分一直没归属。这里的三个候选是
+                // BookPool.ToSet（8000+ 词的 HashSet 构建）、17 条规则的扫描/改写、
+                // 以及 AlignTestQueue。拆开才知道下一轮该动哪一个。
+                HashSet<string> allowed;
+                using (PerfProbe.Begin("队列:授权集")) allowed = BookPool.ToSet(_bookWords);
+                // 词书本身不够游戏下限（坏语言包）时仍然只做过滤、不补词:
+                // 过滤是隔离要求，补词是内容要求。
+                bool canRebuild = allowed.Count >= BookPool.MinPlayable;
+
+                ILearnedStats stats = StatsProvider == null ? null : StatsProvider();
+                PoolOrder order = ReadOrder();
+                using (PerfProbe.Begin("队列:规则"))
                 {
-                    if (rule.IsArray) EnforceArray(rule, allowed);
-                    else EnforceList(rule, allowed, stats, order, canRebuild);
+                    // 第十四轮（2026-09-18）：一次 Enforce 内 12 条 Rebuild 规则共享
+                    // 同一份「分区+排序」计划（原实现每条规则各跑一遍 8451 词的分区
+                    // 与反射比较器排序，实机切换帧单次 642~706ms）；FilterOnly 也改用
+                    // 上面建好的授权集，不再每条规则重建一遍 HashSet。生命周期 =
+                    // 一次 Enforce：不跨轮缓存，学习进度与随机洗牌照常逐轮刷新。
+                    BookPool.Plan plan = new BookPool.Plan(_bookWords, stats, order);
+                    for (int i = 0; i < Rules.Length; i++)
+                    {
+                        FieldRule rule = Rules[i];
+                        try
+                        {
+                            if (rule.IsArray) EnforceArray(rule, allowed);
+                            else EnforceList(rule, allowed, plan, canRebuild);
+                        }
+                        catch (Exception e)
+                        {
+                            if (WarnSink != null)
+                                WarnSink("WcpHost: 队列隔离失败 " + rule.Name + ": " + e.Message);
+                        }
+                    }
                 }
-                catch (Exception e)
-                {
-                    if (WarnSink != null)
-                        WarnSink("WcpHost: 队列隔离失败 " + rule.Name + ": " + e.Message);
-                }
+                using (PerfProbe.Begin("队列:对齐")) AlignTestQueue(allowed);
             }
-            AlignTestQueue(allowed);
         }
 
         /// <summary>
@@ -205,7 +285,10 @@ namespace WcpHost
                 rule.PreferLearned, target);
             if (rebuilt == null || rebuilt.Count == 0) return null;
             if (Same(current, rebuilt)) return null;
-            if (!CaptureList(fieldName, current)) return null;
+            using (GameAdapter.Es3BatchScope())
+            {
+                if (!CaptureList(fieldName, current)) return null;
+            }
             return rebuilt;
         }
 
@@ -222,8 +305,8 @@ namespace WcpHost
         ///   2. 列表长度低于游戏下限 —— 游戏会用全局词典或 one..five 占位词补，必须由本书补。
         /// 已经"干净且够长"的列表一律不重写: 保留玩家当前的复习顺序，避免每次轮询都动它。
         /// </summary>
-        private void EnforceList(FieldRule rule, HashSet<string> allowed, ILearnedStats stats,
-                                 PoolOrder order, bool canRebuild)
+        private void EnforceList(FieldRule rule, HashSet<string> allowed,
+                                 BookPool.Plan plan, bool canRebuild)
         {
             object raw = GameAdapter.StaticField(GameAdapter.ParametersType, rule.Name);
             IList<string> current = GameAdapter.ToWordList(raw);
@@ -238,17 +321,17 @@ namespace WcpHost
                 bool foreign = ContainsForeign(current, allowed);
                 if (!canRebuild || (!foreign && current.Count >= target))
                 {
-                    next = BookPool.FilterOnly(current, _bookWords);
+                    next = BookPool.FilterOnly(current, allowed);
                     if (next == null) return;                    // 已经干净: 不动
                 }
                 else
                 {
-                    next = BookPool.Rebuild(_bookWords, stats, order, rule.PreferLearned, target);
+                    next = plan.Rebuild(rule.PreferLearned, target);
                 }
             }
             else
             {
-                next = BookPool.FilterOnly(current, _bookWords);
+                next = BookPool.FilterOnly(current, allowed);
             }
             if (next == null) return;
             if (Same(current, next)) return;
@@ -263,7 +346,7 @@ namespace WcpHost
             object raw = GameAdapter.StaticField(GameAdapter.ParametersType, rule.Name);
             string[] current = ToArray(raw);
             if (current == null || current.Length == 0) return;
-            List<string> filtered = BookPool.FilterOnly(current, _bookWords);
+            List<string> filtered = BookPool.FilterOnly(current, allowed);
             if (filtered == null) return;
             if (Same(current, filtered)) return;
             if (!CaptureArray(rule.Name, current)) return;
@@ -337,6 +420,7 @@ namespace WcpHost
             List<string> baseline = current == null ? new List<string>() : new List<string>(current);
             if (!GameAdapter.Es3Save(Key("bak_" + fieldName), baseline.ToArray())) return false;
             _ownedLists.Add(fieldName);
+            _capturedPrefixes.Add(_manifest.Profile.Es3Prefix);
             if (!GameAdapter.Es3Save(Key("owned_lists"), ToArray(_ownedLists)))
             {
                 _ownedLists.Remove(fieldName);
@@ -352,6 +436,7 @@ namespace WcpHost
             string[] baseline = current == null ? new string[0] : (string[])current.Clone();
             if (!GameAdapter.Es3Save(Key("bak_" + fieldName), baseline)) return false;
             _ownedArrays.Add(fieldName);
+            _capturedPrefixes.Add(_manifest.Profile.Es3Prefix);
             if (!GameAdapter.Es3Save(Key("owned_arrays"), ToArray(_ownedArrays)))
             {
                 _ownedArrays.Remove(fieldName);
@@ -361,9 +446,10 @@ namespace WcpHost
             return true;
         }
 
-        private void RestoreOwned(string prefix)
+        // 返回 true = 这个 prefix 在库里**仍然**有未完成的残留标记（下次还要再看）。
+        private bool RestoreOwned(string prefix)
         {
-            if (string.IsNullOrEmpty(prefix)) return;
+            if (string.IsNullOrEmpty(prefix)) return false;
             HashSet<string> lists = new HashSet<string>(LoadOwned(prefix + "_owned_lists"), StringComparer.Ordinal);
             HashSet<string> arrays = new HashSet<string>(LoadOwned(prefix + "_owned_arrays"), StringComparer.Ordinal);
             bool local = _manifest != null && _manifest.Profile.Es3Prefix == prefix;
@@ -375,7 +461,7 @@ namespace WcpHost
             // An inactive host must be completely read-only when it has no
             // ownership marker.  Writing empty marker arrays on every probe
             // races legacy language plugins while they switch books.
-            if (lists.Count == 0 && arrays.Count == 0) return;
+            if (lists.Count == 0 && arrays.Count == 0) return false;
             HashSet<string> pendingLists = new HashSet<string>(StringComparer.Ordinal);
             HashSet<string> pendingArrays = new HashSet<string>(StringComparer.Ordinal);
             bool restoredPool = false;
@@ -405,6 +491,7 @@ namespace WcpHost
             if (restoredPool) MarkNoTestIfUnsafe();
             GameAdapter.Es3Save(prefix + "_owned_lists", ToArray(pendingLists));
             GameAdapter.Es3Save(prefix + "_owned_arrays", ToArray(pendingArrays));
+            return pendingLists.Count > 0 || pendingArrays.Count > 0;
         }
 
         private static bool IsKnownListField(string name)

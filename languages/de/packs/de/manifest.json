@@ -37,7 +37,7 @@
     "sentences": "de_sentences.tsv",
     "payload_files": {
       "de_pron.tsv": "e0e5f244c6cf5f3295299edbc4b6918f3f3036093de1e5382cd4bea80fef8c20",
-      "de_sentences.tsv": "6896c813eb0f1c43d5554c4f18ddaf7b20adcdb535156a4ee94395d2a4c1d466",
+      "de_sentences.tsv": "102974a50eb4cdbfd0ba818dd54bbd389254ae1e0dd6898ba4fafc9adc386d09",
       "de_only_pron.tsv": "e0e5f244c6cf5f3295299edbc4b6918f3f3036093de1e5382cd4bea80fef8c20",
       "en_pron.tsv": "3d9e08e3e3e882350fff931c869cb856a5287712567c6eb3ffed086adcfd1669",
       "en_sentences.tsv": "03240187e74606562fe28c6ffda21c9cc07c365e473ad5e396349165b04cab2c"

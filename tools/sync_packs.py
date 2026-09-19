@@ -4,7 +4,10 @@
   不删除 ML 仓库里的多余文件（那是 pack_payload 时代遗留，另行处理）。
 - manifest 以语言工程为准（项目里的 manifest 是 build_pack 生成物，语义最新）。
 - 同步后逐文件 sha256 校验。
-用法: python tools/sync_packs.py [--check]
+- --deploy/--check-deployed 是下一段链路：hub packs → 游戏实际加载的
+  %USERPROFILE%\\AppData\\LocalLow\\WCP\\packs。只复制宿主读取的运行时文件，
+  不碰音频、不删除任何部署侧文件。
+用法: python tools/sync_packs.py [--check | --deploy | --check-deployed]
 """
 import argparse
 import hashlib
@@ -44,10 +47,61 @@ def collect(pack_dir):
     return out
 
 
+# 宿主运行时读取的文件。音频不在其中——部署侧音频在仓库里没有第二份，
+# 所以这个名单同时是"允许被覆盖"的边界。
+RUNTIME_FILES = ['manifest.json', 'db/meaning.sqlite', 'db/sentences.json', 'db/repair.tsv']
+
+
+def deployed_root():
+    return os.path.join(os.path.expanduser('~'), 'AppData', 'LocalLow', 'WCP', 'packs')
+
+
+def deployed_diff(only_lang=None):
+    """hub packs vs 部署侧 packs 的逐文件哈希差异。"""
+    low = deployed_root()
+    diffs = []
+    for _, lang in PROJECTS:
+        if only_lang and lang != only_lang:
+            continue
+        src = os.path.join(HUB, 'packs', lang)
+        if not os.path.isdir(src):
+            continue
+        for rel in RUNTIME_FILES:
+            s = os.path.join(src, rel.replace('/', SEP))
+            if not os.path.exists(s):
+                continue
+            d = os.path.join(low, lang, rel.replace('/', SEP))
+            if not os.path.exists(d):
+                diffs.append((lang, rel, 'missing'))
+            elif sha256(s) != sha256(d):
+                diffs.append((lang, rel, 'content differs'))
+    return diffs
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--check', action='store_true', help='只报告差异，不复制')
+    ap.add_argument('--deploy', action='store_true', help='hub packs → LocalLow 部署侧')
+    ap.add_argument('--check-deployed', action='store_true', help='只报告部署侧与 hub 的哈希差异')
     args = ap.parse_args()
+
+    if args.check_deployed or args.deploy:
+        if args.deploy:
+            low = deployed_root()
+            for lang, rel, _ in deployed_diff():
+                s = os.path.join(HUB, 'packs', lang, rel.replace('/', SEP))
+                d = os.path.join(low, lang, rel.replace('/', SEP))
+                os.makedirs(os.path.dirname(d), exist_ok=True)
+                shutil.copy2(s, d)
+                print(f'  ~ {lang}/{rel}')
+        diffs = deployed_diff()
+        if diffs:
+            print('DEPLOY DRIFT:')
+            for lang, rel, why in diffs:
+                print(f'  ! {lang}/{rel}: {why}')
+            sys.exit(1)
+        print(f'verify-deployed: PASS（{len(PROJECTS)} 语运行时文件与 hub 逐字节一致）')
+        sys.exit(0)
 
     problems = []
     for proj, lang in PROJECTS:

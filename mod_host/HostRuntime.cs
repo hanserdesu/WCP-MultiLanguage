@@ -1,4 +1,4 @@
-// WCP Host — 语言无关的运行时服务
+﻿// WCP Host — 语言无关的运行时服务
 //
 // 这里承载固定的游戏接线：词书身份确认后，宿主把队列、题面、查词、
 // 单词音频和例句按钮交给当前 ILanguageStrategy。代码不包含任何语言
@@ -8,6 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Text;
 using BepInEx.Logging;
 using HarmonyLib;
 using TMPro;
@@ -28,7 +29,24 @@ namespace WcpHost
             new Dictionary<TMP_Text, string>();
         private readonly Dictionary<TMP_Text, string> _labelWritten =
             new Dictionary<TMP_Text, string>();
+        // 第十五轮（2026-09-18）：标签还原分帧。text.text 的 setter 会触发 TMP
+        // 网格重建（单个数毫秒），一次全量还原几十个标签就是切书帧上的
+        // 160~190ms（实机两轮采样复现：装载:离开 161.0 / 190.5ms，内部大头是
+        // 标签还原）。改为把还原项排队，每帧按时间预算（8ms）分批执行。
+        // 正确性守卫与原实现相同：只还原「仍显示旧写入值」的标签 —— 新语言包
+        // 的扫描已经改写过的标签不会被旧备份覆盖。
+        private sealed class RestoreItem
+        {
+            internal TMP_Text Text;
+            internal string Backup;
+            internal string Written;
+        }
+        private readonly List<RestoreItem> _pendingRestore = new List<RestoreItem>();
+        private const long LabelRestoreBudgetMs = 8;
         private SentenceAudioService _sentenceAudio;
+        private SentenceTable _sentenceTable;
+        private LanguageManifest _sentenceTableManifest;
+        private bool _sentenceTableReported;
         private HostAudioPlayer _audio;
         private IList<string> _activeWords;
         private string _activeProfileId;
@@ -73,7 +91,17 @@ namespace WcpHost
             if (string.Equals(_activeProfileId, next, StringComparison.Ordinal))
             {
                 _activeWords = words;
-                if (IsActive && ActiveStrategy != null) _scope.Enforce();
+                // 第七轮（2026-09-18）：这里原来还有一次 `_scope.Enforce()`
+                // （标签"身份:同名校正"），删掉了 —— 它是纯重复。
+                //
+                // 等价性证明：SetIdentity 只有两个调用场景，两个场景里紧接着都会
+                // 再走一次同一个 Enforce：
+                //   · Host.Update:      Evaluate() → … → _runtime.Tick() → _scope.Enforce()
+                //   · Host.EnforceNowForScene: Evaluate() → _runtime.EnforceNow() → _scope.Enforce()
+                // 两次调用之间没有让出主线程（都在同一个 Update / 同一个回调里），
+                // 游戏侧不可能改动队列，所以第二次执行看到的状态与第一次执行之后
+                // 完全相同 —— 而 Enforce 是幂等的（干净且够长的列表一律不重写）。
+                // 也就是说这一行**只增加一倍工作量，不改变任何结果**。
                 return;
             }
 
@@ -94,8 +122,15 @@ namespace WcpHost
                     manifest.Profile.Id);
             else
             {
-                _scope.Enter(manifest, _activeWords);
-                EnsureServices();
+                using (PerfProbe.Begin("身份:接管语言包"))
+                {
+                    // 第十一轮（2026-09-18）：这段在实机切书帧单次 197.7ms，此前是
+                    // 一个黑盒（只知道"接管语言包慢"）。Enter 里除了一次整档读
+                    // （RecoverStale 读索引键）之外全是内存操作，所以要先把
+                    // 「范围进入 / 服务就绪」拆开，再决定往里看哪一层。
+                    using (PerfProbe.Begin("装载:范围进入")) _scope.Enter(manifest, _activeWords);
+                    using (PerfProbe.Begin("装载:服务就绪")) EnsureServices();
+                }
                 WcpHostPlugin.Log.LogInfo("WcpHost: 接管语言包 " + manifest.Profile.Language +
                     " / " + manifest.Profile.Id);
             }
@@ -123,17 +158,17 @@ namespace WcpHost
         internal void Tick()
         {
             if (!IsActive || ActiveStrategy == null) return;
-            EnsureServices();
-            TryBeginWordAudioMirror();
-            try { _scope.Enforce(); }
-            catch (Exception e) { Warn("运行态队列校正失败: " + e.Message); }
-            try { ScanBookLabelsThrottled(); }
-            catch (Exception e) { Warn("书名/UI 扫描失败: " + e.Message); }
-            try
+            using (PerfProbe.Begin("运行态:Tick"))
             {
-                _sentenceAudio.Tick();
+                EnsureServices();
+                TryBeginWordAudioMirror();
+                try { using (PerfProbe.Begin("运行态:队列校正")) _scope.Enforce(); }
+                catch (Exception e) { Warn("运行态队列校正失败: " + e.Message); }
+                try { using (PerfProbe.Begin("运行态:书名扫描")) ScanBookLabelsThrottled(); }
+                catch (Exception e) { Warn("书名/UI 扫描失败: " + e.Message); }
+                try { using (PerfProbe.Begin("运行态:例句按钮")) _sentenceAudio.Tick(); }
+                catch (Exception e) { Warn("例句按钮扫描失败: " + e.Message); }
             }
-            catch (Exception e) { Warn("例句按钮扫描失败: " + e.Message); }
         }
 
         internal void OnDisabled()
@@ -232,6 +267,12 @@ namespace WcpHost
         // 宿主未接管时发音静默变成英语 AI 语音。这里在激活语言包时把 pack 的
         // 单词音频补进游戏原生目录：只补缺、分批做（不卡帧）、可中断可重入，
         // 失败只记日志。整段不写任何语言专属路径——目标目录由引擎约定推导。
+        // 单词音频兼容层：主线程只做「O(1) 判据 + 投递」，真正的枚举与复制全在
+        // MirrorWorker 的后台线程上跑。主线程在这里的耗时是一次 DirectoryInfo.stat
+        // 加一次几行的标记文件读取，与包大小无关。
+        //
+        // 主线程为什么不能省掉这一趟：Application.persistentDataPath 是 Unity API，
+        // 只能主线程取；路径算好再传进线程，线程里不碰任何 Unity API。
         private void TryBeginWordAudioMirror()
         {
             if (_mirrorAttempted) return;
@@ -240,63 +281,39 @@ namespace WcpHost
 
             LanguageManifest manifest = ActiveManifest;
             if (manifest == null || string.IsNullOrEmpty(manifest.WordAudioDir)) return;
-            string source = manifest.Resolve(manifest.WordAudioDir);
-            if (string.IsNullOrEmpty(source) || !Directory.Exists(source)) return;
 
-            string parent = Path.GetDirectoryName(Application.persistentDataPath);
-            if (string.IsNullOrEmpty(parent)) return;
-            string targetDir = Path.Combine(parent, "vocabulary");
-
-            try
+            using (PerfProbe.Begin("镜像:投递"))
             {
-                string[] files = WordAudioCompat.ListSourceFiles(source);
-                if (files == null || files.Length == 0) return;
-                string stamp = WordAudioCompat.ExpectedStamp(manifest.Profile.Id, files.Length);
-                if (WordAudioCompat.StampMatches(WordAudioCompat.StampPath(targetDir), stamp))
-                    return;
-                if (WcpHostPlugin.Log != null)
-                    WcpHostPlugin.Log.LogInfo("WcpHost: 单词音频兼容层开始（" +
-                        manifest.Profile.Language + " 共 " + files.Length + " 个文件 → " +
-                        targetDir + "）");
-                _plugin.StartCoroutine(MirrorWordAudio(files, targetDir, stamp));
-            }
-            catch (Exception e)
-            {
-                Warn("单词音频兼容层启动失败: " + e.Message);
-            }
-        }
+                string source = manifest.Resolve(manifest.WordAudioDir);
+                if (string.IsNullOrEmpty(source) || !Directory.Exists(source)) return;
 
-        private IEnumerator MirrorWordAudio(string[] files, string targetDir, string stamp)
-        {
-            int copied = 0;
-            int skipped = 0;
-            int failed = 0;
-            int frameCount = 0;
-            float frameBudget = Time.realtimeSinceStartup + WordAudioCompat.FrameBudgetSeconds;
-            for (int i = 0; i < files.Length; i++)
-            {
-                string target = Path.Combine(targetDir, Path.GetFileName(files[i]));
-                if (WordAudioCompat.AlreadyPresent(files[i], target)) skipped++;
-                else if (WordAudioCompat.TryCopy(files[i], target)) copied++;
-                else failed++;
+                string parent = Path.GetDirectoryName(Application.persistentDataPath);
+                if (string.IsNullOrEmpty(parent)) return;
+                string targetDir = Path.Combine(parent, "vocabulary");
 
-                frameCount++;
-                if (frameCount >= WordAudioCompat.MaxFilesPerFrame ||
-                    Time.realtimeSinceStartup >= frameBudget)
+                try
                 {
-                    frameCount = 0;
-                    frameBudget = Time.realtimeSinceStartup +
-                                  WordAudioCompat.FrameBudgetSeconds;
-                    yield return null;
+                    // 跳过判据 O(1)：pack 身份 + 源目录 mtime（各一次系统调用），
+                    // 完全不枚举目录。标记文件按 pack 分行累积，所以"切回已经镜像过
+                    // 的语言"也是 O(1) 跳过 —— 旧实现只存一行，切一次库就全量重扫
+                    // 一遍 7.8 万个目录项，这是切词库卡顿的直接来源之一。
+                    string stampPrefix = WordAudioCompat.StampPrefix(manifest.Profile.Id, source);
+                    if (WordAudioCompat.StampMatches(
+                            WordAudioCompat.StampPath(targetDir), stampPrefix))
+                        return;
+                    if (WcpHostPlugin.Log != null)
+                        WcpHostPlugin.Log.LogInfo("WcpHost: 单词音频兼容层安排（" +
+                            manifest.Profile.Language + " → " + targetDir +
+                            "，后台线程执行，不占帧）");
+                    MirrorWorker.Request(manifest.Profile.Id, source, targetDir);
+                }
+                catch (Exception e)
+                {
+                    Warn("单词音频兼容层启动失败: " + e.Message);
                 }
             }
-            if (failed == 0)
-                WordAudioCompat.WriteStamp(WordAudioCompat.StampPath(targetDir), stamp);
-            if (WcpHostPlugin.Log != null)
-                WcpHostPlugin.Log.LogInfo("WcpHost: 单词音频兼容层完成：复制=" + copied +
-                    " 已存在=" + skipped + " 失败=" + failed +
-                    (failed == 0 ? "（已记录，后续会话跳过）" : "（下次会话重试）"));
         }
+
 
         internal void PostMultipleChoice(object instance)
         {
@@ -385,16 +402,124 @@ namespace WcpHost
                 string word = StaticString("checkWordInDictionary");
                 if (string.IsNullOrEmpty(word)) return;
                 string meaning, phonic;
-                if (!ActiveStrategy.ProvideMeaning(word, out meaning, out phonic)) return;
-                TMP_Text meaningText = GameAdapter.InstanceField(instance, "meaningText") as TMP_Text;
-                TMP_Text us = GameAdapter.InstanceField(instance, "usPhoneticText") as TMP_Text;
-                TMP_Text uk = GameAdapter.InstanceField(instance, "ukPhoneticText") as TMP_Text;
-                if (meaningText != null && !string.IsNullOrEmpty(meaning))
-                    meaningText.text = meaning + Environment.NewLine;
-                if (us != null && !string.IsNullOrEmpty(phonic)) us.text = phonic;
-                if (uk != null && !string.IsNullOrEmpty(phonic)) uk.text = string.Empty;
+                if (ActiveStrategy.ProvideMeaning(word, out meaning, out phonic))
+                {
+                    TMP_Text meaningText = GameAdapter.InstanceField(instance, "meaningText") as TMP_Text;
+                    TMP_Text us = GameAdapter.InstanceField(instance, "usPhoneticText") as TMP_Text;
+                    TMP_Text uk = GameAdapter.InstanceField(instance, "ukPhoneticText") as TMP_Text;
+                    if (meaningText != null && !string.IsNullOrEmpty(meaning))
+                        meaningText.text = meaning + Environment.NewLine;
+                    if (us != null && !string.IsNullOrEmpty(phonic)) us.text = phonic;
+                    if (uk != null && !string.IsNullOrEmpty(phonic)) uk.text = string.Empty;
+                }
+                // 【例句】区只认 wcpFullEng.db 的 sentence2。资源隔离落地后语言包默认不再
+                // 写共享库（AllowSharedDatabaseWrites=false），库里只剩英语 → 受管词书的
+                // 该区永远空白（日志「没有例句」）。这里由 pack 例句表兜住，不再依赖游戏 DB。
+                ApplySentenceTable(instance, word);
             }
             catch (Exception e) { Warn("查词面板改写失败: " + e.Message); }
+        }
+
+        // 例句文本自服务。参数与渲染格式严格对齐游戏原本的写库路径:
+        //   库里存的是 "例句：<原文>（<译文>）"，游戏做三段 Replace 后拼进 outputText:
+        //     例句：    → <color=#FFBE31>例句N：</color>
+        //     （        → "\n\n释义："
+        //     ）        → ""
+        //   每个句子后再接 "\n\n"。SentenceReplyManager 解析的就是这个形态。
+        private void ApplySentenceTable(object instance, string word)
+        {
+            // 只有 S8 查词面板有例句区；S8checkWordMeaning / ButtonTextTransfer 没有该字段。
+            TMP_Text output = GameAdapter.InstanceField(instance, "outputText") as TMP_Text;
+            if (output == null) return;
+
+            SentenceTable table = SentenceTableFor(ActiveManifest);
+            if (table == null) return;
+            List<string> raw;
+            if (!table.TryGet(word, out raw) || raw.Count == 0)
+            {
+                ReportSentenceTable(table, 0);
+                return;
+            }
+
+            // 与游戏一致: 受 outputCount 与例句槽位数双重限制，越界会打穿 exmplesentences 数组。
+            int cap = raw.Count;
+            object configured = GameAdapter.InstanceField(instance, "outputCount");
+            if (configured is int && (int)configured > 0 && (int)configured < cap) cap = (int)configured;
+            Array slots = GameAdapter.InstanceField(instance, "exmplesentences") as Array;
+            if (slots != null && slots.Length > 0 && slots.Length < cap) cap = slots.Length;
+
+            StringBuilder text = new StringBuilder();
+            List<string> filled = new List<string>(cap);
+            for (int i = 0; i < cap; i++)
+            {
+                string s = raw[i];
+                if (string.IsNullOrEmpty(s)) continue;
+                s = s.Replace("例句：", "<color=#FFBE31>例句" + (i + 1) + "：</color>");
+                s = s.Replace("（", "\n\n释义：");
+                s = s.Replace("）", "");
+                text.Append(s).Append("\n\n");
+                filled.Add(s);
+            }
+            if (filled.Count == 0) return;
+
+            output.text = text.ToString();
+            ReportSentenceTable(table, filled.Count);
+
+            // ▶ 例句按钮读的是 exmplesentences[i].text，由游戏自己的 ReserveExampleSentences 写。
+            // 把它当可选增强: 反射不到只影响音频按钮，不影响已经生效的例句文本。
+            MethodInfo reserve = null;
+            try
+            {
+                reserve = instance.GetType().GetMethod("ReserveExampleSentences",
+                    BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            }
+            catch (Exception) { reserve = null; }
+            if (reserve == null) return;
+            try
+            {
+                IList<string> shared =
+                    GameAdapter.StaticField(GameAdapter.ParametersType, "exaple_sentences") as IList<string>;
+                if (shared != null) shared.Clear();
+                for (int i = 0; i < filled.Count; i++)
+                    reserve.Invoke(instance, new object[] { filled[i] });
+            }
+            catch (Exception e)
+            {
+                Warn("例句槽填充失败（▶ 例句按钮可能不响）: " + e.Message);
+            }
+        }
+
+        private SentenceTable SentenceTableFor(LanguageManifest manifest)
+        {
+            if (manifest == null) return null;
+            if (_sentenceTable != null && ReferenceEquals(_sentenceTableManifest, manifest))
+                return _sentenceTable;
+            string path = null;
+            try { path = _router.Resolve(ResourceKind.SentenceTable, null); }
+            catch (Exception) { path = null; }
+            _sentenceTable = new SentenceTable(path);
+            _sentenceTableManifest = manifest;
+            _sentenceTableReported = false;
+            return _sentenceTable;
+        }
+
+        // 例句表首用即整表解析（ru 约 4 MB）。只报一次，避免每个词刷一行。
+        private void ReportSentenceTable(SentenceTable table, int used)
+        {
+            if (_sentenceTableReported) return;
+            _sentenceTableReported = true;
+            if (table.LastError != null)
+            {
+                Warn("例句表不可用（例句区将保持游戏原状）: " + table.LastError);
+                return;
+            }
+            Info("例句表已装载: " + table.RowCount + " 词 / " + table.LoadMs.ToString("F0") + " ms → " +
+                 table.Path + "（本次注入 " + used + " 句）");
+        }
+
+        private static void Info(string message)
+        {
+            if (WcpHostPlugin.Log != null) WcpHostPlugin.Log.LogInfo("WcpHost: " + message);
         }
 
         internal void PostAnswer(object instance)
@@ -411,7 +536,11 @@ namespace WcpHost
 
         internal void EnforceNow()
         {
-            if (IsActive && ActiveStrategy != null) _scope.Enforce();
+            // 第十轮加标签：原来这里是裸调用，于是"被 Harmony 补丁触发的场景校正"
+            // 与"每秒 Tick 里的队列校正"在日志里无法区分（后者有 运行态:队列校正）。
+            // 分开之后才能回答"切书后那几秒的校正到底是谁在跑、跑了几次"。
+            if (IsActive && ActiveStrategy != null)
+                using (PerfProbe.Begin("运行态:场景校正")) _scope.Enforce();
         }
 
         // ── 战斗词池接管 ──
@@ -425,12 +554,18 @@ namespace WcpHost
             if (!IsActive || ActiveStrategy == null) return true;
             try
             {
-                List<string> rebuilt = _scope.RebuildPool("S7TestWordList_Para", list, requested);
-                if (rebuilt != null && !SameWords(list, rebuilt))
+                // 这条路上有两处 ES3 写（RebuildPool 里的 CaptureList，以及下面的
+                // 游戏字段）。用一个批量作用域包住整段 = 一次整档读写而不是两次；
+                // RebuildPool 自己那层作用域会识别到已在批量中，不再嵌套。
+                using (GameAdapter.Es3BatchScope())
                 {
-                    list = rebuilt;
-                    GameAdapter.SetStaticField(GameAdapter.ParametersType, "S7TestWordList_Para", rebuilt);
-                    GameAdapter.Es3Save("S7TestWordList_Para", rebuilt);
+                    List<string> rebuilt = _scope.RebuildPool("S7TestWordList_Para", list, requested);
+                    if (rebuilt != null && !SameWords(list, rebuilt))
+                    {
+                        list = rebuilt;
+                        GameAdapter.SetStaticField(GameAdapter.ParametersType, "S7TestWordList_Para", rebuilt);
+                        GameAdapter.Es3Save("S7TestWordList_Para", rebuilt);
+                    }
                 }
                 // 受管词书下补池一律由宿主负责: 即使本次没有变化，也不能让游戏
                 // 回退到全局词典或 one..five 占位词。
@@ -511,9 +646,17 @@ namespace WcpHost
         {
             if (_leftOnce) return;
             _leftOnce = true;
-            if (_sentenceAudio != null) _sentenceAudio.Leave();
-            RestoreLabels();
-            _scope.Leave();
+            // 第十一轮（2026-09-18）：`身份:装载` 在实机切书帧是 404.6ms，而它内部的
+            // `身份:接管语言包` 只占 197.7ms —— 剩下约 207ms 一直没有归属。这一段
+            // （LeaveCurrent）就是那个差额的头号嫌疑：RestoreLabels 是一次全场景
+            // 文本扫描，_scope.Leave 里还要读两个 owned 键（各一次整档解析）。
+            // 拆开，让差额落地。
+            using (PerfProbe.Begin("装载:离开"))
+            {
+                if (_sentenceAudio != null) _sentenceAudio.Leave();
+                using (PerfProbe.Begin("装载:离开·标签还原")) RestoreLabels();
+                _scope.Leave();
+            }
             // 离开当前语言范围后音频缓存不再有用，及时释放避免长会话内存增长。
             if (_audio != null) _audio.ClearCache();
             _labelScanIdleCount = 0;
@@ -646,23 +789,18 @@ namespace WcpHost
             return names;
         }
 
-        // 美化名 → 槽位（词表指纹认槽；10s 缓存，避免每帧重算 8000 词哈希）
-        private readonly Dictionary<string, int> _displaySlot =
-            new Dictionary<string, int>();
-        private float _displaySlotAt;
-
+        // 美化名 → 槽位（词表指纹认槽）。
+        //
+        // 第七轮（2026-09-18）：删掉了原来的 `_displaySlot` + 10 秒整体清空缓存。
+        // 那个缓存是个陷阱 —— 它不是"按槽缓存"，而是"按显示文本缓存"，每 10 秒被
+        // `_displaySlot.Clear()` 整体作废一次（`_displaySlotAt` 只在清空那一刻更新），
+        // 于是每 10 秒就要把每一行 × 每个槽重新问一遍；而每次问又要走
+        // SlotWords（ES3 全文档解析）+ 两次 Match（词表指纹）。
+        // 现在 ManifestForSlot 本身已经是 O(1)（按槽号 + 词表实例缓存），这一层
+        // 缓存没有存在价值了，留着只会引入"文本变了但缓存没失效"的陈旧读取。
         private int SlotByDisplayName(string text)
         {
             if (string.IsNullOrEmpty(text)) return 0;
-            float now = Time.unscaledTime;
-            if (now - _displaySlotAt > 10f)
-            {
-                _displaySlot.Clear();
-                _displaySlotAt = now;
-            }
-            int cached;
-            if (_displaySlot.TryGetValue(text, out cached)) return cached;
-            int found = 0;
             int count = GameAdapter.NativeSlotCount();
             for (int slot = 1; slot <= count; slot++)
             {
@@ -670,13 +808,9 @@ namespace WcpHost
                 if (m == null || m.Profile == null ||
                     string.IsNullOrEmpty(m.Profile.DisplayName)) continue;
                 if (text.StartsWith(m.Profile.DisplayName, StringComparison.Ordinal))
-                {
-                    found = slot;
-                    break;
-                }
+                    return slot;
             }
-            _displaySlot[text] = found;
-            return found;
+            return 0;
         }
 
         private void WriteLabel(TMP_Text text, string value)
@@ -690,22 +824,97 @@ namespace WcpHost
 
         private void RestoreLabels()
         {
+            // 第十五轮：不再当场还原（TMP setter 的网格重建是切书帧 160~190ms 的
+            // 大头），把还原项移入队列，由 DrainLabelRestores 分帧消化。
+            // 判据不变：text.text == written 才还原；已经不显示旧写入值的标签
+            //（被新扫描改写 / 被游戏改写）直接丢弃，不还原 —— 与原实现一致。
             foreach (KeyValuePair<TMP_Text, string> pair in _labelBackup)
             {
                 TMP_Text text = pair.Key;
                 string written;
-                if (text != null && _labelWritten.TryGetValue(text, out written) && text.text == written)
-                    text.text = pair.Value;
+                if (text != null && _labelWritten.TryGetValue(text, out written))
+                {
+                    RestoreItem item = new RestoreItem();
+                    item.Text = text;
+                    item.Backup = pair.Value;
+                    item.Written = written;
+                    _pendingRestore.Add(item);
+                }
             }
             _labelBackup.Clear();
             _labelWritten.Clear();
         }
 
+        /// <summary>每帧调用：按时间预算分批还原旧标签（Host.Update 挂钩）。</summary>
+        internal void DrainLabelRestores()
+        {
+            if (_pendingRestore.Count == 0) return;
+            System.Diagnostics.Stopwatch sw = System.Diagnostics.Stopwatch.StartNew();
+            using (PerfProbe.Begin("还原:分帧"))
+            {
+                for (int i = _pendingRestore.Count - 1; i >= 0; i--)
+                {
+                    RestoreItem item = _pendingRestore[i];
+                    TMP_Text text = item.Text;
+                    if (text != null && text.text == item.Written)
+                    {
+                        text.text = item.Backup;
+                        if (sw.ElapsedMilliseconds >= LabelRestoreBudgetMs)
+                        {
+                            _pendingRestore.RemoveAt(i);
+                            break;    // 预算用完，剩余项留到下一帧
+                        }
+                        _pendingRestore.RemoveAt(i);
+                        continue;
+                    }
+                    _pendingRestore.RemoveAt(i);   // 已失效（被改写/销毁）：丢弃
+                }
+            }
+        }
+
+        // 槽位 → 语言包。第七轮（2026-09-18）改了两处，两处都是纯冗余消除：
+        //
+        //  1) 原实现把 `_registry.Match(words)` **调用了两次**（同一份词表、同一个
+        //     确定性函数），第二次的结果与第一次逐字节相同，属于纯重复劳动。
+        //     实测单价（probes/csbench/bench2_report.txt，同代 BCL）：
+        //       7922 词 1.26ms / 8116 词 1.96ms / 8451 词 3.75ms
+        //  2) 原来没有任何缓存。而 SlotByDisplayName 会对每一行 × 每个槽问一次，
+        //     一次 UI 扫描就能问几十次 —— 每次都重算指纹。
+        //
+        // 缓存键用**词表实例本身**（引用相等）：GameAdapter.SlotWords 在 MyBook.es3
+        // 的 (mtime,size) 未变时返回同一个实例，实例一变说明词表内容确实变了。
+        // 也就是说"引用相同 ⇒ 输入相同 ⇒ 指纹相同"，判据是这个函数的强等价条件，
+        // 不存在读旧值的可能。
+        private sealed class SlotManifestEntry
+        {
+            internal IList<string> Words;
+            internal LanguageManifest Manifest;
+        }
+
+        private readonly Dictionary<int, SlotManifestEntry> _slotManifest =
+            new Dictionary<int, SlotManifestEntry>();
+
         private LanguageManifest ManifestForSlot(int slot)
         {
             IList<string> words = GameAdapter.SlotWords(slot);
-            return words == null ? null : _registry.ByProfileId(_registry.Match(words) == null
-                ? null : _registry.Match(words).Id);
+            if (words == null)
+            {
+                _slotManifest.Remove(slot);
+                return null;
+            }
+            SlotManifestEntry cached;
+            if (_slotManifest.TryGetValue(slot, out cached) &&
+                ReferenceEquals(cached.Words, words))
+                return cached.Manifest;
+
+            BookProfile profile = _registry.Match(words);
+            LanguageManifest manifest = profile == null
+                ? null : _registry.ByProfileId(profile.Id);
+            cached = new SlotManifestEntry();
+            cached.Words = words;
+            cached.Manifest = manifest;
+            _slotManifest[slot] = cached;
+            return manifest;
         }
 
         private string StaticString(string field)

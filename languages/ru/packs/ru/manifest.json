@@ -36,7 +36,7 @@
     "sentences": "ru_sentences.tsv",
     "payload_files": {
       "ru_pron.tsv": "19e801f711c0a0e88fa6f31e183d7087cfce7d660e7f432105e6bbc47c9d8b27",
-      "ru_sentences.tsv": "aa6a3b53206f7f0b93b3e99fa8d170246fa8e386b1f5724bb935355ba17127bc",
+      "ru_sentences.tsv": "6346e22e82b8c23a35455c07ee148ae6c67345adbd6da69188689cd0c90f29f6",
       "ru_only_pron.tsv": "19e801f711c0a0e88fa6f31e183d7087cfce7d660e7f432105e6bbc47c9d8b27"
     }
   },

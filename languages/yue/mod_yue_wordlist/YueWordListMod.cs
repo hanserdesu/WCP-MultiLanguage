@@ -89,6 +89,9 @@ namespace YueWordList
         // 跨词书启动守卫
         private static bool _crossBookGuardDone;
         private static bool _disabledCleanupDone;
+        // 已让位宿主 WcpHost 的标志。注意 Awake 里的 return 只跳过了 PatchAll,
+        // 挡不住 Update 的三个每秒轮询 —— 详见 Update() 顶部说明。
+        private static bool _yieldedToHost;
         // 其它受管语言词书正在激活时暂缓还原 (跨插件写序竞争守卫)。
         // 根因: 切到另一本受管词书的瞬间, 对方插件可能已经重建了共享队列;
         // 本插件随后的切书还原会把旧基线盖回去, 再触发 FightList 时
@@ -157,7 +160,8 @@ namespace YueWordList
                 + "<persistentDataPath>/yue_word_audio（迁移期行为，只读）。");
             if (HostTakesOver())
             {
-                Log.LogWarning("YueWordList: WcpHost 已接管粤语, 旧词表插件不再打补丁 (Legacy/YieldToHost=false 可强制旧模式)。");
+                _yieldedToHost = true;
+                Log.LogWarning("YueWordList: WcpHost 已接管粤语, 旧词表插件不再打补丁, 轮询 Enforce 一并停用 (Legacy/YieldToHost=false 可强制旧模式)。");
                 return;
             }
             PatchAll();
@@ -379,6 +383,13 @@ namespace YueWordList
         {
             if (_wordAudio != null && _wordAudio.clip != null &&
                 (!IsEnabled() || BookState() != 1)) StopWordAudio();
+            // 已让位宿主: 受管字段的唯一写者必须是宿主 TakeoverScope。
+            // Awake 里的 return 只跳过了 PatchAll —— Update 照旧每 1s 跑一次
+            // Enforce() / TickDbHeal() / TickSharedDbSwitch(), 三者都在写游戏
+            // 共享库或共享队列, 与宿主争同一批受管字段。让位后必须零字段写入。
+            // 实证: RU 加此门控后 PLAYER.log 里恒为 100 的
+            // 「队列与完成状态不一致」重建计数降到 0。
+            if (_yieldedToHost) return;
             if (!IsEnabled())
             {
                 CleanupDisabledState();

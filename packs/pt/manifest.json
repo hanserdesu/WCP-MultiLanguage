@@ -32,8 +32,8 @@
     "pron": "pt_pron.tsv",
     "sentences": "pt_sentences.tsv",
     "payload_files": {
-      "pt_pron.tsv": "2f214cb98ef4dcc41c3614a7e72c1b10a0933a5fbd408821e950d4c7a2f82378",
-      "pt_sentences.tsv": "006e2c8843b0df9254e35b2a5ad112ce4547d6325b5aa32e4f14699c21cd7576"
+      "pt_pron.tsv": "12d4e3a4b0ebfa5181c1b054a603a220ee88b272181ba1a7afa3d63c16b34085",
+      "pt_sentences.tsv": "02fbea32490a6d1a4efe2cec2a8bebd36cc21298743e89cf652be00cb3176399"
     }
   },
   "book_sha256": {
@@ -41,7 +41,7 @@
   },
   "counts": {
     "pron": 8599,
-    "sentence_rows": 25797,
+    "sentence_rows": 25796,
     "sentence_words": 8599,
     "words_without_sentences": 0
   },

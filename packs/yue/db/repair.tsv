@@ -22,7 +22,7 @@ row	sentence	下晝			例句：下晝三點去食下午茶。（haa6 zau3 saam1 
 row	sentence	下晝			例句：下晝我有一個面試。（haa6 zau3 ngo5 jau5 jat1 go3 min6 si3.）（下午我有一个面试。）	
 row	pron	乾炒牛河	[gon1 caau2 ngau4 ho2]		[gon1 caau2 ngau4 ho2] 干炒牛河（考验粤菜厨师镬气的经典炒河粉）〈名〉	
 row	sentence	乾炒牛河			例句：一碟合格嘅乾炒牛河必須夠鑊氣。（jat1 dip6 hap6 gak3 ge3 gon1 caau2 ngau4 ho2 bit1 seoi1 gau3 wok6 hei3.）（一盘合格的干炒牛河必须锅气十足。）	
-row	sentence	乾炒牛河			例句：牛肉好嫩，河粉條條分明。（ngau4 juk6 hou2 nyun3, ho4 fan2 tiu4 tiu4 fan1 ming4.）（牛肉鲜嫩，河粉根根分明不上色过黑。）	
+row	sentence	乾炒牛河			例句：牛肉好嫩，河粉條條分明。（ngau4 juk6 hou2 nyun3, ho4 fan2 tiu4 tiu4 fan1 ming4.）（牛肉鲜嫩，河粉根根分明。）	
 row	pron	亂龍	[lyun6 lung4]		[lyun6 lung4] 乱套，混乱，杂乱无章〈形/动〉	
 row	sentence	亂龍			例句：人手唔夠，成個現場搞到亂晒龍。（jan4 sau2 m4 gau3, seng4 go3 jin6 coeng4 gaau2 dou3 lyun6 saai3 lung4.）（人手不够，整个现场搞得乱成一团糟。）	
 row	sentence	亂龍			例句：排隊唔好插隊，唔係就亂龍㗎喇。（paai4 deoi2 m4 hou2 caap3 deoi2, m4 hai6 zau6 lyun6 lung4 gaa3 laa3.）（排队不要插队，不然就要乱套了。）	
@@ -109,7 +109,7 @@ row	sentence	出太陽			例句：連續落咗幾日雨，今日終於出太陽�
 row	sentence	出太陽			例句：出太陽可以去海灘玩。（ceot1 taai3 joeng4 ho2 ji5 heoi3 hoi2 taan1 waan2.）（出太阳可以去沙滩玩。）	
 row	pron	出差	[ceot1 caai1]		[ceot1 caai1] 出差〈动〉	
 row	sentence	出差			例句：下個禮拜我要去北京出差。（haa6 go3 lai5 baai3 ngo5 jiu3 heoi3 bak1 ging1 ceot1 caai1.）（下周我要去北京出差。）	
-row	sentence	出差			例句：出差住酒店記得攞發票。（ceot1 caai1 zyu6 zau2 dim3 gei3 dak1 lo2 faat3 piu3.）（出差住酒店记得拿发票报销。）	
+row	sentence	出差			例句：出差住酒店記得攞發票。（ceot1 caai1 zyu6 zau2 dim3 gei3 dak1 lo2 faat3 piu3.）（出差住酒店记得拿发票。）	
 row	pron	出糧	[ceot1 loeng4]		[ceot1 loeng4] 发薪水，发工资〈动〉	
 row	sentence	出糧			例句：今日出糧，今晚食餐好嘅慶祝！（gam1 jat6 ceot1 loeng4, gam1 maan5 sik6 caan1 hou2 ge3 hing3 zuk1!）（今天发工资，今晚吃顿大餐庆祝！）	
 row	sentence	出糧			例句：每個月最開心就係出糧嗰日。（mui5 go3 jyut6 zeoi3 hoi1 sam1 zau6 hai6 ceot1 loeng4 go2 jat6.）（每个月最开心的就是发工资那天。）	
@@ -228,11 +228,11 @@ row	pron	嚿	[gau6]		[gau6] 块（量词，用于块状物）〈量〉
 row	sentence	嚿			例句：食多嚿肉啦。（sik6 do1 gau6 juk6 laa1.）（多吃一块肉吧。）	
 row	sentence	嚿			例句：地下有嚿大石頭。（dei6 haa2 jau5 gau6 daai6 sek6 tau4.）（地上有一块大石头。）	
 row	pron	因為	[jan1 wai6]		[jan1 wai6] 因为〈连〉	
-row	sentence	因為			例句：因為落雨，所以取消咗活動。（jan1 wai6 lok6 jyu5, so2 ji5 ceoi2 siu1 zo2 wut6 dung6.）（因为下雨，所以取消了户外活动。）	
+row	sentence	因為			例句：因為落雨，所以取消咗活動。（jan1 wai6 lok6 jyu5, so2 ji5 ceoi2 siu1 zo2 wut6 dung6.）（因为下雨，所以取消了活动。）	
 row	sentence	因為			例句：佢因為努力而成功。（keoi5 jan1 wai6 nou5 lik6 ji4 sing4 gung1.）（他因为刻苦努力而获得成功。）	
 row	pron	地鐵	[dei6 tit3]		[dei6 tit3] 地铁〈名〉	
 row	sentence	地鐵			例句：搭地鐵好方便，唔怕塞車。（daap3 dei6 tit3 hou2 fong1 bin6, m4 paa3 sak1 ce1.）（坐地铁很方便，不怕堵车。）	
-row	sentence	地鐵			例句：請勿靠近地鐵閘門。（cing2 mat6 kaau3 gan6 dei6 tit3 zaap6 mun4.）（请勿靠近地铁车门。）	
+row	sentence	地鐵			例句：請勿靠近地鐵閘門。（cing2 mat6 kaau3 gan6 dei6 tit3 zaap6 mun4.）（请勿靠近地铁闸门。）	
 row	pron	埋	[maai4]		[maai4] 连同，全部一起；靠拢〈助/动〉	
 row	sentence	埋			例句：食埋呢啖飯就走。（sik6 maai4 ni1 daam6 faan6 zau6 zau2.）（吃完这口饭就走。）	
 row	sentence	埋			例句：行埋一邊，咪阻住條路。（haang4 maai4 jat1 bin1, mai5 zo2 zyu6 tiu4 lou6.）（靠边走，别挡住路。）	
@@ -255,8 +255,8 @@ row	pron	多	[do1]		[do1] 多〈形/数〉
 row	sentence	多			例句：今日街上面好多人。（gam1 jat6 gaai1 soeng6 min6 hou2 do1 jan4.）（今天街上很多人。）	
 row	sentence	多			例句：多謝你嘅幫忙。（do1 ze6 nei5 ge3 bong1 mong4.）（多谢你的帮忙。）	
 row	pron	多謝	[do1 ze6]		[do1 ze6] 多谢，感谢（用于接收礼物、款待或厚意）〈动/叹〉	
-row	sentence	多謝			例句：多謝你嘅禮物！（do1 ze6 nei5 ge3 lai5 mat6!）（多谢你的精美礼物！）	
-row	sentence	多謝			例句：多謝大家嘅支持同厚愛。（do1 ze6 daai6 gaa1 ge3 zi1 ci4 tung4 hau5 oi3.）（非常感谢大家的支持与厚爱。）	
+row	sentence	多謝			例句：多謝你嘅禮物！（do1 ze6 nei5 ge3 lai5 mat6!）（多谢你的礼物！）	
+row	sentence	多謝			例句：多謝大家嘅支持同厚愛。（do1 ze6 daai6 gaa1 ge3 zi1 ci4 tung4 hau5 oi3.）（感谢大家的支持与厚爱。）	
 row	pron	夜	[je6]		[je6] 晚，迟，夜晚〈形/名〉	
 row	sentence	夜			例句：咁夜仲未瞓？（gam3 je6 zung6 mei6 fan3?）（这么晚了还没睡？）	
 row	sentence	夜			例句：今晚我好夜先返到。（gam1 maan5 ngo5 hou2 je6 sin1 faan1 dou3.）（今晚我很晚才到家。）	
@@ -470,8 +470,8 @@ row	sentence	拜拜			例句：大家拜拜，路上小心！（daai6 gaa1 baai1
 row	pron	掃地	[sou3 dei6]		[sou3 dei6] 扫地〈动〉	
 row	sentence	掃地			例句：地下好多頭髮，幫手掃地。（dei6 haa2 hou2 do1 tau4 faat3, bong1 sau2 sou3 dei6.）（地上很多头发，帮忙扫一下地。）	
 row	sentence	掃地			例句：每日朝早掃一次地。（mui5 jat6 ziu1 zou2 sou3 jat1 ci3 dei6.）（每天早晨扫一次地。）	
-row	pron	排骨	[paai4 gwat1]		[paai4 gwat1] 豉汁蒸排骨〈名〉	
-row	sentence	排骨			例句：呢籠豉汁蒸排骨好爽口。（ni1 lung4 si6 zap1 zing1 paai4 gwat1 hou2 song2 hau2.）（这笼豉汁蒸排骨很脆爽入味。）	
+row	pron	排骨	[paai4 gwat1]		[paai4 gwat1] 猪排骨，排骨（食材）〈名〉	
+row	sentence	排骨			例句：呢籠豉汁蒸排骨好爽口。（ni1 lung4 si6 zap1 zing1 paai4 gwat1 hou2 song2 hau2.）（这笼豉汁蒸排骨很爽口。）	
 row	sentence	排骨			例句：排骨墊底嘅芋頭好好食。（paai4 gwat1 din3 dai2 ge3 wu6 tau4 hou2 hou2 sik6.）（排骨垫底的芋头非常好吃。）	
 row	pron	搏命	[bok3 meng6]		[bok3 meng6] 拼命，极度卖力，全力以赴〈动〉	
 row	sentence	搏命			例句：為咗買樓，佢日日搏命加班。（wai6 zo2 maai5 lau2, keoi5 jat6 jat6 bok3 meng6 gaa1 baan1.）（为了买房，他天天拼命加班。）	
@@ -520,10 +520,10 @@ row	sentence	放飛機			例句：約好咗三點等，佢居然放我飛機！�
 row	sentence	放飛機			例句：做人最緊要守時，唔好成日放人飛機。（zou6 jan4 zeoi3 gan2 jiu3 sau2 si4, m4 hou2 seng4 jat6 fong3 jan4 fei1 gei1.）（做人最重要守时，不要老是放别人鸽子。）	
 row	pron	散紙	[saan2 zi2]		[saan2 zi2] 零钱，硬币〈名〉	
 row	sentence	散紙			例句：你有冇散紙搭車啊？（nei5 jau5 mou5 saan2 zi2 daap3 ce1 aa3?）（你有零钱坐车吗？）	
-row	sentence	散紙			例句：成個口袋都係散紙。（seng4 go3 hau2 doi2 dou1 hai6 saan2 zi2.）（整个口袋都是零钱硬币。）	
+row	sentence	散紙			例句：成個口袋都係散紙。（seng4 go3 hau2 doi2 dou1 hai6 saan2 zi2.）（整个口袋都是零钱。）	
 row	pron	整	[zing2]		[zing2] 做，弄，修，烹调〈动〉	
 row	sentence	整			例句：今晚我整幾味好餸畀你食。（gam1 maan5 ngo5 zing2 gei2 mei6 hou2 sung3 bei2 nei5 sik6.）（今晚我做几样好菜给你吃。）	
-row	sentence	整			例句：部電話壞咗，要攞去整。（bou6 din6 waa2 waai6 zo2, jiu3 lo2 heoi3 zing2.）（手机坏了，要拿去修。）	
+row	sentence	整			例句：部電話壞咗，要攞去整。（bou6 din6 waa2 waai6 zo2, jiu3 lo2 heoi3 zing2.）（电话坏了，要拿去修。）	
 row	pron	斑馬線	[baan1 maa5 sin3]		[baan1 maa5 sin3] 斑马线，人行横道〈名〉	
 row	sentence	斑馬線			例句：過馬路一定要行斑馬線。（gwo3 maa5 lou6 jat1 ding6 jiu3 haang4 baan1 maa5 sin3.）（过马路一定要走斑马线。）	
 row	sentence	斑馬線			例句：司機會喺斑馬線前停車禮讓行人。（si1 gei1 wui5 hai2 baan1 maa5 sin3 cin4 ting4 ce1 lai5 joeng6 hang4 jan4.）（司机会在斑马线前停车礼让行人。）	
@@ -566,7 +566,7 @@ row	sentence	機場			例句：我去機場接朋友機。（ngo5 heoi3 gei1 coe
 row	pron	正	[zeng3]		[zeng3] 棒，正宗，极好〈形〉	
 row	sentence	正			例句：呢間茶餐廳嘅蛋撻好正！（ni1 gaan1 caa4 caan1 teng1 ge3 daan6 taat1 hou2 zeng3!）（这家茶餐厅的蛋挞太赞了！）	
 row	sentence	正			例句：個湯好正，好濃味。（go3 tong1 hou2 zeng3, hou2 nung4 mei6.）（那汤太棒了，很浓郁。）	
-row	pron	死雞撐飯蓋	[sei2 gai1 caang1 faan6 goi3]		[sei2 gai1 caang1 faan6 goi3] 死不认错，铁证如山依然硬拗抵赖〈熟语〉	
+row	pron	死雞撐飯蓋	[sei2 gai1 caang1 faan6 goi3]		[sei2 gai1 caang1 faan6 goi3] 死不认错，死硬狡辩抵赖〈熟语〉	
 row	sentence	死雞撐飯蓋			例句：明明做錯咗仲喺度死雞撐飯蓋。（ming4 ming4 zou6 co3 zo2 zung6 hai2 dou6 sei2 gai1 caang1 faan6 goi3.）（明明做错了还在那里死不认账死硬狡辩。）	
 row	sentence	死雞撐飯蓋			例句：認錯道歉好過死雞撐飯蓋。（jing6 co3 dou6 hip3 hou2 gwo3 sei2 gai1 caang1 faan6 goi3.）（认错道歉好过死鸭子嘴硬到底。）	
 row	pron	死頂	[sei2 ding2]		[sei2 ding2] 硬撑，咬牙坚持到底〈动〉	
@@ -596,10 +596,10 @@ row	sentence	涼茶			例句：廣東涼茶苦口良藥。（gwong2 dung1 loeng4
 row	pron	添	[tim1]		[tim1] 还，再，连...也（表示递进或强调）〈助/副〉	
 row	sentence	添			例句：唔記得帶鎖匙添！（m4 gei3 dak1 daai3 so2 si4 tim1!）（居然还把钥匙给忘了！）	
 row	sentence	添			例句：飲多杯茶添啦。（jam2 do1 bui1 caa4 tim1 laa1.）（再多喝一杯茶吧。）	
-row	pron	滑蛋牛肉	[waat6 daan2 ngau4 juk6]		[waat6 daan2 ngau4 juk6] 滑蛋牛肉饭（经典茶餐厅碟头饭）〈名〉	
+row	pron	滑蛋牛肉	[waat6 daan2 ngau4 juk6]		[waat6 daan2 ngau4 juk6] 滑蛋牛肉（滑嫩炒蛋配牛肉的菜式，常做成碟头饭）〈名〉	
 row	sentence	滑蛋牛肉			例句：滑蛋牛肉飯嘅蛋好滑好嫩。（waat6 daan2 ngau4 juk6 faan6 ge3 daan2 hou2 waat6 hou2 nyun3.）（滑蛋牛肉饭的鸡蛋非常滑嫩鲜美。）	
 row	sentence	滑蛋牛肉			例句：今晚煮滑蛋牛肉做晚餐。（gam1 maan5 zyu2 waat6 daan2 ngau4 juk6 zou6 maan5 caan1.）（今晚做滑蛋牛肉当晚饭。）	
-row	pron	激氣	[gik1 hei3]		[gik1 hei3] 气人，惹人生气〈动/形〉	
+row	pron	激氣	[gik1 hei3]		[gik1 hei3] 生气，气恼；气人，惹人生气〈动/形〉	
 row	sentence	激氣			例句：呢個細路真係激氣，成日唔聽話。（ni1 go3 sai3 lou6 zan1 hai6 gik1 hei3, seng4 jat6 m4 teng1 waa6.）（这个小孩真气人，整天不听话。）	
 row	sentence	激氣			例句：唔好為咗呢啲小事激氣。（m4 hou2 wai6 zo2 ni1 di1 siu2 si6 gik1 hei3.）（不要为了这些琐碎小事生闷气。）	
 row	pron	濕熱	[sap1 jit6]		[sap1 jit6] 湿热（岭南气候特征）〈形〉	
@@ -608,7 +608,7 @@ row	sentence	濕熱			例句：濕熱天氣個人好易覺得攰。（sap1 jit6 
 row	pron	濕碎	[sap1 seoi3]		[sap1 seoi3] 琐碎，微不足道，小事一桩〈形〉	
 row	sentence	濕碎			例句：呢啲濕碎嘢等我嚟搞掂佢啦。（ni1 di1 sap1 seoi3 je5 dang2 ngo5 lai4 gaau2 dim6 keoi5 laa1.）（这些琐碎小事让我来解决搞定吧。）	
 row	sentence	濕碎			例句：幾十蚊濕碎錢，唔使計較。（gei2 sap6 man1 sap1 seoi3 cin2, m4 sai2 gai3 gaau3.）（几十块钱的小钱，不用计较。）	
-row	pron	灼	[coek3]		[coek3] 白灼（沸水烫熟以保持食材鲜甜嫩滑）〈动〉	
+row	pron	灼	[coek3]		[coek3] 用沸水烫熟（食材），即白灼，以保持鲜甜嫩滑〈动〉	
 row	sentence	灼			例句：白灼菜心好清甜爽脆。（baak6 coek3 coi3 sam1 hou2 cing1 tim4 song2 ceoi3.）（白灼菜心非常清甜脆爽。）	
 row	sentence	灼			例句：白灼海蝦最能食出原味。（baak6 coek3 hoi2 haa1 zeoi3 nang4 sik6 ceot1 jyun4 mei6.）（白灼海虾最能品尝出本味鲜美。）	
 row	pron	炒散	[caau2 saan2]		[caau2 saan2] 打零工，兼职，做兼职临时工〈动〉	
@@ -627,7 +627,7 @@ row	pron	煎釀三寶	[zin1 joeng6 saam1 bou2]		[zin1 joeng6 saam1 bou2] 煎酿�
 row	sentence	煎釀三寶			例句：煎釀三寶有釀青椒、茄子同豆腐。（zin1 joeng6 saam1 bou2 jau5 joeng6 cing1 ziu1, ke2 zi2 tung4 dau6 fu6.）（煎酿三宝有酿青椒、酿茄子和酿豆腐。）	
 row	sentence	煎釀三寶			例句：點甜豉油食煎釀三寶好正。（dim2 tim4 si6 jau4 sik6 zin1 joeng6 saam1 bou2 hou2 zeng3.）（蘸着甜酱油吃煎酿三宝太赞了。）	
 row	pron	煲	[bou1]		[bou1] 煲，煮（用锅慢熬）；砂锅〈动/名〉	
-row	sentence	煲			例句：煲返煲好湯畀屋企人飲。（bou1 faan1 bou1 hou2 tong1 bei2 uk1 kei2 jan4 jam2.）（煲一锅好靓汤给家里人喝。）	
+row	sentence	煲			例句：煲返煲好湯畀屋企人飲。（bou1 faan1 bou1 hou2 tong1 bei2 uk1 kei2 jan4 jam2.）（再煲一锅好汤给家里人喝。）	
 row	sentence	煲			例句：砂煲煲飯特別香。（saa1 bou1 bou1 faan6 dak6 bit6 hoeng1.）（砂锅煲饭特别香。）	
 row	pron	煲仔飯	[bou1 zai2 faan6]		[bou1 zai2 faan6] 煲仔饭〈名〉	
 row	sentence	煲仔飯			例句：冬天食臘味煲仔飯最暖胃。（dung1 tin1 sik6 laap6 mei6 bou1 zai2 faan6 zeoi3 nyun5 wai6.）（冬天吃腊味煲仔饭最暖胃。）	
@@ -645,7 +645,7 @@ row	pron	燉	[dan6]		[dan6] 隔水炖（保持原汁原味的烹饪法）〈动�
 row	sentence	燉			例句：燉盅燉湯原汁原味。（dan6 zung1 dan6 tong1 jyun4 zap1 jyun4 mei6.）（用炖盅隔水炖汤原汁原味。）	
 row	sentence	燉			例句：花膠燉雞補身好正。（faa1 gaau1 dan6 gai1 bou2 san1 hou2 zeng3.）（花胶炖鸡滋补身体太棒了。）	
 row	pron	燒味	[siu1 mei2]		[siu1 mei2] 烧味（烧鹅/叉烧/烧肉等）〈名〉	
-row	sentence	燒味			例句：今晚斬料加餸，買份燒鵝。（gam1 maan5 zaam2 liu2 gaa1 sung3, maai5 fan6 siu1 ngo4.）（今晚买现成卤味加菜，买份烧鹅。）	
+row	sentence	燒味			例句：今晚斬料加餸，買份燒鵝。（gam1 maan5 zaam2 liu2 gaa1 sung3, maai5 fan6 siu1 ngo4.）（今晚买烧味加菜，买份烧鹅。）	
 row	sentence	燒味			例句：半肥瘦叉燒最好食。（bun3 fei4 sau3 caa1 siu1 zeoi3 hou2 sik6.）（半肥瘦的叉烧最好吃。）	
 row	pron	燒賣	[siu1 maai6]		[siu1 maai6] 干蒸烧卖〈名〉	
 row	sentence	燒賣			例句：蟹黃燒賣好鮮甜。（haai5 wong4 siu1 maai6 hou2 sin1 tim4.）（蟹黄烧卖很鲜甜。）	
@@ -655,7 +655,7 @@ row	sentence	燒鵝			例句：深井燒鵝皮脆肉嫩，肉汁好多。（sam1
 row	sentence	燒鵝			例句：點酸梅醬食燒鵝真係絕配。（dim2 syun1 mui4 zoeng3 sik6 siu1 ngo4 zan1 hai6 zyut6 pui3.）（蘸着酸梅酱吃烧鹅真是绝配。）	
 row	pron	爽脆	[song2 ceoi3]		[song2 ceoi3] 爽口脆嫩，口感鲜脆〈形〉	
 row	sentence	爽脆			例句：啲蝦仁好爽脆彈牙。（di1 haa1 jan4 hou2 song2 ceoi3 daan6 ngaa4.）（那些虾仁非常爽脆Q弹。）	
-row	sentence	爽脆			例句：涼拌黃瓜好爽脆。（loeng4 bun6 wong4 gwaa1 hou2 song2 ceoi3.）（凉拌黄瓜很爽脆解腻。）	
+row	sentence	爽脆			例句：涼拌黃瓜好爽脆。（loeng4 bun6 wong4 gwaa1 hou2 song2 ceoi3.）（凉拌黄瓜很爽脆。）	
 row	pron	牙擦	[ngaa4 caat3]		[ngaa4 caat3] 嚣张，爱吹嘘，狂妄自大〈形〉	
 row	sentence	牙擦			例句：佢份人好牙擦，成日自誇。（keoi5 fan6 jan4 hou2 ngaa4 caat3, seng4 jat6 zi6 kwaa1.）（他为人很狂妄自大，整天自我吹嘘。）	
 row	sentence	牙擦			例句：有真本事嘅人唔會咁牙擦。（jau5 zan1 bun2 si6 ge3 jan4 m4 wui5 gam3 ngaa4 caat3.）（有真本领的人不会这么狂妄嚣张。）	
@@ -709,12 +709,12 @@ row	sentence	眼瞓			例句：食完晏晝特別容易眼瞓。（sik6 jyun4 aa
 row	sentence	眼瞓			例句：眼瞓就飲杯濃茶醒下神。（ngaan5 fan3 zau6 jam2 bui1 nung4 caa4 seng2 haa5 san4.）（困了就喝杯浓茶提提神。）	
 row	pron	着衫	[zoek3 saam1]		[zoek3 saam1] 穿衣服〈动〉	
 row	sentence	着衫			例句：天氣變凍，着多件衫啦。（tin1 hei3 bin3 dung3, zoek3 do1 gin6 saam1 laa1.）（天气变冷，多穿件衣服吧。）	
-row	sentence	着衫			例句：佢今日着得好斯文。（keoi5 gam1 jat6 zoek3 dak1 hou2 si1 man4.）（他今天穿得很斯文大方。）	
+row	sentence	着衫			例句：佢今日着得好斯文。（keoi5 gam1 jat6 zoek3 dak1 hou2 si1 man4.）（他今天穿得很斯文。）	
 row	pron	睇	[tai2]		[tai2] 看，瞧，观察〈动〉	
 row	sentence	睇			例句：你睇下嗰度！（nei5 tai2 haa5 go2 dou6!）（你看一下那里！）	
 row	sentence	睇			例句：我好鍾意睇港產片。（ngo5 hou2 zung1 ji3 tai2 gong2 caan2 pin2.）（我很喜欢看香港电影。）	
-row	pron	睇醫生	[tai2 ji1 sang1]		[tai2 ji1 sang1] 看医生，就医门诊〈动〉	
-row	sentence	睇醫生			例句：發燒成三十九度，快啲去睇醫生。（faat3 siu1 seng4 saam1 sap6 gau2 dou6, faai3 di1 heoi3 tai2 ji1 sang1.）（发烧将近39度，快点去看医生。）	
+row	pron	睇醫生	[tai2 ji1 sang1]		[tai2 ji1 sang1] 看医生，就诊〈动〉	
+row	sentence	睇醫生			例句：發燒成三十九度，快啲去睇醫生。（faat3 siu1 seng4 saam1 sap6 gau2 dou6, faai3 di1 heoi3 tai2 ji1 sang1.）（发烧高达三十九度，快点去看医生。）	
 row	sentence	睇醫生			例句：睇完醫生記得按時食藥。（tai2 jyun4 ji1 sang1 gei3 dak1 on3 si4 sik6 joek6.）（看完医生记得按时吃药。）	
 row	pron	瞓覺	[fan3 gaau3]		[fan3 gaau3] 睡觉〈动〉	
 row	sentence	瞓覺			例句：好眼瞓，我想瞓覺。（hou2 ngaan5 fan3, ngo5 soeng2 fan3 gaau3.）（很困，我想睡觉。）	
@@ -731,7 +731,7 @@ row	sentence	碼頭			例句：喺碼頭搭船過海。（hai2 maa5 tau4 daap3 s
 row	pron	等	[dang2]		[dang2] 等，等待，让〈动〉	
 row	sentence	等			例句：喺度等我一陣，好快返嚟。（hai2 dou6 dang2 ngo5 jat1 zan6, hou2 faai3 faan1 lai4.）（在这等我一会儿，很快回来。）	
 row	sentence	等			例句：等我嚟幫你搞掂佢。（dang2 ngo5 lai4 bong1 nei5 gaau2 dim6 keoi5.）（让我来帮你解决它。）	
-row	pron	篤	[doek1]		[doek1] 坨，滩，堆；尽头〈量/名〉	
+row	pron	篤	[duk1]		[duk1] 坨，滩，堆；尽头〈量/名〉	
 row	sentence	篤			例句：地下有一篤水，小心跣倒。（dei6 haa2 jau5 jat1 doek1 seoi2, siu2 sam1 sin2 dou2.）（地上有一滩水，小心滑倒。）	
 row	sentence	篤			例句：行到巷仔最篤就係。（haang4 dou3 hong6 zai2 zeoi3 doek1 zau6 hai6.）（走到小巷最尽头就是了。）	
 row	pron	簽單	[cim1 daan1]		[cim1 daan1] 签署合同/单据，刷卡签单，成交〈动〉	
@@ -747,7 +747,7 @@ row	pron	紅綠燈	[hung4 luk6 dang1]		[hung4 luk6 dang1] 交通信号灯，红�
 row	sentence	紅綠燈			例句：紅燈停，綠燈行。（hung4 dang1 ting4, luk6 dang1 haang4.）（红灯停，绿灯行。）	
 row	sentence	紅綠燈			例句：等緊紅綠燈過馬路。（dang2 gan2 hung4 luk6 dang1 gwo3 maa5 lou6.）（正在等红绿灯过马路。）	
 row	pron	紙巾	[zi2 gan1]		[zi2 gan1] 纸巾，餐巾纸〈名〉	
-row	sentence	紙巾			例句：借張紙巾抹下手唔該。（ze3 zoeng1 zi2 gan1 maat3 haa5 sau2 m4 goi1.）（借张纸巾擦一下手麻烦。）	
+row	sentence	紙巾			例句：借張紙巾抹下手唔該。（ze3 zoeng1 zi2 gan1 maat3 haa5 sau2 m4 goi1.）（麻烦借张纸巾擦一下手。）	
 row	sentence	紙巾			例句：隨身帶包紙巾好方便。（ceoi4 san1 daai3 baau1 zi2 gan1 hou2 fong1 bin6.）（随身带包纸巾很方便。）	
 row	pron	細	[sai3]		[sai3] 小，年幼〈形〉	
 row	sentence	細			例句：呢隻鞋太細，着唔落。（ni1 zek3 haai4 taai3 sai3, zoek3 m4 lok6.）（这只鞋太小，穿不进去。）	
@@ -789,7 +789,7 @@ row	pron	耐	[noi6]		[noi6] 久，时间长〈形〉
 row	sentence	耐			例句：好耐冇見，最近點啊？（hou2 noi6 mou5 gin3, zeoi3 gan6 dim2 aa3?）（好久不见，最近怎么样啊？）	
 row	sentence	耐			例句：等咗好耐架巴士都仲未嚟。（dang2 zo2 hou2 noi6 gaa3 baa1 si2 dou1 zung6 mei6 lai4.）（等了好久那辆公交车都还没来。）	
 row	pron	聽	[teng1]		[teng1] 听，聆听〈动〉	
-row	sentence	聽			例句：你聽唔聽到我講嘢？（nei5 teng1 m4 teng1 dou2 ngo5 gong2 je5?）（你听得清我说话吗？）	
+row	sentence	聽			例句：你聽唔聽到我講嘢？（nei5 teng1 m4 teng1 dou2 ngo5 gong2 je5?）（你听到我说话没有？）	
 row	sentence	聽			例句：我喺度聽緊廣東歌。（ngo5 hai2 dou6 teng1 gan2 gwong2 dung1 go1.）（我在这边听粤语歌。）	
 row	pron	聽日	[ting1 jat6]		[ting1 jat6] 明天〈名〉	
 row	sentence	聽日			例句：聽日見啦，拜拜！（ting1 jat6 gin3 laa1, baai1 baai3!）（明天见啦，拜拜！）	
@@ -797,7 +797,7 @@ row	sentence	聽日			例句：聽日朝早九點開會。（ting1 jat6 ziu1 zou
 row	pron	肉	[juk6]		[juk6] 肉类〈名〉	
 row	sentence	肉			例句：多菜少肉對腸胃好。（do1 coi3 siu2 juk6 deoi3 coeng4 wai6 hou2.）（多吃蔬菜少吃肉对肠胃好。）	
 row	sentence	肉			例句：呢舊五花肉肥瘦分明。（ni1 gau6 ng5 faa1 juk6 fei4 sau3 fan1 ming4.）（这块五花肉肥瘦相间分明。）	
-row	pron	肉緊	[juk6 gan2]		[juk6 gan2] 紧张心焦，极度投入，激动用力〈形〉	
+row	pron	肉緊	[juk6 gan2]		[juk6 gan2] 紧张心焦，极度投入，激动用力，怜爱〈形〉	
 row	sentence	肉緊			例句：睇世界盃決賽睇到大家超肉緊。（tai2 sai3 gaai3 bui1 kyut3 coi3 tai2 dou3 daai6 gaa1 ciu1 juk6 gan2.）（看世界杯决赛看得大家极度紧张投入。）	
 row	sentence	肉緊			例句：見到得意BB忍唔住想肉緊咬一啖。（gin3 dou2 dak1 ji3 BB jan2 m4 zyu6 soeng2 juk6 gan2 ngaau5 jat1 daam6.）（看到可爱宝宝忍不住喜欢得想咬一口。）	
 row	pron	肚	[tou5]		[tou5] 肚子，腹部〈名〉	
@@ -900,7 +900,7 @@ row	pron	論盡	[leon6 zeon6]		[leon6 zeon6] 笨手笨脚，动作不灵活，�
 row	sentence	論盡			例句：搬嘢小心啲，唔好咁論盡跌爛嘢。（bun1 je5 siu2 sam1 di1, m4 hou2 gam3 leon6 zeon6 dit3 laan6 je5.）（搬东西小心点，别笨手笨脚摔烂了东西。）	
 row	sentence	論盡			例句：佢行步路都論論盡盡。（keoi5 haang4 bou6 lou6 dou1 leon6 leon6 zeon6 zeon6.）（他走起路来都笨手笨脚跌跌撞撞的。）	
 row	pron	諗	[nam2]		[nam2] 想，思考，以为〈动〉	
-row	sentence	諗			例句：等我認真諗下先。（dang2 ngo5 jing6 zan1 nam2 haa5 sin1.）（等我认真想一想先。）	
+row	sentence	諗			例句：等我認真諗下先。（dang2 ngo5 jing6 zan1 nam2 haa5 sin1.）（让我先认真想一想。）	
 row	sentence	諗			例句：你喺度諗緊咩啊？（nei5 hai2 dou6 nam2 gan2 me1 aa3?）（你在想什么呢？）	
 row	pron	講	[gong2]		[gong2] 说，讲〈动〉	
 row	sentence	講			例句：唔該你講慢少少。（m4 goi1 nei5 gong2 maan6 siu2 siu2.）（麻烦你讲慢一点点。）	
@@ -1010,9 +1010,9 @@ row	sentence	開心			例句：見到你我都好開心。（gin3 dou2 nei5 ngo5
 row	pron	開會	[hoi1 wui2]		[hoi1 wui2] 开会〈动〉	
 row	sentence	開會			例句：下晝兩點開部門例會。（haa6 zau3 loeng5 dim2 hoi1 bou6 mun4 lai6 wui2.）（下午两点开部门例会。）	
 row	sentence	開會			例句：開會記得帶手提電腦同筆記本。（hoi1 wui2 gei3 dak1 daai3 sau2 tai4 din6 nou5 tung4 bat1 gei3 bun2.）（开会记得带笔记本电脑和笔记本。）	
-row	pron	阿公	[aa3 gung1]		[aa3 gung1] 外公，姥爷〈名〉	
-row	sentence	阿公			例句：阿公以前係中學校長。（aa3 gung1 ji5 cin4 hai6 zung1 hok6 haau6 zoeng2.）（外公以前是中学校长。）	
-row	sentence	阿公			例句：放假返鄉下探阿公。（fong3 gaa3 faan1 hoeng1 haa2 taam3 aa3 gung1.）（放假回老家探望外公。）	
+row	pron	阿公	[aa3 gung1]		[aa3 gung1] 爷爷，祖父〈名〉	
+row	sentence	阿公			例句：阿公以前係中學校長。（aa3 gung1 ji5 cin4 hai6 zung1 hok6 haau6 zoeng2.）（爷爷以前是中学校长。）	
+row	sentence	阿公			例句：放假返鄉下探阿公。（fong3 gaa3 faan1 hoeng1 haa2 taam3 aa3 gung1.）（放假回老家探望爷爷。）	
 row	pron	阿哥	[aa3 go1]		[aa3 go1] 哥哥〈名〉	
 row	sentence	阿哥			例句：我阿哥讀大學電腦系。（ngo5 aa3 go1 duk6 daai6 hok6 din6 nou5 hai6.）（我哥哥在大学念计算机系。）	
 row	sentence	阿哥			例句：阿哥好照顧細佬妹。（aa3 go1 hou2 ziu3 gu3 sai3 lou6 mui2.）（哥哥很照顾弟弟妹妹。）	
@@ -1035,13 +1035,13 @@ row	pron	陣	[zan6]		[zan6] 阵，一阵子（时间或风雨等）〈量/名〉
 row	sentence	陣			例句：過咗一陣佢就返嚟。（gwo3 zo2 jat1 zan6 keoi5 zau6 faan1 lai4.）（过了一会儿他就回来了。）	
 row	sentence	陣			例句：啱啱落咗一陣狂風暴雨。（ngaam1 ngaam1 lok6 zo2 jat1 zan6 kwong4 fung1 bou6 jyu5.）（刚刚下了一阵狂风暴雨。）	
 row	pron	除衫	[ceoi4 saam1]		[ceoi4 saam1] 脱衣服〈动〉	
-row	sentence	除衫			例句：屋企開咗暖氣，可以除衫。（uk1 kei2 hoi1 zo2 nyun5 hei3, ho2 ji5 ceoi4 saam1.）（家里开了暖气，可以脱掉外套。）	
+row	sentence	除衫			例句：屋企開咗暖氣，可以除衫。（uk1 kei2 hoi1 zo2 nyun5 hei3, ho2 ji5 ceoi4 saam1.）（家里开了暖气，可以脱衣服。）	
 row	sentence	除衫			例句：熱就除咗件外套啦。（jit6 zau6 ceoi4 zo2 gin6 ngoi6 tou3 laa1.）（热就脱掉外套吧。）	
 row	pron	隻	[zek3]		[zek3] 只（量词，用于动物、单只鞋袜手脚等）〈量〉	
 row	sentence	隻			例句：呢隻狗好乖。（ni1 zek3 gau2 hou2 gwaai1.）（这只狗很乖巧。）	
 row	sentence	隻			例句：我隻手整親咗。（ngo5 zek3 sau2 zing2 can1 zo2.）（我的手受伤弄伤了。）	
 row	pron	雙皮奶	[soeng1 pei4 naai5]		[soeng1 pei4 naai5] 双皮奶（顺德传统水牛奶甜品）〈名〉	
-row	sentence	雙皮奶			例句：順德大良雙皮奶奶香濃郁。（seon6 dak1 daai6 loeng4 soeng1 pei4 naai5 naai5 hoeng1 nung4 juk1.）（顺德大良双皮奶奶香极其浓郁。）	
+row	sentence	雙皮奶			例句：順德大良雙皮奶奶香濃郁。（seon6 dak1 daai6 loeng4 soeng1 pei4 naai5 naai5 hoeng1 nung4 juk1.）（顺德大良双皮奶奶香浓郁。）	
 row	sentence	雙皮奶			例句：冷熱雙皮奶各有風味。（laang5 jit6 soeng1 pei4 naai5 gok3 jau5 fung1 mei6.）（冰的和热的双皮奶各有千秋。）	
 row	pron	雙糧	[soeng1 loeng4]		[soeng1 loeng4] 十三薪，年底双薪〈名〉	
 row	sentence	雙糧			例句：份合約包年底雙糧。（fan6 hap6 joek3 baau1 nin4 dai2 soeng1 loeng4.）（这份工作合同包含年底双薪。）	
@@ -1058,7 +1058,7 @@ row	sentence	雪櫃			例句：買返嚟嘅肉放落雪櫃先。（maai5 faan1 l
 row	pron	雲吞麵	[wan4 tan1 min6]		[wan4 tan1 min6] 馄饨面，云吞面〈名〉	
 row	sentence	雲吞麵			例句：鮮蝦雲吞麵湯底好清甜。（sin1 haa1 wan4 tan1 min6 tong1 dai2 hou2 cing1 tim4.）（鲜虾云吞面的汤底很清甜鲜美。）	
 row	sentence	雲吞麵			例句：呢度啲竹昇麵好有彈性。（ni1 dou6 di1 zuk1 sing1 min6 hou2 jau5 daan6 sing3.）（这里的竹升面很有韧劲。）	
-row	pron	電掣	[din6 zai3]		[din6 zai3] 开关，电源插座〈名〉	
+row	pron	電掣	[din6 zai3]		[din6 zai3] 电灯开关，电源开关〈名〉	
 row	sentence	電掣			例句：臨出門記得熄晒所有電掣。（lam4 ceot1 mun4 gei3 dak1 sik1 saai3 so2 jau5 din6 zai3.）（出门前记得关掉所有电源开关。）	
 row	sentence	電掣			例句：呢個電掣插座鬆咗。（ni1 go3 din6 zai3 caap3 zo6 sung1 zo2.）（这个电源插座松动了。）	
 row	pron	電視	[din6 si6]		[din6 si6] 电视机，电视节目〈名〉	
@@ -1077,7 +1077,7 @@ row	pron	靚	[leng3]		[leng3] 美丽，漂亮，质量优良〈形〉
 row	sentence	靚			例句：今日天氣好靚。（gam1 jat6 tin1 hei3 hou2 leng3.）（今天天气很好。）	
 row	sentence	靚			例句：呢條裙着得你好靚。（ni1 tiu4 kwan4 zoek3 dak1 nei5 hou2 leng3.）（这条裙子穿得你很漂亮。）	
 row	pron	靜	[zing6]		[zing6] 安静，清静，冷清〈形〉	
-row	sentence	靜			例句：夜晚嘅鄉村好寧靜。（je6 maan5 ge3 hoeng1 cyun1 hou2 ning4 zing6.）（夜晚的乡村非常宁静祥和。）	
+row	sentence	靜			例句：夜晚嘅鄉村好寧靜。（je6 maan5 ge3 hoeng1 cyun1 hou2 ning4 zing6.）（夜晚的乡村非常宁静。）	
 row	sentence	靜			例句：呢間咖啡館好靜好舒服。（ni1 gaan1 gaa3 fe1 gun2 hou2 zing6 hou2 syu1 fuk6.）（这家咖啡馆很安静很舒适。）	
 row	pron	靜雞雞	[zing6 gai1 gai1]		[zing6 gai1 gai1] 悄悄地，偷偷摸摸，暗中〈副〉	
 row	sentence	靜雞雞			例句：佢靜雞雞走咗入房。（keoi5 zing6 gai1 gai1 zau2 zo2 jap6 fong2.）（他悄悄地溜进了房间。）	
@@ -1104,7 +1104,7 @@ row	pron	食	[sik6]		[sik6] 吃〈动〉
 row	sentence	食			例句：快啲食啦，唔好放凍。（faai3 di1 sik6 laa1, m4 hou2 fong3 dung3.）（快点吃吧，别放凉了。）	
 row	sentence	食			例句：你鍾意食咩點心？（nei5 zung1 ji3 sik6 me1 dim2 sam1?）（你喜欢吃什么点心？）	
 row	pron	食死貓	[sik6 sei2 maau1]		[sik6 sei2 maau1] 背黑锅，代人受过，蒙冤受屈〈动〉	
-row	sentence	食死貓			例句：明明唔係我做嘅，憑咩要我食死貓！（ming4 ming4 m4 hai6 ngo5 zou6 ge3, pang4 me1 jiu3 ngo5 sik6死maau1!）（明明不是我做的，凭什么要我背黑锅！）	
+row	sentence	食死貓			例句：明明唔係我做嘅，憑咩要我食死貓！（ming4 ming4 m4 hai6 ngo5 zou6 ge3, pang4 me1 jiu3 ngo5 sik6 sei2 maau1!）（明明不是我做的，凭什么要我背黑锅！）	
 row	sentence	食死貓			例句：佢性格老實，成日畀人恰到要食死貓。（keoi5 sing3 gik3 lou5 sat6, seng4 jat6 bei2 jan4 haap1 dou3 jiu3 sik6 sei2 maau1.）（他性格老实，经常被欺负得代人受过。）	
 row	pron	食藥	[sik6 joek6]		[sik6 joek6] 吃药，服药〈动〉	
 row	sentence	食藥			例句：食完飯半個鐘先好食藥。（sik6 jyun4 faan6 bun3 go3 zung1 sin1 hou2 sik6 joek6.）（吃完饭半小时后再吃药。）	
@@ -1118,7 +1118,7 @@ row	sentence	飲茶			例句：一盅兩件，慢慢歎。（jat1 zung1 loeng5 g
 row	pron	飽	[baau2]		[baau2] 饱，吃饱〈形〉	
 row	sentence	飽			例句：食得好飽，食唔落喇。（sik6 dak1 hou2 baau2, sik6 m4 lok6 laa3.）（吃得好饱，吃不下了。）	
 row	sentence	飽			例句：你食飽未啊？（nei5 sik6 baau2 mei6 aa3?）（你吃饱了吗？）	
-row	pron	餐	[caan1]		[caan1] 顿，番（量词，用于饮食、责骂或打斗）〈量〉	
+row	pron	餐	[caan1]		[caan1] 顿（量词，用于饮食、责骂或打斗）〈量〉	
 row	sentence	餐			例句：今餐我請客！（gam1 caan1 ngo5 cing2 haak3!）（这顿饭我请客！）	
 row	sentence	餐			例句：佢畀阿媽鬧咗一餐。（keoi5 bei2 aa3 maa1 naau6 zo2 jat1 caan1.）（他被妈妈狠狠训斥了一顿。）	
 row	pron	馬馬地	[maa5 maa5 dei2]		[maa5 maa5 dei2] 一般般，马马虎虎，不过尔尔〈形/副〉	
@@ -1138,7 +1138,7 @@ row	sentence	鳳爪			例句：豉汁鳳爪蒸得好軟爛入味。（si6 zap1 f
 row	sentence	鳳爪			例句：飲茶點可以唔食鳳爪？（jam2 caa4 dim2 ho2 ji5 m4 sik6 fung6 zaau2?）（喝早茶怎么能不吃凤爪呢？）	
 row	pron	鴛鴦	[jin1 joeng1]		[jin1 joeng1] 鸳鸯（咖啡混合奶茶的经典饮品）〈名〉	
 row	sentence	鴛鴦			例句：凍鴛鴦少冰少甜。（dung3 jin1 joeng1 siu2 bing1 siu2 tim4.）（冰鸳鸯少冰少糖。）	
-row	sentence	鴛鴦			例句：鴛鴦融合咗咖啡同奶茶嘅香味。（jin1 joeng1 jung4 hap6 zo2 gaa3 fe1 tung4 naai5 caa4 ge3 hoeng1 mei6.）（鸳鸯融合了咖啡与奶茶的独特香气。）	
+row	sentence	鴛鴦			例句：鴛鴦融合咗咖啡同奶茶嘅香味。（jin1 joeng1 jung4 hap6 zo2 gaa3 fe1 tung4 naai5 caa4 ge3 hoeng1 mei6.）（鸳鸯融合了咖啡和奶茶的香味。）	
 row	pron	黑口黑面	[haak1 hau2 haak1 min6]		[haak1 hau2 haak1 min6] 拉长着脸，脸色阴沉难看，面带怒色〈形〉	
 row	sentence	黑口黑面			例句：佢今日成日都黑口黑面，邊個惹到佢啊？（keoi5 gam1 jat6 seng4 jat6 dou1 haak1 hau2 haak1 min6, bin1 go3 je5 dou2 keoi5 aa3?）（他今天一整天都拉着个脸，谁惹到他了？）	
 row	sentence	黑口黑面			例句：做服務業唔好黑口黑面。（zou6 fuk6 mou6 jip6 m4 hou2 haak1 hau2 haak1 min6.）（做服务行业不要沉着脸给顾客看。）	

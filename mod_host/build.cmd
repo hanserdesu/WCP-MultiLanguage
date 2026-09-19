@@ -41,6 +41,7 @@ set REFS=/r:"%GAME%\BepInEx\core\BepInEx.dll" ^
  "%HERE%Core\Json.cs" ^
  "%HERE%Core\Manifest.cs" ^
  "%HERE%Core\ResourceRouter.cs" ^
+ "%HERE%Core\SentenceTable.cs" ^
  "%HERE%Core\ILanguageStrategy.cs" ^
  "%HERE%Core\StrategyContext.cs" ^
  "%HERE%Core\BookPool.cs" ^
@@ -51,7 +52,9 @@ set REFS=/r:"%GAME%\BepInEx\core\BepInEx.dll" ^
  "%HERE%GameAdapter.cs" ^
  "%HERE%TakeoverScope.cs" ^
  "%HERE%HostRuntime.cs" ^
+ "%HERE%PerfProbe.cs" ^
  "%HERE%WordAudioCompat.cs" ^
+ "%HERE%MirrorWorker.cs" ^
  "%HERE%SentenceAudioService.cs" ^
  "%HERE%HostPatches.cs" ^
  "%HERE%Host.cs"

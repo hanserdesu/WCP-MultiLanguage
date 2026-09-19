@@ -30,6 +30,14 @@ namespace SentenceAudioMod
         internal static ManualLogSource Log;
         private static SentenceAudioPlugin Instance;
         private const float ScanInterval = 0.3f;
+        // 全场景遍历失败退避: FindObjectOfType 的成本随场景对象数增长, 不在
+        // S8/S17 场景时它每次都失败, 而原实现每 0.3s 就重试一次 —— 5 个音频
+        // 插件叠加约 66 次/秒全场景遍历。改为失败后最多 1s 重试一次; 命中时
+        // 不进入退避分支, 所以已在页内时行为不变。
+        private const float FindRetryInterval = 1f;
+        private float _nextFind8, _nextFind17;
+        // 本语言已登记词表的词数 (从生成物 BookProfiles.All 里取, 不手抄)。
+        private static int _ownWordCount = -1;
         // 资源命名空间化: 只读取当前日语 pack 的 sentence 音频。
         private const string PackLangCode = "ja";
 
@@ -66,9 +74,15 @@ namespace SentenceAudioMod
                 if (string.IsNullOrEmpty(name)) return false;
                 int slot = SlotOf(name);
                 if (slot <= 0) return false;
+                // O(1) 廉价预筛 (性能): 词数不等时直接失败, 与完整判定等价 ——
+                // 登记表要求词形集合完全一致, 词数必然一致。省掉的是: 一次
+                // ES3 磁盘读 + 整表指纹 (词表全量 Trim + Unicode NFC 规范化 +
+                // 排序 + SHA256, 实测 ~2ms)。而每个非当前语言的插件每 0.3s
+                // 就会走一次这条完整链路 (5 插件叠加 ≈ 16.7 次/秒)。
+                List<string> current = MyParameters.ChosenBook_List;
+                if (current == null || current.Count != OwnWordCount()) return false;
                 string disk = ES3.Load<string>("ChosenBook_Para", defaultValue: null);
                 if (string.IsNullOrEmpty(disk) || disk != name) return false;
-                List<string> current = MyParameters.ChosenBook_List;
                 BookProfile memory = BookProfiles.Match(current);
                 if (memory == null || memory.Language != BookProfiles.Japanese) return false;
                 string path = Path.Combine(Application.persistentDataPath, "MyBook.es3");
@@ -77,6 +91,19 @@ namespace SentenceAudioMod
                 return stored != null && stored.Id == memory.Id;
             }
             catch (Exception) { return false; }
+        }
+
+        // 本语言已登记词表的词数。从生成物 BookProfiles.All 里查, 避免手抄漂移。
+        private static int OwnWordCount()
+        {
+            if (_ownWordCount < 0)
+            {
+                _ownWordCount = 0;
+                for (int i = 0; i < BookProfiles.All.Length; i++)
+                    if (BookProfiles.All[i].Language == BookProfiles.Japanese)
+                    { _ownWordCount = BookProfiles.All[i].WordCount; break; }
+            }
+            return _ownWordCount;
         }
 
         private static int SlotOf(string name)
@@ -373,19 +400,37 @@ namespace SentenceAudioMod
                         BindingFlags.Public | BindingFlags.NonPublic |
                         BindingFlags.Instance);
             }
-            if (_s8 == null && _t8 != null) _s8 = FindObjectOfType(_t8);
-            if (_s17 == null && _t17 != null) _s17 = FindObjectOfType(_t17);
+            // Unity 假 null: 场景切换销毁旧管理器后 C# 引用仍在 (object 的 ==
+            // 是引用比较, 不走 Unity 重载), 必须 as Component 后判空并重查,
+            // 否则新场景永远扫描不到 —— de/fr/yue 三个插件早已如此, 这里补齐。
+            // 性能: 不在 S8/S17 场景时查找必然失败, 原实现每 0.3s 重试一轮,
+            // 5 个音频插件叠加约 66 次/秒全场景遍历。改为失败后退避到 1s 一次;
+            // 命中时不进退避分支, 所以已在页内时行为不变。
+            var c8 = _s8 as Component;
+            if (c8 == null && Time.unscaledTime >= _nextFind8)
+            {
+                _nextFind8 = Time.unscaledTime + FindRetryInterval;
+                _s8 = (_t8 != null) ? FindObjectOfType(_t8) : null;
+                c8 = _s8 as Component;
+            }
+            var c17 = _s17 as Component;
+            if (c17 == null && Time.unscaledTime >= _nextFind17)
+            {
+                _nextFind17 = Time.unscaledTime + FindRetryInterval;
+                _s17 = (_t17 != null) ? FindObjectOfType(_t17) : null;
+                c17 = _s17 as Component;
+            }
             if (!ManagedJapaneseBookSelected())
             {
                 RestoreOtherBookUi();
                 return;
             }
-            if (_s8 == null && _s17 == null) return;
+            if (c8 == null && c17 == null) return;
             if (_f8 == null && _f17 == null) return;
 
-            if (_s8 != null && _f8 != null)
+            if (c8 != null && _f8 != null)
                 Scan(_f8.GetValue(_s8) as TMP_Text[]);
-            if (_s17 != null && _f17 != null)
+            if (c17 != null && _f17 != null)
                 Scan(_f17.GetValue(_s17) as TMP_Text[]);
             CleanupDestroyed();
             TakeOverGameReadButtons();

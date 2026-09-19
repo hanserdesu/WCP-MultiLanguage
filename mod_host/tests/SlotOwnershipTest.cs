@@ -53,12 +53,16 @@ internal static class SlotOwnershipTest
         return sb.ToString();
     }
 
+    private static int _storeStamp;
     private static void WriteStore(string path, string json)
     {
         File.WriteAllText(path, json, new UTF8Encoding(false));
         // Make sure the mtime-based cache cannot mask the rewrite even on
         // coarse-resolution filesystems or back-to-back calls.
-        File.SetLastWriteTimeUtc(path, DateTime.UtcNow.AddMilliseconds(failures * 1000 + DateTime.UtcNow.Millisecond));
+        // 第十四轮改为单调递增戳：原 `failures*1000 + 毫秒` 在一次全过的运行里
+        // failures 恒为 0，两次相邻写入可能落进同一毫秒 → mtime 相同 → 第 11 条
+        // （重写后重解析）会被 mtime 缓存掩盖而假通过。
+        File.SetLastWriteTimeUtc(path, DateTime.UtcNow.AddSeconds(++_storeStamp));
     }
 
     private static string[] Six = { "b1", "b2", "b3", "b4", "b5", "b6" };
@@ -152,6 +156,25 @@ internal static class SlotOwnershipTest
         bool first = so.IsServed(served, out reason);
         bool second = so.IsServed(served, out reason);
         Check(first && second, "mtime 未变时缓存结论稳定");
+
+        // 11. 第十四轮：行指纹记忆化 —— CustomSlotsMod 每次保存都重写整个 store
+        //     （mtime 必变），但内容原样。重解析必须命中 memo（跳过
+        //     Normalize+排序+SHA256 的全量指纹），结论不变。
+        WriteStore(path, Store(0, Row(5, "catbar-xx", "mod", true, 0, Six)));
+        so = new SlotOwnership(path);
+        int hitsBefore = so.MemoHits;
+        bool r1 = so.IsServed(served, out reason);          // 首次：未命中 → 计算并缓存
+        WriteStore(path, Store(0, Row(5, "catbar-xx", "mod", true, 0, Six)));   // mtime 变、内容不变
+        bool r2 = so.IsServed(served, out reason);          // 重解析：应命中
+        Check(r1 && r2, "store 重写内容不变 → 服务结论不变");
+        Check(so.MemoHits == hitsBefore + 1, "重解析命中行指纹 memo（全量指纹只算一次）");
+
+        // 12. 行内容真的变化 → 该行 memo 未命中、重算指纹，服务边界正确翻转。
+        WriteStore(path, Store(0, Row(5, "catbar-xx", "mod", true, 0, Other)));
+        bool r3 = so.IsServed(other, out reason);
+        bool r4 = so.IsServed(served, out reason);
+        Check(r3 && !r4, "行内容变化 → memo 未命中，重算指纹并正确翻转服务边界");
+        Check(so.MemoHits == hitsBefore + 1, "内容变化的那一行不计入 memo 命中");
 
         Console.WriteLine(failures == 0 ? "ALL PASS" : ("FAILURES: " + failures));
         return failures == 0 ? 0 : 1;

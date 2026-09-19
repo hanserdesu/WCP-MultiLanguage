@@ -35,9 +35,9 @@
     "pron": "ru_pron.tsv",
     "sentences": "ru_sentences.tsv",
     "payload_files": {
-      "ru_pron.tsv": "19e801f711c0a0e88fa6f31e183d7087cfce7d660e7f432105e6bbc47c9d8b27",
-      "ru_sentences.tsv": "aa6a3b53206f7f0b93b3e99fa8d170246fa8e386b1f5724bb935355ba17127bc",
-      "ru_only_pron.tsv": "19e801f711c0a0e88fa6f31e183d7087cfce7d660e7f432105e6bbc47c9d8b27"
+      "ru_pron.tsv": "d7f8fb37201df6045c189b686c717d09d7e97906da6c97a8c410ede6ce5c9504",
+      "ru_sentences.tsv": "a8bb8361380034424c233172b21000b0040c753a32dc722fa639986cd631c110",
+      "ru_only_pron.tsv": "d7f8fb37201df6045c189b686c717d09d7e97906da6c97a8c410ede6ce5c9504"
     }
   },
   "book_sha256": {
@@ -47,9 +47,9 @@
   },
   "counts": {
     "pron": 8451,
-    "sentence_rows": 25353,
-    "sentence_words": 8451,
-    "words_without_sentences": 0
+    "sentence_rows": 25054,
+    "sentence_words": 8447,
+    "words_without_sentences": 4
   },
   "notes": [
     "俄语是三分册: A1A2=2930 + B1=3026 + B2=2495，并集去重 = 8451，与指纹精确吻合。",

@@ -33,6 +33,26 @@ internal static class RegistryTest
         try { Console.OutputEncoding = Encoding.UTF8; }
         catch (Exception) { }
 
+        // 第十六轮：GameLearnedStats 快照门禁第一次把 mod 的 BepInEx/UnityEngine
+        // 引用链拖进了离线进程（JIT 告警分支需要解析这些类型的程序集令牌）。
+        // 挂一个按需解析钩子：从游戏目录找 dll —— 拷贝传递依赖是无底洞。
+        string gameDir = Environment.GetEnvironmentVariable("WCP_GAME_DIR");
+        if (!string.IsNullOrEmpty(gameDir) && Directory.Exists(gameDir))
+        {
+            string coreDir = Path.Combine(gameDir, "BepInEx", "core");
+            string managedDir = Path.Combine(gameDir, "wcp_Data", "Managed");
+            AppDomain.CurrentDomain.AssemblyResolve += delegate(object s, ResolveEventArgs a)
+            {
+                string name = new System.Reflection.AssemblyName(a.Name).Name;
+                foreach (string dir in new string[] { coreDir, managedDir })
+                {
+                    string p = Path.Combine(dir, name + ".dll");
+                    if (File.Exists(p)) return System.Reflection.Assembly.LoadFrom(p);
+                }
+                return null;
+            };
+        }
+
         // packs 根不再写死成某台机器的绝对路径：run_registry_test.cmd 会把
         // 仓库自己的 packs 目录作为第一个参数传进来；直接运行 exe 时可用
         // 环境变量 WCP_PACKS_ROOT 指定（必须包含 <lang>/manifest.json）。
@@ -62,6 +82,8 @@ internal static class RegistryTest
         CheckDuplicateEs3PrefixIsRejected();
         CheckMultipleUnassignedPacksAreAllowed();
         CheckHostGenericStrategy();
+        CheckWordListMemo(packsRoot);
+        CheckLearnedSnapshot();
 
         for (int i = 0; i < reg.Manifests.Count; i++)
         {
@@ -313,6 +335,105 @@ internal static class RegistryTest
                 Console.WriteLine("  WARN  清理未分配槽位临时目录失败: " + e.Message);
             }
         }
+    }
+
+    // 第十二轮（2026-09-18）：WordListMemo 是 Host.Evaluate 里
+    // `身份:匹配内存词表` 的守卫 —— 词表元素引用没变就直接复用上一轮的 Match 结论。
+    // 它必须被钉死，因为"守卫判错"的后果是身份判定用旧结论：多省钱可以商量，
+    // 判错不行。这里钉的是它的**精确性边界**：
+    //   命中 ⟺ 元素引用逐位相同（string 不可变 ⟹ 内容必然相同，结论必然成立）
+    //   未命中 ⟸ 任何内容变化（某个位置换了实例，引用比对必然发现）
+    private static void CheckWordListMemo(string packsRoot)
+    {
+        BookRegistry reg = BookRegistry.Load(packsRoot);
+        BookRegistry reg2 = BookRegistry.Load(packsRoot);   // 同内容、不同实例
+        BookProfile sentinel = reg.Manifests.Count > 0
+            ? reg.Manifests[0].Profile : null;
+        WordListMemo memo = new WordListMemo();
+
+        List<string> a = new List<string> { "alpha", "beta", "gamma" };
+
+        BookProfile p;
+        Check(!memo.TryHit(reg, a, out p) && p == null,
+              "守卫空状态必然未命中", "");
+        memo.Store(reg, a, sentinel);
+        Check(memo.TryHit(reg, a, out p) && ReferenceEquals(p, sentinel),
+              "同一份词表（同元素引用）必然命中并复用同一 profile 对象", "");
+        // 新容器、元素引用原样拷贝 → 仍必须命中（守卫看的是元素，不是容器）。
+        List<string> b = new List<string>(a);
+        Check(memo.TryHit(reg, b, out p) && ReferenceEquals(p, sentinel),
+              "容器换新但元素引用一致仍命中", "");
+        // 同内容、不同实例（new string 保证非驻留新引用）→ 必须未命中。
+        // 这是"安全方向"：宁可白算一次 Match，也绝不用旧结论。
+        b[0] = new string("alpha".ToCharArray());
+        Check(!memo.TryHit(reg, b, out p),
+              "内容相同但元素换了实例必须未命中（安全方向）", "");
+        // 元素数变化 → 必须未命中；且把新状态存进去后，旧长度的词表不再命中。
+        b.Add("delta");
+        Check(!memo.TryHit(reg, b, out p),
+              "元素数变化必须未命中", "");
+        memo.Store(reg, b, null);   // 上一轮没命中（null profile）也要能被记住
+        Check(memo.TryHit(reg, b, out p) && p == null,
+              "上一轮未命中（null）也能被守卫复用", "");
+        Check(!memo.TryHit(reg, a, out p),
+              "存过长词表后旧长度的词表不再命中", "");
+        // 注册表实例换了（重新 Load）→ 必须未命中：上一轮结论是旧注册表下的。
+        Check(!memo.TryHit(reg2, b, out p),
+              "注册表实例更换必须未命中", "");
+        memo.Store(reg, null, sentinel);
+        Check(!memo.TryHit(reg, a, out p),
+              "存 null 词表后必然未命中（不残留旧快照）", "");
+    }
+
+    // 第十六轮：GameLearnedStats 查询快照化的精确性门禁。
+    // 实机（R15 日志 23:45）场景进入 Rebuild 的 队列:规则 单次 804.6ms 来自逐词
+    // Contains+反射；快照把查询变成哈希查找。这里钉死快照的语义边界：
+    //   命中/数值 ⟺ 建快照那一刻字典里的内容（Enforce 期间不允许看到中途变化）；
+    //   快照建立后字典再变 → 查询仍回答快照时的值（本 Enforce 内的稳定视图）。
+    private sealed class FakeEntry { public int testTimes; public int lastStudyTime; }
+
+    private static void CheckLearnedSnapshot()
+    {
+        Dictionary<string, object> dict = new Dictionary<string, object>();
+        FakeEntry e1 = new FakeEntry(); e1.testTimes = 3; e1.lastStudyTime = 100;
+        FakeEntry e2 = new FakeEntry(); e2.testTimes = 0; e2.lastStudyTime = 55;
+        dict["apple"] = e1;
+        dict["banana"] = e2;
+        dict["cherry"] = null;              // 脏条目：必须被跳过而不是抛异常
+        dict["bad\0key"] = e1;              // 非常规键：照常进快照
+        GameLearnedStats stats = new GameLearnedStats(dict);
+
+        Check(stats.IsLearned("apple"), "快照命中已学词（IsLearned）",
+            "learned=" + stats.IsLearned("apple") + " err=" + GameLearnedStats.LastBuildError +
+            " scanned=" + GameLearnedStats.ScannedCount);
+        Check(stats.TestTimes("apple") == 3, "快照给出 testTimes 数值",
+            "times=" + stats.TestTimes("apple"));
+        Check(stats.LastStudyTime("apple") == 100, "快照给出 lastStudyTime 数值",
+            "last=" + stats.LastStudyTime("apple"));
+        Check(stats.IsLearned("banana") && stats.TestTimes("banana") == 0 &&
+              stats.LastStudyTime("banana") == 55, "testTimes=0 的词照常返回 0/时间",
+            "b=" + stats.IsLearned("banana") + "/" + stats.TestTimes("banana") + "/" + stats.LastStudyTime("banana"));
+        Check(!stats.IsLearned("durian") && stats.TestTimes("durian") == 0 &&
+              stats.LastStudyTime("durian") == 0, "未学词按未学/0 处理", "");
+        Check(!stats.IsLearned(null) && !stats.IsLearned("") &&
+              stats.TestTimes(null) == 0 && stats.LastStudyTime("") == 0,
+              "null/空词一律按未学处理", "");
+
+        // 快照稳定性：建快照后字典再变，本实例的查询不变。
+        dict["durian"] = new FakeEntry();          // 新增
+        dict.Remove("apple");                       // 删除
+        e1.testTimes = 99;                          // 原地改
+        Check(stats.IsLearned("apple") && stats.TestTimes("apple") == 3,
+              "快照建立后字典增删改不影响本实例查询（Enforce 内稳定视图）", "");
+        Check(!stats.IsLearned("durian"), "快照后新增的词本实例不可见", "");
+
+        // 新实例 = 新快照：看到的是新内容。
+        GameLearnedStats stats2 = new GameLearnedStats(dict);
+        Check(stats2.IsLearned("durian") && !stats2.IsLearned("apple") &&
+              stats2.TestTimes("banana") == 0,
+              "新实例重建快照，反映字典现状（每次 Enforce 一个实例的语义）", "");
+        Check(stats2.LastStudyTime("cherry") == 0 && !stats2.IsLearned("cherry"),
+              "null 条目按未学处理，不抛异常", "");
     }
 
     private static void CheckHostGenericStrategy()

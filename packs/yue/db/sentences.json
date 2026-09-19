@@ -80,7 +80,7 @@
       },
       {
         "sentence": "牛肉好嫩，河粉條條分明。（ngau4 juk6 hou2 nyun3, ho4 fan2 tiu4 tiu4 fan1 ming4.）",
-        "translate": "牛肉鲜嫩，河粉根根分明不上色过黑。"
+        "translate": "牛肉鲜嫩，河粉根根分明。"
       }
     ],
     "亂龍": [
@@ -370,7 +370,7 @@
       },
       {
         "sentence": "出差住酒店記得攞發票。（ceot1 caai1 zyu6 zau2 dim3 gei3 dak1 lo2 faat3 piu3.）",
-        "translate": "出差住酒店记得拿发票报销。"
+        "translate": "出差住酒店记得拿发票。"
       }
     ],
     "出糧": [
@@ -766,7 +766,7 @@
     "因為": [
       {
         "sentence": "因為落雨，所以取消咗活動。（jan1 wai6 lok6 jyu5, so2 ji5 ceoi2 siu1 zo2 wut6 dung6.）",
-        "translate": "因为下雨，所以取消了户外活动。"
+        "translate": "因为下雨，所以取消了活动。"
       },
       {
         "sentence": "佢因為努力而成功。（keoi5 jan1 wai6 nou5 lik6 ji4 sing4 gung1.）",
@@ -780,7 +780,7 @@
       },
       {
         "sentence": "請勿靠近地鐵閘門。（cing2 mat6 kaau3 gan6 dei6 tit3 zaap6 mun4.）",
-        "translate": "请勿靠近地铁车门。"
+        "translate": "请勿靠近地铁闸门。"
       }
     ],
     "埋": [
@@ -856,11 +856,11 @@
     "多謝": [
       {
         "sentence": "多謝你嘅禮物！（do1 ze6 nei5 ge3 lai5 mat6!）",
-        "translate": "多谢你的精美礼物！"
+        "translate": "多谢你的礼物！"
       },
       {
         "sentence": "多謝大家嘅支持同厚愛。（do1 ze6 daai6 gaa1 ge3 zi1 ci4 tung4 hau5 oi3.）",
-        "translate": "非常感谢大家的支持与厚爱。"
+        "translate": "感谢大家的支持与厚爱。"
       }
     ],
     "夜": [
@@ -1576,7 +1576,7 @@
     "排骨": [
       {
         "sentence": "呢籠豉汁蒸排骨好爽口。（ni1 lung4 si6 zap1 zing1 paai4 gwat1 hou2 song2 hau2.）",
-        "translate": "这笼豉汁蒸排骨很脆爽入味。"
+        "translate": "这笼豉汁蒸排骨很爽口。"
       },
       {
         "sentence": "排骨墊底嘅芋頭好好食。（paai4 gwat1 din3 dai2 ge3 wu6 tau4 hou2 hou2 sik6.）",
@@ -1740,7 +1740,7 @@
       },
       {
         "sentence": "成個口袋都係散紙。（seng4 go3 hau2 doi2 dou1 hai6 saan2 zi2.）",
-        "translate": "整个口袋都是零钱硬币。"
+        "translate": "整个口袋都是零钱。"
       }
     ],
     "整": [
@@ -1750,7 +1750,7 @@
       },
       {
         "sentence": "部電話壞咗，要攞去整。（bou6 din6 waa2 waai6 zo2, jiu3 lo2 heoi3 zing2.）",
-        "translate": "手机坏了，要拿去修。"
+        "translate": "电话坏了，要拿去修。"
       }
     ],
     "斑馬線": [
@@ -2096,7 +2096,7 @@
     "煲": [
       {
         "sentence": "煲返煲好湯畀屋企人飲。（bou1 faan1 bou1 hou2 tong1 bei2 uk1 kei2 jan4 jam2.）",
-        "translate": "煲一锅好靓汤给家里人喝。"
+        "translate": "再煲一锅好汤给家里人喝。"
       },
       {
         "sentence": "砂煲煲飯特別香。（saa1 bou1 bou1 faan6 dak6 bit6 hoeng1.）",
@@ -2156,7 +2156,7 @@
     "燒味": [
       {
         "sentence": "今晚斬料加餸，買份燒鵝。（gam1 maan5 zaam2 liu2 gaa1 sung3, maai5 fan6 siu1 ngo4.）",
-        "translate": "今晚买现成卤味加菜，买份烧鹅。"
+        "translate": "今晚买烧味加菜，买份烧鹅。"
       },
       {
         "sentence": "半肥瘦叉燒最好食。（bun3 fei4 sau3 caa1 siu1 zeoi3 hou2 sik6.）",
@@ -2190,7 +2190,7 @@
       },
       {
         "sentence": "涼拌黃瓜好爽脆。（loeng4 bun6 wong4 gwaa1 hou2 song2 ceoi3.）",
-        "translate": "凉拌黄瓜很爽脆解腻。"
+        "translate": "凉拌黄瓜很爽脆。"
       }
     ],
     "牙擦": [
@@ -2370,7 +2370,7 @@
       },
       {
         "sentence": "佢今日着得好斯文。（keoi5 gam1 jat6 zoek3 dak1 hou2 si1 man4.）",
-        "translate": "他今天穿得很斯文大方。"
+        "translate": "他今天穿得很斯文。"
       }
     ],
     "睇": [
@@ -2386,7 +2386,7 @@
     "睇醫生": [
       {
         "sentence": "發燒成三十九度，快啲去睇醫生。（faat3 siu1 seng4 saam1 sap6 gau2 dou6, faai3 di1 heoi3 tai2 ji1 sang1.）",
-        "translate": "发烧将近39度，快点去看医生。"
+        "translate": "发烧高达三十九度，快点去看医生。"
       },
       {
         "sentence": "睇完醫生記得按時食藥。（tai2 jyun4 ji1 sang1 gei3 dak1 on3 si4 sik6 joek6.）",
@@ -2496,7 +2496,7 @@
     "紙巾": [
       {
         "sentence": "借張紙巾抹下手唔該。（ze3 zoeng1 zi2 gan1 maat3 haa5 sau2 m4 goi1.）",
-        "translate": "借张纸巾擦一下手麻烦。"
+        "translate": "麻烦借张纸巾擦一下手。"
       },
       {
         "sentence": "隨身帶包紙巾好方便。（ceoi4 san1 daai3 baau1 zi2 gan1 hou2 fong1 bin6.）",
@@ -2636,7 +2636,7 @@
     "聽": [
       {
         "sentence": "你聽唔聽到我講嘢？（nei5 teng1 m4 teng1 dou2 ngo5 gong2 je5?）",
-        "translate": "你听得清我说话吗？"
+        "translate": "你听到我说话没有？"
       },
       {
         "sentence": "我喺度聽緊廣東歌。（ngo5 hai2 dou6 teng1 gan2 gwong2 dung1 go1.）",
@@ -3006,7 +3006,7 @@
     "諗": [
       {
         "sentence": "等我認真諗下先。（dang2 ngo5 jing6 zan1 nam2 haa5 sin1.）",
-        "translate": "等我认真想一想先。"
+        "translate": "让我先认真想一想。"
       },
       {
         "sentence": "你喺度諗緊咩啊？（nei5 hai2 dou6 nam2 gan2 me1 aa3?）",
@@ -3376,11 +3376,11 @@
     "阿公": [
       {
         "sentence": "阿公以前係中學校長。（aa3 gung1 ji5 cin4 hai6 zung1 hok6 haau6 zoeng2.）",
-        "translate": "外公以前是中学校长。"
+        "translate": "爷爷以前是中学校长。"
       },
       {
         "sentence": "放假返鄉下探阿公。（fong3 gaa3 faan1 hoeng1 haa2 taam3 aa3 gung1.）",
-        "translate": "放假回老家探望外公。"
+        "translate": "放假回老家探望爷爷。"
       }
     ],
     "阿哥": [
@@ -3456,7 +3456,7 @@
     "除衫": [
       {
         "sentence": "屋企開咗暖氣，可以除衫。（uk1 kei2 hoi1 zo2 nyun5 hei3, ho2 ji5 ceoi4 saam1.）",
-        "translate": "家里开了暖气，可以脱掉外套。"
+        "translate": "家里开了暖气，可以脱衣服。"
       },
       {
         "sentence": "熱就除咗件外套啦。（jit6 zau6 ceoi4 zo2 gin6 ngoi6 tou3 laa1.）",
@@ -3476,7 +3476,7 @@
     "雙皮奶": [
       {
         "sentence": "順德大良雙皮奶奶香濃郁。（seon6 dak1 daai6 loeng4 soeng1 pei4 naai5 naai5 hoeng1 nung4 juk1.）",
-        "translate": "顺德大良双皮奶奶香极其浓郁。"
+        "translate": "顺德大良双皮奶奶香浓郁。"
       },
       {
         "sentence": "冷熱雙皮奶各有風味。（laang5 jit6 soeng1 pei4 naai5 gok3 jau5 fung1 mei6.）",
@@ -3596,7 +3596,7 @@
     "靜": [
       {
         "sentence": "夜晚嘅鄉村好寧靜。（je6 maan5 ge3 hoeng1 cyun1 hou2 ning4 zing6.）",
-        "translate": "夜晚的乡村非常宁静祥和。"
+        "translate": "夜晚的乡村非常宁静。"
       },
       {
         "sentence": "呢間咖啡館好靜好舒服。（ni1 gaan1 gaa3 fe1 gun2 hou2 zing6 hou2 syu1 fuk6.）",
@@ -3685,7 +3685,7 @@
     ],
     "食死貓": [
       {
-        "sentence": "明明唔係我做嘅，憑咩要我食死貓！（ming4 ming4 m4 hai6 ngo5 zou6 ge3, pang4 me1 jiu3 ngo5 sik6死maau1!）",
+        "sentence": "明明唔係我做嘅，憑咩要我食死貓！（ming4 ming4 m4 hai6 ngo5 zou6 ge3, pang4 me1 jiu3 ngo5 sik6 sei2 maau1!）",
         "translate": "明明不是我做的，凭什么要我背黑锅！"
       },
       {
@@ -3800,7 +3800,7 @@
       },
       {
         "sentence": "鴛鴦融合咗咖啡同奶茶嘅香味。（jin1 joeng1 jung4 hap6 zo2 gaa3 fe1 tung4 naai5 caa4 ge3 hoeng1 mei6.）",
-        "translate": "鸳鸯融合了咖啡与奶茶的独特香气。"
+        "translate": "鸳鸯融合了咖啡和奶茶的香味。"
       }
     ],
     "黑口黑面": [

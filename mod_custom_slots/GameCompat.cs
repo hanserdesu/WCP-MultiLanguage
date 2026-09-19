@@ -388,12 +388,24 @@ namespace WcpCustomSlots
         // （截图 1db190、724678 两次实测）。四个候选屏幕容器
         // （SettingPart / CanvasSetting1 / CanvasWordCount / Canvas-Hider）全程
         // activeSelf=on，**没有任何可用的切屏信号**，所以判据只能靠标签文字。
+        // FieldInfo 按类型缓存：这函数在自定义页显示期间是**每帧**调用的
+        // （CustomSlotsPlugin.LateUpdate 的判据条件），原来每次都 GetField 一遍。
+        private static FieldInfo _fiClickNum;
+        private static Type _fiClickNumType;
+
         internal static int CurrentCategory(object chooser)
         {
             if (chooser == null) return -1;
             try
             {
-                FieldInfo f = chooser.GetType().GetField("clickNum", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                Type type = chooser.GetType();
+                FieldInfo f = _fiClickNum;
+                if (f == null || _fiClickNumType != type)
+                {
+                    f = type.GetField("clickNum", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                    _fiClickNum = f;
+                    _fiClickNumType = type;
+                }
                 if (f != null)
                 {
                     object val = f.GetValue(chooser);

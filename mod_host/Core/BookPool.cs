@@ -49,7 +49,19 @@ namespace WcpHost
         {
             if (current == null) return null;
             if (book == null || book.Count == 0) return null;
-            HashSet<string> bookSet = ToSet(book);
+            return FilterOnly(current, ToSet(book));
+        }
+
+        /// <summary>
+        /// 同 FilterOnly(current, book)，但接受调用方已建好的本书集合。
+        /// 第十四轮（2026-09-18）：Enforce 里 17 条规则原本各自重建一遍 8451 词的
+        /// HashSet（稳态 25~33ms/s、切换帧的大头之一），而授权集 `allowed` 在
+        /// Enforce 开头只建一次 —— 改为共享，语义不变（同一个集合）。
+        /// </summary>
+        internal static List<string> FilterOnly(IList<string> current, HashSet<string> bookSet)
+        {
+            if (current == null) return null;
+            if (bookSet == null || bookSet.Count == 0) return null;
             List<string> keep = new List<string>();
             HashSet<string> seen = new HashSet<string>(StringComparer.Ordinal);
             for (int i = 0; i < current.Count; i++)
@@ -126,31 +138,50 @@ namespace WcpHost
                 return;
             }
             bool desc = mode == "倒序";
-            if (order != null && order.PriorityOn)
+            // 第十五轮（2026-09-18）：装饰-排序-脱饰（decorate-sort-undecorate）。
+            // 原实现每**一对比较**都调 stats.TestTimes/LastStudyTime，而
+            // GameLearnedStats 的单次调用 = IDictionary.Contains + 反射
+            // FieldInfo.GetValue —— 8000+ 词书已学几千词时，O(n log n) 次比较
+            // 就是十几万次反射访问，实机首次排序 642.1 / 702.5ms（两轮采样复现）。
+            // 排序键只依赖词本身，排序期间不变 —— 抽取一次（n 次），排序退化为
+            // 纯 int 比较（0 反射）。比较语义与原比较器逐条对应（见下）。
+            int n = words.Count;
+            string[] ws = words.ToArray();
+            int[] primary = new int[n];
+            int[] secondary = new int[n];
+            bool priority = order != null && order.PriorityOn;
+            for (int i = 0; i < n; i++)
             {
-                words.Sort(delegate(string a, string b)
+                string w = ws[i];
+                if (priority)
                 {
-                    int byTimes = stats.TestTimes(a).CompareTo(stats.TestTimes(b));
-                    if (byTimes != 0) return byTimes;
-                    int sa = stats.LastStudyTime(a);
-                    int sb = stats.LastStudyTime(b);
-                    return desc ? sb.CompareTo(sa) : sa.CompareTo(sb);
-                });
+                    primary[i] = stats.TestTimes(w);
+                    secondary[i] = stats.LastStudyTime(w);
+                }
+                else if (desc) primary[i] = stats.TestTimes(w);
+                else primary[i] = stats.LastStudyTime(w);
             }
-            else if (desc)
+            int[] idx = new int[n];
+            for (int i = 0; i < n; i++) idx[i] = i;
+            Array.Sort(idx, delegate(int a, int b)
             {
-                words.Sort(delegate(string a, string b)
+                int c;
+                if (priority)
                 {
-                    return stats.TestTimes(b).CompareTo(stats.TestTimes(a));
-                });
-            }
-            else
-            {
-                words.Sort(delegate(string a, string b)
-                {
-                    return stats.LastStudyTime(a).CompareTo(stats.LastStudyTime(b));
-                });
-            }
+                    c = primary[a].CompareTo(primary[b]);       // testTimes 恒升序（同旧比较器）
+                    if (c != 0) return c;
+                    c = secondary[a].CompareTo(secondary[b]);
+                    return desc ? -c : c;                       // lastStudyTime 按 desc 翻转
+                }
+                c = desc ? primary[b].CompareTo(primary[a])     // testTimes 降序
+                         : primary[a].CompareTo(primary[b]);    // lastStudyTime 升序
+                if (c != 0) return c;
+                // 同键稳定化：原 List.Sort 不稳定（同键次序由内省排序的机械细节
+                // 决定），这里显式取词序 —— 对「键唯一」的输入两者输出完全一致，
+                // 对平级输入这是一个确定化（门禁有平级多集等价断言守着）。
+                return string.CompareOrdinal(ws[a], ws[b]);
+            });
+            for (int i = 0; i < n; i++) words[i] = ws[idx[i]];
         }
 
         /// <summary>本书词表 → 去重集合（游戏字段里可能有 null / 空串）。</summary>
@@ -188,6 +219,66 @@ namespace WcpHost
             if (string.IsNullOrEmpty(value)) return null;
             string trimmed = value.Trim();
             return trimmed.Length == 0 ? null : trimmed;
+        }
+
+        /// <summary>
+        /// 单次 Enforce 内共享的词池计划（第十四轮，2026-09-18）。
+        /// 背景：Enforce 的 12 条 Rebuild 规则原本**各自**跑一遍「8451 词去重分区 +
+        /// 反射比较器排序」，实机切换帧 队列:规则 单次 642~706ms（两轮日志复现）。
+        /// Plan 把分区/排序收敛到一次，各规则只按 target 取前缀 —— 结果与逐规则
+        /// BookPool.Rebuild 完全一致（有等价性门禁守着）。随机模式在单次 Enforce 内
+        /// 本就共享同一洗牌（SortBySetting 每次调用 new Random()，同秒内种子相同）；
+        /// 生命周期 = 一次 Enforce，不跨轮缓存 —— 学习进度与随机洗牌照常逐轮刷新。
+        /// </summary>
+        internal sealed class Plan
+        {
+            private readonly IList<string> _book;
+            private readonly ILearnedStats _stats;
+            private readonly PoolOrder _order;
+            private List<string> _learnedFirst;    // 已学(排序) ++ 未学(书序)
+            private List<string> _unlearnedFirst;  // 未学(书序) ++ 已学(排序)
+
+            internal Plan(IList<string> book, ILearnedStats stats, PoolOrder order)
+            {
+                _book = book;
+                _stats = stats;
+                _order = order;
+            }
+
+            /// <summary>与 BookPool.Rebuild(book, stats, order, preferLearned, target) 同结果。</summary>
+            internal List<string> Rebuild(bool preferLearned, int target)
+            {
+                if (_book == null || _book.Count == 0) return null;
+                if (target < MinPlayable) target = MinPlayable;
+                EnsureOrdered();
+                List<string> source = preferLearned ? _learnedFirst : _unlearnedFirst;
+                List<string> result = new List<string>(Math.Min(target, source.Count));
+                for (int i = 0; i < source.Count && result.Count < target; i++)
+                    result.Add(source[i]);
+                return result;
+            }
+
+            private void EnsureOrdered()
+            {
+                if (_learnedFirst != null) return;
+                List<string> learned = new List<string>();
+                List<string> unlearned = new List<string>();
+                HashSet<string> seen = new HashSet<string>(StringComparer.Ordinal);
+                for (int i = 0; i < _book.Count; i++)
+                {
+                    string word = Normalize(_book[i]);
+                    if (word == null || !seen.Add(word)) continue;
+                    if (_stats != null && _stats.IsLearned(word)) learned.Add(word);
+                    else unlearned.Add(word);
+                }
+                if (learned.Count > 1) SortBySetting(learned, _stats, _order);
+                _learnedFirst = new List<string>(learned.Count + unlearned.Count);
+                _learnedFirst.AddRange(learned);
+                _learnedFirst.AddRange(unlearned);
+                _unlearnedFirst = new List<string>(learned.Count + unlearned.Count);
+                _unlearnedFirst.AddRange(unlearned);
+                _unlearnedFirst.AddRange(learned);
+            }
         }
     }
 }

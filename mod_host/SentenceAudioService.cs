@@ -33,6 +33,17 @@ namespace WcpHost
         private object _s17;
         private float _nextScan;
         private bool _scanBusy;
+        // 性能收敛 2026-09-18 第二轮：
+        //  _nextFind — 管理器查找闸门。改成 IsAlive 判存活后（见 Tick 注释），
+        //              页面不在场时每轮扫描都会重查两次 FindObjectOfType，而
+        //              那是全场景遍历。查不到就退避，别再空跑。
+        //  ScanIdleInterval — 无变化时的扫描间隔。原实现只要扫到按钮就把间隔
+        //              压到 0.3s 并永远保持，等于对一个内容不再变化的批次每秒
+        //              做 3.33 次全量对象遍历。
+        private float _nextFind;
+        private const float FindRetryInterval = 2f;
+        private const float ScanBusyInterval = 0.3f;
+        private const float ScanIdleInterval = 1f;
 
         internal SentenceAudioService(HostRuntime runtime, HostAudioPlayer audio)
         {
@@ -45,7 +56,14 @@ namespace WcpHost
             if (Time.unscaledTime < _nextScan) return;
             // 性能收敛 2026-09-16：0.3s → 1s（按钮出现/消失滞后于人眼无感）；
             // 发生过挂载/移除的扫描后短暂回 0.3s 加速连续出现的响应。
-            float interval = _scanBusy ? 0.3f : 1f;
+            //
+            // 性能收敛 2026-09-18 第二轮：原来的 _scanBusy 只要「扫到按钮」就置
+            // true，于是进了 S8/S17 页面后间隔永远钉在 0.3s —— 而按钮一旦挂好，
+            // 再扫同一批得到的还是同一批，每次却都要付一次全量对象遍历
+            // （Resources.FindObjectsOfTypeAll 的成本与已加载对象数成正比，该
+            // 游戏峰值 5.5 万+）。改成只在本轮真的新增/移除了按钮时才加速，
+            // 稳定后回到 ScanIdleInterval。
+            float interval = _scanBusy ? ScanBusyInterval : ScanIdleInterval;
             _nextScan = Time.unscaledTime + interval;
             if (!_runtime.IsActive || _runtime.ActiveStrategy == null)
             {
@@ -54,8 +72,15 @@ namespace WcpHost
             }
             EnsureTypes();
             if (_showReadType == null || _readButtons == null) return;
-            if (_s8 == null && _t8 != null) _s8 = FindObject(_t8);
-            if (_s17 == null && _t17 != null) _s17 = FindObject(_t17);
+            EnsureManagers();
+            // ShowReadButtons 只挂在 S8/S17 两个页面上，两者都不在场时直接跳过
+            // 全量扫描：扫出来必然为空，跳过不改变任何判定。
+            if (!IsAlive(_s8) && !IsAlive(_s17))
+            {
+                if (_states.Count == 0 && _labels.Count == 0) return;
+                Leave();
+                return;
+            }
 
             UnityEngine.Object[] objects = Resources.FindObjectsOfTypeAll(_showReadType);
             _scanBusy = false;
@@ -71,18 +96,38 @@ namespace WcpHost
                     Button button = buttons[j];
                     if (button == null) continue;
                     seen.Add(button);
+                    bool known = _states.ContainsKey(button);
                     string file = ResolveFile(j);
                     if (string.IsNullOrEmpty(file) || !File.Exists(file))
                     {
+                        if (known) _scanBusy = true;
                         Remove(button);
-                        _scanBusy = true;
                         continue;
                     }
                     Attach(button, file, j);
-                    _scanBusy = true;
+                    if (!known) _scanBusy = true;
                 }
             }
-            RemoveUnseen(seen);
+            if (RemoveUnseen(seen) > 0) _scanBusy = true;
+        }
+
+        // 管理器查找闸门（见字段注释）。两个关键点：
+        //   1) 「任一在场就跳过」—— S8 与 S17 是两个互斥页面，不会同时存在。
+        //      在 S8 页面里 _s17 必然是死引用，原来的实现每轮都要为它做一次
+        //      全场景 FindObjectOfType，而结果必然是 null。
+        //   2) 两个都不在场（主菜单/选书页等）时退避 FindRetryInterval 秒，
+        //      别每轮空跑。退避不会拖慢进页面：切换到 S8/S17 之间必有一次场景
+        //      加载（秒级），到时闸门早已过期。
+        private void EnsureManagers()
+        {
+            bool alive8 = IsAlive(_s8);
+            bool alive17 = IsAlive(_s17);
+            if (alive8 || alive17) return;
+            if (Time.unscaledTime < _nextFind) return;
+            if (_t8 != null) _s8 = FindObject(_t8);
+            if (_t17 != null) _s17 = FindObject(_t17);
+            if (!IsAlive(_s8) && !IsAlive(_s17))
+                _nextFind = Time.unscaledTime + FindRetryInterval;
         }
 
         internal bool IsOwnedReadButton(object soundInstance)
@@ -155,12 +200,13 @@ namespace WcpHost
             if (tag != null) UnityEngine.Object.Destroy(tag);
         }
 
-        private void RemoveUnseen(HashSet<Button> seen)
+        private int RemoveUnseen(HashSet<Button> seen)
         {
             List<Button> dead = new List<Button>();
             foreach (KeyValuePair<Button, ReadState> pair in _states)
                 if (pair.Key == null || !seen.Contains(pair.Key)) dead.Add(pair.Key);
             for (int i = 0; i < dead.Count; i++) Remove(dead[i]);
+            return dead.Count;
         }
 
         private void Relabel(Button button, int index)
@@ -250,6 +296,13 @@ namespace WcpHost
                 return text == null ? null : text.text;
             }
             catch (Exception) { return null; }
+        }
+
+        // Unity 假 null 判存活：字段声明为 object 时 == null 是引用比较，
+        // 走不到 UnityEngine.Object 的重载，已销毁对象会被误判为"还在"。
+        private static bool IsAlive(object o)
+        {
+            return (o as Component) != null;
         }
 
         private static object FindObject(Type type)

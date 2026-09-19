@@ -18,12 +18,36 @@ namespace WcpHost
         internal static void InstallFeatures(Harmony harmony)
         {
             if (harmony == null) return;
-            PatchGenericSceneHooks(harmony);
-            PatchDisplay(harmony);
-            PatchDictionary(harmony);
-            PatchAudio(harmony);
-            PatchSelectionAndRefresh(harmony);
+            // 第十一轮（2026-09-18）新增计数：`补丁:Sync` 实机 1827~1890ms 已归因到
+            // harmony.Patch 本身（probe6：52 个 patch 点、均价 63ms/点，TypeByName 只占
+            // 3%）。但「52」这个数字是离线复现出来的，实机到底命中几个从来没核过。
+            // 接线成本 = 命中数 × 单点成本，所以必须把命中数写进日志，否则
+            // 「1890ms」永远无法判断是"点太多"还是"单点太贵"。
+            //
+            // 第十二轮实机答案：**59 个**（0 个类型解析失败），单点 ~35.4ms
+            // （2086.8 / 59）。所以它是"点太多"而不是"单点太贵" —— 搬走它（挪到
+            // 加载期）比优化单点更值，前提是 Awake 期类型可解析，见 CensusAtAwake。
+            _applied = 0; _attempted = 0; _typeMissing = 0;
+            // 第十轮加探针：按组切段，下一次实机日志就能回答哪一组最贵。
+            using (PerfProbe.Begin("补丁:场景钩子")) PatchGenericSceneHooks(harmony);
+            using (PerfProbe.Begin("补丁:显示")) PatchDisplay(harmony);
+            using (PerfProbe.Begin("补丁:词典")) PatchDictionary(harmony);
+            using (PerfProbe.Begin("补丁:音频")) PatchAudio(harmony);
+            using (PerfProbe.Begin("补丁:选词与刷新")) PatchSelectionAndRefresh(harmony);
+            if (WcpHostPlugin.Log != null)
+                WcpHostPlugin.Log.LogInfo("WcpHost: Harmony 接线完成 — 命中目标方法 " + _applied +
+                    " 个（harmony.Patch 调用 " + _attempted + " 次，类型解析失败 " + _typeMissing +
+                    " 个；单点失败已按 warn 逐条打印）");
         }
+
+        // 干跑普查（第十二轮）已删除：第十三轮把接线直接搬到了 Awake，
+        // InstallFeatures 自己的汇总行（命中 N 个 / 解析失败 K 个）就是诊断，
+        // 普查成了纯开销。保留 _applied/_attempted/_typeMissing 记账 ——
+        // 汇总行还在用。
+        // 接线记账（第十一轮）：只用于日志，不参与任何判定。
+        private static int _applied;
+        private static int _attempted;
+        private static int _typeMissing;
 
         private static void PatchGenericSceneHooks(Harmony harmony)
         {
@@ -189,7 +213,7 @@ namespace WcpHost
                                      MethodInfo patch, bool prefix)
         {
             Type type = AccessTools.TypeByName(typeName);
-            if (type == null) return;
+            if (type == null) { _typeMissing++; return; }
             List<MethodInfo> methods = AccessTools.GetDeclaredMethods(type);
             for (int i = 0; i < methods.Count; i++)
             {
@@ -198,8 +222,10 @@ namespace WcpHost
                 try
                 {
                     HarmonyMethod hm = new HarmonyMethod(patch);
+                    _attempted++;
                     if (prefix) harmony.Patch(method, hm, null);
                     else harmony.Patch(method, null, hm);
+                    _applied++;
                 }
                 catch (Exception e)
                 {
@@ -214,14 +240,16 @@ namespace WcpHost
                                      MethodInfo prefix, MethodInfo postfix)
         {
             Type type = AccessTools.TypeByName(typeName);
-            if (type == null) return;
+            if (type == null) { _typeMissing++; return; }
             MethodInfo target = AccessTools.Method(type, methodName);
             if (target == null) return;
             try
             {
+                _attempted++;
                 harmony.Patch(target,
                     prefix == null ? null : new HarmonyMethod(prefix),
                     postfix == null ? null : new HarmonyMethod(postfix));
+                _applied++;
             }
             catch (Exception e)
             {

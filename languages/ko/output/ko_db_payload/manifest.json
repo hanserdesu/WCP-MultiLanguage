@@ -1,12 +1,7 @@
 {
   "ko_pron.tsv": "391b0f7698a6ce77111b134958c31ef0f65010a1ff758a6be5e0beb1a559bad1",
   "ko_only_pron.tsv": "391b0f7698a6ce77111b134958c31ef0f65010a1ff758a6be5e0beb1a559bad1",
-  "ko_sentences.tsv": "3df5c7366ffa463bcacb014699163877f0ae1d01c1f1de82070def12ae8db95b",
+  "ko_sentences.tsv": "b289ead131ba8654b56cbeb496c17a71a57cf234080fd67daac477cea7b65673",
   "word_count": 7330,
-  "sentence_count": 21990,
-  "files": {
-    "ko_only_pron.tsv": "391b0f7698a6ce77111b134958c31ef0f65010a1ff758a6be5e0beb1a559bad1",
-    "ko_pron.tsv": "391b0f7698a6ce77111b134958c31ef0f65010a1ff758a6be5e0beb1a559bad1",
-    "ko_sentences.tsv": "3df5c7366ffa463bcacb014699163877f0ae1d01c1f1de82070def12ae8db95b"
-  }
+  "sentence_count": 21990
 }
