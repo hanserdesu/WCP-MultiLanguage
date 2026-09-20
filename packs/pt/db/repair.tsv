@@ -6213,7 +6213,7 @@ row	pron	horrores	/o.ˈxo.ɾɪs/	/o.ˈxo.ɾɪs/	[o.ˈxo.ɾɪs] 恐怖<副>
 row	pron	ajuste	/aˈʒus.t͡ʃi/	/aˈʒus.t͡ʃi/	[aˈʒus.t͡ʃi] 调整<名>	
 row	pron	formato	/foʁˈma.tu/	/foʁˈma.tu/	[foʁˈma.tu] 格式<名>	
 row	pron	supervisionar	/su.peɣ.vi.zi.o.ˈnax/	/su.peɣ.vi.zi.o.ˈnax/	[su.peɣ.vi.zi.o.ˈnax] 监督<动>	
-row	pron	pendente	/pẽˈdẽ.t͡ʃi/	/pẽˈdẽ.t͡ʃi/	[pẽˈdẽ.t͡ʃi] 待定<名>	
+row	pron	pendente	/pẽˈdẽ.t͡ʃi/	/pẽˈdẽ.t͡ʃi/	[pẽˈdẽ.t͡ʃi] 吊坠；垂饰（悬挂的珠宝饰物）<名>	
 row	pron	educar	/e.duˈka(ʁ)/	/e.duˈka(ʁ)/	[e.duˈka(ʁ)] 教育<动>	
 row	pron	reflectir	/xe.fle.ˈtʃix/	/xe.fle.ˈtʃix/	[xe.fle.ˈtʃix] 反映<动>	
 row	pron	bexiga	/biˈʃi.ɡɐ/	/biˈʃi.ɡɐ/	[biˈʃi.ɡɐ] 膀胱<名>	
@@ -27240,9 +27240,9 @@ row	sentence	formato				例句：Ontem li um artigo interessante sobre formato.�
 row	sentence	supervisionar				例句：Depois de supervisionar tanto tempo, sentiu-se esgotado.（监督了那么久之后，他感到筋疲力尽。）
 row	sentence	supervisionar				例句：Quase ninguém consegue supervisionar à primeira tentativa.（几乎没人能第一次就监督成功。）
 row	sentence	supervisionar				例句：Apetece-te supervisionar este fim de semana?（这个周末你想不想去监督？）
-row	sentence	pendente				例句：Para mim, pendente é algo indispensável.（对我来说，待定是必不可少的东西。）
-row	sentence	pendente				例句：O relatório final inclui uma secção dedicada a pendente.（最终报告里有一个专门讲待定的章节。）
-row	sentence	pendente				例句：No início, pendente era-me desconhecido.（一开始，待定对我来说很陌生。）
+row	sentence	pendente				例句：Para mim, pendente é algo indispensável.（对我来说，吊坠是必不可少的东西。）
+row	sentence	pendente				例句：O relatório final inclui uma secção dedicada a pendente.（最终报告包括一个专门介绍吊坠的部分。）
+row	sentence	pendente				例句：No início, pendente era-me desconhecido.（起初，我不认识吊坠这个词。）
 row	sentence	educar				例句：O médico aconselhou-o a educar todos os dias.（医生建议他每天教育。）
 row	sentence	educar				例句：Depois de educar tanto tempo, sentiu-se esgotado.（教育了那么久之后，他感到筋疲力尽。）
 row	sentence	educar				例句：Quase ninguém consegue educar à primeira tentativa.（几乎没人能第一次就教育成功。）
