@@ -9,8 +9,18 @@
       "pos": "名",
       "meaning": "写字楼，办公室",
       "sentences": [
-        {"sentence": "我哋公司嘅寫字樓喺中環。（ngo5 dei6 gung1 si1 ge3 se2 zi6 lau4 hai2 zung1 waan4.）", "translate": "我们公司的写字楼在中环。"},
-        {"sentence": "寫字樓環境好闊落。（se2 zi6 lau4 waan4 ging2 hou2 fut3 lok6.）", "translate": "写字楼环境很宽敞。"}
+        {
+          "sentence": "我哋公司嘅寫字樓喺中環。（ngo5 dei6 gung1 si1 ge3 se2 zi6 lau4 hai2 zung1 waan4.）",
+          "translate": "我们公司的写字楼在中环。"
+        },
+        {
+          "sentence": "寫字樓環境好闊落。（se2 zi6 lau4 waan4 ging2 hou2 fut3 lok6.）",
+          "translate": "写字楼环境很宽敞。"
+        },
+        {
+          "sentence": "佢喺寫字樓做咗十年嘢。（keoi5 hai2 se2 zi6 lau4 zou6 zo2 sap6 nin4 je5.）",
+          "translate": "他在写字楼干了十年活。"
+        }
       ]
     },
     {
@@ -19,8 +29,18 @@
       "pos": "名",
       "meaning": "工资，薪金，薪水",
       "sentences": [
-        {"sentence": "每個月月底出人工。（mui5 go3 jyut6 jyut6 dai2 ceot1 jan4 gung1.）", "translate": "每个月月底发工资。"},
-        {"sentence": "希望今年老細可以加人工。（hei1 mong6 gam1 nin4 lou5 sai3 ho2 ji5 gaa1 jan4 gung1.）", "translate": "希望今年老板可以给涨薪。"}
+        {
+          "sentence": "每個月月底出人工。（mui5 go3 jyut6 jyut6 dai2 ceot1 jan4 gung1.）",
+          "translate": "每个月月底发工资。"
+        },
+        {
+          "sentence": "希望今年老細可以加人工。（hei1 mong6 gam1 nin4 lou5 sai3 ho2 ji5 gaa1 jan4 gung1.）",
+          "translate": "希望今年老板可以给涨薪。"
+        },
+        {
+          "sentence": "佢份人工好高，唔使憂柴米。（keoi5 fan6 jan4 gung1 hou2 gou1, m4 sai2 jau1 caai4 mai5.）",
+          "translate": "他的工资很高，不用愁吃穿。"
+        }
       ]
     },
     {
@@ -29,8 +49,18 @@
       "pos": "动",
       "meaning": "出差",
       "sentences": [
-        {"sentence": "下個禮拜我要去北京出差。（haa6 go3 lai5 baai3 ngo5 jiu3 heoi3 bak1 ging1 ceot1 caai1.）", "translate": "下周我要去北京出差。"},
-        {"sentence": "出差住酒店記得攞發票。（ceot1 caai1 zyu6 zau2 dim3 gei3 dak1 lo2 faat3 piu3.）", "translate": "出差住酒店记得拿发票报销。"}
+        {
+          "sentence": "下個禮拜我要去北京出差。（haa6 go3 lai5 baai3 ngo5 jiu3 heoi3 bak1 ging1 ceot1 caai1.）",
+          "translate": "下周我要去北京出差。"
+        },
+        {
+          "sentence": "出差住酒店記得攞發票。（ceot1 caai1 zyu6 zau2 dim3 gei3 dak1 lo2 faat3 piu3.）",
+          "translate": "出差住酒店记得拿发票。"
+        },
+        {
+          "sentence": "佢成日要出差，屋企人都慣咗。（keoi5 sing4 jat6 jiu3 ceot1 caai1, uk1 kei2 jan4 dou1 gwaan3 zo2.）",
+          "translate": "他经常要出差，家里人都习惯了。"
+        }
       ]
     },
     {
@@ -39,8 +69,18 @@
       "pos": "动",
       "meaning": "开会",
       "sentences": [
-        {"sentence": "下晝兩點開部門例會。（haa6 zau3 loeng5 dim2 hoi1 bou6 mun4 lai6 wui2.）", "translate": "下午两点开部门例会。"},
-        {"sentence": "開會記得帶手提電腦同筆記本。（hoi1 wui2 gei3 dak1 daai3 sau2 tai4 din6 nou5 tung4 bat1 gei3 bun2.）", "translate": "开会记得带笔记本电脑和笔记本。"}
+        {
+          "sentence": "下晝兩點開部門例會。（haa6 zau3 loeng5 dim2 hoi1 bou6 mun4 lai6 wui2.）",
+          "translate": "下午两点开部门例会。"
+        },
+        {
+          "sentence": "開會記得帶手提電腦同筆記本。（hoi1 wui2 gei3 dak1 daai3 sau2 tai4 din6 nou5 tung4 bat1 gei3 bun2.）",
+          "translate": "开会记得带笔记本电脑和笔记本。"
+        },
+        {
+          "sentence": "老細話聽日朝早開會傾份計劃書。（lou5 sai3 waa6 ting1 jat6 ziu1 zou2 hoi1 wui2 king1 fan6 gai3 waak6 syu1.）",
+          "translate": "老板说明天早上开会谈那份计划书。"
+        }
       ]
     },
     {
@@ -49,8 +89,18 @@
       "pos": "动",
       "meaning": "面试，求职应聘",
       "sentences": [
-        {"sentence": "佢聽日朝早去一間大公司見工。（keoi5 ting1 jat6 ziu1 zou2 heoi3 jat1 gaan1 daai6 gung1 si1 gin3 gung1.）", "translate": "他明天早上去一家大公司面试求职。"},
-        {"sentence": "見工嗰陣千祈唔好緊張。（gin3 gung1 go2 zan6 cin1 kei4 m4 hou2 gan2 zoeng1.）", "translate": "面试的时候千万不要紧张。"}
+        {
+          "sentence": "佢聽日朝早去一間大公司見工。（keoi5 ting1 jat6 ziu1 zou2 heoi3 jat1 gaan1 daai6 gung1 si1 gin3 gung1.）",
+          "translate": "他明天早上去一家大公司面试求职。"
+        },
+        {
+          "sentence": "見工嗰陣千祈唔好緊張。（gin3 gung1 go2 zan6 cin1 kei4 m4 hou2 gan2 zoeng1.）",
+          "translate": "面试的时候千万不要紧张。"
+        },
+        {
+          "sentence": "佢見工見咗三次先至成功入職。（keoi5 gin3 gung1 gin3 zo2 saam1 ci3 sin1 zi3 sing4 gung1 jap6 zik1.）",
+          "translate": "他面试了三次才成功入职。"
+        }
       ]
     },
     {
@@ -59,8 +109,18 @@
       "pos": "动",
       "meaning": "跳槽，跳槽换工作",
       "sentences": [
-        {"sentence": "有同行高薪挖角，佢決定跳槽。（jau5 tung4 hong4 gou1 san1 waat3 gok3, keoi5 kyut3 ding6 tiu3 cou4.）", "translate": "有同行高薪挖角，他决定跳槽。"},
-        {"sentence": "跳槽前要考慮清楚職業發展。（tiu3 cou4 cin4 jiu3 haau2 leoi6 cing1 co2 zik1 jip6 faat3 zin2.）", "translate": "跳槽前要考虑清楚职业发展前景。"}
+        {
+          "sentence": "有同行高薪挖角，佢決定跳槽。（jau5 tung4 hong4 gou1 san1 waat3 gok3, keoi5 kyut3 ding6 tiu3 cou4.）",
+          "translate": "有同行高薪挖角，他决定跳槽。"
+        },
+        {
+          "sentence": "跳槽前要考慮清楚職業發展。（tiu3 cou4 cin4 jiu3 haau2 leoi6 cing1 co2 zik1 jip6 faat3 zin2.）",
+          "translate": "跳槽前要考虑清楚职业发展前景。"
+        },
+        {
+          "sentence": "佢喺呢間公司做咗三年，終於忍唔住跳槽喇。（keoi5 hai2 ni1 gaan1 gung1 si1 zou6 zo2 saam1 nin4, zung1 jyu1 jan2 m4 zyu6 tiu3 cou4 laa3.）",
+          "translate": "他在这家公司干了三年，终于忍不住跳槽了。"
+        }
       ]
     },
     {
@@ -69,8 +129,18 @@
       "pos": "动",
       "meaning": "升职，晋升",
       "sentences": [
-        {"sentence": "恭喜你升職做經理！（gung1 hei2 nei5 sing1 zik1 zou6 ging1 lei5!）", "translate": "恭喜你升职做经理！"},
-        {"sentence": "努力工作，總會有升職機會。（nou5 lik6 gung1 zok3, zung2 wui5 jau5 sing1 zik1 gei1 wui6.）", "translate": "努力工作，总会有升迁机会的。"}
+        {
+          "sentence": "恭喜你升職做經理！（gung1 hei2 nei5 sing1 zik1 zou6 ging1 lei5!）",
+          "translate": "恭喜你升职做经理！"
+        },
+        {
+          "sentence": "努力工作，總會有升職機會。（nou5 lik6 gung1 zok3, zung2 wui5 jau5 sing1 zik1 gei1 wui6.）",
+          "translate": "努力工作，总会有升迁机会的。"
+        },
+        {
+          "sentence": "佢入公司三年就升職咗，真係好叻。（keoi5 jap6 gung1 si1 saam1 nin4 zau6 sing1 zik1 zo2, zan1 hai6 hou2 lek1.）",
+          "translate": "他进公司三年就升职了，真的很厉害。"
+        }
       ]
     },
     {
@@ -79,8 +149,18 @@
       "pos": "动",
       "meaning": "讨价还价，讲价",
       "sentences": [
-        {"sentence": "去女人街買嘢一定要識講價。（heoi3 neoi5 jan4 gaai1 maai5 je5 jat1 ding6 jiu3 sik1 gong2 gaa3.）", "translate": "去女人街买东西一定要会砍价。"},
-        {"sentence": "呢度係明碼實價，冇得講價。（ni1 dou6 hai6 ming4 maa5 sat6 gaa3, mou5 dak1 gong2 gaa3.）", "translate": "这里是明码实价，不讲价。"}
+        {
+          "sentence": "去女人街買嘢一定要識講價。（heoi3 neoi5 jan4 gaai1 maai5 je5 jat1 ding6 jiu3 sik1 gong2 gaa3.）",
+          "translate": "去女人街买东西一定要会砍价。"
+        },
+        {
+          "sentence": "呢度係明碼實價，冇得講價。（ni1 dou6 hai6 ming4 maa5 sat6 gaa3, mou5 dak1 gong2 gaa3.）",
+          "translate": "这里是明码实价，不讲价。"
+        },
+        {
+          "sentence": "佢同個業主講咗成個鐘價，終於講價講到平咗十萬。（keoi5 tung4 go3 jip6 zyu2 gong2 zo6 sing4 go3 zung1 gaa3, zung1 jyu1 gong2 gaa3 gong2 dou3 peng4 zo2 sap6 maan6.）",
+          "translate": "他和业主讲了整整一个钟头的价，终于砍价砍到便宜了十万。"
+        }
       ]
     },
     {
@@ -89,8 +169,18 @@
       "pos": "动",
       "meaning": "转账，银行汇款",
       "sentences": [
-        {"sentence": "我已經用手機銀行過咗數畀你。（ngo5 ji5 ging1 jung6 sau2 gei1 ngan4 hong4 gwo3 zo2 sou3 bei2 nei5.）", "translate": "我已经用手机银行转账给你了。"},
-        {"sentence": "收到款之後唔該通知我聲。（sau1 dou2 fun2 zi1 hau6 m4 goi1 tung1 zi1 ngo5 seng1.）", "translate": "收到款之后麻烦告知我一声。"}
+        {
+          "sentence": "我已經用手機銀行過咗數畀你。（ngo5 ji5 ging1 jung6 sau2 gei1 ngan4 hong4 gwo3 zo2 sou3 bei2 nei5.）",
+          "translate": "我已经用手机银行转账给你了。"
+        },
+        {
+          "sentence": "收到款之後唔該通知我聲。（sau1 dou2 fun2 zi1 hau6 m4 goi1 tung1 zi1 ngo5 seng1.）",
+          "translate": "收到款之后麻烦告知我一声。"
+        },
+        {
+          "sentence": "你今日下晝之前記得過數落我個戶口。（nei5 gam1 jat6 haa6 zau3 zi1 cin4 gei3 dak1 gwo3 sou3 lok6 ngo5 go3 wu6 hau2.）",
+          "translate": "你今天下午之前记得转账到我的账户。"
+        }
       ]
     },
     {
@@ -99,8 +189,18 @@
       "pos": "动",
       "meaning": "签署合同/单据，刷卡签单，成交",
       "sentences": [
-        {"sentence": "呢單生意終於簽單成功！（ni1 daan1 saang1 ji3 zung1 jyu1 cim1 daan1 sing4 gung1!）", "translate": "这笔生意终于成功签单了！"},
-        {"sentence": "請喺呢度簽名確認。（cing2 hai2 ni1 dou6 cim1 meng2 kok3 jing6.）", "translate": "请在这里签名确认。"}
+        {
+          "sentence": "呢單生意終於簽單成功！（ni1 daan1 saang1 ji3 zung1 jyu1 cim1 daan1 sing4 gung1!）",
+          "translate": "这笔生意终于成功签单了！"
+        },
+        {
+          "sentence": "請喺呢度簽名確認。（cing2 hai2 ni1 dou6 cim1 meng2 kok3 jing6.）",
+          "translate": "请在这里签名确认。"
+        },
+        {
+          "sentence": "佢喺餐廳食完飯就簽單埋單。（keoi5 hai2 caan1 teng1 sik6 jyun4 faan6 zau6 cim1 daan1 maai4 daan1.）",
+          "translate": "他在餐厅吃完饭就刷卡签单结账。"
+        }
       ]
     },
     {
@@ -109,8 +209,18 @@
       "pos": "名",
       "meaning": "合同，契约",
       "sentences": [
-        {"sentence": "簽合約之前一定要睇清楚條款。（cim1 hap6 joek3 zi1 cin4 jat1 ding6 jiu3 tai2 cing1 co2 tiu4 fun2.）", "translate": "签合同前一定要看清楚各项条款。"},
-        {"sentence": "份合約期限係兩年。（fan6 hap6 joek3 kei4 haan6 hai6 loeng5 nin4.）", "translate": "这份合同的期限是两年。"}
+        {
+          "sentence": "簽合約之前一定要睇清楚條款。（cim1 hap6 joek3 zi1 cin4 jat1 ding6 jiu3 tai2 cing1 co2 tiu4 fun2.）",
+          "translate": "签合同前一定要看清楚各项条款。"
+        },
+        {
+          "sentence": "份合約期限係兩年。（fan6 hap6 joek3 kei4 haan6 hai6 loeng5 nin4.）",
+          "translate": "这份合同的期限是两年。"
+        },
+        {
+          "sentence": "間公司話要同我續約，我諗住唔簽新合約喇。（gaan1 gung1 si1 waa6 jiu3 tung4 ngo5 zuk6 joek3, ngo5 nam2 zyu6 m4 cim1 san1 hap6 joek3 laa3.）",
+          "translate": "公司说要跟我续约，我打算不签新合同了。"
+        }
       ]
     },
     {
@@ -119,8 +229,18 @@
       "pos": "动",
       "meaning": "谈判，交涉，摆平纠纷",
       "sentences": [
-        {"sentence": "雙方代表坐低講數，尋求解決方案。（soeng1 fong1 doi6 biu2 co5 dai1 gong2 sou3, cam4 kau4 gaai2 kyut3 fong1 on3.）", "translate": "双方代表坐下来谈判，寻求解决方案。"},
-        {"sentence": "有咩問題大家可以平心靜氣講數。（jau5 me1 man6 tai4 daai6 gaa1 ho2 ji5 ping4 sam1 zing6 hei3 gong2 sou3.）", "translate": "有什么问题大家可以心平气和地交涉。"}
+        {
+          "sentence": "雙方代表坐低講數，尋求解決方案。（soeng1 fong1 doi6 biu2 co5 dai1 gong2 sou3, cam4 kau4 gaai2 kyut3 fong1 on3.）",
+          "translate": "双方代表坐下来谈判，寻求解决方案。"
+        },
+        {
+          "sentence": "有咩問題大家可以平心靜氣講數。（jau5 me1 man6 tai4 daai6 gaa1 ho2 ji5 ping4 sam1 zing6 hei3 gong2 sou3.）",
+          "translate": "有什么问题大家可以心平气和地交涉。"
+        },
+        {
+          "sentence": "兩間公司為咗筆數未清，約咗聽日喺茶樓講數。（loeng5 gaan1 gung1 si1 wai6 zo2 bat1 sou3 mei6 cing1, joek3 zo2 ting1 jat6 hai2 caa4 lau4 gong2 sou3.）",
+          "translate": "两家公司因为一笔账没结清，约了明天在茶楼谈判。"
+        }
       ]
     },
     {
@@ -129,8 +249,18 @@
       "pos": "动",
       "meaning": "做生意，创业经商",
       "sentences": [
-        {"sentence": "佢同幾個朋友夾份搞生意。（keoi5 tung4 gei2 go3 pang4 jau5 gaap3 fan6 gaau2 saang1 ji3.）", "translate": "他和几个朋友合伙做生意。"},
-        {"sentence": "搞生意要講眼光同信用。（gaau2 saang1 ji3 jiu3 gong2 ngaan5 gwong1 tung4 seon3 jung6.）", "translate": "做生意讲究眼光和信用。"}
+        {
+          "sentence": "佢同幾個朋友夾份搞生意。（keoi5 tung4 gei2 go3 pang4 jau5 gaap3 fan6 gaau2 saang1 ji3.）",
+          "translate": "他和几个朋友合伙做生意。"
+        },
+        {
+          "sentence": "搞生意要講眼光同信用。（gaau2 saang1 ji3 jiu3 gong2 ngaan5 gwong1 tung4 seon3 jung6.）",
+          "translate": "做生意讲究眼光和信用。"
+        },
+        {
+          "sentence": "佢辭咗份工，自己出嚟搞生意。（keoi5 ci4 zo2 fan6 gung1, zi6 gei2 ceot1 lai4 gaau2 saang1 ji3.）",
+          "translate": "他辞了工作，自己出来创业经商。"
+        }
       ]
     },
     {
@@ -139,8 +269,18 @@
       "pos": "名",
       "meaning": "大客户，重要客户",
       "sentences": [
-        {"sentence": "呢位係我哋公司嘅VIP大客，要好好招待。（ni1 wai2 hai6 ngo5 dei6 gung1 si1 ge3 VIP daai6 haak3, jiu3 hou2 hou2 ziu1 doi6.）", "translate": "这位是我们公司的重要大客户，要好好招待。"},
-        {"sentence": "拿下呢個大客，今年業績就穩喇。（naa4 haa6 ni1 go3 daai6 haak3, gam1 nin4 jip6 zik1 zau6 wan2 laa3.）", "translate": "拿下这个大客户，今年的业绩就稳了。"}
+        {
+          "sentence": "呢位係我哋公司嘅VIP大客，要好好招待。（ni1 wai2 hai6 ngo5 dei6 gung1 si1 ge3 VIP daai6 haak3, jiu3 hou2 hou2 ziu1 doi6.）",
+          "translate": "这位是我们公司的重要大客户，要好好招待。"
+        },
+        {
+          "sentence": "拿下呢個大客，今年業績就穩喇。（naa4 haa6 ni1 go3 daai6 haak3, gam1 nin4 jip6 zik1 zau6 wan2 laa3.）",
+          "translate": "拿下这个大客户，今年的业绩就稳了。"
+        },
+        {
+          "sentence": "老闆話呢個大客投訴，要即刻跟進。（lou5 baan2 waa6 ni1 go3 daai6 haak3 tau4 sou3, jiu3 zik1 hak1 gan1 zeon3.）",
+          "translate": "老板说这个大客户投诉了，要立刻跟进。"
+        }
       ]
     },
     {
@@ -149,8 +289,18 @@
       "pos": "动",
       "meaning": "倒闭，关门大吉，破产结业",
       "sentences": [
-        {"sentence": "受疫情影響，附近好多老字號都執咗笠。（sau6 jik1 cing4 jing2 hoeng2, fu6 gan6 hou2 do1 lou5 zi6 hou6 dou1 zap1 zo2 lap1.）", "translate": "受疫情影响，附近很多老字号都倒闭了。"},
-        {"sentence": "執笠清貨，全場半價！（zap1 lap1 cing1 fo3, cyun4 coeng4 bun3 gaa3!）", "translate": "结业清仓甩卖，全场半价！"}
+        {
+          "sentence": "受疫情影響，附近好多老字號都執咗笠。（sau6 jik1 cing4 jing2 hoeng2, fu6 gan6 hou2 do1 lou5 zi6 hou6 dou1 zap1 zo2 lap1.）",
+          "translate": "受疫情影响，附近很多老字号都倒闭了。"
+        },
+        {
+          "sentence": "執笠清貨，全場半價！（zap1 lap1 cing1 fo3, cyun4 coeng4 bun3 gaa3!）",
+          "translate": "结业清仓甩卖，全场半价！"
+        },
+        {
+          "sentence": "佢間公司蝕咗幾年，終於頂唔順要執笠喇。（keoi5 gaan1 gung1 si1 sit6 zo2 gei2 nin4, zung1 jyu1 ding2 m4 syun6 jiu3 zap1 lap1 laa3.）",
+          "translate": "他的公司亏了好几年，终于撑不住要倒闭了。"
+        }
       ]
     },
     {
@@ -159,8 +309,18 @@
       "pos": "动",
       "meaning": "借钱",
       "sentences": [
-        {"sentence": "借錢容易還錢難。（ze3 cin2 jung4 ji6 waan4 cin2 naan4.）", "translate": "借钱容易还钱难。"},
-        {"sentence": "如果資金周轉唔靈，可以搵銀行貸款。（jyu4 gwo2 zi1 gam1 zau1 zyun2 m4 ling4, ho2 ji5 wan2 ngan4 hong4 dai3 fun2.）", "translate": "如果资金周转不灵，可以找银行贷款。"}
+        {
+          "sentence": "借錢容易還錢難。（ze3 cin2 jung4 ji6 waan4 cin2 naan4.）",
+          "translate": "借钱容易还钱难。"
+        },
+        {
+          "sentence": "如果資金周轉唔靈，可以搵銀行貸款。（jyu4 gwo2 zi1 gam1 zau1 zyun2 m4 ling4, ho2 ji5 wan2 ngan4 hong4 dai3 fun2.）",
+          "translate": "如果资金周转不灵，可以找银行贷款。"
+        },
+        {
+          "sentence": "佢次次都搵我借錢，真係煩。（keoi5 ci3 ci3 dou1 wan2 ngo5 ze3 cin2, zan1 hai6 faan4.）",
+          "translate": "他每次都找我借钱，真是烦。"
+        }
       ]
     },
     {
@@ -169,8 +329,18 @@
       "pos": "名",
       "meaning": "伴手礼，特产礼物，纪念品",
       "sentences": [
-        {"sentence": "去完澳門買咗啲杏仁餅做手信。（heoi3 jyun4 ou3 mun2 maai5 zo2 di1 hang6 jan4 beng2 zou6 sau2 seon3.）", "translate": "去完澳门买了些杏仁饼作为伴手礼。"},
-        {"sentence": "多謝你帶咁靚嘅手信畀我！（do1 ze6 nei5 daai3 gam3 leng3 ge3 sau2 seon3 bei2 ngo5!）", "translate": "多谢你带这么棒的伴手礼给我！"}
+        {
+          "sentence": "去完澳門買咗啲杏仁餅做手信。（heoi3 jyun4 ou3 mun2 maai5 zo2 di1 hang6 jan4 beng2 zou6 sau2 seon3.）",
+          "translate": "去完澳门买了些杏仁饼作为伴手礼。"
+        },
+        {
+          "sentence": "多謝你帶咁靚嘅手信畀我！（do1 ze6 nei5 daai3 gam3 leng3 ge3 sau2 seon3 bei2 ngo5!）",
+          "translate": "多谢你带这么棒的伴手礼给我！"
+        },
+        {
+          "sentence": "下次去日本旅行，記得幫我帶手信返嚟。（haa6 ci3 heoi3 jat6 bun2 leoi5 hang4, gei3 dak1 bong1 ngo5 daai3 sau2 seon3 faan1 lai4.）",
+          "translate": "下次去日本旅行，记得帮我带伴手礼回来。"
+        }
       ]
     },
     {
@@ -179,8 +349,18 @@
       "pos": "形/动",
       "meaning": "客气，礼貌谦逊",
       "sentences": [
-        {"sentence": "大家咁熟，唔使咁客氣啦！（daai6 gaa1 gam3 suk6, m4 sai2 gam3 haak3 hei3 laa1!）", "translate": "大家这么熟络，不用这么见外客气啦！"},
-        {"sentence": "佢份人好隨和，對客好客氣。（keoi5 fan6 jan4 hou2 ceoi4 wo4, deoi3 haak3 hou2 haak3 hei3.）", "translate": "他为人很随和，对客人非常客气。"}
+        {
+          "sentence": "大家咁熟，唔使咁客氣啦！（daai6 gaa1 gam3 suk6, m4 sai2 gam3 haak3 hei3 laa1!）",
+          "translate": "大家这么熟络，不用这么见外客气啦！"
+        },
+        {
+          "sentence": "佢份人好隨和，對客好客氣。（keoi5 fan6 jan4 hou2 ceoi4 wo4, deoi3 haak3 hou2 haak3 hei3.）",
+          "translate": "他为人很随和，对客人非常客气。"
+        },
+        {
+          "sentence": "佢寫信好客氣，開頭仲加咗句「打擾晒」。（keoi5 se2 seon3 hou2 haak3 hei3, hoi1 tau4 zung6 gaa1 zo2 geoi3 daa2 loeng2 saai3.）",
+          "translate": "他写信很客气，开头还加了一句“打扰了”。"
+        }
       ]
     },
     {
@@ -189,8 +369,18 @@
       "pos": "动/名",
       "meaning": "应酬，商务交际与聚餐",
       "sentences": [
-        {"sentence": "今晚老細要帶我去應酬客戶。（gam1 maan5 lou5 sai3 jiu3 daai3 ngo5 heoi3 jing3 cau4 haak3 wu6.）", "translate": "今晚老板要带我去应酬客户。"},
-        {"sentence": "應酬太多真係好傷身。（jing3 cau4 taai3 do1 zan1 hai6 hou2 soeng1 san1.）", "translate": "应酬太多真的很伤身体。"}
+        {
+          "sentence": "今晚老細要帶我去應酬客戶。（gam1 maan5 lou5 sai3 jiu3 daai3 ngo5 heoi3 jing3 cau4 haak3 wu6.）",
+          "translate": "今晚老板要带我去应酬客户。"
+        },
+        {
+          "sentence": "應酬太多真係好傷身。（jing3 cau4 taai3 do1 zan1 hai6 hou2 soeng1 san1.）",
+          "translate": "应酬太多真的很伤身体。"
+        },
+        {
+          "sentence": "佢成日要出嚟應酬，好少陪屋企人食飯。（keoi5 sing4 jat6 jiu3 ceot1 lai4 jing3 cau4, hou2 siu2 pui4 uk1 kei2 jan4 sik6 faan6.）",
+          "translate": "他经常要出来应酬，很少陪家人吃饭。"
+        }
       ]
     },
     {
@@ -199,8 +389,18 @@
       "pos": "名",
       "meaning": "单据，发票，凭证",
       "sentences": [
-        {"sentence": "所有報銷都要附上完整單據。（so2 jau5 bou3 siu1 dou1 jiu3 fu6 soeng5 jyun4 zing2 daan1 geoi3.）", "translate": "所有报销都要附上完整的票据凭证。"},
-        {"sentence": "保留好買嘢嘅單據方便退換。（bou2 lau4 hou2 maai5 je5 ge3 daan1 geoi3 fong1 bin6 teoi3 wun6.）", "translate": "保留好购物小票凭证方便退换货。"}
+        {
+          "sentence": "所有報銷都要附上完整單據。（so2 jau5 bou3 siu1 dou1 jiu3 fu6 soeng5 jyun4 zing2 daan1 geoi3.）",
+          "translate": "所有报销都要附上完整的票据凭证。"
+        },
+        {
+          "sentence": "保留好買嘢嘅單據方便退換。（bou2 lau4 hou2 maai5 je5 ge3 daan1 geoi3 fong1 bin6 teoi3 wun6.）",
+          "translate": "保留好购物小票凭证方便退换货。"
+        },
+        {
+          "sentence": "會計話張單據唔見咗，要你補返一份。（wui6 gai3 waa6 zoeng1 daan1 geoi3 m4 gin3 zo2, jiu3 nei5 bou2 faan1 jat1 fan6.）",
+          "translate": "会计说那张单据不见了，要你补一份。"
+        }
       ]
     }
   ]

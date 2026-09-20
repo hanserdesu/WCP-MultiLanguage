@@ -11,11 +11,15 @@
       "sentences": [
         {
           "sentence": "煲返煲好湯畀屋企人飲。（bou1 faan1 bou1 hou2 tong1 bei2 uk1 kei2 jan4 jam2.）",
-          "translate": "煲一锅好靓汤给家里人喝。"
+          "translate": "再煲一锅好汤给家里人喝。"
         },
         {
           "sentence": "砂煲煲飯特別香。（saa1 bou1 bou1 faan6 dak6 bit6 hoeng1.）",
           "translate": "砂锅煲饭特别香。"
+        },
+        {
+          "sentence": "今晚用呢個煲嚟煲粥。（gam1 man5 jung6 ni1 go3 bou1 lai4 bou1 zuk1.）",
+          "translate": "今晚用这个砂锅来熬粥。"
         }
       ]
     },
@@ -32,6 +36,10 @@
         {
           "sentence": "花膠燉雞補身好正。（faa1 gaau1 dan6 gai1 bou2 san1 hou2 zeng3.）",
           "translate": "花胶炖鸡滋补身体太棒了。"
+        },
+        {
+          "sentence": "阿媽朝早燉咗盅雪梨潤肺。（aa3 maa4 ziu1 zou2 dan6 zo2 zung1 syut3 lei4 jeon6 fai3.）",
+          "translate": "妈妈早上炖了一盅雪梨润肺。"
         }
       ]
     },
@@ -48,6 +56,10 @@
         {
           "sentence": "水滾先落鑊蒸魚。（seoi2 gwan2 sin1 lok6 wok6 zing1 jyu4.）",
           "translate": "水沸腾了再下锅蒸鱼。"
+        },
+        {
+          "sentence": "阿媽話蒸水蛋要冚住碟蓋。（aa3 maa1 waa6 zing1 seoi2 daan2 jiu3 gam2 zy6 dip6 goi3.）",
+          "translate": "妈妈说蒸水蛋要盖住碟盖。"
         }
       ]
     },
@@ -55,7 +67,7 @@
       "word": "灼",
       "jyutping": "coek3",
       "pos": "动",
-      "meaning": "白灼（沸水烫熟以保持食材鲜甜嫩滑）",
+      "meaning": "用沸水烫熟（食材），即白灼，以保持鲜甜嫩滑",
       "sentences": [
         {
           "sentence": "白灼菜心好清甜爽脆。（baak6 coek3 coi3 sam1 hou2 cing1 tim4 song2 ceoi3.）",
@@ -64,6 +76,10 @@
         {
           "sentence": "白灼海蝦最能食出原味。（baak6 coek3 hoi2 haa1 zeoi3 nang4 sik6 ceot1 jyun4 mei6.）",
           "translate": "白灼海虾最能品尝出本味鲜美。"
+        },
+        {
+          "sentence": "阿媽話灼魚片唔好灼得太耐，否則會韌。（aa3 maa1 waa6 coek3 jyu4 pin2 m4 hou2 coek3 dak1 taai3 noi6, fau2 ze1 wui6 ngan6.）",
+          "translate": "妈妈说烫鱼片不要烫太久，否则会变韧。"
         }
       ]
     },
@@ -80,6 +96,10 @@
         {
           "sentence": "鹽焗雞皮脆肉嫩，鹹香四溢。（jim4 guk6 gai1 pei4 ceoi3 juk6 nyun3, haam4 hoeng1 sei3 jat6.）",
           "translate": "盐焗鸡皮脆肉嫩，咸香四溢。"
+        },
+        {
+          "sentence": "阿媽今晚焗咗個蛋糕，好香啊。（aa3 maa1 gam1 man5 guk6 zo2 go3 dou3 gou1, hou2 hoeng1 aa3.）",
+          "translate": "妈妈今晚烤了个蛋糕，好香啊。"
         }
       ]
     },
@@ -96,6 +116,10 @@
         {
           "sentence": "大排檔炒餸最有鑊氣。（daai6 paai4 dong3 caau2 sung3 zeoi3 jau5 wok6 hei3.）",
           "translate": "大排档炒菜最有独特的锅气。"
+        },
+        {
+          "sentence": "師傅話炒呢個菜要夠猛火先有鑊氣。（si1 fu6 waa6 caau2 ni1 go3 coi3 jiu3 gau3 maang5 fo2 sin1 jau5 wok6 hei3.）",
+          "translate": "师傅说炒这道菜要够猛火才有锅气。"
         }
       ]
     },
@@ -111,7 +135,11 @@
         },
         {
           "sentence": "涼拌黃瓜好爽脆。（loeng4 bun6 wong4 gwaa1 hou2 song2 ceoi3.）",
-          "translate": "凉拌黄瓜很爽脆解腻。"
+          "translate": "凉拌黄瓜很爽脆。"
+        },
+        {
+          "sentence": "呢間舖頭啲酸薑特別爽脆。（ni1 gaan1 pou3 tau4 di1 syun1 goeng1 dak6 bit6 song2 ceoi3.）",
+          "translate": "这家店的酸姜特别爽脆。"
         }
       ]
     },
@@ -128,6 +156,10 @@
         {
           "sentence": "醃返半個鐘等啲雞肉入味。（jip3 faan1 bun3 go3 zung1 dang2 di1 gai1 juk6 jap6 mei6.）",
           "translate": "腌制半小时让鸡肉充分入味。"
+        },
+        {
+          "sentence": "個湯煲咗兩個鐘，飲落好入味。（go3 tong1 bou1 zo2 loeng5 go3 zung1, jam2 lok6 hou2 jap6 mei6.）",
+          "translate": "那汤煲了两个小时，喝起来很入味。"
         }
       ]
     }

@@ -16,6 +16,10 @@
         {
           "sentence": "茶走味道特別香滑。（caa4 zau2 mei6 dou6 dak6 bit6 hoeng1 waat6.）",
           "translate": "茶走味道特别香浓丝滑。"
+        },
+        {
+          "sentence": "佢話怕甜，叫咗杯茶走。（keoi5 waa6 paa3 tim4, giu3 zo2 bui1 caa4 zau2.）",
+          "translate": "他说怕甜，点了一杯茶走。"
         }
       ]
     },
@@ -31,7 +35,11 @@
         },
         {
           "sentence": "鴛鴦融合咗咖啡同奶茶嘅香味。（jin1 joeng1 jung4 hap6 zo2 gaa3 fe1 tung4 naai5 caa4 ge3 hoeng1 mei6.）",
-          "translate": "鸳鸯融合了咖啡与奶茶的独特香气。"
+          "translate": "鸳鸯融合了咖啡和奶茶的香味。"
+        },
+        {
+          "sentence": "阿婆話朝朝早都要飲返杯熱鴛鴦先醒神。（aa3 po4 waa6 ziu1 ziu1 zou2 dou1 jiu3 jam2 faan1 bui1 jit6 jin1 joeng1 sin1 sing2 san4.）",
+          "translate": "奶奶说每天早上都要喝杯热鸳鸯才提神。"
         }
       ]
     },
@@ -48,6 +56,10 @@
         {
           "sentence": "食下午茶必嗌菠蘿油。（sik6 haa6 zau3 caa4 bit1 aai3 bo1 lo4 jau4.）",
           "translate": "吃下午茶必点菠萝油。"
+        },
+        {
+          "sentence": "佢一個人掃咗兩個菠蘿油仲加咗杯奶茶。（keoi5 jat1 go3 jan4 sou3 zo2 loeng5 go3 bo1 lo4 jau4 zung6 gaa1 zo2 bui1 naai5 caa4.）",
+          "translate": "他一个人干掉了两个菠萝油还加了一杯奶茶。"
         }
       ]
     },
@@ -63,7 +75,11 @@
         },
         {
           "sentence": "牛肉好嫩，河粉條條分明。（ngau4 juk6 hou2 nyun3, ho4 fan2 tiu4 tiu4 fan1 ming4.）",
-          "translate": "牛肉鲜嫩，河粉根根分明不上色过黑。"
+          "translate": "牛肉鲜嫩，河粉根根分明。"
+        },
+        {
+          "sentence": "師傅話，睇一間茶餐廳掂唔掂，叫佢炒碟乾炒牛河就知。（si1 fu6 waa6, tai2 jat1 gaan1 caa4 caan1 teng1 dim6 m4 dim6, giu3 keoi5 caau2 dip6 gon1 caau2 ngau4 ho2 zau6 zi1.）",
+          "translate": "师傅说，看一家茶餐厅行不行，叫他炒盘干炒牛河就知道了。"
         }
       ]
     },
@@ -71,7 +87,7 @@
       "word": "滑蛋牛肉",
       "jyutping": "waat6 daan2 ngau4 juk6",
       "pos": "名",
-      "meaning": "滑蛋牛肉饭（经典茶餐厅碟头饭）",
+      "meaning": "滑蛋牛肉（滑嫩炒蛋配牛肉的菜式，常做成碟头饭）",
       "sentences": [
         {
           "sentence": "滑蛋牛肉飯嘅蛋好滑好嫩。（waat6 daan2 ngau4 juk6 faan6 ge3 daan2 hou2 waat6 hou2 nyun3.）",
@@ -80,6 +96,10 @@
         {
           "sentence": "今晚煮滑蛋牛肉做晚餐。（gam1 maan5 zyu2 waat6 daan2 ngau4 juk6 zou6 maan5 caan1.）",
           "translate": "今晚做滑蛋牛肉当晚饭。"
+        },
+        {
+          "sentence": "呢間茶餐廳嘅滑蛋牛肉好出名，日日都好多人叫。（ni1 gaan1 caa4 caan1 teng1 ge3 waat6 daan2 ngau4 juk6 hou2 ceot1 ming4, jat6 jat6 dou1 hou2 do1 jan4 giu3.）",
+          "translate": "这家茶餐厅的滑蛋牛肉很有名，每天都有很多人点。"
         }
       ]
     },
@@ -96,6 +116,10 @@
         {
           "sentence": "下晝食個西多士飲杯奶茶。（haa6 zau3 sik6 go3 sai1 do1 si2 jam2 bui1 naai5 caa4.）",
           "translate": "下午吃个西多士喝杯奶茶。"
+        },
+        {
+          "sentence": "茶餐廳嗰份西多士炸得好脆，一上枱就搶晒。（caa4 caan1 teng4 go2 fan6 sai1 do1 si2 zaa3 dak1 hou2 cyun3, jat1 soeng5 toi4 zau6 coeng2 saai3.）",
+          "translate": "茶餐厅那份西多士炸得很脆，一上桌就被抢光了。"
         }
       ]
     },
@@ -112,6 +136,10 @@
         {
           "sentence": "車仔麵嘅咖喱汁好濃。（ce1 zai2 min6 ge3 gaa3 lei1 zap1 hou2 nung4.）",
           "translate": "车仔面的咖喱酱汁非常香浓。"
+        },
+        {
+          "sentence": "放工經過嗰檔車仔麵，我哋坐低食咗兩碗。（fang3 gung1 ging1 gwo3 go2 dong3 ce1 zai2 min6, ngo5 dei6 co5 dai1 sik6 zo2 loeng5 wun2.）",
+          "translate": "下班经过那家车仔面摊，我们坐下来吃了两碗。"
         }
       ]
     },
@@ -128,6 +156,10 @@
         {
           "sentence": "食完一串咖喱魚蛋仲想食。（sik6 jyun4 jat1 cyun3 gaa3 lei1 jyu4 daan2 zung6 soeng2 sik6.）",
           "translate": "吃完一串咖喱鱼蛋还想吃。"
+        },
+        {
+          "sentence": "阿婆買咗斤新鮮魚蛋返屋企煮湯。（aa3 po4 maai5 zo2 gan1 san1 sin1 jyu4 daan2 faan1 uk1 kei2 zyu2 tong1.）",
+          "translate": "奶奶买了一斤新鲜鱼蛋回家煮汤。"
         }
       ]
     },
@@ -144,6 +176,10 @@
         {
           "sentence": "買底原味雞蛋仔邊行邊食。（maai5 dai2 jyun4 mei6 gai1 daan6 zai2 bin1 haang4 bin1 sik6.）",
           "translate": "买一整份原味鸡蛋仔边走边吃。"
+        },
+        {
+          "sentence": "阿婆話呢間舖頭嘅雞蛋仔最有童年味道。（aa3 po4 waa6 ni1 gaan1 pou3 tau4 ge3 gai1 daan6 zai2 zeoi3 jau5 tung4 nin4 mei6 dou6.）",
+          "translate": "奶奶说这家店的鸡蛋仔最有童年味道。"
         }
       ]
     },
@@ -160,6 +196,10 @@
         {
           "sentence": "冬日街頭食碗熱辣辣嘅碗仔翅。（dung1 jat6 gaai1 tau4 sik6 wun2 jit6 laat6 laat6 ge3 wun2 zai2 ci3.）",
           "translate": "冬天街头吃一碗热腾腾的碗仔翅。"
+        },
+        {
+          "sentence": "細個嗰陣，阿嫲成日帶我去街市食碗仔翅。（sai3 go3 go2 zan6, aa3 maa4 sing4 jat6 daai3 ngo5 heoi3 gaai1 si5 sik6 wun2 zai2 ci3.）",
+          "translate": "小时候，奶奶常带我去街市吃碗仔翅。"
         }
       ]
     },
@@ -176,6 +216,10 @@
         {
           "sentence": "點甜豉油食煎釀三寶好正。（dim2 tim4 si6 jau4 sik6 zin1 joeng6 saam1 bou2 hou2 zeng3.）",
           "translate": "蘸着甜酱油吃煎酿三宝太赞了。"
+        },
+        {
+          "sentence": "行夜街嗰陣，我哋買咗份煎釀三寶嚟食。（haang4 je6 gaai1 go2 zan6, ngo5 dei6 maai5 zo2 fan6 zin1 joeng6 saam1 bou2 lai4 sik6.）",
+          "translate": "逛夜街的时候，我们买了一份煎酿三宝来吃。"
         }
       ]
     },
@@ -187,11 +231,15 @@
       "sentences": [
         {
           "sentence": "順德大良雙皮奶奶香濃郁。（seon6 dak1 daai6 loeng4 soeng1 pei4 naai5 naai5 hoeng1 nung4 juk1.）",
-          "translate": "顺德大良双皮奶奶香极其浓郁。"
+          "translate": "顺德大良双皮奶奶香浓郁。"
         },
         {
           "sentence": "冷熱雙皮奶各有風味。（laang5 jit6 soeng1 pei4 naai5 gok3 jau5 fung1 mei6.）",
           "translate": "冰的和热的双皮奶各有千秋。"
+        },
+        {
+          "sentence": "阿婆話呢度嘅雙皮奶最正宗。（aa3 po4 waa6 ni1 dou6 ge3 soeng1 pei4 naai5 zeoi3 zing3 zung1.）",
+          "translate": "奶奶说这里的双皮奶最正宗。"
         }
       ]
     },
@@ -208,6 +256,10 @@
         {
           "sentence": "芒果好甜，西米好爽。（mong1 gwo2 hou2 tim4, sai1 mai5 hou2 song2.）",
           "translate": "芒果很甜，西米非常爽滑。"
+        },
+        {
+          "sentence": "呢間甜品店嘅楊枝甘露好出名，日日都大排長龍。（ni1 gaan1 tim4 ban2 din2 ge3 joeng4 zi1 gam1 lou6 hou2 ceot1 ming4, jat6 jat6 dou1 daai6 paai4 coeng4 lung4.）",
+          "translate": "这家甜品店的杨枝甘露很有名，每天都排长队。"
         }
       ]
     },
@@ -224,6 +276,10 @@
         {
           "sentence": "點酸梅醬食燒鵝真係絕配。（dim2 syun1 mui4 zoeng3 sik6 siu1 ngo4 zan1 hai6 zyut6 pui3.）",
           "translate": "蘸着酸梅酱吃烧鹅真是绝配。"
+        },
+        {
+          "sentence": "阿爸話今晚買隻燒鵝返嚟加餸。（aa3 baa4 waa6 gam1 man6 maai5 zek3 siu1 ngo4 faan1 lai4 gaa1 sung3.）",
+          "translate": "爸爸说今晚买只烧鹅回来加菜。"
         }
       ]
     },
@@ -240,6 +296,10 @@
         {
           "sentence": "牛腩麵啲湯底好濃香。（ngau4 naam5 min6 di1 tong1 dai2 hou2 nung4 hoeng1.）",
           "translate": "牛腩面的汤底非常浓厚鲜香。"
+        },
+        {
+          "sentence": "阿婆話呢度嘅柱侯牛腩最出名。（aa3 po4 waa6 ni1 dou6 ge3 zyu2 hau4 ngau4 naam5 zeoi3 ceot1 ming4.）",
+          "translate": "奶奶说这里的柱侯牛腩最有名。"
         }
       ]
     }

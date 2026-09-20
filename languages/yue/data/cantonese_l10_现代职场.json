@@ -16,6 +16,10 @@
         {
           "sentence": "每個月最開心就係出糧嗰日。（mui5 go3 jyut6 zeoi3 hoi1 sam1 zau6 hai6 ceot1 loeng4 go2 jat6.）",
           "translate": "每个月最开心的就是发工资那天。"
+        },
+        {
+          "sentence": "公司出糧出遲咗，班同事個個都喺度嘈。（gung1 si1 ceot1 loeng4 ceot1 ci4 zo2, baan1 tung4 si6 go3 go3 dou1 hai2 dou6 cou4.）",
+          "translate": "公司发工资发晚了，同事们个个都在抱怨。"
         }
       ]
     },
@@ -32,6 +36,10 @@
         {
           "sentence": "辛苦成年，最期待就係筆花紅。（san1 fu2 seng4 nin4, zeoi3 kei4 doi6 zau6 hai6 bat1 faa1 hung4.）",
           "translate": "辛苦了一整年，最期待的就是那笔年终奖。"
+        },
+        {
+          "sentence": "老闆話今年賺大錢，花紅會加倍。（lou5 baan2 waa6 gam1 nin4 zaan6 daai6 cin2, faa1 hung4 wui5 gaa1 pui3.）",
+          "translate": "老板说今年赚大钱，奖金会加倍。"
         }
       ]
     },
@@ -48,6 +56,10 @@
         {
           "sentence": "有雙糧加花紅，過個肥年。（jau5 soeng1 loeng4 gaa1 faa1 hung4, gwo3 go3 fei4 nin4.）",
           "translate": "有双薪加奖金分红，过个丰盛肥年。"
+        },
+        {
+          "sentence": "今年公司蝕本，冇雙糧出喇。（gam1 nin4 gung1 si1 sit6 bun2, mou5 soeng1 loeng4 ceot1 laa3.）",
+          "translate": "今年公司亏本，没有发双薪了。"
         }
       ]
     },
@@ -64,6 +76,10 @@
         {
           "sentence": "遞信之後仲要遞一個月通知期。（dai6 seon3 zi1 hau6 zung6 jiu3 dai6 jat1 go3 jyut6 tung1 zi1 kei4.）",
           "translate": "辞职之后还要有一个月的交接通知期。"
+        },
+        {
+          "sentence": "阿明喺會議度突然話要遞信，嚇親成個部門。（aa3 ming4 hai2 wui6 ji5 dou6 dat6 jin4 waa6 jiu3 dai6 seon3, haak3 can6 sing4 go3 bou6 mun4.）",
+          "translate": "阿明在会议上突然说要辞职，吓坏了整个部门。"
         }
       ]
     },
@@ -80,6 +96,10 @@
         {
           "sentence": "炒散時間自由，好多學生做。（caau2 saan2 si4 gaan3 zi6 jau4, hou2 do1 hok6 saang1 zou6.）",
           "translate": "打零工时间自由，很多学生在做。"
+        },
+        {
+          "sentence": "佢日頭喺寫字樓返工，夜晚仲炒散幫補家計。（keoi5 jat6 tau4 hai2 se2 zi6 lau4 faan1 gung1, je6 maan5 zung6 caau2 saan2 bong1 bou2 gaa1 gai3.）",
+          "translate": "他白天在写字楼上班，晚上还打零工补贴家用。"
         }
       ]
     },
@@ -96,6 +116,10 @@
         {
           "sentence": "開OT開到半夜，好想瞓覺。（hoi1 ou1 ti1 hoi1 dou3 bun3 je6, hou2 soeng2 fan3 gaau3.）",
           "translate": "加班加到半夜，好想睡觉。"
+        },
+        {
+          "sentence": "老細話今個星期六都要開OT，真係慘。（lou5 sai3 waa6 gam1 go3 sing1 kei4 luk6 dou1 jiu3 hoi1 ou1 ti1, zan1 hai6 caan2.）",
+          "translate": "老板说这个星期六也要加班，真是惨。"
         }
       ]
     },
@@ -112,6 +136,10 @@
         {
           "sentence": "間公司欠供應商幾百萬之後走咗數。（gaan1 gung1 si1 him3 gung1 jing3 soeng1 gei2 baak3 maan6 zi1 hau6 zau2 zo2 sou3.）",
           "translate": "那家公司欠供应商几百万之后潜逃赖账了。"
+        },
+        {
+          "sentence": "佢喺餐廳食完飯就趁亂走數。（keoi5 hai2 caan1 teng1 sik6 jyun4 faan6 zau6 can3 lyun6 zau2 sou3.）",
+          "translate": "他在餐厅吃完饭就趁乱逃单赖账。"
         }
       ]
     },
@@ -128,6 +156,10 @@
         {
           "sentence": "係我嘅責任我就敢於孭鑊。（hai6 ngo5 ge3 zaak3 jam4 ngo5 zau6 gam2 jyu1 me1 wok6.）",
           "translate": "是我的责任我就敢于担当承担。"
+        },
+        {
+          "sentence": "今次唔關你事，唔好幫人孭鑊。（gam1 ci3 m4 gwaan1 nei5 si6, m4 hou2 bong1 jan4 me1 wok6.）",
+          "translate": "这次不关你的事，不要替别人背锅。"
         }
       ]
     },
@@ -144,6 +176,10 @@
         {
           "sentence": "做領導唔好成日諗住卸膊。（zou6 ling5 dou6 m4 hou2 seng4 jat6 nam2 zyu6 se3 bok3.）",
           "translate": "当领导不要老想着推卸责任。"
+        },
+        {
+          "sentence": "呢單嘢佢做錯咗仲想卸膊，真係冇人肯認。（ni1 daan1 je5 keoi5 zou6 co3 zo2 zung6 soeng2 se3 bok3, zan1 hai6 mou5 jan4 hang2 jing6.）",
+          "translate": "这件事他做错了还想推卸责任，真是没人肯承认。"
         }
       ]
     },
@@ -160,6 +196,10 @@
         {
           "sentence": "如果手頭緊就同我講聲。（jyu4 gwo2 sau2 tau4 gan2 zau6 tung4 ngo5 gong2 seng1.）",
           "translate": "如果手头紧就跟我说一声。"
+        },
+        {
+          "sentence": "佢啲生意未收返數，搞到好手頭緊。（keoi5 di1 sang1 ji3 mei6 sau1 faan1 sou3, gaau2 dou3 hou2 sau2 tau4 gan2.）",
+          "translate": "他的生意还没收回账款，搞得手头很紧。"
         }
       ]
     }

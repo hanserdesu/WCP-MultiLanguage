@@ -16,6 +16,10 @@
         {
           "sentence": "你鍾唔鍾意睇戲啊？（nei5 zung1 m4 zung1 ji3 tai2 hei3 aa3?）",
           "translate": "你喜不喜欢看电影呀？"
+        },
+        {
+          "sentence": "佢細個嗰陣已經好鍾意畫畫。（keoi5 sai3 go3 go2 zan6 ji5 ging1 hou2 zung1 ji3 waak6 waa2.）",
+          "translate": "他小时候就已经很喜欢画画。"
         }
       ]
     },
@@ -32,6 +36,10 @@
         {
           "sentence": "唔好成日憎呢個憎嗰個。（m4 hou2 seng4 jat6 zang1 ni1 go3 zang1 go2 go3.）",
           "translate": "不要整天讨厌这个厌烦那个。"
+        },
+        {
+          "sentence": "佢憎咗個仇家好多年。（keoi5 zang1 zo2 go3 sau4 gaa1 hou2 do1 nin4.）",
+          "translate": "他恨那个仇人很多年了。"
         }
       ]
     },
@@ -48,6 +56,10 @@
         {
           "sentence": "佢好驚打雷。（keoi5 hou2 geng1 daa2 leoi4.）",
           "translate": "他很害怕打雷。"
+        },
+        {
+          "sentence": "細路仔驚黑，唔敢一個人瞓覺。（sai3 lou6 zai2 geng1 hak1, m4 gam2 jat1 go3 jan4 fan3 gaau3.）",
+          "translate": "小孩子怕黑，不敢一个人睡觉。"
         }
       ]
     },
@@ -64,6 +76,10 @@
         {
           "sentence": "件事好急，要即刻處理。（gin6 si6 hou2 gap1, jiu3 zik1 hak1 cyu2 lei5.）",
           "translate": "事情非常紧急，要立刻处理。"
+        },
+        {
+          "sentence": "佢趕住搭車，行得好急。（keoi5 gon2 zyu6 daap3 ce1, hang4 dak1 hou2 gap1.）",
+          "translate": "他赶着搭车，走得很急。"
         }
       ]
     },
@@ -80,6 +96,10 @@
         {
           "sentence": "慳水慳電，人人有責。（haan1 seoi2 haan1 din6, jan4 jan4 jau5 zaak3.）",
           "translate": "节约水电，人人有责。"
+        },
+        {
+          "sentence": "佢好識慳錢，儲咗唔少積蓄。（keoi5 hou2 sik1 haan1 cin2, cou1 zo2 m4 siu2 zik1 sou3.）",
+          "translate": "他很会省钱，存了不少积蓄。"
         }
       ]
     },
@@ -96,6 +116,10 @@
         {
           "sentence": "唔好喺圖書館入面咁嘈。（m4 hou2 hai2 tou4 syu1 gun2 jap6 min6 gam3 cou4.）",
           "translate": "不要在图书馆里面这么吵闹喧哗。"
+        },
+        {
+          "sentence": "細路仔喺客廳嘈到瞓唔到覺。（sai3 lou2 zai2 hai2 haak3 teng1 cou4 dou3 fan3 m4 dou3 gaau3.）",
+          "translate": "小孩在客厅吵得没法睡觉。"
         }
       ]
     },
@@ -107,11 +131,15 @@
       "sentences": [
         {
           "sentence": "夜晚嘅鄉村好寧靜。（je6 maan5 ge3 hoeng1 cyun1 hou2 ning4 zing6.）",
-          "translate": "夜晚的乡村非常宁静祥和。"
+          "translate": "夜晚的乡村非常宁静。"
         },
         {
           "sentence": "呢間咖啡館好靜好舒服。（ni1 gaan1 gaa3 fe1 gun2 hou2 zing6 hou2 syu1 fuk6.）",
           "translate": "这家咖啡馆很安静很舒适。"
+        },
+        {
+          "sentence": "圖書館入面好靜，個個都喺度睇書。（tou4 syu1 gun2 jap6 min6 hou2 zing6, go3 go3 dou1 hai2 dou6 tai2 syu1.）",
+          "translate": "图书馆里面很安静，每个人都在看书。"
         }
       ]
     }

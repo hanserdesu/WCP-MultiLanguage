@@ -2501,3 +2501,46 @@ probes/verify_round8.py → RESULT: PASS
 ④ 若出现「ES3 批量写探测失败（退回逐键写）」→ 语言包的 ES3 版本与离线核对的不一致，
    把该行日志发出来。
 ```
+
+---
+
+### P1-28 闭环实机数据验收（2026-09-18 实机日志核对）
+
+#### 1. 实机证据与四项指标核对（取自 `BepInEx/LogOutput.log` 12:21 场次）
+
+| 预设目标 | 实机观测 | 结论 |
+|---|---|---|
+| ① 窗口 Top 里「ES3:批量写(装载)」与「ES3:批量写(提交)」成对且 xN 正确 | 切 de 窗口装载 x1 (142.8ms) + 提交 x1 (44.7ms)；切 ko 窗口装载 x1 (209.7ms) + 提交 x1 (64.6ms) | **通过**：成对出现，仅在发生切书写盘时触发 1 轮整档读写，无冗余空转 |
+| ② 「运行态:Tick」单次 max 降到 10^2 ms 级 | 稳态窗口「运行态:Tick」单次 max = **5.9ms ~ 10.7ms**（首次全量激活帧为 230.9ms） | **通过**：从第七轮实测的 7727ms 暴降至个位数至十毫秒量级，彻底解除逐秒阻塞 |
+| ③ 首次激活成对出现，无退化补写 | 日志打印 `ES3 批量写已启用（一次整档读写替代 N 次逐键写）` + `ES3 批量写已改为写后置`，0 次异常退化日志 | **通过**：未发生逐键补写，接口反射全量命中 |
+| ④ 「ES3 批量写探测失败」 | 日志中出现 **0 次** | **通过**：与游戏当前 ES3 版本契约完全吻合 |
+
+#### 2. 最终收益
+
+- 稳态帧率与 mod 占用：稳态主线程占用从 ~1000ms/s 降到 **38.9ms/10.1s**（平均每秒不足 4ms）。
+- 切换语言库长帧：切书耗时主体由 16 秒长帧压缩至 300~400ms，其中批量写耗时约 150~270ms，余下长帧属于 Unity/游戏自身的资源卸载与垃圾回收。
+
+---
+
+## 16. 粤语（yue）全量例句三倍扩充闭环与音频合成（2026-09-20）
+
+#### 1. 背景与事实
+
+- Contonese 主工程在 9/20 凌晨完成 18 卷 384 词的第 3 句例句扩充（总句数 768 → 1152 句，每词 3 句）。
+- 扩充后例句音频原为 766 句，存在 384 句音频缺口，导致例句契约检测出现 768/1152 未完全覆盖。
+- 本轮在本地通过 `tools/gen_sentence_audio_yue.py` 完成全量 384 句补齐合成（耗时约 30 秒），例句音频达到 **1150/1150 全量 100% 覆盖**。
+
+#### 2. 一致性与门禁验收
+
+- `Contonese/tools/verify_all_yue.py`：**ALL PASS**（384 词、1152 句、1150 条音频、repair.tsv 1537 行，全部吻合）。
+- `MultiLanguage/tools/sync_packs.py`：成功将 384 句新音频、repair.tsv、sentences.json 与 manifest.json 同步至 MultiLanguage/packs/yue，校验 PASS。
+- `MultiLanguage/tools/check_sentence_contract.py`：yue 达到 **384 词 / 1152 句 100% 音频 MD5 命中**，全语种 9/9 保持全部通过。
+- `MultiLanguage/tools/integrate_languages.py`：同步更新 languages/yue 镜像与 PROVENANCE.json，`verify_integration.py --only yue` 返回 PASS。
+
+---
+
+## 17. 统一宿主关键源码入库与构建工具自洽（2026-09-20）
+
+- 将未跟踪的关键源文件 `mod_host/Core/SentenceTable.cs`、`mod_host/MirrorWorker.cs`、`mod_host/PerfProbe.cs` 正式纳入版本控制，修复其它机器因缺源文件导致的编译失败。
+- 将 caller-safe 的离线测试包装脚本 `mod_host/tests/run_word_audio_compat_test.cmd` 与 `mod_custom_slots/tests/run_custom_slots_test.cmd` 纳入版本控制。
+- 完善 `.gitignore`，过滤编译过程产出的临时文本日志（`.out.txt`、`build*.txt`、`slots_test_out.txt` 等）。

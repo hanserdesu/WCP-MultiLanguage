@@ -16,6 +16,10 @@
         {
           "sentence": "我去機場接朋友機。（ngo5 heoi3 gei1 coeng4 zip3 pang4 jau5 gei1.）",
           "translate": "我去机场接朋友下飞机。"
+        },
+        {
+          "sentence": "架機延誤咗，我哋喺機場等咗成三個鐘。（gaa3 gei1 jing4 mi6 zo2, ngo5 dei6 hai2 gei1 coeng4 dang2 zo2 sing4 saam1 go3 zung1.）",
+          "translate": "航班延误了，我们在机场等了整整三个小时。"
         }
       ]
     },
@@ -32,6 +36,10 @@
         {
           "sentence": "喺碼頭搭船過海。（hai2 maa5 tau4 daap3 syun4 gwo3 hoi2.）",
           "translate": "在码头坐轮渡过海。"
+        },
+        {
+          "sentence": "佢日日朝早都去碼頭買魚。（keoi5 jat6 jat6 ziu1 zou4 dou1 heoi3 maa5 tau4 maai5 jyu4.）",
+          "translate": "他每天早上都去码头买鱼。"
         }
       ]
     },
@@ -48,6 +56,10 @@
         {
           "sentence": "天星小輪票價好平。（tin1 sing1 siu2 leon4 piu3 gaa3 hou2 peng4.）",
           "translate": "天星小轮票价非常便宜亲民。"
+        },
+        {
+          "sentence": "落雨嗰日我哋照舊搭天星小輪過海返工。（lok6 jyu5 go2 jat6 ngo5 dei6 ziu3 gau6 daap3 tin1 sing1 siu2 leon4 gwo3 hoi2 faan1 gung1.）",
+          "translate": "下雨那天我们照旧坐天星小轮过海上班。"
         }
       ]
     },
@@ -64,6 +76,10 @@
         {
           "sentence": "叮叮車係百年歷史交通工具。（ding1 ding1 ce1 hai6 baak3 nin4 lik6 si2 gaau1 tung1 gung1 geoi6.）",
           "translate": "叮叮车是有百年历史的交通工具。"
+        },
+        {
+          "sentence": "落雨嗰日搭叮叮車最方便。（lok6 jyu5 go2 jat6 daap3 ding1 ding1 ce1 zeoi3 fong1 bin6.）",
+          "translate": "下雨那天搭叮叮车最方便。"
         }
       ]
     },
@@ -80,6 +96,10 @@
         {
           "sentence": "中環天橋網絡四通八達。（zung1 waan4 tin1 kiu4 mong5 lok3 sei3 tung1 baat3 daat6.）",
           "translate": "中环的人行天桥系统四通八达。"
+        },
+        {
+          "sentence": "落大雨嗰陣，行天橋就唔使擔心整濕身。（lok6 daai6 jyu5 go2 zan6, haang4 tin1 kiu4 zau6 m4 sai2 daam1 sam1 zing2 sap1 san1.）",
+          "translate": "下大雨的时候，走天桥就不用担心淋湿身子。"
         }
       ]
     },
@@ -96,6 +116,10 @@
         {
           "sentence": "司機會喺斑馬線前停車禮讓行人。（si1 gei1 wui5 hai2 baan1 maa5 sin3 cin4 ting4 ce1 lai5 joeng6 hang4 jan4.）",
           "translate": "司机会在斑马线前停车礼让行人。"
+        },
+        {
+          "sentence": "小朋友過斑馬線之前，記得睇清楚兩邊有冇車。（siu2 pang4 jau5 gwo3 baan1 maa5 sin3 zi1 cin4, gei3 dak1 tai2 cing1 co2 loeng5 bin1 jau5 mou5 ce1.）",
+          "translate": "小朋友过斑马线之前，记得看清楚两边有没有车。"
         }
       ]
     },
@@ -112,6 +136,10 @@
         {
           "sentence": "等緊紅綠燈過馬路。（dang2 gan2 hung4 luk6 dang1 gwo3 maa5 lou6.）",
           "translate": "正在等红绿灯过马路。"
+        },
+        {
+          "sentence": "前面個紅綠燈壞咗，記住小心啲揸車。（cin4 min6 go3 hung4 luk6 dang1 waai6 zo2, gei3 zyu6 siu2 sam1 di1 zaa1 ce1.）",
+          "translate": "前面那个红绿灯坏了，记得开车小心点。"
         }
       ]
     }

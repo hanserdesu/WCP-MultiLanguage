@@ -16,6 +16,10 @@
         {
           "sentence": "有真本事嘅人唔會咁牙擦。（jau5 zan1 bun2 si6 ge3 jan4 m4 wui5 gam3 ngaa4 caat3.）",
           "translate": "有真本领的人不会这么狂妄嚣张。"
+        },
+        {
+          "sentence": "佢講嘢牙擦過人，同事個個都唔多鍾意佢。（keoi5 gong2 je5 ngaa4 caat3 gwo3 jan4, tung4 si6 go3 go3 dou1 m4 do1 zung1 ji3 keoi5.）",
+          "translate": "他说话比谁都嚣张，同事个个都不太喜欢他。"
         }
       ]
     },
@@ -32,6 +36,10 @@
         {
           "sentence": "唔好諗咁多令人心悒嘅事。（m4 hou2 nam2 gam3 do1 ling6 jan4 sam1 jap1 ge3 si6.）",
           "translate": "别想那么多让人心里难过的事情。"
+        },
+        {
+          "sentence": "阿婆講起以前嘅苦日子，講講下就心悒。（aa3 po4 gong2 hei2 ji5 cin4 ge3 fu2 jat6 zi2, gong2 gong2 haa5 zau6 sam1 jap1.）",
+          "translate": "奶奶说起以前的苦日子，说着说着就心里酸楚起来。"
         }
       ]
     },
@@ -48,6 +56,10 @@
         {
           "sentence": "你要生性做人，唔好令父母擔心。（nei5 jiu3 saang1 sing3 zou6 jan4, m4 hou2 ling6 fu6 mou5 daam1 sam1.）",
           "translate": "你要做个懂事争气的人，别让父母担心。"
+        },
+        {
+          "sentence": "佢讀書成績好，又咁生性，阿媽都放心晒。（keoi5 duk6 syu1 sing4 zik1 hou2, jau6 gam3 saang1 sing3, aa3 maa4 dou1 fong3 sam1 saai3.）",
+          "translate": "他读书成绩好，又这么懂事，妈妈都完全放心了。"
         }
       ]
     },
@@ -64,6 +76,10 @@
         {
           "sentence": "雖然百厭，但好聰明。（seoi1 jin4 baak3 jim3, daan6 hou2 cung1 ming4.）",
           "translate": "虽然淘气，但是很聪明。"
+        },
+        {
+          "sentence": "隻貓仔百厭到不得了，成日抓爛張沙發。（zek3 maau1 zai2 baak3 jim3 dou3 bat1 dak1 liu5, seng4 jat6 zaau2 laan6 zoeng1 saa1 faat3.）",
+          "translate": "这只小猫调皮得不得了，整天把沙发抓烂。"
         }
       ]
     },
@@ -80,6 +96,10 @@
         {
           "sentence": "乖啦，唔好再扭計喇。（gwaai1 laa1, m4 hou2 zoi3 nau2 gai2 laa3.）",
           "translate": "乖啦，不要再闹脾气了。"
+        },
+        {
+          "sentence": "細妹食飯前扭計唔肯洗手。（sai3 mui2 sik6 faan6 cin4 nau2 gai2 m4 hang2 sai2 sau2.）",
+          "translate": "小妹妹吃饭前闹别扭不肯洗手。"
         }
       ]
     },
@@ -96,6 +116,10 @@
         {
           "sentence": "老細今日唔知點解發老脾。（lou5 sai3 gam1 jat6 m4 zi1 dim2 gaai2 faat3 lou5 pei4.）",
           "translate": "老板今天不知为何大发脾气。"
+        },
+        {
+          "sentence": "佢一見到個仔打爛咗個花樽，即刻發老脾。（keoi5 jat1 gin3 dou3 go3 zai2 daa2 laan6 zo2 go3 faa1 zeon2, zik1 hak1 faat3 lou5 pei4.）",
+          "translate": "他一看到儿子打碎了花瓶，立刻大发脾气。"
         }
       ]
     },
@@ -112,6 +136,10 @@
         {
           "sentence": "佢做嘢好大懵，成日漏嘢。（keoi5 zou6 je5 hou2 daai6 mung2, seng4 jat6 lau6 je5.）",
           "translate": "他做事很大意，经常丢三落四。"
+        },
+        {
+          "sentence": "阿婆年紀大，唔係幾大懵，只係成日認錯人。（aa3 po4 nin4 gei3 daai6, m4 hai6 gei2 daai6 mung2, zi2 hai6 seng4 jat6 jing6 co3 jan4.）",
+          "translate": "婆婆年纪大，不算太糊涂，只是经常认错人。"
         }
       ]
     },
@@ -128,6 +156,10 @@
         {
           "sentence": "佢行步路都論論盡盡。（keoi5 haang4 bou6 lou6 dou1 leon6 leon6 zeon6 zeon6.）",
           "translate": "他走起路来都笨手笨脚跌跌撞撞的。"
+        },
+        {
+          "sentence": "佢著住對新鞋，行路論盡到唔似樣。（keoi5 zyu3 zyu6 deoi3 san1 haai4, haang4 lou6 leon6 zeon6 dou3 m4 ci5 joeng2.）",
+          "translate": "他穿着一双新鞋，走路笨拙得不成样子。"
         }
       ]
     },
@@ -135,7 +167,7 @@
       "word": "肉緊",
       "jyutping": "juk6 gan2",
       "pos": "形",
-      "meaning": "紧张心焦，极度投入，激动用力",
+      "meaning": "紧张心焦，极度投入，激动用力，怜爱",
       "sentences": [
         {
           "sentence": "睇世界盃決賽睇到大家超肉緊。（tai2 sai3 gaai3 bui1 kyut3 coi3 tai2 dou3 daai6 gaa1 ciu1 juk6 gan2.）",
@@ -144,6 +176,10 @@
         {
           "sentence": "見到得意BB忍唔住想肉緊咬一啖。（gin3 dou2 dak1 ji3 BB jan2 m4 zyu6 soeng2 juk6 gan2 ngaau5 jat1 daam6.）",
           "translate": "看到可爱宝宝忍不住喜欢得想咬一口。"
+        },
+        {
+          "sentence": "佢打機打到輸咗，肉緊到成晚瞓唔著。（keoi5 daa2 gei1 daa2 dou3 syu1 zo2, juk6 gan2 dou3 seng4 maan5 fan3 m4 zyu6.）",
+          "translate": "他打游戏打输了，紧张激动得整晚睡不着。"
         }
       ]
     },
@@ -160,6 +196,10 @@
         {
           "sentence": "唔忿氣就下次再贏返！（m4 fan5 hei3 zau6 haa6 ci3 zoi3 jeng4 faan1!）",
           "translate": "不服气那就下次再赢回来！"
+        },
+        {
+          "sentence": "佢做咗咁多年都未升職，心入面好唔忿氣。（keoi5 zou6 zo2 gam3 do1 nin4 dou1 mei6 sing1 zik1, sam1 jap6 min6 hou2 m4 fan5 hei3.）",
+          "translate": "他干了这么多年都没升职，心里很不服气。"
         }
       ]
     }

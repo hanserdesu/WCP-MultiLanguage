@@ -16,6 +16,10 @@
         {
           "sentence": "買咗麵包同埋牛奶。（maai5 zo2 min6 baau1 tung4 maai4 ngau4 naai5.）",
           "translate": "买了面包和牛奶。"
+        },
+        {
+          "sentence": "阿明同埋阿華都嚟咗開會。（aa3 ming4 tung4 maai4 aa3 waa4 dou1 lai4 zo2 hoi1 wui2.）",
+          "translate": "阿明和阿华都来开会了。"
         }
       ]
     },
@@ -32,6 +36,10 @@
         {
           "sentence": "佢想去，但係冇時間。（keoi5 soeng2 heoi3, daan6 hai6 mou5 si4 gaan3.）",
           "translate": "他想去，可是没有时间。"
+        },
+        {
+          "sentence": "件衫幾靚，但係尺碼太細。（gin6 saam1 gei2 leng3, daan6 hai6 cek3 maa5 taai3 sai3.）",
+          "translate": "这件衣服挺漂亮，不过尺码太小。"
         }
       ]
     },
@@ -43,11 +51,15 @@
       "sentences": [
         {
           "sentence": "因為落雨，所以取消咗活動。（jan1 wai6 lok6 jyu5, so2 ji5 ceoi2 siu1 zo2 wut6 dung6.）",
-          "translate": "因为下雨，所以取消了户外活动。"
+          "translate": "因为下雨，所以取消了活动。"
         },
         {
           "sentence": "佢因為努力而成功。（keoi5 jan1 wai6 nou5 lik6 ji4 sing4 gung1.）",
           "translate": "他因为刻苦努力而获得成功。"
+        },
+        {
+          "sentence": "因為趕時間，佢冇食早餐就走咗。（jan1 wai6 gon2 si4 gaan3, keoi5 mou5 sik6 zou2 caan1 zau6 zau2 zo2.）",
+          "translate": "因为赶时间，他没吃早餐就走了。"
         }
       ]
     },
@@ -64,6 +76,10 @@
         {
           "sentence": "佢好勤力，所以成績好。（keoi5 hou2 kan4 lik6, so2 ji5 sing4 zik1 hou2.）",
           "translate": "他很勤奋，因此成绩优异。"
+        },
+        {
+          "sentence": "落咗成日雨，所以個公園冇乜人。（lok6 zo2 sing4 jat6 jyu5, so2 ji5 go3 gung1 jyun2 mou5 mat1 jan4.）",
+          "translate": "下了一整天雨，所以公园没什么人。"
         }
       ]
     },
@@ -80,6 +96,10 @@
         {
           "sentence": "如果有問題隨時問我。（jyu4 gwo2 jau5 man6 tai4 ceoi4 si4 man6 ngo5.）",
           "translate": "如果有什么问题随时问我。"
+        },
+        {
+          "sentence": "如果聽日落雨，個旅行就要取消喇。（jyu4 gwo2 ting1 jat6 lok6 jyu5, go3 leoi5 hang4 zau6 jiu3 ceoi1 siu2 laa3.）",
+          "translate": "如果明天下雨，旅行就要取消了。"
         }
       ]
     },
@@ -96,6 +116,10 @@
         {
           "sentence": "件事其實好簡單。（gin6 si6 kei4 sat6 hou2 gaan2 daan1.）",
           "translate": "事情其实非常简单。"
+        },
+        {
+          "sentence": "其實我早就知佢唔會嚟。（kei4 sat6 ngo5 zou2 zau6 zi1 keoi5 m4 wui5 lai4.）",
+          "translate": "其实我早就知道他不会来。"
         }
       ]
     },
@@ -112,6 +136,10 @@
         {
           "sentence": "總之大家平安就最好。（zung2 zi1 daai6 gaa1 ping4 on1 zau6 zeoi3 hou2.）",
           "translate": "总而言之大家平平安安就最好了。"
+        },
+        {
+          "sentence": "總之你唔好遲到就得喇。（zung2 zi1 nei5 m4 hou2 ci4 dou3 zau6 dak1 laa3.）",
+          "translate": "总之你别迟到就行了。"
         }
       ]
     },
@@ -128,6 +156,10 @@
         {
           "sentence": "我頭先喺路上撞見佢。（ngo5 tau4 sin1 hai2 lou6 soeng6 zong6 gin3 keoi5.）",
           "translate": "我刚才在路上碰见他了。"
+        },
+        {
+          "sentence": "頭先落嗰場雨真係好大。（tau4 sin1 lok6 go2 coeng4 jyu5 zan1 hai6 hou2 daai6.）",
+          "translate": "刚才下的那场雨真的很大。"
         }
       ]
     }

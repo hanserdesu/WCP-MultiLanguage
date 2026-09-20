@@ -16,6 +16,10 @@
         {
           "sentence": "地下有嚿大石頭。（dei6 haa2 jau5 gau6 daai6 sek6 tau4.）",
           "translate": "地上有一块大石头。"
+        },
+        {
+          "sentence": "呢嚿蛋糕切開一半啦。（ni1 gau6 dan6 gou1 cit3 hoi1 jat1 bun3 laa1.）",
+          "translate": "把这块蛋糕切成两半吧。"
         }
       ]
     },
@@ -32,6 +36,10 @@
         {
           "sentence": "粒掣壞咗，禁唔到。（nap1 zai3 waai6 zo2, gam6 m4 dou2.）",
           "translate": "那个按钮坏了，按不下去。"
+        },
+        {
+          "sentence": "佢吞咗一粒魚蛋，差啲鯁親。（keoi5 tan1 zo2 jat1 nap1 jyu4 daan2, caa1 dim1 kang2 can2.）",
+          "translate": "他吞了一颗鱼蛋，差点噎到。"
         }
       ]
     },
@@ -48,6 +56,10 @@
         {
           "sentence": "呢樖花開得好靚。（ni1 po1 faa1 hoi1 dak1 hou2 leng3.）",
           "translate": "这株花开得很漂亮。"
+        },
+        {
+          "sentence": "阿婆喺後院種咗樖荔枝樹。（aa3 po4 hai2 hau6 jyun2 zung3 zo2 po1 lai6 zi1 syu6.）",
+          "translate": "奶奶在后院种了一棵荔枝树。"
         }
       ]
     },
@@ -64,6 +76,10 @@
         {
           "sentence": "食多啖飯，唔好嘥嘢。（sik6 do1 daam6 faan6, m4 hou2 saai1 je5.）",
           "translate": "多吃一口饭，别浪费东西。"
+        },
+        {
+          "sentence": "佢啖啖都食得好滋味。（keoi5 daam6 daam6 dou1 sik6 dak1 hou2 zi1 mei6.）",
+          "translate": "他每一口都吃得很香。"
         }
       ]
     },
@@ -80,6 +96,10 @@
         {
           "sentence": "呢個玻璃樽好精緻。（ni1 go3 bo1 lei1 zeon1 hou2 zing1 zi3.）",
           "translate": "这个玻璃瓶很精致。"
+        },
+        {
+          "sentence": "個樽入面仲有啲油。（go3 zeon1 jap6 min6 zung6 jau5 di1 jau4.）",
+          "translate": "瓶子里面还有些油。"
         }
       ]
     },
@@ -96,6 +116,10 @@
         {
           "sentence": "我隻手整親咗。（ngo5 zek3 sau2 zing2 can1 zo2.）",
           "translate": "我的手受伤弄伤了。"
+        },
+        {
+          "sentence": "佢買咗一隻新鞋返嚟。（keoi5 maai5 zo2 jat1 zek3 san1 haai4 faan1 lai4.）",
+          "translate": "他买了一只新鞋回来。"
         }
       ]
     },
@@ -103,7 +127,7 @@
       "word": "餐",
       "jyutping": "caan1",
       "pos": "量",
-      "meaning": "顿，番（量词，用于饮食、责骂或打斗）",
+      "meaning": "顿（量词，用于饮食、责骂或打斗）",
       "sentences": [
         {
           "sentence": "今餐我請客！（gam1 caan1 ngo5 cing2 haak3!）",
@@ -112,6 +136,10 @@
         {
           "sentence": "佢畀阿媽鬧咗一餐。（keoi5 bei2 aa3 maa1 naau6 zo2 jat1 caan1.）",
           "translate": "他被妈妈狠狠训斥了一顿。"
+        },
+        {
+          "sentence": "兩兄弟打咗一餐，搞到成身傷。（loeng5 hing1 dai6 daa2 zo2 jat1 caan1, gaau2 dou3 sing4 san1 soeng1.）",
+          "translate": "两兄弟打了一架，弄得浑身是伤。"
         }
       ]
     },
@@ -128,6 +156,10 @@
         {
           "sentence": "啱啱落咗一陣狂風暴雨。（ngaam1 ngaam1 lok6 zo2 jat1 zan6 kwong4 fung1 bou6 jyu5.）",
           "translate": "刚刚下了一阵狂风暴雨。"
+        },
+        {
+          "sentence": "你等一陣，我即刻落嚟。（nei5 dang2 jat1 zan6, ngo5 zik1 hak1 lok6 lai4.）",
+          "translate": "你等一会儿，我马上下来。"
         }
       ]
     },
@@ -144,6 +176,10 @@
         {
           "sentence": "行到巷仔最篤就係。（haang4 dou3 hong6 zai2 zeoi3 doek1 zau6 hai6.）",
           "translate": "走到小巷最尽头就是了。"
+        },
+        {
+          "sentence": "佢喺飯篤度搵到一篤飯焦。（keoi5 hai2 faan6 doek1 dou6 wan2 dou3 jat1 doek1 faan6 ziu1.）",
+          "translate": "他在锅底找到一坨锅巴。"
         }
       ]
     },
@@ -160,6 +196,10 @@
         {
           "sentence": "佢睇緊電視。（keoi5 tai2 gan2 din6 si6.）",
           "translate": "他正在看电视。"
+        },
+        {
+          "sentence": "阿媽煮緊餸，你入嚟幫手啦。（aa3 maa4 zyu2 gan2 sung3, nei5 jap6 lai4 bong1 sau2 laa1.）",
+          "translate": "妈妈正在做菜，你进来帮忙吧。"
         }
       ]
     },
@@ -176,6 +216,10 @@
         {
           "sentence": "佢去咗香港旅行。（keoi5 heoi3 zo2 hoeng1 gong2 leoi5 hang4.）",
           "translate": "他去香港旅游了。"
+        },
+        {
+          "sentence": "阿媽買咗兩斤橙。（aa3 maa4 maai5 zo2 loeng5 gan1 caang2.）",
+          "translate": "妈妈买了两斤橙子。"
         }
       ]
     },
@@ -192,6 +236,10 @@
         {
           "sentence": "寫得唔好，重新寫過。（se2 dak1 m4 hou2, cung4 san1 se2 gwo3.）",
           "translate": "写得不好，重新再写一遍。"
+        },
+        {
+          "sentence": "佢做嘢好快，一個鐘就過晒成疊文件。（keoi5 zou6 je5 hou2 faai3, jat1 go3 zung1 zau6 gwo3 saai3 sing4 dap6 man4 gin6.）",
+          "translate": "他做事很快，一个钟头就处理完整叠文件。"
         }
       ]
     },
@@ -208,6 +256,10 @@
         {
           "sentence": "行埋一邊，咪阻住條路。（haang4 maai4 jat1 bin1, mai5 zo2 zyu6 tiu4 lou6.）",
           "translate": "靠边走，别挡住路。"
+        },
+        {
+          "sentence": "計埋你，我哋一共有五個人去。（gai3 maai4 nei5, ngo5 dei6 jat1 gung6 jau5 ng5 go3 jan4 heoi3.）",
+          "translate": "算上你，我们一共有五个人去。"
         }
       ]
     },
@@ -224,6 +276,10 @@
         {
           "sentence": "真係唔該晒你！（zan1 hai6 m4 goi1 saai3 nei5!）",
           "translate": "真是太感谢你了！"
+        },
+        {
+          "sentence": "本書我睇晒喇。（bun2 syu1 ngo5 tai2 saai3 laa3.）",
+          "translate": "这本书我全看完了。"
         }
       ]
     },
@@ -240,6 +296,10 @@
         {
           "sentence": "佢跌親個膝頭哥。（keoi5 dit3 can1 go3 sat1 tau4 go1.）",
           "translate": "他摔伤了膝盖。"
+        },
+        {
+          "sentence": "琴日煮餸俾滾水淥親。（kam4 jat6 zyu2 sung3 bei2 gwan2 seoi2 luk6 can1.）",
+          "translate": "昨天做饭被开水烫伤了。"
         }
       ]
     },
@@ -256,6 +316,10 @@
         {
           "sentence": "準備定資料開會。（zeon2 bei6 ding6 zi1 liu2 hoi1 wui2.）",
           "translate": "提前准备好资料去开会。"
+        },
+        {
+          "sentence": "你定好時間未呀？我哋聽朝要出發。（nei5 ding6 hou2 si4 gaan3 mei6 aa3? ngo5 dei6 ting1 ziu1 jiu3 ceot1 faat3.）",
+          "translate": "你提前定好时间了吗？我们明天早上要出发。"
         }
       ]
     },
@@ -272,6 +336,10 @@
         {
           "sentence": "找返廿蚊畀你。（zaau2 faan1 jaa6 man1 bei2 nei5.）",
           "translate": "找回二十块钱给你。"
+        },
+        {
+          "sentence": "佢病咗幾日，今日終於返返之前咁好精神。（keoi5 beng6 zo2 gei2 jat6, gam1 jat6 zung1 jyu1 faan1 faan1 zi1 cin4 gam3 hou2 zing1 san4.）",
+          "translate": "他病了几天，今天终于恢复到之前那么精神。"
         }
       ]
     },
@@ -288,6 +356,10 @@
         {
           "sentence": "幾十蚊啫，好平。（gei2 sap6 man1 ze1, hou2 peng4.）",
           "translate": "几十块钱而已，很便宜。"
+        },
+        {
+          "sentence": "佢遲到五分鐘啫，唔使咁緊張。（keoi5 ci4 dou3 ng5 fan1 zung1 ze1, m4 sai2 gam3 gan2 zoeng1.）",
+          "translate": "他只是迟到五分钟而已，不用这么紧张。"
         }
       ]
     },
@@ -304,6 +376,10 @@
         {
           "sentence": "好似幾好食喎。（hou2 ci5 gei2 hou2 sik6 wo3.）",
           "translate": "好像挺好吃的样子呢。"
+        },
+        {
+          "sentence": "阿明話佢聽日唔返工喎。（aa3 ming4 waa6 keoi5 ting1 jat6 m4 faan1 gung1 wo3.）",
+          "translate": "阿明说他明天不上班呢。"
         }
       ]
     },
@@ -320,6 +396,10 @@
         {
           "sentence": "飲多杯茶添啦。（jam2 do1 bui1 caa4 tim1 laa1.）",
           "translate": "再多喝一杯茶吧。"
+        },
+        {
+          "sentence": "佢連車錢都唔夠添。（keoi5 lin4 ce1 cin2 dou1 m4 gau3 tim1.）",
+          "translate": "他连车费都不够呢。"
         }
       ]
     }

@@ -4,7 +4,8 @@
   "word_count": 384,
   "fingerprint_sha256": "0748ca590e7caf6c2d11e5062ee381e2a3e1ac84f943c561a4fed94568f0cb9e",
   "files": {
-    "yue_pron.tsv": "0862fc91e46e412ffdcc0391a27fb7fdb1e110637545462af194f93767c040e7",
-    "yue_sentences.tsv": "33ed3ea5ab094809a058506c784038da29529c6022fa6f6c282269feebaf6808"
+    "yue_pron.tsv": "6cf968fcdf4497895a7b818c4bd188b6370953dd06ae5879614aa672efe76293",
+    "yue_sentences.tsv": "3b4562788497d15bcf2e8fa96ea6ede92cab946e3bf46f377442f78bb02a2f6a",
+    "repair.tsv": "c2d1e3838c46d5f92907b14bce5b219bade19cba550255e38d493dd540679797"
   }
 }

@@ -16,6 +16,10 @@
         {
           "sentence": "天氣凍要圍條圍巾保暖條頸。（tin1 hei3 dung3 jiu3 wai4 tiu4 wai4 gan1 bou2 nyun5 tiu4 geng2.）",
           "translate": "天气冷要围围巾给脖子保暖。"
+        },
+        {
+          "sentence": "佢條頸長，著襯衫特別好看。（keoi5 tiu4 geng2 coeng4, zoek3 can3 saam1 dak6 bit6 hou2 tai2.）",
+          "translate": "他脖子长，穿衬衫特别好看。"
         }
       ]
     },
@@ -32,6 +36,10 @@
         {
           "sentence": "摸下個肚，食得好飽。（mo2 haa5 go3 tou5, sik6 dak1 hou2 baau2.）",
           "translate": "摸一下肚子，吃得好饱。"
+        },
+        {
+          "sentence": "佢個肚好大，可能食得太多。（keoi5 go3 tou5 hou2 daai6, ho2 nang4 sik6 dak1 taai3 do1.）",
+          "translate": "他的肚子很大，可能吃得太多。"
         }
       ]
     },
@@ -48,6 +56,10 @@
         {
           "sentence": "坐姿要端正，唔好駝住背脊。（co5 zi1 jiu3 dyun1 zing3, m4 hou2 to4 zyu6 bui3 zek3.）",
           "translate": "坐姿要端正，不要弓着背。"
+        },
+        {
+          "sentence": "佢背脊痕到唔停咁抓。（keoi5 bui3 zek3 han4 dou3 m4 ting4 gam3 zaa2.）",
+          "translate": "他后背痒得不停地抓。"
         }
       ]
     },
@@ -64,6 +76,10 @@
         {
           "sentence": "落雨天膝頭哥容易風濕痛。（lok6 jyu5 tin1 sat1 tau4 go1 jung4 ji6 fung1 sap1 tung3.）",
           "translate": "下雨天膝盖容易风湿酸痛。"
+        },
+        {
+          "sentence": "阿婆跪低抹地，膝頭哥都跪到紅晒。（aa3 po4 gwai6 dai1 maat2 dei6, sat1 tau4 go1 dou1 gwai6 dou3 hung4 saai3.）",
+          "translate": "奶奶跪着擦地，膝盖都跪红了。"
         }
       ]
     },
@@ -71,15 +87,19 @@
       "word": "睇醫生",
       "jyutping": "tai2 ji1 sang1",
       "pos": "动",
-      "meaning": "看医生，就医门诊",
+      "meaning": "看医生，就诊",
       "sentences": [
         {
           "sentence": "發燒成三十九度，快啲去睇醫生。（faat3 siu1 seng4 saam1 sap6 gau2 dou6, faai3 di1 heoi3 tai2 ji1 sang1.）",
-          "translate": "发烧将近39度，快点去看医生。"
+          "translate": "发烧高达三十九度，快点去看医生。"
         },
         {
           "sentence": "睇完醫生記得按時食藥。（tai2 jyun4 ji1 sang1 gei3 dak1 on3 si4 sik6 joek6.）",
           "translate": "看完医生记得按时吃药。"
+        },
+        {
+          "sentence": "阿婆唔肯去睇醫生，話自己冇嘢。（aa3 po4 m4 hang2 heoi3 tai2 ji1 sang1, waa6 zi6 gei2 mou5 je5.）",
+          "translate": "奶奶不肯去看医生，说自己没事。"
         }
       ]
     },
@@ -96,6 +116,10 @@
         {
           "sentence": "用探热针量下有冇發燒。（jung6 taam3 jit6 zam1 loeng4 haa5 jau5 mou5 faat3 siu1.）",
           "translate": "用体温计测一下有没有发烧。"
+        },
+        {
+          "sentence": "細路仔發燒到三十九度，快啲帶佢去睇醫生。（sai3 lou6 zai2 faat3 siu1 dou3 saam1 sap6 gau2 dou6, faai3 di1 daai3 keoi5 heoi3 tai2 ji1 sang1.）",
+          "translate": "小孩发烧到三十九度，快点带他去看医生。"
         }
       ]
     },
@@ -112,6 +136,10 @@
         {
           "sentence": "感冒要多飲溫水多休息。（gam2 mou6 jiu3 do1 jam2 wan1 seoi2 do1 jau1 sik1.）",
           "translate": "感冒要多喝温水多休息。"
+        },
+        {
+          "sentence": "佢感冒仲未好，聽日唔返工喇。（keoi5 gam2 mou6 zung6 mei6 hou2, ting1 jat6 m4 faan1 gung1 laa3.）",
+          "translate": "他感冒还没好，明天不上班了。"
         }
       ]
     },
@@ -128,6 +156,10 @@
         {
           "sentence": "肚痛得好犀利要去醫院。（tou5 tung3 dak1 hou2 sai1 lei6 jiu3 heoi3 ji1 jyun2.）",
           "translate": "肚子痛得厉害要去医院。"
+        },
+        {
+          "sentence": "佢半夜肚痛到瞓唔著。（keoi5 bun3 je6 tou5 tung3 dou3 fan3 m4 zoek6.）",
+          "translate": "他半夜肚子痛得睡不着。"
         }
       ]
     },
@@ -144,6 +176,10 @@
         {
           "sentence": "醫生開嘅藥好有效。（ji1 sang1 hoi1 ge3 joek6 hou2 jau5 haau6.）",
           "translate": "医生开的药很见效。"
+        },
+        {
+          "sentence": "你記住準時食藥，唔好唔記得。（nei5 gei3 zyu6 zeon2 si4 sik6 joek6, m4 hou2 m4 gei3 dak1.）",
+          "translate": "你记得准时吃药，不要忘记。"
         }
       ]
     },
@@ -160,6 +196,10 @@
         {
           "sentence": "祝你早日康復，多多保重。（zuk1 nei5 zou2 jat6 hong1 fuk6, do1 do1 bou2 zung6.）",
           "translate": "祝你早日康复，多加保重。"
+        },
+        {
+          "sentence": "你要去外國讀書，記得保重呀。（nei5 jiu3 heoi3 ngoi6 gwok3 duk6 syu1, gei3 dak1 bou2 zung6 aa3.）",
+          "translate": "你要去外国读书，记得保重啊。"
         }
       ]
     }

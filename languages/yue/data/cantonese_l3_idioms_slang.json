@@ -9,8 +9,18 @@
       "pos": "动",
       "meaning": "随机应变，看情况见机行事",
       "sentences": [
-        {"sentence": "到時情況有變，大家唯有睇情況執生啦。（dou3 si4 cing4 fong3 jau5 bin3, daai6 gaa1 wai4 jau5 tai2 cing4 fong3 zap1 saang1 laa1.）", "translate": "到时候情况有变，大家只有看情况随机应变啦。"},
-        {"sentence": "唔使驚，有我喺度，你睇我眼色執生就得。（m4 sai2 geng1, jau5 ngo5 hai2 dou6, nei5 tai2 ngo5 ngaan5 sik1 zap1 saang1 zau6 dak1.）", "translate": "不用怕，有我在这里，你看我眼色行事就行。"}
+        {
+          "sentence": "到時情況有變，大家唯有睇情況執生啦。（dou3 si4 cing4 fong3 jau5 bin3, daai6 gaa1 wai4 jau5 tai2 cing4 fong3 zap1 saang1 laa1.）",
+          "translate": "到时候情况有变，大家只有看情况随机应变啦。"
+        },
+        {
+          "sentence": "唔使驚，有我喺度，你睇我眼色執生就得。（m4 sai2 geng1, jau5 ngo5 hai2 dou6, nei5 tai2 ngo5 ngaan5 sik1 zap1 saang1 zau6 dak1.）",
+          "translate": "不用怕，有我在这里，你看我眼色行事就行。"
+        },
+        {
+          "sentence": "做銷售要識得同客人傾，遇到刁鑽問題就要執生。（zou6 siu1 sau6 jiu3 sik1 dak1 tung4 haak3 jan4 king1, jyu6 dou3 diu1 zyun3 man6 tai4 zau6 jiu3 zap1 saang1.）",
+          "translate": "做销售要懂得和客人聊，遇到刁钻的问题就要随机应变。"
+        }
       ]
     },
     {
@@ -19,8 +29,18 @@
       "pos": "动",
       "meaning": "解雇，开除，卷铺盖走人",
       "sentences": [
-        {"sentence": "佢做錯咗大件事，畀老細炒咗魷魚。（keoi5 zou6 co3 zo2 daai6 gin6 si6, bei2 lou5 sai3 caau2 zo2 jau4 jyu4.）", "translate": "他犯了大错，被老板开除了。"},
-        {"sentence": "景氣唔好，好多公司都炒魷魚。（ging2 hei3 m4 hou2, hou2 do1 gung1 si1 dou1 caau2 jau4 jyu4.）", "translate": "经济不景气，很多公司都在裁员解雇。"}
+        {
+          "sentence": "佢做錯咗大件事，畀老細炒咗魷魚。（keoi5 zou6 co3 zo2 daai6 gin6 si6, bei2 lou5 sai3 caau2 zo2 jau4 jyu4.）",
+          "translate": "他犯了大错，被老板开除了。"
+        },
+        {
+          "sentence": "景氣唔好，好多公司都炒魷魚。（ging2 hei3 m4 hou2, hou2 do1 gung1 si1 dou1 caau2 jau4 jyu4.）",
+          "translate": "经济不景气，很多公司都在裁员解雇。"
+        },
+        {
+          "sentence": "聽日佢就話要炒魷魚，即刻執嘢走人。（ting1 jat6 keoi5 zau6 waa6 jiu3 caau2 jau4 jyu4, zik1 hak1 zap1 je5 zau2 jan4.）",
+          "translate": "明天他就说要被炒鱿鱼，立刻收拾东西走人。"
+        }
       ]
     },
     {
@@ -29,8 +49,18 @@
       "pos": "动",
       "meaning": "背黑锅，代人受过，蒙冤受屈",
       "sentences": [
-        {"sentence": "明明唔係我做嘅，憑咩要我食死貓！（ming4 ming4 m4 hai6 ngo5 zou6 ge3, pang4 me1 jiu3 ngo5 sik6死maau1!）", "translate": "明明不是我做的，凭什么要我背黑锅！"},
-        {"sentence": "佢性格老實，成日畀人恰到要食死貓。（keoi5 sing3 gik3 lou5 sat6, seng4 jat6 bei2 jan4 haap1 dou3 jiu3 sik6 sei2 maau1.）", "translate": "他性格老实，经常被欺负得代人受过。"}
+        {
+          "sentence": "明明唔係我做嘅，憑咩要我食死貓！（ming4 ming4 m4 hai6 ngo5 zou6 ge3, pang4 me1 jiu3 ngo5 sik6 sei2 maau1!）",
+          "translate": "明明不是我做的，凭什么要我背黑锅！"
+        },
+        {
+          "sentence": "佢性格老實，成日畀人恰到要食死貓。（keoi5 sing3 gik3 lou5 sat6, seng4 jat6 bei2 jan4 haap1 dou3 jiu3 sik6 sei2 maau1.）",
+          "translate": "他性格老实，经常被欺负得代人受过。"
+        },
+        {
+          "sentence": "公司蝕咗錢，個經理就搵個新嚟嘅同事食死貓。（gung1 si1 sat6 zo2 cin2, go3 ging1 lei5 zau6 wan2 go3 san1 lai4 ge3 tung4 si6 sik6 sei2 maau1.）",
+          "translate": "公司亏了钱，经理就找新来的同事背黑锅。"
+        }
       ]
     },
     {
@@ -39,8 +69,18 @@
       "pos": "动",
       "meaning": "闲聊，侃大山，说大话",
       "sentences": [
-        {"sentence": "得閒一齊出嚟飲杯嘢吹下水啦。（dak1 haan4 jat1 cai4 ceot1 lai4 jam2 bui1 je5 ceoi1 haa5 seoi2 laa1.）", "translate": "有空一起出来喝杯饮品侃侃大山吧。"},
-        {"sentence": "佢講嘅嘢你咪信，吹水唔抹嘴嘅！（keoi5 gong2 ge3 je5 nei5 mai5 seon3, ceoi1 seoi2 m4 maat3 zeoi2 ge3!）", "translate": "他说的话你别信，信口开河不靠谱的！"}
+        {
+          "sentence": "得閒一齊出嚟飲杯嘢吹下水啦。（dak1 haan4 jat1 cai4 ceot1 lai4 jam2 bui1 je5 ceoi1 haa5 seoi2 laa1.）",
+          "translate": "有空一起出来喝杯饮品侃侃大山吧。"
+        },
+        {
+          "sentence": "佢講嘅嘢你咪信，吹水唔抹嘴嘅！（keoi5 gong2 ge3 je5 nei5 mai5 seon3, ceoi1 seoi2 m4 maat3 zeoi2 ge3!）",
+          "translate": "他说的话你别信，信口开河不靠谱的！"
+        },
+        {
+          "sentence": "開會嗰陣唔好淨係識吹水，講啲實際嘢啦。（hoi1 wui6 go2 zan6 m4 hou2 zing6 hai6 sik1 ceoi1 seoi2, gong2 di1 sat6 zai3 je5 laa1.）",
+          "translate": "开会的时候别光会瞎聊，说点实际的东西吧。"
+        }
       ]
     },
     {
@@ -49,8 +89,18 @@
       "pos": "动",
       "meaning": "爽约，失约，放鸽子",
       "sentences": [
-        {"sentence": "約好咗三點等，佢居然放我飛機！（joek3 hou2 zo2 saam1 dim2 dang2, keoi5 geoi1 jin4 fong3 ngo5 fei1 gei1!）", "translate": "约好了三点等，他居然放我鸽子！"},
-        {"sentence": "做人最緊要守時，唔好成日放人飛機。（zou6 jan4 zeoi3 gan2 jiu3 sau2 si4, m4 hou2 seng4 jat6 fong3 jan4 fei1 gei1.）", "translate": "做人最重要守时，不要老是放别人鸽子。"}
+        {
+          "sentence": "約好咗三點等，佢居然放我飛機！（joek3 hou2 zo2 saam1 dim2 dang2, keoi5 geoi1 jin4 fong3 ngo5 fei1 gei1!）",
+          "translate": "约好了三点等，他居然放我鸽子！"
+        },
+        {
+          "sentence": "做人最緊要守時，唔好成日放人飛機。（zou6 jan4 zeoi3 gan2 jiu3 sau2 si4, m4 hou2 seng4 jat6 fong3 jan4 fei1 gei1.）",
+          "translate": "做人最重要守时，不要老是放别人鸽子。"
+        },
+        {
+          "sentence": "個客尋日又話開會，點知佢放飛機，搞到我白等成個下晝。（go3 haak3 cam4 jat6 jau6 waa6 hoi1 wui6, dim2 zi1 keoi5 fong3 fei1 gei1, gaau2 dou3 ngo5 baak6 dang2 seng4 go3 haa6 zau3.）",
+          "translate": "那个客户昨天又说开会，谁知道他放鸽子，害我白等了一整个下午。"
+        }
       ]
     },
     {
@@ -59,8 +109,18 @@
       "pos": "动",
       "meaning": "装模作样，装蒜，耍花样",
       "sentences": [
-        {"sentence": "你唔好喺度扮嘢啦，我都知真相。（nei5 m4 hou2 hai2 dou6 baan6 je5 laa1, ngo5 dou1 zi1 zan1 soeng3.）", "translate": "你别在这里装模作样了，我早就知道真相。"},
-        {"sentence": "佢最叻就係喺老細面前扮勤力。（keoi5 zeoi3 lek1 zau6 hai6 hai2 lou5 sai3 min6 cin4 baan6 kan4 lik6.）", "translate": "他最拿手的就是在老板面前装勤快。"}
+        {
+          "sentence": "你唔好喺度扮嘢啦，我都知真相。（nei5 m4 hou2 hai2 dou6 baan6 je5 laa1, ngo5 dou1 zi1 zan1 soeng3.）",
+          "translate": "你别在这里装模作样了，我早就知道真相。"
+        },
+        {
+          "sentence": "佢最叻就係喺老細面前扮勤力。（keoi5 zeoi3 lek1 zau6 hai6 hai2 lou5 sai3 min6 cin4 baan6 kan4 lik6.）",
+          "translate": "他最拿手的就是在老板面前装勤快。"
+        },
+        {
+          "sentence": "佢明明識答都扮嘢唔出聲，真係激死人。（keoi5 ming4 ming4 sik1 daap3 dou1 baan6 je5 m4 ceot1 seng1, zan1 hai6 gik1 sei2 jan4.）",
+          "translate": "他明明会答却装模作样不出声，真是气死人。"
+        }
       ]
     },
     {
@@ -69,8 +129,18 @@
       "pos": "动/名",
       "meaning": "上班偷懒，摸鱼；偷懒的人",
       "sentences": [
-        {"sentence": "老細一出門，佢就即刻蛇王睇片。（lou5 sai3 jat1 ceot1 mun4, keoi5 zau6 zik1 hak1 se4 wong4 tai2 pin2.）", "translate": "老板一出门，他就立刻摸鱼看视频。"},
-        {"sentence": "偷懶蛇王小心畀人投訴啊。（tau1 laan5 se4 wong4 siu2 sam1 bei2 jan4 tau4 sou3 aa3.）", "translate": "偷懒摸鱼小心被人投诉举报啊。"}
+        {
+          "sentence": "老細一出門，佢就即刻蛇王睇片。（lou5 sai3 jat1 ceot1 mun4, keoi5 zau6 zik1 hak1 se4 wong4 tai2 pin2.）",
+          "translate": "老板一出门，他就立刻摸鱼看视频。"
+        },
+        {
+          "sentence": "偷懶蛇王小心畀人投訴啊。（tau1 laan5 se4 wong4 siu2 sam1 bei2 jan4 tau4 sou3 aa3.）",
+          "translate": "偷懒摸鱼小心被人投诉举报啊。"
+        },
+        {
+          "sentence": "佢做嘢最叻就係蛇王，半日都見唔到人影。（keoi5 zou6 je5 zei3 lik1 zau6 hai6 se4 wong4, bun3 jat6 dou1 gin3 m4 dou3 jan4 jing2.）",
+          "translate": "他干活最擅长的就是偷懒，半天都见不到人影。"
+        }
       ]
     },
     {
@@ -79,8 +149,18 @@
       "pos": "名/形",
       "meaning": "中意，喜爱，中意的选择",
       "sentences": [
-        {"sentence": "呢部車係我嘅心水之選。（ni1 bou6 ce1 hai6 ngo5 ge3 sam1 seoi2 zi1 syun2.）", "translate": "这部车是我的心仪之选。"},
-        {"sentence": "合唔合你心水啊？（hap6 m4 hap6 nei5 sam1 seoi2 aa3?）", "translate": "合不合你的心意呀？"}
+        {
+          "sentence": "呢部車係我嘅心水之選。（ni1 bou6 ce1 hai6 ngo5 ge3 sam1 seoi2 zi1 syun2.）",
+          "translate": "这部车是我的心仪之选。"
+        },
+        {
+          "sentence": "合唔合你心水啊？（hap6 m4 hap6 nei5 sam1 seoi2 aa3?）",
+          "translate": "合不合你的心意呀？"
+        },
+        {
+          "sentence": "間餐廳嗰味燒鵝好合我心水。（gaan1 caan1 teng1 go2 mei6 siu1 ngo2 hou2 hap6 ngo5 sam1 seoi2.）",
+          "translate": "那家餐厅那道烧鹅很合我的心意。"
+        }
       ]
     },
     {
@@ -89,8 +169,18 @@
       "pos": "形",
       "meaning": "琐碎，微不足道，小事一桩",
       "sentences": [
-        {"sentence": "呢啲濕碎嘢等我嚟搞掂佢啦。（ni1 di1 sap1 seoi3 je5 dang2 ngo5 lai4 gaau2 dim6 keoi5 laa1.）", "translate": "这些琐碎小事让我来解决搞定吧。"},
-        {"sentence": "幾十蚊濕碎錢，唔使計較。（gei2 sap6 man1 sap1 seoi3 cin2, m4 sai2 gai3 gaau3.）", "translate": "几十块钱的小钱，不用计较。"}
+        {
+          "sentence": "呢啲濕碎嘢等我嚟搞掂佢啦。（ni1 di1 sap1 seoi3 je5 dang2 ngo5 lai4 gaau2 dim6 keoi5 laa1.）",
+          "translate": "这些琐碎小事让我来解决搞定吧。"
+        },
+        {
+          "sentence": "幾十蚊濕碎錢，唔使計較。（gei2 sap6 man1 sap1 seoi3 cin2, m4 sai2 gai3 gaau3.）",
+          "translate": "几十块钱的小钱，不用计较。"
+        },
+        {
+          "sentence": "老闆話今次個任務好濕碎，半日就做得完。（lou5 baan2 waa6 gam1 ci3 go3 jam6 mou6 hou2 sap1 seoi3, bun3 jat6 zau6 zou6 dak1 jyun4.）",
+          "translate": "老板说这次的任务很琐碎，半天就能做完。"
+        }
       ]
     },
     {
@@ -99,8 +189,18 @@
       "pos": "动",
       "meaning": "退缩，临阵退缩，反悔",
       "sentences": [
-        {"sentence": "應承咗人就唔好臨陣縮沙。（jing1 sing4 zo2 jan4 zau6 m4 hou2 lam4 zan6 suk1 saa1.）", "translate": "答应了别人就不要临阵退缩。"},
-        {"sentence": "關鍵時刻佢居然縮沙。（gwaan1 gin3 si4 hak1 keoi5 geoi1 jin4 suk1 saa1.）", "translate": "关键时刻他居然退缩了。"}
+        {
+          "sentence": "應承咗人就唔好臨陣縮沙。（jing1 sing4 zo2 jan4 zau6 m4 hou2 lam4 zan6 suk1 saa1.）",
+          "translate": "答应了别人就不要临阵退缩。"
+        },
+        {
+          "sentence": "關鍵時刻佢居然縮沙。（gwaan1 gin3 si4 hak1 keoi5 geoi1 jin4 suk1 saa1.）",
+          "translate": "关键时刻他居然退缩了。"
+        },
+        {
+          "sentence": "佢話打波最勁，一落場就縮沙。（keoi5 waa6 daa2 bo1 zeoi3 ging6, jat1 lok6 coeng4 zau6 suk1 saa1.）",
+          "translate": "他说打球最厉害，一上场就退缩了。"
+        }
       ]
     },
     {
@@ -109,8 +209,18 @@
       "pos": "动",
       "meaning": "硬撑，咬牙坚持到底",
       "sentences": [
-        {"sentence": "雖然好辛苦，但都要死頂落去。（seoi1 jin4 hou2 san1 fu2, daan6 dou1 jiu3 sei2 ding2 lok6 heoi3.）", "translate": "虽然非常辛苦，但也要咬牙硬撑下去。"},
-        {"sentence": "唔好死頂啊，唔舒服就快啲睇醫生。（m4 hou2 sei2 ding2 aa3, m4 syu1 fuk6 zau6 faai3 di1 tai2 ji1 sang1.）", "translate": "别硬撑啊，不舒服就快去看医生。"}
+        {
+          "sentence": "雖然好辛苦，但都要死頂落去。（seoi1 jin4 hou2 san1 fu2, daan6 dou1 jiu3 sei2 ding2 lok6 heoi3.）",
+          "translate": "虽然非常辛苦，但也要咬牙硬撑下去。"
+        },
+        {
+          "sentence": "唔好死頂啊，唔舒服就快啲睇醫生。（m4 hou2 sei2 ding2 aa3, m4 syu1 fuk6 zau6 faai3 di1 tai2 ji1 sang1.）",
+          "translate": "别硬撑啊，不舒服就快去看医生。"
+        },
+        {
+          "sentence": "佢病到咁都仲死頂返工，真係攰到隨時會暈。（keoi5 beng6 dou3 gam3 dou1 zung6 sei2 ding2 faan1 gung1, zan1 hai6 gui6 dou3 ceoi4 si4 wui5 wan1.）",
+          "translate": "他病成这样还硬撑着上班，真的累到随时会晕倒。"
+        }
       ]
     },
     {
@@ -119,8 +229,18 @@
       "pos": "动",
       "meaning": "二人共进晚餐（通常指情侣或夫妻共度浪漫晚餐）",
       "sentences": [
-        {"sentence": "今晚情人節，同女朋友去西餐廳撐枱腳。（gam1 maan5 cing4 jan4 zit3, tung4 neoi5 pang4 jau5 heoi3 sai1 caan1 teng1 caang1 toi2 goek3.）", "translate": "今晚情人节，和女朋友去西餐厅共进浪漫晚餐。"},
-        {"sentence": "兩公婆耐唔耐都要出嚟撐下枱腳。（loeng5 gung1 po4 noi6 m4 noi6 dou1 jiu3 ceot1 lai4 caang1 haa5 toi2 goek3.）", "translate": "两夫妻隔三岔五也得出来吃个浪漫二人餐。"}
+        {
+          "sentence": "今晚情人節，同女朋友去西餐廳撐枱腳。（gam1 maan5 cing4 jan4 zit3, tung4 neoi5 pang4 jau5 heoi3 sai1 caan1 teng1 caang1 toi2 goek3.）",
+          "translate": "今晚情人节，和女朋友去西餐厅共进浪漫晚餐。"
+        },
+        {
+          "sentence": "兩公婆耐唔耐都要出嚟撐下枱腳。（loeng5 gung1 po4 noi6 m4 noi6 dou1 jiu3 ceot1 lai4 caang1 haa5 toi2 goek3.）",
+          "translate": "两夫妻隔三岔五也得出来吃个浪漫二人餐。"
+        },
+        {
+          "sentence": "結婚十周年，老公訂咗張枱同我撐枱腳。（gat3 hun1 sap6 nin3 ziu1, lou5 gung1 deng6 zo2 zoeng1 toi2 tung4 ngo5 caang1 toi2 goek3.）",
+          "translate": "结婚十周年，老公订了位和我共进浪漫晚餐。"
+        }
       ]
     },
     {
@@ -129,8 +249,18 @@
       "pos": "形",
       "meaning": "古灵精怪，风趣幽默，滑稽机灵",
       "sentences": [
-        {"sentence": "呢個小朋友好鬼馬，成日引大家笑。（ni1 go3 siu2 pang4 jau5 hou2 gwai2 maa5, seng4 jat6 jan5 daai6 gaa1 siu3.）", "translate": "这个小朋友古灵精怪，整天逗大家发笑。"},
-        {"sentence": "星爺嘅喜劇電影真係好鬼馬。（sing1 je4 ge3 hei2 kek6 din6 jing2 zan1 hai6 hou2 gwai2 maa5.）", "translate": "周星驰的喜剧电影真的很幽默诙谐。"}
+        {
+          "sentence": "呢個小朋友好鬼馬，成日引大家笑。（ni1 go3 siu2 pang4 jau5 hou2 gwai2 maa5, seng4 jat6 jan5 daai6 gaa1 siu3.）",
+          "translate": "这个小朋友古灵精怪，整天逗大家发笑。"
+        },
+        {
+          "sentence": "星爺嘅喜劇電影真係好鬼馬。（sing1 je4 ge3 hei2 kek6 din6 jing2 zan1 hai6 hou2 gwai2 maa5.）",
+          "translate": "周星驰的喜剧电影真的很幽默诙谐。"
+        },
+        {
+          "sentence": "佢講嘢好鬼馬，成個辦公室都俾佢搞到笑聲不斷。（keoi5 gong2 je5 hou2 gwai2 maa5, seng4 go3 baan6 gung1 sat1 dou1 bei2 keoi5 gaau2 dou3 siu3 seng1 bat1 dyun6.）",
+          "translate": "他说话很风趣，整个办公室都被他搞得笑声不断。"
+        }
       ]
     },
     {
@@ -139,8 +269,18 @@
       "pos": "形",
       "meaning": "发愁，忧愁，心情烦闷不畅",
       "sentences": [
-        {"sentence": "唔好咁閉翳啦，車到山前必有路。（m4 hou2 gam3 bai3 ai3 laa1, ce1 dou3 saan1 cin4 bit1 jau5 lou6.）", "translate": "别这么发愁啦，车到山前必有路。"},
-        {"sentence": "見佢成日坐喺度閉翳，唔知咩事。（gin3 keoi5 seng4 jat6 co5 hai2 dou6 bai3 ai3, m4 zi1 me1 si6.）", "translate": "见他整天坐在这发愁，不知道为了什么事。"}
+        {
+          "sentence": "唔好咁閉翳啦，車到山前必有路。（m4 hou2 gam3 bai3 ai3 laa1, ce1 dou3 saan1 cin4 bit1 jau5 lou6.）",
+          "translate": "别这么发愁啦，车到山前必有路。"
+        },
+        {
+          "sentence": "見佢成日坐喺度閉翳，唔知咩事。（gin3 keoi5 seng4 jat6 co5 hai2 dou6 bai3 ai3, m4 zi1 me1 si6.）",
+          "translate": "见他整天坐在这发愁，不知道为了什么事。"
+        },
+        {
+          "sentence": "份工咁大壓力，難怪佢日日都咁閉翳。（fan6 gung1 gam3 daai6 aat3 lik6, naan4 gwai3 keoi5 jat6 jat6 dou1 gam3 bai3 ai3.）",
+          "translate": "这份工作压力这么大，难怪他天天都这么愁闷。"
+        }
       ]
     },
     {
@@ -149,8 +289,18 @@
       "pos": "动",
       "meaning": "受不了，吃不消，难以忍受",
       "sentences": [
-        {"sentence": "天氣咁熱又冇冷氣，真係頂唔順！（tin1 hei3 gam3 jit6 jau6 mou5 laang5 hei3, zan1 hai6 ding2 m4 seon6!）", "translate": "天气这么热又没有空调，真吃不消！"},
-        {"sentence": "成日加班，個人都頂唔順喇。（seng4 jat6 gaa1 baan1, go3 jan4 dou1 ding2 m4 seon6 laa3.）", "translate": "整天加班，整个人都吃不消了。"}
+        {
+          "sentence": "天氣咁熱又冇冷氣，真係頂唔順！（tin1 hei3 gam3 jit6 jau6 mou5 laang5 hei3, zan1 hai6 ding2 m4 seon6!）",
+          "translate": "天气这么热又没有空调，真吃不消！"
+        },
+        {
+          "sentence": "成日加班，個人都頂唔順喇。（seng4 jat6 gaa1 baan1, go3 jan4 dou1 ding2 m4 seon6 laa3.）",
+          "translate": "整天加班，整个人都吃不消了。"
+        },
+        {
+          "sentence": "佢講嘢咁大聲，我耳仔都頂唔順。（keoi5 gong2 je5 gam3 daai6 seng1, ngo5 ji5 zai2 dou1 ding2 m4 seon6.）",
+          "translate": "他说话声音那么大，我耳朵都受不了。"
+        }
       ]
     },
     {
@@ -159,8 +309,18 @@
       "pos": "形",
       "meaning": "离谱，过分，荒唐不合常理",
       "sentences": [
-        {"sentence": "一碗白飯賣五十蚊？太離譜喇！（jat1 wun2 baak6 faan6 maai6 ng5 sap6 man1? taai3 lei4 pou2 laa3!）", "translate": "一碗白米饭卖五十块？太离谱了！"},
-        {"sentence": "佢做嘢越嚟越離譜，完全冇規矩。（keoi5 zou6 je5 jyut6 lai4 jyut6 lei4 pou2, jyun4 cyun4 mou5 kwai1 geoi2.）", "translate": "他做事越来越离谱，完全不守规矩。"}
+        {
+          "sentence": "一碗白飯賣五十蚊？太離譜喇！（jat1 wun2 baak6 faan6 maai6 ng5 sap6 man1? taai3 lei4 pou2 laa3!）",
+          "translate": "一碗白米饭卖五十块？太离谱了！"
+        },
+        {
+          "sentence": "佢做嘢越嚟越離譜，完全冇規矩。（keoi5 zou6 je5 jyut6 lai4 jyut6 lei4 pou2, jyun4 cyun4 mou5 kwai1 geoi2.）",
+          "translate": "他做事越来越离谱，完全不守规矩。"
+        },
+        {
+          "sentence": "份報告錯到咁離譜，老闆睇到嬲到跳起。（fan6 bou3 gu3 co3 dou3 gam3 lei4 pou2, lou5 baan2 tai2 dou3 nau1 dou3 tiu3 hei2.）",
+          "translate": "那份报告错得那么离谱，老板看到气得跳起来。"
+        }
       ]
     },
     {
@@ -169,8 +329,18 @@
       "pos": "形",
       "meaning": "了不起，嚣张，排场大（多含讽刺调侃）",
       "sentences": [
-        {"sentence": "有咩咁巴閉啊？使唔使咁寸！（jau5 me1 gam3 baa1 bai3 aa3? sai2 m4 sai2 gam3 cyun3!）", "translate": "有什么了不起的？用不用这么嚣张傲慢！"},
-        {"sentence": "聽講佢今次升職升得好巴閉。（teng1 gong2 keoi5 gam1 ci3 sing1 zik1 sing1 dak1 hou2 baa1 bai3.）", "translate": "听说他这次升职升得非常风光显赫。"}
+        {
+          "sentence": "有咩咁巴閉啊？使唔使咁寸！（jau5 me1 gam3 baa1 bai3 aa3? sai2 m4 sai2 gam3 cyun3!）",
+          "translate": "有什么了不起的？用不用这么嚣张傲慢！"
+        },
+        {
+          "sentence": "聽講佢今次升職升得好巴閉。（teng1 gong2 keoi5 gam1 ci3 sing1 zik1 sing1 dak1 hou2 baa1 bai3.）",
+          "translate": "听说他这次升职升得非常风光显赫。"
+        },
+        {
+          "sentence": "佢擺酒擺得好巴閉，成條村都嚟咗。（keoi5 bai2 zau2 bai2 dak1 hou2 baa1 bai3, sing4 tiu4 cyun1 dou1 lai4 zo2.）",
+          "translate": "他办酒席办得排场很大，整条村的人都来了。"
+        }
       ]
     },
     {
@@ -179,8 +349,18 @@
       "pos": "形",
       "meaning": "吝啬，小气",
       "sentences": [
-        {"sentence": "佢好有錢，但平時好孤寒。（keoi5 hou2 jau5 cin2, daan6 ping4 si4 hou2 gu1 hon4.）", "translate": "他很有钱，但平时非常小气吝啬。"},
-        {"sentence": "出嚟食飯唔好咁孤寒啦。（ceot1 lai4 sik6 faan6 m4 hou2 gam3 gu1 hon4 laa1.）", "translate": "出来吃饭不要这么抠门小气啦。"}
+        {
+          "sentence": "佢好有錢，但平時好孤寒。（keoi5 hou2 jau5 cin2, daan6 ping4 si4 hou2 gu1 hon4.）",
+          "translate": "他很有钱，但平时非常小气吝啬。"
+        },
+        {
+          "sentence": "出嚟食飯唔好咁孤寒啦。（ceot1 lai4 sik6 faan6 m4 hou2 gam3 gu1 hon4 laa1.）",
+          "translate": "出来吃饭不要这么抠门小气啦。"
+        },
+        {
+          "sentence": "老闆出咗名孤寒，加人工就唔使諗。（lou5 baan2 ceot1 zo2 ming4 gu1 hon4, gaa1 jan4 gung1 zau6 m4 sai2 nam2.）",
+          "translate": "老板出了名小气，想加薪就别想了。"
+        }
       ]
     },
     {
@@ -189,8 +369,18 @@
       "pos": "动",
       "meaning": "拼命，极度卖力，全力以赴",
       "sentences": [
-        {"sentence": "為咗買樓，佢日日搏命加班。（wai6 zo2 maai5 lau2, keoi5 jat6 jat6 bok3 meng6 gaa1 baan1.）", "translate": "为了买房，他天天拼命加班。"},
-        {"sentence": "搏命做嘢都要顧及身體健康。（bok3 meng6 zou6 je5 dou1 jiu3 gu3 kap6 san1 tai2 gin6 hong1.）", "translate": "拼命工作也要顾及身体健康。"}
+        {
+          "sentence": "為咗買樓，佢日日搏命加班。（wai6 zo2 maai5 lau2, keoi5 jat6 jat6 bok3 meng6 gaa1 baan1.）",
+          "translate": "为了买房，他天天拼命加班。"
+        },
+        {
+          "sentence": "搏命做嘢都要顧及身體健康。（bok3 meng6 zou6 je5 dou1 jiu3 gu3 kap6 san1 tai2 gin6 hong1.）",
+          "translate": "拼命工作也要顾及身体健康。"
+        },
+        {
+          "sentence": "比賽嗰陣佢搏命咁跑，終於攞到冠軍。（bei2 coi3 go2 zan6 keoi5 bok3 meng6 gam2 paau2, zung1 jyu1 lo2 dou3 gun3 gwan1.）",
+          "translate": "比赛的时候他拼命地跑，终于拿到冠军。"
+        }
       ]
     },
     {
@@ -199,8 +389,18 @@
       "pos": "副",
       "meaning": "难道，莫非",
       "sentences": [
-        {"sentence": "佢咁耐都未嚟，唔通佢唔記得咗？（keoi5 gam3 noi6 dou1 mei6 lai4, m4 tung1 keoi5 m4 gei3 dak1 zo2?）", "translate": "他这么久都没来，难道他给忘了？"},
-        {"sentence": "唔通呢個真係真相？（m4 tung1 ni1 go3 zan1 hai6 zan1 soeng3?）", "translate": "难道这真的是真相？"}
+        {
+          "sentence": "佢咁耐都未嚟，唔通佢唔記得咗？（keoi5 gam3 noi6 dou1 mei6 lai4, m4 tung1 keoi5 m4 gei3 dak1 zo2?）",
+          "translate": "他这么久都没来，难道他给忘了？"
+        },
+        {
+          "sentence": "唔通呢個真係真相？（m4 tung1 ni1 go3 zan1 hai6 zan1 soeng3?）",
+          "translate": "难道这真的是真相？"
+        },
+        {
+          "sentence": "你話佢冇講大話，唔通係我聽錯咗？（nei5 waa6 keoi5 mou5 gong2 daai6 waa6, m4 tung1 hai6 ngo5 ting1 co3 zo2?）",
+          "translate": "你说他没撒谎，难道是我听错了？"
+        }
       ]
     },
     {
@@ -209,8 +409,18 @@
       "pos": "副",
       "meaning": "无缘无故，平白无故",
       "sentences": [
-        {"sentence": "無端端落起大雨嚟。（mou4 dyun1 dyun1 lok6 hei2 daai6 jyu5 lai4.）", "translate": "无缘无故下起大雨来。"},
-        {"sentence": "佢無端端發脾氣，大家都好無奈。（keoi5 mou4 dyun1 dyun1 faat3 pei4 hei3, daai6 gaa1 dou1 hou2 mou4 noi6.）", "translate": "他平白无故发脾气，大家都非常无奈。"}
+        {
+          "sentence": "無端端落起大雨嚟。（mou4 dyun1 dyun1 lok6 hei2 daai6 jyu5 lai4.）",
+          "translate": "无缘无故下起大雨来。"
+        },
+        {
+          "sentence": "佢無端端發脾氣，大家都好無奈。（keoi5 mou4 dyun1 dyun1 faat3 pei4 hei3, daai6 gaa1 dou1 hou2 mou4 noi6.）",
+          "translate": "他平白无故发脾气，大家都非常无奈。"
+        },
+        {
+          "sentence": "個檔案無端端唔見咗，搞到我成晚加班。（go3 dong3 on2 mou4 dyun1 dyun1 m4 gin3 zo2, gaau2 dou3 ngo5 sing4 maan5 gaa1 baan1.）",
+          "translate": "文件无缘无故不见了，害我整晚加班。"
+        }
       ]
     },
     {
@@ -219,8 +429,18 @@
       "pos": "动",
       "meaning": "主持大局，掌管，拿主意",
       "sentences": [
-        {"sentence": "呢個項目由陳經理打骰。（ni1 go3 hong6 muk6 jau4 can4 ging1 lei5 daa2 sik1.）", "translate": "这个项目由陈经理主持大局掌管。"},
-        {"sentence": "屋企大事小事都係阿媽打骰。（uk1 kei2 daai6 si6 siu2 si6 dou1 hai6 aa3 maa1 daa2 sik1.）", "translate": "家里大事小情都是妈妈拿主意。"}
+        {
+          "sentence": "呢個項目由陳經理打骰。（ni1 go3 hong6 muk6 jau4 can4 ging1 lei5 daa2 sik1.）",
+          "translate": "这个项目由陈经理主持大局掌管。"
+        },
+        {
+          "sentence": "屋企大事小事都係阿媽打骰。（uk1 kei2 daai6 si6 siu2 si6 dou1 hai6 aa3 maa1 daa2 sik1.）",
+          "translate": "家里大事小情都是妈妈拿主意。"
+        },
+        {
+          "sentence": "公司邊個打骰？梗係老闆啦。（gung1 si1 bin1 go3 daa2 sik1? gang2 hai6 lou5 baan2 laa1.）",
+          "translate": "公司里谁说了算？当然是老板啦。"
+        }
       ]
     },
     {
@@ -229,8 +449,18 @@
       "pos": "形/动",
       "meaning": "乱套，混乱，杂乱无章",
       "sentences": [
-        {"sentence": "人手唔夠，成個現場搞到亂晒龍。（jan4 sau2 m4 gau3, seng4 go3 jin6 coeng4 gaau2 dou3 lyun6 saai3 lung4.）", "translate": "人手不够，整个现场搞得乱成一团糟。"},
-        {"sentence": "排隊唔好插隊，唔係就亂龍㗎喇。（paai4 deoi2 m4 hou2 caap3 deoi2, m4 hai6 zau6 lyun6 lung4 gaa3 laa3.）", "translate": "排队不要插队，不然就要乱套了。"}
+        {
+          "sentence": "人手唔夠，成個現場搞到亂晒龍。（jan4 sau2 m4 gau3, seng4 go3 jin6 coeng4 gaau2 dou3 lyun6 saai3 lung4.）",
+          "translate": "人手不够，整个现场搞得乱成一团糟。"
+        },
+        {
+          "sentence": "排隊唔好插隊，唔係就亂龍㗎喇。（paai4 deoi2 m4 hou2 caap3 deoi2, m4 hai6 zau6 lyun6 lung4 gaa3 laa3.）",
+          "translate": "排队不要插队，不然就要乱套了。"
+        },
+        {
+          "sentence": "個秘書請咗假，啲文件擺到亂龍咁。（go3 bei3 syu1 ceng2 zo2 gaa3, di1 man4 gin2 bai2 dou3 lyun6 lung4 gam2.）",
+          "translate": "那个秘书请了假，文件摆放得乱七八糟。"
+        }
       ]
     },
     {
@@ -239,8 +469,18 @@
       "pos": "形",
       "meaning": "无厘头，莫名其妙，无缘无故",
       "sentences": [
-        {"sentence": "佢講啲笑話成日冇厘頭。（keoi5 gong2 di1 siu3 waa2 seng4 jat6 mou5 lei4 tau4.）", "translate": "他讲的笑话老是无厘头。"},
-        {"sentence": "周星馳嘅電影開創咗無厘頭文化。（zau1 sing1 ci4 ge3 din6 jing2 hoi1 cong3 zo2 mou5 lei4 tau4 man4 faa3.）", "translate": "周星驰的电影开创了无厘头文化。"}
+        {
+          "sentence": "佢講啲笑話成日冇厘頭。（keoi5 gong2 di1 siu3 waa2 seng4 jat6 mou5 lei4 tau4.）",
+          "translate": "他讲的笑话老是无厘头。"
+        },
+        {
+          "sentence": "周星馳嘅電影開創咗無厘頭文化。（zau1 sing1 ci4 ge3 din6 jing2 hoi1 cong3 zo2 mou5 lei4 tau4 man4 faa3.）",
+          "translate": "周星驰的电影开创了无厘头文化。"
+        },
+        {
+          "sentence": "佢尋日喺公司發脾氣，真係冇厘頭。（keoi5 cam4 jat6 hai2 gung1 si1 faat3 pei4 hei3, zan1 hai6 mou5 lei4 tau4.）",
+          "translate": "他昨天在公司发脾气，真是莫名其妙。"
+        }
       ]
     },
     {
@@ -249,8 +489,18 @@
       "pos": "名/形",
       "meaning": "出大事了，严重的问题",
       "sentences": [
-        {"sentence": "今次大件事喇，系統崩潰咗！（gam1 ci3 daai6 gin6 si6 laa3, hai6 tung2 bang1 kui2 zo2!）", "translate": "这次出大事了，系统崩溃了！"},
-        {"sentence": "放心啦，又唔係咩大件事。（fong3 sam1 laa1, jau6 m4 hai6 me1 daai6 gin6 si6.）", "translate": "放心吧，又不是什么了不得的大事。"}
+        {
+          "sentence": "今次大件事喇，系統崩潰咗！（gam1 ci3 daai6 gin6 si6 laa3, hai6 tung2 bang1 kui2 zo2!）",
+          "translate": "这次出大事了，系统崩溃了！"
+        },
+        {
+          "sentence": "放心啦，又唔係咩大件事。（fong3 sam1 laa1, jau6 m4 hai6 me1 daai6 gin6 si6.）",
+          "translate": "放心吧，又不是什么了不得的大事。"
+        },
+        {
+          "sentence": "阿明唔見咗本護照，而家真係大件事。（aa3 ming4 m4 gin3 zo2 bun2 wu6 ziu3, ji4 gaa1 zan1 hai6 daai6 gin6 si6.）",
+          "translate": "阿明丢了护照，现在真是出大事了。"
+        }
       ]
     },
     {
@@ -259,8 +509,18 @@
       "pos": "副",
       "meaning": "悄悄地，偷偷摸摸，暗中",
       "sentences": [
-        {"sentence": "佢靜雞雞走咗入房。（keoi5 zing6 gai1 gai1 zau2 zo2 jap6 fong2.）", "translate": "他悄悄地溜进了房间。"},
-        {"sentence": "千祈唔好靜雞雞搞事。（cin1 kei4 m4 hou2 zing6 gai1 gai1 gaau2 si6.）", "translate": "千万不要暗地里搞鬼捣乱。"}
+        {
+          "sentence": "佢靜雞雞走咗入房。（keoi5 zing6 gai1 gai1 zau2 zo2 jap6 fong2.）",
+          "translate": "他悄悄地溜进了房间。"
+        },
+        {
+          "sentence": "千祈唔好靜雞雞搞事。（cin1 kei4 m4 hou2 zing6 gai1 gai1 gaau2 si6.）",
+          "translate": "千万不要暗地里搞鬼捣乱。"
+        },
+        {
+          "sentence": "佢靜雞雞食晒成包薯片。（keoi5 zing6 gai1 gai1 sik6 saai6 sing4 baau1 sy4 pin2.）",
+          "translate": "他偷偷地把整包薯片都吃光了。"
+        }
       ]
     },
     {
@@ -269,8 +529,18 @@
       "pos": "形",
       "meaning": "拉长着脸，脸色阴沉难看，面带怒色",
       "sentences": [
-        {"sentence": "佢今日成日都黑口黑面，邊個惹到佢啊？（keoi5 gam1 jat6 seng4 jat6 dou1 haak1 hau2 haak1 min6, bin1 go3 je5 dou2 keoi5 aa3?）", "translate": "他今天一整天都拉着个脸，谁惹到他了？"},
-        {"sentence": "做服務業唔好黑口黑面。（zou6 fuk6 mou6 jip6 m4 hou2 haak1 hau2 haak1 min6.）", "translate": "做服务行业不要沉着脸给顾客看。"}
+        {
+          "sentence": "佢今日成日都黑口黑面，邊個惹到佢啊？（keoi5 gam1 jat6 seng4 jat6 dou1 haak1 hau2 haak1 min6, bin1 go3 je5 dou2 keoi5 aa3?）",
+          "translate": "他今天一整天都拉着个脸，谁惹到他了？"
+        },
+        {
+          "sentence": "做服務業唔好黑口黑面。（zou6 fuk6 mou6 jip6 m4 hou2 haak1 hau2 haak1 min6.）",
+          "translate": "做服务行业不要沉着脸给顾客看。"
+        },
+        {
+          "sentence": "阿仔放學返嚟黑口黑面，唔知係咪喺學校俾人欺負。（aa3 zai2 fong3 hok6 faan1 lai4 haak1 hau2 haak1 min6, m4 zi1 si6 mai6 hai2 hok6 haau6 bei2 jan4 hei1 fu6.）",
+          "translate": "儿子放学回来沉着脸，不知道是不是在学校被人欺负了。"
+        }
       ]
     },
     {
@@ -279,8 +549,18 @@
       "pos": "形/副",
       "meaning": "一般般，马马虎虎，不过尔尔",
       "sentences": [
-        {"sentence": "呢間餐廳啲出品味道馬馬地。（ni1 gaan1 caan1 teng1 di1 ceot1 ban2 mei6 dou6 maa5 maa5 dei2.）", "translate": "这家餐厅的菜品味道很一般。"},
-        {"sentence": "我廣東話講得馬馬地咋。（ngo5 gwong2 dung1 waa2 gong2 dak1 maa5 maa5 dei2 zaa3.）", "translate": "我的粤语讲得只是马马虎虎而已。"}
+        {
+          "sentence": "呢間餐廳啲出品味道馬馬地。（ni1 gaan1 caan1 teng1 di1 ceot1 ban2 mei6 dou6 maa5 maa5 dei2.）",
+          "translate": "这家餐厅的菜品味道很一般。"
+        },
+        {
+          "sentence": "我廣東話講得馬馬地咋。（ngo5 gwong2 dung1 waa2 gong2 dak1 maa5 maa5 dei2 zaa3.）",
+          "translate": "我的粤语讲得只是马马虎虎而已。"
+        },
+        {
+          "sentence": "佢今次考試成績馬馬地，冇乜進步。（keoi5 gam1 ci3 haau2 si5 sing4 zik1 maa5 maa5 dei2, mou5 mat1 zeon3 bou6.）",
+          "translate": "他这次考试成绩一般般，没什么进步。"
+        }
       ]
     },
     {
@@ -289,8 +569,18 @@
       "pos": "形",
       "meaning": "一头雾水，摸不着头脑，完全困惑",
       "sentences": [
-        {"sentence": "聽完佢解釋，我更加一頭霧水。（teng1 jyun4 keoi5 gaai2 sik1, ngo5 gang3 gaa1 jat1 tau4 mou6 seoi2.）", "translate": "听完他的解释，我反而更加一头雾水了。"},
-        {"sentence": "件事搞到大家一頭霧水。（gin6 si6 gaau2 dou3 daai6 gaa1 jat1 tau4 mou6 seoi2.）", "translate": "这件事情搞得大家摸不着头脑。"}
+        {
+          "sentence": "聽完佢解釋，我更加一頭霧水。（teng1 jyun4 keoi5 gaai2 sik1, ngo5 gang3 gaa1 jat1 tau4 mou6 seoi2.）",
+          "translate": "听完他的解释，我反而更加一头雾水了。"
+        },
+        {
+          "sentence": "件事搞到大家一頭霧水。（gin6 si6 gaau2 dou3 daai6 gaa1 jat1 tau4 mou6 seoi2.）",
+          "translate": "这件事情搞得大家摸不着头脑。"
+        },
+        {
+          "sentence": "份報告寫得咁深奧，我睇咗半日都仲係一頭霧水。（fan6 bou3 gou1 se2 dak1 gam3 sam1 ou3, ngo5 tai2 zo2 bun3 jat6 dou1 zung6 hai6 jat1 tau4 mou6 seoi2.）",
+          "translate": "这份报告写得那么深奥，我看了半天还是一头雾水。"
+        }
       ]
     },
     {
@@ -299,8 +589,18 @@
       "pos": "动/形",
       "meaning": "惹人发笑，仅博一粲，荒谬可笑",
       "sentences": [
-        {"sentence": "呢啲謠言聽下就算，得啖笑。（ni1 di1 jiu4 jin4 teng1 haa5 zau6 syun3, dak1 daam6 siu3.）", "translate": "这些谣言听听就算了，纯粹惹人发笑。"},
-        {"sentence": "搞咁多嘢出嚟最後都係得啖笑。（gaau2 gam3 do1 je5 ceot1 lai4 zeoi3 hau6 dou1 hai6 dak1 daam6 siu3.）", "translate": "折腾出这么多名堂最后也只是沦为笑柄。"}
+        {
+          "sentence": "呢啲謠言聽下就算，得啖笑。（ni1 di1 jiu4 jin4 teng1 haa5 zau6 syun3, dak1 daam6 siu3.）",
+          "translate": "这些谣言听听就算了，纯粹惹人发笑。"
+        },
+        {
+          "sentence": "搞咁多嘢出嚟最後都係得啖笑。（gaau2 gam3 do1 je5 ceot1 lai4 zeoi3 hau6 dou1 hai6 dak1 daam6 siu3.）",
+          "translate": "折腾出这么多名堂最后也只是沦为笑柄。"
+        },
+        {
+          "sentence": "佢個表演得啖笑咋，冇人會當真。（keoi5 go3 biu2 jin2 dak1 daam6 siu3 zaa3, mou5 jan4 wui5 dong3 zan1.）",
+          "translate": "他的表演只是博人一笑罢了，没人会当真。"
+        }
       ]
     },
     {
@@ -309,8 +609,18 @@
       "pos": "熟语",
       "meaning": "无论多难的事都能办成，绝对没问题",
       "sentences": [
-        {"sentence": "有佢幫手，托塔都掂啦！（jau5 keoi5 bong1 sau2, tok3 taap3 dou1 dim6 laa1!）", "translate": "有他帮忙，不管多难的事都绝对搞得定！"},
-        {"sentence": "放心交畀我，托塔都掂！（fong3 sam1 gaau1 bei2 ngo5, tok3 taap3 dou1 dim6!）", "translate": "放心交给我，绝对稳妥搞定！"}
+        {
+          "sentence": "有佢幫手，托塔都掂啦！（jau5 keoi5 bong1 sau2, tok3 taap3 dou1 dim6 laa1!）",
+          "translate": "有他帮忙，不管多难的事都绝对搞得定！"
+        },
+        {
+          "sentence": "放心交畀我，托塔都掂！（fong3 sam1 gaau1 bei2 ngo5, tok3 taap3 dou1 dim6!）",
+          "translate": "放心交给我，绝对稳妥搞定！"
+        },
+        {
+          "sentence": "呢單咁棘手嘅case，佢都話托塔都掂。（ni1 daan1 gam3 kik1 sau2 ge3 case, keoi5 dou1 waa6 tok3 taap3 dou1 dim6.）",
+          "translate": "这么棘手的案子，他都说绝对没问题。"
+        }
       ]
     },
     {
@@ -319,8 +629,18 @@
       "pos": "熟语",
       "meaning": "乱七八糟，像战国七雄一样极其混乱",
       "sentences": [
-        {"sentence": "間房好耐冇執，七國咁亂。（gaan1 fong2 hou2 noi6 mou5 zap1, cat1 gwok3 gam3 lyun6.）", "translate": "房间很久没收拾了，乱七八糟。"},
-        {"sentence": "現場秩序搞到七國咁亂。（jin6 coeng4 zit3 zeoi6 gaau2 dou3 cat1 gwok3 gam3 lyun6.）", "translate": "现场秩序乱得像一锅粥。"}
+        {
+          "sentence": "間房好耐冇執，七國咁亂。（gaan1 fong2 hou2 noi6 mou5 zap1, cat1 gwok3 gam3 lyun6.）",
+          "translate": "房间很久没收拾了，乱七八糟。"
+        },
+        {
+          "sentence": "現場秩序搞到七國咁亂。（jin6 coeng4 zit3 zeoi6 gaau2 dou3 cat1 gwok3 gam3 lyun6.）",
+          "translate": "现场秩序乱得像一锅粥。"
+        },
+        {
+          "sentence": "班細路喺客廳玩完，搞到七國咁亂。（baan1 sai3 lou6 hai2 haak3 teng1 waan2 jyun4, gaau2 dou3 cat1 gwok3 gam3 lyun6.）",
+          "translate": "一群小孩在客厅玩完之后，弄得乱七八糟。"
+        }
       ]
     },
     {
@@ -329,8 +649,18 @@
       "pos": "熟语",
       "meaning": "顺水推舟，就坡下驴，借机顺势而为",
       "sentences": [
-        {"sentence": "見老細心情好，佢就打蛇隨棍上要求加人工。（gin3 lou5 sai3 sam1 cing4 hou2, keoi5 zau6 daa2 se4 ceoi4 gwan3 soeng5 jiu1 kau4 gaa1 jan4 gung1.）", "translate": "见老板心情好，他就顺水推舟要求加薪。"},
-        {"sentence": "做生意要懂得打蛇隨棍上。（zou6 saang1 ji3 jiu3 dung2 dak1 daa2 se4 ceoi4 gwan3 soeng5.）", "translate": "做生意要懂得顺势而为把握机会。"}
+        {
+          "sentence": "見老細心情好，佢就打蛇隨棍上要求加人工。（gin3 lou5 sai3 sam1 cing4 hou2, keoi5 zau6 daa2 se4 ceoi4 gwan3 soeng5 jiu1 kau4 gaa1 jan4 gung1.）",
+          "translate": "见老板心情好，他就顺水推舟要求加薪。"
+        },
+        {
+          "sentence": "做生意要懂得打蛇隨棍上。（zou6 saang1 ji3 jiu3 dung2 dak1 daa2 se4 ceoi4 gwan3 soeng5.）",
+          "translate": "做生意要懂得顺势而为把握机会。"
+        },
+        {
+          "sentence": "佢見個客主動問價，即刻打蛇隨棍上推銷埋成套產品。（keoi5 gin3 go3 haak3 zyu2 dung6 man6 gaa3, zik1 hak1 daa2 se4 ceoi4 gwan3 soeng5 teoi1 sau1 maai4 sing4 tou3 caan2 ban2.）",
+          "translate": "他见客户主动问价，立刻顺势推销了整套产品。"
+        }
       ]
     }
   ]

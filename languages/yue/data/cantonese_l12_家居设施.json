@@ -16,6 +16,10 @@
         {
           "sentence": "放工返屋企攤喺梳化睇電視。（fong3 gung1 faan1 uk1 kei2 taan1 hai2 so1 faa2 tai2 din6 si6.）",
           "translate": "下班回家瘫在沙发上看电视。"
+        },
+        {
+          "sentence": "呢個梳化係阿婆送畀我哋嘅。（ni1 go3 so1 faa2 hai6 aa3 po4 sung3 bei2 ngo5 dei6 ge3.）",
+          "translate": "这个沙发是外婆送给我们的。"
         }
       ]
     },
@@ -32,6 +36,10 @@
         {
           "sentence": "小心唔好撞到茶几角。（siu2 sam1 m4 hou2 zong6 dou2 caa4 gei1 gok3.）",
           "translate": "小心别撞到茶几角。"
+        },
+        {
+          "sentence": "佢坐喺梳化度，順手將杯茶放喺茶几度。（keoi5 zo5 hai2 sou1 faa3 dou6, seon6 sau2 zoeng1 bui1 caa4 fong3 hai2 caa4 gei1 dou6.）",
+          "translate": "他坐在沙发上，顺手把茶放在茶几上。"
         }
       ]
     },
@@ -48,6 +56,10 @@
         {
           "sentence": "衣櫃入面好多衫。（ji1 gwai6 jap6 min6 hou2 do1 saam1.）",
           "translate": "衣柜里面有很多衣服。"
+        },
+        {
+          "sentence": "佢買咗個新衣櫃擺喺睡房度。（keoi5 maai5 zo2 go3 san1 ji1 gwai6 baai2 hai2 seoi6 fong4 dou6.）",
+          "translate": "他买了一个新衣柜放在睡房里。"
         }
       ]
     },
@@ -64,6 +76,10 @@
         {
           "sentence": "呢個風筒風力好大。（ni1 go3 fung1 tung2 fung1 lik6 hou2 daai6.）",
           "translate": "这个吹风机风力很大。"
+        },
+        {
+          "sentence": "我買咗個新風筒，靜音又夠輕。（ngo5 maai5 zo2 go3 san1 fung1 tung2, zeng6 jam1 jau6 gau3 heng1.）",
+          "translate": "我买了个新吹风机，静音又够轻。"
         }
       ]
     },
@@ -80,6 +96,10 @@
         {
           "sentence": "換個新花灑沖涼更爽。（wun6 go3 san1 faa1 saa2 cung1 loeng4 gang3 song2.）",
           "translate": "换个新花洒洗澡更畅快。"
+        },
+        {
+          "sentence": "個花灑塞咗，要通一通先得。（go3 faa1 saa2 sak1 zo2, jiu3 tung1 jat1 tung1 sin1 dak1.）",
+          "translate": "花洒堵住了，得先疏通一下才行。"
         }
       ]
     },
@@ -87,7 +107,7 @@
       "word": "電掣",
       "jyutping": "din6 zai3",
       "pos": "名",
-      "meaning": "开关，电源插座",
+      "meaning": "电灯开关，电源开关",
       "sentences": [
         {
           "sentence": "臨出門記得熄晒所有電掣。（lam4 ceot1 mun4 gei3 dak1 sik1 saai3 so2 jau5 din6 zai3.）",
@@ -96,6 +116,10 @@
         {
           "sentence": "呢個電掣插座鬆咗。（ni1 go3 din6 zai3 caap3 zo6 sung1 zo2.）",
           "translate": "这个电源插座松动了。"
+        },
+        {
+          "sentence": "個電掣壞咗，整晚都開唔到燈。（go3 din6 zai3 waai6 zo2, zing2 maan5 dou1 hoi1 m4 dou3 dang1.）",
+          "translate": "开关坏了，整晚都开不了灯。"
         }
       ]
     },
@@ -112,6 +136,10 @@
         {
           "sentence": "唔好喺同一個拖板插太多大功率電器。（m4 hou2 hai2 tung4 jat1 go3 to1 baan2 caap3 taai3 do1 daai6 gung1 lik6 din6 hei3.）",
           "translate": "不要在同一个接线板插太多大功率电器。"
+        },
+        {
+          "sentence": "個拖板太短，要買條長啲嘅延長線。（go3 to1 baan2 taai3 dyun2, jiu3 maai5 tiu4 coeng4 di1 ge3 jin4 coeng4 sin3.）",
+          "translate": "这个接线板太短，要买条长一点的延长线。"
         }
       ]
     },
@@ -128,6 +156,10 @@
         {
           "sentence": "攞個膠袋裝住啲垃圾。（lo2 go3 gaau1 doi2 zong1 zyu6 di1 laap6 saap3.）",
           "translate": "拿个塑料袋装着垃圾。"
+        },
+        {
+          "sentence": "呢個膠袋太薄喇，一裝嘢就爛。（ni1 go3 gaau1 doi2 taai3 bok3 laa3, jat1 zong1 je5 zau6 laan6.）",
+          "translate": "这个塑料袋太薄了，一装东西就破。"
         }
       ]
     },
@@ -139,11 +171,15 @@
       "sentences": [
         {
           "sentence": "借張紙巾抹下手唔該。（ze3 zoeng1 zi2 gan1 maat3 haa5 sau2 m4 goi1.）",
-          "translate": "借张纸巾擦一下手麻烦。"
+          "translate": "麻烦借张纸巾擦一下手。"
         },
         {
           "sentence": "隨身帶包紙巾好方便。（ceoi4 san1 daai3 baau1 zi2 gan1 hou2 fong1 bin6.）",
           "translate": "随身带包纸巾很方便。"
+        },
+        {
+          "sentence": "佢喊到成面都係眼淚，我即刻遞咗張紙巾畀佢。（keoi5 haam3 dou3 sing4 min6 dou1 hai6 ngaan5 leoi6, ngo5 zik1 hak1 dai6 zo2 zoeng1 zi2 gan1 bei2 keoi5.）",
+          "translate": "他哭得满脸都是眼泪，我立刻递了张纸巾给他。"
         }
       ]
     },
@@ -160,6 +196,10 @@
         {
           "sentence": "呢塊手工番梘有淡淡花香。（ni1 faai3 sau2 gung1 faan1 gaan2 jau5 daam6 daam6 faa1 hoeng1.）",
           "translate": "这块手工皂有淡淡的花香。"
+        },
+        {
+          "sentence": "去超級市場買樽番梘液啦。（heoi3 ciu1 kap1 si5 coeng4 maai5 zeon1 faan1 gaan2 jik6 laa1.）",
+          "translate": "去超市买瓶洗手液吧。"
         }
       ]
     }

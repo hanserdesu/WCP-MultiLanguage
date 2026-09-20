@@ -16,6 +16,10 @@
         {
           "sentence": "唔該畀杯熱水我。（m4 goi1 bei2 bui1 jit6 seoi2 ngo5.）",
           "translate": "麻烦给我一杯热水，谢谢。"
+        },
+        {
+          "sentence": "唔該幫我攞個快遞。（m4 goi1 bong1 ngo5 lo2 go3 faai3 dei6.）",
+          "translate": "麻烦帮我拿一下快递。"
         }
       ]
     },
@@ -27,11 +31,15 @@
       "sentences": [
         {
           "sentence": "多謝你嘅禮物！（do1 ze6 nei5 ge3 lai5 mat6!）",
-          "translate": "多谢你的精美礼物！"
+          "translate": "多谢你的礼物！"
         },
         {
           "sentence": "多謝大家嘅支持同厚愛。（do1 ze6 daai6 gaa1 ge3 zi1 ci4 tung4 hau5 oi3.）",
-          "translate": "非常感谢大家的支持与厚爱。"
+          "translate": "感谢大家的支持与厚爱。"
+        },
+        {
+          "sentence": "多謝你請我食呢頓飯，好味到不得了。（do1 ze6 nei5 ceng2 ngo5 sik6 ni1 deon6 faan6, hou2 mei6 dou3 bat1 dak1 liu5.）",
+          "translate": "谢谢你请我吃这顿饭，好吃得不得了。"
         }
       ]
     },
@@ -48,6 +56,10 @@
         {
           "sentence": "唔好意思，請問地鐵站喺邊度？（m4 hou2 ji3 si3, cing2 man6 dei6 tit3 zaam6 hai2 bin1 dou6?）",
           "translate": "不好意思打扰一下，请问地铁站在哪里？"
+        },
+        {
+          "sentence": "唔好意思，借個位俾我坐低先。（m4 hou2 ji3 si3, ze3 go3 wai2 bei2 ngo5 co5 dai1 sin1.）",
+          "translate": "不好意思，先让我借个位子坐下。"
         }
       ]
     },
@@ -64,6 +76,10 @@
         {
           "sentence": "跌咗就算，最緊要人冇事，唔緊要。（dit3 zo2 zau6 syun3, zeoi3 gan2 jiu3 jan4 mou5 si6, m4 gan2 jiu3.）",
           "translate": "掉了就算了，最重要人没事，不要紧。"
+        },
+        {
+          "sentence": "遲到咗少少，唔緊要嘅，入嚟坐啦。（ci4 dou3 zo2 siu2 siu2, m4 gan2 jiu3 ge3, jap6 lai4 co5 laa1.）",
+          "translate": "迟到了一点，没关系的，进来坐吧。"
         }
       ]
     },
@@ -80,6 +96,10 @@
         {
           "sentence": "大家拜拜，路上小心！（daai6 gaa1 baai1 baai3, lou6 soeng6 siu2 sam1!）",
           "translate": "大家再见，路上当心！"
+        },
+        {
+          "sentence": "時間唔早喇，我要走喇，拜拜！（si4 gaan3 m4 zou2 laa3, ngo5 jiu3 zau2 laa3, baai1 baai3!）",
+          "translate": "时间不早了，我要走了，再见！"
         }
       ]
     },
@@ -96,6 +116,10 @@
         {
           "sentence": "夜深路黑，慢慢行小心睇路。（je6 sam1 lou6 hak1, maan6 maan6 haang4 siu2 sam1 tai2 lou6.）",
           "translate": "夜深天黑，慢走小心看路。"
+        },
+        {
+          "sentence": "阿婆送孫仔出門口：慢慢行呀，唔好咁急。（aa3 po4 sung3 syun1 zai2 ceot1 mun4 hau2: maan6 maan6 haang4 aa3, m4 hou2 gam3 gap1.）",
+          "translate": "奶奶送孙子出门：慢走啊，别这么急。"
         }
       ]
     }
