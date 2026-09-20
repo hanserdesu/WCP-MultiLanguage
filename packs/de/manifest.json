@@ -36,9 +36,9 @@
     "pron": "de_pron.tsv",
     "sentences": "de_sentences.tsv",
     "payload_files": {
-      "de_pron.tsv": "450417b346fc78f3dea1fd8b80583d77ccdddc060381966c16c55bd6152a0602",
-      "de_sentences.tsv": "65bf3dacf3c2d2bc23e52d355280e781c64ab295623c002c90fa81b2a0046fcf",
-      "de_only_pron.tsv": "450417b346fc78f3dea1fd8b80583d77ccdddc060381966c16c55bd6152a0602",
+      "de_pron.tsv": "8cffa45ee8b740ce3d2e5ca96676753e8a89f191bdc33fc1a949142db3dd6920",
+      "de_sentences.tsv": "daff115cfde883573eecc5bdb54a93868cd3de9cf09dc751eb57c0502b838cc4",
+      "de_only_pron.tsv": "8cffa45ee8b740ce3d2e5ca96676753e8a89f191bdc33fc1a949142db3dd6920",
       "en_pron.tsv": "3d9e08e3e3e882350fff931c869cb856a5287712567c6eb3ffed086adcfd1669",
       "en_sentences.tsv": "03240187e74606562fe28c6ffda21c9cc07c365e473ad5e396349165b04cab2c"
     }
@@ -52,9 +52,9 @@
   },
   "counts": {
     "pron": 8062,
-    "sentence_rows": 24183,
-    "sentence_words": 8061,
-    "words_without_sentences": 1
+    "sentence_rows": 24186,
+    "sentence_words": 8062,
+    "words_without_sentences": 0
   },
   "notes": [
     "德语四级完备词库: A1=658 + A2=2830 + B1=2400 + B2=2174，并集去重 = 8062，与指纹精确吻合。",
