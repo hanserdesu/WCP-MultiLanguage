@@ -32,8 +32,8 @@
     "pron": "ar_pron.tsv",
     "sentences": "ar_sentences.tsv",
     "payload_files": {
-      "ar_pron.tsv": "67de9a5d1793729c08673eefaa2290194bbad83df59c5b898493b56060f16468",
-      "ar_sentences.tsv": "0432bcb52f56fe23aebb63d32bca7f10873e76648bfc865e13a1da72ba9d0a76"
+      "ar_pron.tsv": "01fb453780e2cb5b2fa36388f1cc7504600af70271537671f75bcd631fb43bc8",
+      "ar_sentences.tsv": "27677a73a17bf03fe4489c3009bdf6bfa7f386feee04e85dcf49555a2bd5bd98"
     }
   },
   "book_sha256": {
