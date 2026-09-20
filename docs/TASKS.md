@@ -2544,3 +2544,33 @@ probes/verify_round8.py → RESULT: PASS
 - 将未跟踪的关键源文件 `mod_host/Core/SentenceTable.cs`、`mod_host/MirrorWorker.cs`、`mod_host/PerfProbe.cs` 正式纳入版本控制，修复其它机器因缺源文件导致的编译失败。
 - 将 caller-safe 的离线测试包装脚本 `mod_host/tests/run_word_audio_compat_test.cmd` 与 `mod_custom_slots/tests/run_custom_slots_test.cmd` 纳入版本控制。
 - 完善 `.gitignore`，过滤编译过程产出的临时文本日志（`.out.txt`、`build*.txt`、`slots_test_out.txt` 等）。
+
+---
+
+## 18. 全语种全量例句三倍（≥3句）补齐与 Edge TTS 音频闭环（2026-09-20）
+
+#### 1. 背景与缺口审计
+- 粤语闭环后，审计全语种运行时底库（packs/<lang>/db/sentences.json）的每词例句覆盖度：
+  - 3 语完全达标：de（8,061 词）、ko（7,330 词）、yue（384 词）100% 均为 3 句；
+  - 4 语存在孤立缺口：es（1 词 mama）、pt（1 词 cha）、ja（2 词 庭/忙しい）、fr（5 词 date/long/merci/un/vent）各缺 1 句；
+  - 2 语存在大面积/结构性缺口：
+    - ru（8,447 词）：200 个词不足 3 句（87 词仅 1 句、113 词为 2 句），原因为早期模板例句缺失词干被机检剔除；
+    - ar（8,118 词）：5,552 个词仅 2 句（占比 68.4%），原因为 gen_sentences_ar2 在提取第 1 句 real 语境时与额外生成句重复，去重后遗留 2 句。
+
+#### 2. 全量补齐与 Edge TTS 音频合成
+- **孤立语言补齐（9 句）**：补齐 es (mama)、pt (cha)、ja (庭, 忙しい)、fr (date, long, merci, un, vent) 共 9 句高质量真实例句，使用对应 Edge TTS 音频（es-ES-ElviraNeural、pt-BR-FranciscaNeural、ja-JP-NanamiNeural、fr-FR-DeniseNeural）全量合成。
+- **俄语定向补齐（287 句）**：针对 200 个词（193 词性为 adj.，7 词性为 n./v./pron.），结合真实释义重构 287 条词干完全对齐的俄汉例句，使用 ru-RU-SvetlanaNeural 神经网络语音全量并发合成。
+- **阿拉伯语结构性扩充（5,552 句）**：在保留全部 18,802 条已有存量例句及音频的前提下，修复框架轮转逻辑，为 5,552 个双句词各定向增补第 3 句独特语境例句，使用 ar-SA-ZariyahNeural 神经网络语音并发合成 5,552 条新音频至 LocalLow 部署目录。
+
+#### 3. 闭环验收与全语种 100% 达成
+- 全语种 9/9 语言各词例句数全部达到 **≥ 3 句（100.0% 覆盖）**：
+  - ar: 8,118 词 / 24,354 句（100.0% 3句）
+  - de: 8,061 词 / 24,183 句（100.0% 3句）
+  - es: 8,599 词 / 25,797 句（100.0% ≥3句）
+  - fr: 8,116 词 / 24,348 句（100.0% ≥3句）
+  - ja: 7,922 词 / 30,538 句（100.0% ≥3句）
+  - ko: 7,330 词 / 21,990 句（100.0% 3句）
+  - pt: 8,599 词 / 25,797 句（100.0% ≥3句）
+  - ru: 8,447 词 / 25,628 句（100.0% ≥3句）
+  - yue: 384 词 / 1,152 句（100.0% 3句）
+- 端到端例句契约检测（check_sentence_contract.py）：全语种 **9/9 ALL PASS**，音频 MD5 命中率全部达到 **100%**。',
