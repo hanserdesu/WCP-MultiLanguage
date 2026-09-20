@@ -32,8 +32,8 @@
     "pron": "ko_pron.tsv",
     "sentences": "ko_sentences.tsv",
     "payload_files": {
-      "ko_pron.tsv": "7619171c0f7bcf5d67929506069f19b35e18ad2894a092c65f2fdd1eb7d573fe",
-      "ko_sentences.tsv": "08deb89c5c06e4346b7a9ff771c288aef80413d39933160e886eff38089c65ad"
+      "ko_pron.tsv": "f405072c5b6ad699489b21bf7f28a3ddd269560c94086f759f3ac5be730059f3",
+      "ko_sentences.tsv": "66f5d2396daf68d617f7514a33b71fc2d26e3a14b898a055a42d74f9c91c0a55"
     }
   },
   "book_sha256": {

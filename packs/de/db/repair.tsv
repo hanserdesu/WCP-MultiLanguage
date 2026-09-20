@@ -801,7 +801,7 @@ row	pron	Cousin	[kɔʊziːn]		表兄弟〈n.m.〉
 row	pron	Cousine	[kɔʊzɪnə]		表姐妹〈n.f.〉	
 row	pron	Cowboy	[ˈkaʊbɔɪ]		牛仔〈n.m.〉	
 row	pron	Crash	[kʁɛʃ]		哗啦声；猛撞；崩溃〈n.m.〉	
-row	pron	Crystal	[kʁʏstaːl]		<俚>去氧麻黄硷粉〈n.〉	
+row	pron	Crystal	[kʁʏstaːl]		去氧麻黄碱粉；冰毒〈n.m.〉	
 row	pron	DNA	[dna]		脱氧核糖核酸〈n.f.〉	
 row	pron	Dach	[daːx]		屋顶〈n.〉	
 row	pron	Dachboden	[daxbɔdən]		阁楼；顶楼；鼓室上隐窝〈n.m.〉	
@@ -1558,7 +1558,7 @@ row	pron	Gespräch	[ɡɛspʁɛːç]		谈话〈n.〉
 row	pron	Gespür	[ɡɛspyːɐ]		直觉；感觉〈n.〉	
 row	pron	Gestalt	[ɡɛstalt]		形状〈n.f.〉	
 row	pron	Gestank	[ɡɛstank]		臭味〈n.m.〉	
-row	pron	Gestapo	[ɡɛsˈtaːpo]		<德>盖世太保；纳粹秘密警察〈n.f.〉	
+row	pron	Gestapo	[ɡɛsˈtaːpo]		盖世太保；秘密警察〈n.f.〉	
 row	pron	Geständnis	[ɡəˈʃtɛndnɪs]		供词〈n.〉	
 row	pron	Gesundheit	[ɡeːzʊndhaɪt]		健康〈n.f.〉	
 row	pron	Getreide	[ɡɛtʁaɪdə]		谷粒；颗粒；谷类〈n.〉	
@@ -1700,7 +1700,7 @@ row	pron	Halunke	[haˈlʊŋkə]		无赖；恶棍〈n.m.〉
 row	pron	Hamburg	[hambʊʁk]		汉堡〈n.〉	
 row	pron	Hamburger	[hambʊʁɡɐ]		汉堡包〈n.m.〉	
 row	pron	Hammer	[hamɐ]		锤子〈n.m.〉	
-row	pron	Hamster	[hamstɐ]		<动>仓鼠〈n.〉	
+row	pron	Hamster	[hamstɐ]		仓鼠〈n.m.〉	
 row	pron	Hand	[hant]		手〈n.f.〉	
 row	pron	Handbuch	[handbuːx]		手册〈n.〉	
 row	pron	Handel	[handəl]		贸易〈n.m.〉	
@@ -2756,7 +2756,7 @@ row	pron	Mücke	[mʏkə]		小昆虫；蚊子；小烦扰；蚊〈n.f.〉
 row	pron	Mücken	[mʏkən]		蚊〈n.〉	
 row	pron	Müdigkeit	[myːdɪɡkaɪt]		疲劳；疲倦；疲惫〈n.f.〉	
 row	pron	Mühe	[myːə]		辛劳〈n.f.〉	
-row	pron	Mühen	[myːən]		<文>艰苦劳动；辛勤努力；痛苦〈n.〉	
+row	pron	Mühen	[myːən]		辛勤努力；艰辛；苦劳〈n.pl.〉	
 row	pron	Mühle	[myːlə]		磨坊；磨粉机〈n.f.〉	
 row	pron	Müll	[mʏl]		垃圾〈n.m.〉	
 row	pron	Müller	[mʏlɐ]		磨坊主；碾磨工〈n.m.〉	
@@ -10467,9 +10467,9 @@ row	sentence	Cowboy				例句：Übrigens, zu Cowboy: hast du die heutigen Nachr
 row	sentence	Crash				例句：Denk besser frühzeitig an Crash.（最好尽早考虑哗啦声。）
 row	sentence	Crash				例句：Die Nachricht über Crash verbreitete sich blitzartig.（哗啦声的消息瞬间传开了。）
 row	sentence	Crash				例句：In diesem Film geht es im Kern um Crash.（这部电影归根结底讲的是哗啦声。）
-row	sentence	Crystal				例句：In der Prüfung kam eine Frage über Crystal vor.（考试里出了一道关于<俚>去氧麻黄硷粉的题。）
-row	sentence	Crystal				例句：Seine Doktorarbeit handelt von Crystal im Mittelalter.（他的博士论文研究的是中世纪的<俚>去氧麻黄硷粉。）
-row	sentence	Crystal				例句：Über Crystal gibt es schon etliche wissenschaftliche Arbeiten.（关于<俚>去氧麻黄硷粉已经有不少学术著作。）
+row	sentence	Crystal				例句：In der Prüfung kam eine Frage über Crystal vor.（考试里出了一道关于冰毒的题。）
+row	sentence	Crystal				例句：Seine Doktorarbeit handelt von Crystal im Mittelalter.（他的博士论文研究的是中世纪的去氧麻黄碱/晶体。）
+row	sentence	Crystal				例句：Über Crystal gibt es schon etliche wissenschaftliche Arbeiten.（关于冰毒已经有不少学术著作。）
 row	sentence	DNA				例句：Mit DNA spielt man nicht: sei vorsichtig.（脱氧核糖核酸可不能当儿戏，必须小心。）
 row	sentence	DNA				例句：Schon als Kind sammelte er Materialien über DNA.（他小时候就收集关于脱氧核糖核酸的资料。）
 row	sentence	DNA				例句：Wir haben den ganzen Abend über DNA gesprochen.（我们聊了一晚上脱氧核糖核酸。）
@@ -12738,9 +12738,9 @@ row	sentence	Gestalt				例句：Mit Gestalt hatte ich früher noch nie zu tun.�
 row	sentence	Gestank				例句：Bis Freitag muss ich Gestank wiederholen.（周五之前我得复习臭味。）
 row	sentence	Gestank				例句：Für mich ist Gestank einfach unverzichtbar.（对我来说，臭味是必不可少的东西。）
 row	sentence	Gestank				例句：Im ganzen Haus sprach man nur über Gestank.（全家上下都在谈论臭味。）
-row	sentence	Gestapo				例句：Mit Gestapo spielt man nicht: sei vorsichtig.（<德>盖世太保可不能当儿戏，必须小心。）
-row	sentence	Gestapo				例句：Schon als Kind sammelte er Materialien über Gestapo.（他小时候就收集关于<德>盖世太保的资料。）
-row	sentence	Gestapo				例句：Wir haben den ganzen Abend über Gestapo gesprochen.（我们聊了一晚上<德>盖世太保。）
+row	sentence	Gestapo				例句：Mit Gestapo spielt man nicht: sei vorsichtig.（盖世太保可不能当儿戏，必须小心。）
+row	sentence	Gestapo				例句：Schon als Kind sammelte er Materialien über Gestapo.（他小时候就收集关于盖世太保的资料。）
+row	sentence	Gestapo				例句：Wir haben den ganzen Abend über Gestapo gesprochen.（我们聊了一晚上盖世太保。）
 row	sentence	Geständnis				例句：Dank Geständnis konnte das Projekt weitergehen.（多亏了供词，项目得以推进。）
 row	sentence	Geständnis				例句：Diesem Buch ist ein ganzes Kapitel über Geständnis gewidmet.（这本书用整整一章讲供词。）
 row	sentence	Geständnis				例句：Im Museum gibt es Exponate rund um Geständnis.（博物馆里保存着与供词相关的展品。）
@@ -13164,9 +13164,9 @@ row	sentence	Hamburger				例句：Ich verstehe immer besser, wie Hamburger funk
 row	sentence	Hammer				例句：Dieser Kommentar zeigt, dass er sich mit Hammer auskennt.（那个评论说明他对锤子很在行。）
 row	sentence	Hammer				例句：Seine Doktorarbeit handelt von Hammer im Mittelalter.（他的博士论文研究的是中世纪的锤子。）
 row	sentence	Hammer				例句：Über Hammer gibt es schon etliche wissenschaftliche Arbeiten.（关于锤子已经有不少学术著作。）
-row	sentence	Hamster				例句：Dank Hamster konnte das Projekt weitergehen.（多亏了<动>仓鼠，项目得以推进。）
+row	sentence	Hamster				例句：Dank Hamster konnte das Projekt weitergehen.（多亏了仓鼠，项目得以推进。）
 row	sentence	Hamster				例句：Denk besser frühzeitig an Hamster.（你最好尽早考虑仓鼠。）
-row	sentence	Hamster				例句：In diesem Film geht es im Kern um Hamster.（这部电影归根结底讲的是<动>仓鼠。）
+row	sentence	Hamster				例句：In diesem Film geht es im Kern um Hamster.（这部电影归根结底讲的是仓鼠。）
 row	sentence	Hand				例句：Mit Hand spielt man nicht: sei vorsichtig.（手可不能当儿戏，必须小心。）
 row	sentence	Hand				例句：Schon als Kind sammelte er Materialien über Hand.（他小时候就收集关于手的资料。）
 row	sentence	Hand				例句：Wir haben den ganzen Abend über Hand gesprochen.（我们聊了一晚上手。）
@@ -16332,9 +16332,9 @@ row	sentence	Müdigkeit				例句：Im Museum gibt es Exponate rund um Müdigkei
 row	sentence	Mühe				例句：In der Prüfung kam eine Frage über Mühe vor.（考试里出了一道关于辛劳的题。）
 row	sentence	Mühe				例句：Seine Doktorarbeit handelt von Mühe im Mittelalter.（他的博士论文研究的是中世纪的辛劳。）
 row	sentence	Mühe				例句：Über Mühe gibt es schon etliche wissenschaftliche Arbeiten.（关于辛劳已经有不少学术著作。）
-row	sentence	Mühen				例句：Heute haben wir im Unterricht den Begriff Mühen analysiert.（今天课上我们分析了<文>艰苦劳动这个概念。）
-row	sentence	Mühen				例句：In der Prüfung kam eine Frage über Mühen vor.（考试里出了一道关于<文>艰苦劳动的题。）
-row	sentence	Mühen				例句：Wir haben den ganzen Abend über Mühen gesprochen.（我们聊了一晚上<文>艰苦劳动。）
+row	sentence	Mühen				例句：Heute haben wir im Unterricht den Begriff Mühen analysiert.（今天课上我们分析了艰苦劳动这个概念。）
+row	sentence	Mühen				例句：In der Prüfung kam eine Frage über Mühen vor.（考试里出了一道关于辛勤劳作的题。）
+row	sentence	Mühen				例句：Wir haben den ganzen Abend über Mühen gesprochen.（我们聊了一晚上艰辛劳作。）
 row	sentence	Mühle				例句：Bis Freitag muss ich Mühle wiederholen.（周五之前我得复习磨坊。）
 row	sentence	Mühle				例句：Im ganzen Haus sprach man nur über Mühle.（全家上下都在谈论磨坊。）
 row	sentence	Mühle				例句：Seine Forschung kreist um Mühle.（他的研究围绕磨坊展开。）
@@ -18486,9 +18486,9 @@ row	sentence	Schleppen				例句：Mir fehlt das Vokabular, um Schleppen genau z
 row	sentence	Schleudern				例句：Die heutige Radiosendung handelt von Schleudern.（今天的广播节目讲的是打滑甩尾。）
 row	sentence	Schleudern				例句：Mit Schleudern hatte ich früher noch nie zu tun.（我以前从未接触过打滑甩尾。）
 row	sentence	Schleudern				例句：Übrigens, zu Schleudern: hast du die heutigen Nachrichten gesehen?（说到打滑甩尾，你看今天的新闻了吗？）
-row	sentence	Schließ				例句：Bis Freitag muss ich Schließ wiederholen.（周五之前我得复习关闭【schließen 变化形式】。）
-row	sentence	Schließ				例句：Ohne Schließ wären all diese Bemühungen umsonst gewesen.（没有关闭【schließen 变化形式】，这一切努力都是白费。）
-row	sentence	Schließ				例句：Seine Forschung kreist um Schließ.（他的研究围绕关闭【schließen 变化形式】展开。）
+row	sentence	Schließ				例句：Bis Freitag muss ich Schließ wiederholen.（周五之前我得复习闭包/关闭。）
+row	sentence	Schließ				例句：Ohne Schließ wären all diese Bemühungen umsonst gewesen.（没有关闭操作，这一切努力都是白费。）
+row	sentence	Schließ				例句：Seine Forschung kreist um Schließ.（他的研究围绕关闭机制展开。）
 row	sentence	Schließe				例句：Am Anfang war Schließe mir völlig fremd.（一开始，扣环对我来说很陌生。）
 row	sentence	Schließe				例句：Für mich ist Schließe einfach unverzichtbar.（对我来说，扣环是必不可少的东西。）
 row	sentence	Schließe				例句：Mir fehlt das Vokabular, um Schließe genau zu erklären.（我的词汇量不够，没法精确解释扣环。）
@@ -19029,9 +19029,9 @@ row	sentence	Sexualität				例句：Wir haben den ganzen Abend über Sexualitä
 row	sentence	Sheriff				例句：Die heutige Radiosendung handelt von Sheriff.（今天的广播节目围绕警长展开。）
 row	sentence	Sheriff				例句：Diesen Sommer möchte ich mehr über Sheriff erfahren.（今年夏天我想多了解警长。）
 row	sentence	Sheriff				例句：Mit Sheriff hatte ich früher noch nie zu tun.（我以前从未接触过警长。）
-row	sentence	Shogun				例句：Ich verstehe immer besser, wie Shogun funktioniert.（我越来越明白【日】幕府时代的将军是怎么运作的了。）
-row	sentence	Shogun				例句：Mit Shogun spielt man nicht: sei vorsichtig.（【日】幕府时代的将军可不能当儿戏，必须小心。）
-row	sentence	Shogun				例句：Reden wir weiter über Shogun oder wechselst du das Thema?（我们继续聊【日】幕府时代的将军，还是你想换个话题？）
+row	sentence	Shogun				例句：Ich verstehe immer besser, wie Shogun funktioniert.（我越来越明白幕府将军制度是怎么运作的了。）
+row	sentence	Shogun				例句：Mit Shogun spielt man nicht: sei vorsichtig.（幕府将军可不能当儿戏，必须小心。）
+row	sentence	Shogun				例句：Reden wir weiter über Shogun oder wechselst du das Thema?（我们继续聊幕府将军，还是你想换个话题？）
 row	sentence	Show				例句：Dieser Kommentar zeigt, dass er sich mit Show auskennt.（那个评论说明他对节目很在行。）
 row	sentence	Show				例句：Seine Doktorarbeit handelt von Show im Mittelalter.（他的博士论文研究的是中世纪的节目。）
 row	sentence	Show				例句：Über Show gibt es schon etliche wissenschaftliche Arbeiten.（关于节目已经有不少学术著作。）
@@ -24210,9 +24210,9 @@ row	sentence	darüber				例句：In diesem Satz finde ich die genaue Bedeutung 
 row	sentence	das				例句：Das Wörterbuch zählt das zu den häufigsten Anfragen.（词典把定冠词列为查询最多的词条之一。）
 row	sentence	das				例句：Der Lehrer schrieb das an die Tafel und verlangte ein Beispiel.（老师在黑板上写下定冠词，让我们造个句子。）
 row	sentence	das				例句：Wie übersetzt man das ins Chinesische?（定冠词用中文怎么说？）
-row	sentence	dass				例句：Der Gebrauch von dass variiert stark zwischen Ländern.（【引导从句】的用法在不同国家差别很大。）
-row	sentence	dass				例句：Dieses Kapitel erklärt, wann man dass verwendet.（这一章讲解什么时候用【引导从句】。）
-row	sentence	dass				例句：Es fällt mir schwer, dass von ähnlichen Wörtern zu unterscheiden.（我很难把【引导从句】和相近的词区分开。）
+row	sentence	dass				例句：Der Gebrauch von dass variiert stark zwischen Ländern.（连词 dass 的用法在不同国家差别很大。）
+row	sentence	dass				例句：Dieses Kapitel erklärt, wann man dass verwendet.（这一章讲解什么时候使用 dass。）
+row	sentence	dass				例句：Es fällt mir schwer, dass von ähnlichen Wörtern zu unterscheiden.（我很难把连词 dass 和相近的词区分开。）
 row	sentence	dasselbe				例句：Der Lehrer schrieb dasselbe an die Tafel und verlangte ein Beispiel.（老师在黑板上写下同样的，让我们造个句子。）
 row	sentence	dasselbe				例句：In diesem Text wird dasselbe mit einer anderen Nuance verwendet.（在这篇文章里，“同样的”的用法略有不同。）
 row	sentence	dasselbe				例句：Wiederhole bitte das Wort dasselbe.（请再把同样的念一遍。）

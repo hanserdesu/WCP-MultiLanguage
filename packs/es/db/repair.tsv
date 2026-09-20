@@ -3081,7 +3081,7 @@ row	pron	técnico	/ˈtekniko/	/ˈtekniko/	/ˈtekniko/ 技术员<名>
 row	pron	injusto	/inˈxusto/	/inˈxusto/	[inˈxusto] 不公平<形>	
 row	pron	activo	/aɡˈtiβo/	/aɡˈtiβo/	/aɡˈtiβo/ 活跃的<形>；资产<名>	
 row	pron	galería	/ɡaleˈɾia/	/ɡaleˈɾia/	[ɡaleˈɾia] 画廊<名>	
-row	pron	vió	/ˈbjo/	/seˈɾaɾ/	/ˈbjo/ 锯<动>	
+row	pron	vió	/ˈbjo/	/ˈbjo/	/ˈbjo/ 看见；看（ver的过去式）<动>	
 row	pron	enseña	/enˈseɲa/	/enˈseɲa/	[enˈseɲa] 旗帜；标志<名>	
 row	pron	editor	/ediˈtoɾ/	/ediˈtoɾ/	[ediˈtoɾ] 编辑<名>	
 row	pron	liberación	/libeɾaˈθjon/	/libeɾaˈθjon/	[libeɾaˈθjon] 释放<名>	
@@ -17843,9 +17843,9 @@ row	sentence	activo				例句：Ese comentario demuestra que sabe mucho de activ
 row	sentence	galería				例句：Gracias a galería, el proyecto salió adelante.（多亏了画廊，项目得以推进。）
 row	sentence	galería				例句：Para mí, galería es algo imprescindible.（对我来说，画廊是必不可少的东西。）
 row	sentence	galería				例句：De pequeño coleccionaba datos sobre galería.（他小时候就收集关于画廊的资料。）
-row	sentence	vió				例句：El equipo decidió vió a pesar del poco tiempo.（尽管时间不多，团队还是决定去锯。）
-row	sentence	vió				例句：El médico le aconsejó vió todos los días.（医生建议他每天锯。）
-row	sentence	vió				例句：Sería un error vió sin planificar nada.（毫无计划就去锯是个错误。）
+row	sentence	vió				例句：El equipo vio el resultado a pesar del poco tiempo.（尽管时间紧迫，团队还是看到了结果。）
+row	sentence	vió				例句：El médico lo vio ayer por la tarde.（医生昨天下午接诊了他。）
+row	sentence	vió				例句：Nadie vio lo que ocurrió en la sala.（没有人看见大厅里发生了什么。）
 row	sentence	enseña				例句：En clase de hoy analizamos el concepto de enseña.（今天课上我们分析了旗帜这个概念。）
 row	sentence	enseña				例句：Nunca antes me había enfrentado a enseña.（我以前从未面对过旗帜。）
 row	sentence	enseña				例句：Gracias a enseña, el proyecto salió adelante.（多亏了旗帜，项目得以推进。）
