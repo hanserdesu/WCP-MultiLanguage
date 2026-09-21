@@ -142,6 +142,9 @@ Check '仓库根 release-index.json 已提交（raw 通道的数据源）' (Test
 Check '自更新核心包先校验 SHA-256 再切换' ($installerText -match 'actualCoreSha -ne \(\[string\]\$core\.sha256\)\.ToLowerInvariant\(\)')
 Check '自更新失败不阻断安装' ($installerText -match '自更新检查异常（不影响本次安装）' -and
     $installerText -match '将继续使用当前版本完成安装')
+Check '自更新切换的新窗口走启动器（版本注入）' ($installerText -match 'Get-ChildItem -LiteralPath \$newPkgDir -Recurse -Filter ''run-installer\.ps1''')
+Check '自更新切换的新窗口 -NoExit 常驻，跑完不自己关掉' ($installerText -match '''Bypass'', ''-NoExit'', ''-File'', \$newEntry\.FullName')
+Check '自更新切换保留 -Update 语义' ($installerText -match 'if \(\$Update\) \{ \$newArgs \+= ''-Update'' \}')
 Check 'run-installer 注入版本号' ((Test-Path -LiteralPath (Join-Path $here '..\run-installer.ps1')) -and
     ((Get-Content -LiteralPath (Join-Path $here '..\run-installer.ps1') -Raw -Encoding UTF8) -match '\$env:WCP_INSTALLER_VERSION = \$InstallerVersion'))
 
@@ -188,8 +191,28 @@ foreach ($rel in @('..\一键安装词书.cmd', '..\更新词书资源.cmd')) {
     $bytes = [IO.File]::ReadAllBytes((Join-Path $here $rel))
     $nonAscii = $false
     foreach ($byte in $bytes) { if ($byte -gt 127) { $nonAscii = $true; break } }
-    Check ("$rel 保持 ASCII") (-not $nonAscii)
+Check ("$rel 保持 ASCII") (-not $nonAscii)
 }
+
+# 双击入口契约（2026-09-21 闪退修复）：打包产物必须直接取仓库根入口，入口必须带
+# --keep-open 自重启并声明 WCP_KEEP_OPEN，且都经 run-installer.ps1 以获得版本注入。
+$dirSep = [IO.Path]::DirectorySeparatorChar
+$launcherText = Get-Content -LiteralPath (Join-Path $here ('..' + $dirSep + '一键安装词书.cmd')) -Raw -Encoding ASCII
+$updateText = Get-Content -LiteralPath (Join-Path $here ('..' + $dirSep + '更新词书资源.cmd')) -Raw -Encoding ASCII
+$buildText = Get-Content -LiteralPath (Join-Path $here ('..' + $dirSep + 'tools' + $dirSep + 'release' + $dirSep + 'build_installer.py')) -Raw -Encoding UTF8
+foreach ($pair in @(@('一键安装词书', $launcherText), @('更新词书资源', $updateText))) {
+    $name = $pair[0]; $text = $pair[1]
+    Check ("$name.cmd 带 --keep-open 自重启（否则双击后窗口闪退）") ($text -match 'cmd\.exe /d /k call "%~f0" --keep-open')
+    Check ("$name.cmd 声明 WCP_KEEP_OPEN 供启动器判断") ($text -match 'set "WCP_KEEP_OPEN=1"')
+    Check ("$name.cmd 经 run-installer.ps1 启动（版本注入 + 错误链）") ($text -match '-File "%HERE%run-installer\.ps1"')
+}
+Check '更新入口把 -Update 传给启动器' ($updateText -match '-File "%HERE%run-installer\.ps1" -Update')
+Check '打包集合直接收录两个双击入口（不再另生成一份）' ($buildText -match '"一键安装词书\.cmd"' -and
+    $buildText -match '"更新词书资源\.cmd"' -and
+    -not ($buildText -match 'pkg_dir / "一键安装词书\.cmd"'))
+$runnerText = Get-Content -LiteralPath (Join-Path $here ('..' + $dirSep + 'run-installer.ps1')) -Raw -Encoding UTF8
+Check '启动器转发 -Update' ($runnerText -match '\[switch\]\$Update' -and $runnerText -match 'if \(\$Update\) \{ \$installArgs \+= ''-Update'' \}')
+Check '启动器只在 keep-open 时承诺窗口保留' ($runnerText -match '\$env:WCP_KEEP_OPEN -eq ''1''')
 $installerText2 = Get-Content -LiteralPath (Join-Path $here '..\Install-WCP-Wordbooks.ps1') -Raw -Encoding UTF8
 Check '交互式选择接入安装流程' ($installerText2 -match 'Resolve-InteractivePick -Rows \$rows' -and
     $installerText2 -match 'Get-HubCatalogRows -Catalog \$catalog -InstalledState \$installed')

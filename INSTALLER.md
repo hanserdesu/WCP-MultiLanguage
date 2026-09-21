@@ -125,6 +125,13 @@ language pack is coupled to a fictitious `SelfBookList5` field.
 - `一键安装词书.cmd` 列出全部词书，输入编号（可逗号分隔或 `all`）即可选择安装。
 - `更新词书资源.cmd` 等价于 `-Update`：默认选中已安装的词书，回车就会更新。
 
+Both launchers are shipped verbatim from the repository root: the packaging
+script copies them instead of generating its own two-line replacement. Each one
+re-launches itself via `cmd.exe /d /k call "%~f0" --keep-open`, so the console
+survives the end of the run and the player can still read the status. The
+launcher exports `WCP_KEEP_OPEN=1`, and `run-installer.ps1` only promises a
+persistent window when that variable is actually set.
+
 安装前会按 `hub-state.json` 里记录的 SHA-256 逐项比对，只有内容变过的资源
 才重新下载，所以“重新运行安装器”本身就是更新。两个 `.cmd` 只负责找到
 PowerShell 并让窗口保持打开，全部中文提示都在带 BOM 的 `.ps1` 里，避免代码页

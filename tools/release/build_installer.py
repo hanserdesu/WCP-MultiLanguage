@@ -4,7 +4,10 @@
 学习 Japanese 一键包（build_installer_payload.py + normalize_installer_eol.py）的
 发布经验：
   1. 打包集合 = Install-WCP-Wordbooks.ps1 + run-installer.ps1 + WordbookHub.psm1
-     + catalog.json + 许可说明.txt + 一键启动 cmd；
+     + catalog.json + 许可说明.txt + 两个双击入口 cmd。入口 cmd 直接取自仓库根
+     同名文件（单一事实源），不再另外生成：2026-09-21 就是因为打包时另写了一份
+     没有 --keep-open 自重启的两行 cmd，玩家双击后窗口在安装结束时直接消失，
+     看不到任何状态输出；
   2. .ps1/.psm1/.cmd 统一 CRLF（PowerShell 进度块与 cmd 对 LF 敏感；.psm1
      混排 EOL 会让打包产物与仓库工作区不一致，2026-09-21 纳入归一化）；
   3. 产物 zip 的 sha256/size 写进 release-index.json（自更新索引），与安装包
@@ -30,6 +33,8 @@ FILES = [
     "WordbookHub.psm1",
     "catalog.json",
     "许可说明.txt",
+    "一键安装词书.cmd",
+    "更新词书资源.cmd",
 ]
 REPO = "hanserdesu/WCP-MultiLanguage"
 
@@ -96,10 +101,6 @@ def main() -> None:
         dst.write_bytes(src.read_bytes())
         if dst.suffix in (".ps1", ".psm1", ".cmd"):
             normalize_eol(dst)
-    (pkg_dir / "一键安装词书.cmd").write_bytes(
-        ("@echo off\r\npowershell -NoProfile -ExecutionPolicy Bypass -File \"%~dp0run-installer.ps1\"\r\n"
-         ).encode("gbk"))
-
     zip_path = out_dir / f"WCP-Wordbooks-OneClick-Installer-{args.version or 'dev'}.zip"
     import zipfile
     if zip_path.exists():

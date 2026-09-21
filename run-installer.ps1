@@ -11,13 +11,17 @@
 #       （或由 打包安装器.py 生成的一键 cmd 调起）
 
 param(
-    [string]$HostLabel = 'Windows PowerShell'
+    [string]$HostLabel = 'Windows PowerShell',
+    # 双击入口「更新词书资源.cmd」走 -Update；其余参数透传给主脚本。
+    [switch]$Update,
+    [Parameter(ValueFromRemainingArguments = $true)]
+    [string[]]$ExtraArgs = @()
 )
 
 $ErrorActionPreference = 'Stop'
 
 # 每次发布安装包时同步更新（由 打包安装器.py 维护），失败反馈里会带上这个版本号。
-$InstallerVersion = 'wcp-installer-v0.1.4'
+$InstallerVersion = 'wcp-installer-v0.1.5'
 $IssueBaseUrl = 'https://github.com/hanserdesu/WCP-MultiLanguage/issues/new'
 
 $version = $PSVersionTable.PSVersion.ToString()
@@ -27,9 +31,12 @@ $env:WCP_INSTALLER_VERSION = $InstallerVersion
 $installScript = Join-Path $PSScriptRoot 'Install-WCP-Wordbooks.ps1'
 $success = $false
 $failureDetail = ''
+$installArgs = @()
+if ($Update) { $installArgs += '-Update' }
+if ($ExtraArgs) { $installArgs += $ExtraArgs }
 
 try {
-    & $installScript
+    & $installScript @installArgs
     $success = $true
 } catch {
     Write-Host ''
@@ -100,4 +107,9 @@ if ($success) {
 } else {
     Write-Host '安装失败。' -ForegroundColor Red
 }
-Write-Host '窗口将保持打开，请点击右上角 X 关闭；按 Enter 不会关闭窗口。' -ForegroundColor Yellow
+# 只有经 --keep-open 双击入口启动时窗口才真的会留着；直接跑脚本时不能乱承诺。
+if ($env:WCP_KEEP_OPEN -eq '1') {
+    Write-Host '窗口将保持打开，请点击右上角 X 关闭；按 Enter 不会关闭窗口。' -ForegroundColor Yellow
+} else {
+    Write-Host '脚本执行结束（直接运行本脚本时窗口由你所在的终端决定是否保留）。' -ForegroundColor DarkGray
+}

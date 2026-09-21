@@ -901,12 +901,22 @@ if ($selfVersion -and -not $Offline -and -not $Plan -and -not $List) {
                     $newScript = Get-ChildItem -LiteralPath $newPkgDir -Recurse -Filter 'Install-WCP-Wordbooks.ps1' |
                         Select-Object -First 1
                     if (-not $newScript) { throw '新包缺少 Install-WCP-Wordbooks.ps1' }
+                    # 新窗口优先走启动器：它注入版本号（新版也能继续自更新），
+                    # 并用 -NoExit 常驻，避免「切换后新版窗口跑完又自己关掉」，
+                    # 让玩家能看完安装结果（2026-09-21 双击闪退反馈的同一类问题）。
+                    $newRunner = Get-ChildItem -LiteralPath $newPkgDir -Recurse -Filter 'run-installer.ps1' |
+                        Select-Object -First 1
+                    $newEntry = if ($newRunner) { $newRunner } else { $newScript }
                     Remove-Item -LiteralPath $coreTmp -Force -ErrorAction SilentlyContinue
                     Write-Host "即将切换到新版安装器 $($indexObj.installer_version) 并重新开始安装。" -ForegroundColor Green
-                    Write-Host '本窗口可以关闭；新版窗口会自动打开。' -ForegroundColor Green
+                    Write-Host '本窗口可以关闭；新版窗口会自动打开并保留在屏幕上。' -ForegroundColor Green
+                    $newArgs = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-NoExit', '-File', $newEntry.FullName)
+                    if ($Update) { $newArgs += '-Update' }
+                    # 让新窗口里的启动器如实提示窗口会保留（-NoExit 已保证这一点）。
+                    $env:WCP_KEEP_OPEN = '1'
                     Start-Process -FilePath 'powershell.exe' `
-                        -ArgumentList @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $newScript.FullName) `
-                        -WorkingDirectory (Split-Path -Parent $newScript.FullName)
+                        -ArgumentList $newArgs `
+                        -WorkingDirectory (Split-Path -Parent $newEntry.FullName)
                     exit 0
                 } catch {
                     Write-Host ('新版安装器准备失败：' + $_.Exception.Message) -ForegroundColor Yellow
