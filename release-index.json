@@ -1,11 +1,11 @@
 {
   "main_release": "hanserdesu/WCP-MultiLanguage",
-  "index_updated": "2026-09-21T11:27:13",
-  "installer_version": "wcp-installer-v0.1.5",
+  "index_updated": "2026-09-21T12:20:21",
+  "installer_version": "wcp-installer-v0.1.6",
   "core_installer": {
-    "name": "WCP-Wordbooks-OneClick-Installer-wcp-installer-v0.1.5.zip",
-    "size": 38753,
-    "sha256": "f9ed3767713cb8cb67afcde5616791892c3df28fc42af1c92e04369269923d87",
-    "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-installer-v0.1.5/WCP-Wordbooks-OneClick-Installer-wcp-installer-v0.1.5.zip"
+    "name": "WCP-Wordbooks-OneClick-Installer-wcp-installer-v0.1.6.zip",
+    "size": 38835,
+    "sha256": "0372cc7c7efce4bf124c45e6cbc72f1bbc23d72d8e814b78e15afd49555b41f4",
+    "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-installer-v0.1.6/WCP-Wordbooks-OneClick-Installer-wcp-installer-v0.1.6.zip"
   }
 }

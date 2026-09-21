@@ -80,10 +80,10 @@ v1.2.5 起安装器自带反馈通道：
 
 ## 许可
 
-本仓库采用分层许可：代码、内容与词典数据各自适用不同条款，范围说明与上游署名见 [ATTRIBUTION.md](ATTRIBUTION.md)。
+本仓库采用分层许可：代码与内容各自适用不同条款，范围说明与上游署名见 [ATTRIBUTION.md](ATTRIBUTION.md)。
 
 - 代码（宿主、插件、安装器、工具）：[PolyForm Noncommercial License 1.0.0](LICENSE)。个人学习、研究与其它非商业用途可以自由使用、修改和再分发；商业用途请联系作者另行授权。
-- 内容（选词分级、中文释义、例句、语音）：CC BY-NC-SA 4.0。使用时需署名，不得用于商业目的，改编作品以相同方式共享。
-- 词典数据（读音等由 kanjidic2 等第三方数据集派生的逐项数值，来源见 ATTRIBUTION.md）：CC BY-SA 4.0。需保留上游署名，衍生数据以相同方式共享。
+- 内容（中文释义、例句、翻译、语音与分册编排）：CC BY-NC 4.0。使用时需署名，不得用于商业目的，不得对他人施加额外限制。
+- 上游词表与读音（JLPT 取词与分级、假名读音、汉字音训读等由第三方数据集派生的部分，来源见 ATTRIBUTION.md）：继续按上游 CC BY-SA 4.0 提供，需保留署名，衍生数据以相同方式共享；整包因为包含上一条的内容，整体不可商用。
 
 本仓库已冻结，后续开发在 [hanserdesu/WCP-MultiLanguage](https://github.com/hanserdesu/WCP-MultiLanguage)，适用同一套许可。
