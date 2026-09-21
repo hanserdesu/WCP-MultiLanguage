@@ -32,12 +32,12 @@
     "pron": "ar_pron.tsv",
     "sentences": "ar_sentences.tsv",
     "payload_files": {
-      "ar_pron.tsv": "3770fe9b22dd1c14398c0c7311930693fd242851298ffea3ec121ca9066de271",
+      "ar_pron.tsv": "ed355101cc4520badc2d53d3d14048a791a058f7a95a520364a9be839eb06b21",
       "ar_sentences.tsv": "27677a73a17bf03fe4489c3009bdf6bfa7f386feee04e85dcf49555a2bd5bd98"
     }
   },
   "book_sha256": {
-    "阿拉伯语考级词库(猫条版).xlsx": "623348b356cc2fcad5cd31799bed0884b8aaee09da05fe485b365ecdcf27d20d"
+    "阿拉伯语考级词库(猫条版).xlsx": "fa5a82ba74cf46241e9ff25207b99cf94cafce393ba135b61f2a5932c504aa82"
   },
   "counts": {
     "pron": 8118,
