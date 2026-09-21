@@ -340,7 +340,7 @@ row	pron	الكثير			[al-kathīr] 许多；大量〈名〉
 row	pron	أوه			[’awh] 哦〈叹〉	
 row	pron	رائع			[rā’i‘] 精彩的；绝妙的；出色的〈形〉	
 row	pron	بهذا			[bihādhā] 就这样；关于这个；因此〈短语〉	
-row	pron	جدًّا			[jddanā] 令人惊讶地〈名〉	
+row	pron	جدًّا			[jddanā] 非常；极其〈名〉	
 row	pron	آسف			[’āsf] 抱歉的；遗憾的；惋惜的〈形〉	
 row	pron	بذلك			[bidhālika] 因此；就这样〈短语〉	
 row	pron	دون			[dūn] 没有；在…之下；除…之外〈介〉	
@@ -710,7 +710,7 @@ row	pron	بنفسي			[binafsī] 我自己；亲自〈代〉
 row	pron	إثنان			[’ithnān] 二；两个〈数〉	
 row	pron	حلّ			[ḥall] 解决；解开〈名〉	
 row	pron	الجزء			[al-juz’] 部分；份〈名〉	
-row	pron	ريد			[rīd] 里德〈名〉	
+row	pron	ريد			[rīd] 里德（姓氏）〈名〉	
 row	pron	طابق			[ṭābq] 把…放上去；使重叠〈动〉	
 row	pron	مريض			[marīḍ] 病人；患病的〈名〉	
 row	pron	عنوان			[’nwān] 标题；地址〈名〉	
@@ -815,11 +815,11 @@ row	pron	محقّق			[muḥaqqiq] 调查员；审查者〈名〉
 row	pron	الطابق			[ālṭābq] 楼层〈名〉	
 row	pron	العيش			[āl‘ysh] 生计；维持；保持〈名〉	
 row	pron	البشر			[al-bashar] 人类〈名〉	
-row	pron	أغنية			[’aghnyah] 喧闹的庆祝〈名〉	
+row	pron	أغنية			[’aghnyah] 歌曲；歌〈名〉	
 row	pron	سخيف			[sakhīf] 卑劣的；可鄙的〈名〉	
-row	pron	أعدّ			[’a‘dd] 撑牢的；拉牢的；支撑的〈名〉	
-row	pron	تود			[tūd] 托德〈名〉	
-row	pron	بالكامل			[bālkāml] 身体的；亲自〈名〉	
+row	pron	أعدّ			[’a‘dd] 准备；筹备；统计；把…算作〈名〉	
+row	pron	تود			[tūd] 托德（人名）〈名〉	
+row	pron	بالكامل			[bālkāml] 完全地；彻底地〈名〉	
 row	pron	ضحيّة			[ḍaḥīyah] 被处死的；牺牲；献出〈名〉	
 row	pron	الفرصة			[al-furṣah] 机会；意外；可能性〈名〉	
 row	pron	حيّ			[ḥayy] 使有生气；赋予生命；有生命的〈名〉	
@@ -929,7 +929,7 @@ row	pron	القتال			[ālqtāl] 战斗；斗争；打架〈名〉
 row	pron	طيّب			[ṭayyib] 善良的；好的〈形〉	
 row	pron	حبيبي			[ḥabībī] 我的爱人；亲爱的〈名〉	
 row	pron	بيلي			[bīlī] 比利〈名〉	
-row	pron	لوس			[lūs] 月球轨道航天器；视线〈名〉	
+row	pron	لوس			[lūs] 洛斯（姓氏）〈名〉	
 row	pron	الكرة			[al-kurah] 球；球状物〈名〉	
 row	pron	مثلي			[mithlī] 像我一样的〈形〉；同性恋者〈名〉	
 row	pron	سر			[sirr] 秘密；秘密的事〈名〉	
@@ -1174,7 +1174,7 @@ row	pron	احصل			[āḥṣl] 获得；取得〈动〉
 row	pron	الحدود			[al-ḥudūd] 边界；界限；范围〈名〉	
 row	pron	مالك			[mālk] 拥有者；物主；主人〈名〉	
 row	pron	النافذة			[ālnāfdhah] 窗户；窗子；窗口〈名〉	
-row	pron	كيم			[kīm] 金姆〈名〉	
+row	pron	كيم			[kīm] 金姆（人名）〈名〉	
 row	pron	الملازم			[ālmlāzm] 中尉；随从；仆人〈名〉	
 row	pron	المراقبة			[ālmrāqbah] 监视；监督；观察〈名〉	
 row	pron	الكلمة			[al-kalimah] 话；消息；词〈名〉	
@@ -1387,11 +1387,11 @@ row	pron	المسؤول			[al-mas’ūl] 官员；公务员；职员〈名〉
 row	pron	يساعد			[ysā‘d] 帮助；协助〈动〉	
 row	pron	غناء			[ghnā’] 歌唱；唱歌〈名〉	
 row	pron	لوسي			[Lūsī] 露西〈名〉	
-row	pron	كين			[kīn] 视野范围；知识范围；见地〈名〉	
+row	pron	كين			[kīn] 肯（人名，Ken 的音译）〈名〉	
 row	pron	مخرج			[makhraj] 出口；出口处；输出〈名〉	
 row	pron	التّصرّف			[at-taṣarruf] 行动；行为〈名〉	
 row	pron	الدّفع			[ad-daf‘] 付账；付出；支付分担额〈名〉	
-row	pron	جيف			[jīf] 杰夫〈名〉	
+row	pron	جيف			[jīf] 杰夫（人名）〈名〉	
 row	pron	البوابة			[ālbwābah] 大门；门口；网关〈名〉	
 row	pron	الهروب			[al-hurūb] 逃跑；逃走；潜逃〈名〉	
 row	pron	بجدّ			[bi-jidd] 勤奋地；勤勉地〈副〉	
@@ -1465,7 +1465,7 @@ row	pron	فرنسا			[frnsā] 法国〈名〉
 row	pron	غَرَفَ			[gharafa] 舀；舀取〈动〉	
 row	pron	فقدان			[fqdān] 丧失；失去；损失〈名〉	
 row	pron	السطح			[ālsṭḥ] 面；表面；水面〈名〉	
-row	pron	روبن			[rūbin] 旅鸫；刺槐毒素〈名〉	
+row	pron	روبن			[rūbin] 罗宾（人名）〈名〉	
 row	pron	رسمي			[rasmī] 官方的；正式的〈形〉	
 row	pron	بقتل			[bi-qatl] 杀死地；以杀的方式〈副〉	
 row	pron	صدّق			[ṣaddaqa] 相信；确信；证实〈动〉	
@@ -1737,14 +1737,14 @@ row	pron	قبول			[qabūl] 接受；接纳；录取〈名〉
 row	pron	صوتيّ			[ṣawtiyy] 声音的；语音的；声学的〈形〉	
 row	pron	المقبّل			[al-muqabbil] 接吻的人〈名〉	
 row	pron	دار			[dār] 宅邸；家；宅院〈名〉	
-row	pron	نيت			[nīt] 全国英语教师协会〈名〉	
+row	pron	نيت			[nīt] 内特（人名）〈名〉	
 row	pron	نهائي			[nhā’iy] 最后的；最终的；决赛的〈形〉	
 row	pron	الأبواب			[āl’abwāb] 大门；入口；通道〈名〉	
 row	pron	مخزّن			[mukhazzin] 仓库；储藏室；储存〈名〉	
 row	pron	زوي			[Zūy] 佐伊（女子名）〈名〉	
 row	pron	يعاني			[y‘āny] 受苦；遭受；患病〈动〉	
 row	pron	يتغيّر			[yataghayyaru] 改变；变化〈动〉	
-row	pron	ليسا			[lysā] 丽莎〈名〉	
+row	pron	ليسا			[lysā] 丽莎（人名）〈名〉	
 row	pron	مدخل			[madkhal] 入口；入门；条目〈名〉	
 row	pron	الغناء			[al-ghinā’] 歌唱；唱歌〈名〉	
 row	pron	الكتابة			[ālktābah] 书写；写作〈名〉	
@@ -1875,7 +1875,7 @@ row	pron	سابقا			[sābqā] 以前；先前〈副〉
 row	pron	المقعد			[ālmq‘d] 座位；座椅〈名〉	
 row	pron	لوكاس			[lūkās] 卢卡斯〈名〉	
 row	pron	النتائج			[ālntā’ij] 结果；成果〈名〉	
-row	pron	الظّروف			[al-ẓurūf] 副词〈名〉	
+row	pron	الظّروف			[al-ẓurūf] 情况；环境；境遇〈名〉	
 row	pron	سلّم			[sallama] 递送；交付；移交〈动〉	
 row	pron	التّقرير			[at-taqrīr] 报告；报道〈名〉	
 row	pron	المختبر			[al-mukhtabar] 实验室；研究室；化工厂〈名〉	
@@ -1906,7 +1906,7 @@ row	pron	الباقي			[ālbāqy] 剩余的；其余的〈形〉
 row	pron	شعري			[sha‘riyy] 毛状的；头发的〈形〉	
 row	pron	عالمي			[‘ālamī] 世界的；全球的〈形〉	
 row	pron	مدّعي			[mudda‘ī] 原告；声称者；自称的〈名〉	
-row	pron	غاري			[ghāry] 盖理〈名〉	
+row	pron	غاري			[ghāry] 加里（人名）〈名〉	
 row	pron	توبي			[tūbī] 托比（人名）〈名〉	
 row	pron	الأشجار			[al-’ashjār] 树木；乔木；树状结构〈名〉	
 row	pron	القطع			[ālqṭ‘] 切断；除去；切除〈名〉	
@@ -1941,7 +1941,7 @@ row	pron	الجبل			[al-jabal] 山；高山〈名〉
 row	pron	ملعون			[mal’ūn] 被诅咒的〈形〉	
 row	pron	قرّر			[qarrara] 决定；决心〈动〉	
 row	pron	إيميلي			[’īmīlī] 埃米莉〈名〉	
-row	pron	رون			[rūn] 研究法辛烷值〈名〉	
+row	pron	رون			[rūn] 罗恩（人名）〈名〉	
 row	pron	التّغيير			[at-taghyīr] 变更；改动〈名〉	
 row	pron	المدرّب			[al-mudarrib] 教练；教官；训练员〈名〉	
 row	pron	المادّة			[ālmāddah] 物质；材料；条款；文章〈名〉	
@@ -2074,7 +2074,7 @@ row	pron	معسكر			[mu‘askar] 营地；营房〈名〉
 row	pron	ميامي			[myāmy] 迈阿密〈名〉	
 row	pron	العربة			[āl‘rbah] 马车；四轮马车；手推车〈名〉	
 row	pron	إلكتروني			[’ilktrwny] 电子的；电子化的〈形〉	
-row	pron	دُخَّان			[dukhkhān] 自夸；蒸发〈名〉	
+row	pron	دُخَّان			[dukhkhān] 烟；烟雾〈名〉	
 row	pron	المقابلة			[ālmqāblah] 面试；会面；采访〈名〉	
 row	pron	أمّم			[’ammam] 使国际化〈动〉	
 row	pron	الطلاب			[ālṭlāb] 学生〈名〉	
@@ -2115,7 +2115,7 @@ row	pron	التّقدّم			[ālttqddm] 进步；前进；申请〈名〉
 row	pron	الوطني			[ālwṭny] 爱国的；国家的；民族的〈形〉	
 row	pron	أولي			[’awly] 最初的；首要的；第一的〈形〉	
 row	pron	التجربة			[āltjrbah] 实验；试验；经验〈名〉	
-row	pron	ستار			[stār] 斯塔尔〈名〉	
+row	pron	ستار			[stār] 斯塔尔（人名）〈名〉	
 row	pron	الإسم			[āl’ism] 名字；名称；名词〈名〉	
 row	pron	المدّعي			[ālmdd‘y] 提出要求者；原告；索赔人〈名〉	
 row	pron	القضاء			[ālqḍā’] 司法；审判；法院〈名〉	
@@ -2248,14 +2248,14 @@ row	pron	الأحلام			[āl’aḥlām] 梦想；美梦〈名〉
 row	pron	الجرح			[āljrḥ] 伤口；创伤〈名〉	
 row	pron	تينا			[tynā] 蒂娜〈名〉	
 row	pron	مزاح			[mzāḥ] 玩笑；笑话；幽默〈名〉	
-row	pron	الفائز			[ālfā’iz] 戴桂冠的；用月桂树枝编织成的；荣誉的〈名〉	
+row	pron	الفائز			[ālfā’iz] 获胜者；优胜者；得主〈名〉	
 row	pron	الوحوش			[ālwḥwsh] 怪物；小恶魔；恶棍〈名〉	
 row	pron	الضحك			[ālḍḥk] 笑；笑声〈名〉	
-row	pron	رو			[rū] 罗〈名〉	
+row	pron	رو			[rū] 罗（人名）〈名〉	
 row	pron	اعتذار			[ā‘tdhār] 道歉；谢罪〈名〉	
 row	pron	اعترف			[ā‘trf] 承认；供认〈动〉	
 row	pron	التنين			[al-tinnīn] 龙；凶暴的人；凶恶的人〈名〉	
-row	pron	مو			[mū] 有效性量度〈名〉	
+row	pron	مو			[mū] 莫（人名）〈名〉	
 row	pron	الشرير			[al-shirrīr] 恶人；坏蛋〈名〉	
 row	pron	اللورد			[al-lūrd] 勋爵；老爷；领主〈名〉	
 row	pron	أري			[’ary] 阿里（人名）〈名〉	
@@ -2301,7 +2301,7 @@ row	pron	صرّف			[ṣarrafa] 使消散；发泄〈动〉
 row	pron	أعمى			[’a‘mā] 失明的；盲人〈名〉	
 row	pron	محرج			[muḥrij] 令人尴尬的；难堪的〈形〉	
 row	pron	السّابع			[as-sābi‘] 第七〈名〉	
-row	pron	بام			[bām] 欺骗；哄骗；基本存取方法〈名〉	
+row	pron	بام			[bām] 帕姆（人名，Pam）〈名〉	
 row	pron	دقيق			[daqīq] 正确的；精确的；准确的〈形〉	
 row	pron	طرح			[ṭaraḥa] 提出；投放；方案〈动〉	
 row	pron	يفتح			[yaftaḥu] 打开；开启〈动〉	
@@ -2564,12 +2564,12 @@ row	pron	يذكّر			[yudhakkiru] 提醒〈名〉
 row	pron	المشاركة			[ālmshārkah] 共享；交流；恳谈〈名〉	
 row	pron	أقلق			[aqlaq] 扰乱；使混乱；使心绪不宁〈名〉	
 row	pron	الثّامن			[ālthāmn] 第八〈名〉	
-row	pron	ألفا			[’alfā] 阿尔瓦〈名〉	
+row	pron	ألفا			[’alfā] 阿尔法（Alfa/Alpha）〈名〉	
 row	pron	يحتوي			[yaḥtawī] 包含；容纳；包含某字符串〈名〉	
 row	pron	جيفري			[jīfrī] 杰弗里〈名〉	
 row	pron	الإنذار			[āl’indhār] 警报；警告〈名〉	
 row	pron	عداد			[‘dād] 计数器〈名〉	
-row	pron	موريس			[mūrīs] 莫里斯舞〈名〉	
+row	pron	موريس			[mūrīs] 莫里斯（人名，Maurice）〈名〉	
 row	pron	جاسوس			[jāsws] 间谍；密探〈名〉	
 row	pron	الألمان			[āl’almān] 德国人〈名〉	
 row	pron	الضّربة			[aḍ-ḍarbah] 顶撞；推；轻打〈名〉	
@@ -2620,7 +2620,7 @@ row	pron	التمثيل			[at-tamthīl] 表演；代表；表现〈名〉
 row	pron	جيرمي			[jīrmī] 杰里米〈名〉	
 row	pron	أحلم			[’aḥlm] 做梦；怀有梦想〈动〉	
 row	pron	الانتقال			[al-intiqāl] 转移；过渡；搬迁〈名〉	
-row	pron	لاي			[lāy] 利〈名〉	
+row	pron	لاي			[lāy] 莱（人名，Lai/Lie）〈名〉	
 row	pron	يهودي			[yahūdiyy] 犹太人的；犹太族的〈形〉	
 row	pron	التّهديد			[at-tahdīd] 威胁；恐吓〈名〉	
 row	pron	المصرّف			[ālmṣrrf] 出纳员；银行经理〈名〉	
@@ -2729,7 +2729,7 @@ row	pron	التلاعب			[āltlā‘b] 操作；操纵；控制〈名〉
 row	pron	روب			[rūb] 抢夺；抢掠；剥夺〈名〉	
 row	pron	التذاكر			[at-tadhākir] 票；罚单〈名〉	
 row	pron	أوضح			[’awḍḥ] 更清楚的；最清楚的；明确的〈形〉	
-row	pron	مهرِّج			[mhrrij] 米默泉〈名〉	
+row	pron	مهرِّج			[mhrrij] 滑稽演员；逗乐者；小丑〈名〉	
 row	pron	الحقوق			[ālḥqwq] 权利；权益；学费〈名〉	
 row	pron	يرجع			[yarji'u] 返回；回归；归因于〈动〉	
 row	pron	الوكالة			[ālwkālah] 代理机构；经销商；中介〈名〉	
@@ -2850,7 +2850,7 @@ row	pron	داء			[dā’] 病；疾病；弊病〈名〉
 row	pron	جذّاب			[jadhdhāb] 有魅力的；吸引人的〈形〉	
 row	pron	المعرض			[ālm‘rḍ] 展览会；博览会〈名〉	
 row	pron	الخيارات			[ālkhyārāt] 选择；期权；选择项〈名〉	
-row	pron	بولي			[būlī] 泡利〈名〉	
+row	pron	بولي			[būlī] 波莉（人名，Polly）〈名〉	
 row	pron	الاختيار			[ālākhtyār] 选择〈名〉	
 row	pron	تارا			[tārā] 塔拉（人名）〈名〉	
 row	pron	القطّ			[ālqṭṭ] 猫〈名〉	
@@ -2969,7 +2969,7 @@ row	pron	أثار			[’athār] 激起；引起；使激动〈动〉
 row	pron	الأجرة			[āl’ajrah] 工资；报酬；车费〈名〉	
 row	pron	بالقوّة			[bālqwwah] 用力地；强行地〈副〉	
 row	pron	بريطانيا			[bryṭānyā] 英国〈名〉	
-row	pron	ألي			[’aly] 伊利〈名〉	
+row	pron	ألي			[’aly] 阿里（人名，Ali）〈名〉	
 row	pron	تقليد			[taqlīd] 模仿；拟态；模拟〈名〉	
 row	pron	فيكي			[fīkī] 维姬〈名〉	
 row	pron	فاسد			[fāsd] 腐坏的；腐败的；堕落的〈形〉	
@@ -3104,7 +3104,7 @@ row	pron	مور			[mūr] 摩尔〈名〉
 row	pron	المتّهم			[al-muttaham] 被告；被指控者〈名〉	
 row	pron	الإختبار			[al-ikhtibār] 测验；考试；检验〈名〉	
 row	pron	الشخصيات			[al-shakhṣiyyāt] 人物；角色；个性〈名〉	
-row	pron	بيكي			[bīkī] 上挂钩〈名〉	
+row	pron	بيكي			[bīkī] 贝基（人名，Becky）〈名〉	
 row	pron	النفايات			[ālnfāyāt] 垃圾；废物〈名〉	
 row	pron	خمّن			[khammana] 推测；猜测；估计〈动〉	
 row	pron	الكهف			[al-kahf] 巨穴；洞窟；深处〈名〉	
@@ -3220,7 +3220,7 @@ row	pron	يقبل			[yaqbalu] 接受；同意〈动〉
 row	pron	بورك			[būrk] 伯克（人名）〈名〉	
 row	pron	بالمائة			[bālmā’iah] 百分比；百分数〈名〉	
 row	pron	نولان			[nūlān] 诺兰〈名〉	
-row	pron	خلّل			[khallala] 解剖；剖析；分析〈动〉	
+row	pron	خلّل			[khallala] 剖析；分析；解剖〈动〉	
 row	pron	مباني			[mabānī] 建筑物；楼房〈名〉	
 row	pron	الأغبياء			[āl’aghbyā’] 傻子；愚人们〈名〉	
 row	pron	القطاع			[ālqṭā‘] 部门；领域；切开〈名〉	
@@ -3286,7 +3286,7 @@ row	pron	فْيَنّي			[fyanny] 维也纳的；维也纳人的；维也纳式
 row	pron	الخمس			[ālkhms] 第五；五分之一〈名〉	
 row	pron	ألبرت			[albart] 艾伯特〈名〉	
 row	pron	الصحيفة			[ālṣḥyfah] 报纸〈名〉	
-row	pron	تشو			[tshū] 周；甘蓝；心爱的人〈名〉	
+row	pron	تشو			[tshū] 周（人名，Chew/Chu）〈名〉	
 row	pron	التعاون			[ālt‘āwn] 合作；协力；配合〈名〉	
 row	pron	الأكاذيب			[al-’akādhīb] 谎话；谎言〈名〉	
 row	pron	الغلاف			[ālghlāf] 封面；包皮；外皮〈名〉	
@@ -3367,7 +3367,7 @@ row	pron	سلبي			[salbī] 消极的；否定的；被动的〈形〉
 row	pron	ثلاثي			[thlāthy] 三重的；三倍的；三个一组的〈形〉	
 row	pron	ستانلي			[stānly] 斯坦利〈名〉	
 row	pron	كوبا			[kwbā] 古巴〈名〉	
-row	pron	كونج			[kūnj] 含锡砾石下的无矿基岩；钢〈名〉	
+row	pron	كونج			[kūnj] 含锡砾石下的无矿基岩（采矿术语，kong）〈名〉	
 row	pron	الجروح			[al-jurūḥ] 伤口；创伤〈名〉	
 row	pron	النباتات			[ālnbātāt] 植物；植物界〈名〉	
 row	pron	الطراز			[ālṭrāz] 式样；款式；风格〈名〉	
@@ -3435,7 +3435,7 @@ row	pron	الطّيّار			[ālṭṭyyār] 飞行员；驾驶员〈名〉
 row	pron	المخدّر			[al-mukhaddir] 麻醉剂；麻药；麻醉的〈名〉	
 row	pron	بائس			[bā’is] 悲惨的；凄凉的〈形〉	
 row	pron	يمنع			[yamna‘u] 禁止；阻止〈动〉	
-row	pron	بيد			[bayd] 斑驳的；杂色的；穿花衣服的〈形〉	
+row	pron	بيد			[bayd] 花斑的；斑驳的；杂色的〈形〉	
 row	pron	مولّد			[muwallid] 发电机；发生器；出生的〈名〉	
 row	pron	مطاعم			[maṭā‘im] 餐馆；餐厅〈名〉	
 row	pron	فيجاس			[fyjās] 维加斯〈名〉	
@@ -3568,7 +3568,7 @@ row	pron	مصمّم			[muṣammim] 坚决的；已下决心的〈形〉
 row	pron	تيريزا			[tyryzā] 特里萨〈名〉	
 row	pron	يتنفّس			[yatanaffasu] 呼吸；透气〈动〉	
 row	pron	البلدية			[ālbldyah] 市政当局；市政府〈名〉	
-row	pron	جوس			[Jūs] 格斯〈名〉	
+row	pron	جوس			[Jūs] 神像；（中国的）菩萨像；香（joss stick）；运气〈名〉	
 row	pron	القاتلة			[ālqātlah] 女杀手〈名〉	
 row	pron	الأجهزة			[āl’ajhzah] 设备；装置；仪器〈名〉	
 row	pron	المشروب			[al-mashrūb] 饮料〈名〉	
@@ -3633,7 +3633,7 @@ row	pron	الأصابع			[al-’aṣābi‘] 手指头；指头〈名〉
 row	pron	الملاحظات			[ālmlāḥẓāt] 笔记；观察记录；备注〈名〉	
 row	pron	نيس			[nīs] 尼斯（法国城市）；四月〈名〉	
 row	pron	الخجل			[al-khajal] 羞愧；害臊〈名〉	
-row	pron	ليستر			[līstir] 莱斯特；喻指显赫的人〈名〉	
+row	pron	ليستر			[līstir] 莱斯特（英国城市）；莱斯特郡〈名〉	
 row	pron	كارمن			[kārman] 卡门〈名〉	
 row	pron	الذّراع			[āldhdhrā‘] 手臂；袖子；狭长港湾〈名〉	
 row	pron	بدين			[badīn] 大肚子的；肥胖的；腹大的〈形〉	
@@ -3857,7 +3857,7 @@ row	pron	العواقب			[āl‘wāqb] 后果；结果〈名〉
 row	pron	كولومبيا			[kwlwmbyā] 哥伦比亚〈名〉	
 row	pron	المبيعات			[ālmby‘āt] 销售；销售额〈名〉	
 row	pron	الفاكهة			[al-fākihah] 水果；果类；结果〈名〉	
-row	pron	فرس			[faras] 母马；母驴〈名〉	
+row	pron	فرس			[faras] 母马；马；坐骑〈名〉	
 row	pron	فرّ			[farra] 逃匿；潜逃；逃跑〈动〉	
 row	pron	الخدم			[al-khidam] 服务人员；侍者；随从〈名〉	
 row	pron	الفواتير			[ālfwātyr] 账单；议案〈名〉	
@@ -3875,7 +3875,7 @@ row	pron	مَهْبِل			[mahbil] 鞘；阴道〈名〉
 row	pron	الاقتراب			[ālāqtrāb] 接近；临近〈名〉	
 row	pron	إيجابي			[’iyjāby] 积极的；肯定的〈形〉	
 row	pron	اللّصّ			[alliṣṣ] 窃贼；夜盗；盗窃者〈名〉	
-row	pron	رينيه			[rīnīh] 雷内；刘若英〈名〉	
+row	pron	رينيه			[rīnīh] 雷内（男子名）；蕾妮（女子名）〈名〉	
 row	pron	الفتي			[al-fatī] 少年；青年〈名〉	
 row	pron	الأزهار			[āl’azhār] 花；开花〈名〉	
 row	pron	بيرسي			[bīrsī] 珀西〈名〉	
@@ -4107,7 +4107,7 @@ row	pron	الإعتماد			[āl’i‘tmād] 依赖；依存；信赖〈名〉
 row	pron	الحركات			[al-ḥarakāt] 动作；运动；移动〈名〉	
 row	pron	الأخوّة			[āl’akhwwah] 弟兄之爱；兄弟的情谊；友爱〈名〉	
 row	pron	مراسل			[mrāsl] 记者；通讯员〈名〉	
-row	pron	شارون			[shārūn] 在河上渡亡往冥府去的神；摆渡的〈名〉	
+row	pron	شارون			[shārūn] 卡戎（希腊神话中冥河摆渡神）；沙伦（人名）〈名〉	
 row	pron	النّمو			[an-numūw] 增长；成长；生长〈名〉	
 row	pron	النّبض			[an-nabḍ] 心跳；中心〈名〉	
 row	pron	السيناريو			[as-sīnāriyū] 剧本提纲；情节；剧本〈名〉	
@@ -4293,7 +4293,7 @@ row	pron	الحماس			[ālḥmās] 热忱；热情；情欲〈名〉
 row	pron	الليّ			[āllyy] 扭弯；扭歪；曲解〈名〉	
 row	pron	النداء			[ālndā’] 呼叫；呼唤；号召〈名〉	
 row	pron	التّحليل			[ālttḥlyl] 分析；分解〈名〉	
-row	pron	بيرد			[bīrd] 伯德〈名〉	
+row	pron	بيرد			[bīrd] 伯德（人名/姓氏，如 Bird）〈名〉	
 row	pron	هيرمان			[hyrmān] 赫尔曼〈名〉	
 row	pron	الرقبة			[ālrqbah] 脖子；衣领；颈〈名〉	
 row	pron	القطيع			[ālqṭy‘] 畜群；兽群〈名〉	
@@ -4372,7 +4372,7 @@ row	pron	التفجير			[āltfjyr] 爆炸；引爆〈名〉
 row	pron	النصائح			[ālnṣā’iḥ] 忠告；劝告〈名〉	
 row	pron	التّفاهات			[at-tafāhāt] 琐事；无聊的废话〈名〉	
 row	pron	التمارين			[āltmāryn] 练习题；演习；运动〈名〉	
-row	pron	بيرل			[bīrl] 实际抽取与汇报语言〈名〉	
+row	pron	بيرل			[bīrl] Perl（一种编程语言）〈名〉	
 row	pron	البرازيل			[ālbrāzyl] 巴西〈名〉	
 row	pron	العملاقة			[āl‘mlāqah] 女巨人〈名〉	
 row	pron	حكومي			[ḥukūmī] 政府的；官方的〈形〉	
@@ -4427,7 +4427,7 @@ row	pron	مستخدم			[mustakhdim] 雇员；使用者〈名〉
 row	pron	الشّعبة			[ālshu‘bah] 部门；分支；班级〈名〉	
 row	pron	البريطانيّ			[ālbryṭānyy] 大不列颠人；英国人〈名〉	
 row	pron	الكونجرس			[ālkūnjirās] 国会；代表大会〈名〉	
-row	pron	لاند			[lānd] 隆德；伦德〈名〉	
+row	pron	لاند			[lānd] 隆德（瑞典城市）；伦德（姓氏）〈名〉	
 row	pron	الطقوس			[al-ṭuqūs] 仪式；例行公事；老规矩〈名〉	
 row	pron	يرتفع			[yartafi‘] 升起；上升；上涨〈动〉	
 row	pron	العريس			[āl‘rys] 新郎〈名〉	
@@ -4756,7 +4756,7 @@ row	pron	زينة			[zynah] 装饰；打扮〈名〉
 row	pron	يركّب			[yurakkibu] 安装；装配；使乘坐〈动〉	
 row	pron	الحساسية			[ālḥsāsyah] 敏感；过敏；敏感性〈名〉	
 row	pron	السّطو			[as-suṭū] 抢劫；行劫〈名〉	
-row	pron	دود			[Dūd] 多德〈名〉	
+row	pron	دود			[Dūd] 多德（姓氏）；虫；蠹虫〈名〉	
 row	pron	المركّبات			[ālmrkkbāt] 化合物；复合物；车辆〈名〉	
 row	pron	مرافق			[mrāfq] 同伴；随从；设施〈名〉	
 row	pron	مرتّب			[murattab] 整齐的；有条理的〈形〉	
@@ -4782,7 +4782,7 @@ row	pron	ناش			[nāsh] 纳什〈名〉
 row	pron	الهزيمة			[ālhzymah] 失败；败局；溃败〈名〉	
 row	pron	عائق			[‘ā’iq] 障碍；妨碍〈名〉	
 row	pron	بيتسي			[bītsī] 贝琪〈名〉	
-row	pron	أدم			[’adām] 使永存；使不朽〈动〉	
+row	pron	أدم			[’adām] 使长久；使持续；使永存〈动〉	
 row	pron	عمليا			[‘mlyā] 实际上；事实上〈副〉	
 row	pron	محّار			[mḥḥār] 牡蛎；蚝〈名〉	
 row	pron	المراهقة			[ālmrāhqah] 青春期；青年期〈名〉	
@@ -4886,7 +4886,7 @@ row	pron	القدرات			[ālqdrāt] 能力；才能〈名〉
 row	pron	التبرّع			[āltbrr‘] 捐赠物；捐款；捐赠〈名〉	
 row	pron	مهذّب			[muhadhdhab] 彬彬有礼的；谦恭的〈形〉	
 row	pron	متخلّف			[mutakhallif] 落后者；落后的人〈名〉	
-row	pron	مير			[mīr] 迈耶〈名〉	
+row	pron	مير			[mīr] 埃米尔；首领；王子〈名〉	
 row	pron	الجزم			[aj-jazm] 郑重声明；断言〈名〉	
 row	pron	جزم			[jazm] 郑重声明；断言〈名〉	
 row	pron	المشهور			[al-mashhūr] 著名的；著名人物〈形〉	
@@ -5030,7 +5030,7 @@ row	pron	السلمون			[ālslmwn] 鲑鱼；大马哈鱼〈名〉
 row	pron	الحلفاء			[ālḥlfā’] 协约国；同盟国〈名〉	
 row	pron	الحانات			[ālḥānāt] 酒馆；酒吧〈名〉	
 row	pron	أحل			[’aḥl] 使合法；解决；解除〈动〉	
-row	pron	المسح			[ālmsḥ] 涂油礼〈名〉	
+row	pron	المسح			[ālmsḥ] 擦拭；扫描；测量；涂油礼〈名〉	
 row	pron	الشوكولاتة			[ash-shūkūlātah] 巧克力糖〈名〉	
 row	pron	العينة			[āl‘ynah] 样本；样品；标本〈名〉	
 row	pron	الأجانب			[āl’ajānb] 外国人；外侨；局外人〈名〉	
@@ -5255,8 +5255,8 @@ row	pron	تذمّر			[tadhammara] 抱怨；发牢骚〈动〉
 row	pron	مناظر			[mnāẓr] 景色；风景；景象〈名〉	
 row	pron	إستعدّ			[’ist‘dd] 准备；筹备；使在思想上有准备〈动〉	
 row	pron	إطلاقاً			[’iṭlāqāan] 完全地；绝对地；确确实实地〈副〉	
-row	pron	تشاو			[tashāw] 钞〈名〉	
-row	pron	هالي			[hāly] 哈雷〈名〉	
+row	pron	تشاو			[tashāw] 钞（中国古代纸币）〈名〉	
+row	pron	هالي			[hāly] 哈利（人名）；哈勒（德国城市名）〈名〉	
 row	pron	جيرارد			[jīrārd] 杰勒德〈名〉	
 row	pron	حرفي			[ḥarfī] 逐字的；字面上的；文字的〈形〉	
 row	pron	كذّاب			[kadhdhāb] 说谎的人；撒谎者〈名〉	
@@ -5500,7 +5500,7 @@ row	pron	طر			[ṭāra] 乘飞机；飞行〈动〉
 row	pron	ديرك			[dīrk] 短剑；匕首〈名〉	
 row	pron	التشخيص			[āltshkhyṣ] 诊断〈名〉	
 row	pron	ثبّت			[thabbata] 使固定；使稳固；注视〈动〉	
-row	pron	ميسي			[mīsī] 少女；姑娘；小姐〈名〉	
+row	pron	ميسي			[mīsī] 梅西（阿根廷著名足球运动员利昂内尔·梅西）〈名〉	
 row	pron	المخلّص			[al-mukhalliṣ] 救星；救世主；真诚的〈名〉	
 row	pron	عربيّ			[‘arabiyy] 阿拉伯的；阿拉伯人的〈形〉	
 row	pron	العمالقة			[al-‘amāliqah] 巨人；大国；巨头〈名〉	
@@ -5531,7 +5531,7 @@ row	pron	المعلّمة			[al-mu‘allimah] 女教师〈名〉
 row	pron	القريبة			[al-qarībah] 女亲戚〈名〉	
 row	pron	مرتزقة			[murtaziqah] 雇佣兵；唯利是图的人〈名〉	
 row	pron	الأمسية			[āl’amsyah] 晚会；社交聚会〈名〉	
-row	pron	تيلر			[tīlar] 泰勒；秘密会所看守人〈名〉	
+row	pron	تيلر			[tīlar] （银行）出纳员，柜员；计票员〈名〉	
 row	pron	وليامز			[wilyāmz] 威廉姆斯〈名〉	
 row	pron	أثينا			[’athynā] 雅典（希腊首都）〈名〉	
 row	pron	الجفاف			[āljfāf] 干旱；不毛；乏味〈名〉	
@@ -5738,7 +5738,7 @@ row	pron	يعالج			[yu‘ālij] 用药医治；治疗；处理〈动〉
 row	pron	داروين			[dārwyn] 达尔文〈名〉	
 row	pron	المتاجر			[al-matājir] 商店〈名〉	
 row	pron	مستعجل			[musta'jil] 匆忙的；急躁的；轻率的〈形〉	
-row	pron	لايل			[lāyl] 莱尔〈名〉	
+row	pron	لايل			[lāyl] 夜晚；夜间〈名〉	
 row	pron	يشارك			[yshārk] 参加；参与；分享〈动〉	
 row	pron	التدليك			[at-tadlīk] 按摩〈名〉	
 row	pron	أغلى			[’aghlā] 最昂贵的；代价最高的〈形〉	
@@ -5765,7 +5765,7 @@ row	pron	المشاة			[almashāh] 步兵；步兵团〈名〉
 row	pron	الجذور			[al-judhūr] 根；根源；祖籍〈名〉	
 row	pron	موّل			[mawwala] 提供资金；资助〈动〉	
 row	pron	الشّمع			[ash-sham‘] 蜡；蜡烛〈名〉	
-row	pron	إشرب			[’ishrb] 喧闹的酒会或宴会；痛饮；畅饮〈名〉	
+row	pron	إشرب			[’ishrb] 喝；饮；请喝（动词 شرب 的命令式）〈名〉	
 row	pron	المنتجع			[al-muntaja‘] 度假村；疗养地〈名〉	
 row	pron	ويليس			[wīlīs] 威利斯〈名〉	
 row	pron	ينطلق			[yanṭaliqu] 出发；动身；开始〈动〉	
@@ -5900,7 +5900,7 @@ row	pron	الممارسة			[ālmmārsah] 实践；练习；实行〈名〉
 row	pron	يزن			[yazinu] 称…的重量；重达；权衡〈动〉	
 row	pron	علاء			[‘alā’] 崇高；恩惠；福祉〈名〉	
 row	pron	تشيس			[tashīs] 轻便马车〈名〉	
-row	pron	هوفر			[hūfar] 职业舞蹈家〈名〉	
+row	pron	هوفر			[hūfar] 胡佛（姓氏，如美国前总统赫伯特·胡佛）；胡佛牌吸尘器〈名〉	
 row	pron	الرخصة			[ālrkhṣah] 执照；许可证；特许〈名〉	
 row	pron	الأفاعي			[āl’afā‘y] 蛇；毒蛇；蝰蛇〈名〉	
 row	pron	العادات			[āl‘ādāt] 习惯；风俗〈名〉	
@@ -5994,7 +5994,7 @@ row	pron	إرث			[’irth] 遗产；传统〈名〉
 row	pron	التوضيح			[āltwḍyḥ] 澄清；说明；阐明〈名〉	
 row	pron	الراهبات			[ālrāhbāt] 修女；尼姑〈名〉	
 row	pron	الاكتئاب			[ālākt’iāb] 抑郁；沮丧〈名〉	
-row	pron	هويت			[hūyit] 霍伊特〈名〉	
+row	pron	هويت			[hūyit] 身份；特性；同一性〈名〉	
 row	pron	كريشنا			[krīshnā] 克利须那神〈名〉	
 row	pron	التايمز			[at-tāymz] 泰晤士河〈名〉	
 row	pron	دبّي			[dubbī] 熊的；像熊的〈形〉	
@@ -6010,7 +6010,7 @@ row	pron	ترشّح			[tarashshuḥ] 竞选；候选〈名〉
 row	pron	بولو			[būlū] 马球〈名〉	
 row	pron	مبدع			[mubdi‘] 有创造力的；创新的〈形〉	
 row	pron	الليموزين			[al-līmūzīn] 轿车〈名〉	
-row	pron	ليب			[līb] 解放〈名〉	
+row	pron	ليب			[līb] 利比亚（Libya的缩略形式）〈名〉	
 row	pron	الندبة			[an-nadbah] 疤痕；哀悼〈名〉	
 row	pron	الادّعاء			[ālādd‘ā’] 断言；主张；申辩〈名〉	
 row	pron	مشوّق			[mushawwaq] 吸引人的；引人入胜的〈形〉	
@@ -6071,7 +6071,7 @@ row	pron	الخوذة			[ālkhwdhah] 钢盔；盔；防护帽〈名〉
 row	pron	معجون			[ma‘jūn] 糊剂；膏；面团〈名〉	
 row	pron	الوعود			[ālw‘wd] 允诺〈名〉	
 row	pron	المخادع			[ālmkhād‘] 欺骗者；枕头（مخدة 的复数）〈名〉	
-row	pron	درايك			[drāyk] 公鸭；蜉蝣类〈名〉	
+row	pron	درايك			[drāyk] 公鸭；蜉蝣〈名〉	
 row	pron	الوسيط			[ālwsyṭ] 中间人；调解人；媒介〈名〉	
 row	pron	الروتين			[ālrwtyn] 常规；例行公事；老一套〈名〉	
 row	pron	المجموعات			[ālmjmw‘āt] 群组；集合；成套物品〈名〉	
@@ -6100,7 +6100,7 @@ row	pron	الصناعة			[ālṣnā‘ah] 工艺；手工艺〈名〉
 row	pron	يخضع			[yakhḍa‘] 服从；屈服〈名〉	
 row	pron	هبط			[habaṭa] 下降；降落〈名〉	
 row	pron	المهملات			[al-muhmallāt] 废纸；废纸般的东西〈名〉	
-row	pron	فاسق			[fāsq] 通奸的〈名〉	
+row	pron	فاسق			[fāsq] 通奸者；私通者；放荡的人〈名〉	
 row	pron	النّشر			[an-nashr] 传播〈名〉	
 row	pron	مختص			[mukhtaṣṣ] 专门的；专家〈名〉	
 row	pron	السويد			[ālswyd] 瑞典〈名〉	
@@ -6114,7 +6114,7 @@ row	pron	البطّة			[ālbṭṭah] 鸭子；没入水中；闪避〈名〉
 row	pron	يحيط			[yaḥīṭ] 围绕；包围；包含〈名〉	
 row	pron	ليفي			[līfī] 纤维的；纤维性的；纤维性〈名〉	
 row	pron	الجامعات			[āljām‘āt] 大学〈名〉	
-row	pron	افحص			[ifḥaṣ] 听诊〈名〉	
+row	pron	افحص			[ifḥaṣ] 检查；检验；诊察〈名〉	
 row	pron	تواجدي			[twājdy] 我的在场；我的存在〈名〉	
 row	pron	تغوّط			[taghawwuṭ] 排泄；分泌〈名〉	
 row	pron	ينشر			[yanshur] 分发传单；通知；分发民意测验单〈名〉	
@@ -6359,7 +6359,7 @@ row	pron	نيلي			[nīlī] 靛蓝；靛蓝色的〈名〉
 row	pron	المرفأ			[al-marfa’] 港口；海港；码头〈名〉	
 row	pron	دائريّ			[dā’iryy] 圆形的；环形的〈形〉	
 row	pron	النزاع			[ālnzā‘] 争端；冲突；纠纷〈名〉	
-row	pron	الجمل			[āljml] 骆驼；打捞浮筒〈名〉	
+row	pron	الجمل			[āljml] 骆驼；句子（جملة 的复数）〈名〉	
 row	pron	دورين			[Dūrīn] 多琳〈名〉	
 row	pron	ديفي			[dīfī] 迪菲；戴菲〈名〉	
 row	pron	مخطأ			[mkhṭ’a] 错误；过失；犯错的人〈名〉	
@@ -6390,7 +6390,7 @@ row	pron	مرْسوم			[marsūm] 敕令；圣旨；谕旨〈名〉
 row	pron	أقرّ			[’aqrr] 承认；认可〈动〉	
 row	pron	الذروة			[adh-dhurwah] 顶点；高潮；最高点〈名〉	
 row	pron	راشي			[rāshy] 头等的；容易倾斜的；多绒尖的〈形〉	
-row	pron	أديل			[’adyl] 阿黛尔〈名〉	
+row	pron	أديل			[’adyl] 阿黛尔（人名）〈名〉	
 row	pron	الشّقّ			[ash-shaqq] 裂缝；裂口；分裂〈名〉	
 row	pron	الفاصل			[ālfāṣl] 分隔物；间隔号；决定性的〈名〉	
 row	pron	أسطوري			[’asṭwry] 传说的；传奇中说的；传奇般的〈形〉	
@@ -6458,11 +6458,11 @@ row	pron	الألواح			[āl’alwāḥ] 板；板材；牌匾〈名〉
 row	pron	القصف			[ālqṣf] 轰炸；投弹；轰击〈名〉	
 row	pron	أجبر			[’ajbr] 强制；强迫〈动〉	
 row	pron	المذكرات			[al-mudhakkirāt] 备忘录；内部通知〈名〉	
-row	pron	سالم			[sālm] 塞伦（地名）〈名〉	
+row	pron	سالم			[sālm] 萨利姆（人名）；塞勒姆（地名）〈名〉	
 row	pron	الإرهابي			[āl’irhāby] 恐怖分子；恐怖的〈名〉	
 row	pron	الشّفرات			[al-shafarāt] 刀刃；扁叉；刀片〈名〉	
 row	pron	الزلزال			[ālzlzāl] 地震〈名〉	
-row	pron	فورست			[Fūrist] 佛利斯特〈名〉	
+row	pron	فورست			[Fūrist] 福雷斯特（人名）；福里斯特〈名〉	
 row	pron	الأعداد			[āl’a‘dād] 数；数字〈名〉	
 row	pron	يعتذر			[ya‘tadhiru] 道歉；辩白〈动〉	
 row	pron	الغول			[ālghwl] 妖怪；可怕的人〈名〉	
@@ -6492,7 +6492,7 @@ row	pron	المؤسسات			[ālm’ussāt] 企业；建立；当权派〈名〉
 row	pron	مزاجي			[mzājy] 心情不稳的；郁郁寡欢的；喜怒无常的〈形〉	
 row	pron	مارين			[māryn] 马林〈名〉	
 row	pron	اللقطة			[āllqṭah] 快照；抽点打印；瞬象〈名〉	
-row	pron	لام			[lām] 拉姆（阿拉伯语字母 ل）〈名〉	
+row	pron	لام			[lām] 拉姆（阿拉伯语字母 ل 的名称）〈名〉	
 row	pron	الشيوعية			[ālshyw‘yah] 共产主义〈名〉	
 row	pron	جريفين			[jrīfīn] 格里芬（人名）〈名〉	
 row	pron	بؤس			[b’us] 痛苦；悲惨；可怜〈名〉	
@@ -6666,7 +6666,7 @@ row	pron	تيل			[tīl] 亚麻；亚麻籽〈名〉
 row	pron	انقطع			[ānqṭ‘] 被切断；中断；断绝〈动〉	
 row	pron	ديلا			[dylā] 黛拉〈名〉	
 row	pron	هزّ			[hazza] 摇动；摇晃〈动〉	
-row	pron	وانج			[wānj] 王；王安电脑公司〈名〉	
+row	pron	وانج			[wānj] 王（姓氏）；王安（人名）〈名〉	
 row	pron	الإنعاش			[āl’in‘āsh] 复苏；使恢复活力；提神〈名〉	
 row	pron	الطائفة			[ālṭā’ifah] 教派；宗派；派别〈名〉	
 row	pron	الصراصير			[ālṣrāṣyr] 蟑螂〈名〉	
@@ -6753,7 +6753,7 @@ row	pron	القروض			[al-qurūḍ] 借贷；贷款〈名〉
 row	pron	ترافس			[trāfs] 崔维斯合唱团；特拉维斯〈名〉	
 row	pron	المظلّة			[ālmẓllah] 遮篷；雨篷〈名〉	
 row	pron	الطّموح			[ālṭṭmwḥ] 野心；志向〈名〉	
-row	pron	أردن			[’ardn] 昔时阿尔丁的森林地带；浪漫的地方〈名〉	
+row	pron	أردن			[’ardn] 阿登（人名）；阿登（森林地区，即阿登高地）〈名〉	
 row	pron	الكسر			[ālksr] 打破；断裂；骨折〈名〉	
 row	pron	الشّرائط			[ālshrā’iṭ] 磁带；带子；条带〈名〉	
 row	pron	الحقد			[ālḥqd] 仇恨；怨恨〈名〉	
@@ -7099,12 +7099,12 @@ row	pron	الصّياح			[ālṣṣyāḥ] 大叫；放声痛哭；大声叫出
 row	pron	كوليت			[kūlīt] 科莱特〈名〉	
 row	pron	متطور			[mutaṭawwir] 发达的；成熟的〈名〉	
 row	pron	الفساتين			[al-fasātīn] 连衣裙〈名〉	
-row	pron	بطعم			[bi ṭa‘m] =〈名〉	
+row	pron	بطعم			[bi ṭa‘m] 带有……味道的〈名〉	
 row	pron	المواطنون			[al-muwāṭinūn] 市民；自由民；自治市公民〈名〉	
 row	pron	البطّانيّة			[ālbṭṭānyyah] 毛毯；毯子；掩盖〈名〉	
 row	pron	الأزمات			[āl’azmāt] 危机；骤变；转折点〈名〉	
 row	pron	الوصاية			[ālwṣāyah] 监护；保护；守护〈名〉	
-row	pron	الصّخر			[ālṣṣkhr] 正长岩〈名〉	
+row	pron	الصّخر			[ālṣṣkhr] 岩石；磐石〈名〉	
 row	pron	عظميّة			[‘ẓmyyah] 骨质；骨骼〈名〉	
 row	pron	التّقويم			[ālttqwym] 年历；历书；年鉴〈名〉	
 row	pron	بلجيكا			[bljykā] 比利时〈名〉	
@@ -7286,7 +7286,7 @@ row	pron	التوظيف			[āltwẓyf] 雇用；职业；工作〈名〉
 row	pron	الاستجابة			[ālāstjābah] 响应；反应；回答〈名〉	
 row	pron	الشّروق			[ash-shurūq] 日出〈名〉	
 row	pron	المحامون			[al-muḥāmūn] 代理人；律师〈名〉	
-row	pron	بروستر			[brūstar] 酒酿造者〈名〉	
+row	pron	بروستر			[brūstar] 布鲁斯特（人名）〈名〉	
 row	pron	متسكّع			[mutasakki‘] 游手好闲的人；闲逛者〈名〉	
 row	pron	مخترق			[mukhtariq] 入侵者；黑客；渗透者〈名〉	
 row	pron	بتنظيم			[bi-tanẓīm] 有组织地；有条理地〈副〉	
@@ -7313,7 +7313,7 @@ row	pron	هوي			[hawā] 爱慕；欲望；私欲〈名〉
 row	pron	الخراف			[ālkhrāf] 绵羊〈名〉	
 row	pron	قاوم			[qāwm] 抵抗；抵制；耐得住〈动〉	
 row	pron	الطوابع			[ālṭwāb‘] 邮票；印记；图章〈名〉	
-row	pron	سينا			[synā] 锡耶纳〈名〉	
+row	pron	سينا			[synā] 西奈（半岛）；锡纳（人名）〈名〉	
 row	pron	الدّولاب			[ālddwlāb] 大型衣橱〈名〉	
 row	pron	التّنازل			[ālttnāzl] 让步；放弃；舍弃〈名〉	
 row	pron	المعاطف			[ālm‘āṭf] 大衣；外套〈名〉	
@@ -7373,7 +7373,7 @@ row	pron	خار			[khār] 荆棘；刺〈名〉
 row	pron	المؤلّف			[al-mu’allaf] 作者；著作；创始人〈名〉	
 row	pron	مجعّد			[muja‘‘ad] 拳曲的；卷曲的；起皱的〈形〉	
 row	pron	الثقافات			[ālthqāfāt] 文明；文化〈名〉	
-row	pron	الغربان			[ālghrbān] 乌鸦；雄鸡的啼声；公鸡啼鸣〈名〉	
+row	pron	الغربان			[ālghrbān] 乌鸦（复数）〈名〉	
 row	pron	يتوافق			[ytwāfq] 相一致；相符合；和谐相处〈动〉	
 row	pron	المفهوم			[al-mafhūm] 概念；观念；含义〈名〉	
 row	pron	يقارن			[yqārn] 比较；对照；把…比做〈动〉	
@@ -7417,7 +7417,7 @@ row	pron	أدولف			[’adwlf] 阿道夫〈名〉
 row	pron	التكييف			[āltkyyf] 适应；调节；空调〈名〉	
 row	pron	ملزم			[mulzim] 有责任的；必须履行的〈形〉	
 row	pron	تركيزي			[tarkīzī] 集中性的；使专心的〈形〉	
-row	pron	إرني			[’irnī] 摇奖机〈名〉	
+row	pron	إرني			[’irnī] 厄尔尼（人名）〈名〉	
 row	pron	المنوال			[al-manwāl] 织布机；方式；样式〈名〉	
 row	pron	البوتاسيوم			[al-būtāsyūm] 钾〈名〉	
 row	pron	الأتراك			[āl’atrāk] 土耳其人；突厥人〈名〉	
@@ -7434,9 +7434,9 @@ row	pron	بيرتي			[bīrtī] 伯蒂〈名〉
 row	pron	كولير			[kūlīr] 煤矿工人；运煤船；运煤船员〈名〉	
 row	pron	مضبوط			[maḍbūṭ] 精确的；准确的〈形〉	
 row	pron	المأكولات			[al-ma’kūlāt] 食品；食物〈名〉	
-row	pron	هيس			[hīs] 海塞〈名〉	
+row	pron	هيس			[hīs] 海斯（人名）；黑塞（人名）〈名〉	
 row	pron	الأهل			[al-’ahl] 家属；亲属〈名〉	
-row	pron	بلوك			[Blūk] 布洛赫〈名〉	
+row	pron	بلوك			[Blūk] 布洛克（人名）；布洛赫（人名）〈名〉	
 row	pron	الفقاعات			[al-faqā’āt] 气泡；水泡〈名〉	
 row	pron	شرس			[sharis] 凶猛的；残忍的〈形〉	
 row	pron	الإتّجاهات			[āl’ittjāhāt] 指示；方向；用法说明书〈名〉	
@@ -7606,7 +7606,7 @@ row	pron	العباقرة			[al-‘abāqirah] 天才；创造能力；才华〈�
 row	pron	المحرقة			[ālmḥrqah] 大屠杀；大火灾；毁灭〈名〉	
 row	pron	ميلير			[mīlīr] 一英里跑运动员〈名〉	
 row	pron	الظاهرة			[ālẓāhrah] 现象；迹象；表现〈名〉	
-row	pron	بلين			[blīn] 布林材质；模拟金属〈名〉	
+row	pron	بلين			[blīn] 俄式薄煎饼；薄烤饼〈名〉	
 row	pron	الساعي			[ālsā‘y] 送快信的人；伴游服务员；信使〈名〉	
 row	pron	بالملابس			[bālmlābs] 穿着衣服；用衣服〈名〉	
 row	pron	الكآبة			[ālk’ābah] 忧郁；消沉〈名〉	
@@ -7945,7 +7945,7 @@ row	pron	يضعف			[yaḍ‘ufu] 变弱；减弱〈动〉
 row	pron	المصائب			[ālmṣā’ib] 灾难；不幸；灾祸〈名〉	
 row	pron	الإهمال			[āl’ihmāl] 疏忽；怠慢；玩忽职守〈名〉	
 row	pron	القاطع			[ālqāṭ‘] 裁剪者；切割者；切割器〈名〉	
-row	pron	دوف			[dūf] 水果干布丁；细煤；煤屑〈名〉	
+row	pron	دوف			[dūf] 水果干布丁；煤屑；劣质货〈名〉	
 row	pron	فارلي			[fārlī] 法利〈名〉	
 row	pron	غنائي			[ghnā’iy] 抒情的；歌唱的〈形〉	
 row	pron	ماهوني			[māhwny] 马奥尼〈名〉	
@@ -8021,7 +8021,7 @@ row	pron	التّروس			[at-turūs] 齿轮；轮齿〈名〉
 row	pron	الخليط			[ālkhlyṭ] 混合〈名〉	
 row	pron	اسق			[āsq] 当酒吧侍者；在酒吧掌柜〈动〉	
 row	pron	الجماعات			[āljmā‘āt] 集体〈名〉	
-row	pron	كاليه			[kālyh] 加来；卡莱斯牌汽车〈名〉	
+row	pron	كاليه			[kālyh] 加来（法国港市）〈名〉	
 row	pron	شرقا			[shrqā] 向东方地；朝东〈副〉	
 row	pron	الصديقات			[ālṣdyqāt] 女朋友；女友们〈名〉	
 row	pron	جاردنر			[jārdinar] 加德纳〈名〉	

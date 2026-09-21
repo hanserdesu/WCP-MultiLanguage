@@ -2092,7 +2092,7 @@ row	pron	demande	[dəmɑ̃d]		请求；要求；申请〈n.f.〉
 row	pron	demander	[dəmɑ̃de]		问；要求〈v.〉	
 row	pron	demeure	[dəmœʁ]		住所（书面）〈n.f.〉	
 row	pron	demeurer	[dəmœʁe]		居住；仍然是〈v.〉	
-row	pron	demeuré	[dəmœʁe]		笨蛋（口语）〈n.m.〉	
+row	pron	demeuré	[dəmœʁe]		迟钝的人；傻瓜；反应慢的人〈n.m.〉	
 row	pron	demi	[dəmi]		一半的；半个〈adj.〉	
 row	pron	demi-frère	[dəmifʁɛʁ]		同父异母的兄弟〈n.m.〉	
 row	pron	demi-heure	[dəmiʁœʁ]		半小时〈n.f.〉	
@@ -4126,7 +4126,7 @@ row	pron	juger	[ʒyʒe]		审判；判断；评价〈v.〉
 row	pron	juif	[ʒɥif]		犹太人；犹太的〈n.m.〉	
 row	pron	juillet	[ʒɥijɛ]		七月〈n.m.〉	
 row	pron	juin	[ʒɥɛ̃]		六月〈n.m.〉	
-row	pron	jules	[ʒyl]		丈夫；男人（口语）〈n.m.〉	
+row	pron	jules	[ʒyl]		丈夫；男友；情人（口语）〈n.m.〉	
 row	pron	jumeau	[ʒymo]		双胞胎之一〈n.m.〉	
 row	pron	jumelle	[ʒymɛl]		双胞胎之一；（复）双筒望远镜〈n.f.〉	
 row	pron	jument	[ʒymɑ̃]		母马〈n.f.〉	
@@ -6771,7 +6771,7 @@ row	pron	sexy	[seksi]		性感的〈adj.〉
 row	pron	shampooing	[ʃɑ̃pwɛ̃]		洗发水〈n.m.〉	
 row	pron	sheriff	[ʃɛʁif]		治安官；警长〈n.m.〉	
 row	pron	sherry	[ʃɛʁi]		雪利酒〈n.m.〉	
-row	pron	shit	[ʃit]		大麻（俚语）〈n.m.〉	
+row	pron	shit	[ʃit]		大麻脂；哈希什（毒品俚语）〈n.m.〉	
 row	pron	shooter	[ʃute]		射门；开枪（口语）〈v.〉	
 row	pron	shopping	[ʃɔpiŋ]		购物〈n.m.〉	
 row	pron	short	[ʃɔʁt]		短裤〈n.m.〉	
@@ -32458,8 +32458,3 @@ row	sentence	île				例句：Nous avons traversé la mer pour rejoindre l'île 
 row	sentence	ôter				例句：Ce dédommagement ne peut ôter leur amertume.（这点补偿消不了他们的怨气。）
 row	sentence	ôter				例句：Il faut ôter la cellophane avant de réchauffer le plat.（加热前要把保鲜膜去掉。）
 row	sentence	ôter				例句：N'oublie pas d'ôter tes chaussures en entrant.（进门别忘了脱鞋。）
-sentence	date	例句：Nous devons fixer une date pour notre prochain voyage.（我们必须为下一次旅行定一个日期。）
-sentence	long	例句：Le train fait un long voyage à travers la forêt.（火车穿过森林，进行着漫长的旅途。）
-sentence	merci	例句：Merci beaucoup pour votre aide précieuse pendant les examens.（非常感谢您在考试期间给予的宝贵帮助。）
-sentence	un	例句：Il a acheté un nouveau livre hier après-midi.（他昨天下午买了一本新书。）
-sentence	vent	例句：Le vent souffle très fort ce soir dans la rue.（今晚街上的风刮得非常大。）

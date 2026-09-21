@@ -32,7 +32,7 @@
     "pron": "jp_pron.tsv",
     "sentences": "jp_sentences.tsv",
     "payload_files": {
-      "jp_pron.tsv": "32b564959e57acd7f8b937f37a9496967b9e4be435180e794b901c9aebc90213",
+      "jp_pron.tsv": "5d79d97d8ae2bb5c6ca0c78393e2971260be061c004c5a2055397f118e1bf053",
       "jp_sentences.tsv": "9582ce8cccf154fd9f95bb9b4555aaff9f92821e72e4f5bc5437cec2cb2ac074",
       "jp_only_pron.tsv": "32b564959e57acd7f8b937f37a9496967b9e4be435180e794b901c9aebc90213"
     }

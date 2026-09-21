@@ -36,9 +36,9 @@
     "pron": "de_pron.tsv",
     "sentences": "de_sentences.tsv",
     "payload_files": {
-      "de_pron.tsv": "adf5b21529a85ff5dfb7dd5b8a571fc619af68ec5b3a9bf16108eaacc3771a21",
+      "de_pron.tsv": "cdf8870fa195da9215cb59a52eb2bca610e79564a9520a352b6b9738e616a757",
       "de_sentences.tsv": "daff115cfde883573eecc5bdb54a93868cd3de9cf09dc751eb57c0502b838cc4",
-      "de_only_pron.tsv": "adf5b21529a85ff5dfb7dd5b8a571fc619af68ec5b3a9bf16108eaacc3771a21",
+      "de_only_pron.tsv": "cdf8870fa195da9215cb59a52eb2bca610e79564a9520a352b6b9738e616a757",
       "en_pron.tsv": "3d9e08e3e3e882350fff931c869cb856a5287712567c6eb3ffed086adcfd1669",
       "en_sentences.tsv": "03240187e74606562fe28c6ffda21c9cc07c365e473ad5e396349165b04cab2c"
     }

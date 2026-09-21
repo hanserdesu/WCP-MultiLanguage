@@ -206,7 +206,7 @@ row	pron	haz	/ˈaθ/	/ˈaθ/	[ˈaθ] 做<名>
 row	pron	todavía	/todaˈbia/	/todaˈbia/	[todaˈbia] 仍然<副>	
 row	pron	salir	/saˈliɾ/	/saˈliɾ/	[saˈliɾ] 出去<动>	
 row	pron	algún	/alˈɡun/	/alˈɡun/	[alˈɡun] 一些<限定>	
-row	pron	vaya	/ˈbaʝa/	/ˈbaʝa/	[ˈbaʝa] 哇<名>	
+row	pron	vaya	/ˈbaʝa/	/ˈbaʝa/	[ˈbaʝa] 哎呀（表示惊讶、恼怒等的感叹语）；走吧、去吧（动词 ir 的虚拟式现在时）<名>	
 row	pron	hermano	/eɾˈmano/	/eɾˈmano/	[eɾˈmano] 兄弟<名>	
 row	pron	pensar	/penˈsaɾ/	/penˈsaɾ/	[penˈsaɾ] 认为<动>	
 row	pron	cabeza	/kaˈbeθa/	/kaˈbeθa/	[kaˈbeθa] 头<名>	
@@ -681,7 +681,7 @@ row	pron	peligro	/peˈliɡɾo/	/peˈliɡɾo/	[peˈliɡɾo] 危险<名>
 row	pron	libertad	/libeɾˈta/	/libeɾˈta/	[libeɾˈta] 自由<名>	
 row	pron	alegrar	/aleˈɡɾaɾ/	/aleˈɡɾaɾ/	[aleˈɡɾaɾ] 振作起来<动>	
 row	pron	baja	/ˈbaxa/	/ˈbaxa/	[ˈbaxa] 低<名>	
-row	pron	derecha	/deˈɾet͡ʃa/	/deˈɾet͡ʃa/	[deˈɾet͡ʃa] 对<名>	
+row	pron	derecha	/deˈɾet͡ʃa/	/deˈɾet͡ʃa/	[deˈɾet͡ʃa] 右边；右侧；右派<名>	
 row	pron	segunda	/seˈɡunda/	/seˈɡunda/	[seˈɡunda] 第二<名>	
 row	pron	maravilloso	/maɾabiˈʝoso/	/maɾabiˈʝoso/	[maɾabiˈʝoso] 太棒了<形>	
 row	pron	espacio	/esˈpaθjo/	/esˈpaθjo/	[esˈpaθjo] 空间<名>	
@@ -797,7 +797,7 @@ row	pron	calma	/ˈkalma/	/ˈkalma/	[ˈkalma] 冷静<名>
 row	pron	hogar	/oˈɡaɾ/	/oˈɡaɾ/	[oˈɡaɾ] 家<名>	
 row	pron	fondo	/ˈfondo/	/ˈfondo/	[ˈfondo] 背景<名>	
 row	pron	humano	/uˈmano/	/uˈmano/	[uˈmano] 人类的<名>	
-row	pron	tí	/tˈi/	/tˈi/	你<代>	
+row	pron	tí	/tˈi/	/tˈi/	你（人称代词 tú 在介词后的重读形式）<代>	
 row	pron	unido	/uˈnido/	/uˈnido/	[uˈnido] 联合<形>	
 row	pron	jesús	/xeˈsus/	/xeˈsus/	[xeˈsus] 耶稣<叹>	
 row	pron	planeta	/plaˈneta/	/plaˈneta/	[plaˈneta] 行星<名>	
@@ -856,7 +856,7 @@ row	pron	informe	/inˈfoɾme/	/inˈfoɾme/	[inˈfoɾme] 报告<名>
 row	pron	río	/ˈrio/	/ˈrio/	[ˈrio] 河<名>	
 row	pron	bienvenido	/bjembeˈnido/	/bjembeˈnido/	[bjembeˈnido] 欢迎<形>	
 row	pron	tocar	/toˈkaɾ/	/toˈkaɾ/	[toˈkaɾ] 触摸<动>	
-row	pron	bob	/ˈbob/	/ˈbob/	[/ˈbob/] 傻的；愚蠢的<noun>	
+row	pron	bob	/ˈbob/	/ˈbob/	[/ˈbob/] 波波头；齐短发发型<noun>	
 row	pron	contar	/konˈtaɾ/	/konˈtaɾ/	[konˈtaɾ] 计数<动>	
 row	pron	interior	/inteˈɾjoɾ/	/inteˈɾjoɾ/	[inteˈɾjoɾ] 室内<名>	
 row	pron	apartamento	/apaɾtaˈmento/	/apaɾtaˈmento/	[apaɾtaˈmento] 公寓<名>	
@@ -976,7 +976,7 @@ row	pron	copa	/ˈkopa/	/ˈkopa/	[ˈkopa] 高脚杯；树冠<名>
 row	pron	conversación	/kombeɾsaˈθjon/	/kombeɾsaˈθjon/	[kombeɾsaˈθjon] 谈话<名>	
 row	pron	espíritu	/esˈpiɾitu/	/esˈpiɾitu/	[esˈpiɾitu] 精神<名>	
 row	pron	cansado	/kanˈsado/	/kanˈsado/	[kanˈsado] 累了<形>	
-row	pron	interesar	/inteɾeˈsaɾ/	/inteɾeˈsaɾ/	[inteɾeˈsaɾ] 兴趣<动>	
+row	pron	interesar	/inteɾeˈsaɾ/	/inteɾeˈsaɾ/	[inteɾeˈsaɾ] 使感兴趣；关系到；涉及<动>	
 row	pron	casado	/kaˈsado/	/kaˈsado/	[kaˈsado] 已婚<名>	
 row	pron	enorme	/eˈnoɾme/	/eˈnoɾme/	[eˈnoɾme] 巨大的<形>	
 row	pron	fe	/ˈfe/	/ˈfe/	[ˈfe] 信仰<名>	
@@ -1471,7 +1471,7 @@ row	pron	empleo	/emˈpleo/	/emˈpleo/	[emˈpleo] 就业<名>
 row	pron	cirugía	/θiɾuˈxia/	/θiɾuˈxia/	[θiɾuˈxia] 手术<名>	
 row	pron	clave	/ˈklabe/	/ˈklabe/	[ˈklabe] 钥匙<名>	
 row	pron	aparentemente	/apaˌɾenteˈmente/	/apaˌɾenteˈmente/	[apaˌɾenteˈmente] 显然<副>	
-row	pron	bravo	/ˈbɾabo/	/ˈbɾabo/	[ˈbɾabo] 布拉沃<形>	
+row	pron	bravo	/ˈbɾabo/	/ˈbɾabo/	[ˈbɾabo] 勇敢的；凶猛的；好样的（喝彩用语）<形>	
 row	pron	controlar	/kontɾoˈlaɾ/	/kontɾoˈlaɾ/	[kontɾoˈlaɾ] 控制<动>	
 row	pron	mostrar	/mosˈtɾaɾ/	/mosˈtɾaɾ/	[mosˈtɾaɾ] 显示<动>	
 row	pron	piloto	/piˈloto/	/piˈloto/	[piˈloto] 飞行员<名>	
@@ -2137,7 +2137,7 @@ row	pron	producto	/pɾoˈduɡto/	/pɾoˈduɡto/	[pɾoˈduɡto] 产品<名>
 row	pron	abrazo	/aˈbɾaθo/	/aˈbɾaθo/	[aˈbɾaθo] 拥抱<名>	
 row	pron	gafas	/ˈɡafas/	/ˈɡafas/	[ˈɡafas] 眼镜<名>	
 row	pron	sobrino	/soˈbɾino/	/soˈbɾino/	[soˈbɾino] 侄子<名>	
-row	pron	man	/ˈman/	/ˈman/	[ˈman] 老兄；哥们<名>	
+row	pron	man	/ˈman/	/ˈman/	[ˈman] 男人；人；人类〈名〉	
 row	pron	demanda	/deˈmanda/	/deˈmanda/	[deˈmanda] 需求<名>	
 row	pron	construcción	/konstɾuɡˈθjon/	/konstɾuɡˈθjon/	[konstɾuɡˈθjon] 建筑<名>	
 row	pron	internacional	/inteɾnaθjoˈnal/	/inteɾnaθjoˈnal/	[inteɾnaθjoˈnal] 国际<形>	
@@ -2546,7 +2546,7 @@ row	pron	taller	/taˈʝeɾ/	/taˈʝeɾ/	[taˈʝeɾ] 车间<名>
 row	pron	practicar	/pɾaɡtiˈkaɾ/	/pɾaɡtiˈkaɾ/	[pɾaɡtiˈkaɾ] 练习<动>	
 row	pron	armado	/aɾˈmado/	/aɾˈmado/	[aɾˈmado] 武装的<形>	
 row	pron	atender	/atenˈdeɾ/	/atenˈdeɾ/	[atenˈdeɾ] 接待；照料<动>	
-row	pron	we	/ˈwe/	/ˈwe/	[ˈwe] 我们<名>	
+row	pron	we	/ˈwe/	/ˈwe/	[ˈwe] 老兄；哥们（墨西哥俚语，同 güey）<名>	
 row	pron	costar	/kosˈtaɾ/	/kosˈtaɾ/	[kosˈtaɾ] 成本<动>	
 row	pron	soñar	/soˈɲaɾ/	/soˈɲaɾ/	[soˈɲaɾ] 梦想<动>	
 row	pron	juzgado	/xuθˈɡado/	/xuθˈɡado/	[xuθˈɡado] 法庭<名>	
@@ -2604,7 +2604,7 @@ row	pron	ordenar	/oɾdeˈnaɾ/	/oɾdeˈnaɾ/	[oɾdeˈnaɾ] 整理；排列；命
 row	pron	go	/ˈɡo/	/ˈɡo/	[ˈɡo] 去<名>	
 row	pron	motel	/moˈtel/	/moˈtel/	[moˈtel] 汽车旅馆<名>	
 row	pron	mentido	/menˈtido/	/menˈtido/	[menˈtido] 撒谎了<形>	
-row	pron	house	/ˈxaus/	/ˈxaus/	[ˈxaus] 房子；住宅<名>	
+row	pron	house	/ˈxaus/	/ˈxaus/	[ˈxaus] 浩室音乐（一种电子舞曲）<名>	
 row	pron	alimento	/aliˈmento/	/aliˈmento/	[aliˈmento] 食物<名>	
 row	pron	presupuesto	/pɾesuˈpwesto/	/pɾesuˈpwesto/	[pɾesuˈpwesto] 预算<名>	
 row	pron	ubicación	/ubikaˈθjon/	/ubikaˈθjon/	[ubikaˈθjon] 地点<名>	
@@ -2920,7 +2920,7 @@ row	pron	radar	/raˈdaɾ/	/raˈdaɾ/	[raˈdaɾ] 雷达<名>
 row	pron	seriamente	/ˌseɾjaˈmente/	/ˌseɾjaˈmente/	[ˌseɾjaˈmente] 认真地<副>	
 row	pron	probabilidad	/pɾobabiliˈdad/	/pɾobabiliˈdad/	[pɾobabiliˈdad] 概率<名>	
 row	pron	capullo	/kaˈpuʝo/	/kaˈpuʝo/	[kaˈpuʝo] 茧<名>	
-row	pron	dana	/ˈdana/	/ˈdana/	[ˈdana] 达纳<名>	
+row	pron	dana	/ˈdana/	/ˈdana/	[ˈdana] 达纳（人名）；DANA，高空孤立低压（一种引发强暴雨的天气现象）<名>	
 row	pron	hall	/ˈxol/	/ˈxol/	[ˈxol] 大厅<名>	
 row	pron	telefónico	/teleˈfoniko/	/teleˈfoniko/	[teleˈfoniko] 电话<形>	
 row	pron	micrófono	/miˈkɾofono/	/miˈkɾofono/	[miˈkɾofono] 麦克风<名>	
@@ -3194,7 +3194,7 @@ row	pron	rebelde	/reˈbelde/	/reˈbelde/	[/reˈbelde/] 叛逆的<形>；叛逆�
 row	pron	apuntar	/apunˈtaɾ/	/apunˈtaɾ/	[apunˈtaɾ] 目标<动>	
 row	pron	troy	/ˈtɾoi/	/ˈtɾoi/	[ˈtɾoi] 特洛伊<形>	
 row	pron	líquido	/ˈlikido/	/ˈlikido/	[ˈlikido] 液体<名>	
-row	pron	joda	/ˈxoda/	/ˈxoda/	[ˈxoda] 他妈的<名>	
+row	pron	joda	/ˈxoda/	/ˈxoda/	[ˈxoda] 狂欢聚会；胡闹；（粗俗）鬼混<名>	
 row	pron	carbón	/kaɾˈbon/	/kaɾˈbon/	[kaɾˈbon] 煤<名>	
 row	pron	secuestrado	/sekwesˈtɾado/	/sekwesˈtɾado/	[sekwesˈtɾado] 被绑架<形>	
 row	pron	cocinero	/koθiˈneɾo/	/koθiˈneɾo/	[koθiˈneɾo] 厨师<名>	
@@ -3454,7 +3454,7 @@ row	pron	pendejo	/penˈdexo/	/penˈdexo/	[penˈdexo] 混蛋<名>
 row	pron	cabe	/ˈkabe/	/ˈkabe/	[ˈkabe] 适合<介>	
 row	pron	gorra	/ˈɡora/	/ˈɡora/	[ˈɡora] 帽<名>	
 row	pron	revisión	/rebiˈsjon/	/rebiˈsjon/	[rebiˈsjon] 评论<名>	
-row	pron	dong	/dˈonx/	/dˈonx/	[[doŋ] 东<noun>	
+row	pron	dong	/dˈonx/	/dˈonx/	[[doŋ] 越南盾（越南货币单位）<noun>	
 row	pron	evidentemente	/ebiˌdenteˈmente/	/ebiˌdenteˈmente/	[ebiˌdenteˈmente] 显然<副>	
 row	pron	senado	/seˈnado/	/seˈnado/	[seˈnado] 参议院<名>	
 row	pron	caramelo	/kaɾaˈmelo/	/kaɾaˈmelo/	[kaɾaˈmelo] 糖果<名>	
@@ -3510,7 +3510,7 @@ row	pron	suicida	/swiˈθida/	/swiˈθida/	[swiˈθida] 有自杀倾向的<名>
 row	pron	vago	/ˈbaɡo/	/ˈbaɡo/	[ˈbaɡo] 含糊的；懒惰的<名>	
 row	pron	revelar	/rebeˈlaɾ/	/rebeˈlaɾ/	[rebeˈlaɾ] 揭示<动>	
 row	pron	sugerencia	/suxeˈɾenθja/	/suxeˈɾenθja/	[suxeˈɾenθja] 建议<名>	
-row	pron	srta	/seɲoɾita/	/seɲoɾita/	[[ˈese aˈerre ˈte aˈkento] 小姐<noun>	
+row	pron	srta	/seɲoɾita/	/seɲoɾita/	[[ˈese aˈerre ˈte aˈkento] 小姐（señorita的缩写）<noun>	
 row	pron	caca	/ˈkaka/	/ˈkaka/	[ˈkaka] 便便<名>	
 row	pron	legalmente	/leˌɡalˈmente/	/leˌɡalˈmente/	[leˌɡalˈmente] 合法地<副>	
 row	pron	won	/wˈon/	/wˈon/	赢了<名>	
@@ -3683,7 +3683,7 @@ row	pron	luchador	/lut͡ʃaˈdoɾ/	/lut͡ʃaˈdoɾ/	[/lut͡ʃaˈdoɾ/] 斗士；
 row	pron	alboroto	/alboˈɾoto/	/alboˈɾoto/	[alboˈɾoto] 大惊小怪<名>	
 row	pron	formal	/foɾˈmal/	/foɾˈmal/	[foɾˈmal] 正式的<形>	
 row	pron	hermandad	/eɾmanˈdad/	/eɾmanˈdad/	[eɾmanˈdad] 兄弟情谊<名>	
-row	pron	arriesgar	/arjesˈɡaɾ/	/arjesˈɡaɾ/	[arjesˈɡaɾ] 风险<动>	
+row	pron	arriesgar	/arjesˈɡaɾ/	/arjesˈɡaɾ/	[arjesˈɡaɾ] 冒（风险）；使遭受危险；拿……去冒险<动>	
 row	pron	vestíbulo	/besˈtibulo/	/besˈtibulo/	[besˈtibulo] 大堂<名>	
 row	pron	racista	/raˈθista/	/raˈθista/	[raˈθista] 种族主义者<名>	
 row	pron	cuadra	/ˈkwadɾa/	/ˈkwadɾa/	[ˈkwadɾa] 块<名>	
@@ -3932,7 +3932,7 @@ row	pron	rendir	/renˈdiɾ/	/renˈdiɾ/	[/renˈdiɾ/] 使屈服；投降；交�
 row	pron	opuesto	/oˈpwesto/	/oˈpwesto/	[oˈpwesto] 对面<形>	
 row	pron	catalina	/kataˈlina/	/kataˈlina/	[kataˈlina] 凯瑟琳<名>	
 row	pron	pito	/ˈpito/	/ˈpito/	[ˈpito] 口哨<名>	
-row	pron	follar	/foˈʝaɾ/	/foˈʝaɾ/	[foˈʝaɾ] 他妈的<动>	
+row	pron	follar	/foˈʝaɾ/	/foˈʝaɾ/	[foˈʝaɾ] 性交；操（粗俗语）<动>	
 row	pron	sesenta	/seˈsenta/	/seˈsenta/	[seˈsenta] 六十<数>	
 row	pron	balcón	/balˈkon/	/balˈkon/	[balˈkon] 阳台<名>	
 row	pron	camilla	/kaˈmiʝa/	/kaˈmiʝa/	[kaˈmiʝa] 担架<名>	
@@ -4122,7 +4122,7 @@ row	pron	desarrollar	/desaroˈʝaɾ/	/desaroˈʝaɾ/	[desaroˈʝaɾ] 发展<动>
 row	pron	asesor	/aseˈsoɾ/	/aseˈsoɾ/	[aseˈsoɾ] 顾问<名>	
 row	pron	séptimo	/ˈsebtimo/	/ˈsebtimo/	[ˈsebtimo] 第七<名>	
 row	pron	bando	/ˈbando/	/ˈbando/	[ˈbando] 派系；阵营；公告<名>	
-row	pron	resfriado	/resˈfɾjado/	/resˈfɾjado/	[resˈfɾjado] 冷<名>	
+row	pron	resfriado	/resˈfɾjado/	/resˈfɾjado/	[resˈfɾjado] 感冒；着凉<名>	
 row	pron	tablero	/taˈbleɾo/	/taˈbleɾo/	[taˈbleɾo] 董事会<名>	
 row	pron	seso	/ˈseso/	/ˈseso/	[ˈseso] 大脑<名>	
 row	pron	ética	/ˈetika/	/ˈetika/	[ˈetika] 道德<名>	
@@ -4896,7 +4896,7 @@ row	pron	maniobra	/maˈnjobɾa/	/maˈnjobɾa/	[maˈnjobɾa] 演习<名>
 row	pron	compensar	/kompenˈsaɾ/	/kompenˈsaɾ/	[kompenˈsaɾ] 补偿<动>	
 row	pron	conceder	/konθeˈdeɾ/	/konθeˈdeɾ/	[konθeˈdeɾ] 授予<动>	
 row	pron	inminente	/immiˈnente/	/immiˈnente/	[immiˈnente] 迫在眉睫的<形>	
-row	pron	arbusto	/aɾˈbusto/	/aɾˈbusto/	[aɾˈbusto] 布什<名>	
+row	pron	arbusto	/aɾˈbusto/	/aɾˈbusto/	[aɾˈbusto] 灌木；灌木丛<名>	
 row	pron	raja	/ˈraxa/	/ˈraxa/	[ˈraxa] 狭缝<名>	
 row	pron	ahogar	/aoˈɡaɾ/	/aoˈɡaɾ/	[aoˈɡaɾ] 淹死<动>	
 row	pron	mozo	/ˈmoθo/	/ˈmoθo/	[ˈmoθo] 服务员<名>	
@@ -5035,7 +5035,7 @@ row	pron	económico	/ekoˈnomiko/	/ekoˈnomiko/	[ekoˈnomiko] 经济的<形>
 row	pron	espectro	/esˈpeɡtɾo/	/esˈpeɡtɾo/	[esˈpeɡtɾo] 光谱<名>	
 row	pron	record	/ɾekˈoɾd/	/ɾekˈoɾd/	记录<名>	
 row	pron	pabellón	/pabeˈʝon/	/pabeˈʝon/	[pabeˈʝon] 凉亭<名>	
-row	pron	et	/ˈet/	/ˈet/	[ˈet] 等<名>	
+row	pron	et	/ˈet/	/ˈet/	[ˈet] 拉丁语“和”；=et alii 等人；等等<名>	
 row	pron	avatar	/abaˈtaɾ/	/abaˈtaɾ/	[abaˈtaɾ] 头像<名>	
 row	pron	abdomen	/abˈdomen/	/abˈdomen/	[abˈdomen] 腹部<名>	
 row	pron	noruego	/noˈɾweɡo/	/noˈɾweɡo/	[noˈɾweɡo] 挪威语<名>	
@@ -5159,7 +5159,7 @@ row	pron	predicador	/pɾedikaˈdoɾ/	/pɾedikaˈdoɾ/	[pɾedikaˈdoɾ] 传教士
 row	pron	presidencial	/pɾesidenˈθjal/	/pɾesidenˈθjal/	[/pɾesidenˈθjal/] 总统的<adj>	
 row	pron	audio	/ˈaudjo/	/ˈaudjo/	[ˈaudjo] 音频<名>	
 row	pron	epidemia	/epiˈdemja/	/epiˈdemja/	[epiˈdemja] 流行病<名>	
-row	pron	moción	/moˈθjon/	/moˈθjon/	[moˈθjon] 运动<名>	
+row	pron	moción	/moˈθjon/	/moˈθjon/	[moˈθjon] 动议；提议；议案<名>	
 row	pron	crió	/ˈkɾio/	/ˈkɾio/	[[kɾiˈo] 抚养；养育<verb>	
 row	pron	imitación	/imitaˈθjon/	/imitaˈθjon/	[imitaˈθjon] 模仿<名>	
 row	pron	casual	/kaˈswal/	/kaˈswal/	[kaˈswal] 休闲的<形>	
@@ -5173,7 +5173,7 @@ row	pron	anormal	/anoɾˈmal/	/anoɾˈmal/	[anoɾˈmal] 不正常的<形>
 row	pron	aló	/aˈlo/	/aˈlo/	[aˈlo] 你好<叹>	
 row	pron	disputa	/disˈputa/	/disˈputa/	[disˈputa] 争议<名>	
 row	pron	manguera	/manˈɡeɾa/	/manˈɡeɾa/	[manˈɡeɾa] 软管<名>	
-row	pron	cas	/ˈkas/	/ˈkas/	[/ˈkas/] 房屋；家（casa 的缩写）<noun>	
+row	pron	cas	/ˈkas/	/ˈkas/	[/ˈkas/] 房屋；住宅；家（加泰罗尼亚语，相当于西语 casa）<noun>	
 row	pron	pum	/ˈpum/	/ˈpum/	[/ˈpum/] 砰（拟声词）<intj>	
 row	pron	condolencia	/kondoˈlenθja/	/kondoˈlenθja/	[kondoˈlenθja] 哀悼<名>	
 row	pron	paco	/ˈpako/	/ˈpako/	[ˈpako] 帕科<名>	
@@ -5586,7 +5586,7 @@ row	pron	pitido	/piˈtido/	/piˈtido/	[piˈtido] 嘟嘟声<名>
 row	pron	instructor	/instɾuɡˈtoɾ/	/instɾuɡˈtoɾ/	[instɾuɡˈtoɾ] 导师<名>	
 row	pron	cursi	/ˈkuɾsi/	/ˈkuɾsi/	[ˈkuɾsi] 俗气的<形>	
 row	pron	cereza	/θeˈɾeθa/	/θeˈɾeθa/	[θeˈɾeθa] 樱桃<名>	
-row	pron	liza	/ˈliθa/	/ˈliθa/	[/ˈliθa/] 战斗；搏斗；竞赛<noun>	
+row	pron	liza	/ˈliθa/	/ˈliθa/	[/ˈliθa/] 决斗；比武；较量<noun>	
 row	pron	inversor	/imbeɾˈsoɾ/	/imbeɾˈsoɾ/	[imbeɾˈsoɾ] 投资者<名>	
 row	pron	ventilador	/bentilaˈdoɾ/	/bentilaˈdoɾ/	[bentilaˈdoɾ] 风扇<名>	
 row	pron	ofensivo	/ofenˈsibo/	/ofenˈsibo/	[ofenˈsibo] 进攻性的<形>	
@@ -6551,7 +6551,7 @@ row	pron	festín	/fesˈtin/	/fesˈtin/	[fesˈtin] 盛宴<名>
 row	pron	ofrenda	/oˈfɾenda/	/oˈfɾenda/	[oˈfɾenda] 奉献<名>	
 row	pron	adversario	/adbeɾˈsaɾjo/	/adbeɾˈsaɾjo/	[adbeɾˈsaɾjo] 对手<名>	
 row	pron	lasaña	/laˈsaɲa/	/laˈsaɲa/	[laˈsaɲa] 烤宽面条<名>	
-row	pron	navideño	/nabiˈdeɲo/	/nabiˈdeɲo/	[nabiˈdeɲo] 圣诞节<名>	
+row	pron	navideño	/nabiˈdeɲo/	/nabiˈdeɲo/	[nabiˈdeɲo] 圣诞节的〈名〉	
 row	pron	muralla	/muˈɾaʝa/	/muˈɾaʝa/	[muˈɾaʝa] 墙<名>	
 row	pron	ártico	/ˈaɾtiko/	/ˈaɾtiko/	[ˈaɾtiko] 北极的<形>	
 row	pron	moribundo	/moɾiˈbundo/	/moɾiˈbundo/	[moɾiˈbundo] 垂死<形>	
@@ -6565,7 +6565,7 @@ row	pron	alucinar	/aluθiˈnaɾ/	/aluθiˈnaɾ/	[aluθiˈnaɾ] 产生幻觉<动>
 row	pron	procura	/pɾoˈkuɾa/	/pɾoˈkuɾa/	[/pɾoˈkuɾa/] 努力<名>；照料<名><noun>	
 row	pron	jengibre	/xenˈxibɾe/	/xenˈxibɾe/	[xenˈxibɾe] 生姜<名>	
 row	pron	buitre	/ˈbwitɾe/	/ˈbwitɾe/	[ˈbwitɾe] 秃鹫<名>	
-row	pron	funda	/ˈfunda/	/ˈfunda/	[ˈfunda] 案例<名>	
+row	pron	funda	/ˈfunda/	/ˈfunda/	[ˈfunda] 套子；封套；手机壳；枪套〈名〉	
 row	pron	taladro	/taˈladɾo/	/taˈladɾo/	[taˈladɾo] 钻<名>	
 row	pron	semáforo	/seˈmafoɾo/	/seˈmafoɾo/	[seˈmafoɾo] 交通灯<名>	
 row	pron	ny	/ˈni/	/ˈni/	[ˈni] 纽约<名>	
@@ -6688,7 +6688,7 @@ row	pron	yakuza	/ʝaˈkuθa/	/ʝaˈkuθa/	[ʝaˈkuθa] 黑帮<名>
 row	pron	duración	/duɾaˈθjon/	/duɾaˈθjon/	[duɾaˈθjon] 持续时间<名>	
 row	pron	aura	/ˈauɾa/	/ˈauɾa/	[ˈauɾa] 光环<名>	
 row	pron	apto	/ˈabto/	/ˈabto/	[ˈabto] 适合<形>	
-row	pron	petra	/ˈpetɾa/	/ˈpetɾa/	[/ˈpetɾa/] 佩特拉<noun>	
+row	pron	petra	/ˈpetɾa/	/ˈpetɾa/	[/ˈpetɾa/] 佩特拉（约旦古城）<noun>	
 row	pron	rin	/ˈrin/	/ˈrin/	[/ˈrin/] 莱茵河<noun>	
 row	pron	párrafo	/ˈparafo/	/ˈparafo/	[ˈparafo] 段落<名>	
 row	pron	coyote	/koˈʝote/	/koˈʝote/	[koˈʝote] 土狼<名>	
@@ -6775,7 +6775,7 @@ row	pron	iluminar	/ilumiˈnaɾ/	/ilumiˈnaɾ/	[ilumiˈnaɾ] 照亮<动>
 row	pron	golosina	/ɡoloˈsina/	/ɡoloˈsina/	[ɡoloˈsina] 糖果<名>	
 row	pron	condenar	/kondeˈnaɾ/	/kondeˈnaɾ/	[kondeˈnaɾ] 谴责<动>	
 row	pron	cookie	/ˈkuki/	/ˈkuki/	[ˈkuki] 饼干<名>	
-row	pron	quejo	/ˈkexo/	/ˈkexo/	[/ˈkexo/] queja（抱怨<名>）<noun>	
+row	pron	quejo	/ˈkexo/	/ˈkexo/	[/ˈkexo/] queja（抱怨；不满〈名〉）的误拼形式<noun>	
 row	pron	mezquita	/meθˈkita/	/meθˈkita/	[meθˈkita] 清真寺<名>	
 row	pron	defunción	/defunˈθjon/	/defunˈθjon/	[defunˈθjon] 死亡<名>	
 row	pron	torrente	/toˈrente/	/toˈrente/	[toˈrente] 激流<名>	
@@ -6828,7 +6828,7 @@ row	pron	mazo	/ˈmaθo/	/ˈmaθo/	[ˈmaθo] 木槌<名>
 row	pron	dársela	/ˈdaɾsela/	/ˈdaɾsela/	[/ˈdaɾsela/] 欺骗<动>（dar gato por liebre；常用语 dársela a alguien）<verb>	
 row	pron	page	/pˈaxe/	/pˈaxe/	[[ˈpaχe]] （英语借词）页面<名><noun>	
 row	pron	presenciar	/pɾesenˈθjaɾ/	/pɾesenˈθjaɾ/	[/pɾesenˈθjaɾ/] 目睹；在场见证<verb>	
-row	pron	tao	/ˈtao/	/ˈtao/	[/ˈtao/] 道<noun>	
+row	pron	tao	/ˈtao/	/ˈtao/	[/ˈtao/] 道（道家哲学核心概念）<noun>	
 row	pron	preciado	/pɾeˈθjado/	/pɾeˈθjado/	[pɾeˈθjado] 珍贵的<形>	
 row	pron	macarrones	/makaˈrones/	/makaˈrones/	[makaˈrones] 通心粉<名>	
 row	pron	irregular	/ireɡuˈlaɾ/	/ireɡuˈlaɾ/	[ireɡuˈlaɾ] 不规则的<形>	
@@ -6849,7 +6849,7 @@ row	pron	satisfactorio	/satisfaɡˈtoɾjo/	/satisfaɡˈtoɾjo/	[satisfaɡˈtoɾj
 row	pron	fang	/ˈfan/	/ˈfan/	[/ˈfan/] 泥；泥浆<名>（应为 fango）<noun>	
 row	pron	mosco	/ˈmosko/	/ˈmosko/	[/ˈmosko/] 虻；大蝇<名>（蚊子应为 mosquito）<noun>	
 row	pron	reclutamiento	/reklutamjento/	/reklutamjento/	招聘<名>	
-row	pron	toar	/toˈaɾ/	/toˈaɾ/	[/toˈaɾ/] 触摸<动>（应为 tocar）<verb>	
+row	pron	toar	/toˈaɾ/	/toˈaɾ/	[/toˈaɾ/] tocar（触摸；触碰〈动〉）的误拼形式<verb>	
 row	pron	pié	/ˈpje/	/ˈpje/	[/ˈpje/] 脚；足；底部；英尺<名>	
 row	pron	arzobispo	/aɾθoˈbispo/	/aɾθoˈbispo/	[aɾθoˈbispo] 大主教<名>	
 row	pron	celo	/ˈθelo/	/ˈθelo/	[ˈθelo] 热心<名>	
@@ -7148,7 +7148,7 @@ row	pron	descender	/desθenˈdeɾ/	/desθenˈdeɾ/	[desθenˈdeɾ] 下降<动>
 row	pron	perforación	/peɾfoɾaˈθjon/	/peɾfoɾaˈθjon/	[peɾfoɾaˈθjon] 钻孔<名>	
 row	pron	instantánea	/instanˈtanea/	/instanˈtanea/	[instanˈtanea] 快照<名>	
 row	pron	guarnición	/ɡwaɾniˈθjon/	/ɡwaɾniˈθjon/	[ɡwaɾniˈθjon] 装饰<名>	
-row	pron	tapar	/taˈpaɾ/	/taˈpaɾ/	[taˈpaɾ] 封面<动>	
+row	pron	tapar	/taˈpaɾ/	/taˈpaɾ/	[taˈpaɾ] 盖上；遮盖；堵住；掩盖〈动〉	
 row	pron	descaro	/desˈkaɾo/	/desˈkaɾo/	[desˈkaɾo] 厚颜无耻<名>	
 row	pron	doméstico	/doˈmestiko/	/doˈmestiko/	[doˈmestiko] 国内<名>	
 row	pron	gurú	/ɡuˈɾu/	/ɡuˈɾu/	[ɡuˈɾu] 大师<名>	
@@ -7318,7 +7318,7 @@ row	pron	huí	/uˈi/	/uˈi/	[uˈi] 我逃走了<动>
 row	pron	jardinería	/xaɾdineˈɾia/	/xaɾdineˈɾia/	[xaɾdineˈɾia] 园艺<名>	
 row	pron	cremallera	/kɾemaˈʝeɾa/	/kɾemaˈʝeɾa/	[kɾemaˈʝeɾa] 拉链<名>	
 row	pron	portón	/poɾˈton/	/poɾˈton/	[/poɾˈton/] 大门<名><noun>	
-row	pron	ye	/ˈʝe/	/ˈʝe/	[ˈʝe] 叶<名>	
+row	pron	ye	/ˈʝe/	/ˈʝe/	[ˈʝe] 西班牙语字母 y 的名称〈名〉	
 row	pron	ringar	/rinˈɡaɾ/	/rinˈɡaɾ/	[/rinˈɡaɾ/] 非标准西语词，无此词条<verb>	
 row	pron	esposado	/espoˈsado/	/espoˈsado/	[espoˈsado] 戴上手铐<名>	
 row	pron	colón	/koˈlon/	/koˈlon/	[koˈlon] 哥伦布<名>	
@@ -7372,7 +7372,7 @@ row	pron	contaminado	/kontamiˈnado/	/kontamiˈnado/	[kontamiˈnado] 被污染�
 row	pron	dimisión	/dimiˈsjon/	/dimiˈsjon/	[dimiˈsjon] 辞职<名>	
 row	pron	confidente	/konfiˈdente/	/konfiˈdente/	[konfiˈdente] 知己<名>	
 row	pron	barbaridad	/baɾbaɾiˈdad/	/baɾbaɾiˈdad/	[baɾbaɾiˈdad] 野蛮<名>	
-row	pron	yuki	/ˈʝuki/	/ˈʝuki/	[/ˈʝuki/] 由希（人名）<noun>	
+row	pron	yuki	/ˈʝuki/	/ˈʝuki/	[/ˈʝuki/] 由希（日语人名）<noun>	
 row	pron	manifestante	/manifesˈtante/	/manifesˈtante/	[manifesˈtante] 抗议者<名>	
 row	pron	incapacidad	/inkapaθiˈdad/	/inkapaθiˈdad/	[inkapaθiˈdad] 残疾<名>	
 row	pron	cresta	/ˈkɾesta/	/ˈkɾesta/	[ˈkɾesta] 波峰<名>	
@@ -7478,7 +7478,7 @@ row	pron	parámetro	/paˈɾametɾo/	/paˈɾametɾo/	[paˈɾametɾo] 参数<名>
 row	pron	acechar	/aθeˈt͡ʃaɾ/	/aθeˈt͡ʃaɾ/	[/aθeˈt͡ʃaɾ/] 窥伺；盯梢；潜伏跟踪<verb>	
 row	pron	hallazgo	/aˈʝaθɡo/	/aˈʝaθɡo/	[aˈʝaθɡo] 发现<名>	
 row	pron	cráter	/ˈkɾateɾ/	/ˈkɾateɾ/	[ˈkɾateɾ] 火山口<名>	
-row	pron	otar	/oˈtaɾ/	/oˈtaɾ/	[/oˈtaɾ/] 祈祷；祷告<verb>	
+row	pron	otar	/oˈtaɾ/	/oˈtaɾ/	[/oˈtaɾ/] orar（祈祷；祷告〈动〉）的误拼形式<verb>	
 row	pron	minoría	/minoˈɾia/	/minoˈɾia/	[minoˈɾia] 少数民族<名>	
 row	pron	opresión	/opɾeˈsjon/	/opɾeˈsjon/	[opɾeˈsjon] 压迫<名>	
 row	pron	reptil	/rebˈtil/	/rebˈtil/	[rebˈtil] 爬行动物<名>	
@@ -7882,7 +7882,7 @@ row	pron	diversidad	/dibeɾsiˈdad/	/dibeɾsiˈdad/	[dibeɾsiˈdad] 多样性<�
 row	pron	pancho	/ˈpant͡ʃo/	/ˈpant͡ʃo/	[ˈpant͡ʃo] 潘乔<名>	
 row	pron	major	/ˈmeiʝoɾ/	/ˈmeiʝoɾ/	[ˈmeiʝoɾ] 更好的；较好的<名>	
 row	pron	concesión	/konθeˈsjon/	/konθeˈsjon/	[konθeˈsjon] 让步<名>	
-row	pron	lama	/ˈlama/	/ˈlama/	[/ˈlama/] 喇嘛<noun>	
+row	pron	lama	/ˈlama/	/ˈlama/	[/ˈlama/] 喇嘛；淤泥；泥浆<noun>	
 row	pron	percibo	/peɾˈθibo/	/peɾˈθibo/	[peɾˈθibo] 我察觉到<名>	
 row	pron	indudablemente	/induˌðaβleˈmente/	/induˌðaβleˈmente/	毫无疑问<副>	
 row	pron	serbio	/ˈseɾbjo/	/ˈseɾbjo/	[ˈseɾbjo] 塞尔维亚语<名>	
@@ -7961,7 +7961,7 @@ row	pron	pesimista	/pesiˈmista/	/pesiˈmista/	[pesiˈmista] 悲观的<名>
 row	pron	incrementar	/inkɾemenˈtaɾ/	/inkɾemenˈtaɾ/	[inkɾemenˈtaɾ] 增加<动>	
 row	pron	confort	/konˈfoɾt/	/konˈfoɾt/	[konˈfoɾt] 舒适度<名>	
 row	pron	exhalar	/eɡsaˈlaɾ/	/eɡsaˈlaɾ/	[eɡsaˈlaɾ] 呼气<动>	
-row	pron	face	/ˈfaθe/	/ˈfaθe/	[/ˈfaθe/] 做；干；……以前<noun>	
+row	pron	face	/ˈfaθe/	/ˈfaθe/	[/ˈfaθe/] fase（阶段；时期；相位）的误拼形式；亦为 hace（……以前）的古体<noun>	
 row	pron	fundar	/funˈdaɾ/	/funˈdaɾ/	[funˈdaɾ] 创立；建立；创办<动>	
 row	pron	inválido	/imˈbalido/	/imˈbalido/	[/imˈbalido/] 残疾的；病弱的<形>；残疾人<名><adj>	
 row	pron	domo	/ˈdomo/	/ˈdomo/	[ˈdomo] 圆顶<名>	
@@ -8153,7 +8153,7 @@ row	pron	resentido	/resenˈtido/	/resenˈtido/	[resenˈtido] 怨恨的<名>
 row	pron	presumido	/pɾesuˈmido/	/pɾesuˈmido/	[pɾesuˈmido] 自负的<名>	
 row	pron	pulg	/pˈulx/	/pˈulx/	[[pulx] 英寸<noun>	
 row	pron	halo	/ˈalo/	/ˈalo/	[ˈalo] 晕<名>	
-row	pron	antaño	/anˈtaɲo/	/anˈtaɲo/	[anˈtaɲo] 昨天<名>	
+row	pron	antaño	/anˈtaɲo/	/anˈtaɲo/	[anˈtaɲo] 往昔；从前；去年〈名〉	
 row	pron	seductor	/seduɡˈtoɾ/	/seduɡˈtoɾ/	[seduɡˈtoɾ] 诱人的<名>	
 row	pron	jaqueca	/xaˈkeka/	/xaˈkeka/	[xaˈkeka] 偏头痛<名>	
 row	pron	narcisista	/naɾθiˈsista/	/naɾθiˈsista/	[naɾθiˈsista] 自恋者<名>	
@@ -8360,7 +8360,7 @@ row	pron	avecinar	/abeθiˈnaɾ/	/abeθiˈnaɾ/	[/abeθiˈnaɾ/] 临近；逼近
 row	pron	pen	/ˈpen/	/ˈpen/	[ˈpen] 笔<名>	
 row	pron	colosal	/koloˈsal/	/koloˈsal/	[koloˈsal] 巨大的<形>	
 row	pron	insultante	/insulˈtante/	/insulˈtante/	[insulˈtante] 侮辱性的<形>	
-row	pron	yin	/ˈʝin/	/ˈʝin/	[/ˈʝin/] 阴<noun>	
+row	pron	yin	/ˈʝin/	/ˈʝin/	[/ˈʝin/] 阴（与“阳”相对，源自中国哲学）<noun>	
 row	pron	fausto	/ˈfausto/	/ˈfausto/	[/ˈfausto/] 快乐的；盛大的；吉祥的<adj>	
 row	pron	debidamente	/deˌbidaˈmente/	/deˌbidaˈmente/	[deˌbidaˈmente] 适当地<副>	
 row	pron	neurona	/neuˈɾona/	/neuˈɾona/	[neuˈɾona] 神经元<名>	
@@ -8453,7 +8453,7 @@ row	pron	complicidad	/kompliθiˈdad/	/kompliθiˈdad/	[kompliθiˈdad] 同谋<�
 row	pron	lloriquear	/ʝoɾikeˈaɾ/	/ʝoɾikeˈaɾ/	[ʝoɾikeˈaɾ] 哀鸣<动>	
 row	pron	extraordinariamente	/eɡstɾaoɾdiˌnaɾjaˈmente/	/eɡstɾaoɾdiˌnaɾjaˈmente/	[eɡstɾaoɾdiˌnaɾjaˈmente] 非凡地<副>	
 row	pron	muela	/ˈmwela/	/ˈmwela/	[ˈmwela] 砂轮<名>	
-row	pron	ecografía	/ekoɣɾaˈfia/	/ekoɣɾaˈfia/	超声波<名>	
+row	pron	ecografía	/ekoɣɾaˈfia/	/ekoɣɾaˈfia/	超声检查；B超；超声波扫描〈名〉	
 row	pron	controversia	/kontɾoˈbeɾsja/	/kontɾoˈbeɾsja/	[kontɾoˈbeɾsja] 争议<名>	
 row	pron	trailer	/ˈtɾeileɾ/	/ˈtɾeileɾ/	[ˈtɾeileɾ] 拖车<名>	
 row	pron	miau	/ˈmjau/	/ˈmjau/	[ˈmjau] 喵<名>	
@@ -8503,7 +8503,7 @@ row	pron	tap	/tˈap/	/tˈap/	点击<名>
 row	pron	influyente	/influˈʝente/	/influˈʝente/	[influˈʝente] 有影响力的<形>	
 row	pron	mánager	/ˈmanaxeɾ/	/ˈmanaxeɾ/	[ˈmanaxeɾ] 经理<名>	
 row	pron	chusma	/ˈt͡ʃusma/	/ˈt͡ʃusma/	[ˈt͡ʃusma] 乌合之众<名>	
-row	pron	nuño	/ˈnuɲo/	/ˈnuɲo/	[/ˈnuɲo/] （西语中无此常用词；仅作专有名词Nuño）<noun>	
+row	pron	nuño	/ˈnuɲo/	/ˈnuɲo/	[/ˈnuɲo/] 努尼奥（西班牙男子名，非普通词汇）<noun>	
 row	pron	segun	/seˈɡun/	/seˈɡun/	[seˈɡun] 根据<介>	
 row	pron	estéreo	/esˈteɾeo/	/esˈteɾeo/	[esˈteɾeo] 立体声<名>	
 row	pron	sorteo	/soɾˈteo/	/soɾˈteo/	[/soɾˈteo/] 抽签；抽奖；抽彩<noun>	
@@ -8553,7 +8553,7 @@ row	pron	ubicado	/ubiˈkado/	/ubiˈkado/	[ubiˈkado] 位于<形>
 row	pron	bb	/beˈbe/	/beˈbe/	[beˈbe] 幼童；宝贝；BB弹<名>	
 row	pron	cesárea	/θeˈsaɾea/	/θeˈsaɾea/	[θeˈsaɾea] 剖腹产<名>	
 row	pron	batear	/bateˈaɾ/	/bateˈaɾ/	[/bateˈaɾ/] （棒球）击球<verb>	
-row	pron	colecta	/koˈleɡta/	/koˈleɡta/	[koˈleɡta] 收藏<名>	
+row	pron	colecta	/koˈleɡta/	/koˈleɡta/	[koˈleɡta] 募捐；捐款；采集〈名〉	
 row	pron	rufián	/ruˈfjan/	/ruˈfjan/	[ruˈfjan] 痞子<名>	
 row	pron	engordar	/enɡoɾˈdaɾ/	/enɡoɾˈdaɾ/	[enɡoɾˈdaɾ] 发胖<动>	
 row	pron	electrón	/eleɡˈtɾon/	/eleɡˈtɾon/	[eleɡˈtɾon] 电子<名>	
@@ -8590,7 +8590,7 @@ row	pron	lindar	/linˈdaɾ/	/linˈdaɾ/	[linˈdaɾ] 边界<名>
 row	pron	recámara	/reˈkamaɾa/	/reˈkamaɾa/	[reˈkamaɾa] 卧室<名>	
 row	pron	impaciencia	/impaˈθjenθja/	/impaˈθjenθja/	[impaˈθjenθja] 不耐烦<名>	
 row	pron	carminar	/kaɾmiˈnaɾ/	/kaɾmiˈnaɾ/	[/kaɾmiˈnaɾ/] 染成胭脂红色；使变红<verb>	
-row	pron	loquero	/loˈkeɾo/	/loˈkeɾo/	[/loˈkeɾo/] （西语中无此常用词）<noun>	
+row	pron	loquero	/loˈkeɾo/	/loˈkeɾo/	[/loˈkeɾo/] （哥伦比亚俚语）精神病院工作人员；精神科医生<noun>	
 row	pron	rizado	/riˈθado/	/riˈθado/	[riˈθado] 卷曲的<名>	
 row	pron	alegremente	/aˌleɡɾeˈmente/	/aˌleɡɾeˈmente/	[aˌleɡɾeˈmente] 高兴地<副>	
 row	pron	lavadero	/labaˈdeɾo/	/labaˈdeɾo/	[labaˈdeɾo] 洗衣房<名>	

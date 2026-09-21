@@ -34,7 +34,7 @@
     "pron": "fr_pron.tsv",
     "sentences": "fr_sentences.tsv",
     "payload_files": {
-      "fr_pron.tsv": "cf85f86276b2521e7d2782ae4fb34bbbb8fbefe7d026cab40c2a90d66e163393",
+      "fr_pron.tsv": "a1af399476e4b5c9a28a0b07a07994b12c74a8700fa909943dbf378149bedc86",
       "fr_sentences.tsv": "f29203b2a6edbabd3597acb215491abf98dd1fdf2d73e8af7333b9bca8dfb674",
       "fr_only_pron.tsv": "cf85f86276b2521e7d2782ae4fb34bbbb8fbefe7d026cab40c2a90d66e163393",
       "en_pron.tsv": "d1dd1d3dd34714865fafacb088c3f5835921e36f7c378e0a3c8b5c182b39aeda",
