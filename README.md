@@ -5,8 +5,8 @@
 （manifest + 词库 + 数据库 + 音频），复用宿主通用策略；只有行为特殊的语言才需要自己的策略程序集。
 
 当前状态：统一接入架构全部交付落地。
-统一宿主（WcpHost）、20 个逻辑槽位（CustomSlotsMod）、语言物理隔离、Jev 全量双轴审计（9 语 100% 通过）与一键安装器（v0.1.3）已全量落地验证。
-注册表 / 槽位规则 / 接管范围 / 磁盘健康 / mod 物理自愈 / 安装器测试 99/99 项全部通过；9 语部署包运行时与仓库逐字节一致。
+统一宿主（WcpHost）、20 个逻辑槽位（CustomSlotsMod）、语言物理隔离、Jev 全量双轴审计（9 语 100% 通过）与一键安装器（v0.1.4）已全量落地验证。
+注册表 / 槽位规则 / 接管范围 / 磁盘健康 / mod 物理自愈 / 自更新链 / 安装器测试 103/103 项全部通过；9 语部署包运行时与仓库逐字节一致。
 本仓库为所有语言唯一的单一事实源；集成版安装包与资源包统一由本仓库发布。
 
 ## 仓库结构
@@ -18,7 +18,7 @@
 | `mod_book_name/` | 书名 / 身份层 `BookNameMod.dll`（`BookProfiles` + 诊断） |
 | `packs/` | 语言资源包契约：9 门语言（ja / fr / ru / de / es / pt / ko / ar / yue）全量 `manifest.json`、词库、SQLite 释义库与例句表 |
 | `tools/` | 迁移、构建与校验工具：`check_sentence_contract.py`、`sync_packs.py`、`gen_bookprofiles.py` 等 |
-| `tools/release/` | 资源包发布流水线：`build_installer.py`（安装器打包与自更新索引）、发布清单与 catalog 维护脚本 |
+| `tools/release/` | 资源包发布流水线：`build_installer.py`（安装器打包、自更新索引与仓库根索引同步）、发布清单与 catalog 维护脚本 |
 | `tools/integrate_languages.py`、`tools/verify_integration.py` | 语言工程集成与一致性校验工具 |
 | `languages/<code>/` | 9 个语言工程的源码树（ja / fr / ru / de / es / pt / ko / ar / yue） |
 | `Install-WCP-Wordbooks.ps1`、`WordbookHub.psm1`、`catalog.json` | 一键安装器核心：GitHub 发现词书、选择安装、峰值磁盘检查、P1-9 词书磁盘健康核对、mod 物理健康自愈（`Test-ModDiskHealth`）、SHA-256 差异更新 |
@@ -34,7 +34,7 @@
 - 智能差异比对：安装前按 `hub-state.json` 记录的 SHA-256 逐项比对，只重新下载内容变化的资源。
 - 磁盘健康自愈（词书层）：更新时自动通过 `Test-WordbookDiskHealth` 核验本地文件完整度，若音频丢失或词表损坏自动摘除记录并全量重下修复。
 - 磁盘健康自愈（mod 层）：安装前通过 `Test-ModDiskHealth` 核验 `BepInEx/plugins` 下的核心三件套（`WcpHost.dll` / `CustomSlotsMod.dll` / `BookNameMod.dll`）。发现被改名禁用的 `.disabled` / `.off` / `.bak` 副本自动改名回正、发现 0 字节损坏强制重新物化 mods 载荷，即使 `hub-state.json` 记录为最新也不会跳过。
-- 自更新机制：经 `run-installer.ps1` 启动时自动检查更新，若有新版安装器提示确认后平滑切换，失败不阻断本次安装。
+- 自更新机制：经 `run-installer.ps1` 启动时自动检查更新，若有新版安装器提示确认后平滑切换，失败不阻断本次安装。版本索引按三条通道依次取用：仓库根 `release-index.json` 的 raw 地址（不消耗 GitHub API 配额、不受资产 CDN 缓存影响）、`wcp-mods-*` release 的资产接口（显式声明 `Accept: application/octet-stream`）、以及同一资产的下载地址。
 
 ```powershell
 .\Install-WCP-Wordbooks.ps1 -List
@@ -62,7 +62,7 @@
    本 mod 提供的 20 槽是 `CustomSlotsMod` 在前端维护的独立逻辑槽位（`WcpCustomSlots.json`），同一时刻最多只能将激活的词书物化入空闲的原生槽位，无法突破底层游戏引擎的并发物理槽位上限。
 
 2. 实机热切换与游戏引擎缓存：
-   虽然所有路由隔离、词池重构与 99 项离线单元测试均已全量通过，但游戏内部的单例状态机（`MyParameters` / `ChooseWordManager`）在跨场景时存在静态缓存。
+   虽然所有路由隔离、词池重构与 103 项离线单元测试均已全量通过，但游戏内部的单例状态机（`MyParameters` / `ChooseWordManager`）在跨场景时存在静态缓存。
    为杜绝极端战斗场景下底层引擎未能即时释放上一本词书的音频句柄或纹理，建议在游戏主菜单界面进行词书选择，或在完成跨语言大幅切换后重新启动游戏。
 
 3. 语言处理策略分层：
@@ -78,6 +78,10 @@
 6. mod 物理健康核对的覆盖范围：
    `Test-ModDiskHealth` 只把与语言无关的核心三件套（`WcpHost.dll` / `CustomSlotsMod.dll` / `BookNameMod.dll`）当作健康判据，因此新语言接入不需要改动安装器代码；
    与之相对，某个语言的旧版词表插件被改名或删除不会被单独判为不健康，只会在安装时按载荷 SHA-256 差异重新物化。这样既保持了扩展性，也避免把语言清单硬编码进安装器。
+
+7. 安装器自更新链的对外依赖：
+   安装器升级依赖 GitHub 的 raw 与 API 通道，二者都可能被网络环境限流或阻断（2026-09-21 本机实测未认证 `api.github.com` 请求已返回 403）。任一条通道不可用时，检查只打印一行提示后安静跳过，不中断本次安装，代价是该次运行不会提示升级。
+   另外 v0.1.3 及更早版本的索引下载缺少 `Accept: application/octet-stream`，拿到的是资产元数据 JSON，自更新提示从未触发过；这些版本的用户需要手动重新下载一次 v0.1.4，之后才走自更新链。
 
 ## 开发与验证
 
@@ -97,8 +101,11 @@ cmd /c mod_host\tests\run_word_audio_compat_test.cmd
 # 槽位：20 槽行为规则测试
 powershell -File mod_custom_slots\tests\run_slot_rules_test.ps1
 
-# 安装器：离线单元测试（无网络、不写游戏目录，99 项全覆盖）
+# 安装器：离线单元测试（无网络、不写游戏目录，103 项全覆盖）
 powershell -File tests\test_hub.ps1
+
+# 安装器：自更新链回归（本地假 GitHub 回放 HTTP，不碰真实网络）
+powershell -File tests\test_selfupdate.ps1
 
 # 词书：例句音频与端到端 MD5 契约校验
 python tools\check_sentence_contract.py
@@ -128,7 +135,7 @@ python tools\verify_integration.py
 | `ru` | 本仓库 | `wcp-ru-resources-v1.1.0` |
 | `yue` | 本仓库 | `wcp-yue-resources-v1.0.0` |
 
-一键安装器最新版本为 `wcp-installer-v0.1.3`，支持自动通过 GitHub 发现资源、选择性安装、峰值空间预检、差异化更新、词书磁盘健康核对与 mod 物理健康自愈。版本索引 `release-index.json` 挂在 `wcp-mods-*` release 上，启动器检测到新版本时提示用户确认升级；旧版安装器（v0.1.2 及更早）也具备自更新链路，会引导用户升级到 v0.1.3 后继续本次安装。
+一键安装器最新版本为 `wcp-installer-v0.1.4`，支持自动通过 GitHub 发现资源、选择性安装、峰值空间预检、差异化更新、词书磁盘健康核对与 mod 物理健康自愈。版本索引 `release-index.json` 同时放在仓库根目录（raw 可直读）与 `wcp-mods-*` release 资产上：仓库根副本不消耗 GitHub API 配额，release 资产副本供 API 通道与自更新解耦发布使用。启动器检测到新版本时提示用户确认升级；v0.1.3 及更早版本的自更新链因缺少 `Accept: application/octet-stream` 而从未真正生效，这些用户需要手动下载一次 v0.1.4。
 
 每条 asset 都带 `url` / `size` / `sha256`（或 GitHub 的 sha256 digest），安装器直接按 `url` 下载并逐项校验。`disk.extract_mb` 是按 zip 内实际文件大小算出的解压占用，用于峰值磁盘检查。
 
@@ -146,6 +153,7 @@ python tools\verify_integration.py
 8. 2026-09-21 统一安装器 v0.1.2 发布与 Hub 分发对齐：独立分发仓库 `WCP-Wordbook-Hub` 与主仓库完全对齐（89/89 测试通过），正式发布 `wcp-installer-v0.1.2`。
 9. 2026-09-21 仓库架构终极收敛至双仓模型：经 Jev 决策审计（p=0.97），将分发镜像 Hub 与内部探针 Probes 彻底收拢并入本大仓（本地保留完整镜像归档），GitHub 远端仅保留 `hanserdesu/japanese`（日语老牌独立仓）与 `hanserdesu/WCP-MultiLanguage`（多语言统一大仓），终结双重维护与分散碎片。
 10. 2026-09-21 mod 物理健康自愈（v0.1.3）：实机定位到「`WcpHost.dll` 被改名为 `WcpHost.dll.disabled` → 旧语言插件检测到 pack 存在主动让渡 → 词典 Hook 链真空 → 查词面板对所有受管语言回退成游戏原生兜底提示」的故障链，据此上线 `Test-ModDiskHealth`：安装前核验核心三件套在位与非 0 字节、自动改名回正被禁用的插件副本、核心插件缺失时强制重新物化 mods 载荷。离线测试由 89 项扩至 99 项并全部通过，正式发布 `wcp-installer-v0.1.3`。
+11. 2026-09-21 自更新链修复（v0.1.4）：实测发现索引下载走 GitHub API 资产地址却未声明 `Accept: application/octet-stream`，拿到的是资产元数据 JSON（1506 字节）而非索引本体（501 字节），`installer_version` 解析不出，自更新检查一直静默判定为「已是最新」；同时本机对 `api.github.com` 的未认证请求已返回 403，整条链不可达。修复为三条通道依次取用（仓库根 raw 索引 → release 资产接口带 Accept 头 → 资产下载地址），并新增本地假 GitHub 驱动的自更新回归测试（含复现修复前行为的反向对照）。离线测试由 99 项扩至 103 项，正式发布 `wcp-installer-v0.1.4`。
 
 ## 许可
 

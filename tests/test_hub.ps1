@@ -133,6 +133,12 @@ Check '发布清单缺失字段不会中断发现' ($installerText -match 'funct
 Check '自更新只在有版本号且非离线/查询模式时启用' ($installerText -match 'if \(\$selfVersion -and -not \$Offline -and -not \$Plan -and -not \$List\)')
 Check '自更新索引指向 mods release 的 release-index.json' ($installerText -match "wcp-mods-\*" -and
     $installerText -match "'release-index\.json'")
+Check '自更新索引首通道走仓库根 raw（不耗 API 配额、不受资产 CDN 缓存影响）' ($installerText -match 'raw\.githubusercontent\.com/hanserdesu/WCP-MultiLanguage/main/release-index\.json')
+Check 'API 资产索引下载带 Accept: octet-stream（缺该头会拿到元数据 JSON）' (($installerText -match 'Invoke-HubDownload \$candidate \$idxTmp 120000') -and
+    ($installerText -match 'application/octet-stream') -and
+    ($installerText -match 'if \(\$Accept\) \{ \$request\.Accept = \$Accept \}'))
+Check '索引三通道全失败只提示、不阻断安装' ($installerText -match '自更新检查：在线获取版本信息失败（不影响本次安装）')
+Check '仓库根 release-index.json 已提交（raw 通道的数据源）' (Test-Path -LiteralPath (Join-Path $here ('..' + [IO.Path]::DirectorySeparatorChar + 'release-index.json')))
 Check '自更新核心包先校验 SHA-256 再切换' ($installerText -match 'actualCoreSha -ne \(\[string\]\$core\.sha256\)\.ToLowerInvariant\(\)')
 Check '自更新失败不阻断安装' ($installerText -match '自更新检查异常（不影响本次安装）' -and
     $installerText -match '将继续使用当前版本完成安装')

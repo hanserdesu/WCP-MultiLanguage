@@ -125,9 +125,15 @@ def main() -> None:
                     f"{args.version or 'dev'}/{zip_path.name}"),
         },
     }
+    idx_bytes = (json.dumps(index, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
     idx_path = out_dir / "release-index.json"
-    idx_path.write_bytes((json.dumps(index, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
+    idx_path.write_bytes(idx_bytes)
+    # 仓库根副本 = 自更新检查的第一通道（raw.githubusercontent.com 主分支）：
+    # 不消耗 GitHub API 配额，也不受 release 资产 CDN 缓存影响。发布时必须一并提交。
+    root_idx = ROOT / "release-index.json"
+    root_idx.write_bytes(idx_bytes)
     print(f"release-index: {idx_path}")
+    print(f"release-index (repo root, must be committed): {root_idx}")
 
     if args.upload:
         token = gh_token()

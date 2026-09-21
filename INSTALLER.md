@@ -62,6 +62,32 @@ the pack does not need a language DLL or a new host test path. A language that
 needs genuinely different display behavior may still ship a private strategy
 assembly inside its own pack.
 
+## Installer self-update
+
+`run-installer.ps1` injects `WCP_INSTALLER_VERSION`; `Install-WCP-Wordbooks.ps1`
+compares it against `release-index.json` and only offers to switch when a
+different version is published. The check never blocks an install: every
+failure path prints one line and continues with the current version, and
+`-Offline` / `-Plan` / `-List` skip it entirely.
+
+The index is read from three sources in order, the first one that parses into
+an `installer_version` wins:
+
+1. `https://raw.githubusercontent.com/hanserdesu/WCP-MultiLanguage/main/release-index.json`
+   - the repository-root copy, written by `tools/release/build_installer.py`
+   and committed on every release. It costs no GitHub API quota and is not
+   affected by release-asset CDN caching.
+2. the `release-index.json` asset of the newest `wcp-mods-*` release, fetched
+   through its API asset URL with `Accept: application/octet-stream`.
+   Without that header GitHub answers with asset metadata JSON, the parse
+   yields no `installer_version`, and the update prompt silently never fires
+   (this was the shipped behaviour up to v0.1.3).
+3. the same asset through its `browser_download_url`, which goes through the
+   CDN and therefore keeps working when `api.github.com` is rate limited.
+
+The downloaded core installer is verified by sha256 before anything is
+switched, and the new package is expanded into a fresh directory first.
+
 ## Twenty logical custom slots
 
 The optional `slot_manifest` asset is a UTF-8 JSON document consumed by

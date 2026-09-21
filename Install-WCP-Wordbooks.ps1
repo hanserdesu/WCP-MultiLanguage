@@ -811,11 +811,16 @@ function Repair-HubSaveFiles {
     }
 }
 
-function Invoke-HubDownload([string]$uri, [string]$destination, [int]$timeoutMs = 120000) {
+function Invoke-HubDownload([string]$uri, [string]$destination, [int]$timeoutMs = 120000, [string]$Accept = '') {
     $request = [Net.HttpWebRequest]::Create($uri)
     $request.Method = 'GET'
     $request.Timeout = $timeoutMs
     $request.ReadWriteTimeout = $timeoutMs
+    # GitHub 的 API 资产地址（api.github.com/.../releases/assets/<id>）默认返回 JSON
+    # 元数据而不是文件本体，只有显式声明 Accept: application/octet-stream 才拿到字节
+    # （2026-09-21 实测：不带该头拿到 1506 字节元数据，带上才是 501 字节索引本体）。
+    # 普通 release 下载地址（github.com/.../releases/download/...）不需要该头。
+    if ($Accept) { $request.Accept = $Accept }
     $request.Proxy = [Net.WebRequest]::DefaultWebProxy
     if ($request.Proxy) { $request.Proxy.Credentials = [Net.CredentialCache]::DefaultCredentials }
     $response = $request.GetResponse()
@@ -836,26 +841,44 @@ function Invoke-HubDownload([string]$uri, [string]$destination, [int]$timeoutMs 
 $selfVersion = if ($env:WCP_INSTALLER_VERSION) { $env:WCP_INSTALLER_VERSION } else { '' }
 if ($selfVersion -and -not $Offline -and -not $Plan -and -not $List) {
     try {
-        # 版本索引（release-index.json）发布在 mods release（wcp-mods-v*）上，
-        # 与安装器解耦：发新版只需替换该资产，老安装器即可发现新核心包。
-        $modsRel = $null
-        try {
-            $modsRel = Get-GitHubJson 'https://api.github.com/repos/hanserdesu/WCP-MultiLanguage/releases?per_page=100' |
-                Where-Object { ([string](Get-FieldOr $_ 'tag_name' '')) -like 'wcp-mods-*' } |
-                Sort-Object -Property created_at -Descending | Select-Object -First 1
-        } catch { }
-        $idxAsset = if ($modsRel) { @($modsRel.assets | Where-Object { $_.name -eq 'release-index.json' })[0] } else { $null }
+        # 版本索引（release-index.json）挂在 mods release（wcp-mods-v*）上，与安装器
+        # 解耦：发新版只需替换该资产，老安装器即可发现新核心包。三条通道按序尝试，
+        # 任一条拿到可解析出 installer_version 的索引即采用：
+        #   1) 仓库根副本（raw 主分支）：不消耗 GitHub API 配额，也不受 release 资产
+        #      CDN 缓存影响（2026-09-21 实测：本机 API 被限流 403 时该通道仍可达）；
+        #   2) mods release 的 API 资产地址：必须带 Accept: application/octet-stream，
+        #      否则拿到的是资产元数据 JSON，解析不出 installer_version（自更新会静默失效）；
+        #   3) 同一资产的浏览器下载地址：走 CDN，不受 API 限流影响。
         $indexObj = $null
-        if ($idxAsset) {
-            $idxTmp = Join-Path $data 'release-index.json.check'
+        $idxTmp = Join-Path $data 'release-index.json.check'
+        try {
+            Invoke-HubDownload 'https://raw.githubusercontent.com/hanserdesu/WCP-MultiLanguage/main/release-index.json' $idxTmp
+            $indexObj = Get-Content -LiteralPath $idxTmp -Raw -Encoding UTF8 | ConvertFrom-Json
+            if (-not (Get-FieldOr $indexObj 'installer_version' '')) { $indexObj = $null }
+        } catch { $indexObj = $null }
+        if (-not $indexObj) {
+            $modsRel = $null
             try {
-                Invoke-HubDownload $idxAsset.url $idxTmp
-                $indexObj = Get-Content -LiteralPath $idxTmp -Raw -Encoding UTF8 | ConvertFrom-Json
-                Remove-Item -LiteralPath $idxTmp -Force -ErrorAction SilentlyContinue
-            } catch {
-                Write-Host '自更新检查：在线获取版本信息失败（不影响本次安装）。' -ForegroundColor DarkGray
-                if (Test-Path -LiteralPath $idxTmp) { Remove-Item -LiteralPath $idxTmp -Force -ErrorAction SilentlyContinue }
+                $modsRel = Get-GitHubJson 'https://api.github.com/repos/hanserdesu/WCP-MultiLanguage/releases?per_page=100' |
+                    Where-Object { ([string](Get-FieldOr $_ 'tag_name' '')) -like 'wcp-mods-*' } |
+                    Sort-Object -Property created_at -Descending | Select-Object -First 1
+            } catch { }
+            $idxAsset = if ($modsRel) { @($modsRel.assets | Where-Object { $_.name -eq 'release-index.json' })[0] } else { $null }
+            if ($idxAsset) {
+                foreach ($candidate in @([string](Get-FieldOr $idxAsset 'url' ''), [string](Get-FieldOr $idxAsset 'browser_download_url' ''))) {
+                    if ([string]::IsNullOrWhiteSpace($candidate)) { continue }
+                    try {
+                        Invoke-HubDownload $candidate $idxTmp 120000 'application/octet-stream'
+                        $indexObj = Get-Content -LiteralPath $idxTmp -Raw -Encoding UTF8 | ConvertFrom-Json
+                        if (Get-FieldOr $indexObj 'installer_version' '') { break }
+                        $indexObj = $null
+                    } catch { $indexObj = $null }
+                }
             }
+        }
+        if (Test-Path -LiteralPath $idxTmp) { Remove-Item -LiteralPath $idxTmp -Force -ErrorAction SilentlyContinue }
+        if (-not $indexObj) {
+            Write-Host '自更新检查：在线获取版本信息失败（不影响本次安装）。' -ForegroundColor DarkGray
         }
         if ($indexObj -and (Get-FieldOr $indexObj 'installer_version' '') -and
             [string]$indexObj.installer_version -ne [string]$selfVersion) {
