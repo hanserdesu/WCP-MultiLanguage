@@ -1,0 +1,32 @@
+======================================================================
+      阿拉伯语专业学习资源与词书质量全量审计 (verify_all_ar.py)
+======================================================================
+[OK  ] 主数据库 output/arabic_books.json 存在性
+[OK  ] 词书分类数量达到 10 大以上考级与专业类别: 当前共 11 类
+[OK  ] 全量词条规模达到专业考级 8000+ 词标准: 实际词条数: 8223
+[OK  ] 单词 (word) 字段无缺失
+[OK  ] 单词均符合阿拉伯文字符集编码规范
+[OK  ] 读音转写 (transliteration) 覆盖率 100%
+[OK  ] 中文释义 (meaning) 覆盖率 100%
+[OK  ] 词性标注 (pos) 覆盖率 100%
+[OK  ] 阿拉伯语例句 (example_ar) 覆盖率 100%
+[OK  ] 例句中文译文 (example_zh) 覆盖率 100%
+[OK  ] 例句中文译文有效性（包含中文字符）
+[OK  ] 已生成 .xlsx 导入词书文件: 发现 12 个
+[OK  ] Excel 遵循 WCP 零表头契约 (无第一行表头)
+[OK  ] Excel A列(单词)与B列(释义)均非空且有效
+[OK  ] 外接数据库 wcp_arabic.db 存在
+[OK  ] SQLite 数据库结构物理完整性 (PRAGMA integrity_check): ok
+[OK  ] 包含 pron 表与 arabic_all 扩展表: ['pron', 'arabic_all']
+[OK  ] pron 表主键词数与去重词数一致: pron: 8118, meta: 8118
+[OK  ] arabic_all 详细记录数完整一致: db: 8223, meta: 8223
+[OK  ] 词书 Profile 元数据存在
+[OK  ] Profile 指纹 (SHA-256) 与词集哈希严格吻合: prof: 50c9c0b47ac3..., calc: 50c9c0b47ac3...
+[OK  ] 游戏根目录探测 (wcp_paths.game_dir): e:\steam\steamapps\common\WCP-WordGirlgriend
+[OK  ] Steam 真实数据库 wcpFullEng.db 可达性探测: e:\steam\steamapps\common\WCP-WordGirlgriend\wcp_Data\StreamingAssets\wcpFullEng.db
+[FAIL] 单词音频落盘于 ar_word_audio (私有隔离目录): 8044/8118
+[OK  ] 例句音频落盘于 ar_sentence_audio (md5 命名): 8118/8118
+[OK  ] 自愈 Payload ar_db_payload 完整且 SHA-256 吻合: word_count: 8118
+----------------------------------------------------------------------
+验证完成: 共 26 项检查, 通过 25 项, 失败 1 项。
+======================================================================

@@ -1,0 +1,99 @@
+﻿ASM Assembly-CSharp
+
+=== DUMP ClassifyWordS8::UnCompleteThis
+    IL_0000: ldstr "S8Progress_Para"
+    IL_0005: ldsfld MyParameters::S8Progress_Para
+    IL_000A: call ES3::Load
+    IL_000F: stsfld MyParameters::S8Progress_Para
+    IL_0014: ldsfld MyParameters::S8LookBack_Para
+    IL_0019: ldsfld MyParameters::S8Progress_Para
+    IL_001E: bge.s 50
+    IL_0020: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0025: ldsfld MyParameters::S8LookBack_Para
+    IL_002A: callvirt List`1::get_Item
+    IL_002F: stloc.0
+    IL_0030: br.s 62
+    IL_0032: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0037: ldc.i4.0
+    IL_0038: callvirt List`1::get_Item
+    IL_003D: stloc.0
+    IL_003E: ldstr "S8needToLearnWordList_Para"
+    IL_0043: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0048: call ES3::Load
+    IL_004D: stsfld MyParameters::S8needToLearnWordList_Para
+    IL_0052: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0057: callvirt List`1::get_Count
+    IL_005C: ldc.i4.4
+    IL_005D: blt.s 120
+    IL_005F: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0064: ldc.i4.0
+    IL_0065: callvirt List`1::RemoveAt
+    IL_006A: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_006F: ldc.i4.3
+    IL_0070: ldloc.0
+    IL_0071: callvirt List`1::Insert
+    IL_0076: br.s 178
+    IL_0078: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_007D: callvirt List`1::get_Count
+    IL_0082: ldc.i4.4
+    IL_0083: bge.s 178
+    IL_0085: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_008A: callvirt List`1::get_Count
+    IL_008F: ldc.i4.1
+    IL_0090: ble.s 178
+    IL_0092: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0097: ldc.i4.0
+    IL_0098: callvirt List`1::RemoveAt
+    IL_009D: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00A2: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00A7: callvirt List`1::get_Count
+    IL_00AC: ldloc.0
+    IL_00AD: callvirt List`1::Insert
+    IL_00B2: ldstr "S8needToLearnWordList_Para"
+    IL_00B7: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00BC: call ES3::Save
+    IL_00C1: ldarg.0
+    IL_00C2: ldfld ClassifyWordS8::invokeButton
+    IL_00C7: callvirt Button::get_onClick
+    IL_00CC: callvirt UnityEvent::Invoke
+    IL_00D1: ret
+
+=== DUMP NumColorManager::Update
+    IL_0000: ldarg.0
+    IL_0001: ldfld NumColorManager::knowOrNotCanvas
+    IL_0006: callvirt CanvasGroup::get_alpha
+    IL_000B: ldc.r4 ?
+    IL_0010: bne.un.s 61
+    IL_0012: ldarg.0
+    IL_0013: ldfld NumColorManager::txtNum
+    IL_0018: ldc.i4.0
+    IL_0019: ldelem.ref
+    IL_001A: callvirt Graphic::get_color
+    IL_001F: ldarg.0
+    IL_0020: ldfld NumColorManager::color_White
+    IL_0025: call Color::op_Inequality
+    IL_002A: brfalse.s 61
+    IL_002C: ldarg.0
+    IL_002D: call NumColorManager::SetTxtNumColor_White
+    IL_0032: ldstr "执行--《白"
+    IL_0037: call Debug::Log
+    IL_003C: ret
+    IL_003D: ldarg.0
+    IL_003E: ldfld NumColorManager::knowOrNotCanvas
+    IL_0043: callvirt CanvasGroup::get_alpha
+    IL_0048: ldc.r4 ?
+    IL_004D: bne.un.s 121
+    IL_004F: ldarg.0
+    IL_0050: ldfld NumColorManager::txtNum
+    IL_0055: ldc.i4.0
+    IL_0056: ldelem.ref
+    IL_0057: callvirt Graphic::get_color
+    IL_005C: ldarg.0
+    IL_005D: ldfld NumColorManager::color_Grey
+    IL_0062: call Color::op_Inequality
+    IL_0067: brfalse.s 121
+    IL_0069: ldarg.0
+    IL_006A: call NumColorManager::SetTxtNumColor_Grey
+    IL_006F: ldstr "执行--《灰"
+    IL_0074: call Debug::Log
+    IL_0079: ret

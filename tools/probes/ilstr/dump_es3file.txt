@@ -1,0 +1,408 @@
+ASM Assembly-CSharp-firstpass
+
+=== ES3File::Sync()  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.0 
+    IL_0002: ldfld ES3Settings ES3File::settings
+    IL_0007: call ES3File::Sync(ES3Settings)
+    IL_000C: ret 
+
+=== ES3File::Sync(String filePath, ES3Settings settings)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldarg.2 
+    IL_0003: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0008: call ES3File::Sync(ES3Settings)
+    IL_000D: ret 
+
+=== ES3File::Sync(ES3Settings settings)  generic=0
+  .local 0 ES3Writer
+  .local 1 System.Collections.Generic.Dictionary`2/Enumerator<System.String,ES3Internal.ES3Data>
+  .local 2 System.Collections.Generic.KeyValuePair`2<System.String,ES3Internal.ES3Data>
+  .local 3 System.Type
+    IL_0000: ldarg.1 
+    IL_0001: brtrue.s IL_000C
+    IL_0003: ldnull 
+    IL_0004: ldnull 
+    IL_0005: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_000A: starg.s settings
+    IL_000C: ldarg.0 
+    IL_000D: ldfld System.Collections.Generic.Dictionary`2<System.String,ES3Internal.ES3Data> ES3File::cache
+    IL_0012: callvirt Dictionary`2::get_Count()
+    IL_0017: brtrue.s IL_0020
+    IL_0019: ldarg.1 
+    IL_001A: call ES3::DeleteFile(ES3Settings)
+    IL_001F: ret 
+    IL_0020: ldarg.1 
+    IL_0021: ldc.i4.1 
+    IL_0022: ldarg.0 
+    IL_0023: ldfld System.Boolean ES3File::syncWithFile
+    IL_0028: ldc.i4.0 
+    IL_0029: ceq 
+    IL_002B: ldc.i4.0 
+    IL_002C: call ES3Writer::Create(ES3Settings, Boolean, Boolean, Boolean)
+    IL_0031: stloc.0 
+    IL_0032: ldarg.0 
+    IL_0033: ldfld System.Collections.Generic.Dictionary`2<System.String,ES3Internal.ES3Data> ES3File::cache
+    IL_0038: callvirt Dictionary`2::GetEnumerator()
+    IL_003D: stloc.1 
+    IL_003E: br.s IL_008F
+    IL_0040: ldloca.s V_1
+    IL_0042: call Enumerator::get_Current()
+    IL_0047: stloc.2 
+    IL_0048: ldloca.s V_2
+    IL_004A: call KeyValuePair`2::get_Value()
+    IL_004F: ldfld ES3Types.ES3Type ES3Internal.ES3Data::type
+    IL_0054: brtrue.s IL_0063
+    IL_0056: ldtoken System.Object
+    IL_005B: call Type::GetTypeFromHandle(RuntimeTypeHandle)
+    IL_0060: stloc.3 
+    IL_0061: br.s IL_0075
+    IL_0063: ldloca.s V_2
+    IL_0065: call KeyValuePair`2::get_Value()
+    IL_006A: ldfld ES3Types.ES3Type ES3Internal.ES3Data::type
+    IL_006F: ldfld System.Type ES3Types.ES3Type::type
+    IL_0074: stloc.3 
+    IL_0075: ldloc.0 
+    IL_0076: ldloca.s V_2
+    IL_0078: call KeyValuePair`2::get_Key()
+    IL_007D: ldloc.3 
+    IL_007E: ldloca.s V_2
+    IL_0080: call KeyValuePair`2::get_Value()
+    IL_0085: ldfld System.Byte[] ES3Internal.ES3Data::bytes
+    IL_008A: callvirt ES3Writer::Write(String, Type, Byte[])
+    IL_008F: ldloca.s V_1
+    IL_0091: call Enumerator::MoveNext()
+    IL_0096: brtrue.s IL_0040
+    IL_0098: leave.s IL_00A8
+    IL_009A: ldloca.s V_1
+    IL_009C: constrained. System.Collections.Generic.Dictionary`2/Enumerator<System.String,ES3Internal.ES3Data>
+    IL_00A2: callvirt IDisposable::Dispose()
+    IL_00A7: endfinally 
+    IL_00A8: ldloc.0 
+    IL_00A9: ldarg.0 
+    IL_00AA: ldfld System.Boolean ES3File::syncWithFile
+    IL_00AF: ldc.i4.0 
+    IL_00B0: ceq 
+    IL_00B2: callvirt ES3Writer::Save(Boolean)
+    IL_00B7: leave.s IL_00C3
+    IL_00B9: ldloc.0 
+    IL_00BA: brfalse.s IL_00C2
+    IL_00BC: ldloc.0 
+    IL_00BD: callvirt IDisposable::Dispose()
+    IL_00C2: endfinally 
+    IL_00C3: ret 
+
+=== ES3File::.ctor()  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldnull 
+    IL_0002: ldnull 
+    IL_0003: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0008: ldc.i4.1 
+    IL_0009: call ES3File::.ctor(ES3Settings, Boolean)
+    IL_000E: ret 
+
+=== ES3File::.ctor(String filePath)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldnull 
+    IL_0003: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0008: ldc.i4.1 
+    IL_0009: call ES3File::.ctor(ES3Settings, Boolean)
+    IL_000E: ret 
+
+=== ES3File::.ctor(String filePath, ES3Settings settings)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldarg.2 
+    IL_0003: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0008: ldc.i4.1 
+    IL_0009: call ES3File::.ctor(ES3Settings, Boolean)
+    IL_000E: ret 
+
+=== ES3File::.ctor(ES3Settings settings)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldc.i4.1 
+    IL_0003: call ES3File::.ctor(ES3Settings, Boolean)
+    IL_0008: ret 
+
+=== ES3File::.ctor(Boolean syncWithFile)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldnull 
+    IL_0002: ldnull 
+    IL_0003: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0008: ldarg.1 
+    IL_0009: call ES3File::.ctor(ES3Settings, Boolean)
+    IL_000E: ret 
+
+=== ES3File::.ctor(String filePath, Boolean syncWithFile)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldnull 
+    IL_0003: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0008: ldarg.2 
+    IL_0009: call ES3File::.ctor(ES3Settings, Boolean)
+    IL_000E: ret 
+
+=== ES3File::.ctor(String filePath, ES3Settings settings, Boolean syncWithFile)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldarg.2 
+    IL_0003: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0008: ldarg.3 
+    IL_0009: call ES3File::.ctor(ES3Settings, Boolean)
+    IL_000E: ret 
+
+=== ES3File::.ctor(ES3Settings settings, Boolean syncWithFile)  generic=0
+  .local 0 ES3Settings
+  .local 1 ES3Reader
+  .local 2 System.Collections.IEnumerator
+  .local 3 System.Collections.Generic.KeyValuePair`2<System.String,ES3Internal.ES3Data>
+  .local 4 System.IDisposable
+    IL_0000: ldarg.0 
+    IL_0001: newobj Dictionary`2::.ctor()
+    IL_0006: stfld System.Collections.Generic.Dictionary`2<System.String,ES3Internal.ES3Data> ES3File::cache
+    IL_000B: ldarg.0 
+    IL_000C: call DateTime::get_UtcNow()
+    IL_0011: stfld System.DateTime ES3File::timestamp
+    IL_0016: ldarg.0 
+    IL_0017: call Object::.ctor()
+    IL_001C: ldarg.0 
+    IL_001D: ldarg.1 
+    IL_001E: stfld ES3Settings ES3File::settings
+    IL_0023: ldarg.0 
+    IL_0024: ldarg.2 
+    IL_0025: stfld System.Boolean ES3File::syncWithFile
+    IL_002A: ldarg.2 
+    IL_002B: brfalse IL_00B6
+    IL_0030: ldarg.1 
+    IL_0031: callvirt ES3Settings::Clone()
+    IL_0036: castclass ES3Settings
+    IL_003B: stloc.0 
+    IL_003C: ldloc.0 
+    IL_003D: ldc.i4.1 
+    IL_003E: stfld System.Boolean ES3Settings::typeChecking
+    IL_0043: ldloc.0 
+    IL_0044: call ES3Reader::Create(ES3Settings)
+    IL_0049: stloc.1 
+    IL_004A: ldloc.1 
+    IL_004B: brtrue.s IL_004F
+    IL_004D: leave.s IL_00B6
+    IL_004F: ldloc.1 
+    IL_0050: callvirt ES3Reader::get_RawEnumerator()
+    IL_0055: callvirt ES3ReaderRawEnumerator::GetEnumerator()
+    IL_005A: stloc.2 
+    IL_005B: br.s IL_0082
+    IL_005D: ldloc.2 
+    IL_005E: callvirt IEnumerator::get_Current()
+    IL_0063: unbox.any System.Collections.Generic.KeyValuePair`2<System.String,ES3Internal.ES3Data>
+    IL_0068: stloc.3 
+    IL_0069: ldarg.0 
+    IL_006A: ldfld System.Collections.Generic.Dictionary`2<System.String,ES3Internal.ES3Data> ES3File::cache
+    IL_006F: ldloca.s V_3
+    IL_0071: call KeyValuePair`2::get_Key()
+    IL_0076: ldloca.s V_3
+    IL_0078: call KeyValuePair`2::get_Value()
+    IL_007D: callvirt Dictionary`2::set_Item(!0, !1)
+    IL_0082: ldloc.2 
+    IL_0083: callvirt IEnumerator::MoveNext()
+    IL_0088: brtrue.s IL_005D
+    IL_008A: leave.s IL_00AA
+    IL_008C: ldloc.2 
+    IL_008D: isinst System.IDisposable
+    IL_0092: stloc.s V_4
+    IL_0094: ldloc.s V_4
+    IL_0096: brfalse.s IL_009F
+    IL_0098: ldloc.s V_4
+    IL_009A: callvirt IDisposable::Dispose()
+    IL_009F: endfinally 
+    IL_00A0: ldloc.1 
+    IL_00A1: brfalse.s IL_00A9
+    IL_00A3: ldloc.1 
+    IL_00A4: callvirt IDisposable::Dispose()
+    IL_00A9: endfinally 
+    IL_00AA: ldarg.0 
+    IL_00AB: ldloc.0 
+    IL_00AC: call ES3::GetTimestamp(ES3Settings)
+    IL_00B1: stfld System.DateTime ES3File::timestamp
+    IL_00B6: ret 
+
+=== ES3File::.ctor(Byte[] bytes, ES3Settings settings)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: newobj Dictionary`2::.ctor()
+    IL_0006: stfld System.Collections.Generic.Dictionary`2<System.String,ES3Internal.ES3Data> ES3File::cache
+    IL_000B: ldarg.0 
+    IL_000C: call DateTime::get_UtcNow()
+    IL_0011: stfld System.DateTime ES3File::timestamp
+    IL_0016: ldarg.0 
+    IL_0017: call Object::.ctor()
+    IL_001C: ldarg.2 
+    IL_001D: brtrue.s IL_002E
+    IL_001F: ldarg.0 
+    IL_0020: ldnull 
+    IL_0021: ldnull 
+    IL_0022: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0027: stfld ES3Settings ES3File::settings
+    IL_002C: br.s IL_0035
+    IL_002E: ldarg.0 
+    IL_002F: ldarg.2 
+    IL_0030: stfld ES3Settings ES3File::settings
+    IL_0035: ldarg.0 
+    IL_0036: ldc.i4.1 
+    IL_0037: stfld System.Boolean ES3File::syncWithFile
+    IL_003C: ldarg.0 
+    IL_003D: ldarg.1 
+    IL_003E: ldarg.2 
+    IL_003F: call ES3File::SaveRaw(Byte[], ES3Settings)
+    IL_0044: ret 
+
+=== ES3File::Save(String key, T value)  generic=1
+  .local 0 ES3Settings
+  .local 1 System.Type
+  .local 2 ES3Types.ES3Type
+    IL_0000: ldarg.0 
+    IL_0001: ldfld ES3Settings ES3File::settings
+    IL_0006: callvirt ES3Settings::Clone()
+    IL_000B: castclass ES3Settings
+    IL_0010: stloc.0 
+    IL_0011: ldloc.0 
+    IL_0012: ldc.i4.0 
+    IL_0013: stfld ES3/EncryptionType ES3Settings::encryptionType
+    IL_0018: ldloc.0 
+    IL_0019: ldc.i4.0 
+    IL_001A: stfld ES3/CompressionType ES3Settings::compressionType
+    IL_001F: ldarg.2 
+    IL_0020: box T
+    IL_0025: brtrue.s IL_0034
+    IL_0027: ldtoken T
+    IL_002C: call Type::GetTypeFromHandle(RuntimeTypeHandle)
+    IL_0031: stloc.1 
+    IL_0032: br.s IL_0042
+    IL_0034: ldarga.s value
+    IL_0036: constrained. T
+    IL_003C: callvirt Object::GetType()
+    IL_0041: stloc.1 
+    IL_0042: ldloc.1 
+    IL_0043: ldc.i4.1 
+    IL_0044: call ES3TypeMgr::GetOrCreateES3Type(Type, Boolean)
+    IL_0049: stloc.2 
+    IL_004A: ldarg.0 
+    IL_004B: ldfld System.Collections.Generic.Dictionary`2<System.String,ES3Internal.ES3Data> ES3File::cache
+    IL_0050: ldarg.1 
+    IL_0051: ldloc.2 
+    IL_0052: ldarg.2 
+    IL_0053: box T
+    IL_0058: ldloc.2 
+    IL_0059: ldloc.0 
+    IL_005A: call ES3::Serialize(Object, ES3Type, ES3Settings)
+    IL_005F: newobj ES3Data::.ctor(ES3Type, Byte[])
+    IL_0064: callvirt Dictionary`2::set_Item(!0, !1)
+    IL_0069: ret 
+
+=== ES3File::GetBytes(ES3Settings settings)  generic=0
+  .local 0 System.IO.MemoryStream
+  .local 1 ES3Settings
+  .local 2 ES3Writer
+  .local 3 System.Collections.Generic.Dictionary`2/Enumerator<System.String,ES3Internal.ES3Data>
+  .local 4 System.Collections.Generic.KeyValuePair`2<System.String,ES3Internal.ES3Data>
+  .local 5 System.Byte[]
+    IL_0000: ldarg.0 
+    IL_0001: ldfld System.Collections.Generic.Dictionary`2<System.String,ES3Internal.ES3Data> ES3File::cache
+    IL_0006: callvirt Dictionary`2::get_Count()
+    IL_000B: brtrue.s IL_0014
+    IL_000D: ldc.i4.0 
+    IL_000E: newarr System.Byte
+    IL_0013: ret 
+    IL_0014: ldarg.1 
+    IL_0015: brtrue.s IL_001F
+    IL_0017: ldarg.0 
+    IL_0018: ldfld ES3Settings ES3File::settings
+    IL_001D: starg.s settings
+    IL_001F: newobj MemoryStream::.ctor()
+    IL_0024: stloc.0 
+    IL_0025: ldarg.1 
+    IL_0026: callvirt ES3Settings::Clone()
+    IL_002B: castclass ES3Settings
+    IL_0030: stloc.1 
+    IL_0031: ldloc.1 
+    IL_0032: ldc.i4.2 
+    IL_0033: callvirt ES3Settings::set_location(Location)
+    IL_0038: ldloc.1 
+    IL_0039: ldfld System.Boolean ES3Settings::postprocessRawCachedData
+    IL_003E: brtrue.s IL_004E
+    IL_0040: ldloc.1 
+    IL_0041: ldc.i4.0 
+    IL_0042: stfld ES3/EncryptionType ES3Settings::encryptionType
+    IL_0047: ldloc.1 
+    IL_0048: ldc.i4.0 
+    IL_0049: stfld ES3/CompressionType ES3Settings::compressionType
+    IL_004E: ldloc.0 
+    IL_004F: ldloc.1 
+    IL_0050: ldc.i4.1 
+    IL_0051: call ES3Stream::CreateStream(Stream, ES3Settings, ES3FileMode)
+    IL_0056: ldloc.1 
+    IL_0057: ldc.i4.1 
+    IL_0058: ldc.i4.0 
+    IL_0059: call ES3Writer::Create(Stream, ES3Settings, Boolean, Boolean)
+    IL_005E: stloc.2 
+    IL_005F: ldarg.0 
+    IL_0060: ldfld System.Collections.Generic.Dictionary`2<System.String,ES3Internal.ES3Data> ES3File::cache
+    IL_0065: callvirt Dictionary`2::GetEnumerator()
+    IL_006A: stloc.3 
+    IL_006B: br.s IL_00A0
+    IL_006D: ldloca.s V_3
+    IL_006F: call Enumerator::get_Current()
+    IL_0074: stloc.s V_4
+    IL_0076: ldloc.2 
+    IL_0077: ldloca.s V_4
+    IL_0079: call KeyValuePair`2::get_Key()
+    IL_007E: ldloca.s V_4
+    IL_0080: call KeyValuePair`2::get_Value()
+    IL_0085: ldfld ES3Types.ES3Type ES3Internal.ES3Data::type
+    IL_008A: ldfld System.Type ES3Types.ES3Type::type
+    IL_008F: ldloca.s V_4
+    IL_0091: call KeyValuePair`2::get_Value()
+    IL_0096: ldfld System.Byte[] ES3Internal.ES3Data::bytes
+    IL_009B: callvirt ES3Writer::Write(String, Type, Byte[])
+    IL_00A0: ldloca.s V_3
+    IL_00A2: call Enumerator::MoveNext()
+    IL_00A7: brtrue.s IL_006D
+    IL_00A9: leave.s IL_00B9
+    IL_00AB: ldloca.s V_3
+    IL_00AD: constrained. System.Collections.Generic.Dictionary`2/Enumerator<System.String,ES3Internal.ES3Data>
+    IL_00B3: callvirt IDisposable::Dispose()
+    IL_00B8: endfinally 
+    IL_00B9: ldloc.2 
+    IL_00BA: ldc.i4.0 
+    IL_00BB: callvirt ES3Writer::Save(Boolean)
+    IL_00C0: leave.s IL_00CC
+    IL_00C2: ldloc.2 
+    IL_00C3: brfalse.s IL_00CB
+    IL_00C5: ldloc.2 
+    IL_00C6: callvirt IDisposable::Dispose()
+    IL_00CB: endfinally 
+    IL_00CC: ldloc.0 
+    IL_00CD: callvirt MemoryStream::ToArray()
+    IL_00D2: stloc.s V_5
+    IL_00D4: leave.s IL_00E0
+    IL_00D6: ldloc.0 
+    IL_00D7: brfalse.s IL_00DF
+    IL_00D9: ldloc.0 
+    IL_00DA: callvirt IDisposable::Dispose()
+    IL_00DF: endfinally 
+    IL_00E0: ldloc.s V_5
+    IL_00E2: ret 
+
+=== ES3Settings::Clone()  generic=0
+  .local 0 ES3Settings
+    IL_0000: ldnull 
+    IL_0001: ldnull 
+    IL_0002: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0007: stloc.0 
+    IL_0008: ldarg.0 
+    IL_0009: ldloc.0 
+    IL_000A: call ES3Settings::CopyInto(ES3Settings)
+    IL_000F: ldloc.0 
+    IL_0010: ret 
+

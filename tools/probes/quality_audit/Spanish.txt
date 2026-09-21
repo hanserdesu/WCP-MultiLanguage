@@ -1,0 +1,30 @@
+======================================================================
+    Spanish TEM-8 / CEFR Wordbook Full Audit
+======================================================================
+[OK  ] spanish_books.json exists
+[OK  ] total 8600 words: current 8600
+[OK  ] level distribution correct
+[OK  ] unique words
+[OK  ] IPA coverage >= 95%: missing 226
+[OK  ] Chinese meaning 100%: missing 0
+[OK  ] POS 100%
+[OK  ] meaning contains Chinese: bad 0
+[OK  ] sentences_master.json exists
+[OK  ] master covers all words
+[OK  ] 1:3 sentence ratio: 1:3.00
+[OK  ] import file 西班牙语专四基础.xlsx
+[OK  ] import file 西班牙语专四进阶.xlsx
+[OK  ] import file 西班牙语专八高阶.xlsx
+[OK  ] import file 西班牙语专八精通.xlsx
+[OK  ] import file 西班牙语考级词库(猫条版).xlsx
+[OK  ] import file wcp_spanish.db
+[OK  ] pron count
+[OK  ] spanish_all count
+[OK  ] db integrity
+[OK  ] word audio 8600: current 8600
+[OK  ] sentence audio coverage: 25800/25800 unique
+  word set fingerprint: 691bfd98ebb58e1e52071bb6c1c79e15e1338d163c79f13a03124dc3678541f1
+
+======================================================================
+  22/22 checks passed - ALL PASS
+======================================================================

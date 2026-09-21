@@ -1,0 +1,93 @@
+ASM Assembly-CSharp-firstpass
+
+=== ES3::Save(String key, Object value)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldnull 
+    IL_0003: ldnull 
+    IL_0004: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0009: call ES3::Save<Object>(String, T, ES3Settings)
+    IL_000E: ret 
+
+=== ES3::Save(String key, Object value, String filePath)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldarg.2 
+    IL_0003: ldnull 
+    IL_0004: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0009: call ES3::Save<Object>(String, T, ES3Settings)
+    IL_000E: ret 
+
+=== ES3::Save(String key, Object value, String filePath, ES3Settings settings)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldarg.2 
+    IL_0003: ldarg.3 
+    IL_0004: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0009: call ES3::Save<Object>(String, T, ES3Settings)
+    IL_000E: ret 
+
+=== ES3::Save(String key, Object value, ES3Settings settings)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldarg.2 
+    IL_0003: call ES3::Save<Object>(String, T, ES3Settings)
+    IL_0008: ret 
+
+=== ES3::Save(String key, T value)  generic=1
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldnull 
+    IL_0003: ldnull 
+    IL_0004: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0009: call ES3::Save<T>(String, T, ES3Settings)
+    IL_000E: ret 
+
+=== ES3::Save(String key, T value, String filePath)  generic=1
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldarg.2 
+    IL_0003: ldnull 
+    IL_0004: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0009: call ES3::Save<T>(String, T, ES3Settings)
+    IL_000E: ret 
+
+=== ES3::Save(String key, T value, String filePath, ES3Settings settings)  generic=1
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldarg.2 
+    IL_0003: ldarg.3 
+    IL_0004: newobj ES3Settings::.ctor(String, ES3Settings)
+    IL_0009: call ES3::Save<T>(String, T, ES3Settings)
+    IL_000E: ret 
+
+=== ES3::Save(String key, T value, ES3Settings settings)  generic=1
+  .local 0 ES3Writer
+    IL_0000: ldarg.2 
+    IL_0001: callvirt ES3Settings::get_location()
+    IL_0006: ldc.i4.4 
+    IL_0007: bne.un.s IL_0017
+    IL_0009: ldarg.2 
+    IL_000A: call ES3File::GetOrCreateCachedFile(ES3Settings)
+    IL_000F: ldarg.0 
+    IL_0010: ldarg.1 
+    IL_0011: callvirt ES3File::Save<T>(String, T)
+    IL_0016: ret 
+    IL_0017: ldarg.2 
+    IL_0018: call ES3Writer::Create(ES3Settings)
+    IL_001D: stloc.0 
+    IL_001E: ldloc.0 
+    IL_001F: ldarg.0 
+    IL_0020: ldarg.1 
+    IL_0021: box T
+    IL_0026: callvirt ES3Writer::Write<T>(String, Object)
+    IL_002B: ldloc.0 
+    IL_002C: callvirt ES3Writer::Save()
+    IL_0031: leave.s IL_003D
+    IL_0033: ldloc.0 
+    IL_0034: brfalse.s IL_003C
+    IL_0036: ldloc.0 
+    IL_0037: callvirt IDisposable::Dispose()
+    IL_003C: endfinally 
+    IL_003D: ret 
+

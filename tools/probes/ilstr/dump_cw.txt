@@ -1,0 +1,87 @@
+######## ClassifyWordS8::CompleteThis ########
+ASM Assembly-CSharp
+
+=== DUMP ClassifyWordS8::CompleteThis
+    IL_0000: ldstr "S8Progress_Para"
+    IL_0005: ldsfld MyParameters::S8Progress_Para
+    IL_000A: call ES3::Load
+    IL_000F: stsfld MyParameters::S8Progress_Para
+    IL_0014: ldsfld MyParameters::S8LookBack_Para
+    IL_0019: ldsfld MyParameters::S8Progress_Para
+    IL_001E: bge.s 50
+    IL_0020: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0025: ldsfld MyParameters::S8LookBack_Para
+    IL_002A: callvirt List`1::get_Item
+    IL_002F: stloc.0
+    IL_0030: br.s 62
+    IL_0032: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0037: ldc.i4.0
+    IL_0038: callvirt List`1::get_Item
+    IL_003D: stloc.0
+    IL_003E: ldstr "S8HaveLearnedWordList_Para"
+    IL_0043: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0048: call ES3::Load
+    IL_004D: stsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0052: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0057: ldloc.0
+    IL_0058: callvirt List`1::Add
+    IL_005D: ldstr "S8HaveLearnedWordList_Para"
+    IL_0062: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0067: call ES3::Save
+    IL_006C: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0071: callvirt List`1::get_Count
+    IL_0076: stloc.1
+    IL_0077: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_007C: ldloc.1
+    IL_007D: ldc.i4.1
+    IL_007E: sub
+    IL_007F: callvirt List`1::get_Item
+    IL_0084: pop
+    IL_0085: ldstr "S8HaveLearnedStatusList_Para"
+    IL_008A: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_008F: call ES3::Load
+    IL_0094: stsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_0099: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_009E: ldarg.1
+    IL_009F: callvirt List`1::Add
+    IL_00A4: ldstr "S8HaveLearnedStatusList_Para"
+    IL_00A9: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_00AE: call ES3::Save
+    IL_00B3: ldstr "S8needToLearnWordList_Para"
+    IL_00B8: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00BD: call ES3::Load
+    IL_00C2: stsfld MyParameters::S8needToLearnWordList_Para
+    IL_00C7: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00CC: callvirt List`1::get_Count
+    IL_00D1: ldc.i4.0
+    IL_00D2: ble.s 238
+    IL_00D4: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00D9: ldc.i4.0
+    IL_00DA: callvirt List`1::RemoveAt
+    IL_00DF: ldstr "S8needToLearnWordList_Para"
+    IL_00E4: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00E9: call ES3::Save
+    IL_00EE: ldstr "testerxxxx--1222"
+    IL_00F3: call Debug::Log
+    IL_00F8: ldarg.0
+    IL_00F9: ldfld ClassifyWordS8::UpdateLastLearnTimeButton
+    IL_00FE: callvirt Button::get_onClick
+    IL_0103: callvirt UnityEvent::Invoke
+    IL_0108: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_010D: callvirt List`1::get_Count
+
+######## callers ClassifyWordS8::CompleteThis ########
+ASM Assembly-CSharp
+
+=== CALLERS OF ClassifyWordS8::CompleteThis
+    ClassifyWordS8 :: Vague(0p)
+    ClassifyWordS8 :: Remember(0p)
+    count=2
+
+######## callers SetInputFieldValueS8::CompleteThis ########
+ASM Assembly-CSharp
+
+=== CALLERS OF SetInputFieldValueS8::CompleteThis
+    SetInputFieldValueS8 :: Vague(0p)
+    SetInputFieldValueS8 :: Remember(0p)
+    count=2

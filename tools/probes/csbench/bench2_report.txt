@@ -1,0 +1,22 @@
+== WCP round-7 identity/UI-scan benchmark ==
+clr=4.0.30319.42000 64bit=True
+A0 store bytes = 1222533
+A1 File.ReadAllText(store 1.22MB) = 4.4 ms
+A2 Json.Parse(store 908K chars)  = 20.6 ms
+A3 store rows with words = 13  (word counts: 7922,8451,8116,8062,384,7330,8118,8599,8599,7922,8116,8451,8062)
+A4 13 x FingerprintOf(store rows) = 20.7 ms  (1.59 ms/row)
+A5 == RefreshCache total (miss)  = 45.8 ms
+B0 MyBook.es3 bytes = 2101461 (ES3 = whole-file JSON)
+B1 File.ReadAllBytes(MyBook.es3 2.1MB) = 0.9 ms
+B2 book text chars = 1409190
+B3 Json.Parse(MyBook.es3 1409K chars)  = 21.8 ms
+B4 == one SlotWords(slot) lower bound = 22.6 ms  (read+parse; ES3 adds reflection + boxing)
+B5   => 32 calls (4 slots x 8 rows, all cache misses) = 725 ms
+B6 real slot lists: SelfBookList1=7922 SelfBookList2=8116 SelfBookList3=8451 SelfBookList4=8062
+C1 FingerprintOf(7922 words) = 1.26 ms
+C2 FingerprintOf(8116 words) = 1.96 ms
+C3 FingerprintOf(8451 words) = 3.75 ms
+C4 FingerprintOf(8062 words) = 1.98 ms
+D1 per row (loop 4 slots) = 110 ms
+D2 x 5 rows = 550 ms per scan
+D3 scans per 10s window (cache wiped every 10s) = 0.5 s of main thread

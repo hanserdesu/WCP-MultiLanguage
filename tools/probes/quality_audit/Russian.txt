@@ -1,0 +1,38 @@
+[OK] 词书构建 {'a1': 985, 'a2': 1945, 'b1': 3026, 'b2': 2495} 合计 8451
+[OK] 例句 master (每词3条) 8451 词
+[OK] 单词音频 (vocabulary/ 或 ru_word_audio/) 8451/8451
+[OK] 例句音频 sentence_audio/ 25353/25353
+[OK] 例句音频两端 md5 契约 (ExtractRu) 25353 唯一句提取 0 漂移
+[OK] 自愈探针在词表中 (DbProbes) 4 个探针全命中
+[NG] wcpFullEng.db pron 0/8451
+[NG] wcpFullEng.db sentence2(每词>=3) 缺例词 8451, 格式异常抽检 0/0
+   样例: -
+[NG] wcpOnlyWord.db pron 0/8451
+[OK] MyBook 槽位3(俄语合并单册) 8451/8451 词
+[NG] MyBook 槽位4 (空或保留德语书) 8062 词
+[OK] MyBook 槽位1 日语书保留 7922 词
+[OK] MyBook 槽位2 法语书保留 8116 词
+[OK] MyBook.es3 ES3 __type 包装完整 全部顶层键包含 __type
+[OK] 导入文件 俄语A1A2.xlsx
+[OK] 导入文件 俄语B1.xlsx
+[OK] 导入文件 俄语B2.xlsx
+[OK] 导入文件 wcp_russian.db
+[OK] xlsx 无表头 俄语A1A2.xlsx A1='я'
+[OK] xlsx 无表头 俄语B1.xlsx A1='позволить'
+[OK] xlsx 无表头 俄语B2.xlsx A1='уверить'
+[OK] persistentDataPath 俄语A1A2.xlsx
+[OK] persistentDataPath 俄语B1.xlsx
+[OK] persistentDataPath 俄语B2.xlsx
+[OK] persistentDataPath wcp_russian.db
+[OK] BookProfiles.cs 三副本一致 sha256=727880a0d56aa801
+[OK] 词书指纹三方一致 (MyBook 词表 / C# 常量 / payload) fp=dfecb0ab75e9b3ef 词数=8451
+[OK] ru_db_payload 离线自愈包 齐全 (4 文件)
+[OK] 插件 BookNameMod.dll
+[OK] 插件 SentenceAudioRuMod.dll
+[OK] 插件 RuWordListMod.dll
+[OK] BepInEx BookNameMod.dll 部署
+[OK] BepInEx SentenceAudioRuMod.dll 部署
+[OK] BepInEx RuWordListMod.dll 部署
+[OK] 一键安装包目录与入口
+
+总体: 存在未通过项

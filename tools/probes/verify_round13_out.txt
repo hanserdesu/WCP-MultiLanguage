@@ -1,0 +1,8 @@
+repo == deployed (byte-identical): True  sha256=ab5c5632f591f393d36ee10b824ac78325fba4622532dddc0afaa349c707233f  size=107520 B
+  present 行为 Harmony 接线已在加载期安装         OK
+  present 身份门通过前所有处理器空转                OK
+  present Harmony 接线完成                 OK
+  present 快路径命中=                       OK
+  absent  Awake 期解析普查                  OK
+  absent  行为接线等待身份门通过                  OK
+VERIFY ROUND 13: PASS

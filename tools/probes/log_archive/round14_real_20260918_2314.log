@@ -1,0 +1,1097 @@
+Mono path[0] = 'e:/steam/steamapps/common/WCP-WordGirlgriend/wcp_Data/Managed'
+Mono config path = 'e:/steam/steamapps/common/WCP-WordGirlgriend/MonoBleedingEdge/etc'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Initialize engine version: 2023.2.20f1c1 (881fe566f400)
+[Subsystems] Discovering subsystems at path e:/steam/steamapps/common/WCP-WordGirlgriend/wcp_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164e)
+    Vendor:   ATI
+    VRAM:     47909 MB
+    Driver:   32.0.21045.5002
+Failed to set the cursor because the specified texture ('指针') was not CPU accessible.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.223 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Message:   BepInEx] BepInEx 5.4.23.5 - wcp (2026/9/12 6:19:42)
+[Info   :   BepInEx] Running under Unity v2023.2.20.8921061
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.5]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 13 plugins to load
+[Info   :   BepInEx] Loading [WCP Book Name 1.3.1]
+[Info   :WCP Book Name] BookName: Harmony patch OK (SonBookChoose guarded)
+[Info   :   BepInEx] Loading [WCP Custom Slots 1.2.2]
+[Info   :WCP Custom Slots] CustomSlots: store bytes=955416
+[Info   :WCP Custom Slots] CustomSlots: store loaded; rows=20; selected=1
+[Info   :WCP Custom Slots] CustomSlots: 原生槽位探测 = 4（下限 4；作者加槽会自动跟随）
+[Info   :WCP Custom Slots] CustomSlots: serializer round-trip bytes=955416; rows=20 -> 20 (OK)
+[Info   :WCP Custom Slots] CustomSlots: store saved; bytes=955416; filledRows=13; selected=1
+[Info   :WCP Custom Slots] CustomSlots: Harmony patch OK; logical slots=20; native mirror rows imported=0
+[Info   :WCP Custom Slots] CustomSlots: 兼容层解析结果 → 类型=WordChooseButtonS10; 入口=OnBookButtonClicked(Int32)
+[Info   :WCP Custom Slots] CustomSlots: 显式补挂 WordChooseButtonS10.OnBookButtonClicked
+[Info   :WCP Custom Slots] CustomSlots: patch 状态 WordChooseButtonS10.OnBookButtonClicked postfixes=1（已挂上）
+[Info   :   BepInEx] Loading [WCP DE Word List 1.2.0]
+[Warning:WCP DE Word List] DEWordList: WcpHost 已接管德语, 旧词表插件不再打补丁, 轮询 Enforce 一并停用 (Legacy/YieldToHost=false 可强制旧模式)。
+[Info   :   BepInEx] Loading [WCP FR Word List 1.2.0]
+[Warning:WCP FR Word List] FRWordList: WcpHost 已接管法语, 旧词表插件不再打补丁, 轮询 Enforce 一并停用 (Legacy/YieldToHost=false 可强制旧模式)。
+[Info   :   BepInEx] Loading [WCP JP Word List 1.7.7]
+[Warning:WCP JP Word List] JPWordList: WcpHost 已接管日语, 旧词表插件不再打补丁, 轮询 Enforce 一并停用 (Legacy/YieldToHost=false 可强制旧模式)。
+[Info   :   BepInEx] Loading [WCP RU Word List 1.2.0]
+[Warning:WCP RU Word List] RUWordList: WcpHost 已接管俄语, 旧词表插件不再打补丁, 轮询 Enforce 一并停用 (Legacy/YieldToHost=false 可强制旧模式)。
+[Info   :   BepInEx] Loading [WCP Sentence Audio 1.0.0]
+[Info   :WCP Sentence Audio] patched SoundTheWordS8.OnButton1Click
+[Info   :WCP Sentence Audio] WCP Sentence Audio 1.2.0 loaded, pack dir = C:\Users\hanserdesu\AppData\LocalLow\WCP\packs\ja\audio\sentence (存在=True)
+[Info   :   BepInEx] Loading [WCP Sentence Audio DE 1.0.0]
+[Info   :WCP Sentence Audio DE] patched SoundTheWordS8.OnButton1Click
+[Info   :WCP Sentence Audio DE] WCP Sentence Audio 1.1.0 loaded, pack dir = C:\Users\hanserdesu\AppData\LocalLow\WCP\packs\de\audio\sentence (存在=True), legacy fallback = False
+[Info   :   BepInEx] Loading [WCP Sentence Audio FR 1.0.0]
+[Info   :WCP Sentence Audio FR] patched SoundTheWordS8.OnButton1Click
+[Info   :WCP Sentence Audio FR] WCP Sentence Audio 1.1.0 loaded, pack dir = C:\Users\hanserdesu\AppData\LocalLow\WCP\packs\fr\audio\sentence (存在=True), legacy fallback = False
+[Info   :   BepInEx] Loading [WCP Sentence Audio RU 1.0.0]
+[Info   :WCP Sentence Audio RU] patched SoundTheWordS8.OnButton1Click (RU)
+[Info   :WCP Sentence Audio RU] WCP Sentence Audio RU 1.1.0 loaded, pack dir = C:\Users\hanserdesu\AppData\LocalLow\WCP\packs\ru\audio\sentence (存在=True)
+[Info   :   BepInEx] Loading [WCP Sentence Audio YUE 1.0.0]
+[Info   :WCP Sentence Audio YUE] patched SoundTheWordS8.OnButton1Click
+[Info   :WCP Sentence Audio YUE] WCP Sentence Audio 1.1.0 loaded, pack dir = C:\Users\hanserdesu\AppData\LocalLow\WCP\packs\yue\audio\sentence (存在=True), legacy fallback = False
+[Info   :   BepInEx] Loading [WCP Host 0.5.2]
+[Info   :  WCP Host] WcpHost: packs 根 = C:\Users\hanserdesu\AppData\LocalLow\WCP\packs
+[Info   :  WCP Host] WcpHost: 加载到 9 个语言包
+[Info   :  WCP Host] WcpHost:   [ar] catbar-ar-complete 阿拉伯语词库(猫条版) 词=8118 槽=0 指纹=50c9c0b47ac348b2
+[Info   :  WCP Host] WcpHost:   [de] catbar-german-complete 德语词库(猫条版) 词=8062 槽=4 指纹=66bded175dee70d9
+[Info   :  WCP Host] WcpHost:   [es] catbar-es-complete 西班牙语词库(猫条版) 词=8599 槽=0 指纹=52b3507136fedc95
+[Info   :  WCP Host] WcpHost:   [fr] catbar-french-cefr-complete 法语词库(猫条版) 词=8116 槽=2 指纹=376af2eae0292052
+[Info   :  WCP Host] WcpHost:   [ja] catbar-jlpt-complete 日语词库(猫条版) 词=7922 槽=1 指纹=6d7a51c0c5d30dd6
+[Info   :  WCP Host] WcpHost:   [ko] catbar-ko-complete 韩语词库(猫条版) 词=7330 槽=0 指纹=ff64542ef480b8ed
+[Info   :  WCP Host] WcpHost:   [pt] catbar-pt-complete 葡萄牙语词库(猫条版) 词=8599 槽=0 指纹=9c2b019f2d8f3eae
+[Info   :  WCP Host] WcpHost:   [ru] catbar-russian-cefr-complete 俄语词库(猫条版) 词=8451 槽=3 指纹=dfecb0ab75e9b3ef
+[Info   :  WCP Host] WcpHost:   [yue] catbar-cantonese-complete 粤语词库(猫条版) 词=384 槽=4 指纹=0748ca590e7caf6c
+[Info   :  WCP Host] WcpHost: 槽位预算 9 个语言包 / 4 槽，注册表预分配 4 槽（0=候选包） — 通过
+[Info   :  WCP Host] WcpHost: 策略装载 9/9（缺失策略时仅保留身份层）
+[Warning:  WCP Host] WcpHost: 语言包提示: observed_slot 撞槽 4: de / yue（不丢包, 槽位按指纹运行时判定）
+[Info   :  WCP Host] WcpHost: Harmony 接线完成 — 命中目标方法 59 个（harmony.Patch 调用 59 次，类型解析失败 0 个；单点失败已按 warn 逐条打印）
+[Info   :  WCP Host] WcpHost: 行为 Harmony 接线已在加载期安装（身份门通过前所有处理器空转）
+[Info   :  WCP Host] WcpHost: 身份轮询已启用（兼容旧选书补丁）
+[Info   :   BepInEx] Loading [WCP Yue Word List 1.2.0]
+[Warning:WCP Yue Word List] YueWordList: WcpHost 已接管粤语, 旧词表插件不再打补丁, 轮询 Enforce 一并停用 (Legacy/YieldToHost=false 可强制旧模式)。
+[Message:   BepInEx] Chainloader startup complete
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+New input system (experimental) initialized
+Using Windows.Gaming.Input
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'ShowHideButton') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (spine_03)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Virtual Deformer (Rifle_Hair) (1)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Sphere Collider (spine_02)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Mesh Cloth (Rifle_Full_Body) (1)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Bone Cloth (Rifle_Full_Body) (1)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (spine_01)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (lowerarm_r)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (clavicle_l)') is missing!
+The referenced script on this Behaviour (Game Object 'Rifle_Hair') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (upperarm_l)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (head)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (upperarm_r)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (clavicle_r)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (lowerarm_l)') is missing!
+UnloadTime: 1.389400 ms
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. e:/steam/steamapps/common/WCP-WordGirlgriend/wcp_Data/sharedassets0.resource
+判断刷新0【testerNN】-->上次更新时间：2026/9/18 8:19:16  这次登录时间：2026/9/18 23:11:54  上次更新门槛----》2026/9/18 4:00:00
+checkTime---1--->2026/9/18 4:00:00
+checkTime---2 回退--->2026/9/18 4:00:00
+判断刷新1---》没有跨过任何刷新时间
+【testerNN】-->-------这次不更新!!!
+今日已学词选取标签---->1, 2, 3, 4, 0
+今日已学词【战斗】---->
+[Info   :  WCP Host] WcpHost: ES3 批量写已启用（一次整档读写替代 N 次逐键写，path=SaveFile.es3）
+【今日新学词】-->-------》0  【所有新学词】-->-------》0
+存到文件num---》16
+Save File Path: C:/Users/hanserdesu/AppData/LocalLow/WCP/wcp\SaveFile.es3
+Copy File Path: C:/Users/hanserdesu/AppData/LocalLow/WCP/wcp\SaveFile_Copy16.es3
+Copied SaveFile.es3 to C:/Users/hanserdesu/AppData/LocalLow/WCP/wcp\SaveFile_Copy16.es3
+目标文件已存在，无需拷贝。
+testerxxx---PreloadAudioClipAsync
+G2_Clothes4_SummerDress
+学习计划:True  完成每日学习:True  战斗单词设置:True  战胜数:125  买过衣服:True  打工过:True  序章完成情况:3  所有新手任务完成:True  打工上限金额:1000   复习方式：1   高清动态CG：False   林霏霏袜子总数：41  背包1：151  背包2：0  背包3：0  背包4：0  背包5：0  背包6：0  背包7：0  背包8：0  S7_BagUnlock：0  背包6： 武器背包：0 头盔背包：0 护甲背包：0 便装背包：0 手套背包：0 鞋子背包：0 饰品背包：0 补给背包：0
+testerxxxxxxxxx启动SyncHaveLearnedDictionaryThis
+【tester**】---》无暂时的已学词
+当前MSAA: 4
+已经读取了settedMonsterWordIf---》True
+已存在 0706 语音包标记文件，无需操作。
+当前时间：2026-09-18 23:11:59
+超过了预定时间：2026-05-26 20:00:00
+版本---》正式版
+CheatMode--->False
+DemoIf--->False
+OfficialCheck--->False
+UnlockAchievementIf--->True
+Achievement [NEW_ACHIEVEMENT_3_0] unlocked
+Achievement [NEW_ACHIEVEMENT_3_1] unlocked
+Achievement [NEW_ACHIEVEMENT_3_2] unlocked
+Achievement [NEW_ACHIEVEMENT_3_5] unlocked
+Achievement [NEW_ACHIEVEMENT_3_100] unlocked
+Achievement [NEW_ACHIEVEMENT_3_3] unlocked
+Achievement [NEW_ACHIEVEMENT_3_4] unlocked
+Achievement [NEW_ACHIEVEMENT_3_7] unlocked
+[Info   :  WCP Host] WcpHost: 受管语言登记 = [ar,de,es,fr,ja,ko,pt,ru,yue] -> e:\steam\steamapps\common\WCP-WordGirlgriend\BepInEx\config\WcpHost.managed.txt
+[Info   :  WCP Host] WcpHost: 未激活 · 词表 4079 条未命中任何语言包 — 非受管词书
+[Info   :  WCP Host] WcpHost: 长帧 317ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 159ms — mod 本帧占用 2.1ms（1.3%） GC本帧=0:0 1:0 2:0 本帧 Top=身份:托管登记 x1=1.9ms(单次1.9ms) ; 身份:Evaluate x1=0.2ms(单次0.2ms) ; 身份:读落盘书名 x1=0.1ms(单次0.1ms) ; 身份:匹配内存词表 x1=0.1ms(单次0.1ms) ; 身份:读内存词表 x1=0.0ms(单次0.0ms) ; 身份:槽号 x1=0.0ms(单次0.0ms) ; 补丁:Sync x1=0.0ms(单次0.0ms)
+[Info   :  WCP Host] WcpHost: 长帧 338ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 187ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+Can not play a disabled audio source
+[Info   :  WCP Host] WcpHost: 长帧 195ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=4.4 帧=44 最差帧=6839ms 卡顿帧(>=50ms)=32 窗口=10.0s | mod 主线程占用=8.0ms/窗口（GC 基线建立）
+[Info   :  WCP Host] WcpHost: 长帧 160ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+testerJJ---》正式版，直接进入
+Unloading 9 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 17.062500 ms
+Unloading 445 unused Assets to reduce memory usage. Loaded Objects now: 6004.
+Total: 35.603900 ms (FindLiveObjects: 0.408400 ms CreateObjectMapping: 0.318000 ms MarkObjects: 28.005900 ms  DeleteObjects: 6.871100 ms)
+
+Setting up 12 worker threads for Enlighten.
+[Info   :  WCP Host] WcpHost: 长帧 255ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioShaderController) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (upperarm_l)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (head)') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[Info   :  WCP Host] WcpHost: 长帧 151ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:1 1:1 2:1 本帧 Top=无 mod 操作
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (clavicle_r)') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (spine_01)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (clavicle_r)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (spine_03)') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-lightning') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-lightning') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-lightning') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Magica Sphere Collider (spine_02)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Bone Cloth (Rifle_Full_Body) (1)') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-lightning') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Magica Mesh Cloth (Rifle_Full_Body) (1)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Virtual Deformer (Rifle_Hair) (1)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Bone Cloth (Rifle_Full_Body) (1)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (lowerarm_l)') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-lightning') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-lightning') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Magica Mesh Cloth (Rifle_Full_Body) (1)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (head)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Sphere Collider (spine_02)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (spine_03)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (lowerarm_r)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (upperarm_r)') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-lightning') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (spine_01)') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'CheatModeManager') is missing!
+The referenced script on this Behaviour (Game Object 'CheatModeManager') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-lightning') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (upperarm_l)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Virtual Deformer (Rifle_Hair) (1)') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (upperarm_r)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (clavicle_l)') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-lightning') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (lowerarm_r)') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Rifle_Hair') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-lightning') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (lowerarm_l)') is missing!
+The referenced script on this Behaviour (Game Object 'Magica Capsule Collider (clavicle_l)') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'New Magio Effect-stone') is missing!
+A scripted object (probably Magio.PreviewMagioShaderController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+Unloading 6 Unused Serialized files (Serialized files now loaded: 1)
+[Info   :  WCP Host] WcpHost: 长帧 161ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 152ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 152ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 305ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+UnloadTime: 0.787300 ms
+SALSA-manager-npc-Girl2 [CrazyMinnow.SALSA.Emoter] configuration is not complete. STOP runtime, RESOLVE configuration, and PLAY again. If this is a runtime configuration, this message can be ignored.
+SALSA-manager-npc-Girl1 [CrazyMinnow.SALSA.Emoter] configuration is not complete. STOP runtime, RESOLVE configuration, and PLAY again. If this is a runtime configuration, this message can be ignored.
+SALSA-manager-Girl1 [CrazyMinnow.SALSA.Emoter] configuration is not complete. STOP runtime, RESOLVE configuration, and PLAY again. If this is a runtime configuration, this message can be ignored.
+SALSA-manager-npc-Girl5 (1) [CrazyMinnow.SALSA.Emoter] configuration is not complete. STOP runtime, RESOLVE configuration, and PLAY again. If this is a runtime configuration, this message can be ignored.
+PersistentSceneCacheManager: 新实例（ID: 84952）已被设置为全局单例 Instance。
+SALSA-manager-npc-Girl5 [CrazyMinnow.SALSA.Emoter] configuration is not complete. STOP runtime, RESOLVE configuration, and PLAY again. If this is a runtime configuration, this message can be ignored.
+SALSA-manager-npc-Girl4 [CrazyMinnow.SALSA.Emoter] configuration is not complete. STOP runtime, RESOLVE configuration, and PLAY again. If this is a runtime configuration, this message can be ignored.
+SALSA-manager-npc-Girl3 [CrazyMinnow.SALSA.Emoter] configuration is not complete. STOP runtime, RESOLVE configuration, and PLAY again. If this is a runtime configuration, this message can be ignored.
+MyParameters.ClothesShopDays-->3
+【printerX】StoryManagerS4.JustPlay->Play
+【printerX】MyParameters.finishPlotTimes[0]->0
+【printerX】MyParameters.finishPlotTimes[1]->0
+【printerX】MyParameters.finishPlotTimes[2]->0
+【printerX】MyParameters.finishPlotTimes[3]->0
+【printerX】MyParameters.finishPlotTimes[4]->0
+【printerX】MyParameters.G1_PlotDone->0
+【printerX】MyParameters.G2_PlotDone->0
+【printerX】MyParameters.G3_PlotDone->0
+【printerX】MyParameters.G4_PlotDone->0
+【printerX】MyParameters.G5_PlotDone->0
+【printerX】MyParameters.memoryModeIf->False
+PersistentSceneCacheManager: 开始后台预读 2 个场景...
+MyParameters.Initial_PlotDone-->3
+The character with Unicode value \u89C9 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text (TMP)].
+The character with Unicode value \u9192 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text (TMP)].
+The character with Unicode value \u53D8 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text (TMP)].
+The character with Unicode value \u8EAB was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text (TMP)].
+The character with Unicode value \u89C9 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text (TMP)].
+The character with Unicode value \u9192 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text (TMP)].
+The character with Unicode value \u53D8 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text (TMP)].
+The character with Unicode value \u8EAB was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text (TMP)].
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 55869.
+Total: 56.985800 ms (FindLiveObjects: 8.085200 ms CreateObjectMapping: 1.322900 ms MarkObjects: 46.077900 ms  DeleteObjects: 1.499300 ms)
+
+[Info   :  WCP Host] WcpHost: 长帧 6335ms — mod 本帧占用 2.2ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=身份:托管登记 x1=2.0ms(单次2.0ms) ; 身份:Evaluate x1=0.2ms(单次0.2ms) ; 身份:读落盘书名 x1=0.1ms(单次0.1ms) ; 身份:匹配内存词表 x1=0.1ms(单次0.1ms) ; 身份:读内存词表 x1=0.0ms(单次0.0ms) ; 身份:槽号 x1=0.0ms(单次0.0ms) ; 补丁:Sync x1=0.0ms(单次0.0ms)
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=9.3 帧=132 最差帧=6335ms 卡顿帧(>=50ms)=75 窗口=14.1s | mod 主线程占用=33.3ms/窗口，长帧=13 次 | GC窗口=0:16 1:16 2:16 堆=+24MB | 快路径命中=内存词表指纹 12/12 | 窗口 Top（累计）=补丁:选词与刷新 x1=1541.5ms(单次1541.5ms) ; 补丁:场景钩子 x1=1052.4ms(单次1052.4ms) ; 场景:强制校正 x5=458.8ms(单次455.1ms) ; 补丁:词典 x1=225.4ms(单次225.4ms) ; ES3:批量写(装载) x1=126.9ms(单次126.9ms) ; 补丁:显示 x1=122.8ms(单次122.8ms) ; 补丁:音频 x1=62.8ms(单次62.8ms) ; 身份:读内存词表 x18=56.3ms(单次56.1ms) ; ES3:批量写(提交) x1=49.7ms(单次49.7ms) ; 身份:读落盘书名 x18=44.5ms(单次38.5ms) ; ES3:落盘书名 x5=40.9ms(单次37.5ms) ; 身份:托管登记 x13=30.8ms(单次3.2ms) ; …共16个标签
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script (Magio.PreviewMagioVFXController) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'skirt_center.L') is missing!
+The referenced script on this Behaviour (Game Object 'skirt_side.L') is missing!
+The referenced script on this Behaviour (Game Object 'boobs.R') is missing!
+The referenced script on this Behaviour (Game Object 'R_jacket.001') is missing!
+The referenced script on this Behaviour (Game Object 'ULegCollider.L') is missing!
+The referenced script on this Behaviour (Game Object 'headcol (1)') is missing!
+The referenced script on this Behaviour (Game Object 'armcol_R (1)') is missing!
+The referenced script on this Behaviour (Game Object 'corset_ribbon.root') is missing!
+The referenced script on this Behaviour (Game Object 'L_jacket.002') is missing!
+The referenced script on this Behaviour (Game Object 'armcol_L (1)') is missing!
+The referenced script on this Behaviour (Game Object 'L_jacket.001') is missing!
+The referenced script on this Behaviour (Game Object 'hair_side.R.004') is missing!
+The referenced script on this Behaviour (Game Object 'skirt_center.R') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.L') is missing!
+The referenced script on this Behaviour (Game Object 'armcol_R (2)') is missing!
+The referenced script on this Behaviour (Game Object 'hip_col') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'leg_col_R') is missing!
+The referenced script on this Behaviour (Game Object 'Lower Leg.R.001') is missing!
+The referenced script on this Behaviour (Game Object 'hair_center') is missing!
+The referenced script on this Behaviour (Game Object 'Upper Leg.R') is missing!
+The referenced script on this Behaviour (Game Object 'breast.root') is missing!
+The referenced script on this Behaviour (Game Object 'bigribon') is missing!
+The referenced script on this Behaviour (Game Object 'skirt_back.L') is missing!
+The referenced script on this Behaviour (Game Object 'arm_ribbon.root.L') is missing!
+The referenced script on this Behaviour (Game Object 'arm_ribbon.root.R') is missing!
+The referenced script on this Behaviour (Game Object 'R_strap2.001') is missing!
+The referenced script on this Behaviour (Game Object 'leg_col_L') is missing!
+The referenced script on this Behaviour (Game Object 'Lower Leg.L.001') is missing!
+The referenced script on this Behaviour (Game Object 'necklace.001') is missing!
+The referenced script on this Behaviour (Game Object 'skirt_center') is missing!
+The referenced script on this Behaviour (Game Object 'chestcol_ponytail') is missing!
+The referenced script on this Behaviour (Game Object 'hair_side.L.004') is missing!
+The referenced script on this Behaviour (Game Object 'boobs.L') is missing!
+The referenced script on this Behaviour (Game Object 'Bootlace.L') is missing!
+The referenced script on this Behaviour (Game Object 'ULegCollider.R') is missing!
+The referenced script on this Behaviour (Game Object 'Lower Arm.L.001') is missing!
+The referenced script on this Behaviour (Game Object 'New Magio Effect-fire') is missing!
+A scripted object (probably Magio.PreviewMagioVFXController?) has a different serialization layout when loading. (Read 32 bytes but expected 48 bytes)
+Did you #if UNITY_EDITOR a section of your serialized properties in any of your scripts?
+The referenced script on this Behaviour (Game Object 'bunny.L') is missing!
+The referenced script on this Behaviour (Game Object 'hair_side.L') is missing!
+The referenced script on this Behaviour (Game Object 'skirt_side.R') is missing!
+The referenced script on this Behaviour (Game Object 'skirt_back') is missing!
+The referenced script on this Behaviour (Game Object 'L_strap2.001') is missing!
+The referenced script on this Behaviour (Game Object 'Lower Arm.R.001') is missing!
+The referenced script on this Behaviour (Game Object 'bunny.R') is missing!
+The referenced script on this Behaviour (Game Object 'skirt_back.R') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.root') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.root') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.root') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.root') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.root') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.root') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.root') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.root') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.root') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.root') is missing!
+The referenced script on this Behaviour (Game Object 'chestcol_2') is missing!
+The referenced script on this Behaviour (Game Object 'Bootlace.R') is missing!
+The referenced script on this Behaviour (Game Object 'L_jacket.003') is missing!
+The referenced script on this Behaviour (Game Object 'skirt.R') is missing!
+The referenced script on this Behaviour (Game Object 'FloorCollider') is missing!
+The referenced script on this Behaviour (Game Object 'R_strap.001') is missing!
+The referenced script on this Behaviour (Game Object 'zipslider') is missing!
+The referenced script on this Behaviour (Game Object 'キャミソール') is missing!
+The referenced script on this Behaviour (Game Object 'Upper Leg.L') is missing!
+The referenced script on this Behaviour (Game Object 'Bjacket') is missing!
+The referenced script on this Behaviour (Game Object 'headcol') is missing!
+The referenced script on this Behaviour (Game Object 'R_jacket.003') is missing!
+The referenced script on this Behaviour (Game Object 'HipCollider') is missing!
+The referenced script on this Behaviour (Game Object 'L_strap.001') is missing!
+The referenced script on this Behaviour (Game Object 'armcol_L (2)') is missing!
+The referenced script on this Behaviour (Game Object 'chestcol_1') is missing!
+The referenced script on this Behaviour (Game Object 'choker') is missing!
+The referenced script on this Behaviour (Game Object 'R_jacket.002') is missing!
+The referenced script on this Behaviour (Game Object 'tail_root') is missing!
+The referenced script on this Behaviour (Game Object 'hair_side.R') is missing!
+[Info   :  WCP Host] WcpHost: 长帧 362ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 165ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+There can be only one active Event System.
+RenderPipeline 不一致，正在切换到: MyURP_Asset
+背包场景初始化运行
+initial showLine---->25
+after showLine---->26
+场景 Scene14_Equipment 预热完成（已在内存中隐藏）
+There are 2 Transition Managers in your scene. Please ensure there is only one Transition Manager in your scene or overlapping transitions may occur.
+[Info   :  WCP Host] WcpHost: 长帧 1502ms — mod 本帧占用 3.2ms（0.2%） GC本帧=0:0 1:0 2:0 本帧 Top=身份:托管登记 x1=1.9ms(单次1.9ms) ; 身份:Evaluate x1=1.3ms(单次1.3ms) ; 身份:读落盘书名 x1=1.2ms(单次1.2ms) ; ES3:落盘书名 x1=1.1ms(单次1.1ms) ; 身份:匹配内存词表 x1=0.1ms(单次0.1ms) ; 身份:读内存词表 x1=0.0ms(单次0.0ms) ; 身份:槽号 x1=0.0ms(单次0.0ms) ; 补丁:Sync x1=0.0ms(单次0.0ms)
+[Info   :  WCP Host] WcpHost: 长帧 604ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+要解锁成就啦！
+场景 Scene18_Gallery 预热完成（已在内存中隐藏）
+<color=green>所有场景预热完毕，可以开始高性能秒换！</color>
+加载成功 -> Index: 0 | Key: Assets/Scenes/PeoplePrefabFinal/13.prefab
+currentNumX--->0  MyParameters.MerchantFightTimes[currentNumX]---->2
+tester--> unlockedthispersonIf--->False
+完成预读取
+There are 3 Transition Managers in your scene. Please ensure there is only one Transition Manager in your scene or overlapping transitions may occur.
+There are 3 Transition Managers in your scene. Please ensure there is only one Transition Manager in your scene or overlapping transitions may occur.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 3)
+NullReferenceException: Object reference not set to an instance of an object
+  at DrunkDemo.OnDestroy () [0x00000] in <fa3150a2aa8a468cb29ac7f135fd1c69>:0 
+
+UnloadTime: 102.058300 ms
+Unloading 5397 unused Assets to reduce memory usage. Loaded Objects now: 6622.
+Total: 70.336000 ms (FindLiveObjects: 0.730500 ms CreateObjectMapping: 0.233500 ms MarkObjects: 32.041700 ms  DeleteObjects: 37.329500 ms)
+
+[Info   :  WCP Host] WcpHost: 长帧 286ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 533ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+Unloading 6 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 0.810900 ms
+SALSA-manager-Girl1 [CrazyMinnow.SALSA.Emoter] configuration is not complete. STOP runtime, RESOLVE configuration, and PLAY again. If this is a runtime configuration, this message can be ignored.
+string[]文件找到！！！！
+string[]文件找到！！！！
+string[]文件找到！！！！
+string[]文件找到！！！！
+[testerCCC]-->CompleteIf_DailyStudy--->False OpenIf_ExtraStudy-->False CompleteIf_ExtraStudy-->False
+[testerAA]-->StartSettingSR_Label--->【不能】额外学习
+string[]文件找到！！！！
+bookNum---》7922
+testerxx当前达到的解锁等级——>1
+ BookObj[i]--->0   
+ BookObj[i]--->1   
+testerxxline基础长度——>240
+testerxxline长度——>322
+MyParameters.HaveLearnedDictionary.Count--->842
+MyParameters.tem_ChosenBook四级大纲词汇
+[Info   :WCP Custom Slots] CustomSlots: postfix num=20; plugin=ok; 程序化=是(忽略); 自定义页=是; 栈=CustomCategoryPatch.DescribeStack < CustomCategoryPatch.Postfix < WordChooseButtonS10.DMD<WordChooseButtonS10::OnBookButtonClicked> < WordChooseButtonS10.Initialize < WordChooseButtonS10.Start
+我的女友是：无
+testerxxxxxxxxx启动LoadHaveLearnedDictionary
+[Warning:  WCP Host] WcpHost: 读取 ES3 键失败 SelfBookList5: Key "SelfBookList5" was not found in file "C:/Users/hanserdesu/AppData/LocalLow/WCP/wcp\MyBook.es3". Use Load<T>(key, defaultValue) if you want to return a default value if the key does not exist.
+[Info   :  WCP Host] WcpHost: 接管语言包 ja / catbar-jlpt-complete
+[Info   :  WCP Host] WcpHost: 单词音频兼容层安排（ja → C:\Users\hanserdesu\AppData\LocalLow\WCP\vocabulary，后台线程执行，不占帧）
+[Info   :  WCP Host] WcpHost: 已激活 · ja / catbar-jlpt-complete（7922 词，槽 1，策略已载入）
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 23498.
+Total: 25.525500 ms (FindLiveObjects: 1.850100 ms CreateObjectMapping: 0.315000 ms MarkObjects: 23.137800 ms  DeleteObjects: 0.221900 ms)
+
+[Info   :  WCP Host] WcpHost: 长帧 6928ms — mod 本帧占用 182.6ms（2.6%） GC本帧=0:1 1:1 2:1 本帧 Top=运行态:Tick x1=178.9ms(单次178.9ms) ; 运行态:例句按钮 x1=92.6ms(单次92.6ms) ; 运行态:书名扫描 x1=81.5ms(单次81.5ms) ; ES3:槽位词表 x3=20.7ms(单次8.4ms) ; 镜像:投递 x1=2.7ms(单次2.7ms) ; 身份:Evaluate x1=1.9ms(单次1.9ms) ; 身份:托管登记 x1=1.8ms(单次1.8ms) ; 运行态:队列校正 x1=1.6ms(单次1.6ms) ; 身份:读落盘书名 x1=1.4ms(单次1.4ms) ; ES3:落盘书名 x1=1.3ms(单次1.3ms) ; 队列:授权集 x1=1.2ms(单次1.2ms) ; 身份:读槽位词表 x1=0.2ms(单次0.2ms) ; …共21个标签
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=9.0 帧=149 最差帧=6928ms 卡顿帧(>=50ms)=58 窗口=16.6s | mod 主线程占用=1420.3ms/窗口，长帧=7 次 | GC窗口=0:25 1:25 2:25 堆=+1MB | 快路径命中=内存词表指纹 10/11 ; 槽位词表指纹 1/2 | 窗口 Top（累计）=场景:强制校正 x2=1218.4ms(单次1218.3ms) ; 运行态:场景校正 x1=872.1ms(单次872.1ms) ; 队列:规则 x2=702.7ms(单次702.5ms) ; 身份:槽位归属 x2=186.1ms(单次186.1ms) ; 槽位归属:重解析 x1=184.3ms(单次184.3ms) ; 运行态:Tick x1=178.9ms(单次178.9ms) ; 槽位归属:行指纹 x13=125.0ms(单次27.3ms) ; ES3:批量写(装载) x1=106.1ms(单次106.1ms) ; 运行态:例句按钮 x1=92.6ms(单次92.6ms) ; 运行态:书名扫描 x1=81.5ms(单次81.5ms) ; ES3:批量写(提交) x1=65.9ms(单次65.9ms) ; 队列:对齐 x2=60.4ms(单次60.3ms) ; …共33个标签
+[Info   :  WCP Host] WcpHost: 长帧 243ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 298ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:2 1:2 2:2 本帧 Top=无 mod 操作
+要解锁成就啦！
+Achievement [NEW_ACHIEVEMENT_3_67] unlocked
+[Info   :  WCP Host] WcpHost: 长帧 260ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:1 1:1 2:1 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 168ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+MyParameters.tem_ChosenBook自定义词书一
+string[]文件找到！！！！
+[Info   :WCP Custom Slots] CustomSlots: postfix num=20; plugin=ok; 程序化=是(忽略); 自定义页=是; 栈=CustomCategoryPatch.DescribeStack < CustomCategoryPatch.Postfix < WordChooseButtonS10.DMD<WordChooseButtonS10::OnBookButtonClicked> < WordChooseButtonS10.Initialize < InvokableCall.Invoke < UnityEvent.Invoke < Button.Press < Button.OnPointerClick
+[Info   :WCP Book Name] BookName: 自定义词书一 -> 日语词库(猫条版)
+[Info   :WCP Book Name] BookName: 自定义词书一（日语词库(猫条版)) -> 日语词库(猫条版)
+[Info   :WCP Book Name] BookName: 自定义词书二（法语词库(猫条版)) -> 法语词库(猫条版)
+[Info   :WCP Book Name] BookName: 自定义词书三（俄语词库(猫条版)) -> 俄语词库(猫条版)
+[Info   :WCP Book Name] BookName: 自定义词书四（德语词库(猫条版)) -> 德语词库(猫条版)
+[Info   :  WCP Host] WcpHost: 长帧 411ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:1 1:1 2:1 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 209ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :WCP Custom Slots] CustomSlots: native page dumped (auto) -> C:\Users\hanserdesu\AppData\LocalLow\WCP\wcp_diag\WcpSlotsDiag.txt (264 lines)
+[Info   :WCP Custom Slots] CustomSlots: 轮询 → 进入自定义页，显示面板
+[Info   :WCP Custom Slots] CustomSlots: Show → 新建覆盖层; canvas=CanvasSetting1; sortingOrder=1022
+[Info   :WCP Custom Slots] CustomSlots: 原生字体 = SourceHanSerifCN-Heavy
+[Info   :WCP Custom Slots] CustomSlots: 路线A 原生外观 → 行 sprite=UISprite; 滚动条 handle=xuqiu10_frame_latiao_2; 面板底=隐藏
+[Info   :WCP Custom Slots] CustomSlots: 从 WordChooseButtonS10.Son_spriteChosen 获取到原生选中底图: XQ56_button_list_long_choose
+[Info   :WCP Custom Slots] CustomSlots: 物化自检 → 页框 1; 落盘文件存在; 回读词数=8451（写入 8451）; 一致=是; ChosenBook_Para=自定义词书一
+[Info   :WCP Custom Slots] CustomSlots: store saved; bytes=955416; filledRows=13; selected=2
+[Info   :WCP Custom Slots] CustomSlots: 逻辑槽位 2 -> 物理页框 1 (mod); 指纹=8451|абонентабортабсолютно|ящикёлка
+[Info   :  WCP Host] WcpHost: 接管语言包 ru / catbar-russian-cefr-complete
+[Info   :  WCP Host] WcpHost: 已激活 · ru / catbar-russian-cefr-complete（8451 词，槽 1，策略已载入）
+[Info   :  WCP Host] WcpHost: 长帧 1196ms — mod 本帧占用 421.4ms（35.2%） GC本帧=0:5 1:5 2:5 本帧 Top=身份:Evaluate x1=265.1ms(单次265.1ms) ; 身份:装载 x1=199.1ms(单次199.1ms) ; 装载:离开 x1=190.5ms(单次190.5ms) ; ES3:批量写(装载) x1=148.3ms(单次148.3ms) ; 运行态:Tick x1=107.0ms(单次107.0ms) ; 运行态:书名扫描 x1=76.0ms(单次76.0ms) ; ES3:批量写(提交) x1=47.2ms(单次47.2ms) ; ES3:槽位词表 x4=47.2ms(单次23.5ms) ; 身份:槽位归属 x1=44.4ms(单次44.4ms) ; 槽位归属:重解析 x1=44.3ms(单次44.3ms) ; 运行态:队列校正 x1=27.5ms(单次27.5ms) ; 队列:规则 x1=25.4ms(单次25.4ms) ; …共30个标签
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=10.4 帧=104 最差帧=1196ms 卡顿帧(>=50ms)=93 窗口=10.0s | mod 主线程占用=476.3ms/窗口，长帧=7 次 | GC窗口=0:28 1:28 2:28 堆=+18MB | 快路径命中=内存词表指纹 8/9 ; 槽位词表指纹 8/9 | 窗口 Top（累计）=身份:Evaluate x9=270.5ms(单次265.1ms) ; 身份:装载 x9=199.1ms(单次199.1ms) ; 装载:离开 x1=190.5ms(单次190.5ms) ; ES3:批量写(装载) x1=148.3ms(单次148.3ms) ; 运行态:Tick x9=141.6ms(单次107.0ms) ; 运行态:书名扫描 x9=86.8ms(单次76.0ms) ; ES3:批量写(提交) x1=47.2ms(单次47.2ms) ; ES3:槽位词表 x4=47.2ms(单次23.5ms) ; 身份:槽位归属 x9=45.0ms(单次44.4ms) ; 槽位归属:重解析 x1=44.3ms(单次44.3ms) ; 运行态:队列校正 x9=44.3ms(单次27.5ms) ; 队列:规则 x9=26.8ms(单次25.4ms) ; …共30个标签
+[Info   :  WCP Host] WcpHost: 长帧 158ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :WCP Custom Slots] CustomSlots: 轮询 → 选书窗不可见，隐藏面板
+[Info   :WCP Custom Slots] CustomSlots: Hide → 关闭覆盖层
+[Info   :  WCP Host] WcpHost: 长帧 179ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 150ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+MyParameters.tem_ChosenBook自定义词书一
+string[]文件找到！！！！
+[Info   :WCP Custom Slots] CustomSlots: postfix num=20; plugin=ok; 程序化=是(忽略); 自定义页=是; 栈=CustomCategoryPatch.DescribeStack < CustomCategoryPatch.Postfix < WordChooseButtonS10.DMD<WordChooseButtonS10::OnBookButtonClicked> < WordChooseButtonS10.Initialize < InvokableCall.Invoke < UnityEvent.Invoke < Button.Press < Button.OnPointerClick
+[Info   :WCP Book Name] BookName: 自定义词书一 -> 俄语词库(猫条版)
+[Info   :WCP Book Name] BookName: 自定义词书一（俄语词库(猫条版)) -> 俄语词库(猫条版)
+[Info   :WCP Book Name] BookName: 自定义词书二（法语词库(猫条版)) -> 法语词库(猫条版)
+[Info   :WCP Book Name] BookName: 自定义词书三（俄语词库(猫条版)) -> 俄语词库(猫条版)
+[Info   :WCP Book Name] BookName: 自定义词书四（德语词库(猫条版)) -> 德语词库(猫条版)
+[Info   :  WCP Host] WcpHost: 长帧 529ms — mod 本帧占用 7.9ms（1.5%） GC本帧=0:2 1:2 2:2 本帧 Top=运行态:Tick x1=5.4ms(单次5.4ms) ; 运行态:队列校正 x1=5.4ms(单次5.4ms) ; 队列:授权集 x1=4.9ms(单次4.9ms) ; 身份:托管登记 x1=2.1ms(单次2.1ms) ; 队列:规则 x1=0.4ms(单次0.4ms) ; 身份:Evaluate x1=0.4ms(单次0.4ms) ; 身份:读落盘书名 x1=0.1ms(单次0.1ms) ; 身份:读槽位词表 x1=0.1ms(单次0.1ms) ; 身份:匹配槽位词表 x1=0.1ms(单次0.1ms) ; 身份:槽位归属 x1=0.1ms(单次0.1ms) ; 身份:匹配内存词表 x1=0.0ms(单次0.0ms) ; 身份:读内存词表 x1=0.0ms(单次0.0ms) ; …共18个标签
+[Info   :WCP Custom Slots] CustomSlots: 轮询 → 进入自定义页，显示面板
+[Info   :WCP Custom Slots] CustomSlots: Show → 复用已有覆盖层（20 行）
+[Info   :  WCP Host] WcpHost: 长帧 302ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 157ms — mod 本帧占用 5.1ms（3.2%） GC本帧=0:0 1:0 2:0 本帧 Top=运行态:Tick x1=3.0ms(单次3.0ms) ; 身份:托管登记 x1=1.7ms(单次1.7ms) ; 运行态:队列校正 x1=1.5ms(单次1.5ms) ; 运行态:书名扫描 x1=1.5ms(单次1.5ms) ; 队列:授权集 x1=1.4ms(单次1.4ms) ; 身份:Evaluate x1=0.4ms(单次0.4ms) ; 身份:匹配内存词表 x1=0.1ms(单次0.1ms) ; 队列:规则 x1=0.1ms(单次0.1ms) ; 身份:读落盘书名 x1=0.1ms(单次0.1ms) ; 身份:槽位归属 x1=0.1ms(单次0.1ms) ; 身份:读槽位词表 x1=0.1ms(单次0.1ms) ; 身份:匹配槽位词表 x1=0.0ms(单次0.0ms) ; …共18个标签
+[Info   :WCP Custom Slots] CustomSlots: 物化自检 → 页框 1; 落盘文件存在; 回读词数=384（写入 384）; 一致=是; ChosenBook_Para=自定义词书一
+[Info   :WCP Custom Slots] CustomSlots: store saved; bytes=955416; filledRows=13; selected=5
+[Info   :WCP Custom Slots] CustomSlots: 逻辑槽位 5 -> 物理页框 1 (mod); 指纹=384|一擔擔一陣一頭霧水|點樣點解
+[Info   :  WCP Host] WcpHost: 单词音频兼容层完成（后台线程）：pack=catbar-jlpt-complete 复制=6354 已存在=16434 忽略(保留设备名)=2 失败=0 源=22790 目标库=69918（已记录，后续会话跳过）
+[Info   :  WCP Host] WcpHost: 镜像耗时（后台线程）pack=catbar-jlpt-complete 源枚举=29ms 目标枚举=107ms 比对=21ms 复制=13520ms
+[Info   :  WCP Host] WcpHost: 长帧 640ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 接管语言包 yue / catbar-cantonese-complete
+[Info   :  WCP Host] WcpHost: 单词音频兼容层安排（yue → C:\Users\hanserdesu\AppData\LocalLow\WCP\vocabulary，后台线程执行，不占帧）
+[Info   :  WCP Host] WcpHost: 已激活 · yue / catbar-cantonese-complete（384 词，槽 1，策略已载入）
+[Info   :  WCP Host] WcpHost: 长帧 493ms — mod 本帧占用 369.5ms（75.0%） GC本帧=0:5 1:5 2:5 本帧 Top=身份:Evaluate x1=226.8ms(单次226.8ms) ; 身份:装载 x1=188.3ms(单次188.3ms) ; 装载:离开 x1=161.0ms(单次161.0ms) ; ES3:批量写(装载) x1=130.1ms(单次130.1ms) ; 运行态:Tick x1=86.3ms(单次86.3ms) ; 运行态:书名扫描 x1=65.5ms(单次65.5ms) ; ES3:批量写(提交) x1=54.7ms(单次54.7ms) ; 身份:槽位归属 x1=37.2ms(单次37.2ms) ; 槽位归属:重解析 x1=37.1ms(单次37.1ms) ; ES3:槽位词表 x4=29.1ms(单次16.0ms) ; 身份:接管语言包 x1=27.3ms(单次27.3ms) ; 装载:范围进入 x1=27.3ms(单次27.3ms) ; …共30个标签
+[Info   :WCP Custom Slots] CustomSlots: 轮询 → 选书窗不可见，隐藏面板
+[Info   :WCP Custom Slots] CustomSlots: Hide → 关闭覆盖层
+[Info   :  WCP Host] WcpHost: 单词音频兼容层完成（后台线程）：pack=catbar-cantonese-complete 复制=62 已存在=322 忽略(保留设备名)=0 失败=0 源=384 目标库=69918（已记录，后续会话跳过）
+[Info   :  WCP Host] WcpHost: 镜像耗时（后台线程）pack=catbar-cantonese-complete 源枚举=1ms 目标枚举=161ms 比对=0ms 复制=128ms
+testerBB------->WordPriority_Para----->收藏的单词 > 本书单词  MyParameters.dailyLearnNum_Para--->100
+[testerCCC]-->CompleteIf_DailyStudy--->False OpenIf_ExtraStudy-->False CompleteIf_ExtraStudy-->False
+[testerAA]-->StartSettingSR_Label--->【不能】额外学习
+string[]文件找到！！！！
+bookNum---》384
+testerxx当前达到的解锁等级——>1
+ BookObj[i]--->0   
+ BookObj[i]--->1   
+testerxxline基础长度——>240
+testerxxline长度——>322
+MyParameters.HaveLearnedDictionary.Count--->842
+[testerCCC]-->CompleteIf_DailyStudy--->False OpenIf_ExtraStudy-->False CompleteIf_ExtraStudy-->False
+[testerAA]-->StartSettingSR_Label--->【不能】额外学习
+string[]文件找到！！！！
+bookNum---》384
+testerxx当前达到的解锁等级——>1
+ BookObj[i]--->0   
+ BookObj[i]--->1   
+testerxxline基础长度——>240
+testerxxline长度——>322
+MyParameters.HaveLearnedDictionary.Count--->842
+[Info   :  WCP Host] WcpHost: 长帧 6667ms — mod 本帧占用 2.4ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=身份:托管登记 x1=1.8ms(单次1.8ms) ; 身份:Evaluate x1=0.3ms(单次0.3ms) ; 运行态:Tick x1=0.2ms(单次0.2ms) ; 运行态:队列校正 x1=0.2ms(单次0.2ms) ; 队列:规则 x1=0.1ms(单次0.1ms) ; 身份:读落盘书名 x1=0.1ms(单次0.1ms) ; 队列:授权集 x1=0.1ms(单次0.1ms) ; 身份:读槽位词表 x1=0.1ms(单次0.1ms) ; 身份:槽位归属 x1=0.1ms(单次0.1ms) ; 身份:匹配槽位词表 x1=0.1ms(单次0.1ms) ; 身份:匹配内存词表 x1=0.0ms(单次0.0ms) ; 身份:读内存词表 x1=0.0ms(单次0.0ms) ; …共18个标签
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=6.3 帧=100 最差帧=6667ms 卡顿帧(>=50ms)=98 窗口=15.9s | mod 主线程占用=427.4ms/窗口，长帧=9 次 | GC窗口=0:110 1:110 2:110 堆=-21MB | 快路径命中=内存词表指纹 8/11 ; 槽位词表指纹 10/11 | 窗口 Top（累计）=身份:Evaluate x9=230.7ms(单次226.8ms) ; 身份:装载 x11=188.3ms(单次188.3ms) ; 装载:离开 x1=161.0ms(单次161.0ms) ; ES3:批量写(装载) x1=130.1ms(单次130.1ms) ; 运行态:Tick x9=118.9ms(单次86.3ms) ; 运行态:书名扫描 x9=76.1ms(单次65.5ms) ; ES3:批量写(提交) x1=54.7ms(单次54.7ms) ; 身份:槽位归属 x11=37.9ms(单次37.2ms) ; 槽位归属:重解析 x1=37.1ms(单次37.1ms) ; 运行态:队列校正 x9=30.6ms(单次17.3ms) ; ES3:槽位词表 x4=29.1ms(单次16.0ms) ; 身份:接管语言包 x1=27.3ms(单次27.3ms) ; …共32个标签
+[Info   :  WCP Host] WcpHost: 长帧 1459ms — mod 本帧占用 10.9ms（0.7%） GC本帧=0:1 1:1 2:1 本帧 Top=运行态:Tick x1=7.6ms(单次7.6ms) ; 运行态:书名扫描 x1=5.0ms(单次5.0ms) ; 身份:托管登记 x1=2.6ms(单次2.6ms) ; 运行态:例句按钮 x1=2.3ms(单次2.3ms) ; 身份:Evaluate x1=0.8ms(单次0.8ms) ; 身份:读落盘书名 x1=0.5ms(单次0.5ms) ; ES3:落盘书名 x1=0.3ms(单次0.3ms) ; 运行态:队列校正 x1=0.3ms(单次0.3ms) ; 队列:规则 x1=0.2ms(单次0.2ms) ; 身份:槽位归属 x1=0.1ms(单次0.1ms) ; 队列:授权集 x1=0.1ms(单次0.1ms) ; 身份:读槽位词表 x1=0.1ms(单次0.1ms) ; …共19个标签
+Unloading 6 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 20.828700 ms
+Unloading 2757 unused Assets to reduce memory usage. Loaded Objects now: 6686.
+Total: 46.941300 ms (FindLiveObjects: 1.547000 ms CreateObjectMapping: 0.988700 ms MarkObjects: 34.961500 ms  DeleteObjects: 9.443600 ms)
+
+[Info   :  WCP Host] WcpHost: 长帧 475ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+The referenced script on this Behaviour (Game Object 'SaveButton') is missing!
+Unloading 9 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 0.487500 ms
+Vocabulary Path: C:\Users\hanserdesu\AppData\LocalLow\WCP\vocabulary
+Vocabulary Path: C:\Users\hanserdesu\AppData\LocalLow\WCP\vocabulary
+Vocabulary Path: C:\Users\hanserdesu\AppData\LocalLow\WCP\vocabulary
+Vocabulary Path: C:\Users\hanserdesu\AppData\LocalLow\WCP\vocabulary
+The character with Unicode value \u7BE4 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text].
+testerZZ--声音begin——》1
+testerZZ--声音begin——》1
+testerZZ--声音begin——》1
+testerZZ--声音begin——》1
+MyParameters.TimeChoose_SoundAuto_Reviwe--->揭示时
+外接词库----》False
+[Info   :  WCP Host] WcpHost: 例句表已装载: 384 词 / 3 ms → C:\Users\hanserdesu\AppData\LocalLow\WCP\packs\yue\db\sentences.json（本次注入 2 句）
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 11899.
+Total: 46.067800 ms (FindLiveObjects: 1.528400 ms CreateObjectMapping: 0.957500 ms MarkObjects: 43.406400 ms  DeleteObjects: 0.174500 ms)
+
+[Info   :WCP Book Name] Label: UK -> YUE
+[Info   :WCP Book Name] Label: US -> YUE
+[Info   :WCP Book Name] Label: UK -> YUE
+[Info   :WCP Book Name] Label: US -> YUE
+[Info   :WCP Book Name] Label: UK -> YUE
+[Info   :WCP Book Name] Label: US -> YUE
+[Info   :WCP Book Name] Label: UK -> YUE
+[Info   :WCP Book Name] Label: 美 -> YUE
+[Info   :WCP Book Name] Label: US -> YUE
+[Info   :WCP Book Name] Label: US -> YUE
+[Info   :WCP Book Name] Label: US -> YUE
+[Info   :WCP Book Name] Label: UK -> YUE
+[Info   :WCP Book Name] HideSwitch: /Canvas-scrollOutput-2/Button-SwitchSentenceButton
+[Info   :  WCP Host] WcpHost: 长帧 4552ms — mod 本帧占用 3.0ms（0.1%） GC本帧=0:4 1:4 2:4 本帧 Top=身份:托管登记 x1=1.9ms(单次1.9ms) ; 运行态:Tick x1=0.8ms(单次0.8ms) ; 运行态:队列校正 x1=0.8ms(单次0.8ms) ; 队列:规则 x1=0.4ms(单次0.4ms) ; 队列:授权集 x1=0.4ms(单次0.4ms) ; 身份:Evaluate x1=0.3ms(单次0.3ms) ; 身份:读落盘书名 x1=0.1ms(单次0.1ms) ; 身份:读槽位词表 x1=0.1ms(单次0.1ms) ; 身份:槽位归属 x1=0.1ms(单次0.1ms) ; 身份:匹配槽位词表 x1=0.0ms(单次0.0ms) ; 身份:读内存词表 x1=0.0ms(单次0.0ms) ; 身份:匹配内存词表 x1=0.0ms(单次0.0ms) ; …共18个标签
+[Info   :  WCP Host] WcpHost: 长帧 420ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+ MyParameters.S8ThisMode_Para------每日学习
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=4.7 帧=47 最差帧=4552ms 卡顿帧(>=50ms)=34 窗口=10.0s | mod 主线程占用=35.5ms/窗口，长帧=4 次 | GC窗口=0:36 1:36 2:36 堆=+0MB | 快路径命中=内存词表指纹 7/7 ; 槽位词表指纹 7/7 | 窗口 Top（累计）=运行态:Tick x5=18.0ms(单次7.6ms) ; 运行态:例句按钮 x5=9.3ms(单次5.7ms) ; 身份:托管登记 x5=9.1ms(单次2.6ms) ; 运行态:书名扫描 x5=6.8ms(单次5.0ms) ; 场景:强制校正 x2=6.2ms(单次5.6ms) ; 队列:规则 x7=5.8ms(单次4.4ms) ; 运行态:场景校正 x2=4.7ms(单次4.5ms) ; 身份:Evaluate x5=2.1ms(单次0.8ms) ; 运行态:队列校正 x5=1.9ms(单次0.8ms) ; 身份:读落盘书名 x7=1.9ms(单次0.6ms) ; ES3:落盘书名 x3=1.1ms(单次0.4ms) ; 队列:授权集 x7=0.8ms(单次0.4ms) ; …共21个标签
+执行--《灰
+[Info   :  WCP Host] WcpHost: 长帧 487ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 长帧 331ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=18.0 帧=181 最差帧=487ms 卡顿帧(>=50ms)=83 窗口=10.0s | mod 主线程占用=25.7ms/窗口，长帧=2 次 | GC窗口=0:2 1:2 2:2 堆=-0MB | 快路径命中=内存词表指纹 9/9 ; 槽位词表指纹 9/9 | 窗口 Top（累计）=身份:托管登记 x9=13.3ms(单次2.0ms) ; 运行态:Tick x9=9.8ms(单次1.8ms) ; 运行态:例句按钮 x9=5.8ms(单次1.0ms) ; 运行态:队列校正 x9=2.9ms(单次0.4ms) ; 身份:Evaluate x9=2.5ms(单次0.4ms) ; 队列:规则 x9=2.0ms(单次0.3ms) ; 运行态:书名扫描 x9=1.1ms(单次1.1ms) ; 身份:读落盘书名 x9=0.8ms(单次0.1ms) ; 队列:授权集 x9=0.7ms(单次0.1ms) ; 身份:槽位归属 x9=0.5ms(单次0.1ms) ; 身份:读槽位词表 x9=0.5ms(单次0.1ms) ; 身份:匹配槽位词表 x9=0.4ms(单次0.1ms) ; …共18个标签
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=20.6 帧=206 最差帧=150ms 卡顿帧(>=50ms)=74 窗口=10.0s | mod 主线程占用=34.2ms/窗口 | GC窗口=0:1 1:1 2:1 堆=+6MB | 快路径命中=内存词表指纹 10/10 ; 槽位词表指纹 10/10 | 窗口 Top（累计）=身份:托管登记 x10=16.8ms(单次2.2ms) ; 运行态:Tick x10=14.1ms(单次2.9ms) ; 运行态:例句按钮 x10=8.9ms(单次2.3ms) ; 运行态:队列校正 x10=3.7ms(单次0.6ms) ; 身份:Evaluate x10=3.3ms(单次0.5ms) ; 队列:规则 x10=2.5ms(单次0.4ms) ; 运行态:书名扫描 x10=1.5ms(单次0.8ms) ; 身份:读落盘书名 x10=1.0ms(单次0.2ms) ; 队列:授权集 x10=1.0ms(单次0.2ms) ; 身份:读槽位词表 x10=0.7ms(单次0.1ms) ; 身份:槽位归属 x10=0.7ms(单次0.1ms) ; 身份:匹配槽位词表 x10=0.6ms(单次0.1ms) ; …共18个标签
+The character with Unicode value \u501F was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text].
+The character with Unicode value \u9322 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text].
+执行--《白
+[Info   :  WCP Host] WcpHost: 长帧 968ms — mod 本帧占用 3.6ms（0.4%） GC本帧=0:3 1:3 2:3 本帧 Top=身份:托管登记 x1=1.6ms(单次1.6ms) ; 运行态:Tick x1=1.4ms(单次1.4ms) ; 运行态:例句按钮 x1=0.9ms(单次0.9ms) ; 身份:Evaluate x1=0.6ms(单次0.6ms) ; 身份:读落盘书名 x1=0.4ms(单次0.4ms) ; 运行态:队列校正 x1=0.4ms(单次0.4ms) ; ES3:落盘书名 x1=0.4ms(单次0.4ms) ; 队列:规则 x1=0.3ms(单次0.3ms) ; 队列:授权集 x1=0.1ms(单次0.1ms) ; 身份:读槽位词表 x1=0.1ms(单次0.1ms) ; 身份:槽位归属 x1=0.1ms(单次0.1ms) ; 身份:匹配槽位词表 x1=0.0ms(单次0.0ms) ; …共19个标签
+ MyParameters.S8ThisMode_Para------每日学习
+[Info   :  WCP Host] WcpHost: 长帧 272ms — mod 本帧占用 0.0ms（0.0%） GC本帧=0:0 1:0 2:0 本帧 Top=无 mod 操作
+执行--《灰
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=17.8 帧=179 最差帧=968ms 卡顿帧(>=50ms)=75 窗口=10.0s | mod 主线程占用=34.1ms/窗口，长帧=2 次 | GC窗口=0:13 1:13 2:13 堆=+3MB | 快路径命中=内存词表指纹 9/9 ; 槽位词表指纹 9/9 | 窗口 Top（累计）=运行态:Tick x9=15.6ms(单次4.4ms) ; 身份:托管登记 x9=14.8ms(单次2.1ms) ; 运行态:例句按钮 x9=9.0ms(单次1.7ms) ; 身份:Evaluate x9=3.7ms(单次0.6ms) ; 运行态:队列校正 x9=3.4ms(单次0.5ms) ; 运行态:书名扫描 x9=3.2ms(单次2.6ms) ; 队列:规则 x9=2.3ms(单次0.3ms) ; 身份:读落盘书名 x9=1.5ms(单次0.4ms) ; 队列:授权集 x9=0.9ms(单次0.1ms) ; 身份:读槽位词表 x9=0.7ms(单次0.2ms) ; ES3:落盘书名 x2=0.6ms(单次0.4ms) ; 身份:槽位归属 x9=0.6ms(单次0.1ms) ; …共19个标签
+Call to DeinitializeLoader without an initialized manager.Please make sure to wait for initialization to complete before calling this API.
+[Info   :  WCP Host] WcpHost: 行为 Harmony 接线已移除
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 457 frames, [2.0 KB-4.0 KB]: 5 frames, [4.0 KB-8.0 KB]: 207 frames, [8.0 KB-16.0 KB]: 30 frames, [16.0 KB-32.0 KB]: 338 frames, [32.0 KB-64.0 KB]: 230 frames, [64.0 KB-128.0 KB]: 49 frames, [128.0 KB-256.0 KB]: 9 frames, [256.0 KB-0.5 MB]: 12 frames, [1.0 MB-2.0 MB]: 4 frames, [2.0 MB-4.0 MB]: 2 frames, [4.0 MB-8.0 MB]: 2 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 7.4 MB
+      Peak Allocated Bytes 7.4 MB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 48 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 501.0 KB
+      Overflow Count 223
+    [ALLOC_TEMP_Background Job.worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 48 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 50 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 48 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 16]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 6.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 48 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 19]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 6.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 50 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 50 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 50 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 29.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 20]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 26.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 48 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 50 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 23
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 56 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 48 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 26.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 18.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_HIDInput]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 10.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 50 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 38 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 15.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 15]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 11.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 48 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 12.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 29.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 18.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 18.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 12
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 32.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 21]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 5.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 32.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 48 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 12]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 29.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 38.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 22]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 11.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 29.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 15.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 17]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 12.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 29.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 26.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 18]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 29.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 486 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 5466
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 26 Subsections = 26624 buckets. Failed count: 129737
+        32B: 29 Subsections = 14848 buckets. Failed count: 55817
+        48B: 60 Subsections = 20480 buckets. Failed count: 105023
+        64B: 40 Subsections = 10240 buckets. Failed count: 34626
+        80B: 48 Subsections = 9830 buckets. Failed count: 19976
+        96B: 22 Subsections = 3754 buckets. Failed count: 19330
+        112B: 20 Subsections = 2925 buckets. Failed count: 40533
+        128B: 11 Subsections = 1408 buckets. Failed count: 7928
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 90 frames, [64.0 MB-128.0 MB]: 1255 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 114.9 MB
+      Peak Large allocation bytes 66.8 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 88 frames, [32.0 MB-64.0 MB]: 1197 frames, [64.0 MB-128.0 MB]: 60 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 100.7 MB
+      Peak Large allocation bytes 64.6 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 10
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 320
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 26 Subsections = 26624 buckets. Failed count: 129737
+        32B: 29 Subsections = 14848 buckets. Failed count: 55817
+        48B: 60 Subsections = 20480 buckets. Failed count: 105023
+        64B: 40 Subsections = 10240 buckets. Failed count: 34626
+        80B: 48 Subsections = 9830 buckets. Failed count: 19976
+        96B: 22 Subsections = 3754 buckets. Failed count: 19330
+        112B: 20 Subsections = 2925 buckets. Failed count: 40533
+        128B: 11 Subsections = 1408 buckets. Failed count: 7928
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 75 frames, [256.0 KB-0.5 MB]: 112 frames, [0.5 MB-1.0 MB]: 78 frames, [1.0 MB-2.0 MB]: 1035 frames, [2.0 MB-4.0 MB]: 43 frames, [4.0 MB-8.0 MB]: 2 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 5.1 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [128.0 MB-256.0 MB]: 1190 frames, [256.0 MB-0.50 GB]: 155 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 5
+      Peak Allocated memory 454.6 MB
+      Peak Large allocation bytes 384.0 MB
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 725
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 26 Subsections = 26624 buckets. Failed count: 129737
+        32B: 29 Subsections = 14848 buckets. Failed count: 55817
+        48B: 60 Subsections = 20480 buckets. Failed count: 105023
+        64B: 40 Subsections = 10240 buckets. Failed count: 34626
+        80B: 48 Subsections = 9830 buckets. Failed count: 19976
+        96B: 22 Subsections = 3754 buckets. Failed count: 19330
+        112B: 20 Subsections = 2925 buckets. Failed count: 40533
+        128B: 11 Subsections = 1408 buckets. Failed count: 7928
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 1345 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 6
+      Peak Allocated memory 24.5 MB
+      Peak Large allocation bytes 9.9 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 77 frames, [32.0 MB-64.0 MB]: 807 frames, [64.0 MB-128.0 MB]: 439 frames, [128.0 MB-256.0 MB]: 22 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 26
+      Peak Allocated memory 146.0 MB
+      Peak Large allocation bytes 52.2 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 26 Subsections = 26624 buckets. Failed count: 129737
+        32B: 29 Subsections = 14848 buckets. Failed count: 55817
+        48B: 60 Subsections = 20480 buckets. Failed count: 105023
+        64B: 40 Subsections = 10240 buckets. Failed count: 34626
+        80B: 48 Subsections = 9830 buckets. Failed count: 19976
+        96B: 22 Subsections = 3754 buckets. Failed count: 19330
+        112B: 20 Subsections = 2925 buckets. Failed count: 40533
+        128B: 11 Subsections = 1408 buckets. Failed count: 7928
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [8.0 KB-16.0 KB]: 57 frames, [16.0 KB-32.0 KB]: 1288 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 24.4 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [8.0 KB-16.0 KB]: 22 frames, [32.0 KB-64.0 KB]: 72 frames, [64.0 KB-128.0 KB]: 1 frames, [128.0 KB-256.0 KB]: 104 frames, [256.0 KB-0.5 MB]: 1146 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 486.9 KB
+      Peak Large allocation bytes 0 B

@@ -1,0 +1,43 @@
+[OK] 英法同形词英文还原 (FullEng) pron 1638/1638, sentence2 一致
+[OK] 英法同形词英文还原 (OnlyWord) pron 1638/1638
+[OK] 词书构建 {'a1': 699, 'a2': 1981, 'b1': 2902, 'b2': 2534} 合计 8116
+[OK] 例句 master (每词3条) 8116 词
+[OK] 单词音频 fr_word_audio/ 8116/8116
+[OK] 例句音频 sentence_audio/ 24328/24328
+[OK] 插件探针常量可解析 DbProbes=['être', 'coing', 'vaguement'] EnProbe=table
+[OK] 自愈探针在词表与 fr_pron.tsv 中 ['être', 'coing', 'vaguement']
+[OK] 英法切换探针两端可区分 (en_pron/fr_pron) table: en='(n.) 桌子；表格；平地层' fr='桌子；餐桌〈n.f.〉'
+[OK] wcpFullEng.db pron 覆盖 8116/8116 (探针命中 3/3)
+[OK] wcpFullEng.db sentence2 覆盖 24382 条 (预期 ≥24348)
+[OK] wcpFullEng.db 法语独有词全量内容
+[OK] wcpOnlyWord.db 法语独有词全量内容
+[OK] wcpOnlyWord.db pron 覆盖 8116/8116
+[OK] MyBook 槽位2(法语合并单册) 8116/8116 词
+[OK] MyBook 槽位1 日语书保留 7922 词
+[OK] 导入文件 法语A1A2.xlsx
+[OK] 导入文件 法语B1.xlsx
+[OK] 导入文件 法语B2.xlsx
+[OK] 导入文件 wcp_french.db
+[OK] persistentDataPath 法语A1A2.xlsx
+[OK] persistentDataPath 法语B1.xlsx
+[OK] persistentDataPath 法语B2.xlsx
+[OK] persistentDataPath wcp_french.db
+[OK] BepInEx SentenceAudioFrMod.dll 部署 SentenceAudioFrMod.dll (25088 bytes)
+[OK] BepInEx FrWordListMod.dll 部署 FrWordListMod.dll (57856 bytes)
+[OK] BepInEx BookNameMod.dll 部署 BookNameMod.dll (26624 bytes)
+[OK] MyBook.es3 ES3 __type 包装完整 9 个顶层键
+[OK] xlsx 无表头 法语A1A2.xlsx A1='accord'
+[OK] xlsx 无表头 法语B1.xlsx A1='abaisser'
+[OK] xlsx 无表头 法语B2.xlsx A1='abattoir'
+[OK] 保留设备名词音频 3 个 ['aux', 'con', 'nul']
+[OK] 词音频隔离 (vocabulary/ 无法语残留) 残留 0
+[OK] 例句音频两端 md5 契约 (ExtractFr) 24348 句
+[OK] fr_db_payload 离线自愈包 C:\Users\hanserdesu\AppData\LocalLow\WCP\wcp\fr_db_payload
+[OK] BookProfiles.cs 三副本一致 3 份, 不同内容 1 种
+[OK] 词书指纹三方一致 (MyBook 词表 / C# 常量 / payload) 词表 376af2eae029… / 常量 376af2eae029… / payload 376af2eae029…
+[OK] Release 清单与音频 zip 一致 2 份资产
+[OK] Release 下载地址指向法语仓库 https://github.com/hanserdesu/WCP-French-Wordbook/releases/download/wcp-fr-resources-v1.0.0
+[OK] 安装包内 release-manifest 与发布清单一致
+[OK] 安装包载荷齐全 16 项
+
+总体: ALL PASS

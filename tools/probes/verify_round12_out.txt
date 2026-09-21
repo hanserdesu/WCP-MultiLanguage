@@ -1,0 +1,9 @@
+OK  repo == deployed  sha256=9b0876c32643432938f70b84c3c1f9e1ea3655f67f8e85b215aae0fb8795400c  size=108032 B
+OK  literal (utf-16le): 内存词表指纹
+OK  literal (utf-16le): 槽位词表指纹
+OK  literal (utf-16le): 身份:读槽位词表
+OK  literal (utf-16le): Awake 期解析普查
+OK  literal (utf-16le): 快路径命中=
+OK  literal (utf-16le): Harmony 接线完成
+OK  literal (utf-16le): ES3 批量写已启用
+VERIFY ROUND 12: PASS

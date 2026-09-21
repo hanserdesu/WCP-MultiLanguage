@@ -1,0 +1,114 @@
+=== STATUS ===
+ M docs/TASKS.md
+ M languages/PROVENANCE.json
+ M languages/ar/data/translations/sentences_master_ar.json
+ M languages/ar/output/ar_db_payload/ar_sentences.tsv
+ M languages/ar/output/ar_db_payload/manifest.json
+ M languages/ar/output/arabic_books.json
+ M languages/ar/output/pack_payload/ar_sentences.tsv
+ M languages/ar/output/pack_payload/manifest.json
+ M languages/ar/packs/ar/db/repair.tsv
+ M languages/ar/packs/ar/db/sentences.json
+ M languages/ar/packs/ar/manifest.json
+ M languages/de/data/translations/sentences_master.json
+ M languages/de/output/de_db_payload/de_sentences.tsv
+ M languages/de/output/de_db_payload/manifest.json
+ M languages/de/packs/de/db/repair.tsv
+ M languages/de/packs/de/db/sentences.json
+ M languages/de/packs/de/manifest.json
+ M languages/fr/mod_fr_wordlist/FrWordListMod.cs
+ M languages/fr/mod_sentence_audio_fr/SentenceAudioFrMod.cs
+ M languages/ja/mod_jp_wordlist/JpWordListMod.cs
+ M languages/ja/mod_jp_wordlist/JpWordListMod.dll
+ M languages/ja/mod_sentence_audio/SentenceAudioMod.cs
+ M languages/ja/mod_sentence_audio/SentenceAudioMod.dll
+ M languages/ko/data/translations/sentences_master.json
+ M languages/ko/output/ko_db_payload/ko_sentences.tsv
+ M languages/ko/output/ko_db_payload/manifest.json
+ M languages/ko/output/pack_payload/ko_sentences.tsv
+ M languages/ko/output/pack_payload/manifest.json
+ M languages/ko/packs/ko/db/repair.tsv
+ M languages/ko/packs/ko/db/sentences.json
+ M languages/ko/packs/ko/manifest.json
+ M languages/ru/data/translations/sentences_master.json
+ M languages/ru/output/ru_db_payload/manifest.json
+ M languages/ru/output/ru_db_payload/ru_sentences.tsv
+ M languages/ru/packs/ru/db/repair.tsv
+ M languages/ru/packs/ru/db/sentences.json
+ M languages/ru/packs/ru/manifest.json
+ M languages/yue/mod_sentence_audio_yue/SentenceAudioYueMod.cs
+ M languages/yue/mod_yue_wordlist/YueWordListMod.cs
+ M mod_custom_slots/CustomSlotsMod.cs
+ M mod_custom_slots/CustomSlotsMod.dll
+ M mod_custom_slots/GameCompat.cs
+ M mod_host/GameAdapter.cs
+ M mod_host/Host.cs
+ M mod_host/HostRuntime.cs
+ M mod_host/SentenceAudioService.cs
+ M mod_host/TakeoverScope.cs
+ M mod_host/WcpHost.dll
+ M mod_host/WordAudioCompat.cs
+ M mod_host/build.cmd
+ M mod_host/tests/TakeoverScopeTest.cs
+ M mod_host/tests/WordAudioCompatTest.cs
+ M packs/ar/db/repair.tsv
+ M packs/ar/db/sentences.json
+ M packs/ar/manifest.json
+ M packs/de/db/repair.tsv
+ M packs/de/db/sentences.json
+ M packs/de/manifest.json
+ M packs/ko/db/repair.tsv
+ M packs/ko/db/sentences.json
+ M packs/ko/manifest.json
+ M packs/ru/db/repair.tsv
+ M packs/ru/db/sentences.json
+ M packs/ru/manifest.json
+ M tools/sync_packs.py
+?? languages/build_all_perf.txt
+?? languages/de/mod_de_wordlist/build_perf.out.txt
+?? languages/de/mod_sentence_audio_de/build_perf.out.txt
+?? languages/fr/mod_fr_wordlist/build_perf.out.txt
+?? languages/fr/mod_sentence_audio_fr/build_perf.out.txt
+?? languages/ja/mod_jp_wordlist/build_perf.out.txt
+?? languages/ja/mod_sentence_audio/build_perf.out.txt
+?? languages/ru/mod_ru_wordlist/build_ru.out.txt
+?? languages/ru/mod_sentence_audio_ru/build_perf.out.txt
+?? languages/yue/mod_sentence_audio_yue/build_perf.out.txt
+?? languages/yue/mod_yue_wordlist/build_perf.out.txt
+?? mod_custom_slots/build_perf7.out.txt
+?? mod_custom_slots/build_perf7.txt
+?? mod_custom_slots/tests/run_custom_slots_test.cmd
+?? mod_host/Core/SentenceTable.cs
+?? mod_host/MirrorWorker.cs
+?? mod_host/PerfProbe.cs
+?? mod_host/build.out.txt
+?? mod_host/build.txt
+?? mod_host/build_perf.out.txt
+?? mod_host/build_perf2.out.txt
+?? mod_host/build_perf3.out.txt
+?? mod_host/build_perf4.out.txt
+?? mod_host/build_perf5.out.txt
+?? mod_host/build_perf6.out.txt
+?? mod_host/build_perf7.out.txt
+?? mod_host/build_perf7b.out.txt
+?? mod_host/build_perf7c.out.txt
+?? mod_host/deploy.out.txt
+?? mod_host/deploy.txt
+?? mod_host/proc.txt
+?? mod_host/tests/run_word_audio_compat_test.cmd
+?? mod_host/tests/wac_out.txt
+?? mod_host/tests/wac_out2.txt
+?? tools/check_sentence_contract.py
+
+=== LOG ===
+c6b7336 fix(es3): pick the 3-arg Save/Load overload so writes land in MyBook.es3
+11bd077 fix(slots): content-addressed frame mapping; sync display registers on materialize
+f1b3f13 fix(custom_slots): fix selection highlight, unmask modify button, and fix first-open mount lag
+6b6d23e fix(custom_slots): unify entire row clickable with native hover sprite transition and strip extra action boxes
+fe6fb7d fix(custom_slots): guarantee native Son[0] restoration for official categories and align viewport dimensions
+589f63f fix(custom_slots): 鏂规A鏀舵暃鈥斺€旀嫈闄ら粦搴曞叏閫忔槑銆佷弗绂佽法椤靛敜閱掑師鐢熻鏍圭粷涓茶瘝涔︺€佽ˉ榻怗raphicRaycaster涓嶭ayoutElement婵€娲绘粴鍔ㄦ潯
+dfd9de1 perf&fix(custom_slots): 娑堥櫎楂橀鍏ㄥ唴瀛樻壂鎻忎笌IO椤挎尗锛孡ateUpdate鍘嬪埗鍘熺敓骞界伒琛岋紝鍗囩骇RectMask2D
+308d4f4 fix(custom_slots): 鎺ュ叆 clickNum 涓诲垽鎹苟淇 Viewport/琛岄敋鐐瑰嚑浣曞亸绉?636c20e docs: 褰掍竴 TASKS.md 鐘舵€佽〃鏍间笌鍘嗗彶绌鸿鎺掔増
+aec78f4 docs: 鐧昏 P1-20-B 鏂规 2 鍏ㄩ噺瀛愪粨涓庡悓婧愬壇鏈榻愯繘搴?4d9a21c chore(bookname): 鎻愪氦鏈€缁堥儴缃叉瀯寤虹殑 BookNameMod.dll
+686fa83 feat(bookname): 鍚屾 languages/*/mod_book_name 鍓湰鑷?1.3.1 (Option B)
+

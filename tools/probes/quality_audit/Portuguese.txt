@@ -1,0 +1,30 @@
+======================================================================
+    Portuguese CEPT-8 / CEFR Wordbook Full Audit
+======================================================================
+[OK  ] portuguese_books.json exists
+[OK  ] total 8600 words: current 8600
+[OK  ] level distribution correct
+[OK  ] unique words
+[OK  ] IPA coverage >= 95%: missing 136
+[OK  ] Chinese meaning 100%: missing 0
+[OK  ] POS 100%
+[OK  ] meaning contains Chinese: bad 0
+[OK  ] sentences_master.json exists
+[OK  ] master covers all words
+[OK  ] 1:3 sentence ratio: 1:3.00
+[OK  ] import file 葡萄牙语专四基础.xlsx
+[OK  ] import file 葡萄牙语专四进阶.xlsx
+[OK  ] import file 葡萄牙语专八高阶.xlsx
+[OK  ] import file 葡萄牙语专八精通.xlsx
+[OK  ] import file 葡萄牙语考级词库(猫条版).xlsx
+[OK  ] import file wcp_portuguese.db
+[OK  ] pron count
+[OK  ] portuguese_all count
+[OK  ] db integrity
+[OK  ] word audio 8600: current 8600
+[OK  ] sentence audio coverage: 25800/25800 unique
+  word set fingerprint: 86a9ee2ce21dceb81d9576639fc9ade2575a61307962d7a60b3629cce7052b9e
+
+======================================================================
+  22/22 checks passed - ALL PASS
+======================================================================

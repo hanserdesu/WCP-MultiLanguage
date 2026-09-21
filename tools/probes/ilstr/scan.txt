@@ -1,0 +1,19 @@
+﻿ASM Assembly-CSharp
+
+=== ConsistentGenerate2 :: StartGenerate(0p)   (il=33B)
+    lit[0] = test开始执行--->arrangeOptions
+    lit[1] = test开始执行--->StartInvokeSequence
+
+=== NumColorManager :: Update(0p)   (il=122B)
+    lit[0] = 执行--《白
+    lit[1] = 执行--《灰
+
+=== SentenceReplyManager :: StartThis(0p)   (il=225B)
+    lit[0] = 
+    lit[1] = <color=#FFBE31>例句\d+：</color>([\s\S]*?)释义：
+    lit[2] = 没有例句
+    lit[3] = 暂无例句
+    lit[4] = . 
+    lit[5] = \n\n
+
+HITS 3

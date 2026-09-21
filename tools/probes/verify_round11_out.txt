@@ -1,0 +1,47 @@
+repo     WcpHost.dll     105472 B  sha256=6f7becf47dae74c8b7b9865bc89633d0638c8abd91d6743a9c9b90538832f338
+deployed WcpHost.dll     105472 B  sha256=6f7becf47dae74c8b7b9865bc89633d0638c8abd91d6743a9c9b90538832f338
+repo == deployed (byte-identical): True
+
+--- literal presence (UTF-16LE) ---
+  装载:范围进入                  OK
+      why: round-11: the 197.7 ms 身份:接管语言包 block, part 1 -- TakeoverScope.Enter
+  装载:服务就绪                  OK
+      why: round-11: the same block, part 2 -- EnsureServices
+  装载:离开                    OK
+      why: round-11: LeaveCurrent -- the prime suspect for 身份:装载's unexplained 207 ms
+  装载:离开·标签还原               OK
+      why: round-11: RestoreLabels inside LeaveCurrent (a full-scene text scan)
+  队列:授权集                   OK
+      why: round-11: BookPool.ToSet over the active book -- HashSet build, no attribution before
+  队列:规则                    OK
+      why: round-11: the 17-field rule loop
+  队列:对齐                    OK
+      why: round-11: AlignTestQueue
+  Harmony 接线完成             OK
+      why: round-11: logs how many target methods were actually patched, so 1890 ms can be split into 'too many points' vs 'too expensive per point'
+  身份:读内存词表                 OK
+      why: round-10 regression: Evaluate stage 1
+  身份:装载                    OK
+      why: round-10 regression: Evaluate stage 8
+  场景:强制校正                  OK
+      why: round-10 regression: the outermost span on EnforceNowForScene -- without it every patch-triggered correction is invisible to the sentinel
+  槽位归属:重解析                 OK
+      why: round-10 regression: SlotOwnership cache-miss path
+  补丁:场景钩子                  OK
+      why: round-10 regression: InstallFeatures group 1
+  补丁:选词与刷新                 OK
+      why: round-10 regression: InstallFeatures group 5
+  GC本帧=                    OK
+      why: round-10 regression: per-long-frame GC delta
+  GC窗口=                    OK
+      why: round-10 regression: per-window GC delta
+  ES3 批量写已启用               OK
+      why: round-9 regression: batch engaged log
+  ES3 批量写不可用               OK
+      why: round-9 regression: Create() names the missing prerequisite
+  ES3:批量写(装载)              OK
+      why: round-9 regression: per-batch load span. Round 11 must make its xN count drop from 3 to 1 per 切书 frame -- if this literal vanished, that claim would be unfalsifiable in the next real-machine log.
+  ES3:批量写(提交)              OK
+      why: round-9 regression: per-batch store span
+
+VERIFY ROUND 11: PASS (20 literals present, repo==deployed)

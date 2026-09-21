@@ -1,0 +1,33 @@
+repo     WcpHost.dll     102400 B  sha256=9830da893a4cd214ffeb8249ff2c2aa4063cd38eb8d4351da077efc8ff7bb4db
+deployed WcpHost.dll     102400 B  sha256=9830da893a4cd214ffeb8249ff2c2aa4063cd38eb8d4351da077efc8ff7bb4db
+repo == deployed (byte-identical): True
+
+--- literal presence (UTF-16LE) ---
+  ES3 批量写已启用                               OK
+      why: round-9: one-time success log -- without it 'did the batch engage?' can only be reverse-engineered from stutter milliseconds, which is exactly how round 8 hid a 4-second bug for a full round
+  ES3 批量写不可用                               OK
+      why: round-9: Create() now names the missing prerequisite instead of returning null silently
+  ES3.Location 取不到 Cache 成员                OK
+      why: round-9: the specific null that actually fired in rounds 8 (Location was queried on ES3Settings instead of ES3)
+  ES3Settings.defaultSettings 找不到          OK
+      why: round-9: Missing() diagnostics for the other prerequisites
+  ES3Settings.location 找不到                 OK
+      why: round-9: Missing() diagnostics
+  ES3Settings.Clone() 找不到                  OK
+      why: round-9: Missing() diagnostics
+  ES3.CacheFile(ES3Settings) 找不到           OK
+      why: round-9: Missing() diagnostics
+  ES3.StoreCachedFile(ES3Settings) 找不到     OK
+      why: round-9: Missing() diagnostics
+  ES3.Save<T>(string,T,ES3Settings) 找不到    OK
+      why: round-9: Missing() diagnostics
+  默认设置读不到                                  OK
+      why: round-9: batch:defaults diagnostic
+  Clone() 返回 null                          OK
+      why: round-9: batch:clone diagnostic
+  默认设置没有 path                              OK
+      why: round-9: batch:path diagnostic -- this guard only runs now that ES3Settings.path is resolved as a FIELD
+  location setter 没生效                      OK
+      why: round-9: batch:setter diagnostic
+
+VERIFY ROUND 9: PASS (13 literals present, repo==deployed)

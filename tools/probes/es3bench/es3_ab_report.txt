@@ -1,0 +1,56 @@
+patched sites: firstpass=17 UnityEngine.CoreModule=54
+defaultSettings injected: format=JSON compression=None encryption=None prettyPrint=True encoding=System.Text.UTF8Encoding
+source = D:/ATooManyLanguage/probes/es3bench/work/src.es3  (6036505 B)
+keys(src) = 341   nKeys to write = 45
+after first A save, scratch dir holds: A.es3(6042380) A2.es3(6042380) B.es3(6036505) src.es3(6036505) 
+batch settings: path=D:/ATooManyLanguage/probes/es3bench/work\B.es3 location=Cache
+
+=== TIMING (real 6 MB save, 45 keys) ===
+A  45 x ES3.Save<string>(k,v,path)   = 5084 ms total, first=195 ms, avg=113.0 ms/key
+   hand-commits=46 misses=0
+B  CacheFile                        = 74 ms
+B  45 x cached Save               = 1 ms
+B  StoreCachedFile                  = 35 ms
+B  total                            = 110 ms
+speedup = 46.2x
+
+=== EQUIVALENCE ===
+A  6042380 B  sha256=1b4344bbd2098da993be6d0919d4207b601a8571173c7b70a6ac476868fefcd7
+B  6042380 B  sha256=a479bffb2f2b3303e05f46ffaa8f9908dd44d08b2ac0f8b39493e7fa9690dc2d
+BYTE-IDENTICAL = False
+keys A=386 B=386
+onlyA=0 onlyB=0
+key ORDER identical = False
+B preserves source key order as a prefix = True
+A preserves source key order as a prefix = False
+first differing byte offset = 5 of 6042380
+  A: {\13\10\9"wcp_backup_S8TestWordList_44" : {\13\10\9\9"__     B: {\13\10\9"S8TestWordList_LearnedTest_left" : {\13\10\9\9
+lines A=8581 B=8581
+  line 2
+    A: \t"wcp_backup_S8TestWordList_44" : {\r
+    B: \t"S8TestWordList_LearnedTest_left" : {\r
+  line 3
+    A: \t\t"__type" : "string",\r
+    B: \t\t"__type" : "System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],mscorlib",\r
+  line 4
+    A: \t\t"value" : "value-44-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"\r
+    B: \t\t"value" : [\r
+  line 5
+    A: \t},\r
+    B: \t\t\t"止む","見つける","運輸","結婚","コーヒー","合う","すばらしい"\r
+  line 6
+    A: \t"wcp_backup_S8TestWordList_43" : {\r
+    B: \t\t]\r
+  line 7
+    A: \t\t"__type" : "string",\r
+    B: \t},\r
+differing lines = 8304
+per-key blocks: A=386 B=386 mismatching=0
+CONTENT EQUIVALENT (same size, same key set, every per-key block identical) = True
+order is stable across two identical A runs = True   (A2 blocks match A = True)
+
+=== ROUND TRIP: ES3.Load<string>(k, dflt, path) ===
+failures A=0 B=0 of 45
+
+=== PRE-EXISTING KEY PRESERVED (ja_owned_lists) ===
+A len=12  B len=12  equal=True

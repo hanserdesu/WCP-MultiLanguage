@@ -1,0 +1,38 @@
+== WCP mirror/identity offline benchmark ==
+clr=4.0.30319.42000 64bit=True
+A1 src fr  EnumerateFiles(*.mp3)+Length : 9.9 ms  n=8116  us/item=1.22  sink=79096320
+A1 src fr  EnumerateFiles(*.mp3)+Length : 7.7 ms  n=8116  us/item=0.95  sink=79096320
+A1 src fr  EnumerateFiles(*.mp3)+Length : 12.9 ms  n=8116  us/item=1.59  sink=79096320
+A2 src ja  EnumerateFiles(*.mp3)+Length : 23.3 ms  n=22790  us/item=1.02  sink=239486976
+A2 src ja  EnumerateFiles(*.mp3)+Length : 26.7 ms  n=22790  us/item=1.17  sink=239486976
+A2 src ja  EnumerateFiles(*.mp3)+Length : 25.3 ms  n=22790  us/item=1.11  sink=239486976
+A3 target  EnumerateFiles()+Length : 1177.6 ms  n=69918  us/item=16.84  sink=852796445
+A3 target  EnumerateFiles()+Length : 65.2 ms  n=69918  us/item=0.93  sink=852796445
+A3 target  EnumerateFiles()+Length : 62.8 ms  n=69918  us/item=0.90  sink=852796445
+A4 target  EnumerateFiles()+new FileInfo().Length : 5839.7 ms  n=69918  us/item=83.52  sink=852796445
+A5 target  EnumerateFiles()+LastWriteTimeUtc : 102.5 ms  n=69918  us/item=1.47  sink=-1516018901605776181
+A5 target  EnumerateFiles()+LastWriteTimeUtc : 81.2 ms  n=69918  us/item=1.16  sink=-1516018901605776181
+A5 target  EnumerateFiles()+LastWriteTimeUtc : 78.2 ms  n=69918  us/item=1.12  sink=-1516018901605776181
+A6 target  EnumerateFiles()+new FileInfo().LastWriteTimeUtc : 4620.2 ms  n=69918  us/item=66.08  sink=-1516018901605776181
+A7 File.SetLastWriteTimeUtc x200 : 25.9 ms  us/file=129.3
+B1 src fr  index build : 11.1 ms  n=8116  us/item=1.37
+B1 src fr  index build : 11.2 ms  n=8116  us/item=1.38
+B1 src fr  index build : 15.1 ms  n=8116  us/item=1.86
+B2 target  index build : 101.8 ms  n=69918  us/item=1.46
+B2 target  index build : 113.7 ms  n=69918  us/item=1.63
+B2 target  index build : 85.1 ms  n=69918  us/item=1.22
+B3 src ja  index build : 31.4 ms  n=22790  us/item=1.38
+B3 src ja  index build : 30.3 ms  n=22790  us/item=1.33
+B3 src ja  index build : 33.7 ms  n=22790  us/item=1.48
+C1 File.Copy x200 (10KB) : 150.7 ms  us/file=753.4
+C2 File.Copy x200 overwrite : 122.4 ms  us/file=612.0
+D0 word count = 8116
+D1 FingerprintOf (8116 words) : total=2.6 ms (Normalize=0.7 Sort=1.3 payload+sha=15.0) fp=376af2eae029
+D1 FingerprintOf (8116 words) : total=3.3 ms (Normalize=0.3 Sort=0.9 payload+sha=0.4) fp=376af2eae029
+D1 FingerprintOf (8116 words) : total=1.3 ms (Normalize=0.3 Sort=1.0 payload+sha=0.4) fp=376af2eae029
+E1 read MyBook.es3 (2.1MB) : 8.0 ms  bytes=2111027
+E1 read MyBook.es3 (2.1MB) : 2.3 ms  bytes=2111027
+E1 read MyBook.es3 (2.1MB) : 1.2 ms  bytes=2111027
+F1 write 900KB text : 3.2 ms
+F1 write 900KB text : 3.3 ms
+F1 write 900KB text : 9.3 ms

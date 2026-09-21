@@ -1,0 +1,7 @@
+patch sites: firstpass=11 UnityEngine.CoreModule=10
+patched sites total = 21
+FATAL FileNotFoundException: FileNotFoundException: 未能加载文件或程序集“netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51”或它的某一个依赖项。系统找不到指定的文件。
+   在 System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   在 System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   在 Probe2.Run(String srcEs3, Int32 nKeys)
+   在 Probe2.Main(String[] args)

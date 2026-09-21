@@ -1,0 +1,52 @@
+PROBE5 -- FingerprintOf cost breakdown + equivalence of two optimizations
+
+--- word source ---
+  tsv            = D:\ATooManyLanguage\MultiLanguage\languages\ru\output\ru_db_payload\ru_pron.tsv
+  lines          = 8451
+  words (raw)    = 8451
+  duplicate words= 0   (unique=8451)
+
+--- reflection into shipped WcpHost.dll ---
+  dll = D:\ATooManyLanguage\MultiLanguage\mod_host\WcpHost.dll
+  sha256 = 9830da893a4cd214ffeb8249ff2c2aa4063cd38eb8d4351da077efc8ff7bb4db
+  BookRegistry.FingerprintOf = System.String FingerprintOf(System.Collections.Generic.IList`1[System.String])
+
+--- truth check: does this word list hash to the manifest fingerprint? ---
+  FingerprintOf(words) = dfecb0ab75e9b3ef75aedd47c677d68594b060bfbb84cc6bd94efd7888f4b74e
+  manifest expects     = dfecb0ab75e9b3ef75aedd47c677d68594b060bfbb84cc6bd94efd7888f4b74e
+  VERDICT: MATCH -- word list is the authoritative one
+
+--- timing: real FingerprintOf ---
+  best of 5 = 3.41 ms   (8451 words, avg 0.40 us/word)
+
+--- stage breakdown (copy of the algorithm; must hash to the same value) ---
+  copy hash = dfecb0ab75e9b3ef75aedd47c677d68594b060bfbb84cc6bd94efd7888f4b74e
+  copy == real : True
+  normalize  = 1.45 ms
+  sort       = 1.91 ms
+  append+str = 0.23 ms   (StringBuilder 142 KB -> ToString)
+  utf8       = 0.28 ms   (134 KB)
+  sha256     = 0.10 ms
+  sum        = 3.97 ms
+
+--- optimization A: IsNormalized short-circuit (output must be identical) ---
+  hash = dfecb0ab75e9b3ef75aedd47c677d68594b060bfbb84cc6bd94efd7888f4b74e
+  identical to real : True
+  best of 5 = 2.56 ms   speedup vs real = 1.33x
+
+--- optimization B: single byte[] + per-word GetBytes (no 100KB string) ---
+  hash = dfecb0ab75e9b3ef75aedd47c677d68594b060bfbb84cc6bd94efd7888f4b74e
+  identical to real : True
+  best of 5 = 2.96 ms   speedup vs real = 1.15x
+
+--- optimization A+B ---
+  hash = dfecb0ab75e9b3ef75aedd47c677d68594b060bfbb84cc6bd94efd7888f4b74e
+  identical to real : True
+  best of 5 = 2.43 ms   speedup vs real = 1.40x
+
+--- how many words actually need Normalize(FormC)? ---
+  already FormC = 8451 / 8451
+  need Normalize= 0 / 8451
+
+PROBE5 GATE: PASS
+  (truth=True A=True B=True AB=True)

@@ -1,0 +1,175 @@
+######## ShowDictionaryContent::unknownTimesAdd ########
+ASM Assembly-CSharp
+
+=== DUMP ShowDictionaryContent::unknownTimesAdd
+    IL_0000: ldstr "S8ThisMode_Para"
+    IL_0005: ldsfld MyParameters::S8ThisMode_Para
+    IL_000A: call ES3::Load
+    IL_000F: stsfld MyParameters::S8ThisMode_Para
+    IL_0014: ldstr " MyParameters.S8ThisMode_Para------"
+    IL_0019: ldsfld MyParameters::S8ThisMode_Para
+    IL_001E: call String::Concat
+    IL_0023: call Debug::Log
+    IL_0028: ldsfld MyParameters::S8ThisMode_Para
+    IL_002D: ldstr "∂ÓÕ‚∏¥œ∞"
+    IL_0032: call String::op_Equality
+    IL_0037: brtrue.s 77
+    IL_0039: ldsfld MyParameters::S8ThisMode_Para
+    IL_003E: ldstr "√ø»’∏¥œ∞"
+    IL_0043: call String::op_Equality
+    IL_0048: brfalse ?
+    IL_004D: ldarg.0
+    IL_004E: ldfld ShowDictionaryContent::wordField
+    IL_0053: callvirt TMP_InputField::get_text
+    IL_0058: stloc.0
+    IL_0059: ldstr "HaveLearnedDictionary_Temp"
+    IL_005E: ldsfld MyParameters::HaveLearnedDictionary_Temp
+    IL_0063: call ES3::Load
+    IL_0068: stsfld MyParameters::HaveLearnedDictionary_Temp
+    IL_006D: ldsfld MyParameters::HaveLearnedDictionary_Temp
+    IL_0072: ldloc.0
+    IL_0073: callvirt Dictionary`2::ContainsKey
+    IL_0078: brfalse.s 151
+    IL_007A: ldsfld MyParameters::HaveLearnedDictionary_Temp
+    IL_007F: ldloc.0
+    IL_0080: callvirt Dictionary`2::get_Item
+    IL_0085: dup
+    IL_0086: ldfld WordInfo::unknownTimes
+    IL_008B: ldc.i4.1
+    IL_008C: add
+    IL_008D: stfld WordInfo::unknownTimes
+    IL_0092: br ?
+    IL_0097: ldsfld MyParameters::HaveLearnedDictionary_Temp
+    IL_009C: ldloc.0
+    IL_009D: callvirt Dictionary`2::ContainsKey
+    IL_00A2: brtrue.s 240
+    IL_00A4: ldsfld MyParameters::HaveLearnedDictionary
+    IL_00A9: ldloc.0
+    IL_00AA: callvirt Dictionary`2::ContainsKey
+    IL_00AF: brfalse.s 240
+    IL_00B1: ldstr "testerxxx----3333111"
+    IL_00B6: call Debug::Log
+    IL_00BB: ldsfld MyParameters::HaveLearnedDictionary_Temp
+    IL_00C0: ldloc.0
+    IL_00C1: ldsfld MyParameters::HaveLearnedDictionary
+    IL_00C6: ldloc.0
+    IL_00C7: callvirt Dictionary`2::get_Item
+    IL_00CC: callvirt WordInfo::Clone
+    IL_00D1: callvirt Dictionary`2::set_Item
+    IL_00D6: ldsfld MyParameters::HaveLearnedDictionary_Temp
+    IL_00DB: ldloc.0
+    IL_00DC: callvirt Dictionary`2::get_Item
+
+######## SetInputFieldValueS8::CompleteThis ########
+ASM Assembly-CSharp
+
+=== DUMP SetInputFieldValueS8::CompleteThis
+    IL_0000: ldarg.0
+    IL_0001: ldfld SetInputFieldValueS8::lastWord
+    IL_0006: stloc.0
+    IL_0007: ldstr "S8HaveLearnedWordList_Para"
+    IL_000C: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0011: call ES3::Load
+    IL_0016: stsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_001B: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0020: ldloc.0
+    IL_0021: callvirt List`1::Add
+    IL_0026: ldstr "S8HaveLearnedWordList_Para"
+    IL_002B: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0030: call ES3::Save
+    IL_0035: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_003A: callvirt List`1::get_Count
+    IL_003F: stloc.1
+    IL_0040: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0045: ldloc.1
+    IL_0046: ldc.i4.1
+    IL_0047: sub
+    IL_0048: callvirt List`1::get_Item
+    IL_004D: pop
+    IL_004E: ldstr "S8HaveLearnedStatusList_Para"
+    IL_0053: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_0058: call ES3::Load
+    IL_005D: stsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_0062: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_0067: ldarg.1
+    IL_0068: callvirt List`1::Add
+    IL_006D: ldstr "S8HaveLearnedStatusList_Para"
+    IL_0072: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_0077: call ES3::Save
+    IL_007C: ldstr "S8needToLearnWordList_Para"
+    IL_0081: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0086: call ES3::Load
+    IL_008B: stsfld MyParameters::S8needToLearnWordList_Para
+    IL_0090: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0095: callvirt List`1::get_Count
+    IL_009A: ldc.i4.0
+    IL_009B: ble.s 184
+    IL_009D: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00A2: ldloc.0
+    IL_00A3: callvirt List`1::Remove
+    IL_00A8: pop
+    IL_00A9: ldstr "S8needToLearnWordList_Para"
+    IL_00AE: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00B3: call ES3::Save
+    IL_00B8: ldarg.0
+    IL_00B9: ldfld SetInputFieldValueS8::UpdateLastLearnTimeButton
+    IL_00BE: callvirt Button::get_onClick
+    IL_00C3: callvirt UnityEvent::Invoke
+    IL_00C8: ldstr "S8Progress_Para"
+    IL_00CD: ldsfld MyParameters::S8Progress_Para
+    IL_00D2: call ES3::Load
+    IL_00D7: stsfld MyParameters::S8Progress_Para
+    IL_00DC: ldsfld MyParameters::S8Progress_Para
+    IL_00E1: ldc.i4.1
+    IL_00E2: add
+    IL_00E3: stsfld MyParameters::S8Progress_Para
+    IL_00E8: ldstr "S8Progress_Para"
+    IL_00ED: ldsfld MyParameters::S8Progress_Para
+    IL_00F2: call ES3::Save
+    IL_00F7: ret
+
+######## SetInputFieldValueS8::UnCompleteThis ########
+ASM Assembly-CSharp
+
+=== DUMP SetInputFieldValueS8::UnCompleteThis
+    IL_0000: ldarg.0
+    IL_0001: ldfld SetInputFieldValueS8::lastWord
+    IL_0006: stloc.0
+    IL_0007: ldstr "S8needToLearnWordList_Para"
+    IL_000C: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0011: call ES3::Load
+    IL_0016: stsfld MyParameters::S8needToLearnWordList_Para
+    IL_001B: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0020: callvirt List`1::get_Count
+    IL_0025: ldc.i4.4
+    IL_0026: blt.s 66
+    IL_0028: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_002D: ldloc.0
+    IL_002E: callvirt List`1::Remove
+    IL_0033: pop
+    IL_0034: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0039: ldc.i4.3
+    IL_003A: ldloc.0
+    IL_003B: callvirt List`1::Insert
+    IL_0040: br.s 125
+    IL_0042: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0047: callvirt List`1::get_Count
+    IL_004C: ldc.i4.4
+    IL_004D: bge.s 125
+    IL_004F: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0054: callvirt List`1::get_Count
+    IL_0059: ldc.i4.1
+    IL_005A: ble.s 125
+    IL_005C: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0061: ldloc.0
+    IL_0062: callvirt List`1::Remove
+    IL_0067: pop
+    IL_0068: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_006D: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0072: callvirt List`1::get_Count
+    IL_0077: ldloc.0
+    IL_0078: callvirt List`1::Insert
+    IL_007D: ldstr "S8needToLearnWordList_Para"
+    IL_0082: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0087: call ES3::Save
+    IL_008C: ret

@@ -1,0 +1,20 @@
+ASM Assembly-CSharp
+
+=== ConsistentGenerate2 :: StartGenerate(0p)   (il=33B)
+    lit[0] = test开始执行--->arrangeOptions
+    lit[1] = test开始执行--->StartInvokeSequence
+
+=== NumColorManager :: Update(0p)   (il=122B)
+    lit[0] = 执行--《白
+    lit[1] = 执行--《灰
+
+=== WordClickHandler :: OnPointerClick(1p)   (il=109B)
+    lit[0] = Clicked word contains invalid characters.
+    lit[1] = Clicked character is not part of a word.
+
+=== WordClickHandler2 :: OnPointerClick(1p)   (il=178B)
+    lit[0] = Clicked word: 
+    lit[1] = Clicked word contains invalid characters.
+    lit[2] = Clicked character is not part of a word.
+
+HITS 4

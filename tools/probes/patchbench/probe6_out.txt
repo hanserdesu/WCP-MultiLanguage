@@ -1,0 +1,92 @@
+PROBE6 -- where does the 1827 ms 'PatchSync' go?
+
+--- call inventory (from HostPatches.cs) ---
+  PatchSet calls       = 20  (each does one TypeByName)
+  PatchOne calls       = 20  (each does one TypeByName)
+  total TypeByName     = 40
+  unique type names    = 25
+  redundant lookups    = 15
+
+--- before loading game assemblies ---
+  assemblies in AppDomain = 5
+  TypeByName("InitializeManagerS2") first = 52.04 ms, repeat = 19.35 ms   (null here -- game asm not loaded yet)
+
+--- loading every dll from the game's Managed dir ---
+  files = 211  loaded = 204  failed = 7
+    fail: ClassLibrary1.dll (BadImageFormatException)
+    fail: Newtonsoft.Json.dll (FileLoadException)
+    fail: System.Data.dll (FileLoadException)
+    fail: System.EnterpriseServices.dll (FileLoadException)
+    fail: System.ServiceModel.Internals.dll (FileLoadException)
+    fail: System.Transactions.dll (FileLoadException)
+    fail: mscorlib.dll (FileLoadException)
+  assemblies in AppDomain = 212
+
+--- after game assemblies are loaded ---
+  TypeByName("InitializeManagerS2") first = 49.30 ms, repeat = 11.09 ms
+  growth vs baseline = 0.95x
+
+--- per-name cost, first touch (this is what InstallFeatures actually pays) ---
+  ButtonEquivalence              7.05 ms   OK
+  ButtonTextTransfer             2.15 ms   OK
+  ChooseWordManager              2.06 ms   OK
+  ColorInputFieldS17             2.14 ms   OK
+  DatabaseManagerS8              1.62 ms   OK
+  GoToAllS9                      3.49 ms   OK
+  InitializeManagerS2            2.12 ms   OK
+  LifeAndScoreManagerS15         5.91 ms   OK
+  MultipleChoiceGenerator        3.79 ms   OK
+  MultipleChoiceGeneratorS9      4.03 ms   OK
+  PageController                 2.20 ms   OK
+  RandomButtonInvoker            2.40 ms   OK
+  S3ScoreShow                    2.70 ms   OK
+  S7NumberAdd                    2.80 ms   OK
+  S8checkWordMeaning             3.96 ms   OK
+  SetInputFieldValueS8          11.36 ms   OK
+  SetS8Data                      4.38 ms   OK
+  SoundTheWordS8                 5.14 ms   OK
+  SwitchCurrentArrayS9           2.93 ms   OK
+  VocabularyAudioPlayer          1.97 ms   OK
+  WordListManagerS7              1.91 ms   OK
+  clickChangeImageSource         1.40 ms   OK
+  showTheAnswerS8                3.05 ms   OK
+  showWordS17                    1.96 ms   OK
+  updateNewLearnWord             3.53 ms   OK
+  ---- resolved 25 / 25 names
+  sum of individual first touches = 86.04 ms
+  wall clock for the whole loop    = 86.91 ms
+
+--- replaying the real 40-call sequence ---
+  wall clock = 145.90 ms   (vs real-machine 1827 ms for the whole Sync)
+  with a name->Type cache = 0.00 ms   saved = 145.90 ms (100.00%)
+
+--- cold vs warm (does Harmony cache internally?) ---
+  DatabaseManagerS8 cold=3.34 ms warm=2.65 ms  -> no big gap
+
+--- can we attribute the rest to Harmony.Patch itself? ---
+  HostPatches.InstallFeatures = Void InstallFeatures(HarmonyLib.Harmony)
+  real InstallFeatures wall clock = 3276.76 ms
+  (this is the number to compare with the real machine's 1827 ms)
+  patched target methods        = 52
+  average cost per patched method= 63.01 ms   (this is the real unit price of harmony.Patch)
+  --- patch points per declaring type (top 15) ---
+    ChooseWordManager           14
+    InitializeManagerS2         5
+    updateNewLearnWord          4
+    RandomButtonInvoker         3
+    showTheAnswerS8             3
+    clickChangeImageSource      2
+    SetInputFieldValueS8        2
+    MultipleChoiceGeneratorS9   2
+    MultipleChoiceGenerator     2
+    ButtonTextTransfer          1
+    SwitchCurrentArrayS9        1
+    S8checkWordMeaning          1
+    GoToAllS9                   1
+    SoundTheWordS8              1
+    VocabularyAudioPlayer       1
+  distinct declaring types       = 24
+  --- amortization math ---
+    at a 4.00 ms/frame budget, installing 52 patches takes 820 frames (13666.67 ms wall at 60fps)
+
+PROBE6 DONE -- no pass/fail gate: this is a measurement, not an assertion.

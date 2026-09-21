@@ -1,0 +1,10 @@
+﻿ASM Assembly-CSharp
+
+=== CALLERS OF SentenceReplyManager::StartThis
+    count=0
+
+=== CALLERS OF DatabaseManagerS8::OnSearchButtonClick
+    DatabaseManagerS8 :: Start(0p)
+    ShowMeaningManager :: ShowThis(1p)
+    ShowMeaningManager :: ShowThis_LookUp(1p)
+    count=3

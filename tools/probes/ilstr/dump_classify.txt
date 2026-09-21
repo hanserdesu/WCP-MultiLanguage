@@ -1,0 +1,317 @@
+﻿ASM Assembly-CSharp
+
+=== DUMP ClassifyWordS8::Remember
+    IL_0000: newobj <>c__DisplayClass5_0::.ctor
+    IL_0005: stloc.0
+    IL_0006: ldstr "S8Progress_Para"
+    IL_000B: ldsfld MyParameters::S8Progress_Para
+    IL_0010: call ES3::Load
+    IL_0015: stsfld MyParameters::S8Progress_Para
+    IL_001A: ldsfld MyParameters::S8LookBack_Para
+    IL_001F: ldsfld MyParameters::S8Progress_Para
+    IL_0024: bge.s 61
+    IL_0026: ldloc.0
+    IL_0027: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_002C: ldsfld MyParameters::S8LookBack_Para
+    IL_0031: callvirt List`1::get_Item
+    IL_0036: stfld <>c__DisplayClass5_0::word
+    IL_003B: br.s 78
+    IL_003D: ldloc.0
+    IL_003E: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0043: ldc.i4.0
+    IL_0044: callvirt List`1::get_Item
+    IL_0049: stfld <>c__DisplayClass5_0::word
+    IL_004E: ldstr "S8VagueTimesThisTimeList_Para"
+    IL_0053: ldsfld MyParameters::S8VagueTimesThisTimeList_Para
+    IL_0058: call ES3::Load
+    IL_005D: stsfld MyParameters::S8VagueTimesThisTimeList_Para
+    IL_0062: ldsfld MyParameters::S8VagueTimesThisTimeList_Para
+    IL_0067: ldloc.0
+    IL_0068: ldftn <>c__DisplayClass5_0::<Remember>b__0
+    IL_006E: newobj Func`2::.ctor
+    IL_0073: call Enumerable::Count
+    IL_0078: stloc.1
+    IL_0079: ldstr "S8ForgetThisTimeList_Para"
+    IL_007E: ldsfld MyParameters::S8ForgetThisTimeList_Para
+    IL_0083: call ES3::Load
+    IL_0088: stsfld MyParameters::S8ForgetThisTimeList_Para
+    IL_008D: ldsfld MyParameters::S8ForgetThisTimeList_Para
+    IL_0092: ldloc.0
+    IL_0093: ldftn <>c__DisplayClass5_0::<Remember>b__1
+    IL_0099: newobj Func`2::.ctor
+    IL_009E: call Enumerable::Count
+    IL_00A3: stloc.2
+    IL_00A4: ldloc.2
+    IL_00A5: brtrue.s 183
+    IL_00A7: ldloc.1
+    IL_00A8: ldc.i4.0
+    IL_00A9: ble.s 183
+    IL_00AB: ldarg.0
+    IL_00AC: ldstr "vague"
+    IL_00B1: call ClassifyWordS8::CompleteThis
+    IL_00B6: ret
+    IL_00B7: ldloc.1
+    IL_00B8: brtrue.s 201
+    IL_00BA: ldloc.2
+    IL_00BB: brtrue.s 201
+    IL_00BD: ldarg.0
+    IL_00BE: ldstr "yes"
+    IL_00C3: call ClassifyWordS8::CompleteThis
+    IL_00C8: ret
+    IL_00C9: ldloc.2
+    IL_00CA: ldc.i4.0
+    IL_00CB: ble.s 216
+    IL_00CD: ldarg.0
+    IL_00CE: ldstr "no"
+    IL_00D3: call ClassifyWordS8::CompleteThis
+    IL_00D8: ret
+
+=== DUMP ClassifyWordS8::Vague
+    IL_0000: newobj <>c__DisplayClass3_0::.ctor
+    IL_0005: stloc.0
+    IL_0006: ldstr "S8Progress_Para"
+    IL_000B: ldsfld MyParameters::S8Progress_Para
+    IL_0010: call ES3::Load
+    IL_0015: stsfld MyParameters::S8Progress_Para
+    IL_001A: ldsfld MyParameters::S8LookBack_Para
+    IL_001F: ldsfld MyParameters::S8Progress_Para
+    IL_0024: bge.s 61
+    IL_0026: ldloc.0
+    IL_0027: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_002C: ldsfld MyParameters::S8LookBack_Para
+    IL_0031: callvirt List`1::get_Item
+    IL_0036: stfld <>c__DisplayClass3_0::word
+    IL_003B: br.s 78
+    IL_003D: ldloc.0
+    IL_003E: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0043: ldc.i4.0
+    IL_0044: callvirt List`1::get_Item
+    IL_0049: stfld <>c__DisplayClass3_0::word
+    IL_004E: ldstr "S8VagueTimesThisTimeList_Para"
+    IL_0053: ldsfld MyParameters::S8VagueTimesThisTimeList_Para
+    IL_0058: call ES3::Load
+    IL_005D: stsfld MyParameters::S8VagueTimesThisTimeList_Para
+    IL_0062: ldsfld MyParameters::S8VagueTimesThisTimeList_Para
+    IL_0067: ldloc.0
+    IL_0068: ldfld <>c__DisplayClass3_0::word
+    IL_006D: callvirt List`1::Add
+    IL_0072: ldstr "S8VagueTimesThisTimeList_Para"
+    IL_0077: ldsfld MyParameters::S8VagueTimesThisTimeList_Para
+    IL_007C: call ES3::Save
+    IL_0081: ldsfld MyParameters::S8VagueTimesThisTimeList_Para
+    IL_0086: ldloc.0
+    IL_0087: ldftn <>c__DisplayClass3_0::<Vague>b__0
+    IL_008D: newobj Func`2::.ctor
+    IL_0092: call Enumerable::Count
+    IL_0097: stloc.1
+    IL_0098: ldstr "S8ForgetThisTimeList_Para"
+    IL_009D: ldsfld MyParameters::S8ForgetThisTimeList_Para
+    IL_00A2: call ES3::Load
+    IL_00A7: stsfld MyParameters::S8ForgetThisTimeList_Para
+    IL_00AC: ldsfld MyParameters::S8ForgetThisTimeList_Para
+    IL_00B1: ldloc.0
+    IL_00B2: ldftn <>c__DisplayClass3_0::<Vague>b__1
+    IL_00B8: newobj Func`2::.ctor
+    IL_00BD: call Enumerable::Count
+    IL_00C2: stloc.2
+    IL_00C3: ldloc.1
+    IL_00C4: ldc.i4.3
+    IL_00C5: blt.s 214
+    IL_00C7: ldloc.2
+    IL_00C8: brtrue.s 214
+    IL_00CA: ldarg.0
+    IL_00CB: ldstr "vague"
+    IL_00D0: call ClassifyWordS8::CompleteThis
+    IL_00D5: ret
+    IL_00D6: ldloc.1
+    IL_00D7: ldc.i4.3
+    IL_00D8: blt.s 234
+    IL_00DA: ldloc.2
+    IL_00DB: ldc.i4.0
+    IL_00DC: ble.s 234
+    IL_00DE: ldarg.0
+    IL_00DF: ldstr "no"
+    IL_00E4: call ClassifyWordS8::CompleteThis
+    IL_00E9: ret
+    IL_00EA: ldloc.1
+    IL_00EB: ldc.i4.3
+    IL_00EC: bge.s 244
+    IL_00EE: ldarg.0
+    IL_00EF: call ClassifyWordS8::UnCompleteThis
+    IL_00F4: ret
+
+=== DUMP ClassifyWordS8::Forget
+    IL_0000: ldstr "S8Progress_Para"
+    IL_0005: ldsfld MyParameters::S8Progress_Para
+    IL_000A: call ES3::Load
+    IL_000F: stsfld MyParameters::S8Progress_Para
+    IL_0014: ldsfld MyParameters::S8LookBack_Para
+    IL_0019: ldsfld MyParameters::S8Progress_Para
+    IL_001E: bge.s 50
+    IL_0020: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0025: ldsfld MyParameters::S8LookBack_Para
+    IL_002A: callvirt List`1::get_Item
+    IL_002F: stloc.0
+    IL_0030: br.s 62
+    IL_0032: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0037: ldc.i4.0
+    IL_0038: callvirt List`1::get_Item
+    IL_003D: stloc.0
+    IL_003E: ldstr "S8ForgetThisTimeList_Para"
+    IL_0043: ldsfld MyParameters::S8ForgetThisTimeList_Para
+    IL_0048: call ES3::Load
+    IL_004D: stsfld MyParameters::S8ForgetThisTimeList_Para
+    IL_0052: ldsfld MyParameters::S8ForgetThisTimeList_Para
+    IL_0057: ldloc.0
+    IL_0058: callvirt List`1::Add
+    IL_005D: ldstr "S8ForgetThisTimeList_Para"
+    IL_0062: ldsfld MyParameters::S8ForgetThisTimeList_Para
+    IL_0067: call ES3::Save
+    IL_006C: ldarg.0
+    IL_006D: call ClassifyWordS8::UnCompleteThis
+    IL_0072: ret
+
+=== DUMP ClassifyWordS8::CompleteThis
+    IL_0000: ldstr "S8Progress_Para"
+    IL_0005: ldsfld MyParameters::S8Progress_Para
+    IL_000A: call ES3::Load
+    IL_000F: stsfld MyParameters::S8Progress_Para
+    IL_0014: ldsfld MyParameters::S8LookBack_Para
+    IL_0019: ldsfld MyParameters::S8Progress_Para
+    IL_001E: bge.s 50
+    IL_0020: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0025: ldsfld MyParameters::S8LookBack_Para
+    IL_002A: callvirt List`1::get_Item
+    IL_002F: stloc.0
+    IL_0030: br.s 62
+    IL_0032: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0037: ldc.i4.0
+    IL_0038: callvirt List`1::get_Item
+    IL_003D: stloc.0
+    IL_003E: ldstr "S8HaveLearnedWordList_Para"
+    IL_0043: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0048: call ES3::Load
+    IL_004D: stsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0052: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0057: ldloc.0
+    IL_0058: callvirt List`1::Add
+    IL_005D: ldstr "S8HaveLearnedWordList_Para"
+    IL_0062: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0067: call ES3::Save
+    IL_006C: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0071: callvirt List`1::get_Count
+    IL_0076: stloc.1
+    IL_0077: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_007C: ldloc.1
+    IL_007D: ldc.i4.1
+    IL_007E: sub
+    IL_007F: callvirt List`1::get_Item
+    IL_0084: pop
+    IL_0085: ldstr "S8HaveLearnedStatusList_Para"
+    IL_008A: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_008F: call ES3::Load
+    IL_0094: stsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_0099: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_009E: ldarg.1
+    IL_009F: callvirt List`1::Add
+    IL_00A4: ldstr "S8HaveLearnedStatusList_Para"
+    IL_00A9: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_00AE: call ES3::Save
+    IL_00B3: ldstr "S8needToLearnWordList_Para"
+    IL_00B8: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00BD: call ES3::Load
+    IL_00C2: stsfld MyParameters::S8needToLearnWordList_Para
+    IL_00C7: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00CC: callvirt List`1::get_Count
+    IL_00D1: ldc.i4.0
+    IL_00D2: ble.s 238
+    IL_00D4: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00D9: ldc.i4.0
+    IL_00DA: callvirt List`1::RemoveAt
+    IL_00DF: ldstr "S8needToLearnWordList_Para"
+    IL_00E4: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00E9: call ES3::Save
+    IL_00EE: ldstr "testerxxxx--1222"
+    IL_00F3: call Debug::Log
+    IL_00F8: ldarg.0
+    IL_00F9: ldfld ClassifyWordS8::UpdateLastLearnTimeButton
+    IL_00FE: callvirt Button::get_onClick
+    IL_0103: callvirt UnityEvent::Invoke
+    IL_0108: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_010D: callvirt List`1::get_Count
+    IL_0112: brtrue ?
+    IL_0117: ldstr "S8Progress_Para"
+    IL_011C: ldsfld MyParameters::S8Progress_Para
+    IL_0121: call ES3::Load
+    IL_0126: stsfld MyParameters::S8Progress_Para
+    IL_012B: ldsfld MyParameters::S8Progress_Para
+    IL_0130: ldc.i4.1
+    IL_0131: add
+    IL_0132: stsfld MyParameters::S8Progress_Para
+    IL_0137: ldstr "S8Progress_Para"
+    IL_013C: ldsfld MyParameters::S8Progress_Para
+    IL_0141: call ES3::Save
+    IL_0146: ldsfld MyParameters::S8ThisMode_Para
+    IL_014B: ldstr "每日学习"
+    IL_0150: call String::op_Equality
+    IL_0155: brfalse.s 366
+    IL_0157: ldc.i4.1
+    IL_0158: stsfld MyParameters::CompleteIf_DailyStudy
+    IL_015D: ldstr "CompleteIf_DailyStudy"
+    IL_0162: ldsfld MyParameters::CompleteIf_DailyStudy
+    IL_0167: call ES3::Save
+    IL_016C: br.s 484
+    IL_016E: ldsfld MyParameters::S8ThisMode_Para
+    IL_0173: ldstr "额外学习"
+    IL_0178: call String::op_Equality
+    IL_017D: brfalse.s 406
+    IL_017F: ldc.i4.1
+    IL_0180: stsfld MyParameters::CompleteIf_ExtraStudy
+    IL_0185: ldstr "CompleteIf_ExtraStudy"
+    IL_018A: ldsfld MyParameters::CompleteIf_ExtraStudy
+    IL_018F: call ES3::Save
+    IL_0194: br.s 484
+    IL_0196: ldsfld MyParameters::S8ThisMode_Para
+    IL_019B: ldstr "每日复习"
+    IL_01A0: call String::op_Equality
+    IL_01A5: brfalse.s 446
+    IL_01A7: ldc.i4.1
+    IL_01A8: stsfld MyParameters::CompleteIf_DailyReview
+    IL_01AD: ldstr "CompleteIf_DailyReview"
+    IL_01B2: ldsfld MyParameters::CompleteIf_DailyReview
+    IL_01B7: call ES3::Save
+    IL_01BC: br.s 484
+    IL_01BE: ldsfld MyParameters::S8ThisMode_Para
+    IL_01C3: ldstr "额外复习"
+    IL_01C8: call String::op_Equality
+    IL_01CD: brfalse.s 484
+    IL_01CF: ldc.i4.1
+    IL_01D0: stsfld MyParameters::CompleteIf_ExtraReview
+    IL_01D5: ldstr "CompleteIf_ExtraReview"
+    IL_01DA: ldsfld MyParameters::CompleteIf_ExtraReview
+    IL_01DF: call ES3::Save
+    IL_01E4: ldstr "testerxxxx--12"
+    IL_01E9: call Debug::Log
+    IL_01EE: ldarg.0
+    IL_01EF: ldfld ClassifyWordS8::invokeButtonFinish
+    IL_01F4: callvirt Button::get_onClick
+    IL_01F9: callvirt UnityEvent::Invoke
+    IL_01FE: ret
+    IL_01FF: ldstr "S8Progress_Para"
+    IL_0204: ldsfld MyParameters::S8Progress_Para
+    IL_0209: call ES3::Load
+    IL_020E: stsfld MyParameters::S8Progress_Para
+    IL_0213: ldsfld MyParameters::S8Progress_Para
+    IL_0218: ldc.i4.1
+    IL_0219: add
+    IL_021A: stsfld MyParameters::S8Progress_Para
+    IL_021F: ldstr "S8Progress_Para"
+    IL_0224: ldsfld MyParameters::S8Progress_Para
+    IL_0229: call ES3::Save
+    IL_022E: ldsfld MyParameters::S8Progress_Para
+    IL_0233: stsfld MyParameters::S8LookBack_Para
+    IL_0238: ldarg.0
+    IL_0239: ldfld ClassifyWordS8::invokeButton
+    IL_023E: callvirt Button::get_onClick
+    IL_0243: callvirt UnityEvent::Invoke
+    IL_0248: ret

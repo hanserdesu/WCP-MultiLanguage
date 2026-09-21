@@ -1,0 +1,275 @@
+ASM Assembly-CSharp-firstpass
+--- referenced assemblies containing 'Unity' ---
+  ref UnityEngine.CoreModule 0.0.0.0
+  ref Unity.VisualScripting.Core 0.0.0.0
+  ref UnityEngine.AudioModule 0.0.0.0
+  ref UnityEngine.UnityWebRequestModule 0.0.0.0
+  ref UnityEngine.UIModule 0.0.0.0
+  ref UnityEngine.UI 1.0.0.0
+  ref UnityEngine.PhysicsModule 0.0.0.0
+  ref UnityEngine.Physics2DModule 0.0.0.0
+  ref UnityEngine.ParticleSystemModule 0.0.0.0
+  ref UnityEngine.TextRenderingModule 0.0.0.0
+  ref UnityEngine.AnimationModule 0.0.0.0
+  ref UnityEngine.ImageConversionModule 0.0.0.0
+  ref UnityEngine.UnityWebRequestAudioModule 0.0.0.0
+
+### ES3  base=System.Object  abstract=False sealed=False
+  FIELDS:
+  PROPS:
+  CTORS:
+    public.ctor()
+  METHODS:
+    publicstatic System.Void Save(System.String key, System.Object value)
+    publicstatic System.Void Save(System.String key, System.Object value, System.String filePath)
+    publicstatic System.Void Save(System.String key, System.Object value, System.String filePath, ES3Settings settings)
+    publicstatic System.Void Save(System.String key, System.Object value, ES3Settings settings)
+    publicstatic GEN1 System.Void Save(System.String key, T value)
+    publicstatic GEN1 System.Void Save(System.String key, T value, System.String filePath)
+    publicstatic GEN1 System.Void Save(System.String key, T value, System.String filePath, ES3Settings settings)
+    publicstatic GEN1 System.Void Save(System.String key, T value, ES3Settings settings)
+    publicstatic System.Void SaveRaw(System.Byte[] bytes)
+    publicstatic System.Void SaveRaw(System.Byte[] bytes, System.String filePath)
+    publicstatic System.Void SaveRaw(System.Byte[] bytes, System.String filePath, ES3Settings settings)
+    publicstatic System.Void SaveRaw(System.Byte[] bytes, ES3Settings settings)
+    publicstatic System.Void SaveRaw(System.String str)
+    publicstatic System.Void SaveRaw(System.String str, System.String filePath)
+    publicstatic System.Void SaveRaw(System.String str, System.String filePath, ES3Settings settings)
+    publicstatic System.Void SaveRaw(System.String str, ES3Settings settings)
+    publicstatic System.Void AppendRaw(System.Byte[] bytes)
+    publicstatic System.Void AppendRaw(System.Byte[] bytes, System.String filePath, ES3Settings settings)
+    publicstatic System.Void AppendRaw(System.Byte[] bytes, ES3Settings settings)
+    publicstatic System.Void AppendRaw(System.String str)
+    publicstatic System.Void AppendRaw(System.String str, System.String filePath)
+    publicstatic System.Void AppendRaw(System.String str, System.String filePath, ES3Settings settings)
+    publicstatic System.Void AppendRaw(System.String str, ES3Settings settings)
+    publicstatic System.Void SaveImage(UnityEngine.Texture2D texture, System.String imagePath)
+    publicstatic System.Void SaveImage(UnityEngine.Texture2D texture, System.String imagePath, ES3Settings settings)
+    publicstatic System.Void SaveImage(UnityEngine.Texture2D texture, ES3Settings settings)
+    publicstatic System.Void SaveImage(UnityEngine.Texture2D texture, System.Int32 quality, System.String imagePath)
+    publicstatic System.Void SaveImage(UnityEngine.Texture2D texture, System.Int32 quality, System.String imagePath, ES3Settings settings)
+    publicstatic System.Void SaveImage(UnityEngine.Texture2D texture, System.Int32 quality, ES3Settings settings)
+    publicstatic System.Byte[] SaveImageToBytes(UnityEngine.Texture2D texture, System.Int32 quality, ES3/ImageType imageType)
+    publicstatic System.Object Load(System.String key)
+    publicstatic System.Object Load(System.String key, System.String filePath)
+    publicstatic System.Object Load(System.String key, System.String filePath, ES3Settings settings)
+    publicstatic System.Object Load(System.String key, ES3Settings settings)
+    publicstatic System.Object Load(System.String key, System.Object defaultValue)
+    publicstatic System.Object Load(System.String key, System.String filePath, System.Object defaultValue)
+    publicstatic System.Object Load(System.String key, System.String filePath, System.Object defaultValue, ES3Settings settings)
+    publicstatic System.Object Load(System.String key, System.Object defaultValue, ES3Settings settings)
+    publicstatic GEN1 T Load(System.String key)
+    publicstatic GEN1 T Load(System.String key, System.String filePath)
+    publicstatic GEN1 T Load(System.String key, System.String filePath, ES3Settings settings)
+    publicstatic GEN1 T Load(System.String key, ES3Settings settings)
+    publicstatic GEN1 T Load(System.String key, T defaultValue)
+    publicstatic GEN1 T Load(System.String key, System.String filePath, T defaultValue)
+    publicstatic GEN1 T Load(System.String key, System.String filePath, T defaultValue, ES3Settings settings)
+    publicstatic GEN1 T Load(System.String key, T defaultValue, ES3Settings settings)
+    publicstatic GEN1 System.Void LoadInto(System.String key, System.Object obj)
+    publicstatic System.Void LoadInto(System.String key, System.String filePath, System.Object obj)
+    publicstatic System.Void LoadInto(System.String key, System.String filePath, System.Object obj, ES3Settings settings)
+    publicstatic System.Void LoadInto(System.String key, System.Object obj, ES3Settings settings)
+    publicstatic GEN1 System.Void LoadInto(System.String key, T obj)
+    publicstatic GEN1 System.Void LoadInto(System.String key, System.String filePath, T obj)
+    publicstatic GEN1 System.Void LoadInto(System.String key, System.String filePath, T obj, ES3Settings settings)
+    publicstatic GEN1 System.Void LoadInto(System.String key, T obj, ES3Settings settings)
+    publicstatic System.String LoadString(System.String key, System.String defaultValue, ES3Settings settings)
+    publicstatic System.String LoadString(System.String key, System.String defaultValue, System.String = opt filePath, ES3Settings = opt settings)
+    publicstatic System.Byte[] LoadRawBytes()
+    publicstatic System.Byte[] LoadRawBytes(System.String filePath)
+    publicstatic System.Byte[] LoadRawBytes(System.String filePath, ES3Settings settings)
+    publicstatic System.Byte[] LoadRawBytes(ES3Settings settings)
+    publicstatic System.String LoadRawString()
+    publicstatic System.String LoadRawString(System.String filePath)
+    publicstatic System.String LoadRawString(System.String filePath, ES3Settings settings)
+    publicstatic System.String LoadRawString(ES3Settings settings)
+    publicstatic UnityEngine.Texture2D LoadImage(System.String imagePath)
+    publicstatic UnityEngine.Texture2D LoadImage(System.String imagePath, ES3Settings settings)
+    publicstatic UnityEngine.Texture2D LoadImage(ES3Settings settings)
+    publicstatic UnityEngine.Texture2D LoadImage(System.Byte[] bytes)
+    publicstatic UnityEngine.AudioClip LoadAudio(System.String audioFilePath, UnityEngine.AudioType audioType)
+    publicstatic UnityEngine.AudioClip LoadAudio(System.String audioFilePath, UnityEngine.AudioType audioType, ES3Settings settings)
+    publicstatic GEN1 System.Byte[] Serialize(T value, ES3Settings = opt settings)
+    internalstatic System.Byte[] Serialize(System.Object value, ES3Types.ES3Type type, ES3Settings = opt settings)
+    publicstatic GEN1 T Deserialize(System.Byte[] bytes, ES3Settings = opt settings)
+    internalstatic System.Object Deserialize(ES3Types.ES3Type type, System.Byte[] bytes, ES3Settings = opt settings)
+    publicstatic GEN1 System.Void DeserializeInto(System.Byte[] bytes, T obj, ES3Settings = opt settings)
+    publicstatic GEN1 System.Void DeserializeInto(ES3Types.ES3Type type, System.Byte[] bytes, T obj, ES3Settings = opt settings)
+    publicstatic System.Byte[] EncryptBytes(System.Byte[] bytes, System.String = opt password)
+    publicstatic System.Byte[] DecryptBytes(System.Byte[] bytes, System.String = opt password)
+    publicstatic System.String EncryptString(System.String str, System.String = opt password)
+    publicstatic System.String DecryptString(System.String str, System.String = opt password)
+    publicstatic System.Byte[] CompressBytes(System.Byte[] bytes)
+    publicstatic System.Byte[] DecompressBytes(System.Byte[] bytes)
+    publicstatic System.String CompressString(System.String str)
+    publicstatic System.String DecompressString(System.String str)
+    publicstatic System.Void DeleteFile()
+    publicstatic System.Void DeleteFile(System.String filePath)
+    publicstatic System.Void DeleteFile(System.String filePath, ES3Settings settings)
+    publicstatic System.Void DeleteFile(ES3Settings settings)
+    publicstatic System.Void CopyFile(System.String oldFilePath, System.String newFilePath)
+    publicstatic System.Void CopyFile(System.String oldFilePath, System.String newFilePath, ES3Settings oldSettings, ES3Settings newSettings)
+    publicstatic System.Void CopyFile(ES3Settings oldSettings, ES3Settings newSettings)
+    publicstatic System.Void RenameFile(System.String oldFilePath, System.String newFilePath)
+    publicstatic System.Void RenameFile(System.String oldFilePath, System.String newFilePath, ES3Settings oldSettings, ES3Settings newSettings)
+    publicstatic System.Void RenameFile(ES3Settings oldSettings, ES3Settings newSettings)
+    publicstatic System.Void CopyDirectory(System.String oldDirectoryPath, System.String newDirectoryPath)
+    publicstatic System.Void CopyDirectory(System.String oldDirectoryPath, System.String newDirectoryPath, ES3Settings oldSettings, ES3Settings newSettings)
+    publicstatic System.Void CopyDirectory(ES3Settings oldSettings, ES3Settings newSettings)
+    publicstatic System.Void RenameDirectory(System.String oldDirectoryPath, System.String newDirectoryPath)
+    publicstatic System.Void RenameDirectory(System.String oldDirectoryPath, System.String newDirectoryPath, ES3Settings oldSettings, ES3Settings newSettings)
+    publicstatic System.Void RenameDirectory(ES3Settings oldSettings, ES3Settings newSettings)
+    publicstatic System.Void DeleteDirectory(System.String directoryPath)
+    publicstatic System.Void DeleteDirectory(System.String directoryPath, ES3Settings settings)
+    publicstatic System.Void DeleteDirectory(ES3Settings settings)
+    publicstatic System.Void DeleteKey(System.String key)
+    publicstatic System.Void DeleteKey(System.String key, System.String filePath)
+    publicstatic System.Void DeleteKey(System.String key, System.String filePath, ES3Settings settings)
+    publicstatic System.Void DeleteKey(System.String key, ES3Settings settings)
+    publicstatic System.Boolean KeyExists(System.String key)
+    publicstatic System.Boolean KeyExists(System.String key, System.String filePath)
+    publicstatic System.Boolean KeyExists(System.String key, System.String filePath, ES3Settings settings)
+    publicstatic System.Boolean KeyExists(System.String key, ES3Settings settings)
+    publicstatic System.Boolean FileExists()
+    publicstatic System.Boolean FileExists(System.String filePath)
+    publicstatic System.Boolean FileExists(System.String filePath, ES3Settings settings)
+    publicstatic System.Boolean FileExists(ES3Settings settings)
+    publicstatic System.Boolean DirectoryExists(System.String folderPath)
+    publicstatic System.Boolean DirectoryExists(System.String folderPath, ES3Settings settings)
+    publicstatic System.Boolean DirectoryExists(ES3Settings settings)
+    publicstatic System.String[] GetKeys()
+    publicstatic System.String[] GetKeys(System.String filePath)
+    publicstatic System.String[] GetKeys(System.String filePath, ES3Settings settings)
+    publicstatic System.String[] GetKeys(ES3Settings settings)
+    publicstatic System.String[] GetFiles()
+    publicstatic System.String[] GetFiles(System.String directoryPath)
+    publicstatic System.String[] GetFiles(System.String directoryPath, ES3Settings settings)
+    publicstatic System.String[] GetFiles(ES3Settings settings)
+    publicstatic System.String[] GetDirectories()
+    publicstatic System.String[] GetDirectories(System.String directoryPath)
+    publicstatic System.String[] GetDirectories(System.String directoryPath, ES3Settings settings)
+    publicstatic System.String[] GetDirectories(ES3Settings settings)
+    publicstatic System.Void CreateBackup()
+    publicstatic System.Void CreateBackup(System.String filePath)
+    publicstatic System.Void CreateBackup(System.String filePath, ES3Settings settings)
+    publicstatic System.Void CreateBackup(ES3Settings settings)
+    publicstatic System.Boolean RestoreBackup(System.String filePath)
+    publicstatic System.Boolean RestoreBackup(System.String filePath, ES3Settings settings)
+    publicstatic System.Boolean RestoreBackup(ES3Settings settings)
+    publicstatic System.DateTime GetTimestamp()
+    publicstatic System.DateTime GetTimestamp(System.String filePath)
+    publicstatic System.DateTime GetTimestamp(System.String filePath, ES3Settings settings)
+    publicstatic System.DateTime GetTimestamp(ES3Settings settings)
+    publicstatic System.Void StoreCachedFile()
+    publicstatic System.Void StoreCachedFile(System.String filePath)
+    publicstatic System.Void StoreCachedFile(System.String filePath, ES3Settings settings)
+    publicstatic System.Void StoreCachedFile(ES3Settings settings)
+    publicstatic System.Void CacheFile()
+    publicstatic System.Void CacheFile(System.String filePath)
+    publicstatic System.Void CacheFile(System.String filePath, ES3Settings settings)
+    publicstatic System.Void CacheFile(ES3Settings settings)
+    publicstatic System.Void Init()
+
+### ES3File  base=System.Object  abstract=False sealed=False
+  FIELDS:
+    publicstatic System.Collections.Generic.Dictionary`2<System.String,ES3File> cachedFiles
+    publicES3Settings settings
+    nonpublicSystem.Collections.Generic.Dictionary`2<System.String,ES3Internal.ES3Data> cache
+    nonpublicSystem.Boolean syncWithFile
+    nonpublicSystem.DateTime timestamp
+  PROPS:
+  CTORS:
+    public.ctor()
+    public.ctor(System.String filePath)
+    public.ctor(System.String filePath, ES3Settings settings)
+    public.ctor(ES3Settings settings)
+    public.ctor(System.Boolean syncWithFile)
+    public.ctor(System.String filePath, System.Boolean syncWithFile)
+    public.ctor(System.String filePath, ES3Settings settings, System.Boolean syncWithFile)
+    public.ctor(ES3Settings settings, System.Boolean syncWithFile)
+    public.ctor(System.Byte[] bytes, ES3Settings = opt settings)
+    nonpublic.ctor()
+  METHODS:
+    publicSystem.Void Sync()
+    publicSystem.Void Sync(System.String filePath, ES3Settings = opt settings)
+    publicSystem.Void Sync(ES3Settings = opt settings)
+    publicSystem.Void Clear()
+    publicSystem.String[] GetKeys()
+    publicGEN1 System.Void Save(System.String key, T value)
+    publicSystem.Void SaveRaw(System.Byte[] bytes, ES3Settings = opt settings)
+    publicSystem.Void AppendRaw(System.Byte[] bytes, ES3Settings = opt settings)
+    publicSystem.Object Load(System.String key)
+    publicSystem.Object Load(System.String key, System.Object defaultValue)
+    publicGEN1 T Load(System.String key)
+    publicGEN1 T Load(System.String key, T defaultValue)
+    publicGEN1 System.Void LoadInto(System.String key, T obj)
+    publicSystem.Byte[] LoadRawBytes()
+    publicSystem.String LoadRawString()
+    internalSystem.Byte[] GetBytes(ES3Settings = opt settings)
+    publicSystem.Void DeleteKey(System.String key)
+    publicSystem.Boolean KeyExists(System.String key)
+    publicSystem.Int32 Size()
+    publicSystem.Type GetKeyType(System.String key)
+    internalstatic ES3File GetOrCreateCachedFile(ES3Settings settings)
+    internalstatic System.Void CacheFile(ES3Settings settings)
+    internalstatic System.Void Store(ES3Settings = opt settings)
+    internalstatic System.Void RemoveCachedFile(ES3Settings settings)
+    internalstatic System.Void CopyCachedFile(ES3Settings oldSettings, ES3Settings newSettings)
+    internalstatic System.Void DeleteKey(System.String key, ES3Settings settings)
+    internalstatic System.Boolean KeyExists(System.String key, ES3Settings settings)
+    internalstatic System.Boolean FileExists(ES3Settings settings)
+    internalstatic System.String[] GetKeys(ES3Settings settings)
+    internalstatic System.String[] GetFiles()
+    internalstatic System.DateTime GetTimestamp(ES3Settings settings)
+
+### ES3Settings  base=System.Object  abstract=False sealed=False
+  FIELDS:
+    nonpublicstatic ES3Settings _defaults
+    nonpublicstatic ES3Defaults _defaultSettingsScriptableObject
+    nonpublicstatic System.String defaultSettingsPath
+    nonpublicstatic ES3Settings _unencryptedUncompressedSettings
+    nonpublicstatic System.String[] resourcesExtensions
+    nonpublicES3/Location _location
+    publicSystem.String path
+    publicES3/EncryptionType encryptionType
+    publicES3/CompressionType compressionType
+    publicSystem.String encryptionPassword
+    publicES3/Directory directory
+    publicES3/Format format
+    publicSystem.Boolean prettyPrint
+    publicSystem.Int32 bufferSize
+    publicSystem.Text.Encoding encoding
+    publicSystem.Boolean saveChildren
+    publicSystem.Boolean postprocessRawCachedData
+    publicSystem.Boolean typeChecking
+    publicSystem.Boolean safeReflection
+    publicES3/ReferenceMode memberReferenceMode
+    publicES3/ReferenceMode referenceMode
+    publicSystem.Int32 serializationDepthLimit
+    publicSystem.String[] assemblyNames
+  PROPS:
+    ES3Defaults defaultSettingsScriptableObject
+    ES3Settings defaultSettings
+    ES3Settings unencryptedUncompressedSettings
+    ES3/Location location
+    System.String FullPath
+  CTORS:
+    public.ctor(System.String = opt path, ES3Settings = opt settings)
+    public.ctor(System.String path, System.Enum[] enums)
+    public.ctor(System.Enum[] enums)
+    public.ctor(ES3/EncryptionType encryptionType, System.String encryptionPassword)
+    public.ctor(System.String path, ES3/EncryptionType encryptionType, System.String encryptionPassword, ES3Settings = opt settings)
+    public.ctor(System.Boolean applyDefaults)
+    nonpublic.ctor()
+  METHODS:
+    publicstatic ES3Defaults get_defaultSettingsScriptableObject()
+    publicstatic ES3Settings get_defaultSettings()
+    internalstatic ES3Settings get_unencryptedUncompressedSettings()
+    publicES3/Location get_location()
+    publicSystem.Void set_location(ES3/Location value)
+    publicSystem.String get_FullPath()
+    nonpublicstatic System.Boolean IsAbsolute(System.String path)
+    publicSystem.Object Clone()
+    nonpublicSystem.Void CopyInto(ES3Settings newSettings)
+

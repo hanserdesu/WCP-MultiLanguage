@@ -1,0 +1,55 @@
+repo     WcpHost.dll     104448 B  sha256=f3355c05b7fe2946c37fde903b19114906360d6c641483c2b9885c09820db43f
+deployed WcpHost.dll     104448 B  sha256=f3355c05b7fe2946c37fde903b19114906360d6c641483c2b9885c09820db43f
+repo == deployed (byte-identical): True
+
+--- literal presence (UTF-16LE) ---
+  身份:读内存词表                       OK
+      why: round-10: Evaluate stage 1 -- StaticField x2 + ToWordList
+  身份:读落盘书名                       OK
+      why: round-10: Evaluate stage 2 -- the one ES3 read that fires on every poll
+  身份:槽号                          OK
+      why: round-10: Evaluate stage 3 -- pure string parse, expected ~0ms
+  身份:匹配内存词表                      OK
+      why: round-10: Evaluate stage 4 -- BookRegistry.Match (measured 3.4ms off-line)
+  身份:读槽位词表                       OK
+      why: round-10: Evaluate stage 5 -- SlotWords, cache hit in steady state
+  身份:匹配槽位词表                      OK
+      why: round-10: Evaluate stage 6 -- second Match on the slot snapshot
+  身份:槽位归属                        OK
+      why: round-10: Evaluate stage 7 -- SlotOwnership.IsServed
+  身份:装载                          OK
+      why: round-10: Evaluate stage 8 -- SetIdentity / SetActive
+  场景:强制校正                        OK
+      why: round-10: THE CLOSED HOLE -- EnforceNowForScene had no outermost span, so every correction fired from inside a game method was invisible to the sentinel's 'mod busy ms' accounting
+  运行态:场景校正                       OK
+      why: round-10: EnforceNow tag, so patch-triggered corrections are distinguishable from the每秒 Tick one
+  ES3:槽位计数探测                     OK
+      why: round-10: NativeSlotCount() probes SelfBookList1..N with a full ES3 document parse per iteration and had no span
+  槽位归属:重解析                       OK
+      why: round-10: SlotOwnership cache-miss path (20 rows x StrList + FingerprintOf)
+  槽位归属:行指纹                       OK
+      why: round-10: the per-row FingerprintOf inside that miss path
+  补丁:场景钩子                        OK
+      why: round-10: InstallFeatures group 1
+  补丁:显示                          OK
+      why: round-10: InstallFeatures group 2
+  补丁:词典                          OK
+      why: round-10: InstallFeatures group 3
+  补丁:音频                          OK
+      why: round-10: InstallFeatures group 4
+  补丁:选词与刷新                       OK
+      why: round-10: InstallFeatures group 5
+  GC本帧=                          OK
+      why: round-10: per-long-frame GC delta -- the only way to tell a slow span from a span that got hit by a stop-the-world collection
+  GC窗口=                          OK
+      why: round-10: per-window GC delta
+  GC 基线建立                        OK
+      why: round-10: first window forgoes the delta because there is no baseline yet
+  ES3 批量写已启用                     OK
+      why: round-9 regression: batch engaged log
+  ES3 批量写不可用                     OK
+      why: round-9 regression: Create() names the missing prerequisite
+  ES3.Location 取不到 Cache 成员      OK
+      why: round-9 regression: the actual round-8 root cause diagnostic
+
+VERIFY ROUND 10: PASS (24 literals present, repo==deployed)

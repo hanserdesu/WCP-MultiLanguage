@@ -1,0 +1,139 @@
+ASM Assembly-CSharp-firstpass
+
+=== DUMP ES3::Save
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldnull
+    IL_0003: ldnull
+    IL_0004: newobj ES3Settings::.ctor
+    IL_0009: call ES3::Save
+    IL_000E: ret
+
+=== DUMP ES3::CacheFile
+    IL_0000: ldnull
+    IL_0001: ldnull
+    IL_0002: newobj ES3Settings::.ctor
+    IL_0007: call ES3::CacheFile
+    IL_000C: ret
+
+=== DUMP ES3::StoreCachedFile
+    IL_0000: ldnull
+    IL_0001: call ES3File::Store
+    IL_0006: ret
+
+=== DUMP ES3File::CacheFile
+    IL_0000: ldarg.0
+    IL_0001: callvirt ES3Settings::get_location
+    IL_0006: ldc.i4.4
+    IL_0007: bne.un.s 54
+    IL_0009: ldarg.0
+    IL_000A: callvirt ES3Settings::Clone
+    IL_000F: castclass ES3Settings
+    IL_0014: starg.s 0
+    IL_0016: ldarg.0
+    IL_0017: call ES3Settings::get_defaultSettings
+    IL_001C: callvirt ES3Settings::get_location
+    IL_0021: ldc.i4.4
+    IL_0022: beq.s 48
+    IL_0024: call ES3Settings::get_defaultSettings
+    IL_0029: callvirt ES3Settings::get_location
+    IL_002E: br.s 49
+    IL_0030: ldc.i4.0
+    IL_0031: callvirt ES3Settings::set_location
+    IL_0036: ldarg.0
+    IL_0037: call ES3::FileExists
+    IL_003C: brtrue.s 63
+    IL_003E: ret
+    IL_003F: ldarg.0
+    IL_0040: callvirt ES3Settings::Clone
+    IL_0045: castclass ES3Settings
+    IL_004A: stloc.0
+    IL_004B: ldloc.0
+    IL_004C: ldc.i4.0
+    IL_004D: stfld ES3Settings::compressionType
+    IL_0052: ldloc.0
+    IL_0053: ldc.i4.0
+    IL_0054: stfld ES3Settings::encryptionType
+    IL_0059: ldsfld ES3File::cachedFiles
+    IL_005E: ldarg.0
+    IL_005F: ldfld ES3Settings::path
+    IL_0064: ldloc.0
+    IL_0065: call ES3::LoadRawBytes
+    IL_006A: ldarg.0
+    IL_006B: newobj ES3File::.ctor
+    IL_0070: callvirt Dictionary`2::set_Item
+    IL_0075: ret
+
+=== DUMP ES3File::Store
+    IL_0000: ldarg.0
+    IL_0001: brtrue.s 27
+    IL_0003: ldc.i4.1
+    IL_0004: newarr System.Enum
+    IL_0009: dup
+    IL_000A: ldc.i4.0
+    IL_000B: ldc.i4.0
+    IL_000C: box ES3+Location
+    IL_0011: stelem.ref
+    IL_0012: newobj ES3Settings::.ctor
+    IL_0017: starg.s 0
+    IL_0019: br.s 81
+    IL_001B: ldarg.0
+    IL_001C: callvirt ES3Settings::get_location
+    IL_0021: ldc.i4.4
+    IL_0022: bne.un.s 81
+    IL_0024: ldarg.0
+    IL_0025: callvirt ES3Settings::Clone
+    IL_002A: castclass ES3Settings
+    IL_002F: starg.s 0
+    IL_0031: ldarg.0
+    IL_0032: call ES3Settings::get_defaultSettings
+    IL_0037: callvirt ES3Settings::get_location
+    IL_003C: ldc.i4.4
+    IL_003D: beq.s 75
+    IL_003F: call ES3Settings::get_defaultSettings
+    IL_0044: callvirt ES3Settings::get_location
+    IL_0049: br.s 76
+    IL_004B: ldc.i4.0
+    IL_004C: callvirt ES3Settings::set_location
+    IL_0051: ldsfld ES3File::cachedFiles
+    IL_0056: ldarg.0
+    IL_0057: ldfld ES3Settings::path
+    IL_005C: ldloca.s 0
+    IL_005E: callvirt Dictionary`2::TryGetValue
+    IL_0063: brtrue.s 128
+    IL_0065: ldstr "The file '"
+    IL_006A: ldarg.0
+    IL_006B: ldfld ES3Settings::path
+    IL_0070: ldstr "' could not be stored because it could not be found in the cache."
+    IL_0075: call String::Concat
+    IL_007A: newobj FileNotFoundException::.ctor
+    IL_007F: throw
+    IL_0080: ldloc.0
+    IL_0081: ldarg.0
+    IL_0082: callvirt ES3File::Sync
+    IL_0087: ret
+
+=== DUMP ES3File::GetOrCreateCachedFile
+    IL_0000: ldsfld ES3File::cachedFiles
+    IL_0005: ldarg.0
+    IL_0006: ldfld ES3Settings::path
+    IL_000B: ldloca.s 0
+    IL_000D: callvirt Dictionary`2::TryGetValue
+    IL_0012: brtrue.s 52
+    IL_0014: ldarg.0
+    IL_0015: ldc.i4.0
+    IL_0016: newobj ES3File::.ctor
+    IL_001B: stloc.0
+    IL_001C: ldsfld ES3File::cachedFiles
+    IL_0021: ldarg.0
+    IL_0022: ldfld ES3Settings::path
+    IL_0027: ldloc.0
+    IL_0028: callvirt Dictionary`2::Add
+    IL_002D: ldloc.0
+    IL_002E: ldc.i4.1
+    IL_002F: stfld ES3File::syncWithFile
+    IL_0034: ldloc.0
+    IL_0035: ldarg.0
+    IL_0036: stfld ES3File::settings
+    IL_003B: ldloc.0
+    IL_003C: ret

@@ -1,0 +1,6 @@
+loaded firstpass: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+ES3 type = ES3
+ES3Settings type = ES3Settings
+ES3File type = ES3File
+defaultSettings FAILED: TypeInitializationException: “UnityEngine.Object”的类型初始值设定项引发异常。
+Location = File,PlayerPrefs,InternalMS,Resources,Cache

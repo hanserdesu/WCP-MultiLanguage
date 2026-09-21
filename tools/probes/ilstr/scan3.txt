@@ -1,0 +1,399 @@
+﻿ASM Assembly-CSharp
+
+=== SetS8Data :: SetAsDailyReview(0p)   (il=356B)
+    lit[0] = 每日复习
+    lit[1] = S8ThisMode_Para
+    lit[2] = S8TestWordList_DailyReview
+    lit[3] = S8TestWordList_Para
+    lit[4] = S8TestWordList_DailyReview_Finished
+    lit[5] = S8HaveLearnedWordList_Para
+    lit[6] = S8TestWordList_DailyReview_left
+    lit[7] = S8needToLearnWordList_Para
+    lit[8] = S8Progress_Para
+    lit[9] = S8HaveLearnedStatusList_DailyReview
+    lit[10] = S8HaveLearnedStatusList_Para
+    lit[11] = S8VagueTimesThisTimeList_DailyReview
+    lit[12] = S8VagueTimesThisTimeList_Para
+    lit[13] = S8ForgetThisTimeList_DailyReview
+    lit[14] = S8ForgetThisTimeList_Para
+
+=== SetS8Data :: SetAsDailyStudy(0p)   (il=372B)
+    lit[0] = 每日学习
+    lit[1] = S8ThisMode_Para
+    lit[2] = S8TestWordList_DailyStudy
+    lit[3] = S8TestWordList_Para
+    lit[4] = , 
+    lit[5] = S8TestWordList_DailyStudy_Finished
+    lit[6] = S8HaveLearnedWordList_Para
+    lit[7] = S8TestWordList_DailyStudy_left
+    lit[8] = S8needToLearnWordList_Para
+    lit[9] = S8Progress_Para
+    lit[10] = S8HaveLearnedStatusList_DailyStudy
+    lit[11] = S8HaveLearnedStatusList_Para
+    lit[12] = S8VagueTimesThisTimeList_DailyStudy
+    lit[13] = S8VagueTimesThisTimeList_Para
+    lit[14] = S8ForgetThisTimeList_DailyStudy
+    lit[15] = S8ForgetThisTimeList_Para
+
+=== SetS8Data :: SetAsExtraReview(0p)   (il=356B)
+    lit[0] = 额外复习
+    lit[1] = S8ThisMode_Para
+    lit[2] = S8TestWordList_ExtraReview
+    lit[3] = S8TestWordList_Para
+    lit[4] = S8TestWordList_ExtraReview_Finished
+    lit[5] = S8HaveLearnedWordList_Para
+    lit[6] = S8TestWordList_ExtraReview_left
+    lit[7] = S8needToLearnWordList_Para
+    lit[8] = S8Progress_Para
+    lit[9] = S8HaveLearnedStatusList_ExtraReview
+    lit[10] = S8HaveLearnedStatusList_Para
+    lit[11] = S8VagueTimesThisTimeList_ExtraReview
+    lit[12] = S8VagueTimesThisTimeList_Para
+    lit[13] = S8ForgetThisTimeList_ExtraReview
+    lit[14] = S8ForgetThisTimeList_Para
+
+=== SetS8Data :: SetAsExtraStudy(0p)   (il=356B)
+    lit[0] = 额外学习
+    lit[1] = S8ThisMode_Para
+    lit[2] = S8TestWordList_ExtraStudy
+    lit[3] = S8TestWordList_Para
+    lit[4] = S8TestWordList_ExtraStudy_Finished
+    lit[5] = S8HaveLearnedWordList_Para
+    lit[6] = S8TestWordList_ExtraStudy_left
+    lit[7] = S8needToLearnWordList_Para
+    lit[8] = S8Progress_Para
+    lit[9] = S8HaveLearnedStatusList_ExtraStudy
+    lit[10] = S8HaveLearnedStatusList_Para
+    lit[11] = S8VagueTimesThisTimeList_ExtraStudy
+    lit[12] = S8VagueTimesThisTimeList_Para
+    lit[13] = S8ForgetThisTimeList_ExtraStudy
+    lit[14] = S8ForgetThisTimeList_Para
+
+=== SetS8Data :: SetAsLearnedTest(0p)   (il=395B)
+    lit[0] = 已学词测试
+    lit[1] = S8ThisMode_Para
+    lit[2] = allTestWordsS10_Para
+    lit[3] = S8TestWordList_Para
+    lit[4] =  <> 
+    lit[5] = S8TestWordList_LearnedTest_Finished
+    lit[6] = S8HaveLearnedWordList_Para
+    lit[7] =  [<>] 
+    lit[8] = S8TestWordList_LearnedTest_left
+    lit[9] =  [<#>] 
+    lit[10] =  [<*>] 
+    lit[11] = S8needToLearnWordList_Para
+    lit[12] = S8Progress_Para
+    lit[13] = S8HaveLearnedStatusList_LearnedTest
+    lit[14] = S8HaveLearnedStatusList_Para
+    lit[15] = S8VagueTimesThisTimeList_Para
+    lit[16] = S8ForgetThisTimeList_LearnedTest
+    lit[17] = S8ForgetThisTimeList_Para
+
+=== AddTextContentsS8 :: UpdateResultText(0p)   (il=1123B)
+    lit[0] = S8Progress_Para
+    lit[1] = 已学词测试
+    lit[2] = S8ThisMode_Para
+    lit[3] = 额外复习
+    lit[4] = 每日复习
+    lit[5] = 
+    lit[6] = [暂未收录这个单词。我们会后续为您更新词库~]\n\n
+    lit[7] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[8] = <sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[9] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[10] = <sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[11] = S8needToLearnWordList_Para
+    lit[12] = congratulations
+    lit[13] = 医
+    lit[14] = 内科
+    lit[15] = 药
+    lit[16] = 化
+    lit[17] = 化学
+    lit[18] = 有化
+    lit[19] = 生
+    lit[20] = 生物
+    lit[21] = 生物学
+    lit[22] = 生化
+    lit[23] = 遗
+    lit[24] = 遗传学
+    lit[25] = 胚
+    lit[26] = 细胞生物学
+    lit[27] = 物
+    lit[28] = 微
+    lit[29] = 解
+    lit[30] = 解剖
+    lit[31] = 数
+    lit[32] = 数学
+    lit[33] = 语
+    lit[34] = 语法
+    lit[35] = 法
+    lit[36] = 音
+    lit[37] = 乐
+    lit[38] = 计算机
+    lit[39] = 电子学
+    lit[40] = 高分子
+    lit[41] = 地质
+    lit[42] = 天
+    lit[43] = 航
+    lit[44] = 鸟
+    lit[45] = 建
+    lit[46] = 希神
+    lit[47] = \[([^\]]+)\]
+    lit[48] = (<mark=#ffffffaa><color=#ffffff00>)+
+    lit[49] = <mark=#ffffffaa><color=#ffffff00>
+    lit[50] = (</color></mark>)+
+    lit[51] = </color></mark>
+
+=== AddTextContentsS8_2 :: UpdateResultText(0p)   (il=2405B)
+    lit[0] = 
+    lit[1] = 
+    lit[2] = [暂未收录这个单词。我们会后续为您更新词库~]\n\n
+    lit[3] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[4] = <sprite=0>\n<color=#6B8EF7>--【拆分记忆（拆分不限于词根词缀）】--</color>\n
+    lit[5] = \n<sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[6] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[7] = <sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[8] = [糟糕！本地暂未收录这个单词。保持网络畅通，尝试线上搜索~]\n\n
+    lit[9] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[10] = \n<sprite=0>\n<color=#6B8EF7>--【拆分记忆（拆分不限于词根词缀）】--</color>\n
+    lit[11] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[12] = [暂未收录这个单词。我们会后续为您更新词库~]\n\n
+    lit[13] = 哇塞！这个才太少见了。就连线上也搜索不到......
+    lit[14] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[15] = \n<sprite=0>\n<color=#6B8EF7>--【拆分记忆（拆分不限于词根词缀）】--</color>\n
+    lit[16] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[17] = [暂未收录这个单词。我们会后续为您更新词库~]\n\n
+    lit[18] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[19] = <sprite=0>\n<color=#6B8EF7>--【拆分记忆（拆分不限于词根词缀）】--</color>\n
+    lit[20] = \n<sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[21] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[22] = <sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[23] = congratulations
+    lit[24] = S8Progress_Para
+    lit[25] = S8ThisMode_Para
+    lit[26] =  MyParameters.S8ThisMode_Para------
+    lit[27] = 额外复习
+    lit[28] = 每日复习
+    lit[29] = 额外学习
+    lit[30] = 每日学习
+    lit[31] = 额外复习
+    lit[32] = EXTRA WORD REVIEW
+    lit[33] = 每日复习
+    lit[34] = DAILY WORD REVIEW
+    lit[35] = 额外学习
+    lit[36] = EXTRA WORD STUDY
+    lit[37] = 每日学习
+    lit[38] = DAILY WORD STUDY
+    lit[39] = 已学词测试
+    lit[40] = WORD EXAMINATION
+    lit[41] = 额外复习
+    lit[42] = 每日复习
+    lit[43] = 额外学习
+    lit[44] = 每日学习
+    lit[45] = 额外复习
+    lit[46] = 每日复习
+    lit[47] = SoundAotoIf_Para
+    lit[48] = SoundUSIf_Para
+    lit[49] = 已学词测试
+    lit[50] = WORD EXAMINATION
+
+=== ArrowlabelShow :: StartThis(0p)   (il=540B)
+    lit[0] = S8Progress_Para
+    lit[1] = wordIndex------
+    lit[2] = 变红了啊------
+    lit[3] = 变紫了啊------
+    lit[4] = 变绿了啊------
+
+=== BackToCurrentLearnS8 :: GotoNewPlace(0p)   (il=31B)
+    lit[0] = S8Progress_Para
+
+=== ClassifyWordS8 :: Vague(0p)   (il=245B)
+    lit[0] = S8Progress_Para
+    lit[1] = S8VagueTimesThisTimeList_Para
+    lit[2] = S8VagueTimesThisTimeList_Para
+    lit[3] = S8ForgetThisTimeList_Para
+    lit[4] = vague
+    lit[5] = no
+
+=== ClassifyWordS8 :: Forget(0p)   (il=115B)
+    lit[0] = S8Progress_Para
+    lit[1] = S8ForgetThisTimeList_Para
+    lit[2] = S8ForgetThisTimeList_Para
+
+=== ClassifyWordS8 :: Remember(0p)   (il=217B)
+    lit[0] = S8Progress_Para
+    lit[1] = S8VagueTimesThisTimeList_Para
+    lit[2] = S8ForgetThisTimeList_Para
+    lit[3] = vague
+    lit[4] = yes
+    lit[5] = no
+
+=== ClassifyWordS8 :: CompleteThis(1p)   (il=585B)
+    lit[0] = S8Progress_Para
+    lit[1] = S8HaveLearnedWordList_Para
+    lit[2] = S8HaveLearnedWordList_Para
+    lit[3] = S8HaveLearnedStatusList_Para
+    lit[4] = S8HaveLearnedStatusList_Para
+    lit[5] = S8needToLearnWordList_Para
+    lit[6] = S8needToLearnWordList_Para
+    lit[7] = testerxxxx--1222
+    lit[8] = S8Progress_Para
+    lit[9] = S8Progress_Para
+    lit[10] = 每日学习
+    lit[11] = CompleteIf_DailyStudy
+    lit[12] = 额外学习
+    lit[13] = CompleteIf_ExtraStudy
+    lit[14] = 每日复习
+    lit[15] = CompleteIf_DailyReview
+    lit[16] = 额外复习
+    lit[17] = CompleteIf_ExtraReview
+    lit[18] = testerxxxx--12
+    lit[19] = S8Progress_Para
+    lit[20] = S8Progress_Para
+
+=== ClassifyWordS8 :: UnCompleteThis(0p)   (il=210B)
+    lit[0] = S8Progress_Para
+    lit[1] = S8needToLearnWordList_Para
+    lit[2] = S8needToLearnWordList_Para
+
+=== ClickArrowS8 :: ClickRightArrow(0p)   (il=472B)
+    lit[0] = S8Progress_Para
+    lit[1] = numText5.text----------------------
+    lit[2] = MyParameters.S8Progress_Para-------
+
+=== ColorInputFieldS8 :: showFirstLetter(0p)   (il=79B)
+    lit[0] = S8needToLearnWordList_Para
+
+=== ColorInputFieldS8 :: UpdateInputFieldColor(1p)   (il=246B)
+    lit[0] = S8needToLearnWordList_Para
+
+=== labelShowS8 :: Start(0p)   (il=581B)
+    lit[0] = S8Progress_Para
+    lit[1] = S8HaveLearnedWordList_Para
+    lit[2] = S8ForgetThisTimeList_Para
+    lit[3] = S8VagueTimesThisTimeList_Para
+
+=== LeftWordsS8 :: Start(0p)   (il=66B)
+    lit[0] = S8needToLearnWordList_Para
+
+=== LeftWordsS8 :: UpdateThis(0p)   (il=68B)
+    lit[0] = S8needToLearnWordList_Para
+
+=== LeftWordsS8 :: UpdateThis2(0p)   (il=50B)
+    lit[0] = S8needToLearnWordList_Para
+
+=== MultipleChoiceGeneratorS9 :: completeThis(0p)   (il=117B)
+    lit[0] = rightIf--------------
+    lit[1] = yes
+    lit[2] = no
+    lit[3] = testerCH--->S8needToLearnWordList_Para.Count--->
+
+=== MultipleChoiceGeneratorS9 :: completeYesOrNo(1p)   (il=640B)
+    lit[0] = S8Progress_Para
+    lit[1] = S8HaveLearnedWordList_Para
+    lit[2] = S8HaveLearnedWordList_Para
+    lit[3] = !!!!!!!!!!!!!!!!!===
+    lit[4] = !!!!!!!!!!!!!!!!!===
+    lit[5] = S8HaveLearnedStatusList_Para
+    lit[6] = S8HaveLearnedStatusList_Para
+    lit[7] = !!!!!!!!!!!!!!!!!===
+    lit[8] = no
+    lit[9] = S8ForgetThisTimeList_Para
+    lit[10] = S8ForgetThisTimeList_Para
+    lit[11] = MyParameters.S8ForgetThisTimeList_Para----->>>>>
+    lit[12] = S8needToLearnWordList_Para
+    lit[13] = S8needToLearnWordList_Para
+    lit[14] = [testerIKKJ] S8needToLearnWordList_Para.RemoveAt(0)！！ ----------<<<<<<<<<<<<<<<<<<
+    lit[15] = S8Progress_Para
+    lit[16] = S8Progress_Para
+    lit[17] = 完成了所有任务！！！！
+    lit[18] = testingIf_Para
+    lit[19] = testingIf_CompleteIf
+    lit[20] = S8Progress_Para
+    lit[21] = S8Progress_Para
+
+=== MultipleChoiceGeneratorS9 :: GenerateOptions(0p)   (il=583B)
+    lit[0] = S8Progress_Para
+    lit[1] = MyParameters.S8Progress_Para __________________>>>>>>> 
+    lit[2] = correctAnswer  correctAnswer   ________________>>>>>>> 
+    lit[3] = MyParameters.allTestWordsS10_Para   ________________>>>>>>> 
+    lit[4] = , 
+    lit[5] = S9Option1_Para
+    lit[6] = S9Option2_Para
+    lit[7] = S9Option3_Para
+    lit[8] = S9Option4_Para
+    lit[9] = Option 1: 
+    lit[10] = Option 2: 
+    lit[11] = Option 3: 
+    lit[12] = Option 4: 
+    lit[13] = 正确答案是--------------: 
+
+=== SetInputFieldValueS8 :: Start(0p)   (il=52B)
+    lit[0] = S8Progress_Para
+    lit[1] = S8Progress_Para
+
+=== SetInputFieldValueS8 :: ShowTheWord(0p)   (il=1133B)
+    lit[0] = S8Progress_Para
+    lit[1] = S8HaveLearnedWordList_Para
+    lit[2] = S8needToLearnWordList_Para
+    lit[3] = S8needToLearnWordList_Para
+    lit[4] = congratulations
+    lit[5] = HaveLearnedDictionary_Temp
+    lit[6] = testerxxxxxxxxx---123
+    lit[7] = HaveLearnedDictionary_Temp
+
+=== SetInputFieldValueS8 :: removeFromComplete(0p)   (il=266B)
+    lit[0] = S8HaveLearnedWordList_Para
+    lit[1] = S8HaveLearnedWordList_Para
+    lit[2] = S8HaveLearnedStatusList_Para
+    lit[3] = S8HaveLearnedStatusList_Para
+    lit[4] = S8needToLearnWordList_Para
+    lit[5] = S8needToLearnWordList_Para
+    lit[6] = S8Progress_Para
+    lit[7] = S8Progress_Para
+
+=== SetInputFieldValueS8 :: CompleteThis(1p)   (il=248B)
+    lit[0] = S8HaveLearnedWordList_Para
+    lit[1] = S8HaveLearnedWordList_Para
+    lit[2] = S8HaveLearnedStatusList_Para
+    lit[3] = S8HaveLearnedStatusList_Para
+    lit[4] = S8needToLearnWordList_Para
+    lit[5] = S8needToLearnWordList_Para
+    lit[6] = S8Progress_Para
+    lit[7] = S8Progress_Para
+
+=== SetInputFieldValueS8 :: UnCompleteThis(0p)   (il=141B)
+    lit[0] = S8needToLearnWordList_Para
+    lit[1] = S8needToLearnWordList_Para
+
+=== TextMarkerFinder :: PrintFoundMarkers(0p)   (il=481B)
+    lit[0] = S8needToLearnWordList_Para
+    lit[1] = <color=#ffffff00>
+    lit[2] = </color>
+    lit[3] = replacementText----------------
+    lit[4] = xxxxxxxxxxxxxxx----------------
+    lit[5] = yeyeyeyeyeyeey
+    lit[6] = <color=#246107>
+    lit[7] = </color>
+    lit[8] = <color=#B0030D>
+    lit[9] = </color>
+
+=== TopButtonInteractS8 :: PartLimit(0p)   (il=300B)
+    lit[0] = S8Progress_Para
+
+=== UpdateDataS8 :: Start(0p)   (il=201B)
+    lit[0] = S8TestWordList_Para
+    lit[1] = S8needToLearnWordList_Para
+    lit[2] = S8VagueTimesThisTimeList_Para
+    lit[3] = S8ForgetThisTimeList_Para
+    lit[4] = S8HaveLearnedStatusList_Para
+    lit[5] = S8HaveLearnedWordList_Para
+
+=== testerS8 :: Update(0p)   (il=101B)
+    lit[0] = S8Progress_Para
+    lit[1] =  <> 
+    lit[2] =  [<>] 
+    lit[3] =  [<>] 
+    lit[4] =  [<#>] 
+    lit[5] =  [<>] 
+
+HITS 33

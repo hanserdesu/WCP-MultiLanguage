@@ -1,0 +1,134 @@
+﻿ASM Assembly-CSharp
+
+=== DUMP DatabaseManagerS8::ReserveExampleSentences
+    IL_0000: ldarg.1
+    IL_0001: ldstr "："
+    IL_0006: callvirt String::IndexOf
+    IL_000B: stloc.0
+    IL_000C: ldarg.1
+    IL_000D: ldstr "释义"
+    IL_0012: callvirt String::IndexOf
+    IL_0017: stloc.1
+    IL_0018: ldloc.0
+    IL_0019: ldc.i4.m1
+    IL_001A: beq ?
+    IL_001F: ldloc.1
+    IL_0020: ldc.i4.m1
+    IL_0021: beq.s 159
+    IL_0023: ldloc.1
+    IL_0024: ldloc.0
+    IL_0025: ble.s 159
+    IL_0027: ldarg.1
+    IL_0028: ldloc.0
+    IL_0029: ldc.i4.1
+    IL_002A: add
+    IL_002B: ldloc.1
+    IL_002C: ldloc.0
+    IL_002D: sub
+    IL_002E: ldc.i4.1
+    IL_002F: sub
+    IL_0030: callvirt String::Substring
+    IL_0035: stloc.2
+    IL_0036: ldloc.2
+    IL_0037: ldstr "
+"
+    IL_003C: ldstr ""
+    IL_0041: callvirt String::Replace
+    IL_0046: ldstr "</color>"
+    IL_004B: ldstr ""
+    IL_0050: callvirt String::Replace
+    IL_0055: stloc.2
+    IL_0056: ldsfld MyParameters::exaple_sentences
+    IL_005B: ldloc.2
+    IL_005C: callvirt List`1::Add
+    IL_0061: ldstr " "
+    IL_0066: ldsfld MyParameters::exaple_sentences
+    IL_006B: call String::Join
+    IL_0070: pop
+    IL_0071: ldarg.0
+    IL_0072: ldfld DatabaseManagerS8::exmplesentences
+    IL_0077: ldsfld MyParameters::exaple_sentences
+    IL_007C: callvirt List`1::get_Count
+    IL_0081: ldc.i4.1
+    IL_0082: sub
+    IL_0083: ldelem.ref
+    IL_0084: ldsfld MyParameters::exaple_sentences
+    IL_0089: ldsfld MyParameters::exaple_sentences
+    IL_008E: callvirt List`1::get_Count
+    IL_0093: ldc.i4.1
+    IL_0094: sub
+    IL_0095: callvirt List`1::get_Item
+    IL_009A: callvirt TMP_Text::set_text
+    IL_009F: ret
+
+=== DUMP DatabaseManagerS8::OnFindDefinition_SelfBook
+    IL_0000: ldstr "checkWordInDictionary"
+    IL_0005: ldsfld MyParameters::checkWordInDictionary
+    IL_000A: call ES3::Load
+    IL_000F: stsfld MyParameters::checkWordInDictionary
+    IL_0014: ldsfld MyParameters::checkWordInDictionary
+    IL_0019: stloc.0
+    IL_001A: ldsfld MyParameters::SelfBookMeaningDictionary
+    IL_001F: ldloc.0
+    IL_0020: callvirt Dictionary`2::ContainsKey
+    IL_0025: brfalse.s 117
+    IL_0027: ldstr "【查单词】"
+    IL_002C: ldloc.0
+    IL_002D: ldstr "【本书】情况一！"
+    IL_0032: call String::Concat
+    IL_0037: call Debug::Log
+    IL_003C: ldsfld MyParameters::SelfBookMeaningDictionary
+    IL_0041: ldloc.0
+    IL_0042: callvirt Dictionary`2::get_Item
+    IL_0047: ldstr "\\n"
+    IL_004C: ldstr "
+"
+    IL_0051: callvirt String::Replace
+    IL_0056: stloc.1
+    IL_0057: ldarg.0
+    IL_0058: ldfld DatabaseManagerS8::meaningText
+    IL_005D: ldloc.1
+    IL_005E: ldstr "
+"
+    IL_0063: call String::Concat
+    IL_0068: callvirt TMP_Text::set_text
+    IL_006D: ldarg.0
+    IL_006E: ldc.i4.1
+    IL_006F: stfld DatabaseManagerS8::selfBookGetAnswer
+    IL_0074: ret
+    IL_0075: ldsfld MyParameters::SelfBookMeaningDictionary
+    IL_007A: ldloc.0
+    IL_007B: callvirt String::ToLower
+    IL_0080: callvirt Dictionary`2::ContainsKey
+    IL_0085: brfalse.s 218
+    IL_0087: ldstr "【查单词】"
+    IL_008C: ldloc.0
+    IL_008D: ldstr "【本书】情况2！"
+    IL_0092: call String::Concat
+    IL_0097: call Debug::Log
+    IL_009C: ldsfld MyParameters::SelfBookMeaningDictionary
+    IL_00A1: ldloc.0
+    IL_00A2: callvirt String::ToLower
+    IL_00A7: callvirt Dictionary`2::get_Item
+    IL_00AC: ldstr "\\n"
+    IL_00B1: ldstr "
+"
+    IL_00B6: callvirt String::Replace
+    IL_00BB: stloc.2
+    IL_00BC: ldarg.0
+    IL_00BD: ldfld DatabaseManagerS8::meaningText
+    IL_00C2: ldloc.2
+    IL_00C3: ldstr "
+"
+    IL_00C8: call String::Concat
+    IL_00CD: callvirt TMP_Text::set_text
+    IL_00D2: ldarg.0
+    IL_00D3: ldc.i4.1
+    IL_00D4: stfld DatabaseManagerS8::selfBookGetAnswer
+    IL_00D9: ret
+    IL_00DA: ldstr "【查单词】"
+    IL_00DF: ldloc.0
+    IL_00E0: ldstr "【本书】本书词库不包含！"
+    IL_00E5: call String::Concat
+    IL_00EA: call Debug::Log
+    IL_00EF: ret

@@ -1,0 +1,87 @@
+ASM Assembly-CSharp-firstpass
+
+=== ES3Internal.ES3IO::CommitBackup(ES3Settings settings)  generic=0
+  .local 0 System.String
+  .local 1 ES3/Location
+  .local 2 System.String
+  .local 3 System.Exception
+    IL_0000: ldstr "Committing backup for "
+    IL_0005: ldarg.0 
+    IL_0006: ldfld System.String ES3Settings::path
+    IL_000B: ldstr " to storage location "
+    IL_0010: ldarg.0 
+    IL_0011: callvirt ES3Settings::get_location()
+    IL_0016: stloc.1 
+    IL_0017: ldloca.s V_1
+    IL_0019: constrained. ES3/Location
+    IL_001F: callvirt Object::ToString()
+    IL_0024: call String::Concat(String, String, String, String)
+    IL_0029: ldnull 
+    IL_002A: ldc.i4.0 
+    IL_002B: call ES3Debug::Log(String, Object, Int32)
+    IL_0030: ldarg.0 
+    IL_0031: callvirt ES3Settings::get_FullPath()
+    IL_0036: ldstr ".tmp"
+    IL_003B: call String::Concat(String, String)
+    IL_0040: stloc.0 
+    IL_0041: ldarg.0 
+    IL_0042: callvirt ES3Settings::get_location()
+    IL_0047: brtrue.s IL_00C5
+    IL_0049: ldarg.0 
+    IL_004A: callvirt ES3Settings::get_FullPath()
+    IL_004F: ldstr ".tmp.bak"
+    IL_0054: call String::Concat(String, String)
+    IL_0059: stloc.2 
+    IL_005A: ldarg.0 
+    IL_005B: callvirt ES3Settings::get_FullPath()
+    IL_0060: call ES3IO::FileExists(String)
+    IL_0065: brfalse.s IL_00B8
+    IL_0067: ldloc.2 
+    IL_0068: call ES3IO::DeleteFile(String)
+    IL_006D: ldarg.0 
+    IL_006E: callvirt ES3Settings::get_FullPath()
+    IL_0073: ldloc.2 
+    IL_0074: call ES3IO::CopyFile(String, String)
+    IL_0079: ldarg.0 
+    IL_007A: callvirt ES3Settings::get_FullPath()
+    IL_007F: call ES3IO::DeleteFile(String)
+    IL_0084: ldloc.0 
+    IL_0085: ldarg.0 
+    IL_0086: callvirt ES3Settings::get_FullPath()
+    IL_008B: call ES3IO::MoveFile(String, String)
+    IL_0090: leave.s IL_00B1
+    IL_0092: stloc.3 
+    IL_0093: ldarg.0 
+    IL_0094: callvirt ES3Settings::get_FullPath()
+    IL_0099: call ES3IO::DeleteFile(String)
+    IL_009E: leave.s IL_00A3
+    IL_00A0: pop 
+    IL_00A1: leave.s IL_00A3
+    IL_00A3: ldloc.2 
+    IL_00A4: ldarg.0 
+    IL_00A5: callvirt ES3Settings::get_FullPath()
+    IL_00AA: call ES3IO::MoveFile(String, String)
+    IL_00AF: ldloc.3 
+    IL_00B0: throw 
+    IL_00B1: ldloc.2 
+    IL_00B2: call ES3IO::DeleteFile(String)
+    IL_00B7: ret 
+    IL_00B8: ldloc.0 
+    IL_00B9: ldarg.0 
+    IL_00BA: callvirt ES3Settings::get_FullPath()
+    IL_00BF: call ES3IO::MoveFile(String, String)
+    IL_00C4: ret 
+    IL_00C5: ldarg.0 
+    IL_00C6: callvirt ES3Settings::get_location()
+    IL_00CB: ldc.i4.1 
+    IL_00CC: bne.un.s IL_00EA
+    IL_00CE: ldarg.0 
+    IL_00CF: callvirt ES3Settings::get_FullPath()
+    IL_00D4: ldloc.0 
+    IL_00D5: call PlayerPrefs::GetString(String)
+    IL_00DA: call PlayerPrefs::SetString(String, String)
+    IL_00DF: ldloc.0 
+    IL_00E0: call PlayerPrefs::DeleteKey(String)
+    IL_00E5: call PlayerPrefs::Save()
+    IL_00EA: ret 
+

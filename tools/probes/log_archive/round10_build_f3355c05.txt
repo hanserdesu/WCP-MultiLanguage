@@ -1,0 +1,45 @@
+# 第十轮构建（WcpHost.dll f3355c05b7fe…）实机日志证据
+# 源：C:\Users\hanserdesu\AppData\LocalLow\WCP\wcp\Player.log
+# 会话：2026-09-18 20:31:05 收尾（87169 B）；采集时间 20:32-20:35
+# 说明：行号即原文件行号；长行按 520 字符截断，完整行请在源文件核对。
+
+--- L143 ---
+[Info   :  WCP Host] WcpHost: 受管语言登记 = [ar,de,es,fr,ja,ko,pt,ru,yue] -> e:\steam\steamapps\common\WCP-WordGirlgriend\BepInEx\config\WcpHost.managed.txt
+--- L144 ---
+[Info   :  WCP Host] WcpHost: ES3 批量写已启用（一次整档读写替代 N 次逐键写，path=SaveFile.es3）
+--- L145 ---
+[Info   :  WCP Host] WcpHost: 未激活 · 词表 4079 条未命中任何语言包 — 非受管词书
+--- L146 ---
+[Info   :  WCP Host] WcpHost: 长帧 7558ms — mod 本帧占用 469.5ms（6.2%） GC本帧=0:159 1:159 2:159 本帧 Top=身份:Evaluate x1=463.9ms(单次463.9ms) ; ES3:批量写(装载) x1=113.2ms(单次113.2ms) ; 身份:读内存词表 x1=86.0ms(单次86.0ms) ; 身份:读落盘书名 x1=55.7ms(单次55.7ms) ; ES3:落盘书名 x1=54.5ms(单次54.5ms) ; ES3:批量写(提交) x1=48.0ms(单次48.0ms) ; 身份:托管登记 x1=5.4ms(单次5.4ms) ; 补丁:Sync x1=0.2ms(单次0.2ms) ; 身份:匹配内存词表 x1=0.1ms(�
+--- L147 ---
+[Info   :  WCP Host] WcpHost: 长帧 381ms — mod 本帧占用 16.8ms（4.4%） GC本帧=0:0 1:0 2:0 本帧 Top=身份:Evaluate x1=15.1ms(单次15.1ms) ; 身份:读落盘书名 x1=15.1ms(单次15.1ms) ; ES3:落盘书名 x1=15.0ms(单次15.0ms) ; 身份:托管登记 x1=1.6ms(单次1.6ms) ; 身份:读内存词表 x1=0.0ms(单次0.0ms) ; 身份:匹配内存词表 x1=0.0ms(单次0.0ms) ; 身份:槽号 x1=0.0ms(单次0.0ms) ; 补丁:Sync x1=0.0ms(单次0.0ms)
+--- L148 ---
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=3.8 帧=38 最差帧=7558ms 卡顿帧(>=50ms)=27 窗口=10.0s | mod 主线程占用=491.1ms/窗口（GC 基线建立）
+--- L440 ---
+The character with Unicode value \u8EAB was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text (TMP)].
+--- L441 ---
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 55863.
+--- L442 ---
+Total: 35.049000 ms (FindLiveObjects: 7.308300 ms CreateObjectMapping: 1.821300 ms MarkObjects: 24.770800 ms  DeleteObjects: 1.148100 ms)
+--- L444 ---
+[Info   :  WCP Host] WcpHost: 长帧 7202ms — mod 本帧占用 21.8ms（0.3%） GC本帧=0:1 1:1 2:1 本帧 Top=身份:Evaluate x1=20.8ms(单次20.8ms) ; 身份:读落盘书名 x1=20.7ms(单次20.7ms) ; ES3:落盘书名 x1=20.7ms(单次20.7ms) ; 身份:托管登记 x1=1.0ms(单次1.0ms) ; 身份:读内存词表 x1=0.0ms(单次0.0ms) ; 身份:匹配内存词表 x1=0.0ms(单次0.0ms) ; 身份:槽号 x1=0.0ms(单次0.0ms) ; 补丁:Sync x1=0.0ms(单次0.0ms)
+--- L445 ---
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=8.6 帧=143 最差帧=7202ms 卡顿帧(>=50ms)=84 窗口=16.5s | mod 主线程占用=531.4ms/窗口，长帧=14 次 | GC窗口=0:18 1:18 2:18 堆=+18MB | 窗口 Top（累计）=身份:Evaluate x14=501.4ms(单次463.9ms) ; ES3:批量写(装载) x1=113.2ms(单次113.2ms) ; 身份:读落盘书名 x14=92.9ms(单次55.7ms) ; ES3:落盘书名 x3=90.3ms(单次54.5ms) ; 身份:读内存词表 x14=86.2ms(单次86.0ms) ; ES3:批量写(提交) x1=48.0ms(单次48.0ms) ; 身份:托
+--- L552 ---
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=15.8 帧=158 最差帧=1927ms 卡顿帧(>=50ms)=48 窗口=10.0s | mod 主线程占用=41.9ms/窗口，长帧=4 次 | GC窗口=0:6 1:6 2:6 堆=+11MB | 窗口 Top（累计）=身份:Evaluate x8=22.4ms(单次21.0ms) ; 身份:读落盘书名 x8=22.1ms(单次21.0ms) ; ES3:落盘书名 x1=20.9ms(单次20.9ms) ; 身份:托管登记 x8=19.5ms(单次3.3ms) ; 身份:读内存词表 x8=0.2ms(单次0.0ms) ; 身份:匹配内存词表 x8=0.0ms(单次0.0ms) ; 身份:槽号 x8=0.0ms(�
+--- L598 ---
+[Info   :  WCP Host] WcpHost: 长帧 12592ms — mod 本帧占用 3475.8ms（27.6%） GC本帧=0:15 1:15 2:15 本帧 Top=补丁:Sync x1=1890.0ms(单次1890.0ms) ; 运行态:Tick x1=1285.6ms(单次1285.6ms) ; 补丁:场景钩子 x1=1059.5ms(单次1059.5ms) ; 运行态:队列校正 x1=1031.5ms(单次1031.5ms) ; 补丁:选词与刷新 x1=319.4ms(单次319.4ms) ; 身份:Evaluate x1=298.5ms(单次298.5ms) ; 补丁:词典 x1=271.5ms(单次271.5ms) ; 身份:槽位归属 x1=182.4ms(单次182.4ms) ; 槽位归属:重解析 x
+--- L599 ---
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=8.5 帧=191 最差帧=12592ms 卡顿帧(>=50ms)=77 窗口=22.3s | mod 主线程占用=3501.1ms/窗口，长帧=5 次 | GC窗口=0:30 1:30 2:30 堆=+6MB | 窗口 Top（累计）=补丁:Sync x11=1890.0ms(单次1890.0ms) ; 运行态:Tick x1=1285.6ms(单次1285.6ms) ; 补丁:场景钩子 x1=1059.5ms(单次1059.5ms) ; 运行态:队列校正 x1=1031.5ms(单次1031.5ms) ; 补丁:选词与刷新 x1=319.4ms(单次319.4ms) ; 身份:Evaluate x11=300.0ms(单次298.5ms) ; 补丁:�
+--- L600 ---
+[Info   :  WCP Host] WcpHost: 长帧 456ms — mod 本帧占用 61.2ms（13.4%） GC本帧=0:1 1:1 2:1 本帧 Top=运行态:Tick x1=37.7ms(单次37.7ms) ; 运行态:队列校正 x1=34.0ms(单次34.0ms) ; 身份:Evaluate x1=21.4ms(单次21.4ms) ; 身份:读落盘书名 x1=9.1ms(单次9.1ms) ; ES3:落盘书名 x1=9.0ms(单次9.0ms) ; 身份:匹配槽位词表 x1=6.4ms(单次6.4ms) ; 身份:匹配内存词表 x1=5.5ms(单次5.5ms) ; 运行态:例句按钮 x1=2.3ms(单次2.3ms) ; 身份:托管登记 x1=2.1ms(单次2.1m
+--- L604 ---
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=13.8 帧=139 最差帧=456ms 卡顿帧(>=50ms)=119 窗口=10.0s | mod 主线程占用=540.8ms/窗口，长帧=4 次 | GC窗口=0:17 1:17 2:17 堆=-4MB | 窗口 Top（累计）=运行态:Tick x10=331.3ms(单次48.6ms) ; 运行态:队列校正 x10=305.0ms(单次44.2ms) ; 身份:Evaluate x10=189.2ms(单次33.6ms) ; 身份:匹配槽位词表 x10=91.5ms(单次16.1ms) ; 身份:匹配内存词表 x10=83.8ms(单次16.9ms) ; 身份:托管登记 x10=20.3ms(单次2.3ms) ; 运行�
+--- L633 ---
+[Info   :  WCP Host] WcpHost: 长帧 1561ms — mod 本帧占用 914.8ms（58.6%） GC本帧=0:13 1:13 2:13 本帧 Top=身份:Evaluate x1=574.8ms(单次574.8ms) ; 身份:装载 x1=404.6ms(单次404.6ms) ; ES3:批量写(装载) x3=349.0ms(单次158.2ms) ; 运行态:Tick x1=338.0ms(单次338.0ms) ; 运行态:队列校正 x1=257.8ms(单次257.8ms) ; ES3:批量写(提交) x3=206.9ms(单次92.6ms) ; 身份:接管语言包 x1=197.7ms(单次197.7ms) ; 身份:槽位归属 x1=122.6ms(单次122.6ms) ; 槽位归属:重解析 
+--- L640 ---
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=10.0 帧=102 最差帧=1561ms 卡顿帧(>=50ms)=87 窗口=10.2s | mod 主线程占用=1350.2ms/窗口，长帧=9 次 | GC窗口=0:40 1:40 2:40 堆=-2MB | 窗口 Top（累计）=身份:Evaluate x10=751.6ms(单次574.8ms) ; 运行态:Tick x10=577.4ms(单次338.0ms) ; 运行态:队列校正 x10=480.3ms(单次257.8ms) ; 身份:装载 x10=404.6ms(单次404.6ms) ; ES3:批量写(装载) x3=349.0ms(单次158.2ms) ; ES3:批量写(提交) x3=206.9ms(单次92.6ms) ; 身份:接管
+--- L663 ---
+[Info   :  WCP Host] WcpHost: 长帧 7980ms — mod 本帧占用 35.8ms（0.4%） GC本帧=0:1 1:1 2:1 本帧 Top=运行态:Tick x1=21.3ms(单次21.3ms) ; 运行态:队列校正 x1=21.3ms(单次21.3ms) ; 身份:Evaluate x1=12.4ms(单次12.4ms) ; 身份:匹配内存词表 x1=7.4ms(单次7.4ms) ; 身份:匹配槽位词表 x1=4.6ms(单次4.6ms) ; 身份:托管登记 x1=2.1ms(单次2.1ms) ; 身份:读槽位词表 x1=0.1ms(单次0.1ms) ; 身份:槽位归属 x1=0.1ms(单次0.1ms) ; 身份:读落盘书名 x1=0.1ms(单次0
+--- L665 ---
+[Info   :  WCP Host] WcpHost: 性能哨兵 fps=2.6 帧=26 最差帧=7980ms 卡顿帧(>=50ms)=26 窗口=10.0s | mod 主线程占用=162.6ms/窗口，长帧=3 次 | GC窗口=0:81 1:81 2:81 堆=-1MB | 窗口 Top（累计）=场景:强制校正 x2=82.8ms(单次53.8ms) ; 运行态:Tick x2=41.8ms(单次21.3ms) ; 运行态:场景校正 x2=40.9ms(单次32.4ms) ; 运行态:队列校正 x2=39.4ms(单次21.3ms) ; 身份:匹配槽位词表 x4=34.1ms(单次16.3ms) ; 身份:Evaluate x2=34.0ms(单次21.6ms) ; 身份:匹配内存�

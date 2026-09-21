@@ -1,0 +1,13 @@
+/nologo
+/target:exe
+/langversion:5
+/codepage:65001
+/nowarn:0436,1685
+/r:"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.dll"
+/r:"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll"
+/r:"E:\Steam\steamapps\common\WCP-WordGirlgriend\BepInEx\core\Mono.Cecil.dll"
+/r:"E:\Steam\steamapps\common\WCP-WordGirlgriend\wcp_Data\Managed\netstandard.dll"
+/r:"E:\Steam\steamapps\common\WCP-WordGirlgriend\wcp_Data\Managed\Assembly-CSharp-firstpass.dll"
+/r:"E:\Steam\steamapps\common\WCP-WordGirlgriend\wcp_Data\Managed\UnityEngine.CoreModule.dll"
+/out:"D:\ATooManyLanguage\probes\es3bench\probe4.exe"
+"D:\ATooManyLanguage\probes\es3bench\probe4.cs"

@@ -1,0 +1,20 @@
+=== 开始德语词库 B2 全量规格与环境验收 ===
+[OK] german_books.json 四级词数分布 (B2全量) A1=658, A2=2830, B1=2400, B2=2174 | 总计=8062
+[OK] 例句 sentences_master (每词>=3条) 8062/8062 词, 共 24186 句
+[OK] 槽位 1(日语) 保留 7922 词
+[OK] 槽位 2(法语) 保留 8116 词
+[OK] 槽位 3(俄语) 保留 8451 词
+[OK] 槽位 4(德语) 写入 词数=8062, 释义=8062
+[OK] 槽位 4 指纹与期望一致 fp=66bded175dee70d9...
+[OK] SaveFile 书名昵称 S1=日语词库(猫条版), S2=法语词库(猫条版), S3=俄语词库(猫条版), S4=德语词库(猫条版)
+[OK] german_books.json 四级词数分布 (B2全量) A1=658, A2=2830, B1=2400, B2=2174 | 总计=8062
+[OK] wcpFullEng.db 德语独有词 pron 注入 7837/7837
+[OK] wcpFullEng.db 德语独有词 sentence2 注入 7837/7837
+[OK] wcpOnlyWord.db 德语独有词 pron 注入 7837/7837
+[OK] 离线自愈包 de_db_payload (output)
+[OK] 离线自愈包 de_db_payload (wcp)
+[OK] 插件部署 BookNameMod.dll 26624 字节
+[OK] 插件部署 SentenceAudioDeMod.dll 25088 字节
+[OK] 插件部署 DeWordListMod.dll 57856 字节
+==========================================
+>>> 德语 B2 考级级词库全项核验通过 (ALL PASS)！<<<

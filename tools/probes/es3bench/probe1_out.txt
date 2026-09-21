@@ -1,0 +1,10 @@
+Location.Cache = Cache (4)
+defaultSettings after inject = ok
+FATAL TargetInvocationException: SecurityException: ECall 方法必须打包到系统模块中。
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   在 Probe1.GetP(Object o, String p)
+   在 Probe1.Run(String srcEs3, String work)
+   在 Probe1.Main(String[] args)

@@ -1,0 +1,302 @@
+ASM Assembly-CSharp-firstpass
+
+=== ES3Settings::get_location()  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldfld ES3/Location ES3Settings::_location
+    IL_0006: brtrue.s IL_001C
+    IL_0008: call Application::get_platform()
+    IL_000D: ldc.i4.s 17
+    IL_000F: beq.s IL_001A
+    IL_0011: call Application::get_platform()
+    IL_0016: ldc.i4.s 31
+    IL_0018: bne.un.s IL_001C
+    IL_001A: ldc.i4.1 
+    IL_001B: ret 
+    IL_001C: ldarg.0 
+    IL_001D: ldfld ES3/Location ES3Settings::_location
+    IL_0022: ret 
+
+=== ES3Settings::.ctor(String path, ES3Settings settings)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldc.i4.1 
+    IL_0002: call ES3Settings::.ctor(Boolean)
+    IL_0007: ldarg.2 
+    IL_0008: brfalse.s IL_0011
+    IL_000A: ldarg.2 
+    IL_000B: ldarg.0 
+    IL_000C: callvirt ES3Settings::CopyInto(ES3Settings)
+    IL_0011: ldarg.1 
+    IL_0012: brfalse.s IL_001B
+    IL_0014: ldarg.0 
+    IL_0015: ldarg.1 
+    IL_0016: stfld System.String ES3Settings::path
+    IL_001B: ret 
+
+=== ES3Settings::.ctor(String path, Enum[] enums)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.2 
+    IL_0002: call ES3Settings::.ctor(Enum[])
+    IL_0007: ldarg.1 
+    IL_0008: brfalse.s IL_0011
+    IL_000A: ldarg.0 
+    IL_000B: ldarg.1 
+    IL_000C: stfld System.String ES3Settings::path
+    IL_0011: ret 
+
+=== ES3Settings::.ctor(Enum[] enums)  generic=0
+  .local 0 System.Enum[]
+  .local 1 System.Int32
+  .local 2 System.Enum
+    IL_0000: ldarg.0 
+    IL_0001: ldc.i4.1 
+    IL_0002: call ES3Settings::.ctor(Boolean)
+    IL_0007: ldarg.1 
+    IL_0008: stloc.0 
+    IL_0009: ldc.i4.0 
+    IL_000A: stloc.1 
+    IL_000B: br IL_009A
+    IL_0010: ldloc.0 
+    IL_0011: ldloc.1 
+    IL_0012: ldelem.ref 
+    IL_0013: stloc.2 
+    IL_0014: ldloc.2 
+    IL_0015: isinst ES3/EncryptionType
+    IL_001A: brfalse.s IL_002A
+    IL_001C: ldarg.0 
+    IL_001D: ldloc.2 
+    IL_001E: unbox.any ES3/EncryptionType
+    IL_0023: stfld ES3/EncryptionType ES3Settings::encryptionType
+    IL_0028: br.s IL_0096
+    IL_002A: ldloc.2 
+    IL_002B: isinst ES3/Location
+    IL_0030: brfalse.s IL_0040
+    IL_0032: ldarg.0 
+    IL_0033: ldloc.2 
+    IL_0034: unbox.any ES3/Location
+    IL_0039: call ES3Settings::set_location(Location)
+    IL_003E: br.s IL_0096
+    IL_0040: ldloc.2 
+    IL_0041: isinst ES3/CompressionType
+    IL_0046: brfalse.s IL_0056
+    IL_0048: ldarg.0 
+    IL_0049: ldloc.2 
+    IL_004A: unbox.any ES3/CompressionType
+    IL_004F: stfld ES3/CompressionType ES3Settings::compressionType
+    IL_0054: br.s IL_0096
+    IL_0056: ldloc.2 
+    IL_0057: isinst ES3/ReferenceMode
+    IL_005C: brfalse.s IL_006C
+    IL_005E: ldarg.0 
+    IL_005F: ldloc.2 
+    IL_0060: unbox.any ES3/ReferenceMode
+    IL_0065: stfld ES3/ReferenceMode ES3Settings::referenceMode
+    IL_006A: br.s IL_0096
+    IL_006C: ldloc.2 
+    IL_006D: isinst ES3/Format
+    IL_0072: brfalse.s IL_0082
+    IL_0074: ldarg.0 
+    IL_0075: ldloc.2 
+    IL_0076: unbox.any ES3/Format
+    IL_007B: stfld ES3/Format ES3Settings::format
+    IL_0080: br.s IL_0096
+    IL_0082: ldloc.2 
+    IL_0083: isinst ES3/Directory
+    IL_0088: brfalse.s IL_0096
+    IL_008A: ldarg.0 
+    IL_008B: ldloc.2 
+    IL_008C: unbox.any ES3/Directory
+    IL_0091: stfld ES3/Directory ES3Settings::directory
+    IL_0096: ldloc.1 
+    IL_0097: ldc.i4.1 
+    IL_0098: add 
+    IL_0099: stloc.1 
+    IL_009A: ldloc.1 
+    IL_009B: ldloc.0 
+    IL_009C: ldlen 
+    IL_009D: conv.i4 
+    IL_009E: blt IL_0010
+    IL_00A3: ret 
+
+=== ES3Settings::.ctor(EncryptionType encryptionType, String encryptionPassword)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldc.i4.1 
+    IL_0002: call ES3Settings::.ctor(Boolean)
+    IL_0007: ldarg.0 
+    IL_0008: ldarg.1 
+    IL_0009: stfld ES3/EncryptionType ES3Settings::encryptionType
+    IL_000E: ldarg.0 
+    IL_000F: ldarg.2 
+    IL_0010: stfld System.String ES3Settings::encryptionPassword
+    IL_0015: ret 
+
+=== ES3Settings::.ctor(String path, EncryptionType encryptionType, String encryptionPassword, ES3Settings settings)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldarg.s settings
+    IL_0004: call ES3Settings::.ctor(String, ES3Settings)
+    IL_0009: ldarg.0 
+    IL_000A: ldarg.2 
+    IL_000B: stfld ES3/EncryptionType ES3Settings::encryptionType
+    IL_0010: ldarg.0 
+    IL_0011: ldarg.3 
+    IL_0012: stfld System.String ES3Settings::encryptionPassword
+    IL_0017: ret 
+
+=== ES3Settings::.ctor(Boolean applyDefaults)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldstr "SaveFile.es3"
+    IL_0006: stfld System.String ES3Settings::path
+    IL_000B: ldarg.0 
+    IL_000C: ldstr "password"
+    IL_0011: stfld System.String ES3Settings::encryptionPassword
+    IL_0016: ldarg.0 
+    IL_0017: ldc.i4.1 
+    IL_0018: stfld System.Boolean ES3Settings::prettyPrint
+    IL_001D: ldarg.0 
+    IL_001E: ldc.i4 2048
+    IL_0023: stfld System.Int32 ES3Settings::bufferSize
+    IL_0028: ldarg.0 
+    IL_0029: call Encoding::get_UTF8()
+    IL_002E: stfld System.Text.Encoding ES3Settings::encoding
+    IL_0033: ldarg.0 
+    IL_0034: ldc.i4.1 
+    IL_0035: stfld System.Boolean ES3Settings::saveChildren
+    IL_003A: ldarg.0 
+    IL_003B: ldc.i4.1 
+    IL_003C: stfld System.Boolean ES3Settings::typeChecking
+    IL_0041: ldarg.0 
+    IL_0042: ldc.i4.1 
+    IL_0043: stfld System.Boolean ES3Settings::safeReflection
+    IL_0048: ldarg.0 
+    IL_0049: ldc.i4.2 
+    IL_004A: stfld ES3/ReferenceMode ES3Settings::referenceMode
+    IL_004F: ldarg.0 
+    IL_0050: ldc.i4.s 64
+    IL_0052: stfld System.Int32 ES3Settings::serializationDepthLimit
+    IL_0057: ldarg.0 
+    IL_0058: ldc.i4.2 
+    IL_0059: newarr System.String
+    IL_005E: dup 
+    IL_005F: ldc.i4.0 
+    IL_0060: ldstr "Assembly-CSharp-firstpass"
+    IL_0065: stelem.ref 
+    IL_0066: dup 
+    IL_0067: ldc.i4.1 
+    IL_0068: ldstr "Assembly-CSharp"
+    IL_006D: stelem.ref 
+    IL_006E: stfld System.String[] ES3Settings::assemblyNames
+    IL_0073: ldarg.0 
+    IL_0074: call Object::.ctor()
+    IL_0079: ldarg.1 
+    IL_007A: brfalse.s IL_008E
+    IL_007C: call ES3Settings::get_defaultSettings()
+    IL_0081: brfalse.s IL_008E
+    IL_0083: ldsfld ES3Settings ES3Settings::_defaults
+    IL_0088: ldarg.0 
+    IL_0089: callvirt ES3Settings::CopyInto(ES3Settings)
+    IL_008E: ret 
+
+=== ES3Settings::get_FullPath()  generic=0
+  .local 0 System.String
+  .local 1 System.Boolean
+  .local 2 System.String[]
+  .local 3 System.Int32
+  .local 4 System.String
+    IL_0000: ldarg.0 
+    IL_0001: ldfld System.String ES3Settings::path
+    IL_0006: brtrue.s IL_0013
+    IL_0008: ldstr "The 'path' field of this ES3Settings is null, indicating that it was not possible to load the default settings from Resources. Please check that the ES3 Default Settings.prefab exists in Assets/Plugins/Resources/ES3/"
+    IL_000D: newobj NullReferenceException::.ctor(String)
+    IL_0012: throw 
+    IL_0013: ldarg.0 
+    IL_0014: ldfld System.String ES3Settings::path
+    IL_0019: call ES3Settings::IsAbsolute(String)
+    IL_001E: brfalse.s IL_0027
+    IL_0020: ldarg.0 
+    IL_0021: ldfld System.String ES3Settings::path
+    IL_0026: ret 
+    IL_0027: ldarg.0 
+    IL_0028: call ES3Settings::get_location()
+    IL_002D: brtrue.s IL_0092
+    IL_002F: ldarg.0 
+    IL_0030: ldfld ES3/Directory ES3Settings::directory
+    IL_0035: brtrue.s IL_004D
+    IL_0037: ldsfld System.String ES3Internal.ES3IO::persistentDataPath
+    IL_003C: ldstr "/"
+    IL_0041: ldarg.0 
+    IL_0042: ldfld System.String ES3Settings::path
+    IL_0047: call String::Concat(String, String, String)
+    IL_004C: ret 
+    IL_004D: ldarg.0 
+    IL_004E: ldfld ES3/Directory ES3Settings::directory
+    IL_0053: ldc.i4.1 
+    IL_0054: bne.un.s IL_006C
+    IL_0056: call Application::get_dataPath()
+    IL_005B: ldstr "/"
+    IL_0060: ldarg.0 
+    IL_0061: ldfld System.String ES3Settings::path
+    IL_0066: call String::Concat(String, String, String)
+    IL_006B: ret 
+    IL_006C: ldstr "File directory ""
+    IL_0071: ldarg.0 
+    IL_0072: ldflda ES3/Directory ES3Settings::directory
+    IL_0077: constrained. ES3/Directory
+    IL_007D: callvirt Object::ToString()
+    IL_0082: ldstr "" has not been implemented."
+    IL_0087: call String::Concat(String, String, String)
+    IL_008C: newobj NotImplementedException::.ctor(String)
+    IL_0091: throw 
+    IL_0092: ldarg.0 
+    IL_0093: call ES3Settings::get_location()
+    IL_0098: ldc.i4.3 
+    IL_0099: bne.un.s IL_0100
+    IL_009B: ldarg.0 
+    IL_009C: ldfld System.String ES3Settings::path
+    IL_00A1: call Path::GetExtension(String)
+    IL_00A6: stloc.0 
+    IL_00A7: ldc.i4.0 
+    IL_00A8: stloc.1 
+    IL_00A9: ldsfld System.String[] ES3Settings::resourcesExtensions
+    IL_00AE: stloc.2 
+    IL_00AF: ldc.i4.0 
+    IL_00B0: stloc.3 
+    IL_00B1: br.s IL_00CA
+    IL_00B3: ldloc.2 
+    IL_00B4: ldloc.3 
+    IL_00B5: ldelem.ref 
+    IL_00B6: stloc.s V_4
+    IL_00B8: ldloc.0 
+    IL_00B9: ldloc.s V_4
+    IL_00BB: call String::op_Equality(String, String)
+    IL_00C0: brfalse.s IL_00C6
+    IL_00C2: ldc.i4.1 
+    IL_00C3: stloc.1 
+    IL_00C4: br.s IL_00D0
+    IL_00C6: ldloc.3 
+    IL_00C7: ldc.i4.1 
+    IL_00C8: add 
+    IL_00C9: stloc.3 
+    IL_00CA: ldloc.3 
+    IL_00CB: ldloc.2 
+    IL_00CC: ldlen 
+    IL_00CD: conv.i4 
+    IL_00CE: blt.s IL_00B3
+    IL_00D0: ldloc.1 
+    IL_00D1: brtrue.s IL_00EE
+    IL_00D3: ldstr "Extension of file in Resources must be .json, .bytes, .txt, .csv, .htm, .html, .xml, .yaml or .fnt, but path given was ""
+    IL_00D8: ldarg.0 
+    IL_00D9: ldfld System.String ES3Settings::path
+    IL_00DE: ldstr """
+    IL_00E3: call String::Concat(String, String, String)
+    IL_00E8: newobj ArgumentException::.ctor(String)
+    IL_00ED: throw 
+    IL_00EE: ldarg.0 
+    IL_00EF: ldfld System.String ES3Settings::path
+    IL_00F4: ldloc.0 
+    IL_00F5: ldstr ""
+    IL_00FA: callvirt String::Replace(String, String)
+    IL_00FF: ret 
+    IL_0100: ldarg.0 
+    IL_0101: ldfld System.String ES3Settings::path
+    IL_0106: ret 
+

@@ -1,0 +1,10 @@
+﻿ASM Assembly-CSharp
+
+=== CALLERS OF ClassifyWordS8::Remember
+    count=0
+
+=== CALLERS OF ClassifyWordS8::Vague
+    count=0
+
+=== CALLERS OF ClassifyWordS8::Forget
+    count=0

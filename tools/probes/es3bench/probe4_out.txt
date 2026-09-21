@@ -1,0 +1,109 @@
+patched sites: firstpass=17 UnityEngine.CoreModule=54
+
+========== PART 1: GameAdapter.Es3WriteBatch.Create() prerequisites ==========
+(queries are byte-for-byte what GameAdapter.Probe()/Create() runs)
+
+AccessTools.TypeByName equivalent: ES3=Assembly-CSharp-firstpass  ES3Settings=Assembly-CSharp-firstpass  ES3File=Assembly-CSharp-firstpass
+
+--- ES3Settings members ---
+  defaultSettings(Public|Static)      = ES3Settings defaultSettings   getter=public canRead=True
+  location(Public|Instance)           = Location location   get=public set=public
+  path(Public|Instance)               = NULL
+  Clone(Public|Instance)              = System.Object Clone()  returns System.Object
+
+--- ES3.Location ---
+  SHIPPED: es3Settings.GetNestedType("Location", Public) = NULL   <-- wrong receiver (Location is nested in ES3, not ES3Settings)
+  CORRECT: es3.GetNestedType("Location", Public)         = ES3+Location
+  ES3.GetNestedTypes(Public)     = Location, Directory, EncryptionType, CompressionType, Format, ReferenceMode, ImageType
+  ES3.GetNestedTypes(Public|NonPublic) = Location, Directory, EncryptionType, CompressionType, Format, ReferenceMode, ImageType
+    Location: IsNestedPublic=True IsNestedAssembly=False IsNestedFamily=False IsEnum=True
+    Directory: IsNestedPublic=True IsNestedAssembly=False IsNestedFamily=False IsEnum=True
+    EncryptionType: IsNestedPublic=True IsNestedAssembly=False IsNestedFamily=False IsEnum=True
+    CompressionType: IsNestedPublic=True IsNestedAssembly=False IsNestedFamily=False IsEnum=True
+    Format: IsNestedPublic=True IsNestedAssembly=False IsNestedFamily=False IsEnum=True
+    ReferenceMode: IsNestedPublic=True IsNestedAssembly=False IsNestedFamily=False IsEnum=True
+    ImageType: IsNestedPublic=True IsNestedAssembly=False IsNestedFamily=False IsEnum=True
+  GetNestedType("Location", Public) = NULL
+
+--- ES3 static methods (matcher conditions verbatim) ---
+  ES3.CacheFile(ES3Settings)          = Void CacheFile(ES3Settings)
+  ES3.StoreCachedFile(ES3Settings)    = Void StoreCachedFile(ES3Settings)
+  ES3.Save<T>(string,T,ES3Settings)   = Void Save[T](System.String, T, ES3Settings)
+  ES3File.RemoveCachedFile(ES3Settings)= Void RemoveCachedFile(ES3Settings)  (optional)
+
+--- Create()'s null chain, evaluated ---
+  _cacheFile          OK
+  _storeCachedFile    OK
+  _saveWithSettings   OK
+  _clone              OK
+  _defaultsProp       OK
+  _locationProp       OK
+  _locationCache      <-- NULL  => Create() returns null HERE, silently (no warning is logged)
+
+VERDICT: Create() CANNOT succeed with these queries. The batch has never engaged.
+         -> every Es3Save fell through to Es3SaveDirect = one whole-file write each.
+
+========== PART 1b: what it takes to make it resolve ==========
+  es3.GetNestedType("Location", Public) = ES3+Location  IsEnum=True
+  enum members = File=0, PlayerPrefs=1, InternalMS=2, Resources=3, Cache=4
+  Enum.Parse("Cache") = Cache (int=4)
+  => ONE-LINE FIX: query Location on ES3, not on ES3Settings.
+  NOTE: ES3Settings.path is a public FIELD, not a property -> GetProperty("path") is NULL. GameAdapter tolerates this (null-guarded), but the 'path must exist' safety check then never runs. Use GetField, or rely on defaultSettings.path.
+
+Continuing with the CORRECTED lookup so PART 2 can price both arms.
+
+--- Create() body (corrected lookups) ---
+  clone(defaultSettings)              = ES3Settings  type=ES3Settings
+  path accessor used                  = FIELD (property lookup missed)
+  cloned path                         = 'SaveFile.es3'
+  shipped 'path must exist' guard ran = False
+  set location=Cache -> readback=Cache  equal=True
+  => ALL PREREQUISITES MET: Create() succeeds in-game too (same queries, same types).
+
+========== PART 2: arm A (per-key, location=File) vs arm B (batched) ==========
+live save = D:\ATooManyLanguage\probes\es3bench\work\live_save.es3  (6109282 B)   default-file arm writes = D:\ATooManyLanguage\probes\es3bench\work\SaveFile.es3
+keys to write = 45
+
+A   45 x ES3.Save<string>(k,v) [no path] = 4090 ms   first=158 ms  avg=90.9 ms/key
+    hand-commits=45 misses=0
+    keys before=342 after=387  size=6114077
+
+B   batch settings path='SaveFile.es3' location=Cache
+B   CacheFile            = 60 ms
+B   45 x cached Save    = 1 ms
+B   StoreCachedFile      = 28 ms
+B   total                = 89 ms   speedup=46.0x
+    hand-commits=1 misses=0
+    keys after=387  size=6114077
+
+--- B preservation check (this is what decides whether the batch is safe) ---
+    live keys=342  after B=387  LOST=0   (no data loss)
+    round-trip of the 45 written keys: failures=0
+    RemoveCachedFile invoked OK
+
+========== PART 3: cache reuse across batch scopes (round 15) ==========
+  session1: CacheFile=55 ms, put wcp_r15_A, stored, stamp=(ticks=639253447267172033, size=6109383)
+  session2: stampMatch=True -> CacheFile SKIPPED (0 ms), put wcp_r15_B + store = 29 ms
+  session2 readback: wcp_r15_A=OK  wcp_r15_B=OK  orig[ru_owned_arrays] present=True
+  => [5] skip path keeps batch-1 + original keys: PASS
+  session3: external ES3.Save(wcp_r15_ext) changed stamp=True -> remove + CacheFile + store
+  session3 readback: wcp_r15_ext=OK  wcp_r15_A=OK
+  => [6] stale guard picks up external writes: PASS
+
+========== PART 4: write-behind (round 16) ==========
+  scope1: recorded 2 writes, disk untouched=True
+  drain1: full load -> apply -> store; readback W1=OK W2=OK originals kept=True
+  drain2: stampMatch=True -> CacheFile SKIPPED; W3=OK W1 still=OK
+  => [7] write-behind: put touches nothing, drain lands correct bytes, reuse links: PASS
+
+========== GATE ==========
+  [1] ES3.Location reachable via es3.GetNestedType + Cache parses : PASS
+      (the round-8 pattern -- es3Settings.GetNestedType -- returns NULL; confirmed NULL here)
+  [2] all 7 Create() prerequisites resolve                        : PASS
+  [3] batched arm >=10x faster and under 500 ms                   : PASS   (A=4090ms  B=89ms  46.0x)
+  [4] no key lost, every written key round-trips                  : PASS   (lost=0 roundTripFailures=0)
+  [5] cache-reuse skip path keeps batch-1 + original keys         : PASS   (stampMatch=True)
+  [6] stale guard: external write picked up after reload          : PASS   (extChangedStamp=True)
+  [7] write-behind: put touches nothing, drain lands, reuse links : PASS   (untouched=True drain1=True drain2Reuse=True)
+
+PROBE4 GATE: PASS

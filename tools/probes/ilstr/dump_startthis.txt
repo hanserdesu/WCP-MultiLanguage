@@ -1,0 +1,91 @@
+﻿ASM Assembly-CSharp
+
+=== DUMP SentenceReplyManager::StartThis
+    IL_0000: ldarg.0
+    IL_0001: ldfld SentenceReplyManager::originalText
+    IL_0006: callvirt TMP_Text::get_text
+    IL_000B: ldstr ""
+    IL_0010: stloc.0
+    IL_0011: ldstr "<color=#FFBE31>例句\d+：</color>([\s\S]*?)释义："
+    IL_0016: stloc.1
+    IL_0017: ldloc.1
+    IL_0018: call Regex::Matches
+    IL_001D: stloc.2
+    IL_001E: ldloc.2
+    IL_001F: callvirt MatchCollection::get_Count
+    IL_0024: brtrue.s 65
+    IL_0026: ldstr "没有例句"
+    IL_002B: call Debug::Log
+    IL_0030: ldarg.0
+    IL_0031: ldfld SentenceReplyManager::exampleText
+    IL_0036: ldstr "暂无例句"
+    IL_003B: callvirt TMP_Text::set_text
+    IL_0040: ret
+    IL_0041: ldc.i4.1
+    IL_0042: stloc.3
+    IL_0043: ldloc.2
+    IL_0044: callvirt MatchCollection::GetEnumerator
+    IL_0049: stloc.s 4
+    IL_004B: br.s 163
+    IL_004D: ldloc.s 4
+    IL_004F: callvirt IEnumerator::get_Current
+    IL_0054: castclass System.Text.RegularExpressions.Match
+    IL_0059: callvirt Match::get_Groups
+    IL_005E: ldc.i4.1
+    IL_005F: callvirt GroupCollection::get_Item
+    IL_0064: callvirt Capture::get_Value
+    IL_0069: callvirt String::Trim
+    IL_006E: stloc.s 5
+    IL_0070: ldc.i4.5
+    IL_0071: newarr System.String
+    IL_0076: dup
+    IL_0077: ldc.i4.0
+    IL_0078: ldloc.0
+    IL_0079: stelem.ref
+    IL_007A: dup
+    IL_007B: ldc.i4.1
+    IL_007C: ldloca.s 3
+    IL_007E: call Int32::ToString
+    IL_0083: stelem.ref
+    IL_0084: dup
+    IL_0085: ldc.i4.2
+    IL_0086: ldstr ". "
+    IL_008B: stelem.ref
+    IL_008C: dup
+    IL_008D: ldc.i4.3
+    IL_008E: ldloc.s 5
+    IL_0090: stelem.ref
+    IL_0091: dup
+    IL_0092: ldc.i4.4
+    IL_0093: ldstr "
+
+"
+    IL_0098: stelem.ref
+    IL_0099: call String::Concat
+    IL_009E: stloc.0
+    IL_009F: ldloc.3
+    IL_00A0: ldc.i4.1
+    IL_00A1: add
+    IL_00A2: stloc.3
+    IL_00A3: ldloc.s 4
+    IL_00A5: callvirt IEnumerator::MoveNext
+    IL_00AA: brtrue.s 77
+    IL_00AC: leave.s 195
+    IL_00AE: ldloc.s 4
+    IL_00B0: isinst System.IDisposable
+    IL_00B5: stloc.s 6
+    IL_00B7: ldloc.s 6
+    IL_00B9: brfalse.s 194
+    IL_00BB: ldloc.s 6
+    IL_00BD: callvirt IDisposable::Dispose
+    IL_00C2: endfinally
+    IL_00C3: ldarg.0
+    IL_00C4: ldfld SentenceReplyManager::exampleText
+    IL_00C9: ldloc.0
+    IL_00CA: callvirt mref(0x0A000667)
+    IL_00CF: callvirt TMP_Text::set_text
+    IL_00D4: ldarg.0
+    IL_00D5: ldfld SentenceReplyManager::ReplayPart
+    IL_00DA: ldc.i4.1
+    IL_00DB: callvirt GameObject::SetActive
+    IL_00E0: ret

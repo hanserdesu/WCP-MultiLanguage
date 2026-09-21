@@ -1,0 +1,27 @@
+ASM Assembly-CSharp-firstpass
+
+=== ES3Internal.ES3IO::MoveFile(String sourcePath, String destPath)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: call File::Move(String, String)
+    IL_0007: ret 
+
+=== ES3Internal.ES3IO::CopyFile(String sourcePath, String destPath)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: call File::Copy(String, String)
+    IL_0007: ret 
+
+=== ES3Internal.ES3IO::DeleteFile(String filePath)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: call ES3IO::FileExists(String)
+    IL_0006: brfalse.s IL_000E
+    IL_0008: ldarg.0 
+    IL_0009: call File::Delete(String)
+    IL_000E: ret 
+
+=== ES3Internal.ES3IO::FileExists(String filePath)  generic=0
+    IL_0000: ldarg.0 
+    IL_0001: call File::Exists(String)
+    IL_0006: ret 
+

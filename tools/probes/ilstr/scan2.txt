@@ -1,0 +1,335 @@
+﻿ASM Assembly-CSharp
+
+=== DatabaseManagerS17 :: OnSearchButtonClick(1p)   (il=611B)
+    lit[0] = 请输入一个单词！
+    lit[1] = URI=file:
+    lit[2] = SELECT sentences FROM sentence2 WHERE word = @searchWord
+    lit[3] = @searchWord
+    lit[4] = SELECT sentences FROM sentence2 WHERE sentences LIKE '%' || @searchWord || '%'
+    lit[5] =  AND (sentences LIKE '% 
+    lit[6] =  %' OR sentences LIKE '
+    lit[7] =  %' OR sentences LIKE '% 
+    lit[8] = ' OR sentences = '
+    lit[9] = ')
+    lit[10] = 
+    lit[11] = （
+    lit[12] = ）
+    lit[13] = \n
+    lit[14] = 例句：
+    lit[15] = \n\n
+
+=== AlignImageWithText :: AlignImageToText(0p)   (il=222B)
+    lit[0] = 例句1
+    lit[1] = 例句1坐标: X = {0}, Y = {1}
+
+=== ReadSentenceColorManager :: ChangeSentenceColor(1p)   (il=101B)
+    lit[0] = #FFBE31
+    lit[1] = 例句1：</color>
+    lit[2] = #FFBE31
+    lit[3] = 例句2：</color>
+    lit[4] = #FFBE31
+    lit[5] = 例句3：</color>
+
+=== ReadSentenceColorManager :: ColorizeWord(3p)   (il=121B)
+    lit[0] = 释义
+    lit[1] = <color=#FFBE31>
+    lit[2] = </color>\n\n
+
+=== ReadSentenceColorManagerS9 :: ChangeSentenceColor(1p)   (il=101B)
+    lit[0] = #FFBE31
+    lit[1] = 例句1：</color>
+    lit[2] = #FFBE31
+    lit[3] = 例句2：</color>
+    lit[4] = #FFBE31
+    lit[5] = 例句3：</color>
+
+=== ReadSentenceColorManagerS9 :: ColorizeWord(3p)   (il=121B)
+    lit[0] = 释义
+    lit[1] = <color=#FFBE31>
+    lit[2] = </color>\n\n
+
+=== DatabaseManager :: OnSearchButtonClick(0p)   (il=979B)
+    lit[0] = 自定义词书一
+    lit[1] = 自定义词书二
+    lit[2] = 自定义词书三
+    lit[3] = 自定义词书四
+    lit[4] = 新概念第一册
+    lit[5] = 新概念第二册
+    lit[6] = 新概念第三册
+    lit[7] = 新概念第四册
+    lit[8] = URI=file:
+    lit[9] = SELECT column1 FROM sentence WHERE column1 LIKE '% 
+    lit[10] =  %' OR column1 LIKE '
+    lit[11] =  %' OR column1 LIKE '% 
+    lit[12] = '
+    lit[13] = 
+    lit[14] = 
+    lit[15] = SELECT usPhonic, ukPhonic FROM pron WHERE word = '
+    lit[16] = '
+    lit[17] = 
+    lit[18] = SELECT meaning FROM pron WHERE word = '
+    lit[19] = '
+    lit[20] = SELECT usPhonic, ukPhonic FROM pron WHERE word = '
+    lit[21] = '
+    lit[22] = SELECT meaning FROM pron WHERE word = '
+    lit[23] = '
+    lit[24] = 
+    lit[25] = "en":"
+    lit[26] = 例句
+    lit[27] = ：
+    lit[28] = ","cn":"
+    lit[29] = \n释义：
+    lit[30] = \"
+    lit[31] = "
+    lit[32] = \n\n
+    lit[33] = 本地未收录，请保持网络畅通，可线上搜索
+
+=== AddTextContentsS8 :: UpdateResultText(0p)   (il=1123B)
+    lit[0] = S8Progress_Para
+    lit[1] = 已学词测试
+    lit[2] = S8ThisMode_Para
+    lit[3] = 额外复习
+    lit[4] = 每日复习
+    lit[5] = 
+    lit[6] = [暂未收录这个单词。我们会后续为您更新词库~]\n\n
+    lit[7] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[8] = <sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[9] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[10] = <sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[11] = S8needToLearnWordList_Para
+    lit[12] = congratulations
+    lit[13] = 医
+    lit[14] = 内科
+    lit[15] = 药
+    lit[16] = 化
+    lit[17] = 化学
+    lit[18] = 有化
+    lit[19] = 生
+    lit[20] = 生物
+    lit[21] = 生物学
+    lit[22] = 生化
+    lit[23] = 遗
+    lit[24] = 遗传学
+    lit[25] = 胚
+    lit[26] = 细胞生物学
+    lit[27] = 物
+    lit[28] = 微
+    lit[29] = 解
+    lit[30] = 解剖
+    lit[31] = 数
+    lit[32] = 数学
+    lit[33] = 语
+    lit[34] = 语法
+    lit[35] = 法
+    lit[36] = 音
+    lit[37] = 乐
+    lit[38] = 计算机
+    lit[39] = 电子学
+    lit[40] = 高分子
+    lit[41] = 地质
+    lit[42] = 天
+    lit[43] = 航
+    lit[44] = 鸟
+    lit[45] = 建
+    lit[46] = 希神
+    lit[47] = \[([^\]]+)\]
+    lit[48] = (<mark=#ffffffaa><color=#ffffff00>)+
+    lit[49] = <mark=#ffffffaa><color=#ffffff00>
+    lit[50] = (</color></mark>)+
+    lit[51] = </color></mark>
+
+=== AddTextContentsS8_2 :: UpdateResultText(0p)   (il=2405B)
+    lit[0] = 
+    lit[1] = 
+    lit[2] = [暂未收录这个单词。我们会后续为您更新词库~]\n\n
+    lit[3] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[4] = <sprite=0>\n<color=#6B8EF7>--【拆分记忆（拆分不限于词根词缀）】--</color>\n
+    lit[5] = \n<sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[6] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[7] = <sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[8] = [糟糕！本地暂未收录这个单词。保持网络畅通，尝试线上搜索~]\n\n
+    lit[9] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[10] = \n<sprite=0>\n<color=#6B8EF7>--【拆分记忆（拆分不限于词根词缀）】--</color>\n
+    lit[11] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[12] = [暂未收录这个单词。我们会后续为您更新词库~]\n\n
+    lit[13] = 哇塞！这个才太少见了。就连线上也搜索不到......
+    lit[14] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[15] = \n<sprite=0>\n<color=#6B8EF7>--【拆分记忆（拆分不限于词根词缀）】--</color>\n
+    lit[16] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[17] = [暂未收录这个单词。我们会后续为您更新词库~]\n\n
+    lit[18] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[19] = <sprite=0>\n<color=#6B8EF7>--【拆分记忆（拆分不限于词根词缀）】--</color>\n
+    lit[20] = \n<sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[21] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[22] = <sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[23] = congratulations
+    lit[24] = S8Progress_Para
+    lit[25] = S8ThisMode_Para
+    lit[26] =  MyParameters.S8ThisMode_Para------
+    lit[27] = 额外复习
+    lit[28] = 每日复习
+    lit[29] = 额外学习
+    lit[30] = 每日学习
+    lit[31] = 额外复习
+    lit[32] = EXTRA WORD REVIEW
+    lit[33] = 每日复习
+    lit[34] = DAILY WORD REVIEW
+    lit[35] = 额外学习
+    lit[36] = EXTRA WORD STUDY
+    lit[37] = 每日学习
+    lit[38] = DAILY WORD STUDY
+    lit[39] = 已学词测试
+    lit[40] = WORD EXAMINATION
+    lit[41] = 额外复习
+    lit[42] = 每日复习
+    lit[43] = 额外学习
+    lit[44] = 每日学习
+    lit[45] = 额外复习
+    lit[46] = 每日复习
+    lit[47] = SoundAotoIf_Para
+    lit[48] = SoundUSIf_Para
+    lit[49] = 已学词测试
+    lit[50] = WORD EXAMINATION
+
+=== DatabaseManagerS8 :: OnSearchButtonClick(0p)   (il=1460B)
+    lit[0] = checkWordInDictionary
+    lit[1] = 自定义词书一
+    lit[2] = 自定义词书二
+    lit[3] = 自定义词书三
+    lit[4] = 自定义词书四
+    lit[5] = 新概念第一册
+    lit[6] = 新概念第二册
+    lit[7] = 新概念第三册
+    lit[8] = 新概念第四册
+    lit[9] = URI=file:
+    lit[10] = SELECT sentences FROM sentence2 WHERE word = @searchWord
+    lit[11] = @searchWord
+    lit[12] = SELECT sentences FROM sentence2 WHERE sentences LIKE '%' || @searchWord || '%' AND (sentences LIKE '% 
+    lit[13] =  %' OR sentences LIKE '
+    lit[14] =  %' OR sentences LIKE '% 
+    lit[15] = ' OR sentences = '
+    lit[16] = ')
+    lit[17] = 
+    lit[18] = 
+    lit[19] = SELECT usPhonic, ukPhonic FROM pron WHERE word = @searchWord
+    lit[20] = 
+    lit[21] = SELECT meaning FROM pron WHERE word = @searchWord
+    lit[22] = SELECT usPhonic, ukPhonic FROM pron WHERE word = @capitalizedWord
+    lit[23] = @capitalizedWord
+    lit[24] = SELECT meaning FROM pron WHERE word = @capitalizedWord
+    lit[25] = 
+    lit[26] = 例句：
+    lit[27] = <color=#FFBE31>例句{0}：</color>
+    lit[28] = （
+    lit[29] = \n\n释义：
+    lit[30] = ）
+    lit[31] = 
+    lit[32] = \n\n
+    lit[33] = [糟糕！本地暂未收录这个单词！我们会继续为您扩充词库的！]\n\n
+    lit[34] = ）
+    lit[35] = )
+    lit[36] = （
+    lit[37] = (
+    lit[38] = \([a-zA-Z]+\.\) 
+    lit[39] = \n
+    lit[40] = 
+    lit[41] = URI=file:
+    lit[42] = SELECT help FROM help WHERE word = @searchWord
+    lit[43] = @searchWord
+    lit[44] = 读取 help 表时出错：
+    lit[45] = 
+    lit[46] = 
+
+=== DatabaseManagerS8 :: checkMeaning(2p)   (il=546B)
+    lit[0] = 请输入一个单词！
+    lit[1] = \\n
+    lit[2] = \n
+    lit[3] = \\n
+    lit[4] = \n
+    lit[5] = \\n
+    lit[6] = \n
+    lit[7] = \\n
+    lit[8] = \n
+    lit[9] = 
+    lit[10] = URI=file:
+    lit[11] = SELECT meaning FROM pron WHERE word = @searchWord
+    lit[12] = @searchWord
+    lit[13] = 数据库查询失败：
+    lit[14] = ）
+    lit[15] = )
+    lit[16] = （
+    lit[17] = (
+    lit[18] = \([a-zA-Z]+\.\) 
+    lit[19] = \n
+    lit[20] = 未找到释义：'
+    lit[21] = '
+
+=== SentenceReplyManager :: StartThis(0p)   (il=225B)
+    lit[0] = 
+    lit[1] = <color=#FFBE31>例句\d+：</color>([\s\S]*?)释义：
+    lit[2] = 没有例句
+    lit[3] = 暂无例句
+    lit[4] = . 
+    lit[5] = \n\n
+
+=== ShowMeaningManager :: UpdateResultText(0p)   (il=1038B)
+    lit[0] =  , 
+    lit[1] = 
+    lit[2] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[3] = <sprite=0>\n<color=#6B8EF7>--【拆分记忆（拆分不限于词根词缀）】--</color>\n
+    lit[4] = \n<sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[5] = <color=#6B8EF7>--【释义】--</color>\n
+    lit[6] = <sprite=0>\n<color=#6B8EF7>--【例句】--</color>\n
+    lit[7] = 医
+    lit[8] = 内科
+    lit[9] = 药
+    lit[10] = 化
+    lit[11] = 化学
+    lit[12] = 有化
+    lit[13] = 生
+    lit[14] = 生物
+    lit[15] = 生物学
+    lit[16] = 生化
+    lit[17] = 遗
+    lit[18] = 遗传学
+    lit[19] = 胚
+    lit[20] = 细胞生物学
+    lit[21] = 物
+    lit[22] = 微
+    lit[23] = 解
+    lit[24] = 解剖
+    lit[25] = 数
+    lit[26] = 数学
+    lit[27] = 语
+    lit[28] = 语法
+    lit[29] = 法
+    lit[30] = 音
+    lit[31] = 乐
+    lit[32] = 计算机
+    lit[33] = 电子学
+    lit[34] = 高分子
+    lit[35] = 地质
+    lit[36] = 天
+    lit[37] = 航
+    lit[38] = 鸟
+    lit[39] = 建
+    lit[40] = 希神
+    lit[41] = \[([^\]]+)\]
+    lit[42] = (<color=#6EFF00>)+
+    lit[43] = <color=#6EFF00>
+    lit[44] = (</color>)+
+    lit[45] = </color>
+    lit[46] = 例句3
+    lit[47] = 例句2
+    lit[48] = 例句1
+
+=== ShowReadButtons :: UpdateButtonStates(0p)   (il=95B)
+    lit[0] = 例句3
+    lit[1] = 例句2
+    lit[2] = 例句1
+
+=== WordLookup :: OnFindDefinition(0p)   (il=81B)
+    lit[0] = 未找到释义：'
+    lit[1] = '
+
+HITS 15

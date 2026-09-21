@@ -1,0 +1,176 @@
+﻿ASM Assembly-CSharp
+
+=== DUMP SetInputFieldValueS8::changeKnownFuzzUnknownTimes
+    IL_0000: ldsfld MyParameters::S8ThisMode_Para
+    IL_0005: ldstr "额外复习"
+    IL_000A: call String::op_Equality
+    IL_000F: brtrue.s 37
+    IL_0011: ldsfld MyParameters::S8ThisMode_Para
+    IL_0016: ldstr "每日复习"
+    IL_001B: call String::op_Equality
+    IL_0020: brfalse ?
+    IL_0025: ldstr "HaveLearnedDictionary_Temp"
+    IL_002A: ldsfld MyParameters::HaveLearnedDictionary_Temp
+    IL_002F: call ES3::Load
+    IL_0034: stsfld MyParameters::HaveLearnedDictionary_Temp
+    IL_0039: ldarg.0
+    IL_003A: ldfld SetInputFieldValueS8::LastChosenMark
+    IL_003F: ldc.i4.0
+    IL_0040: ldelem.ref
+    IL_0041: callvirt GameObject::get_activeSelf
+    IL_0046: brfalse.s 80
+    IL_0048: ldarg.0
+    IL_0049: call SetInputFieldValueS8::KnownTimesReduce
+    IL_004E: br.s 124
+    IL_0050: ldarg.0
+    IL_0051: ldfld SetInputFieldValueS8::LastChosenMark
+    IL_0056: ldc.i4.1
+    IL_0057: ldelem.ref
+    IL_0058: callvirt GameObject::get_activeSelf
+    IL_005D: brfalse.s 103
+    IL_005F: ldarg.0
+    IL_0060: call SetInputFieldValueS8::FuzzTimesReduce
+    IL_0065: br.s 124
+    IL_0067: ldarg.0
+    IL_0068: ldfld SetInputFieldValueS8::LastChosenMark
+    IL_006D: ldc.i4.2
+    IL_006E: ldelem.ref
+    IL_006F: callvirt GameObject::get_activeSelf
+    IL_0074: brfalse.s 124
+    IL_0076: ldarg.0
+    IL_0077: call SetInputFieldValueS8::unknownTimesReduce
+    IL_007C: ldarg.1
+    IL_007D: brtrue.s 145
+    IL_007F: ldarg.0
+    IL_0080: call SetInputFieldValueS8::KnownTimesAdd
+    IL_0085: ldstr "testerxxxxxx->1"
+    IL_008A: call Debug::Log
+    IL_008F: br.s 167
+    IL_0091: ldarg.1
+    IL_0092: ldc.i4.1
+    IL_0093: bne.un.s 157
+    IL_0095: ldarg.0
+    IL_0096: call SetInputFieldValueS8::FuzzTimesAdd
+    IL_009B: br.s 167
+    IL_009D: ldarg.1
+    IL_009E: ldc.i4.2
+    IL_009F: bne.un.s 167
+    IL_00A1: ldarg.0
+    IL_00A2: call SetInputFieldValueS8::unknownTimesAdd
+    IL_00A7: ldstr "HaveLearnedDictionary_Temp"
+    IL_00AC: ldsfld MyParameters::HaveLearnedDictionary_Temp
+    IL_00B1: call ES3::Save
+    IL_00B6: ldarg.0
+    IL_00B7: ldfld SetInputFieldValueS8::LastChosenMark
+    IL_00BC: ldc.i4.0
+    IL_00BD: ldelem.ref
+    IL_00BE: callvirt GameObject::get_activeSelf
+    IL_00C3: brfalse.s 205
+    IL_00C5: ldarg.0
+    IL_00C6: call SetInputFieldValueS8::removeFromComplete
+    IL_00CB: br.s 261
+    IL_00CD: ldarg.0
+    IL_00CE: ldfld SetInputFieldValueS8::LastChosenMark
+    IL_00D3: ldc.i4.1
+    IL_00D4: ldelem.ref
+    IL_00D5: callvirt GameObject::get_activeSelf
+    IL_00DA: brfalse.s 234
+    IL_00DC: ldarg.0
+    IL_00DD: call SetInputFieldValueS8::RemoveLastMatchingString_Vague
+    IL_00E2: ldarg.0
+    IL_00E3: call SetInputFieldValueS8::removeFromComplete
+    IL_00E8: br.s 261
+    IL_00EA: ldarg.0
+    IL_00EB: ldfld SetInputFieldValueS8::LastChosenMark
+    IL_00F0: ldc.i4.2
+    IL_00F1: ldelem.ref
+    IL_00F2: callvirt GameObject::get_activeSelf
+    IL_00F7: brfalse.s 261
+    IL_00F9: ldarg.0
+    IL_00FA: call SetInputFieldValueS8::RemoveLastMatchingString_Forget
+    IL_00FF: ldarg.0
+    IL_0100: call SetInputFieldValueS8::removeFromComplete
+    IL_0105: ldarg.1
+    IL_0106: brtrue.s 281
+    IL_0108: ldstr "testerxxxxxx->2"
+    IL_010D: call Debug::Log
+    IL_0112: ldarg.0
+    IL_0113: call SetInputFieldValueS8::Remember
+    IL_0118: ret
+    IL_0119: ldarg.1
+    IL_011A: ldc.i4.1
+    IL_011B: bne.un.s 292
+    IL_011D: ldarg.0
+    IL_011E: call SetInputFieldValueS8::Vague
+    IL_0123: ret
+    IL_0124: ldarg.1
+    IL_0125: ldc.i4.2
+    IL_0126: bne.un.s 302
+    IL_0128: ldarg.0
+    IL_0129: call SetInputFieldValueS8::Forget
+    IL_012E: ret
+
+=== DUMP SetInputFieldValueS8::CompleteThis
+    IL_0000: ldarg.0
+    IL_0001: ldfld SetInputFieldValueS8::lastWord
+    IL_0006: stloc.0
+    IL_0007: ldstr "S8HaveLearnedWordList_Para"
+    IL_000C: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0011: call ES3::Load
+    IL_0016: stsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_001B: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0020: ldloc.0
+    IL_0021: callvirt List`1::Add
+    IL_0026: ldstr "S8HaveLearnedWordList_Para"
+    IL_002B: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0030: call ES3::Save
+    IL_0035: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_003A: callvirt List`1::get_Count
+    IL_003F: stloc.1
+    IL_0040: ldsfld MyParameters::S8HaveLearnedWordList_Para
+    IL_0045: ldloc.1
+    IL_0046: ldc.i4.1
+    IL_0047: sub
+    IL_0048: callvirt List`1::get_Item
+    IL_004D: pop
+    IL_004E: ldstr "S8HaveLearnedStatusList_Para"
+    IL_0053: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_0058: call ES3::Load
+    IL_005D: stsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_0062: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_0067: ldarg.1
+    IL_0068: callvirt List`1::Add
+    IL_006D: ldstr "S8HaveLearnedStatusList_Para"
+    IL_0072: ldsfld MyParameters::S8HaveLearnedStatusList_Para
+    IL_0077: call ES3::Save
+    IL_007C: ldstr "S8needToLearnWordList_Para"
+    IL_0081: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0086: call ES3::Load
+    IL_008B: stsfld MyParameters::S8needToLearnWordList_Para
+    IL_0090: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_0095: callvirt List`1::get_Count
+    IL_009A: ldc.i4.0
+    IL_009B: ble.s 184
+    IL_009D: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00A2: ldloc.0
+    IL_00A3: callvirt List`1::Remove
+    IL_00A8: pop
+    IL_00A9: ldstr "S8needToLearnWordList_Para"
+    IL_00AE: ldsfld MyParameters::S8needToLearnWordList_Para
+    IL_00B3: call ES3::Save
+    IL_00B8: ldarg.0
+    IL_00B9: ldfld SetInputFieldValueS8::UpdateLastLearnTimeButton
+    IL_00BE: callvirt Button::get_onClick
+    IL_00C3: callvirt UnityEvent::Invoke
+    IL_00C8: ldstr "S8Progress_Para"
+    IL_00CD: ldsfld MyParameters::S8Progress_Para
+    IL_00D2: call ES3::Load
+    IL_00D7: stsfld MyParameters::S8Progress_Para
+    IL_00DC: ldsfld MyParameters::S8Progress_Para
+    IL_00E1: ldc.i4.1
+    IL_00E2: add
+    IL_00E3: stsfld MyParameters::S8Progress_Para
+    IL_00E8: ldstr "S8Progress_Para"
+    IL_00ED: ldsfld MyParameters::S8Progress_Para
+    IL_00F2: call ES3::Save
+    IL_00F7: ret
