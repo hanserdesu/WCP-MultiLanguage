@@ -1135,10 +1135,15 @@ function Install-HubMods([string]$gameRoot, $Catalog, $HubState) {
     # 载荷 zip 的条目路径是 BepInEx 相对布局（plugins/WcpHost.dll，与日语一键包
     # payload 约定一致），所以解到 BepInEx 根，而不是 plugins 目录里再套一层。
     $modsRoot = Join-Path $gameRoot 'BepInEx'
+    $modHealthy = Test-ModDiskHealth -gameRoot $gameRoot
     $stateEntry = $null
     if ($HubState -and (Get-PropertyNames $HubState) -contains 'mods') { $stateEntry = $HubState.mods }
     $oldFiles = if ($stateEntry -and $stateEntry.files) { $stateEntry.files } else { $null }
     $versionChanged = -not $stateEntry -or [string]$stateEntry.version -ne [string]$mods.version
+    if (-not $modHealthy) {
+        Write-Host '  mod 磁盘核对: 核心宿主插件缺失或损坏，强制触发重新安装自愈' -ForegroundColor Yellow
+        $versionChanged = $true
+    }
     $pending = New-Object System.Collections.Generic.List[object]
     foreach ($a in @($mods.assets)) {
         $known = $false

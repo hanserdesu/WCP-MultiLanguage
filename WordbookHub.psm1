@@ -515,8 +515,29 @@ function Test-WordbookDiskHealth {
     return $unhealthy.ToArray()
 }
 
+function Test-ModDiskHealth([string]$gameRoot) {
+    if (-not $gameRoot) { return $true }
+    $modsRoot = Join-Path $gameRoot 'BepInEx'
+    $hostDll = Join-Path $modsRoot 'plugins\WcpHost.dll'
+    $disabledHost = Join-Path $modsRoot 'plugins\WcpHost.dll.disabled'
+    if (Test-Path -LiteralPath $disabledHost) {
+        if (-not (Test-Path -LiteralPath $hostDll)) {
+            try {
+                Move-Item -LiteralPath $disabledHost -Destination $hostDll -Force -ErrorAction SilentlyContinue
+                Write-Host '  mod 物理自愈: 已将被重命名的 WcpHost.dll.disabled 恢复为 WcpHost.dll' -ForegroundColor Yellow
+            } catch { }
+        } else {
+            Remove-Item -LiteralPath $disabledHost -Force -ErrorAction SilentlyContinue
+        }
+    }
+    if (-not (Test-Path -LiteralPath $hostDll)) { return $false }
+    $item = Get-Item -LiteralPath $hostDll -ErrorAction SilentlyContinue
+    if (-not $item -or $item.Length -eq 0) { return $false }
+    return $true
+}
+
 Export-ModuleMember -Function Import-WordbookCatalog, Assert-WordbookCatalog, `
     Get-WordbookById, Resolve-WordbookSelection, Get-WordbookAssetDiff, `
     Test-WordbookInstalledFully, New-DiskPlan, Test-DiskPlanCompatibility, `
     Read-HubState, Get-InstalledWordbooks, Get-ExtractMb, Test-ExtractKnown, `
-    Get-HubCatalogRows, Get-InstalledBookIds, Resolve-InteractivePick, Sync-WordAudioMirror, Test-WordbookDiskHealth
+    Get-HubCatalogRows, Get-InstalledBookIds, Resolve-InteractivePick, Sync-WordAudioMirror, Test-WordbookDiskHealth, Test-ModDiskHealth

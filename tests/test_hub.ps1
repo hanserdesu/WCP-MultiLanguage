@@ -342,6 +342,18 @@ Check '安装器：-Update 挂磁盘核对钩子' ($installerText2 -match 'Test-
 Check '安装器：不健康词书从 state 摘除' ($installerText2 -match 'PSObject\.Properties\.Remove\(\$badId\)')
 Check '安装器：摘除后重算 installed 并提示全量重下' ($installerText2 -match '已从安装记录摘除')
 Check 'psm1：Test-WordbookDiskHealth 已导出' ((Get-Command Test-WordbookDiskHealth -ErrorAction SilentlyContinue) -ne $null)
+Check 'psm1：Test-ModDiskHealth 已导出' ((Get-Command Test-ModDiskHealth -ErrorAction SilentlyContinue) -ne $null)
+
+# Mod 磁盘健康
+$testGame = Join-Path $env:TEMP ('wcp-mod-health-' + [guid]::NewGuid().ToString('N'))
+$testPlugins = Join-Path $testGame 'BepInEx\plugins'
+New-Item -ItemType Directory -Path $testPlugins -Force | Out-Null
+Check 'mod磁盘健康：空目录判定不健康' ((Test-ModDiskHealth -gameRoot $testGame) -eq $false)
+$testDisabled = Join-Path $testPlugins 'WcpHost.dll.disabled'
+[IO.File]::WriteAllText($testDisabled, 'host_payload')
+$healed = Test-ModDiskHealth -gameRoot $testGame
+Check 'mod磁盘健康：发现.disabled自愈恢复' ($healed -eq $true -and (Test-Path -LiteralPath (Join-Path $testPlugins 'WcpHost.dll')))
+Check 'mod磁盘健康：健康状态返回true' ((Test-ModDiskHealth -gameRoot $testGame) -eq $true)
 
 Write-Host ('结果: {0} 通过, {1} 失败' -f $pass, $fail)
 if ($fail -gt 0) { exit 1 } else { exit 0 }
