@@ -7539,7 +7539,7 @@ row	pron	solicitar	/so.li.siˈta(ʁ)/	/so.li.siˈta(ʁ)/	[so.li.siˈta(ʁ)] 请�
 row	pron	candidatar	/kɐ̃.d͡ʒi.daˈta(ʁ)/	/kɐ̃.d͡ʒi.daˈta(ʁ)/	[kɐ̃.d͡ʒi.daˈta(ʁ)] 申请<动>	
 row	pron	cateter	/ka.teˈtɛʁ/	/ka.teˈtɛʁ/	[ka.teˈtɛʁ] 导管<名>	
 row	pron	objeção	/o.bi.ʒeˈsɐ̃w̃/	/o.bi.ʒeˈsɐ̃w̃/	[o.bi.ʒeˈsɐ̃w̃] 反对<名>	
-row	pron	relativo	/ʁe.laˈt͡ʃi.vu/	/ʁe.laˈt͡ʃi.vu/	[ʁe.laˈt͡ʃi.vu] 亲戚<形>	
+row	pron	relativo	/ʁe.laˈt͡ʃi.vu/	/ʁe.laˈt͡ʃi.vu/	[ʁe.laˈt͡ʃi.vu] 相对的<形>	
 row	pron	especiaria	/is.pe.si.aˈɾi.ɐ/	/is.pe.si.aˈɾi.ɐ/	[is.pe.si.aˈɾi.ɐ] 香料<名>	
 row	pron	pós-traumático	/ˈpɔs.tɾaw.ma.tʃi.kʊ/	/ˈpɔs.tɾaw.ma.tʃi.kʊ/	[ˈpɔs.tɾaw.ma.tʃi.kʊ] 创伤后<形>	
 row	pron	estrondo	/isˈtɾõ.du/	/isˈtɾõ.du/	[isˈtɾõ.du] 砰<名>	
@@ -31218,9 +31218,9 @@ row	sentence	cateter				例句：Para mim, cateter é algo indispensável.（对
 row	sentence	objeção				例句：A notícia de objeção espalhou-se como um incêndio.（反对的消息瞬间传开了。）
 row	sentence	objeção				例句：Passámos a tarde toda a falar de objeção.（我们聊了一下午反对。）
 row	sentence	objeção				例句：Mais vale prevenir: pensemos em objeção o quanto antes.（预防总比补救好：我们最好尽早考虑反对。）
-row	sentence	relativo				例句：Visto de longe, o local parecia um lugar relativo e tranquilo.（从远处看，那个地方显得亲戚而宁静。）
-row	sentence	relativo				例句：A resposta dele deixou-me uma sensação relativa.（他的回答给我留下一种亲戚的感觉。）
-row	sentence	relativo				例句：Embora fosse relativo, decidiu continuar a tentar.（虽然很亲戚，他还是决定继续尝试。）
+row	sentence	relativo				例句：Visto de longe, o local parecia um lugar relativo e tranquilo.（从远处看，那个地方显得相对而宁静。）
+row	sentence	relativo				例句：A resposta dele deixou-me uma sensação relativa.（他的回答给我留下一种相对的感觉。）
+row	sentence	relativo				例句：Embora fosse relativo, decidiu continuar a tentar.（虽然很相对，他还是决定继续尝试。）
 row	sentence	especiaria				例句：No exame apareceu uma pergunta sobre especiaria.（考试里出了一道关于香料的题。）
 row	sentence	especiaria				例句：A notícia de especiaria espalhou-se como um incêndio.（香料的消息瞬间传开了。）
 row	sentence	especiaria				例句：Passámos a tarde toda a falar de especiaria.（我们聊了一下午香料。）
