@@ -2,7 +2,7 @@
   "word_count": 8599,
   "sentence_count": 25797,
   "files": {
-    "es_pron.tsv": "0d10254a822d51b0e9c318d6e9df41b61ed5421af2402e67ce9909f20fb5f315",
+    "es_pron.tsv": "caa571e47e97daabccf221c3937a0438bfde515a6638fcfb06fc59b4e955c95f",
     "es_sentences.tsv": "e028e00cbd5c66eb8a6102d427db62ae57912614511e93fe7f37733bdd67f4de"
   },
   "note": "本目录是 pack 专用载荷（展平两列），由 MultiLanguage/tools/build_pack_payload.py 生成；原 output/es_db_payload 保持不变，仍供旧插件安装器使用。"

@@ -32,12 +32,12 @@
     "pron": "pt_pron.tsv",
     "sentences": "pt_sentences.tsv",
     "payload_files": {
-      "pt_pron.tsv": "b8a9b7fe98a58fb4e387a4f10a3c06dc6160cbcb95614a7014377c20a0c7b4c3",
+      "pt_pron.tsv": "8334a70dde4841b6b1c0a914582ad09d6540e2d82d8a7f3d71c17a6427a830c1",
       "pt_sentences.tsv": "1feb4b04c1bd3bae88c2ba275fa6edcb973c3f8de5640ebef262cd82553f8885"
     }
   },
   "book_sha256": {
-    "葡萄牙语考级词库(猫条版).xlsx": "e7bc6229570aedb96fd321d2b4c4c02434c8d6f9cd270bafbbd81bc6db37d2a7"
+    "葡萄牙语考级词库(猫条版).xlsx": "e39cceaf96a52d6f1fd1ff131c6f6db493f96050f23ca866d7d054405a15d179"
   },
   "counts": {
     "pron": 8599,

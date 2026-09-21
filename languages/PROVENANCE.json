@@ -1,29 +1,29 @@
 {
   "hub_repo": "hanserdesu/WCP-MultiLanguage",
-  "integrated_at": "2026-09-20T06:36:09-04:00",
+  "integrated_at": "2026-09-21T01:43:27-04:00",
   "languages": {
-    "yue": {
+    "pt": {
       "absent_in_worktree": [],
-      "bytes": 2169096,
-      "content_digest": "sha256:3bbe22ce74b2576bf464e9e5fffd53f04bd4aa4b75d1c2e5ca5adaab5220a73c",
+      "bytes": 51166970,
+      "content_digest": "sha256:5d8bdfb433455e5f943e90b6a17e262807b437c5d766a3f76866b61bd9fda128",
       "excluded": {},
       "excluded_bytes": 0,
       "excluded_samples": [],
-      "files": 65,
+      "files": 41,
       "note": "",
       "removed_in_worktree": [],
       "source_branch": "main",
-      "source_dir": "D:\\ATooManyLanguage\\Contonese",
-      "source_head": "b22ccd36628719be5b2a2feb1cd3e2fca835a789",
-      "source_head_date": "2026-09-20 06:36:06 -0400",
-      "source_head_subject": "feat(yue): 补充384词第3句例句、全量合成1150条音频、更新manifest行数至1152",
-      "source_origin_head": "",
-      "source_repo": "https://github.com/hanserdesu/WCP-Cantonese-Wordbook.git",
+      "source_dir": "D:\\ATooManyLanguage\\Portuguese",
+      "source_head": "38db142cdc7cfb2a90db231b2f71039286ff97aa",
+      "source_head_date": "2026-09-20 21:10:14 -0400",
+      "source_head_subject": "fix(pt): correct relativo gloss 亲戚->相对的 and its 3 sentence translations (jev recheck find)",
+      "source_origin_head": "38db142cdc7cfb2a90db231b2f71039286ff97aa",
+      "source_repo": "https://github.com/hanserdesu/WCP-Portuguese-Wordbook.git",
       "states": {
         "added": 0,
-        "modified": 0,
-        "tracked": 65,
-        "untracked": 0
+        "modified": 13,
+        "tracked": 27,
+        "untracked": 1
       }
     }
   },
