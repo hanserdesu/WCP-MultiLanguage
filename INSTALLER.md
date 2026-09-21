@@ -1,6 +1,6 @@
 # WCP 词书一键安装器（Install-WCP-Wordbooks.ps1）
 
-> 本文件迁自 `hanserdesu/WCP-Wordbook-Hub` 的 README；安装器与资源契约以本文件为准。
+本文件迁自早期的 `WCP-Wordbook-Hub` 分发仓 README；该分发仓已于 2026-09-21 收拢并入本仓库，安装器与资源契约以本文件为准。
 
 `Install-WCP-Wordbooks.ps1` is the resource delivery boundary. A language pack
 is discovered from a GitHub repository and released as assets; the installer

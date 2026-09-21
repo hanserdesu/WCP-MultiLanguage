@@ -5,7 +5,8 @@
 发布经验：
   1. 打包集合 = Install-WCP-Wordbooks.ps1 + run-installer.ps1 + WordbookHub.psm1
      + catalog.json + 许可说明.txt + 一键启动 cmd；
-  2. .ps1/.cmd 统一 CRLF（PowerShell 进度块与 cmd 对 LF 敏感）；
+  2. .ps1/.psm1/.cmd 统一 CRLF（PowerShell 进度块与 cmd 对 LF 敏感；.psm1
+     混排 EOL 会让打包产物与仓库工作区不一致，2026-09-21 纳入归一化）；
   3. 产物 zip 的 sha256/size 写进 release-index.json（自更新索引），与安装包
      一起上传到 mods release；
   4. 版本号单一事实来源：本脚本 --version 传入后同时改写 run-installer.ps1
@@ -93,7 +94,7 @@ def main() -> None:
             raise SystemExit(f"missing {src}")
         dst = pkg_dir / name
         dst.write_bytes(src.read_bytes())
-        if dst.suffix in (".ps1", ".cmd"):
+        if dst.suffix in (".ps1", ".psm1", ".cmd"):
             normalize_eol(dst)
     (pkg_dir / "一键安装词书.cmd").write_bytes(
         ("@echo off\r\npowershell -NoProfile -ExecutionPolicy Bypass -File \"%~dp0run-installer.ps1\"\r\n"

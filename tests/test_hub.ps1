@@ -167,6 +167,16 @@ foreach ($rel in @('..\Install-WCP-Wordbooks.ps1', '..\WordbookHub.psm1', '.\tes
     Check ("$rel 编码安全(非 ASCII 必须带 BOM)") ((-not $nonAscii) -or $hasBom)
 }
 
+# EOL 约定：.psm1 必须是纯 CRLF（混排 EOL 会让打包产物与工作区不一致，
+# 2026-09-21 的 Test-ModDiskHealth 补丁曾引入 58 处裸 LF）。run-installer.ps1
+# 在仓库里保持 LF、由 build_installer.py 打包时归一化，故不在此断言。
+foreach ($rel in @('..\WordbookHub.psm1', '..\Install-WCP-Wordbooks.ps1')) {
+    $raw = [IO.File]::ReadAllBytes((Join-Path $PSScriptRoot $rel))
+    $text = [Text.Encoding]::UTF8.GetString($raw)
+    $bareLf = ($text -split "`r`n" -join '').Split("`n").Count - 1
+    Check ("$rel 行尾为纯 CRLF") ($bareLf -eq 0)
+}
+
 # 双击入口必须保持纯 ASCII: cmd.exe 按代码页读批处理，写中文就会乱码。
 foreach ($rel in @('..\一键安装词书.cmd', '..\更新词书资源.cmd')) {
     $bytes = [IO.File]::ReadAllBytes((Join-Path $here $rel))
@@ -352,7 +362,25 @@ Check 'mod磁盘健康：空目录判定不健康' ((Test-ModDiskHealth -gameRoo
 $testDisabled = Join-Path $testPlugins 'WcpHost.dll.disabled'
 [IO.File]::WriteAllText($testDisabled, 'host_payload')
 $healed = Test-ModDiskHealth -gameRoot $testGame
-Check 'mod磁盘健康：发现.disabled自愈恢复' ($healed -eq $true -and (Test-Path -LiteralPath (Join-Path $testPlugins 'WcpHost.dll')))
+Check 'mod磁盘健康：发现.disabled自愈恢复' ((Test-Path -LiteralPath (Join-Path $testPlugins 'WcpHost.dll')) -and -not (Test-Path -LiteralPath $testDisabled))
+Check 'mod磁盘健康：只补宿主仍缺其它核心插件 = 不健康' ($healed -eq $false)
+
+foreach ($core in @('CustomSlotsMod.dll', 'BookNameMod.dll')) {
+    [IO.File]::WriteAllText((Join-Path $testPlugins $core), 'core_payload')
+}
+Check 'mod磁盘健康：核心三件套齐全 = 健康' ((Test-ModDiskHealth -gameRoot $testGame) -eq $true)
+
+# 0 字节损坏的核心插件必须判不健康（状态文件自洽也拦不住的自愈场景）
+[IO.File]::WriteAllText((Join-Path $testPlugins 'BookNameMod.dll'), '')
+Check 'mod磁盘健康：核心插件 0 字节判不健康' ((Test-ModDiskHealth -gameRoot $testGame) -eq $false)
+[IO.File]::WriteAllText((Join-Path $testPlugins 'BookNameMod.dll'), 'core_payload')
+
+# 目标已存在的遗留 .disabled 副本只清理，不覆盖在位文件
+$stale = Join-Path $testPlugins 'CustomSlotsMod.dll.disabled'
+[IO.File]::WriteAllText($stale, 'stale_copy')
+[void](Test-ModDiskHealth -gameRoot $testGame)
+Check 'mod磁盘健康：目标在位时清理遗留 .disabled 且不动在位文件' ((-not (Test-Path -LiteralPath $stale)) -and ((Get-Item -LiteralPath (Join-Path $testPlugins 'CustomSlotsMod.dll')).Length -gt 0))
+
 Check 'mod磁盘健康：健康状态返回true' ((Test-ModDiskHealth -gameRoot $testGame) -eq $true)
 
 Write-Host ('结果: {0} 通过, {1} 失败' -f $pass, $fail)

@@ -516,23 +516,61 @@ function Test-WordbookDiskHealth {
 }
 
 function Test-ModDiskHealth([string]$gameRoot) {
+    # Mod 本体物理健康核对（安装/更新前运行）。
+    #
+    # 背景：hub-state.json 只记录「当时下载的 mods 载荷 sha256」，安装器据此判断
+    # 「已是最新」并跳过。可一旦磁盘上的插件被改名（2026-09-21 实机：A/B 测试
+    # 遗留 WcpHost.dll.disabled）、被杀软隔离或写坏成 0 字节，状态文件仍旧自洽，
+    # 安装器永远不自愈 —— 游戏侧表现为旧插件打印「WcpHost 已接管 X 语，旧词表插件
+    # 不再打补丁」主动让渡，而宿主实际没加载，整个词典 Hook 链真空，查词面板对
+    # 所有受管语言回退成游戏原生「本地暂未收录这个单词」。
+    #
+    # 检查三层，任何一层不过都返回 $false（调用方据此强制重新物化 mods 载荷）：
+    #   1. 核心三件套（WcpHost / CustomSlotsMod / BookNameMod）必须存在且非 0 字节。
+    #      只查这三件：它们是与语言无关的基础设施，新语言接入不需要改本函数。
+    #   2. 顺带自愈被「改名禁用」的插件：同名 .disabled/.off/.bak 目标缺失时改名回正，
+    #      目标已存在时删掉遗留副本（旧语言插件也在覆盖范围内，保持同规则）。
+    #   3. 自愈后复检三件套，仍缺则判定不健康。
     if (-not $gameRoot) { return $true }
-    $modsRoot = Join-Path $gameRoot 'BepInEx'
-    $hostDll = Join-Path $modsRoot 'plugins\WcpHost.dll'
-    $disabledHost = Join-Path $modsRoot 'plugins\WcpHost.dll.disabled'
-    if (Test-Path -LiteralPath $disabledHost) {
-        if (-not (Test-Path -LiteralPath $hostDll)) {
-            try {
-                Move-Item -LiteralPath $disabledHost -Destination $hostDll -Force -ErrorAction SilentlyContinue
-                Write-Host '  mod 物理自愈: 已将被重命名的 WcpHost.dll.disabled 恢复为 WcpHost.dll' -ForegroundColor Yellow
-            } catch { }
+    $pluginsRoot = Join-Path (Join-Path $gameRoot 'BepInEx') 'plugins'
+    if (-not (Test-Path -LiteralPath $pluginsRoot)) { return $false }
+
+    # 2. 先扫遗留的「改名禁用」副本（对任意插件生效，不只核心三件套）。
+    foreach ($stray in @([IO.Directory]::EnumerateFiles($pluginsRoot, '*.dll.disabled', [IO.SearchOption]::TopDirectoryOnly)) +
+                        @([IO.Directory]::EnumerateFiles($pluginsRoot, '*.dll.off', [IO.SearchOption]::TopDirectoryOnly)) +
+                        @([IO.Directory]::EnumerateFiles($pluginsRoot, '*.dll.bak', [IO.SearchOption]::TopDirectoryOnly))) {
+        $liveName = [IO.Path]::GetFileName($stray)
+        foreach ($suffix in @('.disabled', '.off', '.bak')) {
+            if ($liveName.EndsWith($suffix, [StringComparison]::OrdinalIgnoreCase)) {
+                $liveName = $liveName.Substring(0, $liveName.Length - $suffix.Length)
+                break
+            }
+        }
+        $livePath = Join-Path $pluginsRoot $liveName
+        if (Test-Path -LiteralPath $livePath) {
+            Remove-Item -LiteralPath $stray -Force -ErrorAction SilentlyContinue
+            Write-Host ('  mod 物理自愈: 清理遗留副本 ' + [IO.Path]::GetFileName($stray)) -ForegroundColor DarkGray
         } else {
-            Remove-Item -LiteralPath $disabledHost -Force -ErrorAction SilentlyContinue
+            try {
+                Move-Item -LiteralPath $stray -Destination $livePath -Force -ErrorAction Stop
+                Write-Host ('  mod 物理自愈: 已把 ' + [IO.Path]::GetFileName($stray) + ' 恢复为 ' + $liveName) -ForegroundColor Yellow
+            } catch { }
         }
     }
-    if (-not (Test-Path -LiteralPath $hostDll)) { return $false }
-    $item = Get-Item -LiteralPath $hostDll -ErrorAction SilentlyContinue
-    if (-not $item -or $item.Length -eq 0) { return $false }
+
+    # 1/3. 核心三件套必须在位且非 0 字节。
+    foreach ($core in @('WcpHost.dll', 'CustomSlotsMod.dll', 'BookNameMod.dll')) {
+        $path = Join-Path $pluginsRoot $core
+        if (-not (Test-Path -LiteralPath $path)) {
+            Write-Host ('  mod 磁盘核对: 缺少核心插件 ' + $core) -ForegroundColor Yellow
+            return $false
+        }
+        $item = Get-Item -LiteralPath $path -ErrorAction SilentlyContinue
+        if (-not $item -or $item.Length -eq 0) {
+            Write-Host ('  mod 磁盘核对: 核心插件 ' + $core + ' 为 0 字节') -ForegroundColor Yellow
+            return $false
+        }
+    }
     return $true
 }
 
