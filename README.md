@@ -5,8 +5,8 @@
 （manifest + 词库 + 数据库 + 音频），复用宿主通用策略；只有行为特殊的语言才需要自己的策略程序集。
 
 当前状态：统一接入架构全部交付落地。
-统一宿主（WcpHost 0.5.3）、20 个逻辑槽位（CustomSlotsMod）、语言物理隔离、Jev 全量双轴审计（9 语 100% 通过）与一键安装器（v0.1.7）已全量落地验证。
-注册表 / 槽位规则 / 接管范围 / 磁盘健康 / mod 物理自愈 / 自更新链 / 双击入口窗口保留 / 安装器测试 127/127 项全部通过；宿主注册并路由 9 语资源包。战斗语言隔离已通过离线回归，最新代码尚待实机复测。
+统一宿主（WcpHost 0.5.3）、20 个逻辑槽位（CustomSlotsMod）、语言物理隔离、Jev 全量双轴审计（9 语 100% 通过）与一键安装器（v0.1.8）已全量落地验证。
+注册表 / 槽位规则 / 接管范围 / 磁盘健康 / mod 物理自愈 / 自更新链 / 双击入口窗口保留 / 安装器测试 133/133 项全部通过；宿主注册并路由 9 语资源包。安装器下载与解压会显示百分比和已处理字节数，减少大资源包安装时的盲等。战斗语言隔离已通过离线回归，最新代码尚待实机复测。
 本仓库为所有语言唯一的单一事实源；集成版安装包与资源包统一由本仓库发布。
 
 ## 仓库结构
@@ -21,7 +21,7 @@
 | `tools/release/` | 资源包发布流水线：`build_installer.py`（安装器打包、自更新索引与仓库根索引同步）、发布清单与 catalog 维护脚本 |
 | `tools/integrate_languages.py`、`tools/verify_integration.py` | 语言工程集成与一致性校验工具 |
 | `languages/<code>/` | 9 个语言工程的源码树（ja / fr / ru / de / es / pt / ko / ar / yue） |
-| `Install-WCP-Wordbooks.ps1`、`WordbookHub.psm1`、`catalog.json` | 一键安装器核心：GitHub 发现词书、选择安装、峰值磁盘检查、P1-9 词书磁盘健康核对、mod 物理健康自愈（`Test-ModDiskHealth`）、SHA-256 差异更新 |
+| `Install-WCP-Wordbooks.ps1`、`WordbookHub.psm1`、`catalog.json` | 一键安装器核心：GitHub 发现词书、选择安装、下载与解压百分比、峰值磁盘检查、词书磁盘健康核对、mod 物理健康自愈、SHA-256 差异更新 |
 | `run-installer.ps1` | 安装器启动器：自更新版本注入、异常展开排查、预填 GitHub 反馈 |
 | `一键安装词书.cmd`、`更新词书资源.cmd` | 给玩家的双击免配置入口 |
 | `ARCHITECTURE-UNIFIED.md` | 统一接入架构设计（Host / Pack / Strategy） |
@@ -33,6 +33,7 @@
 - `更新词书资源.cmd`：等价 `-Update`，默认选中已安装词书，回车即更新。
 - 窗口不会自己消失：两个双击入口都用 `--keep-open` 自重启一个常驻 CMD 会话，安装流程结束后窗口留在原地，由你点击右上角 X 关闭，中途状态、错误链与最终结果都看得到。
 - 智能差异比对：安装前按 `hub-state.json` 记录的 SHA-256 逐项比对，只重新下载内容变化的资源。
+- 下载和解压时会持续显示当前包的百分比及已处理 / 总字节数；每个阶段完成后还会打印 100% 结果。
 - 磁盘健康自愈（词书层）：更新时自动通过 `Test-WordbookDiskHealth` 核验本地文件完整度，若音频丢失或词表损坏自动摘除记录并全量重下修复。
 - 磁盘健康自愈（mod 层）：安装前通过 `Test-ModDiskHealth` 核验 `BepInEx/plugins` 下的核心三件套（`WcpHost.dll` / `CustomSlotsMod.dll` / `BookNameMod.dll`）。发现被改名禁用的 `.disabled` / `.off` / `.bak` 副本自动改名回正、发现 0 字节损坏强制重新物化 mods 载荷，即使 `hub-state.json` 记录为最新也不会跳过。
 - 自更新机制：经 `run-installer.ps1` 启动时自动检查更新，若有新版安装器提示确认后平滑切换，失败不阻断本次安装。版本索引按三条通道依次取用：仓库根 `release-index.json` 的 raw 地址（不消耗 GitHub API 配额、不受资产 CDN 缓存影响）、`wcp-mods-*` release 的资产接口（显式声明 `Accept: application/octet-stream`）、以及同一资产的下载地址。
@@ -102,7 +103,7 @@ cmd /c mod_host\tests\run_word_audio_compat_test.cmd
 # 槽位：20 槽行为规则测试
 powershell -File mod_custom_slots\tests\run_slot_rules_test.ps1
 
-# 安装器：离线单元测试（无网络、不写游戏目录，116 项全覆盖）
+# 安装器：离线单元测试（无网络、不写游戏目录，118 项全覆盖）
 powershell -File tests\test_hub.ps1
 
 # 安装器：自更新链回归（本地假 GitHub 回放 HTTP，不碰真实网络）
@@ -139,7 +140,7 @@ python tools\verify_integration.py
 | `ru` | 本仓库 | `wcp-ru-resources-v1.1.0` |
 | `yue` | 本仓库 | `wcp-yue-resources-v1.0.1` |
 
-一键安装器最新版本为 `wcp-installer-v0.1.7`，配套 mod 载荷为 `wcp-mods-v1.3.1`，支持自动通过 GitHub 发现资源、选择性安装、峰值空间预检、差异化更新、词书磁盘健康核对与 mod 物理健康自愈。版本索引 `release-index.json` 同时放在仓库根目录（raw 可直读）与 `wcp-mods-*` release 资产上：仓库根副本不消耗 GitHub API 配额，release 资产副本供 API 通道与自更新解耦发布使用。启动器检测到新版本时提示用户确认升级；v0.1.3 及更早版本的自更新链因缺少 `Accept: application/octet-stream` 而从未真正生效，这些用户需要手动下载一次 v0.1.4 或更新的安装包。
+一键安装器最新版本为 `wcp-installer-v0.1.8`，mod 载荷仍为 `wcp-mods-v1.3.1`。下载和 ZIP 解压过程中会持续显示百分比与已处理 / 总字节数。版本索引 `release-index.json` 放在仓库根目录（raw 主通道）和 `wcp-mods-*` release 资产（API / CDN 回退通道）；备用副本随 `wcp-mods-installer-index-v0.1.8` 更新，mod 文件没有变化。启动器检测到新版本时提示用户确认升级；v0.1.3 及更早版本的自更新链因缺少 `Accept: application/octet-stream` 而从未真正生效，这些用户需要手动下载一次 v0.1.4 或更新的安装包。
 
 每条 asset 都带 `url` / `size` / `sha256`（或 GitHub 的 sha256 digest），安装器直接按 `url` 下载并逐项校验。`disk.extract_mb` 是按 zip 内实际文件大小算出的解压占用，用于峰值磁盘检查。
 
@@ -161,6 +162,7 @@ python tools\verify_integration.py
 12. 2026-09-21 双击入口窗口保留修复（v0.1.5）：玩家反馈双击入口跑完自动退出、来不及看状态。定位到 `tools/release/build_installer.py` 打包时另写了一份两行 `一键安装词书.cmd`，覆盖了仓库根那份带 `--keep-open` 自重启的入口，那份既没有保持窗口的机制，包里也漏了 `更新词书资源.cmd`。改为打包直接收录仓库根两个入口（单一事实源），两个入口统一经 `run-installer.ps1` 启动（版本注入 + 错误链），`更新词书资源.cmd` 通过 `-Update` 转发；启动器只在 `WCP_KEEP_OPEN=1` 时才承诺窗口保留。新增桩包行为回归（含复现修复前闪退的反向对照）。离线测试由 103 项扩至 113 项，正式发布 `wcp-installer-v0.1.5`。
 13. 2026-09-21 许可范围按当前资源重新核定：资源已由本项目自行再生成，据实收敛为两层——代码保留 PolyForm Noncommercial 1.0.0，内容由 CC BY-NC-SA 4.0 改为 CC BY-NC 4.0（去掉相同方式共享，方便其他自定义词书直接取用）；第三方词典派生数值不再单列为第三层授权，改为内容章节内的上游署名。同时更正上游许可记录（EDRDG 与 Lexique 现行为 CC BY-SA 4.0）、补上此前遗漏的日语上游来源（OpenJLPT、Kaishi 1.5k zh-CN、Bluskyo/JLPT_Vocabulary、Jisho 接口），并核销阿拉伯语词库的 ECDICT 例外：逐条比对 8118 条释义，与 ECDICT 条目文本无一相同，该例外已不存在。
 14. 2026-09-23 战斗语言隔离与多语言发布更新：快速测试与战斗候选词统一限制在当前激活词书，避免全局统计池把英语词混入法语等语言；新增 TTS 入口按当前词书查找单词音频，命中词条但缺音频时阻止英语语音回退。安装器回归 127/127、宿主接管与注册表测试通过，日语与粤语核心资源包已按当前源码重建；最新改动尚待实机战斗复测。同步发布 `wcp-mods-v1.3.1`、`wcp-installer-v0.1.7`、`wcp-yue-resources-v1.0.1` 与 `wcp-jp-resources-v1.1.1`。
+15. 2026-09-23 安装器等待进度补全（v0.1.8）：下载长包时只显示文件序号，解压大量音频时也没有阶段反馈。现在 mod、词书和自更新下载均显示百分比与收发字节，ZIP 解压显示实际展开进度；阶段完成后保留 100% 文本。离线安装器测试 118/118、自更新回归 10/10、双击入口回归 5/5 通过。为保留无法访问仓库 raw 主通道时的更新路径，另发布 `wcp-mods-installer-index-v0.1.8` 索引副本，mod 载荷保持 v1.3.1 原样。
 
 ## 许可
 

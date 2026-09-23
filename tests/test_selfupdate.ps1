@@ -25,11 +25,31 @@ function Check([string]$name, [bool]$cond) {
 }
 
 # --- 从安装器源码抽取真实实现 ---
-foreach ($fn in @('Get-PropertyNames', 'Get-FieldOr', 'Invoke-HubDownload')) {
+foreach ($fn in @('Get-PropertyNames', 'Get-FieldOr', 'Format-HubProgressBytes', 'Write-HubProgress', 'Clear-HubProgress', 'Expand-HubZip', 'Invoke-HubDownload')) {
     $m = [regex]::Match($installerText, "(?s)function $fn\(.*?\r?\n\}\r?\n")
     if (-not $m.Success) { throw ('抽取函数失败: ' + $fn) }
     Invoke-Expression $m.Value
 }
+$script:HubProgressState = @{}
+$global:ProgressEvents = @()
+function Write-Progress {
+    param([string]$Activity, [string]$Status, [int]$PercentComplete, [int]$Id, [switch]$Completed)
+    $global:ProgressEvents += [pscustomobject]@{
+        Activity = $Activity; Status = $Status; PercentComplete = $PercentComplete
+        Id = $Id; Completed = [bool]$Completed
+    }
+}
+
+Write-HubProgress -Activity 'progress regression' -Current 50 -Total 100 -Id 98
+Write-HubProgress -Activity 'progress regression' -Current 100 -Total 100 -Id 98 -Complete
+Check '进度 helper 显示中间百分比和 100% 完成' (@($global:ProgressEvents | Where-Object {
+    $_.Activity -eq 'progress regression' -and $_.PercentComplete -eq 50
+}).Count -gt 0 -and @($global:ProgressEvents | Where-Object {
+    $_.Activity -eq 'progress regression' -and $_.PercentComplete -eq 100 -and $_.Status -match '^100%'
+}).Count -gt 0 -and @($global:ProgressEvents | Where-Object {
+    $_.Activity -eq 'progress regression' -and $_.Completed
+}).Count -gt 0)
+Check '小文件进度显示字节数而非错误地四舍五入为 0 KB' ((Format-HubProgressBytes 501) -eq '501 B')
 $blockStart = $installerText.IndexOf('# ---------- 安装器自更新')
 $blockEnd = $installerText.IndexOf('# ---------- 工作目录卫生')
 if ($blockStart -lt 0 -or $blockEnd -lt $blockStart) { throw '抽取自更新代码块失败' }
@@ -51,6 +71,26 @@ $stopFile = Join-Path $tempRoot 'stop.txt'
     installer_version = 'wcp-installer-v9.9.9'
     core_installer    = @{ name = 'x.zip'; size = 1; sha256 = ('a' * 64); url = 'http://127.0.0.1:1/x.zip' }
 } | ConvertTo-Json -Depth 5), (New-Object Text.UTF8Encoding($false)))
+
+# 真正调用安装器的 ZIP 展开实现，验证内容、覆盖语义和解压进度完成事件。
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+$zipSource = Join-Path $tempRoot 'zip-source'
+$zipDest = Join-Path $tempRoot 'zip-dest'
+New-Item -ItemType Directory -Path (Join-Path $zipSource 'nested') -Force | Out-Null
+$zipPayload = New-Object byte[] (512KB)
+for ($i = 0; $i -lt $zipPayload.Length; $i++) { $zipPayload[$i] = [byte]($i % 251) }
+[IO.File]::WriteAllBytes((Join-Path $zipSource 'nested\payload.bin'), $zipPayload)
+$zipFile = Join-Path $tempRoot 'payload.zip'
+[IO.Compression.ZipFile]::CreateFromDirectory($zipSource, $zipFile)
+Expand-HubZip $zipFile $zipDest 'progress ZIP test'
+Check 'ZIP 展开保留文件内容并报告 100%' (
+    (Get-FileHash -LiteralPath (Join-Path $zipDest 'nested\payload.bin') -Algorithm SHA256).Hash -eq
+    (Get-FileHash -LiteralPath (Join-Path $zipSource 'nested\payload.bin') -Algorithm SHA256).Hash -and @($global:ProgressEvents | Where-Object {
+        $_.Activity -eq 'progress ZIP test' -and $_.PercentComplete -eq 100 -and $_.Status -match '^100%'
+    }).Count -gt 0 -and @($global:ProgressEvents | Where-Object {
+        $_.Activity -eq 'progress ZIP test' -and $_.Completed
+    }).Count -gt 0
+)
 
 $serverScript = {
     param($portFile, $indexFile, $stopFile)
@@ -140,6 +180,11 @@ try {
     Check 'A. raw 通道可用时发现新版本' (Invoke-SelfUpdateCheck "$base/raw/release-index.json" "$base/api/asset/1" "$base/cdn/missing.json")
     Check 'B. raw 不可用时回退 API 资产（带 Accept）仍发现新版本' (Invoke-SelfUpdateCheck "$base/raw/missing.json" "$base/api/asset/1" "$base/cdn/missing.json")
     Check 'C. 反向对照：只回元数据 JSON 时判定无新版' (-not (Invoke-SelfUpdateCheck "$base/raw/missing.json" "$base/api/legacy/1" "$base/cdn/missing.json"))
+    Check '真实 HTTP 下载路径发出百分比和完成进度' (@($global:ProgressEvents | Where-Object {
+        $_.Activity -eq '检查安装器更新' -and $_.PercentComplete -eq 99
+    }).Count -gt 0 -and @($global:ProgressEvents | Where-Object {
+        $_.Activity -eq '检查安装器更新' -and $_.Completed
+    }).Count -gt 0)
 } finally {
     [IO.File]::WriteAllText($stopFile, 'stop')
     Start-Sleep -Milliseconds 200

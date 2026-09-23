@@ -137,6 +137,10 @@ persistent window when that variable is actually set.
 PowerShell 并让窗口保持打开，全部中文提示都在带 BOM 的 `.ps1` 里，避免代码页
 乱码；批处理内容刻意保持纯 ASCII。
 
+下载与 ZIP 解压会显示当前包的百分比和已处理 / 总字节数；阶段结束时会输出
+100% 完成行。下载进度按服务器提供的文件长度计算，长度缺失时使用 catalog 记录的
+资源大小；解压进度按 ZIP 条目的实际展开字节计算。
+
 ```powershell
 .\Install-WCP-Wordbooks.ps1 -List
 .\Install-WCP-Wordbooks.ps1 -Plan -Books fr,ja -GameDir 'D:\Games\WCP'

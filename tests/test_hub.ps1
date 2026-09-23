@@ -326,6 +326,15 @@ $null = $hubWorkFn
 Check '安装器源：Get-HubWorkPath 保证目录存在' ($installerText2 -match 'New-Item -ItemType Directory -Force -Path \$path')
 Check '安装器源：下载 tmp 清理失败不终止安装' ($installerText2 -match 'Remove-Item -LiteralPath \$tmp -Force -ErrorAction SilentlyContinue')
 Check '安装器源：下载句柄 finally 释放' ($installerText2 -match '\$fs\.Dispose\(\) \} catch \{ \}' -or $installerText2 -match 'finally')
+Check '安装器源：mod 与词书下载循环都更新可见百分比' (
+    $installerText2.Contains('Write-HubProgress -Activity $downloadActivity -Current $receivedBytes -Total $progressTotal') -and
+    $installerText2.Contains("'下载 mod: '") -and
+    $installerText2.Contains("'解压 mod: '")
+)
+Check '安装器源：ZIP 解压按展开字节更新进度' (
+    $installerText2.Contains('Write-HubProgress -Activity $ProgressActivity -Current $extractedBytes') -and
+    $installerText2.Contains('Write-HubProgress -Activity $ProgressActivity -Current $totalBytes -Total $totalBytes -Complete')
+)
 
 # --- P1-9 磁盘健康核对（Test-WordbookDiskHealth + -Update 钩子） ---
 $healthPacks = Join-Path $env:TEMP ('wcp-health-packs-' + [guid]::NewGuid().ToString('N'))

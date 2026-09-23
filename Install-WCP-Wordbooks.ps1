@@ -31,6 +31,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
+$script:HubProgressState = @{}
 
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
 Import-Module (Join-Path $here 'WordbookHub.psm1') -Force
@@ -334,7 +335,39 @@ function Get-Sha256Hex([string]$path) {
     }
 }
 
-function Expand-HubZip([string]$zipPath, [string]$dest) {
+function Format-HubProgressBytes([long]$Bytes) {
+    if ($Bytes -ge 1MB) { return '{0:N1} MB' -f ($Bytes / 1MB) }
+    if ($Bytes -ge 1KB) { return '{0:N1} KB' -f ($Bytes / 1KB) }
+    return ('{0} B' -f $Bytes)
+}
+
+function Write-HubProgress([string]$Activity, [long]$Current, [long]$Total, [int]$Id = 1, [switch]$Complete) {
+    if ($Complete) {
+        $receivedText = Format-HubProgressBytes $Current
+        Write-Progress -Id $Id -Activity $Activity -Status ('100% · {0}' -f $receivedText) -PercentComplete 100
+        Write-Progress -Id $Id -Activity $Activity -Completed
+        Write-Host ('    {0}: 100% ({1})' -f $Activity, $receivedText)
+        $script:HubProgressState.Remove($Id)
+        return
+    }
+
+    $percent = if ($Total -gt 0) { [int][math]::Min(99, [math]::Floor(($Current * 100.0) / $Total)) } else { 0 }
+    $now = [DateTime]::UtcNow
+    $last = $script:HubProgressState[$Id]
+    if ($null -eq $last -or $last.percent -ne $percent -or ($now - $last.at).TotalMilliseconds -ge 300) {
+        $currentText = Format-HubProgressBytes $Current
+        $totalText = if ($Total -gt 0) { Format-HubProgressBytes $Total } else { '大小未知' }
+        Write-Progress -Id $Id -Activity $Activity -Status ('{0}% · {1} / {2}' -f $percent, $currentText, $totalText) -PercentComplete $percent
+        $script:HubProgressState[$Id] = [pscustomobject]@{ percent = $percent; at = $now }
+    }
+}
+
+function Clear-HubProgress([string]$Activity, [int]$Id = 1) {
+    Write-Progress -Id $Id -Activity $Activity -Completed
+    $script:HubProgressState.Remove($Id)
+}
+
+function Expand-HubZip([string]$zipPath, [string]$dest, [string]$ProgressActivity = '') {
     Add-Type -AssemblyName System.IO.Compression.FileSystem
     if (-not (Test-Path -LiteralPath $dest)) { New-Item -ItemType Directory -Path $dest -Force | Out-Null }
     # Windows PowerShell 5.1 (.NET Framework) 的 ExtractToDirectory 没有 bool
@@ -343,6 +376,11 @@ function Expand-HubZip([string]$zipPath, [string]$dest) {
     # ExtractToFile(..., $true) 提供同样的覆盖语义。
     $zip = [IO.Compression.ZipFile]::OpenRead($zipPath)
     try {
+        [long]$totalBytes = 0
+        if ($ProgressActivity) {
+            foreach ($entry in $zip.Entries) { if ($entry.Name -ne '') { $totalBytes += [long]$entry.Length } }
+        }
+        [long]$extractedBytes = 0
         foreach ($entry in $zip.Entries) {
             if ($entry.FullName -match '(^|[\\/])\.\.([\\/]|$)') {
                 throw ('zip 条目越界，已拒绝: ' + $entry.FullName)
@@ -353,8 +391,27 @@ function Expand-HubZip([string]$zipPath, [string]$dest) {
             if ($targetDir -and -not (Test-Path -LiteralPath $targetDir)) {
                 New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
             }
-            [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $targetPath, $true)
+            $entryStream = $null; $targetStream = $null
+            try {
+                $entryStream = $entry.Open()
+                $targetStream = [IO.File]::Create($targetPath)
+                $buf = New-Object byte[] 262144
+                while (($n = $entryStream.Read($buf, 0, $buf.Length)) -gt 0) {
+                    $targetStream.Write($buf, 0, $n)
+                    $extractedBytes += $n
+                    if ($ProgressActivity) {
+                        Write-HubProgress -Activity $ProgressActivity -Current $extractedBytes -Total $totalBytes
+                    }
+                }
+            } finally {
+                if ($targetStream) { $targetStream.Dispose() }
+                if ($entryStream) { $entryStream.Dispose() }
+            }
         }
+        if ($ProgressActivity) { Write-HubProgress -Activity $ProgressActivity -Current $totalBytes -Total $totalBytes -Complete }
+    } catch {
+        if ($ProgressActivity) { Clear-HubProgress -Activity $ProgressActivity }
+        throw
     } finally { $zip.Dispose() }
 }
 
@@ -811,7 +868,7 @@ function Repair-HubSaveFiles {
     }
 }
 
-function Invoke-HubDownload([string]$uri, [string]$destination, [int]$timeoutMs = 120000, [string]$Accept = '') {
+function Invoke-HubDownload([string]$uri, [string]$destination, [int]$timeoutMs = 120000, [string]$Accept = '', [string]$ProgressActivity = '', [long]$ExpectedBytes = 0) {
     $request = [Net.HttpWebRequest]::Create($uri)
     $request.Method = 'GET'
     $request.Timeout = $timeoutMs
@@ -828,8 +885,19 @@ function Invoke-HubDownload([string]$uri, [string]$destination, [int]$timeoutMs 
         $stream = $response.GetResponseStream()
         $fs = [IO.File]::Create($destination)
         try {
+            $progressTotal = [long]$response.ContentLength
+            if ($progressTotal -le 0) { $progressTotal = $ExpectedBytes }
+            [long]$receivedBytes = 0
             $buf = New-Object byte[] 262144
-            while (($n = $stream.Read($buf, 0, $buf.Length)) -gt 0) { $fs.Write($buf, 0, $n) }
+            while (($n = $stream.Read($buf, 0, $buf.Length)) -gt 0) {
+                $fs.Write($buf, 0, $n)
+                $receivedBytes += $n
+                if ($ProgressActivity) { Write-HubProgress -Activity $ProgressActivity -Current $receivedBytes -Total $progressTotal }
+            }
+            if ($ProgressActivity) { Write-HubProgress -Activity $ProgressActivity -Current $receivedBytes -Total $progressTotal -Complete }
+        } catch {
+            if ($ProgressActivity) { Clear-HubProgress -Activity $ProgressActivity }
+            throw
         } finally { $fs.Dispose() }
         $stream.Dispose()
     } finally { $response.Dispose() }
@@ -852,7 +920,7 @@ if ($selfVersion -and -not $Offline -and -not $Plan -and -not $List) {
         $indexObj = $null
         $idxTmp = Join-Path $data 'release-index.json.check'
         try {
-            Invoke-HubDownload 'https://raw.githubusercontent.com/hanserdesu/WCP-MultiLanguage/main/release-index.json' $idxTmp
+            Invoke-HubDownload 'https://raw.githubusercontent.com/hanserdesu/WCP-MultiLanguage/main/release-index.json' $idxTmp 120000 '' '检查安装器更新'
             $indexObj = Get-Content -LiteralPath $idxTmp -Raw -Encoding UTF8 | ConvertFrom-Json
             if (-not (Get-FieldOr $indexObj 'installer_version' '')) { $indexObj = $null }
         } catch { $indexObj = $null }
@@ -868,7 +936,7 @@ if ($selfVersion -and -not $Offline -and -not $Plan -and -not $List) {
                 foreach ($candidate in @([string](Get-FieldOr $idxAsset 'url' ''), [string](Get-FieldOr $idxAsset 'browser_download_url' ''))) {
                     if ([string]::IsNullOrWhiteSpace($candidate)) { continue }
                     try {
-                        Invoke-HubDownload $candidate $idxTmp 120000 'application/octet-stream'
+                        Invoke-HubDownload $candidate $idxTmp 120000 'application/octet-stream' '检查安装器更新'
                         $indexObj = Get-Content -LiteralPath $idxTmp -Raw -Encoding UTF8 | ConvertFrom-Json
                         if (Get-FieldOr $indexObj 'installer_version' '') { break }
                         $indexObj = $null
@@ -890,14 +958,14 @@ if ($selfVersion -and -not $Offline -and -not $Plan -and -not $List) {
                 $core = $indexObj.core_installer
                 $coreTmp = Join-Path (Get-HubWorkPath 'dl') ('installer_update_' + [guid]::NewGuid().ToString('N') + '.zip')
                 try {
-                    Invoke-HubDownload $core.url $coreTmp
+                    Invoke-HubDownload $core.url $coreTmp 120000 '' '下载安装器更新' ([long]$core.size)
                     $actualCoreSha = Get-Sha256Hex $coreTmp
                     if ($actualCoreSha -ne ([string]$core.sha256).ToLowerInvariant()) {
                         throw ('SHA-256 校验失败（实际 ' + $actualCoreSha + '）')
                     }
                     # 解到全新临时目录、校验通过后再切换；任何一步失败都留在当前版本继续装（fail-safe）。
                     $newPkgDir = Join-Path (Get-HubWorkPath 'dl') ('installer_update_' + [guid]::NewGuid().ToString('N'))
-                    Expand-HubZip $coreTmp $newPkgDir
+                    Expand-HubZip $coreTmp $newPkgDir '解压安装器更新'
                     $newScript = Get-ChildItem -LiteralPath $newPkgDir -Recurse -Filter 'Install-WCP-Wordbooks.ps1' |
                         Select-Object -First 1
                     if (-not $newScript) { throw '新包缺少 Install-WCP-Wordbooks.ps1' }
@@ -1197,6 +1265,7 @@ function Install-HubMods([string]$gameRoot, $Catalog, $HubState) {
     $files = [pscustomobject]@{}
     foreach ($a in $pending) {
         Write-Host ('  mod: {0} ({1} MB)' -f $a.name, [math]::Round($a.size / 1MB, 1))
+        $downloadActivity = '下载 mod: ' + [string]$a.name
         $tmp = Join-Path (Get-HubWorkPath 'dl') ('hub_dl_' + [guid]::NewGuid().ToString('N'))
         try {
             $request = [Net.HttpWebRequest]::Create($a.url)
@@ -1205,18 +1274,35 @@ function Install-HubMods([string]$gameRoot, $Catalog, $HubState) {
             $request.ReadWriteTimeout = 120000
             $request.Proxy = [Net.WebRequest]::DefaultWebProxy
             if ($request.Proxy) { $request.Proxy.Credentials = [Net.CredentialCache]::DefaultCredentials }
-            $response = $request.GetResponse()
-            $stream = $response.GetResponseStream()
-            $fs = [IO.File]::Create($tmp)
-            $buf = New-Object byte[] 262144
-            while (($n = $stream.Read($buf, 0, $buf.Length)) -gt 0) { $fs.Write($buf, 0, $n) }
-            $fs.Dispose(); $stream.Dispose(); $response.Dispose()
+            $response = $null; $stream = $null; $fs = $null
+            try {
+                $response = $request.GetResponse()
+                $stream = $response.GetResponseStream()
+                $fs = [IO.File]::Create($tmp)
+                $progressTotal = [long]$response.ContentLength
+                if ($progressTotal -le 0) { $progressTotal = [long]$a.size }
+                [long]$receivedBytes = 0
+                $buf = New-Object byte[] 262144
+                while (($n = $stream.Read($buf, 0, $buf.Length)) -gt 0) {
+                    $fs.Write($buf, 0, $n)
+                    $receivedBytes += $n
+                    Write-HubProgress -Activity $downloadActivity -Current $receivedBytes -Total $progressTotal
+                }
+                Write-HubProgress -Activity $downloadActivity -Current $receivedBytes -Total $progressTotal -Complete
+            } catch {
+                Clear-HubProgress -Activity $downloadActivity
+                throw
+            } finally {
+                if ($fs) { try { $fs.Dispose() } catch { } }
+                if ($stream) { try { $stream.Dispose() } catch { } }
+                if ($response) { try { $response.Dispose() } catch { } }
+            }
             $actual = Get-Sha256Hex $tmp
             if ($actual -ne ([string]$a.sha256).ToLowerInvariant()) {
                 throw ('SHA-256 不匹配: ' + $a.name + ' 期望 ' + $a.sha256 + ' 实际 ' + $actual)
             }
             if ([string]$a.name -match '(?i)\.(zip|7z|tar|gz)$') {
-                Expand-HubZip $tmp $modsRoot
+                Expand-HubZip $tmp $modsRoot ('解压 mod: ' + [string]$a.name)
             } else {
                 Copy-Item -LiteralPath $tmp -Destination (Join-Path $modsRoot $a.name) -Force
             }
@@ -1282,6 +1368,7 @@ foreach ($wb in $selection) {
     foreach ($asset in $files) {
         $done++
         Write-Host ('  [{0}/{1}] {2}: {3}' -f $done, $totalAssets, $wb.id, $asset.name)
+        $downloadActivity = ('[{0}/{1}] 下载 {2}: {3}' -f $done, $totalAssets, $wb.id, $asset.name)
         $tmp = Join-Path (Get-HubWorkPath 'dl') ('hub_dl_' + [guid]::NewGuid().ToString('N'))
         try {
             $request = [Net.HttpWebRequest]::Create($asset.url)
@@ -1298,8 +1385,19 @@ foreach ($wb in $selection) {
                 $response = $request.GetResponse()
                 $stream = $response.GetResponseStream()
                 $fs = [IO.File]::Create($tmp)
+                $progressTotal = [long]$response.ContentLength
+                if ($progressTotal -le 0) { $progressTotal = [long]$asset.size }
+                [long]$receivedBytes = 0
                 $buf = New-Object byte[] 262144
-                while (($n = $stream.Read($buf, 0, $buf.Length)) -gt 0) { $fs.Write($buf, 0, $n) }
+                while (($n = $stream.Read($buf, 0, $buf.Length)) -gt 0) {
+                    $fs.Write($buf, 0, $n)
+                    $receivedBytes += $n
+                    Write-HubProgress -Activity $downloadActivity -Current $receivedBytes -Total $progressTotal
+                }
+                Write-HubProgress -Activity $downloadActivity -Current $receivedBytes -Total $progressTotal -Complete
+            } catch {
+                Clear-HubProgress -Activity $downloadActivity
+                throw
             } finally {
                 if ($fs) { try { $fs.Dispose() } catch { } }
                 if ($stream) { try { $stream.Dispose() } catch { } }
@@ -1311,7 +1409,7 @@ foreach ($wb in $selection) {
             }
             if ($asset.kind -in @('word_audio', 'sentence_audio')) {
                 $dest = Join-Path (Join-Path $packRoot 'audio') ($asset.kind -replace '_audio$', '')
-                Expand-HubZip $tmp $dest
+                Expand-HubZip $tmp $dest ('[{0}/{1}] 解压 {2}: {3}' -f $done, $totalAssets, $wb.id, $asset.name)
                 if ($asset.kind -eq 'word_audio') {
                     # 兼容层：游戏的 VocabularyAudioPlayer 只认 <LocalLow>\WCP\vocabulary
                     # （引擎自带路径）。宿主未接管时该目录为空会让发音静默回退成游戏
@@ -1334,11 +1432,11 @@ foreach ($wb in $selection) {
                       [string]$asset.name -match '(?i)\.(zip|7z|tar|gz)$') {
                 $dest = $packRoot
                 if (-not (Test-Path -LiteralPath $dest)) { New-Item -ItemType Directory -Path $dest -Force | Out-Null }
-                Expand-HubZip $tmp $dest
+                Expand-HubZip $tmp $dest ('[{0}/{1}] 解压 {2}: {3}' -f $done, $totalAssets, $wb.id, $asset.name)
             } elseif ($asset.kind -eq 'payload' -and
                       [string]$asset.name -match '(?i)\.(zip|7z|tar|gz)$') {
                 $dest = Join-Path $ns 'payload'
-                Expand-HubZip $tmp $dest
+                Expand-HubZip $tmp $dest ('[{0}/{1}] 解压 {2}: {3}' -f $done, $totalAssets, $wb.id, $asset.name)
             } else {
                 Copy-Item -LiteralPath $tmp -Destination (Join-Path $ns $asset.name) -Force
             }
