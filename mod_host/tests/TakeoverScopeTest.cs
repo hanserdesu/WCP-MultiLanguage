@@ -256,8 +256,38 @@ internal static class TakeoverScopeTest
             new List<string> { "russian1" }, 5);
         Check(rebuilt != null && rebuilt.Count >= 5 && NoForeign(rebuilt, SixBook()),
             "补池入口（AddWordsToSelfChosenList）只从本书重建");
+        string[] fallbackBook = { "bonjour", "salut", "merci", "case", "livre" };
+        var fallbackPool = BookPool.FailClosedFightPool(
+            new List<string> { "english", "bonjour" }, fallbackBook, 5);
+        Check(fallbackPool.Count == 5 && NoForeign(fallbackPool, fallbackBook),
+            "战斗重建异常时仅从当前词书过滤并补池");
+        Check(BookPool.FailClosedFightPool(new List<string> { "english" }, null, 5).Count == 0,
+            "当前词书不可用时清空战斗池且不回退全局词典");
         Check(scope.RebuildPool("S8HaveLearnedWordList_Para",
             new List<string> { "english" }, 5) == null, "进度字段不参与补池");
+
+        // 实机法语 20 词快速测试曾由全局英语已学词产生：大多数恰好是
+        // version/public 等法英同形词，事后按本书过滤仍能全部通过。
+        var quickBook = new string[] { "version", "public", "aller", "manger",
+            "bonjour", "chaise", "maison", "parler", "rouge", "livre" };
+        var quickStats = new StatsStub();
+        quickStats.Learned.Add("version"); quickStats.Learned.Add("public");
+        var quick = BookPool.QuickTest(quickBook, quickStats,
+            new PoolOrder { Mode = "正序", PriorityOn = true }, 5, new Random(7));
+        Check(quick.Count == 5 && NoForeign(quick, quickBook) &&
+              !quick.Contains("english") && quick.Exists(delegate(string w)
+                  { return w != "version" && w != "public"; }),
+            "快速测试从本书供词，不被全局已学同形词垄断");
+        var shortQuick = BookPool.QuickTest(new string[] { "aller", "manger" },
+            null, new PoolOrder(), 20, new Random(7));
+        Check(shortQuick.Count == 2, "短词书快速测试不注入外语词或占位词");
+
+        scope = SetupBook();
+        GameAdapter.Fields["S9extraStudy_Para"] = new string[] { "b1", "english" };
+        scope.Enforce();
+        var selected = GameAdapter.Fields["S9extraStudy_Para"] as string[];
+        Check(selected != null && selected.Length == 1 && selected[0] == "b1",
+            "手选词只过滤书外词，不自动增加未勾选词");
 
         // ── 第十四轮（2026-09-18）：BookPool.Plan（单次 Enforce 共享分区+排序）──
         // 门禁一：Plan.Rebuild 与逐规则 BookPool.Rebuild 在 4 种排序设置 × 双向

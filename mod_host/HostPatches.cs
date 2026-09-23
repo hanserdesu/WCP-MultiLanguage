@@ -90,6 +90,8 @@ namespace WcpHost
                 AccessTools.Method(typeof(HostPatches), "MultipleChoicePostfix"));
             PatchOne(harmony, "MultipleChoiceGeneratorS9", "GenerateOptions", null,
                 AccessTools.Method(typeof(HostPatches), "MultipleChoiceS9Postfix"));
+            PatchOne(harmony, "MultipleChoiceGeneratorS9", "showWordAndMeaning", null,
+                AccessTools.Method(typeof(HostPatches), "ShowWordAndMeaningS9Postfix"));
             PatchOne(harmony, "SetInputFieldValueS8", "ShowTheWord", null,
                 AccessTools.Method(typeof(HostPatches), "ShowTheWordPostfix"));
         }
@@ -114,10 +116,21 @@ namespace WcpHost
                 AccessTools.Method(typeof(HostPatches), "WordAudioPrefix"), null);
             PatchOne(harmony, "SoundTheWordS8", "OnButton1Click",
                 AccessTools.Method(typeof(HostPatches), "SentenceTtsPrefix"), null);
+            // 打怪听音选词/切水果的 AI 发音触发器: USgs.ReceiveTextToSpeech
+            // 是英语 ONNX TTS 的统一入口，受管语言下由宿主按词形路由 pack
+            // 音频，未命中再放行（与 PlayWordAudio 的放行语义一致）。
+            PatchOne(harmony, "UnityText2Speech.USgs", "ReceiveTextToSpeech",
+                AccessTools.Method(typeof(HostPatches), "UsgsTtsPrefix"), null);
         }
 
         private static void PatchSelectionAndRefresh(Harmony harmony)
         {
+            // ResetTestListQuick 调用这些静态选词函数后才保存测试队列并打开场景。
+            // 在选词出口替换结果，避免全局已学词的法英同形词进入本书快速测试。
+            string[] quickTests = new string[] { "TestWordPos", "TestWordNeg", "TestWordRan",
+                "TestWordPosOff", "TestWordNegOff", "TestWordRanOff" };
+            PatchSet(harmony, "ChooseWordManager", quickTests,
+                AccessTools.Method(typeof(HostPatches), "QuickTestPrefix"), true);
             PatchOne(harmony, "PageController", "SetThis",
                 AccessTools.Method(typeof(HostPatches), "EnforcePrefix"), null);
             PatchOne(harmony, "GoToAllS9", "ArrayToAll", null,
@@ -153,6 +166,14 @@ namespace WcpHost
             return plugin.Runtime.PrefixPool(ref S7TestWordList_Para, num);
         }
 
+        private static bool QuickTestPrefix(int __0, ref List<string> __result,
+                                            MethodBase __originalMethod)
+        {
+            WcpHostPlugin plugin = WcpHostPlugin.Instance;
+            if (plugin == null || plugin.Runtime == null) return true;
+            return plugin.Runtime.PrefixQuickTest(__0, __originalMethod.Name, ref __result);
+        }
+
         private static void FightListScenePostfix(object __instance)
         {
             WcpHostPlugin plugin = WcpHostPlugin.Instance;
@@ -174,6 +195,13 @@ namespace WcpHost
                 plugin.Runtime.PostMultipleChoiceS9(__instance);
         }
 
+        private static void ShowWordAndMeaningS9Postfix(object __instance)
+        {
+            WcpHostPlugin plugin = WcpHostPlugin.Instance;
+            if (plugin != null && plugin.Runtime != null)
+                plugin.Runtime.PostShowWordAndMeaningS9(__instance);
+        }
+
         private static void ShowTheWordPostfix(object __instance)
         {
             WcpHostPlugin plugin = WcpHostPlugin.Instance;
@@ -193,6 +221,15 @@ namespace WcpHost
             WcpHostPlugin plugin = WcpHostPlugin.Instance;
             if (plugin != null && plugin.Runtime != null)
                 plugin.Runtime.PostAnswer(__instance);
+        }
+
+        // 受管语言下拦截英语 ONNX TTS: 词形可路由到 pack 音频时返回 false
+        // （跳过英语 TTS，宿主已播本地音）；未命中返回 true 放行英语 TTS。
+        private static bool UsgsTtsPrefix(object __instance, string text)
+        {
+            WcpHostPlugin plugin = WcpHostPlugin.Instance;
+            if (plugin == null || plugin.Runtime == null) return true;
+            return !plugin.Runtime.BlockEnglishWordTts(__instance, text);
         }
 
         private static bool WordAudioPrefix(object __instance)

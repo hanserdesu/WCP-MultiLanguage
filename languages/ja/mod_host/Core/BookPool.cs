@@ -62,6 +62,34 @@ namespace WcpHost
         }
 
         /// <summary>
+        /// Emergency battle queue when the normal host rebuild fails. Keep the current
+        /// book's entries in their existing order, then top up from that same book.
+        /// An unavailable book produces an empty queue; never yield to the game's
+        /// language-blind global dictionary or its English placeholders.
+        /// </summary>
+        internal static List<string> FailClosedFightPool(IList<string> current,
+                                                           IList<string> book, int requested)
+        {
+            List<string> safe = new List<string>();
+            if (book == null || book.Count == 0) return safe;
+
+            List<string> filtered = FilterOnly(current, book);
+            if (filtered != null) safe = filtered;
+            else if (current != null)
+                for (int i = 0; i < current.Count; i++) safe.Add(current[i]);
+
+            int target = requested < MinPlayable ? MinPlayable : requested;
+            if (safe.Count > target) target = safe.Count;
+            HashSet<string> seen = ToSet(safe);
+            for (int i = 0; i < book.Count && safe.Count < target; i++)
+            {
+                string word = Normalize(book[i]);
+                if (word != null && seen.Add(word)) safe.Add(word);
+            }
+            return safe;
+        }
+
+        /// <summary>
         /// 从当前词书重建词池（唯一允许的补池来源）:
         ///   1. 本书已学词（本书 ∩ HaveLearnedDictionary），按玩家的排序设置排列；
         ///   2. 本书其余词，保持词书自身的学习顺序。

@@ -59,6 +59,11 @@ namespace WcpHost
             new HashSet<string>(StringComparer.Ordinal);
         private readonly HashSet<string> _onceMessages =
             new HashSet<string>(StringComparer.Ordinal);
+        // 第十七轮（2026-09-21）：Enforce 节流。稳态每帧都调一次代价在 30ms/s 量级，
+        // 词表字段在 Harmony 回调之间本来就不会被游戏改动，节流到 1s 无语义差异。
+        // EnforceNow()（由 Harmony patch 触发）立即执行并重置计时器。
+        private float _nextEnforce;
+        private const float EnforceInterval = 1.0f;
 
         internal HostRuntime(WcpHostPlugin plugin, BookRegistry registry,
                              ResourceRouter router, StrategyRegistry strategies)
@@ -162,8 +167,12 @@ namespace WcpHost
             {
                 EnsureServices();
                 TryBeginWordAudioMirror();
-                try { using (PerfProbe.Begin("运行态:队列校正")) _scope.Enforce(); }
-                catch (Exception e) { Warn("运行态队列校正失败: " + e.Message); }
+                if (Time.unscaledTime >= _nextEnforce)
+                {
+                    _nextEnforce = Time.unscaledTime + EnforceInterval;
+                    try { using (PerfProbe.Begin("运行态:队列校正")) _scope.Enforce(); }
+                    catch (Exception e) { Warn("运行态队列校正失败: " + e.Message); }
+                }
                 try { using (PerfProbe.Begin("运行态:书名扫描")) ScanBookLabelsThrottled(); }
                 catch (Exception e) { Warn("书名/UI 扫描失败: " + e.Message); }
                 try { using (PerfProbe.Begin("运行态:例句按钮")) _sentenceAudio.Tick(); }
@@ -181,6 +190,34 @@ namespace WcpHost
         {
             if (!IsActive || _sentenceAudio == null) return false;
             return _sentenceAudio.IsOwnedReadButton(instance);
+        }
+
+        // 小游戏（打怪听音选词、切水果等）的 AI 发音统一走 USgs 英语 ONNX
+        // TTS。受管语言下按词形路由 pack 音频: 命中则宿主播放并拦截英语
+        // TTS（返回 true = 已拦截），未命中放行保持游戏原生行为。
+        internal bool BlockEnglishWordTts(object instance, string text)
+        {
+            if (!IsActive || ActiveStrategy == null || instance == null) return false;
+            string displayed = string.IsNullOrEmpty(text) ? null : text.Trim();
+            if (string.IsNullOrEmpty(displayed)) return false;
+            string canonical = CurrentWord(displayed);
+            string lookup;
+            try { lookup = ActiveStrategy.AudioLookupForm(displayed, canonical); }
+            catch (Exception e)
+            {
+                Warn("策略音频词形失败: " + e.Message);
+                return false;
+            }
+            if (string.IsNullOrEmpty(lookup)) lookup = canonical;
+            string path = ResolveWordAudio(lookup);
+            if (string.IsNullOrEmpty(path))
+            {
+                ReportAudioMiss(displayed, lookup, canonical);
+                return false;
+            }
+            EnsureServices();
+            _audio.Play(path);
+            return true;
         }
 
         internal bool PrefixWordAudio(object instance)
@@ -341,6 +378,13 @@ namespace WcpHost
                 {
                     if (options[i] == null || words[i] == null) continue;
                     string display = ActiveStrategy.OptionDisplay(words[i].text, options[i].text);
+                    // 空选项兜底（2026-09-22）: 游戏生成非英语四选一时，
+                    // GetMeaning_S7 在共享英语库里查不到就写**空串**，空串会在
+                    // OptionDisplay 里被一路透传成 null，选项栏就是空的（小蜜蜂
+                    // 截图症状）。空显示时退回「选项词本身」—— 判定链用的是
+                    // wordNText，显示层怎么改都不影响对错，保证四行永远可读。
+                    if (string.IsNullOrEmpty(display) && string.IsNullOrEmpty(options[i].text))
+                        display = words[i].text;
                     if (display == null) continue;
                     options[i].text = display;
                     if (small[i] != null) small[i].text = display;
@@ -365,22 +409,61 @@ namespace WcpHost
                     StaticString("S9Option1_Para"), StaticString("S9Option2_Para"),
                     StaticString("S9Option3_Para"), StaticString("S9Option4_Para") };
                 string target = CurrentTestWord();
-                string meaning = null;
-                for (int i = 0; i < options.Count && i < optionWords.Length; i++)
-                {
-                    TMP_Text text = options[i] as TMP_Text;
-                    if (text != null && optionWords[i] == target) meaning = text.text;
-                }
+                string targetMeaning = null;
+
                 for (int i = 0; i < options.Count && i < optionWords.Length; i++)
                 {
                     TMP_Text text = options[i] as TMP_Text;
                     if (text == null || string.IsNullOrEmpty(optionWords[i])) continue;
-                    text.text = ActiveStrategy.OptionDisplay(optionWords[i], text.text);
+                    string def, phonic;
+                    string optDisplay = null;
+                    if (ActiveStrategy.ProvideMeaning(optionWords[i], out def, out phonic) && !string.IsNullOrEmpty(def))
+                    {
+                        optDisplay = def;
+                    }
+                    else
+                    {
+                        optDisplay = ActiveStrategy.OptionDisplay(optionWords[i], text.text);
+                    }
+                    // 同 S7: 游戏写空的选项（共享英语库查不到非英语词）不能留空，
+                    // 用选项词本身占位，判定链读的是 S9OptionN_Para 不受影响。
+                    if (string.IsNullOrEmpty(optDisplay) && string.IsNullOrEmpty(text.text))
+                        optDisplay = optionWords[i];
+                    if (optDisplay != null)
+                    {
+                        text.text = optDisplay;
+                        GameAdapter.SetInstanceField(instance, "meaning" + (i + 1), optDisplay);
+                    }
+                    if (optionWords[i] == target) targetMeaning = text.text;
                 }
                 if (!string.IsNullOrEmpty(target))
-                    SetQuestionStem(target, ActiveStrategy.StemDisplay(target, meaning));
+                    SetQuestionStem(target, ActiveStrategy.StemDisplay(target, targetMeaning));
             }
-            catch (Exception e) { Warn("已学词测试题面改写失败: " + e.Message); }
+            catch (Exception e) { Warn("自学词测试题面改写失败: " + e.Message); }
+        }
+
+        internal void PostShowWordAndMeaningS9(object instance)
+        {
+            if (!IsActive || ActiveStrategy == null || instance == null) return;
+            try
+            {
+                IList options = ToObjectList(GameAdapter.InstanceField(instance, "optionText"));
+                if (options == null) return;
+                string[] optionWords = new string[] {
+                    StaticString("S9Option1_Para"), StaticString("S9Option2_Para"),
+                    StaticString("S9Option3_Para"), StaticString("S9Option4_Para") };
+                for (int i = 0; i < options.Count && i < optionWords.Length; i++)
+                {
+                    TMP_Text text = options[i] as TMP_Text;
+                    if (text == null || string.IsNullOrEmpty(optionWords[i])) continue;
+                    string def, phonic;
+                    if (ActiveStrategy.ProvideMeaning(optionWords[i], out def, out phonic) && !string.IsNullOrEmpty(def))
+                    {
+                        text.text = optionWords[i] + "\n" + def;
+                    }
+                }
+            }
+            catch (Exception e) { Warn("自学词测试答案展示覆写失败: " + e.Message); }
         }
 
         internal void PostShowTheWord(object instance)
@@ -539,11 +622,39 @@ namespace WcpHost
             // 第十轮加标签：原来这里是裸调用，于是"被 Harmony 补丁触发的场景校正"
             // 与"每秒 Tick 里的队列校正"在日志里无法区分（后者有 运行态:队列校正）。
             // 分开之后才能回答"切书后那几秒的校正到底是谁在跑、跑了几次"。
+            // 第十七轮：顺带重置节流计时器，让 Tick 的 1s 窗口从这次校正起算。
             if (IsActive && ActiveStrategy != null)
+            {
+                _nextEnforce = Time.unscaledTime + EnforceInterval;
                 using (PerfProbe.Begin("运行态:场景校正")) _scope.Enforce();
+            }
         }
 
         // ── 战斗词池接管 ──
+        // 快速测试的六种排序入口共用这一条选词边界。游戏原方法从全局
+        // HaveLearnedDictionary 取词，法英同形词即使通过本书过滤仍会扎堆。
+        // 返回 false 后游戏仍负责保存列表、检查题数和进入原有场景。
+        internal bool PrefixQuickTest(int requested, string method, ref List<string> result)
+        {
+            if (!IsActive || ActiveStrategy == null) return true;
+            try
+            {
+                PoolOrder order = new PoolOrder();
+                order.Mode = method.IndexOf("Ran", StringComparison.Ordinal) >= 0 ? "随机" :
+                    method.IndexOf("Neg", StringComparison.Ordinal) >= 0 ? "倒序" : "正序";
+                order.PriorityOn = !method.EndsWith("Off", StringComparison.Ordinal);
+                result = BookPool.QuickTest(_activeWords, GameLearnedStats.FromGame(),
+                    order, requested, null);
+                return false;
+            }
+            catch (Exception e)
+            {
+                Warn("快速测试本书选词失败: " + e.Message);
+                result = new List<string>();
+                return false; // 受管词书失败时交给游戏的题数不足提示，绝不回退全局英语词。
+            }
+        }
+
         //
         // ChooseWordManager.AddWordsToSelfChosenList 是游戏唯一的补池入口:
         // 它从**全局** HaveLearnedDictionary 取词，补不满再塞 one..five 占位词。
@@ -560,6 +671,8 @@ namespace WcpHost
                 using (GameAdapter.Es3BatchScope())
                 {
                     List<string> rebuilt = _scope.RebuildPool("S7TestWordList_Para", list, requested);
+                    if (rebuilt == null)
+                        rebuilt = BookPool.FailClosedFightPool(list, _activeWords, requested);
                     if (rebuilt != null && !SameWords(list, rebuilt))
                     {
                         list = rebuilt;
@@ -573,8 +686,29 @@ namespace WcpHost
             }
             catch (Exception e)
             {
-                Warn("战斗词池接管失败: " + e.Message);
-                return true;
+                List<string> safe;
+                try { safe = BookPool.FailClosedFightPool(list, _activeWords, requested); }
+                catch (Exception fallbackError)
+                {
+                    safe = new List<string>();
+                    Warn("战斗词池本书兜底也失败，已阻止全局补词: " + fallbackError.Message);
+                }
+                list = safe;
+                try
+                {
+                    using (GameAdapter.Es3BatchScope())
+                    {
+                        GameAdapter.SetStaticField(GameAdapter.ParametersType, "S7TestWordList_Para", safe);
+                        GameAdapter.Es3Save("S7TestWordList_Para", safe);
+                    }
+                }
+                catch (Exception saveError)
+                {
+                    Warn("战斗词池兜底仅保存在内存，未能写回存档: " + saveError.Message);
+                }
+                Warn("战斗词池重建失败，已用当前词书兜底并阻止全局补词（" +
+                    (_activeProfileId ?? "unknown") + "): " + e.Message);
+                return false;
             }
         }
 

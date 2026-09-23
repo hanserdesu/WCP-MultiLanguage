@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "updated": "2026-09-16 17:59:21",
+  "updated": "2026-09-23 00:35:12",
   "mods": {
     "id": "wcp-mods",
-    "version": "wcp-mods-v1.3.0",
+    "version": "wcp-mods-v1.3.1",
     "repo": "hanserdesu/WCP-MultiLanguage",
     "assets": [
       {
         "kind": "mod",
         "name": "wcp-mods-payload.zip",
-        "size": 492958,
-        "sha256": "93a5653f5404d7232879e9a668baf0c9fb49007b411778dff628851f24df926f",
-        "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-mods-v1.3.0/wcp-mods-payload.zip"
+        "size": 570782,
+        "sha256": "d5b8697e109063c336adb6db644c48205945600d7b8184267e15f1c82a2efec2",
+        "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-mods-v1.3.1/wcp-mods-payload.zip"
       }
     ]
   },
@@ -22,8 +22,8 @@
       "language": "ja",
       "display_name": "日语词库(猫条版)",
       "repo": "hanserdesu/japanese",
-      "release_tag": "wcp-jp-resources-v1.0.0",
-      "version": "wcp-jp-resources-v1.0.0",
+      "release_tag": "wcp-jp-resources-v1.1.1",
+      "version": "wcp-jp-resources-v1.1.1",
       "word_count": 7922,
       "fingerprint_sha256": "6d7a51c0c5d30dd63d8a6e3412bce1cf2419554fb8487cf5c8a205e43ac41663",
       "es3_prefix": "ja",
@@ -48,9 +48,9 @@
         {
           "kind": "pack",
           "name": "wcp-ja-core.zip",
-          "size": 3851638,
-          "sha256": "d9a1960c7fbe05692dabaf21de44000be33f5cbe2eeef5f4b124383eaa5d672e",
-          "url": "https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.0.0/wcp-ja-core.zip"
+          "size": 3833619,
+          "sha256": "ea302c0f5a9c37f7b8ec15c55f86b858d61708f701216ac307758d02d45e593c",
+          "url": "https://github.com/hanserdesu/japanese/releases/download/wcp-jp-resources-v1.1.1/wcp-ja-core.zip"
         },
         {
           "kind": "slot_manifest",
@@ -206,8 +206,8 @@
       "language": "yue",
       "display_name": "粤语词库(猫条版)",
       "repo": "hanserdesu/WCP-MultiLanguage",
-      "release_tag": "wcp-yue-resources-v1.0.0",
-      "version": "wcp-yue-resources-v1.0.0",
+      "release_tag": "wcp-yue-resources-v1.0.1",
+      "version": "wcp-yue-resources-v1.0.1",
       "word_count": 384,
       "fingerprint_sha256": "0748ca590e7caf6c2d11e5062ee381e2a3e1ac84f943c561a4fed94568f0cb9e",
       "es3_prefix": "yue",
@@ -232,9 +232,9 @@
         {
           "kind": "pack",
           "name": "wcp-yue-core.zip",
-          "size": 147296,
-          "sha256": "652fc61e2cc25320ccf6f32a384b6c4c30a384d83a5645573b0bc54e8014221b",
-          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-yue-resources-v1.0.0/wcp-yue-core.zip"
+          "size": 200195,
+          "sha256": "a21da2d58dbdc5dcb67480a3ab6af4f004cc630b532bc73c3d77461cec4e7bf8",
+          "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-yue-resources-v1.0.1/wcp-yue-core.zip"
         },
         {
           "kind": "slot_manifest",

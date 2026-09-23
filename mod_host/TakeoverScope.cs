@@ -61,10 +61,17 @@ namespace WcpHost
             new FieldRule("S8TestWordList_ExtraReview_left", false, true, true, 0),
             new FieldRule("S8TestWordList_LearnedTest_left", false, true, true, 0),
             // 进度与用户选择: 只过滤
+            // 选词层隔离（2026-09-22）: 自由复习/自选测试的选词页渲染
+            // S9CurrentArray_Para，勾选结果写进 S9extraStudy_Para，而
+            // SwitchCurrentArrayS9.WordHaveLearned 把 S9CurrentArray_Para 换成
+            // **全局** HaveLearnedDictionary.Keys —— 英语旧词全部在里面，
+            // 只过滤候选表剔不干净同形词，所以候选表可从本书重建。
+            // 勾选结果是用户选择，只能过滤，不能补进用户没选的词。
+            // S9CurrentArray_Para 仍不落盘（原有边界: 它是场景态数组，游戏不读盘）。
+            new FieldRule("S9CurrentArray_Para", true, true, false, 0),
+            new FieldRule("S9extraStudy_Para", true, false, false, 0),
             new FieldRule("S8HaveLearnedWordList_Para", false, false, false, 0),
-            new FieldRule("S7_SelfChosenWord_List", false, false, false, 0),
-            new FieldRule("S9CurrentArray_Para", true, false, false, 0),
-            new FieldRule("S9extraStudy_Para", true, false, false, 0)
+            new FieldRule("S7_SelfChosenWord_List", false, false, false, 0)
         };
 
         /// <summary>
@@ -128,6 +135,11 @@ namespace WcpHost
             using (GameAdapter.Es3BatchScope())
             {
                 RestoreOwned(_manifest.Profile.Es3Prefix);
+            }
+            string[] s9Baseline;
+            if (_arrayBaselines.TryGetValue("S9CurrentArray_Para", out s9Baseline))
+            {
+                GameAdapter.SetStaticField(GameAdapter.ParametersType, "S9CurrentArray_Para", s9Baseline);
             }
             _listBaselines.Clear();
             _arrayBaselines.Clear();
@@ -224,7 +236,7 @@ namespace WcpHost
                 // 第十一轮（2026-09-18）加探针：实机切书帧 `运行态:队列校正` 单次
                 // 257.8ms，稳态每秒 ~34ms。批量的账（装载+提交）已经单独有标签，
                 // 但扣除批量之后剩下那部分一直没归属。这里的三个候选是
-                // BookPool.ToSet（8000+ 词的 HashSet 构建）、17 条规则的扫描/改写、
+                // BookPool.ToSet（8000+ 词的 HashSet 构建）、18 条规则的扫描/改写、
                 // 以及 AlignTestQueue。拆开才知道下一轮该动哪一个。
                 HashSet<string> allowed;
                 using (PerfProbe.Begin("队列:授权集")) allowed = BookPool.ToSet(_bookWords);
@@ -236,7 +248,7 @@ namespace WcpHost
                 PoolOrder order = ReadOrder();
                 using (PerfProbe.Begin("队列:规则"))
                 {
-                    // 第十四轮（2026-09-18）：一次 Enforce 内 12 条 Rebuild 规则共享
+                    // 第十四轮（2026-09-18）：一次 Enforce 内 14 条 Rebuild 规则共享
                     // 同一份「分区+排序」计划（原实现每条规则各跑一遍 8451 词的分区
                     // 与反射比较器排序，实机切换帧单次 642~706ms）；FilterOnly 也改用
                     // 上面建好的授权集，不再每条规则重建一遍 HashSet。生命周期 =
@@ -346,13 +358,33 @@ namespace WcpHost
             object raw = GameAdapter.StaticField(GameAdapter.ParametersType, rule.Name);
             string[] current = ToArray(raw);
             if (current == null || current.Length == 0) return;
-            List<string> filtered = BookPool.FilterOnly(current, allowed);
+            List<string> filtered;
+            if (rule.Rebuild)
+            {
+                // 选词层隔离（2026-09-22）: 数组词池与列表词池同一语义。
+                // 书里同形的英语旧词（HaveLearnedDictionary 全集）靠过滤剔不掉，
+                // 必须换来源: 发现外部词时从本书词池整体重建，规模对齐原数组。
+                // 已是本书词的数组不动 —— 保留玩家当前选词页的翻页位置与勾选。
+                bool foreign = ContainsForeign(current, allowed);
+                if (!foreign) return;
+                int target = current.Length;
+                if (target < rule.MinTarget) target = rule.MinTarget;
+                filtered = BookPool.Rebuild(_bookWords, StatsProvider == null ? null : StatsProvider(),
+                    ReadOrder(), rule.PreferLearned, target);
+                if (filtered == null || filtered.Count == 0) return;
+                if (filtered.Count > target) filtered.RemoveRange(target, filtered.Count - target);
+            }
+            else
+            {
+                filtered = BookPool.FilterOnly(current, allowed);
+            }
             if (filtered == null) return;
             if (Same(current, filtered)) return;
             if (!CaptureArray(rule.Name, current)) return;
             string[] value = filtered.ToArray();
             if (!GameAdapter.SetStaticField(GameAdapter.ParametersType, rule.Name, value)) return;
-            GameAdapter.Es3Save(rule.Name, value);
+            if (rule.Name != "S9CurrentArray_Para")
+                GameAdapter.Es3Save(rule.Name, value);
         }
 
         // 题干队列必须和测试词池的当前进度对齐。只在游戏已经进入已学词测试
@@ -434,6 +466,12 @@ namespace WcpHost
         {
             if (_ownedArrays.Contains(fieldName)) return true;
             string[] baseline = current == null ? new string[0] : (string[])current.Clone();
+            if (fieldName == "S9CurrentArray_Para")
+            {
+                _ownedArrays.Add(fieldName);
+                _arrayBaselines[fieldName] = baseline;
+                return true;
+            }
             if (!GameAdapter.Es3Save(Key("bak_" + fieldName), baseline)) return false;
             _ownedArrays.Add(fieldName);
             _capturedPrefixes.Add(_manifest.Profile.Es3Prefix);
@@ -484,8 +522,14 @@ namespace WcpHost
                 if (!IsKnownArrayField(field)) continue;
                 string[] baseline = null;
                 if (local) _arrayBaselines.TryGetValue(field, out baseline);
-                if (baseline == null) baseline = GameAdapter.Es3Load(prefix + "_bak_" + field,
-                    typeof(string[]), null, null) as string[];
+                if (baseline == null && field != "S9CurrentArray_Para")
+                    baseline = GameAdapter.Es3Load(prefix + "_bak_" + field,
+                        typeof(string[]), null, null) as string[];
+                if (field == "S9CurrentArray_Para")
+                {
+                    if (baseline != null) RestoreArray(field, baseline);
+                    continue;
+                }
                 if (baseline == null || !RestoreArray(field, baseline)) pendingArrays.Add(field);
             }
             if (restoredPool) MarkNoTestIfUnsafe();
@@ -522,6 +566,8 @@ namespace WcpHost
         {
             if (!GameAdapter.SetStaticField(GameAdapter.ParametersType, fieldName,
                 (string[])value.Clone())) return false;
+            if (fieldName == "S9CurrentArray_Para")
+                return true;
             return GameAdapter.Es3Save(fieldName, (string[])value.Clone());
         }
 

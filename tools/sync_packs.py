@@ -52,6 +52,27 @@ def collect(pack_dir):
 RUNTIME_FILES = ['manifest.json', 'db/meaning.sqlite', 'db/sentences.json', 'db/repair.tsv']
 
 
+def runtime_files(lang):
+    """宿主运行时读取的文件 + manifest 声明的策略程序集。
+
+    策略 DLL 编译在 hub 仓库、运行时从部署侧 packs 加载，但历史上没有链路
+    把它带过去（2026-09-22 发现部署侧 WcpPack.Ja.dll 落后仓库一个修复版本，
+    发音读音反查修复因此到不了游戏）。manifest 声明的 assembly 进部署名单，
+    随数据文件一起同步与校验；不写 assembly 的 pack 无额外文件。
+    """
+    files = list(RUNTIME_FILES)
+    manifest_path = os.path.join(HUB, 'packs', lang, 'manifest.json')
+    try:
+        with open(manifest_path, 'r', encoding='utf-8') as fh:
+            manifest = json.load(fh)
+        assembly = (manifest.get('strategy') or {}).get('assembly')
+        if assembly and assembly != '$host' and '/' not in assembly                 and SEP not in assembly:
+            files.append(assembly)
+    except (OSError, ValueError):
+        pass
+    return files
+
+
 def deployed_root():
     return os.path.join(os.path.expanduser('~'), 'AppData', 'LocalLow', 'WCP', 'packs')
 
@@ -66,7 +87,7 @@ def deployed_diff(only_lang=None):
         src = os.path.join(HUB, 'packs', lang)
         if not os.path.isdir(src):
             continue
-        for rel in RUNTIME_FILES:
+        for rel in runtime_files(lang):
             s = os.path.join(src, rel.replace('/', SEP))
             if not os.path.exists(s):
                 continue

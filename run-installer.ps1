@@ -21,7 +21,7 @@ param(
 $ErrorActionPreference = 'Stop'
 
 # 每次发布安装包时同步更新（由 打包安装器.py 维护），失败反馈里会带上这个版本号。
-$InstallerVersion = 'wcp-installer-v0.1.6'
+$InstallerVersion = 'wcp-installer-v0.1.7'
 $IssueBaseUrl = 'https://github.com/hanserdesu/WCP-MultiLanguage/issues/new'
 
 $version = $PSVersionTable.PSVersion.ToString()

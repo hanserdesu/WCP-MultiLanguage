@@ -74,6 +74,34 @@ namespace WcpHost
         }
 
         /// <summary>
+        /// Emergency battle queue when the normal host rebuild fails. Keep the current
+        /// book's entries in their existing order, then top up from that same book.
+        /// An unavailable book produces an empty queue; never yield to the game's
+        /// language-blind global dictionary or its English placeholders.
+        /// </summary>
+        internal static List<string> FailClosedFightPool(IList<string> current,
+                                                           IList<string> book, int requested)
+        {
+            List<string> safe = new List<string>();
+            if (book == null || book.Count == 0) return safe;
+
+            List<string> filtered = FilterOnly(current, book);
+            if (filtered != null) safe = filtered;
+            else if (current != null)
+                for (int i = 0; i < current.Count; i++) safe.Add(current[i]);
+
+            int target = requested < MinPlayable ? MinPlayable : requested;
+            if (safe.Count > target) target = safe.Count;
+            HashSet<string> seen = ToSet(safe);
+            for (int i = 0; i < book.Count && safe.Count < target; i++)
+            {
+                string word = Normalize(book[i]);
+                if (word != null && seen.Add(word)) safe.Add(word);
+            }
+            return safe;
+        }
+
+        /// <summary>
         /// 从当前词书重建词池（唯一允许的补池来源）:
         ///   1. 本书已学词（本书 ∩ HaveLearnedDictionary），按玩家的排序设置排列；
         ///   2. 本书其余词，保持词书自身的学习顺序。
@@ -110,6 +138,33 @@ namespace WcpHost
                 Append(result, unlearned, target);
                 Append(result, learned, target);
             }
+            return result;
+        }
+
+        // 快速测试不能从全局 HaveLearnedDictionary 取候选：法英同形词会把
+        // 20 道题几乎全部占满。只从本书词表抽样；全局统计只在选定候选
+        // 之后参与排序，不决定候选资格（游戏的已学词表也没有语言维度）。
+        internal static List<string> QuickTest(IList<string> book, ILearnedStats stats, PoolOrder order,
+                                               int requested, Random random)
+        {
+            if (book == null || book.Count == 0 || requested <= 0) return new List<string>();
+            HashSet<string> seen = new HashSet<string>(StringComparer.Ordinal);
+            List<string> result = new List<string>();
+            List<string> remaining = new List<string>();
+            for (int i = 0; i < book.Count; i++)
+            {
+                string word = Normalize(book[i]);
+                if (word != null && seen.Add(word)) remaining.Add(word);
+            }
+            if (random == null) random = new Random();
+            int need = Math.Min(requested, remaining.Count);
+            for (int i = 0; i < need; i++)
+            {
+                int j = random.Next(i, remaining.Count);
+                string swap = remaining[i]; remaining[i] = remaining[j]; remaining[j] = swap;
+                result.Add(remaining[i]);
+            }
+            if (result.Count > 1) SortBySetting(result, stats, order);
             return result;
         }
 

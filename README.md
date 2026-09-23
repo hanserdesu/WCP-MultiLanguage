@@ -5,8 +5,8 @@
 （manifest + 词库 + 数据库 + 音频），复用宿主通用策略；只有行为特殊的语言才需要自己的策略程序集。
 
 当前状态：统一接入架构全部交付落地。
-统一宿主（WcpHost）、20 个逻辑槽位（CustomSlotsMod）、语言物理隔离、Jev 全量双轴审计（9 语 100% 通过）与一键安装器（v0.1.6）已全量落地验证。
-注册表 / 槽位规则 / 接管范围 / 磁盘健康 / mod 物理自愈 / 自更新链 / 双击入口窗口保留 / 安装器测试 113/113 项全部通过；9 语部署包运行时与仓库逐字节一致。
+统一宿主（WcpHost 0.5.3）、20 个逻辑槽位（CustomSlotsMod）、语言物理隔离、Jev 全量双轴审计（9 语 100% 通过）与一键安装器（v0.1.7）已全量落地验证。
+注册表 / 槽位规则 / 接管范围 / 磁盘健康 / mod 物理自愈 / 自更新链 / 双击入口窗口保留 / 安装器测试 127/127 项全部通过；宿主注册并路由 9 语资源包。战斗语言隔离已通过离线回归，最新代码尚待实机复测。
 本仓库为所有语言唯一的单一事实源；集成版安装包与资源包统一由本仓库发布。
 
 ## 仓库结构
@@ -63,7 +63,7 @@
    本 mod 提供的 20 槽是 `CustomSlotsMod` 在前端维护的独立逻辑槽位（`WcpCustomSlots.json`），同一时刻最多只能将激活的词书物化入空闲的原生槽位，无法突破底层游戏引擎的并发物理槽位上限。
 
 2. 实机热切换与游戏引擎缓存：
-   虽然所有路由隔离、词池重构与 113 项离线单元测试均已全量通过，但游戏内部的单例状态机（`MyParameters` / `ChooseWordManager`）在跨场景时存在静态缓存。
+   虽然所有路由隔离、词池重构与 127 项安装器离线单元测试均已通过，但游戏内部的单例状态机（`MyParameters` / `ChooseWordManager`）在跨场景时存在静态缓存；最新战斗语言隔离改动还没有完成实机复测。
    为杜绝极端战斗场景下底层引擎未能即时释放上一本词书的音频句柄或纹理，建议在游戏主菜单界面进行词书选择，或在完成跨语言大幅切换后重新启动游戏。
 
 3. 语言处理策略分层：
@@ -102,7 +102,7 @@ cmd /c mod_host\tests\run_word_audio_compat_test.cmd
 # 槽位：20 槽行为规则测试
 powershell -File mod_custom_slots\tests\run_slot_rules_test.ps1
 
-# 安装器：离线单元测试（无网络、不写游戏目录，113 项全覆盖）
+# 安装器：离线单元测试（无网络、不写游戏目录，116 项全覆盖）
 powershell -File tests\test_hub.ps1
 
 # 安装器：自更新链回归（本地假 GitHub 回放 HTTP，不碰真实网络）
@@ -129,7 +129,7 @@ python tools\verify_integration.py
 
 | 词书 | 资源发布位置 | 当前 tag |
 |---|---|---|
-| `ja` | `hanserdesu/japanese`（日语本体保留在原仓库） | `wcp-jp-resources-v1.0.0` |
+| `ja` | `hanserdesu/japanese`（日语本体保留在原仓库） | `wcp-jp-resources-v1.1.1` |
 | `ar` | 本仓库 | `wcp-ar-resources-v1.1.0` |
 | `de` | 本仓库 | `wcp-de-resources-v1.1.1` |
 | `es` | 本仓库 | `wcp-es-resources-v1.1.0` |
@@ -137,9 +137,9 @@ python tools\verify_integration.py
 | `ko` | 本仓库 | `wcp-ko-resources-v1.1.2` |
 | `pt` | 本仓库 | `wcp-pt-resources-v1.1.0` |
 | `ru` | 本仓库 | `wcp-ru-resources-v1.1.0` |
-| `yue` | 本仓库 | `wcp-yue-resources-v1.0.0` |
+| `yue` | 本仓库 | `wcp-yue-resources-v1.0.1` |
 
-一键安装器最新版本为 `wcp-installer-v0.1.6`，支持自动通过 GitHub 发现资源、选择性安装、峰值空间预检、差异化更新、词书磁盘健康核对与 mod 物理健康自愈。版本索引 `release-index.json` 同时放在仓库根目录（raw 可直读）与 `wcp-mods-*` release 资产上：仓库根副本不消耗 GitHub API 配额，release 资产副本供 API 通道与自更新解耦发布使用。启动器检测到新版本时提示用户确认升级；v0.1.3 及更早版本的自更新链因缺少 `Accept: application/octet-stream` 而从未真正生效，这些用户需要手动下载一次 v0.1.4 或更新的安装包。
+一键安装器最新版本为 `wcp-installer-v0.1.7`，配套 mod 载荷为 `wcp-mods-v1.3.1`，支持自动通过 GitHub 发现资源、选择性安装、峰值空间预检、差异化更新、词书磁盘健康核对与 mod 物理健康自愈。版本索引 `release-index.json` 同时放在仓库根目录（raw 可直读）与 `wcp-mods-*` release 资产上：仓库根副本不消耗 GitHub API 配额，release 资产副本供 API 通道与自更新解耦发布使用。启动器检测到新版本时提示用户确认升级；v0.1.3 及更早版本的自更新链因缺少 `Accept: application/octet-stream` 而从未真正生效，这些用户需要手动下载一次 v0.1.4 或更新的安装包。
 
 每条 asset 都带 `url` / `size` / `sha256`（或 GitHub 的 sha256 digest），安装器直接按 `url` 下载并逐项校验。`disk.extract_mb` 是按 zip 内实际文件大小算出的解压占用，用于峰值磁盘检查。
 
@@ -160,6 +160,7 @@ python tools\verify_integration.py
 11. 2026-09-21 自更新链修复（v0.1.4）：实测发现索引下载走 GitHub API 资产地址却未声明 `Accept: application/octet-stream`，拿到的是资产元数据 JSON（1506 字节）而非索引本体（501 字节），`installer_version` 解析不出，自更新检查一直静默判定为「已是最新」；同时本机对 `api.github.com` 的未认证请求已返回 403，整条链不可达。修复为三条通道依次取用（仓库根 raw 索引 → release 资产接口带 Accept 头 → 资产下载地址），并新增本地假 GitHub 驱动的自更新回归测试（含复现修复前行为的反向对照）。离线测试由 99 项扩至 103 项，正式发布 `wcp-installer-v0.1.4`。
 12. 2026-09-21 双击入口窗口保留修复（v0.1.5）：玩家反馈双击入口跑完自动退出、来不及看状态。定位到 `tools/release/build_installer.py` 打包时另写了一份两行 `一键安装词书.cmd`，覆盖了仓库根那份带 `--keep-open` 自重启的入口，那份既没有保持窗口的机制，包里也漏了 `更新词书资源.cmd`。改为打包直接收录仓库根两个入口（单一事实源），两个入口统一经 `run-installer.ps1` 启动（版本注入 + 错误链），`更新词书资源.cmd` 通过 `-Update` 转发；启动器只在 `WCP_KEEP_OPEN=1` 时才承诺窗口保留。新增桩包行为回归（含复现修复前闪退的反向对照）。离线测试由 103 项扩至 113 项，正式发布 `wcp-installer-v0.1.5`。
 13. 2026-09-21 许可范围按当前资源重新核定：资源已由本项目自行再生成，据实收敛为两层——代码保留 PolyForm Noncommercial 1.0.0，内容由 CC BY-NC-SA 4.0 改为 CC BY-NC 4.0（去掉相同方式共享，方便其他自定义词书直接取用）；第三方词典派生数值不再单列为第三层授权，改为内容章节内的上游署名。同时更正上游许可记录（EDRDG 与 Lexique 现行为 CC BY-SA 4.0）、补上此前遗漏的日语上游来源（OpenJLPT、Kaishi 1.5k zh-CN、Bluskyo/JLPT_Vocabulary、Jisho 接口），并核销阿拉伯语词库的 ECDICT 例外：逐条比对 8118 条释义，与 ECDICT 条目文本无一相同，该例外已不存在。
+14. 2026-09-23 战斗语言隔离与多语言发布更新：快速测试与战斗候选词统一限制在当前激活词书，避免全局统计池把英语词混入法语等语言；新增 TTS 入口按当前词书查找单词音频，命中词条但缺音频时阻止英语语音回退。安装器回归 127/127、宿主接管与注册表测试通过，日语与粤语核心资源包已按当前源码重建；最新改动尚待实机战斗复测。同步发布 `wcp-mods-v1.3.1`、`wcp-installer-v0.1.7`、`wcp-yue-resources-v1.0.1` 与 `wcp-jp-resources-v1.1.1`。
 
 ## 许可
 

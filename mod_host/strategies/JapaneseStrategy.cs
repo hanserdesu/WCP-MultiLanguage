@@ -25,6 +25,8 @@ namespace WcpPack.Ja
 
         private readonly Dictionary<string, PronRecord> _pron =
             new Dictionary<string, PronRecord>(StringComparer.Ordinal);
+        private readonly Dictionary<string, List<string>> _readings =
+            new Dictionary<string, List<string>>(StringComparer.Ordinal);
         private StrategyContext _context;
         private bool _pronLoadAttempted;
         private string _pronLoadError;
@@ -42,6 +44,7 @@ namespace WcpPack.Ja
                 throw new InvalidOperationException("日语策略收到其它语言 pack: " + context.Language);
             _context = context;
             _pron.Clear();
+            _readings.Clear();
             _pronLoadAttempted = false;
             _pronLoadError = null;
         }
@@ -90,6 +93,13 @@ namespace WcpPack.Ja
                 string reading = ReadingOf(EnrichedEntry(canonicalWord, null));
                 if (string.Equals(reading, shown, StringComparison.Ordinal))
                     return canonicalWord;
+                // 浏览页（自由复习等）显示的词不一定等于队列指针词：显示形可以是任意词条的读音（如ながい = 長い），而指针词可能是另一条。用读音→词形反查索引把假名显示形还原成音频按词形命名的查词形；同音多形用 pack 音频存在性择优。
+                List<string> candidates = ReadingCandidates(shown);
+                if (candidates != null)
+                {
+                    string best = PickReadableForm(candidates);
+                    if (!string.IsNullOrEmpty(best)) return best;
+                }
             }
             return displayedForm;
         }
@@ -133,6 +143,70 @@ namespace WcpPack.Ja
             return null;
         }
 
+        private void IndexReadings(string word, PronRecord row)
+        {
+            if (string.IsNullOrEmpty(word) || row == null) return;
+            string viaUk = NormalizePhonic(row.UkPhonic);
+            string viaUs = NormalizePhonic(row.UsPhonic);
+            string viaMarker = ReadingOf(row.Meaning);
+            if (string.Equals(viaUs, viaUk, StringComparison.Ordinal)) viaUs = null;
+            if (string.Equals(viaMarker, viaUk, StringComparison.Ordinal) ||
+                string.Equals(viaMarker, viaUs, StringComparison.Ordinal)) viaMarker = null;
+            AddReading(word, viaUk);
+            AddReading(word, viaUs);
+            AddReading(word, viaMarker);
+        }
+
+        private void AddReading(string word, string reading)
+        {
+            if (string.IsNullOrEmpty(reading) || !IsKanaOnly(reading)) return;
+            if (string.Equals(reading, word, StringComparison.Ordinal)) return;
+            List<string> bucket;
+            if (!_readings.TryGetValue(reading, out bucket))
+            {
+                bucket = new List<string>();
+                _readings[reading] = bucket;
+            }
+            if (!bucket.Contains(word)) bucket.Add(word);
+        }
+
+        private List<string> ReadingCandidates(string reading)
+        {
+            EnsurePronLoaded();
+            if (_readings.Count == 0 || string.IsNullOrEmpty(reading)) return null;
+            List<string> bucket;
+            return _readings.TryGetValue(reading, out bucket) ? bucket : null;
+        }
+
+        private string PickReadableForm(List<string> candidates)
+        {
+            if (candidates == null || candidates.Count == 0) return null;
+            if (candidates.Count == 1) return candidates[0];
+            // 同音多形：有 pack 音频的词形优先（宿主按返回词形直接播放），
+            // 都没有音频时按收录序返回第一个，保持确定性。
+            for (int i = 0; i < candidates.Count; i++)
+            {
+                string form = candidates[i];
+                if (HasPackAudio(form)) return form;
+            }
+            return candidates[0];
+        }
+
+        private bool HasPackAudio(string form)
+        {
+            if (string.IsNullOrEmpty(form) || _context == null ||
+                string.IsNullOrEmpty(_context.WordAudioDir)) return false;
+            try
+            {
+                return File.Exists(Path.Combine(_context.WordAudioDir, form + ".mp3")) ||
+                       File.Exists(Path.Combine(_context.WordAudioDir, form + ".wav"));
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
         private void EnsurePronLoaded()
         {
             if (_pronLoadAttempted) return;
@@ -161,6 +235,7 @@ namespace WcpPack.Ja
                                     UsPhonic = ReadText(reader, 2),
                                     Meaning = ReadText(reader, 3)
                                 };
+                                IndexReadings(word, _pron[word]);
                             }
                         }
                     }
@@ -171,6 +246,7 @@ namespace WcpPack.Ja
                 // A missing/corrupt pack is a strategy miss, never a reason to
                 // fall back to the shared game database or another language.
                 _pron.Clear();
+                _readings.Clear();
                 _pronLoadError = e.GetType().FullName + ": " + e.Message;
             }
         }

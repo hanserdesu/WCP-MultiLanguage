@@ -176,6 +176,13 @@ internal static class TakeoverScopeTest
             new List<string> { "russian1" }, 5);
         Check(rebuilt != null && rebuilt.Count >= 5 && NoForeign(rebuilt, SixBook()),
             "补池入口（AddWordsToSelfChosenList）只从本书重建");
+        string[] fallbackBook = { "bonjour", "salut", "merci", "case", "livre" };
+        var fallbackPool = BookPool.FailClosedFightPool(
+            new List<string> { "english", "bonjour" }, fallbackBook, 5);
+        Check(fallbackPool.Count == 5 && NoForeign(fallbackPool, fallbackBook),
+            "战斗重建异常时仅从当前词书过滤并补池");
+        Check(BookPool.FailClosedFightPool(new List<string> { "english" }, null, 5).Count == 0,
+            "当前词书不可用时清空战斗池且不回退全局词典");
         Check(scope.RebuildPool("S8HaveLearnedWordList_Para",
             new List<string> { "english" }, 5) == null, "进度字段不参与补池");
 

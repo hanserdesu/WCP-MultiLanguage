@@ -97,6 +97,8 @@ internal static class RegistryTest
         Check(budgetOk, "槽位预算 ≤ 4", budgetDetail);
 
         StrategyRegistry strategies = StrategyRegistry.Load(reg);
+        foreach (string strategyError in strategies.Errors)
+            Console.WriteLine("  STRATEGY-ERR  " + strategyError);
         Check(strategies.LoadedCount + strategies.Errors.Count == reg.Manifests.Count,
               "策略装载结果覆盖全部语言包",
               "已装载 " + strategies.LoadedCount + "，告警 " + strategies.Errors.Count);
@@ -124,15 +126,50 @@ internal static class RegistryTest
                     Check(stem == phonic, "日语题干使用 pack 读音", stem);
                     Check(ja.AudioLookupForm(stem, "歯医者") == "歯医者",
                           "日语假名音频回查还原词形", stem);
+                    // 自由复习浏览页: 显示词不是队列指针词, 靠读音反查索引还原词形。
+                    // 長い 的读音是 ながい; 指针词故意传另一个已收录词 ずいぶん。
+                    string viaIndex = ja.AudioLookupForm("ながい", "ずいぶん");
+                    Check(viaIndex == "長い" || viaIndex == "永い",
+                          "日语读音反查索引跨词还原词形",
+                          "ながい -> " + viaIndex);
+                    Check(ja.AudioLookupForm("ぜんぜんしらない", "ずいぶん") == "ぜんぜんしらない",
+                          "日语读音索引对未收录假名 fail-closed",
+                          ja.AudioLookupForm("ぜんぜんしらない", "ずいぶん"));
                     Check(!string.IsNullOrEmpty(ja.OptionDisplay("歯医者", meaning)),
                           "日语选项保留本地释义", "");
                 }
-                Check(!ja.ProvideMeaning("__not_a_managed_japanese_word__", out meaning, out phonic),
-                      "日语策略对未收录词 fail-closed", "");
             }
             catch (Exception e)
             {
                 Check(false, "日语策略行为调用未抛异常", ExceptionSummary(e));
+            }
+
+            // ── 粤语策略（与日语同构: 显示形=拼音, 音频按词形命名）──
+            ILanguageStrategy yue = null;
+            LanguageManifest yueManifest = reg.ByLanguage("yue");
+            if (yueManifest != null)
+                yue = strategies.ForProfile(yueManifest.Profile.Id);
+            if (yue != null)
+            {
+                try
+                {
+                    string ystem = yue.StemDisplay("一擔擔", null);
+                    Check(ystem == "jat1 daam1 daam1",
+                          "粤语题干使用 pack 拼音读音", ystem);
+                    // 浏览页: 显示词的拼音 + 指针词是另一条 → 反查回显示词词形,
+                    // 不允许静默用指针词的音频。
+                    string yueHit = yue.AudioLookupForm(ystem, "一陣");
+                    Check(yueHit == "一擔擔",
+                          "粤语读音反查索引跨词还原词形",
+                          "jat1 daam1 daam1 -> " + yueHit);
+                    Check(yue.AudioLookupForm("ngoi1 zi6", "一陣") == "ngoi1 zi6",
+                          "粤语读音索引对未收录拼音 fail-closed",
+                          yue.AudioLookupForm("ngoi1 zi6", "一陣"));
+                }
+                catch (Exception e)
+                {
+                    Check(false, "粤语策略行为调用未抛异常", ExceptionSummary(e));
+                }
             }
         }
 

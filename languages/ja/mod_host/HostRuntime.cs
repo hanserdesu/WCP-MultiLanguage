@@ -426,6 +426,8 @@ namespace WcpHost
             try
             {
                 List<string> rebuilt = _scope.RebuildPool("S7TestWordList_Para", list, requested);
+                if (rebuilt == null)
+                    rebuilt = BookPool.FailClosedFightPool(list, _activeWords, requested);
                 if (rebuilt != null && !SameWords(list, rebuilt))
                 {
                     list = rebuilt;
@@ -438,8 +440,26 @@ namespace WcpHost
             }
             catch (Exception e)
             {
-                Warn("战斗词池接管失败: " + e.Message);
-                return true;
+                List<string> safe;
+                try { safe = BookPool.FailClosedFightPool(list, _activeWords, requested); }
+                catch (Exception fallbackError)
+                {
+                    safe = new List<string>();
+                    Warn("战斗词池本书兜底也失败，已阻止全局补词: " + fallbackError.Message);
+                }
+                list = safe;
+                try
+                {
+                    GameAdapter.SetStaticField("MyParameters", "S7TestWordList_Para", safe);
+                    GameAdapter.Es3Save("S7TestWordList_Para", safe);
+                }
+                catch (Exception saveError)
+                {
+                    Warn("战斗词池兜底仅保存在内存，未能写回存档: " + saveError.Message);
+                }
+                Warn("战斗词池重建失败，已用当前词书兜底并阻止全局补词（" +
+                    (_activeProfileId ?? "unknown") + "): " + e.Message);
+                return false;
             }
         }
 

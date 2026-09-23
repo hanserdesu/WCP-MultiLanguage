@@ -66,14 +66,14 @@ namespace WcpHost
 
         public string StemDisplay(string canonicalWord, string meaning)
         {
-            if (string.IsNullOrEmpty(canonicalWord)) return canonicalWord;
-            string entry = EnrichedEntry(canonicalWord, meaning);
-            string reading = ReadingOf(entry);
-            return string.IsNullOrEmpty(reading) ? canonicalWord : reading;
+            return canonicalWord;
         }
 
         public string OptionDisplay(string canonicalWord, string meaning)
         {
+            string packDef, p;
+            if (!string.IsNullOrEmpty(canonicalWord) && ProvideMeaning(canonicalWord, out packDef, out p) && !string.IsNullOrEmpty(packDef))
+                return packDef;
             if (string.IsNullOrEmpty(meaning)) return meaning;
             string entry = EnrichedEntry(canonicalWord, meaning);
             string rest = StripReading(entry);
