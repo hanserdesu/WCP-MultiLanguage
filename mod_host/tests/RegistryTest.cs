@@ -206,6 +206,36 @@ internal static class RegistryTest
         string text = File.ReadAllText(es3, Encoding.UTF8).TrimStart('\uFEFF');
         Dictionary<string, object> root = Json.AsDict(Json.Parse(text));
 
+        List<string> recoverSlot = null;
+        for (int slot = 1; slot <= 4 && recoverSlot == null; slot++)
+        {
+            List<string> candidate = Json.StrList(Json.Sub(root, "SelfBookList" + slot), "value");
+            if (reg.Match(candidate) != null) recoverSlot = candidate;
+        }
+        if (recoverSlot != null)
+        {
+            List<string> startup = new List<string> { "external-1", "external-2",
+                "external-3", "external-4", "external-5" };
+            List<string> oldQueue = new List<string> { "foreign-1", "foreign-2",
+                "foreign-3", "foreign-4" };
+            List<string> recovered = BattleBookRecovery.Resolve(reg, "自定义词书一",
+                "自定义词书一", startup, recoverSlot, recoverSlot, oldQueue);
+            Check(recovered != null && reg.Match(recovered) != null,
+                "战斗旧队列下仅凭存档与原生槽双指纹恢复词书", "");
+            Check(BattleBookRecovery.Resolve(reg, "自定义词书一", "自定义词书二",
+                startup, recoverSlot, recoverSlot, oldQueue) == null,
+                "切书中的书名失配不恢复", "");
+            Check(BattleBookRecovery.Resolve(reg, "自定义词书一", "自定义词书一",
+                startup, recoverSlot, startup, oldQueue) == null,
+                "原生槽指纹失配不恢复", "");
+            Check(BattleBookRecovery.Resolve(reg, "自定义词书一", "自定义词书一",
+                recoverSlot, recoverSlot, recoverSlot, oldQueue) == null,
+                "已识别的当前词书不被旧队列覆盖", "");
+            Check(BattleBookRecovery.Resolve(reg, "自定义词书一", "自定义词书一",
+                startup, recoverSlot, recoverSlot, startup) == null,
+                "当前队列属于内存词书时不恢复存档", "");
+        }
+
         Console.WriteLine("\n== 槽位回归（真实存档词表 -> Match） ==");
         int matched = 0, empty = 0;
         for (int slot = 1; slot <= 4; slot++)

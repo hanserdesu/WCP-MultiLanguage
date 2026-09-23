@@ -514,6 +514,19 @@ namespace WcpHost
                         typeof(string[]), null, null) as string[];
                     if (saved != null) baseline = new List<string>(saved);
                 }
+                if (baseline != null && field == "S7TestWordList_Para")
+                {
+                    IList<string> selected = GameAdapter.ToWordList(GameAdapter.StaticField(
+                        GameAdapter.ParametersType, "ChosenBook_List"));
+                    if (selected != null && selected.Count >= BookPool.MinPlayable &&
+                        ContainsForeign(baseline, BookPool.ToSet(selected)))
+                    {
+                        // The old baseline belongs to another book. Restoring it
+                        // recreates the cross-language fight queue on every exit.
+                        baseline = BookPool.FailClosedFightPool(baseline, selected,
+                            baseline.Count);
+                    }
+                }
                 if (baseline == null || !RestoreList(field, baseline)) pendingLists.Add(field);
                 else if (field == "allTestWordsS10_Para") restoredPool = true;
             }

@@ -404,6 +404,54 @@ namespace WcpHost
             }
         }
 
+        // S7 can resume a persisted queue before the game's in-memory book has
+        // caught up with its own saved selection. Repair only when both saved
+        // book and native slot fingerprint identify the same installed pack.
+        internal void RecoverBattleBookForScene()
+        {
+            if (_enabled == null || !_enabled.Value || _registry == null ||
+                _runtime == null || _runtime.IsActive)
+                return;
+            try
+            {
+                IList<string> memoryWords = GameAdapter.ToWordList(GameAdapter.StaticField(
+                    GameAdapter.ParametersType, "ChosenBook_List"));
+                if (memoryWords == null || _registry.Match(memoryWords) != null) return;
+                IList<string> fightWords = GameAdapter.ToWordList(GameAdapter.StaticField(
+                    GameAdapter.ParametersType, "S7TestWordList_Para"));
+                if (fightWords == null || fightWords.Count < 4) return;
+                HashSet<string> memorySet = BookPool.ToSet(memoryWords);
+                bool foreign = false;
+                for (int i = 0; i < fightWords.Count; i++)
+                    if (!memorySet.Contains(fightWords[i])) { foreign = true; break; }
+                if (!foreign) return;
+
+                string memoryName = GameAdapter.StaticField(GameAdapter.ParametersType,
+                    "ChosenBook_Para") as string;
+                string diskName = GameAdapter.DiskBookName();
+                int slot = GameAdapter.SlotOfBookName(memoryName);
+                if (slot <= 0) return;
+                IList<string> savedWords = GameAdapter.Es3Load("ChosenBook_List",
+                    typeof(List<string>), null, null) as IList<string>;
+                IList<string> slotWords = GameAdapter.SlotWords(slot);
+                List<string> recovered = BattleBookRecovery.Resolve(_registry, memoryName,
+                    diskName, memoryWords, savedWords, slotWords, fightWords);
+                if (recovered == null) return;
+                if (!GameAdapter.SetStaticField(GameAdapter.ParametersType,
+                    "ChosenBook_List", recovered)) return;
+                GameAdapter.SetStaticField(GameAdapter.ParametersType,
+                    "tem_ChosenBook_List", new List<string>(recovered));
+                Log.LogWarning("WcpHost: 战斗前恢复存档词书 " + memoryName +
+                    "（内存 " + memoryWords.Count + " 词，存档 " + recovered.Count +
+                    " 词）；随后按当前书校正旧战斗队列");
+                EnforceNowForScene();
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("WcpHost: 战斗前词书恢复失败: " + e.Message);
+            }
+        }
+
         // 身份判定：内存词表 / 内存书名 / 落盘书名 / 选中槽位词表四者一致，且指纹命中注册表，才激活。
         // 任一环节读不到或对不上 → 返回"未激活"。这条门是从现有插件的 fail-closed 门搬来的。
         private string Evaluate()

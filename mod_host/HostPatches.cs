@@ -86,7 +86,8 @@ namespace WcpHost
 
         private static void PatchDisplay(Harmony harmony)
         {
-            PatchOne(harmony, "MultipleChoiceGenerator", "GenerateOptions", null,
+            PatchOne(harmony, "MultipleChoiceGenerator", "GenerateOptions",
+                AccessTools.Method(typeof(HostPatches), "MultipleChoicePrefix"),
                 AccessTools.Method(typeof(HostPatches), "MultipleChoicePostfix"));
             PatchOne(harmony, "MultipleChoiceGeneratorS9", "GenerateOptions", null,
                 AccessTools.Method(typeof(HostPatches), "MultipleChoiceS9Postfix"));
@@ -186,6 +187,12 @@ namespace WcpHost
             WcpHostPlugin plugin = WcpHostPlugin.Instance;
             if (plugin != null && plugin.Runtime != null)
                 plugin.Runtime.PostMultipleChoice(__instance);
+        }
+
+        private static void MultipleChoicePrefix()
+        {
+            WcpHostPlugin plugin = WcpHostPlugin.Instance;
+            if (plugin != null) plugin.RecoverBattleBookForScene();
         }
 
         private static void MultipleChoiceS9Postfix(object __instance)

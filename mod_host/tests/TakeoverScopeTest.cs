@@ -353,6 +353,15 @@ internal static class TakeoverScopeTest
         Check(restored != null && restored.Count == 2 && restored[0] == "russian1",
             "离开词书后战斗词表还原为接管前内容");
 
+        scope = SetupBook();
+        GameAdapter.Fields["ChosenBook_List"] = new List<string>(SixBook());
+        GameAdapter.Fields["S7TestWordList_Para"] = new List<string> { "russian1", "b2" };
+        scope.Enforce(); scope.Leave();
+        restored = ReadPool("S7TestWordList_Para");
+        Check(restored != null && restored.Count >= BookPool.MinPlayable &&
+              NoForeign(restored, SixBook()),
+            "离开词书时旧语言战斗队列按当前书修复，不重新写回俄语");
+
         // ── 第八轮：ES3 整文件写风暴的批量化（2026-09-18）─────────────────────
         //
         // 背景：ES3 每次「不带路径的 Save」都是整档读+解析+序列化+写。默认存档

@@ -45,6 +45,7 @@ set REFS=/r:"%GAME%\BepInEx\core\BepInEx.dll" ^
  "%HERE%Core\ILanguageStrategy.cs" ^
  "%HERE%Core\StrategyContext.cs" ^
  "%HERE%Core\BookPool.cs" ^
+ "%HERE%Core\BattleBookRecovery.cs" ^
  "%HERE%Core\GameLearnedStats.cs" ^
  "%HERE%Core\SlotOwnership.cs" ^
  "%HERE%Core\GenericLanguageStrategy.cs" ^

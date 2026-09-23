@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "updated": "2026-09-23 00:35:12",
+  "updated": "2026-09-23 03:43:38",
   "mods": {
     "id": "wcp-mods",
-    "version": "wcp-mods-v1.3.1",
+    "version": "wcp-mods-v1.3.2",
     "repo": "hanserdesu/WCP-MultiLanguage",
     "assets": [
       {
         "kind": "mod",
         "name": "wcp-mods-payload.zip",
-        "size": 570782,
-        "sha256": "d5b8697e109063c336adb6db644c48205945600d7b8184267e15f1c82a2efec2",
-        "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-mods-v1.3.1/wcp-mods-payload.zip"
+        "size": 571806,
+        "sha256": "49e209ec98afe14d225cfb122357cd5b1e35a61c73052d55c5cd13bd44dceecc",
+        "url": "https://github.com/hanserdesu/WCP-MultiLanguage/releases/download/wcp-mods-v1.3.2/wcp-mods-payload.zip"
       }
     ]
   },
