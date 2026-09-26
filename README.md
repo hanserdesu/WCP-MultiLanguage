@@ -4,8 +4,8 @@
 语言资源物理隔离、互不读写；只有被选中的词书才由宿主激活。新增语言原则上只提供资源包
 （manifest + 词库 + 数据库 + 音频），复用宿主通用策略；只有行为特殊的语言才需要自己的策略程序集。
 
-当前发布：统一宿主（WcpHost 0.5.3）、20 个逻辑槽位（CustomSlotsMod）、语言物理隔离、Jev 词库审计与一键安装器（v0.1.9）。
-注册表 / 接管范围与安装器离线回归通过；宿主注册并路由 9 语资源包。安装器下载与解压会显示百分比和已处理字节数。本次修复了战斗开始时存档词书与内存词表不同步导致的旧语言队列和空选项；仅在存档词书与原生槽位指纹一致时恢复，再按当前词书重建队列。共享修复适用于 9 种受管语言，尚未逐语种完成实机战斗验收。详见[更新日志](CHANGELOG.md)。
+当前发布：统一宿主（WcpHost 0.5.3）、20 个逻辑槽位（CustomSlotsMod）、语言物理隔离、Jev 词库审计与一键安装器（v0.1.10）。
+注册表 / 接管范围与安装器离线回归通过；宿主注册并路由 9 语资源包。安装器下载与解压会显示百分比和已处理字节数。当前版本在战斗和水果关读取词表前，核对存档词书、原生槽位指纹和词书中心归属后恢复受管词书；战斗列表缓存逐词核对。受管词缺少包内音频时静音并记录日志，未知文本交还游戏处理。新安装默认关闭向原生共用目录镜像音频。共享修复适用于 9 种受管语言，尚未逐语种完成实机战斗验收。详见[更新日志](CHANGELOG.md)。
 本仓库是统一宿主与安装器的事实源；日语资源保留在 `hanserdesu/japanese`，其余语言资源由本仓库发布。
 
 ## 仓库结构
@@ -139,7 +139,7 @@ python tools\verify_integration.py
 | `ru` | 本仓库 | `wcp-ru-resources-v1.1.0` |
 | `yue` | 本仓库 | `wcp-yue-resources-v1.0.1` |
 
-一键安装器最新版本为 [`wcp-installer-v0.1.9`](https://github.com/hanserdesu/WCP-MultiLanguage/releases/tag/wcp-installer-v0.1.9)，mod 载荷为 [`wcp-mods-v1.3.2`](https://github.com/hanserdesu/WCP-MultiLanguage/releases/tag/wcp-mods-v1.3.2)。安装器包内的 `catalog.json` 已指向新宿主载荷；下载和 ZIP 解压过程中会显示百分比与已处理 / 总字节数。版本索引 `release-index.json` 放在仓库根目录（raw 主通道）和新 `wcp-mods-*` release 资产（API / CDN 回退通道）。启动器检测到新版本时提示用户确认升级；v0.1.3 及更早版本的自更新链因缺少 `Accept: application/octet-stream` 而从未真正生效，这些用户需要手动下载一次 v0.1.4 或更新的安装包。
+一键安装器最新版本为 [`wcp-installer-v0.1.10`](https://github.com/hanserdesu/WCP-MultiLanguage/releases/tag/wcp-installer-v0.1.10)，mod 载荷为 [`wcp-mods-v1.3.3`](https://github.com/hanserdesu/WCP-MultiLanguage/releases/tag/wcp-mods-v1.3.3)。安装器包内的 `catalog.json` 已指向新宿主载荷；下载和 ZIP 解压过程中会显示百分比与已处理 / 总字节数。版本索引 `release-index.json` 放在仓库根目录（raw 主通道）和新 `wcp-mods-*` release 资产（API / CDN 回退通道）。启动器检测到新版本时提示用户确认升级；v0.1.3 及更早版本的自更新链因缺少 `Accept: application/octet-stream` 而从未真正生效，这些用户需要手动下载一次 v0.1.4 或更新的安装包。
 
 每条 asset 都带 `url` / `size` / `sha256`（或 GitHub 的 sha256 digest），安装器直接按 `url` 下载并逐项校验。`disk.extract_mb` 是按 zip 内实际文件大小算出的解压占用，用于峰值磁盘检查。
 

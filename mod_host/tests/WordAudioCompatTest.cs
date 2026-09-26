@@ -14,6 +14,7 @@ internal static class WordAudioCompatTest
     private static int Main()
     {
         CandidateFormsBasics();
+        ManagedRequestBoundary();
         CandidateFormsDedup();
         StampRoundTrip();
         StampPrefixSkipsWithoutEnumeration();
@@ -36,6 +37,23 @@ internal static class WordAudioCompatTest
         for (int i = 0; i < forms.Length; i++)
             if (string.Equals(forms[i], value, StringComparison.Ordinal)) return true;
         return false;
+    }
+
+    private static void ManagedRequestBoundary()
+    {
+        HashSet<string> words = new HashSet<string>(StringComparer.Ordinal) { "bonjour", "歯医者" };
+        Check(WordAudioCompat.IsManagedRequest(words, "bonjour", null, null),
+            "当前词书词形由 pack 接管");
+        Check(WordAudioCompat.IsManagedRequest(words, "はいしゃ", "歯医者", "はいしゃ"),
+            "当前词的日语读音可由 pack 接管");
+        Check(!WordAudioCompat.IsManagedRequest(words, "unrelated", "歯医者", "はいしゃ"),
+            "无关文本不能借当前词指针接管发音");
+        Check(!WordAudioCompat.IsManagedRequest(words, "はいしゃ", "foreign", "はいしゃ"),
+            "书外词指针不能借合法读音接管发音");
+        Check(!WordAudioCompat.IsManagedRequest(words, "a whole sentence", null, null),
+            "句子留给原生流程");
+        Check(!WordAudioCompat.IsManagedRequest(null, "bonjour", null, null),
+            "未激活词书不接管发音");
     }
 
     private static void CandidateFormsBasics()

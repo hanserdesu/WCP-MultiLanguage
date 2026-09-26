@@ -87,7 +87,7 @@ namespace WcpHost
         private static void PatchDisplay(Harmony harmony)
         {
             PatchOne(harmony, "MultipleChoiceGenerator", "GenerateOptions",
-                AccessTools.Method(typeof(HostPatches), "MultipleChoicePrefix"),
+                AccessTools.Method(typeof(HostPatches), "RecoverBookPrefix"),
                 AccessTools.Method(typeof(HostPatches), "MultipleChoicePostfix"));
             PatchOne(harmony, "MultipleChoiceGeneratorS9", "GenerateOptions", null,
                 AccessTools.Method(typeof(HostPatches), "MultipleChoiceS9Postfix"));
@@ -146,6 +146,12 @@ namespace WcpHost
             // 战斗场景会从存档重新读一遍词表并缓存到 WithInfo; 读完之后再校正一次。
             PatchOne(harmony, "WordListManagerS7", "Start", null,
                 AccessTools.Method(typeof(HostPatches), "FightListScenePostfix"));
+            PatchOne(harmony, "WordListManagerS7", "Start",
+                AccessTools.Method(typeof(HostPatches), "RecoverBookPrefix"), null);
+            PatchOne(harmony, "S3ScoreShow", "Start",
+                AccessTools.Method(typeof(HostPatches), "RecoverBookPrefix"), null);
+            PatchOne(harmony, "S3ScoreShow", "Awake",
+                AccessTools.Method(typeof(HostPatches), "RecoverBookPrefix"), null);
         }
 
         private static void EnforcePrefix()
@@ -189,7 +195,7 @@ namespace WcpHost
                 plugin.Runtime.PostMultipleChoice(__instance);
         }
 
-        private static void MultipleChoicePrefix()
+        private static void RecoverBookPrefix()
         {
             WcpHostPlugin plugin = WcpHostPlugin.Instance;
             if (plugin != null) plugin.RecoverBattleBookForScene();

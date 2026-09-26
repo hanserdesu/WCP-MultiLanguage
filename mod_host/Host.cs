@@ -118,10 +118,10 @@ namespace WcpHost
             }
         }
 
-        // 兼容层开关：把 pack 单词音频补进游戏原生目录（配置缺失时视为开启）。
+        // 旧版兼容开关：显式开启时才把 pack 音频镜像进游戏共用目录。
         internal bool MirrorWordAudio
         {
-            get { return _mirrorWordAudio == null || _mirrorWordAudio.Value; }
+            get { return _mirrorWordAudio != null && _mirrorWordAudio.Value; }
         }
 
         private void Awake()
@@ -134,10 +134,9 @@ namespace WcpHost
             _packsRootOverride = Config.Bind("General", "PacksRoot", "",
                 "语言包根目录。留空 = <persistentDataPath 的父目录>/packs，" +
                 "即 %USERPROFILE%\\AppData\\LocalLow\\WCP\\packs");
-            _mirrorWordAudio = Config.Bind("Compatibility", "MirrorWordAudio", true,
-                "把当前语言包的单词音频补进游戏原生目录（…\\LocalLow\\WCP\\vocabulary）。" +
-                "游戏的播放器只认那个目录：宿主未接管（读档中/未激活）时，若该目录为空，" +
-                "发音会静默回退成游戏的英语 AI 语音。只补缺、分批复制、可在装好后关闭。");
+            _mirrorWordAudio = Config.Bind("Compatibility", "MirrorWordAudio", false,
+                "旧版兼容开关：将当前语言包音频复制到游戏共用的 vocabulary 目录。" +
+                "默认关闭以隔离各语言和原生目录；仅确需旧版播放器兼容时手动开启。");
             _requireSlotOwnership = Config.Bind("Compatibility", "RequireSlotOwnership", true,
                 "服务边界强约束：词书必须在 20 槽存档（WcpCustomSlots.json）里登记为" +
                 "托管行或原生镜像行，宿主才提供服务。存档缺失（未装自定义槽位插件）时按" +
@@ -404,7 +403,7 @@ namespace WcpHost
             }
         }
 
-        // S7 can resume a persisted queue before the game's in-memory book has
+        // A mini-game can consume its queue before the game's in-memory book has
         // caught up with its own saved selection. Repair only when both saved
         // book and native slot fingerprint identify the same installed pack.
         internal void RecoverBattleBookForScene()
@@ -416,27 +415,34 @@ namespace WcpHost
             {
                 IList<string> memoryWords = GameAdapter.ToWordList(GameAdapter.StaticField(
                     GameAdapter.ParametersType, "ChosenBook_List"));
-                if (memoryWords == null || _registry.Match(memoryWords) != null) return;
-                IList<string> fightWords = GameAdapter.ToWordList(GameAdapter.StaticField(
-                    GameAdapter.ParametersType, "S7TestWordList_Para"));
-                if (fightWords == null || fightWords.Count < 4) return;
-                HashSet<string> memorySet = BookPool.ToSet(memoryWords);
-                bool foreign = false;
-                for (int i = 0; i < fightWords.Count; i++)
-                    if (!memorySet.Contains(fightWords[i])) { foreign = true; break; }
-                if (!foreign) return;
-
+                if (memoryWords == null) return;
+                BookProfile memoryProfile;
+                if (!_memMemo.TryHit(_registry, memoryWords, out memoryProfile))
+                {
+                    memoryProfile = _registry.Match(memoryWords);
+                    _memMemo.Store(_registry, memoryWords, memoryProfile);
+                }
+                if (memoryProfile != null) return;
                 string memoryName = GameAdapter.StaticField(GameAdapter.ParametersType,
                     "ChosenBook_Para") as string;
                 string diskName = GameAdapter.DiskBookName();
                 int slot = GameAdapter.SlotOfBookName(memoryName);
                 if (slot <= 0) return;
+                bool slotCached;
+                if (GameAdapter.SlotProfile(slot, _registry, out slotCached) == null) return;
                 IList<string> savedWords = GameAdapter.Es3Load("ChosenBook_List",
                     typeof(List<string>), null, null) as IList<string>;
                 IList<string> slotWords = GameAdapter.SlotWords(slot);
                 List<string> recovered = BattleBookRecovery.Resolve(_registry, memoryName,
-                    diskName, memoryWords, savedWords, slotWords, fightWords);
+                    diskName, memoryWords, savedWords, slotWords);
                 if (recovered == null) return;
+                BookProfile profile = _registry.Match(recovered);
+                if (profile == null) return;
+                if (_requireSlotOwnership != null && _requireSlotOwnership.Value && _slotOwnership != null)
+                {
+                    string ownershipReason;
+                    if (!_slotOwnership.IsServed(profile.Fingerprint, out ownershipReason)) return;
+                }
                 if (!GameAdapter.SetStaticField(GameAdapter.ParametersType,
                     "ChosenBook_List", recovered)) return;
                 GameAdapter.SetStaticField(GameAdapter.ParametersType,

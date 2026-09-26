@@ -49,6 +49,7 @@ namespace WcpHost
         private bool _sentenceTableReported;
         private HostAudioPlayer _audio;
         private IList<string> _activeWords;
+        private HashSet<string> _activeWordSet;
         private string _activeProfileId;
         private bool _leftOnce;
         private bool _staleRecoveryAttempted;
@@ -113,6 +114,7 @@ namespace WcpHost
             LeaveCurrent();
             _activeProfileId = next;
             _activeWords = words == null ? null : new List<string>(words);
+            _activeWordSet = words == null ? null : BookPool.ToSet(words);
             _mirrorAttempted = false;
             if (manifest == null || words == null || words.Count == 0)
             {
@@ -156,6 +158,7 @@ namespace WcpHost
             LeaveCurrent();
             _activeProfileId = null;
             _activeWords = null;
+            _activeWordSet = null;
             _router.SetActive(null);
             _staleRecoveryAttempted = true;
         }
@@ -194,26 +197,36 @@ namespace WcpHost
 
         // 小游戏（打怪听音选词、切水果等）的 AI 发音统一走 USgs 英语 ONNX
         // TTS。受管语言下按词形路由 pack 音频: 命中则宿主播放并拦截英语
-        // TTS（返回 true = 已拦截），未命中放行保持游戏原生行为。
+        // TTS（返回 true = 已拦截）。受管词缺音频时静音，未知文本留给游戏。
         internal bool BlockEnglishWordTts(object instance, string text)
         {
             if (!IsActive || ActiveStrategy == null || instance == null) return false;
             string displayed = string.IsNullOrEmpty(text) ? null : text.Trim();
             if (string.IsNullOrEmpty(displayed)) return false;
             string canonical = CurrentWord(displayed);
+            string currentStem = null;
+            if (_activeWordSet != null && !string.IsNullOrEmpty(canonical) &&
+                _activeWordSet.Contains(canonical) && !_activeWordSet.Contains(displayed))
+            {
+                try { currentStem = ActiveStrategy.StemDisplay(canonical, null); }
+                catch (Exception e) { Warn("策略题干词形失败: " + e.Message); }
+            }
+            if (!WordAudioCompat.IsManagedRequest(_activeWordSet, displayed,
+                                                   canonical, currentStem))
+                return false;
             string lookup;
             try { lookup = ActiveStrategy.AudioLookupForm(displayed, canonical); }
             catch (Exception e)
             {
                 Warn("策略音频词形失败: " + e.Message);
-                return false;
+                return true;
             }
             if (string.IsNullOrEmpty(lookup)) lookup = canonical;
             string path = ResolveWordAudio(lookup);
             if (string.IsNullOrEmpty(path))
             {
                 ReportAudioMiss(displayed, lookup, canonical);
-                return false;
+                return true;
             }
             EnsureServices();
             _audio.Play(path);
@@ -225,28 +238,7 @@ namespace WcpHost
             if (!IsActive || ActiveStrategy == null || instance == null) return true;
             TMP_Text text = GameAdapter.InstanceField(instance, "text1") as TMP_Text;
             if (text == null || string.IsNullOrEmpty(text.text)) return true;
-            string displayed = text.text.Trim();
-            string canonical = CurrentWord(displayed);
-            string lookup;
-            try { lookup = ActiveStrategy.AudioLookupForm(displayed, canonical); }
-            catch (Exception e)
-            {
-                Warn("策略音频词形失败: " + e.Message);
-                return true;
-            }
-            if (string.IsNullOrEmpty(lookup)) lookup = canonical;
-            string path = ResolveWordAudio(lookup);
-            if (string.IsNullOrEmpty(path))
-            {
-                // 不接住这次播放：放行给游戏自己的 VocabularyAudioPlayer。
-                // 兼容层（TryBeginWordAudioMirror）已把 pack 音频补进游戏原生
-                // 目录，因此放行后通常仍能听到本地发音而不是英语 AI 语音。
-                ReportAudioMiss(displayed, lookup, canonical);
-                return true;
-            }
-            EnsureServices();
-            _audio.Play(path);
-            return false;
+            return !BlockEnglishWordTts(instance, text.text);
         }
 
         // 精确词形优先；未命中再按写法差异候选重试（全角/半角、大小写、
@@ -281,7 +273,7 @@ namespace WcpHost
             if (string.IsNullOrEmpty(shown)) shown = "<空>";
             if (_audioMissReported.Count < 20 && _audioMissReported.Add(shown))
             {
-                Warn("单词音频未命中 pack（放行游戏原生目录）: 显示=" + displayed +
+                Warn("受管词单词音频未命中 pack（已阻止原生英语回退）: 显示=" + displayed +
                      " 查词=" + shown + " 词表=" + (canonical == null ? "<无>" : canonical));
             }
             else if (_audioMissTotal == 50 || _audioMissTotal == 500 ||
@@ -726,7 +718,20 @@ namespace WcpHost
                 if (pool == null || pool.Count == 0) return;
                 IList<string> withInfo = GameAdapter.ToWordList(
                     GameAdapter.StaticField(GameAdapter.ParametersType, "S7TestWordList_WithInfo"));
-                if (withInfo != null && withInfo.Count == pool.Count) return;
+                if (withInfo != null && withInfo.Count == pool.Count)
+                {
+                    bool current = true;
+                    for (int i = 0; i < pool.Count; i++)
+                    {
+                        if (withInfo[i] == null ||
+                            !withInfo[i].StartsWith(pool[i] + "##", StringComparison.Ordinal))
+                        {
+                            current = false;
+                            break;
+                        }
+                    }
+                    if (current) return;
+                }
 
                 List<string> rebuilt = new List<string>(pool.Count);
                 for (int i = 0; i < pool.Count; i++) rebuilt.Add(pool[i] + "##0");
@@ -742,15 +747,12 @@ namespace WcpHost
 
         internal string CurrentWord(string displayed)
         {
+            if (!string.IsNullOrEmpty(displayed) && _activeWordSet != null &&
+                _activeWordSet.Contains(displayed)) return displayed;
             string value = CurrentTestWord();
             if (string.Equals(value, displayed, StringComparison.Ordinal)) return value;
             value = CurrentFightWord();
             if (string.Equals(value, displayed, StringComparison.Ordinal)) return value;
-            if (!string.IsNullOrEmpty(displayed) && _activeWords != null)
-            {
-                for (int i = 0; i < _activeWords.Count; i++)
-                    if (string.Equals(_activeWords[i], displayed, StringComparison.Ordinal)) return displayed;
-            }
             return value;
         }
 

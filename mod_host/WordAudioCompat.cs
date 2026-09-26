@@ -8,7 +8,7 @@
 // 留下的目录副本，缺陷只在用户侧暴露——所以这里把 pack 音频补进游戏原生目录。
 //
 // 三条硬约束：
-//   1. 只补缺（目标已存在且大小一致就跳过）—— 幂等、可中断、可重入；
+//   1. 目标大小和 mtime 都一致才跳过；不同则重拷。此兼容层须显式开启；
 //   2. 任何 IO 异常只记录日志并停下，绝不抛进游戏加载路径；
 //   3. 纯逻辑全部是无 Unity 依赖的静态方法，离线 harness 可直接断言。
 //
@@ -38,6 +38,21 @@ namespace WcpHost
 {
     internal static class WordAudioCompat
     {
+        // A displayed reading may be the current word's stem (ja/yue).
+        // A strategy's audio lookup alone cannot authorize it: generic strategies
+        // return the current word even for unrelated text.
+        internal static bool IsManagedRequest(ISet<string> activeWords,
+                                              string displayed, string currentCanonical,
+                                              string currentStem)
+        {
+            return activeWords != null &&
+                ((!string.IsNullOrEmpty(displayed) && activeWords.Contains(displayed)) ||
+                 (!string.IsNullOrEmpty(currentCanonical) &&
+                  activeWords.Contains(currentCanonical) &&
+                  !string.IsNullOrEmpty(currentStem) &&
+                  string.Equals(displayed, currentStem, StringComparison.Ordinal)));
+        }
+
         internal const string StampFileName = ".wcp-mirror.txt";
         // 后台线程已不占帧，这三个上限只作防御（万一被主线程路径复用）。
         internal const int MaxFilesPerFrame = 32;

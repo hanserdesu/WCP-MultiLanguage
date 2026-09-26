@@ -216,24 +216,25 @@ internal static class RegistryTest
         {
             List<string> startup = new List<string> { "external-1", "external-2",
                 "external-3", "external-4", "external-5" };
-            List<string> oldQueue = new List<string> { "foreign-1", "foreign-2",
-                "foreign-3", "foreign-4" };
             List<string> recovered = BattleBookRecovery.Resolve(reg, "自定义词书一",
-                "自定义词书一", startup, recoverSlot, recoverSlot, oldQueue);
+                "自定义词书一", startup, recoverSlot, recoverSlot);
             Check(recovered != null && reg.Match(recovered) != null,
                 "战斗旧队列下仅凭存档与原生槽双指纹恢复词书", "");
             Check(BattleBookRecovery.Resolve(reg, "自定义词书一", "自定义词书二",
-                startup, recoverSlot, recoverSlot, oldQueue) == null,
+                startup, recoverSlot, recoverSlot) == null,
                 "切书中的书名失配不恢复", "");
             Check(BattleBookRecovery.Resolve(reg, "自定义词书一", "自定义词书一",
-                startup, recoverSlot, startup, oldQueue) == null,
+                startup, recoverSlot, startup) == null,
                 "原生槽指纹失配不恢复", "");
             Check(BattleBookRecovery.Resolve(reg, "自定义词书一", "自定义词书一",
-                recoverSlot, recoverSlot, recoverSlot, oldQueue) == null,
+                recoverSlot, recoverSlot, recoverSlot) == null,
                 "已识别的当前词书不被旧队列覆盖", "");
             Check(BattleBookRecovery.Resolve(reg, "自定义词书一", "自定义词书一",
-                startup, recoverSlot, recoverSlot, startup) == null,
-                "当前队列属于内存词书时不恢复存档", "");
+                startup, recoverSlot, recoverSlot) != null,
+                "错误内存词书生成的队列不阻断存档恢复", "");
+            Check(BattleBookRecovery.Resolve(reg, "自定义词书一", "自定义词书一",
+                startup, recoverSlot, null) == null,
+                "原生槽位无词表时不恢复", "");
         }
 
         Console.WriteLine("\n== 槽位回归（真实存档词表 -> Match） ==");
