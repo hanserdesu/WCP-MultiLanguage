@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Build the one-click installer package for WCP-MultiLanguage.
 
 学习 Japanese 一键包（build_installer_payload.py + normalize_installer_eol.py）的
@@ -35,6 +34,7 @@ FILES = [
     "许可说明.txt",
     "一键安装词书.cmd",
     "更新词书资源.cmd",
+    "卸载词书.cmd",
 ]
 REPO = "hanserdesu/WCP-MultiLanguage"
 
@@ -51,7 +51,7 @@ def normalize_eol(path: Path) -> None:
 def gh_token() -> str:
     out = subprocess.run(["git", "credential", "fill"],
                          input="protocol=https\nhost=github.com\n",
-                         capture_output=True, text=True).stdout
+                         capture_output=True, text=True, check=False).stdout
     for line in out.splitlines():
         if line.startswith("password="):
             return line.split("=", 1)[1]

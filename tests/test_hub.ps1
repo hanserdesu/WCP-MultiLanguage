@@ -199,24 +199,29 @@ Check ("$rel 保持 ASCII") (-not $nonAscii)
 $dirSep = [IO.Path]::DirectorySeparatorChar
 $launcherText = Get-Content -LiteralPath (Join-Path $here ('..' + $dirSep + '一键安装词书.cmd')) -Raw -Encoding ASCII
 $updateText = Get-Content -LiteralPath (Join-Path $here ('..' + $dirSep + '更新词书资源.cmd')) -Raw -Encoding ASCII
+$uninstallText = Get-Content -LiteralPath (Join-Path $here ('..' + $dirSep + '卸载词书.cmd')) -Raw -Encoding ASCII
 $buildText = Get-Content -LiteralPath (Join-Path $here ('..' + $dirSep + 'tools' + $dirSep + 'release' + $dirSep + 'build_installer.py')) -Raw -Encoding UTF8
-foreach ($pair in @(@('一键安装词书', $launcherText), @('更新词书资源', $updateText))) {
+foreach ($pair in @(@('一键安装词书', $launcherText), @('更新词书资源', $updateText), @('卸载词书', $uninstallText))) {
     $name = $pair[0]; $text = $pair[1]
     Check ("$name.cmd 带 --keep-open 自重启（否则双击后窗口闪退）") ($text -match 'cmd\.exe /d /k call "%~f0" --keep-open')
     Check ("$name.cmd 声明 WCP_KEEP_OPEN 供启动器判断") ($text -match 'set "WCP_KEEP_OPEN=1"')
     Check ("$name.cmd 经 run-installer.ps1 启动（版本注入 + 错误链）") ($text -match '-File "%HERE%run-installer\.ps1"')
 }
 Check '更新入口把 -Update 传给启动器' ($updateText -match '-File "%HERE%run-installer\.ps1" -Update')
-Check '打包集合直接收录两个双击入口（不再另生成一份）' ($buildText -match '"一键安装词书\.cmd"' -and
-    $buildText -match '"更新词书资源\.cmd"' -and
+Check '卸载入口把 -Uninstall 传给启动器' ($uninstallText -match '-File "%HERE%run-installer\.ps1" -Uninstall')
+Check '打包集合直接收录三个双击入口' ($buildText -match '"一键安装词书\.cmd"' -and
+    $buildText -match '"更新词书资源\.cmd"' -and $buildText -match '"卸载词书\.cmd"' -and
     -not ($buildText -match 'pkg_dir / "一键安装词书\.cmd"'))
 $runnerText = Get-Content -LiteralPath (Join-Path $here ('..' + $dirSep + 'run-installer.ps1')) -Raw -Encoding UTF8
-Check '启动器转发 -Update' ($runnerText -match '\[switch\]\$Update' -and $runnerText -match 'if \(\$Update\) \{ \$installArgs \+= ''-Update'' \}')
+Check '启动器以命名参数转发 -Update 和 -Uninstall' ($runnerText -match '\[switch\]\$Update' -and
+    $runnerText -match '\[switch\]\$Uninstall' -and $runnerText -match '\$installArgs\[\$name\]' -and
+    -not ($runnerText -match '\$installArgs \+= ''-Update'''))
 Check '启动器只在 keep-open 时承诺窗口保留' ($runnerText -match '\$env:WCP_KEEP_OPEN -eq ''1''')
 $installerText2 = Get-Content -LiteralPath (Join-Path $here '..\Install-WCP-Wordbooks.ps1') -Raw -Encoding UTF8
 Check '交互式选择接入安装流程' ($installerText2 -match 'Resolve-InteractivePick -Rows \$rows' -and
     $installerText2 -match 'Get-HubCatalogRows -Catalog \$catalog -InstalledState \$installed')
 Check '-Update 无参数时默认已安装词书' ($installerText2 -match '\$defaultIds = if \(\$Update\) \{ \$installedIds \}')
+Check '安装器不自动写入原生共用音频目录' ($installerText2 -notmatch 'Sync-WordAudioMirror -SourceDir')
 Check '安装状态使用 pack 布局版本' ($installerText -match '\$state\.layout = 2' -and
     (Get-Content -LiteralPath (Join-Path $here '..\WordbookHub.psm1') -Raw -Encoding UTF8) -match 'Layout 1')
 

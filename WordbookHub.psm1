@@ -387,6 +387,53 @@ function Get-InstalledWordbooks {
     return $State.wordbooks
 }
 
+# Only a pack recorded by this Hub, in its own language directory, may be removed.
+# Resolve the final path before the caller issues any recursive removal.
+function Get-HubPackRemovalTarget {
+    param([Parameter(Mandatory = $true)]$Wordbook,
+          [Parameter(Mandatory = $true)]$InstalledState,
+          [Parameter(Mandatory = $true)][string]$PacksRoot)
+    $id = [string]$Wordbook.id
+    $lang = [string]$Wordbook.language
+    if ($lang -cnotmatch '^[a-z]{2,5}$' -or
+        (Get-PropertyNames $InstalledState) -notcontains $id) {
+        throw "词书不属于当前 Hub 安装记录: $id"
+    }
+    $root = [IO.Path]::GetFullPath($PacksRoot).TrimEnd('\', '/')
+    $target = [IO.Path]::GetFullPath((Join-Path $root $lang))
+    if (Test-Path -LiteralPath $root) {
+        $rootItem = Get-Item -LiteralPath $root -Force
+        if (-not $rootItem.PSIsContainer -or
+            ($rootItem.Attributes -band [IO.FileAttributes]::ReparsePoint)) {
+            throw "词书根目录不是普通目录，拒绝卸载: $root"
+        }
+    }
+    if (-not [string]::Equals([IO.Path]::GetDirectoryName($target), $root,
+                             [StringComparison]::OrdinalIgnoreCase)) {
+        throw "词书目录越界，拒绝卸载: $target"
+    }
+    if (Test-Path -LiteralPath $target) {
+        $item = Get-Item -LiteralPath $target -Force
+        if (-not $item.PSIsContainer -or
+            ($item.Attributes -band [IO.FileAttributes]::ReparsePoint)) {
+            throw "词书目录不是普通目录，拒绝卸载: $target"
+        }
+        $linked = Get-ChildItem -LiteralPath $target -Recurse -Force -Attributes ReparsePoint -ErrorAction Stop |
+            Select-Object -First 1
+        if ($linked) { throw "词书目录含链接，拒绝卸载: $target" }
+        $manifestPath = Join-Path $target 'manifest.json'
+        if (-not (Test-Path -LiteralPath $manifestPath)) {
+            throw "词书清单缺失，拒绝卸载: $target"
+        }
+        $manifest = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
+        if ([string]$manifest.language -cne $lang -or
+            [string]$manifest.profile_id -cne [string]$Wordbook.profile_id) {
+            throw "词书清单身份不符，拒绝卸载: $target"
+        }
+    }
+    return $target
+}
+
 function Sync-WordAudioMirror {
     # 单词音频兼容层：把 pack 里的单词音频镜像到游戏原生目录
     # （%USERPROFILE%\AppData\LocalLow\WCP\vocabulary）。
@@ -578,4 +625,4 @@ Export-ModuleMember -Function Import-WordbookCatalog, Assert-WordbookCatalog, `
     Get-WordbookById, Resolve-WordbookSelection, Get-WordbookAssetDiff, `
     Test-WordbookInstalledFully, New-DiskPlan, Test-DiskPlanCompatibility, `
     Read-HubState, Get-InstalledWordbooks, Get-ExtractMb, Test-ExtractKnown, `
-    Get-HubCatalogRows, Get-InstalledBookIds, Resolve-InteractivePick, Sync-WordAudioMirror, Test-WordbookDiskHealth, Test-ModDiskHealth
+    Get-HubCatalogRows, Get-InstalledBookIds, Resolve-InteractivePick, Sync-WordAudioMirror, Test-WordbookDiskHealth, Test-ModDiskHealth, Get-HubPackRemovalTarget

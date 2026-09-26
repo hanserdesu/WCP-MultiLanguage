@@ -11,12 +11,14 @@
 #   .\Install-WCP-Wordbooks.ps1 -Plan -Books fr,ja
 #   .\Install-WCP-Wordbooks.ps1 -All
 #   .\Install-WCP-Wordbooks.ps1 -Books fr -Update
+#   .\Install-WCP-Wordbooks.ps1 -Uninstall -Books fr
 #   .\Install-WCP-Wordbooks.ps1 -List -Offline
 
 param(
     [switch]$List,
     [switch]$Plan,
     [switch]$Update,
+    [switch]$Uninstall,
     [switch]$All,
     [string[]]$Books,
     [string]$CatalogPath,
@@ -32,6 +34,11 @@ param(
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 $script:HubProgressState = @{}
+if ($Uninstall -and ($Update -or $Plan -or $List)) {
+    throw '-Uninstall 不能与 -Update、-Plan 或 -List 同时使用'
+}
+# Uninstall operates on the bundled identity catalog and local installation record.
+if ($Uninstall) { $Offline = $true }
 
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
 Import-Module (Join-Path $here 'WordbookHub.psm1') -Force
@@ -1110,8 +1117,7 @@ function Backup-HubPack([string]$packDir, [string]$backupRoot, [string]$langId) 
     }
 }
 
-Move-LegacyHubWork
-Remove-HubStaleWork
+if (-not $Uninstall) { Move-LegacyHubWork; Remove-HubStaleWork }
 
 # ---------- P1-9 磁盘健康核对（-Update 专属；纯只读核对 + 摘除不健康记录）----------
 # state 只记「下载当时」的资产哈希；磁盘可能已被用户删改/杀软隔离/故障损坏。
@@ -1132,11 +1138,132 @@ if ($Update -and -not $List -and -not $Plan) {
     }
 }
 
+function Update-ManagedLanguagesMarker([string]$gameRoot, [string]$packsDir) {
+    $ready = New-Object System.Collections.Generic.List[string]
+    if (Test-Path -LiteralPath $packsDir) { foreach ($packDir in @(Get-ChildItem -LiteralPath $packsDir -Directory)) {
+        $manifestPath = Join-Path $packDir.FullName 'manifest.json'
+        if (-not (Test-Path -LiteralPath $manifestPath)) { continue }
+        try { $m = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json } catch { continue }
+        if (-not $m -or -not $m.language -or -not $m.resources) { continue }
+        $need = New-Object System.Collections.Generic.List[string]
+        foreach ($k in @('meaning_db', 'sentence_table', 'repair')) {
+            if ($m.resources.$k) { $need.Add([string]$m.resources.$k) }
+        }
+        foreach ($b in @($m.resources.books)) { if ($b) { $need.Add([string]$b) } }
+        $ok = $true
+        foreach ($rel in $need) {
+            if (-not (Test-Path -LiteralPath (Join-Path $packDir.FullName $rel))) { $ok = $false; break }
+        }
+        if ($ok) { $ready.Add([string]$m.language) }
+    } }
+    $marker = Join-Path (Join-Path $gameRoot 'BepInEx') 'config'
+    $marker = Join-Path $marker 'WcpHost.managed.txt'
+    New-Item -ItemType Directory -Force -Path (Split-Path -Parent $marker) | Out-Null
+    [IO.File]::WriteAllLines($marker, [string[]]$ready, (New-Object System.Text.UTF8Encoding($false)))
+    return $ready
+}
+
 # ---------- main ----------
 if ($List) { Show-Catalog; exit 0 }
 
 $game = Get-GameRoot
 if (-not (Test-Path -LiteralPath $data)) { New-Item -ItemType Directory -Path $data -Force | Out-Null }
+
+function Remove-HubOwnedSlotRows([string]$profileId, [string]$lang, [switch]$ValidateOnly) {
+    $changed = 0
+    foreach ($name in @('WcpCustomSlots.json', 'WcpCustomSlots.seed.json')) {
+        $path = Join-Path $data $name
+        if (-not (Test-Path -LiteralPath $path)) { continue }
+        $doc = Get-Content -LiteralPath $path -Raw -Encoding UTF8 | ConvertFrom-Json
+        if ($null -eq $doc -or $null -eq $doc.slots) { throw "槽位文件无效，拒绝继续卸载: $path" }
+        $fileChanged = $false
+        foreach ($row in @($doc.slots)) {
+            if ([string]$row.id -cne $profileId -or [string]$row.language -cne $lang) { continue }
+            if ([string]$row.owner -cne 'mod' -or -not [bool]$row.managed) {
+                throw "槽位归属不符，拒绝修改: $path"
+            }
+            if ([int]$doc.selected -eq [int]$row.number) { $doc.selected = 0 }
+            $row.id = ''; $row.name = ''; $row.language = ''
+            $row.owner = 'external'; $row.managed = $false
+            $row.nativeSlot = 0; $row.words = @()
+            $changed++; $fileChanged = $true
+        }
+        if ($fileChanged -and -not $ValidateOnly) {
+            $backup = $path + '.before-uninstall-' + (Get-Date -Format 'yyyyMMdd-HHmmss') + '.bak'
+            Copy-Item -LiteralPath $path -Destination $backup -ErrorAction Stop
+            $tmp = $path + '.uninstall-tmp'
+            try {
+                [IO.File]::WriteAllText($tmp, ($doc | ConvertTo-Json -Depth 12),
+                    (New-Object System.Text.UTF8Encoding($false)))
+                Move-Item -LiteralPath $tmp -Destination $path -Force -ErrorAction Stop
+            } finally {
+                if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue }
+            }
+        }
+    }
+    return $changed
+}
+
+if ($Uninstall) {
+    $installedIds = @(Get-InstalledBookIds -Catalog $catalog -InstalledState $installed)
+    if ($installedIds.Count -eq 0) { Write-Host '没有由词书中心记录的已安装词书。'; exit 0 }
+    $ids = @()
+    if ($All) { $ids = $installedIds }
+    elseif ($Books) { $ids = @($Books) }
+    else {
+        Show-Catalog
+        $pickRows = @(Get-HubCatalogRows -Catalog $catalog -InstalledState $installed)
+        foreach ($row in $pickRows) { $row.installable = ($installedIds -contains [string]$row.id) }
+        $answer = Read-Host '请输入要卸载的已安装词书编号 (逗号分隔; q=取消)'
+        $pick = Resolve-InteractivePick -Rows $pickRows -Answer $answer
+        if ($pick.cancelled) { Write-Host '已取消'; exit 0 }
+        $ids = @($pick.ids)
+    }
+    $targets = New-Object System.Collections.Generic.List[object]
+    foreach ($id in @($ids | Select-Object -Unique)) {
+        if ($installedIds -notcontains [string]$id) { throw "词书不在当前 Hub 安装记录中: $id" }
+        $wb = Get-WordbookById -Catalog $catalog -Id ([string]$id)
+        foreach ($other in @($catalog.wordbooks)) {
+            if ($other.id -ne $wb.id -and $other.language -eq $wb.language -and
+                $installedIds -contains [string]$other.id -and $ids -notcontains [string]$other.id) {
+                throw "同语言目录仍由另一已安装词书使用，拒绝卸载: $($wb.language)"
+            }
+        }
+        $target = Get-HubPackRemovalTarget -Wordbook $wb -InstalledState $installed -PacksRoot $packsRoot
+        $targets.Add([pscustomobject]@{ book = $wb; path = $target })
+    }
+    foreach ($t in $targets) {
+        [void](Remove-HubOwnedSlotRows -profileId ([string]$t.book.profile_id) -lang ([string]$t.book.language) -ValidateOnly)
+    }
+    Write-Host '将卸载以下词书的私有资源和词书中心槽位记录；游戏存档与第三方词书保留：' -ForegroundColor Cyan
+    foreach ($t in $targets) { Write-Host ('  ' + $t.book.id + ' -> ' + $t.path) }
+    if (-not $Yes) {
+        $answer = Read-Host '确认卸载? (y/n)'
+        if ($answer -notin @('y', 'Y', 'yes', 'Yes')) { Write-Host '已取消'; exit 0 }
+    }
+    $gameFull = [IO.Path]::GetFullPath($game).TrimEnd('\', '/') + [IO.Path]::DirectorySeparatorChar
+    foreach ($proc in @(Get-Process -ErrorAction SilentlyContinue)) {
+        try {
+            if ($proc.Path -and $proc.Path.StartsWith($gameFull, [StringComparison]::OrdinalIgnoreCase)) {
+                throw '请先退出游戏，再卸载词书资源。'
+            }
+        } catch [System.ComponentModel.Win32Exception] { }
+    }
+    if (Test-Path -LiteralPath $statePathResolved) {
+        $backup = $statePathResolved + '.before-uninstall-' + [guid]::NewGuid().ToString('N') + '.bak'
+        Copy-Item -LiteralPath $statePathResolved -Destination $backup -ErrorAction Stop
+    }
+    foreach ($t in $targets) {
+        if (Test-Path -LiteralPath $t.path) { Remove-Item -LiteralPath $t.path -Recurse -Force -ErrorAction Stop }
+        $removedRows = Remove-HubOwnedSlotRows -profileId ([string]$t.book.profile_id) -lang ([string]$t.book.language)
+        $state.wordbooks.PSObject.Properties.Remove([string]$t.book.id)
+        Save-HubState
+        Write-Host ('已卸载 {0}，清理受管槽位记录 {1} 条' -f $t.book.id, $removedRows) -ForegroundColor Green
+    }
+    [void](Update-ManagedLanguagesMarker -gameRoot $game -packsDir $packsRoot)
+    Write-Host '请重新启动游戏。原生存档、共享音频历史文件和其他插件保持原样。' -ForegroundColor Yellow
+    exit 0
+}
 
 $rows = @(Get-HubCatalogRows -Catalog $catalog -InstalledState $installed)
 if ($Books -or $All) {
@@ -1195,32 +1322,6 @@ if (-not $Yes) {
 # 运行时补丁所有权登记（与日语一键安装器同一段逻辑）：按"资源确实就绪"判定受管语言，
 # 写进 <游戏>\BepInEx\config\WcpHost.managed.txt。旧词表插件读到自己的语言在列时
 # 整场不打补丁，运行时补丁只剩宿主一个所有者 —— 这是"俄语切日语后还出俄语"的根因修复。
-function Update-ManagedLanguagesMarker([string]$gameRoot, [string]$packsDir) {
-    $ready = New-Object System.Collections.Generic.List[string]
-    if (-not (Test-Path -LiteralPath $packsDir)) { return $ready }
-    foreach ($packDir in @(Get-ChildItem -LiteralPath $packsDir -Directory)) {
-        $manifestPath = Join-Path $packDir.FullName 'manifest.json'
-        if (-not (Test-Path -LiteralPath $manifestPath)) { continue }
-        try { $m = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json } catch { continue }
-        if (-not $m -or -not $m.language -or -not $m.resources) { continue }
-        $need = New-Object System.Collections.Generic.List[string]
-        foreach ($k in @('meaning_db', 'sentence_table', 'repair')) {
-            if ($m.resources.$k) { $need.Add([string]$m.resources.$k) }
-        }
-        foreach ($b in @($m.resources.books)) { if ($b) { $need.Add([string]$b) } }
-        $ok = $true
-        foreach ($rel in $need) {
-            if (-not (Test-Path -LiteralPath (Join-Path $packDir.FullName $rel))) { $ok = $false; break }
-        }
-        if ($ok) { $ready.Add([string]$m.language) }
-    }
-    $marker = Join-Path (Join-Path $gameRoot 'BepInEx') 'config'
-    $marker = Join-Path $marker 'WcpHost.managed.txt'
-    New-Item -ItemType Directory -Force -Path (Split-Path -Parent $marker) | Out-Null
-    [IO.File]::WriteAllLines($marker, [string[]]$ready, (New-Object System.Text.UTF8Encoding($false)))
-    return $ready
-}
-
 # Mod 本体（BepInEx 插件）与词书资源分开管理：catalog 顶层的 mods 块描述全局
 # mod 载荷，与选择了哪本词书无关。安装/更新任何词书之前先保证 mod 已就位，这样
 # "装完 mod 后槽位扩到 20 条" 对任何语言都成立。state.mods.files 按 sha256 记账，
@@ -1410,18 +1511,6 @@ foreach ($wb in $selection) {
             if ($asset.kind -in @('word_audio', 'sentence_audio')) {
                 $dest = Join-Path (Join-Path $packRoot 'audio') ($asset.kind -replace '_audio$', '')
                 Expand-HubZip $tmp $dest ('[{0}/{1}] 解压 {2}: {3}' -f $done, $totalAssets, $wb.id, $asset.name)
-                if ($asset.kind -eq 'word_audio') {
-                    # 兼容层：游戏的 VocabularyAudioPlayer 只认 <LocalLow>\WCP\vocabulary
-                    # （引擎自带路径）。宿主未接管时该目录为空会让发音静默回退成游戏
-                    # 的英语 AI 语音，所以单词音频在 pack 之外再镜像一份。失败只提示。
-                    $vocabMirror = Join-Path $wcpRoot 'vocabulary'
-                    $mirrored = Sync-WordAudioMirror -SourceDir $dest -VocabDir $vocabMirror
-                    if ($mirrored -lt 0) {
-                        Write-Host ('    提示：单词音频镜像到游戏原生目录失败（不影响主安装）：{0}' -f $vocabMirror) -ForegroundColor DarkYellow
-                    } else {
-                        Write-Host ('    单词音频镜像到游戏原生目录：{0} 个 → {1}' -f $mirrored, $vocabMirror)
-                    }
-                }
             } elseif ($asset.kind -eq 'slot_manifest') {
                 # The custom-slot plugin owns the logical 20-row catalog.  Keep
                 # the seed outside language-specific payload directories so the

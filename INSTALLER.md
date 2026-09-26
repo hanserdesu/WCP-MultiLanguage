@@ -1,5 +1,11 @@
 # WCP 词书一键安装器（Install-WCP-Wordbooks.ps1）
 
+## 更新与卸载
+
+安装包内的 `更新词书资源.cmd` 默认检查已安装词书；GitHub API 返回 403 时回退随包目录。`卸载词书.cmd` 列出 Hub 安装记录中的词书供选择，确认后只删除所选语言的私有包、对应受管逻辑槽位行和 Hub 状态。卸载前须退出游戏。原生存档、第三方词书、共用插件及历史共享 `vocabulary` 音频保留；可再次运行安装入口恢复所卸载词书。
+
+命令行等价用法：`powershell -File run-installer.ps1 -Update`、`powershell -File run-installer.ps1 -Uninstall -Books fr`。
+
 本文件迁自早期的 `WCP-Wordbook-Hub` 分发仓 README；该分发仓已于 2026-09-21 收拢并入本仓库，安装器与资源契约以本文件为准。
 
 `Install-WCP-Wordbooks.ps1` is the resource delivery boundary. A language pack

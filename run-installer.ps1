@@ -12,16 +12,27 @@
 
 param(
     [string]$HostLabel = 'Windows PowerShell',
-    # 双击入口「更新词书资源.cmd」走 -Update；其余参数透传给主脚本。
+    # 显式绑定命名参数；数组中的 '-Update' 会被 PowerShell 当作位置参数。
     [switch]$Update,
-    [Parameter(ValueFromRemainingArguments = $true)]
-    [string[]]$ExtraArgs = @()
+    [switch]$Uninstall,
+    [switch]$List,
+    [switch]$Plan,
+    [switch]$All,
+    [string[]]$Books,
+    [string]$CatalogPath,
+    [string]$GameDir,
+    [string]$DataRoot,
+    [string]$StatePath,
+    [double]$ReserveMb,
+    [switch]$Yes,
+    [switch]$Offline,
+    [string]$GitHubOwner
 )
 
 $ErrorActionPreference = 'Stop'
 
 # 每次发布安装包时同步更新（由 打包安装器.py 维护），失败反馈里会带上这个版本号。
-$InstallerVersion = 'wcp-installer-v0.1.10'
+$InstallerVersion = 'wcp-installer-v0.1.11'
 $IssueBaseUrl = 'https://github.com/hanserdesu/WCP-MultiLanguage/issues/new'
 
 $version = $PSVersionTable.PSVersion.ToString()
@@ -31,9 +42,12 @@ $env:WCP_INSTALLER_VERSION = $InstallerVersion
 $installScript = Join-Path $PSScriptRoot 'Install-WCP-Wordbooks.ps1'
 $success = $false
 $failureDetail = ''
-$installArgs = @()
-if ($Update) { $installArgs += '-Update' }
-if ($ExtraArgs) { $installArgs += $ExtraArgs }
+$installArgs = @{}
+foreach ($name in @('Update', 'Uninstall', 'List', 'Plan', 'All', 'Books',
+                   'CatalogPath', 'GameDir', 'DataRoot', 'StatePath', 'ReserveMb',
+                   'Yes', 'Offline', 'GitHubOwner')) {
+    if ($PSBoundParameters.ContainsKey($name)) { $installArgs[$name] = $PSBoundParameters[$name] }
+}
 
 try {
     & $installScript @installArgs
@@ -103,9 +117,10 @@ try {
 
 Write-Host ''
 if ($success) {
-    Write-Host '安装成功。请重新启动万词破。' -ForegroundColor Green
+    $verb = if ($Uninstall) { '卸载' } elseif ($Update) { '更新' } else { '安装' }
+    Write-Host ($verb + '操作完成。请重新启动万词破。') -ForegroundColor Green
 } else {
-    Write-Host '安装失败。' -ForegroundColor Red
+    Write-Host '操作失败。' -ForegroundColor Red
 }
 # 只有经 --keep-open 双击入口启动时窗口才真的会留着；直接跑脚本时不能乱承诺。
 if ($env:WCP_KEEP_OPEN -eq '1') {
