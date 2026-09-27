@@ -474,8 +474,17 @@ namespace WcpHost
             if (!IsActive || ActiveStrategy == null || instance == null) return;
             try
             {
-                TMP_Text target = FieldText(instance, "targetText");
-                string word = target == null ? StaticString("checkWordInDictionary") : target.text;
+                string panel = instance.GetType().Name;
+                string word;
+                if (panel == "DatabaseManagerS8")
+                    word = StaticString("checkWordInDictionary");
+                else if (panel == "S8checkWordMeaning")
+                    word = GameAdapter.InstanceField(instance, "originalWord") as string;
+                else
+                {
+                    TMP_Text target = FieldText(instance, "targetText");
+                    word = target == null ? null : target.text;
+                }
                 if (string.IsNullOrEmpty(word)) return;
                 if (_activeWordSet == null || !_activeWordSet.Contains(word)) return;
                 string meaning, phonic;
