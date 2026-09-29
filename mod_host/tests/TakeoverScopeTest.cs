@@ -317,6 +317,59 @@ internal static class TakeoverScopeTest
               dailyRevWithLearned.Contains("b1") && dailyRevWithLearned.Contains("b2") &&
               !dailyRevWithLearned.Contains("b3"), "复习队列仅包含本书已学词，不包含未学词");
 
+        // S8ThisMode_Para 动态模式对齐测试：在每日复习/额外复习/已学词测试下，
+        // S8TestWordList_Para 与 S8needToLearnWordList_Para 严格作为 ReviewPool 处理，绝不垫入未学生词
+        scope = SetupBook();
+        var modeRevStats = new StatsStub(); // 没有已学词
+        TakeoverScope.StatsProvider = delegate { return modeRevStats; };
+        GameAdapter.Fields["S8ThisMode_Para"] = "每日复习";
+        GameAdapter.Fields["S8TestWordList_Para"] = new List<string> { "foreign1", "foreign2" };
+        GameAdapter.Fields["S8needToLearnWordList_Para"] = new List<string> { "foreign1", "foreign2" };
+        scope.Enforce();
+        var s8TestRev = ReadPool("S8TestWordList_Para");
+        var s8NeedRev = ReadPool("S8needToLearnWordList_Para");
+        Check(s8TestRev != null && s8TestRev.Count == 0,
+            "每日复习模式下 S8TestWordList_Para 无已学词时清空，绝不注入未学词");
+        Check(s8NeedRev != null && s8NeedRev.Count == 0,
+            "每日复习模式下 S8needToLearnWordList_Para 无已学词时清空，绝不注入未学词");
+
+        // 若当前书有已学词，每日复习仅抽样已学词
+        modeRevStats.Learned.Add("b1");
+        modeRevStats.Learned.Add("b2");
+        GameAdapter.Fields["S8ThisMode_Para"] = "每日复习";
+        GameAdapter.Fields["S8TestWordList_Para"] = new List<string> { "foreign1", "foreign2" };
+        GameAdapter.Fields["S8needToLearnWordList_Para"] = new List<string> { "foreign1", "foreign2" };
+        scope.Enforce();
+        var s8TestWithLearned = ReadPool("S8TestWordList_Para");
+        var s8NeedWithLearned = ReadPool("S8needToLearnWordList_Para");
+        Check(s8TestWithLearned != null && s8TestWithLearned.Count == 2 &&
+              s8TestWithLearned.Contains("b1") && s8TestWithLearned.Contains("b2") &&
+              !s8TestWithLearned.Contains("b3"),
+            "每日复习模式下 S8TestWordList_Para 严格仅取本书已学词");
+        Check(s8NeedWithLearned != null && s8NeedWithLearned.Count == 2 &&
+              s8NeedWithLearned.Contains("b1") && s8NeedWithLearned.Contains("b2") &&
+              !s8NeedWithLearned.Contains("b3"),
+            "每日复习模式下 S8needToLearnWordList_Para 严格仅取本书已学词");
+
+        // 学习模式（每日学习）下，S8TestWordList_Para 仍按 StudyPool 处理（生词优先并补满下限）
+        scope = SetupBook();
+        var studyStats = new StatsStub();
+        TakeoverScope.StatsProvider = delegate { return studyStats; };
+        GameAdapter.Fields["S8ThisMode_Para"] = "每日学习";
+        GameAdapter.Fields["S8TestWordList_Para"] = new List<string> { "foreign1" };
+        scope.Enforce();
+        var s8TestStudy = ReadPool("S8TestWordList_Para");
+        Check(s8TestStudy != null && s8TestStudy.Count >= 5 && NoForeign(s8TestStudy, SixBook()),
+            "每日学习模式下 S8TestWordList_Para 按生词优先正常补池至可玩下限");
+
+        // 学习模式下，若 S8needToLearnWordList_Para 已学到只剩 2 词且干净，不反向撑回 5 词
+        GameAdapter.Fields["S8ThisMode_Para"] = "每日学习";
+        var cleanRemain = new List<string> { "b1", "b2" };
+        GameAdapter.Fields["S8needToLearnWordList_Para"] = cleanRemain;
+        scope.Enforce();
+        Check(ReferenceEquals(cleanRemain, GameAdapter.Fields["S8needToLearnWordList_Para"]),
+            "每日学习进行中 S8needToLearnWordList_Para 倒数不被强制回垫生词");
+
         scope = SetupBook();
         GameAdapter.Fields["S9extraStudy_Para"] = new string[] { "b1", "english" };
         scope.Enforce();

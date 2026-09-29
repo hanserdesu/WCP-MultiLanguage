@@ -60,7 +60,7 @@ namespace WcpHost
 
             // S8 学习类队列（未学词优先）
             new FieldRule("S8TestWordList_Para", false, RuleKind.StudyPool, BookPool.MinPlayable),
-            new FieldRule("S8needToLearnWordList_Para", false, RuleKind.StudyPool, BookPool.MinPlayable),
+            new FieldRule("S8needToLearnWordList_Para", false, RuleKind.StudyPool, 0),
             new FieldRule("S8TestWordList_DailyStudy", false, RuleKind.StudyPool, 0),
             new FieldRule("S8TestWordList_DailyStudy_left", false, RuleKind.StudyPool, 0),
             new FieldRule("S8TestWordList_ExtraStudy", false, RuleKind.StudyPool, 0),
@@ -337,8 +337,16 @@ namespace WcpHost
             IList<string> current = GameAdapter.ToWordList(raw);
             if (current == null || current.Count == 0) return;   // 游戏本来就让它空着: 不凭空造内容
 
+            RuleKind kind = rule.Kind;
+            if (kind == RuleKind.StudyPool &&
+                (rule.Name == "S8TestWordList_Para" || rule.Name == "S8needToLearnWordList_Para") &&
+                IsReviewOrTestMode())
+            {
+                kind = RuleKind.ReviewPool;
+            }
+
             List<string> next;
-            if (rule.Kind == RuleKind.FightPool)
+            if (kind == RuleKind.FightPool)
             {
                 int target = current.Count;
                 if (target < rule.MinTarget) target = rule.MinTarget;
@@ -354,7 +362,7 @@ namespace WcpHost
                     next = plan.Rebuild(true, target);
                 }
             }
-            else if (rule.Kind == RuleKind.StudyPool)
+            else if (kind == RuleKind.StudyPool)
             {
                 int target = current.Count;
                 if (target < rule.MinTarget) target = rule.MinTarget;
@@ -369,7 +377,7 @@ namespace WcpHost
                     next = plan.Rebuild(false, target);
                 }
             }
-            else if (rule.Kind == RuleKind.ReviewPool)
+            else if (kind == RuleKind.ReviewPool)
             {
                 bool foreign = ContainsForeign(current, allowed);
                 bool unlearned = ContainsUnlearned(current, stats);
@@ -639,6 +647,15 @@ namespace WcpHost
         {
             string[] value = GameAdapter.Es3Load(key, typeof(string[]), null, null) as string[];
             return value ?? new string[0];
+        }
+
+        private static bool IsReviewOrTestMode()
+        {
+            object mode = GameAdapter.StaticField(GameAdapter.ParametersType, "S8ThisMode_Para");
+            string s = mode as string;
+            return string.Equals(s, "每日复习", StringComparison.Ordinal) ||
+                   string.Equals(s, "额外复习", StringComparison.Ordinal) ||
+                   string.Equals(s, "已学词测试", StringComparison.Ordinal);
         }
 
         private bool IsLearnedTest()
