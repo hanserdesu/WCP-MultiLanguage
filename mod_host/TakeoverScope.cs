@@ -24,42 +24,55 @@ namespace WcpHost
         /// PreferLearned 决定补池时"本书已学"还是"本书未学"优先:
         ///   复习/测试类池子优先已学，学习类队列优先未学。
         /// </summary>
+        internal enum RuleKind
+        {
+            FightPool,   // S7, S3, S15, S17: 战斗与小游戏词表，优先已学，不足用未学补至至少 MinPlayable
+            StudyPool,   // S8 学习类队列，优先未学
+            ReviewPool,  // 复习与已学测试队列，仅使用本书已学词，绝不补未学词（0即为空）
+            FilterOnly   // 用户勾选结果或纯进度，只过滤外部词
+        }
+
         private sealed class FieldRule
         {
             internal readonly string Name;
             internal readonly bool IsArray;
-            internal readonly bool Rebuild;
-            internal readonly bool PreferLearned;
+            internal readonly RuleKind Kind;
             internal readonly int MinTarget;
 
-            internal FieldRule(string name, bool isArray, bool rebuild, bool preferLearned,
-                               int minTarget)
+            internal FieldRule(string name, bool isArray, RuleKind kind, int minTarget)
             {
                 Name = name;
                 IsArray = isArray;
-                Rebuild = rebuild;
-                PreferLearned = preferLearned;
+                Kind = kind;
                 MinTarget = minTarget;
             }
         }
 
         private static readonly FieldRule[] Rules = new FieldRule[] {
-            // S7 战斗词表。游戏原本用全局已学词典 + one..five 占位词补齐。
-            new FieldRule("S7TestWordList_Para", false, true, true, BookPool.MinPlayable),
-            // S9 已学词测试池（ResetTestListQuick 由全局词典构造）
-            new FieldRule("allTestWordsS10_Para", false, true, true, BookPool.MinPlayable),
-            // S8 学习与复习队列
-            new FieldRule("S8TestWordList_Para", false, true, false, BookPool.MinPlayable),
-            new FieldRule("S8needToLearnWordList_Para", false, true, false, BookPool.MinPlayable),
-            new FieldRule("S8TestWordList_DailyStudy", false, true, false, 0),
-            new FieldRule("S8TestWordList_DailyStudy_left", false, true, false, 0),
-            new FieldRule("S8TestWordList_DailyReview", false, true, true, 0),
-            new FieldRule("S8TestWordList_DailyReview_left", false, true, true, 0),
-            new FieldRule("S8TestWordList_ExtraStudy", false, true, false, 0),
-            new FieldRule("S8TestWordList_ExtraStudy_left", false, true, false, 0),
-            new FieldRule("S8TestWordList_ExtraReview", false, true, true, 0),
-            new FieldRule("S8TestWordList_ExtraReview_left", false, true, true, 0),
-            new FieldRule("S8TestWordList_LearnedTest_left", false, true, true, 0),
+            // S7 战斗与 S3/S15/S17 小游戏词表（要求至少 MinPlayable 词可玩）
+            new FieldRule("S7TestWordList_Para", false, RuleKind.FightPool, BookPool.MinPlayable),
+            new FieldRule("S3TestWordList_Para", false, RuleKind.FightPool, BookPool.MinPlayable),
+            new FieldRule("S15TestWordList_Para", false, RuleKind.FightPool, BookPool.MinPlayable),
+            new FieldRule("S17TestWordList_Para", false, RuleKind.FightPool, BookPool.MinPlayable),
+
+            // S9/S10 已学词测试池（ResetTestListQuick 由全局已学词典构造，切语言时必须只保留本书已学词）
+            new FieldRule("allTestWordsS10_Para", false, RuleKind.ReviewPool, 0),
+
+            // S8 学习类队列（未学词优先）
+            new FieldRule("S8TestWordList_Para", false, RuleKind.StudyPool, BookPool.MinPlayable),
+            new FieldRule("S8needToLearnWordList_Para", false, RuleKind.StudyPool, BookPool.MinPlayable),
+            new FieldRule("S8TestWordList_DailyStudy", false, RuleKind.StudyPool, 0),
+            new FieldRule("S8TestWordList_DailyStudy_left", false, RuleKind.StudyPool, 0),
+            new FieldRule("S8TestWordList_ExtraStudy", false, RuleKind.StudyPool, 0),
+            new FieldRule("S8TestWordList_ExtraStudy_left", false, RuleKind.StudyPool, 0),
+
+            // S8 复习与测试队列（只复习已学词，绝不垫未学生词）
+            new FieldRule("S8TestWordList_DailyReview", false, RuleKind.ReviewPool, 0),
+            new FieldRule("S8TestWordList_DailyReview_left", false, RuleKind.ReviewPool, 0),
+            new FieldRule("S8TestWordList_ExtraReview", false, RuleKind.ReviewPool, 0),
+            new FieldRule("S8TestWordList_ExtraReview_left", false, RuleKind.ReviewPool, 0),
+            new FieldRule("S8TestWordList_LearnedTest_left", false, RuleKind.ReviewPool, 0),
+
             // 进度与用户选择: 只过滤
             // 选词层隔离（2026-09-22）: 自由复习/自选测试的选词页渲染
             // S9CurrentArray_Para，勾选结果写进 S9extraStudy_Para，而
@@ -68,10 +81,10 @@ namespace WcpHost
             // 只过滤候选表剔不干净同形词，所以候选表可从本书重建。
             // 勾选结果是用户选择，只能过滤，不能补进用户没选的词。
             // S9CurrentArray_Para 仍不落盘（原有边界: 它是场景态数组，游戏不读盘）。
-            new FieldRule("S9CurrentArray_Para", true, true, false, 0),
-            new FieldRule("S9extraStudy_Para", true, false, false, 0),
-            new FieldRule("S8HaveLearnedWordList_Para", false, false, false, 0),
-            new FieldRule("S7_SelfChosenWord_List", false, false, false, 0)
+            new FieldRule("S9CurrentArray_Para", true, RuleKind.StudyPool, 0),
+            new FieldRule("S9extraStudy_Para", true, RuleKind.FilterOnly, 0),
+            new FieldRule("S8HaveLearnedWordList_Para", false, RuleKind.FilterOnly, 0),
+            new FieldRule("S7_SelfChosenWord_List", false, RuleKind.FilterOnly, 0)
         };
 
         /// <summary>
@@ -260,7 +273,7 @@ namespace WcpHost
                         try
                         {
                             if (rule.IsArray) EnforceArray(rule, allowed);
-                            else EnforceList(rule, allowed, plan, canRebuild);
+                            else EnforceList(rule, allowed, plan, canRebuild, stats);
                         }
                         catch (Exception e)
                         {
@@ -283,7 +296,7 @@ namespace WcpHost
             if (!_active || _manifest == null || _bookWords == null || _bookWords.Count == 0)
                 return null;
             FieldRule rule = FindRule(fieldName);
-            if (rule == null || !rule.Rebuild) return null;
+            if (rule == null || rule.Kind != RuleKind.FightPool) return null;
             HashSet<string> allowed = BookPool.ToSet(_bookWords);
             if (allowed.Count < BookPool.MinPlayable) return null;
 
@@ -294,7 +307,7 @@ namespace WcpHost
 
             ILearnedStats stats = StatsProvider == null ? null : StatsProvider();
             List<string> rebuilt = BookPool.Rebuild(_bookWords, stats, ReadOrder(),
-                rule.PreferLearned, target);
+                true, target);
             if (rebuilt == null || rebuilt.Count == 0) return null;
             if (Same(current, rebuilt)) return null;
             using (GameAdapter.Es3BatchScope())
@@ -318,14 +331,14 @@ namespace WcpHost
         /// 已经"干净且够长"的列表一律不重写: 保留玩家当前的复习顺序，避免每次轮询都动它。
         /// </summary>
         private void EnforceList(FieldRule rule, HashSet<string> allowed,
-                                 BookPool.Plan plan, bool canRebuild)
+                                 BookPool.Plan plan, bool canRebuild, ILearnedStats stats)
         {
             object raw = GameAdapter.StaticField(GameAdapter.ParametersType, rule.Name);
             IList<string> current = GameAdapter.ToWordList(raw);
             if (current == null || current.Count == 0) return;   // 游戏本来就让它空着: 不凭空造内容
 
             List<string> next;
-            if (rule.Rebuild)
+            if (rule.Kind == RuleKind.FightPool)
             {
                 int target = current.Count;
                 if (target < rule.MinTarget) target = rule.MinTarget;
@@ -338,8 +351,30 @@ namespace WcpHost
                 }
                 else
                 {
-                    next = plan.Rebuild(rule.PreferLearned, target);
+                    next = plan.Rebuild(true, target);
                 }
+            }
+            else if (rule.Kind == RuleKind.StudyPool)
+            {
+                int target = current.Count;
+                if (target < rule.MinTarget) target = rule.MinTarget;
+                bool foreign = ContainsForeign(current, allowed);
+                if (!canRebuild || (!foreign && current.Count >= target))
+                {
+                    next = BookPool.FilterOnly(current, allowed);
+                    if (next == null) return;
+                }
+                else
+                {
+                    next = plan.Rebuild(false, target);
+                }
+            }
+            else if (rule.Kind == RuleKind.ReviewPool)
+            {
+                bool foreign = ContainsForeign(current, allowed);
+                bool unlearned = ContainsUnlearned(current, stats);
+                if (!foreign && !unlearned) return;              // 已经全是本书已学词，保持原顺序
+                next = plan.RebuildLearnedOnly(current.Count);
             }
             else
             {
@@ -359,7 +394,7 @@ namespace WcpHost
             string[] current = ToArray(raw);
             if (current == null || current.Length == 0) return;
             List<string> filtered;
-            if (rule.Rebuild)
+            if (rule.Kind == RuleKind.StudyPool || rule.Kind == RuleKind.FightPool)
             {
                 // 选词层隔离（2026-09-22）: 数组词池与列表词池同一语义。
                 // 书里同形的英语旧词（HaveLearnedDictionary 全集）靠过滤剔不掉，
@@ -370,7 +405,7 @@ namespace WcpHost
                 int target = current.Length;
                 if (target < rule.MinTarget) target = rule.MinTarget;
                 filtered = BookPool.Rebuild(_bookWords, StatsProvider == null ? null : StatsProvider(),
-                    ReadOrder(), rule.PreferLearned, target);
+                    ReadOrder(), rule.Kind == RuleKind.FightPool, target);
                 if (filtered == null || filtered.Count == 0) return;
                 if (filtered.Count > target) filtered.RemoveRange(target, filtered.Count - target);
             }
@@ -428,6 +463,17 @@ namespace WcpHost
                 string word = values[i];
                 if (string.IsNullOrEmpty(word)) continue;
                 if (!allowed.Contains(word.Trim())) return true;
+            }
+            return false;
+        }
+
+        private static bool ContainsUnlearned(IList<string> words, ILearnedStats stats)
+        {
+            if (words == null || words.Count == 0 || stats == null) return false;
+            for (int i = 0; i < words.Count; i++)
+            {
+                string w = words[i];
+                if (!string.IsNullOrEmpty(w) && !stats.IsLearned(w)) return true;
             }
             return false;
         }

@@ -17,9 +17,10 @@ namespace WcpHost
     {
         private const int SlotTestTimes = 0;
         private const int SlotLastStudy = 1;
+        private const int SlotMastery = 2;
 
-        private static readonly FieldInfo[] _fields = new FieldInfo[2];
-        private static readonly bool[] _probed = new bool[2];
+        private static readonly FieldInfo[] _fields = new FieldInfo[3];
+        private static readonly bool[] _probed = new bool[3];
         private static bool _warned;
 
         private readonly IDictionary _entries;
@@ -75,12 +76,20 @@ namespace WcpHost
             return _snap.LastStudyTime(word);
         }
 
+        public int MasteryLevel(string word)
+        {
+            if (string.IsNullOrEmpty(word)) return 0;
+            EnsureSnapshot();
+            return _snap.MasteryLevel(word);
+        }
+
         private void EnsureSnapshot()
         {
             if (_snap != null) return;
             HashSet<string> learned = new HashSet<string>(StringComparer.Ordinal);
             Dictionary<string, int> times = new Dictionary<string, int>(StringComparer.Ordinal);
             Dictionary<string, int> last = new Dictionary<string, int>(StringComparer.Ordinal);
+            Dictionary<string, int> mastery = new Dictionary<string, int>(StringComparer.Ordinal);
             int scanned = 0;
             try
             {
@@ -92,6 +101,7 @@ namespace WcpHost
                     learned.Add(word);
                     times[word] = ReadEntryInt(entry, SlotTestTimes, "testTimes");
                     last[word] = ReadEntryInt(entry, SlotLastStudy, "lastStudyTime");
+                    mastery[word] = ReadEntryInt(entry, SlotMastery, "masteryLevel");
                     scanned++;
                 }
             }
@@ -102,7 +112,7 @@ namespace WcpHost
             }
             if (LastBuildError == null && scanned == 0 && learned.Count == 0 && _entries.Count > 0)
                 LastBuildError = "枚举 0 条（entries=" + _entries.Count + "）";
-            _snap = new LearnedSnapshot(learned, times, last);
+            _snap = new LearnedSnapshot(learned, times, last, mastery);
             ScannedCount = scanned;
         }
 
@@ -127,13 +137,16 @@ namespace WcpHost
             private readonly HashSet<string> _learned;
             private readonly Dictionary<string, int> _times;
             private readonly Dictionary<string, int> _last;
+            private readonly Dictionary<string, int> _mastery;
 
             internal LearnedSnapshot(HashSet<string> learned,
-                Dictionary<string, int> times, Dictionary<string, int> last)
+                Dictionary<string, int> times, Dictionary<string, int> last,
+                Dictionary<string, int> mastery)
             {
                 _learned = learned;
                 _times = times;
                 _last = last;
+                _mastery = mastery;
             }
 
             public bool IsLearned(string word)
@@ -151,6 +164,12 @@ namespace WcpHost
             {
                 int value;
                 return word != null && _last.TryGetValue(word, out value) ? value : 0;
+            }
+
+            public int MasteryLevel(string word)
+            {
+                int value;
+                return word != null && _mastery.TryGetValue(word, out value) ? value : 0;
             }
         }
 

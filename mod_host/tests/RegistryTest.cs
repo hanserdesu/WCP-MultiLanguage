@@ -458,13 +458,13 @@ internal static class RegistryTest
     // Contains+反射；快照把查询变成哈希查找。这里钉死快照的语义边界：
     //   命中/数值 ⟺ 建快照那一刻字典里的内容（Enforce 期间不允许看到中途变化）；
     //   快照建立后字典再变 → 查询仍回答快照时的值（本 Enforce 内的稳定视图）。
-    private sealed class FakeEntry { public int testTimes; public int lastStudyTime; }
+    private sealed class FakeEntry { public int testTimes; public int lastStudyTime; public int masteryLevel; }
 
     private static void CheckLearnedSnapshot()
     {
         Dictionary<string, object> dict = new Dictionary<string, object>();
-        FakeEntry e1 = new FakeEntry(); e1.testTimes = 3; e1.lastStudyTime = 100;
-        FakeEntry e2 = new FakeEntry(); e2.testTimes = 0; e2.lastStudyTime = 55;
+        FakeEntry e1 = new FakeEntry(); e1.testTimes = 3; e1.lastStudyTime = 100; e1.masteryLevel = 2;
+        FakeEntry e2 = new FakeEntry(); e2.testTimes = 0; e2.lastStudyTime = 55; e2.masteryLevel = 0;
         dict["apple"] = e1;
         dict["banana"] = e2;
         dict["cherry"] = null;              // 脏条目：必须被跳过而不是抛异常
@@ -478,6 +478,8 @@ internal static class RegistryTest
             "times=" + stats.TestTimes("apple"));
         Check(stats.LastStudyTime("apple") == 100, "快照给出 lastStudyTime 数值",
             "last=" + stats.LastStudyTime("apple"));
+        Check(stats.MasteryLevel("apple") == 2, "快照给出 masteryLevel 数值",
+            "mastery=" + stats.MasteryLevel("apple"));
         Check(stats.IsLearned("banana") && stats.TestTimes("banana") == 0 &&
               stats.LastStudyTime("banana") == 55, "testTimes=0 的词照常返回 0/时间",
             "b=" + stats.IsLearned("banana") + "/" + stats.TestTimes("banana") + "/" + stats.LastStudyTime("banana"));

@@ -579,18 +579,32 @@ namespace WcpHost
                     BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
             }
             catch (Exception) { reserve = null; }
-            if (reserve == null) return;
-            try
+            if (reserve != null)
             {
-                IList<string> shared =
-                    GameAdapter.StaticField(GameAdapter.ParametersType, "exaple_sentences") as IList<string>;
-                if (shared != null) shared.Clear();
-                for (int i = 0; i < filled.Count; i++)
-                    reserve.Invoke(instance, new object[] { filled[i] });
+                try
+                {
+                    IList<string> shared =
+                        GameAdapter.StaticField(GameAdapter.ParametersType, "exaple_sentences") as IList<string>;
+                    if (shared != null) shared.Clear();
+                    for (int i = 0; i < filled.Count; i++)
+                        reserve.Invoke(instance, new object[] { filled[i] });
+                }
+                catch (Exception e)
+                {
+                    Warn("例句槽填充失败（▶ 例句按钮可能不响）: " + e.Message);
+                }
             }
-            catch (Exception e)
+            else if (slots != null)
             {
-                Warn("例句槽填充失败（▶ 例句按钮可能不响）: " + e.Message);
+                for (int i = 0; i < slots.Length; i++)
+                {
+                    TMP_Text slotText = slots.GetValue(i) as TMP_Text;
+                    if (slotText == null) continue;
+                    if (i < filled.Count)
+                        slotText.text = filled[i];
+                    else
+                        slotText.text = string.Empty;
+                }
             }
         }
 
@@ -639,6 +653,97 @@ namespace WcpHost
             if (!string.IsNullOrEmpty(value)) dst.text = value.Trim();
         }
 
+        internal void PostDictionaryS17(object instance, string word)
+        {
+            if (!IsActive || ActiveStrategy == null || instance == null) return;
+            if (string.IsNullOrEmpty(word)) return;
+            if (_activeWordSet == null || !_activeWordSet.Contains(word)) return;
+            try
+            {
+                ApplySentenceTable(instance, word);
+            }
+            catch (Exception e) { Warn("S17例句面板改写失败: " + e.Message); }
+        }
+
+        internal void PostS15ArrangeOptions()
+        {
+            if (!IsActive || ActiveStrategy == null || _activeWordSet == null || _activeWords == null || _activeWords.Count == 0)
+                return;
+            try
+            {
+                object rawOptions = GameAdapter.StaticField(GameAdapter.ParametersType, "S15AllShowOptions");
+                IList<string> options = rawOptions as IList<string>;
+                if (options == null || options.Count == 0) return;
+
+                bool foreign = false;
+                for (int i = 0; i < options.Count; i++)
+                {
+                    string w = options[i];
+                    if (string.IsNullOrEmpty(w) || !_activeWordSet.Contains(w))
+                    {
+                        foreign = true;
+                        break;
+                    }
+                }
+                if (!foreign) return;
+
+                string right = GameAdapter.StaticField(GameAdapter.ParametersType, "S15RightOption_Para") as string;
+                int targetCount = options.Count;
+                if (targetCount <= 0) targetCount = 4;
+
+                HashSet<string> chosen = new HashSet<string>(StringComparer.Ordinal);
+                if (!string.IsNullOrEmpty(right))
+                    chosen.Add(right);
+
+                List<string> candidates = new List<string>(_activeWords.Count);
+                for (int i = 0; i < _activeWords.Count; i++)
+                {
+                    string w = _activeWords[i];
+                    if (!string.IsNullOrEmpty(w) && !chosen.Contains(w))
+                        candidates.Add(w);
+                }
+
+                System.Random rng = new System.Random();
+                List<string> distractors = new List<string>();
+                int need = targetCount - (string.IsNullOrEmpty(right) ? 0 : 1);
+                while (distractors.Count < need && candidates.Count > 0)
+                {
+                    int idx = rng.Next(candidates.Count);
+                    distractors.Add(candidates[idx]);
+                    candidates.RemoveAt(idx);
+                }
+
+                List<string> newOptions = new List<string>(targetCount);
+                newOptions.AddRange(distractors);
+                if (!string.IsNullOrEmpty(right))
+                    newOptions.Add(right);
+
+                for (int i = newOptions.Count - 1; i > 0; i--)
+                {
+                    int j = rng.Next(i + 1);
+                    string swap = newOptions[i];
+                    newOptions[i] = newOptions[j];
+                    newOptions[j] = swap;
+                }
+
+                List<string> optList = options as List<string>;
+                if (optList != null)
+                {
+                    optList.Clear();
+                    optList.AddRange(newOptions);
+                    GameAdapter.SetStaticField(GameAdapter.ParametersType, "S15AllShowOptions", optList);
+                }
+                else
+                {
+                    GameAdapter.SetStaticField(GameAdapter.ParametersType, "S15AllShowOptions", newOptions);
+                }
+            }
+            catch (Exception e)
+            {
+                Warn("S15选项校正失败: " + e.Message);
+            }
+        }
+
         internal void EnforceNow()
         {
             // 第十轮加标签：原来这里是裸调用，于是"被 Harmony 补丁触发的场景校正"
@@ -656,7 +761,7 @@ namespace WcpHost
         // 快速测试的六种排序入口共用这一条选词边界。游戏原方法从全局
         // HaveLearnedDictionary 取词，法英同形词即使通过本书过滤仍会扎堆。
         // 返回 false 后游戏仍负责保存列表、检查题数和进入原有场景。
-        internal bool PrefixQuickTest(int requested, string method, ref List<string> result)
+        internal bool PrefixQuickTest(int requested, IList<int> labels, string method, ref List<string> result)
         {
             if (!IsActive || ActiveStrategy == null) return true;
             try
@@ -665,6 +770,8 @@ namespace WcpHost
                 order.Mode = method.IndexOf("Ran", StringComparison.Ordinal) >= 0 ? "随机" :
                     method.IndexOf("Neg", StringComparison.Ordinal) >= 0 ? "倒序" : "正序";
                 order.PriorityOn = !method.EndsWith("Off", StringComparison.Ordinal);
+                if (labels != null)
+                    order.AllowedLevels = new HashSet<int>(labels);
                 result = BookPool.QuickTest(_activeWords, GameLearnedStats.FromGame(),
                     order, requested, null);
                 return false;

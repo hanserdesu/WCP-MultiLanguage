@@ -1,4 +1,4 @@
-// Compile the production scope against an in-memory game/storage boundary.
+﻿// Compile the production scope against an in-memory game/storage boundary.
 using System;
 using System.Collections.Generic;
 using WcpHost;
@@ -99,6 +99,7 @@ internal static class TakeoverScopeTest
         public bool IsLearned(string word) { return Learned.Contains(word); }
         public int TestTimes(string word) { int v; return Times.TryGetValue("t" + word, out v) ? v : 0; }
         public int LastStudyTime(string word) { int v; return Times.TryGetValue("s" + word, out v) ? v : 0; }
+        public int MasteryLevel(string word) { int v; return Times.TryGetValue("m" + word, out v) ? v : 0; }
     }
 
     private static string[] SixBook() { return new string[] { "b1", "b2", "b3", "b4", "b5", "b6" }; }
@@ -272,15 +273,49 @@ internal static class TakeoverScopeTest
             "bonjour", "chaise", "maison", "parler", "rouge", "livre" };
         var quickStats = new StatsStub();
         quickStats.Learned.Add("version"); quickStats.Learned.Add("public");
-        var quick = BookPool.QuickTest(quickBook, quickStats,
-            new PoolOrder { Mode = "正序", PriorityOn = true }, 5, new Random(7));
-        Check(quick.Count == 5 && NoForeign(quick, quickBook) &&
-              !quick.Contains("english") && quick.Exists(delegate(string w)
-                  { return w != "version" && w != "public"; }),
-            "快速测试从本书供词，不被全局已学同形词垄断");
-        var shortQuick = BookPool.QuickTest(new string[] { "aller", "manger" },
-            null, new PoolOrder(), 20, new Random(7));
-        Check(shortQuick.Count == 2, "短词书快速测试不注入外语词或占位词");
+        quickStats.Times["mversion"] = 1; quickStats.Times["mpublic"] = 2;
+        var qOrder = new PoolOrder { Mode = "正序", PriorityOn = true, AllowedLevels = new HashSet<int> { 1, 2 } };
+        var quick = BookPool.QuickTest(quickBook, quickStats, qOrder, 5, new Random(7));
+        Check(quick.Count == 2 && NoForeign(quick, quickBook) &&
+              quick.Contains("version") && quick.Contains("public") &&
+              !quick.Contains("aller") && !quick.Contains("bonjour"),
+            "快速测试仅从当前词书已学词抽样，不注入未学词");
+
+        var orderLevel1 = new PoolOrder { Mode = "正序", PriorityOn = true, AllowedLevels = new HashSet<int> { 1 } };
+        var quickLevel1 = BookPool.QuickTest(quickBook, quickStats, orderLevel1, 5, new Random(7));
+        Check(quickLevel1.Count == 1 && quickLevel1[0] == "version",
+            "快速测试按掌握度级别正确过滤");
+
+        var emptyStats = new StatsStub();
+        var emptyQuick = BookPool.QuickTest(quickBook, emptyStats, new PoolOrder(), 20, new Random(7));
+        Check(emptyQuick != null && emptyQuick.Count == 0,
+            "当前词书无已学词时快速测试返回空列表（题数不足）");
+
+        var nullQuick = BookPool.QuickTest(new string[] { "aller", "manger" }, null, new PoolOrder(), 20, new Random(7));
+        Check(nullQuick != null && nullQuick.Count == 0,
+            "null stats 快速测试返回空列表");
+
+        // 复习队列（ReviewPool）原生语义测试：只复习已学词，若当前书没有已学词，绝不垫未学生词
+        scope = SetupBook();
+        var reviewStats = new StatsStub(); // 没有已学词
+        TakeoverScope.StatsProvider = delegate { return reviewStats; };
+        GameAdapter.Fields["S8TestWordList_DailyReview"] = new List<string> { "foreign1", "foreign2" };
+        GameAdapter.Fields["allTestWordsS10_Para"] = new List<string> { "foreign1", "foreign2" };
+        scope.Enforce();
+        var dailyRev = ReadPool("S8TestWordList_DailyReview");
+        Check(dailyRev != null && dailyRev.Count == 0, "复习队列无已学词时清空，绝不注入未学词");
+        var s10Rev = ReadPool("allTestWordsS10_Para");
+        Check(s10Rev != null && s10Rev.Count == 0, "已学测试池无已学词时清空，绝不注入未学词");
+
+        // 若当前书有已学词，则仅从本书已学词抽样
+        reviewStats.Learned.Add("b1");
+        reviewStats.Learned.Add("b2");
+        GameAdapter.Fields["S8TestWordList_DailyReview"] = new List<string> { "foreign1", "foreign2" };
+        scope.Enforce();
+        var dailyRevWithLearned = ReadPool("S8TestWordList_DailyReview");
+        Check(dailyRevWithLearned != null && dailyRevWithLearned.Count == 2 &&
+              dailyRevWithLearned.Contains("b1") && dailyRevWithLearned.Contains("b2") &&
+              !dailyRevWithLearned.Contains("b3"), "复习队列仅包含本书已学词，不包含未学词");
 
         scope = SetupBook();
         GameAdapter.Fields["S9extraStudy_Para"] = new string[] { "b1", "english" };
@@ -477,6 +512,7 @@ internal static class TakeoverScopeTest
         public bool IsLearned(string word) { return Times.ContainsKey("l" + word); }
         public int TestTimes(string word) { TestCalls++; int v; return Times.TryGetValue("t" + word, out v) ? v : 0; }
         public int LastStudyTime(string word) { TimeCalls++; int v; return Times.TryGetValue("s" + word, out v) ? v : 0; }
+        public int MasteryLevel(string word) { int v; return Times.TryGetValue("m" + word, out v) ? v : 0; }
     }
 
     // 旧比较器的参考实现（语义与改动前逐条相同），等价性对照用。

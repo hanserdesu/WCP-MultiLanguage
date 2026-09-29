@@ -26,6 +26,7 @@ namespace WcpHost
         bool IsLearned(string word);
         int TestTimes(string word);
         int LastStudyTime(string word);
+        int MasteryLevel(string word);
     }
 
     /// <summary>游戏的测试排序设置（复刻 ChooseWordManager.TestWordPos/Neg/Ran[Off] 语义）。</summary>
@@ -33,6 +34,7 @@ namespace WcpHost
     {
         internal string Mode = "正序";
         internal bool PriorityOn;
+        internal HashSet<int> AllowedLevels;
     }
 
     internal static class BookPool
@@ -141,30 +143,51 @@ namespace WcpHost
             return result;
         }
 
-        // 快速测试不能从全局 HaveLearnedDictionary 取候选：法英同形词会把
-        // 20 道题几乎全部占满。只从本书词表抽样；全局统计只在选定候选
-        // 之后参与排序，不决定候选资格（游戏的已学词表也没有语言维度）。
+        // 快速测试（已学测试）：只从当前词书且玩家已学习的词中抽样，
+        // 并按掌握度过滤（level0If..level5If 映射为 1,2,3,4,5,0）。
+        // 若当前词书匹配的已学词为 0，返回空列表，原生触发"题数不足"提示，
+        // 绝不向已学测试注入未学词或他语同形词。
         internal static List<string> QuickTest(IList<string> book, ILearnedStats stats, PoolOrder order,
                                                int requested, Random random)
         {
-            if (book == null || book.Count == 0 || requested <= 0) return new List<string>();
+            if (book == null || book.Count == 0 || stats == null || requested <= 0)
+                return new List<string>();
+
             HashSet<string> seen = new HashSet<string>(StringComparer.Ordinal);
-            List<string> result = new List<string>();
-            List<string> remaining = new List<string>();
+            List<string> candidates = new List<string>();
+            HashSet<int> allowed = (order != null) ? order.AllowedLevels : null;
+
             for (int i = 0; i < book.Count; i++)
             {
                 string word = Normalize(book[i]);
-                if (word != null && seen.Add(word)) remaining.Add(word);
+                if (word == null || !seen.Add(word)) continue;
+                if (!stats.IsLearned(word)) continue;
+                if (allowed != null && !allowed.Contains(stats.MasteryLevel(word))) continue;
+                candidates.Add(word);
             }
-            if (random == null) random = new Random();
-            int need = Math.Min(requested, remaining.Count);
-            for (int i = 0; i < need; i++)
+
+            if (candidates.Count == 0) return candidates;
+
+            if (order != null && order.Mode == "随机" && !order.PriorityOn)
             {
-                int j = random.Next(i, remaining.Count);
-                string swap = remaining[i]; remaining[i] = remaining[j]; remaining[j] = swap;
-                result.Add(remaining[i]);
+                if (random == null) random = new Random();
+                for (int i = candidates.Count - 1; i > 0; i--)
+                {
+                    int j = random.Next(i + 1);
+                    string swap = candidates[i];
+                    candidates[i] = candidates[j];
+                    candidates[j] = swap;
+                }
             }
-            if (result.Count > 1) SortBySetting(result, stats, order);
+            else
+            {
+                SortBySetting(candidates, stats, order, random);
+            }
+
+            int need = Math.Min(requested, candidates.Count);
+            if (candidates.Count == need) return candidates;
+            List<string> result = new List<string>(need);
+            for (int i = 0; i < need; i++) result.Add(candidates[i]);
             return result;
         }
 
@@ -177,41 +200,43 @@ namespace WcpHost
         /// </summary>
         internal static void SortBySetting(List<string> words, ILearnedStats stats, PoolOrder order)
         {
+            SortBySetting(words, stats, order, null);
+        }
+
+        internal static void SortBySetting(List<string> words, ILearnedStats stats, PoolOrder order, Random random)
+        {
             if (words == null || words.Count < 2) return;
             if (stats == null) return;
             string mode = (order == null || string.IsNullOrEmpty(order.Mode)) ? "正序" : order.Mode;
+            bool priority = order != null && order.PriorityOn;
             if (mode == "随机")
             {
-                Random rng = new Random();
-                for (int i = words.Count - 1; i > 0; i--)
+                Random rng = random ?? new Random();
+                if (!priority)
                 {
-                    int j = rng.Next(i + 1);
-                    string swap = words[i];
-                    words[i] = words[j];
-                    words[j] = swap;
+                    for (int i = words.Count - 1; i > 0; i--)
+                    {
+                        int j = rng.Next(i + 1);
+                        string swap = words[i];
+                        words[i] = words[j];
+                        words[j] = swap;
+                    }
+                    return;
                 }
-                return;
             }
             bool desc = mode == "倒序";
-            // 第十五轮（2026-09-18）：装饰-排序-脱饰（decorate-sort-undecorate）。
-            // 原实现每**一对比较**都调 stats.TestTimes/LastStudyTime，而
-            // GameLearnedStats 的单次调用 = IDictionary.Contains + 反射
-            // FieldInfo.GetValue —— 8000+ 词书已学几千词时，O(n log n) 次比较
-            // 就是十几万次反射访问，实机首次排序 642.1 / 702.5ms（两轮采样复现）。
-            // 排序键只依赖词本身，排序期间不变 —— 抽取一次（n 次），排序退化为
-            // 纯 int 比较（0 反射）。比较语义与原比较器逐条对应（见下）。
             int n = words.Count;
             string[] ws = words.ToArray();
             int[] primary = new int[n];
             int[] secondary = new int[n];
-            bool priority = order != null && order.PriorityOn;
+            Random ranRng = (mode == "随机" && priority) ? (random ?? new Random()) : null;
             for (int i = 0; i < n; i++)
             {
                 string w = ws[i];
                 if (priority)
                 {
                     primary[i] = stats.TestTimes(w);
-                    secondary[i] = stats.LastStudyTime(w);
+                    secondary[i] = (ranRng != null) ? ranRng.Next() : stats.LastStudyTime(w);
                 }
                 else if (desc) primary[i] = stats.TestTimes(w);
                 else primary[i] = stats.LastStudyTime(w);
@@ -292,6 +317,7 @@ namespace WcpHost
             private readonly PoolOrder _order;
             private List<string> _learnedFirst;    // 已学(排序) ++ 未学(书序)
             private List<string> _unlearnedFirst;  // 未学(书序) ++ 已学(排序)
+            private List<string> _learnedOnly;     // 仅已学(排序)
 
             internal Plan(IList<string> book, ILearnedStats stats, PoolOrder order)
             {
@@ -310,6 +336,19 @@ namespace WcpHost
                 List<string> result = new List<string>(Math.Min(target, source.Count));
                 for (int i = 0; i < source.Count && result.Count < target; i++)
                     result.Add(source[i]);
+                return result;
+            }
+
+            /// <summary>仅从本书已学词抽样，绝不补充未学词（不足则只保留实际已学数，0 即为空）。用于复习/测试队列。</summary>
+            internal List<string> RebuildLearnedOnly(int target)
+            {
+                if (_book == null || _book.Count == 0) return null;
+                EnsureOrdered();
+                if (_learnedOnly == null || _learnedOnly.Count == 0) return new List<string>();
+                int count = Math.Min(target, _learnedOnly.Count);
+                List<string> result = new List<string>(count);
+                for (int i = 0; i < count; i++)
+                    result.Add(_learnedOnly[i]);
                 return result;
             }
 
@@ -333,6 +372,7 @@ namespace WcpHost
                 _unlearnedFirst = new List<string>(learned.Count + unlearned.Count);
                 _unlearnedFirst.AddRange(unlearned);
                 _unlearnedFirst.AddRange(learned);
+                _learnedOnly = new List<string>(learned);
             }
         }
     }

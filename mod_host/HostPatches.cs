@@ -104,6 +104,8 @@ namespace WcpHost
             for (int i = 0; i < types.Length; i++)
                 PatchOne(harmony, types[i], "OnSearchButtonClick", null,
                     AccessTools.Method(typeof(HostPatches), "DictionaryPostfix"));
+            PatchOne(harmony, "DatabaseManagerS17", "OnSearchButtonClick", null,
+                AccessTools.Method(typeof(HostPatches), "DictionaryS17Postfix"));
             string[] answerMethods = new string[] { "ShowAnswer", "ShowAnswerForStudy",
                 "ShowAnswerNoAutoVoice" };
             for (int i = 0; i < answerMethods.Length; i++)
@@ -162,6 +164,12 @@ namespace WcpHost
                 AccessTools.Method(typeof(HostPatches), "S15MeaningPostfix"));
             PatchOne(harmony, "showWordS17", "GetNewWord", null,
                 AccessTools.Method(typeof(HostPatches), "S17MeaningPostfix"));
+            string[] s15Generators = new string[] {
+                "ConsistentGenerate", "ConsistentGenerate2",
+                "ConsistentGenerateFourWay", "ConsistentGenerateTwoWay" };
+            for (int i = 0; i < s15Generators.Length; i++)
+                PatchOne(harmony, s15Generators[i], "arrangeOptions", null,
+                    AccessTools.Method(typeof(HostPatches), "S15ArrangeOptionsPostfix"));
         }
 
         private static void EnforcePrefix()
@@ -183,12 +191,12 @@ namespace WcpHost
             return plugin.Runtime.PrefixPool(ref S7TestWordList_Para, num);
         }
 
-        private static bool QuickTestPrefix(int __0, ref List<string> __result,
+        private static bool QuickTestPrefix(int __0, List<int> __1, ref List<string> __result,
                                             MethodBase __originalMethod)
         {
             WcpHostPlugin plugin = WcpHostPlugin.Instance;
             if (plugin == null || plugin.Runtime == null) return true;
-            return plugin.Runtime.PrefixQuickTest(__0, __originalMethod.Name, ref __result);
+            return plugin.Runtime.PrefixQuickTest(__0, __1, __originalMethod.Name, ref __result);
         }
 
         private static void FightListScenePostfix(object __instance)
@@ -258,6 +266,20 @@ namespace WcpHost
             WcpHostPlugin plugin = WcpHostPlugin.Instance;
             if (plugin != null && plugin.Runtime != null)
                 plugin.Runtime.PostDictionary(__instance);
+        }
+
+        private static void DictionaryS17Postfix(object __instance, string word)
+        {
+            WcpHostPlugin plugin = WcpHostPlugin.Instance;
+            if (plugin != null && plugin.Runtime != null)
+                plugin.Runtime.PostDictionaryS17(__instance, word);
+        }
+
+        private static void S15ArrangeOptionsPostfix()
+        {
+            WcpHostPlugin plugin = WcpHostPlugin.Instance;
+            if (plugin != null && plugin.Runtime != null)
+                plugin.Runtime.PostS15ArrangeOptions();
         }
 
         private static void AnswerPostfix(object __instance)
